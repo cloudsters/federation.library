@@ -1,0 +1,8 @@
+# generated from the release records (library.md R6); never edited by hand
+releases:
+- id: commons-essentials
+  kind: extension
+  version: 0.2.0
+  record: commons-essentials/0.2.0/release.yml
+  digest: sha256:429b0a1787dfdf205a17c3f36401555d6c98a4013b42e4bea9525c7bc5773472
+  state: released

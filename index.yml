@@ -6,3 +6,15 @@ releases:
   record: commons-essentials/0.2.0/release.yml
   digest: sha256:429b0a1787dfdf205a17c3f36401555d6c98a4013b42e4bea9525c7bc5773472
   state: released
+- id: patterns
+  kind: extract
+  version: v2026.11.0
+  record: patterns/v2026.11.0/release.yml
+  digest: sha256:e9958ba477f6fe7552a7a95b29694b3a864c58c5396f01e361943141e7273ea9
+  state: retired
+- id: patterns
+  kind: extract
+  version: v2026.11.2
+  record: patterns/v2026.11.2/release.yml
+  digest: sha256:bdd866ab88ddc95822836865e52307c2881f14da727f56ac20d626f78b72a2cf
+  state: released

@@ -1,0 +1,20 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: extract
+library: commons-engineering
+version: v2026.11.0
+made_in: Commons-Engineering/commons.core@0606a3e39bda2bd9699be1e0510b7fd643dd23da
+event: Commons-Engineering/commons.core@0606a3e39bda2bd9699be1e0510b7fd643dd23da:lifecycle/events/2026-11-04-release-patterns-v2026.11.0.yml
+gate:
+  result: pass
+  check: Commons-Engineering/commons.core@0606a3e:specs/tools/check_library.py
+graph_run: commons-2026-11-04
+extractor: Commons-Engineering/commons.core@0606a3e:specs/tools/extract.py
+policy: Commons-Engineering/commons.core@0606a3e:.commons/patterns-policy.yml
+scope: orbits 0-3
+digest: sha256:6245c12653f7b3146b82f60ef0507449e51d57a3e0be7e2a82efac32f38c4916
+parts:
+  patterns:
+    class: public
+    digest: sha256:5726f8a1c0706315114f95a142ea687a488388e46e39fa595cb30569751c6c64
+licence: CC-BY-SA-4.0
+answers: Commons-Engineering/commons.core

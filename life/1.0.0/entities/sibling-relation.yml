@@ -1,0 +1,33 @@
+kind: entity
+slug: sibling-relation
+title: Sibling Relation
+type: master
+summary: Someone who shares this person's upbringing. The longest relation most lives contain, and the one least often given explicit
+  terms.
+attributes:
+- name: related-by
+  type: code
+  card: 1..1
+- name: distance
+  type: code
+  card: 0..1
+- name: shared-duties
+  type: text
+  card: 0..*
+- name: unspoken-terms
+  type: text
+  card: 0..*
+- name: last-real-conversation
+  type: date
+  card: 0..1
+states:
+- close
+- drifted
+- silent
+- talking it through
+- reconnected
+relations:
+- target: self
+  type: about
+- target: family-charter
+  type: based-on

@@ -1,0 +1,78 @@
+kind: value-stream
+slug: talent-to-skill
+title: Honing a Natural Gift
+family: discovery-to-usage
+summary: The disciplined working of what comes naturally into something that can be relied on. Talent without craft stays potential;
+  craft without talent stays competence.
+trigger: Something that comes easily keeps drawing the person back, or they notice others relying on it while they still treat it
+  as luck.
+outcome: What came naturally has become something the person can rely on on an ordinary day, not only when inspired.
+stakeholders:
+- mentor
+- collaborator
+- community
+steps:
+- slug: noticing-the-gift
+  title: Noticing the Gift
+  summary: Seeing what comes easily and keeps drawing the person back, and no longer calling it luck.
+  capabilities:
+  - recognising-ones-gifts
+  entities:
+  - natural-gift
+  - self
+- slug: asking-what-others-count-on
+  title: Asking What Others Count On
+  summary: Asking people directly what they rely on the person for, and listening for the pattern in their answers.
+  capabilities:
+  - inviting-honest-response
+  - recognising-ones-gifts
+  entities:
+  - other-perception
+  - friend
+  - mentor-relation
+  serves:
+  - heart-to-heart
+  - mentoring-conversation
+- slug: finding-someone-further-along
+  title: Finding Someone Further Along
+  summary: Seeking out a mentor or a community who can see the gift's next step more clearly than the person can.
+  capabilities:
+  - finding-a-mentor
+  entities:
+  - mentor-relation
+  - community-relation
+  serves:
+  - mentoring-conversation
+  - practising-together
+  - the-lesson
+- slug: practising-the-dull-parts
+  title: Practising the Dull Parts
+  summary: Working on the basics the gift once let the person skip, so it holds on an ordinary day and not only an inspired one.
+  capabilities:
+  - practising-at-the-edge
+  - keeping-a-practice-rhythm
+  entities:
+  - creative-practice
+  - daily-rhythm
+  - skill
+- slug: relying-on-it-under-load
+  title: Relying on It Under Load
+  summary: Putting the gift to work where others depend on it and seeing honestly whether it holds.
+  capabilities:
+  - applying-while-learning
+  entities:
+  - skill
+  - offering
+  - venture
+  serves:
+  - client-meeting
+  - the-workplace
+- slug: owning-the-craft
+  title: Owning the Craft
+  summary: Recognising that what came naturally has become a craft the person can name, rely on and offer.
+  capabilities:
+  - naming-ones-craft
+  entities:
+  - skill-inventory
+  - natural-gift
+  - life-narrative

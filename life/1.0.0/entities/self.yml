@@ -1,0 +1,39 @@
+kind: entity
+slug: self
+title: Self
+type: master
+summary: 'The person whose life this models — the one subject every other entity here is relative to. It is the seat of both perceptions:
+  what this person sees looking inward, and what others report seeing.'
+attributes:
+- name: own-words
+  type: text
+  card: 1..1
+- name: selves-lived
+  type: text
+  card: 0..*
+- name: birth-date
+  type: date
+  card: 0..1
+- name: counted-on-for
+  type: list(natural-gift)
+  card: 0..*
+- name: holds
+  type: reference(value-set)
+  card: 0..1
+- name: story-told
+  type: reference(life-narrative)
+  card: 0..1
+- name: last-revised
+  type: date
+  card: 0..1
+states:
+- borrowed
+- questioned
+- named
+- lived openly
+- revised
+relations:
+- target: body
+  type: depends-on
+- target: value-set
+  type: based-on

@@ -1,0 +1,21 @@
+kind: journey
+slug: hearing-a-limit
+title: Hearing a Limit
+stakeholder: employer
+via: demand-to-fulfillment
+summary: An employer is told a limit plainly and before it is reached, and finds it held kindly when it is pushed.
+stages:
+- slug: hear-it-early
+  title: Hear It Early
+  goal: The employer has been told the limit before it was reached, without apology and without a long explanation.
+  step: limit-to-declaration/saying-it-early
+  touchpoints:
+  - talk-with-the-boss
+  - hard-conversation
+- slug: find-it-held
+  title: Find It Held
+  goal: When the limit was pushed, it held, and the employer was left free to have their reaction.
+  step: limit-to-declaration/holding-it-when-tested
+  touchpoints:
+  - hard-conversation
+  - away-message

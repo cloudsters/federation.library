@@ -1,0 +1,38 @@
+kind: journey
+slug: being-brought-on
+title: Being Brought On
+stakeholder: mentee
+via: contributor-to-succession
+summary: Someone starting out asks how it was done, is given time and teaching alongside the work, is listened to in return, and is
+  let go further than the one who taught them.
+stages:
+- slug: ask-how
+  title: Ask How
+  goal: The mentee's question has been taken seriously and answered from lived experience.
+  step: experience-to-teaching/being-asked-how
+  touchpoints:
+  - mentoring-conversation
+- slug: be-given-room
+  title: Be Given Room
+  goal: The mentee knows how much time is offered and what is expected, because it was said plainly.
+  step: experience-to-teaching/making-room-for-someone
+  touchpoints:
+  - mentoring-conversation
+- slug: learn-by-doing
+  title: Learn by Doing
+  goal: The mentee has worked alongside, tried, got it wrong and asked, rather than been told from a distance.
+  step: experience-to-teaching/teaching-by-doing-together
+  touchpoints:
+  - working-side-by-side
+- slug: be-heard-in-return
+  title: Be Heard in Return
+  goal: What the mentee sees has changed how the elder works, and the mentee has been told so.
+  step: experience-to-teaching/learning-in-return
+  touchpoints:
+  - mentoring-conversation
+- slug: go-further
+  title: Go Further
+  goal: The mentee stands without the mentor and has been let go gladly rather than held back.
+  step: experience-to-teaching/letting-them-go-further
+  touchpoints:
+  - mentoring-conversation

@@ -1,0 +1,33 @@
+kind: journey
+slug: carrying-part-of-the-work
+title: Carrying Part of the Work
+stakeholder: synthetic-collaborator
+via: collaboration-to-automation
+summary: A machine collaborator is handed the parts of the work that are only steps, with clear limits, is watched closely enough
+  to be caught when it is quietly wrong, and has the line moved on purpose.
+stages:
+- slug: be-seen-as-able
+  title: Be Seen as Able
+  goal: It has been noticed that the agent can now do part of the work.
+  step: work-to-agent/seeing-a-machine-can-do-it
+  touchpoints:
+  - talking-with-an-agent
+  - the-workplace
+- slug: be-handed-it-with-care
+  title: Be Handed It with Care
+  goal: The agent carries what it was given within clear limits, with its first runs watched closely.
+  step: work-to-agent/handing-over-with-care
+  touchpoints:
+  - agent-instructions
+- slug: be-checked
+  title: Be Checked
+  goal: The agent's output is read by someone close enough to the work to notice when it is quietly wrong.
+  step: work-to-agent/keeping-the-judgement-sharp
+  touchpoints:
+  - talking-with-an-agent
+- slug: have-the-line-redrawn
+  title: Have the Line Redrawn
+  goal: The line between what the agent carries and what stays human has been moved on purpose, in either direction.
+  step: work-to-agent/redrawing-the-line
+  touchpoints:
+  - agent-instructions

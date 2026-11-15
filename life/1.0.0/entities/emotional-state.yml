@@ -1,0 +1,38 @@
+kind: entity
+slug: emotional-state
+title: Emotional State
+type: intelligence
+summary: A state this person wants to be able to reach, held with the repeatable procedure that produces it. The claim is that a state
+  has a recipe and can be run deliberately rather than waited for — which is a different object from noticing what arrived.
+attributes:
+- name: state
+  type: text
+  card: 1..1
+- name: recipe
+  type: text
+  card: 1..*
+- name: takes
+  type: duration
+  card: 0..1
+- name: when-needed
+  type: text
+  card: 0..*
+- name: last-run
+  type: date
+  card: 0..1
+- name: works-reliably
+  type: boolean
+  card: 0..1
+states:
+- sought
+- found
+- practised
+- dependable
+- fading
+relations:
+- target: self
+  type: about
+- target: mood-record
+  type: based-on
+- target: spiritual-practice
+  type: depends-on

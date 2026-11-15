@@ -1,0 +1,35 @@
+kind: entity
+slug: civic-action
+title: Civic Action
+type: transactional
+summary: An act taken as a member of a polity — voting, attending a hearing, signing, organising, serving on a body. Small, dated,
+  and the only place in this model where the life acts on something larger than its own circles.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: about
+  type: text
+  card: 1..1
+- name: in
+  type: reference(commons-instance)
+  card: 0..1
+- name: what-was-said
+  type: text
+  card: 0..1
+- name: what-followed
+  type: text
+  card: 0..1
+states:
+- considered
+- taken
+- answered
+- followed through
+relations:
+- target: commons-instance
+  type: serves
+- target: contribution-record
+  type: depends-on

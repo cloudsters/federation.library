@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: tax-for-commons
+title: Tax for Commons
+between:
+- self
+- authority
+- community
+offered:
+- Tax paid, papers on time and a vote cast.
+returned:
+- Schools, roads and care that others keep up, and a say in how they run.
+touchpoint: the-ballot

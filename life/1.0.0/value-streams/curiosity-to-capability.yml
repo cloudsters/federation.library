@@ -1,0 +1,91 @@
+kind: value-stream
+slug: curiosity-to-capability
+title: Learning That Lasts
+family: contributor-to-succession
+summary: Learning that survives contact with the next month. Most of what a person studies does not; the difference is in how it was
+  taken in.
+trigger: Something catches the person's interest and will not let go, or what they studied last year has already slipped away.
+outcome: What the person learns stays with them and is there to draw on when it is needed, months and years later.
+stakeholders:
+- mentor
+- collaborator
+- community
+- synthetic-collaborator
+steps:
+- slug: following-the-pull
+  title: Following the Pull
+  summary: Something catches the person's interest and will not let go, and they let it lead for a while instead of filing it away
+    for later.
+  capabilities:
+  - noticing-genuine-curiosity
+  entities:
+  - self
+  - reading-list
+  - journal
+- slug: choosing-what-to-learn
+  title: Choosing What to Learn
+  summary: Out of everything that interests them, the person picks one thing to learn properly now and decides how they will know
+    whether to keep going.
+  capabilities:
+  - choosing-what-to-learn
+  - setting-an-exit-test
+  entities:
+  - learning-plan
+  - intention
+- slug: taking-it-in-actively
+  title: Taking It In Actively
+  summary: Reading, listening or watching with a question in hand, then closing the book and saying it back in one's own words rather
+    than letting it wash past.
+  capabilities:
+  - recalling-before-rereading
+  - explaining-to-understand
+  entities:
+  - learning-event
+  - reading-list
+  - journal
+- slug: using-it-early
+  title: Using It Before Ready
+  summary: Putting the new thing to work on something real while it is still shaky, because use is what makes learning stay.
+  capabilities:
+  - applying-while-learning
+  entities:
+  - learning-event
+  - skill
+  - experience
+- slug: returning-at-intervals
+  title: Returning at Intervals
+  summary: Coming back to what was learned after days, then weeks, then months, and finding out honestly what has already slipped.
+  capabilities:
+  - spacing-the-return
+  - recalling-before-rereading
+  entities:
+  - skill-inventory
+  - journal
+  - review-cadence
+- slug: learning-alongside-others
+  title: Learning Alongside Others
+  summary: Explaining it to someone, asking a mentor, arguing it with a peer or a machine collaborator, so the understanding is tested
+    outside one's own head.
+  capabilities:
+  - learning-in-company
+  - explaining-to-understand
+  - working-with-machine-collaborators
+  entities:
+  - mentor-relation
+  - community-relation
+  - agent
+  - conversation
+  serves:
+  - mentoring-conversation
+  - talking-with-an-agent
+  - the-class
+- slug: noticing-what-stayed
+  title: Noticing What Stayed
+  summary: Looking back at what was actually used afterwards, letting go of what never was, and carrying the rest into the next thing
+    to learn.
+  capabilities:
+  - reviewing-what-was-used
+  entities:
+  - learning-event
+  - skill-inventory
+  - learning-plan

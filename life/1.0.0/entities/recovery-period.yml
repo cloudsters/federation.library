@@ -1,0 +1,36 @@
+kind: entity
+slug: recovery-period
+title: Recovery Period
+type: transactional
+summary: Time deliberately taken out — a holiday, a retreat, a sabbatical, a week after something hard. Recorded with whether work
+  actually stopped, since the ones where it did not are the ones that did nothing.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: when
+  type: period
+  card: 1..1
+- name: work-stopped
+  type: boolean
+  card: 1..1
+- name: planned
+  type: boolean
+  card: 1..1
+- name: after-what
+  type: text
+  card: 0..1
+- name: what-restored
+  type: text
+  card: 0..*
+states:
+- needed
+- planned
+- taken
+- shortened
+- restored
+relations:
+- target: body
+  type: serves
+- target: weekly-rhythm
+  type: part-of

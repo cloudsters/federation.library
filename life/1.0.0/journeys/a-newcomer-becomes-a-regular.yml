@@ -1,0 +1,43 @@
+kind: journey
+slug: a-newcomer-becomes-a-regular
+title: A Newcomer Becomes a Regular
+stakeholder: community
+via: participant-to-community
+summary: A group meets someone new who keeps turning up, lets them in, and later finds them holding the door for the next newcomer
+  or opening a room where none existed.
+stages:
+- slug: meet-a-stranger
+  title: Meet a Stranger
+  goal: A stranger has found the group's room and been met there.
+  step: encounter-to-belonging/finding-the-rooms
+  touchpoints:
+  - regular-gathering
+  - place-of-worship
+  - the-class
+  - volunteer-shift
+  - the-neighbourhood
+- slug: see-them-again
+  title: See Them Again
+  goal: The same face has come back at the same time, often enough to be expected.
+  step: encounter-to-belonging/turning-up-again
+  touchpoints:
+  - regular-gathering
+  - place-of-worship
+- slug: let-them-in
+  title: Let Them In
+  goal: The group uses the newcomer's name, asks where they were and hands them a task.
+  step: encounter-to-belonging/being-let-in
+  touchpoints:
+  - regular-gathering
+- slug: gain-a-new-room
+  title: Gain a New Room
+  goal: Where no room existed, one has been opened that others can join.
+  step: encounter-to-belonging/making-a-room-where-none-exists
+  touchpoints:
+  - open-table
+- slug: gain-a-door-holder
+  title: Gain a Door Holder
+  goal: The one once let in now opens the way for the next newcomer at the edge.
+  step: encounter-to-belonging/holding-the-door
+  touchpoints:
+  - regular-gathering

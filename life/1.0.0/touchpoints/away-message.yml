@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: away-message
+title: The Away Message
+medium: channel
+mode: written
+summary: The notice that says when a person can be reached, when not, and who covers in between.
+exchanges:
+- limit-for-reliability
+journey: hearing-a-limit

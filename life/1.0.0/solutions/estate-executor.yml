@@ -1,0 +1,12 @@
+kind: solution
+slug: estate-executor
+title: Estate Executor
+role: person
+sovereignty: held-by-another
+summary: Carries out what the will says once the person has died — settles what is owed, closes accounts, hands things on.
+carries:
+- handing-things-over
+holds:
+- will
+- account
+- obligation

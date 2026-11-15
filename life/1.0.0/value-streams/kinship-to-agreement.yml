@@ -1,0 +1,91 @@
+kind: value-stream
+slug: kinship-to-agreement
+title: Renegotiating Family Terms
+family: participant-to-community
+summary: Making the unspoken terms of family visible enough to renegotiate. The obligations nobody agreed to are the ones everybody
+  is held to, and they are renegotiable far later in life than most people believe.
+trigger: A parent grows frail, a sibling stops speaking, a child leaves home, or a family gathering leaves a resentment nobody can
+  name, and an old unspoken rule is felt again.
+outcome: The terms the family actually lives by are visible enough to talk about, and the ones nobody agreed to have been kept, changed
+  or set down by choice.
+stakeholders:
+- parent
+- sibling
+- partner
+- child
+- dependant
+steps:
+- slug: feeling-the-old-rule
+  title: Feeling the Old Rule
+  summary: A parent grows frail, a sibling goes silent, a child leaves, or a gathering leaves a resentment nobody can name, and an
+    unspoken family rule is felt again.
+  capabilities:
+  - hearing-unspoken-family-rules
+  entities:
+  - parent-relation
+  - sibling-relation
+  - family-charter
+  serves:
+  - family-gathering
+  - visiting-an-ageing-parent
+- slug: naming-what-was-never-said
+  title: Naming What Was Never Said
+  summary: Putting into words the terms the family actually lives by, who visits, who pays, who cares for whom, what is never mentioned.
+  capabilities:
+  - hearing-unspoken-family-rules
+  - making-terms-explicit
+  entities:
+  - family-charter
+  - premise
+  - ancestor
+- slug: sorting-loyalty-from-duty
+  title: Sorting Loyalty from Duty
+  summary: Telling apart what the person gives from love, what they owe from fairness, and what they carry only because nobody ever
+    asked.
+  capabilities:
+  - telling-love-from-inherited-duty
+  entities:
+  - premise
+  - parent-relation
+  - dependant-relation
+- slug: talking-it-through
+  title: Talking It Through
+  summary: Raising the terms with those they bind at a calm moment, and hearing how the same rule looks from the other seats at the
+    table.
+  capabilities:
+  - raising-a-hard-subject-calmly
+  - listening-to-the-other-side
+  entities:
+  - conversation
+  - parent-relation
+  - sibling-relation
+  - partner-relation
+  serves:
+  - hard-conversation
+  - kitchen-table
+- slug: keeping-changing-setting-down
+  title: Keeping, Changing, Setting Down
+  summary: Deciding together, or alone where agreement is not possible, which terms stay, which change, and which the person will
+    no longer carry.
+  capabilities:
+  - making-terms-explicit
+  - letting-things-go
+  entities:
+  - family-charter
+  - relationship-agreement
+  - decision
+  serves:
+  - care-rota
+  - kitchen-table
+- slug: living-the-new-terms
+  title: Living the New Terms
+  summary: Holding the changed terms when the old pull returns at the next holiday or crisis, and revisiting them as roles shift with
+    age.
+  capabilities:
+  - holding-a-changed-pattern
+  entities:
+  - family-charter
+  - ritual
+  - transition
+  serves:
+  - family-gathering

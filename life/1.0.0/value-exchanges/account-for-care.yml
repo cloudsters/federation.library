@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: account-for-care
+title: Account for Care
+between:
+- self
+- practitioner
+offered:
+- An honest, early account of what has changed, with a simple record and a say in what matters.
+returned:
+- Care that reads the signal while it is still information, and decisions made together rather than for.
+touchpoint: hospital-ward

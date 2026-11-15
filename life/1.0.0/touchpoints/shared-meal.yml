@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shared-meal
+title: The Shared Meal
+medium: moment
+mode: shared-presence
+summary: Eating at one table with others, slowly enough that there is room to talk.
+exchanges:
+- presence-for-belonging
+journey: friendship-over-years

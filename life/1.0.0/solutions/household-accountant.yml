@@ -1,0 +1,15 @@
+kind: solution
+slug: household-accountant
+title: Household Accountant
+role: person
+sovereignty: third-party
+summary: Keeps the household's books and tax papers in order and says plainly where the money went and what is owed.
+carries:
+- keeping-papers-in-order
+- seeing-where-money-goes
+- facing-what-one-owes
+holds:
+- financial-position
+- income-event
+- expense
+- obligation

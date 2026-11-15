@@ -1,0 +1,36 @@
+kind: entity
+slug: relocation
+title: Relocation
+type: transactional
+summary: Moving to a different home, city or country. It is entered as one event and works through the model as many, which is why
+  lives consistently underestimate it.
+attributes:
+- name: from
+  type: reference(home)
+  card: 0..1
+- name: to
+  type: reference(home)
+  card: 0..1
+- name: moved-on
+  type: date
+  card: 1..1
+- name: reason
+  type: text
+  card: 1..1
+- name: left-behind
+  type: list(community)
+  card: 0..*
+- name: what-it-set-moving
+  type: text
+  card: 0..*
+states:
+- considered
+- decided
+- under way
+- arrived
+- settled in
+relations:
+- target: transition
+  type: part-of
+- target: home
+  type: about

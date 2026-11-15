@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: phone-call
+title: The Phone Call
+medium: channel
+mode: spoken
+summary: A voice at a distance, whether a standing call that keeps a bond or the call that brings news.
+exchanges:
+- presence-for-belonging
+- help-for-letting-in
+- preparation-for-calm
+journey: friendship-over-years

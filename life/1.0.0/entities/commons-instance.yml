@@ -1,0 +1,39 @@
+kind: entity
+slug: commons-instance
+title: Commons
+type: master
+summary: A commons this life participates in or stewards — a household, an association, a cooperative, a network, a place. Distinct
+  from `community`, which names the people; this names the governed thing they hold together.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: part-held
+  type: code
+  card: 1..1
+- name: what-is-drawn
+  type: text
+  card: 0..*
+- name: what-is-given
+  type: text
+  card: 0..*
+- name: where-it-decides
+  type: text
+  card: 0..1
+- name: terms
+  type: reference(commons-charter)
+  card: 0..1
+- name: member-since
+  type: date
+  card: 0..1
+states:
+- used without noticing
+- joined
+- contributing
+- sharing in decisions
+- stepped back
+relations:
+- target: commons-charter
+  type: based-on
+- target: community-relation
+  type: depends-on

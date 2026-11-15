@@ -30,3 +30,9 @@ releases:
   record: patterns/v2026.11.3/release.yml
   digest: sha256:646c38657671a81cbe7447894094709071cc97459cdaa1f358d6acc5a31c3bf4
   state: released
+- id: life
+  kind: model
+  version: 1.0.0
+  record: life/1.0.0/release.yml
+  digest: sha256:59296556bc3e1dc930c07d7a3fa8afc38c96a3399cb3fae1ad1685c269c8a06c
+  state: released

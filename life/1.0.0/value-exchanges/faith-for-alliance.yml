@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: faith-for-alliance
+title: Faith for Alliance
+between:
+- self
+- collaborator
+- provider
+- client
+offered:
+- Favours, referrals and promises kept between deals, and disputes talked through before the contract.
+returned:
+- An alliance both sides defend when a delivery fails or a price is disputed.
+touchpoint: hard-conversation

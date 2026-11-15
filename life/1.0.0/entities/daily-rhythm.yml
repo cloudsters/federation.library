@@ -1,0 +1,41 @@
+kind: entity
+slug: daily-rhythm
+title: Daily Rhythm
+type: governance
+summary: How this person has designed a day — what the first hour holds, when the hardest work goes, when the day stops. Held as a
+  design rather than a habit, because it is the design that can be examined when the days stop working.
+attributes:
+- name: first-hour
+  type: text
+  card: 0..1
+- name: hardest-work-when
+  type: text
+  card: 0..1
+- name: stopping-time
+  type: text
+  card: 0..1
+- name: sleep-window
+  type: text
+  card: 0..1
+- name: fixed-points
+  type: text
+  card: 0..*
+- name: agreed-with
+  type: text
+  card: 0..*
+- name: designed-on
+  type: date
+  card: 1..1
+states:
+- sketched
+- tried
+- holding
+- slipping
+- redrawn
+relations:
+- target: weekly-rhythm
+  type: part-of
+- target: energy-log
+  type: based-on
+- target: health-plan
+  type: serves

@@ -1,0 +1,42 @@
+kind: entity
+slug: investment-policy
+title: Investment Policy
+type: governance
+summary: The rules this person set for themselves about money held for the future, written when calm so they can be followed when
+  not. A policy that was written during the event it governs is not one.
+attributes:
+- name: written-on
+  type: date
+  card: 1..1
+- name: what-the-money-is-for
+  type: text
+  card: 1..1
+- name: horizon
+  type: duration
+  card: 1..1
+- name: rules
+  type: text
+  card: 1..*
+- name: never-done
+  type: text
+  card: 0..*
+- name: rebalance-when
+  type: text
+  card: 0..1
+- name: written-when-calm
+  type: boolean
+  card: 1..1
+- name: next-reading
+  type: date
+  card: 0..1
+states:
+- written
+- followed
+- tested
+- broken
+- rewritten
+relations:
+- target: account
+  type: about
+- target: value-set
+  type: based-on

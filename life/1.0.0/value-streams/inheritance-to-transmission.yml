@@ -1,0 +1,100 @@
+kind: value-stream
+slug: inheritance-to-transmission
+title: Passing Down across Generations
+family: contributor-to-succession
+summary: What is deliberately handed to the next generation — money, knowledge, craft, and the choice not to pass on what was done
+  to you.
+trigger: A child is born or grows up, a parent dies, or the person recognises in themselves something done to them that they do not
+  want to repeat.
+outcome: What the next generation receives was chosen with care, and the harm that came down to this person has been looked at rather
+  than passed on unseen.
+stakeholders:
+- child
+- descendant
+- parent
+- sibling
+- practitioner
+steps:
+- slug: noticing-what-came-down
+  title: Noticing What Came Down
+  summary: A birth, a death or a sudden recognition in oneself shows the person what they received from those before them, wanted
+    and unwanted.
+  capabilities:
+  - tracing-family-patterns
+  entities:
+  - ancestor
+  - parent-relation
+  - birth
+  - death
+- slug: naming-what-was-received
+  title: Naming What Was Received
+  summary: Writing down the money, knowledge, craft, habits and wounds that came from earlier generations, as plainly as possible.
+  capabilities:
+  - tracing-family-patterns
+  entities:
+  - ancestor
+  - pattern-log
+  - life-narrative
+- slug: facing-the-harm
+  title: Facing the Harm
+  summary: Looking at what was done to the person without excusing or condemning those before them, often with someone trained to
+    help.
+  capabilities:
+  - facing-inherited-harm
+  - letting-others-help-carry-it
+  entities:
+  - ancestor
+  - therapist
+  - pattern-log
+  serves:
+  - counselling-room
+- slug: choosing-what-to-pass-on
+  title: Choosing What to Pass On
+  summary: Deciding what to hand forward as it is, what to change, and what stops with oneself.
+  capabilities:
+  - choosing-what-to-pass-on
+  entities:
+  - value-set
+  - family-charter
+  - decision
+- slug: passing-it-on-day-by-day
+  title: Passing It On Day by Day
+  summary: Living the chosen way in front of the young, in conversations, shared craft and small habits, and catching the old pattern
+    when it rises.
+  capabilities:
+  - teaching-alongside
+  - breaking-a-pattern-in-the-moment
+  entities:
+  - child-relation
+  - parenting-agreement
+  - habit-record
+  serves:
+  - daily-round-of-care
+  - working-side-by-side
+- slug: putting-it-in-writing
+  title: Putting It in Writing
+  summary: Setting down a will, directives and an ethical will, so that money and meaning reach the next generation as intended.
+  capabilities:
+  - writing-down-what-one-leaves
+  entities:
+  - will
+  - ethical-will
+  - account
+  - family-charter
+  serves:
+  - lawyers-office
+  - the-letter
+  - the-will
+- slug: honouring-those-before
+  title: Honouring Those Before
+  summary: Keeping the memory of those who came before alive in ways that carry their good without repeating their harm.
+  capabilities:
+  - honouring-without-repeating
+  entities:
+  - ancestor
+  - ritual
+  - child-relation
+  serves:
+  - family-gathering
+  - place-returned-to
+  - yearly-remembrance

@@ -1,0 +1,37 @@
+kind: entity
+slug: shared-vocabulary
+title: Shared Vocabulary
+type: governance
+summary: 'The words a group this person belongs to has agreed to use, each with what it means and an example. Held apart from `pattern-log`,
+  which records what is done: this records what is meant, so that newcomers and agents can find it.'
+attributes:
+- name: group
+  type: text
+  card: 1..1
+- name: words
+  type: text
+  card: 1..*
+- name: meanings
+  type: text
+  card: 1..*
+- name: examples
+  type: text
+  card: 0..*
+- name: borrowed-from
+  type: text
+  card: 0..*
+- name: agreed-on
+  type: date
+  card: 0..1
+- name: last-questioned
+  type: date
+  card: 0..1
+states:
+- loose
+- agreed
+- in use
+- drifting
+- revised
+relations:
+- target: community-relation
+  type: part-of

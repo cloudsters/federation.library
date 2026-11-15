@@ -1,0 +1,80 @@
+kind: value-stream
+slug: earning-to-income
+title: Earning a Lasting Living
+family: value-to-sustainability
+summary: Building income that survives the life changing shape — illness, a move, a child, a collapse in the field the person trained
+  for.
+trigger: The income rests on one employer, one field or one healthy body, and a change in any of them comes into view.
+outcome: The livelihood can move with the life, through illness, a move, a child or a changed field, without the floor falling away.
+stakeholders:
+- employer
+- client
+- audience
+- collaborator
+- authority
+steps:
+- slug: seeing-what-the-income-rests-on
+  title: Seeing What the Income Rests On
+  summary: The person sees that their income depends on one employer, one field or one healthy body, and what would happen if that
+    changed.
+  capabilities:
+  - seeing-what-the-life-rests-on
+  entities:
+  - income-event
+  - employer-relation
+  - financial-position
+- slug: knowing-what-one-is-paid-for
+  title: Knowing What One Is Paid For
+  summary: The skills and gifts others actually pay for are named, apart from the job title that currently carries them.
+  capabilities:
+  - knowing-what-people-pay-for
+  entities:
+  - skill-inventory
+  - offering
+  - natural-gift
+- slug: keeping-skills-portable
+  title: Keeping Skills Portable
+  summary: What the person can do is kept current, recognised and known to others beyond one employer or one field.
+  capabilities:
+  - keeping-skills-usable-elsewhere
+  entities:
+  - skill-inventory
+  - credential
+  - professional-network
+  serves:
+  - coffee-catch-up
+  - professional-gathering
+- slug: building-a-second-stream
+  title: Building a Second Stream
+  summary: A second source of income is started small, so that the floor does not rest on a single arrangement.
+  capabilities:
+  - starting-something-small-alongside
+  entities:
+  - offering
+  - client-relation
+  - income-event
+  serves:
+  - client-meeting
+- slug: arranging-work-around-the-life
+  title: Arranging Work around the Life
+  summary: When a child comes, an illness arrives or a move happens, the terms of work are renegotiated so the living can move with
+    the life.
+  capabilities:
+  - asking-for-terms-that-fit
+  entities:
+  - contract
+  - work-change
+  - employer-relation
+  serves:
+  - talk-with-the-boss
+- slug: evening-out-the-flow
+  title: Evening Out the Flow
+  summary: Uneven earnings are smoothed through the year, so the household runs steadily even when the money does not arrive steadily.
+  capabilities:
+  - evening-out-uneven-income
+  entities:
+  - account
+  - budget
+  - income-event
+  serves:
+  - bank-app

@@ -1,0 +1,35 @@
+kind: journey
+slug: a-customer-reading-the-terms
+title: A Customer Reading the Terms
+stakeholder: provider
+via: source-to-alliance
+summary: A provider meets a customer who reads what was signed, asks for better terms or gives notice in time, and enters new agreements
+  only once it is clear how they end.
+stages:
+- slug: catch-them-out
+  title: Catch Them Out
+  goal: A renewal, a setting or a contract has shown the customer what they once agreed to.
+  step: service-to-terms/being-caught-by-the-terms
+  touchpoints:
+  - the-bill
+  - terms-and-conditions
+- slug: be-read
+  title: Be Read
+  goal: The provider's terms have been read for what they let the provider do, what they share and how they end.
+  step: service-to-terms/reading-the-fine-print
+  touchpoints:
+  - terms-and-conditions
+  - insurance-policy
+- slug: be-renegotiated-or-left
+  title: Be Renegotiated or Left
+  goal: The provider has been asked for better terms or given notice in time, calmly and in writing.
+  step: service-to-terms/renegotiating-or-leaving
+  touchpoints:
+  - customer-service-line
+  - settings-screen
+- slug: be-signed-knowingly
+  title: Be Signed Knowingly
+  goal: A new agreement has been entered by someone who knows how it ends.
+  step: service-to-terms/signing-with-open-eyes
+  touchpoints:
+  - terms-and-conditions

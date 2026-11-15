@@ -1,0 +1,89 @@
+kind: value-stream
+slug: gathering-to-ritual
+title: Marking Times Together
+family: participant-to-community
+summary: The repeated forms through which a group comes to recognise itself — meals, markings, seasons, play. Ritual is what a community
+  uses instead of memory.
+trigger: A birth, a death, a leaving or a season passes without being marked, or the group meets only when something has gone wrong.
+outcome: The group has repeated forms, a meal, a season, a way of marking turning points, through which its members recognise one
+  another and remember who they are together.
+stakeholders:
+- community
+- partner
+- child
+- parent
+- sibling
+- close-friend
+steps:
+- slug: noticing-what-went-unmarked
+  title: Noticing What Went Unmarked
+  summary: A birth, a death, a leaving or a season passes without being marked, or the group only meets when something has gone wrong.
+  capabilities:
+  - noticing-what-wants-marking
+  entities:
+  - ritual
+  - transition
+  - community-relation
+- slug: remembering-the-old-forms
+  title: Remembering the Old Forms
+  summary: Looking at what the family or group already does, or once did, and asking which of those forms still carry meaning.
+  capabilities:
+  - noticing-what-wants-marking
+  - recognising-inherited-patterns
+  entities:
+  - ritual
+  - ancestor
+  - family-charter
+  serves:
+  - asking-an-elder
+  - family-gathering
+- slug: shaping-a-form
+  title: Shaping a Form
+  summary: Choosing a simple shape for the marking, a meal, a walk, words said, a place returned to, small enough to repeat.
+  capabilities:
+  - shaping-a-ritual
+  - making-room-for-play
+  entities:
+  - ritual
+  - significant-place
+  serves:
+  - kitchen-table
+  - place-returned-to
+- slug: inviting-and-hosting
+  title: Inviting and Hosting
+  summary: Asking people to come, and holding the occasion so each knows their part and nobody is left at the edge.
+  capabilities:
+  - hosting-a-recurring-gathering
+  - making-room-for-newcomers
+  entities:
+  - ritual
+  - community-relation
+  - friend
+  serves:
+  - celebration
+  - open-table
+- slug: returning-each-season
+  title: Returning Each Season
+  summary: Repeating the form when its time comes round, until it is something the group expects and would miss.
+  capabilities:
+  - hosting-a-recurring-gathering
+  entities:
+  - ritual
+  - community-relation
+  serves:
+  - celebration
+  - place-returned-to
+  - yearly-remembrance
+- slug: letting-it-change-hands
+  title: Letting It Change Hands
+  summary: Letting the ritual change as people arrive, grow up and die, and handing its keeping on to those who come next.
+  capabilities:
+  - shaping-a-ritual
+  - letting-things-go
+  entities:
+  - ritual
+  - handover
+  - child-relation
+  serves:
+  - celebration
+  - family-gathering

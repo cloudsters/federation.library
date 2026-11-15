@@ -1,0 +1,41 @@
+kind: journey
+slug: a-member-with-a-say
+title: A Member with a Say
+stakeholder: community
+via: participant-to-community
+summary: A group hears from a member who learns where it really decides, says the unwelcome thing plainly, makes room for others'
+  objections and takes a share in deciding.
+stages:
+- slug: hear-who-was-left-out
+  title: Hear Who Was Left Out
+  goal: The group has learned that a decision was taken without someone whose life it shaped.
+  step: voice-to-say/being-left-out-of-it
+  touchpoints:
+  - where-the-group-decides
+- slug: be-found-where-it-decides
+  title: Be Found Where It Decides
+  goal: The member knows where and how the group decides, and is present there.
+  step: voice-to-say/finding-where-it-is-decided
+  touchpoints:
+  - where-the-group-decides
+- slug: hear-the-unwelcome-thing
+  title: Hear the Unwelcome Thing
+  goal: The group has heard the objection or the inconvenient fact, said clearly, from someone who stayed for the answer.
+  step: voice-to-say/saying-the-unwelcome-thing
+  touchpoints:
+  - where-the-group-decides
+  - working-session
+- slug: become-safer-to-speak
+  title: Become Safer to Speak
+  goal: Others' objections are welcomed in the room, so the group can hear what it would rather not.
+  step: voice-to-say/making-it-safe-for-others
+  touchpoints:
+  - where-the-group-decides
+  - working-session
+- slug: share-the-deciding
+  title: Share the Deciding
+  goal: The member holds a seat, a vote or a task in the decision and carries part of what follows.
+  step: voice-to-say/taking-a-share-in-deciding
+  touchpoints:
+  - where-the-group-decides
+  - the-ballot

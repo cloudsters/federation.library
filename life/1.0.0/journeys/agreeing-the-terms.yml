@@ -1,0 +1,33 @@
+kind: journey
+slug: agreeing-the-terms
+title: Agreeing the Terms
+stakeholder: client
+via: interest-to-relationship
+summary: A client hears pay and terms raised early and plainly, is asked what they need and fear, sees the agreement written down,
+  and is told early when it slips.
+stages:
+- slug: talk-money-early
+  title: Talk Money Early
+  goal: Pay and terms have been raised before the work began, without apology.
+  step: trust-to-terms/talking-about-money
+  touchpoints:
+  - client-meeting
+- slug: be-heard
+  title: Be Heard
+  goal: The client's needs and fears have been listened for, so the terms can hold for both sides.
+  step: trust-to-terms/hearing-what-they-need
+  touchpoints:
+  - client-meeting
+- slug: see-it-written
+  title: See It Written
+  goal: What was agreed, including credit and the right to say no, is written down with a date to look at it again.
+  step: trust-to-terms/writing-the-terms-down
+  touchpoints:
+  - work-agreement
+- slug: hear-it-when-it-slips
+  title: Hear It When It Slips
+  goal: When the agreed terms were not kept, the client heard it early, before resentment hardened.
+  step: trust-to-terms/speaking-up-when-it-slips
+  touchpoints:
+  - client-meeting
+  - hard-conversation

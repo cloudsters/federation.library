@@ -1,0 +1,12 @@
+kind: solution
+slug: physical-therapist
+title: Physical Therapist
+role: person
+sovereignty: third-party
+summary: Finds movement the body can keep for years and adapts it as the body changes or recovers.
+carries:
+- choosing-movement-one-keeps
+- adapting-as-one-ages
+- starting-again-after-a-lapse
+holds:
+- health-plan

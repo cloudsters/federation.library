@@ -1,0 +1,11 @@
+kind: solution
+slug: attention-filter
+title: Attention Filter
+role: system-of-engagement
+sovereignty: owned
+summary: Device settings and blockers that keep feeds, alerts and hours of use within the limits the person set for themselves.
+carries:
+- taming-ones-devices
+- choosing-what-to-let-in
+holds:
+- technology-policy

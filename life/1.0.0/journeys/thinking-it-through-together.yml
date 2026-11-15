@@ -1,0 +1,44 @@
+kind: journey
+slug: thinking-it-through-together
+title: Thinking It Through Together
+stakeholder: collaborator
+via: collaboration-to-automation
+summary: A collaborator is brought in because they see the problem differently, says what they see before anyone argues, stays in
+  the mess and leaves with an understanding written down.
+stages:
+- slug: meet-the-limit
+  title: Meet the Limit
+  goal: The collaborator and the person have admitted that the problem will not yield to one mind.
+  step: thinking-to-shared-sense/hitting-the-limit-of-one-mind
+  touchpoints:
+  - working-session
+- slug: be-brought-in
+  title: Be Brought In
+  goal: The collaborator has been invited for seeing it differently, including where they will disagree.
+  step: thinking-to-shared-sense/bringing-different-minds-in
+  touchpoints:
+  - working-session
+- slug: say-what-i-see
+  title: Say What I See
+  goal: The collaborator's picture lies beside the others before anyone has argued.
+  step: thinking-to-shared-sense/laying-out-what-each-sees
+  touchpoints:
+  - working-session
+- slug: stay-in-the-mess
+  title: Stay in the Mess
+  goal: The stretch where nothing fits has been borne together without an early answer forced.
+  step: thinking-to-shared-sense/staying-in-the-mess
+  touchpoints:
+  - working-session
+- slug: arrive-somewhere-new
+  title: Arrive Somewhere New
+  goal: The collaborator can say the new understanding in their own words.
+  step: thinking-to-shared-sense/arriving-somewhere-new
+  touchpoints:
+  - working-session
+- slug: keep-it-written
+  title: Keep It Written
+  goal: What was understood and what is still open is written where the collaborator can return to it.
+  step: thinking-to-shared-sense/writing-down-what-was-understood
+  touchpoints:
+  - shared-document

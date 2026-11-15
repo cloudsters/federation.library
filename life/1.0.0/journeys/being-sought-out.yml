@@ -1,0 +1,23 @@
+kind: journey
+slug: being-sought-out
+title: Being Sought Out
+stakeholder: mentor
+via: discovery-to-usage
+summary: Someone further along is asked what others count on this person for, and is sought out to see the gift's next step more clearly
+  than the person can.
+stages:
+- slug: say-what-is-counted-on
+  title: Say What Is Counted On
+  goal: The mentor has been asked directly what the person is relied on for, and the answer has been taken in.
+  step: talent-to-skill/asking-what-others-count-on
+  touchpoints:
+  - heart-to-heart
+  - mentoring-conversation
+- slug: be-sought-out
+  title: Be Sought Out
+  goal: The mentor has been sought out for the gift's next step, with a clear ask and time that is respected.
+  step: talent-to-skill/finding-someone-further-along
+  touchpoints:
+  - the-lesson
+  - mentoring-conversation
+  - practising-together

@@ -1,0 +1,42 @@
+kind: entity
+slug: parenting-agreement
+title: Parenting Agreement
+type: governance
+summary: How those raising a child have agreed to do it, including where they differ and what happens then. Held whether the parents
+  live together or not.
+attributes:
+- name: children
+  type: list(child)
+  card: 1..*
+- name: raised-by
+  type: text
+  card: 1..*
+- name: what-matters
+  type: text
+  card: 1..*
+- name: where-we-differ
+  type: text
+  card: 0..*
+- name: what-happens-then
+  type: text
+  card: 0..1
+- name: shared-home
+  type: boolean
+  card: 0..1
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: revisit-on
+  type: date
+  card: 0..1
+states:
+- assumed
+- agreed
+- lived
+- strained
+- renewed
+relations:
+- target: child-relation
+  type: about
+- target: family-charter
+  type: based-on

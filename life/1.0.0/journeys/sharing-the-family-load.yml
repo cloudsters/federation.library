@@ -1,0 +1,35 @@
+kind: journey
+slug: sharing-the-family-load
+title: Sharing the Family Load
+stakeholder: sibling
+via: participant-to-community
+summary: A sibling shares with this person the old family rules and the care of ageing parents, and finds them raised plainly and
+  divided so that care does not fall to one.
+stages:
+- slug: feel-the-old-rule
+  title: Feel the Old Rule
+  goal: The rule about who visits, pays and cares has been noticed by both siblings rather than by one alone.
+  step: kinship-to-agreement/feeling-the-old-rule
+  touchpoints:
+  - visiting-an-ageing-parent
+  - family-gathering
+- slug: talk-it-through
+  title: Talk It Through
+  goal: The sibling has said how the family terms look from their seat, and has been heard.
+  step: kinship-to-agreement/talking-it-through
+  touchpoints:
+  - kitchen-table
+  - hard-conversation
+- slug: divide-the-care
+  title: Divide the Care
+  goal: Care for a parent is divided and written down, so it no longer rests on whoever was nearest.
+  step: kinship-to-agreement/keeping-changing-setting-down
+  touchpoints:
+  - care-rota
+  - kitchen-table
+- slug: hold-the-new-terms
+  title: Hold the New Terms
+  goal: The changed terms hold between the siblings when the old pull returns at the next gathering.
+  step: kinship-to-agreement/living-the-new-terms
+  touchpoints:
+  - family-gathering

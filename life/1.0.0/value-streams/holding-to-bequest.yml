@@ -1,0 +1,98 @@
+kind: value-stream
+slug: holding-to-bequest
+title: Putting Affairs in Order
+family: acquire-to-retire
+summary: Arranging the end while it is still an arrangement rather than an emergency — the body, the estate, and the work that has
+  to outlive the worker.
+trigger: A parent dies with nothing arranged, a serious diagnosis arrives, or a child is born and the question of who would take over
+  becomes real.
+outcome: The person's wishes for their body, their belongings and their work are written down, known to those who will carry them
+  out, and still open to revision.
+stakeholders:
+- partner
+- child
+- descendant
+- authority
+- practitioner
+- provider
+steps:
+- slug: being-woken-by-an-ending
+  title: Being Woken by an Ending
+  summary: A parent dies with nothing arranged, a diagnosis arrives or a child is born, and the question of what happens afterwards
+    becomes real.
+  capabilities:
+  - facing-ones-own-death
+  entities:
+  - death
+  - birth
+  - health-event
+- slug: taking-stock-of-what-one-holds
+  title: Taking Stock of Holdings
+  summary: Accounts, home, belongings, debts, the digital estate and the work that matters are listed with where they are and who
+    knows of them.
+  capabilities:
+  - keeping-papers-in-order
+  entities:
+  - financial-position
+  - account
+  - obligation
+  - body-of-work
+- slug: deciding-ones-wishes
+  title: Deciding One's Wishes
+  summary: The person decides what should happen to their body, their care at the end, their belongings and their work, and who should
+    speak for them.
+  capabilities:
+  - stating-ones-last-wishes
+  entities:
+  - will
+  - decision
+  - dependant-relation
+- slug: writing-it-down-properly
+  title: Writing It Down Properly
+  summary: Will, directives and powers of attorney are put in a form that will hold, and what has no legal form is written as a letter
+    to those who follow.
+  capabilities:
+  - keeping-papers-in-order
+  - writing-what-one-would-pass-on
+  entities:
+  - will
+  - ethical-will
+  serves:
+  - lawyers-office
+  - the-letter
+  - the-will
+- slug: arranging-the-works-handover
+  title: Arranging the Work's Handover
+  summary: Work that should outlive the worker is given a successor, a home and the knowledge it needs to go on.
+  capabilities:
+  - handing-things-over
+  entities:
+  - handover
+  - body-of-work
+  - venture
+  serves:
+  - the-handover
+- slug: telling-those-who-will-carry-it
+  title: Telling Those Who Carry It
+  summary: Those who will carry out the wishes are told what they are and where the papers lie, and are asked whether they are willing.
+  capabilities:
+  - talking-about-hard-things
+  entities:
+  - conversation
+  - partner-relation
+  - child-relation
+  - will
+  serves:
+  - talking-about-the-end
+  - the-will
+- slug: keeping-it-open
+  title: Keeping It Open to Revision
+  summary: At each birth, death, move or change of heart, the arrangements are read again and revised while there is still time.
+  capabilities:
+  - keeping-arrangements-current
+  entities:
+  - will
+  - review-cadence
+  - transition
+  serves:
+  - the-will

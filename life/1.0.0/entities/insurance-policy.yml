@@ -1,0 +1,39 @@
+kind: entity
+slug: insurance-policy
+title: Insurance Policy
+type: master
+summary: A contract that converts a rare large loss into a regular small one. Listed with what it actually covers, because the gap
+  between the policy a person holds and the risk they believe it covers is where most of them fail.
+attributes:
+- name: insured-against
+  type: code
+  card: 1..*
+- name: what-it-covers
+  type: text
+  card: 1..*
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: premium
+  type: money
+  card: 1..1
+- name: renews-on
+  type: date
+  card: 0..1
+- name: can-next-be-changed
+  type: date
+  card: 0..1
+- name: paid-from
+  type: reference(account)
+  card: 0..1
+states:
+- considered
+- taken out
+- read through
+- claimed on
+- lapsed
+relations:
+- target: crisis-plan
+  type: part-of
+- target: account
+  type: depends-on

@@ -1,0 +1,10 @@
+kind: solution
+slug: veterinarian
+title: Veterinarian
+role: person
+sovereignty: third-party
+summary: Carries the health of an animal companion across its life and helps decide when that life should end.
+carries:
+- caring-for-animals-and-land
+holds:
+- animal-companion-relation

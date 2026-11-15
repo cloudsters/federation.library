@@ -1,0 +1,34 @@
+kind: journey
+slug: growing-up-here
+title: Growing Up Here
+stakeholder: child
+via: participant-to-community
+summary: The child is raised in this household, seen for who they are becoming, and handed decisions as they can carry them, until
+  the care is no longer needed.
+stages:
+- slug: be-taken-in
+  title: Be Taken In
+  goal: The child's needs have become the shape of the household's days.
+  step: care-to-raising/taking-on-the-care
+  touchpoints:
+  - daily-round-of-care
+  - at-the-bedside
+- slug: be-seen-as-themselves
+  title: Be Seen as Themselves
+  goal: The child is watched closely enough to be known as who they are becoming, not as who they were planned to be.
+  step: care-to-raising/seeing-who-they-are
+  touchpoints:
+  - daily-round-of-care
+- slug: live-under-one-agreement
+  title: Live under One Agreement
+  goal: Those raising the child hold the same few things as important, and settle their differences without making the child carry
+    them.
+  step: care-to-raising/agreeing-how-to-raise
+  touchpoints:
+  - kitchen-table
+- slug: take-over-by-degrees
+  title: Take Over by Degrees
+  goal: The child carries decisions, tasks and risks as they become able to, and stands without being held.
+  step: care-to-raising/stepping-back-by-degrees
+  touchpoints:
+  - daily-round-of-care

@@ -1,0 +1,32 @@
+kind: journey
+slug: a-role-handed-on
+title: A Role Handed On
+stakeholder: employer
+via: contributor-to-succession
+summary: An employer sees someone leaving a role find a successor, pass on what lived only in their head, step back for real and close
+  the time in front of everyone.
+stages:
+- slug: see-a-successor-found
+  title: See a Successor Found
+  goal: A successor has been found for the work ahead, before the role was left empty.
+  step: holding-to-handover/finding-who-carries-it-on
+  touchpoints:
+  - the-workplace
+- slug: keep-what-was-known
+  title: Keep What Was Known
+  goal: What lived only in the person's head has been written down and shown, so it stays with the home.
+  step: holding-to-handover/passing-on-what-is-known
+  touchpoints:
+  - the-handover
+- slug: have-one-voice-again
+  title: Have One Voice Again
+  goal: The successor decides, and the employer is not caught between the old holder and the new.
+  step: holding-to-handover/stepping-back-for-real
+  touchpoints:
+  - the-handover
+- slug: mark-the-ending
+  title: Mark the Ending
+  goal: The time in the role has been closed with words or a gathering that everyone saw.
+  step: holding-to-handover/marking-the-ending
+  touchpoints:
+  - the-farewell

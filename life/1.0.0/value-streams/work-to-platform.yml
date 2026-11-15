@@ -1,0 +1,87 @@
+kind: value-stream
+slug: work-to-platform
+title: Building on One's Own Ground
+family: proposition-to-audience
+summary: Building an audience on ground the person controls, with an exit planned before it is needed.
+trigger: A service changes its rules and the person's readers vanish overnight, or they realise every follower they have is borrowed
+  from someone else's service.
+outcome: The person can reach those who follow the work on ground they control, and knows how they would leave any service they use.
+stakeholders:
+- audience
+- community
+- collaborator
+- synthetic-collaborator
+- provider
+steps:
+- slug: noticing-the-ground-is-borrowed
+  title: Noticing Borrowed Ground
+  summary: A service changes its rules and readers vanish, or the person sees that everyone who follows them is held by someone else.
+  capabilities:
+  - seeing-dependence-on-services
+  entities:
+  - audience-relation
+  - technology-policy
+  - channel
+  serves:
+  - social-feed
+  - terms-and-conditions
+- slug: choosing-own-ground
+  title: Choosing One's Own Ground
+  summary: Deciding where the work lives and how readers can be reached directly, without any service standing in between.
+  capabilities:
+  - keeping-work-on-own-ground
+  entities:
+  - technology-policy
+  - decision
+  - body-of-work
+  - channel
+  serves:
+  - own-site
+- slug: inviting-people-over
+  title: Inviting People Over
+  summary: Asking those who follow the work to come to the person's own place, and giving them something worth coming for.
+  capabilities:
+  - inviting-a-direct-relation
+  entities:
+  - audience-relation
+  - publication
+  - community-relation
+  serves:
+  - own-site
+  - social-feed
+- slug: building-it-steadily
+  title: Building It Steadily
+  summary: Publishing on one's own ground at a steady pace and using outside services as signposts rather than homes.
+  capabilities:
+  - keeping-a-practice-rhythm
+  - keeping-work-on-own-ground
+  entities:
+  - publication
+  - creative-output
+  - weekly-rhythm
+  - channel
+  serves:
+  - own-site
+- slug: planning-the-exit
+  title: Planning the Exit Early
+  summary: For every service used, knowing how the work and the contacts would come out of it, before that is needed.
+  capabilities:
+  - planning-an-exit
+  entities:
+  - technology-policy
+  - crisis-plan
+  - device
+  - channel
+  serves:
+  - online-account
+- slug: looking-after-those-who-follow
+  title: Looking After Those Who Follow
+  summary: Treating those who follow the work with care, respecting their attention, their time and their data.
+  capabilities:
+  - respecting-others-attention
+  entities:
+  - audience-relation
+  - community-relation
+  - technology-policy
+  serves:
+  - own-site

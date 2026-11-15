@@ -1,0 +1,36 @@
+kind: entity
+slug: death
+title: Death
+type: transactional
+summary: The death of someone this life was built around — a partner, a parent, a child, a friend, an animal. It is a loss and a reordering,
+  and the model has to hold both.
+attributes:
+- name: of
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: left-arranged
+  type: boolean
+  card: 0..1
+- name: marked-by
+  type: reference(ritual)
+  card: 0..1
+- name: what-came-down
+  type: text
+  card: 0..*
+- name: what-it-reordered
+  type: text
+  card: 0..*
+states:
+- approaching
+- come
+- mourned
+- marked
+- carried
+relations:
+- target: relationship-ending
+  type: part-of
+- target: will
+  type: depends-on

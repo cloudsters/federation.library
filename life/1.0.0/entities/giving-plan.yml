@@ -1,0 +1,43 @@
+kind: entity
+slug: giving-plan
+title: Giving Plan
+type: governance
+summary: What this life gives away and on what basis — money, time, access, work. Held as a governed decision rather than an impulse,
+  because giving that is decided once is given at a different scale than giving decided each time.
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: what-is-given
+  type: code
+  card: 1..*
+- name: basis
+  type: text
+  card: 1..1
+- name: to-which-commons
+  type: list(commons-instance)
+  card: 0..*
+- name: to-whom-else
+  type: text
+  card: 0..*
+- name: amount
+  type: money
+  card: 0..1
+- name: time-given
+  type: duration
+  card: 0..1
+- name: next-look
+  type: date
+  card: 0..1
+states:
+- decided
+- given
+- lapsed
+- revisited
+relations:
+- target: value-set
+  type: based-on
+- target: commons-instance
+  type: serves
+- target: budget
+  type: part-of

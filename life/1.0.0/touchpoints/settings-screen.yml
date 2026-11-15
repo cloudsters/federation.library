@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: settings-screen
+title: The Settings Screen
+medium: channel
+mode: digital
+summary: The page in a device or service where alerts, sharing and defaults are switched on or off.
+exchanges:
+- data-for-service
+journey: a-platform-one-can-leave

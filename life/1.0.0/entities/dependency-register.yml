@@ -1,0 +1,44 @@
+kind: entity
+slug: dependency-register
+title: Dependency Register
+type: intelligence
+summary: 'The institutions, systems and people this life rests on — income, home, care, money held, devices, data, the shared systems
+  it draws from — each with what would happen if it stopped and what would carry the life then. Held apart from `relationship-map`,
+  which reads closeness: this reads load, and marks the single threads.'
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: providers
+  type: list(provider)
+  card: 0..*
+- name: services
+  type: list(service-account)
+  card: 0..*
+- name: people
+  type: text
+  card: 0..*
+- name: commons
+  type: list(commons-instance)
+  card: 0..*
+- name: if-it-stopped
+  type: text
+  card: 1..*
+- name: fallbacks
+  type: text
+  card: 0..*
+- name: single-threads
+  type: text
+  card: 0..*
+states:
+- listed
+- weighed
+- backed
+- outdated
+relations:
+- target: provider-relation
+  type: about
+- target: financial-position
+  type: based-on
+- target: crisis-plan
+  type: serves

@@ -1,0 +1,84 @@
+kind: value-stream
+slug: practice-to-mastery
+title: Years of Practice
+family: discovery-to-usage
+summary: The years in which a skill stops being something a person does and becomes part of who they are.
+trigger: The early gains level off and the craft starts asking for years rather than weeks, or the person decides to stay with one
+  thing.
+outcome: The skill has become part of who the person is, practised with a quiet confidence that no credential gave them.
+stakeholders:
+- mentor
+- mentee
+- community
+- collaborator
+steps:
+- slug: choosing-to-stay
+  title: Choosing to Stay
+  summary: As the early gains level off, the person decides to keep going with this one craft rather than starting another.
+  capabilities:
+  - staying-with-one-thing
+  entities:
+  - decision
+  - creative-practice
+  - skill
+- slug: building-a-practice-rhythm
+  title: Building a Practice Rhythm
+  summary: Giving the practice a regular place in the day and the week that survives busy seasons and bad moods.
+  capabilities:
+  - keeping-a-practice-rhythm
+  entities:
+  - daily-rhythm
+  - weekly-rhythm
+  - habit-record
+- slug: practising-at-the-edge
+  title: Practising at the Edge
+  summary: Working on what is just beyond reach rather than repeating what is already comfortable.
+  capabilities:
+  - practising-at-the-edge
+  entities:
+  - skill
+  - creative-practice
+- slug: seeking-correction
+  title: Seeking Correction
+  summary: Asking a mentor or peers to show what the person cannot see in their own work, and taking it in.
+  capabilities:
+  - inviting-honest-response
+  - finding-a-mentor
+  - developing-an-eye-for-quality
+  entities:
+  - mentor-relation
+  - community-relation
+  - other-perception
+  serves:
+  - practising-together
+  - the-lesson
+- slug: enduring-the-plateaus
+  title: Enduring the Plateaus
+  summary: Living through long stretches where nothing seems to improve, without quitting and without forcing.
+  capabilities:
+  - staying-with-slow-progress
+  entities:
+  - mood-record
+  - journal
+  - season-reading
+- slug: resting-and-returning
+  title: Resting and Returning
+  summary: Stepping away when body or mind needs it, and coming back to the practice rested rather than guilty.
+  capabilities:
+  - resting-without-quitting
+  entities:
+  - recovery-period
+  - body
+  - energy-log
+- slug: practising-with-those-behind
+  title: Practising with Those Behind
+  summary: Practising alongside people just starting, and finding that the craft has quietly become part of who the person is.
+  capabilities:
+  - teaching-alongside
+  - naming-ones-craft
+  entities:
+  - mentee-relation
+  - community-relation
+  - skill-inventory
+  serves:
+  - practising-together

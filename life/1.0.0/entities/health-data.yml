@@ -1,0 +1,35 @@
+kind: entity
+slug: health-data
+title: Health Data
+type: intelligence
+summary: What has actually been measured about this body — weights, pressures, laboratory results, sleep, output. Distinguished throughout
+  from how the body feels, because the two disagree in both directions and each is evidence.
+attributes:
+- name: measure
+  type: code
+  card: 1..1
+- name: value
+  type: quantity
+  card: 1..1
+- name: measured-on
+  type: date
+  card: 1..1
+- name: measured-by
+  type: code
+  card: 0..1
+- name: felt-at-the-time
+  type: text
+  card: 0..1
+- name: usual-value
+  type: quantity
+  card: 0..1
+states:
+- recorded
+- usual
+- shifting
+- shared
+relations:
+- target: body
+  type: about
+- target: condition
+  type: about

@@ -1,0 +1,43 @@
+kind: entity
+slug: practitioner-relation
+title: Care Practitioner Relation
+type: master
+summary: 'Someone in an ongoing professional relation with this person''s body or mind — a doctor, a nurse, a physiotherapist, a dentist,
+  a carer. Held apart from `therapist`, which carries a working relation about inner life and conduct: this one is held for care and
+  treatment, and what matters about it is whether decisions are made with the person or for them.'
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: cares-for
+  type: text
+  card: 1..*
+- name: since
+  type: date
+  card: 0..1
+- name: conditions
+  type: list(condition)
+  card: 0..*
+- name: how-to-reach
+  type: text
+  card: 0..1
+- name: last-seen
+  type: date
+  card: 0..1
+- name: next-seen
+  type: date
+  card: 0..1
+- name: decides-together
+  type: boolean
+  card: 0..1
+states:
+- new
+- ongoing
+- strained
+- paused
+- ended
+relations:
+- target: body
+  type: about
+- target: condition
+  type: about

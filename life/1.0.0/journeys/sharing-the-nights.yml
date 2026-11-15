@@ -1,0 +1,27 @@
+kind: journey
+slug: sharing-the-nights
+title: Sharing the Nights
+stakeholder: partner
+via: demand-to-fulfillment
+summary: The partner shares a bed and a household with this person, and finds the broken nights divided fairly and sleep no longer
+  the first thing traded away on a long day.
+stages:
+- slug: sort-what-breaks-sleep
+  title: Sort What Breaks Sleep
+  goal: What breaks the household's nights has been sorted into what each can change, what is shared and what is simply lived with.
+  step: sleep-to-restoration/naming-what-breaks-sleep
+  touchpoints:
+  - bedtime-and-the-night
+- slug: divide-the-nights
+  title: Divide the Nights
+  goal: Night waking, early starts and lie-ins are divided, so the partner does not carry the broken nights alone.
+  step: sleep-to-restoration/sharing-the-nights
+  touchpoints:
+  - bedtime-and-the-night
+  - kitchen-table
+- slug: keep-sleep-on-long-days
+  title: Keep Sleep on Long Days
+  goal: The partner lives with someone who no longer cuts sleep first when the working day runs over.
+  step: sleep-to-restoration/holding-the-line-on-long-days
+  touchpoints:
+  - end-of-the-working-day

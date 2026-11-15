@@ -1,0 +1,44 @@
+kind: entity
+slug: budget
+title: Budget
+type: governance
+summary: What this life intends to spend against what it intends to receive, over a stated period. Its purpose is not control but
+  the naming of enough.
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: enough
+  type: text
+  card: 1..1
+- name: expected-income
+  type: money
+  card: 1..1
+- name: intended-spending
+  type: money
+  card: 1..1
+- name: set-aside
+  type: money
+  card: 0..1
+- name: what-each-part-is-for
+  type: text
+  card: 1..*
+- name: agreed-at-home
+  type: boolean
+  card: 0..1
+- name: next-revisit
+  type: date
+  card: 0..1
+states:
+- drafted
+- holding
+- stretched
+- broken
+- revised
+relations:
+- target: value-set
+  type: based-on
+- target: financial-position
+  type: based-on
+- target: life-blueprint
+  type: part-of

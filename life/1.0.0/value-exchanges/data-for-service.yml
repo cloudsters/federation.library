@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: data-for-service
+title: Data for Service
+between:
+- self
+- provider
+offered:
+- Data and attention, narrowed to what is willingly given.
+returned:
+- A service that works, terms that are kept, and a way out that has been tried.
+touchpoint: social-feed

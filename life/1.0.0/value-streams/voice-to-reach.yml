@@ -1,0 +1,83 @@
+kind: value-stream
+slug: voice-to-reach
+title: Finding One's Public Voice
+family: proposition-to-audience
+summary: Finding a way of saying it that is recognisably this person's, and taking it to where the people who need it already are.
+trigger: The person has something to say and every attempt sounds like someone else, or the people who need it are nowhere the person
+  goes.
+outcome: The person speaks in a way recognisably their own, in the places where the people who need it already are.
+stakeholders:
+- audience
+- community
+- collaborator
+- mentor
+- provider
+steps:
+- slug: knowing-what-one-has-to-say
+  title: Knowing What One Has to Say
+  summary: Getting clear on what the person wants others to hear and why it matters to them that they hear it.
+  capabilities:
+  - knowing-ones-message
+  entities:
+  - intention
+  - value-set
+  - journal
+- slug: sounding-like-oneself
+  title: Sounding Like Oneself
+  summary: Writing or speaking often, badly at first, until the way of saying it becomes recognisably the person's own.
+  capabilities:
+  - finding-ones-own-voice
+  entities:
+  - creative-output
+  - creative-practice
+  - journal
+  serves:
+  - published-work
+- slug: finding-where-people-are
+  title: Finding Where People Are
+  summary: Learning where the people who need it already gather, rather than waiting for them to come looking.
+  capabilities:
+  - meeting-people-where-they-are
+  entities:
+  - audience-relation
+  - community-relation
+  serves:
+  - professional-gathering
+  - social-feed
+- slug: showing-up-there
+  title: Showing Up There
+  summary: Publishing and speaking in those places at a steady pace, adapting the form to each without losing the voice.
+  capabilities:
+  - speaking-in-public
+  - finding-ones-own-voice
+  entities:
+  - publication
+  - presentation
+  - weekly-rhythm
+  - channel
+  serves:
+  - published-work
+  - social-feed
+  - speaking-in-public
+- slug: listening-to-the-response
+  title: Listening to the Response
+  summary: Paying attention to who responds and how, and letting that shape what is said next.
+  capabilities:
+  - observing-real-use
+  - hearing-without-defending
+  entities:
+  - audience-relation
+  - other-perception
+  serves:
+  - replies-and-comments
+- slug: keeping-it-liveable
+  title: Keeping It Liveable
+  summary: Setting limits on time and exposure so that speaking in public does not consume the rest of the life.
+  capabilities:
+  - setting-limits-on-exposure
+  entities:
+  - boundary-set
+  - technology-policy
+  - energy-log
+  serves:
+  - social-feed

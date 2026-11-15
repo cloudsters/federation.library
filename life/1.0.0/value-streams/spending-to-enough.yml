@@ -1,0 +1,77 @@
+kind: value-stream
+slug: spending-to-enough
+title: Knowing What Is Enough
+family: value-to-sustainability
+summary: Knowing where the money actually goes and where the line of sufficiency sits. Without a named 'enough', no amount of income
+  ends the question.
+trigger: More income has not ended the worry, or the person cannot say where the money actually went.
+outcome: The person knows where the money goes and where enough lies, and spends in line with what they care about.
+stakeholders:
+- partner
+- dependant
+- child
+steps:
+- slug: admitting-more-did-not-help
+  title: Admitting More Did Not Help
+  summary: The person admits that more income has not ended the worry, and that the question was never only about the amount.
+  capabilities:
+  - noticing-the-endless-more
+  entities:
+  - financial-position
+  - journal
+- slug: seeing-where-the-money-goes
+  title: Seeing Where the Money Goes
+  summary: For a while every outgoing is looked at, until the person can say without guessing where the money actually goes.
+  capabilities:
+  - seeing-where-money-goes
+  entities:
+  - expense
+  - account
+  - financial-position
+  serves:
+  - bank-app
+- slug: naming-enough
+  title: Naming Enough
+  summary: The line of sufficiency for this life and this household is named, in terms of what it allows rather than what it forbids.
+  capabilities:
+  - naming-ones-enough
+  entities:
+  - budget
+  - value-set
+  serves:
+  - household-budget
+- slug: agreeing-at-home
+  title: Agreeing at Home
+  summary: Money is talked about openly with the partner or family, and what enough means for the household is agreed together.
+  capabilities:
+  - talking-about-money-at-home
+  entities:
+  - relationship-agreement
+  - family-charter
+  - partner-relation
+  serves:
+  - household-budget
+  - kitchen-table
+- slug: spending-on-what-matters
+  title: Spending on What Matters
+  summary: Money is let follow what the person cares about, often time and experiences shared with others, rather than habit or comparison.
+  capabilities:
+  - spending-by-what-one-values
+  entities:
+  - expense
+  - budget
+  - experience
+  serves:
+  - market-and-shop
+  - trip-together
+- slug: revisiting-enough
+  title: Revisiting Enough
+  summary: At set times the person checks whether their enough still holds, and moves the line when the life has changed.
+  capabilities:
+  - looking-back-at-set-times
+  - naming-ones-enough
+  entities:
+  - budget
+  - review-cadence
+  serves:
+  - household-budget

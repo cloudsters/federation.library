@@ -1,0 +1,14 @@
+kind: solution
+slug: bank
+title: Bank
+role: institution
+sovereignty: third-party
+summary: Holds the accounts and moves money on standing instruction, so that saving happens before spending does.
+carries:
+- setting-something-aside-steadily
+- refilling-the-reserve
+holds:
+- account
+- income-event
+- expense
+- investment-transaction

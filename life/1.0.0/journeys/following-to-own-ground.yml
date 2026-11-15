@@ -1,0 +1,33 @@
+kind: journey
+slug: following-to-own-ground
+title: Following to Own Ground
+stakeholder: audience
+via: proposition-to-audience
+summary: Someone who follows the work is invited from a borrowed platform to the maker's own ground, finds the work there at a steady
+  pace, and is treated with care for their attention and data.
+stages:
+- slug: lose-the-thread
+  title: Lose the Thread
+  goal: It has become plain that the audience's link to the work rests on a service that can change its rules.
+  step: work-to-platform/noticing-the-ground-is-borrowed
+  touchpoints:
+  - social-feed
+- slug: be-invited-over
+  title: Be Invited Over
+  goal: The audience has been asked to the maker's own place and given something worth coming for.
+  step: work-to-platform/inviting-people-over
+  touchpoints:
+  - own-site
+  - social-feed
+- slug: find-it-there
+  title: Find It There
+  goal: The work appears steadily on the maker's own ground, with outside services only pointing to it.
+  step: work-to-platform/building-it-steadily
+  touchpoints:
+  - own-site
+- slug: be-looked-after
+  title: Be Looked After
+  goal: The audience's attention, time and data are treated with care by the one they follow.
+  step: work-to-platform/looking-after-those-who-follow
+  touchpoints:
+  - own-site

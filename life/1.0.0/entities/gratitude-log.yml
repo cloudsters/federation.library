@@ -1,0 +1,28 @@
+kind: entity
+slug: gratitude-log
+title: Gratitude Log
+type: intelligence
+summary: What this person has noticed and been glad of, written down. The simplest instrument here, and the one every read corpus
+  independently arrived at.
+attributes:
+- name: noted-on
+  type: date
+  card: 1..1
+- name: glad-of
+  type: text
+  card: 1..*
+- name: who-or-what
+  type: text
+  card: 0..*
+- name: thanks-said
+  type: boolean
+  card: 0..1
+states:
+- kept
+- lapsed
+- resumed
+relations:
+- target: experience
+  type: about
+- target: community-relation
+  type: about

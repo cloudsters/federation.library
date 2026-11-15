@@ -1,0 +1,35 @@
+kind: entity
+slug: experience
+title: Experience
+type: master
+summary: 'Something this life spent itself on that leaves no object behind — a journey, a season somewhere, a thing learned by doing
+  it, time given to someone. Held beside possessions deliberately: the two compete for the same money and only one of them keeps arriving
+  afterwards.'
+attributes:
+- name: what
+  type: text
+  card: 1..1
+- name: when
+  type: period
+  card: 1..1
+- name: shared-with
+  type: text
+  card: 0..*
+- name: cost
+  type: money
+  card: 0..1
+- name: what-it-left
+  type: text
+  card: 0..*
+- name: still-arriving
+  type: text
+  card: 0..*
+states:
+- wished for
+- planned
+- lived
+- remembered
+- retold
+relations:
+- target: life-narrative
+  type: part-of

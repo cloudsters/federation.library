@@ -1,0 +1,102 @@
+kind: value-stream
+slug: role-to-design
+title: Shaping One's Own Role
+family: contributor-to-succession
+summary: Shaping the position a person occupies rather than accepting the shape it arrived in — and finding the next one before the
+  current one ends.
+trigger: The job no longer fits the person who holds it, or a reorganisation, a contract's end or a quiet unease signals that this
+  role will not last.
+outcome: The person holds a role whose shape they had a hand in, and can see where the next one might come from before this one ends.
+stakeholders:
+- employer
+- mentor
+- collaborator
+- client
+- partner
+steps:
+- slug: admitting-the-misfit
+  title: Admitting the Misfit
+  summary: The quiet unease, a reorganisation or a contract's end, and the person admits to themselves that this role will not hold
+    as it is.
+  capabilities:
+  - sensing-a-role-misfit
+  entities:
+  - self
+  - venture
+  - mood-record
+  - employer-relation
+- slug: seeing-the-role-as-it-is
+  title: Seeing the Role as It Is
+  summary: Writing down what the role actually asks and gives, where the hours and energy go, and which parts the person would keep
+    if they could.
+  capabilities:
+  - describing-ones-own-role
+  entities:
+  - venture
+  - time-audit
+  - energy-log
+  - contract
+  - role
+- slug: sketching-a-better-shape
+  title: Sketching a Better Shape
+  summary: Imagining the same role reshaped around the person's gifts and the work that is really needed, and glimpsing the role that
+    might come after it.
+  capabilities:
+  - reshaping-ones-work
+  - imagining-the-next-role
+  entities:
+  - work-direction
+  - natural-gift
+  - intention
+- slug: proposing-the-change
+  title: Proposing the Change
+  summary: Bringing the new shape to whoever can agree it, framed in what it gives them as well as what it gives the person.
+  capabilities:
+  - asking-for-what-one-needs
+  - making-the-case-for-change
+  entities:
+  - employer-relation
+  - client-relation
+  - conversation
+  - contract
+  serves:
+  - client-meeting
+  - talk-with-the-boss
+- slug: reshaping-in-small-moves
+  title: Reshaping in Small Moves
+  summary: Shifting tasks, relations and the meaning of the work a little at a time, keeping what works and handing off what does
+    not.
+  capabilities:
+  - reshaping-ones-work
+  entities:
+  - venture
+  - weekly-rhythm
+  - delegation-line
+  serves:
+  - the-workplace
+- slug: preparing-the-next-door
+  title: Preparing the Next Door
+  summary: Keeping relations warm and abilities fresh, so the next role can be found before this one ends rather than after.
+  capabilities:
+  - keeping-relations-warm
+  - imagining-the-next-role
+  entities:
+  - professional-network
+  - work-direction
+  - standing
+  serves:
+  - coffee-catch-up
+  - professional-gathering
+- slug: weathering-the-change
+  title: Weathering the Change
+  summary: When the role ends or changes anyway, staying afloat through the gap and carrying what was learned into whatever comes
+    next.
+  capabilities:
+  - staying-steady-through-change
+  entities:
+  - work-change
+  - transition
+  - financial-position
+  - crisis-plan
+  serves:
+  - kitchen-table

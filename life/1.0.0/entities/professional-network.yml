@@ -1,0 +1,33 @@
+kind: entity
+slug: professional-network
+title: Professional Network
+type: master
+summary: People this person can reach and be reached by on the strength of work already done. Kept deliberately or not kept at all
+  — the recorded question is when value last moved in each direction.
+attributes:
+- name: circles
+  type: code
+  card: 0..*
+- name: alliances-kept
+  type: text
+  card: 0..*
+- name: kept-where
+  type: text
+  card: 0..1
+- name: last-value-given
+  type: date
+  card: 0..1
+- name: last-value-received
+  type: date
+  card: 0..1
+states:
+- thin
+- kept warm
+- drawn on
+- gone quiet
+- renewed
+relations:
+- target: body-of-work
+  type: based-on
+- target: relationship-map
+  type: part-of

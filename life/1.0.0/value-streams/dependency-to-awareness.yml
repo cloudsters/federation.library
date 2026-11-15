@@ -1,0 +1,92 @@
+kind: value-stream
+slug: dependency-to-awareness
+title: Knowing What One Rests On
+family: source-to-alliance
+summary: Knowing what the life actually rests on — which institutions, which people, which systems — and what happens to it if one
+  of them stops.
+trigger: A bank, an employer, a carer or a service fails without warning, or the person realises they could not say who they would
+  call if it did.
+outcome: The person knows which people, institutions and systems their life rests on, and what would carry them if one of these stopped.
+stakeholders:
+- employer
+- authority
+- community
+- practitioner
+- sibling
+- provider
+steps:
+- slug: feeling-the-ground-shift
+  title: Feeling the Ground Shift
+  summary: A bank, a carer, an employer or a service fails, or nearly does, and the person feels how much of the life rested on it.
+  capabilities:
+  - admitting-what-one-relies-on
+  entities:
+  - crisis
+  - employer-relation
+  - account
+  - provider-relation
+  serves:
+  - customer-service-line
+- slug: listing-what-the-life-rests-on
+  title: Listing the Life's Supports
+  summary: Income, home, care, money held, devices, data and the people who would come are written down in one place.
+  capabilities:
+  - mapping-what-one-depends-on
+  entities:
+  - relationship-map
+  - account
+  - insurance-policy
+  - device
+  - provider-relation
+  - dependency-register
+- slug: asking-what-if-it-stopped
+  title: Asking What If It Stopped
+  summary: For each thing the life rests on, the person asks what would happen if it stopped tomorrow and how long they could carry
+    on without it.
+  capabilities:
+  - imagining-the-break-ahead
+  entities:
+  - financial-position
+  - crisis-plan
+  - contract
+  - dependency-register
+- slug: finding-the-single-threads
+  title: Finding the Single Threads
+  summary: Places where the whole life hangs on one person, one income, one account or one device are marked as the ones to strengthen
+    first.
+  capabilities:
+  - mapping-what-one-depends-on
+  - imagining-the-break-ahead
+  entities:
+  - relationship-map
+  - financial-position
+  - device
+  - employer-relation
+  - dependency-register
+- slug: arranging-the-fallbacks
+  title: Arranging the Fallbacks
+  summary: Second sources, reserves, copies, cover and a list of whom to call are put in place, and the people on it are asked rather
+    than assumed.
+  capabilities:
+  - preparing-fallbacks
+  - asking-for-help
+  entities:
+  - crisis-plan
+  - insurance-policy
+  - account
+  - friend
+  - dependency-register
+  serves:
+  - emergency-folder
+  - insurance-policy
+  - phone-call
+- slug: keeping-the-picture-current
+  title: Keeping the Picture Current
+  summary: When work, home or relationships change, the person updates what the life rests on before the next failure finds the gap.
+  capabilities:
+  - keeping-arrangements-current
+  entities:
+  - review-cadence
+  - crisis-plan
+  - transition
+  - dependency-register

@@ -1,0 +1,12 @@
+kind: solution
+slug: personal-contact-book
+title: Personal Contact Book
+role: system-of-record
+sovereignty: owned
+summary: Who is in this life, how to reach them and when contact last happened, so that drift shows before it is final.
+carries:
+- noticing-who-is-drifting
+- keeping-relations-warm
+holds:
+- relationship-map
+- professional-network

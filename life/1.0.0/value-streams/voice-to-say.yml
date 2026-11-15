@@ -1,0 +1,84 @@
+kind: value-stream
+slug: voice-to-say
+title: Having a Real Say
+family: participant-to-community
+summary: From holding an opinion to holding a share of the decision — including the conditions that make it safe to say the unwelcome
+  thing. A group where nothing is ever objected to is not at peace; it is quiet.
+trigger: A decision that shapes the person's life is taken without them, or they hold back something true because saying it feels
+  unsafe.
+outcome: The person holds a real share in the decisions of the groups they belong to, and can say the unwelcome thing and still be
+  welcome in the room.
+stakeholders:
+- community
+- employer
+- authority
+- partner
+- collaborator
+steps:
+- slug: being-left-out-of-it
+  title: Being Left Out of It
+  summary: A decision that shapes the person's life is taken without them, or they hold back something true because saying it feels
+    unsafe.
+  capabilities:
+  - noticing-where-one-stays-silent
+  entities:
+  - decision
+  - community-relation
+  serves:
+  - where-the-group-decides
+- slug: finding-where-it-is-decided
+  title: Finding Where It Is Decided
+  summary: Learning where and how the group actually decides, the meeting, the vote, the conversation that happens before the meeting.
+  capabilities:
+  - reading-how-a-group-decides
+  - reading-power
+  entities:
+  - community-relation
+  - commons-instance
+  - civic-action
+  serves:
+  - where-the-group-decides
+- slug: forming-ones-view
+  title: Forming One's View
+  summary: Working out what the person actually thinks, and what they would stake on it, before the room asks.
+  capabilities:
+  - knowing-what-one-thinks
+  entities:
+  - journal
+  - value-set
+- slug: saying-the-unwelcome-thing
+  title: Saying the Unwelcome Thing
+  summary: Speaking the objection or the inconvenient fact in the room, clearly and without attack, and staying to hear the answer.
+  capabilities:
+  - saying-the-unwelcome-thing
+  entities:
+  - conversation
+  - civic-action
+  serves:
+  - where-the-group-decides
+  - working-session
+- slug: making-it-safe-for-others
+  title: Making It Safe for Others
+  summary: Welcoming the objections of others the way the person would want their own welcomed, so the group can hear what it would
+    rather not.
+  capabilities:
+  - making-room-for-dissent
+  entities:
+  - community-relation
+  - conversation
+  serves:
+  - where-the-group-decides
+  - working-session
+- slug: taking-a-share-in-deciding
+  title: Taking a Share in Deciding
+  summary: Taking a seat, a vote or a task in the decision itself, including where money is to go, and carrying the part of the outcome
+    that follows.
+  capabilities:
+  - taking-a-share-of-a-decision
+  entities:
+  - civic-action
+  - commons-instance
+  - decision
+  serves:
+  - the-ballot
+  - where-the-group-decides

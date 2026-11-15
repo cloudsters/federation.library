@@ -1,0 +1,93 @@
+loop: _family.discovery-to-usage
+title: Keep the family 'Discovery to Usage' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: discovery-to-usage
+  vs:
+  - talent-to-skill
+  - need-to-idea
+  - idea-to-work
+  - practice-to-mastery
+  - work-to-body-of-work
+  - use-to-refinement
+stance: Conceive, craft, deliver, evolve the offerings. No single stream of this family can see what its streams
+  do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed season of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was built into the runtime, adapted there, or left on the shelf
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/discovery-to-usage
+  - value-model.yml#vs/talent-to-skill
+  - value-model.yml#vs/need-to-idea
+  - value-model.yml#vs/idea-to-work
+  - value-model.yml#vs/practice-to-mastery
+  - value-model.yml#vs/work-to-body-of-work
+  - value-model.yml#vs/use-to-refinement
+  registry:
+  - instance/registry/5_value-streams/talent-to-skill.md
+  - instance/registry/5_value-streams/need-to-idea.md
+  - instance/registry/5_value-streams/idea-to-work.md
+  - instance/registry/5_value-streams/practice-to-mastery.md
+  - instance/registry/5_value-streams/work-to-body-of-work.md
+  - instance/registry/5_value-streams/use-to-refinement.md
+  loop_states:
+  - instance/operations/loops/_state/talent-to-skill.yml
+  - instance/operations/loops/_state/need-to-idea.yml
+  - instance/operations/loops/_state/idea-to-work.yml
+  - instance/operations/loops/_state/practice-to-mastery.yml
+  - instance/operations/loops/_state/work-to-body-of-work.yml
+  - instance/operations/loops/_state/use-to-refinement.yml
+  measures:
+  - body-of-work-gathered-share
+  - body-of-work-known-to-another
+  - body-of-work-lasting-forms
+  - body-of-work-threads-named
+  - making-cost-written
+  - making-days-shown-up
+  - making-energy-on-work-days
+  - making-pieces-gone-out
+  - mastery-correction-sought
+  - mastery-edge-moved
+  - mastery-quiet-confidence
+  - mastery-weeks-paused-for-rest
+  - mastery-weeks-practised
+  - missing-idea-caught-same-day
+  - missing-need-named
+  - missing-room-to-grow
+  - missing-trusted-reader
+  - real-use-changes-made
+  - real-use-own-sense-kept
+  - real-use-users-asked
+  - talent-craft-named
+  - talent-dull-parts-practised
+  - talent-holds-under-load
+  - talent-others-asked
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.discovery-to-usage.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or this life declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

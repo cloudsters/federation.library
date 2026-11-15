@@ -1,0 +1,99 @@
+kind: value-stream
+slug: skill-to-relevance
+title: Keeping Skills Alive
+family: contributor-to-succession
+summary: Keeping what a person can do worth something as the field moves under them — noticing the decay before the market does.
+trigger: The work starts asking for things the person cannot yet do, or someone newer does in an hour what used to take them a day.
+outcome: What the person can do is still wanted where they work, and they saw the field moving early enough to move with it.
+stakeholders:
+- employer
+- client
+- collaborator
+- mentor
+- synthetic-collaborator
+steps:
+- slug: noticing-the-field-moving
+  title: Noticing the Field Moving
+  summary: The work asks for something new, or someone newer does in an hour what took the person a day, and they let the discomfort
+    count as information.
+  capabilities:
+  - sensing-skill-decay
+  - reading-the-field
+  entities:
+  - skill
+  - other-perception
+  - employer-relation
+  - client-relation
+  serves:
+  - client-meeting
+  - the-workplace
+- slug: taking-honest-stock
+  title: Taking Honest Stock
+  summary: Writing down what the person can do, how well, and when each ability was last used in earnest, and seeing plainly what
+    has gone stale.
+  capabilities:
+  - taking-stock-of-skills
+  entities:
+  - skill-inventory
+  - skill
+  - credential
+- slug: asking-what-is-wanted
+  title: Asking What Is Wanted
+  summary: Asking clients, colleagues and people further ahead which abilities are being sought now and which are quietly fading.
+  capabilities:
+  - inviting-honest-response
+  - reading-the-field
+  entities:
+  - other-perception
+  - professional-network
+  - mentor-relation
+  - client-relation
+  serves:
+  - client-meeting
+  - coffee-catch-up
+  - mentoring-conversation
+- slug: building-on-strengths
+  title: Building on Strengths
+  summary: Choosing which new ability to add so it works together with what the person already does well, rather than starting over
+    from nothing.
+  capabilities:
+  - combining-skills
+  - knowing-own-limits
+  entities:
+  - skill
+  - natural-gift
+  - learning-plan
+- slug: learning-inside-the-work
+  title: Learning Inside the Work
+  summary: Taking on the new ability through real tasks, with machine collaborators where they help, rather than waiting for a course
+    to begin.
+  capabilities:
+  - applying-while-learning
+  - working-with-machine-collaborators
+  entities:
+  - skill
+  - agent
+  - venture
+  - learning-event
+  serves:
+  - talking-with-an-agent
+  - the-workplace
+- slug: letting-old-skills-go
+  title: Letting Old Skills Go
+  summary: Releasing pride in abilities the field no longer asks for, without pretending they never mattered or that the years were
+    wasted.
+  capabilities:
+  - letting-go-of-past-competence
+  entities:
+  - skill-inventory
+  - life-narrative
+  - self
+- slug: looking-again-regularly
+  title: Looking Again Regularly
+  summary: Returning to where the field is heading at a steady interval, so the next shift is seen before the market sees it.
+  capabilities:
+  - reading-the-field
+  entities:
+  - review-cadence
+  - skill-inventory
+  - work-direction

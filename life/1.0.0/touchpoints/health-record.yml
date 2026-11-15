@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: health-record
+title: The Health Record
+medium: document
+mode: digital
+summary: The notes and measures of how the body has been, kept over time and brought to those who help read them.
+exchanges:
+- account-for-care
+journey: a-patient-who-comes-early

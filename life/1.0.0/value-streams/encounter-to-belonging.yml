@@ -1,0 +1,86 @@
+kind: value-stream
+slug: encounter-to-belonging
+title: Finding One's People
+family: participant-to-community
+summary: How someone crosses from stranger into the life and stays — and the places where that can happen at all, which have to exist
+  before anyone can use them. Most lives are shaped less by the people chosen than by the rooms entered.
+trigger: A move to a new town, or a job or relationship ends and takes its social world with it, or the person notices there is nowhere
+  they are expected.
+outcome: There are places the person goes without occasion, where they are known by name and missed when absent, and where new people
+  can still find a way in.
+stakeholders:
+- community
+- place
+- close-friend
+- collaborator
+steps:
+- slug: noticing-nowhere-expects-me
+  title: Noticing Nowhere Expects Me
+  summary: After a move, or when a job or relationship ends and takes its social world with it, the person notices there is no place
+    where anyone would miss them.
+  capabilities:
+  - admitting-a-need-for-people
+  entities:
+  - relationship-map
+  - relocation
+  - relationship-ending
+- slug: finding-the-rooms
+  title: Finding the Rooms
+  summary: Looking for the places where strangers can become regulars, a club, a congregation, a workshop, a course, a volunteer shift,
+    a coffee-house table.
+  capabilities:
+  - finding-rooms-where-strangers-meet
+  entities:
+  - community-relation
+  - significant-place
+  serves:
+  - place-of-worship
+  - regular-gathering
+  - the-class
+  - the-neighbourhood
+  - volunteer-shift
+- slug: turning-up-again
+  title: Turning Up Again
+  summary: Going back to the same place at the same time, often before it feels good, because being known begins with being seen again
+    and again.
+  capabilities:
+  - returning-until-known
+  entities:
+  - community-relation
+  - habit-record
+  serves:
+  - place-of-worship
+  - regular-gathering
+- slug: being-let-in
+  title: Being Let In
+  summary: Someone uses the person's name, asks where they were, or hands them a task, and membership becomes something the others
+    recognise too.
+  capabilities:
+  - letting-oneself-be-known
+  entities:
+  - community-relation
+  - relationship-beginning
+  - friend
+  serves:
+  - regular-gathering
+- slug: making-a-room-where-none-exists
+  title: Making a Missing Room
+  summary: Where no such place exists, starting one, a regular meal, an open table, a recurring walk that others can join.
+  capabilities:
+  - hosting-a-recurring-gathering
+  entities:
+  - community-relation
+  - ritual
+  - significant-place
+  serves:
+  - open-table
+- slug: holding-the-door
+  title: Holding the Door
+  summary: Once inside, noticing the newcomer at the edge and opening the way in that the person once needed themselves.
+  capabilities:
+  - making-room-for-newcomers
+  entities:
+  - community-relation
+  - relationship-beginning
+  serves:
+  - regular-gathering

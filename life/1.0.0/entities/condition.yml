@@ -1,0 +1,36 @@
+kind: entity
+slug: condition
+title: Condition
+type: master
+summary: 'A lasting state of the body or mind this life is organised around — chronic illness, disability, neurodivergence, an injury
+  that did not fully heal. Held apart from `health-event`: an event passes, a condition is a standing fact the week is built against.'
+attributes:
+- name: what
+  type: text
+  card: 1..1
+- name: known-since
+  type: date
+  card: 0..1
+- name: diagnosed-in
+  type: reference(health-event)
+  card: 0..1
+- name: makes-it-worse
+  type: text
+  card: 0..*
+- name: makes-it-easier
+  type: text
+  card: 0..*
+- name: what-it-asks-of-the-week
+  type: text
+  card: 0..*
+states:
+- suspected
+- diagnosed
+- being learned
+- lived with
+- eased
+relations:
+- target: body
+  type: about
+- target: health-event
+  type: based-on

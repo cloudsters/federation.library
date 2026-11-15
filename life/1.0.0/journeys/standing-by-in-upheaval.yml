@@ -1,0 +1,26 @@
+kind: journey
+slug: standing-by-in-upheaval
+title: Standing By in Upheaval
+stakeholder: close-friend
+via: perception-to-mandate
+summary: A close friend turns up when this person's life is knocked over, is let carry part of the load, and later meets the person
+  recognisably themselves again.
+stages:
+- slug: arrive-at-the-blow
+  title: Arrive at the Blow
+  goal: The friend has been at the door in the first days, with food, an offer or company, and has been let in.
+  step: rupture-to-continuity/taking-the-blow
+  touchpoints:
+  - help-at-the-door
+- slug: carry-part-of-it
+  title: Carry Part of It
+  goal: The friend has carried part of the load, and the person did not take that as a loss of standing.
+  step: rupture-to-continuity/letting-others-carry
+  touchpoints:
+  - help-at-the-door
+  - counselling-room
+- slug: meet-them-again
+  title: Meet Them Again
+  goal: The friend meets the person in a new shape of days that is still recognisably their own.
+  step: rupture-to-continuity/starting-again-as-oneself
+  touchpoints: []

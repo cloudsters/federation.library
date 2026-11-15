@@ -1,0 +1,12 @@
+kind: solution
+slug: family-elder
+title: Family Elder
+role: person
+sovereignty: held-by-another
+summary: The relative who remembers the family's story and can say where a pattern came from.
+carries:
+- tracing-the-family-story
+- tracing-family-patterns
+- learning-from-family-history
+holds:
+- ancestor

@@ -1,0 +1,38 @@
+kind: entity
+slug: ritual
+title: Ritual
+type: transactional
+summary: A marked occasion that recurs or closes something — a birthday, an anniversary, a festival, a funeral, a seasonal return.
+  What makes it an entity is that others are expected and that its absence would be noticed.
+attributes:
+- name: occasion
+  type: text
+  card: 1..1
+- name: form
+  type: text
+  card: 1..1
+- name: recurs
+  type: code
+  card: 0..1
+- name: who-comes
+  type: text
+  card: 0..*
+- name: where
+  type: reference(significant-place)
+  card: 0..1
+- name: kept-since
+  type: date
+  card: 0..1
+- name: kept-now-by
+  type: text
+  card: 0..1
+states:
+- unmarked
+- remembered
+- shaped
+- held
+- returning each season
+- handed on
+relations:
+- target: community-relation
+  type: serves

@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: mentee
+title: Mentee
+nature: person
+stance: served
+via: contributor-to-succession
+represented_by:
+- mentee-relation
+dissolves: true

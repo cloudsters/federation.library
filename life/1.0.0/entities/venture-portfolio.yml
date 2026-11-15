@@ -1,0 +1,41 @@
+kind: entity
+slug: venture-portfolio
+title: Venture Portfolio
+type: governance
+summary: All ventures this life carries, held together with what each is allowed to take. A portfolio exists so that adding one is
+  visibly a decision about the others.
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: ventures
+  type: list(venture)
+  card: 1..*
+- name: share-of-each
+  type: text
+  card: 1..*
+- name: time-available
+  type: duration
+  card: 0..1
+- name: money-available
+  type: money
+  card: 0..1
+- name: rests-on-one
+  type: boolean
+  card: 0..1
+- name: next-look
+  type: date
+  card: 0..1
+states:
+- gathering
+- balanced
+- crowded
+- leaning
+- rebalanced
+relations:
+- target: life-blueprint
+  type: part-of
+- target: venture
+  type: about
+- target: weekly-rhythm
+  type: depends-on

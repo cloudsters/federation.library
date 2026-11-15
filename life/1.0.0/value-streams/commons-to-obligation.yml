@@ -1,0 +1,87 @@
+kind: value-stream
+slug: commons-to-obligation
+title: Repaying the Common Good
+family: source-to-alliance
+summary: What the life takes from shared systems it did not build — roads, schools, medicine, language, the air — and what taking
+  it entails.
+trigger: A hospital, a school or a public road brings home how much was built by others, or a tax demand, a vote or a local appeal
+  asks what is owed.
+outcome: The person sees what their life draws from shared systems and gives back in ways they have chosen, as a member rather than
+  only a user.
+stakeholders:
+- community
+- authority
+- descendant
+- place
+steps:
+- slug: seeing-what-others-built
+  title: Seeing What Others Built
+  summary: A hospital stay, a school, a road or the language itself brings home how much of the life runs on things others built and
+    keep up.
+  capabilities:
+  - seeing-what-one-was-given
+  entities:
+  - commons-instance
+  - community-relation
+  - gratitude-log
+  serves:
+  - hospital-ward
+- slug: tracing-what-the-life-draws
+  title: Tracing What the Life Draws
+  summary: The person names the shared systems they draw on most, and what they already put back in tax, time, care or attention.
+  capabilities:
+  - seeing-what-one-was-given
+  - mapping-what-one-depends-on
+  entities:
+  - commons-instance
+  - contribution-record
+  - significant-place
+  - dependency-register
+  serves:
+  - official-papers
+- slug: deciding-what-is-owed
+  title: Deciding What Is Owed
+  summary: The person decides for themselves what they owe and to which commons, rather than leaving it to guilt or to the minimum
+    demanded.
+  capabilities:
+  - deciding-what-one-owes
+  entities:
+  - giving-plan
+  - commons-charter
+  - value-set
+- slug: giving-back-as-a-member
+  title: Giving Back as a Member
+  summary: The chosen contribution is made, by voting, serving, volunteering, giving or tending a place, as a member with a voice
+    rather than a customer.
+  capabilities:
+  - taking-part-as-a-citizen
+  - giving-without-keeping-score
+  entities:
+  - civic-action
+  - gift
+  - commons-instance
+  - community-relation
+  serves:
+  - a-gift-given
+  - the-ballot
+  - volunteer-shift
+  - where-the-group-decides
+- slug: thinking-of-those-after
+  title: Thinking of Those After
+  summary: The person considers what their use of shared things leaves for children and those not yet born, and changes some habits
+    because of it.
+  capabilities:
+  - thinking-in-generations
+  entities:
+  - habit-record
+  - significant-place
+  - giving-plan
+- slug: looking-at-what-was-given
+  title: Looking at What Was Given
+  summary: From time to time the person sets what they actually contributed beside what they decided, without reproach.
+  capabilities:
+  - looking-back-without-blame
+  entities:
+  - contribution-record
+  - giving-plan
+  - review-cadence

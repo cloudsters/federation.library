@@ -1,0 +1,45 @@
+kind: entity
+slug: will
+title: Will and Directive
+type: governance
+summary: What is to happen to what this person holds, and what is to happen to them, when they can no longer say. Legal will, advance
+  directive, powers of attorney. The one governance record whose value is entirely in existing before it is needed.
+attributes:
+- name: kind
+  type: code
+  card: 1..*
+- name: signed-on
+  type: date
+  card: 0..1
+- name: speaks-for-me
+  type: text
+  card: 0..*
+- name: what-goes-where
+  type: text
+  card: 0..*
+- name: wishes-for-care
+  type: text
+  card: 0..1
+- name: where-the-papers-lie
+  type: text
+  card: 1..1
+- name: who-knows
+  type: text
+  card: 0..*
+- name: last-read
+  type: date
+  card: 0..1
+states:
+- intended
+- drafted
+- signed
+- told
+- outdated
+- revised
+relations:
+- target: financial-position
+  type: about
+- target: body
+  type: about
+- target: dependant-relation
+  type: about

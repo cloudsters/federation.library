@@ -1,0 +1,43 @@
+kind: entity
+slug: venture
+title: Venture
+type: master
+summary: 'One undertaking this life is committed to: an employment, a business, a project, a commons, a course of study. Ventures
+  are counted together because a life carries several at once and they compete for the same week.'
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: what-it-is-for
+  type: text
+  card: 1..1
+- name: serves-purpose
+  type: reference(life-purpose)
+  card: 0..1
+- name: started-on
+  type: date
+  card: 0..1
+- name: time-it-takes
+  type: duration
+  card: 0..1
+- name: what-it-returns
+  type: text
+  card: 0..*
+- name: milestones
+  type: list(venture-milestone)
+  card: 0..*
+- name: still-wanted
+  type: boolean
+  card: 0..1
+states:
+- tried small
+- taken on
+- carried
+- questioned
+- closed
+- handed over
+relations:
+- target: life-purpose
+  type: serves
+- target: venture-portfolio
+  type: part-of

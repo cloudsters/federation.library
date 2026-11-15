@@ -1,0 +1,83 @@
+kind: value-stream
+slug: inheritance-to-choice
+start: true
+title: Sorting What Was Handed Down
+family: perception-to-mandate
+summary: Sorting what was received from what is chosen. Every life is a palimpsest of other people's decisions, wounds and gifts;
+  the work is to keep what nourishes without being imprisoned by it or severed from it.
+trigger: A parent's words come out of one's own mouth, a family pattern repeats in a new household, or the death of an elder opens
+  the family story.
+outcome: What was received is known for what it is; the nourishing parts are kept by choice, and the rest no longer decides in silence.
+stakeholders:
+- parent
+- sibling
+- child
+- partner
+- descendant
+steps:
+- slug: hearing-the-echo
+  title: Hearing the Echo
+  summary: A parent's words come out of one's own mouth, or an old family pattern turns up in a new household, and the person notices
+    it.
+  capabilities:
+  - recognising-inherited-patterns
+  entities:
+  - pattern-log
+  - parent-relation
+  - ancestor
+  serves:
+  - daily-round-of-care
+  - family-gathering
+- slug: tracing-what-was-handed-down
+  title: Tracing What Was Handed Down
+  summary: Elders are asked, letters and objects are read, and the family story is pieced together so it is clear where the patterns
+    came from.
+  capabilities:
+  - tracing-the-family-story
+  entities:
+  - ancestor
+  - parent-relation
+  - life-narrative
+  serves:
+  - asking-an-elder
+  - family-archive
+- slug: writing-down-the-old-beliefs
+  title: Writing Down the Old Beliefs
+  summary: The beliefs that have been deciding in silence are written down plainly, so they can be looked at instead of simply obeyed.
+  capabilities:
+  - writing-down-hidden-beliefs
+  - turning-toward-disowned-parts
+  entities:
+  - premise
+  - worldview
+- slug: grieving-what-was-not-given
+  title: Grieving What Was Not Given
+  summary: What was missing, or what hurt, is mourned for what it was, without needing to turn anyone into the villain of the story.
+  capabilities:
+  - grieving-without-blame
+  entities:
+  - parent-relation
+  - life-narrative
+- slug: sorting-keep-from-release
+  title: Sorting Keep from Release
+  summary: The person decides which parts of the inheritance nourish and are kept by choice, and which are set down without cutting
+    off the people they came from.
+  capabilities:
+  - choosing-what-to-keep
+  entities:
+  - premise
+  - value-set
+  - family-charter
+- slug: changing-the-pattern-at-home
+  title: Changing the Pattern at Home
+  summary: In their own household the chosen parts are lived on and a different pattern is given time to take root, often noticed
+    first by the children.
+  capabilities:
+  - changing-a-pattern-at-home
+  entities:
+  - family-charter
+  - child-relation
+  - habit-record
+  serves:
+  - daily-round-of-care
+  - the-home

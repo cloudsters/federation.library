@@ -1,0 +1,90 @@
+kind: value-stream
+slug: setting-to-regulation
+title: Surroundings That Steady
+family: demand-to-fulfillment
+summary: Arranging the surroundings so they do the regulating — light, noise, order, distance — instead of requiring willpower to
+  overcome them.
+trigger: Home or workplace leaves the person tense without a clear reason, or noise, clutter and light keep undoing what willpower
+  tries to hold.
+outcome: The places the person lives and works in quietly steady them, so that calm and order take less effort to keep.
+stakeholders:
+- place
+- partner
+- child
+- employer
+steps:
+- slug: noticing-unexplained-tension
+  title: Noticing Unexplained Tension
+  summary: The person notices that a room, a desk or a stretch of the day leaves them tense, and stops blaming their own weakness
+    for it.
+  capabilities:
+  - sensing-what-a-place-does
+  entities:
+  - home
+  - workspace
+  - mood-record
+  serves:
+  - the-home
+  - the-workplace
+- slug: reading-what-the-place-does
+  title: Reading What the Place Does
+  summary: Light, noise, clutter, warmth, distance and view are each noticed for what they do to the person's nerves and mood.
+  capabilities:
+  - sensing-what-a-place-does
+  - recognising-ones-own-patterns
+  entities:
+  - home
+  - workspace
+  - energy-log
+  serves:
+  - the-home
+- slug: arranging-the-surroundings
+  title: Arranging the Surroundings
+  summary: 'The place is changed so that it does the steadying: light where it helps, quiet corners, order where the eye falls, distance
+    from what pulls.'
+  capabilities:
+  - arranging-steadying-surroundings
+  - taming-ones-devices
+  entities:
+  - home
+  - workspace
+  - device
+  serves:
+  - the-home
+- slug: agreeing-the-shared-space
+  title: Agreeing the Shared Space
+  summary: Those who share the place agree what each part of it is for, when it is quiet, and what stays out of it.
+  capabilities:
+  - agreeing-how-we-live-together
+  entities:
+  - partner-relation
+  - child-relation
+  - family-charter
+  - home
+  serves:
+  - kitchen-table
+  - the-home
+- slug: keeping-it-steady-lightly
+  title: Keeping It Steady Lightly
+  summary: Small daily resets keep the place steady without turning order into one more demand.
+  capabilities:
+  - keeping-order-lightly
+  entities:
+  - habit-record
+  - home
+  - daily-rhythm
+  serves:
+  - the-home
+- slug: changing-the-place-itself
+  title: Changing the Place Itself
+  summary: When a setting keeps undoing what the person is trying to hold, they consider a different room, workplace or home.
+  capabilities:
+  - knowing-when-to-leave
+  - sensing-what-a-place-does
+  entities:
+  - relocation
+  - home
+  - workspace
+  - decision
+  serves:
+  - moving-home

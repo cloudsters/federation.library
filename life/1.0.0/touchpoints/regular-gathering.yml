@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: regular-gathering
+title: The Regular Gathering
+medium: gathering
+mode: shared-presence
+summary: A club, choir, team or circle that meets at the same time and place, where a newcomer can become a regular.
+exchanges:
+- presence-for-belonging
+- welcome-for-renewal
+journey: a-newcomer-becomes-a-regular

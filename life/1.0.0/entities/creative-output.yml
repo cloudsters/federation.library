@@ -1,0 +1,39 @@
+kind: entity
+slug: creative-output
+title: Creative Output
+type: transactional
+summary: One made thing — an article, a talk, an artwork, a piece of code, a design. The unit `body-of-work` accumulates from.
+attributes:
+- name: what
+  type: text
+  card: 1..1
+- name: form
+  type: code
+  card: 1..1
+- name: made-on
+  type: date
+  card: 0..1
+- name: from-practice
+  type: reference(creative-practice)
+  card: 0..1
+- name: kept-where
+  type: text
+  card: 1..1
+- name: what-it-took
+  type: text
+  card: 0..1
+- name: rights-held
+  type: text
+  card: 0..1
+states:
+- rough
+- in the middle
+- finished
+- published
+- revised
+- gathered in
+relations:
+- target: body-of-work
+  type: part-of
+- target: creative-practice
+  type: based-on

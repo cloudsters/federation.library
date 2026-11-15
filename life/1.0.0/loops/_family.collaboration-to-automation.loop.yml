@@ -1,0 +1,93 @@
+loop: _family.collaboration-to-automation
+title: Keep the family 'Collaboration to Automation' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: collaboration-to-automation
+  vs:
+  - thinking-to-shared-sense
+  - practice-to-pattern
+  - work-to-agent
+  - decision-to-subsidiarity
+  - distance-to-rhythm
+  - language-to-understanding
+stance: Evolve collaboration (human + agent) into reliable, increasingly automated patterns. No single stream of
+  this family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed season of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was built into the runtime, adapted there, or left on the shelf
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/collaboration-to-automation
+  - value-model.yml#vs/thinking-to-shared-sense
+  - value-model.yml#vs/practice-to-pattern
+  - value-model.yml#vs/work-to-agent
+  - value-model.yml#vs/decision-to-subsidiarity
+  - value-model.yml#vs/distance-to-rhythm
+  - value-model.yml#vs/language-to-understanding
+  registry:
+  - instance/registry/5_value-streams/thinking-to-shared-sense.md
+  - instance/registry/5_value-streams/practice-to-pattern.md
+  - instance/registry/5_value-streams/work-to-agent.md
+  - instance/registry/5_value-streams/decision-to-subsidiarity.md
+  - instance/registry/5_value-streams/distance-to-rhythm.md
+  - instance/registry/5_value-streams/language-to-understanding.md
+  loop_states:
+  - instance/operations/loops/_state/thinking-to-shared-sense.yml
+  - instance/operations/loops/_state/practice-to-pattern.yml
+  - instance/operations/loops/_state/work-to-agent.yml
+  - instance/operations/loops/_state/decision-to-subsidiarity.yml
+  - instance/operations/loops/_state/distance-to-rhythm.yml
+  - instance/operations/loops/_state/language-to-understanding.yml
+  measures:
+  - distance-edge-hour-calls
+  - distance-energy-on-stretch-days
+  - distance-out-of-reach-kept
+  - distance-pace-checked
+  - human-line-redrawn-on-time
+  - human-line-stated-with-reasons
+  - human-skills-stale-since-handover
+  - human-unsure-it-should-have-gone
+  - pattern-found-when-needed
+  - pattern-never-used-again
+  - pattern-stopped-working-marked
+  - pattern-usable-by-others
+  - shared-sense-arrived-somewhere-new
+  - shared-sense-different-minds-in
+  - shared-sense-settled-by-outvoting
+  - shared-sense-written-down
+  - subsidiarity-carrying-what-is-not-mine
+  - subsidiarity-decider-named
+  - subsidiarity-fell-between
+  - subsidiarity-revisited-as-people-grow
+  - words-familiar-questioned
+  - words-meant-alike
+  - words-split-caught
+  - words-vocabulary-size
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.collaboration-to-automation.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or this life declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

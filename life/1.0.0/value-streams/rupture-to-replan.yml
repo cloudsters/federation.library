@@ -1,0 +1,78 @@
+kind: value-stream
+slug: rupture-to-replan
+title: Planning for the Unplanned
+family: purpose-to-portfolio
+summary: Designing the crisis response before the crisis, and knowing when a commitment should be ended rather than rescued.
+trigger: Something the life depended on suddenly falls away, or a commitment has been rescued so often that ending it becomes a real
+  question.
+outcome: A response to the worst was thought through in calm, and commitments that should end are ended cleanly rather than dragged
+  on.
+stakeholders:
+- partner
+- dependant
+- close-friend
+- employer
+- practitioner
+- child
+steps:
+- slug: picturing-the-worst-in-calm
+  title: Picturing the Worst in Calm
+  summary: In a quiet time the person thinks through the breaks that could come, an illness, a lost job, a death, and who would be
+    affected.
+  capabilities:
+  - thinking-the-worst-through-calmly
+  entities:
+  - crisis-plan
+  - dependant-relation
+- slug: agreeing-who-does-what
+  title: Agreeing Who Does What
+  summary: The people involved agree in advance who would do what and where the important papers and contacts are.
+  capabilities:
+  - deciding-with-those-it-touches
+  entities:
+  - crisis-plan
+  - partner-relation
+  - conversation
+  serves:
+  - emergency-folder
+  - kitchen-table
+- slug: when-it-falls-away
+  title: When It Falls Away
+  summary: When something the life depended on suddenly goes, the person acts from what was prepared instead of improvising everything
+    in shock.
+  capabilities:
+  - getting-through-the-first-days
+  entities:
+  - crisis
+  - crisis-plan
+  serves:
+  - emergency-folder
+- slug: asking-rescue-or-end
+  title: Asking Whether to Rescue or End
+  summary: A commitment that has been rescued again and again is looked at honestly, and the question of ending it is allowed to be
+    real.
+  capabilities:
+  - knowing-when-to-stop
+  entities:
+  - commitment
+  - venture-scorecard
+- slug: ending-cleanly
+  title: Ending Cleanly
+  summary: What should end is closed with care, what must go on is handed over, and the people involved are told plainly.
+  capabilities:
+  - ending-things-well
+  entities:
+  - commitment
+  - venture-milestone
+  - handover
+  serves:
+  - hard-conversation
+  - the-handover
+- slug: redrawing-the-plan
+  title: Redrawing the Plan
+  summary: The life is redesigned around what has changed, rather than waiting for the old shape to come back.
+  capabilities:
+  - redrawing-the-plan-after-a-break
+  entities:
+  - life-blueprint
+  - transition

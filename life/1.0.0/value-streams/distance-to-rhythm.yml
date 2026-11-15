@@ -1,0 +1,86 @@
+kind: value-stream
+slug: distance-to-rhythm
+title: Working across Distance
+family: collaboration-to-automation
+summary: Working with people in other time zones and other lives without either party having to be permanently available.
+trigger: The people the person works or lives with are in another time zone, or calls begin to eat the early mornings and the late
+  evenings.
+outcome: Shared work moves at a pace both sides can keep, with agreed times to meet and times to be out of reach, and nobody has to
+  be always available.
+stakeholders:
+- collaborator
+- client
+- employer
+- partner
+- close-friend
+steps:
+- slug: feeling-the-stretch
+  title: Feeling the Stretch
+  summary: Calls begin to eat the early mornings and the late evenings, and the person notices that being reachable has quietly become
+    being always available.
+  capabilities:
+  - noticing-ones-own-depletion
+  entities:
+  - time-audit
+  - energy-log
+  serves:
+  - video-call
+- slug: seeing-both-days
+  title: Seeing Both Days
+  summary: Laying the two days side by side, the person's and the other's, to find where they genuinely overlap and where they never
+    will.
+  capabilities:
+  - seeing-another-persons-day
+  entities:
+  - daily-rhythm
+  - weekly-rhythm
+  serves:
+  - shared-calendar
+- slug: agreeing-times-to-meet-and-not
+  title: Agreeing When to Meet
+  summary: Agreeing when to meet, when to answer and when each side is out of reach, and saying it aloud so it holds.
+  capabilities:
+  - agreeing-a-shared-pace
+  - making-terms-explicit
+  entities:
+  - weekly-rhythm
+  - boundary-set
+  - relationship-agreement
+  serves:
+  - shared-calendar
+  - video-call
+- slug: working-in-between
+  title: Working in Between
+  summary: Moving most of the shared work into writing that waits for the other to wake, and keeping meetings for what needs a live
+    voice.
+  capabilities:
+  - working-in-writing-across-time
+  entities:
+  - conversation
+  - pattern-log
+  serves:
+  - message-thread
+  - shared-document
+- slug: keeping-the-bond-warm
+  title: Keeping the Bond Warm
+  summary: Making room for the unhurried exchange that distance takes away, so the relation is more than a queue of tasks.
+  capabilities:
+  - keeping-in-touch-on-purpose
+  entities:
+  - friend
+  - conversation
+  - partner-relation
+  serves:
+  - phone-call
+  - video-call
+- slug: checking-the-pace
+  title: Checking the Pace
+  summary: Looking back now and then at whether the pace still suits both sides, and changing it before one side quietly gives way.
+  capabilities:
+  - agreeing-a-shared-pace
+  - noticing-ones-own-depletion
+  entities:
+  - review-cadence
+  - strain-indicator
+  serves:
+  - video-call

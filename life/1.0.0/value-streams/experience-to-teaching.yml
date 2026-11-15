@@ -1,0 +1,82 @@
+kind: value-stream
+slug: experience-to-teaching
+title: Teaching from Experience
+family: contributor-to-succession
+summary: The turn from being primarily a learner to being primarily a source — not as a formal role but as what happens when what
+  was learned by living becomes available to someone else.
+trigger: Someone younger starts asking how the person did it, or the person notices they now have more to give than to take in.
+outcome: What the person learned by living is reaching someone else and helping them, without needing a title, and the learning runs
+  both ways.
+stakeholders:
+- mentee
+- child
+- community
+- collaborator
+steps:
+- slug: being-asked-how
+  title: Being Asked How
+  summary: Someone younger starts asking how the person did it, and they notice they now have more to give than to take in.
+  capabilities:
+  - recognising-what-one-knows
+  entities:
+  - mentee-relation
+  - conversation
+  - self
+  serves:
+  - mentoring-conversation
+- slug: finding-what-one-knows
+  title: Finding What One Knows
+  summary: Turning lived experience into something sayable, the moments that taught, the mistakes, and what the person would now do
+    differently.
+  capabilities:
+  - recognising-what-one-knows
+  - putting-experience-into-words
+  entities:
+  - life-narrative
+  - journal
+  - experience
+- slug: making-room-for-someone
+  title: Making Room for Someone
+  summary: Choosing whom to bring on and how much time to give, and saying it plainly so both know what to expect.
+  capabilities:
+  - choosing-whom-to-teach
+  entities:
+  - mentee-relation
+  - commitment
+  - weekly-rhythm
+  serves:
+  - mentoring-conversation
+- slug: teaching-by-doing-together
+  title: Teaching by Doing Together
+  summary: Letting the other person work alongside, try, get it wrong and ask, rather than explaining from a distance.
+  capabilities:
+  - teaching-alongside
+  - letting-others-find-their-way
+  entities:
+  - mentee-relation
+  - experience
+  - conversation
+  serves:
+  - working-side-by-side
+- slug: learning-in-return
+  title: Learning in Return
+  summary: Listening to what the younger one sees that the person no longer can, and letting it change how they work and think.
+  capabilities:
+  - learning-from-those-one-teaches
+  entities:
+  - mentee-relation
+  - conversation
+  - other-perception
+  serves:
+  - mentoring-conversation
+- slug: letting-them-go-further
+  title: Letting Them Go Further
+  summary: Stepping back as the other outgrows the need, glad rather than diminished, and noticing what reached them.
+  capabilities:
+  - letting-others-find-their-way
+  entities:
+  - mentee-relation
+  - relationship-map
+  - contribution-record
+  serves:
+  - mentoring-conversation

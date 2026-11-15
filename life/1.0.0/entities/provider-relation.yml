@@ -1,0 +1,43 @@
+kind: entity
+slug: provider-relation
+title: Service Provider Relation
+type: master
+summary: 'A counterparty this life buys from or runs on — a bank, a landlord, an insurer, a utility, a platform, a supplier. Held
+  apart from `contract`, which records the terms: this is who stands on the other side of them, and how much of the life would stop
+  if they did.'
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: provides
+  type: text
+  card: 1..*
+- name: since
+  type: date
+  card: 0..1
+- name: contracts
+  type: list(contract)
+  card: 0..*
+- name: accounts-held
+  type: list(service-account)
+  card: 0..*
+- name: how-to-reach
+  type: text
+  card: 0..1
+- name: could-be-replaced
+  type: boolean
+  card: 0..1
+- name: alternatives
+  type: text
+  card: 0..*
+states:
+- chosen
+- relied on
+- under review
+- being left
+- left
+relations:
+- target: self
+  type: serves
+- target: contract
+  type: based-on

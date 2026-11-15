@@ -1,0 +1,92 @@
+kind: value-stream
+slug: friction-to-repair
+title: Finding the Way Back
+family: participant-to-community
+summary: Reading conflict as information about the system, and knowing the way back from harm. Few bonds end at the breach; most end
+  because nobody had practised the return.
+trigger: An argument keeps returning in the same shape, or harm has been done by or to the person and a bond that mattered has gone
+  cold.
+outcome: Conflict is read for what it says about the relation, and when harm happens there is a known way back that both sides have
+  walked before.
+stakeholders:
+- partner
+- close-friend
+- sibling
+- parent
+- child
+- collaborator
+steps:
+- slug: noticing-the-same-fight
+  title: Noticing the Same Fight
+  summary: An argument returns in the same shape, or a bond that mattered has gone cold after harm done by or to the person.
+  capabilities:
+  - seeing-the-pattern-in-a-conflict
+  entities:
+  - conflict
+  - pattern-log
+  serves:
+  - the-argument
+- slug: letting-the-heat-pass
+  title: Letting the Heat Pass
+  summary: Stepping out of the moment long enough for anger or hurt to settle, without walking away for good.
+  capabilities:
+  - calming-down-mid-conflict
+  entities:
+  - conflict
+  - emotional-state
+  serves:
+  - the-argument
+- slug: reading-what-it-says
+  title: Reading What It Says
+  summary: Asking what the conflict reveals about the relation, an unmet need, an old rule, a term that no longer fits.
+  capabilities:
+  - seeing-the-pattern-in-a-conflict
+  - listening-to-the-other-side
+  - catching-ones-projections
+  entities:
+  - conflict
+  - relationship-agreement
+  - pattern-log
+- slug: owning-ones-part
+  title: Owning One's Part
+  summary: Naming plainly what the person did and what it cost the other, without an explanation or a counter-charge attached.
+  capabilities:
+  - owning-ones-part
+  entities:
+  - repair
+  - conversation
+  serves:
+  - saying-sorry
+- slug: making-it-right
+  title: Making It Right
+  summary: Doing what can be done to mend the harm, and hearing what the other needs before trust can return.
+  capabilities:
+  - making-amends
+  - listening-to-the-other-side
+  entities:
+  - repair
+  - conversation
+  serves:
+  - saying-sorry
+- slug: learning-the-way-back
+  title: Learning the Way Back
+  summary: Afterwards, noticing together what helped the return, so the next breach has a path both sides have already walked.
+  capabilities:
+  - learning-from-a-repair
+  entities:
+  - repair
+  - relationship-agreement
+  - journal
+  serves:
+  - heart-to-heart
+  - long-walk
+- slug: accepting-what-will-not-mend
+  title: Accepting What Will Not Mend
+  summary: When the other side does not come back, grieving the bond and letting it end without pretending the harm did not happen.
+  capabilities:
+  - ending-a-bond-well
+  - allowing-grief
+  - forgiving-another
+  entities:
+  - relationship-ending
+  - conflict

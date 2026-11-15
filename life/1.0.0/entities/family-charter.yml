@@ -1,0 +1,45 @@
+kind: entity
+slug: family-charter
+title: Family Charter
+type: governance
+summary: What a household or wider family holds in common — values, expectations, how decisions get made and money is handled across
+  generations. Rare, and the ones that exist were usually written after something went wrong.
+attributes:
+- name: household-or-family
+  type: text
+  card: 1..1
+- name: held-in-common
+  type: text
+  card: 1..*
+- name: how-decisions-are-made
+  type: text
+  card: 0..1
+- name: how-money-is-handled
+  type: text
+  card: 0..1
+- name: who-cares-for-whom
+  type: text
+  card: 0..*
+- name: unspoken-rules
+  type: text
+  card: 0..*
+- name: written-on
+  type: date
+  card: 0..1
+- name: revisited-on
+  type: date
+  card: 0..1
+states:
+- unspoken
+- named
+- agreed
+- lived
+- tested
+- rewritten
+relations:
+- target: commons-instance
+  type: about
+- target: value-set
+  type: based-on
+- target: premise
+  type: based-on

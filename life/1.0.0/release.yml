@@ -1,0 +1,21 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: model
+model: life
+source: Commons-Engineering/life.core@63e4a4b176d84651a1c843ca47a9fc640db775f5:models/emulation/life
+written_in: commons-engineering/commons@0.3.0
+library: commons-engineering
+version: 1.0.0
+made_in: Commons-Engineering/life.core@63e4a4b176d84651a1c843ca47a9fc640db775f5
+event: Commons-Engineering/life.core@63e4a4b176d84651a1c843ca47a9fc640db775f5:lifecycle/events/2026-11-15-release-life-1.0.0.yml
+gate:
+  result: pass
+  check: Commons-Engineering/life.core@63e4a4b:models/commons/commons-engineering/commons/specs/tools/check_library.py
+changed:
+- model
+parts:
+  model:
+    class: public
+    digest: sha256:1563b19c39c98f59c599770d7dd2c5fcf6bf1abebaa43d3519a9b71f9980aa85
+licence: CC-BY-SA-4.0
+answers: cloudsters/federation.library
+renames: {}

@@ -1,0 +1,36 @@
+kind: entity
+slug: other-perception
+title: Other-Perception
+type: intelligence
+summary: 'What other people say they see in this person and count on them for, gathered by asking them directly rather than inferred.
+  Treated as primary evidence and not as flattery or confirmation: a person is the weakest available witness to what comes to them
+  easily.'
+attributes:
+- name: asked-on
+  type: date
+  card: 1..1
+- name: asked-of
+  type: text
+  card: 1..*
+- name: question
+  type: text
+  card: 1..1
+- name: what-they-count-on
+  type: text
+  card: 1..*
+- name: recurring-answer
+  type: text
+  card: 0..1
+- name: unexpected
+  type: text
+  card: 0..*
+states:
+- asked
+- gathered
+- taken in
+- revisited
+relations:
+- target: self
+  type: about
+- target: natural-gift
+  type: about

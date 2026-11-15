@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: practitioner
+title: Practitioner
+nature: person
+stance: serving
+via: acquire-to-retire
+represented_by:
+- practitioner-relation
+dissolves: false

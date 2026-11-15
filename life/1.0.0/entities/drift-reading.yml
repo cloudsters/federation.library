@@ -1,0 +1,37 @@
+kind: entity
+slug: drift-reading
+title: Drift Reading
+type: intelligence
+summary: The measured difference between what this life's model says is true and what is observed to be true. Not a failure — it is
+  the instrument's output, and a model that never drifts is not being compared to anything.
+attributes:
+- name: read-on
+  type: date
+  card: 1..1
+- name: model-says
+  type: text
+  card: 1..1
+- name: observed
+  type: text
+  card: 1..1
+- name: part-of-life
+  type: code
+  card: 0..1
+- name: seen-in
+  type: code
+  card: 0..1
+- name: response
+  type: text
+  card: 0..1
+states:
+- noticed
+- read
+- model revised
+- life changed
+relations:
+- target: life-blueprint
+  type: about
+- target: habit-record
+  type: based-on
+- target: time-audit
+  type: based-on

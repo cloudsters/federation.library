@@ -1,0 +1,91 @@
+kind: value-stream
+slug: signal-to-knowledge
+title: Hearing the Body
+family: acquire-to-retire
+summary: Reading what the body is reporting — symptoms, measures, the slow drift that no single day shows — early enough for it to
+  still be information rather than an emergency.
+trigger: A symptom keeps coming back, a value drifts at a routine check, or a quiet sense that something is off will not go away.
+outcome: What the body reports is heard while it is still information, and the person knows their own baseline well enough to notice
+  a change.
+stakeholders:
+- practitioner
+- partner
+- parent
+- synthetic-collaborator
+steps:
+- slug: noticing-something-is-off
+  title: Noticing Something Is Off
+  summary: A symptom keeps returning, a value drifts, or a quiet sense of unease will not go away, and the person takes it seriously.
+  capabilities:
+  - listening-to-the-body
+  entities:
+  - body
+  - health-event
+- slug: knowing-ones-baseline
+  title: Knowing One's Baseline
+  summary: The person knows how their body usually is in sleep, weight, pressure, energy and mood, so that a change can be seen.
+  capabilities:
+  - knowing-ones-own-baseline
+  entities:
+  - health-data
+  - energy-log
+  - body
+- slug: keeping-a-simple-record
+  title: Keeping a Simple Record
+  summary: Symptoms, measures and what came before them are noted over time, enough to show the slow drift that no single day reveals.
+  capabilities:
+  - keeping-track-of-symptoms
+  entities:
+  - health-data
+  - journal
+  - pattern-log
+- slug: setting-feeling-beside-measure
+  title: Setting Feeling Beside Measure
+  summary: How the body feels is read beside what was measured, by the person or a machine helper, and neither is allowed to silence
+    the other.
+  capabilities:
+  - weighing-feeling-against-measure
+  entities:
+  - health-data
+  - mood-record
+  - agent
+  serves:
+  - health-record
+  - talking-with-an-agent
+- slug: bringing-it-to-someone
+  title: Bringing It to a Practitioner
+  summary: The person takes the record to a practitioner early, says clearly what has changed, and asks what it may mean.
+  capabilities:
+  - describing-what-one-notices
+  - speaking-for-oneself-in-care
+  entities:
+  - health-event
+  - health-data
+  - practitioner-relation
+  serves:
+  - doctors-appointment
+  - health-record
+- slug: acting-while-it-is-information
+  title: Acting While It Is Information
+  summary: What was found leads to a small change now, a date to look again, or a deliberate decision to wait and watch.
+  capabilities:
+  - deciding-without-certainty
+  entities:
+  - health-plan
+  - decision
+  - health-event
+- slug: checking-back-in
+  title: Checking Back In
+  summary: The person returns to the record at the agreed times, and lets what parents and forebears lived through inform what they
+    watch for.
+  capabilities:
+  - learning-from-family-history
+  - knowing-ones-own-baseline
+  entities:
+  - review-cadence
+  - ancestor
+  - parent-relation
+  - health-data
+  serves:
+  - doctors-appointment
+  - health-record

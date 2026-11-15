@@ -1,0 +1,88 @@
+kind: value-stream
+slug: work-to-body-of-work
+title: Gathering a Life's Work
+family: discovery-to-usage
+summary: The accumulation across decades that is worth more than the sum of its pieces — and that only exists if someone kept it together.
+trigger: The person looks back and finds their work scattered across drives, drawers and other people's archives, or someone asks
+  to see all of it.
+outcome: The work of decades is kept together and can be seen as a whole, and someone besides the person knows where it is.
+stakeholders:
+- descendant
+- audience
+- collaborator
+- synthetic-collaborator
+- community
+steps:
+- slug: finding-it-scattered
+  title: Finding It Scattered
+  summary: The person looks back, or is asked to show everything, and finds the work spread across drives, drawers and other people's
+    archives.
+  capabilities:
+  - seeing-ones-work-as-a-whole
+  entities:
+  - creative-output
+  - device
+  - body-of-work
+- slug: gathering-the-pieces
+  title: Gathering the Pieces
+  summary: Bringing the work into one place, including what others hold, and noting what each piece is and when it was made.
+  capabilities:
+  - keeping-an-archive
+  entities:
+  - body-of-work
+  - creative-output
+  - publication
+  serves:
+  - family-archive
+- slug: seeing-the-threads
+  title: Seeing the Threads
+  summary: Noticing the questions and themes that run through decades of separate pieces and make them one body of work.
+  capabilities:
+  - seeing-ones-work-as-a-whole
+  entities:
+  - body-of-work
+  - life-narrative
+- slug: choosing-what-belongs
+  title: Choosing What Belongs
+  summary: Deciding which pieces carry the work and which can be let go without loss.
+  capabilities:
+  - curating-ones-own-work
+  entities:
+  - body-of-work
+  - decision
+- slug: keeping-it-safe
+  title: Keeping It Safe and Readable
+  summary: Making sure the work survives devices and services changing, in forms others will still be able to open.
+  capabilities:
+  - keeping-an-archive
+  - keeping-work-on-own-ground
+  entities:
+  - device
+  - technology-policy
+  - body-of-work
+- slug: telling-someone-where-it-is
+  title: Telling Someone Where It Is
+  summary: Making sure someone besides the person knows where the work lives and what should happen to it later.
+  capabilities:
+  - writing-down-what-one-leaves
+  entities:
+  - will
+  - handover
+  - child-relation
+  - body-of-work
+  serves:
+  - emergency-folder
+  - the-will
+- slug: letting-it-be-seen-whole
+  title: Letting It Be Seen Whole
+  summary: Showing the work as a whole to those who might use it, now or after the person is gone.
+  capabilities:
+  - curating-ones-own-work
+  entities:
+  - publication
+  - audience-relation
+  - presentation
+  serves:
+  - own-site
+  - published-work
+  - speaking-in-public

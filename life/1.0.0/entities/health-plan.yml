@@ -1,0 +1,44 @@
+kind: entity
+slug: health-plan
+title: Health Plan
+type: governance
+summary: What this life intends about movement, food, sleep and treatment, and what it will do when the intention fails. The failure
+  clause is the part that makes it a plan.
+attributes:
+- name: movement
+  type: text
+  card: 0..1
+- name: food
+  type: text
+  card: 0..1
+- name: sleep
+  type: text
+  card: 0..1
+- name: treatment
+  type: text
+  card: 0..*
+- name: when-it-fails
+  type: text
+  card: 1..1
+- name: conditions
+  type: list(condition)
+  card: 0..*
+- name: set-on
+  type: date
+  card: 1..1
+- name: next-look
+  type: date
+  card: 0..1
+states:
+- drafted
+- kept
+- lapsed
+- restarted
+- adjusted
+relations:
+- target: body
+  type: about
+- target: condition
+  type: about
+- target: health-data
+  type: based-on

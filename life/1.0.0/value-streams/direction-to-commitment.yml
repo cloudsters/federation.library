@@ -1,0 +1,70 @@
+kind: value-stream
+slug: direction-to-commitment
+title: Choosing and Committing
+family: purpose-to-portfolio
+summary: Deciding, and knowing which decisions can be walked back. The reversible ones deserve speed; the irreversible ones deserve
+  everything else.
+trigger: A choice can no longer be put off, a job offer, a move, a marriage, a child, and it is unclear which parts of it could be
+  undone.
+outcome: Decisions are made at the pace they deserve, quickly where they can be walked back, slowly and wholeheartedly where they
+  cannot.
+stakeholders:
+- partner
+- child
+- close-friend
+- mentor
+- employer
+steps:
+- slug: facing-the-choice
+  title: Facing the Choice
+  summary: A job offer, a move, a marriage or a child cannot be put off any longer, and the person admits the decision is due.
+  capabilities:
+  - admitting-a-choice-is-due
+  entities:
+  - decision
+  - intention
+- slug: telling-what-can-be-undone
+  title: Telling What Can Be Undone
+  summary: The choice is taken apart into what could be walked back and what could not, so each part gets the pace it deserves.
+  capabilities:
+  - knowing-what-can-be-undone
+  entities:
+  - decision
+- slug: testing-before-committing
+  title: Testing before Committing
+  summary: Where possible the person tries a piece of the choice first, a visit, a trial period, a small step, and acts well without
+    all the answers.
+  capabilities:
+  - trying-before-committing
+  entities:
+  - experience
+  - intention
+  serves:
+  - journey-somewhere
+- slug: deciding-with-those-it-touches
+  title: Deciding with Those It Touches
+  summary: The partner, the children or others the choice will bind are brought into it, and their stake is heard before it is settled.
+  capabilities:
+  - deciding-with-those-it-touches
+  entities:
+  - conversation
+  - partner-relation
+  - child-relation
+  serves:
+  - kitchen-table
+- slug: committing-wholeheartedly
+  title: Committing Wholeheartedly
+  summary: Once the choice is made, the person says yes fully and stops keeping one foot out of the door.
+  capabilities:
+  - saying-yes-wholeheartedly
+  entities:
+  - commitment
+  - decision
+- slug: letting-the-other-path-go
+  title: Letting the Other Path Go
+  summary: The options the decision closed off are named, mourned where they need to be, and released.
+  capabilities:
+  - letting-the-other-path-go
+  entities:
+  - decision
+  - journal

@@ -1,0 +1,28 @@
+kind: journey
+slug: a-different-pattern
+title: A Different Pattern
+stakeholder: child
+via: perception-to-mandate
+summary: The child grows up in a household where an old family pattern was noticed and sorted, and a chosen one is given time to take
+  root, often noticed first by the child.
+stages:
+- slug: meet-the-echo
+  title: Meet the Echo
+  goal: The old family pattern the child meets has been noticed by the adults rather than simply repeated.
+  step: inheritance-to-choice/hearing-the-echo
+  touchpoints:
+  - daily-round-of-care
+  - family-gathering
+- slug: find-where-it-came-from
+  title: Find Where It Came From
+  goal: The family story has been pieced together and kept where the child can later find where the patterns came from.
+  step: inheritance-to-choice/tracing-what-was-handed-down
+  touchpoints:
+  - family-archive
+- slug: live-the-chosen-pattern
+  title: Live the Chosen Pattern
+  goal: The child lives with a pattern that was chosen, and is often the first to show that it has changed.
+  step: inheritance-to-choice/changing-the-pattern-at-home
+  touchpoints:
+  - the-home
+  - daily-round-of-care

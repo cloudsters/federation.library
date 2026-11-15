@@ -1,0 +1,92 @@
+kind: value-stream
+slug: tool-to-integration
+title: Tools That Work Together
+family: portfolio-to-system
+summary: Choosing the small number of tools a life actually runs on, and making them work as one system rather than a drawer of half-used
+  accounts.
+trigger: Something important gets lost between apps, or a new account is opened for a job an old one already does, or the drawer of
+  half-used tools starts to weigh more than the work.
+outcome: The life runs on a small set of tools the person chose, that pass things to each other, and that the person could explain
+  to someone else.
+stakeholders:
+- synthetic-collaborator
+- partner
+- collaborator
+- employer
+- provider
+steps:
+- slug: noticing-what-falls-between
+  title: Noticing What Falls Between
+  summary: Something important goes missing between apps, or the same thing is kept in three places, and the person sees the tools
+    now cost more than they carry.
+  capabilities:
+  - noticing-tool-friction
+  entities:
+  - device
+  - technology-policy
+  serves:
+  - online-account
+- slug: taking-stock-of-the-drawer
+  title: Taking Stock of the Drawer
+  summary: Listing every account, app and device the life actually touches and what each is really used for, including the ones nobody
+    has opened in a long time.
+  capabilities:
+  - mapping-what-the-life-runs-on
+  entities:
+  - device
+  - technology-policy
+  - service-account
+- slug: choosing-the-few
+  title: Choosing the Few
+  summary: Deciding which small set of tools the life will run on, one for each job that matters, and letting the duplicates go even
+    when they were paid for.
+  capabilities:
+  - choosing-tools-on-purpose
+  - letting-things-go
+  entities:
+  - device
+  - technology-policy
+  - decision
+- slug: making-them-talk
+  title: Making Them Talk
+  summary: Connecting the chosen tools so that a note, a date or a file moves from one to the next without being copied by hand.
+  capabilities:
+  - joining-tools-into-one-system
+  entities:
+  - device
+  - agent
+  serves:
+  - online-account
+  - settings-screen
+- slug: closing-the-old-accounts
+  title: Closing the Old Accounts
+  summary: Moving what is worth keeping out of the tools being dropped, then closing them so they stop collecting data and attention.
+  capabilities:
+  - leaving-a-service-cleanly
+  entities:
+  - device
+  - technology-policy
+  - service-account
+  - data-trace
+  serves:
+  - online-account
+- slug: explaining-it-to-someone
+  title: Explaining It to Someone
+  summary: Telling a partner or a colleague how the whole thing fits together, which shows where it still lives only in the person's
+    head.
+  capabilities:
+  - describing-a-setup-plainly
+  entities:
+  - technology-policy
+  - partner-relation
+  serves:
+  - kitchen-table
+- slug: keeping-it-small
+  title: Keeping It Small
+  summary: Over the months, noticing when a new tool slips in, and asking what it replaces before it is allowed to stay.
+  capabilities:
+  - noticing-tool-friction
+  - choosing-tools-on-purpose
+  entities:
+  - device
+  - technology-policy

@@ -1,0 +1,37 @@
+kind: entity
+slug: coherence-reading
+title: Coherence Reading
+type: intelligence
+summary: The distance between what this person says they hold and what their week shows. Held per family so that it cannot be averaged
+  away — a single life score can be raised by pushing one part hard, which is the trade it should not be possible to make.
+attributes:
+- name: read-on
+  type: date
+  card: 1..1
+- name: part-of-life
+  type: code
+  card: 1..1
+- name: value
+  type: reference(value-set)
+  card: 0..1
+- name: said
+  type: text
+  card: 1..1
+- name: week-shows
+  type: text
+  card: 1..1
+- name: gap
+  type: text
+  card: 0..1
+states:
+- read
+- widening
+- narrowing
+- steady
+relations:
+- target: value-set
+  type: about
+- target: time-audit
+  type: based-on
+- target: life-dashboard
+  type: part-of

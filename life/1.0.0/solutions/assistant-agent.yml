@@ -1,0 +1,12 @@
+kind: solution
+slug: assistant-agent
+title: Assistant Agent
+role: agent
+sovereignty: hosted
+summary: A machine collaborator with a defined reach that sorts what arrives, keeps renewals and deadlines in view and drafts routine
+  replies for review.
+carries:
+- keeping-arrangements-current
+- gathering-scattered-records
+- keeping-one-list-of-what-is-owed
+holds: []

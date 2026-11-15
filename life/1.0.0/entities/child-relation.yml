@@ -1,0 +1,39 @@
+kind: entity
+slug: child-relation
+title: Child Relation
+type: master
+summary: 'Someone this life is raising or has raised — by birth, adoption, fostering or marriage. The relation whose stated success
+  condition is its own dissolution: a child who can manage without this person.'
+attributes:
+- name: related-by
+  type: code
+  card: 1..1
+- name: birth-date
+  type: date
+  card: 0..1
+- name: arrival
+  type: reference(birth)
+  card: 0..1
+- name: raised-with
+  type: list(partner)
+  card: 0..*
+- name: how-raised
+  type: reference(parenting-agreement)
+  card: 0..1
+- name: decisions-now-theirs
+  type: text
+  card: 0..*
+- name: lives-at-home
+  type: boolean
+  card: 0..1
+states:
+- arriving
+- cared for
+- growing
+- standing alone
+- grown and gone
+relations:
+- target: self
+  type: about
+- target: parenting-agreement
+  type: based-on

@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: collaborator
+title: Collaborator
+nature: person
+stance: both
+via: source-to-alliance
+represented_by:
+- collaborator-relation
+dissolves: false

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: the-delivery
+title: The Delivery
+medium: moment
+mode: digital
+summary: The moment finished work is handed to the one who asked for it.
+exchanges:
+- service-for-fee
+- reliable-work-for-standing
+- use-for-refinement
+journey: using-the-work

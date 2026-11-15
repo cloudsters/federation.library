@@ -1,0 +1,76 @@
+kind: value-stream
+slug: energy-to-allocation
+title: Spending the Good Hours
+family: demand-to-fulfillment
+summary: Knowing one's own energy well enough to forecast it, and spending the good hours on what actually needs them.
+trigger: Fatigue arrives earlier than it should, the best hours keep going to the least important things, or a crash comes without
+  warning.
+outcome: The person can tell ahead of time what kind of day their energy allows, and the good hours go to what truly needs them.
+stakeholders:
+- employer
+- client
+- partner
+- practitioner
+steps:
+- slug: feeling-fatigue-come-early
+  title: Feeling Fatigue Come Early
+  summary: Tiredness arrives sooner than it should, or a crash comes out of nowhere, and the person stops waving it away as a passing
+    mood.
+  capabilities:
+  - noticing-ones-own-depletion
+  entities:
+  - body
+  - strain-indicator
+  - mood-record
+- slug: learning-ones-energy-weather
+  title: Learning One's Energy Weather
+  summary: Over some weeks the person notes when energy rises and falls, and what reliably drains or restores it.
+  capabilities:
+  - reading-ones-own-energy
+  entities:
+  - energy-log
+  - habit-record
+  - health-data
+- slug: forecasting-the-day
+  title: Forecasting the Day
+  summary: Each morning or the evening before, the person reads what kind of day their energy will allow and plans for that day, not
+    an ideal one.
+  capabilities:
+  - forecasting-ones-own-capacity
+  entities:
+  - energy-log
+  - daily-rhythm
+  - weekly-rhythm
+- slug: placing-the-good-hours
+  title: Placing the Good Hours
+  summary: The best hours go to the work and the people that truly need them; errands and routine are moved into the low ones.
+  capabilities:
+  - matching-work-to-energy
+  - choosing-what-matters-now
+  entities:
+  - daily-rhythm
+  - intention
+  - venture
+- slug: dropping-what-drains
+  title: Dropping What Drains
+  summary: Commitments and habits that cost more than they give are named, and some are reduced, handed to someone else or let go.
+  capabilities:
+  - dropping-what-drains
+  - handing-things-over
+  - knowing-ones-own-use
+  entities:
+  - commitment
+  - delegation-line
+  - habit-record
+  serves:
+  - hard-conversation
+- slug: heeding-the-warning
+  title: Heeding the Warning
+  summary: When the first signs of a crash appear, the person scales back before the body makes the decision for them.
+  capabilities:
+  - heeding-early-warnings
+  - forecasting-ones-own-capacity
+  entities:
+  - strain-indicator
+  - energy-log
+  - recovery-period

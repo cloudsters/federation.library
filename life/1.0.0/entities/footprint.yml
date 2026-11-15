@@ -1,0 +1,43 @@
+kind: entity
+slug: footprint
+title: Life Footprint
+type: intelligence
+summary: 'What this life draws from the living world — land, water, energy, animals and other people''s labour — through how it eats,
+  travels, dwells and buys. Held apart from `expense`, which counts the money: this follows the draw back to where it lands, and is
+  read rather than scored.'
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: area
+  type: code
+  card: 1..*
+- name: drawn-from
+  type: text
+  card: 1..*
+- name: traced-to
+  type: text
+  card: 0..*
+- name: kept-drawing
+  type: text
+  card: 0..*
+- name: changed
+  type: text
+  card: 0..*
+- name: read-on
+  type: date
+  card: 1..1
+states:
+- traced
+- faced
+- changing
+- settled
+relations:
+- target: expense
+  type: about
+- target: vehicle
+  type: about
+- target: significant-place
+  type: about
+- target: value-set
+  type: based-on

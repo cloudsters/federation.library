@@ -1,0 +1,39 @@
+kind: entity
+slug: crisis
+title: Crisis
+type: transactional
+summary: An acute break — of health, money, a relation, or meaning. What is worth recording is not the event but the time from the
+  break to the first constructive move, because that interval is the only part a life can shorten.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: broke-on
+  type: date
+  card: 1..1
+- name: first-constructive-move
+  type: date
+  card: 0..1
+- name: what-broke
+  type: text
+  card: 1..1
+- name: what-still-held
+  type: text
+  card: 0..*
+- name: plan-used
+  type: reference(crisis-plan)
+  card: 0..1
+- name: what-it-taught
+  type: text
+  card: 0..*
+states:
+- breaking
+- being got through
+- grieving
+- steadying
+- learned from
+relations:
+- target: crisis-plan
+  type: depends-on
+- target: self
+  type: about

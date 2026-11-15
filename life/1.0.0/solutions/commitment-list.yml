@@ -1,0 +1,13 @@
+kind: solution
+slug: commitment-list
+title: Commitment List
+role: system-of-engagement
+sovereignty: owned
+summary: Every promise and open item in one list outside the head, looked through on a set day.
+carries:
+- keeping-promises
+- keeping-one-list-of-what-is-owed
+holds:
+- commitment
+- intention
+- obligation

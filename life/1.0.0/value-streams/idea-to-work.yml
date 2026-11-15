@@ -1,0 +1,89 @@
+kind: value-stream
+slug: idea-to-work
+title: Making the Thing
+family: discovery-to-usage
+summary: Making the thing — the part that cannot be planned around, only done.
+trigger: The idea has been carried so long that not making it weighs more than making it, or a first piece simply begins.
+outcome: The work exists in the world, made with hands and attention, and the person knows what it took.
+stakeholders:
+- collaborator
+- synthetic-collaborator
+- partner
+- place
+steps:
+- slug: deciding-to-begin
+  title: Deciding to Begin
+  summary: Not making it has come to weigh more than making it, and the person commits to starting, or simply notices they already
+    have.
+  capabilities:
+  - committing-to-begin
+  entities:
+  - decision
+  - intention
+  - commitment
+- slug: making-a-place-to-work
+  title: Making a Place to Work
+  summary: Setting up the room, the hours and the tools where the work can happen without being renegotiated every day.
+  capabilities:
+  - protecting-time-for-making
+  entities:
+  - workspace
+  - daily-rhythm
+  - device
+  serves:
+  - work-corner
+- slug: making-a-rough-first-piece
+  title: Making a Rough First Piece
+  summary: Producing something whole but rough, and accepting that it will be worse than the idea was in one's head.
+  capabilities:
+  - tolerating-rough-beginnings
+  entities:
+  - creative-output
+  - creative-practice
+- slug: staying-in-the-work
+  title: Staying in the Work
+  summary: Showing up day after day, letting the work absorb attention, and working with people and machines where they genuinely
+    help.
+  capabilities:
+  - sustaining-deep-attention
+  - working-with-machine-collaborators
+  entities:
+  - creative-practice
+  - agent
+  - daily-rhythm
+  - energy-log
+  - collaborator-relation
+  serves:
+  - talking-with-an-agent
+  - working-side-by-side
+- slug: getting-through-the-middle
+  title: Getting Through the Middle
+  summary: Meeting the stretch where doubt is loudest and the end is out of sight, and continuing without waiting for courage to arrive
+    first.
+  capabilities:
+  - continuing-through-doubt
+  entities:
+  - mood-record
+  - journal
+  - creative-output
+- slug: calling-it-finished
+  title: Calling It Finished
+  summary: Deciding the thing is done enough to exist, and letting it go out into the world.
+  capabilities:
+  - knowing-when-it-is-done
+  entities:
+  - creative-output
+  - publication
+  - venture-milestone
+  serves:
+  - published-work
+  - the-delivery
+- slug: knowing-what-it-took
+  title: Knowing What It Took
+  summary: Looking back at what the making cost and what it gave, so the next piece is begun with open eyes.
+  capabilities:
+  - reviewing-a-chapter
+  entities:
+  - journal
+  - energy-log
+  - by-product

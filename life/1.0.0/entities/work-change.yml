@@ -1,0 +1,36 @@
+kind: entity
+slug: work-change
+title: Work Change
+type: transactional
+summary: Starting, leaving or fundamentally altering how this person is engaged — hired, resigned, made redundant, went independent,
+  took a seat. Held with the reason given and the reason held privately, which are not always the same.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: with-employer
+  type: reference(employer-relation)
+  card: 0..1
+- name: reason-given
+  type: text
+  card: 1..1
+- name: reason-held
+  type: text
+  card: 0..1
+- name: terms-after
+  type: reference(contract)
+  card: 0..1
+states:
+- brewing
+- decided
+- said
+- under way
+- weathered
+relations:
+- target: transition
+  type: part-of
+- target: employer-relation
+  type: about

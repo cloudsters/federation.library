@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: message-thread
+title: The Message Thread
+medium: channel
+mode: written
+summary: Short written messages that wait for the other to answer in their own time.
+exchanges:
+- reliable-work-for-standing
+- rhythm-for-distance
+- disclosure-for-trust
+journey: friendship-over-years

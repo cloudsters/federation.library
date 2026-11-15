@@ -1,0 +1,73 @@
+kind: value-stream
+slug: exposure-to-buffer
+title: Holding Something in Reserve
+family: value-to-sustainability
+summary: How much shock the life can absorb before something breaks, and what is held in reserve against it.
+trigger: A shock lands, a lost job, a broken roof, a fall in markets, or the person realises one bad month would break the household.
+outcome: The life can take a hard blow without anything essential breaking, because something was set aside before it was needed.
+stakeholders:
+- partner
+- dependant
+- employer
+- authority
+steps:
+- slug: feeling-how-thin-the-margin-is
+  title: Feeling How Thin the Margin Is
+  summary: A shock lands, or the person realises one bad month would break the household, and they look honestly at how much they
+    could absorb.
+  capabilities:
+  - knowing-how-much-one-can-absorb
+  entities:
+  - financial-position
+  - account
+  serves:
+  - bank-app
+- slug: naming-what-could-break
+  title: Naming What Could Break
+  summary: The likely shocks, a lost job, a broken roof, a fall in markets, an illness, are thought through calmly with what each
+    would cost.
+  capabilities:
+  - thinking-the-worst-through-calmly
+  entities:
+  - crisis-plan
+  - home
+- slug: setting-aside-before-it-is-needed
+  title: Setting Aside before It Is Needed
+  summary: Something is put aside steadily in good times, before any emergency asks for it.
+  capabilities:
+  - setting-something-aside-steadily
+  entities:
+  - account
+  - budget
+  serves:
+  - bank-app
+- slug: covering-the-rare-large-loss
+  title: Covering the Rare Large Loss
+  summary: The losses too large to carry alone are insured, and the person reads what each policy actually covers and where the gaps
+    are.
+  capabilities:
+  - knowing-what-a-policy-covers
+  entities:
+  - insurance-policy
+  serves:
+  - insurance-policy
+- slug: writing-money-rules-when-calm
+  title: Writing Money Rules When Calm
+  summary: Rules for money held for the future are written in a calm hour, so they can be followed when markets or fear are loud.
+  capabilities:
+  - deciding-in-advance
+  entities:
+  - investment-policy
+  - investment-transaction
+- slug: refilling-after-a-blow
+  title: Refilling after a Blow
+  summary: After a shock has drawn on the reserve, it is rebuilt without shame, and what the blow taught is carried into the next
+    plan.
+  capabilities:
+  - refilling-the-reserve
+  entities:
+  - account
+  - crisis
+  - financial-position
+  serves:
+  - bank-app

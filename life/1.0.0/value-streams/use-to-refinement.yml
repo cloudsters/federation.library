@@ -1,0 +1,79 @@
+kind: value-stream
+slug: use-to-refinement
+title: Learning from Real Use
+family: discovery-to-usage
+summary: Learning from how the work is actually used rather than from how it was meant to be. There is no point at which this stops.
+trigger: People use the work in ways the person never intended, or a piece the person was proud of goes quietly unused.
+outcome: The work keeps changing in answer to how it is really met, and the person listens to that without losing their own sense
+  of it.
+stakeholders:
+- audience
+- client
+- collaborator
+- community
+steps:
+- slug: watching-it-in-use
+  title: Watching It in Use
+  summary: Paying attention to what people actually do with the work, including what they skip and ignore.
+  capabilities:
+  - observing-real-use
+  entities:
+  - creative-output
+  - audience-relation
+  - client-relation
+  serves:
+  - watching-someone-use-it
+- slug: taking-in-the-surprise
+  title: Taking In the Surprise
+  summary: Meeting uses the person never intended, or the silence around a piece they were proud of, without rushing to defend it.
+  capabilities:
+  - hearing-without-defending
+  entities:
+  - other-perception
+  - mood-record
+  serves:
+  - replies-and-comments
+- slug: asking-those-who-use-it
+  title: Asking Those Who Use It
+  summary: Asking a few people what they used it for, what got in the way and what they did instead.
+  capabilities:
+  - inviting-honest-response
+  - observing-real-use
+  entities:
+  - client-relation
+  - conversation
+  - other-perception
+  serves:
+  - client-meeting
+  - watching-someone-use-it
+- slug: telling-signal-from-noise
+  title: Telling Signal from Noise
+  summary: Sorting what points to a real change from what is one person's taste, while holding on to one's own sense of the work.
+  capabilities:
+  - keeping-ones-own-judgement
+  entities:
+  - journal
+  - value-set
+  - other-perception
+- slug: changing-the-work
+  title: Changing the Work
+  summary: Making the change, small or large, and putting the new version back in front of the people who use it.
+  capabilities:
+  - revising-in-response-to-use
+  entities:
+  - creative-output
+  - publication
+  - offering
+  serves:
+  - published-work
+  - the-delivery
+- slug: keeping-the-loop-open
+  title: Keeping the Loop Open
+  summary: Making listening to real use a standing habit rather than a one-off, because the work is never finished being met.
+  capabilities:
+  - observing-real-use
+  entities:
+  - review-cadence
+  - habit-record
+  serves:
+  - replies-and-comments

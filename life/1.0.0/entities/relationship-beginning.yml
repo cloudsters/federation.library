@@ -1,0 +1,30 @@
+kind: entity
+slug: relationship-beginning
+title: Relationship Beginning
+type: transactional
+summary: The point a significant relation started. Held because the model otherwise records only relations that already exist and
+  can say nothing about how any of them were formed.
+attributes:
+- name: with
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 0..1
+- name: where
+  type: text
+  card: 0..1
+- name: how
+  type: text
+  card: 1..1
+- name: through
+  type: reference(community-relation)
+  card: 0..1
+states:
+- first meeting
+- getting to know
+- let in
+- established
+relations:
+- target: relationship-map
+  type: about

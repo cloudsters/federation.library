@@ -1,0 +1,42 @@
+name: Feedback on a release
+description: Tell us what you found in a release of this library, what worked, what did not, or what is missing.
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. This repository is public, so please write nothing private here: no names of people or organisations, no personal or confidential data. Describe your commons by its kind, for example "a household" or "a small café".
+  - type: dropdown
+    id: release
+    attributes:
+      label: Which release is it about?
+      options:
+        - The Commons model (commons)
+        - The patterns extract (patterns)
+        - life
+        - business/startup
+        - business/corporate
+        - health
+        - urban
+        - Something else, or the library as a whole
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: As your CORE's .commons/lock.yml names it, for example 0.3.0 or v2026.11.3.
+      placeholder: "0.3.0"
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you find?
+      description: What you did, what happened, and what you expected instead. A question, an idea or something missing is welcome too.
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where exactly?
+      description: The file, record or pattern, if you know it, for example models/commons/commons-engineering/life/value-streams/spending-to-enough.yml.

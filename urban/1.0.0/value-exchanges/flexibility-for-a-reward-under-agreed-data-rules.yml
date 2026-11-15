@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: flexibility-for-a-reward-under-agreed-data-rules
+title: Flexibility for a Reward under Agreed Data Rules
+between:
+- resident
+- infrastructure-operator
+offered:
+- The household's flexibility in when it uses power, and its meter data under the rules residents agreed.
+returned:
+- A reward for the flexibility, a grid kept in balance and meter data used only as agreed.
+touchpoint: smart-meter-data-consent

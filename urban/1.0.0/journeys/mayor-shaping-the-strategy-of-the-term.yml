@@ -1,0 +1,56 @@
+kind: journey
+slug: mayor-shaping-the-strategy-of-the-term
+title: Mayor Shaping the Strategy of the Term
+stakeholder: mayor
+summary: The mayor opens the strategy cycle within the vision and mandate, learns what residents need and what the city can carry,
+  tests options on evidence, wins a coalition for the priorities, shapes the administration to them and cascades objectives with owners.
+stages:
+- slug: open-the-strategy-cycle
+  title: Open the Strategy Cycle
+  goal: The scope, participants, method and calendar of the strategy are set and confirmed by the council within the vision and the
+    mandate.
+  step: city-strategy/strategy-cycle-opening
+  touchpoints:
+  - strategy-cycle-brief
+- slug: know-what-residents-need
+  title: Know What Residents Need
+  goal: The needs of residents across neighbourhoods and groups, the conditions of the region and the ecological limits are assessed
+    and published.
+  step: city-strategy/need-and-condition-assessment
+  touchpoints:
+  - community-research-partnership
+  - need-and-condition-report
+- slug: know-what-the-city-can-carry
+  title: Know What the City Can Carry
+  goal: The administration's capabilities, staff, assets and finances are assessed honestly, with their gaps named.
+  step: city-strategy/municipal-capacity-assessment
+  touchpoints:
+  - capability-review-workshop
+- slug: test-options-on-evidence
+  title: Test Options on Evidence
+  goal: Strategic options are tested on what has worked here and elsewhere and on who would bear the costs and who would gain.
+  step: city-strategy/strategic-option-appraisal
+  touchpoints:
+  - strategic-options-paper
+  - peer-city-evidence-exchange
+- slug: win-a-coalition-for-the-priorities
+  title: Win a Coalition for the Priorities
+  goal: The council has adopted the priorities and allocation rules with their reasons and the positions of the minority.
+  step: city-strategy/strategy-choice-and-adoption
+  touchpoints:
+  - strategy-adoption-debate
+  - published-city-strategy
+- slug: shape-the-administration-to-the-strategy
+  title: Shape the Administration to the Strategy
+  goal: The departments the strategy needs are designed, shared work is agreed and decision rights are set closest to those affected.
+  step: city-strategy/administration-design
+  touchpoints:
+  - administration-design-workshop
+  - published-administration-structure
+- slug: cascade-objectives-with-owners
+  title: Cascade Objectives with Owners
+  goal: Every priority has measurable objectives with an owner, and departmental and neighbourhood plans are aligned with them.
+  step: city-strategy/objective-cascade
+  touchpoints:
+  - objective-setting-session
+  - published-city-objectives

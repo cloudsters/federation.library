@@ -1,0 +1,43 @@
+kind: entity
+slug: payslip
+title: Payslip
+type: transactional
+summary: 'The system’s monthly letter of care — the computed salary document that translates employment terms, attendance, deductions,
+  and benefits into a specific amount owed. Every payslip is a promise kept: the system honours the agreement it made when this person
+  said yes.'
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: pay-period
+  type: period
+  card: 1..1
+- name: earnings
+  type: amount
+  card: 1..1
+- name: deductions
+  type: amount
+  card: 1..1
+- name: taxes
+  type: amount
+  card: 1..1
+- name: net-pay
+  type: amount
+  card: 1..1
+- name: components
+  type: text
+  card: 1..*
+states:
+- computed
+- validated
+- approved
+- distributed
+- archived
+- corrected
+relations:
+- type: based-on
+  target: attendance
+- type: based-on
+  target: leave-request
+- type: produces
+  target: journal-entry

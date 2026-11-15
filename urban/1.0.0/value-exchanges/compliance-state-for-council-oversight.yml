@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: compliance-state-for-council-oversight
+title: Compliance State for Council Oversight
+between:
+- legal-and-compliance-officer
+- city-council
+offered:
+- A report on the state of compliance and the lessons of claims and findings.
+returned:
+- Council decisions that carry those lessons into bylaws, procedures and resources.
+touchpoint: compliance-report

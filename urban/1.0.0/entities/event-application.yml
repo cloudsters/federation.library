@@ -1,0 +1,62 @@
+kind: entity
+slug: event-application
+title: Event Application
+type: transactional
+summary: A proposal to hold an event, from receipt through assessment to decision, with what it brings to residents and visitors,
+  its demands on streets, parks and services and the communities it presents. The administration receives it by one route, gives first-time
+  organisers early advice and decides it within a set time, and an approved application is the basis of the event's permit.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: organiser
+  type: text
+  card: 1..1
+- name: first-time-organiser
+  type: boolean
+  card: 0..1
+- name: event-kind
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: proposed-period
+  type: period
+  card: 1..1
+- name: proposed-places
+  type: reference(public-space|park|street)
+  card: 0..*
+- name: expected-attendance
+  type: integer
+  card: 0..1
+- name: communities-presented
+  type: text
+  card: 0..*
+- name: service-demands
+  type: text
+  card: 0..*
+- name: received-on
+  type: date
+  card: 1..1
+- name: decision
+  type: text
+  card: 0..1
+states:
+- received
+- advised
+- under-assessment
+- approved
+- declined
+- withdrawn
+relations:
+- type: refers-to
+  target: city-events-calendar
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: noise-regulation
+- type: produces
+  target: public-space-permit
+- type: produces
+  target: festival

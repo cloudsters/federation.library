@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: daily-needs-for-a-service-shaped-by-its-users
+title: Daily Needs for a Service Shaped by Its Users
+between:
+- resident
+- frontline-worker
+offered:
+- Residents' account of when, where and how they need the service and how they want to reach a person.
+returned:
+- A way of delivering the service that staff can keep up and that fits the lives of those who use it.
+touchpoint: service-co-design-session

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: waste-set-out-on-the-day-for-a-reliable-round
+title: Waste Set Out on the Day for a Reliable Round
+between:
+- resident
+- frontline-worker
+offered:
+- Waste separated and set out on the collection day.
+returned:
+- Collection on the fixed day, and a missed collection put right the next working day.
+touchpoint: collection-calendar

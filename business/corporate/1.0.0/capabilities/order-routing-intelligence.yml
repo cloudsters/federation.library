@@ -1,0 +1,7 @@
+kind: capability
+slug: order-routing-intelligence
+title: Order Routing & Fulfillment Intelligence
+level: L3
+parent: fulfilment-routing
+summary: Send every order on its shortest path to the stakeholder — intelligent routing that considers location proximity, inventory
+  availability, shipping cost, and delivery promises to choose the optimal fulfillment source for each line item.

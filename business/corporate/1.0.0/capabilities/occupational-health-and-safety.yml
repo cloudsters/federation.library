@@ -1,0 +1,10 @@
+kind: capability
+slug: occupational-health-and-safety
+title: Occupational Health & Safety
+level: L2
+parent: health-and-safety
+summary: Preventing harm at work and learning from what goes wrong.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

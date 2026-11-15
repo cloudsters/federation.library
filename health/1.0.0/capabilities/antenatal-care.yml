@@ -1,0 +1,10 @@
+kind: capability
+slug: antenatal-care
+title: Antenatal Care
+level: L3
+parent: maternal-and-child-health
+summary: Provide antenatal care and assess and manage pregnancy risks.
+binds:
+- source: src-568
+  edition: '2016'
+  jurisdiction: global

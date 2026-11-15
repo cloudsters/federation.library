@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: settlement-map
+title: Settlement Map
+medium: artefact
+summary: The map and count made by the residents, accepted by the city as the record of the settlement, on which the plan rests and
+  against which the upgrading is reviewed.
+exchanges:
+- household-count-for-a-record-the-city-accepts
+journey: informal-settlement-resident-upgrading-in-place

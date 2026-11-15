@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: user-acceptance-test
+title: User Acceptance Test
+medium: encounter
+summary: The test in which users try a solution with real cases and confirm it is fit for their work before release.
+exchanges:
+- delivered-solution-for-a-fair-contract
+- testing-time-for-a-release-fit-for-work
+journey: technology-provider-delivering-a-solution

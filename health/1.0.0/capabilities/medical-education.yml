@@ -1,0 +1,13 @@
+kind: capability
+slug: medical-education
+title: Medical Education
+level: L1
+parent: education-and-training
+summary: Educating medical students and training physicians to specialist level.
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-071
+  edition: '2005'
+  jurisdiction: global

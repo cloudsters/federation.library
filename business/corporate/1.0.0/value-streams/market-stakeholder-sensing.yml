@@ -1,0 +1,96 @@
+kind: value-stream
+slug: market-stakeholder-sensing
+title: Market & Stakeholder Sensing
+family: interest-to-relationship
+summary: Making sense of markets, customers and competitors to find the opportunities worth pursuing, given what the organisation
+  can do and what it is for.
+trigger: The strategy or marketing cycle needs market input, or a market shift or competitor move is detected.
+outcome: A current picture of markets, customers and opportunities is available to strategy, offering and marketing decisions.
+stakeholders:
+- product-manager
+- sales-representative
+- executive-board
+- prospective-customer
+- business-customer
+steps:
+- slug: market-and-customer-research
+  title: Market and Customer Research
+  summary: Market size, trends, customer needs and buying behaviour are researched, with the ecosystem of customers, partners and
+    substitutes as the unit of analysis.
+  capabilities:
+  - market-ecosystem-sensing
+  entities:
+  - market-insight
+  - survey
+  - report
+  serves:
+  - customer-interview
+  - customer-survey
+  - market-study
+  - sales-meeting
+- slug: competitor-tracking
+  title: Competitor Tracking
+  summary: Competitors and substitutes are tracked for offers, prices, positioning and moves, to understand the choices customers
+    actually face.
+  capabilities:
+  - competitive-landscape-sensing
+  entities:
+  - market-insight
+  - counterparty
+  - benchmark
+  serves:
+  - sales-meeting
+  - trade-fair
+  - trade-press
+- slug: intent-signal-detection
+  title: Intent Signal Detection
+  summary: Weak signals of emerging need are detected before customers ask, and inbound signals are checked so that fabricated or
+    manipulated ones do not steer attention.
+  capabilities:
+  - intent-signal-sensing
+  - trust-adversarial-defense
+  entities:
+  - intent-signal
+  - need-intent
+  - trust-score
+  serves:
+  - trade-fair
+  - website
+- slug: customer-segmentation-and-profiling
+  title: Customer Segmentation and Profiling
+  summary: Customers and markets are segmented by need, value and behaviour, giving offer, channel and service decisions a shared
+    basis.
+  capabilities:
+  - customer-segmentation
+  entities:
+  - market-segment
+  - segment
+  - customer
+  serves:
+  - market-picture
+  - preference-centre
+- slug: opportunity-prioritisation
+  title: Opportunity Prioritisation
+  summary: Market opportunities are sized, validated and ranked by fit with purpose and the capacity to serve, not by potential revenue
+    alone.
+  capabilities:
+  - opportunity-curation
+  entities:
+  - market-insight
+  - business-case
+  - governance-decision
+  serves:
+  - market-opportunity-review
+- slug: market-picture-publication
+  title: Market Picture Publication
+  summary: The current picture of markets, customers, competitors and opportunities is published to strategy, offering and marketing,
+    and kept up to date.
+  capabilities:
+  - market-ecosystem-sensing
+  - opportunity-curation
+  entities:
+  - report
+  - dashboard
+  - market-insight
+  serves:
+  - market-picture

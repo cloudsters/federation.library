@@ -1,0 +1,26 @@
+kind: journey
+slug: obtaining-samples-for-a-project
+title: Obtaining Samples for a Project
+stakeholder: research-scientist
+summary: The researcher's path from searching the collection to receiving samples and giving data and acknowledgement back.
+stages:
+- slug: finding-and-requesting-samples
+  title: Finding and Requesting Samples
+  goal: Find samples with the right clinical data and consent, and obtain approval for their use.
+  step: biobanking/access-review
+  touchpoints:
+  - research-data-portal
+  - data-use-and-access-committee
+- slug: receiving-the-material
+  title: Receiving the Material
+  goal: Receive samples and data of documented quality on the agreed date.
+  step: biobanking/sample-and-data-release
+  touchpoints:
+  - biobank
+- slug: giving-back
+  title: Giving Back
+  goal: Return generated data and acknowledge the biobank and its donors in publications.
+  step: biobanking/return-and-recognition
+  touchpoints:
+  - scientific-publication
+  - research-data-portal

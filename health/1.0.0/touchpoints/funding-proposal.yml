@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: funding-proposal
+title: Funding Proposal
+medium: artefact
+summary: The application through which researchers compete for funds, reviewed by the funder for excellence and feasibility.
+exchanges:
+- trial-question-for-funding
+- joint-application-for-funding
+- profile-area-funding
+- research-results-for-funding
+journey: clinician-scientist-academic-journey

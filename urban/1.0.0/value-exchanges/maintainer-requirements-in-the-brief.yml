@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: maintainer-requirements-in-the-brief
+title: Maintainer Requirements in the Brief
+between:
+- frontline-worker
+- public-works-engineer
+offered:
+- What crews need to inspect, clean and repair the asset safely, from access hatches to spare parts.
+returned:
+- Their requirements written into the brief, checked in the design and tested again at handover.
+touchpoint: works-brief-workshop

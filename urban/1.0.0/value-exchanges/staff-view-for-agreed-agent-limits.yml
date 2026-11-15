@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-view-for-agreed-agent-limits
+title: Staff View for Agreed Agent Limits
+between:
+- staff-representative
+- city-administration
+offered:
+- The staff view on an agent's tasks and limits, and their agreement where it is due.
+returned:
+- An agreement that sets the agent's limits and protects staff from being judged by it alone.
+touchpoint: staff-agreement-signing

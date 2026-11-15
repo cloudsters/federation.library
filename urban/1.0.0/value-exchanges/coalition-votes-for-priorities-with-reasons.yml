@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: coalition-votes-for-priorities-with-reasons
+title: Coalition Votes for Priorities with Reasons
+between:
+- councillor
+- mayor
+offered:
+- Votes of councillors across parties for priorities and allocation rules they can defend.
+returned:
+- Priorities adopted with their reasons, and the positions of the minority in the record.
+touchpoint: strategy-adoption-debate

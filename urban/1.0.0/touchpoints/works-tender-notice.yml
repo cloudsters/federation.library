@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: works-tender-notice
+title: Works Tender Notice
+medium: channel
+summary: The published notice of a works tender, with its outcome specification, its lots and its requirements for local hiring and
+  reclaimed materials.
+exchanges:
+- small-lots-for-local-builders
+journey: public-works-engineer-delivering-a-public-work

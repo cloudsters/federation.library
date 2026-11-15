@@ -1,0 +1,50 @@
+kind: journey
+slug: accountant-closing-the-books
+title: Accountant Closing the Books
+stakeholder: finance-professional
+summary: An accountant prepares and runs the period close, reconciles the ledgers, posts valuation adjustments and draws up statements
+  that tell the truth about the organisation's position.
+stages:
+- slug: prepare-the-close
+  title: Prepare the Close
+  goal: The close calendar, cut-off rules and responsibilities are set and every area knows its deadline.
+  step: transparency-reporting/close-preparation
+  touchpoints:
+  - close-calendar
+- slug: reconcile-the-ledgers
+  title: Reconcile the Ledgers
+  goal: Sub-ledgers are posted, accounts reconciled and differences cleared.
+  step: transparency-reporting/ledger-completion-and-reconciliation
+  touchpoints:
+  - accounting-workbench
+- slug: post-the-valuations
+  title: Post the Valuations
+  goal: Depreciation, impairments and revaluations are posted and documented.
+  step: transparency-reporting/asset-and-valuation-adjustment
+  touchpoints:
+  - accounting-workbench
+- slug: close-the-period
+  title: Close the Period
+  goal: The period is locked and read as a health check of liquidity, profitability and stewardship.
+  step: transparency-reporting/period-close
+  touchpoints:
+  - management-report
+- slug: draw-up-the-statements
+  title: Draw Up the Statements
+  goal: Statements, notes and the narrative of what they mean are prepared.
+  step: transparency-reporting/statement-preparation
+  touchpoints:
+  - annual-report
+- slug: support-the-audit
+  title: Support the Audit
+  goal: Evidence is provided and every finding is followed until closed.
+  step: transparency-reporting/statement-audit
+  touchpoints:
+  - audit-fieldwork
+- slug: file-and-publish
+  title: File and Publish
+  goal: The approved statements are filed with the registry and authorities and published on time.
+  step: transparency-reporting/approval-and-disclosure
+  touchpoints:
+  - statutory-filing
+  - annual-report

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: breach-notification
+title: Breach Notification
+medium: artefact
+summary: The notice to the supervisory authority and to affected persons of a breach of personal data, its likely effects and the
+  measures taken.
+exchanges:
+- breach-notification-for-supervisory-trust
+journey: security-lead-building-the-digital-immune-system

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: purchasing-group-advice-desk
+title: Purchasing Group Advice Desk
+medium: encounter
+summary: A desk of the city, in person and by telephone, where residents, small businesses and cooperatives get advice on forming
+  a purchasing group, pooling orders and using city framework agreements.
+exchanges:
+- pooled-orders-for-access-to-city-terms
+journey: purchasing-group-pooling-its-orders

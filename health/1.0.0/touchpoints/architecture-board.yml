@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: architecture-board
+title: Architecture Board
+medium: encounter
+summary: The recurring meeting in which architects, system owners and clinical representatives review proposed changes against the
+  target architecture and record the architecture decision.
+exchanges:
+- clinical-needs-for-architectural-direction
+- target-architecture-for-open-products
+journey: clinical-unit-shaping-the-digital-roadmap

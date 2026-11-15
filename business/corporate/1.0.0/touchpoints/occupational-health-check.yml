@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: occupational-health-check
+title: Occupational Health Check
+medium: encounter
+summary: The examination and advice by the occupational physician for staff exposed to particular hazards, including vaccinations
+  and the follow-up of exposures.
+exchanges:
+- workplace-knowledge-for-protection
+journey: operator-working-safely-every-shift

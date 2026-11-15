@@ -1,0 +1,38 @@
+kind: journey
+slug: community-land-trust-holding-land-in-the-new-quarter
+title: Community Land Trust Holding Land in the New Quarter
+stakeholder: community-land-trust
+summary: A community land trust proposes a quarter on vacant land, uses it in the meantime and takes public land on lease, secures
+  the right to buy first, wins plots in the staged release and takes on the care of shared spaces once the quarter lives.
+stages:
+- slug: propose-vacant-land-for-the-community
+  title: Propose Vacant Land for the Community
+  goal: The proposal of the trust for a quarter on vacant land is appraised on equal terms with those of developers and landowners.
+  step: district-development/district-proposal
+  touchpoints:
+  - district-proposal-form
+- slug: use-the-land-in-the-meantime
+  title: Use the Land in the Meantime
+  goal: The trust holds a licence for interim use and a long-term lease on public land, with the land kept in public hands.
+  step: district-development/district-commitment
+  touchpoints:
+  - interim-use-licence
+  - district-terms-resolution
+- slug: secure-the-right-to-buy-first
+  title: Secure the Right to Buy First
+  goal: The right of the trust to buy first is written into the published development agreement.
+  step: district-development/development-agreement
+  touchpoints:
+  - published-development-agreement
+- slug: win-plots-in-the-release
+  title: Win Plots in the Release
+  goal: The trust has received plots in the staged release under published fair rules.
+  step: district-development/district-delivery
+  touchpoints:
+  - plot-release-call
+- slug: take-on-the-care-of-shared-spaces
+  title: Take On the Care of Shared Spaces
+  goal: The trust and neighbourhood bodies care for the shared spaces of the quarter with stated stewardship rights.
+  step: district-development/quarter-review
+  touchpoints:
+  - quarter-review-walk

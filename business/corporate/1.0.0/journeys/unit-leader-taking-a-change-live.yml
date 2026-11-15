@@ -1,0 +1,46 @@
+kind: journey
+slug: unit-leader-taking-a-change-live
+title: Unit Leader Taking a Change Live
+stakeholder: site-manager
+summary: A unit leader chooses how a change will be introduced, plans the human transition with the technical steps, confirms readiness,
+  takes the change live and reviews how work flows afterwards.
+stages:
+- slug: choose-the-path
+  title: Choose the Path
+  goal: Cutover, phases or continuous release are chosen, with the rollback path known.
+  step: change-as-evolution/deployment-strategy-setting
+  touchpoints:
+  - deployment-plan
+- slug: plan-the-transition
+  title: Plan the Transition
+  goal: Communication, training and support are planned with the technical steps.
+  step: change-as-evolution/transition-planning
+  touchpoints:
+  - deployment-plan
+  - works-council-meeting
+- slug: confirm-readiness
+  title: Confirm Readiness
+  goal: Dependencies, fallback and operational handover are ready and the go decision is taken.
+  step: change-as-evolution/release-preparation
+  touchpoints:
+  - go-live-readiness-review
+- slug: go-live
+  title: Go Live
+  goal: The change is live, services are confirmed available and the rollback was used if needed.
+  step: change-as-evolution/deployment-and-cutover
+  touchpoints:
+  - go-live-readiness-review
+  - go-live-support
+- slug: settle-the-new-way-of-working
+  title: Settle the New Way of Working
+  goal: Users are accompanied until the new way of working is established.
+  step: change-as-evolution/adoption-support
+  touchpoints:
+  - go-live-support
+  - staff-training
+- slug: review-the-flow-of-work
+  title: Review the Flow of Work
+  goal: Stability, incidents and the actual flow of work after the change are reviewed.
+  step: change-as-evolution/post-deployment-review
+  touchpoints:
+  - post-deployment-review

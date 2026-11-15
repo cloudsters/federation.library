@@ -1,0 +1,41 @@
+kind: entity
+slug: compliance-rule
+title: Compliance Rule
+type: governance
+summary: An external requirement taken in — a regulatory or industry standard that the organisation must adhere to, requiring continuous
+  monitoring and evidence of conformance.
+attributes:
+- name: source-authority
+  type: text
+  card: 1..1
+- name: requirement
+  type: text
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: controls
+  type: reference(internal-control)
+  card: 0..*
+- name: evidence-requirement
+  type: text
+  card: 0..1
+- name: conformance-status
+  type: code
+  card: 1..1
+states:
+- identified
+- mapped
+- monitored
+- evidenced
+- attested
+- updated
+relations:
+- type: refers-to
+  target: policy
+- type: refers-to
+  target: audit
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

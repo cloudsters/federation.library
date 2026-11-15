@@ -1,0 +1,32 @@
+kind: entity
+slug: value-token
+title: Value Token
+type: intelligence
+summary: 'Multi-dimensional value representation — CO2 budget, reputation points, strategic alignment, cooperative shares, compute
+  credits, ecological credits. Not just fiat money with a different name: each dimension preserves its relational grammar. A governance
+  token is not convertible to cash without losing its meaning.'
+attributes:
+- name: dimension
+  type: code
+  card: 1..1
+- name: unit
+  type: code
+  card: 1..1
+- name: issuer
+  type: reference(commons-instance)
+  card: 0..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: exchange-rules
+  type: text
+  card: 1..1
+states:
+- issued
+- exchanged
+- converted
+- expired
+- audited
+relations:
+- type: governed-by
+  target: commons-charter

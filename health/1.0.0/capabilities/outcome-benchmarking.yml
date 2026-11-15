@@ -1,0 +1,10 @@
+kind: capability
+slug: outcome-benchmarking
+title: Outcome Benchmarking
+level: L3
+parent: quality-measurement
+summary: Compare outcomes with peers using standard outcome sets and risk adjustment.
+binds:
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global

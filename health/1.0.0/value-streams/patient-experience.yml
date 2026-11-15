@@ -1,0 +1,136 @@
+kind: value-stream
+slug: patient-experience
+title: Patient Experience
+family: discovery-to-usage
+summary: 'Understanding and improving how patients and relatives experience care: experience measurement, service design with patients,
+  service standards and follow-up on findings.'
+trigger: An experience survey cycle runs, or feedback shows a weakness in how patients experience a service.
+outcome: Experience results are fed back to units, and improvement actions are implemented and re-measured.
+stakeholders:
+- elective-inpatient
+- relative
+- patient-partner
+- registered-nurse
+- head-of-clinical-department
+- executive
+- general-public
+steps:
+- slug: experience-standard-setting
+  title: Experience Standard Setting
+  summary: Define with patients the experience every service should deliver at the moments that matter, such as waiting, information,
+    respect, privacy and discharge, and turn it into service standards and experience measures.
+  capabilities:
+  - patient-experience-strategy
+  - patient-and-public-involvement
+  - quality-requirements
+  - quality-indicator-governance
+  entities:
+  - policy
+  - measure
+  - involvement-activity
+  serves:
+  - patient-portal
+  - public-website
+- slug: experience-capture
+  title: Experience Capture
+  summary: Invite patients after inpatient, outpatient and remote encounters to rate and describe their experience, collect real-time
+    and unsolicited feedback and public reviews, and reach the groups that rarely answer surveys.
+  capabilities:
+  - patient-experience-measurement
+  - patient-reported-outcome-measurement
+  - online-reputation-management
+  - patient-portal
+  - interpreting-and-language-services
+  entities:
+  - patient-experience-survey
+  - assessment-instrument
+  - encounter
+  serves:
+  - experience-survey
+  - feedback-and-complaints-channel
+  - online-rating-platform
+- slug: analysis-and-insight
+  title: Analysis and Insight
+  summary: Aggregate results by unit, service and patient group with adjustment for case mix, read comments alongside complaints and
+    incidents, compare with peers, and identify what drives good and poor experience.
+  capabilities:
+  - patient-experience-measurement
+  - business-intelligence-and-reporting
+  - performance-benchmarking
+  - complaint-management
+  - data-quality-management
+  entities:
+  - measure-report
+  - benchmark
+  - complaint
+  - dashboard
+  serves:
+  - unit-experience-report
+- slug: feedback-to-units
+  title: Feedback to Units
+  summary: Return results to each ward and department with patients' comments in their own words, discuss them in team meetings, agree
+    priorities, and review experience alongside clinical and financial results at board level.
+  capabilities:
+  - patient-experience-measurement
+  - operational-cadence-design
+  - integrated-performance-review
+  - board-communication-reporting
+  entities:
+  - measure-report
+  - dashboard
+  serves:
+  - team-meeting
+  - unit-experience-report
+- slug: improvement-co-design
+  title: Improvement Co-Design
+  summary: 'Redesign the weak moments together with patients, relatives and staff: map the experience, find where it fails, test changes
+    on a small scale and keep those that work.'
+  capabilities:
+  - patient-and-public-involvement
+  - process-improvement
+  - lean-improvement
+  - change-planning
+  entities:
+  - improvement-initiative
+  - involvement-activity
+  serves:
+  - co-design-workshop
+- slug: implementation
+  title: Implementation
+  summary: Put the tested changes into routine practice by adjusting processes, standards and patient information, preparing staff
+    for the behaviour expected, and giving the unit the support it needs.
+  capabilities:
+  - change-implementation
+  - process-definition
+  - policy-lifecycle-management
+  - training-delivery
+  entities:
+  - improvement-initiative
+  - policy
+  serves:
+  - team-meeting
+- slug: re-measurement-and-publication
+  title: Re-Measurement and Publication
+  summary: Re-measure after the change, sustain or stop it on the evidence, publish experience results in a form patients can compare,
+    and tell patients and staff what changed because of their feedback.
+  capabilities:
+  - improvement-sustainment
+  - patient-experience-measurement
+  - quality-transparency-communication
+  - ranking-and-rating-management
+  entities:
+  - measure-report
+  - improvement-initiative
+  - quality-report
+  serves:
+  - board-meeting
+  - public-quality-report
+  - public-website
+  - unit-experience-report
+binds:
+- source: src-079
+  edition: '1988'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

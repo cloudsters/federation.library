@@ -1,0 +1,62 @@
+kind: entity
+slug: city-dashboard
+title: City Dashboard
+type: intelligence
+summary: The shared overview of the city's indicator set and its state, gathered at a regular rhythm from departments, complaints,
+  petitions and surveys, with each value traced to its source. The administration keeps and publishes it, and it is the common ground
+  for the assessment of the whole city.
+attributes:
+- name: indicator-set
+  type: text
+  card: 1..*
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: indicator-values
+  type: document
+  card: 1..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: last-updated
+  type: datetime
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- designed
+- populated
+- published
+- updated
+- retired
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: citizen-petition
+- type: refers-to
+  target: risk-register
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-169
+  edition: '2019'
+  jurisdiction: global
+- source: src-177
+  edition: '2017'
+  jurisdiction: global
+- source: src-182
+  edition: '2022'
+  jurisdiction: global

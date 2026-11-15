@@ -1,0 +1,44 @@
+kind: journey
+slug: intensive-care-relative-journey
+title: Intensive Care Relative Journey
+stakeholder: relative
+summary: A relative learns that someone close is in intensive care, speaks for the patient's wishes, takes part in daily goals and,
+  when treatment cannot succeed, is with the patient and supported; where donation is possible, it is raised in a separate conversation,
+  never as part of the decision to limit treatment.
+stages:
+- slug: hear-the-news
+  title: Hear the News
+  goal: Learn where the patient is, what is happening and when the team can be met.
+  step: intensive-care/intensive-care-admission
+  touchpoints:
+  - intensive-care-unit
+- slug: speak-for-the-patient
+  title: Speak for the Patient
+  goal: Make the patient's known wishes and directive known to the team.
+  step: intensive-care/assessment-and-stabilisation
+  touchpoints:
+  - family-meeting
+  - advance-directive-document
+- slug: understand-the-goals
+  title: Understand the Goals
+  goal: Understand daily goals and prognosis and take part in decisions as the patient would wish.
+  step: intensive-care/daily-goal-setting
+  touchpoints:
+  - family-meeting
+  - intensive-care-diary
+- slug: be-present
+  title: Be Present
+  goal: Be with the patient and help where possible, at any hour.
+  step: intensive-care/organ-support-and-monitoring
+  touchpoints:
+  - intensive-care-unit
+  - intensive-care-diary
+- slug: say-goodbye
+  title: Say Goodbye
+  goal: If treatment can no longer succeed, be with the patient and be supported; where donation is possible, be asked about it with
+    respect in a separate conversation, never as part of the decision to limit treatment.
+  step: intensive-care/redirection-of-care-goals
+  touchpoints:
+  - family-meeting
+  - ethics-case-consultation
+  - donation-conversation

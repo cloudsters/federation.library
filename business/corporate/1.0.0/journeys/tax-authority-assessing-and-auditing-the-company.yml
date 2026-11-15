@@ -1,0 +1,20 @@
+kind: journey
+slug: tax-authority-assessing-and-auditing-the-company
+title: Tax Authority Assessing and Auditing the Company
+stakeholder: tax-authority
+summary: A tax authority receives complete returns and payments on time, assesses them and audits the company with full documentation
+  at hand.
+stages:
+- slug: receive-returns-and-payments
+  title: Receive Returns and Payments
+  goal: Returns arrive complete, in the required electronic form, and payments on their due dates.
+  step: fiscal-responsibility-contribution/return-filing-and-payment
+  touchpoints:
+  - statutory-filing
+- slug: audit-with-full-documentation
+  title: Audit with Full Documentation
+  goal: Documentation is available, questions are answered promptly and findings are settled.
+  step: fiscal-responsibility-contribution/tax-audit-handling
+  touchpoints:
+  - official-inspection
+  - transfer-pricing-documentation

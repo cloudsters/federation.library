@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: technology-assessment-committee
+title: Technology Assessment Committee
+medium: encounter
+summary: The committee in which physicians, pharmacists, engineers, controllers and quality managers assess proposed technologies
+  and recommend adoption, adoption under evaluation or rejection.
+exchanges:
+- clinical-need-for-fitting-equipment
+- new-method-case-for-a-decision
+journey: bringing-a-new-method-into-routine-care

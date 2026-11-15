@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-backlog-meeting
+title: Neighbourhood Backlog Meeting
+medium: encounter
+summary: A meeting in a neighbourhood at which the asset office explains the local backlog in plain language and hears what residents
+  know of neglected streets and buildings.
+exchanges:
+- neighbourhood-backlog-for-local-knowledge
+journey: neighbourhood-association-holding-the-city-to-its-upkeep

@@ -1,0 +1,10 @@
+kind: capability
+slug: information-content-management
+title: Information Content Management
+level: L3
+parent: data-governance
+summary: Manage documents and content so that they are findable, current and controlled.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

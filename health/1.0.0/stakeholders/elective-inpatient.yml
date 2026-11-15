@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: elective-inpatient
+title: Elective Inpatient
+nature: person
+stance: served
+summary: A person admitted on a planned date for surgery or complex treatment that needs an overnight stay. The admission
+  is prepared in advance, which makes this the part of inpatient care the commons can schedule.
+seeks:
+- A reliable date, a well-prepared admission and treatment that restores health with the shortest safe stay.
+brings:
+- Plannable demand that fills theatres and beds predictably and makes a large part of case-based revenue forecastable.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

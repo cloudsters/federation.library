@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-register-for-reported-vacancies
+title: Open Register for Reported Vacancies
+between:
+- finance-officer
+- resident
+offered:
+- The register of the land, buildings, networks and enterprises the city holds, with the value, condition, use and income of each.
+returned:
+- Reports of public assets that stand empty or are used for less than they could be.
+touchpoint: published-public-asset-register

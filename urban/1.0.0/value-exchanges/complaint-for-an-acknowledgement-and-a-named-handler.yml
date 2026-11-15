@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complaint-for-an-acknowledgement-and-a-named-handler
+title: Complaint for an Acknowledgement and a Named Handler
+between:
+- resident
+- city-administration
+offered:
+- A complaint about a service, a decision or the conduct of staff.
+returned:
+- An acknowledgement within the published time, with the person who handles it and the date of the answer.
+touchpoint: any-route-complaint-channel

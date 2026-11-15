@@ -1,0 +1,27 @@
+kind: journey
+slug: quality-manager-approving-a-new-supplier
+title: Quality Manager Approving a New Supplier
+stakeholder: quality-manager
+summary: A quality manager agrees quality requirements with a new supplier, approves the first deliveries and corrects quality issues
+  together with the supplier at their source.
+stages:
+- slug: agree-quality-requirements
+  title: Agree Quality Requirements
+  goal: Quality requirements, test methods and escalation are agreed and the supplier's processes are audited.
+  step: sourcing-partnership-design/supplier-qualification
+  touchpoints:
+  - quality-agreement
+  - supplier-audit
+- slug: approve-first-deliveries
+  title: Approve First Deliveries
+  goal: First deliveries are inspected and approved before series supply begins.
+  step: sourcing-partnership-design/ordering-and-call-off
+  touchpoints:
+  - first-article-approval
+- slug: correct-at-the-source
+  title: Correct at the Source
+  goal: Quality issues are reported to the supplier and corrected at their cause.
+  step: sourcing-partnership-design/supplier-performance-and-risk-review
+  touchpoints:
+  - supplier-portal
+  - supplier-review

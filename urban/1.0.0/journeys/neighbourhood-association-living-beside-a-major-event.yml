@@ -1,0 +1,38 @@
+kind: journey
+slug: neighbourhood-association-living-beside-a-major-event
+title: Neighbourhood Association Living Beside a Major Event
+stakeholder: neighbourhood-association
+summary: A neighbourhood sees the year's events ahead, is heard before a major event is decided, agrees sound limits and hours, knows
+  whom to call on the day and counts the harm and the gain afterwards.
+stages:
+- slug: see-the-year-ahead
+  title: See the Year Ahead
+  goal: The neighbourhood knows which events are planned in its streets across the year.
+  step: city-events-and-festivals/events-calendar-and-proposal-intake
+  touchpoints:
+  - city-events-calendar-view
+- slug: be-heard-before-the-decision
+  title: Be Heard Before the Decision
+  goal: The neighbourhood's concerns have been heard and weighed in the assessment of the event.
+  step: city-events-and-festivals/event-assessment
+  touchpoints:
+  - event-assessment-meeting
+- slug: agree-sound-and-hours
+  title: Agree Sound and Hours
+  goal: Sound limits and hours are agreed with the organiser and written into the permit.
+  step: city-events-and-festivals/permits-safety-and-sound
+  touchpoints:
+  - sound-and-hours-agreement
+- slug: know-whom-to-call
+  title: Know Whom to Call
+  goal: Neighbours were told in advance, had a contact during the event and saw streets and parks restored.
+  step: city-events-and-festivals/event-delivery
+  touchpoints:
+  - neighbour-advance-notice-and-contact
+- slug: count-the-harm-and-the-gain
+  title: Count the Harm and the Gain
+  goal: The harm done and the good left behind are recorded with the neighbourhood and carried into the next event.
+  step: city-events-and-festivals/event-legacy-review
+  touchpoints:
+  - event-legacy-gathering
+  - published-event-legacy-report

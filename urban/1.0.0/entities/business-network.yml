@@ -1,0 +1,59 @@
+kind: entity
+slug: business-network
+title: Business Network
+type: master
+summary: A network or cluster of firms, makers, cooperatives and institutions of a sector or place, or a federation of cooperatives,
+  with its members and the rules they set. The members keep its record and the economic development office records the networks it
+  convened, and it is used to share facilities, knowledge and a common fund and to link settled enterprises to local suppliers.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: network-kind
+  type: code
+  card: 1..1
+- name: sectors
+  type: code
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: members
+  type: text
+  card: 1..*
+- name: member-count
+  type: integer
+  card: 0..1
+- name: small-firm-count
+  type: integer
+  card: 0..1
+- name: convened-by
+  type: reference(department)
+  card: 0..1
+- name: agreement
+  type: reference(cluster-agreement)
+  card: 0..1
+- name: shared-services
+  type: text
+  card: 0..*
+- name: common-fund
+  type: amount
+  card: 0..1
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- convened
+- forming
+- active
+- reviewing
+- dissolved
+relations:
+- type: governed-by
+  target: cluster-agreement
+- type: composed-of
+  target: cooperative
+- type: refers-to
+  target: shared-business-facility
+- type: refers-to
+  target: research-partnership-agreement

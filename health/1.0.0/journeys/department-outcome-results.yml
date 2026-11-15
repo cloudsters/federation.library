@@ -1,0 +1,53 @@
+kind: journey
+slug: department-outcome-results
+title: Department Outcome Results
+stakeholder: head-of-clinical-department
+summary: 'How a clinical department meets its own results: from agreeing what is measured to explaining and improving its figures
+  in public.'
+stages:
+- slug: agreeing-what-is-measured
+  title: Agreeing What Is Measured
+  goal: Indicators reflect the department's real work and its patients' priorities, with clear definitions.
+  step: quality-and-outcome-measurement/indicator-set
+  touchpoints:
+  - quality-and-safety-committee
+- slug: documenting-as-part-of-care
+  title: Documenting as Part of Care
+  goal: Capture the required data once, during care, without a parallel documentation burden.
+  step: quality-and-outcome-measurement/outcome-data-capture
+  touchpoints:
+  - clinical-workstation
+- slug: confirming-results
+  title: Confirming Results
+  goal: Check the department's results before release and correct data errors in time.
+  step: quality-and-outcome-measurement/calculation-and-validation
+  touchpoints:
+  - quality-dashboard
+- slug: seeing-the-peer-position
+  title: Seeing the Peer Position
+  goal: Know how the department compares with peers after fair risk adjustment.
+  step: quality-and-outcome-measurement/benchmarking
+  touchpoints:
+  - quality-dashboard
+- slug: discussing-results
+  title: Discussing Results
+  goal: Discuss trends and cases with the team and with leadership at a regular cadence.
+  step: quality-and-outcome-measurement/internal-feedback
+  touchpoints:
+  - quality-dashboard
+  - quality-and-safety-committee
+- slug: answering-outliers
+  title: Answering Outliers
+  goal: Explain notable results with evidence and own the actions that follow.
+  step: quality-and-outcome-measurement/outlier-analysis-and-action
+  touchpoints:
+  - quality-review-dialogue
+  - morbidity-and-mortality-conference
+- slug: standing-behind-public-results
+  title: Standing Behind Public Results
+  goal: See results published accurately and in a form that referrers and patients understand.
+  step: quality-and-outcome-measurement/external-and-public-reporting
+  touchpoints:
+  - public-quality-report
+  - public-website
+  - quality-data-submission

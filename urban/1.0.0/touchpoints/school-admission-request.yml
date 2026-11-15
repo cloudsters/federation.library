@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: school-admission-request
+title: School Admission Request
+medium: channel
+summary: The request for an early-years or school place, made online, on paper or with help, stating the child's needs, and followed
+  to the place offered.
+exchanges:
+- request-for-a-place-by-a-fair-rule
+journey: parent-or-guardian-securing-a-place-and-a-path-for-a-child

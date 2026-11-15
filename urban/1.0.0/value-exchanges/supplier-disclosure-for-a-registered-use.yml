@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: supplier-disclosure-for-a-registered-use
+title: Supplier Disclosure for a Registered Use
+between:
+- technology-supplier
+- city-administration
+offered:
+- The purpose, logic, data and known limits of the system it supplies.
+returned:
+- A registered use under stated terms the supplier can plan for.
+touchpoint: automated-system-registration-form

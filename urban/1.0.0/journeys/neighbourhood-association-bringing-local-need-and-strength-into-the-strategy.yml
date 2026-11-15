@@ -1,0 +1,41 @@
+kind: journey
+slug: neighbourhood-association-bringing-local-need-and-strength-into-the-strategy
+title: Neighbourhood Association Bringing Local Need and Strength into the Strategy
+stakeholder: neighbourhood-association
+summary: A neighbourhood association asks the questions about local need together with researchers, maps what the neighbourhood already
+  has, judges who pays and who gains from each option, takes on decisions at its own level and aligns its neighbourhood plan with
+  the city's objectives.
+stages:
+- slug: ask-the-questions-with-researchers
+  title: Ask the Questions with Researchers
+  goal: Residents and researchers have asked the questions about local need together, and the findings belong to the neighbourhood
+    as well.
+  step: city-strategy/need-and-condition-assessment
+  touchpoints:
+  - community-research-partnership
+- slug: map-what-the-neighbourhood-already-has
+  title: Map What the Neighbourhood Already Has
+  goal: The assets, relationships and people who can make things happen in the neighbourhood are mapped by residents and counted in
+    the strategy.
+  step: city-strategy/municipal-capacity-assessment
+  touchpoints:
+  - asset-mapping-workshop
+- slug: judge-who-pays-and-who-gains
+  title: Judge Who Pays and Who Gains
+  goal: The association has seen the effect of each option on its neighbourhood and has given its judgement before the council chooses.
+  step: city-strategy/strategic-option-appraisal
+  touchpoints:
+  - strategic-options-paper
+- slug: take-on-decisions-close-to-home
+  title: Take On Decisions Close to Home
+  goal: The decisions the neighbourhood can take at its own level are named in the published structure of the administration.
+  step: city-strategy/administration-design
+  touchpoints:
+  - published-administration-structure
+- slug: align-the-neighbourhood-plan
+  title: Align the Neighbourhood Plan
+  goal: The neighbourhood plan states how it contributes to the city's objectives and is recognised with the resources it needs.
+  step: city-strategy/objective-cascade
+  touchpoints:
+  - objective-setting-session
+  - published-city-strategy

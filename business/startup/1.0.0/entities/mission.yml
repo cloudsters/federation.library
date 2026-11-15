@@ -1,0 +1,29 @@
+kind: entity
+slug: mission
+title: Mission
+type: governance
+summary: The organisation's declaration of purpose — a concise statement of why it exists and what it does for the people and organisations
+  around it, grounding every decision in intent.
+attributes:
+- name: statement
+  type: text
+  card: 1..1
+- name: stakeholders
+  type: reference(stakeholder)
+  card: 0..*
+- name: scope-boundary
+  type: text
+  card: 0..1
+- name: qualifying-values
+  type: text
+  card: 0..*
+states:
+- authored
+- ratified
+- affirmed
+- re-authored
+relations:
+- type: refers-to
+  target: vision
+- type: refers-to
+  target: strategy

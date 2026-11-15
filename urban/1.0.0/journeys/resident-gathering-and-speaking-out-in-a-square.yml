@@ -1,0 +1,33 @@
+kind: journey
+slug: resident-gathering-and-speaking-out-in-a-square
+title: Resident Gathering and Speaking Out in a Square
+stakeholder: resident
+summary: A resident observes how a square is used, asks to use it for a play street or a seasonal garden, gives notice of a demonstration
+  that is upheld and safe, and helps keep the square open to all.
+stages:
+- slug: observe-the-square
+  title: Observe the Square
+  goal: The resident has helped record who stays, who passes and who is absent, and sees the result.
+  step: public-space-use-and-programming/public-life-observation
+  touchpoints:
+  - public-life-observation-walk
+  - published-public-life-survey
+- slug: ask-for-a-play-street-or-garden
+  title: Ask for a Play Street or Garden
+  goal: The request has an answer within the set time, letting the place serve this use at set hours.
+  step: public-space-use-and-programming/space-use-requests
+  touchpoints:
+  - space-use-request-form
+- slug: give-notice-of-a-demonstration
+  title: Give Notice of a Demonstration
+  goal: Notice is handled simply, and the safety of those taking part and of passers-by is agreed.
+  step: public-space-use-and-programming/assemblies-and-demonstrations
+  touchpoints:
+  - assembly-notice
+  - assembly-safety-briefing
+- slug: keep-the-square-open
+  title: Keep the Square Open
+  goal: The review shows whether any group or commercial use is taking the square over, and the resident's view is part of it.
+  step: public-space-use-and-programming/shared-care-of-public-spaces
+  touchpoints:
+  - public-space-openness-check

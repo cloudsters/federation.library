@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: case-cart
+title: Case Cart
+medium: artefact
+summary: The cart or kit of consumables and implants assembled from the preference list for one scheduled operation and delivered
+  to the theatre before the case starts.
+exchanges:
+- ready-case-cart-for-complete-implant-records
+journey: having-the-right-implant-at-the-table

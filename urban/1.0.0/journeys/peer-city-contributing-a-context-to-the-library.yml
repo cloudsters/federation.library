@@ -1,0 +1,31 @@
+kind: journey
+slug: peer-city-contributing-a-context-to-the-library
+title: Peer City Contributing a Context to the Library
+stakeholder: peer-city
+summary: A peer city shares how a practice worked and failed in its own context, counts as one of the contexts that validate a pattern,
+  finds the pattern published with its conditions and reports back where it stopped working.
+stages:
+- slug: share-its-experience
+  title: Share Its Experience
+  goal: The peer city's evidence of how a practice worked and where it failed is part of the city's scan.
+  step: practice-standards-and-pattern-library/evidence-and-variation-scanning
+  touchpoints:
+  - practice-variation-scan
+- slug: count-as-a-tested-context
+  title: Count as a Tested Context
+  goal: The peer city's context is recorded as one of the distinct contexts in which the pattern held, with its conditions.
+  step: practice-standards-and-pattern-library/pattern-validation
+  touchpoints:
+  - pattern-validation-panel
+- slug: find-the-published-pattern
+  title: Find the Published Pattern
+  goal: The peer city finds the pattern and its procedure in the library, with the conditions under which it applies.
+  step: practice-standards-and-pattern-library/release-and-publication
+  touchpoints:
+  - city-pattern-library
+- slug: report-where-it-failed
+  title: Report Where It Failed
+  goal: The peer city reports where the pattern stopped working, and the city revises or retires it.
+  step: practice-standards-and-pattern-library/adherence-and-renewal
+  touchpoints:
+  - practice-adherence-review

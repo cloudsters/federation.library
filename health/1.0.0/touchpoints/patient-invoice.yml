@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: patient-invoice
+title: Patient Invoice
+medium: artefact
+summary: The itemised bill a patient receives for services no payer covers, such as self-paid treatment, optional services or co-payments.
+exchanges:
+- transparent-bill-for-payment
+journey: paying-for-care-directly

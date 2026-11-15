@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: investment-committee
+title: Investment Committee
+medium: encounter
+summary: The body that ranks capital proposals, appraises business cases, approves projects within delegated limits and reviews their
+  value at close.
+exchanges:
+- investment-case-for-committed-funds
+journey: unit-leader-requesting-a-capital-investment

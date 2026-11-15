@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: benefits-portal
+title: Benefits Portal
+medium: channel
+summary: The channel where people find the benefits on offer, such as pensions, insurance, childcare support and flexible working,
+  and enrol or change their choices.
+exchanges:
+- care-for-staying-well
+- correct-inputs-for-correct-pay
+journey: employee-asking-whether-contribution-comes-back-fairly

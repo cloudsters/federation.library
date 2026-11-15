@@ -1,0 +1,64 @@
+kind: entity
+slug: school-place-plan
+title: School Place Plan
+type: governance
+summary: The plan of early-years and school places by neighbourhood against the forecast of children, with the places to be added,
+  moved or reduced and the buildings this needs. The department prepares it each year and the council adopts it.
+attributes:
+- name: plan-year
+  type: period
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: forecast-basis
+  type: reference(population-register)
+  card: 1..1
+- name: child-forecast
+  type: document
+  card: 1..1
+- name: places-within-reach
+  type: quantity
+  card: 1..*
+- name: place-changes
+  type: text
+  card: 0..*
+- name: schools
+  type: reference(school)
+  card: 0..*
+- name: early-years-settings
+  type: reference(early-years-setting)
+  card: 0..*
+- name: building-works
+  type: reference(capital-project)
+  card: 0..*
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+states:
+- forecast
+- drafted
+- consulted
+- adopted
+- in-delivery
+- superseded
+relations:
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: development-project
+- type: refers-to
+  target: school
+- type: refers-to
+  target: early-years-setting
+- type: governed-by
+  target: council-decision
+- type: produces
+  target: capital-project
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

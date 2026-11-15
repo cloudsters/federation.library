@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: minority-position-for-a-place-in-the-record
+title: Minority Position for a Place in the Record
+between:
+- councillor
+- city-council
+offered:
+- A minority position, a rejected alternative or an unresolved concern.
+returned:
+- The position recorded with the decision and considered at its next review.
+touchpoint: council-meeting

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-needs-for-an-equal-answer
+title: Access Needs for an Equal Answer
+between:
+- disabled-resident
+- city-administration
+offered:
+- The resident's statement of how they need to be contacted and helped.
+returned:
+- The same standard of answer as anyone else, by the route and with the help that suits them.
+touchpoint: city-contact-line

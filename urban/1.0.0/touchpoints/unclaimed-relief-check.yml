@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: unclaimed-relief-check
+title: Unclaimed Relief Check
+medium: encounter
+summary: A check with the resident of the relief and entitlements they could claim, with help to apply on the spot.
+exchanges:
+- circumstances-for-relief-not-yet-claimed
+journey: resident-finding-a-way-through-what-they-owe

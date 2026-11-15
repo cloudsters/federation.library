@@ -1,0 +1,121 @@
+kind: value-stream
+slug: experience-strategy-design
+title: Experience Strategy Design
+family: discovery-to-usage
+summary: 'Setting how customers should experience the organisation across its channels: the intended experience, service policies
+  and standards, service levels per segment, warranty terms and safety responses, so that obstacles are removed before customers meet
+  them.'
+trigger: The experience strategy is reviewed, or insight shows an obstacle in how customers use an offering.
+outcome: An agreed experience strategy with service policies and standards per channel is in force.
+stakeholders:
+- customer-service-representative
+- product-manager
+- consumer
+- business-customer
+- legal-risk-and-compliance-professional
+steps:
+- slug: journey-and-obstacle-mapping
+  title: Journey and Obstacle Mapping
+  summary: Customer journeys are mapped from discovery through use, with operational and competitive insight showing where customers
+    meet obstacles.
+  capabilities:
+  - service-design-as-journey
+  entities:
+  - journey
+  - touchpoint
+  - market-insight
+  - customer-satisfaction-score
+  serves:
+  - account-review
+  - customer-interview
+  - journey-mapping-workshop
+- slug: intended-experience-definition
+  title: Intended Experience Definition
+  summary: How every interaction should feel and what it should achieve is articulated, together with the behaviours and skills that
+    express care.
+  capabilities:
+  - experience-design-articulation
+  - experience-as-care-protocol
+  entities:
+  - journey
+  - quality-standard
+  - policy
+  serves:
+  - journey-mapping-workshop
+- slug: service-channel-architecture
+  title: Service Channel Architecture
+  summary: Each service channel receives its purpose and role in the journey, so that the channels together form one coherent path
+    rather than competing doors.
+  capabilities:
+  - experience-channel-architecture
+  entities:
+  - channel
+  - touchpoint
+  - journey
+  serves:
+  - customer-portal
+  - service-hotline
+  - store-and-branch
+  - website
+- slug: digital-entry-point-design
+  title: Digital Entry Point Design
+  summary: The online storefront, findability in search and the content customers meet are designed so that seekers find, understand
+    and enter easily, with content written once and adapted to each channel.
+  capabilities:
+  - storefront-experience-design
+  - seo-discoverability-management
+  - content-remix-repurposing
+  entities:
+  - channel
+  - knowledge-article
+  - communication
+  serves:
+  - online-shop
+  - website
+- slug: service-levels-and-policies
+  title: Service Levels and Policies
+  summary: Service levels are set per customer segment, service policies are framed as fair commitments, and personalisation is bounded
+    by consent and ethics.
+  capabilities:
+  - service-level-as-promise
+  - experience-policy-covenant
+  - experience-personalisation-ethics
+  entities:
+  - service-level-agreement
+  - policy
+  - market-segment
+  - data-use-consent
+  serves:
+  - account-review
+  - service-commitments
+- slug: warranty-and-safety-response-terms
+  title: Warranty and Safety Response Terms
+  summary: Warranty terms are defined for each offering, and the playbook for responding to safety issues and recalls is prepared
+    before it is needed.
+  capabilities:
+  - warranty-as-trust-commitment
+  - safety-response-design
+  entities:
+  - terms-and-conditions
+  - policy
+  - plan
+  serves:
+  - recall-playbook
+  - warranty-terms
+- slug: experience-standards-adoption
+  title: Experience Standards Adoption
+  summary: The experience strategy is approved, its standards are published to every channel, and the people who serve customers are
+    trained to them.
+  capabilities:
+  - experience-as-care-protocol
+  - experience-design-articulation
+  entities:
+  - governance-decision
+  - quality-standard
+  - course
+  serves:
+  - service-standards-training
+binds:
+- source: src-086
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global

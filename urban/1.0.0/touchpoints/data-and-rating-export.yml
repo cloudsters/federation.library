@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: data-and-rating-export
+title: Data and Rating Export
+medium: channel
+summary: The route every licensed platform provides through which users and workers take their data and ratings to another service.
+exchanges:
+- workers-voice-in-allocation-rules
+journey: platform-workers-founding-their-own-platform

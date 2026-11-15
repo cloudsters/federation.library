@@ -1,0 +1,14 @@
+kind: body
+slug: performance-and-transformation-office
+title: Performance and Transformation Office
+summary: 'Runs the commons'' improvement system: the change and project portfolio, organisational performance reviews and benchmarks,
+  process management, change management and knowledge management.'
+holds:
+- change-portfolio
+- organisational-performance
+- process-management
+- change-management
+- knowledge-management
+part_of: executive-board
+type: function
+form: organisational-unit

@@ -1,0 +1,40 @@
+kind: entity
+slug: appraisal
+title: Appraisal
+type: transactional
+summary: The structured conversation about growth — a formal performance review with its own lifecycle from scheduling through self-assessment,
+  manager review, calibration, and completion. An appraisal is not judgement; it is the system’s way of making development visible
+  and intentional.
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: reviewer
+  type: reference(employee-record)
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: goals
+  type: text
+  card: 1..*
+- name: self-assessment
+  type: text
+  card: 0..1
+- name: manager-review
+  type: text
+  card: 0..1
+- name: rating
+  type: code
+  card: 0..1
+states:
+- scheduled
+- self-assessed
+- manager-reviewed
+- calibrated
+- completed
+relations:
+- type: governed-by
+  target: competency-model
+- type: refers-to
+  target: skill

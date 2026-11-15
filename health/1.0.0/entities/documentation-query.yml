@@ -1,0 +1,52 @@
+kind: entity
+slug: documentation-query
+title: Documentation Query
+type: transactional
+summary: A question from a documentation specialist or coder to the responsible clinician asking to clarify, complete or specify the
+  record of a case, such as an unstated diagnosis or an unclear procedure, answered in the record before coding is final.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: addressed-to
+  type: reference(practitioner-role)
+  card: 1..1
+- name: raised-by
+  type: reference(employee)
+  card: 1..1
+- name: query-topic
+  type: code
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: raised-at
+  type: datetime
+  card: 1..1
+- name: response
+  type: text
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- open
+- answered
+- accepted
+- declined
+- withdrawn
+relations:
+- type: refers-to
+  target: encounter
+- type: refers-to
+  target: clinical-document
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-430
+  edition: '2019'
+  jurisdiction: global
+- source: src-539
+  edition: '2026'
+  jurisdiction: global

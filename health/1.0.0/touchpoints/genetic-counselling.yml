@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: genetic-counselling
+title: Genetic Counselling
+medium: encounter
+summary: The consultation in which a patient learns what a genetic test can and cannot show, decides on testing, and later understands
+  the result and its meaning for relatives.
+exchanges:
+- consent-to-testing-for-an-explained-diagnosis
+journey: tissue-diagnosis-journey

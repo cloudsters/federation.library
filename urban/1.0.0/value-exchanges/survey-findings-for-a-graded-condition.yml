@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: survey-findings-for-a-graded-condition
+title: Survey Findings for a Graded Condition
+between:
+- public-works-engineer
+- asset-officer
+offered:
+- Inspection findings on the state of roads, bridges, pipes and buildings, gathered by schedule and by risk.
+returned:
+- A condition grade and remaining life for each asset, which set the next inspection and the work due.
+touchpoint: condition-survey-round

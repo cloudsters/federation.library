@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: works-schedule-for-joint-street-works
+title: Works Schedule for Joint Street Works
+between:
+- infrastructure-operator
+- city-planner
+offered:
+- The schedule of its works in the street.
+returned:
+- Fibre laid while the street is open for those works, with fewer openings of the street and lower cost for both.
+touchpoint: street-works-coordination-meeting

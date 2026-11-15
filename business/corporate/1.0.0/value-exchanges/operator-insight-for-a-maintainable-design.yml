@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: operator-insight-for-a-maintainable-design
+title: Operator Insight for a Maintainable Design
+between:
+- site-manager
+- development-engineer
+offered:
+- The requirements and experience of the people who will run and maintain the asset.
+returned:
+- A design for durability, maintainability, energy use and a clean end of life.
+touchpoint: design-review

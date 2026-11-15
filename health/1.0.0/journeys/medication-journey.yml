@@ -1,0 +1,41 @@
+kind: journey
+slug: medication-journey
+title: Medication Journey
+stakeholder: person-with-chronic-condition
+summary: A person who takes many medicines has them known and kept on admission, receives prescriptions matched to body and conditions,
+  is protected from interactions, receives each dose on time and leaves with an updated plan.
+stages:
+- slug: tell-what-is-taken
+  title: Tell What Is Taken
+  goal: Have the medicines taken at home known and continued without gaps.
+  step: medication-management/medication-history-and-reconciliation
+  touchpoints:
+  - medication-review
+  - medication-plan
+- slug: receive-the-right-prescription
+  title: Receive the Right Prescription
+  goal: Receive medicines matched to own body, conditions and other medicines.
+  step: medication-management/prescribing
+  touchpoints:
+  - ward-round
+  - medication-chart
+- slug: be-kept-safe
+  title: Be Kept Safe
+  goal: Be protected from interactions, allergies and dose errors.
+  step: medication-management/safety-checks-and-pharmaceutical-review
+  touchpoints:
+  - medication-review
+- slug: get-each-dose
+  title: Get Each Dose
+  goal: Receive each dose on time and know what it is for.
+  step: medication-management/administration
+  touchpoints:
+  - bedside-check
+  - medication-chart
+- slug: go-home-with-an-updated-plan
+  title: Go Home with an Updated Plan
+  goal: Leave with an updated plan, changes explained and enough medicine until the next prescription.
+  step: medication-management/effect-monitoring-and-review
+  touchpoints:
+  - medication-plan
+  - discharge-letter

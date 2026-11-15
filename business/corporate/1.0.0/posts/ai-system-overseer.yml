@@ -1,0 +1,13 @@
+kind: post
+slug: ai-system-overseer
+title: AI System Overseer
+summary: 'Keeps a person in charge of each AI system or agent the enterprise uses.'
+of: ai-oversight-committee
+responsibility: 'Oversees an AI system or agent in use: understands its limits, interprets its outputs, overrides or stops it when
+  needed and reports malfunctions.'
+accountable: body:ai-oversight-committee
+type: role
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

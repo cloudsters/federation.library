@@ -1,0 +1,33 @@
+kind: journey
+slug: unit-introducing-a-new-processing
+title: Unit Introducing a New Processing
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department who plans a new use of personal data has it assessed, approved and recorded before it starts,
+  and answers for it afterwards.
+stages:
+- slug: register-the-plan
+  title: Register the Plan
+  goal: The planned processing is registered with its purpose and owner before it starts.
+  step: data-protection-and-information-governance/processing-intake-and-classification
+  touchpoints:
+  - data-protection-office
+  - record-of-processing
+- slug: establish-the-basis
+  title: Establish the Basis
+  goal: The legal basis is clear and high risks are assessed and reduced.
+  step: data-protection-and-information-governance/lawfulness-and-impact-assessment
+  touchpoints:
+  - data-protection-office
+- slug: start-with-approval
+  title: Start with Approval
+  goal: The processing starts approved, recorded and explained to the persons concerned.
+  step: data-protection-and-information-governance/approval-and-record-of-processing
+  touchpoints:
+  - record-of-processing
+  - privacy-notice
+- slug: answer-in-the-review
+  title: Answer in the Review
+  goal: The unit shows in audit that its processing matches the record and the rules.
+  step: data-protection-and-information-governance/data-protection-review
+  touchpoints:
+  - inspection-and-audit

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: frontline-judgement-for-tasks-kept-human
+title: Frontline Judgement for Tasks Kept Human
+between:
+- frontline-worker
+- city-administration
+offered:
+- Their knowledge of which tasks need a person's judgement and care.
+returned:
+- Those tasks kept with a person, and the effect on their work stated before any approval.
+touchpoint: agent-request-assessment

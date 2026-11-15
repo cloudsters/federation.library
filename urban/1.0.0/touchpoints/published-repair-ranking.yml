@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-repair-ranking
+title: Published Repair Ranking
+medium: artefact
+summary: The published list of street defects ranked by danger and by who depends on the route, with the rules of ranking and the
+  date each repair is due.
+exchanges:
+- defect-report-for-a-repair-in-published-order
+journey: parent-or-guardian-making-the-school-route-safe

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: initiative-funding
+title: Initiative Funding
+between:
+- head-of-clinical-department
+- executive
+offered:
+- A proposal that names the objective it serves, its cost, benefits and risks, and a sponsor who answers for it.
+returned:
+- 'A reasoned decision: funding, capacity and a stage plan, or a rejection that states why.'
+touchpoint: portfolio-review-meeting

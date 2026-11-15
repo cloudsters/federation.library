@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: housing-register-portal
+title: Housing Register Portal
+medium: channel
+summary: The online and paper route through which a resident applies for an affordable home, sees their stated priority and waiting
+  time, and challenges the assessment.
+exchanges:
+- application-for-a-priority-that-can-be-seen
+journey: resident-without-a-home-finding-shelter-and-a-settled-home

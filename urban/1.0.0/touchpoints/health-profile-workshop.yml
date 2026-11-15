@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: health-profile-workshop
+title: Health Profile Workshop
+medium: encounter
+summary: A working session in which residents, community health workers and health providers describe the health of a neighbourhood
+  and the housing, air, heat, food and income behind it.
+exchanges:
+- neighbourhood-knowledge-for-a-fuller-profile
+- provider-figures-for-a-shared-profile
+journey: community-health-worker-keeping-the-neighbourhood-well

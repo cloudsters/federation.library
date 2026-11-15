@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: any-route-application
+title: Any-Route Application
+medium: channel
+summary: The application for a service, benefit or reduced charge that a resident can make online, by telephone, on paper or through
+  a trusted organisation, asking only for evidence the city does not hold.
+exchanges:
+- application-for-asking-only-what-is-missing
+- community-reach-for-a-fast-route
+journey: city-administration-deciding-entitlements-fairly

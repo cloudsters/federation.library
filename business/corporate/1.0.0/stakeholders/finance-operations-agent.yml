@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: finance-operations-agent
+title: Finance Operations Agent
+nature: agent
+stance: serving
+summary: An AI agent that matches invoices to orders and receipts, prepares payments and reconciliations, flags anomalies and drafts
+  the routine work of the financial close.
+seeks:
+- Clean transaction data, clear accounting rules and human approval for every payment.
+brings:
+- A faster, more accurate close and earlier detection of errors and fraud.
+represented_by:
+- agent
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,13 @@
+kind: body
+slug: culture-sport-and-tourism-committee
+title: Culture, Sport and Tourism Committee
+summary: Prepares the council's decisions on the culture plan, the sport and activity plan, the visitor strategy and its limits, and
+  the rules for public spaces, events and night-time life, and receives the yearly reviews of participation, activity, visitors and
+  public space.
+holds:
+- culture-and-events
+- sport-play-and-public-space
+- tourism-and-visitors
+part_of: full-council
+type: committee
+form: governing-body

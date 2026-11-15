@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: separate-land-value-for-corrected-facts
+title: Separate Land Value for Corrected Facts
+between:
+- finance-officer
+- landowner
+offered:
+- The value of the land and of the building set apart, with the facts on which each rests.
+returned:
+- The owner's correction of facts the record got wrong.
+touchpoint: valuation-notice

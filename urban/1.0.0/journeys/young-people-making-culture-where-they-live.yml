@@ -1,0 +1,33 @@
+kind: journey
+slug: young-people-making-culture-where-they-live
+title: Young People Making Culture Where They Live
+stakeholder: young-people
+summary: Young people name where culture is out of reach, take the stage of a city venue with their own work, win a first small grant
+  and choose the art on a wall they pass every day.
+stages:
+- slug: name-what-is-missing
+  title: Name What Is Missing
+  goal: Where young people have no culture within reach is marked on the map they helped make.
+  step: arts-and-cultural-participation/cultural-life-mapping
+  touchpoints:
+  - cultural-mapping-walk
+- slug: take-the-stage
+  title: Take the Stage
+  goal: Their own work is on the programme of a city venue, at a ticket price their friends can afford.
+  step: arts-and-cultural-participation/venues-open-to-residents
+  touchpoints:
+  - community-programming-night
+  - resident-ticket-scheme
+- slug: win-a-first-grant
+  title: Win a First Grant
+  goal: A small grant, chosen with residents and artists, supports their project without tying them to the city.
+  step: arts-and-cultural-participation/community-culture-funding
+  touchpoints:
+  - community-culture-grant-call
+- slug: choose-the-wall-art
+  title: Choose the Wall Art
+  goal: The neighbourhood, young people among it, has chosen a mural and agreed how it is cared for.
+  step: arts-and-cultural-participation/public-art-decided-by-neighbourhoods
+  touchpoints:
+  - public-art-neighbourhood-decision
+  - public-artwork-care-agreement

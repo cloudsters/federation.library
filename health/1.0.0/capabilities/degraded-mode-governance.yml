@@ -1,0 +1,10 @@
+kind: capability
+slug: degraded-mode-governance
+title: Degraded-Mode Operations & Recovery Governance
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Govern how essential services run in degraded mode and how normal operation is restored.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: response-capacity-for-coordinated-command
+title: Response Capacity for Coordinated Command
+between:
+- emergency-service
+- mayor
+offered:
+- Fire, rescue and medical response, and the findings of every exercise.
+returned:
+- Clear command, a shared picture of the emergency and departments that act together.
+touchpoint: joint-emergency-exercise

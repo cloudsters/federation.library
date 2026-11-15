@@ -1,0 +1,122 @@
+kind: value-stream
+slug: service-access-and-wayfinding
+title: Service Access and Wayfinding
+family: discovery-to-usage
+summary: Making sure that every resident can find, reach and use the city's services and find their way through its public buildings
+  and streets. It holds the mapping, with disabled residents, elders, children, multilingual speakers, newcomers and long-standing
+  residents, of how each group actually finds its way and where it gets lost, one directory of services in plain language, service
+  points in the neighbourhoods with hours that fit working and care lives, wayfinding that uses landmarks, sounds, textures and colour
+  as well as signs, information in several languages and senses, and audits of access carried out by those who meet the barriers.
+trigger: A new service point, public building or route is planned, or residents report that they cannot find, reach or use a service.
+outcome: Residents know which services exist and where and when to reach them, and can find their way to them by sight, sound or touch
+  and in their own language.
+stakeholders:
+- resident
+- disabled-resident
+- older-resident
+- newcomer
+- young-people
+- city-planner
+- community-development-worker
+steps:
+- slug: wayfinding-walks-and-mapping
+  title: Wayfinding Walks and Mapping
+  summary: Staff walk the routes to services and through public buildings with disabled residents, elders, children, multilingual
+    speakers, newcomers and long-standing residents, and record the landmarks, sounds, textures and stories each group uses and the
+    places where they get lost.
+  capabilities:
+  - wayfinding-knowledge-mapping
+  - participation-access-design
+  - participant-compensation
+  entities:
+  - wayfinding-map
+  - street
+  - building
+  serves:
+  - published-wayfinding-map
+  - wayfinding-walk
+- slug: service-directory
+  title: Service Directory
+  summary: The services of the city and its partners are kept in one directory in plain language and in the languages residents use,
+    with who may use them, where and when they are open, how to reach a person and what to bring.
+  capabilities:
+  - service-catalogue-upkeep
+  - plain-language-testing
+  - multilingual-information-design
+  entities:
+  - service-catalogue
+  - public-service
+  - language-access-policy
+  serves:
+  - city-service-directory
+  - printed-neighbourhood-service-guide
+- slug: neighbourhood-service-points
+  title: Neighbourhood Service Points
+  summary: Service points in libraries, community centres and other trusted buildings offer the common services in each neighbourhood,
+    open at hours that fit shift work and care, with a person who helps residents through.
+  capabilities:
+  - service-point-planning
+  - assisted-service-route-provision
+  - community-space-provision
+  entities:
+  - service-point
+  - community-centre
+  - library
+  serves:
+  - neighbourhood-service-point-counter
+- slug: multisensory-wayfinding-design
+  title: Multisensory Wayfinding Design
+  summary: Routes and buildings are marked with distinctive landmarks at decision points, textured paving, sound cues, colour codes
+    and murals tied to local stories, beside signs in the languages residents use, so that newcomers, visitors and people with cognitive
+    decline can learn the way.
+  capabilities:
+  - multisensory-wayfinding-design
+  - multilingual-information-design
+  - heritage-and-place-story-assessment
+  entities:
+  - wayfinding-element
+  - wayfinding-map
+  - street
+  serves:
+  - landmark-and-texture-route
+  - wayfinding-design-workshop
+- slug: resident-access-audit
+  title: Resident Access Audit
+  summary: Disabled residents and others who meet barriers audit service points, routes and digital channels at a fixed rhythm and
+    are paid for their time, and their findings are published with the dates by which each barrier will be removed.
+  capabilities:
+  - resident-access-audit
+  - participant-compensation
+  - corrective-action-tracking
+  entities:
+  - access-audit
+  - service-standard
+  serves:
+  - published-access-audit
+  - resident-access-audit-walk
+- slug: access-and-reach-review
+  title: Access and Reach Review
+  summary: Who reaches each service and who does not is reviewed by neighbourhood and group, together with complaints and residents'
+    reports of getting lost or being turned away, and service points, hours, information and wayfinding are changed.
+  capabilities:
+  - service-route-use-analysis
+  - equity-audit
+  - service-point-planning
+  entities:
+  - access-audit
+  - citizen-complaint
+  - service-route-use-report
+  serves:
+  - access-and-reach-review-meeting
+  - barrier-report-line
+  - published-access-audit
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-248
+  edition: '2023'
+  jurisdiction: global
+- source: src-250
+  edition: '2021'
+  jurisdiction: global

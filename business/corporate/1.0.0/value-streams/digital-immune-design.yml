@@ -1,0 +1,127 @@
+kind: value-stream
+slug: digital-immune-design
+title: System Resilience & Digital Protection Design
+family: portfolio-to-system
+summary: Protecting the organisation's systems and data with a defence that detects, contains and adapts, through security, identity and
+  access, privacy, integrity, continuity and recovery designed in rather than added on.
+trigger: A security or continuity assessment falls due, or a threat, incident or outage is detected.
+outcome: Digital risks are treated to the accepted level, incidents are contained, and systems recover within their target times.
+stakeholders:
+- information-technology-specialist
+- executive-board
+- legal-risk-and-compliance-professional
+- data-protection-and-security-authority
+- technology-provider
+- employee
+steps:
+- slug: digital-risk-assessment
+  title: Digital Risk Assessment
+  summary: Threats, weaknesses and compliance obligations of the digital estate are assessed, and the security, privacy and resilience
+    strategy is set against the accepted level of risk.
+  capabilities:
+  - digital-immune-strategy
+  - digital-risk-sensing-control
+  - digital-compliance-sensing
+  entities:
+  - risk
+  - compliance-rule
+  - application
+  serves:
+  - board-meeting
+  - digital-risk-register
+- slug: security-and-privacy-by-design
+  title: Security and Privacy by Design
+  summary: Data flows, ledgers and systems are designed to protect confidentiality, integrity and privacy from the start, with records
+    of every processing of personal data.
+  capabilities:
+  - data-security-architecture
+  - privacy-data-protection-as-care
+  - ledger-integrity-architecture
+  entities:
+  - data-processing-record
+  - application
+  - interface
+  serves:
+  - architecture-board
+  - processing-record
+- slug: identity-and-access-governance
+  title: Identity and Access Governance
+  summary: Every person, device, agent and system receives an identity and only the access it needs, granted, reviewed and withdrawn
+    on time.
+  capabilities:
+  - identity-access-management
+  entities:
+  - identity
+  - access-grant
+  - employee-record
+  - agent
+  serves:
+  - access-request
+  - onboarding-day
+- slug: privacy-rights-fulfilment
+  title: Privacy Rights Fulfilment
+  summary: Consents and preferences are recorded and honoured across systems, and requests for access to, correction or erasure of
+    personal data are answered within their deadlines.
+  capabilities:
+  - consent-and-preference-management
+  - data-subject-rights-fulfilment
+  - privacy-data-protection-as-care
+  entities:
+  - data-use-consent
+  - data-processing-record
+  - identity
+  serves:
+  - privacy-notice
+  - privacy-request-channel
+- slug: continuity-and-recovery-design
+  title: Continuity and Recovery Design
+  summary: Recovery targets, redundancy, backups and degraded modes are designed for each critical service, and recovery is rehearsed.
+  capabilities:
+  - digital-continuity-architecture
+  - digital-resilience-design
+  entities:
+  - continuity-plan
+  - it-service
+  - configuration-item
+  serves:
+  - recovery-exercise
+- slug: threat-and-vulnerability-monitoring
+  title: Threat and Vulnerability Monitoring
+  summary: Systems are observed continuously for threats, anomalies and weaknesses, and vulnerabilities are removed within deadlines
+    set by their severity.
+  capabilities:
+  - observability-as-sensing
+  - security-operations
+  - vulnerability-management
+  entities:
+  - configuration-item
+  - application
+  - incident
+  serves:
+  - security-awareness-training
+  - security-monitoring
+  - service-desk
+  - vulnerability-advisory
+- slug: incident-containment-and-recovery
+  title: Incident Containment and Recovery
+  summary: Security incidents, data breaches and outages are contained, services recovered, authorities and those affected notified
+    within deadlines, and the lessons built into the design.
+  capabilities:
+  - security-operations
+  - technology-resilience-operations
+  - personal-data-breach-response
+  - cyber-incident-reporting
+  entities:
+  - major-incident
+  - incident
+  - regulatory-notification
+  - continuity-plan
+  serves:
+  - breach-notification
+  - intranet
+  - security-monitoring
+  - service-desk
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

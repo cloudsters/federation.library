@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: home-inspection-walk
+title: Home Inspection Walk
+medium: encounter
+summary: The walk through a home by the housing officer with the tenant at the start and the end of a tenancy, recording its condition
+  against the agreed standard and the repairs due.
+exchanges:
+- rent-and-care-for-a-safe-home-and-known-rights
+- inspection-findings-for-repairs-within-set-days
+journey: housing-officer-running-city-homes-with-their-tenants

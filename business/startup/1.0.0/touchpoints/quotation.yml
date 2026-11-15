@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: quotation
+title: Quotation
+medium: artefact
+summary: The company's binding offer, with scope, technical solution, price, delivery time and terms, which the customer can accept
+  to form a contract.
+exchanges:
+- commitment-for-favourable-terms
+- fair-tender-for-an-honest-offer
+- payment-security-for-a-first-trade
+- transparent-pricing-for-mutual-gain
+journey: business-customer-weighing-a-value-promise

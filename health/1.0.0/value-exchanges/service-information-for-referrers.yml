@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-information-for-referrers
+title: Service Information for Referrers
+between:
+- head-of-clinical-department
+- referring-practice
+offered:
+- Clear information on what a service offers, for which patients, with which results, how to refer and whom to call.
+returned:
+- Appropriate referrals of the patients the service is designed for, and feedback on what referrers and their patients need.
+touchpoint: referrer-portal

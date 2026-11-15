@@ -1,0 +1,37 @@
+kind: entity
+slug: material-request
+title: Material Request
+type: transactional
+summary: A request for materials — the organisation's internal request that triggers either an issue from stock or a purchase, so that
+  production keeps flowing without interruption.
+attributes:
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 1..*
+- name: required-date
+  type: date
+  card: 1..1
+- name: purpose
+  type: code
+  card: 1..1
+- name: requesting-department
+  type: reference(department)
+  card: 0..1
+- name: approved-by
+  type: reference(employee-record)
+  card: 0..1
+states:
+- draft
+- approved
+- fulfilled
+- closed
+relations:
+- type: produces
+  target: purchase-order
+- type: produces
+  target: stock-entry
+- type: produces
+  target: work-order

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: therapy-session
+title: Therapy Session
+medium: encounter
+summary: A session of physiotherapy, occupational, speech, nutrition or psychological therapy, at the bedside, in the therapy area
+  or by video, in which patient and therapist work towards agreed goals.
+exchanges:
+- effort-for-regained-function
+journey: therapy-journey

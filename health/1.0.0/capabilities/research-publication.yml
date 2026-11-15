@@ -1,0 +1,10 @@
+kind: capability
+slug: research-publication
+title: Research Publication
+level: L3
+parent: research-methods-and-reporting
+summary: Report and publish research results, including negative results, openly and on time.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global

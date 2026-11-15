@@ -1,0 +1,59 @@
+kind: entity
+slug: municipal-budget
+title: Municipal Budget
+type: master
+summary: The financial plan that allocates the city's public resources for a fiscal period, by purpose and by neighbourhood. The administration
+  prepares it, the council adopts it, and it is used to fund decisions and risk treatments and to show who benefits and who bears
+  the cost.
+attributes:
+- name: fiscal-period
+  type: period
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: total-revenue
+  type: amount
+  card: 1..1
+- name: total-expenditure
+  type: amount
+  card: 1..1
+- name: investment-total
+  type: amount
+  card: 0..1
+- name: risk-reserve
+  type: amount
+  card: 0..1
+- name: line-items
+  type: document
+  card: 1..1
+- name: allocation-by-neighbourhood
+  type: document
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- approved
+- executing
+- amended
+- closed
+- audited
+relations:
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: city-constitution
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: public-record

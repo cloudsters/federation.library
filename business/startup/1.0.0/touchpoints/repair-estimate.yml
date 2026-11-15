@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: repair-estimate
+title: Repair Estimate
+medium: artefact
+summary: The estimate of cost and time for a repair, which the customer approves before work begins and is asked to approve again
+  if the finding changes it.
+exchanges:
+- faulty-item-for-a-fair-repair
+journey: consumer-bringing-an-item-for-repair

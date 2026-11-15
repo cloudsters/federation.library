@@ -1,0 +1,21 @@
+kind: solution
+slug: knowledge-management-system
+title: Knowledge Management System
+role: system-of-record
+summary: 'Holds the organisation''s curated knowledge: articles, patterns, lessons learned, handover notes and market insight, with
+  owners, review dates and the links that make them findable where work happens.'
+carries:
+- knowledge-practice-renewal
+- knowledge-base-management
+- knowledge-capability-assessment
+- knowledge-strategy-design
+- offering-as-pattern
+- pattern-language-cultivation
+- process-pattern-language
+- wiki-knowledge-base-management
+- lessons-learned-management
+- knowledge-handover
+holds:
+- knowledge-article
+- pattern
+- market-insight

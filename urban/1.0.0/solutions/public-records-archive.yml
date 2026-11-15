@@ -1,0 +1,16 @@
+kind: solution
+slug: public-records-archive
+title: Public Records Archive
+role: system-of-record
+summary: Keeps the city's records and its civic memory for the long term, including the histories recorded beside the official one,
+  under the disclosure rules and their register of exemptions.
+carries:
+- civic-memory-documentation
+- public-record-publication
+- disclosure-rule-setting
+- place-naming-and-commemoration
+- heritage-and-place-story-assessment
+holds:
+- public-record
+- civic-memory-record
+- disclosure-policy

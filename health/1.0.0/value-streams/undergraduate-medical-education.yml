@@ -1,0 +1,140 @@
+kind: value-stream
+slug: undergraduate-medical-education
+title: Undergraduate Medical Education
+family: demand-to-fulfillment
+summary: 'Educating medical students to graduation: curriculum design and mapping, lectures, bedside and practical teaching, the final
+  practical year, assessments and examinations, and evaluation of teaching.'
+trigger: A student cohort enrols, or a teaching term begins.
+outcome: Students have achieved the curriculum's outcomes and graduated, and teaching quality has been evaluated.
+stakeholders:
+- medical-student
+- clinical-educator
+- specialist-physician
+- head-of-clinical-department
+- university
+- elective-inpatient
+- affiliated-teaching-site
+- health-regulator
+steps:
+- slug: curriculum-design-and-mapping
+  title: Curriculum Design and Mapping
+  summary: Learning outcomes, competencies and entrustable professional activities are defined, mapped to the national competence
+    framework and ordered into phases, courses, placements and assessments approved by the faculty.
+  capabilities:
+  - medical-curriculum-design
+  - education-quality-assurance
+  entities:
+  - curriculum
+  - competency
+  - entrustable-professional-activity
+  - course
+  - education-programme
+  serves:
+  - curriculum-committee
+  - learning-platform
+- slug: enrolment-and-teaching-planning
+  title: Enrolment and Teaching Planning
+  summary: The faculty enrols the cohort, and courses, teachers, rooms and teaching patients are scheduled against clinical rosters
+    so that teaching and care can both be delivered.
+  capabilities:
+  - learner-enrolment-and-records
+  - teaching-and-care-balance
+  - staff-scheduling
+  - learning-programme-delivery
+  entities:
+  - learner-record
+  - course
+  - teaching-session
+  - roster
+  - room
+  serves:
+  - education-office
+  - learning-platform
+- slug: lectures-and-skills-training
+  title: Lectures and Skills Training
+  summary: Knowledge is taught in lectures, seminars and digital formats, and clinical skills are practised in the skills lab and
+    the simulation centre before students meet patients.
+  capabilities:
+  - learning-programme-delivery
+  - skills-lab-management
+  - simulation-centre-operations
+  - teaching-faculty-development
+  entities:
+  - course
+  - teaching-session
+  serves:
+  - lecture-hall
+  - simulation-centre
+- slug: bedside-and-placement-teaching
+  title: Bedside and Placement Teaching
+  summary: Students learn at the bedside and in clinical block placements, with patients who have agreed to take part, under the supervision
+    of physicians who balance teaching with care.
+  capabilities:
+  - bedside-teaching
+  - informed-consent
+  - teaching-and-care-balance
+  - teaching-faculty-development
+  entities:
+  - teaching-session
+  - rotation
+  - patient
+  - informed-consent
+  serves:
+  - bedside-teaching
+  - clinical-placement
+  - ward
+- slug: final-clinical-year
+  title: Final Clinical Year
+  summary: Students work as members of care teams in rotations in the commons and in affiliated teaching hospitals and practices,
+    supervised, assessed in the workplace and recording what they have done.
+  capabilities:
+  - final-year-clinical-training
+  - teaching-hospital-network
+  - academic-partnership-management
+  - clinical-onboarding
+  - practice-supervision
+  entities:
+  - rotation
+  - logbook-entry
+  - learner-assessment
+  - contract
+  serves:
+  - clinical-placement
+  - training-logbook
+- slug: assessment-and-examination
+  title: Assessment and Examination
+  summary: Students are assessed in written, practical and workplace-based formats and in structured clinical examinations, and sit
+    the final examinations, national where these exist, that decide on graduation and licensure.
+  capabilities:
+  - student-assessment
+  - structured-clinical-examination
+  - learner-enrolment-and-records
+  entities:
+  - learner-assessment
+  - examination
+  - entrustment-decision
+  - learner-record
+  - licence-to-practise
+  serves:
+  - final-examination
+  - structured-clinical-examination
+- slug: teaching-evaluation
+  title: Teaching Evaluation
+  summary: Students and peers evaluate courses, teachers and placements, the results and examination outcomes are fed back to teachers
+    and the curriculum committee, and teaching performance informs the allocation of teaching funds.
+  capabilities:
+  - teaching-quality-evaluation
+  - education-quality-assurance
+  - teaching-faculty-development
+  - research-and-teaching-fund-allocation
+  entities:
+  - teaching-evaluation
+  - measure-report
+  - curriculum
+  serves:
+  - curriculum-committee
+  - teaching-evaluation-survey
+binds:
+- source: src-071
+  edition: '2005'
+  jurisdiction: global

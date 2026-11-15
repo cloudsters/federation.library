@@ -1,0 +1,37 @@
+kind: journey
+slug: supplier-delivering-a-solution
+title: Supplier Delivering a Solution
+stakeholder: supplier
+summary: A supplier competes for, configures, integrates and supports a solution, and becomes a partner in its operation.
+stages:
+- slug: bid-and-contract
+  title: Bid and Contract
+  goal: The supplier understands the requirements and commits to service levels, security and exit terms.
+  step: solution-delivery/solution-selection-and-contracting
+  touchpoints:
+  - call-for-tender
+  - supplier-portal
+- slug: configure-and-integrate
+  title: Configure and Integrate
+  goal: The product is configured and connected according to agreed interface specifications.
+  step: solution-delivery/configuration-and-integration
+  touchpoints:
+  - interface-specification
+- slug: prove-fitness
+  title: Prove Fitness
+  goal: The supplier demonstrates in acceptance testing that the solution works in real cases.
+  step: solution-delivery/testing-and-acceptance
+  touchpoints:
+  - user-acceptance-test
+- slug: support-the-go-live
+  title: Support the Go-Live
+  goal: The supplier's specialists stand by during cutover and the first shifts.
+  step: solution-delivery/training-and-go-live
+  touchpoints:
+  - go-live-support
+- slug: hand-over-to-operations
+  title: Hand Over to Operations
+  goal: Support moves to the contracted service model, reviewed against service levels.
+  step: solution-delivery/stabilisation-and-handover
+  touchpoints:
+  - service-review-meeting

@@ -1,0 +1,14 @@
+kind: solution
+slug: code-hosting-and-delivery-platform
+title: Code Hosting and Delivery Platform
+role: platform
+summary: Keeps the public repository of the city's code, interfaces and data schemas under open licence with their history, and runs
+  the building, testing and staged release of the city's software.
+carries:
+- code-publication-and-sharing
+- solution-build-and-configuration
+- acceptance-testing
+- solution-go-live
+- change-and-release-control
+holds:
+- source-code-repository

@@ -1,0 +1,7 @@
+kind: capability
+slug: steward-non-conformance
+title: Steward non-conformance
+level: L3
+parent: quality-system
+summary: Assess the impact of each deviation from requirements, contain it, find its root cause and take corrective or preventive
+  action, so every non-conformance improves the system.

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: connection-test
+title: Connection Test
+medium: encounter
+summary: The test runs in which a partner's system and the organisation's exchange messages end to end before going live.
+exchanges:
+- agreed-formats-for-seamless-orders
+journey: integration-specialist-connecting-a-partner

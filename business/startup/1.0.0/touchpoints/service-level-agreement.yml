@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-level-agreement
+title: Service Level Agreement
+medium: artefact
+summary: The mutual commitment between the technology function and a unit on services, hours, response and resolution times and cost.
+exchanges:
+- service-commitment-for-fair-cost
+- working-equipment-for-ready-work
+journey: unit-leader-bringing-a-technology-need

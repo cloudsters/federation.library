@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clear-requests-for-tracked-answers
+title: Clear Requests for Tracked Answers
+between:
+- consumer
+- customer-service-representative
+offered:
+- A clear account of the request and the context needed to resolve it.
+returned:
+- A tracked case resolved within the promised time, and the same answer in every channel.
+touchpoint: service-hotline

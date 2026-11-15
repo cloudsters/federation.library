@@ -1,0 +1,53 @@
+kind: entity
+slug: participant-enrolment
+title: Participant Enrolment
+type: transactional
+summary: A person's participation in a research study or cohort, from screening and consent through allocation and follow-up to completion
+  or withdrawal, linking every research datum to the right consent.
+attributes:
+- name: participant
+  type: reference(patient)
+  card: 1..1
+- name: research-study
+  type: reference(research-study)
+  card: 0..1
+- name: cohort
+  type: reference(cohort)
+  card: 0..1
+- name: participant-identifier
+  type: identifier
+  card: 1..1
+- name: consent
+  type: reference(informed-consent)
+  card: 0..1
+- name: data-use-consent
+  type: reference(data-use-consent)
+  card: 0..1
+- name: study-arm
+  type: code
+  card: 0..1
+- name: enrolled-on
+  type: date
+  card: 0..1
+states:
+- screening
+- screen-failed
+- enrolled
+- on-intervention
+- in-follow-up
+- completed
+- withdrawn
+relations:
+- type: part-of
+  target: research-study
+- type: part-of
+  target: cohort
+- type: based-on
+  target: informed-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-415
+  edition: '2.0'
+  jurisdiction: global

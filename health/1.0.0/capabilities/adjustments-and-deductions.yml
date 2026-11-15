@@ -1,0 +1,10 @@
+kind: capability
+slug: adjustments-and-deductions
+title: Adjustments & Deductions
+level: L3
+parent: patient-revenue-cycle
+summary: Book and justify adjustments, deductions and write-offs on receivables.
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-spending-review
+title: Published Spending Review
+medium: artefact
+summary: The published results of each service and programme for its money, with the moves of budget that follow from them.
+exchanges:
+- review-results-for-budget-reallocation
+journey: city-council-adopting-and-steering-the-budget

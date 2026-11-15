@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: intercompany-agreement
+title: Intercompany Agreement
+medium: artefact
+summary: The agreement between two entities of the group on the deliveries, services or charges between them and their transfer prices.
+exchanges:
+- agreed-transfer-prices-for-clean-elimination
+journey: entity-accountant-reporting-into-the-group

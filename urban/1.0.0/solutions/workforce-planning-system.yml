@@ -1,0 +1,16 @@
+kind: solution
+slug: workforce-planning-system
+title: Workforce Planning System
+role: system-of-insight
+summary: Holds the workforce plan and its forecasts of demand, retirements and departures, the mix of staff, contracted workers, volunteers
+  and agents that does the work, and the key roles with their successors and readiness.
+carries:
+- workforce-demand-forecasting
+- retirement-and-attrition-forecasting
+- workforce-mix-design
+- workforce-plan-drafting
+- key-role-review
+holds:
+- workforce-plan
+- workforce-forecast
+- succession-plan

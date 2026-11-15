@@ -1,0 +1,166 @@
+kind: value-stream
+slug: patient-enquiries-and-relationships
+title: Patient Enquiries and Relationships
+family: interest-to-relationship
+summary: 'Responding to people who seek care or information and keeping in touch with returning patients: enquiry handling, guidance
+  to the right service, second-opinion requests, self-referrals and long-term contact with chronically ill patients.'
+trigger: A prospective patient or relative contacts the organisation with a request or question.
+outcome: The person has received an answer and, where appropriate, a route into the right service.
+stakeholders:
+- general-public
+- relative
+- person-with-rare-disease
+- person-with-cancer
+- person-with-chronic-condition
+- administrative-staff
+- patient-assistant-agent
+- specialist-physician
+- advanced-practice-nurse
+steps:
+- slug: enquiry-receipt
+  title: Enquiry Receipt
+  summary: An enquiry arriving by telephone, online form, portal message or the patient assistant agent is recorded with its channel,
+    topic and language, the enquirer is identified as far as the answer requires, and a response time is set.
+  capabilities:
+  - patient-contact-centre
+  - human-agent-collaboration-design
+  - interpreting-and-language-services
+  - patient-portal
+  - data-protection-governance
+  entities:
+  - enquiry
+  - patient
+  - related-person
+  serves:
+  - patient-enquiry-service
+  - patient-portal
+  - public-website
+- slug: need-clarification
+  title: Need Clarification
+  summary: 'Staff or the agent clarify what the person seeks: information, an appointment, a self-referral, a second opinion or contact
+    with a treating team. Urgent symptoms are redirected to emergency care at once, and referral and coverage requirements are checked.'
+  capabilities:
+  - patient-contact-centre
+  - trust-and-escalation-protocols
+  - insurance-verification-and-coverage
+  - second-opinion-access
+  entities:
+  - enquiry
+  - insurance-coverage
+  - care-service
+  serves:
+  - patient-enquiry-service
+- slug: answer-and-guidance
+  title: Answer and Guidance
+  summary: The person receives an answer in plain language, in their own language where needed, with written information, and is guided
+    to the right service in the commons or, where the commons is not the right place, to another provider.
+  capabilities:
+  - decision-aids-and-health-literacy
+  - interpreting-and-language-services
+  - patient-rights-stewardship
+  - master-data-stewardship
+  - information-content-management
+  entities:
+  - enquiry
+  - care-service
+  - decision-aid
+  serves:
+  - patient-enquiry-service
+  - public-website
+- slug: second-opinion-review
+  title: Second-Opinion Review
+  summary: For a second opinion, prior findings, images and the proposed treatment are obtained with the person's consent and reviewed
+    by a specialist or a case conference; the person discusses the result and receives a written opinion.
+  capabilities:
+  - second-opinion-access
+  - shared-health-record-integration
+  - document-digitisation
+  - finding-integration
+  - radiological-reporting
+  - multidisciplinary-tumour-board
+  - shared-decision-making-practice
+  entities:
+  - request-for-care
+  - health-record
+  - diagnostic-report
+  - image-study
+  - case-conference
+  - clinical-document
+  - shared-decision
+  - mandate-to-export-personal-information
+  serves:
+  - consultation
+  - multidisciplinary-case-conference
+  - patient-held-health-record
+  - second-opinion-report
+- slug: route-into-care
+  title: Route into Care
+  summary: 'Where care is wanted and appropriate, the enquiry becomes a request for care: a self-referral is accepted or redirected,
+    an appointment is booked or a waiting-list place given, and the person is told what to bring.'
+  capabilities:
+  - referral-intake-management
+  - patient-registration-and-admission
+  - appointment-booking-management
+  - waiting-list-management
+  entities:
+  - enquiry
+  - request-for-care
+  - care-commitment
+  - patient
+  - appointment
+  - waiting-list-entry
+  serves:
+  - appointment-service
+  - patient-portal
+- slug: continuing-contact
+  title: Continuing Contact
+  summary: A returning patient with a long-term condition keeps a named contact, planned recall, portal messaging, self-management
+    education and patient information events, and a direct route back when the condition changes.
+  capabilities:
+  - chronic-care-programmes
+  - self-management-support
+  - patient-portal
+  - appointment-booking-management
+  - telemonitoring
+  - community-relations
+  entities:
+  - episode-of-care
+  - care-plan
+  - care-team
+  - appointment
+  - patient-reported-outcome
+  serves:
+  - outpatient-clinic
+  - patient-information-event
+  - patient-portal
+- slug: enquiry-experience-review
+  title: Enquiry Experience Review
+  summary: Response times, abandoned and unanswered contacts, routing errors, feedback and complaints are measured per channel and
+    service, and information, routing rules and the agent's instructions are corrected where people were not helped.
+  capabilities:
+  - patient-experience-measurement
+  - complaint-management
+  - process-performance-management
+  - business-intelligence-and-reporting
+  - agent-lifecycle-management
+  entities:
+  - enquiry
+  - complaint
+  - patient-experience-survey
+  - measure-report
+  - agent-mandate
+  serves:
+  - feedback-and-complaints-channel
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-257
+  edition: '2017'
+  jurisdiction: global

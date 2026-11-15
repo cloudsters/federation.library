@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: customer-insight-interview
+title: Customer Insight Interview
+medium: encounter
+summary: A structured conversation with a customer about what it values, what it pays for, its alternatives and how a changed offering
+  would serve it.
+exchanges:
+- customer-evidence-for-a-better-fitting-offering
+journey: customer-whose-evidence-reshapes-an-offering

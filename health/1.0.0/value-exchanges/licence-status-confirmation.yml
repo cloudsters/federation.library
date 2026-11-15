@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: licence-status-confirmation
+title: Licence Status Confirmation
+between:
+- health-regulator
+- administrative-staff
+offered:
+- The confirmed status of a person's licence, its restrictions and disciplinary measures, and decisions on the recognition of foreign
+  qualifications.
+returned:
+- Complete applications for recognition, timely reports of changes, and assurance that no one practises a regulated profession in
+  the organisation without a valid licence.
+touchpoint: professional-register

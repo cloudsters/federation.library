@@ -1,0 +1,61 @@
+kind: entity
+slug: trading-pitch
+title: Trading Pitch
+type: master
+summary: A place allocated for street trading or a market stall, with its holder, terms, fee and the days it may be used. The administration
+  allocates it openly with the traders' own organisations, and the record is used to share space and fees fairly and to protect vendors
+  from displacement.
+attributes:
+- name: pitch-number
+  type: identifier
+  card: 1..1
+- name: market
+  type: reference(market)
+  card: 0..1
+- name: location
+  type: reference(public-space|street)
+  card: 1..1
+- name: holder
+  type: text
+  card: 0..1
+- name: holder-kind
+  type: code
+  card: 0..1
+- name: traders-organisation
+  type: text
+  card: 0..1
+- name: trade-kinds
+  type: code
+  card: 0..*
+- name: trading-days
+  type: text
+  card: 1..*
+- name: fee
+  type: amount
+  card: 1..1
+- name: allocation-route
+  type: code
+  card: 1..1
+- name: allocated-on
+  type: date
+  card: 0..1
+- name: term
+  type: period
+  card: 0..1
+states:
+- available
+- allocated
+- in-use
+- suspended
+- vacated
+relations:
+- type: part-of
+  target: market
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: street
+- type: governed-by
+  target: bylaw
+- type: refers-to
+  target: cooperative

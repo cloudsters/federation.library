@@ -1,0 +1,39 @@
+kind: journey
+slug: supplier-agreeing-fair-terms
+title: Supplier Agreeing Fair Terms
+stakeholder: supplier
+summary: A supplier learns the conduct the organisation expects of its partners, negotiates an agreement it can accept, has its own
+  know-how respected and meets disagreement first as a relationship to repair.
+stages:
+- slug: know-the-standards-of-conduct
+  title: Know the Standards of Conduct
+  goal: The supplier knows the conduct and fair-dealing standards that apply to partners and has confirmed them.
+  step: ethical-practice-design/ethical-framework
+  touchpoints:
+  - code-of-conduct
+- slug: negotiate-the-agreement
+  title: Negotiate the Agreement
+  goal: The supplier negotiates terms that are legible and balanced, and signs an agreement both sides can keep.
+  step: ethical-practice-design/agreement-negotiation
+  touchpoints:
+  - contract-negotiation
+  - signed-agreement
+- slug: protect-shared-know-how
+  title: Protect Shared Know-How
+  goal: Know-how exchanged in the work is protected on both sides, and ownership of joint results is settled before it matters.
+  step: ethical-practice-design/intellectual-property-protection
+  touchpoints:
+  - signed-agreement
+  - intellectual-property-register
+- slug: repair-a-disagreement
+  title: Repair a Disagreement
+  goal: A disagreement is taken first into dialogue or mediation, and the relationship survives its resolution.
+  step: ethical-practice-design/dispute-resolution
+  touchpoints:
+  - mediation-session
+- slug: work-under-improved-terms
+  title: Work Under Improved Terms
+  goal: The supplier sees what the dispute taught reflected in clearer standard terms for the next agreement.
+  step: ethical-practice-design/lessons-into-practice
+  touchpoints:
+  - signed-agreement

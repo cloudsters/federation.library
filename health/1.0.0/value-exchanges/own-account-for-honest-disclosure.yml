@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: own-account-for-honest-disclosure
+title: Own Account for Honest Disclosure
+between:
+- person-harmed-in-care
+- specialist-physician
+offered:
+- The patient and family share their account of what happened, their questions and what they need now.
+returned:
+- The physician acknowledges the harm, apologises, explains what is known, arranges care for the consequences and later reports
+  what has changed.
+touchpoint: family-meeting

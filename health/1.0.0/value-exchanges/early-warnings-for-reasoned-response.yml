@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: early-warnings-for-reasoned-response
+title: Early Warnings for Reasoned Response
+between:
+- clinical-decision-support-agent
+- registered-nurse
+offered:
+- The agent gives early warnings of deterioration with the signals behind them and its confidence.
+returned:
+- The nurse assesses the patient, acts on or overrides the warning and records why, which the team uses to judge and adjust
+  the agent.
+touchpoint: clinical-workstation

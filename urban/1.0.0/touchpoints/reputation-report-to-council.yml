@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: reputation-report-to-council
+title: Reputation Report to Council
+medium: artefact
+summary: The report that sets what is said about the city beside residents' own accounts, names the gaps and the review's findings,
+  and goes to the council each year.
+exchanges:
+- reputation-findings-for-council-direction
+journey: communications-officer-keeping-the-city-account-true

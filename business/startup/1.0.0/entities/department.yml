@@ -1,0 +1,41 @@
+kind: entity
+slug: department
+title: Department
+type: master
+summary: A functional community of practice — people grouped by shared competency who collaborate to fulfill a dimension of the organization's
+  purpose.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: organization
+  type: reference(organization)
+  card: 1..1
+- name: parent
+  type: reference(department)
+  card: 0..1
+- name: head
+  type: reference(employee-record)
+  card: 0..1
+- name: cost-center
+  type: reference(cost-center)
+  card: 0..1
+- name: positions
+  type: reference(position)
+  card: 0..*
+states:
+- established
+- staffed
+- reorganised
+- dissolved
+relations:
+- type: part-of
+  target: organization
+- type: composed-of
+  target: position
+- type: assigned-to
+  target: cost-center
+- type: refers-to
+  target: employee-record
+- type: refers-to
+  target: skill

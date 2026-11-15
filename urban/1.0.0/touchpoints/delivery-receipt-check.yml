@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: delivery-receipt-check
+title: Delivery Receipt Check
+medium: encounter
+summary: The check at the receiving department in which what arrived is counted and inspected, or the service delivered is confirmed,
+  and any shortfall is recorded.
+exchanges:
+- delivery-for-a-receipt-recorded-the-same-day
+journey: municipal-employee-buying-what-the-work-needs

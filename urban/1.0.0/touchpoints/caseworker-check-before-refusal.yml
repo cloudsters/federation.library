@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: caseworker-check-before-refusal
+title: Caseworker Check Before Refusal
+medium: encounter
+summary: The step at which a caseworker reviews an assessment prepared by an automated system, with its reasons, before any refusal
+  is given.
+exchanges:
+- prepared-assessment-for-a-persons-review
+journey: city-administration-deciding-entitlements-fairly

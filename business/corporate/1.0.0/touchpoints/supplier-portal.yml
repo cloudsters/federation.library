@@ -1,0 +1,16 @@
+kind: touchpoint
+slug: supplier-portal
+title: Supplier Portal
+medium: channel
+summary: The portal through which suppliers receive requests for quotation, orders, forecasts and quality notices, confirm deliveries,
+  submit invoices and see their performance rating.
+exchanges:
+- clear-requirements-for-conforming-supply
+- correct-invoice-for-timely-payment
+- early-warning-for-room-to-act
+- electronic-invoices-for-faster-payment
+- fair-payment-for-reliable-supply
+- reliable-call-offs-for-supply-commitment
+- supplier-candour-for-a-steady-relationship
+- visibility-for-committed-capacity
+journey: risk-professional-running-the-risk-cycle

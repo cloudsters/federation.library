@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payroll-help-desk
+title: Payroll Help Desk
+medium: channel
+summary: The contact through which employees ask questions about their pay and have errors corrected.
+exchanges:
+- questions-for-prompt-correction
+journey: employee-being-paid-right-and-on-time

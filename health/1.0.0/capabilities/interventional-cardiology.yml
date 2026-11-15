@@ -1,0 +1,10 @@
+kind: capability
+slug: interventional-cardiology
+title: Interventional Cardiology
+level: L3
+parent: cardiovascular-and-stroke-care
+summary: Perform catheter-based diagnostics and interventions on the heart and vessels.
+binds:
+- source: src-524
+  edition: ACS-2023 / AF-2024 / HF-2026
+  jurisdiction: global

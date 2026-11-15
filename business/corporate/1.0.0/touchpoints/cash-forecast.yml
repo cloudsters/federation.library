@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: cash-forecast
+title: Cash Forecast
+medium: artefact
+summary: The forecast of inflows and outflows over the short and medium term by account and currency, with the exposures it reveals.
+exchanges:
+- exposure-picture-for-hedging-limits
+- daily-matching-for-decided-exceptions
+journey: treasurer-keeping-cash-where-it-is-needed

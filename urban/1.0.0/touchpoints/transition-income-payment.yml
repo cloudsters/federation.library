@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transition-income-payment
+title: Transition Income Payment
+medium: channel
+summary: The regular wage replacement paid to affected workers until they are placed in new work.
+exchanges:
+- phased-out-work-for-an-income-floor
+- transition-funding-for-reported-placements
+journey: informal-worker-keeping-a-livelihood-through-change

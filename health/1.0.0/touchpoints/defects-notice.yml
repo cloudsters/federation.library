@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: defects-notice
+title: Defects Notice
+medium: artefact
+summary: The written notice to a contractor of defects found during the warranty period, with the evidence of each fault and the deadline
+  for its remedy.
+exchanges:
+- works-contract-for-a-safe-site
+journey: contractor-building-on-a-live-site

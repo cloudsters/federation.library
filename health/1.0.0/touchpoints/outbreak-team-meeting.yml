@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: outbreak-team-meeting
+title: Outbreak Team Meeting
+medium: encounter
+summary: The meeting of infection prevention, microbiology, clinical, nursing and management staff that steers the response to a suspected
+  or confirmed outbreak until its end.
+exchanges:
+- cluster-notification-for-public-health
+journey: protected-from-infection

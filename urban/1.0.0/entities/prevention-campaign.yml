@@ -1,0 +1,57 @@
+kind: entity
+slug: prevention-campaign
+title: Prevention Campaign
+type: transactional
+summary: A campaign of vaccination, screening or early checks brought to a neighbourhood or group, with its places, times, languages
+  and how many it reached. The city and health providers run it together and record its reach.
+attributes:
+- name: campaign-kind
+  type: code
+  card: 1..1
+- name: groups-served
+  type: text
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: places
+  type: text
+  card: 1..*
+- name: campaign-period
+  type: period
+  card: 1..1
+- name: times
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 1..*
+- name: open-whatever-status
+  type: boolean
+  card: 1..1
+- name: providers
+  type: text
+  card: 1..*
+- name: eligible-count
+  type: integer
+  card: 0..1
+- name: people-reached
+  type: integer
+  card: 0..1
+states:
+- planned
+- announced
+- running
+- completed
+- evaluated
+relations:
+- type: based-on
+  target: health-profile
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: service-point
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: hospital

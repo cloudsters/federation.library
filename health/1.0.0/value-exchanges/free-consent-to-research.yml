@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: free-consent-to-research
+title: Free Consent to Research
+between:
+- clinical-research-coordinator
+- research-participant
+offered:
+- Clear information on a study's purpose, burdens, risks and benefits, and the right to withdraw at any time without any effect on
+  care.
+returned:
+- A freely given consent to take part or to the reuse of data and samples, on which lawful research rests.
+touchpoint: consent-form

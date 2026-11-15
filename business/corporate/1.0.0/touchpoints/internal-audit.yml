@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: internal-audit
+title: Internal Audit
+medium: encounter
+summary: The audit by trained internal auditors of a unit, site or process against its requirements, with findings the unit answers
+  within an agreed period.
+exchanges:
+- quality-picture-for-leadership-commitment
+journey: quality-manager-keeping-the-system-alive

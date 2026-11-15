@@ -1,0 +1,53 @@
+kind: journey
+slug: initiative-sponsor-journey
+title: Initiative Sponsor Journey
+stakeholder: head-of-clinical-department
+summary: The head of a department who sponsors an initiative carries it from proposal and funding through delivery and review to benefits
+  owned by the unit.
+stages:
+- slug: propose
+  title: Propose
+  goal: Submit an initiative that names the objective it serves, its benefits and its cost.
+  step: strategic-initiative-portfolio/initiative-proposal
+  touchpoints:
+  - initiative-proposal
+- slug: make-the-case
+  title: Make the Case
+  goal: Work the proposal into a business case that withstands appraisal.
+  step: strategic-initiative-portfolio/initiative-appraisal
+  touchpoints:
+  - business-case
+- slug: win-the-funding
+  title: Win the Funding
+  goal: Obtain a place in the portfolio, a budget and a stage plan.
+  step: strategic-initiative-portfolio/prioritisation-and-funding
+  touchpoints:
+  - portfolio-review-meeting
+- slug: set-up-the-initiative
+  title: Set Up the Initiative
+  goal: Form the team, plan, governance and change plan and inform those affected.
+  step: strategic-initiative-portfolio/initiative-mobilisation
+  touchpoints:
+  - project-steering-committee
+  - staff-town-hall
+- slug: steer-delivery
+  title: Steer Delivery
+  goal: Keep the initiative on scope, time, cost and quality and take the decisions it needs.
+  step: strategic-initiative-portfolio/initiative-delivery
+  touchpoints:
+  - project-steering-committee
+  - performance-dashboard
+- slug: account-for-progress
+  title: Account for Progress
+  goal: Account for progress and benefits and accept continuation, re-scoping, pause or stop.
+  step: strategic-initiative-portfolio/portfolio-review-and-rebalancing
+  touchpoints:
+  - portfolio-review-meeting
+  - performance-dashboard
+- slug: own-the-benefits
+  title: Own the Benefits
+  goal: Take the delivered change into the unit's objectives and confirm its benefits.
+  step: strategic-initiative-portfolio/benefit-realisation-and-closure
+  touchpoints:
+  - unit-objectives-agreement
+  - performance-dialogue

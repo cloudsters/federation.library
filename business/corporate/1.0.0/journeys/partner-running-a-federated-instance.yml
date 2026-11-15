@@ -1,0 +1,37 @@
+kind: journey
+slug: partner-running-a-federated-instance
+title: Partner Running a Federated Instance
+stakeholder: partner
+summary: A partner adapts an open offering to its own context as a federated instance, stays connected to the shared origin, offers
+  its surplus into the network and is recognised as a steward.
+stages:
+- slug: know-the-terms-of-release
+  title: Know the Terms of Release
+  goal: The partner knows what is open, under which licence, and what stays the organisation's own.
+  step: commons-open-distribution/open-release-decision
+  touchpoints:
+  - open-licence
+- slug: fork-from-the-release
+  title: Fork from the Release
+  goal: The partner forks the release with a clear model for staying federated.
+  step: commons-open-distribution/open-publication
+  touchpoints:
+  - open-repository
+- slug: stay-connected-to-the-origin
+  title: Stay Connected to the Origin
+  goal: The partner's local instance receives updates and shares adaptations back.
+  step: commons-open-distribution/fork-and-federation-support
+  touchpoints:
+  - federation-meeting
+- slug: offer-and-answer-surplus
+  title: Offer and Answer Surplus
+  goal: The partner declares spare capacity and knowledge and answers the declarations of others.
+  step: commons-open-distribution/surplus-intent-broadcasting
+  touchpoints:
+  - surplus-offer
+- slug: be-recognised-as-steward
+  title: Be Recognised as Steward
+  goal: Work that others reuse brings the partner ongoing recognition.
+  step: commons-open-distribution/contribution-intake-and-steward-recognition
+  touchpoints:
+  - contribution-review

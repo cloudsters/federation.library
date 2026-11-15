@@ -1,0 +1,63 @@
+kind: entity
+slug: joint-purchasing-agreement
+title: Joint Purchasing Agreement
+type: governance
+summary: The agreement between municipalities, anchor institutions or municipal enterprises to buy together, stating who runs each
+  tender, how decisions are taken with rotating representation, how volumes, costs and savings are shared, how disputes are resolved
+  and how a party leaves. Each party's council or board approves it, the parties keep it together, and it is revised after each yearly
+  alliance review.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: scope
+  type: text
+  card: 1..1
+- name: categories
+  type: reference(procurement-category)
+  card: 0..*
+- name: tender-roles
+  type: text
+  card: 1..*
+- name: decision-rules
+  type: text
+  card: 1..1
+- name: representation-rotation
+  type: text
+  card: 0..1
+- name: cost-and-savings-rule
+  type: text
+  card: 1..1
+- name: dispute-resolution
+  type: text
+  card: 1..1
+- name: exit-terms
+  type: text
+  card: 1..1
+- name: approvals
+  type: reference(council-decision)
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+states:
+- negotiated
+- approved
+- in-force
+- reviewed
+- amended
+- ended
+relations:
+- type: refers-to
+  target: cross-boundary-agreement
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: shared-procurement-service
+- type: produces
+  target: framework-agreement

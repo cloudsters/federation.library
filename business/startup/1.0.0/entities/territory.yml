@@ -1,0 +1,38 @@
+kind: entity
+slug: territory
+title: Territory
+type: master
+summary: A geographic area of activity — a spatial classification that organises how the organisation reaches its market and distributes
+  its propositions across physical space.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: parent
+  type: reference(territory)
+  card: 0..1
+- name: owner
+  type: reference(employee-record)
+  card: 0..1
+- name: team
+  type: reference(department)
+  card: 0..1
+- name: targets
+  type: amount
+  card: 0..1
+states:
+- defined
+- assigned
+- managed
+- redistricted
+relations:
+- type: part-of
+  target: territory
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: market-segment
+- type: refers-to
+  target: partner-organisation
+- type: refers-to
+  target: branch

@@ -1,0 +1,59 @@
+kind: entity
+slug: community-media-outlet
+title: Community Media Outlet
+type: master
+summary: A newsletter, radio station, podcast, video channel or message service run by residents for a neighbourhood or group, with
+  the people who run it and the languages it uses. The outlet describes itself and the city records it beside the civil-society directory,
+  and the record is used to see which neighbourhoods have local reporting, to give space and support and to review whom outlets reach.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: outlet-kind
+  type: code
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: communities-served
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 1..*
+- name: run-by
+  type: text
+  card: 1..*
+- name: body
+  type: reference(civil-society-body)
+  card: 0..1
+- name: production-space
+  type: reference(shared-use-agreement)
+  card: 0..*
+- name: audience-count
+  type: integer
+  card: 0..1
+- name: publication-rhythm
+  type: code
+  card: 0..1
+- name: started-on
+  type: date
+  card: 0..1
+states:
+- forming
+- publishing
+- paused
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: civil-society-directory
+- type: depends-on
+  target: shared-use-agreement
+- type: refers-to
+  target: media-support-agreement
+binds:
+- source: src-271
+  edition: '2024-12-17'
+  jurisdiction: global

@@ -1,0 +1,142 @@
+kind: value-stream
+slug: relationship-journey-design
+title: Relationship Journey Design
+family: interest-to-relationship
+summary: 'Selling to customers and keeping them: qualifying inquiries, developing opportunities, configuring and proposing offers,
+  negotiating and closing, handing orders on, and stewarding accounts through loyalty, renewal and expansion.'
+trigger: A qualified inquiry or an existing customer's need becomes a sales opportunity, or a renewal approaches.
+outcome: The opportunity is won with an agreed order or renewal, or lost with its reason recorded, and the account relationship is
+  kept healthy.
+stakeholders:
+- prospective-customer
+- business-customer
+- key-account
+- sales-representative
+- key-account-manager
+- sales-assistant-agent
+steps:
+- slug: inquiry-qualification
+  title: Inquiry Qualification
+  summary: Incoming inquiries are scored for fit and readiness, qualified in conversation and routed to the right seller or back to
+    nurture.
+  capabilities:
+  - inquiry-scoring-qualification
+  entities:
+  - inquiry
+  - funnel-stage
+  - contact
+  serves:
+  - inquiry-dossier
+  - sales-meeting
+- slug: opportunity-development
+  title: Opportunity Development
+  summary: The seller works out the customer's need and buying process in visits, digital meetings or at the outlet, and keeps the
+    opportunity's stage and outlook visible in the pipeline.
+  capabilities:
+  - opportunity-cultivation
+  - sales-pipeline-management
+  - field-relationship-building
+  - digital-engagement-design
+  - physical-presence-as-community-hub
+  entities:
+  - opportunity
+  - customer-interaction
+  - forecast
+  serves:
+  - pipeline-review
+  - sales-meeting
+  - sample-and-trial
+- slug: offer-configuration-and-proposal
+  title: Offer Configuration and Proposal
+  summary: The fitting offer is configured and priced, including subscription options, and set out in a quote or proposal that states
+    honestly what will be delivered.
+  capabilities:
+  - configure-price-quote
+  - proposal-as-value-promise
+  - subscription-relationship-design
+  entities:
+  - quotation
+  - proposal-bid
+  - price-list
+  - product-variant
+  serves:
+  - price-list
+  - public-tender
+  - quotation
+  - request-for-quotation
+- slug: negotiation-and-closing
+  title: Negotiation and Closing
+  summary: Terms are negotiated within delegated limits, including rebates and subscription terms, approved and closed with a signed
+    agreement, or the loss reason is recorded.
+  capabilities:
+  - deal-negotiation-and-closing
+  - rebate-agreement-management
+  - subscription-as-relationship
+  entities:
+  - contract
+  - sales-order
+  - approval
+  - subscription
+  serves:
+  - contract-negotiation
+- slug: order-handover-and-welcome
+  title: Order Handover and Welcome
+  summary: The order passes to fulfilment with its full context, and the customer is kept informed and welcomed from confirmation
+    to first use.
+  capabilities:
+  - order-fulfilment-orchestration
+  - post-purchase-experience
+  entities:
+  - sales-order
+  - shipment
+  - communication
+  serves:
+  - order-confirmation
+  - welcome-programme
+- slug: account-health-and-loyalty
+  title: Account Health and Loyalty
+  summary: Accounts are stewarded with joint plans for key customers, health is read from use, service and payment signals, and loyalty
+    benefits are administered.
+  capabilities:
+  - account-relationship-stewardship
+  - key-account-management
+  - customer-health-scoring
+  - loyalty-programme-management
+  entities:
+  - customer
+  - plan
+  - relationship-review
+  - loyalty-program
+  serves:
+  - account-review
+  - customer-portal
+  - joint-account-plan
+- slug: renewal-and-expansion
+  title: Renewal and Expansion
+  summary: Renewals and changes are prepared ahead of term, and expansion is offered where the customer has realised value.
+  capabilities:
+  - renewal-expansion-management
+  - subscription-as-relationship
+  entities:
+  - subscription
+  - contract
+  - opportunity
+  serves:
+  - account-review
+  - contract-negotiation
+  - renewal-offer
+- slug: sales-performance-and-commission
+  title: Sales Performance and Commission
+  summary: Win and loss patterns, pipeline and partner contribution are reviewed, and sellers are paid commission on terms that reward
+    good customer fit.
+  capabilities:
+  - sales-commission-management
+  - sales-pipeline-management
+  - partner-ecosystem-vitality
+  entities:
+  - measure-report
+  - employee-record
+  - opportunity
+  serves:
+  - commission-statement
+  - pipeline-review

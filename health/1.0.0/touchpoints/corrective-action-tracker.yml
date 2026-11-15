@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: corrective-action-tracker
+title: Corrective Action Tracker
+medium: channel
+summary: The shared register in which every finding and corrective action is tracked with owner, deadline, status and evidence of
+  effect, visible to the units and to quality management.
+exchanges:
+- audit-access-for-independent-findings
+journey: department-in-the-quality-cycle

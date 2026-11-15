@@ -1,0 +1,34 @@
+kind: entity
+slug: chatbot
+title: Chatbot
+type: intelligence
+summary: The system’s first voice — an automated conversational agent that handles first-line interactions, answers common questions,
+  and routes complex needs to the right human. A chatbot is not a replacement for care but a way to extend care to the moments when
+  humans are not available.
+attributes:
+- name: script
+  type: document
+  card: 1..1
+- name: branches
+  type: text
+  card: 0..*
+- name: triggers
+  type: text
+  card: 0..*
+- name: knowledge-sources
+  type: reference(knowledge-article)
+  card: 0..*
+- name: escalation-rules
+  type: text
+  card: 1..1
+states:
+- designed
+- trained
+- deployed
+- learning
+- refined
+relations:
+- type: depends-on
+  target: knowledge-article
+- type: governed-by
+  target: agent-mandate

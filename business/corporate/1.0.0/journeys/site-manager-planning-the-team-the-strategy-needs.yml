@@ -1,0 +1,46 @@
+kind: journey
+slug: site-manager-planning-the-team-the-strategy-needs
+title: Site Manager Planning the Team the Strategy Needs
+stakeholder: site-manager
+summary: A site manager takes the people strategy into the planning round, shows the skills the site has and will need, chooses how
+  each gap is closed, has the plan approved and senses whether it is working.
+stages:
+- slug: receive-the-mandate
+  title: Receive the Mandate
+  goal: The site manager knows the people strategy, its horizon and the budget frame before planning begins.
+  step: workforce-as-ecosystem/people-strategy-mandate
+  touchpoints:
+  - workforce-planning-round
+- slug: show-todays-skills
+  title: Show Today's Skills
+  goal: The site's posts, skills, turnover and gaps, including contingent and digital contributors, are visible in one inventory.
+  step: workforce-as-ecosystem/capability-baseline
+  touchpoints:
+  - skills-inventory
+- slug: name-tomorrows-needs
+  title: Name Tomorrow's Needs
+  goal: The roles and skills the site will need, and what attrition and the labour market will leave it with, are projected.
+  step: workforce-as-ecosystem/demand-and-supply-forecast
+  touchpoints:
+  - workforce-plan
+  - workforce-dashboard
+- slug: choose-how-to-close-each-gap
+  title: Choose How to Close Each Gap
+  goal: For each gap the site manager has chosen to hire, develop, move, engage contingent workers or assign defined work to agents.
+  step: workforce-as-ecosystem/workforce-mix-design
+  touchpoints:
+  - workforce-planning-round
+  - workforce-plan
+- slug: obtain-approval
+  title: Obtain Approval
+  goal: The costed plan is approved with targets by role and the authority to recruit.
+  step: workforce-as-ecosystem/plan-approval
+  touchpoints:
+  - board-meeting
+  - workforce-plan
+- slug: sense-whether-it-works
+  title: Sense Whether It Works
+  goal: The site manager tracks posts, skills and engagement against the plan and raises where the intended conditions are not appearing.
+  step: workforce-as-ecosystem/strategy-sensing
+  touchpoints:
+  - workforce-dashboard

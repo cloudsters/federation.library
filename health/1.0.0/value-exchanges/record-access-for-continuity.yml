@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: record-access-for-continuity
+title: Record Access for Continuity
+between:
+- person-with-chronic-condition
+- specialist-physician
+offered:
+- Permission to read and write the shared health record the person controls, and the history it holds from other providers.
+returned:
+- Findings, letters and the medication plan written to that record, so that every later provider sees them.
+touchpoint: patient-portal

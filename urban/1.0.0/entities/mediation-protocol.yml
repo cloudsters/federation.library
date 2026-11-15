@@ -1,0 +1,64 @@
+kind: entity
+slug: mediation-protocol
+title: Mediation Protocol
+type: governance
+summary: The published steps by which a dispute moves from neighbours to community mediation, district mediation and formal routes,
+  with the time allowed at each step and the cooling-off periods. The city agrees it with neighbourhood bodies and the formal justice
+  system and publishes it, and every dispute case is routed by it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: steps
+  type: text
+  card: 1..*
+- name: time-allowed-per-step
+  type: text
+  card: 1..*
+- name: cooling-off-periods
+  type: text
+  card: 0..*
+- name: entry-points
+  type: text
+  card: 1..*
+- name: referral-criteria
+  type: text
+  card: 1..*
+- name: confidentiality-rules
+  type: text
+  card: 1..1
+- name: agreed-by
+  type: text
+  card: 1..*
+- name: published-languages
+  type: code
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- adopted
+- published
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: mediator-roster
+- type: refers-to
+  target: legal-matter
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: council-decision

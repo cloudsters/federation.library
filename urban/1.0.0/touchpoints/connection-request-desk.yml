@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: connection-request-desk
+title: Connection Request Desk
+medium: channel
+summary: The desk, online, by phone and at local offices, where residents and community places ask to be connected and follow their
+  connection.
+exchanges:
+- connection-request-for-a-working-line
+journey: community-network-operator-running-a-neighbourhood-network

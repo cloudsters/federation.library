@@ -1,0 +1,7 @@
+kind: capability
+slug: payer-agreement-settlement
+title: Payer Agreement Settlement
+level: L3
+parent: budgeting-and-allocation
+summary: Settle the difference between agreed and delivered volumes and revenue at the end of an agreement period, and book the resulting
+  balances with each payer.

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-service-review
+title: Published Service Review
+medium: artefact
+summary: The published review of a service, with who uses it, who does not and why, what it achieved, and the decision to keep, change
+  or close it with a route for those who still need it.
+exchanges:
+- use-and-absence-for-a-kept-changed-or-closed-service
+journey: city-administration-bringing-a-new-service-into-use

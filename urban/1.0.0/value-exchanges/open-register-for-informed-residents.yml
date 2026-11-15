@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-register-for-informed-residents
+title: Open Register for Informed Residents
+between:
+- data-protection-officer
+- resident
+offered:
+- A public register of each use of personal data.
+returned:
+- Residents' questions and objections that show where a use is unclear or unwelcome.
+touchpoint: public-processing-register

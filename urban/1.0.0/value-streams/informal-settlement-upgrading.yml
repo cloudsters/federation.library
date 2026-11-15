@@ -1,0 +1,118 @@
+kind: value-stream
+slug: informal-settlement-upgrading
+title: Informal Settlement Upgrading
+family: demand-to-fulfillment
+summary: Improving settlements built without formal title or permission in place and with their residents, rather than clearing them.
+  It holds the count and map of homes, paths and services made by the residents themselves, an upgrading plan agreed with the settlement's
+  own bodies, recognition of the right to stay, water, sanitation, power, drainage and paths brought in, homes and slopes made safe
+  against flood and collapse, and a review of the work with residents.
+trigger: A settlement asks for services or recognition, a hazard threatens it, or the city decides to upgrade a settlement in its
+  programme.
+outcome: The settlement's residents hold a recognised right to stay, have safe water, sanitation, power and paths, and live in homes
+  safer from flood and collapse, without having been displaced.
+stakeholders:
+- informal-settlement-resident
+- neighbourhood-association
+- informal-worker
+- infrastructure-operator
+- city-planner
+- landowner
+- affected-community
+steps:
+- slug: settlement-count-and-map
+  title: Settlement Count and Map
+  summary: The residents count their households, map homes, paths, water points and hazards with the city's support, and the city
+    accepts the record as the basis for the plan.
+  capabilities:
+  - settlement-enumeration
+  - hazard-and-vulnerability-mapping
+  entities:
+  - community-enumeration
+  - informal-settlement
+  - flood-risk-map
+  serves:
+  - community-enumeration
+  - settlement-map
+- slug: upgrading-plan-agreement
+  title: Upgrading Plan Agreement
+  summary: The settlement's own bodies and the city design the upgrading together, decide what is built first and where any home must
+    move, and sign a plan that keeps residents in place wherever it is safe.
+  capabilities:
+  - upgrading-plan-co-design
+  - displacement-risk-assessment
+  - participatory-plan-design
+  entities:
+  - upgrading-plan
+  - informal-settlement
+  serves:
+  - signed-upgrading-plan
+  - upgrading-plan-assembly
+- slug: right-to-stay-recognition
+  title: Right to Stay Recognition
+  summary: Each household's right to occupy its plot is recognised and recorded in a form that protects it against eviction, and can
+    later become full title or a share in land held in common.
+  capabilities:
+  - occupancy-right-recognition
+  - use-right-transfer-recording
+  entities:
+  - land-use-right
+  - land-parcel
+  serves:
+  - occupancy-certificate
+  - plot-recording-session
+- slug: basic-service-connection
+  title: Basic Service Connection
+  summary: Water points, toilets, power, drainage, lighting and paths are brought into the settlement, often built and kept by residents'
+    crews, and each household is connected as the networks reach it.
+  capabilities:
+  - basic-service-extension
+  - network-connection-provision
+  - public-amenity-provision
+  entities:
+  - informal-settlement
+  - service-connection
+  - water-network
+  serves:
+  - settlement-works-crew
+  - shared-water-point
+- slug: home-and-slope-strengthening
+  title: Home and Slope Strengthening
+  summary: Homes, walls and slopes most exposed to flood, landslide and fire are inspected and strengthened with residents, using
+    local skills and materials, and paths are made safe to walk at night.
+  capabilities:
+  - home-condition-inspection
+  - risk-treatment-planning
+  - basic-service-extension
+  entities:
+  - building
+  - informal-settlement
+  - flood-risk-map
+  serves:
+  - hazard-strengthening-walk
+  - settlement-works-crew
+- slug: upgrading-review
+  title: Upgrading Review
+  summary: The city and the settlement's bodies review what was built, who gained a recognised right to stay, who was moved and why,
+    and what the next stage of upgrading takes up.
+  capabilities:
+  - programme-progress-review
+  - community-benefit-monitoring
+  entities:
+  - upgrading-plan
+  - community-enumeration
+  serves:
+  - settlement-map
+  - upgrading-plan-assembly
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

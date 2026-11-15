@@ -1,0 +1,12 @@
+kind: solution
+slug: data-platform
+title: Data Platform
+role: platform
+summary: Brings operational data together in one governed store for analysis and reuse, and publishes curated data products to those
+  who need them.
+carries:
+- data-as-commons-stewardship
+- data-as-distribution-signal
+- analytical-data-platform
+holds:
+- data-product

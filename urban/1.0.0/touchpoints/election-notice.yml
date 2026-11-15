@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: election-notice
+title: Election Notice
+medium: artefact
+summary: The notice sent to each voter and published in several languages and accessible forms, stating where, when and how to vote.
+exchanges:
+- barrier-knowledge-for-accessible-voting
+journey: election-office-running-the-municipal-election

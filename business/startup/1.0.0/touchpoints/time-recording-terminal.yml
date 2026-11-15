@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: time-recording-terminal
+title: Time Recording Terminal
+medium: channel
+summary: The terminal or app through which staff record the start and end of work, breaks and absences.
+exchanges:
+- recorded-time-for-fair-settlement
+journey: production-operator-working-to-a-fair-roster

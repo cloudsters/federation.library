@@ -1,0 +1,131 @@
+kind: value-stream
+slug: public-transport-and-shared-mobility
+title: Public Transport and Shared Mobility
+family: demand-to-fulfillment
+summary: Moving residents around the city at every hour by bus, tram, rail and shared vehicles, so that getting around does not depend
+  on owning a car, on age, ability or income. It holds the mapping of how people actually travel, including at night and for care,
+  routes and timetables set with riders and transport workers, guaranteed service on night corridors, the daily running of vehicles
+  and crews, stops and stations that are accessible and safe, shared bikes, cars and on-demand rides held as a shared service, and
+  a review of who the service reaches.
+trigger: The yearly network review is due, travel patterns change, riders or workers report a gap, or a new district or workplace
+  opens.
+outcome: Every neighbourhood is served at the hours its residents travel, stops and vehicles are accessible and safe, and shared vehicles
+  serve the trips transit does not.
+stakeholders:
+- public-transport-passenger
+- night-shift-worker
+- disabled-resident
+- older-resident
+- young-people
+- caregiver
+- infrastructure-operator
+- frontline-worker
+- trade-union
+- platform-operator
+steps:
+- slug: travel-need-mapping
+  title: Travel Need Mapping
+  summary: Travel counts, rider surveys and walks with disabled residents, carers and night-shift workers show who travels where and
+    when, including trips for care and work outside the usual day, and where the network leaves people stranded.
+  capabilities:
+  - movement-pattern-analysis
+  - resident-access-audit
+  entities:
+  - mobility-data
+  - mobility-plan
+  serves:
+  - travel-diary-and-access-walk
+- slug: network-and-timetable-planning
+  title: Network and Timetable Planning
+  summary: Routes, frequencies and connections are set with riders and drivers, night corridors to hospitals, warehouses and hospitality
+    districts get service as frequent as at peak during shift change, and the reasoning behind each change is published.
+  capabilities:
+  - route-and-timetable-planning
+  - service-council-convening
+  - movement-pattern-analysis
+  entities:
+  - transit-line
+  - timetable
+  - mobility-plan
+  serves:
+  - network-plan-consultation
+  - published-timetable
+- slug: fare-setting
+  title: Fare Setting
+  summary: Fares are set so that travel is affordable at every income, with reduced and free fares for those on low incomes, children
+    and elders, one ticket across modes, and fares for night shifts set to shift-worker pay.
+  capabilities:
+  - service-tariff-design
+  - reduced-charge-enrolment
+  entities:
+  - service-tariff
+  - entitlement-decision
+  serves:
+  - fare-and-concession-card
+- slug: daily-service-operation
+  title: Daily Service Operation
+  summary: Vehicles are maintained and assigned, crews scheduled to shifts they can sustain, services run and steered from the control
+    room, and riders told at once of delays and diversions.
+  capabilities:
+  - transport-service-operation
+  - supply-interruption-response
+  entities:
+  - transit-line
+  - timetable
+  serves:
+  - published-timetable
+  - real-time-travel-information
+- slug: accessible-and-safe-stops
+  title: Accessible and Safe Stops
+  summary: Stops, stations and vehicles are kept step-free, lit, staffed or watched at night, with places to wait out of the weather,
+    help points and signs and announcements that work for every sense.
+  capabilities:
+  - stop-and-station-upkeep
+  - multisensory-wayfinding-design
+  - resident-access-audit
+  entities:
+  - transit-stop
+  - access-audit
+  serves:
+  - staffed-night-stop
+- slug: shared-and-on-demand-mobility
+  title: Shared and On-Demand Mobility
+  summary: Shared bikes, cargo bikes, cars and on-demand rides are offered as a shared service where transit does not reach or does
+    not run, operated by the city, a cooperative or a licensed operator on terms that protect riders and workers.
+  capabilities:
+  - shared-mobility-scheme-operation
+  - platform-licence-condition-setting
+  - fair-work-clause-drafting
+  entities:
+  - shared-mobility-scheme
+  - platform-licence
+  serves:
+  - on-demand-ride-booking
+  - shared-mobility-hub
+- slug: ridership-and-access-review
+  title: Ridership and Access Review
+  summary: Each year the city reviews with riders and workers who uses the service at which hours, who is still left out, how reliable
+    and safe it was, and changes the network plan accordingly.
+  capabilities:
+  - movement-pattern-analysis
+  - service-quality-review
+  - resident-service-feedback-gathering
+  entities:
+  - mobility-data
+  - citizen-satisfaction
+  serves:
+  - annual-ridership-report
+  - network-plan-consultation
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global
+- source: src-294
+  edition: '2012'
+  jurisdiction: global

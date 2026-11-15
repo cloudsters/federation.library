@@ -1,0 +1,116 @@
+kind: value-stream
+slug: joint-purchasing-and-purchasing-alliances
+title: Joint Purchasing and Purchasing Alliances
+family: source-to-alliance
+summary: Buying together with others where that gives better prices, terms or local supply, without giving up local control. It holds
+  the search with neighbouring municipalities, anchor institutions and municipal enterprises for the purchases they share, agreements
+  that state who runs each tender, how decisions, costs and savings are shared and how a party leaves, a shared procurement service
+  where several municipalities run one, joint tenders with call-offs by each member, support to residents, small businesses and cooperatives
+  to form purchasing groups of their own, and the review of what the alliance saved and whom it served.
+trigger: Neighbouring municipalities or anchor institutions face the same need, a category strategy points to buying with others,
+  or residents or businesses ask to buy through the city's agreements.
+outcome: Shared needs are bought once on terms each party agreed, savings and costs are shared by a published rule, and each party
+  keeps its own decisions.
+stakeholders:
+- neighbouring-municipality
+- anchor-institution
+- procurement-officer
+- purchasing-group
+- social-enterprise
+- local-business
+- city-council
+steps:
+- slug: shared-demand-identification
+  title: Shared Demand Identification
+  summary: The procurement office compares its spend profile and forward plan with those of neighbouring municipalities, anchor institutions
+    and municipal enterprises, and names the purchases where buying together would improve price, terms or local supply.
+  capabilities:
+  - shared-demand-identification
+  - spend-and-demand-analysis
+  entities:
+  - spend-profile
+  - procurement-plan
+  serves:
+  - purchasing-partners-meeting
+- slug: joint-purchasing-agreement
+  title: Joint Purchasing Agreement
+  summary: The parties agree in writing who runs each joint tender, how decisions are taken with rotating representation, how volumes,
+    costs and savings are divided, how disputes are resolved and how a party leaves, and each council approves the agreement.
+  capabilities:
+  - joint-purchasing-agreement-drafting
+  - legal-advice
+  entities:
+  - joint-purchasing-agreement
+  - cross-boundary-agreement
+  - council-decision
+  serves:
+  - joint-purchasing-agreement-negotiation
+- slug: shared-procurement-service
+  title: Shared Procurement Service
+  summary: Where several municipalities share one procurement service, it is set up with delegates of each member on its board and
+    funded by contributions set so that smaller members can join, and it keeps shared templates, supplier data and expertise.
+  capabilities:
+  - shared-procurement-service-operation
+  - joint-purchasing-agreement-drafting
+  entities:
+  - shared-procurement-service
+  - joint-purchasing-agreement
+  serves:
+  - shared-procurement-board-meeting
+- slug: joint-tender-and-framework-award
+  title: Joint Tender and Framework Award
+  summary: One party runs the tender for all, with lots that keep local and small suppliers in reach, the bids are evaluated against
+    criteria the parties agreed, and a framework agreement is awarded that each member can use.
+  capabilities:
+  - joint-tender-coordination
+  - lot-division
+  - weighted-bid-evaluation
+  entities:
+  - public-procurement
+  - framework-agreement
+  serves:
+  - bid-evaluation-meeting
+  - tender-portal
+- slug: member-call-off
+  title: Member Call-Off
+  summary: Each member orders under the shared framework agreement as it needs, within the agreed volume bands, and the shared service
+    tracks the volumes against what the parties committed.
+  capabilities:
+  - order-and-call-off-placement
+  - joint-tender-coordination
+  entities:
+  - framework-agreement
+  - purchase-order
+  serves:
+  - call-off-order
+- slug: purchasing-group-support
+  title: Purchasing Group Support
+  summary: The city supports residents, small businesses and cooperatives to form purchasing groups that pool their orders and decide
+    together, offers them shared storage and advice, and opens city framework agreements to them where the statutory framework allows.
+  capabilities:
+  - purchasing-group-support
+  - shared-business-facility-provision
+  - cooperative-federation-support
+  entities:
+  - cooperative
+  - framework-agreement
+  serves:
+  - purchasing-group-advice-desk
+  - shared-storage-space
+- slug: savings-sharing-and-alliance-review
+  title: Savings Sharing and Alliance Review
+  summary: Each year the parties account for what joint purchasing saved, share savings and costs by the agreed rule, review whether
+    smaller members and local suppliers gained or lost, and revise the agreement.
+  capabilities:
+  - shared-savings-allocation
+  - local-spend-reporting
+  entities:
+  - alliance-review-report
+  - joint-purchasing-agreement
+  serves:
+  - published-alliance-review
+  - shared-procurement-board-meeting
+binds:
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global

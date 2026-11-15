@@ -1,0 +1,49 @@
+kind: entity
+slug: organ-offer
+title: Organ Offer
+type: transactional
+summary: An offer of a donated organ to the organisation's transplant programme for a patient on its waiting list, with donor and
+  organ data, decided to accept or decline within the allocation time limit and closed by transplantation or reallocation.
+attributes:
+- name: donor-reference
+  type: identifier
+  card: 1..1
+- name: organ
+  type: code
+  card: 1..1
+- name: intended-recipient
+  type: reference(waiting-list-entry)
+  card: 1..1
+- name: offered-at
+  type: datetime
+  card: 1..1
+- name: decision
+  type: code
+  card: 1..1
+- name: decline-reason
+  type: code
+  card: 0..1
+- name: decided-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: transplant
+  type: reference(surgical-case)
+  card: 0..1
+states:
+- received
+- under-review
+- accepted
+- declined
+- transplanted
+- reallocated
+relations:
+- type: refers-to
+  target: waiting-list-entry
+- type: based-on
+  target: organ-donation
+- type: produces
+  target: surgical-case
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

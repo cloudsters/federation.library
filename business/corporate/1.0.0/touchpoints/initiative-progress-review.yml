@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: initiative-progress-review
+title: Initiative Progress Review
+medium: encounter
+summary: The review at a set cadence in which an initiative's progress, results and the experience of those affected are examined
+  and weak signals are named.
+exchanges:
+- experience-of-change-for-course-correction
+journey: unit-leader-sponsoring-a-strategic-initiative

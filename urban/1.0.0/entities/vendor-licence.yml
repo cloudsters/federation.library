@@ -1,0 +1,65 @@
+kind: entity
+slug: vendor-licence
+title: Vendor Licence
+type: transactional
+summary: The licence that gives a vendor standing and a pitch in a market or street, with its terms, fees and the protection it gives
+  against removal. The markets service issues and records it, informal vendors included, and it is used to allocate pitches, to collect
+  fees and to give vendors due process before any removal.
+attributes:
+- name: licence-number
+  type: identifier
+  card: 1..1
+- name: vendor
+  type: text
+  card: 1..1
+- name: pitch
+  type: reference(trading-pitch)
+  card: 0..1
+- name: market
+  type: reference(market)
+  card: 0..1
+- name: goods
+  type: code
+  card: 1..*
+- name: trading-days
+  type: text
+  card: 1..*
+- name: fee
+  type: amount
+  card: 1..1
+- name: fee-reduction
+  type: text
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: previously-informal
+  type: boolean
+  card: 0..1
+- name: removal-procedure
+  type: text
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+states:
+- applied
+- issued
+- active
+- suspended
+- renewed
+- revoked
+- lapsed
+relations:
+- type: assigned-to
+  target: trading-pitch
+- type: governed-by
+  target: market-rules
+- type: refers-to
+  target: market
+- type: refers-to
+  target: business-register
+binds:
+- source: src-277
+  edition: '2015-06-12'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: trial-decision-hearing
+title: Trial Decision Hearing
+medium: encounter
+summary: The public hearing in which the council or the responsible department decides on the evidence to adopt, change or stop a
+  trial, and records why.
+exchanges:
+- trial-evidence-for-a-reasoned-decision
+journey: neighbourhood-association-hosting-an-urban-trial

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: retirement-and-knowledge-risk-map
+title: Retirement and Knowledge Risk Map
+medium: artefact
+summary: The forecast of who will retire, leave or change role, with the roles and knowledge that rest on a single person and the
+  successors recorded for them.
+exchanges:
+- departure-intentions-for-a-successor-in-time
+- knowledge-held-alone-for-a-named-successor
+journey: municipal-employee-handing-on-a-key-role

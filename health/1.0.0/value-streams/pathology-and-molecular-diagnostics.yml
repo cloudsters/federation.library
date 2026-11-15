@@ -1,0 +1,138 @@
+kind: value-stream
+slug: pathology-and-molecular-diagnostics
+title: Pathology and Molecular Diagnostics
+family: demand-to-fulfillment
+summary: 'Producing tissue, cell and molecular diagnoses: specimen receipt, grossing, histology and cytology, frozen sections, immunohistochemistry,
+  molecular and genomic testing, reporting and autopsy.'
+trigger: A tissue or cell specimen is submitted, or an autopsy is requested.
+outcome: A signed diagnostic report, including molecular findings where required, is available to the treating team.
+stakeholders:
+- person-with-cancer
+- person-with-rare-disease
+- relative
+- surgeon
+- specialist-physician
+- diagnostic-physician
+- diagnostic-technologist
+- research-scientist
+steps:
+- slug: specimen-receipt-and-accession
+  title: Specimen Receipt and Accession
+  summary: Tissue and cell specimens arrive with their request and are checked for identity, fixation and clinical information, then
+    accessioned so that every block and slide stays linked to its patient.
+  capabilities:
+  - specimen-handling-and-grossing
+  - specimen-collection-and-pre-analytics
+  - patient-identification
+  - laboratory-order-management
+  entities:
+  - specimen
+  - clinical-order
+  serves:
+  - clinical-workstation
+  - operating-theatre
+  - outpatient-clinic
+  - specimen-transport
+- slug: grossing-and-processing
+  title: Grossing and Processing
+  summary: Specimens are described and dissected, tissue is processed, cut and stained under quality control, and slides are digitised
+    for reading.
+  capabilities:
+  - specimen-handling-and-grossing
+  - digital-pathology
+  - laboratory-quality-assurance
+  entities:
+  - specimen
+  - image-study
+- slug: intraoperative-frozen-section
+  title: Intraoperative Frozen Section
+  summary: During an operation, tissue is examined within minutes and the diagnosis is communicated directly to the operating team
+    to guide the extent of the procedure.
+  capabilities:
+  - intraoperative-frozen-section
+  - histology-and-cytology-reporting
+  - laboratory-result-communication
+  entities:
+  - specimen
+  - diagnostic-report
+  - care-communication
+  serves:
+  - urgent-result-call
+- slug: microscopic-diagnosis
+  title: Microscopic Diagnosis
+  summary: Histology and cytology are examined, immunohistochemistry and special stains are added, and a structured diagnosis with
+    type, grade, stage and margins is reached, with a second reading for difficult cases.
+  capabilities:
+  - histology-and-cytology-reporting
+  - immunohistochemistry
+  - digital-pathology
+  - ai-assistant-integration
+  entities:
+  - diagnostic-report
+  - observation
+  - image-study
+  - diagnosis
+  serves:
+  - patient-portal
+- slug: molecular-and-genomic-testing
+  title: Molecular and Genomic Testing
+  summary: Molecular and genomic tests are run on tumour and germline material where diagnosis or therapy require them, predictive
+    biomarkers decide eligibility for targeted therapy, and germline testing is preceded by consent and counselling.
+  capabilities:
+  - molecular-pathology
+  - companion-diagnostics
+  - genetic-diagnostics
+  - molecular-tumour-board
+  - informed-consent
+  entities:
+  - specimen
+  - observation
+  - diagnostic-report
+  - informed-consent
+  serves:
+  - consent-form
+  - genetic-counselling
+- slug: reporting-and-communication
+  title: Reporting and Communication
+  summary: The signed report, including molecular findings, reaches the treating team and the case conference, and residual tissue
+    is kept for later testing or for research under consent.
+  capabilities:
+  - histology-and-cytology-reporting
+  - laboratory-result-communication
+  - multidisciplinary-tumour-board
+  - biobank-operations
+  - research-consent-management
+  entities:
+  - diagnostic-report
+  - care-communication
+  - case-conference
+  - biobank-sample
+  - data-use-consent
+  serves:
+  - consultation
+  - diagnostic-report
+  - multidisciplinary-case-conference
+- slug: autopsy
+  title: Autopsy
+  summary: When requested and consented, a clinical autopsy establishes the cause of death and the course of disease, and its findings
+    are returned to the treating clinicians and to case reviews.
+  capabilities:
+  - autopsy-services
+  - informed-consent
+  - mortuary-services
+  - morbidity-and-mortality-review
+  entities:
+  - diagnostic-report
+  - informed-consent
+  - health-certificate
+  - case-review
+  serves:
+  - consent-form
+  - death-certificate
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global

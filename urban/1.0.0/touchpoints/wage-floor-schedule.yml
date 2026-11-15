@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: wage-floor-schedule
+title: Wage Floor Schedule
+medium: artefact
+summary: The published wage floors of each sector, indexed to living costs, that bind every contractor through procurement.
+exchanges:
+- floor-priced-bids-for-contracts
+- worker-claims-for-a-floor-every-employer-pays
+journey: care-worker-earning-a-sector-wage-floor

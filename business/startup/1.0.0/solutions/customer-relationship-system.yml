@@ -1,0 +1,52 @@
+kind: solution
+slug: customer-relationship-system
+title: Customer Relationship System
+role: system-of-record
+summary: Holds customers, contacts, inquiries, opportunities, interactions, campaigns and loyalty programmes, so that everyone who
+  meets a customer sees the whole relationship and its history.
+carries:
+- account-relationship-stewardship
+- alumni-network-cultivation
+- customer-health-scoring
+- customer-onboarding-orchestration
+- demand-sensing-forecasting
+- field-relationship-building
+- government-partnership-cultivation
+- industry-ecosystem-participation
+- industry-group-relations
+- inquiry-scoring-qualification
+- loyalty-as-mutual-commitment
+- loyalty-programme-management
+- opportunity-cultivation
+- opportunity-curation
+- referral-as-reciprocity
+- relationship-health-sensing
+- relationship-quality-sensing
+- renewal-expansion-management
+- sales-commission-management
+- sales-pipeline-management
+- stakeholder-insight-integration
+- steward-lobby-activities
+- territory-management
+- consent-and-preference-management
+- customer-segmentation
+- key-account-management
+- deal-negotiation-and-closing
+- customer-success-management
+holds:
+- customer
+- contact
+- inquiry
+- opportunity
+- customer-interaction
+- relationship-review
+- campaign
+- promotion
+- mailing-list
+- segment
+- funnel-stage
+- market-segment
+- territory
+- loyalty-program
+- event
+- lighthouse

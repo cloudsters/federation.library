@@ -1,0 +1,17 @@
+kind: capability
+slug: people-strategy-design
+title: People Strategy Design
+level: L3
+parent: workforce-strategy
+summary: Design the people strategy so that the workforce matches the organisation's mandate and strategy, and review it as needs
+  change.
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-381
+  edition: '2016'
+  jurisdiction: global
+- source: src-502
+  edition: '2016'
+  jurisdiction: global

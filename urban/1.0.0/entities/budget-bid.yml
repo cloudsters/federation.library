@@ -1,0 +1,62 @@
+kind: entity
+slug: budget-bid
+title: Budget Bid
+type: transactional
+summary: The request of a department or neighbourhood body for budget for the coming year, with the objectives it serves, its costs,
+  the upkeep of existing assets it funds before new projects, and the care work and shared assets it relies on. The bidding unit prepares
+  it within its spending limit and the finance department checks it, and the bids together form the draft budget.
+attributes:
+- name: bid-number
+  type: identifier
+  card: 1..1
+- name: bidding-department
+  type: reference(department)
+  card: 0..1
+- name: bidding-neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: budget-year
+  type: period
+  card: 1..1
+- name: objectives-served
+  type: reference(city-objective)
+  card: 1..*
+- name: programmes
+  type: reference(city-programme)
+  card: 0..*
+- name: requested-amount
+  type: amount
+  card: 1..1
+- name: upkeep-amount
+  type: amount
+  card: 0..1
+- name: new-project-amount
+  type: amount
+  card: 0..1
+- name: whole-life-cost
+  type: amount
+  card: 0..1
+- name: care-work-and-shared-assets
+  type: text
+  card: 0..*
+- name: spending-limit
+  type: amount
+  card: 0..1
+states:
+- drafted
+- submitted
+- reviewed
+- revised
+- accepted
+- rejected
+relations:
+- type: part-of
+  target: municipal-budget
+- type: governed-by
+  target: medium-term-financial-plan
+- type: refers-to
+  target: city-objective
+- type: refers-to
+  target: department
+- type: refers-to
+  target: participatory-budget-cycle

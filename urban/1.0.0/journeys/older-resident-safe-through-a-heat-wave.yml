@@ -1,0 +1,35 @@
+kind: journey
+slug: older-resident-safe-through-a-heat-wave
+title: Older Resident Safe through a Heat Wave
+stakeholder: older-resident
+summary: An older resident reads the heat readings for the street, reports damp or noise and sees it inspected, is warned of a heat
+  wave, checked on and welcomed at a cooling place, and sees the burden of the neighbourhood weighed in the yearly review.
+stages:
+- slug: read-the-heat-of-the-street
+  title: Read the Heat of the Street
+  goal: The resident can read the heat, air and noise readings for the street as they come in.
+  step: environmental-health-protection/air-noise-and-heat-monitoring
+  touchpoints:
+  - live-environment-readings
+- slug: report-damp-or-noise
+  title: Report Damp or Noise
+  goal: The damp or noise the resident reported is inspected at its source, and the resident is told what follows.
+  step: environmental-health-protection/hazard-report-and-inspection
+  touchpoints:
+  - environmental-hazard-hotline
+  - source-inspection-visit
+- slug: be-kept-safe-in-the-heat
+  title: Be Kept Safe in the Heat
+  goal: The resident is warned of the heat wave, checked on by a community health worker or neighbour and can reach a cooling place
+    nearby.
+  step: environmental-health-protection/heat-protection
+  touchpoints:
+  - heat-wave-warning
+  - neighbour-heat-check
+  - heat-wave-cooling-room
+- slug: weigh-the-burden
+  title: Weigh the Burden
+  goal: The heat the resident's neighbourhood carried is weighed in the yearly review and in where next year's actions go.
+  step: environmental-health-protection/exposure-burden-review
+  touchpoints:
+  - exposure-burden-report

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: aim-for-a-learning-plan
+title: Aim for a Learning Plan
+between:
+- job-seeker
+- training-provider
+offered:
+- Their aim and what they already know.
+returned:
+- A learning plan they hold themselves and a place on a course that serves it.
+touchpoint: learning-guidance-conversation

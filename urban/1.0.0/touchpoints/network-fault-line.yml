@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: network-fault-line
+title: Network Fault Line
+medium: channel
+summary: The line, online and by phone, through which residents report faults and outages on the public and community networks.
+exchanges:
+- fault-reports-for-repair-in-time
+journey: resident-getting-affordable-connectivity

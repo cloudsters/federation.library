@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: arbitration-hearing
+title: Arbitration Hearing
+medium: encounter
+summary: The hearing before an independent arbitration body that decides the disputed points of a payer agreement when the commons
+  and its payers cannot agree.
+exchanges:
+- service-commitment-for-budget
+journey: agreeing-the-care-budget

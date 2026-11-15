@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-knowledge-base
+title: Service Knowledge Base
+medium: channel
+summary: The shared collection of known faults, solutions and lessons from completed jobs, used by service staff, customer service
+  and service agents at intake and in the field.
+exchanges:
+- field-knowledge-for-better-guidance
+journey: technician-completing-a-job

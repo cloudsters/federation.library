@@ -1,0 +1,17 @@
+kind: solution
+slug: development-management-system
+title: Development Management System
+role: system-of-record
+summary: Holds each district development from proposal through concept, agreement and staged delivery to review, with its district
+  plan, construction phases and community benefits.
+carries:
+- district-proposal-appraisal
+- district-concept-design
+- community-benefit-agreement-drafting
+- phased-plot-release
+- district-delivery-coordination
+- community-benefit-monitoring
+holds:
+- development-project
+- district-plan
+- construction-phase

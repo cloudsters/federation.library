@@ -1,0 +1,48 @@
+kind: journey
+slug: administration-receiving-arrivals
+title: Administration Receiving Arrivals
+stakeholder: city-administration
+summary: The administration drafts the integration plan with newcomers and neighbourhood bodies, has it adopted, opens welcome points,
+  keeps services open whatever a person's status, prepares mentor households and updates the plan from what newcomers report.
+stages:
+- slug: draft-the-plan-with-newcomers
+  title: Draft the Plan With Newcomers
+  goal: The administration has drafted the integration plan with newcomers, established migrant communities and neighbourhood bodies,
+    setting how arrivals are received and settled across the neighbourhoods.
+  step: newcomer-welcome-and-integration/integration-planning
+  touchpoints:
+  - integration-plan-forum
+- slug: have-the-plan-adopted
+  title: Have the Plan Adopted
+  goal: The council has adopted the integration plan and it is published in the languages newcomers speak.
+  step: newcomer-welcome-and-integration/integration-planning
+  touchpoints:
+  - published-integration-plan
+- slug: open-welcome-points
+  title: Open Welcome Points
+  goal: Each neighbourhood that receives arrivals has a welcome point in a trusted building where newcomers are received in their
+    own language.
+  step: newcomer-welcome-and-integration/arrival-welcome
+  touchpoints:
+  - welcome-point-desk
+- slug: keep-services-open-to-all
+  title: Keep Services Open to All
+  goal: Care, legal help, schooling and other basic services are open to every resident whatever their status, and the data given
+    is kept apart from enforcement.
+  step: newcomer-welcome-and-integration/access-regardless-of-status
+  touchpoints:
+  - open-access-service-point
+- slug: prepare-mentor-households
+  title: Prepare Mentor Households
+  goal: Established residents and earlier arrivals who offer to mentor are prepared, checked and paired with newcomer households.
+  step: newcomer-welcome-and-integration/neighbour-pairing
+  touchpoints:
+  - mentor-preparation-session
+- slug: review-and-update-the-plan
+  title: Review and Update the Plan
+  goal: The administration has reviewed with newcomers what they found and where they met barriers, and has updated the integration
+    plan.
+  step: newcomer-welcome-and-integration/integration-review
+  touchpoints:
+  - integration-review-survey
+  - integration-plan-forum

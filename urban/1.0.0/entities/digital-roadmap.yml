@@ -1,0 +1,67 @@
+kind: entity
+slug: digital-roadmap
+title: Digital Roadmap
+type: governance
+summary: The plan of which systems are built, replaced and retired, and when, with their whole-life cost and the programmes that carry
+  them. The administration plans it from the strategy and the architecture and updates it each year, and its items are carried into
+  the programme portfolio and the capital investment plan.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: planning-horizon
+  type: period
+  card: 1..1
+- name: systems-to-build
+  type: text
+  card: 0..*
+- name: systems-to-replace
+  type: reference(application)
+  card: 0..*
+- name: systems-to-retire
+  type: reference(application)
+  card: 0..*
+- name: schedule
+  type: document
+  card: 1..1
+- name: whole-life-cost
+  type: amount
+  card: 0..1
+- name: programmes
+  type: reference(city-programme)
+  card: 0..*
+- name: programme-cases
+  type: reference(programme-case)
+  card: 0..*
+- name: capital-plan
+  type: reference(capital-investment-plan)
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- appraised
+- approved
+- in-delivery
+- under-review
+- revised
+- superseded
+relations:
+- type: based-on
+  target: digital-strategy
+- type: based-on
+  target: systems-architecture
+- type: refers-to
+  target: programme-portfolio
+- type: refers-to
+  target: capital-investment-plan
+- type: produces
+  target: city-programme
+binds:
+- source: src-174
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fault-reports-for-repair-in-time
+title: Fault Reports for Repair in Time
+between:
+- resident
+- infrastructure-operator
+offered:
+- A report of a fault or an outage on the network.
+returned:
+- Repair within the agreed time, and notice of when service returns.
+touchpoint: network-fault-line

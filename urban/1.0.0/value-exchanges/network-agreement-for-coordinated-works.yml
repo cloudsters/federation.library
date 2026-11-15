@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-agreement-for-coordinated-works
+title: Network Agreement for Coordinated Works
+between:
+- infrastructure-operator
+- public-works-engineer
+offered:
+- The operator's plans and conditions for the networks the work touches.
+returned:
+- Works timed with the operator's own, so that a street is opened once rather than many times.
+touchpoint: consent-coordination-meeting

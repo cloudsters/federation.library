@@ -1,0 +1,159 @@
+kind: value-stream
+slug: revenue-cycle
+title: Revenue Cycle
+family: value-to-sustainability
+summary: 'Turning delivered care into received payment: verifying coverage, billing payers and self-paying patients, managing receivables,
+  answering payer case reviews, appealing denials and collecting outstanding amounts.'
+trigger: A patient is registered for care, creating a claim that must be secured and billed.
+outcome: The case is paid in full, or the remaining difference is resolved through review, appeal or write-off.
+stakeholders:
+- elective-inpatient
+- self-paying-patient
+- payer
+- administrative-staff
+- specialist-physician
+steps:
+- slug: coverage-verification-and-approval
+  title: Coverage Verification and Approval
+  summary: At registration or before planned care, the patient's coverage, payer and co-payment are verified, prior approval is requested
+    where the payer requires it, and patients who pay themselves receive a cost estimate.
+  capabilities:
+  - insurance-verification-and-coverage
+  - prior-coverage-approval
+  - patient-registration-and-admission
+  - optional-and-self-pay-services
+  entities:
+  - patient
+  - insurance-coverage
+  - coverage-approval
+  - encounter
+  - price-list
+  serves:
+  - admission-desk
+  - cost-estimate
+  - patient-portal
+  - payer-data-exchange
+- slug: charge-capture
+  title: Charge Capture
+  summary: Every billable service, medicine, implant and day of stay is captured against the encounter completely and on time, and
+    priced from the agreed rates or the commons' price list.
+  capabilities:
+  - charge-capture
+  - implant-and-material-documentation
+  - master-data-stewardship
+  - tariff-and-price-management
+  entities:
+  - charge-item
+  - encounter
+  - procedure
+  - implant
+  - price-list
+- slug: claim-preparation-and-billing
+  title: Claim Preparation and Billing
+  summary: The coded case and its charges are assembled into a claim to the payer or an invoice to the patient or another party, checked
+    against payer rules and the payer agreement, and transmitted electronically.
+  capabilities:
+  - payer-invoicing
+  - outpatient-and-day-case-billing
+  - supplementary-payment-management
+  - optional-and-self-pay-services
+  - electronic-invoicing-compliance
+  entities:
+  - claim
+  - invoice
+  - charge-item
+  - case-group
+  - payer-agreement
+  - payer-organisation
+  serves:
+  - claim
+  - patient-invoice
+  - patient-portal
+  - payer-data-exchange
+- slug: payment-posting-and-receivables
+  title: Payment Posting and Receivables
+  summary: Incoming payments and remittance advice are matched to claims and invoices, differences are flagged for follow-up, and
+    open receivables are reviewed by age and payer.
+  capabilities:
+  - accounts-receivable
+  - banking-and-reconciliation
+  - general-accounting
+  entities:
+  - payment
+  - claim
+  - invoice
+  - ledger-entry
+  serves:
+  - electronic-banking
+  - patient-billing-service
+  - patient-portal
+  - payer-data-exchange
+  - remittance-advice
+- slug: payer-review-response
+  title: Payer Review Response
+  summary: When a payer or its review service examines a claim, the medical necessity, the length of stay or a unit's structural requirements,
+    the commons releases the required records and states its clinical reasoning within the deadline.
+  capabilities:
+  - payer-review-management
+  - health-information-release
+  - clinical-documentation-integrity
+  - coding-quality-audit
+  entities:
+  - claim-review
+  - claim
+  - health-record
+  - clinical-document
+  serves:
+  - inspection-and-audit
+  - payer-data-exchange
+- slug: denial-appeal-and-recovery
+  title: Denial Appeal and Recovery
+  summary: Denied, reduced or unpaid claims are corrected and rebilled, or contested through appeal, conciliation or court where the
+    claim is justified.
+  capabilities:
+  - denial-and-underpayment-recovery
+  - dispute-and-litigation
+  - legal-advisory
+  entities:
+  - claim-review
+  - claim
+  - payment
+  serves:
+  - payer-data-exchange
+  - remittance-advice
+- slug: collections-and-write-off
+  title: Collections and Write-Off
+  summary: Overdue amounts are pursued firmly and fairly, payment plans are agreed where needed, and amounts that cannot be recovered
+    are adjusted or written off with a recorded justification.
+  capabilities:
+  - dunning-and-collections
+  - adjustments-and-deductions
+  - accounts-receivable
+  entities:
+  - invoice
+  - claim
+  - payment
+  - ledger-entry
+  serves:
+  - patient-billing-service
+  - patient-invoice
+- slug: denial-and-receivables-analysis
+  title: Denial and Receivables Analysis
+  summary: Denials, review outcomes, write-offs and days in receivables are analysed by cause, payer and unit, and the causes are
+    removed upstream in registration, documentation and coding.
+  capabilities:
+  - denial-reporting
+  - business-intelligence-and-reporting
+  - process-improvement
+  entities:
+  - claim-review
+  - measure-report
+  - dashboard
+  - corrective-action
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,32 @@
+kind: journey
+slug: specifying-a-departments-need
+title: Specifying a Department's Need
+stakeholder: head-of-clinical-department
+summary: A department head's path from a need that no contract covers to a contract in force, in which the department defines what
+  good looks like and procurement keeps the procedure lawful.
+stages:
+- slug: state-the-need
+  title: State the Need
+  goal: The need, its urgency and its funding are confirmed, and the department knows how long the procedure will take.
+  step: tendering-and-contracting/need-assessment-and-procedure-choice
+  touchpoints:
+  - sourcing-request
+- slug: specify-requirements
+  title: Specify Requirements
+  goal: Requirements and award criteria describe what the department needs without naming a product, so that the best offer can win.
+  step: tendering-and-contracting/requirement-specification
+  touchpoints:
+  - sourcing-request
+  - call-for-tender
+- slug: evaluate-the-bids
+  title: Evaluate the Bids
+  goal: The department's experts score the bids against the criteria, each having declared any conflict of interest.
+  step: tendering-and-contracting/bid-evaluation
+  touchpoints:
+  - product-trial
+- slug: use-the-new-contract
+  title: Use the New Contract
+  goal: The department orders from the new contract from its start date, with instruction where products change.
+  step: tendering-and-contracting/contract-mobilisation-and-renewal
+  touchpoints:
+  - ordering-catalogue

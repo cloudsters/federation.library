@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: free-room-for-neighbourhood-activity
+title: Free Room for Neighbourhood Activity
+between:
+- city-administration
+- resident
+offered:
+- A room in a community centre, library or school free of charge.
+returned:
+- Activities run by neighbours that bring neighbours together.
+touchpoint: community-room-booking

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: funder-audit-visit
+title: Funder Audit Visit
+medium: encounter
+summary: The funder's audit of a grant, in which the city shows the evidence it kept from award to close-out.
+exchanges:
+- kept-evidence-for-a-clean-close-out
+journey: funding-body-granting-money-to-the-city

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: environmental-permit
+title: Environmental Permit
+medium: artefact
+summary: The permit, and the application for it, that allows a site to emit, discharge, store hazardous substances or handle waste
+  within set limits and conditions.
+exchanges:
+- monitoring-evidence-for-permitted-operation
+journey: authority-overseeing-a-permitted-site

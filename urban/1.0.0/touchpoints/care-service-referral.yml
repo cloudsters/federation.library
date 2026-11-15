@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: care-service-referral
+title: Care Service Referral
+medium: channel
+summary: The referral by a community worker, with consent, of a resident or carer to the formal care, health and social services they
+  need when neighbours cannot give enough.
+exchanges:
+- referral-for-formal-care
+journey: caregiver-sharing-the-work-of-care

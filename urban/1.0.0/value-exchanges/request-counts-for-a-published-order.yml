@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: request-counts-for-a-published-order
+title: Request Counts for a Published Order
+between:
+- frontline-worker
+- city-administration
+offered:
+- The number of requests each paper or counter service handles and the burden it places on residents and staff.
+returned:
+- A published order of services to move to a digital route, with the reasons for it.
+touchpoint: paper-service-inventory

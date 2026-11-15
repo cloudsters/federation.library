@@ -1,0 +1,10 @@
+kind: body
+slug: event-safety-advisory-group
+title: Event Safety Advisory Group
+summary: Officers of the city with the emergency services, who review the safety plan of each large event with its organiser and advise
+  on its conditions before the permit is issued.
+holds:
+- event-safety-planning
+part_of: events-office
+type: committee
+form: governing-body

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: market-knowledge-for-a-category-strategy
+title: Market Knowledge for a Category Strategy
+between:
+- supplier
+- procurement-officer
+offered:
+- The supplier's knowledge of what the market can offer, at what lot size and on what terms.
+returned:
+- A category strategy with lots and contract lengths that suppliers of its size can bid for.
+touchpoint: category-strategy-workshop

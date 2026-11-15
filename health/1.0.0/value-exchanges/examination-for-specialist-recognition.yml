@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: examination-for-specialist-recognition
+title: Examination for Specialist Recognition
+between:
+- physician-in-specialty-training
+- professional-body
+offered:
+- Evidence of completed training and performance in the examination.
+returned:
+- Specialist recognition that entitles the physician to practise the specialty independently and to train others in it.
+touchpoint: specialist-examination

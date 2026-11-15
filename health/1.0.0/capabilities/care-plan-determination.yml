@@ -1,0 +1,10 @@
+kind: capability
+slug: care-plan-determination
+title: Care Plan Determination
+level: L3
+parent: treatment-planning-and-ward-care
+summary: Decide the treatment plan with the patient, based on findings, guidelines and the patient's own goals.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

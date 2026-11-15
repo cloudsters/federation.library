@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-qualification-questionnaire
+title: Supplier Qualification Questionnaire
+medium: artefact
+summary: The questionnaire and evidence through which a candidate supplier describes its capability, quality system, financial health
+  and conduct before approval.
+exchanges:
+- disclosed-conduct-for-approved-status
+journey: supplier-relationship

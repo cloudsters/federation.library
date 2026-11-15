@@ -1,0 +1,10 @@
+kind: capability
+slug: specimen-handling-and-grossing
+title: Specimen Handling & Grossing
+level: L3
+parent: pathology-services
+summary: Accession, track and gross tissue specimens so that each sample stays linked to its patient.
+binds:
+- source: src-328
+  edition: collection
+  jurisdiction: global

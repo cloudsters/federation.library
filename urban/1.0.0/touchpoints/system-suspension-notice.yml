@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: system-suspension-notice
+title: System Suspension Notice
+medium: artefact
+summary: The published notice that a system is suspended, with the harm found, the remedy for those affected and what the supplier
+  must put right.
+exchanges:
+- fault-remedy-for-a-fair-account
+journey: city-administration-bringing-an-automated-system-under-assurance

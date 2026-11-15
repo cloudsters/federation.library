@@ -1,0 +1,27 @@
+kind: solution
+slug: infection-surveillance
+title: Infection Surveillance
+role: system-of-insight
+summary: Detects and tracks healthcare-associated infections, resistant organisms and outbreaks from laboratory, movement and device
+  data, and supports isolation, screening, hygiene compliance and antimicrobial stewardship.
+carries:
+- infection-surveillance
+- outbreak-management
+- isolation-and-screening-management
+- antimicrobial-resistance-monitoring
+- antimicrobial-stewardship
+- hygiene-management
+- hand-hygiene-programmes
+holds:
+- healthcare-associated-infection
+- outbreak
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

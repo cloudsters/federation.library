@@ -1,0 +1,91 @@
+kind: value-stream
+slug: fiscal-responsibility-contribution
+title: Fiscal Responsibility & Contribution
+family: value-to-sustainability
+summary: Treating taxes as a fair contribution to the societies the organisation draws on, setting a stated tax posture, pricing transactions
+  between its own entities honestly, and filing and paying every tax correctly and on time.
+trigger: A tax period closes, or a transaction with tax consequences is planned.
+outcome: Returns are filed and taxes paid correctly and on time, and tax audits are closed.
+stakeholders:
+- finance-professional
+- executive-board
+- supervisory-board
+- tax-authority
+- external-specialist
+steps:
+- slug: tax-posture-setting
+  title: Tax Posture Setting
+  summary: The organisation's tax strategy is set and stated as a posture of fair contribution, including what structures and arrangements
+    it will not use.
+  capabilities:
+  - tax-strategy-as-responsibility
+  entities:
+  - policy
+  - tax-rule
+  serves:
+  - board-meeting
+  - sustainability-report
+- slug: transaction-tax-assessment
+  title: Transaction Tax Assessment
+  summary: Planned transactions, new entities and changes of structure are assessed for their tax consequences before they are decided.
+  capabilities:
+  - tax-strategy-as-responsibility
+  entities:
+  - tax-rule
+  - corporate-transaction
+  - legal-entity
+  serves:
+  - board-meeting
+  - tax-opinion
+- slug: intercompany-pricing
+  title: Intercompany Pricing
+  summary: Prices for goods, services, rights and financing between the organisation's entities are set at arm's length and documented.
+  capabilities:
+  - transfer-pricing
+  entities:
+  - agreement
+  - legal-entity
+  serves:
+  - transfer-pricing-documentation
+- slug: tax-determination
+  title: Tax Determination
+  summary: Taxes on profits, sales, payroll and property are determined for each period and entity, and provisions are posted.
+  capabilities:
+  - tax-compliance-as-precision
+  entities:
+  - tax-category
+  - tax-rule
+  - journal-entry
+  serves:
+  - accounting-workbench
+- slug: return-filing-and-payment
+  title: Return Filing and Payment
+  summary: Tax returns are prepared, filed and paid to each authority on time.
+  capabilities:
+  - tax-compliance-as-precision
+  entities:
+  - tax-return
+  - payment
+  serves:
+  - statutory-filing
+- slug: tax-audit-handling
+  title: Tax Audit Handling
+  summary: Tax audits are supported with documentation, findings are settled or contested, and the lessons are built into the tax
+    processes.
+  capabilities:
+  - tax-compliance-as-precision
+  - tax-strategy-as-responsibility
+  entities:
+  - audit
+  - tax-return
+  - audit-finding
+  serves:
+  - official-inspection
+  - transfer-pricing-documentation
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

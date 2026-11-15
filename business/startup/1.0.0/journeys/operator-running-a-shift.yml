@@ -1,0 +1,42 @@
+kind: journey
+slug: operator-running-a-shift
+title: Operator Running a Shift
+stakeholder: production-operator
+summary: A production operator takes over a shift with current instructions and a workable sequence, makes and confirms what is due,
+  stops the flow at a deviation and brings observations into the team's improvement routine.
+stages:
+- slug: work-to-current-instructions
+  title: Work to Current Instructions
+  goal: The released structure, routing and instructions are at hand where the work is done, and any change is announced before it
+    applies.
+  step: production-craft-assembly/product-data-release
+  touchpoints:
+  - work-instruction
+  - engineering-change-notice
+- slug: take-over-the-shift
+  title: Take Over the Shift
+  goal: The operator knows the state of equipment, orders and open problems and receives a sequence the team can sustain.
+  step: production-craft-assembly/production-scheduling
+  touchpoints:
+  - shift-handover
+  - shop-floor-meeting
+  - work-order
+- slug: make-and-confirm
+  title: Make and Confirm
+  goal: The work is performed with materials ready, and times, quantities and downtime are confirmed as they happen.
+  step: production-craft-assembly/production-run
+  touchpoints:
+  - shop-floor
+  - work-order
+- slug: stop-at-a-deviation
+  title: Stop at a Deviation
+  goal: A deviation is stopped at the control point, recorded and dispositioned before anything moves on.
+  step: production-craft-assembly/in-process-quality-control
+  touchpoints:
+  - inspection-point
+- slug: bring-in-an-improvement
+  title: Bring In an Improvement
+  goal: Losses and ideas raised by the team are reviewed, acted on and seen to change routings, instructions or schedules.
+  step: production-craft-assembly/production-performance-review
+  touchpoints:
+  - shop-floor-meeting

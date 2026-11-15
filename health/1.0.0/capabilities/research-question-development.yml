@@ -1,0 +1,19 @@
+kind: capability
+slug: research-question-development
+title: Research Question Development
+level: L3
+parent: research-methods-and-reporting
+summary: Formulate research questions and hypotheses that guide study design and data collection.
+binds:
+- source: src-511
+  edition: '2017'
+  jurisdiction: global
+- source: src-516
+  edition: '2025'
+  jurisdiction: global
+- source: src-557
+  edition: R1
+  jurisdiction: global
+- source: src-561
+  edition: v11
+  jurisdiction: global

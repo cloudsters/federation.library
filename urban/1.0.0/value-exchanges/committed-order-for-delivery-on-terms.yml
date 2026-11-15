@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: committed-order-for-delivery-on-terms
+title: Committed Order for Delivery on Terms
+between:
+- city-administration
+- local-business
+offered:
+- An order backed by budget recorded as a commitment before it is placed.
+returned:
+- Delivery on the terms ordered, with confidence of payment.
+touchpoint: commitment-check

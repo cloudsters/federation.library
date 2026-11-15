@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: transfer-request-for-an-accepted-bed
+title: Transfer Request for an Accepted Bed
+between:
+- referring-hospital
+- specialist-physician
+offered:
+- A transfer request with clinical summary and urgency, and readiness to take the patient back once specialist care is no longer needed.
+returned:
+- A decision within the agreed time, a bed at the agreed time and a named receiving team.
+touchpoint: teleconsultation-report

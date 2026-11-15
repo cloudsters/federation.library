@@ -1,0 +1,16 @@
+kind: capability
+slug: network-and-communication-infrastructure
+title: Network & Communication Infrastructure
+level: L3
+parent: infrastructure
+summary: Run wired, wireless, telephony and alarm networks across all sites.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-329
+  edition: '2013'
+  jurisdiction: global

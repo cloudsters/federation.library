@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: business-support-review-report
+title: Business Support Review Report
+medium: artefact
+summary: The published review of which supported enterprises survive, the work and income they hold and which groups and neighbourhoods
+  the support reached, with the changes it brings to the offer.
+exchanges:
+- support-findings-for-council-decisions
+- barriers-for-support-shaped-to-them
+journey: informal-worker-registering-a-business

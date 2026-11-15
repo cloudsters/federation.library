@@ -1,0 +1,10 @@
+kind: body
+slug: emergency-call-centre
+title: Emergency Call Centre
+summary: Answers emergency calls at once in the caller's language, assesses them and sends fire, rescue, medical, a crisis team for
+  mental health or the police, and records each response.
+holds:
+- emergency-call-handling
+part_of: full-council
+type: function
+form: organisational-unit

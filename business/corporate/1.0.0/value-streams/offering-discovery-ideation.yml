@@ -1,0 +1,91 @@
+kind: value-stream
+slug: offering-discovery-ideation
+title: Offering Discovery & Ideation
+family: discovery-to-usage
+summary: Finding and framing new offering ideas from evidenced customer needs, research and technology opportunities, and turning
+  the strongest into sponsored concepts that serve the organisation's objectives.
+trigger: The portfolio sets a search field, or a customer need, idea or technology opportunity is captured.
+outcome: Selected concepts with an evidenced need and a sponsor enter design, and the others are documented and closed.
+stakeholders:
+- product-manager
+- end-user
+- business-customer
+- development-engineer
+- sales-representative
+- employee
+steps:
+- slug: need-discovery
+  title: Need Discovery
+  summary: Customers and users are observed and interviewed in their own context and demand signals are analysed, so that durable
+    needs are told apart from passing wishes.
+  capabilities:
+  - discovery-research
+  entities:
+  - market-insight
+  - customer-interaction
+  - survey
+  serves:
+  - customer-interview
+  - market-study
+- slug: idea-collection
+  title: Idea Collection
+  summary: Ideas from staff, customers and partners are collected in one place with their contributor and the need they address, and
+    every contributor receives an answer.
+  capabilities:
+  - idea-management
+  entities:
+  - improvement-suggestion
+  - customer-interaction
+  serves:
+  - idea-portal
+  - user-community
+- slug: concept-generation
+  title: Concept Generation
+  summary: Diverse teams widen the field of possible solutions to a framed need and shape the most promising into offering concepts.
+  capabilities:
+  - offering-ideation
+  entities:
+  - product
+  - service
+  - pattern
+  serves:
+  - co-design-workshop
+- slug: requirement-definition
+  title: Requirement Definition
+  summary: The needs behind each concept are translated into requirements for the offering, checked for feasibility with operations
+    and suppliers.
+  capabilities:
+  - requirement-sensing
+  entities:
+  - product-specification
+  - market-insight
+  serves:
+  - requirements-review
+- slug: concept-business-case
+  title: Concept Business Case
+  summary: The market, operational and economic case for each concept is built and tested before any commitment to development.
+  capabilities:
+  - offering-business-case
+  entities:
+  - business-case
+  - forecast
+  serves:
+  - concept-review
+- slug: concept-selection
+  title: Concept Selection
+  summary: Concepts are judged against purpose, portfolio fit and evidence; selected concepts receive a sponsor and enter design,
+    and the others are documented and closed.
+  capabilities:
+  - idea-management
+  - offering-portfolio-cultivation
+  entities:
+  - governance-decision
+  - business-case
+  - improvement-suggestion
+  serves:
+  - concept-review
+  - idea-portal
+binds:
+- source: src-099
+  edition: '2024'
+  jurisdiction: global

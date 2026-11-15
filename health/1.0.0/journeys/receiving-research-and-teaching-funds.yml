@@ -1,0 +1,31 @@
+kind: journey
+slug: receiving-research-and-teaching-funds
+title: Receiving Research and Teaching Funds
+stakeholder: head-of-clinical-department
+summary: The department head's path through the annual allocation of research and teaching funds, from reporting performance to accounting
+  for their use.
+stages:
+- slug: report-academic-performance
+  title: Report Academic Performance
+  goal: The department's research and teaching performance is captured completely and without duplicate reporting.
+  step: academic-funds-allocation/performance-data-collection
+  touchpoints:
+  - academic-performance-report
+- slug: learn-the-allocation
+  title: Learn the Allocation
+  goal: The department knows its share, the criteria behind it and the conditions of use.
+  step: academic-funds-allocation/joint-allocation-decision
+  touchpoints:
+  - allocation-notice
+- slug: protect-academic-time
+  title: Protect Academic Time
+  goal: Time for research and teaching is planned and recorded, so that care does not absorb it unnoticed.
+  step: academic-funds-allocation/activity-cost-separation
+  touchpoints:
+  - controlling-report
+- slug: account-for-use
+  title: Account for Use
+  goal: The use of the share is accounted for simply and on time.
+  step: academic-funds-allocation/use-of-funds-accounting
+  touchpoints:
+  - use-of-funds-statement

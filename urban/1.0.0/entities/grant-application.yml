@@ -1,0 +1,61 @@
+kind: entity
+slug: grant-application
+title: Grant Application
+type: transactional
+summary: An application by the city for a grant, with its purpose, budget, match funding, partners and the running costs it leaves
+  when the grant ends. The department and its partners prepare it once the conditions are assessed, the council or its delegate commits
+  the match funding, and it ends in an award or a refusal.
+attributes:
+- name: application-number
+  type: identifier
+  card: 1..1
+- name: funding-body
+  type: text
+  card: 1..1
+- name: funding-call
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: programme
+  type: reference(city-programme)
+  card: 0..1
+- name: objectives-served
+  type: reference(city-objective)
+  card: 1..*
+- name: requested-amount
+  type: amount
+  card: 1..1
+- name: match-funding
+  type: amount
+  card: 0..1
+- name: running-costs-after-grant
+  type: amount
+  card: 0..1
+- name: partners
+  type: text
+  card: 0..*
+- name: match-commitment
+  type: reference(council-decision)
+  card: 0..1
+- name: submitted-on
+  type: date
+  card: 0..1
+states:
+- identified
+- assessed
+- prepared
+- submitted
+- awarded
+- refused
+- withdrawn
+relations:
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: city-objective
+- type: based-on
+  target: council-decision
+- type: produces
+  target: grant-award

@@ -1,0 +1,50 @@
+kind: entity
+slug: care-activity-mandate
+title: Care Activity Mandate
+type: governance
+summary: A care mandate that entitles a care professional to perform a specified care activity for a patient, such as an operation,
+  an examination or a medication, within the period mandate of the responsible unit.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: activity
+  type: code
+  card: 1..1
+- name: performer
+  type: reference(practitioner-role)
+  card: 1..1
+- name: care-period-mandate
+  type: reference(care-period-mandate)
+  card: 1..1
+- name: basis
+  type: code
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- requested
+- effective
+- fulfilled
+- revoked
+relations:
+- type: refers-to
+  target: care-mandate
+- type: part-of
+  target: care-period-mandate
+- type: based-on
+  target: informed-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

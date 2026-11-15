@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: waste-consignment-record
+title: Waste Consignment Record
+medium: artefact
+summary: The record that accompanies waste, and hazardous waste in particular, from its origin through carriage to treatment or disposal,
+  documenting the chain of custody.
+exchanges:
+- declared-waste-for-lawful-disposal
+- evidence-for-closed-obligations
+journey: environmental-authority-closing-the-record

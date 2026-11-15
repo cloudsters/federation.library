@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: public-consultation-meeting
+title: Public Consultation Meeting
+medium: encounter
+summary: The open meeting at which the commons explains planned concentrations, moves or closures of services to residents, local
+  representatives and patient organisations and hears their concerns.
+exchanges:
+- service-change-consultation
+journey: resident-service-change-journey

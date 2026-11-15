@@ -1,0 +1,10 @@
+kind: body
+slug: transport-and-streets-committee
+title: Transport and Streets Committee
+summary: Prepares the council's decisions on the mobility plan, the transport network, fares, street space, road safety and the rules
+  for goods delivery, and receives the yearly reviews of ridership, road danger and distribution.
+holds:
+- mobility-and-distribution
+part_of: full-council
+type: committee
+form: governing-body

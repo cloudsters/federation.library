@@ -1,0 +1,56 @@
+kind: journey
+slug: customer-journey
+title: Customer Journey
+stakeholder: business-customer
+summary: A business customer moves from a first conversation through offer, agreement and welcome into a relationship that is reviewed,
+  renewed and extended where it has delivered value.
+stages:
+- slug: be-qualified-fairly
+  title: Be Qualified Fairly
+  goal: The customer's need and readiness are understood in a first conversation, and it is routed to the right seller or left in
+    peace.
+  step: relationship-journey-design/inquiry-qualification
+  touchpoints:
+  - sales-meeting
+- slug: explore-the-need
+  title: Explore the Need
+  goal: The seller understands the need and buying process, and the customer can test the offering in its own setting.
+  step: relationship-journey-design/opportunity-development
+  touchpoints:
+  - sales-meeting
+  - sample-and-trial
+- slug: receive-an-honest-offer
+  title: Receive an Honest Offer
+  goal: The offer is configured to the need and states honestly what will be delivered.
+  step: relationship-journey-design/offer-configuration-and-proposal
+  touchpoints:
+  - request-for-quotation
+  - quotation
+  - public-tender
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: Terms are negotiated and the agreement is signed, or the customer's reasons for declining are heard.
+  step: relationship-journey-design/negotiation-and-closing
+  touchpoints:
+  - contract-negotiation
+- slug: be-welcomed
+  title: Be Welcomed
+  goal: The order is confirmed and the customer is kept informed and welcomed through to first use.
+  step: relationship-journey-design/order-handover-and-welcome
+  touchpoints:
+  - order-confirmation
+  - welcome-programme
+- slug: review-the-relationship
+  title: Review the Relationship
+  goal: The relationship is reviewed on use, service and payment signals, and loyalty benefits are honoured.
+  step: relationship-journey-design/account-health-and-loyalty
+  touchpoints:
+  - account-review
+  - customer-portal
+- slug: renew-or-extend
+  title: Renew or Extend
+  goal: Renewal is prepared ahead of term and expansion offered where value has been realised.
+  step: relationship-journey-design/renewal-and-expansion
+  touchpoints:
+  - renewal-offer
+  - account-review

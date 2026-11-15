@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: training-logbook
+title: Training Logbook
+medium: artefact
+summary: The record of a trainee's rotations, supervised procedures and assessments that documents progress towards specialist or
+  professional recognition.
+exchanges:
+- clinical-service-for-structured-training
+journey: becoming-a-specialist

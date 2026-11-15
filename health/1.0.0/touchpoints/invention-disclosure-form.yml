@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: invention-disclosure-form
+title: Invention Disclosure Form
+medium: artefact
+summary: The form with which staff report an invention to the technology transfer office, naming inventors, contributions, funding
+  and planned publications.
+exchanges:
+- disclosure-for-transfer-support
+- care-idea-for-a-testbed
+journey: from-invention-to-use

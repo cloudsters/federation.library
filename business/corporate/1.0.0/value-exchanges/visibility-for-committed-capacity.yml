@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: visibility-for-committed-capacity
+title: Visibility for Committed Capacity
+between:
+- procurement-specialist
+- direct-material-supplier
+offered:
+- A rolling forecast with a firm horizon, and orders and call-offs that stay within it.
+returned:
+- Capacity and materials reserved for the company, early confirmation of what can be delivered, and deliveries on the called-off dates.
+touchpoint: supplier-portal

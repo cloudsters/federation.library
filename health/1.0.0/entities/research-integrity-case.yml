@@ -1,0 +1,52 @@
+kind: entity
+slug: research-integrity-case
+title: Research Integrity Case
+type: transactional
+summary: An allegation or concern of scientific misconduct or poor research practice, such as fabrication, falsification, plagiarism
+  or abuse of authorship, handled through confidential review, investigation and a decision on sanctions and corrections.
+attributes:
+- name: concern-kind
+  type: code
+  card: 1..1
+- name: raised-on
+  type: date
+  card: 1..1
+- name: persons-concerned
+  type: reference(employee)
+  card: 1..*
+- name: research-studies
+  type: reference(research-study)
+  card: 0..*
+- name: publications
+  type: reference(publication)
+  card: 0..*
+- name: findings
+  type: document
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: corrections
+  type: text
+  card: 0..*
+states:
+- received
+- preliminary-review
+- under-investigation
+- dismissed
+- upheld
+- closed
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: publication
+- type: produces
+  target: corrective-action
+binds:
+- source: src-513
+  edition: '2023'
+  jurisdiction: global
+- source: src-531
+  edition: v3-2025
+  jurisdiction: global

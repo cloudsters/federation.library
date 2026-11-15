@@ -1,0 +1,55 @@
+kind: entity
+slug: room
+title: Room
+type: master
+summary: A room in a facility with its use, such as a patient room, operating room, procedure room, examination room or laboratory,
+  its equipment and hygiene class, assigned to a unit and bookable where relevant.
+attributes:
+- name: room-identifier
+  type: identifier
+  card: 1..1
+- name: facility
+  type: reference(facility)
+  card: 1..1
+- name: room-use
+  type: code
+  card: 1..1
+- name: hygiene-class
+  type: code
+  card: 0..1
+- name: assigned-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: equipment
+  type: reference(medical-device)
+  card: 0..*
+- name: bookable
+  type: boolean
+  card: 1..1
+states:
+- available
+- in-use
+- under-cleaning
+- blocked
+- out-of-service
+relations:
+- type: part-of
+  target: facility
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-409
+  edition: '2024'
+  jurisdiction: global

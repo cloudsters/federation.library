@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: mandate-for-bounded-work
+title: Mandate for Bounded Work
+between:
+- site-manager
+- operations-planning-agent
+offered:
+- A defined mandate, the data access it requires and named human overseers.
+returned:
+- Defined work done within the mandate, outputs marked as its own and every decision outside it escalated to people.
+touchpoint: agent-mandate

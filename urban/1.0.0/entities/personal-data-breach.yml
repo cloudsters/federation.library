@@ -1,0 +1,63 @@
+kind: entity
+slug: personal-data-breach
+title: Personal Data Breach
+type: transactional
+summary: A breach of personal data the city holds, with its assessment, the residents affected and the reports made. The data protection
+  officer records it with the department concerned, it is reported to the data protection authority and the residents affected within
+  deadlines, and the breaches of each year are reviewed and published.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: detected-at
+  type: datetime
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: data-concerned
+  type: reference(data-set)
+  card: 1..*
+- name: processing
+  type: reference(processing-record)
+  card: 0..*
+- name: residents-affected
+  type: integer
+  card: 0..1
+- name: severity
+  type: code
+  card: 1..1
+- name: containment-actions
+  type: text
+  card: 0..*
+- name: reported-to-authority-at
+  type: datetime
+  card: 0..1
+- name: residents-notified-at
+  type: datetime
+  card: 0..1
+- name: security-incident
+  type: reference(security-incident)
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- detected
+- contained
+- assessed
+- reported
+- notified
+- reviewed
+- closed
+relations:
+- type: refers-to
+  target: processing-record
+- type: refers-to
+  target: security-incident
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: legal-matter
+- type: produces
+  target: public-record

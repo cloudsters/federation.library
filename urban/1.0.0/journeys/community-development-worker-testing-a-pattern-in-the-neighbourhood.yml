@@ -1,0 +1,32 @@
+kind: journey
+slug: community-development-worker-testing-a-pattern-in-the-neighbourhood
+title: Community Development Worker Testing a Pattern in the Neighbourhood
+stakeholder: community-development-worker
+summary: A community development worker tests a candidate pattern against neighbourhood practice with residents, adapts its procedure
+  where local conditions differ, follows the published version and reports when its outcomes fall away.
+stages:
+- slug: test-against-neighbourhood-practice
+  title: Test Against Neighbourhood Practice
+  goal: The worker and the residents who live with the practice have tested the pattern, and their account sits beside the research.
+  step: practice-standards-and-pattern-library/testing-with-practitioners-and-residents
+  touchpoints:
+  - practice-test-circle
+- slug: adapt-the-procedure-locally
+  title: Adapt the Procedure Locally
+  goal: Where neighbourhood conditions differ, the procedure leaves room for local adaptation and states it.
+  step: practice-standards-and-pattern-library/standard-procedure-design
+  touchpoints:
+  - procedure-drafting-session
+  - published-standard-procedure
+- slug: follow-the-published-pattern
+  title: Follow the Published Pattern
+  goal: The worker finds the current pattern and its procedure in the library and works by it.
+  step: practice-standards-and-pattern-library/release-and-publication
+  touchpoints:
+  - city-pattern-library
+- slug: report-when-outcomes-fall-away
+  title: Report When Outcomes Fall Away
+  goal: When outcomes in the neighbourhood fall away, the worker's report reaches the adherence review and the pattern is revised.
+  step: practice-standards-and-pattern-library/adherence-and-renewal
+  touchpoints:
+  - practice-adherence-review

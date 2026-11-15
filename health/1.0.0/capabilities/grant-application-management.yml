@@ -1,0 +1,10 @@
+kind: capability
+slug: grant-application-management
+title: Grant Application Management
+level: L3
+parent: research-funding
+summary: Scout funding calls, prepare applications and coordinate submissions.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global

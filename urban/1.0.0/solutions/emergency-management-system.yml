@@ -1,0 +1,30 @@
+kind: solution
+slug: emergency-management-system
+title: Emergency Management System
+role: platform
+summary: Holds the emergency and continuity plans, runs the crisis team's shared picture, issues public warnings, logs each emergency
+  decision and power with its end date, and tracks relief and recovery.
+carries:
+- emergency-and-continuity-planning
+- emergency-power-limitation
+- emergency-exercise
+- public-warning
+- crisis-command
+- fair-relief-allocation
+- recovery-coordination
+- service-continuity-planning
+- community-safety-planning
+- cooling-place-provision
+- sufficiency-level-setting
+- distributed-reserve-keeping
+- supply-disruption-response
+- reserve-release
+holds:
+- emergency-plan
+- emergency-response
+- service-continuity-plan
+- community-safety-plan
+- cooling-place
+- essential-supply-plan
+- essential-reserve
+- supply-disruption

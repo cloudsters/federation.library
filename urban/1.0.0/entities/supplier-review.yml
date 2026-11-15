@@ -1,0 +1,61 @@
+kind: entity
+slug: supplier-review
+title: Supplier Review
+type: transactional
+summary: The yearly review between the city and a main supplier of its performance, the relationship and what each side owes the other,
+  including whether the city paid on time, with the improvements both agreed. The contract manager holds it with the supplier and
+  the procurement office, and its record is kept with the supplier record and read at the next renewal decision.
+attributes:
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: contracts-reviewed
+  type: reference(contract)
+  card: 1..*
+- name: review-period
+  type: period
+  card: 1..1
+- name: held-on
+  type: date
+  card: 1..1
+- name: participants
+  type: text
+  card: 1..*
+- name: performance-reports
+  type: reference(contract-performance-report)
+  card: 0..*
+- name: average-days-to-pay
+  type: decimal
+  card: 0..1
+- name: supplier-concerns
+  type: text
+  card: 0..*
+- name: city-concerns
+  type: text
+  card: 0..*
+- name: agreed-improvements
+  type: text
+  card: 0..*
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- scheduled
+- prepared
+- held
+- agreed
+- followed-up
+- closed
+relations:
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: contract
+- type: based-on
+  target: contract-performance-report
+- type: based-on
+  target: payment-performance-report
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global

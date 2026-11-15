@@ -1,0 +1,46 @@
+kind: entity
+slug: workforce-plan
+title: Workforce Plan
+type: governance
+summary: The approved plan of the workforce the organisation or one of its units needs for a period, stating target posts by profession,
+  grade and skill mix, the forecast gap and the measures that close it.
+attributes:
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: planning-period
+  type: period
+  card: 1..1
+- name: target-posts
+  type: reference(position)
+  card: 1..*
+- name: skill-mix
+  type: text
+  card: 0..1
+- name: forecast-gap
+  type: quantity
+  card: 0..*
+- name: measures
+  type: text
+  card: 0..*
+- name: budget
+  type: reference(budget)
+  card: 0..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- draft
+- consulted
+- approved
+- in-execution
+- closed
+relations:
+- type: based-on
+  target: strategy
+- type: governed-by
+  target: budget
+- type: refers-to
+  target: staffing-standard
+- type: composed-of
+  target: position

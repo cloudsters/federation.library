@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: problem-review-meeting
+title: Problem Review Meeting
+medium: encounter
+summary: The meeting in which recurring faults are traced to their causes, their removal is agreed and the lessons are recorded.
+exchanges:
+- fault-patterns-for-removed-causes
+- product-analysis-for-shared-lessons
+journey: information-technology-specialist-keeping-services-running

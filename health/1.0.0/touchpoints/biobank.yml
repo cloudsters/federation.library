@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: biobank
+title: Biobank
+medium: place
+summary: The facility where donated samples are processed, stored at controlled temperatures and issued, together with their data
+  and consent records.
+exchanges:
+- samples-for-protected-use
+- quality-samples-for-acknowledged-use
+- sample-access-for-industry-research
+journey: carrying-a-finding-to-patients

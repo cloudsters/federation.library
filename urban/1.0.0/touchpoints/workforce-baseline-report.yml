@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: workforce-baseline-report
+title: Workforce Baseline Report
+medium: artefact
+summary: The count of every position, the person or agent who holds it, their skills, contracts and age, and of the work contracted
+  workers and volunteers do for the city.
+exchanges:
+- volunteer-work-for-a-place-in-the-count
+journey: personnel-officer-drawing-up-the-workforce-plan

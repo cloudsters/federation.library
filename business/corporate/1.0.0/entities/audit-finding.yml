@@ -1,0 +1,35 @@
+kind: entity
+slug: audit-finding
+title: Audit Finding
+type: transactional
+summary: A documented gap between a requirement and observed practice found in an audit, review or inspection, graded by severity
+  and closed only after corrective action is verified.
+attributes:
+- name: audit
+  type: reference(audit)
+  card: 1..1
+- name: requirement
+  type: reference(compliance-rule)
+  card: 0..1
+- name: observation
+  type: text
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: owner-unit
+  type: reference(department)
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+states:
+- open
+- action-defined
+- verified
+- closed
+relations:
+- type: part-of
+  target: audit
+- type: produces
+  target: remediation-plan

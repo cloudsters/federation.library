@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: electronic-invoices-for-faster-payment
+title: Electronic Invoices for Faster Payment
+between:
+- supplier
+- finance-professional
+offered:
+- Order confirmations, delivery notes and invoices sent electronically in the agreed form.
+returned:
+- Faster matching and payment, and early notice of any rejected message.
+touchpoint: supplier-portal

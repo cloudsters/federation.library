@@ -1,0 +1,13 @@
+kind: capability
+slug: resuscitation-room-management
+title: Resuscitation Room Management
+level: L3
+parent: emergency-department-care
+summary: Receive and stabilise critically ill and injured patients with a pre-alerted, coordinated team in the resuscitation room.
+binds:
+- source: src-507
+  edition: '2025'
+  jurisdiction: global
+- source: src-514
+  edition: '11'
+  jurisdiction: global

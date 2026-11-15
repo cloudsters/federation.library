@@ -1,0 +1,155 @@
+kind: value-stream
+slug: digital-strategy-and-architecture
+title: Digital Strategy and Architecture
+family: portfolio-to-system
+summary: 'Setting the digital strategy and keeping the enterprise architecture as a living model of the whole system: processes, information,
+  applications, technology and their dependencies, with periodic assessment of digital maturity.'
+trigger: The strategy changes, a maturity assessment falls due, or a major system change requires architecture decisions.
+outcome: A current architecture model and roadmap guide every major system decision, and maturity gaps are prioritised.
+stakeholders:
+- executive
+- owner
+- head-of-clinical-department
+- health-informatics-specialist
+- university
+- supplier
+steps:
+- slug: need-and-opportunity-sensing
+  title: Need and Opportunity Sensing
+  summary: Collect digital needs from clinical, research, teaching and administrative units, track legal duties that require digital
+    change, and scan emerging technologies for what they could do for the organisation.
+  capabilities:
+  - it-demand-management
+  - technology-innovation
+  - regulatory-landscape-sensing
+  - internal-capability-sensing
+  - clinical-innovation-management
+  entities:
+  - digital-demand
+  - strategy
+  - compliance-obligation
+  serves:
+  - digital-demand-intake
+- slug: maturity-and-landscape-assessment
+  title: Maturity and Landscape Assessment
+  summary: Assess digital maturity against a recognised model and peer organisations, and rate every application for criticality,
+    fit, cost and life-cycle position to locate gaps, redundancies and risks.
+  capabilities:
+  - digital-maturity-assessment
+  - application-portfolio-management
+  - system-landscape-twin
+  - performance-benchmarking
+  entities:
+  - benchmark
+  - application
+  - it-service
+  - measure-report
+  serves:
+  - digital-maturity-report
+- slug: target-architecture-design
+  title: Target Architecture Design
+  summary: Define architecture principles and a target state across processes, information, applications and technology, including
+    how systems integrate, how data are secured and how failures are absorbed.
+  capabilities:
+  - enterprise-architecture-management
+  - layered-information-system-model
+  - information-architecture
+  - integration-strategy
+  - data-security-architecture
+  - it-resilience-strategy
+  - data-and-analytics-strategy
+  entities:
+  - application
+  - interface
+  - data-product
+  - policy
+  serves:
+  - architecture-board
+  - system-landscape-model
+- slug: strategy-and-roadmap
+  title: Strategy and Roadmap
+  summary: Set the digital strategy as part of the organisation's strategy, compare options, and sequence initiatives into a roadmap
+    with dependencies, costs, benefits and risks.
+  capabilities:
+  - technology-strategy-and-governance
+  - strategic-option-design
+  - it-portfolio-and-value-management
+  - strategy-alignment-across-functions
+  entities:
+  - strategy
+  - strategic-objective
+  - digital-demand
+  - application
+  serves:
+  - digital-roadmap
+  - supervisory-body-meeting
+- slug: investment-decision
+  title: Investment Decision
+  summary: The board approves the roadmap and the digital investment portfolio, secures operating budget and capital, including public
+    investment funding, and names an accountable owner for each initiative.
+  capabilities:
+  - it-portfolio-and-value-management
+  - initiative-evaluation-and-selection
+  - capital-planning
+  - public-investment-funding
+  - delegation-of-authority
+  entities:
+  - governance-decision
+  - budget
+  - public-funding-allocation
+  - digital-demand
+  serves:
+  - digital-steering-committee
+  - supervisory-body-meeting
+- slug: architecture-governance
+  title: Architecture Governance
+  summary: Review every major change against the principles and the target architecture, record the architecture decision, approve
+    solution architectures and keep the landscape model current as changes go live.
+  capabilities:
+  - enterprise-architecture-management
+  - solution-architecture
+  - system-landscape-twin
+  - interoperability-map
+  - configuration-and-service-topology
+  entities:
+  - governance-decision
+  - application
+  - interface
+  - change-request
+  serves:
+  - architecture-board
+- slug: value-and-roadmap-review
+  title: Value and Roadmap Review
+  summary: Review realised benefits, maturity progress and architecture debt at a regular cadence, report them to the board and the
+    owner, and adjust the roadmap.
+  capabilities:
+  - it-portfolio-and-value-management
+  - digital-maturity-assessment
+  - integrated-performance-review
+  - strategy-communication
+  entities:
+  - strategic-objective
+  - measure-report
+  - benchmark
+  - dashboard
+  serves:
+  - annual-report
+  - digital-maturity-report
+  - digital-roadmap
+  - digital-steering-committee
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-035
+  edition: '15'
+  jurisdiction: global
+- source: src-052
+  edition: '2022'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

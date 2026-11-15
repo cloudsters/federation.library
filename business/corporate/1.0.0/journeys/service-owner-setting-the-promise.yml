@@ -1,0 +1,33 @@
+kind: journey
+slug: service-owner-setting-the-promise
+title: Service Owner Setting the Promise
+stakeholder: product-manager
+summary: A product manager as service owner decides which services are offered, sets their standards and levels, watches delivery
+  against them and updates the promise from audits and customer evidence.
+stages:
+- slug: decide-the-service-offer
+  title: Decide the Service Offer
+  goal: The services, their audiences and delivery models are decided and published.
+  step: service-delivery-governance/service-strategy
+  touchpoints:
+  - service-catalogue
+  - board-meeting
+- slug: set-standards-and-levels
+  title: Set Standards and Levels
+  goal: Each service has standards, levels, escalation paths, a definition of done and an owner.
+  step: service-delivery-governance/service-standards-and-levels
+  touchpoints:
+  - service-standard
+- slug: watch-delivery
+  title: Watch Delivery
+  goal: Breaches and trends are visible early enough to act before customers feel them.
+  step: service-delivery-governance/delivery-performance-monitoring
+  touchpoints:
+  - service-level-report
+- slug: update-the-promise
+  title: Update the Promise
+  goal: Audit findings and customer evidence change standards, levels or the service offer itself.
+  step: service-delivery-governance/service-quality-review
+  touchpoints:
+  - service-audit
+  - account-review

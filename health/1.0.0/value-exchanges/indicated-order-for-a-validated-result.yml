@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: indicated-order-for-a-validated-result
+title: Indicated Order for a Validated Result
+between:
+- specialist-physician
+- diagnostic-physician
+offered:
+- An indicated order with the clinical question and context, and a correctly collected and labelled specimen.
+returned:
+- A validated and interpreted result within the turnaround the urgency requires, and advice on further testing and treatment.
+touchpoint: clinical-workstation

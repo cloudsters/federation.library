@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-information-for-patients
+title: Service Information for Patients
+between:
+- specialist-physician
+- outpatient
+offered:
+- Understandable, accessible information that helps people recognise when a service is right for them and how to reach it.
+returned:
+- Informed enquiries and referrals that match the service, and recommendation of the service to others with the same need.
+touchpoint: public-website

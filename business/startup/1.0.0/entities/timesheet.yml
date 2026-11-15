@@ -1,0 +1,44 @@
+kind: entity
+slug: timesheet
+title: Timesheet
+type: transactional
+summary: A record of human energy spent — the link between a person's time and the value it created, enabling both fair compensation
+  and accurate project costing.
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: entries
+  type: text
+  card: 1..*
+- name: tasks
+  type: reference(task)
+  card: 0..*
+- name: projects
+  type: reference(project)
+  card: 0..*
+- name: billable
+  type: boolean
+  card: 1..1
+- name: rate
+  type: amount
+  card: 0..1
+states:
+- draft
+- submitted
+- approved
+- billed
+- costed
+- returned
+relations:
+- type: refers-to
+  target: project
+- type: refers-to
+  target: task
+- type: produces
+  target: sales-invoice
+- type: refers-to
+  target: payslip

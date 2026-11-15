@@ -1,0 +1,70 @@
+kind: entity
+slug: public-communication
+title: Public Communication
+type: transactional
+summary: An item of information the city releases, such as a notice, a press release, an article, a post, a warning or a correction,
+  with its date, audiences, languages and channels. The department concerned or the communications office prepares and records it,
+  and it is used to tell residents what changed, why and for whom, and to correct what was wrong as openly as it was said.
+attributes:
+- name: communication-kind
+  type: code
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: content
+  type: document
+  card: 1..*
+- name: released-at
+  type: datetime
+  card: 1..1
+- name: issued-by
+  type: reference(department)
+  card: 1..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: audiences
+  type: text
+  card: 1..*
+- name: languages
+  type: code
+  card: 1..*
+- name: channels
+  type: reference(communication-channel)
+  card: 1..*
+- name: plain-language-tested
+  type: boolean
+  card: 0..1
+- name: corrects
+  type: reference(public-communication)
+  card: 0..1
+- name: emergency
+  type: reference(emergency-response)
+  card: 0..1
+states:
+- drafted
+- tested
+- released
+- updated
+- corrected
+- withdrawn
+relations:
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: communication-channel
+- type: refers-to
+  target: emergency-response
+- type: governed-by
+  target: language-access-policy
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global
+- source: src-270
+  edition: '2021'
+  jurisdiction: global
+- source: src-271
+  edition: '2024-12-17'
+  jurisdiction: global

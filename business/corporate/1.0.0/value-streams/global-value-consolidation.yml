@@ -1,0 +1,105 @@
+kind: value-stream
+slug: global-value-consolidation
+title: Global Value Consolidation
+family: value-to-sustainability
+summary: Seeing a group of entities as one whole without absorbing its parts, by settling transactions between them, moving cash where
+  it is needed, managing and translating currencies, and consolidating and reporting the group's results.
+trigger: A group period closes, or operating units need cash transferred or intercompany balances settled.
+outcome: Intercompany balances are settled, cash is where it is needed, and consolidated group results are reported.
+stakeholders:
+- finance-professional
+- parent-company
+- executive-board
+- external-auditor
+steps:
+- slug: intercompany-transaction-processing
+  title: Intercompany Transaction Processing
+  summary: Deliveries, services and charges between the group's entities are invoiced and booked on both sides at the agreed transfer
+    prices.
+  capabilities:
+  - intercompany-transaction-management
+  - transfer-pricing
+  entities:
+  - sales-invoice
+  - purchase-invoice
+  - legal-entity
+  - agreement
+  serves:
+  - accounting-workbench
+  - intercompany-agreement
+- slug: intercompany-settlement
+  title: Intercompany Settlement
+  summary: Intercompany balances are reconciled between entities, netted and settled in cash.
+  capabilities:
+  - intercompany-transaction-management
+  - global-fund-orchestration
+  entities:
+  - payment
+  - legal-entity
+  - bank-account
+  serves:
+  - accounting-workbench
+  - cash-pool
+- slug: group-cash-orchestration
+  title: Group Cash Orchestration
+  summary: Cash is transferred, pooled or lent between units so that liquidity reaches where it is needed while each entity keeps
+    its own governance.
+  capabilities:
+  - global-fund-orchestration
+  entities:
+  - bank-account
+  - liquidity-forecast
+  - payment
+  serves:
+  - cash-pool
+- slug: currency-exposure-management
+  title: Currency Exposure Management
+  summary: Exchange rates are monitored, the group's exposure to currency movements is forecast, and exposures beyond policy are hedged.
+  capabilities:
+  - currency-exposure-cover
+  entities:
+  - risk
+  - contract
+  serves:
+  - treasury-committee
+- slug: currency-translation
+  title: Currency Translation
+  summary: The accounts of entities reporting in other currencies are translated into the group currency, keeping local meaning visible.
+  capabilities:
+  - currency-translation-stewardship
+  entities:
+  - financial-statement
+  - journal-entry
+  serves:
+  - group-reporting-package
+- slug: group-consolidation
+  title: Group Consolidation
+  summary: Entity results are combined, intercompany balances and profits eliminated, and minority interests recognised to give one
+    picture of the group.
+  capabilities:
+  - financial-consolidation
+  entities:
+  - financial-statement
+  - legal-entity
+  - journal-entry
+  serves:
+  - group-reporting-package
+- slug: group-results-reporting
+  title: Group Results Reporting
+  summary: Consolidated results, including the gains and losses from currency movements, are reported to management, owners and lenders.
+  capabilities:
+  - exchange-gain-and-loss-reporting
+  - financial-consolidation
+  entities:
+  - financial-statement
+  - report
+  serves:
+  - annual-report
+  - lender-review
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

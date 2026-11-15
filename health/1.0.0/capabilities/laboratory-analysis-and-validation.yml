@@ -1,0 +1,13 @@
+kind: capability
+slug: laboratory-analysis-and-validation
+title: Laboratory Analysis & Validation
+level: L3
+parent: laboratory-testing-process
+summary: Analyse samples and validate results technically and medically before release.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

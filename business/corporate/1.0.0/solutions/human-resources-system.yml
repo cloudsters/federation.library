@@ -1,0 +1,45 @@
+kind: solution
+slug: human-resources-system
+title: Human Resources System
+role: system-of-record
+summary: Holds the organisation's structure, positions, people and employment relationships with skills, competencies, appraisals,
+  succession and grievances, as the authoritative record of who works here and in what role.
+carries:
+- capability-architecture
+- career-as-unfolding-journey
+- career-framework-architecture
+- compensation-benchmarking
+- contingent-workforce-management
+- gamification-recognition-design
+- grievance-as-system-signal
+- growth-path-stewardship
+- internal-mobility-marketplace
+- onboarding-as-boot-sequence
+- outplacement-as-generative-exit
+- participant-data-stewardship
+- people-strategy-design
+- people-strategy-sensing
+- performance-as-growth-sensing
+- recognition-reciprocity-design
+- relocation-as-ecosystem-transplant
+- separation-with-dignity
+- skills-ontology-and-matching
+- succession-planning
+- workforce-analytics-deployment
+- workforce-ecosystem-policies
+- workforce-intelligence-cultivation
+- job-evaluation-and-pay-grading
+- incentive-plan-management
+holds:
+- employee-record
+- department
+- position
+- employment
+- skill
+- competency-model
+- appraisal
+- workforce-plan
+- succession-plan
+- grievance
+- workforce-analytics
+- credential

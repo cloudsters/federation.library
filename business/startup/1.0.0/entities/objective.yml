@@ -1,0 +1,47 @@
+kind: entity
+slug: objective
+title: Objective
+type: governance
+summary: A measurable target — a specific, time-bound goal that makes strategy concrete and provides the criteria by which the organisation
+  knows whether its actions are working.
+attributes:
+- name: target-statement
+  type: text
+  card: 1..1
+- name: measure
+  type: reference(measure)
+  card: 1..1
+- name: threshold
+  type: text
+  card: 0..1
+- name: owner
+  type: reference(employee-record)
+  card: 1..1
+- name: time-window
+  type: period
+  card: 1..1
+- name: strategy
+  type: reference(strategy)
+  card: 0..1
+- name: initiative
+  type: reference(initiative)
+  card: 0..1
+- name: key-results
+  type: reference(objective)
+  card: 0..*
+states:
+- set
+- committed
+- on-track
+- at-risk
+- met
+- missed
+- refined
+- retired
+relations:
+- type: part-of
+  target: strategy
+- type: refers-to
+  target: measure
+- type: composed-of
+  target: objective

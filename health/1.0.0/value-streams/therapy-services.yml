@@ -1,0 +1,128 @@
+kind: value-stream
+slug: therapy-services
+title: Therapy Services
+family: demand-to-fulfillment
+summary: Restoring and maintaining function through physiotherapy, occupational therapy, speech therapy, nutrition therapy and psychological
+  care, including early rehabilitation during the hospital stay.
+trigger: A clinician refers a patient for therapy, or screening identifies a functional or nutritional need.
+outcome: The patient has received therapy towards agreed functional goals, and progress is documented.
+stakeholders:
+- older-person-with-frailty
+- person-with-chronic-condition
+- critically-ill-patient
+- paediatric-patient
+- relative
+- informal-carer
+- allied-health-professional
+- specialist-physician
+- registered-nurse
+- follow-on-care-provider
+steps:
+- slug: referral-and-screening
+  title: Referral and Screening
+  summary: Patients are referred by clinicians or identified by screening for functional, swallowing, nutritional or psychological
+    needs, and the requests are prioritised by urgency and expected benefit.
+  capabilities:
+  - clinical-order-entry
+  - nursing-risk-screening
+  - rehabilitation-needs-assessment
+  - clinical-nutrition
+  entities:
+  - clinical-order
+  - risk-assessment
+  - assessment-instrument
+  serves:
+  - clinical-workstation
+  - nursing-admission-interview
+  - ward-round
+- slug: therapy-assessment
+  title: Therapy Assessment
+  summary: The therapist assesses movement, daily activities, swallowing, communication, nutritional status or psychological state
+    with standard instruments and establishes the level before illness and the potential for recovery.
+  capabilities:
+  - physiotherapy
+  - occupational-therapy
+  - speech-and-swallowing-therapy
+  - clinical-nutrition
+  - clinical-psychology
+  - rehabilitation-needs-assessment
+  - geriatric-assessment
+  entities:
+  - care-needs-assessment
+  - assessment-instrument
+  - observation
+  serves:
+  - therapy-session
+- slug: goal-setting-and-therapy-plan
+  title: Goal Setting and Therapy Plan
+  summary: Functional goals are agreed with patient and family, and the type, frequency and intensity of therapy are planned with
+    the treating team and written into the care plan.
+  capabilities:
+  - care-plan-determination
+  - shared-decision-making-practice
+  - early-rehabilitation
+  - occupational-therapy
+  entities:
+  - care-goal
+  - care-plan
+  - nutrition-order
+  serves:
+  - family-meeting
+  - therapy-session
+- slug: therapy-delivery
+  title: Therapy Delivery
+  summary: Therapy is delivered individually or in groups, including mobilisation and exercise, training in daily activities, swallowing
+    and speech therapy, nutrition therapy and psychological support, starting in intensive care where possible.
+  capabilities:
+  - physiotherapy
+  - occupational-therapy
+  - speech-and-swallowing-therapy
+  - clinical-nutrition
+  - clinical-psychology
+  - early-rehabilitation
+  - mobility-and-self-care-support
+  entities:
+  - procedure
+  - nutrition-order
+  - observation
+  - clinical-document
+  serves:
+  - therapy-session
+- slug: aids-and-home-preparation
+  title: Aids and Home Preparation
+  summary: Aids are fitted, the home situation is assessed and adapted, and patient and carers are trained so that the function gained
+    is kept after discharge.
+  capabilities:
+  - occupational-therapy
+  - self-management-support
+  - patient-discharge-education
+  - social-care-coordination
+  entities:
+  - care-plan
+  - care-needs-assessment
+  - related-person
+  serves:
+  - home-programme
+  - home-visit
+- slug: progress-review-and-handover
+  title: Progress Review and Handover
+  summary: Progress against the goals is measured and documented, the plan is adjusted, and the need for rehabilitation or community
+    therapy is applied for and handed over at discharge.
+  capabilities:
+  - rehabilitation-needs-assessment
+  - rehabilitation-referral
+  - patient-reported-outcome-measurement
+  - care-transition-coordination
+  entities:
+  - care-goal
+  - observation
+  - patient-reported-outcome
+  - care-transition
+  - coverage-approval
+  serves:
+  - discharge-letter
+  - discharge-planning-meeting
+binds:
+- source: src-431
+  edition: 2026-01
+  jurisdiction: global

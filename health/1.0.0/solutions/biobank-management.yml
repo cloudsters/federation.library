@@ -1,0 +1,21 @@
+kind: solution
+slug: biobank-management
+title: Biobank Management
+role: system-of-record
+summary: Tracks biological samples stored for research from collection through processing, aliquoting and storage to release and use,
+  each linked to the consent and the data that govern it.
+carries:
+- biobank-governance
+- biobank-operations
+holds:
+- biobank-sample
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

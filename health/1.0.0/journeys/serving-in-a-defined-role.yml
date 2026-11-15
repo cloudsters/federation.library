@@ -1,0 +1,53 @@
+kind: journey
+slug: serving-in-a-defined-role
+title: Serving in a Defined Role
+stakeholder: documentation-agent
+summary: An AI agent that drafts documentation receives a mandate, proves itself on the organisation's own data, works alongside clinicians
+  under oversight, is reviewed and retrained, and is retired when a successor serves better.
+stages:
+- slug: receive-a-mandate
+  title: Receive a Mandate
+  goal: 'Hold a clear mandate: tasks, permitted actions, required confirmations and when to stop and escalate.'
+  step: ai-agent-lifecycle/role-and-mandate-design
+  touchpoints:
+  - teaming-charter
+- slug: prove-fitness
+  title: Prove Fitness
+  goal: Show on the organisation's own data and workflow that its outputs are accurate, safe and fair.
+  step: ai-agent-lifecycle/selection-and-validation
+  touchpoints:
+  - agent-validation-report
+  - ai-technical-documentation
+- slug: take-up-the-role
+  title: Take Up the Role
+  goal: Receive an identity, the data access the mandate allows and named overseers.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - ai-governance-board
+  - teaming-charter
+- slug: work-alongside-the-team
+  title: Work Alongside the Team
+  goal: Deliver drafts in the clinicians' workflow, marked as its own and corrected by them.
+  step: ai-agent-lifecycle/onboarding-into-the-workflow
+  touchpoints:
+  - clinical-workstation
+- slug: be-reviewed
+  title: Be Reviewed
+  goal: Have performance, overrides and drift reviewed, and receive corrections.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-performance-review
+  - ai-monitoring-dashboard
+- slug: be-retrained
+  title: Be Retrained
+  goal: Change only under a controlled plan and return to work revalidated.
+  step: ai-agent-lifecycle/retraining-and-change
+  touchpoints:
+  - agent-validation-report
+  - ai-governance-board
+- slug: hand-over-to-a-successor
+  title: Hand Over to a Successor
+  goal: Hand tasks and records to a successor without gaps when the role ends.
+  step: ai-agent-lifecycle/retirement-and-succession
+  touchpoints:
+  - teaming-charter

@@ -1,0 +1,42 @@
+kind: journey
+slug: city-administration-taking-a-proposal-to-resolution
+title: City Administration Taking a Proposal to Resolution
+stakeholder: city-administration
+summary: A department finds where a decision rests, prepares the proposal with evidence, alternatives, cost and consultation, takes
+  it through committee and council, reports on its delivery and answers every audit finding in public.
+stages:
+- slug: find-where-the-decision-rests
+  title: Find Where the Decision Rests
+  goal: The department knows from the published map whether the matter is for residents, a neighbourhood, the council or a metropolitan
+    body.
+  step: governance-and-oversight/decision-authority-mapping
+  touchpoints:
+  - published-decision-map
+- slug: prepare-the-proposal
+  title: Prepare the Proposal
+  goal: The proposal states evidence, alternatives, cost, the results of consultation, who benefits, who pays and what it leaves to
+    future generations.
+  step: governance-and-oversight/decision-preparation
+  touchpoints:
+  - council-proposal
+  - public-hearing
+- slug: bring-it-before-the-council
+  title: Bring It Before the Council
+  goal: The proposal has been deliberated in public and resolved, with reasons and dissent recorded.
+  step: governance-and-oversight/deliberation-and-resolution
+  touchpoints:
+  - committee-meeting
+  - council-meeting
+- slug: report-what-was-delivered
+  title: Report What Was Delivered
+  goal: What was promised, delivered and failed, and why, has been reported to the council and the neighbourhoods concerned.
+  step: governance-and-oversight/implementation-oversight
+  touchpoints:
+  - implementation-report
+- slug: answer-every-finding
+  title: Answer Every Finding
+  goal: Each finding of internal audit or resident inspectors has a public answer within the set time.
+  step: governance-and-oversight/audit-and-inspection
+  touchpoints:
+  - audit-report
+  - resident-inspection

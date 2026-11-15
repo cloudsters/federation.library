@@ -1,0 +1,39 @@
+kind: journey
+slug: agent-acting-within-a-mandate
+title: Agent Acting Within a Mandate
+stakeholder: procurement-agent
+summary: A procurement agent receives a bounded mandate, matches the need against offers in the network, checks each counterpart,
+  negotiates or escalates and records the exchange it concludes.
+stages:
+- slug: receive-the-mandate
+  title: Receive the Mandate
+  goal: The agent holds an explicit mandate with bounds and escalation triggers.
+  step: commons-federation-exchange/need-and-mandate-definition
+  touchpoints:
+  - agent-mandate
+- slug: match-offers
+  title: Match Offers
+  goal: Offers in the network are matched continuously against the need.
+  step: commons-federation-exchange/federated-matching
+  touchpoints:
+  - federated-exchange-network
+  - published-offer
+- slug: check-the-counterpart
+  title: Check the Counterpart
+  goal: Each candidate is checked on verified evidence before any negotiation.
+  step: commons-federation-exchange/counterpart-fitness-check
+  touchpoints:
+  - verified-member-evidence
+- slug: negotiate-or-escalate
+  title: Negotiate or Escalate
+  goal: Terms are negotiated within the mandate, and the case is handed to people when a trigger fires.
+  step: commons-federation-exchange/agent-to-agent-negotiation
+  touchpoints:
+  - agent-negotiation
+  - agent-escalation
+- slug: record-the-exchange
+  title: Record the Exchange
+  goal: The concluded exchange is recorded with the mandate under which it was made.
+  step: commons-federation-exchange/exchange-settlement-and-recording
+  touchpoints:
+  - exchange-record

@@ -1,0 +1,54 @@
+kind: entity
+slug: land-registry
+title: Land Registry
+type: intelligence
+summary: The official record of land ownership, rights and burdens for every parcel in the city. The registry office keeps it, and
+  valuation, assessment and the public asset register read it to know who holds each parcel and on what terms.
+attributes:
+- name: registry-number
+  type: identifier
+  card: 1..1
+- name: parcel
+  type: reference(land-parcel)
+  card: 1..1
+- name: owners
+  type: text
+  card: 1..*
+- name: ownership-kind
+  type: code
+  card: 1..1
+- name: rights
+  type: text
+  card: 0..*
+- name: burdens
+  type: text
+  card: 0..*
+- name: registered-on
+  type: date
+  card: 1..1
+- name: last-transfer-on
+  type: date
+  card: 0..1
+- name: transfer-price
+  type: amount
+  card: 0..1
+- name: kept-by
+  type: text
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 1..1
+states:
+- applied
+- registered
+- transferred
+- burdened
+- corrected
+- closed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: city

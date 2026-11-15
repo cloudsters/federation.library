@@ -1,0 +1,123 @@
+kind: value-stream
+slug: service-quality-and-learning-from-failure
+title: Service Quality and Learning from Failure
+family: collaboration-to-automation
+summary: Keeping the city's services reliable and learning openly when they fail. It holds service standards set with those who use
+  and deliver the services, checks of quality in the flow of work, the reporting of failures and near misses by staff and residents
+  without blame, open disclosure to those affected, the analysis of causes, corrective action and the regular review of quality across
+  the administration.
+trigger: A service standard is set or changed, a quality review falls due, or a failure, near miss or complaint is reported.
+outcome: Services meet their published standards, and every reported failure is answered, its cause removed and its lesson shared.
+stakeholders:
+- resident
+- frontline-worker
+- city-administration
+- city-council
+- resident-inspector
+- disabled-resident
+steps:
+- slug: service-standard-setting
+  title: Service Standard Setting
+  summary: Each service sets and publishes, with those who use and deliver it, the standards residents can expect, such as response
+    times, accessibility and how to reach a person.
+  capabilities:
+  - service-standard-setting
+  - service-level-setting
+  entities:
+  - service-standard
+  - public-service
+  serves:
+  - published-service-standard
+  - service-standard-workshop
+- slug: in-service-quality-checks
+  title: In-Service Quality Checks
+  summary: Staff check quality as the work is done, through simple checks built into the procedure, and residents' feedback is gathered
+    at the point of service.
+  capabilities:
+  - in-service-quality-checking
+  - resident-service-feedback-gathering
+  entities:
+  - standard-procedure
+  - citizen-satisfaction
+  serves:
+  - built-in-quality-checklist
+  - point-of-service-feedback
+- slug: failure-and-near-miss-reporting
+  title: Failure and Near-Miss Reporting
+  summary: Staff and residents report failures and near misses through simple channels without fear of blame. Each report is graded
+    by its harm and urgency.
+  capabilities:
+  - service-failure-reporting
+  - resident-service-feedback-gathering
+  entities:
+  - service-failure-report
+  - citizen-complaint
+  serves:
+  - failure-and-near-miss-report-line
+- slug: open-disclosure-and-redress
+  title: Open Disclosure and Redress
+  summary: Residents affected by a failure are told what happened and what the city will do about it, and they receive the remedy
+    the service standard promises.
+  capabilities:
+  - open-disclosure-of-service-failures
+  - claim-and-dispute-resolution
+  entities:
+  - service-failure-report
+  - service-standard
+  serves:
+  - open-disclosure-meeting
+  - published-service-standard
+- slug: cause-analysis
+  title: Cause Analysis
+  summary: For serious or repeated failures, the staff who run the service and those affected look for the causes in the process,
+    the tools and the conditions of work rather than in individual blame.
+  capabilities:
+  - failure-cause-analysis
+  - process-mapping-with-frontline-staff
+  entities:
+  - cause-analysis-report
+  - process-map
+  serves:
+  - cause-analysis-session
+  - current-state-process-map
+- slug: corrective-action
+  title: Corrective Action
+  summary: Actions that remove the causes are agreed and given owners and dates, and each is checked for effect before it is closed.
+  capabilities:
+  - corrective-action-tracking
+  - process-redesign
+  entities:
+  - corrective-action
+  - standard-procedure
+  serves:
+  - corrective-action-tracker
+  - published-standard-procedure
+- slug: quality-review-and-lesson-sharing
+  title: Quality Review and Lesson Sharing
+  summary: The administration reviews quality across its services at a regular rhythm with resident inspectors and internal audit,
+    reports to the council and shares the lessons across departments.
+  capabilities:
+  - service-quality-review
+  - internal-audit
+  - lesson-recording-and-sharing
+  entities:
+  - audit-finding
+  - lesson-record
+  - oversight-report
+  serves:
+  - published-service-quality-report
+  - service-quality-review-meeting
+  - staff-knowledge-base
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global
+- source: src-234
+  edition: '2018'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

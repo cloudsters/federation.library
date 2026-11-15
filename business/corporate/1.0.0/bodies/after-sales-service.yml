@@ -1,0 +1,10 @@
+kind: body
+slug: after-sales-service
+title: After-Sales Service
+summary: 'Keeps the installed base working: warranties, service contracts, repairs, refurbishment and spare parts.'
+holds:
+- after-sales-service
+- field-service-delivery
+part_of: executive-board
+type: function
+form: organisational-unit

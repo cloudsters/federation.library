@@ -1,0 +1,6 @@
+kind: capability
+slug: traffic-signal-operation
+title: Traffic Signal Operation
+level: L3
+parent: streets-and-traffic
+summary: Run traffic signals to give priority to people walking, buses and bikes and to respond to incidents and events.

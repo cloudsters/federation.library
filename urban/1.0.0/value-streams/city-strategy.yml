@@ -1,0 +1,139 @@
+kind: value-stream
+slug: city-strategy
+title: City Strategy
+family: purpose-to-portfolio
+summary: Translating the vision, the charter and the council's mandate into a strategy for the term, assessing the needs of residents,
+  the conditions of the region and the municipality's own capacity, testing options on evidence rather than doctrine, choosing priorities
+  and the organisation of the administration that carries them, and cascading them into measurable objectives for departments and
+  neighbourhoods.
+trigger: A new council term begins, the vision is renewed, or a shift in need, finances or the region invalidates the current strategy.
+outcome: An adopted city strategy with priorities, objectives and owners is communicated and cascaded into departmental and neighbourhood
+  plans.
+stakeholders:
+- city-council
+- mayor
+- city-administration
+- resident
+- neighbourhood-association
+- civil-society-organisation
+- local-business
+- neighbouring-municipality
+steps:
+- slug: strategy-cycle-opening
+  title: Strategy Cycle Opening
+  summary: The mayor and the council open the strategy cycle for the term, confirm the vision and mandate that bound it, and set the
+    scope, the participants, the method and the calendar of the work.
+  capabilities:
+  - strategy-cycle-planning
+  - council-decision-preparation
+  entities:
+  - city-strategy
+  - city-vision
+  - council-decision
+  serves:
+  - strategy-cycle-brief
+- slug: need-and-condition-assessment
+  title: Need and Condition Assessment
+  summary: The needs of residents across neighbourhoods and groups, the conditions of the region and the ecological limits the city
+    must keep within are assessed for the strategy horizon, with residents and researchers asking the questions together.
+  capabilities:
+  - resident-need-assessment
+  - ecological-limit-assessment
+  - equity-audit
+  - environment-sensing
+  entities:
+  - need-assessment
+  - whole-city-assessment
+  - population-register
+  serves:
+  - community-research-partnership
+  - need-and-condition-report
+- slug: municipal-capacity-assessment
+  title: Municipal Capacity Assessment
+  summary: The administration's own capabilities, staff, assets and finances are assessed, together with the assets, relationships
+    and strengths that neighbourhoods and community bodies already hold.
+  capabilities:
+  - municipal-capability-assessment
+  - community-asset-mapping
+  entities:
+  - municipal-capability
+  - community-asset-map
+  - municipal-budget
+  serves:
+  - asset-mapping-workshop
+  - capability-review-workshop
+- slug: strategic-option-appraisal
+  title: Strategic Option Appraisal
+  summary: Strategic options are drawn up and tested on the evidence of what has worked here and elsewhere, against the vision, the
+    city's capacity and finances, and who would bear the costs and who would gain, rather than on party doctrine.
+  capabilities:
+  - strategic-option-appraisal
+  - policy-evidence-review
+  - decision-impact-assessment
+  entities:
+  - strategic-option
+  - evidence-review
+  - city-strategy
+  serves:
+  - peer-city-evidence-exchange
+  - strategic-options-paper
+- slug: strategy-choice-and-adoption
+  title: Strategy Choice and Adoption
+  summary: The council chooses the priorities for the term and the rules for allocating scarce resources between them, forms the coalition
+    that carries them, and adopts the strategy with its reasons and the positions of the minority.
+  capabilities:
+  - strategic-priority-setting
+  - council-decision-recording
+  - dissent-recording
+  entities:
+  - city-strategy
+  - council-decision
+  serves:
+  - published-city-strategy
+  - strategy-adoption-debate
+- slug: administration-design
+  title: Administration Design
+  summary: The structure of departments the strategy needs is designed, including which work the city does itself, which it shares
+    with neighbourhood bodies or neighbouring municipalities and which it leaves to others, and the decision rights are set at the
+    level closest to those affected.
+  capabilities:
+  - administration-structure-design
+  - decision-rights-allocation
+  - cross-boundary-agreement-handling
+  entities:
+  - department
+  - municipal-capability
+  - cross-boundary-agreement
+  - decision-rights-register
+  serves:
+  - administration-design-workshop
+  - published-administration-structure
+- slug: objective-cascade
+  title: Objective Cascade
+  summary: The strategy is translated into measurable objectives with owners, departmental and neighbourhood plans are aligned with
+    it, and the whole is told to staff, partners and residents in terms each can act on.
+  capabilities:
+  - city-objective-setting
+  - departmental-plan-alignment
+  - vision-communication
+  entities:
+  - city-objective
+  - departmental-plan
+  - city-strategy
+  serves:
+  - objective-setting-session
+  - published-city-objectives
+  - published-city-strategy
+binds:
+- source: src-172
+  edition: '2019'
+  jurisdiction: global
+- source: src-185
+  edition: 2019-03
+  jurisdiction: global
+- source: src-198
+  edition: '2022-07-06'
+  jurisdiction: global
+- source: src-202
+  edition: '2024-09-22'
+  jurisdiction: global

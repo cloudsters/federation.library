@@ -1,0 +1,58 @@
+kind: entity
+slug: tree-inventory
+title: Tree Inventory
+type: intelligence
+summary: The catalogue of all public trees with their place, species, age, condition and the care each needs. The department responsible
+  keeps it from surveys and residents' reports, and it is used to plan care, removal and new planting.
+attributes:
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: reference-date
+  type: date
+  card: 1..1
+- name: tree-count
+  type: integer
+  card: 1..1
+- name: tree-records
+  type: document
+  card: 1..1
+- name: species
+  type: code
+  card: 1..*
+- name: age-classes
+  type: code
+  card: 0..*
+- name: condition-classes
+  type: code
+  card: 0..*
+- name: care-needs
+  type: text
+  card: 0..*
+- name: survey-sources
+  type: code
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: open-map
+  type: reference(gis-layer)
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+states:
+- collected
+- validated
+- current
+- updated
+- superseded
+relations:
+- type: part-of
+  target: urban-forest
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: gis-layer
+- type: refers-to
+  target: tree-planting

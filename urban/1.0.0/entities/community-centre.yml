@@ -1,0 +1,53 @@
+kind: entity
+slug: community-centre
+title: Community Centre
+type: master
+summary: A neighbourhood building for gatherings, events, services and civic life, with its rooms, hours, who runs it and how residents
+  book it. The body that runs it, the city or a neighbourhood association, keeps the record, and residents use it to find a place
+  to meet without having to pay.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: operator
+  type: text
+  card: 1..1
+- name: rooms
+  type: text
+  card: 0..*
+- name: opening-hours
+  type: text
+  card: 1..1
+- name: booking-rules
+  type: text
+  card: 0..1
+- name: free-of-charge
+  type: boolean
+  card: 0..1
+- name: accessibility-provisions
+  type: text
+  card: 0..*
+- name: shared-use
+  type: reference(shared-use-agreement)
+  card: 0..*
+states:
+- planned
+- open
+- temporarily-closed
+- transferred
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: building
+- type: governed-by
+  target: shared-use-agreement
+- type: refers-to
+  target: community-event

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: documentation-query
+title: Documentation Query
+medium: artefact
+summary: A clarification request from a documentation specialist or coder to the responsible clinician, answered in the record before
+  coding is final; the most frequent contact between coding and the care teams.
+exchanges:
+- coding-expertise-for-precise-documentation
+journey: documenting-a-stay-for-coding

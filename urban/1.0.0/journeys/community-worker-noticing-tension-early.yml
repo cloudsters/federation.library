@@ -1,0 +1,37 @@
+kind: journey
+slug: community-worker-noticing-tension-early
+title: Community Worker Noticing Tension Early
+stakeholder: community-development-worker
+summary: A community worker gathers early signs of tension from trusted residents, brings them into the cohesion assessment, calls
+  on faith voices, brings those concerned together to calm rising tension and reports what changed.
+stages:
+- slug: gather-the-signals
+  title: Gather the Signals
+  goal: The worker has gathered from trusted residents and faith communities where trust is falling and where tension is rising.
+  step: community-relations-and-cohesion/cohesion-sensing
+  touchpoints:
+  - trusted-voices-network
+- slug: assemble-the-picture
+  title: Assemble the Picture
+  goal: The signals are brought together with the resident survey in the cohesion assessment by neighbourhood.
+  step: community-relations-and-cohesion/cohesion-sensing
+  touchpoints:
+  - published-cohesion-picture
+- slug: call-on-faith-voices
+  title: Call on Faith Voices
+  goal: The interfaith forum has been asked to speak together where tension touches faith.
+  step: community-relations-and-cohesion/interfaith-dialogue
+  touchpoints:
+  - interfaith-forum-meeting
+- slug: calm-rising-tension
+  title: Calm Rising Tension
+  goal: Trusted local figures and those concerned have met quickly and tension has been calmed before it turned into conflict.
+  step: community-relations-and-cohesion/encounter-across-difference
+  touchpoints:
+  - facilitated-dialogue-gathering
+- slug: report-what-changed
+  title: Report What Changed
+  goal: The worker has reported to the yearly review what each programme achieved and where tension persists.
+  step: community-relations-and-cohesion/cohesion-review
+  touchpoints:
+  - cohesion-review-meeting

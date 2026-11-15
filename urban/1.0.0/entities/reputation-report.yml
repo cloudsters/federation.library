@@ -1,0 +1,61 @@
+kind: entity
+slug: reputation-report
+title: Reputation Report
+type: intelligence
+summary: The regular report of what residents, local and outside media and online channels say about the city, by topic and neighbourhood,
+  set beside what residents report of their own lives, with the gaps between the two named. The communications office prepares it,
+  reviews it once a year with residents and neighbourhood bodies and presents it to the council, and it is used to correct the city's
+  account and to reach those its information missed.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: topics
+  type: text
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: sources-followed
+  type: code
+  card: 1..*
+- name: resident-surveys
+  type: reference(citizen-satisfaction)
+  card: 0..*
+- name: gaps-named
+  type: text
+  card: 0..*
+- name: groups-reached
+  type: text
+  card: 0..*
+- name: groups-missed
+  type: text
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 0..*
+- name: presented-on
+  type: date
+  card: 0..1
+- name: report
+  type: document
+  card: 1..1
+states:
+- planned
+- gathering
+- drafted
+- reviewed
+- presented
+- published
+relations:
+- type: based-on
+  target: citizen-satisfaction
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-profile
+- type: refers-to
+  target: public-communication

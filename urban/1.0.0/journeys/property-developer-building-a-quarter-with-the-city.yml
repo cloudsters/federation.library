@@ -1,0 +1,45 @@
+kind: journey
+slug: property-developer-building-a-quarter-with-the-city
+title: Property Developer Building a Quarter with the City
+stakeholder: property-developer
+summary: A developer proposes a district, learns the council's terms, shapes the concept with residents and planners, signs a binding
+  agreement with community benefits, builds in stages in step with streets and networks and accounts for the benefits it promised.
+stages:
+- slug: propose-the-district
+  title: Propose the District
+  goal: The proposal with its reasons and a first view of the land is appraised against the spatial plan and the strategy.
+  step: district-development/district-proposal
+  touchpoints:
+  - district-proposal-form
+- slug: learn-the-council-terms
+  title: Learn the Council Terms
+  goal: The developer knows the council's terms for the district, including which public land stays public and is granted on lease.
+  step: district-development/district-commitment
+  touchpoints:
+  - district-terms-resolution
+- slug: shape-the-concept-with-residents
+  title: Shape the Concept with Residents
+  goal: The district concept is shaped with residents and is buildable and fundable.
+  step: district-development/district-concept-design
+  touchpoints:
+  - district-design-workshop
+- slug: sign-a-binding-agreement
+  title: Sign a Binding Agreement
+  goal: Commons space, affordable homes, a community benefit fund, the right to buy first and a share of the rise in land value are
+    written into a published agreement.
+  step: district-development/development-agreement
+  touchpoints:
+  - agreement-negotiation-round
+  - published-development-agreement
+- slug: build-in-stages
+  title: Build in Stages
+  goal: Buildings are delivered in agreed stages, in step with streets, networks and commons spaces.
+  step: district-development/district-delivery
+  touchpoints:
+  - district-delivery-meeting
+- slug: account-for-the-benefits
+  title: Account for the Benefits
+  goal: The developer has accounted for each community benefit against the agreement and the neighbourhood has judged it.
+  step: district-development/quarter-review
+  touchpoints:
+  - community-benefit-report

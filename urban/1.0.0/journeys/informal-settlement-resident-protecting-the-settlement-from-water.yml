@@ -1,0 +1,33 @@
+kind: journey
+slug: informal-settlement-resident-protecting-the-settlement-from-water
+title: Informal Settlement Resident Protecting the Settlement from Water
+stakeholder: informal-settlement-resident
+summary: A resident of an informal settlement maps where water runs and slopes slide, chooses with neighbours how to adapt, builds
+  living and built edges with the city and tends them after each storm.
+stages:
+- slug: map-where-water-runs
+  title: Map Where Water Runs
+  goal: The settlement's knowledge of where water runs, pools and undermines is part of the city's exposure assessment.
+  step: climate-adaptation-and-green-infrastructure/asset-exposure-assessment
+  touchpoints:
+  - flood-and-heat-exposure-walk
+- slug: choose-how-to-adapt
+  title: Choose How to Adapt
+  goal: Residents have chosen how to adapt, and the cost is shared fairly in the adaptation plan.
+  step: climate-adaptation-and-green-infrastructure/adaptation-options-with-residents
+  touchpoints:
+  - adaptation-options-forum
+- slug: build-the-edges-together
+  title: Build the Edges Together
+  goal: Slopes and banks in the settlement are planted and, where needed, protected by drains and walls built with residents.
+  step: climate-adaptation-and-green-infrastructure/slope-riverbank-and-shoreline-protection
+  touchpoints:
+  - living-edge-work-day
+  - slope-and-bank-works-site
+- slug: tend-after-each-storm
+  title: Tend After Each Storm
+  goal: Residents tend the planting under a care agreement and report after each storm how the works held.
+  step: climate-adaptation-and-green-infrastructure/establishment-care-and-monitoring
+  touchpoints:
+  - place-care-agreement-meeting
+  - after-storm-performance-check

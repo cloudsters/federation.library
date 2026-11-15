@@ -1,0 +1,18 @@
+kind: body
+slug: social-services-department
+title: Social Services Department
+summary: Employs the city's social workers, receives requests for care at one point, assesses needs with each person and their carers,
+  agrees one plan across providers, delivers care at home and in the neighbourhood, supports carers, plans the handovers between services
+  and convenes the district care networks.
+holds:
+- integrated-care
+- care-network-agreement-drafting
+- care-needs-assessment
+- joined-care-planning
+- home-care-provision
+- carer-support-provision
+- care-transition-planning
+- tenancy-sustainment-support
+part_of: full-council
+type: function
+form: organisational-unit

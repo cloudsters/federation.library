@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-heat-and-power-map
+title: Neighbourhood Heat and Power Map
+medium: artefact
+summary: The map of heat and power demand and of the sources of renewable energy and waste heat by neighbourhood, from which the energy
+  strategy decides what goes first.
+exchanges:
+- neighbourhood-knowledge-for-a-say-in-the-energy-strategy
+journey: neighbourhood-association-building-community-energy

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: network-plan-consultation
+title: Network Plan Consultation
+medium: encounter
+summary: The consultation with riders, drivers and their unions on routes, frequencies, connections and night corridors, and on the
+  yearly changes to the network plan.
+exchanges:
+- travel-patterns-for-service-at-their-hours
+- driver-knowledge-for-shifts-that-can-be-sustained
+- rider-verdict-for-a-changed-network-plan
+journey: night-shift-worker-getting-to-work-at-any-hour

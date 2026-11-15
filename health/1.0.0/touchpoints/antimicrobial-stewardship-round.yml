@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: antimicrobial-stewardship-round
+title: Antimicrobial Stewardship Round
+medium: encounter
+summary: The round in which the stewardship team reviews patients on antimicrobials with the treating team and advises on choice,
+  dose, duration and stopping.
+exchanges:
+- stewardship-advice-for-prescribing
+journey: protected-from-infection

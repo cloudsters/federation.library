@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: legal-question-for-sound-advice
+title: Legal Question for Sound Advice
+between:
+- city-administration
+- legal-and-compliance-officer
+offered:
+- A legal question asked early, with the facts in full.
+returned:
+- Advice on what the law requires, and outside counsel engaged where needed.
+touchpoint: legal-advice-request

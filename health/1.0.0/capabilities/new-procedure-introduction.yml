@@ -1,0 +1,10 @@
+kind: capability
+slug: new-procedure-introduction
+title: New Procedure Introduction
+level: L3
+parent: technology-assessment
+summary: Govern the first use of new clinical procedures through approval, training and outcome monitoring.
+binds:
+- source: src-477
+  edition: '2019'
+  jurisdiction: global

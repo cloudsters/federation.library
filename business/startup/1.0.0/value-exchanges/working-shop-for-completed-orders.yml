@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: working-shop-for-completed-orders
+title: Working Shop for Completed Orders
+between:
+- information-technology-specialist
+- consumer
+offered:
+- A web shop and app that work, a simple, transparent checkout and a confirmed order.
+returned:
+- Completed orders, payment and the browsing behaviour that shows where the path breaks.
+touchpoint: mobile-app

@@ -1,0 +1,37 @@
+kind: journey
+slug: running-a-joint-tender
+title: Running a Joint Tender
+stakeholder: purchasing-alliance
+summary: A purchasing alliance's path through a joint tender in which the commons is one of the members, from pooled need to a framework
+  agreement the commons orders from.
+stages:
+- slug: pool-the-need
+  title: Pool the Need
+  goal: Members commit volumes and timing, so that the joint tender carries real weight with suppliers.
+  step: tendering-and-contracting/need-assessment-and-procedure-choice
+  touchpoints:
+  - alliance-sourcing-group
+- slug: harmonise-requirements
+  title: Harmonise Requirements
+  goal: Members agree one specification that fits all of them without settling for the weakest product.
+  step: tendering-and-contracting/requirement-specification
+  touchpoints:
+  - alliance-sourcing-group
+- slug: evaluate-jointly
+  title: Evaluate Jointly
+  goal: Clinical experts from several members evaluate the bids together against the published criteria.
+  step: tendering-and-contracting/bid-evaluation
+  touchpoints:
+  - alliance-sourcing-group
+- slug: award-the-framework
+  title: Award the Framework
+  goal: The framework agreement is awarded with a reasoned notice to every bidder.
+  step: tendering-and-contracting/award-decision
+  touchpoints:
+  - award-notice
+- slug: bring-the-commons-in
+  title: Bring the Commons In
+  goal: The commons joins the framework agreement and its units order from it on the agreed terms.
+  step: tendering-and-contracting/contract-conclusion
+  touchpoints:
+  - supply-contract

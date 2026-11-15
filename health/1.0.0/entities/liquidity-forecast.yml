@@ -1,0 +1,43 @@
+kind: entity
+slug: liquidity-forecast
+title: Liquidity Forecast
+type: intelligence
+summary: An estimate of the organisation's incoming and outgoing payments and resulting cash position over a coming horizon, derived
+  from claims, payer instalments, payroll, supplier invoices and financing, used to secure liquidity ahead of need.
+attributes:
+- name: forecast-horizon
+  type: period
+  card: 1..1
+- name: granularity
+  type: code
+  card: 1..1
+- name: prepared-on
+  type: date
+  card: 1..1
+- name: opening-cash
+  type: amount
+  card: 1..1
+- name: expected-inflows
+  type: amount
+  card: 1..1
+- name: expected-outflows
+  type: amount
+  card: 1..1
+- name: minimum-cash-position
+  type: amount
+  card: 0..1
+- name: assumptions
+  type: text
+  card: 0..*
+states:
+- draft
+- released
+relations:
+- type: based-on
+  target: budget
+- type: based-on
+  target: payer-agreement
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global

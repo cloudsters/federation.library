@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: incomes-and-prices-for-adjusted-hubs-and-rules
+title: Incomes and Prices for Adjusted Hubs and Rules
+between:
+- local-producer
+- city-administration
+offered:
+- Producers' incomes, prices and delivery times reported for the yearly review.
+returned:
+- Hubs and rules adjusted so that fresh food reaches more neighbourhoods and producers keep a fair share.
+touchpoint: delivery-and-food-access-map

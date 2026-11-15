@@ -1,0 +1,10 @@
+kind: capability
+slug: in-situ-simulation
+title: In-Situ Simulation
+level: L3
+parent: simulation-training
+summary: Run simulations in real clinical settings to test teams, processes and equipment.
+binds:
+- source: src-313
+  edition: '2025'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-standard-operating-procedures
+title: Clinical Standard Operating Procedures
+level: L3
+parent: guidelines-and-pathways
+summary: Maintain standard operating procedures for clinical tasks and make them available at the point of care.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

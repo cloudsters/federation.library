@@ -1,0 +1,40 @@
+kind: entity
+slug: market-segment
+title: Market Segment
+type: master
+summary: A recognizable cluster of need in the ecosystem — a group of potential exchange partners who share characteristics that make
+  them addressable with a coherent proposition.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: defining-characteristics
+  type: text
+  card: 1..*
+- name: size-estimate
+  type: quantity
+  card: 0..1
+- name: priority
+  type: code
+  card: 0..1
+- name: products
+  type: reference(product)
+  card: 0..*
+- name: territories
+  type: reference(territory)
+  card: 0..*
+states:
+- defined
+- prioritised
+- targeted
+- reviewed
+- retired
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: territory
+- type: refers-to
+  target: brand
+- type: refers-to
+  target: product

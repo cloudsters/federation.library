@@ -1,0 +1,6 @@
+kind: capability
+slug: bed-coordination-and-placement
+title: Bed Coordination & Placement
+level: L3
+parent: bed-and-capacity-management
+summary: Place each patient in the right bed and unit, respecting isolation needs and specialty.

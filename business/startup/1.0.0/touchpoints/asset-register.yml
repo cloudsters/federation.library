@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: asset-register
+title: Asset Register
+medium: artefact
+summary: The register of every physical and digital asset with location, owner, criticality, value and renewal date, from acquisition
+  to final disposition.
+exchanges:
+- sound-case-for-matched-financing
+- ready-equipment-for-careful-use
+journey: lender-financing-an-investment

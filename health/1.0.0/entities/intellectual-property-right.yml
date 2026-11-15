@@ -1,0 +1,55 @@
+kind: entity
+slug: intellectual-property-right
+title: Intellectual Property Right
+type: master
+summary: A protected right the organisation holds in an invention, software, design or know-how, such as a patent application, a granted
+  patent or a registered design, with its territories, term, costs and the licences granted under it.
+attributes:
+- name: right-kind
+  type: code
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: application-identifier
+  type: identifier
+  card: 0..1
+- name: territories
+  type: code
+  card: 1..*
+- name: filed-on
+  type: date
+  card: 0..1
+- name: expires-on
+  type: date
+  card: 0..1
+- name: owners
+  type: reference(organisation)
+  card: 1..*
+- name: inventors
+  type: reference(employee)
+  card: 1..*
+states:
+- filed
+- granted
+- licensed
+- abandoned
+- expired
+relations:
+- type: based-on
+  target: invention-disclosure
+- type: governed-by
+  target: contract
+binds:
+- source: src-406
+  edition: 1.6.1
+  jurisdiction: global
+- source: src-454
+  edition: '10.0'
+  jurisdiction: global
+- source: src-612
+  edition: 2001/2002
+  jurisdiction: global
+- source: src-614
+  edition: EPC2000-17ed
+  jurisdiction: global

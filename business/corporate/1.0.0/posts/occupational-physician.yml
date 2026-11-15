@@ -1,0 +1,13 @@
+kind: post
+slug: occupational-physician
+title: Occupational Physician
+summary: 'Looks after the health of people at work, in confidence.'
+of: health-safety-and-environment
+responsibility: Advises on health at work, examines and counsels staff, supports return to work and keeps medical findings confidential
+  from the employer.
+accountable: body:health-safety-and-environment
+type: role
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

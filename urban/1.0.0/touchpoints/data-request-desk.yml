@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-request-desk
+title: Data Request Desk
+medium: channel
+summary: The desk, online and in person, where residents ask to see, correct or delete the data the city holds about them and follow
+  the answer.
+exchanges:
+- data-request-for-an-answer-within-deadline
+journey: resident-controlling-their-own-data

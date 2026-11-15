@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: platform-licence-hearing
+title: Platform Licence Hearing
+medium: encounter
+summary: The hearing at which a platform's licence conditions on data, portability and workers' voice are set or renewed, with workers
+  and the operator heard.
+exchanges:
+- compliance-for-a-licence-to-operate
+- workers-voice-in-allocation-rules
+journey: platform-workers-founding-their-own-platform

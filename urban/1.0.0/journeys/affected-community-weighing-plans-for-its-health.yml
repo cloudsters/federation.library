@@ -1,0 +1,42 @@
+kind: journey
+slug: affected-community-weighing-plans-for-its-health
+title: Affected Community Weighing Plans for Its Health
+stakeholder: affected-community
+summary: A community with a wide health gap sees its health described with it, weighs a plan for its streets and homes before it is
+  decided, shapes harm reduction with its members, is warned early of threats and holds the city to closing the gap.
+stages:
+- slug: see-its-health-described
+  title: See Its Health Described
+  goal: The community's health and the conditions behind it are described with it and published by neighbourhood and group.
+  step: public-health-and-prevention/city-health-profile
+  touchpoints:
+  - health-profile-workshop
+  - published-city-health-profile
+- slug: weigh-a-plan-before-it-is-decided
+  title: Weigh a Plan Before It Is Decided
+  goal: The community has said what a plan for homes, streets, transport, food or green space would do to its health, and the assessment
+    is published with the draft.
+  step: public-health-and-prevention/health-impact-assessment
+  touchpoints:
+  - health-impact-hearing
+  - published-health-impact-statement
+- slug: shape-harm-reduction
+  title: Shape Harm Reduction
+  goal: Members who use drugs, their neighbours and peer workers have shaped services that treat substance use as a matter of health.
+  step: public-health-and-prevention/harm-reduction
+  touchpoints:
+  - harm-reduction-design-circle
+- slug: be-warned-and-helped-early
+  title: Be Warned and Helped Early
+  goal: The community's members most at risk have been warned of heat, polluted air or an outbreak in their language and helped early.
+  step: public-health-and-prevention/health-threat-watch
+  touchpoints:
+  - health-alert-message
+- slug: hold-the-city-to-closing-the-gap
+  title: Hold the City to Closing the Gap
+  goal: The community has reviewed with the city whether its health gap has narrowed, and the published review shows where prevention
+    moves.
+  step: public-health-and-prevention/health-gap-review
+  touchpoints:
+  - health-gap-review-forum
+  - published-city-health-profile

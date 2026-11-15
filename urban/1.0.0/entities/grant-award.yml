@@ -1,0 +1,66 @@
+kind: entity
+slug: grant-award
+title: Grant Award
+type: transactional
+summary: A grant awarded to the city, with its conditions, payments, spending and close-out. The department responsible administers
+  it as its own account, spends it to its conditions and claims it, and the evidence is kept for the funder's audit until the retention
+  period ends.
+attributes:
+- name: award-number
+  type: identifier
+  card: 1..1
+- name: funding-body
+  type: text
+  card: 1..1
+- name: application
+  type: reference(grant-application)
+  card: 0..1
+- name: awarded-amount
+  type: amount
+  card: 1..1
+- name: grant-period
+  type: period
+  card: 1..1
+- name: conditions
+  type: text
+  card: 1..*
+- name: award-contract
+  type: reference(contract)
+  card: 0..1
+- name: grant-account-code
+  type: code
+  card: 1..1
+- name: amount-claimed
+  type: amount
+  card: 0..1
+- name: amount-received
+  type: amount
+  card: 0..1
+- name: evidence-kept-until
+  type: date
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- offered
+- signed
+- active
+- suspended
+- reported
+- closed-out
+relations:
+- type: based-on
+  target: grant-application
+- type: based-on
+  target: contract
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: journal-entry
+- type: produces
+  target: grant-report
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

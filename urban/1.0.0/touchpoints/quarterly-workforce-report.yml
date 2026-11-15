@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quarterly-workforce-report
+title: Quarterly Workforce Report
+medium: artefact
+summary: The report each quarter of staffing, vacancies, turnover and apprentice numbers against the plan, with each deviation and
+  the department that answers for it.
+exchanges:
+- quarterly-figures-for-course-corrections
+journey: personnel-officer-drawing-up-the-workforce-plan

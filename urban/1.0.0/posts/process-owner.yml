@@ -1,0 +1,9 @@
+kind: post
+slug: process-owner
+title: Process Owner
+summary: 'Gives each process of the city one person who answers for how well it runs.'
+of: process-and-quality-office
+responsibility: The named member of a department who answers for one process, its map, its standard procedure, its performance and
+  the review of any automation in it, and who hears the staff who run it.
+accountable: body:process-and-quality-office
+type: role

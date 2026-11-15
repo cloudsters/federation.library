@@ -1,0 +1,52 @@
+kind: entity
+slug: community-of-practice
+title: Community of Practice
+type: master
+summary: A standing group of staff from different departments, and of partners outside the administration, who do similar work and
+  meet regularly to share problems, failures and solutions. Its organisers keep its record of members, focus and meetings with support
+  from the administration, and it is used to spread knowledge across departments and to test practice patterns.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: focus
+  type: text
+  card: 1..1
+- name: organisers
+  type: text
+  card: 1..*
+- name: members
+  type: text
+  card: 1..*
+- name: departments
+  type: reference(department)
+  card: 0..*
+- name: partner-organisations
+  type: reference(civil-society-body)
+  card: 0..*
+- name: meeting-rhythm
+  type: code
+  card: 1..1
+- name: formed-on
+  type: date
+  card: 1..1
+- name: shared-knowledge
+  type: reference(knowledge-article)
+  card: 0..*
+- name: support-given
+  type: text
+  card: 0..1
+states:
+- forming
+- active
+- dormant
+- closed
+relations:
+- type: refers-to
+  target: department
+- type: refers-to
+  target: civil-society-body
+- type: produces
+  target: knowledge-article
+- type: refers-to
+  target: practice-pattern

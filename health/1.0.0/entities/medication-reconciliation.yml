@@ -1,0 +1,50 @@
+kind: entity
+slug: medication-reconciliation
+title: Medication Reconciliation
+type: transactional
+summary: The systematic comparison of the medication a patient takes before admission, receives in hospital and is to take after discharge,
+  resolving omissions, duplications and interactions at each transition.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: transition-point
+  type: code
+  card: 1..1
+- name: prior-medication
+  type: reference(medication)
+  card: 0..*
+- name: discrepancies
+  type: text
+  card: 0..*
+- name: performed-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: performed-at
+  type: datetime
+  card: 1..1
+states:
+- in-progress
+- completed
+relations:
+- type: produces
+  target: medication-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-512
+  edition: v3-2014
+  jurisdiction: global

@@ -1,0 +1,32 @@
+kind: journey
+slug: partnering-as-a-patient-organisation
+title: Partnering as a Patient Organisation
+stakeholder: patient-organisation
+summary: A patient organisation is consulted early on plans that affect its members, holds a seat on the patient council, offers peer
+  support in the commons and sees its advice reflected in decisions.
+stages:
+- slug: being-consulted-early
+  title: Being Consulted Early
+  goal: Learn of plans that affect members while they can still change.
+  step: patient-and-public-involvement/involvement-planning
+  touchpoints:
+  - patient-advisory-council
+- slug: advising-on-decisions
+  title: Advising on Decisions
+  goal: Bring the members' collective experience into services, studies and patient information.
+  step: patient-and-public-involvement/shaping-decisions
+  touchpoints:
+  - patient-advisory-council
+  - co-design-workshop
+- slug: offering-peer-support
+  title: Offering Peer Support
+  goal: Reach patients and relatives in the commons when they need contact with peers.
+  step: patient-and-public-involvement/volunteer-and-peer-support
+  touchpoints:
+  - peer-support-point
+- slug: seeing-advice-used
+  title: Seeing Advice Used
+  goal: Receive an account of how the council's advice was used.
+  step: patient-and-public-involvement/response-and-influence
+  touchpoints:
+  - involvement-response-report

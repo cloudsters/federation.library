@@ -1,0 +1,40 @@
+kind: journey
+slug: resident-reporting-a-problem-in-the-street
+title: Resident Reporting a Problem in the Street
+stakeholder: resident
+summary: A resident reports a broken street light or a blocked path, receives a reference and a promised time, explains what is urgent,
+  sees the matter handed to the right service without telling it twice, follows it to its close and later says how it went.
+stages:
+- slug: report-the-problem
+  title: Report the Problem
+  goal: The report, with its place and a photograph, has reached the city by the route the resident chose and carries a reference
+    and a promised time.
+  step: resident-enquiries-and-contact/enquiry-receipt
+  touchpoints:
+  - street-and-building-problem-report
+  - enquiry-acknowledgement
+- slug: say-what-is-urgent
+  title: Say What Is Urgent
+  goal: Frontline staff have called back where needed and know whether the problem endangers anyone.
+  step: resident-enquiries-and-contact/need-clarification
+  touchpoints:
+  - city-contact-line
+- slug: see-it-handed-on
+  title: See It Handed On
+  goal: The service that acts has the matter together with everything the resident already said.
+  step: resident-enquiries-and-contact/answer-and-referral
+  touchpoints:
+  - warm-handover-to-a-service
+- slug: follow-it-to-the-close
+  title: Follow It to the Close
+  goal: The resident has been told what is happening within the promised times, and the matter closes only once they know the outcome.
+  step: resident-enquiries-and-contact/follow-through-to-close
+  touchpoints:
+  - enquiry-tracking-page
+  - enquiry-outcome-notice
+- slug: tell-how-it-went
+  title: Tell How It Went
+  goal: The resident's experience of being served sits beside the counts when the city reviews what residents ask.
+  step: resident-enquiries-and-contact/enquiry-experience-review
+  touchpoints:
+  - enquiry-review-circle

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reported-weaknesses-for-timely-fixes
+title: Reported Weaknesses for Timely Fixes
+between:
+- civic-technology-community
+- information-technology-specialist
+offered:
+- Weaknesses found in the city's systems, reported in confidence.
+returned:
+- Fixes within deadlines set by severity, and credit once they are fixed.
+touchpoint: vulnerability-report-channel

@@ -1,0 +1,10 @@
+kind: post
+slug: primary-nurse
+title: Primary Nurse
+summary: 'The registered nurse responsible for a patient''s nursing process throughout the stay: assesses needs and risks, plans care,
+  delivers nursing interventions and evaluates their effect.'
+of: centre-nursing-director
+responsibility: The nursing process of each patient in the nurse's charge throughout the stay, from assessment and care planning to
+  the interventions and their evaluation.
+accountable: body:centre-nursing-director
+type: role

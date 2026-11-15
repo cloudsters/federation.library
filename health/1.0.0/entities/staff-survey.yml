@@ -1,0 +1,52 @@
+kind: entity
+slug: staff-survey
+title: Staff Survey
+type: transactional
+summary: A survey of staff on engagement, workload, leadership, safety climate or a specific change, run for a defined population
+  and period, whose anonymised results are reported by unit and profession and answered with agreed actions.
+attributes:
+- name: survey-kind
+  type: code
+  card: 1..1
+- name: questionnaire
+  type: document
+  card: 1..1
+- name: population
+  type: text
+  card: 1..1
+- name: field-period
+  type: period
+  card: 1..1
+- name: minimum-reporting-group
+  type: integer
+  card: 1..1
+- name: response-rate
+  type: decimal
+  card: 0..1
+- name: results
+  type: reference(measure-report)
+  card: 0..*
+- name: action-plans
+  type: reference(improvement-initiative)
+  card: 0..*
+states:
+- planned
+- in-field
+- closed
+- results-released
+- actions-agreed
+relations:
+- type: produces
+  target: measure-report
+- type: produces
+  target: improvement-initiative
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-585
+  edition: III
+  jurisdiction: global
+- source: src-604
+  edition: '2006'
+  jurisdiction: global

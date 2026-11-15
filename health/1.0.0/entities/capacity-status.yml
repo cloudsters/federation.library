@@ -1,0 +1,41 @@
+kind: entity
+slug: capacity-status
+title: Capacity Status
+type: intelligence
+summary: The current availability of beds, operating rooms, emergency treatment places and critical staff per unit and site,
+  refreshed continuously and shared with the care network for patient allocation.
+attributes:
+- name: site
+  type: reference(site)
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: resource-kind
+  type: code
+  card: 1..1
+- name: available
+  type: quantity
+  card: 1..1
+- name: occupied
+  type: quantity
+  card: 1..1
+- name: as-of
+  type: datetime
+  card: 1..1
+- name: shared-with
+  type: reference(care-network)
+  card: 0..*
+states:
+- current
+- stale
+relations:
+- type: based-on
+  target: bed-assignment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-434
+  edition: 2.0-cs02
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: discharge-notice-for-a-clean-bed
+title: Discharge Notice for a Clean Bed
+between:
+- registered-nurse
+- support-services-staff
+offered:
+- Prompt notice of each discharge with the isolation status of the bed.
+returned:
+- The bed cleaned to the required hygiene level and returned to the pool within the agreed time.
+touchpoint: capacity-board

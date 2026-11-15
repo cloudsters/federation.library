@@ -1,0 +1,58 @@
+kind: entity
+slug: participation-charter
+title: Participation Charter
+type: governance
+summary: The rules that state how and when residents and recognised community bodies take part in decisions, who is entitled to take
+  part, and in which languages, places and forms. The council adopts it and reviews it openly when it excludes people, and every consultation,
+  petition and election is run under it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: eligible-participants
+  type: text
+  card: 1..1
+- name: participation-rights
+  type: text
+  card: 1..*
+- name: recognised-bodies
+  type: text
+  card: 0..*
+- name: methods
+  type: code
+  card: 0..*
+- name: accessibility-provisions
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: absent-groups
+  type: text
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: city-charter
+- type: governed-by
+  target: city-constitution
+- type: refers-to
+  target: decision-rights-register
+- type: refers-to
+  target: neighbourhood

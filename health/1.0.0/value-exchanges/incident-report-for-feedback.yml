@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: incident-report-for-feedback
+title: Incident Report for Feedback
+between:
+- registered-nurse
+- quality-and-safety-manager
+offered:
+- The nurse reports what happened or nearly happened, honestly and promptly.
+returned:
+- Quality and safety protect the reporter, give personal feedback on what was done and share the lesson across the organisation.
+touchpoint: incident-reporting-system

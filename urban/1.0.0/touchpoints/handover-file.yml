@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: handover-file
+title: Handover File
+medium: artefact
+summary: The written handover of a role's tasks, relationships, open matters and the reasons behind past decisions, including the
+  dissent.
+exchanges:
+- reasons-and-relationships-for-a-planned-handover
+- willingness-to-serve-for-a-role-handed-over-in-full
+journey: municipal-employee-handing-on-a-key-role

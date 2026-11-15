@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: indicator-specification
+title: Indicator Specification
+medium: artefact
+summary: The specification of an indicator with its population, calculation, data source, owner and target, and the ways it could
+  be gamed, adopted before the indicator is used.
+exchanges:
+- ownership-for-a-meaningful-indicator
+journey: unit-head-owning-an-indicator

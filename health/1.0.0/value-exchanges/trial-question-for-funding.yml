@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: trial-question-for-funding
+title: Trial Question for Funding
+between:
+- clinician-scientist
+- research-funder
+offered:
+- The investigator offers a trial question that matters to patients and care, a sound protocol and the organisation's commitment to
+  act as sponsor.
+returned:
+- The funder returns funding for the trial and its infrastructure, and peer review that sharpens the design.
+touchpoint: funding-proposal

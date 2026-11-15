@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: bounded-work-for-a-written-mandate
+title: Bounded Work for a Written Mandate
+between:
+- municipal-ai-agent
+- city-administration
+offered:
+- Consistent handling of the rule-based tasks its mandate sets.
+returned:
+- A written mandate, scoped and revocable access and a named overseer.
+touchpoint: published-agent-mandate

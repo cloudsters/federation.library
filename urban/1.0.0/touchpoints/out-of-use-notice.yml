@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: out-of-use-notice
+title: Out-of-Use Notice
+medium: artefact
+summary: The notice on an asset taken out of use after an inspection, with the reason and the date by which it will be safe again.
+exchanges:
+- inspections-for-earlier-hazard-reports
+journey: frontline-worker-keeping-the-city-in-service

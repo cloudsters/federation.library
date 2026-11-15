@@ -1,0 +1,38 @@
+kind: entity
+slug: shareholder-register
+title: Shareholder Register
+type: governance
+summary: The authoritative register of who owns a legal entity, listing every shareholding, share class and transfer, kept current
+  as shares are issued, transferred or cancelled and used to convene owners and count their votes.
+attributes:
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: share-capital
+  type: amount
+  card: 1..1
+- name: share-classes
+  type: code
+  card: 1..*
+- name: shareholdings
+  type: reference(shareholder-record)
+  card: 0..*
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: last-updated
+  type: date
+  card: 1..1
+states:
+- maintained
+- under-correction
+- closed
+relations:
+- type: composed-of
+  target: shareholder-record
+- type: governed-by
+  target: commons-charter
+binds:
+- source: src-101
+  edition: '2023'
+  jurisdiction: global

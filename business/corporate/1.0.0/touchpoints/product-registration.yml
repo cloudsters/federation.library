@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: product-registration
+title: Product Registration
+medium: artefact
+summary: The record of a product with its owner, location, serial number and entitlements, created at purchase or installation and
+  updated when ownership changes.
+exchanges:
+- registration-for-direct-reach
+journey: consumer-claiming-under-warranty

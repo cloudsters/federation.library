@@ -1,0 +1,28 @@
+kind: journey
+slug: taking-part-in-a-clinical-trial
+title: Taking Part in a Clinical Trial
+stakeholder: research-participant
+summary: The participant's path from being invited into a trial to learning what it found.
+stages:
+- slug: being-invited
+  title: Being Invited
+  goal: Understand what the study involves, what it may offer and risk, and decide freely without any effect on one's care.
+  step: clinical-trials/recruitment-and-consent
+  touchpoints:
+  - consultation
+  - participant-information-sheet
+  - consent-form
+- slug: taking-part
+  title: Taking Part
+  goal: Attend visits that fit one's life, feel safe, and know whom to call when something changes.
+  step: clinical-trials/trial-conduct-and-safety
+  touchpoints:
+  - study-visit
+  - clinical-trial-unit
+- slug: learning-the-results
+  title: Learning the Results
+  goal: Learn what the study found and what it means for oneself and for others with the condition.
+  step: clinical-trials/close-out-and-results
+  touchpoints:
+  - study-register-entry
+  - patient-portal

@@ -1,0 +1,55 @@
+kind: entity
+slug: customer
+title: Customer
+type: master
+summary: The primary exchange partner — the external participant whose needs shape the organisation's propositions and whose satisfaction
+  validates its value creation. The outside-in starting point.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: contacts
+  type: reference(contact)
+  card: 0..*
+- name: addresses
+  type: text
+  card: 0..*
+- name: payment-term
+  type: reference(payment-term)
+  card: 0..1
+- name: credit-limit
+  type: amount
+  card: 0..1
+- name: receivables-account
+  type: reference(account)
+  card: 0..1
+- name: market-segment
+  type: reference(market-segment)
+  card: 0..1
+states:
+- prospect
+- active
+- dormant
+- churned
+- reactivated
+relations:
+- type: refers-to
+  target: sales-order
+- type: refers-to
+  target: sales-invoice
+- type: refers-to
+  target: market-segment
+- type: refers-to
+  target: stakeholder
+- type: assigned-to
+  target: territory
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

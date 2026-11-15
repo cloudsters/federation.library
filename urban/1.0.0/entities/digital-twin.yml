@@ -1,0 +1,61 @@
+kind: entity
+slug: digital-twin
+title: City Digital Twin
+type: intelligence
+summary: The virtual model of the city, its land, buildings, networks and flows, kept current for simulation and planning. The administration
+  keeps it from the city's data sets and spatial layers, and planners, operators and residents use it to test changes before they
+  are made.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: model-components
+  type: code
+  card: 1..*
+- name: layers
+  type: reference(gis-layer)
+  card: 1..*
+- name: data-sets
+  type: reference(data-set)
+  card: 1..*
+- name: reference-date
+  type: date
+  card: 1..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: simulation-uses
+  type: text
+  card: 0..*
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: kept-by
+  type: text
+  card: 1..1
+- name: access-rules
+  type: text
+  card: 1..1
+- name: last-updated
+  type: datetime
+  card: 1..1
+states:
+- designed
+- built
+- validated
+- current
+- updated
+- retired
+relations:
+- type: based-on
+  target: gis-layer
+- type: based-on
+  target: data-set
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: digital-network
+- type: refers-to
+  target: shared-data-model

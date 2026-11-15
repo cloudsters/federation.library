@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: service-report
+title: Service Report
+medium: artefact
+summary: The report a technician leaves after a visit, with the work done, parts used, findings and recommendations, confirmed by
+  the customer.
+exchanges:
+- field-knowledge-for-better-guidance
+- service-findings-for-better-design
+- transparent-report-for-sign-off
+journey: field-service-technician-caring-for-installed-products

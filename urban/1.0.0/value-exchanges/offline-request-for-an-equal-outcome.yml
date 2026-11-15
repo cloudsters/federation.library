@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: offline-request-for-an-equal-outcome
+title: Offline Request for an Equal Outcome
+between:
+- older-resident
+- frontline-worker
+offered:
+- A request made at the counter, by telephone or by post.
+returned:
+- The same decision within the same deadline as online, in the resident's language, with help where needed.
+touchpoint: counter-telephone-and-post-route

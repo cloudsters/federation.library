@@ -1,0 +1,43 @@
+kind: entity
+slug: board-of-directors
+title: Board of Directors
+type: master
+summary: The highest governance body — the board members who hold ultimate accountability for the organisation's direction, risk posture,
+  and stakeholder obligations.
+attributes:
+- name: members
+  type: reference(employee-record)
+  card: 0..*
+- name: external-members
+  type: text
+  card: 0..*
+- name: roles
+  type: code
+  card: 1..*
+- name: terms
+  type: period
+  card: 0..*
+- name: committees
+  type: text
+  card: 0..*
+- name: decisions
+  type: reference(governance-decision)
+  card: 0..*
+states:
+- constituted
+- serving
+- rotated
+- reconstituted
+relations:
+- type: part-of
+  target: organization
+- type: refers-to
+  target: shareholder-record
+- type: refers-to
+  target: strategy
+- type: refers-to
+  target: audit
+binds:
+- source: src-101
+  edition: '2023'
+  jurisdiction: global

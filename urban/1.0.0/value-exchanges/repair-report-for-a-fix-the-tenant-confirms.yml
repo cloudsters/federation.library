@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: repair-report-for-a-fix-the-tenant-confirms
+title: Repair Report for a Fix the Tenant Confirms
+between:
+- tenant
+- frontline-worker
+offered:
+- A clear report of the fault and access to the home at the agreed time.
+returned:
+- The repair done within the published time and closed only when the tenant confirms it is fixed.
+touchpoint: repair-reporting-line

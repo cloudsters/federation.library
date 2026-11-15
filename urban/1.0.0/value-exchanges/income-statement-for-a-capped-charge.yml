@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: income-statement-for-a-capped-charge
+title: Income Statement for a Capped Charge
+between:
+- resident
+- infrastructure-operator
+offered:
+- A statement of household income, given once and shared with the household's consent.
+returned:
+- Charges for water, energy and transit kept within the cap, and no disconnection because the household cannot pay.
+touchpoint: essential-charge-cap-notice

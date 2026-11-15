@@ -1,0 +1,57 @@
+kind: entity
+slug: application
+title: Application
+type: master
+summary: A software system the organisation runs or uses, such as the clinical information system, a laboratory system or a payroll
+  system, held in the landscape inventory with its owner, criticality, supplier, hosting and life-cycle position.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: application-kind
+  type: code
+  card: 1..1
+- name: system-owner
+  type: reference(organisation-unit)
+  card: 1..1
+- name: criticality
+  type: code
+  card: 1..1
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: hosting
+  type: code
+  card: 1..1
+- name: is-medical-device
+  type: boolean
+  card: 0..1
+states:
+- planned
+- in-introduction
+- in-production
+- phasing-out
+- decommissioned
+relations:
+- type: governed-by
+  target: contract
+- type: governed-by
+  target: data-processing-record
+- type: depends-on
+  target: asset
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-087
+  edition: '4'
+  jurisdiction: global
+- source: src-311
+  edition: 2006+AMD1:2015
+  jurisdiction: global

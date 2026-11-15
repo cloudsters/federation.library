@@ -1,0 +1,50 @@
+kind: entity
+slug: wage-floor-agreement
+title: Wage Floor Agreement
+type: governance
+summary: The agreement negotiated with workers and employers of a sector on wage floors indexed to living costs, benefits and progression,
+  binding on the contractors the city uses. Worker representatives, employers and the city renew it each year, and it is written into
+  procurement and used in the fair work audit of every contractor.
+attributes:
+- name: sector
+  type: code
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: wage-floor
+  type: amount
+  card: 1..1
+- name: indexation-rule
+  type: text
+  card: 1..1
+- name: benefits
+  type: text
+  card: 0..*
+- name: progression
+  type: text
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: effective-period
+  type: period
+  card: 1..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- in-negotiation
+- agreed
+- signed
+- in-force
+- under-audit
+- renewed
+- expired
+relations:
+- type: governed-by
+  target: procurement-policy
+- type: refers-to
+  target: contract
+- type: produces
+  target: audit-finding

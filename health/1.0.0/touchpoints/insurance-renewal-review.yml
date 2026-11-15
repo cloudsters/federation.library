@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: insurance-renewal-review
+title: Insurance Renewal Review
+medium: encounter
+summary: The periodic review in which the insurer examines the commons' risk and claims record and both agree cover, retention
+  and premium.
+exchanges:
+- insurable-risk-record
+journey: insurer-covering-the-risk

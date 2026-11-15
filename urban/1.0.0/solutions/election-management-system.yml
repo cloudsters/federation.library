@@ -1,0 +1,12 @@
+kind: solution
+slug: election-management-system
+title: Election Management System
+role: system-of-record
+summary: Keeps the electoral register drawn from the population register, nominations, polling places, results and their certification.
+carries:
+- electoral-register-keeping
+- election-organisation
+- voting-method-design
+holds:
+- election
+- population-register

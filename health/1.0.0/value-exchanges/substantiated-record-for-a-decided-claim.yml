@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: substantiated-record-for-a-decided-claim
+title: Substantiated Record for a Decided Claim
+between:
+- administrative-staff
+- payer
+offered:
+- A complete, signed record extract limited to what the review requires, released on time and within the law.
+returned:
+- A review decided on the evidence, and payment of the justified claim.
+touchpoint: claim

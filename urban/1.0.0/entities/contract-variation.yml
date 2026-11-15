@@ -1,0 +1,62 @@
+kind: entity
+slug: contract-variation
+title: Contract Variation
+type: transactional
+summary: A change to the scope, price or term of a contract, or a remedy applied for a shortfall, with its reason, its value and the
+  approval it received within what the contract allows. The contract manager records it after hearing the supplier and the legal office
+  reviews it, and it is entered in the contract register and published with the contract.
+attributes:
+- name: contract
+  type: reference(contract)
+  card: 1..1
+- name: variation-kind
+  type: code
+  card: 1..1
+- name: reason
+  type: text
+  card: 1..1
+- name: change-description
+  type: text
+  card: 1..1
+- name: contract-clause
+  type: text
+  card: 0..1
+- name: value-change
+  type: amount
+  card: 0..1
+- name: new-end-date
+  type: date
+  card: 0..1
+- name: triggering-report
+  type: reference(contract-performance-report)
+  card: 0..1
+- name: supplier-hearing
+  type: text
+  card: 0..1
+- name: approved-by
+  type: text
+  card: 0..1
+- name: approved-on
+  type: date
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- heard
+- approved
+- rejected
+- applied
+- published
+relations:
+- type: part-of
+  target: contract
+- type: based-on
+  target: contract-performance-report
+- type: refers-to
+  target: contract-register
+- type: refers-to
+  target: legal-matter
+- type: produces
+  target: public-record

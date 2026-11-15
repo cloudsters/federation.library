@@ -1,0 +1,134 @@
+kind: value-stream
+slug: public-housing-and-tenancy-services
+title: Public Housing and Tenancy Services
+family: demand-to-fulfillment
+summary: Running the homes the city owns or commissions so that they are safe, warm and well kept, and so that tenants have a real
+  say in how they are run. It holds the tenancy from its start to its end, rent and service charges, repairs reported and carried
+  out within published times, planned maintenance and energy retrofit of the stock, the tenant bodies that set standards and inspect
+  them, support with neighbour disputes, and the quick re-letting of homes that fall empty.
+trigger: A new tenancy starts, a tenant reports a repair or a problem, the condition survey of the stock is due, or a tenancy ends.
+outcome: The city's homes meet the standards tenants helped set, repairs are done within the published times, tenants stay housed,
+  and empty homes are let again quickly.
+stakeholders:
+- tenant
+- housing-officer
+- frontline-worker
+- neighbourhood-association
+- community-mediator
+- older-resident
+- disabled-resident
+steps:
+- slug: tenancy-start
+  title: Tenancy Start
+  summary: The housing officer inspects the home with the new tenant, signs the tenancy agreement, explains rent, rights and how to
+    report repairs, and introduces the tenant to the tenant body of the building.
+  capabilities:
+  - tenancy-administration
+  - home-condition-inspection
+  entities:
+  - tenancy
+  - dwelling
+  serves:
+  - home-inspection-walk
+  - tenancy-agreement
+- slug: rent-and-service-charge-collection
+  title: Rent and Service Charge Collection
+  summary: Rent and service charges are set at a level tenants can carry, billed and collected, and a tenant who falls behind is offered
+    a payment arrangement and help before any step towards ending the tenancy.
+  capabilities:
+  - tenancy-administration
+  - payment-receipt-and-matching
+  - arrears-recovery
+  entities:
+  - tenancy
+  - payment
+  - payment-arrangement
+  serves:
+  - payment-arrangement-meeting
+  - rent-account-statement
+- slug: repair-request-and-response
+  title: Repair Request and Response
+  summary: A tenant reports a repair by any route, it is given a priority and a date within the published times, done by the city's
+    crews, a contractor or a tenant repair group, and closed only when the tenant confirms it is fixed.
+  capabilities:
+  - repair-request-handling
+  - service-standard-setting
+  - service-compensation-payment
+  entities:
+  - repair-order
+  - dwelling
+  - service-standard
+  serves:
+  - livable-home-standard
+  - repair-reporting-line
+  - repair-visit
+- slug: planned-maintenance-and-retrofit
+  title: Planned Maintenance and Retrofit
+  summary: The condition of every building is surveyed at fixed intervals, and roofs, heating, damp, safety and energy use are improved
+    in a funded programme agreed with tenants, so that homes become warm, dry and cheap to heat.
+  capabilities:
+  - home-condition-inspection
+  - planned-maintenance-and-retrofit
+  - whole-life-cost-assessment
+  entities:
+  - building
+  - dwelling
+  - capital-project
+  serves:
+  - retrofit-site-meeting
+  - stock-condition-survey
+  - tenant-body-meeting
+- slug: tenant-body-and-standards
+  title: Tenant Body and Standards
+  summary: Tenants of each building or estate elect a body that sets the standard of a livable home with the housing office, trains
+    residents to inspect against it, and reviews how the homes are run.
+  capabilities:
+  - tenant-body-support
+  - service-standard-setting
+  - resident-inspection-support
+  entities:
+  - service-standard
+  - service-council
+  - dwelling
+  serves:
+  - livable-home-standard
+  - tenant-body-meeting
+- slug: neighbour-disputes-and-tenancy-support
+  title: Neighbour Disputes and Tenancy Support
+  summary: Disputes between neighbours over noise, shared space or conduct are taken first to community mediation, and tenants facing
+    difficulty with health, money or care are supported so that the tenancy holds.
+  capabilities:
+  - dispute-intake-and-triage
+  - mediation-facilitation
+  - tenancy-sustainment-support
+  entities:
+  - dispute-case
+  - tenancy
+  serves:
+  - neighbour-mediation-session
+  - tenancy-support-visit
+- slug: tenancy-end-and-re-letting
+  title: Tenancy End and Re-Letting
+  summary: When a tenancy ends the home is inspected, repaired to the agreed standard within a set number of days and let again to
+    the next household on the register, so that no home stands empty for long.
+  capabilities:
+  - home-condition-inspection
+  - repair-request-handling
+  - home-allocation-matching
+  entities:
+  - tenancy
+  - dwelling
+  - repair-order
+  serves:
+  - home-inspection-walk
+  - published-allocation-record
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global

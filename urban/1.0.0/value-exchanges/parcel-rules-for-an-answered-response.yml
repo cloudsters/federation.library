@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: parcel-rules-for-an-answered-response
+title: Parcel Rules for an Answered Response
+between:
+- city-planner
+- landowner
+offered:
+- The draft rules for each parcel and what they allow and require.
+returned:
+- The owner's objection or consent, which is answered in writing.
+touchpoint: draft-land-use-rules

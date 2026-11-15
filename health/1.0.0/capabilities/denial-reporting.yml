@@ -1,0 +1,6 @@
+kind: capability
+slug: denial-reporting
+title: Denial Reporting
+level: L3
+parent: patient-revenue-cycle
+summary: Analyse denials by reason and age to detect documentation and process gaps.

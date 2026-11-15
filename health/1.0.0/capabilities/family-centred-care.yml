@@ -1,0 +1,14 @@
+kind: capability
+slug: family-centred-care
+title: Family-Centred Care
+level: L3
+parent: child-and-adolescent-health
+summary: 'Care for children with their families as partners: parents present and involved in care, the child''s assent sought, and
+  play, schooling and development supported during the stay.'
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global
+- source: src-466
+  edition: 1988 / annotations 2022
+  jurisdiction: global

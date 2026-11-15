@@ -1,0 +1,34 @@
+kind: journey
+slug: family-owner-renewing-the-bond-with-the-business
+title: Family Owner Renewing the Bond with the Business
+stakeholder: family-owner
+summary: An owning family gives itself a voice in the governance design, writes down what the family and the business owe each other,
+  exercises ownership in the owners' meeting and prepares the next generation of stewards.
+stages:
+- slug: find-the-familys-place
+  title: Find the Family's Place
+  goal: The family knows how it is represented in the governance bodies and how its own council relates to them.
+  step: governance-board-relationship/governance-design
+  touchpoints:
+  - family-council
+- slug: write-the-covenant
+  title: Write the Covenant
+  goal: The family has agreed in a charter what it owes the business and each other, including roles, dividends and the transfer of
+    shares.
+  step: governance-board-relationship/charter-and-covenant
+  touchpoints:
+  - family-charter
+  - family-council
+- slug: exercise-ownership
+  title: Exercise Ownership
+  goal: The family votes in the owners' meeting on accounts, profit, discharge and board members, informed in advance.
+  step: governance-board-relationship/owners-meeting
+  touchpoints:
+  - shareholder-meeting
+- slug: prepare-the-next-stewards
+  title: Prepare the Next Stewards
+  goal: The next generation is prepared for ownership and, where suited, for board seats, by clear criteria rather than birth alone.
+  step: governance-board-relationship/steward-succession
+  touchpoints:
+  - family-council
+  - board-nomination

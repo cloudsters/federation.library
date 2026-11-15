@@ -1,0 +1,58 @@
+kind: entity
+slug: discharge-summary
+title: Discharge Summary
+type: transactional
+summary: The document that closes an inpatient stay for the next care provider, stating diagnoses, procedures, course, medication
+  on discharge and follow-up recommendations. It is the handover the receiving practice relies on.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: diagnoses
+  type: reference(diagnosis)
+  card: 1..*
+- name: procedures
+  type: reference(procedure)
+  card: 0..*
+- name: discharge-medication
+  type: reference(medication-order)
+  card: 0..*
+- name: follow-up
+  type: text
+  card: 0..1
+- name: recipients
+  type: reference(organisation)
+  card: 0..*
+- name: signed-by
+  type: reference(practitioner-role)
+  card: 1..1
+states:
+- draft
+- preliminary
+- final
+- sent
+- amended
+relations:
+- type: part-of
+  target: care-transition
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-416
+  edition: R2.0-2024
+  jurisdiction: global

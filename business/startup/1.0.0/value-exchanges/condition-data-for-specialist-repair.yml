@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: condition-data-for-specialist-repair
+title: Condition Data for Specialist Repair
+between:
+- maintenance-technician
+- external-specialist
+offered:
+- Condition data, fault history and access to the asset.
+returned:
+- Remote diagnosis, specialist repair and original parts when internal skills or parts are not enough.
+touchpoint: remote-service-connection

@@ -1,0 +1,44 @@
+kind: journey
+slug: product-manager-turning-a-need-into-a-sponsored-concept
+title: Product Manager Turning a Need into a Sponsored Concept
+stakeholder: product-manager
+summary: A product manager evidences a durable need, gathers ideas, frames concepts with users, translates them into feasible requirements,
+  builds an honest case and wins a sponsor for the strongest.
+stages:
+- slug: evidence-the-need
+  title: Evidence the Need
+  goal: Durable needs are told apart from passing wishes on evidence from customers and demand signals.
+  step: offering-discovery-ideation/need-discovery
+  touchpoints:
+  - customer-interview
+  - market-study
+- slug: gather-ideas
+  title: Gather Ideas
+  goal: Ideas from staff, customers and partners are in one place with their contributor and the need they address.
+  step: offering-discovery-ideation/idea-collection
+  touchpoints:
+  - idea-portal
+- slug: frame-concepts
+  title: Frame Concepts
+  goal: A diverse team widens the field of solutions and shapes the most promising into concepts.
+  step: offering-discovery-ideation/concept-generation
+  touchpoints:
+  - co-design-workshop
+- slug: translate-into-requirements
+  title: Translate into Requirements
+  goal: The needs behind each concept become requirements that development, operations and suppliers have checked for feasibility.
+  step: offering-discovery-ideation/requirement-definition
+  touchpoints:
+  - requirements-review
+- slug: build-the-case
+  title: Build the Case
+  goal: The market, operational and economic case is built and challenged before any commitment to development.
+  step: offering-discovery-ideation/concept-business-case
+  touchpoints:
+  - concept-review
+- slug: win-a-sponsor
+  title: Win a Sponsor
+  goal: The strongest concept receives a sponsor and enters design, and the others are documented and closed.
+  step: offering-discovery-ideation/concept-selection
+  touchpoints:
+  - concept-review

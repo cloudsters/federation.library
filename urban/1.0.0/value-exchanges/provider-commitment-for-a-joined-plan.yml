@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: provider-commitment-for-a-joined-plan
+title: Provider Commitment for a Joined Plan
+between:
+- health-and-care-provider
+- social-worker
+offered:
+- The provider's part in the person's care, with dates.
+returned:
+- A plan in which social care, carers and neighbours carry their parts beside it.
+touchpoint: care-planning-meeting

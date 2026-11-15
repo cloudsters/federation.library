@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: debt-limits-for-a-mandate-to-borrow
+title: Debt Limits for a Mandate to Borrow
+between:
+- city-council
+- finance-officer
+offered:
+- A borrowing strategy with its purposes, its limit on debt service and the conditions the city will not accept.
+returned:
+- Borrowing that keeps to the strategy and is reported against it.
+touchpoint: borrowing-strategy-debate

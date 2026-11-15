@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clear-limits-for-confident-lending
+title: Clear Limits for Confident Lending
+between:
+- finance-officer
+- lender
+offered:
+- The published purposes, limits and refused conditions of the city's borrowing.
+returned:
+- Offers of finance made within them.
+touchpoint: published-borrowing-strategy

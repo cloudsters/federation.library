@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: hazard-report-for-an-inspection-and-an-answer
+title: Hazard Report for an Inspection and an Answer
+between:
+- older-resident
+- environmental-health-officer
+offered:
+- A resident's report of smoke, smells, noise, dumping or damp.
+returned:
+- An inspection at the source, a record of what was found and word of what follows.
+touchpoint: environmental-hazard-hotline

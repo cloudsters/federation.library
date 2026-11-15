@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: overnight-visitor-charge-statement
+title: Overnight Visitor Charge Statement
+medium: artefact
+summary: The statement on each bill for a stay that shows the overnight charge and the neighbourhoods its income returns to.
+exchanges:
+- overnight-charge-for-cared-for-streets
+- collected-charge-for-a-simple-return
+journey: visitor-staying-as-a-guest

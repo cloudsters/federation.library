@@ -1,0 +1,42 @@
+kind: entity
+slug: employment
+title: Employment
+type: transactional
+summary: The contractual relationship between a legal entity of the enterprise and an employee for a position, with contract kind,
+  grade, pay, working time and term, from offer to exit.
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: contract-kind
+  type: code
+  card: 1..1
+- name: grade
+  type: code
+  card: 1..1
+- name: base-pay
+  type: amount
+  card: 0..1
+- name: working-time
+  type: quantity
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+states:
+- offered
+- signed
+- active
+- notice-given
+- ended
+relations:
+- type: assigned-to
+  target: position
+- type: governed-by
+  target: contract

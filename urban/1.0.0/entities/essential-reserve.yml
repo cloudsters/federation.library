@@ -1,0 +1,60 @@
+kind: entity
+slug: essential-reserve
+title: Essential Reserve
+type: master
+summary: A reserve of food, water, medicine or other essential supplies held in a neighbourhood place such as a community kitchen,
+  school, health centre or cooperative store, with its stock, the levels it must hold, its rotation through daily use and the body
+  that keeps it. The keeping body holds the record with the city, and the reserve is drawn on when the agreed triggers are met.
+attributes:
+- name: place
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: community-centre
+  type: reference(community-centre)
+  card: 0..1
+- name: school
+  type: reference(school)
+  card: 0..1
+- name: kept-by
+  type: text
+  card: 1..1
+- name: goods-held
+  type: text
+  card: 1..*
+- name: stock-levels
+  type: quantity
+  card: 1..*
+- name: required-levels
+  type: quantity
+  card: 1..*
+- name: cold-storage
+  type: boolean
+  card: 0..1
+- name: rotation-rhythm
+  type: code
+  card: 1..1
+- name: last-checked-on
+  type: date
+  card: 0..1
+states:
+- planned
+- stocked
+- at-level
+- below-level
+- released
+- replenished
+- closed
+relations:
+- type: governed-by
+  target: essential-supply-plan
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: school
+- type: refers-to
+  target: distribution-hub

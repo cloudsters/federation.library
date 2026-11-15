@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-dependency-map
+title: Published Dependency Map
+medium: artefact
+summary: The published map of the digital systems the city and its neighbourhoods depend on, with the places where a single failure
+  would stop essential services.
+exchanges:
+- shared-knowledge-for-a-visible-map
+journey: information-technology-specialist-keeping-the-city-systems-whole

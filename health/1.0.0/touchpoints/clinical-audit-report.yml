@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: clinical-audit-report
+title: Clinical Audit Report
+medium: artefact
+summary: The report of a clinical audit or peer review that states the criteria, the findings, the agreed actions with their owners
+  and the date of the follow-up check.
+exchanges:
+- open-cases-for-external-view
+journey: practice-under-peer-review

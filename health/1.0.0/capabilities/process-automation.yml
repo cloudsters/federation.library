@@ -1,0 +1,7 @@
+kind: capability
+slug: process-automation
+title: Process Automation
+level: L3
+parent: process-management
+summary: Automate rule-based tasks of clinical and administrative processes where it is safe and useful, with an owner, a tested fallback
+  and monitoring in operation.

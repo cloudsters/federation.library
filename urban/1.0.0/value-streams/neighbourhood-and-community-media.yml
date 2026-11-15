@@ -1,0 +1,120 @@
+kind: value-stream
+slug: neighbourhood-and-community-media
+title: Neighbourhood and Community Media
+family: proposition-to-audience
+summary: Supporting residents to run their own media, so that neighbourhoods report what matters locally, hold power to account and
+  keep authority over the stories told about them. It holds the mapping of where local reporting is missing, production space and
+  equipment in libraries, schools and community centres, support given under agreements that keep editorial control with residents,
+  story circles and a community archive governed by those whose stories it keeps, the consent of tellers to how their stories are
+  used, media skills for young people, elders and newcomers, and a review of whom community media reach.
+trigger: A neighbourhood or group has no local reporting in its language, residents ask for space or support to run their own media,
+  or a community's stories are told without it.
+outcome: Every neighbourhood has media its residents run and trust, its stories are kept and used with the consent of those who told
+  them, and the city's support has left editorial control with residents.
+stakeholders:
+- resident
+- community-media-producer
+- neighbourhood-association
+- young-people
+- older-resident
+- newcomer
+- affected-community
+- news-media
+steps:
+- slug: local-reporting-gap-mapping
+  title: Local Reporting Gap Mapping
+  summary: The city maps with residents which neighbourhoods and groups have local reporting in their own languages and which have
+    none, and which newsletters, stations, podcasts and notice boards already exist.
+  capabilities:
+  - blind-spot-mapping
+  - civil-society-mapping
+  entities:
+  - neighbourhood
+  - civil-society-directory
+  serves:
+  - local-media-mapping-session
+- slug: media-production-space-provision
+  title: Media Production Space Provision
+  summary: Recording rooms, printing, cameras and low-cost broadcast and messaging tools are provided in libraries, schools and community
+    centres, open to residents' media groups under shared-use agreements.
+  capabilities:
+  - community-media-space-provision
+  - shared-use-agreement-drafting
+  entities:
+  - community-media-outlet
+  - library
+  - community-centre
+  - shared-use-agreement
+  serves:
+  - community-media-studio
+  - media-studio-booking
+- slug: editorial-independence-agreement
+  title: Editorial Independence Agreement
+  summary: The city supports a community outlet under a written agreement that leaves editorial decisions with the residents who run
+    it, sets out what the city gives and for how long, and protects the outlet when it criticises the city.
+  capabilities:
+  - media-independence-agreement-drafting
+  - independence-safeguard-review
+  entities:
+  - media-support-agreement
+  - community-media-outlet
+  serves:
+  - media-support-agreement-signing
+- slug: story-gathering-and-archive
+  title: Story Gathering and Archive
+  summary: Residents gather stories in regular story circles and oral history recordings, and keep them in a community archive governed
+    by a resident body that decides what is shared outward.
+  capabilities:
+  - story-circle-convening
+  - community-archive-keeping
+  - civic-memory-documentation
+  entities:
+  - story-archive
+  - civic-memory-record
+  serves:
+  - community-story-archive
+  - oral-history-recording-session
+  - story-circle-gathering
+- slug: story-consent-and-attribution
+  title: Story Consent and Attribution
+  summary: Before a story is published or reused by the city, researchers, funders or developers, the teller agrees how it is framed
+    and attributed, and may withdraw that consent; the resident body reviews requests to reuse stories about the community.
+  capabilities:
+  - story-consent-recording
+  - community-representation-review
+  entities:
+  - story-consent
+  - story-archive
+  serves:
+  - story-consent-form
+  - story-reuse-request-review
+- slug: media-skills-teaching
+  title: Media Skills Teaching
+  summary: Young people, elders and newcomers learn to report, record, edit and check facts with experienced community media makers,
+    in their own languages, so that more residents can tell their neighbourhood's story.
+  capabilities:
+  - media-skills-teaching
+  - learning-access-provision
+  entities:
+  - learning-offer
+  - community-media-outlet
+  serves:
+  - community-media-skills-workshop
+- slug: community-media-review
+  title: Community Media Review
+  summary: Community outlets receive grants at arm's length from the city, and a review with residents asks whom the outlets reach,
+    which neighbourhoods are still without reporting and whether the outlets have stayed independent.
+  capabilities:
+  - community-grant-making
+  - independence-safeguard-review
+  - blind-spot-mapping
+  entities:
+  - community-grant
+  - media-support-agreement
+  serves:
+  - community-media-grant-round
+  - community-media-reach-review
+binds:
+- source: src-271
+  edition: '2024-12-17'
+  jurisdiction: global

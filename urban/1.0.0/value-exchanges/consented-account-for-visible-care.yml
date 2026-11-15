@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consented-account-for-visible-care
+title: Consented Account for Visible Care
+between:
+- caregiver
+- community-development-worker
+offered:
+- An account, given with consent, of the care given and the strain it brings.
+returned:
+- Care made visible on the map, and help directed to it.
+touchpoint: care-mapping-conversation

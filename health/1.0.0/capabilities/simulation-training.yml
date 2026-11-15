@@ -1,0 +1,13 @@
+kind: capability
+slug: simulation-training
+title: Simulation Training
+level: L2
+parent: health-professions-and-interprofessional-education
+summary: Building competence through simulation.
+binds:
+- source: src-313
+  edition: '2025'
+  jurisdiction: global
+- source: src-346
+  edition: '2021'
+  jurisdiction: global

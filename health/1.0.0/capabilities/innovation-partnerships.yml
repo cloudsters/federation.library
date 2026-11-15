@@ -1,0 +1,10 @@
+kind: capability
+slug: innovation-partnerships
+title: Innovation Partnerships
+level: L3
+parent: innovation-management
+summary: Develop innovation with industry, start-ups and other institutions on clear terms.
+binds:
+- source: src-388
+  edition: '2019'
+  jurisdiction: global

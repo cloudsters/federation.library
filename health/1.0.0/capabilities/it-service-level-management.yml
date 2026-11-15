@@ -1,0 +1,10 @@
+kind: capability
+slug: it-service-level-management
+title: IT Service Level Management
+level: L3
+parent: it-service-management
+summary: Maintain the service catalogue, agree service levels and report performance against them.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

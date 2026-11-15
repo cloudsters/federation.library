@@ -1,0 +1,53 @@
+kind: entity
+slug: park
+title: Park
+type: master
+summary: A public green space for recreation, ecology and community, with its area, condition and those who care for it. The department
+  responsible keeps the record together with those who hold a care agreement for it, and it is used to plan its upkeep, to open it
+  for gatherings and to place agreements on its care.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..*
+- name: land-parcels
+  type: reference(land-parcel)
+  card: 0..*
+- name: area
+  type: quantity
+  card: 1..1
+- name: condition
+  type: code
+  card: 0..1
+- name: features
+  type: text
+  card: 0..*
+- name: tree-count
+  type: integer
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 0..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: care-agreements
+  type: reference(place-care-agreement)
+  card: 0..*
+states:
+- planned
+- open
+- under-renewal
+- partly-closed
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: land-parcel
+- type: governed-by
+  target: place-care-agreement
+- type: part-of
+  target: public-asset-register

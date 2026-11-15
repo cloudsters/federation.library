@@ -1,0 +1,63 @@
+kind: entity
+slug: dispute-case
+title: Dispute Case
+type: transactional
+summary: A dispute or harm brought by a resident, from intake through assessment, mediation or restorative circle to agreement or
+  referral. The mediation service keeps it in confidence, and it is used to route the dispute to the right step, to follow up its
+  agreement and, without names, to learn which disputes recur.
+attributes:
+- name: case-number
+  type: identifier
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: intake-channel
+  type: code
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: dispute-kind
+  type: code
+  card: 1..1
+- name: safety-assessment
+  type: code
+  card: 1..1
+- name: assigned-step
+  type: code
+  card: 1..1
+- name: mediator
+  type: text
+  card: 0..1
+- name: agreement
+  type: reference(resolution-agreement)
+  card: 0..1
+- name: referral
+  type: reference(legal-matter|citizen-complaint)
+  card: 0..1
+- name: consent-to-referral
+  type: boolean
+  card: 0..1
+states:
+- received
+- assessed
+- in-mediation
+- in-circle
+- agreed
+- referred
+- closed
+relations:
+- type: governed-by
+  target: mediation-protocol
+- type: assigned-to
+  target: mediator-roster
+- type: produces
+  target: resolution-agreement
+- type: refers-to
+  target: legal-matter
+- type: refers-to
+  target: citizen-complaint

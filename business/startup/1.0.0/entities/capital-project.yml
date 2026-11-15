@@ -1,0 +1,43 @@
+kind: entity
+slug: capital-project
+title: Capital Project
+type: transactional
+summary: A construction, expansion or major equipment project, from need and funding through planning, procurement and construction
+  to commissioning, with budget, schedule and the facilities and assets it delivers.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: project-kind
+  type: code
+  card: 1..1
+- name: project-budget
+  type: amount
+  card: 1..1
+- name: business-case
+  type: reference(business-case)
+  card: 0..1
+- name: schedule
+  type: period
+  card: 1..1
+- name: sponsor
+  type: reference(board-of-directors)
+  card: 0..1
+- name: delivered-facilities
+  type: reference(facility)
+  card: 0..*
+states:
+- proposed
+- approved
+- in-planning
+- in-procurement
+- in-construction
+- commissioned
+- closed
+relations:
+- type: based-on
+  target: governance-decision
+- type: produces
+  target: facility
+- type: produces
+  target: asset

@@ -1,0 +1,142 @@
+kind: value-stream
+slug: patient-flow-and-bed-management
+title: Patient Flow and Bed Management
+family: demand-to-fulfillment
+summary: 'Moving patients through the organisation without delay: demand and occupancy forecasting, bed allocation and placement,
+  internal and external transfers, patient transport and daily capacity coordination.'
+trigger: A patient needs a bed, a transfer or transport, or capacity falls short of demand.
+outcome: The patient is in the right bed or place at the right time, and capacity matches demand.
+stakeholders:
+- emergency-patient
+- elective-inpatient
+- critically-ill-patient
+- referring-hospital
+- emergency-medical-service
+- registered-nurse
+- case-manager
+- specialist-physician
+- executive
+- support-services-staff
+- operations-planning-agent
+steps:
+- slug: demand-and-occupancy-forecasting
+  title: Demand and Occupancy Forecasting
+  summary: Admissions, discharges and occupancy are forecast by day, unit and season from emergency demand, planned admissions and
+    length of stay, with an agent proposing the outlook for managers to confirm and its accuracy monitored.
+  capabilities:
+  - occupancy-forecasting
+  - bed-occupancy-planning
+  - predictive-analytics
+  - referral-volume-forecasting
+  - model-monitoring-and-drift
+  entities:
+  - capacity-forecast
+  - prediction
+  - schedule
+  - waiting-list-entry
+  serves:
+  - capacity-board
+  - capacity-huddle
+- slug: daily-capacity-coordination
+  title: Daily Capacity Coordination
+  summary: At fixed huddles the patient-flow team compares beds, expected discharges and staff with demand, agrees actions, redeploys
+    staff and escalates to surge measures when demand exceeds capacity.
+  capabilities:
+  - patient-flow-orchestration
+  - ward-capacity-management
+  - emergency-department-flow-management
+  - staffing-level-adjustment
+  - float-pool-and-redeployment
+  - emergency-and-disaster-preparedness
+  entities:
+  - capacity-status
+  - capacity-forecast
+  - dashboard
+  - shift-assignment
+  serves:
+  - capacity-board
+  - staffing-huddle
+  - capacity-huddle
+- slug: bed-request-and-placement
+  title: Bed Request and Placement
+  summary: Each bed request is matched to the right unit and bed by specialty, acuity, isolation need and sex, placements outside
+    the specialty are kept to a minimum, and the placement is confirmed to the sending team.
+  capabilities:
+  - bed-coordination-and-placement
+  - patient-flow-orchestration
+  - isolation-and-screening-management
+  - ai-assistant-integration
+  entities:
+  - bed
+  - bed-assignment
+  - clinical-alert
+  - encounter
+  serves:
+  - capacity-board
+  - emergency-department
+  - isolation-room
+  - ward
+  - capacity-huddle
+- slug: internal-transfer
+  title: Internal Transfer
+  summary: Patients move between units, including into and out of intensive care, with a complete handover of information and responsibility.
+  capabilities:
+  - patient-transfer-management
+  - intensive-care-capacity-coordination
+  - clinical-handover
+  - nursing-transfer-handover
+  entities:
+  - care-transition
+  - bed-assignment
+  - care-period-mandate
+  serves:
+  - shift-handover
+  - ward
+- slug: interhospital-transfer
+  title: Interhospital Transfer
+  summary: Requests to transfer patients in or out are decided within agreed times, often after a teleconsultation, escort level and
+    transport are arranged, and the receiving team is informed.
+  capabilities:
+  - interhospital-transfer
+  - emergency-network-coordination
+  - intensive-care-capacity-coordination
+  - specialist-teleconsultation
+  entities:
+  - request-for-care
+  - care-transition
+  - care-communication
+  - encounter
+  serves:
+  - teleconsultation-report
+  - telemedicine-service
+  - transfer-coordination-centre
+- slug: patient-transport
+  title: Patient Transport
+  summary: Transport by porter or ambulance within and between sites is ordered, dispatched and tracked, so that patients arrive on
+    time with the escort, equipment and records they need.
+  capabilities:
+  - patient-transport-services
+  - patient-identification
+  entities:
+  - support-service-order
+  - care-transition
+  serves:
+  - ambulance-handover
+  - patient-transport
+  - transfer-coordination-centre
+- slug: bed-release-and-turnaround
+  title: Bed Release and Turnaround
+  summary: Discharges are timed early in the day, the bed is released in the system, cleaned to the hygiene level the previous patient
+    requires, and returned to the pool.
+  capabilities:
+  - discharge-execution
+  - bed-coordination-and-placement
+  - cleaning-services
+  - environmental-hygiene
+  entities:
+  - bed
+  - bed-assignment
+  - support-service-order
+  serves:
+  - capacity-board
+  - discharge-lounge

@@ -1,0 +1,111 @@
+kind: value-stream
+slug: relationship-stewardship
+title: Relationship Stewardship
+family: contributor-to-succession
+summary: 'Stewarding the working relationship as partnership: employment terms and agreements over their life, co-determination and
+  collective negotiation with representatives, grievances heard as signals, wellbeing as infrastructure, and labour law sensed ahead
+  of change.'
+trigger: An agreement, co-determination matter or grievance arises, labour law changes, or relations in a staff group deteriorate.
+outcome: The matter is agreed or resolved with employee representatives, and its cause is fixed in the system.
+stakeholders:
+- works-council
+- trade-union
+- employee
+- human-resources-professional
+- executive-board
+- legal-risk-and-compliance-professional
+steps:
+- slug: labour-landscape-sensing
+  title: Labour Landscape Sensing
+  summary: Track changes in labour law, collective agreements and expectations of work, and assess what they mean for terms, policies
+    and the relationship.
+  capabilities:
+  - regulatory-landscape-sensing
+  entities:
+  - compliance-rule
+  - policy
+  serves:
+  - labour-law-briefing
+  - works-council-meeting
+- slug: matter-intake
+  title: Matter Intake
+  summary: Receive matters from employees, representatives and managers, such as grievances, requests for consultation and disagreements
+    over terms, and route each to a fair process.
+  capabilities:
+  - grievance-as-system-signal
+  - co-determination-cooperation
+  entities:
+  - grievance
+  - employment
+  serves:
+  - grievance-channel
+  - works-council-meeting
+- slug: consultation-and-negotiation
+  title: Consultation and Negotiation
+  summary: Inform and consult the representatives in good time, obtain consent where it is required, and negotiate collective and
+    workplace agreements as co-design of working conditions.
+  capabilities:
+  - co-determination-cooperation
+  - collective-negotiation-as-co-design
+  - labour-relations-as-partnership
+  entities:
+  - agreement
+  - governance-decision
+  serves:
+  - collective-bargaining
+  - works-council-meeting
+- slug: agreement-or-resolution
+  title: Agreement or Resolution
+  summary: Conclude the agreement or resolve the grievance, write the result into employment terms and contracts, and manage them
+    across their life.
+  capabilities:
+  - contract-lifecycle-stewardship
+  - labour-management-symbiosis
+  - grievance-as-system-signal
+  entities:
+  - agreement
+  - contract
+  - employment
+  serves:
+  - collective-agreement
+  - grievance-hearing
+  - workplace-agreement
+- slug: wellbeing-provision
+  title: Wellbeing Provision
+  summary: Maintain wellbeing support, load management and help for those under strain as standing infrastructure that everyone can
+    rely on.
+  capabilities:
+  - wellbeing-as-infrastructure
+  entities:
+  - policy
+  - employee-record
+  - workforce-analytics
+  serves:
+  - wellbeing-support-service
+- slug: cause-fixing
+  title: Cause Fixing
+  summary: Feed the recurring patterns from grievances and consultation back into governance, and fix their cause in the system rather
+    than in the single case.
+  capabilities:
+  - grievance-as-system-signal
+  - labour-management-symbiosis
+  entities:
+  - grievance
+  - policy
+  - governance-decision
+  serves:
+  - intranet
+  - staff-assembly
+  - works-council-meeting
+- slug: relations-review
+  title: Relations Review
+  summary: Review the state of relations with representatives and staff groups, the agreements in force and the trend of grievances,
+    and agree what to improve together.
+  capabilities:
+  - labour-relations-as-partnership
+  - labour-management-symbiosis
+  entities:
+  - agreement
+  - measure-report
+  serves:
+  - joint-relations-review

@@ -1,0 +1,36 @@
+kind: journey
+slug: finance-officer-closing-the-service-gap
+title: Finance Officer Closing the Service Gap
+stakeholder: finance-officer
+summary: A finance officer maps service levels and cost burden by neighbourhood and income, prepares tariffs with a cheap basic quantity
+  for public review, directs investment first to where service is worst with the gap it must close stated, and reports each year which
+  gaps closed.
+stages:
+- slug: map-service-and-burden
+  title: Map Service and Burden
+  goal: How often services come, how fast faults are fixed, who is not connected and what share of income households spend are mapped
+    by neighbourhood and income.
+  step: essential-service-affordability-and-equity/service-level-and-burden-mapping
+  touchpoints:
+  - service-burden-map
+- slug: prepare-the-tariffs
+  title: Prepare the Tariffs
+  goal: Tariffs for water, energy, heat, waste and transport with a cheap basic quantity are prepared and put to public review before
+    the council adopts them.
+  step: essential-service-affordability-and-equity/basic-quantity-and-tariff-setting
+  touchpoints:
+  - tariff-public-review
+- slug: invest-where-service-is-worst
+  title: Invest Where Service Is Worst
+  goal: Investment in networks, routes and facilities goes first to the neighbourhoods where service is worst, and the capital plan
+    states the gap each investment must close.
+  step: essential-service-affordability-and-equity/service-gap-investment
+  touchpoints:
+  - capital-plan-gap-statement
+  - service-burden-map
+- slug: report-which-gaps-closed
+  title: Report Which Gaps Closed
+  goal: The yearly report with residents states who paid what and which gaps between neighbourhoods closed and which remain.
+  step: essential-service-affordability-and-equity/affordability-and-equity-review
+  touchpoints:
+  - annual-equity-report

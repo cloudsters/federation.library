@@ -1,0 +1,16 @@
+kind: capability
+slug: asset-condition-sensing
+title: Asset Condition Sensing
+level: L3
+parent: device-maintenance-and-safety
+summary: Monitor device condition and use to time maintenance and replacement.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

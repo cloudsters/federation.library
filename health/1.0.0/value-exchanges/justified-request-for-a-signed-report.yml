@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: justified-request-for-a-signed-report
+title: Justified Request for a Signed Report
+between:
+- specialist-physician
+- diagnostic-physician
+offered:
+- A request with a clear clinical question and the information needed to justify the exposure.
+returned:
+- The right examination with the right protocol, a structured and signed report, and urgent findings communicated in person.
+touchpoint: clinical-workstation

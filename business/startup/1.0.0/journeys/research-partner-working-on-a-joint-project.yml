@@ -1,0 +1,40 @@
+kind: journey
+slug: research-partner-working-on-a-joint-project
+title: Research Partner Working on a Joint Project
+stakeholder: research-partner
+summary: A university, institute or other research partner agrees fair terms for joint research, works alongside the organisation's
+  engineers in laboratory and testbed, and sees its rights, publications and results honoured.
+stages:
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: Cost, contributions, rights to results and publication are agreed before work begins.
+  step: research-and-technology-development/research-collaboration
+  touchpoints:
+  - research-agreement
+  - contract-negotiation
+- slug: work-together
+  title: Work Together
+  goal: Researchers from both sides share data, facilities and findings in a steady rhythm.
+  step: research-and-technology-development/experiments-and-demonstrators
+  touchpoints:
+  - research-project-review
+  - test-laboratory
+- slug: test-in-the-field
+  title: Test in the Field
+  goal: The partner's methods are tried under real operating conditions and the results are shared.
+  step: research-and-technology-development/testbed-trial
+  touchpoints:
+  - testbed
+- slug: settle-rights-and-publication
+  title: Settle Rights and Publication
+  goal: Joint inventions are disclosed, and the agreed share of rights and the right to publish are honoured.
+  step: research-and-technology-development/invention-capture-and-protection
+  touchpoints:
+  - invention-disclosure
+  - research-agreement
+- slug: see-the-results-used
+  title: See the Results Used
+  goal: The partner learns whether its results are transferred, licensed or closed, and receives its agreed share and acknowledgement.
+  step: research-and-technology-development/maturity-review-and-transfer
+  touchpoints:
+  - research-project-review

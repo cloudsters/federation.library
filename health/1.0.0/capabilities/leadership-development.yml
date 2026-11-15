@@ -1,0 +1,10 @@
+kind: capability
+slug: leadership-development
+title: Leadership Development
+level: L3
+parent: performance-and-career
+summary: Develop clinical and managerial leaders at every level.
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global

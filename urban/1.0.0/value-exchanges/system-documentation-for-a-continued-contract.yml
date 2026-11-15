@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: system-documentation-for-a-continued-contract
+title: System Documentation for a Continued Contract
+between:
+- technology-supplier
+- city-administration
+offered:
+- Documentation of a system's purpose, data and known limits, and access for inspection.
+returned:
+- A contract that continues while the system stays listed, open to inspection and within its stated limits.
+touchpoint: algorithm-and-sensor-list

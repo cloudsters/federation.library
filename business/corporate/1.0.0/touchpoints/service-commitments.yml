@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-commitments
+title: Service Commitments
+medium: artefact
+summary: The published service levels, policies and terms of personal data use that customers can rely on, set per segment and channel.
+exchanges:
+- plain-commitments-for-trust
+- segment-service-levels-for-predictable-demand
+journey: consumer-finding-a-clear-path-to-the-organisation

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: pilot-run-review
+title: Pilot Run Review
+medium: encounter
+summary: The review at the end of a pilot in one department or district, where staff, their representatives and the process owner
+  judge the change before it spreads.
+exchanges:
+- pilot-experience-for-changes-before-rollout
+- staff-consent-for-protected-working-conditions
+journey: frontline-worker-improving-the-process-they-run

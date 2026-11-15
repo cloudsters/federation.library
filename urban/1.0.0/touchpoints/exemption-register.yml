@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: exemption-register
+title: Exemption Register
+medium: artefact
+summary: The public register of every record withheld, with its written reason and its review date.
+exchanges:
+- scrutiny-for-records-public-by-default
+journey: councillor-keeping-conduct-open

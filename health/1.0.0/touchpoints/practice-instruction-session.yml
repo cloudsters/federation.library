@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: practice-instruction-session
+title: Practice Instruction Session
+medium: encounter
+summary: A planned session in which a qualified practice instructor teaches and assesses a learner on a real care task at the patient.
+exchanges:
+- instruction-for-contribution
+journey: becoming-a-licensed-health-professional

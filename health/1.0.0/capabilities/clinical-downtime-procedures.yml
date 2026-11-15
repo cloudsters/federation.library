@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-downtime-procedures
+title: Clinical Downtime Procedures
+level: L3
+parent: it-resilience
+summary: Prepare and practise fallback procedures for care during outages of clinical systems.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

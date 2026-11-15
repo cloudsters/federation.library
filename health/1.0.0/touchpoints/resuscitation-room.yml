@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: resuscitation-room
+title: Resuscitation Room
+medium: place
+summary: The equipped room in the emergency department where a pre-alerted team receives and stabilises critically ill and injured
+  patients.
+exchanges:
+- pre-alert-for-a-ready-team
+journey: emergency-medical-service-handover-journey

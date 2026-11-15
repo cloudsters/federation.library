@@ -1,0 +1,10 @@
+kind: capability
+slug: data-protection-governance
+title: Data Protection Governance
+level: L3
+parent: data-protection-and-privacy
+summary: Govern the protection of personal data across care, research and administration.
+binds:
+- source: src-342
+  edition: '2025'
+  jurisdiction: global

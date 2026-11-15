@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: booked-time-for-a-fair-share
+title: Booked Time for a Fair Share
+between:
+- sports-club
+- city-administration
+offered:
+- The bookings of the club, used as booked and released when not needed.
+returned:
+- A fair share of facility time through one open system.
+touchpoint: open-facility-booking-calendar

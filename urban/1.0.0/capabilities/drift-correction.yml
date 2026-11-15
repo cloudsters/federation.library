@@ -1,0 +1,7 @@
+kind: capability
+slug: drift-correction
+title: Drift Correction
+level: L3
+parent: whole-city-perception
+summary: Decide how each detected drift is corrected, give every correction an owner, a measure and a date, and follow it until the
+  drift is closed.

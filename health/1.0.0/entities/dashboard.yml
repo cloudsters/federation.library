@@ -1,0 +1,34 @@
+kind: entity
+slug: dashboard
+title: Dashboard
+type: intelligence
+summary: A composed view of measures and operational signals for a defined audience and decision, such as a bed board, an
+  operating-room monitor or a board scorecard, with its refresh rule and owner.
+attributes:
+- name: audience
+  type: code
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: measures
+  type: reference(measure)
+  card: 1..*
+- name: refresh-rule
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: data-products
+  type: reference(data-product)
+  card: 0..*
+states:
+- draft
+- published
+- withdrawn
+relations:
+- type: composed-of
+  target: measure-report
+- type: depends-on
+  target: data-product

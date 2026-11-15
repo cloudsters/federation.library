@@ -1,0 +1,33 @@
+kind: journey
+slug: local-business-meeting-the-rules-of-the-city
+title: Local Business Meeting the Rules of the City
+stakeholder: local-business
+summary: A local business raises a claim, comments on a draft bylaw that binds its trade, agrees fair terms in a contract with the
+  city and settles a dispute through mediation rather than litigation.
+stages:
+- slug: raise-a-claim
+  title: Raise a Claim
+  goal: The business's claim is recorded and acknowledged, and it knows who handles it and by when.
+  step: legal-affairs-and-compliance/matter-intake
+  touchpoints:
+  - claims-desk
+- slug: comment-on-a-draft-bylaw
+  title: Comment on a Draft Bylaw
+  goal: The business has said how the draft bylaw would bind its daily trade, and permits that only gate are simplified or removed.
+  step: legal-affairs-and-compliance/bylaw-drafting-and-review
+  touchpoints:
+  - draft-bylaw
+  - public-hearing
+- slug: agree-fair-terms
+  title: Agree Fair Terms
+  goal: The contract is clear and fair, with the obligations, guarantees and bonds on both sides written in.
+  step: legal-affairs-and-compliance/contract-and-lease-review
+  touchpoints:
+  - contract-negotiation
+- slug: settle-the-dispute
+  title: Settle the Dispute
+  goal: The dispute is settled through dialogue and mediation, and litigation remains only where repair fails.
+  step: legal-affairs-and-compliance/claim-and-dispute-resolution
+  touchpoints:
+  - mediation-session
+  - claims-desk

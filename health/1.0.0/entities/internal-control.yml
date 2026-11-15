@@ -1,0 +1,50 @@
+kind: entity
+slug: internal-control
+title: Internal Control
+type: governance
+summary: A defined control that secures an obligation or treats a risk, such as an approval, a reconciliation, a segregation
+  of duties, a system check or a review, with its objective, owner, frequency and the result of its last test.
+attributes:
+- name: objective
+  type: text
+  card: 1..1
+- name: control-kind
+  type: code
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: frequency
+  type: code
+  card: 0..1
+- name: obligations
+  type: reference(compliance-obligation)
+  card: 0..*
+- name: risks
+  type: reference(risk)
+  card: 0..*
+- name: last-test-result
+  type: code
+  card: 0..1
+- name: last-tested-on
+  type: date
+  card: 0..1
+states:
+- designed
+- operating
+- deficient
+- withdrawn
+relations:
+- type: based-on
+  target: compliance-obligation
+- type: refers-to
+  target: risk
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global
+- source: src-459
+  edition: '2026'
+  jurisdiction: global

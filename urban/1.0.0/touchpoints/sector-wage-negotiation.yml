@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: sector-wage-negotiation
+title: Sector Wage Negotiation
+medium: encounter
+summary: The yearly negotiation in which worker representatives, employers and the city set wage floors, benefits and progression
+  for care, transport, cleaning and maintenance.
+exchanges:
+- care-workers-account-for-a-care-wage-floor
+- worker-claims-for-a-floor-every-employer-pays
+journey: care-worker-earning-a-sector-wage-floor

@@ -1,0 +1,62 @@
+kind: entity
+slug: distribution-hub
+title: Distribution Hub
+type: master
+summary: A shared loading bay, consolidation hub or food pickup point at neighbourhood scale, with its site, partners, hours and capacity.
+  The partners who run it keep the record with the city under its operating agreement, and it is used to book delivery slots, bundle
+  orders and bring goods the last distance by clean vehicle or on foot.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: hub-kind
+  type: code
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: site
+  type: reference(land-parcel)
+  card: 0..1
+- name: host-site
+  type: text
+  card: 0..1
+- name: partners
+  type: text
+  card: 1..*
+- name: operating-agreement
+  type: reference(hub-operating-agreement)
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 1..1
+- name: capacity
+  type: quantity
+  card: 0..1
+- name: delivery-slots
+  type: text
+  card: 0..*
+- name: onward-modes
+  type: code
+  card: 0..*
+- name: nearest-stop
+  type: reference(transit-stop)
+  card: 0..1
+states:
+- proposed
+- placed
+- agreed
+- operating
+- suspended
+- closed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: governed-by
+  target: hub-operating-agreement
+- type: governed-by
+  target: kerb-and-loading-rule
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: transit-stop

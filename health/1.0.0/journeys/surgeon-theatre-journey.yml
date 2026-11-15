@@ -1,0 +1,45 @@
+kind: journey
+slug: surgeon-theatre-journey
+title: Surgeon Theatre Journey
+stakeholder: surgeon
+summary: A surgeon secures theatre time for the department's waiting list, books cases once, operates from lists that hold, moves
+  from case to case without waiting and sees how the sessions were used.
+stages:
+- slug: secure-sessions
+  title: Secure Sessions
+  goal: Receive enough sessions for the department's waiting list, by rules known in advance.
+  step: operating-theatre-management/session-allocation
+  touchpoints:
+  - theatre-planning-meeting
+- slug: book-the-case
+  title: Book the Case
+  goal: Book a case with everything it needs in one step.
+  step: operating-theatre-management/case-booking
+  touchpoints:
+  - clinical-workstation
+  - operating-list
+- slug: see-a-list-that-holds
+  title: See a List That Holds
+  goal: See a final list with team, sets and beds confirmed.
+  step: operating-theatre-management/list-planning
+  touchpoints:
+  - operating-list
+- slug: operate-on-time
+  title: Operate on Time
+  goal: Start on time and have emergencies fitted in without chaos.
+  step: operating-theatre-management/day-of-surgery-coordination
+  touchpoints:
+  - theatre-control-desk
+  - operating-theatre
+- slug: keep-the-flow
+  title: Keep the Flow
+  goal: Move from case to case without waiting for room or instruments.
+  step: operating-theatre-management/turnover-and-readiness
+  touchpoints:
+  - operating-theatre
+- slug: review-the-use
+  title: Review the Use
+  goal: See how the department used its sessions and agree what to change.
+  step: operating-theatre-management/utilisation-review
+  touchpoints:
+  - theatre-planning-meeting

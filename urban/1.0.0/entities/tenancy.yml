@@ -1,0 +1,66 @@
+kind: entity
+slug: tenancy
+title: Tenancy
+type: transactional
+summary: The agreement under which a household rents a home, with its rent and charges, rights and duties, start and end, and its
+  payment history. The housing office or the owner of the home keeps it with the tenant, and it is used to collect rent, arrange repairs,
+  support the tenant and let the home again when it ends.
+attributes:
+- name: tenancy-number
+  type: identifier
+  card: 1..1
+- name: dwelling
+  type: reference(dwelling)
+  card: 1..1
+- name: tenants
+  type: text
+  card: 1..*
+- name: tenancy-kind
+  type: code
+  card: 1..1
+- name: agreement
+  type: document
+  card: 1..1
+- name: start-date
+  type: date
+  card: 1..1
+- name: end-date
+  type: date
+  card: 0..1
+- name: rent
+  type: amount
+  card: 1..1
+- name: service-charges
+  type: amount
+  card: 0..*
+- name: payments
+  type: reference(payment)
+  card: 0..*
+- name: payment-arrangement
+  type: reference(payment-arrangement)
+  card: 0..1
+- name: end-reason
+  type: code
+  card: 0..1
+states:
+- offered
+- signed
+- active
+- in-arrears
+- ending
+- ended
+relations:
+- type: refers-to
+  target: dwelling
+- type: governed-by
+  target: housing-policy
+- type: produces
+  target: payment
+- type: refers-to
+  target: payment-arrangement
+- type: refers-to
+  target: arrears-case
+binds:
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global

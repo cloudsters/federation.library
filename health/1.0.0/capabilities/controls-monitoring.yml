@@ -1,0 +1,10 @@
+kind: capability
+slug: controls-monitoring
+title: Controls Monitoring
+level: L3
+parent: internal-control-and-audit
+summary: Monitor the effectiveness of internal controls and remedy weaknesses.
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

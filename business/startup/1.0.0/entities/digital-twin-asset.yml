@@ -1,0 +1,47 @@
+kind: entity
+slug: digital-twin-asset
+title: Digital Twin Asset
+type: master
+summary: An asset that manages its own maintenance budget, evaluates sensor data, and autonomously orders spare parts. The self-stewarding
+  production object — not a passive record of a physical thing but an active agent of its own lifecycle.
+attributes:
+- name: asset
+  type: reference(asset)
+  card: 1..1
+- name: condition-state
+  type: code
+  card: 1..1
+- name: maintenance-forecast
+  type: text
+  card: 0..1
+- name: self-managed-budget
+  type: amount
+  card: 0..1
+- name: autonomy-mandate
+  type: reference(agent-mandate)
+  card: 0..1
+- name: repair-commissioning
+  type: boolean
+  card: 0..1
+states:
+- commissioned
+- self-monitoring
+- self-maintaining
+- mandate-reviewed
+- retired
+relations:
+- type: refers-to
+  target: asset
+- type: refers-to
+  target: equipment
+- type: produces
+  target: maintenance-request
+- type: governed-by
+  target: agent-mandate
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-149
+  edition: '3.2'
+  jurisdiction: global

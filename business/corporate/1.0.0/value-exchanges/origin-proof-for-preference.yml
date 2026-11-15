@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: origin-proof-for-preference
+title: Origin Proof for Preference
+between:
+- supplier
+- procurement-specialist
+offered:
+- Valid proof of where its goods originate, available for verification.
+returned:
+- Continued orders, because the preference lowers the landed cost of its goods.
+touchpoint: proof-of-origin

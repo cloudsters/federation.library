@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: trusted-observations-for-confidential-handling
+title: Trusted Observations for Confidential Handling
+between:
+- resident
+- community-development-worker
+offered:
+- What a trusted resident notices between groups in the neighbourhood.
+returned:
+- Confidential handling, and word of what was done.
+touchpoint: trusted-voices-network

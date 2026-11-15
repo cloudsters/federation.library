@@ -1,0 +1,47 @@
+kind: entity
+slug: specialty-certification
+title: Specialty Certification
+type: governance
+summary: The recognition by the competent professional body that a professional has completed training and examination in a specialty,
+  entitling them to practise it independently and to supervise trainees in it.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: specialty
+  type: code
+  card: 1..1
+- name: certifying-body
+  type: reference(organisation)
+  card: 1..1
+- name: certificate-identifier
+  type: identifier
+  card: 1..1
+- name: certified-on
+  type: date
+  card: 1..1
+- name: recertification-due
+  type: date
+  card: 0..1
+- name: supervision-entitlement
+  type: boolean
+  card: 0..1
+states:
+- pending-verification
+- verified
+- suspended
+- revoked
+- lapsed
+relations:
+- type: based-on
+  target: examination
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global

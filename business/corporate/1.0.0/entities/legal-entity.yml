@@ -1,0 +1,42 @@
+kind: entity
+slug: legal-entity
+title: Legal Entity
+type: master
+summary: A company of the enterprise that holds legal personality, its own books and tax registration, such as a parent company, a
+  subsidiary or a registered branch, in whose name contracts are signed and accounts are closed.
+attributes:
+- name: organisation
+  type: reference(organization)
+  card: 1..1
+- name: registration-number
+  type: identifier
+  card: 1..1
+- name: tax-identifiers
+  type: identifier
+  card: 0..*
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: base-currency
+  type: code
+  card: 1..1
+- name: fiscal-calendar
+  type: code
+  card: 1..1
+- name: parent-entity
+  type: reference(legal-entity)
+  card: 0..1
+states:
+- in-formation
+- active
+- in-liquidation
+- dissolved
+relations:
+- type: part-of
+  target: organization
+- type: governed-by
+  target: commons-charter
+binds:
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

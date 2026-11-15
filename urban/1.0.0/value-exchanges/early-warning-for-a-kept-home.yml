@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-warning-for-a-kept-home
+title: Early Warning for a Kept Home
+between:
+- tenant
+- housing-officer
+offered:
+- Early word that the household is behind or at risk of eviction, with its circumstances told in full.
+returned:
+- Advice on its rights, a negotiated arrangement with the landlord and the support it is entitled to, so that the home is kept.
+touchpoint: housing-advice-desk

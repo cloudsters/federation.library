@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-building-energy-ratings
+title: Published Building Energy Ratings
+medium: artefact
+summary: The published energy use and emissions of every public building, with the worst performers named.
+exchanges:
+- energy-figures-for-retrofit-priority
+journey: facilities-officer-running-the-city-buildings

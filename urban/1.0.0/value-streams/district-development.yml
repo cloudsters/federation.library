@@ -1,0 +1,143 @@
+kind: value-stream
+slug: district-development
+title: District Development
+family: purpose-to-portfolio
+summary: Developing a district or quarter on undeveloped, vacant or former industrial land, or renewing an existing one, from the
+  first proposal through the assessment of land, heritage and the community already there, a district concept shaped with residents,
+  binding development agreements and staged delivery, to a living quarter whose design draws on its history and whose benefits stay
+  with the community.
+trigger: The spatial plan names a district for development or renewal, land falls vacant or comes into public hands, or residents,
+  a landowner or a developer propose a quarter.
+outcome: A district is developed or renewed as a mixed and connected quarter under an adopted district plan and development agreement,
+  with its heritage reused and its community benefits secured and reviewed.
+stakeholders:
+- city-council
+- city-administration
+- city-planner
+- resident
+- neighbourhood-association
+- affected-community
+- landowner
+- property-developer
+- community-land-trust
+- local-business
+steps:
+- slug: district-proposal
+  title: District Proposal
+  summary: A district for development or renewal is proposed by the planning department, residents, a landowner or a developer, with
+    its reasons against the spatial plan and the strategy and a first view of the land it covers.
+  capabilities:
+  - district-proposal-appraisal
+  - land-capacity-analysis
+  entities:
+  - development-project
+  - land-parcel
+  - masterplan
+  serves:
+  - district-proposal-form
+- slug: district-commitment
+  title: District Commitment
+  summary: The council commits to the district and sets its terms, including which public land is kept in public hands and granted
+    on long-term leases, and how vacant land and buildings are used in the meantime.
+  capabilities:
+  - public-land-leasing
+  - interim-use-arrangement
+  - council-decision-recording
+  entities:
+  - development-project
+  - land-parcel
+  - contract
+  - council-decision
+  serves:
+  - district-terms-resolution
+  - interim-use-licence
+- slug: site-heritage-and-community-assessment
+  title: Site, Heritage and Community Assessment
+  summary: The land, its buildings and their condition are assessed together with the histories and stories the place holds and the
+    residents, businesses and community assets already there, and the risk that they would be displaced.
+  capabilities:
+  - heritage-and-place-story-assessment
+  - displacement-risk-assessment
+  - community-asset-mapping
+  - civic-memory-documentation
+  entities:
+  - civic-memory-record
+  - heritage-protection
+  - community-asset-map
+  - building
+  serves:
+  - site-and-story-walk
+  - site-assessment-report
+- slug: district-concept-design
+  title: District Concept Design
+  summary: With residents, the planners design the district concept, a mix of homes, work and shops for different incomes, permeable
+    streets, spaces for commons, and old buildings reused so that the history of the place informs the new design.
+  capabilities:
+  - district-concept-design
+  - heritage-reuse-planning
+  - density-and-mix-planning
+  - participatory-plan-design
+  entities:
+  - district-plan
+  - development-project
+  - building
+  - public-consultation
+  serves:
+  - district-design-workshop
+- slug: development-agreement
+  title: Development Agreement
+  summary: The city negotiates binding agreements with landowners and developers that secure space for commons, affordable homes,
+    a fund for community benefit and the community's right to buy first, and return part of the rise in land value.
+  capabilities:
+  - development-agreement-negotiation
+  - community-benefit-agreement-drafting
+  - land-value-capture-design
+  - contract-review
+  entities:
+  - development-agreement
+  - contract
+  serves:
+  - agreement-negotiation-round
+  - published-development-agreement
+- slug: district-delivery
+  title: District Delivery
+  summary: Plots are released in stages, including to cooperatives, community land trusts and small builders, and the streets, infrastructure
+    and commons spaces are delivered ahead of or alongside the buildings.
+  capabilities:
+  - phased-plot-release
+  - district-delivery-coordination
+  entities:
+  - development-project
+  - construction-phase
+  - land-parcel
+  serves:
+  - district-delivery-meeting
+  - plot-release-call
+- slug: quarter-review
+  title: Quarter Review
+  summary: After delivery, residents and the city review whether the quarter lives as intended, whether the agreed community benefits
+    were delivered and who was displaced, and the care of shared spaces passes to neighbourhood bodies.
+  capabilities:
+  - community-benefit-monitoring
+  - implementation-reporting
+  - resident-inspection-support
+  entities:
+  - development-agreement
+  - neighbourhood
+  - oversight-report
+  serves:
+  - community-benefit-report
+  - quarter-review-walk
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-192
+  edition: '2024'
+  jurisdiction: global
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global
+- source: src-201
+  edition: '2011-11-10'
+  jurisdiction: global

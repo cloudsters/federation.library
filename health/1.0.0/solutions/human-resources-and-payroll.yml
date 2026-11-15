@@ -1,0 +1,63 @@
+kind: solution
+slug: human-resources-and-payroll
+title: Human Resources and Payroll
+role: system-of-record
+summary: Holds employees, their employment and positions, the organisational structure, recruitment, appraisals, academic
+  appointments and payroll. It is the authority for who works in the organisation, in which post and on which terms.
+carries:
+- hr-information-systems
+- employee-data-stewardship
+- strategic-workforce-planning
+- workforce-reporting
+- competency-model-design
+- organisation-design
+- position-requisition-management
+- candidate-sourcing
+- candidate-screening-and-selection
+- applicant-information-stewardship
+- hiring-and-rehire-management
+- international-recruitment
+- talent-pipeline-development
+- professorial-appointment-process
+- external-review-coordination
+- joint-appointment
+- pre-boarding-experience
+- clinical-onboarding
+- performance-management
+- career-framework-architecture
+- promotion-and-progression
+- internal-mobility-marketplace
+- succession-planning
+- separation-management
+- retirement-management
+- emeritus-transition
+- grievance-management
+- employee-inquiry-service
+- engagement-surveys
+- retention-management
+- reward-and-recognition
+- compensation-benchmarking
+- benefits-administration
+- payroll-administration
+- payroll-taxes
+- employee-self-service-portal
+holds:
+- employee
+- employment
+- position
+- organisation-unit
+- academic-appointment
+- job-vacancy
+- job-application
+- appraisal
+- payroll-run
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

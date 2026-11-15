@@ -1,0 +1,25 @@
+kind: journey
+slug: employee-returning-after-leave-or-illness
+title: Employee Returning After Leave or Illness
+stakeholder: employee
+summary: An employee takes leave with the place kept secure, plans the return after leave, illness or injury with adapted duties and
+  support, and takes the role back from the interim holder.
+stages:
+- slug: agree-the-leave
+  title: Agree the Leave
+  goal: The leave is granted with its length and the security of the place written down.
+  step: transition-graceful-exit/leave-and-return
+  touchpoints:
+  - leave-agreement
+- slug: plan-the-return
+  title: Plan the Return
+  goal: The return is planned with adapted duties, hours and support agreed before the first day back.
+  step: transition-graceful-exit/leave-and-return
+  touchpoints:
+  - return-to-work-meeting
+- slug: take-the-role-back
+  title: Take the Role Back
+  goal: The interim holder hands back responsibilities and open matters, and the returning employee resumes the role.
+  step: transition-graceful-exit/role-handover
+  touchpoints:
+  - handover-plan

@@ -1,0 +1,11 @@
+kind: body
+slug: centre-nursing-director
+title: Centre Nursing Director
+summary: 'Leads nursing in a centre: answers for the nursing process and fundamental care on its wards and for its nursing teams,
+  and sits with the centre''s medical and commercial leads in the centre board.'
+holds:
+- nursing-process
+- fundamental-care
+part_of: executive-board
+type: management
+form: organisational-unit

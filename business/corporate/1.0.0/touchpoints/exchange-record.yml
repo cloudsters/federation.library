@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: exchange-record
+title: Exchange Record
+medium: artefact
+summary: The record of an agreed and settled exchange with the mandate under which it was made, kept in the books of both members.
+exchanges:
+- settled-exchange-for-a-matching-record
+journey: network-member-offering-surplus

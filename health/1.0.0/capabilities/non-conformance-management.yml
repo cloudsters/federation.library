@@ -1,0 +1,10 @@
+kind: capability
+slug: non-conformance-management
+title: Non-conformance Management
+level: L3
+parent: quality-system
+summary: Record nonconformities, assess their impact, find root causes and take corrective and preventive action.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

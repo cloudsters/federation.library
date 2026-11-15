@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: retirement-notice
+title: Retirement Notice
+medium: artefact
+summary: The notice to users that a system will close, when, where its data and records go and which service replaces it.
+exchanges:
+- returned-data-for-an-orderly-close
+- closure-notice-for-kept-records
+journey: city-administration-replacing-a-legacy-system

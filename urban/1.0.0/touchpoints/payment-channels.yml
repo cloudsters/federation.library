@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: payment-channels
+title: Payment Channels
+medium: channel
+summary: The ways residents pay the city, from bank transfer and mobile payment to the counter and neighbourhood agents, each matched
+  to the right account.
+exchanges:
+- payment-for-a-matched-receipt
+journey: finance-officer-raising-local-revenue

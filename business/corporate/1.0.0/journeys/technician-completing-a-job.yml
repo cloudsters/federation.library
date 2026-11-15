@@ -1,0 +1,34 @@
+kind: journey
+slug: technician-completing-a-job
+title: Technician Completing a Job
+stakeholder: field-service-technician
+summary: A field service technician understands the customer's situation, performs and validates the work, records time and parts
+  and passes on what the job taught.
+stages:
+- slug: understand-the-situation
+  title: Understand the Situation
+  goal: The technician arrives knowing the history and entitlement and confirms the scope with the customer.
+  step: service-delivery-craft/service-intake-and-scoping
+  touchpoints:
+  - job-assignment
+  - service-visit
+- slug: perform-and-validate
+  title: Perform and Validate
+  goal: The work is done to standard, adapted where the situation requires, and validated before leaving.
+  step: service-delivery-craft/service-performance
+  touchpoints:
+  - service-visit
+  - remote-service-connection
+- slug: record-time-and-parts
+  title: Record Time and Parts
+  goal: Time, parts, travel and expenses are recorded against the order on the spot.
+  step: service-delivery-craft/time-and-material-recording
+  touchpoints:
+  - service-report
+- slug: pass-on-what-was-learned
+  title: Pass On What Was Learned
+  goal: Findings, solutions and customer signals reach colleagues and the organisation.
+  step: service-delivery-craft/completion-and-sign-off
+  touchpoints:
+  - service-report
+  - service-knowledge-base

@@ -1,0 +1,66 @@
+kind: entity
+slug: digital-service
+title: Digital Service
+type: master
+summary: A service the city delivers to residents or its own staff through digital means, with its owner, the people it serves and
+  the equal route it keeps for those who are offline. The owning department keeps its record in the city's list of services, and it
+  is the unit against which levels are agreed, faults are reported and continuity is planned.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: service-owner
+  type: text
+  card: 1..1
+- name: user-groups
+  type: text
+  card: 1..*
+- name: channels
+  type: code
+  card: 1..*
+- name: offline-route
+  type: text
+  card: 1..1
+- name: applications
+  type: reference(application)
+  card: 0..*
+- name: service-levels
+  type: reference(service-level-agreement)
+  card: 0..1
+- name: essential
+  type: boolean
+  card: 1..1
+- name: continuity-plan
+  type: reference(service-continuity-plan)
+  card: 0..1
+- name: live-since
+  type: date
+  card: 0..1
+states:
+- designed
+- in-pilot
+- live
+- changing
+- suspended
+- retired
+relations:
+- type: depends-on
+  target: application
+- type: depends-on
+  target: digital-network
+- type: governed-by
+  target: service-level-agreement
+- type: governed-by
+  target: service-continuity-plan
+- type: refers-to
+  target: department
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

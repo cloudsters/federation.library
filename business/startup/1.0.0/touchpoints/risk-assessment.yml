@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: risk-assessment
+title: Risk Assessment
+medium: artefact
+summary: The documented assessment of the hazards of a workplace or task and the environmental impact of an activity, with the controls
+  that apply and the people who took part.
+exchanges:
+- workplace-knowledge-for-protection
+- restraint-for-living-systems
+journey: operator-working-safely-every-shift

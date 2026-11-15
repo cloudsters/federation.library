@@ -1,0 +1,130 @@
+kind: value-stream
+slug: academic-appointments
+title: Academic Appointments
+family: contributor-to-succession
+summary: 'Appointing professors and clinical academic leaders jointly with the medical faculty: profile, call, selection committee,
+  external reviews, negotiation and appointment, including joint appointments with partner institutions.'
+trigger: A professorship or clinical leadership chair is vacant or newly created.
+outcome: The appointee has accepted, holds the joint academic and clinical role, and has an agreed resource package.
+stakeholders:
+- job-applicant
+- university
+- executive
+- head-of-clinical-department
+- research-partner
+steps:
+- slug: chair-profile
+  title: Chair Profile
+  summary: 'Define the profile of the professorship jointly with the faculty: its research focus, teaching duties, clinical scope
+    and the department it will lead, aligned with research and clinical strategy.'
+  capabilities:
+  - succession-planning
+  - research-strategy-design
+  - clinical-service-portfolio-stewardship
+  - hospital-and-faculty-cooperation
+  - academic-mandate-alignment
+  entities:
+  - academic-appointment
+  - position
+  - strategy
+  - organisation-unit
+  serves:
+  - joint-university-committee
+- slug: committee-and-call
+  title: Committee and Call
+  summary: Constitute the appointment committee with external members, release the post, publish the call and search actively for
+    outstanding candidates.
+  capabilities:
+  - professorial-appointment-process
+  - candidate-sourcing
+  - diversity-and-inclusion
+  entities:
+  - governance-body
+  - job-vacancy
+  - academic-appointment
+  serves:
+  - job-advertisement
+- slug: candidate-selection
+  title: Candidate Selection
+  summary: Screen the applications, hear shortlisted candidates in a scientific lecture, a teaching sample and an interview, and compare
+    their research, teaching and clinical performance.
+  capabilities:
+  - professorial-appointment-process
+  - candidate-screening-and-selection
+  - applicant-information-stewardship
+  - research-performance-assessment
+  entities:
+  - job-application
+  - academic-appointment
+  serves:
+  - appointment-hearing
+- slug: external-review
+  title: External Review
+  summary: Obtain comparative reviews of the shortlisted candidates from independent external experts and settle the ranked list.
+  capabilities:
+  - external-review-coordination
+  - professorial-appointment-process
+  entities:
+  - job-application
+  - governance-decision
+- slug: list-approval
+  title: List Approval
+  summary: The faculty council, the university and, for a post with clinical leadership, the hospital board approve the ranked list
+    as their governing rules require, and the competent body issues the call to the first-ranked candidate.
+  capabilities:
+  - hospital-and-faculty-cooperation
+  - delegation-of-authority
+  - board-communication-reporting
+  entities:
+  - governance-decision
+  - governance-body
+  - academic-appointment
+  serves:
+  - joint-university-committee
+  - letter-of-call
+- slug: appointment-negotiation
+  title: Appointment Negotiation
+  summary: Negotiate with university and hospital the joint academic and clinical contract, the leadership role and the resource package
+    of posts, space, equipment and research funds, and the retention package when a professor holds an outside offer.
+  capabilities:
+  - joint-appointment
+  - hiring-and-rehire-management
+  - research-and-teaching-fund-allocation
+  - capital-planning
+  - contract-lifecycle-stewardship
+  entities:
+  - academic-appointment
+  - contract
+  - employment
+  - budget
+  - position
+  serves:
+  - appointment-negotiation-meeting
+  - joint-university-committee
+- slug: appointment-and-start
+  title: Appointment and Start
+  summary: Appoint the candidate, grant clinical privileges and leadership authority, and induct the new chair holder into department,
+    faculty and governance roles.
+  capabilities:
+  - joint-appointment
+  - clinical-privileging
+  - clinical-onboarding
+  - delegation-of-authority
+  entities:
+  - academic-appointment
+  - employment
+  - clinical-privilege
+  - practitioner-role
+  serves:
+  - employment-contract
+  - privilege-statement
+binds:
+- source: src-457
+  edition: '2022'
+  jurisdiction: global
+- source: src-458
+  edition: '2012'
+  jurisdiction: global
+- source: src-485
+  edition: '2022'
+  jurisdiction: global

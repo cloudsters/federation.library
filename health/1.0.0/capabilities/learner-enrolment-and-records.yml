@@ -1,0 +1,11 @@
+kind: capability
+slug: learner-enrolment-and-records
+title: Learner Enrolment and Records
+level: L3
+parent: teaching-governance
+summary: Admit and enrol learners and keep their records of progress, placements, assessments, examinations and certificates across
+  all education programmes.
+binds:
+- source: src-474
+  edition: '2015'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: member-savings-for-loans-that-fit
+title: Member Savings for Loans That Fit
+between:
+- resident
+- lender
+offered:
+- Savings and a member's vote.
+returned:
+- Loans timed to how members earn and spend.
+touchpoint: community-bank-member-assembly

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: return-point
+title: Return Point
+medium: place
+summary: Where customers hand back goods, in a shop, by post or by collection, and where returns are received, inspected and routed
+  to refund, repair, reuse or disposal.
+exchanges:
+- returned-goods-for-prompt-remedy
+- candid-notice-for-safe-action
+journey: consumer-getting-help-after-a-purchase

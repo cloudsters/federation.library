@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-claims-for-a-stated-scale
+title: Neighbourhood Claims for a Stated Scale
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- What the neighbourhood's own platforms and networks can hold and decide.
+returned:
+- An architecture that names the neighbourhood level and what it holds, rather than drawing everything to the centre.
+touchpoint: architecture-design-session

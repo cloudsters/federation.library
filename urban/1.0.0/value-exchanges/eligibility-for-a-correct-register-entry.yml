@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: eligibility-for-a-correct-register-entry
+title: Eligibility for a Correct Register Entry
+between:
+- resident
+- election-office
+offered:
+- The resident's current address and evidence of eligibility.
+returned:
+- A correct entry on the electoral register and notice of where and how to vote.
+touchpoint: electoral-register-check

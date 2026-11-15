@@ -1,0 +1,39 @@
+kind: entity
+slug: environmental-footprint
+title: Environmental Footprint
+type: intelligence
+summary: The measured use of energy, water and materials and the resulting emissions and waste of a site or unit for a period,
+  used to steer the organisation's environmental objectives.
+attributes:
+- name: site
+  type: reference(site)
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: period
+  type: period
+  card: 1..1
+- name: energy-use
+  type: quantity
+  card: 1..1
+- name: emissions
+  type: quantity
+  card: 1..1
+- name: waste
+  type: quantity
+  card: 1..1
+- name: water-use
+  type: quantity
+  card: 0..1
+states:
+- preliminary
+- validated
+- reported
+relations:
+- type: refers-to
+  target: strategic-objective
+binds:
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global

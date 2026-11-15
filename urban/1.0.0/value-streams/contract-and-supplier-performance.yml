@@ -1,0 +1,117 @@
+kind: value-stream
+slug: contract-and-supplier-performance
+title: Contract and Supplier Performance
+family: source-to-alliance
+summary: Making sure the city receives what it contracted for and treats its suppliers fairly in return. It holds the handover of
+  each contract to those who rely on it, the monitoring of delivery, service levels and the social, fair-work and ecological commitments,
+  the view of residents and staff who use a contracted service, inspection by resident inspectors, changes and remedies agreed on
+  the record, regular reviews with each main supplier, and the timely decision to renew, tender again, change supplier or bring the
+  work back into the city.
+trigger: A contract is signed, a performance report or a complaint about a contracted service arrives, or a contract approaches its
+  end.
+outcome: Contracts deliver what they promised, shortfalls are remedied on the record, and each contract ends in a decision taken in
+  time.
+stakeholders:
+- contract-manager
+- supplier
+- resident
+- frontline-worker
+- resident-inspector
+- trade-union
+- legal-and-compliance-officer
+steps:
+- slug: contract-mobilisation
+  title: Contract Mobilisation
+  summary: The contract manager hands the new contract over to the department and staff who rely on it, with its obligations, service
+    levels, commitments and contacts, and agrees with the supplier how delivery starts.
+  capabilities:
+  - contract-mobilisation
+  - contract-performance-monitoring
+  entities:
+  - contract
+  - service-level-agreement
+  serves:
+  - contract-start-meeting
+- slug: delivery-and-commitment-monitoring
+  title: Delivery and Commitment Monitoring
+  summary: The contract manager tracks delivery, quality and service levels each month and, with workers and communities, verifies
+    the jobs, wages, worker voice and local hires the supplier committed to.
+  capabilities:
+  - contract-performance-monitoring
+  - fair-work-auditing
+  - social-value-commitment-tracking
+  entities:
+  - contract-performance-report
+  - contract
+  - local-hiring-agreement
+  - wage-floor-agreement
+  serves:
+  - monthly-contract-performance-report
+  - worker-commitment-check
+- slug: user-feedback-and-resident-inspection
+  title: User Feedback and Resident Inspection
+  summary: Residents and staff who use a contracted service give their view of it, and resident inspectors examine the contract's
+    records and spending and publish their findings, which the administration answers.
+  capabilities:
+  - contract-user-feedback-gathering
+  - resident-inspection-support
+  - internal-audit
+  entities:
+  - contract-performance-report
+  - audit-finding
+  serves:
+  - contracted-service-feedback-channel
+  - resident-contract-inspection
+- slug: variation-and-remedy
+  title: Variation and Remedy
+  summary: Changes to scope, price or term are agreed openly within what the contract allows and recorded. When a supplier falls short,
+    the contract manager hears the supplier, agrees a correction and applies the remedies the contract names.
+  capabilities:
+  - contract-variation-and-remedy
+  - claim-and-dispute-resolution
+  - contract-review
+  entities:
+  - contract-variation
+  - contract
+  serves:
+  - contract-remedy-hearing
+  - published-contract-register
+- slug: supplier-performance-review
+  title: Supplier Performance Review
+  summary: Once a year the city reviews with each main supplier its performance, the relationship and what each side owes the other,
+    including whether the city paid on time, and both agree what improves next.
+  capabilities:
+  - supplier-performance-review
+  - payment-time-reporting
+  entities:
+  - supplier-review
+  - supplier-record
+  - contract-performance-report
+  serves:
+  - annual-supplier-review-meeting
+- slug: renewal-or-exit-decision
+  title: Renewal or Exit Decision
+  summary: Well before a contract ends, the department decides with the procurement office whether to renew, tender again, change
+    supplier or bring the work back into the city, and carries out the exit plan so that data, assets and service continue.
+  capabilities:
+  - contract-renewal-decision
+  - supplier-exit-planning
+  - provision-option-assessment
+  entities:
+  - supplier-exit-plan
+  - contract
+  - contract-register
+  serves:
+  - contract-exit-handover
+  - provision-option-review
+  - published-contract-register
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global
+- source: src-638
+  edition: '1949-06-29'
+  jurisdiction: global

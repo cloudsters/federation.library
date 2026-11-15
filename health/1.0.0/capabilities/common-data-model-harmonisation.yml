@@ -1,0 +1,13 @@
+kind: capability
+slug: common-data-model-harmonisation
+title: Common Data Model Harmonisation
+level: L3
+parent: research-data-services
+summary: Map care data to common data models and vocabularies for federated analysis.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

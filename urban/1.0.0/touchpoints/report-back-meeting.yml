@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: report-back-meeting
+title: Report-Back Meeting
+medium: encounter
+summary: The meeting in which councillors and officials explain the decision to participants in person, give the reasons for each
+  departure from what residents said and record dissent next to the decision.
+exchanges:
+- reasons-for-decision-for-recorded-dissent
+journey: administration-involving-residents-in-a-decision

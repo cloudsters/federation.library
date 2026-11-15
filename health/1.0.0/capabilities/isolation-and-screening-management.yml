@@ -1,0 +1,10 @@
+kind: capability
+slug: isolation-and-screening-management
+title: Isolation & Screening Management
+level: L3
+parent: surveillance-and-outbreak-response
+summary: Screen patients for multidrug-resistant organisms and apply isolation precautions.
+binds:
+- source: src-540
+  edition: 2007-upd2024
+  jurisdiction: global

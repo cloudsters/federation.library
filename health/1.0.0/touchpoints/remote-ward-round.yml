@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: remote-ward-round
+title: Remote Ward Round
+medium: encounter
+summary: A scheduled video round in which specialists of the commons review patients of a partner hospital, such as intensive care
+  or stroke patients, together with the local team.
+exchanges:
+- treatment-without-transfer
+journey: receiving-expert-care-without-transfer

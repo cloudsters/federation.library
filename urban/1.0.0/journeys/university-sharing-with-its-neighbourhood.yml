@@ -1,0 +1,32 @@
+kind: journey
+slug: university-sharing-with-its-neighbourhood
+title: University Sharing With Its Neighbourhood
+stakeholder: research-institution
+summary: A university appears in the city's map of civil society, agrees with its neighbourhood what it shares, gives neighbours a
+  say in its decisions that affect them and reviews what the agreement delivered.
+stages:
+- slug: appear-in-the-map
+  title: Appear in the Map
+  goal: The university's rooms, knowledge and community partners appear in the civil-society directory.
+  step: civil-society-partnership/civil-society-mapping
+  touchpoints:
+  - civil-society-directory-view
+- slug: agree-what-it-shares
+  title: Agree What It Shares
+  goal: The university and its neighbourhood have agreed how land, buildings, purchasing, jobs and knowledge are shared.
+  step: civil-society-partnership/anchor-institution-agreements
+  touchpoints:
+  - anchor-agreement-negotiation
+- slug: give-neighbours-a-say
+  title: Give Neighbours a Say
+  goal: Neighbours take part in the university's decisions that affect them, such as expansion and land use.
+  step: civil-society-partnership/anchor-institution-agreements
+  touchpoints:
+  - anchor-neighbourhood-panel
+- slug: review-what-it-delivered
+  title: Review What It Delivered
+  goal: The university, its neighbours and the city have reviewed what the agreement delivered, and have renewed, changed or ended
+    it.
+  step: civil-society-partnership/partnership-review
+  touchpoints:
+  - joint-partnership-review

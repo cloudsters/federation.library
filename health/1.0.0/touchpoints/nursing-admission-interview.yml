@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: nursing-admission-interview
+title: Nursing Admission Interview
+medium: encounter
+summary: The conversation in which a nurse learns the patient's needs, habits, resources, risks and wishes at admission, and which
+  grounds the nursing care plan.
+exchanges:
+- needs-disclosed-for-planned-care
+journey: nursing-care-journey

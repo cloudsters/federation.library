@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: regional-service-assignment
+title: Regional Service Assignment
+between:
+- executive
+- health-planning-authority
+offered:
+- A network configuration that places each service where volumes, staffing and equipment meet its requirements, with evidence
+  per site and the travel times it implies for the population.
+returned:
+- The assignment of service groups and capacity to each site, which defines what the commons may provide there and be paid for,
+  and the planning certainty it needs to invest.
+touchpoint: care-mandate-decision

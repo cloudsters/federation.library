@@ -1,0 +1,46 @@
+kind: entity
+slug: data-use-agreement
+title: Data-Use Agreement
+type: governance
+summary: The binding agreement under which defined data or samples are provided to a recipient for a stated purpose, with conditions
+  on security, publication, retention, onward sharing and return or deletion.
+attributes:
+- name: provider
+  type: reference(organisation)
+  card: 1..1
+- name: recipient
+  type: reference(organisation)
+  card: 1..1
+- name: datasets
+  type: reference(dataset)
+  card: 0..*
+- name: samples
+  type: reference(biobank-sample)
+  card: 0..*
+- name: purpose
+  type: text
+  card: 1..1
+- name: conditions
+  type: text
+  card: 1..*
+- name: period
+  type: period
+  card: 1..1
+states:
+- draft
+- signed
+- in-force
+- expired
+- terminated
+relations:
+- type: based-on
+  target: data-access-request
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-489
+  edition: '2016'
+  jurisdiction: global

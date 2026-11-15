@@ -1,0 +1,61 @@
+kind: entity
+slug: inspection-record
+title: Inspection Record
+type: transactional
+summary: The record of a safety or works inspection, with what was inspected, the findings, their deadlines and how each was closed.
+  The inspecting department keeps it, and it shows that assets, installations and works were safe to use.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: inspection-kind
+  type: code
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: asset
+  type: reference(infrastructure-asset)
+  card: 0..1
+- name: installation
+  type: reference(building-installation)
+  card: 0..1
+- name: construction-phase
+  type: reference(construction-phase)
+  card: 0..1
+- name: inspected-on
+  type: date
+  card: 1..1
+- name: inspected-by
+  type: text
+  card: 1..1
+- name: findings
+  type: text
+  card: 0..*
+- name: finding-deadlines
+  type: date
+  card: 0..*
+- name: taken-out-of-use
+  type: boolean
+  card: 0..1
+- name: next-inspection-on
+  type: date
+  card: 0..1
+states:
+- scheduled
+- inspected
+- findings-open
+- findings-closed
+- out-of-use
+- closed
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: building-installation
+- type: refers-to
+  target: construction-phase
+- type: produces
+  target: infrastructure-repair
+- type: governed-by
+  target: building-code

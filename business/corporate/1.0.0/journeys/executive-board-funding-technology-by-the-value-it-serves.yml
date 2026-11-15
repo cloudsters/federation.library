@@ -1,0 +1,35 @@
+kind: journey
+slug: executive-board-funding-technology-by-the-value-it-serves
+title: Executive Board Funding Technology by the Value It Serves
+stakeholder: executive-board
+summary: The executive board learns what its technology really contributes, sets a technology strategy tied to purpose, funds a portfolio
+  by value and decides major investments through agreed governance.
+stages:
+- slug: see-what-technology-contributes
+  title: See What Technology Contributes
+  goal: The board sees the value current technology creates for customers, operations, people and finances.
+  step: technology-strategy-alignment/technology-landscape-assessment
+  touchpoints:
+  - technology-landscape-report
+  - board-meeting
+- slug: set-the-direction
+  title: Set the Direction
+  goal: A technology strategy tied to the organisation's purpose is adopted.
+  step: technology-strategy-alignment/technology-strategy-formulation
+  touchpoints:
+  - board-meeting
+  - technology-roadmap
+- slug: fund-by-value
+  title: Fund by Value
+  goal: Technology investments and retirements are funded for the value they serve.
+  step: technology-strategy-alignment/technology-portfolio-planning
+  touchpoints:
+  - technology-roadmap
+  - budget-round
+- slug: decide-major-investments
+  title: Decide Major Investments
+  goal: Major investments are decided with the architecture board's advice.
+  step: technology-strategy-alignment/technology-decision-governance
+  touchpoints:
+  - architecture-board
+  - board-meeting

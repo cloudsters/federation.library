@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: a-checked-request-for-a-timely-approval
+title: A Checked Request for a Timely Approval
+between:
+- municipal-employee
+- finance-officer
+offered:
+- A request to buy with its need, budget line and the reuse check made.
+returned:
+- An approval at the delegated level, given quickly when the budget is available.
+touchpoint: purchase-request-form

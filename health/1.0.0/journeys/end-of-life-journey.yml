@@ -1,0 +1,41 @@
+kind: journey
+slug: end-of-life-journey
+title: End-of-Life Journey
+stakeholder: person-at-end-of-life
+summary: A person with a life-limiting illness has growing needs recognised early, is asked what matters, sets down wishes and a proxy,
+  lives as free of suffering as possible and spends the last days in the chosen place.
+stages:
+- slug: be-recognised-early
+  title: Be Recognised Early
+  goal: Have growing needs recognised before a crisis forces decisions.
+  step: palliative-and-end-of-life-care/identification-of-palliative-need
+  touchpoints:
+  - ward-round
+  - consultation
+- slug: be-asked-what-matters
+  title: Be Asked What Matters
+  goal: Be asked about symptoms, fears, beliefs and what matters most.
+  step: palliative-and-end-of-life-care/palliative-assessment
+  touchpoints:
+  - consultation
+- slug: decide-ahead
+  title: Decide Ahead
+  goal: Set down wishes for the end of life and name who speaks for the person.
+  step: palliative-and-end-of-life-care/advance-care-planning
+  touchpoints:
+  - advance-care-planning-conversation
+  - advance-directive-document
+- slug: live-without-suffering
+  title: Live without Suffering
+  goal: Be free of pain and distress as far as possible, in the place where the person wants to be.
+  step: palliative-and-end-of-life-care/symptom-control-and-support
+  touchpoints:
+  - palliative-care-unit
+  - home-visit
+- slug: spend-the-last-days-as-wished
+  title: Spend the Last Days as Wished
+  goal: Spend the last days in the chosen place, with those who matter, without burdensome measures.
+  step: palliative-and-end-of-life-care/care-in-the-dying-phase
+  touchpoints:
+  - palliative-care-unit
+  - home-visit

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: regional-planning-forum
+title: Regional Planning Forum
+medium: encounter
+summary: The meeting in which the planning authority, payers and providers of a region agree the distribution of services, capacities
+  and roles across sites.
+exchanges:
+- regional-service-assignment
+journey: securing-regional-coverage

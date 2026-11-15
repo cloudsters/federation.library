@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: a-clear-order-for-delivery-on-the-date
+title: A Clear Order for Delivery on the Date
+between:
+- municipal-employee
+- local-producer
+offered:
+- A clear order with quantity, price and the delivery date.
+returned:
+- Confirmation of the order and delivery on the date agreed.
+touchpoint: call-off-order

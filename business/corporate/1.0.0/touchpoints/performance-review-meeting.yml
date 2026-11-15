@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: performance-review-meeting
+title: Performance Review Meeting
+medium: encounter
+summary: The regular meeting in which a unit or governance body reviews customer, operational, financial, people and impact results
+  together and agrees an action for every material gap.
+exchanges:
+- committed-action-for-backed-gap-closure
+journey: unit-head-owning-an-indicator

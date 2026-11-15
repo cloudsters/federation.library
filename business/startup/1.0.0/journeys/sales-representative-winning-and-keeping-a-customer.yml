@@ -1,0 +1,47 @@
+kind: journey
+slug: sales-representative-winning-and-keeping-a-customer
+title: Sales Representative Winning and Keeping a Customer
+stakeholder: sales-representative
+summary: A sales representative qualifies an inquiry, develops the opportunity, configures and proposes, negotiates and closes, hands
+  the order on with its context and is paid for good customer fit.
+stages:
+- slug: qualify-the-inquiry
+  title: Qualify the Inquiry
+  goal: The inquiry is scored for fit and readiness and qualified in conversation.
+  step: relationship-journey-design/inquiry-qualification
+  touchpoints:
+  - inquiry-dossier
+  - sales-meeting
+- slug: develop-the-opportunity
+  title: Develop the Opportunity
+  goal: The need and buying process are worked out and the opportunity's stage and outlook are visible.
+  step: relationship-journey-design/opportunity-development
+  touchpoints:
+  - sales-meeting
+  - pipeline-review
+- slug: configure-and-propose
+  title: Configure and Propose
+  goal: The fitting offer is configured, priced and proposed.
+  step: relationship-journey-design/offer-configuration-and-proposal
+  touchpoints:
+  - quotation
+  - price-list
+- slug: negotiate-and-close
+  title: Negotiate and Close
+  goal: Terms are agreed within delegated limits and the agreement is signed, or the loss reason is recorded.
+  step: relationship-journey-design/negotiation-and-closing
+  touchpoints:
+  - contract-negotiation
+- slug: hand-over-the-order
+  title: Hand Over the Order
+  goal: The order passes to fulfilment with its full context.
+  step: relationship-journey-design/order-handover-and-welcome
+  touchpoints:
+  - order-confirmation
+- slug: earn-commission-for-good-fit
+  title: Earn Commission for Good Fit
+  goal: Wins and losses are reviewed and commission rewards customers who fit and stay.
+  step: relationship-journey-design/sales-performance-and-commission
+  touchpoints:
+  - pipeline-review
+  - commission-statement

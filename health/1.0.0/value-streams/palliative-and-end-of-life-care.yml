@@ -1,0 +1,165 @@
+kind: value-stream
+slug: palliative-and-end-of-life-care
+title: Palliative and End-of-Life Care
+family: demand-to-fulfillment
+summary: 'Caring for patients with life-limiting illness and at the end of life: symptom control, palliative consultation, advance
+  care planning, care in the dying phase, support for relatives and the formalities after death.'
+trigger: A patient with a life-limiting illness is identified as needing palliative care, or a patient is dying.
+outcome: The patient's symptoms and wishes have been addressed, relatives have been supported, and after death all formalities are
+  completed.
+stakeholders:
+- person-at-end-of-life
+- person-with-cancer
+- older-person-with-frailty
+- relative
+- informal-carer
+- specialist-physician
+- advanced-practice-nurse
+- registered-nurse
+- allied-health-professional
+- volunteer
+- follow-on-care-provider
+- support-services-staff
+- referring-practice
+- local-authority
+steps:
+- slug: identification-of-palliative-need
+  title: Identification of Palliative Need
+  summary: Patients with a life-limiting illness and growing needs are identified through clinical triggers, screening and predictive
+    signals, and the specialist palliative care team is consulted.
+  capabilities:
+  - palliative-care
+  - interdisciplinary-consultation
+  - geriatric-assessment
+  - predictive-analytics
+  entities:
+  - health-issue
+  - clinical-order
+  - risk-assessment
+  - prediction
+  serves:
+  - consultation
+  - ward-round
+- slug: palliative-assessment
+  title: Palliative Assessment
+  summary: Physical symptoms, psychological, social and spiritual needs and the burden on relatives are assessed with validated instruments
+    and the patient's own report.
+  capabilities:
+  - palliative-care
+  - pain-management
+  - clinical-psychology
+  - clinical-social-work
+  - spiritual-care
+  entities:
+  - care-needs-assessment
+  - assessment-instrument
+  - patient-reported-outcome
+  - observation
+  serves:
+  - consultation
+  - family-meeting
+- slug: advance-care-planning
+  title: Advance Care Planning
+  summary: Goals of care, limits of treatment, the preferred place of care and death, and a proxy are discussed and recorded, and
+    revisited as the illness progresses.
+  capabilities:
+  - advance-care-planning
+  - shared-decision-making-practice
+  - clinical-ethics-consultation
+  - informed-consent
+  entities:
+  - advance-directive
+  - preference
+  - proxy-mandate
+  - shared-decision
+  - objection
+  serves:
+  - advance-care-planning-conversation
+  - advance-directive-document
+  - ethics-case-consultation
+  - family-meeting
+- slug: symptom-control-and-support
+  title: Symptom Control and Support
+  summary: Pain, breathlessness, nausea, anxiety and other symptoms are relieved, and patient and family are supported by an interprofessional
+    team on the ward, in the palliative unit or at home.
+  capabilities:
+  - palliative-care
+  - pain-management
+  - medication-prescribing
+  - hospital-at-home
+  - relatives-and-visitor-support
+  - clinical-psychology
+  - spiritual-care
+  entities:
+  - care-plan
+  - medication-order
+  - medication-administration
+  - patient-reported-outcome
+  - related-person
+  serves:
+  - family-meeting
+  - home-visit
+  - palliative-care-unit
+- slug: care-in-the-dying-phase
+  title: Care in the Dying Phase
+  summary: When dying is recognised, burdensome measures are stopped, comfort care is given, relatives are enabled to be present,
+    and the person's wishes are honoured in the chosen place, including transfer home or to a hospice.
+  capabilities:
+  - end-of-life-care
+  - palliative-care
+  - nursing-interventions
+  - relatives-and-visitor-support
+  - care-transition-coordination
+  entities:
+  - care-plan
+  - advance-directive
+  - preference
+  - care-transition
+  serves:
+  - home-visit
+  - palliative-care-unit
+- slug: death-and-after-death-care
+  title: Death and After-Death Care
+  summary: Death is determined and certified, the deceased is cared for with dignity, relatives take their leave, an autopsy is offered
+    where indicated, and the authorities, the practice and the funeral service are informed.
+  capabilities:
+  - death-determination-and-certification
+  - end-of-life-care
+  - mortuary-services
+  - autopsy-services
+  - secure-clinical-messaging
+  entities:
+  - health-certificate
+  - encounter
+  - related-person
+  - informed-consent
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - consent-form
+  - death-certificate
+  - farewell-room
+- slug: bereavement-support
+  title: Bereavement Support
+  summary: Relatives are offered a conversation, information and bereavement support in the weeks after the death, and their experience
+    of the care is asked for.
+  capabilities:
+  - end-of-life-care
+  - relatives-and-visitor-support
+  - spiritual-care
+  - patient-experience-measurement
+  entities:
+  - related-person
+  - patient-experience-survey
+  serves:
+  - bereavement-follow-up
+binds:
+- source: src-597
+  edition: '2011'
+  jurisdiction: global
+- source: src-600
+  edition: '2019'
+  jurisdiction: global
+- source: src-605
+  edition: '2026'
+  jurisdiction: global

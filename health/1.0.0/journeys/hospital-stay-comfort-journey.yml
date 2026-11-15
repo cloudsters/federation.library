@@ -1,0 +1,45 @@
+kind: journey
+slug: hospital-stay-comfort-journey
+title: Hospital Stay Comfort Journey
+stakeholder: elective-inpatient
+summary: A patient arrives to a ready room, chooses meals that fit diet and taste, eats well, stays in a clean room, feels at home
+  and sees feedback make a difference.
+stages:
+- slug: arrive-to-a-ready-room
+  title: Arrive to a Ready Room
+  goal: Arrive to a clean, equipped room with known needs already met.
+  step: patient-hospitality-services/room-and-stay-preparation
+  touchpoints:
+  - ward
+- slug: choose-meals
+  title: Choose Meals
+  goal: Choose meals that fit the prescribed diet and own taste.
+  step: patient-hospitality-services/diet-order-and-meal-selection
+  touchpoints:
+  - bedside-terminal
+- slug: eat-well
+  title: Eat Well
+  goal: Receive meals on time and help with eating when needed.
+  step: patient-hospitality-services/meal-production-and-service
+  touchpoints:
+  - meal-service
+- slug: stay-clean-and-fresh
+  title: Stay Clean and Fresh
+  goal: Have a clean room and bathroom and fresh linen.
+  step: patient-hospitality-services/cleaning-and-linen
+  touchpoints:
+  - ward
+  - isolation-room
+- slug: feel-at-home
+  title: Feel at Home
+  goal: Have media, connectivity, quiet and relatives close.
+  step: patient-hospitality-services/comfort-and-amenities
+  touchpoints:
+  - bedside-terminal
+- slug: say-how-it-was
+  title: Say How It Was
+  goal: Give feedback and see it make a difference.
+  step: patient-hospitality-services/service-feedback
+  touchpoints:
+  - feedback-and-complaints-channel
+  - bedside-terminal

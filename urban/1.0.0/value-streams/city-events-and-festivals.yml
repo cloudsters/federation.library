@@ -1,0 +1,132 @@
+kind: value-stream
+slug: city-events-and-festivals
+title: City Events and Festivals
+family: interest-to-relationship
+summary: Hosting the festivals, celebrations, sporting and civic events of the city so that they bring residents and visitors into
+  real exchange and leave something lasting behind. It holds the city's events calendar, the intake and assessment of event proposals,
+  events shaped with the communities whose culture they show, permits, safety plans and sound limits, fair pay and open money flows,
+  the running of the event with neighbours informed, and the legacy of relationships, knowledge and places an event leaves.
+trigger: An organiser, a community or a department proposes an event, the city plans a major event, or a recurring festival falls
+  due.
+outcome: The event has taken place safely, the communities it shows have shared in its decisions and income, and its legacy is recorded
+  and carried into the city's next events.
+stakeholders:
+- event-organiser
+- resident
+- visitor
+- artist
+- cultural-organisation
+- local-business
+- neighbourhood-association
+- emergency-service
+- volunteer
+steps:
+- slug: events-calendar-and-proposal-intake
+  title: Events Calendar and Proposal Intake
+  summary: The city keeps one calendar of events across the year and across neighbourhoods, and takes proposals from organisers, communities
+    and departments by one route, with early advice for first-time organisers.
+  capabilities:
+  - events-calendar-coordination
+  - event-proposal-intake
+  entities:
+  - city-events-calendar
+  - event-application
+  serves:
+  - city-events-calendar-view
+  - event-proposal-form
+  - first-organiser-advice-session
+- slug: event-assessment
+  title: Event Assessment
+  summary: Each proposal is assessed for what it brings to residents and visitors, its demands on streets, parks and services, its
+    effects on neighbours and the environment, and whether the communities it presents have a say.
+  capabilities:
+  - event-impact-assessment
+  - public-space-booking
+  entities:
+  - event-application
+  - festival
+  serves:
+  - event-assessment-meeting
+- slug: event-co-design-with-communities
+  title: Event Co-Design with Communities
+  summary: Events that present a community's culture are shaped with that community, so that its practitioners decide what is shown
+    and visitors meet them in exchange rather than as an audience for a staged show.
+  capabilities:
+  - event-co-design
+  - cultural-exchange-programming
+  entities:
+  - festival
+  - cultural-performance
+  serves:
+  - community-co-design-circle
+- slug: permits-safety-and-sound
+  title: Permits, Safety and Sound
+  summary: The event receives one permit covering the use of public space and roads, food, sound and safety, with a safety plan agreed
+    with emergency services and sound limits and hours agreed with neighbours.
+  capabilities:
+  - event-permit-issuing
+  - event-safety-planning
+  - noise-agreement-setting
+  entities:
+  - public-space-permit
+  - event-safety-plan
+  - noise-regulation
+  serves:
+  - event-safety-planning-meeting
+  - single-event-permit
+  - sound-and-hours-agreement
+- slug: fair-pay-and-open-money-flows
+  title: Fair Pay and Open Money Flows
+  summary: Artists, workers, vendors and volunteers are paid or recognised fairly, local suppliers are preferred, and the event's
+    income and costs are published, with a share returned to the community it celebrates.
+  capabilities:
+  - event-benefit-agreement-drafting
+  - community-grant-making
+  - contribution-recognition
+  entities:
+  - event-benefit-agreement
+  - community-grant
+  serves:
+  - fair-pay-and-benefit-agreement
+  - published-event-accounts
+- slug: event-delivery
+  title: Event Delivery
+  summary: The event runs with neighbours told in advance, a point of contact during the event, stewards and volunteers briefed, shared
+    meals and open moments where residents and visitors meet, and streets and parks restored afterwards.
+  capabilities:
+  - event-safety-planning
+  - volunteer-preparation-and-safeguarding
+  - neighbourhood-encounter-support
+  entities:
+  - festival
+  - community-event
+  serves:
+  - neighbour-advance-notice-and-contact
+  - shared-festival-meal
+  - steward-and-volunteer-briefing
+- slug: event-legacy-review
+  title: Event Legacy Review
+  summary: What the event left behind, in relationships between residents and visitors, knowledge passed to local organisers, places
+    improved, income kept in the city and harm done, is reviewed with those involved, recorded and carried into the next event.
+  capabilities:
+  - event-legacy-review
+  - lesson-recording-and-sharing
+  entities:
+  - event-legacy-report
+  - lesson-record
+  serves:
+  - event-legacy-gathering
+  - published-event-legacy-report
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-258
+  edition: '2024'
+  jurisdiction: global
+- source: src-264
+  edition: '2003-10-17'
+  jurisdiction: global
+- source: src-265
+  edition: '2015-11-17'
+  jurisdiction: global

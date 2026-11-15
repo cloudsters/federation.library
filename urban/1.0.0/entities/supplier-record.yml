@@ -1,0 +1,62 @@
+kind: entity
+slug: supplier-record
+title: Supplier Record
+type: master
+summary: A supplier of the city, whether an enterprise, a cooperative or a self-employed person, with its ownership, size, location,
+  qualifications, contracts held and performance, kept once for every department. The procurement office keeps it with the supplier's
+  own updates, and it is used to evaluate bids, review suppliers, pay on time and report where spending lands.
+attributes:
+- name: supplier-name
+  type: text
+  card: 1..1
+- name: registration-number
+  type: identifier
+  card: 0..1
+- name: business-entry
+  type: reference(business-register)
+  card: 0..1
+- name: ownership-form
+  type: code
+  card: 1..1
+- name: size-class
+  type: code
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: qualifications
+  type: document
+  card: 0..*
+- name: categories
+  type: reference(procurement-category)
+  card: 0..*
+- name: contracts-held
+  type: reference(contract)
+  card: 0..*
+- name: payment-account
+  type: identifier
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 1..1
+states:
+- registered
+- qualified
+- active
+- suspended
+- excluded
+- inactive
+relations:
+- type: refers-to
+  target: business-register
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: procurement-category
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: cooperative

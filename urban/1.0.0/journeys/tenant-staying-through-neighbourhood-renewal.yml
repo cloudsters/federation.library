@@ -1,0 +1,41 @@
+kind: journey
+slug: tenant-staying-through-neighbourhood-renewal
+title: Tenant Staying Through Neighbourhood Renewal
+stakeholder: tenant
+summary: A tenant reports the decay of the street and building, sees repairs done, reads the neighbourhood's backlog, weighs repair
+  and replacement with neighbours and stays through one coordinated renewal.
+stages:
+- slug: report-the-decay
+  title: Report the Decay
+  goal: The tenant's reports of broken lights, leaking pipes and failing pavements are triaged and can be followed.
+  step: infrastructure-maintenance-and-renewal/fault-reporting-and-triage
+  touchpoints:
+  - fault-reporting-line
+  - fault-tracking-view
+- slug: see-the-repairs-done
+  title: See the Repairs Done
+  goal: The reported faults are repaired within their response times.
+  step: infrastructure-maintenance-and-renewal/planned-and-responsive-repair
+  touchpoints:
+  - street-repair-crew-visit
+- slug: read-the-neighbourhood-figures
+  title: Read the Neighbourhood Figures
+  goal: The tenant knows how condition, response times and backlog in the neighbourhood compare with the service levels.
+  step: infrastructure-maintenance-and-renewal/maintenance-performance-review
+  touchpoints:
+  - yearly-maintenance-review-meeting
+  - published-maintenance-backlog
+- slug: weigh-repair-and-replacement
+  title: Weigh Repair and Replacement
+  goal: Residents have weighed repair, refurbishment and replacement with the city, and the risk of displacement is assessed.
+  step: infrastructure-maintenance-and-renewal/coordinated-neighbourhood-renewal
+  touchpoints:
+  - renewal-options-workshop
+  - displacement-risk-hearing
+- slug: stay-through-the-renewal
+  title: Stay Through the Renewal
+  goal: The streets, pipes, lighting and buildings are renewed in one work, and the tenant still lives in the neighbourhood when it
+    ends.
+  step: infrastructure-maintenance-and-renewal/coordinated-neighbourhood-renewal
+  touchpoints:
+  - renewal-works-programme

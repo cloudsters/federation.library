@@ -1,0 +1,120 @@
+kind: value-stream
+slug: volunteering-and-mutual-aid
+title: Volunteering and Mutual Aid
+family: participant-to-community
+summary: Turning residents' wish to help into contribution that is valued and safe, and into care that neighbours give one another.
+  It holds the map of the care already given and of the residents who are isolated or carry care alone, volunteering opportunities
+  and the matching, preparation and protection of volunteers, neighbour care and mutual aid networks, agreements under which residents
+  care for parks, trees and other shared places, and the recognition of what residents contribute.
+trigger: A resident offers time or reports a problem they would help to fix, a department or community body needs volunteers, or a
+  neighbourhood shows isolated residents or carers under strain.
+outcome: Residents who wish to contribute do work that suits them, isolated residents and carers are reached by neighbours, shared
+  places are cared for under clear agreements, and contribution is recorded and recognised.
+stakeholders:
+- resident
+- volunteer
+- caregiver
+- older-resident
+- neighbourhood-association
+- civil-society-organisation
+- community-development-worker
+- city-administration
+steps:
+- slug: care-and-isolation-mapping
+  title: Care and Isolation Mapping
+  summary: Residents and community workers map the care and help neighbours already give, the residents who live isolated, the carers
+    under strain and the gaps no one covers, with the consent of those named.
+  capabilities:
+  - care-and-isolation-mapping
+  - consent-recording
+  entities:
+  - care-map
+  - consent-record
+  serves:
+  - care-mapping-conversation
+  - neighbourhood-care-map-view
+- slug: opportunity-offering
+  title: Opportunity Offering
+  summary: Departments, neighbourhood bodies and civil-society organisations describe the tasks residents can take on, from a single
+    afternoon to a standing role, and the city publishes them in one place, with a route for a resident who reports a problem to help
+    fix it.
+  capabilities:
+  - volunteer-opportunity-listing
+  - care-and-isolation-mapping
+  entities:
+  - volunteer-opportunity
+  - citizen-complaint
+  serves:
+  - report-and-help-route
+  - volunteering-opportunities-board
+- slug: matching-and-preparation
+  title: Matching and Preparation
+  summary: Volunteers are matched to tasks that fit their skills, time and wishes, prepared and checked where they work with children
+    or vulnerable adults, insured, and told that they can step back at any time without penalty.
+  capabilities:
+  - volunteer-matching
+  - volunteer-preparation-and-safeguarding
+  entities:
+  - volunteer-record
+  - volunteer-opportunity
+  serves:
+  - volunteer-induction-and-check
+  - volunteer-matching-conversation
+- slug: neighbour-care-and-mutual-aid
+  title: Neighbour Care and Mutual Aid
+  summary: The city supports neighbour care networks and mutual aid groups that visit isolated residents, share meals, tools and funds,
+    relieve carers by rotating duties, and connect people to formal services when they need more than neighbours can give.
+  capabilities:
+  - neighbour-care-and-mutual-aid-support
+  - care-service-linking
+  - volunteer-matching
+  entities:
+  - mutual-aid-network
+  - care-map
+  serves:
+  - care-service-referral
+  - mutual-aid-support-desk
+  - neighbour-care-circle
+- slug: shared-place-care-agreements
+  title: Shared Place Care Agreements
+  summary: Residents, groups and the city agree in writing who cares for a park, a group of trees, a courtyard or a garden, what each
+    side provides, how decisions about it are taken and when the agreement is reviewed.
+  capabilities:
+  - shared-place-care-agreement-drafting
+  - volunteer-matching
+  entities:
+  - place-care-agreement
+  - park
+  serves:
+  - place-care-agreement-signing
+  - place-care-check-in
+- slug: contribution-recognition
+  title: Contribution Recognition
+  summary: Hours given and help exchanged are recorded in a shared ledger that residents can draw on for help in return, and contributions
+    are recognised in public without turning them into a duty or a price.
+  capabilities:
+  - contribution-recognition
+  - volunteer-matching
+  entities:
+  - contribution-ledger
+  - volunteer-record
+  serves:
+  - contribution-ledger-account
+  - contribution-recognition-gathering
+- slug: volunteering-review
+  title: Volunteering Review
+  summary: The city and its partners review who volunteers and who does not, whether isolated residents were reached, and whether
+    volunteers were overburdened or left, and adjust the offer.
+  capabilities:
+  - participation-practice-review
+  - equity-audit
+  entities:
+  - participation-review
+  - care-map
+  serves:
+  - neighbourhood-care-map-view
+  - volunteer-feedback-round
+binds:
+- source: src-227
+  edition: '2001-12-05'
+  jurisdiction: global

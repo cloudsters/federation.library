@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: donor-service
+title: Donor Service
+medium: channel
+summary: The telephone and online service through which donors book appointments, receive reminders and calls for their blood group,
+  and are told of relevant findings.
+exchanges:
+- donation-for-a-safe-supply
+journey: blood-donor-journey

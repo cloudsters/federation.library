@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: contact-preferences-for-early-warning
+title: Contact Preferences for Early Warning
+between:
+- older-resident
+- city-administration
+offered:
+- Their contact and the way they want to be warned.
+returned:
+- An early warning in their language and help such as a cool room or a visit.
+touchpoint: health-alert-message

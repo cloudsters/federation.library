@@ -1,0 +1,24 @@
+kind: touchpoint
+slug: patient-portal
+title: Patient Portal
+medium: channel
+summary: The digital channel through which patients and authorised relatives book appointments, prepare for admission, view results
+  and letters, and communicate with their care teams.
+exchanges:
+- patient-reported-outcomes-for-responsive-care
+- preparation-for-a-ready-admission
+- guided-preparation-for-completed-tasks
+- prepared-visit-for-a-clear-plan
+- record-access-on-request
+- agent-answer-for-context
+- continuity-for-early-signals
+- questions-answered-before-consent
+- record-access-for-continuity
+- entrusted-data-for-transparency
+- consent-for-protected-use
+- online-booking-and-preparation
+- access-to-own-record
+- assisted-online-guidance
+- timely-access-commitment
+- proof-of-coverage-for-certainty
+journey: paying-for-care-directly

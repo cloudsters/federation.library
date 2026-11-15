@@ -1,0 +1,35 @@
+kind: journey
+slug: resident-without-a-home-finding-shelter-and-a-settled-home
+title: Resident without a Home Finding Shelter and a Settled Home
+stakeholder: resident-without-a-home
+summary: A resident without shelter is given a safe place the same day, applies for an affordable home with help and sees a stated
+  priority, receives a reasoned offer of a home and is supported until the new home holds.
+stages:
+- slug: find-a-safe-place-tonight
+  title: Find a Safe Place Tonight
+  goal: The resident has a safe place to stay the same day, offered without conditions on status, records or behaviour.
+  step: homelessness-and-housing-allocation/emergency-shelter-provision
+  touchpoints:
+  - same-day-shelter-line
+  - low-threshold-shelter
+- slug: apply-with-help
+  title: Apply with Help
+  goal: The resident has applied for an affordable home by the route they can use and is on the register with a priority they can
+    see and challenge.
+  step: homelessness-and-housing-allocation/housing-application-and-register
+  touchpoints:
+  - housing-advice-desk
+  - housing-register-portal
+- slug: receive-a-reasoned-offer
+  title: Receive a Reasoned Offer
+  goal: The resident is offered a home that fits their household and access needs, with the reasons for the offer stated.
+  step: homelessness-and-housing-allocation/home-allocation
+  touchpoints:
+  - home-offer-letter
+  - published-allocation-record
+- slug: settle-into-the-new-home
+  title: Settle into the New Home
+  goal: The resident has moved in with furniture, connections and benefits in place and keeps the support for as long as it is needed.
+  step: homelessness-and-housing-allocation/move-in-and-settling-support
+  touchpoints:
+  - tenancy-support-visit

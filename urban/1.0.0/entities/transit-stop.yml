@@ -1,0 +1,59 @@
+kind: entity
+slug: transit-stop
+title: Transit Stop
+type: master
+summary: A stop, station or interchange, with its access features, lighting, shelter, staffing and help points. The transport operator
+  keeps the record and updates it after each access audit, and it is used to make stops step-free and safe at every hour and to place
+  pickup points beside them.
+attributes:
+- name: stop-code
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: stop-kind
+  type: code
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: street
+  type: reference(street)
+  card: 0..1
+- name: lines-served
+  type: reference(transit-line)
+  card: 1..*
+- name: step-free
+  type: boolean
+  card: 1..1
+- name: lit
+  type: boolean
+  card: 0..1
+- name: weather-shelter
+  type: boolean
+  card: 0..1
+- name: staffed-hours
+  type: text
+  card: 0..1
+- name: help-point
+  type: boolean
+  card: 0..1
+- name: last-audit
+  type: reference(access-audit)
+  card: 0..1
+states:
+- planned
+- built
+- in-use
+- under-works
+- closed
+relations:
+- type: part-of
+  target: transit-line
+- type: refers-to
+  target: street
+- type: refers-to
+  target: access-audit
+- type: refers-to
+  target: neighbourhood

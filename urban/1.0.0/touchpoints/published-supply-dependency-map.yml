@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-supply-dependency-map
+title: Published Supply Dependency Map
+medium: artefact
+summary: The published map of where each essential good comes from, which rest on a single supplier or a distant chain and which neighbourhoods
+  would be cut off first, updated after each review.
+exchanges:
+- local-knowledge-for-a-map-of-weak-supply
+journey: neighbourhood-association-keeping-a-reserve

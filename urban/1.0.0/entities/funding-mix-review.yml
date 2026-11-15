@@ -1,0 +1,56 @@
+kind: entity
+slug: funding-mix-review
+title: Funding Mix Review
+type: intelligence
+summary: The yearly review of how much of the city's spending rests on grants and how much on its own revenue and the commons fund,
+  naming the work that must last beyond its grant. The finance department carries it out, and the work it names is moved into the
+  medium-term financial plan before its grant ends.
+attributes:
+- name: review-year
+  type: period
+  card: 1..1
+- name: own-revenue-share
+  type: decimal
+  card: 1..1
+- name: grant-share
+  type: decimal
+  card: 1..1
+- name: transfer-share
+  type: decimal
+  card: 0..1
+- name: commons-fund-share
+  type: decimal
+  card: 0..1
+- name: dependence-by-funder
+  type: document
+  card: 0..1
+- name: grants-ending
+  type: reference(grant-award)
+  card: 0..*
+- name: work-to-continue
+  type: reference(city-programme)
+  card: 0..*
+- name: planned-own-funding
+  type: amount
+  card: 0..1
+- name: reviewed-on
+  type: date
+  card: 1..1
+states:
+- scheduled
+- conducted
+- issued
+- applied-in-plan
+relations:
+- type: based-on
+  target: annual-accounts
+- type: refers-to
+  target: grant-award
+- type: refers-to
+  target: commons-fund
+- type: refers-to
+  target: medium-term-financial-plan
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: corrective-action-report
+title: Corrective Action Report
+medium: artefact
+summary: The report to a customer that sets out the containment, root cause, corrective and preventive actions of a non-conformance
+  and the verification of their effect.
+exchanges:
+- complaint-for-a-lasting-correction
+journey: customer-relying-on-dependable-quality

@@ -1,0 +1,41 @@
+kind: journey
+slug: economic-development-officer-growing-local-supply
+title: Economic Development Officer Growing Local Supply
+stakeholder: economic-development-officer
+summary: The economic development officer maps with the procurement office which purchases leave the region, prepares the local purchasing
+  targets, helps small and cooperative suppliers to bid, brings anchor institutions in and reports each year where the money landed.
+stages:
+- slug: map-the-local-supply-gaps
+  title: Map the Local Supply Gaps
+  goal: Which purchases leave the region and which local enterprises could supply them, now or with support, is mapped.
+  step: local-supplier-development-and-social-value/local-supply-gap-mapping
+  touchpoints:
+  - local-supply-gap-map
+- slug: prepare-the-targets
+  title: Prepare the Targets
+  goal: The council has set public multi-year targets and minimum volumes by category and ownership.
+  step: local-supplier-development-and-social-value/local-purchasing-commitment
+  touchpoints:
+  - procurement-committee-session
+  - published-local-purchasing-targets
+- slug: help-suppliers-to-bid
+  title: Help Suppliers to Bid
+  goal: Small, local and cooperative suppliers have the training, certification, working capital and shared equipment they need to
+    bid and deliver.
+  step: local-supplier-development-and-social-value/supplier-capacity-building
+  touchpoints:
+  - tendering-clinic
+- slug: bring-the-anchors-in
+  title: Bring the Anchors In
+  goal: Hospitals, universities, schools and municipal enterprises have agreed shared targets and joint supplier development with
+    the city.
+  step: local-supplier-development-and-social-value/anchor-institution-purchasing
+  touchpoints:
+  - purchasing-partners-meeting
+- slug: report-where-the-money-landed
+  title: Report Where the Money Landed
+  goal: The share of spending with local and community-owned suppliers and the jobs and wages it brought are reported with communities.
+  step: local-supplier-development-and-social-value/local-spend-and-social-value-report
+  touchpoints:
+  - local-spend-report-assembly
+  - published-local-spend-report

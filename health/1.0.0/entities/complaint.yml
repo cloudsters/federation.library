@@ -1,0 +1,48 @@
+kind: entity
+slug: complaint
+title: Complaint
+type: transactional
+summary: An expression of dissatisfaction by a patient, relative or other party about care or service, acknowledged, investigated
+  and answered within set times, and analysed for improvement.
+attributes:
+- name: complainant-kind
+  type: code
+  card: 1..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: subject-units
+  type: reference(organisation-unit)
+  card: 0..*
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: categories
+  type: code
+  card: 1..*
+- name: response
+  type: document
+  card: 0..1
+- name: escalated-externally
+  type: boolean
+  card: 0..1
+states:
+- received
+- acknowledged
+- under-investigation
+- answered
+- escalated
+- closed
+relations:
+- type: produces
+  target: corrective-action
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-234
+  edition: '2018'
+  jurisdiction: global

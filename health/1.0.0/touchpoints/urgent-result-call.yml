@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: urgent-result-call
+title: Urgent Result Call
+medium: encounter
+summary: The direct call through which a laboratory, imaging or pathology professional communicates a critical value, an urgent finding
+  or a frozen-section diagnosis, with read-back and documented receipt.
+exchanges:
+- critical-value-for-confirmed-action
+- justified-request-for-a-signed-report
+- tissue-with-context-for-a-definitive-diagnosis
+journey: ordering-clinician-laboratory-journey

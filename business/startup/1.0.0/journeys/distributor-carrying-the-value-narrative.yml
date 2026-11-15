@@ -1,0 +1,32 @@
+kind: journey
+slug: distributor-carrying-the-value-narrative
+title: Distributor Carrying the Value Narrative
+stakeholder: distributor
+summary: A distributor receives a consistent message and material, understands prices and margins, knows its role in the channel mix
+  and reports what buyers say about the promise.
+stages:
+- slug: receive-the-message
+  title: Receive the Message
+  goal: The distributor has the position, messages and material to tell the story faithfully.
+  step: value-narrative-design/positioning-and-brand
+  touchpoints:
+  - brand-and-message-guide
+  - product-catalogue
+- slug: understand-prices-and-margins
+  title: Understand Prices and Margins
+  goal: Prices, margins and commercial terms are clear and fair.
+  step: value-narrative-design/pricing-mechanism-design
+  touchpoints:
+  - price-list
+- slug: know-its-role-in-the-mix
+  title: Know Its Role in the Mix
+  goal: The distributor knows which customers and segments it serves.
+  step: value-narrative-design/channel-mix-design
+  touchpoints:
+  - partner-portal
+- slug: report-what-buyers-say
+  title: Report What Buyers Say
+  goal: Buyers' response to the promise reaches the review of the narrative.
+  step: value-narrative-design/narrative-approval-and-review
+  touchpoints:
+  - partner-business-review

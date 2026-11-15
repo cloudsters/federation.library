@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: young-person-pathway-follow-up
+title: Young Person Pathway Follow-Up
+medium: channel
+summary: The contact through which the city follows whether each young person who left school found a route back, and offers another
+  when one fails.
+exchanges:
+- aim-for-a-way-back
+- route-report-for-another-chance
+journey: young-people-finding-their-way-through-learning

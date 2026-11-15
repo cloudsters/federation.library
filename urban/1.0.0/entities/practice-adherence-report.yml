@@ -1,0 +1,56 @@
+kind: entity
+slug: practice-adherence-report
+title: Practice Adherence Report
+type: intelligence
+summary: The report of whether practice in a service follows a standard procedure and whether the outcomes the procedure promises
+  hold, with the deviations found and their reasons. The service prepares it at a regular rhythm with its staff and passes it to those
+  who curate the pattern library, and it is used to revise the procedure or to revise or retire the pattern behind it.
+attributes:
+- name: procedure
+  type: reference(standard-procedure)
+  card: 1..1
+- name: pattern
+  type: reference(practice-pattern)
+  card: 0..1
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: cases-examined
+  type: integer
+  card: 0..1
+- name: cases-following
+  type: integer
+  card: 0..1
+- name: deviations
+  type: text
+  card: 0..*
+- name: deviation-reasons
+  type: text
+  card: 0..*
+- name: outcome-measures
+  type: text
+  card: 1..*
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: reported-on
+  type: date
+  card: 0..1
+states:
+- due
+- drafted
+- submitted
+- reviewed
+- acted-on
+relations:
+- type: refers-to
+  target: standard-procedure
+- type: refers-to
+  target: practice-pattern
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: pattern-library

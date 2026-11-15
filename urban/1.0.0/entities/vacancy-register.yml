@@ -1,0 +1,61 @@
+kind: entity
+slug: vacancy-register
+title: Vacancy Register
+type: intelligence
+summary: The record of vacant and long-unused land and buildings in the city, with their owners, state and how long they have stood
+  empty. The asset office keeps it from surveys and residents' reports, and it is used to find sites to acquire, reactivate or charge.
+attributes:
+- name: entry-number
+  type: identifier
+  card: 1..1
+- name: property-kind
+  type: code
+  card: 1..1
+- name: parcel
+  type: reference(land-parcel)
+  card: 0..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: owner
+  type: text
+  card: 1..1
+- name: condition
+  type: code
+  card: 0..1
+- name: vacant-since
+  type: date
+  card: 0..1
+- name: sources
+  type: code
+  card: 1..*
+- name: vacancy-charge
+  type: reference(tax-assessment)
+  card: 0..1
+- name: interim-use
+  type: text
+  card: 0..1
+- name: listed-for-appraisal
+  type: boolean
+  card: 0..1
+- name: recorded-on
+  type: date
+  card: 1..1
+states:
+- reported
+- verified
+- listed
+- in-appraisal
+- back-in-use
+- removed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: land-registry
+- type: refers-to
+  target: tax-assessment
+- type: produces
+  target: acquisition-case

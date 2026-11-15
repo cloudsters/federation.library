@@ -1,0 +1,107 @@
+kind: value-stream
+slug: talent-attraction-welcome
+title: Talent Attraction & Welcome
+family: contributor-to-succession
+summary: 'Finding and welcoming new contributors: an honest employer offer and brand, talent pipelines, roles written as invitations,
+  selection as mutual discovery, the hire itself, and an onboarding that creates belonging.'
+trigger: A position is approved for filling.
+outcome: The selected person is engaged, welcomed and ready to contribute in the role, and every other candidate has been answered
+  and remembered.
+stakeholders:
+- job-applicant
+- human-resources-professional
+- site-manager
+- works-council
+- vocational-school
+steps:
+- slug: role-invitation
+  title: Role Invitation
+  summary: The unit requests to fill an approved post, and the role is described as an honest invitation stating its contribution,
+    its requirements and what the organisation offers in return.
+  capabilities:
+  - role-design-invitation
+  - employer-value-proposition
+  entities:
+  - job-vacancy
+  - position
+  - workforce-plan
+  serves:
+  - job-requisition
+- slug: attraction-and-sourcing
+  title: Attraction and Sourcing
+  summary: Publish the vacancy and reach candidates through the employer brand, professional networks, schools, apprenticeships and
+    the wider ecosystem the organisation belongs to.
+  capabilities:
+  - talent-ecosystem-scouting
+  - employer-branding
+  - talent-pipeline-development
+  entities:
+  - job-vacancy
+  - candidate
+  serves:
+  - careers-fair
+  - job-posting
+  - website
+- slug: candidate-relationship
+  title: Candidate Relationship
+  summary: Hold every application and contact in a relationship record, answer each candidate in time, and stay in touch with those
+    not chosen this time.
+  capabilities:
+  - candidate-relationship-memory
+  entities:
+  - recruitment-application
+  - candidate
+  serves:
+  - application-portal
+- slug: mutual-selection
+  title: Mutual Selection
+  summary: Assess fit in both directions through structured interviews, work samples and conversations, and decide together with the
+    hiring team.
+  capabilities:
+  - selection-as-mutual-discovery
+  - candidate-relationship-memory
+  entities:
+  - recruitment-application
+  - candidate
+  serves:
+  - job-interview
+  - work-sample
+- slug: offer-and-hire
+  title: Offer and Hire
+  summary: Make and negotiate the offer, and complete the hire of new or returning staff with the employment contract.
+  capabilities:
+  - hiring-and-rehire-management
+  entities:
+  - employment
+  - employee-record
+  - contract
+  serves:
+  - employment-contract
+  - employment-offer
+- slug: pre-boarding
+  title: Pre-Boarding
+  summary: Reach the new joiner between signature and first day with information, equipment, access and a named companion.
+  capabilities:
+  - pre-boarding-experience
+  entities:
+  - employee-record
+  - identity
+  - access-grant
+  serves:
+  - onboarding-companion
+  - pre-boarding-package
+- slug: onboarding-and-belonging
+  title: Onboarding and Belonging
+  summary: Run the first weeks as a deliberate boot sequence of context, connection and rituals of belonging, and confirm that the
+    newcomer is ready to contribute.
+  capabilities:
+  - onboarding-as-boot-sequence
+  - welcome-as-belonging-creation
+  entities:
+  - employee-record
+  - position
+  - task
+  serves:
+  - onboarding-companion
+  - onboarding-day
+  - team-meeting

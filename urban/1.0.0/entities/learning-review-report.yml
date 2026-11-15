@@ -1,0 +1,62 @@
+kind: entity
+slug: learning-review-report
+title: Learning Review Report
+type: intelligence
+summary: The review of who took part in learning, who did not and what learning changed in learners' work, income and life in the
+  city. The administration prepares it with learners and partners and publishes it, and it is used to change the offer.
+attributes:
+- name: review-period
+  type: period
+  card: 1..1
+- name: offers
+  type: reference(learning-offer)
+  card: 1..*
+- name: participant-count
+  type: integer
+  card: 1..1
+- name: participant-breakdowns
+  type: code
+  card: 1..*
+- name: groups-not-taking-part
+  type: text
+  card: 0..*
+- name: reasons-reported
+  type: text
+  card: 0..*
+- name: changes-in-work
+  type: text
+  card: 0..*
+- name: changes-in-income
+  type: text
+  card: 0..*
+- name: changes-in-city-life
+  type: text
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: changes-to-offer
+  type: text
+  card: 0..*
+- name: published-report
+  type: document
+  card: 1..1
+states:
+- scheduled
+- collected
+- reviewed
+- published
+- acted-on
+relations:
+- type: refers-to
+  target: learning-offer
+- type: based-on
+  target: learner-enrolment
+- type: refers-to
+  target: skill-recognition
+- type: refers-to
+  target: need-assessment
+binds:
+- source: src-253
+  edition: '2015-11-13'
+  jurisdiction: global

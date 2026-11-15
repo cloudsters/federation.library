@@ -1,0 +1,13 @@
+kind: capability
+slug: clinical-data-warehouse
+title: Clinical Data Warehouse
+level: L3
+parent: analytics-and-reporting
+summary: Integrate routine care data in a warehouse for reporting, quality and secondary use.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-warning-for-fair-allocation
+title: Early Warning for Fair Allocation
+between:
+- support-services-staff
+- registered-nurse
+offered:
+- Early notice of a shortage with the approved alternative and the rule by which remaining stock is allocated.
+returned:
+- Use of the alternative, restraint with scarce items and no private stock held back on the ward.
+touchpoint: shortage-notice

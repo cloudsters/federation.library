@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-request-for-access-that-fits
+title: Access Request for Access That Fits
+between:
+- city-administration
+- information-technology-specialist
+offered:
+- Requests for access, with the role and purpose of each.
+returned:
+- Only the access each role needs, reviewed and withdrawn on time.
+touchpoint: access-request-portal

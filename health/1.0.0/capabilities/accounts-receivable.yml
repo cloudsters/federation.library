@@ -1,0 +1,10 @@
+kind: capability
+slug: accounts-receivable
+title: Accounts Receivable
+level: L3
+parent: patient-revenue-cycle
+summary: Process incoming payments, review receivables by age and agree payment plans where needed.
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

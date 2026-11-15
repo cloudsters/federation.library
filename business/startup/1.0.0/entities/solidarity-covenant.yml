@@ -1,0 +1,35 @@
+kind: entity
+slug: solidarity-covenant
+title: Solidarity Covenant
+type: governance
+summary: 'Binding commitment among participants encoding what they owe each other — especially when circumstances make those obligations
+  costly. Not voluntary goodwill but constitutional obligation with enforcement mechanisms. Levels: foundational (non-negotiable)
+  and operational (revisable).'
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: obligations
+  type: text
+  card: 1..*
+- name: activation-conditions
+  type: text
+  card: 0..*
+- name: level
+  type: code
+  card: 1..1
+- name: enforcement
+  type: text
+  card: 0..1
+states:
+- defined
+- bound
+- maintained
+- enforced
+- renewed
+- revised
+relations:
+- type: part-of
+  target: commons-charter
+- type: refers-to
+  target: ethics-policy

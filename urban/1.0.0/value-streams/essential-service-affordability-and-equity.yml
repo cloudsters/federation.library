@@ -1,0 +1,116 @@
+kind: value-stream
+slug: essential-service-affordability-and-equity
+title: Essential Service Affordability and Equity
+family: demand-to-fulfillment
+summary: Making sure that water, energy, heat, waste collection and transport reach every neighbourhood at the same standard and cost
+  no household more than it can carry. It holds the mapping of service levels and cost burden by neighbourhood and income, tariffs
+  that guarantee a basic quantity at a low price and charge heavy use more, reduced charges given without a separate application to
+  those entitled, protection from disconnection with help for arrears, investment directed to where service is worst, and a public
+  review of who pays and who benefits.
+trigger: The yearly tariff review is due, the mapping shows a gap between neighbourhoods, or a household cannot pay or is about to
+  be cut off.
+outcome: Every household receives essential services at the standard set for all, pays a share of income it can carry, and is never
+  cut off from its basic need.
+stakeholders:
+- resident
+- taxpayer
+- affected-community
+- infrastructure-operator
+- social-worker
+- city-council
+- finance-officer
+steps:
+- slug: service-level-and-burden-mapping
+  title: Service Level and Burden Mapping
+  summary: The city maps by neighbourhood and income how often services come, how fast faults are fixed, who is not connected, and
+    what share of income households spend on water, energy and transport.
+  capabilities:
+  - service-level-equity-mapping
+  - analysis-and-modelling
+  entities:
+  - service-equity-report
+  - housing-index
+  serves:
+  - service-burden-map
+- slug: basic-quantity-and-tariff-setting
+  title: Basic Quantity and Tariff Setting
+  summary: Tariffs for water, energy, heat, waste and transport are set so that a basic quantity for every household costs little
+    or nothing and heavy use pays more, and the council adopts them after public review.
+  capabilities:
+  - service-tariff-design
+  - essential-charge-capping
+  - tax-and-charge-rate-setting
+  entities:
+  - service-tariff
+  - council-decision
+  serves:
+  - household-utility-bill
+  - tariff-public-review
+- slug: reduced-charge-enrolment
+  title: Reduced Charge Enrolment
+  summary: Households entitled to reduced charges are enrolled from the entitlements they already hold, with the resident's consent
+    and without a separate application, and those who do not claim are sought out.
+  capabilities:
+  - reduced-charge-enrolment
+  - unclaimed-entitlement-outreach
+  - consent-recording
+  entities:
+  - utility-account
+  - entitlement-decision
+  - consent-record
+  serves:
+  - automatic-enrolment-notice
+  - fare-and-concession-card
+  - reduced-charge-outreach
+- slug: arrears-help-and-disconnection-protection
+  title: Arrears Help and Disconnection Protection
+  summary: A household behind with payment is offered an arrangement it can keep and help with its income, and no household is cut
+    off from the water and energy it needs for basic life.
+  capabilities:
+  - disconnection-protection
+  - arrears-recovery
+  entities:
+  - utility-account
+  - payment-arrangement
+  - arrears-case
+  serves:
+  - household-utility-bill
+  - payment-arrangement-meeting
+- slug: service-gap-investment
+  title: Service Gap Investment
+  summary: Investment in networks, routes and facilities is directed first to the neighbourhoods where service is worst, and the gap
+    each investment is meant to close is stated in the capital plan.
+  capabilities:
+  - capital-investment-planning
+  - benefit-measure-setting
+  - service-level-equity-mapping
+  entities:
+  - capital-investment-plan
+  - service-equity-report
+  serves:
+  - capital-plan-gap-statement
+  - service-burden-map
+- slug: affordability-and-equity-review
+  title: Affordability and Equity Review
+  summary: Each year the city reports with residents who paid what, which gaps between neighbourhoods closed and which remain, and
+    renews a tariff only when those affected confirm its benefits are fairly shared.
+  capabilities:
+  - service-level-equity-mapping
+  - participation-feedback-reporting
+  - service-quality-review
+  entities:
+  - service-equity-report
+  - service-tariff
+  serves:
+  - annual-equity-report
+  - tariff-public-review
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

@@ -1,0 +1,39 @@
+kind: journey
+slug: researcher-obtaining-care-data
+title: Researcher Obtaining Care Data
+stakeholder: research-scientist
+summary: A research scientist finds data in the catalogue, has the request approved, analyses the prepared data in a secure environment
+  and returns the results.
+stages:
+- slug: find-and-request-data
+  title: Find and Request Data
+  goal: The researcher finds suitable data and submits a complete request tied to an approved study.
+  step: health-data-reuse/access-request-intake
+  touchpoints:
+  - data-catalogue
+  - study-protocol
+- slug: obtain-approval
+  title: Obtain Approval
+  goal: The request is decided on its merits, with clear conditions.
+  step: health-data-reuse/use-and-access-review
+  touchpoints:
+  - data-use-and-access-committee
+- slug: agree-the-extract
+  title: Agree the Extract
+  goal: Variables, cohort and pseudonymisation are agreed with the data stewards.
+  step: health-data-reuse/dataset-preparation
+  touchpoints:
+  - data-catalogue
+- slug: analyse-securely
+  title: Analyse Securely
+  goal: The researcher analyses the data in a secure environment or by federated analysis.
+  step: health-data-reuse/provision-and-analysis
+  touchpoints:
+  - secure-processing-environment
+- slug: return-results
+  title: Return Results
+  goal: Results and publications are returned and the use is made visible.
+  step: health-data-reuse/use-logging-and-results-return
+  touchpoints:
+  - scientific-publication
+  - transparency-register

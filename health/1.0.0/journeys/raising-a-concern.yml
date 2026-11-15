@@ -1,0 +1,48 @@
+kind: journey
+slug: raising-a-concern
+title: Raising a Concern
+stakeholder: relative
+summary: A relative who is unhappy with how a family member was treated raises a concern, is heard, receives an honest answer and
+  learns what the organisation has changed as a result.
+stages:
+- slug: speaking-up
+  title: Speaking Up
+  goal: Raise the concern easily, in person or in writing, and know that it has been received.
+  step: patient-rights-and-complaints/intake-and-acknowledgement
+  touchpoints:
+  - ward
+  - feedback-and-complaints-channel
+  - patient-advocate-office
+- slug: knowing-who-handles-it
+  title: Knowing Who Handles It
+  goal: Know who is responsible for the concern and by when an answer will come.
+  step: patient-rights-and-complaints/classification-and-routing
+  touchpoints:
+  - feedback-and-complaints-channel
+- slug: being-heard
+  title: Being Heard
+  goal: Tell the whole story and have it taken seriously, with the patient advocate alongside if wished.
+  step: patient-rights-and-complaints/investigation
+  touchpoints:
+  - complaint-resolution-meeting
+- slug: receiving-an-answer
+  title: Receiving an Answer
+  goal: Receive an honest explanation, an apology where it is due and a clear statement of what will change.
+  step: patient-rights-and-complaints/response-and-resolution
+  touchpoints:
+  - complaint-response-letter
+  - complaint-resolution-meeting
+- slug: seeking-independent-review
+  title: Seeking Independent Review
+  goal: Know where to turn if the answer is not enough, and be supported in doing so.
+  step: patient-rights-and-complaints/escalation-and-external-review
+  touchpoints:
+  - patient-advocate-office
+  - complaint-response-letter
+- slug: seeing-the-change
+  title: Seeing the Change
+  goal: Learn that the concern led to a change that spares others the same experience.
+  step: patient-rights-and-complaints/learning-and-improvement
+  touchpoints:
+  - complaint-response-letter
+  - public-website

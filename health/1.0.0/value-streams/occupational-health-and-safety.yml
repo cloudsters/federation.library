@@ -1,0 +1,118 @@
+kind: value-stream
+slug: occupational-health-and-safety
+title: Occupational Health and Safety
+family: contributor-to-succession
+summary: 'Protecting the health and safety of everyone who works in the organisation: workplace hazard assessment, occupational medicine,
+  vaccination, protection from radiation and hazardous substances, wellbeing and support after adverse events.'
+trigger: A hazard assessment falls due, a staff member needs occupational health care, or an accident or adverse event affects staff.
+outcome: Workplace hazards are controlled, staff are examined and protected as required, and affected staff have received support.
+stakeholders:
+- registered-nurse
+- support-services-staff
+- diagnostic-technologist
+- occupational-health-professional
+- unit-manager
+- staff-representation
+steps:
+- slug: hazard-assessment
+  title: Hazard Assessment
+  summary: Assess each workplace and task for biological, chemical, radiation, physical, psychosocial and violence hazards, and set
+    protective measures together with the staff representatives.
+  capabilities:
+  - occupational-safety-programme
+  - hazard-assessment
+  - hazardous-substance-safety
+  - radiation-protection
+  - workplace-violence-prevention
+  - co-determination-cooperation
+  entities:
+  - risk
+  - policy
+  - organisation-unit
+  serves:
+  - workplace-safety-round
+- slug: protective-measures
+  title: Protective Measures
+  summary: 'Put the measures in place: protective equipment, safer devices, safe procedures, instruction and safety training, and
+    fire and evacuation readiness.'
+  capabilities:
+  - safety-training
+  - fire-safety
+  - hygiene-management
+  - mandatory-training-management
+  entities:
+  - policy
+  - credential
+  - corrective-action
+  serves:
+  - learning-platform
+  - unit-induction
+- slug: health-surveillance
+  title: Health Surveillance
+  summary: Examine staff before and during work with hazards, offer and record vaccinations, and monitor exposures such as radiation
+    dose, keeping individual findings confidential.
+  capabilities:
+  - occupational-health-service
+  - radiation-protection
+  - data-protection-governance
+  entities:
+  - occupational-health-examination
+  - immunisation
+  serves:
+  - occupational-health-consultation
+- slug: accident-and-exposure-response
+  title: Accident and Exposure Response
+  summary: 'Respond to accidents, needlestick and other exposures, aggression and violence: immediate care, post-exposure measures,
+    reporting and investigation of causes.'
+  capabilities:
+  - occupational-health-service
+  - incident-reporting-and-learning
+  - root-cause-analysis
+  - workplace-violence-prevention
+  entities:
+  - incident
+  - occupational-health-examination
+  - corrective-action
+  serves:
+  - incident-reporting-system
+  - occupational-health-consultation
+- slug: staff-support
+  title: Staff Support
+  summary: Support staff after adverse events, violence or sustained strain through peer support, counselling, pastoral care and wellbeing
+    programmes.
+  capabilities:
+  - staff-support-after-adverse-events
+  - staff-wellbeing-and-resilience
+  - spiritual-care
+  entities:
+  - incident
+  - adverse-event
+  serves:
+  - peer-support-service
+- slug: return-to-work
+  title: Return to Work
+  summary: Plan the return of staff after long illness or injury with adapted duties and hours, agreed with the person, the manager,
+    occupational health and, if wished, a staff representative.
+  capabilities:
+  - return-to-work-management
+  - occupational-health-service
+  - staff-scheduling
+  entities:
+  - absence
+  - occupational-health-examination
+  - employment
+  serves:
+  - return-to-work-conversation
+- slug: safety-performance-review
+  title: Safety Performance Review
+  summary: Review accidents, exposures, sickness absence and audit results, verify that the measures worked, and update hazard assessments
+    and the programme.
+  capabilities:
+  - occupational-safety-programme
+  - workforce-reporting
+  - compliance-assurance
+  entities:
+  - measure-report
+  - audit
+  - corrective-action
+  - risk

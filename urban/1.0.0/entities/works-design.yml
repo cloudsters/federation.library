@@ -1,0 +1,71 @@
+kind: entity
+slug: works-design
+title: Works Design
+type: transactional
+summary: The design of a public work, with its drawings, materials, disassembly approach and the reviews it passed with disabled residents
+  and maintenance crews. The design team prepares it, and permits, tenders and construction rest on it.
+attributes:
+- name: design-reference
+  type: identifier
+  card: 1..1
+- name: works-brief
+  type: reference(works-brief)
+  card: 1..1
+- name: design-team
+  type: text
+  card: 1..*
+- name: drawings
+  type: document
+  card: 1..*
+- name: materials
+  type: text
+  card: 1..*
+- name: disassembly-approach
+  type: text
+  card: 0..1
+- name: material-passport
+  type: reference(material-passport)
+  card: 0..1
+- name: climate-provisions
+  type: text
+  card: 0..*
+- name: access-review
+  type: document
+  card: 0..1
+- name: crew-review
+  type: document
+  card: 0..1
+- name: codes-applied
+  type: reference(building-code)
+  card: 0..*
+- name: fixed-on
+  type: date
+  card: 0..1
+states:
+- concept
+- developed
+- reviewed
+- fixed
+- permitted
+- revised
+relations:
+- type: based-on
+  target: works-brief
+- type: governed-by
+  target: building-code
+- type: produces
+  target: material-passport
+- type: refers-to
+  target: building-permit
+- type: refers-to
+  target: heritage-protection
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global
+- source: src-639
+  edition: '2020'
+  jurisdiction: global

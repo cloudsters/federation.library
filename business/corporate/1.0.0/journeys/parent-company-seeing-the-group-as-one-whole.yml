@@ -1,0 +1,32 @@
+kind: journey
+slug: parent-company-seeing-the-group-as-one-whole
+title: Parent Company Seeing the Group as One Whole
+stakeholder: parent-company
+summary: A parent company moves liquidity where it is needed, keeps currency exposure within policy, consolidates the entities without
+  absorbing them and reports the group's results.
+stages:
+- slug: move-liquidity-where-needed
+  title: Move Liquidity Where Needed
+  goal: Cash reaches the entities that need it while each keeps its own governance.
+  step: global-value-consolidation/group-cash-orchestration
+  touchpoints:
+  - cash-pool
+- slug: hold-currency-exposure-in-policy
+  title: Hold Currency Exposure in Policy
+  goal: Group currency exposure is forecast and hedged beyond policy limits.
+  step: global-value-consolidation/currency-exposure-management
+  touchpoints:
+  - treasury-committee
+- slug: consolidate-the-group
+  title: Consolidate the Group
+  goal: Entity results are combined and intercompany balances and profits eliminated.
+  step: global-value-consolidation/group-consolidation
+  touchpoints:
+  - group-reporting-package
+- slug: report-the-group-results
+  title: Report the Group Results
+  goal: Consolidated results are reported to management, owners and lenders.
+  step: global-value-consolidation/group-results-reporting
+  touchpoints:
+  - annual-report
+  - lender-review

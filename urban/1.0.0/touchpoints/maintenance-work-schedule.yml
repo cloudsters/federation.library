@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: maintenance-work-schedule
+title: Maintenance Work Schedule
+medium: artefact
+summary: The schedule of inspections and preventive work set by criticality and condition, with the crews and contractors assigned.
+exchanges:
+- crew-assignments-for-planned-work
+journey: frontline-worker-keeping-the-city-in-service

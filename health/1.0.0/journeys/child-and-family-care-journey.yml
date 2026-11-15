@@ -1,0 +1,52 @@
+kind: journey
+slug: child-and-family-care-journey
+title: Child and Family Care Journey
+stakeholder: paediatric-patient
+summary: A child and the parents arrive together, are assessed in a way that fits the child's age, plan care with the team, stay together
+  through treatment or neonatal intensive care, and go home or grow into adult services without a gap.
+stages:
+- slug: arrive-together
+  title: Arrive Together
+  goal: Arrive with parents in a place made for children and be seen by people who know children.
+  step: paediatric-and-neonatal-care/access-and-family-registration
+  touchpoints:
+  - emergency-department
+  - admission-desk
+  - identification-band
+- slug: be-understood
+  title: Be Understood
+  goal: Be examined in a way that fits one's age, with pain recognised and parents present.
+  step: paediatric-and-neonatal-care/age-appropriate-assessment
+  touchpoints:
+  - consultation
+  - nursing-admission-interview
+- slug: have-a-say
+  title: Have a Say
+  goal: Have the parents decide alongside and the child's own assent sought as far as maturity allows.
+  step: paediatric-and-neonatal-care/family-centred-care-planning
+  touchpoints:
+  - family-meeting
+  - consent-form
+- slug: be-treated-safely
+  title: Be Treated Safely
+  goal: Receive treatment and medicines dosed for the child's weight, with parents allowed to stay.
+  step: paediatric-and-neonatal-care/treatment-and-monitoring
+  touchpoints:
+  - ward
+  - medication-chart
+  - intensive-care-unit
+- slug: start-life-in-intensive-care
+  title: Start Life in Intensive Care
+  goal: As parents of a newborn in intensive care, be with the baby, take part in care and understand each step.
+  step: paediatric-and-neonatal-care/neonatal-intensive-care
+  touchpoints:
+  - intensive-care-unit
+  - intensive-care-diary
+- slug: grow-into-adult-care
+  title: Grow into Adult Care
+  goal: Go home prepared, and as a young person with a long-term condition move into adult services without a gap.
+  step: paediatric-and-neonatal-care/discharge-and-transition-to-adult-care
+  touchpoints:
+  - discharge-planning-meeting
+  - discharge-letter
+  - clinic-letter

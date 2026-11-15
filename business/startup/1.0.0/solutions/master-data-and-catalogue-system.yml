@@ -1,0 +1,27 @@
+kind: solution
+slug: master-data-and-catalogue-system
+title: Master Data and Catalogue System
+role: system-of-record
+summary: Keeps the golden records of customers, suppliers, counterparties, items and other master data, with their quality rules and
+  owners, and catalogues the data products and models of the organisation.
+carries:
+- shared-data-model-design
+- data-as-commons-stewardship
+- data-content-stewardship
+- information-resource-stewardship
+- data-model-revision
+- data-model-validation-dialogue
+- master-data-stewardship
+- data-quality-management
+- data-catalogue-management
+holds:
+- customer
+- supplier-organisation
+- counterparty
+- item
+- data-product
+- data-model
+binds:
+- source: src-147
+  edition: '2022'
+  jurisdiction: global

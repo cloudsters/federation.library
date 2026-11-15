@@ -1,0 +1,62 @@
+kind: entity
+slug: ecological-cost-ledger
+title: Ecological Cost Ledger
+type: intelligence
+summary: The public ledger of the carbon, heat, water and other ecological costs the city creates, recorded next to its money, and
+  of what it owes to repair them and to whom. The finance department keeps it with the departments that cause the costs and updates
+  it at a regular rhythm, and it is read beside the budget, the annual accounts and the fiscal sustainability report.
+attributes:
+- name: ledger-period
+  type: period
+  card: 1..1
+- name: cost-categories
+  type: code
+  card: 1..*
+- name: recorded-quantities
+  type: quantity
+  card: 1..*
+- name: measurement-method
+  type: code
+  card: 1..1
+- name: repair-cost-owed
+  type: amount
+  card: 0..1
+- name: repair-spending
+  type: amount
+  card: 0..1
+- name: causing-departments
+  type: reference(department)
+  card: 0..*
+- name: affected-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: carbon-account
+  type: reference(carbon-footprint)
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- measured
+- recorded
+- audited
+- published
+- updated
+relations:
+- type: based-on
+  target: carbon-footprint
+- type: refers-to
+  target: department
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: municipal-budget
+- type: produces
+  target: public-record
+binds:
+- source: src-212
+  edition: '2014'
+  jurisdiction: global

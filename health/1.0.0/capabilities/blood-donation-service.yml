@@ -1,0 +1,10 @@
+kind: capability
+slug: blood-donation-service
+title: Blood Donation Service
+level: L3
+parent: specialised-laboratory-services
+summary: Recruit, screen and care for blood donors, and collect, test and process their donations into blood components.
+binds:
+- source: src-407
+  edition: 6.2.2
+  jurisdiction: global

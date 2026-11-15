@@ -1,0 +1,97 @@
+kind: value-stream
+slug: purchasing-and-supplier-payment
+title: Purchasing and Supplier Payment
+family: source-to-alliance
+summary: Ordering against contracts and paying suppliers correctly and on time, so that the city's suppliers, small and local ones
+  above all, can rely on it. It holds requests to buy checked against the budget and approved under delegation, orders and call-offs
+  against framework agreements, the receipt of goods and the confirmation of services, the matching of invoices to order and receipt,
+  payment within a short fixed time, and the publication of what the city paid, to whom and how quickly.
+trigger: A department needs goods or a service covered by a contract or a budget line, or a supplier invoice arrives.
+outcome: What was ordered is received, matched, paid on time and recorded in the books, and the payments and the time taken to pay
+  are public.
+stakeholders:
+- city-administration
+- finance-officer
+- supplier
+- local-business
+- local-producer
+- resident-inspector
+steps:
+- slug: requisition-and-approval
+  title: Requisition and Approval
+  summary: A member of staff raises a request to buy against a contract or a budget line, the budget still available is checked, and
+    the request is approved at the level the delegation sets.
+  capabilities:
+  - requisition-approval
+  - commitment-control
+  entities:
+  - requisition
+  - budget-commitment
+  serves:
+  - purchase-request-form
+- slug: order-and-call-off
+  title: Order and Call-Off
+  summary: Before ordering new, staff check whether a shared pool can meet the need. Approved requests become orders or call-offs
+    against framework agreements, with clear deliverables and delivery dates confirmed by the supplier.
+  capabilities:
+  - order-and-call-off-placement
+  - reuse-before-purchase-check
+  entities:
+  - purchase-order
+  - framework-agreement
+  - equipment-pool
+  serves:
+  - call-off-order
+  - shared-equipment-catalogue
+- slug: goods-receipt-and-service-confirmation
+  title: Goods Receipt and Service Confirmation
+  summary: The receiving department records what arrived, in what quantity and condition, or confirms that a service was delivered
+    as agreed, and notes any shortfall for the contract manager.
+  capabilities:
+  - receipt-and-service-confirmation
+  - contract-performance-monitoring
+  entities:
+  - goods-receipt
+  - purchase-order
+  serves:
+  - delivery-receipt-check
+- slug: invoice-receipt-and-matching
+  title: Invoice Receipt and Matching
+  summary: Supplier invoices are captured, checked for completeness and duplicates, and matched against order and receipt. Differences
+    in price or quantity are cleared with the department and the supplier before anything is paid.
+  capabilities:
+  - invoice-matching
+  - transaction-recording
+  entities:
+  - supplier-invoice
+  - purchase-order
+  - goods-receipt
+  serves:
+  - supplier-invoice-channel
+- slug: supplier-payment
+  title: Supplier Payment
+  summary: The finance office pays each matched invoice within a short fixed time, shortest for small, local and cooperative suppliers
+    and food producers, pays interest where it is late, and records and reconciles each payment.
+  capabilities:
+  - prompt-supplier-payment
+  - transaction-recording
+  - bank-reconciliation
+  entities:
+  - payment
+  - supplier-invoice
+  - journal-entry
+  serves:
+  - supplier-payment-statement
+- slug: spending-and-payment-publication
+  title: Spending and Payment Publication
+  summary: The finance office publishes each payment above a set amount with its supplier, purpose and amount, and the time taken
+    to pay small and large suppliers, open to resident inspectors and the council.
+  capabilities:
+  - payment-time-reporting
+  - public-record-publication
+  - resident-inspection-support
+  entities:
+  - payment-performance-report
+  - public-record
+  serves:
+  - published-payments-register

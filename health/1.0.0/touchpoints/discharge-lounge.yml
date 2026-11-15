@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: discharge-lounge
+title: Discharge Lounge
+medium: place
+summary: The area where patients ready to leave wait in comfort for documents, medicines and transport, so that their bed is freed
+  early in the day.
+exchanges:
+- discharge-notice-for-a-clean-bed
+journey: going-home-journey

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-emergency-plan
+title: Published Emergency Plan
+medium: artefact
+summary: The public version of the emergency plan, with crisis thresholds, alert levels, roles, gathering points and the limits and
+  end dates of emergency powers.
+exchanges:
+- bounded-powers-for-recorded-command
+- network-continuity-for-a-place-in-the-plan
+journey: mayor-steering-the-city-through-an-emergency

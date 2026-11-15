@@ -1,0 +1,33 @@
+kind: journey
+slug: referring-practice-exchanging-patient-information
+title: Referring Practice Exchanging Patient Information
+stakeholder: referring-practice
+summary: A referring practice moves to coded electronic exchange with the commons and relies on referrals, letters and findings arriving
+  complete and on time.
+stages:
+- slug: ask-for-electronic-exchange
+  title: Ask for Electronic Exchange
+  goal: The practice's wish to exchange electronically is registered and assessed.
+  step: interoperability-and-connectivity/exchange-need-assessment
+  touchpoints:
+  - referrer-portal
+- slug: test-messages
+  title: Test Messages
+  goal: Test referrals and letters pass between both systems without loss or retyping.
+  step: interoperability-and-connectivity/conformance-testing
+  touchpoints:
+  - conformance-test
+  - clinical-messaging-service
+- slug: exchange-referrals-and-findings
+  title: Exchange Referrals and Findings
+  goal: Referrals go out and letters and findings come back electronically, in coded form.
+  step: interoperability-and-connectivity/live-exchange
+  touchpoints:
+  - clinical-messaging-service
+  - referrer-portal
+- slug: have-failures-resolved
+  title: Have Failures Resolved
+  goal: A message that does not arrive is detected and resent without the practice having to chase it.
+  step: interoperability-and-connectivity/exchange-monitoring
+  touchpoints:
+  - clinical-messaging-service

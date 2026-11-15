@@ -1,0 +1,10 @@
+kind: capability
+slug: programme-orchestration
+title: Programme Orchestration
+level: L3
+parent: change-portfolio
+summary: Orchestrate related projects as programmes that deliver one coherent change.
+binds:
+- source: src-337
+  edition: '2022'
+  jurisdiction: global

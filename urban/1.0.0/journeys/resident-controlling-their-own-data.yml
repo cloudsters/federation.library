@@ -1,0 +1,34 @@
+kind: journey
+slug: resident-controlling-their-own-data
+title: Resident Controlling Their Own Data
+stakeholder: resident
+summary: A resident sees how the city uses data about them, gives, limits or withdraws consent, asks to see, correct or delete their
+  data, learns when it expires and is told in time when it is breached.
+stages:
+- slug: see-how-data-is-used
+  title: See How Data Is Used
+  goal: The resident sees each use of their data with its purpose and how long it is kept.
+  step: data-protection-and-data-sovereignty/processing-intake-and-registration
+  touchpoints:
+  - public-processing-register
+- slug: set-consent-and-ask
+  title: Set Consent and Ask
+  goal: The resident has given, limited or withdrawn consent, and their request to see, correct or delete their data is answered within
+    its deadline.
+  step: data-protection-and-data-sovereignty/consent-and-resident-control
+  touchpoints:
+  - personal-data-dashboard
+  - resident-sign-in-service
+  - data-request-desk
+- slug: know-when-data-expires
+  title: Know When Data Expires
+  goal: The resident knows when their data is deleted or anonymised, and why any of it is held longer.
+  step: data-protection-and-data-sovereignty/retention-and-disposal
+  touchpoints:
+  - retention-schedule
+- slug: be-told-of-a-breach
+  title: Be Told of a Breach
+  goal: The resident is told within the deadline what was breached and what they can do.
+  step: data-protection-and-data-sovereignty/breach-response-and-review
+  touchpoints:
+  - personal-data-breach-notice

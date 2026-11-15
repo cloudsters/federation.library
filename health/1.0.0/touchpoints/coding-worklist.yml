@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: coding-worklist
+title: Coding Worklist
+medium: channel
+summary: The worklist through which clinical coders receive the cases due for review and coding, with drafted coding proposals, grouping
+  results and plausibility warnings.
+exchanges:
+- coding-proposals-for-confirmation
+journey: coding-a-case

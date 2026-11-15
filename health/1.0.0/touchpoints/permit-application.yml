@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: permit-application
+title: Permit Application
+medium: artefact
+summary: The application to a public authority for a permit to build, install or operate, such as a building permit or a licence for
+  radiation equipment, with the design, safety evidence and qualified staff it requires.
+exchanges:
+- safety-case-for-operating-permit
+- permit-application-for-building-approval
+journey: clinical-unit-moving-into-a-new-building

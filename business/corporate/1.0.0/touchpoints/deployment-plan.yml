@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: deployment-plan
+title: Deployment Plan
+medium: artefact
+summary: The plan for introducing a change, with its path, sequence, rollback, communication, training and support for those affected.
+exchanges:
+- operational-readiness-for-a-go-decision
+journey: unit-leader-taking-a-change-live

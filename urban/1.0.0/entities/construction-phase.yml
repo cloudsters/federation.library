@@ -1,0 +1,60 @@
+kind: entity
+slug: construction-phase
+title: Construction Phase
+type: transactional
+summary: A defined stage of the delivery of a district or capital project, with its plots, the builders they go to, its works and
+  dates. The department delivering the district or project coordinates it, and streets, infrastructure and commons spaces are delivered
+  in it ahead of or alongside the buildings.
+attributes:
+- name: phase-number
+  type: integer
+  card: 1..1
+- name: development-project
+  type: reference(development-project)
+  card: 0..1
+- name: capital-project
+  type: reference(capital-project)
+  card: 0..1
+- name: plots
+  type: reference(land-parcel)
+  card: 0..*
+- name: plot-recipients
+  type: text
+  card: 0..*
+- name: works
+  type: text
+  card: 1..*
+- name: infrastructure-works
+  type: text
+  card: 0..*
+- name: commons-spaces
+  type: text
+  card: 0..*
+- name: planned-period
+  type: period
+  card: 1..1
+- name: started-on
+  type: date
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+states:
+- planned
+- released
+- tendered
+- under-construction
+- completed
+- handed-over
+relations:
+- type: part-of
+  target: development-project
+- type: part-of
+  target: capital-project
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: contract

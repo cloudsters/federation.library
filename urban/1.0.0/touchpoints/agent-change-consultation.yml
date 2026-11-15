@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-change-consultation
+title: Agent Change Consultation
+medium: encounter
+summary: The consultation of staff representatives and the team on the change to work that an agent brings, before it is approved.
+exchanges:
+- frontline-judgement-for-tasks-kept-human
+- staff-agreement-for-a-mandate-with-a-sunset
+journey: frontline-worker-working-beside-an-agent

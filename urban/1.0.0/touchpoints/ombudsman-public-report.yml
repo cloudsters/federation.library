@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ombudsman-public-report
+title: Ombudsman Public Report
+medium: artefact
+summary: The report of the ombudsman to the council in public on failures that recur across services and neighbourhoods, and on remedies
+  the city has not carried out.
+exchanges:
+- city-wide-failures-for-public-answer
+journey: ombudsman-deciding-an-unresolved-complaint

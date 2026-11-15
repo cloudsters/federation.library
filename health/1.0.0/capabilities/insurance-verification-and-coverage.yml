@@ -1,0 +1,10 @@
+kind: capability
+slug: insurance-verification-and-coverage
+title: Insurance Verification & Coverage
+level: L3
+parent: patient-revenue-cycle
+summary: Verify each patient's insurance status and coverage before or at the start of treatment.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

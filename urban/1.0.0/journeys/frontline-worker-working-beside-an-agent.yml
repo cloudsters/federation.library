@@ -1,0 +1,40 @@
+kind: journey
+slug: frontline-worker-working-beside-an-agent
+title: Frontline Worker Working Beside an Agent
+stakeholder: frontline-worker
+summary: A caseworker says which tasks must stay with a person when the department requests an agent, is consulted through the staff
+  representatives, is prepared to oversee the agent, joins the review of its results and the challenges residents raised, and takes
+  back the tasks when it is retired.
+stages:
+- slug: say-what-stays-with-a-person
+  title: Say What Stays with a Person
+  goal: The request has been assessed with the staff whose work it touches, and the tasks that must stay with a person are named.
+  step: ai-agent-lifecycle/agent-role-request
+  touchpoints:
+  - agent-request-assessment
+  - agent-change-consultation
+- slug: be-consulted-on-the-change
+  title: Be Consulted on the Change
+  goal: The staff representatives have been consulted on the change to work before the agent is approved.
+  step: ai-agent-lifecycle/mandate-and-approval
+  touchpoints:
+  - agent-change-consultation
+- slug: prepare-to-oversee
+  title: Prepare to Oversee
+  goal: The worker is prepared to oversee the agent and knows when and how to escalate a case or stop the agent.
+  step: ai-agent-lifecycle/onboarding-into-the-service
+  touchpoints:
+  - overseer-briefing
+  - escalation-route-card
+- slug: review-its-work
+  title: Review Its Work
+  goal: The worker has joined the review of the agent's results and errors and of the challenges residents raised against it.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-review-session
+- slug: take-back-the-tasks
+  title: Take Back the Tasks
+  goal: When the agent is retired, the tasks that return to staff come with the agent's records and the reasons for its decisions.
+  step: ai-agent-lifecycle/retirement-and-succession
+  touchpoints:
+  - task-return-briefing

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: heat-checks-for-safety-in-the-heat
+title: Heat Checks for Safety in the Heat
+between:
+- community-health-worker
+- older-resident
+offered:
+- A warning, a call or visit and help to reach a cool place.
+returned:
+- The resident's word on how they are coping, and safety through the heat wave.
+touchpoint: heat-wave-warning

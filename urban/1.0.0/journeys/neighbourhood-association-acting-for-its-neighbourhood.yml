@@ -1,0 +1,50 @@
+kind: journey
+slug: neighbourhood-association-acting-for-its-neighbourhood
+title: Neighbourhood Association Acting for Its Neighbourhood
+stakeholder: neighbourhood-association
+summary: A neighbourhood association maps what its neighbourhood already has, receives the support it asks for to meet openly, agrees
+  an action plan with residents, receives the city's answer, opens a place to meet and reviews the year with the city.
+stages:
+- slug: map-what-the-neighbourhood-has
+  title: Map What the Neighbourhood Has
+  goal: The association and residents have mapped the places, skills, relationships and bodies of the neighbourhood, who holds power
+    in it and who is not yet connected.
+  step: neighbourhood-community-development/neighbourhood-asset-mapping
+  touchpoints:
+  - asset-mapping-walk
+  - neighbourhood-asset-map-view
+- slug: get-support-to-meet-openly
+  title: Get Support to Meet Openly
+  goal: The association has the community worker, the small running grant and the training it asked for, and meets openly with rotating
+    roles.
+  step: neighbourhood-community-development/neighbourhood-body-support
+  touchpoints:
+  - neighbourhood-body-support-desk
+- slug: agree-the-action-plan
+  title: Agree the Action Plan
+  goal: Residents have agreed their priorities, the decisions and the share of budget the neighbourhood holds for itself, and what
+    they ask of the city.
+  step: neighbourhood-community-development/neighbourhood-action-planning
+  touchpoints:
+  - neighbourhood-planning-assembly
+- slug: receive-the-city-answer
+  title: Receive the City Answer
+  goal: The city has answered each request of the plan in writing, with what it will do, by when, or why not.
+  step: neighbourhood-community-development/neighbourhood-action-planning
+  touchpoints:
+  - neighbourhood-action-plan-response
+- slug: open-a-place-to-meet
+  title: Open a Place to Meet
+  goal: A school hall or community centre is open to neighbours outside its core hours under a shared-use agreement, without charge.
+  step: neighbourhood-community-development/community-space-provision
+  touchpoints:
+  - shared-use-agreement-meeting
+  - community-room-booking
+- slug: review-the-year
+  title: Review the Year
+  goal: The association and the city have reviewed whether ties, trust and participation grew, who is still left out and what the
+    plan achieved, and have renewed the plan.
+  step: neighbourhood-community-development/neighbourhood-review
+  touchpoints:
+  - annual-neighbourhood-review
+  - neighbourhood-asset-map-view

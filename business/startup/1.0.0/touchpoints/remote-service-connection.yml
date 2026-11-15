@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: remote-service-connection
+title: Remote Service Connection
+medium: channel
+summary: The secured connection through which the company monitors installed products, diagnoses faults and updates software without
+  travelling to the site.
+exchanges:
+- access-for-competent-work
+- condition-data-for-specialist-repair
+- service-for-fee
+- usage-data-for-ready-capacity
+journey: business-customer-keeping-equipment-in-service

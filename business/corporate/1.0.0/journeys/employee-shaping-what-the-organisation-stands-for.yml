@@ -1,0 +1,41 @@
+kind: journey
+slug: employee-shaping-what-the-organisation-stands-for
+title: Employee Shaping What the Organisation Stands For
+stakeholder: employee
+summary: An employee is asked what the organisation does well and what it must become, helps word the values that will bind everyone,
+  learns the adopted identity and keeps it honest by naming where daily practice drifts.
+stages:
+- slug: lend-what-is-seen-daily
+  title: Lend What Is Seen Daily
+  goal: What staff see of customers, competitors and their own unused abilities reaches those who sense the environment.
+  step: boundary-sensing-identity-design/environment-and-capability-sensing
+  touchpoints:
+  - stakeholder-survey
+  - knowledge-base
+- slug: give-voice
+  title: Give Voice
+  goal: The employee has said what matters and what is missing, without needing permission to disagree.
+  step: boundary-sensing-identity-design/stakeholder-need-hearing
+  touchpoints:
+  - stakeholder-survey
+  - staff-assembly
+- slug: word-the-values
+  title: Word the Values
+  goal: The employee has helped word values that apply to leadership and staff alike.
+  step: boundary-sensing-identity-design/vision-and-values-drafting
+  touchpoints:
+  - stakeholder-dialogue
+- slug: learn-the-adopted-identity
+  title: Learn the Adopted Identity
+  goal: The employee knows the adopted vision, values, boundary and charter and what they mean for the job.
+  step: boundary-sensing-identity-design/ratification-and-publication
+  touchpoints:
+  - staff-assembly
+  - intranet
+- slug: name-the-drift
+  title: Name the Drift
+  goal: Where practice departs from the stated identity, the employee can say so and sees the drift owned and corrected.
+  step: boundary-sensing-identity-design/mandate-vitality-review
+  touchpoints:
+  - mandate-review
+  - intranet

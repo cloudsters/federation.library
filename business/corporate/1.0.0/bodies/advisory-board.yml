@@ -1,0 +1,10 @@
+kind: body
+slug: advisory-board
+title: Advisory Board
+summary: A body without statutory powers, set up by the owners to advise the executive on strategy, markets and succession; where
+  the articles confer approval rights on it, it holds them in place of a governing board.
+holds:
+- strategy-and-governance
+part_of: owners-meeting
+type: board
+form: governing-body

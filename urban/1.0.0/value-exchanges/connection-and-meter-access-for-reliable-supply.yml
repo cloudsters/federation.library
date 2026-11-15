@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: connection-and-meter-access-for-reliable-supply
+title: Connection and Meter Access for Reliable Supply
+between:
+- resident
+- infrastructure-operator
+offered:
+- The household's request to connect, access to its meter and reports of leaks and bursts.
+returned:
+- A connection to the networks, meters read and leaks and bursts repaired within set times.
+touchpoint: utility-connection-request

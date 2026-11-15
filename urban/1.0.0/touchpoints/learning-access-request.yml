@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: learning-access-request
+title: Learning Access Request
+medium: channel
+summary: The request through which a learner asks for childcare, interpreting, help for a disability or a reduced fee so that they
+  can take part.
+exchanges:
+- access-needs-for-reachable-learning
+journey: job-seeker-learning-towards-secure-work

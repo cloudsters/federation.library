@@ -1,0 +1,59 @@
+kind: entity
+slug: sales-invoice
+title: Sales Invoice
+type: transactional
+summary: The financial claim for value delivered — the document that turns fulfilled promises into receivables, connecting the
+  organisation's value creation to its finances.
+attributes:
+- name: invoice-number
+  type: identifier
+  card: 1..1
+- name: invoice-date
+  type: date
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: delivered-lines
+  type: text
+  card: 1..*
+- name: taxes
+  type: amount
+  card: 0..1
+- name: total-amount
+  type: amount
+  card: 1..1
+- name: payment-term
+  type: reference(payment-term)
+  card: 0..1
+- name: due-date
+  type: date
+  card: 1..1
+states:
+- draft
+- posted
+- partially-paid
+- paid
+- credited
+relations:
+- type: based-on
+  target: sales-order
+- type: based-on
+  target: delivery-note
+- type: refers-to
+  target: payment-term
+- type: produces
+  target: journal-entry
+binds:
+- source: src-134
+  edition: 3.0.21
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-140
+  edition: d16b
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

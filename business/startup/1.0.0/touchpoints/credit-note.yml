@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: credit-note
+title: Credit Note
+medium: artefact
+summary: The document that corrects an invoice in the customer's favour after a justified complaint, deduction or price difference.
+exchanges:
+- dispute-evidence-for-a-fair-settlement
+journey: business-customer-being-invoiced-and-paying

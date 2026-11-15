@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: fault-reports-for-available-devices
+title: Fault Reports for Available Devices
+between:
+- registered-nurse
+- clinical-engineer
+offered:
+- Prompt fault reports that describe what happened, and devices cleaned and released for planned maintenance on schedule.
+returned:
+- A working replacement from the pool at once, repaired devices returned tested and released, and labels that show each device is
+  safe to use.
+touchpoint: clinical-engineering-service-desk

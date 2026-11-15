@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: neighbourhood-body-support-desk
+title: Neighbourhood Body Support Desk
+medium: channel
+summary: The contact through which a neighbourhood association or resident body asks for a community worker, a small running grant,
+  a room or training.
+exchanges:
+- running-grant-for-open-meetings
+- organiser-training-for-rotating-roles
+journey: neighbourhood-association-acting-for-its-neighbourhood

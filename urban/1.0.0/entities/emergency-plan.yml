@@ -1,0 +1,71 @@
+kind: entity
+slug: emergency-plan
+title: Emergency Plan
+type: governance
+summary: The plan of crisis thresholds, alert levels and roles, the bounded emergency powers that end on a fixed date, and the continuity
+  of essential services. The administration keeps it with emergency services, infrastructure operators and neighbourhoods, exercises
+  it, and activates it when an emergency strikes.
+attributes:
+- name: hazards-covered
+  type: code
+  card: 1..*
+- name: crisis-thresholds
+  type: text
+  card: 1..*
+- name: alert-levels
+  type: code
+  card: 1..*
+- name: roles
+  type: text
+  card: 1..*
+- name: emergency-powers
+  type: text
+  card: 0..*
+- name: powers-end-rule
+  type: text
+  card: 1..1
+- name: essential-services
+  type: text
+  card: 1..*
+- name: continuity-arrangements
+  type: document
+  card: 0..1
+- name: warning-channels
+  type: code
+  card: 0..*
+- name: warning-languages
+  type: code
+  card: 0..*
+- name: last-exercised-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- approved
+- in-force
+- exercised
+- activated
+- revised
+- superseded
+relations:
+- type: based-on
+  target: risk-register
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: audit-finding
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-184
+  edition: '2017'
+  jurisdiction: global

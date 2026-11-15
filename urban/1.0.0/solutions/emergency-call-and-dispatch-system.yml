@@ -1,0 +1,11 @@
+kind: solution
+slug: emergency-call-and-dispatch-system
+title: Emergency Call and Dispatch System
+role: system-of-engagement
+summary: Takes emergency calls in the caller's language, supports their assessment, sends the right responder, alerts trained neighbours
+  nearby and records each call with its time to arrive.
+carries:
+- emergency-call-handling
+- fire-and-rescue-operation
+holds:
+- emergency-call

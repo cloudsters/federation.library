@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: care-of-equipment-for-free-loan
+title: Care of Equipment for Free Loan
+between:
+- resident
+- city-administration
+offered:
+- Care of the borrowed equipment and its return on time.
+returned:
+- Bikes and other equipment lent free of charge near home.
+touchpoint: neighbourhood-equipment-lending-point

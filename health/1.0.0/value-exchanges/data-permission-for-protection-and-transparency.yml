@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: data-permission-for-protection-and-transparency
+title: Data Permission for Protection and Transparency
+between:
+- research-participant
+- research-scientist
+offered:
+- The participant offers permission to use their health data beyond their own care, for research that may never benefit them
+  directly.
+returned:
+- The researcher returns protection of the participant's identity, use only for approved purposes, and public, understandable
+  reports of what the research found.
+touchpoint: public-website

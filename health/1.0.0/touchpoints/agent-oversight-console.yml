@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: agent-oversight-console
+title: Agent Oversight Console
+medium: channel
+summary: The screen on which overseers see what an AI agent has done and proposed, with its reasons and confidence, and from which
+  they override, pause or stop it.
+exchanges:
+- early-warnings-for-reasoned-response
+- agent-work-for-a-defined-mandate
+journey: working-alongside-an-agent

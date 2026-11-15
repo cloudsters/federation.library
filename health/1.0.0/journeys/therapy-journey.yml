@@ -1,0 +1,47 @@
+kind: journey
+slug: therapy-journey
+title: Therapy Journey
+stakeholder: older-person-with-frailty
+summary: An older person whose function is threatened by illness is seen early by therapists, shows what is possible, sets goals that
+  matter, practises daily, prepares for home and continues without a gap after discharge.
+stages:
+- slug: be-seen-early
+  title: Be Seen Early
+  goal: Have problems with moving, swallowing or eating noticed early.
+  step: therapy-services/referral-and-screening
+  touchpoints:
+  - ward-round
+  - nursing-admission-interview
+- slug: show-what-is-possible
+  title: Show What Is Possible
+  goal: Show what was possible before the illness and what is possible now.
+  step: therapy-services/therapy-assessment
+  touchpoints:
+  - therapy-session
+- slug: set-own-goals
+  title: Set Own Goals
+  goal: Set goals that matter, such as walking to the shops again.
+  step: therapy-services/goal-setting-and-therapy-plan
+  touchpoints:
+  - therapy-session
+  - family-meeting
+- slug: work-at-it
+  title: Work at It
+  goal: Practise every day with expert guidance.
+  step: therapy-services/therapy-delivery
+  touchpoints:
+  - therapy-session
+- slug: get-ready-for-home
+  title: Get Ready for Home
+  goal: Have aids and a plan for home, with carers trained.
+  step: therapy-services/aids-and-home-preparation
+  touchpoints:
+  - home-programme
+  - home-visit
+- slug: continue-after-discharge
+  title: Continue after Discharge
+  goal: Continue rehabilitation without a gap after leaving hospital.
+  step: therapy-services/progress-review-and-handover
+  touchpoints:
+  - discharge-planning-meeting
+  - discharge-letter

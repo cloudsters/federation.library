@@ -1,0 +1,10 @@
+kind: capability
+slug: energy-management
+title: Energy Management
+level: L3
+parent: facility-operations
+summary: Monitor and reduce energy use and secure supply, including emergency power.
+binds:
+- source: src-091
+  edition: 2018-a1-2024
+  jurisdiction: global

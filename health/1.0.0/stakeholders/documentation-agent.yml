@@ -1,0 +1,13 @@
+kind: stakeholder
+slug: documentation-agent
+title: Documentation Agent
+nature: agent
+stance: serving
+summary: An AI agent that drafts clinical notes, discharge letters and coding proposals from conversations and records, for
+  review and sign-off by staff.
+seeks:
+- Access to the relevant record, a defined template and the clinician's correction before anything is released.
+brings:
+- Time returned to patient care by reducing the documentation load on nurses and physicians.
+represented_by:
+- ai-system

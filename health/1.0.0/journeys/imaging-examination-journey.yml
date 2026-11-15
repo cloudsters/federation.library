@@ -1,0 +1,34 @@
+kind: journey
+slug: imaging-examination-journey
+title: Imaging Examination Journey
+stakeholder: outpatient
+summary: A person sent for an imaging examination understands why, prepares and answers the safety questions, is examined safely at
+  the lowest dose needed and learns the result in time.
+stages:
+- slug: understand-the-request
+  title: Understand the Request
+  goal: Know why the examination is needed and whether there is an alternative.
+  step: diagnostic-imaging/request-and-justification
+  touchpoints:
+  - consultation
+- slug: prepare-for-the-examination
+  title: Prepare for the Examination
+  goal: Know how to prepare and answer the safety questions.
+  step: diagnostic-imaging/scheduling-and-patient-preparation
+  touchpoints:
+  - appointment-confirmation
+  - imaging-safety-questionnaire
+- slug: be-examined-safely
+  title: Be Examined Safely
+  goal: Undergo the examination safely, at the lowest dose needed, knowing what happens.
+  step: diagnostic-imaging/image-acquisition
+  touchpoints:
+  - imaging-department
+- slug: learn-the-findings
+  title: Learn the Findings
+  goal: Learn the result from the treating clinician in time and have the images available to others who treat.
+  step: diagnostic-imaging/result-communication
+  touchpoints:
+  - diagnostic-report
+  - patient-portal
+  - image-sharing-service

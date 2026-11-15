@@ -1,0 +1,14 @@
+kind: stakeholder
+slug: clinical-decision-support-agent
+title: Clinical Decision Support Agent
+nature: agent
+stance: serving
+summary: An AI agent that analyses patient data as it arrives and proposes triage levels, warnings of deterioration, dosing
+  or next diagnostic steps, which clinicians accept or correct.
+seeks:
+- Coded, high-quality data, clear limits on its mandate, and clinicians' corrections recorded for monitored review, so that
+  any change to it is validated before use.
+brings:
+- Earlier recognition of risk and consistent application of guidelines, under human control.
+represented_by:
+- ai-system

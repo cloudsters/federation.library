@@ -1,0 +1,6 @@
+kind: capability
+slug: invoice-matching-verification
+title: Three-Way Invoice Matching & Verification
+level: L3
+parent: payables-and-expenses
+summary: Match purchase order, goods receipt and invoice and resolve discrepancies before payment.

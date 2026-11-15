@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: driving-for-fair-terms
+title: Driving for Fair Terms
+between:
+- platform-worker
+- platform-operator
+offered:
+- The worker's driving and riding for the shared and on-demand service.
+returned:
+- Fair pay, safe hours and the protections the city sets as terms of the scheme.
+touchpoint: on-demand-ride-booking

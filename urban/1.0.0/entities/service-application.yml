@@ -1,0 +1,63 @@
+kind: entity
+slug: service-application
+title: Service Application
+type: transactional
+summary: A resident's application for a service, benefit or reduced charge, from receipt through assessment to decision, with the
+  route by which it came. The department records it and decides it within its deadline.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: applicant
+  type: identifier
+  card: 1..1
+- name: resident-account
+  type: reference(resident-account)
+  card: 0..1
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: rule
+  type: reference(entitlement-rule)
+  card: 1..1
+- name: intake-route
+  type: code
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: evidence-provided
+  type: document
+  card: 0..*
+- name: data-reused-by-consent
+  type: reference(consent-record)
+  card: 0..*
+- name: automated-preparation
+  type: reference(automated-system-register)
+  card: 0..1
+- name: assessed-by
+  type: text
+  card: 0..1
+- name: decision-due
+  type: date
+  card: 1..1
+states:
+- received
+- incomplete
+- under-assessment
+- decided
+- withdrawn
+- closed
+relations:
+- type: governed-by
+  target: entitlement-rule
+- type: refers-to
+  target: resident-account
+- type: refers-to
+  target: consent-record
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: service-point
+- type: produces
+  target: entitlement-decision

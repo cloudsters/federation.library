@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: pattern-retirement-notice
+title: Pattern Retirement Notice
+medium: artefact
+summary: The published notice that a pattern is revised or retired from the library, with the reasons and what replaces it.
+exchanges:
+- usage-reports-for-open-patterns
+journey: city-administration-curating-a-practice-pattern

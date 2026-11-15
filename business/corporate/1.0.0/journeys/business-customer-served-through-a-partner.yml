@@ -1,0 +1,32 @@
+kind: journey
+slug: business-customer-served-through-a-partner
+title: Business Customer Served Through a Partner
+stakeholder: business-customer
+summary: A business customer buys from a trusted local partner, receives joint support where the deal needs it, learns through content
+  in channels it reads and sees its experience count in the partner's review.
+stages:
+- slug: buy-from-a-trusted-partner
+  title: Buy from a Trusted Partner
+  goal: The customer buys from a partner it trusts and receives the quality of the original.
+  step: channel-partner-distribution/white-label-delivery
+  touchpoints:
+  - sales-meeting
+- slug: get-joint-support
+  title: Get Joint Support
+  goal: Where the deal needs it, partner and organisation sell and advise together.
+  step: channel-partner-distribution/deal-registration-and-co-selling
+  touchpoints:
+  - sales-meeting
+- slug: learn-through-content
+  title: Learn Through Content
+  goal: Useful content reaches the customer through channels it already reads.
+  step: channel-partner-distribution/content-channel-stewardship
+  touchpoints:
+  - trade-press
+  - webinar
+- slug: see-its-experience-count
+  title: See Its Experience Count
+  goal: The customer's experience is part of how the partner is reviewed.
+  step: channel-partner-distribution/partner-performance-review
+  touchpoints:
+  - customer-survey

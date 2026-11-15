@@ -1,0 +1,10 @@
+kind: capability
+slug: water-safety
+title: Water Safety
+level: L3
+parent: hygiene-practice
+summary: Prevent waterborne infection through monitoring and control of water systems.
+binds:
+- source: src-518
+  edition: '2011'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: process-retrospective
+title: Process Retrospective
+medium: encounter
+summary: The regular meeting in which a process owner and the people who run a process review throughput, errors and waiting, and
+  ask whether it still serves them and its stakeholders.
+exchanges:
+- ownership-for-a-living-process
+- frontline-experience-for-a-better-flow
+journey: employee-shaping-the-way-work-flows

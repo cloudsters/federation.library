@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: draft-letter-for-sign-off
+title: Draft Letter for Sign-Off
+between:
+- documentation-agent
+- specialist-physician
+offered:
+- A draft discharge letter compiled from the record, with its sources shown.
+returned:
+- Review, correction and signature by the physician, and corrections that improve future drafts.
+touchpoint: clinical-workstation

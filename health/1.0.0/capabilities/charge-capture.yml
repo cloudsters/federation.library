@@ -1,0 +1,10 @@
+kind: capability
+slug: charge-capture
+title: Charge Capture
+level: L3
+parent: patient-revenue-cycle
+summary: Capture every billable service completely and on time.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

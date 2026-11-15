@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: requirements-for-a-fitting-quality-plan
+title: Requirements for a Fitting Quality Plan
+between:
+- business-customer
+- quality-manager
+offered:
+- Clear requirements, critical characteristics and acceptance criteria, and early word when they change.
+returned:
+- A quality plan with preventive controls and evidence, shared on request, that the requirements are met.
+touchpoint: account-review

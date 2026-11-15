@@ -1,0 +1,32 @@
+kind: journey
+slug: young-people-stepping-into-a-civic-role
+title: Young People Stepping into a Civic Role
+stakeholder: young-people
+summary: A young resident is named as successor to the chair of a neighbourhood body, sees the fixed term open on rotation, learns
+  the role beside the holder with a mentor and a learning path and takes it over with its reasoning and relationships.
+stages:
+- slug: be-named-a-successor
+  title: Be Named a Successor
+  goal: The young person is recorded as a successor in the body's succession plan, with their readiness.
+  step: succession-and-role-transition/key-role-review
+  touchpoints:
+  - key-role-review-meeting
+- slug: see-the-term-open
+  title: See the Term Open
+  goal: The role has a fixed term and staggered rotation, so it opens to a new holder on a known date.
+  step: succession-and-role-transition/rotation-and-term-setting
+  touchpoints:
+  - published-role-terms
+- slug: learn-beside-the-holder
+  title: Learn Beside the Holder
+  goal: The young person works alongside the holder with a mentor and a learning path for the role, taking on decisions step by step.
+  step: succession-and-role-transition/successor-development
+  touchpoints:
+  - successor-overlap
+  - role-learning-path
+- slug: take-over-the-role
+  title: Take Over the Role
+  goal: The young person holds the role with its open matters, its relationships and the reasons behind past decisions.
+  step: succession-and-role-transition/role-handover
+  touchpoints:
+  - handover-meeting

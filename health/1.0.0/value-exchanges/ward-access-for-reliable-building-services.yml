@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: ward-access-for-reliable-building-services
+title: Ward Access for Reliable Building Services
+between:
+- registered-nurse
+- facility-engineer
+offered:
+- Prompt fault reports, access to clinical areas for planned work, and adherence to the rules for medical gases, doors and alarms.
+returned:
+- Power, ventilation, water and medical gases that do not fail patients, faults fixed by risk to care, and planned work announced
+  and done under infection control.
+touchpoint: ward

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: entrusted-data-for-transparency
+title: Entrusted Data for Transparency
+between:
+- data-subject
+- administrative-staff
+offered:
+- Personal information entrusted for care, employment or research, and requests to see, correct or restrict it, with proof of identity.
+returned:
+- Clear information on how the data are used, a complete answer to every request within the deadline, and protection against misuse.
+touchpoint: patient-portal

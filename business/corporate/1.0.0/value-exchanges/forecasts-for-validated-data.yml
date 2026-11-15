@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: forecasts-for-validated-data
+title: Forecasts for Validated Data
+between:
+- operations-planning-agent
+- human-resources-professional
+offered:
+- Workforce demand forecasts and staffing scenarios, prepared continuously.
+returned:
+- Validated data, a defined mandate and a human decision on every proposal it makes.
+touchpoint: workforce-dashboard

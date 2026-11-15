@@ -1,0 +1,58 @@
+kind: entity
+slug: land-use-right
+title: Land Use Right
+type: master
+summary: A right to use land held by the city, a trust or a kinship body, with its holder, its obligations and the rules by which
+  it passes to a successor. It is recorded beside the land registry with those who witnessed each transfer, and it is used to pass
+  the right at life events with the claims of women and widows protected.
+attributes:
+- name: land-parcel
+  type: reference(land-parcel)
+  card: 1..1
+- name: granted-by
+  type: text
+  card: 1..1
+- name: holder-name
+  type: text
+  card: 1..*
+- name: right-kind
+  type: code
+  card: 1..1
+- name: obligations
+  type: text
+  card: 0..*
+- name: succession-rules
+  type: text
+  card: 1..1
+- name: protected-claims
+  type: text
+  card: 0..*
+- name: transfer-witnessed-by
+  type: text
+  card: 0..*
+- name: transferred-on
+  type: date
+  card: 0..1
+- name: term
+  type: period
+  card: 0..1
+states:
+- granted
+- held
+- in-transfer
+- transferred
+- disputed
+- ended
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: land-registry
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: mentoring-relationship
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

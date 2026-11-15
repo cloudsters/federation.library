@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: risk-evidence-for-a-reserve-level
+title: Risk Evidence for a Reserve Level
+between:
+- finance-officer
+- city-council
+offered:
+- The risks the city faces and what emergencies, recovery and asset renewal would cost.
+returned:
+- A reserve level and rules for drawing and refilling it, set by the council.
+touchpoint: reserve-policy-debate

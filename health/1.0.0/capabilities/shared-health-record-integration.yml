@@ -1,0 +1,13 @@
+kind: capability
+slug: shared-health-record-integration
+title: Shared Health Record Integration
+level: L3
+parent: interoperability-and-exchange
+summary: Read from and write to the patient's shared national health record with the patient's consent.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: staff-and-resident-test-run
+title: Staff and Resident Test Run
+medium: encounter
+summary: The test of a new tool on real cases by the staff who will use it and the residents it serves, with each fault recorded and
+  fixed before go-live.
+exchanges:
+- staff-test-findings-for-a-tool-that-fits
+- resident-test-findings-for-a-usable-service
+journey: frontline-worker-improving-the-process-they-run

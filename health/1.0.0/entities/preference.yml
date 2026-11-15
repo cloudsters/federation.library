@@ -1,0 +1,49 @@
+kind: entity
+slug: preference
+title: Preference
+type: transactional
+summary: A patient's stated values, priorities and wishes relevant to a care decision, such as what matters most, acceptable
+  burdens and preferred place of care, recorded so that plans and decisions can follow them.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: topic
+  type: code
+  card: 1..1
+- name: statement
+  type: text
+  card: 1..1
+- name: importance
+  type: code
+  card: 0..1
+- name: stated-at
+  type: datetime
+  card: 1..1
+- name: elicited-by
+  type: reference(practitioner-role)
+  card: 0..1
+states:
+- stated
+- confirmed
+- revised
+- withdrawn
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-003
+  edition: '2017'
+  jurisdiction: global

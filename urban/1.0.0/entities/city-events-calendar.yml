@@ -1,0 +1,56 @@
+kind: entity
+slug: city-events-calendar
+title: City Events Calendar
+type: master
+summary: The single calendar of events across the year and the neighbourhoods, with each event's dates, place and organiser, built
+  on the city's own seasons, festivals and work cycles. The administration keeps it open to organisers, residents and visitors, and
+  it is used to spread events across the year, to avoid clashes and to tell neighbours in advance.
+attributes:
+- name: calendar-year
+  type: period
+  card: 1..1
+- name: festivals
+  type: reference(festival)
+  card: 0..*
+- name: cultural-performances
+  type: reference(cultural-performance)
+  card: 0..*
+- name: community-events
+  type: reference(community-event)
+  card: 0..*
+- name: market-days
+  type: reference(market-day)
+  card: 0..*
+- name: applications
+  type: reference(event-application)
+  card: 0..*
+- name: seasons
+  type: text
+  card: 0..*
+- name: off-peak-periods
+  type: period
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: last-updated-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- published
+- updated
+- archived
+relations:
+- type: composed-of
+  target: festival
+- type: composed-of
+  target: cultural-performance
+- type: composed-of
+  target: community-event
+- type: composed-of
+  target: market-day
+- type: refers-to
+  target: event-application
+- type: refers-to
+  target: visitor-strategy

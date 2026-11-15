@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: monitoring-evidence-for-permitted-operation
+title: Monitoring Evidence for Permitted Operation
+between:
+- site-manager
+- environmental-authority
+offered:
+- A sound application, monitoring records within permit limits and prompt notice of every deviation.
+returned:
+- A permit with clear conditions, and inspections that confirm the site may continue to operate.
+touchpoint: official-inspection

@@ -1,0 +1,117 @@
+kind: value-stream
+slug: city-data-and-analytics
+title: City Data and Analytics
+family: portfolio-to-system
+summary: Turning the data the city holds and gathers into knowledge it can act on, rather than into more data. It holds the definition
+  and cataloguing of the city's data sets, each with a named owner, data drawn from departments, sensors, operators and the measurements
+  residents make themselves, quality kept at the source, analysis, maps and the digital twin, and open data released for residents,
+  researchers and businesses.
+trigger: The council, a department or a neighbourhood needs evidence for a decision, a new data source becomes available, or the city's
+  indicator set falls due for update.
+outcome: The city's data sets are owned, defined, catalogued and fit for use, decisions draw on analysis that states its limits, and
+  data that can be open is open.
+stakeholders:
+- city-administration
+- city-council
+- information-technology-specialist
+- neighbourhood-association
+- resident
+- research-institution
+- city-planner
+- local-business
+steps:
+- slug: information-need-intake
+  title: Information Need Intake
+  summary: A need for evidence from the council, a department or a neighbourhood is recorded with the decision it serves and the question
+    it asks, so that data is gathered for a purpose.
+  capabilities:
+  - information-need-intake
+  - city-signal-collection
+  entities:
+  - information-need
+  - city-dashboard
+  serves:
+  - evidence-request-form
+- slug: data-definition-and-cataloguing
+  title: Data Definition and Cataloguing
+  summary: Each data set receives an owner and a shared definition, is described with its origin, quality and access rules, and is
+    entered in a public catalogue.
+  capabilities:
+  - data-definition-and-cataloguing
+  - shared-data-model-design
+  entities:
+  - data-set
+  - data-catalogue
+  - shared-data-model
+  serves:
+  - data-catalogue-search
+- slug: data-sourcing-and-integration
+  title: Data Sourcing and Integration
+  summary: Data is drawn from departments, sensors, operators and the measurements residents make themselves, and brought together
+    in the city's data platform under its access rules.
+  capabilities:
+  - data-sourcing-and-integration
+  - sensor-deployment
+  entities:
+  - data-set
+  - air-quality-index
+  - sensor
+  serves:
+  - community-sensor-kit
+- slug: data-quality-assurance
+  title: Data Quality Assurance
+  summary: Completeness, correctness and timeliness are measured where the data arises, defects are corrected at the source, and the
+    gaps in what the data covers are recorded.
+  capabilities:
+  - data-quality-assurance
+  - blind-spot-mapping
+  entities:
+  - data-set
+  - data-catalogue
+  serves:
+  - data-quality-dashboard
+- slug: analysis-and-modelling
+  title: Analysis and Modelling
+  summary: Analysts work with residents trained to read local data to answer the question, build maps, models and the digital twin
+    of the city, and state the uncertainty of each result.
+  capabilities:
+  - analysis-and-modelling
+  - digital-twin-upkeep
+  entities:
+  - data-product
+  - digital-twin
+  - gis-layer
+  serves:
+  - data-literacy-workshop
+  - digital-twin-viewer
+- slug: release-and-open-data
+  title: Release and Open Data
+  summary: Results go to those who asked, are added to the shared city picture, and data sets free of personal data are released as
+    open data under an open licence.
+  capabilities:
+  - open-data-publication
+  - shared-city-picture-publication
+  entities:
+  - open-data-release
+  - data-product
+  - city-dashboard
+  serves:
+  - evidence-briefing
+  - open-data-download-page
+- slug: data-use-review
+  title: Data Use Review
+  summary: The use of data products and open data is followed, products no one uses are retired, and residents and researchers can
+    say which data they miss.
+  capabilities:
+  - data-definition-and-cataloguing
+  - information-need-intake
+  entities:
+  - data-catalogue
+  - data-product
+  serves:
+  - data-users-forum
+  - evidence-request-form
+binds:
+- source: src-177
+  edition: '2017'
+  jurisdiction: global

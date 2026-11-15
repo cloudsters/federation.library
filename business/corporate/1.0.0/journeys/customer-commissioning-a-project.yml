@@ -1,0 +1,47 @@
+kind: journey
+slug: customer-commissioning-a-project
+title: Customer Commissioning a Project
+stakeholder: business-customer
+summary: A business customer starts a project with an agreed plan, approves the design, witnesses tests, coordinates the work on its
+  site, agrees changes before they are made and accepts a result it can use.
+stages:
+- slug: start-with-an-agreed-plan
+  title: Start with an Agreed Plan
+  goal: Scope, deliverables, schedule, team and risks are agreed in the kick-off and written into the project plan.
+  step: customer-project-delivery/project-set-up
+  touchpoints:
+  - project-kick-off
+  - project-plan
+- slug: approve-the-design
+  title: Approve the Design
+  goal: The customer's requirements are reflected in the design, which the customer approves before money is committed.
+  step: customer-project-delivery/customer-specific-design
+  touchpoints:
+  - design-review
+- slug: witness-the-tests
+  title: Witness the Tests
+  goal: The customer sees critical components or the system tested before they leave the maker.
+  step: customer-project-delivery/component-procurement-and-production
+  touchpoints:
+  - factory-acceptance-test
+- slug: coordinate-on-site
+  title: Coordinate on Site
+  goal: Installation is coordinated with the customer's operation and other contractors.
+  step: customer-project-delivery/installation-and-implementation
+  touchpoints:
+  - site-coordination-meeting
+  - installation-and-commissioning
+- slug: agree-changes-before-they-happen
+  title: Agree Changes Before They Happen
+  goal: Progress and cost are reported openly, and every change of scope is priced and agreed before it is made.
+  step: customer-project-delivery/progress-cost-and-change-control
+  touchpoints:
+  - change-order
+  - project-status-report
+- slug: accept-and-take-over
+  title: Accept and Take Over
+  goal: The result is tested against agreed criteria, users are trained and documentation and open defects are handed over.
+  step: customer-project-delivery/acceptance-and-handover
+  touchpoints:
+  - acceptance-certificate
+  - customer-training

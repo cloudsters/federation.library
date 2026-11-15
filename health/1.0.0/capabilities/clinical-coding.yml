@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-coding
+title: Clinical Coding
+level: L3
+parent: patient-revenue-cycle
+summary: Code diagnoses and procedures correctly and completely so that each case is grouped and paid as treated.
+binds:
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global

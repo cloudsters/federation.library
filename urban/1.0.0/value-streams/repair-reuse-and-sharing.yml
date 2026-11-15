@@ -1,0 +1,104 @@
+kind: value-stream
+slug: repair-reuse-and-sharing
+title: Repair, Reuse and Sharing
+family: acquire-to-retire
+summary: Keeping things in use for longer, in the city's own work and in residents' lives. It holds repair before replacement of the
+  city's vehicles, furniture and equipment, neighbourhood repair points and tool libraries supported with space, tools and spare parts,
+  repair knowledge recorded and taught before it is lost, producers bound to take back and help pay for what they made, and neighbourhood
+  hubs that remake textiles and metals.
+trigger: A city vehicle, tool or piece of equipment fails or falls out of use, a resident needs something mended, or a neighbourhood
+  asks for a repair point.
+outcome: Items are repaired, shared or remade, residents can repair in every neighbourhood, and the city and its residents throw away
+  and buy new less.
+stakeholders:
+- resident
+- volunteer
+- older-resident
+- mentor
+- social-enterprise
+- local-business
+- informal-worker
+- supplier
+steps:
+- slug: repair-before-replacement
+  title: Repair Before Replacement
+  summary: Before a city vehicle, tool or piece of furniture is replaced, its workshop checks whether it can be repaired, refurbished
+    or passed to another department or a neighbourhood body, and keeps the fleet and equipment maintained.
+  capabilities:
+  - repair-before-replacement-check
+  - fleet-and-equipment-maintenance
+  - reuse-before-purchase-check
+  entities:
+  - municipal-fleet
+  - equipment-pool
+  serves:
+  - municipal-fleet-workshop
+  - repair-or-replace-check
+- slug: neighbourhood-repair-points
+  title: Neighbourhood Repair Points
+  summary: Repair cafés, workshops and mobile repair units run by residents and social enterprises are given space, tools and cover
+    by the city, so that every neighbourhood has a place to mend things together.
+  capabilities:
+  - repair-point-support
+  - community-space-provision
+  entities:
+  - repair-point
+  - community-centre
+  serves:
+  - mobile-repair-unit
+  - neighbourhood-repair-cafe
+- slug: tool-libraries-and-spare-parts
+  title: Tool Libraries and Spare Parts
+  summary: Tool libraries lend tools to residents and groups, and spare parts and reclaimed materials are pooled so that repairs are
+    not stopped for want of a part.
+  capabilities:
+  - tool-library-operation
+  - shared-equipment-pooling
+  entities:
+  - tool-library
+  - equipment-pool
+  serves:
+  - spare-parts-pool
+  - tool-library-counter
+- slug: repair-knowledge-and-skills
+  title: Repair Knowledge and Skills
+  summary: The knowledge of experienced repairers is recorded in open guides and taught to residents and apprentices, so that repair
+    skills pass on to the next generation.
+  capabilities:
+  - repair-knowledge-recording
+  - livelihood-skills-teaching
+  - mentor-matching
+  entities:
+  - knowledge-article
+  - apprenticeship
+  serves:
+  - open-repair-guides
+  - repair-skills-class
+  - repairer-recording-session
+- slug: producer-take-back-and-repair-duties
+  title: Producer Take-Back and Repair Duties
+  summary: Under the city's rules and contracts, producers and suppliers take back what they sold at the end of use, make spare parts
+    and repair information available, and contribute to the cost of collection and repair.
+  capabilities:
+  - take-back-clause-drafting
+  - waste-rule-setting
+  - circular-requirement-drafting
+  entities:
+  - producer-responsibility-agreement
+  - take-back-record
+  serves:
+  - take-back-point
+  - take-back-terms-negotiation
+- slug: neighbourhood-remaking-hubs
+  title: Neighbourhood Remaking Hubs
+  summary: Neighbourhood hubs sort textiles and metals by type and condition, remake them into new material and goods, and give local
+    work, and what they recover is reported with the city's waste figures.
+  capabilities:
+  - remaking-hub-support
+  - material-recovery
+  entities:
+  - remaking-hub
+  - waste-metrics
+  serves:
+  - remaking-hub-workshop
+  - textile-and-metal-drop-off

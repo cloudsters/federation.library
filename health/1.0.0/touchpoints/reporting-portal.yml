@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: reporting-portal
+title: Reporting Portal
+medium: channel
+summary: The channel through which managers and clinical units open their reports and dashboards, with definitions, data currency
+  and owner shown alongside each figure.
+exchanges:
+- steering-question-for-trusted-report
+- sponsorship-for-one-view
+- forecasts-for-timely-data
+journey: unit-steering-with-its-own-data

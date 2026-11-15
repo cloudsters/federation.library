@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: exclusion-risk-for-a-safe-order
+title: Exclusion Risk for a Safe Order
+between:
+- disabled-resident
+- city-administration
+offered:
+- A warning of which services would shut people out if they moved online too soon.
+returned:
+- Those services moved only once their assisted and offline routes are ready and tested.
+touchpoint: digitisation-priority-session

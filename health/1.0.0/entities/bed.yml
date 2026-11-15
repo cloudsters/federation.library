@@ -1,0 +1,46 @@
+kind: entity
+slug: bed
+title: Bed
+type: master
+summary: A staffed place in which one patient can be cared for overnight or longer, with its unit, room, type and equipment, whose
+  status of free, reserved, occupied or blocked is the basic measure of inpatient capacity.
+attributes:
+- name: bed-identifier
+  type: identifier
+  card: 1..1
+- name: room
+  type: reference(room)
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: bed-type
+  type: code
+  card: 1..1
+- name: equipment
+  type: reference(medical-device)
+  card: 0..*
+- name: staffed
+  type: boolean
+  card: 1..1
+states:
+- free
+- reserved
+- occupied
+- cleaning
+- blocked
+relations:
+- type: part-of
+  target: room
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: delivery-call-off
+title: Delivery Call-Off
+medium: artefact
+summary: The customer's call-off against a framework order, stating exactly which items are needed when and, for production lines,
+  in which sequence.
+exchanges:
+- visibility-for-committed-capacity
+- reliable-call-offs-for-supply-commitment
+journey: supplier-planning-against-a-shared-forecast

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: requirements-workshop
+title: Requirements Workshop
+medium: encounter
+summary: The workshop in which future users, process owners and the project team describe current and target workflows and the requirements
+  a solution must meet.
+exchanges:
+- workflow-knowledge-for-fitting-systems
+journey: clinical-users-receiving-a-new-system

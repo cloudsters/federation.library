@@ -1,0 +1,130 @@
+kind: value-stream
+slug: diagnostic-imaging
+title: Diagnostic Imaging
+family: demand-to-fulfillment
+summary: 'Producing imaging diagnostics in radiology and nuclear medicine: request and justification, scheduling, acquisition, reading
+  and structured reporting, communication of urgent findings and radiation protection of patients.'
+trigger: A clinician requests an imaging examination.
+outcome: A signed report with images is available to the requesting clinician, and urgent findings have been communicated.
+stakeholders:
+- outpatient
+- elective-inpatient
+- emergency-patient
+- specialist-physician
+- referring-practice
+- diagnostic-physician
+- diagnostic-technologist
+- clinical-engineer
+- health-regulator
+steps:
+- slug: request-and-justification
+  title: Request and Justification
+  summary: The clinician requests the examination with a clinical question, and the radiologist justifies it against benefit and exposure,
+    selects modality and protocol, or proposes a better alternative.
+  capabilities:
+  - imaging-order-justification
+  - clinical-order-entry
+  - radiation-protection
+  entities:
+  - clinical-order
+  - request-mandate
+  - clinical-guideline
+  serves:
+  - clinical-workstation
+  - consultation
+  - decision-support-prompt
+- slug: scheduling-and-patient-preparation
+  title: Scheduling and Patient Preparation
+  summary: The examination is scheduled on the modality by urgency, and the patient is prepared through safety questions on magnetic
+    resonance, contrast and pregnancy, a kidney function check, fasting where required and consent.
+  capabilities:
+  - modality-scheduling-and-acquisition
+  - appointment-booking-management
+  - magnetic-resonance-safety
+  - contrast-agent-safety
+  - informed-consent
+  entities:
+  - appointment
+  - schedule
+  - allergy-or-intolerance
+  - observation
+  - informed-consent
+  serves:
+  - appointment-confirmation
+  - consent-form
+  - imaging-safety-questionnaire
+- slug: image-acquisition
+  title: Image Acquisition
+  summary: The patient is identified and images are acquired with the appropriate protocol and the lowest dose that answers the question,
+    contrast and radiopharmaceuticals are given safely, and the dose is recorded.
+  capabilities:
+  - modality-scheduling-and-acquisition
+  - patient-identification
+  - radiation-protection
+  - contrast-agent-safety
+  - magnetic-resonance-safety
+  - nuclear-medicine
+  entities:
+  - image-study
+  - procedure
+  - observation
+  - medical-device
+  serves:
+  - identification-band
+  - imaging-department
+- slug: reading-and-reporting
+  title: Reading and Reporting
+  summary: Images are read and compared with prior studies, a structured report is written and signed, remote reading secures cover
+    at night and across sites, and validated decision support assists where it helps.
+  capabilities:
+  - radiological-reporting
+  - teleradiology
+  - finding-integration
+  - ai-assistant-integration
+  - nuclear-medicine
+  entities:
+  - diagnostic-report
+  - image-study
+  - prediction
+- slug: result-communication
+  title: Result Communication
+  summary: Report and images reach the requesting clinician, urgent and unexpected findings are communicated directly with confirmed
+    receipt, and results are shared with referrers and the patient.
+  capabilities:
+  - imaging-result-communication
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - patient-portal
+  entities:
+  - diagnostic-report
+  - image-study
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - diagnostic-report
+  - image-sharing-service
+  - patient-portal
+  - urgent-result-call
+- slug: dose-and-quality-review
+  title: Dose and Quality Review
+  summary: Patient doses are reviewed against reference levels, image and report quality are audited, modalities are tested and inspected,
+    and exposures above thresholds are reported to the authority.
+  capabilities:
+  - radiation-protection
+  - device-safety-and-metrology-inspection
+  - clinical-audit
+  - regulatory-reporting
+  entities:
+  - observation
+  - audit
+  - measure-report
+  - medical-device
+  serves:
+  - inspection-and-audit
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global

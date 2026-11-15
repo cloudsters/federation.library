@@ -1,0 +1,43 @@
+kind: entity
+slug: decision-aid
+title: Decision Aid
+type: master
+summary: A tool that presents a patient with the options for a specific decision, their benefits, harms and uncertainties in plain
+  language, and helps the patient clarify which option fits their values.
+attributes:
+- name: decision-topic
+  type: code
+  card: 1..1
+- name: options
+  type: text
+  card: 1..*
+- name: format
+  type: code
+  card: 1..1
+- name: languages
+  type: code
+  card: 1..*
+- name: content
+  type: document
+  card: 1..1
+- name: evidence-review-date
+  type: date
+  card: 1..1
+states:
+- draft
+- approved
+- in-use
+- withdrawn
+relations:
+- type: based-on
+  target: clinical-guideline
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-003
+  edition: '2017'
+  jurisdiction: global

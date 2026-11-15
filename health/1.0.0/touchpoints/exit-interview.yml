@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: exit-interview
+title: Exit Interview
+medium: encounter
+summary: The conversation with a departing contributor about the reasons for leaving, what should change and whether a return is welcome.
+exchanges:
+- exit-feedback-for-a-fair-departure
+journey: moving-on

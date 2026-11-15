@@ -1,0 +1,6 @@
+kind: capability
+slug: bed-occupancy-planning
+title: Bed Occupancy Planning
+level: L3
+parent: bed-and-capacity-management
+summary: Plan bed occupancy against capacity targets, length of stay and planned admissions.

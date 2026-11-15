@@ -1,0 +1,34 @@
+kind: journey
+slug: finding-care-close-to-home
+title: Finding Care Close to Home
+stakeholder: general-public
+summary: 'The population''s side of network design: being heard on needs, learning where services are offered, using them close to
+  home, and finding complex care concentrated where it is safest.'
+stages:
+- slug: voicing-needs
+  title: Voicing Needs
+  goal: Have the community's needs and travel burdens heard before services are moved.
+  step: regional-care-network-design/regional-need-assessment
+  touchpoints:
+  - public-information-event
+  - patient-advisory-council
+- slug: learning-what-changes
+  title: Learning What Changes
+  goal: Know which service is offered where and how to reach it, including in an emergency.
+  step: regional-care-network-design/access-route-information
+  touchpoints:
+  - public-website
+  - public-information-event
+- slug: using-local-services
+  title: Using Local Services
+  goal: Receive routine and follow-up care at a nearby centre and be transferred smoothly when complex care is needed.
+  step: regional-care-network-design/network-implementation
+  touchpoints:
+  - satellite-clinic
+  - outpatient-clinic
+- slug: judging-the-network
+  title: Judging the Network
+  goal: See published results on access and quality that show whether the new configuration serves the region.
+  step: regional-care-network-design/network-performance-review
+  touchpoints:
+  - public-quality-report

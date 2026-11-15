@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: peer-experience-for-a-tested-context
+title: Peer Experience for a Tested Context
+between:
+- peer-city
+- city-administration
+offered:
+- Evidence of how a practice worked and failed in its own context.
+returned:
+- A place among the tested contexts of a pattern, with its conditions stated.
+touchpoint: practice-variation-scan

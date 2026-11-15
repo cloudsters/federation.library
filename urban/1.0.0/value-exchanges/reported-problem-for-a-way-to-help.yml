@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reported-problem-for-a-way-to-help
+title: Reported Problem for a Way to Help
+between:
+- resident
+- city-administration
+offered:
+- A report of a problem in the street or park, with an offer to help fix it.
+returned:
+- A way to help fix it, with the tools and cover the city provides.
+touchpoint: report-and-help-route

@@ -1,0 +1,56 @@
+kind: journey
+slug: surgical-patient-journey
+title: Surgical Patient Journey
+stakeholder: elective-inpatient
+summary: A person facing planned surgery decides on the operation, prepares and consents, is operated on safely, wakes without fear,
+  recovers early and learns the result.
+stages:
+- slug: decide-on-surgery
+  title: Decide on Surgery
+  goal: Understand why an operation is advised and what the alternatives are, and decide.
+  step: surgical-care/surgical-indication
+  touchpoints:
+  - consultation
+  - patient-decision-aid
+- slug: get-fit-for-surgery
+  title: Get Fit for Surgery
+  goal: Be assessed once and know what to stop and how to prepare.
+  step: surgical-care/preoperative-assessment-and-optimisation
+  touchpoints:
+  - pre-admission-clinic
+  - anaesthesia-pre-assessment
+- slug: consent-and-get-a-date
+  title: Consent and Get a Date
+  goal: Give informed consent and receive a date that holds.
+  step: surgical-care/consent-and-operation-planning
+  touchpoints:
+  - consent-form
+  - appointment-confirmation
+- slug: undergo-the-operation
+  title: Undergo the Operation
+  goal: Be confirmed by name, procedure and site, safely anaesthetised and operated on.
+  step: surgical-care/anaesthesia-and-operation
+  touchpoints:
+  - operating-theatre
+  - surgical-safety-checklist
+  - identification-band
+- slug: wake-up
+  title: Wake Up
+  goal: Wake without pain or fear and know that the operation went as planned.
+  step: surgical-care/emergence-and-recovery
+  touchpoints:
+  - recovery-room
+- slug: recover-early
+  title: Recover Early
+  goal: Get up, eat and move early, and have problems spotted at once.
+  step: surgical-care/postoperative-care
+  touchpoints:
+  - ward
+  - ward-round
+- slug: learn-the-result
+  title: Learn the Result
+  goal: Learn the result and the histology and report how recovery went.
+  step: surgical-care/surgical-follow-up
+  touchpoints:
+  - consultation
+  - clinic-letter

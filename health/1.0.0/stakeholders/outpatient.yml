@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: outpatient
+title: Outpatient
+nature: person
+stance: served
+summary: A person who receives specialised consultation, diagnostics or a procedure without an overnight stay, including day
+  surgery and day treatment. The widest point of access and the one through which referral relationships are formed.
+seeks:
+- A timely appointment, a specialist answer to the referral question and a result that reaches the treating practice.
+brings:
+- Demand that moves care out of beds, and the first contact in which many later admissions and referrals are decided.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

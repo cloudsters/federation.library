@@ -1,0 +1,11 @@
+kind: capability
+slug: hazard-sensing-assessment
+title: Hazard Sensing & Assessment
+level: L3
+parent: safety-alerts-and-recalls
+summary: Sense and assess hazards with rigour — understanding likelihood, consequences, and the full scope of potential impact on
+  all stakeholders.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

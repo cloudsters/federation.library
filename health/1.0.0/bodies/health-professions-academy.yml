@@ -1,0 +1,14 @@
+kind: body
+slug: health-professions-academy
+title: Health Professions Academy
+summary: 'Educates the health professions and keeps all staff learning: vocational and academic programmes, practice supervision,
+  interprofessional training, simulation, continuing education and mandatory training.'
+holds:
+- health-professions-training
+- interprofessional-learning
+- simulation-training
+- continuing-education
+- mandatory-training
+part_of: executive-board
+type: management
+form: organisational-unit

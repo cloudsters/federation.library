@@ -1,0 +1,22 @@
+kind: solution
+slug: tender-management-system
+title: Tender Management System
+role: system-of-engagement
+summary: Takes in each need, holds the specification, lots, criteria and weights of each tender, publishes it, answers questions to
+  all bidders at once, receives bids, records the scores and reasons and publishes the award, for the city and its purchasing partners.
+carries:
+- need-and-procedure-definition
+- requirement-specification
+- lot-division
+- tender-publication-and-clarification
+- weighted-bid-evaluation
+- award-decision-and-publication
+- supplier-market-engagement
+- joint-tender-coordination
+holds:
+- public-procurement
+- tender-specification
+- bid
+- award-decision
+- market-engagement-record
+- procurement-scorecard

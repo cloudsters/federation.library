@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-circular-purchasing-report
+title: Published Circular Purchasing Report
+medium: artefact
+summary: The yearly report of the share of purchases repaired, reused, reclaimed or taken back, the embedded carbon avoided and how
+  each category kept to its limit.
+exchanges:
+- circular-account-for-revised-limits
+journey: procurement-officer-buying-circular

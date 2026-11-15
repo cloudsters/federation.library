@@ -1,0 +1,135 @@
+kind: value-stream
+slug: resident-enquiries-and-contact
+title: Resident Enquiries and Contact
+family: interest-to-relationship
+summary: Answering residents and visitors who contact the city with a question, a request or a report, and keeping in touch with those
+  who return. It holds one point of contact by counter, telephone, letter, message and online, the clarification of what a person
+  needs, an answer in plain language or a handover to the right service that spares the person from telling their story twice, follow-through
+  until the matter is closed, joined-up help when a resident owes the city money they cannot pay, a contact record the resident can
+  see and limit, and a review of what residents ask and how they were served.
+trigger: A resident, a visitor or a local body contacts the city with a question, a request, a report of a problem in a street or
+  public building, or a need they cannot yet name.
+outcome: The person has an answer, or a named service has taken the matter on and followed it to its close, and what residents ask
+  is known to the services and the council.
+stakeholders:
+- resident
+- visitor
+- frontline-worker
+- city-administration
+- older-resident
+- disabled-resident
+- newcomer
+- local-business
+steps:
+- slug: enquiry-receipt
+  title: Enquiry Receipt
+  summary: A contact by any route, at a counter, by telephone, letter, message or online, or as a report from the street, is received,
+    given a reference and acknowledged, with the same standard of answer whatever route the person chose.
+  capabilities:
+  - enquiry-intake
+  - assisted-service-route-provision
+  - digital-help-provision
+  entities:
+  - resident-enquiry
+  - service-point
+  serves:
+  - city-contact-line
+  - enquiry-acknowledgement
+  - street-and-building-problem-report
+- slug: need-clarification
+  title: Need Clarification
+  summary: Frontline staff clarify with the person, in their language and with help where needed, what they need, including the need
+    behind the question, and whether the matter is urgent.
+  capabilities:
+  - enquiry-need-clarification
+  - multilingual-information-design
+  entities:
+  - resident-enquiry
+  serves:
+  - city-contact-line
+  - need-clarification-conversation
+- slug: answer-and-referral
+  title: Answer and Referral
+  summary: Most enquiries are answered at first contact from a shared body of answers kept with the services. The others are handed
+    to the right service together with what the person has already said, so that they need not repeat it.
+  capabilities:
+  - enquiry-answering-and-referral
+  - knowledge-curation-and-access
+  - service-catalogue-upkeep
+  - once-only-data-reuse
+  entities:
+  - resident-enquiry
+  - knowledge-article
+  - service-catalogue
+  - service-case
+  serves:
+  - shared-answer-library
+  - warm-handover-to-a-service
+- slug: follow-through-to-close
+  title: Follow-Through to Close
+  summary: The matter stays open until the service has acted. The person is told what is happening within the times the service standard
+    promises, and the matter is closed only when they have been told the outcome.
+  capabilities:
+  - enquiry-follow-through
+  - service-level-setting
+  entities:
+  - service-case
+  - service-standard
+  serves:
+  - enquiry-outcome-notice
+  - enquiry-tracking-page
+- slug: joined-up-help-in-hardship
+  title: Joined-Up Help in Hardship
+  summary: When a contact shows that a resident cannot pay what they owe the city, one person looks at all of their accounts together,
+    pauses recovery, agrees a single arrangement that follows the rhythm of their income, and links them to relief and entitlements
+    they have not claimed. A missed payment brings a conversation, not a penalty.
+  capabilities:
+  - hardship-case-coordination
+  - income-matched-payment-arrangement
+  - tax-relief-assessment
+  - unclaimed-entitlement-outreach
+  - arrears-recovery
+  entities:
+  - arrears-case
+  - payment-arrangement
+  - taxpayer-account
+  serves:
+  - income-matched-arrangement-letter
+  - joined-up-hardship-meeting
+  - unclaimed-relief-check
+- slug: continuing-contact
+  title: Continuing Contact
+  summary: Residents who return often, or who live with long-term needs, keep a named contact and a contact record that they can see,
+    correct and limit, holding only what they agreed the city may keep.
+  capabilities:
+  - contact-record-keeping
+  - consent-recording
+  - resident-account-provision
+  entities:
+  - contact-record
+  - consent-record
+  - resident-account
+  serves:
+  - contact-record-view
+  - named-contact-call
+- slug: enquiry-experience-review
+  title: Enquiry Experience Review
+  summary: What residents ask, how long they wait, which matters come back and who does not reach the city at all is reviewed at a
+    regular rhythm with residents and frontline staff, and the findings go to the services concerned and to the council.
+  capabilities:
+  - enquiry-pattern-analysis
+  - resident-service-feedback-gathering
+  - service-route-use-analysis
+  entities:
+  - enquiry-pattern-report
+  - citizen-satisfaction
+  serves:
+  - enquiry-review-circle
+  - published-enquiry-report
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-257
+  edition: '2017'
+  jurisdiction: global

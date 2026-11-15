@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: school-street-trial
+title: School Street Trial
+medium: place
+summary: A street outside a school closed to through traffic at school times, or slowed with a safe crossing, on trial before it is
+  made permanent.
+exchanges:
+- trial-feedback-for-a-permanent-school-street
+journey: parent-or-guardian-making-the-school-route-safe

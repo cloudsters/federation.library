@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: observed-imbalances-for-changed-rules
+title: Observed Imbalances for Changed Rules
+between:
+- resident-inspector
+- city-council
+offered:
+- Imbalances of power and informal vetoes seen during inspection.
+returned:
+- Rules of procedure and the decision map changed where the imbalance is confirmed.
+touchpoint: governance-review-session

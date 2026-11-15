@@ -1,0 +1,61 @@
+kind: entity
+slug: interface
+title: Interface
+type: master
+summary: A defined exchange of data between two systems, or between the organisation and an outside party, with its content, format,
+  direction and trigger, and the agreement and monitoring that keep it working.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: source-system
+  type: text
+  card: 1..1
+- name: target-system
+  type: text
+  card: 1..1
+- name: content
+  type: code
+  card: 1..*
+- name: exchange-format
+  type: code
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: trigger
+  type: text
+  card: 1..1
+- name: partner
+  type: reference(organisation)
+  card: 0..1
+states:
+- planned
+- in-test
+- in-production
+- failing
+- decommissioned
+relations:
+- type: governed-by
+  target: contract
+- type: governed-by
+  target: data-processing-record
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

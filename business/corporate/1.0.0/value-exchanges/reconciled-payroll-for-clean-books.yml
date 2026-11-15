@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reconciled-payroll-for-clean-books
+title: Reconciled Payroll for Clean Books
+between:
+- human-resources-professional
+- finance-professional
+offered:
+- Payroll posted to the accounts and reconciled with payments and returns before close.
+returned:
+- Funds ready on the pay date and a period closed without open differences.
+touchpoint: payroll-journal

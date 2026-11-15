@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: design-review
+title: Design Review
+medium: encounter
+summary: The review in which a design is examined against requirements, cost, durability, maintainability and end of life, together
+  with those who will make, use and maintain the result.
+exchanges:
+- requirements-for-a-fitting-design
+- specialist-expertise-for-a-defined-brief
+- operator-insight-for-a-maintainable-design
+- specialist-design-for-a-clear-brief
+journey: engineer-releasing-a-product-into-production

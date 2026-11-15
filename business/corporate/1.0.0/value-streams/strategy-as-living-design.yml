@@ -1,0 +1,138 @@
+kind: value-stream
+slug: strategy-as-living-design
+title: Adaptive Strategy Design
+family: purpose-to-portfolio
+summary: Turning mission into a strategy the whole organisation can steer by, choosing long-horizon options, shaping the organisation
+  and operating model that carry them, and reopening the strategy whenever its premises fail.
+trigger: The strategy cycle opens, or a major shift in markets, technology, funding or ownership invalidates the current strategy.
+outcome: An adopted mission, strategy and operating model with measurable objectives is communicated and cascaded to every unit.
+stakeholders:
+- executive-board
+- supervisory-board
+- managing-director
+- shareholder
+- works-council
+- employee
+steps:
+- slug: strategy-cycle-opening
+  title: Strategy Cycle Opening
+  summary: The executive board opens the strategy cycle, confirms the mission and mandate that bound it, and sets the horizon, scope,
+    participants, method and calendar of the review.
+  capabilities:
+  - strategy-cycle-management
+  - mission-articulation
+  - purpose-spiral-navigation
+  entities:
+  - strategy
+  - mission
+  - plan
+  - governance-decision
+  serves:
+  - board-meeting
+  - strategy-retreat
+  - supervisory-board-meeting
+- slug: environment-and-capability-assessment
+  title: Environment and Capability Assessment
+  summary: Markets, customers, competitors, technology, regulation and ecological limits are assessed for the strategy horizon, together
+    with the organisation's own strengths, gaps and latent capacities.
+  capabilities:
+  - ecosystem-sensing
+  - internal-capability-sensing
+  - business-capability-management
+  entities:
+  - market-insight
+  - benchmark
+  - whole-system-assessment
+  - capability
+  serves:
+  - strategic-assessment
+  - strategy-retreat
+  - works-council-meeting
+- slug: option-design-and-testing
+  title: Option Design and Testing
+  summary: Strategic options, including new markets and segments, are designed and tested against alternative futures, the mission,
+    capacity, finances and risk.
+  capabilities:
+  - strategic-option-design
+  - scenario-planning
+  - market-entry-planning
+  entities:
+  - strategy
+  - business-case
+  - market-segment
+  - risk
+  serves:
+  - strategic-assessment
+  - strategy-retreat
+  - supervisory-board-meeting
+- slug: strategy-choice-and-adoption
+  title: Strategy Choice and Adoption
+  summary: One long-horizon strategy is chosen, the rules for allocating scarce resources and the speed at which each class of decision
+    may be taken are stated, and the strategy is adopted by the bodies that must approve it.
+  capabilities:
+  - long-horizon-strategy-design
+  - triage-governance-protocol
+  - decision-velocity-calibration
+  entities:
+  - strategy
+  - governance-decision
+  - decision-right
+  - approval
+  serves:
+  - board-meeting
+  - strategy-document
+  - supervisory-board-meeting
+- slug: target-organisation-design
+  title: Target Organisation Design
+  summary: The structure and operating model the strategy needs are designed, including which functions are centralised, shared or
+    outsourced, and the capabilities that deserve investment first.
+  capabilities:
+  - organisation-as-living-design
+  - operating-model-design
+  - shared-services-and-outsourcing-design
+  - business-capability-management
+  entities:
+  - organization
+  - business-unit
+  - department
+  - capability
+  - position
+  serves:
+  - board-meeting
+  - works-council-meeting
+- slug: objective-cascade
+  title: Objective Cascade
+  summary: The strategy is translated into measurable objectives with owners, unit strategies are shaped as niches of the whole, and
+    the customer, people, financial and production strategies are aligned with it.
+  capabilities:
+  - objective-cultivation
+  - unit-strategy-as-ecosystem-niche
+  - cross-dimensional-alignment
+  - stakeholder-experience-strategy
+  entities:
+  - objective
+  - kpi
+  - business-unit
+  - budget
+  serves:
+  - objective-agreement
+  - strategy-document
+- slug: strategy-communication
+  title: Strategy Communication
+  summary: The adopted strategy is told as a shared narrative to staff, owners, partners and the public in terms each can act on,
+    and their responses are gathered for the next review.
+  capabilities:
+  - strategy-as-shared-narrative
+  - mission-articulation
+  entities:
+  - strategy
+  - communication
+  - objective
+  serves:
+  - annual-report
+  - intranet
+  - staff-assembly
+binds:
+- source: src-113
+  edition: 2023-a2025-12
+  jurisdiction: global

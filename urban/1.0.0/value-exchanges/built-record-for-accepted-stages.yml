@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: built-record-for-accepted-stages
+title: Built Record for Accepted Stages
+between:
+- supplier
+- public-works-engineer
+offered:
+- Each stage built to specification, with a record of what was built and with which materials.
+returned:
+- Stages accepted and paid on time, and defects named while they can still be put right.
+touchpoint: site-supervision-visit

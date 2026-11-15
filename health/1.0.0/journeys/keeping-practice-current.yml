@@ -1,0 +1,37 @@
+kind: journey
+slug: keeping-practice-current
+title: Keeping Practice Current
+stakeholder: external-health-professional
+summary: The external professional's path from a learning need to a recognised credit and a voice in the next programme.
+stages:
+- slug: naming-a-learning-need
+  title: Naming a Learning Need
+  goal: Find learning that answers the questions of one's own practice, or ask for it.
+  step: continuing-education-programmes/training-needs-analysis
+  touchpoints:
+  - course-catalogue
+- slug: booking-a-place
+  title: Booking a Place
+  goal: Book a recognised programme at a time and price that fit a working week.
+  step: continuing-education-programmes/announcement-and-registration
+  touchpoints:
+  - course-catalogue
+- slug: learning-from-specialists
+  title: Learning from Specialists
+  goal: Learn current practice from specialists and practise hands-on where it matters.
+  step: continuing-education-programmes/delivery
+  touchpoints:
+  - scientific-meeting
+  - simulation-centre
+- slug: earning-credit
+  title: Earning Credit
+  goal: Receive a certificate and credit that count towards recertification without further effort.
+  step: continuing-education-programmes/assessment-and-credit-award
+  touchpoints:
+  - participation-certificate
+- slug: shaping-the-next-programme
+  title: Shaping the Next Programme
+  goal: Have one's evaluation improve the next programme.
+  step: continuing-education-programmes/programme-evaluation
+  touchpoints:
+  - teaching-evaluation-survey

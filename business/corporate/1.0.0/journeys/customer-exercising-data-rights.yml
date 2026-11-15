@@ -1,0 +1,20 @@
+kind: journey
+slug: customer-exercising-data-rights
+title: Customer Exercising Data Rights
+stakeholder: consumer
+summary: A consumer gives or withdraws consent, asks what data is held, has it corrected or erased and is told promptly if a breach
+  affects them.
+stages:
+- slug: exercise-a-right
+  title: Exercise a Right
+  goal: The consumer's consent is honoured and a request for access, correction or erasure is answered within its deadline.
+  step: digital-immune-design/privacy-rights-fulfilment
+  touchpoints:
+  - privacy-notice
+  - privacy-request-channel
+- slug: be-told-of-a-breach
+  title: Be Told of a Breach
+  goal: If personal data is affected, the consumer learns what happened and what to do, without delay.
+  step: digital-immune-design/incident-containment-and-recovery
+  touchpoints:
+  - breach-notification

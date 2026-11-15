@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: reach-a-person-line
+title: Reach-a-Person Line
+medium: channel
+summary: The line, by phone, online and at the counter, through which a resident served by an agent reaches a member of staff at any
+  point.
+exchanges:
+- resident-request-for-a-person-who-answers
+journey: municipal-ai-agent-acting-within-its-mandate

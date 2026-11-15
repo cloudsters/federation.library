@@ -1,0 +1,11 @@
+kind: capability
+slug: postnatal-and-newborn-care
+title: Postnatal and Newborn Care
+level: L3
+parent: maternal-and-child-health
+summary: Care for mother and healthy newborn after birth, with recovery, feeding support, newborn examination and screening, and preparation
+  for care at home.
+binds:
+- source: src-520
+  edition: '2018'
+  jurisdiction: global

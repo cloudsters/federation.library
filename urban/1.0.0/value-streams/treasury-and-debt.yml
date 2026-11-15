@@ -1,0 +1,138 @@
+kind: value-stream
+slug: treasury-and-debt
+title: Treasury and Debt
+family: value-to-sustainability
+summary: Keeping the city able to pay and free to decide. It holds the management of cash and liquidity, the reserves held against
+  shocks, borrowing within limits the council sets and on terms that leave the city's choices with the city, deposits and finance
+  with public and community banks that keep money circulating locally, and the assessment of whether the city's finances will hold
+  over a generation.
+trigger: The cash forecast shows a shortfall or a surplus, a capital project needs financing, or a loan falls due for repayment or
+  refinancing.
+outcome: The city meets every payment when due, holds reserves at the level the council set, and carries only debt it can service
+  from its own income without handing its decisions to lenders.
+stakeholders:
+- finance-officer
+- city-council
+- lender
+- supervisory-authority
+- resident
+- future-generations
+steps:
+- slug: cash-positioning-and-forecasting
+  title: Cash Positioning and Forecasting
+  summary: The treasury establishes the city's cash position each day and forecasts receipts and payments over the coming months,
+    so that money is where it is needed when payments fall due.
+  capabilities:
+  - cash-forecasting
+  - bank-reconciliation
+  entities:
+  - cash-forecast
+  - bank-account
+  serves:
+  - daily-cash-position-report
+  - supplier-payment-run
+- slug: reserve-setting
+  title: Reserve Setting
+  summary: The council sets the level of the reserves the city holds against emergencies, recovery after disaster and the renewal
+    of its assets, in line with its risk framework, and the rules by which they may be drawn and refilled.
+  capabilities:
+  - reserve-level-setting
+  - risk-framework-setting
+  entities:
+  - reserve-fund
+  - risk-register
+  - council-decision
+  serves:
+  - published-reserve-rules
+  - reserve-policy-debate
+- slug: borrowing-strategy-and-limits
+  title: Borrowing Strategy and Limits
+  summary: The council adopts a borrowing strategy that states what the city may borrow for, a limit on debt service as a share of
+    its own income, the spread of repayment dates, and the conditions it will not accept because they would give lenders a say over
+    the city's decisions.
+  capabilities:
+  - borrowing-strategy-design
+  - debt-affordability-assessment
+  - capital-investment-planning
+  entities:
+  - borrowing-strategy
+  - medium-term-financial-plan
+  - capital-investment-plan
+  serves:
+  - borrowing-strategy-debate
+  - debt-affordability-statement
+  - published-borrowing-strategy
+- slug: loan-and-bond-raising
+  title: Loan and Bond Raising
+  summary: The treasury raises the loans and bonds the capital plan needs from public development banks, community finance institutions
+    and markets, including bonds residents can buy in small amounts with their savings protected from currency and timing risks they
+    cannot carry.
+  capabilities:
+  - loan-and-bond-raising
+  - community-bond-issuing
+  - contract-review
+  entities:
+  - debt-instrument
+  - contract
+  - capital-project
+  serves:
+  - community-bond-offer
+  - lender-negotiation-meeting
+- slug: public-and-community-banking
+  title: Public and Community Banking
+  summary: The city places its deposits and surplus cash with public and community banks that lend in the city, and may put equity
+    into a public development bank or a cooperative credit institution governed with residents, informal workers and local businesses.
+  capabilities:
+  - surplus-cash-placement
+  - community-bank-capitalisation
+  entities:
+  - bank-account
+  - cooperative
+  - reserve-fund
+  serves:
+  - community-bank-deposit-agreement
+  - community-bank-member-assembly
+- slug: debt-service-and-refinancing
+  title: Debt Service and Refinancing
+  summary: Interest and repayments are paid when due, the debt held is reviewed against the borrowing strategy each year, and loans
+    are refinanced when better terms or a regional fund for fiscal stability make it possible.
+  capabilities:
+  - debt-servicing
+  - debt-affordability-assessment
+  - cash-forecasting
+  entities:
+  - debt-instrument
+  - cash-forecast
+  - journal-entry
+  serves:
+  - annual-debt-review
+  - debt-service-schedule
+- slug: fiscal-sustainability-assessment
+  title: Fiscal Sustainability Assessment
+  summary: The finance department assesses at regular intervals whether the city's income covers its spending, its debt and the upkeep
+    of its assets over a generation, and reports to the council and the supervisory authority what burdens are being passed to future
+    residents.
+  capabilities:
+  - fiscal-sustainability-assessment
+  - future-generations-assessment
+  - compliance-reporting
+  entities:
+  - fiscal-sustainability-report
+  - medium-term-financial-plan
+  - ecological-cost-ledger
+  serves:
+  - fiscal-sustainability-debate
+  - published-fiscal-sustainability-report
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-204
+  edition: '2014'
+  jurisdiction: global
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

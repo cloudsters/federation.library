@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-share-for-an-open-decision
+title: Neighbourhood Share for an Open Decision
+between:
+- city-council
+- neighbourhood-association
+offered:
+- The neighbourhood's share of the commons fund.
+returned:
+- An allocation decided with residents in the open, to homes, upkeep, community land, accessibility or recovery reserves.
+touchpoint: neighbourhood-fund-assembly

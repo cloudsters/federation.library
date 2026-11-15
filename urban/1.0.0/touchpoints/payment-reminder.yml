@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payment-reminder
+title: Payment Reminder
+medium: artefact
+summary: The first reminder of an unpaid amount, which names the help available and how to agree a payment plan before any enforcement.
+exchanges:
+- early-reminder-for-an-early-answer
+journey: finance-officer-raising-local-revenue

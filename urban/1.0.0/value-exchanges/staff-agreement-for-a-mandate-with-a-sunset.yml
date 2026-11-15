@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-agreement-for-a-mandate-with-a-sunset
+title: Staff Agreement for a Mandate with a Sunset
+between:
+- staff-representative
+- city-administration
+offered:
+- The staff's agreement or refusal on the change to work.
+returned:
+- An agent approved only for a fixed term, under a written mandate with a sunset date.
+touchpoint: agent-change-consultation

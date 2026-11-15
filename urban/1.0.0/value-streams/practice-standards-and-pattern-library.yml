@@ -1,0 +1,115 @@
+kind: value-stream
+slug: practice-standards-and-pattern-library
+title: Practice Standards and Pattern Library
+family: collaboration-to-automation
+summary: Turning research and proven experience into reliable practice across the city's services. It holds the scanning of research
+  and of variation between services, the validation of practice patterns in different neighbourhoods and contexts with the conditions
+  under which each holds and fails, the standard procedures derived from them, practice encoded so that the city's systems can follow
+  it, and the review that keeps the library small, honest and current.
+trigger: Research or practice elsewhere shows a better way of working, services vary widely in how they do the same work, or a pattern
+  in the library shows signs of failing.
+outcome: The library holds only patterns validated in several contexts with their conditions stated, standard procedures follow them,
+  and patterns that fail are revised or retired.
+stakeholders:
+- city-administration
+- frontline-worker
+- research-institution
+- peer-city
+- resident
+- community-development-worker
+steps:
+- slug: evidence-and-variation-scanning
+  title: Evidence and Variation Scanning
+  summary: The city scans research, the experience of peer cities and the variation between its own services and neighbourhoods for
+    practices worth adopting or questioning.
+  capabilities:
+  - evidence-and-variation-scanning
+  - policy-evidence-review
+  entities:
+  - evidence-review
+  - research-project
+  serves:
+  - practice-variation-scan
+- slug: pattern-validation
+  title: Pattern Validation
+  summary: A candidate practice enters the library only when it has worked in at least three distinct contexts. The conditions under
+    which it applies and those under which it fails are written down with it.
+  capabilities:
+  - pattern-validation
+  - pattern-condition-statement
+  entities:
+  - practice-pattern
+  - evidence-review
+  serves:
+  - pattern-validation-panel
+- slug: testing-with-practitioners-and-residents
+  title: Testing with Practitioners and Residents
+  summary: Frontline staff and the residents who live with a practice test the pattern against their experience. Their account is
+    recorded beside the research.
+  capabilities:
+  - frontline-knowledge-capture
+  - pattern-validation
+  - service-design-with-residents
+  entities:
+  - practice-pattern
+  - knowledge-article
+  serves:
+  - practice-test-circle
+- slug: standard-procedure-design
+  title: Standard Procedure Design
+  summary: Validated patterns are carried into standard procedures for the services where their conditions hold, with room left for
+    local adaptation.
+  capabilities:
+  - standard-procedure-writing
+  - pattern-condition-statement
+  entities:
+  - standard-procedure
+  - practice-pattern
+  serves:
+  - procedure-drafting-session
+  - published-standard-procedure
+- slug: practice-encoding
+  title: Practice Encoding
+  summary: Where a procedure is rule-based and stable, it is encoded so that the city's systems and agents follow it. Each encoded
+    rule keeps a link to the pattern and the decision it comes from.
+  capabilities:
+  - practice-encoding
+  - solution-build-and-configuration
+  entities:
+  - standard-procedure
+  - application
+  - pattern-library
+  serves:
+  - rule-encoding-review
+- slug: release-and-publication
+  title: Release and Publication
+  summary: The pattern and its procedure are approved and published in the library, where staff, residents and peer cities find them.
+  capabilities:
+  - pattern-library-curation
+  - code-publication-and-sharing
+  entities:
+  - pattern-library
+  - practice-pattern
+  serves:
+  - city-pattern-library
+- slug: adherence-and-renewal
+  title: Adherence and Renewal
+  summary: Services monitor whether practice follows the procedures and whether outcomes hold. Patterns that no longer work are revised
+    or retired from the library.
+  capabilities:
+  - practice-adherence-monitoring
+  - pattern-retirement
+  - pattern-library-curation
+  entities:
+  - practice-adherence-report
+  - pattern-library
+  serves:
+  - pattern-retirement-notice
+  - practice-adherence-review
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

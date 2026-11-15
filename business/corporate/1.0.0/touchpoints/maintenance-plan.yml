@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: maintenance-plan
+title: Maintenance Plan
+medium: artefact
+summary: The plan of preventive work, calibrations and mandatory inspections per asset, with intervals or condition thresholds and
+  the windows agreed with operation.
+exchanges:
+- maintenance-windows-for-reliable-assets
+journey: technician-restoring-an-asset

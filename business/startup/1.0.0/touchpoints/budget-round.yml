@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: budget-round
+title: Budget Round
+medium: encounter
+summary: The meetings in which units and finance prepare, negotiate and review budgets, forecasts and the explanations of material
+  deviations.
+exchanges:
+- budget-for-accountability
+- explained-deviations-for-a-steering-forecast
+- value-based-funding-for-value-accountability
+journey: unit-leader-answering-for-a-budget

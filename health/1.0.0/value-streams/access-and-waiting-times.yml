@@ -1,0 +1,146 @@
+kind: value-stream
+slug: access-and-waiting-times
+title: Access and Waiting Times
+family: proposition-to-audience
+summary: 'Keeping access to care within standards: monitoring waiting lists and waiting times across services, applying care guarantees
+  and urgency criteria, and offering alternatives when a standard cannot be met.'
+trigger: Waiting times approach or exceed an access standard, or a care guarantee period is about to lapse.
+outcome: Patients are seen within the applicable standard or are offered an alternative provider, and access performance is reported.
+stakeholders:
+- outpatient
+- elective-inpatient
+- referring-practice
+- payer
+- health-planning-authority
+- administrative-staff
+- head-of-clinical-department
+- operations-planning-agent
+steps:
+- slug: waiting-list-registration
+  title: Waiting List Registration
+  summary: List every accepted request that cannot be scheduled at once with its clinical priority, the applicable access standard
+    and the due date, and inform the patient and the referrer.
+  capabilities:
+  - waiting-list-management
+  - access-standard-management
+  - referral-intake-management
+  entities:
+  - waiting-list-entry
+  - request-for-care
+  - referral
+  - access-standard
+  - care-commitment
+  serves:
+  - patient-portal
+  - referral-letter
+  - referrer-portal
+  - waiting-time-notice
+- slug: waiting-time-monitoring
+  title: Waiting Time Monitoring
+  summary: Monitor waiting lists and waiting times by service, priority and site against the standards, forecast demand and breaches
+    ahead, and alert the responsible units before a due date passes.
+  capabilities:
+  - access-standard-management
+  - business-intelligence-and-reporting
+  - predictive-analytics
+  - referral-volume-forecasting
+  - occupancy-forecasting
+  entities:
+  - waiting-list-entry
+  - access-standard
+  - capacity-forecast
+  - measure-report
+  - dashboard
+  serves:
+  - patient-portal
+  - referrer-portal
+- slug: waiting-list-review
+  title: Waiting List Review
+  summary: 'Review waiting patients clinically and administratively: re-prioritise those whose condition has changed, remove those
+    who no longer need or want the service, and keep patients informed while they wait.'
+  capabilities:
+  - waiting-list-management
+  - admission-decision
+  - patient-contact-centre
+  - self-management-support
+  entities:
+  - waiting-list-entry
+  - risk-assessment
+  - patient-message
+  serves:
+  - appointment-service
+  - clinical-messaging-service
+  - patient-portal
+  - referrer-portal
+- slug: capacity-response
+  title: Capacity Response
+  summary: 'Add or shift capacity where standards are at risk: extra sessions, reallocated clinic and theatre time, lists pooled across
+    clinicians and sites, and transfer of suitable cases to day care.'
+  capabilities:
+  - theatre-capacity-allocation
+  - resource-capacity-planning
+  - staff-scheduling
+  - outpatient-clinic-operations
+  - day-case-treatment
+  - patient-flow-orchestration
+  entities:
+  - schedule
+  - operating-session
+  - roster
+  - waiting-list-entry
+  - capacity-forecast
+- slug: scheduling-within-standard
+  title: Scheduling Within Standard
+  summary: Offer each patient a date before the due date in order of clinical priority and waiting time, with the preparation required,
+    and record whether the offer is accepted.
+  capabilities:
+  - appointment-booking-management
+  - theatre-scheduling
+  - pre-admission-preparation
+  - waiting-list-management
+  entities:
+  - appointment
+  - waiting-list-entry
+  - schedule
+  - surgical-case
+  serves:
+  - appointment-service
+  - patient-portal
+- slug: alternative-provider-offer
+  title: Alternative Provider Offer
+  summary: Where the standard cannot be met, inform the patient of the right to timely care, offer an alternative provider, send the
+    referral and the clinical information, and arrange how the cost is borne.
+  capabilities:
+  - access-standard-management
+  - patient-rights-stewardship
+  - care-transition-coordination
+  - secure-clinical-messaging
+  - network-partnership-governance
+  entities:
+  - referral
+  - care-transition
+  - waiting-list-entry
+  - access-standard
+  - patient-message
+  serves:
+  - clinical-messaging-service
+  - waiting-time-notice
+- slug: access-performance-reporting
+  title: Access Performance Reporting
+  summary: Report waiting times and adherence to access standards to management, payers and authorities, publish them for patients
+    and referrers, and feed the results into capacity and service planning.
+  capabilities:
+  - regulatory-reporting
+  - quality-transparency-communication
+  - integrated-performance-review
+  - business-intelligence-and-reporting
+  - performance-benchmarking
+  entities:
+  - measure-report
+  - quality-report
+  - dashboard
+  - benchmark
+  serves:
+  - payer-negotiation
+  - public-website
+  - referrer-portal

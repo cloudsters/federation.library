@@ -1,0 +1,33 @@
+kind: journey
+slug: informal-worker-gaining-a-recognised-voice
+title: Informal Worker Gaining a Recognised Voice
+stakeholder: informal-worker
+summary: A street vendor is reached by the register where the rules allow, wins recognition for the vendors' association with stated
+  decision rights, helps set the measures by which the city is judged and sees what the term taught carried into the rules.
+stages:
+- slug: be-reached-by-the-register
+  title: Be Reached by the Register
+  goal: The worker, even without a stable address, has been reached and entered where the rules allow.
+  step: democratic-mandate/electorate-definition
+  touchpoints:
+  - voter-registration-drive
+- slug: win-stated-decision-rights
+  title: Win Stated Decision Rights
+  goal: The workers' association is recognised with decision rights over the matters that touch their trade, recorded beside the rights
+    of the elected bodies.
+  step: democratic-mandate/recognised-voice-allocation
+  touchpoints:
+  - recognition-agreement
+  - neighbourhood-council-meeting
+- slug: help-set-the-measures
+  title: Help Set the Measures
+  goal: Measures that matter to informal workers are among those by which the elected bodies are judged.
+  step: democratic-mandate/mandate-accountability
+  touchpoints:
+  - performance-scorecard
+- slug: carry-the-voice-into-the-rules
+  title: Carry the Voice into the Rules
+  goal: What the term taught about the recognised voices is carried into the electoral and participation rules.
+  step: democratic-mandate/mandate-renewal
+  touchpoints:
+  - election-review-report

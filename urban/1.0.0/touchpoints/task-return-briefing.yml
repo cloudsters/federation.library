@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: task-return-briefing
+title: Task Return Briefing
+medium: encounter
+summary: The briefing in which the tasks of a retired agent pass to staff or to a successor agent, with its records and the reasons
+  for its decisions.
+exchanges:
+- records-and-reasons-for-a-clean-retirement
+journey: municipal-ai-agent-serving-a-fixed-term

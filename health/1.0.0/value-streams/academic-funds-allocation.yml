@@ -1,0 +1,113 @@
+kind: value-stream
+slug: academic-funds-allocation
+title: Academic Funds Allocation
+family: value-to-sustainability
+summary: Receiving public funds for research and teaching, or settling with the faculty that holds them for the care settings, staff
+  and services it uses, keeping them separate from care funds, and allocating them to departments by performance and mission criteria.
+trigger: The annual allocation of public research and teaching funds is announced.
+outcome: Funds are allocated to units by transparent criteria, and their use is accounted for separately from care.
+stakeholders:
+- public-funding-body
+- university
+- executive
+- head-of-clinical-department
+steps:
+- slug: fund-receipt-and-earmarking
+  title: Fund Receipt and Earmarking
+  summary: The annual allocation of public research and teaching funds is received, split by purpose and booked to accounts kept apart
+    from care revenue.
+  capabilities:
+  - research-and-teaching-fund-allocation
+  - separated-activity-accounting
+  - general-accounting
+  entities:
+  - public-funding-allocation
+  - cost-centre
+  - ledger-entry
+- slug: performance-data-collection
+  title: Performance Data Collection
+  summary: 'Research and teaching performance is collected per unit from trusted sources: grants won, publications, doctoral completions,
+    teaching delivered and its evaluation.'
+  capabilities:
+  - research-performance-assessment
+  - teaching-quality-evaluation
+  - business-intelligence-and-reporting
+  - data-quality-management
+  entities:
+  - research-grant
+  - publication
+  - teaching-session
+  - measure
+  - measure-report
+  serves:
+  - academic-performance-report
+- slug: allocation-proposal
+  title: Allocation Proposal
+  summary: 'The allocation model is applied: the split between base, performance-based and strategic funds is set, and each unit''s
+    share is calculated from its indicators.'
+  capabilities:
+  - research-and-teaching-fund-allocation
+  - research-strategy-design
+  - teaching-and-care-balance
+  entities:
+  - measure
+  - measure-report
+  - budget
+  serves:
+  - joint-university-committee
+- slug: joint-allocation-decision
+  title: Joint Allocation Decision
+  summary: The commons and the medical faculty decide the allocation together in their joint committee, and each unit is notified
+    of its share, the criteria applied and the conditions of use.
+  capabilities:
+  - hospital-and-faculty-cooperation
+  - academic-mandate-alignment
+  - research-and-teaching-fund-allocation
+  entities:
+  - governance-decision
+  - budget
+  - organisation-unit
+  serves:
+  - allocation-notice
+  - joint-university-committee
+- slug: activity-cost-separation
+  title: Separation of Care, Research and Teaching Costs
+  summary: Staff time, space and material are attributed between care, research and teaching, so that academic funds do not subsidise
+    care and care revenue does not carry academic costs.
+  capabilities:
+  - separated-activity-accounting
+  - cost-accounting
+  - teaching-and-care-balance
+  - time-and-attendance
+  entities:
+  - cost-centre
+  - working-time-record
+  - position
+  - ledger-entry
+  serves:
+  - controlling-report
+- slug: use-of-funds-accounting
+  title: Use-of-Funds Accounting
+  summary: Units account for the use of their share, and the commons reports the use of research and teaching funds to the faculty
+    and the funding body separately from its care accounts.
+  capabilities:
+  - separated-activity-accounting
+  - financial-reporting
+  - research-performance-assessment
+  entities:
+  - public-funding-allocation
+  - financial-statement
+  - measure-report
+  serves:
+  - joint-university-committee
+  - use-of-funds-statement
+binds:
+- source: src-457
+  edition: '2022'
+  jurisdiction: global
+- source: src-458
+  edition: '2012'
+  jurisdiction: global
+- source: src-469
+  edition: '2015'
+  jurisdiction: global

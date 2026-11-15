@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: circumstances-for-relief-not-yet-claimed
+title: Circumstances for Relief Not Yet Claimed
+between:
+- resident
+- city-administration
+offered:
+- The resident's circumstances and permission to check what they could claim.
+returned:
+- Relief and entitlements they had not claimed, with help to apply.
+touchpoint: unclaimed-relief-check

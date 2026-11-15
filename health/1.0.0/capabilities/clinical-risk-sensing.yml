@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-risk-sensing
+title: Clinical Risk Sensing
+level: L3
+parent: patient-safety-learning
+summary: Identify clinical risks proactively from incident reports, reviews, audits and data analysis.
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

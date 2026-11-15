@@ -1,0 +1,118 @@
+kind: value-stream
+slug: asset-end-of-life-stewardship
+title: Asset End-of-Life Stewardship
+family: acquire-to-retire
+summary: 'Retiring assets and sites responsibly when they are obsolete, replaced or no longer needed: planning the exit, decommissioning
+  safely, recovering value through resale, reuse and recycling, handling hazardous materials and data lawfully, and closing the record.'
+trigger: An asset is obsolete, replaced or beyond economic repair, or a business or site is to be closed.
+outcome: The asset or business is decommissioned and passed on, recycled or properly disposed of, and removed from the register.
+stakeholders:
+- site-manager
+- environmental-authority
+- logistics-service-provider
+- finance-professional
+- local-community
+- natural-environment
+steps:
+- slug: exit-planning
+  title: Exit Planning
+  summary: The end of life of an asset or site is planned before it fails or becomes a liability, choosing between resale, reuse,
+    recycling, disposal or abandonment.
+  capabilities:
+  - end-of-life-planning
+  entities:
+  - asset
+  - facility
+  - plan
+  - business-case
+  serves:
+  - community-consultation
+  - statutory-filing
+- slug: decommissioning-and-data-erasure
+  title: Decommissioning and Data Erasure
+  summary: The asset is taken out of service and made safe, and data on devices and storage media is erased or destroyed by verified
+    methods with evidence kept.
+  capabilities:
+  - responsible-decommissioning
+  - media-sanitisation
+  entities:
+  - asset
+  - equipment
+  - approval
+  serves:
+  - data-erasure-certificate
+- slug: resale-and-transfer
+  title: Resale and Transfer
+  summary: Surplus assets that still have use are sold, donated or transferred for the best recoverable value.
+  capabilities:
+  - asset-remarketing
+  entities:
+  - asset
+  - contract
+  - sales-invoice
+  serves:
+  - surplus-asset-sale
+- slug: take-back-and-dismantling
+  title: Take-Back and Dismantling
+  summary: Returned and retired assets are evaluated at take-back points and dismantled into parts, each with a recorded disposition.
+  capabilities:
+  - steward-take-back-centers
+  - teardown-and-part-sorting
+  - part-disposition-traceability
+  entities:
+  - asset
+  - item
+  - circular-material-passport
+  serves:
+  - take-back-point
+- slug: recycling-and-hazardous-handling
+  title: Recycling and Hazardous Handling
+  summary: Parts and materials are recycled, and hazardous materials and waste are handled, shipped and disposed of lawfully, with
+    the chain of custody tracked.
+  capabilities:
+  - material-recovery-and-recycling
+  - hazardous-waste-management
+  - dangerous-goods-transport
+  - part-disposition-traceability
+  entities:
+  - item
+  - shipment
+  - environmental-footprint
+  - permit
+  serves:
+  - community-consultation
+  - waste-consignment-record
+- slug: site-closure-and-abandonment
+  title: Site Closure and Abandonment
+  summary: Facilities and equipment left in place are made safe and secure, and the site is restored as obligations require.
+  capabilities:
+  - safe-site-abandonment
+  - end-of-life-compliance
+  entities:
+  - facility
+  - permit
+  - remediation-plan
+  serves:
+  - community-consultation
+  - former-site
+  - official-inspection
+- slug: compliance-reporting-and-record-closure
+  title: Compliance Reporting and Record Closure
+  summary: End-of-life obligations are evidenced, reports are filed with the authorities, and the asset is removed from the register
+    with its final disposition recorded.
+  capabilities:
+  - end-of-life-compliance
+  - disposition-reporting-to-authorities
+  - part-disposition-traceability
+  - asset-register-management
+  entities:
+  - statutory-report
+  - asset
+  - journal-entry
+  serves:
+  - asset-register
+  - statutory-filing
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

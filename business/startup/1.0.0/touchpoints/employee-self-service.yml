@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: employee-self-service
+title: Employee Self-Service
+medium: channel
+summary: The channel through which employees update their personal data, see pay statements and time accounts, and request changes.
+exchanges:
+- accurate-records-for-reliable-pay-and-rights
+- correct-inputs-for-correct-pay
+journey: employee-being-paid-right-and-on-time

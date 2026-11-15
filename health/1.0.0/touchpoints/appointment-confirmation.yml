@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: appointment-confirmation
+title: Appointment Confirmation
+medium: artefact
+summary: The letter or message that confirms the date of an appointment, admission or procedure, with place, preparation instructions,
+  what to bring and how to change the date.
+exchanges:
+- guided-preparation-for-completed-tasks
+journey: planned-admission-journey

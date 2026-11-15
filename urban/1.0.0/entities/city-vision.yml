@@ -1,0 +1,73 @@
+kind: entity
+slug: city-vision
+title: City Vision
+type: master
+summary: The long-term picture of the city residents want to live in a generation from now, imagined with them and adopted by the
+  council across parties beyond any one term. The administration keeps it with the futures it was weighed against and the date of
+  its next review, and every later strategy and plan is bound to it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: vision-statement
+  type: text
+  card: 1..1
+- name: long-term-aims
+  type: text
+  card: 1..*
+- name: scenarios-weighed
+  type: reference(future-scenario)
+  card: 0..*
+- name: deliberated-by
+  type: reference(resident-assembly)
+  card: 0..1
+- name: recorded-disagreements
+  type: text
+  card: 0..*
+- name: future-generations-test
+  type: document
+  card: 0..1
+- name: language-versions
+  type: document
+  card: 1..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 1..1
+states:
+- review-opened
+- imagined
+- drafted
+- deliberated
+- adopted
+- published
+- under-review
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: based-on
+  target: city-charter
+- type: based-on
+  target: future-scenario
+- type: based-on
+  target: visioning-circle
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: public-record
+binds:
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global
+- source: src-202
+  edition: '2024-09-22'
+  jurisdiction: global

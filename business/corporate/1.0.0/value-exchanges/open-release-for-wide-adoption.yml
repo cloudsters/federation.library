@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-release-for-wide-adoption
+title: Open Release for Wide Adoption
+between:
+- development-engineer
+- end-user
+offered:
+- An offering released under an open licence, with documentation and a clear model for forking.
+returned:
+- Adoption, issues reported, improvements proposed and a reach no gatekeeper could give.
+touchpoint: open-repository

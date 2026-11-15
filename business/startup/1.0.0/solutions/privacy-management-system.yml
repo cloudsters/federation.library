@@ -1,0 +1,16 @@
+kind: solution
+slug: privacy-management-system
+title: Privacy Management System
+role: system-of-record
+summary: Keeps the record of processing activities, privacy impact assessments, consents and preferences, data subject requests and
+  personal data breaches, and shows that each is handled within its deadline.
+carries:
+- portable-identity-and-rights
+- privacy-data-protection-as-care
+- privacy-impact-management
+- data-subject-rights-fulfilment
+- consent-and-preference-management
+- personal-data-breach-response
+holds:
+- data-processing-record
+- data-use-consent

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: dispute-for-a-mediated-agreement
+title: Dispute for a Mediated Agreement
+between:
+- tenant
+- community-mediator
+offered:
+- The tenant's willingness to bring a dispute over noise, shared space or conduct to mediation first.
+returned:
+- An agreement both neighbours can keep, reached without a step against the tenancy.
+touchpoint: neighbour-mediation-session

@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: informed-consent-for-the-operation
+title: Informed Consent for the Operation
+between:
+- surgeon
+- elective-inpatient
+offered:
+- The indication, the alternatives including no operation, the risks, the expected recovery and the department's own results, explained
+  in good time.
+returned:
+- An informed decision and consent, and the patient's own preparation through conditioning, fasting, pausing medicines and arranging
+  support at home.
+touchpoint: consent-form

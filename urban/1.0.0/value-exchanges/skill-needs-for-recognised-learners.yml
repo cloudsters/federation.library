@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: skill-needs-for-recognised-learners
+title: Skill Needs for Recognised Learners
+between:
+- local-business
+- city-administration
+offered:
+- The skills they need and their acceptance of skills shown in practice when hiring.
+returned:
+- Courses that build those skills, and learners whose recognised skills they can trust.
+touchpoint: neighbourhood-learning-needs-gathering

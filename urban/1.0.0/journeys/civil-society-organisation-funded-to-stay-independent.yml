@@ -1,0 +1,32 @@
+kind: journey
+slug: civil-society-organisation-funded-to-stay-independent
+title: Civil-Society Organisation Funded to Stay Independent
+stakeholder: civil-society-organisation
+summary: A civil-society organisation joins the city's grant application as a partner, applies for a community grant on published
+  criteria, holds a multi-year grant with light reporting and secures a place in the city's own budget for work that must outlast
+  its grant.
+stages:
+- slug: apply-as-a-partner
+  title: Apply as a Partner
+  goal: The organisation's knowledge and reach are part of the city's application, with its role and share agreed.
+  step: grants-and-intergovernmental-transfers/grant-application-and-award
+  touchpoints:
+  - grant-partnership-meeting
+- slug: apply-on-published-criteria
+  title: Apply on Published Criteria
+  goal: The organisation has applied for a community grant on criteria anyone can read.
+  step: grants-and-intergovernmental-transfers/grants-to-community-bodies
+  touchpoints:
+  - community-grant-call
+- slug: receive-a-multi-year-grant
+  title: Receive a Multi-Year Grant
+  goal: The organisation holds a multi-year grant with light reporting and answers first to the people it serves.
+  step: grants-and-intergovernmental-transfers/grants-to-community-bodies
+  touchpoints:
+  - community-grant-agreement
+- slug: keep-the-work-going
+  title: Keep the Work Going
+  goal: Work that must outlast its grant has a place in the city's own budget before the grant ends.
+  step: grants-and-intergovernmental-transfers/funding-mix-review
+  touchpoints:
+  - grant-exit-planning-session

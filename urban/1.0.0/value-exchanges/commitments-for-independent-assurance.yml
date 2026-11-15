@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: commitments-for-independent-assurance
+title: Commitments for Independent Assurance
+between:
+- city-administration
+- external-auditor
+offered:
+- The published commitments and the reports of progress, cost and risk.
+returned:
+- An independent opinion on whether money is spent as committed and benefits are on track.
+touchpoint: city-commitments-register

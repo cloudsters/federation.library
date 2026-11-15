@@ -1,0 +1,19 @@
+kind: stakeholder
+slug: person-with-cancer
+title: Person with Cancer
+nature: person
+stance: served
+summary: A person with a suspected or confirmed cancer whose path runs from diagnosis through combined surgical, drug and
+  radiation therapy to follow-up, survivorship or palliative care, decided in multidisciplinary conferences.
+seeks:
+- Fast diagnosis, a treatment plan agreed across disciplines, access to trials and one point of contact through months of
+  therapy.
+brings:
+- Long, complex treatment courses whose tissue, data and outcomes feed cancer research and the commons' standing as a cancer
+  centre.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

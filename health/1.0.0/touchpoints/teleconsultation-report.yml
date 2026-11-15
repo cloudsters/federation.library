@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: teleconsultation-report
+title: Teleconsultation Report
+medium: artefact
+summary: The documented advice of a remote specialist, with the question, the findings reviewed, the recommendation and where responsibility
+  lies, returned to the requesting provider.
+exchanges:
+- transfer-request-for-an-accepted-bed
+- remote-specialist-advice
+journey: obtaining-specialist-advice-at-a-distance

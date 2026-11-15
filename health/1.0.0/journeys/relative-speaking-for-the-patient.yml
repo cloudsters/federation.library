@@ -1,0 +1,32 @@
+kind: journey
+slug: relative-speaking-for-the-patient
+title: Relative Speaking for the Patient
+stakeholder: relative
+summary: 'A relative''s side of an ethics consultation: asking for help, conveying the patient''s will, deliberating with
+  the team and understanding the recommendation.'
+stages:
+- slug: asking-for-help
+  title: Asking for Help
+  goal: Find someone to turn to when the family disagrees with the team, or within itself, about treatment.
+  step: clinical-and-organisational-ethics/ethics-request
+  touchpoints:
+  - family-meeting
+  - feedback-and-complaints-channel
+- slug: conveying-the-patients-will
+  title: Conveying the Patient's Will
+  goal: Convey what the patient wanted, or would have wanted, and have it weighed as seriously as the medical facts.
+  step: clinical-and-organisational-ethics/case-clarification
+  touchpoints:
+  - family-meeting
+- slug: deliberating-together
+  title: Deliberating Together
+  goal: Take part in the deliberation without being left to decide alone.
+  step: clinical-and-organisational-ethics/ethical-deliberation
+  touchpoints:
+  - ethics-case-consultation
+- slug: understanding-the-outcome
+  title: Understanding the Outcome
+  goal: Understand the recommendation, the decision that follows and the care that continues.
+  step: clinical-and-organisational-ethics/recommendation-and-follow-up
+  touchpoints:
+  - family-meeting

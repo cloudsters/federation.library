@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: agent-oversight-console
+title: Agent Oversight Console
+medium: channel
+summary: The view through which overseers and colleagues see an AI agent's outputs, override them, report errors and give feedback.
+exchanges:
+- oversight-for-relieved-routine
+journey: team-working-alongside-a-new-agent

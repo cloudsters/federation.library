@@ -1,0 +1,10 @@
+kind: capability
+slug: occupational-safety-programme
+title: Occupational Safety Programme
+level: L3
+parent: occupational-health-and-safety
+summary: 'Run the occupational health and safety programme: risk assessments, measures, monitoring and emergency response.'
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

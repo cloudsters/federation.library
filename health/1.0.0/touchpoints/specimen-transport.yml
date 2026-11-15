@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: specimen-transport
+title: Specimen Transport
+medium: channel
+summary: The courier, pneumatic tube and transport service that carries specimens from wards, clinics and practices to the laboratories
+  under the required conditions.
+exchanges:
+- indicated-order-for-a-validated-result
+journey: ordering-clinician-laboratory-journey

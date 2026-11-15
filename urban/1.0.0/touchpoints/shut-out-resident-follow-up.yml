@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: shut-out-resident-follow-up
+title: Shut-Out Resident Follow-Up
+medium: channel
+summary: The call, letter or visit through which residents who did not or could not use a route are asked why, and told what changed.
+exchanges:
+- exclusion-reasons-for-a-changed-route
+journey: older-resident-reaching-a-service-online-or-offline

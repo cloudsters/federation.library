@@ -1,0 +1,37 @@
+kind: entity
+slug: quality-standard
+title: Quality Standard
+type: governance
+summary: A definition of acceptable quality — the threshold below which the organisation will not allow its outputs to fall, protecting
+  both customer trust and internal integrity.
+attributes:
+- name: scope
+  type: code
+  card: 1..1
+- name: specifications
+  type: text
+  card: 1..*
+- name: acceptance-criteria
+  type: text
+  card: 1..1
+- name: measurement-methods
+  type: text
+  card: 0..*
+- name: tolerances
+  type: text
+  card: 0..*
+states:
+- established
+- published
+- applied
+- evaluated
+- revised
+relations:
+- type: refers-to
+  target: quality-inspection
+- type: refers-to
+  target: non-conformance
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

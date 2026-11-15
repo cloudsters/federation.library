@@ -1,0 +1,25 @@
+kind: journey
+slug: employee-finding-and-trusting-information
+title: Employee Finding and Trusting Information
+stakeholder: employee
+summary: An employee captures documents so others can find them, finds data with its owner and meaning and requests corrections to
+  master data when something is wrong.
+stages:
+- slug: find-the-right-data
+  title: Find the Right Data
+  goal: The employee finds data with its meaning, owner and access rules.
+  step: information-as-lifeblood/data-ownership-and-cataloguing
+  touchpoints:
+  - data-catalogue
+- slug: request-a-correction
+  title: Request a Correction
+  goal: A wrong customer, supplier or offering record is corrected on request.
+  step: information-as-lifeblood/master-data-maintenance
+  touchpoints:
+  - master-data-request
+- slug: capture-what-matters
+  title: Capture What Matters
+  goal: Documents are captured with their context so that others can find and reuse them.
+  step: information-as-lifeblood/content-and-record-capture
+  touchpoints:
+  - records-repository

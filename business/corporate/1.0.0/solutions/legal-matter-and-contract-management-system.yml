@@ -1,0 +1,20 @@
+kind: solution
+slug: legal-matter-and-contract-management-system
+title: Legal Matter and Contract Management System
+role: system-of-record
+summary: Holds contracts, framework agreements and standard terms through drafting, negotiation, signature, obligations and renewal,
+  together with legal matters, disputes and the work of outside counsel.
+carries:
+- contract-lifecycle-stewardship
+- remediation-legal-review
+- agreement-negotiation-and-drafting
+- preventive-legal-practice
+- legal-advisory
+- dispute-and-litigation
+- steward-outside-counsel
+- liability-claims-management
+holds:
+- contract
+- agreement
+- terms-and-conditions
+- legal-matter

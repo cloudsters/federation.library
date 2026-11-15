@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digital-twin-viewer
+title: Digital Twin Viewer
+medium: channel
+summary: The view of the city's digital twin in which planners, analysts and researchers model options and see the uncertainty of
+  each result.
+exchanges:
+- planning-question-for-modelled-options
+- research-methods-for-tested-models
+journey: city-planner-asking-the-data-a-question

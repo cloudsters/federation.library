@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-ai-and-automation
+title: Clinical AI & Automation
+level: L1
+parent: digital-and-data
+summary: Introducing artificial intelligence and automation safely into clinical and administrative work.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

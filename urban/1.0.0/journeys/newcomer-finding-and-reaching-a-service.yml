@@ -1,0 +1,40 @@
+kind: journey
+slug: newcomer-finding-and-reaching-a-service
+title: Newcomer Finding and Reaching a Service
+stakeholder: newcomer
+summary: A newcomer shows where the way to services is lost, finds the right service in the directory in their own language, gets
+  help at the neighbourhood service point, learns the way by its landmarks and reports being turned away.
+stages:
+- slug: show-where-the-way-is-lost
+  title: Show Where the Way Is Lost
+  goal: The places where newcomers get lost and the signs they cannot read are recorded on the walk.
+  step: service-access-and-wayfinding/wayfinding-walks-and-mapping
+  touchpoints:
+  - wayfinding-walk
+- slug: find-the-service-in-the-directory
+  title: Find the Service in the Directory
+  goal: The newcomer has found, in plain language and their own language, which service fits, who may use it, when it is open and
+    what to bring.
+  step: service-access-and-wayfinding/service-directory
+  touchpoints:
+  - city-service-directory
+  - printed-neighbourhood-service-guide
+- slug: get-help-at-the-neighbourhood-point
+  title: Get Help at the Neighbourhood Point
+  goal: A person at the service point in the neighbourhood has helped the newcomer through the common services at an hour that fits
+    their work.
+  step: service-access-and-wayfinding/neighbourhood-service-points
+  touchpoints:
+  - neighbourhood-service-point-counter
+- slug: learn-the-way-by-landmarks
+  title: Learn the Way by Landmarks
+  goal: The newcomer finds the way to the service by its landmarks and cues without needing to read every sign.
+  step: service-access-and-wayfinding/multisensory-wayfinding-design
+  touchpoints:
+  - landmark-and-texture-route
+- slug: report-being-turned-away
+  title: Report Being Turned Away
+  goal: The newcomer's report of getting lost or being turned away is received and answered with what changes.
+  step: service-access-and-wayfinding/access-and-reach-review
+  touchpoints:
+  - barrier-report-line

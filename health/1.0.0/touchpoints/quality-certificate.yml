@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quality-certificate
+title: Quality Certificate
+medium: artefact
+summary: The certificate that attests that the organisation or one of its centres meets a quality standard, shown to patients and
+  referrers and required by payers and planners for some services.
+exchanges:
+- conformity-evidence-for-certification
+journey: department-in-the-quality-cycle

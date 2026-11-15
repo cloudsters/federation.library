@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: vacancy-reports-for-a-current-register
+title: Vacancy Reports for a Current Register
+between:
+- resident
+- asset-officer
+offered:
+- Reports of buildings and plots that stand empty or decay, with how long they have done so.
+returned:
+- A vacancy register kept current from their reports, and an answer on what the city will do with each site.
+touchpoint: vacant-site-report

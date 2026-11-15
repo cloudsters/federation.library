@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consented-match-for-a-direct-offer
+title: Consented Match for a Direct Offer
+between:
+- caregiver
+- city-administration
+offered:
+- Consent to use data the city already holds to check whether they are entitled.
+returned:
+- A direct offer of what they are owed, without applying from scratch.
+touchpoint: unclaimed-entitlement-letter

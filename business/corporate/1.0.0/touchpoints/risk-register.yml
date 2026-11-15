@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: risk-register
+title: Risk Register
+medium: artefact
+summary: The register of identified risks with their rating, owner, treatment and controls, joined from every unit into one profile
+  of the whole.
+exchanges:
+- early-signals-for-proportionate-support
+journey: risk-professional-running-the-risk-cycle

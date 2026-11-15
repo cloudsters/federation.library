@@ -1,0 +1,24 @@
+kind: solution
+slug: sterile-supply-tracking
+title: Sterile Supply Tracking
+role: system-of-record
+summary: Traces reusable instruments and endoscopes through every reprocessing cycle, from return after use through cleaning, sterilisation
+  and release to use on a named patient, and manages the composition of instrument sets.
+carries:
+- instrument-reprocessing-and-validation
+- sterile-goods-release-and-traceability
+- endoscope-reprocessing
+- instrument-set-management
+holds:
+- instrument-set
+- sterile-supply-cycle
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

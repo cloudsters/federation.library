@@ -1,0 +1,15 @@
+kind: body
+slug: emergency-management-office
+title: Emergency Management Office
+summary: Keeps the risk framework and register, maps hazards and exposure, prepares emergency and continuity plans, runs exercises
+  and coordinates recovery.
+holds:
+- risk-and-emergency-preparedness
+- service-continuity-planning
+- supply-interruption-response
+- cooling-place-provision
+- supply-dependency-mapping
+- sufficiency-level-setting
+part_of: full-council
+type: function
+form: organisational-unit

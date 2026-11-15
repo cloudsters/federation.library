@@ -1,0 +1,42 @@
+kind: solution
+slug: financial-management-system
+title: Financial Management System
+role: system-of-record
+summary: Keeps the city's books by fund, department and purpose, releases budgets and records each commitment before money is spent,
+  reconciles with the bank each day, keeps the ecological cost ledger and the separate account of the commons fund, and closes the
+  annual accounts.
+carries:
+- budget-release
+- commitment-control
+- variance-reporting-and-forecasting
+- transaction-recording
+- bank-reconciliation
+- ecological-and-social-cost-accounting
+- annual-accounts-preparation
+- commons-fund-accounting
+- grant-compliance-monitoring
+- commons-work-pay-setting
+- service-compensation-payment
+- requisition-approval
+- order-and-call-off-placement
+- receipt-and-service-confirmation
+- invoice-matching
+- prompt-supplier-payment
+- payment-time-reporting
+holds:
+- journal-entry
+- budget-commitment
+- budget-variance-report
+- annual-accounts
+- bank-account
+- ecological-cost-ledger
+- commons-fund
+- municipal-budget
+- livelihood-floor-agreement
+- compensation-award
+- compensation-fund
+- requisition
+- purchase-order
+- goods-receipt
+- supplier-invoice
+- payment-performance-report

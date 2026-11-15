@@ -1,0 +1,10 @@
+kind: capability
+slug: algorithmic-fairness-assurance
+title: Algorithmic Fairness Assurance
+level: L3
+parent: ai-governance-and-assurance
+summary: Assure that models perform fairly across patient subgroups.
+binds:
+- source: src-506
+  edition: '2024'
+  jurisdiction: global

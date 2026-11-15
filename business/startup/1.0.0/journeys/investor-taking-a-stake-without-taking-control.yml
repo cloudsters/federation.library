@@ -1,0 +1,27 @@
+kind: journey
+slug: investor-taking-a-stake-without-taking-control
+title: Investor Taking a Stake Without Taking Control
+stakeholder: financial-investor
+summary: A financial investor is offered a stake designed to share in value without capturing governance, negotiates its terms and
+  becomes a recorded owner with defined rights.
+stages:
+- slug: understand-the-structure
+  title: Understand the Structure
+  goal: The investor understands which rights the stake carries and which governance remains with the organisation.
+  step: capital-stewardship/financing-structure-design
+  touchpoints:
+  - investor-agreement
+- slug: negotiate-the-stake
+  title: Negotiate the Stake
+  goal: Price, rights and protections are agreed in an investment agreement.
+  step: capital-stewardship/funding-acquisition
+  touchpoints:
+  - contract-negotiation
+  - investor-agreement
+- slug: be-recorded-as-owner
+  title: Be Recorded as Owner
+  goal: The holding is entered in the share register and the investor receives the agreed information.
+  step: capital-stewardship/ownership-and-funding-administration
+  touchpoints:
+  - share-register
+  - shareholder-meeting

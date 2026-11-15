@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: field-safety-notice
+title: Field Safety Notice
+medium: artefact
+summary: The notice from a manufacturer or authority that describes a safety problem with a product, the affected batches or serial
+  numbers and the action required.
+exchanges:
+- safety-notice-for-confirmed-action
+journey: service-provider-maintaining-devices

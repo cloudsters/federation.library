@@ -1,0 +1,62 @@
+kind: entity
+slug: transfusion
+title: Transfusion
+type: transactional
+summary: The administration of one blood product to a patient, from bedside identity check through monitoring to the documentation
+  of any reaction, completing the traceability chain from donor to recipient.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: blood-product
+  type: reference(blood-product)
+  card: 1..1
+- name: clinical-order
+  type: reference(clinical-order)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: identity-check-done
+  type: boolean
+  card: 1..1
+- name: administered-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: reactions
+  type: code
+  card: 0..*
+states:
+- in-progress
+- completed
+- stopped
+- entered-in-error
+relations:
+- type: based-on
+  target: clinical-order
+- type: based-on
+  target: informed-consent
+- type: depends-on
+  target: blood-product
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-019
+  edition: 5.0.0
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-407
+  edition: 6.2.2
+  jurisdiction: global

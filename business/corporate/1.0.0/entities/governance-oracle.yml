@@ -1,0 +1,30 @@
+kind: entity
+slug: governance-oracle
+title: Governance Oracle
+type: intelligence
+summary: An AI node aggregating historical decisions, purpose declarations, and market signals to calculate purpose-drift probability.
+  Posts warnings before drift becomes visible to humans. The Purpose Agent’s sensing instrument — not a decision-maker but a pattern
+  recogniser.
+attributes:
+- name: inputs
+  type: text
+  card: 1..*
+- name: purpose-declarations
+  type: reference(mission)
+  card: 0..*
+- name: drift-probability
+  type: decimal
+  card: 1..1
+- name: warnings
+  type: text
+  card: 0..*
+states:
+- aggregating
+- analysing
+- alerting
+- recommending
+relations:
+- type: refers-to
+  target: mission
+- type: refers-to
+  target: strategy

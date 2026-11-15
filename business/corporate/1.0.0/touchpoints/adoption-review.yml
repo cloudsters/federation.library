@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: adoption-review
+title: Adoption Review
+medium: encounter
+summary: The review after launch in which sponsors, change leads and representatives of the affected teams look at adoption measures
+  and feedback and decide where to reinforce.
+exchanges:
+- adoption-signals-for-sustained-attention
+journey: sponsor-seeing-a-change-take-hold

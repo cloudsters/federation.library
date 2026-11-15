@@ -1,0 +1,27 @@
+kind: journey
+slug: supplier-exchanging-orders-and-invoices-electronically
+title: Supplier Exchanging Orders and Invoices Electronically
+stakeholder: supplier
+summary: A supplier is connected to receive orders and send confirmations and invoices electronically, and learns quickly when a message
+  is rejected and why.
+stages:
+- slug: connect-and-test
+  title: Connect and Test
+  goal: The supplier is connected through the portal or a direct interface and passes test runs.
+  step: interoperability-and-connectivity/partner-connection-onboarding
+  touchpoints:
+  - supplier-portal
+  - connection-test
+- slug: exchange-orders-and-invoices
+  title: Exchange Orders and Invoices
+  goal: Purchase orders arrive, and confirmations, delivery notes and invoices return electronically.
+  step: interoperability-and-connectivity/business-document-exchange
+  touchpoints:
+  - supplier-portal
+  - purchase-order
+- slug: correct-rejected-messages
+  title: Correct Rejected Messages
+  goal: Rejections are reported with reasons and corrected messages are accepted.
+  step: interoperability-and-connectivity/exchange-monitoring-and-error-resolution
+  touchpoints:
+  - supplier-portal

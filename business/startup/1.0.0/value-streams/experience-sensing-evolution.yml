@@ -1,0 +1,107 @@
+kind: value-stream
+slug: experience-sensing-evolution
+title: Experience Sensing & Evolution
+family: discovery-to-usage
+summary: Measuring how customers experience service and offerings, combining surveys, ratings and public reviews with signal from
+  service, warranty and recall handling, and making sure the findings lead to improvement that is measured again.
+trigger: A service measurement period ends, or a satisfaction survey cycle runs.
+outcome: Service and satisfaction results are fed back to the owning units, and improvement actions are implemented and re-measured.
+stakeholders:
+- consumer
+- business-customer
+- customer-service-representative
+- product-manager
+- quality-manager
+steps:
+- slug: measurement-design
+  title: Measurement Design
+  summary: The measures of service and satisfaction and the points in the relationship where feedback is asked for are set and kept
+    stable enough to compare over time.
+  capabilities:
+  - customer-feedback-collection
+  entities:
+  - measure
+  - survey
+  - touchpoint
+  serves:
+  - experience-dashboard
+- slug: feedback-collection
+  title: Feedback Collection
+  summary: Surveys, ratings and recommendation questions are put to customers at the defined points, and their answers are gathered
+    with the context they refer to.
+  capabilities:
+  - customer-feedback-collection
+  entities:
+  - survey
+  - customer-satisfaction-score
+  serves:
+  - account-review
+  - customer-survey
+- slug: public-review-monitoring
+  title: Public Review Monitoring
+  summary: Public ratings and reviews of the organisation and its offerings are monitored and answered, and their themes are taken
+    into the picture.
+  capabilities:
+  - online-reputation-management
+  entities:
+  - public-rating
+  - customer-interaction
+  serves:
+  - public-reviews
+- slug: service-handling-evaluation
+  title: Service Handling Evaluation
+  summary: Satisfaction with the handling of requests, inquiries and complaints is measured, including whether customers felt heard
+    and their concern was settled.
+  capabilities:
+  - request-experience-sensing
+  - complaint-resolution-sensing
+  entities:
+  - helpdesk-ticket
+  - complaint
+  - customer-satisfaction-score
+  serves:
+  - customer-survey
+  - experience-dashboard
+- slug: offering-satisfaction-evaluation
+  title: Offering Satisfaction Evaluation
+  summary: Satisfaction with products and services is evaluated, testing whether the value promised is the value experienced.
+  capabilities:
+  - offering-satisfaction-sensing
+  entities:
+  - customer-satisfaction-score
+  - product
+  - service
+  serves:
+  - account-review
+  - customer-advisory-panel
+- slug: warranty-and-recall-performance-review
+  title: Warranty and Recall Performance Review
+  summary: The cost and fairness of warranty fulfilment and the effectiveness of safety responses and recalls are reviewed as measures
+    of product integrity.
+  capabilities:
+  - warranty-performance-stewardship
+  - safety-response-evaluation
+  entities:
+  - warranty-claim
+  - recall
+  - measure-report
+  serves:
+  - account-review
+  - customer-insight-review
+- slug: findings-and-improvement-loop
+  title: Findings and Improvement Loop
+  summary: Findings from all sources are combined into one picture, passed to the owning units and the discovery backlog, and the
+    agreed improvements are implemented and measured again.
+  capabilities:
+  - offering-satisfaction-sensing
+  - stakeholder-insight-integration
+  entities:
+  - report
+  - dashboard
+  - initiative
+  serves:
+  - customer-advisory-panel
+  - customer-insight-review
+  - experience-dashboard
+  - public-reviews
+  - website

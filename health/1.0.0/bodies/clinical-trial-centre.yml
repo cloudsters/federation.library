@@ -1,0 +1,11 @@
+kind: body
+slug: clinical-trial-centre
+title: Clinical Trial Centre
+summary: 'Supports and assures clinical research across the commons: trial start-up, management, monitoring and data management, safety
+  reporting, sponsor duties for investigator-initiated trials, and research methods and biostatistics.'
+holds:
+- clinical-trials
+- research-methods-and-reporting
+part_of: executive-board
+type: management
+form: organisational-unit

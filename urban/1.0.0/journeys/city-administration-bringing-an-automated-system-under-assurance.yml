@@ -1,0 +1,61 @@
+kind: journey
+slug: city-administration-bringing-an-automated-system-under-assurance
+title: City Administration Bringing an Automated System Under Assurance
+stakeholder: city-administration
+summary: A department registers an automated system before any use, has it assessed for harm and bias, seeks the authorisation of
+  the communities it affects, has it approved for a stated use and term, reports on it, suspends it when harm appears and renews or
+  withdraws it at its sunset date.
+stages:
+- slug: register-before-use
+  title: Register Before Use
+  goal: The system's purpose, the decisions it touches, its data and its supplier are entered in the city's register before any use.
+  step: automated-decision-assurance/use-registration
+  touchpoints:
+  - automated-system-registration-form
+  - automated-system-register-entry
+- slug: assess-who-gains-and-who-bears-harm
+  title: Assess Who Gains and Who Bears Harm
+  goal: The system is assessed for who gains and who bears harm, tested for bias across neighbourhoods and groups and checked for
+    data protection.
+  step: automated-decision-assurance/impact-and-bias-assessment
+  touchpoints:
+  - impact-and-bias-assessment-session
+  - published-impact-assessment
+- slug: seek-authorisation
+  title: Seek Authorisation
+  goal: The communities most affected have deliberated with the assessment in hand, and the review panel has authorised, conditioned
+    or refused the system.
+  step: automated-decision-assurance/community-authorisation
+  touchpoints:
+  - community-deliberation-circle
+  - automated-systems-review-session
+- slug: approve-for-a-use-and-a-term
+  title: Approve for a Use and a Term
+  goal: The system is approved for a stated use with a published sunset date, a named person who answers for it and the human review
+    it needs, and the contract lets the city inspect and end it.
+  step: automated-decision-assurance/approval-for-defined-use-and-term
+  touchpoints:
+  - inspection-and-exit-clause-negotiation
+  - automated-system-approval-notice
+- slug: report-at-the-agreed-rhythm
+  title: Report at the Agreed Rhythm
+  goal: Error, bias and drift are monitored and reported to the review panel, which may require review by a person or slow the system
+    down.
+  step: automated-decision-assurance/monitoring-in-use
+  touchpoints:
+  - published-system-performance-report
+  - automated-systems-review-session
+- slug: suspend-and-remedy
+  title: Suspend and Remedy
+  goal: When harm appears, the system is suspended, the harm is remedied and the supplier is held to account.
+  step: automated-decision-assurance/challenge-and-suspension
+  touchpoints:
+  - system-suspension-notice
+- slug: renew-or-withdraw-at-the-sunset
+  title: Renew or Withdraw at the Sunset
+  goal: At its sunset date the system ends unless it has been redesigned, assessed afresh and authorised again, and a withdrawn system
+    keeps its record.
+  step: automated-decision-assurance/reauthorisation-or-withdrawal
+  touchpoints:
+  - sunset-review-hearing
+  - automated-system-register-entry

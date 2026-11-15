@@ -1,0 +1,10 @@
+kind: capability
+slug: recruitment
+title: Recruitment
+level: L2
+parent: talent-acquisition-and-credentialing
+summary: Filling positions with suitable candidates.
+binds:
+- source: src-379
+  edition: '2023'
+  jurisdiction: global

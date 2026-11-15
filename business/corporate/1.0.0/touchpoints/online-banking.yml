@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: online-banking
+title: Online Banking
+medium: channel
+summary: The bank's electronic channel through which the treasury sees balances, makes payments, deals instruments and reports suspicious
+  transactions.
+exchanges:
+- account-services-for-steady-business
+- prompt-fraud-report-for-swift-recall
+journey: treasurer-keeping-cash-where-it-is-needed

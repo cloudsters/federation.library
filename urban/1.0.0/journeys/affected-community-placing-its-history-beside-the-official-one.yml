@@ -1,0 +1,41 @@
+kind: journey
+slug: affected-community-placing-its-history-beside-the-official-one
+title: Affected Community Placing Its History Beside the Official One
+stakeholder: affected-community
+summary: A community whose history the city once left out calls a name or monument into question, tells its history so that it is
+  recorded beside the official one, is heard before anything is drafted, sees its names carried into public places and checks that
+  the charter keeps its promise.
+stages:
+- slug: call-the-name-into-question
+  title: Call the Name into Question
+  goal: The community's request about a contested name or monument has reached the city and opens a review.
+  step: civic-identity-and-charter/review-occasion
+  touchpoints:
+  - petition-portal
+- slug: tell-the-history
+  title: Tell the History
+  goal: The community's history, including the harm it suffered, is recorded in its own words beside the official history.
+  step: civic-identity-and-charter/civic-memory-gathering
+  touchpoints:
+  - oral-history-circle
+  - civic-memory-archive
+- slug: be-heard-before-drafting
+  title: Be Heard Before Drafting
+  goal: The community has said what the city should stand for before any text exists, at a time and place it could reach.
+  step: civic-identity-and-charter/community-hearing
+  touchpoints:
+  - neighbourhood-assembly
+  - public-hearing
+- slug: see-several-names-in-public-places
+  title: See Several Names in Public Places
+  goal: The adopted charter is published in the community's language, and its names stand beside others on signs and maps.
+  step: civic-identity-and-charter/ratification-and-publication
+  touchpoints:
+  - street-and-place-signage
+  - published-city-charter
+- slug: check-the-promise-is-kept
+  title: Check the Promise Is Kept
+  goal: The community can see whether decisions still follow the charter, and where they drift.
+  step: civic-identity-and-charter/lived-charter-review
+  touchpoints:
+  - state-of-the-city-report

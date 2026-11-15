@@ -1,0 +1,54 @@
+kind: entity
+slug: school
+title: School
+type: master
+summary: A primary or secondary school with its buildings and grounds, its pupils and families and the neighbourhood use it allows.
+  The body that runs the school keeps the record, together with the city where it holds the buildings, and it is used to plan school
+  places and to open rooms and grounds to neighbours.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: school-kind
+  type: code
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: buildings
+  type: reference(building)
+  card: 0..*
+- name: grounds
+  type: reference(land-parcel)
+  card: 0..*
+- name: number-of-pupils
+  type: integer
+  card: 0..1
+- name: age-range
+  type: text
+  card: 0..1
+- name: languages-of-instruction
+  type: code
+  card: 0..*
+- name: shared-use
+  type: reference(shared-use-agreement)
+  card: 0..*
+states:
+- planned
+- open
+- merged
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: building
+- type: refers-to
+  target: land-parcel
+- type: governed-by
+  target: shared-use-agreement
+- type: refers-to
+  target: anchor-institution-agreement

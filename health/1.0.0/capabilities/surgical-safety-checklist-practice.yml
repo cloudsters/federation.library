@@ -1,0 +1,14 @@
+kind: capability
+slug: surgical-safety-checklist-practice
+title: Surgical Safety Checklist Practice
+level: L3
+parent: intraoperative-care
+summary: Apply the surgical safety checklist and team time-out before induction, before incision and before the patient leaves the
+  theatre.
+binds:
+- source: src-505
+  edition: '2009'
+  jurisdiction: global
+- source: src-567
+  edition: unconfirmed
+  jurisdiction: global

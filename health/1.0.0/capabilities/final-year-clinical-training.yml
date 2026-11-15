@@ -1,0 +1,10 @@
+kind: capability
+slug: final-year-clinical-training
+title: Final-Year Clinical Training
+level: L3
+parent: undergraduate-medical-education
+summary: 'Organise the final clinical year: placements, supervision and partner teaching hospitals.'
+binds:
+- source: src-071
+  edition: '2005'
+  jurisdiction: global

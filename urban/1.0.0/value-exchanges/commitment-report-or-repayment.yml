@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: commitment-report-or-repayment
+title: Commitment Report or Repayment
+between:
+- investor
+- economic-development-officer
+offered:
+- The investor's report on each commitment of its agreement.
+returned:
+- Continued support where commitments were kept, and recovery of support where they failed.
+touchpoint: investment-commitment-review

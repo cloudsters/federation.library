@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consistent-channels-for-trust-to-switch
+title: Consistent Channels for Trust to Switch
+between:
+- site-manager
+- consumer
+offered:
+- The same offer, price and information in shop, web shop and app.
+returned:
+- Trust to move between channels and buy wherever is convenient.
+touchpoint: store-and-branch

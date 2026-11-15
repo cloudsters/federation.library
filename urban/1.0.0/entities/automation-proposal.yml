@@ -1,0 +1,67 @@
+kind: entity
+slug: automation-proposal
+title: Automation Proposal
+type: transactional
+summary: A proposal to automate a task or to let an AI agent support it, with its purpose, the decisions it touches, the data it uses,
+  its supplier and the expected effect on waiting, error and workload. The proposing department records it and carries it through
+  the automation decision, registration and assessment, and it is the record on which the city decides what is automated, what an
+  agent supports and what stays with a person.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: proposing-department
+  type: reference(department)
+  card: 1..1
+- name: task
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: automation-mode
+  type: code
+  card: 1..1
+- name: decisions-touched
+  type: text
+  card: 0..*
+- name: data-used
+  type: reference(data-set)
+  card: 0..*
+- name: supplier
+  type: text
+  card: 0..1
+- name: process-map
+  type: reference(process-map)
+  card: 0..1
+- name: expected-effect
+  type: text
+  card: 0..1
+- name: staff-consulted-on
+  type: date
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- assessed
+- decided
+- registered
+- building
+- in-use
+- declined
+- withdrawn
+relations:
+- type: based-on
+  target: process-map
+- type: based-on
+  target: improvement-opportunity
+- type: produces
+  target: algorithmic-impact-assessment
+- type: refers-to
+  target: automated-system-register
+- type: depends-on
+  target: supplier-exit-plan
+- type: governed-by
+  target: procurement-policy

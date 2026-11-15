@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: data-reuse-consent-prompt
+title: Data Reuse Consent Prompt
+medium: artefact
+summary: The question put to a resident before data the city already holds is reused for a service, saying which data, for which purpose
+  and for how long, and how consent is withdrawn.
+exchanges:
+- consent-for-data-asked-only-once
+- privacy-advice-for-lawful-reuse
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

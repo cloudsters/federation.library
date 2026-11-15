@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: automatic-enrolment-notice
+title: Automatic Enrolment Notice
+medium: artefact
+summary: The notice telling a household that, with its consent, it has been enrolled in reduced charges and fares from the entitlements
+  it already holds.
+exchanges:
+- consent-to-share-entitlements-for-reduced-charges
+journey: resident-paying-a-share-of-income-they-can-carry

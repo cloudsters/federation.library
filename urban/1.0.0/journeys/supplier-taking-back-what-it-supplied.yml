@@ -1,0 +1,31 @@
+kind: journey
+slug: supplier-taking-back-what-it-supplied
+title: Supplier Taking Back What It Supplied
+stakeholder: supplier
+summary: A supplier plans for the category's carbon limits and circular requirements, offers its whole-life cost, takes back what
+  it supplied at the end of use and reports what returned to use.
+stages:
+- slug: plan-for-the-limits
+  title: Plan for the Limits
+  goal: The supplier knows the carbon limit of its category and can plan its offer to meet it.
+  step: circular-procurement/embedded-carbon-and-material-account
+  touchpoints:
+  - published-category-carbon-limits
+- slug: offer-whole-life-figures
+  title: Offer Whole-Life Figures
+  goal: The supplier's offer states its cost over the whole life of what it supplies and its embedded carbon.
+  step: circular-procurement/whole-life-cost-comparison
+  touchpoints:
+  - bid-evaluation-meeting
+- slug: take-back-at-end-of-use
+  title: Take Back at End of Use
+  goal: Products and packaging are taken back under the contract and repaired, refurbished or recovered.
+  step: circular-procurement/take-back-and-return-to-use
+  touchpoints:
+  - take-back-collection
+- slug: report-what-returned
+  title: Report What Returned
+  goal: What returned to use and what went to material recovery is in the city's yearly report.
+  step: circular-procurement/circular-purchasing-report
+  touchpoints:
+  - published-circular-purchasing-report

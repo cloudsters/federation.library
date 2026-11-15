@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prompt-payment-for-continued-supply
+title: Prompt Payment for Continued Supply
+between:
+- finance-officer
+- local-business
+offered:
+- Payment of every invoice on the date due.
+returned:
+- Continued supply from local businesses that cannot carry late payment.
+touchpoint: supplier-payment-run

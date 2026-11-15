@@ -1,0 +1,55 @@
+kind: entity
+slug: place-care-agreement
+title: Shared Place Care Agreement
+type: governance
+summary: The written agreement under which residents, groups and the city care for a park, trees, a courtyard or a garden, stating
+  what each side provides, how decisions are taken and when it is reviewed. The department that holds the place and the residents
+  or group sign it, and it is used to divide the care between them and to settle decisions about the place.
+attributes:
+- name: place
+  type: reference(park|land-parcel)
+  card: 1..1
+- name: place-description
+  type: text
+  card: 0..1
+- name: parties
+  type: text
+  card: 1..*
+- name: city-provides
+  type: text
+  card: 1..*
+- name: residents-provide
+  type: text
+  card: 1..*
+- name: decision-procedure
+  type: text
+  card: 1..1
+- name: permitted-activities
+  type: text
+  card: 0..*
+- name: liability-cover
+  type: text
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 1..1
+states:
+- proposed
+- negotiated
+- signed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: park
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: commons-charter

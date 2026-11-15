@@ -1,0 +1,16 @@
+kind: capability
+slug: intellectual-property-management
+title: Intellectual Property Management
+level: L3
+parent: technology-transfer
+summary: Identify, protect and manage inventions, copyrights and other intellectual property.
+binds:
+- source: src-389
+  edition: '2020'
+  jurisdiction: global
+- source: src-612
+  edition: 2001/2002
+  jurisdiction: global
+- source: src-614
+  edition: EPC2000-17ed
+  jurisdiction: global

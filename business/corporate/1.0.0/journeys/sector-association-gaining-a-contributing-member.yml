@@ -1,0 +1,39 @@
+kind: journey
+slug: sector-association-gaining-a-contributing-member
+title: Sector Association Gaining a Contributing Member
+stakeholder: sector-association
+summary: A sector association finds in the organisation a member that assesses issues with it, shares a clear position, sends experts
+  into working groups and standards committees and keeps its commitments.
+stages:
+- slug: map-the-membership
+  title: Map the Membership
+  goal: The association knows the member's interests, its contacts and the working groups it takes part in.
+  step: institutional-partnering/institutional-landscape
+  touchpoints:
+  - association-working-group
+- slug: assess-the-issue-together
+  title: Assess the Issue Together
+  goal: The association receives the member's assessment of how a proposed rule or standard affects it and those it serves.
+  step: institutional-partnering/issue-assessment
+  touchpoints:
+  - association-working-group
+  - public-consultation
+- slug: pool-the-position
+  title: Pool the Position
+  goal: The association receives a position it can combine with those of other members into a shared voice.
+  step: institutional-partnering/position-development
+  touchpoints:
+  - position-paper
+- slug: build-shared-standards
+  title: Build Shared Standards
+  goal: The member's experts contribute knowledge and data to working groups and standards committees rather than taking a free ride.
+  step: institutional-partnering/industry-body-participation
+  touchpoints:
+  - association-working-group
+  - standards-committee
+- slug: review-the-membership
+  title: Review the Membership
+  goal: The association and the member review what the membership delivered to both and what each still owes.
+  step: institutional-partnering/commitment-follow-up
+  touchpoints:
+  - association-working-group

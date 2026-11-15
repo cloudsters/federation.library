@@ -1,0 +1,53 @@
+kind: entity
+slug: blood-donation
+title: Blood Donation
+type: transactional
+summary: One donation of whole blood, plasma or cells by a donor, from eligibility screening through collection and mandatory blood-group
+  and infection testing to the release or discard of the components made from it.
+attributes:
+- name: donor
+  type: reference(donor)
+  card: 1..1
+- name: donation-identifier
+  type: identifier
+  card: 1..1
+- name: donation-kind
+  type: code
+  card: 1..1
+- name: collected-at
+  type: datetime
+  card: 1..1
+- name: volume
+  type: quantity
+  card: 1..1
+- name: test-results
+  type: reference(observation)
+  card: 1..*
+- name: components
+  type: reference(blood-product)
+  card: 0..*
+- name: donor-reaction
+  type: code
+  card: 0..1
+states:
+- screened
+- collected
+- in-testing
+- released
+- discarded
+relations:
+- type: refers-to
+  target: donor
+- type: composed-of
+  target: specimen
+- type: produces
+  target: blood-product
+- type: governed-by
+  target: informed-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-407
+  edition: 6.2.2
+  jurisdiction: global

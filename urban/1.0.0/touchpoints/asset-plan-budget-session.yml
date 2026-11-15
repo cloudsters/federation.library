@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: asset-plan-budget-session
+title: Asset Plan Budget Session
+medium: encounter
+summary: The public session in which the council debates the asset plan with the capital investment plan and the budget and adopts
+  the funding for upkeep.
+exchanges:
+- asset-plan-for-funded-upkeep
+- upkeep-funding-for-future-generations
+journey: city-council-funding-upkeep-on-the-same-footing

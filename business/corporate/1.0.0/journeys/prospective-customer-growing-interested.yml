@@ -1,0 +1,44 @@
+kind: journey
+slug: prospective-customer-growing-interested
+title: Prospective Customer Growing Interested
+stakeholder: prospective-customer
+summary: A prospective customer meets useful content, chooses what to hear, encounters the offer in media, responds to a campaign
+  and asks for a conversation when ready.
+stages:
+- slug: read-useful-content
+  title: Read Useful Content
+  goal: The prospect finds material that teaches something useful and describes the offer honestly.
+  step: engagement-cultivation/content-and-presentation
+  touchpoints:
+  - website
+  - product-catalogue
+- slug: choose-what-to-hear
+  title: Choose What to Hear
+  goal: The prospect's consents and preferences are recorded and honoured.
+  step: engagement-cultivation/audience-building
+  touchpoints:
+  - preference-centre
+  - newsletter
+- slug: meet-the-offer
+  title: Meet the Offer
+  goal: The prospect meets the offer in channels it already uses.
+  step: engagement-cultivation/media-and-social-presence
+  touchpoints:
+  - advertisement
+  - social-media
+  - trade-press
+- slug: respond-to-a-campaign
+  title: Respond to a Campaign
+  goal: The prospect engages at its own pace and the campaign responds to how it engages.
+  step: engagement-cultivation/campaign-and-promotion-execution
+  touchpoints:
+  - newsletter
+  - webinar
+  - trade-fair
+- slug: ask-for-a-conversation
+  title: Ask for a Conversation
+  goal: When ready, the prospect reaches a seller who already knows its interests.
+  step: engagement-cultivation/inquiry-nurture-and-handover
+  touchpoints:
+  - website
+  - sales-meeting

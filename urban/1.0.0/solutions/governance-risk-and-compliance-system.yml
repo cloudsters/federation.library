@@ -1,0 +1,27 @@
+kind: solution
+slug: governance-risk-and-compliance-system
+title: Governance, Risk and Compliance System
+role: system-of-record
+summary: Holds the register of obligations with owners, procedures and controls, the risk register, audit plans and findings to closure,
+  and the compliance reports to council and supervisory authority.
+carries:
+- legal-obligation-tracking
+- internal-control-design
+- compliance-reporting
+- internal-audit
+- resident-inspection-support
+- risk-framework-setting
+- risk-treatment-planning
+- security-policy-setting
+- security-risk-assessment
+- fair-work-clause-drafting
+- fair-work-auditing
+- workplace-hazard-protection
+holds:
+- obligation-register
+- risk-register
+- audit-finding
+- oversight-report
+- security-policy
+- wage-floor-agreement
+- workplace-hazard-register

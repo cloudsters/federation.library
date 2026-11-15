@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: business-case
+title: Business Case
+medium: artefact
+summary: The document that states the clinical, operational and economic case for a new or changed service, centre or initiative,
+  with its costs, benefits, risks and alternatives.
+exchanges:
+- service-case-for-a-mandate-to-build
+- service-line-review
+- centre-mandate
+- initiative-funding
+journey: initiative-sponsor-journey

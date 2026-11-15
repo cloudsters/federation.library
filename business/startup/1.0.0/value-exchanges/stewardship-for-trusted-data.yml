@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stewardship-for-trusted-data
+title: Stewardship for Trusted Data
+between:
+- site-manager
+- information-technology-specialist
+offered:
+- A named owner and steward who answer for a data set's meaning, quality and access.
+returned:
+- Shared definitions, catalogue and quality measures that make the data trusted across the organisation.
+touchpoint: information-strategy

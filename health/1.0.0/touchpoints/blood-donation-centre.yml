@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: blood-donation-centre
+title: Blood Donation Centre
+medium: place
+summary: Where donors are screened, give blood or blood components and rest afterwards, and where they meet the service that turns
+  their gift into treatment.
+exchanges:
+- donation-for-a-safe-supply
+journey: blood-donor-journey

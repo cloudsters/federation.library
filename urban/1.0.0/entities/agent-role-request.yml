@@ -1,0 +1,61 @@
+kind: entity
+slug: agent-role-request
+title: Agent Role Request
+type: transactional
+summary: A department's request for an AI agent in a defined role, with the tasks, the work that stays with staff and the assessment
+  of the request. The department submits it and the personnel function assesses it against the workforce plan, and an approved request
+  goes on to the agent's mandate.
+attributes:
+- name: request-number
+  type: identifier
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: role-description
+  type: text
+  card: 1..1
+- name: tasks
+  type: text
+  card: 1..*
+- name: work-that-stays-with-staff
+  type: text
+  card: 1..*
+- name: staff-affected
+  type: text
+  card: 0..*
+- name: automation-proposal
+  type: reference(automation-proposal)
+  card: 0..1
+- name: position
+  type: reference(position)
+  card: 0..1
+- name: assessment
+  type: document
+  card: 0..1
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+states:
+- submitted
+- under-assessment
+- consulted
+- approved
+- rejected
+- withdrawn
+relations:
+- type: based-on
+  target: automation-proposal
+- type: governed-by
+  target: workforce-plan
+- type: produces
+  target: agent-mandate
+- type: refers-to
+  target: staff-agreement
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

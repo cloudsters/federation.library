@@ -1,0 +1,62 @@
+kind: entity
+slug: community-authorisation
+title: Community Authorisation
+type: transactional
+summary: The decision, taken after the communities most affected have deliberated with the impact assessment in hand, to authorise
+  an automated system for a fixed term, to set conditions on it or to refuse it. The algorithm review council takes and records it
+  with the deliberation it rests on and publishes it, and no system is approved or authorised again without it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: system
+  type: reference(automated-system-register)
+  card: 1..1
+- name: decided-by
+  type: reference(algorithm-review-council)
+  card: 1..1
+- name: assessment
+  type: reference(algorithmic-impact-assessment)
+  card: 1..1
+- name: deliberation
+  type: reference(resident-assembly)
+  card: 0..1
+- name: communities-heard
+  type: text
+  card: 1..*
+- name: authorisation-kind
+  type: code
+  card: 1..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: vote
+  type: text
+  card: 0..1
+- name: authorised-term
+  type: period
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+states:
+- requested
+- deliberating
+- decided
+- published
+- expired
+- revoked
+relations:
+- type: based-on
+  target: algorithmic-impact-assessment
+- type: based-on
+  target: resident-assembly
+- type: refers-to
+  target: automated-system-register
+- type: governed-by
+  target: decision-rights-register
+- type: produces
+  target: automated-system-approval

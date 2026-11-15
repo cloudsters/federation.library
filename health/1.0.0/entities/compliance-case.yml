@@ -1,0 +1,46 @@
+kind: entity
+slug: compliance-case
+title: Compliance Case
+type: transactional
+summary: A suspected breach of law, regulation or internal rule, such as corruption, fraud, a conflict of interest or other
+  misconduct, reported through any channel, investigated with the reporter protected and closed with a finding and measures.
+attributes:
+- name: case-kind
+  type: code
+  card: 1..1
+- name: reporting-channel
+  type: code
+  card: 1..1
+- name: reporter-protected
+  type: boolean
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: obligations-concerned
+  type: reference(compliance-obligation)
+  card: 0..*
+- name: finding
+  type: code
+  card: 0..1
+- name: notified-authority
+  type: reference(organisation)
+  card: 0..1
+states:
+- received
+- under-investigation
+- substantiated
+- unsubstantiated
+- closed
+relations:
+- type: refers-to
+  target: compliance-obligation
+- type: produces
+  target: corrective-action
+binds:
+- source: src-316
+  edition: '2025'
+  jurisdiction: global
+- source: src-386
+  edition: '2021'
+  jurisdiction: global

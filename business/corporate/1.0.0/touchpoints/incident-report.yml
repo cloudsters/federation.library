@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: incident-report
+title: Incident Report
+medium: artefact
+summary: The internal record of a detected or alleged harm, with what happened, whom it affects, the immediate measures taken and
+  the notifications due.
+exchanges:
+- early-warning-for-protection
+- incident-reports-for-safety-action
+- near-miss-reports-for-blame-free-learning
+- prompt-notice-for-proportionate-enforcement
+journey: legal-professional-steering-repair-after-harm

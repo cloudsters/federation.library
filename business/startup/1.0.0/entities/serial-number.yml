@@ -1,0 +1,49 @@
+kind: entity
+slug: serial-number
+title: Serial Number
+type: master
+summary: A unique identity for a physical object — the system's way of knowing each individual item by name, enabling complete traceability
+  from birth through every hand that touches it to its final resting place.
+attributes:
+- name: serial-code
+  type: identifier
+  card: 1..1
+- name: item
+  type: reference(item)
+  card: 1..1
+- name: status
+  type: code
+  card: 1..1
+- name: ownership-history
+  type: text
+  card: 0..*
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: batch-lot
+  type: reference(batch-lot)
+  card: 0..1
+states:
+- created
+- in-stock
+- delivered
+- in-service
+- warrantied
+- recalled
+- retired
+relations:
+- type: refers-to
+  target: item
+- type: refers-to
+  target: warranty-claim
+- type: refers-to
+  target: delivery-note
+- type: refers-to
+  target: batch-lot
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

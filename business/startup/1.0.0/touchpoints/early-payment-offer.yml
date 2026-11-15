@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: early-payment-offer
+title: Early Payment Offer
+medium: artefact
+summary: The offer to a supplier to be paid an approved invoice ahead of its due date, on stated terms, where cash timing matters
+  most to the supplier.
+exchanges:
+- early-payment-for-an-agreed-discount
+journey: supplier-waiting-to-be-paid

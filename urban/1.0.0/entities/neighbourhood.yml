@@ -1,0 +1,57 @@
+kind: entity
+slug: neighbourhood
+title: Neighbourhood
+type: master
+summary: A recognisable part of the city with its own identity, community and bodies, including informal settlements that govern themselves.
+  The municipality keeps the record together with the neighbourhood's recognised bodies, and uses it to place decision rights, hazards,
+  histories and budgets.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: other-names
+  type: text
+  card: 0..*
+- name: boundary
+  type: document
+  card: 1..1
+- name: settlement-status
+  type: code
+  card: 1..1
+- name: resident-count
+  type: integer
+  card: 0..1
+- name: recognised-bodies
+  type: text
+  card: 0..*
+- name: recognised-on
+  type: date
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: histories
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: enumerations
+  type: reference(community-enumeration)
+  card: 0..*
+states:
+- identified
+- mapped
+- recognised
+- reorganised
+- merged
+relations:
+- type: part-of
+  target: city
+- type: governed-by
+  target: participation-charter
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: community-enumeration
+binds:
+- source: src-173
+  edition: '2019'
+  jurisdiction: global

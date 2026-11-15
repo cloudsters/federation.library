@@ -1,0 +1,19 @@
+kind: body
+slug: data-protection-office
+title: Data Protection Office
+summary: The data protection officer and staff, who keep the record of processing, assess privacy impact with those concerned, check
+  the data clauses of contracts, support neighbourhood data trusts, answer residents' requests on their data and report breaches to
+  the authority, advising without instruction.
+holds:
+- data-protection-and-sovereignty
+- processing-registration
+- privacy-impact-assessment
+- consent-recording
+- personal-data-request-handling
+- data-retention-control
+- data-breach-response
+- data-trust-formation
+- data-sharing-agreement-drafting
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: story-reuse-request-review
+title: Story Reuse Request Review
+medium: encounter
+summary: The meeting of the community story council that reviews a request by the city, researchers, funders or developers to reuse
+  stories about the community, and answers it on the community's terms.
+exchanges:
+- reuse-request-for-community-terms
+journey: older-resident-keeping-a-neighbourhood-story

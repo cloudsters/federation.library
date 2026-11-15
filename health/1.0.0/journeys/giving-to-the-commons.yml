@@ -1,0 +1,33 @@
+kind: journey
+slug: giving-to-the-commons
+title: Giving to the Commons
+stakeholder: philanthropic-donor
+summary: The donor's path from first interest to seeing what the gift achieved.
+stages:
+- slug: discover-a-cause
+  title: Discover a Cause
+  goal: The donor finds a project that matters to them, explained honestly with its cost and benefit.
+  step: philanthropy/donor-cultivation
+  touchpoints:
+  - public-website
+  - donor-conversation
+- slug: agree-the-gift
+  title: Agree the Gift
+  goal: Purpose and conditions of the gift are agreed in writing, in terms the donor understands.
+  step: philanthropy/gift-acceptance
+  touchpoints:
+  - gift-agreement
+  - donor-conversation
+- slug: receive-acknowledgement
+  title: Receive Acknowledgement
+  goal: The gift is confirmed promptly with a receipt and a personal thank-you.
+  step: philanthropy/gift-receipt-and-acknowledgement
+  touchpoints:
+  - donation-receipt
+- slug: see-the-impact
+  title: See the Impact
+  goal: The donor learns how the gift was used and what it changed, and is recognised as agreed.
+  step: philanthropy/donor-reporting-and-recognition
+  touchpoints:
+  - donor-impact-report
+  - annual-report

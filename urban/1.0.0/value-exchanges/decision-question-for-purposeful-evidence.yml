@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: decision-question-for-purposeful-evidence
+title: Decision Question for Purposeful Evidence
+between:
+- city-council
+- city-administration
+offered:
+- A question the council needs answered for a decision.
+returned:
+- Evidence gathered for that purpose, with its limits stated.
+touchpoint: evidence-request-form

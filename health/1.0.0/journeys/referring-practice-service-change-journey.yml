@@ -1,0 +1,21 @@
+kind: journey
+slug: referring-practice-service-change-journey
+title: Referring Practice Service Change Journey
+stakeholder: referring-practice
+summary: A referring practice states what its patients need from the commons and learns in good time which services are new, moved
+  or discontinued.
+stages:
+- slug: state-referral-needs
+  title: State Referral Needs
+  goal: Tell the commons which services patients need and where referral fails today.
+  step: service-portfolio-planning/demand-and-mandate-projection
+  touchpoints:
+  - referrer-forum
+- slug: learn-what-changes
+  title: Learn What Changes
+  goal: Know which services are new, moved or discontinued and where to refer now.
+  step: service-portfolio-planning/portfolio-handover
+  touchpoints:
+  - referrer-forum
+  - referrer-portal
+  - public-website

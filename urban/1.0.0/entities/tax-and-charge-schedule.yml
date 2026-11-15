@@ -1,0 +1,68 @@
+kind: entity
+slug: tax-and-charge-schedule
+title: Tax and Charge Schedule
+type: governance
+summary: The adopted rates of the city's local taxes, fees and charges for a period, with the reduced rates for owner-occupied homes
+  and community-held land and the higher rates for vacant and speculative holdings. The finance department proposes it and the council
+  adopts it, and every assessment and bill of the period is calculated from it.
+attributes:
+- name: schedule-period
+  type: period
+  card: 1..1
+- name: revenue-kinds
+  type: code
+  card: 1..*
+- name: rates
+  type: document
+  card: 1..1
+- name: holding-categories
+  type: code
+  card: 1..*
+- name: reduced-rates
+  type: text
+  card: 0..*
+- name: higher-rates
+  type: text
+  card: 0..*
+- name: essential-charge-cap
+  type: decimal
+  card: 0..1
+- name: revenue-purposes
+  type: text
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: equity-assessment
+  type: reference(equity-impact-assessment)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- drafted
+- assessed
+- proposed
+- adopted
+- published
+- in-force
+- amended
+- superseded
+relations:
+- type: based-on
+  target: equity-impact-assessment
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: bylaw
+- type: refers-to
+  target: municipal-budget
+- type: produces
+  target: public-record
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

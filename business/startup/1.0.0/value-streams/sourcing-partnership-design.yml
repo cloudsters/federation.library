@@ -1,0 +1,145 @@
+kind: value-stream
+slug: sourcing-partnership-design
+title: Sourcing & Partnership Design
+family: source-to-alliance
+summary: 'Deciding what to buy and from whom: setting the sourcing and category strategy, qualifying and choosing suppliers and partners,
+  agreeing fair terms and framework agreements, ordering within them, and developing the relationships over time.'
+trigger: The category planning cycle opens, a new need or supplier is proposed, or a supplier underperforms.
+outcome: Each category has a strategy, and its suppliers are selected, contracted and developed against agreed performance and conduct.
+stakeholders:
+- procurement-specialist
+- supplier
+- direct-material-supplier
+- procurement-agent
+- quality-manager
+- legal-risk-and-compliance-professional
+steps:
+- slug: sourcing-strategy
+  title: Sourcing Strategy
+  summary: Make-or-buy and outsourcing choices, the sourcing model, the conduct expected along the supply chain and joint purchasing
+    with other organisations are decided, balancing cost, risk and resilience.
+  capabilities:
+  - supply-chain-strategy
+  - ethical-sourcing-design
+  - purchasing-cooperation
+  entities:
+  - strategy
+  - policy
+  - supplier-organisation
+  serves:
+  - supplier-code-of-conduct
+- slug: category-planning-and-market-analysis
+  title: Category Planning and Market Analysis
+  summary: For each category, spend is analysed by supplier and unit, supply markets and supplier health are watched, and a category
+    plan sets targets and the sourcing approach.
+  capabilities:
+  - category-stewardship
+  - spend-analysis
+  - procurement-intelligence
+  entities:
+  - category-plan
+  - market-insight
+  - supplier-organisation
+  - report
+  serves:
+  - trade-fair
+- slug: supplier-qualification
+  title: Supplier Qualification
+  summary: Candidate suppliers are qualified on capability, quality, financial health and conduct, including the working conditions
+    of their workers, quality requirements are agreed,
+    and approved suppliers are set up with their master data.
+  capabilities:
+  - supplier-onboarding-and-qualification
+  - supplier-quality-management
+  - ethical-sourcing-design
+  - human-rights-due-diligence
+  entities:
+  - supplier-organisation
+  - contact
+  - audit
+  - accreditation
+  serves:
+  - quality-agreement
+  - supplier-audit
+  - supplier-qualification-questionnaire
+- slug: tender-selection-and-contract
+  title: Tender, Selection and Contract
+  summary: Quotations are requested, bids compared on total and landed cost, quality and fit, terms negotiated fairly, and a contract
+    or framework agreement is concluded.
+  capabilities:
+  - supplier-partnership-formation
+  - landed-cost-calculation
+  - blanket-order-management
+  - services-procurement
+  entities:
+  - request-for-quotation
+  - bid
+  - contract
+  - blanket-order
+  - payment-term
+  serves:
+  - contract-negotiation
+  - framework-agreement
+  - public-tender
+  - quotation
+  - request-for-quotation
+- slug: ordering-and-call-off
+  title: Ordering and Call-Off
+  summary: Approved requisitions become purchase orders or call-offs against framework agreements, services are ordered against defined
+    deliverables, and confirmations are followed up.
+  capabilities:
+  - procurement-as-relationship
+  - blanket-order-management
+  - services-procurement
+  entities:
+  - material-request
+  - purchase-order
+  - blanket-order
+  - purchase-receipt
+  serves:
+  - delivery-call-off
+  - first-article-approval
+  - purchase-order
+  - supplier-portal
+- slug: supplier-performance-and-risk-review
+  title: Supplier Performance and Risk Review
+  summary: Supplier performance on quality, delivery, price and conduct, including the fair treatment of their workers, is reviewed
+    with each supplier, quality issues are corrected
+    at the source, and supply risks are watched and mitigated.
+  capabilities:
+  - supplier-performance-evaluation
+  - supplier-quality-management
+  - supply-disruption-management
+  - human-rights-due-diligence
+  entities:
+  - relationship-review
+  - non-conformance
+  - supply-shortage
+  - kpi
+  serves:
+  - supplier-portal
+  - supplier-review
+  - supplier-scorecard
+- slug: supplier-development
+  title: Supplier Development
+  summary: Strategic suppliers are developed through joint improvement, shared intelligence and co-investment, so that the supply
+    network grows more capable and resilient.
+  capabilities:
+  - supplier-development-as-investment
+  - supplier-ecosystem-cultivation
+  entities:
+  - supplier-organisation
+  - agreement
+  - plan
+  serves:
+  - joint-improvement-project
+binds:
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global
+- source: src-098
+  edition: 2017-a1-2024
+  jurisdiction: global
+- source: src-102
+  edition: '2023'
+  jurisdiction: global

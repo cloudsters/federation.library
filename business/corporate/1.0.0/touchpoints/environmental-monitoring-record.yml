@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: environmental-monitoring-record
+title: Environmental Monitoring Record
+medium: artefact
+summary: The measured record of a site's emissions, waste water, waste and other environmental indicators, kept against permit limits
+  and open to the authorities.
+exchanges:
+- monitoring-evidence-for-permitted-operation
+- restraint-for-living-systems
+journey: authority-overseeing-a-permitted-site

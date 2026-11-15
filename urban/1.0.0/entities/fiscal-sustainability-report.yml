@@ -1,0 +1,65 @@
+kind: entity
+slug: fiscal-sustainability-report
+title: Fiscal Sustainability Report
+type: intelligence
+summary: The assessment of whether the city's income covers its spending, its debt and the upkeep of its assets over a generation,
+  and of the burdens passed to future residents. The finance department issues it at regular intervals to the council and the supervisory
+  authority, and it is the basis for the next medium-term financial plan and borrowing strategy.
+attributes:
+- name: assessment-horizon
+  type: period
+  card: 1..1
+- name: income-projection
+  type: document
+  card: 1..1
+- name: spending-projection
+  type: document
+  card: 1..1
+- name: debt-projection
+  type: document
+  card: 1..1
+- name: upkeep-backlog
+  type: amount
+  card: 0..1
+- name: ecological-debt
+  type: reference(ecological-cost-ledger)
+  card: 0..1
+- name: burdens-on-future-residents
+  type: text
+  card: 0..*
+- name: addressed-to
+  type: text
+  card: 1..*
+- name: issued-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scheduled
+- drafted
+- issued
+- published
+- discussed
+relations:
+- type: based-on
+  target: medium-term-financial-plan
+- type: based-on
+  target: annual-accounts
+- type: based-on
+  target: ecological-cost-ledger
+- type: refers-to
+  target: public-asset-register
+- type: produces
+  target: public-record
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

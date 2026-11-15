@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: documented-controls-for-audit-reliance
+title: Documented Controls for Audit Reliance
+between:
+- finance-professional
+- external-auditor
+offered:
+- Documented, operated and tested controls with their evidence.
+returned:
+- Reliance on those controls in the audit and observations that improve them.
+touchpoint: audit-fieldwork

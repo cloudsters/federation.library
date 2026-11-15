@@ -1,0 +1,26 @@
+kind: journey
+slug: local-authority-permitting-a-build
+title: Local Authority Permitting a Build
+stakeholder: local-authority
+summary: A local authority receives a complete application for a new asset or building, inspects the works and approves the asset
+  for use.
+stages:
+- slug: receive-the-application
+  title: Receive the Application
+  goal: The application states use, design, impacts and conditions in full.
+  step: asset-creation-design/asset-requirements-and-approval
+  touchpoints:
+  - permit-application
+- slug: inspect-the-works
+  title: Inspect the Works
+  goal: Inspectors have access to the site and the construction records.
+  step: asset-creation-design/construction-and-build
+  touchpoints:
+  - official-inspection
+  - construction-site
+- slug: approve-for-use
+  title: Approve for Use
+  goal: The completed asset is inspected and released for use.
+  step: asset-creation-design/commissioning-and-acceptance
+  touchpoints:
+  - official-inspection

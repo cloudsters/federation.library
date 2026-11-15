@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: monthly-contract-performance-report
+title: Monthly Contract Performance Report
+medium: artefact
+summary: The monthly report of a contract's delivery, quality, service levels and the jobs, wages and local hires the supplier committed
+  to, open to resident inspectors.
+exchanges:
+- delivery-reports-for-verified-commitments
+journey: contract-manager-running-a-contract

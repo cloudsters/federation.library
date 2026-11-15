@@ -1,0 +1,13 @@
+kind: capability
+slug: facility-operations-management
+title: Facility Operations Management
+level: L3
+parent: facility-operations
+summary: Manage the day-to-day operation of buildings and site services.
+binds:
+- source: src-324
+  edition: '2011'
+  jurisdiction: global
+- source: src-339
+  edition: '2018'
+  jurisdiction: global

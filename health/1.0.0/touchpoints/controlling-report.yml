@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: controlling-report
+title: Controlling Report
+medium: artefact
+summary: The monthly report to each unit of its volumes, revenue, costs and contribution against budget, with the year-end forecast
+  and the explanations of deviations.
+exchanges:
+- unit-commitment-for-budget
+- reliable-figures-for-explained-results
+journey: steering-a-department-budget

@@ -1,0 +1,147 @@
+kind: value-stream
+slug: infection-prevention-and-control
+title: Infection Prevention and Control
+family: collaboration-to-automation
+summary: 'Preventing healthcare-associated infection and antimicrobial resistance: surveillance, hygiene standards, hand hygiene,
+  isolation, outbreak management and antimicrobial stewardship.'
+trigger: Surveillance detects a resistant pathogen or a cluster, a hygiene audit falls due, or a hygiene standard changes.
+outcome: Transmission is prevented or the outbreak is contained, and infection and resistance rates are reported and acted on.
+stakeholders:
+- infection-prevention-specialist
+- registered-nurse
+- specialist-physician
+- diagnostic-physician
+- clinical-pharmacist
+- support-services-staff
+- elective-inpatient
+- critically-ill-patient
+- relative
+- local-authority
+steps:
+- slug: hygiene-standards
+  title: Hygiene Standards
+  summary: Infection prevention sets the hygiene plan and the standards for care procedures, device use, reprocessing, cleaning and
+    water systems, adapts them to new requirements and trains link staff in every unit.
+  capabilities:
+  - hygiene-management
+  - environmental-hygiene
+  - water-safety
+  - policy-lifecycle-management
+  - mandatory-training-management
+  entities:
+  - policy
+  - compliance-obligation
+  serves:
+  - ward
+  - infection-control-committee
+- slug: screening-and-isolation
+  title: Screening and Isolation
+  summary: Patients at risk are screened for resistant organisms on admission, carriers are flagged in the record and cared for under
+    isolation precautions, and the flag follows them on transfer and readmission.
+  capabilities:
+  - isolation-and-screening-management
+  - specimen-collection-and-pre-analytics
+  - microbiology-diagnostics
+  - bed-coordination-and-placement
+  entities:
+  - specimen
+  - diagnostic-report
+  - clinical-alert
+  - bed-assignment
+  serves:
+  - admission-desk
+  - isolation-room
+- slug: surveillance
+  title: Surveillance
+  summary: Healthcare-associated infections, resistant organisms and antimicrobial use are monitored continuously by defined criteria,
+    so that rates, trends and clusters are seen early.
+  capabilities:
+  - infection-surveillance
+  - antimicrobial-resistance-monitoring
+  - microbiology-diagnostics
+  - clinical-data-warehouse
+  entities:
+  - healthcare-associated-infection
+  - diagnostic-report
+  - measure-report
+  serves:
+  - laboratory-counter
+  - ward-round
+- slug: practice-audit
+  title: Practice Audit
+  summary: Hand hygiene, device care bundles, cleaning and reprocessing are audited by observation and consumption data, and the results
+    are fed back to the units together with their peers' figures.
+  capabilities:
+  - hand-hygiene-programmes
+  - environmental-hygiene
+  - cleaning-services
+  - clinical-audit
+  - hygiene-management
+  entities:
+  - audit
+  - audit-finding
+  - measure-report
+  serves:
+  - ward
+  - hygiene-round
+- slug: antimicrobial-stewardship
+  title: Antimicrobial Stewardship
+  summary: A stewardship team of infection specialists, microbiologists and pharmacists reviews antimicrobial prescriptions, advises
+    on choice, dose and duration, and keeps local guidance aligned with resistance patterns.
+  capabilities:
+  - antimicrobial-stewardship
+  - clinical-pharmacist-review
+  - antimicrobial-resistance-monitoring
+  - guideline-adoption
+  entities:
+  - medication-order
+  - clinical-guideline
+  - formulary
+  - measure-report
+  serves:
+  - ward-round
+  - antimicrobial-stewardship-round
+- slug: outbreak-response
+  title: Outbreak Response
+  summary: A suspected cluster triggers an outbreak team that confirms it, traces contacts, intensifies screening and isolation, notifies
+    the public-health authority and declares the end when transmission has stopped.
+  capabilities:
+  - outbreak-management
+  - isolation-and-screening-management
+  - emergency-and-disaster-preparedness
+  - regulatory-reporting
+  - crisis-communication
+  entities:
+  - outbreak
+  - healthcare-associated-infection
+  - regulatory-notification
+  - emergency-preparedness-plan
+  serves:
+  - isolation-room
+  - regulatory-reporting-channel
+  - ward
+  - outbreak-team-meeting
+- slug: reporting-and-improvement
+  title: Reporting and Improvement
+  summary: Infection and resistance rates are reported to the units, the infection control committee, the board and the authorities,
+    and units with high rates agree targeted improvement actions.
+  capabilities:
+  - infection-surveillance
+  - mandatory-quality-reporting
+  - business-intelligence-and-reporting
+  - process-improvement
+  entities:
+  - measure-report
+  - dashboard
+  - corrective-action
+  - improvement-initiative
+  serves:
+  - public-quality-report
+  - infection-control-committee
+binds:
+- source: src-470
+  edition: '2025'
+  jurisdiction: global
+- source: src-509
+  edition: '2009'
+  jurisdiction: global

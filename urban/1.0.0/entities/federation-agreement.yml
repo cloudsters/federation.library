@@ -1,0 +1,65 @@
+kind: entity
+slug: federation-agreement
+title: Federation Agreement
+type: governance
+summary: The agreement among neighbourhood, district and city platforms, and those of neighbouring municipalities, on what each holds
+  and decides, which decisions pass to the next level and how they exchange data. The bodies that hold the platforms agree it and
+  their councils approve it, and it is reviewed in the open so that no level is forced into a single system.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: platforms
+  type: reference(application)
+  card: 1..*
+- name: levels
+  type: code
+  card: 1..*
+- name: responsibilities-by-level
+  type: document
+  card: 1..1
+- name: decisions-passed-on
+  type: text
+  card: 0..*
+- name: override-procedure
+  type: text
+  card: 0..1
+- name: exchange-protocols
+  type: reference(interface-specification)
+  card: 0..*
+- name: data-models
+  type: reference(shared-data-model)
+  card: 0..*
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..*
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiated
+- approved
+- in-force
+- under-review
+- amended
+- terminated
+relations:
+- type: governed-by
+  target: decision-rights-register
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: cross-boundary-agreement
+- type: refers-to
+  target: interface-specification
+- type: refers-to
+  target: shared-data-model
+- type: refers-to
+  target: neighbourhood

@@ -1,0 +1,52 @@
+kind: entity
+slug: business-support-agreement
+title: Business Support Agreement
+type: governance
+summary: The agreement under which an enterprise receives reduced rent, grants or services, stating how long the support lasts, what
+  the enterprise aims to reach and how support tapers. The enterprise and the business support service sign it, and it is used to
+  build an enterprise able to stand on its own rather than a lasting dependency.
+attributes:
+- name: enterprise
+  type: text
+  card: 1..1
+- name: support-case
+  type: reference(business-support-case)
+  card: 1..1
+- name: support-kinds
+  type: code
+  card: 1..*
+- name: support-value
+  type: amount
+  card: 0..1
+- name: workspace
+  type: reference(enterprise-workspace)
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+- name: aims
+  type: text
+  card: 1..*
+- name: taper-schedule
+  type: text
+  card: 1..1
+- name: reporting
+  type: text
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- signed
+- in-force
+- tapering
+- ended
+- terminated
+relations:
+- type: refers-to
+  target: business-support-case
+- type: refers-to
+  target: enterprise-workspace
+- type: governed-by
+  target: tax-and-charge-schedule

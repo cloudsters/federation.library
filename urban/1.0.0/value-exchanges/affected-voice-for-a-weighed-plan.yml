@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: affected-voice-for-a-weighed-plan
+title: Affected Voice for a Weighed Plan
+between:
+- affected-community
+- city-planner
+offered:
+- Their account of what a plan would do to their health.
+returned:
+- An assessment published with the draft and changes to the plan where it would widen the gap.
+touchpoint: health-impact-hearing

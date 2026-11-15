@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: acuity-for-safe-staffing
+title: Acuity for Safe Staffing
+between:
+- registered-nurse
+- executive
+offered:
+- Daily classification of patient acuity and transparent reporting of every staffing shortfall.
+returned:
+- Staffing that matches acuity, redeployment when shortfalls arise, and protection of the required staffing levels.
+touchpoint: staffing-huddle

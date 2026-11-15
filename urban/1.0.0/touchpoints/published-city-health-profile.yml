@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-city-health-profile
+title: Published City Health Profile
+medium: artefact
+summary: The published profile of residents' health, illness and mental health and of the conditions behind them, by neighbourhood
+  and group, with how the gaps have changed.
+exchanges:
+- judgement-of-the-gap-for-moved-prevention
+- neighbourhood-knowledge-for-a-fuller-profile
+journey: affected-community-weighing-plans-for-its-health

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: assembly-notice
+title: Assembly Notice
+medium: channel
+summary: The simple route by which residents give notice of a gathering or demonstration in public space.
+exchanges:
+- notice-of-assembly-for-a-protected-gathering
+journey: resident-gathering-and-speaking-out-in-a-square

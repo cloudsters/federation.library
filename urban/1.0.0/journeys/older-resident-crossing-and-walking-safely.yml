@@ -1,0 +1,34 @@
+kind: journey
+slug: older-resident-crossing-and-walking-safely
+title: Older Resident Crossing and Walking Safely
+stakeholder: older-resident
+summary: An older resident names the places where walking feels unsafe, crosses at signals that give enough time, finds disabled parking
+  and kerbs kept clear and sees a reported defect repaired in the order the published rules set.
+stages:
+- slug: name-the-unsafe-places
+  title: Name the Unsafe Places
+  goal: The routes the resident walks to shops, care and transit are walked with the city, and where they feel and are unsafe is recorded.
+  step: streets-traffic-and-road-safety/road-danger-assessment
+  touchpoints:
+  - safe-route-walk
+- slug: cross-with-time-to-spare
+  title: Cross with Time to Spare
+  goal: The signals the resident uses give priority to people walking and enough time to cross at a safe speed.
+  step: streets-traffic-and-road-safety/traffic-signal-and-flow-control
+  touchpoints:
+  - pedestrian-crossing-signal
+- slug: find-the-kerb-clear
+  title: Find the Kerb Clear
+  goal: Disabled parking, dropped kerbs and paths are kept clear by rule and enforcement, and the resident can reach the kerb they
+    need.
+  step: streets-traffic-and-road-safety/kerb-and-parking-control
+  touchpoints:
+  - kerb-and-loading-map
+  - parking-enforcement-patrol
+- slug: see-the-defect-repaired
+  title: See the Defect Repaired
+  goal: The broken path or light the resident reported is ranked by published rules and repaired within the set time.
+  step: streets-traffic-and-road-safety/street-inspection-and-repair
+  touchpoints:
+  - street-defect-report
+  - published-repair-ranking

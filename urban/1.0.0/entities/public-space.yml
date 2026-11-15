@@ -1,0 +1,71 @@
+kind: entity
+slug: public-space
+title: Public Space
+type: master
+summary: A square, plaza, open street or other space open to all, with its uses, its places to sit, rest and stay and those who care
+  for it. The department responsible keeps the record with those who hold a care agreement, and it is used to answer requests for
+  use, to plan shade, water, toilets and lighting and to keep the space open to all.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: space-kind
+  type: code
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: boundary
+  type: document
+  card: 1..1
+- name: area
+  type: quantity
+  card: 0..1
+- name: uses
+  type: text
+  card: 0..*
+- name: facilities
+  type: text
+  card: 0..*
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: care-agreements
+  type: reference(place-care-agreement)
+  card: 0..*
+- name: crowding-limits
+  type: text
+  card: 0..*
+- name: quiet-hours
+  type: text
+  card: 0..*
+- name: surveys
+  type: reference(public-life-survey)
+  card: 0..*
+states:
+- planned
+- open
+- under-works
+- restricted
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: land-parcel
+- type: governed-by
+  target: place-care-agreement
+- type: governed-by
+  target: noise-regulation
+- type: refers-to
+  target: public-asset-register
+binds:
+- source: src-266
+  edition: '2018-05-26'
+  jurisdiction: global
+- source: src-267
+  edition: '2013-04-17'
+  jurisdiction: global
+- source: src-268
+  edition: '2020-09-17'
+  jurisdiction: global

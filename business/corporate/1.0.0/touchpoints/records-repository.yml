@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: records-repository
+title: Records Repository
+medium: channel
+summary: The managed store where documents and records are captured, indexed, kept and found, from capture to lawful disposal.
+exchanges:
+- captured-context-for-findable-knowledge
+- retention-rules-for-lawful-disposal
+journey: employee-finding-and-trusting-information

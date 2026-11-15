@@ -1,0 +1,10 @@
+kind: capability
+slug: technology-strategy-and-governance
+title: Technology Strategy & Governance
+level: L3
+parent: digital-strategy-and-governance
+summary: Set the digital strategy and govern technology decisions and investments against the organisation's strategy.
+binds:
+- source: src-397
+  edition: '2024'
+  jurisdiction: global

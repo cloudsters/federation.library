@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: complaint-learning-review
+title: Complaint Learning Review
+medium: encounter
+summary: The session in which the quality review of a service takes up its complaint patterns with its staff and residents, and agrees
+  how their causes are removed.
+exchanges:
+- frontline-knowledge-for-causes-removed
+- lived-barrier-for-a-cause-removed
+journey: disabled-resident-challenging-a-decision-with-help

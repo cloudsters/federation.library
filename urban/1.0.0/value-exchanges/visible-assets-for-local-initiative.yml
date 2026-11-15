@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: visible-assets-for-local-initiative
+title: Visible Assets for Local Initiative
+between:
+- community-development-worker
+- neighbourhood-association
+offered:
+- The published asset map, with who holds power and who is not yet reached.
+returned:
+- Initiatives that build on what is already there.
+touchpoint: neighbourhood-asset-map-view

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: audit-findings-letter
+title: Audit Findings Letter
+medium: artefact
+summary: The auditor's letter to management and the supervisory board listing findings, weaknesses and recommendations, with management's
+  responses.
+exchanges:
+- audited-statements-for-board-approval
+journey: supervisory-board-approving-the-annual-accounts

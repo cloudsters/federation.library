@@ -1,0 +1,10 @@
+kind: capability
+slug: hazardous-waste-management
+title: Waste & Hazardous Materials Management
+level: L3
+parent: environmental-sustainability
+summary: Separate, store and dispose of clinical, hazardous and other waste lawfully and with minimal impact.
+binds:
+- source: src-529
+  edition: '2014'
+  jurisdiction: global

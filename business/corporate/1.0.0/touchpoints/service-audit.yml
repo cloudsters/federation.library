@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-audit
+title: Service Audit
+medium: encounter
+summary: The review of delivered services against their standards, through observation, records and customer evidence, in which gaps
+  are named and corrections agreed.
+exchanges:
+- workable-standards-for-frontline-evidence
+journey: technician-working-to-a-service-standard

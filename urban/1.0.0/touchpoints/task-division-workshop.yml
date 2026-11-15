@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: task-division-workshop
+title: Task Division Workshop
+medium: encounter
+summary: The workshop in which staff, their representatives and the service agree which tasks an agent does, which it prepares for
+  a person and which stay human.
+exchanges:
+- say-over-tasks-for-work-that-stays-human
+- staff-view-for-agreed-agent-limits
+journey: frontline-worker-working-beside-an-ai-agent

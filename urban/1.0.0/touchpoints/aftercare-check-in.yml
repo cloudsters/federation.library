@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: aftercare-check-in
+title: Aftercare Check-In
+medium: encounter
+summary: The regular conversation of a settled enterprise with its named contact at the city about its needs, its hiring and its commitments.
+exchanges:
+- needs-for-a-named-contact
+journey: investor-settling-in-the-city

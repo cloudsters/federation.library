@@ -1,0 +1,62 @@
+kind: entity
+slug: arrears-case
+title: Arrears Case
+type: transactional
+summary: An unpaid amount owed to the city, followed from the first reminder through a payment plan timed to when the debtor earns,
+  a referral to relief, enforcement as a last resort open to appeal, or a write-off on published rules. The revenue office keeps it,
+  and it is closed when the amount is paid, relieved or written off.
+attributes:
+- name: case-number
+  type: identifier
+  card: 1..1
+- name: taxpayer
+  type: reference(taxpayer-account)
+  card: 1..1
+- name: unpaid-assessments
+  type: reference(tax-assessment)
+  card: 1..*
+- name: amount-owed
+  type: amount
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: reminders-sent-on
+  type: date
+  card: 0..*
+- name: payment-plan
+  type: document
+  card: 0..1
+- name: instalment-rhythm
+  type: code
+  card: 0..1
+- name: relief-referral
+  type: reference(tax-relief-decision)
+  card: 0..1
+- name: enforcement-step
+  type: code
+  card: 0..1
+- name: legal-matter
+  type: reference(legal-matter)
+  card: 0..1
+- name: write-off-amount
+  type: amount
+  card: 0..1
+states:
+- opened
+- reminded
+- under-payment-plan
+- referred-to-relief
+- in-enforcement
+- appealed
+- settled
+- written-off
+relations:
+- type: refers-to
+  target: taxpayer-account
+- type: refers-to
+  target: tax-assessment
+- type: refers-to
+  target: tax-relief-decision
+- type: produces
+  target: legal-matter

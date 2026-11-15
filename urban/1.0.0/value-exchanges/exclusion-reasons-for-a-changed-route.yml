@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: exclusion-reasons-for-a-changed-route
+title: Exclusion Reasons for a Changed Route
+between:
+- older-resident
+- city-administration
+offered:
+- The reasons they did not or could not use a route.
+returned:
+- A changed service, help or offline route, and a report back of what changed.
+touchpoint: shut-out-resident-follow-up

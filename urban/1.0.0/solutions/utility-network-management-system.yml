@@ -1,0 +1,16 @@
+kind: solution
+slug: utility-network-management-system
+title: Utility Network Management System
+role: platform
+summary: Holds every connection to the water, sewer, power and heat networks, runs the local grid and heat networks, records faults
+  and interruptions with the order of restoration, and plans the extension of networks into unserved areas.
+carries:
+- network-connection-provision
+- utility-network-maintenance
+- supply-interruption-response
+- energy-network-operation
+- basic-service-extension
+holds:
+- service-connection
+- supply-interruption
+- heat-network

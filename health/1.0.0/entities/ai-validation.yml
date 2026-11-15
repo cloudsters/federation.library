@@ -1,0 +1,55 @@
+kind: entity
+slug: ai-validation
+title: AI Validation
+type: transactional
+summary: The evaluation of an AI system's performance, safety and fairness on the organisation's own data and workflow, before use
+  and at intervals in use, against acceptance criteria and ending in a go or no-go decision.
+attributes:
+- name: ai-system
+  type: reference(ai-system)
+  card: 1..1
+- name: validation-kind
+  type: code
+  card: 1..1
+- name: dataset
+  type: reference(dataset)
+  card: 0..1
+- name: metrics
+  type: text
+  card: 1..*
+- name: acceptance-criteria
+  type: text
+  card: 1..1
+- name: result
+  type: code
+  card: 0..1
+- name: decided-by
+  type: reference(governance-body)
+  card: 0..1
+- name: performed-on
+  type: date
+  card: 1..1
+states:
+- planned
+- in-progress
+- passed
+- failed
+- conditional
+relations:
+- type: refers-to
+  target: ai-system
+- type: refers-to
+  target: dataset
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-506
+  edition: '2024'
+  jurisdiction: global
+- source: src-508
+  edition: '2022'
+  jurisdiction: global

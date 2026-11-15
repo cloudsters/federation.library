@@ -1,0 +1,57 @@
+kind: entity
+slug: noise-regulation
+title: Noise Regulation
+type: governance
+summary: Rules on acceptable sound by place and hour, with the limits agreed for events and night-time life and the places kept quiet.
+  The council adopts them as a rule of the city and the administration measures and enforces them, and permits and neighbourhood agreements
+  set their sound limits under them.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: area-limits
+  type: text
+  card: 1..*
+- name: hours
+  type: text
+  card: 1..*
+- name: event-limits
+  type: text
+  card: 0..*
+- name: night-time-limits
+  type: text
+  card: 0..*
+- name: quiet-places
+  type: reference(public-space|park)
+  card: 0..*
+- name: measurement-method
+  type: text
+  card: 0..1
+- name: exemption-procedure
+  type: text
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- amended
+- retired
+relations:
+- type: part-of
+  target: bylaw
+- type: refers-to
+  target: zoning-plan
+- type: refers-to
+  target: neighbourhood-agreement
+- type: refers-to
+  target: sensor

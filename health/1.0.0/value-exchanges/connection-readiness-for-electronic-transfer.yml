@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: connection-readiness-for-electronic-transfer
+title: Connection Readiness for Electronic Transfer
+between:
+- follow-on-care-provider
+- health-informatics-specialist
+offered:
+- Readiness to connect to secure messaging and to process coded transfer documents, with confirmation of receipt.
+returned:
+- Discharge letters, transfer documents and medication plans that arrive electronically, complete and coded.
+touchpoint: clinical-messaging-service

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: declaration-of-conformity
+title: Declaration of Conformity
+medium: artefact
+summary: The company's signed declaration, with supporting technical documentation, that a product meets the legal and technical requirements
+  of the market in which it is sold.
+exchanges:
+- technical-evidence-for-certification
+- traceable-goods-for-series-acceptance
+- verified-data-for-specification
+journey: specifier-considering-a-new-offering-for-specification

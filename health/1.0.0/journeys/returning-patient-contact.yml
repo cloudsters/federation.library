@@ -1,0 +1,35 @@
+kind: journey
+slug: returning-patient-contact
+title: Returning Patient Contact
+stakeholder: person-with-chronic-condition
+summary: 'The side of a person with a long-term condition who returns to the commons over years: reaching the team between visits,
+  coming back quickly when the condition changes, and being supported in between.'
+stages:
+- slug: getting-in-touch
+  title: Getting in Touch
+  goal: Reach the treating team through a known channel when a question comes up between visits.
+  step: patient-enquiries-and-relationships/enquiry-receipt
+  touchpoints:
+  - patient-portal
+  - patient-enquiry-service
+- slug: coming-back-quickly
+  title: Coming Back Quickly
+  goal: Be seen soon when the condition changes, without starting again from the beginning.
+  step: patient-enquiries-and-relationships/route-into-care
+  touchpoints:
+  - appointment-service
+  - patient-portal
+- slug: staying-in-touch
+  title: Staying in Touch
+  goal: Keep a named contact, planned check-ups and support to manage the condition between visits.
+  step: patient-enquiries-and-relationships/continuing-contact
+  touchpoints:
+  - outpatient-clinic
+  - patient-portal
+  - patient-information-event
+- slug: being-heard
+  title: Being Heard
+  goal: Tell the commons what helped and what did not, and see the service improve.
+  step: patient-enquiries-and-relationships/enquiry-experience-review
+  touchpoints:
+  - feedback-and-complaints-channel

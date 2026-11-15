@@ -1,0 +1,42 @@
+kind: journey
+slug: employee-finding-a-voice-at-work
+title: Employee Finding a Voice at Work
+stakeholder: employee
+summary: An employee hears what is coming in time, speaks openly with leadership and colleagues, answers the pulse survey honestly, brings
+  a tension into the open and sees what changed because people spoke.
+stages:
+- slug: hear-what-is-coming
+  title: Hear What Is Coming
+  goal: The employee learns of a change early and through a channel that invites questions rather than merely announcing.
+  step: community-voice-architecture/message-and-audience
+  touchpoints:
+  - intranet
+  - team-meeting
+- slug: speak-and-be-heard
+  title: Speak and Be Heard
+  goal: The employee can put a question to leadership or colleagues, in person or online, and receives a straight answer.
+  step: community-voice-architecture/dialogue-and-exchange
+  touchpoints:
+  - staff-assembly
+  - employee-forum
+  - team-meeting
+- slug: answer-the-pulse
+  title: Answer the Pulse Survey
+  goal: The employee answers a short survey honestly, trusting that answers stay anonymous and will be read.
+  step: community-voice-architecture/engagement-pulse
+  touchpoints:
+  - pulse-survey
+- slug: bring-a-tension-into-the-open
+  title: Bring a Tension into the Open
+  goal: A disagreement is raised early and worked through in a facilitated conversation, without the employee paying for having raised
+    it.
+  step: community-voice-architecture/tension-resolution
+  touchpoints:
+  - facilitated-conversation
+- slug: see-what-changed
+  title: See What Changed
+  goal: The employee reads what was heard and what changes as a result, and sees contributions to the dialogue acknowledged.
+  step: community-voice-architecture/response-and-recognition
+  touchpoints:
+  - listening-report
+  - intranet

@@ -1,0 +1,10 @@
+kind: capability
+slug: solution-architecture
+title: Solution Architecture
+level: L3
+parent: enterprise-architecture
+summary: Design the architecture of individual solutions within the enterprise architecture.
+binds:
+- source: src-398
+  edition: '2022'
+  jurisdiction: global

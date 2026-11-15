@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: instant-answers-with-human-handover
+title: Instant Answers with Human Handover
+between:
+- customer-service-agent
+- consumer
+offered:
+- Instant answers to routine questions and order status at any hour, and a clear handover to a person when needed.
+returned:
+- Questions that show where help content falls short, and consent to use the data needed to answer.
+touchpoint: help-centre

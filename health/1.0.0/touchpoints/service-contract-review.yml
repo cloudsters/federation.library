@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-contract-review
+title: Service Contract Review
+medium: encounter
+summary: The periodic meeting in which clinical engineering and a service provider review response times, uptime, open defects, costs
+  and coming obsolescence under their service contract.
+exchanges:
+- service-contract-for-assured-uptime
+journey: service-provider-maintaining-devices

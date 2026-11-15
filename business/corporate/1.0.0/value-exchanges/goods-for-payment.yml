@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: goods-for-payment
+title: Goods for Payment
+between:
+- logistics-coordinator
+- business-customer
+offered:
+- The goods ordered, delivered complete, undamaged and on the confirmed date, with a delivery note and a correct invoice.
+returned:
+- Receipt confirmed against the delivery note, payment on the agreed terms and the next order.
+touchpoint: delivery-note

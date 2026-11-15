@@ -1,0 +1,59 @@
+kind: entity
+slug: cooperative-platform
+title: Cooperative Platform
+type: master
+summary: A digital platform for delivery, care, mobility or task matching that its workers and users own and govern, with its members
+  and its code. The cooperative that owns it keeps the record and the city records the code, finance and licence it gives, and it
+  is used to give such platforms fair access to public demand.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: service-kind
+  type: code
+  card: 1..*
+- name: owner
+  type: reference(cooperative)
+  card: 1..1
+- name: worker-members
+  type: integer
+  card: 0..1
+- name: user-members
+  type: integer
+  card: 0..1
+- name: governance-rules
+  type: text
+  card: 1..1
+- name: code
+  type: reference(source-code-repository)
+  card: 0..1
+- name: code-licence
+  type: code
+  card: 0..1
+- name: licence
+  type: reference(platform-licence)
+  card: 0..1
+- name: finance
+  type: reference(enterprise-loan)
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: launched-on
+  type: date
+  card: 0..1
+states:
+- forming
+- piloting
+- operating
+- suspended
+- closed
+relations:
+- type: part-of
+  target: cooperative
+- type: governed-by
+  target: enterprise-statutes
+- type: based-on
+  target: source-code-repository
+- type: refers-to
+  target: platform-licence

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-information-material
+title: Service Information Material
+medium: artefact
+summary: 'The printed and digital description of a service for patients and referrers: what it offers, for whom, referral criteria,
+  preparation, location and contacts.'
+exchanges:
+- service-information-for-referrers
+- service-information-for-patients
+journey: knowing-what-the-commons-offers

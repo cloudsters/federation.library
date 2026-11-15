@@ -1,0 +1,9 @@
+kind: post
+slug: agent-overseer
+title: Agent Overseer
+summary: 'Keeps a person in charge of each AI agent the city runs.'
+of: algorithm-assurance-office
+responsibility: The named member of staff who oversees an AI agent, reviews or decides at the points its mandate sets, may stop it,
+  records significant decisions taken with it and answers for its work.
+accountable: body:algorithm-assurance-office
+type: role

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-challenge-for-review-by-a-person
+title: Resident Challenge for Review by a Person
+between:
+- resident
+- city-administration
+offered:
+- A challenge to a decision made or prepared by a system, with the resident's own account.
+returned:
+- A review by a person within the deadline, with reasons, and a remedy where the decision was wrong.
+touchpoint: decision-challenge-channel

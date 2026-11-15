@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: bereavement-follow-up
+title: Bereavement Follow-Up
+medium: encounter
+summary: The conversation or letter some weeks after a death in which the team answers the relatives' questions and offers bereavement
+  support.
+exchanges:
+- presence-for-inclusion-and-support
+journey: bereaved-relative-journey

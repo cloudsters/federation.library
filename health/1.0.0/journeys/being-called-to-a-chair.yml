@@ -1,0 +1,38 @@
+kind: journey
+slug: being-called-to-a-chair
+title: Being Called to a Chair
+stakeholder: job-applicant
+summary: A candidate for a professorship with clinical leadership applies, presents, is reviewed and ranked, negotiates, and takes
+  up a joint academic and clinical role.
+stages:
+- slug: learn-of-the-chair
+  title: Learn of the Chair
+  goal: Learn of the chair early and understand its research, teaching and clinical profile.
+  step: academic-appointments/committee-and-call
+  touchpoints:
+  - job-advertisement
+- slug: present-to-the-committee
+  title: Present to the Committee
+  goal: Present research, teaching and clinical vision in a fair hearing.
+  step: academic-appointments/candidate-selection
+  touchpoints:
+  - appointment-hearing
+- slug: receive-the-call
+  title: Receive the Call
+  goal: Receive a formal call within a predictable time.
+  step: academic-appointments/list-approval
+  touchpoints:
+  - letter-of-call
+- slug: negotiate-the-terms
+  title: Negotiate the Terms
+  goal: Agree a contract and a resource package that make the chair's programme possible.
+  step: academic-appointments/appointment-negotiation
+  touchpoints:
+  - appointment-negotiation-meeting
+- slug: take-up-the-chair
+  title: Take Up the Chair
+  goal: Start with privileges, authority and a department ready to be led.
+  step: academic-appointments/appointment-and-start
+  touchpoints:
+  - employment-contract
+  - privilege-statement

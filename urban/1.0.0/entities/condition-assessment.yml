@@ -1,0 +1,59 @@
+kind: entity
+slug: condition-assessment
+title: Condition Assessment
+type: intelligence
+summary: The graded condition and estimated remaining life of an asset, drawn from a survey, residents' reports and sensor readings.
+  Inspectors record it after each survey, and it is used to schedule maintenance, value the backlog and rank renewal.
+attributes:
+- name: asset
+  type: reference(infrastructure-asset)
+  card: 1..1
+- name: survey-kind
+  type: code
+  card: 1..1
+- name: surveyed-on
+  type: date
+  card: 1..1
+- name: surveyed-by
+  type: text
+  card: 1..1
+- name: condition-grade
+  type: code
+  card: 1..1
+- name: remaining-life
+  type: quantity
+  card: 0..1
+- name: defects-found
+  type: text
+  card: 0..*
+- name: resident-reports
+  type: reference(fault-report)
+  card: 0..*
+- name: sensor-readings
+  type: reference(sensor)
+  card: 0..*
+- name: method
+  type: text
+  card: 0..1
+- name: next-survey-on
+  type: date
+  card: 0..1
+states:
+- scheduled
+- surveyed
+- graded
+- reviewed
+- superseded
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: based-on
+  target: fault-report
+- type: based-on
+  target: sensor
+- type: refers-to
+  target: digital-twin
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: commissioning-acceptance-walk
+title: Commissioning Acceptance Walk
+medium: encounter
+summary: The walk in which the finished asset is tested against its brief by engineers, operators and crews and its open defects are
+  listed.
+exchanges:
+- maintainer-requirements-in-the-brief
+- tested-work-for-a-handover-crews-accept
+journey: public-works-engineer-delivering-a-public-work

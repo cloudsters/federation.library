@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: failure-analysis-review
+title: Failure Analysis Review
+medium: encounter
+summary: The review with a supplier or the design team in which a failure from the field is traced to its root cause, the cost is
+  shared and the correction agreed.
+exchanges:
+- field-failure-evidence-for-shared-recovery
+- service-findings-for-better-design
+journey: field-service-technician-caring-for-installed-products

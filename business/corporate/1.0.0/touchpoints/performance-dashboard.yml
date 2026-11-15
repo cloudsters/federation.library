@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: performance-dashboard
+title: Performance Dashboard
+medium: channel
+summary: The shared display of validated indicators by unit and period, with trends, targets and peer position, used in reviews and
+  by the owner of each indicator.
+exchanges:
+- ownership-for-a-meaningful-indicator
+- full-picture-for-informed-oversight
+journey: unit-head-owning-an-indicator

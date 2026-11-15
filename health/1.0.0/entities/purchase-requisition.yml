@@ -1,0 +1,47 @@
+kind: entity
+slug: purchase-requisition
+title: Purchase Requisition
+type: transactional
+summary: An internal request by a unit for goods or services it needs, approved against budget and routed to stock replenishment,
+  a framework contract or a purchase.
+attributes:
+- name: requesting-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: items
+  type: reference(inventory-item)
+  card: 0..*
+- name: description
+  type: text
+  card: 0..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: needed-by
+  type: date
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 1..1
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+states:
+- draft
+- submitted
+- approved
+- rejected
+- ordered
+- closed
+relations:
+- type: governed-by
+  target: budget
+- type: produces
+  target: purchase-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

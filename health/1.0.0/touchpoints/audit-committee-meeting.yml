@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: audit-committee-meeting
+title: Audit Committee Meeting
+medium: encounter
+summary: The meeting of the supervisory body's committee that oversees financial reporting, internal control, internal audit,
+  compliance and risk, and hears the auditors without management present.
+exchanges:
+- independent-assurance
+- risk-appetite-mandate
+journey: owner-confirming-the-risk-appetite

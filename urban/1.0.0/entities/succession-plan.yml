@@ -1,0 +1,66 @@
+kind: entity
+slug: succession-plan
+title: Succession Plan
+type: governance
+summary: The record of the key roles in the administration and its civic bodies, the knowledge and relationships each holds, and the
+  successors being prepared with the date by which each is expected to be ready. The personnel function and the civic bodies renew
+  it at the yearly key role review, and it is used to start overlaps, mentoring and handovers in time.
+attributes:
+- name: plan-year
+  type: period
+  card: 1..1
+- name: key-roles
+  type: reference(position)
+  card: 1..*
+- name: civic-body-roles
+  type: text
+  card: 0..*
+- name: knowledge-held
+  type: text
+  card: 0..*
+- name: relationships-held
+  type: text
+  card: 0..*
+- name: successors
+  type: text
+  card: 0..*
+- name: successor-ready-by
+  type: date
+  card: 0..*
+- name: expected-departure-on
+  type: date
+  card: 0..*
+- name: mentoring
+  type: reference(mentoring-relationship)
+  card: 0..*
+- name: learning-paths
+  type: reference(staff-learning-path)
+  card: 0..*
+- name: reviewed-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- reviewed
+- adopted
+- in-force
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: position
+- type: based-on
+  target: workforce-forecast
+- type: produces
+  target: handover-plan
+- type: refers-to
+  target: mentoring-relationship
+- type: refers-to
+  target: staff-learning-path
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

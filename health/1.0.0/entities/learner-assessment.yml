@@ -1,0 +1,48 @@
+kind: entity
+slug: learner-assessment
+title: Learner Assessment
+type: transactional
+summary: An assessment of a learner's performance within a course or rotation, such as a workplace-based observation, a skills station
+  or a progress test, scored against defined competencies and fed back to the learner.
+attributes:
+- name: learner-record
+  type: reference(learner-record)
+  card: 1..1
+- name: assessment-method
+  type: code
+  card: 1..1
+- name: competencies
+  type: reference(competency)
+  card: 0..*
+- name: assessor
+  type: reference(practitioner-role)
+  card: 1..1
+- name: assessed-at
+  type: datetime
+  card: 1..1
+- name: result
+  type: code
+  card: 1..1
+- name: feedback
+  type: text
+  card: 0..1
+states:
+- scheduled
+- completed
+- validated
+- contested
+relations:
+- type: part-of
+  target: learner-record
+- type: governed-by
+  target: curriculum
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-423
+  edition: '2023'
+  jurisdiction: global
+- source: src-424
+  edition: '3.0'
+  jurisdiction: global

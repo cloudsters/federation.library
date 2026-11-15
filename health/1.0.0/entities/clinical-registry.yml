@@ -1,0 +1,45 @@
+kind: entity
+slug: clinical-registry
+title: Clinical Registry
+type: master
+summary: A structured, continuing collection of data on all patients with a defined condition or procedure, run by the organisation
+  or reported to by it, and used for outcome comparison, safety and research.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: operator
+  type: reference(organisation)
+  card: 1..1
+- name: reporting-obligation
+  type: boolean
+  card: 1..1
+- name: data-set-definition
+  type: document
+  card: 1..1
+- name: participating-units
+  type: reference(organisation-unit)
+  card: 0..*
+states:
+- planned
+- active
+- suspended
+- closed
+relations:
+- type: based-on
+  target: authorization-by-law
+- type: produces
+  target: benchmark
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

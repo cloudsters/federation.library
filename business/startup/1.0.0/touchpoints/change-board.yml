@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: change-board
+title: Change Board
+medium: encounter
+summary: The body that assesses changes for risk and impact on running services and approves their release.
+exchanges:
+- guardrails-for-citizen-building
+journey: employee-shaping-own-tools-on-a-shared-platform

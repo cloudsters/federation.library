@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: equipment-performance-report
+title: Equipment Performance Report
+medium: artefact
+summary: The periodic report on failures, downtime, inspection compliance and maintenance cost per device group, used by the units,
+  clinical engineering and investment planning.
+exchanges:
+- service-contract-for-assured-uptime
+journey: service-provider-maintaining-devices

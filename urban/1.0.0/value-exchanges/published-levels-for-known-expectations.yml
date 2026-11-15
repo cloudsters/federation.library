@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-levels-for-known-expectations
+title: Published Levels for Known Expectations
+between:
+- city-administration
+- resident
+offered:
+- The published levels of each service and the help users can expect.
+returned:
+- Residents who know what to expect and hold the service to it.
+touchpoint: published-service-levels

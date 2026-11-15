@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: worker-commitment-check
+title: Worker Commitment Check
+medium: encounter
+summary: A meeting of the contract manager with the supplier's workers and their union, in which the wages, worker voice and local
+  hires the supplier promised are checked against what workers experience.
+exchanges:
+- worker-testimony-for-enforced-commitments
+journey: contract-manager-running-a-contract

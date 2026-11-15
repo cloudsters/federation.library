@@ -1,0 +1,35 @@
+kind: journey
+slug: works-council-shaping-the-workforce-plan
+title: Works Council Shaping the Workforce Plan
+stakeholder: works-council
+summary: The works council is consulted on how gaps are closed, co-designs the policies for remote, contingent and agent work, is
+  heard before approval and receives the figures that show whether the plan holds.
+stages:
+- slug: be-consulted-on-the-mix
+  title: Be Consulted on the Mix
+  goal: The council sees the proposed mix of hiring, development, contingent work and agents, and its effects on the workforce, before
+    decisions are taken.
+  step: workforce-as-ecosystem/workforce-mix-design
+  touchpoints:
+  - works-council-meeting
+  - workforce-plan
+- slug: co-design-the-policies
+  title: Co-Design the Policies
+  goal: The council agrees fair policies for remote and distributed work, cognitive inclusion and contingent engagement.
+  step: workforce-as-ecosystem/workforce-policy-design
+  touchpoints:
+  - works-council-meeting
+  - workplace-policy
+- slug: be-heard-before-approval
+  title: Be Heard Before Approval
+  goal: The council's opinion on the plan is on record before targets and recruiting authority are approved.
+  step: workforce-as-ecosystem/plan-approval
+  touchpoints:
+  - works-council-meeting
+- slug: watch-the-plan-hold
+  title: Watch the Plan Hold
+  goal: The council receives the workforce figures and can call for adjustment where policy is not working.
+  step: workforce-as-ecosystem/strategy-sensing
+  touchpoints:
+  - workforce-dashboard
+  - works-council-meeting

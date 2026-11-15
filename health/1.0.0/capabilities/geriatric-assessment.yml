@@ -1,0 +1,10 @@
+kind: capability
+slug: geriatric-assessment
+title: Geriatric Assessment
+level: L3
+parent: geriatric-and-palliative-care
+summary: Assess older patients' function, cognition and frailty and adapt their treatment accordingly.
+binds:
+- source: src-594
+  edition: v2.0-2020
+  jurisdiction: global

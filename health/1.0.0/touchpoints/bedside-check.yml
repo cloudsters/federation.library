@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: bedside-check
+title: Bedside Identity Check
+medium: encounter
+summary: The check at the bedside, before a specimen is taken or a medicine or blood product is given, that patient and item match,
+  by asking the patient, reading the identification band and scanning.
+exchanges:
+- compatible-unit-for-a-documented-transfusion
+journey: transfusion-recipient-journey

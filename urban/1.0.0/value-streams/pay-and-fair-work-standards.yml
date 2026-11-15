@@ -1,0 +1,124 @@
+kind: value-stream
+slug: pay-and-fair-work-standards
+title: Pay and Fair Work Standards
+family: contributor-to-succession
+summary: Paying fairly all who do the city's work, and setting the standards for the work the city funds or buys. It holds a transparent
+  pay scale and payroll for the municipality's staff, sector wage floors negotiated with workers and employers in care, transport,
+  cleaning and maintenance, fair work clauses in contracts and their audit, the care and commons work that has gone unseen made visible
+  and paid, and protection from heat and other hazards for those who work outdoors and informally.
+trigger: A pay period closes or the pay review opens, a contract for a city service is prepared, or the wages, hazards or unpaid work
+  of a sector come to the council's attention.
+outcome: Every member of staff is paid correctly at the published grade, workers in the services the city funds earn at least the
+  agreed floor and work safely, and work that went unseen is recorded and paid.
+stakeholders:
+- municipal-employee
+- care-worker
+- frontline-worker
+- informal-worker
+- platform-worker
+- trade-union
+- staff-representative
+- local-business
+- finance-officer
+steps:
+- slug: pay-scale-setting
+  title: Pay Scale Setting
+  summary: After negotiation with staff representatives, the council adopts a pay scale with grades tied to local living costs, and
+    publishes how each position is graded and why.
+  capabilities:
+  - pay-scale-design
+  - staff-representative-consultation
+  - pay-equity-review
+  entities:
+  - pay-scale
+  - staff-agreement
+  - position
+  serves:
+  - published-pay-scale
+- slug: payroll-processing
+  title: Payroll Processing
+  summary: Each period the personnel and finance functions collect time, grades and allowances, calculate pay, withhold and remit
+    taxes and contributions, issue payslips and post the payroll to the accounts.
+  capabilities:
+  - payroll-processing
+  - staff-record-keeping
+  - transaction-recording
+  entities:
+  - payroll-run
+  - staff-record
+  - payment
+  - journal-entry
+  serves:
+  - payroll-query-desk
+  - payslip
+- slug: sector-wage-floors
+  title: Sector Wage Floors
+  summary: For care, transport, cleaning, maintenance and the other services the city funds or buys, worker representatives, employers
+    and the city negotiate each year wage floors indexed to living costs, benefits and progression, which bind every contractor through
+    procurement.
+  capabilities:
+  - sector-wage-floor-negotiation
+  - fair-work-clause-drafting
+  entities:
+  - wage-floor-agreement
+  - procurement-policy
+  serves:
+  - sector-wage-negotiation
+  - wage-floor-schedule
+- slug: unseen-work-valuation
+  title: Unseen Work Valuation
+  summary: With those who do it, the city maps the care, maintenance and emotional work, paid and unpaid, that keeps its services
+    and shared places going, and agrees how that work is counted and paid.
+  capabilities:
+  - work-visibility-mapping
+  - commons-work-pay-setting
+  - care-and-isolation-mapping
+  entities:
+  - labour-valuation
+  - care-map
+  serves:
+  - care-work-mapping-circle
+- slug: commons-work-pay
+  title: Commons Work Pay
+  summary: The core roles that keep the city's commons running, such as park caretakers, facilitators, maintenance workers and knowledge
+    keepers, receive a living income floor from the city or the commons fund that does not depend on the popularity of their decisions.
+  capabilities:
+  - commons-work-pay-setting
+  - commons-fund-allocation
+  - pay-scale-design
+  entities:
+  - livelihood-floor-agreement
+  - commons-fund
+  serves:
+  - commons-livelihood-covenant
+- slug: workplace-hazard-protection
+  title: Workplace Hazard Protection
+  summary: Worker collectives and the city keep a shared register of heat and other hazards where staff, contracted and informal workers
+    work, and act on it with shade, water, rest breaks, shifted hours in heat and health checks.
+  capabilities:
+  - workplace-hazard-protection
+  - hazard-and-vulnerability-mapping
+  entities:
+  - workplace-hazard-register
+  serves:
+  - hazard-reporting-line
+  - shade-and-water-point
+- slug: fair-work-audit
+  title: Fair Work Audit
+  summary: Workers and the city audit together whether contractors pay the floor, keep the agreed conditions and report hazards, breaches
+    are remedied or the contract is ended, and the results are published.
+  capabilities:
+  - fair-work-auditing
+  - contract-review
+  - pay-equity-review
+  entities:
+  - wage-floor-agreement
+  - contract
+  - audit-finding
+  serves:
+  - joint-fair-work-audit
+  - published-fair-work-findings
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

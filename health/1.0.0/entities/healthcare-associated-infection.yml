@@ -1,0 +1,54 @@
+kind: entity
+slug: healthcare-associated-infection
+title: Healthcare-Associated Infection
+type: transactional
+summary: An infection a patient acquires in the course of care, such as a surgical site, bloodstream or catheter-associated infection,
+  detected by surveillance and classified by defined criteria for prevention and comparison.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: infection-site
+  type: code
+  card: 1..1
+- name: organisms
+  type: code
+  card: 0..*
+- name: resistance-pattern
+  type: code
+  card: 0..*
+- name: onset
+  type: date
+  card: 1..1
+- name: device-associated
+  type: boolean
+  card: 0..1
+- name: detection-method
+  type: code
+  card: 1..1
+states:
+- suspected
+- confirmed
+- excluded
+relations:
+- type: refers-to
+  target: procedure
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

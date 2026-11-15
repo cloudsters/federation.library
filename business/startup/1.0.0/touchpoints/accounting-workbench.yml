@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: accounting-workbench
+title: Accounting Workbench
+medium: channel
+summary: The accounting application through which finance staff and agents record, match, reconcile, review and close transactions
+  and ledgers.
+exchanges:
+- footprint-data-for-visible-costs
+- prepared-postings-for-reviewed-exceptions
+- applied-payments-for-resolved-exceptions
+journey: receivables-accountant-collecting-what-is-due

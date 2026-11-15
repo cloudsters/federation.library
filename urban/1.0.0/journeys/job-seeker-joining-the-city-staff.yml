@@ -1,0 +1,53 @@
+kind: journey
+slug: job-seeker-joining-the-city-staff
+title: Job Seeker Joining the City Staff
+stakeholder: job-seeker
+summary: A resident finds a vacancy written in plain language, has skills learned at work and in care recognised, meets a fair panel,
+  accepts an offer at the published grade, is welcomed and paired with a colleague and reviews the fit with the team at the end of
+  the trial period.
+stages:
+- slug: find-the-vacancy
+  title: Find the Vacancy
+  goal: The resident has found a vacancy in plain language and in a language they read, through the jobs board or a welcome point
+    they already use.
+  step: recruitment-and-induction/outreach-and-advertising
+  touchpoints:
+  - city-jobs-board
+  - neighbourhood-recruitment-session
+- slug: have-skills-recognised
+  title: Have Skills Recognised
+  goal: Skills learned at work, in care or from neighbours count beside formal qualifications, shown in practice where papers are
+    missing.
+  step: recruitment-and-induction/skills-recognition
+  touchpoints:
+  - skills-demonstration
+  - skill-attestation
+- slug: meet-a-fair-panel
+  title: Meet a Fair Panel
+  goal: The applicant is assessed against the published criteria by a panel that declared its interests, and receives an answer with
+    reasons.
+  step: recruitment-and-induction/candidate-selection
+  touchpoints:
+  - selection-panel-interview
+  - reasoned-selection-decision
+- slug: accept-the-offer
+  title: Accept the Offer
+  goal: The offer at the published grade is accepted, the contract is signed and the access the role needs is ready on the first day.
+  step: recruitment-and-induction/offer-and-contract
+  touchpoints:
+  - offer-letter-and-contract
+- slug: be-welcomed-into-the-service
+  title: Be Welcomed into the Service
+  goal: The new member of staff knows the service, the city charter, the code of conduct and their colleagues, works beside an experienced
+    colleague and begins with tasks of low risk.
+  step: recruitment-and-induction/induction-and-mentoring
+  touchpoints:
+  - first-day-welcome
+  - colleague-pairing
+- slug: review-the-fit-together
+  title: Review the Fit Together
+  goal: The new member of staff and the team have reviewed whether the role fits both sides, and the appointment is confirmed, adjusted
+    or ended with dignity.
+  step: recruitment-and-induction/probation-review
+  touchpoints:
+  - probation-conversation

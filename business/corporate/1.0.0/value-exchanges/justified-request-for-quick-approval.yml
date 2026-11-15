@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: justified-request-for-quick-approval
+title: Justified Request for Quick Approval
+between:
+- employee
+- finance-professional
+offered:
+- A request with its purpose, budget line and evidence.
+returned:
+- Quick approval when funds and authority allow, and a clear reason when they do not.
+touchpoint: approval-workflow

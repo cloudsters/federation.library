@@ -1,0 +1,50 @@
+kind: entity
+slug: equipment-pool
+title: Shared Equipment Pool
+type: master
+summary: The furniture, tools, vehicles and equipment the city shares across departments and lends to neighbourhood bodies, with an
+  open list of what is available, its condition and where it is kept. A named department keeps it, and staff check it before buying
+  new and neighbourhood bodies borrow from it.
+attributes:
+- name: pool-name
+  type: text
+  card: 1..1
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: items
+  type: text
+  card: 0..*
+- name: item-count
+  type: integer
+  card: 0..1
+- name: locations
+  type: text
+  card: 1..*
+- name: lending-terms
+  type: text
+  card: 1..1
+- name: who-may-borrow
+  type: text
+  card: 0..*
+- name: open-list
+  type: document
+  card: 0..1
+- name: loans-per-year
+  type: integer
+  card: 0..1
+states:
+- proposed
+- established
+- open
+- suspended
+- closed
+relations:
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: neighbourhood

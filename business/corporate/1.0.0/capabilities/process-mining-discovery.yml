@@ -1,0 +1,7 @@
+kind: capability
+slug: process-mining-discovery
+title: Process Mining & Discovery
+level: L3
+parent: process-management
+summary: Letting the system reveal its own patterns — automated discovery of actual process flows from system event logs, revealing
+  how work truly happens versus how we think it happens. Process mining is the mirror the system holds up to itself.

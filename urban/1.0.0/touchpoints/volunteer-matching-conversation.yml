@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: volunteer-matching-conversation
+title: Volunteer Matching Conversation
+medium: encounter
+summary: A conversation in which a volunteer's skills, time and wishes are matched to a task that suits them.
+exchanges:
+- skills-and-wishes-for-a-fitting-task
+journey: volunteer-giving-time

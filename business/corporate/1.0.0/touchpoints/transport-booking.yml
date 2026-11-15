@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transport-booking
+title: Transport Booking
+medium: artefact
+summary: The booking of a carrier for a load, with route, dates, weights, dimensions and special handling, which becomes the basis
+  for carriage and freight settlement.
+exchanges:
+- shipping-data-for-reliable-carriage
+journey: carrier-moving-the-companys-goods

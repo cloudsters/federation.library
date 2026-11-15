@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: promised-interest-for-renewed-savings
+title: Promised Interest for Renewed Savings
+between:
+- finance-officer
+- resident
+offered:
+- Interest and the return of savings on the dates promised.
+returned:
+- Savings lent again to the city's next bond.
+touchpoint: debt-service-schedule

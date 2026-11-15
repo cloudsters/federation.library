@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: architecture-principles-for-coherent-choices
+title: Architecture Principles for Coherent Choices
+between:
+- information-technology-specialist
+- technology-provider
+offered:
+- Published principles, standards and target models.
+returned:
+- Solutions that conform to them and feedback where they hinder good design.
+touchpoint: architecture-repository

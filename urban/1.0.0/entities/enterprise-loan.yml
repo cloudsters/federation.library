@@ -1,0 +1,58 @@
+kind: entity
+slug: enterprise-loan
+title: Enterprise Loan
+type: transactional
+summary: A small loan or patient capital given to an enterprise from a city fund or a community or public bank, with repayment that
+  follows the enterprise's income. The lender keeps the loan account and the business support service records it on the founder's
+  case, and it is used to reach founders whom banks overlook and to reschedule repayment when income falls.
+attributes:
+- name: borrower
+  type: text
+  card: 1..1
+- name: support-case
+  type: reference(business-support-case)
+  card: 1..1
+- name: lender
+  type: text
+  card: 1..1
+- name: lender-kind
+  type: code
+  card: 1..1
+- name: fund
+  type: reference(commons-fund)
+  card: 0..1
+- name: principal
+  type: amount
+  card: 1..1
+- name: interest-rate
+  type: decimal
+  card: 0..1
+- name: income-linked
+  type: boolean
+  card: 1..1
+- name: repayment-terms
+  type: text
+  card: 1..1
+- name: disbursed-on
+  type: date
+  card: 0..1
+- name: outstanding
+  type: amount
+  card: 0..1
+states:
+- applied
+- approved
+- disbursed
+- repaying
+- rescheduled
+- repaid
+- written-off
+relations:
+- type: refers-to
+  target: business-support-case
+- type: refers-to
+  target: commons-fund
+- type: refers-to
+  target: payment-arrangement
+- type: refers-to
+  target: payment

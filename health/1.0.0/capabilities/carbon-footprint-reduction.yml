@@ -1,0 +1,10 @@
+kind: capability
+slug: carbon-footprint-reduction
+title: Carbon Footprint Reduction
+level: L3
+parent: environmental-sustainability
+summary: Measure and reduce emissions from energy, anaesthetic gases, travel and the supply chain.
+binds:
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global

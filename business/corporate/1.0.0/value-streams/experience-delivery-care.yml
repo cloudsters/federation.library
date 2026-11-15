@@ -1,0 +1,121 @@
+kind: value-stream
+slug: experience-delivery-care
+title: Experience Delivery & Care
+family: discovery-to-usage
+summary: 'Serving customers while they use what they bought: helping them into productive use, handling requests, inquiries, complaints
+  and returns across channels, and staffing and supporting the teams who serve.'
+trigger: A customer contacts the organisation with a request, inquiry, complaint or return, or a new customer needs onboarding.
+outcome: The customer's concern is resolved within the agreed service level, and the customer is informed of the result.
+stakeholders:
+- consumer
+- business-customer
+- end-user
+- customer-service-representative
+- customer-service-agent
+steps:
+- slug: service-capacity-planning
+  title: Service Capacity Planning
+  summary: Contact volumes are forecast per channel, and the service team is staffed, scheduled and supported so that service levels
+    can be met without burning people out.
+  capabilities:
+  - service-team-orchestration
+  entities:
+  - forecast
+  - roster
+  - employee-record
+  serves:
+  - service-team-briefing
+- slug: customer-onboarding
+  title: Customer Onboarding
+  summary: New customers are guided from purchase to confident, productive use through a planned sequence of welcome, set-up and first-use
+    support.
+  capabilities:
+  - customer-onboarding-orchestration
+  - customer-success-management
+  entities:
+  - customer
+  - subscription
+  - communication
+  serves:
+  - customer-training
+  - mobile-app
+  - welcome-programme
+- slug: self-service-access
+  title: Self-Service Access
+  summary: Customers find answers, track orders and settle routine requests themselves through the website and help content, with
+    a person reachable when needed.
+  capabilities:
+  - customer-self-service
+  - website-cms-management
+  entities:
+  - knowledge-article
+  - chatbot
+  - helpdesk-ticket
+  serves:
+  - customer-portal
+  - help-centre
+- slug: request-and-inquiry-handling
+  title: Request and Inquiry Handling
+  summary: Every request and inquiry is recorded as a case, routed to the right person and resolved within the agreed service level,
+    and what it reveals about customer needs is kept.
+  capabilities:
+  - request-inquiry-as-listening
+  - customer-service-case-management
+  entities:
+  - helpdesk-ticket
+  - customer-interaction
+  - service-level-agreement
+  serves:
+  - customer-portal
+  - service-case
+  - service-hotline
+- slug: complaint-resolution
+  title: Complaint Resolution
+  summary: Complaints are received without deflection, escalated where needed, resolved with the customer and answered, and their
+    causes are passed on for improvement.
+  capabilities:
+  - complaint-as-gift
+  - customer-service-case-management
+  entities:
+  - complaint
+  - helpdesk-ticket
+  - credit-note
+  serves:
+  - complaint-and-warranty-claim
+  - service-hotline
+- slug: return-processing
+  title: Return Processing
+  summary: Returned goods are received and inspected, refunded, replaced or repaired, sent to reuse or disposal, and the reason for
+    the return is recorded as a signal.
+  capabilities:
+  - return-as-feedback-loop
+  entities:
+  - return
+  - quality-inspection
+  - credit-note
+  serves:
+  - return-point
+- slug: incident-and-risk-reporting
+  title: Incident and Risk Reporting
+  summary: Incidents and risks arising from a contact, a return or a complaint are reported openly to the safety owner and, where
+    required, to the authorities.
+  capabilities:
+  - incident-transparency
+  entities:
+  - incident
+  - regulatory-notification
+  serves:
+  - incident-report
+  - service-hotline
+- slug: adoption-follow-up
+  title: Adoption Follow-Up
+  summary: Use and adoption are followed after onboarding and after each resolved concern, and the team steps in before the value
+    the customer bought is at risk.
+  capabilities:
+  - customer-success-management
+  entities:
+  - usage-record
+  - customer
+  - relationship-review
+  serves:
+  - adoption-check-in

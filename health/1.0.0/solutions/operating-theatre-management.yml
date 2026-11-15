@@ -1,0 +1,35 @@
+kind: solution
+slug: operating-theatre-management
+title: Operating Theatre Management
+role: system-of-record
+summary: 'Plans and records the work of operating theatres and interventional suites: session allocation, case scheduling, team and
+  equipment, intraoperative documentation, implants and recovery. It is the authority for every surgical case and its use of theatre
+  time.'
+carries:
+- theatre-scheduling
+- theatre-capacity-allocation
+- elective-and-emergency-theatre-balance
+- theatre-utilisation-optimisation
+- theatre-day-coordination
+- preoperative-assessment
+- surgical-safety-checklist-practice
+- surgical-procedure-performance
+- intraoperative-documentation
+- implant-and-material-documentation
+- surgical-complication-management
+- post-anaesthesia-recovery
+- interventional-cardiology
+holds:
+- surgical-case
+- operating-session
+- implant
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

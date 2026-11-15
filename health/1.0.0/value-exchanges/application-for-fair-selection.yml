@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: application-for-fair-selection
+title: Application for Fair Selection
+between:
+- job-applicant
+- unit-manager
+offered:
+- Qualifications, experience, availability and the personal data needed to assess them.
+returned:
+- A timely, fair and transparent assessment, a decision with reasons, and protection of the applicant's data whatever the outcome.
+touchpoint: job-interview

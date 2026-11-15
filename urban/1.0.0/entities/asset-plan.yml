@@ -1,0 +1,75 @@
+kind: entity
+slug: asset-plan
+title: Asset Plan
+type: governance
+summary: The city's plan for its infrastructure over its whole life, with service levels, lifecycle plans for each class of asset
+  and the renewal priorities agreed with neighbourhoods. The asset office prepares it, the council adopts it with the budget, and
+  it feeds the capital investment plan and the medium-term financial plan.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: asset-classes
+  type: code
+  card: 1..*
+- name: service-levels
+  type: text
+  card: 1..*
+- name: lifecycle-plans
+  type: document
+  card: 1..*
+- name: whole-life-costs
+  type: reference(whole-life-cost-calculation)
+  card: 0..*
+- name: prioritisation-criteria
+  type: text
+  card: 1..*
+- name: renewal-priorities
+  type: document
+  card: 0..1
+- name: neighbourhood-reviews
+  type: reference(public-consultation)
+  card: 0..*
+- name: backlog-ledger
+  type: reference(maintenance-backlog-ledger)
+  card: 0..1
+- name: backlog-ceiling
+  type: amount
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- funded
+- in-force
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: maintenance-backlog-ledger
+- type: based-on
+  target: condition-assessment
+- type: refers-to
+  target: whole-life-cost-calculation
+- type: refers-to
+  target: capital-investment-plan
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: neighbourhood
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

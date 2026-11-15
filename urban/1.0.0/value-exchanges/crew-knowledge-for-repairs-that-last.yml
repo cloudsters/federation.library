@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: crew-knowledge-for-repairs-that-last
+title: Crew Knowledge for Repairs That Last
+between:
+- frontline-worker
+- asset-officer
+offered:
+- Crews' knowledge of each asset and the causes of its faults.
+returned:
+- Repairs recorded with what was done, with what and at what cost, so that the asset plan learns from them.
+touchpoint: crew-morning-briefing

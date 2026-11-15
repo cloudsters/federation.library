@@ -1,0 +1,15 @@
+kind: solution
+slug: building-and-energy-management-system
+title: Building and Energy Management System
+role: platform
+summary: Runs and watches the heating, ventilation, water, lifts, lighting and fire safety installations of public buildings, meters
+  and publishes their energy use, and holds the space use surveys from which space is shared, combined or released.
+carries:
+- building-systems-operation
+- building-energy-monitoring
+- public-building-retrofit
+- space-use-review
+holds:
+- building-installation
+- building-energy-record
+- space-use-survey

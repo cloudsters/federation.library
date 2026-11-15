@@ -1,0 +1,26 @@
+kind: journey
+slug: staff-member-working-securely
+title: Staff Member Working Securely
+stakeholder: registered-nurse
+summary: A nurse works with personal, role-based access, learns to recognise threats, reports what looks wrong and keeps caring when
+  systems are taken offline.
+stages:
+- slug: receive-access-and-training
+  title: Receive Access and Training
+  goal: The nurse has personal access that fits the role and knows how to recognise threats.
+  step: information-security/control-implementation
+  touchpoints:
+  - clinical-workstation
+  - learning-platform
+- slug: report-what-looks-wrong
+  title: Report What Looks Wrong
+  goal: Suspicious messages and system behaviour are reported at once and taken seriously.
+  step: information-security/threat-detection
+  touchpoints:
+  - it-service-desk
+- slug: care-on-fallback
+  title: Care on Fallback
+  goal: When systems are isolated, care continues on rehearsed fallback procedures.
+  step: information-security/incident-response
+  touchpoints:
+  - service-status-notice

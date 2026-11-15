@@ -1,0 +1,60 @@
+kind: journey
+slug: theatre-team-relying-on-sterile-instruments
+title: Theatre Team Relying on Sterile Instruments
+stakeholder: registered-nurse
+summary: A theatre nurse hands used instruments back after each operation and receives complete, sterile sets for the next list, traceable
+  to every patient they are used on.
+stages:
+- slug: prepare-instruments-after-use
+  title: Prepare Instruments After Use
+  goal: Instruments are freed of waste and sharps, kept moist, counted against the list and recorded against the patient.
+  step: sterile-processing/point-of-use-preparation-and-return
+  touchpoints:
+  - operating-theatre
+  - set-composition-list
+  - clinical-workstation
+- slug: hand-over-for-reprocessing
+  title: Hand Over for Reprocessing
+  goal: Sets reach sterile services in closed containers within the agreed time, with damaged items marked.
+  step: sterile-processing/receipt-cleaning-and-disinfection
+  touchpoints:
+  - sterile-services-department
+- slug: get-sets-complete-and-working
+  title: Get Sets Complete and Working
+  goal: Missing or damaged instruments are replaced before the set returns, so that no operation is delayed by an incomplete set.
+  step: sterile-processing/inspection-assembly-and-packing
+  touchpoints:
+  - set-composition-list
+- slug: rely-on-validated-sterilisation
+  title: Rely on Validated Sterilisation
+  goal: Each pack carries a batch label showing that it came through a monitored sterilisation cycle.
+  step: sterile-processing/sterilisation
+  touchpoints:
+  - batch-label
+- slug: trust-the-release
+  title: Trust the Release
+  goal: Only released packs reach the theatre, and the team is told at once if a released batch must be recalled.
+  step: sterile-processing/release-and-sterile-storage
+  touchpoints:
+  - batch-label
+  - sterile-services-department
+- slug: receive-sets-for-the-list
+  title: Receive Sets for the List
+  goal: Sets for every listed operation, added emergencies included, are in theatre when they are needed.
+  step: sterile-processing/provision-to-theatre
+  touchpoints:
+  - operating-theatre
+  - sterile-services-department
+- slug: check-use-and-record
+  title: Check, Use and Record
+  goal: Before opening, the team checks pack integrity, indicator and expiry, and records the batch in the operation record.
+  step: sterile-processing/use-and-traceability-record
+  touchpoints:
+  - batch-label
+  - clinical-workstation
+- slug: raise-problems-and-see-them-fixed
+  title: Raise Problems and See Them Fixed
+  goal: Defects, delays and contaminated sets are raised in a standing forum and the team sees corrective action.
+  step: sterile-processing/process-validation-and-quality-review
+  touchpoints:
+  - sterile-services-liaison-meeting

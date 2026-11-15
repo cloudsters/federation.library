@@ -1,0 +1,41 @@
+kind: journey
+slug: community-land-trust-taking-land-into-permanent-trust
+title: Community Land Trust Taking Land into Permanent Trust
+stakeholder: community-land-trust
+summary: The trust joins the appraisal of a site, bridges the residents' purchase, completes the title, signs the covenants that keep
+  the land affordable and records the terms on which it holds it.
+stages:
+- slug: join-the-appraisal
+  title: Join the Appraisal
+  goal: The trust has seen the valuation and the displacement risk and said whether it can hold the site.
+  step: land-and-property-acquisition/acquisition-appraisal
+  touchpoints:
+  - acquisition-appraisal-report
+- slug: bridge-the-purchase
+  title: Bridge the Purchase
+  goal: The residents' purchase is bridged by a loan and the city's support until members' contributions are in.
+  step: land-and-property-acquisition/joint-purchase-with-residents
+  touchpoints:
+  - joint-purchase-negotiation
+  - joint-purchase-advice-desk
+- slug: complete-the-title
+  title: Complete the Title
+  goal: The purchase or transfer is complete and the title is recorded in the land registry.
+  step: land-and-property-acquisition/purchase-and-transfer
+  touchpoints:
+  - purchase-contract-signing
+  - land-registry-entry
+- slug: sign-the-covenants
+  title: Sign the Covenants
+  goal: The trust holds the land under covenants that keep homes and spaces affordable across generations.
+  step: land-and-property-acquisition/transfer-into-community-trust
+  touchpoints:
+  - community-trust-transfer-signing
+  - affordability-covenant-text
+- slug: record-the-holding-terms
+  title: Record the Holding Terms
+  goal: The purpose, the covenants and the rights of use are recorded with the title and in the public asset register.
+  step: land-and-property-acquisition/registration-and-holding-terms
+  touchpoints:
+  - land-registry-entry
+  - public-asset-register-entry

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: override-and-escalation-route
+title: Override and Escalation Route
+medium: channel
+summary: The route by which staff override an agent and residents or staff escalate a matter to a person, open at every point of the
+  agent's work.
+exchanges:
+- prepared-cases-for-human-decisions
+- resident-request-for-a-person-who-answers
+journey: municipal-ai-agent-acting-within-its-mandate

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: notice-to-those-affected
+title: Notice to Those Affected
+medium: artefact
+summary: The notice by which the organisation tells customers, neighbours or others that it has caused or may have caused them harm,
+  and what they should do now.
+exchanges:
+- acknowledgement-and-repair-for-renewed-trust
+- candour-for-a-chance-to-repair
+journey: consumer-harmed-and-made-whole

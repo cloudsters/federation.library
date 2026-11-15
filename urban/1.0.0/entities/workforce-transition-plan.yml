@@ -1,0 +1,64 @@
+kind: entity
+slug: workforce-transition-plan
+title: Workforce Transition Plan
+type: governance
+summary: The plan for workers whose work is phased out, with who is affected, the income floor, the retraining paths, the routes into
+  ownership and the date of review. The city writes it with the workers and their unions, and it is used to pay wage replacement,
+  to open retraining and to extend or end the guarantee at its review.
+attributes:
+- name: cause
+  type: text
+  card: 1..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: automation-proposal
+  type: reference(automation-proposal)
+  card: 0..1
+- name: workers-affected
+  type: integer
+  card: 1..1
+- name: groups-affected
+  type: text
+  card: 0..*
+- name: income-floor
+  type: amount
+  card: 1..1
+- name: retraining-paths
+  type: text
+  card: 0..*
+- name: ownership-routes
+  type: text
+  card: 0..*
+- name: guarantee-period
+  type: period
+  card: 1..1
+- name: review-on
+  type: date
+  card: 1..1
+- name: placement-rate
+  type: decimal
+  card: 0..1
+states:
+- proposed
+- consulted
+- agreed
+- in-force
+- reviewed
+- extended
+- ended
+relations:
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: automation-proposal
+- type: governed-by
+  target: staff-agreement
+- type: produces
+  target: employment-pathway
+- type: produces
+  target: payment
+binds:
+- source: src-244
+  edition: '2015'
+  jurisdiction: global

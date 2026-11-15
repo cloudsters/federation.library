@@ -1,0 +1,55 @@
+kind: entity
+slug: disclosure-policy
+title: Disclosure Policy
+type: governance
+summary: The rules that make records, budgets, contracts and deliberations public by default, each exemption needing a written reason,
+  a review date and an entry in the public register of exemptions. The council sets it, the administration applies it to every record
+  and request, and it is reviewed against the pattern of exemptions and refusals.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: default-rule
+  type: text
+  card: 1..1
+- name: exemption-grounds
+  type: code
+  card: 1..*
+- name: exemption-register
+  type: document
+  card: 1..1
+- name: exemption-review-interval
+  type: code
+  card: 1..1
+- name: request-deadline
+  type: code
+  card: 1..1
+- name: publication-formats
+  type: code
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- adopted
+- published
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: governed-by
+  target: city-constitution
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: public-record
+- type: refers-to
+  target: information-request

@@ -1,0 +1,10 @@
+kind: capability
+slug: international-recruitment
+title: International Recruitment
+level: L3
+parent: recruitment
+summary: Recruit health professionals from abroad and support their recognition, language learning and integration.
+binds:
+- source: src-517
+  edition: 2010 / list-2023
+  jurisdiction: global

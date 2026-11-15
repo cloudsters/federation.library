@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: regional-planning-conference
+title: Regional Planning Conference
+medium: encounter
+summary: The forum in which the planning authority, payers and the providers of a region deliberate the care plan and the
+  distribution of care levels and service groups.
+exchanges:
+- regional-division-of-services
+- service-group-evidence-and-assignment
+- service-transfer-to-partner
+journey: neighbouring-hospital-dividing-the-region

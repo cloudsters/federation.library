@@ -1,0 +1,19 @@
+kind: solution
+slug: ai-model-and-agent-operations-platform
+title: AI Model and Agent Operations Platform
+role: platform
+summary: Builds, deploys, monitors and retires models and agents, supplies them with context and tools, and records their outputs,
+  drift and escalations to people.
+carries:
+- agent-lifecycle-management
+- algorithmic-vitality-sensing
+- embedded-intelligence-distribution
+- agent-context-architecture
+- prompt-engineering-as-governance
+- predictive-analytics
+- model-monitoring-and-drift
+- trust-and-escalation-protocols
+- ai-assistant-integration
+holds:
+- analytics-model
+- prediction

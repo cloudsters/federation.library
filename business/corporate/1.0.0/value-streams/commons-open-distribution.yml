@@ -1,0 +1,98 @@
+kind: value-stream
+slug: commons-open-distribution
+title: Commons & Open Distribution
+family: proposition-to-audience
+summary: Distribute as commons — open source, federated forks, and permissionless adoption that spread the offering without gatekeeping.
+trigger: The portfolio decides to release an offering, or a part of it, openly.
+outcome: The open release is published under a clear licence and adopted by others, and their contributions are reviewed and taken
+  in.
+stakeholders:
+- end-user
+- partner
+- development-engineer
+- product-manager
+- technology-provider
+steps:
+- slug: open-release-decision
+  title: Open Release Decision
+  summary: The organisation decides which parts of an offering it releases openly and which stay its own, and chooses the licence
+    that governs the release.
+  capabilities:
+  - open-source-as-commons-distribution
+  - intellectual-asset-stewardship
+  entities:
+  - governance-decision
+  - intellectual-property-right
+  - terms-and-conditions
+  serves:
+  - open-licence
+  - open-release-review
+- slug: free-and-premium-level-design
+  title: Free and Premium Level Design
+  summary: What is offered freely and what premium levels add is designed so that the free part gives real value and the premium part
+    deepens rather than gates it.
+  capabilities:
+  - freemium-as-invitation
+  entities:
+  - price-list
+  - product-variant
+  - subscription
+  serves:
+  - level-overview
+- slug: open-publication
+  title: Open Publication
+  summary: The release is published with its licence, documentation and a clear model for forking and federating.
+  capabilities:
+  - open-source-as-commons-distribution
+  - federated-distribution
+  entities:
+  - pattern
+  - knowledge-article
+  - commons-instance
+  serves:
+  - open-licence
+  - open-repository
+- slug: self-service-adoption
+  title: Self-Service Adoption
+  summary: Anyone who could benefit can discover, try, adopt and configure the offering on their own, without waiting for approval.
+  capabilities:
+  - permissionless-adoption
+  - self-service-distribution
+  entities:
+  - usage-record
+  - knowledge-article
+  serves:
+  - help-centre
+  - open-repository
+- slug: fork-and-federation-support
+  title: Fork and Federation Support
+  summary: Local instances that adapt the offering to their context are supported and stay connected to the shared origin.
+  capabilities:
+  - federated-distribution
+  entities:
+  - commons-instance
+  - agreement
+  serves:
+  - federation-meeting
+- slug: surplus-intent-broadcasting
+  title: Surplus Intent Broadcasting
+  summary: Spare capacity, knowledge and other surplus are offered into the network as typed declarations that others can answer.
+  capabilities:
+  - intent-broadcasting
+  entities:
+  - offer-intent
+  - need-intent
+  serves:
+  - surplus-offer
+- slug: contribution-intake-and-steward-recognition
+  title: Contribution Intake and Steward Recognition
+  summary: Contributions from adopters are reviewed and taken in, and the stewards whose work others reuse receive ongoing recognition.
+  capabilities:
+  - pattern-stewardship-markets
+  - open-source-as-commons-distribution
+  entities:
+  - contribution-proof
+  - pattern
+  - payment
+  serves:
+  - contribution-review

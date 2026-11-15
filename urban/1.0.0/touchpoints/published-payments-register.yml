@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-payments-register
+title: Published Payments Register
+medium: artefact
+summary: The published list of each payment above a set amount with its supplier, purpose and amount, beside the time taken to pay
+  small and large suppliers.
+exchanges:
+- published-payments-for-resident-scrutiny
+journey: finance-officer-paying-suppliers-promptly

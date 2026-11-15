@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: change-advisory-meeting
+title: Change Advisory Meeting
+medium: encounter
+summary: The meeting in which changes to live systems are assessed for risk and tested, scheduled and given a way back.
+exchanges:
+- assessed-change-for-a-scheduled-release
+journey: information-technology-specialist-keeping-services-running

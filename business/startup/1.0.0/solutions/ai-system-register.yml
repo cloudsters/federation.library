@@ -1,0 +1,24 @@
+kind: solution
+slug: ai-system-register
+title: AI System Register
+role: system-of-record
+summary: Holds every AI system and agent in use with its purpose, risk class, mandate, overseer, model and evaluation record, and
+  the decisions that must remain with people.
+carries:
+- agent-negotiation-mandate
+- ai-governance-framework
+- co-authorship-protocol
+- non-human-participant-design
+- ai-regulatory-conformity
+- algorithmic-fairness-assurance
+- trust-and-escalation-protocols
+- ai-oversight-competence
+holds:
+- agent
+- agent-mandate
+- cognitive-mandate
+- oversight-assignment
+- analytics-model
+- prediction
+- chatbot
+- governance-oracle

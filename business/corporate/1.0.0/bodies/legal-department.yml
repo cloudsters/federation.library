@@ -1,0 +1,9 @@
+kind: body
+slug: legal-department
+title: Legal Department
+summary: Advises the enterprise on law, drafts and negotiates contracts, conducts disputes and litigation and steers outside counsel.
+holds:
+- legal-services
+part_of: executive-board
+type: function
+form: organisational-unit

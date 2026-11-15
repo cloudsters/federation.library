@@ -1,0 +1,69 @@
+kind: entity
+slug: support-case
+title: Support Case
+type: transactional
+summary: A fault reported or a request made by a resident or member of staff about a digital service, from receipt to resolution,
+  with its urgency and cause. The service desk records it and follows it within the agreed levels, and recurring cases are traced
+  to their causes.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: case-kind
+  type: code
+  card: 1..1
+- name: reported-by
+  type: text
+  card: 0..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: service
+  type: reference(digital-service)
+  card: 1..1
+- name: urgency
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: escalated-to
+  type: text
+  card: 0..*
+- name: resolution
+  type: text
+  card: 0..1
+- name: cause
+  type: text
+  card: 0..1
+- name: resolved-at
+  type: datetime
+  card: 0..1
+states:
+- received
+- recorded
+- assigned
+- in-progress
+- escalated
+- resolved
+- closed
+relations:
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: contract
+- type: governed-by
+  target: service-level-agreement
+- type: refers-to
+  target: change-request
+- type: produces
+  target: lesson-record
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

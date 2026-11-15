@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payroll-journal
+title: Payroll Journal
+medium: artefact
+summary: The posting of payroll to the accounts, with the reconciliation against payments and returns.
+exchanges:
+- reconciled-payroll-for-clean-books
+journey: payroll-specialist-closing-a-pay-run

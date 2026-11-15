@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quality-plan
+title: Quality Plan
+medium: artefact
+summary: The plan that fixes the characteristics critical to quality, the preventive activities, checks and acceptance criteria for
+  a product, service or contract.
+exchanges:
+- requirements-for-a-fitting-quality-plan
+journey: customer-relying-on-dependable-quality

@@ -1,0 +1,126 @@
+kind: value-stream
+slug: logistics-flow-design
+title: Logistics & Flow Design
+family: demand-to-fulfillment
+summary: 'Moving and holding goods between suppliers, sites and customers: designing the logistics network and warehouses, receiving
+  and storing goods accurately, routing, picking and shipping orders, and bringing returns back to their best further use.'
+trigger: Goods arrive, an order is released for shipment, or a customer returns goods.
+outcome: Goods are stored accurately and reach the customer intact and on time, and returns are routed to their best further use.
+stakeholders:
+- logistics-coordinator
+- logistics-service-provider
+- business-customer
+- consumer
+- supplier
+- customer-service-representative
+steps:
+- slug: logistics-network-and-warehouse-design
+  title: Logistics Network and Warehouse Design
+  summary: The logistics strategy sets the flow of goods through sites and carriers, and each warehouse is laid out in zones, locations
+    and putaway rules so that stock finds its place and can be found.
+  capabilities:
+  - logistics-strategy-design
+  - warehouse-topology-design
+  entities:
+  - warehouse
+  - location
+  - carrier
+  - policy
+- slug: inbound-receipt
+  title: Inbound Receipt
+  summary: Expected deliveries are scheduled, goods are received and checked against order and quality requirements, identified by
+    serial number or lot, and put away.
+  capabilities:
+  - inbound-flow-orchestration
+  - serial-number-tracking
+  entities:
+  - purchase-receipt
+  - purchase-order
+  - delivery-note
+  - serial-number
+  - batch-lot
+  serves:
+  - delivery-note
+  - delivery-time-slot
+  - warehouse-dock
+- slug: storage-and-stock-accuracy
+  title: Storage and Stock Accuracy
+  summary: Stock is stored, protected and moved within and between warehouses, and records are kept true to physical reality through
+    cycle counts and reconciliation.
+  capabilities:
+  - warehousing-as-stewardship
+  - stock-reconciliation-practice
+  entities:
+  - stock-entry
+  - stock-reconciliation
+  - item
+  - location
+- slug: order-release-and-routing
+  title: Order Release and Routing
+  summary: Each customer order is assigned to its best fulfilment source, an own warehouse, another site or a supplier shipping directly,
+    weighing stock, distance, cost and the promised date.
+  capabilities:
+  - order-routing-intelligence
+  - drop-ship-orchestration
+  - order-fulfilment-orchestration
+  entities:
+  - sales-order
+  - purchase-order
+  - warehouse
+  serves:
+  - customer-portal
+  - online-shop
+- slug: pick-pack-and-dispatch
+  title: Pick, Pack and Dispatch
+  summary: Items are picked, checked, packed and labelled for each order, serial numbers and lots are recorded, and the consignment
+    is handed over with its delivery note.
+  capabilities:
+  - pick-pack-ship-orchestration
+  - serial-number-tracking
+  entities:
+  - delivery-note
+  - shipment
+  - item
+  - serial-number
+  serves:
+  - delivery-note
+  - shipment-tracking
+  - warehouse-dock
+- slug: transport-and-delivery
+  title: Transport and Delivery
+  summary: Loads and routes are planned, carriers selected and booked, shipments tracked to proof of delivery, and freight costs settled.
+  capabilities:
+  - transport-management
+  - outbound-flow-delivery
+  entities:
+  - shipment
+  - carrier
+  - delivery-note
+  serves:
+  - delivery-note
+  - invoice
+  - proof-of-delivery
+  - shipment-tracking
+  - transport-booking
+- slug: returns-and-reverse-flow
+  title: Returns and Reverse Flow
+  summary: Returned goods are authorised, received and inspected, then restocked, repaired, recycled or disposed of, and the reason
+    for each return is recorded for learning.
+  capabilities:
+  - returns-reverse-logistics
+  entities:
+  - return
+  - stock-entry
+  - item
+  - credit-note
+  serves:
+  - complaint-and-warranty-claim
+  - return-authorisation
+  - store-and-branch
+binds:
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global

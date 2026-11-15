@@ -1,0 +1,51 @@
+kind: entity
+slug: coverage-approval
+title: Coverage Approval
+type: transactional
+summary: A payer's prior approval to pay for a planned service, such as an expensive drug, a rehabilitation stay or a treatment abroad,
+  requested with clinical justification before the service is given.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: insurance-coverage
+  type: reference(insurance-coverage)
+  card: 1..1
+- name: requested-service
+  type: code
+  card: 1..1
+- name: justification
+  type: document
+  card: 1..1
+- name: requested-on
+  type: date
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+- name: approved-amount
+  type: amount
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- requested
+- under-review
+- approved
+- partially-approved
+- rejected
+- expired
+relations:
+- type: based-on
+  target: clinical-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

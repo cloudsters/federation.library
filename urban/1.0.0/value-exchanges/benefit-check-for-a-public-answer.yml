@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: benefit-check-for-a-public-answer
+title: Benefit Check for a Public Answer
+between:
+- external-auditor
+- city-council
+offered:
+- An independent check of the confirmed benefits and of what they cost.
+returned:
+- A public answer from the council to each finding.
+touchpoint: benefit-review-session

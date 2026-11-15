@@ -1,0 +1,16 @@
+kind: touchpoint
+slug: service-hotline
+title: Service Hotline
+medium: channel
+summary: The phone, chat and email channel through which customers report problems, ask questions and request service, and are helped
+  directly or routed to an expert.
+exchanges:
+- access-for-competent-work
+- candour-for-a-payment-plan
+- clear-requests-for-tracked-answers
+- complete-claim-for-fair-decision
+- dispute-evidence-for-a-fair-settlement
+- early-warning-for-protection
+- kept-appointment-for-ready-access
+- open-reporting-for-trust
+journey: consumer-harmed-and-made-whole

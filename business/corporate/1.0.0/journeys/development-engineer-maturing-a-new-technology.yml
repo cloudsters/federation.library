@@ -1,0 +1,46 @@
+kind: journey
+slug: development-engineer-maturing-a-new-technology
+title: Development Engineer Maturing a New Technology
+stakeholder: development-engineer
+summary: A development engineer takes a research question from agenda to demonstrator and real-world trial, discloses what is invented
+  on the way and hands the matured technology on, or closes the line with its findings.
+stages:
+- slug: frame-the-research-question
+  title: Frame the Research Question
+  goal: The topic has a question, a budget and a stop criterion that the engineer and the sponsor both accept.
+  step: research-and-technology-development/research-agenda-setting
+  touchpoints:
+  - research-agenda-review
+- slug: scan-the-field
+  title: Scan the Field
+  goal: Emerging technologies, research results and young companies relevant to the question are known and assessed.
+  step: research-and-technology-development/technology-scouting
+  touchpoints:
+  - technology-watch-report
+  - trade-fair
+  - scouting-conversation
+- slug: build-a-demonstrator
+  title: Build a Demonstrator
+  goal: Experiments and a demonstrator show whether the principle works and what it would take to mature it.
+  step: research-and-technology-development/experiments-and-demonstrators
+  touchpoints:
+  - test-laboratory
+- slug: trial-under-real-conditions
+  title: Trial Under Real Conditions
+  goal: The technology runs under real operating conditions with its risks contained and its performance measured.
+  step: research-and-technology-development/testbed-trial
+  touchpoints:
+  - testbed
+- slug: disclose-inventions
+  title: Disclose Inventions
+  goal: Inventions are disclosed promptly and the decision to patent, keep confidential or publish is taken in time.
+  step: research-and-technology-development/invention-capture-and-protection
+  touchpoints:
+  - invention-disclosure
+- slug: hand-over-or-close
+  title: Hand Over or Close
+  goal: The maturity reached is judged, and the technology passes to offering design with its documentation, or the line closes with
+    its findings recorded.
+  step: research-and-technology-development/maturity-review-and-transfer
+  touchpoints:
+  - technology-maturity-review

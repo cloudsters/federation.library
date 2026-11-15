@@ -1,0 +1,57 @@
+kind: entity
+slug: waste-regulation
+title: Waste Regulation
+type: governance
+summary: The rules on preventing, separating, returning, collecting and disposing of waste, including hazardous waste. The waste office
+  drafts them with residents and businesses and the council adopts them, and collection, deposit and return systems and the handling
+  of hazardous waste follow them.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: prevention-rules
+  type: text
+  card: 0..*
+- name: separation-rules
+  type: text
+  card: 1..*
+- name: return-and-deposit-schemes
+  type: text
+  card: 0..*
+- name: collection-rules
+  type: text
+  card: 1..*
+- name: hazardous-waste-rules
+  type: text
+  card: 0..*
+- name: surplus-food-rule
+  type: text
+  card: 0..1
+- name: charges
+  type: reference(service-tariff)
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- amended
+- revoked
+relations:
+- type: refers-to
+  target: waste-system
+- type: based-on
+  target: waste-metrics
+- type: refers-to
+  target: service-tariff
+- type: governed-by
+  target: bylaw

@@ -1,0 +1,14 @@
+kind: body
+slug: category-team
+title: Category Team
+summary: Procurement officers and staff of the departments that use one category of goods, works or services, who write its strategy
+  and circular requirements, meet its suppliers before each large tender and set its lots.
+holds:
+- category-strategy-setting
+- supplier-market-engagement
+- circular-requirement-drafting
+- lot-division
+- regional-food-sourcing
+part_of: procurement-office
+type: function
+form: organisational-unit

@@ -1,0 +1,39 @@
+kind: solution
+slug: board-and-entity-management-system
+title: Board and Entity Management System
+role: system-of-record
+summary: Keeps the legal entities, their registers of owners, the governance bodies with their members, meetings, resolutions and
+  decision rights, and the corporate transactions that change the shape of the group.
+carries:
+- approval-workflow-design
+- board-communication-reporting
+- commons-capital-structure-design
+- owner-relations
+- cooperative-ownership-design
+- decision-velocity-calibration
+- equity-and-ownership-management
+- investor-relationship-design
+- investor-transparency
+- stewardship-succession
+- value-distribution-governance
+- governance-body-design
+- board-effectiveness-review
+- subsidiary-governance
+- general-meeting-governance
+- family-business-governance
+- delegation-of-authority
+- alliance-and-merger-assessment
+- divestment-management
+- legal-entity-management
+holds:
+- organization
+- business-unit
+- legal-entity
+- branch
+- board-of-directors
+- shareholder-record
+- shareholder-register
+- governance-decision
+- decision-right
+- approval
+- corporate-transaction

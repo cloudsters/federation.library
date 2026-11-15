@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: ethics-opinion-for-complete-protocols
+title: Ethics Opinion for Complete Protocols
+between:
+- research-ethics-committee
+- clinician-scientist
+offered:
+- An ethics opinion on the intended use of care data and samples, with conditions that protect participants.
+returned:
+- Complete protocols that state the data, the legal basis and the safeguards, and reports on how the conditions were met.
+touchpoint: study-protocol

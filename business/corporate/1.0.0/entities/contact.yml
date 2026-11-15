@@ -1,0 +1,37 @@
+kind: entity
+slug: contact
+title: Contact
+type: master
+summary: A person at a customer, supplier or partner with whom the enterprise deals, held with role, contact details, language and
+  communication preferences, and linked to the account or organisation they act for.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: organisation
+  type: reference(counterparty)
+  card: 0..1
+- name: role
+  type: text
+  card: 0..1
+- name: contact-details
+  type: text
+  card: 0..*
+- name: preferred-language
+  type: code
+  card: 0..1
+- name: communication-preferences
+  type: code
+  card: 0..*
+states:
+- active
+- inactive
+- erased
+relations:
+- type: part-of
+  target: customer
+- type: governed-by
+  target: data-use-consent

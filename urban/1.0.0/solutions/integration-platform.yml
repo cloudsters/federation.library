@@ -1,0 +1,14 @@
+kind: solution
+slug: integration-platform
+title: Integration Platform
+role: platform
+summary: Carries the exchanges between the systems of the city, its neighbourhoods, its municipal enterprises and neighbouring municipalities
+  through published interfaces, checks each system's identity and conformance and watches every live exchange.
+carries:
+- exchange-need-assessment
+- interface-specification
+- interface-build-and-testing
+- exchange-monitoring
+holds:
+- system-interface
+- interface-specification

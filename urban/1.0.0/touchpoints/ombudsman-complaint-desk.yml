@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ombudsman-complaint-desk
+title: Ombudsman Complaint Desk
+medium: channel
+summary: The desk, line and online route through which a complainant reaches the ombudsman directly when not satisfied or not answered
+  in time.
+exchanges:
+- unresolved-complaint-for-independent-review
+journey: resident-complaining-about-a-broken-promise

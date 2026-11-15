@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: record-copy
+title: Record Copy
+medium: artefact
+summary: The copy or electronic export of a patient's record released at the patient's request, complete, readable and delivered within
+  the legal deadline.
+exchanges:
+- record-access-on-request
+journey: seeing-ones-own-record

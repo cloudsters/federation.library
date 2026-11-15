@@ -1,0 +1,105 @@
+kind: value-stream
+slug: post-delivery-stewardship
+title: Post-Delivery Stewardship
+family: discovery-to-usage
+summary: 'Keeping the service relationship intact after the sale: registering products and their owners, administering service agreements,
+  deciding and remedying warranty claims fairly, and holding suppliers to account for failures.'
+trigger: A customer claims under a warranty or service commitment, or a product is registered or changes owner.
+outcome: The claim is decided and remedied fairly within the set period, and its failure cause is fed back to design and suppliers.
+stakeholders:
+- consumer
+- business-customer
+- field-service-technician
+- customer-service-representative
+- direct-material-supplier
+- quality-manager
+steps:
+- slug: product-and-owner-registration
+  title: Product and Owner Registration
+  summary: Products are registered with their owner, location and entitlements, and changes of ownership are recorded so that the
+    relationship passes to the new owner.
+  capabilities:
+  - registration-as-relationship
+  entities:
+  - serial-number
+  - product
+  - customer
+  serves:
+  - customer-portal
+  - mobile-app
+  - product-registration
+- slug: service-agreement-administration
+  title: Service Agreement Administration
+  summary: Maintenance and service agreements are sold, administered and renewed with their entitlements and service levels.
+  capabilities:
+  - service-contract-management
+  entities:
+  - contract
+  - service-level-agreement
+  - subscription
+  serves:
+  - service-agreement
+- slug: ongoing-service
+  title: Ongoing Service
+  summary: Agreed check-ins, inspections and maintenance are carried out with the spare parts they need, and each visit is used to
+    learn how the customer is doing.
+  capabilities:
+  - ongoing-service-deepening
+  - spare-parts-management
+  entities:
+  - service-order
+  - item
+  - customer-interaction
+  serves:
+  - remote-service-connection
+  - service-report
+  - service-visit
+- slug: warranty-claim-intake
+  title: Warranty Claim Intake
+  summary: A warranty claim is received, the entitlement is checked against the product's registration and terms, and the failure
+    is diagnosed.
+  capabilities:
+  - warranty-as-trust-delivery
+  entities:
+  - warranty-claim
+  - serial-number
+  - terms-and-conditions
+  serves:
+  - complaint-and-warranty-claim
+  - customer-portal
+  - remote-service-connection
+  - service-hotline
+  - service-visit
+- slug: claim-decision-and-remedy
+  title: Claim Decision and Remedy
+  summary: The claim is decided fairly within the set period, and the product is repaired, refurbished or replaced, or the price refunded.
+  capabilities:
+  - warranty-as-trust-delivery
+  - repair-and-refurbishment
+  - spare-parts-management
+  entities:
+  - warranty-claim
+  - repair-order
+  - credit-note
+  serves:
+  - complaint-and-warranty-claim
+  - return-point
+  - service-visit
+- slug: supplier-recovery-and-failure-feedback
+  title: Supplier Recovery and Failure Feedback
+  summary: Where a supplied part caused the failure, the supplier shares the cost and works on the root cause, and the failure cause
+    is fed back to design.
+  capabilities:
+  - supplier-accountability-cultivation
+  entities:
+  - supplier-organisation
+  - non-conformance
+  - debit-note
+  - change-request
+  serves:
+  - failure-analysis-review
+  - service-report
+binds:
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global

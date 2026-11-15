@@ -1,0 +1,26 @@
+kind: journey
+slug: faculty-judging-academic-vitality
+title: Faculty Judging Academic Vitality
+stakeholder: university
+summary: 'The university''s side of whole-system perception: having research and teaching judged alongside care, reviewing
+  the whole together and agreeing corrections that touch both missions.'
+stages:
+- slug: judging-academic-vitality
+  title: Judging Academic Vitality
+  goal: Have research and teaching judged alongside care rather than after it.
+  step: whole-system-perception/vitality-and-coherence-assessment
+  touchpoints:
+  - joint-university-committee
+- slug: reviewing-the-whole-together
+  title: Reviewing the Whole Together
+  goal: Review the state of the whole commons together with the executive board.
+  step: whole-system-perception/shared-picture
+  touchpoints:
+  - whole-system-review
+  - joint-university-committee
+- slug: agreeing-academic-corrections
+  title: Agreeing Academic Corrections
+  goal: Agree jointly on corrections that touch research and teaching.
+  step: whole-system-perception/corrective-decision
+  touchpoints:
+  - joint-university-committee

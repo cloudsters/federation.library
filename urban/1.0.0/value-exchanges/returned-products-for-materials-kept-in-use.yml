@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: returned-products-for-materials-kept-in-use
+title: Returned Products for Materials Kept in Use
+between:
+- supplier
+- city-administration
+offered:
+- Products and packaging taken back at the end of use and repaired, refurbished or recovered.
+returned:
+- The city's end-of-use goods returned in good order, and the supplier's take-back recorded in its performance.
+touchpoint: take-back-collection

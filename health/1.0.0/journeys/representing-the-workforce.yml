@@ -1,0 +1,31 @@
+kind: journey
+slug: representing-the-workforce
+title: Representing the Workforce
+stakeholder: staff-representation
+summary: The staff representation learns early of plans that affect employees, deliberates and concludes agreements, carries members'
+  views into the decision and monitors what is implemented.
+stages:
+- slug: learning-of-plans-early
+  title: Learning of Plans Early
+  goal: Learn of a planned measure while it can still be shaped.
+  step: internal-communication-and-staff-voice/message-and-audience
+  touchpoints:
+  - staff-consultation
+- slug: deliberating-and-agreeing
+  title: Deliberating and Agreeing
+  goal: Put the workforce's view, negotiate and conclude a fair agreement.
+  step: internal-communication-and-staff-voice/representative-consultation
+  touchpoints:
+  - staff-consultation
+- slug: carrying-members-views
+  title: Carrying Members' Views
+  goal: Bring the results of surveys and members' concerns into the decision.
+  step: internal-communication-and-staff-voice/analysis-and-decision
+  touchpoints:
+  - staff-consultation
+- slug: monitoring-implementation
+  title: Monitoring Implementation
+  goal: See that agreements are kept and that agreed actions take effect.
+  step: internal-communication-and-staff-voice/follow-through
+  touchpoints:
+  - staff-consultation

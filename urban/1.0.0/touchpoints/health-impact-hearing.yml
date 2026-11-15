@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: health-impact-hearing
+title: Health Impact Hearing
+medium: encounter
+summary: A hearing with the residents most affected by a plan for homes, streets, transport, food or green space, held before it is
+  decided, on what it would do to their health.
+exchanges:
+- affected-voice-for-a-weighed-plan
+journey: affected-community-weighing-plans-for-its-health

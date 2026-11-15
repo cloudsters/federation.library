@@ -1,0 +1,10 @@
+kind: capability
+slug: business-intelligence-and-reporting
+title: Business Intelligence & Reporting
+level: L3
+parent: analytics-and-reporting
+summary: Provide dashboards and reports for management and clinical units from trusted data.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

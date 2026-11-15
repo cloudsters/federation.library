@@ -1,0 +1,6 @@
+kind: capability
+slug: patient-transfer-management
+title: Patient Transfer Management
+level: L3
+parent: bed-and-capacity-management
+summary: Transfer patients between units, including to and from intensive care, with complete information.

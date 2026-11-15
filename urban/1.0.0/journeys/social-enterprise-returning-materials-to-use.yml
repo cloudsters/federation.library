@@ -1,0 +1,32 @@
+kind: journey
+slug: social-enterprise-returning-materials-to-use
+title: Social Enterprise Returning Materials to Use
+stakeholder: social-enterprise
+summary: A repair or salvage enterprise helps write requirements that repairers can meet, supplies the city with reclaimed materials,
+  repairs what suppliers take back and sees its share in the yearly circular report.
+stages:
+- slug: shape-requirements-repairers-can-meet
+  title: Shape Requirements Repairers Can Meet
+  goal: The enterprise has said which requirements for repair and spare parts make reuse possible, and they are in the specifications.
+  step: circular-procurement/circular-requirements
+  touchpoints:
+  - category-strategy-workshop
+- slug: supply-reclaimed-materials
+  title: Supply Reclaimed Materials
+  goal: The enterprise supplies reclaimed materials and furniture with their condition and origin recorded, on orders steady enough
+    to plan.
+  step: circular-procurement/reclaimed-material-sourcing
+  touchpoints:
+  - reclaimed-materials-yard
+- slug: refurbish-what-comes-back
+  title: Refurbish What Comes Back
+  goal: Products taken back are repaired or refurbished by the enterprise and returned to use.
+  step: circular-procurement/take-back-and-return-to-use
+  touchpoints:
+  - take-back-collection
+- slug: see-its-share-reported
+  title: See Its Share Reported
+  goal: The enterprise can see what it returned to use in the yearly report.
+  step: circular-procurement/circular-purchasing-report
+  touchpoints:
+  - published-circular-purchasing-report

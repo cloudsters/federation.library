@@ -1,0 +1,69 @@
+kind: entity
+slug: informal-settlement
+title: Informal Settlement
+type: master
+summary: A settlement built without formal title or permission, with its boundaries, households, own bodies, services and hazards.
+  The settlement's own bodies keep the record with the city, starting from the count and map the residents make themselves, and it
+  is used to plan upgrading in place, bring services in and recognise each household's right to stay.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: other-names
+  type: text
+  card: 0..*
+- name: boundary
+  type: document
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: household-count
+  type: integer
+  card: 0..1
+- name: own-bodies
+  type: text
+  card: 1..*
+- name: community-counts
+  type: reference(community-enumeration)
+  card: 0..*
+- name: land-parcels
+  type: reference(land-parcel)
+  card: 0..*
+- name: services-present
+  type: code
+  card: 0..*
+- name: hazards
+  type: text
+  card: 0..*
+- name: recognised-on
+  type: date
+  card: 0..1
+states:
+- identified
+- enumerated
+- recognised
+- upgrading
+- upgraded
+- tenure-secured
+relations:
+- type: part-of
+  target: neighbourhood
+- type: based-on
+  target: community-enumeration
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: flood-risk-map
+- type: governed-by
+  target: upgrading-plan
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

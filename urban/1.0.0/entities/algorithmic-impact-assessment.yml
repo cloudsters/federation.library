@@ -1,0 +1,69 @@
+kind: entity
+slug: algorithmic-impact-assessment
+title: Algorithmic Impact Assessment
+type: intelligence
+summary: The assessment of who gains and who bears harm from an algorithm or automated system, with its bias tests across neighbourhoods
+  and groups and its checks against data protection and the city's obligations. The department that proposes the system prepares it
+  with the data protection officer and the communities concerned and publishes it, and the community authorisation and approval of
+  the system rest on it, afresh at each change and reauthorisation.
+attributes:
+- name: system
+  type: reference(automated-system-register)
+  card: 1..1
+- name: proposal
+  type: reference(automation-proposal)
+  card: 0..1
+- name: assessment-kind
+  type: code
+  card: 1..1
+- name: groups-affected
+  type: text
+  card: 1..*
+- name: expected-benefits
+  type: text
+  card: 1..*
+- name: harms-identified
+  type: text
+  card: 0..*
+- name: bias-test-results
+  type: document
+  card: 1..*
+- name: neighbourhoods-tested
+  type: reference(neighbourhood)
+  card: 0..*
+- name: data-impact-assessment
+  type: reference(data-impact-assessment)
+  card: 0..1
+- name: obligations-checked
+  type: reference(obligation-register)
+  card: 0..*
+- name: assessed-by
+  type: text
+  card: 1..*
+- name: completed-on
+  type: date
+  card: 0..1
+states:
+- commissioned
+- in-progress
+- completed
+- published
+- superseded
+relations:
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: automation-proposal
+- type: based-on
+  target: data-impact-assessment
+- type: refers-to
+  target: obligation-register
+- type: refers-to
+  target: neighbourhood
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-232
+  edition: '2025'
+  jurisdiction: global

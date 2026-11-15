@@ -1,0 +1,60 @@
+kind: entity
+slug: whole-life-cost-calculation
+title: Whole-Life Cost Calculation
+type: intelligence
+summary: The comparison of the offers in a tender on their cost over the whole life of what is bought, with purchase, energy, upkeep,
+  repair and end of use included, and on their embedded carbon. The procurement office prepares it with the requesting department
+  for each tender where it applies, and the evaluation panel scores the bids with it.
+attributes:
+- name: procurement
+  type: reference(public-procurement)
+  card: 1..1
+- name: bids-compared
+  type: reference(bid)
+  card: 1..*
+- name: method
+  type: text
+  card: 1..1
+- name: life-span
+  type: quantity
+  card: 1..1
+- name: cost-components
+  type: text
+  card: 1..*
+- name: discount-rate
+  type: decimal
+  card: 0..1
+- name: carbon-price
+  type: amount
+  card: 0..1
+- name: assumptions
+  type: text
+  card: 0..*
+- name: cost-results
+  type: document
+  card: 1..1
+- name: embedded-carbon-results
+  type: document
+  card: 0..1
+- name: prepared-on
+  type: date
+  card: 1..1
+states:
+- scoped
+- calculated
+- checked
+- applied
+- superseded
+relations:
+- type: refers-to
+  target: public-procurement
+- type: based-on
+  target: bid
+- type: refers-to
+  target: tender-specification
+- type: refers-to
+  target: climate-action-plan
+binds:
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

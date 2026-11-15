@@ -1,0 +1,10 @@
+kind: capability
+slug: project-management
+title: Project Management
+level: L3
+parent: change-portfolio
+summary: Plan, execute, monitor and close projects to agreed scope, time, cost and quality.
+binds:
+- source: src-315
+  edition: '2020'
+  jurisdiction: global

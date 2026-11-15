@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: fault-tracking-view
+title: Fault Tracking View
+medium: channel
+summary: The view, online and by message, in which the reporter follows a fault from triage to repair against its published response
+  time.
+exchanges:
+- fault-report-for-a-published-response-time
+journey: volunteer-caring-for-a-shared-place

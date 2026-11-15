@@ -1,0 +1,18 @@
+kind: solution
+slug: resident-contact-management-system
+title: Resident Contact Management System
+role: system-of-engagement
+summary: Receives every contact by counter, telephone, letter, message and online under one reference, holds the shared answers in
+  use, hands matters to services with what the person said, tracks each to its close and keeps the contact record that residents can
+  see and limit.
+carries:
+- enquiry-intake
+- enquiry-need-clarification
+- enquiry-answering-and-referral
+- enquiry-follow-through
+- contact-record-keeping
+- enquiry-pattern-analysis
+holds:
+- resident-enquiry
+- contact-record
+- enquiry-pattern-report

@@ -1,0 +1,57 @@
+kind: journey
+slug: carrying-a-finding-to-patients
+title: Carrying a Finding to Patients
+stakeholder: clinician-scientist
+summary: The clinician scientist's path from a promising finding through the laboratory and the first patients to a decision on its
+  future.
+stages:
+- slug: testing-the-idea
+  title: Testing the Idea
+  goal: Know whether the finding is strong and needed enough to justify years of development.
+  step: translational-research/finding-assessment
+  touchpoints:
+  - translational-gate-review
+  - technology-transfer-office
+- slug: proving-the-concept
+  title: Proving the Concept
+  goal: Show efficacy and safety in models with reproducible data, and fund the work.
+  step: translational-research/preclinical-development
+  touchpoints:
+  - research-laboratory
+  - core-facility
+  - funding-proposal
+- slug: validating-the-marker
+  title: Validating the Marker
+  goal: Show that the biomarker or method measures what it claims in real patient samples.
+  step: translational-research/biomarker-and-method-validation
+  touchpoints:
+  - biobank
+  - data-use-and-access-committee
+- slug: making-the-product
+  title: Making the Product
+  goal: Have a product of the quality required for the first patients.
+  step: translational-research/investigational-product-manufacture
+  touchpoints:
+  - core-facility
+  - hospital-pharmacy
+- slug: getting-permission
+  title: Getting Permission
+  goal: Know what evidence the regulator expects and obtain approval to start.
+  step: translational-research/regulatory-and-ethics-preparation
+  touchpoints:
+  - regulatory-advice-meeting
+  - research-ethics-committee-meeting
+- slug: treating-the-first-patients
+  title: Treating the First Patients
+  goal: Treat the first patients safely and learn as much as possible from each.
+  step: translational-research/first-in-human-study
+  touchpoints:
+  - clinical-trial-unit
+  - study-visit
+- slug: deciding-the-next-step
+  title: Deciding the Next Step
+  goal: Take a clear decision on the next stage and find the partner or funding it needs.
+  step: translational-research/gate-review-and-reverse-translation
+  touchpoints:
+  - translational-gate-review
+  - scientific-publication

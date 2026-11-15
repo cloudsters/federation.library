@@ -1,0 +1,41 @@
+kind: journey
+slug: operator-working-safely-every-shift
+title: Operator Working Safely Every Shift
+stakeholder: production-operator
+summary: An operator helps assess the hazards of the workplace, is instructed and cared for, works under permit where the work is
+  dangerous, practises for emergencies and reports every incident and near miss without fear.
+stages:
+- slug: help-assess-the-hazards
+  title: Help Assess the Hazards
+  goal: The operator's knowledge of the real workplace is in the risk assessment and its controls.
+  step: ecological-health-safety/hazard-and-impact-assessment
+  touchpoints:
+  - risk-assessment
+  - shop-floor
+- slug: be-instructed-and-cared-for
+  title: Be Instructed and Cared For
+  goal: The operator is instructed for the workplace and tasks and receives the health checks the exposure calls for.
+  step: ecological-health-safety/instruction-and-occupational-health
+  touchpoints:
+  - safety-instruction
+  - occupational-health-check
+- slug: work-under-control
+  title: Work Under Control
+  goal: Dangerous work starts only under a valid permit, and the operator stops work that endangers people or the environment.
+  step: ecological-health-safety/work-and-contractor-control
+  touchpoints:
+  - work-permit
+  - shop-floor
+- slug: know-what-to-do-in-an-emergency
+  title: Know What to Do in an Emergency
+  goal: The operator knows the alarms, routes and roles and has practised them.
+  step: ecological-health-safety/emergency-preparedness
+  touchpoints:
+  - emergency-drill
+- slug: report-every-near-miss
+  title: Report Every Near Miss
+  goal: Accidents and near misses are reported without blame, and the operator hears what was changed as a result.
+  step: ecological-health-safety/incident-and-near-miss-reporting
+  touchpoints:
+  - incident-report
+  - shop-floor-meeting

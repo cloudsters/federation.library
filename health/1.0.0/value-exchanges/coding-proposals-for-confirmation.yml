@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: coding-proposals-for-confirmation
+title: Coding Proposals for Confirmation
+between:
+- documentation-agent
+- administrative-staff
+offered:
+- Coding proposals drafted from the full record, each with the passages that support it.
+returned:
+- Confirmation or correction of every proposal, which keeps the coder accountable and improves later proposals.
+touchpoint: coding-worklist

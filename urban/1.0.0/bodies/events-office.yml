@@ -1,0 +1,19 @@
+kind: body
+slug: events-office
+title: Events Office
+summary: Keeps the city's events calendar, takes and assesses event proposals, shapes events with the communities they present, issues
+  the one event permit, agrees safety plans and benefit agreements and reviews each event's legacy.
+holds:
+- events-and-festivals
+- events-calendar-coordination
+- event-proposal-intake
+- event-impact-assessment
+- event-co-design
+- cultural-exchange-programming
+- event-permit-issuing
+- event-safety-planning
+- event-benefit-agreement-drafting
+- event-legacy-review
+part_of: full-council
+type: function
+form: organisational-unit

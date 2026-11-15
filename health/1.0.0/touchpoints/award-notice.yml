@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: award-notice
+title: Award Notice
+medium: artefact
+summary: The notice informing every bidder of the award decision, the reasons for it and the period within which it can be challenged.
+exchanges:
+- pooled-terms-for-committed-volume
+- competitive-bid-for-fair-award
+journey: bidding-in-a-supply-tender

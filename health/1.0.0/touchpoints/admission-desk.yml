@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: admission-desk
+title: Admission Desk
+medium: place
+summary: Where a planned or emergency patient is registered, identified and their coverage established; the record created here carries
+  through every later step of the stay.
+exchanges:
+- screening-for-protection
+- record-access-for-continuity
+- proof-of-coverage-for-certainty
+journey: paying-for-care-directly

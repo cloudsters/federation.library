@@ -1,0 +1,57 @@
+kind: entity
+slug: care-plan
+title: Care Plan
+type: transactional
+summary: The plan for a patient's care in an episode, stating the health issues addressed, the goals sought, the activities
+  planned and who performs them, and revised as the patient's condition changes.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: episode-of-care
+  type: reference(episode-of-care)
+  card: 0..1
+- name: plan-kind
+  type: code
+  card: 1..1
+- name: addresses
+  type: reference(health-issue)
+  card: 1..*
+- name: planned-activities
+  type: reference(clinical-order)
+  card: 0..*
+- name: authors
+  type: reference(practitioner-role)
+  card: 1..*
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- draft
+- active
+- on-hold
+- completed
+- revoked
+relations:
+- type: part-of
+  target: episode-of-care
+- type: based-on
+  target: care-needs-assessment
+- type: based-on
+  target: care-pathway
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

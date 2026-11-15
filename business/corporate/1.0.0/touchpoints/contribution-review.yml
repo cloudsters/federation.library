@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contribution-review
+title: Contribution Review
+medium: encounter
+summary: The review in which contributions from adopters are examined, improved together and taken into the shared origin, and their
+  authors recognised.
+exchanges:
+- contribution-for-steward-recognition
+journey: partner-running-a-federated-instance

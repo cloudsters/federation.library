@@ -1,0 +1,45 @@
+kind: journey
+slug: working-safely-and-staying-well
+title: Working Safely and Staying Well
+stakeholder: registered-nurse
+summary: A nurse exposed to infection, heavy lifting, hazardous medicines, aggression and strain is protected at work, cared for after
+  an accident and supported back after illness.
+stages:
+- slug: know-the-hazards
+  title: Know the Hazards
+  goal: Know the hazards of the workplace and have a say in the measures.
+  step: occupational-health-and-safety/hazard-assessment
+  touchpoints:
+  - workplace-safety-round
+- slug: be-protected
+  title: Be Protected
+  goal: Have equipment, safer devices and training that make the work safe.
+  step: occupational-health-and-safety/protective-measures
+  touchpoints:
+  - unit-induction
+  - learning-platform
+- slug: have-health-checked
+  title: Have Health Checked
+  goal: Receive the examinations and vaccinations the work requires, in confidence.
+  step: occupational-health-and-safety/health-surveillance
+  touchpoints:
+  - occupational-health-consultation
+- slug: get-help-after-an-accident
+  title: Get Help after an Accident
+  goal: Receive immediate care after an exposure or assault, and see the report lead to change.
+  step: occupational-health-and-safety/accident-and-exposure-response
+  touchpoints:
+  - incident-reporting-system
+  - occupational-health-consultation
+- slug: find-support
+  title: Find Support
+  goal: Find someone to talk to after a distressing event, without stigma.
+  step: occupational-health-and-safety/staff-support
+  touchpoints:
+  - peer-support-service
+- slug: come-back-to-work
+  title: Come Back to Work
+  goal: Return after long illness with duties and hours that fit.
+  step: occupational-health-and-safety/return-to-work
+  touchpoints:
+  - return-to-work-conversation

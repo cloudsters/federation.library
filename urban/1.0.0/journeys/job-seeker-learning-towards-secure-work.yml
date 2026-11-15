@@ -1,0 +1,44 @@
+kind: journey
+slug: job-seeker-learning-towards-secure-work
+title: Job Seeker Learning Towards Secure Work
+stakeholder: job-seeker
+summary: A job seeker finds learning that fits their care duties and budget, is guided and enrolled with a plan they hold, learns
+  in the neighbourhood with books, tools and devices lent, has what they can do recognised and says what the learning changed.
+stages:
+- slug: find-learning-that-fits-their-life
+  title: Find Learning That Fits Their Life
+  goal: The job seeker has found learning close to home, at a time that fits, at a cost they can bear, with childcare, interpreting
+    or other help they need.
+  step: adult-and-lifelong-learning/learning-access
+  touchpoints:
+  - learning-access-request
+  - published-learning-programme
+- slug: be-guided-and-enrolled
+  title: Be Guided and Enrolled
+  goal: The job seeker has been guided to learning that fits their aim, is enrolled and holds their own learning plan.
+  step: adult-and-lifelong-learning/guidance-and-enrolment
+  touchpoints:
+  - learning-guidance-conversation
+  - any-channel-enrolment
+- slug: learn-in-the-neighbourhood
+  title: Learn in the Neighbourhood
+  goal: The job seeker takes part in a course or study circle in a neighbourhood place, with the books, tools and devices they need
+    lent to them.
+  step: adult-and-lifelong-learning/learning-delivery
+  touchpoints:
+  - study-circle
+  - library-lending-counter
+- slug: have-what-they-can-do-recognised
+  title: Have What They Can Do Recognised
+  goal: The job seeker has shown a skill in practice and holds a recognition that employers and practitioners accept, however the
+    skill was gained.
+  step: adult-and-lifelong-learning/skill-recognition
+  touchpoints:
+  - peer-skill-attestation-circle
+  - learner-skill-record
+- slug: say-what-learning-changed
+  title: Say What Learning Changed
+  goal: The job seeker has said what the learning changed in their work and income, and the offer is changed on it.
+  step: adult-and-lifelong-learning/learning-outcome-review
+  touchpoints:
+  - learner-outcome-circle

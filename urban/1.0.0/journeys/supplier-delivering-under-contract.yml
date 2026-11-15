@@ -1,0 +1,39 @@
+kind: journey
+slug: supplier-delivering-under-contract
+title: Supplier Delivering Under Contract
+stakeholder: supplier
+summary: A supplier starts delivery with those who rely on it, reports what it delivered and the commitments it kept, is heard before
+  any remedy, reviews the relationship with the city each year and hands over in good order when the contract ends.
+stages:
+- slug: start-delivery-together
+  title: Start Delivery Together
+  goal: The supplier knows the contacts, service levels and commitments and has agreed with the department how delivery starts.
+  step: contract-and-supplier-performance/contract-mobilisation
+  touchpoints:
+  - contract-start-meeting
+- slug: report-what-was-delivered
+  title: Report What Was Delivered
+  goal: The supplier's monthly report shows delivery, service levels and the jobs and wages it promised, and workers have confirmed
+    them.
+  step: contract-and-supplier-performance/delivery-and-commitment-monitoring
+  touchpoints:
+  - monthly-contract-performance-report
+  - worker-commitment-check
+- slug: be-heard-before-a-remedy
+  title: Be Heard Before a Remedy
+  goal: The supplier has given its account of a shortfall and agreed a correction before any remedy is applied.
+  step: contract-and-supplier-performance/variation-and-remedy
+  touchpoints:
+  - contract-remedy-hearing
+- slug: review-what-each-side-owes
+  title: Review What Each Side Owes
+  goal: The supplier and the city have reviewed performance and the city's payment record and agreed what improves next.
+  step: contract-and-supplier-performance/supplier-performance-review
+  touchpoints:
+  - annual-supplier-review-meeting
+- slug: hand-over-in-good-order
+  title: Hand Over in Good Order
+  goal: At the end of the contract the supplier hands over data, assets and knowledge so that the service continues without a break.
+  step: contract-and-supplier-performance/renewal-or-exit-decision
+  touchpoints:
+  - contract-exit-handover

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: presence-for-a-cool-place-to-rest
+title: Presence for a Cool Place to Rest
+between:
+- older-resident
+- city-administration
+offered:
+- The resident's visit to the cooling room when the heat is dangerous.
+returned:
+- A cool room with water and seating open nearby during the heat wave.
+touchpoint: heat-wave-cooling-room

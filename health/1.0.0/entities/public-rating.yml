@@ -1,0 +1,39 @@
+kind: entity
+slug: public-rating
+title: Public Rating
+type: transactional
+summary: A rating, review or ranking of the organisation, a service or a clinician published by a third party, captured with its source,
+  score and content, and with the organisation's response to it.
+attributes:
+- name: rating-kind
+  type: code
+  card: 1..1
+- name: source
+  type: reference(organisation)
+  card: 1..1
+- name: subject-units
+  type: reference(organisation-unit)
+  card: 0..*
+- name: published-on
+  type: date
+  card: 1..1
+- name: score
+  type: quantity
+  card: 0..1
+- name: content
+  type: document
+  card: 0..1
+- name: response
+  type: reference(public-statement)
+  card: 0..1
+states:
+- captured
+- under-review
+- responded
+- escalated
+- closed
+relations:
+- type: produces
+  target: complaint
+- type: refers-to
+  target: benchmark

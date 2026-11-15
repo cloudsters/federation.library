@@ -1,0 +1,52 @@
+kind: entity
+slug: health-record
+title: Health Record
+type: master
+summary: The organisation's longitudinal record of care for one patient, made up of entries, documents, results and plans
+  authored by its care professionals. The record is held by the organisation, not by any one department.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: record-identifier
+  type: identifier
+  card: 1..1
+- name: holder
+  type: reference(organisation)
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: access-restriction
+  type: code
+  card: 0..*
+- name: retention-period
+  type: quantity
+  card: 0..1
+states:
+- open
+- closed
+- archived
+- disposed
+relations:
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-017
+  edition: '2019'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

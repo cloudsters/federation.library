@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: questions-for-patient-help
+title: Questions for Patient Help
+between:
+- older-resident
+- volunteer
+offered:
+- Their questions and the time to learn.
+returned:
+- Patient help and the confidence to use digital services alone or with a neighbour.
+touchpoint: library-digital-help-desk

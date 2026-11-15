@@ -1,0 +1,55 @@
+kind: entity
+slug: case-conference
+title: Case Conference
+type: transactional
+summary: A scheduled multidisciplinary meeting in which specialists jointly review a patient's case, such as a tumour board, and record
+  a treatment recommendation for the responsible care team.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: conference-kind
+  type: code
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: participants
+  type: reference(practitioner-role)
+  card: 1..*
+- name: held-at
+  type: datetime
+  card: 1..1
+- name: recommendation
+  type: text
+  card: 0..1
+- name: recommendation-followed
+  type: boolean
+  card: 0..1
+states:
+- registered
+- prepared
+- discussed
+- recommendation-issued
+- cancelled
+relations:
+- type: refers-to
+  target: diagnostic-report
+- type: produces
+  target: care-plan
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

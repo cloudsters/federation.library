@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: decline-reason-follow-up
+title: Decline Reason Follow-Up
+medium: channel
+summary: A short contact by phone, letter or visit with those who decline an invitation, asking why, so that the barriers can be removed.
+exchanges:
+- decline-reasons-for-removed-barriers
+journey: administration-involving-residents-in-a-decision

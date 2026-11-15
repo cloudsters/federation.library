@@ -1,0 +1,14 @@
+kind: capability
+slug: emergency-and-disaster-preparedness
+title: Emergency & Disaster Preparedness
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Plan and exercise the response to mass-casualty incidents, external disasters and internal emergencies, including
+  incident command.
+binds:
+- source: src-338
+  edition: '2018'
+  jurisdiction: global
+- source: src-536
+  edition: '2011'
+  jurisdiction: global

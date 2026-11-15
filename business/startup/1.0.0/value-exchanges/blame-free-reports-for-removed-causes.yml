@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: blame-free-reports-for-removed-causes
+title: Blame-Free Reports for Removed Causes
+between:
+- production-operator
+- quality-manager
+offered:
+- Prompt, honest reports of every deviation, including one's own mistakes, and time to help find their causes.
+returned:
+- Protection from blame, help in containing the problem and corrections that remove the cause rather than the reporter.
+touchpoint: shop-floor-meeting

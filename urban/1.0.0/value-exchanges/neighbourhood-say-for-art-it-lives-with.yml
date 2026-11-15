@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-say-for-art-it-lives-with
+title: Neighbourhood Say for Art It Lives With
+between:
+- neighbourhood-association
+- artist
+offered:
+- The neighbourhood's decision on what art it wants in its streets.
+returned:
+- A work made for it by an artist it chose.
+touchpoint: public-art-neighbourhood-decision

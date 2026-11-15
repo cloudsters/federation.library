@@ -1,0 +1,27 @@
+kind: journey
+slug: future-generations-heard-through-a-proxy
+title: Future Generations Heard Through a Proxy
+stakeholder: future-generations
+summary: Those who will live with the long-term consequences are given standing through a proxy with a defined mandate, heard before
+  decisions that affect them, and told what was decided on their behalf.
+stages:
+- slug: gain-standing
+  title: Gain Standing
+  goal: The long-term interests a decision affects are named, and a proxy with a defined mandate is recorded to speak for them.
+  step: ecosystem-relationship-design/participant-standing-map
+  touchpoints:
+  - proxy-mandate
+- slug: be-heard-before-the-decision
+  title: Be Heard Before the Decision
+  goal: The proxy is heard before a decision with lasting consequences, and the hearing is part of the record.
+  step: ecosystem-relationship-design/absent-participant-representation
+  touchpoints:
+  - absent-participant-hearing
+  - proxy-mandate
+- slug: see-the-long-view-weighed
+  title: See the Long View Weighed
+  goal: The proxy receives an answer on how the long-term concern was weighed, and the report shows it to everyone.
+  step: ecosystem-relationship-design/concern-follow-up
+  touchpoints:
+  - absent-participant-hearing
+  - sustainability-report

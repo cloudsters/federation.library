@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: operating-theatre
+title: Operating Theatre
+medium: place
+summary: The suite where surgical and interventional procedures are performed by surgical, anaesthesia and nursing teams, scheduled
+  against the competing demands of emergencies and planned cases.
+exchanges:
+- used-sets-for-sterile-sets
+- checklist-confirmation-for-safe-surgery
+- low-emission-anaesthesia-for-shared-targets
+- ready-case-cart-for-complete-implant-records
+journey: load-measured-and-reduced

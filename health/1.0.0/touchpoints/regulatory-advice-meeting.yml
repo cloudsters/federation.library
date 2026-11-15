@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: regulatory-advice-meeting
+title: Regulatory Advice Meeting
+medium: encounter
+summary: The meeting in which a regulator advises developers on the evidence and quality data a new therapy or diagnostic needs before
+  first use in humans or approval.
+exchanges:
+- development-plan-for-regulatory-advice
+journey: carrying-a-finding-to-patients

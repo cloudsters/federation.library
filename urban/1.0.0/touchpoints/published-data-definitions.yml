@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-data-definitions
+title: Published Data Definitions
+medium: artefact
+summary: The published definitions and identifiers of address, parcel, building, resident, service and the other core things of the
+  city that every system uses.
+exchanges:
+- working-knowledge-for-one-definition
+journey: information-technology-specialist-connecting-two-systems

@@ -1,0 +1,58 @@
+kind: entity
+slug: shipment
+title: Shipment
+type: transactional
+summary: A physical movement through space — the logistics event that carries value from origin to destination, bridging the gap between
+  production and customer receipt.
+attributes:
+- name: delivery-notes
+  type: reference(delivery-note)
+  card: 1..*
+- name: carrier
+  type: reference(carrier)
+  card: 1..1
+- name: route
+  type: text
+  card: 0..1
+- name: tracking-reference
+  type: identifier
+  card: 0..1
+- name: weight
+  type: quantity
+  card: 0..1
+- name: cost
+  type: amount
+  card: 0..1
+- name: dispatch-date
+  type: date
+  card: 0..1
+- name: delivery-date
+  type: date
+  card: 0..1
+states:
+- planned
+- dispatched
+- in-transit
+- delivered
+- exception
+relations:
+- type: composed-of
+  target: delivery-note
+- type: assigned-to
+  target: carrier
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-141
+  edition: '2020'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

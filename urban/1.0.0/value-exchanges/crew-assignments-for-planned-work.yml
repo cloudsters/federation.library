@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: crew-assignments-for-planned-work
+title: Crew Assignments for Planned Work
+between:
+- city-administration
+- frontline-worker
+offered:
+- A schedule of inspections and preventive work set by criticality and condition, with the time and tools it needs.
+returned:
+- Planned work done when it falls due, and crews' notes on assets that wear faster than planned.
+touchpoint: maintenance-work-schedule

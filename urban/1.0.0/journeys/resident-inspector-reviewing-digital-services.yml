@@ -1,0 +1,32 @@
+kind: journey
+slug: resident-inspector-reviewing-digital-services
+title: Resident Inspector Reviewing Digital Services
+stakeholder: resident-inspector
+summary: A resident inspector compares the published levels with the records of faults and requests, follows recurring faults to their
+  causes and brings the findings into the review with users.
+stages:
+- slug: read-the-levels
+  title: Read the Levels
+  goal: The inspector knows what each service under review must keep.
+  step: digital-service-operations/service-definition-and-levels
+  touchpoints:
+  - published-service-levels
+- slug: sample-the-cases
+  title: Sample the Cases
+  goal: The inspector has the records of faults and requests and of the channels by which they came.
+  step: digital-service-operations/service-desk-intake
+  touchpoints:
+  - digital-service-desk
+- slug: follow-recurring-faults
+  title: Follow Recurring Faults
+  goal: The inspector sees whether recurring faults were traced and removed or only patched.
+  step: digital-service-operations/problem-analysis
+  touchpoints:
+  - problem-review-meeting
+- slug: bring-the-findings-to-the-review
+  title: Bring the Findings to the Review
+  goal: The findings are published with the review, and each has an answer and an agreed improvement.
+  step: digital-service-operations/service-review-with-users
+  touchpoints:
+  - service-review-session
+  - service-performance-report

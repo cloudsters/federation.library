@@ -1,0 +1,28 @@
+kind: solution
+slug: commons-instance-repository
+title: Commons Instance Repository
+role: system-of-record
+summary: 'Holds the instance of the commons as versioned code: its charter, boundaries, stakeholder standing, covenants, ecological
+  parameters and irreversible decisions, so that governance can be read, forked and checked.'
+carries:
+- affected-community-standing
+- commons-as-code-practice
+- commons-boundary-design
+- irreversibility-governance
+- multi-stakeholder-governance-design
+- non-human-participant-design
+- physical-commons-governance
+- post-life-commons-governance
+- solidarity-covenant-governance
+- stakeholder-charter-design
+- stale-mandate-detection
+- activity-boundary-definition
+holds:
+- commons-instance
+- commons
+- commons-charter
+- stakeholder
+- solidarity-covenant
+- irreversibility-declaration
+- ecological-parameter
+- post-life-directive

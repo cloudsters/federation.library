@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: emergency-alert
+title: Emergency Alert
+medium: channel
+summary: The alerting channel that warns staff, visitors and neighbours of an emergency and tells them what to do.
+exchanges:
+- rehearsed-roles-for-safety-in-crisis
+journey: site-manager-keeping-a-site-running-through-disruption

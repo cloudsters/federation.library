@@ -1,0 +1,27 @@
+kind: solution
+slug: image-archive-and-viewing
+title: Image Archive and Viewing
+role: system-of-record
+summary: Stores, distributes and displays the medical images of every department, such as radiology, cardiology, endoscopy and digital
+  pathology, and makes them viewable wherever care, teaching or research needs them.
+carries:
+- radiological-reporting
+- teleradiology
+- digital-pathology
+- interventional-cardiology
+- record-retention-and-archiving
+holds:
+- image-study
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

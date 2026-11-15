@@ -1,0 +1,46 @@
+kind: entity
+slug: budget
+title: Budget
+type: governance
+summary: The approved financial plan of the organisation or one of its units for a period, setting revenue, personnel, material
+  and investment amounts against which actual results are steered.
+attributes:
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: budget-period
+  type: period
+  card: 1..1
+- name: planned-revenue
+  type: amount
+  card: 1..1
+- name: planned-personnel-cost
+  type: amount
+  card: 1..1
+- name: planned-material-cost
+  type: amount
+  card: 1..1
+- name: planned-investment
+  type: amount
+  card: 0..1
+- name: cost-centres
+  type: reference(cost-centre)
+  card: 0..*
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- draft
+- negotiated
+- approved
+- in-execution
+- closed
+relations:
+- type: based-on
+  target: payer-agreement
+- type: based-on
+  target: strategy
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

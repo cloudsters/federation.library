@@ -1,0 +1,48 @@
+kind: entity
+slug: authorization-by-law
+title: Authorization by Law
+type: governance
+summary: A legal provision that permits care or the processing of care information without the subject's consent, such as
+  emergency treatment, compulsory care, mandatory notification or statutory reporting, with its scope and conditions.
+attributes:
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: legal-reference
+  type: text
+  card: 1..1
+- name: applies-to
+  type: code
+  card: 1..1
+- name: scope
+  type: code
+  card: 1..*
+- name: conditions
+  type: text
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- in-force
+- amended
+- repealed
+relations:
+- type: refers-to
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

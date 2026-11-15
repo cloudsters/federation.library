@@ -1,0 +1,31 @@
+kind: journey
+slug: department-head-holding-delegated-rights
+title: Department Head Holding Delegated Rights
+stakeholder: head-of-clinical-department
+summary: 'The department head''s side of governance: receiving delegated rights and clinical accountability, bringing matters
+  to the board, being audited and answering for implementation.'
+stages:
+- slug: receiving-delegated-rights
+  title: Receiving Delegated Rights
+  goal: Know the decision rights, budget limits and clinical accountability held for the department.
+  step: governance-and-oversight/decision-rights-allocation
+  touchpoints:
+  - policy-library
+- slug: bringing-matters-for-decision
+  title: Bringing Matters for Decision
+  goal: Bring matters beyond the delegated limits to the board with what it needs to decide.
+  step: governance-and-oversight/decision-preparation
+  touchpoints:
+  - board-meeting
+- slug: being-audited
+  title: Being Audited
+  goal: Receive fair findings on the department's controls and agree the corrective actions.
+  step: governance-and-oversight/internal-control-and-audit
+  touchpoints:
+  - internal-audit-report
+- slug: answering-for-implementation
+  title: Answering for Implementation
+  goal: Report on resolutions and corrective actions in the department and on what blocks them.
+  step: governance-and-oversight/implementation-oversight
+  touchpoints:
+  - board-meeting

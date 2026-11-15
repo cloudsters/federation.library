@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: holiday-let-register-entry
+title: Holiday-Let Register Entry
+medium: channel
+summary: The entry by which each home let to visitors is registered, shown with its number wherever it is offered and counted against
+  the limit for its neighbourhood.
+exchanges:
+- registered-let-for-a-lawful-stay
+journey: local-business-welcoming-visitors-through-the-year

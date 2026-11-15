@@ -1,0 +1,27 @@
+kind: journey
+slug: supervisory-board-approving-a-long-horizon-strategy
+title: Supervisory Board Approving a Long-Horizon Strategy
+stakeholder: supervisory-board
+summary: The supervisory board agrees the frame of a strategy review, challenges the options the management brings and approves a
+  strategy whose premises and risks it understands.
+stages:
+- slug: agree-the-frame
+  title: Agree the Frame
+  goal: The board knows the horizon, scope and calendar of the review and when it will be asked to decide.
+  step: strategy-as-living-design/strategy-cycle-opening
+  touchpoints:
+  - supervisory-board-meeting
+- slug: challenge-the-options
+  title: Challenge the Options
+  goal: The board has questioned the options, their premises and their risks before any choice is made.
+  step: strategy-as-living-design/option-design-and-testing
+  touchpoints:
+  - supervisory-board-meeting
+  - strategic-assessment
+- slug: approve-the-strategy
+  title: Approve the Strategy
+  goal: The board approves one strategy, its resource rules and the conditions under which it must be reopened.
+  step: strategy-as-living-design/strategy-choice-and-adoption
+  touchpoints:
+  - supervisory-board-meeting
+  - strategy-document

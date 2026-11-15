@@ -1,0 +1,38 @@
+kind: journey
+slug: employee-shaping-the-way-work-flows
+title: Employee Shaping the Way Work Flows
+stakeholder: employee
+summary: An employee finds how work is meant to flow, tells the process owner where it no longer serves, helps redesign it, learns
+  the new or automated flow and sees how decisions taken with agents are reviewed.
+stages:
+- slug: find-how-work-is-done
+  title: Find How Work Is Done
+  goal: The current process, its roles and control points are published where the employee works and match what is actually done.
+  step: process-as-living-pattern/process-definition
+  touchpoints:
+  - process-library
+  - intranet
+- slug: say-where-it-hurts
+  title: Say Where It Hurts
+  goal: Waiting, rework and workarounds are raised in the retrospective and taken seriously by the process owner.
+  step: process-as-living-pattern/vitality-sensing
+  touchpoints:
+  - process-retrospective
+- slug: redesign-the-flow
+  title: Redesign the Flow
+  goal: The people closest to the work have removed waste and redesigned the flow, with the owner deciding on the spot.
+  step: process-as-living-pattern/process-improvement
+  touchpoints:
+  - improvement-workshop
+- slug: learn-the-new-flow
+  title: Learn the New Flow
+  goal: The employee is competent in the changed workflow or assistant before release and knows how to oversee it.
+  step: process-as-living-pattern/automation-build-and-roll-out
+  touchpoints:
+  - practice-briefing
+- slug: see-decisions-reviewed
+  title: See Decisions Reviewed
+  goal: Decisions taken with agents in the employee's work can be traced to a mandate and a person, and concerns reach the review.
+  step: process-as-living-pattern/co-authorship-and-review
+  touchpoints:
+  - decision-log

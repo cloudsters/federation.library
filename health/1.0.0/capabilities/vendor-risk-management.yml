@@ -1,0 +1,10 @@
+kind: capability
+slug: vendor-risk-management
+title: Vendor Risk Management
+level: L3
+parent: enterprise-risk-management
+summary: Assess and monitor risks that flow in through suppliers and service providers.
+binds:
+- source: src-394
+  edition: '2021'
+  jurisdiction: global

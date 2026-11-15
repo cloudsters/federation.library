@@ -1,0 +1,125 @@
+kind: value-stream
+slug: vigilance-and-recall-management
+title: Vigilance and Recall Management
+family: collaboration-to-automation
+summary: 'Acting on safety signals for medical devices, medicines and blood products: reporting adverse events, executing manufacturer
+  recalls and field safety notices, and tracing affected stock and patients.'
+trigger: A field safety notice or recall is received, or an adverse event involving a product is detected.
+outcome: Affected products are removed or corrected, affected patients are identified and followed up, and the required reports are
+  filed.
+stakeholders:
+- clinical-pharmacist
+- clinical-engineer
+- diagnostic-physician
+- specialist-physician
+- registered-nurse
+- support-services-staff
+- quality-and-safety-manager
+- supplier
+- health-regulator
+- elective-inpatient
+steps:
+- slug: signal-receipt
+  title: Signal Receipt
+  summary: Safety notices and recalls from manufacturers and authorities arrive at one central point, and adverse events involving
+    medicines, devices, implants and blood products detected in the commons are captured.
+  capabilities:
+  - safety-notice-dissemination
+  - pharmacovigilance
+  - device-incident-handling
+  - transfusion-medicine
+  entities:
+  - safety-notice
+  - adverse-event
+  - incident
+  serves:
+  - consultation
+  - feedback-and-complaints-channel
+  - field-safety-notice
+- slug: impact-assessment
+  title: Impact Assessment
+  summary: The responsible expert determines whether the organisation holds affected products, batches or serial numbers, where they
+    are, which patients received them and how urgent action is.
+  capabilities:
+  - hazard-assessment
+  - serial-number-tracking
+  - batch-traceability-and-records
+  - device-inventory-and-registration
+  - implant-and-material-documentation
+  entities:
+  - safety-notice
+  - inventory-item
+  - medical-device
+  - implant
+  - blood-product
+  serves:
+  - patient-held-health-record
+  - field-safety-notice
+- slug: product-action
+  title: Product Action
+  summary: Affected stock is quarantined and returned, devices are corrected or taken out of service, alternatives are secured, and
+    every unit concerned confirms the action within the deadline.
+  capabilities:
+  - product-recall-management
+  - safety-notice-dissemination
+  - returns-reverse-logistics
+  - drug-shortage-management
+  - device-maintenance-execution
+  entities:
+  - safety-notice
+  - inventory-item
+  - medical-device
+  - maintenance-order
+  serves:
+  - ward
+  - recall-response-form
+- slug: patient-tracing-and-follow-up
+  title: Patient Tracing and Follow-Up
+  summary: Patients who received an affected product are identified from implant, batch and transfusion records, assessed by their
+    physicians, informed and offered follow-up.
+  capabilities:
+  - implant-and-material-documentation
+  - transfusion-medicine
+  - health-record-management
+  - open-disclosure
+  - post-discharge-follow-up
+  entities:
+  - patient
+  - implant
+  - transfusion
+  - medication-administration
+  - care-communication
+  serves:
+  - consultation
+  - patient-recall-letter
+- slug: adverse-event-reporting
+  title: Adverse Event Reporting
+  summary: Suspected device incidents, adverse drug reactions and transfusion reactions are reported to the competent authority and
+    the manufacturer, and the products involved are kept for investigation.
+  capabilities:
+  - regulatory-incident-reporting
+  - pharmacovigilance
+  - device-incident-handling
+  entities:
+  - regulatory-notification
+  - adverse-event
+  - medical-device
+  serves:
+  - consultation
+  - regulatory-reporting-channel
+- slug: closure-and-effectiveness-review
+  title: Closure and Effectiveness Review
+  summary: The notice is closed once every action is confirmed, the reach of the recall is checked, and gaps in traceability or response
+    time are corrected and reflected in the supplier's evaluation.
+  capabilities:
+  - recall-effectiveness-review
+  - product-recall-management
+  - supplier-performance-evaluation
+  - non-conformance-management
+  entities:
+  - safety-notice
+  - corrective-action
+  - supplier-organisation
+  serves:
+  - patient-recall-letter
+  - recall-response-form

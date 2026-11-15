@@ -1,0 +1,60 @@
+kind: entity
+slug: housing-register
+title: Housing Register
+type: master
+summary: The list of households waiting for an affordable home, held as one entry per household with its need, stated priority and
+  waiting time, and open to the applicant. The housing office keeps it under the published allocation rules, and uses it to match
+  each empty home by priority and to report who waited longest.
+attributes:
+- name: entry-number
+  type: identifier
+  card: 1..1
+- name: application
+  type: reference(service-application)
+  card: 1..1
+- name: household-size
+  type: integer
+  card: 1..1
+- name: assessed-needs
+  type: code
+  card: 1..*
+- name: access-needs
+  type: code
+  card: 0..*
+- name: priority-band
+  type: code
+  card: 1..1
+- name: registered-on
+  type: date
+  card: 1..1
+- name: preferred-areas
+  type: reference(neighbourhood)
+  card: 0..*
+- name: offers-made
+  type: integer
+  card: 0..1
+- name: allocated-home
+  type: reference(dwelling)
+  card: 0..1
+- name: last-reviewed-on
+  type: date
+  card: 0..1
+states:
+- applied
+- assessed
+- registered
+- offered
+- housed
+- suspended
+- removed
+relations:
+- type: based-on
+  target: service-application
+- type: governed-by
+  target: housing-policy
+- type: governed-by
+  target: entitlement-rule
+- type: produces
+  target: entitlement-decision
+- type: refers-to
+  target: dwelling

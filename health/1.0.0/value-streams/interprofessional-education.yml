@@ -1,0 +1,116 @@
+kind: value-stream
+slug: interprofessional-education
+title: Interprofessional Education
+family: demand-to-fulfillment
+summary: 'Educating students and trainees of different professions together: joint courses, interprofessional training wards and team-based
+  learning that prepare them for collaborative practice.'
+trigger: A curriculum schedules an interprofessional module, or a training ward cohort is formed.
+outcome: Learners from different professions have completed joint learning and demonstrated collaborative competence.
+stakeholders:
+- medical-student
+- health-professions-student
+- clinical-educator
+- registered-nurse
+- specialist-physician
+- allied-health-professional
+- elective-inpatient
+- university
+steps:
+- slug: module-design
+  title: Module Design
+  summary: The faculties of the professions involved define shared learning outcomes, formats and the assessment of collaborative
+    competence, and fit the module into each programme's timetable.
+  capabilities:
+  - interprofessional-programme-design
+  - medical-curriculum-design
+  - academic-health-professions-programmes
+  - education-quality-assurance
+  entities:
+  - curriculum
+  - course
+  - competency
+  serves:
+  - curriculum-committee
+- slug: cohort-formation
+  title: Cohort Formation
+  summary: Mixed teams of learners from several professions are formed, schedules are aligned across programmes, and facilitators
+    and supervisors from each profession are prepared.
+  capabilities:
+  - learner-enrolment-and-records
+  - teaching-and-care-balance
+  - teaching-faculty-development
+  - team-based-learning
+  entities:
+  - learner-record
+  - course
+  - teaching-session
+  serves:
+  - education-office
+  - learning-platform
+- slug: joint-learning-sessions
+  title: Joint Learning Sessions
+  summary: Learners work through cases together in team-based learning and practise communication and crisis management in team simulations,
+    each followed by a facilitated debriefing.
+  capabilities:
+  - team-based-learning
+  - simulation-centre-operations
+  - crisis-resource-management-training
+  - in-situ-simulation
+  entities:
+  - teaching-session
+  - course
+  serves:
+  - learning-debriefing
+  - simulation-centre
+- slug: training-ward-practice
+  title: Training Ward Practice
+  summary: On an interprofessional training ward, learner teams care for real patients under supervision, plan care together in daily
+    team rounds and hand over between shifts.
+  capabilities:
+  - interprofessional-training-wards
+  - practice-supervision
+  - bedside-teaching
+  - ward-rounds
+  - clinical-handover
+  entities:
+  - rotation
+  - care-team
+  - care-plan
+  - encounter
+  serves:
+  - interprofessional-training-ward
+  - shift-handover
+  - ward-round
+- slug: reflection-and-assessment
+  title: Reflection and Assessment
+  summary: Learners reflect on how they worked as a team in structured debriefings, and their collaborative competence is assessed
+    by supervisors and peers.
+  capabilities:
+  - team-based-learning
+  - student-assessment
+  - practice-supervision
+  entities:
+  - learner-assessment
+  - competency
+  serves:
+  - learning-debriefing
+- slug: evaluation
+  title: Evaluation
+  summary: Learners, supervisors and patients evaluate the module, and patient safety and experience on the training ward are reviewed
+    alongside the learning results.
+  capabilities:
+  - teaching-quality-evaluation
+  - patient-experience-measurement
+  - education-quality-assurance
+  - clinical-outcome-tracking
+  entities:
+  - teaching-evaluation
+  - patient-experience-survey
+  - measure-report
+  serves:
+  - feedback-and-complaints-channel
+  - teaching-evaluation-survey
+binds:
+- source: src-467
+  edition: 3 (2023)
+  jurisdiction: global

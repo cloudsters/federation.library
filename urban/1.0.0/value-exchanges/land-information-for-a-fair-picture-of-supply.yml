@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: land-information-for-a-fair-picture-of-supply
+title: Land Information for a Fair Picture of Supply
+between:
+- landowner
+- city-planner
+offered:
+- The owner's information on the state and intended use of vacant and underused land.
+returned:
+- An atlas that shows the land supply fairly and tells the owner what the plan may ask of the land.
+touchpoint: land-and-growth-atlas

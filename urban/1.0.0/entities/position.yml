@@ -1,0 +1,66 @@
+kind: entity
+slug: position
+title: Position
+type: master
+summary: A post in the administration with its tasks, skills, pay grade, decision rights and department, held by a person or, for
+  defined tasks, by an AI agent. The personnel function keeps it from the moment the workforce plan funds it, and it is used to open
+  vacancies, to grade pay and to find the roles that rest on one person.
+attributes:
+- name: position-number
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: tasks
+  type: text
+  card: 1..*
+- name: skills-required
+  type: text
+  card: 0..*
+- name: pay-grade
+  type: code
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: holder-kind
+  type: code
+  card: 1..1
+- name: held-by-person
+  type: reference(staff-record)
+  card: 0..1
+- name: held-by-agent
+  type: reference(ai-agent)
+  card: 0..1
+- name: working-hours
+  type: quantity
+  card: 0..1
+- name: key-role
+  type: boolean
+  card: 0..1
+states:
+- planned
+- funded
+- vacant
+- filled
+- under-review
+- abolished
+relations:
+- type: part-of
+  target: department
+- type: governed-by
+  target: workforce-plan
+- type: governed-by
+  target: pay-scale
+- type: refers-to
+  target: decision-rights-register
+- type: assigned-to
+  target: staff-record
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

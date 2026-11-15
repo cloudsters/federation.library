@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-welcome-for-agreed-limits
+title: Neighbourhood Welcome for Agreed Limits
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The neighbourhood's welcome to visitors in its streets, markets and events.
+returned:
+- Agreed limits on lets and crowding, and what guests are asked to respect, upheld by the city.
+touchpoint: host-neighbourhood-agreement

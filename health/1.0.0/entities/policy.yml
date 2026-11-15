@@ -1,0 +1,46 @@
+kind: entity
+slug: policy
+title: Policy
+type: governance
+summary: An internal rule that binds staff, such as a policy, procedure, standard operating procedure, hygiene plan or data-protection
+  rule, with its owner, scope, approval and review date.
+attributes:
+- name: policy-kind
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: content
+  type: document
+  card: 1..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 1..1
+- name: obligations
+  type: reference(compliance-obligation)
+  card: 0..*
+states:
+- draft
+- approved
+- in-force
+- under-review
+- withdrawn
+relations:
+- type: based-on
+  target: compliance-obligation
+- type: based-on
+  target: governance-decision
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

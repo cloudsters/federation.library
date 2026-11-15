@@ -1,0 +1,11 @@
+kind: solution
+slug: fleet-management-system
+title: Fleet Management System
+role: system-of-record
+summary: Holds the city's vehicles and mobile machines with their condition, use and service history, schedules their servicing and
+  records each check for repair before replacement.
+carries:
+- fleet-and-equipment-maintenance
+- repair-before-replacement-check
+holds:
+- municipal-fleet

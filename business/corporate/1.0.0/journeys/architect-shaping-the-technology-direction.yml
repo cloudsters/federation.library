@@ -1,0 +1,44 @@
+kind: journey
+slug: architect-shaping-the-technology-direction
+title: Architect Shaping the Technology Direction
+stakeholder: information-technology-specialist
+summary: An enterprise architect assesses the technology landscape, formulates the technology strategy, explores what comes next,
+  keeps the architecture as living models and steers the portfolio and its decisions.
+stages:
+- slug: assess-the-landscape
+  title: Assess the Landscape
+  goal: Digital maturity and the value current technology creates are known.
+  step: technology-strategy-alignment/technology-landscape-assessment
+  touchpoints:
+  - technology-landscape-report
+- slug: formulate-the-strategy
+  title: Formulate the Strategy
+  goal: The technology strategy and its governance are set and tested against purpose.
+  step: technology-strategy-alignment/technology-strategy-formulation
+  touchpoints:
+  - technology-roadmap
+  - board-meeting
+- slug: explore-what-comes-next
+  title: Explore What Comes Next
+  goal: New technologies are tried in focused pilots and adopted, watched or set aside on evidence.
+  step: technology-strategy-alignment/emerging-technology-exploration
+  touchpoints:
+  - technology-pilot
+- slug: keep-the-architecture-alive
+  title: Keep the Architecture Alive
+  goal: Target architecture, principles and standards are versioned, readable and executable models.
+  step: technology-strategy-alignment/enterprise-architecture-definition
+  touchpoints:
+  - architecture-repository
+- slug: plan-the-portfolio
+  title: Plan the Portfolio
+  goal: Investments and retirements are planned as one portfolio funded by the value they serve.
+  step: technology-strategy-alignment/technology-portfolio-planning
+  touchpoints:
+  - technology-roadmap
+- slug: govern-the-decisions
+  title: Govern the Decisions
+  goal: Major decisions pass the architecture board and are checked against strategy and architecture.
+  step: technology-strategy-alignment/technology-decision-governance
+  touchpoints:
+  - architecture-board

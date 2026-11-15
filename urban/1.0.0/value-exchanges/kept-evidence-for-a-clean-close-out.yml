@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: kept-evidence-for-a-clean-close-out
+title: Kept Evidence for a Clean Close-Out
+between:
+- city-administration
+- funding-body
+offered:
+- The evidence kept for each grant from award to close-out.
+returned:
+- An audit that closes the grant without money being reclaimed.
+touchpoint: funder-audit-visit

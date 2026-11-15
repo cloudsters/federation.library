@@ -1,0 +1,53 @@
+kind: entity
+slug: water-quality-data
+title: Water Quality Data
+type: intelligence
+summary: Test results for drinking water and surface water by place and date, with any limit exceeded and the warning given. The water
+  operator and the environment office record them at plants, taps and waters, and publish them by neighbourhood so that a warning
+  reaches residents at once.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: sampling-point
+  type: text
+  card: 1..1
+- name: water-kind
+  type: code
+  card: 1..1
+- name: sampled-on
+  type: date
+  card: 1..1
+- name: parameters
+  type: code
+  card: 1..*
+- name: results
+  type: document
+  card: 1..1
+- name: limits-exceeded
+  type: code
+  card: 0..*
+- name: warning-issued
+  type: boolean
+  card: 1..1
+- name: warning-text
+  type: text
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+states:
+- sampled
+- analysed
+- validated
+- published
+- superseded
+relations:
+- type: refers-to
+  target: water-network
+- type: refers-to
+  target: waterway
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: health-alert

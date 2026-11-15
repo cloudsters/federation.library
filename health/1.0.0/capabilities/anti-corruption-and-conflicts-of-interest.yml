@@ -1,0 +1,10 @@
+kind: capability
+slug: anti-corruption-and-conflicts-of-interest
+title: Anti-Corruption & Conflicts of Interest
+level: L3
+parent: compliance-management
+summary: Prevent corruption and manage conflicts of interest in relations with industry, suppliers and referrers.
+binds:
+- source: src-316
+  edition: '2025'
+  jurisdiction: global

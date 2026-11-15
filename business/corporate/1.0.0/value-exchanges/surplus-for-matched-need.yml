@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: surplus-for-matched-need
+title: Surplus for Matched Need
+between:
+- partner
+- procurement-agent
+offered:
+- Surplus capacity, goods or capability that would otherwise stay idle.
+returned:
+- A matched need on fair terms, negotiated within both mandates.
+touchpoint: published-offer

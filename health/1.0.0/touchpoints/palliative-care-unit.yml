@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: palliative-care-unit
+title: Palliative Care Unit
+medium: place
+summary: The unit where patients with complex symptoms near the end of life are cared for by a specialised team, with room for relatives
+  to stay.
+exchanges:
+- comfort-for-candid-report
+- presence-for-inclusion-and-support
+journey: end-of-life-journey

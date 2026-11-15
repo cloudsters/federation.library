@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clinics-and-staff-for-residents-reached
+title: Clinics and Staff for Residents Reached
+between:
+- health-and-care-provider
+- community-health-worker
+offered:
+- Clinics, staff and vaccination brought to the neighbourhood.
+returned:
+- Residents who use prevention least, brought by someone they trust.
+touchpoint: pharmacy-health-check

@@ -1,0 +1,60 @@
+kind: entity
+slug: teleconsultation
+title: Teleconsultation
+type: transactional
+summary: A remote consultation in which a specialist of the organisation advises another care provider, or sees a patient, by video
+  or shared data, recorded with the question, the advice and where responsibility lies.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: requesting-organisation
+  type: reference(organisation)
+  card: 1..1
+- name: consultant
+  type: reference(practitioner-role)
+  card: 1..1
+- name: modality
+  type: code
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: advice
+  type: text
+  card: 0..1
+- name: responsibility
+  type: code
+  card: 1..1
+- name: held-at
+  type: datetime
+  card: 1..1
+states:
+- requested
+- scheduled
+- completed
+- cancelled
+relations:
+- type: based-on
+  target: request-for-care
+- type: refers-to
+  target: referral-relationship
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

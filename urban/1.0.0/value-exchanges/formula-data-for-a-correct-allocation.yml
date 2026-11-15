@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: formula-data-for-a-correct-allocation
+title: Formula Data for a Correct Allocation
+between:
+- finance-officer
+- funding-body
+offered:
+- The population and economic data on which the transfer formulae rest.
+returned:
+- The transfers and equalisation shares due to the city.
+touchpoint: transfer-claim-submission

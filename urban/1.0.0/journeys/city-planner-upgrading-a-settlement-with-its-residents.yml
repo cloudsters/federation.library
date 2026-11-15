@@ -1,0 +1,43 @@
+kind: journey
+slug: city-planner-upgrading-a-settlement-with-its-residents
+title: City Planner Upgrading a Settlement with Its Residents
+stakeholder: city-planner
+summary: A city planner supports the residents' own count, designs the upgrading with the settlement's bodies, brings services in
+  with residents' crews, strengthens the homes and slopes most exposed and reviews the stage with the settlement before the next.
+stages:
+- slug: support-the-residents-count
+  title: Support the Residents' Count
+  goal: The residents' count and map are complete and accepted by the city as the record on which the plan rests.
+  step: informal-settlement-upgrading/settlement-count-and-map
+  touchpoints:
+  - community-enumeration
+  - settlement-map
+- slug: co-design-the-plan
+  title: Co-Design the Plan
+  goal: A plan agreed with the settlement's bodies states the order of works, any moves of homes and the protections for residents.
+  step: informal-settlement-upgrading/upgrading-plan-agreement
+  touchpoints:
+  - upgrading-plan-assembly
+  - signed-upgrading-plan
+- slug: bring-services-in
+  title: Bring Services In
+  goal: Water points, toilets, power, drainage and paths are built with residents' crews and households are connected as the networks
+    reach them.
+  step: informal-settlement-upgrading/basic-service-connection
+  touchpoints:
+  - settlement-works-crew
+  - shared-water-point
+- slug: strengthen-homes-and-slopes
+  title: Strengthen Homes and Slopes
+  goal: The homes, walls and slopes most exposed to flood, landslide and fire are inspected and strengthened with residents, and paths
+    are safe to walk at night.
+  step: informal-settlement-upgrading/home-and-slope-strengthening
+  touchpoints:
+  - hazard-strengthening-walk
+  - settlement-works-crew
+- slug: review-the-stage
+  title: Review the Stage
+  goal: The city and the settlement's bodies have stated what was built, who was moved and why, and what the next stage takes up.
+  step: informal-settlement-upgrading/upgrading-review
+  touchpoints:
+  - upgrading-plan-assembly

@@ -1,0 +1,103 @@
+kind: value-stream
+slug: technology-strategy-alignment
+title: Technology Strategy as Purpose Alignment
+family: portfolio-to-system
+summary: Setting the direction of the whole technology estate from the organisation's purpose, through a technology strategy, a living
+  enterprise architecture, a governed portfolio of investments and a disciplined exploration of what comes next.
+trigger: The strategy changes, or a major technology decision requires architecture and portfolio alignment.
+outcome: A current technology strategy, architecture and portfolio guide every major technology decision.
+stakeholders:
+- executive-board
+- managing-director
+- information-technology-specialist
+- finance-professional
+- technology-provider
+steps:
+- slug: technology-landscape-assessment
+  title: Technology Landscape Assessment
+  summary: The digital maturity of the organisation and the value its current technology creates are assessed across customers, operations,
+    people and finances.
+  capabilities:
+  - digital-maturity-assessment
+  - technology-value-sensing
+  entities:
+  - application
+  - benchmark
+  - measure-report
+  serves:
+  - board-meeting
+  - technology-landscape-report
+- slug: technology-strategy-formulation
+  title: Technology Strategy Formulation
+  summary: The technology strategy, its governance and the philosophy of how services are run are set and tested against the purpose
+    and strategy of the organisation.
+  capabilities:
+  - technology-governance-alignment
+  - service-management-philosophy
+  entities:
+  - strategy
+  - policy
+  serves:
+  - board-meeting
+  - technology-roadmap
+- slug: emerging-technology-exploration
+  title: Emerging Technology Exploration
+  summary: New technologies are explored through focused experiments against what the organisation needs next, and adopted, watched
+    or set aside on evidence.
+  capabilities:
+  - technology-innovation-cultivation
+  entities:
+  - initiative
+  - market-insight
+  serves:
+  - technology-pilot
+- slug: enterprise-architecture-definition
+  title: Enterprise Architecture Definition
+  summary: The target architecture, its principles and standards are defined and kept as versioned, readable and executable models
+    of capabilities, applications, data and interfaces.
+  capabilities:
+  - architecture-as-living-design
+  - commons-as-code-practice
+  entities:
+  - capability
+  - application
+  - data-model
+  - interface
+  serves:
+  - architecture-repository
+- slug: technology-portfolio-planning
+  title: Technology Portfolio Planning
+  summary: Technology investments and retirements are planned as one portfolio, funded by the value they serve rather than by habit.
+  capabilities:
+  - technology-portfolio-stewardship
+  - technology-value-portfolio
+  entities:
+  - portfolio
+  - business-case
+  - application
+  - budget
+  serves:
+  - budget-round
+  - technology-roadmap
+- slug: technology-decision-governance
+  title: Technology Decision Governance
+  summary: Major architecture and investment decisions are taken through the agreed governance and checked against the strategy and
+    the architecture.
+  capabilities:
+  - technology-governance-alignment
+  - architecture-as-living-design
+  entities:
+  - governance-decision
+  - decision-right
+  - change-request
+  serves:
+  - architecture-board
+  - board-meeting
+  - contract-negotiation
+binds:
+- source: src-153
+  edition: '2019'
+  jurisdiction: global
+- source: src-086
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global

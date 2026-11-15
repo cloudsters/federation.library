@@ -1,0 +1,38 @@
+kind: entity
+slug: agent-mandate
+title: Agent Mandate
+type: governance
+summary: 'The formally governed, version-controlled permission document: what an agent may do, within what parameters, with what escalation
+  triggers, on what review cycle. The smallest unit of governed autonomy. Distinguishes delegated authority (consciously set) from
+  inferred authority (categorically different).'
+attributes:
+- name: agent
+  type: reference(agent)
+  card: 1..1
+- name: permitted-actions
+  type: code
+  card: 1..*
+- name: parameter-boundaries
+  type: text
+  card: 0..*
+- name: escalation-triggers
+  type: text
+  card: 1..*
+- name: review-cadence
+  type: code
+  card: 1..1
+- name: revocation-conditions
+  type: text
+  card: 0..*
+states:
+- defined
+- published
+- active
+- reviewed
+- amended
+- revoked
+relations:
+- type: refers-to
+  target: agent
+- type: governed-by
+  target: cognitive-mandate

@@ -1,0 +1,15 @@
+kind: solution
+slug: public-service-directory
+title: Public Service Directory
+role: system-of-record
+summary: Holds the one directory of the services of the city and its partners, with who may use each, where and when, how to reach
+  a person and what to bring, the service points with their hours, and the language access rules, and publishes it online and in print.
+carries:
+- service-catalogue-upkeep
+- multilingual-information-design
+- service-point-planning
+holds:
+- service-catalogue
+- public-service
+- service-point
+- language-access-policy

@@ -1,0 +1,37 @@
+kind: journey
+slug: parent-or-guardian-making-the-school-route-safe
+title: Parent or Guardian Making the School Route Safe
+stakeholder: parent-or-guardian
+summary: A parent or guardian walks the school route with children to name where it is unsafe, helps decide how the street is shared,
+  tries out a school street that becomes permanent and reports a defect that is repaired in a published order.
+stages:
+- slug: walk-the-school-route
+  title: Walk the School Route
+  goal: The places where children feel and are unsafe on the way to school are named and set beside the collisions and near misses
+    recorded there.
+  step: streets-traffic-and-road-safety/road-danger-assessment
+  touchpoints:
+  - safe-route-walk
+  - collision-map
+- slug: share-the-street-fairly
+  title: Share the Street Fairly
+  goal: The neighbourhood has decided how its streets are shared between walking, cycling, transit, deliveries, parking and staying,
+    and the mobility plan records it.
+  step: streets-traffic-and-road-safety/street-space-allocation
+  touchpoints:
+  - street-plan-workshop
+- slug: try-a-school-street
+  title: Try a School Street
+  goal: A school street with lower speeds and a safe crossing has been designed with residents, tried out and made permanent because
+    it works.
+  step: streets-traffic-and-road-safety/street-safety-schemes
+  touchpoints:
+  - school-street-trial
+  - street-plan-workshop
+- slug: report-a-broken-path
+  title: Report a Broken Path
+  goal: The defect the parent reported is ranked by danger and by who depends on the route, and repaired within the set time.
+  step: streets-traffic-and-road-safety/street-inspection-and-repair
+  touchpoints:
+  - street-defect-report
+  - published-repair-ranking

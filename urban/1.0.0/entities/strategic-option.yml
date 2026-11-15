@@ -1,0 +1,66 @@
+kind: entity
+slug: strategic-option
+title: Strategic Option
+type: intelligence
+summary: A strategic option drawn up for the term, with its expected effects, costs, risks and who would bear its costs and who would
+  gain from it. The administration draws it up and tests it on evidence against the vision, the city's capacity and its finances,
+  and the council chooses among the options when it adopts the strategy.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: strategy
+  type: reference(city-strategy)
+  card: 1..1
+- name: expected-effects
+  type: text
+  card: 1..*
+- name: estimated-cost
+  type: amount
+  card: 0..1
+- name: risks
+  type: text
+  card: 0..*
+- name: who-pays
+  type: text
+  card: 0..*
+- name: who-gains
+  type: text
+  card: 0..*
+- name: evidence
+  type: reference(evidence-review)
+  card: 0..*
+- name: capabilities-required
+  type: reference(municipal-capability)
+  card: 0..*
+- name: appraisal-outcome
+  type: code
+  card: 0..1
+- name: prepared-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- appraised
+- compared
+- chosen
+- rejected
+- archived
+relations:
+- type: part-of
+  target: city-strategy
+- type: based-on
+  target: evidence-review
+- type: based-on
+  target: need-assessment
+- type: depends-on
+  target: municipal-capability
+- type: refers-to
+  target: municipal-budget
+binds:
+- source: src-198
+  edition: '2022-07-06'
+  jurisdiction: global

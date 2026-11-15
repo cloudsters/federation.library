@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: customer-feedback-survey
+title: Customer Feedback Survey
+medium: artefact
+summary: The short survey or interview after a service or at fixed intervals in which customers rate their experience and say what
+  should change.
+exchanges:
+- honest-feedback-for-visible-improvement
+journey: customer-holding-a-service-agreement

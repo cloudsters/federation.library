@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-commitment-for-fair-cost
+title: Service Commitment for Fair Cost
+between:
+- information-technology-specialist
+- site-manager
+offered:
+- Service levels the technology function commits to and reports against.
+returned:
+- A fair share of the cost and the unit's own commitments, such as named contacts and timely requests.
+touchpoint: service-level-agreement

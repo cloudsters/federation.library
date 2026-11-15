@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-findings-for-a-public-answer
+title: Inspection Findings for a Public Answer
+between:
+- resident-inspector
+- contract-manager
+offered:
+- Published findings on a contract's records and spending.
+returned:
+- A public answer to each finding and the corrections it brought.
+touchpoint: resident-contract-inspection

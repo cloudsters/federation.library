@@ -1,0 +1,62 @@
+kind: entity
+slug: apprenticeship-pool
+title: Apprenticeship Pool
+type: master
+summary: The shared pool through which the city, employers, unions, training providers and anchor institutions fund apprenticeships,
+  pay mentors and place apprentices. Its members govern it together and keep its accounts, and it is used to pay stipends and mentors
+  and to place apprentices with member employers.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: members
+  type: text
+  card: 1..*
+- name: trades-covered
+  type: text
+  card: 1..*
+- name: funding-sources
+  type: text
+  card: 1..*
+- name: training-levy-rate
+  type: decimal
+  card: 0..1
+- name: stipend-level
+  type: amount
+  card: 1..1
+- name: mentor-pay-rate
+  type: amount
+  card: 0..1
+- name: balance
+  type: amount
+  card: 0..1
+- name: apprentices-placed
+  type: integer
+  card: 0..1
+- name: rules
+  type: document
+  card: 1..1
+- name: established-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- established
+- operating
+- under-review
+- wound-up
+relations:
+- type: governed-by
+  target: procurement-policy
+- type: governed-by
+  target: anchor-institution-agreement
+- type: composed-of
+  target: apprenticeship
+- type: refers-to
+  target: competency-standard
+- type: produces
+  target: payment
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

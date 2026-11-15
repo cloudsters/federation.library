@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: anaesthesia-pre-assessment
+title: Anaesthesia Pre-Assessment
+medium: encounter
+summary: The consultation in which an anaesthesiologist assesses the patient's risk, explains the techniques of anaesthesia and pain
+  relief and obtains consent.
+exchanges:
+- disclosure-for-safe-anaesthesia
+journey: surgical-patient-journey

@@ -1,0 +1,30 @@
+kind: entity
+slug: intent-signal
+title: Intent Signal
+type: intelligence
+summary: A weak signal in the ecosystem indicating need before the stakeholder formulates a request. Sensed via graph analysis of
+  contribution patterns, ecological indicators, and network topology. Makes the inquiry entity perspectively obsolete — the commons
+  anticipates rather than waits.
+attributes:
+- name: detected-need
+  type: text
+  card: 1..1
+- name: evidence
+  type: text
+  card: 1..*
+- name: confidence
+  type: decimal
+  card: 1..1
+- name: classification
+  type: code
+  card: 1..1
+states:
+- detected
+- classified
+- verified
+- routed
+- confirmed
+- decayed
+relations:
+- type: produces
+  target: dynamic-proposition

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clear-requirements-for-a-fitting-solution
+title: Clear Requirements for a Fitting Solution
+between:
+- site-manager
+- information-technology-specialist
+offered:
+- Requirements grounded in how the unit works, and users' time to state them.
+returned:
+- A solution designed to fit the work and the enterprise architecture.
+touchpoint: requirement-workshop

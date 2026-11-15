@@ -1,0 +1,10 @@
+kind: capability
+slug: agent-lifecycle-management
+title: Agent Lifecycle Management
+level: L3
+parent: human-agent-collaboration
+summary: Manage AI agents from mandate definition and onboarding to monitoring and retirement.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

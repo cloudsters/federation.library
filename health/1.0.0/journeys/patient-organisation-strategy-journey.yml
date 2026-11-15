@@ -1,0 +1,20 @@
+kind: journey
+slug: patient-organisation-strategy-journey
+title: Patient Organisation Strategy Journey
+stakeholder: patient-organisation
+summary: Patient organisations bring the priorities of patients and families into the strategic options and learn what the adopted
+  strategy means for them.
+stages:
+- slug: bring-patient-priorities
+  title: Bring Patient Priorities
+  goal: Bring the needs and access barriers of patients and families into the choice among options.
+  step: strategy-development/vision-and-option-design
+  touchpoints:
+  - patient-advisory-council
+- slug: hear-the-outcome
+  title: Hear the Outcome
+  goal: Learn which priorities the adopted strategy takes up and which it does not, and why.
+  step: strategy-development/strategy-communication
+  touchpoints:
+  - patient-advisory-council
+  - public-website

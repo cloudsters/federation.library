@@ -1,0 +1,13 @@
+kind: capability
+slug: workplace-violence-prevention
+title: Workplace Violence Prevention
+level: L3
+parent: occupational-health-and-safety
+summary: Prevent and respond to aggression and violence against staff.
+binds:
+- source: src-577
+  edition: '2002'
+  jurisdiction: global
+- source: src-615
+  edition: '2019'
+  jurisdiction: global

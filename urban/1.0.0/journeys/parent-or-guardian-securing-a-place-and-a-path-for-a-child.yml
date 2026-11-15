@@ -1,0 +1,46 @@
+kind: journey
+slug: parent-or-guardian-securing-a-place-and-a-path-for-a-child
+title: Parent or Guardian Securing a Place and a Path for a Child
+stakeholder: parent-or-guardian
+summary: A parent sees which places are within reach, helps shape the early-years places of the neighbourhood, applies for a school
+  place under fair rules, uses the school after hours, learns alongside the child and agrees support early when the child falls behind.
+stages:
+- slug: see-the-places-within-reach
+  title: See the Places Within Reach
+  goal: The parent can see the forecast and the early-years and school places planned for the neighbourhood.
+  step: school-places-and-learning-pathways/child-population-forecast
+  touchpoints:
+  - published-school-place-plan
+- slug: shape-early-years-places
+  title: Shape Early-Years Places
+  goal: The parent and the neighbourhood childcare group have shaped where early-years places and care spaces are planned.
+  step: school-places-and-learning-pathways/places-and-school-buildings
+  touchpoints:
+  - school-place-planning-forum
+- slug: apply-for-a-fair-place
+  title: Apply for a Fair Place
+  goal: The parent has applied, knows the published rule by which places are given, and has received a place that meets the child's
+    needs, with the route to ask for its review.
+  step: school-places-and-learning-pathways/fair-admission-and-school-routes
+  touchpoints:
+  - school-admission-request
+  - published-admission-rules
+- slug: use-the-school-after-hours
+  title: Use the School After Hours
+  goal: The family uses the school building and grounds outside teaching hours for learning, food, care and play.
+  step: school-places-and-learning-pathways/schools-as-neighbourhood-places
+  touchpoints:
+  - open-school-grounds
+- slug: learn-alongside-the-child
+  title: Learn Alongside the Child
+  goal: The parent takes part in learning in the neighbourhood in the family's own language, beside the child.
+  step: school-places-and-learning-pathways/learning-beyond-the-classroom
+  touchpoints:
+  - neighbourhood-learning-session
+- slug: agree-support-early
+  title: Agree Support Early
+  goal: When the child is often absent or falling behind, the parent has agreed support with educators and the child before the child
+    leaves.
+  step: school-places-and-learning-pathways/early-support-for-learners
+  touchpoints:
+  - learner-support-meeting

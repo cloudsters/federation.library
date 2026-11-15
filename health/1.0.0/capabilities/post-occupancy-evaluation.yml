@@ -1,0 +1,11 @@
+kind: capability
+slug: post-occupancy-evaluation
+title: Post-Occupancy Evaluation
+level: L3
+parent: estate-development
+summary: Evaluate buildings in use against their brief for function, user and patient experience, energy and running cost, and feed
+  the lessons into the design standards of later projects.
+binds:
+- source: src-498
+  edition: '2018'
+  jurisdiction: global

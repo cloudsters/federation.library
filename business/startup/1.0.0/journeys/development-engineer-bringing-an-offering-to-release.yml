@@ -1,0 +1,46 @@
+kind: journey
+slug: development-engineer-bringing-an-offering-to-release
+title: Development Engineer Bringing an Offering to Release
+stakeholder: development-engineer
+summary: A development engineer takes an approved concept through co-design, engineering, prototyping and conformity to a released
+  specification that production or service delivery can work from.
+stages:
+- slug: receive-the-mandate
+  title: Receive the Mandate
+  goal: The project has a team, a budget and decision gates on market, technical and economic readiness.
+  step: offering-design-craft/development-mandate
+  touchpoints:
+  - development-gate-review
+- slug: design-with-users
+  title: Design with Users
+  goal: The offering is designed with future users and partners, from reusable patterns and composable parts.
+  step: offering-design-craft/co-creative-design
+  touchpoints:
+  - co-design-workshop
+- slug: engineer-to-requirements
+  title: Engineer to Requirements
+  goal: Product and service are engineered to requirements and cost targets, and the specification is documented.
+  step: offering-design-craft/product-and-service-engineering
+  touchpoints:
+  - technical-specification
+- slug: prototype-and-learn
+  title: Prototype and Learn
+  goal: Prototypes are tested in short iterations and what is learnt flows back into the design.
+  step: offering-design-craft/prototyping-and-testing
+  touchpoints:
+  - test-laboratory
+  - user-test
+- slug: evidence-conformity
+  title: Evidence Conformity
+  goal: Conformity with the rules of each target market is evidenced and the needed certificates are obtained.
+  step: offering-design-craft/conformity-and-certification
+  touchpoints:
+  - certification-audit
+  - declaration-of-conformity
+- slug: release-for-delivery
+  title: Release for Delivery
+  goal: The final gate releases the specification, with documentation and support ready for delivery.
+  step: offering-design-craft/delivery-readiness-and-release
+  touchpoints:
+  - development-gate-review
+  - user-documentation

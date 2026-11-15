@@ -1,0 +1,58 @@
+kind: solution
+slug: governance-risk-and-compliance-system
+title: Governance, Risk and Compliance System
+role: system-of-record
+summary: Holds policies, obligations, risks, internal controls, audits and their findings, remediation, continuity plans, permits,
+  insurance and the reports and notifications owed to authorities, so that assurance rests on one record.
+carries:
+- lesson-driven-policy-revision
+- audit-as-health-diagnosis
+- audit-lifecycle-management
+- business-continuity-design
+- compliance-as-integrity-code
+- compliance-sensing-monitoring
+- operational-steadiness
+- controls-reporting
+- degraded-mode-governance
+- digital-compliance-sensing
+- compliance-assurance
+- remediation-resourcing
+- internal-control-as-integrity
+- harm-cause-investigation
+- policy-lifecycle-management
+- preventive-legal-practice
+- disposition-reporting-to-authorities
+- regulatory-landscape-sensing
+- regulatory-transparency
+- remediation-execution
+- remediation-planning-as-healing
+- resilience-testing-evolution
+- risk-framework-design
+- risk-response-orchestration
+- risk-sensing-communication
+- cross-unit-risk-learning
+- triage-governance-protocol
+- vendor-risk-management
+- anti-corruption-and-conflicts-of-interest
+- competition-law-compliance
+- licence-and-permit-management
+- unit-risk-management
+- insurance-management
+- controls-monitoring
+- emergency-and-disaster-preparedness
+holds:
+- policy
+- compliance-rule
+- ethics-policy
+- risk
+- internal-control
+- audit
+- audit-finding
+- remediation-plan
+- compliance-case
+- interest-declaration
+- continuity-plan
+- permit
+- insurance-policy
+- statutory-report
+- regulatory-notification

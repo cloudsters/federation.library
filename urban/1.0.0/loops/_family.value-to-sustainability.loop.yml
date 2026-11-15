@@ -1,0 +1,66 @@
+# The steering loop of the family Value to Sustainability in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.value-to-sustainability
+title: Keep the family 'Value to Sustainability' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: value-to-sustainability
+  vs:
+  - local-taxation-and-revenue
+  - municipal-budget-and-accounts
+  - treasury-and-debt
+  - grants-and-intergovernmental-transfers
+  - public-assets-and-commons-fund
+stance: The city turns taxes, fees, grants and shared contributions into a fund that keeps its commons able to last. No single
+  stream of this family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/value-to-sustainability
+  - value-model.yml#vs/local-taxation-and-revenue
+  - value-model.yml#vs/municipal-budget-and-accounts
+  - value-model.yml#vs/treasury-and-debt
+  - value-model.yml#vs/grants-and-intergovernmental-transfers
+  - value-model.yml#vs/public-assets-and-commons-fund
+  registry:
+  - registry/value-streams/local-taxation-and-revenue.yml
+  - registry/value-streams/municipal-budget-and-accounts.yml
+  - registry/value-streams/treasury-and-debt.yml
+  - registry/value-streams/grants-and-intergovernmental-transfers.yml
+  - registry/value-streams/public-assets-and-commons-fund.yml
+  loop_states:
+  - operations/loops/_state/local-taxation-and-revenue.yml
+  - operations/loops/_state/municipal-budget-and-accounts.yml
+  - operations/loops/_state/treasury-and-debt.yml
+  - operations/loops/_state/grants-and-intergovernmental-transfers.yml
+  - operations/loops/_state/public-assets-and-commons-fund.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.value-to-sustainability.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

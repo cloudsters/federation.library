@@ -1,0 +1,98 @@
+kind: value-stream
+slug: community-network-distribution
+title: Community & Network Distribution
+family: proposition-to-audience
+summary: Distribute through community and network effects — participants, referrals, and gatherings become the channel.
+trigger: Satisfied customers or a user community are ready to carry the offering further, or a referral scheme is planned.
+outcome: Referrals and community activity bring measurable new audiences under fair and transparent rules.
+stakeholders:
+- end-user
+- consumer
+- business-customer
+- local-community
+- sector-association
+steps:
+- slug: advocacy-readiness-sensing
+  title: Advocacy Readiness Sensing
+  summary: Satisfied customers and user communities who are ready to recommend the offering are recognised from their use and feedback.
+  capabilities:
+  - community-led-distribution
+  entities:
+  - customer
+  - customer-satisfaction-score
+  - segment
+  serves:
+  - customer-survey
+  - public-reviews
+  - user-community
+- slug: referral-scheme-design
+  title: Referral Scheme Design
+  summary: Referral rules and rewards are designed to honour the relationship, published transparently and tested against manipulation.
+  capabilities:
+  - referral-as-reciprocity
+  entities:
+  - terms-and-conditions
+  - policy
+  serves:
+  - referral-programme
+- slug: community-enablement
+  title: Community Enablement
+  summary: Members receive the knowledge, material and spaces they need to share their practice with others, so that each new participant
+    adds value for all.
+  capabilities:
+  - community-led-distribution
+  - network-effect-cultivation
+  entities:
+  - knowledge-article
+  - communication
+  - pattern
+  serves:
+  - user-community
+- slug: event-design-and-registration
+  title: Event Design and Registration
+  summary: Workshops, meet-ups and conferences are designed as moments where the offering is experienced directly, and are published
+    with registration and speakers.
+  capabilities:
+  - event-based-engagement
+  - event-as-commons
+  entities:
+  - event
+  - calendar-event
+  - contact
+  serves:
+  - event-invitation
+- slug: gathering-and-follow-up
+  title: Gathering and Follow-Up
+  summary: The gathering is held, and the contacts and interest it creates are followed up with care.
+  capabilities:
+  - event-as-commons
+  - event-based-engagement
+  entities:
+  - event
+  - inquiry
+  - customer-interaction
+  serves:
+  - community-gathering
+- slug: referral-tracking-and-recognition
+  title: Referral Tracking and Recognition
+  summary: Referrals are tracked to the people they bring, and introducers are recognised and rewarded as agreed.
+  capabilities:
+  - referral-as-reciprocity
+  entities:
+  - inquiry
+  - contact
+  - payment
+  serves:
+  - mobile-app
+  - referral-programme
+- slug: network-health-review
+  title: Network Health Review
+  summary: The density and reciprocity of the network and the new audiences it brings are measured, with the community's own health
+    as the first measure.
+  capabilities:
+  - network-effect-cultivation
+  entities:
+  - measure-report
+  - kpi
+  serves:
+  - community-health-review

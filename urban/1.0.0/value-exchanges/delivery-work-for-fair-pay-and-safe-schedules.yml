@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delivery-work-for-fair-pay-and-safe-schedules
+title: Delivery Work for Fair Pay and Safe Schedules
+between:
+- platform-worker
+- delivery-carrier
+offered:
+- The worker's delivery from the hub by cargo bike and small vehicle.
+returned:
+- Fair pay, safe schedules and the right to stop a schedule that puts the worker at risk.
+touchpoint: cargo-bike-round

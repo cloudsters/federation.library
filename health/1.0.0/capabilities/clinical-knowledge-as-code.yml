@@ -1,0 +1,28 @@
+kind: capability
+slug: clinical-knowledge-as-code
+title: Clinical Knowledge as Code
+level: L3
+parent: guidelines-and-pathways
+summary: Keep clinical knowledge, pathways and rules as executable, versioned artefacts that systems and people share.
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-030
+  edition: 2.0.0
+  jurisdiction: global
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-031
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,28 @@
+kind: journey
+slug: consumer-bringing-an-item-for-repair
+title: Consumer Bringing an Item for Repair
+stakeholder: consumer
+summary: A consumer brings a faulty item to the counter, approves an estimate, follows the repair and collects and pays for the item
+  at the counter.
+stages:
+- slug: explain-the-problem
+  title: Explain the Problem
+  goal: The consumer is listened to, the fault is described and the expected cost and time are agreed.
+  step: service-delivery-craft/service-intake-and-scoping
+  touchpoints:
+  - store-and-branch
+  - repair-estimate
+- slug: wait-for-the-repair
+  title: Wait for the Repair
+  goal: The item is diagnosed and repaired or replaced, and the consumer is told if the estimate changes.
+  step: service-delivery-craft/workshop-repair
+  touchpoints:
+  - repair-workshop
+  - repair-estimate
+- slug: collect-and-pay
+  title: Collect and Pay
+  goal: The repaired item is handed over and explained, and payment is quick.
+  step: service-delivery-craft/counter-service-and-payment
+  touchpoints:
+  - store-and-branch
+  - invoice

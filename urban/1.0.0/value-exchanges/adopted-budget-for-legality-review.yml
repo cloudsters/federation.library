@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: adopted-budget-for-legality-review
+title: Adopted Budget for Legality Review
+between:
+- city-council
+- supervisory-authority
+offered:
+- The adopted budget, with its reasons and recorded dissent.
+returned:
+- Confirmation that the budget meets the statutory framework, or the defects to correct.
+touchpoint: budget-adoption-vote

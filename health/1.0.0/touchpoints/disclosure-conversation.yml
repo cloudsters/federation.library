@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: disclosure-conversation
+title: Disclosure Conversation
+medium: encounter
+summary: The planned conversation in which a senior clinician tells a harmed patient and their family what happened, apologises, answers
+  questions and explains the next steps.
+exchanges:
+- own-account-for-honest-disclosure
+journey: learning-what-happened

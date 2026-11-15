@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-consolidation-hub
+title: Neighbourhood Consolidation Hub
+medium: place
+summary: A shared loading bay and consolidation hub on public land where producers and carriers drop loads that are bundled for the
+  last mile.
+exchanges:
+- consolidated-loads-for-delivery-allocations
+journey: delivery-carrier-delivering-through-shared-hubs

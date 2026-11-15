@@ -1,0 +1,43 @@
+kind: entity
+slug: work-order
+title: Work Order
+type: transactional
+summary: An instruction to make — the production order that tells the organisation's manufacturing what to make, how much, and when,
+  converting plan into physical output.
+attributes:
+- name: product
+  type: reference(product)
+  card: 1..1
+- name: target-quantity
+  type: quantity
+  card: 1..1
+- name: bom
+  type: reference(bom)
+  card: 1..1
+- name: routing
+  type: text
+  card: 0..1
+- name: scheduled-period
+  type: period
+  card: 1..1
+- name: work-centers
+  type: reference(work-center)
+  card: 0..*
+- name: batch-lot
+  type: reference(batch-lot)
+  card: 0..1
+states:
+- draft
+- material-ready
+- in-progress
+- completed
+- closed
+relations:
+- type: based-on
+  target: production-plan
+- type: depends-on
+  target: bom
+- type: produces
+  target: job-card
+- type: produces
+  target: stock-entry

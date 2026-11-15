@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: forecasts-for-timely-data
+title: Forecasts for Timely Data
+between:
+- operations-planning-agent
+- health-informatics-specialist
+offered:
+- Forecasts of admissions, discharges and bottlenecks, with their confidence stated, for managers to act on.
+returned:
+- Timely, quality-assured data on beds, schedules, staff and stock, within defined access boundaries.
+touchpoint: reporting-portal

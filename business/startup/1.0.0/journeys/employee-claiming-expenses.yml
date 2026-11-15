@@ -1,0 +1,25 @@
+kind: journey
+slug: employee-claiming-expenses
+title: Employee Claiming Expenses
+stakeholder: employee
+summary: An employee submits expenses and card transactions with receipts, has them approved within policy and is reimbursed promptly.
+stages:
+- slug: submit-a-claim
+  title: Submit a Claim
+  goal: Expenses and card transactions are submitted with receipts in a few steps.
+  step: payment-fair-settlement/expense-and-card-review
+  touchpoints:
+  - expense-claim
+  - corporate-card
+- slug: have-it-approved
+  title: Have It Approved
+  goal: The claim is approved within delegated limits, or the reason for a question is stated.
+  step: payment-fair-settlement/payment-approval
+  touchpoints:
+  - expense-claim
+- slug: be-reimbursed
+  title: Be Reimbursed
+  goal: Reimbursement arrives with the next payment run and is clearly stated.
+  step: payment-fair-settlement/payment-execution
+  touchpoints:
+  - remittance-advice

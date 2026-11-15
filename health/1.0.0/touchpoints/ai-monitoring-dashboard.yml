@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ai-monitoring-dashboard
+title: AI Monitoring Dashboard
+medium: channel
+summary: The dashboard that shows the performance, drift, subgroup results, overrides and incidents of each AI system in use against
+  the agreed limits.
+exchanges:
+- oversight-reports-for-a-trustworthy-agent
+journey: provider-through-local-assurance

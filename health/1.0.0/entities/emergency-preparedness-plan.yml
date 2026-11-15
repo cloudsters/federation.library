@@ -1,0 +1,38 @@
+kind: entity
+slug: emergency-preparedness-plan
+title: Emergency Preparedness Plan
+type: governance
+summary: The organisation's plan for mass-casualty incidents, outbreaks, outages and other crises, with alert levels, command
+  structure, surge capacity and the exercises that test it.
+attributes:
+- name: hazards
+  type: code
+  card: 1..*
+- name: alert-levels
+  type: code
+  card: 1..*
+- name: command-structure
+  type: document
+  card: 1..1
+- name: surge-capacity
+  type: quantity
+  card: 0..*
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: approved-by
+  type: reference(governance-body)
+  card: 1..1
+- name: next-exercise
+  type: date
+  card: 0..1
+states:
+- draft
+- approved
+- activated
+- under-review
+relations:
+- type: based-on
+  target: risk
+- type: governed-by
+  target: compliance-obligation

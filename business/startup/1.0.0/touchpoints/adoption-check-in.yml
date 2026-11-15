@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: adoption-check-in
+title: Adoption Check-In
+medium: encounter
+summary: The planned conversation after onboarding or a resolved concern in which the organisation checks how the customer uses what
+  it bought and steps in where value is at risk.
+exchanges:
+- onboarding-guidance-for-committed-use
+journey: business-customer-getting-into-productive-use

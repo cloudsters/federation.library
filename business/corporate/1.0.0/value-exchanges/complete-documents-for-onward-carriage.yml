@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complete-documents-for-onward-carriage
+title: Complete Documents for Onward Carriage
+between:
+- logistics-coordinator
+- logistics-service-provider
+offered:
+- Complete and correct documents and classification data before the goods reach the border.
+returned:
+- Declarations lodged, queries answered and goods carried on without delay.
+touchpoint: shipping-documents

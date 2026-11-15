@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: questions-answered-before-consent
+title: Questions Answered Before Consent
+between:
+- patient-assistant-agent
+- elective-inpatient
+offered:
+- Answers at any hour and in the patient's language to questions about the procedure ahead, with every question that bears on the
+  decision handed to a clinician.
+returned:
+- The patient's open questions and concerns, passed to the treating team before the consent conversation so that it addresses them.
+touchpoint: patient-portal

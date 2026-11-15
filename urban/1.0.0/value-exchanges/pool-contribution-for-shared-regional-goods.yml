@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pool-contribution-for-shared-regional-goods
+title: Pool Contribution for Shared Regional Goods
+between:
+- finance-officer
+- neighbouring-municipality
+offered:
+- The city's contribution to the regional revenue pool, set by formula.
+returned:
+- A share in regional goods such as transit and water treatment, and support for places whose own revenue cannot carry their services.
+touchpoint: regional-pool-negotiation

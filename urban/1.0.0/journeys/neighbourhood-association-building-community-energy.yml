@@ -1,0 +1,44 @@
+kind: journey
+slug: neighbourhood-association-building-community-energy
+title: Neighbourhood Association Building Community Energy
+stakeholder: neighbourhood-association
+summary: A neighbourhood association helps decide where heat networks and generation go first, puts solar on a public roof under a
+  lease that keeps the return in the city, brings homes onto a heat network, offers the flexibility of its members under agreed data
+  rules and reviews each year how much of the energy residents now own.
+stages:
+- slug: map-the-neighbourhood-energy
+  title: Map the Neighbourhood Energy
+  goal: The neighbourhood's heat and power demand and its sources of renewable energy and waste heat are mapped, and the energy strategy
+    says what goes first.
+  step: energy-and-heat-supply/local-energy-planning
+  touchpoints:
+  - neighbourhood-heat-and-power-map
+  - energy-planning-workshop
+- slug: generate-on-a-public-roof
+  title: Generate on a Public Roof
+  goal: A community energy cooperative generates on a public roof under a lease that keeps the return in the city.
+  step: energy-and-heat-supply/community-renewable-generation
+  touchpoints:
+  - public-roof-lease
+  - community-solar-roof
+- slug: bring-homes-onto-the-heat-network
+  title: Bring Homes onto the Heat Network
+  goal: Waste heat captured nearby reaches the neighbourhood's homes and businesses through a heat network they are connected to.
+  step: energy-and-heat-supply/heat-network-connection
+  touchpoints:
+  - heat-connection-visit
+  - utility-connection-request
+- slug: offer-flexibility-on-agreed-terms
+  title: Offer Flexibility on Agreed Terms
+  goal: Members offer flexibility to balance the local grid, and their meter data is used only under the rules residents agreed.
+  step: energy-and-heat-supply/grid-operation-and-flexibility
+  touchpoints:
+  - smart-meter-data-consent
+- slug: count-what-residents-own
+  title: Count What Residents Own
+  goal: The association has reviewed with the city the share of renewable energy, emissions, outages and the share owned by residents,
+    and how former fossil energy workers moved into new work.
+  step: energy-and-heat-supply/energy-transition-review
+  touchpoints:
+  - energy-transition-report
+  - energy-planning-workshop

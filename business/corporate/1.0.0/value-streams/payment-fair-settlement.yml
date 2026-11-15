@@ -1,0 +1,100 @@
+kind: value-stream
+slug: payment-fair-settlement
+title: Payment & Fair Settlement
+family: source-to-alliance
+summary: 'Settling what the organisation owes, correctly and on time: receiving supplier invoices and expense claims, matching them
+  against orders and receipts, approving them, and paying through scheduled payment runs, with corporate cards held to the same discipline.'
+trigger: A supplier invoice or an expense claim is received.
+outcome: The invoice or claim is matched, approved and paid correctly and on time.
+stakeholders:
+- supplier
+- finance-professional
+- finance-operations-agent
+- procurement-specialist
+- employee
+steps:
+- slug: invoice-receipt
+  title: Invoice Receipt
+  summary: Supplier invoices arrive electronically or on paper, are captured, checked for completeness and duplicates, and assigned
+    to the order and the responsible unit.
+  capabilities:
+  - payables-as-partnership-honour
+  - invoice-matching-verification
+  entities:
+  - purchase-invoice
+  - supplier-organisation
+  - purchase-order
+  serves:
+  - invoice
+  - supplier-portal
+- slug: invoice-verification
+  title: Invoice Verification
+  summary: Each invoice is matched against order and receipt, and differences in price or quantity are clarified with the buyer and
+    the supplier before anything is paid.
+  capabilities:
+  - invoice-matching-verification
+  entities:
+  - purchase-invoice
+  - purchase-order
+  - purchase-receipt
+  - debit-note
+  serves:
+  - accounts-payable-desk
+- slug: expense-and-card-review
+  title: Expense and Card Review
+  summary: Expense claims and corporate card transactions are checked against policy and receipts and reimbursed or booked promptly.
+  capabilities:
+  - expense-stewardship
+  - steward-corporate-credit-cards
+  entities:
+  - expense-claim
+  - employee-record
+  - policy
+  - payment
+  serves:
+  - corporate-card
+  - expense-claim
+- slug: payment-approval
+  title: Payment Approval
+  summary: Verified items are approved within delegated limits, due dates follow the agreed terms, and early payment is offered where
+    cash timing matters most to the supplier.
+  capabilities:
+  - payables-as-partnership-honour
+  entities:
+  - approval
+  - payment-term
+  - purchase-invoice
+  serves:
+  - early-payment-offer
+  - expense-claim
+- slug: payment-execution
+  title: Payment Execution
+  summary: Due items are selected and grouped in a scheduled payment run, payment files are released to the bank, and payments are
+    posted.
+  capabilities:
+  - payment-run-orchestration
+  entities:
+  - payment
+  - bank-account
+  - journal-entry
+  serves:
+  - remittance-advice
+- slug: supplier-account-clarification
+  title: Supplier Account Clarification
+  summary: Supplier statements are reconciled, queries are answered and disputes are settled, so that suppliers can rely on what they
+    will receive and when.
+  capabilities:
+  - payables-as-partnership-honour
+  - invoice-matching-verification
+  entities:
+  - supplier-organisation
+  - payment
+  - credit-note
+  - debit-note
+  serves:
+  - accounts-payable-desk
+  - supplier-account-statement
+binds:
+- source: src-134
+  edition: 3.0.21
+  jurisdiction: global

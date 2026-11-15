@@ -1,0 +1,39 @@
+kind: journey
+slug: neighbourhood-association-hosting-an-urban-trial
+title: Neighbourhood Association Hosting an Urban Trial
+stakeholder: neighbourhood-association
+summary: A neighbourhood association puts its question on the research agenda, shapes a trial for its area and time, lives with the
+  trial and records what it sees, hears the decision to adopt, change or stop, and receives the findings.
+stages:
+- slug: put-the-neighbourhood-question
+  title: Put the Neighbourhood's Question
+  goal: The question the neighbourhood most needs answered is on the city's research agenda.
+  step: urban-research-and-experimentation/research-agenda
+  touchpoints:
+  - research-question-call
+- slug: shape-the-trial-terms
+  title: Shape the Trial Terms
+  goal: The trial's area, time, question and measures are set with the association, and any rule it needs lapses unless renewed.
+  step: urban-research-and-experimentation/trial-design
+  touchpoints:
+  - trial-design-workshop
+  - experimental-rule-notice
+- slug: live-with-the-trial
+  title: Live with the Trial
+  goal: The trial runs in the open in the neighbourhood, and residents' observations are recorded beside the measures.
+  step: urban-research-and-experimentation/trial-running-and-evaluation
+  touchpoints:
+  - trial-area
+  - trial-observation-log
+- slug: hear-the-decision
+  title: Hear the Decision
+  goal: The decision to adopt, change or stop the trial is taken on the evidence in public and recorded with its reasons.
+  step: urban-research-and-experimentation/adopt-change-or-stop
+  touchpoints:
+  - trial-decision-hearing
+- slug: receive-the-findings
+  title: Receive the Findings
+  goal: The findings are reported back in the neighbourhood, and the lessons go into the city's knowledge.
+  step: urban-research-and-experimentation/return-of-data-and-findings
+  touchpoints:
+  - findings-return-meeting

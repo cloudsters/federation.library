@@ -1,0 +1,33 @@
+kind: entity
+slug: program
+title: Program
+type: governance
+summary: A coordinated family of initiatives — a governance wrapper that ensures related projects deliver synergistic value rather
+  than competing for resources and attention.
+attributes:
+- name: benefit-thesis
+  type: text
+  card: 1..1
+- name: initiatives
+  type: reference(initiative)
+  card: 1..*
+- name: dependencies
+  type: text
+  card: 0..*
+- name: governance-cadence
+  type: code
+  card: 0..1
+- name: aggregate-budget
+  type: amount
+  card: 0..1
+states:
+- defined
+- mobilised
+- coordinating
+- delivering-benefits
+- closed
+relations:
+- type: part-of
+  target: portfolio
+- type: composed-of
+  target: initiative

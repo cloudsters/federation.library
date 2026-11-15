@@ -1,0 +1,38 @@
+kind: journey
+slug: neighbourhood-association-making-the-neighbourhood-safer
+title: Neighbourhood Association Making the Neighbourhood Safer
+stakeholder: neighbourhood-association
+summary: A neighbourhood association walks the neighbourhood by day and night with those who feel least safe, agrees a community safety
+  plan with the city and the police, sees lighting and staffed places improved and trusted local people calm conflicts early, and
+  reviews each year whether residents feel safer.
+stages:
+- slug: walk-by-day-and-night
+  title: Walk by Day and Night
+  goal: Women, young people, elders and night-shift workers have named the places and hours of danger, set beside the safety statistics.
+  step: community-safety-and-emergency-services/safety-audit-with-residents
+  touchpoints:
+  - night-safety-walk
+- slug: agree-the-safety-plan
+  title: Agree the Safety Plan
+  goal: The neighbourhood, the city, the police and other services have agreed what each does, how residents set priorities and how
+    the police answer to them.
+  step: community-safety-and-emergency-services/community-safety-plan
+  touchpoints:
+  - neighbourhood-safety-plan-meeting
+  - published-safety-plan
+- slug: prevent-before-harm
+  title: Prevent before Harm
+  goal: Lighting, sightlines and safe waiting places are improved where the audit found danger, and trusted local people step in early
+    to calm conflicts.
+  step: community-safety-and-emergency-services/prevention-through-design-and-outreach
+  touchpoints:
+  - street-outreach-team
+  - staffed-night-stop
+- slug: ask-whether-residents-feel-safer
+  title: Ask Whether Residents Feel Safer
+  goal: The yearly review sets response times by neighbourhood, whether residents feel safer and complaints about responders beside
+    what the plan changes next.
+  step: community-safety-and-emergency-services/safety-and-response-review
+  touchpoints:
+  - response-time-report
+  - neighbourhood-safety-plan-meeting

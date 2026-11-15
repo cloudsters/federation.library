@@ -1,0 +1,19 @@
+kind: journey
+slug: supplier-competing-under-equal-rules
+title: Supplier Competing under Equal Rules
+stakeholder: supplier
+summary: 'The supplier''s side of legal affairs and compliance: competing in a tender under rules applied equally to every
+  supplier, and reporting a suspected breach without fear.'
+stages:
+- slug: competing-under-the-rules
+  title: Competing under the Rules
+  goal: Compete in a tender whose rules on gifts, sponsorship and contracts are stated and applied equally to every supplier.
+  step: legal-affairs-and-compliance/obligation-embedding
+  touchpoints:
+  - call-for-tender
+- slug: reporting-a-concern
+  title: Reporting a Concern
+  goal: Report a suspected breach in a tender or a supplier relation, protected, and learn what was done about it.
+  step: legal-affairs-and-compliance/breach-investigation
+  touchpoints:
+  - confidential-reporting-channel

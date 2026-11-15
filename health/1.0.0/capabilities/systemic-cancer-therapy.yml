@@ -1,0 +1,10 @@
+kind: capability
+slug: systemic-cancer-therapy
+title: Systemic Cancer Therapy
+level: L3
+parent: cancer-care
+summary: Plan and deliver chemotherapy, immunotherapy and targeted therapy safely.
+binds:
+- source: src-586
+  edition: '6.0'
+  jurisdiction: global

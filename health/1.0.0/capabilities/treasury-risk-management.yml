@@ -1,0 +1,10 @@
+kind: capability
+slug: treasury-risk-management
+title: Treasury Risk Management
+level: L3
+parent: treasury
+summary: Monitor and limit interest-rate, currency and counterparty risks.
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,25 @@
+kind: journey
+slug: banking-and-lending-to-the-commons
+title: Banking and Lending to the Commons
+stakeholder: financial-institution
+summary: 'The bank''s side of the relationship: daily payments, financing decisions and the information that keeps credit available.'
+stages:
+- slug: handle-daily-payments
+  title: Handle Daily Payments
+  goal: Payments are executed and reported securely through the agreed electronic channel.
+  step: financial-accounting-and-treasury/cash-and-liquidity-management
+  touchpoints:
+  - electronic-banking
+- slug: decide-on-financing
+  title: Decide on Financing
+  goal: Credit lines and loans rest on current statements, plans and covenant compliance.
+  step: financial-accounting-and-treasury/financing-and-investment
+  touchpoints:
+  - credit-review
+- slug: receive-the-annual-accounts
+  title: Receive the Annual Accounts
+  goal: Audited statements arrive in time for the credit review.
+  step: financial-accounting-and-treasury/statement-approval-and-disclosure
+  touchpoints:
+  - annual-report
+  - credit-review

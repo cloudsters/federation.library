@@ -1,0 +1,54 @@
+kind: entity
+slug: charge-item
+title: Charge Item
+type: transactional
+summary: A billable service line captured during care, such as a procedure, a drug, an implant or a day of stay, with quantity, price
+  and the encounter it belongs to, from which claims and invoices are built.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: charge-code
+  type: code
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: unit-price
+  type: amount
+  card: 0..1
+- name: performed-at
+  type: datetime
+  card: 1..1
+- name: performing-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: source-procedure
+  type: reference(procedure)
+  card: 0..1
+states:
+- planned
+- billable
+- billed
+- not-billable
+- cancelled
+relations:
+- type: part-of
+  target: claim
+- type: part-of
+  target: invoice
+- type: governed-by
+  target: price-list
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

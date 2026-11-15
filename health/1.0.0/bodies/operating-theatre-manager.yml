@@ -1,0 +1,10 @@
+kind: body
+slug: operating-theatre-manager
+title: Operating Theatre Manager
+summary: 'Plans and runs the operating theatres: scheduling, the allocation of theatre capacity between departments, the balance of
+  elective and emergency surgery, utilisation and the coordination of each theatre day.'
+holds:
+- operating-theatre-management
+part_of: executive-board
+type: management
+form: organisational-unit

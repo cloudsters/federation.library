@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: delivery-suite
+title: Delivery Suite
+medium: place
+summary: The unit where births take place in the care of midwives and obstetricians, linked to neonatal intensive care for the newborns
+  who need it.
+exchanges:
+- birth-preferences-for-continuous-support
+journey: pregnancy-and-birth-journey

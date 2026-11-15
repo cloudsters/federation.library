@@ -1,0 +1,46 @@
+kind: journey
+slug: resident-giving-and-judging-the-mandate
+title: Resident Giving and Judging the Mandate
+stakeholder: resident
+summary: A resident gets on the register, finds a way to vote, casts a vote, learns who answers for what, judges the elected bodies
+  against measures residents helped set, and renews the mandate or petitions for a recall.
+stages:
+- slug: get-on-the-register
+  title: Get on the Register
+  goal: The resident's entry is correct, or the resident knows why they are not entitled and how to challenge it.
+  step: democratic-mandate/electorate-definition
+  touchpoints:
+  - electoral-register-check
+- slug: find-a-way-to-vote
+  title: Find a Way to Vote
+  goal: The resident knows where, when and how to vote, in a language and a form they can use.
+  step: democratic-mandate/election-organisation
+  touchpoints:
+  - election-notice
+- slug: cast-the-vote
+  title: Cast the Vote
+  goal: The resident has voted and can see the certified result.
+  step: democratic-mandate/vote-and-count
+  touchpoints:
+  - polling-station
+  - published-election-results
+- slug: know-who-answers-for-what
+  title: Know Who Answers for What
+  goal: The resident can see which body decides what and who answers for each matter.
+  step: democratic-mandate/mandate-constitution
+  touchpoints:
+  - published-decision-map
+- slug: judge-performance
+  title: Judge Performance
+  goal: The resident has helped set the measures and can judge the elected bodies against them at regular intervals.
+  step: democratic-mandate/mandate-accountability
+  touchpoints:
+  - performance-scorecard
+  - petition-portal
+- slug: renew-or-recall
+  title: Renew or Recall
+  goal: The resident renews the mandate at the next vote, or joins a petition for a recall that is handled within its deadline.
+  step: democratic-mandate/mandate-renewal
+  touchpoints:
+  - petition-portal
+  - polling-station

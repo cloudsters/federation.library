@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: objection-for-a-reasoned-review
+title: Objection for a Reasoned Review
+between:
+- landowner
+- finance-officer
+offered:
+- An objection to a value, with the evidence behind it.
+returned:
+- A review by an officer who did not set the value, with a decision and its reasons.
+touchpoint: valuation-objection-desk

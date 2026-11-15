@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: code-review-for-tools-the-city-controls
+title: Code Review for Tools the City Controls
+between:
+- civic-technology-community
+- information-technology-specialist
+offered:
+- Review, fixes and improvements to the code of the city's automation.
+returned:
+- Code under open licence with published interfaces, and credit for each contribution.
+touchpoint: open-code-review

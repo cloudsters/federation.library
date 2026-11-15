@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: forecast-errors-for-refreshed-models
+title: Forecast Errors for Refreshed Models
+between:
+- operations-planning-agent
+- information-technology-specialist
+offered:
+- Continuous use of the models with a record of where forecasts missed and where inputs drifted.
+returned:
+- Models refreshed against drift and bias before they mislead the planning the agent does.
+touchpoint: analytics-platform

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: community-room-booking
+title: Community Room Booking
+medium: channel
+summary: The booking, online, by phone or at the desk, of rooms in community centres, libraries and school buildings, free of charge
+  for neighbourhood activity.
+exchanges:
+- free-room-for-neighbourhood-activity
+journey: new-resident-becoming-a-neighbour

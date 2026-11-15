@@ -1,0 +1,53 @@
+kind: journey
+slug: agent-serving-in-a-defined-role
+title: Agent Serving in a Defined Role
+stakeholder: operations-planning-agent
+summary: An AI agent receives a defined mandate, is validated and commissioned with its own identity, starts under supervision, is
+  reviewed, changed under control and finally retired with its tasks handed on.
+stages:
+- slug: receive-a-mandate
+  title: Receive a Mandate
+  goal: The agent's permitted actions, the decisions that stay with people, escalation rules and data access are written down.
+  step: ai-agent-lifecycle/role-and-mandate-design
+  touchpoints:
+  - agent-mandate
+- slug: prove-fitness-for-the-role
+  title: Prove Fitness for the Role
+  goal: The agent's performance, safety and fairness are validated on the organisation's own data and workflow.
+  step: ai-agent-lifecycle/selection-and-validation
+  touchpoints:
+  - agent-validation-trial
+- slug: be-commissioned
+  title: Be Commissioned
+  goal: The agent holds a service identity and access rights and has named human overseers.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - agent-service-identity
+  - agent-mandate
+- slug: start-under-supervision
+  title: Start Under Supervision
+  goal: The agent works with outputs marked as its own, a fallback when it fails and feedback from the people it works with.
+  step: ai-agent-lifecycle/onboarding-into-the-workflow
+  touchpoints:
+  - agent-oversight-console
+- slug: be-reviewed
+  title: Be Reviewed
+  goal: The agent's outputs, overrides, errors, drift and fairness are reviewed at set intervals and a decision is taken to continue,
+    restrict or retrain.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-performance-review
+  - agent-oversight-console
+- slug: change-under-control
+  title: Change Under Control
+  goal: A changed model, scope or mandate is revalidated and its overseers briefed before it goes live.
+  step: ai-agent-lifecycle/retraining-and-change
+  touchpoints:
+  - agent-change-notice
+- slug: retire-and-hand-on
+  title: Retire and Hand On
+  goal: The agent's identity and access are revoked, its tasks handed to a successor or to people, and its records archived.
+  step: ai-agent-lifecycle/retirement-and-succession
+  touchpoints:
+  - handover-plan
+  - agent-service-identity

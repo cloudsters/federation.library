@@ -1,0 +1,126 @@
+kind: value-stream
+slug: capital-stewardship
+title: Capital Stewardship
+family: value-to-sustainability
+summary: Funding what outlasts an operating cycle, from planning and approving capital projects and accounting for them to their close,
+  and shaping the capital and ownership structure so that financial claims never capture governance.
+trigger: A capital project is proposed, or the funding or ownership structure must change.
+outcome: Capital projects are funded, accounted for and closed, and the capital and ownership structure is in line with policy.
+stakeholders:
+- executive-board
+- finance-professional
+- shareholder
+- lender
+- financial-investor
+- public-funding-body
+steps:
+- slug: capital-planning
+  title: Capital Planning
+  summary: The capital needs of the strategy are gathered across units, and investment proposals are ranked within the funds the organisation
+    can commit.
+  capabilities:
+  - capital-project-stewardship
+  entities:
+  - plan
+  - capital-project
+  - budget
+  serves:
+  - investment-request
+- slug: investment-appraisal-and-approval
+  title: Investment Appraisal and Approval
+  summary: Each capital project is appraised on its business case, lifecycle cost, risk and contribution to purpose, and approved
+    within the delegated limits.
+  capabilities:
+  - capital-project-stewardship
+  entities:
+  - business-case
+  - capital-project
+  - governance-decision
+  - approval
+  serves:
+  - investment-committee
+  - investment-request
+- slug: financing-structure-design
+  title: Financing Structure Design
+  summary: The mix of equity, debt, grants and patient instruments is designed so that investors share in value without capturing
+    control, and long-horizon value can be funded on its own clock.
+  capabilities:
+  - commons-capital-structure-design
+  - temporal-bridge-instruments
+  entities:
+  - financing-facility
+  - shareholder-register
+  - agreement
+  serves:
+  - investor-agreement
+  - lender-review
+- slug: funding-acquisition
+  title: Funding Acquisition
+  summary: Money is raised from lenders, investors and public funders, as loans, equity, public grants and subsidies applied for,
+    negotiated and secured on terms the organisation can keep.
+  capabilities:
+  - grants-and-public-funding
+  - commons-capital-structure-design
+  entities:
+  - financing-facility
+  - contract
+  - agreement
+  serves:
+  - contract-negotiation
+  - investor-agreement
+  - loan-agreement
+- slug: capital-project-accounting
+  title: Capital Project Accounting
+  summary: Project costs are recorded, monitored against budget and progress, and capitalised where they create lasting assets.
+  capabilities:
+  - capital-investment-accounting
+  - capital-project-stewardship
+  entities:
+  - capital-project
+  - journal-entry
+  - budget
+  serves:
+  - cost-centre-report
+- slug: ownership-and-funding-administration
+  title: Ownership and Funding Administration
+  summary: Shareholdings, transfers and capital changes are recorded, and the conditions and reporting duties attached to loans and
+    grants are kept.
+  capabilities:
+  - equity-and-ownership-management
+  - grants-and-public-funding
+  entities:
+  - shareholder-register
+  - shareholder-record
+  - financing-facility
+  - report
+  serves:
+  - lender-review
+  - loan-agreement
+  - share-register
+  - shareholder-meeting
+- slug: capital-project-close
+  title: Capital Project Close
+  summary: The completed project is closed, its assets are capitalised, and the value it creates is reviewed against the approved
+    case.
+  capabilities:
+  - capital-investment-accounting
+  - capital-project-stewardship
+  entities:
+  - capital-project
+  - asset
+  - measure-report
+  serves:
+  - investment-committee
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-113
+  edition: 2023-a2025-12
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global
+- source: src-101
+  edition: '2023'
+  jurisdiction: global

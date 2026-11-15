@@ -1,0 +1,59 @@
+kind: entity
+slug: citizen-satisfaction
+title: Resident Survey
+type: intelligence
+summary: The regular survey of residents' satisfaction, needs, trust and sense of belonging, by neighbourhood and group. The administration
+  runs it at a fixed rhythm on a representative sample and publishes the results, and they are used in the neighbourhood review, the
+  cohesion assessment and the whole-city assessment.
+attributes:
+- name: survey-wave
+  type: identifier
+  card: 1..1
+- name: fieldwork-period
+  type: period
+  card: 1..1
+- name: sampling-method
+  type: code
+  card: 1..1
+- name: sample-size
+  type: integer
+  card: 1..1
+- name: response-rate
+  type: decimal
+  card: 0..1
+- name: questionnaire
+  type: document
+  card: 1..1
+- name: languages
+  type: code
+  card: 0..*
+- name: results-by-neighbourhood
+  type: document
+  card: 0..1
+- name: results-by-group
+  type: document
+  card: 0..1
+- name: satisfaction-measure
+  type: decimal
+  card: 0..1
+- name: trust-measure
+  type: decimal
+  card: 0..1
+- name: belonging-measure
+  type: decimal
+  card: 0..1
+states:
+- designed
+- in-fieldwork
+- analysed
+- published
+- archived
+relations:
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: whole-city-assessment
+- type: refers-to
+  target: cohesion-assessment

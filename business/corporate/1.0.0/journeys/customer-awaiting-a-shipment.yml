@@ -1,0 +1,35 @@
+kind: journey
+slug: customer-awaiting-a-shipment
+title: Customer Awaiting a Shipment
+stakeholder: business-customer
+summary: A business customer sees where its order ships from, is told when it leaves, receives it complete with its delivery note
+  and can send goods back through an authorised return.
+stages:
+- slug: see-where-the-order-ships-from
+  title: See Where the Order Ships From
+  goal: The customer sees from which source the order will be fulfilled and whether the confirmed date still holds.
+  step: logistics-flow-design/order-release-and-routing
+  touchpoints:
+  - customer-portal
+- slug: receive-the-dispatch-notice
+  title: Receive the Dispatch Notice
+  goal: The customer is told what has left, in which packages, with which serial numbers or lots.
+  step: logistics-flow-design/pick-pack-and-dispatch
+  touchpoints:
+  - shipment-tracking
+  - delivery-note
+- slug: accept-the-delivery
+  title: Accept the Delivery
+  goal: The consignment arrives in the agreed window and is checked against its delivery note and signed for.
+  step: logistics-flow-design/transport-and-delivery
+  touchpoints:
+  - delivery-note
+  - proof-of-delivery
+  - shipment-tracking
+- slug: return-goods
+  title: Return Goods
+  goal: A return is authorised, collected and credited, and the customer learns what was done with it.
+  step: logistics-flow-design/returns-and-reverse-flow
+  touchpoints:
+  - return-authorisation
+  - complaint-and-warranty-claim

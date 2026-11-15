@@ -1,0 +1,45 @@
+kind: entity
+slug: instrument-set
+title: Instrument Set
+type: master
+summary: A defined set of reusable surgical instruments packed, processed and tracked as one unit, with its composition, processing
+  instructions and the procedures it is used for.
+attributes:
+- name: set-identifier
+  type: identifier
+  card: 1..1
+- name: set-type
+  type: code
+  card: 1..1
+- name: composition
+  type: text
+  card: 1..*
+- name: processing-instructions
+  type: document
+  card: 1..1
+- name: owning-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: procedures
+  type: code
+  card: 0..*
+states:
+- in-use
+- under-repair
+- withdrawn
+relations:
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-296
+  edition: '2024'
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-299
+  edition: '2021'
+  jurisdiction: global

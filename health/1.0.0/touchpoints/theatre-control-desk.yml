@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: theatre-control-desk
+title: Theatre Control Desk
+medium: place
+summary: The desk from which the theatre coordinator steers the running day, calls patients in, reallocates staff and rooms and fits
+  in emergency cases.
+exchanges:
+- complete-booking-for-a-ready-slot
+journey: surgeon-theatre-journey

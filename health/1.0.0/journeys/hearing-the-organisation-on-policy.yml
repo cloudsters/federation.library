@@ -1,0 +1,26 @@
+kind: journey
+slug: hearing-the-organisation-on-policy
+title: Hearing the Organisation on Policy
+stakeholder: policy-maker
+summary: A ministry or legislative committee preparing a law or policy receives the organisation's assessment and evidence, hears
+  it in consultations and hearings, and gains a partner for implementation.
+stages:
+- slug: publishing-an-initiative
+  title: Publishing an Initiative
+  goal: Reach the providers concerned when a draft is published for comment.
+  step: owner-and-public-affairs/request-and-issue-intake
+  touchpoints:
+  - government-dialogue
+- slug: receiving-a-reasoned-position
+  title: Receiving a Reasoned Position
+  goal: Receive a position grounded in practice and data, made jointly where the sector agrees.
+  step: owner-and-public-affairs/representation-and-dialogue
+  touchpoints:
+  - consultation-response
+  - legislative-hearing
+- slug: implementing-with-providers
+  title: Implementing with Providers
+  goal: See the enacted rule implemented and receive early feedback on its effects.
+  step: owner-and-public-affairs/decision-follow-up
+  touchpoints:
+  - government-dialogue

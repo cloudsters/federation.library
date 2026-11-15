@@ -1,0 +1,42 @@
+kind: journey
+slug: asset-officer-adapting-exposed-assets
+title: Asset Officer Adapting Exposed Assets
+stakeholder: asset-officer
+summary: The asset officer assesses how heat, rain, flood and erosion threaten assets and neighbourhoods, weighs options with residents
+  up to planned retreat, protects slopes and banks, builds blue-green corridors and monitors how the works hold.
+stages:
+- slug: assess-the-exposure
+  title: Assess the Exposure
+  goal: The exposure of each class of asset and each neighbourhood is assessed from hazard maps, past floods and residents' knowledge.
+  step: climate-adaptation-and-green-infrastructure/asset-exposure-assessment
+  touchpoints:
+  - flood-and-heat-exposure-walk
+  - published-asset-exposure-map
+- slug: weigh-the-options-with-residents
+  title: Weigh the Options with Residents
+  goal: The choice between protecting, raising, making room for water and planned retreat is made with residents and recorded in the
+    adaptation plan.
+  step: climate-adaptation-and-green-infrastructure/adaptation-options-with-residents
+  touchpoints:
+  - adaptation-options-forum
+  - planned-retreat-counselling
+- slug: protect-slopes-and-banks
+  title: Protect Slopes and Banks
+  goal: Unstable slopes and eroding banks are protected with living edges where they suffice and built defences where they do not.
+  step: climate-adaptation-and-green-infrastructure/slope-riverbank-and-shoreline-protection
+  touchpoints:
+  - living-edge-work-day
+  - slope-and-bank-works-site
+- slug: build-the-corridors
+  title: Build the Corridors
+  goal: Routes and former rail and industrial corridors carry people, store floodwater, cool the air and link habitats.
+  step: climate-adaptation-and-green-infrastructure/blue-green-corridors
+  touchpoints:
+  - corridor-design-walk
+  - blue-green-corridor-route
+- slug: monitor-how-the-works-hold
+  title: Monitor How the Works Hold
+  goal: The performance of green and defensive works in heat and storms is monitored and fed back into the asset plan.
+  step: climate-adaptation-and-green-infrastructure/establishment-care-and-monitoring
+  touchpoints:
+  - after-storm-performance-check

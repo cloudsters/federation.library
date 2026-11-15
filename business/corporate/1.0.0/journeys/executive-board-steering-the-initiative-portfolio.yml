@@ -1,0 +1,40 @@
+kind: journey
+slug: executive-board-steering-the-initiative-portfolio
+title: Executive Board Steering the Initiative Portfolio
+stakeholder: executive-board
+summary: The executive board selects a balanced portfolio of initiatives, insists on measures of benefit, reads progress at a steady
+  cadence and ends initiatives honestly when the evidence says so.
+stages:
+- slug: balance-the-portfolio
+  title: Balance the Portfolio
+  goal: The selected initiatives balance focus and diversity, risk and return, within the capacity really available.
+  step: initiative-cultivation/initiative-selection
+  touchpoints:
+  - portfolio-board
+- slug: insist-on-measures
+  title: Insist on Measures
+  goal: No initiative starts without measures of impact and named benefit owners.
+  step: initiative-cultivation/benefit-and-measure-definition
+  touchpoints:
+  - portfolio-board
+  - initiative-charter
+- slug: read-the-signals
+  title: Read the Signals
+  goal: Drift is seen early from progress reports and from those affected by the change.
+  step: initiative-cultivation/progress-sensing
+  touchpoints:
+  - initiative-progress-review
+  - board-meeting
+- slug: decide-on-the-evidence
+  title: Decide on the Evidence
+  goal: Initiatives are continued, re-scoped, merged or stopped, and freed resources return to the portfolio.
+  step: initiative-cultivation/initiative-refinement
+  touchpoints:
+  - portfolio-board
+- slug: learn-for-the-strategy
+  title: Learn for the Strategy
+  goal: Realised benefits and lessons are taken into the next strategy review.
+  step: initiative-cultivation/benefit-confirmation-and-reflection
+  touchpoints:
+  - benefit-review
+  - board-meeting

@@ -1,0 +1,32 @@
+kind: entity
+slug: roster
+title: Roster
+type: transactional
+summary: The planned allocation of staff to shifts for a unit or site over a planning period, built against expected demand, skill
+  mix and working-time rules.
+attributes:
+- name: organisation-unit
+  type: reference(department)
+  card: 1..1
+- name: planning-period
+  type: period
+  card: 1..1
+- name: planned-hours
+  type: quantity
+  card: 0..1
+- name: approved-by
+  type: reference(employee-record)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- draft
+- published
+- in-execution
+- closed
+relations:
+- type: assigned-to
+  target: department
+- type: governed-by
+  target: policy

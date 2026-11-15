@@ -1,0 +1,57 @@
+kind: journey
+slug: city-council-adopting-and-steering-the-budget
+title: City Council Adopting and Steering the Budget
+stakeholder: city-council
+summary: The council sets the budget frame from the medium-term plan, receives bids that fund upkeep first, weighs who pays and who
+  benefits, adopts the budget after hearing residents, follows spending each month, approves the audited accounts and moves money
+  to what worked.
+stages:
+- slug: set-the-budget-frame
+  title: Set the Budget Frame
+  goal: The council has set the budget frame and each department's spending limit from projections of income, spending, debt and reserves.
+  step: municipal-budget-and-accounts/medium-term-financial-planning
+  touchpoints:
+  - budget-frame-debate
+  - published-medium-term-financial-plan
+- slug: receive-bids-that-fund-upkeep-first
+  title: Receive Bids That Fund Upkeep First
+  goal: Departmental and neighbourhood bids reach the draft with the upkeep of existing assets costed and funded before new projects.
+  step: municipal-budget-and-accounts/budget-preparation
+  touchpoints:
+  - budget-bid-workshop
+- slug: weigh-who-pays-and-who-benefits
+  title: Weigh Who Pays and Who Benefits
+  goal: The council has the findings on who pays, who benefits and what ecological costs the draft leaves unpaid.
+  step: municipal-budget-and-accounts/budget-equity-and-ecological-assessment
+  touchpoints:
+  - published-budget-impact-statement
+- slug: adopt-the-budget-in-public
+  title: Adopt the Budget in Public
+  goal: The budget is adopted after residents were heard, with its reasons and dissent recorded, and sent for review where the statutory
+    framework requires.
+  step: municipal-budget-and-accounts/budget-adoption
+  touchpoints:
+  - draft-budget-presentation
+  - budget-hearing
+  - budget-adoption-vote
+- slug: follow-spending-each-month
+  title: Follow Spending Each Month
+  goal: Each deviation from the budget is explained by its owner, the forecast for the year is updated and the council corrects course
+    in time.
+  step: municipal-budget-and-accounts/budget-execution-and-commitment-control
+  touchpoints:
+  - monthly-variance-report
+- slug: approve-the-audited-accounts
+  title: Approve the Audited Accounts
+  goal: The accounts are closed, audited and approved, with ecological and social costs recorded next to the money.
+  step: municipal-budget-and-accounts/accounting-and-annual-accounts
+  touchpoints:
+  - annual-accounts-audit
+  - published-annual-accounts
+  - public-ecological-cost-ledger
+- slug: move-money-to-what-worked
+  title: Move Money to What Worked
+  goal: The next budget moves money from what did not work to what did, on published results.
+  step: municipal-budget-and-accounts/spending-review
+  touchpoints:
+  - published-spending-review

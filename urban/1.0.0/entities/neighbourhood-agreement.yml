@@ -1,0 +1,62 @@
+kind: entity
+slug: neighbourhood-agreement
+title: Neighbourhood Agreement
+type: governance
+summary: A shared agreement within a neighbourhood about conduct and care, such as what it welcomes and asks of visitors, where limits
+  apply or how its nights are kept, made by residents with venues, traders, night workers and the city. The neighbourhood's recognised
+  bodies hold it with the city, and it is used to guide visitors and night-time life and to settle disagreements over shared space.
+attributes:
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: subject
+  type: code
+  card: 1..*
+- name: terms
+  type: text
+  card: 1..*
+- name: agreed-hours
+  type: text
+  card: 0..*
+- name: limits
+  type: text
+  card: 0..*
+- name: places
+  type: reference(public-space)
+  card: 0..*
+- name: parties
+  type: text
+  card: 1..*
+- name: city-commitments
+  type: text
+  card: 0..*
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: agreement-document
+  type: document
+  card: 1..1
+states:
+- proposed
+- negotiated
+- agreed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: participation-charter
+- type: refers-to
+  target: visitor-strategy
+- type: refers-to
+  target: noise-regulation
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: mediation-protocol

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: funding-call-digest
+title: Funding Call Digest
+medium: channel
+summary: The regular digest in which the city brings funding calls that match its objectives and programmes to the departments that
+  can use them.
+exchanges:
+- matched-calls-for-department-proposals
+journey: finance-officer-securing-what-the-city-is-due

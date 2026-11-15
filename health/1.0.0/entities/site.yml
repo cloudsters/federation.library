@@ -1,0 +1,49 @@
+kind: entity
+slug: site
+title: Site
+type: master
+summary: A geographic location of the organisation with its own address, buildings and infrastructure, such as a campus or a satellite
+  clinic, which is the level at which services are assigned and capacity is planned.
+attributes:
+- name: site-identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: emergency-care-level
+  type: code
+  card: 0..1
+states:
+- planned
+- operating
+- closing
+- closed
+relations:
+- type: part-of
+  target: organisation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-409
+  edition: '2024'
+  jurisdiction: global

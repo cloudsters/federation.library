@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stated-need-for-an-assessed-exchange
+title: Stated Need for an Assessed Exchange
+between:
+- city-administration
+- information-technology-specialist
+offered:
+- A department's need for data from another system, with its purpose and how often it is needed.
+returned:
+- An assessed exchange, with any personal data recorded and the shortest route to the data.
+touchpoint: data-exchange-request

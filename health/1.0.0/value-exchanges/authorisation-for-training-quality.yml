@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: authorisation-for-training-quality
+title: Authorisation for Training Quality
+between:
+- professional-body
+- head-of-clinical-department
+offered:
+- Authorisation to train in a specialty for a defined scope and period.
+returned:
+- Training of the required breadth and quality, accurate certificates, and evidence on the training delivered.
+touchpoint: training-authorisation

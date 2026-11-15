@@ -1,0 +1,55 @@
+kind: journey
+slug: legal-professional-steering-repair-after-harm
+title: Legal Professional Steering Repair After Harm
+stakeholder: legal-risk-and-compliance-professional
+summary: The legal professional registers the harm and notifies authorities, has the cause investigated, establishes what the organisation
+  owes, secures the plan and its resources, follows repair to completion and changes the policies that allowed it.
+stages:
+- slug: register-and-notify
+  title: Register and Notify
+  goal: The harm is registered and contained, and authorities and those affected are notified in time.
+  step: remediation-healing/harm-intake
+  touchpoints:
+  - incident-report
+  - statutory-filing
+- slug: establish-the-cause
+  title: Establish the Cause
+  goal: The trigger and the conditions that allowed the harm are established apart.
+  step: remediation-healing/cause-investigation
+  touchpoints:
+  - investigation-report
+- slug: establish-what-is-owed
+  title: Establish What Is Owed
+  goal: What must be repaired, compensated or paid is known and insurers are engaged.
+  step: remediation-healing/legal-exposure-assessment
+  touchpoints:
+  - insurance-claim
+- slug: secure-the-plan
+  title: Secure the Plan
+  goal: The plan names cause, scope, owners and success criteria and its resources are committed.
+  step: remediation-healing/remediation-planning
+  touchpoints:
+  - remediation-plan
+  - board-meeting
+- slug: follow-repair-to-completion
+  title: Follow Repair to Completion
+  goal: Every action is tracked to genuine completion rather than to the closing of a claim.
+  step: remediation-healing/repair-and-restitution
+  touchpoints:
+  - remediation-plan
+  - restitution-agreement
+- slug: have-the-remedy-confirmed
+  title: Have the Remedy Confirmed
+  goal: Those affected, the authorities and the governing body confirm that harmed parties were made whole.
+  step: remediation-healing/remedy-acceptance
+  touchpoints:
+  - affected-party-meeting
+  - official-inspection
+  - supervisory-board-meeting
+- slug: change-what-allowed-it
+  title: Change What Allowed It
+  goal: The policies and controls that allowed the harm are amended and the lesson reaches risk and compliance.
+  step: remediation-healing/policy-amendment
+  touchpoints:
+  - intranet
+  - knowledge-base

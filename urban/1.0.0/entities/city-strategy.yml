@@ -1,0 +1,69 @@
+kind: entity
+slug: city-strategy
+title: City Strategy
+type: governance
+summary: The strategy adopted for the council term, with its priorities, the rules for allocating scarce resources between them, its
+  objectives and their owners, and the positions of the minority. The mayor and the administration prepare it, the council adopts
+  it, and it binds the objectives, departmental plans and programme portfolio of the term.
+attributes:
+- name: term
+  type: period
+  card: 1..1
+- name: vision
+  type: reference(city-vision)
+  card: 1..1
+- name: mandate-statement
+  type: text
+  card: 0..1
+- name: priorities
+  type: text
+  card: 1..*
+- name: allocation-rules
+  type: text
+  card: 1..*
+- name: objectives
+  type: reference(city-objective)
+  card: 0..*
+- name: owners
+  type: text
+  card: 1..*
+- name: options-weighed
+  type: reference(strategic-option)
+  card: 0..*
+- name: minority-positions
+  type: text
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- opened
+- assessed
+- options-appraised
+- adopted
+- cascaded
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: city-vision
+- type: governed-by
+  target: city-charter
+- type: based-on
+  target: need-assessment
+- type: based-on
+  target: evidence-review
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: city-objective
+binds:
+- source: src-172
+  edition: '2019'
+  jurisdiction: global

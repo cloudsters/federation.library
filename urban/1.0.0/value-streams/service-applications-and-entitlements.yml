@@ -1,0 +1,125 @@
+kind: value-stream
+slug: service-applications-and-entitlements
+title: Service Applications and Entitlements
+family: discovery-to-usage
+summary: Deciding fairly and quickly who receives a service, a benefit or a reduced charge, and making sure that those entitled receive
+  it. It holds the published rules of who is entitled and on what evidence, the search for residents who are entitled but do not claim,
+  applications taken by any route with help where needed, eligibility assessed by a person even where a system prepares it, a reasoned
+  decision in plain language, review of entitlement when circumstances change, and an appeal heard by someone not involved in the
+  decision.
+trigger: A resident applies for a service, a benefit or a reduced charge, or the city finds a resident who appears entitled but has
+  not applied.
+outcome: The resident holds a reasoned decision they understand and, where entitled, receives the service or benefit, with a route
+  of appeal open.
+stakeholders:
+- resident
+- newcomer
+- caregiver
+- frontline-worker
+- social-worker
+- affected-community
+- data-protection-officer
+steps:
+- slug: entitlement-rules
+  title: Entitlement Rules
+  summary: The department writes in plain language and publishes who is entitled to each service, benefit or reduced charge and on
+    what evidence, with essential care and help open to residents whatever their status.
+  capabilities:
+  - entitlement-rule-drafting
+  - status-independent-service-access
+  - plain-language-testing
+  entities:
+  - entitlement-rule
+  - public-service
+  serves:
+  - plain-language-test-session
+  - published-entitlement-rules
+- slug: proactive-take-up
+  title: Proactive Take-Up
+  summary: Residents who appear entitled but have not claimed are found, with their consent, from data the city already holds and
+    through community workers and trusted organisations, and are offered the service directly.
+  capabilities:
+  - unclaimed-entitlement-outreach
+  - once-only-data-reuse
+  - care-service-linking
+  entities:
+  - entitlement-rule
+  - consent-record
+  - population-register
+  serves:
+  - trusted-organisation-outreach
+  - unclaimed-entitlement-letter
+- slug: application-intake
+  title: Application Intake
+  summary: Applications are taken by any route, online, at a service point, by telephone or through a trusted organisation, with help
+    to complete them, and only the evidence the city does not already hold is asked for.
+  capabilities:
+  - service-application-intake
+  - assisted-service-route-provision
+  - once-only-data-reuse
+  entities:
+  - service-application
+  - resident-account
+  serves:
+  - any-route-application
+  - assisted-help-appointment
+  - neighbourhood-service-point-counter
+- slug: eligibility-assessment
+  title: Eligibility Assessment
+  summary: A caseworker assesses the application against the published rules, and where an automated system prepares the assessment,
+    a person reviews it before any refusal is given.
+  capabilities:
+  - eligibility-assessment
+  - automated-decision-oversight
+  entities:
+  - service-application
+  - entitlement-rule
+  - automated-system-register
+  serves:
+  - caseworker-assessment-interview
+  - caseworker-check-before-refusal
+- slug: decision-and-notice
+  title: Decision and Notice
+  summary: The decision is given within a published deadline, in plain language and the resident's own language, with its reasons,
+    what the resident will receive and from when, and how to appeal.
+  capabilities:
+  - entitlement-decision-issuing
+  - language-access-provision
+  entities:
+  - entitlement-decision
+  - service-application
+  serves:
+  - plain-language-decision-letter
+- slug: change-of-circumstances
+  title: Change of Circumstances
+  summary: Entitlement is reviewed when the resident reports a change or at a fixed date, without asking again for what the city already
+    knows, and the service or benefit is adjusted from the date of the change.
+  capabilities:
+  - entitlement-review
+  - once-only-data-reuse
+  entities:
+  - entitlement-decision
+  - resident-account
+  serves:
+  - change-of-circumstances-notice
+  - scheduled-entitlement-review
+- slug: appeal-and-redress
+  title: Appeal and Redress
+  summary: A resident who disagrees appeals to someone not involved in the decision, the appeal is decided within a deadline, and
+    wrong decisions are corrected with redress and counted so that the rules or the system are changed.
+  capabilities:
+  - entitlement-appeal-handling
+  - automated-decision-challenge-handling
+  - corrective-action-tracking
+  entities:
+  - entitlement-appeal
+  - automated-decision-challenge
+  - entitlement-decision
+  serves:
+  - appeal-outcome-and-redress-letter
+  - independent-appeal-hearing
+  - published-appeal-count
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global

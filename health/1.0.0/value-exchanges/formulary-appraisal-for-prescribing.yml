@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: formulary-appraisal-for-prescribing
+title: Formulary Appraisal for Prescribing
+between:
+- clinical-pharmacist
+- specialist-physician
+offered:
+- Pharmacy appraises medicines for evidence, safety and cost and maintains a formulary with preferred alternatives.
+returned:
+- Prescribers apply for new products with clinical justification and prescribe within the formulary.
+touchpoint: drug-and-therapeutics-committee

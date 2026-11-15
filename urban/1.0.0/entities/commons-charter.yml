@@ -1,0 +1,51 @@
+kind: entity
+slug: commons-charter
+title: Commons Charter (Urban)
+type: governance
+summary: The principles by which the city holds and shares land, assets and services as commons, and the boundary of what the municipality
+  does itself, shares or leaves to neighbourhoods, cooperatives and partners. The council adopts it beside the city charter, and it
+  is used whenever land or an asset held in trust is to be leased, shared or sold.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: principles
+  type: text
+  card: 1..*
+- name: assets-held-in-trust
+  type: text
+  card: 0..*
+- name: retained-functions
+  type: text
+  card: 0..*
+- name: shared-functions
+  type: text
+  card: 0..*
+- name: membership-rule
+  type: text
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- amended
+- retired
+relations:
+- type: refers-to
+  target: city
+- type: based-on
+  target: city-charter
+- type: refers-to
+  target: decision-rights-register
+- type: refers-to
+  target: neighbourhood

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: proof-of-origin
+title: Proof of Origin
+medium: artefact
+summary: The declaration or certificate stating where goods originate, on which trade preferences are claimed and which customs may
+  verify with the supplier.
+exchanges:
+- origin-proof-for-preference
+journey: customs-authority-clearing-a-consignment

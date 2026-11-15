@@ -1,0 +1,9 @@
+kind: post
+slug: care-coordinator
+title: Care Coordinator
+summary: 'Gives a person who needs care one coordinator across every service that cares for them.'
+of: social-services-department
+responsibility: The named social worker or care professional who coordinates one person's care plan across providers, carers and neighbours,
+  and plans each handover with the services that take over.
+accountable: body:social-services-department
+type: role

@@ -1,0 +1,33 @@
+kind: entity
+slug: funnel-stage
+title: Funnel Stage
+type: intelligence
+summary: A named waypoint in the journey from stranger to partner — a defined stage in a sales or conversion pipeline with associated
+  probability, required actions, and conversion metrics. Funnel stages make invisible progress visible and give the system a shared
+  language for relationship maturity.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: position
+  type: integer
+  card: 1..1
+- name: entry-probability
+  type: decimal
+  card: 0..1
+- name: entry-criteria
+  type: text
+  card: 0..*
+- name: expected-actions
+  type: text
+  card: 0..*
+states:
+- defined
+- active
+- reordered
+- retired
+relations:
+- type: refers-to
+  target: opportunity
+- type: refers-to
+  target: inquiry

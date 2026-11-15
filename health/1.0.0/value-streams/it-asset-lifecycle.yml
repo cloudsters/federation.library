@@ -1,0 +1,183 @@
+kind: value-stream
+slug: it-asset-lifecycle
+title: IT Asset Lifecycle
+family: acquire-to-retire
+summary: 'Stewarding hardware and software assets from acquisition to retirement: planning, procurement, deployment, inventory, licence
+  management, refresh and secure disposal.'
+trigger: A device, server or licence is needed or reaches end of life, or an inventory review falls due.
+outcome: Assets are inventoried, licensed and current, and retired assets are disposed of with their data securely erased.
+stakeholders:
+- specialist-physician
+- registered-nurse
+- administrative-staff
+- health-informatics-specialist
+- executive
+- staff-representation
+- supplier
+- natural-environment
+steps:
+- slug: demand-and-refresh-planning
+  title: Demand and Refresh Planning
+  summary: Collect requests for devices, servers and software, derive refresh needs from the age, support status and failure history
+    of the installed base, and plan quantities and budget against the standard catalogue.
+  capabilities:
+  - it-demand-management
+  - it-asset-lifecycle-management
+  - end-user-device-management
+  - infrastructure-planning
+  - solution-lifecycle-planning
+  - capital-planning
+  entities:
+  - asset
+  - application
+  - software-licence
+  - purchase-requisition
+  - budget
+  serves:
+  - investment-request
+  - it-service-desk
+  - ordering-catalogue
+- slug: standards-and-procurement
+  title: Standards and Procurement
+  summary: Keep a standard catalogue of approved hardware and software, buy under framework agreements or by tender, agree devices
+    that can record staff behaviour with staff representatives, and contract for support periods, security updates, licence terms
+    and take-back.
+  capabilities:
+  - enterprise-architecture-management
+  - supplier-selection-and-contracting
+  - procurement-ordering
+  - vendor-risk-management
+  - contract-lifecycle-stewardship
+  - software-licence-management
+  - ethical-sourcing-design
+  - co-determination-cooperation
+  entities:
+  - tender
+  - contract
+  - supplier-organisation
+  - purchase-order
+  - software-licence
+  serves:
+  - call-for-tender
+  - ordering-catalogue
+  - staff-consultation
+  - supplier-portal
+- slug: receipt-configuration-and-deployment
+  title: Receipt, Configuration and Deployment
+  summary: Receive assets against the order, tag and record them, install standard images and security settings, enrol them in central
+    management, and deploy them to users and locations with access set up by role.
+  capabilities:
+  - inbound-flow-orchestration
+  - it-asset-lifecycle-management
+  - end-user-device-management
+  - infrastructure-administration
+  - identity-access-management
+  - configuration-and-service-topology
+  - it-change-and-release-governance
+  entities:
+  - goods-receipt
+  - asset
+  - application
+  - identity
+  - access-grant
+  serves:
+  - clinical-workstation
+  - equipment-issue-record
+  - goods-receiving
+- slug: inventory-and-licence-compliance
+  title: Inventory and Licence Compliance
+  summary: Keep the inventory of hardware, software and licences current through automated discovery and periodic reconciliation,
+    compare entitlements with installations and use, and evidence compliance in supplier audits.
+  capabilities:
+  - it-asset-lifecycle-management
+  - software-licence-management
+  - configuration-and-service-topology
+  - stock-reconciliation-practice
+  - fixed-asset-accounting
+  entities:
+  - asset
+  - software-licence
+  - application
+  - contract
+  - audit
+  serves:
+  - equipment-issue-record
+  - medical-equipment-register
+  - licence-statement
+- slug: operation-maintenance-and-patching
+  title: Operation, Maintenance and Patching
+  summary: 'Keep assets working and secure in use: repair or swap faulty devices, apply security updates within deadlines set by severity,
+    renew support contracts and record every move of an asset between users and locations.'
+  capabilities:
+  - it-user-support
+  - incident-problem-resolution
+  - end-user-device-management
+  - vulnerability-management
+  - infrastructure-administration
+  - it-operations
+  - solution-maintenance
+  entities:
+  - asset
+  - application
+  - software-licence
+  - contract
+  serves:
+  - clinical-workstation
+  - it-service-desk
+- slug: refresh-and-retirement
+  title: Refresh and Retirement
+  summary: Replace assets at the end of their planned life or support, migrate users and data to successors, retire applications with
+    their data archived for the required periods, and release licences no longer needed.
+  capabilities:
+  - it-asset-lifecycle-management
+  - solution-lifecycle-planning
+  - application-portfolio-management
+  - data-lifecycle-management
+  - record-retention-and-archiving
+  - software-licence-management
+  entities:
+  - asset
+  - application
+  - software-licence
+  - data-processing-record
+  serves:
+  - equipment-issue-record
+  - it-service-desk
+- slug: secure-disposal
+  title: Secure Disposal
+  summary: Erase or destroy the data on every retired device and storage medium by verified methods, remove the assets from the inventory
+    and the asset register, and hand them to certified recyclers or back to the supplier.
+  capabilities:
+  - media-sanitisation
+  - it-asset-lifecycle-management
+  - fixed-asset-accounting
+  - returns-reverse-logistics
+  - hazardous-waste-management
+  entities:
+  - asset
+  - waste-consignment
+  - contract
+  serves:
+  - equipment-issue-record
+  - erasure-certificate
+  - it-service-desk
+  - waste-consignment-note
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global
+- source: src-298
+  edition: '2017'
+  jurisdiction: global
+- source: src-317
+  edition: '2016'
+  jurisdiction: global
+- source: src-340
+  edition: '2015'
+  jurisdiction: global
+- source: src-344
+  edition: Rev. 2
+  jurisdiction: global
+- source: src-473
+  edition: v8.1
+  jurisdiction: global

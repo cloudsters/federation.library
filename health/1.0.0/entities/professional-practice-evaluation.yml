@@ -1,0 +1,43 @@
+kind: entity
+slug: professional-practice-evaluation
+title: Professional Practice Evaluation
+type: transactional
+summary: A focused or ongoing evaluation of a practitioner's clinical performance against defined indicators and peer review, used
+  to grant, renew, restrict or extend clinical privileges.
+attributes:
+- name: practitioner-role
+  type: reference(practitioner-role)
+  card: 1..1
+- name: evaluation-kind
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: indicators
+  type: reference(measure)
+  card: 0..*
+- name: reviewers
+  type: reference(employee)
+  card: 1..*
+- name: outcome
+  type: code
+  card: 0..1
+- name: recommendation
+  type: text
+  card: 0..1
+states:
+- planned
+- in-progress
+- completed
+- appealed
+relations:
+- type: refers-to
+  target: measure-report
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

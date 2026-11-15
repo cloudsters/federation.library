@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complete-booking-for-a-ready-slot
+title: Complete Booking for a Ready Slot
+between:
+- surgeon
+- anaesthesiologist
+offered:
+- A complete booking with procedure, expected duration, implants, equipment, blood and post-operative bed.
+returned:
+- A slot with anaesthesia, nursing, sets and bed ready, and a coordinated day that protects the planned list from avoidable cancellation.
+touchpoint: operating-list

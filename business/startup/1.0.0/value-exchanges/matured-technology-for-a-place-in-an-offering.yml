@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: matured-technology-for-a-place-in-an-offering
+title: Matured Technology for a Place in an Offering
+between:
+- development-engineer
+- product-manager
+offered:
+- A technology documented to its maturity, with test results, known risks and the know-how to use it.
+returned:
+- A place in an offering's development, with the problem and the customers it will serve.
+touchpoint: technology-maturity-review

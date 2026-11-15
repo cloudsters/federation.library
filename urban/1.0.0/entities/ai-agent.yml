@@ -1,0 +1,63 @@
+kind: entity
+slug: ai-agent
+title: AI Agent
+type: master
+summary: An AI agent the city uses in a service beside its staff, with its owner, its mandate, the people who oversee it, the system
+  that runs it and the service it works in. The department that owns it keeps its record and enters it in the register of automated
+  systems, and it is used to know at any time which agents work for the city, under which mandate and who answers for them.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: agent-identifier
+  type: identifier
+  card: 1..1
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: services
+  type: reference(public-service)
+  card: 0..*
+- name: mandate
+  type: reference(agent-mandate)
+  card: 0..1
+- name: oversight
+  type: reference(oversight-assignment)
+  card: 0..*
+- name: runs-on
+  type: reference(application)
+  card: 1..1
+- name: supplier
+  type: text
+  card: 0..1
+- name: register-entry
+  type: reference(automated-system-register)
+  card: 1..1
+- name: identity
+  type: reference(digital-identity)
+  card: 0..1
+- name: in-use-since
+  type: date
+  card: 0..1
+states:
+- proposed
+- configured
+- mandated
+- active
+- suspended
+- retired
+relations:
+- type: assigned-to
+  target: department
+- type: governed-by
+  target: agent-mandate
+- type: refers-to
+  target: automated-system-register
+- type: depends-on
+  target: application
+- type: refers-to
+  target: public-service
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

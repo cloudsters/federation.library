@@ -1,0 +1,34 @@
+kind: journey
+slug: being-heard-and-staying
+title: Being Heard and Staying
+stakeholder: registered-nurse
+summary: A nurse who considers leaving raises what makes the work hard, sees it taken seriously and finds reasons to stay.
+stages:
+- slug: raise-a-concern
+  title: Raise a Concern
+  goal: Raise a concern or grievance and know it will be handled fairly.
+  step: employee-relations-and-retention/matter-intake
+  touchpoints:
+  - hr-service-desk
+  - appraisal-meeting
+- slug: be-heard
+  title: Be Heard
+  goal: Have one's view count through surveys, conversations and suggestions.
+  step: employee-relations-and-retention/listening-and-analysis
+  touchpoints:
+  - staff-survey-questionnaire
+  - suggestion-scheme
+  - appraisal-meeting
+- slug: see-the-outcome
+  title: See the Outcome
+  goal: Receive a clear answer and see the matter resolved.
+  step: employee-relations-and-retention/agreement-or-resolution
+  touchpoints:
+  - hr-service-desk
+- slug: benefit-from-the-measures
+  title: Benefit from the Measures
+  goal: Gain flexibility, recognition and a manageable workload that make staying worthwhile.
+  step: employee-relations-and-retention/retention-measures
+  touchpoints:
+  - hr-self-service
+  - intranet

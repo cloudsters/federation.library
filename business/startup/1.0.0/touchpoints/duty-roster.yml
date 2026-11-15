@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: duty-roster
+title: Duty Roster
+medium: artefact
+summary: The published plan of who works which shift with which skills, respecting leave, preferences and working-time rules.
+exchanges:
+- availability-for-a-predictable-roster
+- fair-plan-for-reliable-availability
+- roster-review-for-fair-working-time
+journey: shift-supervisor-keeping-every-shift-staffed

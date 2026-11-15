@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: resident-account-page
+title: Resident Account Page
+medium: channel
+summary: The page of the resident's account in which they request services, follow each request and see which department used which
+  of their data and when.
+exchanges:
+- consent-for-data-asked-only-once
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

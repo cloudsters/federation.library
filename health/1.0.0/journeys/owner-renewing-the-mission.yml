@@ -1,0 +1,53 @@
+kind: journey
+slug: owner-renewing-the-mission
+title: Owner Renewing the Mission
+stakeholder: owner
+summary: 'The owner''s side of a mission review: raising the occasion, stating the public purpose it holds the commons for,
+  ratifying mission and boundary, and holding the commons to them.'
+stages:
+- slug: raising-the-occasion
+  title: Raising the Occasion
+  goal: Have the owner's reason for a review, such as a merger, a change of ownership or a public challenge, taken up by the
+    board.
+  step: institutional-identity-and-mission/review-occasion
+  touchpoints:
+  - supervisory-body-meeting
+- slug: stating-the-public-purpose
+  title: Stating the Public Purpose
+  goal: Bring the public purpose and the limits the owner sets into the review before anything is drafted.
+  step: institutional-identity-and-mission/stakeholder-expectation-hearing
+  touchpoints:
+  - supervisory-body-meeting
+- slug: reading-the-draft
+  title: Reading the Draft
+  goal: See whether the draft keeps the purpose for which the owner holds the commons.
+  step: institutional-identity-and-mission/mission-and-values-drafting
+  touchpoints:
+  - mission-and-values-statement
+- slug: testing-the-boundary
+  title: Testing the Boundary
+  goal: Know which activities the commons will not take on, which it leaves to partners and what that means for its subsidiaries.
+  step: institutional-identity-and-mission/boundary-setting
+  touchpoints:
+  - mission-and-values-statement
+  - supervisory-body-meeting
+- slug: ratifying
+  title: Ratifying
+  goal: Ratify a mission and boundary the owner can defend before its own constituency.
+  step: institutional-identity-and-mission/ratification
+  touchpoints:
+  - supervisory-body-meeting
+- slug: seeing-it-published
+  title: Seeing It Published
+  goal: Find the ratified mission in the annual report and in the public identity of the commons.
+  step: institutional-identity-and-mission/publication-and-anchoring
+  touchpoints:
+  - annual-report
+  - public-website
+- slug: holding-the-commons-to-it
+  title: Holding the Commons to It
+  goal: Receive evidence that decisions follow the mission, and raise drift when they do not.
+  step: institutional-identity-and-mission/lived-identity-review
+  touchpoints:
+  - annual-report
+  - supervisory-body-meeting

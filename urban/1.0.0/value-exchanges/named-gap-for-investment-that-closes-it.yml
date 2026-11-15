@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: named-gap-for-investment-that-closes-it
+title: Named Gap for Investment That Closes It
+between:
+- affected-community
+- finance-officer
+offered:
+- The community's account of the services it lacks or waits longest for.
+returned:
+- Investment directed first to where service is worst, with the gap it must close stated in the capital plan.
+touchpoint: service-burden-map

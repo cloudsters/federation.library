@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: processing-intake-form
+title: Processing Intake Form
+medium: channel
+summary: The internal form through which a department proposes a use of personal data, including by sensors and cameras, with its
+  purpose and the data it needs.
+exchanges:
+- proposed-use-for-a-registered-purpose
+journey: data-protection-officer-keeping-every-use-lawful

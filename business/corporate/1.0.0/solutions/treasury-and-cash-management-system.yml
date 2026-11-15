@@ -1,0 +1,32 @@
+kind: solution
+slug: treasury-and-cash-management-system
+title: Treasury and Cash Management System
+role: system-of-record
+summary: Holds bank accounts, statements, cash positions, liquidity forecasts, financing facilities, investments and hedges, and executes
+  payment runs through the banks.
+carries:
+- banking-and-reconciliation
+- cash-flow-as-circulation
+- cash-flow-forecasting
+- currency-translation-stewardship
+- financial-risk-sensing
+- global-fund-orchestration
+- market-risk-hedging
+- investment-as-seed-capital
+- currency-exposure-cover
+- multi-currency-management
+- payment-run-orchestration
+- foreign-exchange-conversion
+- documentary-credit-arrangement
+- exchange-gain-and-loss-reporting
+- steward-debt-and-investment
+- temporal-bridge-instruments
+- trade-settlement-as-fair-exchange
+- working-capital-management
+- grants-and-public-funding
+holds:
+- bank-account
+- bank-transaction
+- payment
+- financing-facility
+- liquidity-forecast

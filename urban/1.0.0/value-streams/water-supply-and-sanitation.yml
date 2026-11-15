@@ -1,0 +1,118 @@
+kind: value-stream
+slug: water-supply-and-sanitation
+title: Water Supply and Sanitation
+family: demand-to-fulfillment
+summary: Delivering clean, safe water to every household and taking wastewater and rain away safely. It holds the protection of water
+  sources and what is taken from them, treatment and testing of drinking water, connection of every household and upkeep of the pipes,
+  fair sharing of water when it runs short, wastewater treatment with the recovery of water and nutrients, public toilets, and drainage
+  of rain through pipes and green spaces.
+trigger: A household asks to be connected, a test or a fault shows a problem, a dry season or a storm comes, or the yearly plan for
+  the water system is due.
+outcome: Every household has enough safe water, wastewater and rain are taken away without harm, and water is shared fairly when it
+  runs short.
+stakeholders:
+- resident
+- infrastructure-operator
+- frontline-worker
+- neighbourhood-association
+- informal-settlement-resident
+- neighbouring-municipality
+- environmental-health-officer
+steps:
+- slug: water-source-protection-and-abstraction
+  title: Water Source Protection and Abstraction
+  summary: Rivers, lakes and groundwater are protected from pollution, and what is taken from them is set with neighbouring municipalities
+    so that nature and those downstream keep their share.
+  capabilities:
+  - water-abstraction-and-treatment
+  - environmental-quality-monitoring
+  entities:
+  - waterway
+  - water-network
+  - cross-boundary-agreement
+  serves:
+  - catchment-agreement-meeting
+- slug: treatment-and-water-quality-testing
+  title: Treatment and Water Quality Testing
+  summary: Raw water is treated to drinking quality, tested at the plant and at taps across the city, and the results are published
+    by neighbourhood with any warning issued at once.
+  capabilities:
+  - water-abstraction-and-treatment
+  - water-quality-testing
+  - public-warning
+  entities:
+  - water-quality-data
+  - water-network
+  serves:
+  - tap-water-quality-results
+- slug: household-connection-and-network-upkeep
+  title: Household Connection and Network Upkeep
+  summary: Every household is connected to the water and sewer networks, meters are read, and leaks and bursts are found and repaired,
+    by the operator or by residents' crews where they keep a local system.
+  capabilities:
+  - network-connection-provision
+  - utility-network-maintenance
+  entities:
+  - service-connection
+  - water-network
+  - infrastructure-repair
+  serves:
+  - leak-and-outage-line
+  - utility-connection-request
+- slug: shortage-and-interruption-response
+  title: Shortage and Interruption Response
+  summary: When water runs short or supply fails, the basic need of every household is served first, use is limited by rules set in
+    advance and published, and water is brought to those cut off.
+  capabilities:
+  - supply-interruption-response
+  - public-warning
+  - fair-relief-allocation
+  entities:
+  - supply-interruption
+  - water-network
+  serves:
+  - emergency-water-point
+  - water-restriction-notice
+- slug: wastewater-treatment-and-public-toilets
+  title: Wastewater Treatment and Public Toilets
+  summary: Wastewater is collected and treated, water and nutrients are recovered for reuse where they can be, and clean public toilets
+    are kept open in every neighbourhood.
+  capabilities:
+  - wastewater-and-stormwater-handling
+  - public-amenity-provision
+  entities:
+  - sewer-network
+  - public-space
+  serves:
+  - public-toilet
+- slug: stormwater-and-drainage
+  title: Stormwater and Drainage
+  summary: Drains are kept clear, rain is held and soaked away in green spaces and streets designed for it, and the cost of drainage
+    is shared by how much rain each property sends into the system.
+  capabilities:
+  - wastewater-and-stormwater-handling
+  - green-and-blue-network-planning
+  - service-tariff-design
+  entities:
+  - sewer-network
+  - flood-risk-map
+  - service-tariff
+  serves:
+  - household-utility-bill
+  - rain-garden-street
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

@@ -1,0 +1,32 @@
+kind: solution
+slug: pharmacy-information-system
+title: Pharmacy Information System
+role: system-of-record
+summary: 'Runs the hospital pharmacy: product catalogue, formulary, order verification, dispensing, unit-dose and automated
+  distribution, compounding and production with batch records, controlled substances and shortage handling.'
+carries:
+- medication-dispensing
+- pharmaceutical-supply-management
+- drug-shortage-management
+- controlled-substance-management
+- formulary-management
+- pharmacy-production-planning
+- compounding-and-preparation
+- cytotoxic-preparation
+- preparation-quality-control
+- batch-traceability-and-records
+- product-recall-management
+holds:
+- medication
+- formulary
+- medication-dispense
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

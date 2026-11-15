@@ -1,0 +1,44 @@
+kind: journey
+slug: local-business-passing-the-business-on
+title: Local Business Passing the Business On
+stakeholder: local-business
+summary: The owner of a neighbourhood business nearing retirement is counted among the businesses due for succession, is matched by
+  a succession guide with employees who learn the business over two years, sees the employees buy in through the succession fund and
+  open the business as a cooperative, and is counted in the yearly review as kept in the community.
+stages:
+- slug: be-counted-among-those-due
+  title: Be Counted Among Those Due
+  goal: The business is on the map of enterprises whose owners near retirement, neighbourhood by neighbourhood.
+  step: enterprise-and-tenure-succession/succession-need-mapping
+  touchpoints:
+  - succession-need-map
+  - succession-guide-meeting
+- slug: find-and-mentor-a-successor
+  title: Find and Mentor a Successor
+  goal: Eighteen to twenty-four months before the exit the owner is matched with successors and mentors them in the relationships
+    and judgement the business needs.
+  step: enterprise-and-tenure-succession/successor-matching-and-mentoring
+  touchpoints:
+  - succession-guide-meeting
+  - succession-peer-circle
+- slug: let-the-employees-buy-in
+  title: Let the Employees Buy In
+  goal: The employees borrow from the succession fund on terms that keep the business and its wealth local.
+  step: enterprise-and-tenure-succession/transition-capital
+  touchpoints:
+  - succession-fund-application
+  - transition-loan-agreement
+- slug: open-to-new-members
+  title: Open to New Members
+  goal: The business, now a cooperative, admits members at a reduced share cost earned over several years, and buys out the founder
+    fairly.
+  step: enterprise-and-tenure-succession/member-equity-transition
+  touchpoints:
+  - cooperative-member-assembly
+  - member-share-statement
+- slug: be-counted-as-kept
+  title: Be Counted as Kept
+  goal: The yearly review counts the business among those passed to successors in the community.
+  step: enterprise-and-tenure-succession/succession-review
+  touchpoints:
+  - succession-review-report

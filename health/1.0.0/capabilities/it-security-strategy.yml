@@ -1,0 +1,13 @@
+kind: capability
+slug: it-security-strategy
+title: IT Security Strategy
+level: L3
+parent: information-security
+summary: Set the information security strategy, policies and standards.
+binds:
+- source: src-077
+  edition: '2025'
+  jurisdiction: global
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

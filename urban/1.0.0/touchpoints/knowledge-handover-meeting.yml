@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: knowledge-handover-meeting
+title: Knowledge Handover Meeting
+medium: encounter
+summary: The meeting, before a person changes role or leaves, in which their knowledge, working relationships and open matters are
+  handed over to those who take them on.
+exchanges:
+- handover-for-a-credited-record
+journey: city-administration-keeping-a-department-knowledge-alive

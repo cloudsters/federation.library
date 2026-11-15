@@ -1,0 +1,39 @@
+kind: journey
+slug: site-manager-owning-the-risks-of-a-site
+title: Site Manager Owning the Risks of a Site
+stakeholder: site-manager
+summary: A site manager names what threatens the site, sees it rated against the whole, owns the treatments assigned, watches them
+  in daily work and passes on what the site has learnt.
+stages:
+- slug: name-the-sites-risks
+  title: Name the Site's Risks
+  goal: The site's threats, near misses and workarounds are recorded without fear of blame.
+  step: risk-as-immune-response/risk-identification
+  touchpoints:
+  - risk-workshop
+  - shop-floor-meeting
+- slug: see-them-rated
+  title: See Them Rated
+  goal: The site manager knows how the site's risks rank against those of the whole organisation.
+  step: risk-as-immune-response/risk-evaluation
+  touchpoints:
+  - risk-register
+- slug: own-the-treatment
+  title: Own the Treatment
+  goal: Each treatment assigned to the site has the people, money and time it needs.
+  step: risk-as-immune-response/risk-treatment
+  touchpoints:
+  - risk-register
+- slug: watch-it-in-daily-work
+  title: Watch It in Daily Work
+  goal: Changes in the site's risks show up in daily work and reach the risk function quickly.
+  step: risk-as-immune-response/risk-monitoring
+  touchpoints:
+  - risk-dashboard
+  - shop-floor-meeting
+- slug: pass-on-what-was-learnt
+  title: Pass On What Was Learnt
+  goal: What the site learnt is available to other units facing the same threat.
+  step: risk-as-immune-response/risk-reporting-and-sharing
+  touchpoints:
+  - knowledge-base

@@ -1,0 +1,71 @@
+kind: entity
+slug: service-point
+title: Service Point
+type: master
+summary: A place in a neighbourhood, often in a library or community centre, where residents receive the common services and help
+  with them, with its services, hours and staff. The city runs it, often with the body that holds the building, and it is the offline
+  and assisted route to the city's services.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: host-building
+  type: reference(building)
+  card: 1..1
+- name: host-body
+  type: text
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: services
+  type: reference(public-service)
+  card: 1..*
+- name: opening-hours
+  type: text
+  card: 1..*
+- name: staff-count
+  type: integer
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+- name: access-features
+  type: code
+  card: 0..*
+- name: digital-help-offered
+  type: boolean
+  card: 1..1
+- name: run-by
+  type: reference(department)
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 0..1
+states:
+- planned
+- opening
+- open
+- temporarily-closed
+- moved
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: library
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: welcome-point
+- type: governed-by
+  target: service-standard
+- type: governed-by
+  target: shared-use-agreement
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-250
+  edition: '2021'
+  jurisdiction: global

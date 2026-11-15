@@ -1,0 +1,27 @@
+kind: journey
+slug: technician-working-to-a-service-standard
+title: Technician Working to a Service Standard
+stakeholder: field-service-technician
+summary: A field service technician learns the standard and level that apply to each service, escalates when a level is at risk and
+  has the field reality heard when standards are reviewed.
+stages:
+- slug: learn-the-standard
+  title: Learn the Standard
+  goal: The technician knows the standard, the response level and the definition of done for the services delivered.
+  step: service-delivery-governance/service-standards-and-levels
+  touchpoints:
+  - service-standard
+  - intranet
+- slug: escalate-a-risk-to-the-level
+  title: Escalate a Risk to the Level
+  goal: A level at risk is escalated along the agreed path and the customer is kept informed.
+  step: service-delivery-governance/delivery-performance-monitoring
+  touchpoints:
+  - service-hotline
+  - service-level-report
+- slug: be-heard-in-the-review
+  title: Be Heard in the Review
+  goal: Where standards miss the field reality, the technician's evidence changes them.
+  step: service-delivery-governance/service-quality-review
+  touchpoints:
+  - service-audit

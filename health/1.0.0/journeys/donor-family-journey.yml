@@ -1,0 +1,33 @@
+kind: journey
+slug: donor-family-journey
+title: Donor Family Journey
+stakeholder: relative
+summary: The family of a patient who cannot survive learns the prognosis honestly, conveys the patient's decision on donation without
+  pressure, takes leave, and may learn that the donation helped others.
+stages:
+- slug: learn-the-prognosis
+  title: Learn the Prognosis
+  goal: Learn honestly and in time that the patient will not survive.
+  step: organ-donation-and-transplantation/donor-identification
+  touchpoints:
+  - family-meeting
+- slug: convey-the-patients-decision
+  title: Convey the Patient's Decision
+  goal: Convey the patient's decision on donation without pressure, with time to understand death determination.
+  step: organ-donation-and-transplantation/death-determination-and-authorisation
+  touchpoints:
+  - donation-conversation
+  - donation-declaration
+- slug: take-leave-before-retrieval
+  title: Take Leave before Retrieval
+  goal: Take leave while organ function is maintained, and know that the body will be treated with care.
+  step: organ-donation-and-transplantation/donor-care-and-evaluation
+  touchpoints:
+  - intensive-care-unit
+  - farewell-room
+- slug: learn-what-the-gift-achieved
+  title: Learn What the Gift Achieved
+  goal: If wished, learn anonymously that the donation helped others.
+  step: organ-donation-and-transplantation/retrieval-and-transplantation
+  touchpoints:
+  - donor-family-letter

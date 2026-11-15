@@ -1,0 +1,57 @@
+kind: journey
+slug: growing-in-the-role
+title: Growing in the Role
+stakeholder: registered-nurse
+summary: A nurse keeps competence current, completes what is mandatory and grows towards a specialist or leadership role, with time
+  and support for learning.
+stages:
+- slug: know-what-the-role-requires
+  title: Know What the Role Requires
+  goal: Know the competencies, mandatory training and career levels of the role.
+  step: professional-development/competency-requirements
+  touchpoints:
+  - learning-platform
+  - hr-self-service
+- slug: agree-a-plan
+  title: Agree a Plan
+  goal: Agree goals and a development plan with time and funding in a real conversation.
+  step: professional-development/appraisal-and-plan
+  touchpoints:
+  - appraisal-meeting
+- slug: choose-the-learning
+  title: Choose the Learning
+  goal: Find learning that fits the plan and the roster.
+  step: professional-development/learning-offer
+  touchpoints:
+  - course-catalogue
+  - learning-platform
+  - simulation-centre
+- slug: complete-mandatory-training
+  title: Complete Mandatory Training
+  goal: Complete mandatory training on time without it competing with patient care.
+  step: professional-development/mandatory-training
+  touchpoints:
+  - learning-platform
+  - simulation-centre
+- slug: learn-at-work
+  title: Learn at Work
+  goal: Apply new competence on the unit with support and feedback.
+  step: professional-development/learning-in-practice
+  touchpoints:
+  - ward
+  - simulation-centre
+  - duty-roster
+- slug: keep-the-record
+  title: Keep the Record
+  goal: See completed training and certificates in one place, with reminders before they expire.
+  step: professional-development/credits-and-records
+  touchpoints:
+  - learning-platform
+  - participation-certificate
+  - hr-self-service
+- slug: review-progress
+  title: Review Progress
+  goal: See development recognised in role, responsibility and pay.
+  step: professional-development/development-review
+  touchpoints:
+  - appraisal-meeting

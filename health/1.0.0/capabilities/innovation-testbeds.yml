@@ -1,0 +1,16 @@
+kind: capability
+slug: innovation-testbeds
+title: Innovation Testbeds
+level: L3
+parent: innovation-management
+summary: Provide controlled settings in which new solutions are tested in real care.
+binds:
+- source: src-477
+  edition: '2019'
+  jurisdiction: global
+- source: src-478
+  edition: '2021'
+  jurisdiction: global
+- source: src-491
+  edition: '2012'
+  jurisdiction: global

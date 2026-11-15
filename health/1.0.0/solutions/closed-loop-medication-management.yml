@@ -1,0 +1,31 @@
+kind: solution
+slug: closed-loop-medication-management
+title: Closed-Loop Medication Management
+role: system-of-record
+summary: Carries medication from prescription through checking, reconciliation and preparation to documented administration at the
+  bedside, with identity checks at every step. It is the authority for what each patient was prescribed and given.
+carries:
+- medication-prescribing
+- interaction-and-dose-checking
+- medication-reconciliation
+- medication-administration
+- medication-safety-programme
+- discharge-medication-plan
+- clinical-pharmacist-review
+- antimicrobial-stewardship
+- therapeutic-drug-monitoring
+- systemic-cancer-therapy
+holds:
+- medication-order
+- medication-administration
+- medication-reconciliation
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

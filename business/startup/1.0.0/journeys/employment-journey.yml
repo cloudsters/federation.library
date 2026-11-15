@@ -1,0 +1,50 @@
+kind: journey
+slug: employment-journey
+title: Employment Journey
+stakeholder: employee
+summary: A new colleague meets the organisation through an honest invitation, is answered in time, chooses as much as is chosen, signs
+  fair terms, is prepared before the first day and belongs within the first weeks.
+stages:
+- slug: meet-an-honest-invitation
+  title: Meet an Honest Invitation
+  goal: The future colleague finds a role described honestly, with its contribution, its demands and what the organisation offers
+    in return.
+  step: talent-attraction-welcome/attraction-and-sourcing
+  touchpoints:
+  - job-posting
+  - website
+- slug: apply-and-be-answered
+  title: Apply and Be Answered
+  goal: The application is acknowledged at once and answered at every stage within the time promised.
+  step: talent-attraction-welcome/candidate-relationship
+  touchpoints:
+  - application-portal
+- slug: choose-as-well-as-be-chosen
+  title: Choose as Well as Be Chosen
+  goal: The candidate tests the fit from their side through interviews, a work sample and conversations with the team.
+  step: talent-attraction-welcome/mutual-selection
+  touchpoints:
+  - job-interview
+  - work-sample
+- slug: sign-fair-terms
+  title: Sign Fair Terms
+  goal: The offer is clear and negotiable, and the signed contract states what each side owes.
+  step: talent-attraction-welcome/offer-and-hire
+  touchpoints:
+  - employment-offer
+  - employment-contract
+- slug: arrive-prepared
+  title: Arrive Prepared
+  goal: Before the first day the new colleague has information, equipment, access and a named companion.
+  step: talent-attraction-welcome/pre-boarding
+  touchpoints:
+  - pre-boarding-package
+  - onboarding-companion
+- slug: belong-and-contribute
+  title: Belong and Contribute
+  goal: In the first weeks the new colleague understands the context, knows the people and is ready to contribute.
+  step: talent-attraction-welcome/onboarding-and-belonging
+  touchpoints:
+  - onboarding-day
+  - onboarding-companion
+  - team-meeting

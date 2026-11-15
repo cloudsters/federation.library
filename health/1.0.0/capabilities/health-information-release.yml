@@ -1,0 +1,10 @@
+kind: capability
+slug: health-information-release
+title: Health Information Release
+level: L3
+parent: health-information-management
+summary: Validate requests for patient information from patients, courts, payers and others, release it lawfully and log the release.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

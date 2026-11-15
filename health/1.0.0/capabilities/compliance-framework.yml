@@ -1,0 +1,13 @@
+kind: capability
+slug: compliance-framework
+title: Compliance Framework
+level: L3
+parent: compliance-management
+summary: Establish the framework of duties, owners and controls through which the organisation meets its obligations.
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global
+- source: src-459
+  edition: '2026'
+  jurisdiction: global

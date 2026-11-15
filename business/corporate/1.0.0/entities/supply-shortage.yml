@@ -1,0 +1,40 @@
+kind: entity
+slug: supply-shortage
+title: Supply Shortage
+type: transactional
+summary: An actual or announced inability to obtain a material, component or service in the quantity needed, recorded with cause,
+  expected duration, business impact, remaining stock and the alternatives and allocation approved to bridge it.
+attributes:
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: cause
+  type: code
+  card: 1..1
+- name: expected-duration
+  type: period
+  card: 0..1
+- name: impact
+  type: text
+  card: 1..1
+- name: remaining-stock
+  type: quantity
+  card: 0..1
+- name: mitigation
+  type: text
+  card: 0..1
+states:
+- reported
+- assessed
+- in-mitigation
+- resolved
+relations:
+- type: refers-to
+  target: item
+- type: refers-to
+  target: supplier-organisation
+- type: produces
+  target: remediation-plan

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: legislative-hearing
+title: Legislative Hearing
+medium: encounter
+summary: A hearing of a legislative committee at which the organisation, alone or through its associations, gives evidence on a draft
+  law or policy.
+exchanges:
+- evidence-for-a-hearing
+journey: hearing-the-organisation-on-policy

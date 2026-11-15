@@ -1,0 +1,11 @@
+kind: capability
+slug: shared-care-planning
+title: Shared Care Planning
+level: L3
+parent: care-transitions
+summary: Agree and maintain one care plan for a patient with the primary, nursing and social care providers involved, with shared
+  goals, named responsibilities and an agreed response to deterioration.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

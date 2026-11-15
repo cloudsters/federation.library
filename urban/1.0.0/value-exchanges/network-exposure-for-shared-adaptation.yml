@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-exposure-for-shared-adaptation
+title: Network Exposure for Shared Adaptation
+between:
+- infrastructure-operator
+- asset-officer
+offered:
+- The operator's records of which of its assets failed in past floods and heat waves.
+returned:
+- One picture of the exposure of the city's and the operator's assets, from which adaptation works are planned together.
+touchpoint: published-asset-exposure-map

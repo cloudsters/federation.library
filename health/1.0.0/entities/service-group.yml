@@ -1,0 +1,37 @@
+kind: entity
+slug: service-group
+title: Service Group
+type: master
+summary: A planning category that groups related clinical services, such as general surgery, stroke care or complex oncology,
+  with the staffing, equipment, volume and quality requirements a site must meet to be assigned it.
+attributes:
+- name: service-group-code
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: defining-codes
+  type: code
+  card: 1..*
+- name: requirements
+  type: text
+  card: 1..*
+- name: volume-thresholds
+  type: reference(volume-threshold)
+  card: 0..*
+- name: related-groups
+  type: reference(service-group)
+  card: 0..*
+states:
+- in-force
+- withdrawn
+relations:
+- type: governed-by
+  target: volume-threshold
+- type: governed-by
+  target: staffing-standard
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

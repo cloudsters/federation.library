@@ -1,0 +1,20 @@
+kind: journey
+slug: founder-founding-a-company
+title: Founder Founding a Company
+stakeholder: founder
+summary: A founder agrees with the others what the company is for and who holds what, and sees it registered with the shares and rights
+  agreed.
+stages:
+- slug: agree-with-the-others
+  title: Agree with the Others
+  goal: Purpose, roles, shares and vesting are agreed among the founders.
+  step: founding-and-incorporation/founders-agreement-drafting
+  touchpoints:
+  - founders-agreement
+- slug: see-the-company-registered
+  title: See the Company Registered
+  goal: The company stands in the register with its founders' holdings recorded.
+  step: founding-and-incorporation/registration
+  touchpoints:
+  - company-register-entry
+  - share-register

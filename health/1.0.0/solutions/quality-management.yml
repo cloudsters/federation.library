@@ -1,0 +1,43 @@
+kind: solution
+slug: quality-management
+title: Quality Management
+role: system-of-record
+summary: 'Runs the quality management system: audits and their findings, corrective actions, accreditations and certifications,
+  improvement initiatives, idea management and the public quality report.'
+carries:
+- quality-management-system
+- quality-requirements
+- quality-performance-evaluation
+- non-conformance-management
+- hospital-accreditation
+- centre-certification
+- quality-indicator-governance
+- mandatory-quality-reporting
+- complication-and-mortality-tracking
+- clinical-audit
+- audit-lifecycle-management
+- clinical-governance-framework
+- process-definition
+- process-improvement
+- lean-improvement
+- improvement-sustainment
+- quality-transparency-communication
+- employee-suggestions
+- new-procedure-introduction
+holds:
+- audit
+- audit-finding
+- corrective-action
+- accreditation
+- improvement-initiative
+- quality-report
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

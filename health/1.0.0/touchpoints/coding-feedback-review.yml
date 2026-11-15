@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: coding-feedback-review
+title: Coding Feedback Review
+medium: encounter
+summary: The regular review in which coders and documentation specialists show a department its coding results, audit findings and
+  payer review outcomes, and agree what to document differently.
+exchanges:
+- nursing-effort-for-recognition
+- coding-feedback-for-documentation-discipline
+journey: coding-a-case

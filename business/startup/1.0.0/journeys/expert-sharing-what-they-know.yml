@@ -1,0 +1,38 @@
+kind: journey
+slug: expert-sharing-what-they-know
+title: Expert Sharing What They Know
+stakeholder: employee
+summary: An experienced employee is recognised as holder of critical know-how, writes it back as articles and patterns, keeps them
+  current, mentors peers in a community of practice and is credited for teaching others.
+stages:
+- slug: be-recognised-as-a-source
+  title: Be Recognised as a Source
+  goal: The expert knows that their know-how is critical and at risk, and has time to make it explicit.
+  step: knowledge-as-commons/knowledge-gap-assessment
+  touchpoints:
+  - expert-interview
+- slug: write-it-back
+  title: Write It Back
+  goal: What the expert has learned is written as articles and patterns and reviewed by peers before it is shared.
+  step: knowledge-as-commons/knowledge-capture
+  touchpoints:
+  - knowledge-base
+  - pattern-library
+- slug: keep-it-current
+  title: Keep It Current
+  goal: The expert's material carries a verification status and is revised or retired when it ages.
+  step: knowledge-as-commons/curation-and-access
+  touchpoints:
+  - knowledge-base
+- slug: teach-through-practice
+  title: Teach Through Practice
+  goal: The expert exchanges experience and mentors newcomers in a community of practice.
+  step: knowledge-as-commons/communities-of-practice
+  touchpoints:
+  - community-of-practice-meeting
+- slug: be-credited
+  title: Be Credited
+  goal: Contributions are visible and recognised, including in the expert's development review.
+  step: knowledge-as-commons/knowledge-renewal
+  touchpoints:
+  - development-review

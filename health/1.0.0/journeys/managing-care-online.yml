@@ -1,0 +1,47 @@
+kind: journey
+slug: managing-care-online
+title: Managing Care Online
+stakeholder: outpatient
+summary: 'The patient''s side of digital access: from opening an account to asking, booking, consulting by video and reading results,
+  without having to fall back on the telephone.'
+stages:
+- slug: getting-access
+  title: Getting Access
+  goal: Open an account once, securely, and see only one's own data or that of a person one represents.
+  step: digital-patient-access/identity-and-access
+  touchpoints:
+  - patient-portal
+- slug: asking-a-question
+  title: Asking a Question
+  goal: Get a reliable answer within a stated time, from an assistant for routine matters and from the care team for clinical ones.
+  step: digital-patient-access/request-and-routing
+  touchpoints:
+  - patient-portal
+  - appointment-service
+- slug: booking-an-appointment
+  title: Booking an Appointment
+  goal: Choose a suitable date, receive reminders and prepare for the visit online.
+  step: digital-patient-access/online-booking
+  touchpoints:
+  - patient-portal
+- slug: consulting-by-video
+  title: Consulting by Video
+  goal: See the clinician without travelling when an in-person visit is not needed.
+  step: digital-patient-access/remote-consultation
+  touchpoints:
+  - telemedicine-service
+  - consultation
+- slug: reading-results-and-letters
+  title: Reading Results and Letters
+  goal: Read results, letters and the medication plan soon after they are reviewed, and keep them in the patient-held record.
+  step: digital-patient-access/record-and-results-access
+  touchpoints:
+  - patient-portal
+  - patient-held-health-record
+  - medication-plan
+- slug: giving-feedback
+  title: Giving Feedback
+  goal: Say what did not work and see the service improve as a result.
+  step: digital-patient-access/digital-experience-review
+  touchpoints:
+  - feedback-and-complaints-channel

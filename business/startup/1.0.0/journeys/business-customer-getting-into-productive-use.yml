@@ -1,0 +1,40 @@
+kind: journey
+slug: business-customer-getting-into-productive-use
+title: Business Customer Getting into Productive Use
+stakeholder: business-customer
+summary: A business customer is welcomed and trained, settles routine matters in its portal, raises cases and complaints that are
+  resolved, and is followed up until it gets the value it bought.
+stages:
+- slug: be-welcomed-and-set-up
+  title: Be Welcomed and Set Up
+  goal: The customer's team is set up and trained, and first use succeeds.
+  step: experience-delivery-care/customer-onboarding
+  touchpoints:
+  - welcome-programme
+  - customer-training
+- slug: settle-routine-matters
+  title: Settle Routine Matters
+  goal: Orders, documents and routine requests are handled in the portal without waiting.
+  step: experience-delivery-care/self-service-access
+  touchpoints:
+  - customer-portal
+  - help-centre
+- slug: raise-a-case
+  title: Raise a Case
+  goal: Every request is a tracked case with a named owner and an agreed response time.
+  step: experience-delivery-care/request-and-inquiry-handling
+  touchpoints:
+  - service-case
+  - customer-portal
+- slug: resolve-a-complaint
+  title: Resolve a Complaint
+  goal: A complaint is escalated where needed and resolved with a remedy the customer accepts.
+  step: experience-delivery-care/complaint-resolution
+  touchpoints:
+  - complaint-and-warranty-claim
+- slug: review-adoption
+  title: Review Adoption
+  goal: The organisation checks how the customer uses what it bought and steps in before value is at risk.
+  step: experience-delivery-care/adoption-follow-up
+  touchpoints:
+  - adoption-check-in

@@ -1,0 +1,60 @@
+kind: entity
+slug: programme-report
+title: Programme Progress Report
+type: intelligence
+summary: The regular report on a programme's progress, cost, risks and the experience of residents, with the outcome of its review.
+  The programme owner issues it at the rhythm the portfolio sets, and the council uses it to strengthen, re-scope, merge or stop the
+  programme.
+attributes:
+- name: programme
+  type: reference(city-programme)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: milestones-reached
+  type: text
+  card: 0..*
+- name: spend-to-date
+  type: amount
+  card: 1..1
+- name: forecast-cost
+  type: amount
+  card: 0..1
+- name: measure-values
+  type: document
+  card: 0..1
+- name: risks
+  type: text
+  card: 0..*
+- name: issues
+  type: text
+  card: 0..*
+- name: resident-feedback
+  type: text
+  card: 0..*
+- name: review-outcome
+  type: code
+  card: 0..1
+- name: issued-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- due
+- drafted
+- issued
+- reviewed
+- published
+- archived
+relations:
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: programme-portfolio
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: public-record

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: surgical-safety-checklist
+title: Surgical Safety Checklist
+medium: artefact
+summary: The checklist that the surgical, anaesthesia and nursing team works through aloud at sign-in, time-out and sign-out, confirming
+  patient, procedure, site, risks and counts.
+exchanges:
+- checklist-confirmation-for-safe-surgery
+journey: surgical-patient-journey

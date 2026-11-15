@@ -1,0 +1,129 @@
+kind: value-stream
+slug: ethical-practice-design
+title: Ethical Practice Design
+family: perception-to-mandate
+summary: 'Practising law and ethics as one discipline: legal counsel, fair agreements, disputes repaired before they are litigated,
+  protection of intellectual property, preventive law, and an ethical framework that guides how everyone in the organisation acts.'
+trigger: A legal question, contract, dispute or ethical concern arises, misconduct is reported, or a preventive review of legal exposure
+  falls due.
+outcome: The matter is advised, agreed or resolved within the law and the ethical framework, and its lesson has been fed back into
+  policy, training and practice.
+stakeholders:
+- legal-risk-and-compliance-professional
+- executive-board
+- employee
+- external-specialist
+- supplier
+steps:
+- slug: ethical-framework
+  title: Ethical Framework
+  summary: Keep the ethical framework and code of conduct as a living, versioned document, test it against new challenges, and state
+    plainly what everyone owes in conduct, fair dealing and integrity.
+  capabilities:
+  - ethical-framework-stewardship
+  - legal-practice-as-values-expression
+  entities:
+  - ethics-policy
+  - policy
+  serves:
+  - code-of-conduct
+  - intranet
+- slug: preventive-law-programme
+  title: Preventive Law Programme
+  summary: Identify the legal exposure in the organisation's activities, run preventive programmes and training on corruption, conflicts
+    of interest and fair dealing, and confirm compliance with the rules that apply.
+  capabilities:
+  - preventive-legal-practice
+  - compliance-assurance
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - policy
+  - compliance-rule
+  - interest-declaration
+  serves:
+  - compliance-training
+- slug: matter-intake
+  title: Matter Intake
+  summary: Receive each legal question, concern and report of misconduct through channels that protect the person reporting, record
+    it as a matter or case, and decide who handles it.
+  capabilities:
+  - whistleblower-protection
+  - legal-advisory
+  entities:
+  - legal-matter
+  - compliance-case
+  serves:
+  - speak-up-channel
+- slug: legal-counsel
+  title: Legal Counsel
+  summary: Advise on the matter against both the law and the ethical framework, especially where an action is lawful but questionable,
+    and engage and steer outside counsel to the same standards.
+  capabilities:
+  - legal-advisory
+  - steward-outside-counsel
+  - legal-practice-as-values-expression
+  entities:
+  - legal-matter
+  - ethics-policy
+  serves:
+  - legal-advice-session
+  - outside-counsel-brief
+- slug: agreement-negotiation
+  title: Agreement Negotiation
+  summary: Draft and negotiate agreements as fair, legible statements of mutual commitment that every party can accept, and document
+    them for their life.
+  capabilities:
+  - agreement-negotiation-and-drafting
+  entities:
+  - contract
+  - agreement
+  - terms-and-conditions
+  serves:
+  - contract-negotiation
+  - signed-agreement
+- slug: intellectual-property-protection
+  title: Intellectual Property Protection
+  summary: Decide which inventions, brands, designs and know-how to protect, register and maintain the rights, and defend them in
+    a way consistent with the organisation's openness commitments.
+  capabilities:
+  - intellectual-property-management
+  entities:
+  - intellectual-property-right
+  - invention-disclosure
+  serves:
+  - intellectual-property-register
+  - signed-agreement
+- slug: dispute-resolution
+  title: Dispute Resolution
+  summary: Approach each dispute and third-party claim first as a relationship to repair, through dialogue and mediation, and litigate
+    only where repair fails, with insurers and outside counsel engaged.
+  capabilities:
+  - dispute-and-litigation
+  - liability-claims-management
+  - steward-outside-counsel
+  entities:
+  - legal-matter
+  - insurance-policy
+  - counterparty
+  serves:
+  - mediation-session
+  - outside-counsel-brief
+- slug: lessons-into-practice
+  title: Lessons into Practice
+  summary: Close the matter, and feed what it taught into the ethical framework, preventive programmes, standard agreements and training.
+  capabilities:
+  - ethical-framework-stewardship
+  - preventive-legal-practice
+  entities:
+  - legal-matter
+  - ethics-policy
+  - policy
+  serves:
+  - code-of-conduct
+  - compliance-training
+  - signed-agreement
+start: true
+binds:
+- source: src-102
+  edition: '2023'
+  jurisdiction: global

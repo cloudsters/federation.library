@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: testing-time-for-a-release-fit-for-work
+title: Testing Time for a Release Fit for Work
+between:
+- employee
+- information-technology-specialist
+offered:
+- Time to test with real cases and honest reports of what does not work.
+returned:
+- Defects fixed before release and a solution that serves the work.
+touchpoint: user-acceptance-test

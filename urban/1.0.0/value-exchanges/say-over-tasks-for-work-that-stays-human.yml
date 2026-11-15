@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: say-over-tasks-for-work-that-stays-human
+title: Say Over Tasks for Work That Stays Human
+between:
+- frontline-worker
+- city-administration
+offered:
+- Their judgement on which tasks an agent may do, prepare or must leave alone.
+returned:
+- A division of tasks they agreed, with the work that needs a person kept human.
+touchpoint: task-division-workshop

@@ -1,0 +1,58 @@
+kind: entity
+slug: community-safety-plan
+title: Community Safety Plan
+type: governance
+summary: The plan a neighbourhood agrees with the city, the police and other services on safety priorities, actions and how responders
+  answer to residents. The neighbourhood and the city keep it together, and it is reviewed each year against response times, complaints
+  and whether residents feel safer.
+attributes:
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: priorities
+  type: text
+  card: 1..*
+- name: actions
+  type: text
+  card: 1..*
+- name: responsibilities
+  type: text
+  card: 1..*
+- name: priority-setting-procedure
+  type: text
+  card: 1..1
+- name: accountability-procedure
+  type: text
+  card: 1..1
+- name: evidence
+  type: reference(safety-statistics)
+  card: 0..*
+- name: agreed-on
+  type: date
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- agreed
+- in-force
+- reviewed
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: safety-statistics
+- type: governed-by
+  target: participation-charter
+- type: refers-to
+  target: emergency-plan

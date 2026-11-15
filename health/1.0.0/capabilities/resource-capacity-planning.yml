@@ -1,0 +1,10 @@
+kind: capability
+slug: resource-capacity-planning
+title: Resource Capacity Planning
+level: L3
+parent: staffing-adequacy
+summary: Plan staff capacity against demand and allocate skills across units and projects.
+binds:
+- source: src-384
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: research-request-for-agreed-terms
+title: Research Request for Agreed Terms
+between:
+- research-institution
+- affected-community
+offered:
+- A research request with its purpose, its limits and the benefits it returns.
+returned:
+- Access on the terms the trust sets, published in a data sharing agreement.
+touchpoint: published-data-sharing-terms

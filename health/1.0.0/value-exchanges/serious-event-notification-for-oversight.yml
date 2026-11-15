@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: serious-event-notification-for-oversight
+title: Serious Event Notification for Oversight
+between:
+- executive
+- health-regulator
+offered:
+- The organisation notifies serious events within the set deadline, with the facts known and the immediate measures taken.
+returned:
+- The regulator registers the event, oversees the investigation and pools reports across providers to detect risks that no single
+  commons can see.
+touchpoint: regulatory-reporting-channel

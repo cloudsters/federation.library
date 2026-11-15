@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: ward-stock-service-for-storage-discipline
+title: Ward Stock Service for Storage Discipline
+between:
+- clinical-pharmacist
+- registered-nurse
+offered:
+- Ward stock replenished against the agreed list, patient-specific doses dispensed on time and medicines near expiry exchanged.
+returned:
+- Correct storage on the ward, documented use of controlled substances and timely return of medicines no longer needed.
+touchpoint: ward

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: care-network-table
+title: Care Network Table
+medium: encounter
+summary: The standing meeting of the hospitals, clinics, social services, care providers, pharmacies and community bodies of a district,
+  where they agree how they share information, refer people and answer together.
+exchanges:
+- gap-accounts-for-a-changed-network
+- neighbour-support-for-a-place-in-referrals
+- shared-referral-for-a-joined-answer
+journey: health-and-care-provider-joining-the-district-care-network

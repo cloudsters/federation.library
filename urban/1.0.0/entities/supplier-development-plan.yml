@@ -1,0 +1,60 @@
+kind: entity
+slug: supplier-development-plan
+title: Supplier Development Plan
+type: governance
+summary: The agreed support for a small, local or cooperative supplier to bid and deliver, with training in tendering, help with certification,
+  working capital, shared equipment or support to convert to worker or community ownership, and the milestones reviewed with it. The
+  procurement office or the economic development office agrees it with the supplier and the partners who give the support, and it
+  is reviewed at each milestone.
+attributes:
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: support-kinds
+  type: code
+  card: 1..*
+- name: goals
+  type: text
+  card: 1..*
+- name: partners
+  type: text
+  card: 0..*
+- name: working-capital
+  type: amount
+  card: 0..1
+- name: shared-facilities
+  type: reference(shared-business-facility)
+  card: 0..*
+- name: ownership-conversion
+  type: reference(cooperative)
+  card: 0..1
+- name: milestones
+  type: text
+  card: 1..*
+- name: plan-period
+  type: period
+  card: 1..1
+- name: review-dates
+  type: date
+  card: 0..*
+- name: results
+  type: text
+  card: 0..*
+states:
+- proposed
+- agreed
+- active
+- reviewed
+- completed
+- ended
+relations:
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: purchasing-commitment
+- type: refers-to
+  target: shared-business-facility
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: business-support-case

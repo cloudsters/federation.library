@@ -1,0 +1,123 @@
+kind: value-stream
+slug: governance-board-relationship
+title: Governance Board Relationship
+family: participant-to-community
+summary: 'Constituting and renewing the bodies through which the organisation is directed and owned: board and ownership design, decision
+  rights, legal entities, the owners'' meeting, reporting to the board, and standing for those affected by its decisions.'
+trigger: A governance cycle begins, or a board, ownership or decision-right arrangement must be created, changed or reviewed.
+outcome: Governance bodies are properly constituted and effective, decision rights are documented, and owners, their representatives
+  and those affected are informed and heard.
+stakeholders:
+- supervisory-board
+- executive-board
+- shareholder
+- family-owner
+- works-council
+- company-registry
+steps:
+- slug: governance-design
+  title: Governance Design
+  summary: Design the boards, their committees and the ownership structure, with their mandates and how they work together, giving
+    standing to those most affected and to every stakeholder class.
+  capabilities:
+  - governance-body-design
+  - multi-stakeholder-governance-design
+  - cooperative-ownership-design
+  - affected-community-standing
+  entities:
+  - board-of-directors
+  - commons-charter
+  - shareholder-register
+  serves:
+  - board-rules-of-procedure
+  - family-council
+- slug: charter-and-covenant
+  title: Charter and Covenant
+  summary: Write down what members owe each other in the charter and in binding, long-duration covenants, including any owning family's
+    agreement with the business, and keep them current.
+  capabilities:
+  - solidarity-covenant-governance
+  - family-business-governance
+  - cooperative-ownership-design
+  entities:
+  - solidarity-covenant
+  - commons-charter
+  serves:
+  - family-charter
+  - family-council
+- slug: decision-rights-and-entities
+  title: Decision Rights and Entities
+  summary: Define decision rights and approval limits from the board to units and roles, and keep the legal entities, subsidiaries,
+    registrations, articles and powers of attorney current.
+  capabilities:
+  - delegation-of-authority
+  - legal-entity-management
+  - subsidiary-governance
+  entities:
+  - decision-right
+  - legal-entity
+  - governance-decision
+  serves:
+  - company-register-entry
+  - decision-rights-matrix
+- slug: board-reporting-and-counsel
+  title: Board Reporting and Counsel
+  summary: Prepare board meetings with reporting that shows the health of the whole, invite counsel rather than ceremony, and record
+    resolutions and their follow-up.
+  capabilities:
+  - board-communication-reporting
+  - board-as-governance-partner
+  entities:
+  - report
+  - governance-decision
+  - board-of-directors
+  serves:
+  - board-pack
+  - supervisory-board-meeting
+- slug: owners-meeting
+  title: Owners' Meeting
+  summary: Prepare, convene and run the meeting of shareholders or members, in person as well as digitally, record its resolutions
+    and carry them out.
+  capabilities:
+  - general-meeting-governance
+  - physical-commons-governance
+  entities:
+  - governance-decision
+  - shareholder-register
+  - event
+  serves:
+  - shareholder-meeting
+- slug: governance-effectiveness-review
+  title: Governance Effectiveness Review
+  summary: Review the composition, competence and working of the governance bodies and whether those affected by their decisions were
+    heard, and act on the findings.
+  capabilities:
+  - board-effectiveness-review
+  - affected-community-standing
+  - multi-stakeholder-governance-design
+  entities:
+  - board-of-directors
+  - measure-report
+  - governance-decision
+  serves:
+  - board-evaluation
+- slug: steward-succession
+  title: Steward Succession
+  summary: Plan the renewal of board members and stewards so that governance capacity regenerates without concentrating knowledge
+    or authority in a few people.
+  capabilities:
+  - stewardship-succession
+  - governance-body-design
+  entities:
+  - succession-plan
+  - board-of-directors
+  serves:
+  - board-nomination
+  - family-council
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global
+- source: src-101
+  edition: '2023'
+  jurisdiction: global

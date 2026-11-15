@@ -1,0 +1,55 @@
+kind: entity
+slug: civic-memory-record
+title: Civic Memory Record
+type: intelligence
+summary: A recorded founding story, neighbourhood history or harm the city has done or allowed, such as displacement or exclusion,
+  gathered with those who carry it and kept beside the official history rather than in its place. The city keeps it on terms agreed
+  with its carriers, and it is used in drafting the charter and in naming places.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: record-kind
+  type: code
+  card: 1..1
+- name: carried-by
+  type: text
+  card: 1..*
+- name: period-covered
+  type: period
+  card: 0..1
+- name: places
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: account
+  type: document
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: differs-from-official-history
+  type: text
+  card: 0..1
+- name: consent-terms
+  type: text
+  card: 1..1
+- name: recorded-on
+  type: date
+  card: 1..1
+states:
+- gathered
+- recorded
+- confirmed
+- published
+- contested
+- amended
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-charter

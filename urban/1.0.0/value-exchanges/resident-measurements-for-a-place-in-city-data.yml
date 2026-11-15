@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-measurements-for-a-place-in-city-data
+title: Resident Measurements for a Place in City Data
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- Air readings from sensors that residents place and keep themselves.
+returned:
+- Their readings in the city's data, checked, credited and used in decisions.
+touchpoint: community-sensor-kit

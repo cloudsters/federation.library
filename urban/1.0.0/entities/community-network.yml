@@ -1,0 +1,62 @@
+kind: entity
+slug: community-network
+title: Community Network
+type: master
+summary: A fibre, wireless or mesh network owned and run by a neighbourhood or its cooperative, with its members, area, rules and
+  link to the city's backbone. The community network operator keeps the record with its members and shares it with the city, and it
+  is used to coordinate builds, access terms and the offline fallbacks of the neighbourhood.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: network-kind
+  type: code
+  card: 1..1
+- name: neighbourhoods-served
+  type: reference(neighbourhood)
+  card: 1..*
+- name: owning-body
+  type: text
+  card: 1..1
+- name: cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: operator
+  type: text
+  card: 1..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: connected-premises
+  type: integer
+  card: 0..1
+- name: rules
+  type: document
+  card: 0..1
+- name: backbone-link
+  type: reference(digital-network)
+  card: 0..1
+- name: access-terms
+  type: reference(network-access-agreement)
+  card: 0..1
+- name: offline-capable
+  type: boolean
+  card: 0..1
+states:
+- proposed
+- formed
+- in-build
+- in-service
+- extended
+- dissolved
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: assigned-to
+  target: cooperative
+- type: depends-on
+  target: digital-network
+- type: governed-by
+  target: network-access-agreement
+- type: refers-to
+  target: service-continuity-plan

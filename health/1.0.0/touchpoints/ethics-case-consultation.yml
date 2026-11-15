@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: ethics-case-consultation
+title: Ethics Case Consultation
+medium: encounter
+summary: The facilitated meeting of the treating team, the patient or relatives and an ethics consultant on a difficult case,
+  ending in a written recommendation.
+exchanges:
+- ethics-case-support
+- presumed-will-hearing
+- moral-concern-voice
+journey: treating-physician-seeking-ethics-advice

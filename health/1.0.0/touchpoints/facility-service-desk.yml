@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: facility-service-desk
+title: Facility Service Desk
+medium: channel
+summary: The telephone and online service through which units report building faults and request facility services, and follow the
+  status of their reports.
+exchanges:
+- ward-access-for-reliable-building-services
+journey: ward-team-relying-on-building-services

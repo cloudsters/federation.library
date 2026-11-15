@@ -1,0 +1,63 @@
+kind: entity
+slug: procurement-policy
+title: Procurement Policy
+type: governance
+summary: The rules for public purchasing, including the preference for open code and the city's ownership of the data its systems
+  generate. The council adopts it, the administration applies it to every purchase and contract, and it is reviewed against the share
+  of open code and city-owned data the purchases have achieved.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: procedure-rules
+  type: text
+  card: 1..*
+- name: award-principles
+  type: text
+  card: 1..*
+- name: open-code-preference
+  type: text
+  card: 1..1
+- name: required-code-licences
+  type: code
+  card: 0..*
+- name: data-ownership-rule
+  type: text
+  card: 1..1
+- name: data-return-rule
+  type: text
+  card: 0..1
+- name: thresholds
+  type: amount
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: governed-by
+  target: obligation-register
+- type: based-on
+  target: council-decision
+- type: based-on
+  target: digital-strategy
+- type: refers-to
+  target: public-procurement
+- type: refers-to
+  target: contract

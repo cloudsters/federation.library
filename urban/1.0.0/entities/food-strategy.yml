@@ -1,0 +1,57 @@
+kind: entity
+slug: food-strategy
+title: Food Strategy
+type: governance
+summary: The city's plan for how fresh and affordable food reaches every neighbourhood, from the producers of the region to pickup
+  points within walking distance. The council adopts it from the mapping of food access and the hub partners help review it, and hubs,
+  delivery rules and surplus food are planned within it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: access-targets
+  type: text
+  card: 1..*
+- name: areas-without-access
+  type: reference(neighbourhood)
+  card: 0..*
+- name: producer-region
+  type: text
+  card: 0..1
+- name: hubs
+  type: reference(distribution-hub)
+  card: 0..*
+- name: surplus-food-rules
+  type: text
+  card: 0..1
+- name: actions
+  type: text
+  card: 1..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- renewed
+- retired
+relations:
+- type: based-on
+  target: gis-layer
+- type: based-on
+  target: health-profile
+- type: refers-to
+  target: distribution-hub
+- type: refers-to
+  target: market
+- type: governed-by
+  target: city-strategy

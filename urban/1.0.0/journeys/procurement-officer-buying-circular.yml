@@ -1,0 +1,53 @@
+kind: journey
+slug: procurement-officer-buying-circular
+title: Procurement Officer Buying Circular
+stakeholder: procurement-officer
+summary: The procurement officer sets limits on embedded carbon per category, sees that departments reuse before they buy, writes
+  circular requirements, compares offers on whole-life cost, sources reclaimed materials, holds suppliers to take-back and reports
+  each year what was kept in use.
+stages:
+- slug: set-the-carbon-limits
+  title: Set the Carbon Limits
+  goal: The emissions and materials embedded in each category are estimated and limited per category in line with the climate action
+    plan.
+  step: circular-procurement/embedded-carbon-and-material-account
+  touchpoints:
+  - published-category-carbon-limits
+- slug: reuse-before-buying
+  title: Reuse Before Buying
+  goal: Each request has been checked against repair, reuse and the shared pool before anything new is bought.
+  step: circular-procurement/reuse-before-purchase
+  touchpoints:
+  - purchase-request-form
+  - shared-equipment-catalogue
+- slug: write-circular-requirements
+  title: Write Circular Requirements
+  goal: Durability, repair, spare parts and reclaimed content are written into each category's specifications with suppliers and repairers.
+  step: circular-procurement/circular-requirements
+  touchpoints:
+  - category-strategy-workshop
+- slug: compare-on-whole-life-cost
+  title: Compare on Whole-Life Cost
+  goal: Offers are compared on their cost over the whole life of what is bought and on their embedded carbon.
+  step: circular-procurement/whole-life-cost-comparison
+  touchpoints:
+  - bid-evaluation-meeting
+- slug: source-reclaimed-materials
+  title: Source Reclaimed Materials
+  goal: Works and public buildings use reclaimed materials, furniture and equipment, each with its condition and origin recorded.
+  step: circular-procurement/reclaimed-material-sourcing
+  touchpoints:
+  - reclaimed-materials-yard
+- slug: hold-suppliers-to-take-back
+  title: Hold Suppliers to Take-Back
+  goal: Suppliers take back products and packaging at the end of use and report what returned to use.
+  step: circular-procurement/take-back-and-return-to-use
+  touchpoints:
+  - take-back-collection
+- slug: report-what-was-kept-in-use
+  title: Report What Was Kept in Use
+  goal: The share repaired, reused, reclaimed or taken back and the carbon avoided are reported, and the council revises the limits.
+  step: circular-procurement/circular-purchasing-report
+  touchpoints:
+  - published-circular-purchasing-report
+  - procurement-committee-session

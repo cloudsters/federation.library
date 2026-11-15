@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prompt-fraud-report-for-swift-recall
+title: Prompt Fraud Report for Swift Recall
+between:
+- finance-professional
+- lender
+offered:
+- A prompt report of a suspicious payment with all the details known.
+returned:
+- A recall attempt and support in investigating and preventing a repeat.
+touchpoint: online-banking

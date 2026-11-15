@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: open-disclosure-meeting
+title: Open Disclosure Meeting
+medium: encounter
+summary: The meeting or letter in which residents affected by a failure are told what happened, what the city will do about it and
+  the remedy they receive.
+exchanges:
+- failure-account-for-disclosure-and-remedy
+journey: resident-met-by-a-service-failure

@@ -1,0 +1,39 @@
+kind: journey
+slug: acting-on-patient-feedback
+title: Acting on Patient Feedback
+stakeholder: head-of-clinical-department
+summary: A department head receives the unit's experience results, understands what lies behind them, leads improvement with patients
+  and staff, and shows the effect at the next measurement.
+stages:
+- slug: understanding-the-drivers
+  title: Understanding the Drivers
+  goal: Know which moments drive the unit's results and how the unit compares with its peers.
+  step: patient-experience/analysis-and-insight
+  touchpoints:
+  - unit-experience-report
+- slug: discussing-with-the-team
+  title: Discussing with the Team
+  goal: Agree with the team which weakness to tackle first.
+  step: patient-experience/feedback-to-units
+  touchpoints:
+  - team-meeting
+  - unit-experience-report
+- slug: redesigning-with-patients
+  title: Redesigning with Patients
+  goal: Design the change with patients who lived the experience.
+  step: patient-experience/improvement-co-design
+  touchpoints:
+  - co-design-workshop
+- slug: embedding-the-change
+  title: Embedding the Change
+  goal: Make the change routine on every shift.
+  step: patient-experience/implementation
+  touchpoints:
+  - team-meeting
+- slug: showing-the-effect
+  title: Showing the Effect
+  goal: Show at the next measurement that the change worked, or stop it.
+  step: patient-experience/re-measurement-and-publication
+  touchpoints:
+  - unit-experience-report
+  - board-meeting

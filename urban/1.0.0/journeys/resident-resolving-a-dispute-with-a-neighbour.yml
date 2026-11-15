@@ -1,0 +1,41 @@
+kind: journey
+slug: resident-resolving-a-dispute-with-a-neighbour
+title: Resident Resolving a Dispute With a Neighbour
+stakeholder: resident
+summary: A resident knows the published steps, brings a dispute to a neighbourhood point, is heard in mediation, signs an agreement
+  that the mediator follows up and, where it fails, moves to a formal route carrying what mediation established.
+stages:
+- slug: know-the-steps
+  title: Know the Steps
+  goal: The resident knows the steps by which a dispute moves from neighbours to mediation and the formal routes, and the time allowed
+    at each.
+  step: community-mediation-and-restorative-practice/escalation-path-setting
+  touchpoints:
+  - published-mediation-steps
+- slug: bring-the-dispute
+  title: Bring the Dispute
+  goal: The resident has brought the dispute to a neighbourhood point or online and it has been assessed for safety, urgency and the
+    right step.
+  step: community-mediation-and-restorative-practice/dispute-intake-and-assessment
+  touchpoints:
+  - neighbourhood-dispute-desk
+- slug: be-heard-in-mediation
+  title: Be Heard in Mediation
+  goal: Both parties have been heard by a community mediator and have agreed a way forward.
+  step: community-mediation-and-restorative-practice/mediation-and-restorative-circles
+  touchpoints:
+  - mediation-meeting
+- slug: sign-and-keep-the-agreement
+  title: Sign and Keep the Agreement
+  goal: The agreement is written down with what each party will do and by when, and the mediator has checked back that it is kept.
+  step: community-mediation-and-restorative-practice/agreement-and-follow-up
+  touchpoints:
+  - signed-agreement-copy
+  - mediator-follow-up-call
+- slug: move-to-a-formal-route
+  title: Move to a Formal Route
+  goal: Where mediation could not resolve the dispute, it has been referred with consent to legal advice, the city's complaint route
+    or the courts, carrying what mediation established.
+  step: community-mediation-and-restorative-practice/formal-route-referral
+  touchpoints:
+  - referral-with-mediation-summary

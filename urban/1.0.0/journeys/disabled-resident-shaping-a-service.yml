@@ -1,0 +1,47 @@
+kind: journey
+slug: disabled-resident-shaping-a-service
+title: Disabled Resident Shaping a Service
+stakeholder: disabled-resident
+summary: A disabled resident states the access needed, joins the council of users and staff of a service relied on, sets its standards
+  with staff, has a calibrated say on changes that touch disabled residents most, follows the response and reviews who was still left
+  out.
+stages:
+- slug: ask-for-access
+  title: Ask for Access
+  goal: The resident has stated the access needed and finds meetings and materials usable from the start.
+  step: resident-involvement-and-deliberation/access-and-preparation
+  touchpoints:
+  - access-needs-request
+  - plain-language-briefing-pack
+- slug: join-the-service-council
+  title: Join the Service Council
+  goal: The resident has joined the council of the users and staff of a service the resident relies on and knows its mandate.
+  step: resident-involvement-and-deliberation/service-co-production
+  touchpoints:
+  - service-council-meeting
+- slug: set-the-standards-together
+  title: Set the Standards Together
+  goal: Users and staff have set the service's standards together, with the work, the risks and the pay of each role made explicit.
+  step: resident-involvement-and-deliberation/service-co-production
+  touchpoints:
+  - service-council-meeting
+  - service-role-matrix
+- slug: have-a-calibrated-say
+  title: Have a Calibrated Say
+  goal: Where a change touches disabled residents most, their say on it is strong enough to protect them without freezing the decision.
+  step: resident-involvement-and-deliberation/deliberation-and-co-design
+  touchpoints:
+  - affected-group-consent-round
+- slug: follow-the-response
+  title: Follow the Response
+  goal: The resident has seen what was taken up and why not, with dissent recorded next to the decision.
+  step: resident-involvement-and-deliberation/response-and-influence
+  touchpoints:
+  - report-back-meeting
+  - proposal-trace-page
+- slug: review-who-was-left-out
+  title: Review Who Was Left Out
+  goal: The resident has helped review who could not take part and which barriers remain.
+  step: resident-involvement-and-deliberation/participation-review
+  touchpoints:
+  - participation-review-circle

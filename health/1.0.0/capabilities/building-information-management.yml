@@ -1,0 +1,14 @@
+kind: capability
+slug: building-information-management
+title: Building Information Management
+level: L3
+parent: estate-development
+summary: Keep the drawings, building model, room data, installation records and operating manuals of every building current from design
+  through construction to operation.
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-409
+  edition: '2024'
+  jurisdiction: global

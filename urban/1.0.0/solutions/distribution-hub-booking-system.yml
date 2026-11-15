@@ -1,0 +1,13 @@
+kind: solution
+slug: distribution-hub-booking-system
+title: Distribution Hub Booking System
+role: system-of-engagement
+summary: Holds the neighbourhood hubs and their agreements, takes the fixed delivery days of producers and the slot bookings of carriers,
+  counts consolidation and allocations, and coordinates the last mile to homes and pickup points.
+carries:
+- hub-operating-agreement-drafting
+- hub-delivery-scheduling
+- last-mile-delivery-coordination
+holds:
+- distribution-hub
+- hub-operating-agreement

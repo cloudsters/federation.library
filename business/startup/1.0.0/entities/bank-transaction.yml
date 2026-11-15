@@ -1,0 +1,46 @@
+kind: entity
+slug: bank-transaction
+title: Bank Transaction
+type: transactional
+summary: A transaction reported by a bank — a booking on a bank account that must be matched and reconciled with the organisation's
+  internal records, so that the books stay true.
+attributes:
+- name: transaction-date
+  type: date
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: counterparty-reference
+  type: text
+  card: 0..1
+- name: description
+  type: text
+  card: 0..1
+- name: bank-account
+  type: reference(bank-account)
+  card: 1..1
+- name: matched-payment
+  type: reference(payment)
+  card: 0..1
+states:
+- imported
+- matched
+- partially-matched
+- unmatched
+- reconciled
+- cleared
+relations:
+- type: refers-to
+  target: bank-account
+- type: refers-to
+  target: payment
+- type: refers-to
+  target: journal-entry
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

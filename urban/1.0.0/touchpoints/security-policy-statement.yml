@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: security-policy-statement
+title: Security Policy Statement
+medium: artefact
+summary: The published statement of the city's security policy, the principles it follows and how residents and researchers can report
+  weaknesses.
+exchanges:
+- assessed-risks-for-an-adopted-policy
+journey: city-council-holding-digital-risk-within-appetite

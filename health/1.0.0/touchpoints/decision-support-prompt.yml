@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: decision-support-prompt
+title: Decision Support Prompt
+medium: artefact
+summary: The alert, reminder, order set or dose check that appears in the clinical workstation at the moment of decision, showing
+  its source and allowing a justified override.
+exchanges:
+- clinical-logic-for-decision-support
+- guideline-prompts-for-reasoned-overrides
+- triage-proposal-for-confirmation
+- dose-check-for-justified-override
+journey: evidence-into-daily-practice

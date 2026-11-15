@@ -1,0 +1,125 @@
+kind: value-stream
+slug: public-space-use-and-programming
+title: Public Space Use and Programming
+family: interest-to-relationship
+summary: Keeping the city's squares, streets, parks and other open spaces public, used and alive. It holds the observation of how
+  public spaces are used and by whom, requests by residents, traders and groups to use a space, the open allocation of market days
+  and street trading pitches, the right to assemble and demonstrate, places to sit, rest and stay, agreements on night-time life,
+  and the care of a space shared with those who use it.
+trigger: Residents, traders or organisers ask to use a public space, a space stands empty or little used, or conflicts arise over
+  how a space is used.
+outcome: Public spaces are open to all, used through the day, the week and the year, and cared for together with those who use them.
+stakeholders:
+- resident
+- informal-worker
+- local-business
+- event-organiser
+- neighbourhood-association
+- older-resident
+- disabled-resident
+- young-people
+steps:
+- slug: public-life-observation
+  title: Public Life Observation
+  summary: How squares, streets and parks are used, who stays, who passes through and who is absent, at what hours and in what seasons,
+    is observed with residents and recorded.
+  capabilities:
+  - public-life-observation
+  - resident-access-audit
+  entities:
+  - public-life-survey
+  - public-space
+  serves:
+  - public-life-observation-walk
+  - published-public-life-survey
+- slug: space-use-requests
+  title: Space Use Requests
+  summary: Residents, traders and groups ask to use a space for a weekly market, a play street, a seasonal garden or a stage, and
+    the city answers each request within a set time, letting one place serve different uses at different times.
+  capabilities:
+  - public-space-booking
+  - interim-use-arrangement
+  entities:
+  - public-space-permit
+  - public-space
+  serves:
+  - shared-time-space-permit
+  - space-use-request-form
+- slug: markets-and-street-trading
+  title: Markets and Street Trading
+  summary: Market days and street trading pitches are allocated openly with the traders' own organisations, protecting vendors from
+    displacement and sharing space and fees fairly.
+  capabilities:
+  - market-and-pitch-allocation
+  - asset-rent-and-charge-setting
+  entities:
+  - trading-pitch
+  - market-day
+  - market
+  serves:
+  - market-pitch-allocation-meeting
+  - trading-pitch-licence
+- slug: assemblies-and-demonstrations
+  title: Assemblies and Demonstrations
+  summary: Residents' right to gather and demonstrate in public space is upheld, with notice handled simply and the safety of those
+    taking part and of passers-by agreed with emergency services.
+  capabilities:
+  - assembly-facilitation
+  - public-space-booking
+  entities:
+  - protest
+  - public-space
+  serves:
+  - assembly-notice
+  - assembly-safety-briefing
+- slug: places-to-stay-and-gather
+  title: Places to Stay and Gather
+  summary: Seating, shade, shelter, drinking water, toilets and lighting are provided so that elders, disabled residents, children
+    and carers can stay, and spaces are adapted as their use is learnt.
+  capabilities:
+  - public-amenity-provision
+  - encounter-space-design
+  entities:
+  - public-space
+  - park
+  - street
+  serves:
+  - places-to-sit-and-rest
+  - rest-and-amenity-request
+- slug: night-time-life-agreements
+  title: Night-Time Life Agreements
+  summary: 'The use of public spaces at night is agreed with residents, venues, night workers and visitors: hours, sound, lighting,
+    safe routes home and places kept quiet and dark.'
+  capabilities:
+  - night-time-agreement-drafting
+  - noise-agreement-setting
+  entities:
+  - neighbourhood-agreement
+  - noise-regulation
+  serves:
+  - night-time-forum
+  - published-night-time-agreement
+- slug: shared-care-of-public-spaces
+  title: Shared Care of Public Spaces
+  summary: Residents, traders and groups who use a space take on part of its care by agreement, and the openness of the space to all
+    is reviewed so that no group or commercial use takes it over.
+  capabilities:
+  - shared-place-care-agreement-drafting
+  - public-space-openness-review
+  entities:
+  - place-care-agreement
+  - public-life-survey
+  serves:
+  - public-space-care-group
+  - public-space-openness-check
+  - published-public-life-survey
+binds:
+- source: src-266
+  edition: '2018-05-26'
+  jurisdiction: global
+- source: src-267
+  edition: '2013-04-17'
+  jurisdiction: global
+- source: src-268
+  edition: '2020-09-17'
+  jurisdiction: global

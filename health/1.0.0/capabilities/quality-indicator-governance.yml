@@ -1,0 +1,10 @@
+kind: capability
+slug: quality-indicator-governance
+title: Quality Indicator Governance
+level: L3
+parent: quality-measurement
+summary: Govern the set of mandatory and internal quality indicators, their data and their review.
+binds:
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global

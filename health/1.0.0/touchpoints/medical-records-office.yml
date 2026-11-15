@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: medical-records-office
+title: Medical Records Office
+medium: place
+summary: The office that keeps the record archive, validates requests for information from the record and releases copies to patients,
+  providers, payers and authorities.
+exchanges:
+- record-access-on-request
+- substantiated-record-for-a-decided-claim
+journey: payer-record-request-journey

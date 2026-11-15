@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: home-connection-visit
+title: Home Connection Visit
+medium: encounter
+summary: The visit in which a home or community place is connected and the resident is helped to get online.
+exchanges:
+- connection-request-for-a-working-line
+journey: community-network-operator-running-a-neighbourhood-network

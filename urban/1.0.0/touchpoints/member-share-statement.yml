@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: member-share-statement
+title: Member Share Statement
+medium: artefact
+summary: The statement of a member's share in a cooperative, the part already earned and the buy-out due on leaving.
+exchanges:
+- earned-share-for-full-membership
+- retiring-share-for-a-fair-buy-out
+journey: local-business-passing-the-business-on

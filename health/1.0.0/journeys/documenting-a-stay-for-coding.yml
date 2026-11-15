@@ -1,0 +1,35 @@
+kind: journey
+slug: documenting-a-stay-for-coding
+title: Documenting a Stay for Coding
+stakeholder: physician-in-specialty-training
+summary: The physician in training writes most of a stay's documentation; the journey shows where the coding stream asks for precision
+  and where it returns feedback.
+stages:
+- slug: document-as-care-happens
+  title: Document as Care Happens
+  goal: Findings, diagnoses and procedures are recorded once, completely and when they occur, with drafted notes reviewed rather than
+    written from scratch.
+  step: clinical-coding-and-documentation-integrity/point-of-care-documentation
+  touchpoints:
+  - clinical-workstation
+- slug: answer-documentation-queries
+  title: Answer Documentation Queries
+  goal: Each query is answered in the record promptly, clarifying the clinical facts without being steered towards a code.
+  step: clinical-coding-and-documentation-integrity/concurrent-documentation-review
+  touchpoints:
+  - documentation-query
+  - clinical-workstation
+- slug: close-the-record
+  title: Close the Record
+  goal: The discharge letter and final diagnoses are complete on the day of discharge and signed by the responsible specialist.
+  step: clinical-coding-and-documentation-integrity/record-completion-at-discharge
+  touchpoints:
+  - discharge-letter
+  - documentation-query
+  - clinical-workstation
+- slug: learn-from-coding-feedback
+  title: Learn from Coding Feedback
+  goal: The department's recurring documentation gaps are known and addressed in training instead of being repeated.
+  step: clinical-coding-and-documentation-integrity/coding-quality-audit-and-feedback
+  touchpoints:
+  - coding-feedback-review

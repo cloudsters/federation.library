@@ -1,0 +1,37 @@
+kind: body
+slug: full-council
+title: Full Council
+summary: The council meeting as a whole, the outermost body of the municipality. It adopts the charter, the bylaws and the budget,
+  allocates decision rights, states the risk appetite and supervises the administration, and answers to residents at the next vote.
+holds:
+- civic-identity-and-mandate
+- oversight-and-transparency
+- law-risk-and-resilience
+- strategy-and-vision
+- spatial-planning-and-development
+- programmes-and-investment
+- revenue-and-funding
+- budget-and-accounts
+- treasury-assets-and-commons-fund
+- digital-strategy-and-infrastructure
+- systems-delivery-and-operations
+- data-and-security
+- civic-community-and-participation
+- process-and-quality-improvement
+- automation-and-human-agent-work
+- knowledge-and-research
+- trial-outcome-decision
+- workforce-planning-and-recruitment
+- skills-and-livelihoods
+- pay-and-working-life
+- succession-and-transition
+- service-design-and-access
+- learning-and-education
+- health-and-care
+- resident-contact-and-redress
+- public-life-and-visitors
+- urban-infrastructure-and-services
+- procurement-and-supply
+part_of: null
+type: board
+form: governing-body

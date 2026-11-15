@@ -1,0 +1,26 @@
+kind: body
+slug: asset-management-office
+title: Asset Management Office
+summary: Keeps the register of every asset with its criticality and condition, publishes the maintenance backlog, prepares the asset
+  plan with departments and neighbourhoods, assesses land needs and exposure to climate hazards, appraises acquisitions and prepares
+  the retirement of assets and the closing of their records.
+holds:
+- asset-planning-and-condition
+- asset-criticality-rating
+- condition-survey
+- maintenance-backlog-publication
+- asset-lifecycle-planning
+- renewal-prioritisation
+- maintenance-performance-review
+- land-need-assessment
+- vacant-property-identification
+- acquisition-appraisal
+- asset-climate-exposure-assessment
+- adaptation-option-appraisal
+- asset-retirement-and-recovery
+- end-of-life-option-appraisal
+- pre-demolition-audit
+- asset-record-closure
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,33 @@
+kind: entity
+slug: staffing-standard
+title: Staffing Standard
+type: governance
+summary: A binding minimum or target staffing level for a unit type and shift, expressed as a ratio of qualified staff to
+  patients or to measured workload, against which rosters and actual staffing are tested.
+attributes:
+- name: unit-type
+  type: code
+  card: 1..1
+- name: profession
+  type: code
+  card: 1..1
+- name: minimum-ratio
+  type: decimal
+  card: 1..1
+- name: shift-kinds
+  type: code
+  card: 0..*
+- name: standard-source
+  type: code
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- draft
+- in-force
+- suspended
+- withdrawn
+relations:
+- type: based-on
+  target: compliance-obligation

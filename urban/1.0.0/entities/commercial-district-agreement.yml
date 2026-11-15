@@ -1,0 +1,57 @@
+kind: entity
+slug: commercial-district-agreement
+title: Commercial District Agreement
+type: governance
+summary: The agreement among the traders, property owners and residents of a shopping street or district on the money and work they
+  pool for shared spaces and empty shops. The parties sign it, with the city as a party where it gives space or money, and it is used
+  to care for shared spaces, fill empty shops with interim uses and keep long-standing businesses in place.
+attributes:
+- name: streets
+  type: reference(street)
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: contributions
+  type: text
+  card: 1..*
+- name: pooled-money
+  type: amount
+  card: 0..1
+- name: work-pooled
+  type: text
+  card: 0..*
+- name: shared-spaces
+  type: reference(public-space)
+  card: 0..*
+- name: interim-uses
+  type: reference(building)
+  card: 0..*
+- name: protected-businesses
+  type: text
+  card: 0..*
+- name: decision-rules
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- in-force
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: street
+- type: refers-to
+  target: building
+- type: refers-to
+  target: public-space

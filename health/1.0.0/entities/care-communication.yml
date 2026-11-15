@@ -1,0 +1,56 @@
+kind: entity
+slug: care-communication
+title: Care Communication
+type: transactional
+summary: A message about a patient's care sent between care professionals, units or providers, such as a result notification, consultation
+  reply or query, recorded with sender, recipients and acknowledgement.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: sender
+  type: reference(practitioner-role)
+  card: 1..1
+- name: recipients
+  type: reference(practitioner-role)
+  card: 0..*
+- name: recipient-organisations
+  type: reference(organisation)
+  card: 0..*
+- name: topic
+  type: code
+  card: 1..1
+- name: content
+  type: document
+  card: 1..1
+- name: sent-at
+  type: datetime
+  card: 1..1
+- name: acknowledged-at
+  type: datetime
+  card: 0..1
+states:
+- preparation
+- sent
+- received
+- acknowledged
+- failed
+relations:
+- type: depends-on
+  target: interface
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

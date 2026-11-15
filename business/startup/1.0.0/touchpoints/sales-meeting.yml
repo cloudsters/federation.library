@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: sales-meeting
+title: Sales Meeting
+medium: encounter
+summary: The meeting at the customer's premises, the company's site or online in which a sales representative explores the customer's
+  needs, presents solutions and agrees next steps.
+exchanges:
+- field-intelligence-for-a-sharper-picture
+- need-disclosure-for-a-fitting-offer
+- prepared-seller-for-time-given
+- registered-deal-for-protected-opportunity
+journey: sales-representative-feeding-and-using-market-insight

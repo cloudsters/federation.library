@@ -1,0 +1,44 @@
+kind: entity
+slug: location
+title: Location
+type: master
+summary: The geography within the geography — a specific bin, shelf, zone, or staging area within a warehouse. Where a warehouse (M18)
+  is the building, a location is the internal coordinate system that makes precise inventory placement and retrieval possible.
+attributes:
+- name: code
+  type: identifier
+  card: 1..1
+- name: location-type
+  type: code
+  card: 1..1
+- name: warehouse
+  type: reference(warehouse)
+  card: 1..1
+- name: parent
+  type: reference(location)
+  card: 0..1
+- name: capacity
+  type: quantity
+  card: 0..1
+- name: item-quantities
+  type: text
+  card: 0..*
+states:
+- defined
+- assigned
+- occupied
+- reconciled
+- retired
+relations:
+- type: part-of
+  target: warehouse
+- type: refers-to
+  target: item
+- type: refers-to
+  target: stock-entry
+- type: refers-to
+  target: stock-reconciliation
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

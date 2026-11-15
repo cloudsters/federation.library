@@ -1,0 +1,27 @@
+kind: journey
+slug: employee-getting-help-with-a-system
+title: Employee Getting Help with a System
+stakeholder: employee
+summary: An employee reports a problem or request through self-service or the service desk, is helped within the agreed time and sees
+  recurring problems removed at their cause.
+stages:
+- slug: report-the-problem
+  title: Report the Problem
+  goal: The problem or request is recorded and a person is reachable when needed.
+  step: support-as-care/request-and-incident-intake
+  touchpoints:
+  - self-service-portal
+  - service-desk
+- slug: be-helped
+  title: Be Helped
+  goal: The incident is resolved or the request fulfilled within its service level.
+  step: support-as-care/incident-and-request-resolution
+  touchpoints:
+  - service-desk
+  - device-handover
+- slug: see-the-cause-removed
+  title: See the Cause Removed
+  goal: A recurring problem is traced to its cause and the fix is shared as knowledge.
+  step: support-as-care/problem-diagnosis-and-learning
+  touchpoints:
+  - knowledge-base

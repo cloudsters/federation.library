@@ -1,0 +1,50 @@
+kind: entity
+slug: workplace-hazard-register
+title: Workplace Hazard Register
+type: intelligence
+summary: The shared register, controlled by the workers concerned, of heat and other hazards where staff, contracted and informal
+  workers work, with the health effects seen and the actions taken. Worker collectives and the city keep it together, and it is used
+  to provide shade, water, rest and shifted hours and to check contractors in the fair work audit.
+attributes:
+- name: workplace
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: hazard-kind
+  type: code
+  card: 1..1
+- name: workers-exposed
+  type: text
+  card: 0..*
+- name: health-effects-seen
+  type: text
+  card: 0..*
+- name: actions-taken
+  type: text
+  card: 0..*
+- name: reported-by
+  type: text
+  card: 0..1
+- name: reported-on
+  type: date
+  card: 1..1
+- name: last-checked-on
+  type: date
+  card: 0..1
+states:
+- reported
+- confirmed
+- acted-on
+- monitored
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: risk-register
+- type: produces
+  target: audit-finding

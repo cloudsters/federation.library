@@ -1,0 +1,59 @@
+kind: journey
+slug: city-council-renewing-the-city-charter
+title: City Council Renewing the City Charter
+stakeholder: city-council
+summary: The council opens the charter, gathers the city's memory with those who carry it, hears residents and absent communities,
+  drafts charter and boundary with them, adopts and publishes both, and keeps watching whether the city still follows what it adopted.
+stages:
+- slug: open-the-charter-review
+  title: Open the Charter Review
+  goal: The occasion for opening the charter is named, and the scope and the communities to be heard are set in a public resolution.
+  step: civic-identity-and-charter/review-occasion
+  touchpoints:
+  - council-meeting
+  - petition-portal
+- slug: gather-the-civic-memory
+  title: Gather the Civic Memory
+  goal: Founding stories, neighbourhood histories and harms the city has done or allowed are recorded with those who carry them.
+  step: civic-identity-and-charter/civic-memory-gathering
+  touchpoints:
+  - civic-memory-archive
+  - oral-history-circle
+- slug: hear-the-city
+  title: Hear the City
+  goal: Residents and communities absent from earlier processes have said what the city should stand for, and the tensions between
+    them are named.
+  step: civic-identity-and-charter/community-hearing
+  touchpoints:
+  - public-hearing
+  - neighbourhood-assembly
+- slug: draft-in-plain-language
+  title: Draft in Plain Language
+  goal: A charter in plain language states purpose, values and what the city owes residents and future generations.
+  step: civic-identity-and-charter/charter-drafting
+  touchpoints:
+  - charter-drafting-workshop
+- slug: state-the-boundary
+  title: State the Boundary
+  goal: What the municipality does, what it leaves to others and what it holds in trust as commons is drawn on one map the council
+    can defend.
+  step: civic-identity-and-charter/boundary-setting
+  touchpoints:
+  - commons-boundary-map
+  - charter-drafting-workshop
+- slug: adopt-and-publish
+  title: Adopt and Publish
+  goal: The council has adopted charter and boundary with minority positions recorded, and both are published in the languages residents
+    use.
+  step: civic-identity-and-charter/ratification-and-publication
+  touchpoints:
+  - council-meeting
+  - published-city-charter
+  - street-and-place-signage
+- slug: keep-the-charter-lived
+  title: Keep the Charter Lived
+  goal: Drift between the charter and the city's decisions is seen, owned and corrected, and stale parts are renewed or retired.
+  step: civic-identity-and-charter/lived-charter-review
+  touchpoints:
+  - state-of-the-city-report
+  - council-meeting

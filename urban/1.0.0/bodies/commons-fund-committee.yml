@@ -1,0 +1,13 @@
+kind: body
+slug: commons-fund-committee
+title: Commons Fund Committee
+summary: Councillors and members sent by the neighbourhood councils, who prepare the council's decisions on the commons fund rules,
+  set each neighbourhood's share weighted to need and see that the fund is reported and inspected in the open.
+holds:
+- commons-fund-and-value-return
+- commons-fund-rule-drafting
+- commons-fund-allocation
+- commons-work-pay-setting
+part_of: full-council
+type: committee
+form: governing-body

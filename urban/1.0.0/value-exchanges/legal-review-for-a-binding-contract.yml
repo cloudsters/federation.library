@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: legal-review-for-a-binding-contract
+title: Legal Review for a Binding Contract
+between:
+- legal-and-compliance-officer
+- supplier
+offered:
+- A contract reviewed for legality and fairness, with the commitments of the bid written as clear clauses.
+returned:
+- The supplier's signature on commitments it can be held to.
+touchpoint: contract-review-and-signing

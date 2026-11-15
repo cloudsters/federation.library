@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: federated-analysis-partnership
+title: Federated Analysis Partnership
+between:
+- research-scientist
+- research-partner
+offered:
+- The research team offers analysis code, a shared protocol and its own site's results, computed without moving patient-level data.
+returned:
+- The partner returns results from its own data, a larger and more diverse population, and joint authorship of the findings.
+touchpoint: secure-processing-environment

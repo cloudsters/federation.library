@@ -1,0 +1,32 @@
+kind: solution
+slug: intensive-care-and-anaesthesia-documentation
+title: Intensive Care and Anaesthesia Documentation
+role: system-of-record
+summary: 'Charts critically ill and anaesthetised patients at device frequency: vital data, ventilation, fluid balance, infusions,
+  scores and the anaesthesia record from induction to recovery. Its observations are the high-frequency part of the measured findings.'
+carries:
+- intensive-care-admission-management
+- organ-support-therapy
+- sedation-and-delirium-management
+- intermediate-care
+- neonatal-intensive-care
+- preoperative-assessment
+- anaesthesia-consent-and-risk-stratification
+- anaesthesia-induction-and-monitoring
+- anaesthesia-emergence
+- post-anaesthesia-recovery
+- postoperative-monitoring
+- medical-device-integration
+- organ-donation-coordination
+holds:
+- observation
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

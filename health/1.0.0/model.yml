@@ -1,0 +1,140 @@
+id: health
+kind: health-commons
+gives: 'A health commons, such as a university hospital, a hospital group or a care network, holds its mandate as one whole: by whose leave it cares, researches and teaches, the care level and service groups it must evidence against their criteria, the obligations it carries with a named owner each, and the risks to its right to operate, read together. This offer holds the health portfolio whole: every stakeholder, the capability map from L0 to L3, every entity and solution, and every Body with its Posts; of the value streams, the seven of Perception to Mandate, the five of Purpose to Portfolio, the nine of Value to Sustainability and the eight of Portfolio to System, the three of Participant to Community, the twelve of Collaboration to Automation, the twelve of Contributor to Succession, the seven of Discovery to Usage, the seven of Interest to Relationship, the eight of Proposition to Audience, the thirty-three of Demand to Fulfillment, the five of Source to Alliance and the six of Acquire to Retire are offered, with the journeys, touchpoints and value exchanges beside them; deeper capabilities, measures, patterns and systems of record are served on the same ids where the offer holds them.'
+asks: A Body that holds what the commons activates, and the commons' own evidence on its mandate.
+order:
+  perception-to-mandate:
+  - institutional-identity-and-mission
+  - governance-and-oversight
+  - care-mandate
+  - clinical-and-organisational-ethics
+  - legal-affairs-and-compliance
+  - enterprise-risk-and-resilience
+  - whole-system-perception
+  purpose-to-portfolio:
+  - strategy-development
+  - academic-strategy
+  - service-portfolio-planning
+  - centre-development
+  - strategic-initiative-portfolio
+  value-to-sustainability:
+  - clinical-coding-and-documentation-integrity
+  - revenue-cycle
+  - payer-contracting-and-budget-negotiation
+  - budgeting-and-controlling
+  - financial-accounting-and-treasury
+  - capital-planning-and-investment-funding
+  - research-funding
+  - academic-funds-allocation
+  - philanthropy
+  portfolio-to-system:
+  - digital-strategy-and-architecture
+  - solution-delivery
+  - it-service-operations
+  - interoperability-and-connectivity
+  - information-security
+  - data-protection-and-information-governance
+  - data-and-analytics
+  - health-data-reuse
+  participant-to-community:
+  - patient-and-public-involvement
+  - internal-communication-and-staff-voice
+  - owner-and-public-affairs
+  collaboration-to-automation:
+  - quality-management-system
+  - quality-and-outcome-measurement
+  - peer-review-and-clinical-audit
+  - clinical-risk-management
+  - incident-reporting-and-learning
+  - infection-prevention-and-control
+  - clinical-guidelines-and-pathways
+  - process-improvement-and-automation
+  - human-agent-teaming
+  - ai-assurance
+  - vigilance-and-recall-management
+  - environmental-sustainability
+  contributor-to-succession:
+  - workforce-planning
+  - recruitment-and-onboarding
+  - credentialing-and-privileging
+  - academic-appointments
+  - workforce-scheduling-and-staffing
+  - compensation-and-payroll
+  - professional-development
+  - specialist-training
+  - occupational-health-and-safety
+  - employee-relations-and-retention
+  - succession-and-transition
+  - ai-agent-lifecycle
+  discovery-to-usage:
+  - clinical-service-development
+  - health-technology-adoption
+  - patient-experience
+  - translational-research
+  - research-governance-and-ethics-review
+  - innovation-and-technology-transfer
+  - continuing-education-programmes
+  interest-to-relationship:
+  - referrer-relations
+  - patient-enquiries-and-relationships
+  - informed-choice-and-consent
+  - patient-rights-and-complaints
+  - international-patient-services
+  - care-partnerships-and-networks
+  - industry-and-academic-partnerships
+  proposition-to-audience:
+  - regional-care-network-design
+  - telemedicine-network
+  - digital-patient-access
+  - integrated-care-programmes
+  - access-and-waiting-times
+  - population-health-programmes
+  - public-communication-and-reputation
+  - service-marketing
+  demand-to-fulfillment:
+  - referral-and-admission-management
+  - emergency-care
+  - inpatient-care
+  - intensive-care
+  - outpatient-care
+  - home-and-remote-care
+  - maternity-care
+  - paediatric-and-neonatal-care
+  - cancer-care
+  - mental-health-care
+  - surgical-care
+  - operating-theatre-management
+  - interventional-procedures
+  - laboratory-diagnostics
+  - diagnostic-imaging
+  - pathology-and-molecular-diagnostics
+  - transfusion-medicine
+  - medication-management
+  - nursing-care
+  - therapy-services
+  - interdisciplinary-consultation
+  - palliative-and-end-of-life-care
+  - organ-donation-and-transplantation
+  - patient-flow-and-bed-management
+  - discharge-and-care-transition
+  - patient-hospitality-services
+  - health-record-management
+  - clinical-trials
+  - observational-and-data-driven-research
+  - biobanking
+  - undergraduate-medical-education
+  - nursing-and-health-professions-education
+  - interprofessional-education
+  source-to-alliance:
+  - category-and-supplier-management
+  - tendering-and-contracting
+  - purchasing-and-invoice-settlement
+  - clinical-supply-logistics
+  - pharmaceutical-supply
+  acquire-to-retire:
+  - medical-equipment-acquisition
+  - medical-equipment-maintenance
+  - sterile-processing
+  - site-development-and-construction
+  - facility-operations-and-maintenance
+  - it-asset-lifecycle

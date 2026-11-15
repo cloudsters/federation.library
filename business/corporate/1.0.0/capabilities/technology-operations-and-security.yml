@@ -1,0 +1,10 @@
+kind: capability
+slug: technology-operations-and-security
+title: Technology Operations & Security
+level: L1
+parent: digital-and-data
+summary: Running, protecting and recovering the technology on which the organisation depends.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

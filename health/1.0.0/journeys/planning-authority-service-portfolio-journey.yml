@@ -1,0 +1,27 @@
+kind: journey
+slug: planning-authority-service-portfolio-journey
+title: Planning Authority Service Portfolio Journey
+stakeholder: health-planning-authority
+summary: The planning authority shares its regional plan, coordinates concentrations among providers and assigns the service groups
+  the commons applies for.
+stages:
+- slug: share-the-regional-plan
+  title: Share the Regional Plan
+  goal: Make planning intentions and regional demand known to the providers.
+  step: service-portfolio-planning/demand-and-mandate-projection
+  touchpoints:
+  - regional-planning-conference
+- slug: coordinate-concentration
+  title: Coordinate Concentration
+  goal: Coordinate concentrations and transfers of services between providers so that regional access holds.
+  step: service-portfolio-planning/portfolio-option-design
+  touchpoints:
+  - regional-planning-conference
+- slug: assess-and-assign
+  title: Assess and Assign
+  goal: Assess the evidence for each service group and assign, condition or refuse it.
+  step: service-portfolio-planning/mandate-and-volume-alignment
+  touchpoints:
+  - service-group-application
+  - care-mandate-decision
+  - regional-planning-conference

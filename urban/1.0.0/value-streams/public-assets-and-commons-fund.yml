@@ -1,0 +1,146 @@
+kind: value-stream
+slug: public-assets-and-commons-fund
+title: Public Assets and Commons Fund
+family: value-to-sustainability
+summary: Making the land, buildings, networks and enterprises the city holds yield a return for the commons. It holds the register
+  that values every public asset and what it earns, the capture of the land value that public investment creates, leases and concessions
+  that pay a fair return while the city keeps control, municipal enterprises whose surplus flows back, and a ring-fenced commons fund,
+  allocated with neighbourhoods, that reinvests this value and reports where it went.
+trigger: An asset falls vacant or is revalued, a public investment raises land values, a lease or concession comes up for renewal,
+  or a municipal enterprise closes its year.
+outcome: Every public asset is valued and earns the return the council set, the value created by public investment returns to a ring-fenced
+  commons fund, and neighbourhoods have allocated that fund in the open.
+stakeholders:
+- city-council
+- finance-officer
+- neighbourhood-association
+- resident
+- community-land-trust
+- property-developer
+- infrastructure-operator
+- affected-community
+- future-generations
+steps:
+- slug: asset-register-and-valuation
+  title: Asset Register and Valuation
+  summary: The city keeps a register of the land, buildings, networks and enterprises it holds, with the value, condition, use and
+    income of each, and maps with residents the community assets that the register does not show.
+  capabilities:
+  - public-asset-registration
+  - property-valuation
+  - community-asset-mapping
+  entities:
+  - public-asset-register
+  - land-parcel
+  - building
+  - land-registry
+  serves:
+  - community-asset-inventory-session
+  - published-public-asset-register
+- slug: land-value-capture
+  title: Land Value Capture
+  summary: When transit, rezoning or new infrastructure raise land values, the city captures a share of the rise through a betterment
+    levy, development contributions or a charge on transfer, at rates and triggers set with residents, and pays the proceeds into
+    the commons fund.
+  capabilities:
+  - land-value-capture-design
+  - betterment-levy-assessment
+  - development-contribution-collection
+  entities:
+  - land-value-map
+  - development-agreement
+  - tax-assessment
+  serves:
+  - betterment-levy-consultation
+  - betterment-levy-notice
+  - development-contribution-statement
+- slug: asset-leasing-and-concessions
+  title: Asset Leasing and Concessions
+  summary: Public land, buildings, parking and rights of use are let on long leases and concessions that pay a fair return while the
+    city keeps control, with reduced rents for community land trusts, cooperatives and community uses.
+  capabilities:
+  - public-land-leasing
+  - asset-rent-and-charge-setting
+  - contract-review
+  entities:
+  - contract
+  - public-asset-register
+  - land-parcel
+  serves:
+  - community-lease-agreement
+  - lease-and-concession-tender
+- slug: municipal-enterprise-returns
+  title: Municipal Enterprise Returns
+  summary: As owner, the city sets each municipal enterprise in energy, water, transit and other services its mission, its pricing
+    principles and the share of its surplus that is reinvested, shared with the communities that host its assets, or returned to the
+    commons fund.
+  capabilities:
+  - owner-mandate-setting
+  - enterprise-surplus-allocation
+  entities:
+  - municipal-enterprise
+  - energy-grid
+  - water-network
+  serves:
+  - enterprise-owner-meeting
+  - host-community-benefit-share
+  - owner-mandate-letter
+- slug: commons-fund-ring-fencing
+  title: Commons Fund Ring-Fencing
+  summary: Revenue from commons-generated value, such as captured land value, asset income, enterprise surplus and the share of taxes
+    the council assigns, is kept in a separate commons fund under rules that protect it from being drawn into the general budget and
+    keep its value over time.
+  capabilities:
+  - commons-fund-rule-drafting
+  - commons-fund-accounting
+  entities:
+  - commons-fund
+  - commons-fund-rules
+  - commons-charter
+  serves:
+  - commons-fund-ledger
+  - commons-fund-rules-adoption
+- slug: commons-fund-allocation
+  title: Commons Fund Allocation
+  summary: Neighbourhood and district bodies decide with residents how their share of the fund is reinvested, in affordable homes,
+    the upkeep of shared infrastructure, community land, accessibility or recovery reserves, or returned to residents, with shares
+    weighted towards the neighbourhoods with the greatest need.
+  capabilities:
+  - commons-fund-allocation
+  - equity-audit
+  - resident-hearing
+  entities:
+  - fund-allocation
+  - commons-fund
+  - neighbourhood
+  serves:
+  - need-weighted-share-table
+  - neighbourhood-fund-assembly
+- slug: commons-fund-reporting
+  title: Commons Fund Reporting
+  summary: Each year the city publishes what entered the commons fund and from which source, where it went and who gained, and the
+    value the fund holds, and residents inspect the account.
+  capabilities:
+  - revenue-flow-reporting
+  - community-benefit-monitoring
+  - resident-inspection-support
+  entities:
+  - money-flow-account
+  - commons-fund
+  - oversight-report
+  serves:
+  - commons-fund-account-inspection
+  - commons-fund-annual-report
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-192
+  edition: '2024'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

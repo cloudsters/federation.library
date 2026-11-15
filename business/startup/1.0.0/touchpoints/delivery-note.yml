@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: delivery-note
+title: Delivery Note
+medium: artefact
+summary: The document that accompanies a shipment, listing items, quantities and order references, against which the recipient checks
+  and confirms receipt.
+exchanges:
+- booked-slot-for-prompt-receipt
+- correct-invoice-for-prompt-payment
+- goods-for-payment
+journey: receivables-accountant-collecting-what-is-due

@@ -1,0 +1,31 @@
+kind: entity
+slug: absence
+title: Absence
+type: transactional
+summary: A period in which an employee is not available for work, such as leave, sickness, parental leave, training or secondment,
+  planned or reported and reflected in rostering and capacity.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: absence-kind
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+- name: certificate
+  type: reference(health-certificate)
+  card: 0..1
+states:
+- requested
+- approved
+- rejected
+- in-progress
+- ended
+relations:
+- type: refers-to
+  target: roster

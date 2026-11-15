@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: prescription-for-pharmaceutical-review
+title: Prescription for Pharmaceutical Review
+between:
+- specialist-physician
+- clinical-pharmacist
+offered:
+- Prescriptions with their indication, and access to the patient's findings and drug levels.
+returned:
+- Review of high-risk prescriptions with concrete advice on choice, dose and monitoring, and medicines prepared and supplied
+  in time.
+touchpoint: clinical-workstation

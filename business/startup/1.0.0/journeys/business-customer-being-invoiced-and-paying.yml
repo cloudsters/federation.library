@@ -1,0 +1,42 @@
+kind: journey
+slug: business-customer-being-invoiced-and-paying
+title: Business Customer Being Invoiced and Paying
+stakeholder: business-customer
+summary: A business customer receives credit terms, correct invoices in the form it can process, a clear account of what it owes and
+  a fair hearing when amounts are disputed.
+stages:
+- slug: receive-credit-terms
+  title: Receive Credit Terms
+  goal: The customer knows its credit limit and payment terms and why they were set.
+  step: revenue-architecture/customer-credit-setting
+  touchpoints:
+  - contract-negotiation
+  - customer-portal
+- slug: receive-a-correct-invoice
+  title: Receive a Correct Invoice
+  goal: The invoice arrives on time, correct and in the structured form the customer's systems can process.
+  step: revenue-architecture/invoice-issue
+  touchpoints:
+  - invoice
+  - electronic-order-interface
+- slug: pay-and-see-it-applied
+  title: Pay and See It Applied
+  goal: The payment is applied to the right invoices and the account shows the true balance.
+  step: revenue-architecture/payment-receipt-and-application
+  touchpoints:
+  - customer-portal
+  - account-statement
+- slug: hear-about-an-overdue-amount
+  title: Hear About an Overdue Amount
+  goal: A late payment is followed up courteously and the reason is asked before escalation.
+  step: revenue-architecture/dunning-and-collection
+  touchpoints:
+  - payment-reminder
+  - service-hotline
+- slug: settle-a-dispute
+  title: Settle a Dispute
+  goal: A deduction or disputed amount is investigated and settled by credit note or explanation.
+  step: revenue-architecture/adjustment-and-deduction-resolution
+  touchpoints:
+  - credit-note
+  - service-hotline

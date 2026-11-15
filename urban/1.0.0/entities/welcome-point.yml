@@ -1,0 +1,61 @@
+kind: entity
+slug: welcome-point
+title: Welcome Point
+type: master
+summary: A place in a neighbourhood, often in a trusted community building, where newcomers are received in their own language and
+  told their rights and where to turn. The city runs it, often with a faith community or civil-society organisation that holds the
+  building, and it is used to receive newcomers and to point them to services, learning and neighbours.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: host-building
+  type: reference(community-centre|building)
+  card: 0..1
+- name: operator
+  type: text
+  card: 1..1
+- name: languages
+  type: code
+  card: 1..*
+- name: opening-hours
+  type: text
+  card: 1..1
+- name: services-offered
+  type: text
+  card: 1..*
+- name: contact
+  type: text
+  card: 0..1
+- name: data-use
+  type: reference(processing-record)
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 0..1
+states:
+- planned
+- open
+- temporarily-closed
+- moved
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: community-centre
+- type: governed-by
+  target: integration-plan
+- type: governed-by
+  target: language-access-policy
+- type: refers-to
+  target: faith-community
+- type: refers-to
+  target: civil-society-body
+binds:
+- source: src-226
+  edition: '2018-12-19'
+  jurisdiction: global

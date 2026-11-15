@@ -1,0 +1,119 @@
+kind: value-stream
+slug: initiative-cultivation
+title: Initiative Development
+family: purpose-to-portfolio
+summary: Carrying the strategy into change through a portfolio of initiatives that are proposed, selected, resourced, sensed and refined,
+  so that each one delivers its benefit or is ended honestly and its lessons are kept.
+trigger: A strategic initiative is proposed, or the periodic review of the initiative portfolio falls due.
+outcome: Approved initiatives are resourced and tracked against their benefits, and each is delivered, refined or stopped in line
+  with the strategy.
+stakeholders:
+- executive-board
+- managing-director
+- site-manager
+- finance-professional
+- employee
+steps:
+- slug: initiative-proposal
+  title: Initiative Proposal
+  summary: Ideas for strategic change are framed as initiatives, each a testable hypothesis about how to advance the strategy, with
+    expected benefit, cost, risk and a sponsor.
+  capabilities:
+  - initiative-seeding
+  entities:
+  - initiative
+  - business-case
+  - objective
+  serves:
+  - initiative-charter
+  - intranet
+- slug: initiative-selection
+  title: Initiative Selection
+  summary: Proposed initiatives are evaluated and selected so that the portfolio balances focus and diversity, risk and return, and
+    the capacity the organisation can really commit.
+  capabilities:
+  - portfolio-curation
+  - portfolio-as-ecosystem
+  entities:
+  - initiative
+  - portfolio
+  - business-case
+  - governance-decision
+  serves:
+  - initiative-charter
+  - portfolio-board
+- slug: benefit-and-measure-definition
+  title: Benefit and Measure Definition
+  summary: Each selected initiative receives measures of its impact on customers, people, finances and the environment, and the owners
+    of its benefits in the operating units are named.
+  capabilities:
+  - impact-measure-design
+  - benefit-realisation-management
+  entities:
+  - initiative
+  - measure
+  - kpi
+  serves:
+  - benefit-review
+  - initiative-charter
+  - portfolio-board
+- slug: initiative-launch
+  title: Initiative Launch
+  summary: The initiative is given its team, budget and plan, and is launched as a programme or project with the authority to act.
+  capabilities:
+  - initiative-activation
+  entities:
+  - initiative
+  - program
+  - project
+  - budget
+  serves:
+  - initiative-charter
+- slug: progress-sensing
+  title: Progress Sensing
+  summary: Progress, results and the experience of those affected are reviewed at a regular cadence, so that weak signals are seen
+    before the initiative drifts.
+  capabilities:
+  - initiative-evaluation-as-sensing
+  entities:
+  - initiative
+  - measure-report
+  - dashboard
+  serves:
+  - board-meeting
+  - initiative-progress-review
+  - shop-floor-meeting
+- slug: initiative-refinement
+  title: Initiative Refinement
+  summary: On the evidence, each initiative is strengthened, re-scoped, merged or stopped, and the portfolio and project plans are
+    adjusted accordingly.
+  capabilities:
+  - initiative-evolution
+  - portfolio-curation
+  entities:
+  - initiative
+  - portfolio
+  - governance-decision
+  serves:
+  - initiative-progress-review
+  - portfolio-board
+- slug: benefit-confirmation-and-reflection
+  title: Benefit Confirmation and Reflection
+  summary: After delivery the benefit owners confirm whether the intended benefits were realised, and what worked, what surprised
+    and what must change is returned to the strategy.
+  capabilities:
+  - benefit-realisation-management
+  - initiative-reflection
+  entities:
+  - initiative
+  - measure-report
+  - knowledge-article
+  serves:
+  - benefit-review
+  - board-meeting
+  - intranet
+  - staff-assembly
+binds:
+- source: src-099
+  edition: '2024'
+  jurisdiction: global

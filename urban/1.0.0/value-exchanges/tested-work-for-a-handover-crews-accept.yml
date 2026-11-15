@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: tested-work-for-a-handover-crews-accept
+title: Tested Work for a Handover Crews Accept
+between:
+- public-works-engineer
+- infrastructure-operator
+offered:
+- The finished asset tested against its brief, with its documents, material passport and open defects.
+returned:
+- The operator's acceptance of the asset into operation and maintenance, and its reports until each defect is closed.
+touchpoint: commissioning-acceptance-walk

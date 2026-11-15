@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: community-enumeration
+title: Community Enumeration
+medium: encounter
+summary: The count of households and the mapping of homes, paths, water points and hazards that residents of a settlement carry out
+  themselves, with the city's support.
+exchanges:
+- household-count-for-a-record-the-city-accepts
+journey: informal-settlement-resident-upgrading-in-place

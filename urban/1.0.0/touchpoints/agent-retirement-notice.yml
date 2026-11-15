@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-retirement-notice
+title: Agent Retirement Notice
+medium: artefact
+summary: The notice that an agent is retired, with where its tasks go, which records are kept and when its access ends.
+exchanges:
+- data-advice-for-lawful-retraining-and-retirement
+- exit-plan-for-release-from-the-contract
+journey: municipal-ai-agent-serving-a-fixed-term

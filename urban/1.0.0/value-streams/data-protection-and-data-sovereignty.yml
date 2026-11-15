@@ -1,0 +1,122 @@
+kind: value-stream
+slug: data-protection-and-data-sovereignty
+title: Data Protection and Data Sovereignty
+family: portfolio-to-system
+summary: Keeping the data the city holds about residents and places lawful in every use and under the control of the city and its
+  residents rather than of suppliers or outsiders. It holds the record of each use of personal data and its impact assessment, the
+  city's ownership of its data in every contract, the data trusts and sharing agreements through which neighbourhoods decide who may
+  use data about them, residents' consent and their requests to see, correct and delete their data, retention and lawful disposal,
+  and the response to breaches.
+trigger: A new use of personal data or a new sensor is proposed, a resident asks about their data, a contract or a request to share
+  data involves the city's data, or a breach is detected.
+outcome: Every use of personal data is recorded, lawful and visible to the residents it concerns, the city owns its data in every
+  contract, and neighbourhoods decide who may use the data about them.
+stakeholders:
+- resident
+- neighbourhood-association
+- affected-community
+- data-protection-officer
+- data-protection-authority
+- technology-supplier
+- research-institution
+- legal-and-compliance-officer
+- city-council
+steps:
+- slug: processing-intake-and-registration
+  title: Processing Intake and Registration
+  summary: Each proposed use of personal data, including by sensors and cameras, is recorded with its purpose, its lawful basis, the
+    data used and how long it is kept.
+  capabilities:
+  - processing-registration
+  - automated-decision-oversight
+  entities:
+  - processing-record
+  - automated-system-register
+  serves:
+  - processing-intake-form
+  - public-processing-register
+- slug: privacy-impact-assessment
+  title: Privacy Impact Assessment
+  summary: Uses that could harm residents are assessed with the data protection officer and the neighbourhoods concerned, weighing
+    whether the data is needed at all, and are approved, changed or refused.
+  capabilities:
+  - privacy-impact-assessment
+  - decision-impact-assessment
+  - resident-hearing
+  entities:
+  - data-impact-assessment
+  - processing-record
+  serves:
+  - privacy-impact-hearing
+- slug: data-ownership-in-contracts
+  title: Data Ownership in Contracts
+  summary: Every contract for a digital system or service states that the city owns the data it generates, where the data is held,
+    and how it returns to the city when the contract ends.
+  capabilities:
+  - contract-review
+  - open-source-first-sourcing
+  - data-sharing-agreement-drafting
+  entities:
+  - contract
+  - procurement-policy
+  - data-set
+  serves:
+  - contract-data-clause-review
+- slug: neighbourhood-data-trusts
+  title: Neighbourhood Data Trusts
+  summary: Neighbourhoods that wish to are supported to form data trusts that decide who may collect and use data about them and on
+    what terms, so that the benefits of its use flow back to them.
+  capabilities:
+  - data-trust-formation
+  - community-body-recognition
+  - data-sharing-agreement-drafting
+  entities:
+  - data-trust
+  - data-sharing-agreement
+  - neighbourhood
+  serves:
+  - data-trust-founding-assembly
+  - published-data-sharing-terms
+- slug: consent-and-resident-control
+  title: Consent and Resident Control
+  summary: Residents see what the city holds about them, give, limit or withdraw consent, set when their data expires, and have their
+    requests for access, correction or deletion answered within deadlines.
+  capabilities:
+  - consent-recording
+  - personal-data-request-handling
+  - identity-and-access-control
+  entities:
+  - consent-record
+  - personal-data-request
+  - digital-identity
+  serves:
+  - data-request-desk
+  - personal-data-dashboard
+  - resident-sign-in-service
+- slug: retention-and-disposal
+  title: Retention and Disposal
+  summary: Data is kept only for its set period and purpose and then deleted or anonymised, unless an audit or dispute requires it
+    to be held.
+  capabilities:
+  - data-retention-control
+  - legal-obligation-tracking
+  entities:
+  - processing-record
+  - data-set
+  serves:
+  - retention-schedule
+- slug: breach-response-and-review
+  title: Breach Response and Review
+  summary: Breaches of personal data are contained, assessed and reported to the data protection authority and the residents affected
+    within deadlines, and each year the processing, requests and breaches are reviewed and published.
+  capabilities:
+  - data-breach-response
+  - compliance-reporting
+  - public-record-publication
+  entities:
+  - personal-data-breach
+  - processing-record
+  - public-record
+  serves:
+  - annual-data-protection-report
+  - personal-data-breach-notice

@@ -1,0 +1,56 @@
+kind: entity
+slug: change-request
+title: Change Request
+type: transactional
+summary: A proposed change to an application, interface, infrastructure or configuration, assessed for risk and impact on care, approved,
+  scheduled, implemented with a rollback plan and reviewed before it is closed.
+attributes:
+- name: change-kind
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: affected-services
+  type: reference(it-service)
+  card: 1..*
+- name: affected-applications
+  type: reference(application)
+  card: 0..*
+- name: risk-rating
+  type: code
+  card: 1..1
+- name: planned-window
+  type: period
+  card: 0..1
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+- name: rollback-plan
+  type: text
+  card: 0..1
+states:
+- requested
+- assessed
+- approved
+- scheduled
+- implemented
+- reviewed
+- rejected
+relations:
+- type: refers-to
+  target: it-service
+- type: refers-to
+  target: application
+- type: based-on
+  target: digital-demand
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global
+- source: src-312
+  edition: '2016'
+  jurisdiction: global

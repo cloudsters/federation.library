@@ -1,0 +1,19 @@
+kind: solution
+slug: innovation-and-idea-management-system
+title: Innovation and Idea Management System
+role: system-of-record
+summary: Collects ideas and improvement suggestions from staff, customers and partners, and carries the promising ones through evaluation,
+  experiments and the innovation portfolio.
+carries:
+- offering-ideation
+- technology-innovation-cultivation
+- value-co-creation-design
+- innovation-horizon-planning
+- lean-improvement
+- innovation-portfolio-management
+- idea-management
+- innovation-partnerships
+- innovation-testbeds
+- corporate-venturing
+holds:
+- improvement-suggestion

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: questions-for-health-confidence
+title: Questions for Health Confidence
+between:
+- resident
+- community-health-worker
+offered:
+- Their questions, worries and time.
+returned:
+- Health knowledge in their language and guidance through the services they need.
+touchpoint: neighbourhood-health-session

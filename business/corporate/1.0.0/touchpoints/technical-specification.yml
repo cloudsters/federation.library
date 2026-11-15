@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: technical-specification
+title: Technical Specification
+medium: artefact
+summary: The specification of a product or service, with requirements, design, parts or deliverables, service levels and the evidence
+  that they are met.
+exchanges:
+- verified-data-for-specification
+journey: specifier-considering-a-new-offering-for-specification

@@ -1,0 +1,49 @@
+kind: entity
+slug: study-visit
+title: Study Visit
+type: transactional
+summary: A protocol-defined contact with a study participant at which assessments, samples and data are collected, scheduled within
+  its visit window and recorded as performed, missed or out of window.
+attributes:
+- name: participant-enrolment
+  type: reference(participant-enrolment)
+  card: 1..1
+- name: visit-code
+  type: code
+  card: 1..1
+- name: window
+  type: period
+  card: 1..1
+- name: performed-at
+  type: datetime
+  card: 0..1
+- name: encounter
+  type: reference(encounter)
+  card: 0..1
+- name: collected-data
+  type: document
+  card: 0..1
+- name: deviations
+  type: text
+  card: 0..*
+states:
+- scheduled
+- performed
+- missed
+- out-of-window
+- cancelled
+relations:
+- type: part-of
+  target: participant-enrolment
+- type: governed-by
+  target: study-protocol
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-415
+  edition: '2.0'
+  jurisdiction: global

@@ -1,0 +1,63 @@
+kind: entity
+slug: cultural-venue
+title: Cultural Venue
+type: master
+summary: A theatre, museum, gallery, concert hall or cinema in the city, with its spaces, capacity, prices and who owns and runs it.
+  The body that runs it keeps the record with the city, and it is used to open programmes to residents, to place community programming
+  and to protect cultural spaces from displacement.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: venue-kind
+  type: code
+  card: 1..*
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: ownership-kind
+  type: code
+  card: 1..1
+- name: capacity
+  type: integer
+  card: 0..1
+- name: spaces
+  type: text
+  card: 0..*
+- name: community-programming-share
+  type: decimal
+  card: 0..1
+- name: resident-ticket-price
+  type: amount
+  card: 0..1
+- name: heritage-protection
+  type: reference(heritage-protection)
+  card: 0..1
+- name: tenure-ends-on
+  type: date
+  card: 0..1
+states:
+- planned
+- open
+- under-renovation
+- at-risk
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: culture-plan
+- type: governed-by
+  target: heritage-protection
+- type: composed-of
+  target: cultural-collection
+- type: refers-to
+  target: community-asset-map

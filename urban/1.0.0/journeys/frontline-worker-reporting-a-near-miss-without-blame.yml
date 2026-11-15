@@ -1,0 +1,40 @@
+kind: journey
+slug: frontline-worker-reporting-a-near-miss-without-blame
+title: Frontline Worker Reporting a Near Miss Without Blame
+stakeholder: frontline-worker
+summary: A frontline worker checks quality as the work is done, reports a near miss without fear of blame, looks for its causes with
+  colleagues, owns a corrective action and shares the lesson across departments.
+stages:
+- slug: check-as-the-work-is-done
+  title: Check as the Work Is Done
+  goal: Simple checks built into the procedure catch errors as the work is done.
+  step: service-quality-and-learning-from-failure/in-service-quality-checks
+  touchpoints:
+  - built-in-quality-checklist
+- slug: report-the-near-miss
+  title: Report the Near Miss
+  goal: The worker reports the near miss without fear of blame, and it is graded by harm and urgency.
+  step: service-quality-and-learning-from-failure/failure-and-near-miss-reporting
+  touchpoints:
+  - failure-and-near-miss-report-line
+- slug: look-for-causes-not-culprits
+  title: Look for Causes, Not Culprits
+  goal: The causes are found in the process, the tools and the conditions of work rather than in individual blame.
+  step: service-quality-and-learning-from-failure/cause-analysis
+  touchpoints:
+  - cause-analysis-session
+  - current-state-process-map
+- slug: own-a-corrective-action
+  title: Own a Corrective Action
+  goal: The worker owns an action with a date, the procedure is changed, and the effect is checked before the action is closed.
+  step: service-quality-and-learning-from-failure/corrective-action
+  touchpoints:
+  - corrective-action-tracker
+  - published-standard-procedure
+- slug: share-the-lesson
+  title: Share the Lesson
+  goal: The lesson reaches the quality review and the colleagues in other departments who do similar work.
+  step: service-quality-and-learning-from-failure/quality-review-and-lesson-sharing
+  touchpoints:
+  - service-quality-review-meeting
+  - staff-knowledge-base

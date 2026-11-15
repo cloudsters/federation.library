@@ -1,0 +1,57 @@
+kind: journey
+slug: city-council-making-public-assets-yield-for-the-commons
+title: City Council Making Public Assets Yield for the Commons
+stakeholder: city-council
+summary: The council knows every asset the city holds, captures the rise in land value that public investment creates, lets assets
+  for a fair return, sets each municipal enterprise its mandate, keeps the commons fund apart, hands its allocation to neighbourhoods
+  and accounts for it in public.
+stages:
+- slug: know-what-the-city-holds
+  title: Know What the City Holds
+  goal: The council knows the value, condition, use and income of every public asset and the community assets the register did not
+    show.
+  step: public-assets-and-commons-fund/asset-register-and-valuation
+  touchpoints:
+  - published-public-asset-register
+  - community-asset-inventory-session
+- slug: capture-the-rise-in-land-value
+  title: Capture the Rise in Land Value
+  goal: Rates and triggers for the levy are set with residents, and the captured rise flows into the commons fund.
+  step: public-assets-and-commons-fund/land-value-capture
+  touchpoints:
+  - betterment-levy-consultation
+  - betterment-levy-notice
+  - development-contribution-statement
+- slug: let-assets-for-a-fair-return
+  title: Let Assets for a Fair Return
+  goal: Public land and buildings are let on terms that pay a fair return, keep control with the city and reduce rents for community
+    uses.
+  step: public-assets-and-commons-fund/asset-leasing-and-concessions
+  touchpoints:
+  - lease-and-concession-tender
+  - community-lease-agreement
+- slug: set-each-enterprise-its-mandate
+  title: Set Each Enterprise Its Mandate
+  goal: Each municipal enterprise knows its mission, its pricing principles and the share of its surplus it reinvests, shares or returns.
+  step: public-assets-and-commons-fund/municipal-enterprise-returns
+  touchpoints:
+  - owner-mandate-letter
+  - enterprise-owner-meeting
+- slug: keep-the-fund-apart
+  title: Keep the Fund Apart
+  goal: Rules adopted by the council keep the commons fund apart from the general budget and protect its value over time.
+  step: public-assets-and-commons-fund/commons-fund-ring-fencing
+  touchpoints:
+  - commons-fund-rules-adoption
+- slug: hand-allocation-to-neighbourhoods
+  title: Hand Allocation to Neighbourhoods
+  goal: Each neighbourhood's share is set, weighted towards the greatest need, for residents to allocate.
+  step: public-assets-and-commons-fund/commons-fund-allocation
+  touchpoints:
+  - need-weighted-share-table
+- slug: account-for-the-fund
+  title: Account for the Fund
+  goal: The council has published what entered the fund, where it went, who gained and what it holds.
+  step: public-assets-and-commons-fund/commons-fund-reporting
+  touchpoints:
+  - commons-fund-annual-report

@@ -1,0 +1,52 @@
+kind: entity
+slug: payment-performance-report
+title: Payment Performance Report
+type: intelligence
+summary: The published account of how quickly the city paid its suppliers, small and large, and of each payment above a set amount
+  with its supplier, purpose and amount. The finance office compiles it each quarter from the payment records, and residents, resident
+  inspectors and the council use it to see where the money went and whether small suppliers were paid on time.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: compiled-by
+  type: text
+  card: 1..1
+- name: publication-threshold
+  type: amount
+  card: 1..1
+- name: payments-listed
+  type: document
+  card: 1..1
+- name: average-days-to-pay
+  type: decimal
+  card: 1..1
+- name: days-to-pay-by-supplier-size
+  type: document
+  card: 0..1
+- name: share-paid-on-time
+  type: decimal
+  card: 0..1
+- name: target-days
+  type: integer
+  card: 0..1
+- name: late-payment-interest-paid
+  type: amount
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- checked
+- published
+- superseded
+relations:
+- type: based-on
+  target: payment
+- type: based-on
+  target: supplier-invoice
+- type: refers-to
+  target: supplier-record
+- type: produces
+  target: public-record

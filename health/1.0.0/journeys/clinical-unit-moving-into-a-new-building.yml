@@ -1,0 +1,64 @@
+kind: journey
+slug: clinical-unit-moving-into-a-new-building
+title: Clinical Unit Moving into a New Building
+stakeholder: head-of-clinical-department
+summary: A clinical department brings its space needs into the site plan, shapes the design of its future rooms, lives with the works
+  and moves its patients and team into the new building.
+stages:
+- slug: bring-space-needs
+  title: Bring Space Needs
+  goal: The unit's space problems and future needs are part of the site master plan.
+  step: site-development-and-construction/site-and-space-planning
+  touchpoints:
+  - site-master-plan
+  - investment-request
+- slug: shape-the-brief
+  title: Shape the Brief
+  goal: The unit's functions, workflows and volumes define the brief and the space programme.
+  step: site-development-and-construction/project-brief-and-funding
+  touchpoints:
+  - building-user-group
+  - investment-committee
+- slug: review-the-design
+  title: Review the Design
+  goal: The unit signs off room data sheets and layouts that fit how it will work.
+  step: site-development-and-construction/design-and-permits
+  touchpoints:
+  - building-user-group
+  - room-data-sheet
+  - permit-application
+- slug: follow-the-schedule
+  title: Follow the Schedule
+  goal: The unit knows the contracted schedule and the milestones it must prepare for.
+  step: site-development-and-construction/tender-and-contracting
+  touchpoints:
+  - project-steering-committee
+- slug: live-with-the-works
+  title: Live with the Works
+  goal: Disruptions are announced in advance and patients near the works are protected from dust, noise and water risks.
+  step: site-development-and-construction/construction-during-operation
+  touchpoints:
+  - construction-notice
+  - hygiene-round
+  - site-coordination-meeting
+- slug: accept-the-rooms
+  title: Accept the Rooms
+  goal: The unit walks through the finished rooms with the builders and its defects are recorded before acceptance.
+  step: site-development-and-construction/commissioning-and-handover
+  touchpoints:
+  - handover-walkthrough
+  - room-data-sheet
+  - permit-application
+- slug: move-in
+  title: Move In
+  goal: Patients, staff and equipment move in planned stages and care continues without harm.
+  step: site-development-and-construction/relocation-and-start-of-operation
+  touchpoints:
+  - move-plan
+  - ward
+- slug: report-on-the-building
+  title: Report on the Building
+  goal: The unit's experience of the building in use shapes defect remedies and future designs.
+  step: site-development-and-construction/post-occupancy-evaluation
+  touchpoints:
+  - post-occupancy-survey

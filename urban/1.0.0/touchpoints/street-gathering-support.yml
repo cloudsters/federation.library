@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: street-gathering-support
+title: Street Gathering Support
+medium: channel
+summary: The simple route by which neighbours close a street for a gathering, borrow tables and equipment and receive a small grant
+  for a celebration.
+exchanges:
+- event-support-for-neighbourhood-gatherings
+journey: new-resident-becoming-a-neighbour

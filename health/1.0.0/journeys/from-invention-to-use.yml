@@ -1,0 +1,50 @@
+kind: journey
+slug: from-invention-to-use
+title: From Invention to Use
+stakeholder: research-scientist
+summary: The inventor's path from disclosing an invention to seeing it used outside the organisation and sharing in the returns.
+stages:
+- slug: disclosing
+  title: Disclosing
+  goal: Report the invention simply and early, before it is published.
+  step: innovation-and-technology-transfer/invention-disclosure
+  touchpoints:
+  - invention-disclosure-form
+- slug: getting-an-assessment
+  title: Getting an Assessment
+  goal: Learn promptly whether the organisation will pursue the invention and why.
+  step: innovation-and-technology-transfer/invention-assessment
+  touchpoints:
+  - technology-transfer-office
+- slug: protecting-without-losing-publication
+  title: Protecting Without Losing Publication
+  goal: Secure protection without losing the chance to publish.
+  step: innovation-and-technology-transfer/intellectual-property-protection
+  touchpoints:
+  - technology-transfer-office
+  - scientific-publication
+- slug: proving-value
+  title: Proving Value
+  goal: Show that the invention works in real care or with a development partner.
+  step: innovation-and-technology-transfer/validation-and-co-development
+  touchpoints:
+  - innovation-lab
+  - research-collaboration-agreement
+- slug: choosing-the-route
+  title: Choosing the Route
+  goal: Agree a route that brings the invention to patients and fits one's own plans.
+  step: innovation-and-technology-transfer/transfer-route-decision
+  touchpoints:
+  - technology-transfer-office
+- slug: concluding-the-deal
+  title: Concluding the Deal
+  goal: Conclude a fair licence or found a company without conflict with one's employment.
+  step: innovation-and-technology-transfer/licensing-or-spin-off
+  touchpoints:
+  - licence-agreement
+- slug: sharing-the-returns
+  title: Sharing the Returns
+  goal: Receive a fair share of the returns and see proceeds flow back into research.
+  step: innovation-and-technology-transfer/return-flow
+  touchpoints:
+  - technology-transfer-office

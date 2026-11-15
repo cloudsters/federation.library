@@ -1,0 +1,62 @@
+kind: entity
+slug: cohesion-assessment
+title: Cohesion Assessment
+type: intelligence
+summary: The assessment of how groups in the city relate, by neighbourhood, where trust is rising or falling, where tension is growing
+  and what cohesion programmes achieved. The administration compiles it from trusted residents, community workers and the resident
+  survey and publishes it each year, and it is used to decide where dialogue, encounter or mediation is needed.
+attributes:
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: groups-covered
+  type: text
+  card: 1..*
+- name: sources
+  type: text
+  card: 1..*
+- name: survey-results
+  type: reference(citizen-satisfaction)
+  card: 0..*
+- name: trust-measures
+  type: decimal
+  card: 0..*
+- name: signals-reported
+  type: text
+  card: 0..*
+- name: reported-incidents
+  type: integer
+  card: 0..1
+- name: tension-areas
+  type: text
+  card: 0..*
+- name: programme-results
+  type: text
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- scheduled
+- gathering
+- analysed
+- checked
+- published
+- superseded
+relations:
+- type: based-on
+  target: citizen-satisfaction
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: dispute-pattern-report
+- type: refers-to
+  target: whole-city-assessment
+- type: produces
+  target: lesson-record

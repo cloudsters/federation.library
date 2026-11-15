@@ -1,0 +1,26 @@
+kind: journey
+slug: employee-working-within-controls
+title: Employee Working Within Controls
+stakeholder: employee
+summary: An employee commits spending through an approval that is quick when the budget allows, operates the controls built into daily
+  work and helps close the gaps an audit finds.
+stages:
+- slug: request-a-commitment
+  title: Request a Commitment
+  goal: A purchase or commitment is checked against the budget and approved before it becomes an expense.
+  step: internal-integrity-controls/commitment-control
+  touchpoints:
+  - approval-workflow
+  - purchase-order
+- slug: operate-the-controls
+  title: Operate the Controls
+  goal: Checks built into daily work are carried out and their evidence kept without extra effort.
+  step: internal-integrity-controls/control-operation-and-monitoring
+  touchpoints:
+  - approval-workflow
+- slug: help-close-a-gap
+  title: Help Close a Gap
+  goal: The employee helps change the way of working so that a found deficiency does not recur.
+  step: internal-integrity-controls/deficiency-remediation
+  touchpoints:
+  - internal-audit-report

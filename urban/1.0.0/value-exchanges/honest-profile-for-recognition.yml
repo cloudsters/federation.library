@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: honest-profile-for-recognition
+title: Honest Profile for Recognition
+between:
+- resident
+- city-administration
+offered:
+- Residents' trust in an account of the city that also states where it falls short.
+returned:
+- A public account of the city that residents recognise as true and can cite.
+touchpoint: published-city-profile

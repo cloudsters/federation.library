@@ -1,0 +1,50 @@
+kind: entity
+slug: grant-report
+title: Grant Report
+type: intelligence
+summary: A report to a funder on a grant's progress, spending and results, including the final report at close-out. The department
+  responsible prepares it from the books and the programme records, and the funder uses it to release payments and close the grant.
+attributes:
+- name: grant
+  type: reference(grant-award)
+  card: 1..1
+- name: report-kind
+  type: code
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: spending-reported
+  type: amount
+  card: 1..1
+- name: payment-claimed
+  type: amount
+  card: 0..1
+- name: results
+  type: text
+  card: 1..*
+- name: deviations
+  type: text
+  card: 0..*
+- name: evidence
+  type: document
+  card: 1..*
+- name: submitted-on
+  type: date
+  card: 0..1
+- name: accepted-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- checked
+- submitted
+- queried
+- accepted
+relations:
+- type: refers-to
+  target: grant-award
+- type: based-on
+  target: journal-entry
+- type: based-on
+  target: programme-report

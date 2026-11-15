@@ -1,0 +1,37 @@
+kind: journey
+slug: local-producer-getting-paid-on-time
+title: Local Producer Getting Paid on Time
+stakeholder: local-producer
+summary: A local producer confirms an order and its delivery date, delivers and has the receipt recorded, sends its invoice, is paid
+  within the short fixed time and can see how quickly the city pays.
+stages:
+- slug: confirm-the-order
+  title: Confirm the Order
+  goal: The producer has confirmed what is ordered, at what price and by when.
+  step: purchasing-and-supplier-payment/order-and-call-off
+  touchpoints:
+  - call-off-order
+- slug: deliver-and-have-it-recorded
+  title: Deliver and Have It Recorded
+  goal: The delivery is recorded on the day it arrives, with any shortfall stated.
+  step: purchasing-and-supplier-payment/goods-receipt-and-service-confirmation
+  touchpoints:
+  - delivery-receipt-check
+- slug: send-the-invoice
+  title: Send the Invoice
+  goal: The invoice is received, checked and matched to order and receipt without needless return.
+  step: purchasing-and-supplier-payment/invoice-receipt-and-matching
+  touchpoints:
+  - supplier-invoice-channel
+- slug: be-paid-within-the-fixed-time
+  title: Be Paid Within the Fixed Time
+  goal: The producer is paid within the shortest fixed time, with interest if the city pays late.
+  step: purchasing-and-supplier-payment/supplier-payment
+  touchpoints:
+  - supplier-payment-statement
+- slug: see-how-quickly-the-city-pays
+  title: See How Quickly the City Pays
+  goal: The producer can compare the time the city takes to pay small and large suppliers.
+  step: purchasing-and-supplier-payment/spending-and-payment-publication
+  touchpoints:
+  - published-payments-register

@@ -1,0 +1,10 @@
+kind: capability
+slug: it-change-and-release-governance
+title: IT Change & Release Governance
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Pass every change to the system landscape through a governed change and release process.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

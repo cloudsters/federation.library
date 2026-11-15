@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-findings-for-an-answer-on-quality
+title: Inspection Findings for an Answer on Quality
+between:
+- resident-inspector
+- city-administration
+offered:
+- Independent findings on whether services meet their standards and whether actions really closed.
+returned:
+- A public answer to each finding in the quality review and its report.
+touchpoint: service-quality-review-meeting

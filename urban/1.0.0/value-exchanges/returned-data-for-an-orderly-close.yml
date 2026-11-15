@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: returned-data-for-an-orderly-close
+title: Returned Data for an Orderly Close
+between:
+- technology-supplier
+- city-administration
+offered:
+- The city's data returned in open formats and the interfaces closed.
+returned:
+- The contract ended in order and the final payment made.
+touchpoint: software-contract-negotiation

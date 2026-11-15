@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: candid-notice-for-safe-action
+title: Candid Notice for Safe Action
+between:
+- quality-manager
+- consumer
+offered:
+- A clear, candid notice of the hazard, who is affected and what to do, with a remedy free of cost.
+returned:
+- Action on the notice, with products stopped, returned or presented for repair so that the harm goes no further.
+touchpoint: website

@@ -1,0 +1,136 @@
+kind: value-stream
+slug: interdisciplinary-consultation
+title: Interdisciplinary Consultation
+family: demand-to-fulfillment
+summary: 'Bringing the expertise of several disciplines to a patient''s case: consultation requests between specialties, tumour boards
+  and other multidisciplinary case conferences with documented recommendations.'
+trigger: A treating team requests a consultation or registers a case for a multidisciplinary conference.
+outcome: A documented recommendation from the consulted disciplines is available to the treating team.
+stakeholders:
+- person-with-cancer
+- person-with-rare-disease
+- person-with-mental-illness
+- specialist-physician
+- head-of-clinical-department
+- surgeon
+- diagnostic-physician
+- clinician-scientist
+- clinical-research-coordinator
+- referring-hospital
+- referring-practice
+steps:
+- slug: consultation-request
+  title: Consultation Request
+  summary: The treating team asks another specialty for a consultation, or registers the case for a tumour board or another case conference,
+    with the question to be answered and the relevant findings.
+  capabilities:
+  - interdisciplinary-consultation
+  - clinical-order-entry
+  - multidisciplinary-tumour-board
+  - specialist-teleconsultation
+  entities:
+  - clinical-order
+  - case-conference
+  - teleconsultation
+  - care-communication
+  serves:
+  - clinical-workstation
+  - consultation
+  - referrer-portal
+  - telemedicine-service
+- slug: case-preparation
+  title: Case Preparation
+  summary: Findings, images, pathology and molecular results are compiled and reviewed in advance, external cases arrive with their
+    records, and every case is presented in a structured format.
+  capabilities:
+  - finding-integration
+  - radiological-reporting
+  - histology-and-cytology-reporting
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - rare-disease-care
+  entities:
+  - diagnostic-report
+  - image-study
+  - patient-summary
+  - health-record
+  serves:
+  - clinical-messaging-service
+  - diagnostic-report
+  - image-sharing-service
+  - multidisciplinary-case-conference
+  - patient-held-health-record
+- slug: consultation-or-conference
+  title: Consultation or Conference
+  summary: The consulted specialist sees the patient, or the disciplines discuss the case in conference with external partners by
+    video, weighing guideline options, trial eligibility and the patient's preferences.
+  capabilities:
+  - interdisciplinary-consultation
+  - multidisciplinary-tumour-board
+  - molecular-tumour-board
+  - consultation-liaison-psychiatry
+  - specialist-teleconsultation
+  - rare-disease-care
+  - trial-participant-recruitment
+  - guideline-adoption
+  entities:
+  - case-conference
+  - teleconsultation
+  - clinical-guideline
+  - research-study
+  - preference
+  serves:
+  - multidisciplinary-case-conference
+  - telemedicine-service
+- slug: recommendation
+  title: Recommendation
+  summary: A recommendation is documented with its rationale, any deviation from the guideline is justified, and responsibility for
+    acting on it is assigned.
+  capabilities:
+  - interdisciplinary-consultation
+  - multidisciplinary-tumour-board
+  - care-plan-determination
+  - clinical-documentation-at-point-of-care
+  entities:
+  - case-conference
+  - clinical-document
+  - care-plan
+  serves:
+  - consultation-report
+  - multidisciplinary-case-conference
+  - teleconsultation-report
+- slug: communication
+  title: Communication
+  summary: The recommendation reaches the treating team and the referrer and is discussed with the patient, uncertainties included,
+    so that the decision on treatment is taken together.
+  capabilities:
+  - shared-decision-making-practice
+  - diagnostic-uncertainty-communication
+  - decision-aids-and-health-literacy
+  - secure-clinical-messaging
+  entities:
+  - shared-decision
+  - care-communication
+  - clinical-document
+  serves:
+  - clinical-messaging-service
+  - consultation
+  - consultation-report
+  - patient-decision-aid
+- slug: implementation-tracking
+  title: Implementation Tracking
+  summary: Whether the recommendation was carried out is tracked, deviations are recorded with reasons, outcomes are reported to registries,
+    and cases return to conference when the course changes.
+  capabilities:
+  - multidisciplinary-tumour-board
+  - clinical-audit
+  - clinical-outcome-tracking
+  - clinical-registry-participation
+  entities:
+  - case-conference
+  - care-plan
+  - clinical-registry
+  - measure-report
+  serves:
+  - consultation
+  - multidisciplinary-case-conference

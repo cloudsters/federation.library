@@ -1,0 +1,31 @@
+kind: solution
+slug: bed-and-capacity-management
+title: Bed and Capacity Management
+role: system-of-insight
+summary: Shows current and expected capacity across beds, emergency places, theatres and critical staff, and supports placement,
+  transfer and flow decisions. It turns admission, discharge and roster signals into capacity status and forecasts for the
+  whole organisation.
+carries:
+- bed-occupancy-planning
+- bed-coordination-and-placement
+- occupancy-forecasting
+- ward-capacity-management
+- patient-flow-orchestration
+- intensive-care-capacity-coordination
+- emergency-network-coordination
+- emergency-department-flow-management
+- resource-capacity-planning
+- care-operations-governance
+holds:
+- capacity-status
+- capacity-forecast
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

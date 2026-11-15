@@ -1,0 +1,15 @@
+kind: body
+slug: crisis-management-team
+title: Crisis Management Team
+summary: Assembles when damage or disruption overwhelms normal operations, takes command, decides on protection and communication
+  and leads the enterprise back to normal.
+holds:
+- resilience-and-emergency-preparedness
+- crisis-communication
+part_of: executive-board
+type: committee
+form: governing-body
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

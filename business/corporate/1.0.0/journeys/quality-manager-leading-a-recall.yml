@@ -1,0 +1,53 @@
+kind: journey
+slug: quality-manager-leading-a-recall
+title: Quality Manager Leading a Recall
+stakeholder: quality-manager
+summary: A quality manager watches safety signals, assesses the hazard, takes and activates the recall decision, notifies authorities,
+  informs customers and trade, tracks every affected product and closes the recall with its cause removed.
+stages:
+- slug: watch-the-signals
+  title: Watch the Signals
+  goal: Field data, complaints, claims and incidents are watched and a possible hazard is seen early.
+  step: safety-recall-integrity/safety-signal-monitoring
+  touchpoints:
+  - incident-report
+  - complaint-and-warranty-claim
+- slug: assess-the-hazard
+  title: Assess the Hazard
+  goal: Likelihood and consequences are assessed and the affected products, batches and customers identified.
+  step: safety-recall-integrity/hazard-assessment
+  touchpoints:
+  - product-safety-committee
+- slug: decide-and-activate
+  title: Decide and Activate
+  goal: Correction, withdrawal or recall is decided against defined thresholds and activated at once.
+  step: safety-recall-integrity/recall-decision-and-activation
+  touchpoints:
+  - product-safety-committee
+  - recall-playbook
+- slug: notify-the-authorities
+  title: Notify the Authorities
+  goal: The competent authorities are notified within the deadline with a complete report.
+  step: safety-recall-integrity/authority-notification
+  touchpoints:
+  - statutory-filing
+- slug: inform-customers-and-trade
+  title: Inform Customers and Trade
+  goal: Affected customers, trade partners and the public receive guidance they can act on.
+  step: safety-recall-integrity/customer-and-public-communication
+  touchpoints:
+  - safety-and-recall-notice
+  - press-release
+- slug: track-every-affected-product
+  title: Track Every Affected Product
+  goal: Retrieval, repair and replacement are tracked until every affected customer has been reached.
+  step: safety-recall-integrity/recall-execution-and-effectiveness
+  touchpoints:
+  - recall-progress-report
+- slug: close-and-remove-the-cause
+  title: Close and Remove the Cause
+  goal: The recall closes with final reports and the cause removed in design, production and supply.
+  step: safety-recall-integrity/recall-closure-and-learning
+  touchpoints:
+  - recall-progress-report
+  - product-safety-committee

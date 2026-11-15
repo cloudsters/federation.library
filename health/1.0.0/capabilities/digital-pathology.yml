@@ -1,0 +1,10 @@
+kind: capability
+slug: digital-pathology
+title: Digital Pathology
+level: L3
+parent: pathology-services
+summary: Digitise slides for remote reading, second opinion and computer-assisted analysis.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global

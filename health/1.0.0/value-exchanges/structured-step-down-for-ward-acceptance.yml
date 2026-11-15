@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: structured-step-down-for-ward-acceptance
+title: Structured Step-Down for Ward Acceptance
+between:
+- anaesthesiologist
+- registered-nurse
+offered:
+- A structured handover of course, plan, risks and devices, and follow-up by the outreach team after transfer.
+returned:
+- Acceptance of the patient at a lower level of care as soon as the criteria are met, which frees the intensive care bed for
+  the next patient.
+touchpoint: shift-handover

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: portfolio-review-meeting
+title: Portfolio Review Meeting
+medium: encounter
+summary: The meeting in which the board or its portfolio committee prioritises, funds, rebalances and stops initiatives against strategy,
+  benefits and capacity.
+exchanges:
+- initiative-funding
+journey: initiative-sponsor-journey

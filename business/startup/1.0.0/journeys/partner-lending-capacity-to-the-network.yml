@@ -1,0 +1,25 @@
+kind: journey
+slug: partner-lending-capacity-to-the-network
+title: Partner Lending Capacity to the Network
+stakeholder: partner
+summary: A partner is asked for capacity for a defined time, qualifies its people to the company's standard and takes on jobs under
+  clear terms.
+stages:
+- slug: receive-a-capacity-request
+  title: Receive a Capacity Request
+  goal: The partner receives a request stating skills, region, period and terms, and accepts or declines.
+  step: service-resource-orchestration/latent-and-network-capacity-activation
+  touchpoints:
+  - capacity-request
+- slug: qualify-the-people
+  title: Qualify the People
+  goal: The partner's people are trained and certified for the work they will take on.
+  step: service-resource-orchestration/service-skill-enablement
+  touchpoints:
+  - skills-training-and-certification
+- slug: take-on-jobs
+  title: Take On Jobs
+  goal: Jobs are assigned to the partner's people like to the company's own, with the same information.
+  step: service-resource-orchestration/scheduling-and-dispatch
+  touchpoints:
+  - job-assignment

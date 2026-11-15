@@ -1,0 +1,60 @@
+kind: entity
+slug: service-case
+title: Service Case
+type: transactional
+summary: The case for a new or changed service, with its whole-life cost, the staff and buildings it needs and who gains and who is
+  left out. The department prepares it, and the council or its committee decides on it and on whether to trial the service.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: concept
+  type: reference(service-concept)
+  card: 1..1
+- name: whole-life-cost
+  type: amount
+  card: 1..1
+- name: cost-period
+  type: period
+  card: 1..1
+- name: staff-required
+  type: quantity
+  card: 0..1
+- name: buildings-required
+  type: reference(building)
+  card: 0..*
+- name: groups-gaining
+  type: text
+  card: 1..*
+- name: groups-left-out
+  type: text
+  card: 0..*
+- name: equity-assessment
+  type: reference(equity-impact-assessment)
+  card: 0..1
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+states:
+- drafted
+- assessed
+- submitted
+- approved-for-trial
+- deferred
+- rejected
+relations:
+- type: based-on
+  target: service-concept
+- type: based-on
+  target: equity-impact-assessment
+- type: refers-to
+  target: building
+- type: refers-to
+  target: municipal-budget
+- type: governed-by
+  target: council-decision
+- type: produces
+  target: urban-trial

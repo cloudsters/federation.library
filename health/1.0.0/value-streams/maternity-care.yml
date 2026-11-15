@@ -1,0 +1,183 @@
+kind: value-stream
+slug: maternity-care
+title: Maternity Care
+family: demand-to-fulfillment
+summary: 'Caring for mother and child from pregnancy to the postnatal period: antenatal care, birth planning, labour and birth, newborn
+  care and postnatal care.'
+trigger: A pregnant woman registers for care or presents in labour.
+outcome: Mother and newborn are discharged in good health with postnatal follow-up arranged.
+stakeholders:
+- maternity-patient
+- paediatric-patient
+- relative
+- midwife
+- specialist-physician
+- anaesthesiologist
+- registered-nurse
+- follow-on-care-provider
+- referring-practice
+- local-authority
+steps:
+- slug: registration-and-risk-assessment
+  title: Registration and Risk Assessment
+  summary: The pregnant woman registers for antenatal care or birth, her history and the course of the pregnancy are assessed, and
+    the risk level determines whether midwife-led or obstetric-led care follows and whether birth must take place in a centre with
+    neonatal intensive care.
+  capabilities:
+  - antenatal-care
+  - patient-registration-and-admission
+  - clinical-history-taking
+  - physical-examination
+  - interpreting-and-language-services
+  entities:
+  - patient
+  - episode-of-care
+  - risk-assessment
+  - observation
+  - health-issue
+  serves:
+  - maternity-record
+  - outpatient-clinic
+- slug: antenatal-care-and-screening
+  title: Antenatal Care and Screening
+  summary: Scheduled antenatal visits monitor mother and fetus, screening and prenatal diagnostics are offered with counselling, and
+    complications such as diabetes, hypertension or threatened preterm birth are managed.
+  capabilities:
+  - antenatal-care
+  - modality-scheduling-and-acquisition
+  - genetic-diagnostics
+  - laboratory-order-management
+  - shared-decision-making-practice
+  - decision-aids-and-health-literacy
+  entities:
+  - appointment
+  - observation
+  - image-study
+  - specimen
+  - diagnostic-report
+  - shared-decision
+  serves:
+  - consultation
+  - genetic-counselling
+  - maternity-record
+  - outpatient-clinic
+  - patient-decision-aid
+- slug: birth-planning
+  title: Birth Planning
+  summary: The woman and her midwife or obstetrician plan the place and mode of birth, pain relief and her preferences, with an anaesthetic
+    assessment where needed and a plan for foreseeable risks.
+  capabilities:
+  - antenatal-care
+  - care-plan-determination
+  - shared-decision-making-practice
+  - anaesthesia-consent-and-risk-stratification
+  - informed-consent
+  entities:
+  - care-plan
+  - preference
+  - informed-consent
+  - risk-assessment
+  serves:
+  - anaesthesia-pre-assessment
+  - birth-plan
+  - consent-form
+  - consultation
+  - maternity-record
+- slug: labour-and-birth
+  title: Labour and Birth
+  summary: A woman presenting in labour or with a concern is assessed and admitted by urgency, labour is supported by continuous midwifery
+    care and fetal monitoring, pain is relieved including by regional anaesthesia, and operative or caesarean birth, haemorrhage and
+    other obstetric emergencies are managed.
+  capabilities:
+  - labour-and-birth-care
+  - pain-management
+  - anaesthesia-induction-and-monitoring
+  - surgical-safety-checklist-practice
+  - surgical-procedure-performance
+  - time-critical-pathway-activation
+  - transfusion-medicine
+  - patient-identification
+  entities:
+  - birth
+  - procedure
+  - observation
+  - medication-administration
+  - surgical-case
+  - blood-product
+  serves:
+  - birth-plan
+  - delivery-suite
+  - surgical-safety-checklist
+- slug: newborn-care
+  title: Newborn Care
+  summary: The newborn is assessed at birth and supported to breathe or resuscitated where needed, identified with the mother, registered
+    as a patient, examined and screened, and admitted to neonatal intensive care when born preterm or ill.
+  capabilities:
+  - postnatal-and-newborn-care
+  - neonatal-intensive-care
+  - patient-identification
+  - patient-registration-and-admission
+  - specimen-collection-and-pre-analytics
+  - paediatric-care
+  entities:
+  - birth
+  - patient
+  - encounter
+  - observation
+  - specimen
+  - immunisation
+  serves:
+  - delivery-suite
+  - identification-band
+- slug: postnatal-care
+  title: Postnatal Care
+  summary: Mother and newborn recover together, with support for feeding, bonding and self-care, while haemorrhage, infection, postnatal
+    depression and signs of risk to the child are watched for.
+  capabilities:
+  - postnatal-and-newborn-care
+  - nursing-interventions
+  - deterioration-recognition-and-response
+  - clinical-psychology
+  - child-protection
+  entities:
+  - care-plan
+  - observation
+  - risk-assessment
+  - procedure
+  serves:
+  - ward
+- slug: discharge-and-community-handover
+  title: Discharge and Community Handover
+  summary: Mother and newborn are discharged with a summary, the birth is notified to the civil registry, and postnatal care at home
+    is handed over to the community midwife and the child's practice.
+  capabilities:
+  - discharge-execution
+  - discharge-summary
+  - patient-discharge-education
+  - care-transition-coordination
+  - post-discharge-follow-up
+  entities:
+  - discharge-summary
+  - care-transition
+  - health-certificate
+  - birth
+  serves:
+  - birth-notification
+  - discharge-letter
+  - home-visit
+binds:
+- source: src-505
+  edition: '2009'
+  jurisdiction: global
+- source: src-520
+  edition: '2018'
+  jurisdiction: global
+- source: src-580
+  edition: '2017'
+  jurisdiction: global
+- source: src-581
+  edition: '1953'
+  jurisdiction: global
+- source: src-595
+  edition: '1987'
+  jurisdiction: global

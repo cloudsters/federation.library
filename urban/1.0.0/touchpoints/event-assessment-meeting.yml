@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: event-assessment-meeting
+title: Event Assessment Meeting
+medium: encounter
+summary: The meeting that assesses a proposal for what it brings, its demands on streets, parks and services, its effects on neighbours
+  and the environment and the say of the communities it presents.
+exchanges:
+- event-plan-for-a-fair-assessment
+- neighbour-concerns-for-a-hearing-before-decision
+journey: event-organiser-holding-a-first-festival

@@ -1,0 +1,31 @@
+kind: journey
+slug: civil-protection-preparing-with-the-commons
+title: Civil Protection Preparing with the Commons
+stakeholder: civil-protection-authority
+summary: 'The civil protection authority''s side of resilience: aligning plans, exercising together, commanding the regional
+  response with the commons and learning after the event.'
+stages:
+- slug: aligning-plans
+  title: Aligning Plans
+  goal: Receive an emergency plan whose alert levels, command roles and surge capacity fit the regional plan.
+  step: enterprise-risk-and-resilience/continuity-and-emergency-planning
+  touchpoints:
+  - emergency-plan
+- slug: exercising-together
+  title: Exercising Together
+  goal: Rehearse the joint response and see the commons act on what the exercise showed.
+  step: enterprise-risk-and-resilience/exercise-and-readiness
+  touchpoints:
+  - emergency-exercise
+- slug: commanding-the-response
+  title: Commanding the Response
+  goal: Reach a command team in the commons that reports its capacity and acts on regional decisions.
+  step: enterprise-risk-and-resilience/crisis-command-and-response
+  touchpoints:
+  - incident-command-centre
+- slug: learning-after-the-event
+  title: Learning After the Event
+  goal: Join the debrief and see the lessons written into the plans of both.
+  step: enterprise-risk-and-resilience/recovery-and-learning
+  touchpoints:
+  - emergency-plan

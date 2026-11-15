@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: job-posting
+title: Job Posting
+medium: artefact
+summary: The published description of an open job or apprenticeship, on the company's careers page, job boards and networks, through
+  which applicants first meet the company as an employer.
+exchanges:
+- honest-invitation-for-considered-application
+journey: job-applicant-exploring-a-new-employer

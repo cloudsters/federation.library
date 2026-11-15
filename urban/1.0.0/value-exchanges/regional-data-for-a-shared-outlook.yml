@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: regional-data-for-a-shared-outlook
+title: Regional Data for a Shared Outlook
+between:
+- neighbouring-municipality
+- city-administration
+offered:
+- Data on shifts in the region that bear on both municipalities.
+returned:
+- A shared outlook on what is coming, with the city's own data offered in return.
+touchpoint: environment-outlook

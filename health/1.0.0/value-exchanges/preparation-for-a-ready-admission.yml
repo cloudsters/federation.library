@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: preparation-for-a-ready-admission
+title: Preparation for a Ready Admission
+between:
+- elective-inpatient
+- registered-nurse
+offered:
+- Complete answers on health, medicines and home situation, attendance at the pre-admission assessment and adherence to the preparation
+  instructions.
+returned:
+- A stay that starts on the planned day, with a bed ready, consents settled and no repeated questions on arrival.
+touchpoint: patient-portal

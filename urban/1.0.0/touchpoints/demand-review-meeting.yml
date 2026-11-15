@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: demand-review-meeting
+title: Demand Review Meeting
+medium: encounter
+summary: The meeting in which requests for digital tools are checked against the roadmap and the architecture and given a delivery
+  mandate with a named owner.
+exchanges:
+- stated-need-for-a-delivery-mandate
+journey: city-administration-replacing-a-legacy-system

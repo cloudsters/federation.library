@@ -1,0 +1,132 @@
+kind: value-stream
+slug: ai-agent-lifecycle
+title: AI Agent Lifecycle
+family: contributor-to-succession
+summary: Bringing AI agents into the city's work as contributors with a defined role and seeing them through to retirement. It holds
+  the request for an agent assessed against the workforce plan and the work that stays with a person, commissioning under a written
+  mandate with a named overseer, onboarding into the service with the staff who work beside it, periodic review, retraining and change,
+  and retirement with the agent's tasks, records and access handed to a successor agent or back to staff.
+trigger: A department requests an AI agent for a defined role, the review or sunset date of an agent falls due, or its performance,
+  harm or supplier calls for change or retirement.
+outcome: The agent works in its defined role under a named overseer with its work reviewed, or it has been retired and its tasks,
+  records and access have been handed over.
+stakeholders:
+- municipal-ai-agent
+- city-administration
+- frontline-worker
+- staff-representative
+- technology-supplier
+- data-protection-officer
+- resident
+steps:
+- slug: agent-role-request
+  title: Agent Role Request
+  summary: A department requests an agent for a defined role, and the request is assessed against the workforce plan, the tasks that
+    must stay with a person and the effect on the staff whose work it touches.
+  capabilities:
+  - agent-role-request-assessment
+  - human-agent-task-division
+  - automation-candidate-assessment
+  entities:
+  - agent-role-request
+  - workforce-plan
+  - automation-proposal
+  serves:
+  - agent-change-consultation
+  - agent-request-assessment
+- slug: mandate-and-approval
+  title: Mandate and Approval
+  summary: The agent's mandate is written, the agent is registered and approved for a fixed term with a sunset date, and staff representatives
+    are consulted on the change to work.
+  capabilities:
+  - agent-mandate-drafting
+  - automated-system-use-registration
+  - sunset-date-setting
+  - staff-representative-consultation
+  entities:
+  - agent-mandate
+  - automated-system-register
+  - automated-system-approval
+  serves:
+  - agent-change-consultation
+  - published-agent-mandate
+- slug: commissioning
+  title: Commissioning
+  summary: The agent is configured, given an identity with scoped and revocable access, assigned a named overseer with the routes
+    of escalation, and put into its role.
+  capabilities:
+  - agent-commissioning
+  - identity-and-access-control
+  - oversight-and-escalation-design
+  entities:
+  - ai-agent
+  - digital-identity
+  - oversight-assignment
+  serves:
+  - agent-access-record
+  - escalation-route-card
+- slug: onboarding-into-the-service
+  title: Onboarding into the Service
+  summary: The staff who work beside the agent are prepared to oversee it, the agent is given the service's standard procedures and
+    working knowledge, and its first period runs under close oversight.
+  capabilities:
+  - oversight-competence-building
+  - practice-encoding
+  - agent-commissioning
+  entities:
+  - oversight-assignment
+  - standard-procedure
+  - knowledge-article
+  serves:
+  - escalation-route-card
+  - overseer-briefing
+  - supervised-first-period
+- slug: performance-review
+  title: Performance Review
+  summary: At fixed intervals the overseer, the staff and residents affected review the agent's results, errors, bias, drift and the
+    challenges raised against it, and the mandate is continued, adjusted or ended.
+  capabilities:
+  - human-agent-performance-review
+  - automated-system-performance-monitoring
+  - bias-and-fairness-testing
+  entities:
+  - automated-system-performance-report
+  - agent-mandate
+  serves:
+  - agent-results-report
+  - agent-review-session
+- slug: retraining-and-change
+  title: Retraining and Change
+  summary: When a review, a rule or a change in the service requires it, the agent is retrained or reconfigured through change control,
+    tested again for fairness, and its mandate is updated.
+  capabilities:
+  - agent-retraining
+  - change-and-release-control
+  - bias-and-fairness-testing
+  entities:
+  - change-request
+  - ai-agent
+  - agent-mandate
+  serves:
+  - agent-retest-session
+- slug: retirement-and-succession
+  title: Retirement and Succession
+  summary: At its sunset date or on withdrawal the agent is retired, its tasks pass to a successor agent or back to staff, its records
+    and the reasons for its decisions are kept, its access is revoked and the supplier exit plan is applied.
+  capabilities:
+  - agent-retirement-and-succession
+  - automated-system-suspension-and-withdrawal
+  - supplier-exit-planning
+  - knowledge-handover
+  entities:
+  - agent-retirement
+  - digital-identity
+  - supplier-exit-plan
+  - ai-agent
+  serves:
+  - agent-retirement-notice
+  - task-return-briefing
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

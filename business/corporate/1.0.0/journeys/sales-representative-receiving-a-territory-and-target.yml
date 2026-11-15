@@ -1,0 +1,31 @@
+kind: journey
+slug: sales-representative-receiving-a-territory-and-target
+title: Sales Representative Receiving a Territory and Target
+stakeholder: sales-representative
+summary: A sales representative reports how the routes to market work in the field, contributes to the forecast and receives a clear
+  territory with targets and resources.
+stages:
+- slug: report-from-the-channel
+  title: Report from the Channel
+  goal: The seller's evidence on where customers are well or poorly served reaches the review.
+  step: distribution-strategy-design/route-to-market-review
+  touchpoints:
+  - pipeline-review
+- slug: contribute-to-the-forecast
+  title: Contribute to the Forecast
+  goal: The seller's outlook for its accounts is part of the forecast.
+  step: distribution-strategy-design/sales-forecasting
+  touchpoints:
+  - sales-forecast
+- slug: receive-a-clear-territory
+  title: Receive a Clear Territory
+  goal: Every account in the territory has a clear owner and coverage matches potential.
+  step: distribution-strategy-design/territory-and-coverage-design
+  touchpoints:
+  - territory-assignment
+- slug: accept-targets-and-resources
+  title: Accept Targets and Resources
+  goal: Targets, impact goals and resources are set and understood.
+  step: distribution-strategy-design/targets-resources-and-approval
+  touchpoints:
+  - distribution-plan

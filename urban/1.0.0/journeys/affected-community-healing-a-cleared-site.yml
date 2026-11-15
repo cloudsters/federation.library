@@ -1,0 +1,32 @@
+kind: journey
+slug: affected-community-healing-a-cleared-site
+title: Affected Community Shaping the Reuse of a Cleared Site
+stakeholder: affected-community
+summary: A community living beside a disused site is heard on its retirement, reads the decision, watches the clean-up and chooses
+  with the city the next use of the land.
+stages:
+- slug: be-heard-on-the-retirement
+  title: Be Heard on the Retirement
+  goal: The community has said what the site means to it and what the neighbourhood needs from it before the decision.
+  step: asset-decommissioning-and-material-recovery/retirement-decision
+  touchpoints:
+  - retirement-options-hearing
+- slug: read-the-decision
+  title: Read the Decision
+  goal: The community knows what was decided and why, and how its views were weighed.
+  step: asset-decommissioning-and-material-recovery/retirement-decision
+  touchpoints:
+  - retirement-decision-notice
+- slug: watch-the-clean-up
+  title: Watch the Clean-Up
+  goal: The community follows the removal of hazards and the cleaning of the ground, with test results as the work goes on.
+  step: asset-decommissioning-and-material-recovery/hazard-removal-and-site-clean-up
+  touchpoints:
+  - site-clean-up-meeting
+  - published-site-test-results
+- slug: choose-the-next-use
+  title: Choose the Next Use
+  goal: The community's proposal for the site is part of the decision on its next use, and the land is kept from speculation.
+  step: asset-decommissioning-and-material-recovery/site-next-use
+  touchpoints:
+  - site-next-use-workshop

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: company-register-entry
+title: Company Register Entry
+medium: artefact
+summary: The public entry in the company register that shows the company's legal form, seat, capital, managing directors and authorised
+  signatories, and the announcements of their changes.
+exchanges:
+- accurate-filings-for-public-certainty
+- recorded-transfer-for-public-certainty
+journey: executive-board-redrawing-identity-and-boundary

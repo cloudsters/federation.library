@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: faulty-item-for-a-fair-repair
+title: Faulty Item for a Fair Repair
+between:
+- consumer
+- customer-service-representative
+offered:
+- The faulty item, a description of the problem and approval of the estimate.
+returned:
+- The item repaired or replaced within the promised time, at the estimated price, with an explanation of what was done.
+touchpoint: store-and-branch

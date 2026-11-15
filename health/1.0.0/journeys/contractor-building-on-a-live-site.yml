@@ -1,0 +1,34 @@
+kind: journey
+slug: contractor-building-on-a-live-site
+title: Contractor Building on a Live Site
+stakeholder: construction-contractor
+summary: A construction firm wins the works, builds next to wards and theatres under the commons' site rules, hands the building over
+  and remedies defects in the warranty period.
+stages:
+- slug: respond-to-the-tender
+  title: Respond to the Tender
+  goal: The contractor receives a clear scope and award criteria and submits a comparable bid.
+  step: site-development-and-construction/tender-and-contracting
+  touchpoints:
+  - call-for-tender
+  - supplier-portal
+- slug: work-on-a-live-site
+  title: Work on a Live Site
+  goal: Workers know the site rules on infection control, fire safety and access, and the works are coordinated with clinical operation.
+  step: site-development-and-construction/construction-during-operation
+  touchpoints:
+  - construction-site-induction
+  - site-coordination-meeting
+- slug: hand-over-the-works
+  title: Hand Over the Works
+  goal: The works are accepted with as-built documentation and an agreed defects list.
+  step: site-development-and-construction/commissioning-and-handover
+  touchpoints:
+  - handover-walkthrough
+  - acceptance-test-report
+- slug: remedy-defects
+  title: Remedy Defects
+  goal: Defects reported in the warranty period are remedied within the deadline.
+  step: site-development-and-construction/post-occupancy-evaluation
+  touchpoints:
+  - defects-notice

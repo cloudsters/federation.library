@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: starter-pack
+title: Starter Pack
+medium: artefact
+summary: 'The information a new colleague receives before the first day: where and when to arrive, the named mentor, first shifts,
+  accounts, uniform and what to bring.'
+exchanges:
+- commitment-for-a-prepared-start
+journey: joining-as-a-new-colleague

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: sponsor-site-visit
+title: Sponsor Site Visit
+medium: encounter
+summary: The visit of the sponsor's monitor to the trial site, at initiation, during conduct and at close-out, to train the team,
+  verify data against source records and check compliance.
+exchanges:
+- site-performance-for-sponsorship
+journey: placing-a-trial-at-the-site

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: audit-report
+title: Audit Report
+medium: artefact
+summary: The published findings of internal audit, resident inspectors or the external auditor, each with the administration's answer
+  and its date.
+exchanges:
+- independent-audit-for-open-records
+- inspection-findings-for-public-answers
+journey: city-administration-taking-a-proposal-to-resolution

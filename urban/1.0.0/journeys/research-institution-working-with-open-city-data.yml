@@ -1,0 +1,32 @@
+kind: journey
+slug: research-institution-working-with-open-city-data
+title: Research Institution Working with Open City Data
+stakeholder: research-institution
+summary: A research institution finds city data in the public catalogue, reports the defects it finds, uses the open data and tells
+  the city which data it misses.
+stages:
+- slug: search-the-catalogue
+  title: Search the Catalogue
+  goal: The institution knows which data sets exist, who owns them and on what terms it may use them.
+  step: city-data-and-analytics/data-definition-and-cataloguing
+  touchpoints:
+  - data-catalogue-search
+- slug: report-a-defect
+  title: Report a Defect
+  goal: A defect found in a data set is corrected at its source.
+  step: city-data-and-analytics/data-quality-assurance
+  touchpoints:
+  - data-quality-dashboard
+- slug: use-the-open-data
+  title: Use the Open Data
+  goal: The institution uses data sets free of personal data under an open licence.
+  step: city-data-and-analytics/release-and-open-data
+  touchpoints:
+  - open-data-download-page
+- slug: say-what-is-missing
+  title: Say What Is Missing
+  goal: The institution's view of which data it misses is heard, and data products no one uses are retired.
+  step: city-data-and-analytics/data-use-review
+  touchpoints:
+  - data-users-forum
+  - evidence-request-form

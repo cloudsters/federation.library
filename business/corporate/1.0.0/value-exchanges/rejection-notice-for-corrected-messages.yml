@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: rejection-notice-for-corrected-messages
+title: Rejection Notice for Corrected Messages
+between:
+- information-technology-specialist
+- business-customer
+offered:
+- Prompt notice of a rejected message with its reason.
+returned:
+- A corrected message resent quickly, and help to fix recurring errors at their source.
+touchpoint: electronic-order-interface

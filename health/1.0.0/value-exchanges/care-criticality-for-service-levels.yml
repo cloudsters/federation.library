@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: care-criticality-for-service-levels
+title: Care Criticality for Service Levels
+between:
+- head-of-clinical-department
+- health-informatics-specialist
+offered:
+- The criticality of each service for care, the support hours the unit needs and early notice of changes in its work.
+returned:
+- Agreed availability, response and recovery levels, changes scheduled around care, and regular reports on how the levels were met.
+touchpoint: service-catalogue

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: board-report
+title: Board Report
+medium: artefact
+summary: The integrated report that reaches the executive board and the supervisory body before each meeting, showing the
+  state of the whole commons, the matters for decision and the risks attached.
+exchanges:
+- accountable-oversight
+- risk-appetite-mandate
+- shared-picture-of-the-whole
+journey: owner-seeing-the-whole

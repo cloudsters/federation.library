@@ -1,0 +1,54 @@
+kind: entity
+slug: open-data-release
+title: Open Data Release
+type: transactional
+summary: A data set free of personal data published for anyone to use under an open licence, with its date and update rhythm. The
+  owner of the data set prepares it and checks that no personal data remains, the administration publishes it in the catalogue, and
+  residents, researchers and businesses reuse it.
+attributes:
+- name: data-set
+  type: reference(data-set)
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: licence
+  type: code
+  card: 1..1
+- name: formats
+  type: code
+  card: 1..*
+- name: anonymisation-check
+  type: document
+  card: 1..1
+- name: released-on
+  type: date
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: access-address
+  type: identifier
+  card: 0..1
+- name: download-count
+  type: integer
+  card: 0..1
+- name: withdrawn-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- checked
+- approved
+- released
+- updated
+- withdrawn
+relations:
+- type: based-on
+  target: data-set
+- type: part-of
+  target: data-catalogue
+- type: governed-by
+  target: disclosure-policy
+- type: produces
+  target: public-record

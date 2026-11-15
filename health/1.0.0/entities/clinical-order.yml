@@ -1,0 +1,76 @@
+kind: entity
+slug: clinical-order
+title: Clinical Order
+type: transactional
+summary: A request by an entitled care professional for a diagnostic or therapeutic service, such as a laboratory test, imaging, consultation,
+  therapy or nursing activity, carrying indication, priority and what the performer needs to know.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 0..1
+- name: ordered-service
+  type: code
+  card: 1..1
+- name: reason
+  type: code
+  card: 0..*
+- name: priority
+  type: code
+  card: 1..1
+- name: requester
+  type: reference(practitioner-role)
+  card: 1..1
+- name: performing-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: requested-at
+  type: datetime
+  card: 1..1
+states:
+- draft
+- active
+- on-hold
+- completed
+- revoked
+- entered-in-error
+relations:
+- type: based-on
+  target: care-activity-mandate
+- type: produces
+  target: diagnostic-report
+- type: produces
+  target: procedure
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

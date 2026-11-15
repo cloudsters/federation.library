@@ -1,0 +1,42 @@
+kind: entity
+slug: care-team
+title: Care Team
+type: master
+summary: The group of care professionals, and where relevant the patient's carers, who jointly care for a patient or a defined patient
+  population, with their roles and the period they hold them.
+attributes:
+- name: team-kind
+  type: code
+  card: 1..1
+- name: members
+  type: reference(practitioner-role)
+  card: 1..*
+- name: lead
+  type: reference(practitioner-role)
+  card: 0..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- proposed
+- active
+- ended
+relations:
+- type: assigned-to
+  target: episode-of-care
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

@@ -1,0 +1,97 @@
+kind: value-stream
+slug: institutional-partnering
+title: Institutional Partnership Development
+family: participant-to-community
+summary: 'Cultivating relationships with government, regulators, public institutions and industry bodies as civic partnership: contributing
+  to shared standards, taking part in associations, and stating positions on policy openly.'
+trigger: A policy or regulatory initiative affects the organisation, or an industry body or public institution invites participation.
+outcome: The organisation's position is represented openly, its commitments in industry bodies are tracked and met, and its relationships
+  with public institutions stand before they are needed.
+stakeholders:
+- policy-maker
+- sector-regulator
+- sector-association
+- local-authority
+- executive-board
+steps:
+- slug: institutional-landscape
+  title: Institutional Landscape
+  summary: Map the public institutions, regulators and industry bodies that shape the organisation's operating conditions, the relationship
+    held with each, and the policy and standards processes under way.
+  capabilities:
+  - government-partnership-cultivation
+  - industry-ecosystem-participation
+  - regulatory-landscape-sensing
+  entities:
+  - counterparty
+  - stakeholder
+  serves:
+  - association-working-group
+- slug: issue-assessment
+  title: Issue Assessment
+  summary: Assess how a proposed law, rule or standard affects the organisation and those it serves, and decide whether and how to
+    engage.
+  capabilities:
+  - regulatory-landscape-sensing
+  - steward-lobby-activities
+  entities:
+  - report
+  - governance-decision
+  serves:
+  - association-working-group
+  - public-consultation
+- slug: position-development
+  title: Position Development
+  summary: Develop a position that could survive public disclosure, align it inside the organisation, and state what the organisation
+    will and will not seek.
+  capabilities:
+  - steward-lobby-activities
+  - government-partnership-cultivation
+  entities:
+  - public-statement
+  - governance-decision
+  serves:
+  - position-paper
+- slug: representation-and-dialogue
+  title: Representation and Dialogue
+  summary: Present the position to public counterparts and take part in consultations, with every contact and advocacy activity recorded
+    transparently.
+  capabilities:
+  - steward-lobby-activities
+  - government-partnership-cultivation
+  entities:
+  - communication
+  - public-statement
+  serves:
+  - advocacy-register-entry
+  - policy-dialogue
+- slug: industry-body-participation
+  title: Industry Body Participation
+  summary: Take part in associations, working groups and standards-setting as a contributor, sharing knowledge and building collective
+    capability rather than taking a free ride.
+  capabilities:
+  - industry-group-relations
+  - industry-ecosystem-participation
+  entities:
+  - agreement
+  - counterparty
+  serves:
+  - association-working-group
+  - standards-committee
+- slug: commitment-follow-up
+  title: Commitment Follow-Up
+  summary: Track the commitments made in industry bodies and to public institutions, meet them, and review each relationship for what
+    it delivered to both sides.
+  capabilities:
+  - industry-group-relations
+  - government-partnership-cultivation
+  entities:
+  - relationship-review
+  - agreement
+  serves:
+  - association-working-group
+  - policy-dialogue
+binds:
+- source: src-098
+  edition: 2017-a1-2024
+  jurisdiction: global

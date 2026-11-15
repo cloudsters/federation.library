@@ -1,0 +1,19 @@
+kind: journey
+slug: payer-service-portfolio-journey
+title: Payer Service Portfolio Journey
+stakeholder: payer
+summary: A payer compares the commons' services with those of other providers and agrees the volumes, budget and rates that follow
+  from the decided portfolio.
+stages:
+- slug: compare-the-services
+  title: Compare the Services
+  goal: Compare volumes, outcomes and costs of the commons' services with those of other providers.
+  step: service-portfolio-planning/service-performance-assessment
+  touchpoints:
+  - public-quality-report
+- slug: agree-volumes-and-rates
+  title: Agree Volumes and Rates
+  goal: Agree volumes, budget and rates for the services the commons will provide in the coming period.
+  step: service-portfolio-planning/mandate-and-volume-alignment
+  touchpoints:
+  - payer-negotiation

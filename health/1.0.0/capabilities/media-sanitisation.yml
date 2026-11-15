@@ -1,0 +1,17 @@
+kind: capability
+slug: media-sanitisation
+title: Media Sanitisation
+level: L3
+parent: information-security
+summary: Erase or destroy the data on retired, returned or repaired devices and storage media by verified methods, including medical
+  devices that hold patient data, and keep evidence of each erasure.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global
+- source: src-344
+  edition: Rev. 2
+  jurisdiction: global
+- source: src-363
+  edition: '2022'
+  jurisdiction: global

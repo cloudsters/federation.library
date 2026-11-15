@@ -1,0 +1,132 @@
+kind: value-stream
+slug: succession-and-transition
+title: Succession and Transition
+family: contributor-to-succession
+summary: 'Moving contributors on well: promotion, internal moves, succession planning for key roles, separation, retirement, emeritus
+  status and the transfer of knowledge to successors.'
+trigger: A contributor is promoted, moves, resigns or approaches retirement, or a key role lacks a successor.
+outcome: The role is held by a prepared successor, knowledge has been transferred, and the departing contributor has left in good
+  standing.
+stakeholders:
+- head-of-clinical-department
+- specialist-physician
+- registered-nurse
+- unit-manager
+- executive
+- administrative-staff
+- university
+steps:
+- slug: key-role-review
+  title: Key Role Review
+  summary: Identify the key roles and the knowledge they hold, assess the risk of their vacancy from age, tenure and turnover, and
+    assess the bench strength behind each.
+  capabilities:
+  - succession-planning
+  - strategic-workforce-planning
+  - workforce-analytics-deployment
+  - knowledge-strategy-design
+  entities:
+  - position
+  - succession-plan
+  - measure-report
+  serves:
+  - joint-university-committee
+- slug: successor-development
+  title: Successor Development
+  summary: Name potential successors and develop them through leadership programmes, deputy roles, rotations and shared leadership,
+    and assess their readiness.
+  capabilities:
+  - succession-planning
+  - leadership-development
+  - internal-mobility-marketplace
+  - performance-management
+  entities:
+  - succession-plan
+  - appraisal
+  - employee
+  serves:
+  - appraisal-meeting
+- slug: transition-decision
+  title: Transition Decision
+  summary: 'Decide the move: a promotion or internal transfer by transparent criteria, the acceptance of a resignation, or the date
+    and form of retirement.'
+  capabilities:
+  - promotion-and-progression
+  - separation-management
+  - retirement-management
+  - co-determination-cooperation
+  entities:
+  - employment
+  - position
+  - governance-decision
+  serves:
+  - hr-self-service
+  - transition-conversation
+- slug: role-handover
+  title: Role Handover
+  summary: Hand over patients, responsibilities, open matters, documents, knowledge and networks to the successor or an interim holder,
+    with an overlap where the role requires it.
+  capabilities:
+  - knowledge-handover
+  - wiki-knowledge-base-management
+  - delegation-of-authority
+  entities:
+  - position
+  - succession-plan
+  - practitioner-role
+  serves:
+  - handover-dossier
+  - shift-handover
+- slug: exit-administration
+  title: Exit Administration
+  summary: 'End the employment cleanly: final pay and time accounts, pension, reference, return of equipment, and revocation of access
+    and privileges.'
+  capabilities:
+  - separation-management
+  - payroll-administration
+  - benefits-administration
+  - identity-access-management
+  - it-asset-lifecycle-management
+  entities:
+  - employment
+  - payroll-run
+  - access-grant
+  - identity
+  - clinical-privilege
+  serves:
+  - hr-service-desk
+  - pay-statement
+- slug: continued-contribution
+  title: Continued Contribution
+  summary: 'Keep the bond: hold an exit interview, offer emeritus status with continued teaching and research, keep alumni contact
+    and an open door to rehire.'
+  capabilities:
+  - emeritus-transition
+  - retention-management
+  - hiring-and-rehire-management
+  entities:
+  - academic-appointment
+  - employee
+  - measure-report
+  serves:
+  - exit-interview
+  - lecture-hall
+- slug: succession-review
+  title: Succession Review
+  summary: Confirm the successor in the role after the transition period, review the quality of the handover, and update the succession
+    plan for the next transition.
+  capabilities:
+  - succession-planning
+  - performance-management
+  - workforce-reporting
+  entities:
+  - succession-plan
+  - appraisal
+  - position
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: mesh-network-for-a-role-in-the-plan
+title: Mesh Network for a Role in the Plan
+between:
+- community-network-operator
+- city-administration
+offered:
+- A mesh network that runs without the internet, and its members in the drills.
+returned:
+- A defined role in the continuity plan and support to keep the network ready.
+touchpoint: neighbourhood-resilience-point

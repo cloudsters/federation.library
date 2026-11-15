@@ -1,0 +1,63 @@
+kind: entity
+slug: infrastructure-repair
+title: Infrastructure Repair
+type: transactional
+summary: A maintenance or repair action on public infrastructure, including the digital networks, with its fault, cost and the neighbourhoods
+  affected. The operator of the infrastructure records it from the fault report to completion, and the records show the city whether
+  its upkeep plan keeps pace with wear.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: asset-repaired
+  type: text
+  card: 1..1
+- name: network
+  type: reference(digital-network)
+  card: 0..1
+- name: repair-kind
+  type: code
+  card: 1..1
+- name: fault
+  type: text
+  card: 0..1
+- name: reported-at
+  type: datetime
+  card: 0..1
+- name: affected-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: outage-duration
+  type: quantity
+  card: 0..1
+- name: carried-out-by
+  type: text
+  card: 1..1
+- name: cost
+  type: amount
+  card: 0..1
+- name: funding-source
+  type: code
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+states:
+- reported
+- planned
+- scheduled
+- in-progress
+- completed
+- verified
+- closed
+relations:
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: digital-network
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: capital-investment-plan
+- type: refers-to
+  target: support-case

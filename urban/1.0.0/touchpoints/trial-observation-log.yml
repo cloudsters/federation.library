@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: trial-observation-log
+title: Trial Observation Log
+medium: channel
+summary: The open log, online and on paper, in which residents and staff record what they see during a trial, used in its evaluation
+  beside the measures.
+exchanges:
+- trial-observations-for-open-results
+journey: resident-researching-as-a-co-investigator

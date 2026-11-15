@@ -1,0 +1,40 @@
+kind: entity
+slug: project
+title: Project
+type: transactional
+summary: A bounded initiative with purpose — a temporary organizational structure that concentrates resources and attention on delivering
+  a specific outcome within defined constraints.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: timeline
+  type: period
+  card: 1..1
+- name: budget
+  type: amount
+  card: 0..1
+- name: team
+  type: reference(employee-record)
+  card: 1..*
+- name: customer
+  type: reference(customer)
+  card: 0..1
+states:
+- proposed
+- planned
+- active
+- on-hold
+- completed
+- closed
+- cancelled
+relations:
+- type: composed-of
+  target: task
+- type: refers-to
+  target: timesheet
+- type: produces
+  target: sales-invoice

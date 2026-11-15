@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: conformance-test
+title: Conformance Test
+medium: encounter
+summary: The test in which an interface is checked against its specification in a test environment of the partner or the national
+  body, ending in confirmation or rejection.
+exchanges:
+- conformance-for-national-services
+journey: connecting-to-the-national-health-network

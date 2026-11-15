@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: legal-advice-request
+title: Legal Advice Request
+medium: channel
+summary: The internal channel through which departments and the council bring a legal question to the legal office and receive its
+  advice.
+exchanges:
+- legal-question-for-sound-advice
+journey: legal-and-compliance-officer-keeping-the-municipality-lawful

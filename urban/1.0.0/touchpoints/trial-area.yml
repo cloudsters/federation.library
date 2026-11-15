@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: trial-area
+title: Trial Area
+medium: place
+summary: The street, district or service where a trial runs in the open for a defined time, marked so that residents know what is
+  being tried and how to respond.
+exchanges:
+- host-area-for-a-say-in-trial-terms
+- trial-observations-for-open-results
+journey: neighbourhood-association-hosting-an-urban-trial

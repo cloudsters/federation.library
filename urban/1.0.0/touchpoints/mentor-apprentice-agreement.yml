@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mentor-apprentice-agreement
+title: Mentor and Apprentice Agreement
+medium: artefact
+summary: The written pairing of an apprentice with a mentor for an extended period, with the teaching time the pool pays.
+exchanges:
+- commitment-for-a-mentor-who-stays
+- teaching-time-for-paid-teaching
+journey: mentor-teaching-the-next-generation

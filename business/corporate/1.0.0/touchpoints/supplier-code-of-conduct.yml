@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-code-of-conduct
+title: Supplier Code of Conduct
+medium: artefact
+summary: The published statement of conduct the company expects of its suppliers on labour, safety, environment and fair dealing,
+  passed along their own supply chains.
+exchanges:
+- disclosed-conduct-for-approved-status
+journey: supplier-relationship

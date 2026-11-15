@@ -1,0 +1,68 @@
+kind: entity
+slug: job-application
+title: Job Application
+type: transactional
+summary: An application for a vacancy or an apprenticeship, from receipt through assessment to the answer and its reasons. The personnel
+  function keeps it with the record of the panel and the interests its members declared, and it is used to answer every applicant
+  and to make the offer.
+attributes:
+- name: application-number
+  type: identifier
+  card: 1..1
+- name: applicant-name
+  type: text
+  card: 1..1
+- name: vacancy
+  type: reference(job-vacancy)
+  card: 0..1
+- name: apprenticeship
+  type: reference(apprenticeship)
+  card: 0..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: documents
+  type: document
+  card: 0..*
+- name: skill-recognitions
+  type: reference(skill-recognition)
+  card: 0..*
+- name: panel-members
+  type: text
+  card: 0..*
+- name: interest-declarations
+  type: reference(interest-declaration)
+  card: 0..*
+- name: outcome
+  type: code
+  card: 0..1
+- name: reasons-given
+  type: text
+  card: 0..1
+- name: answered-on
+  type: date
+  card: 0..1
+states:
+- received
+- under-assessment
+- shortlisted
+- offered
+- accepted
+- declined
+- rejected
+- withdrawn
+relations:
+- type: refers-to
+  target: job-vacancy
+- type: refers-to
+  target: apprenticeship
+- type: based-on
+  target: skill-recognition
+- type: refers-to
+  target: interest-declaration
+- type: produces
+  target: employment-contract
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

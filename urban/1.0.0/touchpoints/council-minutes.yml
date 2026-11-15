@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: council-minutes
+title: Council Minutes
+medium: artefact
+summary: The published record of each session, with resolutions, reasons, votes, minority positions and rejected alternatives.
+exchanges:
+- minority-position-for-a-place-in-the-record
+- public-reporting-for-open-sessions
+journey: city-council-directing-and-supervising-the-municipality

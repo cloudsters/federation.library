@@ -1,0 +1,94 @@
+# The steering loop of the family Demand to Fulfillment in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.demand-to-fulfillment
+title: Keep the family 'Demand to Fulfillment' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: demand-to-fulfillment
+  vs:
+  - homelessness-and-housing-allocation
+  - public-housing-and-tenancy-services
+  - informal-settlement-upgrading
+  - public-transport-and-shared-mobility
+  - streets-traffic-and-road-safety
+  - urban-goods-and-food-distribution
+  - water-supply-and-sanitation
+  - energy-and-heat-supply
+  - waste-collection-and-material-recovery
+  - environmental-health-protection
+  - community-safety-and-emergency-services
+  - essential-service-affordability-and-equity
+stance: The city delivers its services and operates its infrastructure on what residents need. No single stream of this family
+  can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/demand-to-fulfillment
+  - value-model.yml#vs/homelessness-and-housing-allocation
+  - value-model.yml#vs/public-housing-and-tenancy-services
+  - value-model.yml#vs/informal-settlement-upgrading
+  - value-model.yml#vs/public-transport-and-shared-mobility
+  - value-model.yml#vs/streets-traffic-and-road-safety
+  - value-model.yml#vs/urban-goods-and-food-distribution
+  - value-model.yml#vs/water-supply-and-sanitation
+  - value-model.yml#vs/energy-and-heat-supply
+  - value-model.yml#vs/waste-collection-and-material-recovery
+  - value-model.yml#vs/environmental-health-protection
+  - value-model.yml#vs/community-safety-and-emergency-services
+  - value-model.yml#vs/essential-service-affordability-and-equity
+  registry:
+  - registry/value-streams/homelessness-and-housing-allocation.yml
+  - registry/value-streams/public-housing-and-tenancy-services.yml
+  - registry/value-streams/informal-settlement-upgrading.yml
+  - registry/value-streams/public-transport-and-shared-mobility.yml
+  - registry/value-streams/streets-traffic-and-road-safety.yml
+  - registry/value-streams/urban-goods-and-food-distribution.yml
+  - registry/value-streams/water-supply-and-sanitation.yml
+  - registry/value-streams/energy-and-heat-supply.yml
+  - registry/value-streams/waste-collection-and-material-recovery.yml
+  - registry/value-streams/environmental-health-protection.yml
+  - registry/value-streams/community-safety-and-emergency-services.yml
+  - registry/value-streams/essential-service-affordability-and-equity.yml
+  loop_states:
+  - operations/loops/_state/homelessness-and-housing-allocation.yml
+  - operations/loops/_state/public-housing-and-tenancy-services.yml
+  - operations/loops/_state/informal-settlement-upgrading.yml
+  - operations/loops/_state/public-transport-and-shared-mobility.yml
+  - operations/loops/_state/streets-traffic-and-road-safety.yml
+  - operations/loops/_state/urban-goods-and-food-distribution.yml
+  - operations/loops/_state/water-supply-and-sanitation.yml
+  - operations/loops/_state/energy-and-heat-supply.yml
+  - operations/loops/_state/waste-collection-and-material-recovery.yml
+  - operations/loops/_state/environmental-health-protection.yml
+  - operations/loops/_state/community-safety-and-emergency-services.yml
+  - operations/loops/_state/essential-service-affordability-and-equity.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.demand-to-fulfillment.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

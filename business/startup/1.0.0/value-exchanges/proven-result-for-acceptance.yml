@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: proven-result-for-acceptance
+title: Proven Result for Acceptance
+between:
+- development-engineer
+- business-customer
+offered:
+- A result tested against the agreed criteria, with documentation, trained users and a list of open defects.
+returned:
+- Signed acceptance that releases final payment, starts the warranty and makes the project a reference.
+touchpoint: customer-training

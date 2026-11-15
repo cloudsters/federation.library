@@ -1,0 +1,45 @@
+kind: journey
+slug: affected-by-a-product-recall
+title: Affected by a Product Recall
+stakeholder: elective-inpatient
+summary: 'How a patient who received a recalled implant, medicine or blood product experiences vigilance: found from the records,
+  told plainly and followed up.'
+stages:
+- slug: concern-taken-seriously
+  title: Concern Taken Seriously
+  goal: Have a suspected product problem, such as a failing implant, taken up as a safety signal.
+  step: vigilance-and-recall-management/signal-receipt
+  touchpoints:
+  - consultation
+  - feedback-and-complaints-channel
+- slug: identified-from-records
+  title: Identified from Records
+  goal: Be found reliably, because the product used was recorded against the patient.
+  step: vigilance-and-recall-management/impact-assessment
+  touchpoints:
+  - patient-held-health-record
+- slug: protected-from-affected-products
+  title: Protected from Affected Products
+  goal: Receive no affected product in further care.
+  step: vigilance-and-recall-management/product-action
+  touchpoints:
+  - ward
+- slug: informed-and-followed-up
+  title: Informed and Followed Up
+  goal: Hear plainly what the problem means, what is advised and where to go.
+  step: vigilance-and-recall-management/patient-tracing-and-follow-up
+  touchpoints:
+  - patient-recall-letter
+  - consultation
+- slug: harm-reported
+  title: Harm Reported
+  goal: Have any harm reported, so that other patients are protected too.
+  step: vigilance-and-recall-management/adverse-event-reporting
+  touchpoints:
+  - consultation
+- slug: matter-closed
+  title: Matter Closed
+  goal: Know the follow-up plan and whom to contact if symptoms appear.
+  step: vigilance-and-recall-management/closure-and-effectiveness-review
+  touchpoints:
+  - patient-recall-letter

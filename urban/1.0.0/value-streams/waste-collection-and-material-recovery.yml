@@ -1,0 +1,110 @@
+kind: value-stream
+slug: waste-collection-and-material-recovery
+title: Waste Collection and Material Recovery
+family: demand-to-fulfillment
+summary: Collecting what residents and businesses throw away and returning as much of it as possible to use. It holds the rules for
+  preventing and separating waste and for return systems for packaging, collection rounds in every neighbourhood, contracts with cooperatives
+  of waste pickers, sorting and recovery of materials, the exchange of by-products between businesses, the safe handling of hazardous
+  waste, the safe disposal of what remains, and the recording of what was recovered.
+trigger: A collection round is due, a resident or business reports waste, the waste rules are reviewed, or hazardous waste is found.
+outcome: Waste is collected from every neighbourhood, most of it is reused or recovered, hazardous waste is kept from harming anyone,
+  and those who collect it work in dignity.
+stakeholders:
+- resident
+- local-business
+- informal-worker
+- frontline-worker
+- infrastructure-operator
+- neighbourhood-association
+- affected-community
+steps:
+- slug: waste-prevention-and-separation-rules
+  title: Waste Prevention and Separation Rules
+  summary: The city sets with residents and businesses how waste is prevented and separated, which packaging returns through deposit
+    and refill systems, and how surplus food is passed on before it is wasted.
+  capabilities:
+  - waste-rule-setting
+  - bylaw-drafting
+  entities:
+  - waste-regulation
+  - waste-system
+  serves:
+  - deposit-return-point
+  - waste-rules-consultation
+- slug: collection-rounds
+  title: Collection Rounds
+  summary: Collection rounds are planned for every street and building, run on fixed days by the city's crews or contracted cooperatives,
+    and missed collections are put right the next working day.
+  capabilities:
+  - waste-collection-rounds
+  - service-standard-setting
+  entities:
+  - waste-system
+  - public-service
+  serves:
+  - collection-calendar
+  - missed-collection-report
+- slug: waste-picker-integration
+  title: Waste Picker Integration
+  summary: Waste pickers who already collect and sort in the city are helped to form cooperatives and are contracted and paid for
+    the collection and recovery they do, with safe equipment and places to sort.
+  capabilities:
+  - waste-picker-contracting
+  - worker-cooperative-formation-support
+  entities:
+  - contract
+  - cooperative
+  serves:
+  - cooperative-contracting-meeting
+  - sorting-yard
+- slug: sorting-and-material-recovery
+  title: Sorting and Material Recovery
+  summary: Collected waste is sorted, metals, paper, glass, plastics and organic waste are recovered and sold or composted, and businesses
+    are linked to exchange their by-products.
+  capabilities:
+  - material-recovery
+  - waste-picker-contracting
+  entities:
+  - waste-system
+  - waste-metrics
+  serves:
+  - by-product-exchange
+  - sorting-yard
+- slug: hazardous-waste-handling
+  title: Hazardous Waste Handling
+  summary: Hazardous waste from homes, workshops and industry is collected separately, stored and treated safely, and its sources
+    are pressed to reduce it, so that no neighbourhood carries a heavier burden.
+  capabilities:
+  - hazardous-waste-handling
+  - environmental-hazard-inspection
+  entities:
+  - waste-regulation
+  - environmental-hazard-case
+  serves:
+  - hazardous-waste-drop-off
+- slug: residual-disposal-and-recovery-review
+  title: Residual Disposal and Recovery Review
+  summary: What cannot be recovered is disposed of safely, and each year the city reports with residents how much waste each neighbourhood
+    produced, how much was recovered and where the rest went.
+  capabilities:
+  - material-recovery
+  - analysis-and-modelling
+  - open-data-publication
+  entities:
+  - waste-metrics
+  - carbon-footprint
+  serves:
+  - neighbourhood-waste-report
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

@@ -1,0 +1,127 @@
+kind: value-stream
+slug: succession-and-role-transition
+title: Succession and Role Transition
+family: contributor-to-succession
+summary: Renewing those who hold the city's key roles so that no one person is irreplaceable. It holds the review of key roles in
+  the administration and in civic bodies, successors developed alongside the holder, fixed terms and rotation for roles that gather
+  power or wear people out, young people brought into roles with mentors, elders kept as paid knowledge keepers, the handover of a
+  role's reasoning and relationships, a fair exit, and continued contribution after retirement.
+trigger: A holder of a key role approaches retirement, leaves or reaches the end of a term, a rotation falls due, or a review finds
+  a role that rests on one person.
+outcome: The role is held by a prepared successor, the knowledge, relationships and reasoning it needs have been handed over, and
+  the person leaving has left in good standing with their claims settled.
+stakeholders:
+- municipal-employee
+- city-administration
+- personnel-officer
+- young-people
+- older-resident
+- staff-representative
+- neighbourhood-association
+- civil-society-organisation
+steps:
+- slug: key-role-review
+  title: Key Role Review
+  summary: Each year the administration and the civic bodies it supports review which roles carry decisions, relationships or knowledge
+    held by one person, and record successors and their readiness in a succession plan.
+  capabilities:
+  - key-role-review
+  - knowledge-gap-assessment
+  - retirement-and-attrition-forecasting
+  entities:
+  - succession-plan
+  - position
+  serves:
+  - key-role-review-meeting
+  - retirement-and-knowledge-risk-map
+- slug: rotation-and-term-setting
+  title: Rotation and Term Setting
+  summary: Roles that gather power or wear people out, such as chairs, facilitation, representation and watch duties, are given fixed
+    terms, staggered rotation and a period of rest before a person may hold the same role again.
+  capabilities:
+  - role-rotation-scheduling
+  - decision-rights-allocation
+  - burnout-prevention
+  entities:
+  - role-rotation-schedule
+  - decision-rights-register
+  serves:
+  - published-role-terms
+- slug: successor-development
+  title: Successor Development
+  summary: Successors drawn from staff, apprentices and young people work alongside the holder over an overlap of six to eighteen
+    months, taking on decisions step by step, with a mentor and a learning path for the role.
+  capabilities:
+  - successor-development
+  - mentor-matching
+  - staff-learning-path-design
+  entities:
+  - succession-plan
+  - mentoring-relationship
+  - staff-learning-path
+  serves:
+  - role-learning-path
+  - successor-overlap
+- slug: knowledge-keeper-roles
+  title: Knowledge Keeper Roles
+  summary: Long-serving staff and elders are appointed and paid as knowledge keepers who advise on decisions within their memory,
+    and the testimony of elders and workers is recorded in their own words.
+  capabilities:
+  - knowledge-keeper-appointment
+  - testimony-recording
+  - civic-memory-documentation
+  entities:
+  - civic-memory-record
+  - mentoring-relationship
+  serves:
+  - knowledge-keeper-circle
+  - testimony-recording-session
+- slug: role-handover
+  title: Role Handover
+  summary: The holder hands over the tasks, relationships and open matters of the role and the reasons behind past decisions, including
+    the dissent, and the access to systems passes to the successor.
+  capabilities:
+  - knowledge-handover
+  - frontline-knowledge-capture
+  - identity-and-access-control
+  entities:
+  - handover-plan
+  - knowledge-article
+  - digital-identity
+  serves:
+  - handover-file
+  - handover-meeting
+- slug: fair-exit
+  title: Fair Exit
+  summary: The departure is settled, with final pay, pension and any share the person holds in a commons fund or cooperative, a clear
+    record of what the person keeps and what returns to the city, and no penalty for leaving.
+  capabilities:
+  - exit-and-claims-settlement
+  - payroll-processing
+  entities:
+  - exit-settlement
+  - staff-record
+  - payroll-run
+  serves:
+  - exit-conversation
+  - exit-settlement-statement
+- slug: continued-contribution
+  title: Continued Contribution
+  summary: Retired staff and former office holders are invited to go on contributing as mentors, knowledge keepers or volunteers,
+    and the succession plan is updated for the next cycle.
+  capabilities:
+  - continued-contribution-arrangement
+  - volunteer-matching
+  - key-role-review
+  entities:
+  - volunteer-record
+  - succession-plan
+  serves:
+  - continued-contribution-invitation
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

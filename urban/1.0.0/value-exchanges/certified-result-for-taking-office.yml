@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: certified-result-for-taking-office
+title: Certified Result for Taking Office
+between:
+- election-office
+- city-council
+offered:
+- A certified result that names who has been elected.
+returned:
+- Bodies constituted on that result, and the access the office needs to run the next election.
+touchpoint: published-election-results

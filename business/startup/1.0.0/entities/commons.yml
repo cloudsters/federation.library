@@ -1,0 +1,38 @@
+kind: entity
+slug: commons
+title: Commons
+type: governance
+summary: The shared resource itself — the living whole that is governed, not owned. Whether knowledge, infrastructure, or ecosystem,
+  the commons exists because participants choose to steward it together rather than enclose it.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: boundaries
+  type: text
+  card: 1..1
+- name: membership
+  type: text
+  card: 1..1
+- name: stewarded-resource
+  type: text
+  card: 1..1
+- name: governance-protocol
+  type: text
+  card: 1..1
+- name: capture-resistance
+  type: text
+  card: 0..*
+states:
+- constituted
+- bounded
+- governed
+- monitored
+- evolved
+- forked
+- federated
+relations:
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: stakeholder

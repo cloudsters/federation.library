@@ -1,0 +1,27 @@
+kind: journey
+slug: customer-receiving-traceable-goods
+title: Customer Receiving Traceable Goods
+stakeholder: business-customer
+summary: A business customer approves the first articles of a new item, receives released goods with the evidence of what they were
+  made from, and can have any defect traced and contained quickly.
+stages:
+- slug: approve-the-first-articles
+  title: Approve the First Articles
+  goal: The first parts made with series processes are inspected with the customer and approved or corrected before series supply.
+  step: production-craft-assembly/in-process-quality-control
+  touchpoints:
+  - first-article-approval
+- slug: receive-released-goods
+  title: Receive Released Goods
+  goal: Goods arrive released, with test results and conformity evidence that link each unit or lot to its inputs.
+  step: production-craft-assembly/traceability-and-release
+  touchpoints:
+  - traceability-record
+  - declaration-of-conformity
+- slug: have-a-defect-traced
+  title: Have a Defect Traced
+  goal: A reported defect is traced to the affected units or lots and contained without recalling more than necessary.
+  step: production-craft-assembly/traceability-and-release
+  touchpoints:
+  - complaint-and-warranty-claim
+  - traceability-record

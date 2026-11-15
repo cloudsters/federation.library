@@ -1,0 +1,13 @@
+kind: capability
+slug: resilience-testing-evolution
+title: Resilience Testing & Evolution
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Test continuity plans in exercises and improve them from the results.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-376
+  edition: '2013'
+  jurisdiction: global

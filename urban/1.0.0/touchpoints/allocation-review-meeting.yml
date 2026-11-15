@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: allocation-review-meeting
+title: Allocation Review Meeting
+medium: encounter
+summary: The meeting in which the city contests an error in its allocation with the funding body and receives a correction or reasons.
+exchanges:
+- allocation-challenge-for-a-corrected-share
+journey: finance-officer-securing-what-the-city-is-due

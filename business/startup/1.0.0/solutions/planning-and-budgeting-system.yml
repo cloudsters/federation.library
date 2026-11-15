@@ -1,0 +1,14 @@
+kind: solution
+slug: planning-and-budgeting-system
+title: Planning and Budgeting System
+role: system-of-record
+summary: Holds budgets, forecasts and financial plans by unit and period, supports scenarios and allocation, and compares plan with
+  actual results for steering.
+carries:
+- budget-as-resource-flow-design
+- strategic-financial-sensing
+- scenario-planning
+holds:
+- budget
+- forecast
+- plan

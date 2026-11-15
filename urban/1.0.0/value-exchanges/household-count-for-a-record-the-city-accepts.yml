@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: household-count-for-a-record-the-city-accepts
+title: Household Count for a Record the City Accepts
+between:
+- informal-settlement-resident
+- city-planner
+offered:
+- The residents' own count of households and map of homes, paths, water points and hazards.
+returned:
+- The city's acceptance of the record as the basis for the plan, and support to keep it up to date.
+touchpoint: community-enumeration

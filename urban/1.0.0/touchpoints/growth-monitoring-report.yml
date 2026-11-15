@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: growth-monitoring-report
+title: Growth Monitoring Report
+medium: artefact
+summary: The regular published report on where growth actually happens, how much open land is built on and where residents are displaced,
+  against the plan.
+exchanges:
+- future-claim-for-protected-open-land
+- displacement-signals-for-a-reopened-plan
+journey: city-planner-renewing-the-spatial-plan

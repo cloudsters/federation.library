@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: isolation-room
+title: Isolation Room
+medium: place
+summary: A single room with its own bathroom and protective equipment at the door, in which patients colonised or infected with transmissible
+  organisms are cared for.
+exchanges:
+- screening-for-protection
+journey: protected-from-infection

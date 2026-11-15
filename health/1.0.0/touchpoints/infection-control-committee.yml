@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: infection-control-committee
+title: Infection Control Committee
+medium: encounter
+summary: The committee that adopts the hygiene plan, reviews infection and resistance rates and audit results, and decides on prevention
+  measures across the organisation.
+exchanges:
+- hygiene-feedback-for-safer-wards
+journey: protected-from-infection

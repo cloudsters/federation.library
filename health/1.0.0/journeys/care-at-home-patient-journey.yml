@@ -1,0 +1,49 @@
+kind: journey
+slug: care-at-home-patient-journey
+title: Care at Home Patient Journey
+stakeholder: person-with-chronic-condition
+summary: A person with a long-term condition chooses treatment or monitoring at home, is set up and treated there, sends readings
+  that someone acts on, is admitted directly when home is no longer safe, and ends the episode with care continuing locally.
+stages:
+- slug: choose-care-at-home
+  title: Choose Care at Home
+  goal: Decide with the team whether care at home is safe and wanted.
+  step: home-and-remote-care/eligibility-and-agreement
+  touchpoints:
+  - consultation
+  - consent-form
+- slug: get-set-up
+  title: Get Set Up
+  goal: Have devices working, know how to use them and know whom to call at any hour.
+  step: home-and-remote-care/home-set-up
+  touchpoints:
+  - home-monitoring-device
+  - home-visit
+- slug: be-treated-at-home
+  title: Be Treated at Home
+  goal: Receive hospital-level treatment in own surroundings.
+  step: home-and-remote-care/home-treatment-and-visits
+  touchpoints:
+  - home-visit
+  - telemedicine-service
+- slug: send-readings
+  title: Send Readings
+  goal: Send readings easily and trust that someone acts on them.
+  step: home-and-remote-care/remote-monitoring
+  touchpoints:
+  - home-monitoring-device
+  - remote-monitoring-centre
+- slug: get-help-fast
+  title: Get Help Fast
+  goal: Be admitted quickly and directly when home is no longer safe.
+  step: home-and-remote-care/escalation-and-admission
+  touchpoints:
+  - remote-monitoring-centre
+  - ward
+- slug: finish-at-home
+  title: Finish at Home
+  goal: End the episode with care continuing through the practice and community services.
+  step: home-and-remote-care/episode-completion
+  touchpoints:
+  - discharge-letter
+  - home-visit

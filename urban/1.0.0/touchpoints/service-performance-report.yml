@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-performance-report
+title: Service Performance Report
+medium: artefact
+summary: The published report of how each digital service kept its levels, how residents and staff experienced it and the improvements
+  agreed.
+exchanges:
+- performance-findings-for-agreed-improvements
+journey: resident-inspector-reviewing-digital-services

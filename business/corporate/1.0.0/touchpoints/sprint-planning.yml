@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: sprint-planning
+title: Sprint Planning
+medium: encounter
+summary: The short meeting at the start of each cadence in which a team takes from the shared backlog only the items it can finish
+  with the capacity it really has.
+exchanges:
+- honest-availability-for-protected-focus
+journey: team-member-delivering-within-real-capacity

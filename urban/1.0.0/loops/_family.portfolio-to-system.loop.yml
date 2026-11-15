@@ -1,0 +1,78 @@
+# The steering loop of the family Portfolio to System in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.portfolio-to-system
+title: Keep the family 'Portfolio to System' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: portfolio-to-system
+  vs:
+  - digital-strategy-and-systems-architecture
+  - digital-infrastructure-and-connectivity
+  - interoperability-and-platform-federation
+  - digital-solution-delivery-and-renewal
+  - digital-service-operations
+  - information-security-and-digital-resilience
+  - city-data-and-analytics
+  - data-protection-and-data-sovereignty
+stance: The city carries its portfolio on the urban systems and the digital backbone that hold it together. No single stream
+  of this family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/portfolio-to-system
+  - value-model.yml#vs/digital-strategy-and-systems-architecture
+  - value-model.yml#vs/digital-infrastructure-and-connectivity
+  - value-model.yml#vs/interoperability-and-platform-federation
+  - value-model.yml#vs/digital-solution-delivery-and-renewal
+  - value-model.yml#vs/digital-service-operations
+  - value-model.yml#vs/information-security-and-digital-resilience
+  - value-model.yml#vs/city-data-and-analytics
+  - value-model.yml#vs/data-protection-and-data-sovereignty
+  registry:
+  - registry/value-streams/digital-strategy-and-systems-architecture.yml
+  - registry/value-streams/digital-infrastructure-and-connectivity.yml
+  - registry/value-streams/interoperability-and-platform-federation.yml
+  - registry/value-streams/digital-solution-delivery-and-renewal.yml
+  - registry/value-streams/digital-service-operations.yml
+  - registry/value-streams/information-security-and-digital-resilience.yml
+  - registry/value-streams/city-data-and-analytics.yml
+  - registry/value-streams/data-protection-and-data-sovereignty.yml
+  loop_states:
+  - operations/loops/_state/digital-strategy-and-systems-architecture.yml
+  - operations/loops/_state/digital-infrastructure-and-connectivity.yml
+  - operations/loops/_state/interoperability-and-platform-federation.yml
+  - operations/loops/_state/digital-solution-delivery-and-renewal.yml
+  - operations/loops/_state/digital-service-operations.yml
+  - operations/loops/_state/information-security-and-digital-resilience.yml
+  - operations/loops/_state/city-data-and-analytics.yml
+  - operations/loops/_state/data-protection-and-data-sovereignty.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.portfolio-to-system.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

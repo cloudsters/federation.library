@@ -1,0 +1,32 @@
+kind: entity
+slug: data-model
+title: Data Model
+type: intelligence
+summary: The information architecture blueprint — a structured representation of the organisation's knowledge, defining how data entities
+  relate to each other and to the dimensions.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: entities
+  type: text
+  card: 1..*
+- name: attributes
+  type: text
+  card: 0..*
+- name: keys
+  type: text
+  card: 0..*
+- name: relationships
+  type: text
+  card: 0..*
+- name: level
+  type: code
+  card: 1..1
+states:
+- defined
+- reviewed
+- ratified
+- versioned
+- refined
+relations: []

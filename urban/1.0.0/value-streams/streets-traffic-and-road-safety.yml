@@ -1,0 +1,115 @@
+kind: value-stream
+slug: streets-traffic-and-road-safety
+title: Streets, Traffic and Road Safety
+family: demand-to-fulfillment
+summary: Running the city's streets so that people walk, cycle, ride and deliver safely and the space is shared fairly between them.
+  It holds the allocation of street and kerb space between modes, the operation of traffic signals, the analysis of road danger and
+  walking audits of routes to school and at night, street safety schemes, kerb and parking control, and the inspection and repair
+  of streets, paths and bridges in an order residents can follow.
+trigger: The street plan is reviewed, a collision or a pattern of danger is reported, residents ask for a change to their street,
+  or an inspection or a resident reports a defect.
+outcome: Streets are safe to walk and cycle for children and elders, space is shared by published rules, and defects are repaired
+  in an order residents can see.
+stakeholders:
+- resident
+- young-people
+- parent-or-guardian
+- older-resident
+- disabled-resident
+- local-business
+- neighbourhood-association
+- city-planner
+- infrastructure-operator
+steps:
+- slug: street-space-allocation
+  title: Street Space Allocation
+  summary: The city decides with each neighbourhood how its streets are shared between walking, cycling, transit, deliveries, parking
+    and staying, and records the allocation in the mobility plan.
+  capabilities:
+  - street-space-allocation
+  - participatory-plan-design
+  - movement-pattern-analysis
+  entities:
+  - street
+  - mobility-plan
+  serves:
+  - street-plan-workshop
+- slug: traffic-signal-and-flow-control
+  title: Traffic Signal and Flow Control
+  summary: Signals and traffic sensors are run to give priority to people walking, buses and bikes, keep traffic moving at a safe
+    speed, and respond to incidents and events.
+  capabilities:
+  - traffic-signal-operation
+  - sensor-deployment
+  - movement-pattern-analysis
+  entities:
+  - street
+  - sensor
+  - mobility-data
+  serves:
+  - pedestrian-crossing-signal
+- slug: road-danger-assessment
+  title: Road Danger Assessment
+  summary: Collisions and near misses are analysed by place and by who was harmed, and children, women, elders and disabled residents
+    walk their routes to school, work and transit to name where they feel and are unsafe.
+  capabilities:
+  - road-danger-analysis
+  - street-safety-audit
+  entities:
+  - safety-statistics
+  - street
+  serves:
+  - collision-map
+  - safe-route-walk
+- slug: street-safety-schemes
+  title: Street Safety Schemes
+  summary: Lower speeds, safe crossings, protected cycle lanes, school streets and play streets are designed with residents, tried
+    out, and made permanent where they work.
+  capabilities:
+  - street-safety-scheme-design
+  - street-safety-audit
+  - participatory-plan-design
+  entities:
+  - street
+  - capital-project
+  serves:
+  - school-street-trial
+  - street-plan-workshop
+- slug: kerb-and-parking-control
+  title: Kerb and Parking Control
+  summary: Kerb space for loading, disabled parking, residents, car sharing and bikes is set by rule, priced where space is scarce,
+    and kept clear by enforcement, with the income spent on streets and transit.
+  capabilities:
+  - kerb-and-parking-enforcement
+  - street-space-allocation
+  - revenue-billing
+  entities:
+  - kerb-and-loading-rule
+  - street
+  serves:
+  - kerb-and-loading-map
+  - parking-enforcement-patrol
+- slug: street-inspection-and-repair
+  title: Street Inspection and Repair
+  summary: Streets, paths, bridges and lights are inspected at set intervals and on residents' reports, defects are ranked by danger
+    and by who depends on the route by published rules, and repaired within set times.
+  capabilities:
+  - street-repair-prioritisation
+  - utility-network-maintenance
+  - service-standard-setting
+  entities:
+  - infrastructure-repair
+  - street
+  serves:
+  - published-repair-ranking
+  - street-defect-report
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-294
+  edition: '2012'
+  jurisdiction: global

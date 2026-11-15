@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: a-hearing-for-a-remedy-on-the-record
+title: A Hearing for a Remedy on the Record
+between:
+- supplier
+- contract-manager
+offered:
+- The supplier's account of a shortfall and its proposal for correction.
+returned:
+- A remedy or variation decided after the supplier was heard, recorded and published with the contract.
+touchpoint: contract-remedy-hearing

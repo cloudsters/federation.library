@@ -1,0 +1,116 @@
+kind: value-stream
+slug: portfolio-programme-orchestration
+title: Portfolio & Programme Orchestration
+family: purpose-to-portfolio
+summary: 'Getting the work that strategy has funded actually done: the portfolio of programmes and projects is governed as a whole,
+  the capacity of people and agents is allocated across it, and teams deliver in their own cadence without being overloaded.'
+trigger: The portfolio review falls due, or a new holding, programme or project is proposed.
+outcome: The portfolio is balanced against strategy and capacity, and its programmes and projects are delivered or stopped under one
+  governance.
+stakeholders:
+- executive-board
+- managing-director
+- employee
+- finance-professional
+- operations-planning-agent
+steps:
+- slug: work-demand-intake
+  title: Work Demand Intake
+  summary: Proposed programmes, projects and larger work packages are registered with sponsor, scope, expected benefit and effort,
+    and screened against strategy before they compete for capacity.
+  capabilities:
+  - project-portfolio-management
+  entities:
+  - business-case
+  - initiative
+  - project
+  serves:
+  - project-proposal
+- slug: portfolio-balancing
+  title: Portfolio Balancing
+  summary: The portfolio governance body weighs proposals and running work against strategy, risk and available capacity, and decides
+    what starts, continues, pauses or stops.
+  capabilities:
+  - portfolio-governance-design
+  - project-portfolio-management
+  entities:
+  - portfolio
+  - business-case
+  - governance-decision
+  - program
+  serves:
+  - portfolio-board
+- slug: capacity-allocation
+  title: Capacity Allocation
+  summary: The skills and available time of people and agents are matched to approved work, overload and idle capacity are made visible,
+    and competing claims on the same hands are settled.
+  capabilities:
+  - resource-capacity-planning
+  entities:
+  - plan
+  - capability-node
+  - skill
+  - project
+  serves:
+  - capacity-plan
+- slug: programme-and-project-set-up
+  title: Programme and Project Set-Up
+  summary: Each programme is structured into projects with shared goals, dependencies and roles, and each project receives its scope,
+    method, plan, milestones and team.
+  capabilities:
+  - programme-orchestration
+  - project-craft
+  entities:
+  - program
+  - project
+  - plan
+  - task
+  serves:
+  - project-charter
+- slug: iterative-delivery
+  title: Iterative Delivery
+  summary: Teams deliver in their own cadence, planning sprints from a shared backlog, keeping production and editorial calendars,
+    and recording the effort spent on each task.
+  capabilities:
+  - sprint-backlog-management
+  - content-calendar-operations
+  - project-craft
+  entities:
+  - task
+  - project
+  - calendar-event
+  - timesheet
+  serves:
+  - shared-backlog
+  - sprint-planning
+- slug: progress-and-dependency-review
+  title: Progress and Dependency Review
+  summary: At a fixed cadence programmes and the portfolio review progress, cost, risk and dependencies, re-plan capacity where work
+    collides and escalate what the teams cannot resolve.
+  capabilities:
+  - programme-orchestration
+  - project-portfolio-management
+  - resource-capacity-planning
+  entities:
+  - report
+  - program
+  - project
+  - risk
+  serves:
+  - capacity-plan
+  - progress-review
+  - shared-backlog
+- slug: closure-and-handover
+  title: Closure and Handover
+  summary: Finished results are accepted and handed to the operating owners, open items and lessons are recorded, and the capacity
+    bound in the project is released to the portfolio.
+  capabilities:
+  - project-craft
+  - portfolio-governance-design
+  entities:
+  - project
+  - approval
+  - knowledge-article
+  serves:
+  - lessons-learned-review
+  - project-handover

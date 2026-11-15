@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: deconstruction-contract-for-recovered-value
+title: Deconstruction Contract for Recovered Value
+between:
+- city-administration
+- salvage-cooperative
+offered:
+- A contract to take the asset apart rather than demolish it, with local hiring required.
+returned:
+- Components and materials sorted by their next use and recorded lot by lot.
+touchpoint: deconstruction-site

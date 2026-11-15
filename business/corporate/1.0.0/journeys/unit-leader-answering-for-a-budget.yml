@@ -1,0 +1,33 @@
+kind: journey
+slug: unit-leader-answering-for-a-budget
+title: Unit Leader Answering for a Budget
+stakeholder: site-manager
+summary: A unit leader agrees a budget, sees costs and the unit's draw on natural and social capital as they arise, explains every
+  material deviation and sees the value the unit helped create.
+stages:
+- slug: agree-the-budget
+  title: Agree the Budget
+  goal: The unit knows its budget, what it answers for and the room it has to act.
+  step: value-stewardship-accounting/budget-preparation-and-allocation
+  touchpoints:
+  - budget-round
+  - budget
+- slug: see-the-footprint
+  title: See the Footprint
+  goal: The unit's energy, material, emission and people data appear next to its financial flows.
+  step: value-stewardship-accounting/multi-capital-recording
+  touchpoints:
+  - cost-centre-report
+- slug: see-the-value-created
+  title: See the Value Created
+  goal: The unit sees the cost of its offerings and the share of value attributed to its work.
+  step: value-stewardship-accounting/costing-and-value-attribution
+  touchpoints:
+  - cost-centre-report
+- slug: explain-the-deviations
+  title: Explain the Deviations
+  goal: Every material deviation is explained, corrective action agreed and the forecast updated.
+  step: value-stewardship-accounting/variance-analysis-and-forecast
+  touchpoints:
+  - management-report
+  - budget-round

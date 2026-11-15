@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: vendor-voice-for-rules-agreed-not-imposed
+title: Vendor Voice for Rules Agreed, Not Imposed
+between:
+- market-vendor
+- city-administration
+offered:
+- Vendors' votes for their council and its proposals on fees, hours and conduct.
+returned:
+- Market rules agreed with the vendors' elected council rather than set over them.
+touchpoint: vendor-council-election

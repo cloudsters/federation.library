@@ -1,0 +1,14 @@
+kind: capability
+slug: supply-disruption-management
+title: Supply Disruption Management
+level: L3
+parent: materials-and-logistics
+summary: Detect disruptions in the supply of medical products, consumables and implants early, secure and allocate the remaining stock
+  by clinical priority, and introduce approved alternatives.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-375
+  edition: '2021'
+  jurisdiction: global

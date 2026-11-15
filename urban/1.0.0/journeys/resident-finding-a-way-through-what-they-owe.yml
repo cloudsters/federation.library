@@ -1,0 +1,43 @@
+kind: journey
+slug: resident-finding-a-way-through-what-they-owe
+title: Resident Finding a Way Through What They Owe
+stakeholder: resident
+summary: A resident calls about a bill they cannot pay, names the difficulty behind it, has all their accounts with the city looked
+  at together by one person, agrees one arrangement that follows their income and keeps a named contact who calls before anything
+  goes wrong.
+stages:
+- slug: call-about-a-bill
+  title: Call About a Bill
+  goal: The resident's question about a bill has been received and acknowledged like any other contact, without a warning of penalties.
+  step: resident-enquiries-and-contact/enquiry-receipt
+  touchpoints:
+  - city-contact-line
+  - enquiry-acknowledgement
+- slug: name-what-lies-behind
+  title: Name What Lies Behind
+  goal: The need behind the question, such as lost work or illness, is understood, and the contact is marked as hardship.
+  step: resident-enquiries-and-contact/need-clarification
+  touchpoints:
+  - need-clarification-conversation
+- slug: have-all-accounts-seen-together
+  title: Have All Accounts Seen Together
+  goal: One person has looked at everything the resident owes the city, paused recovery and checked the relief and entitlements not
+    yet claimed.
+  step: resident-enquiries-and-contact/joined-up-help-in-hardship
+  touchpoints:
+  - joined-up-hardship-meeting
+  - unclaimed-relief-check
+- slug: agree-one-arrangement
+  title: Agree One Arrangement
+  goal: A single arrangement follows the timing and size of the resident's income, and a missed payment brings a call rather than
+    a penalty.
+  step: resident-enquiries-and-contact/joined-up-help-in-hardship
+  touchpoints:
+  - income-matched-arrangement-letter
+- slug: keep-a-named-contact
+  title: Keep a Named Contact
+  goal: The resident knows whom to call, and can see and limit what the city keeps about their contacts.
+  step: resident-enquiries-and-contact/continuing-contact
+  touchpoints:
+  - named-contact-call
+  - contact-record-view

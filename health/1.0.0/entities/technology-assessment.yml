@@ -1,0 +1,56 @@
+kind: entity
+slug: technology-assessment
+title: Technology Assessment
+type: transactional
+summary: The assessment of a proposed diagnostic or therapeutic method, device, medicine or digital tool for benefit, harm, certainty
+  of evidence, cost and organisational fit, ending in a recommendation on its adoption.
+attributes:
+- name: technology
+  type: text
+  card: 1..1
+- name: technology-kind
+  type: code
+  card: 1..1
+- name: proposed-by
+  type: reference(employee)
+  card: 1..1
+- name: intended-population
+  type: text
+  card: 1..1
+- name: evidence-summary
+  type: document
+  card: 1..1
+- name: budget-impact
+  type: amount
+  card: 0..1
+- name: recommendation
+  type: code
+  card: 0..1
+- name: review-due
+  type: date
+  card: 0..1
+states:
+- proposed
+- under-assessment
+- recommended
+- not-recommended
+- adopted
+- adopted-under-evaluation
+- declined
+- withdrawn
+relations:
+- type: based-on
+  target: publication
+- type: refers-to
+  target: medical-device
+- type: refers-to
+  target: medication
+- type: refers-to
+  target: ai-system
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-463
+  edition: '3.0'
+  jurisdiction: global

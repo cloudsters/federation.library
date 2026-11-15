@@ -1,0 +1,171 @@
+kind: value-stream
+slug: emergency-care
+title: Emergency Care
+family: demand-to-fulfillment
+summary: 'Receiving and treating unscheduled patients: pre-hospital notification, triage, resuscitation room care, emergency diagnostics
+  and treatment, and the decision on admission, transfer or discharge.'
+trigger: A patient arrives unscheduled or is announced by emergency medical services.
+outcome: The patient is stabilised, treated and admitted, transferred or discharged with a documented plan.
+stakeholders:
+- emergency-patient
+- relative
+- emergency-medical-service
+- emergency-physician
+- registered-nurse
+- specialist-physician
+- anaesthesiologist
+- diagnostic-physician
+- referring-hospital
+- clinical-decision-support-agent
+- older-person-with-frailty
+- paediatric-patient
+- person-with-mental-illness
+- physician-in-specialty-training
+steps:
+- slug: pre-alert-and-arrival
+  title: Pre-Alert and Arrival
+  summary: The emergency medical service announces time-critical patients in advance, team and room are prepared, and every arriving
+    patient is received, handed over in a structured way and identified, including patients who arrive unknown.
+  capabilities:
+  - prehospital-handover
+  - emergency-network-coordination
+  - time-critical-pathway-activation
+  - patient-identification
+  - patient-registration-and-admission
+  entities:
+  - request-for-care
+  - encounter
+  - patient
+  - care-transition
+  serves:
+  - ambulance-handover
+  - capacity-board
+  - emergency-department
+  - identification-band
+- slug: triage
+  title: Triage
+  summary: A trained nurse assigns each arriving patient an urgency category and maximum waiting time with a structured system supported
+    by decision support, re-triages those who wait and steers patients to the right level of care, including urgent ambulatory care.
+  capabilities:
+  - emergency-triage
+  - integrated-emergency-care-operations
+  - deterioration-recognition-and-response
+  - isolation-and-screening-management
+  - ai-assistant-integration
+  entities:
+  - triage-assessment
+  - observation
+  - clinical-alert
+  - prediction
+  - encounter
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+  - emergency-department
+  - triage
+- slug: resuscitation-and-stabilisation
+  title: Resuscitation and Stabilisation
+  summary: Critically ill and injured patients are received in the resuscitation room by a coordinated team, vital functions are stabilised
+    and defined pathways for stroke, heart attack, sepsis and major trauma start treatment within target times.
+  capabilities:
+  - resuscitation-room-management
+  - emergency-assessment-and-stabilisation
+  - time-critical-pathway-activation
+  - trauma-network-participation
+  - acute-cardiac-care
+  - stroke-unit-care
+  - transfusion-medicine
+  entities:
+  - encounter
+  - procedure
+  - observation
+  - care-pathway
+  - blood-product
+  - clinical-document
+  serves:
+  - ambulance-handover
+  - resuscitation-room
+- slug: emergency-assessment-and-diagnostics
+  title: Emergency Assessment and Diagnostics
+  summary: The emergency physician, or a trainee under supervision, takes the history, examines the patient, orders time-critical
+    laboratory and imaging tests, integrates the findings into a working diagnosis and calls in specialists, psychiatric crisis care
+    or child protection where needed.
+  capabilities:
+  - emergency-assessment-and-stabilisation
+  - clinical-history-taking
+  - physical-examination
+  - emergency-diagnostics
+  - finding-integration
+  - interdisciplinary-consultation
+  - psychiatric-crisis-intervention
+  - child-protection
+  - practice-supervision
+  entities:
+  - clinical-order
+  - observation
+  - diagnostic-report
+  - diagnosis
+  - health-issue
+  - clinical-document
+  serves:
+  - consultation
+  - emergency-department
+- slug: treatment-and-observation
+  title: Treatment and Observation
+  summary: Treatment is started and its effect observed in the emergency department or a short-stay unit, with pain relief, medication
+    and repeated reassessment, until the course allows a safe decision on the next destination.
+  capabilities:
+  - emergency-assessment-and-stabilisation
+  - pain-management
+  - medication-administration
+  - deterioration-recognition-and-response
+  - clinical-documentation-at-point-of-care
+  entities:
+  - medication-order
+  - medication-administration
+  - observation
+  - procedure
+  - clinical-document
+  serves:
+  - emergency-department
+- slug: disposition-decision
+  title: Disposition Decision
+  summary: At the end of the emergency stay the team decides on admission, transfer, observation or discharge, secures the bed or
+    receiving provider, and hands over the patient or sends them home with a written plan and safety-net advice.
+  capabilities:
+  - emergency-disposition
+  - admission-decision
+  - bed-coordination-and-placement
+  - interhospital-transfer
+  - clinical-handover
+  - diagnostic-uncertainty-communication
+  - emergency-department-flow-management
+  entities:
+  - encounter
+  - bed-assignment
+  - care-transition
+  - care-communication
+  - clinical-document
+  - referral
+  serves:
+  - capacity-board
+  - discharge-letter
+  - emergency-department
+  - patient-transport
+  - transfer-coordination-centre
+binds:
+- source: src-514
+  edition: '11'
+  jurisdiction: global
+- source: src-524
+  edition: ACS-2023 / AF-2024 / HF-2026
+  jurisdiction: global
+- source: src-566
+  edition: '2026'
+  jurisdiction: global
+- source: src-587
+  edition: v5
+  jurisdiction: global
+- source: src-589
+  edition: 3e-v3.8
+  jurisdiction: global

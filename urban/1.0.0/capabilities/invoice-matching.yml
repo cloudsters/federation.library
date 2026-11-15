@@ -1,0 +1,6 @@
+kind: capability
+slug: invoice-matching
+title: Invoice Matching
+level: L3
+parent: purchasing-and-payment
+summary: Match each supplier invoice to order and receipt, and clear differences in price or quantity before payment.

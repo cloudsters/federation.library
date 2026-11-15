@@ -1,0 +1,61 @@
+kind: entity
+slug: service-journey-map
+title: Service Journey Map
+type: intelligence
+summary: The map of each step a resident takes to find, request and receive a service, with the places where residents get stuck and
+  why. Users and staff make it together, walking the journey with disabled residents, elders and multilingual speakers, and it is
+  used to redesign the service and its routes.
+attributes:
+- name: service
+  type: reference(public-service)
+  card: 0..1
+- name: concept
+  type: reference(service-concept)
+  card: 0..1
+- name: journey-steps
+  type: text
+  card: 1..*
+- name: channels-walked
+  type: code
+  card: 1..*
+- name: participant-groups
+  type: text
+  card: 1..*
+- name: places-residents-get-stuck
+  type: text
+  card: 0..*
+- name: reasons-given
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: made-by
+  type: text
+  card: 1..*
+- name: mapped-on
+  type: date
+  card: 1..1
+- name: map-document
+  type: document
+  card: 1..1
+states:
+- planned
+- walked
+- drafted
+- validated
+- published
+- superseded
+relations:
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: service-concept
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: process-map
+binds:
+- source: src-249
+  edition: '2019'
+  jurisdiction: global

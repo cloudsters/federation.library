@@ -1,0 +1,69 @@
+kind: entity
+slug: category-strategy
+title: Category Strategy
+type: governance
+summary: The plan for how the city buys within one category, with the choice of who provides, the size of lots, the length of contracts,
+  buying alone or with others, whether open code is required and which criteria weigh most. The category team writes it and reviews
+  it before each major tender, and the council decides where the choice between own provision and contract is large.
+attributes:
+- name: category
+  type: reference(procurement-category)
+  card: 1..1
+- name: provision-choice
+  type: code
+  card: 1..1
+- name: provision-assessment
+  type: document
+  card: 0..1
+- name: provision-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: lot-approach
+  type: text
+  card: 0..1
+- name: contract-length
+  type: quantity
+  card: 0..1
+- name: buying-mode
+  type: code
+  card: 1..1
+- name: open-code-required
+  type: boolean
+  card: 0..1
+- name: scorecard
+  type: reference(procurement-scorecard)
+  card: 0..1
+- name: circular-requirements
+  type: text
+  card: 0..*
+- name: embedded-carbon-limit
+  type: quantity
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- approved
+- applied
+- under-review
+- revised
+- retired
+relations:
+- type: refers-to
+  target: procurement-category
+- type: based-on
+  target: spend-profile
+- type: governed-by
+  target: procurement-policy
+- type: refers-to
+  target: procurement-scorecard
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: climate-action-plan
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global

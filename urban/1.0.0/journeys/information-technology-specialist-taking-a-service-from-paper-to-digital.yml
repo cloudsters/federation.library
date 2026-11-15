@@ -1,0 +1,54 @@
+kind: journey
+slug: information-technology-specialist-taking-a-service-from-paper-to-digital
+title: Information Technology Specialist Taking a Service from Paper to Digital
+stakeholder: information-technology-specialist
+summary: A specialist of the municipality helps choose which service moves first, redesigns it with staff and residents from request
+  to decision, joins it to the resident account, keeps an equal offline route beside it, takes it live after testing and finds out
+  who is shut out.
+stages:
+- slug: choose-what-moves-first
+  title: Choose What Moves First
+  goal: The services still on paper or at a counter are listed with their use, their burden and the risk of shutting people out, and
+    the order is chosen with the service council.
+  step: digital-public-services/digital-service-choice
+  touchpoints:
+  - paper-service-inventory
+  - digitisation-priority-session
+- slug: redesign-from-request-to-decision
+  title: Redesign from Request to Decision
+  goal: The service is rebuilt from the resident's request to the decision and its notice, with forms cut to what is needed and wording
+    tested with residents.
+  step: digital-public-services/end-to-end-service-redesign
+  touchpoints:
+  - form-cutting-workshop
+  - plain-language-test-session
+- slug: ask-only-once
+  title: Ask Only Once
+  goal: The service is joined to the resident account, data the city holds is reused only with consent, and residents see which department
+    used it.
+  step: digital-public-services/resident-account-and-once-only-data
+  touchpoints:
+  - resident-account-page
+  - data-reuse-consent-prompt
+- slug: keep-an-equal-offline-route
+  title: Keep an Equal Offline Route
+  goal: The counter, telephone and post route reaches the same decision within the same deadline as the digital one.
+  step: digital-public-services/offline-and-assisted-route
+  touchpoints:
+  - counter-telephone-and-post-route
+- slug: go-live-after-testing
+  title: Go Live After Testing
+  goal: The digital route is live after residents have tested it, residents have been told of it, and the paper route is kept until
+    the new routes have shown that they serve.
+  step: digital-public-services/digital-route-launch
+  touchpoints:
+  - go-live-test-with-residents
+  - digital-route-launch-notice
+- slug: find-who-is-shut-out
+  title: Find Who Is Shut Out
+  goal: The use of each route is known by neighbourhood, age, language and disability, residents who are shut out have been asked
+    why, and the service is changed.
+  step: digital-public-services/route-use-and-exclusion-review
+  touchpoints:
+  - published-route-use-report
+  - shut-out-resident-follow-up

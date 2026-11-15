@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: open-defect-list
+title: Open Defect List
+medium: artefact
+summary: The list of defects open at acceptance, with responsibility and deadline for each, followed until every item is confirmed
+  closed.
+exchanges:
+- commissioned-asset-for-signed-acceptance
+journey: contractor-building-an-asset-for-the-company

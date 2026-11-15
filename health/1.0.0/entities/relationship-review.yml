@@ -1,0 +1,47 @@
+kind: entity
+slug: relationship-review
+title: Relationship Review
+type: transactional
+summary: A periodic review of a continuing relationship with a referrer, partner provider, network or research partner, recording
+  what it delivered to each side against what was agreed, the partner's feedback and the decision to continue, change or end it.
+attributes:
+- name: partner
+  type: reference(organisation)
+  card: 1..1
+- name: relationship-kind
+  type: code
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: results
+  type: document
+  card: 0..1
+- name: partner-feedback
+  type: document
+  card: 0..1
+- name: findings
+  type: text
+  card: 1..*
+- name: decision
+  type: code
+  card: 0..1
+- name: agreed-actions
+  type: text
+  card: 0..*
+states:
+- scheduled
+- in-review
+- concluded
+- cancelled
+relations:
+- type: refers-to
+  target: referral-relationship
+- type: refers-to
+  target: network-membership
+- type: refers-to
+  target: contract
+- type: based-on
+  target: measure-report
+- type: produces
+  target: corrective-action

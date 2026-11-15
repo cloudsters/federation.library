@@ -1,0 +1,36 @@
+kind: entity
+slug: leave-request
+title: Leave Request
+type: transactional
+summary: A request for renewal — the participant's need for rest, care, or personal time, honoured by the system as essential to sustained
+  contribution, not as absence from duty.
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: leave-type
+  type: code
+  card: 1..1
+- name: dates
+  type: period
+  card: 1..1
+- name: duration
+  type: quantity
+  card: 1..1
+- name: entitlement-balance
+  type: quantity
+  card: 0..1
+- name: approver
+  type: reference(employee-record)
+  card: 0..1
+states:
+- requested
+- approved
+- rejected
+- deducted
+- taken
+relations:
+- type: refers-to
+  target: attendance
+- type: refers-to
+  target: payslip

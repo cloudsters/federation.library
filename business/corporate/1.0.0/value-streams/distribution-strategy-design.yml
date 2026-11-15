@@ -1,0 +1,99 @@
+kind: value-stream
+slug: distribution-strategy-design
+title: Distribution Strategy Design
+family: proposition-to-audience
+summary: 'Setting the routes to market for every market: which channels and partners serve which customers, territories and coverage,
+  sales forecasts and targets, and the resources that carry them.'
+trigger: The strategy, a new segment or market, or channel performance calls for a change in the routes to market.
+outcome: An approved channel mix with territories, coverage and targets is in force for every market.
+stakeholders:
+- executive-board
+- sales-representative
+- distributor
+- partner
+- product-manager
+- finance-professional
+steps:
+- slug: route-to-market-review
+  title: Route-to-Market Review
+  summary: Channel performance, demand and usage signals and the quality of customer relationships in each channel are reviewed to
+    see where the routes to market work and where they do not.
+  capabilities:
+  - data-as-distribution-signal
+  - relationship-quality-sensing
+  entities:
+  - measure-report
+  - channel
+  - market-insight
+  serves:
+  - board-meeting
+  - partner-business-review
+  - pipeline-review
+- slug: sales-forecasting
+  title: Sales Forecasting
+  summary: Demand is forecast per market, segment and offering, taking promotions, launches and shifts in need into account.
+  capabilities:
+  - demand-sensing-forecasting
+  entities:
+  - forecast
+  - market-segment
+  - product
+  serves:
+  - sales-forecast
+- slug: market-entry-and-localisation
+  title: Market Entry and Localisation
+  summary: Entry into new markets is planned by mode, partners, investment and sequence, and offers are adapted to local rules, taxes,
+    language and culture.
+  capabilities:
+  - market-entry-planning
+  - cross-border-commerce-management
+  - geographic-localisation
+  entities:
+  - territory
+  - plan
+  - compliance-rule
+  serves:
+  - board-meeting
+  - market-entry-plan
+- slug: channel-and-partner-choice
+  title: Channel and Partner Choice
+  summary: For each market the organisation decides which customers it serves directly and which through platforms, communities, open
+    release or partners, and selects the partners.
+  capabilities:
+  - channel-ecosystem-design
+  - distribution-partnering
+  entities:
+  - channel
+  - partner-organisation
+  - agreement
+  serves:
+  - board-meeting
+  - contract-negotiation
+  - partner-agreement
+- slug: territory-and-coverage-design
+  title: Territory and Coverage Design
+  summary: Territories and account assignments are drawn so that every customer and prospect has a clear owner and coverage matches
+    potential.
+  capabilities:
+  - territory-management
+  entities:
+  - territory
+  - customer
+  - employee-record
+  serves:
+  - territory-assignment
+- slug: targets-resources-and-approval
+  title: Targets, Resources and Approval
+  summary: Sales targets and impact goals, budgets and channel resources are set, and the distribution plan is approved as a recorded
+    decision.
+  capabilities:
+  - distribution-impact-design
+  - distribution-resource-architecture
+  entities:
+  - objective
+  - budget
+  - kpi
+  - governance-decision
+  serves:
+  - board-meeting
+  - distribution-plan

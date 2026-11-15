@@ -1,0 +1,45 @@
+kind: entity
+slug: episode-of-care
+title: Episode of Care
+type: transactional
+summary: The care of one or more related health issues of a patient over time, spanning every encounter, plan and provider that addresses
+  them, such as a course of cancer therapy or the care of a chronic condition. Responsibility within it is held by care period mandates.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: health-issues
+  type: reference(health-issue)
+  card: 1..*
+- name: episode-kind
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+states:
+- planned
+- active
+- on-hold
+- finished
+- cancelled
+relations:
+- type: based-on
+  target: care-commitment
+- type: governed-by
+  target: care-period-mandate
+- type: refers-to
+  target: health-issue
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

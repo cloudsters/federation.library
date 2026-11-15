@@ -1,0 +1,126 @@
+kind: value-stream
+slug: public-works-design-and-construction
+title: Public Works Design and Construction
+family: acquire-to-retire
+summary: Creating the infrastructure the city cannot simply buy, such as roads, bridges, drains, public buildings, parks and networks.
+  It holds the brief drawn from the asset plan with the needs of users and of the crews who will maintain the asset, design for durability,
+  access, repair and later disassembly, permits and consents, contracting through the city's tendering, construction supervised for
+  quality, safety and its neighbours, and commissioning and handover into the register and into maintenance.
+trigger: A capital project to build, extend or replace an asset is approved in the city's programme.
+outcome: The asset is built, tested, accepted and registered, and it is handed to those who run and maintain it with its documents,
+  its material passport and its open defects.
+stakeholders:
+- public-works-engineer
+- city-administration
+- infrastructure-operator
+- frontline-worker
+- supplier
+- disabled-resident
+- resident
+- neighbourhood-association
+steps:
+- slug: works-brief
+  title: Works Brief
+  summary: The department that will own the asset writes the brief with its users and with the crews who will maintain it, stating
+    the need, the service level, the carbon and lifecycle targets and the budget.
+  capabilities:
+  - works-brief-preparation
+  - embedded-carbon-assessment
+  - frontline-knowledge-capture
+  entities:
+  - works-brief
+  - capital-project
+  serves:
+  - works-brief-workshop
+- slug: design-for-whole-life
+  title: Design for Whole Life
+  summary: Engineers and designers design the asset for durability, easy maintenance, access for all, adaptation to heat and heavy
+    rain, and later disassembly, and disabled residents and maintenance crews review the design before it is fixed.
+  capabilities:
+  - whole-life-design
+  - design-for-disassembly
+  - resident-access-audit
+  entities:
+  - works-design
+  - material-passport
+  - building-code
+  serves:
+  - design-access-audit
+  - design-review-session
+  - works-material-passport
+- slug: permits-and-consents
+  title: Permits and Consents
+  summary: The project obtains its building permit, heritage and environmental consents and the agreement of the operators whose networks
+    it touches, and neighbours are told what will happen and when.
+  capabilities:
+  - works-permit-coordination
+  - works-neighbour-liaison
+  entities:
+  - building-permit
+  - heritage-protection
+  - works-design
+  serves:
+  - consent-coordination-meeting
+  - works-notice-to-neighbours
+- slug: works-contracting
+  title: Works Contracting
+  summary: The works are specified by outcome, divided into lots small builders can win, tendered and awarded through the city's procedure,
+    with local hiring and reclaimed materials required where they fit.
+  capabilities:
+  - requirement-specification
+  - lot-division
+  - weighted-bid-evaluation
+  - local-hiring-requirement-setting
+  entities:
+  - tender-specification
+  - bid
+  - contract
+  serves:
+  - works-tender-notice
+- slug: construction-and-supervision
+  title: Construction and Supervision
+  summary: The contractor builds in stages while the city supervises quality, cost, the safety of everyone on site and access for
+    neighbours, and keeps a record of what was built and with which materials.
+  capabilities:
+  - construction-supervision
+  - workplace-hazard-protection
+  - works-neighbour-liaison
+  entities:
+  - construction-phase
+  - inspection-record
+  - capital-project
+  serves:
+  - site-supervision-visit
+  - works-notice-to-neighbours
+  - works-site-information-board
+- slug: commissioning-and-handover
+  title: Commissioning and Handover
+  summary: The finished asset is tested against its brief, accepted with its documents, material passport and a list of open defects,
+    entered in the register and handed to those who run and maintain it. Defects are followed until closed.
+  capabilities:
+  - works-commissioning-and-handover
+  - public-asset-registration
+  entities:
+  - handover-record
+  - infrastructure-asset
+  - material-passport
+  - public-asset-register
+  serves:
+  - commissioning-acceptance-walk
+  - design-access-audit
+  - public-asset-register-entry
+  - works-handover-file
+  - works-material-passport
+binds:
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global
+- source: src-639
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,36 @@
+kind: journey
+slug: transplant-recipient-journey
+title: Transplant Recipient Journey
+stakeholder: highly-specialised-care-patient
+summary: A person with end-stage organ failure is evaluated and listed, waits ready for the call, receives the transplant and keeps
+  the graft through lifelong follow-up.
+stages:
+- slug: be-evaluated-and-listed
+  title: Be Evaluated and Listed
+  goal: Understand the chances and risks of transplantation and be listed when eligible.
+  step: organ-donation-and-transplantation/recipient-and-living-donor-evaluation
+  touchpoints:
+  - outpatient-clinic
+  - consultation
+  - consent-form
+- slug: wait-ready-for-the-call
+  title: Wait Ready for the Call
+  goal: Be reachable and fit for the call at any hour.
+  step: organ-donation-and-transplantation/allocation-and-offer
+  touchpoints:
+  - organ-offer-call
+- slug: receive-the-organ
+  title: Receive the Organ
+  goal: Undergo the transplant safely and recover from it.
+  step: organ-donation-and-transplantation/retrieval-and-transplantation
+  touchpoints:
+  - operating-theatre
+  - intensive-care-unit
+- slug: live-with-the-graft
+  title: Live with the Graft
+  goal: Keep the graft through adherence and close follow-up, close to home where possible.
+  step: organ-donation-and-transplantation/lifelong-follow-up
+  touchpoints:
+  - outpatient-clinic
+  - medication-plan
+  - telemedicine-service

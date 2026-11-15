@@ -1,0 +1,6 @@
+kind: capability
+slug: clinical-privileging
+title: Clinical Privileging
+level: L3
+parent: credentialing-and-privileging
+summary: Grant, review and limit the procedures each clinician may perform.

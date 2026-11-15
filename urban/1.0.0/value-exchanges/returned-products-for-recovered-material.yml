@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: returned-products-for-recovered-material
+title: Returned Products for Recovered Material
+between:
+- resident
+- supplier
+offered:
+- Products returned at the end of their use.
+returned:
+- Their parts and materials recovered by the producer, and a deposit or credit refunded where one was paid.
+touchpoint: take-back-point

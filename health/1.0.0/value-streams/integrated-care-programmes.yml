@@ -1,0 +1,189 @@
+kind: value-stream
+slug: integrated-care-programmes
+title: Integrated Care Programmes
+family: proposition-to-audience
+summary: 'Running care programmes for defined patient groups across sectors together with primary, nursing and social care: enrolment,
+  shared care plans, coordination and evaluation.'
+trigger: A patient group with cross-sector needs is selected, or a payer offers an integrated care contract.
+outcome: Enrolled patients receive coordinated care across sectors, and the programme's outcomes are evaluated.
+stakeholders:
+- person-with-chronic-condition
+- older-person-with-frailty
+- informal-carer
+- referring-practice
+- follow-on-care-provider
+- payer
+- case-manager
+- local-authority
+steps:
+- slug: programme-design-and-contracting
+  title: Programme Design and Contracting
+  summary: Select the patient group, define the cross-sector care model, the roles of hospital, practices, nursing and social care,
+    the outcomes sought and the payment, and contract with payer and partners.
+  capabilities:
+  - population-needs-assessment
+  - service-concept-development
+  - clinical-pathway-design
+  - network-partnership-governance
+  - payer-budget-negotiation
+  - contract-lifecycle-stewardship
+  - impact-measurement-design
+  entities:
+  - care-programme
+  - care-pathway
+  - payer-agreement
+  - contract
+  - care-network
+  - measure
+  serves:
+  - care-network-meeting
+  - cooperation-agreement
+  - payer-negotiation
+- slug: identification-and-enrolment
+  title: Identification and Enrolment
+  summary: Identify eligible patients from records, referrals and risk models, inform them about the programme, obtain their agreement
+    and their consent to share information across providers, and enrol them.
+  capabilities:
+  - programme-enrolment
+  - predictive-analytics
+  - informed-consent
+  - data-protection-governance
+  - referral-intake-management
+  entities:
+  - programme-participation
+  - patient
+  - informed-consent
+  - mandate-to-export-personal-information
+  - referral
+  serves:
+  - consent-form
+  - consultation
+  - referrer-portal
+- slug: joint-needs-assessment
+  title: Joint Needs Assessment
+  summary: Assess medical, nursing, functional, psychological and social needs together with the practice, the patient and carers,
+    and identify the risks the programme must manage.
+  capabilities:
+  - geriatric-assessment
+  - nursing-assessment
+  - nursing-risk-screening
+  - rehabilitation-needs-assessment
+  - social-care-coordination
+  entities:
+  - care-needs-assessment
+  - risk-assessment
+  - health-issue
+  - preference
+  serves:
+  - clinical-messaging-service
+  - consultation
+  - home-visit
+- slug: shared-care-plan
+  title: Shared Care Plan
+  summary: Agree one care plan across sectors with goals the patient values, the responsibilities of each provider, a named coordinator,
+    self-management tasks and the response when the condition worsens.
+  capabilities:
+  - shared-care-planning
+  - care-plan-determination
+  - shared-decision-making-practice
+  - self-management-support
+  - advance-care-planning
+  entities:
+  - care-plan
+  - care-goal
+  - care-team
+  - preference
+  - advance-directive
+  serves:
+  - consultation
+  - shared-care-plan
+- slug: coordinated-care-delivery
+  title: Coordinated Care Delivery
+  summary: 'Deliver the plan across settings: specialist visits, monitoring at home, rapid access when readings or symptoms deteriorate,
+    home and social care, and timely information between all providers.'
+  capabilities:
+  - chronic-care-programmes
+  - telemonitoring
+  - care-transition-coordination
+  - outpatient-clinic-operations
+  - hospital-at-home
+  - social-care-coordination
+  - secure-clinical-messaging
+  - readmission-prevention
+  entities:
+  - episode-of-care
+  - encounter
+  - observation
+  - care-communication
+  - care-transition
+  serves:
+  - case-management-call
+  - clinical-messaging-service
+  - discharge-letter
+  - home-monitoring-device
+  - home-visit
+  - outpatient-clinic
+- slug: care-plan-review
+  title: Care Plan Review
+  summary: Review progress against the goals at agreed intervals and after every hospital stay, adjust the plan with the patient and
+    partners, and manage exit from the programme.
+  capabilities:
+  - shared-care-planning
+  - patient-reported-outcome-measurement
+  - care-transition-coordination
+  - post-discharge-follow-up
+  - programme-enrolment
+  entities:
+  - care-plan
+  - care-goal
+  - patient-reported-outcome
+  - programme-participation
+  serves:
+  - case-management-call
+  - shared-care-plan
+- slug: programme-evaluation-and-settlement
+  title: Programme Evaluation and Settlement
+  summary: Evaluate outcomes, patient experience, use of hospital care and cost against the programme's targets, settle with the payer
+    under the contract and decide whether to continue, change or extend the programme.
+  capabilities:
+  - clinical-outcome-tracking
+  - patient-reported-outcome-measurement
+  - impact-measurement-design
+  - outpatient-and-day-case-billing
+  - service-line-profitability
+  - service-lifecycle-management
+  entities:
+  - measure-report
+  - care-programme
+  - payer-agreement
+  - claim
+  - patient-level-cost
+  serves:
+  - care-network-meeting
+  - patient-portal
+  - payer-negotiation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-005
+  edition: '20260101'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-044
+  edition: '2011'
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global
+- source: src-472
+  edition: '1998'
+  jurisdiction: global
+- source: src-596
+  edition: 5L
+  jurisdiction: global
+- source: src-602
+  edition: '2019'
+  jurisdiction: global

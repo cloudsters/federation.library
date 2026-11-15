@@ -1,0 +1,50 @@
+kind: journey
+slug: analyst-building-trusted-insight
+title: Analyst Building Trusted Insight
+stakeholder: information-technology-specialist
+summary: An analyst designs the work backward from the decision it serves, gathers and prepares data of known quality, builds models
+  with their future users, reports findings with actions and keeps the models current.
+stages:
+- slug: start-from-the-decision
+  title: Start from the Decision
+  goal: The analyst knows which decision the work serves and by which criteria it will be judged.
+  step: intelligence-cultivation/decision-need-framing
+  touchpoints:
+  - analysis-request
+- slug: gather-the-data
+  title: Gather the Data
+  goal: The data needed are on the analytical platform with origin, owner and access rules recorded.
+  step: intelligence-cultivation/data-collection
+  touchpoints:
+  - analytics-platform
+- slug: make-the-data-fit-for-use
+  title: Make the Data Fit for Use
+  goal: The data are cleaned, comparable and validated, and their quality is known to everyone who uses them.
+  step: intelligence-cultivation/data-preparation
+  touchpoints:
+  - analytics-platform
+- slug: build-the-model-with-its-users
+  title: Build the Model with Its Users
+  goal: The model has been reviewed with the people who will rely on it and represents their original question.
+  step: intelligence-cultivation/model-building-and-review
+  touchpoints:
+  - model-review-session
+- slug: interpret-with-the-work
+  title: Interpret with the Work
+  goal: The analysis is interpreted with the people closest to the work and compared with the hypotheses.
+  step: intelligence-cultivation/analysis-and-sense-making
+  touchpoints:
+  - sense-making-workshop
+- slug: report-with-actions
+  title: Report with Actions
+  goal: Decision-makers receive findings they can act on, and the analyst learns what was decided.
+  step: intelligence-cultivation/insight-reporting
+  touchpoints:
+  - insight-report
+  - board-meeting
+- slug: keep-models-honest
+  title: Keep Models Honest
+  goal: Models in use are watched for drift and bias and refreshed before they mislead.
+  step: intelligence-cultivation/model-upkeep
+  touchpoints:
+  - analytics-platform

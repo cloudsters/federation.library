@@ -1,0 +1,55 @@
+kind: solution
+slug: enterprise-architecture-repository
+title: Enterprise Architecture Repository
+role: system-of-record
+summary: 'Holds the model of the enterprise itself: business model, value streams, journeys, touchpoints, capabilities, processes,
+  applications, interfaces and data models, and how they relate, as the basis for change.'
+carries:
+- application-portfolio-management
+- architecture-as-living-design
+- digital-transformation-sensing
+- experience-channel-architecture
+- experience-design-articulation
+- process-problem-solving
+- information-architecture-design
+- internal-capability-sensing
+- knowledge-architecture
+- organisation-as-living-design
+- people-systems-architecture
+- platform-interface-sovereignty
+- process-ownership-governance
+- practice-led-process-evolution
+- service-design-as-journey
+- solution-lifecycle-governance
+- structural-renewal-design
+- technology-governance-alignment
+- technology-portfolio-stewardship
+- technology-value-sensing
+- value-model-design
+- value-model-evolution
+- value-model-governance
+- operating-model-design
+- business-capability-management
+- shared-services-and-outsourcing-design
+- digital-maturity-assessment
+- solution-architecture
+- core-business-system-lifecycle
+holds:
+- business-model
+- value-stream
+- journey
+- touchpoint
+- capability
+- capability-node
+- process-model
+- application
+- interface
+- platform-interface-wrapper
+- data-model
+binds:
+- source: src-087
+  edition: '4'
+  jurisdiction: global
+- source: src-086
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global

@@ -1,0 +1,68 @@
+kind: entity
+slug: retirement-decision
+title: Retirement Decision
+type: transactional
+summary: The decision to repair, refurbish, reuse or retire an asset, with the options weighed on whole-life cost, carbon, heritage
+  and community need, and the reasons. The owning department prepares it, and the council or its delegate takes it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: asset
+  type: reference(infrastructure-asset)
+  card: 1..1
+- name: options-weighed
+  type: text
+  card: 1..*
+- name: whole-life-costs
+  type: reference(whole-life-cost-calculation)
+  card: 0..*
+- name: embedded-carbon
+  type: quantity
+  card: 0..1
+- name: heritage-protection
+  type: reference(heritage-protection)
+  card: 0..1
+- name: community-needs
+  type: text
+  card: 0..*
+- name: chosen-option
+  type: code
+  card: 0..1
+- name: reasons
+  type: text
+  card: 0..1
+- name: decided-by
+  type: reference(council-decision)
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: material-passport
+  type: reference(material-passport)
+  card: 0..1
+states:
+- proposed
+- appraised
+- tabled
+- decided
+- carried-out
+- closed
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: based-on
+  target: whole-life-cost-calculation
+- type: refers-to
+  target: heritage-protection
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: council-decision
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

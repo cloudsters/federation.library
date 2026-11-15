@@ -1,0 +1,37 @@
+kind: entity
+slug: platform-interface-wrapper
+title: Platform Interface Wrapper
+type: master
+summary: The permanent, sovereign interface between a commons instance and the platform economy — translating between governance paradigms
+  without merging them. Permanent infrastructure, not a temporary bridge. The commons’ external face into the bifurcated economy.
+attributes:
+- name: external-platform
+  type: text
+  card: 1..1
+- name: translation-rules
+  type: document
+  card: 1..1
+- name: dependency-record
+  type: text
+  card: 0..1
+- name: audit-record
+  type: text
+  card: 0..1
+- name: exit-readiness
+  type: code
+  card: 1..1
+states:
+- connected
+- translating
+- audited
+- exit-ready
+- decommissioned
+relations:
+- type: refers-to
+  target: commons-instance
+- type: refers-to
+  target: a2a-handshake
+- type: refers-to
+  target: trust-score
+- type: refers-to
+  target: value-token

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: sterile-services-liaison-meeting
+title: Sterile Services Liaison Meeting
+medium: encounter
+summary: The regular meeting in which theatre teams and sterile services review set availability, defects, loan sets, delays and returns
+  and agree improvements.
+exchanges:
+- used-sets-for-sterile-sets
+journey: theatre-team-relying-on-sterile-instruments

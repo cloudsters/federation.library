@@ -1,0 +1,20 @@
+kind: body
+slug: utilities-department
+title: Utilities Department
+summary: Steers the city's water, wastewater, power and heat services and the operators that run them, plans energy by neighbourhood,
+  connects households, keeps networks in repair, restores supply after failures and protects households behind with payment from disconnection.
+holds:
+- water-and-energy-supply
+- water-abstraction-and-treatment
+- water-quality-testing
+- network-connection-provision
+- utility-network-maintenance
+- supply-interruption-response
+- wastewater-and-stormwater-handling
+- local-energy-planning
+- community-energy-partnering
+- energy-network-operation
+- disconnection-protection
+part_of: full-council
+type: function
+form: organisational-unit

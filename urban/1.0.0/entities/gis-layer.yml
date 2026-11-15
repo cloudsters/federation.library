@@ -1,0 +1,64 @@
+kind: entity
+slug: gis-layer
+title: Spatial Data Layer
+type: intelligence
+summary: A layer of the city's spatial data, such as land use, vacant land, hazards or infrastructure capacity, with its sources and
+  the date it describes. The administration keeps it, together with the layers communities map themselves where they consent, and
+  it is used to plan and to monitor the plan.
+attributes:
+- name: layer-name
+  type: text
+  card: 1..1
+- name: theme
+  type: code
+  card: 1..1
+- name: geometry-kind
+  type: code
+  card: 1..1
+- name: extent
+  type: text
+  card: 1..1
+- name: data
+  type: document
+  card: 1..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-date
+  type: date
+  card: 1..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: access-terms
+  type: code
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- commissioned
+- collected
+- validated
+- published
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: community-enumeration
+- type: refers-to
+  target: city-dashboard
+binds:
+- source: src-192
+  edition: '2024'
+  jurisdiction: global

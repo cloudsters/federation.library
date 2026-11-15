@@ -1,0 +1,58 @@
+kind: entity
+slug: research-agenda
+title: Urban Research Agenda
+type: governance
+summary: The questions the city most needs research to answer over a period, drawn from its strategy, from residents' concerns and
+  from gaps in its own data, each with its priority and the decisions it serves. The administration sets it with residents and staff
+  and the council adopts it, and it is used to choose research partners, projects and trials.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: questions
+  type: text
+  card: 1..*
+- name: question-priorities
+  type: code
+  card: 1..*
+- name: strategy
+  type: reference(city-strategy)
+  card: 0..1
+- name: information-needs
+  type: reference(information-need)
+  card: 0..*
+- name: set-with
+  type: text
+  card: 1..*
+- name: owner
+  type: reference(department)
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: information-need
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: research-project
+binds:
+- source: src-237
+  edition: '2021-11-23'
+  jurisdiction: global

@@ -1,0 +1,35 @@
+kind: journey
+slug: referring-hospital-case-conference-journey
+title: Referring Hospital Case Conference Journey
+stakeholder: referring-hospital
+summary: A partner hospital submits a complex case to the commons' case conference without transferring the patient, shares the records,
+  takes part by video and receives a written recommendation to act on locally.
+stages:
+- slug: submit-the-case
+  title: Submit the Case
+  goal: Present a case to the expert conference without transferring the patient.
+  step: interdisciplinary-consultation/consultation-request
+  touchpoints:
+  - referrer-portal
+  - telemedicine-service
+- slug: share-the-records
+  title: Share the Records
+  goal: Send records and images securely and in time.
+  step: interdisciplinary-consultation/case-preparation
+  touchpoints:
+  - clinical-messaging-service
+  - image-sharing-service
+- slug: join-the-discussion
+  title: Join the Discussion
+  goal: Take part in the discussion by video and contribute local knowledge of the patient.
+  step: interdisciplinary-consultation/consultation-or-conference
+  touchpoints:
+  - multidisciplinary-case-conference
+  - telemedicine-service
+- slug: receive-the-recommendation
+  title: Receive the Recommendation
+  goal: Receive a written recommendation that the local team can act on.
+  step: interdisciplinary-consultation/recommendation
+  touchpoints:
+  - consultation-report
+  - teleconsultation-report

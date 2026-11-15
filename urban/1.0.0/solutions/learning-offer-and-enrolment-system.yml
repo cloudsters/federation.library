@@ -1,0 +1,16 @@
+kind: solution
+slug: learning-offer-and-enrolment-system
+title: Learning Offer and Enrolment System
+role: system-of-engagement
+summary: Publishes the learning offer of the city and its partners, records requests for help to take part, enrols residents through
+  every channel, and keeps the enrolments and the review of who took part and what it changed.
+carries:
+- learning-offer-design
+- learning-access-provision
+- learning-guidance-and-enrolment
+- learning-delivery-coordination
+- learning-outcome-review
+holds:
+- learning-offer
+- learner-enrolment
+- learning-review-report

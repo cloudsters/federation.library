@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: medication-plan
+title: Medication Plan
+medium: artefact
+summary: The list of a patient's current medicines with doses and reasons, updated at admission and discharge and handed to the patient
+  and the next provider.
+exchanges:
+- medication-history-for-a-reconciled-plan
+- adherence-for-lifelong-follow-up
+- discharge-letter-for-continued-care
+journey: referring-practice-relationship

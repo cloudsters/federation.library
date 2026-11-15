@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: neighbourhood-reserve-store
+title: Neighbourhood Reserve Store
+medium: place
+summary: A community kitchen, school, health centre or cooperative store that holds a reserve of essential goods, rotates it through
+  daily use and hands it out by priority in a disruption.
+exchanges:
+- storage-and-rotation-for-a-fresh-reserve
+- priority-supplies-for-those-most-in-need
+journey: neighbourhood-association-keeping-a-reserve

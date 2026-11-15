@@ -1,0 +1,35 @@
+kind: journey
+slug: planning-future-care
+title: Planning Future Care
+stakeholder: person-at-end-of-life
+summary: A person with a life-limiting illness sets down, while able to, what care they want and do not want, names who should decide
+  for them, and relies on every team to find and follow it.
+stages:
+- slug: opening-the-conversation
+  title: Opening the Conversation
+  goal: Be offered a conversation about future care at the right time, not only in a crisis.
+  step: informed-choice-and-consent/decision-recognition
+  touchpoints:
+  - consultation
+  - home-visit
+- slug: setting-down-wishes
+  title: Setting Down Wishes
+  goal: Turn one's wishes into a valid directive and name a proxy who knows them.
+  step: informed-choice-and-consent/decision-and-consent
+  touchpoints:
+  - advance-directive-document
+  - family-meeting
+- slug: having-wishes-found
+  title: Having Wishes Found
+  goal: Have the directive found by every team, in the emergency department as on the ward.
+  step: informed-choice-and-consent/organisation-wide-availability
+  touchpoints:
+  - patient-held-health-record
+  - emergency-department
+- slug: having-wishes-honoured
+  title: Having Wishes Honoured
+  goal: Receive the care chosen and be able to change the directive at any time.
+  step: informed-choice-and-consent/honouring-review-and-withdrawal
+  touchpoints:
+  - ward-round
+  - home-visit

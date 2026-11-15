@@ -1,0 +1,110 @@
+kind: value-stream
+slug: growth-development-cultivation
+title: Growth & Development
+family: contributor-to-succession
+summary: 'Cultivating each person''s growth after the welcome: orientation into the whole system, a visible career framework, regular
+  growth conversations, learning matched to real needs, mandatory training and leadership development.'
+trigger: An appraisal cycle runs, a competency gap appears, or a training obligation falls due.
+outcome: Employees have completed agreed development and mandatory training, and their competence is documented.
+stakeholders:
+- employee
+- human-resources-professional
+- site-manager
+- apprentice
+- vocational-school
+steps:
+- slug: system-orientation
+  title: System Orientation
+  summary: 'Introduce newcomers and people changing role to the organisation as a whole: its purpose, culture and rhythms, and how
+    their work connects to the work of others.'
+  capabilities:
+  - orientation-as-system-introduction
+  entities:
+  - employee-record
+  - course
+  - knowledge-article
+  serves:
+  - orientation-programme
+- slug: career-framework-and-skills
+  title: Career Framework and Skills
+  summary: Maintain job families, levels and competencies, and the skills map that makes progression visible and matches people to
+    opportunities.
+  capabilities:
+  - career-framework-architecture
+  - skills-ontology-and-matching
+  entities:
+  - competency-model
+  - skill
+  - position
+  serves:
+  - career-framework
+  - internal-job-market
+- slug: growth-conversations
+  title: Growth Conversations
+  summary: Hold regular, forward-looking conversations on contribution, learning and aspirations, documented lightly and agreed as
+    a development plan.
+  capabilities:
+  - performance-as-growth-sensing
+  - career-as-unfolding-journey
+  entities:
+  - appraisal
+  - employee-record
+  - skill
+  serves:
+  - apprenticeship-training-plan
+  - development-review
+- slug: learning-design
+  title: Learning Design
+  summary: Design learning for the gaps sensed in conversations and in strategy, including learning in real work, mentoring and the
+    development of leaders at every level.
+  capabilities:
+  - development-as-cultivation
+  - leadership-development
+  entities:
+  - course
+  - competency-model
+- slug: learning-delivery
+  title: Learning Delivery
+  summary: Deliver courses, learning paths and certifications, track participation and completion, and issue the records and credentials
+    they earn.
+  capabilities:
+  - learning-programme-delivery
+  - development-as-cultivation
+  entities:
+  - course
+  - course-registration
+  - credential
+  serves:
+  - apprenticeship-training-plan
+  - learning-platform
+  - mentoring
+- slug: mandatory-training
+  title: Mandatory Training
+  summary: Assign, deliver and track the training that law and internal rules require for each role, and renew credentials before
+    they lapse.
+  capabilities:
+  - mandatory-training-management
+  - learning-programme-delivery
+  entities:
+  - course-registration
+  - credential
+  - position
+  serves:
+  - learning-platform
+  - safety-instruction
+- slug: development-review
+  title: Development Review
+  summary: Review what each person has grown into, open career moves through the skills match, and record competence for the next
+    cycle.
+  capabilities:
+  - career-as-unfolding-journey
+  - skills-ontology-and-matching
+  - performance-as-growth-sensing
+  entities:
+  - appraisal
+  - skill
+  - credential
+  serves:
+  - development-review
+  - internal-job-market
+  - qualification-examination

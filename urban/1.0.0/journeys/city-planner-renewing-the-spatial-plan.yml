@@ -1,0 +1,55 @@
+kind: journey
+slug: city-planner-renewing-the-spatial-plan
+title: City Planner Renewing the Spatial Plan
+stakeholder: city-planner
+summary: A city planner opens the review of the spatial plan, maps land, growth and hazards, designs patterns of growth, works the
+  plan out with neighbourhoods, drafts the rules that carry it, brings it to adoption with every objection answered and follows where
+  growth actually happens.
+stages:
+- slug: open-the-plan-review
+  title: Open the Plan Review
+  goal: The scope, horizon and calendar of the review are published with the land-use rules found outdated.
+  step: spatial-development-planning/spatial-plan-review-opening
+  touchpoints:
+  - spatial-plan-review-notice
+- slug: map-land-growth-and-hazard
+  title: Map Land, Growth and Hazard
+  goal: Land supply, vacant and underused land, expected growth or decline, network capacity and land exposed to hazards are mapped.
+  step: spatial-development-planning/land-and-growth-analysis
+  touchpoints:
+  - land-and-growth-atlas
+  - infrastructure-capacity-consultation
+- slug: design-patterns-of-growth
+  title: Design Patterns of Growth
+  goal: Alternative patterns of growth are shown with their costs, who bears them and how they serve the vision.
+  step: spatial-development-planning/spatial-option-design
+  touchpoints:
+  - spatial-options-exhibition
+- slug: work-the-plan-out-with-neighbourhoods
+  title: Work the Plan Out with Neighbourhoods
+  goal: The draft plan is worked out with the neighbourhoods and communities most affected, and the risk of displacement is stated.
+  step: spatial-development-planning/plan-co-design
+  touchpoints:
+  - neighbourhood-planning-workshop
+  - displacement-risk-report
+- slug: draft-the-rules-that-carry-it
+  title: Draft the Rules That Carry It
+  goal: Land-use rules allow mixed uses, require mixed-income homes and commons space and return part of the rise in land value.
+  step: spatial-development-planning/land-use-rule-drafting
+  touchpoints:
+  - draft-land-use-rules
+- slug: bring-the-plan-to-adoption
+  title: Bring the Plan to Adoption
+  goal: Every objection is answered in writing, neighbours are consulted and the council adopts the plan with its reasons and minority
+    positions.
+  step: spatial-development-planning/spatial-plan-adoption
+  touchpoints:
+  - objection-response-report
+  - cross-boundary-plan-consultation
+  - spatial-plan-adoption-debate
+- slug: follow-where-growth-happens
+  title: Follow Where Growth Happens
+  goal: Growth, loss of open land and displacement are reported against the plan, and deviations reopen it before its review date.
+  step: spatial-development-planning/spatial-plan-monitoring
+  touchpoints:
+  - growth-monitoring-report

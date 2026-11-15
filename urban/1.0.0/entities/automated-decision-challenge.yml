@@ -1,0 +1,61 @@
+kind: entity
+slug: automated-decision-challenge
+title: Automated Decision Challenge
+type: transactional
+summary: A challenge by a resident or worker to a decision made or prepared by an automated system, from receipt through review by
+  a person to its outcome and any remedy. The department accountable for the system records and answers it within its deadline, and
+  challenges are counted in the monitoring of the system and may cause its suspension.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: challenged-by
+  type: text
+  card: 1..1
+- name: challenging-party-kind
+  type: code
+  card: 1..1
+- name: system
+  type: reference(automated-system-register)
+  card: 1..1
+- name: decision-challenged
+  type: text
+  card: 1..1
+- name: grounds
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: response-deadline
+  type: date
+  card: 1..1
+- name: human-reviewer
+  type: text
+  card: 0..1
+- name: review-outcome
+  type: code
+  card: 0..1
+- name: remedy
+  type: text
+  card: 0..1
+- name: legal-matter
+  type: reference(legal-matter)
+  card: 0..1
+states:
+- received
+- acknowledged
+- under-human-review
+- decided
+- remedied
+- escalated
+- closed
+relations:
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: automated-system-approval
+- type: refers-to
+  target: algorithm-review-council
+- type: produces
+  target: legal-matter

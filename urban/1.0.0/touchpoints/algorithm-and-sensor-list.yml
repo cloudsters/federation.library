@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: algorithm-and-sensor-list
+title: Algorithm and Sensor List
+medium: artefact
+summary: The public list of every algorithm, camera and sensor the city uses, with its purpose, data, known limits and how to challenge
+  its decisions.
+exchanges:
+- challenge-for-a-corrected-or-halted-system
+- system-documentation-for-a-continued-contract
+journey: city-administration-assembling-the-whole-city-picture

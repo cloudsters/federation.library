@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: device-instruction-session
+title: Device Instruction Session
+medium: encounter
+summary: The briefing in which an authorised person instructs users in the safe operation of a device before they use it, recorded
+  for each user and device type.
+exchanges:
+- instruction-for-safe-use
+journey: clinical-unit-obtaining-new-equipment

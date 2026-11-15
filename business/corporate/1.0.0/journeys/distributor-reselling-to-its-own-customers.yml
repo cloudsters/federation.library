@@ -1,0 +1,33 @@
+kind: journey
+slug: distributor-reselling-to-its-own-customers
+title: Distributor Reselling to Its Own Customers
+stakeholder: distributor
+summary: A distributor agrees territory and prices, is enabled to sell, registers its deals and reviews sales and customer experience
+  with the organisation.
+stages:
+- slug: agree-territory-and-prices
+  title: Agree Territory and Prices
+  goal: Territory, prices and margins are agreed for the period.
+  step: channel-partner-distribution/partner-agreement
+  touchpoints:
+  - partner-agreement
+  - price-list
+- slug: be-enabled-to-sell
+  title: Be Enabled to Sell
+  goal: The distributor's staff know the range and have the material to sell it.
+  step: channel-partner-distribution/partner-onboarding-and-enablement
+  touchpoints:
+  - partner-training
+  - product-catalogue
+- slug: register-deals
+  title: Register Deals
+  goal: The distributor's opportunities are protected from conflict with direct sales.
+  step: channel-partner-distribution/deal-registration-and-co-selling
+  touchpoints:
+  - deal-registration
+- slug: review-sales-and-experience
+  title: Review Sales and Experience
+  goal: Sales and the experience of the distributor's customers are reviewed against plan.
+  step: channel-partner-distribution/partner-performance-review
+  touchpoints:
+  - partner-business-review

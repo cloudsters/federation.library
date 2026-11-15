@@ -1,0 +1,70 @@
+kind: entity
+slug: district-plan
+title: District Plan
+type: governance
+summary: The adopted plan of a district, with its mix of uses and incomes, its streets, its commons spaces, the reuse of its heritage
+  and the stages of its delivery. The planners shape it with residents, the council adopts it, and every plot released and building
+  permitted in the district follows it.
+attributes:
+- name: district-name
+  type: text
+  card: 1..1
+- name: development-project
+  type: reference(development-project)
+  card: 1..1
+- name: area-covered
+  type: document
+  card: 1..1
+- name: use-mix
+  type: text
+  card: 1..*
+- name: income-mix
+  type: text
+  card: 0..*
+- name: street-network
+  type: document
+  card: 0..1
+- name: commons-spaces
+  type: text
+  card: 0..*
+- name: heritage-reuse
+  type: text
+  card: 0..*
+- name: delivery-stages
+  type: text
+  card: 1..*
+- name: consultations
+  type: reference(public-consultation)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- co-designed
+- consulted
+- adopted
+- in-force
+- amended
+- superseded
+relations:
+- type: based-on
+  target: masterplan
+- type: governed-by
+  target: zoning-plan
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: heritage-protection
+- type: refers-to
+  target: building
+binds:
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global
+- source: src-201
+  edition: '2011-11-10'
+  jurisdiction: global

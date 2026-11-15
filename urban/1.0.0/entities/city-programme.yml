@@ -1,0 +1,70 @@
+kind: entity
+slug: city-programme
+title: City Programme
+type: transactional
+summary: A programme or capital project funded by the city, from proposal to closure, with its objective, origin, sponsor, budget,
+  benefits and owner. The administration keeps it as a published commitment to residents, and it is continued, changed or ended with
+  reasons at each review of the portfolio.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: programme-kind
+  type: code
+  card: 1..1
+- name: objectives
+  type: reference(city-objective)
+  card: 1..*
+- name: proposed-by
+  type: text
+  card: 1..1
+- name: sponsor
+  type: text
+  card: 1..1
+- name: owner
+  type: text
+  card: 0..1
+- name: case
+  type: reference(programme-case)
+  card: 0..1
+- name: approved-budget
+  type: amount
+  card: 0..1
+- name: benefit-measures
+  type: text
+  card: 0..*
+- name: planned-period
+  type: period
+  card: 0..1
+- name: closure-reason
+  type: text
+  card: 0..1
+states:
+- proposed
+- appraised
+- funded
+- committed
+- delivering
+- re-scoped
+- closed
+- stopped
+relations:
+- type: part-of
+  target: programme-portfolio
+- type: based-on
+  target: programme-case
+- type: refers-to
+  target: city-objective
+- type: composed-of
+  target: capital-project
+- type: produces
+  target: programme-report
+- type: produces
+  target: lesson-record
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global

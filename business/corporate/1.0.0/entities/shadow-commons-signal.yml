@@ -1,0 +1,28 @@
+kind: entity
+slug: shadow-commons-signal
+title: Shadow Commons Signal
+type: intelligence
+summary: Detectable pattern of coordination without governance telemetry — the negative signature of participants using protocol without
+  obligations. Not an accusation but a commons intelligence artefact allowing formal commons to understand their competitive environment.
+attributes:
+- name: coordination-pattern
+  type: text
+  card: 1..1
+- name: evidence
+  type: text
+  card: 1..1
+- name: classification
+  type: code
+  card: 1..1
+- name: confidence
+  type: decimal
+  card: 1..1
+states:
+- detected
+- classified
+- monitored
+- surfaced
+- escalated
+relations:
+- type: refers-to
+  target: commons

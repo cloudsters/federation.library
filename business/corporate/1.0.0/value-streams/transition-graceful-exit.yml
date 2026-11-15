@@ -1,0 +1,114 @@
+kind: value-stream
+slug: transition-graceful-exit
+title: Transition & Graceful Exit
+family: contributor-to-succession
+summary: 'Moving people on well: promotions and role changes by fair criteria, leave and return, relocation, succession for key roles,
+  separation with dignity, retirement as legacy, knowledge handover, alumni ties and post-life stewardship.'
+trigger: An employee is promoted, moves, takes extended leave, resigns or approaches retirement, or a key role lacks a successor.
+outcome: The role is held by a prepared successor, knowledge has been transferred, and the departing person has left in good standing.
+stakeholders:
+- employee
+- human-resources-professional
+- site-manager
+- executive-board
+- works-council
+steps:
+- slug: key-role-review
+  title: Key Role Review
+  summary: Identify the key roles and the knowledge they hold, assess the risk of their vacancy, and name and develop successors with
+    an honest view of their readiness.
+  capabilities:
+  - succession-planning
+  - leadership-development
+  entities:
+  - succession-plan
+  - position
+  - appraisal
+  serves:
+  - succession-plan
+- slug: transition-decision
+  title: Transition Decision
+  summary: Decide promotions, demotions and internal moves by transparent criteria, accept resignations, and agree the date and form
+    of retirement.
+  capabilities:
+  - growth-path-stewardship
+  entities:
+  - employment
+  - position
+  - governance-decision
+  serves:
+  - transition-conversation
+- slug: leave-and-return
+  title: Leave and Return
+  summary: Grant leave of absence with the person's place kept secure, and plan the return after leave, illness or injury with adapted
+    duties, hours and support.
+  capabilities:
+  - leave-as-life-support
+  - return-to-work-management
+  entities:
+  - leave-request
+  - employment
+  serves:
+  - leave-agreement
+  - return-to-work-meeting
+- slug: relocation-and-assignment
+  title: Relocation and Assignment
+  summary: Support people and their families moving to another site or country, so that they take root while keeping their connections.
+  capabilities:
+  - relocation-as-ecosystem-transplant
+  entities:
+  - employment
+  - location
+- slug: role-handover
+  title: Role Handover
+  summary: Hand over responsibilities, open matters, knowledge, networks and system access to the successor or an interim holder,
+    with an overlap where the role requires it.
+  capabilities:
+  - knowledge-handover
+  - succession-planning
+  entities:
+  - succession-plan
+  - knowledge-article
+  - access-grant
+  serves:
+  - handover-plan
+- slug: dignified-exit
+  title: Dignified Exit
+  summary: 'End the employment with dignity: final pay and reference, outplacement support where the organisation ends the role, and
+    retirement celebrated as a legacy.'
+  capabilities:
+  - separation-with-dignity
+  - outplacement-as-generative-exit
+  - retirement-as-legacy-celebration
+  entities:
+  - employment
+  - payslip
+  - access-grant
+  serves:
+  - employment-reference
+  - exit-interview
+- slug: continued-connection
+  title: Continued Connection
+  summary: Keep the bond through exit conversations, an alumni network and an open door to return, and steward a departed person's
+    rights and directives after their death.
+  capabilities:
+  - alumni-network-cultivation
+  - post-life-commons-governance
+  entities:
+  - employee-record
+  - survey
+  - post-life-directive
+  serves:
+  - alumni-network
+  - exit-interview
+- slug: succession-review
+  title: Succession Review
+  summary: Confirm the successor in the role after the transition period, review the quality of the handover, and update the succession
+    plan for the next transition.
+  capabilities:
+  - succession-planning
+  entities:
+  - succession-plan
+  - position
+  serves:
+  - succession-plan

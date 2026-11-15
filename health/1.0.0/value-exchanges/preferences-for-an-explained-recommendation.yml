@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: preferences-for-an-explained-recommendation
+title: Preferences for an Explained Recommendation
+between:
+- person-with-cancer
+- specialist-physician
+offered:
+- Consent to have the case discussed, and own preferences and limits for treatment.
+returned:
+- A recommendation that weighed every discipline's view and the patient's preferences, explained in person, with time to decide.
+touchpoint: consultation

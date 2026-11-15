@@ -1,0 +1,57 @@
+kind: journey
+slug: joining-as-a-new-colleague
+title: Joining as a New Colleague
+stakeholder: job-applicant
+summary: A person who considers a post finds it, applies, is checked and selected, and grows from newcomer to a colleague trusted
+  to work alone. Each stage is also the first proof of how the organisation treats its staff.
+stages:
+- slug: find-the-post
+  title: Find the Post
+  goal: Find a post that fits and understand what the organisation offers as an employer.
+  step: recruitment-and-onboarding/attraction-and-sourcing
+  touchpoints:
+  - careers-portal
+  - job-advertisement
+  - public-website
+- slug: apply-and-be-assessed
+  title: Apply and Be Assessed
+  goal: Apply with little effort, be assessed fairly and know at every point where the application stands.
+  step: recruitment-and-onboarding/screening-and-selection
+  touchpoints:
+  - careers-portal
+  - job-interview
+- slug: prove-qualification-and-fitness
+  title: Prove Qualification and Fitness
+  goal: Have licence, qualifications and fitness for work confirmed quickly, including the recognition of a qualification gained abroad.
+  step: recruitment-and-onboarding/pre-employment-checks
+  touchpoints:
+  - professional-register
+  - occupational-health-consultation
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: Receive a clear offer and sign a contract with grade, working time and start date.
+  step: recruitment-and-onboarding/offer-and-contract
+  touchpoints:
+  - employment-contract
+- slug: prepare-to-start
+  title: Prepare to Start
+  goal: Arrive on the first day expected, with workplace, accounts, uniform and first shifts ready.
+  step: recruitment-and-onboarding/pre-boarding
+  touchpoints:
+  - starter-pack
+  - hr-self-service
+- slug: settle-in
+  title: Settle In
+  goal: Know the organisation, the unit, its systems and safety rules, with a mentor to turn to.
+  step: recruitment-and-onboarding/orientation-and-induction
+  touchpoints:
+  - orientation-day
+  - unit-induction
+  - learning-platform
+  - clinical-workstation
+- slug: work-independently
+  title: Work Independently
+  goal: Be confirmed as competent and trusted to work without supervision.
+  step: recruitment-and-onboarding/clearance-for-independent-work
+  touchpoints:
+  - appraisal-meeting

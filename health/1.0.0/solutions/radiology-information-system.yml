@@ -1,0 +1,32 @@
+kind: solution
+slug: radiology-information-system
+title: Radiology Information System
+role: system-of-record
+summary: Organises imaging from justified order through modality scheduling and acquisition to the signed radiological report, including
+  interventional radiology, nuclear medicine, and radiation dose and contrast safety.
+carries:
+- imaging-order-justification
+- modality-scheduling-and-acquisition
+- radiological-reporting
+- teleradiology
+- imaging-result-communication
+- interventional-radiology
+- nuclear-medicine
+- radiation-protection
+- contrast-agent-safety
+- magnetic-resonance-safety
+holds:
+- diagnostic-report
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

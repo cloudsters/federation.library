@@ -1,0 +1,13 @@
+kind: stakeholder
+slug: payer
+title: Payer
+nature: organisation
+stance: served
+summary: A body that finances care for an insured or resident population, such as a health insurer or a public commissioner.
+  It pays per case, per service or for capacity held ready, and reviews claims for correctness.
+seeks:
+- Care of assured quality at an agreed price, correct claims and evidence that its population is well served.
+brings:
+- Revenue for care delivered and for capacity held ready, through negotiated budgets and contracts.
+represented_by:
+- payer-organisation

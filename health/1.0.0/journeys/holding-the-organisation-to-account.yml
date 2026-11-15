@@ -1,0 +1,33 @@
+kind: journey
+slug: holding-the-organisation-to-account
+title: Holding the Organisation to Account
+stakeholder: owner
+summary: The owner states its expectations, receives candid reporting on how the organisation fulfils its mission within the financial
+  frame, decides the matters reserved to it and sees its decisions carried out.
+stages:
+- slug: stating-expectations
+  title: Stating Expectations
+  goal: Set out the expectations and the reporting required, and have them acknowledged.
+  step: owner-and-public-affairs/request-and-issue-intake
+  touchpoints:
+  - owner-meeting
+- slug: receiving-the-report
+  title: Receiving the Report
+  goal: Receive complete, timely and comparable reporting that reveals risks early.
+  step: owner-and-public-affairs/owner-reporting
+  touchpoints:
+  - owner-report
+  - annual-report
+- slug: questioning-and-deciding
+  title: Questioning and Deciding
+  goal: Question the executive and decide reserved matters with full information.
+  step: owner-and-public-affairs/representation-and-dialogue
+  touchpoints:
+  - owner-meeting
+  - supervisory-body-meeting
+- slug: seeing-decisions-carried-out
+  title: Seeing Decisions Carried Out
+  goal: See approved investments and directives carried out and reported on.
+  step: owner-and-public-affairs/decision-follow-up
+  touchpoints:
+  - owner-report

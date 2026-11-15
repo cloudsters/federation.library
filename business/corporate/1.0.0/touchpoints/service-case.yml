@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-case
+title: Service Case
+medium: artefact
+summary: The record of a customer's request, inquiry or complaint, with its reference, status and history, visible to the customer
+  and to everyone who handles it.
+exchanges:
+- clear-requests-for-tracked-answers
+- instant-answers-with-human-handover
+journey: consumer-getting-help-after-a-purchase

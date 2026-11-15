@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: home-programme
+title: Home Programme
+medium: artefact
+summary: The written and illustrated programme of exercises, aids and self-care routines that a patient takes home to keep the function
+  gained in therapy.
+exchanges:
+- effort-for-regained-function
+journey: therapy-journey

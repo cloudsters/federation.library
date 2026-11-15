@@ -1,0 +1,54 @@
+kind: entity
+slug: cluster-agreement
+title: Cluster Agreement
+type: governance
+summary: The agreement among the members of a business network on membership, decisions, shared facilities and the use of a shared
+  mark. The members draft and sign it, with the city as one party where it gives space or support, and the network keeps it, so that
+  the members run the network and the city does not own it.
+attributes:
+- name: network
+  type: reference(business-network)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: membership-rules
+  type: text
+  card: 1..1
+- name: decision-rules
+  type: text
+  card: 1..1
+- name: shared-items
+  type: text
+  card: 0..*
+- name: facility-rules
+  type: text
+  card: 0..1
+- name: mark-use-rules
+  type: text
+  card: 0..1
+- name: contributions
+  type: text
+  card: 0..*
+- name: exit-rules
+  type: text
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- in-force
+- amended
+- ended
+relations:
+- type: refers-to
+  target: business-network
+- type: refers-to
+  target: collective-mark
+- type: refers-to
+  target: shared-business-facility

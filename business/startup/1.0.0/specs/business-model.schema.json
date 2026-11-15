@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "business-model",
+  "description": "The fields the business model adds to MODEL's records, one definition per kind (business-model.md part 5).",
+  "$defs": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "texts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z-]+:[a-z0-9.-]+(/[a-z0-9.-]+)?$|^[a-z0-9.-]+$"
+      }
+    },
+    "value-stream": {
+      "type": "object",
+      "properties": {
+        "trigger": {
+          "$ref": "#/$defs/text"
+        },
+        "outcome": {
+          "$ref": "#/$defs/text"
+        },
+        "stakeholders": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "stakeholder": {
+      "type": "object",
+      "properties": {
+        "stance": {
+          "$ref": "#/$defs/text"
+        },
+        "seeks": {
+          "$ref": "#/$defs/texts"
+        },
+        "brings": {
+          "$ref": "#/$defs/texts"
+        },
+        "represented_by": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "nature": {
+          "enum": [
+            "person",
+            "organisation",
+            "group",
+            "agent",
+            "more-than-human"
+          ]
+        },
+        "legal_form": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/text"
+        },
+        "attributes": {
+          "type": "array"
+        },
+        "states": {
+          "$ref": "#/$defs/texts"
+        },
+        "relations": {
+          "type": "array"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "journey": {
+      "type": "object",
+      "properties": {
+        "stages": {
+          "type": "array"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "touchpoint": {
+      "type": "object",
+      "properties": {
+        "exchanges": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "medium": {
+          "enum": [
+            "encounter",
+            "artefact",
+            "channel",
+            "place"
+          ]
+        }
+      }
+    },
+    "value-exchange": {
+      "type": "object",
+      "properties": {
+        "between": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "solution": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/text"
+        },
+        "holds": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "body": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "type": {
+          "enum": [
+            "board",
+            "committee",
+            "management",
+            "function"
+          ]
+        }
+      }
+    },
+    "post": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "type": {
+          "enum": [
+            "executive",
+            "role"
+          ]
+        }
+      }
+    },
+    "capability": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    }
+  }
+}

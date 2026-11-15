@@ -1,0 +1,17 @@
+kind: solution
+slug: cloud-and-infrastructure-operations-platform
+title: Cloud and Infrastructure Operations Platform
+role: platform
+summary: Provides and operates compute, storage and networks on premises and in the cloud, observes their health, and runs backup
+  and recovery so that services survive failure.
+carries:
+- digital-continuity-architecture
+- digital-resilience-design
+- infrastructure-administration
+- infrastructure-planning
+- technology-resilience-operations
+- observability-as-sensing
+- solution-performance-sensing
+- cloud-service-management
+- network-and-communication-infrastructure
+holds: []

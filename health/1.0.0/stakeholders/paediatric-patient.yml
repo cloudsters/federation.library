@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: paediatric-patient
+title: Paediatric Patient
+nature: person
+stance: served
+summary: A child or adolescent, from the newborn in neonatal intensive care to the teenager about to move into adult care. Parents
+  or guardians decide alongside, and care must fit the child's stage of development.
+seeks:
+- Care designed for children, delivered with parents present, and a planned transition into adult services.
+brings:
+- Rare and complex conditions of childhood that sustain paediatric specialisation and research which adult medicine cannot replace.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

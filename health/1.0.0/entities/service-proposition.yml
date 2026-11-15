@@ -1,0 +1,45 @@
+kind: entity
+slug: service-proposition
+title: Service Proposition
+type: master
+summary: The statement, for one service and one audience, of the need the service meets, the benefit it delivers, the evidence behind
+  it and the route by which the audience reaches it. It is the source of service information and campaigns.
+attributes:
+- name: care-service
+  type: reference(care-service)
+  card: 1..1
+- name: audience
+  type: code
+  card: 1..1
+- name: need-addressed
+  type: text
+  card: 1..1
+- name: benefit
+  type: text
+  card: 1..1
+- name: evidence
+  type: reference(measure-report)
+  card: 0..*
+- name: access-route
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- draft
+- approved
+- published
+- withdrawn
+relations:
+- type: refers-to
+  target: care-service
+- type: based-on
+  target: measure-report
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

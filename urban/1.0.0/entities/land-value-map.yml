@@ -1,0 +1,63 @@
+kind: entity
+slug: land-value-map
+title: Land Value Map
+type: intelligence
+summary: The map of land values across the city against a baseline, keeping the value of land apart from the value of buildings and
+  showing the rise caused by public investment, transit and rezoning. The valuation office keeps it current, and it is the basis for
+  land-based taxes, the betterment levy and the land value the city returns to the commons fund.
+attributes:
+- name: valuation-date
+  type: date
+  card: 1..1
+- name: baseline-date
+  type: date
+  card: 1..1
+- name: coverage
+  type: document
+  card: 1..1
+- name: land-values
+  type: document
+  card: 1..1
+- name: valuation-method
+  type: code
+  card: 1..1
+- name: value-rise-by-area
+  type: document
+  card: 0..1
+- name: causing-investments
+  type: reference(capital-project)
+  card: 0..*
+- name: causing-zoning-changes
+  type: reference(zoning-plan)
+  card: 0..*
+- name: spatial-layer
+  type: reference(gis-layer)
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: kept-by
+  type: text
+  card: 1..1
+states:
+- compiled
+- validated
+- published
+- current
+- revalued
+- superseded
+relations:
+- type: based-on
+  target: land-registry
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: zoning-plan
+- type: refers-to
+  target: capital-project
+- type: refers-to
+  target: gis-layer
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

@@ -1,0 +1,40 @@
+kind: journey
+slug: works-council-carrying-the-workforce-voice
+title: Works Council Carrying the Workforce Voice
+stakeholder: works-council
+summary: The works council is informed before messages go to everyone, carries the workforce's view into dialogue, helps shape the
+  listening instruments and holds leadership to what it said it would change.
+stages:
+- slug: be-informed-first
+  title: Be Informed First
+  goal: The council receives the planned message and its background in good time to consult before the workforce is told.
+  step: community-voice-architecture/representative-consultation
+  touchpoints:
+  - works-council-meeting
+- slug: co-host-the-dialogue
+  title: Co-Host the Dialogue
+  goal: The council speaks for the workforce in assemblies and open forums and makes sure the quiet are heard.
+  step: community-voice-architecture/dialogue-and-exchange
+  touchpoints:
+  - staff-assembly
+  - employee-forum
+- slug: shape-the-listening
+  title: Shape the Listening
+  goal: The council agrees the questions, the anonymity rules and the use of pulse results.
+  step: community-voice-architecture/engagement-pulse
+  touchpoints:
+  - pulse-survey
+  - works-council-meeting
+- slug: mediate-tensions
+  title: Mediate Tensions
+  goal: The council takes part in resolving tensions that touch the workforce and keeps the path transparent.
+  step: community-voice-architecture/tension-resolution
+  touchpoints:
+  - facilitated-conversation
+- slug: hold-leadership-to-the-answer
+  title: Hold Leadership to the Answer
+  goal: The council sees the published response, checks it against what was heard and follows up what was promised.
+  step: community-voice-architecture/response-and-recognition
+  touchpoints:
+  - listening-report
+  - works-council-meeting

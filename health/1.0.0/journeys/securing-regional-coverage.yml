@@ -1,0 +1,53 @@
+kind: journey
+slug: securing-regional-coverage
+title: Securing Regional Coverage
+stakeholder: health-planning-authority
+summary: 'The planning authority''s side of network design: from shared evidence of regional need through the assignment of services
+  to sites, to the review of whether the population is covered as planned.'
+stages:
+- slug: need-evidence
+  title: Need Evidence
+  goal: Receive a shared, evidence-based picture of the region's needs, travel times and gaps in coverage.
+  step: regional-care-network-design/regional-need-assessment
+  touchpoints:
+  - regional-planning-forum
+- slug: option-review
+  title: Option Review
+  goal: Compare configurations that concentrate complex care where quality is highest while keeping basic and emergency care within
+    reach.
+  step: regional-care-network-design/network-option-design
+  touchpoints:
+  - regional-planning-forum
+- slug: assignment-decision
+  title: Assignment Decision
+  goal: Assign service groups and capacity to sites on verified evidence that each site meets the requirements.
+  step: regional-care-network-design/regional-planning-alignment
+  touchpoints:
+  - regional-planning-forum
+  - care-mandate-decision
+- slug: partner-roles
+  title: Partner Roles
+  goal: See that every partner has committed to its role, so that no part of the population falls between providers.
+  step: regional-care-network-design/partner-commitment
+  touchpoints:
+  - cooperation-agreement
+  - care-network-meeting
+- slug: public-explanation
+  title: Public Explanation
+  goal: Rely on the population being told clearly, before each change, where services are and how to reach them.
+  step: regional-care-network-design/access-route-information
+  touchpoints:
+  - public-website
+- slug: implementation-oversight
+  title: Implementation Oversight
+  goal: Follow the opening, relocation or closure of services against the agreed timetable and conditions.
+  step: regional-care-network-design/network-implementation
+  touchpoints:
+  - care-mandate-decision
+- slug: coverage-review
+  title: Coverage Review
+  goal: Verify with reported data that access, volumes and outcomes meet what the assignment intended.
+  step: regional-care-network-design/network-performance-review
+  touchpoints:
+  - regional-planning-forum
+  - public-quality-report

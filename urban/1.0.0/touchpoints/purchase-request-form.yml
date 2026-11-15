@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: purchase-request-form
+title: Purchase Request Form
+medium: channel
+summary: The form through which a member of staff asks to buy, stating the need and budget line and recording the check made for repair,
+  reuse or a shared pool.
+exchanges:
+- a-checked-request-for-a-timely-approval
+journey: municipal-employee-buying-what-the-work-needs

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fault-patterns-for-removed-causes
+title: Fault Patterns for Removed Causes
+between:
+- resident-inspector
+- city-administration
+offered:
+- The pattern of recurring faults seen in the records.
+returned:
+- Causes traced and removed at the source, with the lessons recorded.
+touchpoint: problem-review-meeting

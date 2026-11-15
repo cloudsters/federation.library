@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: lawful-processing-for-precise-data-flows
+title: Lawful Processing for Precise Data Flows
+between:
+- data-protection-officer
+- clinician-scientist
+offered:
+- The data protection officer offers an assessment of the study's processing of personal data and the safeguards that make it lawful.
+returned:
+- The investigator returns a precise description of the data flows and keeps to the agreed safeguards throughout the study.
+touchpoint: research-submission-portal

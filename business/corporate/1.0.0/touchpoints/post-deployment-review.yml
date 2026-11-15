@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: post-deployment-review
+title: Post-Deployment Review
+medium: encounter
+summary: The review after go-live of stability, incidents and the actual flow of work, whose findings return to the solution and the
+  next release.
+exchanges:
+- real-work-insight-for-a-grounded-transition
+journey: employee-moving-to-a-new-way-of-working

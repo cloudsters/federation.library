@@ -1,0 +1,150 @@
+kind: value-stream
+slug: financial-accounting-and-treasury
+title: Financial Accounting and Treasury
+family: value-to-sustainability
+summary: 'Recording and reporting the organisation''s financial position and managing its money: general ledger, asset accounting,
+  internal financial controls, tax, annual statements and audit, cash, banking, debt and investment.'
+trigger: A financial transaction occurs, an accounting period closes, or liquidity must be secured.
+outcome: Audited financial statements are approved, liquidity is assured, and the financial controls show no unresolved findings.
+stakeholders:
+- executive
+- administrative-staff
+- owner
+- external-auditor
+- financial-institution
+- tax-authority
+steps:
+- slug: transaction-recording
+  title: Transaction Recording
+  summary: 'Transactions from billing, purchasing, payroll, staff expenses, grants and assets are posted to the general ledger under
+    the accounting policies, each with its cost centre and its activity: care, research, teaching or commercial.'
+  capabilities:
+  - general-accounting
+  - fixed-asset-accounting
+  - expense-stewardship
+  - intercompany-transaction-management
+  - separated-activity-accounting
+  entities:
+  - ledger-entry
+  - payment
+  - invoice
+  - asset
+  - cost-centre
+- slug: cash-and-liquidity-management
+  title: Cash and Liquidity Management
+  summary: Cash positions are managed daily, bank accounts are reconciled with the ledger, payment runs are released under dual control,
+    and the liquidity forecast is kept current so that every obligation can be met.
+  capabilities:
+  - cash-management
+  - cash-flow-forecasting
+  - banking-and-reconciliation
+  - payment-run-orchestration
+  - fraud-and-dispute-management
+  entities:
+  - payment
+  - liquidity-forecast
+  - ledger-entry
+  serves:
+  - electronic-banking
+- slug: financing-and-investment
+  title: Financing and Investment
+  summary: Credit lines and loans are arranged and serviced, reserves are invested within the treasury policy, and interest, currency
+    and counterparty risks are kept within their limits.
+  capabilities:
+  - debt-and-investment-management
+  - treasury-risk-management
+  - contract-lifecycle-stewardship
+  entities:
+  - contract
+  - liquidity-forecast
+  - organisation
+  serves:
+  - credit-review
+- slug: financial-control-monitoring
+  title: Financial Control Monitoring
+  summary: Financial controls such as segregation of duties, approval limits and reconciliations are designed into the processes,
+    tested during the year, and their weaknesses are remedied and reported.
+  capabilities:
+  - internal-controls-design
+  - controls-monitoring
+  - controls-reporting
+  - identity-access-management
+  - delegation-of-authority
+  entities:
+  - audit
+  - audit-finding
+  - corrective-action
+  - access-grant
+  serves:
+  - annual-audit
+- slug: period-close
+  title: Period Close
+  summary: 'Each month and at year end the books are closed on schedule: accounts reconciled, accruals and depreciation booked, intercompany
+    balances eliminated and the results of the group''s entities consolidated.'
+  capabilities:
+  - financial-close
+  - fixed-asset-accounting
+  - intercompany-transaction-management
+  - financial-consolidation
+  - separated-activity-accounting
+  entities:
+  - ledger-entry
+  - asset
+  - financial-statement
+  - organisation
+- slug: tax-assessment-and-filing
+  title: Tax Assessment and Filing
+  summary: The tax consequences of the commons' activities are assessed, including the boundary between charitable and commercial
+    operations, and returns are filed and taxes paid on time.
+  capabilities:
+  - tax-strategy
+  - tax-processing
+  entities:
+  - financial-statement
+  - compliance-obligation
+  - payment
+  serves:
+  - tax-return
+- slug: statement-preparation-and-audit
+  title: Statement Preparation and Audit
+  summary: The annual financial statements and the management report are prepared, the external auditor examines them and the controls
+    behind them, and the findings are answered before the opinion is issued.
+  capabilities:
+  - financial-reporting
+  - external-audit-coordination
+  - controls-reporting
+  entities:
+  - financial-statement
+  - audit
+  - audit-finding
+  serves:
+  - annual-audit
+  - audit-report
+  - supervisory-body-meeting
+- slug: statement-approval-and-disclosure
+  title: Statement Approval and Disclosure
+  summary: The supervisory body and the owner approve the audited statements and discharge the board, and the statements are filed
+    and published in the annual report.
+  capabilities:
+  - financial-reporting
+  - board-communication-reporting
+  - owner-relations
+  - regulatory-reporting
+  entities:
+  - financial-statement
+  - governance-decision
+  serves:
+  - annual-report
+  - audit-report
+  - credit-review
+  - supervisory-body-meeting
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global
+- source: src-133
+  edition: '2026'
+  jurisdiction: global
+- source: src-459
+  edition: '2026'
+  jurisdiction: global

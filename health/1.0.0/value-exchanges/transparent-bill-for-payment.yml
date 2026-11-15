@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: transparent-bill-for-payment
+title: Transparent Bill for Payment
+between:
+- administrative-staff
+- self-paying-patient
+offered:
+- A cost estimate before treatment, a correct and understandable bill after it, and fair terms when paying takes time.
+returned:
+- Payment of the agreed amount on time, and the patient's verdict on whether estimate and bill were clear and fair, which shows where
+  billing must improve.
+touchpoint: patient-invoice

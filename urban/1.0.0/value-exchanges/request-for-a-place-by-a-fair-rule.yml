@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: request-for-a-place-by-a-fair-rule
+title: Request for a Place by a Fair Rule
+between:
+- parent-or-guardian
+- city-administration
+offered:
+- A request for a place, with the child's needs.
+returned:
+- A place given by the published rule, with its reasons and the route to ask for its review.
+touchpoint: school-admission-request

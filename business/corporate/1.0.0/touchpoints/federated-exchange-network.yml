@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: federated-exchange-network
+title: Federated Exchange Network
+medium: channel
+summary: The network through which sovereign members publish needs and offers and their agents match, negotiate and settle exchanges
+  with one another.
+exchanges:
+- surplus-for-matched-need
+journey: network-member-offering-surplus

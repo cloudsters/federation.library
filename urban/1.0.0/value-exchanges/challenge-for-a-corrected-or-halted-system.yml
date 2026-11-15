@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: challenge-for-a-corrected-or-halted-system
+title: Challenge for a Corrected or Halted System
+between:
+- resident
+- city-administration
+offered:
+- A challenge to a decision an automated system made about the resident.
+returned:
+- Inspection of the decision, its correction where wrong, and a halt of systems that lack consent or cause harm.
+touchpoint: algorithm-and-sensor-list

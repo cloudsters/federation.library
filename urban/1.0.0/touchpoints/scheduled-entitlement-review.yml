@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: scheduled-entitlement-review
+title: Scheduled Entitlement Review
+medium: artefact
+summary: The notice of an entitlement's review at its fixed date, filled with what the city already knows, asking the resident only
+  to confirm or correct it.
+exchanges:
+- reported-change-for-a-dated-adjustment
+journey: city-administration-deciding-entitlements-fairly

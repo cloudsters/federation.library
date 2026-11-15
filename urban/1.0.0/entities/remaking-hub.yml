@@ -1,0 +1,62 @@
+kind: entity
+slug: remaking-hub
+title: Remaking Hub
+type: master
+summary: A neighbourhood facility that sorts textiles or metals by type and condition and remakes them into new material and goods,
+  giving local work. A cooperative or social enterprise runs it with support from the city, and what it recovers is reported with
+  the city's waste figures.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: material-streams
+  type: code
+  card: 1..*
+- name: run-by
+  type: text
+  card: 1..1
+- name: operating-cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: place
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: intake
+  type: quantity
+  card: 0..1
+- name: output
+  type: quantity
+  card: 0..1
+- name: products
+  type: text
+  card: 0..*
+- name: local-jobs
+  type: integer
+  card: 0..1
+- name: city-support
+  type: text
+  card: 0..*
+- name: reported-in
+  type: reference(waste-metrics)
+  card: 0..1
+states:
+- proposed
+- supported
+- opened
+- operating
+- paused
+- closed
+relations:
+- type: assigned-to
+  target: cooperative
+- type: refers-to
+  target: waste-metrics
+- type: refers-to
+  target: material-bank
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: waste-regulation

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: skill-attestation
+title: Skill Attestation
+medium: artefact
+summary: The entry in the community skill registry in which neighbours and peers attest a skill they have seen in practice, specific
+  enough to count with employers.
+exchanges:
+- attested-skills-for-skills-that-count
+- qualifications-from-abroad-for-a-fair-grade
+journey: job-seeker-joining-the-city-staff

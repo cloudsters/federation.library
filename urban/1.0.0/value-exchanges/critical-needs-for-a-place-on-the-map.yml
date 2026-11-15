@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: critical-needs-for-a-place-on-the-map
+title: Critical Needs for a Place on the Map
+between:
+- health-and-care-provider
+- procurement-officer
+offered:
+- The supplies the provider cannot do without and the single sources they rest on.
+returned:
+- Its critical supplies on the dependency map, with alternatives qualified in advance.
+touchpoint: essential-supply-mapping-session

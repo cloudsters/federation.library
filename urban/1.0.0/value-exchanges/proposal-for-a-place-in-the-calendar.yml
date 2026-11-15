@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: proposal-for-a-place-in-the-calendar
+title: Proposal for a Place in the Calendar
+between:
+- event-organiser
+- city-administration
+offered:
+- A proposal for an event with its date, place and purpose.
+returned:
+- A date in the city's one calendar and an answer on the next steps.
+touchpoint: event-proposal-form

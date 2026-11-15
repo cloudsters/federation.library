@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: workflow-knowledge-for-fitting-systems
+title: Workflow Knowledge for Fitting Systems
+between:
+- registered-nurse
+- health-informatics-specialist
+offered:
+- Knowledge of real workflows, stated requirements and time to test the configured solution with realistic cases.
+returned:
+- A system configured to how care is actually given, with less duplicate documentation and a voice in its design.
+touchpoint: clinical-workstation

@@ -1,0 +1,36 @@
+kind: solution
+slug: strategic-planning-system
+title: Strategic Planning System
+role: system-of-insight
+summary: Holds the vision, the future scenarios, the strategy, the strategic options and the evidence reviews, and keeps the reasoning
+  that links each priority to the vision and the evidence.
+carries:
+- vision-cycle-planning
+- future-scenario-building
+- vision-drafting
+- future-generations-assessment
+- strategy-cycle-planning
+- strategic-option-appraisal
+- policy-evidence-review
+- strategic-priority-setting
+- digital-strategy-drafting
+- visitor-strategy-drafting
+- culture-plan-drafting
+- sport-and-activity-planning
+- local-energy-planning
+- street-space-allocation
+- adaptation-option-appraisal
+holds:
+- city-vision
+- future-scenario
+- city-strategy
+- strategic-option
+- evidence-review
+- digital-strategy
+- visitor-strategy
+- culture-plan
+- sport-and-activity-plan
+- mobility-plan
+- energy-strategy
+- food-strategy
+- adaptation-plan

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: experience-dashboard
+title: Experience Dashboard
+medium: artefact
+summary: The shared view of service and satisfaction measures over time, combined from surveys, reviews, cases, warranty and recall
+  data.
+exchanges:
+- combined-findings-for-owned-improvement
+journey: quality-manager-turning-feedback-into-improvement

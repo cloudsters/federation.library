@@ -1,0 +1,18 @@
+kind: stakeholder
+slug: critically-ill-patient
+title: Critically Ill Patient
+nature: person
+stance: served
+summary: A person whose vital functions need continuous monitoring or organ support, arriving from the emergency department,
+  the operating theatre or a ward. Often unable to speak for themselves, so relatives decide alongside the team.
+seeks:
+- Survival and recovery of function through continuous expert care, with treatment goals that respect the person's own will.
+brings:
+- Cases that keep intensive care teams skilled and produce the outcome evidence by which the commons' highest level of care
+  is judged.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,59 @@
+kind: journey
+slug: inpatient-stay-journey
+title: Inpatient Stay Journey
+stakeholder: older-person-with-frailty
+summary: An older person admitted to a ward is assessed as a whole person, understands the diagnosis, agrees goals that matter, is
+  treated and kept mobile, is watched over day and night and sees the way home.
+stages:
+- slug: arrive-on-the-ward
+  title: Arrive on the Ward
+  goal: Be welcomed, know who is responsible and feel safe in an unfamiliar place.
+  step: inpatient-care/ward-admission
+  touchpoints:
+  - ward
+  - identification-band
+- slug: tell-the-story-once
+  title: Tell the Story Once
+  goal: Tell the history once, with the medicines taken and what daily life at home is like.
+  step: inpatient-care/admission-assessment
+  touchpoints:
+  - consultation
+  - nursing-admission-interview
+- slug: learn-what-is-wrong
+  title: Learn What Is Wrong
+  goal: Understand the diagnosis and what is still uncertain.
+  step: inpatient-care/diagnostic-synthesis
+  touchpoints:
+  - ward-round
+  - consultation
+- slug: agree-what-matters
+  title: Agree What Matters
+  goal: Agree goals that matter, such as returning home, and the treatment and limits they imply.
+  step: inpatient-care/treatment-planning
+  touchpoints:
+  - consultation
+  - family-meeting
+  - patient-decision-aid
+- slug: be-treated-and-kept-moving
+  title: Be Treated and Kept Moving
+  goal: Receive treatment and therapy and help to stay mobile and oriented every day.
+  step: inpatient-care/ward-rounds-and-treatment
+  touchpoints:
+  - ward-round
+  - therapy-session
+  - medication-chart
+- slug: be-watched-over
+  title: Be Watched Over
+  goal: Have changes noticed and acted on quickly, by day and by night.
+  step: inpatient-care/monitoring-and-escalation
+  touchpoints:
+  - nurse-call
+  - observation-chart
+  - rapid-response-call
+- slug: see-the-way-home
+  title: See the Way Home
+  goal: See progress towards the goals and know when going home becomes possible.
+  step: inpatient-care/progress-evaluation
+  touchpoints:
+  - ward-round
+  - family-meeting

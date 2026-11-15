@@ -1,0 +1,42 @@
+kind: journey
+slug: community-media-producer-starting-a-neighbourhood-outlet
+title: Community Media Producer Starting a Neighbourhood Outlet
+stakeholder: community-media-producer
+summary: A resident maps with neighbours where local reporting is missing, starts an outlet in a community media studio, signs a support
+  agreement that keeps editorial control with residents, teaches newcomers to report and is reviewed at arm's length on whom the outlet
+  reaches.
+stages:
+- slug: find-the-missing-reporting
+  title: Find the Missing Reporting
+  goal: The neighbourhoods and groups without local reporting in their languages, and the outlets that already exist, are mapped with
+    residents.
+  step: neighbourhood-and-community-media/local-reporting-gap-mapping
+  touchpoints:
+  - local-media-mapping-session
+- slug: book-the-studio
+  title: Book the Studio
+  goal: The outlet records, prints and broadcasts in a library, school or community centre under a shared-use agreement.
+  step: neighbourhood-and-community-media/media-production-space-provision
+  touchpoints:
+  - media-studio-booking
+  - community-media-studio
+- slug: sign-for-independence
+  title: Sign for Independence
+  goal: A written agreement states what the city gives and for how long, leaves editorial decisions with the residents and protects
+    the outlet when it criticises the city.
+  step: neighbourhood-and-community-media/editorial-independence-agreement
+  touchpoints:
+  - media-support-agreement-signing
+- slug: teach-new-reporters
+  title: Teach New Reporters
+  goal: Young people, elders and newcomers learn from the outlet's makers to report, record, edit and check facts in their own languages.
+  step: neighbourhood-and-community-media/media-skills-teaching
+  touchpoints:
+  - community-media-skills-workshop
+- slug: be-reviewed-at-arms-length
+  title: Be Reviewed at Arm's Length
+  goal: The outlet's grant is decided at arm's length, and a review with residents asks whom it reaches and whether it stayed independent.
+  step: neighbourhood-and-community-media/community-media-review
+  touchpoints:
+  - community-media-grant-round
+  - community-media-reach-review

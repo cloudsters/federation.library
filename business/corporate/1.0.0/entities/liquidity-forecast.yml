@@ -1,0 +1,37 @@
+kind: entity
+slug: liquidity-forecast
+title: Liquidity Forecast
+type: intelligence
+summary: An estimate of cash inflows, outflows and balances per legal entity and currency over a coming horizon, built from receivables,
+  payables, payroll, investment and financing, used to secure solvency and plan funding.
+attributes:
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: expected-inflows
+  type: amount
+  card: 1..1
+- name: expected-outflows
+  type: amount
+  card: 1..1
+- name: minimum-balance
+  type: amount
+  card: 0..1
+- name: generated-at
+  type: datetime
+  card: 1..1
+states:
+- generated
+- reviewed
+- used
+relations:
+- type: based-on
+  target: sales-invoice
+- type: refers-to
+  target: financing-facility

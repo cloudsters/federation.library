@@ -1,0 +1,16 @@
+kind: body
+slug: enterprise-architecture
+title: Enterprise Architecture
+summary: Holds digital strategy and the target architecture, manages the application portfolio and guides how solutions are designed.
+holds:
+- digital-strategy-and-architecture
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-087
+  edition: '4'
+  jurisdiction: global
+- source: src-086
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global

@@ -1,0 +1,42 @@
+kind: journey
+slug: apprentice-learning-a-trade-in-real-work
+title: Apprentice Learning a Trade in Real Work
+stakeholder: apprentice
+summary: A young resident is admitted with the skills they already hold, is paired with a paid mentor, learns by maintaining the city's
+  homes, parks and networks while rotating between mentors, advances stage by stage on a published wage ladder and completes with
+  a credential that travels.
+stages:
+- slug: be-admitted-with-what-they-know
+  title: Be Admitted with What They Know
+  goal: The apprentice is admitted with existing skills recognised and with a place set around care duties, travel and income.
+  step: apprenticeships-and-skills-transmission/apprentice-intake
+  touchpoints:
+  - apprenticeship-open-day
+- slug: meet-the-mentor
+  title: Meet the Mentor
+  goal: The apprentice is paired for an extended period with a mentor who is paid from the pool for the time spent teaching.
+  step: apprenticeships-and-skills-transmission/mentor-pairing
+  touchpoints:
+  - mentor-apprentice-agreement
+- slug: learn-in-real-work
+  title: Learn in Real Work
+  goal: The apprentice maintains the city's homes, parks, trees, streams and networks, with responsibility growing stage by stage
+    and rotation through several mentors.
+  step: apprenticeships-and-skills-transmission/learning-in-real-work
+  touchpoints:
+  - apprentice-work-site
+- slug: advance-a-stage
+  title: Advance a Stage
+  goal: The next stage opens on demonstrated competence, and the stipend rises on the published wage ladder.
+  step: apprenticeships-and-skills-transmission/progression-review
+  touchpoints:
+  - progression-review-meeting
+  - published-wage-ladder
+- slug: complete-and-move-on
+  title: Complete and Move On
+  goal: The apprentice holds a credential that practitioners recognise and moves into a paid role, into a worker cooperative or into
+    mentoring the next cohort.
+  step: apprenticeships-and-skills-transmission/credential-and-placement
+  touchpoints:
+  - credential-ceremony
+  - portable-trade-credential

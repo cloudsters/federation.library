@@ -1,0 +1,60 @@
+kind: entity
+slug: sports-facility
+title: Sports Facility
+type: master
+summary: A sports hall, swimming pool, pitch, court or stadium, with its operator, opening hours, prices and the access it offers.
+  The city or the body that runs it keeps the record, and it is used for booking, for setting hours and prices and to show which facilities
+  are within reach of each neighbourhood.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: facility-kind
+  type: code
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: operator
+  type: text
+  card: 1..1
+- name: capacity
+  type: integer
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 1..*
+- name: prices
+  type: amount
+  card: 0..*
+- name: free-access-hours
+  type: text
+  card: 0..*
+- name: accessibility-features
+  type: text
+  card: 0..*
+- name: shared-use-agreement
+  type: reference(shared-use-agreement)
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+states:
+- planned
+- open
+- under-repair
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: building
+- type: governed-by
+  target: sport-and-activity-plan
+- type: governed-by
+  target: shared-use-agreement
+- type: refers-to
+  target: public-asset-register

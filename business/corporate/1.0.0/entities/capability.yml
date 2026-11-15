@@ -1,0 +1,38 @@
+kind: entity
+slug: capability
+title: Capability
+type: governance
+summary: What the system can do — a named, measurable unit of organisational ability that exists independent of who performs it. Capabilities
+  are the building blocks between value streams and solutions, the bridge between intent and execution.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: definition
+  type: text
+  card: 1..1
+- name: maturity-level
+  type: code
+  card: 0..1
+- name: dependencies
+  type: reference(capability)
+  card: 0..*
+- name: realised-by
+  type: text
+  card: 0..*
+states:
+- defined
+- mapped
+- assessed
+- matured
+- composed
+- governed
+relations:
+- type: refers-to
+  target: value-stream
+- type: depends-on
+  target: capability
+binds:
+- source: src-035
+  edition: '15'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: housing-advice-desk
+title: Housing Advice Desk
+medium: place
+summary: The desk in a neighbourhood service point where residents get advice on their rights, help to keep a home and help to apply
+  for an affordable one, in person and in their language.
+exchanges:
+- early-warning-for-a-kept-home
+- application-for-a-priority-that-can-be-seen
+journey: housing-officer-assessing-need-and-keeping-homes

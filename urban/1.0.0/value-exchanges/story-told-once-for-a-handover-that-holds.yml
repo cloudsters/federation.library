@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: story-told-once-for-a-handover-that-holds
+title: Story Told Once for a Handover That Holds
+between:
+- resident
+- city-administration
+offered:
+- The resident's account, told once and agreed to be passed on.
+returned:
+- A service that takes the matter on knowing what was said, without asking the resident to repeat it.
+touchpoint: warm-handover-to-a-service

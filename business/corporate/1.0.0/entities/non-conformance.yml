@@ -1,0 +1,44 @@
+kind: entity
+slug: non-conformance
+title: Non-Conformance
+type: governance
+summary: A deviation from the organisation's standards — an event where actual output fails to meet defined quality, triggering
+  investigation and corrective action to set it right.
+attributes:
+- name: breached-standard
+  type: reference(quality-standard)
+  card: 0..1
+- name: description
+  type: text
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: affected-items
+  type: reference(item)
+  card: 0..*
+- name: affected-batches
+  type: reference(batch-lot)
+  card: 0..*
+- name: root-cause
+  type: text
+  card: 0..1
+- name: disposition
+  type: code
+  card: 0..1
+states:
+- raised
+- investigated
+- dispositioned
+- action-assigned
+- verified
+- closed
+relations:
+- type: refers-to
+  target: quality-standard
+- type: produces
+  target: remediation-plan
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

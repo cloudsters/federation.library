@@ -1,0 +1,23 @@
+kind: solution
+slug: privacy-management-system
+title: Privacy Management System
+role: system-of-record
+summary: Holds the record of each use of personal data, the impact assessments, residents' consent and their requests on their data,
+  the data sharing agreements and data trusts, the retention periods and every breach with its reports.
+carries:
+- processing-registration
+- privacy-impact-assessment
+- consent-recording
+- personal-data-request-handling
+- data-retention-control
+- data-breach-response
+- data-trust-formation
+- data-sharing-agreement-drafting
+holds:
+- processing-record
+- data-impact-assessment
+- consent-record
+- personal-data-request
+- personal-data-breach
+- data-trust
+- data-sharing-agreement

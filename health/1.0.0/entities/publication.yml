@@ -1,0 +1,52 @@
+kind: entity
+slug: publication
+title: Publication
+type: intelligence
+summary: A scientific output of the organisation's researchers, such as a peer-reviewed article, a book chapter or a data publication,
+  attributed to authors, units and funding for research reporting and performance-based allocation.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: authors
+  type: reference(employee)
+  card: 0..*
+- name: units
+  type: reference(organisation-unit)
+  card: 1..*
+- name: venue
+  type: text
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: funding
+  type: reference(research-grant)
+  card: 0..*
+- name: open-access
+  type: code
+  card: 0..1
+states:
+- submitted
+- accepted
+- published
+- retracted
+relations:
+- type: based-on
+  target: research-study
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-406
+  edition: 1.6.1
+  jurisdiction: global
+- source: src-443
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-444
+  edition: '4.7'
+  jurisdiction: global

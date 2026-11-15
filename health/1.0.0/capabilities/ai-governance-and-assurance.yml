@@ -1,0 +1,16 @@
+kind: capability
+slug: ai-governance-and-assurance
+title: AI Governance & Assurance
+level: L2
+parent: clinical-ai-and-automation
+summary: Assuring that AI is safe, fair, lawful and monitored.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-304
+  edition: '2019'
+  jurisdiction: global

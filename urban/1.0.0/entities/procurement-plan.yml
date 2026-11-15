@@ -1,0 +1,56 @@
+kind: entity
+slug: procurement-plan
+title: Forward Procurement Plan
+type: governance
+summary: The published list of purchases the city plans over the coming years, each with its category, estimated value, timing, procedure
+  and the criteria that will apply, so that small, local and cooperative suppliers can prepare to bid. The procurement office compiles
+  it each year from what departments expect to need and from the medium-term financial plan, and it sets when market engagement and
+  tenders take place.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: planned-purchases
+  type: document
+  card: 1..1
+- name: purchase-count
+  type: integer
+  card: 0..1
+- name: total-estimated-value
+  type: amount
+  card: 0..1
+- name: categories
+  type: reference(procurement-category)
+  card: 1..*
+- name: financial-plan
+  type: reference(medium-term-financial-plan)
+  card: 0..1
+- name: applicable-scorecard
+  type: reference(procurement-scorecard)
+  card: 0..1
+- name: joint-purchase-candidates
+  type: text
+  card: 0..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- approved
+- published
+- updated
+- superseded
+relations:
+- type: based-on
+  target: medium-term-financial-plan
+- type: based-on
+  target: spend-profile
+- type: refers-to
+  target: procurement-category
+- type: produces
+  target: public-procurement
+- type: produces
+  target: public-record

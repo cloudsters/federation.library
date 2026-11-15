@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: annual-ridership-report
+title: Annual Ridership Report
+medium: artefact
+summary: The yearly report of who uses the service at which hours, who is still left out, how reliable and safe it was and what the
+  network plan changes.
+exchanges:
+- rider-verdict-for-a-changed-network-plan
+journey: public-transport-passenger-travelling-without-a-car

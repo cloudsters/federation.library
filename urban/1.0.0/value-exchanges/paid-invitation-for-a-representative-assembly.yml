@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: paid-invitation-for-a-representative-assembly
+title: Paid Invitation for a Representative Assembly
+between:
+- city-administration
+- resident
+offered:
+- An invitation drawn by lot, with the purpose, the time asked, the payment and the support offered.
+returned:
+- An assembly that mirrors the city against its representation targets.
+touchpoint: assembly-invitation-letter

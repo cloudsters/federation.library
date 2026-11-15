@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: partner-definitions-for-shared-meaning
+title: Partner Definitions for Shared Meaning
+between:
+- neighbouring-municipality
+- city-administration
+offered:
+- Its own definitions of the things both municipalities record.
+returned:
+- Shared definitions that let data cross the boundary without being changed.
+touchpoint: data-definition-working-group

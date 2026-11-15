@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: profitability-analysis
+title: Profitability Analysis
+medium: artefact
+summary: The analysis of costs and margins by offering, customer, channel and region that shows where value is created and where it
+  is consumed.
+exchanges:
+- margin-truth-for-honest-assumptions
+- margin-insight-for-distribution-rules
+journey: product-manager-testing-the-value-logic-of-an-offering

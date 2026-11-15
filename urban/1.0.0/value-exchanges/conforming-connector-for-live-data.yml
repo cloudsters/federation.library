@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: conforming-connector-for-live-data
+title: Conforming Connector for Live Data
+between:
+- technology-supplier
+- information-technology-specialist
+offered:
+- A connector built to the published specification.
+returned:
+- Confirmation of conformance, and access to live data only after it.
+touchpoint: conformance-test-environment

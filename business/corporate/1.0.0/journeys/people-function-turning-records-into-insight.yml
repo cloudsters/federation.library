@@ -1,0 +1,38 @@
+kind: journey
+slug: people-function-turning-records-into-insight
+title: People Function Turning Records into Insight
+stakeholder: human-resources-professional
+summary: A people professional sets up people systems under a purpose-limited charter, keeps records accurate, answers employee questions,
+  frames workforce questions with those who ask them and delivers insight that is acted on.
+stages:
+- slug: set-up-under-a-charter
+  title: Set Up Under a Charter
+  goal: People systems, time recording and self-service run under an agreed charter with clear access rules.
+  step: participant-intelligence-sensing/people-systems-set-up
+  touchpoints:
+  - data-use-charter
+- slug: keep-records-accurate
+  title: Keep Records Accurate
+  goal: Personal, contract and position data are complete and checked from hire to exit.
+  step: participant-intelligence-sensing/contributor-record-maintenance
+  touchpoints:
+  - employee-self-service
+- slug: answer-and-route
+  title: Answer and Route
+  goal: Employee questions are answered or routed to the right expert and closed reliably.
+  step: participant-intelligence-sensing/inquiry-handling
+  touchpoints:
+  - people-help-desk
+- slug: frame-and-analyse
+  title: Frame and Analyse
+  goal: Workforce questions are framed with those who ask them, and patterns are analysed from data gathered for that purpose.
+  step: participant-intelligence-sensing/workforce-analysis
+  touchpoints:
+  - people-dashboard
+- slug: deliver-and-follow-up
+  title: Deliver and Follow Up
+  goal: Insight reaches management and representatives, and the decisions taken on it are followed up.
+  step: participant-intelligence-sensing/people-insight-delivery
+  touchpoints:
+  - people-dashboard
+  - board-meeting

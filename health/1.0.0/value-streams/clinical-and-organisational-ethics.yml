@@ -1,0 +1,151 @@
+kind: value-stream
+slug: clinical-and-organisational-ethics
+title: Clinical and Organisational Ethics
+family: perception-to-mandate
+summary: 'Keeping the organisation''s conduct ethically sound: an ethics committee, case-level ethics consultation, ethics
+  policies on end-of-life care, allocation of scarce resources and new technologies, and ethical deliberation in teams.'
+trigger: A clinical team requests ethics consultation on a patient case, or a policy question on an ethically contested practice
+  is raised.
+outcome: The case has a documented ethics recommendation, or the organisation has adopted a reasoned ethics policy that guides
+  practice.
+stakeholders:
+- specialist-physician
+- registered-nurse
+- relative
+- person-at-end-of-life
+- critically-ill-patient
+- clinical-ethicist
+- executive
+steps:
+- slug: ethics-request
+  title: Ethics Request
+  summary: A care team, a patient, a relative or a body raises an ethical question, and the ethics service clarifies whether
+    it concerns one case, a recurring practice or a policy, and how urgent it is.
+  capabilities:
+  - clinical-ethics-consultation
+  - patient-advocacy
+  - patient-rights-stewardship
+  entities:
+  - ethics-consultation
+  - patient
+  - encounter
+  serves:
+  - family-meeting
+  - feedback-and-complaints-channel
+  - shift-handover
+  - ward-round
+- slug: case-clarification
+  title: Case Clarification
+  summary: Medical facts, prognosis and options are gathered, together with the patient's capacity to decide, the stated or
+    presumed will, any advance directive and the views of those entitled to decide on the patient's behalf.
+  capabilities:
+  - finding-integration
+  - diagnostic-uncertainty-communication
+  - advance-care-planning
+  - shared-decision-making-practice
+  - interpreting-and-language-services
+  entities:
+  - health-record
+  - advance-directive
+  - preference
+  - proxy-mandate
+  - objection
+  - care-goal
+  serves:
+  - clinical-workstation
+  - family-meeting
+- slug: ethical-deliberation
+  title: Ethical Deliberation
+  summary: Team, patient or relatives and the ethics consultant weigh the options against the patient's will, the duties of
+    care and the values in conflict, in a facilitated and impartial deliberation.
+  capabilities:
+  - clinical-ethics-consultation
+  - team-ethics-deliberation
+  - shared-decision-making-practice
+  - interdisciplinary-consultation
+  - relatives-and-visitor-support
+  entities:
+  - ethics-consultation
+  - preference
+  - care-goal
+  - shared-decision
+  serves:
+  - ethics-case-consultation
+- slug: recommendation-and-follow-up
+  title: Recommendation and Follow-Up
+  summary: A reasoned recommendation is documented in the record and taken into the care plan by the treating team, which
+    keeps responsibility for the decision, and the course of the case is followed up with the team.
+  capabilities:
+  - clinical-ethics-consultation
+  - care-plan-determination
+  - advance-care-planning
+  - clinical-documentation-at-point-of-care
+  entities:
+  - ethics-consultation
+  - clinical-document
+  - care-plan
+  - shared-decision
+  serves:
+  - clinical-workstation
+  - ethics-case-consultation
+  - family-meeting
+- slug: policy-question-formation
+  title: Policy Question Formation
+  summary: Recurring case patterns and contested practices, such as limiting treatment, allocating scarce resources or introducing
+    a new technology, are framed as policy questions for the ethics committee.
+  capabilities:
+  - ethics-policy
+  - clinical-ethics-consultation
+  - health-technology-assessment
+  - new-procedure-introduction
+  entities:
+  - ethics-consultation
+  - policy
+  - governance-body
+  serves:
+  - ethics-committee-session
+- slug: ethics-policy-deliberation
+  title: Ethics Policy Deliberation
+  summary: The ethics committee deliberates the question with clinicians, patient representatives and legal advice, and proposes
+    a reasoned policy that the responsible body adopts.
+  capabilities:
+  - ethics-policy
+  - values-establishment
+  - legal-advisory
+  - patient-and-public-involvement
+  - policy-lifecycle-management
+  entities:
+  - policy
+  - governance-body
+  - governance-decision
+  serves:
+  - ethics-committee-session
+  - patient-advisory-council
+- slug: practice-adoption
+  title: Practice Adoption
+  summary: The adopted policy is made known and taught, teams build the judgement to apply it through deliberation and training,
+    and the use of the policy and the consultation practice are reviewed at set intervals.
+  capabilities:
+  - policy-lifecycle-management
+  - internal-communication
+  - team-ethics-deliberation
+  - continuing-professional-development
+  - clinical-governance-framework
+  entities:
+  - policy
+  - course
+  - ethics-consultation
+  serves:
+  - ethics-committee-session
+  - learning-platform
+  - policy-library
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-003
+  edition: '2017'
+  jurisdiction: global
+- source: src-465
+  edition: 3rd ed.
+  jurisdiction: global

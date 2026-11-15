@@ -1,0 +1,60 @@
+kind: entity
+slug: shared-procurement-service
+title: Shared Procurement Service
+type: master
+summary: A procurement service run for several municipalities, with its members, the delegates who decide on its board, the contributions
+  that fund it and the templates, supplier data and expertise it keeps. Its members set it up under a joint purchasing agreement and
+  its board keeps the record, and members use it to run joint tenders and share what each has learned.
+attributes:
+- name: service-name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: members
+  type: text
+  card: 1..*
+- name: board-delegates
+  type: text
+  card: 1..*
+- name: founding-agreement
+  type: reference(joint-purchasing-agreement)
+  card: 1..1
+- name: contribution-rule
+  type: text
+  card: 1..1
+- name: yearly-budget
+  type: amount
+  card: 0..1
+- name: staff-count
+  type: integer
+  card: 0..1
+- name: shared-templates
+  type: document
+  card: 0..*
+- name: frameworks-held
+  type: reference(framework-agreement)
+  card: 0..*
+- name: established-on
+  type: date
+  card: 1..1
+states:
+- proposed
+- established
+- operating
+- merged
+- dissolved
+relations:
+- type: based-on
+  target: joint-purchasing-agreement
+- type: refers-to
+  target: framework-agreement
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: cross-boundary-agreement
+binds:
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global

@@ -1,0 +1,13 @@
+kind: post
+slug: security-manager
+title: Security Manager
+summary: 'Keeps people, premises and goods on site secure.'
+of: site-management
+responsibility: 'Protects people, premises and goods: access control, guarding, visitor management and the response to security events
+  on site.'
+accountable: body:site-management
+type: role
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

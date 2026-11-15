@@ -1,0 +1,64 @@
+kind: entity
+slug: holiday-let-register
+title: Holiday-Let Register
+type: master
+summary: The register of homes let to visitors, holding for each home its registration, host, capacity, the nights let and permitted
+  and the limit that applies in its neighbourhood. The administration keeps it from registrations and checks, and it is used to keep
+  homes for residents, to collect the visitor charge and to count lets in the visitor impact assessment.
+attributes:
+- name: registration-number
+  type: identifier
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: host
+  type: text
+  card: 1..1
+- name: host-lives-there
+  type: boolean
+  card: 1..1
+- name: let-kind
+  type: code
+  card: 1..1
+- name: guest-capacity
+  type: integer
+  card: 1..1
+- name: permitted-nights
+  type: integer
+  card: 0..1
+- name: nights-let
+  type: integer
+  card: 0..1
+- name: neighbourhood-limit
+  type: text
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 1..1
+- name: registration-period
+  type: period
+  card: 0..1
+states:
+- applied
+- registered
+- active
+- suspended
+- revoked
+- expired
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: visitor-strategy
+- type: governed-by
+  target: bylaw
+- type: refers-to
+  target: zoning-plan
+- type: refers-to
+  target: taxpayer-account

@@ -1,0 +1,40 @@
+kind: journey
+slug: neighbourhood-association-bringing-local-priorities-into-the-budget
+title: Neighbourhood Association Bringing Local Priorities into the Budget
+stakeholder: neighbourhood-association
+summary: A neighbourhood association prepares the neighbourhood's bid with residents, tests the draft for who gains across neighbourhoods,
+  is heard before adoption, sees the costs its neighbourhood bears recorded in the books and judges with the department what the money
+  achieved.
+stages:
+- slug: prepare-the-neighbourhood-bid
+  title: Prepare the Neighbourhood Bid
+  goal: The neighbourhood's bid, including the care work and shared assets residents keep going, has reached the draft budget.
+  step: municipal-budget-and-accounts/budget-preparation
+  touchpoints:
+  - neighbourhood-budget-bid-meeting
+- slug: test-the-draft-for-fairness
+  title: Test the Draft for Fairness
+  goal: Residents have assessed what the draft gives to and takes from their neighbourhood beside others, and the findings are published.
+  step: municipal-budget-and-accounts/budget-equity-and-ecological-assessment
+  touchpoints:
+  - budget-equity-assessment-panel
+  - published-budget-impact-statement
+- slug: speak-at-the-budget-hearing
+  title: Speak at the Budget Hearing
+  goal: The association's objections are heard and answered in the record before the vote.
+  step: municipal-budget-and-accounts/budget-adoption
+  touchpoints:
+  - budget-hearing
+- slug: see-the-neighbourhood-in-the-books
+  title: See the Neighbourhood in the Books
+  goal: The heat, flooding and other costs the neighbourhood bears are recorded beside the money, with what the city owes to repair
+    them.
+  step: municipal-budget-and-accounts/accounting-and-annual-accounts
+  touchpoints:
+  - public-ecological-cost-ledger
+- slug: judge-what-the-money-achieved
+  title: Judge What the Money Achieved
+  goal: The neighbourhood has judged the results against the measures it helped set.
+  step: municipal-budget-and-accounts/spending-review
+  touchpoints:
+  - spending-review-session

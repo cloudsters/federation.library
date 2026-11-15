@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: hygiene-feedback-for-safer-wards
+title: Hygiene Feedback for Safer Wards
+between:
+- infection-prevention-specialist
+- registered-nurse
+offered:
+- Infection prevention observes practice on the ward, gives immediate feedback and shares the unit's rates against its peers.
+returned:
+- Ward staff and link nurses correct practice, report problems with supplies or layout, and implement the agreed actions.
+touchpoint: hygiene-round

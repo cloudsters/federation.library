@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: vendor-presence-for-a-place-in-the-record
+title: Vendor Presence for a Place in the Record
+between:
+- informal-worker
+- city-administration
+offered:
+- The vendors' presence and knowledge of the space through the day.
+returned:
+- Vendors recorded as part of the life of the space.
+touchpoint: public-life-observation-walk

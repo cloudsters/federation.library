@@ -1,0 +1,167 @@
+kind: value-stream
+slug: pharmaceutical-supply
+title: Pharmaceutical Supply
+family: source-to-alliance
+summary: 'Securing the supply of medicines: formulary-based purchasing, pharmacy stock, distribution to wards, and management of shortages
+  and substitutions.'
+trigger: Pharmacy stock reaches its reorder point, a medicine is added to the formulary, or a shortage is announced.
+outcome: Medicines are available to wards as needed, and shortages are bridged by approved alternatives.
+stakeholders:
+- clinical-pharmacist
+- registered-nurse
+- specialist-physician
+- support-services-staff
+- supplier
+- health-regulator
+- purchasing-alliance
+steps:
+- slug: formulary-based-assortment
+  title: Formulary-Based Assortment
+  summary: The drug and therapeutics committee lists medicines on the formulary with preferred products and restrictions, and the
+    purchasing assortment and the prescribing catalogue are aligned with each of its decisions.
+  capabilities:
+  - formulary-management
+  - health-technology-assessment
+  - clinical-system-configuration
+  - master-data-stewardship
+  entities:
+  - formulary
+  - medication
+  - inventory-item
+  - governance-decision
+  serves:
+  - clinical-workstation
+  - drug-and-therapeutics-committee
+- slug: medicine-sourcing
+  title: Medicine Sourcing
+  summary: Medicines are sourced by tender, through a purchasing alliance or by direct contract with manufacturers and wholesalers,
+    weighing price against supply security, such as several sources and stock commitments, and against environmental criteria.
+  capabilities:
+  - pharmaceutical-supply-management
+  - supplier-selection-and-contracting
+  - purchasing-cooperation
+  - vendor-risk-management
+  - ethical-sourcing-design
+  entities:
+  - contract
+  - tender
+  - supplier-organisation
+  - medication
+  serves:
+  - call-for-tender
+  - supply-contract
+- slug: stock-planning-and-ordering
+  title: Stock Planning and Ordering
+  summary: Demand is forecast from consumption and planned activity, safety stocks are set for critical medicines, and orders are
+    placed with suppliers as pharmacy stock reaches its reorder point.
+  capabilities:
+  - pharmaceutical-supply-management
+  - material-demand-sensing
+  - materials-availability-planning
+  - procurement-ordering
+  - predictive-analytics
+  entities:
+  - inventory-item
+  - medication
+  - purchase-order
+  - capacity-forecast
+  serves:
+  - supplier-portal
+  - supply-dashboard
+- slug: receipt-and-storage
+  title: Receipt and Storage
+  summary: Medicines are received and verified for identity, batch, expiry and authenticity, and stored under controlled conditions,
+    with an unbroken cold chain and secured storage for controlled substances.
+  capabilities:
+  - inbound-flow-orchestration
+  - clinical-warehousing-and-inventory
+  - serial-number-tracking
+  - controlled-substance-management
+  entities:
+  - goods-receipt
+  - inventory-item
+  - stock-movement
+  - medication
+  serves:
+  - goods-receiving
+  - hospital-pharmacy
+- slug: distribution-to-wards
+  title: Distribution to Wards
+  summary: Ward stock is replenished against agreed stock lists, patient-specific and unit-dose supplies are dispensed, and controlled
+    substances are issued with signed documentation.
+  capabilities:
+  - medication-dispensing
+  - point-of-care-replenishment
+  - internal-distribution
+  - controlled-substance-management
+  entities:
+  - medication-dispense
+  - stock-movement
+  - inventory-item
+  - medication-order
+  serves:
+  - hospital-pharmacy
+  - point-of-care-store
+  - ward
+- slug: shortage-detection-and-assessment
+  title: Shortage Detection and Assessment
+  summary: Shortages announced by manufacturers or the authority, or visible in failing deliveries, are detected early; their clinical
+    impact and expected duration are assessed, remaining stock is secured, and the shortage is reported where required.
+  capabilities:
+  - drug-shortage-management
+  - vendor-risk-management
+  - materials-availability-planning
+  - regulatory-reporting
+  entities:
+  - supply-shortage
+  - medication
+  - inventory-item
+  - supplier-organisation
+  serves:
+  - shortage-notice
+  - supplier-portal
+  - supply-dashboard
+- slug: substitution-and-allocation
+  title: Substitution and Allocation
+  summary: Approved alternatives are chosen and sourced, including other strengths, imports or own preparation; scarce stock is allocated
+    by clinical priority, and prescribers and wards are informed with dose conversions and updated catalogues.
+  capabilities:
+  - drug-shortage-management
+  - formulary-management
+  - compounding-and-preparation
+  - safety-notice-dissemination
+  - clinical-system-configuration
+  - medication-safety-programme
+  entities:
+  - supply-shortage
+  - medication
+  - formulary
+  - governance-decision
+  serves:
+  - clinical-workstation
+  - drug-and-therapeutics-committee
+  - shortage-notice
+- slug: stock-control-and-returns
+  title: Stock Control and Returns
+  summary: Pharmacy and ward stocks are reconciled, medicines near expiry are redistributed, and expired, recalled and returned medicines
+    are quarantined, returned to the supplier or disposed of safely.
+  capabilities:
+  - stock-reconciliation-practice
+  - returns-reverse-logistics
+  - product-recall-management
+  - hazardous-waste-management
+  - controlled-substance-management
+  entities:
+  - inventory-item
+  - stock-movement
+  - medication
+  serves:
+  - hospital-pharmacy
+  - point-of-care-store
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-515
+  edition: PE 010-4
+  jurisdiction: global

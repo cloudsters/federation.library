@@ -1,0 +1,36 @@
+kind: entity
+slug: rotation
+title: Rotation
+type: transactional
+summary: A placement of a learner in a clinical unit for a defined period with named supervisors and learning objectives, planned
+  against unit capacity and recorded as completed with its evaluation.
+attributes:
+- name: learner-record
+  type: reference(learner-record)
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: supervisors
+  type: reference(practitioner-role)
+  card: 1..*
+- name: objectives
+  type: text
+  card: 0..*
+- name: evaluation
+  type: reference(learner-assessment)
+  card: 0..1
+states:
+- planned
+- confirmed
+- in-progress
+- completed
+- cancelled
+relations:
+- type: part-of
+  target: learner-record
+- type: governed-by
+  target: curriculum

@@ -1,0 +1,47 @@
+kind: journey
+slug: keeping-the-ward-supplied
+title: Keeping the Ward Supplied
+stakeholder: registered-nurse
+summary: A nurse's side of ward supply, measured by time spent on care rather than on counting, ordering or searching for materials.
+stages:
+- slug: agree-the-stock-list
+  title: Agree the Stock List
+  goal: The ward's assortment and quantities match how the ward actually works and are reviewed when its work changes.
+  step: clinical-supply-logistics/demand-and-stock-planning
+  touchpoints:
+  - point-of-care-store
+  - supply-dashboard
+- slug: signal-what-was-used
+  title: Signal What Was Used
+  goal: Taking an item is enough to trigger its replenishment, through an empty bin or a scan, without an order form.
+  step: clinical-supply-logistics/replenishment-triggering
+  touchpoints:
+  - point-of-care-store
+- slug: find-the-shelves-full
+  title: Find the Shelves Full
+  goal: Deliveries arrive at fixed times and are put away by logistics staff, not by nurses.
+  step: clinical-supply-logistics/picking-and-distribution
+  touchpoints:
+  - point-of-care-store
+  - ward
+  - central-store
+- slug: record-use-for-the-patient
+  title: Record Use for the Patient
+  goal: High-cost items are scanned to the patient at the bedside in one step.
+  step: clinical-supply-logistics/use-and-consumption-recording
+  touchpoints:
+  - clinical-workstation
+- slug: learn-of-a-shortage
+  title: Learn of a Shortage
+  goal: A shortage is announced with its alternative before the shelf is empty.
+  step: clinical-supply-logistics/supply-disruption-response
+  touchpoints:
+  - shortage-notice
+  - supply-dashboard
+- slug: hand-back-what-is-not-needed
+  title: Hand Back What Is Not Needed
+  goal: Expired, recalled and surplus items are collected by logistics without extra work on the ward.
+  step: clinical-supply-logistics/returns-and-disposal
+  touchpoints:
+  - point-of-care-store
+  - central-store

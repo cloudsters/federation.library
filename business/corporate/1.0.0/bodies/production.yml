@@ -1,0 +1,9 @@
+kind: body
+slug: production
+title: Production
+summary: Plans, schedules and runs the making of products on the shop floor, with its work centres, instructions and performance.
+holds:
+- production
+part_of: executive-board
+type: function
+form: organisational-unit

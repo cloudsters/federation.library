@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: automatic-compensation-notice
+title: Automatic Compensation Notice
+medium: artefact
+summary: The notice of compensation paid without any complaint from the fund of the service that broke a published guarantee.
+exchanges:
+- broken-guarantee-for-automatic-compensation
+- community-harm-for-a-fund-it-directs
+journey: resident-complaining-about-a-broken-promise

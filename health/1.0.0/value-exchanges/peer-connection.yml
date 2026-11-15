@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: peer-connection
+title: Peer Connection
+between:
+- patient-organisation
+- person-with-chronic-condition
+offered:
+- Contact with someone who has lived with the same condition, practical knowledge of living with it and a community beyond the stay.
+returned:
+- New members, and experiences that strengthen the group's voice in care and policy.
+touchpoint: peer-support-point

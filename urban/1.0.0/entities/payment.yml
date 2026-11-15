@@ -1,0 +1,60 @@
+kind: entity
+slug: payment
+title: Payment
+type: transactional
+summary: Money received by the city or paid out by it, with its channel, date, amount and the account it is matched to. The revenue
+  office and the treasury record it, match it and reconcile it with the bank account each day, so that every taxpayer's balance and
+  the city's cash position are correct.
+attributes:
+- name: payment-reference
+  type: identifier
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: paid-at
+  type: datetime
+  card: 1..1
+- name: counterparty
+  type: text
+  card: 1..1
+- name: matched-account
+  type: reference(taxpayer-account)
+  card: 0..1
+- name: matched-assessment
+  type: reference(tax-assessment)
+  card: 0..1
+- name: bank-account
+  type: reference(bank-account)
+  card: 1..1
+- name: journal-entry
+  type: reference(journal-entry)
+  card: 0..1
+- name: reconciled-on
+  type: date
+  card: 0..1
+states:
+- received
+- unmatched
+- matched
+- reconciled
+- returned
+- reversed
+relations:
+- type: refers-to
+  target: taxpayer-account
+- type: refers-to
+  target: tax-assessment
+- type: refers-to
+  target: bank-account
+- type: produces
+  target: journal-entry

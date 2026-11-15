@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-waste-report
+title: Neighbourhood Waste Report
+medium: artefact
+summary: The yearly report by neighbourhood of how much waste was produced, collected, recovered and disposed of, and where the rest
+  went.
+exchanges:
+- burden-named-for-disposal-shared-fairly
+journey: informal-worker-joining-a-waste-picker-cooperative

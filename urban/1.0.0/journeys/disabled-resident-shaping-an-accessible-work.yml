@@ -1,0 +1,33 @@
+kind: journey
+slug: disabled-resident-shaping-an-accessible-work
+title: Disabled Resident Shaping an Accessible Work
+stakeholder: disabled-resident
+summary: A disabled resident says what a new street, building or park must offer, audits the design before it is fixed, keeps a safe
+  route through the works and tests the finished asset.
+stages:
+- slug: say-what-the-work-must-offer
+  title: Say What the Work Must Offer
+  goal: The brief records what disabled residents need from the work, in their own words.
+  step: public-works-design-and-construction/works-brief
+  touchpoints:
+  - works-brief-workshop
+- slug: audit-the-design
+  title: Audit the Design
+  goal: Steps, slopes, crossings, signs and seating have been audited, and the changes made before the design is fixed.
+  step: public-works-design-and-construction/design-for-whole-life
+  touchpoints:
+  - design-access-audit
+- slug: keep-a-route-through-the-works
+  title: Keep a Route Through the Works
+  goal: The resident knows the safe route around the works, and gaps in it are put right when reported.
+  step: public-works-design-and-construction/construction-and-supervision
+  touchpoints:
+  - works-notice-to-neighbours
+  - works-site-information-board
+- slug: test-the-finished-work
+  title: Test the Finished Work
+  goal: The finished work has been tested for access, and every barrier found is on the list of open defects.
+  step: public-works-design-and-construction/commissioning-and-handover
+  touchpoints:
+  - design-access-audit
+  - commissioning-acceptance-walk

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: failure-notice-for-a-known-status
+title: Failure Notice for a Known Status
+between:
+- information-technology-specialist
+- neighbourhood-association
+offered:
+- The live status of each exchange and notice of every failure.
+returned:
+- Reports of failures that residents notice before the monitoring does.
+touchpoint: exchange-status-page

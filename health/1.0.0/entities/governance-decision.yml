@@ -1,0 +1,38 @@
+kind: entity
+slug: governance-decision
+title: Governance Decision
+type: transactional
+summary: A resolution or approval by a governance body or an entitled office holder, such as approving a budget, a policy,
+  a new service or a high-risk procedure, recorded with its basis, vote and conditions.
+attributes:
+- name: decided-by
+  type: reference(governance-body)
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: decision-kind
+  type: code
+  card: 1..1
+- name: decided-on
+  type: date
+  card: 1..1
+- name: basis
+  type: document
+  card: 0..1
+- name: vote
+  type: text
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+states:
+- proposed
+- tabled
+- adopted
+- rejected
+- implemented
+- rescinded
+relations:
+- type: governed-by
+  target: charter

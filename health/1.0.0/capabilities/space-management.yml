@@ -1,0 +1,11 @@
+kind: capability
+slug: space-management
+title: Space Management
+level: L3
+parent: estate-development
+summary: Keep the inventory of rooms and floor areas with their use and assigned unit, allocate space by agreed rules, and measure
+  its use so that underused space is released or repurposed.
+binds:
+- source: src-364
+  edition: '2023'
+  jurisdiction: global

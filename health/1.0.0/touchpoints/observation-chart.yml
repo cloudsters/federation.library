@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: observation-chart
+title: Observation Chart
+medium: artefact
+summary: The chart, on paper or on screen, on which vital signs and the early-warning score are recorded at the bedside, together
+  with the escalation each score requires.
+exchanges:
+- escalation-for-rapid-review
+- delegated-care-for-reported-observations
+journey: nursing-care-journey

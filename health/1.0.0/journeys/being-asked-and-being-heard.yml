@@ -1,0 +1,29 @@
+kind: journey
+slug: being-asked-and-being-heard
+title: Being Asked and Being Heard
+stakeholder: elective-inpatient
+summary: A patient knows what experience to expect, is asked about it after the stay in a way that is easy to answer, and learns what
+  changed because patients spoke.
+stages:
+- slug: knowing-what-to-expect
+  title: Knowing What to Expect
+  goal: Know before and during the stay what the service promises on waiting, information and respect.
+  step: patient-experience/experience-standard-setting
+  touchpoints:
+  - public-website
+  - patient-portal
+- slug: telling-how-it-was
+  title: Telling How It Was
+  goal: Describe the experience briefly, in one's own words and language, and without fear of consequences.
+  step: patient-experience/experience-capture
+  touchpoints:
+  - experience-survey
+  - feedback-and-complaints-channel
+  - online-rating-platform
+- slug: seeing-what-changed
+  title: Seeing What Changed
+  goal: See published results and the changes that patients' feedback brought about.
+  step: patient-experience/re-measurement-and-publication
+  touchpoints:
+  - public-website
+  - public-quality-report

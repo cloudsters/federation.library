@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: city-contact-line
+title: City Contact Line
+medium: channel
+summary: The one telephone number and message route for every question, request and report to the city, answered to the same standard
+  as the counter of each service point and giving each contact a reference.
+exchanges:
+- report-for-a-reference-and-a-promised-time
+- need-behind-the-question-for-the-right-help
+- access-needs-for-an-equal-answer
+journey: resident-reporting-a-problem-in-the-street

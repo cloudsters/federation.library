@@ -1,0 +1,19 @@
+kind: solution
+slug: security-operations-system
+title: Security Operations System
+role: system-of-insight
+summary: Collects security events across systems, detects and investigates threats and vulnerabilities, coordinates the response and
+  prepares the reports owed after a cyber incident.
+carries:
+- digital-compliance-sensing
+- digital-immune-strategy
+- digital-risk-sensing-control
+- security-operations
+- vulnerability-management
+- data-security-architecture
+- cyber-incident-reporting
+holds: []
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: staff-intranet
+title: Staff Intranet
+medium: channel
+summary: The internal digital channel through which staff receive news, decisions, policies and the strategy, submit ideas and respond.
+exchanges:
+- staff-idea-intake
+journey: nurse-change-journey

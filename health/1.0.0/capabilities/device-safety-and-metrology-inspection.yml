@@ -1,0 +1,19 @@
+kind: capability
+slug: device-safety-and-metrology-inspection
+title: Device Safety & Metrology Inspection
+level: L3
+parent: device-maintenance-and-safety
+summary: Perform the mandatory safety and measurement inspections of medical devices.
+binds:
+- source: src-295
+  edition: '2014'
+  jurisdiction: global
+- source: src-296
+  edition: '2024'
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-362
+  edition: '2019'
+  jurisdiction: global

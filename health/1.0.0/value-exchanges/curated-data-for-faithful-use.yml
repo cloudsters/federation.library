@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: curated-data-for-faithful-use
+title: Curated Data for Faithful Use
+between:
+- health-informatics-specialist
+- research-scientist
+offered:
+- The data integration team offers harmonised, pseudonymised data from routine care with documented quality, provided under a data-use
+  agreement.
+returned:
+- The researcher returns use limited to the stated purpose, citation of the data source, and derived data and code handed back for
+  reuse.
+touchpoint: secure-processing-environment

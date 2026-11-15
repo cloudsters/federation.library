@@ -1,0 +1,26 @@
+kind: journey
+slug: auditing-the-annual-statements
+title: Auditing the Annual Statements
+stakeholder: external-auditor
+summary: The external auditor's path from the review of controls during the year to the opinion presented to the supervisory body.
+stages:
+- slug: test-financial-controls
+  title: Test Financial Controls
+  goal: The controls behind the figures are documented and can be relied upon.
+  step: financial-accounting-and-treasury/financial-control-monitoring
+  touchpoints:
+  - annual-audit
+- slug: audit-the-statements
+  title: Audit the Statements
+  goal: Reconciled accounts and complete evidence are available on the agreed dates.
+  step: financial-accounting-and-treasury/statement-preparation-and-audit
+  touchpoints:
+  - annual-audit
+  - audit-report
+- slug: present-the-opinion
+  title: Present the Opinion
+  goal: The opinion and findings are presented to the supervisory body, and management owns the findings.
+  step: financial-accounting-and-treasury/statement-approval-and-disclosure
+  touchpoints:
+  - supervisory-body-meeting
+  - audit-report

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: credit-assessment
+title: Credit Assessment
+medium: artefact
+summary: The assessment of a customer's creditworthiness from financial information and payment history, with the limit and terms
+  it supports.
+exchanges:
+- payment-reliability-for-credit-terms
+journey: receivables-accountant-collecting-what-is-due

@@ -1,0 +1,10 @@
+kind: body
+slug: procurement
+title: Procurement
+summary: Sets sourcing strategy by category, selects and develops suppliers, buys goods and services and manages supply risk.
+holds:
+- procurement
+- supplier-partnerships
+part_of: executive-board
+type: function
+form: organisational-unit

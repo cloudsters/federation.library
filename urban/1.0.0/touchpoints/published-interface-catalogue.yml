@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-interface-catalogue
+title: Published Interface Catalogue
+medium: artefact
+summary: The public catalogue of the city's interfaces, each with its formats, meaning, identity checks, conformance rules and versions,
+  open for any provider or neighbourhood to build against.
+exchanges:
+- builders-for-open-interfaces
+journey: information-technology-specialist-connecting-two-systems

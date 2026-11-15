@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: standard-requests-for-ready-devices
+title: Standard Requests for Ready Devices
+between:
+- specialist-physician
+- health-informatics-specialist
+offered:
+- Requests through the standard catalogue, care of the devices issued and their return when no longer needed or at refresh.
+returned:
+- Standard devices and software delivered ready to use within agreed times, kept updated and replaced before they fail or
+  lose support.
+touchpoint: clinical-workstation

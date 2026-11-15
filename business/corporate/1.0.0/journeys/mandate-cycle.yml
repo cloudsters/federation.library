@@ -1,0 +1,34 @@
+kind: journey
+slug: mandate-cycle
+title: Mandate Cycle
+stakeholder: sector-regulator
+summary: The sector regulator sets the rules and licence conditions, receives the company's reports and renewals, is notified of breaches
+  and inspects, and in return confirms or conditions the licence to operate.
+stages:
+- slug: set-rules-and-conditions
+  title: Set Rules and Conditions
+  goal: New and changed rules have been consulted on and the licence conditions are known to the company.
+  step: compliance-as-integrity/obligation-identification
+  touchpoints:
+  - regulatory-consultation
+  - licence-and-permit
+- slug: receive-reports-and-renewals
+  title: Receive Reports and Renewals
+  goal: Reports arrive complete and on time and licences are renewed before they lapse.
+  step: compliance-as-integrity/adherence-monitoring
+  touchpoints:
+  - statutory-filing
+  - licence-and-permit
+- slug: be-told-of-breaches
+  title: Be Told of Breaches
+  goal: The regulator learns of a serious breach from the company within the deadline, with the facts and the correction.
+  step: compliance-as-integrity/concern-investigation
+  touchpoints:
+  - statutory-filing
+- slug: inspect-and-confirm
+  title: Inspect and Confirm
+  goal: Inspection finds conduct matching the licence, and findings are corrected by the dates agreed.
+  step: compliance-as-integrity/audit-and-assurance
+  touchpoints:
+  - official-inspection
+  - sustainability-report

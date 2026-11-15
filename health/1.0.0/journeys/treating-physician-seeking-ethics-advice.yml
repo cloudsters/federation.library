@@ -1,0 +1,52 @@
+kind: journey
+slug: treating-physician-seeking-ethics-advice
+title: Treating Physician Seeking Ethics Advice
+stakeholder: specialist-physician
+summary: 'The treating physician''s side of clinical ethics: raising a difficult case, deliberating with patient or relatives
+  and the ethics service, deciding with the recommendation, and applying the policies that recurring cases produce.'
+stages:
+- slug: raising-the-question
+  title: Raising the Question
+  goal: Get timely ethics support for a case where the right course is contested within the team or with the family.
+  step: clinical-and-organisational-ethics/ethics-request
+  touchpoints:
+  - ward-round
+- slug: assembling-the-facts
+  title: Assembling the Facts
+  goal: Bring prognosis, options and the patient's known will together before deliberating.
+  step: clinical-and-organisational-ethics/case-clarification
+  touchpoints:
+  - clinical-workstation
+  - family-meeting
+- slug: deliberating
+  title: Deliberating
+  goal: Weigh the options with the team, the patient or relatives and an impartial facilitator.
+  step: clinical-and-organisational-ethics/ethical-deliberation
+  touchpoints:
+  - ethics-case-consultation
+- slug: deciding-with-the-recommendation
+  title: Deciding with the Recommendation
+  goal: Take a reasoned recommendation into the care plan while keeping responsibility for the decision.
+  step: clinical-and-organisational-ethics/recommendation-and-follow-up
+  touchpoints:
+  - ethics-case-consultation
+  - clinical-workstation
+- slug: raising-a-recurring-question
+  title: Raising a Recurring Question
+  goal: Have a question that recurs across cases settled once for the whole commons.
+  step: clinical-and-organisational-ethics/policy-question-formation
+  touchpoints:
+  - ethics-committee-session
+- slug: contributing-to-policy
+  title: Contributing to Policy
+  goal: Bring clinical experience into the deliberation of an ethics policy.
+  step: clinical-and-organisational-ethics/ethics-policy-deliberation
+  touchpoints:
+  - ethics-committee-session
+- slug: applying-the-policy
+  title: Applying the Policy
+  goal: Find, learn and apply the adopted policy in daily practice.
+  step: clinical-and-organisational-ethics/practice-adoption
+  touchpoints:
+  - policy-library
+  - learning-platform

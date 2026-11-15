@@ -1,0 +1,42 @@
+kind: journey
+slug: ownership-cycle
+title: Ownership Cycle
+stakeholder: shareholder
+summary: A shareholder is known and represented, learns when to expect news, receives the full picture of value creation including
+  what went badly, puts questions to management and sees concerns answered.
+stages:
+- slug: be-known-as-an-owner
+  title: Be Known as an Owner
+  goal: The shareholder is recorded in the register with what they need to know and how they are reached.
+  step: ecosystem-relationship-design/participant-standing-map
+  touchpoints:
+  - shareholder-register
+- slug: know-when-news-comes
+  title: Know When News Comes
+  goal: The shareholder knows the reporting dates and receives material news at the same time as every other owner.
+  step: ecosystem-relationship-design/disclosure-planning
+  touchpoints:
+  - financial-calendar
+  - website
+- slug: read-the-full-picture
+  title: Read the Full Picture
+  goal: The shareholder receives results and the account of value creation, including what went badly, in a form they can judge.
+  step: ecosystem-relationship-design/owner-and-investor-reporting
+  touchpoints:
+  - annual-report
+  - letter-to-owners
+  - sustainability-report
+- slug: question-management
+  title: Question Management
+  goal: The shareholder puts questions to management and receives answers consistent with those given to others.
+  step: ecosystem-relationship-design/investor-dialogue
+  touchpoints:
+  - investor-meeting
+  - shareholder-meeting
+- slug: see-concerns-answered
+  title: See Concerns Answered
+  goal: The shareholder learns what was decided on a concern raised and how the relationship is adjusted where trust was strained.
+  step: ecosystem-relationship-design/concern-follow-up
+  touchpoints:
+  - shareholder-meeting
+  - letter-to-owners

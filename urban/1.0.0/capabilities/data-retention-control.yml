@@ -1,0 +1,6 @@
+kind: capability
+slug: data-retention-control
+title: Data Retention Control
+level: L3
+parent: data-protection-and-sovereignty
+summary: Keep data only for its set period and purpose, then delete or anonymise it unless it must be held.

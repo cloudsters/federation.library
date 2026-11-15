@@ -1,0 +1,35 @@
+kind: entity
+slug: usage-record
+title: Usage Record
+type: transactional
+summary: A measured quantity of a product or service a customer has consumed in a period, such as hours, transactions, volume or units,
+  rated against the subscription or contract and passed to invoicing.
+attributes:
+- name: subscription
+  type: reference(subscription)
+  card: 0..1
+- name: customer-account
+  type: reference(customer)
+  card: 1..1
+- name: metric
+  type: code
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: usage-period
+  type: period
+  card: 1..1
+- name: rated-amount
+  type: amount
+  card: 0..1
+states:
+- captured
+- rated
+- invoiced
+- disputed
+relations:
+- type: part-of
+  target: subscription
+- type: produces
+  target: sales-invoice

@@ -1,0 +1,61 @@
+kind: entity
+slug: trial-evaluation-report
+title: Trial Evaluation Report
+type: intelligence
+summary: The analysis of a trial's results against the measures set at its start, with what residents and staff observed, its limits
+  and the decision taken on it with its reasons. The responsible department prepares and publishes it with the researchers it works
+  with, and the council or the department decides on it to adopt, change or stop the trial.
+attributes:
+- name: trial
+  type: reference(urban-trial)
+  card: 1..1
+- name: results-by-measure
+  type: text
+  card: 1..*
+- name: observations
+  type: text
+  card: 0..*
+- name: limits
+  type: text
+  card: 0..*
+- name: prepared-by
+  type: text
+  card: 1..*
+- name: analysis
+  type: document
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+- name: decision-reasons
+  type: text
+  card: 0..1
+- name: council-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-as
+  type: reference(bylaw)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- published
+- decided
+relations:
+- type: refers-to
+  target: urban-trial
+- type: based-on
+  target: research-project
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: bylaw
+- type: produces
+  target: lesson-record
+binds:
+- source: src-235
+  edition: '2019-05-22'
+  jurisdiction: global

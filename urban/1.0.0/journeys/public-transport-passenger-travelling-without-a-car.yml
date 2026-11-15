@@ -1,0 +1,42 @@
+kind: journey
+slug: public-transport-passenger-travelling-without-a-car
+title: Public Transport Passenger Travelling without a Car
+stakeholder: public-transport-passenger
+summary: A passenger takes part in the travel survey, travels on services run to the published timetable and told of delays at once,
+  uses step-free stops and vehicles, reaches the places transit does not by shared vehicles and says in the yearly review how reliable
+  and safe the service was.
+stages:
+- slug: say-where-travel-fails
+  title: Say Where Travel Fails
+  goal: The passenger's trips and the barriers met on them are in the travel counts and surveys, including those of disabled residents
+    and carers.
+  step: public-transport-and-shared-mobility/travel-need-mapping
+  touchpoints:
+  - travel-diary-and-access-walk
+- slug: travel-on-the-daily-service
+  title: Travel on the Daily Service
+  goal: The service runs to the timetable, and the passenger is told at once and in every sense of delays and diversions.
+  step: public-transport-and-shared-mobility/daily-service-operation
+  touchpoints:
+  - real-time-travel-information
+  - published-timetable
+- slug: use-an-accessible-stop
+  title: Use an Accessible Stop
+  goal: The passenger boards step-free at a lit stop with shelter, signs and announcements that work for every sense.
+  step: public-transport-and-shared-mobility/accessible-and-safe-stops
+  touchpoints:
+  - staffed-night-stop
+- slug: ride-where-transit-does-not-reach
+  title: Ride Where Transit Does Not Reach
+  goal: The passenger completes a trip transit does not serve by a shared bike, car or on-demand ride on terms that protect riders
+    and workers.
+  step: public-transport-and-shared-mobility/shared-and-on-demand-mobility
+  touchpoints:
+  - shared-mobility-hub
+  - on-demand-ride-booking
+- slug: review-the-service
+  title: Review the Service
+  goal: The passenger's verdict on reliability, safety and access is in the yearly review and in the changes to the network plan.
+  step: public-transport-and-shared-mobility/ridership-and-access-review
+  touchpoints:
+  - annual-ridership-report

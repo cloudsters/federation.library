@@ -1,0 +1,34 @@
+kind: journey
+slug: tenant-getting-a-warm-and-affordable-home
+title: Tenant Getting a Warm and Affordable Home
+stakeholder: tenant
+summary: A tenant takes part in the retrofit of the building and its gains, is connected to the heat network, shares the flexibility
+  of the home under agreed rules and, when supply fails, is restored early and finds a warm place nearby.
+stages:
+- slug: take-part-in-the-retrofit
+  title: Take Part in the Retrofit
+  goal: The tenant's building is insulated and switched to renewable heat with tenants taking part in the work and sharing in lower
+    bills.
+  step: energy-and-heat-supply/building-energy-retrofit
+  touchpoints:
+  - retrofit-site-meeting
+- slug: be-connected-to-heat
+  title: Be Connected to Heat
+  goal: The tenant's home is connected to the heat network and heated from renewable and waste heat.
+  step: energy-and-heat-supply/heat-network-connection
+  touchpoints:
+  - heat-connection-visit
+- slug: share-the-home-flexibility
+  title: Share the Home's Flexibility
+  goal: The tenant has decided whether the home's meter data and flexibility are offered, under rules residents agreed.
+  step: energy-and-heat-supply/grid-operation-and-flexibility
+  touchpoints:
+  - smart-meter-data-consent
+- slug: stay-warm-through-an-outage
+  title: Stay Warm through an Outage
+  goal: When supply fails the tenant is told when it returns, vulnerable households are restored first and a backed-up community place
+    stays open nearby.
+  step: energy-and-heat-supply/outage-response
+  touchpoints:
+  - leak-and-outage-line
+  - backup-powered-community-centre

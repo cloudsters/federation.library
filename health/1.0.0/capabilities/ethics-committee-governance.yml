@@ -1,0 +1,11 @@
+kind: capability
+slug: ethics-committee-governance
+title: Ethics Committee Governance
+level: L3
+parent: research-ethics-and-integrity
+summary: Bring research involving humans, their data and their samples before an independent ethics committee, act on its decisions
+  and, where the faculty or the organisation hosts the committee, secure its independence and its administration.
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global

@@ -1,0 +1,67 @@
+kind: entity
+slug: service-failure-report
+title: Service Failure Report
+type: transactional
+summary: A report of a failure or near miss in a service, made by staff or a resident without fear of blame, with its grading by harm
+  and urgency, its disclosure to those affected and its handling. The service records and grades it on receipt and follows it until
+  it is closed, and serious or repeated failures go to cause analysis.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: reporter-kind
+  type: code
+  card: 1..1
+- name: report-kind
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: occurred-at
+  type: datetime
+  card: 0..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: harm-grade
+  type: code
+  card: 0..1
+- name: urgency-grade
+  type: code
+  card: 0..1
+- name: residents-informed-on
+  type: date
+  card: 0..1
+- name: remedy-given
+  type: text
+  card: 0..1
+- name: complaint
+  type: reference(citizen-complaint)
+  card: 0..1
+states:
+- reported
+- graded
+- disclosed
+- in-analysis
+- remedied
+- closed
+relations:
+- type: refers-to
+  target: public-service
+- type: governed-by
+  target: service-standard
+- type: based-on
+  target: citizen-complaint
+- type: produces
+  target: cause-analysis-report
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-234
+  edition: '2018'
+  jurisdiction: global

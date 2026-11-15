@@ -1,0 +1,41 @@
+kind: journey
+slug: clinical-users-receiving-a-new-system
+title: Clinical Users Receiving a New System
+stakeholder: registered-nurse
+summary: Nurses help shape, test and learn a new or changed system, then work with it in care, supported until it runs smoothly.
+stages:
+- slug: describe-the-work
+  title: Describe the Work
+  goal: The real workflow, including nights, weekends and emergencies, is the basis of the requirements.
+  step: solution-delivery/requirements-and-process-design
+  touchpoints:
+  - requirements-workshop
+- slug: review-the-configuration
+  title: Review the Configuration
+  goal: Forms, order sets and worklists are checked by those who will use them.
+  step: solution-delivery/configuration-and-integration
+  touchpoints:
+  - requirements-workshop
+  - clinical-workstation
+- slug: accept-or-refuse
+  title: Accept or Refuse
+  goal: The system goes live only when its users find it fit for care.
+  step: solution-delivery/testing-and-acceptance
+  touchpoints:
+  - user-acceptance-test
+- slug: learn-and-switch-over
+  title: Learn and Switch Over
+  goal: Every user is trained before first use and supported through the first shifts.
+  step: solution-delivery/training-and-go-live
+  touchpoints:
+  - system-training
+  - learning-platform
+  - go-live-support
+  - service-status-notice
+- slug: report-and-settle
+  title: Report and Settle
+  goal: Early defects are fixed quickly and the system becomes routine.
+  step: solution-delivery/stabilisation-and-handover
+  touchpoints:
+  - it-service-desk
+  - clinical-workstation

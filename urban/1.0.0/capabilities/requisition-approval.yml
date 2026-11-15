@@ -1,0 +1,6 @@
+kind: capability
+slug: requisition-approval
+title: Requisition Approval
+level: L3
+parent: purchasing-and-payment
+summary: Check a request to buy against the contract and the budget still available, and approve it at the level the delegation sets.

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: automation-review-board
+title: Automation Review Board
+medium: encounter
+summary: The body that decides for each candidate what is automated, what is supported by AI and what stays human, and that reviews
+  automated processes before their mandates are renewed.
+exchanges:
+- early-disclosure-for-fair-automation
+- traceable-decisions-for-a-renewed-mandate
+journey: agent-working-under-a-clear-mandate

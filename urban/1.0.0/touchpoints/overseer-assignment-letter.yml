@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: overseer-assignment-letter
+title: Overseer Assignment Letter
+medium: artefact
+summary: The letter that names the person who oversees an agent, with the competence the task requires, the time set aside and the
+  authority to stop the agent.
+exchanges:
+- oversight-duty-for-time-and-authority
+journey: frontline-worker-working-beside-an-ai-agent

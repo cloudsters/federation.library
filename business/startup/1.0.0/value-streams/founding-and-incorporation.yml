@@ -1,0 +1,69 @@
+kind: value-stream
+slug: founding-and-incorporation
+title: Founding and Incorporation
+family: perception-to-mandate
+summary: Bringing the company into being as a legal and shared undertaking, from the founders' agreement on purpose, roles and shares
+  through the choice of legal form and its registration to the first allocation of ownership and decision rights.
+trigger: Founders decide to carry an idea as a company of their own, or a founder joins or leaves before the company is registered.
+outcome: The company is registered in its legal form, its founders' shares, vesting and decision rights are agreed and recorded, and
+  its purpose is stated.
+stakeholders:
+- founder
+- shareholder
+- company-registry
+- financial-investor
+steps:
+- slug: purpose-and-roles
+  title: Purpose and Roles
+  summary: The founders state what the company is for and whom it serves, and agree who takes which role and how they decide together
+    until the company has Bodies of its own.
+  capabilities:
+  - mission-articulation
+  - delegation-of-authority
+  entities:
+  - business-model
+  - stakeholder
+  serves:
+  - founders-agreement
+- slug: founders-agreement-drafting
+  title: Founders' Agreement
+  summary: The founders agree their shares, the vesting by which a share is earned over time, what happens when one of them leaves,
+    and how intellectual property brought in passes to the company.
+  capabilities:
+  - equity-and-ownership-management
+  entities:
+  - shareholder-record
+  serves:
+  - founders-agreement
+- slug: legal-form-choice
+  title: Legal Form Choice
+  summary: The legal form is chosen for liability, taxation, the ability to take in investors and the cost of running it, and the articles
+    are drawn up.
+  capabilities:
+  - legal-entity-management
+  entities:
+  - legal-entity
+  serves:
+  - founders-agreement
+- slug: registration
+  title: Registration
+  summary: The company is registered with the register of companies and the tax authority, its share capital is paid in, and its managing
+    directors and signatories are entered.
+  capabilities:
+  - legal-entity-management
+  entities:
+  - legal-entity
+  serves:
+  - company-register-entry
+- slug: first-ownership-record
+  title: First Ownership Record
+  summary: The founders' holdings are entered in the share register and the decision rights of the owners' meeting and the managing
+    directors are recorded.
+  capabilities:
+  - equity-and-ownership-management
+  entities:
+  - shareholder-register
+  - shareholder-record
+  serves:
+  - share-register
+start: true

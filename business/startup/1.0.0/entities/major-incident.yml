@@ -1,0 +1,46 @@
+kind: entity
+slug: major-incident
+title: Major Incident
+type: transactional
+summary: A declared crisis in which damage or disruption overwhelms normal operations, such as a cyber attack, a fire, a long system
+  outage, a supply collapse or a product safety crisis, run under incident command from declaration to recovery and debrief.
+attributes:
+- name: hazard
+  type: code
+  card: 1..1
+- name: declared-at
+  type: datetime
+  card: 1..1
+- name: alert-level
+  type: code
+  card: 1..1
+- name: incident-commander
+  type: reference(employee-record)
+  card: 1..1
+- name: plan-activated
+  type: reference(continuity-plan)
+  card: 0..1
+- name: affected-processes
+  type: reference(process-model)
+  card: 0..*
+- name: stood-down-at
+  type: datetime
+  card: 0..1
+- name: debrief
+  type: document
+  card: 0..1
+states:
+- declared
+- in-response
+- stood-down
+- in-recovery
+- closed
+relations:
+- type: based-on
+  target: continuity-plan
+- type: produces
+  target: remediation-plan
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

@@ -1,0 +1,52 @@
+kind: entity
+slug: cash-forecast
+title: Cash Forecast
+type: intelligence
+summary: The forecast of the city's receipts and payments over the coming months, starting from the daily cash position across its
+  bank accounts. The treasury updates it each day and each month, and it shows when money must be moved, borrowed for a short term
+  or placed.
+attributes:
+- name: forecast-date
+  type: date
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: opening-cash-position
+  type: amount
+  card: 1..1
+- name: expected-receipts
+  type: document
+  card: 1..1
+- name: expected-payments
+  type: document
+  card: 1..1
+- name: debt-service-due
+  type: amount
+  card: 0..1
+- name: lowest-projected-balance
+  type: amount
+  card: 0..1
+- name: accounts-covered
+  type: reference(bank-account)
+  card: 1..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: prepared-by
+  type: text
+  card: 1..1
+states:
+- prepared
+- reviewed
+- current
+- superseded
+relations:
+- type: based-on
+  target: bank-account
+- type: refers-to
+  target: debt-instrument
+- type: refers-to
+  target: intergovernmental-transfer
+- type: refers-to
+  target: municipal-budget

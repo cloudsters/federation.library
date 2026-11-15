@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shared-forecast
+title: Shared Forecast
+medium: artefact
+summary: The rolling forecast of expected quantities per item and period that a customer shares with the company, or the company with
+  its suppliers, so that capacity and materials can be reserved before orders are firm.
+exchanges:
+- forecast-for-secured-supply
+- visibility-for-committed-capacity
+journey: customer-relying-on-a-delivery-promise

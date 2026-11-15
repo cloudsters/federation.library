@@ -1,0 +1,39 @@
+kind: journey
+slug: young-people-imagining-the-city-they-will-inherit
+title: Young People Imagining the City They Will Inherit
+stakeholder: young-people
+summary: Young people imagine the city's future at school, draw futures of their own into the scenarios, deliberate beside adults
+  in the resident assembly, test what the vision leaves them and tell it again in their own media.
+stages:
+- slug: imagine-at-school
+  title: Imagine at School
+  goal: Pupils have learned to imagine and discuss futures and have recorded the city they want to live in.
+  step: shared-city-vision/futures-capacity-building
+  touchpoints:
+  - school-futures-workshop
+- slug: draw-a-future-of-their-own
+  title: Draw a Future of Their Own
+  goal: The futures young people imagine are drawn into the scenarios the city weighs, beside those of experts.
+  step: shared-city-vision/future-scenario-development
+  touchpoints:
+  - scenario-workshop
+- slug: deliberate-beside-adults
+  title: Deliberate Beside Adults
+  goal: Young people selected by lot have weighed the scenarios with adult residents and their views stand in the draft vision.
+  step: shared-city-vision/vision-deliberation
+  touchpoints:
+  - resident-assembly-session
+- slug: test-what-the-vision-leaves-them
+  title: Test What the Vision Leaves Them
+  goal: The statement of what the vision leaves to later residents names what it leaves to young people, before the council adopts
+    it.
+  step: shared-city-vision/vision-adoption
+  touchpoints:
+  - future-generations-statement
+- slug: tell-the-vision-in-their-own-media
+  title: Tell the Vision in Their Own Media
+  goal: Young people have told the vision again in the media they use and can see whether the city moves towards it.
+  step: shared-city-vision/vision-communication-and-renewal
+  touchpoints:
+  - vision-in-community-media
+  - vision-progress-page

@@ -1,0 +1,19 @@
+kind: capability
+slug: clinical-innovation-management
+title: Clinical Innovation Management
+level: L3
+parent: innovation-management
+summary: Collect, assess and develop innovation ideas from staff, patients and partners.
+binds:
+- source: src-099
+  edition: '2024'
+  jurisdiction: global
+- source: src-387
+  edition: '2019'
+  jurisdiction: global
+- source: src-478
+  edition: '2021'
+  jurisdiction: global
+- source: src-494
+  edition: '2017'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: building-control-centre
+title: Building Control Centre
+medium: place
+summary: The control room that monitors building installations, technical alarms and energy use around the clock and dispatches technicians
+  to faults.
+exchanges:
+- ward-access-for-reliable-building-services
+journey: ward-team-relying-on-building-services

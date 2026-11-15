@@ -1,0 +1,62 @@
+kind: entity
+slug: contract
+title: Contract
+type: transactional
+summary: A contract, concession or long ground lease of public land that the city enters, with the obligations, guarantees and performance
+  bonds written into it. The legal office reviews it for legality and fairness, and it is kept and published for as long as it binds
+  the city.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: contract-kind
+  type: code
+  card: 1..1
+- name: counterparty
+  type: text
+  card: 1..*
+- name: subject
+  type: text
+  card: 1..1
+- name: contract-value
+  type: amount
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+- name: land-covered
+  type: text
+  card: 0..1
+- name: obligations
+  type: text
+  card: 1..*
+- name: guarantees
+  type: text
+  card: 0..*
+- name: performance-bond
+  type: amount
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- approved
+- signed
+- in-force
+- disputed
+- terminated
+- expired
+relations:
+- type: based-on
+  target: public-procurement
+- type: governed-by
+  target: obligation-register
+- type: governed-by
+  target: commons-charter
+- type: produces
+  target: public-record

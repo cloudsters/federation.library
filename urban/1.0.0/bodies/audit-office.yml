@@ -1,0 +1,12 @@
+kind: body
+slug: audit-office
+title: Audit Office
+summary: Plans audits by risk, examines spending, procurement, permits and controls, supports the resident inspectors and follows
+  every finding to a public answer.
+holds:
+- internal-audit
+- resident-inspection-support
+- fair-work-auditing
+part_of: finance-and-audit-committee
+type: function
+form: organisational-unit

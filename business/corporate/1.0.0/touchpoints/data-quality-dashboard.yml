@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: data-quality-dashboard
+title: Data Quality Dashboard
+medium: channel
+summary: The view of completeness, correctness and timeliness of data at its source, with defects assigned to those who correct them.
+exchanges:
+- stewardship-for-trusted-data
+journey: data-architect-defining-shared-meaning

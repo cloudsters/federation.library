@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: warm-handover-to-a-service
+title: Warm Handover to a Service
+medium: encounter
+summary: The handover of an enquiry to the service that acts, together with what the person has already said, so that they need not
+  repeat it.
+exchanges:
+- story-told-once-for-a-handover-that-holds
+journey: resident-reporting-a-problem-in-the-street

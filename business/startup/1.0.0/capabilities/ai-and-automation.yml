@@ -1,0 +1,10 @@
+kind: capability
+slug: ai-and-automation
+title: AI & Automation
+level: L1
+parent: digital-and-data
+summary: Introducing artificial intelligence and agents safely into the organisation's work.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: customs-declaration
+title: Customs Declaration
+medium: artefact
+summary: The declaration of goods for import or export, with classification, origin, value and licences, through which the company
+  deals with the customs authority.
+exchanges:
+- correct-declaration-for-swift-clearance
+- complete-documents-for-onward-carriage
+journey: customs-authority-clearing-a-consignment

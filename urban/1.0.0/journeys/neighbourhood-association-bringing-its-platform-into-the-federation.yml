@@ -1,0 +1,41 @@
+kind: journey
+slug: neighbourhood-association-bringing-its-platform-into-the-federation
+title: Neighbourhood Association Bringing Its Platform into the Federation
+stakeholder: neighbourhood-association
+summary: A neighbourhood association states what data its platform needs from the city, agrees in a federation agreement what the
+  neighbourhood holds and decides, builds against the published interfaces, follows the status of its exchanges and reviews the agreement
+  with the other platforms.
+stages:
+- slug: ask-for-city-data
+  title: Ask for City Data
+  goal: The platform's need for city data and its purpose are recorded and answered.
+  step: interoperability-and-platform-federation/exchange-need-assessment
+  touchpoints:
+  - data-exchange-request
+- slug: agree-what-the-neighbourhood-decides
+  title: Agree What the Neighbourhood Decides
+  goal: The agreement states what the neighbourhood platform holds and decides, which decisions pass upward, and that the city overrides
+    them only in a public, documented decision.
+  step: interoperability-and-platform-federation/federation-agreement
+  touchpoints:
+  - federation-negotiation-round
+  - published-federation-agreement
+- slug: build-against-the-interfaces
+  title: Build Against the Interfaces
+  goal: The platform's builders work from published interfaces without the permission of any supplier.
+  step: interoperability-and-platform-federation/interface-specification
+  touchpoints:
+  - published-interface-catalogue
+- slug: follow-the-exchanges
+  title: Follow the Exchanges
+  goal: The association sees the status of its exchanges and learns of failures before residents feel them.
+  step: interoperability-and-platform-federation/live-exchange-monitoring
+  touchpoints:
+  - exchange-status-page
+- slug: review-the-federation
+  title: Review the Federation
+  goal: The agreement and the interfaces are reviewed in the open, and changes are versioned with notice.
+  step: interoperability-and-platform-federation/federation-review
+  touchpoints:
+  - federation-review-forum
+  - published-federation-agreement

@@ -1,0 +1,53 @@
+kind: entity
+slug: waste-metrics
+title: Waste Metrics
+type: intelligence
+summary: Data on waste produced, collected, reused, recovered and disposed of, by neighbourhood and material. The waste office compiles
+  them from collection rounds and sorting sites, and reports them each year with residents to show how much each neighbourhood produced
+  and where it went.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: materials
+  type: code
+  card: 1..*
+- name: quantity-produced
+  type: quantity
+  card: 1..1
+- name: quantity-collected
+  type: quantity
+  card: 0..1
+- name: quantity-reused
+  type: quantity
+  card: 0..1
+- name: quantity-recovered
+  type: quantity
+  card: 0..1
+- name: quantity-disposed
+  type: quantity
+  card: 0..1
+- name: disposal-destinations
+  type: text
+  card: 0..*
+- name: neighbourhood-breakdown
+  type: document
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+states:
+- collected
+- validated
+- published
+- superseded
+relations:
+- type: refers-to
+  target: waste-system
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: waste-regulation

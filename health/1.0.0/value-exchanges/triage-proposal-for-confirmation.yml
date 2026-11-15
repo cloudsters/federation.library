@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: triage-proposal-for-confirmation
+title: Triage Proposal for Confirmation
+between:
+- clinical-decision-support-agent
+- registered-nurse
+offered:
+- A proposed urgency category and warnings of sepsis, stroke or deterioration from the data at arrival, with its reasons shown.
+returned:
+- Confirmation or correction by the triage nurse, recorded so that the agent's performance can be monitored and improved.
+touchpoint: clinical-workstation

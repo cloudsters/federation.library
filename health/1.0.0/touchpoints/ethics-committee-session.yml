@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ethics-committee-session
+title: Ethics Committee Session
+medium: encounter
+summary: The session in which the clinical ethics committee deliberates policy questions, reviews consultation practice and
+  proposes ethics policies to the board.
+exchanges:
+- ethics-policy-mandate
+journey: treating-physician-seeking-ethics-advice

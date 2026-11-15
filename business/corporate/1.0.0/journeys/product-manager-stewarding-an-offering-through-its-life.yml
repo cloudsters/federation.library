@@ -1,0 +1,47 @@
+kind: journey
+slug: product-manager-stewarding-an-offering-through-its-life
+title: Product Manager Stewarding an Offering Through Its Life
+stakeholder: product-manager
+summary: A product manager brings an offering to every portfolio review, argues for the bets that would renew it, keeps its variants
+  lean and its description true, and carries out its retirement when the evidence says so.
+stages:
+- slug: bring-the-offering-to-review
+  title: Bring the Offering to Review
+  goal: The offering's sales, margin, customer value and fit appear in the common picture, and its place in the mix is discussed on
+    evidence.
+  step: offering-portfolio-stewardship/portfolio-review
+  touchpoints:
+  - portfolio-review-meeting
+- slug: argue-for-a-bet
+  title: Argue for a Bet
+  goal: A proposed renewal or extension is weighed against the other bets and is funded, held or stopped on what it has shown.
+  step: offering-portfolio-stewardship/innovation-bet-allocation
+  touchpoints:
+  - portfolio-review-meeting
+  - board-meeting
+- slug: plan-the-releases
+  title: Plan the Releases
+  goal: Introductions and withdrawals are sequenced on the roadmap, and sales and operations know when to expect them.
+  step: offering-portfolio-stewardship/offering-roadmap
+  touchpoints:
+  - offering-roadmap
+- slug: keep-variants-lean
+  title: Keep Variants Lean
+  goal: Only variants that earn their complexity remain orderable, and the configuration rules give sales one consistent set of choices.
+  step: offering-portfolio-stewardship/variant-and-configuration-governance
+  touchpoints:
+  - product-catalogue
+- slug: keep-the-offering-described
+  title: Keep the Offering Described
+  goal: Master data, descriptions and know-how are current, so that sales, delivery and service tell the customer the same thing.
+  step: offering-portfolio-stewardship/offering-knowledge-upkeep
+  touchpoints:
+  - offering-description
+  - product-catalogue
+- slug: decide-and-retire
+  title: Decide and Retire
+  goal: The offering receives a recorded decision, and a retirement comes with a migration path that customers can follow.
+  step: offering-portfolio-stewardship/lifecycle-decision-and-retirement
+  touchpoints:
+  - portfolio-review-meeting
+  - discontinuation-notice

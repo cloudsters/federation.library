@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: resident-survey
+title: Resident Survey
+medium: channel
+summary: The regular survey of residents on their needs and on the state of the city, offered in several languages and channels.
+exchanges:
+- complaints-and-answers-for-a-traced-signal
+journey: city-administration-assembling-the-whole-city-picture

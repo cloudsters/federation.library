@@ -1,0 +1,39 @@
+kind: journey
+slug: caregiver-sharing-the-work-of-care
+title: Caregiver Sharing the Work of Care
+stakeholder: caregiver
+summary: A carer under strain becomes visible on the care map with consent, joins a circle of neighbours that rotates duties, is linked
+  to formal care when neighbours cannot give enough, draws help in return and says whether relief reached them.
+stages:
+- slug: make-the-care-visible
+  title: Make the Care Visible
+  goal: With the carer's consent, the care given and the strain it brings appear on the neighbourhood care map.
+  step: volunteering-and-mutual-aid/care-and-isolation-mapping
+  touchpoints:
+  - care-mapping-conversation
+  - neighbourhood-care-map-view
+- slug: join-a-care-circle
+  title: Join a Care Circle
+  goal: The carer is part of a circle of neighbours, supported by the city, that rotates duties and gives regular relief.
+  step: volunteering-and-mutual-aid/neighbour-care-and-mutual-aid
+  touchpoints:
+  - neighbour-care-circle
+  - mutual-aid-support-desk
+- slug: reach-formal-care
+  title: Reach Formal Care
+  goal: When the person cared for needs more than neighbours can give, the carer is linked to formal care, health and social services.
+  step: volunteering-and-mutual-aid/neighbour-care-and-mutual-aid
+  touchpoints:
+  - care-service-referral
+- slug: draw-help-in-return
+  title: Draw Help in Return
+  goal: The carer draws on the contribution ledger for help from neighbours in return for care given.
+  step: volunteering-and-mutual-aid/contribution-recognition
+  touchpoints:
+  - contribution-ledger-account
+- slug: name-the-strain
+  title: Name the Strain
+  goal: The carer has told the review whether relief reached them and where carers are still left alone.
+  step: volunteering-and-mutual-aid/volunteering-review
+  touchpoints:
+  - volunteer-feedback-round

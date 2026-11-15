@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: shop-floor-meeting
+title: Shop Floor Meeting
+medium: encounter
+summary: The short daily meeting at a board on the shop floor in which the team reviews safety, quality, output and problems of the
+  last shift and agrees actions.
+exchanges:
+- blame-free-reports-for-removed-causes
+- early-signals-for-proportionate-support
+- experience-of-change-for-course-correction
+- ideas-for-recognition
+- near-miss-reports-for-blame-free-learning
+- workable-sequence-for-truthful-confirmation
+journey: site-manager-owning-the-risks-of-a-site

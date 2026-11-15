@@ -1,0 +1,67 @@
+kind: entity
+slug: visitor-guide
+title: Visitor Guide
+type: master
+summary: The information given to visitors in several languages, at arrival points and online, about the city beyond its sights, its
+  events, markets and cultural exchange and what residents ask of them. The administration keeps it with host neighbourhoods, cultural
+  bodies and local businesses, and it is handed out at arrival points and in accommodation and kept current online.
+attributes:
+- name: edition
+  type: identifier
+  card: 1..1
+- name: languages
+  type: code
+  card: 1..*
+- name: formats
+  type: code
+  card: 1..*
+- name: distribution-points
+  type: text
+  card: 0..*
+- name: neighbourhoods-presented
+  type: reference(neighbourhood)
+  card: 0..*
+- name: events
+  type: reference(city-events-calendar)
+  card: 0..1
+- name: resident-requests
+  type: text
+  card: 0..*
+- name: host-agreements
+  type: reference(neighbourhood-agreement)
+  card: 0..*
+- name: wayfinding
+  type: reference(wayfinding-map)
+  card: 0..1
+- name: prepared-with
+  type: text
+  card: 1..*
+- name: published-on
+  type: date
+  card: 0..1
+- name: guide-document
+  type: document
+  card: 1..*
+states:
+- drafted
+- reviewed
+- published
+- updated
+- withdrawn
+relations:
+- type: refers-to
+  target: city-events-calendar
+- type: refers-to
+  target: neighbourhood-agreement
+- type: based-on
+  target: wayfinding-map
+- type: refers-to
+  target: cultural-venue
+- type: refers-to
+  target: market
+- type: governed-by
+  target: language-access-policy
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global

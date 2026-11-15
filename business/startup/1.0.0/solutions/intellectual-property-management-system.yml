@@ -1,0 +1,16 @@
+kind: solution
+slug: intellectual-property-management-system
+title: Intellectual Property Management System
+role: system-of-record
+summary: Holds invention disclosures, patents, trademarks, designs and licences with their deadlines, costs and owners, and records
+  what the organisation shares openly.
+carries:
+- intellectual-asset-stewardship
+- open-source-as-commons-distribution
+- pattern-stewardship-markets
+- intellectual-property-management
+- licensing-and-commercialisation
+holds:
+- intellectual-property-right
+- invention-disclosure
+- brand

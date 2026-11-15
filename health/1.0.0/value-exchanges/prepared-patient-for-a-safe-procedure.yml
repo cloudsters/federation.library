@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-patient-for-a-safe-procedure
+title: Prepared Patient for a Safe Procedure
+between:
+- outpatient
+- registered-nurse
+offered:
+- Adherence to fasting and medication instructions, accurate information on allergies and anticoagulants, and an escort home.
+returned:
+- A safe, comfortable procedure, monitored recovery and return home the same day with written advice and a contact.
+touchpoint: consent-form

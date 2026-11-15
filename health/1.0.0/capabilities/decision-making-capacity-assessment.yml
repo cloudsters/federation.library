@@ -1,0 +1,11 @@
+kind: capability
+slug: decision-making-capacity-assessment
+title: Decision-Making Capacity Assessment
+level: L3
+parent: information-and-consent
+summary: Assess whether a patient can make a specific decision, support them to decide wherever possible, and establish who is entitled
+  to decide where they cannot.
+binds:
+- source: src-610
+  edition: '2006'
+  jurisdiction: global

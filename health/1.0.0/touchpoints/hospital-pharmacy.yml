@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: hospital-pharmacy
+title: Hospital Pharmacy
+medium: place
+summary: Where medicines are procured, prepared and issued to wards, including high-risk preparations, and where pharmacists advise
+  clinicians on medication.
+exchanges:
+- ward-stock-service-for-storage-discipline
+- verified-medicines-for-reliable-orders
+journey: carrying-a-finding-to-patients

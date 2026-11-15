@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: national-health-network
+title: National Health Network
+medium: channel
+summary: The secure national network through which the commons reaches the shared health record, electronic prescribing, secure messaging
+  and national directories, using institution and professional identities.
+exchanges:
+- conformance-for-national-services
+journey: connecting-to-the-national-health-network

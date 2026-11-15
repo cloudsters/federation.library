@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: pay-statement
+title: Pay Statement
+medium: artefact
+summary: The statement of gross pay, allowances, deductions, taxes, contributions and net pay for a period, together with time and
+  leave balances.
+exchanges:
+- work-for-correct-and-timely-pay
+journey: being-paid-correctly

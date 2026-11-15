@@ -1,0 +1,37 @@
+kind: journey
+slug: neighbourhood-association-holding-the-city-to-its-upkeep
+title: Neighbourhood Association Holding the City to Its Upkeep
+stakeholder: neighbourhood-association
+summary: The association reports what residents see failing, reads the backlog of its neighbourhood, reviews the renewal ranking and
+  adds what it knows, and follows the plan into the budget.
+stages:
+- slug: report-what-residents-see
+  title: Report What Residents See
+  goal: Cracks, leaks, worn surfaces and failing lights that residents notice are in the condition record beside the inspectors' grades.
+  step: infrastructure-asset-planning/condition-survey
+  touchpoints:
+  - resident-condition-report
+- slug: read-the-neighbourhood-backlog
+  title: Read the Neighbourhood Backlog
+  goal: The association knows what upkeep has been deferred in its neighbourhood, what it would cost and how long the assets will
+    last.
+  step: infrastructure-asset-planning/maintenance-backlog-disclosure
+  touchpoints:
+  - published-maintenance-backlog
+  - neighbourhood-backlog-meeting
+- slug: review-the-renewal-ranking
+  title: Review the Renewal Ranking
+  goal: The association has checked the draft ranking against the published criteria and added the needs residents see, and the changes
+    are recorded with reasons.
+  step: infrastructure-asset-planning/renewal-priorities-with-neighbourhoods
+  touchpoints:
+  - published-renewal-criteria
+  - renewal-ranking-session
+  - neighbourhood-backlog-meeting
+- slug: see-upkeep-funded
+  title: See Upkeep Funded
+  goal: The association can see which of the agreed priorities for its neighbourhood are funded in the budget, and when the work will
+    be done.
+  step: infrastructure-asset-planning/upkeep-funding
+  touchpoints:
+  - asset-plan-budget-session

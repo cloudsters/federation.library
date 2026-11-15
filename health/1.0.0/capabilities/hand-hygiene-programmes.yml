@@ -1,0 +1,10 @@
+kind: capability
+slug: hand-hygiene-programmes
+title: Hand Hygiene Programmes
+level: L3
+parent: hygiene-practice
+summary: Run hand-hygiene programmes and monitor compliance and consumption.
+binds:
+- source: src-509
+  edition: '2009'
+  jurisdiction: global

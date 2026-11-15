@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: vendor-data-cooperative-meeting
+title: Vendor Data Cooperative Meeting
+medium: encounter
+summary: The meeting of the cooperative that vendors own, at which members decide how their anonymised sales, cost and price data
+  are pooled and what aggregates are published.
+exchanges:
+- pooled-data-for-price-benchmarks
+journey: market-vendor-trading-with-standing

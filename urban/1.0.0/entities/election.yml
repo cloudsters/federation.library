@@ -1,0 +1,65 @@
+kind: entity
+slug: election
+title: Election
+type: transactional
+summary: A municipal election for council or mayor, or a vote of residents on a question or a recall. The election office runs it
+  from nomination to certified result, and the result constitutes the mandate the elected bodies hold.
+attributes:
+- name: election-kind
+  type: code
+  card: 1..1
+- name: office-or-question
+  type: text
+  card: 1..1
+- name: polling-date
+  type: date
+  card: 1..1
+- name: voting-method
+  type: code
+  card: 1..1
+- name: electoral-districts
+  type: text
+  card: 0..*
+- name: polling-places
+  type: text
+  card: 0..*
+- name: accessibility-provisions
+  type: text
+  card: 0..*
+- name: candidates
+  type: text
+  card: 0..*
+- name: votes-cast
+  type: integer
+  card: 0..1
+- name: result
+  type: document
+  card: 0..1
+- name: certified-on
+  type: date
+  card: 0..1
+- name: challenge-period
+  type: period
+  card: 0..1
+states:
+- called
+- nominations-open
+- nominations-closed
+- polling
+- counted
+- certified
+- challenged
+- concluded
+relations:
+- type: based-on
+  target: population-register
+- type: governed-by
+  target: city-constitution
+- type: governed-by
+  target: participation-charter
+- type: produces
+  target: public-record
+- type: refers-to
+  target: council
+- type: refers-to
+  target: mayoral-office

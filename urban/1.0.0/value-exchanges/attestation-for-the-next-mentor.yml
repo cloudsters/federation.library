@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: attestation-for-the-next-mentor
+title: Attestation for the Next Mentor
+between:
+- mentor
+- apprentice
+offered:
+- The mentors' attestation, before peers, of the apprentice's competence.
+returned:
+- An apprentice ready to mentor the next cohort and carry the trade on.
+touchpoint: credential-ceremony

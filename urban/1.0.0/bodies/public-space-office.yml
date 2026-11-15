@@ -1,0 +1,19 @@
+kind: body
+slug: public-space-office
+title: Public Space Office
+summary: Observes how public spaces are used, answers requests to use them, allocates market days and trading pitches with the traders'
+  organisations, upholds assemblies, provides places to stay, agrees night-time life and sound and reviews whether spaces stay open
+  to all.
+holds:
+- public-space-use
+- public-life-observation
+- public-space-booking
+- market-and-pitch-allocation
+- assembly-facilitation
+- public-amenity-provision
+- night-time-agreement-drafting
+- noise-agreement-setting
+- public-space-openness-review
+part_of: full-council
+type: function
+form: organisational-unit

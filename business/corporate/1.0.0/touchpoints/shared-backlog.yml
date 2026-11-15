@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shared-backlog
+title: Shared Backlog
+medium: channel
+summary: The ordered list of work items from which teams plan their cadence, visible to sponsors, team members and agents alike, with
+  the effort recorded against each item.
+exchanges:
+- honest-availability-for-protected-focus
+- capacity-signals-for-confirmed-plans
+journey: sponsor-bringing-a-project-through-the-portfolio

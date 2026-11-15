@@ -1,0 +1,34 @@
+kind: solution
+slug: emergency-department-system
+title: Emergency Department System
+role: system-of-record
+summary: 'Runs the emergency department from arrival to disposition: triage, tracking board, treatment documentation, prehospital
+  handover and time-critical pathway activation. It gives the department and the whole organisation a live view of emergency
+  demand.'
+carries:
+- emergency-triage
+- resuscitation-room-management
+- emergency-assessment-and-stabilisation
+- emergency-diagnostics
+- emergency-disposition
+- integrated-emergency-care-operations
+- emergency-department-flow-management
+- prehospital-handover
+- emergency-network-coordination
+- trauma-network-participation
+- time-critical-pathway-activation
+- acute-cardiac-care
+- admission-decision
+- psychiatric-crisis-intervention
+holds:
+- triage-assessment
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

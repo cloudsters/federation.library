@@ -1,0 +1,48 @@
+kind: entity
+slug: facility
+title: Facility
+type: master
+summary: A physical site for operations — the built environment where people, machines, and materials come together to produce value. The
+  organisation's place in space.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: facility-type
+  type: code
+  card: 1..1
+- name: capacity
+  type: quantity
+  card: 0..1
+- name: branch
+  type: reference(branch)
+  card: 0..1
+- name: assets
+  type: reference(asset)
+  card: 0..*
+states:
+- planned
+- constructed
+- leased
+- operating
+- refurbished
+- closed
+relations:
+- type: part-of
+  target: branch
+- type: composed-of
+  target: warehouse
+- type: composed-of
+  target: workstation
+- type: refers-to
+  target: asset
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

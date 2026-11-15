@@ -1,0 +1,45 @@
+kind: journey
+slug: frontline-worker-shaping-the-service-they-deliver
+title: Frontline Worker Shaping the Service They Deliver
+stakeholder: frontline-worker
+summary: A caseworker raises a need seen every day at the counter, designs the new work with residents, records the trial from the
+  inside, is prepared before the service opens, fixes faults in the first weeks and judges the service with its users.
+stages:
+- slug: raise-what-the-counter-sees
+  title: Raise What the Counter Sees
+  goal: The need staff meet every day and cannot answer is recorded in a service proposal with their name on it.
+  step: public-service-design/need-identification
+  touchpoints:
+  - service-need-intake
+- slug: design-the-work-with-residents
+  title: Design the Work with Residents
+  goal: The way the service will be delivered is shaped by the staff who will deliver it, side by side with the residents who will
+    use it.
+  step: public-service-design/service-concept-co-design
+  touchpoints:
+  - service-co-design-session
+- slug: record-the-trial-from-the-inside
+  title: Record the Trial from the Inside
+  goal: What staff saw work and fail during the trial is recorded beside what residents saw.
+  step: public-service-design/service-trial
+  touchpoints:
+  - trial-feedback-diary
+- slug: be-prepared-before-opening
+  title: Be Prepared Before Opening
+  goal: Staff have the training, time and staffing the new service needs, agreed with their representatives before it opens.
+  step: public-service-design/launch-readiness
+  touchpoints:
+  - staff-readiness-briefing
+- slug: fix-faults-in-the-first-weeks
+  title: Fix Faults in the First Weeks
+  goal: Faults staff meet in the first weeks are raised at once, fixed and the fix is shared with every team.
+  step: public-service-design/service-launch
+  touchpoints:
+  - early-fault-huddle
+- slug: judge-the-service-with-its-users
+  title: Judge the Service with Its Users
+  goal: Staff have said with users whether the service does what it promised, and their view is counted in the decision to keep, change
+    or close it.
+  step: public-service-design/service-use-and-value-review
+  touchpoints:
+  - service-review-forum

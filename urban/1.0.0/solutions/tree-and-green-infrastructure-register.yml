@@ -1,0 +1,18 @@
+kind: solution
+slug: tree-and-green-infrastructure-register
+title: Tree and Green Infrastructure Register
+role: system-of-record
+summary: Holds every public tree with its species, age, condition and care, each planting until established, and the rain gardens,
+  swales, wetlands, corridors and living or built defences with their inspections and how they performed in heat and storms.
+carries:
+- tree-planting-organisation
+- tree-establishment-care
+- paving-removal-and-sponge-surfaces
+- blue-green-corridor-construction
+- erosion-protection-works
+- adaptation-performance-monitoring
+holds:
+- tree-inventory
+- tree-planting
+- green-infrastructure-element
+- flood-and-erosion-defence

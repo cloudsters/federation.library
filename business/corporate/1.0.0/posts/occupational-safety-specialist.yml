@@ -1,0 +1,13 @@
+kind: post
+slug: occupational-safety-specialist
+title: Occupational Safety Specialist
+summary: 'Keeps work safe for the people who do it.'
+of: health-safety-and-environment
+responsibility: 'Advises the employer on safe work: assesses hazards, inspects workplaces, trains staff and investigates accidents,
+  and sits on the occupational health and safety committee.'
+accountable: body:health-safety-and-environment
+type: role
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

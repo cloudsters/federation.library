@@ -1,0 +1,27 @@
+kind: journey
+slug: having-medicines-on-the-ward
+title: Having Medicines on the Ward
+stakeholder: registered-nurse
+summary: 'A nurse''s side of medicine supply: the right medicines in the ward cupboard, patient doses on time and clear guidance when
+  a medicine is short.'
+stages:
+- slug: receive-ward-stock
+  title: Receive Ward Stock
+  goal: Ward stock is topped up against the agreed list, and patient-specific doses arrive before they are due.
+  step: pharmaceutical-supply/distribution-to-wards
+  touchpoints:
+  - hospital-pharmacy
+  - point-of-care-store
+- slug: switch-to-an-alternative
+  title: Switch to an Alternative
+  goal: When a medicine is short, the ward knows the alternative, how to give it and how much of the original is left.
+  step: pharmaceutical-supply/substitution-and-allocation
+  touchpoints:
+  - shortage-notice
+  - clinical-workstation
+- slug: return-medicines
+  title: Return Medicines
+  goal: Medicines near expiry or no longer needed are exchanged or collected, and nothing expired stays in the cupboard.
+  step: pharmaceutical-supply/stock-control-and-returns
+  touchpoints:
+  - point-of-care-store

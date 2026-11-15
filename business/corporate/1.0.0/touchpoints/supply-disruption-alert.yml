@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: supply-disruption-alert
+title: Supply Disruption Alert
+medium: artefact
+summary: The early warning of a shortfall, delay or disruption in supply, raised by a supplier, a planner or a planning agent, with
+  its expected impact and the options to secure the remaining supply.
+exchanges:
+- early-warning-for-room-to-act
+- plan-proposals-for-clear-boundaries
+journey: supplier-planning-against-a-shared-forecast

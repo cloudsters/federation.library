@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: plan-requests-for-a-city-answer
+title: Plan Requests for a City Answer
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The action plan, with what the neighbourhood decides itself and what it asks of the city.
+returned:
+- A written answer to each request, with what the city will do, by when, or why not.
+touchpoint: neighbourhood-action-plan-response

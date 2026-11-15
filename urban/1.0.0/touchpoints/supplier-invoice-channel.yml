@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-invoice-channel
+title: Supplier Invoice Channel
+medium: channel
+summary: The one channel through which suppliers send their invoices and can see whether each was matched, queried or approved for
+  payment.
+exchanges:
+- a-correct-invoice-for-payment-within-days
+journey: local-producer-getting-paid-on-time

@@ -1,0 +1,56 @@
+kind: journey
+slug: becoming-a-physician
+title: Becoming a Physician
+stakeholder: medical-student
+summary: The medical student's path from knowing what the curriculum expects to graduation, with a say in how teaching improves.
+stages:
+- slug: knowing-what-is-expected
+  title: Knowing What Is Expected
+  goal: Know what one must learn and be able to do in each phase, and how it will be assessed.
+  step: undergraduate-medical-education/curriculum-design-and-mapping
+  touchpoints:
+  - learning-platform
+  - curriculum-committee
+- slug: getting-a-workable-timetable
+  title: Getting a Workable Timetable
+  goal: Have a reliable timetable that leaves time for self-study.
+  step: undergraduate-medical-education/enrolment-and-teaching-planning
+  touchpoints:
+  - education-office
+  - learning-platform
+- slug: learning-the-foundations
+  title: Learning the Foundations
+  goal: Build knowledge and practise skills safely before facing patients.
+  step: undergraduate-medical-education/lectures-and-skills-training
+  touchpoints:
+  - lecture-hall
+  - simulation-centre
+- slug: meeting-patients
+  title: Meeting Patients
+  goal: Learn from real patients with good supervision and feedback.
+  step: undergraduate-medical-education/bedside-and-placement-teaching
+  touchpoints:
+  - bedside-teaching
+  - ward
+  - clinical-placement
+- slug: working-in-the-team
+  title: Working in the Team
+  goal: Take real responsibility within a care team and be ready for the first day as a physician.
+  step: undergraduate-medical-education/final-clinical-year
+  touchpoints:
+  - clinical-placement
+  - training-logbook
+- slug: proving-competence
+  title: Proving Competence
+  goal: Be assessed fairly and pass the examinations that open the profession.
+  step: undergraduate-medical-education/assessment-and-examination
+  touchpoints:
+  - structured-clinical-examination
+  - final-examination
+- slug: giving-feedback
+  title: Giving Feedback
+  goal: See one's evaluation of teaching lead to change.
+  step: undergraduate-medical-education/teaching-evaluation
+  touchpoints:
+  - teaching-evaluation-survey
+  - curriculum-committee

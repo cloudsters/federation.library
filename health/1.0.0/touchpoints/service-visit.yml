@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-visit
+title: Service Visit
+medium: encounter
+summary: A visit by a manufacturer's or contractor's service technician to maintain, inspect or repair a device, ending in a service
+  report and the release or withdrawal of the device.
+exchanges:
+- service-contract-for-assured-uptime
+journey: service-provider-maintaining-devices

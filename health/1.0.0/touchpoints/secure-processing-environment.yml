@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: secure-processing-environment
+title: Secure Processing Environment
+medium: place
+summary: The controlled digital environment in which approved users analyse pseudonymised data without being able to remove patient-level
+  data.
+exchanges:
+- curated-data-for-faithful-use
+- federated-analysis-partnership
+- sound-request-for-prepared-data
+- results-for-federated-access
+- permits-for-prepared-datasets
+journey: researcher-obtaining-care-data

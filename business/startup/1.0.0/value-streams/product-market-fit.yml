@@ -1,0 +1,67 @@
+kind: value-stream
+slug: product-market-fit
+title: Product-Market Fit
+family: discovery-to-usage
+summary: Finding out whether an offering meets a need strongly enough that customers keep using and paying for it, by stating the hypotheses,
+  putting a smallest offering into their hands and deciding on the evidence whether to continue or to change course.
+trigger: A first offering idea is framed, or the evidence shows that customers do not stay.
+outcome: The company knows on evidence which customers keep using its offering and why, and has decided to continue or to change course.
+stakeholders:
+- founder
+- product-manager
+- prospective-customer
+- business-customer
+- end-user
+steps:
+- slug: hypothesis-statement
+  title: Hypothesis Statement
+  summary: The assumptions about the customer, the need, the offering and the price are written as hypotheses that evidence can refute.
+  capabilities:
+  - hypothesis-led-analysis
+  entities:
+  - business-model
+  - market-insight
+  serves:
+  - customer-interview
+- slug: smallest-offering
+  title: Smallest Offering
+  summary: The smallest offering that can test the riskiest hypothesis is built, often by hand behind the scenes.
+  capabilities:
+  - offering-prototyping-craft
+  entities:
+  - product
+  serves:
+  - pilot-programme
+- slug: early-customer-experiments
+  title: Early Customer Experiments
+  summary: Early customers use the offering in their own work, and what they do, pay and say is recorded against the hypotheses.
+  capabilities:
+  - offering-prototyping-craft
+  - hypothesis-led-analysis
+  entities:
+  - customer
+  - market-insight
+  serves:
+  - pilot-programme
+  - customer-interview
+- slug: retention-signals
+  title: Retention Signals
+  summary: Whether customers return, renew and recommend is measured over time, as the signal that the offering meets a lasting need.
+  capabilities:
+  - loyalty-as-mutual-commitment
+  entities:
+  - measure-report
+  - customer
+  serves:
+  - customer-feedback-survey
+- slug: continue-or-change-course
+  title: Continue or Change Course
+  summary: The founders decide on the evidence whether to continue, to change the customer, need or offering, or to stop, and record
+    the reasons.
+  capabilities:
+  - value-model-evolution
+  entities:
+  - business-model
+  - governance-decision
+  serves:
+  - board-meeting

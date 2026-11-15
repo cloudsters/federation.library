@@ -1,0 +1,67 @@
+kind: entity
+slug: language-access-policy
+title: Language Access Policy
+type: governance
+summary: The city's commitment on the languages in which it interprets, translates and teaches, with the funded interpreters, the
+  documents covered and the residents who set its priorities. The council adopts it and the administration keeps it current, and every
+  meeting, document, welcome point and digital service of the city is planned against it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: languages
+  type: code
+  card: 1..*
+- name: interpretation-provision
+  type: text
+  card: 1..*
+- name: documents-covered
+  type: text
+  card: 0..*
+- name: digital-service-languages
+  type: code
+  card: 0..*
+- name: interpreter-budget
+  type: amount
+  card: 0..1
+- name: priority-setting-residents
+  type: text
+  card: 0..*
+- name: language-learning-provision
+  type: text
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: participation-charter
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: welcome-point
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-226
+  edition: '2018-12-19'
+  jurisdiction: global

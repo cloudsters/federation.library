@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: consent-to-testing-for-an-explained-diagnosis
+title: Consent to Testing for an Explained Diagnosis
+between:
+- person-with-cancer
+- specialist-physician
+offered:
+- Tissue, consent to molecular and genetic testing and, where wished, to the research use of residual material.
+returned:
+- A timely diagnosis explained in person, the therapy options the findings open, and counselling on what germline findings mean for
+  the family.
+touchpoint: consent-form

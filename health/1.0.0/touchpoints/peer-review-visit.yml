@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: peer-review-visit
+title: Peer Review Visit
+medium: encounter
+summary: The visit in which external peers review selected case records with the treating team, discuss them as equals in confidence
+  and agree where care can improve.
+exchanges:
+- open-cases-for-external-view
+journey: practice-under-peer-review

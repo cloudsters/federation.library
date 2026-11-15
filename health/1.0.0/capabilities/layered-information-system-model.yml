@@ -1,0 +1,13 @@
+kind: capability
+slug: layered-information-system-model
+title: Layered Information System Model
+level: L3
+parent: enterprise-architecture
+summary: Model the information system in layers of functions, applications and infrastructure as a basis for planning.
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

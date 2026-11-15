@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: development-gate-review
+title: Development Gate Review
+medium: encounter
+summary: The decision gate of a development project at which market, technical and economic readiness are judged, and the project
+  is continued, changed, released or stopped.
+exchanges:
+- released-specification-for-reliable-delivery
+journey: development-engineer-bringing-an-offering-to-release

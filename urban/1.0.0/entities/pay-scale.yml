@@ -1,0 +1,56 @@
+kind: entity
+slug: pay-scale
+title: Pay Scale
+type: governance
+summary: The municipality's adopted pay structure, with its grades, the living-cost basis and the grading of each position. The council
+  adopts it after negotiation with staff representatives and the personnel function publishes it, and it is used to grade positions,
+  to make offers and to run the payroll.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: grades
+  type: text
+  card: 1..*
+- name: grade-amounts
+  type: amount
+  card: 1..*
+- name: living-cost-basis
+  type: text
+  card: 1..1
+- name: grading-rules
+  type: document
+  card: 1..1
+- name: positions-graded
+  type: reference(position)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: staff-agreement
+  type: reference(staff-agreement)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- proposed
+- in-negotiation
+- adopted
+- published
+- in-force
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: staff-agreement
+- type: governed-by
+  target: council-decision
+- type: refers-to
+  target: position
+- type: produces
+  target: public-record
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

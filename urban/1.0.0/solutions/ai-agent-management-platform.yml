@@ -1,0 +1,24 @@
+kind: solution
+slug: ai-agent-management-platform
+title: AI Agent Management Platform
+role: platform
+summary: Runs the city's AI agents under their written mandates, routes each case to a person at the points the mandate sets and whenever
+  a resident or member of staff asks, records significant decisions with the mandate and the person who authorised them, and reports
+  each agent's results and errors.
+carries:
+- human-agent-task-division
+- oversight-and-escalation-design
+- mandate-accountability-recording
+- automated-system-performance-monitoring
+- human-agent-performance-review
+- agent-role-request-assessment
+- agent-commissioning
+- agent-retraining
+- agent-retirement-and-succession
+holds:
+- ai-agent
+- agent-mandate
+- oversight-assignment
+- automated-system-performance-report
+- agent-role-request
+- agent-retirement

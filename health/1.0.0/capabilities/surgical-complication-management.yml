@@ -1,0 +1,10 @@
+kind: capability
+slug: surgical-complication-management
+title: Surgical Complication Management
+level: L3
+parent: intraoperative-care
+summary: Recognise and manage intraoperative and postoperative complications and learn from them.
+binds:
+- source: src-584
+  edition: '2004'
+  jurisdiction: global

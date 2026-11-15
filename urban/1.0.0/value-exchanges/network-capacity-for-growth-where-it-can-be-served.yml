@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-capacity-for-growth-where-it-can-be-served
+title: Network Capacity for Growth Where It Can Be Served
+between:
+- infrastructure-operator
+- city-planner
+offered:
+- The capacity, limits and planned renewal of water, energy, transit and digital networks.
+returned:
+- Growth placed where the networks can carry it, and early notice of where they must expand.
+touchpoint: infrastructure-capacity-consultation

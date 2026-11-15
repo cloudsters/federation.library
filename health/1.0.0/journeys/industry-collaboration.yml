@@ -1,0 +1,53 @@
+kind: journey
+slug: industry-collaboration
+title: Industry Collaboration
+stakeholder: industry-partner
+summary: 'The side of a company that develops products or evidence together with the commons: finding the right team, passing the
+  commons'' independence checks, agreeing terms, working together and using the results.'
+stages:
+- slug: exploring-a-collaboration
+  title: Exploring a Collaboration
+  goal: Find the right clinical team for a development question and learn how the commons works with industry.
+  step: industry-and-academic-partnerships/partner-scouting-and-matching
+  touchpoints:
+  - partnering-meeting
+  - technology-transfer-office
+- slug: passing-the-assessment
+  title: Passing the Assessment
+  goal: Learn quickly whether the commons will collaborate and under which conditions of independence and transparency.
+  step: industry-and-academic-partnerships/collaboration-assessment
+  touchpoints:
+  - partnering-meeting
+- slug: planning-the-work
+  title: Planning the Work
+  goal: Agree a work plan, protocol and resources that both sides can deliver.
+  step: industry-and-academic-partnerships/joint-work-planning
+  touchpoints:
+  - study-protocol
+  - consortium-meeting
+- slug: signing-the-agreement
+  title: Signing the Agreement
+  goal: Sign an agreement with clear terms on payments, data, publication and rights within a predictable time.
+  step: industry-and-academic-partnerships/collaboration-agreement
+  touchpoints:
+  - research-collaboration-agreement
+  - technology-transfer-office
+- slug: working-together
+  title: Working Together
+  goal: See milestones met, data delivered as agreed and problems raised early.
+  step: industry-and-academic-partnerships/joint-work-conduct
+  touchpoints:
+  - consortium-meeting
+- slug: using-the-results
+  title: Using the Results
+  goal: Obtain the agreed rights to the results, and a licence where the commons owns an invention the company needs.
+  step: industry-and-academic-partnerships/results-and-rights
+  touchpoints:
+  - technology-transfer-office
+  - scientific-publication
+- slug: reviewing-the-relationship
+  title: Reviewing the Relationship
+  goal: Decide together whether to continue, extend or end the collaboration.
+  step: industry-and-academic-partnerships/relationship-review
+  touchpoints:
+  - partnership-review-meeting

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: source-data-for-known-quality
+title: Source Data for Known Quality
+between:
+- finance-professional
+- information-technology-specialist
+offered:
+- Access to financial and operational data with their definitions and an owner who answers for them.
+returned:
+- Data errors traced back to their source, a validated analytical copy and reports that reconcile with the books.
+touchpoint: analytics-platform

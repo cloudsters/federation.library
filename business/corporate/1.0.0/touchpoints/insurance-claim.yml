@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: insurance-claim
+title: Insurance Claim
+medium: encounter
+summary: The handling of a claim with the insurer and its experts, from notice and loss assessment to settlement.
+exchanges:
+- full-disclosure-for-honoured-claims
+journey: legal-professional-steering-repair-after-harm

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: resident-sign-in-service
+title: Resident Sign-In Service
+medium: channel
+summary: The single sign-in through which residents use the city's digital services, see what each service may know about them and
+  set their consent.
+exchanges:
+- verified-identity-for-a-safe-sign-in
+- consent-choices-for-honoured-limits
+journey: resident-controlling-their-own-data

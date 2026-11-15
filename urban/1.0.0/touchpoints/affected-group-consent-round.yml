@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: affected-group-consent-round
+title: Affected Group Consent Round
+medium: encounter
+summary: The round in which the group most affected by a matter gives its consent or objection, with a weight stated in advance that
+  protects it without freezing the decision.
+exchanges:
+- calibrated-say-for-protected-groups
+journey: administration-involving-residents-in-a-decision

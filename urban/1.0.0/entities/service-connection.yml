@@ -1,0 +1,65 @@
+kind: entity
+slug: service-connection
+title: Service Connection
+type: master
+summary: A household's or building's connection to the water, sewer, power or heat network, with its meter, date and account. The
+  network operator keeps the record, including connections that residents' crews built and keep, and uses it to read meters, find
+  who is not yet connected and bill the right account.
+attributes:
+- name: connection-number
+  type: identifier
+  card: 1..1
+- name: network
+  type: code
+  card: 1..1
+- name: connection-kind
+  type: code
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: dwelling
+  type: reference(dwelling)
+  card: 0..1
+- name: connected-on
+  type: date
+  card: 0..1
+- name: built-by
+  type: text
+  card: 0..1
+- name: meter-number
+  type: identifier
+  card: 0..1
+- name: last-meter-reading
+  type: quantity
+  card: 0..1
+- name: utility-account
+  type: reference(utility-account)
+  card: 0..1
+states:
+- requested
+- approved
+- connected
+- restricted
+- disconnected
+- removed
+relations:
+- type: part-of
+  target: water-network
+- type: part-of
+  target: sewer-network
+- type: part-of
+  target: energy-grid
+- type: part-of
+  target: heat-network
+- type: refers-to
+  target: utility-account
+- type: refers-to
+  target: building
+binds:
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

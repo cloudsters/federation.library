@@ -1,0 +1,39 @@
+kind: entity
+slug: tax-rule
+title: Tax Rule
+type: governance
+summary: A fiscal compliance mechanism — the rules that govern how the organisation calculates, collects, and remits taxes, ensuring it
+  meets its obligations to the public commons.
+attributes:
+- name: applicability
+  type: text
+  card: 1..*
+- name: product-categories
+  type: code
+  card: 0..*
+- name: party-type
+  type: code
+  card: 0..1
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: rate
+  type: decimal
+  card: 1..1
+- name: calculation-method
+  type: code
+  card: 1..1
+- name: account
+  type: reference(account)
+  card: 1..1
+states:
+- defined
+- activated
+- applied
+- updated
+- retired
+relations:
+- type: refers-to
+  target: tax-category
+- type: refers-to
+  target: tax-return

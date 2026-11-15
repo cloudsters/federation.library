@@ -1,0 +1,27 @@
+kind: journey
+slug: nurse-raising-a-moral-concern
+title: Nurse Raising a Moral Concern
+stakeholder: registered-nurse
+summary: 'A nurse''s side of clinical ethics: raising a moral concern from round-the-clock care, being heard in the deliberation
+  and building the judgement to apply ethics policies.'
+stages:
+- slug: raising-a-concern
+  title: Raising a Concern
+  goal: Raise a moral concern about a patient's care and be taken seriously.
+  step: clinical-and-organisational-ethics/ethics-request
+  touchpoints:
+  - shift-handover
+  - ward-round
+- slug: being-heard-in-deliberation
+  title: Being Heard in Deliberation
+  goal: Bring the observations of round-the-clock care into the deliberation.
+  step: clinical-and-organisational-ethics/ethical-deliberation
+  touchpoints:
+  - ethics-case-consultation
+- slug: learning-to-apply-the-policy
+  title: Learning to Apply the Policy
+  goal: Learn the adopted policy and practise ethical deliberation within the team.
+  step: clinical-and-organisational-ethics/practice-adoption
+  touchpoints:
+  - learning-platform
+  - policy-library

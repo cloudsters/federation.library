@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: warm-inquiry-for-respectful-follow-up
+title: Warm Inquiry for Respectful Follow Up
+between:
+- sales-assistant-agent
+- sales-representative
+offered:
+- Inquiries ready for a conversation, handed over with their history, interests and consents.
+returned:
+- Prompt, respectful follow-up and the outcome recorded, so that nurture learns what readiness looks like.
+touchpoint: inquiry-dossier

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-plan-for-families-views
+title: Published Plan for Families' Views
+between:
+- city-administration
+- parent-or-guardian
+offered:
+- The plan of places by neighbourhood against the forecast of children.
+returned:
+- Families' views on where places are short or too far, taken into the plan.
+touchpoint: school-place-planning-forum

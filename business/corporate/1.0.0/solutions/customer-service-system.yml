@@ -1,0 +1,24 @@
+kind: solution
+slug: customer-service-system
+title: Customer Service System
+role: system-of-record
+summary: Holds every service case, complaint, return and warranty claim with its history, service level and resolution, and routes
+  work to the right team.
+carries:
+- complaint-as-gift
+- customer-service-case-management
+- post-purchase-experience
+- recall-communication-with-care
+- request-inquiry-as-listening
+- return-as-feedback-loop
+- service-level-as-promise
+- service-team-orchestration
+- warranty-as-trust-commitment
+- warranty-as-trust-delivery
+- warranty-performance-stewardship
+holds:
+- helpdesk-ticket
+- complaint
+- return
+- warranty-claim
+- service-level-agreement

@@ -1,0 +1,13 @@
+kind: capability
+slug: data-quality-management
+title: Data Quality Management
+level: L3
+parent: data-governance
+summary: Measure and improve the completeness, correctness and timeliness of data at the source.
+binds:
+- source: src-147
+  edition: '2022'
+  jurisdiction: global
+- source: src-392
+  edition: '2008'
+  jurisdiction: global

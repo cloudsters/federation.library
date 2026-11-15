@@ -1,0 +1,53 @@
+kind: entity
+slug: stock-movement
+title: Stock Movement
+type: transactional
+summary: A posted change in the quantity of a stocked item at a storage location, such as receipt, issue to a unit, transfer between
+  stores, consumption at the point of care, return or write-off, recorded with batch or serial number.
+attributes:
+- name: item
+  type: reference(inventory-item)
+  card: 1..1
+- name: movement-kind
+  type: code
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: batch-or-serial
+  type: identifier
+  card: 0..1
+- name: from-location
+  type: reference(room)
+  card: 0..1
+- name: to-location
+  type: reference(room)
+  card: 0..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 0..1
+- name: posted-at
+  type: datetime
+  card: 1..1
+states:
+- planned
+- in-transit
+- posted
+- reversed
+relations:
+- type: refers-to
+  target: inventory-item
+- type: based-on
+  target: goods-receipt
+- type: refers-to
+  target: encounter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global

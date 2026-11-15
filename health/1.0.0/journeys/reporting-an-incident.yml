@@ -1,0 +1,50 @@
+kind: journey
+slug: reporting-an-incident
+title: Reporting an Incident
+stakeholder: registered-nurse
+summary: 'How a nurse who reports an event experiences the response: protected, supported, involved in the analysis and told what
+  changed.'
+stages:
+- slug: reporting-the-event
+  title: Reporting the Event
+  goal: Report quickly and confidentially, in a few minutes, from any workstation.
+  step: incident-reporting-and-learning/event-reporting
+  touchpoints:
+  - incident-reporting-system
+- slug: receiving-support
+  title: Receiving Support
+  goal: Be asked how one is, and be offered peer support when involved in harm.
+  step: incident-reporting-and-learning/triage-and-grading
+  touchpoints:
+  - team-debrief
+- slug: supporting-disclosure
+  title: Supporting Disclosure
+  goal: Know that the patient is told openly, and be prepared when present at the conversation.
+  step: incident-reporting-and-learning/open-disclosure
+  touchpoints:
+  - disclosure-conversation
+- slug: knowing-the-duty-is-met
+  title: Knowing the Duty Is Met
+  goal: Know that notification duties are handled by those responsible, without having to act alone.
+  step: incident-reporting-and-learning/mandatory-notification
+  touchpoints:
+  - incident-reporting-system
+- slug: contributing-to-analysis
+  title: Contributing to Analysis
+  goal: Explain what happened in an interview that seeks causes, not culprits.
+  step: incident-reporting-and-learning/cause-analysis
+  touchpoints:
+  - team-debrief
+- slug: seeing-actions-taken
+  title: Seeing Actions Taken
+  goal: See changes that make the same event less likely, not only reminders to be careful.
+  step: incident-reporting-and-learning/action-implementation
+  touchpoints:
+  - safety-huddle
+- slug: hearing-back
+  title: Hearing Back
+  goal: Receive feedback on the report and see the lesson shared, so that reporting is worth it.
+  step: incident-reporting-and-learning/lesson-sharing
+  touchpoints:
+  - incident-reporting-system
+  - safety-lesson-bulletin

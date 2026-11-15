@@ -1,0 +1,24 @@
+kind: solution
+slug: identity-and-access-management
+title: Identity and Access Management
+role: platform
+summary: Manages the digital identities of staff, patients, devices and systems, authenticates them and grants role-based
+  access to information and functions, including emergency access and its review.
+carries:
+- identity-access-management
+- security-and-access-control
+- data-security-architecture
+- it-risk-and-security-control
+holds:
+- identity
+- access-grant
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

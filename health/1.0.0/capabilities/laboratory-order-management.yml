@@ -1,0 +1,13 @@
+kind: capability
+slug: laboratory-order-management
+title: Laboratory Order Management
+level: L3
+parent: laboratory-testing-process
+summary: Receive laboratory orders, check indication and completeness, and route them to the right laboratory.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

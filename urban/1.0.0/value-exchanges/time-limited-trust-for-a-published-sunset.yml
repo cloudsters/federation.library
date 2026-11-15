@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: time-limited-trust-for-a-published-sunset
+title: Time-Limited Trust for a Published Sunset
+between:
+- resident
+- city-council
+offered:
+- Residents' trust in a system for a limited time.
+returned:
+- A published sunset date, a named person who answers for the system and the human review it needs.
+touchpoint: automated-system-approval-notice

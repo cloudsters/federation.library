@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: trial-observations-for-open-results
+title: Trial Observations for Open Results
+between:
+- resident
+- city-administration
+offered:
+- What residents see and experience during a trial.
+returned:
+- Results analysed in the open, with their observations beside the measures.
+touchpoint: trial-observation-log

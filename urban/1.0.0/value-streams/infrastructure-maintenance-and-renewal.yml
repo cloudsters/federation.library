@@ -1,0 +1,134 @@
+kind: value-stream
+slug: infrastructure-maintenance-and-renewal
+title: Infrastructure Maintenance and Renewal
+family: acquire-to-retire
+summary: Keeping the city's infrastructure safe and in service across every class of asset until it is renewed. It holds maintenance
+  scheduled by criticality and condition, faults reported by residents and crews and answered in an order residents can follow, planned
+  and responsive repair, safety inspections, care of places shared with residents under written agreements, the review of whether
+  upkeep keeps pace with wear, and the renewal of ageing assets in a neighbourhood as one coordinated work that does not push out
+  those who live there.
+trigger: Planned maintenance falls due, a fault is reported, an inspection finds a defect, or an asset nears the end of its planned
+  life.
+outcome: Assets are safe and in service at the agreed level, deferred upkeep shrinks, and assets at the end of their life are renewed
+  with their neighbourhood or passed to retirement.
+stakeholders:
+- asset-officer
+- infrastructure-operator
+- frontline-worker
+- resident
+- neighbourhood-association
+- volunteer
+- affected-community
+- tenant
+steps:
+- slug: maintenance-scheduling
+  title: Maintenance Scheduling
+  summary: From the asset plan the departments schedule inspections and preventive work by criticality and condition, and assign crews
+    and contractors to them.
+  capabilities:
+  - maintenance-scheduling
+  - asset-criticality-rating
+  entities:
+  - asset-plan
+  - infrastructure-repair
+  - infrastructure-asset
+  serves:
+  - crew-morning-briefing
+  - maintenance-work-schedule
+- slug: fault-reporting-and-triage
+  title: Fault Reporting and Triage
+  summary: Residents report faults by any route and crews report what they find, each report is triaged by risk and given a published
+    response time, and the reporter can follow it to completion.
+  capabilities:
+  - enquiry-intake
+  - infrastructure-fault-triage
+  entities:
+  - fault-report
+  - infrastructure-repair
+  serves:
+  - fault-reporting-line
+  - fault-tracking-view
+  - resident-condition-report
+- slug: planned-and-responsive-repair
+  title: Planned and Responsive Repair
+  summary: Crews carry out preventive work and repair faults within the response times, drawing on their knowledge of the asset, and
+    record what was done, with what materials and at what cost.
+  capabilities:
+  - preventive-maintenance
+  - responsive-repair
+  - street-repair-prioritisation
+  - utility-network-maintenance
+  entities:
+  - infrastructure-repair
+  - infrastructure-asset
+  serves:
+  - crew-morning-briefing
+  - fault-tracking-view
+  - street-repair-crew-visit
+- slug: safety-inspection
+  title: Safety Inspection
+  summary: Bridges, retaining walls, play equipment, trees, lifts and other assets that can harm people are inspected at the required
+    intervals, and every finding is closed by its deadline or the asset is taken out of use.
+  capabilities:
+  - statutory-safety-inspection
+  - preventive-maintenance
+  entities:
+  - inspection-record
+  - infrastructure-asset
+  serves:
+  - out-of-use-notice
+  - safety-inspection-round
+- slug: shared-care-with-residents
+  title: Shared Care with Residents
+  summary: Residents and groups who care for a park, a courtyard, a building or a street do so under a written agreement, with tools,
+    materials, training and pay for regular work provided by the city.
+  capabilities:
+  - shared-place-care-agreement-drafting
+  - resident-maintenance-support
+  - commons-work-pay-setting
+  entities:
+  - place-care-agreement
+  - park
+  - contribution-ledger
+  serves:
+  - care-group-training-day
+  - care-tool-and-material-depot
+  - place-care-agreement-meeting
+- slug: maintenance-performance-review
+  title: Maintenance Performance Review
+  summary: The asset office compares condition, response times and backlog with the service levels each year, with neighbourhood bodies,
+    and updates the backlog ledger and the asset plan.
+  capabilities:
+  - maintenance-performance-review
+  - maintenance-backlog-publication
+  entities:
+  - maintenance-backlog-ledger
+  - condition-assessment
+  - asset-plan
+  serves:
+  - published-asset-service-levels
+  - published-maintenance-backlog
+  - yearly-maintenance-review-meeting
+- slug: coordinated-neighbourhood-renewal
+  title: Coordinated Neighbourhood Renewal
+  summary: Where streets, pipes, lighting, trees and buildings in a neighbourhood near the end of their life together, the city weighs
+    repair, refurbishment and replacement and renews them in one work with residents, checking that renewal does not displace them.
+  capabilities:
+  - end-of-life-option-appraisal
+  - renewal-works-coordination
+  - displacement-risk-assessment
+  entities:
+  - renewal-scheme
+  - capital-project
+  - neighbourhood
+  serves:
+  - displacement-risk-hearing
+  - renewal-options-workshop
+  - renewal-works-programme
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global

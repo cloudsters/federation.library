@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: need-evidence-for-a-weighted-share
+title: Need Evidence for a Weighted Share
+between:
+- affected-community
+- finance-officer
+offered:
+- Evidence of the neighbourhood's need from the equity audit and from residents' own records.
+returned:
+- A share of the fund weighted towards the greatest need.
+touchpoint: need-weighted-share-table

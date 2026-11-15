@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complete-handover-for-continuation-without-gap
+title: Complete Handover for Continuation without Gap
+between:
+- case-manager
+- follow-on-care-provider
+offered:
+- A request with complete needs in good time and, on the day, the discharge letter, medication plan, nursing transfer record and aids.
+returned:
+- Acceptance on the agreed date and continuation of care, medication and therapy without a gap.
+touchpoint: discharge-letter

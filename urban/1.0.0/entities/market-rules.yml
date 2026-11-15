@@ -1,0 +1,62 @@
+kind: entity
+slug: market-rules
+title: Market Rules
+type: governance
+summary: The rules of a market on fees, hours, hygiene, conduct and the allocation of pitches, agreed with the vendor council and
+  published. The markets service drafts them with the vendor council and publishes them for every market, and market staff apply them
+  on each market day.
+attributes:
+- name: market
+  type: reference(market)
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: fee-schedule
+  type: document
+  card: 1..1
+- name: hours
+  type: text
+  card: 1..1
+- name: hygiene-rules
+  type: text
+  card: 1..1
+- name: conduct-rules
+  type: text
+  card: 1..1
+- name: pitch-allocation-criteria
+  type: text
+  card: 1..1
+- name: producer-pitches
+  type: integer
+  card: 0..1
+- name: agreed-with
+  type: reference(vendor-council)
+  card: 1..1
+- name: agreed-on
+  type: date
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 0..1
+states:
+- drafted
+- negotiated
+- agreed
+- published
+- amended
+- superseded
+relations:
+- type: refers-to
+  target: market
+- type: refers-to
+  target: vendor-council
+- type: based-on
+  target: bylaw
+binds:
+- source: src-277
+  edition: '2015-06-12'
+  jurisdiction: global

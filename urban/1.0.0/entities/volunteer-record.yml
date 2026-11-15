@@ -1,0 +1,63 @@
+kind: entity
+slug: volunteer-record
+title: Volunteer Record
+type: master
+summary: The record of a resident who volunteers, with their skills, availability, the checks and training completed, the tasks taken
+  on and the hours given. The volunteer office of the city or of its partner keeps it with the volunteer's consent, and it is used
+  to match tasks, to confirm that safeguards are met and to recognise what was given.
+attributes:
+- name: volunteer
+  type: identifier
+  card: 1..1
+- name: registered-on
+  type: date
+  card: 1..1
+- name: skills
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: availability
+  type: text
+  card: 0..1
+- name: checks-completed
+  type: text
+  card: 0..*
+- name: checks-valid-until
+  type: date
+  card: 0..1
+- name: training-completed
+  type: text
+  card: 0..*
+- name: tasks
+  type: reference(volunteer-opportunity)
+  card: 0..*
+- name: hours-given
+  type: quantity
+  card: 0..1
+- name: consent
+  type: reference(consent-record)
+  card: 1..1
+- name: stepped-back-on
+  type: date
+  card: 0..1
+states:
+- registered
+- checked
+- active
+- paused
+- stepped-back
+relations:
+- type: refers-to
+  target: volunteer-opportunity
+- type: governed-by
+  target: consent-record
+- type: governed-by
+  target: processing-record
+- type: refers-to
+  target: contribution-ledger
+binds:
+- source: src-227
+  edition: '2001-12-05'
+  jurisdiction: global

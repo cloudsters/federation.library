@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: casualty-distribution
+title: Casualty Distribution
+between:
+- emergency-physician
+- emergency-medical-service
+offered:
+- Current capacity and readiness to receive casualties, kept up to date throughout the incident.
+returned:
+- Pre-alerts and a distribution of casualties matched to the capacity the commons reports.
+touchpoint: incident-command-centre

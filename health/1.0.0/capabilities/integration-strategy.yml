@@ -1,0 +1,16 @@
+kind: capability
+slug: integration-strategy
+title: Integration Strategy
+level: L3
+parent: interoperability-and-exchange
+summary: Set the strategy for integrating systems within and beyond the organisation.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global

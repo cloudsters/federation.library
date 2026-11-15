@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: allocation-records-for-answer-and-change
+title: Allocation Records for Answer and Change
+between:
+- platform-worker
+- city-administration
+offered:
+- Their records of tasks, schedules and pay, and what they saw of how the system allocates them.
+returned:
+- A written answer from the service and a change to what was found unfair.
+touchpoint: work-allocation-audit-circle

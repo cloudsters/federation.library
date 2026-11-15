@@ -1,0 +1,7 @@
+kind: capability
+slug: deployment-strategy-design
+title: Deployment Strategy Design
+level: L3
+parent: software-delivery
+summary: Design deployment strategy as guided evolution — how changes are introduced with care, tested with rigour, and rolled back
+  when needed.

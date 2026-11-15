@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: booked-slot-for-prompt-receipt
+title: Booked Slot for Prompt Receipt
+between:
+- logistics-service-provider
+- logistics-coordinator
+offered:
+- Delivery within the booked slot, with labelled goods and an accurate delivery note.
+returned:
+- Quick unloading without waiting time, and a prompt receipt confirmation that triggers payment of the goods.
+touchpoint: delivery-note

@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: capacity-board
+title: Capacity Board
+medium: channel
+summary: The live view of beds, emergency places, theatres and critical staff by unit and site, through which the patient-flow team
+  steers placement and, where agreed, partner hospitals and emergency services see available capacity.
+exchanges:
+- pre-alert-for-a-ready-team
+- transfer-request-for-an-accepted-bed
+- bed-proposal-for-approval
+- discharge-notice-for-a-clean-bed
+journey: referring-hospital-transfer-journey

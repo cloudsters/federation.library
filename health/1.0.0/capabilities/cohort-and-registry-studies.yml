@@ -1,0 +1,16 @@
+kind: capability
+slug: cohort-and-registry-studies
+title: Cohort & Registry Studies
+level: L3
+parent: research-methods-and-reporting
+summary: Establish and run cohort studies and research registries.
+binds:
+- source: src-527
+  edition: '2015'
+  jurisdiction: global
+- source: src-528
+  edition: '2007'
+  jurisdiction: global
+- source: src-548
+  edition: Rev.11
+  jurisdiction: global

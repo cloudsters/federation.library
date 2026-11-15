@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: research-methods-for-tested-models
+title: Research Methods for Tested Models
+between:
+- research-institution
+- city-administration
+offered:
+- Methods for the city's models and an independent review of them.
+returned:
+- Access to the digital twin for research that residents can follow.
+touchpoint: digital-twin-viewer

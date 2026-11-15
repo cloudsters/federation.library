@@ -1,0 +1,126 @@
+kind: value-stream
+slug: budgeting-and-controlling
+title: Budgeting and Controlling
+family: value-to-sustainability
+summary: 'Planning, allocating and steering the organisation''s resources: the economic plan, unit budgets, cost and case-cost accounting,
+  contribution margins, forecasts and the performance dialogue with units.'
+trigger: The planning cycle opens, or a monthly report shows a deviation from plan.
+outcome: Units operate within agreed budgets, every material deviation is explained, and corrective measures are decided.
+stakeholders:
+- executive
+- head-of-clinical-department
+- owner
+- administrative-staff
+steps:
+- slug: planning-framework-setting
+  title: Planning Framework Setting
+  summary: The executive sets the planning assumptions, financial targets and allocation rules for the period from the strategy, the
+    expected payer agreement and the investment programme.
+  capabilities:
+  - planning-and-budgeting
+  - goal-setting-and-cascade
+  - strategy-alignment-across-functions
+  - cash-flow-forecasting
+  entities:
+  - strategy
+  - strategic-objective
+  - payer-agreement
+  - budget
+- slug: unit-planning
+  title: Unit Planning
+  summary: Each unit plans its volumes, positions, material and investment needs within the framework and agrees them with controlling
+    in a planning dialogue.
+  capabilities:
+  - planning-and-budgeting
+  - responsibility-accounting
+  - strategic-workforce-planning
+  - resource-capacity-planning
+  entities:
+  - budget
+  - cost-centre
+  - position
+  - capacity-forecast
+  serves:
+  - performance-dialogue
+- slug: economic-plan-approval
+  title: Economic Plan Approval
+  summary: The unit plans are consolidated into the economic plan of results, investments and liquidity, which the executive adopts
+    and the supervisory body approves.
+  capabilities:
+  - planning-and-budgeting
+  - capital-planning
+  - cash-flow-forecasting
+  - board-communication-reporting
+  entities:
+  - budget
+  - governance-decision
+  - liquidity-forecast
+  serves:
+  - controlling-report
+  - economic-plan
+  - supervisory-body-meeting
+- slug: cost-and-case-cost-accounting
+  title: Cost and Case-Cost Accounting
+  summary: Actual costs are posted to cost centres, allocated to cases and activities and set against revenue to show contribution
+    margins by unit, centre and service line, with care, research and teaching kept apart.
+  capabilities:
+  - cost-accounting
+  - patient-level-costing
+  - responsibility-accounting
+  - service-line-profitability
+  - separated-activity-accounting
+  entities:
+  - cost-centre
+  - patient-level-cost
+  - ledger-entry
+  - charge-item
+  - case-group
+- slug: budget-execution-control
+  title: Budget Execution Control
+  summary: Commitments such as orders, hires and contracts are checked against the approved budget when they arise and recorded as
+    encumbrances, so that overspending is prevented rather than reported.
+  capabilities:
+  - budgetary-control-encumbrance
+  - delegation-of-authority
+  entities:
+  - budget
+  - purchase-requisition
+  - purchase-order
+  - job-vacancy
+- slug: variance-reporting-and-forecast
+  title: Variance Reporting and Forecast
+  summary: Each month actual volumes, revenue and costs are reported against plan by unit, deviations are explained by their owners
+    and the year-end result is forecast.
+  capabilities:
+  - financial-performance-management
+  - business-intelligence-and-reporting
+  - predictive-analytics
+  - board-communication-reporting
+  entities:
+  - measure-report
+  - dashboard
+  - budget
+  - patient-level-cost
+  serves:
+  - controlling-report
+  - supervisory-body-meeting
+- slug: performance-dialogue-and-correction
+  title: Performance Dialogue and Correction
+  summary: Management and unit heads review clinical, financial and staffing results together, compare them with peers and agree corrective
+    measures and savings that do not compromise quality or safety.
+  capabilities:
+  - integrated-performance-review
+  - cost-management
+  - performance-benchmarking
+  - financial-performance-management
+  entities:
+  - corrective-action
+  - benchmark
+  - budget
+  - measure-report
+  serves:
+  - performance-dialogue
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

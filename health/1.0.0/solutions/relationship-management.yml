@@ -1,0 +1,38 @@
+kind: solution
+slug: relationship-management
+title: Relationship Management
+role: system-of-engagement
+summary: Maintains the organisation's relationships with referrers, partner providers, care networks, public bodies, media,
+  donors and the community, including network memberships and philanthropic gifts.
+carries:
+- referrer-relationship-management
+- network-partnership-governance
+- referral-volume-forecasting
+- academic-partnership-management
+- teaching-hospital-network
+- innovation-partnerships
+- government-relations
+- health-policy-advocacy
+- association-relations
+- media-relations
+- community-relations
+- patient-and-public-involvement
+- patient-contact-centre
+- fundraising-and-donations
+- donor-relations
+holds:
+- organisation
+- referral-relationship
+- care-network
+- network-membership
+- philanthropic-gift
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

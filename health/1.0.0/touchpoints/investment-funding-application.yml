@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: investment-funding-application
+title: Investment Funding Application
+medium: artefact
+summary: The application through which the commons requests public investment funds for a project or programme, with need, cost, schedule
+  and the conditions it accepts.
+exchanges:
+- public-purpose-for-investment-funds
+journey: granting-public-investment-funds

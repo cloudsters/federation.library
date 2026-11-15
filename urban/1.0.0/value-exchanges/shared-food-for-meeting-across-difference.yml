@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shared-food-for-meeting-across-difference
+title: Shared Food for Meeting Across Difference
+between:
+- visitor
+- resident
+offered:
+- What each brings to the shared table.
+returned:
+- A meal in which residents and visitors meet as neighbours rather than as hosts and audience.
+touchpoint: shared-festival-meal

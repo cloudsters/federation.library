@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: code-reuse-for-shared-improvements
+title: Code Reuse for Shared Improvements
+between:
+- peer-city
+- city-administration
+offered:
+- The improvements and fixes they make when they reuse the city's code.
+returned:
+- Published code with its documentation and an honest account of what worked and what failed.
+touchpoint: shared-code-release

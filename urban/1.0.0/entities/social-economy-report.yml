@@ -1,0 +1,63 @@
+kind: entity
+slug: social-economy-report
+title: Social Economy Report
+type: intelligence
+summary: The yearly report of the work, ownership and income the city's cooperatives and social enterprises hold by neighbourhood,
+  and of how platform workers and users fared. The economic development office prepares it with the social economy and publishes it,
+  and it is used to see whether enterprises kept their purpose and to direct support.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: prepared-with
+  type: text
+  card: 1..*
+- name: enterprise-count
+  type: integer
+  card: 1..1
+- name: ownership-forms
+  type: code
+  card: 1..*
+- name: jobs-held
+  type: integer
+  card: 0..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: income-held
+  type: amount
+  card: 0..1
+- name: by-neighbourhood
+  type: document
+  card: 0..1
+- name: purpose-changes
+  type: text
+  card: 0..*
+- name: platform-worker-findings
+  type: text
+  card: 0..*
+- name: platform-user-findings
+  type: text
+  card: 0..*
+- name: report
+  type: document
+  card: 1..1
+states:
+- planned
+- gathering
+- drafted
+- reviewed
+- published
+relations:
+- type: based-on
+  target: business-register
+- type: based-on
+  target: economic-indicators
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: platform-licence
+binds:
+- source: src-275
+  edition: '2022-06-10'
+  jurisdiction: global

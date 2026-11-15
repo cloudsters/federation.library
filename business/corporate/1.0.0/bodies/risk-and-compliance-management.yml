@@ -1,0 +1,15 @@
+kind: body
+slug: risk-and-compliance-management
+title: Risk and Compliance Management
+summary: Keeps the risk framework, the register of obligations and the compliance programme, trains staff and monitors that rules
+  are kept.
+holds:
+- enterprise-risk-management
+- compliance-management
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

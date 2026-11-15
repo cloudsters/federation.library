@@ -1,0 +1,20 @@
+kind: journey
+slug: executive-reviewing-integrated-performance
+title: Executive Reviewing Integrated Performance
+stakeholder: executive
+summary: An executive relies on one set of definitions and one trusted view of activity, quality, finance and workforce for decisions.
+stages:
+- slug: agree-one-set-of-definitions
+  title: Agree One Set of Definitions
+  goal: Steering indicators mean the same thing in every unit and every report.
+  step: data-and-analytics/measure-and-data-definition
+  touchpoints:
+  - data-catalogue
+  - board-meeting
+- slug: review-performance-together
+  title: Review Performance Together
+  goal: Clinical, financial, workforce, research and teaching results are reviewed side by side.
+  step: data-and-analytics/use-monitoring-and-upkeep
+  touchpoints:
+  - reporting-portal
+  - board-meeting

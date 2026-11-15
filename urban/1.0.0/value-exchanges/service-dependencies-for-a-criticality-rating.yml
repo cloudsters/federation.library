@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-dependencies-for-a-criticality-rating
+title: Service Dependencies for a Criticality Rating
+between:
+- frontline-worker
+- asset-officer
+offered:
+- Crews' knowledge of which assets fail most often and whom a failure leaves without service.
+returned:
+- A criticality rating that names what fails worst, so that crews are sent there first.
+touchpoint: criticality-rating-workshop

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: proposal-for-a-traceable-path
+title: Proposal for a Traceable Path
+between:
+- resident
+- city-administration
+offered:
+- A proposal for a programme or project, with the objective it serves and its expected benefit.
+returned:
+- A path anyone can trace from the proposal to its appraisal, decision and delivery.
+touchpoint: programme-proposal-portal

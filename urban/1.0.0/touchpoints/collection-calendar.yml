@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: collection-calendar
+title: Collection Calendar
+medium: artefact
+summary: The calendar for each street and building of which waste is collected on which day, by whom and how a missed collection is
+  put right.
+exchanges:
+- waste-set-out-on-the-day-for-a-reliable-round
+journey: resident-separating-and-returning-waste

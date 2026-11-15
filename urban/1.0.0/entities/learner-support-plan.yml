@@ -1,0 +1,63 @@
+kind: entity
+slug: learner-support-plan
+title: Learner Support Plan
+type: transactional
+summary: The support agreed around a learner at risk of leaving learning, with who does what and the learner's own view. The school
+  keeps it with the learner and family, and it is reviewed until the learner is back on track or on another route.
+attributes:
+- name: learner
+  type: identifier
+  card: 1..1
+- name: school
+  type: reference(school)
+  card: 1..1
+- name: signs-recorded
+  type: text
+  card: 1..*
+- name: agreed-support
+  type: text
+  card: 1..*
+- name: responsibilities
+  type: text
+  card: 1..*
+- name: learner-view
+  type: text
+  card: 1..1
+- name: family-involved
+  type: text
+  card: 0..*
+- name: coordinator
+  type: text
+  card: 1..1
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: review-dates
+  type: date
+  card: 0..*
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- opened
+- agreed
+- in-progress
+- reviewed
+- closed
+- referred-on
+relations:
+- type: refers-to
+  target: school
+- type: refers-to
+  target: care-plan
+- type: refers-to
+  target: public-service
+- type: produces
+  target: learning-pathway
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

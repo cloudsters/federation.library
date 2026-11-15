@@ -1,0 +1,10 @@
+kind: capability
+slug: laboratory-quality-assurance
+title: Laboratory Quality Assurance
+level: L3
+parent: laboratory-testing-process
+summary: Assure laboratory quality through internal quality control, external proficiency testing and accreditation.
+binds:
+- source: src-076
+  edition: '2022'
+  jurisdiction: global

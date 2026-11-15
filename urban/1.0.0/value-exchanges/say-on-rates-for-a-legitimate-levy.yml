@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: say-on-rates-for-a-legitimate-levy
+title: Say on Rates for a Legitimate Levy
+between:
+- resident
+- city-council
+offered:
+- Residents' view on the rates and triggers of the levy and on where its proceeds should go.
+returned:
+- A levy set with residents, with its proceeds paid into the commons fund.
+touchpoint: betterment-levy-consultation

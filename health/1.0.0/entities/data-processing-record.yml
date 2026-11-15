@@ -1,0 +1,46 @@
+kind: entity
+slug: data-processing-record
+title: Data Processing Record
+type: governance
+summary: The documented record of one processing of personal data, stating purpose, legal basis, data categories, recipients, retention,
+  safeguards and the impact assessment it required.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: data-categories
+  type: code
+  card: 1..*
+- name: recipients
+  type: reference(organisation)
+  card: 0..*
+- name: retention-period
+  type: quantity
+  card: 1..1
+- name: safeguards
+  type: text
+  card: 0..*
+- name: impact-assessment
+  type: document
+  card: 0..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+states:
+- draft
+- approved
+- in-force
+- under-review
+- ended
+relations:
+- type: based-on
+  target: authorization-by-law
+- type: based-on
+  target: data-use-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,32 @@
+kind: journey
+slug: quality-manager-keeping-the-system-alive
+title: Quality Manager Keeping the System Alive
+stakeholder: quality-manager
+summary: A quality manager turns requirements into a living quality system, carries it into the teams, audits it, brings results to
+  management review and keeps the organisation certified.
+stages:
+- slug: translate-requirements
+  title: Translate Requirements
+  goal: Customer, contractual and legal requirements are turned into quality plans with preventive controls.
+  step: quality-as-vitality/quality-requirements
+  touchpoints:
+  - quality-plan
+- slug: keep-the-system-current
+  title: Keep the System Current
+  goal: Policy, processes, controls and measures are documented, current and carried into the teams by embedded stewards.
+  step: quality-as-vitality/quality-system-and-documented-practice
+  touchpoints:
+  - quality-handbook
+- slug: audit-and-review
+  title: Audit and Review
+  goal: Internal audits test the system, and management reviews the results and decides on improvements and resources.
+  step: quality-as-vitality/quality-review-and-audit
+  touchpoints:
+  - internal-audit
+  - management-review
+- slug: hold-the-certificate
+  title: Hold the Certificate
+  goal: Certification and surveillance audits are passed and their findings closed within the set period.
+  step: quality-as-vitality/certification
+  touchpoints:
+  - certification-audit

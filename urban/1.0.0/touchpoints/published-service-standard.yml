@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-service-standard
+title: Published Service Standard
+medium: artefact
+summary: The published standard of a service, with its response times, accessibility, how to reach a person and the remedy residents
+  receive when it fails.
+exchanges:
+- resident-expectations-for-published-standards
+- failure-account-for-disclosure-and-remedy
+journey: resident-met-by-a-service-failure

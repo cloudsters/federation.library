@@ -1,0 +1,16 @@
+kind: capability
+slug: building-technical-services
+title: Building Technical Services
+level: L3
+parent: facility-operations
+summary: Operate heating, ventilation, power, medical gases and other building systems on which clinical areas depend.
+binds:
+- source: src-302
+  edition: '2016'
+  jurisdiction: global
+- source: src-310
+  edition: '2021'
+  jurisdiction: global
+- source: src-518
+  edition: '2011'
+  jurisdiction: global

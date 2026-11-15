@@ -1,0 +1,43 @@
+kind: entity
+slug: public-funding-allocation
+title: Public Funding Allocation
+type: transactional
+summary: An allocation of public funds for a purpose other than paying for individual cases, such as capital investment, teaching,
+  research base funding or standby capacity, with conditions and reporting duties.
+attributes:
+- name: funding-body
+  type: reference(organisation)
+  card: 1..1
+- name: purpose
+  type: code
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: reporting-due
+  type: date
+  card: 0..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 0..1
+states:
+- applied-for
+- granted
+- disbursed
+- reported
+- reclaimed
+relations:
+- type: governed-by
+  target: compliance-obligation
+- type: refers-to
+  target: capital-project
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

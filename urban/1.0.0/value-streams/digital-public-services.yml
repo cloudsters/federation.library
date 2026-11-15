@@ -1,0 +1,131 @@
+kind: value-stream
+slug: digital-public-services
+title: Digital Public Services
+family: discovery-to-usage
+summary: Turning paper-based and counter-bound services into digital services that every resident can use, without leaving anyone
+  behind. It holds the choice of which services move online and in what order, the redesign of each service from the resident's request
+  to the decision rather than putting forms on a screen, a resident account that asks only once for data the city already holds, an
+  equal route by counter, telephone and assisted help for those who are offline, digital help in libraries and other trusted local
+  places, and a review of who uses each route and who is shut out.
+trigger: A service is still handled on paper or only at a counter, or residents and staff report that its digital route is hard to
+  use or leaves people out.
+outcome: The service can be requested and followed digitally from start to finish, an equal offline and assisted route is in place,
+  and the city knows who uses each route.
+stakeholders:
+- resident
+- older-resident
+- disabled-resident
+- newcomer
+- frontline-worker
+- information-technology-specialist
+- civic-technology-community
+- data-protection-officer
+steps:
+- slug: digital-service-choice
+  title: Digital Service Choice
+  summary: The department and the service council list the services still handled on paper or at a counter and choose which to move
+    first, by how many residents use them, the burden they place on residents and staff, and the risk of shutting people out.
+  capabilities:
+  - service-digitisation-prioritisation
+  - digital-demand-intake
+  entities:
+  - public-service
+  - digital-service
+  - digital-roadmap
+  serves:
+  - digitisation-priority-session
+  - paper-service-inventory
+- slug: end-to-end-service-redesign
+  title: End-to-End Service Redesign
+  summary: Frontline staff and residents redesign the service from the resident's request to the decision and its notice, cutting
+    forms to what is needed, removing steps rather than copying them to a screen, and testing the wording with residents.
+  capabilities:
+  - process-redesign
+  - service-journey-mapping
+  - plain-language-testing
+  entities:
+  - process-map
+  - digital-service
+  - service-journey-map
+  serves:
+  - form-cutting-workshop
+  - plain-language-test-session
+- slug: resident-account-and-once-only-data
+  title: Resident Account and Once-Only Data
+  summary: The service is joined to the resident's account and digital identity, so that residents follow their requests in one place,
+    data the city already holds is asked for only once and only with consent, and residents see which department used it.
+  capabilities:
+  - resident-account-provision
+  - once-only-data-reuse
+  - identity-and-access-control
+  - consent-recording
+  entities:
+  - resident-account
+  - digital-identity
+  - consent-record
+  serves:
+  - data-reuse-consent-prompt
+  - resident-account-page
+- slug: offline-and-assisted-route
+  title: Offline and Assisted Route
+  summary: An equal route by counter, telephone, post and assisted help is kept for residents who are offline or prefer not to use
+    the digital one, with the same deadlines and outcomes and in the languages residents use.
+  capabilities:
+  - assisted-service-route-provision
+  - language-access-provision
+  entities:
+  - digital-service
+  - service-point
+  - service-standard
+  serves:
+  - assisted-help-appointment
+  - counter-telephone-and-post-route
+- slug: digital-help-in-trusted-places
+  title: Digital Help in Trusted Places
+  summary: Libraries, community centres and welcome points offer devices, connection and patient help with digital services, and neighbours
+    trained as digital helpers teach residents to use them.
+  capabilities:
+  - digital-help-provision
+  - community-space-provision
+  - livelihood-skills-teaching
+  entities:
+  - library
+  - community-centre
+  - welcome-point
+  serves:
+  - library-digital-help-desk
+  - neighbour-digital-help-session
+- slug: digital-route-launch
+  title: Digital Route Launch
+  summary: The digital route goes live after testing with residents, residents are told of it through the channels they use, and the
+    paper route is changed only once the digital and assisted routes have shown that they serve.
+  capabilities:
+  - acceptance-testing
+  - solution-go-live
+  - service-launch-communication
+  entities:
+  - digital-service
+  - application
+  serves:
+  - digital-route-launch-notice
+  - go-live-test-with-residents
+- slug: route-use-and-exclusion-review
+  title: Route Use and Exclusion Review
+  summary: The use of each route is reviewed by neighbourhood, age, language and disability, residents who are shut out are asked
+    why, and the service, its help or its offline route is changed.
+  capabilities:
+  - service-route-use-analysis
+  - equity-audit
+  entities:
+  - service-route-use-report
+  - digital-service
+  serves:
+  - published-route-use-report
+  - shut-out-resident-follow-up
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global
+- source: src-249
+  edition: '2019'
+  jurisdiction: global

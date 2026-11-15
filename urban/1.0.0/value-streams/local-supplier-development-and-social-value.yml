@@ -1,0 +1,115 @@
+kind: value-stream
+slug: local-supplier-development-and-social-value
+title: Local Supplier Development and Social Value
+family: source-to-alliance
+summary: Keeping the city's spending circulating in the city and its region, and turning it into stable work and wealth that stays
+  local. It holds the mapping of which purchases leave the region and which local, small, cooperative and resident-owned enterprises
+  could supply them, published multi-year purchasing commitments to such suppliers, support that helps them bid and deliver, fresh
+  food bought for public kitchens from producers of the region, agreements with anchor institutions to do the same, and the yearly
+  report of where the money landed and what it built.
+trigger: The spend analysis shows money leaving the region that local enterprises could earn, the council sets a local purchasing
+  target, or an anchor institution offers to join.
+outcome: A growing and published share of the city's spending goes to local and community-owned suppliers on terms stable enough for
+  them to grow, and residents can see where the money lands.
+stakeholders:
+- procurement-officer
+- local-business
+- social-enterprise
+- local-producer
+- anchor-institution
+- economic-development-officer
+- city-council
+- informal-worker
+steps:
+- slug: local-supply-gap-mapping
+  title: Local Supply Gap Mapping
+  summary: The procurement office and the economic development office map, from the spend profile and the local economy map, which
+    purchases leave the region and which local, small, cooperative and resident-owned enterprises could supply them now or with support.
+  capabilities:
+  - local-supply-gap-mapping
+  - local-economy-mapping
+  - spend-and-demand-analysis
+  entities:
+  - spend-profile
+  - local-economy-map
+  serves:
+  - local-supply-gap-map
+- slug: local-purchasing-commitment
+  title: Local Purchasing Commitment
+  summary: The council sets multi-year targets for spending with local and community-owned suppliers by category and ownership, and
+    the city commits minimum volumes over several years so that suppliers can invest. Targets are public and progress is reported
+    each quarter.
+  capabilities:
+  - purchasing-commitment-setting
+  - category-strategy-setting
+  entities:
+  - purchasing-commitment
+  - council-decision
+  serves:
+  - procurement-committee-session
+  - published-local-purchasing-targets
+- slug: supplier-capacity-building
+  title: Supplier Capacity Building
+  summary: The city and its partners help small, local and cooperative suppliers to bid and deliver, through training in tendering,
+    help with certification, working capital and shared equipment, and through support to convert to worker or community ownership.
+  capabilities:
+  - supplier-capacity-building
+  - shared-business-facility-provision
+  - worker-cooperative-formation-support
+  - cooperative-conversion-support
+  entities:
+  - supplier-development-plan
+  - supplier-record
+  - cooperative
+  serves:
+  - tendering-clinic
+- slug: regional-food-sourcing-for-public-kitchens
+  title: Regional Food Sourcing for Public Kitchens
+  summary: School, care and other public kitchens buy fresh food from producer cooperatives of the region on multi-year contracts
+    with minimum volumes, weekly bands that follow the seasons, open price bands that cover producers' costs and wages, and delivery
+    consolidated through shared hubs.
+  capabilities:
+  - regional-food-sourcing
+  - purchasing-commitment-setting
+  - hub-delivery-scheduling
+  entities:
+  - food-strategy
+  - contract
+  - distribution-hub
+  serves:
+  - producer-and-kitchen-contract-meeting
+  - public-kitchen
+- slug: anchor-institution-purchasing
+  title: Anchor Institution Purchasing
+  summary: The city agrees with hospitals, universities, schools and municipal enterprises to shift their own purchasing toward local
+    and community-owned suppliers, with shared targets, joint supplier development and reporting to the neighbourhoods around them.
+  capabilities:
+  - anchor-institution-agreement-drafting
+  - purchasing-commitment-setting
+  - local-spend-reporting
+  entities:
+  - anchor-institution-agreement
+  - purchasing-commitment
+  - municipal-enterprise
+  serves:
+  - purchasing-partners-meeting
+- slug: local-spend-and-social-value-report
+  title: Local Spend and Social Value Report
+  summary: Each year the city reports with communities the share of spending that went to local, small, cooperative and resident-owned
+    suppliers by neighbourhood and group, the jobs, wages and training those contracts brought, and whether the targets were met,
+    and the council adjusts them.
+  capabilities:
+  - local-spend-reporting
+  - social-value-commitment-tracking
+  - spending-outcome-review
+  entities:
+  - local-spend-report
+  - purchasing-commitment
+  - economic-indicators
+  serves:
+  - local-spend-report-assembly
+  - published-local-spend-report
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global

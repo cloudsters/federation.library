@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: park-care-records-for-a-shared-load
+title: Park Care Records for a Shared Load
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- Records of the paid and unpaid care that keeps shared places going.
+returned:
+- An agreed way of counting that work and sharing it fairly between the city and the neighbourhood.
+touchpoint: care-work-mapping-circle

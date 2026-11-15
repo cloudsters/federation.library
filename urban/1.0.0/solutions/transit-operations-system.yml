@@ -1,0 +1,16 @@
+kind: solution
+slug: transit-operations-system
+title: Transit Operations System
+role: platform
+summary: Plans routes and timetables, assigns vehicles and crews, steers services from the control room, keeps the record of stops
+  and their access features, runs shared mobility schemes and feeds real-time information to riders.
+carries:
+- route-and-timetable-planning
+- transport-service-operation
+- stop-and-station-upkeep
+- shared-mobility-scheme-operation
+holds:
+- transit-line
+- timetable
+- transit-stop
+- shared-mobility-scheme

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: study-data-capture
+title: Study Data Capture
+medium: channel
+summary: The electronic channel through which site staff enter study data, answer data queries and sign off case reports for the sponsor.
+exchanges:
+- site-performance-for-sponsorship
+journey: placing-a-trial-at-the-site

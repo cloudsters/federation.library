@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: workload-account-for-a-decided-mandate
+title: Workload Account for a Decided Mandate
+between:
+- frontline-worker
+- city-administration
+offered:
+- Their account of how the agent changed their workload and where it erred.
+returned:
+- A mandate renewed, changed or ended in the light of what they reported.
+touchpoint: joint-teaming-review

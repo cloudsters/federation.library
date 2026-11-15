@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: traceability-record
+title: Traceability Record
+medium: artefact
+summary: The record that links each unit, lot or delivered result to its inputs, operations and test results, so that any defect can
+  be traced and contained and any question about origin answered.
+exchanges:
+- traceable-goods-for-series-acceptance
+journey: customer-receiving-traceable-goods

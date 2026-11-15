@@ -1,0 +1,37 @@
+kind: solution
+slug: incident-and-complaint-management
+title: Incident and Complaint Management
+role: system-of-record
+summary: Collects incidents, near misses, adverse events and complaints, supports their analysis, peer case review and response,
+  and feeds the lessons learned into corrective action and external safety reporting.
+carries:
+- incident-reporting-and-learning
+- serious-event-management
+- root-cause-analysis
+- clinical-risk-sensing
+- open-disclosure
+- staff-support-after-adverse-events
+- patient-safety-culture-development
+- complaint-management
+- patient-advocacy
+- clinical-peer-review
+- morbidity-and-mortality-review
+- regulatory-incident-reporting
+- pharmacovigilance
+- workplace-violence-prevention
+- medication-safety-programme
+holds:
+- incident
+- adverse-event
+- complaint
+- case-review
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: data-quality-dashboard
+title: Data Quality Dashboard
+medium: channel
+summary: The public view of the completeness, correctness and timeliness of each data set, with the defects reported and the gaps
+  in coverage recorded.
+exchanges:
+- resident-measurements-for-a-place-in-city-data
+- defect-reports-for-correction-at-source
+journey: neighbourhood-association-measuring-its-own-air

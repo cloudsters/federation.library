@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: permit-application-for-building-approval
+title: Permit Application for Building Approval
+between:
+- facility-engineer
+- local-authority
+offered:
+- A complete application with design, fire safety, environmental and traffic reports, and compliance with every condition during the
+  works.
+returned:
+- Timely decisions on the building permit and the approval for occupancy, with conditions that are clear and proportionate.
+touchpoint: permit-application

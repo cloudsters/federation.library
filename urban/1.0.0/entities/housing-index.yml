@@ -1,0 +1,51 @@
+kind: entity
+slug: housing-index
+title: Housing Index
+type: intelligence
+summary: The ratio of housing costs to local incomes by neighbourhood and household type, updated each year. The housing office compiles
+  it from rents, prices and incomes, and it is used to set the housing policy and to review who can still afford to stay in each neighbourhood.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: median-rents
+  type: amount
+  card: 0..*
+- name: median-incomes
+  type: amount
+  card: 0..*
+- name: cost-to-income-ratios
+  type: decimal
+  card: 1..*
+- name: burdened-households
+  type: integer
+  card: 0..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+states:
+- collected
+- validated
+- published
+- superseded
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: dwelling
+- type: refers-to
+  target: land-value-map

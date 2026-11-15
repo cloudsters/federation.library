@@ -1,0 +1,10 @@
+kind: solution
+slug: collection-management-system
+title: Collection Management System
+role: system-of-record
+summary: Holds the objects, records and works of the city's museums and archives with the choices made on their display and interpretation,
+  including those made with communities.
+carries:
+- shared-collection-curation
+holds:
+- cultural-collection

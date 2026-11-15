@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-city-objectives
+title: Published City Objectives
+medium: artefact
+summary: The published list of the city's objectives for the term, each with its owner, its measures and the departments and neighbourhoods
+  it binds.
+exchanges:
+- objectives-for-plans-that-commit-to-them
+- strategy-in-plain-terms-for-residents-who-hold-it
+journey: mayor-shaping-the-strategy-of-the-term

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: central-store
+title: Central Store
+medium: place
+summary: The central warehouse where consumables, implants and other materials are stored under the required conditions, picked and
+  dispatched to the units of all sites.
+exchanges:
+- ready-case-cart-for-complete-implant-records
+- early-warning-for-fair-allocation
+journey: keeping-the-ward-supplied

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: conformity-evidence-for-local-adoption
+title: Conformity Evidence for Local Adoption
+between:
+- supplier
+- health-informatics-specialist
+offered:
+- The provider supplies technical documentation, performance evidence, a change plan and information from use elsewhere.
+returned:
+- The organisation validates the system on its own data, gives a clear decision and reports performance problems back to the provider.
+touchpoint: ai-governance-board

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: test-findings-for-a-stable-launch
+title: Test Findings for a Stable Launch
+between:
+- resident
+- city-administration
+offered:
+- Findings from testing the service against what was agreed.
+returned:
+- Defects fixed before go-live, and notice of when the service starts.
+touchpoint: acceptance-test-session

@@ -1,0 +1,42 @@
+kind: entity
+slug: accreditation
+title: Accreditation
+type: governance
+summary: Recognition by an external body that the enterprise, a site or an offering meets a defined standard, such as a certified
+  management system, a product approval or an approved-supplier status, granted after assessment and renewed by surveillance.
+attributes:
+- name: accrediting-body
+  type: reference(counterparty)
+  card: 1..1
+- name: scope-units
+  type: reference(department)
+  card: 0..*
+- name: scope-products
+  type: reference(product)
+  card: 0..*
+- name: standard-reference
+  type: text
+  card: 1..1
+- name: granted-on
+  type: date
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: next-surveillance
+  type: date
+  card: 0..1
+states:
+- applied-for
+- in-assessment
+- granted
+- conditional
+- suspended
+- withdrawn
+- expired
+relations:
+- type: based-on
+  target: audit

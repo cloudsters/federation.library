@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ambulance-handover
+title: Ambulance Handover
+medium: encounter
+summary: The handover of an emergency patient from the ambulance crew to the emergency team, with the findings and treatment from
+  before arrival.
+exchanges:
+- pre-alert-for-a-ready-team
+journey: emergency-medical-service-handover-journey

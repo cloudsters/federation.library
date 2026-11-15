@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: outage-account-for-improved-fallbacks
+title: Outage Account for Improved Fallbacks
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- An account of how the outage reached the neighbourhood and what the fallbacks did.
+returned:
+- Fallbacks and plans improved where the account shows they failed.
+touchpoint: security-audit-report

@@ -1,0 +1,43 @@
+kind: entity
+slug: business-case
+title: Business Case
+type: transactional
+summary: The documented case for a proposed service, technology or other change, stating need, options, expected benefit, volumes,
+  costs, payment route and risks, on which the responsible body decides.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: proposing-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: options
+  type: text
+  card: 1..*
+- name: expected-benefit
+  type: text
+  card: 1..1
+- name: expected-volume
+  type: quantity
+  card: 0..1
+- name: cost
+  type: amount
+  card: 1..1
+- name: funding-route
+  type: code
+  card: 0..1
+- name: risks
+  type: text
+  card: 0..*
+states:
+- draft
+- submitted
+- approved
+- approved-with-conditions
+- rejected
+- withdrawn
+relations:
+- type: refers-to
+  target: care-service
+- type: based-on
+  target: capacity-forecast

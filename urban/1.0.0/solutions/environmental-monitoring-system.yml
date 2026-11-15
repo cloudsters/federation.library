@@ -1,0 +1,10 @@
+kind: solution
+slug: environmental-monitoring-system
+title: Environmental Monitoring System
+role: system-of-insight
+summary: Gathers readings of air quality, noise, heat and surface water from the city's and residents' sensors, publishes them as
+  they come in and maps exposure by neighbourhood and time of day.
+carries:
+- environmental-quality-monitoring
+holds:
+- noise-map

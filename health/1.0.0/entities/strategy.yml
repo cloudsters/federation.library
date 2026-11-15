@@ -1,0 +1,31 @@
+kind: entity
+slug: strategy
+title: Strategy
+type: governance
+summary: The organisation's adopted direction for care, research, teaching and enterprise over a planning horizon, stating
+  its priorities, its intended place in the care network and the objectives that make it measurable.
+attributes:
+- name: strategy-scope
+  type: code
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: priorities
+  type: text
+  card: 1..*
+- name: adopted-by
+  type: reference(governance-body)
+  card: 1..1
+- name: document
+  type: document
+  card: 1..1
+states:
+- draft
+- adopted
+- in-execution
+- under-review
+- closed
+relations:
+- type: governed-by
+  target: charter

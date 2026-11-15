@@ -1,0 +1,43 @@
+kind: journey
+slug: complementor-building-on-the-organisations-platform
+title: Complementor Building on the Organisation's Platform
+stakeholder: partner
+summary: A complementor understands the terms of participation, builds on composable modules and published interfaces, is listed,
+  embeds the offering for its own customers and reviews the relationship.
+stages:
+- slug: understand-the-terms
+  title: Understand the Terms
+  goal: The complementor knows its role, its rights and the value it gains.
+  step: platform-ecosystem-distribution/platform-model-design
+  touchpoints:
+  - platform-participation-terms
+- slug: find-the-modules
+  title: Find the Modules
+  goal: The offering's modules can be combined and extended without losing integrity.
+  step: platform-ecosystem-distribution/composable-offering-preparation
+  touchpoints:
+  - developer-portal
+- slug: use-the-interfaces
+  title: Use the Interfaces
+  goal: Versioned, documented interfaces are available with notice of changes.
+  step: platform-ecosystem-distribution/interface-publication
+  touchpoints:
+  - developer-portal
+- slug: be-listed
+  title: Be Listed
+  goal: The complementor's offer is listed and matched to demand.
+  step: platform-ecosystem-distribution/marketplace-listing-and-curation
+  touchpoints:
+  - marketplace-listing
+- slug: embed-for-its-customers
+  title: Embed for Its Customers
+  goal: The complementor is admitted on fair terms and supported in embedding the offering.
+  step: platform-ecosystem-distribution/complementor-onboarding-and-embedding
+  touchpoints:
+  - integration-support
+- slug: review-the-relationship
+  title: Review the Relationship
+  goal: Reach, usage and partnership health are reviewed and terms adjusted where needed.
+  step: platform-ecosystem-distribution/reach-and-ecosystem-health-review
+  touchpoints:
+  - ecosystem-review

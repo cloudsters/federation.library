@@ -1,0 +1,43 @@
+kind: entity
+slug: referral-relationship
+title: Referral Relationship
+type: master
+summary: The continuing relationship between the organisation and a referring practice or provider, with the services used,
+  communication channels and agreed standards, which the organisation steers as part of its network.
+attributes:
+- name: partner
+  type: reference(organisation)
+  card: 1..1
+- name: responsible-units
+  type: reference(organisation-unit)
+  card: 0..*
+- name: services
+  type: reference(care-service)
+  card: 0..*
+- name: communication-channels
+  type: code
+  card: 0..*
+- name: agreed-standards
+  type: text
+  card: 0..*
+- name: relationship-manager
+  type: reference(employee)
+  card: 0..1
+states:
+- prospective
+- active
+- dormant
+- ended
+relations:
+- type: governed-by
+  target: contract
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

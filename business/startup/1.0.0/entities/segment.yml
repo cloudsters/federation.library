@@ -1,0 +1,31 @@
+kind: entity
+slug: segment
+title: Segment
+type: intelligence
+summary: A living group — a dynamically computed collection of contacts or customers based on behaviour, attributes, or rules. Unlike
+  a market segment (M13) which is a static classification, a segment recalculates continuously, reflecting the system’s evolving understanding
+  of who its participants are.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: rule-set
+  type: text
+  card: 1..1
+- name: members
+  type: reference(contact)
+  card: 0..*
+- name: size
+  type: integer
+  card: 0..1
+- name: triggered-actions
+  type: text
+  card: 0..*
+states:
+- defined
+- computing
+- refined
+- retired
+relations:
+- type: refers-to
+  target: market-segment

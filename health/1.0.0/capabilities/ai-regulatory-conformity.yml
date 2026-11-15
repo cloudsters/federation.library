@@ -1,0 +1,10 @@
+kind: capability
+slug: ai-regulatory-conformity
+title: AI Regulatory Conformity
+level: L3
+parent: ai-governance-and-assurance
+summary: 'Meet the regulatory requirements for high-risk AI: risk management, data governance, human oversight and logging.'
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

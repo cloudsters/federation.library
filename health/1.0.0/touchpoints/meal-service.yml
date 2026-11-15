@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: meal-service
+title: Meal Service
+medium: encounter
+summary: The serving of meals at the bedside or in the ward's dining area, with help for patients who need assistance with eating
+  and drinking.
+exchanges:
+- dietary-needs-for-fitting-meals
+- diet-prescription-for-safe-meals
+journey: hospital-stay-comfort-journey

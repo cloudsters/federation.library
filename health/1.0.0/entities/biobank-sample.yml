@@ -1,0 +1,57 @@
+kind: entity
+slug: biobank-sample
+title: Biobank Sample
+type: transactional
+summary: A biological sample stored for research under documented consent, with its origin, type, aliquots, storage position and quality,
+  and released only through an approved access request.
+attributes:
+- name: sample-identifier
+  type: identifier
+  card: 1..1
+- name: donor
+  type: reference(patient)
+  card: 1..1
+- name: source-specimen
+  type: reference(specimen)
+  card: 0..1
+- name: sample-type
+  type: code
+  card: 1..1
+- name: storage-position
+  type: identifier
+  card: 0..1
+- name: quality
+  type: code
+  card: 0..1
+- name: data-use-consent
+  type: reference(data-use-consent)
+  card: 1..1
+- name: collected-at
+  type: datetime
+  card: 1..1
+states:
+- collected
+- processed
+- stored
+- reserved
+- released
+- depleted
+- destroyed
+relations:
+- type: based-on
+  target: data-use-consent
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-422
+  edition: Core-3.0
+  jurisdiction: global

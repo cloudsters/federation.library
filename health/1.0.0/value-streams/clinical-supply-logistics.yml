@@ -1,0 +1,168 @@
+kind: value-stream
+slug: clinical-supply-logistics
+title: Clinical Supply Logistics
+family: source-to-alliance
+summary: 'Getting medical consumables and implants to the point of care: demand forecasting, warehousing, ward replenishment, consignment
+  stock, implant traceability and returns.'
+trigger: Stock at a ward, theatre or store reaches its reorder point, or a non-stock item is requested.
+outcome: The required items are available at the point of care when needed, and every implant is traceable to the patient.
+stakeholders:
+- registered-nurse
+- surgeon
+- support-services-staff
+- administrative-staff
+- supplier
+- operations-planning-agent
+steps:
+- slug: demand-and-stock-planning
+  title: Demand and Stock Planning
+  summary: Demand for consumables and implants is forecast from theatre schedules, admissions, seasonal patterns and consumption,
+    and each storage location's assortment, reorder points and safety stocks for critical items are set and reviewed.
+  capabilities:
+  - material-demand-sensing
+  - materials-availability-planning
+  - predictive-analytics
+  - logistics-strategy-design
+  - master-data-stewardship
+  entities:
+  - capacity-forecast
+  - inventory-item
+  - surgical-case
+  - stock-movement
+  serves:
+  - clinical-workstation
+  - point-of-care-store
+  - supply-contract
+  - supply-dashboard
+- slug: replenishment-triggering
+  title: Replenishment Triggering
+  summary: Point-of-care stock is monitored by scanning, two-bin or weighing systems; an item reaching its reorder point triggers
+    replenishment from the central store or an order to the supplier, and non-stock items are requisitioned.
+  capabilities:
+  - point-of-care-replenishment
+  - procurement-ordering
+  - blanket-order-management
+  - clinical-warehousing-and-inventory
+  entities:
+  - inventory-item
+  - purchase-requisition
+  - purchase-order
+  - stock-movement
+  serves:
+  - ordering-catalogue
+  - point-of-care-store
+- slug: receipt-and-storage
+  title: Receipt and Storage
+  summary: Deliveries are received, inspected and recorded with batch, serial number and expiry, then stored under the required conditions
+    in the central store, or passed directly to the unit, including supplier-owned consignment stock.
+  capabilities:
+  - inbound-flow-orchestration
+  - clinical-warehousing-and-inventory
+  - serial-number-tracking
+  - consignment-stock-management
+  entities:
+  - goods-receipt
+  - inventory-item
+  - stock-movement
+  serves:
+  - goods-receiving
+  - point-of-care-store
+  - central-store
+- slug: picking-and-distribution
+  title: Picking and Distribution
+  summary: Orders are picked, case carts for scheduled operations are assembled from preference lists, and goods are delivered to
+    wards, theatres and sites on fixed routes and times, with urgent deliveries on call.
+  capabilities:
+  - internal-distribution
+  - clinical-warehousing-and-inventory
+  - point-of-care-replenishment
+  - theatre-day-coordination
+  entities:
+  - stock-movement
+  - inventory-item
+  - surgical-case
+  serves:
+  - case-cart
+  - operating-theatre
+  - point-of-care-store
+  - ward
+  - central-store
+- slug: use-and-consumption-recording
+  title: Use and Consumption Recording
+  summary: At the point of care, implants and high-cost materials are scanned to the patient and the procedure; consumption is booked
+    to the case and the cost centre, and consignment items used are reported to the supplier for replacement and billing.
+  capabilities:
+  - implant-and-material-documentation
+  - serial-number-tracking
+  - consignment-stock-management
+  - charge-capture
+  - supplementary-payment-management
+  entities:
+  - implant
+  - procedure
+  - stock-movement
+  - charge-item
+  - inventory-item
+  serves:
+  - clinical-workstation
+  - operating-theatre
+  - supplier-portal
+- slug: stock-control
+  title: Stock Control
+  summary: Stock is counted and reconciled with the records, items near expiry are rotated or redistributed, discrepancies are explained
+    and corrected, and slow-moving stock is reduced.
+  capabilities:
+  - stock-reconciliation-practice
+  - clinical-warehousing-and-inventory
+  - serial-number-tracking
+  - cost-management
+  entities:
+  - inventory-item
+  - stock-movement
+  serves:
+  - point-of-care-store
+  - central-store
+- slug: supply-disruption-response
+  title: Supply Disruption Response
+  summary: Supplier failures, delivery delays and demand surges are detected early; remaining stock is secured and allocated by clinical
+    priority, approved alternatives are sourced and introduced, and the units concerned are informed.
+  capabilities:
+  - supply-disruption-management
+  - materials-availability-planning
+  - vendor-risk-management
+  - clinical-product-value-analysis
+  - business-continuity-design
+  entities:
+  - supply-shortage
+  - inventory-item
+  - supplier-organisation
+  serves:
+  - shortage-notice
+  - supply-dashboard
+- slug: returns-and-disposal
+  title: Returns and Disposal
+  summary: Unused, defective, expired and recalled items are withdrawn and quarantined, then returned to the supplier for credit or
+    disposed of lawfully; for a recalled implant, the patients who received it are identified from the implant records.
+  capabilities:
+  - returns-reverse-logistics
+  - product-recall-management
+  - supplier-recovery
+  - hazardous-waste-management
+  - serial-number-tracking
+  entities:
+  - stock-movement
+  - inventory-item
+  - implant
+  - goods-receipt
+  serves:
+  - clinical-workstation
+  - point-of-care-store
+  - supplier-portal
+  - central-store
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

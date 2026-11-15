@@ -1,0 +1,50 @@
+kind: entity
+slug: proxy-mandate
+title: Proxy Mandate
+type: governance
+summary: A care mandate that entitles a related person to decide for a patient who cannot or chooses not to decide alone,
+  such as a parent, guardian or appointed representative, within a defined scope of decisions.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: proxy
+  type: reference(related-person)
+  card: 1..1
+- name: proxy-kind
+  type: code
+  card: 1..1
+- name: scope
+  type: code
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- claimed
+- verified
+- effective
+- ended
+relations:
+- type: refers-to
+  target: care-mandate
+- type: based-on
+  target: authorization-by-law
+- type: based-on
+  target: advance-directive
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

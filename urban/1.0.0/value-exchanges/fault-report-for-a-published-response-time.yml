@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fault-report-for-a-published-response-time
+title: Fault Report for a Published Response Time
+between:
+- resident
+- city-administration
+offered:
+- A report of a fault by any route, with its place and a photograph where possible.
+returned:
+- A response time set by risk and published, and a reference to follow the fault to completion.
+touchpoint: fault-reporting-line

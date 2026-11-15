@@ -1,0 +1,54 @@
+kind: journey
+slug: going-home-journey
+title: Going Home Journey
+stakeholder: older-person-with-frailty
+summary: An older person plans the way home from admission, has help and aids arranged, knows the date, leaves with papers, medicines
+  and instructions on time, and is called after discharge.
+stages:
+- slug: plan-for-home-early
+  title: Plan for Home Early
+  goal: Talk early about going home and the help that will be needed.
+  step: discharge-and-care-transition/discharge-planning-from-admission
+  touchpoints:
+  - discharge-planning-meeting
+- slug: have-help-arranged
+  title: Have Help Arranged
+  goal: Have rehabilitation, care and aids arranged in time.
+  step: discharge-and-care-transition/post-acute-care-arrangement
+  touchpoints:
+  - discharge-planning-meeting
+- slug: know-the-date
+  title: Know the Date
+  goal: Know the day and time of discharge in advance.
+  step: discharge-and-care-transition/readiness-assessment
+  touchpoints:
+  - discharge-planning-meeting
+  - ward-round
+- slug: get-the-papers-and-medicines
+  title: Get the Papers and Medicines
+  goal: Receive the letter, the medication plan and the medicines in hand.
+  step: discharge-and-care-transition/discharge-documents-and-medication
+  touchpoints:
+  - discharge-letter
+  - medication-plan
+- slug: know-what-to-do
+  title: Know What to Do
+  goal: Know what to watch for, how to take the medicines and whom to call.
+  step: discharge-and-care-transition/patient-and-carer-education
+  touchpoints:
+  - ward
+  - medication-plan
+  - home-programme
+- slug: leave-on-time
+  title: Leave on Time
+  goal: Leave at the agreed time with transport, without waiting all afternoon.
+  step: discharge-and-care-transition/discharge-and-handover
+  touchpoints:
+  - discharge-lounge
+  - patient-transport
+- slug: be-called-after
+  title: Be Called After
+  goal: Receive a call in the first days and have problems solved.
+  step: discharge-and-care-transition/follow-up-contact
+  touchpoints:
+  - follow-up-call

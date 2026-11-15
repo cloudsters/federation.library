@@ -1,0 +1,11 @@
+kind: body
+slug: election-administration
+title: Election Administration
+summary: Keeps the electoral register, reaches eligible residents missing from it, organises nominations and polling places and counts
+  the votes.
+holds:
+- electoral-register-keeping
+- election-organisation
+part_of: electoral-committee
+type: function
+form: organisational-unit

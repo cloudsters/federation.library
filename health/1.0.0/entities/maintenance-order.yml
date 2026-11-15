@@ -1,0 +1,56 @@
+kind: entity
+slug: maintenance-order
+title: Maintenance Order
+type: transactional
+summary: An order to inspect, maintain, calibrate or repair a device, an installation or a building element, planned or on failure,
+  recorded with the work done, the downtime and the release for use.
+attributes:
+- name: medical-device
+  type: reference(medical-device)
+  card: 0..1
+- name: facility
+  type: reference(facility)
+  card: 0..1
+- name: maintenance-kind
+  type: code
+  card: 1..1
+- name: requested-at
+  type: datetime
+  card: 1..1
+- name: internal-performer
+  type: reference(employee)
+  card: 0..1
+- name: external-performer
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: downtime
+  type: period
+  card: 0..1
+- name: result
+  type: code
+  card: 0..1
+states:
+- requested
+- planned
+- in-progress
+- completed
+- released
+- cancelled
+relations:
+- type: refers-to
+  target: medical-device
+- type: governed-by
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-295
+  edition: '2014'
+  jurisdiction: global

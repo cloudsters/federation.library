@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: marketplace-listing
+title: Marketplace Listing
+medium: artefact
+summary: The entry of an offering on an external or own marketplace, with description, price, terms and the ratings of buyers.
+exchanges:
+- curated-listing-for-trusted-choice
+journey: business-customer-using-the-offering-inside-its-own-workflows

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-escalation
+title: Agent Escalation
+medium: encounter
+summary: The handover of a case from an agent to the responsible person when an escalation trigger fires, with the history and options
+  that let the person decide.
+exchanges:
+- bounded-mandate-for-accountable-action
+journey: buyer-mandating-an-agent-to-source-in-the-network

@@ -1,0 +1,40 @@
+kind: journey
+slug: research-institution-researching-with-the-city
+title: Research Institution Researching with the City
+stakeholder: research-institution
+summary: A research institution takes up questions from the city's research agenda, agrees open terms and residents' say, researches
+  with residents and workers as co-investigators, evaluates a trial and returns its data and findings to those who took part.
+stages:
+- slug: take-up-the-city-questions
+  title: Take Up the City's Questions
+  goal: The institution finds in the published agenda the questions the city most needs answered and chooses those it can work on.
+  step: urban-research-and-experimentation/research-agenda
+  touchpoints:
+  - published-research-agenda
+- slug: agree-open-terms
+  title: Agree Open Terms
+  goal: Shared questions, open access to findings and to campus resources, and residents' say in the research are agreed.
+  step: urban-research-and-experimentation/research-partnership
+  touchpoints:
+  - research-partnership-negotiation
+- slug: research-with-co-investigators
+  title: Research with Co-Investigators
+  goal: Residents, frontline workers and researchers gather and interpret the data together, and those who give their time are paid
+    or credited.
+  step: urban-research-and-experimentation/co-research
+  touchpoints:
+  - co-research-team-meeting
+- slug: evaluate-the-trial
+  title: Evaluate the Trial
+  goal: The trial's results are analysed against the measures set at its start, together with what residents and staff recorded.
+  step: urban-research-and-experimentation/trial-running-and-evaluation
+  touchpoints:
+  - trial-observation-log
+- slug: return-data-and-findings
+  title: Return Data and Findings
+  goal: Findings are reported back to the neighbourhoods and workers who took part, and the data are released as open data where privacy
+    allows.
+  step: urban-research-and-experimentation/return-of-data-and-findings
+  touchpoints:
+  - findings-return-meeting
+  - open-research-data-release

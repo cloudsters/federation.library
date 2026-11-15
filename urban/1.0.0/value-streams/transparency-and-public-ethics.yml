@@ -1,0 +1,123 @@
+kind: value-stream
+slug: transparency-and-public-ethics
+title: Transparency and Public Ethics
+family: perception-to-mandate
+summary: Keeping the city's decisions, money and conduct open to residents, public by default with reasoned and dated exemptions,
+  information on request, declared interests and a code of conduct for officials and councillors, automated systems open to inspection,
+  and protected reporting and investigation of misconduct.
+trigger: A decision, budget or contract is made, a resident requests information, an official's interest arises, an automated system
+  is introduced, or misconduct is reported.
+outcome: Records are public unless an exemption is justified and dated, interests are declared, automated systems are listed and open
+  to challenge, and reported misconduct is investigated with the reporter protected.
+stakeholders:
+- resident
+- news-media
+- city-council
+- city-administration
+- technology-supplier
+- civil-society-organisation
+steps:
+- slug: disclosure-rule-setting
+  title: Disclosure Rule Setting
+  summary: The council sets that records, budgets, contracts and deliberations are public by default, and that each exemption needs
+    a written reason, a review date and an entry in a public register of exemptions.
+  capabilities:
+  - disclosure-rule-setting
+  - council-decision-recording
+  entities:
+  - disclosure-policy
+  - council-decision
+  serves:
+  - council-meeting
+  - exemption-register
+- slug: public-record-publication
+  title: Public Record Publication
+  summary: Decisions, budgets, spending, contracts and their reasoning are published in plain language and in formats residents can
+    search and reuse.
+  capabilities:
+  - public-record-publication
+  - disclosure-rule-setting
+  entities:
+  - public-record
+  - municipal-budget
+  - public-procurement
+  - contract
+  serves:
+  - city-transparency-site
+- slug: information-request-handling
+  title: Information Request Handling
+  summary: Residents and organisations request records, each request is answered within its deadline, and any refusal names the exemption
+    it relies on and how to challenge it.
+  capabilities:
+  - information-request-handling
+  - disclosure-rule-setting
+  entities:
+  - information-request
+  - public-record
+  - disclosure-policy
+  serves:
+  - information-request-desk
+- slug: interest-and-conduct-declaration
+  title: Interest and Conduct Declaration
+  summary: Councillors and officials accept the code of conduct, declare their interests, gifts and other roles, and step back from
+    decisions in which they have a stake.
+  capabilities:
+  - public-ethics-code-drafting
+  - interest-declaration-handling
+  entities:
+  - code-of-conduct
+  - interest-declaration
+  serves:
+  - council-meeting
+  - register-of-interests
+- slug: automated-system-disclosure
+  title: Automated System Disclosure
+  summary: Every algorithm, camera and sensor the city uses to allocate services, enforce rules or watch public space is listed with
+    its purpose, data and known limits, residents can inspect and challenge its decisions, and systems that lack consent are halted.
+  capabilities:
+  - automated-decision-oversight
+  - information-request-handling
+  - decision-impact-assessment
+  entities:
+  - automated-system-register
+  - information-request
+  serves:
+  - algorithm-and-sensor-list
+  - information-request-desk
+- slug: misconduct-investigation
+  title: Misconduct Investigation
+  summary: Reports of misconduct reach the city through confidential channels, the reporter is protected, the facts are established
+    independently, and the outcome decides correction, sanction and notification.
+  capabilities:
+  - misconduct-reporting-and-investigation
+  - interest-declaration-handling
+  - legal-advice
+  entities:
+  - misconduct-report
+  - interest-declaration
+  serves:
+  - confidential-reporting-channel
+  - investigation-interview
+- slug: openness-review
+  title: Openness Review
+  summary: The pattern of exemptions, refusals and late answers is reviewed with resident inspectors and published, and the disclosure
+    rules and the code of conduct are changed where they protect power rather than privacy or safety.
+  capabilities:
+  - disclosure-rule-setting
+  - resident-inspection-support
+  - public-ethics-code-drafting
+  entities:
+  - disclosure-policy
+  - code-of-conduct
+  - oversight-report
+  serves:
+  - committee-meeting
+  - openness-review-report
+start: true
+binds:
+- source: src-174
+  edition: '2021'
+  jurisdiction: global
+- source: src-186
+  edition: '2017-12-14'
+  jurisdiction: global

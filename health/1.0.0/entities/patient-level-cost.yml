@@ -1,0 +1,43 @@
+kind: entity
+slug: patient-level-cost
+title: Patient-Level Cost
+type: intelligence
+summary: The cost of one case, allocated from cost centres to the activities it consumed, such as nursing days, operating time, diagnostics
+  and materials, and set against its revenue to show contribution by case, service and unit.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: total-cost
+  type: amount
+  card: 1..1
+- name: cost-components
+  type: document
+  card: 0..1
+- name: revenue
+  type: amount
+  card: 0..1
+- name: case-group
+  type: reference(case-group)
+  card: 0..1
+- name: costing-period
+  type: period
+  card: 1..1
+- name: costing-method
+  type: code
+  card: 1..1
+states:
+- calculated
+- validated
+relations:
+- type: based-on
+  target: charge-item
+- type: based-on
+  target: cost-centre
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

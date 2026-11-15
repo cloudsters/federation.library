@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-contracts-for-resident-scrutiny
+title: Open Contracts for Resident Scrutiny
+between:
+- city-administration
+- resident-inspector
+offered:
+- Access to the city's contracts, their variations and their records.
+returned:
+- Independent findings that show where a contract delivers and where it falls short.
+touchpoint: published-contract-register

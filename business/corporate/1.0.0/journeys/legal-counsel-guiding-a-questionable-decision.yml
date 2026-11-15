@@ -1,0 +1,53 @@
+kind: journey
+slug: legal-counsel-guiding-a-questionable-decision
+title: Legal Counsel Guiding a Questionable Decision
+stakeholder: legal-risk-and-compliance-professional
+summary: Internal counsel keeps law and ethics in one practice, from the code of conduct through a matter where an action is lawful
+  but questionable, to outside advice, protected rights and the lesson written back.
+stages:
+- slug: keep-the-code-alive
+  title: Keep the Code Alive
+  goal: The code of conduct is current, tested against new challenges and published where everyone works.
+  step: ethical-practice-design/ethical-framework
+  touchpoints:
+  - code-of-conduct
+  - intranet
+- slug: run-preventive-training
+  title: Run Preventive Training
+  goal: The roles most exposed to legal risk are trained and their compliance confirmed.
+  step: ethical-practice-design/preventive-law-programme
+  touchpoints:
+  - compliance-training
+- slug: take-on-the-matter
+  title: Take On the Matter
+  goal: Each question or report is recorded as a matter, the reporter protected and the handler decided.
+  step: ethical-practice-design/matter-intake
+  touchpoints:
+  - speak-up-channel
+- slug: advise-on-law-and-ethics
+  title: Advise on Law and Ethics
+  goal: Leadership receives advice weighed against both the law and the ethical framework, and outside counsel works to the same standard.
+  step: ethical-practice-design/legal-counsel
+  touchpoints:
+  - legal-advice-session
+  - outside-counsel-brief
+- slug: decide-what-to-protect
+  title: Decide What to Protect
+  goal: The rights worth protecting are registered and maintained, consistent with the organisation's openness commitments.
+  step: ethical-practice-design/intellectual-property-protection
+  touchpoints:
+  - intellectual-property-register
+- slug: seek-repair-before-court
+  title: Seek Repair Before Court
+  goal: Disputes go to dialogue and mediation first, and litigation is chosen only where repair has failed.
+  step: ethical-practice-design/dispute-resolution
+  touchpoints:
+  - mediation-session
+  - outside-counsel-brief
+- slug: write-the-lesson-back
+  title: Write the Lesson Back
+  goal: What the matter taught is written into the code, the training and the standard agreements.
+  step: ethical-practice-design/lessons-into-practice
+  touchpoints:
+  - code-of-conduct
+  - compliance-training

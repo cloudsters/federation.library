@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: joint-teaming-review
+title: Joint Teaming Review
+medium: encounter
+summary: The regular review in which staff, overseers and the service look at what a human-agent team achieved, where the agent erred
+  and how workload changed, and renew, change or end the agent's mandate.
+exchanges:
+- agent-work-for-a-bounded-mandate
+- workload-account-for-a-decided-mandate
+journey: frontline-worker-working-beside-an-ai-agent

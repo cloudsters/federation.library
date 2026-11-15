@@ -1,0 +1,19 @@
+kind: journey
+slug: patient-organisation-shaping-the-mission
+title: Patient Organisation Shaping the Mission
+stakeholder: patient-organisation
+summary: 'The patient organisation''s side of institutional identity and mission: bringing the priorities of patients and
+  their families into the mission while it is open, and finding them in the statement the commons adopts.'
+stages:
+- slug: being-heard-while-it-is-open
+  title: Being Heard while It Is Open
+  goal: Bring the priorities and experience of people living with illness into the mission before it is drafted.
+  step: institutional-identity-and-mission/stakeholder-expectation-hearing
+  touchpoints:
+  - patient-advisory-council
+- slug: finding-the-priorities-in-the-statement
+  title: Finding the Priorities in the Statement
+  goal: See those priorities taken into the mission and values, and the boundary of what the commons will not do stated.
+  step: institutional-identity-and-mission/mission-and-values-drafting
+  touchpoints:
+  - mission-and-values-statement

@@ -1,0 +1,21 @@
+kind: solution
+slug: knowledge-management-system
+title: Knowledge Management System
+role: system-of-record
+summary: Holds the city's working knowledge as dated, sourced and owned entries, the lessons from failures and peer city exchanges,
+  the communities of practice and the handover records, open to staff, partners and, where suitable, residents.
+carries:
+- frontline-knowledge-capture
+- knowledge-curation-and-access
+- community-of-practice-support
+- peer-city-exchange
+- knowledge-handover
+- lesson-recording-and-sharing
+- testimony-recording
+- repair-knowledge-recording
+holds:
+- knowledge-article
+- community-of-practice
+- peer-exchange
+- lesson-record
+- handover-plan

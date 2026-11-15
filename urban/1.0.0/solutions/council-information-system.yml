@@ -1,0 +1,36 @@
+kind: solution
+slug: council-information-system
+title: Council Information System
+role: system-of-record
+summary: Holds the council's agenda, proposals, resolutions with their reasons, votes and dissent, the decision map with its delegations,
+  and the charter, constitution and bylaws in force.
+carries:
+- council-decision-preparation
+- council-decision-recording
+- dissent-recording
+- decision-rights-allocation
+- charter-drafting
+- charter-adoption-and-publication
+- rule-review
+- cross-boundary-agreement-handling
+- administration-structure-design
+- commons-fund-rule-drafting
+- waste-rule-setting
+- joint-purchasing-agreement-drafting
+holds:
+- council-decision
+- council
+- mayoral-office
+- decision-rights-register
+- city-charter
+- city-constitution
+- bylaw
+- cross-boundary-agreement
+- department
+- commons-fund-rules
+- federation-agreement
+- housing-policy
+- waste-regulation
+- procurement-policy
+- joint-purchasing-agreement
+- shared-procurement-service

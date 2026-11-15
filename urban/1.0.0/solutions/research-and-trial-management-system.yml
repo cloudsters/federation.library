@@ -1,0 +1,22 @@
+kind: solution
+slug: research-and-trial-management-system
+title: Research and Trial Management System
+role: system-of-record
+summary: Holds the research agenda, the partnership agreements with research institutions, each research project with its co-investigators,
+  each urban trial with its experimental rules, measures, evaluation and decision, and the return of findings to those who took part.
+carries:
+- research-agenda-setting
+- research-partnership-agreement-drafting
+- co-research-organisation
+- urban-trial-design
+- experimental-rule-drafting
+- trial-evaluation
+- trial-outcome-decision
+- research-findings-return
+holds:
+- research-agenda
+- research-partnership-agreement
+- research-project
+- urban-trial
+- experimental-rule
+- trial-evaluation-report

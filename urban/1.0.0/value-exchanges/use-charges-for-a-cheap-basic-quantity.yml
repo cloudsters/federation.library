@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: use-charges-for-a-cheap-basic-quantity
+title: Use Charges for a Cheap Basic Quantity
+between:
+- taxpayer
+- city-council
+offered:
+- Charges paid by use, with heavy use paying more.
+returned:
+- A basic quantity of each essential service for every household at little or no cost.
+touchpoint: tariff-public-review

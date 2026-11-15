@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-account-for-current-facts
+title: Open Account for Current Facts
+between:
+- finance-officer
+- taxpayer
+offered:
+- The taxpayer's own account of liabilities, payments, relief and balance, open at any time.
+returned:
+- Notice of changes in the taxpayer's circumstances that change what is owed.
+touchpoint: taxpayer-account-view

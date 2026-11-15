@@ -1,0 +1,24 @@
+kind: solution
+slug: experience-and-feedback-management-system
+title: Experience and Feedback Management System
+role: system-of-record
+summary: Designs and sends surveys to customers, staff and other stakeholders, collects ratings and comments, and turns them into
+  scores and themes that owners act upon.
+carries:
+- change-readiness-cultivation
+- collective-voice-integration
+- community-health-sensing
+- complaint-resolution-sensing
+- engagement-pulse-sensing
+- market-resonance-testing
+- customer-feedback-collection
+- offering-satisfaction-sensing
+- request-experience-sensing
+- stakeholder-need-discovery
+- technology-stakeholder-sensing
+- wellbeing-contribution-sensing
+- online-reputation-management
+holds:
+- survey
+- customer-satisfaction-score
+- public-rating

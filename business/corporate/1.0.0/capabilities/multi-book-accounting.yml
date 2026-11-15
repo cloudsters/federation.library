@@ -1,0 +1,7 @@
+kind: capability
+slug: multi-book-accounting
+title: Multi-Book Accounting
+level: L3
+parent: financial-accounting
+summary: Keep parallel sets of books from one transaction stream, so each regulator, tax authority, funder and member sees the same
+  economic reality in the accounting convention they can verify.

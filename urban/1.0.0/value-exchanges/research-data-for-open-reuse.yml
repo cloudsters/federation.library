@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: research-data-for-open-reuse
+title: Research Data for Open Reuse
+between:
+- civic-technology-community
+- research-institution
+offered:
+- Reuse, checks and tools built on the research data.
+returned:
+- Data released as open data where privacy allows, with documentation.
+touchpoint: open-research-data-release

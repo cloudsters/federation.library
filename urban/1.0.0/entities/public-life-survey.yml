@@ -1,0 +1,59 @@
+kind: entity
+slug: public-life-survey
+title: Public Life Survey
+type: intelligence
+summary: The record of how a public space is used, who stays, who passes through and who is absent, at what hours and in what seasons.
+  Residents and the administration observe and count together on set days, and the survey is used to adapt the space and to check
+  that no group or commercial use takes it over.
+attributes:
+- name: public-space
+  type: reference(public-space)
+  card: 1..1
+- name: survey-dates
+  type: date
+  card: 1..*
+- name: time-slots
+  type: text
+  card: 1..*
+- name: season
+  type: code
+  card: 0..1
+- name: people-counted
+  type: integer
+  card: 1..1
+- name: staying-count
+  type: integer
+  card: 0..1
+- name: passing-count
+  type: integer
+  card: 0..1
+- name: groups-observed
+  type: text
+  card: 0..*
+- name: groups-absent
+  type: text
+  card: 0..*
+- name: activities-observed
+  type: text
+  card: 0..*
+- name: observers
+  type: text
+  card: 1..*
+- name: survey-document
+  type: document
+  card: 1..1
+states:
+- planned
+- observed
+- analysed
+- published
+- superseded
+relations:
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: place-care-agreement
+- type: refers-to
+  target: sensor
+- type: refers-to
+  target: visitor-impact-assessment

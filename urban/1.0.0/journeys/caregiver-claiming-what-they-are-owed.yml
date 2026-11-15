@@ -1,0 +1,41 @@
+kind: journey
+slug: caregiver-claiming-what-they-are-owed
+title: Caregiver Claiming What They Are Owed
+stakeholder: caregiver
+summary: A family carer receives a direct offer of a reduced charge they had not claimed, applies with help, understands the decision,
+  reports a change once and appeals when the decision is wrong.
+stages:
+- slug: receive-a-direct-offer
+  title: Receive a Direct Offer
+  goal: The carer has been offered the reduced charge directly, from data they agreed the city may use, without applying from scratch.
+  step: service-applications-and-entitlements/proactive-take-up
+  touchpoints:
+  - unclaimed-entitlement-letter
+- slug: apply-with-help
+  title: Apply with Help
+  goal: The carer has applied at a time that fits their care, with help to complete the form, and has been asked only for what the
+    city did not hold.
+  step: service-applications-and-entitlements/application-intake
+  touchpoints:
+  - assisted-help-appointment
+  - any-route-application
+- slug: understand-the-decision
+  title: Understand the Decision
+  goal: The carer understands what they will receive, from when and why, and how to appeal.
+  step: service-applications-and-entitlements/decision-and-notice
+  touchpoints:
+  - plain-language-decision-letter
+- slug: report-a-change-once
+  title: Report a Change Once
+  goal: The carer has reported a change in the person they care for once, and the entitlement is adjusted from the date of the change.
+  step: service-applications-and-entitlements/change-of-circumstances
+  touchpoints:
+  - change-of-circumstances-notice
+- slug: appeal-and-be-heard
+  title: Appeal and Be Heard
+  goal: The carer's appeal has been heard by someone not involved in the decision, decided within the deadline and, where the decision
+    was wrong, corrected with redress.
+  step: service-applications-and-entitlements/appeal-and-redress
+  touchpoints:
+  - independent-appeal-hearing
+  - appeal-outcome-and-redress-letter

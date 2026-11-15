@@ -1,0 +1,58 @@
+kind: entity
+slug: image-study
+title: Image Study
+type: transactional
+summary: The set of images acquired in one imaging examination of a patient, with modality, body region, acquisition time, radiation
+  dose and device, held in the image archive and referenced by its report.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: study-identifier
+  type: identifier
+  card: 1..1
+- name: modality
+  type: code
+  card: 1..1
+- name: body-region
+  type: code
+  card: 1..1
+- name: acquired-at
+  type: datetime
+  card: 1..1
+- name: device
+  type: reference(medical-device)
+  card: 0..1
+- name: radiation-dose
+  type: quantity
+  card: 0..1
+- name: clinical-order
+  type: reference(clinical-order)
+  card: 1..1
+states:
+- scheduled
+- acquired
+- available
+- reported
+- cancelled
+relations:
+- type: based-on
+  target: clinical-order
+- type: depends-on
+  target: medical-device
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-449
+  edition: Rev. 23.0
+  jurisdiction: global

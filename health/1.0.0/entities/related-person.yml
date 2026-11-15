@@ -1,0 +1,47 @@
+kind: entity
+slug: related-person
+title: Related Person
+type: master
+summary: A person with a recorded relationship to a patient, such as next of kin, legal representative, carer or emergency contact,
+  held so that the right person is informed, consulted or allowed to act.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: relationship
+  type: code
+  card: 1..*
+- name: name
+  type: text
+  card: 1..1
+- name: contact
+  type: text
+  card: 0..*
+- name: is-legal-representative
+  type: boolean
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- active
+- inactive
+relations:
+- type: governed-by
+  target: proxy-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

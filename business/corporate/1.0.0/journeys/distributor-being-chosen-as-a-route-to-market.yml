@@ -1,0 +1,32 @@
+kind: journey
+slug: distributor-being-chosen-as-a-route-to-market
+title: Distributor Being Chosen as a Route to Market
+stakeholder: distributor
+summary: A distributor shows how its channel performs, shares its demand outlook, helps localise the offer for its market and agrees
+  its role as a chosen route to market.
+stages:
+- slug: show-channel-performance
+  title: Show Channel Performance
+  goal: The distributor's results and customer relationships are reviewed fairly.
+  step: distribution-strategy-design/route-to-market-review
+  touchpoints:
+  - partner-business-review
+- slug: share-the-demand-outlook
+  title: Share the Demand Outlook
+  goal: The distributor's view of demand in its market is part of the forecast.
+  step: distribution-strategy-design/sales-forecasting
+  touchpoints:
+  - sales-forecast
+- slug: localise-the-offer
+  title: Localise the Offer
+  goal: The offer is adapted to local rules, taxes, language and culture with the distributor's knowledge.
+  step: distribution-strategy-design/market-entry-and-localisation
+  touchpoints:
+  - market-entry-plan
+- slug: be-chosen-and-agree-a-role
+  title: Be Chosen and Agree a Role
+  goal: The distributor is chosen and its role, territory and terms are agreed.
+  step: distribution-strategy-design/channel-and-partner-choice
+  touchpoints:
+  - partner-agreement
+  - contract-negotiation

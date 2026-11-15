@@ -1,0 +1,45 @@
+kind: solution
+slug: curriculum-and-learner-management
+title: Curriculum and Learner Management
+role: system-of-record
+summary: 'Holds the education the organisation delivers: programmes, curricula mapped to competencies and entrustable activities,
+  courses and teaching sessions, and each learner''s record of rotations, logbook entries and entrustment decisions.'
+carries:
+- medical-curriculum-design
+- bedside-teaching
+- final-year-clinical-training
+- teaching-hospital-network
+- teaching-quality-evaluation
+- specialty-training-programmes
+- training-logbook-management
+- rotation-planning
+- trainer-authorisation-management
+- education-quality-assurance
+- health-professions-vocational-training
+- practice-supervision
+- academic-health-professions-programmes
+- interprofessional-programme-design
+- interprofessional-training-wards
+- competency-model-design
+- clinician-scientist-programmes
+holds:
+- education-programme
+- curriculum
+- course
+- teaching-session
+- learner-record
+- rotation
+- competency
+- entrustable-professional-activity
+- entrustment-decision
+- logbook-entry
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,54 @@
+kind: entity
+slug: pattern-library
+title: Pattern Library
+type: master
+summary: The city's small, curated collection of validated practice patterns, with its scope, its rule of admission, the staff who
+  curate it and the patterns it holds and has retired. The administration keeps and publishes it with the staff who curate it, and
+  staff, residents and peer cities use it to find practice that has worked in conditions like their own.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: admission-rule
+  type: text
+  card: 1..1
+- name: curated-by
+  type: text
+  card: 1..*
+- name: patterns
+  type: reference(practice-pattern)
+  card: 0..*
+- name: retired-patterns
+  type: reference(practice-pattern)
+  card: 0..*
+- name: pattern-count
+  type: integer
+  card: 0..1
+- name: review-rhythm
+  type: code
+  card: 1..1
+- name: last-reviewed-on
+  type: date
+  card: 0..1
+- name: public-address
+  type: identifier
+  card: 0..1
+- name: licence
+  type: code
+  card: 0..1
+states:
+- established
+- curated
+- published
+- under-review
+- archived
+relations:
+- type: composed-of
+  target: practice-pattern
+- type: refers-to
+  target: standard-procedure
+- type: produces
+  target: public-record

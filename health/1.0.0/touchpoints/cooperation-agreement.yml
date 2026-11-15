@@ -1,0 +1,16 @@
+kind: touchpoint
+slug: cooperation-agreement
+title: Cooperation Agreement
+medium: artefact
+summary: 'The signed agreement setting out what the commons and a partner provider or network commit to each other: patient groups,
+  services, pathways, transfers, information, quality and payments.'
+exchanges:
+- specialist-capacity-for-return-transfer
+- early-notice-for-follow-on-places
+- network-role-commitment
+- shared-care-partnership
+- integrated-care-contract
+- profile-area-partnership
+- service-transfer-to-partner
+- centre-network-cooperation
+journey: referring-hospital-centre-journey

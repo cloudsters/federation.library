@@ -1,0 +1,53 @@
+kind: entity
+slug: alliance-review-report
+title: Alliance Review Report
+type: intelligence
+summary: The yearly account of what joint purchasing saved, how savings and costs were shared by the agreed rule, and whether smaller
+  members and local suppliers gained or lost. The parties compile it together, through the shared procurement service where one exists,
+  and they revise the joint purchasing agreement from it.
+attributes:
+- name: agreement
+  type: reference(joint-purchasing-agreement)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: total-savings
+  type: amount
+  card: 0..1
+- name: savings-by-party
+  type: document
+  card: 1..1
+- name: costs-by-party
+  type: document
+  card: 0..1
+- name: call-off-volumes
+  type: document
+  card: 0..1
+- name: local-supplier-share
+  type: decimal
+  card: 0..1
+- name: smaller-member-results
+  type: text
+  card: 0..*
+- name: proposed-revisions
+  type: text
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- reviewed
+- agreed
+- published
+- superseded
+relations:
+- type: refers-to
+  target: joint-purchasing-agreement
+- type: based-on
+  target: framework-agreement
+- type: based-on
+  target: purchase-order
+- type: refers-to
+  target: shared-procurement-service

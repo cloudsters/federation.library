@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: exclusion-warning-for-a-weighed-decision
+title: Exclusion Warning for a Weighed Decision
+between:
+- disabled-resident
+- city-council
+offered:
+- Their view, given in the hearing, of who the service as proposed would leave out.
+returned:
+- That view weighed and answered in the committee's decision, with the conditions set for the trial.
+touchpoint: service-trial-decision-hearing

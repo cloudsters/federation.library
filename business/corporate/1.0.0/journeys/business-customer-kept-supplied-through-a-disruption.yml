@@ -1,0 +1,40 @@
+kind: journey
+slug: business-customer-kept-supplied-through-a-disruption
+title: Business Customer Kept Supplied Through a Disruption
+stakeholder: business-customer
+summary: A business customer names which supplies it cannot do without, is told early when disruption strikes, receives a fair share
+  during degraded operation and a realistic recovery date, and sees the lessons agreed.
+stages:
+- slug: name-what-cannot-stop
+  title: Name What Cannot Stop
+  goal: The customer has said which supplies and services its own operation depends on.
+  step: resilience-architecture/critical-operations-analysis
+  touchpoints:
+  - account-review
+- slug: see-continuity-assured
+  title: See Continuity Assured
+  goal: The customer knows the fallback for its critical supplies and whom to call in a crisis.
+  step: resilience-architecture/continuity-and-emergency-planning
+  touchpoints:
+  - account-review
+  - customer-portal
+- slug: be-told-early
+  title: Be Told Early
+  goal: The customer hears of the disruption early, with its expected effect and the allocation of supply.
+  step: resilience-architecture/crisis-response
+  touchpoints:
+  - disruption-notice
+  - customer-portal
+- slug: get-a-realistic-recovery-date
+  title: Get a Realistic Recovery Date
+  goal: The customer receives realistic recovery dates and sees supply return as promised.
+  step: resilience-architecture/operations-restoration
+  touchpoints:
+  - disruption-notice
+  - customer-portal
+- slug: agree-the-lessons
+  title: Agree the Lessons
+  goal: What both sides learnt is agreed and changes the plans on both sides.
+  step: resilience-architecture/lesson-sharing-and-plan-evolution
+  touchpoints:
+  - account-review

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: information-strategy
+title: Information Strategy
+medium: artefact
+summary: The statement of what information the organisation needs, how its knowledge is structured and which data is shared openly
+  or protected.
+exchanges:
+- stewardship-for-trusted-data
+journey: data-architect-defining-shared-meaning

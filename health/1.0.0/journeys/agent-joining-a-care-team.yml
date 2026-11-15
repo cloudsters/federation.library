@@ -1,0 +1,44 @@
+kind: journey
+slug: agent-joining-a-care-team
+title: Agent Joining a Care Team
+stakeholder: documentation-agent
+summary: 'The agent''s side of teaming: it receives a defined place in the team, a mandate, overseers and feedback, and is changed
+  or retired when it no longer serves the team.'
+stages:
+- slug: given-a-purpose
+  title: Given a Purpose
+  goal: Receive a defined purpose tied to a real need of the team.
+  step: human-agent-teaming/teaming-need
+  touchpoints:
+  - teaming-charter
+- slug: given-a-mandate
+  title: Given a Mandate
+  goal: Act within an approved mandate that states its tasks, its data access and its stop conditions.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - teaming-charter
+- slug: given-overseers
+  title: Given Overseers
+  goal: Have named overseers who can override and stop it and who receive its alerts.
+  step: human-agent-teaming/oversight-and-escalation
+  touchpoints:
+  - agent-oversight-console
+- slug: integrated-into-the-workflow
+  title: Integrated into the Workflow
+  goal: Be connected to the data and screens the team uses, with its outputs clearly marked as drafts.
+  step: human-agent-teaming/team-preparation
+  touchpoints:
+  - clinical-workstation
+- slug: contributing-to-the-work
+  title: Contributing to the Work
+  goal: Deliver drafts that staff accept with few corrections, and flag its own uncertainty.
+  step: human-agent-teaming/joint-work
+  touchpoints:
+  - clinical-workstation
+- slug: reviewed-and-adjusted
+  title: Reviewed and Adjusted
+  goal: Be evaluated on its contribution and be retrained, restricted or retired on evidence.
+  step: human-agent-teaming/joint-performance-review
+  touchpoints:
+  - team-retrospective
+  - agent-oversight-console

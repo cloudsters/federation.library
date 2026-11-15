@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: street-repair-crew-visit
+title: Street Repair Crew Visit
+medium: encounter
+summary: The visit of a crew to repair a fault or carry out preventive work, during which neighbours can see what is done and ask
+  about it.
+exchanges:
+- crew-knowledge-for-repairs-that-last
+journey: frontline-worker-keeping-the-city-in-service

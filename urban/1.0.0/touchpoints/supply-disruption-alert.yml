@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: supply-disruption-alert
+title: Supply Disruption Alert
+medium: channel
+summary: The channel through which services, neighbourhood places and suppliers report a supply that is failing, and through which
+  the procurement office calls on standby suppliers and reports to the crisis team.
+exchanges:
+- early-warning-for-a-switched-supply
+- standby-capacity-for-a-place-in-the-plan
+journey: local-producer-standing-by-for-essential-supply

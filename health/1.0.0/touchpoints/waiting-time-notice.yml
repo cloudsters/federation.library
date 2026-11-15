@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: waiting-time-notice
+title: Waiting Time Notice
+medium: artefact
+summary: The message that tells a waiting patient the expected date and the rights under the access standard, and offers another provider
+  when the standard cannot be met.
+exchanges:
+- timely-access-commitment
+journey: waiting-for-planned-treatment

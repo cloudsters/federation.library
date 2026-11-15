@@ -1,0 +1,57 @@
+kind: journey
+slug: city-administration-carrying-the-strategy-into-funded-programmes
+title: City Administration Carrying the Strategy into Funded Programmes
+stakeholder: city-administration
+summary: A department frames a programme against an objective, has it appraised for benefit and whole-life cost, wins its place in
+  the funded portfolio, publishes it as a commitment, mobilises team and partners, reviews and rebalances it at a regular rhythm and
+  confirms its benefit and lessons.
+stages:
+- slug: frame-the-proposal
+  title: Frame the Proposal
+  goal: The proposal states the objective it serves, its expected benefit, cost, risk and sponsor, and can be traced from its origin.
+  step: city-programme-portfolio/programme-proposal
+  touchpoints:
+  - programme-proposal-portal
+- slug: appraise-benefit-and-whole-life-cost
+  title: Appraise Benefit and Whole-Life Cost
+  goal: The proposal is appraised for its benefit, its upkeep, care work and ecological costs and who pays and who gains, and the
+    appraisal is published.
+  step: city-programme-portfolio/programme-appraisal
+  touchpoints:
+  - appraisal-panel-meeting
+  - published-appraisal
+- slug: win-a-place-in-the-funded-portfolio
+  title: Win a Place in the Funded Portfolio
+  goal: The programme is funded in the budget and the multi-year capital plan as part of a balanced portfolio.
+  step: city-programme-portfolio/prioritisation-and-funding
+  touchpoints:
+  - budget-and-capital-plan-debate
+- slug: publish-the-commitment
+  title: Publish the Commitment
+  goal: The programme is published as a commitment with benefits and measures residents helped set, its owner, budget and dates.
+  step: city-programme-portfolio/commitment-publication
+  touchpoints:
+  - city-commitments-register
+- slug: mobilise-team-and-partners
+  title: Mobilise Team and Partners
+  goal: The programme has its team, budget, plan and delivery partners, including community bodies where they can carry the work.
+  step: city-programme-portfolio/programme-mobilisation
+  touchpoints:
+  - programme-launch-meeting
+  - delivery-partner-call
+- slug: review-and-rebalance
+  title: Review and Rebalance
+  goal: Progress, cost and residents' experience are reviewed, and the council has strengthened, re-scoped, merged or stopped the
+    programme with reasons.
+  step: city-programme-portfolio/progress-review-and-rebalancing
+  touchpoints:
+  - portfolio-review-meeting
+  - programme-progress-page
+- slug: confirm-the-benefit-and-share-the-lesson
+  title: Confirm the Benefit and Share the Lesson
+  goal: Residents and benefit owners have confirmed whether the benefit was realised, and the lesson is shared with other cities and
+    the next strategy.
+  step: city-programme-portfolio/benefit-confirmation-and-learning
+  touchpoints:
+  - benefit-review-session
+  - shared-lesson-library

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shared-mobility-hub
+title: Shared Mobility Hub
+medium: place
+summary: A place near a transit stop where shared bikes, cargo bikes and cars are picked up and returned, run by the city, a cooperative
+  or a licensed operator.
+exchanges:
+- shared-vehicle-use-for-protected-terms
+journey: public-transport-passenger-travelling-without-a-car

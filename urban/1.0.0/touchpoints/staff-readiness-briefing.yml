@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: staff-readiness-briefing
+title: Staff Readiness Briefing
+medium: encounter
+summary: The preparation of the staff who will deliver a new service, with its standard, its training and the staffing and workload
+  agreed with their representatives.
+exchanges:
+- staff-voice-for-agreed-readiness
+journey: city-administration-bringing-a-new-service-into-use

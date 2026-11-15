@@ -1,0 +1,34 @@
+kind: journey
+slug: councillor-keeping-conduct-open
+title: Councillor Keeping Conduct Open
+stakeholder: councillor
+summary: A councillor votes to make records public by default, accepts the code of conduct, declares interests and steps back where
+  they have a stake, answers a report made against them in a fair inquiry and helps renew the rules where they protect power.
+stages:
+- slug: vote-for-public-by-default
+  title: Vote for Public by Default
+  goal: The council has set records public by default, with every exemption reasoned, dated and listed.
+  step: transparency-and-public-ethics/disclosure-rule-setting
+  touchpoints:
+  - council-meeting
+  - exemption-register
+- slug: declare-and-step-back
+  title: Declare and Step Back
+  goal: The councillor's interests, gifts and other roles are published, and they step back from decisions in which they have a stake.
+  step: transparency-and-public-ethics/interest-and-conduct-declaration
+  touchpoints:
+  - register-of-interests
+  - council-meeting
+- slug: answer-a-report
+  title: Answer a Report
+  goal: The councillor has given a full account in an independent inquiry, and the outcome decides correction or sanction.
+  step: transparency-and-public-ethics/misconduct-investigation
+  touchpoints:
+  - investigation-interview
+- slug: renew-the-code
+  title: Renew the Code
+  goal: Disclosure rules and code of conduct are changed where they protect power rather than privacy or safety.
+  step: transparency-and-public-ethics/openness-review
+  touchpoints:
+  - openness-review-report
+  - committee-meeting

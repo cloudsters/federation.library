@@ -1,0 +1,33 @@
+kind: entity
+slug: working-time-record
+title: Working Time Record
+type: transactional
+summary: The record of time an employee actually worked, including on-call, overtime and breaks, checked against working-time rules
+  and used for pay, cost attribution and staffing evidence.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: time-kind
+  type: code
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 1..1
+- name: rule-violations
+  type: code
+  card: 0..*
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+states:
+- recorded
+- approved
+- corrected
+- closed
+relations:
+- type: based-on
+  target: shift-assignment

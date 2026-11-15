@@ -1,0 +1,13 @@
+kind: capability
+slug: capital-planning
+title: Capital Planning
+level: L3
+parent: budgeting-and-allocation
+summary: Plan capital investments, prepare investment cases and secure their approval and financing.
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

@@ -1,0 +1,34 @@
+kind: journey
+slug: key-account-growing-a-long-term-partnership
+title: Key Account Growing a Long-Term Partnership
+stakeholder: key-account
+summary: A key account receives offers configured to its specification, agrees a framework, plans jointly with its supplier and renews
+  ahead of term where the partnership has delivered.
+stages:
+- slug: request-a-configured-offer
+  title: Request a Configured Offer
+  goal: The key account's specification is answered by a configured offer it can compare.
+  step: relationship-journey-design/offer-configuration-and-proposal
+  touchpoints:
+  - request-for-quotation
+  - quotation
+- slug: agree-a-framework
+  title: Agree a Framework
+  goal: A framework agreement sets prices, rebates, volumes and terms for the period.
+  step: relationship-journey-design/negotiation-and-closing
+  touchpoints:
+  - contract-negotiation
+- slug: plan-jointly
+  title: Plan Jointly
+  goal: Goals, initiatives and measures are agreed in a joint account plan and reviewed regularly.
+  step: relationship-journey-design/account-health-and-loyalty
+  touchpoints:
+  - account-review
+  - joint-account-plan
+- slug: renew-ahead-of-term
+  title: Renew Ahead of Term
+  goal: Renewal is negotiated before the term ends, with expansion where value is proven.
+  step: relationship-journey-design/renewal-and-expansion
+  touchpoints:
+  - renewal-offer
+  - contract-negotiation

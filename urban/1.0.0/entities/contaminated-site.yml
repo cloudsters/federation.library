@@ -1,0 +1,59 @@
+kind: entity
+slug: contaminated-site
+title: Contaminated Site
+type: master
+summary: A piece of land known or suspected to be contaminated, with the contamination found, its risk and the state of its clean-up.
+  The environment office keeps the record with the land registry, and uses it to investigate, clean up and return the land to a use
+  the neighbourhood decides.
+attributes:
+- name: site-reference
+  type: identifier
+  card: 1..1
+- name: land-parcels
+  type: reference(land-parcel)
+  card: 1..*
+- name: former-uses
+  type: text
+  card: 0..*
+- name: suspected-since
+  type: date
+  card: 0..1
+- name: contaminants
+  type: code
+  card: 0..*
+- name: investigation-findings
+  type: document
+  card: 0..*
+- name: risk-class
+  type: code
+  card: 0..1
+- name: responsible-party
+  type: text
+  card: 0..1
+- name: clean-up-method
+  type: text
+  card: 0..1
+- name: clean-up-completed-on
+  type: date
+  card: 0..1
+- name: future-use
+  type: text
+  card: 0..1
+states:
+- suspected
+- investigated
+- confirmed
+- in-clean-up
+- cleaned
+- returned-to-use
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: land-registry
+- type: refers-to
+  target: environmental-hazard-case
+- type: refers-to
+  target: zoning-plan
+- type: refers-to
+  target: neighbourhood

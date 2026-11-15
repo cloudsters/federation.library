@@ -1,0 +1,33 @@
+kind: journey
+slug: technology-supplier-delivering-on-open-terms
+title: Technology Supplier Delivering on Open Terms
+stakeholder: technology-supplier
+summary: A supplier bids on terms that leave the city owner of its data and its code, builds the solution in working parts, supports
+  acceptance and go-live and returns the city's data in open formats when the contract ends.
+stages:
+- slug: bid-on-open-terms
+  title: Bid on Open Terms
+  goal: The contract pays for service, integration and change rather than for licences, and releases the code the city funds.
+  step: digital-solution-delivery-and-renewal/open-source-first-sourcing
+  touchpoints:
+  - open-tender-notice
+  - software-contract-negotiation
+- slug: build-in-working-parts
+  title: Build in Working Parts
+  goal: Working parts of the solution are shown to staff and residents and corrected on their feedback.
+  step: digital-solution-delivery-and-renewal/solution-build-and-configuration
+  touchpoints:
+  - working-software-demonstration
+- slug: support-the-launch
+  title: Support the Launch
+  goal: Defects found in acceptance are fixed before go-live, and the supplier stands by in the first weeks of use.
+  step: digital-solution-delivery-and-renewal/acceptance-and-go-live
+  touchpoints:
+  - acceptance-test-session
+- slug: hand-back-the-data
+  title: Hand Back the Data
+  goal: The city's data is returned in open formats, the interfaces are closed and the contract ends in order.
+  step: digital-solution-delivery-and-renewal/legacy-system-retirement
+  touchpoints:
+  - software-contract-negotiation
+  - retirement-notice

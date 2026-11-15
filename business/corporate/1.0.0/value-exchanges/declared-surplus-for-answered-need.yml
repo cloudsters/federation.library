@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: declared-surplus-for-answered-need
+title: Declared Surplus for Answered Need
+between:
+- partner
+- end-user
+offered:
+- Spare capacity, knowledge or other surplus declared openly for others to take up.
+returned:
+- A declared need that the surplus can answer, and acknowledgement that keeps the giving reciprocal.
+touchpoint: surplus-offer

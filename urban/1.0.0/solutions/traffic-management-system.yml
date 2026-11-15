@@ -1,0 +1,11 @@
+kind: solution
+slug: traffic-management-system
+title: Traffic Management System
+role: platform
+summary: Runs signals and traffic sensors, gives priority to people walking, buses and bikes, responds to incidents and events, and
+  keeps the counts of trips by mode, hour and place.
+carries:
+- traffic-signal-operation
+- movement-pattern-analysis
+holds:
+- mobility-data

@@ -1,0 +1,73 @@
+kind: entity
+slug: risk-register
+title: Risk Register
+type: intelligence
+summary: The record of the city's risks, each with its category, rating, the neighbourhoods most exposed, its owner and its treatment
+  against the appetite the council has stated. The administration keeps it through the annual risk cycle, and it is the basis for
+  emergency plans and for the risk treatments the budget funds.
+attributes:
+- name: description
+  type: text
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: likelihood
+  type: code
+  card: 1..1
+- name: impact
+  type: code
+  card: 1..1
+- name: stated-appetite
+  type: code
+  card: 0..1
+- name: exposed-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: owner
+  type: text
+  card: 1..1
+- name: escalation-threshold
+  type: text
+  card: 0..1
+- name: treatment
+  type: text
+  card: 0..1
+- name: treatment-funding
+  type: amount
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- identified
+- assessed
+- treated
+- accepted
+- monitored
+- realised
+- closed
+relations:
+- type: based-on
+  target: flood-risk-map
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: emergency-plan
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-170
+  edition: '2019'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-184
+  edition: '2017'
+  jurisdiction: global

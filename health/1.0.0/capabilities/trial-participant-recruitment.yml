@@ -1,0 +1,13 @@
+kind: capability
+slug: trial-participant-recruitment
+title: Trial Participant Recruitment
+level: L3
+parent: clinical-trials
+summary: Identify, inform and enrol eligible patients in trials.
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global

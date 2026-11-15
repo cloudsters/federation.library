@@ -1,0 +1,14 @@
+kind: solution
+slug: tax-compliance-system
+title: Tax Compliance System
+role: system-of-record
+summary: Determines taxes on transactions, holds tax rules and categories, prepares returns and transfer pricing documentation and
+  keeps the evidence an audit requires.
+carries:
+- tax-compliance-as-precision
+- tax-strategy-as-responsibility
+- transfer-pricing
+holds:
+- tax-rule
+- tax-category
+- tax-return

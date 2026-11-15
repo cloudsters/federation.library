@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: repayment-for-local-transition-capital
+title: Repayment for Local Transition Capital
+between:
+- local-business
+- lender
+offered:
+- Repayment from the earnings of the business over time.
+returned:
+- Loans to employees and cooperatives buying in, on terms that keep the business local.
+touchpoint: succession-fund-application

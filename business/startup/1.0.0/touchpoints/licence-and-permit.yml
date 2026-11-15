@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: licence-and-permit
+title: Licence and Permit
+medium: artefact
+summary: A licence, permit or approval that allows the organisation to carry on an activity, with its conditions, reporting duties
+  and renewal date.
+exchanges:
+- conformance-for-licence
+journey: mandate-cycle

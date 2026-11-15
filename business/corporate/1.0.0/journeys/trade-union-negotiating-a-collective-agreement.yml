@@ -1,0 +1,31 @@
+kind: journey
+slug: trade-union-negotiating-a-collective-agreement
+title: Trade Union Negotiating a Collective Agreement
+stakeholder: trade-union
+summary: A trade union shares its reading of the labour landscape, negotiates pay and conditions in good faith, concludes a collective
+  agreement that is carried into terms and reviews the relationship over its term.
+stages:
+- slug: share-the-reading-of-the-landscape
+  title: Share the Reading of the Landscape
+  goal: The union and the employer share their view of pay trends, law and expectations of work before negotiating.
+  step: relationship-stewardship/labour-landscape-sensing
+  touchpoints:
+  - labour-law-briefing
+- slug: negotiate-in-good-faith
+  title: Negotiate in Good Faith
+  goal: Pay, working time and conditions are negotiated as co-design of working conditions, with information shared openly.
+  step: relationship-stewardship/consultation-and-negotiation
+  touchpoints:
+  - collective-bargaining
+- slug: conclude-the-collective-agreement
+  title: Conclude the Collective Agreement
+  goal: The collective agreement is signed and its terms are written into employment contracts.
+  step: relationship-stewardship/agreement-or-resolution
+  touchpoints:
+  - collective-agreement
+- slug: review-the-relationship
+  title: Review the Relationship
+  goal: The union and the employer review how the agreement works in practice and prepare the next round.
+  step: relationship-stewardship/relations-review
+  touchpoints:
+  - joint-relations-review

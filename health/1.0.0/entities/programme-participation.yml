@@ -1,0 +1,54 @@
+kind: entity
+slug: programme-participation
+title: Programme Participation
+type: transactional
+summary: A person's participation in a care programme, from invitation and agreement through active participation to exit, with the
+  facilitator mandate that coordinates it, the reason for leaving and the history needed for evaluation.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: care-programme
+  type: reference(care-programme)
+  card: 1..1
+- name: invited-on
+  type: date
+  card: 0..1
+- name: enrolled-on
+  type: date
+  card: 0..1
+- name: facilitator-mandate
+  type: reference(continuity-facilitator-mandate)
+  card: 0..1
+- name: consent
+  type: reference(informed-consent)
+  card: 0..1
+- name: exit-reason
+  type: code
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- invited
+- declined
+- enrolled
+- active
+- paused
+- exited
+relations:
+- type: part-of
+  target: care-programme
+- type: based-on
+  target: informed-consent
+- type: produces
+  target: care-plan
+- type: governed-by
+  target: continuity-facilitator-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

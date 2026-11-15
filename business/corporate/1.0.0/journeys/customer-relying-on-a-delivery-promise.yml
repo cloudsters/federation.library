@@ -1,0 +1,39 @@
+kind: journey
+slug: customer-relying-on-a-delivery-promise
+title: Customer Relying on a Delivery Promise
+stakeholder: business-customer
+summary: A business customer shares what it expects to need, receives delivery dates it can build its own plans on, hears early and
+  fairly when supply is short and sees disruptions handled before they reach its door.
+stages:
+- slug: share-expected-demand
+  title: Share Expected Demand
+  goal: The customer's expected volumes and changes in need reach the company early, through forecasts, call-offs and the regular
+    account review.
+  step: supply-chain-orchestration/demand-sensing-and-forecast
+  touchpoints:
+  - shared-forecast
+  - electronic-order-interface
+  - account-review
+- slug: receive-a-confirmed-date
+  title: Receive a Confirmed Date
+  goal: Each order is confirmed with a date and quantity checked against real stock and capacity, and the confirmation can be seen
+    at any time.
+  step: supply-chain-orchestration/delivery-promise-and-allocation
+  touchpoints:
+  - order-confirmation
+  - customer-portal
+- slug: learn-of-a-shortage-early
+  title: Learn of a Shortage Early
+  goal: When supply is scarce, the customer learns at once which quantities are allocated, which are postponed and on what rule.
+  step: supply-chain-orchestration/delivery-promise-and-allocation
+  touchpoints:
+  - allocation-notice
+  - customer-portal
+- slug: see-a-disruption-handled
+  title: See a Disruption Handled
+  goal: A disruption is met with alternatives and a revised date before the customer has to chase, and its causes are discussed openly
+    at the next review.
+  step: supply-chain-orchestration/deviation-and-disruption-steering
+  touchpoints:
+  - allocation-notice
+  - account-review

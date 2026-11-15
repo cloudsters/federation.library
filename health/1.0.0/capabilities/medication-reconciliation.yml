@@ -1,0 +1,10 @@
+kind: capability
+slug: medication-reconciliation
+title: Medication Reconciliation
+level: L3
+parent: medication-use-process
+summary: Reconcile the patient's medication at admission, transfer and discharge.
+binds:
+- source: src-512
+  edition: v3-2014
+  jurisdiction: global

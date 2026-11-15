@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: system-landscape-model
+title: System Landscape Model
+medium: artefact
+summary: The living model of processes, information, applications, interfaces and technology, used to plan changes and to see what
+  a change or a failure affects.
+exchanges:
+- target-architecture-for-open-products
+journey: clinical-unit-shaping-the-digital-roadmap

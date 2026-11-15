@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: screening-invitation
+title: Screening Invitation
+medium: artefact
+summary: The letter or digital message that invites an eligible person to a screening or prevention programme, explains its benefits
+  and risks and offers an appointment.
+exchanges:
+- screening-participation
+journey: taking-part-in-screening

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fund-money-for-land-held-in-trust
+title: Fund Money for Land Held in Trust
+between:
+- neighbourhood-association
+- community-land-trust
+offered:
+- An allocation from the neighbourhood's share to bring land into the trust.
+returned:
+- Land kept affordable for the neighbourhood in permanent trust.
+touchpoint: neighbourhood-fund-assembly

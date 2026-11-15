@@ -1,0 +1,40 @@
+kind: journey
+slug: information-technology-specialist-keeping-services-running
+title: Information Technology Specialist Keeping Services Running
+stakeholder: information-technology-specialist
+summary: An information technology specialist defines each service with its owner and levels, watches systems for load and capacity,
+  restores incidents and escalates them to suppliers, releases changes with care and traces recurring faults to their causes.
+stages:
+- slug: define-the-service
+  title: Define the Service
+  goal: Each service has an owner, the people it serves, the hours and availability it must keep, and published levels.
+  step: digital-service-operations/service-definition-and-levels
+  touchpoints:
+  - published-service-levels
+- slug: watch-load-and-capacity
+  title: Watch Load and Capacity
+  goal: Growth in use is met before it causes failure at any single point.
+  step: digital-service-operations/monitoring-and-capacity
+  touchpoints:
+  - operations-centre
+  - service-status-page
+- slug: restore-and-escalate
+  title: Restore and Escalate
+  goal: Incidents are restored within the agreed levels and escalated to suppliers or operators where needed.
+  step: digital-service-operations/resolution-and-fulfilment
+  touchpoints:
+  - operations-centre
+  - digital-service-desk
+- slug: release-with-care
+  title: Release with Care
+  goal: Each change is assessed for risk, tested, scheduled and released with notice and a way back.
+  step: digital-service-operations/change-and-release
+  touchpoints:
+  - change-advisory-meeting
+  - release-notice
+- slug: remove-the-cause
+  title: Remove the Cause
+  goal: Recurring faults are traced to their causes and removed at the source, and the lessons are recorded.
+  step: digital-service-operations/problem-analysis
+  touchpoints:
+  - problem-review-meeting

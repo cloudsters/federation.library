@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-prices-for-buyer-trust
+title: Open Prices for Buyer Trust
+between:
+- market-vendor
+- older-resident
+offered:
+- Prices within the published ranges.
+returned:
+- Buyers who trust the market and return to it.
+touchpoint: published-market-price-board

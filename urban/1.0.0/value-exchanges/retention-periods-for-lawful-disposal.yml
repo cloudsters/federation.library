@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: retention-periods-for-lawful-disposal
+title: Retention Periods for Lawful Disposal
+between:
+- legal-and-compliance-officer
+- data-protection-officer
+offered:
+- The periods for which the law requires records to be kept.
+returned:
+- A published schedule under which data is deleted or anonymised once its period ends.
+touchpoint: retention-schedule

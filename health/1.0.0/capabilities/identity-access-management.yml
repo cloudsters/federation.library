@@ -1,0 +1,19 @@
+kind: capability
+slug: identity-access-management
+title: Identity & Access Management
+level: L3
+parent: information-security
+summary: Identify, authenticate and authorise users and grant access according to role.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global
+- source: src-391
+  edition: '2025'
+  jurisdiction: global
+- source: src-436
+  edition: 1.0-errata2
+  jurisdiction: global
+- source: src-451
+  edition: RFC 6749
+  jurisdiction: global

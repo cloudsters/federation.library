@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-needs-for-provided-support
+title: Access Needs for Provided Support
+between:
+- disabled-resident
+- city-administration
+offered:
+- A statement of the access the resident needs, from step-free rooms and sign language to quiet breaks.
+returned:
+- The support in place before the first session, not after a complaint.
+touchpoint: access-needs-request

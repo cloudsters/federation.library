@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-for-a-record-under-the-residents-control
+title: Consent for a Record Under the Resident's Control
+between:
+- resident
+- city-administration
+offered:
+- Consent to keep a record of their contacts with the city.
+returned:
+- A record holding only what they agreed to, which they can see, correct, limit and withdraw.
+touchpoint: contact-record-view

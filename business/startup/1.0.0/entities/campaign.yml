@@ -1,0 +1,39 @@
+kind: entity
+slug: campaign
+title: Campaign
+type: intelligence
+summary: A coordinated marketing effort — the organisation's deliberate communication of its proposition to target segments, creating
+  awareness and stimulating exchange.
+attributes:
+- name: objective
+  type: text
+  card: 1..1
+- name: segments
+  type: reference(segment)
+  card: 0..*
+- name: channels
+  type: reference(channel)
+  card: 1..*
+- name: message-assets
+  type: document
+  card: 0..*
+- name: budget
+  type: amount
+  card: 0..1
+- name: run-window
+  type: period
+  card: 1..1
+- name: response-metrics
+  type: text
+  card: 0..*
+states:
+- planned
+- active
+- paused
+- completed
+- analysed
+relations:
+- type: produces
+  target: inquiry
+- type: produces
+  target: opportunity

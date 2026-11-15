@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: request-for-an-answer-in-time
+title: Request for an Answer in Time
+between:
+- resident
+- city-administration
+offered:
+- A request for a record of the city.
+returned:
+- The record within the deadline, or a refusal that names the exemption and the route of challenge.
+touchpoint: information-request-desk

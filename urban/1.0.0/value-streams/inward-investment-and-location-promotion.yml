@@ -1,0 +1,127 @@
+kind: value-stream
+slug: inward-investment-and-location-promotion
+title: Inward Investment and Location Promotion
+family: proposition-to-audience
+summary: Making the city known across the region and beyond to the enterprises, institutions and people it wants to attract, and binding
+  investment to benefits for those who already live there. It holds an honest statement of what the city offers and what investment
+  it seeks, joint promotion with neighbouring municipalities rather than competition by tax breaks, one point of contact for enterprises,
+  institutions and those of the diaspora who wish to invest, sites matched with a preference for reuse, written agreements on local
+  work and community benefit, aftercare that links newcomers to local suppliers and networks, and a public review of whether commitments
+  were kept.
+trigger: The economic development strategy calls for investment in a sector, an enterprise or institution asks about settling in the
+  city, or residents abroad wish to invest at home.
+outcome: Investment that settles in the city brings work and benefit to its residents under commitments that are published and kept,
+  without displacing what is already there.
+stakeholders:
+- investor
+- local-business
+- neighbouring-municipality
+- economic-development-officer
+- landowner
+- property-developer
+- research-institution
+- affected-community
+steps:
+- slug: location-offer-definition
+  title: Location Offer Definition
+  summary: The economic development office states from evidence what the city offers to enterprises, institutions, workers and returning
+    residents, and which investment it seeks, honest about its limits and true to the neighbourhoods it describes.
+  capabilities:
+  - location-offer-definition
+  - economic-priority-setting
+  - city-profile-drafting
+  entities:
+  - location-offer
+  - economic-development-strategy
+  - city-profile
+  serves:
+  - location-offer-workshop
+  - published-location-offer
+- slug: joint-regional-promotion
+  title: Joint Regional Promotion
+  summary: The city and its neighbouring municipalities promote the region together and agree not to outbid one another with tax breaks,
+    sharing a register of sites, the costs of promotion and part of the revenue that investment brings.
+  capabilities:
+  - joint-regional-promotion
+  - cross-boundary-agreement-handling
+  - regional-revenue-pooling
+  entities:
+  - cross-boundary-agreement
+  - location-offer
+  serves:
+  - regional-promotion-agreement
+  - shared-regional-site-register
+- slug: investment-enquiry-handling
+  title: Investment Enquiry Handling
+  summary: One point of contact receives enquiries from enterprises, institutions and diaspora investors, answers them with facts
+    on sites, skills, permits and costs, and invites residents abroad to invest in their places of origin.
+  capabilities:
+  - investment-enquiry-handling
+  - business-advice-provision
+  entities:
+  - investment-enquiry
+  - location-offer
+  serves:
+  - diaspora-investment-invitation
+  - investment-contact-point
+- slug: site-and-premises-matching
+  title: Site and Premises Matching
+  summary: Enquiries are matched to available land and buildings from the public asset register and from private owners, preferring
+    the reuse of vacant buildings and former industrial land over new land at the city's edge.
+  capabilities:
+  - site-and-premises-matching
+  - public-land-leasing
+  - heritage-reuse-planning
+  entities:
+  - land-parcel
+  - building
+  - public-asset-register
+  serves:
+  - shared-regional-site-register
+  - site-matching-visit
+- slug: local-benefit-agreement
+  title: Local Benefit Agreement
+  summary: An investment that receives city land, permits on favourable terms or other support signs a written agreement on local
+    hiring, fair pay, local suppliers and community benefit, with repayment of support if the commitments are not kept.
+  capabilities:
+  - investment-benefit-agreement-drafting
+  - local-hiring-requirement-setting
+  entities:
+  - investment-agreement
+  - local-hiring-agreement
+  serves:
+  - community-benefit-hearing
+  - local-benefit-agreement-negotiation
+- slug: investor-aftercare
+  title: Investor Aftercare
+  summary: Enterprises that have settled keep a named contact and are linked to local suppliers, training providers and business networks,
+    so that their spending and hiring reach the city.
+  capabilities:
+  - investor-aftercare
+  - business-network-convening
+  entities:
+  - business-support-case
+  - business-network
+  serves:
+  - aftercare-check-in
+  - local-supplier-introduction
+- slug: investment-outcome-review
+  title: Investment Outcome Review
+  summary: The city reviews and publishes whether each agreement was kept, how many residents found work, and what the investment
+    did to rents and to the businesses already there, and recovers support where commitments failed.
+  capabilities:
+  - investment-outcome-review
+  - equity-audit
+  entities:
+  - investment-agreement
+  - economic-indicators
+  serves:
+  - investment-commitment-review
+  - published-investment-outcome-review
+binds:
+- source: src-102
+  edition: '2023'
+  jurisdiction: global
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global

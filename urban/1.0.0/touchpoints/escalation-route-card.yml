@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: escalation-route-card
+title: Escalation Route Card
+medium: artefact
+summary: The short guide for staff and the agent to the points at which a case goes to a person and to whom.
+exchanges:
+- escalated-cases-for-a-person-who-decides
+journey: municipal-ai-agent-serving-a-fixed-term

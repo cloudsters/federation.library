@@ -1,0 +1,45 @@
+kind: entity
+slug: account
+title: Account
+type: master
+summary: A ledger account — the financial record of every value exchange of one kind, from which the organisation knows its economic state
+  and reports it to stakeholders.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: account-number
+  type: identifier
+  card: 1..1
+- name: account-type
+  type: code
+  card: 1..1
+- name: parent
+  type: reference(account)
+  card: 0..1
+- name: currency
+  type: code
+  card: 0..1
+- name: balance
+  type: amount
+  card: 0..1
+states:
+- created
+- posted-to
+- reconciled
+- archived
+relations:
+- type: part-of
+  target: account
+- type: refers-to
+  target: organization
+- type: refers-to
+  target: journal-entry
+- type: refers-to
+  target: cost-center
+- type: refers-to
+  target: bank-account
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global

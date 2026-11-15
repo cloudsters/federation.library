@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: supplier-payment-run
+title: Supplier Payment Run
+medium: channel
+summary: The regular run in which the city pays its suppliers' invoices on the dates due, planned from the cash forecast.
+exchanges:
+- prompt-payment-for-continued-supply
+journey: finance-officer-keeping-the-city-able-to-pay

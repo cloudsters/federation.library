@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: change-advisory-board
+title: Change Advisory Board
+medium: encounter
+summary: The regular meeting in which IT, system owners and clinical representatives assess, approve and schedule changes, keeping
+  care-critical times free.
+exchanges:
+- care-criticality-for-service-levels
+journey: unit-agreeing-its-service-levels

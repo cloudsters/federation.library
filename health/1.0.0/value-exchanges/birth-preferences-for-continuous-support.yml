@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: birth-preferences-for-continuous-support
+title: Birth Preferences for Continuous Support
+between:
+- maternity-patient
+- midwife
+offered:
+- Her history, her preferences for the birth and her participation in decisions as labour unfolds.
+returned:
+- Continuous midwifery support, safe monitoring, pain relief as wished and prompt escalation to the obstetric team when risk arises.
+touchpoint: delivery-suite

@@ -1,0 +1,44 @@
+kind: entity
+slug: legal-matter
+title: Legal Matter
+type: transactional
+summary: A legal case the organisation handles other than a claim for harm in care, such as a request for legal advice, a
+  dispute with a supplier, payer or employee, or a court, arbitration or administrative proceeding, with its exposure and
+  outcome.
+attributes:
+- name: matter-kind
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: counterparties
+  type: reference(organisation)
+  card: 0..*
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: outside-counsel
+  type: reference(organisation)
+  card: 0..1
+- name: exposure
+  type: amount
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- opened
+- under-assessment
+- in-negotiation
+- in-proceedings
+- resolved
+- closed
+relations:
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: compliance-obligation

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: target-architecture-for-open-products
+title: Target Architecture for Open Products
+between:
+- health-informatics-specialist
+- supplier
+offered:
+- The target architecture, its principles and integration rules, so that products fit into the landscape without custom work.
+returned:
+- Product roadmaps disclosed early, open and documented interfaces, and commitment to the exchange standards the commons follows.
+touchpoint: architecture-board

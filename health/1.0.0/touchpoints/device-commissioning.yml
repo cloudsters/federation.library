@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: device-commissioning
+title: Device Commissioning
+medium: encounter
+summary: The installation, acceptance testing and staff instruction through which a new medical device enters clinical use, with supplier,
+  engineers and users present.
+exchanges:
+- proven-equipment-for-signed-acceptance
+- device-and-evidence-for-safe-use
+- device-segmentation-for-security-updates
+journey: supplier-securing-its-products

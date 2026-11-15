@@ -1,0 +1,136 @@
+# startup's family loop: corporate's loop of the same slug, its streams those of startup 
+loop: _family.contributor-to-succession
+title: Keep the family 'Contributor to Succession' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: contributor-to-succession
+  vs:
+  - talent-attraction-welcome
+  - relationship-stewardship
+  - payroll-as-promise-fulfilled
+  - ai-agent-lifecycle
+stance: Steward the lifecycle of the intelligent contributors (human or AI agent) who shape the commons — find → onboard →
+  keep relevant → succeed the role. No single stream of this family can see what its streams do to one another; this loop
+  is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/contributor-to-succession
+  - value-model.yml#vs/participant-intelligence-sensing
+  - value-model.yml#vs/workforce-as-ecosystem
+  - value-model.yml#vs/talent-attraction-welcome
+  - value-model.yml#vs/workforce-scheduling-and-staffing
+  - value-model.yml#vs/growth-development-cultivation
+  - value-model.yml#vs/relationship-stewardship
+  - value-model.yml#vs/recognition-reciprocity
+  - value-model.yml#vs/payroll-as-promise-fulfilled
+  - value-model.yml#vs/transition-graceful-exit
+  - value-model.yml#vs/ai-agent-lifecycle
+  registry:
+  - instance/registry/5_value-streams/participant-intelligence-sensing.md
+  - instance/registry/5_value-streams/workforce-as-ecosystem.md
+  - instance/registry/5_value-streams/talent-attraction-welcome.md
+  - instance/registry/5_value-streams/workforce-scheduling-and-staffing.md
+  - instance/registry/5_value-streams/growth-development-cultivation.md
+  - instance/registry/5_value-streams/relationship-stewardship.md
+  - instance/registry/5_value-streams/recognition-reciprocity.md
+  - instance/registry/5_value-streams/payroll-as-promise-fulfilled.md
+  - instance/registry/5_value-streams/transition-graceful-exit.md
+  - instance/registry/5_value-streams/ai-agent-lifecycle.md
+  loop_states:
+  - instance/operations/loops/_state/participant-intelligence-sensing.yml
+  - instance/operations/loops/_state/workforce-as-ecosystem.yml
+  - instance/operations/loops/_state/talent-attraction-welcome.yml
+  - instance/operations/loops/_state/workforce-scheduling-and-staffing.yml
+  - instance/operations/loops/_state/growth-development-cultivation.yml
+  - instance/operations/loops/_state/relationship-stewardship.yml
+  - instance/operations/loops/_state/recognition-reciprocity.yml
+  - instance/operations/loops/_state/payroll-as-promise-fulfilled.yml
+  - instance/operations/loops/_state/transition-graceful-exit.yml
+  - instance/operations/loops/_state/ai-agent-lifecycle.yml
+  measures:
+  - access-withdrawn-on-exit
+  - agent-caused-incidents
+  - agent-reviews-on-schedule
+  - agents-validated-before-commissioning
+  - agents-with-mandate-and-supervision
+  - agreed-development-completed
+  - automation-gains-shared
+  - candidate-experience-rating
+  - consultation-deadlines-met
+  - contributor-record-accuracy
+  - critical-skill-coverage
+  - every-candidate-answered
+  - felt-recognition
+  - grievance-resolution-time
+  - growth-conversations-held
+  - handover-completed-before-exit
+  - human-override-rate
+  - inquirer-satisfaction
+  - inquiries-resolved-at-first-contact
+  - inquiry-resolution-time
+  - internal-fill-rate
+  - key-roles-filled-from-succession-plan
+  - key-roles-with-ready-successor
+  - learning-applied-at-work
+  - learning-hours-per-employee
+  - leavers-in-good-standing
+  - mandatory-training-current
+  - matters-resolved-without-escalation
+  - new-hires-meeting-expectations
+  - new-joiners-retained-through-first-year
+  - overtime-share
+  - pay-gap-within-grade
+  - pay-on-time
+  - pay-query-rate
+  - pay-ranges-compared-with-market
+  - pay-review-completed-on-schedule
+  - payroll-cost-per-payslip
+  - payroll-reconciled-at-close
+  - payslips-without-correction
+  - ready-on-day-one
+  - recurring-grievance-causes
+  - remittances-filed-and-paid-on-time
+  - retired-agents-fully-decommissioned
+  - rosters-published-in-advance
+  - shifts-staffed-at-required-level
+  - short-notice-shift-changes
+  - time-records-complete-at-period-close
+  - time-to-fill
+  - trust-in-working-relations
+  - unwanted-turnover
+  - workforce-cost-share
+  - workforce-forecast-deviation
+  - workforce-plan-targets-met
+  - workforce-plans-approved-before-budget-year
+  - workforce-reports-delivered-on-schedule
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.contributor-to-succession.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

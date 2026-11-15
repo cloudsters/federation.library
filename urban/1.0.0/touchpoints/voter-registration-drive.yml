@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: voter-registration-drive
+title: Voter Registration Drive
+medium: encounter
+summary: Outreach in markets, shelters and neighbourhoods to reach eligible residents missing from the register, such as recent arrivals
+  and those without a stable address.
+exchanges:
+- eligibility-for-a-correct-register-entry
+- trust-for-a-place-on-the-register
+journey: election-office-running-the-municipal-election

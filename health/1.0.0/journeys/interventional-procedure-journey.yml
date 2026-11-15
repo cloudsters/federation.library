@@ -1,0 +1,40 @@
+kind: journey
+slug: interventional-procedure-journey
+title: Interventional Procedure Journey
+stakeholder: outpatient
+summary: A person referred for a catheter, endoscopic or image-guided procedure understands why it is needed, prepares and consents,
+  undergoes it comfortably, goes home the same day and learns the findings.
+stages:
+- slug: learn-why-and-when
+  title: Learn Why and When
+  goal: Understand why the procedure is needed and receive a date.
+  step: interventional-procedures/request-and-indication
+  touchpoints:
+  - consultation
+  - appointment-confirmation
+- slug: prepare-and-consent
+  title: Prepare and Consent
+  goal: Know how to prepare, which medicines to pause and what will happen, and consent.
+  step: interventional-procedures/preparation-and-consent
+  touchpoints:
+  - consent-form
+  - patient-portal
+- slug: undergo-the-procedure
+  title: Undergo the Procedure
+  goal: Be comfortable and safe during the procedure.
+  step: interventional-procedures/procedure-performance
+  touchpoints:
+  - interventional-suite
+- slug: recover-and-go-home
+  title: Recover and Go Home
+  goal: Recover and go home the same day with clear advice and a contact.
+  step: interventional-procedures/recovery-and-observation
+  touchpoints:
+  - day-care-unit
+- slug: receive-the-findings
+  title: Receive the Findings
+  goal: Learn the findings and what follows from them.
+  step: interventional-procedures/procedure-report
+  touchpoints:
+  - diagnostic-report
+  - consultation

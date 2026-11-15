@@ -1,0 +1,46 @@
+kind: journey
+slug: bidding-in-a-supply-tender
+title: Bidding in a Supply Tender
+stakeholder: supplier
+summary: A supplier's path through a competitive procedure, from finding the call for tender to the first orders under the awarded
+  contract.
+stages:
+- slug: find-the-call
+  title: Find the Call
+  goal: The call for tender and all its documents are found and obtained without barriers or fees.
+  step: tendering-and-contracting/tender-publication-and-bidding
+  touchpoints:
+  - call-for-tender
+  - supplier-portal
+- slug: ask-and-bid
+  title: Ask and Bid
+  goal: Questions are answered with the same information given to every bidder, and the bid is submitted securely before the deadline.
+  step: tendering-and-contracting/tender-publication-and-bidding
+  touchpoints:
+  - supplier-portal
+- slug: demonstrate-the-offer
+  title: Demonstrate the Offer
+  goal: Samples and demonstrations are assessed against the published criteria by evaluators free of conflicts of interest.
+  step: tendering-and-contracting/bid-evaluation
+  touchpoints:
+  - product-trial
+  - supplier-portal
+- slug: learn-the-result
+  title: Learn the Result
+  goal: The result and its reasons arrive in writing, with time to challenge the decision before the contract is concluded.
+  step: tendering-and-contracting/award-decision
+  touchpoints:
+  - award-notice
+- slug: sign-the-contract
+  title: Sign the Contract
+  goal: Terms are confirmed, the contract is signed and the supplier and its items are set up so that orders can start.
+  step: tendering-and-contracting/contract-conclusion
+  touchpoints:
+  - supply-contract
+- slug: start-delivering
+  title: Start Delivering
+  goal: The units know the new contract, its items are orderable and the first orders arrive with the agreed terms.
+  step: tendering-and-contracting/contract-mobilisation-and-renewal
+  touchpoints:
+  - supplier-portal
+  - supply-contract

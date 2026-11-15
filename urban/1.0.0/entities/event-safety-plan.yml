@@ -1,0 +1,60 @@
+kind: entity
+slug: event-safety-plan
+title: Event Safety Plan
+type: governance
+summary: The agreed plan for keeping an event safe, stewarded and cleared, with its crowd capacity, routes, stewards, medical cover
+  and emergency arrangements. The organiser writes it and agrees it with the emergency services and the city, and it is a condition
+  of the permit and the brief for stewards and volunteers.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: event
+  type: reference(festival|cultural-performance|community-event)
+  card: 1..1
+- name: capacity
+  type: integer
+  card: 1..1
+- name: site-plan
+  type: document
+  card: 1..1
+- name: access-and-exit-routes
+  type: text
+  card: 1..*
+- name: steward-count
+  type: integer
+  card: 1..1
+- name: medical-cover
+  type: text
+  card: 0..1
+- name: emergency-arrangements
+  type: text
+  card: 1..1
+- name: clearance-arrangements
+  type: text
+  card: 0..1
+- name: agreed-with
+  type: text
+  card: 1..*
+- name: emergency-plan
+  type: reference(emergency-plan)
+  card: 0..1
+- name: agreed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- submitted
+- agreed
+- briefed
+- in-effect
+- closed
+relations:
+- type: part-of
+  target: public-space-permit
+- type: governed-by
+  target: emergency-plan
+- type: refers-to
+  target: emergency-response
+- type: refers-to
+  target: volunteer-record

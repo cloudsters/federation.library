@@ -1,0 +1,156 @@
+kind: value-stream
+slug: medical-equipment-maintenance
+title: Medical Equipment Maintenance
+family: acquire-to-retire
+summary: 'Keeping medical equipment safe and available until retirement: preventive and corrective maintenance, safety and metrology
+  inspections, warranty and service contracts, and decommissioning.'
+trigger: A maintenance or inspection date falls due, or equipment fails.
+outcome: The equipment is safe and available for use, or it is decommissioned and disposed of properly.
+stakeholders:
+- critically-ill-patient
+- registered-nurse
+- diagnostic-technologist
+- clinical-engineer
+- support-services-staff
+- supplier
+- health-regulator
+- natural-environment
+steps:
+- slug: maintenance-planning-and-scheduling
+  title: Maintenance Planning and Scheduling
+  summary: Derive preventive maintenance and the mandatory safety and metrology inspections from manufacturer instructions, legal
+    duties and device risk, schedule them with the using units, and plan internal staff, service contracts and spare parts.
+  capabilities:
+  - device-maintenance-planning
+  - device-inventory-and-registration
+  - asset-condition-sensing
+  - medical-equipment-pool-management
+  - contract-lifecycle-stewardship
+  - clinical-warehousing-and-inventory
+  entities:
+  - medical-device
+  - maintenance-order
+  - contract
+  - inventory-item
+  - compliance-obligation
+  serves:
+  - inspection-label
+  - medical-equipment-register
+  - service-contract-review
+  - supply-contract
+- slug: fault-reporting-and-triage
+  title: Fault Reporting and Triage
+  summary: Users take a failed or suspect device out of use, decontaminate and report it and receive a replacement from the pool;
+    clinical engineering rates the fault by risk to patients and decides whether an incident must be investigated.
+  capabilities:
+  - device-incident-handling
+  - medical-equipment-pool-management
+  - incident-reporting-and-learning
+  - environmental-hygiene
+  entities:
+  - maintenance-order
+  - medical-device
+  - incident
+  serves:
+  - clinical-engineering-service-desk
+  - equipment-pool
+- slug: maintenance-and-inspection
+  title: Maintenance and Inspection
+  summary: Carry out preventive and corrective maintenance, calibration and the mandatory inspections in commons or through contracted
+    service, apply the manufacturer's security updates, and document the work, the parts used and the downtime.
+  capabilities:
+  - device-maintenance-execution
+  - device-safety-and-metrology-inspection
+  - device-warranty-management
+  - medical-device-cybersecurity
+  - clinical-warehousing-and-inventory
+  entities:
+  - maintenance-order
+  - medical-device
+  - inventory-item
+  - contract
+  - supplier-organisation
+  serves:
+  - clinical-engineering-service-desk
+  - equipment-pool
+  - service-visit
+- slug: release-for-use
+  title: Release for Use
+  summary: Test the device after the work, clean and disinfect it, release it with its next due date and return it to the unit or
+    the equipment pool.
+  capabilities:
+  - device-safety-and-metrology-inspection
+  - device-maintenance-execution
+  - environmental-hygiene
+  - medical-equipment-pool-management
+  - internal-distribution
+  entities:
+  - medical-device
+  - maintenance-order
+  serves:
+  - equipment-pool
+  - inspection-label
+- slug: incident-and-safety-notice-handling
+  title: Incident and Safety Notice Handling
+  summary: Investigate device-related incidents with the users, report serious ones to the authority and the manufacturer, and act
+    on safety notices and recalls by locating every affected device and confirming the correction.
+  capabilities:
+  - device-incident-handling
+  - root-cause-analysis
+  - regulatory-incident-reporting
+  - safety-notice-dissemination
+  - product-recall-management
+  - hazard-assessment
+  entities:
+  - incident
+  - regulatory-notification
+  - safety-notice
+  - medical-device
+  - corrective-action
+  serves:
+  - field-safety-notice
+  - recall-response-form
+  - service-visit
+- slug: condition-and-performance-review
+  title: Condition and Performance Review
+  summary: Review failure rates, downtime, inspection compliance, contractor performance and cost per device group, adjust maintenance
+    strategies and service contracts, and name the devices due for replacement.
+  capabilities:
+  - asset-condition-sensing
+  - supplier-performance-evaluation
+  - supplier-recovery
+  - device-warranty-management
+  - medical-device-investment-planning
+  - cost-management
+  entities:
+  - medical-device
+  - measure-report
+  - contract
+  - supplier-organisation
+  - maintenance-order
+  serves:
+  - equipment-performance-report
+  - service-contract-review
+- slug: decommissioning-and-disposal
+  title: Decommissioning and Disposal
+  summary: Withdraw devices that are unsafe, obsolete or uneconomic, erase the patient data they hold, remove them from the inventory
+    and the asset register, and sell, return, recycle or dispose of them as hazardous waste.
+  capabilities:
+  - responsible-decommissioning
+  - media-sanitisation
+  - device-inventory-and-registration
+  - fixed-asset-accounting
+  - returns-reverse-logistics
+  - hazardous-waste-management
+  entities:
+  - medical-device
+  - asset
+  - waste-consignment
+  serves:
+  - clinical-engineering-service-desk
+  - erasure-certificate
+  - waste-consignment-note
+binds:
+- source: src-295
+  edition: '2014'
+  jurisdiction: global

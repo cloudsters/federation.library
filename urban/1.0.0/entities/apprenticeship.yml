@@ -1,0 +1,69 @@
+kind: entity
+slug: apprenticeship
+title: Apprenticeship
+type: transactional
+summary: One apprentice's path from intake to credential, with the trade, the mentors and workplaces, the stages passed and the stipend
+  paid. The apprenticeship pool keeps it with the apprentice, and it is used to pay the stipend, to open each stage and to place the
+  apprentice when the path is complete.
+attributes:
+- name: apprenticeship-number
+  type: identifier
+  card: 1..1
+- name: apprentice-name
+  type: text
+  card: 1..1
+- name: trade
+  type: text
+  card: 1..1
+- name: standard
+  type: reference(competency-standard)
+  card: 1..1
+- name: pool
+  type: reference(apprenticeship-pool)
+  card: 1..1
+- name: mentors
+  type: reference(mentoring-relationship)
+  card: 0..*
+- name: workplaces
+  type: text
+  card: 0..*
+- name: stages-passed
+  type: integer
+  card: 0..1
+- name: stipend
+  type: amount
+  card: 1..1
+- name: start-date
+  type: date
+  card: 1..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: credential
+  type: reference(skill-recognition)
+  card: 0..1
+states:
+- admitted
+- under-way
+- stage-review
+- paused
+- completed
+- placed
+- withdrawn
+relations:
+- type: part-of
+  target: apprenticeship-pool
+- type: governed-by
+  target: competency-standard
+- type: depends-on
+  target: mentoring-relationship
+- type: refers-to
+  target: infrastructure-repair
+- type: produces
+  target: skill-recognition
+- type: refers-to
+  target: employment-pathway
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

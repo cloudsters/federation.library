@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: system-training
+title: System Training
+medium: encounter
+summary: Role-based training in which staff learn to use a new or changed system with realistic cases before they work with it on
+  patients.
+exchanges:
+- training-and-support-for-adoption
+journey: clinical-users-receiving-a-new-system

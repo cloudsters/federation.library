@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: agreed-formats-for-seamless-orders
+title: Agreed Formats for Seamless Orders
+between:
+- business-customer
+- information-technology-specialist
+offered:
+- Time and test data to connect and agree formats.
+returned:
+- Orders, confirmations and invoices that flow without retyping or delay.
+touchpoint: electronic-order-interface

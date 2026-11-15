@@ -1,0 +1,37 @@
+kind: entity
+slug: capacity-forecast
+title: Capacity Forecast
+type: intelligence
+summary: An estimate of demand for beds, operating time, staff or materials over a coming horizon, derived from admissions,
+  schedules, waiting lists and seasonal patterns, used to plan capacity before it runs short.
+attributes:
+- name: resource-kind
+  type: code
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: site
+  type: reference(site)
+  card: 0..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: forecast-demand
+  type: quantity
+  card: 1..1
+- name: method
+  type: code
+  card: 0..1
+- name: generated-at
+  type: datetime
+  card: 1..1
+states:
+- generated
+- reviewed
+- used
+relations:
+- type: based-on
+  target: waiting-list-entry
+- type: based-on
+  target: appointment

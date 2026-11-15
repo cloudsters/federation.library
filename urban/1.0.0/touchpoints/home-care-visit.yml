@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: home-care-visit
+title: Home Care Visit
+medium: encounter
+summary: The visit of a care worker to a person at home to give the care the plan names, with time to talk and to notice change.
+exchanges:
+- daily-care-for-respect-of-the-work
+journey: older-resident-staying-cared-for-at-home

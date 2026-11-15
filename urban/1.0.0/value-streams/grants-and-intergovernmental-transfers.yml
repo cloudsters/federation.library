@@ -1,0 +1,134 @@
+kind: value-stream
+slug: grants-and-intergovernmental-transfers
+title: Grants and Intergovernmental Transfers
+family: value-to-sustainability
+summary: Securing and accounting for the money that reaches the city from higher levels of government, regional pools and other funders,
+  and the grants the city itself gives. It holds the transfers and equalisation shares the city is due, tax revenue shared with neighbouring
+  municipalities, grants applied for and administered to their conditions, grants to community bodies that keep them independent,
+  and a review of the funding mix so that the city's own revenue and the commons fund carry the work that must last.
+trigger: A transfer allocation is announced, a funding call opens that matches a city objective, or a grant-funded programme approaches
+  its end.
+outcome: The city receives every transfer it is due, administers each grant to its conditions through close-out, and depends less
+  on any single funder because its own revenue carries the work that must last.
+stakeholders:
+- funding-body
+- neighbouring-municipality
+- finance-officer
+- city-administration
+- civil-society-organisation
+- neighbourhood-association
+- supervisory-authority
+steps:
+- slug: transfer-and-equalisation-claims
+  title: Transfer and Equalisation Claims
+  summary: The finance department establishes the transfers and equalisation shares due to the city from higher levels of government,
+    supplies the population and economic data on which the formulae rest, and contests errors in the allocation.
+  capabilities:
+  - transfer-entitlement-tracking
+  - compliance-reporting
+  entities:
+  - intergovernmental-transfer
+  - population-register
+  - economic-indicators
+  serves:
+  - allocation-review-meeting
+  - transfer-claim-submission
+- slug: regional-revenue-sharing
+  title: Regional Revenue Sharing
+  summary: The city agrees with neighbouring municipalities its contribution to and share of a regional revenue pool that funds regional
+    goods such as transit and water treatment and supports places whose own revenue cannot carry their services, and settles the contributions
+    each year.
+  capabilities:
+  - regional-revenue-pooling
+  - cross-boundary-agreement-handling
+  entities:
+  - cross-boundary-agreement
+  - intergovernmental-transfer
+  serves:
+  - regional-pool-negotiation
+  - regional-revenue-pool-settlement
+- slug: funding-opportunity-scouting
+  title: Funding Opportunity Scouting
+  summary: The city watches funding calls that match its objectives and programmes, and assesses each for its conditions, the match
+    funding it requires and the running costs it leaves behind when the grant ends.
+  capabilities:
+  - funding-opportunity-scouting
+  - grant-condition-assessment
+  entities:
+  - city-objective
+  - city-programme
+  - grant-application
+  serves:
+  - funding-call-digest
+  - grant-fit-assessment
+- slug: grant-application-and-award
+  title: Grant Application and Award
+  summary: The department and its partners prepare the application, the council or its delegate commits the match funding, and the
+    city negotiates and signs the award with terms it can meet.
+  capabilities:
+  - grant-application-preparation
+  - council-decision-preparation
+  - contract-review
+  entities:
+  - grant-application
+  - grant-award
+  - council-decision
+  serves:
+  - grant-award-negotiation
+  - grant-partnership-meeting
+  - match-funding-resolution
+- slug: grant-administration-and-close-out
+  title: Grant Administration and Close-Out
+  summary: Each grant is set up as its own account, spent to its conditions, claimed, reported to the funder and closed out, with
+    the evidence kept for the funder's audit.
+  capabilities:
+  - grant-compliance-monitoring
+  - grant-reporting-and-close-out
+  - transaction-recording
+  entities:
+  - grant-award
+  - grant-report
+  - journal-entry
+  serves:
+  - funder-audit-visit
+  - grant-claim-and-report
+- slug: grants-to-community-bodies
+  title: Grants to Community Bodies
+  summary: The city gives multi-year grants to neighbourhood associations and civil-society organisations on published criteria and
+    with light reporting, so that they stay answerable to the people they serve rather than to the city's funding.
+  capabilities:
+  - community-grant-making
+  - community-body-recognition
+  entities:
+  - community-grant
+  - neighbourhood
+  serves:
+  - community-grant-agreement
+  - community-grant-call
+- slug: funding-mix-review
+  title: Funding Mix Review
+  summary: Each year the finance department reviews how much of the city's spending rests on grants and how much on its own revenue
+    and the commons fund, names the work that must last beyond its grant, and moves it into the medium-term financial plan before
+    the grant ends.
+  capabilities:
+  - funding-mix-review
+  - medium-term-financial-planning
+  entities:
+  - funding-mix-review
+  - medium-term-financial-plan
+  serves:
+  - funding-mix-report
+  - grant-exit-planning-session
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-204
+  edition: '2014'
+  jurisdiction: global

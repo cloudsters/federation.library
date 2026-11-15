@@ -1,0 +1,103 @@
+kind: value-stream
+slug: compensation-and-payroll
+title: Compensation and Payroll
+family: contributor-to-succession
+summary: 'Paying contributors correctly and on time: pay classification under collective agreements, allowances, benefits, payroll
+  calculation, taxes and social contributions.'
+trigger: A pay period closes, or a contributor's employment terms change.
+outcome: Every contributor is paid correctly and on time, and payroll is reconciled with accounting.
+stakeholders:
+- registered-nurse
+- specialist-physician
+- administrative-staff
+- staff-representation
+- executive
+- tax-authority
+steps:
+- slug: pay-structure
+  title: Pay Structure
+  summary: Apply collective agreements and the pay policy to set pay scales, allowances, benefits and recognition schemes, and benchmark
+    them against the market and for equity between groups.
+  capabilities:
+  - reward-and-recognition
+  - compensation-benchmarking
+  - collective-bargaining
+  - workforce-policy-design
+  entities:
+  - contract
+  - policy
+  serves:
+  - collective-agreement
+  - intranet
+- slug: pay-grading
+  title: Pay Grading
+  summary: Grade each employment under the applicable agreement by role, qualification and experience, and regrade on promotion, change
+    of duties or step progression.
+  capabilities:
+  - job-evaluation-and-pay-grading
+  - promotion-and-progression
+  - employee-data-stewardship
+  entities:
+  - employment
+  - position
+  - employee
+  serves:
+  - employment-contract
+  - hr-self-service
+- slug: pay-input-collection
+  title: Pay Input Collection
+  summary: 'Collect the period''s pay inputs: approved working time, on-call and overtime, absences, allowances, benefit elections,
+    changes in employment and deductions.'
+  capabilities:
+  - time-and-attendance
+  - benefits-administration
+  - employee-self-service-portal
+  - employee-data-stewardship
+  entities:
+  - working-time-record
+  - absence
+  - employment
+  serves:
+  - hr-self-service
+- slug: payroll-calculation
+  title: Payroll Calculation
+  summary: Calculate gross pay, allowances, taxes, social contributions and net pay for every employee, and check the run for anomalies
+    before it is approved.
+  capabilities:
+  - payroll-administration
+  - payroll-taxes
+  - controls-monitoring
+  entities:
+  - payroll-run
+  - employment
+- slug: payment-and-statements
+  title: Payment and Statements
+  summary: Pay salaries on the agreed date, deliver pay statements, and pay withheld taxes and social contributions to the authorities
+    on time.
+  capabilities:
+  - payment-run-orchestration
+  - payroll-taxes
+  - employee-self-service-portal
+  - cash-management
+  entities:
+  - payroll-run
+  - payment
+  serves:
+  - pay-statement
+  - payroll-tax-filing
+- slug: posting-and-reconciliation
+  title: Posting and Reconciliation
+  summary: Post personnel costs to the ledger and the cost centres, reconcile payroll with accounting and bank, and resolve staff
+    queries and corrections.
+  capabilities:
+  - general-accounting
+  - cost-accounting
+  - banking-and-reconciliation
+  - employee-inquiry-service
+  entities:
+  - payroll-run
+  - ledger-entry
+  - cost-centre
+  - payment
+  serves:
+  - hr-service-desk

@@ -1,0 +1,48 @@
+kind: solution
+slug: clinical-documentation
+title: Clinical Documentation
+role: system-of-record
+summary: 'Supports professionals in writing the record at the point of care: history, examination, notes, procedure records,
+  letters, discharge summaries and certificates, by form, dictation or ambient capture. It produces the signed documents the
+  record is built from.'
+carries:
+- clinical-history-taking
+- physical-examination
+- diagnostic-uncertainty-communication
+- ward-rounds
+- clinical-handover
+- clinical-documentation-at-point-of-care
+- clinical-documentation-integrity
+- ambient-clinical-documentation
+- ai-assistant-integration
+- discharge-summary
+- surgical-indication-and-consent
+- labour-and-birth-care
+- child-protection
+- psychiatric-crisis-intervention
+- coercive-measure-safeguards
+- organ-donation-coordination
+- geriatric-assessment
+- early-rehabilitation
+- physiotherapy
+- occupational-therapy
+- speech-and-swallowing-therapy
+- clinical-nutrition
+- clinical-psychology
+- clinical-ethics-consultation
+holds:
+- clinical-document
+- discharge-summary
+- procedure
+- health-certificate
+- ethics-consultation
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

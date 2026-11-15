@@ -1,0 +1,67 @@
+kind: entity
+slug: tax-assessment
+title: Tax Assessment
+type: transactional
+summary: The liability assessed for one taxpayer, property or levy for a period, including a betterment levy on a rise in land value,
+  with its basis, the rate applied and the bill sent. The revenue office makes it and corrects it when the facts change, and the bill
+  shows in plain language what is owed, on what basis and what the revenue funds.
+attributes:
+- name: assessment-number
+  type: identifier
+  card: 1..1
+- name: taxpayer
+  type: reference(taxpayer-account)
+  card: 1..1
+- name: revenue-kind
+  type: code
+  card: 1..1
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: assessed-parcel
+  type: reference(land-parcel)
+  card: 0..1
+- name: assessed-building
+  type: reference(building)
+  card: 0..1
+- name: assessed-value
+  type: amount
+  card: 0..1
+- name: rate-applied
+  type: decimal
+  card: 1..1
+- name: amount-due
+  type: amount
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+- name: bill
+  type: document
+  card: 0..1
+- name: appeal-deadline
+  type: date
+  card: 0..1
+states:
+- calculated
+- billed
+- appealed
+- corrected
+- paid
+- in-arrears
+- closed
+relations:
+- type: based-on
+  target: tax-and-charge-schedule
+- type: based-on
+  target: land-value-map
+- type: refers-to
+  target: taxpayer-account
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: development-agreement
+binds:
+- source: src-192
+  edition: '2024'
+  jurisdiction: global

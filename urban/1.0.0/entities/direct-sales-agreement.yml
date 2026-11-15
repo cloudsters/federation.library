@@ -1,0 +1,54 @@
+kind: entity
+slug: direct-sales-agreement
+title: Direct Sales Agreement
+type: governance
+summary: The agreement under which farmers, food producers and makers of the region sell directly at markets and collection points,
+  with open prices and fair pay to producers. The producers or their cooperative sign it with the markets service, and it is used
+  to keep pitches for local producers and to publish the prices they are paid.
+attributes:
+- name: producers
+  type: text
+  card: 1..*
+- name: producer-cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: origin-area
+  type: text
+  card: 1..1
+- name: markets
+  type: reference(market)
+  card: 0..*
+- name: pitches
+  type: reference(trading-pitch)
+  card: 0..*
+- name: collection-points
+  type: text
+  card: 0..*
+- name: goods
+  type: code
+  card: 1..*
+- name: pricing-rule
+  type: text
+  card: 1..1
+- name: producer-pay-terms
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- in-force
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: market
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: market-price-report

@@ -1,0 +1,16 @@
+kind: body
+slug: quality-and-clinical-risk-management
+title: Quality and Clinical Risk Management
+summary: 'Runs the quality and clinical risk system: quality management and accreditation, indicators and outcome measurement,
+  clinical audit and peer review, incident learning, safety alerts and recalls, guidelines, pathways and technology assessment.'
+holds:
+- quality-system
+- quality-measurement
+- clinical-audit-and-peer-review
+- patient-safety-learning
+- safety-alerts-and-recalls
+- guidelines-and-pathways
+- technology-assessment
+part_of: executive-board
+type: function
+form: organisational-unit

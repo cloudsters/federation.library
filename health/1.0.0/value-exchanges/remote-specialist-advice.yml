@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: remote-specialist-advice
+title: Remote Specialist Advice
+between:
+- specialist-physician
+- referring-hospital
+offered:
+- A documented specialist recommendation at any hour within the agreed response time, with a clear statement of where clinical responsibility
+  lies.
+returned:
+- A clear question with complete data and images, adherence to the agreed protocols, payment under the cooperation agreement, and
+  cases that keep the commons' specialists in practice across the region.
+touchpoint: telemedicine-service

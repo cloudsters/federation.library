@@ -1,0 +1,11 @@
+kind: capability
+slug: transplant-immunology-testing
+title: Transplant Immunology Testing
+level: L3
+parent: specialised-laboratory-services
+summary: Type tissue, detect antibodies and cross-match donors and recipients for organ and stem-cell transplantation, around the
+  clock when an organ is offered.
+binds:
+- source: src-351
+  edition: '9.0'
+  jurisdiction: global

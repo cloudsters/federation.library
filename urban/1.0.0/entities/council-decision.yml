@@ -1,0 +1,64 @@
+kind: entity
+slug: council-decision
+title: Council Decision
+type: transactional
+summary: A formal resolution of the council or one of its committees, recorded with its reasons, votes, minority positions and rejected
+  alternatives. The council office keeps it complete and findable, and it is cited when the decision is carried out, reported on or
+  reviewed.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: decided-by
+  type: reference(council)
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: decision-kind
+  type: code
+  card: 1..1
+- name: decided-on
+  type: date
+  card: 1..1
+- name: reasons
+  type: text
+  card: 1..1
+- name: vote
+  type: text
+  card: 0..1
+- name: minority-positions
+  type: text
+  card: 0..*
+- name: rejected-alternatives
+  type: text
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..*
+- name: basis
+  type: document
+  card: 0..*
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- prepared
+- tabled
+- adopted
+- rejected
+- implemented
+- reviewed
+- rescinded
+relations:
+- type: governed-by
+  target: city-constitution
+- type: governed-by
+  target: decision-rights-register
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: municipal-budget
+- type: produces
+  target: public-record

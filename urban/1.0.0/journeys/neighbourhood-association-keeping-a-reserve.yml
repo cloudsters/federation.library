@@ -1,0 +1,42 @@
+kind: journey
+slug: neighbourhood-association-keeping-a-reserve
+title: Neighbourhood Association Keeping a Reserve
+stakeholder: neighbourhood-association
+summary: A neighbourhood association maps with the city where its essentials come from, helps set the levels that are enough, keeps
+  a reserve in a neighbourhood place and rotates it through daily use, hands out supplies by published priority in a disruption and
+  reviews afterwards what worked.
+stages:
+- slug: map-where-essentials-come-from
+  title: Map Where Essentials Come From
+  goal: The neighbourhood's dependence on single suppliers and distant chains is on the published map.
+  step: supply-security-and-essential-reserves/supply-dependency-mapping
+  touchpoints:
+  - essential-supply-mapping-session
+  - published-supply-dependency-map
+- slug: say-what-is-enough
+  title: Say What Is Enough
+  goal: The levels adopted reflect what the neighbourhood consumes and the foods its residents eat.
+  step: supply-security-and-essential-reserves/sufficiency-level-setting
+  touchpoints:
+  - sufficiency-level-hearing
+- slug: keep-and-rotate-the-reserve
+  title: Keep and Rotate the Reserve
+  goal: A reserve at the agreed level is held in a neighbourhood place and rotated through community meals and kitchens.
+  step: supply-security-and-essential-reserves/distributed-reserve-keeping
+  touchpoints:
+  - neighbourhood-reserve-store
+  - public-kitchen
+- slug: hand-out-by-priority
+  title: Hand Out by Priority
+  goal: In a disruption, supplies reach those most in need by the published priority, and each allocation is recorded.
+  step: supply-security-and-essential-reserves/fair-supply-allocation
+  touchpoints:
+  - neighbourhood-reserve-store
+  - published-allocation-priorities
+- slug: review-what-held
+  title: Review What Held
+  goal: Whether the levels held and the rotation worked is reviewed after every disruption, and the map and levels are updated.
+  step: supply-security-and-essential-reserves/reserve-and-dependency-review
+  touchpoints:
+  - reserve-review-meeting
+  - published-supply-dependency-map

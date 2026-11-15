@@ -1,0 +1,16 @@
+kind: capability
+slug: emergency-triage
+title: Emergency Triage
+level: L3
+parent: emergency-department-care
+summary: Assign each arriving patient a clinical urgency with a structured triage system and re-triage those who wait.
+binds:
+- source: src-587
+  edition: v5
+  jurisdiction: global
+- source: src-589
+  edition: 3e-v3.8
+  jurisdiction: global
+- source: src-603
+  edition: '2011'
+  jurisdiction: global

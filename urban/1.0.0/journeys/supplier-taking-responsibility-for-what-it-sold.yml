@@ -1,0 +1,34 @@
+kind: journey
+slug: supplier-taking-responsibility-for-what-it-sold
+title: Supplier Taking Responsibility for What It Sold
+stakeholder: supplier
+summary: A supplier provides parts and repair information for the city's fleet and equipment, agrees take-back and repair duties with
+  the city, makes spare parts available to repair points and takes back its products at the end of use.
+stages:
+- slug: supply-parts-for-the-fleet
+  title: Supply Parts for the Fleet
+  goal: The city's workshop has the parts and repair information it needs to repair the supplier's vehicles and equipment rather than
+    replace them.
+  step: repair-reuse-and-sharing/repair-before-replacement
+  touchpoints:
+  - municipal-fleet-workshop
+  - repair-or-replace-check
+- slug: agree-take-back-and-repair-duties
+  title: Agree Take-Back and Repair Duties
+  goal: The supplier's duties to take back, provide parts and repair information and contribute to the cost of collection and repair
+    are agreed.
+  step: repair-reuse-and-sharing/producer-take-back-and-repair-duties
+  touchpoints:
+  - take-back-terms-negotiation
+- slug: stock-the-spare-parts-pool
+  title: Stock the Spare Parts Pool
+  goal: Spare parts for the supplier's products are available to neighbourhood repair points.
+  step: repair-reuse-and-sharing/tool-libraries-and-spare-parts
+  touchpoints:
+  - spare-parts-pool
+- slug: take-back-at-the-end-of-use
+  title: Take Back at the End of Use
+  goal: Products at the end of their use are taken back and their parts and materials recovered.
+  step: repair-reuse-and-sharing/producer-take-back-and-repair-duties
+  touchpoints:
+  - take-back-point

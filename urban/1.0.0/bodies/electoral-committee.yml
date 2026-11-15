@@ -1,0 +1,10 @@
+kind: body
+slug: electoral-committee
+title: Electoral Committee
+summary: The independent body that oversees each election, rules on challenges and certifies the result, answering to the law rather
+  than to the council or the mayor.
+holds:
+- election-organisation
+part_of: null
+type: committee
+form: governing-body

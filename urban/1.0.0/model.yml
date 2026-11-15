@@ -1,0 +1,124 @@
+id: urban
+kind: urban-commons
+gives: 'An urban commons, a city, a district or a region seen as one settlement, holds its value creation as one whole: how
+  it perceives itself and holds its civic charter and mandate, the portfolio it builds, the civic community that carries it,
+  the services it offers residents and visitors and the infrastructure that keeps its promises, read together. This offer
+  holds what is authored so far whole: every stakeholder, the capability map from L0 to L3, every entity and solution, and
+  every Body with its Posts; every value stream of the pack, the seven of Perception to Mandate, the five of Purpose to Portfolio,
+  the five of Value to Sustainability, the eight of Portfolio to System, the seven of Participant to Community, the seven
+  of Collaboration to Automation, the nine of Contributor to Succession, the eight of Discovery to Usage, the seven of Interest
+  to Relationship, the seven of Proposition to Audience, the 12 of Demand to Fulfillment, the eight of Source to Alliance
+  and the eight of Acquire to Retire, with the journeys, touchpoints and value exchanges beside them.'
+asks: A Body that holds what the commons activates, and the commons' own evidence on its value creation.
+order:
+  perception-to-mandate:
+  - civic-identity-and-charter
+  - democratic-mandate
+  - governance-and-oversight
+  - transparency-and-public-ethics
+  - legal-affairs-and-compliance
+  - urban-risk-and-resilience
+  - whole-city-perception
+  purpose-to-portfolio:
+  - shared-city-vision
+  - city-strategy
+  - spatial-development-planning
+  - district-development
+  - city-programme-portfolio
+  value-to-sustainability:
+  - local-taxation-and-revenue
+  - municipal-budget-and-accounts
+  - treasury-and-debt
+  - grants-and-intergovernmental-transfers
+  - public-assets-and-commons-fund
+  portfolio-to-system:
+  - digital-strategy-and-systems-architecture
+  - digital-infrastructure-and-connectivity
+  - interoperability-and-platform-federation
+  - digital-solution-delivery-and-renewal
+  - digital-service-operations
+  - information-security-and-digital-resilience
+  - city-data-and-analytics
+  - data-protection-and-data-sovereignty
+  participant-to-community:
+  - resident-involvement-and-deliberation
+  - neighbourhood-community-development
+  - volunteering-and-mutual-aid
+  - newcomer-welcome-and-integration
+  - community-relations-and-cohesion
+  - community-mediation-and-restorative-practice
+  - civil-society-partnership
+  collaboration-to-automation:
+  - process-improvement-and-automation
+  - automated-decision-assurance
+  - human-agent-teaming
+  - practice-standards-and-pattern-library
+  - knowledge-sharing-and-staff-learning
+  - urban-research-and-experimentation
+  - service-quality-and-learning-from-failure
+  contributor-to-succession:
+  - municipal-workforce-planning
+  - recruitment-and-induction
+  - apprenticeships-and-skills-transmission
+  - local-employment-and-livelihood-pathways
+  - pay-and-fair-work-standards
+  - staff-wellbeing-and-retention
+  - succession-and-role-transition
+  - enterprise-and-tenure-succession
+  - ai-agent-lifecycle
+  discovery-to-usage:
+  - public-service-design
+  - digital-public-services
+  - service-access-and-wayfinding
+  - service-applications-and-entitlements
+  - school-places-and-learning-pathways
+  - adult-and-lifelong-learning
+  - public-health-and-prevention
+  - integrated-health-and-social-care
+  interest-to-relationship:
+  - resident-enquiries-and-contact
+  - complaints-and-ombudsman
+  - tourism-and-visitor-welcome
+  - city-events-and-festivals
+  - arts-and-cultural-participation
+  - sport-and-active-recreation
+  - public-space-use-and-programming
+  proposition-to-audience:
+  - public-communication-and-reputation
+  - neighbourhood-and-community-media
+  - business-start-up-and-support
+  - local-business-networks-and-clusters
+  - markets-and-local-trade
+  - social-and-cooperative-economy
+  - inward-investment-and-location-promotion
+  demand-to-fulfillment:
+  - homelessness-and-housing-allocation
+  - public-housing-and-tenancy-services
+  - informal-settlement-upgrading
+  - public-transport-and-shared-mobility
+  - streets-traffic-and-road-safety
+  - urban-goods-and-food-distribution
+  - water-supply-and-sanitation
+  - energy-and-heat-supply
+  - waste-collection-and-material-recovery
+  - environmental-health-protection
+  - community-safety-and-emergency-services
+  - essential-service-affordability-and-equity
+  source-to-alliance:
+  - procurement-strategy-and-category-planning
+  - tendering-and-contract-award
+  - contract-and-supplier-performance
+  - purchasing-and-supplier-payment
+  - local-supplier-development-and-social-value
+  - circular-procurement
+  - joint-purchasing-and-purchasing-alliances
+  - supply-security-and-essential-reserves
+  acquire-to-retire:
+  - infrastructure-asset-planning
+  - land-and-property-acquisition
+  - public-works-design-and-construction
+  - infrastructure-maintenance-and-renewal
+  - climate-adaptation-and-green-infrastructure
+  - public-buildings-and-facilities
+  - asset-decommissioning-and-material-recovery
+  - repair-reuse-and-sharing

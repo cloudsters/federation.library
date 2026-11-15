@@ -1,0 +1,34 @@
+kind: journey
+slug: tissue-diagnosis-journey
+title: Tissue Diagnosis Journey
+stakeholder: person-with-cancer
+summary: A person whose tissue is examined for a suspected cancer has the sample reach the right laboratory, waits as short a time
+  as a reliable diagnosis allows, decides on molecular and genetic testing and hears the diagnosis with the case conference's recommendation.
+stages:
+- slug: give-the-sample
+  title: Give the Sample
+  goal: Have the biopsy or operation specimen reach the laboratory with the right question attached.
+  step: pathology-and-molecular-diagnostics/specimen-receipt-and-accession
+  touchpoints:
+  - outpatient-clinic
+  - operating-theatre
+- slug: wait-for-the-diagnosis
+  title: Wait for the Diagnosis
+  goal: Wait as short a time as a reliable diagnosis allows, knowing when the result is due.
+  step: pathology-and-molecular-diagnostics/microscopic-diagnosis
+  touchpoints:
+  - patient-portal
+- slug: decide-on-genetic-testing
+  title: Decide on Genetic Testing
+  goal: Understand what molecular and genetic tests mean for treatment and for the family, and decide on them.
+  step: pathology-and-molecular-diagnostics/molecular-and-genomic-testing
+  touchpoints:
+  - genetic-counselling
+  - consent-form
+- slug: hear-the-diagnosis
+  title: Hear the Diagnosis
+  goal: Hear the diagnosis from the treating physician together with the case conference's recommendation.
+  step: pathology-and-molecular-diagnostics/reporting-and-communication
+  touchpoints:
+  - consultation
+  - multidisciplinary-case-conference

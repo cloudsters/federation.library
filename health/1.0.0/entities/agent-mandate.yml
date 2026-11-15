@@ -1,0 +1,47 @@
+kind: entity
+slug: agent-mandate
+title: Agent Mandate
+type: governance
+summary: 'The mandate that defines what an AI agent may do on the organisation''s behalf: which tasks, data, decisions and actions
+  are in scope, which require human confirmation, and when it must stop and escalate.'
+attributes:
+- name: ai-system
+  type: reference(ai-system)
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: permitted-actions
+  type: code
+  card: 1..*
+- name: confirmation-required
+  type: code
+  card: 0..*
+- name: escalation-rules
+  type: text
+  card: 1..1
+- name: data-access
+  type: reference(access-grant)
+  card: 0..*
+- name: approval
+  type: reference(governance-decision)
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- draft
+- approved
+- in-force
+- suspended
+- ended
+relations:
+- type: based-on
+  target: governance-decision
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

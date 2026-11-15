@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: asset-plan-for-funded-upkeep
+title: Asset Plan for Funded Upkeep
+between:
+- finance-officer
+- city-council
+offered:
+- The asset plan carried into the capital investment plan and the medium-term financial plan, with upkeep costed before new assets.
+returned:
+- Adoption of the plan and its funding with the budget.
+touchpoint: asset-plan-budget-session

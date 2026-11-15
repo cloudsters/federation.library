@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: warehouse-dock
+title: Warehouse Dock
+medium: place
+summary: The loading dock where incoming goods are received and checked and outgoing shipments are loaded, and where the company meets
+  carriers and drivers.
+exchanges:
+- shipping-data-for-reliable-carriage
+- booked-slot-for-prompt-receipt
+journey: carrier-moving-the-companys-goods

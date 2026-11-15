@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: place-care-check-in
+title: Place Care Check-In
+medium: encounter
+summary: The regular check-in between the caring group and the city on the condition of the shared place, at which the agreement is
+  reviewed.
+exchanges:
+- condition-reports-for-a-renewed-agreement
+journey: volunteer-giving-time

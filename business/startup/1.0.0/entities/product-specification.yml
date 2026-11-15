@@ -1,0 +1,44 @@
+kind: entity
+slug: product-specification
+title: Product Specification
+type: governance
+summary: The approved definition of what a product or service must be and do, with functional and technical requirements, tolerances,
+  materials, applicable obligations and test criteria, versioned and released before production or delivery.
+attributes:
+- name: product
+  type: reference(product)
+  card: 0..1
+- name: service
+  type: reference(service)
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: requirements
+  type: document
+  card: 1..1
+- name: applicable-obligations
+  type: reference(compliance-rule)
+  card: 0..*
+- name: approved-by
+  type: reference(employee-record)
+  card: 0..1
+- name: released-on
+  type: date
+  card: 0..1
+states:
+- draft
+- in-review
+- released
+- superseded
+- withdrawn
+relations:
+- type: governed-by
+  target: compliance-rule
+binds:
+- source: src-148
+  edition: '16.0'
+  jurisdiction: global
+- source: src-149
+  edition: '3.2'
+  jurisdiction: global

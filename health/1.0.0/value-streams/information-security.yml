@@ -1,0 +1,146 @@
+kind: value-stream
+slug: information-security
+title: Information Security
+family: portfolio-to-system
+summary: 'Protecting the confidentiality, integrity and availability of information and systems, including networked medical devices:
+  security strategy, identity and access management, threat detection, incident response and sector security obligations.'
+trigger: A security assessment falls due, a new system or device is introduced, or a threat or security incident is detected.
+outcome: Risks are treated to the accepted level, incidents are contained and reported, and security obligations are demonstrably
+  met.
+stakeholders:
+- executive
+- health-informatics-specialist
+- data-protection-and-security-authority
+- supplier
+- clinical-engineer
+- registered-nurse
+steps:
+- slug: security-strategy-and-policy
+  title: Security Strategy and Policy
+  summary: Set the security strategy, policies, roles and standards, and translate the sector security obligations of critical infrastructure
+    into controls with named owners.
+  capabilities:
+  - it-security-strategy
+  - critical-infrastructure-security-compliance
+  - policy-lifecycle-management
+  - compliance-framework
+  entities:
+  - strategy
+  - policy
+  - compliance-obligation
+  serves:
+  - board-meeting
+- slug: security-risk-assessment
+  title: Security Risk Assessment
+  summary: Determine the protection needs of the inventoried systems, data and networked devices, assess threats and weaknesses, including
+    those that enter through suppliers, and decide how each risk is treated.
+  capabilities:
+  - it-risk-and-security-control
+  - it-asset-lifecycle-management
+  - medical-device-cybersecurity
+  - vendor-risk-management
+  - configuration-and-service-topology
+  - unit-risk-management
+  entities:
+  - risk
+  - application
+  - medical-device
+  - supplier-organisation
+  serves:
+  - board-meeting
+  - call-for-tender
+- slug: control-implementation
+  title: Control Implementation
+  summary: 'Implement the chosen controls: role-based access and strong authentication, network segmentation, hardening, encryption,
+    timely patching and security training for every user.'
+  capabilities:
+  - identity-access-management
+  - data-security-architecture
+  - vulnerability-management
+  - medical-device-cybersecurity
+  - network-and-communication-infrastructure
+  - mandatory-training-management
+  entities:
+  - identity
+  - access-grant
+  - policy
+  - corrective-action
+  serves:
+  - clinical-workstation
+  - device-commissioning
+  - learning-platform
+- slug: threat-detection
+  title: Threat Detection
+  summary: Monitor systems, networks and identities for threats around the clock, act on vulnerability and threat warnings, and triage
+    security events.
+  capabilities:
+  - security-operations
+  - vulnerability-management
+  - compliance-sensing-monitoring
+  entities:
+  - incident
+  - application
+  - identity
+  - risk
+  serves:
+  - it-service-desk
+  - supplier-portal
+- slug: incident-response
+  title: Incident Response
+  summary: Contain, eradicate and recover from security incidents, switch care to fallback procedures where systems fail, and lead
+    decisions and communication through a crisis team.
+  capabilities:
+  - security-operations
+  - it-continuity-management
+  - clinical-downtime-procedures
+  - degraded-mode-governance
+  - crisis-communication
+  - emergency-and-disaster-preparedness
+  entities:
+  - incident
+  - emergency-preparedness-plan
+  - it-service
+  - service-ticket
+  serves:
+  - security-operations-centre
+  - service-status-notice
+- slug: incident-reporting
+  title: Incident Reporting
+  summary: Report significant incidents to the competent authorities within the deadlines, notify breaches of personal data, and inform
+    affected partners and suppliers.
+  capabilities:
+  - cyber-incident-reporting
+  - personal-data-breach-response
+  - regulatory-reporting
+  entities:
+  - incident
+  - compliance-obligation
+  serves:
+  - incident-notification
+- slug: security-audit-and-improvement
+  title: Security Audit and Improvement
+  summary: Audit the security controls against the sector standard, provide evidence to the authority, exercise incident scenarios
+    and turn findings and lessons into corrective actions.
+  capabilities:
+  - it-compliance-assessment
+  - critical-infrastructure-security-compliance
+  - audit-lifecycle-management
+  - controls-monitoring
+  - resilience-testing-evolution
+  entities:
+  - audit
+  - audit-finding
+  - corrective-action
+  - compliance-obligation
+  serves:
+  - inspection-and-audit
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-077
+  edition: '2025'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

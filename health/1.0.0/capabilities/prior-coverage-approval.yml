@@ -1,0 +1,11 @@
+kind: capability
+slug: prior-coverage-approval
+title: Prior Coverage Approval
+level: L3
+parent: patient-revenue-cycle
+summary: Request, track and document a payer's prior approval for planned services that require it, with the clinical justification,
+  before the service is given.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

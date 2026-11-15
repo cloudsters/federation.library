@@ -1,0 +1,58 @@
+kind: entity
+slug: source-code-repository
+title: Source Code Repository
+type: master
+summary: The public store of the code, interfaces and data schemas of the city's software, with their open licence and history, open
+  for audit and reuse. The administration keeps it public, residents audit it and peer cities reuse and improve it, and their improvements
+  are taken back.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: address
+  type: identifier
+  card: 1..1
+- name: maintained-by
+  type: text
+  card: 1..1
+- name: contents
+  type: code
+  card: 1..*
+- name: applications
+  type: reference(application)
+  card: 0..*
+- name: licence
+  type: code
+  card: 1..1
+- name: release-history
+  type: document
+  card: 0..1
+- name: reusing-cities
+  type: text
+  card: 0..*
+- name: contributions-received
+  type: integer
+  card: 0..1
+- name: security-contact
+  type: text
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- created
+- published
+- active
+- dormant
+- archived
+relations:
+- type: refers-to
+  target: application
+- type: refers-to
+  target: interface-specification
+- type: refers-to
+  target: shared-data-model
+- type: governed-by
+  target: procurement-policy
+- type: produces
+  target: public-record

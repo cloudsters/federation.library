@@ -1,0 +1,123 @@
+kind: value-stream
+slug: human-agent-teaming
+title: Human-Agent Teaming
+family: collaboration-to-automation
+summary: Designing how staff and AI agents work together in the city's services and administration. It holds the division of tasks
+  between people and agents, each agent's mandate and the person who answers for it, human oversight and the routes of escalation,
+  the preparation of staff, the voice of staff and workers over the systems that allocate their work, and the joint review that keeps
+  people accountable for what agents do.
+trigger: A service plans to let an AI agent take on tasks beside its staff, staff report that an agent or an allocation system no
+  longer serves the work, or an agent's mandate falls due for review.
+outcome: Staff and agents work under agreed mandates, each agent answers to a named person, staff can override and escalate, and the
+  arrangement is reviewed with the people whose work it shapes.
+stakeholders:
+- frontline-worker
+- staff-representative
+- city-administration
+- municipal-ai-agent
+- information-technology-specialist
+- platform-worker
+- resident
+steps:
+- slug: teaming-need
+  title: Teaming Need
+  summary: A service states which work an AI agent could take on or support, why, and what staff and residents expect. It draws on
+    the staff who know the work best.
+  capabilities:
+  - human-agent-task-division
+  - process-mapping-with-frontline-staff
+  entities:
+  - automation-proposal
+  - process-map
+  serves:
+  - teaming-need-workshop
+- slug: task-division-and-mandate
+  title: Task Division and Mandate
+  summary: Staff and the service agree which tasks the agent does, which it prepares for a person and which stay human. The agent's
+    mandate is written with its limits and the person who answers for it.
+  capabilities:
+  - human-agent-task-division
+  - agent-mandate-drafting
+  - staff-representative-consultation
+  entities:
+  - agent-mandate
+  - ai-agent
+  - staff-agreement
+  serves:
+  - staff-agreement-signing
+  - task-division-workshop
+  - written-agent-mandate
+- slug: oversight-and-escalation
+  title: Oversight and Escalation
+  summary: Each agent is given a human overseer, the points at which a person must review or decide, and the routes by which staff
+    and residents override it or escalate to a person.
+  capabilities:
+  - oversight-and-escalation-design
+  - automated-decision-oversight
+  entities:
+  - oversight-assignment
+  - agent-mandate
+  serves:
+  - override-and-escalation-route
+  - overseer-assignment-letter
+- slug: staff-preparation
+  title: Staff Preparation
+  summary: Staff who work with or oversee agents learn to read their outputs, to notice when not to trust them, to override them and
+    to report faults.
+  capabilities:
+  - oversight-competence-building
+  - staff-learning-path-design
+  entities:
+  - staff-learning-path
+  - oversight-assignment
+  serves:
+  - agent-oversight-training
+- slug: joint-work
+  title: Joint Work
+  summary: Staff and agents carry out the work under the mandate, and significant decisions are recorded with the mandate under which
+    they were taken and the person who authorised it. Residents can always reach a person.
+  capabilities:
+  - mandate-accountability-recording
+  - human-agent-task-division
+  entities:
+  - agent-mandate
+  - ai-agent
+  - public-service
+  serves:
+  - agent-decision-log
+  - reach-a-person-line
+- slug: worker-audit-of-work-allocation
+  title: Worker Audit of Work Allocation
+  summary: Staff and the workers of contracted services examine together how systems assign tasks, set schedules and judge performance.
+    They bring what they find to the service, which must answer and change what is unfair.
+  capabilities:
+  - work-allocation-audit
+  - staff-representative-consultation
+  entities:
+  - work-allocation-audit
+  - staff-agreement
+  serves:
+  - allocation-audit-answer
+  - work-allocation-audit-circle
+- slug: joint-performance-review
+  title: Joint Performance Review
+  summary: Staff, overseers and the service review what the teaming achieved, where agents erred and how workload changed. They renew,
+    change or end each agent's mandate.
+  capabilities:
+  - human-agent-performance-review
+  - mandate-accountability-recording
+  - automated-system-suspension-and-withdrawal
+  entities:
+  - agent-mandate
+  - automated-system-performance-report
+  - staff-agreement
+  serves:
+  - joint-teaming-review
+  - written-agent-mandate
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: taxpayer-account-view
+title: Taxpayer Account View
+medium: channel
+summary: The taxpayer's own view, online and at the counter, of liabilities, payments, relief and balance, where changes in circumstances
+  can be reported.
+exchanges:
+- open-account-for-current-facts
+journey: finance-officer-raising-local-revenue

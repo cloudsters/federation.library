@@ -1,0 +1,25 @@
+kind: journey
+slug: ordering-for-the-ward
+title: Ordering for the Ward
+stakeholder: registered-nurse
+summary: A ward nurse's path from a need outside the standing stock to the item on the shelf, without telephone calls or chasing.
+stages:
+- slug: request-what-is-needed
+  title: Request What Is Needed
+  goal: The right item is found in the catalogue and requested within a minute, with need date and cost centre.
+  step: purchasing-and-invoice-settlement/requisition
+  touchpoints:
+  - ordering-catalogue
+- slug: follow-the-approval
+  title: Follow the Approval
+  goal: Approval is given within the day, and the status is visible without asking.
+  step: purchasing-and-invoice-settlement/requisition-approval
+  touchpoints:
+  - ordering-catalogue
+- slug: receive-the-goods
+  title: Receive the Goods
+  goal: The goods arrive on the ward by the need date, and receipt is confirmed with one scan.
+  step: purchasing-and-invoice-settlement/goods-receipt-and-service-confirmation
+  touchpoints:
+  - point-of-care-store
+  - ordering-catalogue

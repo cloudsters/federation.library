@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: shortage-notice
+title: Shortage Notice
+medium: artefact
+summary: 'The notice through which a supply shortage is announced and bridged: from manufacturer or authority to the commons, and
+  from pharmacy or logistics to prescribers and wards, with duration, alternative and changes to dosing or ordering.'
+exchanges:
+- early-warning-for-fair-allocation
+- shortage-guidance-for-safe-switching
+- shortage-intelligence-for-regulatory-relief
+journey: prescribing-through-a-shortage

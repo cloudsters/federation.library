@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-handover
+title: Clinical Handover
+level: L3
+parent: treatment-planning-and-ward-care
+summary: Hand over responsibility for patients between shifts and teams with a structured method.
+binds:
+- source: src-532
+  edition: '2014'
+  jurisdiction: global

@@ -1,0 +1,38 @@
+kind: journey
+slug: co-designing-a-service-with-patients
+title: Co-Designing a Service with Patients
+stakeholder: patient-organisation
+summary: How an organisation of people with a condition brings their experience into a new service, from naming the need to judging
+  the result.
+stages:
+- slug: raising-the-need
+  title: Raising the Need
+  goal: Make the commons aware of what people with the condition lack today.
+  step: clinical-service-development/need-identification
+  touchpoints:
+  - patient-advisory-council
+- slug: shaping-access-and-information
+  title: Shaping Access and Information
+  goal: Ensure that pathway, access route and patient information fit how people with the condition actually live.
+  step: clinical-service-development/service-concept
+  touchpoints:
+  - service-design-workshop
+- slug: testing-with-members
+  title: Testing with Members
+  goal: Have members try the service and see their feedback change it.
+  step: clinical-service-development/pilot
+  touchpoints:
+  - outpatient-clinic
+  - patient-advisory-council
+- slug: spreading-the-word
+  title: Spreading the Word
+  goal: Tell members reliably how to reach the new service.
+  step: clinical-service-development/service-launch
+  touchpoints:
+  - public-website
+- slug: judging-the-result
+  title: Judging the Result
+  goal: See whether the service made the difference patients were promised, and say so.
+  step: clinical-service-development/value-review
+  touchpoints:
+  - patient-advisory-council

@@ -1,0 +1,12 @@
+kind: body
+slug: appointments-committee
+title: Appointments Committee
+summary: 'Constituted by the faculty council for each professorship: defines the profile, reviews candidates, obtains external expert
+  reviews and proposes the appointment, including professorships shared with the hospital and partners.'
+holds:
+- professorial-appointment-process
+- external-review-coordination
+- joint-appointment
+part_of: faculty-council
+type: committee
+form: governing-body

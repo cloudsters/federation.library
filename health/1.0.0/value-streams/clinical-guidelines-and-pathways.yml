@@ -1,0 +1,157 @@
+kind: value-stream
+slug: clinical-guidelines-and-pathways
+title: Clinical Guidelines and Pathways
+family: collaboration-to-automation
+summary: 'Turning evidence and knowledge into reliable practice: adopting and adapting guidelines, deriving local standards and clinical
+  pathways, maintaining the drug formulary, making knowledge computable and monitoring adherence.'
+trigger: A guideline is published or updated, a pathway review falls due, or unwarranted variation in practice is detected.
+outcome: An approved local standard or pathway is in use, embedded in systems where possible, and its adherence is measured.
+stakeholders:
+- head-of-clinical-department
+- specialist-physician
+- advanced-practice-nurse
+- clinical-pharmacist
+- health-informatics-specialist
+- quality-and-safety-manager
+- patient-organisation
+- clinical-decision-support-agent
+steps:
+- slug: evidence-and-variation-scanning
+  title: Evidence and Variation Scanning
+  summary: New and updated guidelines, safety information and research results are monitored, and routine data are analysed for unwarranted
+    variation that signals the need for a common standard.
+  capabilities:
+  - guideline-adoption
+  - knowledge-strategy-design
+  - bench-to-bedside-translation
+  - process-mining-discovery
+  - outcome-benchmarking
+  entities:
+  - clinical-guideline
+  - publication
+  - measure-report
+  serves:
+  - pathway-working-group
+- slug: appraisal-and-adoption
+  title: Appraisal and Adoption
+  summary: Guidelines and new evidence are appraised for quality and fit, and the responsible body decides whether to adopt, adapt
+    or not adopt them, recording its reasons.
+  capabilities:
+  - guideline-adoption
+  - health-technology-assessment
+  - clinical-governance-framework
+  entities:
+  - clinical-guideline
+  - governance-decision
+  serves:
+  - pathway-working-group
+- slug: standard-and-pathway-design
+  title: Standard and Pathway Design
+  summary: Interprofessional working groups with patient representatives derive local standards, operating procedures and clinical
+    pathways with time targets, decision points and defined variances.
+  capabilities:
+  - clinical-pathway-design
+  - clinical-standard-operating-procedures
+  - nursing-practice-standards
+  - patient-and-public-involvement
+  - process-definition
+  entities:
+  - care-pathway
+  - policy
+  - clinical-guideline
+  - process-model
+  serves:
+  - pathway-working-group
+- slug: formulary-maintenance
+  title: Formulary Maintenance
+  summary: The drug and therapeutics committee appraises medicines for evidence, safety and cost, maintains the formulary with preferred
+    alternatives and restrictions, and aligns it with the pathways.
+  capabilities:
+  - formulary-management
+  - health-technology-assessment
+  - medication-safety-programme
+  - clinical-pharmacist-review
+  entities:
+  - formulary
+  - medication
+  - governance-decision
+  serves:
+  - clinical-workstation
+  - drug-and-therapeutics-committee
+- slug: knowledge-encoding
+  title: Knowledge Encoding
+  summary: Pathways and rules are turned into versioned, executable artefacts such as order sets, prompts, dose checks and documentation
+    templates, bound to shared terminologies and tested with clinicians.
+  capabilities:
+  - clinical-knowledge-as-code
+  - clinical-system-configuration
+  - terminology-services
+  - solution-build-and-test
+  - decision-support-validation
+  entities:
+  - decision-support-rule
+  - care-pathway
+  - code-system
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+- slug: approval-and-release
+  title: Approval and Release
+  summary: Standards, pathways and rules are approved by their owners, released through change control, published in the document
+    library and introduced to staff with training.
+  capabilities:
+  - policy-lifecycle-management
+  - it-change-and-release-governance
+  - training-delivery
+  - change-implementation
+  entities:
+  - governance-decision
+  - care-pathway
+  - decision-support-rule
+  - policy
+  serves:
+  - controlled-document-library
+  - learning-platform
+- slug: adherence-monitoring
+  title: Adherence Monitoring
+  summary: Adherence, justified deviations, override rates and outcomes are measured, and the findings drive revision of the standard
+    or of the way it is supported.
+  capabilities:
+  - clinical-pathway-application
+  - clinical-audit
+  - process-mining-discovery
+  - clinical-outcome-tracking
+  - improvement-sustainment
+  entities:
+  - measure
+  - measure-report
+  - care-pathway
+  - decision-support-rule
+  serves:
+  - decision-support-prompt
+  - quality-dashboard
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-030
+  edition: 2.0.0
+  jurisdiction: global
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-031
+  edition: '2021'
+  jurisdiction: global
+- source: src-519
+  edition: '2017'
+  jurisdiction: global

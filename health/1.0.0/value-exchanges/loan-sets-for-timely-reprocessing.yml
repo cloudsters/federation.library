@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: loan-sets-for-timely-reprocessing
+title: Loan Sets for Timely Reprocessing
+between:
+- supplier
+- support-services-staff
+offered:
+- Loan sets and implants delivered complete, with processing instructions, early enough for validated reprocessing before the operation.
+returned:
+- Loan sets reprocessed before and after use, returned complete and decontaminated, and the implants used reported for replenishment
+  and billing.
+touchpoint: goods-receiving

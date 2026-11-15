@@ -1,0 +1,39 @@
+kind: journey
+slug: older-resident-teaching-and-learning-among-neighbours
+title: Older Resident Teaching and Learning Among Neighbours
+stakeholder: older-resident
+summary: An older resident says what the neighbourhood wants to learn and offers to teach what they know, reaches learning close to
+  home, teaches a study circle, attests a neighbour's skill and reviews with other learners who took part.
+stages:
+- slug: say-what-the-neighbourhood-needs-to-learn
+  title: Say What the Neighbourhood Needs to Learn
+  goal: The resident's view of what neighbours want to learn is in the offer, together with their offer to teach.
+  step: adult-and-lifelong-learning/learning-offer-design
+  touchpoints:
+  - neighbourhood-learning-needs-gathering
+  - peer-teacher-call
+- slug: reach-learning-close-to-home
+  title: Reach Learning Close to Home
+  goal: The resident has found learning in a neighbourhood place at a time and cost that suit them, with help to get there.
+  step: adult-and-lifelong-learning/learning-access
+  touchpoints:
+  - published-learning-programme
+- slug: teach-a-study-circle
+  title: Teach a Study Circle
+  goal: The resident teaches a study circle in a library or community centre, with a room, materials and recognition for the work.
+  step: adult-and-lifelong-learning/learning-delivery
+  touchpoints:
+  - study-circle
+- slug: attest-a-neighbours-skill
+  title: Attest a Neighbour's Skill
+  goal: The resident, as a peer who knows the craft, has attested the skill a neighbour showed in practice.
+  step: adult-and-lifelong-learning/skill-recognition
+  touchpoints:
+  - peer-skill-attestation-circle
+- slug: review-who-took-part
+  title: Review Who Took Part
+  goal: The resident has reviewed with other learners who took part, who did not and what changed, and sees the published review.
+  step: adult-and-lifelong-learning/learning-outcome-review
+  touchpoints:
+  - learner-outcome-circle
+  - published-learning-review

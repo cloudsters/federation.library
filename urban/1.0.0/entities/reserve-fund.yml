@@ -1,0 +1,57 @@
+kind: entity
+slug: reserve-fund
+title: Reserve Fund
+type: master
+summary: Money the city holds against emergencies, recovery after disaster or the renewal of its assets, at the level the council
+  set and under rules for drawing and refilling it. The treasury keeps it in its own accounts, and it is drawn only by the decisions
+  its rules name.
+attributes:
+- name: fund-name
+  type: text
+  card: 1..1
+- name: reserve-purpose
+  type: code
+  card: 1..1
+- name: target-level
+  type: amount
+  card: 1..1
+- name: current-balance
+  type: amount
+  card: 1..1
+- name: drawing-rules
+  type: text
+  card: 1..*
+- name: refill-rules
+  type: text
+  card: 1..*
+- name: risk-basis
+  type: reference(risk-register)
+  card: 0..1
+- name: held-in
+  type: reference(bank-account)
+  card: 1..*
+- name: set-by
+  type: reference(council-decision)
+  card: 1..1
+- name: last-drawn-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- established
+- funded
+- drawn
+- refilled
+- closed
+relations:
+- type: governed-by
+  target: council-decision
+- type: based-on
+  target: risk-register
+- type: refers-to
+  target: bank-account
+- type: refers-to
+  target: emergency-plan

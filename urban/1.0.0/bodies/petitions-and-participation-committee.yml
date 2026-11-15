@@ -1,0 +1,21 @@
+kind: body
+slug: petitions-and-participation-committee
+title: Petitions and Participation Committee
+summary: Handles petitions within their deadlines, organises hearings, reviews who is entitled to take part and who is absent, and
+  prepares the recognition of community bodies.
+holds:
+- resident-petition-handling
+- resident-hearing
+- participation-boundary-review
+- community-body-recognition
+- resident-assembly-convening
+- participatory-budget-organisation
+- resident-participation
+- involvement-planning
+- participation-practice-review
+- resident-contact-and-redress
+- complaint-pattern-reporting
+- enquiry-pattern-analysis
+part_of: full-council
+type: committee
+form: governing-body

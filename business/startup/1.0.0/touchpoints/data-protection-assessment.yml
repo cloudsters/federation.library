@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-protection-assessment
+title: Data Protection Assessment
+medium: artefact
+summary: The assessment of how a processing of personal data affects the people concerned, with the safeguards chosen and the record
+  of processing.
+exchanges:
+- accountable-processing-for-supervisory-trust
+journey: compliance-professional-keeping-the-organisation-within-its-licence

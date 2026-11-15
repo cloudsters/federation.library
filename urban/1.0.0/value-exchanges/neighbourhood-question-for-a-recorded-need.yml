@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-question-for-a-recorded-need
+title: Neighbourhood Question for a Recorded Need
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- A question the neighbourhood wants answered, and the decision it would inform.
+returned:
+- The need recorded and answered, rather than more data gathered for no purpose.
+touchpoint: evidence-request-form

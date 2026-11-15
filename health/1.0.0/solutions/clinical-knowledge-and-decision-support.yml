@@ -1,0 +1,35 @@
+kind: solution
+slug: clinical-knowledge-and-decision-support
+title: Clinical Knowledge and Decision Support
+role: system-of-insight
+summary: 'Holds the organisation''s clinical knowledge in executable form: guidelines, pathways, assessment instruments, decision
+  aids and rules, and brings it to the point of care as checks, prompts and order sets.'
+carries:
+- guideline-adoption
+- clinical-pathway-design
+- clinical-knowledge-as-code
+- clinical-standard-operating-procedures
+- clinical-pathway-application
+- nursing-practice-standards
+- differential-diagnosis-reasoning
+- interaction-and-dose-checking
+- deterioration-recognition-and-response
+- laboratory-test-stewardship
+- decision-aids-and-health-literacy
+- shared-decision-making-practice
+- decision-support-validation
+holds:
+- care-pathway
+- clinical-guideline
+- assessment-instrument
+- decision-aid
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

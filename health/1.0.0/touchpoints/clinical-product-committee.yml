@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: clinical-product-committee
+title: Clinical Product Committee
+medium: encounter
+summary: The committee in which clinicians, nursing, pharmacy, clinical engineering, hygiene, procurement and finance weigh evaluated
+  products and decide which become standard.
+exchanges:
+- clinical-judgement-for-standard-products
+- technical-assessment-for-serviceable-devices
+journey: proposing-a-clinical-product

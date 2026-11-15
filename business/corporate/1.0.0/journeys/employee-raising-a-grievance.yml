@@ -1,0 +1,32 @@
+kind: journey
+slug: employee-raising-a-grievance
+title: Employee Raising a Grievance
+stakeholder: employee
+summary: An employee raises a grievance through a fair channel, is heard and receives a decision, finds support while under strain
+  and sees the cause fixed for others too.
+stages:
+- slug: raise-the-grievance
+  title: Raise the Grievance
+  goal: The grievance is received, acknowledged and routed to a fair process, with the option to be accompanied by a representative.
+  step: relationship-stewardship/matter-intake
+  touchpoints:
+  - grievance-channel
+- slug: be-heard-and-decided
+  title: Be Heard and Decided
+  goal: The employee is heard, the decision is explained and any change to terms is written into the contract.
+  step: relationship-stewardship/agreement-or-resolution
+  touchpoints:
+  - grievance-hearing
+- slug: find-support
+  title: Find Support
+  goal: Help for strain, load and personal difficulty is at hand without the employee having to justify asking.
+  step: relationship-stewardship/wellbeing-provision
+  touchpoints:
+  - wellbeing-support-service
+- slug: see-the-cause-fixed
+  title: See the Cause Fixed
+  goal: The employee sees the pattern behind the grievance addressed in the system, not only in the single case.
+  step: relationship-stewardship/cause-fixing
+  touchpoints:
+  - intranet
+  - staff-assembly

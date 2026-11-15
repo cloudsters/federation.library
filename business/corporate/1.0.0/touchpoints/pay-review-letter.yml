@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: pay-review-letter
+title: Pay Review Letter
+medium: artefact
+summary: The letter that tells a person the outcome of the pay review, with new pay, bonus and the reasons for the decision.
+exchanges:
+- contribution-for-fair-pay
+journey: employee-asking-whether-contribution-comes-back-fairly

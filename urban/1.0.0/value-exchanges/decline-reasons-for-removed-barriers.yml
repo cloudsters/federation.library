@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: decline-reasons-for-removed-barriers
+title: Decline Reasons for Removed Barriers
+between:
+- resident
+- city-administration
+offered:
+- The reasons a resident gives for declining, such as care duties, shift work, language or distrust.
+returned:
+- Those barriers removed in the next round of invitations.
+touchpoint: decline-reason-follow-up

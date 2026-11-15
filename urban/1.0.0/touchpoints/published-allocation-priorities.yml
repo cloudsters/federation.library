@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-allocation-priorities
+title: Published Allocation Priorities
+medium: artefact
+summary: The published order in which scarce supplies go to those most in need and to essential services, and the record of each allocation
+  made.
+exchanges:
+- priority-supplies-for-those-most-in-need
+journey: neighbourhood-association-keeping-a-reserve

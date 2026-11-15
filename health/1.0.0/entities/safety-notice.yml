@@ -1,0 +1,54 @@
+kind: entity
+slug: safety-notice
+title: Safety Notice
+type: transactional
+summary: A notice from a manufacturer, supplier or authority about a safety problem with a medicine, medical device, implant, blood
+  product or supply, such as a recall or a field correction, tracked from receipt through action in every affected unit to closure.
+attributes:
+- name: notice-kind
+  type: code
+  card: 1..1
+- name: issued-by
+  type: reference(organisation)
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: affected-products
+  type: identifier
+  card: 1..*
+- name: required-action
+  type: text
+  card: 1..1
+- name: action-deadline
+  type: date
+  card: 0..1
+- name: affected-units
+  type: reference(organisation-unit)
+  card: 0..*
+- name: affected-patients
+  type: reference(patient)
+  card: 0..*
+states:
+- received
+- assessed
+- in-action
+- actions-confirmed
+- closed
+relations:
+- type: refers-to
+  target: medication
+- type: refers-to
+  target: medical-device
+- type: refers-to
+  target: implant
+- type: refers-to
+  target: blood-product
+- type: refers-to
+  target: inventory-item
+- type: produces
+  target: corrective-action
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

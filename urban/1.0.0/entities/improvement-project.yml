@@ -1,0 +1,68 @@
+kind: entity
+slug: improvement-project
+title: Improvement Project
+type: transactional
+summary: A bounded effort to redesign a process and pilot the change, with its aims, its team of staff and residents, the department
+  or district of the pilot and the measured results. The process owner runs and records it from start to close, and it is used to
+  decide whether the change is rolled out and to share what was learned.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: opportunities
+  type: reference(improvement-opportunity)
+  card: 1..*
+- name: aims
+  type: text
+  card: 1..*
+- name: process-owner
+  type: text
+  card: 1..1
+- name: team
+  type: text
+  card: 1..*
+- name: pilot-department
+  type: reference(department)
+  card: 0..1
+- name: pilot-neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: baseline-measures
+  type: text
+  card: 1..*
+- name: results
+  type: text
+  card: 0..*
+- name: future-state-map
+  type: reference(process-map)
+  card: 0..1
+- name: staff-agreement
+  type: reference(staff-agreement)
+  card: 0..1
+- name: project-period
+  type: period
+  card: 1..1
+states:
+- proposed
+- approved
+- mapping
+- redesigning
+- piloting
+- rolled-out
+- stopped
+- closed
+relations:
+- type: based-on
+  target: improvement-opportunity
+- type: produces
+  target: process-map
+- type: produces
+  target: standard-procedure
+- type: depends-on
+  target: staff-agreement
+- type: produces
+  target: lesson-record
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

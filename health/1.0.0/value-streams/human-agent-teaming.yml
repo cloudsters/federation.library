@@ -1,0 +1,127 @@
+kind: value-stream
+slug: human-agent-teaming
+title: Human-Agent Teaming
+family: collaboration-to-automation
+summary: 'Designing how clinicians, staff and AI agents work together in care and administration: division of tasks, human oversight,
+  escalation rules, calibration of trust and the team routines that keep humans accountable.'
+trigger: An AI agent or assistant is to be introduced into a team, or a team reports friction in working with an agent.
+outcome: The team works with a documented division of tasks, oversight and escalation rules, and its joint performance is reviewed.
+stakeholders:
+- head-of-clinical-department
+- specialist-physician
+- registered-nurse
+- health-informatics-specialist
+- staff-representation
+- clinical-decision-support-agent
+- documentation-agent
+- patient-assistant-agent
+- operations-planning-agent
+steps:
+- slug: teaming-need
+  title: Teaming Need
+  summary: The team and its leadership describe the work, its pain points and the tasks where an agent could help, and set goals for
+    safety, quality, workload and the experience of patients and staff.
+  capabilities:
+  - human-agent-collaboration-design
+  - workload-estimation
+  - it-demand-management
+  - process-definition
+  entities:
+  - care-team
+  - process-model
+  - ai-system
+  serves:
+  - team-retrospective
+  - teaming-charter
+- slug: task-division-and-mandate
+  title: Task Division and Mandate
+  summary: Tasks are divided between people and the agent, and the agent's mandate fixes what it may do alone, what needs human confirmation,
+    which data it may use and when it must stop.
+  capabilities:
+  - human-agent-collaboration-design
+  - agent-lifecycle-management
+  - ai-governance-framework
+  - delegation-of-authority
+  - skill-mix-design
+  entities:
+  - agent-mandate
+  - ai-system
+  - care-team
+  - access-grant
+  serves:
+  - teaming-charter
+- slug: oversight-and-escalation
+  title: Oversight and Escalation
+  summary: Named overseers, override and stop rights, escalation paths and documentation duties are set, so that a person remains
+    accountable for every decision that affects a patient.
+  capabilities:
+  - trust-and-escalation-protocols
+  - ai-regulatory-conformity
+  - clinical-governance-framework
+  entities:
+  - oversight-assignment
+  - agent-mandate
+  - policy
+  serves:
+  - agent-oversight-console
+  - teaming-charter
+- slug: team-preparation
+  title: Team Preparation
+  summary: Team members learn how the agent works, where it fails and how to recognise automation bias, the agent is integrated into
+    the workflow, and staff representatives agree the terms of use.
+  capabilities:
+  - ai-oversight-competence
+  - ai-assistant-integration
+  - co-determination-cooperation
+  - competence-validation
+  entities:
+  - oversight-assignment
+  - credential
+  - governance-decision
+  serves:
+  - clinical-workstation
+  - learning-platform
+  - simulation-centre
+  - staff-consultation
+- slug: joint-work
+  title: Joint Work
+  summary: 'People and agent work together in the team''s routines: the agent drafts, flags and proposes, people review, decide and
+    sign, and each hands over to the other at defined points.'
+  capabilities:
+  - ai-assistant-integration
+  - ambient-clinical-documentation
+  - clinical-documentation-at-point-of-care
+  - operational-cadence-design
+  - clinical-handover
+  entities:
+  - prediction
+  - clinical-document
+  - care-team
+  serves:
+  - agent-oversight-console
+  - clinical-workstation
+- slug: joint-performance-review
+  title: Joint Performance Review
+  summary: The team reviews joint performance, overrides, errors, workload and trust at a fixed cadence, reports friction and incidents,
+    and adjusts the division of tasks, the mandate or the agent.
+  capabilities:
+  - model-monitoring-and-drift
+  - agent-lifecycle-management
+  - process-performance-management
+  - incident-reporting-and-learning
+  - engagement-surveys
+  entities:
+  - measure-report
+  - agent-mandate
+  - prediction
+  - incident
+  serves:
+  - agent-oversight-console
+  - team-retrospective
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-590
+  edition: '1988'
+  jurisdiction: global

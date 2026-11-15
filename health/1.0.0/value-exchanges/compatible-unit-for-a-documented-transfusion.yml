@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: compatible-unit-for-a-documented-transfusion
+title: Compatible Unit for a Documented Transfusion
+between:
+- diagnostic-technologist
+- registered-nurse
+offered:
+- A compatible, labelled unit issued for the named patient within the time the urgency requires.
+returned:
+- A bedside identity check, a monitored transfusion and documentation of the unit's fate, which closes the chain from donor to recipient.
+touchpoint: bedside-check

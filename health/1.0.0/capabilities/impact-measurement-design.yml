@@ -1,0 +1,10 @@
+kind: capability
+slug: impact-measurement-design
+title: Impact Measurement Design
+level: L3
+parent: organisational-performance
+summary: Measure the value the organisation creates for patients, staff, science and society beyond financial results.
+binds:
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: acceptance-test-report
+title: Acceptance Test Report
+medium: artefact
+summary: The record of the tests a new device, installation or building passed before acceptance, with its configuration, measured
+  values, open defects and the signature that transfers it into use.
+exchanges:
+- proven-equipment-for-signed-acceptance
+journey: supplier-delivering-medical-equipment

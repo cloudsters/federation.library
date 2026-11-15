@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: decision-challenge-channel
+title: Decision Challenge Channel
+medium: channel
+summary: The channel, online, by phone and in person, through which residents and workers challenge a decision made or prepared by
+  an automated system, with a set deadline for review.
+exchanges:
+- resident-challenge-for-review-by-a-person
+- worker-challenge-for-a-disclosed-review
+journey: platform-worker-challenging-an-automated-decision

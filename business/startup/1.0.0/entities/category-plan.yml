@@ -1,0 +1,44 @@
+kind: entity
+slug: category-plan
+title: Category Plan
+type: governance
+summary: The plan for one category of spend, such as raw materials, packaging, freight, software or facility services, stating its
+  scope, spend, supply market, sourcing route, preferred suppliers, targets and supply risks for a period.
+attributes:
+- name: category
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(department)
+  card: 1..1
+- name: planning-period
+  type: period
+  card: 1..1
+- name: annual-spend
+  type: amount
+  card: 0..1
+- name: sourcing-route
+  type: code
+  card: 1..1
+- name: preferred-suppliers
+  type: reference(supplier-organisation)
+  card: 0..*
+- name: targets
+  type: text
+  card: 1..*
+states:
+- draft
+- approved
+- in-execution
+- under-review
+- closed
+relations:
+- type: based-on
+  target: strategy
+- type: refers-to
+  target: supplier-organisation
+- type: refers-to
+  target: contract

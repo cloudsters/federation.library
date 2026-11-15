@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: draft-budget-for-council-scrutiny
+title: Draft Budget for Council Scrutiny
+between:
+- mayor
+- city-council
+offered:
+- The draft budget, with its impact findings and the reasons for each choice.
+returned:
+- Questions, amendments and in the end a decision.
+touchpoint: draft-budget-presentation

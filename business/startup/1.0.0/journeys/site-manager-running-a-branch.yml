@@ -1,0 +1,25 @@
+kind: journey
+slug: site-manager-running-a-branch
+title: Site Manager Running a Branch
+stakeholder: site-manager
+summary: A site manager staffs and equips a branch, serves customers at the counter and keeps the branch's offers, prices and information
+  consistent with the other channels.
+stages:
+- slug: staff-and-equip-the-branch
+  title: Staff and Equip the Branch
+  goal: The branch has the people, range and equipment for the customers assigned to it.
+  step: direct-distribution/direct-channel-set-up
+  touchpoints:
+  - store-and-branch
+- slug: serve-at-the-counter
+  title: Serve at the Counter
+  goal: Customers are advised, sold to and take payment at the counter.
+  step: direct-distribution/shop-and-branch-sales
+  touchpoints:
+  - store-and-branch
+- slug: keep-the-branch-consistent
+  title: Keep the Branch Consistent
+  goal: The branch's offers and prices match the other channels and its reach and conversion are reviewed.
+  step: direct-distribution/channel-consistency-and-performance-review
+  touchpoints:
+  - channel-review

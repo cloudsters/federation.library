@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payment-run
+title: Payment Run
+medium: channel
+summary: The scheduled release of outgoing payments, where payment proposals are checked, approved and suspicious payments held.
+exchanges:
+- prompt-fraud-report-for-swift-recall
+journey: treasurer-keeping-cash-where-it-is-needed

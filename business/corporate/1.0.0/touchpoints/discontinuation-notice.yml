@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: discontinuation-notice
+title: Discontinuation Notice
+medium: artefact
+summary: The notice that tells customers an offering will be withdrawn, with last-order and support dates, the successor and the path
+  for migrating to it.
+exchanges:
+- early-notice-for-continued-custom
+journey: business-customer-relying-on-an-offering-over-time

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: open-repository
+title: Open Repository
+medium: channel
+summary: The public place where an open release is published with its licence, documentation and history, and from which anyone can
+  adopt or fork it.
+exchanges:
+- open-release-for-wide-adoption
+- federation-support-for-shared-adaptations
+journey: development-engineer-stewarding-an-open-release

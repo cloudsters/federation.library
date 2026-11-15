@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-review-session
+title: Service Review Session
+medium: encounter
+summary: The regular session in which service owners review performance with residents, staff and, where residents ask for it, resident
+  inspectors.
+exchanges:
+- performance-findings-for-agreed-improvements
+- user-experience-for-published-improvements
+journey: resident-inspector-reviewing-digital-services

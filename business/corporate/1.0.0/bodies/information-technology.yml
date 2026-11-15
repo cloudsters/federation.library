@@ -1,0 +1,12 @@
+kind: body
+slug: information-technology
+title: Information Technology
+summary: Builds, integrates and operates the applications and infrastructure, runs the service desk and keeps services resilient.
+holds:
+- applications-and-interoperability
+- it-service-management
+- infrastructure
+- it-resilience
+part_of: executive-board
+type: function
+form: organisational-unit

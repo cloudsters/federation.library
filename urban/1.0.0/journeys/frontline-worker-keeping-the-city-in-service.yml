@@ -1,0 +1,42 @@
+kind: journey
+slug: frontline-worker-keeping-the-city-in-service
+title: Frontline Worker Keeping the City in Service
+stakeholder: frontline-worker
+summary: A member of a crew takes up the planned work, reports the faults found on the way, repairs within the response times, inspects
+  assets that can harm people and reviews with neighbourhoods how upkeep keeps pace with wear.
+stages:
+- slug: take-up-the-planned-work
+  title: Take Up the Planned Work
+  goal: The crew knows its inspections and preventive work for the week, set by criticality and condition, with the time and tools
+    they need.
+  step: infrastructure-maintenance-and-renewal/maintenance-scheduling
+  touchpoints:
+  - maintenance-work-schedule
+  - crew-morning-briefing
+- slug: report-what-the-crew-finds
+  title: Report What the Crew Finds
+  goal: Faults the crew finds on its rounds are reported and triaged like any resident's report.
+  step: infrastructure-maintenance-and-renewal/fault-reporting-and-triage
+  touchpoints:
+  - fault-reporting-line
+- slug: repair-within-the-response-time
+  title: Repair Within the Response Time
+  goal: Faults are repaired within their response times, and what was done, with what materials and at what cost is recorded.
+  step: infrastructure-maintenance-and-renewal/planned-and-responsive-repair
+  touchpoints:
+  - street-repair-crew-visit
+  - crew-morning-briefing
+- slug: inspect-what-can-harm
+  title: Inspect What Can Harm
+  goal: Bridges, walls, play equipment, trees and lifts are inspected at their intervals, and every finding is closed by its deadline
+    or the asset is taken out of use.
+  step: infrastructure-maintenance-and-renewal/safety-inspection
+  touchpoints:
+  - safety-inspection-round
+  - out-of-use-notice
+- slug: review-whether-upkeep-keeps-pace
+  title: Review Whether Upkeep Keeps Pace
+  goal: The crew's experience of where assets wear faster than planned is part of the yearly review with neighbourhoods.
+  step: infrastructure-maintenance-and-renewal/maintenance-performance-review
+  touchpoints:
+  - yearly-maintenance-review-meeting

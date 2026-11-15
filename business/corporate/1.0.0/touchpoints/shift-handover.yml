@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shift-handover
+title: Shift Handover
+medium: encounter
+summary: The handover between shifts in which the outgoing team passes on the state of machines, orders, problems and open actions
+  to the incoming team.
+exchanges:
+- workable-sequence-for-truthful-confirmation
+journey: employee-rehearsing-and-living-through-a-crisis

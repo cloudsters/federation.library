@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: referrer-direct-line
+title: Referrer Direct Line
+medium: channel
+summary: The telephone line through which a referring or partner physician reaches an on-duty specialist directly for urgent questions,
+  admissions and transfers, without passing the general switchboard.
+exchanges:
+- referral-for-timely-handback
+journey: referring-practice-relationship

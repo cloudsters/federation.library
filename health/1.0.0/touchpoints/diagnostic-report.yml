@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: diagnostic-report
+title: Diagnostic Report
+medium: artefact
+summary: The report of a laboratory, imaging or pathology finding that returns to the requesting clinician, to the referrer and increasingly
+  to the patient.
+exchanges:
+- clear-request-for-a-timely-procedure
+- indicated-order-for-a-validated-result
+- justified-request-for-a-signed-report
+- shared-images-for-fewer-repeats
+- tissue-with-context-for-a-definitive-diagnosis
+- remote-image-reading
+- screening-participation
+journey: referring-practice-relationship

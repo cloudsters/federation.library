@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: public-processing-register
+title: Public Processing Register
+medium: artefact
+summary: The public register of each use of personal data by the city, with its purpose, lawful basis, the data used and how long
+  it is kept.
+exchanges:
+- proposed-use-for-a-registered-purpose
+- open-register-for-informed-residents
+journey: data-protection-officer-keeping-every-use-lawful

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: rooms-and-neighbours-for-supported-care-spaces
+title: Rooms and Neighbours for Supported Care Spaces
+between:
+- neighbourhood-association
+- social-worker
+offered:
+- Rooms and neighbours who care for older people and children together.
+returned:
+- Support, training and pay where the care is work.
+touchpoint: neighbourhood-care-space

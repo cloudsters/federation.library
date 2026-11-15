@@ -1,0 +1,27 @@
+kind: journey
+slug: lender-financing-an-investment
+title: Lender Financing an Investment
+stakeholder: lender
+summary: A lender reviews the case for an investment, finances the acquisition on terms that match the asset's life and follows the
+  asset's value through the register and the annual accounts.
+stages:
+- slug: review-the-investment-case
+  title: Review the Investment Case
+  goal: The investment plan and its business cases are presented with their lifecycle cost and funding need.
+  step: asset-lifecycle-planning/asset-investment-plan
+  touchpoints:
+  - investment-proposal
+  - lender-review
+- slug: finance-the-acquisition
+  title: Finance the Acquisition
+  goal: The asset is financed or leased on terms matched to its useful life.
+  step: asset-lifecycle-planning/acquisition-and-provision
+  touchpoints:
+  - lease-or-financing-agreement
+- slug: follow-the-asset-value
+  title: Follow the Asset Value
+  goal: Registered assets and their depreciation are reported reliably.
+  step: asset-lifecycle-planning/asset-registration-and-valuation
+  touchpoints:
+  - asset-register
+  - annual-report

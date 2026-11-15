@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: integrated-care-contract
+title: Integrated Care Contract
+between:
+- executive
+- payer
+offered:
+- A programme with a defined population, care model and outcome targets, and reported results on outcomes, use of hospital care and
+  cost.
+returned:
+- Funding of the programme across sectors, where agreed with a share of savings or payment by outcome, and access to the claims data
+  needed for evaluation.
+touchpoint: payer-negotiation

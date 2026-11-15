@@ -1,0 +1,45 @@
+kind: journey
+slug: practice-under-peer-review
+title: Practice under Peer Review
+stakeholder: specialist-physician
+summary: 'How a treating physician experiences the review of their own cases: selected by rule, reviewed competently, discussed without
+  blame and supported in changing practice.'
+stages:
+- slug: case-selected
+  title: Case Selected
+  goal: Understand why the case was selected and that selection follows rules, not suspicion.
+  step: peer-review-and-clinical-audit/case-and-topic-selection
+  touchpoints:
+  - quality-dashboard
+- slug: giving-an-account
+  title: Giving an Account
+  goal: Contribute the reasoning behind decisions that the record does not show.
+  step: peer-review-and-clinical-audit/review-preparation
+  touchpoints:
+  - peer-review-visit
+- slug: record-examined
+  title: Record Examined
+  goal: Have the record examined by competent peers against criteria known in advance.
+  step: peer-review-and-clinical-audit/case-record-review
+  touchpoints:
+  - peer-review-visit
+- slug: discussing-as-equals
+  title: Discussing as Equals
+  goal: Discuss the case openly and learn without fear of blame or sanction.
+  step: peer-review-and-clinical-audit/peer-dialogue
+  touchpoints:
+  - peer-review-visit
+  - morbidity-and-mortality-conference
+- slug: agreeing-changes
+  title: Agreeing Changes
+  goal: Agree practical changes the team believes in, with the support needed to make them.
+  step: peer-review-and-clinical-audit/improvement-agreement
+  touchpoints:
+  - clinical-audit-report
+- slug: seeing-the-effect
+  title: Seeing the Effect
+  goal: See that the changes improved care and that the review counted fairly in the own evaluation.
+  step: peer-review-and-clinical-audit/implementation-check
+  touchpoints:
+  - clinical-audit-report
+  - quality-dashboard

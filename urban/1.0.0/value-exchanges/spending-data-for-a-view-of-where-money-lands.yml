@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: spending-data-for-a-view-of-where-money-lands
+title: Spending Data for a View of Where Money Lands
+between:
+- procurement-officer
+- resident
+offered:
+- The analysis of where the city's spending lands, by supplier ownership, region and neighbourhood.
+returned:
+- Residents' questions and knowledge of local enterprises the analysis missed.
+touchpoint: published-spend-analysis

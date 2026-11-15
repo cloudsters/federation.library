@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-media-enquiry-log
+title: Published Media Enquiry Log
+medium: artefact
+summary: The public log of media enquiries, with what was asked, who answered, when and what was given.
+exchanges:
+- questions-for-complete-answers
+journey: journalist-getting-answers-from-the-city

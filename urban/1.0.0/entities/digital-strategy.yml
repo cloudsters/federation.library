@@ -1,0 +1,62 @@
+kind: entity
+slug: digital-strategy
+title: Digital Strategy
+type: governance
+summary: The council's plan for the city's digital infrastructure, services and data, with its principles, priorities and date of
+  review. The administration drafts it from the city strategy and the charter, the council adopts it, and the roadmap, the architecture
+  and every major digital decision are tested against it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: strategy-period
+  type: period
+  card: 1..1
+- name: principles
+  type: text
+  card: 1..*
+- name: priorities
+  type: text
+  card: 1..*
+- name: city-strategy
+  type: reference(city-strategy)
+  card: 1..1
+- name: objectives
+  type: reference(city-objective)
+  card: 0..*
+- name: landscape-report
+  type: reference(digital-landscape-report)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- revised
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: city-charter
+- type: based-on
+  target: digital-landscape-report
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: systems-architecture
+- type: produces
+  target: digital-roadmap

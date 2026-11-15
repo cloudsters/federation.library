@@ -1,0 +1,53 @@
+kind: entity
+slug: equipment
+title: Equipment
+type: master
+summary: A working companion in the operational topology — each machine, device, or tool with its own identity, maintenance rhythm,
+  and lifecycle, cared for as a living participant in the production ecosystem.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: location
+  type: reference(facility)
+  card: 0..1
+- name: maintenance-schedule
+  type: text
+  card: 0..1
+- name: service-history
+  type: text
+  card: 0..*
+- name: asset
+  type: reference(asset)
+  card: 0..1
+states:
+- registered
+- operating
+- maintained
+- repaired
+- retired
+relations:
+- type: refers-to
+  target: asset
+- type: refers-to
+  target: maintenance-request
+- type: assigned-to
+  target: facility
+- type: refers-to
+  target: digital-twin-asset
+binds:
+- source: src-148
+  edition: '16.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-149
+  edition: '3.2'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

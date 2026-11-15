@@ -1,0 +1,52 @@
+kind: entity
+slug: asset
+title: Asset
+type: master
+summary: A productive resource with a lifecycle — physical infrastructure the organisation's operations depend on, requiring investment,
+  maintenance, and eventual renewal or disposal.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: acquisition-cost
+  type: amount
+  card: 1..1
+- name: acquisition-date
+  type: date
+  card: 1..1
+- name: depreciation-schedule
+  type: text
+  card: 0..1
+- name: book-value
+  type: amount
+  card: 0..1
+- name: location
+  type: reference(facility)
+  card: 0..1
+states:
+- planned
+- acquired
+- in-service
+- maintained
+- decommissioned
+- disposed
+relations:
+- type: refers-to
+  target: equipment
+- type: assigned-to
+  target: facility
+- type: refers-to
+  target: maintenance-request
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-149
+  edition: '3.2'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

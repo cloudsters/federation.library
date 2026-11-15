@@ -1,0 +1,44 @@
+kind: journey
+slug: works-council-co-designing-working-conditions
+title: Works Council Co-Designing Working Conditions
+stakeholder: works-council
+summary: The works council reads changes in labour law with management, brings matters forward, is consulted and gives consent, concludes
+  workplace agreements, feeds recurring grievances into cause fixing and reviews relations jointly.
+stages:
+- slug: read-the-changing-ground
+  title: Read the Changing Ground
+  goal: The council and management share an understanding of changes in labour law and expectations of work.
+  step: relationship-stewardship/labour-landscape-sensing
+  touchpoints:
+  - labour-law-briefing
+  - works-council-meeting
+- slug: bring-matters-forward
+  title: Bring Matters Forward
+  goal: Matters raised by the workforce reach management through the council and are routed to a fair process.
+  step: relationship-stewardship/matter-intake
+  touchpoints:
+  - works-council-meeting
+- slug: consult-and-consent
+  title: Consult and Consent
+  goal: The council is informed and consulted in good time and gives or withholds consent where the law requires it.
+  step: relationship-stewardship/consultation-and-negotiation
+  touchpoints:
+  - works-council-meeting
+- slug: conclude-the-agreement
+  title: Conclude the Agreement
+  goal: The workplace agreement is concluded and its terms reach contracts and practice.
+  step: relationship-stewardship/agreement-or-resolution
+  touchpoints:
+  - workplace-agreement
+- slug: fix-recurring-causes
+  title: Fix Recurring Causes
+  goal: Patterns from grievances and consultation are fed into governance and their causes fixed.
+  step: relationship-stewardship/cause-fixing
+  touchpoints:
+  - works-council-meeting
+- slug: review-relations-together
+  title: Review Relations Together
+  goal: Council and management review the agreements in force and the trend of grievances, and agree what to improve.
+  step: relationship-stewardship/relations-review
+  touchpoints:
+  - joint-relations-review

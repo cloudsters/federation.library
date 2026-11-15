@@ -1,0 +1,10 @@
+kind: capability
+slug: resuscitation-training
+title: Resuscitation Training
+level: L3
+parent: mandatory-training
+summary: Train clinical staff in basic and advanced life support at defined intervals.
+binds:
+- source: src-507
+  edition: '2025'
+  jurisdiction: global

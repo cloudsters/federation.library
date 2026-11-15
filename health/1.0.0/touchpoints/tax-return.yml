@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: tax-return
+title: Tax Return
+medium: artefact
+summary: The return through which the commons declares its taxable activities and evidences its charitable purposes to the tax authority.
+exchanges:
+- tax-compliance-for-charitable-status
+journey: approving-the-annual-accounts

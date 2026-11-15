@@ -1,0 +1,10 @@
+kind: solution
+slug: identity-and-access-management-system
+title: Identity and Access Management System
+role: platform
+summary: Gives every resident, member of staff, device and system one identity, grants and withdraws access by role, and lets residents
+  sign in once to the city's services.
+carries:
+- identity-and-access-control
+holds:
+- digital-identity

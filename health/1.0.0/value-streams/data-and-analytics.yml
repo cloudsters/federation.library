@@ -1,0 +1,135 @@
+kind: value-stream
+slug: data-and-analytics
+title: Data and Analytics
+family: portfolio-to-system
+summary: 'Turning routine data into decision support for the organisation: data strategy, master and reference data, data quality,
+  the enterprise data platform, and reporting and analytics for management and clinical units.'
+trigger: A unit needs a recurring report, a new indicator or an analysis to steer its work.
+outcome: A validated, documented data product is available to its users and kept current.
+stakeholders:
+- head-of-clinical-department
+- executive
+- administrative-staff
+- registered-nurse
+- health-informatics-specialist
+- operations-planning-agent
+steps:
+- slug: information-need-intake
+  title: Information Need Intake
+  summary: Record the unit's question, the decision it serves and its audience, check whether an existing data product already answers
+    it, and prioritise the need against the data strategy.
+  capabilities:
+  - data-and-analytics-strategy
+  - it-demand-management
+  - data-catalogue-management
+  entities:
+  - digital-demand
+  - data-product
+  - dashboard
+  serves:
+  - data-catalogue
+  - digital-demand-intake
+- slug: measure-and-data-definition
+  title: Measure and Data Definition
+  summary: Define each indicator with population, numerator, denominator and exclusions, identify the source data, agree master data,
+    reference data and terminology, and name an owner for each definition.
+  capabilities:
+  - quality-indicator-governance
+  - master-data-stewardship
+  - terminology-services
+  - information-architecture
+  entities:
+  - measure
+  - code-system
+  - data-product
+  serves:
+  - board-meeting
+  - data-catalogue
+- slug: data-sourcing-and-integration
+  title: Data Sourcing and Integration
+  summary: Load the required source data into the enterprise data platform under a documented legal basis, record their lineage, and
+    minimise or pseudonymise personal data where the use allows.
+  capabilities:
+  - clinical-data-warehouse
+  - integration-platform-operation
+  - data-lifecycle-management
+  - privacy-impact-management
+  entities:
+  - dataset
+  - interface
+  - data-processing-record
+- slug: data-quality-assurance
+  title: Data Quality Assurance
+  summary: Profile the data for completeness, correctness and timeliness, trace defects to the point of documentation and correct
+    them at the source rather than in the report.
+  capabilities:
+  - data-quality-management
+  - clinical-documentation-integrity
+  - master-data-stewardship
+  entities:
+  - dataset
+  - measure-report
+  - corrective-action
+  serves:
+  - clinical-workstation
+  - reporting-portal
+- slug: analysis-and-product-build
+  title: Analysis and Product Build
+  summary: Build the report, dashboard or predictive model, validate its results with the unit against known figures, and document
+    definitions and limitations.
+  capabilities:
+  - business-intelligence-and-reporting
+  - predictive-analytics
+  entities:
+  - data-product
+  - dashboard
+  - measure-report
+  - prediction
+  serves:
+  - reporting-portal
+- slug: release-and-access
+  title: Release and Access
+  summary: Publish the data product in the catalogue, grant access by role, provide its documentation and introduce users to reading
+    it correctly.
+  capabilities:
+  - data-catalogue-management
+  - identity-access-management
+  - information-content-management
+  - training-delivery
+  entities:
+  - data-product
+  - access-grant
+  - dashboard
+  serves:
+  - data-catalogue
+  - reporting-portal
+- slug: use-monitoring-and-upkeep
+  title: Use Monitoring and Upkeep
+  summary: Monitor use, data currency and quality, watch predictive models for drift, adapt products to changed definitions and withdraw
+    those no longer used.
+  capabilities:
+  - data-lifecycle-management
+  - data-quality-management
+  - model-monitoring-and-drift
+  - integrated-performance-review
+  entities:
+  - data-product
+  - dashboard
+  - measure-report
+  - prediction
+  serves:
+  - board-meeting
+  - reporting-portal
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

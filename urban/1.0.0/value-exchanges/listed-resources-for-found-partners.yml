@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: listed-resources-for-found-partners
+title: Listed Resources for Found Partners
+between:
+- research-institution
+- civil-society-organisation
+offered:
+- The institution's knowledge, rooms and research partners, listed in the directory.
+returned:
+- Community bodies that find and approach it with their questions.
+touchpoint: civil-society-directory-view

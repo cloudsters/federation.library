@@ -1,0 +1,11 @@
+kind: capability
+slug: continuous-delivery-practice
+title: Continuous Delivery Practice
+level: L3
+parent: software-delivery
+summary: Design continuous delivery as a living practice — the discipline of always being ready to deliver value, in small increments,
+  with confidence and care.
+binds:
+- source: src-154
+  edition: '2026-01-05'
+  jurisdiction: global

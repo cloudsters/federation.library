@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: aftercare-handover-for-continuing-care
+title: Aftercare Handover for Continuing Care
+between:
+- specialist-physician
+- referring-practice
+offered:
+- A translated discharge letter, medication plan and images, and access by teleconsultation for questions after the patient's return.
+returned:
+- Continuing care in the home country, reports on the patient's recovery, and further referrals from the same region.
+touchpoint: telemedicine-service

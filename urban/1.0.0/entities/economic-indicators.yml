@@ -1,0 +1,56 @@
+kind: entity
+slug: economic-indicators
+title: Local Economic Indicators
+type: intelligence
+summary: Employment, business registrations, incomes and tax revenue across the city and its neighbourhoods, gathered at a regular
+  rhythm. The statistics office or the finance department keeps it, and it is the basis for fiscal forecasts and for the data supplied
+  to transfer formulae.
+attributes:
+- name: reference-period
+  type: period
+  card: 1..1
+- name: indicator-set
+  type: code
+  card: 1..*
+- name: employment-rate
+  type: decimal
+  card: 0..1
+- name: business-registrations
+  type: integer
+  card: 0..1
+- name: median-household-income
+  type: amount
+  card: 0..1
+- name: informal-work-share
+  type: decimal
+  card: 0..1
+- name: tax-revenue
+  type: amount
+  card: 0..1
+- name: by-neighbourhood
+  type: document
+  card: 0..1
+- name: sources
+  type: text
+  card: 1..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- collected
+- validated
+- published
+- revised
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: population-register
+- type: produces
+  target: public-record

@@ -1,0 +1,33 @@
+kind: journey
+slug: operator-keeping-equipment-running
+title: Operator Keeping Equipment Running
+stakeholder: production-operator
+summary: An operator notices early signs of wear, releases equipment for planned work, reports failures promptly and takes part in
+  finding why things failed.
+stages:
+- slug: notice-early-signs
+  title: Notice Early Signs
+  goal: Unusual noise, heat or behaviour is reported during inspection rounds or by request before it becomes a failure.
+  step: asset-care-maintenance/condition-monitoring
+  touchpoints:
+  - inspection-round
+  - maintenance-request
+- slug: release-for-planned-work
+  title: Release for Planned Work
+  goal: Equipment is released for planned work at agreed times that fit the operation.
+  step: asset-care-maintenance/planned-and-mandatory-maintenance
+  touchpoints:
+  - maintenance-plan
+  - planned-shutdown
+- slug: report-a-failure
+  title: Report a Failure
+  goal: A failure is reported with its circumstances and the equipment is returned to service quickly.
+  step: asset-care-maintenance/fault-response-and-repair
+  touchpoints:
+  - maintenance-request
+- slug: help-find-the-cause
+  title: Help Find the Cause
+  goal: The operator's observations help find causes and change routines.
+  step: asset-care-maintenance/failure-analysis-and-reliability-review
+  touchpoints:
+  - root-cause-review

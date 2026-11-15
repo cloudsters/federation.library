@@ -1,0 +1,10 @@
+kind: capability
+slug: security-operations
+title: Security Operations
+level: L3
+parent: information-security
+summary: Monitor systems for threats and respond to security incidents.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-notice-for-follow-on-places
+title: Early Notice for Follow-On Places
+between:
+- case-manager
+- follow-on-care-provider
+offered:
+- Early notice of patients who need follow-on care, complete transfer information and a contact for questions after transfer.
+returned:
+- Reserved places for the agreed patient groups, prompt admission dates, and feedback on how transferred patients fared.
+touchpoint: cooperation-agreement

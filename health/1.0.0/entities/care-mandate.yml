@@ -1,0 +1,50 @@
+kind: entity
+slug: care-mandate
+title: Care Mandate
+type: governance
+summary: The authority for a care actor to perform care for a subject of care, resting on informed consent or on authorization by
+  law. Each specific mandate is a care mandate of one kind, and no care activity is legitimate without one.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: holder
+  type: reference(organisation)
+  card: 1..1
+- name: mandate-kind
+  type: code
+  card: 1..1
+- name: basis
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- requested
+- effective
+- suspended
+- ended
+relations:
+- type: based-on
+  target: care-commitment
+- type: based-on
+  target: informed-consent
+- type: based-on
+  target: authorization-by-law
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

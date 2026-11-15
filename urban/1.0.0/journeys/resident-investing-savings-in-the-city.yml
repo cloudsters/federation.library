@@ -1,0 +1,40 @@
+kind: journey
+slug: resident-investing-savings-in-the-city
+title: Resident Investing Savings in the City
+stakeholder: resident
+summary: A resident learns how the city's reserves protect neighbourhoods after a disaster, buys a community bond with savings protected
+  from risks they cannot carry, joins a cooperative credit institution the city helped found, receives the interest promised and questions
+  the burdens passed to later residents.
+stages:
+- slug: learn-how-reserves-protect
+  title: Learn How Reserves Protect
+  goal: The resident knows when the reserves may be drawn for recovery and how they are refilled.
+  step: treasury-and-debt/reserve-setting
+  touchpoints:
+  - published-reserve-rules
+- slug: buy-a-community-bond
+  title: Buy a Community Bond
+  goal: The resident has lent savings to the city in a small amount, protected from currency and timing risks.
+  step: treasury-and-debt/loan-and-bond-raising
+  touchpoints:
+  - community-bond-offer
+- slug: join-a-community-bank
+  title: Join a Community Bank
+  goal: The resident has a say in a credit institution, part-owned by the city, that lends to residents and local businesses other
+    banks overlook.
+  step: treasury-and-debt/public-and-community-banking
+  touchpoints:
+  - community-bank-member-assembly
+- slug: receive-the-promised-interest
+  title: Receive the Promised Interest
+  goal: Interest and the return of savings arrive on the dates promised.
+  step: treasury-and-debt/debt-service-and-refinancing
+  touchpoints:
+  - debt-service-schedule
+- slug: question-the-long-term-account
+  title: Question the Long-Term Account
+  goal: The resident has seen what burdens pass to later residents and has put questions to the council.
+  step: treasury-and-debt/fiscal-sustainability-assessment
+  touchpoints:
+  - published-fiscal-sustainability-report
+  - fiscal-sustainability-debate

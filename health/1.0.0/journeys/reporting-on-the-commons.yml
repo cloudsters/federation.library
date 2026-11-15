@@ -1,0 +1,39 @@
+kind: journey
+slug: reporting-on-the-commons
+title: Reporting on the Commons
+stakeholder: news-media
+summary: 'The journalist''s side of public communication: an enquiry answered promptly, an accountable position, access to experts
+  and facts that can be verified.'
+stages:
+- slug: raising-an-enquiry
+  title: Raising an Enquiry
+  goal: Reach a responsive press contact at any hour when a story breaks.
+  step: public-communication-and-reputation/issue-and-reputation-sensing
+  touchpoints:
+  - public-website
+- slug: receiving-the-position
+  title: Receiving the Position
+  goal: Receive the commons' position early and from an accountable spokesperson.
+  step: public-communication-and-reputation/assessment-and-positioning
+  touchpoints:
+  - media-statement
+- slug: checking-the-facts
+  title: Checking the Facts
+  goal: Receive figures and facts that are verified and can be quoted.
+  step: public-communication-and-reputation/content-preparation
+  touchpoints:
+  - media-statement
+- slug: interviewing-experts
+  title: Interviewing Experts
+  goal: Speak on record with clinical experts and the responsible executive.
+  step: public-communication-and-reputation/release-and-media-dialogue
+  touchpoints:
+  - media-interview
+  - media-statement
+- slug: using-published-results
+  title: Using Published Results
+  goal: Base comparisons and rankings on the commons' published, validated data.
+  step: public-communication-and-reputation/public-performance-reporting
+  touchpoints:
+  - public-quality-report
+  - annual-report

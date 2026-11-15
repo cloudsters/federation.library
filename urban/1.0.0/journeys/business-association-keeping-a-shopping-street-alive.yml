@@ -1,0 +1,40 @@
+kind: journey
+slug: business-association-keeping-a-shopping-street-alive
+title: Business Association Keeping a Shopping Street Alive
+stakeholder: business-association
+summary: The traders of a shopping street map their district, speak to the economic development strategy, pool money and work with
+  owners and residents for shared spaces, fill empty shops with interim uses and review what the partnership achieved.
+stages:
+- slug: map-the-street
+  title: Map the Street
+  goal: The shops, trades, family businesses and empty premises of the street and their supply links are mapped with traders and residents.
+  step: local-business-networks-and-clusters/local-economy-mapping
+  touchpoints:
+  - trades-and-crafts-mapping-walk
+- slug: speak-to-the-strategy
+  title: Speak to the Strategy
+  goal: The traders' views are heard before the council adopts which sectors it supports and what it expects in return.
+  step: local-business-networks-and-clusters/economic-priority-setting
+  touchpoints:
+  - economic-strategy-hearing
+  - economic-strategy-adoption-debate
+- slug: pool-for-the-street
+  title: Pool for the Street
+  goal: Traders, property owners and residents have agreed what money and work they pool to keep the street's shared spaces cared
+    for.
+  step: local-business-networks-and-clusters/commercial-district-partnership
+  touchpoints:
+  - shopping-street-partnership-meeting
+- slug: fill-the-empty-shops
+  title: Fill the Empty Shops
+  goal: Empty shops are opened to interim uses and long-standing businesses keep their place.
+  step: local-business-networks-and-clusters/commercial-district-partnership
+  touchpoints:
+  - empty-shop-interim-use-call
+- slug: review-the-partnership
+  title: Review the Partnership
+  goal: What the partnership gained for small traders is reviewed and reported to the council.
+  step: local-business-networks-and-clusters/network-vitality-review
+  touchpoints:
+  - network-vitality-review-session
+  - published-network-review

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: staff-agreement-signing
+title: Staff Agreement Signing
+medium: encounter
+summary: The meeting in which the city and the staff representatives sign an agreement on a change to work or on the use of a technology,
+  with its conditions and its review date.
+exchanges:
+- staff-consent-for-protected-working-conditions
+- staff-view-for-agreed-agent-limits
+journey: staff-representative-agreeing-to-an-automated-process

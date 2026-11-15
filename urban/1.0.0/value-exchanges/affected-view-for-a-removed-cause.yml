@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: affected-view-for-a-removed-cause
+title: Affected View for a Removed Cause
+between:
+- resident
+- city-administration
+offered:
+- The view of those affected on why the failure happened.
+returned:
+- A cause removed with an owner and a date, and its close open to follow.
+touchpoint: cause-analysis-session

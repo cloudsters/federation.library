@@ -1,0 +1,64 @@
+kind: entity
+slug: planning-application
+title: Planning Application
+type: transactional
+summary: A formal submission for a change of land use or for development, with the proposal, the parcels it covers, the consultation
+  held and the decision taken. The planning department of the administration records and decides it or puts it to the council, and
+  it is one of the processes in which an automated system may prepare a decision only under the assurance of this family.
+attributes:
+- name: application-number
+  type: identifier
+  card: 1..1
+- name: applicant
+  type: text
+  card: 1..1
+- name: parcels
+  type: reference(land-parcel)
+  card: 1..*
+- name: proposal
+  type: text
+  card: 1..1
+- name: proposed-use
+  type: code
+  card: 0..1
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: consultation
+  type: reference(public-consultation)
+  card: 0..1
+- name: decided-by
+  type: code
+  card: 0..1
+- name: council-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+states:
+- submitted
+- validated
+- consulted
+- under-assessment
+- approved
+- refused
+- withdrawn
+- appealed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: governed-by
+  target: zoning-plan
+- type: governed-by
+  target: masterplan
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: council-decision

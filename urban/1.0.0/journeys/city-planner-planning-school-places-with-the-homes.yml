@@ -1,0 +1,36 @@
+kind: journey
+slug: city-planner-planning-school-places-with-the-homes
+title: City Planner Planning School Places with the Homes
+stakeholder: city-planner
+summary: A planner forecasts the children of each neighbourhood from the homes the city plans, plans places and school buildings with
+  families and childcare groups, makes the routes to school safe with pupils and plans schools as places the neighbourhood can use.
+stages:
+- slug: forecast-the-children
+  title: Forecast the Children
+  goal: The number of children by age and neighbourhood is forecast from the register, births and planned homes and compared with
+    the places within reach.
+  step: school-places-and-learning-pathways/child-population-forecast
+  touchpoints:
+  - child-population-forecast-workshop
+  - published-school-place-plan
+- slug: plan-places-and-buildings
+  title: Plan Places and Buildings
+  goal: Places are added, moved or reduced where the forecast shows, and school buildings and early-years places are planned with
+    families and neighbourhood childcare groups.
+  step: school-places-and-learning-pathways/places-and-school-buildings
+  touchpoints:
+  - school-place-planning-forum
+  - published-school-place-plan
+- slug: make-the-route-to-school-safe
+  title: Make the Route to School Safe
+  goal: Pupils and parents have walked the routes to school with the planner, and the dangerous points they showed are changed.
+  step: school-places-and-learning-pathways/fair-admission-and-school-routes
+  touchpoints:
+  - school-route-walk-with-pupils
+- slug: plan-schools-as-neighbourhood-places
+  title: Plan Schools as Neighbourhood Places
+  goal: New and extended school buildings are planned so that their rooms and grounds can open to the neighbourhood outside teaching
+    hours.
+  step: school-places-and-learning-pathways/schools-as-neighbourhood-places
+  touchpoints:
+  - school-community-governing-meeting

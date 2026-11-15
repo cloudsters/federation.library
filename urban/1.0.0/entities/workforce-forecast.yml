@@ -1,0 +1,65 @@
+kind: entity
+slug: workforce-forecast
+title: Workforce Forecast
+type: intelligence
+summary: The forecast of demand for staff and skills by department and of the retirements, departures and recruits expected over the
+  plan's horizon. The personnel function makes it with departments from staff records, population change and automation proposals,
+  and it is used to set the targets of the workforce plan and to check them each quarter.
+attributes:
+- name: horizon
+  type: period
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 0..*
+- name: demand-by-role
+  type: text
+  card: 1..*
+- name: expected-retirements
+  type: integer
+  card: 0..1
+- name: expected-departures
+  type: integer
+  card: 0..1
+- name: expected-recruits
+  type: integer
+  card: 0..1
+- name: single-holder-roles
+  type: reference(position)
+  card: 0..*
+- name: automation-proposals
+  type: reference(automation-proposal)
+  card: 0..*
+- name: assumptions
+  type: text
+  card: 0..*
+- name: prepared-on
+  type: date
+  card: 1..1
+states:
+- commissioned
+- prepared
+- reviewed
+- published
+- superseded
+relations:
+- type: based-on
+  target: staff-record
+- type: based-on
+  target: need-assessment
+- type: based-on
+  target: automation-proposal
+- type: refers-to
+  target: position
+- type: produces
+  target: workforce-plan
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-239
+  edition: '2016'
+  jurisdiction: global

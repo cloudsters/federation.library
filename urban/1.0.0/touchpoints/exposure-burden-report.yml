@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: exposure-burden-report
+title: Exposure Burden Report
+medium: artefact
+summary: The yearly report of which neighbourhoods bear the most pollution, noise and heat, with the actions set for the next year.
+exchanges:
+- exposure-evidence-for-action-where-burden-is-heaviest
+journey: affected-community-stopping-a-hazard-at-its-source

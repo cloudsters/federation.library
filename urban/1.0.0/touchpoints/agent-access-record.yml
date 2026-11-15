@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: agent-access-record
+title: Agent Access Record
+medium: artefact
+summary: The record of the identity and the scoped and revocable access given to an agent.
+exchanges:
+- bounded-work-for-a-written-mandate
+journey: municipal-ai-agent-serving-a-fixed-term

@@ -1,0 +1,35 @@
+kind: journey
+slug: neighbours-living-through-harm-and-its-repair
+title: Neighbours Living Through Harm and Its Repair
+stakeholder: local-community
+summary: Neighbours of a site where harm occurred learn of it early, hear what caused it, see the place repaired and say whether the
+  repair is enough.
+stages:
+- slug: learn-of-the-harm
+  title: Learn of the Harm
+  goal: Neighbours hear of the harm early, from the organisation itself, with what to do now.
+  step: remediation-healing/harm-intake
+  touchpoints:
+  - notice-to-those-affected
+  - press-release
+- slug: hear-the-cause
+  title: Hear the Cause
+  goal: Neighbours learn what caused the harm and what allowed it, in plain words.
+  step: remediation-healing/cause-investigation
+  touchpoints:
+  - investigation-report
+  - affected-party-meeting
+- slug: see-the-place-repaired
+  title: See the Place Repaired
+  goal: The repair of the surroundings is visible, and neighbours who lost something are compensated.
+  step: remediation-healing/repair-and-restitution
+  touchpoints:
+  - affected-party-meeting
+  - restitution-agreement
+- slug: say-whether-it-is-enough
+  title: Say Whether It Is Enough
+  goal: The community's judgement of the remedy is heard before the case is closed.
+  step: remediation-healing/remedy-acceptance
+  touchpoints:
+  - affected-party-meeting
+  - open-day

@@ -1,0 +1,50 @@
+kind: journey
+slug: executive-board-acquiring-a-business
+title: Executive Board Acquiring a Business
+stakeholder: executive-board
+summary: The executive board screens a target against the strategy, examines and values it, negotiates and wins approval, closes the
+  deal, integrates the business and tracks the promised synergies.
+stages:
+- slug: screen-the-candidate
+  title: Screen the Candidate
+  goal: The target fits the strategy and the value model, and the organisation can absorb it.
+  step: mergers-and-acquisitions/opportunity-screening
+  touchpoints:
+  - board-meeting
+  - deal-case
+- slug: examine-and-value
+  title: Examine and Value
+  goal: The findings of the due diligence are known and their risks are priced into the deal.
+  step: mergers-and-acquisitions/valuation-and-due-diligence
+  touchpoints:
+  - data-room
+  - due-diligence-report
+- slug: negotiate-and-win-approval
+  title: Negotiate and Win Approval
+  goal: Terms are agreed, employee representatives consulted and every required consent obtained.
+  step: mergers-and-acquisitions/negotiation-and-approval
+  touchpoints:
+  - contract-negotiation
+  - supervisory-board-meeting
+  - works-council-meeting
+- slug: close-the-deal
+  title: Close the Deal
+  goal: Conditions are met, the price is paid and ownership is recorded.
+  step: mergers-and-acquisitions/transaction-closing
+  touchpoints:
+  - closing-meeting
+  - company-register-entry
+- slug: integrate-the-business
+  title: Integrate the Business
+  goal: Governance, people, processes, systems and customers of the acquired business are joined with care.
+  step: mergers-and-acquisitions/integration-or-separation
+  touchpoints:
+  - integration-office
+  - staff-assembly
+- slug: track-the-synergies
+  title: Track the Synergies
+  goal: Synergies are tracked against the deal case until realised, and lessons are kept.
+  step: mergers-and-acquisitions/synergy-review
+  touchpoints:
+  - board-meeting
+  - deal-case

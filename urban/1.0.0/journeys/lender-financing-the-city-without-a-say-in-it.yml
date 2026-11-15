@@ -1,0 +1,31 @@
+kind: journey
+slug: lender-financing-the-city-without-a-say-in-it
+title: Lender Financing the City Without a Say in It
+stakeholder: lender
+summary: A lender reads the city's borrowing strategy, agrees terms that give it no say over the city's decisions, holds the city's
+  deposits to lend in the city and is repaid when due.
+stages:
+- slug: read-the-borrowing-strategy
+  title: Read the Borrowing Strategy
+  goal: The lender knows what the city borrows for, its limits and the conditions it refuses.
+  step: treasury-and-debt/borrowing-strategy-and-limits
+  touchpoints:
+  - published-borrowing-strategy
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: Loan or bond terms are agreed that the city can service from its own income and that give the lender no say over its decisions.
+  step: treasury-and-debt/loan-and-bond-raising
+  touchpoints:
+  - lender-negotiation-meeting
+- slug: hold-deposits-for-local-lending
+  title: Hold Deposits for Local Lending
+  goal: A public or community bank holds the city's deposits and reports the lending it made in the city.
+  step: treasury-and-debt/public-and-community-banking
+  touchpoints:
+  - community-bank-deposit-agreement
+- slug: be-repaid-when-due
+  title: Be Repaid When Due
+  goal: Interest and repayments arrive when due, and refinancing is offered when better terms exist.
+  step: treasury-and-debt/debt-service-and-refinancing
+  touchpoints:
+  - debt-service-schedule

@@ -1,0 +1,10 @@
+kind: capability
+slug: modality-scheduling-and-acquisition
+title: Modality Scheduling & Acquisition
+level: L3
+parent: diagnostic-imaging
+summary: Schedule examinations on each modality and acquire images with the appropriate protocol.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global

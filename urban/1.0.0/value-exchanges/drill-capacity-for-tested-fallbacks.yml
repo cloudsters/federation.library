@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: drill-capacity-for-tested-fallbacks
+title: Drill Capacity for Tested Fallbacks
+between:
+- emergency-service
+- information-technology-specialist
+offered:
+- Its people and radio links in the offline drills.
+returned:
+- Fallbacks tested with the services that will rely on them in a crisis.
+touchpoint: offline-operation-drill

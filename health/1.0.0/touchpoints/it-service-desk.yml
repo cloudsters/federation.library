@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: it-service-desk
+title: IT Service Desk
+medium: channel
+summary: The telephone, portal and on-site service through which staff report disruptions and request access, equipment and changes,
+  available around the clock for clinical systems.
+exchanges:
+- standard-requests-for-ready-devices
+- prompt-report-for-restored-service
+- escalation-for-contracted-support
+- secure-conduct-for-fast-access
+journey: connecting-to-the-national-health-network

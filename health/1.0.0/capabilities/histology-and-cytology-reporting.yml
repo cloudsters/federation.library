@@ -1,0 +1,22 @@
+kind: capability
+slug: histology-and-cytology-reporting
+title: Histology & Cytology Reporting
+level: L3
+parent: pathology-services
+summary: Examine tissue and cell preparations and issue structured diagnostic reports.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-318
+  edition: 9th
+  jurisdiction: global
+- source: src-328
+  edition: collection
+  jurisdiction: global
+- source: src-447
+  edition: 3.2 (2019)
+  jurisdiction: global
+- source: src-453
+  edition: '5th ed. (Digestive: 6th ed. 2026)'
+  jurisdiction: global

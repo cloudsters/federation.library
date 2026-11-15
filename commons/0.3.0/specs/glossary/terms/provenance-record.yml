@@ -1,0 +1,22 @@
+id: provenance-record
+term: Provenance record
+layer: what
+kind: artefact
+definition: The committed record, in `.provenance/`, of what produced each file a CORE generates, so that every generated
+  file can be traced to its inputs.
+why: 'Holger, 3 November 2026 (commons.o#110, comment 6605938212, decision 34, on D4-CE 6603988699): the name says what
+  the record is for, in the sense MCP''s provenance of a served result and LIBRARY''s provenance fields already have, where
+  something came from. Its earlier name, the build record, would read as the second act, which makes a runtime or an emulation
+  and generates no file; its earlier location is `.build/`. A rendering''s provenance record names its three definitions
+  with their digests, its inputs and the origin of each expected picture (CORE-VIEWS R8). The check is provenance; the key
+  generator stays.'
+relations:
+  held_in: commons-core
+not:
+- build record, its earlier name
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); decided 2026-11-03,
+    commons.o#110, comment 6605938212 (decision 34)'

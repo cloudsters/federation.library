@@ -1,0 +1,9 @@
+id: vote
+term: Vote
+layer: workshop
+kind: concept
+definition: A procedure of a Decision in which the voices of those it names bind, by the majority and quorum the commons sets.
+why: A shared decision binds only when its procedure was named before the voices, and how many must agree is the commons' own to set; a vote in which everyone holds a veto is consent, which needs no term of its own.
+relations:
+  procedure_of: decision
+status: draft

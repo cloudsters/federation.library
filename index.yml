@@ -17,4 +17,16 @@ releases:
   version: v2026.11.2
   record: patterns/v2026.11.2/release.yml
   digest: sha256:bdd866ab88ddc95822836865e52307c2881f14da727f56ac20d626f78b72a2cf
+  state: retired
+- id: commons
+  kind: model
+  version: 0.3.0
+  record: commons/0.3.0/release.yml
+  digest: sha256:e93d7a38583ce1321591a5bd81a81244837f2278e4191af23956f52512a71dd2
+  state: released
+- id: patterns
+  kind: extract
+  version: v2026.11.3
+  record: patterns/v2026.11.3/release.yml
+  digest: sha256:646c38657671a81cbe7447894094709071cc97459cdaa1f358d6acc5a31c3bf4
   state: released

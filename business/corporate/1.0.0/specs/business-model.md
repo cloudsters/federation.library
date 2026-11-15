@@ -44,6 +44,7 @@ No new terms.
 | R2 | MUST | A declared field has the shape the schema `business-model.schema.json` gives it. | Shape is what lets a tool compare a record built from it with its origin. | schema |
 | R3 | MUST | A Body or Post of the model is a form: it names no holder, and a Post of the model carries no `held_by`. | Whether a Body forms and who serves a Post is for the commons that builds from it to decide, never for the model. | forms |
 | R4 | MUST | A touchpoint's `journey` lists it in its `stages`, and a value exchange's `touchpoint` lists it in its `exchanges`. | MODEL's one binding is one of the model's many; a journey that does not pass through its touchpoint states a path no one walks. | bindings |
+| R5 | MUST | A journey stage's `step` names, as `<stream>/<step>`, a step of a value stream of the same model, and in a model with variants of the same variant, inside which R4 resolves as well. | A stage on a step the model does not hold leads a commons that builds from it to nothing: the stream is not there. | steps |
 
 ## 5 · Structure
 
@@ -76,6 +77,7 @@ The pack's `standing` on a stakeholder is written `legal_form`, because *standin
 | `schema` | every declared field validates against its kind's definition (R2) |
 | `forms` | no Body or Post of the model names a holder (R3) |
 | `bindings` | each touchpoint stands in the stages of its `journey`, and each value exchange's `touchpoint` names it among its `exchanges` (R4) |
+| `steps` | each journey stage's `step` is a step of a value stream of its own model or variant (R5) |
 
 ## 7 · Example
 
@@ -115,3 +117,4 @@ type: role
 | 2026-11-02 | revised | package B, thirteenth family, prepared and not released: Acquire to Retire whole from the pack, its four value streams with their 24 steps, the 12 journeys that walk them, 23 touchpoints and 9 value exchanges, in MODEL's layout (51 ties as `serves` on the new steps, and 2 on offered steps of two streams that new touchpoints serve), each exchange without `at`, and its streams in the offer's `order` in the maker's sequence. Form 2: of 7 touchpoints whose journeys score alike, each `journey` is the journey of this family, then the pack's first; form 1: of 6 value exchanges with several offered places, each `touchpoint` is the first the pack names among those on the journey of a party to it. Every choice is listed in With it every family of the pack is offered. The one pack touchpoint no journey walks, `public-tender`, is carried as well, placed in the stage `receive-an-honest-offer` of `customer-journey`, the offered journey whose stage stands on a step it serves and whose stakeholder is party to its exchanges; its steps state it in `serves` | the maker |
 | 2026-11-02 | revised | two product names leave the records, carried by the pack and found in the reviews' checks: the capability the pack names after an AI product is written `ai-assistant-integration` (*AI Assistant Integration*), with its references in one solution and two value streams, and `prompt-engineering-as-governance` names *the AGENT.md and agent mandates*, the commons' own agent file, in place of an AI client's. Repairs, not rewording; collected for the maker's word at release | the maker |
 | 2026-11-15 | revised | the spec in the names and rules in force of 0.3.0: `business-model` for `business-offer`, the model for the offer, build for activate and adopt, and the rules EXTENSION held cited where they now stand (`model` R20, `core-knowledge` R19, R20, `library` R10, R19); the substance unchanged | the maker |
+| 2026-11-15 | revised | R5 and the check `steps`: a journey stage stands on a step of its own model; `bindings` and `steps` resolve inside each variant on its own, so a variant no longer borrows its sibling's records. Found in startup: 53 journeys whose stages stood on 26 streams only corporate held; startup takes in those 26 streams whole, with what their steps bind and serve, and the 4 stakeholders corporate's copies of three shared streams name, all as corporate holds them, so that every record the two variants share is the same record (R31). Startup holds 64 streams (ST-3) | the maker |

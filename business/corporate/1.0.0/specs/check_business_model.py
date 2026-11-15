@@ -5,6 +5,9 @@
   schema    every declared field has its shape (R2)
   forms     a Body or Post of the model names no holder (R3)
   bindings  a touchpoint's `journey` lists it in its `stages`, a value exchange's `touchpoint` names it among its `exchanges` (R4)
+  steps     every journey stage's `step` names a step of a value stream of its own model (R5)
+
+  bindings and steps resolve inside each emulation on its own: a variant never borrows its sibling's records.
 
   refs      every rule the spec cites resolves to a rule of the Commons model's specs (O1-CE)
 
@@ -85,6 +88,7 @@ def main():
     # the records: `offer/registry/` on structure 0.3.0; on 0.4.0 every emulation's element folders, or those of the
     # one emulation given (CORE R6)
     files = glob.glob(os.path.join(core, "offer", "registry", "*", "*.y*ml"))
+    roots = [core]
     if not files:
         roots = [core] if os.path.exists(os.path.join(core, "model.yml")) else glob.glob(os.path.join(core, "models", "emulation", "*"))
         files = [f for r in roots for e in ELEMENTS for f in glob.glob(os.path.join(r, e, "*.y*ml"))]
@@ -93,7 +97,8 @@ def main():
         if not isinstance(rec, dict) or not rec.get("kind"):
             continue
         kind, where = rec["kind"], os.path.relpath(f, core)
-        recs[f"{kind}:{rec.get('slug')}"] = rec
+        root = max((r for r in roots if os.path.abspath(f).startswith(os.path.abspath(r) + os.sep)), key=len, default=core)
+        recs[(root, f"{kind}:{rec.get('slug')}")] = rec   # per emulation: a variant resolves only inside itself (R4, R5)
         declared = set(((OWN["$defs"].get(kind) or {}).get("properties") or {}))
         allowed = model.get(kind, common) | {"binds"} | declared
         for k in rec:
@@ -106,15 +111,25 @@ def main():
         if kind in ("body", "post") and (rec.get("held_by") or rec.get("holder")):
             out.append(f"fail: forms: `{where}` names a holder: a {kind} of the model is a form")
 
-    for key, rec in recs.items():
+    for (root, key), rec in recs.items():
+        if len(roots) > 1:
+            key = f"{os.path.basename(root)}/{key}"
         if rec["kind"] == "touchpoint" and rec.get("journey"):
-            j = recs.get(f"journey:{rec['journey']}") or {}
+            j = recs.get((root, f"journey:{rec['journey']}")) or {}
             if rec.get("slug") not in {t for s in j.get("stages") or [] for t in s.get("touchpoints") or []}:
                 out.append(f"fail: bindings: `{key}` names the journey `{rec['journey']}`, whose stages do not pass through it")
         if rec["kind"] == "value-exchange" and rec.get("touchpoint"):
-            tp = recs.get(f"touchpoint:{rec['touchpoint']}") or {}
+            tp = recs.get((root, f"touchpoint:{rec['touchpoint']}")) or {}
             if rec.get("slug") not in (tp.get("exchanges") or []):
                 out.append(f"fail: bindings: `{key}` names the touchpoint `{rec['touchpoint']}`, whose `exchanges` do not name it")
+        if rec["kind"] == "journey":
+            for s in rec.get("stages") or []:
+                if not isinstance(s, dict) or s.get("step") is None:
+                    continue
+                stream, _, step = str(s["step"]).partition("/")
+                vs = recs.get((root, f"value-stream:{stream}")) or {}
+                if step not in {x.get("slug") for x in vs.get("steps") or [] if isinstance(x, dict)}:
+                    out.append(f"fail: steps: `{key}` stage `{s.get('slug')}` stands on `{s['step']}`, no step of a value stream of this model (R5)")
 
     spec = os.path.join(HERE, "business-model.md")
     sp = a.specs or next((p for p in (*glob.glob(os.path.join(core, "models", "commons", "*", "commons", "specs")),

@@ -3,46 +3,67 @@ id: business
 variant: {name: startup}
 title: 'Business: startup'
 kind: business-commons
-gives: 'A startup commons, a young company of a few founders and up to about thirty people, financed by its owners and investors,
-  that sells a product and the services around it, holds its value creation as one whole: its founding, its financing until
-  it carries itself, the search for a fit between its offering and a lasting need, and the streams of the business model it
-  shares with every company. This model holds 38 streams in all thirteen families, its Bodies those of its owners and managing
-  directors and four teams, and grows into the variant corporate.'
+gives: 'A commons of a young or small organisation, one site and a few people, from its founding onward, that sells a product and
+  the services around it, holds its value creation as one whole: its founding, its financing until it carries itself, and the
+  streams of the business model it shares with every organisation. This model holds 64 streams in all thirteen families, its
+  Bodies those of its owners and managing directors and four teams, and grows into the variant corporate.'
 asks: A Body that holds what the commons activates, and the commons' own evidence on its value creation.
 order:
   perception-to-mandate:
   - boundary-sensing-identity-design
+  - risk-as-immune-response
   - compliance-as-integrity
+  - remediation-healing
+  - resilience-architecture
   - ethical-practice-design
   - founding-and-incorporation
   purpose-to-portfolio:
   - strategy-as-living-design
   - value-model-stewardship
+  - mergers-and-acquisitions
   value-to-sustainability:
+  - value-stewardship-accounting
   - revenue-architecture
   - transparency-reporting
+  - capital-stewardship
   - treasury-as-circulation
+  - internal-integrity-controls
   - fiscal-responsibility-contribution
   - venture-financing
   portfolio-to-system:
+  - stakeholder-technology-relationship
+  - technology-strategy-alignment
   - digital-immune-design
   - information-as-lifeblood
+  - interoperability-and-connectivity
   - solution-lifecycle-design
+  - support-as-care
   participant-to-community:
+  - community-voice-architecture
   - ecosystem-relationship-design
   - governance-board-relationship
   collaboration-to-automation:
+  - process-as-living-pattern
   - quality-as-vitality
+  - knowledge-as-commons
   - ecological-health-safety
+  - regenerative-practice
   contributor-to-succession:
   - talent-attraction-welcome
+  - workforce-scheduling-and-staffing
   - relationship-stewardship
+  - recognition-reciprocity
   - payroll-as-promise-fulfilled
+  - transition-graceful-exit
   - ai-agent-lifecycle
   discovery-to-usage:
+  - offering-portfolio-stewardship
+  - research-and-technology-development
   - offering-discovery-ideation
   - offering-design-craft
+  - experience-strategy-design
   - experience-delivery-care
+  - post-delivery-stewardship
   - experience-sensing-evolution
   - product-market-fit
   interest-to-relationship:
@@ -54,8 +75,12 @@ order:
   - direct-distribution
   - platform-ecosystem-distribution
   demand-to-fulfillment:
+  - supply-chain-orchestration
   - production-craft-assembly
+  - service-delivery-governance
+  - service-resource-orchestration
   - service-delivery-craft
+  - customer-project-delivery
   source-to-alliance:
   - sourcing-partnership-design
   - payment-fair-settlement

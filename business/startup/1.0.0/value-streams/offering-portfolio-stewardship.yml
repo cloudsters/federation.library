@@ -1,0 +1,116 @@
+kind: value-stream
+slug: offering-portfolio-stewardship
+title: Offering Portfolio Stewardship
+family: discovery-to-usage
+summary: Stewarding the whole set of offerings, their variants and the intellectual assets behind them across their lifecycle, so
+  that the portfolio keeps meeting customer demand and is renewed, extended or pruned on evidence.
+trigger: An offering review falls due, or market signals or offering performance call the offering mix into question.
+outcome: Each offering has a decided lifecycle position, and the portfolio is renewed, extended or pruned accordingly.
+stakeholders:
+- product-manager
+- executive-board
+- development-engineer
+- finance-professional
+- sales-representative
+- business-customer
+steps:
+- slug: portfolio-review
+  title: Portfolio Review
+  summary: Every offering is seen in one picture with its lifecycle stage, sales, margin, customer value and strategic fit, at a fixed
+    rhythm and whenever market signals or performance call the mix into question.
+  capabilities:
+  - offering-portfolio-cultivation
+  - offering-lifecycle-stewardship
+  entities:
+  - portfolio
+  - product
+  - service
+  - measure-report
+  serves:
+  - portfolio-review-meeting
+- slug: innovation-bet-allocation
+  title: Innovation Bet Allocation
+  summary: Development and research effort is weighed as a set of bets across core, adjacent and new areas, and each bet is funded,
+    continued, stopped or scaled on the evidence it has produced.
+  capabilities:
+  - innovation-portfolio-management
+  - offering-portfolio-cultivation
+  entities:
+  - portfolio
+  - initiative
+  - business-case
+  - budget
+  serves:
+  - board-meeting
+  - portfolio-review-meeting
+- slug: offering-roadmap
+  title: Offering Roadmap
+  summary: Introductions, releases and withdrawals are sequenced over the coming horizons and aligned with sales plans, operations
+    capacity and investment.
+  capabilities:
+  - offering-roadmap-planning
+  - offering-lifecycle-stewardship
+  entities:
+  - plan
+  - portfolio
+  - product
+  - service
+  serves:
+  - account-review
+  - offering-roadmap
+- slug: variant-and-configuration-governance
+  title: Variant and Configuration Governance
+  summary: The variants and options each offering may take are decided deliberately, configuration rules are kept consistent, and
+    variants that no longer earn their complexity are retired.
+  capabilities:
+  - product-variant-configuration
+  entities:
+  - product-variant
+  - product
+  - product-specification
+  serves:
+  - customer-portal
+  - product-catalogue
+- slug: offering-knowledge-upkeep
+  title: Offering Knowledge Upkeep
+  summary: Master data, descriptions and know-how for every offering are kept accurate and accessible, so that sales, delivery and
+    service work from the same truth.
+  capabilities:
+  - offering-knowledge-architecture
+  entities:
+  - product
+  - service
+  - knowledge-article
+  - data-product
+  serves:
+  - customer-portal
+  - offering-description
+  - product-catalogue
+  - website
+- slug: intellectual-asset-care
+  title: Intellectual Asset Care
+  summary: The inventions, designs, brands and know-how behind the offerings are registered and reviewed, and for each the organisation
+    decides what to protect, what to license and what to share openly.
+  capabilities:
+  - intellectual-asset-stewardship
+  entities:
+  - intellectual-property-right
+  - invention-disclosure
+  serves:
+  - invention-disclosure
+- slug: lifecycle-decision-and-retirement
+  title: Lifecycle Decision and Retirement
+  summary: Each offering receives a recorded decision to invest, renew, extend or retire, and retirements are carried out with a migration
+    path that protects existing customers.
+  capabilities:
+  - offering-lifecycle-stewardship
+  - offering-portfolio-cultivation
+  entities:
+  - governance-decision
+  - product
+  - service
+  - communication
+  serves:
+  - account-review
+  - discontinuation-notice
+  - portfolio-review-meeting

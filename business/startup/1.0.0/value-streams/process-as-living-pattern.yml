@@ -1,0 +1,141 @@
+kind: value-stream
+slug: process-as-living-pattern
+title: Process Ownership and Improvement
+family: collaboration-to-automation
+summary: 'Governing how work flows as a living pattern language: processes are owned, defined, sensed and improved by those closest
+  to the work, and the organisation decides what to automate and how people and AI agents work together under clear mandates.'
+trigger: A process shows waste, error or overload, or the use of automation or an AI agent in it is proposed.
+outcome: The improved or automated process is in use under agreed governance, and its gains are measured.
+stakeholders:
+- executive-board
+- employee
+- works-council
+- information-technology-specialist
+- legal-risk-and-compliance-professional
+- operations-planning-agent
+steps:
+- slug: process-governance
+  title: Process Governance
+  summary: The organisation keeps its process framework, assigns an owner to every process, sets the rules by which processes may
+    change and the rhythm of huddles, reviews and handovers that keeps them in step.
+  capabilities:
+  - process-ownership-governance
+  - operational-cadence-design
+  entities:
+  - process-model
+  - policy
+  - decision-right
+  serves:
+  - works-council-meeting
+- slug: process-definition
+  title: Process Definition
+  summary: Each process is scoped, analysed and documented as a named, versioned pattern with its purpose, roles, control points and
+    systems, and published where the people doing the work find it.
+  capabilities:
+  - process-pattern-language
+  entities:
+  - process-model
+  - pattern
+  - knowledge-article
+  serves:
+  - intranet
+  - process-library
+- slug: vitality-sensing
+  title: Process Performance Sensing
+  summary: Process owners measure throughput, errors and waiting, and ask in regular retrospectives whether the process still serves
+    the people who run it and the stakeholders it affects.
+  capabilities:
+  - process-vitality-review
+  entities:
+  - measure
+  - measure-report
+  - improvement-suggestion
+  serves:
+  - process-retrospective
+- slug: process-improvement
+  title: Process Improvement
+  summary: Improvement opportunities are selected, a fitting method is chosen, and the people closest to the work remove waste and
+    redesign the flow in rapid improvement events or longer improvement projects.
+  capabilities:
+  - process-problem-solving
+  - lean-improvement
+  - practice-led-process-evolution
+  entities:
+  - improvement-suggestion
+  - process-model
+  - change-request
+  - project
+  serves:
+  - improvement-workshop
+- slug: automation-decision
+  title: Automation Decision
+  summary: For each candidate the organisation decides what is automated, what is supported by AI and what stays human, after weighing
+    ethics, fairness, regulatory class and the effect on the people whose work changes.
+  capabilities:
+  - automation-ethics-design
+  - ai-governance-framework
+  - ai-regulatory-conformity
+  - algorithmic-fairness-assurance
+  entities:
+  - business-case
+  - cognitive-mandate
+  - risk
+  - approval
+  serves:
+  - automation-review-board
+  - works-council-meeting
+- slug: agent-mandate-design
+  title: Agent Mandate Design
+  summary: 'The collaboration between people and agents is designed: each agent''s role, mandate, negotiation limits and governing
+    instructions, the trust boundaries and the paths by which humans override and escalate.'
+  capabilities:
+  - human-agent-collaboration-design
+  - agent-negotiation-mandate
+  - prompt-engineering-as-governance
+  - trust-and-escalation-protocols
+  entities:
+  - agent-mandate
+  - agent
+  - decision-right
+  - oversight-assignment
+  serves:
+  - agent-mandate
+  - agent-registry
+- slug: automation-build-and-roll-out
+  title: Automation Build and Roll-Out
+  summary: Workflows, document templates, booking flows and AI assistants are built into everyday work, tested and released, and the
+    staff who use or oversee them are made competent to do so.
+  capabilities:
+  - document-template-automation
+  - appointment-booking-management
+  - ai-assistant-integration
+  - ai-oversight-competence
+  entities:
+  - application
+  - process-model
+  - oversight-assignment
+  - calendar-event
+  serves:
+  - agent-registry
+  - practice-briefing
+- slug: co-authorship-and-review
+  title: Co-Authorship and Review
+  summary: Significant decisions taken with agents are recorded with the mandate and the person who authorised it, and automated processes
+    are reviewed for gains, fairness and drift before their mandates are renewed.
+  capabilities:
+  - co-authorship-protocol
+  - ai-governance-framework
+  - process-vitality-review
+  entities:
+  - governance-decision
+  - agent-mandate
+  - measure-report
+  - audit-finding
+  serves:
+  - automation-review-board
+  - decision-log
+  - works-council-meeting
+binds:
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

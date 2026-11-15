@@ -1,0 +1,108 @@
+kind: value-stream
+slug: mergers-and-acquisitions
+title: Mergers and Acquisitions
+family: purpose-to-portfolio
+summary: Reshaping the organisation by acquiring, merging with or divesting businesses, from screening against the strategy through
+  due diligence, negotiation and closing to the integration or separation of the business concerned.
+trigger: The strategy identifies an acquisition, merger or divestment opportunity, or another party approaches the organisation.
+outcome: The transaction is closed or deliberately abandoned, and the business concerned is integrated or separated against the planned
+  synergies.
+stakeholders:
+- executive-board
+- supervisory-board
+- shareholder
+- external-specialist
+- joint-venture-partner
+- works-council
+steps:
+- slug: opportunity-screening
+  title: Opportunity Screening
+  summary: Candidates to acquire, merge with or ally with, and businesses to divest, are identified and screened against the strategy,
+    the value model and the organisation's capacity to absorb change.
+  capabilities:
+  - alliance-and-merger-assessment
+  - divestment-management
+  - corporate-venturing
+  entities:
+  - corporate-transaction
+  - strategy
+  - legal-entity
+  serves:
+  - board-meeting
+  - deal-case
+- slug: valuation-and-due-diligence
+  title: Valuation and Due Diligence
+  summary: The target is valued and examined for its finances, contracts, liabilities, tax, people, technology, customers and impact,
+    and the risks found are priced into the deal.
+  capabilities:
+  - alliance-and-merger-assessment
+  entities:
+  - corporate-transaction
+  - financial-statement
+  - risk
+  - contract
+  serves:
+  - data-room
+  - due-diligence-report
+- slug: negotiation-and-approval
+  title: Negotiation and Approval
+  summary: Price, structure, financing and protections are negotiated, employee representatives are consulted, and the transaction
+    is approved by the boards, owners and authorities whose consent it needs.
+  capabilities:
+  - alliance-and-merger-assessment
+  - commons-capital-structure-design
+  entities:
+  - corporate-transaction
+  - contract
+  - governance-decision
+  - approval
+  serves:
+  - contract-negotiation
+  - supervisory-board-meeting
+  - works-council-meeting
+- slug: transaction-closing
+  title: Transaction Closing
+  summary: The closing conditions are met, the price is paid, and shares, assets and obligations pass to their new owner and are recorded
+    in the ownership registers.
+  capabilities:
+  - equity-and-ownership-management
+  - alliance-and-merger-assessment
+  entities:
+  - corporate-transaction
+  - shareholder-register
+  - legal-entity
+  - payment
+  serves:
+  - closing-meeting
+  - company-register-entry
+- slug: integration-or-separation
+  title: Integration or Separation
+  summary: An acquired business is integrated in governance, people, processes, systems, customers and culture, and its accounts enter
+    the group; a divested business is separated with its customers, staff and obligations protected.
+  capabilities:
+  - post-merger-integration
+  - divestment-management
+  - financial-consolidation
+  entities:
+  - legal-entity
+  - business-unit
+  - employee-record
+  - plan
+  serves:
+  - integration-office
+  - staff-assembly
+  - works-council-meeting
+- slug: synergy-review
+  title: Synergy Review
+  summary: The planned synergies and benefits are tracked against the deal case until they are realised, and the lessons are kept
+    for the next transaction.
+  capabilities:
+  - post-merger-integration
+  - benefit-realisation-management
+  entities:
+  - corporate-transaction
+  - measure-report
+  serves:
+  - board-meeting
+  - deal-case
+  - works-council-meeting

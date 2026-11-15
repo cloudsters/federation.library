@@ -1,0 +1,88 @@
+kind: value-stream
+slug: stakeholder-technology-relationship
+title: Stakeholder-Technology Relationship
+family: portfolio-to-system
+summary: Holding the relationship between those who run technology and those who depend on it as a partnership, by sensing the needs
+  behind requests, making services understood, agreeing service levels and guiding units through digital change.
+trigger: A unit raises a technology need, or a service-level review falls due.
+outcome: Technology needs are understood and prioritised, service levels are agreed, and units know what to expect.
+stakeholders:
+- information-technology-specialist
+- employee
+- site-manager
+- product-manager
+- executive-board
+steps:
+- slug: technology-need-sensing
+  title: Technology Need Sensing
+  summary: The needs of units, staff and agents are listened for beyond stated requests, including the latent need for change that
+    technology could serve.
+  capabilities:
+  - technology-stakeholder-sensing
+  - digital-transformation-sensing
+  entities:
+  - change-request
+  - stakeholder
+  - it-service
+  serves:
+  - service-desk
+  - technology-partnering-meeting
+- slug: demand-shaping-and-prioritisation
+  title: Demand Shaping and Prioritisation
+  summary: Needs are translated into requirements and business cases, and prioritised together with the units that hold them.
+  capabilities:
+  - technology-relationship-cultivation
+  - digital-transformation-sensing
+  entities:
+  - change-request
+  - business-case
+  serves:
+  - technology-demand-request
+  - technology-partnering-meeting
+- slug: service-offer-communication
+  title: Service Offer Communication
+  summary: The technology services available, how to use them and what they cost are described in language people can act on.
+  capabilities:
+  - technology-service-communication
+  entities:
+  - it-service
+  - knowledge-article
+  - communication
+  serves:
+  - intranet
+  - service-catalogue
+- slug: service-level-agreement
+  title: Service Level Agreement
+  summary: Service levels are agreed with each unit as mutual commitments, matching the level of service to the need and the cost.
+  capabilities:
+  - service-level-as-partnership
+  entities:
+  - service-level-agreement
+  - it-service
+  serves:
+  - service-level-agreement
+- slug: transformation-advisory
+  title: Transformation Advisory
+  summary: Units planning digital change are guided on options, sequence and pace, so that the change serves their purpose and is
+    matched to how fast people can adopt it.
+  capabilities:
+  - transformation-guidance
+  entities:
+  - initiative
+  - plan
+  - business-unit
+  serves:
+  - technology-partnering-meeting
+- slug: service-performance-review
+  title: Service Performance Review
+  summary: Service performance and the experience of users are reviewed with each unit against the agreed levels, and improvements
+    are agreed.
+  capabilities:
+  - technology-service-vitality-sensing
+  - technology-relationship-cultivation
+  entities:
+  - measure-report
+  - service-level-agreement
+  - it-service
+  serves:
+  - service-review

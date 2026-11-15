@@ -1,0 +1,102 @@
+kind: value-stream
+slug: workforce-scheduling-and-staffing
+title: Workforce Scheduling and Staffing
+family: contributor-to-succession
+summary: 'Matching staff to demand day by day: shift and duty rosters, staffing levels against requirements, leave, time and attendance,
+  and pools of flexible and temporary staff.'
+trigger: A roster period is planned, or actual demand or absence deviates from the roster.
+outcome: Every shift is staffed at or above the required level, and working hours are recorded for payroll.
+stakeholders:
+- shift-supervisor
+- production-operator
+- employee
+- works-council
+- site-manager
+- operations-planning-agent
+steps:
+- slug: workload-forecast
+  title: Workload Forecast
+  summary: Forecast the workload of each unit and shift for the roster period from planned orders, service demand and seasonal patterns,
+    and derive the number and skills of staff required.
+  capabilities:
+  - workload-estimation
+  entities:
+  - forecast
+  - department
+  - skill
+  serves:
+  - staffing-forecast
+- slug: roster-planning
+  title: Roster Planning
+  summary: Build the roster with the required skills on every shift, respecting approved leave, preferences, working-time rules and
+    a sustainable rhythm, and publish it in time with the representatives' approval.
+  capabilities:
+  - employee-shift-planning
+  - workforce-rhythm-design
+  - leave-as-life-support
+  - co-determination-cooperation
+  entities:
+  - roster
+  - shift-assignment
+  - leave-request
+  serves:
+  - duty-roster
+  - roster-self-service
+  - works-council-meeting
+- slug: staffing-check
+  title: Staffing Check
+  summary: Test the roster against the required staffing level and skills of each shift, and close gaps from flexible pools, internal
+    moves or temporary staff before the period starts.
+  capabilities:
+  - employee-shift-planning
+  - contingent-workforce-management
+  entities:
+  - roster
+  - shift-assignment
+  - measure-report
+  serves:
+  - duty-roster
+  - flexible-staff-pool
+- slug: shift-adjustment
+  title: Shift Adjustment
+  summary: Compare the people present and the actual demand with the roster each shift, and cover absences and peaks through swaps,
+    standby, redeployment or temporary staff.
+  capabilities:
+  - employee-shift-planning
+  - workforce-rhythm-design
+  - contingent-workforce-management
+  entities:
+  - shift-assignment
+  - attendance
+  - leave-request
+  serves:
+  - flexible-staff-pool
+  - roster-self-service
+  - shift-handover
+  - shop-floor-meeting
+- slug: time-recording
+  title: Time Recording
+  summary: Record the time actually worked, breaks, overtime and absences, and check them against working-time rules and the agreed
+    limits on overtime.
+  capabilities:
+  - time-presence-architecture
+  - overtime-governance
+  - employee-self-service-portal
+  entities:
+  - attendance
+  - timesheet
+  - leave-request
+  serves:
+  - time-recording-terminal
+- slug: period-close
+  title: Period Close
+  summary: Approve the period's working time, settle time accounts and overtime fairly, and pass the data to payroll and cost accounting.
+  capabilities:
+  - overtime-governance
+  - payroll-processing-as-promise
+  entities:
+  - attendance
+  - payroll-run
+  - measure-report
+  serves:
+  - time-account-statement

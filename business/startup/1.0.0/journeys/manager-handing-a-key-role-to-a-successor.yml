@@ -1,0 +1,31 @@
+kind: journey
+slug: manager-handing-a-key-role-to-a-successor
+title: Manager Handing a Key Role to a Successor
+stakeholder: site-manager
+summary: A manager identifies key roles and their successors, decides the transition by transparent criteria, ensures a full handover
+  and confirms the successor after the transition period.
+stages:
+- slug: name-key-roles-and-successors
+  title: Name Key Roles and Successors
+  goal: The manager knows which roles are key, what knowledge they hold and how ready each successor is.
+  step: transition-graceful-exit/key-role-review
+  touchpoints:
+  - succession-plan
+- slug: decide-the-move
+  title: Decide the Move
+  goal: The transition is decided by transparent criteria and agreed with the people concerned.
+  step: transition-graceful-exit/transition-decision
+  touchpoints:
+  - transition-conversation
+- slug: secure-the-handover
+  title: Secure the Handover
+  goal: Knowledge, networks and system access pass to the successor with an overlap where the role requires it.
+  step: transition-graceful-exit/role-handover
+  touchpoints:
+  - handover-plan
+- slug: confirm-the-successor
+  title: Confirm the Successor
+  goal: The successor is confirmed after the transition period, and the succession plan is updated for the next transition.
+  step: transition-graceful-exit/succession-review
+  touchpoints:
+  - succession-plan

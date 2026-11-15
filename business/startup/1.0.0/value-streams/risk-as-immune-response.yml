@@ -1,0 +1,129 @@
+kind: value-stream
+slug: risk-as-immune-response
+title: Risk Sensing & Treatment
+family: perception-to-mandate
+summary: 'Sensing and treating what threatens the organisation''s right and ability to operate, across every unit and every relationship
+  it depends on: framework and appetite, identification, assessment, treatment, monitoring and reporting.'
+trigger: The annual risk cycle starts, or a new threat to the organisation or one of its units is identified.
+outcome: Top risks are assessed and treated within the stated appetite, with owners and controls monitored in every unit.
+stakeholders:
+- executive-board
+- supervisory-board
+- legal-risk-and-compliance-professional
+- insurer
+- lender
+- supplier
+steps:
+- slug: risk-framework-and-appetite
+  title: Risk Framework and Appetite
+  summary: The risk framework is confirmed or renewed for the cycle, with policy, categories, methods, owners and escalation thresholds,
+    and the board states the appetite it accepts for each kind of threat.
+  capabilities:
+  - risk-framework-design
+  entities:
+  - policy
+  - risk
+  - decision-right
+  - governance-decision
+  serves:
+  - board-meeting
+  - risk-policy
+- slug: risk-identification
+  title: Risk Identification
+  summary: Units and functions identify what threatens their right and ability to operate, including risks that enter through suppliers
+    and partners and the workarounds that signal an unmet need, as part of their daily work.
+  capabilities:
+  - risk-sensing-communication
+  - unit-risk-management
+  - vendor-risk-management
+  - shadow-commons-detection
+  entities:
+  - risk
+  - business-unit
+  - supplier-organisation
+  - shadow-commons-signal
+  - incident
+  serves:
+  - risk-register
+  - risk-workshop
+  - shop-floor-meeting
+- slug: risk-evaluation
+  title: Risk Evaluation
+  summary: Each risk is rated for likelihood and impact by the common method, unit views are joined into one profile of the whole,
+    and the risks beyond the stated appetite are selected for treatment.
+  capabilities:
+  - unit-risk-management
+  - risk-framework-design
+  - vendor-risk-management
+  entities:
+  - risk
+  - supplier-organisation
+  - dashboard
+  serves:
+  - insurer-risk-survey
+  - risk-dashboard
+  - risk-register
+- slug: risk-treatment
+  title: Risk Treatment
+  summary: For each risk beyond appetite a proportionate treatment is chosen and owned, whether a control, a reduction, a transfer
+    through insurance or contract, or a reasoned acceptance by the entitled body.
+  capabilities:
+  - risk-response-orchestration
+  - unit-risk-management
+  - insurance-management
+  entities:
+  - risk
+  - internal-control
+  - insurance-policy
+  - contract
+  serves:
+  - contract-negotiation
+  - insurance-renewal
+  - risk-register
+- slug: risk-monitoring
+  title: Risk Monitoring
+  summary: Risks, treatments and controls are watched continuously, signals reach those who can act on them quickly, supplier risk
+    is reassessed as relationships change, and treatments are adjusted when a risk moves.
+  capabilities:
+  - risk-sensing-communication
+  - risk-response-orchestration
+  - vendor-risk-management
+  - shadow-commons-detection
+  entities:
+  - risk
+  - kpi
+  - supplier-organisation
+  - shadow-commons-signal
+  serves:
+  - insurer-risk-survey
+  - risk-dashboard
+  - risk-report
+  - shop-floor-meeting
+  - supplier-audit
+  - supplier-portal
+- slug: risk-reporting-and-sharing
+  title: Risk Reporting and Sharing
+  summary: The profile of the whole and the state of treatment are reported to the executive and supervisory boards, which confirm
+    the appetite or decide further treatment, and what one unit has learnt is shared with the others.
+  capabilities:
+  - risk-sensing-communication
+  - cross-unit-risk-learning
+  - board-communication-reporting
+  entities:
+  - report
+  - risk
+  - governance-decision
+  - knowledge-article
+  serves:
+  - knowledge-base
+  - lender-review
+  - risk-report
+  - supervisory-board-meeting
+start: true
+binds:
+- source: src-113
+  edition: 2023-a2025-12
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

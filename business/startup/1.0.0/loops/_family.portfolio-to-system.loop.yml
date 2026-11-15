@@ -8,9 +8,13 @@ mode: open
 region:
   vsf: portfolio-to-system
   vs:
+  - stakeholder-technology-relationship
+  - technology-strategy-alignment
   - digital-immune-design
   - information-as-lifeblood
+  - interoperability-and-connectivity
   - solution-lifecycle-design
+  - support-as-care
 stance: Architect the whole as a coherent system-of-systems ("System" = the whole system incl. the value model, not just IT).
   No single stream of this family can see what its streams do to one another; this loop is where that becomes visible.
 escalates_to: gate

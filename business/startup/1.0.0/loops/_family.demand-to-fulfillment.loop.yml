@@ -8,8 +8,12 @@ mode: open
 region:
   vsf: demand-to-fulfillment
   vs:
+  - supply-chain-orchestration
   - production-craft-assembly
+  - service-delivery-governance
+  - service-resource-orchestration
   - service-delivery-craft
+  - customer-project-delivery
 stance: Orchestrate production & delivery from demand to fulfilled promise. No single stream of this family can see what its
   streams do to one another; this loop is where that becomes visible.
 escalates_to: gate

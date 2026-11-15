@@ -1,0 +1,131 @@
+kind: value-stream
+slug: remediation-healing
+title: Remediation & Repair
+family: perception-to-mandate
+summary: 'Repairing harm the organisation has caused: investigating its cause and legal dimensions, dedicating real resources, making
+  those affected whole and changing the policies that allowed the harm, so that it does not recur.'
+trigger: Damage or harm caused by the organisation is detected, alleged or ordered to be remedied.
+outcome: The damage is repaired, those affected and the authorities have accepted the remedy, and the policies behind it are amended.
+stakeholders:
+- executive-board
+- legal-risk-and-compliance-professional
+- consumer
+- local-community
+- insurer
+- sector-regulator
+steps:
+- slug: harm-intake
+  title: Harm Intake
+  summary: Detected, alleged or ordered harm is registered, immediate measures contain it, and those affected and the competent authorities
+    are notified within their deadlines where the law requires it.
+  capabilities:
+  - personal-data-breach-response
+  - liability-claims-management
+  - remediation-planning-as-healing
+  entities:
+  - incident
+  - legal-matter
+  - compliance-case
+  - regulatory-notification
+  serves:
+  - complaint-and-warranty-claim
+  - incident-report
+  - notice-to-those-affected
+  - press-release
+  - service-hotline
+  - statutory-filing
+- slug: cause-investigation
+  title: Cause Investigation
+  summary: The damage and its causes are investigated, whether environmental, physical, social or digital, with experts where needed,
+    separating what triggered the harm from the conditions that allowed it.
+  capabilities:
+  - harm-cause-investigation
+  - root-cause-analysis
+  entities:
+  - incident
+  - non-conformance
+  - report
+  serves:
+  - affected-party-meeting
+  - investigation-report
+- slug: legal-exposure-assessment
+  title: Legal Exposure Assessment
+  summary: 'The legal and regulatory position is examined: what the organisation must repair, compensate or pay, how claims are handled
+    with insurers and experts, and where outside counsel is needed.'
+  capabilities:
+  - remediation-legal-review
+  - liability-claims-management
+  - steward-outside-counsel
+  entities:
+  - legal-matter
+  - compliance-rule
+  - insurance-policy
+  - contract
+  serves:
+  - insurance-claim
+- slug: remediation-planning
+  title: Remediation Planning
+  summary: A remediation plan names the cause, the scope, those to be made whole, the owners and the criteria of success, and the
+    people, money and time it needs are dedicated to it.
+  capabilities:
+  - remediation-planning-as-healing
+  - remediation-resourcing
+  entities:
+  - remediation-plan
+  - budget
+  - stakeholder
+  serves:
+  - affected-party-meeting
+  - board-meeting
+  - remediation-plan
+- slug: repair-and-restitution
+  title: Repair and Restitution
+  summary: The repair is carried out and those affected are compensated, with every action tracked to genuine completion rather than
+    to the closing of a claim.
+  capabilities:
+  - remediation-execution
+  - remediation-resourcing
+  - liability-claims-management
+  - personal-data-breach-response
+  entities:
+  - remediation-plan
+  - legal-matter
+  - payment
+  - stakeholder
+  serves:
+  - affected-party-meeting
+  - complaint-and-warranty-claim
+  - remediation-plan
+  - restitution-agreement
+- slug: remedy-acceptance
+  title: Remedy Acceptance
+  summary: Those affected and the authorities confirm that the remedy is sufficient, and the governing body verifies that harmed parties
+    were made whole and not merely settled.
+  capabilities:
+  - remediation-execution
+  - remediation-legal-review
+  entities:
+  - remediation-plan
+  - governance-decision
+  - legal-matter
+  serves:
+  - affected-party-meeting
+  - official-inspection
+  - open-day
+  - supervisory-board-meeting
+- slug: policy-amendment
+  title: Policy Amendment
+  summary: The policies, procedures and controls that allowed the harm are amended or newly created, and the lesson is carried into
+    the risk and compliance frameworks so that the same harm does not recur.
+  capabilities:
+  - lesson-driven-policy-revision
+  - root-cause-analysis
+  entities:
+  - policy
+  - internal-control
+  - risk
+  - knowledge-article
+  serves:
+  - intranet
+  - knowledge-base
+start: true

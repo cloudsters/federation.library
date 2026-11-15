@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-standard
+title: Service Standard
+medium: artefact
+summary: The standard for a service that states how it is delivered, its response and resolution levels, its definition of done, its
+  escalation path and its owner.
+exchanges:
+- workable-standards-for-frontline-evidence
+journey: technician-working-to-a-service-standard

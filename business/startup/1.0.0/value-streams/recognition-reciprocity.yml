@@ -1,0 +1,111 @@
+kind: value-stream
+slug: recognition-reciprocity
+title: Recognition & Reciprocity
+family: contributor-to-succession
+summary: 'Giving back fairly to those who contribute: pay structures and grades, incentives and profit shares, benefits as care, recognition
+  in everyday rhythm, support for families and flexible work, and a fair share of the gains from automation.'
+trigger: The reward cycle opens, or turnover or a pay-fairness concern rises in a staff group.
+outcome: Reward and recognition programmes are in force, fair across groups, and reduce unwanted turnover.
+stakeholders:
+- employee
+- human-resources-professional
+- executive-board
+- works-council
+- finance-professional
+- employee-owner
+steps:
+- slug: reward-framework-design
+  title: Reward Framework Design
+  summary: Design pay, incentives, benefits and recognition as reciprocity for contribution, within the budget and the agreements
+    in force.
+  capabilities:
+  - recognition-reciprocity-design
+  - incentive-plan-management
+  - benefits-as-care-infrastructure
+  entities:
+  - policy
+  - budget
+  - agreement
+  serves:
+  - pay-structure
+  - works-council-meeting
+- slug: pay-grading
+  title: Pay Grading
+  summary: Evaluate each position, assign the grade the pay structure requires, and check pay equity against the market and across
+    groups.
+  capabilities:
+  - job-evaluation-and-pay-grading
+  - compensation-benchmarking
+  entities:
+  - position
+  - employment
+  - benchmark
+  serves:
+  - pay-fairness-report
+  - pay-structure
+- slug: pay-review
+  title: Pay Review
+  summary: Review and set individual pay, bonuses and profit shares in the reward cycle, and hand the decisions to payroll to be fulfilled.
+  capabilities:
+  - compensation-fulfilment
+  - incentive-plan-management
+  entities:
+  - employment
+  - budget
+  - governance-decision
+  serves:
+  - development-review
+  - pay-review-letter
+  - profit-share-statement
+- slug: benefits-and-care-offer
+  title: Benefits and Care Offer
+  summary: Offer benefits, childcare support, flexible working models and help for people with caring duties, so that they can thrive
+    and not merely receive the legal minimum.
+  capabilities:
+  - benefits-as-care-infrastructure
+  - family-and-flexible-working-support
+  entities:
+  - policy
+  - agreement
+  - employee-record
+  serves:
+  - benefits-portal
+- slug: everyday-recognition
+  title: Everyday Recognition
+  summary: Recognise contributions specifically and in the everyday rhythm of work, honouring diverse forms of contribution.
+  capabilities:
+  - recognition-reciprocity-design
+  entities:
+  - communication
+  - employee-record
+  serves:
+  - recognition-moment
+  - team-meeting
+- slug: automation-gain-sharing
+  title: Automation Gain Sharing
+  summary: Ring-fence a defined share of the gains from automation to fund the skills transition of those whose work was automated,
+    and report it like any other commitment.
+  capabilities:
+  - automation-surplus-redistribution
+  entities:
+  - budget
+  - policy
+  - report
+  serves:
+  - automation-gain-sharing-report
+  - works-council-meeting
+- slug: retention-and-fairness-review
+  title: Retention and Fairness Review
+  summary: Review turnover, pay fairness and belonging across groups, and adjust reward and recognition where people leave, or stay
+    only because they must.
+  capabilities:
+  - retention-as-belonging-cultivation
+  - compensation-benchmarking
+  entities:
+  - workforce-analytics
+  - measure-report
+  serves:
+  - pay-fairness-report
+  - pulse-survey
+  - staff-assembly
+  - works-council-meeting

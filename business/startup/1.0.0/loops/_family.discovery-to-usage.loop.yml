@@ -8,9 +8,13 @@ mode: open
 region:
   vsf: discovery-to-usage
   vs:
+  - offering-portfolio-stewardship
+  - research-and-technology-development
   - offering-discovery-ideation
   - offering-design-craft
+  - experience-strategy-design
   - experience-delivery-care
+  - post-delivery-stewardship
   - experience-sensing-evolution
   - product-market-fit
 stance: Conceive, craft, deliver, evolve the offerings. No single stream of this family can see what its streams do to one

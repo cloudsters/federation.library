@@ -8,6 +8,7 @@ mode: open
 region:
   vsf: participant-to-community
   vs:
+  - community-voice-architecture
   - ecosystem-relationship-design
   - governance-board-relationship
 stance: Cultivate individual participants into a thriving community. No single stream of this family can see what its streams

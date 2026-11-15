@@ -1,0 +1,141 @@
+kind: value-stream
+slug: resilience-architecture
+title: Resilience Architecture
+family: perception-to-mandate
+summary: 'Building the organisation''s capacity to absorb, adapt to and recover from disruption, crisis and sudden opportunity: continuity
+  and emergency planning, governed degraded operation, crisis response, restoration and continuous testing.'
+trigger: A disruption, crisis or sudden opportunity strikes, or a continuity exercise falls due.
+outcome: Critical operations continue or are restored within their target times, and the lessons are built into the continuity plans.
+stakeholders:
+- executive-board
+- site-manager
+- employee
+- business-customer
+- local-authority
+- news-media
+steps:
+- slug: resilience-posture
+  title: Resilience Posture
+  summary: The organisation decides which disruptions it must withstand, including physical and climate exposure of its sites and
+    supply, how much slack and redundancy it keeps, and who decides what in a crisis.
+  capabilities:
+  - business-continuity-design
+  - climate-adaptation
+  - emergency-and-disaster-preparedness
+  entities:
+  - strategy
+  - risk
+  - continuity-plan
+  - governance-decision
+  serves:
+  - risk-workshop
+- slug: critical-operations-analysis
+  title: Critical Operations Analysis
+  summary: The activities and services that carry revenue and mandate are identified with their dependencies on people, sites, systems
+    and suppliers, and each receives a tolerable outage and a recovery target.
+  capabilities:
+  - operational-steadiness
+  - business-continuity-design
+  entities:
+  - service
+  - business-unit
+  - supplier-organisation
+  - continuity-plan
+  serves:
+  - account-review
+  - business-impact-analysis
+- slug: continuity-and-emergency-planning
+  title: Continuity and Emergency Planning
+  summary: Each critical operation receives a continuity plan with fallback and minimum viable operation, the emergency plan sets
+    alert levels, roles and spokespersons, and participants' identity and rights are kept recoverable.
+  capabilities:
+  - business-continuity-design
+  - degraded-mode-governance
+  - emergency-and-disaster-preparedness
+  - crisis-communication
+  - portable-identity-and-rights
+  entities:
+  - continuity-plan
+  - decision-right
+  - identity-stack
+  serves:
+  - account-review
+  - continuity-plan
+  - customer-portal
+  - intranet
+- slug: exercise-and-stress-testing
+  title: Exercise and Stress Testing
+  summary: Plans are exercised in drills, tabletop and full-scale exercises and stress tests, people rehearse their roles, and every
+    finding strengthens the plans.
+  capabilities:
+  - resilience-testing-evolution
+  - emergency-and-disaster-preparedness
+  entities:
+  - continuity-plan
+  - audit
+  - audit-finding
+  serves:
+  - crisis-exercise
+- slug: crisis-response
+  title: Crisis Response
+  summary: When disruption strikes the alert is raised, the crisis team takes its decision rights, degraded operation is activated,
+    irreversible moves receive heightened review, and the organisation speaks with one voice.
+  capabilities:
+  - crisis-as-adaptive-response
+  - degraded-mode-governance
+  - irreversibility-governance
+  - crisis-communication
+  - emergency-and-disaster-preparedness
+  entities:
+  - major-incident
+  - continuity-plan
+  - irreversibility-declaration
+  - public-statement
+  - governance-decision
+  serves:
+  - crisis-room
+  - customer-portal
+  - disruption-notice
+  - emergency-alert
+  - press-briefing
+- slug: operations-restoration
+  title: Operations Restoration
+  summary: Operations are restored one by one within their target times, degraded operation is ended deliberately, and the identity,
+    data and rights of participants are recovered.
+  capabilities:
+  - operational-steadiness
+  - crisis-as-adaptive-response
+  - degraded-mode-governance
+  - portable-identity-and-rights
+  entities:
+  - major-incident
+  - continuity-plan
+  - identity-stack
+  serves:
+  - continuity-plan
+  - customer-portal
+  - disruption-notice
+  - shift-handover
+  - shop-floor-meeting
+  - staff-assembly
+- slug: lesson-sharing-and-plan-evolution
+  title: Lesson Sharing and Plan Evolution
+  summary: The response and every near miss are debriefed, what was learnt about risks and resilience is shared across units, and
+    the plans and the posture are changed accordingly.
+  capabilities:
+  - cross-unit-risk-learning
+  - resilience-testing-evolution
+  entities:
+  - knowledge-article
+  - continuity-plan
+  - risk
+  - major-incident
+  serves:
+  - account-review
+  - crisis-debrief
+  - knowledge-base
+start: true
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

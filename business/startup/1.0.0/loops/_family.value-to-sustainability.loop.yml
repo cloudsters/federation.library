@@ -8,9 +8,12 @@ mode: open
 region:
   vsf: value-to-sustainability
   vs:
+  - value-stewardship-accounting
   - revenue-architecture
   - transparency-reporting
+  - capital-stewardship
   - treasury-as-circulation
+  - internal-integrity-controls
   - fiscal-responsibility-contribution
   - venture-financing
 stance: Capture, account, reinvest value so the system endures. No single stream of this family can see what its streams do

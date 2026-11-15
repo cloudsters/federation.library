@@ -1,0 +1,139 @@
+kind: value-stream
+slug: supply-chain-orchestration
+title: Supply Chain Orchestration
+family: demand-to-fulfillment
+summary: Turning expected and actual demand into one agreed plan for what is made, bought, subcontracted or delivered as service,
+  balancing demand with capacity, materials and stock across the network and steering deviations at a fixed rhythm.
+trigger: The planning cycle opens, or a material change in demand, supply or capacity is detected.
+outcome: An agreed plan aligns demand, capacity, materials and stock, customers hold reliable delivery promises, and deviations are
+  steered at a fixed rhythm.
+stakeholders:
+- business-customer
+- sales-representative
+- operations-planning-agent
+- procurement-specialist
+- direct-material-supplier
+- executive-board
+steps:
+- slug: operations-network-and-policy-design
+  title: Operations Network and Policy Design
+  summary: The network of sites, service locations, warehouses and suppliers, the production strategy, the quality standards and the
+    distribution and buffer policies are set, and revised whenever markets, costs or constraints shift.
+  capabilities:
+  - supply-network-design
+  - production-as-living-design
+  - distribution-flow-design
+  - distribution-policy-evolution
+  - quality-standard-design
+  entities:
+  - facility
+  - warehouse
+  - work-center
+  - policy
+  - quality-standard
+  serves:
+  - board-meeting
+- slug: demand-sensing-and-forecast
+  title: Demand Sensing and Forecast
+  summary: Open orders, customer signals, market insight and history are combined into a demand forecast per offering, location and
+    period, and the forecast error is measured and fed back.
+  capabilities:
+  - demand-sensing-for-products
+  entities:
+  - forecast
+  - sales-order
+  - market-insight
+  - product
+  - service
+  serves:
+  - account-review
+  - electronic-order-interface
+  - shared-forecast
+- slug: supply-materials-and-capacity-plan
+  title: Supply, Materials and Capacity Plan
+  summary: The forecast is translated into a supply plan from production, purchase, subcontracting, consignment and stock, into material
+    requirements and target stock levels, and into capacity loads for plants, service teams and logistics.
+  capabilities:
+  - supply-planning
+  - materials-flow-design
+  - capacity-planning
+  - inventory-planning
+  - subcontracting-orchestration
+  - consignment-stock-management
+  entities:
+  - production-plan
+  - material-request
+  - item
+  - bom
+  - work-center
+  - subcontracting-order
+  serves:
+  - shared-forecast
+  - supplier-portal
+- slug: integrated-plan-agreement
+  title: Integrated Plan Agreement
+  summary: In a recurring cycle the demand, supply, capacity, inventory and financial plans are reconciled, the leadership decides
+    the trade-offs, and one plan is released for the whole organisation.
+  capabilities:
+  - sales-and-operations-planning
+  entities:
+  - sales-and-operations-plan
+  - forecast
+  - budget
+  - governance-decision
+  serves:
+  - integrated-planning-meeting
+- slug: master-schedule-release
+  title: Master Schedule Release
+  summary: The agreed plan is turned into a master schedule and a sustainable production and distribution rhythm, and releases work
+    orders, purchase requisitions and transfers to the units that carry them out.
+  capabilities:
+  - production-rhythm-orchestration
+  - materials-flow-design
+  entities:
+  - production-plan
+  - work-order
+  - material-request
+  - purchase-order
+  serves:
+  - delivery-call-off
+  - purchase-order
+  - supplier-portal
+- slug: delivery-promise-and-allocation
+  title: Delivery Promise and Allocation
+  summary: Delivery dates and quantities are confirmed to customers against available stock and capacity, scarce supply is allocated
+    among orders by agreed rules, and backorders are managed until they are fulfilled.
+  capabilities:
+  - order-promising
+  - allocation-and-backorder-management
+  entities:
+  - sales-order
+  - customer
+  - item
+  - stock-entry
+  serves:
+  - allocation-notice
+  - customer-portal
+  - order-confirmation
+- slug: deviation-and-disruption-steering
+  title: Deviation and Disruption Steering
+  summary: Plan adherence, stock and service levels are watched, bottlenecks and supply disruptions are detected early, remaining
+    supply is secured and alternatives activated, and the plan is adjusted.
+  capabilities:
+  - distribution-constraint-navigation
+  - supply-disruption-management
+  entities:
+  - supply-shortage
+  - kpi
+  - risk
+  - sales-and-operations-plan
+  serves:
+  - account-review
+  - allocation-notice
+  - integrated-planning-meeting
+  - supplier-portal
+  - supply-disruption-alert
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global

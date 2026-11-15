@@ -1,0 +1,100 @@
+kind: value-stream
+slug: service-resource-orchestration
+title: Service Resource Orchestration
+family: demand-to-fulfillment
+summary: 'Matching service demand with the people, skills, parts and partner capacity needed to deliver it: forecasting load, building
+  the capacity plan, keeping skills current, and scheduling and dispatching the right resource to each job.'
+trigger: Service demand is forecast or booked, or a resource conflict or bottleneck appears.
+outcome: Every confirmed service commitment has assigned, qualified resources and parts within their real limits.
+stakeholders:
+- field-service-technician
+- operations-planning-agent
+- employee
+- external-specialist
+- partner
+- business-customer
+steps:
+- slug: service-demand-forecast
+  title: Service Demand Forecast
+  summary: Booked orders, agreements, installed base, usage and seasonal patterns are turned into a forecast of service load by skill,
+    region and period.
+  capabilities:
+  - service-demand-sensing
+  entities:
+  - forecast
+  - service-order
+  - usage-record
+  - contract
+  serves:
+  - account-review
+  - customer-portal
+  - remote-service-connection
+- slug: resource-and-capacity-plan
+  title: Resource and Capacity Plan
+  summary: Available capacity by skill, location and period is set against the forecast, and gaps are closed by shifting work, adjusting
+    rosters, engaging partners or hiring.
+  capabilities:
+  - capacity-planning
+  - liquid-capacity-matching
+  entities:
+  - plan
+  - skill
+  - capability-node
+  - position
+  serves:
+  - duty-roster
+- slug: latent-and-network-capacity-activation
+  title: Latent and Network Capacity Activation
+  summary: Idle internal capacity and matching capability across partners and the federated network are surfaced and engaged for a
+    defined time under clear terms.
+  capabilities:
+  - dark-capacity-activation
+  - liquid-capacity-matching
+  entities:
+  - capability-node
+  - offer-intent
+  - need-intent
+  - agreement
+  serves:
+  - capacity-request
+- slug: service-skill-enablement
+  title: Service Skill Enablement
+  summary: Service staff are trained, certified and coached so that the pool's skills stay current and matching is by genuine competence,
+    not mere availability.
+  capabilities:
+  - service-capability-enablement
+  entities:
+  - skill
+  - credential
+  - course
+  - employee-record
+  serves:
+  - skills-training-and-certification
+- slug: spare-parts-provision
+  title: Spare Parts Provision
+  summary: Spare parts for the installed base are planned, stocked at the right locations and supplied to technicians and jobs over
+    the life of each product.
+  capabilities:
+  - spare-parts-management
+  entities:
+  - item
+  - stock-entry
+  - material-request
+  - warehouse
+  serves:
+  - spare-parts-stock
+- slug: scheduling-and-dispatch
+  title: Scheduling and Dispatch
+  summary: Each job is assigned to a qualified person by skill, location, parts availability and the agreed response time, and the
+    schedule is adjusted through the day.
+  capabilities:
+  - field-service-scheduling-dispatch
+  entities:
+  - service-order
+  - calendar-event
+  - shift-assignment
+  - employee-record
+  serves:
+  - job-assignment
+  - service-appointment
+  - service-hotline

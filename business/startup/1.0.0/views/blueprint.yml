@@ -32,6 +32,30 @@ sections:
   cardinality: one
   labels:
     en: Founding and Incorporation
+- id: business.value-stream.remediation-healing
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: remediation-healing
+  cardinality: one
+  labels:
+    en: Remediation & Repair
+- id: business.value-stream.resilience-architecture
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: resilience-architecture
+  cardinality: one
+  labels:
+    en: Resilience Architecture
+- id: business.value-stream.risk-as-immune-response
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: risk-as-immune-response
+  cardinality: one
+  labels:
+    en: Risk Sensing & Treatment
 - id: business.value-stream.digital-immune-design
   within: d1.portfolio-to-system
   binds:
@@ -48,6 +72,14 @@ sections:
   cardinality: one
   labels:
     en: Information Held in Trust
+- id: business.value-stream.interoperability-and-connectivity
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: interoperability-and-connectivity
+  cardinality: one
+  labels:
+    en: Interoperability and Connectivity
 - id: business.value-stream.solution-lifecycle-design
   within: d1.portfolio-to-system
   binds:
@@ -56,6 +88,38 @@ sections:
   cardinality: one
   labels:
     en: Solution Lifecycle Design
+- id: business.value-stream.stakeholder-technology-relationship
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: stakeholder-technology-relationship
+  cardinality: one
+  labels:
+    en: Stakeholder-Technology Relationship
+- id: business.value-stream.support-as-care
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: support-as-care
+  cardinality: one
+  labels:
+    en: Support as Care
+- id: business.value-stream.technology-strategy-alignment
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: technology-strategy-alignment
+  cardinality: one
+  labels:
+    en: Technology Strategy as Purpose Alignment
+- id: business.value-stream.mergers-and-acquisitions
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: mergers-and-acquisitions
+  cardinality: one
+  labels:
+    en: Mergers and Acquisitions
 - id: business.value-stream.strategy-as-living-design
   within: d1.purpose-to-portfolio
   binds:
@@ -72,6 +136,14 @@ sections:
   cardinality: one
   labels:
     en: Value Model Stewardship
+- id: business.value-stream.capital-stewardship
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: capital-stewardship
+  cardinality: one
+  labels:
+    en: Capital Stewardship
 - id: business.value-stream.fiscal-responsibility-contribution
   within: d1.value-to-sustainability
   binds:
@@ -80,6 +152,14 @@ sections:
   cardinality: one
   labels:
     en: Fiscal Responsibility & Contribution
+- id: business.value-stream.internal-integrity-controls
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: internal-integrity-controls
+  cardinality: one
+  labels:
+    en: Internal Integrity Controls
 - id: business.value-stream.revenue-architecture
   within: d1.value-to-sustainability
   binds:
@@ -104,6 +184,14 @@ sections:
   cardinality: one
   labels:
     en: Treasury & Cash Steering
+- id: business.value-stream.value-stewardship-accounting
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: value-stewardship-accounting
+  cardinality: one
+  labels:
+    en: Value Sensing & Stewardship Accounting
 - id: business.value-stream.venture-financing
   within: d1.value-to-sustainability
   binds:
@@ -120,6 +208,22 @@ sections:
   cardinality: one
   labels:
     en: Ecological Health & Safety
+- id: business.value-stream.knowledge-as-commons
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: knowledge-as-commons
+  cardinality: one
+  labels:
+    en: Knowledge as Commons
+- id: business.value-stream.process-as-living-pattern
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: process-as-living-pattern
+  cardinality: one
+  labels:
+    en: Process Ownership and Improvement
 - id: business.value-stream.quality-as-vitality
   within: d2.collaboration-to-automation
   binds:
@@ -128,6 +232,14 @@ sections:
   cardinality: one
   labels:
     en: Quality in the Flow of Work
+- id: business.value-stream.regenerative-practice
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: regenerative-practice
+  cardinality: one
+  labels:
+    en: Regenerative Practice
 - id: business.value-stream.ai-agent-lifecycle
   within: d2.contributor-to-succession
   binds:
@@ -144,6 +256,14 @@ sections:
   cardinality: one
   labels:
     en: Payroll as Promise Fulfilled
+- id: business.value-stream.recognition-reciprocity
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: recognition-reciprocity
+  cardinality: one
+  labels:
+    en: Recognition & Reciprocity
 - id: business.value-stream.relationship-stewardship
   within: d2.contributor-to-succession
   binds:
@@ -160,6 +280,30 @@ sections:
   cardinality: one
   labels:
     en: Talent Attraction & Welcome
+- id: business.value-stream.transition-graceful-exit
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: transition-graceful-exit
+  cardinality: one
+  labels:
+    en: Transition & Graceful Exit
+- id: business.value-stream.workforce-scheduling-and-staffing
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: workforce-scheduling-and-staffing
+  cardinality: one
+  labels:
+    en: Workforce Scheduling and Staffing
+- id: business.value-stream.community-voice-architecture
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: community-voice-architecture
+  cardinality: one
+  labels:
+    en: Community Voice Architecture
 - id: business.value-stream.ecosystem-relationship-design
   within: d2.participant-to-community
   binds:
@@ -192,6 +336,14 @@ sections:
   cardinality: one
   labels:
     en: Experience Sensing & Evolution
+- id: business.value-stream.experience-strategy-design
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: experience-strategy-design
+  cardinality: one
+  labels:
+    en: Experience Strategy Design
 - id: business.value-stream.offering-design-craft
   within: d3.discovery-to-usage
   binds:
@@ -208,6 +360,22 @@ sections:
   cardinality: one
   labels:
     en: Offering Discovery & Ideation
+- id: business.value-stream.offering-portfolio-stewardship
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: offering-portfolio-stewardship
+  cardinality: one
+  labels:
+    en: Offering Portfolio Stewardship
+- id: business.value-stream.post-delivery-stewardship
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: post-delivery-stewardship
+  cardinality: one
+  labels:
+    en: Post-Delivery Stewardship
 - id: business.value-stream.product-market-fit
   within: d3.discovery-to-usage
   binds:
@@ -216,6 +384,14 @@ sections:
   cardinality: one
   labels:
     en: Product-Market Fit
+- id: business.value-stream.research-and-technology-development
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: research-and-technology-development
+  cardinality: one
+  labels:
+    en: Research and Technology Development
 - id: business.value-stream.engagement-cultivation
   within: d3.interest-to-relationship
   binds:
@@ -272,6 +448,14 @@ sections:
   cardinality: one
   labels:
     en: Asset Lifecycle Planning
+- id: business.value-stream.customer-project-delivery
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: customer-project-delivery
+  cardinality: one
+  labels:
+    en: Customer Project Delivery
 - id: business.value-stream.production-craft-assembly
   within: d4.demand-to-fulfillment
   binds:
@@ -288,6 +472,30 @@ sections:
   cardinality: one
   labels:
     en: Service Delivery Craft
+- id: business.value-stream.service-delivery-governance
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: service-delivery-governance
+  cardinality: one
+  labels:
+    en: Service Delivery Governance
+- id: business.value-stream.service-resource-orchestration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: service-resource-orchestration
+  cardinality: one
+  labels:
+    en: Service Resource Orchestration
+- id: business.value-stream.supply-chain-orchestration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: supply-chain-orchestration
+  cardinality: one
+  labels:
+    en: Supply Chain Orchestration
 - id: business.value-stream.payment-fair-settlement
   within: d4.source-to-alliance
   binds:

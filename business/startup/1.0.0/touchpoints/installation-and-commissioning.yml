@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: installation-and-commissioning
+title: Installation and Commissioning
+medium: encounter
+summary: The installation and start-up of the product at the customer's site, its integration with the customer's equipment and the
+  handover to the operating staff.
+exchanges:
+- site-access-for-coordinated-installation
+- commissioned-asset-for-signed-acceptance
+journey: customer-commissioning-a-project

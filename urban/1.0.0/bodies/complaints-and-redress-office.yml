@@ -1,0 +1,18 @@
+kind: body
+slug: complaints-and-redress-office
+title: Complaints and Redress Office
+summary: Drafts and publishes the complaints procedure and guarantees with residents and frontline workers, takes and grades complaints,
+  has them investigated by staff not involved, sees that answers and remedies are given and compensation paid, and counts and reports
+  complaints to the council.
+holds:
+- complaints-and-redress
+- complaints-procedure-drafting
+- complaint-intake
+- complaint-classification-and-routing
+- complaint-investigation
+- complaint-resolution
+- service-compensation-payment
+- complaint-pattern-reporting
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: event-invitation
+title: Event Invitation
+medium: artefact
+summary: The published invitation to a workshop, meet-up or conference, with programme, speakers and registration.
+exchanges:
+- attendance-for-direct-experience
+- convening-power-for-member-value
+journey: end-user-becoming-a-voice-in-the-community

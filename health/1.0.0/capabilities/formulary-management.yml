@@ -1,0 +1,13 @@
+kind: capability
+slug: formulary-management
+title: Formulary Management
+level: L3
+parent: pharmacy-operations
+summary: Maintain the organisation's formulary through a drug committee that weighs evidence, safety and cost.
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-569
+  edition: '2003'
+  jurisdiction: global

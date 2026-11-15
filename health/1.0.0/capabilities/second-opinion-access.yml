@@ -1,0 +1,13 @@
+kind: capability
+slug: second-opinion-access
+title: Second-Opinion Access
+level: L3
+parent: referral-and-scheduling
+summary: Offer structured second opinions before major planned treatments.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global

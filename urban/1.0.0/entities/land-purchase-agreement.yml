@@ -1,0 +1,64 @@
+kind: entity
+slug: land-purchase-agreement
+title: Land Purchase Agreement
+type: transactional
+summary: The agreement by which the city or a group of residents buys or receives land or a building, with price, terms and conditions.
+  It is reviewed before signing, signed by the parties and recorded with the title in the land registry.
+attributes:
+- name: agreement-number
+  type: identifier
+  card: 1..1
+- name: acquisition-case
+  type: reference(acquisition-case)
+  card: 1..1
+- name: parcels
+  type: reference(land-parcel)
+  card: 1..*
+- name: acquisition-mode
+  type: code
+  card: 1..1
+- name: buyer
+  type: text
+  card: 1..1
+- name: buying-cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: previous-owner
+  type: text
+  card: 1..1
+- name: price
+  type: amount
+  card: 0..1
+- name: pooled-contributions
+  type: amount
+  card: 0..1
+- name: bridging-finance
+  type: amount
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- reviewed
+- signed
+- completed
+- registered
+- rescinded
+relations:
+- type: based-on
+  target: acquisition-case
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: land-registry
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

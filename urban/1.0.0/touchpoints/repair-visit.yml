@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: repair-visit
+title: Repair Visit
+medium: encounter
+summary: The visit by the city's crew, a contractor or a tenant repair group to carry out a repair, which is closed only when the
+  tenant confirms it is fixed.
+exchanges:
+- repair-report-for-a-fix-the-tenant-confirms
+journey: tenant-living-in-a-city-home

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: morbidity-and-mortality-conference
+title: Morbidity and Mortality Conference
+medium: encounter
+summary: The regular conference in which a department discusses deaths, complications and near misses openly, presented by the team
+  involved, to learn without assigning blame.
+exchanges:
+- case-presentation-for-shared-learning
+journey: practice-under-peer-review

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: need-for-relief-by-need
+title: Need for Relief by Need
+between:
+- affected-community
+- city-administration
+offered:
+- Knowledge of who needs what and where, including those the city does not see.
+returned:
+- Relief allocated by need across every neighbourhood, with the allocation published.
+touchpoint: relief-distribution-point

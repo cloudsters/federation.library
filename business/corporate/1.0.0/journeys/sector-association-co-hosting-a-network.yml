@@ -1,0 +1,25 @@
+kind: journey
+slug: sector-association-co-hosting-a-network
+title: Sector Association Co-Hosting a Network
+stakeholder: sector-association
+summary: A sector association co-designs gatherings for its members, hosts them with the organisation and reviews with it whether
+  the network stays dense, reciprocal and open to new audiences.
+stages:
+- slug: co-design-the-event
+  title: Co-Design the Event
+  goal: Programme and speakers serve the association's members as well as the offering.
+  step: community-network-distribution/event-design-and-registration
+  touchpoints:
+  - event-invitation
+- slug: host-the-gathering
+  title: Host the Gathering
+  goal: The gathering is held on neutral ground and its contacts are followed up with care.
+  step: community-network-distribution/gathering-and-follow-up
+  touchpoints:
+  - community-gathering
+- slug: review-network-health
+  title: Review Network Health
+  goal: Density, reciprocity and new audiences are reviewed with the community's health as the first measure.
+  step: community-network-distribution/network-health-review
+  touchpoints:
+  - community-health-review

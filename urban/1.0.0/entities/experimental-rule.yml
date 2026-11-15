@@ -1,0 +1,54 @@
+kind: entity
+slug: experimental-rule
+title: Experimental Rule
+type: governance
+summary: A time-limited rule made for a trial, with its text, the area it covers, the rules it sets aside and the date on which it
+  lapses unless it is renewed. The legal office drafts it and the council or the competent body adopts it, and it is used to let a
+  trial run lawfully and to carry what works into a bylaw.
+attributes:
+- name: rule-text
+  type: document
+  card: 1..1
+- name: trial
+  type: reference(urban-trial)
+  card: 1..1
+- name: area
+  type: reference(neighbourhood)
+  card: 1..*
+- name: rules-set-aside
+  type: text
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: lapse-date
+  type: date
+  card: 1..1
+- name: renewals
+  type: integer
+  card: 0..1
+- name: successor-bylaw
+  type: reference(bylaw)
+  card: 0..1
+states:
+- drafted
+- adopted
+- in-force
+- renewed
+- lapsed
+- made-permanent
+relations:
+- type: refers-to
+  target: urban-trial
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: city-constitution
+- type: produces
+  target: bylaw

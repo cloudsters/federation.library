@@ -1,0 +1,34 @@
+kind: journey
+slug: volunteering-in-the-commons
+title: Volunteering in the Commons
+stakeholder: volunteer
+summary: A person offers unpaid time, is matched to a task, prepared and supervised, keeps patients and relatives company, and is
+  recognised as part of the commons.
+stages:
+- slug: offering-time
+  title: Offering Time
+  goal: Offer help easily and be matched to a task that fits.
+  step: patient-and-public-involvement/recruitment-and-matching
+  touchpoints:
+  - involvement-call
+  - volunteer-office
+- slug: getting-ready
+  title: Getting Ready
+  goal: Be prepared for the task, its limits and the rules of the ward, and know whom to ask.
+  step: patient-and-public-involvement/preparation-and-agreement
+  touchpoints:
+  - volunteer-office
+  - volunteer-and-partner-agreement
+- slug: being-there-for-patients
+  title: Being There for Patients
+  goal: Spend time with patients and relatives, welcomed by the team and supported when it is hard.
+  step: patient-and-public-involvement/volunteer-and-peer-support
+  touchpoints:
+  - ward
+  - volunteer-office
+- slug: being-appreciated
+  title: Being Appreciated
+  goal: Be thanked, review the engagement and continue, pause or end it freely.
+  step: patient-and-public-involvement/recognition-and-review
+  touchpoints:
+  - recognition-event

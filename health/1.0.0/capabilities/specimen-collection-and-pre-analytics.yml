@@ -1,0 +1,10 @@
+kind: capability
+slug: specimen-collection-and-pre-analytics
+title: Specimen Collection & Pre-analytics
+level: L3
+parent: laboratory-testing-process
+summary: Collect, label, transport and store samples so that their quality is preserved until analysis.
+binds:
+- source: src-336
+  edition: '2023'
+  jurisdiction: global

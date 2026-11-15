@@ -1,0 +1,8 @@
+kind: post
+slug: field-service-technician
+title: Field Service Technician
+summary: 'Keeps customers'' equipment working where it is used.'
+of: after-sales-service
+responsibility: Installs, inspects, maintains and repairs equipment at customer sites and records what was done.
+accountable: body:after-sales-service
+type: role

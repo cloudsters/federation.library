@@ -1,0 +1,83 @@
+kind: value-stream
+slug: decision-to-subsidiarity
+title: Who Decides What
+family: collaboration-to-automation
+summary: Pushing each decision to where the knowledge actually sits, and being explicit about who decides what.
+trigger: Decisions keep arriving with the person that others are better placed to make, or something falls through because everyone
+  assumed someone else would decide.
+outcome: Each decision sits with whoever knows most about it, everyone involved can say who decides what, and the person no longer
+  holds what is not theirs to hold.
+stakeholders:
+- partner
+- collaborator
+- employer
+- child
+- community
+steps:
+- slug: carrying-what-is-not-mine
+  title: Carrying What Is Not Mine
+  summary: Decisions keep landing with the person that others are better placed to make, or something falls through because everyone
+    assumed someone else would decide.
+  capabilities:
+  - noticing-misplaced-decisions
+  entities:
+  - decision
+  - delegation-line
+- slug: finding-who-knows-most
+  title: Finding Who Knows Most
+  summary: For each recurring decision, asking who stands closest to it and knows most about it, a partner, a child, a colleague,
+    or the person themselves.
+  capabilities:
+  - seeing-who-knows-most
+  entities:
+  - decision
+  - relationship-map
+- slug: saying-who-decides
+  title: Saying Who Decides
+  summary: Making explicit who decides what, who is asked first and who only needs to be told, in words everyone involved can repeat.
+  capabilities:
+  - saying-who-decides-what
+  - making-terms-explicit
+  entities:
+  - delegation-line
+  - relationship-agreement
+  - family-charter
+  serves:
+  - kitchen-table
+  - working-session
+- slug: letting-go-of-the-decision
+  title: Letting Go of the Decision
+  summary: Actually leaving the decision with the other person, including when they decide differently from how the person would have.
+  capabilities:
+  - trusting-others-to-decide
+  entities:
+  - decision
+  - delegation-line
+  - child-relation
+  serves:
+  - daily-round-of-care
+  - kitchen-table
+- slug: catching-what-falls-between
+  title: Catching What Falls Between
+  summary: Noticing the decisions nobody holds, and giving each a home before it turns into a crisis.
+  capabilities:
+  - noticing-misplaced-decisions
+  - saying-who-decides-what
+  entities:
+  - decision
+  - delegation-line
+  serves:
+  - kitchen-table
+- slug: revisiting-as-people-grow
+  title: Revisiting as People Grow
+  summary: Moving decisions as people grow into them, a child taking on more, a colleague taking a field, an ageing parent handing
+    some back.
+  capabilities:
+  - stepping-back-as-others-grow
+  - saying-who-decides-what
+  entities:
+  - delegation-line
+  - transition
+  serves:
+  - kitchen-table
+  - visiting-an-ageing-parent

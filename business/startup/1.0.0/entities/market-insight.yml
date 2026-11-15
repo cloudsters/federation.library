@@ -1,0 +1,38 @@
+kind: entity
+slug: market-insight
+title: Market Insight
+type: intelligence
+summary: A documented finding about the market the enterprise competes in, such as a competitor move, a price shift, a demand trend,
+  a regulation in preparation or an emerging technology, with its source, evidence and assessed relevance.
+attributes:
+- name: insight-kind
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: sources
+  type: text
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..1
+- name: relevance
+  type: code
+  card: 1..1
+- name: segments
+  type: reference(market-segment)
+  card: 0..*
+- name: observed-on
+  type: date
+  card: 1..1
+states:
+- captured
+- assessed
+- shared
+- archived
+relations:
+- type: refers-to
+  target: market-segment
+- type: refers-to
+  target: strategy

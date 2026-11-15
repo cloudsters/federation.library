@@ -1,0 +1,10 @@
+kind: capability
+slug: compliance-assurance
+title: Compliance Assurance
+level: L3
+parent: compliance-management
+summary: Validate compliance with statutes, regulations and internal rules and coordinate corrective action.
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

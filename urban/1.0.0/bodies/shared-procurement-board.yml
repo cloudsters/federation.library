@@ -1,0 +1,12 @@
+kind: body
+slug: shared-procurement-board
+title: Shared Procurement Board
+summary: Delegates of each member of a procurement service shared by several municipalities, who set its work and contributions, oversee
+  its joint tenders and share savings and costs by the agreed rule.
+holds:
+- shared-procurement-service-operation
+- joint-tender-coordination
+- shared-savings-allocation
+part_of: inter-municipal-joint-committee
+type: committee
+form: governing-body

@@ -1,0 +1,64 @@
+kind: entity
+slug: data-product
+title: Data Product
+type: intelligence
+summary: A report, map, model or indicator built from the city's data for a decision, with its sources and the uncertainty of its
+  results. Analysts build it with residents trained to read local data, it goes to those who asked and into the shared city picture,
+  and it is retired when no one uses it.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: product-kind
+  type: code
+  card: 1..1
+- name: information-need
+  type: reference(information-need)
+  card: 0..1
+- name: question
+  type: text
+  card: 1..1
+- name: sources
+  type: reference(data-set)
+  card: 1..*
+- name: method
+  type: text
+  card: 1..1
+- name: uncertainty
+  type: text
+  card: 1..1
+- name: built-by
+  type: text
+  card: 1..*
+- name: spatial-layers
+  type: reference(gis-layer)
+  card: 0..*
+- name: issued-on
+  type: date
+  card: 0..1
+- name: use-count
+  type: integer
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- requested
+- in-analysis
+- reviewed
+- released
+- in-use
+- retired
+relations:
+- type: based-on
+  target: data-set
+- type: refers-to
+  target: information-need
+- type: refers-to
+  target: gis-layer
+- type: refers-to
+  target: digital-twin
+- type: refers-to
+  target: city-dashboard
+- type: produces
+  target: public-record

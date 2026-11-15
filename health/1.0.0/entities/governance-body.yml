@@ -1,0 +1,36 @@
+kind: entity
+slug: governance-body
+title: Governance Body
+type: master
+summary: A body that holds decision rights in or over the organisation, such as an owner assembly, supervisory body, executive
+  board, faculty council, ethics committee or drug and therapeutics committee, with its mandate and members.
+attributes:
+- name: body-kind
+  type: code
+  card: 1..1
+- name: mandate
+  type: text
+  card: 1..1
+- name: members
+  type: reference(employee)
+  card: 0..*
+- name: external-members
+  type: text
+  card: 0..*
+- name: reports-to
+  type: reference(governance-body)
+  card: 0..1
+- name: rules-of-procedure
+  type: document
+  card: 0..1
+states:
+- constituted
+- active
+- dissolved
+relations:
+- type: governed-by
+  target: charter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

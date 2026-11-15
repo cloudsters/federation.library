@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: care-mandate-designation
+title: Care Mandate Designation
+between:
+- executive
+- health-planning-authority
+offered:
+- Evidence that the criteria of each sought care level and service group are met, and a commitment to the population and the
+  obligations attached.
+returned:
+- A designated care level and service groups with planned capacity, on which the permission to provide and to be paid for
+  care rests.
+touchpoint: care-mandate-decision

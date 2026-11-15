@@ -1,0 +1,14 @@
+kind: body
+slug: records-and-information-office
+title: Records and Information Office
+summary: Publishes the city's records, answers information requests within their deadlines and keeps the civic memory beside the official
+  history.
+holds:
+- public-record-publication
+- information-request-handling
+- civic-memory-documentation
+- place-naming-and-commemoration
+- testimony-recording
+part_of: full-council
+type: function
+form: organisational-unit

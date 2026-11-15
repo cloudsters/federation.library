@@ -1,0 +1,10 @@
+kind: capability
+slug: process-governance
+title: Process Governance
+level: L3
+parent: process-management
+summary: Assign process ownership and govern the process framework across the organisation.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

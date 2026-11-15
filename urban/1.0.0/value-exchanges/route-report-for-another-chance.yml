@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: route-report-for-another-chance
+title: Route Report for Another Chance
+between:
+- young-people
+- city-administration
+offered:
+- Word of whether the chosen route is working.
+returned:
+- Another route offered when one fails, with the same guide.
+touchpoint: young-person-pathway-follow-up

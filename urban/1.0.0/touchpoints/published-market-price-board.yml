@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-market-price-board
+title: Published Market Price Board
+medium: artefact
+summary: The board at each market and its online version that show aggregated price ranges and cost benchmarks in a form from which
+  no single vendor's prices can be read.
+exchanges:
+- open-prices-for-buyer-trust
+- pooled-data-for-price-benchmarks
+journey: market-vendor-trading-with-standing

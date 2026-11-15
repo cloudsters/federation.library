@@ -1,0 +1,13 @@
+kind: capability
+slug: sustainability-strategy-design
+title: Sustainability Strategy Design
+level: L3
+parent: environmental-sustainability
+summary: Set the organisation's sustainability strategy and targets.
+binds:
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global
+- source: src-497
+  edition: V1.3.1
+  jurisdiction: global

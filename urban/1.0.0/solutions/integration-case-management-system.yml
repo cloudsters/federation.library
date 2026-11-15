@@ -1,0 +1,15 @@
+kind: solution
+slug: integration-case-management-system
+title: Integration Case Management System
+role: system-of-engagement
+summary: Records each newcomer's contact with the welcome points, orientation, language learning and referral to care and legal help,
+  kept apart from enforcement systems and under the newcomer's consent, and holds the integration plan with its review.
+carries:
+- welcome-point-operation
+- newcomer-orientation
+- language-learning-provision
+- status-independent-service-access
+- integration-plan-drafting
+holds:
+- welcome-point
+- integration-plan

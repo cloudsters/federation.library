@@ -1,0 +1,120 @@
+kind: value-stream
+slug: interoperability-and-platform-federation
+title: Interoperability and Platform Federation
+family: portfolio-to-system
+summary: Making the systems of the city, its neighbourhoods, its municipal enterprises and neighbouring municipalities exchange meaning
+  without forcing them into a single system. It holds the shared data models and published interfaces, the federation agreements that
+  state what each level holds and decides, the building and testing of connections, and the monitoring of live exchange.
+trigger: A department, neighbourhood platform or partner needs data from another system, a new system is introduced, or a federation
+  agreement falls due for review.
+outcome: Systems at neighbourhood, district and city level exchange data through published interfaces and shared definitions, each
+  level keeps its own systems and decisions, and every connection is monitored.
+stakeholders:
+- city-administration
+- information-technology-specialist
+- neighbourhood-association
+- neighbouring-municipality
+- infrastructure-operator
+- technology-supplier
+- civic-technology-community
+steps:
+- slug: exchange-need-assessment
+  title: Exchange Need Assessment
+  summary: The administration records which data a service, department or neighbourhood platform needs from another system, for what
+    purpose and how often, and whether personal data is involved.
+  capabilities:
+  - exchange-need-assessment
+  - processing-registration
+  entities:
+  - application
+  - data-set
+  - processing-record
+  serves:
+  - data-exchange-request
+- slug: shared-data-model-definition
+  title: Shared Data Model Definition
+  summary: The core things of the city, such as address, parcel, building, resident and service, receive one shared definition and
+    identifier that every system uses, agreed with those who hold the data.
+  capabilities:
+  - shared-data-model-design
+  - data-definition-and-cataloguing
+  entities:
+  - shared-data-model
+  - land-parcel
+  - building
+  serves:
+  - data-definition-working-group
+  - published-data-definitions
+- slug: federation-agreement
+  title: Federation Agreement
+  summary: Neighbourhood, district and city platforms, and those of neighbouring municipalities, agree what each holds and decides,
+    which decisions pass to the next level and how, and the protocols by which they exchange, so that no level is forced into a single
+    system.
+  capabilities:
+  - federation-agreement-drafting
+  - decision-rights-allocation
+  - cross-boundary-agreement-handling
+  entities:
+  - federation-agreement
+  - decision-rights-register
+  - cross-boundary-agreement
+  serves:
+  - federation-negotiation-round
+  - published-federation-agreement
+- slug: interface-specification
+  title: Interface Specification
+  summary: Each exchange is specified in a published interface with its formats, meaning, identity checks and conformance rules, open
+    for any provider or neighbourhood to build against.
+  capabilities:
+  - interface-specification
+  - code-publication-and-sharing
+  entities:
+  - interface-specification
+  - shared-data-model
+  - source-code-repository
+  serves:
+  - published-interface-catalogue
+- slug: interface-build-and-testing
+  title: Interface Build and Testing
+  summary: Connections are built, mapped to the shared definitions, secured with identities for each system, and tested for conformance
+    with the specification before they carry live data.
+  capabilities:
+  - interface-build-and-testing
+  - identity-and-access-control
+  - acceptance-testing
+  entities:
+  - system-interface
+  - interface-specification
+  serves:
+  - conformance-test-environment
+- slug: live-exchange-monitoring
+  title: Live Exchange Monitoring
+  summary: Live exchanges are monitored for failures, delays and data that no longer matches the shared definitions, and a failure
+    in one platform is kept from spreading to the others.
+  capabilities:
+  - exchange-monitoring
+  - system-monitoring
+  - data-quality-assurance
+  entities:
+  - system-interface
+  - support-case
+  serves:
+  - exchange-status-page
+- slug: federation-review
+  title: Federation Review
+  summary: The federation agreement and the interfaces are reviewed in the open with the platforms that use them, and changes are
+    versioned so that no platform loses its connection without notice.
+  capabilities:
+  - federation-agreement-drafting
+  - rule-review
+  - interface-specification
+  entities:
+  - federation-agreement
+  - interface-specification
+  serves:
+  - federation-review-forum
+  - published-federation-agreement
+binds:
+- source: src-177
+  edition: '2017'
+  jurisdiction: global

@@ -1,0 +1,119 @@
+kind: value-stream
+slug: payer-contracting-and-budget-negotiation
+title: Payer Contracting and Budget Negotiation
+family: value-to-sustainability
+summary: Agreeing with payers or the commissioning body the volumes, prices, budgets and special care contracts that fund care, from
+  preparing the evidence through negotiation and arbitration to settlement.
+trigger: A budget period approaches, or a payer or the organisation proposes a new or changed care contract.
+outcome: A signed agreement on volumes, prices and budget is in force and translated into internal targets.
+stakeholders:
+- payer
+- executive
+- head-of-clinical-department
+steps:
+- slug: volume-and-service-planning
+  title: Volume and Service Planning
+  summary: Case volumes, case mix and new or discontinued services for the coming period are forecast by department from demand, referral
+    trends, capacity and the services the care mandate assigns.
+  capabilities:
+  - referral-volume-forecasting
+  - demand-and-market-analysis
+  - clinical-service-portfolio-stewardship
+  - service-group-qualification
+  - planning-and-budgeting
+  entities:
+  - capacity-forecast
+  - service-mandate
+  - service-group-assignment
+  - case-group
+  - volume-threshold
+  serves:
+  - performance-dialogue
+- slug: negotiation-evidence-preparation
+  title: Negotiation Evidence Preparation
+  summary: Planned volumes, costs, structural evidence, the funding claimed for capacity held ready, the staff cost reimbursed outside
+    case payment and claims for supplements and new methods are compiled into the documentation the payers receive before the negotiation.
+  capabilities:
+  - payer-budget-negotiation
+  - patient-level-costing
+  - supplementary-payment-management
+  - tariff-and-price-management
+  - availability-funding
+  - cost-reimbursed-staff-budget
+  entities:
+  - payer-agreement
+  - patient-level-cost
+  - capacity-forecast
+  - measure-report
+  serves:
+  - negotiation-documentation
+- slug: negotiation-with-payers
+  title: Negotiation with Payers
+  summary: The commons and the payers negotiate volumes, prices, budget, supplements and special care contracts, recording agreed
+    and disputed points after each round.
+  capabilities:
+  - payer-budget-negotiation
+  - contract-lifecycle-stewardship
+  - legal-advisory
+  entities:
+  - payer-agreement
+  - contract
+  - payer-organisation
+  - price-list
+  serves:
+  - payer-negotiation
+- slug: agreement-and-arbitration
+  title: Agreement and Arbitration
+  summary: Agreed terms are signed within the commons' approval limits; disputed points go to the arbitration body, whose ruling,
+    together with any approval by the competent authority, completes the agreement.
+  capabilities:
+  - payer-budget-negotiation
+  - dispute-and-litigation
+  - delegation-of-authority
+  entities:
+  - payer-agreement
+  - governance-decision
+  - contract
+  serves:
+  - arbitration-hearing
+  - payer-negotiation
+- slug: internal-target-translation
+  title: Translation into Internal Targets
+  summary: The agreed volumes, rates and budget are broken down into service and unit targets, loaded into planning and billing, and
+    made known to the departments.
+  capabilities:
+  - planning-and-budgeting
+  - goal-setting-and-cascade
+  - tariff-and-price-management
+  - master-data-stewardship
+  entities:
+  - budget
+  - payer-agreement
+  - price-list
+  - strategic-objective
+  serves:
+  - controlling-report
+  - performance-dialogue
+- slug: agreement-monitoring-and-settlement
+  title: Agreement Monitoring and Settlement
+  summary: Delivered volumes and revenue, availability funding and the cost of staff reimbursed at cost are tracked against the agreement
+    during the period, and at its end over- and under-delivery are settled with the payers and booked.
+  capabilities:
+  - payer-agreement-settlement
+  - financial-performance-management
+  - business-intelligence-and-reporting
+  - adjustments-and-deductions
+  - availability-funding
+  - cost-reimbursed-staff-budget
+  entities:
+  - payer-agreement
+  - measure-report
+  - payment
+  - ledger-entry
+  serves:
+  - controlling-report
+  - payer-negotiation
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

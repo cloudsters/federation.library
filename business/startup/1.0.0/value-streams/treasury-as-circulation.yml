@@ -1,0 +1,117 @@
+kind: value-stream
+slug: treasury-as-circulation
+title: Treasury & Cash Steering
+family: value-to-sustainability
+summary: Keeping money circulating where and when it is needed, by forecasting and positioning cash, steering working capital, funding
+  shortfalls, placing surpluses with purpose and holding currency, interest, counterparty and fraud risk within limits.
+trigger: A cash forecast shows a surplus or shortfall, or a currency, interest or counterparty exposure arises.
+outcome: Liquidity is assured, surplus funds are placed within policy, and financial risks are hedged within limits.
+stakeholders:
+- finance-professional
+- executive-board
+- lender
+- finance-operations-agent
+steps:
+- slug: cash-positioning-and-forecasting
+  title: Cash Positioning and Forecasting
+  summary: Daily cash positions are established across accounts and currencies, and expected inflows and outflows are forecast over
+    the short and medium term.
+  capabilities:
+  - cash-flow-forecasting
+  - cash-flow-as-circulation
+  - multi-currency-management
+  entities:
+  - liquidity-forecast
+  - bank-account
+  serves:
+  - cash-forecast
+  - online-banking
+- slug: bank-statement-reconciliation
+  title: Bank Statement Reconciliation
+  summary: Bank relationships and accounts are maintained, and bank statements are matched with the ledger every day so that one position
+    holds true.
+  capabilities:
+  - banking-and-reconciliation
+  entities:
+  - bank-account
+  - bank-transaction
+  - journal-entry
+  serves:
+  - bank-statement
+  - online-banking
+- slug: working-capital-steering
+  title: Working Capital Steering
+  summary: Receivables, payables and inventory are steered together to release cash without harming customers or suppliers.
+  capabilities:
+  - working-capital-management
+  - cash-flow-as-circulation
+  entities:
+  - liquidity-forecast
+  - sales-invoice
+  - purchase-invoice
+  serves:
+  - cash-forecast
+  - supplier-portal
+- slug: funding-and-surplus-placement
+  title: Funding and Surplus Placement
+  summary: Shortfalls are covered from credit lines and loans, and surplus funds are placed in investments that serve the organisation's
+    purpose within the treasury policy.
+  capabilities:
+  - steward-debt-and-investment
+  - investment-as-seed-capital
+  entities:
+  - financing-facility
+  - bank-account
+  - agreement
+  serves:
+  - lender-review
+  - online-banking
+- slug: exposure-sensing
+  title: Exposure Sensing
+  summary: Currency, interest, counterparty and liquidity exposures are identified and measured early enough to act before they threaten
+    stability.
+  capabilities:
+  - financial-risk-sensing
+  - multi-currency-management
+  entities:
+  - risk
+  - counterparty
+  - liquidity-forecast
+  serves:
+  - cash-forecast
+  - treasury-committee
+- slug: risk-hedging
+  title: Risk Hedging
+  summary: Exposures beyond the limits are hedged through agreed instruments, and the hedges are monitored and settled.
+  capabilities:
+  - market-risk-hedging
+  entities:
+  - contract
+  - counterparty
+  - risk
+  serves:
+  - online-banking
+  - treasury-committee
+- slug: fraud-and-dispute-handling
+  title: Fraud and Dispute Handling
+  summary: Suspicious payments and financial disputes are investigated, contained and resolved, and the controls that let them through
+    are strengthened.
+  capabilities:
+  - fraud-and-dispute-management
+  entities:
+  - payment
+  - bank-transaction
+  - compliance-case
+  serves:
+  - online-banking
+  - payment-run
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-133
+  edition: '2026'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

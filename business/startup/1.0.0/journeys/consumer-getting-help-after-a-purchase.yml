@@ -1,0 +1,46 @@
+kind: journey
+slug: consumer-getting-help-after-a-purchase
+title: Consumer Getting Help After a Purchase
+stakeholder: consumer
+summary: A consumer is welcomed into use, helps themselves where they can, asks and is answered, complains and is heard, returns a
+  product and can raise a safety concern that is taken seriously.
+stages:
+- slug: get-started
+  title: Get Started
+  goal: The consumer is guided from purchase to confident first use.
+  step: experience-delivery-care/customer-onboarding
+  touchpoints:
+  - welcome-programme
+  - mobile-app
+- slug: help-yourself
+  title: Help Yourself
+  goal: Routine questions and order tracking are settled at any hour, with a person reachable when needed.
+  step: experience-delivery-care/self-service-access
+  touchpoints:
+  - help-centre
+- slug: ask-and-be-answered
+  title: Ask and Be Answered
+  goal: The request is recorded, resolved within the promised time and answered the same way in every channel.
+  step: experience-delivery-care/request-and-inquiry-handling
+  touchpoints:
+  - service-hotline
+  - service-case
+- slug: complain-and-be-heard
+  title: Complain and Be Heard
+  goal: The complaint is received without deflection and resolved with the consumer.
+  step: experience-delivery-care/complaint-resolution
+  touchpoints:
+  - complaint-and-warranty-claim
+  - service-hotline
+- slug: return-a-product
+  title: Return a Product
+  goal: The product is taken back easily and refunded, replaced or repaired promptly.
+  step: experience-delivery-care/return-processing
+  touchpoints:
+  - return-point
+- slug: report-a-safety-concern
+  title: Report a Safety Concern
+  goal: A concern about harm or risk reaches the safety owner and the consumer learns what was done.
+  step: experience-delivery-care/incident-and-risk-reporting
+  touchpoints:
+  - service-hotline

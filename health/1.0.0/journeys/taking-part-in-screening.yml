@@ -1,0 +1,35 @@
+kind: journey
+slug: taking-part-in-screening
+title: Taking Part in Screening
+stakeholder: screening-and-prevention-participant
+summary: 'The participant''s side of a screening or prevention programme: an invitation, a respectful examination, a clear result
+  and, where needed, fast follow-up.'
+stages:
+- slug: being-invited
+  title: Being Invited
+  goal: Receive a timely, understandable invitation that explains benefits and risks and makes taking part easy.
+  step: population-health-programmes/invitation-and-outreach
+  touchpoints:
+  - screening-invitation
+  - patient-portal
+- slug: being-examined
+  title: Being Examined
+  goal: Be examined promptly and respectfully to the programme's quality standards.
+  step: population-health-programmes/screening-and-prevention-delivery
+  touchpoints:
+  - outpatient-clinic
+  - imaging-department
+  - laboratory-counter
+- slug: receiving-the-result
+  title: Receiving the Result
+  goal: Receive the result promptly and, if something is found, a fixed appointment for further diagnosis.
+  step: population-health-programmes/result-and-follow-up
+  touchpoints:
+  - diagnostic-report
+  - consultation
+- slug: being-reminded
+  title: Being Reminded
+  goal: Be reminded when the next round is due or a follow-up has been missed.
+  step: population-health-programmes/participation-monitoring
+  touchpoints:
+  - screening-invitation

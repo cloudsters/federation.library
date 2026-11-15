@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-ethics-consultation
+title: Clinical Ethics Consultation
+level: L3
+parent: clinical-governance
+summary: Provide ethics consultation and an ethics committee for difficult treatment decisions at the bedside.
+binds:
+- source: src-465
+  edition: 3rd ed.
+  jurisdiction: global

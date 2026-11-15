@@ -1,0 +1,41 @@
+kind: entity
+slug: sales-and-operations-plan
+title: Sales and Operations Plan
+type: governance
+summary: The regularly agreed plan that balances expected demand with supply, production, inventory and financial targets across product
+  families and sites, taken as the one set of numbers sales, operations and finance work to.
+attributes:
+- name: planning-period
+  type: period
+  card: 1..1
+- name: product-families
+  type: code
+  card: 1..*
+- name: demand-plan
+  type: document
+  card: 1..1
+- name: supply-plan
+  type: document
+  card: 1..1
+- name: inventory-targets
+  type: quantity
+  card: 0..*
+- name: financial-projection
+  type: amount
+  card: 0..1
+- name: approved-by
+  type: reference(board-of-directors)
+  card: 0..1
+states:
+- draft
+- in-review
+- agreed
+- in-execution
+- closed
+relations:
+- type: based-on
+  target: forecast
+- type: governed-by
+  target: budget
+- type: produces
+  target: production-plan

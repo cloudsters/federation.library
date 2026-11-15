@@ -1,0 +1,18 @@
+kind: solution
+slug: document-and-records-management-system
+title: Document and Records Management System
+role: system-of-record
+summary: Holds documents and records with their versions, classifications, retention periods and legal holds, digitises paper, and
+  archives what the organisation issues so that it can be produced when asked.
+carries:
+- press-statement-drafting
+- document-template-automation
+- media-relations
+- record-retention-and-archiving
+- document-digitisation
+- legal-hold-management
+holds:
+- public-statement
+- statutory-report
+- report
+- communication

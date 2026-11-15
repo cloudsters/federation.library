@@ -1,0 +1,39 @@
+kind: journey
+slug: owner-strategy-journey
+title: Owner Strategy Journey
+stakeholder: owner
+summary: The owner sets expectations for the strategy, weighs options that touch ownership, approves the strategy and its investments,
+  and accounts for it in public.
+stages:
+- slug: set-expectations
+  title: Set Expectations
+  goal: Convey the owner's expectations and public policy aims for the strategy horizon.
+  step: strategy-development/strategy-review-commissioning
+  touchpoints:
+  - supervisory-body-meeting
+- slug: weigh-major-options
+  title: Weigh Major Options
+  goal: Weigh options that touch ownership, such as alliances, mergers or site changes, before they are chosen.
+  step: strategy-development/vision-and-option-design
+  touchpoints:
+  - supervisory-body-meeting
+- slug: approve-strategy-and-investment
+  title: Approve Strategy and Investment
+  goal: Approve a strategy that fulfils the mandate and commit the capital it requires.
+  step: strategy-development/strategy-choice-and-adoption
+  touchpoints:
+  - supervisory-body-meeting
+  - strategy-document
+- slug: approve-structural-change
+  title: Approve Structural Change
+  goal: Approve changes to legal entities, subsidiaries and top leadership that require the owner's consent.
+  step: strategy-development/target-organisation-design
+  touchpoints:
+  - supervisory-body-meeting
+- slug: account-in-public
+  title: Account in Public
+  goal: Receive the strategy and its progress in a form the owner can defend in public.
+  step: strategy-development/strategy-communication
+  touchpoints:
+  - annual-report
+  - strategy-document

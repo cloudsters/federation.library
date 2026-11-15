@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: guideline-prompts-for-reasoned-overrides
+title: Guideline Prompts for Reasoned Overrides
+between:
+- clinical-decision-support-agent
+- specialist-physician
+offered:
+- The agent presents guideline-based recommendations at the moment of decision, with their source and reasoning.
+returned:
+- The physician accepts or overrides each recommendation and states the reason, which shows where the rule or the pathway needs revision.
+touchpoint: decision-support-prompt

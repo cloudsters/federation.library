@@ -1,0 +1,22 @@
+kind: solution
+slug: housing-management-system
+title: Housing Management System
+role: system-of-record
+summary: Holds the city's homes, the housing register, the cases of households at risk or without a home, shelter places, tenancies
+  with their rent accounts and every repair order from report to the tenant's confirmation.
+carries:
+- emergency-shelter-placement
+- home-allocation-matching
+- tenancy-sustainment-support
+- tenancy-administration
+- home-condition-inspection
+- repair-request-handling
+- planned-maintenance-and-retrofit
+- tenant-body-support
+holds:
+- dwelling
+- housing-case
+- emergency-shelter
+- housing-register
+- tenancy
+- repair-order

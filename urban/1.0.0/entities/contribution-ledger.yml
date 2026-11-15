@@ -1,0 +1,47 @@
+kind: entity
+slug: contribution-ledger
+title: Contribution Ledger
+type: intelligence
+summary: The shared record of hours given and help exchanged among residents, on which they can draw for help in return. The neighbourhood
+  body or mutual aid network that runs it keeps it with its participants, and it is used to draw help in return and to recognise contributions
+  in public without turning them into a duty or a price.
+attributes:
+- name: keeper
+  type: text
+  card: 1..1
+- name: area
+  type: reference(neighbourhood)
+  card: 0..*
+- name: participants
+  type: identifier
+  card: 1..*
+- name: unit-of-account
+  type: code
+  card: 1..1
+- name: ledger-period
+  type: period
+  card: 1..1
+- name: hours-given
+  type: quantity
+  card: 0..1
+- name: hours-drawn
+  type: quantity
+  card: 0..1
+- name: entry-rules
+  type: text
+  card: 1..1
+- name: recognition-given
+  type: text
+  card: 0..*
+states:
+- opened
+- active
+- reconciled
+- closed
+relations:
+- type: refers-to
+  target: volunteer-record
+- type: refers-to
+  target: mutual-aid-network
+- type: refers-to
+  target: neighbourhood

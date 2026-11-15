@@ -1,0 +1,10 @@
+kind: capability
+slug: internal-controls-design
+title: Internal Controls Design
+level: L3
+parent: internal-control-and-audit
+summary: Design the internal controls that secure effective operations and reliable reporting.
+binds:
+- source: src-459
+  edition: '2026'
+  jurisdiction: global

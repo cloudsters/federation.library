@@ -1,0 +1,39 @@
+kind: journey
+slug: parent-or-guardian-opening-a-play-street
+title: Parent or Guardian Opening a Play Street
+stakeholder: parent-or-guardian
+summary: A parent asks for play space in the sport and activity plan, uses the neighbourhood facility with their children, opens a
+  play street with neighbours, borrows bikes and play equipment nearby and sees in the review whether children of the street are playing
+  more.
+stages:
+- slug: ask-for-play-space-in-the-plan
+  title: Ask for Play Space in the Plan
+  goal: Children's need for free play near home is part of the plan.
+  step: sport-and-active-recreation/sport-and-activity-plan
+  touchpoints:
+  - sport-plan-workshop
+- slug: use-the-neighbourhood-facility
+  title: Use the Neighbourhood Facility
+  goal: The family can use a facility or open school ground near home at a price and hours that fit.
+  step: sport-and-active-recreation/facility-provision-and-access
+  touchpoints:
+  - neighbourhood-sports-facility
+- slug: open-the-play-street
+  title: Open the Play Street
+  goal: The street is closed to traffic at set times and children play while neighbours keep an eye.
+  step: sport-and-active-recreation/programmes-for-the-least-active
+  touchpoints:
+  - play-street-day
+- slug: borrow-bikes-and-play-equipment
+  title: Borrow Bikes and Play Equipment
+  goal: Children borrow bikes and play equipment from a point in the neighbourhood, so cost does not keep them out.
+  step: sport-and-active-recreation/programmes-for-the-least-active
+  touchpoints:
+  - neighbourhood-equipment-lending-point
+- slug: see-children-counted
+  title: See Children Counted
+  goal: The review shows whether children of the neighbourhood are playing and moving more, and the plan is adjusted.
+  step: sport-and-active-recreation/activity-and-access-review
+  touchpoints:
+  - activity-and-access-review-meeting
+  - published-activity-profile

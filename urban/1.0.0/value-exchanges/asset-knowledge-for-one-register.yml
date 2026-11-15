@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: asset-knowledge-for-one-register
+title: Asset Knowledge for One Register
+between:
+- infrastructure-operator
+- asset-officer
+offered:
+- The operator's records of its networks, their locations and the services that depend on them.
+returned:
+- One register of what the city holds, in which the operator's assets are rated for criticality beside the city's own.
+touchpoint: asset-register-review-session

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: hub-slot-booking
+title: Hub Slot Booking
+medium: channel
+summary: The booking route through which producers keep their fixed delivery days and carriers and platforms book slots, see their
+  bundling and earn allocations.
+exchanges:
+- consolidated-loads-for-delivery-allocations
+journey: delivery-carrier-delivering-through-shared-hubs

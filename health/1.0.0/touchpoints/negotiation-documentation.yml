@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: negotiation-documentation
+title: Negotiation Documentation
+medium: artefact
+summary: 'The evidence the commons submits to payers before a negotiation: planned volumes by case group, costs, structural data and
+  claims for supplements and new methods.'
+exchanges:
+- service-commitment-for-budget
+journey: agreeing-the-care-budget

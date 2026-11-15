@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: unclaimed-entitlement-letter
+title: Unclaimed Entitlement Letter
+medium: artefact
+summary: The letter or message offering a service, benefit or reduced charge directly to a resident who appears entitled but has not
+  claimed, found from data they agreed the city may use.
+exchanges:
+- consented-match-for-a-direct-offer
+journey: city-administration-deciding-entitlements-fairly

@@ -1,0 +1,58 @@
+kind: entity
+slug: enterprise-workspace
+title: Enterprise Workspace
+type: master
+summary: A workspace, shared kitchen or workshop offered to founders and small businesses at an affordable rent, with its users and
+  terms. The body that runs it keeps the record, often in a vacant public building, and it is used to allocate space, to set rents
+  and to give its users a share in deciding how it is run.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: workspace-kind
+  type: code
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: units
+  type: integer
+  card: 0..1
+- name: rent
+  type: amount
+  card: 0..1
+- name: terms
+  type: text
+  card: 1..1
+- name: keeper
+  type: text
+  card: 1..1
+- name: users
+  type: text
+  card: 0..*
+- name: user-voice
+  type: text
+  card: 0..1
+- name: interim-use
+  type: boolean
+  card: 0..1
+- name: available-from
+  type: date
+  card: 0..1
+states:
+- planned
+- fitting-out
+- open
+- full
+- closing
+- closed
+relations:
+- type: part-of
+  target: building
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: incubator-programme

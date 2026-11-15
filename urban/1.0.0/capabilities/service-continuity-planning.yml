@@ -1,0 +1,7 @@
+kind: capability
+slug: service-continuity-planning
+title: Service Continuity Planning
+level: L3
+parent: information-security-and-resilience
+summary: Set recovery targets, backups and offline modes for each essential service and place offline fallbacks in neighbourhoods
+  in advance.

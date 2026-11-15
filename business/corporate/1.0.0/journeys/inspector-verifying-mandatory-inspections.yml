@@ -1,0 +1,20 @@
+kind: journey
+slug: inspector-verifying-mandatory-inspections
+title: Inspector Verifying Mandatory Inspections
+stakeholder: occupational-safety-authority
+summary: An occupational safety inspector verifies that regulated assets and buildings are inspected on time and that findings from
+  failures and incidents are followed up.
+stages:
+- slug: review-inspection-evidence
+  title: Review Inspection Evidence
+  goal: Inspection certificates and calibration records are complete and current.
+  step: asset-care-maintenance/planned-and-mandatory-maintenance
+  touchpoints:
+  - inspection-certificate
+  - official-inspection
+- slug: follow-up-findings
+  title: Follow Up Findings
+  goal: Findings from significant failures are analysed and corrected.
+  step: asset-care-maintenance/failure-analysis-and-reliability-review
+  touchpoints:
+  - official-inspection

@@ -1,0 +1,32 @@
+kind: journey
+slug: staff-member-getting-help-with-a-system
+title: Staff Member Getting Help with a System
+stakeholder: registered-nurse
+summary: A nurse whose system fails or who needs access gets help quickly, keeps caring for patients through fallback procedures and
+  is told when service returns.
+stages:
+- slug: be-warned-early
+  title: Be Warned Early
+  goal: Staff learn of a disruption from a notice before they discover it at the bedside.
+  step: it-service-operations/monitoring-and-capacity
+  touchpoints:
+  - service-status-notice
+- slug: report-the-problem
+  title: Report the Problem
+  goal: One call or message is enough to report a disruption or request access.
+  step: it-service-operations/service-desk-intake
+  touchpoints:
+  - it-service-desk
+- slug: keep-caring-through-the-disruption
+  title: Keep Caring Through the Disruption
+  goal: Care continues on fallback procedures and service is restored within the agreed time.
+  step: it-service-operations/resolution-and-fulfilment
+  touchpoints:
+  - it-service-desk
+  - service-status-notice
+- slug: work-through-planned-changes
+  title: Work Through Planned Changes
+  goal: Planned changes arrive with notice and outside care-critical times.
+  step: it-service-operations/change-and-release
+  touchpoints:
+  - service-status-notice

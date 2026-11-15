@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: delivery-and-food-access-map
+title: Delivery and Food Access Map
+medium: artefact
+summary: The map of delivery trips, vehicle types and loading by district and of the neighbourhoods where fresh, affordable food is
+  out of reach on foot or by transit.
+exchanges:
+- trip-data-for-hubs-where-they-are-needed
+- incomes-and-prices-for-adjusted-hubs-and-rules
+journey: local-producer-selling-through-a-neighbourhood-hub

@@ -1,0 +1,19 @@
+kind: capability
+slug: medical-device-cybersecurity
+title: Medical Device Cybersecurity
+level: L3
+parent: information-security
+summary: Secure networked medical devices through segmentation, patching and vendor obligations.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-329
+  edition: '2013'
+  jurisdiction: global
+- source: src-330
+  edition: '2021'
+  jurisdiction: global

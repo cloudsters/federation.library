@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: signatures-for-an-answer-in-time
+title: Signatures for an Answer in Time
+between:
+- resident
+- city-council
+offered:
+- Signatures for a petition, including a petition for a vote or a recall.
+returned:
+- A petition verified and answered within its deadline, and a vote held where the threshold is met.
+touchpoint: petition-portal

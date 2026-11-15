@@ -1,0 +1,34 @@
+kind: entity
+slug: dynamic-proposition
+title: Dynamic Proposition
+type: master
+summary: A value proposition assembled in real time from federated micro-services, precisely matching stakeholder intent. Not a product
+  catalogue entry but a living composition of capabilities from across the commons network, unique to each exchange moment.
+attributes:
+- name: answered-intent
+  type: reference(need-intent)
+  card: 0..1
+- name: components
+  type: text
+  card: 1..*
+- name: derived-price
+  type: amount
+  card: 1..1
+- name: delivery-terms
+  type: text
+  card: 1..1
+states:
+- composed
+- priced
+- proposed
+- delivered
+- evaluated
+relations:
+- type: based-on
+  target: offer-intent
+- type: based-on
+  target: need-intent
+- type: refers-to
+  target: product
+- type: produces
+  target: a2a-handshake

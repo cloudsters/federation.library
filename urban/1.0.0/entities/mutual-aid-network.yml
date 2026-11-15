@@ -1,0 +1,57 @@
+kind: entity
+slug: mutual-aid-network
+title: Mutual Aid Network
+type: master
+summary: A group of neighbours who share meals, tools, funds and care and rotate duties among themselves, with its members, area and
+  how it decides. Its members keep the record themselves and the city records only what they choose to share, and it is used to connect
+  isolated residents and carers to help and, where they need more, to formal services.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: area
+  type: reference(neighbourhood)
+  card: 1..*
+- name: contact-point
+  type: text
+  card: 1..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: help-offered
+  type: code
+  card: 1..*
+- name: decision-method
+  type: text
+  card: 1..1
+- name: duty-rota
+  type: text
+  card: 0..1
+- name: shared-funds
+  type: amount
+  card: 0..1
+- name: linked-services
+  type: reference(public-service)
+  card: 0..*
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- forming
+- active
+- dormant
+- merged
+- dissolved
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: care-map
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: contribution-ledger
+binds:
+- source: src-227
+  edition: '2001-12-05'
+  jurisdiction: global

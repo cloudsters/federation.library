@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prompt-answers-for-clean-records
+title: Prompt Answers for Clean Records
+between:
+- finance-operations-agent
+- supplier
+offered:
+- Prompt answers on the status of invoices and payments, and differences explained.
+returned:
+- Corrected documents, no duplicate invoices and statements that agree.
+touchpoint: accounts-payable-desk

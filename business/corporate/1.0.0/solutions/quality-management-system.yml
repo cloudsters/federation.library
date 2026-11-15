@@ -1,0 +1,44 @@
+kind: solution
+slug: quality-management-system
+title: Quality Management System
+role: system-of-record
+summary: 'Holds the quality management system: standards, inspections, non-conformances, corrective actions, calibration, certifications
+  and recalls, and shows that what leaves the commons conforms.'
+carries:
+- hazard-sensing-assessment
+- corrective-action-ownership
+- incident-transparency
+- quality-inspection-control
+- quality-management-system
+- quality-sensing-improvement
+- quality-sensing-verification
+- quality-standard-design
+- recall-communication-with-care
+- recall-completion-learning
+- recall-effectiveness-sensing
+- safety-recall-activation
+- safety-response-design
+- safety-response-evaluation
+- steward-non-conformance
+- improvement-anchoring
+- warranty-performance-stewardship
+- lean-improvement
+- root-cause-analysis
+- management-system-certification
+- supplier-quality-management
+- calibration-management
+- service-quality-assurance
+- product-regulatory-compliance
+- product-certification
+- product-safety-monitoring
+holds:
+- quality-standard
+- quality-inspection
+- non-conformance
+- accreditation
+- recall
+- audit
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

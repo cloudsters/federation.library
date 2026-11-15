@@ -1,0 +1,41 @@
+kind: entity
+slug: tender
+title: Tender
+type: transactional
+summary: A competitive procurement procedure for goods, services or works where the value requires one, from specification through
+  bids and evaluation to award and the resulting contract.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: procedure-kind
+  type: code
+  card: 1..1
+- name: estimated-value
+  type: amount
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: bid-deadline
+  type: datetime
+  card: 0..1
+- name: award-criteria
+  type: text
+  card: 1..*
+- name: awarded-to
+  type: reference(supplier-organisation)
+  card: 0..1
+states:
+- in-preparation
+- published
+- bidding-closed
+- in-evaluation
+- awarded
+- cancelled
+- challenged
+relations:
+- type: governed-by
+  target: compliance-obligation
+- type: produces
+  target: contract

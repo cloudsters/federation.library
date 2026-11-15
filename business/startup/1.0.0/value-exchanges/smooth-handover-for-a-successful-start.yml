@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: smooth-handover-for-a-successful-start
+title: Smooth Handover for a Successful Start
+between:
+- sales-representative
+- business-customer
+offered:
+- The order passed to fulfilment with its full context, a prompt confirmation and a welcome that leads to first use.
+returned:
+- Early confirmation of details and readiness to receive, so that the first delivery succeeds.
+touchpoint: order-confirmation

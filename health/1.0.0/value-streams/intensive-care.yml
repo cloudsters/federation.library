@@ -1,0 +1,173 @@
+kind: value-stream
+slug: intensive-care
+title: Intensive Care
+family: demand-to-fulfillment
+summary: 'Supporting patients with life-threatening conditions: admission to intensive care, organ support and continuous monitoring,
+  daily goal-setting with relatives, weaning and step-down transfer.'
+trigger: A patient's condition requires organ support or continuous monitoring.
+outcome: The patient is stabilised and transferred to a lower level of care, or care is redirected to end-of-life care.
+stakeholders:
+- critically-ill-patient
+- relative
+- anaesthesiologist
+- specialist-physician
+- registered-nurse
+- advanced-practice-nurse
+- allied-health-professional
+- clinical-pharmacist
+- clinical-engineer
+- referring-hospital
+- organ-donation-organisation
+- paediatric-patient
+steps:
+- slug: intensive-care-admission
+  title: Intensive Care Admission
+  summary: A deteriorating patient is reviewed by the outreach or intensive care team and admitted against defined criteria and priorities,
+    or offered intermediate care, with a bed found in the organisation or the regional network.
+  capabilities:
+  - critical-care-outreach
+  - intensive-care-admission-management
+  - intensive-care-capacity-coordination
+  - intermediate-care
+  - patient-transfer-management
+  entities:
+  - encounter
+  - bed-assignment
+  - capacity-status
+  - care-transition
+  - observation
+  serves:
+  - capacity-board
+  - intensive-care-unit
+  - rapid-response-call
+- slug: assessment-and-stabilisation
+  title: Assessment and Stabilisation
+  summary: On arrival the patient is assessed and stabilised, airway and lines are secured, monitoring is connected, and the working
+    diagnosis, severity and any limits of treatment set by the patient's directive are established.
+  capabilities:
+  - organ-support-therapy
+  - finding-integration
+  - medical-device-integration
+  - advance-care-planning
+  - isolation-and-screening-management
+  - clinical-documentation-at-point-of-care
+  entities:
+  - observation
+  - procedure
+  - diagnosis
+  - advance-directive
+  - medical-device
+  - risk-assessment
+  serves:
+  - advance-directive-document
+  - family-meeting
+  - intensive-care-unit
+  - isolation-room
+- slug: daily-goal-setting
+  title: Daily Goal Setting
+  summary: On the daily interprofessional round, goals for every organ system, sedation, nutrition, mobilisation and infection prevention
+    are set, medication is reviewed by a pharmacist, and the goals are shared with relatives.
+  capabilities:
+  - ward-rounds
+  - care-plan-determination
+  - shared-decision-making-practice
+  - relatives-and-visitor-support
+  - clinical-pharmacist-review
+  - clinical-nutrition
+  entities:
+  - care-plan
+  - care-goal
+  - shared-decision
+  - related-person
+  - proxy-mandate
+  serves:
+  - family-meeting
+  - intensive-care-diary
+  - medication-chart
+  - ward-round
+- slug: organ-support-and-monitoring
+  title: Organ Support and Monitoring
+  summary: Ventilation, circulatory support, renal replacement and other organ support are delivered and adjusted under continuous
+    monitoring, with analgesia, sedation and delirium managed and device-associated infections prevented.
+  capabilities:
+  - organ-support-therapy
+  - sedation-and-delirium-management
+  - medical-device-integration
+  - infection-surveillance
+  - hand-hygiene-programmes
+  - antimicrobial-stewardship
+  - nutrition-and-hydration-care
+  entities:
+  - procedure
+  - observation
+  - medication-administration
+  - medical-device
+  - healthcare-associated-infection
+  - nutrition-order
+  serves:
+  - intensive-care-diary
+  - intensive-care-unit
+- slug: weaning-and-recovery
+  title: Weaning and Recovery
+  summary: As organ function returns, support is weaned in steps, the patient is mobilised early, swallowing and orientation are restored,
+    and readiness for a lower level of care is assessed against defined criteria.
+  capabilities:
+  - organ-support-therapy
+  - early-rehabilitation
+  - physiotherapy
+  - speech-and-swallowing-therapy
+  - sedation-and-delirium-management
+  - intensive-care-admission-management
+  entities:
+  - care-goal
+  - observation
+  - procedure
+  - care-needs-assessment
+  serves:
+  - intensive-care-diary
+  - therapy-session
+- slug: step-down-transfer
+  title: Step-Down Transfer
+  summary: The patient moves to intermediate care or a ward with a structured handover of course, plan, risks and medication, the
+    outreach team follows up on the ward, and survivors with lasting physical, cognitive or psychological effects are offered intensive
+    care follow-up.
+  capabilities:
+  - patient-transfer-management
+  - intermediate-care
+  - clinical-handover
+  - nursing-transfer-handover
+  - critical-care-outreach
+  - medication-reconciliation
+  entities:
+  - care-transition
+  - bed-assignment
+  - clinical-document
+  - medication-reconciliation
+  serves:
+  - nursing-transfer-record
+  - shift-handover
+  - ward
+- slug: redirection-of-care-goals
+  title: Redirection of Care Goals
+  summary: When treatment can no longer reach a goal acceptable to the patient, care is redirected to comfort together with the relatives
+    and guided by the patient's will, with ethics consultation where views conflict; whether donation is possible is assessed only
+    after that decision and never as part of it.
+  capabilities:
+  - end-of-life-care
+  - palliative-care
+  - shared-decision-making-practice
+  - clinical-ethics-consultation
+  - advance-care-planning
+  - organ-donation-coordination
+  entities:
+  - shared-decision
+  - advance-directive
+  - proxy-mandate
+  - ethics-consultation
+  - care-plan
+  - organ-donation
+  serves:
+  - advance-directive-document
+  - donation-conversation
+  - ethics-case-consultation
+  - family-meeting

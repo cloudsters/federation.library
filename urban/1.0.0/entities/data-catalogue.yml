@@ -1,0 +1,53 @@
+kind: entity
+slug: data-catalogue
+title: Data Catalogue
+type: intelligence
+summary: The public, searchable description of the city's data sets, with their owners, definitions, quality and access rules. The
+  administration keeps it public and current, and residents, researchers and businesses use it to find data and to say which data
+  they miss.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: data-sets
+  type: reference(data-set)
+  card: 1..*
+- name: description-schema
+  type: document
+  card: 1..1
+- name: quality-indicators
+  type: text
+  card: 0..*
+- name: open-share
+  type: decimal
+  card: 0..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: missing-data-requests
+  type: text
+  card: 0..*
+- name: maintained-by
+  type: text
+  card: 1..1
+- name: last-updated
+  type: datetime
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- designed
+- populated
+- published
+- updated
+- retired
+relations:
+- type: composed-of
+  target: data-set
+- type: refers-to
+  target: shared-data-model
+- type: refers-to
+  target: open-data-release
+- type: produces
+  target: public-record

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: parts-at-hand-for-first-time-fixes
+title: Parts at Hand for First-Time Fixes
+between:
+- logistics-coordinator
+- field-service-technician
+offered:
+- Parts stocked where jobs need them and replenished before they run out.
+returned:
+- Consumption recorded, faulty parts returned for repair and jobs fixed on the first visit.
+touchpoint: spare-parts-stock

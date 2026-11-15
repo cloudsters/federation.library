@@ -1,0 +1,62 @@
+kind: entity
+slug: physical-activity-profile
+title: Physical Activity Profile
+type: intelligence
+summary: The account of who is physically active and who is not and why, by neighbourhood, age, gender, disability and income, together
+  with the facilities within reach of each neighbourhood. The administration prepares it with residents and clubs at a set rhythm,
+  and it is used to set the sport and activity plan and to direct programmes to those least active.
+attributes:
+- name: profile-period
+  type: period
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: active-share
+  type: decimal
+  card: 0..1
+- name: activity-by-group
+  type: text
+  card: 1..*
+- name: reasons-given
+  type: text
+  card: 0..*
+- name: facilities-in-reach
+  type: reference(sports-facility|play-space)
+  card: 0..*
+- name: facility-gaps
+  type: text
+  card: 0..*
+- name: sources
+  type: text
+  card: 1..*
+- name: made-with
+  type: text
+  card: 1..*
+- name: report-document
+  type: document
+  card: 1..1
+states:
+- planned
+- gathered
+- analysed
+- reviewed
+- published
+- superseded
+relations:
+- type: based-on
+  target: health-profile
+- type: based-on
+  target: facility-booking
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: sports-facility
+- type: refers-to
+  target: play-space
+- type: refers-to
+  target: sport-and-activity-plan
+binds:
+- source: src-266
+  edition: '2018-05-26'
+  jurisdiction: global

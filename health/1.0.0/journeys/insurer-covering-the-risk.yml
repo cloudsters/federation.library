@@ -1,0 +1,19 @@
+kind: journey
+slug: insurer-covering-the-risk
+title: Insurer Covering the Risk
+stakeholder: liability-insurer
+summary: 'The insurer''s side of enterprise risk: reading the commons'' risk and claims record and pricing the risk the commons
+  transfers.'
+stages:
+- slug: reading-the-risk-record
+  title: Reading the Risk Record
+  goal: Understand the risks and claims of the commons and how they are assessed.
+  step: enterprise-risk-and-resilience/risk-identification-and-assessment
+  touchpoints:
+  - insurance-renewal-review
+- slug: pricing-the-transferred-risk
+  title: Pricing the Transferred Risk
+  goal: Set cover, retention and premium for the risk the commons chooses to transfer.
+  step: enterprise-risk-and-resilience/risk-treatment
+  touchpoints:
+  - insurance-renewal-review

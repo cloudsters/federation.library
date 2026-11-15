@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-shared-meal
+title: Neighbourhood Shared Meal
+medium: encounter
+summary: A regular meal in a public place or community centre to which neighbours bring what they can and at which everyone has a
+  place.
+exchanges:
+- contributed-dish-for-a-place-at-the-table
+journey: new-resident-becoming-a-neighbour

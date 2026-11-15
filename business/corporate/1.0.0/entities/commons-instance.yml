@@ -1,0 +1,40 @@
+kind: entity
+slug: commons-instance
+title: Commons Instance
+type: master
+summary: A sovereign, forkable Commons Core deployment with defined purpose, participant topology, and governance protocol. The fundamental
+  unit of the 2050 commons economy. Each instance retains sovereignty while federating with others.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: declared-purpose
+  type: text
+  card: 1..1
+- name: charter
+  type: reference(commons-charter)
+  card: 1..1
+- name: participant-topology
+  type: text
+  card: 0..1
+- name: governance-protocol
+  type: text
+  card: 1..1
+- name: federation-links
+  type: reference(commons-instance)
+  card: 0..*
+states:
+- forked
+- configured
+- governed
+- federated
+- sunset
+relations:
+- type: refers-to
+  target: commons
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: stakeholder
+- type: depends-on
+  target: platform-interface-wrapper

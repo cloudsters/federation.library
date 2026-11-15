@@ -1,0 +1,56 @@
+kind: journey
+slug: deciding-on-cancer-treatment
+title: Deciding on Cancer Treatment
+stakeholder: person-with-cancer
+summary: A person with a new cancer diagnosis moves from hearing the options to a decision that fits their life, including whether
+  to join a study, and can change that decision as treatment proceeds.
+stages:
+- slug: learning-a-decision-is-due
+  title: Learning a Decision Is Due
+  goal: Know which decision lies ahead, which options exist and how much time there is to decide.
+  step: informed-choice-and-consent/decision-recognition
+  touchpoints:
+  - consultation
+- slug: deciding-with-support
+  title: Deciding with Support
+  goal: Take part fully in one's own language and with the support needed, with a trusted person alongside if wished.
+  step: informed-choice-and-consent/capacity-and-representation
+  touchpoints:
+  - consultation
+  - interpreting-service
+- slug: understanding-the-options
+  title: Understanding the Options
+  goal: Understand the benefits, harms and uncertainties of each option, including doing nothing, well enough to explain them back.
+  step: informed-choice-and-consent/information-and-options
+  touchpoints:
+  - consultation
+  - patient-decision-aid
+  - patient-portal
+- slug: weighing-what-matters
+  title: Weighing What Matters
+  goal: Choose the option that fits one's own priorities after talking it through with family and, if wished, a second specialist.
+  step: informed-choice-and-consent/deliberation
+  touchpoints:
+  - consultation
+  - family-meeting
+- slug: giving-consent
+  title: Giving Consent
+  goal: Sign a consent that records the choice made, with a separate and free choice about the study.
+  step: informed-choice-and-consent/decision-and-consent
+  touchpoints:
+  - consent-form
+  - clinical-trial-unit
+- slug: being-known-everywhere
+  title: Being Known Everywhere
+  goal: Find the decision respected by every team without having to repeat it.
+  step: informed-choice-and-consent/organisation-wide-availability
+  touchpoints:
+  - patient-portal
+  - patient-held-health-record
+- slug: changing-ones-mind
+  title: Changing One's Mind
+  goal: Withdraw from a treatment or a study at any time and see the change take effect without losing care.
+  step: informed-choice-and-consent/honouring-review-and-withdrawal
+  touchpoints:
+  - consultation
+  - patient-portal

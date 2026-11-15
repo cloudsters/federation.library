@@ -1,0 +1,67 @@
+kind: entity
+slug: upgrading-plan
+title: Upgrading Plan
+type: governance
+summary: The plan agreed between a settlement's bodies and the city for upgrading it in place, with its stages, works, any moves of
+  homes and the protections for residents. Both sides sign it and keep it, and it is used to order the works, record who gains a right
+  to stay and review each stage with residents.
+attributes:
+- name: settlement
+  type: reference(informal-settlement)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: stages
+  type: text
+  card: 1..*
+- name: works
+  type: text
+  card: 1..*
+- name: home-moves
+  type: text
+  card: 0..*
+- name: resident-protections
+  type: text
+  card: 1..*
+- name: budget
+  type: amount
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- signed
+- in-progress
+- reviewed
+- renewed
+- completed
+relations:
+- type: refers-to
+  target: informal-settlement
+- type: based-on
+  target: community-enumeration
+- type: refers-to
+  target: land-use-right
+- type: produces
+  target: capital-project
+- type: governed-by
+  target: housing-policy
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global

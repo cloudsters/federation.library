@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: verified-answers-for-gap-signals
+title: Verified Answers for Gap Signals
+between:
+- information-technology-specialist
+- customer-service-agent
+offered:
+- Current, verified articles with access rules, and a place to submit drafts for review.
+returned:
+- Draft articles from resolved cases, and signals on unanswered questions and failed searches.
+touchpoint: knowledge-base

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: user-test
+title: User Test
+medium: encounter
+summary: The session in which future users try a prototype or early version in a realistic task and report what works, what confuses
+  and what fails.
+exchanges:
+- design-participation-for-a-fitting-offering
+journey: development-engineer-bringing-an-offering-to-release

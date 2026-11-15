@@ -1,0 +1,38 @@
+kind: entity
+slug: income-event
+title: Income Event
+type: transactional
+summary: Money arriving — salary, invoice paid, dividend, royalty, gift, grant. Held with its source, because a life with one source
+  and a life with five behave differently under the same total.
+attributes:
+- name: amount
+  type: money
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: source-kind
+  type: code
+  card: 1..1
+- name: from-employer
+  type: reference(employer-relation)
+  card: 0..1
+- name: from-client
+  type: reference(client-relation)
+  card: 0..1
+- name: into
+  type: reference(account)
+  card: 0..1
+- name: for
+  type: text
+  card: 0..1
+states:
+- expected
+- owed
+- arrived
+- late
+relations:
+- target: account
+  type: serves
+- target: financial-position
+  type: part-of

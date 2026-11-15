@@ -1,0 +1,20 @@
+kind: stakeholder
+slug: person-harmed-in-care
+title: Person Harmed in Care
+nature: person
+stance: served
+summary: A patient who has suffered harm from care rather than from illness, such as a medication error, a fall or a surgical
+  complication, together with the family who share its consequences. Expects honesty, an apology and a credible account of
+  what will change.
+seeks:
+- An open account of what happened, an apology, care for the consequences and the assurance that others will be spared the
+  same harm.
+brings:
+- Their own account of the event, often the only view of the whole course of care, and the trust the commons can regain by handling
+  harm honestly.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

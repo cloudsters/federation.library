@@ -1,0 +1,149 @@
+kind: value-stream
+slug: home-and-remote-care
+title: Home and Remote Care
+family: demand-to-fulfillment
+summary: 'Delivering hospital-level care in the patient''s home: hospital at home, remote monitoring of vital signs, visits by mobile
+  teams and escalation to hospital when needed.'
+trigger: A patient is eligible for and agrees to treatment or monitoring at home.
+outcome: The episode is completed at home with every escalation handled safely, or the patient is admitted when necessary.
+stakeholders:
+- person-with-chronic-condition
+- older-person-with-frailty
+- informal-carer
+- relative
+- specialist-physician
+- advanced-practice-nurse
+- registered-nurse
+- allied-health-professional
+- referring-practice
+- follow-on-care-provider
+- emergency-medical-service
+- clinical-engineer
+- payer
+steps:
+- slug: eligibility-and-agreement
+  title: Eligibility and Agreement
+  summary: The patient is assessed against clinical and home criteria for safe treatment or monitoring at home, and patient and carers
+    agree to the care model, its limits and the route of escalation.
+  capabilities:
+  - hospital-at-home
+  - telemonitoring
+  - admission-decision
+  - informed-consent
+  - social-care-coordination
+  - insurance-verification-and-coverage
+  entities:
+  - care-needs-assessment
+  - informed-consent
+  - care-period-mandate
+  - insurance-coverage
+  - coverage-approval
+  serves:
+  - consent-form
+  - consultation
+- slug: home-set-up
+  title: Home Set-Up
+  summary: Devices, medicines, aids and connectivity are delivered and installed at home, patient and carers are trained in their
+    use, and the responsible team and its round-the-clock contact are named.
+  capabilities:
+  - medical-device-integration
+  - patient-discharge-education
+  - self-management-support
+  - medication-dispensing
+  - identity-access-management
+  entities:
+  - medical-device
+  - care-plan
+  - care-team
+  - medication-dispense
+  - identity
+  serves:
+  - home-monitoring-device
+  - home-visit
+- slug: home-treatment-and-visits
+  title: Home Treatment and Visits
+  summary: A mobile team visits to examine, treat, give infusions, dress wounds and take samples, and holds virtual ward rounds by
+    video between visits.
+  capabilities:
+  - hospital-at-home
+  - video-consultation
+  - ward-rounds
+  - medication-administration
+  - specimen-collection-and-pre-analytics
+  - wound-care
+  entities:
+  - encounter
+  - procedure
+  - medication-administration
+  - specimen
+  - teleconsultation
+  - clinical-document
+  serves:
+  - home-visit
+  - telemedicine-service
+- slug: remote-monitoring
+  title: Remote Monitoring
+  summary: Vital signs and symptoms transmitted from home are reviewed in a monitoring centre against agreed thresholds, supported
+    by predictive alerts, and every alert is triaged and acted on within the agreed time.
+  capabilities:
+  - telemonitoring
+  - deterioration-recognition-and-response
+  - predictive-analytics
+  - medical-device-integration
+  - ai-assistant-integration
+  entities:
+  - observation
+  - prediction
+  - clinical-alert
+  - patient-reported-outcome
+  - medical-device
+  serves:
+  - home-monitoring-device
+  - remote-monitoring-centre
+- slug: escalation-and-admission
+  title: Escalation and Admission
+  summary: When the condition exceeds what can be handled at home, the team escalates to an urgent visit, the emergency medical service
+    or direct admission to a ward without passing through the emergency department.
+  capabilities:
+  - deterioration-recognition-and-response
+  - patient-transfer-management
+  - bed-coordination-and-placement
+  - emergency-network-coordination
+  entities:
+  - encounter
+  - bed-assignment
+  - care-transition
+  - care-communication
+  serves:
+  - home-visit
+  - remote-monitoring-centre
+  - ward
+- slug: episode-completion
+  title: Episode Completion
+  summary: When the treatment goals are reached the episode is closed, devices are collected for reprocessing, a discharge letter
+    goes to the general practitioner and care passes to community services.
+  capabilities:
+  - discharge-execution
+  - discharge-summary
+  - care-transition-coordination
+  - returns-reverse-logistics
+  - outpatient-and-day-case-billing
+  entities:
+  - discharge-summary
+  - care-transition
+  - medical-device
+  - episode-of-care
+  - charge-item
+  serves:
+  - discharge-letter
+  - home-visit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-054
+  edition: '2024'
+  jurisdiction: global
+- source: src-419
+  edition: '2022'
+  jurisdiction: global

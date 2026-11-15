@@ -1,0 +1,47 @@
+kind: journey
+slug: front-line-safety-practice
+title: Front-Line Safety Practice
+stakeholder: registered-nurse
+summary: 'How a nurse on the ward experiences clinical risk management: raising risks, shaping safety practices, learning them and
+  seeing their effect reach the board.'
+stages:
+- slug: raising-risks
+  title: Raising Risks
+  goal: Raise a risk seen in daily work and know that it will be assessed.
+  step: clinical-risk-management/risk-identification
+  touchpoints:
+  - safety-huddle
+  - incident-reporting-system
+- slug: contributing-to-assessment
+  title: Contributing to Assessment
+  goal: Bring front-line knowledge of how the process actually runs into the risk analysis.
+  step: clinical-risk-management/risk-assessment
+  touchpoints:
+  - safety-huddle
+  - risk-register
+- slug: shaping-practices
+  title: Shaping Practices
+  goal: Help adapt safety practices so that they fit the ward's work.
+  step: clinical-risk-management/safety-practice-design
+  touchpoints:
+  - ward
+- slug: learning-practices
+  title: Learning Practices
+  goal: Learn the practice in realistic training and find prompts and equipment ready at the point of care.
+  step: clinical-risk-management/implementation-and-training
+  touchpoints:
+  - simulation-centre
+  - clinical-workstation
+- slug: seeing-results
+  title: Seeing Results
+  goal: See the ward's adherence and outcome figures and act on the gaps.
+  step: clinical-risk-management/compliance-and-effect-monitoring
+  touchpoints:
+  - quality-dashboard
+  - safety-huddle
+- slug: being-heard-at-the-top
+  title: Being Heard at the Top
+  goal: Know that unresolved risks reach those who can decide on resources.
+  step: clinical-risk-management/risk-review-and-assurance
+  touchpoints:
+  - quality-and-safety-committee

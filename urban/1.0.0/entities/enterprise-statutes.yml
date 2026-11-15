@@ -1,0 +1,64 @@
+kind: entity
+slug: enterprise-statutes
+title: Enterprise Statutes
+type: governance
+summary: The founding rules of a cooperative or social enterprise, stating its purpose, its members' rights, how decisions are taken
+  and how its purpose and assets are bound. The members adopt them and the enterprise keeps them, often from model statutes the city
+  provides, and they are used to keep the purpose and the members' voice as the enterprise grows or changes owners.
+attributes:
+- name: enterprise
+  type: text
+  card: 1..1
+- name: cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: member-classes
+  type: code
+  card: 1..*
+- name: member-rights
+  type: text
+  card: 1..*
+- name: decision-rules
+  type: text
+  card: 1..1
+- name: nested-bodies
+  type: text
+  card: 0..*
+- name: asset-lock
+  type: text
+  card: 0..1
+- name: purpose-change-rules
+  type: text
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- adopted
+- registered
+- amended
+- superseded
+relations:
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: business-succession-plan
+- type: refers-to
+  target: business-support-case
+binds:
+- source: src-275
+  edition: '2022-06-10'
+  jurisdiction: global
+- source: src-276
+  edition: '2002-06-20'
+  jurisdiction: global

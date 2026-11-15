@@ -1,0 +1,26 @@
+kind: journey
+slug: newcomer-learning-from-shared-know-how
+title: Newcomer Learning from Shared Know-How
+stakeholder: apprentice
+summary: An apprentice or newcomer finds what others already know, learns from practitioners in a community of practice and builds
+  skill through courses and certifications taken at their own pace.
+stages:
+- slug: find-what-others-know
+  title: Find What Others Know
+  goal: The newcomer finds verified answers and patterns quickly and knows whom to ask when none exist.
+  step: knowledge-as-commons/curation-and-access
+  touchpoints:
+  - knowledge-base
+  - pattern-library
+- slug: learn-from-practitioners
+  title: Learn from Practitioners
+  goal: The newcomer is welcomed into a community of practice and mentored by experienced peers.
+  step: knowledge-as-commons/communities-of-practice
+  touchpoints:
+  - community-of-practice-meeting
+- slug: build-recognised-skill
+  title: Build Recognised Skill
+  goal: Courses and certifications are completed at the newcomer's own pace and their results recorded.
+  step: knowledge-as-commons/learning-paths-and-certification
+  touchpoints:
+  - learning-platform

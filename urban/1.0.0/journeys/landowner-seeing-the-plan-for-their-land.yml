@@ -1,0 +1,31 @@
+kind: journey
+slug: landowner-seeing-the-plan-for-their-land
+title: Landowner Seeing the Plan for Their Land
+stakeholder: landowner
+summary: A landowner gives the state and intended use of the land to the analysis, sees the patterns of growth that touch it, reads
+  the draft rules for the parcel and objects or consents with a written answer.
+stages:
+- slug: give-the-state-of-the-land
+  title: Give the State of the Land
+  goal: The state and intended use of the owner's vacant or underused land are recorded in the atlas.
+  step: spatial-development-planning/land-and-growth-analysis
+  touchpoints:
+  - land-and-growth-atlas
+- slug: see-the-options-that-touch-the-land
+  title: See the Options That Touch the Land
+  goal: The owner knows which patterns of growth would change what the land may carry.
+  step: spatial-development-planning/spatial-option-design
+  touchpoints:
+  - spatial-options-exhibition
+- slug: read-the-rules-for-the-parcel
+  title: Read the Rules for the Parcel
+  goal: The owner knows what the draft rules allow and require on each parcel, including contributions from the rise in land value.
+  step: spatial-development-planning/land-use-rule-drafting
+  touchpoints:
+  - draft-land-use-rules
+- slug: object-or-consent
+  title: Object or Consent
+  goal: The owner's objection or consent is answered in writing and weighed before adoption.
+  step: spatial-development-planning/spatial-plan-adoption
+  touchpoints:
+  - objection-response-report

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: organ-offer-call
+title: Organ Offer Call
+medium: encounter
+summary: The call through which the donation organisation offers an organ to the transplant centre for a waiting patient, and through
+  which the centre then calls the patient in.
+exchanges:
+- organ-offer-for-a-swift-decision
+journey: transplant-recipient-journey

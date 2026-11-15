@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: complaint-support-conversation
+title: Complaint Support Conversation
+medium: encounter
+summary: A conversation in which a member of staff or a trusted person helps someone who finds it hard to complain to put the complaint
+  in the form that suits them.
+exchanges:
+- difficulty-in-complaining-for-help-to-be-heard
+journey: disabled-resident-challenging-a-decision-with-help

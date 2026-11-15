@@ -1,0 +1,9 @@
+kind: post
+slug: production-supervisor
+title: Production Supervisor
+summary: 'Keeps a shift or line on the shop floor running well and safely.'
+of: production
+responsibility: 'Leads a shift or line on the shop floor: assigns work, keeps standards and safety, and resolves disruptions as they
+  occur.'
+accountable: body:production
+type: role

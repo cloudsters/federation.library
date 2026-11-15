@@ -1,0 +1,45 @@
+kind: entity
+slug: study-review
+title: Study Review
+type: transactional
+summary: The review of a research study or protocol version by an ethics committee, a competent authority or a data-protection office,
+  ending in a decision with conditions the study must meet.
+attributes:
+- name: research-study
+  type: reference(research-study)
+  card: 1..1
+- name: protocol
+  type: reference(study-protocol)
+  card: 1..1
+- name: reviewing-body
+  type: reference(organisation)
+  card: 1..1
+- name: review-kind
+  type: code
+  card: 1..1
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+states:
+- submitted
+- under-review
+- approved
+- approved-with-conditions
+- rejected
+- withdrawn
+relations:
+- type: governed-by
+  target: compliance-obligation
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,13 @@
+kind: capability
+slug: diagnosis-confirmation
+title: Diagnosis Confirmation
+level: L3
+parent: medical-assessment-and-diagnosis
+summary: Confirm and document the working and final diagnoses with their degree of certainty.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

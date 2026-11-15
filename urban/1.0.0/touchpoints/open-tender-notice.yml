@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: open-tender-notice
+title: Open Tender Notice
+medium: artefact
+summary: The published call for a digital system or service, stating that the city owns its data and that the code it funds is released
+  under an open licence.
+exchanges:
+- open-offer-for-a-fair-contract
+journey: city-administration-replacing-a-legacy-system

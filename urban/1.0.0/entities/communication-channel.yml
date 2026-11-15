@@ -1,0 +1,57 @@
+kind: entity
+slug: communication-channel
+title: Communication Channel
+type: master
+summary: A channel through which the city reaches residents, such as its website, a social media account, a newsletter, a notice board,
+  a telephone line or a display in a service point, with its audience and its keeper. The communications office keeps the list of
+  channels, and it is used to run them as one set with the same information and to see who is reached offline.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: channel-kind
+  type: code
+  card: 1..1
+- name: online
+  type: boolean
+  card: 1..1
+- name: address
+  type: identifier
+  card: 0..1
+- name: audiences
+  type: text
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: languages
+  type: code
+  card: 1..*
+- name: keeper
+  type: reference(department)
+  card: 1..1
+- name: location
+  type: reference(service-point)
+  card: 0..1
+- name: audience-count
+  type: integer
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 0..1
+states:
+- planned
+- active
+- paused
+- retired
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: service-point
+- type: governed-by
+  target: language-access-policy
+binds:
+- source: src-270
+  edition: '2021'
+  jurisdiction: global

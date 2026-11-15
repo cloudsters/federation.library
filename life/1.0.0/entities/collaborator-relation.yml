@@ -1,0 +1,40 @@
+kind: entity
+slug: collaborator-relation
+title: Work Collaborator Relation
+type: master
+summary: 'A peer this person makes work with — a co-author, a fellow maker, a colleague inside a shared piece. Held apart from `professional-network`,
+  which is reach, and from `client`, which is exchange for a return: a collaborator is in the work itself, and what is recorded is
+  what each brings and how the credit is shared.'
+attributes:
+- name: brings
+  type: text
+  card: 1..*
+- name: works-together
+  type: list(creative-output)
+  card: 0..*
+- name: since
+  type: date
+  card: 0..1
+- name: credit-agreed
+  type: text
+  card: 0..1
+- name: terms
+  type: reference(contract)
+  card: 0..1
+- name: last-worked-together
+  type: date
+  card: 0..1
+- name: feedback-runs
+  type: code
+  card: 0..1
+states:
+- met
+- working together
+- between pieces
+- drifted
+- parted
+relations:
+- target: professional-network
+  type: part-of
+- target: body-of-work
+  type: about

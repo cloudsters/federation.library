@@ -1,0 +1,17 @@
+kind: body
+slug: culture-department
+title: Culture Department
+summary: Maps the city's cultural life with those who make it, drafts the culture plan, provides affordable creative spaces, opens
+  the city's venues and collections to residents, commissions public art with neighbourhoods and protects cultural spaces from displacement.
+holds:
+- cultural-participation
+- cultural-mapping
+- culture-plan-drafting
+- creative-workspace-provision
+- community-venue-programming
+- shared-collection-curation
+- public-art-commissioning
+- cultural-space-protection
+part_of: full-council
+type: function
+form: organisational-unit

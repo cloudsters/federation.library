@@ -1,0 +1,135 @@
+kind: value-stream
+slug: process-improvement-and-automation
+title: Process Improvement and Automation
+family: collaboration-to-automation
+summary: Making the administration's processes, from permit and licence handling to applications and service requests, simpler and
+  more reliable. The staff who do the work map and redesign it, the city decides which rule-based tasks to automate and which stay
+  with a person, and automation is built on tools the city controls and can change, share or leave.
+trigger: A process shows delay, error, waiting or overload, staff or residents propose an improvement, or the automation of a task
+  is proposed.
+outcome: The improved or automated process is in daily use on tools the city controls, the staff who run it have agreed to it, and
+  its effect on waiting, error and workload is known.
+stakeholders:
+- city-administration
+- frontline-worker
+- staff-representative
+- resident
+- information-technology-specialist
+- technology-supplier
+- civic-technology-community
+steps:
+- slug: opportunity-intake
+  title: Opportunity Intake
+  summary: Departments, frontline staff and residents put forward processes that cause delay, error or overload. Each proposal is
+    logged, sized and given a process owner.
+  capabilities:
+  - improvement-opportunity-intake
+  - digital-demand-intake
+  entities:
+  - improvement-opportunity
+  - citizen-complaint
+  serves:
+  - improvement-idea-channel
+- slug: current-state-mapping
+  title: Current-State Mapping
+  summary: The process owner and the frontline staff who run the work map how it actually flows, where it waits and fails, and what
+    residents meet at each point.
+  capabilities:
+  - process-mapping-with-frontline-staff
+  - service-design-with-residents
+  entities:
+  - process-map
+  - public-service
+  - building-permit
+  serves:
+  - current-state-process-map
+  - process-walk
+- slug: future-state-design
+  title: Future-State Design
+  summary: Staff, the residents who use the service and the process owner redesign the flow and remove steps that add no value. The
+    new way of working is written down as a standard procedure.
+  capabilities:
+  - process-redesign
+  - standard-procedure-writing
+  - service-design-with-residents
+  entities:
+  - process-map
+  - standard-procedure
+  - improvement-project
+  serves:
+  - process-redesign-workshop
+  - published-standard-procedure
+- slug: automation-decision
+  title: Automation Decision
+  summary: For each task the city decides what is automated, what an AI agent supports and what stays with a person. It weighs consistency,
+    fairness, the effect on staff and the right of residents to reach a person.
+  capabilities:
+  - automation-candidate-assessment
+  - algorithmic-impact-assessment
+  - staff-representative-consultation
+  entities:
+  - automation-proposal
+  - algorithmic-impact-assessment
+  - planning-application
+  serves:
+  - automation-decision-meeting
+- slug: build-on-city-controlled-tools
+  title: Build on City-Controlled Tools
+  summary: Automation is built on open code and on data the city owns, with a plan for changing supplier or bringing the work back
+    into the administration. It is tested with the staff and residents who will use it.
+  capabilities:
+  - open-source-first-sourcing
+  - supplier-exit-planning
+  - solution-build-and-configuration
+  - acceptance-testing
+  entities:
+  - automation-proposal
+  - source-code-repository
+  - supplier-exit-plan
+  - contract
+  serves:
+  - open-code-review
+  - staff-and-resident-test-run
+  - supplier-exit-plan-review
+- slug: pilot-and-rollout
+  title: Pilot and Rollout
+  summary: The new process runs first in one department or district, and staff and their representatives agree to it before it spreads.
+    It is then rolled out with the training people need.
+  capabilities:
+  - improvement-pilot-running
+  - staff-representative-consultation
+  - solution-go-live
+  - oversight-competence-building
+  entities:
+  - improvement-project
+  - staff-agreement
+  - standard-procedure
+  serves:
+  - pilot-run-review
+  - rollout-training-session
+  - staff-agreement-signing
+- slug: sustainment-and-review
+  title: Sustainment and Review
+  summary: The process owner tracks waiting, error and workload and hears the staff who run the process, then holds the gains, improves
+    further or retires the automation. Code worth sharing is published for peer cities.
+  capabilities:
+  - process-performance-review
+  - code-publication-and-sharing
+  - legacy-system-retirement
+  entities:
+  - process-map
+  - source-code-repository
+  - lesson-record
+  serves:
+  - process-performance-board
+  - shared-code-release
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

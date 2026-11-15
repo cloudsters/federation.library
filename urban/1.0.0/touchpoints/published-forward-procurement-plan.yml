@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-forward-procurement-plan
+title: Published Forward Procurement Plan
+medium: artefact
+summary: The yearly published list of the purchases the city plans over the coming years, with category, value, timing and the criteria
+  that will apply.
+exchanges:
+- advance-notice-for-time-to-prepare
+journey: procurement-officer-setting-how-the-city-buys

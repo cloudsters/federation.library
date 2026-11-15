@@ -1,0 +1,53 @@
+kind: journey
+slug: evidence-into-daily-practice
+title: Evidence into Daily Practice
+stakeholder: specialist-physician
+summary: 'How a physician experiences the path from new evidence to a common standard: contributing expertise, shaping the pathway
+  and finding it supports rather than hinders daily work.'
+stages:
+- slug: raising-new-evidence
+  title: Raising New Evidence
+  goal: Bring new evidence or observed variation to those who maintain the standards.
+  step: clinical-guidelines-and-pathways/evidence-and-variation-scanning
+  touchpoints:
+  - pathway-working-group
+- slug: weighing-the-evidence
+  title: Weighing the Evidence
+  goal: Take part in a transparent decision on whether and how a guideline applies locally.
+  step: clinical-guidelines-and-pathways/appraisal-and-adoption
+  touchpoints:
+  - pathway-working-group
+- slug: shaping-the-pathway
+  title: Shaping the Pathway
+  goal: Shape a pathway that reflects clinical reality and leaves room for justified deviation.
+  step: clinical-guidelines-and-pathways/standard-and-pathway-design
+  touchpoints:
+  - pathway-working-group
+- slug: prescribing-within-the-formulary
+  title: Prescribing within the Formulary
+  goal: Find the preferred medicines easily and have a fair route to request exceptions.
+  step: clinical-guidelines-and-pathways/formulary-maintenance
+  touchpoints:
+  - drug-and-therapeutics-committee
+  - clinical-workstation
+- slug: testing-the-rules
+  title: Testing the Rules
+  goal: Test prompts and order sets before release, so that they are accurate and not intrusive.
+  step: clinical-guidelines-and-pathways/knowledge-encoding
+  touchpoints:
+  - clinical-workstation
+  - decision-support-prompt
+- slug: learning-the-standard
+  title: Learning the Standard
+  goal: Learn what changed and find the current version in one place.
+  step: clinical-guidelines-and-pathways/approval-and-release
+  touchpoints:
+  - controlled-document-library
+  - learning-platform
+- slug: seeing-adherence
+  title: Seeing Adherence
+  goal: See adherence and outcomes, with deviations treated as information rather than misconduct.
+  step: clinical-guidelines-and-pathways/adherence-monitoring
+  touchpoints:
+  - quality-dashboard
+  - decision-support-prompt

@@ -1,0 +1,34 @@
+kind: journey
+slug: emergency-medical-service-handover-journey
+title: Emergency Medical Service Handover Journey
+stakeholder: emergency-medical-service
+summary: An ambulance crew chooses a receiving emergency department, pre-alerts it, hands over its patient and is released back to
+  service, or carries the patient onward when transfer is decided.
+stages:
+- slug: announce-the-patient
+  title: Announce the Patient
+  goal: See available capacity, pre-alert the team and hand over findings and treatment quickly on arrival.
+  step: emergency-care/pre-alert-and-arrival
+  touchpoints:
+  - capacity-board
+  - ambulance-handover
+- slug: be-released-to-service
+  title: Be Released to Service
+  goal: Have the patient accepted at triage and the crew released within the handover target.
+  step: emergency-care/triage
+  touchpoints:
+  - triage
+- slug: hand-over-the-critically-ill
+  title: Hand Over the Critically Ill
+  goal: Hand over directly to the resuscitation team without delay.
+  step: emergency-care/resuscitation-and-stabilisation
+  touchpoints:
+  - ambulance-handover
+  - resuscitation-room
+- slug: carry-the-patient-onward
+  title: Carry the Patient Onward
+  goal: Carry the patient to another hospital with the agreed escort and information when transfer is decided.
+  step: emergency-care/disposition-decision
+  touchpoints:
+  - transfer-coordination-centre
+  - patient-transport

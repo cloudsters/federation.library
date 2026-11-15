@@ -1,0 +1,80 @@
+kind: value-stream
+slug: thinking-to-shared-sense
+title: Making Sense Together
+family: collaboration-to-automation
+summary: Getting to an understanding together that none of the participants held on arrival — including with people who think differently
+  on purpose.
+trigger: A problem will not yield to one mind, or people who must act together each see something different and cannot yet say what.
+outcome: The people involved hold an understanding none of them brought in, and those who think differently helped shape it rather
+  than being outvoted.
+stakeholders:
+- collaborator
+- close-friend
+- partner
+- community
+- synthetic-collaborator
+steps:
+- slug: hitting-the-limit-of-one-mind
+  title: Hitting One Mind's Limit
+  summary: A problem will not yield to one mind, or people who must act together each see something different and cannot yet say what.
+  capabilities:
+  - noticing-the-limit-of-one-view
+  entities:
+  - conversation
+  - decision
+  serves:
+  - working-session
+- slug: bringing-different-minds-in
+  title: Bringing Different Minds In
+  summary: Inviting people who see the problem differently, including those who will disagree, and an agent where it can widen the
+    view.
+  capabilities:
+  - inviting-different-minds
+  entities:
+  - conversation
+  - agent
+  - friend
+  serves:
+  - talking-with-an-agent
+  - working-session
+- slug: laying-out-what-each-sees
+  title: Laying Out What Each Sees
+  summary: Each person says what they see and why before anyone argues, so the different pictures lie side by side.
+  capabilities:
+  - listening-to-the-other-side
+  - holding-several-views-at-once
+  - seeing-how-things-connect
+  entities:
+  - conversation
+  - journal
+  serves:
+  - working-session
+- slug: staying-in-the-mess
+  title: Staying in the Mess
+  summary: Bearing the stretch where nothing fits and nobody knows yet, without forcing an early answer just to end the discomfort.
+  capabilities:
+  - staying-with-not-knowing
+  entities:
+  - conversation
+  serves:
+  - working-session
+- slug: arriving-somewhere-new
+  title: Arriving Somewhere New
+  summary: Finding an understanding none of them brought in, and checking that each person can say it in their own words.
+  capabilities:
+  - making-sense-together
+  entities:
+  - conversation
+  - decision
+  serves:
+  - working-session
+- slug: writing-down-what-was-understood
+  title: Writing Down What Was Understood
+  summary: Recording what was understood and what is still open, so the sense made does not dissolve when the group parts.
+  capabilities:
+  - writing-for-a-later-reader
+  entities:
+  - journal
+  - pattern-log
+  serves:
+  - shared-document

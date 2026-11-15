@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-backlog-for-local-knowledge
+title: Neighbourhood Backlog for Local Knowledge
+between:
+- neighbourhood-association
+- asset-officer
+offered:
+- The association's knowledge of which streets, paths and buildings residents depend on and which have been neglected longest.
+returned:
+- The backlog of its neighbourhood explained in plain language, with the ranking it enters.
+touchpoint: neighbourhood-backlog-meeting

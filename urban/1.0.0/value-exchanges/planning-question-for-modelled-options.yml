@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: planning-question-for-modelled-options
+title: Planning Question for Modelled Options
+between:
+- city-planner
+- city-administration
+offered:
+- A planning question with the options to be tested.
+returned:
+- Options modelled in the digital twin and briefed with the uncertainty of each result.
+touchpoint: digital-twin-viewer

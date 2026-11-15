@@ -1,0 +1,41 @@
+kind: journey
+slug: resident-getting-affordable-connectivity
+title: Resident Getting Affordable Connectivity
+stakeholder: resident
+summary: A resident reports that access at home is missing or unaffordable, is connected when the network reaches the street, learns
+  the purpose of a sensor placed nearby and can object to it, reports an outage and takes part in the review of the network.
+stages:
+- slug: report-the-gap
+  title: Report the Gap
+  goal: The resident's lack of affordable, reliable access is on the city's map of gaps.
+  step: digital-infrastructure-and-connectivity/connectivity-gap-mapping
+  touchpoints:
+  - connectivity-survey
+  - connectivity-gap-map
+- slug: get-connected
+  title: Get Connected
+  goal: The resident's home is connected at a price they can pay, with help to get online.
+  step: digital-infrastructure-and-connectivity/network-build-and-connection
+  touchpoints:
+  - connection-request-desk
+  - home-connection-visit
+- slug: know-what-a-sensor-is-for
+  title: Know What a Sensor Is For
+  goal: The resident knows the purpose of a sensor placed in the street, and was heard before it was approved.
+  step: digital-infrastructure-and-connectivity/sensor-placement
+  touchpoints:
+  - sensor-notice-plate
+  - sensor-approval-hearing
+- slug: report-an-outage
+  title: Report an Outage
+  goal: The outage is recorded and repaired, and the resident learns when service returns.
+  step: digital-infrastructure-and-connectivity/network-upkeep-and-renewal
+  touchpoints:
+  - network-fault-line
+- slug: review-price-and-reliability
+  title: Review Price and Reliability
+  goal: The resident has judged access, price and reliability with neighbours and seen what the assembly decided.
+  step: digital-infrastructure-and-connectivity/network-review-with-neighbourhoods
+  touchpoints:
+  - network-review-assembly
+  - network-performance-report

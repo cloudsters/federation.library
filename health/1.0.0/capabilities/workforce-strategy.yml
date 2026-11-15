@@ -1,0 +1,10 @@
+kind: capability
+slug: workforce-strategy
+title: Workforce Strategy
+level: L2
+parent: workforce-strategy-and-planning
+summary: Setting people strategy, policies and the shape of the future workforce.
+binds:
+- source: src-239
+  edition: '2016'
+  jurisdiction: global

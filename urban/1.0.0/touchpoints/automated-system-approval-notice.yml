@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: automated-system-approval-notice
+title: Automated System Approval Notice
+medium: artefact
+summary: The published notice of a system's approval for a stated use, with its sunset date, the person who answers for it and the
+  human review it needs.
+exchanges:
+- time-limited-trust-for-a-published-sunset
+journey: city-administration-bringing-an-automated-system-under-assurance

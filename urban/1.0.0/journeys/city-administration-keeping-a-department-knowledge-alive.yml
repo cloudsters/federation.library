@@ -1,0 +1,55 @@
+kind: journey
+slug: city-administration-keeping-a-department-knowledge-alive
+title: City Administration Keeping a Department's Knowledge Alive
+stakeholder: city-administration
+summary: A department finds where its knowledge rests with one person, captures frontline expertise with those who hold it, curates
+  and opens it, joins communities of practice, builds lasting capacity through learning paths, exchanges with peer cities and hands
+  knowledge over before people leave.
+stages:
+- slug: find-where-knowledge-rests-with-one-person
+  title: Find Where Knowledge Rests with One Person
+  goal: The knowledge the department's work depends on is listed, with where it rests with one person and where capacity is missing.
+  step: knowledge-sharing-and-staff-learning/knowledge-gap-assessment
+  touchpoints:
+  - knowledge-risk-review
+- slug: capture-with-frontline-staff
+  title: Capture with Frontline Staff
+  goal: The everyday expertise of frontline staff is documented with them, credited to them and given weight in design decisions.
+  step: knowledge-sharing-and-staff-learning/frontline-knowledge-capture
+  touchpoints:
+  - knowledge-capture-interview
+- slug: curate-and-open
+  title: Curate and Open
+  goal: Knowledge is current, dated and sourced, open to staff, partners and where suitable residents, and outdated entries are retired.
+  step: knowledge-sharing-and-staff-learning/curation-and-access
+  touchpoints:
+  - staff-knowledge-base
+- slug: join-practice-across-departments
+  title: Join Practice Across Departments
+  goal: Staff who do similar work across departments and partners outside the administration meet regularly to share problems, failures
+    and solutions.
+  step: knowledge-sharing-and-staff-learning/communities-of-practice
+  touchpoints:
+  - community-of-practice-meeting
+- slug: build-lasting-capacity
+  title: Build Lasting Capacity
+  goal: Staff follow learning paths that join practice, mentoring and the expertise of research partners, so capacity is built in
+    rather than bought in.
+  step: knowledge-sharing-and-staff-learning/learning-paths
+  touchpoints:
+  - staff-learning-path-plan
+  - research-partner-teaching-session
+- slug: exchange-with-peer-cities
+  title: Exchange with Peer Cities
+  goal: Evidence, visits and staff are exchanged with peer cities, and what failed is shared as openly as what worked.
+  step: knowledge-sharing-and-staff-learning/peer-city-exchange
+  touchpoints:
+  - peer-city-staff-exchange
+- slug: hand-over-before-people-go
+  title: Hand Over Before People Go
+  goal: When a person changes role or leaves, what they know, their working relationships and their open matters are handed over and
+    recorded.
+  step: knowledge-sharing-and-staff-learning/knowledge-handover
+  touchpoints:
+  - knowledge-handover-meeting
+  - handover-record

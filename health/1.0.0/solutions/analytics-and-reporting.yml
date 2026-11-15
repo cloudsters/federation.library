@@ -1,0 +1,50 @@
+kind: solution
+slug: analytics-and-reporting
+title: Analytics and Reporting
+role: system-of-insight
+summary: Calculates measures and indicators from the organisation's data, builds dashboards and benchmarks for every level
+  from unit to board, and delivers mandatory quality and performance reports.
+carries:
+- business-intelligence-and-reporting
+- clinical-data-warehouse
+- predictive-analytics
+- whole-system-state-perception
+- drift-and-vitality-sensing
+- demand-and-market-analysis
+- performance-benchmarking
+- integrated-performance-review
+- impact-measurement-design
+- process-performance-management
+- process-mining-discovery
+- quality-indicator-governance
+- mandatory-quality-reporting
+- clinical-outcome-tracking
+- complication-and-mortality-tracking
+- outcome-benchmarking
+- nurse-sensitive-outcome-monitoring
+- patient-experience-measurement
+- ranking-and-rating-management
+- workforce-reporting
+- workforce-analytics-deployment
+- financial-performance-management
+- denial-reporting
+- referral-volume-forecasting
+- occupancy-forecasting
+- theatre-utilisation-optimisation
+- clinical-risk-sensing
+- data-quality-management
+holds:
+- measure
+- measure-report
+- dashboard
+- benchmark
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,35 @@
+kind: entity
+slug: presentation
+title: Presentation
+type: transactional
+summary: An occasion on which this person spoke to a room — keynote, workshop, lecture, pitch, webinar. Held because it is where standing
+  is most quickly made and most quickly lost.
+attributes:
+- name: occasion
+  type: code
+  card: 1..1
+- name: where
+  type: text
+  card: 1..1
+- name: held-on
+  type: date
+  card: 1..1
+- name: about
+  type: text
+  card: 1..1
+- name: to
+  type: reference(audience-relation)
+  card: 0..1
+- name: what-landed
+  type: text
+  card: 0..*
+states:
+- invited
+- prepared
+- given
+- followed up
+relations:
+- target: standing
+  type: serves
+- target: body-of-work
+  type: based-on

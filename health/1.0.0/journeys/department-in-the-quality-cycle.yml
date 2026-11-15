@@ -1,0 +1,45 @@
+kind: journey
+slug: department-in-the-quality-cycle
+title: Department in the Quality Cycle
+stakeholder: head-of-clinical-department
+summary: 'How a clinical department experiences the quality management system: from receiving its objectives through audit and corrective
+  action to holding its share of the certificate.'
+stages:
+- slug: receiving-quality-objectives
+  title: Receiving Quality Objectives
+  goal: Know which quality objectives and requirements apply to the department and who owns each.
+  step: quality-management-system/quality-policy-and-objectives
+  touchpoints:
+  - management-review-meeting
+  - controlled-document-library
+- slug: keeping-documents-current
+  title: Keeping Documents Current
+  goal: Find every valid procedure in one place and keep the department's own documents approved and current.
+  step: quality-management-system/document-control
+  touchpoints:
+  - controlled-document-library
+- slug: being-audited
+  title: Being Audited
+  goal: Experience the audit as a fair, competent review that yields findings the team can use.
+  step: quality-management-system/internal-audit
+  touchpoints:
+  - internal-audit-visit
+- slug: closing-findings
+  title: Closing Findings
+  goal: Remove the causes of findings with actions the team owns, and see that they worked.
+  step: quality-management-system/non-conformance-and-corrective-action
+  touchpoints:
+  - corrective-action-tracker
+- slug: reporting-results
+  title: Reporting Results
+  goal: Have the department's results and needs heard in the management review and receive clear decisions.
+  step: quality-management-system/management-review
+  touchpoints:
+  - management-review-meeting
+- slug: holding-certification
+  title: Holding Certification
+  goal: Pass external audits without disruption and hold a certificate that referrers and patients recognise.
+  step: quality-management-system/external-certification
+  touchpoints:
+  - inspection-and-audit
+  - quality-certificate

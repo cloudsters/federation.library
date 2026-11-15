@@ -1,0 +1,31 @@
+kind: journey
+slug: controller-supplying-and-using-analytical-data
+title: Controller Supplying and Using Analytical Data
+stakeholder: finance-professional
+summary: A controller makes operational and financial data available with their meaning, helps validate them, uses the analysis in
+  planning and relies on reports whose figures reconcile with the books.
+stages:
+- slug: open-the-source-data
+  title: Open the Source Data
+  goal: Financial and operational data reach the analytical platform with their definitions and an owner who answers for them.
+  step: intelligence-cultivation/data-collection
+  touchpoints:
+  - analytics-platform
+- slug: confirm-data-quality
+  title: Confirm Data Quality
+  goal: Errors found in preparation are traced back to the source and corrected there, not only in the copy.
+  step: intelligence-cultivation/data-preparation
+  touchpoints:
+  - analytics-platform
+- slug: read-the-analysis-for-planning
+  title: Read the Analysis for Planning
+  goal: The analysis informs forecasts and budgets, and its assumptions are understood.
+  step: intelligence-cultivation/analysis-and-sense-making
+  touchpoints:
+  - sense-making-workshop
+- slug: rely-on-reconciled-reports
+  title: Rely on Reconciled Reports
+  goal: Reported figures reconcile with the books, and the decisions taken on them are visible in the plan.
+  step: intelligence-cultivation/insight-reporting
+  touchpoints:
+  - insight-report

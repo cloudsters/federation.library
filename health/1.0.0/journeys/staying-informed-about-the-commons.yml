@@ -1,0 +1,37 @@
+kind: journey
+slug: staying-informed-about-the-commons
+title: Staying Informed About the Commons
+stakeholder: general-public
+summary: 'The public''s side of communication: hearing news and crises from the commons itself, receiving answers to public reviews
+  and reading honest results.'
+stages:
+- slug: raising-a-voice
+  title: Raising a Voice
+  goal: Have a public review or concern noticed by the commons.
+  step: public-communication-and-reputation/issue-and-reputation-sensing
+  touchpoints:
+  - rating-and-review-platform
+  - social-media-channel
+- slug: hearing-it-first
+  title: Hearing It First
+  goal: Learn about news and crises from the commons promptly and accurately, not only from rumour.
+  step: public-communication-and-reputation/release-and-media-dialogue
+  touchpoints:
+  - public-website
+  - social-media-channel
+  - media-statement
+- slug: getting-an-answer
+  title: Getting an Answer
+  goal: Receive a respectful public answer and a route to raise the concern personally.
+  step: public-communication-and-reputation/review-and-ranking-response
+  touchpoints:
+  - rating-and-review-platform
+  - feedback-and-complaints-channel
+- slug: reading-the-results
+  title: Reading the Results
+  goal: Find understandable results on quality, safety and access that allow comparison with other providers.
+  step: public-communication-and-reputation/public-performance-reporting
+  touchpoints:
+  - public-quality-report
+  - annual-report
+  - public-website

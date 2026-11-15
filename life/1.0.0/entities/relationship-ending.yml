@@ -1,0 +1,34 @@
+kind: entity
+slug: relationship-ending
+title: Relationship Ending
+type: transactional
+summary: The point a significant relation ended — by separation, by drift, by decision, or by death. Recorded with whether it was
+  chosen, which is the fact that most changes what follows.
+attributes:
+- name: with
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 0..1
+- name: how
+  type: code
+  card: 1..1
+- name: chosen
+  type: boolean
+  card: 1..1
+- name: marked-by
+  type: reference(ritual)
+  card: 0..1
+- name: what-followed
+  type: text
+  card: 0..*
+states:
+- drifting
+- ending
+- ended
+- grieved
+- carried
+relations:
+- target: relationship-map
+  type: about

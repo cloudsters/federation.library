@@ -1,0 +1,21 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: model
+model: health
+source: Commons-Engineering/health.core@7094d05c0ea529d63aa674ffd5ce2356b35085f0:models/emulation/health
+written_in: commons-engineering/commons@0.3.0
+library: commons-engineering
+version: 1.0.0
+made_in: Commons-Engineering/health.core@7094d05c0ea529d63aa674ffd5ce2356b35085f0
+event: Commons-Engineering/health.core@7094d05c0ea529d63aa674ffd5ce2356b35085f0:lifecycle/events/2026-11-15-release-health-1.0.0.yml
+gate:
+  result: pass
+  check: Commons-Engineering/health.core@7094d05:models/commons/commons-engineering/commons/specs/tools/check_library.py
+changed:
+- model
+parts:
+  model:
+    class: public
+    digest: sha256:0cc8f2a98fda6ae355a603feaed043e036de51f6625943c9aa4deeb686ed0eac
+licence: CC-BY-SA-4.0
+answers: cloudsters/federation.library
+renames: {}

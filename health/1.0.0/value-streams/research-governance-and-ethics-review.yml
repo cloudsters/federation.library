@@ -1,0 +1,139 @@
+kind: value-stream
+slug: research-governance-and-ethics-review
+title: Research Governance and Ethics Review
+family: discovery-to-usage
+summary: 'Ensuring that research is ethical, lawful and sound: ethics review, sponsor and regulatory approvals, data protection review,
+  research integrity, oversight of approved studies and the handling of misconduct allegations.'
+trigger: A research project is submitted for approval, or an approved study reports a change, an event or a concern.
+outcome: The project holds all approvals and is overseen until completion, or the concern is investigated and resolved.
+stakeholders:
+- research-ethics-committee
+- clinician-scientist
+- research-scientist
+- research-manager
+- data-protection-officer
+- health-regulator
+- research-participant
+- executive
+steps:
+- slug: submission
+  title: Submission
+  summary: The investigator submits the project with protocol, participant information, consent forms, data protection concept and
+    funding, and the research office checks completeness, sponsorship and insurance.
+  capabilities:
+  - ethics-committee-governance
+  - investigator-initiated-trial-sponsorship
+  - research-consent-management
+  - insurance-management
+  entities:
+  - research-study
+  - study-protocol
+  - study-review
+  serves:
+  - research-submission-portal
+- slug: ethics-review
+  title: Ethics Review
+  summary: The research ethics committee weighs scientific value, risks and burdens, the selection of participants, and the information
+    and consent they receive, and approves, approves with conditions or rejects.
+  capabilities:
+  - ethics-committee-governance
+  - research-consent-management
+  - biostatistics-support
+  - decision-aids-and-health-literacy
+  entities:
+  - study-review
+  - study-protocol
+  - informed-consent
+  - data-use-consent
+  serves:
+  - consent-form
+  - research-ethics-committee-meeting
+  - participant-information-sheet
+- slug: regulatory-and-data-protection-review
+  title: Regulatory and Data Protection Review
+  summary: Approval of the competent authority is obtained where medicines, devices or radiation are involved, the data protection
+    impact is assessed and recorded, and animal research is authorised.
+  capabilities:
+  - privacy-impact-management
+  - data-protection-governance
+  - radiation-protection
+  - animal-research-oversight
+  - licence-and-permit-management
+  entities:
+  - study-review
+  - data-processing-record
+  - compliance-obligation
+  serves:
+  - research-submission-portal
+- slug: institutional-authorisation
+  title: Institutional Authorisation
+  summary: The organisation confirms resources, contracts, insurance and the absence of unmanaged conflicts of interest, and authorises
+    the study to start.
+  capabilities:
+  - industry-research-contracting
+  - contract-lifecycle-stewardship
+  - anti-corruption-and-conflicts-of-interest
+  - delegation-of-authority
+  entities:
+  - contract
+  - research-study
+  - governance-decision
+  serves:
+  - research-collaboration-agreement
+- slug: ongoing-oversight
+  title: Ongoing Oversight
+  summary: Amendments, safety reports, protocol deviations and annual reports are reviewed until completion, and studies are audited
+    by risk so that approvals remain valid in practice.
+  capabilities:
+  - ethics-committee-governance
+  - trial-safety-reporting
+  - audit-lifecycle-management
+  - compliance-assurance
+  entities:
+  - study-review
+  - study-adverse-event
+  - audit
+  - audit-finding
+  serves:
+  - inspection-and-audit
+  - research-submission-portal
+- slug: integrity-concern-handling
+  title: Integrity Concern Handling
+  summary: Concerns about scientific misconduct are received in confidence, reviewed and, where warranted, investigated by an independent
+    panel, ending in sanctions, corrections of the record and protection of those who raised them.
+  capabilities:
+  - research-integrity
+  - whistleblower-protection
+  - legal-advisory
+  - research-publication
+  entities:
+  - research-integrity-case
+  - publication
+  - corrective-action
+  serves:
+  - research-integrity-consultation
+- slug: closure-and-reporting
+  title: Closure and Reporting
+  summary: The end of the study is notified, final reports are submitted to the committee and the authorities, results are registered,
+    and study records are archived for their retention period.
+  capabilities:
+  - clinical-trial-management
+  - regulatory-reporting
+  - research-publication
+  - record-retention-and-archiving
+  entities:
+  - research-study
+  - study-review
+  - publication
+  serves:
+  - study-register-entry
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-513
+  edition: '2023'
+  jurisdiction: global

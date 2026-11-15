@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: code-audits-for-open-improvement
+title: Code Audits for Open Improvement
+between:
+- civic-technology-community
+- city-administration
+offered:
+- Audits of the city's code and improvements to it.
+returned:
+- Code, interfaces and data schemas published openly, and improvements taken back.
+touchpoint: city-code-repository-site

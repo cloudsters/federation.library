@@ -1,0 +1,10 @@
+kind: capability
+slug: nuclear-medicine
+title: Nuclear Medicine
+level: L3
+parent: interventional-and-nuclear-imaging
+summary: Perform nuclear medicine diagnostics and radionuclide therapy.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global

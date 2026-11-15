@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: closure-notice-for-kept-records
+title: Closure Notice for Kept Records
+between:
+- city-administration
+- resident
+offered:
+- Notice of when a system closes and where its records go.
+returned:
+- Residents who find their records in the new service and can still request them.
+touchpoint: retirement-notice

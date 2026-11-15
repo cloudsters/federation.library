@@ -1,0 +1,10 @@
+kind: capability
+slug: ai-governance-framework
+title: AI Governance Framework
+level: L3
+parent: ai-governance-and-assurance
+summary: Define mandates, accountabilities and approval rules for the use of AI in the organisation.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,64 @@
+kind: entity
+slug: school-admission
+title: School Admission
+type: transactional
+summary: The allocation of a school place to a child, from the family's request to the place offered, with the rule by which it was
+  given. The body responsible records it, and families may ask for its review.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: child
+  type: identifier
+  card: 1..1
+- name: family-contact
+  type: text
+  card: 1..1
+- name: school-year
+  type: period
+  card: 1..1
+- name: preferences
+  type: reference(school)
+  card: 1..*
+- name: additional-needs
+  type: text
+  card: 0..*
+- name: allocation-criterion
+  type: code
+  card: 1..1
+- name: offered-school
+  type: reference(school)
+  card: 0..1
+- name: offered-on
+  type: date
+  card: 0..1
+- name: school-route
+  type: reference(street)
+  card: 0..*
+- name: review-requested
+  type: boolean
+  card: 0..1
+- name: decided-by
+  type: text
+  card: 1..1
+states:
+- requested
+- assessed
+- offered
+- accepted
+- declined
+- under-review
+- closed
+relations:
+- type: refers-to
+  target: school
+- type: refers-to
+  target: early-years-setting
+- type: governed-by
+  target: school-place-plan
+- type: refers-to
+  target: street
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

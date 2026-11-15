@@ -1,0 +1,176 @@
+kind: value-stream
+slug: telemedicine-network
+title: Telemedicine Network
+family: proposition-to-audience
+summary: 'Extending specialist expertise to other providers at a distance: teleconsultation, remote stroke and intensive care support,
+  teleradiology and remote participation of partners in case conferences.'
+trigger: A partner provider needs specialist input that it cannot provide on site.
+outcome: The partner has received a timely, documented specialist recommendation, and the service is accounted for.
+stakeholders:
+- referring-hospital
+- referring-practice
+- emergency-patient
+- critically-ill-patient
+- person-with-cancer
+- specialist-physician
+- diagnostic-physician
+- health-informatics-specialist
+steps:
+- slug: teleconsultation-request
+  title: Teleconsultation Request
+  summary: Receive the partner's request through the telemedicine link with the clinical question, the urgency, the patient's identity
+    and consent, and the data and images the specialist needs.
+  capabilities:
+  - telemedicine-network-operation
+  - referral-intake-management
+  - secure-clinical-messaging
+  - master-patient-index
+  - national-health-network-connectivity
+  entities:
+  - request-for-care
+  - teleconsultation
+  - patient
+  - image-study
+  - referral-relationship
+  - request-mandate
+  serves:
+  - consent-form
+  - referrer-portal
+  - telemedicine-service
+- slug: acceptance-and-responsibility
+  title: Acceptance and Responsibility
+  summary: Route the request to the duty specialist of the right discipline, accept it within the agreed response time and confirm
+    where clinical responsibility lies during and after the consultation.
+  capabilities:
+  - telemedicine-network-operation
+  - on-call-and-night-duty-organisation
+  - time-critical-pathway-activation
+  - specialist-teleconsultation
+  entities:
+  - teleconsultation
+  - care-commitment
+  - practitioner-role
+  - shift-assignment
+  serves:
+  - telemedicine-service
+- slug: remote-assessment
+  title: Remote Assessment
+  summary: Review history, findings and images, examine the patient by video together with the local team where needed, and read images
+    or slides at a distance.
+  capabilities:
+  - specialist-teleconsultation
+  - video-consultation
+  - teleradiology
+  - radiological-reporting
+  - digital-pathology
+  - finding-integration
+  - differential-diagnosis-reasoning
+  entities:
+  - teleconsultation
+  - image-study
+  - observation
+  - diagnostic-report
+  - patient-summary
+  serves:
+  - diagnostic-report
+  - telemedicine-service
+- slug: treatment-recommendation
+  title: Treatment Recommendation
+  summary: 'Agree a recommendation with the partner team, alone or in a case conference with remote participants: treatment on site,
+    further investigation or transfer, with the evidence and the urgency.'
+  capabilities:
+  - specialist-teleconsultation
+  - multidisciplinary-tumour-board
+  - clinical-pathway-application
+  - stroke-unit-care
+  - shared-decision-making-practice
+  entities:
+  - teleconsultation
+  - case-conference
+  - care-plan
+  - care-communication
+  serves:
+  - multidisciplinary-case-conference
+  - teleconsultation-report
+- slug: remote-treatment-support
+  title: Remote Treatment Support
+  summary: 'Support the partner team while it treats: decisions on time-critical therapy, adjustment of organ support in remote intensive
+    care rounds and review of the response to treatment.'
+  capabilities:
+  - specialist-teleconsultation
+  - telemedicine-network-operation
+  - organ-support-therapy
+  - acute-cardiac-care
+  - deterioration-recognition-and-response
+  entities:
+  - teleconsultation
+  - observation
+  - clinical-order
+  - care-plan
+  serves:
+  - remote-ward-round
+  - telemedicine-service
+- slug: transfer-decision
+  title: Transfer Decision
+  summary: Decide with the partner whether care continues locally or the patient is transferred, and where transfer is needed secure
+    a bed, the right escort and a complete handover of information.
+  capabilities:
+  - interhospital-transfer
+  - intensive-care-capacity-coordination
+  - bed-coordination-and-placement
+  - emergency-network-coordination
+  - care-transition-coordination
+  entities:
+  - care-transition
+  - bed-assignment
+  - capacity-status
+  - referral
+  serves:
+  - referral-letter
+  - telemedicine-service
+- slug: documentation-and-return
+  title: Documentation and Return
+  summary: Document the advice and the split of responsibility in both records, return the consultation report to the partner and
+    record the service for charging under the cooperation agreement.
+  capabilities:
+  - clinical-documentation-at-point-of-care
+  - secure-clinical-messaging
+  - health-record-management
+  - charge-capture
+  - tariff-and-price-management
+  entities:
+  - teleconsultation
+  - clinical-document
+  - care-communication
+  - charge-item
+  - invoice
+  serves:
+  - clinical-messaging-service
+  - teleconsultation-report
+- slug: network-service-review
+  title: Network Service Review
+  summary: Review response times, availability, the share of recommendations followed, transfers avoided and outcomes with the partners,
+    and adjust the duty rota, the technology and the agreement.
+  capabilities:
+  - network-partnership-governance
+  - it-service-level-management
+  - clinical-outcome-tracking
+  - business-intelligence-and-reporting
+  - contract-lifecycle-stewardship
+  entities:
+  - measure-report
+  - network-membership
+  - contract
+  - referral-relationship
+  serves:
+  - care-network-meeting
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global

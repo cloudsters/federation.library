@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: built-in-quality-checklist
+title: Built-In Quality Checklist
+medium: artefact
+summary: The simple checks built into a standard procedure, so that staff catch errors as the work is done.
+exchanges:
+- in-work-checks-for-errors-caught-early
+journey: frontline-worker-reporting-a-near-miss-without-blame

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: share-register
+title: Share Register
+medium: artefact
+summary: The register of the company's shareholders, their holdings, transfers and capital changes.
+exchanges:
+- recorded-ownership-for-secure-title
+journey: investor-taking-a-stake-without-taking-control

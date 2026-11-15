@@ -1,0 +1,26 @@
+kind: journey
+slug: sales-representative-feeding-and-using-market-insight
+title: Sales Representative Feeding and Using Market Insight
+stakeholder: sales-representative
+summary: A sales representative passes on what customers say and what competitors do, and uses the published market picture to prepare
+  better conversations.
+stages:
+- slug: report-what-customers-say
+  title: Report What Customers Say
+  goal: Needs and buying behaviour heard in customer meetings reach the research.
+  step: market-stakeholder-sensing/market-and-customer-research
+  touchpoints:
+  - sales-meeting
+- slug: report-competitor-moves
+  title: Report Competitor Moves
+  goal: Competitor offers and prices met in the field are reported while they are current.
+  step: market-stakeholder-sensing/competitor-tracking
+  touchpoints:
+  - sales-meeting
+  - trade-fair
+- slug: use-the-picture
+  title: Use the Picture
+  goal: The seller works from the current picture of segments, competitors and opportunities.
+  step: market-stakeholder-sensing/market-picture-publication
+  touchpoints:
+  - market-picture

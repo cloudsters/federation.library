@@ -1,0 +1,28 @@
+kind: solution
+slug: spend-analysis-system
+title: Spend Analysis System
+role: system-of-insight
+summary: Brings together what the city, its municipal enterprises and its purchasing partners bought, from whom and where the money
+  landed, and analyses spend by category, supplier ownership and region, the embedded carbon of purchases, local spend against targets
+  and what joint purchasing saved.
+carries:
+- spend-and-demand-analysis
+- category-strategy-setting
+- procurement-plan-publication
+- local-supply-gap-mapping
+- local-spend-reporting
+- embedded-carbon-assessment
+- circular-purchasing-reporting
+- shared-demand-identification
+- shared-savings-allocation
+- whole-life-cost-assessment
+holds:
+- spend-profile
+- procurement-category
+- category-strategy
+- procurement-plan
+- local-spend-report
+- circular-purchasing-report
+- whole-life-cost-calculation
+- alliance-review-report
+- purchasing-commitment

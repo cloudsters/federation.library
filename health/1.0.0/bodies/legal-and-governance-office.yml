@@ -1,0 +1,12 @@
+kind: body
+slug: legal-and-governance-office
+title: Legal and Governance Office
+summary: Gives legal advice, manages contracts, disputes and liability claims, serves the governance bodies and their reporting,
+  and keeps the commons' policies and delegations of authority current.
+holds:
+- legal-services
+- governance-bodies
+- policy-and-decision-rights
+part_of: executive-board
+type: function
+form: organisational-unit

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: open-facility-booking-calendar
+title: Open Facility Booking Calendar
+medium: channel
+summary: The one open calendar in which time in halls, pools and pitches is booked and the allocation between users can be seen.
+exchanges:
+- booked-time-for-a-fair-share
+journey: sports-club-sharing-facilities-fairly

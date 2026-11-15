@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: postnatal-handover-for-care-at-home
+title: Postnatal Handover for Care at Home
+between:
+- midwife
+- follow-on-care-provider
+offered:
+- A complete handover of the birth, the findings, the screening status and the open points for mother and newborn.
+returned:
+- Home visits in the first days and weeks, and early return to the commons when complications arise.
+touchpoint: discharge-letter

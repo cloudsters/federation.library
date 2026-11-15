@@ -1,0 +1,53 @@
+kind: entity
+slug: data-access-request
+title: Data Access Request
+type: transactional
+summary: A request by a researcher or project to use defined data or samples for a stated purpose, reviewed by an access committee
+  against consent, law and scientific merit before a data-use agreement is concluded.
+attributes:
+- name: applicant-organisation
+  type: reference(organisation)
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: requested-datasets
+  type: reference(dataset)
+  card: 0..*
+- name: requested-samples
+  type: reference(biobank-sample)
+  card: 0..*
+- name: research-study
+  type: reference(research-study)
+  card: 0..1
+- name: reviewing-body
+  type: reference(governance-body)
+  card: 1..1
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+states:
+- submitted
+- under-review
+- approved
+- approved-with-conditions
+- rejected
+- withdrawn
+relations:
+- type: refers-to
+  target: dataset
+- type: produces
+  target: data-use-agreement
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: learner-skill-record
+title: Learner Skill Record
+medium: artefact
+summary: The record a learner holds of the skills recognised in practice, by peer attestation and by credentials, which employers
+  and practitioners accept.
+exchanges:
+- shown-skill-for-a-credential-employers-accept
+- skill-needs-for-recognised-learners
+journey: job-seeker-learning-towards-secure-work

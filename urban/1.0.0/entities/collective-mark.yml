@@ -1,0 +1,56 @@
+kind: entity
+slug: collective-mark
+title: Collective Mark
+type: governance
+summary: The name, mark and quality standards held in common by the producers of a place or craft, with the rules by which members
+  are licensed to use them. The producers' body holds it and a practitioner committee sets and reviews the standards, and it is used
+  to license members by open rules so that no single firm can own the name.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: mark
+  type: document
+  card: 1..1
+- name: place-or-craft
+  type: text
+  card: 1..1
+- name: held-by
+  type: text
+  card: 1..1
+- name: network
+  type: reference(business-network)
+  card: 0..1
+- name: quality-standards
+  type: document
+  card: 1..1
+- name: standards-committee
+  type: text
+  card: 1..1
+- name: licensing-rules
+  type: text
+  card: 1..1
+- name: licensed-members
+  type: integer
+  card: 0..1
+- name: registration-number
+  type: identifier
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 0..1
+- name: jurisdiction
+  type: code
+  card: 0..1
+states:
+- proposed
+- standards-set
+- registered
+- licensing
+- suspended
+- lapsed
+relations:
+- type: governed-by
+  target: cluster-agreement
+- type: assigned-to
+  target: business-network

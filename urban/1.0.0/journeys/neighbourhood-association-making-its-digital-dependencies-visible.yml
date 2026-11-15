@@ -1,0 +1,36 @@
+kind: journey
+slug: neighbourhood-association-making-its-digital-dependencies-visible
+title: Neighbourhood Association Making Its Digital Dependencies Visible
+stakeholder: neighbourhood-association
+summary: A neighbourhood association maps with residents and staff the systems its neighbourhood depends on, comments on the draft
+  strategy, secures what the neighbourhood holds and decides in the target architecture and reviews each year whether the systems
+  serve it.
+stages:
+- slug: map-what-the-neighbourhood-depends-on
+  title: Map What the Neighbourhood Depends On
+  goal: The fibre routes, masts, servers and services the neighbourhood depends on are visible, with the places where one failure
+    would stop essential services.
+  step: digital-strategy-and-systems-architecture/digital-dependency-mapping
+  touchpoints:
+  - dependency-mapping-workshop
+  - published-dependency-map
+- slug: comment-on-the-draft-strategy
+  title: Comment on the Draft Strategy
+  goal: The association has said what the strategy should promise the neighbourhood before it is adopted.
+  step: digital-strategy-and-systems-architecture/digital-strategy-setting
+  touchpoints:
+  - draft-digital-strategy
+- slug: claim-the-neighbourhood-scale
+  title: Claim the Neighbourhood Scale
+  goal: The architecture names the systems and data the neighbourhood holds and decides itself, rather than drawing them all to the
+    centre.
+  step: digital-strategy-and-systems-architecture/target-architecture-design
+  touchpoints:
+  - architecture-design-session
+  - published-target-architecture
+- slug: review-what-the-systems-delivered
+  title: Review What the Systems Delivered
+  goal: The neighbourhood's account of what the systems delivered and where they failed is part of the yearly review.
+  step: digital-strategy-and-systems-architecture/digital-strategy-review
+  touchpoints:
+  - digital-strategy-review-session

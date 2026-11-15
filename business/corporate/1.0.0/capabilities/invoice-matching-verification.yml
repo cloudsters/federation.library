@@ -1,0 +1,7 @@
+kind: capability
+slug: invoice-matching-verification
+title: Three-Way Invoice Matching & Verification
+level: L3
+parent: payables-and-expenses
+summary: 'Trust but verify — automated matching of purchase order, goods receipt, and vendor invoice to detect discrepancies before
+  payment. Three-way matching is the system’s integrity check: did we order this, did we receive it, and does the invoice match?'

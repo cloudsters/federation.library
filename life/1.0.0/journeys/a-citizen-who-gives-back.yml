@@ -1,0 +1,21 @@
+kind: journey
+slug: a-citizen-who-gives-back
+title: A Citizen Who Gives Back
+stakeholder: authority
+via: source-to-alliance
+summary: The state and its offices receive from this person an account of what the life draws and puts back, and a contribution made
+  as a member with a voice rather than as a customer.
+stages:
+- slug: receive-the-account
+  title: Receive the Account
+  goal: What the person draws on and puts back in tax is set down in the papers the office receives.
+  step: commons-to-obligation/tracing-what-the-life-draws
+  touchpoints:
+  - official-papers
+- slug: receive-a-voice
+  title: Receive a Voice
+  goal: The vote has been cast and the seat or task taken up by a member who claims a say.
+  step: commons-to-obligation/giving-back-as-a-member
+  touchpoints:
+  - the-ballot
+  - where-the-group-decides

@@ -1,0 +1,58 @@
+kind: entity
+slug: cooling-place
+title: Cooling Place
+type: master
+summary: A cool, shaded place open to residents during heat waves, such as a library, community centre or park, with its hours and
+  access. The health office keeps the list with the places that host them, and opens them in every neighbourhood when a heat warning
+  is issued.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: place-kind
+  type: code
+  card: 1..1
+- name: host-facility
+  type: reference(library|community-centre|park|public-space)
+  card: 0..1
+- name: address
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: opening-hours
+  type: text
+  card: 1..1
+- name: heat-wave-hours
+  type: text
+  card: 0..1
+- name: capacity
+  type: integer
+  card: 0..1
+- name: access-features
+  type: code
+  card: 0..*
+- name: amenities
+  type: code
+  card: 0..*
+states:
+- proposed
+- designated
+- on-standby
+- open
+- closed
+- withdrawn
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: library
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: park
+- type: refers-to
+  target: health-alert
+- type: governed-by
+  target: emergency-plan

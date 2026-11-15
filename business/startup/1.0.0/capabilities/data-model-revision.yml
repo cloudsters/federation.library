@@ -1,0 +1,7 @@
+kind: capability
+slug: data-model-revision
+title: Data Model Revision
+level: L3
+parent: data-governance
+summary: Apply the changes that stakeholder review calls for to a data model, version them, re-validate dependent analyses and explain
+  what changed, so the model stays faithful without breaking work built on it.

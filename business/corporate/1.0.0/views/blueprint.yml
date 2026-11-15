@@ -1,0 +1,2586 @@
+# the extension's blueprint sections (the run's forms, part E), derived at release; never edited by hand
+sections:
+- id: business.value-stream.boundary-sensing-identity-design
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: boundary-sensing-identity-design
+  cardinality: one
+  labels:
+    en: Boundary Sensing & Identity Design
+- id: business.value-stream.compliance-as-integrity
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: compliance-as-integrity
+  cardinality: one
+  labels:
+    en: Compliance as Integrity
+- id: business.value-stream.ethical-practice-design
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: ethical-practice-design
+  cardinality: one
+  labels:
+    en: Ethical Practice Design
+- id: business.value-stream.remediation-healing
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: remediation-healing
+  cardinality: one
+  labels:
+    en: Remediation & Repair
+- id: business.value-stream.resilience-architecture
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: resilience-architecture
+  cardinality: one
+  labels:
+    en: Resilience Architecture
+- id: business.value-stream.risk-as-immune-response
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: risk-as-immune-response
+  cardinality: one
+  labels:
+    en: Risk Sensing & Treatment
+- id: business.value-stream.change-as-evolution
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: change-as-evolution
+  cardinality: one
+  labels:
+    en: Change as Evolution
+- id: business.value-stream.digital-immune-design
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-immune-design
+  cardinality: one
+  labels:
+    en: System Resilience & Digital Protection Design
+- id: business.value-stream.information-as-lifeblood
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: information-as-lifeblood
+  cardinality: one
+  labels:
+    en: Information Held in Trust
+- id: business.value-stream.intelligence-cultivation
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: intelligence-cultivation
+  cardinality: one
+  labels:
+    en: Intelligence Building
+- id: business.value-stream.interoperability-and-connectivity
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: interoperability-and-connectivity
+  cardinality: one
+  labels:
+    en: Interoperability and Connectivity
+- id: business.value-stream.solution-lifecycle-design
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: solution-lifecycle-design
+  cardinality: one
+  labels:
+    en: Solution Lifecycle Design
+- id: business.value-stream.stakeholder-technology-relationship
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: stakeholder-technology-relationship
+  cardinality: one
+  labels:
+    en: Stakeholder-Technology Relationship
+- id: business.value-stream.support-as-care
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: support-as-care
+  cardinality: one
+  labels:
+    en: Support as Care
+- id: business.value-stream.technology-strategy-alignment
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: technology-strategy-alignment
+  cardinality: one
+  labels:
+    en: Technology Strategy as Purpose Alignment
+- id: business.value-stream.initiative-cultivation
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: initiative-cultivation
+  cardinality: one
+  labels:
+    en: Initiative Development
+- id: business.value-stream.mergers-and-acquisitions
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: mergers-and-acquisitions
+  cardinality: one
+  labels:
+    en: Mergers and Acquisitions
+- id: business.value-stream.portfolio-programme-orchestration
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: portfolio-programme-orchestration
+  cardinality: one
+  labels:
+    en: Portfolio & Programme Orchestration
+- id: business.value-stream.strategy-as-living-design
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: strategy-as-living-design
+  cardinality: one
+  labels:
+    en: Adaptive Strategy Design
+- id: business.value-stream.value-model-stewardship
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: value-model-stewardship
+  cardinality: one
+  labels:
+    en: Value Model Stewardship
+- id: business.value-stream.capital-stewardship
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: capital-stewardship
+  cardinality: one
+  labels:
+    en: Capital Stewardship
+- id: business.value-stream.fiscal-responsibility-contribution
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: fiscal-responsibility-contribution
+  cardinality: one
+  labels:
+    en: Fiscal Responsibility & Contribution
+- id: business.value-stream.global-value-consolidation
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: global-value-consolidation
+  cardinality: one
+  labels:
+    en: Global Value Consolidation
+- id: business.value-stream.internal-integrity-controls
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: internal-integrity-controls
+  cardinality: one
+  labels:
+    en: Internal Integrity Controls
+- id: business.value-stream.revenue-architecture
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: revenue-architecture
+  cardinality: one
+  labels:
+    en: Revenue Architecture
+- id: business.value-stream.transparency-reporting
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: transparency-reporting
+  cardinality: one
+  labels:
+    en: Transparency & Reporting
+- id: business.value-stream.treasury-as-circulation
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: treasury-as-circulation
+  cardinality: one
+  labels:
+    en: Treasury & Cash Steering
+- id: business.value-stream.value-stewardship-accounting
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: value-stewardship-accounting
+  cardinality: one
+  labels:
+    en: Value Sensing & Stewardship Accounting
+- id: business.value-stream.change-as-growth
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: change-as-growth
+  cardinality: one
+  labels:
+    en: Change as Growth
+- id: business.value-stream.ecological-health-safety
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: ecological-health-safety
+  cardinality: one
+  labels:
+    en: Ecological Health & Safety
+- id: business.value-stream.knowledge-as-commons
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: knowledge-as-commons
+  cardinality: one
+  labels:
+    en: Knowledge as Commons
+- id: business.value-stream.process-as-living-pattern
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: process-as-living-pattern
+  cardinality: one
+  labels:
+    en: Process Ownership and Improvement
+- id: business.value-stream.quality-as-vitality
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: quality-as-vitality
+  cardinality: one
+  labels:
+    en: Quality in the Flow of Work
+- id: business.value-stream.regenerative-practice
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: regenerative-practice
+  cardinality: one
+  labels:
+    en: Regenerative Practice
+- id: business.value-stream.sensing-benchmarking
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: sensing-benchmarking
+  cardinality: one
+  labels:
+    en: Sensing & Benchmarking
+- id: business.value-stream.ai-agent-lifecycle
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: ai-agent-lifecycle
+  cardinality: one
+  labels:
+    en: AI Agent Lifecycle
+- id: business.value-stream.growth-development-cultivation
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: growth-development-cultivation
+  cardinality: one
+  labels:
+    en: Growth & Development
+- id: business.value-stream.participant-intelligence-sensing
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: participant-intelligence-sensing
+  cardinality: one
+  labels:
+    en: Participant Intelligence & Sensing
+- id: business.value-stream.payroll-as-promise-fulfilled
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: payroll-as-promise-fulfilled
+  cardinality: one
+  labels:
+    en: Payroll as Promise Fulfilled
+- id: business.value-stream.recognition-reciprocity
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: recognition-reciprocity
+  cardinality: one
+  labels:
+    en: Recognition & Reciprocity
+- id: business.value-stream.relationship-stewardship
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: relationship-stewardship
+  cardinality: one
+  labels:
+    en: Relationship Stewardship
+- id: business.value-stream.talent-attraction-welcome
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: talent-attraction-welcome
+  cardinality: one
+  labels:
+    en: Talent Attraction & Welcome
+- id: business.value-stream.transition-graceful-exit
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: transition-graceful-exit
+  cardinality: one
+  labels:
+    en: Transition & Graceful Exit
+- id: business.value-stream.workforce-as-ecosystem
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: workforce-as-ecosystem
+  cardinality: one
+  labels:
+    en: Workforce Strategy and Design
+- id: business.value-stream.workforce-scheduling-and-staffing
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: workforce-scheduling-and-staffing
+  cardinality: one
+  labels:
+    en: Workforce Scheduling and Staffing
+- id: business.value-stream.community-voice-architecture
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: community-voice-architecture
+  cardinality: one
+  labels:
+    en: Community Voice Architecture
+- id: business.value-stream.ecosystem-relationship-design
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: ecosystem-relationship-design
+  cardinality: one
+  labels:
+    en: Partner and Alliance Relationship Design
+- id: business.value-stream.governance-board-relationship
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: governance-board-relationship
+  cardinality: one
+  labels:
+    en: Governance Board Relationship
+- id: business.value-stream.institutional-partnering
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: institutional-partnering
+  cardinality: one
+  labels:
+    en: Institutional Partnership Development
+- id: business.value-stream.public-narrative-presence
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: public-narrative-presence
+  cardinality: one
+  labels:
+    en: Public Narrative & Presence
+- id: business.value-stream.experience-delivery-care
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: experience-delivery-care
+  cardinality: one
+  labels:
+    en: Experience Delivery & Care
+- id: business.value-stream.experience-sensing-evolution
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: experience-sensing-evolution
+  cardinality: one
+  labels:
+    en: Experience Sensing & Evolution
+- id: business.value-stream.experience-strategy-design
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: experience-strategy-design
+  cardinality: one
+  labels:
+    en: Experience Strategy Design
+- id: business.value-stream.offering-design-craft
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: offering-design-craft
+  cardinality: one
+  labels:
+    en: Offering Design & Craft
+- id: business.value-stream.offering-discovery-ideation
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: offering-discovery-ideation
+  cardinality: one
+  labels:
+    en: Offering Discovery & Ideation
+- id: business.value-stream.offering-portfolio-stewardship
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: offering-portfolio-stewardship
+  cardinality: one
+  labels:
+    en: Offering Portfolio Stewardship
+- id: business.value-stream.post-delivery-stewardship
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: post-delivery-stewardship
+  cardinality: one
+  labels:
+    en: Post-Delivery Stewardship
+- id: business.value-stream.research-and-technology-development
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: research-and-technology-development
+  cardinality: one
+  labels:
+    en: Research and Technology Development
+- id: business.value-stream.safety-recall-integrity
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: safety-recall-integrity
+  cardinality: one
+  labels:
+    en: Safety & Recall Integrity
+- id: business.value-stream.engagement-cultivation
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: engagement-cultivation
+  cardinality: one
+  labels:
+    en: Engagement Building
+- id: business.value-stream.market-stakeholder-sensing
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: market-stakeholder-sensing
+  cardinality: one
+  labels:
+    en: Market & Stakeholder Sensing
+- id: business.value-stream.relationship-journey-design
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: relationship-journey-design
+  cardinality: one
+  labels:
+    en: Relationship Journey Design
+- id: business.value-stream.value-narrative-design
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: value-narrative-design
+  cardinality: one
+  labels:
+    en: Value Narrative Design
+- id: business.value-stream.channel-partner-distribution
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: channel-partner-distribution
+  cardinality: one
+  labels:
+    en: Channel & Partner Distribution
+- id: business.value-stream.commons-open-distribution
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: commons-open-distribution
+  cardinality: one
+  labels:
+    en: Commons & Open Distribution
+- id: business.value-stream.community-network-distribution
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: community-network-distribution
+  cardinality: one
+  labels:
+    en: Community & Network Distribution
+- id: business.value-stream.direct-distribution
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: direct-distribution
+  cardinality: one
+  labels:
+    en: Direct Distribution
+- id: business.value-stream.distribution-strategy-design
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: distribution-strategy-design
+  cardinality: one
+  labels:
+    en: Distribution Strategy Design
+- id: business.value-stream.platform-ecosystem-distribution
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: platform-ecosystem-distribution
+  cardinality: one
+  labels:
+    en: Platform & Partner Distribution
+- id: business.value-stream.asset-care-maintenance
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: asset-care-maintenance
+  cardinality: one
+  labels:
+    en: Asset Care & Maintenance
+- id: business.value-stream.asset-creation-design
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: asset-creation-design
+  cardinality: one
+  labels:
+    en: Asset Creation & Design
+- id: business.value-stream.asset-end-of-life-stewardship
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: asset-end-of-life-stewardship
+  cardinality: one
+  labels:
+    en: Asset End-of-Life Stewardship
+- id: business.value-stream.asset-lifecycle-planning
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: asset-lifecycle-planning
+  cardinality: one
+  labels:
+    en: Asset Lifecycle Planning
+- id: business.value-stream.customer-project-delivery
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: customer-project-delivery
+  cardinality: one
+  labels:
+    en: Customer Project Delivery
+- id: business.value-stream.logistics-flow-design
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: logistics-flow-design
+  cardinality: one
+  labels:
+    en: Logistics & Flow Design
+- id: business.value-stream.production-craft-assembly
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: production-craft-assembly
+  cardinality: one
+  labels:
+    en: Production Craft & Assembly
+- id: business.value-stream.service-delivery-craft
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: service-delivery-craft
+  cardinality: one
+  labels:
+    en: Service Delivery Craft
+- id: business.value-stream.service-delivery-governance
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: service-delivery-governance
+  cardinality: one
+  labels:
+    en: Service Delivery Governance
+- id: business.value-stream.service-resource-orchestration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: service-resource-orchestration
+  cardinality: one
+  labels:
+    en: Service Resource Orchestration
+- id: business.value-stream.supply-chain-orchestration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: supply-chain-orchestration
+  cardinality: one
+  labels:
+    en: Supply Chain Orchestration
+- id: business.value-stream.commons-federation-exchange
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: commons-federation-exchange
+  cardinality: one
+  labels:
+    en: Commons Federation Exchange
+- id: business.value-stream.global-trade-exchange
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: global-trade-exchange
+  cardinality: one
+  labels:
+    en: Global Trade & Exchange
+- id: business.value-stream.payment-fair-settlement
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: payment-fair-settlement
+  cardinality: one
+  labels:
+    en: Payment & Fair Settlement
+- id: business.value-stream.sourcing-partnership-design
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: sourcing-partnership-design
+  cardinality: one
+  labels:
+    en: Sourcing & Partnership Design
+- id: business.entity.a2a-handshake
+  within: element.entity
+  binds:
+    kind: entity
+    slug: a2a-handshake
+  cardinality: one
+  labels:
+    en: A2A Handshake
+- id: business.entity.access-grant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: access-grant
+  cardinality: one
+  labels:
+    en: Access Grant
+- id: business.entity.account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: account
+  cardinality: one
+  labels:
+    en: Account
+- id: business.entity.accountability-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: accountability-report
+  cardinality: one
+  labels:
+    en: Accountability Report
+- id: business.entity.accounting-period
+  within: element.entity
+  binds:
+    kind: entity
+    slug: accounting-period
+  cardinality: one
+  labels:
+    en: Accounting Period
+- id: business.entity.accreditation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: accreditation
+  cardinality: one
+  labels:
+    en: Accreditation
+- id: business.entity.agent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent
+  cardinality: one
+  labels:
+    en: Agent
+- id: business.entity.agent-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent-mandate
+  cardinality: one
+  labels:
+    en: Agent Mandate
+- id: business.entity.agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agreement
+  cardinality: one
+  labels:
+    en: Agreement
+- id: business.entity.analytics-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: analytics-model
+  cardinality: one
+  labels:
+    en: Analytics Model
+- id: business.entity.application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: application
+  cardinality: one
+  labels:
+    en: Application
+- id: business.entity.appraisal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: appraisal
+  cardinality: one
+  labels:
+    en: Appraisal
+- id: business.entity.approval
+  within: element.entity
+  binds:
+    kind: entity
+    slug: approval
+  cardinality: one
+  labels:
+    en: Approval
+- id: business.entity.asset
+  within: element.entity
+  binds:
+    kind: entity
+    slug: asset
+  cardinality: one
+  labels:
+    en: Asset
+- id: business.entity.attendance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: attendance
+  cardinality: one
+  labels:
+    en: Attendance
+- id: business.entity.audit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audit
+  cardinality: one
+  labels:
+    en: Audit
+- id: business.entity.audit-finding
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audit-finding
+  cardinality: one
+  labels:
+    en: Audit Finding
+- id: business.entity.bank-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bank-account
+  cardinality: one
+  labels:
+    en: Bank Account
+- id: business.entity.bank-transaction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bank-transaction
+  cardinality: one
+  labels:
+    en: Bank Transaction
+- id: business.entity.batch-lot
+  within: element.entity
+  binds:
+    kind: entity
+    slug: batch-lot
+  cardinality: one
+  labels:
+    en: Batch / Lot
+- id: business.entity.benchmark
+  within: element.entity
+  binds:
+    kind: entity
+    slug: benchmark
+  cardinality: one
+  labels:
+    en: Benchmark
+- id: business.entity.bid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bid
+  cardinality: one
+  labels:
+    en: Bid
+- id: business.entity.blanket-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: blanket-order
+  cardinality: one
+  labels:
+    en: Blanket Order
+- id: business.entity.board-of-directors
+  within: element.entity
+  binds:
+    kind: entity
+    slug: board-of-directors
+  cardinality: one
+  labels:
+    en: Board of Directors
+- id: business.entity.bom
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bom
+  cardinality: one
+  labels:
+    en: Bill of Materials
+- id: business.entity.branch
+  within: element.entity
+  binds:
+    kind: entity
+    slug: branch
+  cardinality: one
+  labels:
+    en: Branch
+- id: business.entity.brand
+  within: element.entity
+  binds:
+    kind: entity
+    slug: brand
+  cardinality: one
+  labels:
+    en: Brand
+- id: business.entity.budget
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget
+  cardinality: one
+  labels:
+    en: Budget
+- id: business.entity.business-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-case
+  cardinality: one
+  labels:
+    en: Business Case
+- id: business.entity.business-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-model
+  cardinality: one
+  labels:
+    en: Business Model
+- id: business.entity.business-unit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-unit
+  cardinality: one
+  labels:
+    en: Business Unit
+- id: business.entity.calendar-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: calendar-event
+  cardinality: one
+  labels:
+    en: Calendar Event
+- id: business.entity.campaign
+  within: element.entity
+  binds:
+    kind: entity
+    slug: campaign
+  cardinality: one
+  labels:
+    en: Campaign
+- id: business.entity.candidate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: candidate
+  cardinality: one
+  labels:
+    en: Candidate
+- id: business.entity.capability
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capability
+  cardinality: one
+  labels:
+    en: Capability
+- id: business.entity.capability-node
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capability-node
+  cardinality: one
+  labels:
+    en: Capability Node
+- id: business.entity.capital-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capital-project
+  cardinality: one
+  labels:
+    en: Capital Project
+- id: business.entity.carrier
+  within: element.entity
+  binds:
+    kind: entity
+    slug: carrier
+  cardinality: one
+  labels:
+    en: Carrier
+- id: business.entity.category-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: category-plan
+  cardinality: one
+  labels:
+    en: Category Plan
+- id: business.entity.change-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: change-request
+  cardinality: one
+  labels:
+    en: Change Request
+- id: business.entity.channel
+  within: element.entity
+  binds:
+    kind: entity
+    slug: channel
+  cardinality: one
+  labels:
+    en: Channel
+- id: business.entity.chatbot
+  within: element.entity
+  binds:
+    kind: entity
+    slug: chatbot
+  cardinality: one
+  labels:
+    en: Chatbot
+- id: business.entity.circular-material-passport
+  within: element.entity
+  binds:
+    kind: entity
+    slug: circular-material-passport
+  cardinality: one
+  labels:
+    en: Circular Material Passport
+- id: business.entity.cognitive-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cognitive-mandate
+  cardinality: one
+  labels:
+    en: Cognitive Mandate
+- id: business.entity.commons
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons
+  cardinality: one
+  labels:
+    en: Commons
+- id: business.entity.commons-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-charter
+  cardinality: one
+  labels:
+    en: Commons Charter
+- id: business.entity.commons-instance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-instance
+  cardinality: one
+  labels:
+    en: Commons Instance
+- id: business.entity.communication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: communication
+  cardinality: one
+  labels:
+    en: Communication
+- id: business.entity.competency-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: competency-model
+  cardinality: one
+  labels:
+    en: Competency Model
+- id: business.entity.complaint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: complaint
+  cardinality: one
+  labels:
+    en: Complaint
+- id: business.entity.compliance-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compliance-case
+  cardinality: one
+  labels:
+    en: Compliance Case
+- id: business.entity.compliance-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compliance-rule
+  cardinality: one
+  labels:
+    en: Compliance Rule
+- id: business.entity.configuration-item
+  within: element.entity
+  binds:
+    kind: entity
+    slug: configuration-item
+  cardinality: one
+  labels:
+    en: Configuration Item
+- id: business.entity.contact
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contact
+  cardinality: one
+  labels:
+    en: Contact
+- id: business.entity.continuity-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: continuity-plan
+  cardinality: one
+  labels:
+    en: Continuity Plan
+- id: business.entity.contract
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract
+  cardinality: one
+  labels:
+    en: Contract
+- id: business.entity.contribution-proof
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contribution-proof
+  cardinality: one
+  labels:
+    en: Contribution Proof
+- id: business.entity.corporate-transaction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: corporate-transaction
+  cardinality: one
+  labels:
+    en: Corporate Transaction
+- id: business.entity.cost-center
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cost-center
+  cardinality: one
+  labels:
+    en: Cost Center
+- id: business.entity.counterparty
+  within: element.entity
+  binds:
+    kind: entity
+    slug: counterparty
+  cardinality: one
+  labels:
+    en: Counterparty
+- id: business.entity.course
+  within: element.entity
+  binds:
+    kind: entity
+    slug: course
+  cardinality: one
+  labels:
+    en: Course
+- id: business.entity.course-registration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: course-registration
+  cardinality: one
+  labels:
+    en: Course Registration
+- id: business.entity.credential
+  within: element.entity
+  binds:
+    kind: entity
+    slug: credential
+  cardinality: one
+  labels:
+    en: Credential
+- id: business.entity.credit-note
+  within: element.entity
+  binds:
+    kind: entity
+    slug: credit-note
+  cardinality: one
+  labels:
+    en: Credit Note
+- id: business.entity.customer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: customer
+  cardinality: one
+  labels:
+    en: Customer
+- id: business.entity.customer-interaction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: customer-interaction
+  cardinality: one
+  labels:
+    en: Customer Interaction
+- id: business.entity.customer-satisfaction-score
+  within: element.entity
+  binds:
+    kind: entity
+    slug: customer-satisfaction-score
+  cardinality: one
+  labels:
+    en: Customer Satisfaction Score
+- id: business.entity.customs-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: customs-declaration
+  cardinality: one
+  labels:
+    en: Customs Declaration
+- id: business.entity.dashboard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dashboard
+  cardinality: one
+  labels:
+    en: Dashboard
+- id: business.entity.data-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-model
+  cardinality: one
+  labels:
+    en: Data Model
+- id: business.entity.data-processing-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-processing-record
+  cardinality: one
+  labels:
+    en: Data Processing Record
+- id: business.entity.data-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-product
+  cardinality: one
+  labels:
+    en: Data Product
+- id: business.entity.data-use-consent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-use-consent
+  cardinality: one
+  labels:
+    en: Data-Use Consent
+- id: business.entity.debit-note
+  within: element.entity
+  binds:
+    kind: entity
+    slug: debit-note
+  cardinality: one
+  labels:
+    en: Debit Note
+- id: business.entity.decision-right
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision-right
+  cardinality: one
+  labels:
+    en: Decision Right
+- id: business.entity.delivery-note
+  within: element.entity
+  binds:
+    kind: entity
+    slug: delivery-note
+  cardinality: one
+  labels:
+    en: Delivery Note
+- id: business.entity.department
+  within: element.entity
+  binds:
+    kind: entity
+    slug: department
+  cardinality: one
+  labels:
+    en: Department
+- id: business.entity.digital-twin-asset
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-twin-asset
+  cardinality: one
+  labels:
+    en: Digital Twin Asset
+- id: business.entity.dunning
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dunning
+  cardinality: one
+  labels:
+    en: Dunning
+- id: business.entity.dynamic-proposition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dynamic-proposition
+  cardinality: one
+  labels:
+    en: Dynamic Proposition
+- id: business.entity.ecological-parameter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ecological-parameter
+  cardinality: one
+  labels:
+    en: Ecological Parameter
+- id: business.entity.employee-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employee-record
+  cardinality: one
+  labels:
+    en: Employee Record
+- id: business.entity.employment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employment
+  cardinality: one
+  labels:
+    en: Employment
+- id: business.entity.environmental-footprint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: environmental-footprint
+  cardinality: one
+  labels:
+    en: Environmental Footprint
+- id: business.entity.equipment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: equipment
+  cardinality: one
+  labels:
+    en: Equipment
+- id: business.entity.ethics-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ethics-policy
+  cardinality: one
+  labels:
+    en: Ethics Policy
+- id: business.entity.event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: event
+  cardinality: one
+  labels:
+    en: Event
+- id: business.entity.expense-claim
+  within: element.entity
+  binds:
+    kind: entity
+    slug: expense-claim
+  cardinality: one
+  labels:
+    en: Expense Claim
+- id: business.entity.facility
+  within: element.entity
+  binds:
+    kind: entity
+    slug: facility
+  cardinality: one
+  labels:
+    en: Facility
+- id: business.entity.financial-statement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: financial-statement
+  cardinality: one
+  labels:
+    en: Financial Statement
+- id: business.entity.financing-facility
+  within: element.entity
+  binds:
+    kind: entity
+    slug: financing-facility
+  cardinality: one
+  labels:
+    en: Financing Facility
+- id: business.entity.forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: forecast
+  cardinality: one
+  labels:
+    en: Forecast
+- id: business.entity.funnel-stage
+  within: element.entity
+  binds:
+    kind: entity
+    slug: funnel-stage
+  cardinality: one
+  labels:
+    en: Funnel Stage
+- id: business.entity.governance-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: governance-decision
+  cardinality: one
+  labels:
+    en: Governance Decision
+- id: business.entity.governance-oracle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: governance-oracle
+  cardinality: one
+  labels:
+    en: Governance Oracle
+- id: business.entity.grievance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grievance
+  cardinality: one
+  labels:
+    en: Grievance
+- id: business.entity.helpdesk-ticket
+  within: element.entity
+  binds:
+    kind: entity
+    slug: helpdesk-ticket
+  cardinality: one
+  labels:
+    en: Helpdesk Ticket
+- id: business.entity.identity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: identity
+  cardinality: one
+  labels:
+    en: Identity
+- id: business.entity.identity-stack
+  within: element.entity
+  binds:
+    kind: entity
+    slug: identity-stack
+  cardinality: one
+  labels:
+    en: Identity Stack
+- id: business.entity.improvement-suggestion
+  within: element.entity
+  binds:
+    kind: entity
+    slug: improvement-suggestion
+  cardinality: one
+  labels:
+    en: Improvement Suggestion
+- id: business.entity.incident
+  within: element.entity
+  binds:
+    kind: entity
+    slug: incident
+  cardinality: one
+  labels:
+    en: Incident
+- id: business.entity.initiative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: initiative
+  cardinality: one
+  labels:
+    en: Initiative
+- id: business.entity.inquiry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: inquiry
+  cardinality: one
+  labels:
+    en: Inquiry
+- id: business.entity.insurance-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: insurance-policy
+  cardinality: one
+  labels:
+    en: Insurance Policy
+- id: business.entity.intellectual-property-right
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intellectual-property-right
+  cardinality: one
+  labels:
+    en: Intellectual Property Right
+- id: business.entity.intent-signal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intent-signal
+  cardinality: one
+  labels:
+    en: Intent Signal
+- id: business.entity.interest-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interest-declaration
+  cardinality: one
+  labels:
+    en: Interest Declaration
+- id: business.entity.interface
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interface
+  cardinality: one
+  labels:
+    en: Interface
+- id: business.entity.internal-control
+  within: element.entity
+  binds:
+    kind: entity
+    slug: internal-control
+  cardinality: one
+  labels:
+    en: Internal Control
+- id: business.entity.invention-disclosure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: invention-disclosure
+  cardinality: one
+  labels:
+    en: Invention Disclosure
+- id: business.entity.irreversibility-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: irreversibility-declaration
+  cardinality: one
+  labels:
+    en: Irreversibility Declaration
+- id: business.entity.it-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: it-service
+  cardinality: one
+  labels:
+    en: IT Service
+- id: business.entity.item
+  within: element.entity
+  binds:
+    kind: entity
+    slug: item
+  cardinality: one
+  labels:
+    en: Item
+- id: business.entity.job-card
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-card
+  cardinality: one
+  labels:
+    en: Job Card
+- id: business.entity.job-vacancy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-vacancy
+  cardinality: one
+  labels:
+    en: Job Vacancy
+- id: business.entity.journal-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: journal-entry
+  cardinality: one
+  labels:
+    en: Journal Entry
+- id: business.entity.journey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: journey
+  cardinality: one
+  labels:
+    en: Journey
+- id: business.entity.knowledge-article
+  within: element.entity
+  binds:
+    kind: entity
+    slug: knowledge-article
+  cardinality: one
+  labels:
+    en: Knowledge Article
+- id: business.entity.kpi
+  within: element.entity
+  binds:
+    kind: entity
+    slug: kpi
+  cardinality: one
+  labels:
+    en: KPI
+- id: business.entity.leave-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: leave-request
+  cardinality: one
+  labels:
+    en: Leave Request
+- id: business.entity.legal-entity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: legal-entity
+  cardinality: one
+  labels:
+    en: Legal Entity
+- id: business.entity.legal-matter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: legal-matter
+  cardinality: one
+  labels:
+    en: Legal Matter
+- id: business.entity.lighthouse
+  within: element.entity
+  binds:
+    kind: entity
+    slug: lighthouse
+  cardinality: one
+  labels:
+    en: Lighthouse
+- id: business.entity.liquidity-forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: liquidity-forecast
+  cardinality: one
+  labels:
+    en: Liquidity Forecast
+- id: business.entity.location
+  within: element.entity
+  binds:
+    kind: entity
+    slug: location
+  cardinality: one
+  labels:
+    en: Location
+- id: business.entity.loyalty-program
+  within: element.entity
+  binds:
+    kind: entity
+    slug: loyalty-program
+  cardinality: one
+  labels:
+    en: Loyalty Program
+- id: business.entity.mailing-list
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mailing-list
+  cardinality: one
+  labels:
+    en: Mailing List
+- id: business.entity.maintenance-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: maintenance-request
+  cardinality: one
+  labels:
+    en: Maintenance Request
+- id: business.entity.major-incident
+  within: element.entity
+  binds:
+    kind: entity
+    slug: major-incident
+  cardinality: one
+  labels:
+    en: Major Incident
+- id: business.entity.market-insight
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-insight
+  cardinality: one
+  labels:
+    en: Market Insight
+- id: business.entity.market-segment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-segment
+  cardinality: one
+  labels:
+    en: Market Segment
+- id: business.entity.material-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: material-request
+  cardinality: one
+  labels:
+    en: Material Request
+- id: business.entity.measure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: measure
+  cardinality: one
+  labels:
+    en: Measure
+- id: business.entity.measure-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: measure-report
+  cardinality: one
+  labels:
+    en: Measure Report
+- id: business.entity.mission
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mission
+  cardinality: one
+  labels:
+    en: Mission
+- id: business.entity.need-intent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: need-intent
+  cardinality: one
+  labels:
+    en: Need Intent
+- id: business.entity.non-conformance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: non-conformance
+  cardinality: one
+  labels:
+    en: Non-Conformance
+- id: business.entity.objective
+  within: element.entity
+  binds:
+    kind: entity
+    slug: objective
+  cardinality: one
+  labels:
+    en: Objective
+- id: business.entity.offer-intent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: offer-intent
+  cardinality: one
+  labels:
+    en: Offer Intent
+- id: business.entity.opportunity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: opportunity
+  cardinality: one
+  labels:
+    en: Opportunity
+- id: business.entity.organization
+  within: element.entity
+  binds:
+    kind: entity
+    slug: organization
+  cardinality: one
+  labels:
+    en: Organization
+- id: business.entity.oversight-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: oversight-assignment
+  cardinality: one
+  labels:
+    en: Oversight Assignment
+- id: business.entity.partner-organisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: partner-organisation
+  cardinality: one
+  labels:
+    en: Partner Organisation
+- id: business.entity.pattern
+  within: element.entity
+  binds:
+    kind: entity
+    slug: pattern
+  cardinality: one
+  labels:
+    en: Pattern
+- id: business.entity.payment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment
+  cardinality: one
+  labels:
+    en: Payment
+- id: business.entity.payment-term
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment-term
+  cardinality: one
+  labels:
+    en: Payment Term
+- id: business.entity.payroll-run
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payroll-run
+  cardinality: one
+  labels:
+    en: Payroll Run
+- id: business.entity.payslip
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payslip
+  cardinality: one
+  labels:
+    en: Payslip
+- id: business.entity.permit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: permit
+  cardinality: one
+  labels:
+    en: Permit
+- id: business.entity.plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: plan
+  cardinality: one
+  labels:
+    en: Plan
+- id: business.entity.platform-interface-wrapper
+  within: element.entity
+  binds:
+    kind: entity
+    slug: platform-interface-wrapper
+  cardinality: one
+  labels:
+    en: Platform Interface Wrapper
+- id: business.entity.policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: policy
+  cardinality: one
+  labels:
+    en: Policy
+- id: business.entity.portfolio
+  within: element.entity
+  binds:
+    kind: entity
+    slug: portfolio
+  cardinality: one
+  labels:
+    en: Portfolio
+- id: business.entity.position
+  within: element.entity
+  binds:
+    kind: entity
+    slug: position
+  cardinality: one
+  labels:
+    en: Position
+- id: business.entity.post-life-directive
+  within: element.entity
+  binds:
+    kind: entity
+    slug: post-life-directive
+  cardinality: one
+  labels:
+    en: Post-Life Directive
+- id: business.entity.prediction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: prediction
+  cardinality: one
+  labels:
+    en: Prediction
+- id: business.entity.price-list
+  within: element.entity
+  binds:
+    kind: entity
+    slug: price-list
+  cardinality: one
+  labels:
+    en: Price List
+- id: business.entity.process-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: process-model
+  cardinality: one
+  labels:
+    en: Process Model
+- id: business.entity.product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: product
+  cardinality: one
+  labels:
+    en: Product
+- id: business.entity.product-specification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: product-specification
+  cardinality: one
+  labels:
+    en: Product Specification
+- id: business.entity.product-variant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: product-variant
+  cardinality: one
+  labels:
+    en: Product Variant
+- id: business.entity.production-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: production-plan
+  cardinality: one
+  labels:
+    en: Production Plan
+- id: business.entity.profit-center
+  within: element.entity
+  binds:
+    kind: entity
+    slug: profit-center
+  cardinality: one
+  labels:
+    en: Profit Center
+- id: business.entity.program
+  within: element.entity
+  binds:
+    kind: entity
+    slug: program
+  cardinality: one
+  labels:
+    en: Program
+- id: business.entity.project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: project
+  cardinality: one
+  labels:
+    en: Project
+- id: business.entity.promotion
+  within: element.entity
+  binds:
+    kind: entity
+    slug: promotion
+  cardinality: one
+  labels:
+    en: Promotion
+- id: business.entity.proposal-bid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: proposal-bid
+  cardinality: one
+  labels:
+    en: Proposal/Bid
+- id: business.entity.public-rating
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-rating
+  cardinality: one
+  labels:
+    en: Public Rating
+- id: business.entity.public-statement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-statement
+  cardinality: one
+  labels:
+    en: Public Statement
+- id: business.entity.purchase-invoice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-invoice
+  cardinality: one
+  labels:
+    en: Purchase Invoice
+- id: business.entity.purchase-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-order
+  cardinality: one
+  labels:
+    en: Purchase Order
+- id: business.entity.purchase-receipt
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-receipt
+  cardinality: one
+  labels:
+    en: Purchase Receipt
+- id: business.entity.quality-inspection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: quality-inspection
+  cardinality: one
+  labels:
+    en: Quality Inspection
+- id: business.entity.quality-standard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: quality-standard
+  cardinality: one
+  labels:
+    en: Quality Standard
+- id: business.entity.quotation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: quotation
+  cardinality: one
+  labels:
+    en: Quotation
+- id: business.entity.recall
+  within: element.entity
+  binds:
+    kind: entity
+    slug: recall
+  cardinality: one
+  labels:
+    en: Recall
+- id: business.entity.receipt
+  within: element.entity
+  binds:
+    kind: entity
+    slug: receipt
+  cardinality: one
+  labels:
+    en: Receipt
+- id: business.entity.recruitment-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: recruitment-application
+  cardinality: one
+  labels:
+    en: Recruitment Application
+- id: business.entity.regulatory-notification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: regulatory-notification
+  cardinality: one
+  labels:
+    en: Regulatory Notification
+- id: business.entity.relationship-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-review
+  cardinality: one
+  labels:
+    en: Relationship Review
+- id: business.entity.remediation-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: remediation-plan
+  cardinality: one
+  labels:
+    en: Remediation Plan
+- id: business.entity.repair-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: repair-order
+  cardinality: one
+  labels:
+    en: Repair Order
+- id: business.entity.report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: report
+  cardinality: one
+  labels:
+    en: Report
+- id: business.entity.request-for-quotation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: request-for-quotation
+  cardinality: one
+  labels:
+    en: Request for Quotation
+- id: business.entity.return
+  within: element.entity
+  binds:
+    kind: entity
+    slug: return
+  cardinality: one
+  labels:
+    en: Return
+- id: business.entity.risk
+  within: element.entity
+  binds:
+    kind: entity
+    slug: risk
+  cardinality: one
+  labels:
+    en: Risk
+- id: business.entity.roster
+  within: element.entity
+  binds:
+    kind: entity
+    slug: roster
+  cardinality: one
+  labels:
+    en: Roster
+- id: business.entity.routing
+  within: element.entity
+  binds:
+    kind: entity
+    slug: routing
+  cardinality: one
+  labels:
+    en: Routing
+- id: business.entity.sales-and-operations-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sales-and-operations-plan
+  cardinality: one
+  labels:
+    en: Sales and Operations Plan
+- id: business.entity.sales-invoice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sales-invoice
+  cardinality: one
+  labels:
+    en: Sales Invoice
+- id: business.entity.sales-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sales-order
+  cardinality: one
+  labels:
+    en: Sales Order
+- id: business.entity.segment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: segment
+  cardinality: one
+  labels:
+    en: Segment
+- id: business.entity.serial-number
+  within: element.entity
+  binds:
+    kind: entity
+    slug: serial-number
+  cardinality: one
+  labels:
+    en: Serial Number
+- id: business.entity.service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service
+  cardinality: one
+  labels:
+    en: Service
+- id: business.entity.service-level-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-level-agreement
+  cardinality: one
+  labels:
+    en: Service Level Agreement
+- id: business.entity.service-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-order
+  cardinality: one
+  labels:
+    en: Service Order
+- id: business.entity.shadow-commons-signal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shadow-commons-signal
+  cardinality: one
+  labels:
+    en: Shadow Commons Signal
+- id: business.entity.shareholder-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shareholder-record
+  cardinality: one
+  labels:
+    en: Shareholder Record
+- id: business.entity.shareholder-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shareholder-register
+  cardinality: one
+  labels:
+    en: Shareholder Register
+- id: business.entity.shift-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shift-assignment
+  cardinality: one
+  labels:
+    en: Shift Assignment
+- id: business.entity.shipment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shipment
+  cardinality: one
+  labels:
+    en: Shipment
+- id: business.entity.skill
+  within: element.entity
+  binds:
+    kind: entity
+    slug: skill
+  cardinality: one
+  labels:
+    en: Skill
+- id: business.entity.software-licence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: software-licence
+  cardinality: one
+  labels:
+    en: Software Licence
+- id: business.entity.solidarity-covenant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: solidarity-covenant
+  cardinality: one
+  labels:
+    en: Solidarity Covenant
+- id: business.entity.stakeholder
+  within: element.entity
+  binds:
+    kind: entity
+    slug: stakeholder
+  cardinality: one
+  labels:
+    en: Stakeholder
+- id: business.entity.statutory-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: statutory-report
+  cardinality: one
+  labels:
+    en: Statutory Report
+- id: business.entity.stock-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: stock-entry
+  cardinality: one
+  labels:
+    en: Stock Entry
+- id: business.entity.stock-reconciliation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: stock-reconciliation
+  cardinality: one
+  labels:
+    en: Stock Reconciliation
+- id: business.entity.strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strategy
+  cardinality: one
+  labels:
+    en: Strategy
+- id: business.entity.subcontracting-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: subcontracting-order
+  cardinality: one
+  labels:
+    en: Subcontracting Order
+- id: business.entity.subscription
+  within: element.entity
+  binds:
+    kind: entity
+    slug: subscription
+  cardinality: one
+  labels:
+    en: Subscription
+- id: business.entity.succession-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: succession-plan
+  cardinality: one
+  labels:
+    en: Succession Plan
+- id: business.entity.supplier-organisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-organisation
+  cardinality: one
+  labels:
+    en: Supplier Organisation
+- id: business.entity.supply-shortage
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supply-shortage
+  cardinality: one
+  labels:
+    en: Supply Shortage
+- id: business.entity.survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: survey
+  cardinality: one
+  labels:
+    en: Survey
+- id: business.entity.sustainability-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sustainability-report
+  cardinality: one
+  labels:
+    en: Sustainability Report
+- id: business.entity.task
+  within: element.entity
+  binds:
+    kind: entity
+    slug: task
+  cardinality: one
+  labels:
+    en: Task
+- id: business.entity.tax-category
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-category
+  cardinality: one
+  labels:
+    en: Tax Category
+- id: business.entity.tax-return
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-return
+  cardinality: one
+  labels:
+    en: Tax Return
+- id: business.entity.tax-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-rule
+  cardinality: one
+  labels:
+    en: Tax Rule
+- id: business.entity.terms-and-conditions
+  within: element.entity
+  binds:
+    kind: entity
+    slug: terms-and-conditions
+  cardinality: one
+  labels:
+    en: Terms and Conditions
+- id: business.entity.territory
+  within: element.entity
+  binds:
+    kind: entity
+    slug: territory
+  cardinality: one
+  labels:
+    en: Territory
+- id: business.entity.timesheet
+  within: element.entity
+  binds:
+    kind: entity
+    slug: timesheet
+  cardinality: one
+  labels:
+    en: Timesheet
+- id: business.entity.touchpoint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: touchpoint
+  cardinality: one
+  labels:
+    en: Touchpoint
+- id: business.entity.trust-score
+  within: element.entity
+  binds:
+    kind: entity
+    slug: trust-score
+  cardinality: one
+  labels:
+    en: Trust Score
+- id: business.entity.usage-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: usage-record
+  cardinality: one
+  labels:
+    en: Usage Record
+- id: business.entity.value-stream
+  within: element.entity
+  binds:
+    kind: entity
+    slug: value-stream
+  cardinality: one
+  labels:
+    en: Value Stream
+- id: business.entity.value-token
+  within: element.entity
+  binds:
+    kind: entity
+    slug: value-token
+  cardinality: one
+  labels:
+    en: Value Token
+- id: business.entity.vehicle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vehicle
+  cardinality: one
+  labels:
+    en: Vehicle
+- id: business.entity.verifiable-credential
+  within: element.entity
+  binds:
+    kind: entity
+    slug: verifiable-credential
+  cardinality: one
+  labels:
+    en: Verifiable Credential
+- id: business.entity.vision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vision
+  cardinality: one
+  labels:
+    en: Vision
+- id: business.entity.warehouse
+  within: element.entity
+  binds:
+    kind: entity
+    slug: warehouse
+  cardinality: one
+  labels:
+    en: Warehouse
+- id: business.entity.warranty-claim
+  within: element.entity
+  binds:
+    kind: entity
+    slug: warranty-claim
+  cardinality: one
+  labels:
+    en: Warranty Claim
+- id: business.entity.whole-system-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: whole-system-assessment
+  cardinality: one
+  labels:
+    en: Whole-System Assessment
+- id: business.entity.work-center
+  within: element.entity
+  binds:
+    kind: entity
+    slug: work-center
+  cardinality: one
+  labels:
+    en: Work Center
+- id: business.entity.work-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: work-order
+  cardinality: one
+  labels:
+    en: Work Order
+- id: business.entity.workforce-analytics
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-analytics
+  cardinality: one
+  labels:
+    en: Workforce Analytics
+- id: business.entity.workforce-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-plan
+  cardinality: one
+  labels:
+    en: Workforce Plan
+- id: business.entity.workstation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workstation
+  cardinality: one
+  labels:
+    en: Workstation

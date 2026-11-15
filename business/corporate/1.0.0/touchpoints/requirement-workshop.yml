@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: requirement-workshop
+title: Requirement Workshop
+medium: encounter
+summary: The working session in which users, the business owner and technology specialists state what a solution must do and how it
+  must fit the work.
+exchanges:
+- clear-requirements-for-a-fitting-solution
+journey: business-owner-commissioning-a-new-solution

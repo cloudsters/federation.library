@@ -1,0 +1,62 @@
+kind: entity
+slug: digital-landscape-report
+title: Digital Landscape Report
+type: intelligence
+summary: The assessment of the maturity, cost and use of the city's digital systems, the residents they serve poorly and where the
+  city depends on a single supplier or a single central point. The administration prepares it at the start of each strategy cycle
+  and at each yearly review, and it is the starting point for the digital strategy and the roadmap.
+attributes:
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: systems-assessed
+  type: reference(application)
+  card: 1..*
+- name: capabilities-assessed
+  type: reference(municipal-capability)
+  card: 0..*
+- name: maturity-findings
+  type: text
+  card: 0..*
+- name: running-cost
+  type: amount
+  card: 0..1
+- name: poorly-served-groups
+  type: text
+  card: 0..*
+- name: single-supplier-dependencies
+  type: text
+  card: 0..*
+- name: single-points-of-failure
+  type: text
+  card: 0..*
+- name: data-sources
+  type: text
+  card: 1..*
+- name: issued-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scoped
+- gathered
+- assessed
+- published
+- discussed
+- superseded
+relations:
+- type: refers-to
+  target: application
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: municipal-capability
+- type: refers-to
+  target: contract
+- type: produces
+  target: public-record

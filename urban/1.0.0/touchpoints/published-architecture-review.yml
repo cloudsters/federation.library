@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-architecture-review
+title: Published Architecture Review
+medium: artefact
+summary: The published record of an architecture review, with its findings, its reasons and the decision taken on it.
+exchanges:
+- decision-case-for-a-published-review
+- published-review-for-a-reasoned-decision
+journey: information-technology-specialist-keeping-the-city-systems-whole

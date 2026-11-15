@@ -1,0 +1,10 @@
+kind: capability
+slug: it-demand-management
+title: IT Demand Management
+level: L3
+parent: digital-strategy-and-governance
+summary: Collect, assess and prioritise digital demand from clinical and administrative units.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

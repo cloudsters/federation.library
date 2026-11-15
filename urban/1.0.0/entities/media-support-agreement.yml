@@ -1,0 +1,56 @@
+kind: entity
+slug: media-support-agreement
+title: Media Support Agreement
+type: governance
+summary: The agreement under which the city supports a community outlet with space, equipment or money, leaving editorial decisions
+  with the residents who run it and stating its term. The outlet and the department that gives the support sign it, and it is used
+  to protect the outlet when it criticises the city and to review whether it has stayed independent.
+attributes:
+- name: outlet
+  type: reference(community-media-outlet)
+  card: 1..1
+- name: city-party
+  type: reference(department)
+  card: 1..1
+- name: support-given
+  type: text
+  card: 1..*
+- name: grant
+  type: reference(community-grant)
+  card: 0..*
+- name: space
+  type: reference(shared-use-agreement)
+  card: 0..*
+- name: editorial-independence
+  type: text
+  card: 1..1
+- name: protection-from-withdrawal
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: review-procedure
+  type: text
+  card: 0..1
+- name: signatories
+  type: text
+  card: 1..*
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- signed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: community-media-outlet
+- type: refers-to
+  target: community-grant
+- type: refers-to
+  target: shared-use-agreement

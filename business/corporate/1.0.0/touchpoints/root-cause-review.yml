@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: root-cause-review
+title: Root Cause Review
+medium: encounter
+summary: The review of a significant failure with operators, technicians and engineers in which causes are found and changes to strategy,
+  schedule or design are agreed.
+exchanges:
+- early-reports-for-available-equipment
+- failure-insight-for-better-design
+journey: technician-restoring-an-asset

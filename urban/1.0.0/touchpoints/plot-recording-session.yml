@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: plot-recording-session
+title: Plot Recording Session
+medium: encounter
+summary: A session in the settlement where each household's plot is walked, agreed with neighbours and recorded with the household's
+  right to occupy it.
+exchanges:
+- plot-evidence-for-protection-against-eviction
+journey: informal-settlement-resident-upgrading-in-place

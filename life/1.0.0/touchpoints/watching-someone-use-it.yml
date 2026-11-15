@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: watching-someone-use-it
+title: Watching Someone Use It
+medium: moment
+mode: shared-presence
+summary: Sitting beside someone as they try the work, and seeing what they actually do with it.
+exchanges:
+- use-for-refinement
+- translation-for-understanding
+journey: using-the-work

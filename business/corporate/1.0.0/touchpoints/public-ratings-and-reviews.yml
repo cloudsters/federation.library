@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: public-ratings-and-reviews
+title: Public Ratings and Reviews
+medium: channel
+summary: The online places where customers, applicants, employees and neighbours rate and review the company in public, and where
+  the company answers.
+exchanges:
+- public-rating-for-visible-answer
+journey: member-of-the-public-judging-the-company

@@ -1,0 +1,14 @@
+kind: journey
+slug: an-animal-in-the-home
+title: An Animal in the Home
+stakeholder: animal-companion
+via: value-to-sustainability
+summary: An animal companion is fed, walked and looked after each day as a living one the household answers for, not as a possession.
+stages:
+- slug: be-tended
+  title: Be Tended
+  goal: The animal is fed, walked and cared for each day as a shared responsibility of the household.
+  step: consumption-to-consequence/caring-for-the-living-ones-near
+  touchpoints:
+  - tending-an-animal
+  - the-garden

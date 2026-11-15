@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: expense-claim
+title: Expense Claim
+medium: artefact
+summary: The claim of an employee for travel and other expenses, with receipts, checked against policy and reimbursed with the next
+  payment run.
+exchanges:
+- receipts-for-prompt-reimbursement
+journey: employee-claiming-expenses

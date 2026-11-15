@@ -1,0 +1,131 @@
+kind: value-stream
+slug: environmental-sustainability
+title: Environmental Sustainability
+family: collaboration-to-automation
+summary: 'Reducing the environmental footprint of care, research and teaching: emissions and resource accounting, reduction targets,
+  sustainable clinical practices, waste avoidance and adaptation to climate risks.'
+trigger: The sustainability cycle sets or reviews targets, or a reduction measure is proposed.
+outcome: Emissions and resource use are measured, reduction measures are implemented, and progress is reported.
+stakeholders:
+- executive
+- owner
+- anaesthesiologist
+- registered-nurse
+- support-services-staff
+- administrative-staff
+- supplier
+- general-public
+- natural-environment
+steps:
+- slug: footprint-accounting
+  title: Footprint Accounting
+  summary: Energy, water, materials, waste and emissions are measured per site and unit, including anaesthetic gases, travel and the
+    supply chain, with fixed methods so that results are comparable over time.
+  capabilities:
+  - esg-data-management
+  - carbon-footprint-reduction
+  - energy-management
+  - data-quality-management
+  entities:
+  - environmental-footprint
+  - site
+  - facility
+  - purchase-order
+  serves:
+  - footprint-dashboard
+- slug: target-setting
+  title: Target Setting
+  summary: The executive board sets reduction targets and a pathway with milestones, agrees them with the owner and cascades them
+    to sites, units and procurement categories.
+  capabilities:
+  - sustainability-strategy-design
+  - goal-setting-and-cascade
+  - owner-relations
+  entities:
+  - strategic-objective
+  - governance-decision
+  - environmental-footprint
+  serves:
+  - board-meeting
+- slug: measure-selection
+  title: Measure Selection
+  summary: Reduction measures in buildings, energy supply, clinical practice, procurement, food, mobility and waste are appraised
+    for effect, cost and clinical safety and placed in the initiative portfolio.
+  capabilities:
+  - carbon-footprint-reduction
+  - initiative-evaluation-and-selection
+  - clinical-product-value-analysis
+  - capital-planning
+  entities:
+  - improvement-initiative
+  - capital-project
+  - strategic-objective
+  serves:
+  - sustainability-network
+- slug: practice-change
+  title: Practice Change
+  summary: Units change practice, such as low-emission anaesthesia, reusable instead of single-use products and waste separation at
+    source, and procurement weights environmental criteria in its awards.
+  capabilities:
+  - waste-prevention-and-reuse
+  - hazardous-waste-management
+  - ethical-sourcing-design
+  - supplier-selection-and-contracting
+  - change-implementation
+  entities:
+  - policy
+  - improvement-initiative
+  - contract
+  - support-service-order
+  serves:
+  - call-for-tender
+  - footprint-dashboard
+  - operating-theatre
+  - supplier-portal
+  - waste-collection-point
+- slug: climate-adaptation
+  title: Climate Adaptation
+  summary: Climate risks to patients, staff, buildings and supply are assessed, and heat protection, flood defence and supply continuity
+    measures are planned and exercised.
+  capabilities:
+  - climate-adaptation
+  - emergency-and-disaster-preparedness
+  - business-continuity-design
+  - facility-planning
+  entities:
+  - emergency-preparedness-plan
+  - risk
+  - facility
+  serves:
+  - ward
+- slug: progress-reporting
+  title: Progress Reporting
+  summary: Progress against targets is reviewed with the executive board and the owner, published in the sustainability report and
+    fed back to the units, and the portfolio of measures is adjusted.
+  capabilities:
+  - esg-data-management
+  - integrated-performance-review
+  - board-communication-reporting
+  - community-relations
+  entities:
+  - environmental-footprint
+  - measure-report
+  - strategic-objective
+  serves:
+  - board-meeting
+  - footprint-dashboard
+  - public-website
+  - sustainability-report
+binds:
+- source: src-089
+  edition: '2026'
+  jurisdiction: global
+- source: src-091
+  edition: 2018-a1-2024
+  jurisdiction: global
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global

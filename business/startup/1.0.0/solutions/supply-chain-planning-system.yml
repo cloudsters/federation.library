@@ -1,0 +1,30 @@
+kind: solution
+slug: supply-chain-planning-system
+title: Supply Chain Planning System
+role: system-of-record
+summary: Holds demand forecasts, the sales and operations plan, supply, capacity and production plans, and simulates the network so
+  that promises to customers rest on what can be made and moved.
+carries:
+- demand-responsive-production
+- demand-sensing-for-products
+- demand-sensing-forecasting
+- distributed-production-architecture
+- distribution-constraint-navigation
+- distribution-flow-design
+- distribution-policy-evolution
+- logistics-strategy-design
+- materials-flow-design
+- production-as-living-design
+- production-scheduling-as-rhythm
+- supply-network-design
+- capacity-planning
+- sales-and-operations-planning
+- supply-planning
+- inventory-planning
+- order-promising
+- supply-disruption-management
+holds:
+- forecast
+- sales-and-operations-plan
+- production-plan
+- supply-shortage

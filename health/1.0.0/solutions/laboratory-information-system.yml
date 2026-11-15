@@ -1,0 +1,38 @@
+kind: solution
+slug: laboratory-information-system
+title: Laboratory Information System
+role: system-of-record
+summary: Manages laboratory testing from order and specimen collection through analysis, validation and release, including microbiology,
+  genetics, point-of-care testing and the blood bank with its products and transfusions.
+carries:
+- laboratory-order-management
+- specimen-collection-and-pre-analytics
+- laboratory-analysis-and-validation
+- laboratory-result-communication
+- point-of-care-testing
+- laboratory-quality-assurance
+- laboratory-test-stewardship
+- microbiology-diagnostics
+- transfusion-medicine
+- genetic-diagnostics
+- therapeutic-drug-monitoring
+- antimicrobial-resistance-monitoring
+holds:
+- specimen
+- observation
+- diagnostic-report
+- blood-product
+- transfusion
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: operations-planning-agent
+title: Operations Planning Agent
+nature: agent
+stance: serving
+summary: An AI agent that forecasts demand and proposes production schedules, inventory levels, staffing and replenishment orders
+  for planners to approve.
+seeks:
+- Timely data on orders, capacity, stock and supply, and the boundaries within which it may propose.
+brings:
+- Better use of capacity and stock, and earlier warning of bottlenecks and shortages.
+represented_by:
+- agent
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

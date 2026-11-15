@@ -1,0 +1,134 @@
+kind: value-stream
+slug: urban-risk-and-resilience
+title: Urban Risk and Resilience
+family: perception-to-mandate
+summary: Preparing the city for disasters and protecting its ability to keep its mandate under threat, a risk framework and appetite set by the council, hazards
+  and the neighbourhoods most exposed mapped, risks treated, emergency and continuity plans with bounded emergency powers that end
+  on a fixed date, exercises, fair crisis response and recovery.
+trigger: The annual risk cycle starts, a new hazard is identified, an exercise falls due, or a flood, outage, pandemic or other emergency
+  strikes.
+outcome: Top risks are treated within the stated appetite, essential services continue or are restored, relief has reached every neighbourhood
+  by need, and emergency powers have returned to their normal holders.
+stakeholders:
+- mayor
+- city-administration
+- emergency-service
+- infrastructure-operator
+- neighbourhood-association
+- affected-community
+steps:
+- slug: risk-framework-and-appetite
+  title: Risk Framework and Appetite
+  summary: The risk framework is confirmed or renewed for the cycle with its categories, methods, owners and escalation thresholds,
+    and the council states the risk it accepts for each kind of threat.
+  capabilities:
+  - risk-framework-setting
+  - council-decision-recording
+  entities:
+  - risk-register
+  - council-decision
+  serves:
+  - council-meeting
+  - risk-review-meeting
+- slug: hazard-and-exposure-mapping
+  title: Hazard and Exposure Mapping
+  summary: Floods, heat, polluted air, infrastructure failure and other hazards are mapped with the neighbourhoods and groups most
+    exposed, including informal settlements whose own water, power and drainage the city must know.
+  capabilities:
+  - hazard-and-vulnerability-mapping
+  - blind-spot-mapping
+  entities:
+  - risk-register
+  - flood-risk-map
+  - neighbourhood
+  serves:
+  - hazard-and-exposure-map
+  - neighbourhood-assembly
+- slug: risk-treatment
+  title: Risk Treatment
+  summary: For each risk beyond the stated appetite a proportionate treatment is chosen, funded and owned, whether a measure, a transfer
+    through insurance or contract, or a reasoned acceptance by the council.
+  capabilities:
+  - risk-treatment-planning
+  - decision-impact-assessment
+  entities:
+  - risk-register
+  - municipal-budget
+  serves:
+  - risk-review-meeting
+- slug: emergency-and-continuity-planning
+  title: Emergency and Continuity Planning
+  summary: To prepare the city for disasters, emergency plans set crisis thresholds, alert levels and roles, essential services receive continuity plans, and each grant
+    of emergency power is bounded in scope and ends on a fixed date unless independent review renews it.
+  capabilities:
+  - emergency-and-continuity-planning
+  - emergency-power-limitation
+  - decision-rights-allocation
+  entities:
+  - emergency-plan
+  - decision-rights-register
+  serves:
+  - council-meeting
+  - published-emergency-plan
+- slug: exercise-and-readiness
+  title: Exercise and Readiness
+  summary: Plans are exercised with emergency services, infrastructure operators and neighbourhoods, warnings are tested in the languages
+    residents use, and every finding strengthens the plans.
+  capabilities:
+  - emergency-exercise
+  - public-warning
+  entities:
+  - emergency-plan
+  - audit-finding
+  serves:
+  - joint-emergency-exercise
+  - public-warning-channel
+- slug: crisis-response
+  title: Crisis Response
+  summary: When a disaster or other emergency strikes, the crisis team takes its bounded decision rights, residents are warned and kept informed, and
+    relief reaches every neighbourhood by need, with each emergency decision recorded and published.
+  capabilities:
+  - crisis-command
+  - public-warning
+  - fair-relief-allocation
+  - emergency-power-limitation
+  entities:
+  - emergency-response
+  - emergency-plan
+  - public-record
+  serves:
+  - crisis-centre
+  - public-warning-channel
+  - relief-distribution-point
+- slug: recovery-and-learning
+  title: Recovery and Learning
+  summary: Services are restored, emergency powers return to their normal holders on schedule, the response is reviewed with the affected
+    neighbourhoods, and the lessons are carried into the risk register and the plans.
+  capabilities:
+  - recovery-coordination
+  - emergency-power-limitation
+  - risk-framework-setting
+  entities:
+  - emergency-response
+  - risk-register
+  - oversight-report
+  serves:
+  - after-action-review
+  - council-meeting
+start: true
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-170
+  edition: '2019'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-184
+  edition: '2017'
+  jurisdiction: global

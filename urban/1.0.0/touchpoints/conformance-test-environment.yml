@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: conformance-test-environment
+title: Conformance Test Environment
+medium: channel
+summary: The environment in which every connection is tested against its specification with test data before it carries live data.
+exchanges:
+- conforming-connector-for-live-data
+- network-data-for-a-monitored-connection
+journey: information-technology-specialist-connecting-two-systems

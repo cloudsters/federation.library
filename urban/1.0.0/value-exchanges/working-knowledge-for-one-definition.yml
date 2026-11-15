@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: working-knowledge-for-one-definition
+title: Working Knowledge for One Definition
+between:
+- city-administration
+- information-technology-specialist
+offered:
+- What address, parcel, building or resident means in each department's work.
+returned:
+- One published definition and identifier that every system uses.
+touchpoint: data-definition-working-group

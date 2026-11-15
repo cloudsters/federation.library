@@ -1,0 +1,62 @@
+kind: entity
+slug: wayfinding-map
+title: Wayfinding Map
+type: intelligence
+summary: The map made with residents of the landmarks, sounds, textures and stories by which each group finds its way to services
+  and through public buildings, and of where people get lost. The city holds it with the residents who made it, and it is used to
+  design wayfinding and service points.
+attributes:
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: streets
+  type: reference(street)
+  card: 0..*
+- name: buildings
+  type: reference(building)
+  card: 0..*
+- name: groups-walked
+  type: text
+  card: 1..*
+- name: landmarks
+  type: text
+  card: 0..*
+- name: sensory-cues
+  type: text
+  card: 0..*
+- name: stories
+  type: text
+  card: 0..*
+- name: places-where-people-get-lost
+  type: text
+  card: 0..*
+- name: made-with
+  type: text
+  card: 1..*
+- name: walked-on
+  type: date
+  card: 1..*
+- name: consent-terms
+  type: text
+  card: 0..1
+- name: map-document
+  type: document
+  card: 1..1
+states:
+- planned
+- walked
+- drafted
+- checked-with-residents
+- published
+- updated
+relations:
+- type: refers-to
+  target: street
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: service-point
+- type: refers-to
+  target: civic-memory-record

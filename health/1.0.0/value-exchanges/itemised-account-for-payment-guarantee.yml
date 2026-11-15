@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: itemised-account-for-payment-guarantee
+title: Itemised Account for Payment Guarantee
+between:
+- administrative-staff
+- payer
+offered:
+- A treatment plan with a cost estimate, prompt notice of any change in plan or cost, and a final account itemised against the estimate.
+returned:
+- A payment guarantee before admission, and settlement of the account within the agreed time.
+touchpoint: cost-estimate

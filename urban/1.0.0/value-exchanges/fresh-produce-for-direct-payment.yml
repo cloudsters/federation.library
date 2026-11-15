@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fresh-produce-for-direct-payment
+title: Fresh Produce for Direct Payment
+between:
+- local-producer
+- resident
+offered:
+- Fresh produce from the region without a middleman.
+returned:
+- Direct payment at an open price.
+touchpoint: producer-collection-point

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: automated-system-register-entry
+title: Automated System Register Entry
+medium: artefact
+summary: The public entry for each automated system in the city's register, with its purpose, data, supplier, term, sunset date, accountable
+  person and status, kept after withdrawal.
+exchanges:
+- public-attention-for-a-register-entry
+journey: city-administration-bringing-an-automated-system-under-assurance

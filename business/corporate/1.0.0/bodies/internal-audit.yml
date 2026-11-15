@@ -1,0 +1,10 @@
+kind: body
+slug: internal-audit
+title: Internal Audit
+summary: Examines independently whether governance, risk management and controls work, reports to the audit and risk committee and
+  follows findings to closure.
+holds:
+- internal-control-and-audit
+part_of: audit-and-risk-committee
+type: function
+form: organisational-unit

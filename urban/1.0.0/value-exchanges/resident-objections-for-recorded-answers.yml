@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-objections-for-recorded-answers
+title: Resident Objections for Recorded Answers
+between:
+- resident
+- city-council
+offered:
+- Objections and proposals on the draft budget, heard in public.
+returned:
+- An answer to each in the record before the vote.
+touchpoint: budget-hearing

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fares-and-ridership-for-reliable-information
+title: Fares and Ridership for Reliable Information
+between:
+- public-transport-passenger
+- infrastructure-operator
+offered:
+- Fares and daily ridership, and reports of faults on vehicles and stops.
+returned:
+- Services that run to the published timetable, and word at once of delays and diversions in forms that work for every sense.
+touchpoint: published-timetable

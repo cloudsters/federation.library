@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: returning-trust-for-a-named-contact
+title: Returning Trust for a Named Contact
+between:
+- resident
+- frontline-worker
+offered:
+- The resident's trust and early word when things change.
+returned:
+- A named person who knows their situation and calls before problems grow.
+touchpoint: named-contact-call

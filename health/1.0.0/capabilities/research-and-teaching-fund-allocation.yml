@@ -1,0 +1,17 @@
+kind: capability
+slug: research-and-teaching-fund-allocation
+title: Research & Teaching Fund Allocation
+level: L3
+parent: budgeting-and-allocation
+summary: Agree the public research and teaching funds and their conditions with the state, the region or the university, and allocate
+  them to units by agreed, performance-based rules.
+binds:
+- source: src-457
+  edition: '2022'
+  jurisdiction: global
+- source: src-458
+  edition: '2012'
+  jurisdiction: global
+- source: src-469
+  edition: '2015'
+  jurisdiction: global

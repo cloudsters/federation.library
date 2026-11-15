@@ -1,0 +1,122 @@
+kind: value-stream
+slug: social-and-cooperative-economy
+title: Social and Cooperative Economy
+family: proposition-to-audience
+summary: Growing enterprises that are owned by their workers, members or communities and that keep their purpose as they grow, including
+  the digital platforms through which residents reach services. It holds advice to found cooperatives and to convert businesses to
+  worker or community ownership, safeguards that keep a mission and its assets as an enterprise grows, support for platforms owned
+  by those who work on and use them, conditions on platforms that operate in the city, federations through which cooperatives share
+  services, and a report on the social value and the ownership the social economy holds.
+trigger: Residents, workers or a business owner ask how to found or convert to a cooperative, a social enterprise is losing its purpose
+  as it grows, or a platform begins to operate in the city.
+outcome: More of the city's work and services are carried by enterprises their workers and users own, they keep their purpose, and
+  platforms in the city leave users and workers in control of their data.
+stakeholders:
+- social-enterprise
+- local-business
+- platform-worker
+- informal-worker
+- platform-operator
+- economic-development-officer
+- civil-society-organisation
+- lender
+steps:
+- slug: social-economy-mapping
+  title: Social Economy Mapping
+  summary: The economic development office maps with their members the cooperatives, social enterprises, mutuals and community businesses
+    of the city, what they do, whom they employ and what they need.
+  capabilities:
+  - civil-society-mapping
+  - local-economy-mapping
+  entities:
+  - cooperative
+  - business-register
+  serves:
+  - social-economy-mapping-session
+- slug: cooperative-formation-and-conversion
+  title: Cooperative Formation and Conversion
+  summary: Groups of workers, residents or informal traders receive advice and model statutes to found a cooperative, and owners receive
+    help to convert their business to worker or community ownership.
+  capabilities:
+  - worker-cooperative-formation-support
+  - cooperative-conversion-support
+  - business-succession-support
+  entities:
+  - cooperative
+  - enterprise-statutes
+  serves:
+  - cooperative-statutes-workshop
+  - ownership-conversion-advice-meeting
+- slug: mission-safeguards
+  title: Mission Safeguards
+  summary: Social enterprises and cooperatives are advised on statutes that bind their purpose and assets, and on nested decision-making
+    that keeps members' trust and voice as they grow beyond their founders.
+  capabilities:
+  - mission-safeguard-advice
+  - cooperative-scaling-advice
+  entities:
+  - enterprise-statutes
+  serves:
+  - mission-safeguard-clinic
+- slug: cooperative-platform-support
+  title: Cooperative Platform Support
+  summary: Platforms for delivery, care, mobility and task matching owned by their workers and users receive open code the city shares,
+    start-up finance and fair access to public demand.
+  capabilities:
+  - cooperative-platform-support
+  - code-publication-and-sharing
+  - start-up-finance-provision
+  entities:
+  - cooperative-platform
+  - source-code-repository
+  serves:
+  - open-platform-code-release
+  - platform-cooperative-support-call
+- slug: platform-operating-conditions
+  title: Platform Operating Conditions
+  summary: Platforms that serve residents through the city's streets and services operate under a licence that requires minimal data
+    collection, lets users and workers take their data and ratings to another service, and gives workers a voice in the rules that
+    allocate their work, on the same terms for commercial and cooperative platforms.
+  capabilities:
+  - platform-licence-condition-setting
+  - data-portability-requirement-setting
+  entities:
+  - platform-licence
+  - data-sharing-agreement
+  serves:
+  - data-and-rating-export
+  - platform-licence-hearing
+- slug: social-economy-federation
+  title: Social Economy Federation
+  summary: Cooperatives and social enterprises federate to share back-office services, workshops, training and a common fund that
+    helps members through hard times.
+  capabilities:
+  - cooperative-federation-support
+  - shared-business-facility-provision
+  entities:
+  - business-network
+  - cooperative
+  serves:
+  - cooperative-federation-assembly
+  - shared-back-office
+- slug: social-value-reporting
+  title: Social Value Reporting
+  summary: Each year the city reports with the social economy the work, ownership and income it holds by neighbourhood, whether enterprises
+    kept their purpose, and how platform workers and users fared.
+  capabilities:
+  - social-value-reporting
+  - local-economy-mapping
+  entities:
+  - social-economy-report
+  - economic-indicators
+  serves:
+  - platform-worker-and-user-survey
+  - published-social-economy-report
+  - social-value-report-round
+binds:
+- source: src-275
+  edition: '2022-06-10'
+  jurisdiction: global
+- source: src-276
+  edition: '2002-06-20'
+  jurisdiction: global

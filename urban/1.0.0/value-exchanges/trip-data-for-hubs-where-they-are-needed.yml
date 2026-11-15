@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: trip-data-for-hubs-where-they-are-needed
+title: Trip Data for Hubs Where They Are Needed
+between:
+- delivery-carrier
+- city-planner
+offered:
+- The carrier's data on trips, vehicle types and loading by district.
+returned:
+- Hubs and loading bays placed where they take most vehicles off residential streets.
+touchpoint: delivery-and-food-access-map

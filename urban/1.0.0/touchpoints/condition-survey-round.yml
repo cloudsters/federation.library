@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: condition-survey-round
+title: Condition Survey Round
+medium: encounter
+summary: The scheduled round in which inspectors survey roads, bridges, pipes, buildings and trees and grade their condition and remaining
+  life.
+exchanges:
+- survey-findings-for-a-graded-condition
+journey: asset-officer-building-the-asset-plan

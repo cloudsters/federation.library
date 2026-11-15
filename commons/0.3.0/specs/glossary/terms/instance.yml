@@ -1,0 +1,16 @@
+id: instance
+term: Instance
+layer: what
+kind: repository
+definition: The repository that holds a Commons CORE, named `[holder.][world.][commons][.slice].core` (CORE R3).
+why: 'CORE R3: the name says whose CORE it is and which horizon it shows. The suffixes .d, .o, .w and .i of the chain era
+  are retired, and instance_type tells a commons from a world.'
+not:
+- .g
+- .o operations, an earlier suffix
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); earlier 2026-10-29,
+    commons.o#98, comment 6505618412: Adopted 29 October 2026 (the merge of commons.o#100)'

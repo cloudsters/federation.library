@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: incident-reporting-system
+title: Incident Reporting System
+medium: channel
+summary: The confidential channel, open to every staff member, through which incidents and near misses are reported in a few minutes
+  and through which reporters receive feedback.
+exchanges:
+- incident-report-for-feedback
+- hazard-knowledge-for-safer-work
+- oversight-reports-for-a-trustworthy-agent
+journey: reporting-an-incident

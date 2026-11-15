@@ -1,0 +1,36 @@
+kind: entity
+slug: value-set
+title: Values
+type: master
+summary: What this person will not trade, each one written as a single sentence they would say out loud — and, beside it, the small
+  set of actions they return to first when they have fallen off. A value with no return path is an opinion.
+attributes:
+- name: values
+  type: text
+  card: 1..*
+- name: return-actions
+  type: text
+  card: 1..*
+- name: enough-line
+  type: text
+  card: 0..1
+- name: inherited-from
+  type: list(ancestor)
+  card: 0..*
+- name: written-on
+  type: date
+  card: 1..1
+- name: last-tested
+  type: date
+  card: 0..1
+states:
+- assumed
+- named
+- tested
+- held
+- revised
+relations:
+- target: self
+  type: about
+- target: premise
+  type: based-on

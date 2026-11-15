@@ -1,0 +1,44 @@
+kind: entity
+slug: education-programme
+title: Education Programme
+type: master
+summary: A programme of education the organisation delivers or takes part in, such as a medical degree, a nursing or allied-health
+  training, a specialty training or a continuing education track, with its award and duration.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: programme-kind
+  type: code
+  card: 1..1
+- name: award
+  type: text
+  card: 0..1
+- name: duration
+  type: quantity
+  card: 1..1
+- name: awarding-body
+  type: reference(organisation)
+  card: 1..1
+- name: responsible-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: annual-places
+  type: integer
+  card: 0..1
+states:
+- planned
+- accredited
+- running
+- suspended
+- closed
+relations:
+- type: governed-by
+  target: accreditation
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-420
+  edition: '2013'
+  jurisdiction: global

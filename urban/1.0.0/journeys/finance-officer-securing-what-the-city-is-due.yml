@@ -1,0 +1,48 @@
+kind: journey
+slug: finance-officer-securing-what-the-city-is-due
+title: Finance Officer Securing What the City Is Due
+stakeholder: finance-officer
+summary: The finance officer claims the transfers and equalisation shares the city is due, settles its part of the regional revenue
+  pool, finds funding calls that fit and tests what they would cost, secures awards the city can meet, claims and closes each grant
+  and moves lasting work onto the city's own revenue.
+stages:
+- slug: claim-the-transfers-due
+  title: Claim the Transfers Due
+  goal: The city has supplied the data the formulae rest on and has contested every error in its allocation.
+  step: grants-and-intergovernmental-transfers/transfer-and-equalisation-claims
+  touchpoints:
+  - transfer-claim-submission
+  - allocation-review-meeting
+- slug: settle-the-regional-pool
+  title: Settle the Regional Pool
+  goal: The city's contribution to and share of the regional revenue pool are agreed and settled for the year.
+  step: grants-and-intergovernmental-transfers/regional-revenue-sharing
+  touchpoints:
+  - regional-pool-negotiation
+  - regional-revenue-pool-settlement
+- slug: find-calls-that-fit
+  title: Find Calls That Fit
+  goal: Departments know the calls that match their objectives and what each would cost the city in match funding and running costs.
+  step: grants-and-intergovernmental-transfers/funding-opportunity-scouting
+  touchpoints:
+  - funding-call-digest
+  - grant-fit-assessment
+- slug: secure-an-award-the-city-can-meet
+  title: Secure an Award the City Can Meet
+  goal: Match funding is committed and the award is signed on terms the city can meet.
+  step: grants-and-intergovernmental-transfers/grant-application-and-award
+  touchpoints:
+  - match-funding-resolution
+  - grant-award-negotiation
+- slug: claim-report-and-close
+  title: Claim, Report and Close
+  goal: Each grant is spent to its conditions, claimed, reported and closed, with its evidence kept.
+  step: grants-and-intergovernmental-transfers/grant-administration-and-close-out
+  touchpoints:
+  - grant-claim-and-report
+- slug: move-lasting-work-onto-own-revenue
+  title: Move Lasting Work onto Own Revenue
+  goal: The work that must last beyond its grant is named and placed in the medium-term financial plan before the grant ends.
+  step: grants-and-intergovernmental-transfers/funding-mix-review
+  touchpoints:
+  - funding-mix-report

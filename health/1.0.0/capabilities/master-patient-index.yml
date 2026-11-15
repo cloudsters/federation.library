@@ -1,0 +1,13 @@
+kind: capability
+slug: master-patient-index
+title: Master Patient Index
+level: L3
+parent: interoperability-and-exchange
+summary: Keep one consistent patient identity across systems and sites and resolve duplicates.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global

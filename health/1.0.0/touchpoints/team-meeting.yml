@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: team-meeting
+title: Team Meeting
+medium: encounter
+summary: The regular meeting of a ward or department team, including the short briefing at the start of a shift, in which results,
+  incidents, decisions and changes are discussed and actions agreed.
+exchanges:
+- unit-results-for-ownership
+- decisions-explained-for-commitment
+- candid-views-for-a-visible-response
+- information-beyond-the-desk
+journey: being-informed-and-heard

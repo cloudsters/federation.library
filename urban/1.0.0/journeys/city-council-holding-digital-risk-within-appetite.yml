@@ -1,0 +1,33 @@
+kind: journey
+slug: city-council-holding-digital-risk-within-appetite
+title: City Council Holding Digital Risk Within Appetite
+stakeholder: city-council
+summary: The council adopts a security policy within its stated risk appetite, approves recovery targets and offline modes for essential
+  services, is informed of serious incidents and receives the audit of controls.
+stages:
+- slug: adopt-the-security-policy
+  title: Adopt the Security Policy
+  goal: The security policy and the digital risks beyond appetite are before the council with their treatments, and the policy is
+    adopted.
+  step: information-security-and-digital-resilience/security-policy-and-risk-assessment
+  touchpoints:
+  - security-policy-statement
+  - security-risk-workshop
+- slug: approve-recovery-targets
+  title: Approve Recovery Targets
+  goal: Each essential service has a recovery target and an offline mode that the council has approved and funded.
+  step: information-security-and-digital-resilience/continuity-and-offline-planning
+  touchpoints:
+  - continuity-plan-summary
+- slug: be-informed-of-incidents
+  title: Be Informed of Incidents
+  goal: The council learns of each serious incident within its deadline, with what was affected and what was done.
+  step: information-security-and-digital-resilience/security-incident-response
+  touchpoints:
+  - security-incident-notice
+- slug: receive-the-security-audit
+  title: Receive the Security Audit
+  goal: The council receives the audit of controls and follows each finding to closure.
+  step: information-security-and-digital-resilience/security-audit-and-improvement
+  touchpoints:
+  - security-audit-report

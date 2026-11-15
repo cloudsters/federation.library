@@ -1,0 +1,135 @@
+kind: value-stream
+slug: digital-strategy-and-systems-architecture
+title: Digital Strategy and Systems Architecture
+family: portfolio-to-system
+summary: Setting the direction of the city's digital systems from its strategy and charter, and keeping a living architecture of the
+  whole, with the services, data, applications, networks and sensors, the scale at which each sits and how they depend on one another.
+  It holds the assessment of the digital landscape, the map of dependencies made with residents and staff, the roadmap of what is
+  built, replaced and retired, and the review of major digital decisions against the architecture.
+trigger: A new city strategy is adopted, the digital strategy falls due for review, or a major digital decision or failure shows that
+  the city's systems no longer fit together.
+outcome: An adopted digital strategy and a current architecture of the city's systems, with each system and data set placed at the
+  lowest scale that can carry it, guide every major digital decision.
+stakeholders:
+- city-council
+- mayor
+- city-administration
+- information-technology-specialist
+- neighbourhood-association
+- resident
+- technology-supplier
+- peer-city
+steps:
+- slug: digital-landscape-assessment
+  title: Digital Landscape Assessment
+  summary: The administration assesses the maturity of its digital systems, what each costs and serves, where residents are poorly
+    served and where the city depends on a single supplier or a single central point.
+  capabilities:
+  - digital-landscape-assessment
+  - municipal-capability-assessment
+  - resident-need-assessment
+  entities:
+  - digital-landscape-report
+  - application
+  - municipal-capability
+  serves:
+  - published-landscape-assessment
+  - system-owner-review
+- slug: digital-dependency-mapping
+  title: Digital Dependency Mapping
+  summary: Residents, staff and technicians map together the networks, servers, sensors and services the city and its neighbourhoods
+    depend on, making the invisible systems visible and showing where a single failure would stop essential services.
+  capabilities:
+  - dependency-mapping
+  - community-asset-mapping
+  - hazard-and-vulnerability-mapping
+  entities:
+  - dependency-map
+  - digital-network
+  - digital-service
+  serves:
+  - dependency-mapping-workshop
+  - published-dependency-map
+- slug: digital-strategy-setting
+  title: Digital Strategy Setting
+  summary: The digital strategy is drafted from the city strategy and the charter, with principles such as open code, city ownership
+    of its data and decisions at the lowest competent scale, and the council adopts it.
+  capabilities:
+  - digital-strategy-drafting
+  - strategic-priority-setting
+  - council-decision-recording
+  entities:
+  - digital-strategy
+  - city-strategy
+  - council-decision
+  serves:
+  - digital-strategy-adoption-debate
+  - draft-digital-strategy
+- slug: target-architecture-design
+  title: Target Architecture Design
+  summary: The target architecture is designed as a system of systems, stating what the neighbourhood, district and city levels each
+    hold and decide, the shared data models and interfaces that connect them, and the redundancy that removes single points of failure.
+  capabilities:
+  - systems-architecture-design
+  - decision-rights-allocation
+  - shared-data-model-design
+  entities:
+  - systems-architecture
+  - decision-rights-register
+  - shared-data-model
+  serves:
+  - architecture-design-session
+  - published-target-architecture
+- slug: digital-roadmap-planning
+  title: Digital Roadmap Planning
+  summary: The systems to build, replace and retire are planned as one roadmap, appraised for their whole-life cost including upkeep,
+    and carried into the city's programme portfolio and capital investment plan.
+  capabilities:
+  - digital-roadmap-planning
+  - programme-appraisal
+  - whole-life-cost-assessment
+  - capital-investment-planning
+  entities:
+  - digital-roadmap
+  - programme-case
+  - capital-investment-plan
+  serves:
+  - published-digital-roadmap
+- slug: architecture-decision-review
+  title: Architecture Decision Review
+  summary: Major digital decisions, from a new platform to a large contract, are reviewed against the strategy and the architecture
+    before they are taken, and each review is published with its reasons.
+  capabilities:
+  - architecture-decision-review
+  - decision-impact-assessment
+  - public-record-publication
+  entities:
+  - systems-architecture
+  - council-decision
+  - public-record
+  serves:
+  - architecture-review-meeting
+  - published-architecture-review
+- slug: digital-strategy-review
+  title: Digital Strategy Review
+  summary: Each year the administration reviews with the council and the neighbourhoods what the digital systems delivered, where
+    the architecture has drifted and what peer cities have learned, and the strategy and roadmap are updated.
+  capabilities:
+  - benefit-confirmation
+  - drift-detection
+  - lesson-recording-and-sharing
+  - digital-landscape-assessment
+  entities:
+  - digital-strategy
+  - digital-roadmap
+  - lesson-record
+  serves:
+  - annual-digital-report
+  - digital-strategy-review-session
+binds:
+- source: src-174
+  edition: '2021'
+  jurisdiction: global
+- source: src-219
+  edition: '2014-07-15'
+  jurisdiction: global

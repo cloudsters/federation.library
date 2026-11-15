@@ -1,0 +1,31 @@
+kind: solution
+slug: clinical-trial-management
+title: Clinical Trial Management
+role: system-of-record
+summary: Plans and runs clinical studies from feasibility and approvals through participant enrolment, visits and data capture to
+  safety reporting and close-out, for sponsored and investigator-initiated trials alike.
+carries:
+- clinical-trial-management
+- trial-feasibility-and-start-up
+- trial-participant-recruitment
+- study-monitoring-and-data-management
+- investigator-initiated-trial-sponsorship
+- trial-safety-reporting
+- ethics-committee-governance
+- research-data-collection
+- industry-research-contracting
+holds:
+- study-protocol
+- study-review
+- participant-enrolment
+- study-visit
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

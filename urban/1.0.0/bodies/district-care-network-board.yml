@@ -1,0 +1,10 @@
+kind: body
+slug: district-care-network-board
+title: District Care Network Board
+summary: The body of a district's hospitals, clinics, pharmacies, care providers, community bodies and the city's social services,
+  which agrees and reviews the care network agreement and answers together for those its members serve.
+holds:
+- care-network-agreement-drafting
+part_of: health-and-social-care-committee
+type: committee
+form: governing-body

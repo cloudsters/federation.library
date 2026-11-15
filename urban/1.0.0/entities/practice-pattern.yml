@@ -1,0 +1,62 @@
+kind: entity
+slug: practice-pattern
+title: Practice Pattern
+type: master
+summary: A practice validated in at least three distinct contexts, with the problem it answers, the contexts in which it worked, the
+  conditions under which it applies and those under which it fails, and the accounts of the staff and residents who tested it. Those
+  who curate the pattern library keep it with its sources and revise or retire it when it stops working, and standard procedures and
+  encoded rules are drawn from it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: problem
+  type: text
+  card: 1..1
+- name: practice
+  type: text
+  card: 1..1
+- name: validated-contexts
+  type: text
+  card: 1..*
+- name: applies-when
+  type: text
+  card: 1..*
+- name: fails-when
+  type: text
+  card: 1..*
+- name: evidence
+  type: reference(evidence-review)
+  card: 1..*
+- name: practitioner-accounts
+  type: reference(knowledge-article)
+  card: 0..*
+- name: library
+  type: reference(pattern-library)
+  card: 0..1
+- name: validated-on
+  type: date
+  card: 0..1
+- name: retirement-reason
+  type: text
+  card: 0..1
+states:
+- candidate
+- under-validation
+- tested
+- validated
+- published
+- under-revision
+- retired
+relations:
+- type: part-of
+  target: pattern-library
+- type: based-on
+  target: evidence-review
+- type: refers-to
+  target: knowledge-article
+- type: produces
+  target: standard-procedure

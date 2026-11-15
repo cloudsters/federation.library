@@ -1,0 +1,32 @@
+kind: solution
+slug: order-communication
+title: Order Communication
+role: system-of-record
+summary: Carries clinical orders from the ordering professional to the performing service, including laboratory, imaging,
+  consultation, therapy and diet orders, and returns status and results to the requester. It closes the loop between request
+  and result.
+carries:
+- clinical-order-entry
+- interdisciplinary-consultation
+- consultation-liaison-psychiatry
+- laboratory-order-management
+- laboratory-result-communication
+- laboratory-test-stewardship
+- imaging-order-justification
+- imaging-result-communication
+- emergency-diagnostics
+- clinical-nutrition
+- digital-health-application-prescription
+holds:
+- clinical-order
+- nutrition-order
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

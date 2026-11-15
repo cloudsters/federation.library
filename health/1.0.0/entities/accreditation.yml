@@ -1,0 +1,49 @@
+kind: entity
+slug: accreditation
+title: Accreditation
+type: governance
+summary: Recognition by an external body that the organisation or one of its units meets a defined standard, such as for a quality
+  management system, a specialised centre or a laboratory, granted after assessment and renewed by surveillance.
+attributes:
+- name: accrediting-body
+  type: reference(organisation)
+  card: 1..1
+- name: scope
+  type: reference(organisation-unit)
+  card: 0..*
+- name: standard-reference
+  type: text
+  card: 1..1
+- name: granted-on
+  type: date
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: next-surveillance
+  type: date
+  card: 0..1
+states:
+- applied-for
+- in-assessment
+- granted
+- conditional
+- suspended
+- withdrawn
+- expired
+relations:
+- type: based-on
+  target: audit
+binds:
+- source: src-019
+  edition: 5.0.0
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

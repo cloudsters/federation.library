@@ -1,0 +1,10 @@
+kind: capability
+slug: knowing-ones-own-sleep
+title: Knowing One's Own Sleep
+level: L3
+parent: sleeping-well
+summary: The ability to know how one's own sleep actually goes and what reliably helps or breaks it.
+binds:
+- source: src-165
+  edition: 2012-02
+  jurisdiction: global

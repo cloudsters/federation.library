@@ -1,0 +1,19 @@
+kind: body
+slug: information-technology
+title: Information Technology
+summary: 'Builds and runs the commons'' technology: enterprise architecture, clinical and enterprise applications, integration
+  and interoperability, service management, infrastructure, networks and IT continuity.'
+holds:
+- enterprise-architecture
+- clinical-and-enterprise-applications
+- interoperability-and-exchange
+- it-service-management
+- infrastructure
+- it-resilience
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global

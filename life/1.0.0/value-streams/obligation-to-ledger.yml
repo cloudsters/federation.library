@@ -1,0 +1,77 @@
+kind: value-stream
+slug: obligation-to-ledger
+title: Seeing What Is Owed
+family: value-to-sustainability
+summary: Making visible what the life actually owes — debts, dependants, promises, the claims that do not appear on any statement.
+trigger: A bill, a dependant's need or an old promise arrives that had not been counted, or the person cannot say what they owe and
+  to whom.
+outcome: Debts, dependants and promises, including the ones on no statement, are visible in one place and can be honoured or renegotiated.
+stakeholders:
+- dependant
+- authority
+- partner
+- parent
+- child
+steps:
+- slug: when-an-uncounted-claim-arrives
+  title: When an Uncounted Claim Arrives
+  summary: A bill, a dependant's need or an old promise arrives that had not been counted, and the person turns to face it rather
+    than away.
+  capabilities:
+  - facing-what-one-owes
+  entities:
+  - obligation
+  - dependant-relation
+  serves:
+  - official-papers
+  - the-bill
+- slug: listing-everything-owed
+  title: Listing Everything Owed
+  summary: Debts, guarantees and dated promises are brought together in one place, with when each falls due and to whom.
+  capabilities:
+  - keeping-one-list-of-what-is-owed
+  entities:
+  - obligation
+  - commitment
+  - financial-position
+- slug: counting-the-unwritten-claims
+  title: Counting the Unwritten Claims
+  summary: The duties that appear on no statement, care for a parent, a promise to a child, an expectation at home, are written in
+    too.
+  capabilities:
+  - naming-the-unwritten-duties
+  entities:
+  - dependant-relation
+  - commitment
+  - care-episode
+- slug: following-how-money-moves
+  title: Following How Money Moves
+  summary: The person follows how money runs between accounts, home and obligations, so it is clear what each claim draws from.
+  capabilities:
+  - seeing-where-money-goes
+  entities:
+  - account
+  - expense
+  - obligation
+  serves:
+  - bank-app
+- slug: honouring-or-renegotiating
+  title: Honouring or Renegotiating
+  summary: Each claim is either honoured or honestly renegotiated before it is broken, by going back to the person it was made to.
+  capabilities:
+  - renegotiating-a-promise-honestly
+  entities:
+  - obligation
+  - commitment
+  - conversation
+  serves:
+  - customer-service-line
+  - hard-conversation
+- slug: keeping-the-ledger-current
+  title: Keeping the Ledger Current
+  summary: At set times the list is brought up to date, so that what is owed never again builds up in the dark.
+  capabilities:
+  - looking-back-at-set-times
+  entities:
+  - financial-position
+  - review-cadence

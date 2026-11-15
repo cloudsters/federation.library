@@ -1,0 +1,63 @@
+kind: entity
+slug: supply-interruption
+title: Supply Interruption
+type: transactional
+summary: A failure or shortage of water, power or heat, with its cause, the neighbourhoods affected, the order of restoration and
+  its duration. The network operator records it from the first report to full restoration, and it is used to serve the basic need
+  of every household first and to review how often each neighbourhood is cut off.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: service
+  type: code
+  card: 1..1
+- name: interruption-kind
+  type: code
+  card: 1..1
+- name: cause
+  type: text
+  card: 0..1
+- name: started-at
+  type: datetime
+  card: 1..1
+- name: restored-at
+  type: datetime
+  card: 0..1
+- name: neighbourhoods-affected
+  type: reference(neighbourhood)
+  card: 1..*
+- name: households-affected
+  type: integer
+  card: 0..1
+- name: restoration-order
+  type: text
+  card: 0..*
+- name: use-restrictions
+  type: text
+  card: 0..*
+- name: emergency-supply
+  type: text
+  card: 0..*
+states:
+- reported
+- confirmed
+- responding
+- partly-restored
+- restored
+- reviewed
+relations:
+- type: refers-to
+  target: water-network
+- type: refers-to
+  target: energy-grid
+- type: refers-to
+  target: heat-network
+- type: governed-by
+  target: emergency-plan
+- type: produces
+  target: infrastructure-repair
+binds:
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global

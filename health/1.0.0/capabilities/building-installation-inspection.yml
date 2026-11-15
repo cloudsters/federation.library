@@ -1,0 +1,11 @@
+kind: capability
+slug: building-installation-inspection
+title: Building Installation Inspection
+level: L3
+parent: facility-operations
+summary: Carry out the mandatory inspections of building installations such as electrical systems, emergency power, lifts, pressure
+  systems, fire protection and medical gas pipelines, and close their findings within set deadlines.
+binds:
+- source: src-302
+  edition: '2016'
+  jurisdiction: global

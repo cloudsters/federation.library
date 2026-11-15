@@ -1,0 +1,62 @@
+kind: entity
+slug: digital-identity
+title: Digital Identity
+type: master
+summary: The identity a resident, member of staff, device or system uses in the city's systems, with the access it holds and the data
+  it controls. The administration issues and keeps it, the holder sees what it reaches and what it shares, and its access is reviewed
+  and withdrawn on time.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: holder-kind
+  type: code
+  card: 1..1
+- name: holder
+  type: text
+  card: 1..1
+- name: assurance-level
+  type: code
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+- name: granted-access
+  type: text
+  card: 0..*
+- name: systems-reached
+  type: reference(application)
+  card: 0..*
+- name: consents
+  type: reference(consent-record)
+  card: 0..*
+- name: last-reviewed-on
+  type: date
+  card: 0..1
+- name: expires-on
+  type: date
+  card: 0..1
+- name: withdrawn-on
+  type: date
+  card: 0..1
+states:
+- requested
+- verified
+- issued
+- active
+- suspended
+- withdrawn
+- expired
+relations:
+- type: refers-to
+  target: application
+- type: governed-by
+  target: security-policy
+- type: refers-to
+  target: consent-record
+- type: refers-to
+  target: population-register
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

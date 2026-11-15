@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: missing-data-for-a-revised-catalogue
+title: Missing Data for a Revised Catalogue
+between:
+- research-institution
+- city-administration
+offered:
+- Its view of which data it misses and which products it no longer uses.
+returned:
+- A catalogue revised on what users say, and products no one uses retired.
+touchpoint: data-users-forum

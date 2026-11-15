@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: play-street-day
+title: Play Street Day
+medium: encounter
+summary: A set time when a residential street is closed to traffic so that children can play, with neighbours keeping an eye.
+exchanges:
+- street-supervision-for-a-play-street
+journey: parent-or-guardian-opening-a-play-street

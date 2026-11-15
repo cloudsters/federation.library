@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: mobile-screening-clinic
+title: Mobile Screening Clinic
+medium: place
+summary: A clinic brought to the neighbourhoods and groups that use prevention least, offering vaccination, screening and early checks
+  at times and in languages that fit, whatever a person's status.
+exchanges:
+- attendance-for-screening-whatever-status
+- clinics-and-staff-for-residents-reached
+journey: community-health-worker-keeping-the-neighbourhood-well

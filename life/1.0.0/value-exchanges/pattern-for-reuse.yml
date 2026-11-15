@@ -1,0 +1,14 @@
+kind: value-exchange
+slug: pattern-for-reuse
+title: Pattern for Reuse
+between:
+- self
+- collaborator
+- mentee
+- synthetic-collaborator
+- community
+offered:
+- What worked, written so that someone else could follow it without the person in the room.
+returned:
+- Improvements from those who used it, and fewer problems solved twice.
+touchpoint: shared-document

@@ -1,0 +1,25 @@
+kind: body
+slug: public-works-department
+title: Public Works Department
+summary: Designs, builds and hands over the city's roads, bridges, drains, public buildings and other works, runs the crews and depots
+  that schedule, inspect and repair them, coordinates neighbourhood renewal and contracts the deconstruction of retired assets.
+holds:
+- public-works-delivery
+- works-brief-preparation
+- whole-life-design
+- design-for-disassembly
+- works-permit-coordination
+- works-neighbour-liaison
+- construction-supervision
+- works-commissioning-and-handover
+- maintenance-and-renewal
+- maintenance-scheduling
+- infrastructure-fault-triage
+- preventive-maintenance
+- responsive-repair
+- statutory-safety-inspection
+- renewal-works-coordination
+- deconstruction-and-salvage
+part_of: full-council
+type: function
+form: organisational-unit

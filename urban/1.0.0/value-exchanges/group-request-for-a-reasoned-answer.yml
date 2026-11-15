@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: group-request-for-a-reasoned-answer
+title: Group Request for a Reasoned Answer
+between:
+- resident
+- city-administration
+offered:
+- A resident group's request for a digital tool it needs.
+returned:
+- A mandate and an owner for the tool, or a reasoned answer why not.
+touchpoint: digital-request-form

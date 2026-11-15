@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: job-requisition
+title: Job Requisition
+medium: artefact
+summary: The request of a unit to fill an approved post, with the role's contribution, requirements, grade and timing, which starts
+  the search.
+exchanges: []
+journey: hiring-manager-filling-an-approved-post

@@ -1,0 +1,79 @@
+kind: value-stream
+slug: venture-financing
+title: Venture Financing
+family: value-to-sustainability
+summary: Raising money for a young company from its owners and investors before it carries itself, from planning the runway through
+  preparing and closing a funding round to recording the new owners and reporting to them.
+trigger: The runway falls below what the next milestone needs, or an investor shows interest.
+outcome: A round is closed on terms the owners accept, the new holdings are recorded, and the investors receive the agreed information.
+stakeholders:
+- founder
+- financial-investor
+- shareholder
+- executive-board
+- finance-professional
+steps:
+- slug: runway-planning
+  title: Runway Planning
+  summary: Cash in and out is forecast month by month to show how long the company can operate and which milestone it must reach before
+    the money runs out.
+  capabilities:
+  - cash-flow-forecasting
+  entities:
+  - plan
+  - measure-report
+  serves:
+  - board-meeting
+- slug: round-preparation
+  title: Round Preparation
+  summary: For the funding round, the amount to raise, the use of the money and the milestones it finances are set, and the evidence
+    investors will examine is gathered.
+  capabilities:
+  - investor-relationship-design
+  - cash-flow-forecasting
+  entities:
+  - business-case
+  - plan
+  serves:
+  - investor-meeting
+- slug: investor-search
+  title: Investor Search
+  summary: Investors whose stage, sector and way of working fit are approached and meet the founders.
+  capabilities:
+  - investor-relationship-design
+  entities:
+  - stakeholder
+  serves:
+  - investor-meeting
+- slug: terms-and-due-diligence
+  title: Terms and Due Diligence
+  summary: The price, the rights and the protections of the stake are negotiated, and the investor examines the company before committing.
+  capabilities:
+  - equity-and-ownership-management
+  entities:
+  - shareholder-record
+  serves:
+  - due-diligence-report
+  - investor-agreement
+- slug: closing-and-recording
+  title: Closing and Recording
+  summary: The owners resolve the capital increase, the agreement is signed, the money is paid in and the new holdings are entered in
+    the share register.
+  capabilities:
+  - equity-and-ownership-management
+  entities:
+  - shareholder-register
+  - governance-decision
+  serves:
+  - shareholder-meeting
+  - share-register
+- slug: investor-reporting
+  title: Investor Reporting
+  summary: The investors receive the agreed reports on results, cash and milestones, and are heard before the decisions the agreement
+    reserves to them.
+  capabilities:
+  - investor-transparency
+  entities:
+  - measure-report
+  serves:
+  - investor-meeting

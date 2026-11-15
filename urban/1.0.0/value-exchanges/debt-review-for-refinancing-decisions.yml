@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: debt-review-for-refinancing-decisions
+title: Debt Review for Refinancing Decisions
+between:
+- finance-officer
+- city-council
+offered:
+- The year's review of the debt held against the borrowing strategy, with the refinancing options.
+returned:
+- Decisions to refinance or repay within the strategy.
+touchpoint: annual-debt-review

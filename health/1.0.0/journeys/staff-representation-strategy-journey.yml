@@ -1,0 +1,26 @@
+kind: journey
+slug: staff-representation-strategy-journey
+title: Staff Representation Strategy Journey
+stakeholder: staff-representation
+summary: The elected staff representation is informed of the strategy before adoption, takes part in decisions on structural change
+  and helps carry the strategy to staff.
+stages:
+- slug: be-informed-before-adoption
+  title: Be Informed before Adoption
+  goal: Learn the strategy's consequences for jobs and working conditions while they can still be weighed.
+  step: strategy-development/strategy-choice-and-adoption
+  touchpoints:
+  - staff-consultation
+- slug: co-decide-structural-change
+  title: Co-Decide Structural Change
+  goal: Exercise the rights of co-determination on restructuring, transfers and new working arrangements.
+  step: strategy-development/target-organisation-design
+  touchpoints:
+  - staff-consultation
+- slug: speak-to-staff
+  title: Speak to Staff
+  goal: Give staff the representation's own account of the strategy and its consequences.
+  step: strategy-development/strategy-communication
+  touchpoints:
+  - staff-town-hall
+  - staff-intranet

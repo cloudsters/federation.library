@@ -1,0 +1,66 @@
+kind: entity
+slug: adaptation-plan
+title: Adaptation Plan
+type: governance
+summary: The plan for adapting the city's exposed assets and neighbourhoods, with the options chosen with residents, how costs are
+  shared and where planned retreat applies. The council adopts it, and adaptation works are delivered and monitored under it.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: exposure-basis
+  type: reference(climate-exposure-assessment)
+  card: 1..*
+- name: options-weighed
+  type: text
+  card: 1..*
+- name: chosen-options
+  type: text
+  card: 1..*
+- name: retreat-areas
+  type: document
+  card: 0..*
+- name: buyout-terms
+  type: text
+  card: 0..*
+- name: cost-sharing
+  type: text
+  card: 0..1
+- name: climate-action-plan
+  type: reference(climate-action-plan)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- superseded
+relations:
+- type: based-on
+  target: climate-exposure-assessment
+- type: part-of
+  target: climate-action-plan
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: asset-plan
+- type: based-on
+  target: public-consultation
+binds:
+- source: src-640
+  edition: '2026'
+  jurisdiction: global

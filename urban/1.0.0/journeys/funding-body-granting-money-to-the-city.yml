@@ -1,0 +1,39 @@
+kind: journey
+slug: funding-body-granting-money-to-the-city
+title: Funding Body Granting Money to the City
+stakeholder: funding-body
+summary: A funding body receives the data its formulae need and answers the city's challenges, sees its call taken up by the departments
+  it fits, receives an application with match funding committed, and receives claims, reports and the evidence for its audit.
+stages:
+- slug: receive-the-allocation-data
+  title: Receive the Allocation Data
+  goal: The funding body has the population and economic data its formulae need and has answered the city's challenges.
+  step: grants-and-intergovernmental-transfers/transfer-and-equalisation-claims
+  touchpoints:
+  - transfer-claim-submission
+  - allocation-review-meeting
+- slug: see-the-call-taken-up
+  title: See the Call Taken Up
+  goal: The funding body's call has reached the departments whose work it fits.
+  step: grants-and-intergovernmental-transfers/funding-opportunity-scouting
+  touchpoints:
+  - funding-call-digest
+- slug: receive-a-committed-application
+  title: Receive a Committed Application
+  goal: The application arrives with match funding committed and terms the city can meet.
+  step: grants-and-intergovernmental-transfers/grant-application-and-award
+  touchpoints:
+  - match-funding-resolution
+  - grant-award-negotiation
+- slug: receive-claims-and-reports
+  title: Receive Claims and Reports
+  goal: Claims and reports arrive on time with the evidence behind them.
+  step: grants-and-intergovernmental-transfers/grant-administration-and-close-out
+  touchpoints:
+  - grant-claim-and-report
+- slug: audit-and-close
+  title: Audit and Close
+  goal: The funder's audit finds the evidence kept and the grant is closed out.
+  step: grants-and-intergovernmental-transfers/grant-administration-and-close-out
+  touchpoints:
+  - funder-audit-visit

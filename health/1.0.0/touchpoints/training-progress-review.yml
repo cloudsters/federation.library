@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: training-progress-review
+title: Training Progress Review
+medium: encounter
+summary: The periodic review between trainee and trainer, or before a competence committee, of logbook, assessments and progress,
+  ending in entrustment decisions and next steps.
+exchanges:
+- clinical-service-for-structured-training
+journey: becoming-a-specialist

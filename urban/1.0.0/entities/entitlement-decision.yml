@@ -1,0 +1,66 @@
+kind: entity
+slug: entitlement-decision
+title: Entitlement Decision
+type: transactional
+summary: The reasoned decision on an application, with what the resident receives, from when, until when and how to appeal. The department
+  issues it in plain language and the resident's own language, and it is reviewed when circumstances change.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: application
+  type: reference(service-application)
+  card: 1..1
+- name: outcome
+  type: code
+  card: 1..1
+- name: reasons
+  type: text
+  card: 1..1
+- name: granted-provision
+  type: text
+  card: 0..1
+- name: amount
+  type: amount
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+- name: decided-by
+  type: text
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+- name: notice-language
+  type: code
+  card: 1..1
+- name: appeal-route
+  type: text
+  card: 1..1
+- name: next-review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- issued
+- in-effect
+- under-review
+- adjusted
+- appealed
+- ended
+relations:
+- type: based-on
+  target: service-application
+- type: governed-by
+  target: entitlement-rule
+- type: refers-to
+  target: resident-account
+- type: refers-to
+  target: payment
+- type: produces
+  target: public-record
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global

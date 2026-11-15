@@ -1,0 +1,29 @@
+kind: journey
+slug: neighbour-living-alongside-a-site
+title: Neighbour Living Alongside a Site
+stakeholder: local-community
+summary: Neighbours see the company take part in civic life, are invited onto its site, are told promptly and plainly when something
+  goes wrong and find their concerns answered.
+stages:
+- slug: meet-the-company-in-the-neighbourhood
+  title: Meet the Company in the Neighbourhood
+  goal: Neighbours meet the company on open days and in local life, and know by what criteria it supports clubs and causes.
+  step: public-narrative-presence/community-presence
+  touchpoints:
+  - open-day
+  - community-sponsorship
+  - neighbourhood-dialogue
+- slug: be-told-when-something-goes-wrong
+  title: Be Told When Something Goes Wrong
+  goal: In an incident neighbours are told promptly what happened, what it means for them and what to do.
+  step: public-narrative-presence/crisis-response
+  touchpoints:
+  - crisis-statement
+  - neighbourhood-dialogue
+- slug: see-concerns-answered
+  title: See Concerns Answered
+  goal: Complaints about noise, traffic or conduct receive a visible answer and, where justified, change on the site.
+  step: public-narrative-presence/reputation-monitoring-and-response
+  touchpoints:
+  - public-ratings-and-reviews
+  - neighbourhood-dialogue

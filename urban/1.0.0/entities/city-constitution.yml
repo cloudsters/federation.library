@@ -1,0 +1,52 @@
+kind: entity
+slug: city-constitution
+title: City Constitution
+type: governance
+summary: The founding rules of the municipality that set its bodies, their powers and their procedures within the statutory local-government
+  framework. The council adopts and amends it, the supervisory authority may approve it, and it is the first reference for who may
+  decide what.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: bodies
+  type: text
+  card: 1..*
+- name: powers
+  type: text
+  card: 1..*
+- name: rules-of-procedure
+  type: document
+  card: 1..1
+- name: amendment-rule
+  type: text
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- adopted
+- approved
+- in-force
+- under-review
+- amended
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: council
+- type: refers-to
+  target: mayoral-office
+- type: refers-to
+  target: decision-rights-register

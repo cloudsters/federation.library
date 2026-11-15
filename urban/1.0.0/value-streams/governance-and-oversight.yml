@@ -1,0 +1,141 @@
+kind: value-stream
+slug: governance-and-oversight
+title: Governance and Oversight
+family: perception-to-mandate
+summary: Directing and supervising the municipality through its council and committees, the map of which decision rests at which level,
+  the preparation, deliberation and recording of resolutions, oversight of their implementation, internal and resident audit, cooperation
+  with neighbouring municipalities, and the scheduled review of the rules themselves.
+trigger: A new council term begins, a proposal requires a resolution, or an audit finding or a resident inspection calls a decision
+  into question.
+outcome: Decisions are taken at the level the decision map assigns, recorded with their dissent, implemented as reported, and every
+  audit finding has a public answer.
+stakeholders:
+- city-council
+- mayor
+- city-administration
+- resident
+- external-auditor
+- neighbouring-municipality
+steps:
+- slug: decision-authority-mapping
+  title: Decision Authority Mapping
+  summary: Which decisions rest with residents, neighbourhoods, the municipality and metropolitan bodies is mapped on the principle
+    that a decision is taken closest to those it affects, and the map is published and open to challenge.
+  capabilities:
+  - decision-rights-allocation
+  - power-mapping
+  entities:
+  - decision-rights-register
+  - city-constitution
+  serves:
+  - council-meeting
+  - joint-committee-meeting
+  - published-decision-map
+- slug: decision-preparation
+  title: Decision Preparation
+  summary: The administration prepares each proposal with its evidence, alternatives, cost and the results of consultation, and states
+    who benefits, who bears the cost and what it leaves to future generations.
+  capabilities:
+  - council-decision-preparation
+  - decision-impact-assessment
+  - resident-hearing
+  entities:
+  - council-decision
+  - public-consultation
+  - municipal-budget
+  serves:
+  - council-proposal
+  - public-hearing
+- slug: deliberation-and-resolution
+  title: Deliberation and Resolution
+  summary: Council and committees deliberate in public, minority positions and rejected alternatives are recorded with the decision,
+    and the resolution is published with its reasons.
+  capabilities:
+  - council-decision-recording
+  - dissent-recording
+  - public-record-publication
+  entities:
+  - council-decision
+  - public-record
+  serves:
+  - committee-meeting
+  - council-meeting
+  - council-minutes
+- slug: implementation-oversight
+  title: Implementation Oversight
+  summary: The administration carries out each resolution and reports at set intervals what was promised, what was delivered, what
+    failed and why, to the council and to the neighbourhoods concerned.
+  capabilities:
+  - implementation-reporting
+  - city-signal-collection
+  entities:
+  - council-decision
+  - oversight-report
+  serves:
+  - committee-meeting
+  - implementation-report
+- slug: audit-and-inspection
+  title: Audit and Inspection
+  summary: Internal audit and teams of resident inspectors examine spending, procurement and permits, publish their findings, and
+    the administration answers each finding publicly within a set time.
+  capabilities:
+  - internal-audit
+  - resident-inspection-support
+  - implementation-reporting
+  entities:
+  - audit-finding
+  - public-procurement
+  - oversight-report
+  serves:
+  - audit-report
+  - committee-meeting
+  - resident-inspection
+- slug: cross-boundary-coordination
+  title: Cross-Boundary Coordination
+  summary: Where water, transit, land or services cross the city's boundary, agreements with neighbouring municipalities share decisions,
+    costs and maintenance, and give those who rely on the infrastructure a voice.
+  capabilities:
+  - cross-boundary-agreement-handling
+  - decision-rights-allocation
+  entities:
+  - cross-boundary-agreement
+  - decision-rights-register
+  serves:
+  - joint-committee-meeting
+- slug: governance-effectiveness-review
+  title: Governance Effectiveness Review
+  summary: On a fixed cycle the rules of procedure, the decision map and the balance of power among the bodies are reviewed, imbalances
+    are named, and rules that no longer serve are changed by the council.
+  capabilities:
+  - rule-review
+  - power-mapping
+  - decision-rights-allocation
+  entities:
+  - city-constitution
+  - decision-rights-register
+  - oversight-report
+  serves:
+  - governance-review-session
+start: true
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global
+- source: src-171
+  edition: 2016+Amd1:2024
+  jurisdiction: global
+- source: src-174
+  edition: '2021'
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-185
+  edition: 2019-03
+  jurisdiction: global
+- source: src-186
+  edition: '2017-12-14'
+  jurisdiction: global

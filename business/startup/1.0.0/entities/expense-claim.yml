@@ -1,0 +1,41 @@
+kind: entity
+slug: expense-claim
+title: Expense Claim
+type: transactional
+summary: A reimbursement request — an employee's claim for costs incurred on the organisation's behalf, requiring approval to maintain both
+  trust and financial discipline.
+attributes:
+- name: claimant
+  type: reference(employee-record)
+  card: 1..1
+- name: lines
+  type: text
+  card: 1..*
+- name: total-amount
+  type: amount
+  card: 1..1
+- name: categories
+  type: code
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..*
+- name: approver
+  type: reference(employee-record)
+  card: 0..1
+- name: cost-center
+  type: reference(cost-center)
+  card: 0..1
+states:
+- draft
+- submitted
+- approved
+- reimbursed
+- rejected
+relations:
+- type: governed-by
+  target: policy
+- type: produces
+  target: journal-entry
+- type: produces
+  target: payment

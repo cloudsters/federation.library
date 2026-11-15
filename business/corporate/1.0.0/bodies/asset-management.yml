@@ -1,0 +1,13 @@
+kind: body
+slug: asset-management
+title: Asset Management
+summary: Plans, acquires, maintains and disposes of physical assets so that they deliver their purpose safely over their whole life.
+holds:
+- asset-management
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

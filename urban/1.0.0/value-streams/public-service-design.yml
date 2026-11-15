@@ -1,0 +1,134 @@
+kind: value-stream
+slug: public-service-design
+title: Public Service Design
+family: discovery-to-usage
+summary: Conceiving new or substantially changed public services and renewing or closing those that no longer serve. It holds the
+  need raised by residents, frontline staff or a service council, a concept shaped with those who will use and deliver the service,
+  the case for it and the decision to trial it, a bounded trial, the readiness of staff, buildings, channels and information, the
+  launch, and a review of whether the service is used and does what it promised.
+trigger: Residents, a neighbourhood, a service council or frontline staff raise a need that no service meets, or a review shows that
+  a service no longer serves those it is for.
+outcome: The service is launched, changed or closed by a recorded decision, with its standard, its users and those who deliver it
+  known, and its use reviewed against what it promised.
+stakeholders:
+- resident
+- frontline-worker
+- city-administration
+- city-council
+- disabled-resident
+- affected-community
+- staff-representative
+steps:
+- slug: need-identification
+  title: Need Identification
+  summary: A need raised by residents, a service council, frontline staff or the record of complaints and surveys is described with
+    those who have it, together with the services and community assets that already touch it, and becomes a service proposal.
+  capabilities:
+  - resident-need-assessment
+  - service-council-convening
+  - community-asset-mapping
+  entities:
+  - service-proposal
+  - need-assessment
+  - citizen-complaint
+  - citizen-satisfaction
+  serves:
+  - need-and-asset-conversation
+  - service-need-intake
+- slug: service-concept-co-design
+  title: Service Concept Co-Design
+  summary: Residents who will use the service, frontline staff who will deliver it and the department shape the concept together,
+    walking the resident's journey with disabled residents, elders and multilingual speakers, and decide whom the service serves,
+    what it offers, through which channels and places, and how a person reaches a human.
+  capabilities:
+  - service-co-design
+  - service-journey-mapping
+  - service-council-convening
+  entities:
+  - service-concept
+  - service-journey-map
+  - service-council
+  serves:
+  - resident-journey-walk-through
+  - service-co-design-session
+- slug: service-case-and-approval
+  title: Service Case and Approval
+  summary: The department sets out the cost of the service over its whole life, the staff and buildings it needs and who gains and
+    who is left out, and the council or its committee decides whether to trial it.
+  capabilities:
+  - service-case-preparation
+  - whole-life-cost-assessment
+  - budget-equity-assessment
+  entities:
+  - service-case
+  - equity-impact-assessment
+  - council-decision
+  serves:
+  - service-case-paper
+  - service-trial-decision-hearing
+- slug: service-trial
+  title: Service Trial
+  summary: The service runs in a defined neighbourhood for a defined time, and residents and staff record what works, what fails and
+    who does not come, ending in a decision to launch, change or stop.
+  capabilities:
+  - urban-trial-design
+  - trial-evaluation
+  - service-use-review
+  entities:
+  - urban-trial
+  - service-concept
+  serves:
+  - neighbourhood-service-trial
+  - trial-feedback-diary
+- slug: launch-readiness
+  title: Launch Readiness
+  summary: Staff are prepared, buildings, channels and information are ready in the languages residents use, the service standard
+    is set with the service council, and the service is entered in the city's directory of services.
+  capabilities:
+  - service-standard-setting
+  - staff-learning-path-design
+  - language-access-provision
+  - service-catalogue-upkeep
+  entities:
+  - public-service
+  - service-standard
+  - service-catalogue
+  serves:
+  - city-service-directory
+  - staff-readiness-briefing
+- slug: service-launch
+  title: Service Launch
+  summary: The service opens, residents who may use it are told directly through the channels and trusted places they already use,
+    and early faults are found and fixed in the first weeks.
+  capabilities:
+  - service-launch-communication
+  - in-service-quality-checking
+  - service-catalogue-upkeep
+  entities:
+  - public-service
+  - service-catalogue
+  serves:
+  - early-fault-huddle
+  - launch-notice-in-trusted-places
+- slug: service-use-and-value-review
+  title: Service Use and Value Review
+  summary: At a fixed time after launch the service is reviewed with its users and staff against what it promised, who uses it, who
+    does not and why, and what it achieved; it is then kept, changed or closed, with a route for residents who still need it.
+  capabilities:
+  - service-use-review
+  - service-closure-planning
+  - service-quality-review
+  entities:
+  - service-review-report
+  - public-service
+  - council-decision
+  serves:
+  - published-service-review
+  - service-review-forum
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-249
+  edition: '2019'
+  jurisdiction: global

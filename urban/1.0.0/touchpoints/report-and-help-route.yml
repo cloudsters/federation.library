@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: report-and-help-route
+title: Report-and-Help Route
+medium: channel
+summary: The option, when a resident reports a problem in the street or a park, to help fix it, with the tools and cover the city
+  provides.
+exchanges:
+- reported-problem-for-a-way-to-help
+journey: volunteer-giving-time

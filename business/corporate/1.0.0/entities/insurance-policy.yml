@@ -1,0 +1,39 @@
+kind: entity
+slug: insurance-policy
+title: Insurance Policy
+type: master
+summary: An insurance cover the enterprise holds, such as property, liability, product, cyber, transport or management liability insurance,
+  with insurer, insured risks, sum insured, deductible, premium and term.
+attributes:
+- name: policy-kind
+  type: code
+  card: 1..1
+- name: insurer
+  type: reference(counterparty)
+  card: 1..1
+- name: insured-risks
+  type: reference(risk)
+  card: 0..*
+- name: sum-insured
+  type: amount
+  card: 1..1
+- name: deductible
+  type: amount
+  card: 0..1
+- name: premium
+  type: amount
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+states:
+- quoted
+- in-force
+- under-renewal
+- lapsed
+- cancelled
+relations:
+- type: governed-by
+  target: contract
+- type: refers-to
+  target: risk

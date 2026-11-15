@@ -1,0 +1,33 @@
+kind: journey
+slug: employee-moving-to-a-new-way-of-working
+title: Employee Moving to a New Way of Working
+stakeholder: employee
+summary: An employee shows how work really happens, learns what will change, is trained and accompanied through go-live and tells
+  what the change did to daily work.
+stages:
+- slug: show-how-work-really-happens
+  title: Show How Work Really Happens
+  goal: The employee's actual way of working informs the transition.
+  step: change-as-evolution/current-work-discovery
+  touchpoints:
+  - process-walkthrough
+- slug: learn-what-changes
+  title: Learn What Changes
+  goal: The employee knows what changes, when and where help will be.
+  step: change-as-evolution/transition-planning
+  touchpoints:
+  - intranet
+  - staff-training
+- slug: be-accompanied-through-go-live
+  title: Be Accompanied Through Go-Live
+  goal: Training and on-the-spot help are available until the new way of working is established.
+  step: change-as-evolution/adoption-support
+  touchpoints:
+  - staff-training
+  - go-live-support
+- slug: tell-what-changed
+  title: Tell What Changed
+  goal: The employee's experience after the change shapes the next release.
+  step: change-as-evolution/post-deployment-review
+  touchpoints:
+  - post-deployment-review

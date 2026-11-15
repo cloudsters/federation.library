@@ -1,0 +1,32 @@
+kind: journey
+slug: consumer-giving-feedback-and-seeing-it-count
+title: Consumer Giving Feedback and Seeing It Count
+stakeholder: consumer
+summary: A consumer answers a short survey, posts a public review, rates the handling of a concern and later sees that something changed
+  because of what they said.
+stages:
+- slug: answer-a-short-survey
+  title: Answer a Short Survey
+  goal: The consumer is asked at a meaningful moment, briefly, and the answer is kept with its context.
+  step: experience-sensing-evolution/feedback-collection
+  touchpoints:
+  - customer-survey
+- slug: post-a-review
+  title: Post a Review
+  goal: The consumer's public review is read and answered respectfully.
+  step: experience-sensing-evolution/public-review-monitoring
+  touchpoints:
+  - public-reviews
+- slug: rate-the-service
+  title: Rate the Service
+  goal: The consumer can say whether they felt heard and whether the concern was settled.
+  step: experience-sensing-evolution/service-handling-evaluation
+  touchpoints:
+  - customer-survey
+- slug: see-change
+  title: See Change
+  goal: The consumer sees what was changed in response to feedback.
+  step: experience-sensing-evolution/findings-and-improvement-loop
+  touchpoints:
+  - website
+  - public-reviews

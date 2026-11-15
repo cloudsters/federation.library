@@ -1,0 +1,13 @@
+kind: body
+slug: procurement-office
+title: Procurement Office
+summary: Plans what the city buys and runs its tenders, keeps the supplier record and the contract register, supports the contract
+  managers in the departments, develops local suppliers with the economic development department, joins purchasing alliances and keeps
+  essential supplies secure with the emergency management office.
+holds:
+- procurement-planning-and-tendering
+- contracts-and-purchasing
+- supplier-partnerships-and-supply-security
+part_of: finance-department
+type: function
+form: organisational-unit

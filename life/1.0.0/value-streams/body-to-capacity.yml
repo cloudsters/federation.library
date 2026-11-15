@@ -1,0 +1,85 @@
+kind: value-stream
+slug: body-to-capacity
+title: Carrying One's Own Weight
+family: acquire-to-retire
+summary: Building and keeping the physical capacity a life needs to stay its own — strength, movement, the ability to carry one's
+  own weight into old age.
+trigger: Stairs, bags or a long walk start to cost more than they used to, or an injury takes away a movement that was always taken
+  for granted.
+outcome: The body can carry the life that is asked of it, and the person can expect to keep moving on their own into old age.
+stakeholders:
+- practitioner
+- partner
+- place
+- community
+steps:
+- slug: feeling-the-cost-rise
+  title: Feeling the Cost Rise
+  summary: Stairs, bags or a long walk begin to cost more, or an injury takes a movement away, and the person stops pretending not
+    to notice.
+  capabilities:
+  - listening-to-the-body
+  entities:
+  - body
+  - health-event
+- slug: taking-stock-of-the-body
+  title: Taking Stock of the Body
+  summary: The person finds out where they actually stand in strength, balance, stamina and mobility, and what the years ahead will
+    ask of the body.
+  capabilities:
+  - knowing-ones-own-baseline
+  - making-peace-with-ones-body
+  entities:
+  - body
+  - health-data
+  - health-plan
+  serves:
+  - doctors-appointment
+- slug: choosing-movement-that-fits
+  title: Choosing Movement That Fits
+  summary: Ways of moving are chosen that the person enjoys, can afford and can keep up for years, including some that build strength.
+  capabilities:
+  - choosing-movement-one-keeps
+  entities:
+  - health-plan
+  - community-relation
+  - significant-place
+  serves:
+  - out-in-the-open
+  - practising-together
+- slug: making-it-part-of-the-week
+  title: Moving in the Ordinary Week
+  summary: Movement is built into the ordinary week, walking, carrying, cycling, training, so that it does not depend on willpower.
+  capabilities:
+  - building-habits-into-ordinary-days
+  entities:
+  - weekly-rhythm
+  - habit-record
+  - daily-rhythm
+- slug: coming-back-after-a-setback
+  title: Coming Back After a Setback
+  summary: After an injury, an illness or a lapsed season, the person starts again gently and without self-blame, with help where
+    it is needed.
+  capabilities:
+  - starting-again-after-a-lapse
+  - asking-for-help
+  entities:
+  - health-event
+  - recovery-period
+  - health-plan
+  - practitioner-relation
+  serves:
+  - doctors-appointment
+- slug: carrying-it-into-old-age
+  title: Carrying It Into Old Age
+  summary: The person keeps adjusting what they do as they age, so they can still carry their own weight and move about on their own.
+  capabilities:
+  - adapting-as-one-ages
+  entities:
+  - body
+  - health-plan
+  - transition
+binds:
+- source: src-166
+  edition: 1999-06
+  jurisdiction: global

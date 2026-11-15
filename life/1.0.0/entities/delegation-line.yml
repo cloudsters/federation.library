@@ -1,0 +1,39 @@
+kind: entity
+slug: delegation-line
+title: Delegation Line
+type: governance
+summary: 'The line between what this person will keep doing and what is to be carried by someone or something else. Drawn by elimination
+  rather than by aspiration: the small area kept is defined by naming everything around it that is not it.'
+attributes:
+- name: kept
+  type: text
+  card: 1..*
+- name: handed-on
+  type: text
+  card: 0..*
+- name: must-come-back
+  type: text
+  card: 0..*
+- name: never-handed-on
+  type: text
+  card: 0..*
+- name: reasons
+  type: text
+  card: 0..*
+- name: drawn-on
+  type: date
+  card: 1..1
+- name: next-redraw
+  type: date
+  card: 0..1
+states:
+- blurred
+- drawn
+- handed over
+- tested
+- redrawn
+relations:
+- target: value-set
+  type: based-on
+- target: agent
+  type: about

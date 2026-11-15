@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: service-commitment-for-budget
+title: Service Commitment for Budget
+between:
+- executive
+- payer
+offered:
+- A binding commitment to provide the agreed services in the agreed volumes and quality, with transparent evidence of volumes and
+  costs.
+returned:
+- A budget, prices and supplements that fund that care predictably, the payer's agreed quality expectations and review rules, and
+  a shared basis for settling over- and under-delivery.
+touchpoint: payer-negotiation

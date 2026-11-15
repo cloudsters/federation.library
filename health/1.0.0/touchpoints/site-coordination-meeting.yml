@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: site-coordination-meeting
+title: Site Coordination Meeting
+medium: encounter
+summary: The regular meeting in which the project lead, contractors or suppliers, facility engineers and the affected units coordinate
+  work on a site that stays in clinical use.
+exchanges:
+- prepared-site-for-clean-installation
+- works-contract-for-a-safe-site
+journey: contractor-building-on-a-live-site

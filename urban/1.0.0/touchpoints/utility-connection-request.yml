@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: utility-connection-request
+title: Utility Connection Request
+medium: channel
+summary: The route through which a household or building asks to be connected to the water, sewer, power or heat network and follows
+  the connection to its date.
+exchanges:
+- connection-and-meter-access-for-reliable-supply
+journey: resident-relying-on-safe-water

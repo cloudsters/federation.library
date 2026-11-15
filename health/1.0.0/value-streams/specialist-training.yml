@@ -1,0 +1,135 @@
+kind: value-stream
+slug: specialist-training
+title: Specialist Training
+family: contributor-to-succession
+summary: 'Training employed physicians to specialist level: training posts, rotation plans, supervised practice, logbooks, assessments
+  and preparation for the specialist examination.'
+trigger: A physician starts a specialist training post.
+outcome: The physician has completed the required training content and passed the specialist examination.
+stakeholders:
+- physician-in-specialty-training
+- specialist-physician
+- head-of-clinical-department
+- clinical-educator
+- professional-body
+steps:
+- slug: training-post-allocation
+  title: Training Post Allocation
+  summary: Allocate training posts to departments within the scope of their trainers' authorisation and the workforce plan, and recruit
+    trainees into them.
+  capabilities:
+  - trainer-authorisation-management
+  - position-requisition-management
+  - specialty-training-programmes
+  - candidate-screening-and-selection
+  entities:
+  - position
+  - education-programme
+  - credential
+  - job-vacancy
+  serves:
+  - careers-portal
+  - job-interview
+  - training-authorisation
+- slug: training-agreement
+  title: Training Agreement
+  summary: Agree with the trainee the programme, the responsible trainer, an employment term that matches the training duration, and
+    the recognition of training completed elsewhere.
+  capabilities:
+  - specialty-training-programmes
+  - hiring-and-rehire-management
+  - competence-validation
+  entities:
+  - learner-record
+  - employment
+  - curriculum
+  serves:
+  - employment-contract
+  - training-plan
+- slug: rotation-and-training-planning
+  title: Rotation and Training Planning
+  summary: Assess the trainee's starting competence and plan rotations, procedures, courses and assessments so that every curriculum
+    requirement is met within the term.
+  capabilities:
+  - rotation-planning
+  - specialty-training-programmes
+  - teaching-and-care-balance
+  entities:
+  - learner-record
+  - rotation
+  - curriculum
+  - entrustable-professional-activity
+  serves:
+  - training-plan
+  - training-progress-review
+- slug: supervised-practice
+  title: Supervised Practice
+  summary: Train in rotations under supervision, take graded responsibility for patients, procedures and duty periods, and record
+    each activity in the logbook for the supervisor's confirmation.
+  capabilities:
+  - specialty-training-programmes
+  - training-logbook-management
+  - on-call-and-night-duty-organisation
+  - skills-lab-management
+  - crisis-resource-management-training
+  entities:
+  - rotation
+  - logbook-entry
+  - procedure
+  - shift-assignment
+  serves:
+  - operating-theatre
+  - training-logbook
+  - ward
+  - ward-round
+- slug: progress-assessment
+  title: Progress Assessment
+  summary: Assess progress through workplace-based assessments and annual training reviews, take entrustment decisions, and plan remediation
+    where progress lags.
+  capabilities:
+  - specialty-training-programmes
+  - competence-validation
+  - teaching-faculty-development
+  entities:
+  - learner-assessment
+  - entrustment-decision
+  - learner-record
+  serves:
+  - training-logbook
+  - training-progress-review
+- slug: examination-readiness
+  title: Examination Readiness
+  summary: Confirm that logbook and curriculum requirements are complete, issue the training certificates, and prepare the trainee
+    for the specialist examination.
+  capabilities:
+  - specialist-examination-preparation
+  - training-logbook-management
+  - trainer-authorisation-management
+  entities:
+  - logbook-entry
+  - learner-record
+  - examination
+  serves:
+  - simulation-centre
+  - training-logbook
+- slug: specialist-transition
+  title: Specialist Transition
+  summary: After the examination, the new specialist moves into a specialist post, a clinician-scientist track or to another provider,
+    and the training post is refilled.
+  capabilities:
+  - promotion-and-progression
+  - clinician-scientist-programmes
+  - clinical-privileging
+  - talent-pipeline-development
+  entities:
+  - examination
+  - specialty-certification
+  - employment
+  - position
+  serves:
+  - careers-portal
+  - specialist-examination
+binds:
+- source: src-071
+  edition: '2005'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: failure-account-for-disclosure-and-remedy
+title: Failure Account for Disclosure and Remedy
+between:
+- resident
+- city-administration
+offered:
+- Their account of how the failure affected them.
+returned:
+- An honest account of what happened, what the city will do and the remedy the standard promises.
+touchpoint: open-disclosure-meeting

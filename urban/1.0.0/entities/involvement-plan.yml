@@ -1,0 +1,71 @@
+kind: entity
+slug: involvement-plan
+title: Involvement Plan
+type: governance
+summary: The plan for involving residents in one decision, plan or service, stating what residents decide, what they shape and what
+  is reserved, the budget and staff available, who is to be reached, the methods and access provided and when residents will hear
+  back. The department responsible agrees it with the council and the communities affected before the process opens and publishes
+  it, and it is used to hold the process to what was promised.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: decision-concerned
+  type: reference(council-decision)
+  card: 0..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: matters-decided-by-residents
+  type: text
+  card: 0..*
+- name: matters-shaped-by-residents
+  type: text
+  card: 0..*
+- name: reserved-matters
+  type: text
+  card: 0..*
+- name: budget
+  type: amount
+  card: 0..1
+- name: input-points
+  type: text
+  card: 1..*
+- name: groups-to-reach
+  type: text
+  card: 1..*
+- name: methods
+  type: code
+  card: 1..*
+- name: access-provisions
+  type: text
+  card: 0..*
+- name: feedback-due-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- published
+- in-progress
+- reported-back
+- reviewed
+- closed
+relations:
+- type: governed-by
+  target: participation-charter
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: language-access-policy
+- type: produces
+  target: participation-feedback-report
+binds:
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: workload-reports-for-held-gains
+title: Workload Reports for Held Gains
+between:
+- frontline-worker
+- city-administration
+offered:
+- Their reports on how waiting, error and workload changed after the improvement.
+returned:
+- A review that holds the gains, improves further or retires automation that does not serve.
+touchpoint: process-performance-board

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: new-neighbour-welcome-visit
+title: New Neighbour Welcome Visit
+medium: encounter
+summary: A visit by a neighbour to a resident who has just moved in, with a welcome pack, introductions and the dates of the next
+  gatherings.
+exchanges:
+- welcome-for-a-first-connection
+journey: new-resident-becoming-a-neighbour

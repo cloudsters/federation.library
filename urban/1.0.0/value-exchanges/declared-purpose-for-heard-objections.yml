@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: declared-purpose-for-heard-objections
+title: Declared Purpose for Heard Objections
+between:
+- city-administration
+- resident
+offered:
+- The declared purpose of a sensor, the data it gathers and the date its approval ends.
+returned:
+- Residents' views before approval, and objections after it that the city must answer.
+touchpoint: sensor-approval-hearing

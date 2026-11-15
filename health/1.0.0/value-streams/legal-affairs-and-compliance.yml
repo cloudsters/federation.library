@@ -1,0 +1,155 @@
+kind: value-stream
+slug: legal-affairs-and-compliance
+title: Legal Affairs and Compliance
+family: perception-to-mandate
+summary: 'Keeping the organisation lawful and able to defend itself: the register of legal obligations, the compliance management
+  system and its controls, legal advice, contract review, disputes, litigation and liability claims from patients.'
+trigger: A new or changed legal obligation takes effect, a compliance risk or breach is reported, or a legal claim or dispute
+  is received.
+outcome: The obligation is embedded in controls with a named owner, or the breach, claim or dispute is resolved and its lesson
+  is fed back into practice.
+stakeholders:
+- legal-risk-and-compliance-professional
+- executive
+- health-regulator
+- person-harmed-in-care
+- liability-insurer
+- staff-representation
+- supplier
+steps:
+- slug: matter-intake
+  title: Matter Intake
+  summary: New or changed legal obligations, reports of compliance risks or breaches, and claims or disputes are received
+    through their channels, registered and classified by kind, urgency and exposure.
+  capabilities:
+  - regulatory-landscape-sensing
+  - compliance-sensing-monitoring
+  - whistleblower-protection
+  - medical-liability-claims-management
+  - legal-advisory
+  entities:
+  - compliance-obligation
+  - compliance-case
+  - legal-matter
+  - liability-claim
+  serves:
+  - confidential-reporting-channel
+  - feedback-and-complaints-channel
+  - letter-of-claim
+- slug: legal-assessment
+  title: Legal Assessment
+  summary: 'The legal substance is assessed: what an obligation requires and of whom, whether a breach occurred, what a claim
+    or dispute exposes the organisation to, and where outside counsel or insurers must be involved.'
+  capabilities:
+  - legal-advisory
+  - outside-counsel-management
+  - contract-lifecycle-stewardship
+  - insurance-management
+  entities:
+  - compliance-obligation
+  - authorization-by-law
+  - compliance-case
+  - legal-matter
+  - contract
+  serves:
+  - letter-of-claim
+- slug: obligation-embedding
+  title: Obligation Embedding
+  summary: Each obligation receives a named owner, the policies, controls, licences and training that fulfil it and the evidence
+    that shows it is met, including rules for relations with industry and declarations of interest.
+  capabilities:
+  - compliance-framework
+  - internal-controls-design
+  - policy-lifecycle-management
+  - licence-and-permit-management
+  - anti-corruption-and-conflicts-of-interest
+  - mandatory-training-management
+  - delegation-of-authority
+  entities:
+  - compliance-obligation
+  - internal-control
+  - policy
+  - interest-declaration
+  - decision-right
+  serves:
+  - call-for-tender
+  - inspection-and-audit
+- slug: breach-investigation
+  title: Breach Investigation
+  summary: Suspected breaches are investigated confidentially with the reporter protected, required notifications reach the
+    authorities within their deadlines, and immediate measures limit the damage.
+  capabilities:
+  - compliance-assurance
+  - whistleblower-protection
+  - anti-corruption-and-conflicts-of-interest
+  - personal-data-breach-response
+  - regulatory-incident-reporting
+  - cyber-incident-reporting
+  entities:
+  - compliance-case
+  - statutory-report
+  - incident
+  - corrective-action
+  serves:
+  - confidential-reporting-channel
+  - statutory-submission
+- slug: claim-and-dispute-resolution
+  title: Claim and Dispute Resolution
+  summary: Liability claims, disputes and proceedings are handled with insurers, experts and counsel, by open explanation,
+    settlement, conciliation or litigation, towards a resolution the organisation can defend.
+  capabilities:
+  - medical-liability-claims-management
+  - dispute-and-litigation
+  - outside-counsel-management
+  - open-disclosure
+  - insurance-management
+  entities:
+  - liability-claim
+  - legal-matter
+  - incident
+  - contract
+  serves:
+  - conciliation-procedure
+  - open-disclosure-meeting
+- slug: compliance-assurance-and-reporting
+  title: Compliance Assurance and Reporting
+  summary: Fulfilment of obligations is monitored continuously, controls are tested, mandatory reports are submitted, and
+    the state of compliance is reported to the executive board and the supervisory body.
+  capabilities:
+  - compliance-assurance
+  - compliance-sensing-monitoring
+  - controls-monitoring
+  - controls-reporting
+  - regulatory-reporting
+  - licence-and-permit-management
+  entities:
+  - compliance-obligation
+  - internal-control
+  - statutory-report
+  - audit
+  - audit-finding
+  serves:
+  - inspection-and-audit
+  - statutory-submission
+- slug: lesson-feedback
+  title: Lesson Feedback
+  summary: The causes behind breaches, claims and disputes are fed back into policies, contracts, controls and training, so
+    that the same exposure does not recur.
+  capabilities:
+  - preventive-legal-practice
+  - root-cause-analysis
+  - policy-lifecycle-management
+  - contract-lifecycle-stewardship
+  - mandatory-training-management
+  entities:
+  - corrective-action
+  - policy
+  - contract
+  - internal-control
+  serves:
+  - inspection-and-audit
+  - open-disclosure-meeting
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

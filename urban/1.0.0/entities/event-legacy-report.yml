@@ -1,0 +1,68 @@
+kind: entity
+slug: event-legacy-report
+title: Event Legacy Report
+type: intelligence
+summary: The account of what an event left behind in relationships between residents and visitors, knowledge passed to local organisers,
+  places improved, income kept in the city and harm done. The organiser prepares it with those involved and the city records it, and
+  its lessons are carried into the next edition and the events calendar.
+attributes:
+- name: event
+  type: reference(festival|cultural-performance|community-event)
+  card: 1..1
+- name: reviewed-on
+  type: date
+  card: 1..1
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: relationships-formed
+  type: text
+  card: 0..*
+- name: knowledge-passed-on
+  type: text
+  card: 0..*
+- name: places-improved
+  type: reference(public-space|park|street)
+  card: 0..*
+- name: income-kept-locally
+  type: amount
+  card: 0..1
+- name: community-share-paid
+  type: amount
+  card: 0..1
+- name: harms
+  type: text
+  card: 0..*
+- name: complaints
+  type: reference(citizen-complaint)
+  card: 0..*
+- name: lessons
+  type: reference(lesson-record)
+  card: 0..*
+- name: report-document
+  type: document
+  card: 1..1
+states:
+- planned
+- gathered
+- reviewed
+- published
+- carried-forward
+relations:
+- type: refers-to
+  target: festival
+- type: based-on
+  target: event-benefit-agreement
+- type: based-on
+  target: citizen-complaint
+- type: produces
+  target: lesson-record
+- type: refers-to
+  target: city-events-calendar
+binds:
+- source: src-258
+  edition: '2024'
+  jurisdiction: global
+- source: src-265
+  edition: '2015-11-17'
+  jurisdiction: global

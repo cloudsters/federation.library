@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: complaint-and-warranty-claim
+title: Complaint and Warranty Claim
+medium: encounter
+summary: The handling of a customer's complaint, return or warranty claim, from receipt and analysis to replacement, repair, credit
+  and corrective action.
+exchanges:
+- acknowledgement-and-repair-for-renewed-trust
+- complaint-for-a-lasting-correction
+- complete-claim-for-fair-decision
+- early-warning-for-protection
+- easy-return-for-a-stated-reason
+- traceable-goods-for-series-acceptance
+- voiced-complaint-for-fair-remedy
+journey: consumer-harmed-and-made-whole

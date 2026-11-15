@@ -1,0 +1,35 @@
+kind: solution
+slug: content-and-document-management
+title: Content and Document Management
+role: system-of-record
+summary: 'Manages the organisation''s controlled documents and published content: policies and procedures with their review
+  cycles, the intranet and knowledge base, and the public website and social channels.'
+carries:
+- policy-lifecycle-management
+- ethics-policy
+- clinical-standard-operating-procedures
+- information-content-management
+- knowledge-strategy-design
+- wiki-knowledge-base-management
+- knowledge-handover
+- internal-communication
+- strategy-communication
+- website-cms-management
+- social-media-presence-management
+- online-reputation-management
+- brand-management
+- employer-branding
+- safety-notice-dissemination
+- quality-transparency-communication
+holds:
+- policy
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

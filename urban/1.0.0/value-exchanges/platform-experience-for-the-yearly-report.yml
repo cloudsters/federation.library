@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: platform-experience-for-the-yearly-report
+title: Platform Experience for the Yearly Report
+between:
+- platform-worker
+- economic-development-officer
+offered:
+- Workers' and users' experience of pay, data, voice and service.
+returned:
+- A yearly report that shows how they fared and steers the platform conditions.
+touchpoint: platform-worker-and-user-survey

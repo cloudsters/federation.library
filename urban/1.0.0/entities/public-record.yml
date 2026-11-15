@@ -1,0 +1,63 @@
+kind: entity
+slug: public-record
+title: Public Record
+type: master
+summary: A published record of the city's decisions, money, contracts or results, open to residents by default, in plain language
+  and in formats they can search and reuse. The administration publishes and keeps it, and any part withheld carries its exemption
+  and review date.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: record-kind
+  type: code
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: content
+  type: document
+  card: 1..1
+- name: plain-language-summary
+  type: text
+  card: 0..1
+- name: formats
+  type: code
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+- name: disclosure-status
+  type: code
+  card: 1..1
+- name: exemption-reason
+  type: text
+  card: 0..1
+- name: exemption-review-date
+  type: date
+  card: 0..1
+states:
+- created
+- published
+- partly-withheld
+- withheld
+- corrected
+- archived
+relations:
+- type: governed-by
+  target: disclosure-policy
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: election
+binds:
+- source: src-186
+  edition: '2017-12-14'
+  jurisdiction: global

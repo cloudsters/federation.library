@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: maternity-record
+title: Maternity Record
+medium: artefact
+summary: The record of a pregnancy that the woman holds and every professional caring for her shares, with findings, screening results,
+  risks and the birth plan.
+exchanges:
+- birth-preferences-for-continuous-support
+- postnatal-handover-for-care-at-home
+journey: pregnancy-and-birth-journey

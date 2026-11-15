@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-savings-for-a-protected-return
+title: Resident Savings for a Protected Return
+between:
+- resident
+- finance-officer
+offered:
+- Savings lent to the city in small amounts for a named capital project.
+returned:
+- A fixed return, with savings protected from currency and timing risks the resident cannot carry.
+touchpoint: community-bond-offer

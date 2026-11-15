@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pre-alert-for-a-ready-team
+title: Pre-Alert for a Ready Team
+between:
+- emergency-medical-service
+- emergency-physician
+offered:
+- A pre-alert for time-critical patients and a structured handover of findings, events and treatment given before arrival.
+returned:
+- A team and room ready on arrival, acceptance of the patient without delay and the crew's prompt release back to service.
+touchpoint: ambulance-handover

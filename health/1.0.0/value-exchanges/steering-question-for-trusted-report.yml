@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: steering-question-for-trusted-report
+title: Steering Question for Trusted Report
+between:
+- head-of-clinical-department
+- health-informatics-specialist
+offered:
+- A clear question, the decision it serves, the definitions the unit uses and complete documentation at the source.
+returned:
+- A validated report or dashboard with documented definitions, refreshed on schedule, that the unit can steer by.
+touchpoint: reporting-portal

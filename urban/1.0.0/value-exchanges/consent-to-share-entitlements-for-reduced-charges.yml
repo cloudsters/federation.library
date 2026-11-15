@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-to-share-entitlements-for-reduced-charges
+title: Consent to Share Entitlements for Reduced Charges
+between:
+- resident
+- city-administration
+offered:
+- The resident's consent to use the entitlements they already hold.
+returned:
+- Reduced charges and fares without a separate application.
+touchpoint: automatic-enrolment-notice

@@ -1,0 +1,66 @@
+kind: entity
+slug: business-register
+title: Business Register
+type: master
+summary: The record of the enterprises active in the city, by neighbourhood, sector and form of ownership, cooperatives and social
+  enterprises included, kept from registrations, licences and the businesses' own reports. The economic development office keeps it,
+  and it is used to see who starts and keeps businesses, to advise founders and to map and report the local and social economy.
+attributes:
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: reference-date
+  type: date
+  card: 1..1
+- name: enterprise-count
+  type: integer
+  card: 1..1
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: ownership-forms
+  type: code
+  card: 1..*
+- name: sources
+  type: code
+  card: 1..*
+- name: registrations-in-period
+  type: integer
+  card: 0..1
+- name: closures-in-period
+  type: integer
+  card: 0..1
+- name: informal-enterprise-count
+  type: integer
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+states:
+- collected
+- validated
+- current
+- corrected
+- superseded
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: vendor-licence
+- type: refers-to
+  target: economic-indicators
+binds:
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global
+- source: src-277
+  edition: '2015-06-12'
+  jurisdiction: global

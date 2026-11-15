@@ -1,0 +1,38 @@
+kind: entity
+slug: contribution-record
+title: Contribution Record
+type: intelligence
+summary: What this life has actually changed for people outside it. Held as record rather than as claim, and kept deliberately separate
+  from standing — being well regarded and having been useful are different facts.
+attributes:
+- name: what-changed
+  type: text
+  card: 1..1
+- name: for-whom
+  type: text
+  card: 1..*
+- name: when
+  type: period
+  card: 1..1
+- name: given
+  type: code
+  card: 0..*
+- name: commons
+  type: reference(commons-instance)
+  card: 0..1
+- name: how-it-is-known
+  type: text
+  card: 0..*
+- name: decided-in
+  type: reference(giving-plan)
+  card: 0..1
+states:
+- given
+- noticed
+- carried on
+- faded
+relations:
+- target: commons-instance
+  type: about
+- target: giving-plan
+  type: about

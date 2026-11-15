@@ -1,0 +1,10 @@
+kind: capability
+slug: project-portfolio-management
+title: Project Portfolio Management
+level: L3
+parent: change-portfolio
+summary: Govern the portfolio of projects with scenario comparison, benefit tracking and capacity balancing.
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global

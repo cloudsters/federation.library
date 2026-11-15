@@ -1,0 +1,43 @@
+kind: entity
+slug: financial-statement
+title: Financial Statement
+type: intelligence
+summary: The organisation's financial accounts for a period, with income statement, balance sheet, cash flow and segment results
+  for care, research and teaching, audited and approved by its governing bodies.
+attributes:
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: income-statement
+  type: document
+  card: 1..1
+- name: balance-sheet
+  type: document
+  card: 1..1
+- name: cash-flow
+  type: document
+  card: 1..1
+- name: segment-results
+  type: document
+  card: 0..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+- name: audit-opinion
+  type: code
+  card: 0..1
+states:
+- draft
+- audited
+- approved
+- published
+relations:
+- type: governed-by
+  target: compliance-obligation
+binds:
+- source: src-139
+  edition: '2.1'
+  jurisdiction: global

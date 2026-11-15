@@ -1,0 +1,39 @@
+kind: entity
+slug: habit-record
+title: Habit Record
+type: intelligence
+summary: What this person does repeatedly, whether or not it was designed. Held beside `daily-rhythm` so that the intended day and
+  the actual day can be read against each other.
+attributes:
+- name: habit
+  type: text
+  card: 1..1
+- name: designed
+  type: boolean
+  card: 1..1
+- name: cue
+  type: text
+  card: 0..1
+- name: how-often
+  type: quantity
+  card: 0..1
+- name: started-on
+  type: date
+  card: 0..1
+- name: inherited
+  type: boolean
+  card: 0..1
+- name: effect
+  type: text
+  card: 0..1
+states:
+- noticed
+- forming
+- holding
+- slipping
+- dropped
+relations:
+- target: self
+  type: about
+- target: daily-rhythm
+  type: about

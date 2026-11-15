@@ -1,0 +1,118 @@
+kind: value-stream
+slug: local-business-networks-and-clusters
+title: Local Business Networks and Clusters
+family: proposition-to-audience
+summary: Turning firms that compete alone into networks that share knowledge, facilities and a name, so that small producers reach
+  markets they could not reach alone and keep their independence. It holds the mapping of the city's sectors, trades and supply links,
+  the priorities the council sets for the local economy, networks and clusters convened by the city and run by their members, shared
+  workshops and equipment, a collective mark held in common by the producers of a place or craft, partnerships of traders and owners
+  that keep shopping streets alive, and a review of whether networks share value or concentrate it.
+trigger: The economic development strategy names a sector to strengthen, firms or makers ask to work together, or a shopping street
+  or trade is losing businesses.
+outcome: The city's small firms and makers work in networks they govern, share facilities and a recognised name, and the value they
+  create stays widely held in the city.
+stakeholders:
+- local-business
+- business-association
+- local-producer
+- economic-development-officer
+- research-institution
+- training-provider
+- landowner
+- city-council
+steps:
+- slug: local-economy-mapping
+  title: Local Economy Mapping
+  summary: The economic development office maps with businesses and residents the sectors, trades, crafts and family businesses of
+    each neighbourhood and the supply links between them, including the informal economy.
+  capabilities:
+  - local-economy-mapping
+  - community-asset-mapping
+  entities:
+  - local-economy-map
+  - business-register
+  serves:
+  - local-economy-map-view
+  - trades-and-crafts-mapping-walk
+- slug: economic-priority-setting
+  title: Economic Priority Setting
+  summary: The council adopts in the economic development strategy which sectors and clusters the city supports, and what it expects
+    in return in local work, fair pay and value kept in the city.
+  capabilities:
+  - economic-priority-setting
+  - strategic-priority-setting
+  entities:
+  - economic-development-strategy
+  - council-decision
+  serves:
+  - economic-strategy-adoption-debate
+  - economic-strategy-hearing
+- slug: business-network-convening
+  title: Business Network Convening
+  summary: The city convenes the firms, makers, cooperatives, research institutions and training providers of a sector into a network
+    with its own rules on membership, decisions and what members share, which the members run and the city does not own.
+  capabilities:
+  - business-network-convening
+  - cluster-agreement-drafting
+  - research-partnership-agreement-drafting
+  entities:
+  - business-network
+  - cluster-agreement
+  serves:
+  - sector-network-founding-meeting
+- slug: shared-facilities-and-knowledge
+  title: Shared Facilities and Knowledge
+  summary: Network members share workshops, equipment, testing and training that none could afford alone, and pass on knowledge between
+    firms, with the city providing space at affordable rents.
+  capabilities:
+  - shared-business-facility-provision
+  - asset-rent-and-charge-setting
+  entities:
+  - shared-business-facility
+  - business-network
+  serves:
+  - shared-maker-workshop
+- slug: collective-mark-and-quality-standards
+  title: Collective Mark and Quality Standards
+  summary: The producers of a place or craft hold its name and mark in common, set quality standards through practitioner committees
+    and peer review, and license the mark to members by open rules, so that no single firm can own it.
+  capabilities:
+  - collective-mark-support
+  - cluster-agreement-drafting
+  entities:
+  - collective-mark
+  - cluster-agreement
+  serves:
+  - collective-mark-licence
+  - collective-mark-quality-committee
+- slug: commercial-district-partnership
+  title: Commercial District Partnership
+  summary: Traders, property owners and residents of a shopping street or district pool money and work to keep shared spaces cared
+    for, fill empty shops with interim uses and keep long-standing businesses in place.
+  capabilities:
+  - commercial-district-agreement-drafting
+  - interim-use-arrangement
+  - cultural-space-protection
+  entities:
+  - commercial-district-agreement
+  - building
+  serves:
+  - empty-shop-interim-use-call
+  - shopping-street-partnership-meeting
+- slug: network-vitality-review
+  title: Network Participation Review
+  summary: The economic development office reviews with each network how many small firms take part, what they gained, whether value
+    is shared or gathers with a few members, and reports to the council.
+  capabilities:
+  - network-vitality-review
+  - local-economy-mapping
+  entities:
+  - local-economy-map
+  - economic-indicators
+  serves:
+  - network-vitality-review-session
+  - published-network-review
+binds:
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global

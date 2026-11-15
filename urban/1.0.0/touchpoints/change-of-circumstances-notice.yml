@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: change-of-circumstances-notice
+title: Change of Circumstances Notice
+medium: channel
+summary: The channel through which a resident reports a change in their circumstances once, by any route, and hears how their entitlement
+  is adjusted.
+exchanges:
+- reported-change-for-a-dated-adjustment
+journey: city-administration-deciding-entitlements-fairly

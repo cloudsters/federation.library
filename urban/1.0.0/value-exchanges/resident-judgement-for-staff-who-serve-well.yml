@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-judgement-for-staff-who-serve-well
+title: Resident Judgement for Staff Who Serve Well
+between:
+- resident
+- personnel-officer
+offered:
+- The judgement of residents who use the service, given as members of the panel.
+returned:
+- Staff chosen by those they will serve, with the residents' time on the panel paid.
+touchpoint: selection-panel-interview

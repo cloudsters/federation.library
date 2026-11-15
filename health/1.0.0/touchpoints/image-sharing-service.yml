@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: image-sharing-service
+title: Image Sharing Service
+medium: channel
+summary: The digital channel through which images and reports are made available to referrers, partner hospitals and patients, so
+  that examinations need not be repeated.
+exchanges:
+- shared-images-for-fewer-repeats
+journey: imaging-examination-journey

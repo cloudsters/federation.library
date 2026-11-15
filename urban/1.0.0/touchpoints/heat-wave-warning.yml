@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: heat-wave-warning
+title: Heat Wave Warning
+medium: channel
+summary: The warning sent by text, radio, call and neighbour networks when a heat wave is forecast, with where the cooling places
+  are.
+exchanges:
+- heat-checks-for-safety-in-the-heat
+journey: older-resident-safe-through-a-heat-wave

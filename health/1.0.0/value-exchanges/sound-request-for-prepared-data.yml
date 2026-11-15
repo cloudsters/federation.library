@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: sound-request-for-prepared-data
+title: Sound Request for Prepared Data
+between:
+- research-scientist
+- health-informatics-specialist
+offered:
+- A scientifically sound request with its purpose, ethics approval and acceptance of the conditions of use.
+returned:
+- A harmonised, quality-assured dataset or a federated analysis within the agreed time, under a data-use agreement.
+touchpoint: data-use-and-access-committee

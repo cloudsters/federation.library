@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: spare-parts-stock
+title: Spare Parts Stock
+medium: place
+summary: The stock of spare parts in a central store, a regional point or a service vehicle, from which technicians draw the parts
+  their jobs require.
+exchanges:
+- parts-at-hand-for-first-time-fixes
+- condition-data-for-specialist-repair
+journey: technician-receiving-the-right-jobs

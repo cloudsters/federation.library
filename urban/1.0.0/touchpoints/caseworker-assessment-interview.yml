@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: caseworker-assessment-interview
+title: Caseworker Assessment Interview
+medium: encounter
+summary: The conversation in which a caseworker hears the resident's circumstances and assesses the application against the published
+  rules.
+exchanges:
+- circumstances-for-a-fair-assessment
+journey: city-administration-deciding-entitlements-fairly

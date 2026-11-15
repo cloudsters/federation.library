@@ -1,0 +1,59 @@
+kind: entity
+slug: occupational-health-examination
+title: Occupational Health Examination
+type: transactional
+summary: An examination of an employee by the occupational health service before or during work with a hazard, after an exposure or
+  before a return to work, kept confidential and disclosed to the employer only as a fitness outcome.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: examination-kind
+  type: code
+  card: 1..1
+- name: hazards
+  type: code
+  card: 0..*
+- name: examined-on
+  type: date
+  card: 1..1
+- name: examiner
+  type: reference(employee)
+  card: 1..1
+- name: fitness-outcome
+  type: code
+  card: 0..1
+- name: recommended-measures
+  type: text
+  card: 0..1
+- name: next-due
+  type: date
+  card: 0..1
+states:
+- scheduled
+- completed
+- outcome-issued
+- cancelled
+relations:
+- type: refers-to
+  target: risk
+- type: refers-to
+  target: incident
+- type: governed-by
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

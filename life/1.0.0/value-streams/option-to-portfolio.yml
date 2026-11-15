@@ -1,0 +1,68 @@
+kind: value-stream
+slug: option-to-portfolio
+title: Spreading the Bets
+family: purpose-to-portfolio
+summary: Spreading a life across more than one bet, so that the failure of any single one is a setback rather than a collapse.
+trigger: Everything rests on one job, one relationship or one place, and the person feels how much would fall if it failed.
+outcome: The life stands on more than one footing, so the loss of any single one is a setback the rest can carry.
+stakeholders:
+- partner
+- employer
+- client
+- collaborator
+- close-friend
+steps:
+- slug: feeling-how-much-rests-on-one
+  title: Feeling How Much Rests on One
+  summary: The person realises that everything hangs on one job, one relationship or one place, and feels how much would fall with
+    it.
+  capabilities:
+  - seeing-what-the-life-rests-on
+  entities:
+  - venture
+  - financial-position
+- slug: laying-out-all-the-bets
+  title: Laying Out All the Bets
+  summary: Everything the life is committed to, work, study, projects, shared undertakings, is set side by side with what each is
+    for.
+  capabilities:
+  - seeing-all-ones-bets-together
+  entities:
+  - venture-portfolio
+  - venture
+  - commons-instance
+- slug: opening-a-second-footing
+  title: Opening a Second Footing
+  summary: Something small is started alongside the main thing, a skill, a project, a circle of people, so the life has more than
+    one leg to stand on.
+  capabilities:
+  - starting-something-small-alongside
+  entities:
+  - venture
+  - venture-milestone
+  - skill
+- slug: deciding-what-each-may-take
+  title: Deciding What Each May Take
+  summary: Each undertaking is given its share of time, money and attention, so none can quietly eat the others.
+  capabilities:
+  - sharing-out-time-and-money
+  entities:
+  - venture-portfolio
+  - weekly-rhythm
+  - budget
+- slug: checking-each-bet-honestly
+  title: Checking Each Bet Honestly
+  summary: Every so often each undertaking is asked whether it still serves what it was taken on for, and whether it is still wanted.
+  capabilities:
+  - asking-what-a-venture-is-for
+  entities:
+  - venture-scorecard
+  - venture
+- slug: leaning-on-the-other-footings
+  title: Leaning on the Other Footings
+  summary: When one bet fails, the rest of the life carries the loss, and the setback stays a setback rather than a collapse.
+  capabilities:
+  - leaning-on-other-footings
+  entities:
+  - venture-milestone
+  - venture-portfolio

@@ -1,0 +1,156 @@
+kind: value-stream
+slug: strategic-initiative-portfolio
+title: Strategic Initiative Portfolio
+family: purpose-to-portfolio
+summary: Selecting, funding, executing and balancing the initiatives, programmes and projects that implement the strategy, and stopping
+  those that no longer serve it.
+trigger: An initiative is proposed, or the periodic portfolio review falls due.
+outcome: Approved initiatives are resourced and tracked against their benefits, and each is either delivered or stopped so that the
+  portfolio stays aligned with strategy.
+stakeholders:
+- executive
+- head-of-clinical-department
+- owner
+- staff-representation
+- registered-nurse
+- health-informatics-specialist
+steps:
+- slug: initiative-proposal
+  title: Initiative Proposal
+  summary: A unit, a function or the board proposes an initiative, naming the strategic objective it serves, its scope, its sponsor,
+    its expected benefits and its approximate cost.
+  capabilities:
+  - initiative-development
+  - clinical-innovation-management
+  - it-demand-management
+  - strategy-alignment-across-functions
+  entities:
+  - strategic-initiative
+  - strategic-objective
+  serves:
+  - initiative-proposal
+  - staff-intranet
+- slug: initiative-appraisal
+  title: Initiative Appraisal
+  summary: The proposal is worked into a business case and appraised for its contribution to strategy, benefits, cost, risk, dependencies,
+    fit with the architecture and the capacity it draws on.
+  capabilities:
+  - initiative-evaluation-and-selection
+  - health-technology-assessment
+  - it-portfolio-and-value-management
+  - enterprise-architecture-management
+  - unit-risk-management
+  - resource-capacity-planning
+  entities:
+  - strategic-initiative
+  - risk
+  - budget
+  serves:
+  - business-case
+- slug: prioritisation-and-funding
+  title: Prioritisation and Funding
+  summary: Initiatives are ranked within the whole portfolio against strategy, benefits and capacity, and approved ones receive budget,
+    sponsor and a stage plan; major investments go to the supervisory body.
+  capabilities:
+  - project-portfolio-management
+  - portfolio-governance-design
+  - planning-and-budgeting
+  - capital-planning
+  - delegation-of-authority
+  - owner-relations
+  entities:
+  - strategic-initiative
+  - budget
+  - governance-decision
+  - capital-project
+  serves:
+  - portfolio-review-meeting
+- slug: initiative-mobilisation
+  title: Initiative Mobilisation
+  summary: The approved initiative is set up with its team, plan, governance, benefit measures and change plan, and affected staff
+    and their representatives are informed and consulted.
+  capabilities:
+  - programme-orchestration
+  - project-management
+  - benefit-realisation-management
+  - change-planning
+  - co-determination-cooperation
+  entities:
+  - strategic-initiative
+  - measure
+  - organisation-unit
+  serves:
+  - project-steering-committee
+  - staff-consultation
+  - staff-town-hall
+- slug: initiative-delivery
+  title: Initiative Delivery
+  summary: The initiative is delivered to scope, time, cost and quality, with risks managed, spending checked against budget, staff
+    trained and the change carried into daily work.
+  capabilities:
+  - project-management
+  - programme-orchestration
+  - change-implementation
+  - budgetary-control-encumbrance
+  - unit-risk-management
+  - training-delivery
+  - internal-communication
+  entities:
+  - strategic-initiative
+  - risk
+  - budget
+  - contract
+  serves:
+  - learning-platform
+  - performance-dashboard
+  - project-steering-committee
+  - staff-consultation
+  - staff-town-hall
+- slug: portfolio-review-and-rebalancing
+  title: Portfolio Review and Rebalancing
+  summary: At a fixed cadence the whole portfolio is reviewed against strategy, benefits, budget and capacity, and each initiative
+    is continued, re-scoped, paused or stopped.
+  capabilities:
+  - project-portfolio-management
+  - initiative-evaluation-and-selection
+  - integrated-performance-review
+  - financial-performance-management
+  - board-communication-reporting
+  entities:
+  - strategic-initiative
+  - measure-report
+  - dashboard
+  - governance-decision
+  serves:
+  - performance-dashboard
+  - portfolio-review-meeting
+- slug: benefit-realisation-and-closure
+  title: Benefit Realisation and Closure
+  summary: The delivered change is handed to the operating units, its benefits are confirmed against the business case, and the initiative
+    is closed or stopped with its lessons recorded.
+  capabilities:
+  - benefit-realisation-management
+  - improvement-sustainment
+  - impact-measurement-design
+  - wiki-knowledge-base-management
+  entities:
+  - strategic-initiative
+  - measure-report
+  - strategic-objective
+  serves:
+  - performance-dialogue
+  - staff-intranet
+  - unit-objectives-agreement
+binds:
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-196
+  edition: '2022'
+  jurisdiction: global
+- source: src-315
+  edition: '2020'
+  jurisdiction: global
+- source: src-337
+  edition: '2022'
+  jurisdiction: global

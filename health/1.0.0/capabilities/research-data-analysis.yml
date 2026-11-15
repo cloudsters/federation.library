@@ -1,0 +1,19 @@
+kind: capability
+slug: research-data-analysis
+title: Research Data Analysis
+level: L3
+parent: research-methods-and-reporting
+summary: Analyse research data with appropriate statistical and computational methods.
+binds:
+- source: src-506
+  edition: '2024'
+  jurisdiction: global
+- source: src-521
+  edition: '2025'
+  jurisdiction: global
+- source: src-527
+  edition: '2015'
+  jurisdiction: global
+- source: src-528
+  edition: '2007'
+  jurisdiction: global

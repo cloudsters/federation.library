@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: full-account-for-residents-judgement
+title: Full Account for Residents' Judgement
+between:
+- finance-officer
+- resident
+offered:
+- What entered the fund and from which source, where it went, who gained and what it holds.
+returned:
+- Residents' judgement of the fund and proposals for the next allocation.
+touchpoint: commons-fund-annual-report

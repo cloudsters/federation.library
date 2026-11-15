@@ -1,0 +1,69 @@
+kind: entity
+slug: service-continuity-plan
+title: Service Continuity Plan
+type: governance
+summary: The recovery targets, backups and offline mode of an essential digital service, with the fallbacks placed in neighbourhoods
+  in advance. The service owner keeps it with the neighbourhoods that hold the fallbacks and with emergency services, it is rehearsed
+  regularly, and it is activated when central systems fail.
+attributes:
+- name: service
+  type: reference(digital-service)
+  card: 1..1
+- name: recovery-time-target
+  type: quantity
+  card: 1..1
+- name: recovery-point-target
+  type: quantity
+  card: 0..1
+- name: backups
+  type: text
+  card: 1..*
+- name: offline-mode
+  type: text
+  card: 1..1
+- name: fallback-places
+  type: text
+  card: 0..*
+- name: fallback-networks
+  type: reference(community-network)
+  card: 0..*
+- name: backup-power
+  type: text
+  card: 0..*
+- name: local-copies
+  type: text
+  card: 0..*
+- name: emergency-plan
+  type: reference(emergency-plan)
+  card: 0..1
+- name: last-exercised-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- approved
+- in-place
+- exercised
+- activated
+- revised
+- superseded
+relations:
+- type: part-of
+  target: emergency-plan
+- type: based-on
+  target: dependency-map
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: community-network
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: audit-finding
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

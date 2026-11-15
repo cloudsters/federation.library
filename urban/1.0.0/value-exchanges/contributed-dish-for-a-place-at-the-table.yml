@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: contributed-dish-for-a-place-at-the-table
+title: Contributed Dish for a Place at the Table
+between:
+- resident
+- neighbourhood-association
+offered:
+- A dish, or a hand in cooking or clearing up.
+returned:
+- A place at the table among neighbours, whatever one can give.
+touchpoint: neighbourhood-shared-meal

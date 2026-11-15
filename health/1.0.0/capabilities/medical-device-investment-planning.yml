@@ -1,0 +1,16 @@
+kind: capability
+slug: medical-device-investment-planning
+title: Medical Device Investment Planning
+level: L3
+parent: medical-device-lifecycle
+summary: Plan the replacement and acquisition of medical devices over their life cycle and secure the investment.
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-361
+  edition: '2017'
+  jurisdiction: global
+- source: src-574
+  edition: '2011'
+  jurisdiction: global

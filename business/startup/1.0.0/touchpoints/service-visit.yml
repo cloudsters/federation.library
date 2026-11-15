@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-visit
+title: Service Visit
+medium: encounter
+summary: The visit of a field service technician to inspect, maintain or repair the product at the customer's site, often under a
+  service contract.
+exchanges:
+- access-for-competent-work
+- service-for-fee
+journey: field-service-technician-caring-for-installed-products

@@ -1,0 +1,59 @@
+kind: entity
+slug: purchasing-commitment
+title: Purchasing Commitment
+type: governance
+summary: A published multi-year commitment of the city or an anchor institution to spend with local and community-owned suppliers,
+  with targets by category and ownership, minimum volumes and quarterly reporting. The council sets it on the advice of the procurement
+  and economic development offices, and progress against it is reported each quarter and reviewed in the yearly local spend report.
+attributes:
+- name: committing-party
+  type: text
+  card: 1..1
+- name: commitment-period
+  type: period
+  card: 1..1
+- name: categories
+  type: reference(procurement-category)
+  card: 1..*
+- name: ownership-forms
+  type: code
+  card: 1..*
+- name: targets
+  type: text
+  card: 1..*
+- name: target-share
+  type: decimal
+  card: 0..1
+- name: minimum-volumes
+  type: text
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: anchor-agreement
+  type: reference(anchor-institution-agreement)
+  card: 0..1
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: quarterly-progress
+  type: document
+  card: 0..*
+states:
+- proposed
+- adopted
+- published
+- in-force
+- revised
+- ended
+relations:
+- type: based-on
+  target: spend-profile
+- type: based-on
+  target: local-economy-map
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: anchor-institution-agreement
+- type: refers-to
+  target: procurement-category

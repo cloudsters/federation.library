@@ -1,0 +1,35 @@
+kind: journey
+slug: informal-worker-joining-a-waste-picker-cooperative
+title: Informal Worker Joining a Waste Picker Cooperative
+stakeholder: informal-worker
+summary: A waste picker who already collects and sorts in the city joins a cooperative that the city contracts and pays, collects
+  on fixed rounds, sorts with safe equipment in a proper yard and reviews with residents how much was recovered.
+stages:
+- slug: be-contracted-and-paid
+  title: Be Contracted and Paid
+  goal: The waste picker's cooperative is contracted and paid for the collection and recovery it already does, with safe equipment.
+  step: waste-collection-and-material-recovery/waste-picker-integration
+  touchpoints:
+  - cooperative-contracting-meeting
+  - sorting-yard
+- slug: collect-on-the-round
+  title: Collect on the Round
+  goal: The cooperative runs its contracted round on fixed days and puts right missed collections the next working day.
+  step: waste-collection-and-material-recovery/collection-rounds
+  touchpoints:
+  - collection-calendar
+  - missed-collection-report
+- slug: sort-and-sell
+  title: Sort and Sell
+  goal: Metals, paper, glass, plastics and organic waste are sorted in a safe yard and sold or composted, with by-products passed
+    to businesses.
+  step: waste-collection-and-material-recovery/sorting-and-material-recovery
+  touchpoints:
+  - sorting-yard
+  - by-product-exchange
+- slug: report-what-was-recovered
+  title: Report What Was Recovered
+  goal: The cooperative's collection and recovery appear in the yearly report residents can read by neighbourhood.
+  step: waste-collection-and-material-recovery/residual-disposal-and-recovery-review
+  touchpoints:
+  - neighbourhood-waste-report

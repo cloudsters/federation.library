@@ -1,0 +1,26 @@
+kind: journey
+slug: finance-agent-matching-cash-every-day
+title: Finance Agent Matching Cash Every Day
+stakeholder: finance-operations-agent
+summary: A finance operations agent gathers balances, matches bank statements with the ledger and flags payments that look wrong,
+  leaving every exception to a person who decides.
+stages:
+- slug: gather-the-balances
+  title: Gather the Balances
+  goal: Balances from every account are gathered into one position before the working day starts.
+  step: treasury-as-circulation/cash-positioning-and-forecasting
+  touchpoints:
+  - online-banking
+  - cash-forecast
+- slug: match-the-statements
+  title: Match the Statements
+  goal: Statement lines are matched to the ledger and every unmatched line is handed to a person.
+  step: treasury-as-circulation/bank-statement-reconciliation
+  touchpoints:
+  - bank-statement
+- slug: flag-suspicious-payments
+  title: Flag Suspicious Payments
+  goal: Payments that deviate from known patterns are held and flagged before they leave.
+  step: treasury-as-circulation/fraud-and-dispute-handling
+  touchpoints:
+  - payment-run

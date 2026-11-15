@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: samples-for-protected-use
+title: Samples for Protected Use
+between:
+- research-participant
+- research-scientist
+offered:
+- The donor offers samples and data beyond their own care, under a consent they can withdraw at any time.
+returned:
+- The biobank's scientists return protection of identity, use only in approved research, information on what the research achieves
+  and, where agreed, findings that matter for the donor's health.
+touchpoint: consent-form

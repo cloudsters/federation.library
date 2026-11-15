@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: purchase-order
+title: Purchase Order
+medium: artefact
+summary: The company's order to a supplier, with items, quantities, prices, delivery date and terms, which becomes the reference for
+  receipt and payment.
+exchanges:
+- electronic-invoices-for-faster-payment
+- justified-request-for-quick-approval
+- reliable-call-offs-for-supply-commitment
+- visibility-for-committed-capacity
+journey: employee-working-within-controls

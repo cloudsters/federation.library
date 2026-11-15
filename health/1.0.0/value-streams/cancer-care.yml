@@ -1,0 +1,175 @@
+kind: value-stream
+slug: cancer-care
+title: Cancer Care
+family: demand-to-fulfillment
+summary: 'Carrying a person with suspected or confirmed cancer along one coordinated pathway: fast-track access, diagnostic work-up
+  and staging, a tumour board recommendation, an agreed plan, combined surgical, systemic, radiation and cellular therapy with supportive
+  care, and the transition into survivorship or palliative care.'
+trigger: A cancer is suspected by a referrer, a screening programme or a finding within the commons.
+outcome: The person has been treated to an agreed, board-recommended plan with one named coordinator and continues in survivorship
+  care or receives palliative care.
+stakeholders:
+- person-with-cancer
+- relative
+- specialist-physician
+- surgeon
+- diagnostic-physician
+- advanced-practice-nurse
+- clinical-pharmacist
+- clinical-research-coordinator
+- referring-practice
+steps:
+- slug: suspicion-and-fast-track-access
+  title: Suspicion and Fast-Track Access
+  summary: A referral, screening result or incidental finding that raises suspicion of cancer is received on a fast track, the person
+    gets a first specialist appointment within the target time and a named navigator, and the first investigations are booked at once.
+  capabilities:
+  - referral-intake-management
+  - cancer-care-navigation
+  - appointment-booking-management
+  - access-standard-management
+  entities:
+  - request-for-care
+  - referral
+  - care-commitment
+  - appointment
+  - episode-of-care
+  serves:
+  - appointment-service
+  - referral-letter
+- slug: diagnostic-work-up-and-staging
+  title: Diagnostic Work-Up and Staging
+  summary: Imaging, endoscopy, biopsy, pathology and molecular tests are coordinated so that the diagnosis and the clinical stage
+    are established within the target time, and the stage is recorded in structured form.
+  capabilities:
+  - cancer-staging
+  - radiological-reporting
+  - histology-and-cytology-reporting
+  - molecular-pathology
+  - finding-integration
+  - diagnosis-confirmation
+  - cancer-care-navigation
+  entities:
+  - clinical-order
+  - image-study
+  - specimen
+  - diagnostic-report
+  - diagnosis
+  - observation
+  serves:
+  - consultation
+  - diagnostic-report
+  - imaging-department
+- slug: tumour-board-recommendation
+  title: Tumour Board Recommendation
+  summary: The case is presented to the multidisciplinary tumour board, and to the molecular tumour board where molecular findings
+    open targeted options, which agree a guideline-based recommendation and check the person's eligibility for open trials.
+  capabilities:
+  - multidisciplinary-tumour-board
+  - molecular-tumour-board
+  - trial-participant-recruitment
+  - cancer-staging
+  entities:
+  - case-conference
+  - diagnosis
+  - care-pathway
+  - research-study
+  - clinical-document
+  serves:
+  - multidisciplinary-case-conference
+- slug: treatment-plan-and-consent
+  title: Treatment Plan and Consent
+  summary: The recommendation is discussed with the person and those close to them, the options including trial participation are
+    weighed, and an agreed plan with goals, sequence and named responsibilities is consented to.
+  capabilities:
+  - shared-decision-making-practice
+  - decision-aids-and-health-literacy
+  - informed-consent
+  - care-plan-determination
+  - trial-participant-recruitment
+  - cancer-care-navigation
+  entities:
+  - shared-decision
+  - informed-consent
+  - care-plan
+  - care-goal
+  - participant-enrolment
+  serves:
+  - consent-form
+  - consultation
+  - participant-information-sheet
+  - patient-decision-aid
+- slug: multimodal-treatment-delivery
+  title: Multimodal Treatment Delivery
+  summary: Surgery, systemic therapy, radiotherapy and cellular therapy are delivered in the agreed sequence across theatres, wards,
+    day units and clinics, with cytotoxic medicines prepared centrally and every cycle checked before it is given.
+  capabilities:
+  - surgical-procedure-performance
+  - systemic-cancer-therapy
+  - radiation-therapy
+  - cytotoxic-preparation
+  - day-case-treatment
+  - medication-administration
+  entities:
+  - procedure
+  - surgical-case
+  - medication-order
+  - medication-administration
+  - care-plan
+  serves:
+  - day-care-unit
+  - medication-plan
+  - operating-theatre
+  - outpatient-clinic
+- slug: response-assessment-and-supportive-care
+  title: Response Assessment and Supportive Care
+  summary: Response and side effects are assessed at set points and the plan is adjusted, while symptoms, nutrition, psychological
+    distress and social needs are screened and treated alongside, with palliative care involved early where needed.
+  capabilities:
+  - clinical-psychology
+  - clinical-nutrition
+  - clinical-social-work
+  - pain-management
+  - palliative-care
+  - patient-reported-outcome-measurement
+  entities:
+  - observation
+  - diagnostic-report
+  - adverse-event
+  - patient-reported-outcome
+  - care-needs-assessment
+  - care-plan
+  serves:
+  - outcome-questionnaire
+  - therapy-session
+- slug: survivorship-or-palliative-transition
+  title: Survivorship or Palliative Transition
+  summary: At the end of active treatment the person moves into a survivorship plan with follow-up, care for late effects and return
+    to everyday life, or into palliative care, and the referrer and the cancer registry are informed.
+  capabilities:
+  - cancer-survivorship-care
+  - palliative-care
+  - care-transition-coordination
+  - clinical-registry-participation
+  - cancer-care-navigation
+  entities:
+  - care-plan
+  - care-transition
+  - clinical-registry
+  - appointment
+  - care-communication
+  - episode-of-care
+  serves:
+  - clinic-letter
+  - follow-up-call
+  - palliative-care-unit
+binds:
+- source: src-318
+  edition: 9th
+  jurisdiction: global
+- source: src-579
+  edition: '1.2026'
+  jurisdiction: global
+- source: src-586
+  edition: '6.0'
+  jurisdiction: global

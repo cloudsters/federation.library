@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: move-plan
+title: Move Plan
+medium: artefact
+summary: The plan for moving units, patients, equipment and services into new or refurbished space, with stages, dates, responsibilities
+  and the fallback if a stage fails.
+exchanges:
+- space-needs-for-a-fitting-building
+journey: clinical-unit-moving-into-a-new-building

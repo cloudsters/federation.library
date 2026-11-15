@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: hr-service-desk
+title: HR Service Desk
+medium: channel
+summary: The service through which staff raise questions and problems on pay, contracts, leave and other employment matters by phone,
+  message or in person, and have them resolved.
+exchanges:
+- exit-feedback-for-a-fair-departure
+- work-for-correct-and-timely-pay
+journey: being-heard-and-staying

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shared-images-for-fewer-repeats
+title: Shared Images for Fewer Repeats
+between:
+- diagnostic-physician
+- referring-practice
+offered:
+- Reports and images made available to the referrer electronically as soon as they are signed.
+returned:
+- No repeated examinations elsewhere, and requests to the commons that carry the clinical question and prior findings.
+touchpoint: diagnostic-report

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-burden-map
+title: Service Burden Map
+medium: artefact
+summary: The map by neighbourhood and income of service levels, fault times, unconnected households and the share of income spent
+  on essential services.
+exchanges:
+- casework-knowledge-for-a-true-burden-map
+- named-gap-for-investment-that-closes-it
+journey: finance-officer-closing-the-service-gap

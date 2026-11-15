@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: medical-student
+title: Medical Student
+nature: person
+stance: served
+summary: A student on the degree programme in medicine who learns in lecture halls, skills labs and at the bedside, and in
+  the final clinical phase works inside the care teams.
+seeks:
+- Teaching that prepares for licensure, supervised practice with real patients and a place in a good team.
+brings:
+- Help in daily clinical work, questions that keep teachers current, and the next generation of physicians.
+represented_by:
+- learner-record
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global

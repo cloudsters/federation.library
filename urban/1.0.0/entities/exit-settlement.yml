@@ -1,0 +1,57 @@
+kind: entity
+slug: exit-settlement
+title: Exit Settlement
+type: transactional
+summary: The settlement of a person's departure, with final pay, pension, shares and claims, and what they keep and what returns to
+  the city or the commons. The personnel function settles it with the person, and it is used to close the staff record and any member
+  equity account without penalty for leaving.
+attributes:
+- name: staff-record
+  type: reference(staff-record)
+  card: 0..1
+- name: person-name
+  type: text
+  card: 1..1
+- name: departure-on
+  type: date
+  card: 1..1
+- name: departure-reason
+  type: code
+  card: 1..1
+- name: final-pay
+  type: amount
+  card: 0..1
+- name: pension-claims
+  type: text
+  card: 0..*
+- name: member-equity-account
+  type: reference(member-equity-account)
+  card: 0..1
+- name: share-paid-out
+  type: amount
+  card: 0..1
+- name: what-the-person-keeps
+  type: text
+  card: 0..*
+- name: what-returns
+  type: text
+  card: 0..*
+- name: settled-on
+  type: date
+  card: 0..1
+states:
+- opened
+- claims-listed
+- agreed
+- paid
+- closed
+- disputed
+relations:
+- type: refers-to
+  target: staff-record
+- type: refers-to
+  target: member-equity-account
+- type: based-on
+  target: payroll-run
+- type: produces
+  target: payment

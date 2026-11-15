@@ -1,0 +1,25 @@
+kind: journey
+slug: funding-a-research-project
+title: Funding a Research Project
+stakeholder: research-funder
+summary: The research funder's path from receiving a proposal to accepting the final report of a funded project.
+stages:
+- slug: review-the-proposal
+  title: Review the Proposal
+  goal: Proposals are complete, eligible and comparable on scientific merit.
+  step: research-funding/application-preparation-and-submission
+  touchpoints:
+  - funding-proposal
+- slug: conclude-the-agreement
+  title: Conclude the Agreement
+  goal: The grant agreement is signed on the funder's terms without lengthy negotiation.
+  step: research-funding/award-negotiation-and-contracting
+  touchpoints:
+  - grant-agreement
+- slug: receive-the-reports
+  title: Receive the Reports
+  goal: Financial and scientific reports arrive on time and show that the funds were used as agreed.
+  step: research-funding/reporting-and-close-out
+  touchpoints:
+  - use-of-funds-statement
+  - scientific-publication

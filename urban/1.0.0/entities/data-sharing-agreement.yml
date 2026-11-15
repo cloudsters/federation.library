@@ -1,0 +1,63 @@
+kind: entity
+slug: data-sharing-agreement
+title: Data Sharing Agreement
+type: governance
+summary: The terms on which data passes between the city, a data trust and another body, with its purpose, limits, duration and return
+  of benefits. The parties agree and sign it, the data trust or the owning department keeps it, and every transfer of the data it
+  covers is checked against it.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: data-trust
+  type: reference(data-trust)
+  card: 0..1
+- name: data-sets
+  type: reference(data-set)
+  card: 1..*
+- name: purpose
+  type: text
+  card: 1..1
+- name: permitted-uses
+  type: text
+  card: 1..*
+- name: limits
+  type: text
+  card: 0..*
+- name: data-ownership
+  type: text
+  card: 1..1
+- name: benefit-return
+  type: text
+  card: 0..1
+- name: return-at-end
+  type: text
+  card: 0..1
+- name: processing-record
+  type: reference(processing-record)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiated
+- agreed
+- in-force
+- under-review
+- suspended
+- terminated
+relations:
+- type: refers-to
+  target: data-trust
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: processing-record
+- type: refers-to
+  target: contract
+- type: governed-by
+  target: obligation-register

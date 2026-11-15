@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: staffing-huddle
+title: Staffing Huddle
+medium: encounter
+summary: The short daily meeting in which unit managers, nursing leadership and patient flow compare the staff present with patient
+  acuity and agree cover, redeployment and temporary staff.
+exchanges:
+- availability-for-a-reliable-roster
+- staffing-forecast-for-decisions
+- acuity-for-safe-staffing
+journey: staffing-the-unit

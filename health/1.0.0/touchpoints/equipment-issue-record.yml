@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: equipment-issue-record
+title: Equipment Issue Record
+medium: artefact
+summary: The record of the IT devices and accessories issued to a person or unit, confirmed on receipt and closed when they are returned.
+exchanges:
+- standard-requests-for-ready-devices
+journey: clinician-equipped-with-it

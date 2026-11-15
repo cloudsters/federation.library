@@ -1,0 +1,48 @@
+kind: journey
+slug: newcomer-settling-in-the-city
+title: Newcomer Settling in the City
+stakeholder: newcomer
+summary: A newcomer is received in their own language, learns the common language, uses services without fear whatever their status,
+  is paired with a household that helps them settle, helps steer how the city receives arrivals and says where they met barriers.
+stages:
+- slug: be-received
+  title: Be Received
+  goal: The newcomer has been received at a welcome point in their own language and knows their rights, where services are and how
+    the city works.
+  step: newcomer-welcome-and-integration/arrival-welcome
+  touchpoints:
+  - welcome-point-desk
+  - orientation-session
+- slug: learn-the-common-language
+  title: Learn the Common Language
+  goal: The newcomer learns the city's common language in a class or learning circle where their own language is valued.
+  step: newcomer-welcome-and-integration/language-and-learning
+  touchpoints:
+  - language-learning-circle
+- slug: use-services-without-fear
+  title: Use Services Without Fear
+  goal: The newcomer has used care, legal help and schooling, knowing that the data given is kept apart from enforcement.
+  step: newcomer-welcome-and-integration/access-regardless-of-status
+  touchpoints:
+  - open-access-service-point
+- slug: meet-the-mentor-household
+  title: Meet the Mentor Household
+  goal: The newcomer household is paired with an established resident or earlier arrival and linked to neighbourhood bodies, faith
+    communities and work.
+  step: newcomer-welcome-and-integration/neighbour-pairing
+  touchpoints:
+  - mentor-pairing-meeting
+- slug: help-steer-the-reception
+  title: Help Steer the Reception
+  goal: The newcomer has advised on the integration plan in the newcomer council and spoken in neighbourhood decisions though not
+    yet entitled to vote.
+  step: newcomer-welcome-and-integration/newcomer-voice
+  touchpoints:
+  - newcomer-council-meeting
+  - neighbourhood-planning-assembly
+- slug: say-where-barriers-were
+  title: Say Where Barriers Were
+  goal: The newcomer has told the city whether they found work, housing, services and neighbours, and where they met barriers or hostility.
+  step: newcomer-welcome-and-integration/integration-review
+  touchpoints:
+  - integration-review-survey

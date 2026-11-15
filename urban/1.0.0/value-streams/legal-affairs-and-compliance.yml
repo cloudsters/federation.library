@@ -1,0 +1,123 @@
+kind: value-stream
+slug: legal-affairs-and-compliance
+title: Legal Affairs and Compliance
+family: perception-to-mandate
+summary: Keeping the municipality lawful and able to defend itself and the commons it holds, the register of its obligations under
+  the statutory local-government framework and higher law, local bylaws kept as living rules, contracts and leases, legal advice,
+  claims against the city including harm from its automated decisions, and evidence of compliance to the council and the supervisory
+  authority.
+trigger: A new or changed law takes effect, a bylaw or contract is proposed, a legal question arises, or a claim is filed against
+  the city.
+outcome: Each obligation has an owner and a procedure, bylaws and contracts are current and lawful, claims are resolved, and compliance
+  is evidenced to the council and the supervisory authority.
+stakeholders:
+- legal-and-compliance-officer
+- city-council
+- city-administration
+- supervisory-authority
+- resident
+- local-business
+steps:
+- slug: matter-intake
+  title: Matter Intake
+  summary: Each legal question, claim or obligation that reaches the city is recorded as a matter, assessed for urgency and exposure,
+    and assigned to the legal office or to outside counsel.
+  capabilities:
+  - legal-advice
+  - claim-and-dispute-resolution
+  entities:
+  - legal-matter
+  serves:
+  - claims-desk
+  - legal-advice-request
+- slug: obligation-identification
+  title: Obligation Identification
+  summary: New and changed duties under the statutory local-government framework and higher law are identified, and each is recorded
+    in the register of obligations with the departments and activities it binds.
+  capabilities:
+  - legal-obligation-tracking
+  - environment-sensing
+  entities:
+  - obligation-register
+  - city-constitution
+  serves:
+  - legal-change-bulletin
+- slug: bylaw-drafting-and-review
+  title: Bylaw Drafting and Review
+  summary: Local bylaws are drafted in plain language, tested against the charter and higher law, adopted by the council, and reviewed
+    on schedule, so that permits and procedures that only gate residents are simplified or removed.
+  capabilities:
+  - bylaw-drafting
+  - rule-review
+  - council-decision-recording
+  entities:
+  - bylaw
+  - council-decision
+  - city-charter
+  serves:
+  - council-meeting
+  - draft-bylaw
+  - public-hearing
+  - supervisory-review-meeting
+- slug: obligation-embedding
+  title: Obligation Embedding
+  summary: Each obligation receives an owner, a procedure and a control in the department that carries it, with the decision rights
+    and approval limits behind them.
+  capabilities:
+  - internal-control-design
+  - legal-obligation-tracking
+  - decision-rights-allocation
+  entities:
+  - obligation-register
+  - decision-rights-register
+  serves:
+  - procedure-and-control-manual
+- slug: contract-and-lease-review
+  title: Contract and Lease Review
+  summary: Contracts, procurements, concessions and long ground leases of public land are reviewed for legality and fairness, with
+    the obligations, guarantees and performance bonds the city requires written into them.
+  capabilities:
+  - contract-review
+  - legal-advice
+  entities:
+  - contract
+  - public-procurement
+  serves:
+  - contract-negotiation
+- slug: claim-and-dispute-resolution
+  title: Claim and Dispute Resolution
+  summary: Claims against the city, including harm from its automated decisions, are assessed and compensated where due, and disputes
+    are approached first through dialogue and mediation, with litigation only where repair fails.
+  capabilities:
+  - claim-and-dispute-resolution
+  - legal-advice
+  - automated-decision-oversight
+  entities:
+  - legal-matter
+  - contract
+  serves:
+  - claims-desk
+  - mediation-session
+- slug: compliance-assurance-and-reporting
+  title: Compliance Assurance and Reporting
+  summary: Compliance with each obligation is tested and evidenced, findings are followed to closure, the state of compliance is reported
+    to the council and the supervisory authority, and the lessons of claims and findings are carried into bylaws and procedures.
+  capabilities:
+  - compliance-reporting
+  - internal-audit
+  - rule-review
+  entities:
+  - obligation-register
+  - audit-finding
+  - oversight-report
+  serves:
+  - compliance-report
+  - supervisory-review-meeting
+start: true
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

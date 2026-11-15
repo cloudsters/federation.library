@@ -1,0 +1,38 @@
+kind: journey
+slug: job-seeker-finding-secure-local-work
+title: Job Seeker Finding Secure Local Work
+stakeholder: job-seeker
+summary: A resident out of work finds openings held for residents under the city's local hiring commitments, is met by a community
+  coordinator who records skills, care duties and goals, learns skills from neighbours that bring income and is placed and supported
+  until the work becomes an ongoing role.
+stages:
+- slug: find-openings-held-for-residents
+  title: Find Openings Held for Residents
+  goal: The job seeker can see the openings that the city's contracts, capital projects and development agreements hold for residents
+    out of work.
+  step: local-employment-and-livelihood-pathways/local-hiring-commitments
+  touchpoints:
+  - local-hiring-openings-list
+- slug: be-met-where-they-are
+  title: Be Met Where They Are
+  goal: A community coordinator has recorded the skills, care duties, travel and goals of the job seeker, and opened a pathway with
+    them.
+  step: local-employment-and-livelihood-pathways/job-seeker-intake
+  touchpoints:
+  - employment-coordinator-visit
+- slug: learn-from-neighbours
+  title: Learn from Neighbours
+  goal: Digital and practical skills taught by paid neighbours in a library or community centre are gained and recognised by residents
+    and employers.
+  step: local-employment-and-livelihood-pathways/skills-for-income
+  touchpoints:
+  - neighbour-skills-class
+  - skill-attestation
+- slug: be-placed-and-supported
+  title: Be Placed and Supported
+  goal: The job seeker is placed in an opening or an apprenticeship and supported through the first months until the work becomes
+    an ongoing role.
+  step: local-employment-and-livelihood-pathways/job-matching-and-placement
+  touchpoints:
+  - local-hiring-openings-list
+  - placement-check-in

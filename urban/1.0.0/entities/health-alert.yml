@@ -1,0 +1,65 @@
+kind: entity
+slug: health-alert
+title: Health Alert
+type: transactional
+summary: An alert about an outbreak or an environmental threat to health, with the area, the residents most at risk and the help offered.
+  The city issues it and records the response until the threat has passed.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: threat-kind
+  type: code
+  card: 1..1
+- name: areas
+  type: reference(neighbourhood)
+  card: 1..*
+- name: issued-at
+  type: datetime
+  card: 1..1
+- name: groups-at-risk
+  type: text
+  card: 1..*
+- name: advice
+  type: text
+  card: 1..*
+- name: help-offered
+  type: text
+  card: 0..*
+- name: channels
+  type: code
+  card: 1..*
+- name: languages
+  type: code
+  card: 1..*
+- name: sensors
+  type: reference(sensor)
+  card: 0..*
+- name: resident-reports
+  type: text
+  card: 0..*
+- name: ended-at
+  type: datetime
+  card: 0..1
+states:
+- detected
+- verified
+- issued
+- in-response
+- stood-down
+- reviewed
+relations:
+- type: based-on
+  target: air-quality-index
+- type: refers-to
+  target: sensor
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: emergency-plan
+- type: produces
+  target: emergency-response
+binds:
+- source: src-254
+  edition: '2025-09-19'
+  jurisdiction: global

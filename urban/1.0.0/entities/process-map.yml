@@ -1,0 +1,69 @@
+kind: entity
+slug: process-map
+title: Process Map
+type: master
+summary: The documented flow of a process of the administration as it is actually carried out or as it is redesigned, with its steps
+  and roles, its waiting and failure points and the systems it uses. The process owner keeps it with the frontline staff who run the
+  work, and it is used to redesign the process, to decide what to automate and to find the causes of failures.
+attributes:
+- name: process-name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: map-kind
+  type: code
+  card: 1..1
+- name: process-owner
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: service
+  type: reference(public-service)
+  card: 0..1
+- name: steps
+  type: text
+  card: 1..*
+- name: waiting-points
+  type: text
+  card: 0..*
+- name: failure-points
+  type: text
+  card: 0..*
+- name: systems-used
+  type: reference(application)
+  card: 0..*
+- name: mapped-with
+  type: text
+  card: 1..*
+- name: mapped-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- validated
+- current
+- superseded
+- retired
+relations:
+- type: part-of
+  target: department
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: application
+- type: produces
+  target: standard-procedure
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

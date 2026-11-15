@@ -1,0 +1,47 @@
+kind: entity
+slug: payer-agreement
+title: Payer Agreement
+type: governance
+summary: The agreement between the organisation and its payers or commissioning body for a period on volumes, budgets, rates, supplements,
+  funding for capacity held ready and budgets reimbursed at cost, from which expected revenue and the rules for over- and under-delivery
+  follow.
+attributes:
+- name: payers
+  type: reference(payer-organisation)
+  card: 1..*
+- name: agreement-period
+  type: period
+  card: 1..1
+- name: agreed-volumes
+  type: quantity
+  card: 0..*
+- name: agreed-budget
+  type: amount
+  card: 0..1
+- name: rates
+  type: reference(price-list)
+  card: 0..*
+- name: funding-components
+  type: code
+  card: 1..*
+- name: settlement-rules
+  type: text
+  card: 0..*
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- in-negotiation
+- agreed
+- under-arbitration
+- in-force
+- settled
+relations:
+- type: governed-by
+  target: service-mandate
+- type: based-on
+  target: service-group-assignment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

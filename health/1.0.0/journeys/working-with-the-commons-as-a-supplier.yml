@@ -1,0 +1,35 @@
+kind: journey
+slug: working-with-the-commons-as-a-supplier
+title: Working with the Commons as a Supplier
+stakeholder: supplier
+summary: A supplier's path from market dialogue through product evaluation and performance review to a strategic partnership with
+  the commons.
+stages:
+- slug: join-the-market-dialogue
+  title: Join the Market Dialogue
+  goal: The supplier presents products, innovations and supply conditions on equal terms with its competitors before the category
+    strategy is set.
+  step: category-and-supplier-management/category-strategy-setting
+  touchpoints:
+  - supplier-market-dialogue
+- slug: support-the-product-trial
+  title: Support the Product Trial
+  goal: The product is tried under agreed conditions, with instruction for its users and without influence on the evaluators.
+  step: category-and-supplier-management/clinical-product-evaluation
+  touchpoints:
+  - product-trial
+- slug: review-performance
+  title: Review Performance
+  goal: The supplier sees its measured performance, discusses causes and agrees corrective action instead of learning of problems
+    at the end of the contract.
+  step: category-and-supplier-management/supplier-performance-review
+  touchpoints:
+  - supplier-review-meeting
+  - supplier-portal
+- slug: develop-the-partnership
+  title: Develop the Partnership
+  goal: Long-term commitments on supply security, joint improvement and innovation are agreed in writing and reviewed together.
+  step: category-and-supplier-management/strategic-partnership-development
+  touchpoints:
+  - supplier-review-meeting
+  - supply-contract

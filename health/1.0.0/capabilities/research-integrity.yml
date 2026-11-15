@@ -1,0 +1,19 @@
+kind: capability
+slug: research-integrity
+title: Research Integrity
+level: L3
+parent: research-ethics-and-integrity
+summary: Promote good scientific practice and investigate suspected misconduct.
+binds:
+- source: src-306
+  edition: '2022'
+  jurisdiction: global
+- source: src-513
+  edition: '2023'
+  jurisdiction: global
+- source: src-526
+  edition: 2026-01
+  jurisdiction: global
+- source: src-531
+  edition: v3-2025
+  jurisdiction: global

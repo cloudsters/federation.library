@@ -1,0 +1,61 @@
+kind: entity
+slug: climate-action-plan
+title: Climate Action Plan
+type: governance
+summary: The city's plan for cutting emissions and adapting to climate change, with its targets by sector and year, the measures and
+  who carries them out, and the limits for the carbon embedded in what the city buys and builds. The environment department drafts
+  it with neighbourhoods and departments and the council adopts it, and categories, budgets and works are measured against it each
+  year.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: baseline-year
+  type: integer
+  card: 1..1
+- name: emission-targets
+  type: text
+  card: 1..*
+- name: embedded-carbon-targets
+  type: text
+  card: 0..*
+- name: adaptation-goals
+  type: text
+  card: 0..*
+- name: measures
+  type: text
+  card: 1..*
+- name: responsible-departments
+  type: reference(department)
+  card: 0..*
+- name: footprint
+  type: reference(carbon-footprint)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-rhythm
+  type: code
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- revised
+- retired
+relations:
+- type: based-on
+  target: carbon-footprint
+- type: refers-to
+  target: energy-strategy
+- type: refers-to
+  target: mobility-plan
+- type: refers-to
+  target: ecological-cost-ledger
+- type: produces
+  target: public-record

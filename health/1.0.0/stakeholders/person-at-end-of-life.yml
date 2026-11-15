@@ -1,0 +1,18 @@
+kind: stakeholder
+slug: person-at-end-of-life
+title: Person at End of Life
+nature: person
+stance: served
+summary: A person in the last phase of life, from cancer, organ failure or frailty, cared for on a ward, in a palliative unit
+  or at home. Decisions about limiting treatment are made with the person and those close to them.
+seeks:
+- Relief of symptoms, a say in where and how the last phase is spent, and support for those close to them.
+brings:
+- Wishes for the end of life that, once known and recorded, guide treatment decisions and protect against care that serves
+  no one.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

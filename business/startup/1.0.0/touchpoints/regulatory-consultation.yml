@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: regulatory-consultation
+title: Regulatory Consultation
+medium: encounter
+summary: The consultation in which an authority presents new or changed rules and the organisation responds, directly or through its
+  sector association.
+exchanges:
+- conformance-for-licence
+journey: mandate-cycle

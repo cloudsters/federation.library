@@ -1,0 +1,39 @@
+kind: solution
+slug: research-data-platform
+title: Research Data Platform
+role: platform
+summary: 'Makes routine care data usable for research: harmonises it to a common model, pseudonymises it, builds cohorts and datasets,
+  runs registries and federated analyses, and governs data access requests and use agreements.'
+carries:
+- research-data-integration-centre
+- real-world-data-provisioning
+- common-data-model-harmonisation
+- secondary-use-enablement
+- data-access-governance
+- federated-analysis
+- research-data-collection
+- research-data-analysis
+- cohort-and-registry-studies
+- biostatistics-support
+- clinical-registry-participation
+- trial-feasibility-and-start-up
+- trial-participant-recruitment
+holds:
+- dataset
+- cohort
+- data-access-request
+- data-use-agreement
+- clinical-registry
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

@@ -1,0 +1,61 @@
+kind: solution
+slug: governance-risk-and-compliance
+title: Governance, Risk and Compliance
+role: system-of-record
+summary: Supports the governance bodies with their charter, meetings and resolutions, and holds the registers of risks, compliance
+  obligations, personal data processing and emergency plans, with the controls and tests that assure them.
+carries:
+- governance-body-design
+- board-communication-reporting
+- board-effectiveness-review
+- subsidiary-governance
+- delegation-of-authority
+- regulatory-landscape-sensing
+- compliance-framework
+- compliance-assurance
+- compliance-sensing-monitoring
+- anti-corruption-and-conflicts-of-interest
+- whistleblower-protection
+- regulatory-reporting
+- licence-and-permit-management
+- data-protection-governance
+- privacy-impact-management
+- personal-data-breach-response
+- data-subject-rights-fulfilment
+- risk-framework-design
+- risk-oversight-and-coordination
+- unit-risk-management
+- vendor-risk-management
+- insurance-management
+- internal-controls-design
+- controls-monitoring
+- controls-reporting
+- audit-lifecycle-management
+- business-continuity-design
+- resilience-testing-evolution
+- degraded-mode-governance
+- emergency-and-disaster-preparedness
+- remediation-management
+- occupational-safety-programme
+- hazardous-substance-safety
+- it-compliance-assessment
+- critical-infrastructure-security-compliance
+- it-continuity-management
+holds:
+- governance-body
+- governance-decision
+- charter
+- risk
+- compliance-obligation
+- data-processing-record
+- emergency-preparedness-plan
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

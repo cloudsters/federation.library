@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: test-reading-for-clearer-information
+title: Test Reading for Clearer Information
+between:
+- resident
+- communications-officer
+offered:
+- Residents' time to read a draft and say what they understood.
+returned:
+- Information rewritten until residents like them understand it.
+touchpoint: resident-readability-check

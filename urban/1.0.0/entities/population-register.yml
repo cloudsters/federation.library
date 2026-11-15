@@ -1,0 +1,45 @@
+kind: entity
+slug: population-register
+title: Population Register
+type: intelligence
+summary: The record of who lives in the city, by neighbourhood and household, from which the electoral register is drawn. The registry
+  office keeps it, and it is read beside the records communities make themselves to show who the city's data leaves out.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-date
+  type: date
+  card: 1..1
+- name: resident-count
+  type: integer
+  card: 1..1
+- name: breakdowns
+  type: code
+  card: 0..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: electoral-extract
+  type: document
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 1..1
+states:
+- collected
+- validated
+- current
+- extracted
+- corrected
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-enumeration

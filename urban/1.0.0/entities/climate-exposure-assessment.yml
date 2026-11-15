@@ -1,0 +1,66 @@
+kind: entity
+slug: climate-exposure-assessment
+title: Climate Exposure Assessment
+type: intelligence
+summary: The assessment of how heat, heavy rain, flooding and erosion threaten each class of asset and each neighbourhood, drawn from
+  hazard maps, past floods and the knowledge of residents who live with them. The asset office prepares it with the operators and
+  residents, and it feeds the adaptation plan and the asset plan.
+attributes:
+- name: reference-date
+  type: date
+  card: 1..1
+- name: prepared-by
+  type: text
+  card: 1..1
+- name: hazards
+  type: code
+  card: 1..*
+- name: asset-classes
+  type: code
+  card: 0..*
+- name: assets-exposed
+  type: reference(infrastructure-asset)
+  card: 0..*
+- name: neighbourhoods-exposed
+  type: reference(neighbourhood)
+  card: 0..*
+- name: exposure-by-asset
+  type: document
+  card: 1..1
+- name: hazard-maps
+  type: reference(flood-risk-map)
+  card: 0..*
+- name: past-events
+  type: reference(flood-event)
+  card: 0..*
+- name: resident-observations
+  type: text
+  card: 0..*
+- name: method
+  type: text
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- commissioned
+- mapped
+- validated
+- published
+- updated
+- superseded
+relations:
+- type: based-on
+  target: flood-risk-map
+- type: based-on
+  target: flood-event
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: risk-register
+binds:
+- source: src-640
+  edition: '2026'
+  jurisdiction: global

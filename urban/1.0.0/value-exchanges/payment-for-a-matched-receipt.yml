@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: payment-for-a-matched-receipt
+title: Payment for a Matched Receipt
+between:
+- taxpayer
+- finance-officer
+offered:
+- Payment through the channel the taxpayer uses, from a bank transfer to a neighbourhood agent.
+returned:
+- A receipt, and a balance that shows the payment on the right account.
+touchpoint: payment-channels

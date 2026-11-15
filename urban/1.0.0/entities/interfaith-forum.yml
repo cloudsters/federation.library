@@ -1,0 +1,50 @@
+kind: entity
+slug: interfaith-forum
+title: Interfaith Forum
+type: master
+summary: The standing forum of the city's faith and belief communities, with its members, its meetings and the joint work it takes
+  on. The city convenes it and its members keep its record, and it is used to act together for the common good and to speak together
+  when tension rises.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: member-communities
+  type: reference(faith-community)
+  card: 1..*
+- name: convened-by
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: meeting-schedule
+  type: text
+  card: 0..1
+- name: decision-method
+  type: text
+  card: 0..1
+- name: joint-work
+  type: text
+  card: 0..*
+- name: joint-statements
+  type: document
+  card: 0..*
+- name: contact
+  type: text
+  card: 0..1
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- forming
+- active
+- dormant
+- dissolved
+relations:
+- type: composed-of
+  target: faith-community
+- type: refers-to
+  target: cohesion-assessment
+- type: refers-to
+  target: civil-society-directory

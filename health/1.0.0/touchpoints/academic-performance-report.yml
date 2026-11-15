@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: academic-performance-report
+title: Academic Performance Report
+medium: artefact
+summary: The periodic report of publications, grants, trials, teaching evaluations and graduates by unit, used for performance-based
+  allocation and profile decisions.
+exchanges:
+- academic-performance-allocation
+- academic-performance-for-funds
+journey: faculty-academic-planning-journey

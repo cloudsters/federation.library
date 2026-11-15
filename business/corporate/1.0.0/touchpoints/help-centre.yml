@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: help-centre
+title: Help Centre
+medium: channel
+summary: The online help, answers, order tracking and routine self-service, available at any time, with a person reachable when the
+  customer needs one.
+exchanges:
+- instant-answers-with-human-handover
+journey: consumer-getting-help-after-a-purchase

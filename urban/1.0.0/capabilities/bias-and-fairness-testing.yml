@@ -1,0 +1,6 @@
+kind: capability
+slug: bias-and-fairness-testing
+title: Bias and Fairness Testing
+level: L3
+parent: algorithm-assurance
+summary: Test an algorithm's results for bias across neighbourhoods and groups before and during use.

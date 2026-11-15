@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: district-terms-for-an-offer-within-them
+title: District Terms for an Offer Within Them
+between:
+- city-council
+- property-developer
+offered:
+- The council's terms for the district, its land, its share of commons space and affordable homes.
+returned:
+- A development offer made within those terms.
+touchpoint: district-terms-resolution

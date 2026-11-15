@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: initiative-proposal
+title: Initiative Proposal
+medium: artefact
+summary: The short submission through which staff, a unit or a function proposes an initiative, stating the objective it serves, its
+  scope, expected benefits, cost and sponsor.
+exchanges:
+- initiative-funding
+- staff-idea-intake
+journey: initiative-sponsor-journey

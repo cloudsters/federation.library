@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: trial-feedback-diary
+title: Trial Feedback Diary
+medium: artefact
+summary: The shared record, on paper and online, in which residents and staff note during a trial what works, what fails and who does
+  not come.
+exchanges:
+- staff-findings-for-fixed-faults
+- trial-experience-for-a-launch-decision
+journey: city-administration-bringing-a-new-service-into-use

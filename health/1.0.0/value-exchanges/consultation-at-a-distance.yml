@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: consultation-at-a-distance
+title: Consultation at a Distance
+between:
+- specialist-physician
+- person-with-chronic-condition
+offered:
+- A follow-up consultation by secure video without travel, with prescriptions, referrals and documents issued digitally.
+returned:
+- Prepared readings and questions, a suitable private setting, and the continuity that lets the clinician follow the patient over
+  time.
+touchpoint: telemedicine-service

@@ -1,0 +1,42 @@
+kind: journey
+slug: faith-community-working-with-its-neighbours
+title: Faith Community Working With Its Neighbours
+stakeholder: faith-communities
+summary: A faith community reports early signs of tension, joins the standing interfaith forum, agrees with its neighbours how sacred
+  sites and ritual times are respected, hosts encounters across difference and reviews with the city how relations changed.
+stages:
+- slug: report-early-signs
+  title: Report Early Signs
+  goal: The community's trusted voices have passed early signs of falling trust or rising tension to the community workers.
+  step: community-relations-and-cohesion/cohesion-sensing
+  touchpoints:
+  - trusted-voices-network
+- slug: join-the-interfaith-forum
+  title: Join the Interfaith Forum
+  goal: The community meets regularly with other faith and belief communities in a standing forum that acts together for the common
+    good.
+  step: community-relations-and-cohesion/interfaith-dialogue
+  touchpoints:
+  - interfaith-forum-meeting
+- slug: agree-shared-space
+  title: Agree Shared Space
+  goal: The community and its neighbours have agreed how sacred sites, burial grounds, ritual times and shared streets are respected
+    and used, and the city has recorded the agreement.
+  step: community-relations-and-cohesion/faith-and-shared-space-agreements
+  touchpoints:
+  - faith-space-agreement-meeting
+- slug: host-encounter
+  title: Host Encounter
+  goal: The community has opened its place and its meals to neighbours of other origins and joined a facilitated gathering on a question
+    that divides them.
+  step: community-relations-and-cohesion/encounter-across-difference
+  touchpoints:
+  - neutral-meeting-place
+  - facilitated-dialogue-gathering
+- slug: review-relations
+  title: Review Relations
+  goal: The community has reviewed with the city whether relations between groups improved and where tension persists.
+  step: community-relations-and-cohesion/cohesion-review
+  touchpoints:
+  - cohesion-review-meeting
+  - published-cohesion-picture

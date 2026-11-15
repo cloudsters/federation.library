@@ -1,0 +1,59 @@
+kind: entity
+slug: material-recovery-report
+title: Material Recovery Report
+type: intelligence
+summary: The report of what a retired asset returned, with the materials reused, recovered and disposed of and their quantities. The
+  asset office prepares it on closing the asset's record, and it shows the city what each retirement returned.
+attributes:
+- name: asset
+  type: reference(infrastructure-asset)
+  card: 1..1
+- name: retirement-decision
+  type: reference(retirement-decision)
+  card: 1..1
+- name: reporting-date
+  type: date
+  card: 1..1
+- name: prepared-by
+  type: text
+  card: 1..1
+- name: materials-reused
+  type: quantity
+  card: 0..*
+- name: materials-recovered
+  type: quantity
+  card: 0..*
+- name: materials-disposed
+  type: quantity
+  card: 0..*
+- name: hazardous-waste
+  type: quantity
+  card: 0..1
+- name: reuse-share
+  type: decimal
+  card: 0..1
+- name: lots
+  type: reference(salvaged-material-lot)
+  card: 0..*
+- name: site-clean-up
+  type: reference(contaminated-site)
+  card: 0..1
+- name: final-value
+  type: amount
+  card: 0..1
+states:
+- compiled
+- verified
+- published
+- archived
+relations:
+- type: based-on
+  target: salvaged-material-lot
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: retirement-decision
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: waste-metrics

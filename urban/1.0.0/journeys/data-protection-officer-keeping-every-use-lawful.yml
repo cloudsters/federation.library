@@ -1,0 +1,42 @@
+kind: journey
+slug: data-protection-officer-keeping-every-use-lawful
+title: Data Protection Officer Keeping Every Use Lawful
+stakeholder: data-protection-officer
+summary: The data protection officer records each proposed use of personal data, assesses those that could harm residents with the
+  neighbourhoods concerned, checks that contracts leave the city owner of its data, sees data disposed of at the end of its period,
+  and handles breaches and the yearly review.
+stages:
+- slug: register-the-use
+  title: Register the Use
+  goal: Each use of personal data is recorded with its purpose, its lawful basis, the data used and how long it is kept.
+  step: data-protection-and-data-sovereignty/processing-intake-and-registration
+  touchpoints:
+  - processing-intake-form
+  - public-processing-register
+- slug: assess-the-harm
+  title: Assess the Harm
+  goal: Uses that could harm residents are assessed with those concerned, including whether the data is needed at all, and are approved,
+    changed or refused.
+  step: data-protection-and-data-sovereignty/privacy-impact-assessment
+  touchpoints:
+  - privacy-impact-hearing
+- slug: check-the-data-clauses
+  title: Check the Data Clauses
+  goal: Each contract states that the city owns the data the system generates, where it is held and how it returns to the city.
+  step: data-protection-and-data-sovereignty/data-ownership-in-contracts
+  touchpoints:
+  - contract-data-clause-review
+- slug: see-data-disposed-of
+  title: See Data Disposed Of
+  goal: Data is deleted or anonymised at the end of its period, unless an audit or dispute requires it to be held.
+  step: data-protection-and-data-sovereignty/retention-and-disposal
+  touchpoints:
+  - retention-schedule
+- slug: handle-breaches-and-report
+  title: Handle Breaches and Report
+  goal: Breaches are contained and reported to the authority and the residents affected within deadlines, and the year's processing,
+    requests and breaches are published.
+  step: data-protection-and-data-sovereignty/breach-response-and-review
+  touchpoints:
+  - personal-data-breach-notice
+  - annual-data-protection-report

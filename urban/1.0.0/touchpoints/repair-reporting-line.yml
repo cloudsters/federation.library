@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: repair-reporting-line
+title: Repair Reporting Line
+medium: channel
+summary: The telephone, online and in-person route through which a tenant reports a repair and is given its priority and date within
+  the published times.
+exchanges:
+- repair-report-for-a-fix-the-tenant-confirms
+journey: tenant-living-in-a-city-home

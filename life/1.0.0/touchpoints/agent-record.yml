@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-record
+title: The Agent's Record
+medium: document
+mode: digital
+summary: The trail of what an agent paid, answered or booked in the person's name.
+exchanges:
+- reach-for-carrying
+journey: acting-in-someones-name

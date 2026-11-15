@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-agent-mandate
+title: Published Agent Mandate
+medium: artefact
+summary: The written mandate of an agent, with its role, its limits, its overseer and its sunset date, published in the register.
+exchanges:
+- bounded-work-for-a-written-mandate
+- staff-agreement-for-a-mandate-with-a-sunset
+journey: municipal-ai-agent-serving-a-fixed-term

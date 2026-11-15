@@ -1,0 +1,9 @@
+kind: post
+slug: city-clerk
+title: City Clerk
+summary: 'Keeps the council''s decisions recorded, reasoned and public.'
+of: full-council
+responsibility: Keeps the council's agenda and record, records each resolution with its reasons, votes and dissent, and publishes
+  the charter and resolutions once adopted.
+accountable: body:full-council
+type: role

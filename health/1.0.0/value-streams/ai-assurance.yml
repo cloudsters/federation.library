@@ -1,0 +1,142 @@
+kind: value-stream
+slug: ai-assurance
+title: AI Assurance
+family: collaboration-to-automation
+summary: 'Assuring that AI systems used in care and administration are safe, effective, fair and lawful: validation before use, regulatory
+  conformity, monitoring of performance and drift, change control and withdrawal.'
+trigger: An AI system is proposed for use, is changed, or shows deviating performance.
+outcome: The AI system is approved for a defined use with monitoring in place, or it is changed or withdrawn.
+stakeholders:
+- executive
+- health-informatics-specialist
+- specialist-physician
+- clinical-engineer
+- supplier
+- health-regulator
+- patient-organisation
+- clinical-decision-support-agent
+steps:
+- slug: use-registration
+  title: Use Registration
+  summary: A proposed AI use is registered with its intended purpose, users, affected patients, autonomy and provider, classified
+    by risk, and assigned a clinical and a technical owner.
+  capabilities:
+  - ai-governance-framework
+  - ai-regulatory-conformity
+  - application-portfolio-management
+  - it-demand-management
+  entities:
+  - ai-system
+  - compliance-obligation
+  serves:
+  - ai-system-register
+- slug: risk-and-conformity-assessment
+  title: Risk and Conformity Assessment
+  summary: The system is assessed for regulatory conformity, data protection, cybersecurity, supplier obligations and fairness risks,
+    using the provider's documentation and the organisation's own analysis.
+  capabilities:
+  - ai-regulatory-conformity
+  - privacy-impact-management
+  - vendor-risk-management
+  - medical-device-cybersecurity
+  - algorithmic-fairness-assurance
+  entities:
+  - ai-system
+  - risk
+  - data-processing-record
+  - contract
+  serves:
+  - ai-technical-documentation
+- slug: local-validation
+  title: Local Validation
+  summary: Performance, safety and fairness across patient subgroups are evaluated on the organisation's own data and in the real
+    workflow against acceptance criteria set in advance, ending in a go or no-go.
+  capabilities:
+  - decision-support-validation
+  - algorithmic-fairness-assurance
+  - biostatistics-support
+  entities:
+  - ai-validation
+  - dataset
+  - ai-system
+  serves:
+  - ai-governance-board
+- slug: approval-for-defined-use
+  title: Approval for Defined Use
+  summary: The responsible body approves the system for a stated use and setting, with conditions, an agent mandate where it acts,
+    named overseers and the information that users and patients receive.
+  capabilities:
+  - ai-governance-framework
+  - trust-and-escalation-protocols
+  - agent-lifecycle-management
+  - ai-oversight-competence
+  entities:
+  - governance-decision
+  - agent-mandate
+  - oversight-assignment
+  - ai-system
+  serves:
+  - ai-governance-board
+  - ai-system-register
+  - public-website
+- slug: monitoring-in-use
+  title: Monitoring in Use
+  summary: Performance, drift, subgroup fairness, overrides and incidents are monitored continuously from logs and outcomes, and deviations
+    beyond the agreed limits are escalated.
+  capabilities:
+  - model-monitoring-and-drift
+  - algorithmic-fairness-assurance
+  - incident-reporting-and-learning
+  - security-operations
+  entities:
+  - prediction
+  - measure-report
+  - incident
+  - ai-system
+  serves:
+  - ai-monitoring-dashboard
+- slug: change-control
+  title: Change Control
+  summary: Updates and retraining follow a predefined change plan; changes outside it require revalidation and renewed approval, and
+    every version in use is recorded.
+  capabilities:
+  - model-change-control
+  - it-change-and-release-governance
+  - decision-support-validation
+  entities:
+  - ai-system
+  - ai-validation
+  - governance-decision
+  serves:
+  - ai-governance-board
+  - ai-technical-documentation
+- slug: correction-and-withdrawal
+  title: Correction and Withdrawal
+  summary: A failing system is restricted, suspended or withdrawn, users switch to the fallback procedure, serious incidents are notified,
+    and the provider is required to correct the fault.
+  capabilities:
+  - agent-lifecycle-management
+  - regulatory-incident-reporting
+  - clinical-downtime-procedures
+  - supplier-performance-evaluation
+  entities:
+  - ai-system
+  - regulatory-notification
+  - corrective-action
+  - contract
+  serves:
+  - regulatory-reporting-channel
+  - supplier-portal
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-506
+  edition: '2024'
+  jurisdiction: global
+- source: src-508
+  edition: '2022'
+  jurisdiction: global

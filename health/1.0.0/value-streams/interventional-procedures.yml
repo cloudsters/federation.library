@@ -1,0 +1,146 @@
+kind: value-stream
+slug: interventional-procedures
+title: Interventional Procedures
+family: demand-to-fulfillment
+summary: 'Performing minimally invasive diagnostic and therapeutic procedures outside the operating theatre, such as cardiac catheterisation,
+  endoscopy and interventional radiology: indication, preparation, procedure, recovery and report.'
+trigger: A clinician requests an interventional procedure for a patient.
+outcome: The procedure is performed, the patient has recovered, and the report is available to the requesting clinician.
+stakeholders:
+- outpatient
+- elective-inpatient
+- emergency-patient
+- specialist-physician
+- diagnostic-physician
+- anaesthesiologist
+- registered-nurse
+- diagnostic-technologist
+- clinical-engineer
+- referring-practice
+steps:
+- slug: request-and-indication
+  title: Request and Indication
+  summary: A clinician requests the procedure, the interventionalist checks indication, urgency and alternatives against guidelines,
+    and the case is accepted and scheduled in the catheter, endoscopy or angiography suite, or activated at once when time-critical.
+  capabilities:
+  - clinical-order-entry
+  - imaging-order-justification
+  - interventional-cardiology
+  - interventional-radiology
+  - appointment-booking-management
+  - time-critical-pathway-activation
+  entities:
+  - clinical-order
+  - care-commitment
+  - appointment
+  - schedule
+  serves:
+  - appointment-confirmation
+  - clinical-workstation
+  - consultation
+- slug: preparation-and-consent
+  title: Preparation and Consent
+  summary: The patient is informed and consents, anticoagulation, kidney function, allergies and fasting are checked, and sedation
+    or anaesthesia is planned to the patient's risk.
+  capabilities:
+  - informed-consent
+  - pre-admission-preparation
+  - medication-reconciliation
+  - contrast-agent-safety
+  - anaesthesia-consent-and-risk-stratification
+  - procedural-sedation
+  entities:
+  - informed-consent
+  - allergy-or-intolerance
+  - observation
+  - medication-reconciliation
+  - risk-assessment
+  serves:
+  - consent-form
+  - imaging-safety-questionnaire
+  - interventional-suite
+  - patient-portal
+- slug: procedure-performance
+  title: Procedure Performance
+  summary: After a team time-out the procedure is performed under sedation or anaesthesia with image guidance and radiation protection,
+    devices and implants are recorded, and complications are managed.
+  capabilities:
+  - surgical-safety-checklist-practice
+  - interventional-cardiology
+  - interventional-radiology
+  - surgical-procedure-performance
+  - procedural-sedation
+  - radiation-protection
+  - implant-and-material-documentation
+  - surgical-complication-management
+  entities:
+  - procedure
+  - image-study
+  - implant
+  - observation
+  - medication-administration
+  - specimen
+  serves:
+  - interventional-suite
+  - surgical-safety-checklist
+- slug: recovery-and-observation
+  title: Recovery and Observation
+  summary: The patient recovers from sedation, the puncture site and vital signs are monitored, and the patient goes home the same
+    day or is transferred to a ward against defined criteria.
+  capabilities:
+  - post-anaesthesia-recovery
+  - postoperative-monitoring
+  - day-case-treatment
+  - patient-transfer-management
+  - patient-discharge-education
+  entities:
+  - observation
+  - encounter
+  - care-transition
+  - bed-assignment
+  serves:
+  - day-care-unit
+  - recovery-room
+- slug: equipment-reprocessing
+  title: Equipment Reprocessing
+  summary: Endoscopes and reusable instruments are reprocessed in validated cycles, released with traceability to the patient, and
+    procedure equipment is maintained.
+  capabilities:
+  - endoscope-reprocessing
+  - instrument-reprocessing-and-validation
+  - sterile-goods-release-and-traceability
+  - device-maintenance-execution
+  entities:
+  - sterile-supply-cycle
+  - instrument-set
+  - medical-device
+  serves:
+  - interventional-suite
+- slug: procedure-report
+  title: Procedure Report
+  summary: A structured report with findings, images, devices placed, radiation dose and recommendations is signed and sent to the
+    requesting clinician and the patient's record.
+  capabilities:
+  - radiological-reporting
+  - intraoperative-documentation
+  - imaging-result-communication
+  - secure-clinical-messaging
+  entities:
+  - diagnostic-report
+  - clinical-document
+  - image-study
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - consultation
+  - diagnostic-report
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

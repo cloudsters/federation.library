@@ -1,0 +1,61 @@
+kind: journey
+slug: obtaining-specialist-advice-at-a-distance
+title: Obtaining Specialist Advice at a Distance
+stakeholder: referring-hospital
+summary: 'The partner hospital''s side of a teleconsultation: from the request for specialist input to a documented recommendation,
+  support during treatment and, where needed, a transfer.'
+stages:
+- slug: requesting-advice
+  title: Requesting Advice
+  goal: Send the question with data and images in one step through the telemedicine link, at any hour.
+  step: telemedicine-network/teleconsultation-request
+  touchpoints:
+  - telemedicine-service
+  - referrer-portal
+- slug: reaching-a-specialist
+  title: Reaching a Specialist
+  goal: Reach the right specialist within the agreed response time and know who is responsible for what.
+  step: telemedicine-network/acceptance-and-responsibility
+  touchpoints:
+  - telemedicine-service
+- slug: assessing-together
+  title: Assessing Together
+  goal: Have the patient assessed jointly with the remote specialist, with images read at a distance.
+  step: telemedicine-network/remote-assessment
+  touchpoints:
+  - telemedicine-service
+  - diagnostic-report
+- slug: receiving-a-recommendation
+  title: Receiving a Recommendation
+  goal: Receive a clear recommendation, including from a case conference the local team joins by video.
+  step: telemedicine-network/treatment-recommendation
+  touchpoints:
+  - multidisciplinary-case-conference
+  - teleconsultation-report
+- slug: treating-with-backing
+  title: Treating with Backing
+  goal: Treat the patient locally with the specialist's support in time-critical decisions and remote rounds.
+  step: telemedicine-network/remote-treatment-support
+  touchpoints:
+  - remote-ward-round
+  - telemedicine-service
+- slug: deciding-on-transfer
+  title: Deciding on Transfer
+  goal: Transfer the patient without delay when only the specialist centre can help, or keep the patient with confidence.
+  step: telemedicine-network/transfer-decision
+  touchpoints:
+  - telemedicine-service
+  - referral-letter
+- slug: closing-the-case
+  title: Closing the Case
+  goal: Receive the consultation report for the record and a correct invoice under the agreement.
+  step: telemedicine-network/documentation-and-return
+  touchpoints:
+  - teleconsultation-report
+  - clinical-messaging-service
+- slug: shaping-the-service
+  title: Shaping the Service
+  goal: Review response times and results with the specialist centre and shape how the network evolves.
+  step: telemedicine-network/network-service-review
+  touchpoints:
+  - care-network-meeting

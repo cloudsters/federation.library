@@ -1,0 +1,43 @@
+kind: entity
+slug: event
+title: Event
+type: transactional
+summary: A living gathering — a designed moment where the community assembles in shared space and time, whether physical or digital,
+  to learn, connect, exchange, and strengthen the bonds that hold the commons together.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: dates
+  type: period
+  card: 1..1
+- name: venue
+  type: text
+  card: 0..1
+- name: platform
+  type: text
+  card: 0..1
+- name: programme
+  type: document
+  card: 0..1
+- name: tickets
+  type: text
+  card: 0..*
+- name: registrations
+  type: integer
+  card: 0..1
+- name: capacity
+  type: integer
+  card: 0..1
+states:
+- planned
+- published
+- registration-open
+- running
+- completed
+- followed-up
+relations:
+- type: refers-to
+  target: campaign
+- type: produces
+  target: inquiry

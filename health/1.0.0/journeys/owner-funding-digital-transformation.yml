@@ -1,0 +1,33 @@
+kind: journey
+slug: owner-funding-digital-transformation
+title: Owner Funding Digital Transformation
+stakeholder: owner
+summary: The owner receives a digital roadmap it can fund, decides on investment and follows maturity and realised value over the
+  years.
+stages:
+- slug: receive-the-maturity-picture
+  title: Receive the Maturity Picture
+  goal: The owner knows where the commons stands digitally against its peers.
+  step: digital-strategy-and-architecture/maturity-and-landscape-assessment
+  touchpoints:
+  - digital-maturity-report
+- slug: weigh-the-roadmap
+  title: Weigh the Roadmap
+  goal: The owner understands what the roadmap costs, what it returns and which risks it carries.
+  step: digital-strategy-and-architecture/strategy-and-roadmap
+  touchpoints:
+  - digital-roadmap
+  - supervisory-body-meeting
+- slug: approve-investment
+  title: Approve Investment
+  goal: Investment and public funding are committed with conditions the commons can meet.
+  step: digital-strategy-and-architecture/investment-decision
+  touchpoints:
+  - supervisory-body-meeting
+- slug: follow-progress
+  title: Follow Progress
+  goal: The owner sees maturity rise and benefits realised, or learns early why not.
+  step: digital-strategy-and-architecture/value-and-roadmap-review
+  touchpoints:
+  - annual-report
+  - digital-maturity-report

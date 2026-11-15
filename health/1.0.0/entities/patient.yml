@@ -1,0 +1,60 @@
+kind: entity
+slug: patient
+title: Patient
+type: master
+summary: A person who receives or may receive care from the organisation, or joins its research as participant or donor, identified
+  once and referenced by every clinical and administrative record about them, and by research datasets only via a pseudonym.
+  It represents the patient stakeholder in the data.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..*
+- name: name
+  type: text
+  card: 1..1
+- name: birth-date
+  type: date
+  card: 0..1
+- name: gender
+  type: code
+  card: 0..1
+- name: address
+  type: text
+  card: 0..*
+- name: preferred-language
+  type: code
+  card: 0..1
+- name: identity-status
+  type: code
+  card: 1..1
+- name: date-of-death
+  type: datetime
+  card: 0..1
+states:
+- provisional
+- verified
+- merged
+- inactive
+relations: []
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

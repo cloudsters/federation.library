@@ -1,0 +1,14 @@
+kind: body
+slug: staff-council
+title: Staff Council
+summary: The body elected by the municipality's staff, informed and consulted in good time on changes to work and technology, which
+  agrees or refuses where its agreement is due and audits with workers how systems allocate work. It answers to the staff who elected
+  it.
+holds:
+- staff-representative-consultation
+- work-allocation-audit
+- grievance-handling
+- pay-equity-review
+part_of: null
+type: committee
+form: governing-body

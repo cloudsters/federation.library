@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: complaint-response-letter
+title: Complaint Response Letter
+medium: artefact
+summary: The written answer to a complaint, stating what was found, what the organisation regrets, what will change and where the
+  complainant can turn if not satisfied.
+exchanges:
+- concern-heard-and-answered
+journey: raising-a-concern

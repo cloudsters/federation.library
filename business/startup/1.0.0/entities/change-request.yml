@@ -1,0 +1,47 @@
+kind: entity
+slug: change-request
+title: Change Request
+type: governance
+summary: 'The formal ask for evolution — a governed request to modify something controlled: a product, a process, a system configuration.
+  Change requests ensure that the system evolves intentionally, with impact assessment before action and audit trail after.'
+attributes:
+- name: target
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: rationale
+  type: text
+  card: 1..1
+- name: impact-assessment
+  type: text
+  card: 0..1
+- name: approval
+  type: reference(approval)
+  card: 0..1
+- name: implementation-plan
+  type: text
+  card: 0..1
+- name: verification
+  type: text
+  card: 0..1
+states:
+- submitted
+- impact-assessed
+- approved
+- rejected
+- implemented
+- verified
+- closed
+relations:
+- type: based-on
+  target: approval
+- type: refers-to
+  target: configuration-item
+- type: refers-to
+  target: product
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

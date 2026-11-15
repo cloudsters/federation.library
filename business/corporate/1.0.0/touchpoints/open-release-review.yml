@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: open-release-review
+title: Open Release Review
+medium: encounter
+summary: The review in which the organisation decides which parts of an offering it releases openly, which stay its own and which
+  licence governs the release.
+exchanges:
+- open-release-for-wide-adoption
+journey: development-engineer-stewarding-an-open-release

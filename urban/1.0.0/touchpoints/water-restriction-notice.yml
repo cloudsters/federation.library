@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: water-restriction-notice
+title: Water Restriction Notice
+medium: artefact
+summary: The published notice of the limits on water use in a shortage, set by rules made in advance, with what each household is
+  guaranteed for basic need.
+exchanges:
+- restraint-in-a-shortage-for-basic-need-served-first
+journey: resident-relying-on-safe-water

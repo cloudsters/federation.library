@@ -1,0 +1,66 @@
+kind: entity
+slug: play-space
+title: Play Space
+type: master
+summary: A playground, play street or other space set aside for children's play, with its kind, hours, equipment and those who care
+  for it. The city keeps the record with the neighbourhood and the residents who hold a play street or a care agreement, and it is
+  used to place play within reach of every child and to keep it safe and open.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: play-space-kind
+  type: code
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: location
+  type: reference(public-space|street|park|school)
+  card: 0..1
+- name: age-range
+  type: text
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 0..*
+- name: play-street-days
+  type: text
+  card: 0..*
+- name: equipment
+  type: text
+  card: 0..*
+- name: accessibility-features
+  type: text
+  card: 0..*
+- name: last-inspected-on
+  type: date
+  card: 0..1
+- name: care-agreement
+  type: reference(place-care-agreement)
+  card: 0..1
+states:
+- proposed
+- open
+- under-repair
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: park
+- type: refers-to
+  target: street
+- type: governed-by
+  target: place-care-agreement
+- type: governed-by
+  target: shared-use-agreement
+- type: governed-by
+  target: sport-and-activity-plan
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-267
+  edition: '2013-04-17'
+  jurisdiction: global

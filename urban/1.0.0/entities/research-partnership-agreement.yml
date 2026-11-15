@@ -1,0 +1,59 @@
+kind: entity
+slug: research-partnership-agreement
+title: Research Partnership Agreement
+type: governance
+summary: The agreement between the city and a research institution on shared questions, open access to findings and data, the use
+  of campus resources by the city and its neighbourhoods, and residents' say in the research that concerns them. The city and the
+  institution sign it and the administration keeps it, and every research project done under it is checked against it.
+attributes:
+- name: institution
+  type: text
+  card: 1..1
+- name: shared-questions
+  type: text
+  card: 1..*
+- name: access-to-findings
+  type: text
+  card: 1..1
+- name: data-terms
+  type: reference(data-sharing-agreement)
+  card: 0..*
+- name: campus-resources
+  type: text
+  card: 0..*
+- name: resident-voice
+  type: text
+  card: 1..1
+- name: anchor-agreement
+  type: reference(anchor-institution-agreement)
+  card: 0..1
+- name: signed-by
+  type: text
+  card: 1..*
+- name: signed-on
+  type: date
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiating
+- signed
+- in-force
+- under-review
+- ended
+relations:
+- type: refers-to
+  target: research-agenda
+- type: based-on
+  target: anchor-institution-agreement
+- type: refers-to
+  target: data-sharing-agreement
+binds:
+- source: src-237
+  edition: '2021-11-23'
+  jurisdiction: global

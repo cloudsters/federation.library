@@ -1,0 +1,103 @@
+kind: value-stream
+slug: platform-ecosystem-distribution
+title: Platform & Partner Distribution
+family: proposition-to-audience
+summary: Distribute value through platforms, APIs, and marketplaces — enabling other systems and complementors to consume, embed,
+  and extend the offering.
+trigger: The distribution strategy calls for platform reach, or a marketplace or complementor seeks to integrate the offering.
+outcome: The offering is available through the chosen platforms and interfaces under fair terms, and their reach and usage are measured.
+stakeholders:
+- partner
+- technology-provider
+- business-customer
+- information-technology-specialist
+- product-manager
+steps:
+- slug: platform-model-design
+  title: Platform Model Design
+  summary: The sides of the platform, their roles, the value each gains and the terms of participation are designed.
+  capabilities:
+  - platform-ecosystem-design
+  entities:
+  - business-model
+  - terms-and-conditions
+  - channel
+  serves:
+  - platform-participation-terms
+- slug: composable-offering-preparation
+  title: Composable Offering Preparation
+  summary: The offering is cut into modules that others can combine, configure and extend without losing its integrity.
+  capabilities:
+  - composable-offering-architecture
+  entities:
+  - product
+  - service
+  - dynamic-proposition
+  serves:
+  - customer-portal
+  - developer-portal
+- slug: interface-publication
+  title: Interface Publication
+  summary: Versioned, documented interfaces and embeddable functions are published so that other systems can consume and embed the
+    offering.
+  capabilities:
+  - api-as-distribution
+  - embedded-intelligence-distribution
+  entities:
+  - interface
+  - application
+  - terms-and-conditions
+  serves:
+  - developer-portal
+- slug: platform-selection-and-dependency-review
+  title: Platform Selection and Dependency Review
+  summary: External platforms and marketplaces are chosen with care for the dependency they create, and fallbacks are kept for anything
+    core to operations.
+  capabilities:
+  - platform-interface-sovereignty
+  entities:
+  - platform-interface-wrapper
+  - risk
+  - agreement
+  serves:
+  - platform-dependency-review
+- slug: marketplace-listing-and-curation
+  title: Marketplace Listing and Curation
+  summary: Offers are listed on chosen marketplaces, and where the organisation runs its own marketplace or merchant network it curates
+    participants and matches supply to demand.
+  capabilities:
+  - marketplace-orchestration
+  - merchant-network-commerce
+  entities:
+  - product
+  - price-list
+  - counterparty
+  - sales-order
+  serves:
+  - marketplace-listing
+- slug: complementor-onboarding-and-embedding
+  title: Complementor Onboarding and Embedding
+  summary: Complementors are admitted under fair terms and supported in embedding the offering into the workflows and platforms their
+    customers already use.
+  capabilities:
+  - ecosystem-embedding
+  - platform-ecosystem-design
+  entities:
+  - partner-organisation
+  - agreement
+  - interface
+  serves:
+  - integration-support
+- slug: reach-and-ecosystem-health-review
+  title: Reach and Partner Network Review
+  summary: Reach, usage and the health of complementors are measured, and terms or platform choices are adjusted where dependency
+    or value extraction grows.
+  capabilities:
+  - platform-ecosystem-design
+  - platform-interface-sovereignty
+  entities:
+  - usage-record
+  - measure-report
+  - partner-organisation
+  serves:
+  - ecosystem-review

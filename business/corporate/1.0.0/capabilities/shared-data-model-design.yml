@@ -1,0 +1,7 @@
+kind: capability
+slug: shared-data-model-design
+title: Shared Data Model Design
+level: L3
+parent: data-governance
+summary: Define the entities and relationships that give data one shared meaning across conceptual and physical models, naming deliberately
+  what the organisation intends to see, since what a model omits stays invisible.

@@ -1,0 +1,19 @@
+kind: solution
+slug: field-service-management-system
+title: Field Service Management System
+role: system-of-record
+summary: Holds service orders, appointments, repair orders and service contracts for the installed base, and schedules, dispatches
+  and equips technicians with parts and mobile access.
+carries:
+- appointment-booking-management
+- field-service-delivery
+- field-service-scheduling-dispatch
+- ongoing-service-deepening
+- service-demand-sensing
+- service-contract-management
+- repair-and-refurbishment
+- spare-parts-management
+holds:
+- service-order
+- repair-order
+- warranty-claim

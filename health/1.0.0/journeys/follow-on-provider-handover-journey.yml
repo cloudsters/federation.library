@@ -1,0 +1,35 @@
+kind: journey
+slug: follow-on-provider-handover-journey
+title: Follow-On Provider Handover Journey
+stakeholder: follow-on-care-provider
+summary: A rehabilitation centre, nursing home or home care service receives an early request with complete needs, agrees the transfer
+  date, receives patient, documents and medicines together and can ask back when questions arise.
+stages:
+- slug: be-asked-early
+  title: Be Asked Early
+  goal: Receive the request early, with the patient's needs complete.
+  step: discharge-and-care-transition/post-acute-care-arrangement
+  touchpoints:
+  - discharge-planning-meeting
+  - clinical-messaging-service
+- slug: agree-the-date
+  title: Agree the Date
+  goal: Agree the date of transfer with the commons in time to prepare.
+  step: discharge-and-care-transition/readiness-assessment
+  touchpoints:
+  - discharge-planning-meeting
+- slug: receive-the-patient
+  title: Receive the Patient
+  goal: Receive patient, discharge letter, medication plan and nursing record together.
+  step: discharge-and-care-transition/discharge-and-handover
+  touchpoints:
+  - discharge-letter
+  - nursing-transfer-record
+  - medication-plan
+- slug: ask-back
+  title: Ask Back
+  goal: Reach someone who knows the patient when questions arise.
+  step: discharge-and-care-transition/follow-up-contact
+  touchpoints:
+  - follow-up-call
+  - clinical-messaging-service

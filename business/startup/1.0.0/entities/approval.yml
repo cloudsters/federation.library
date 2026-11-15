@@ -1,0 +1,42 @@
+kind: entity
+slug: approval
+title: Approval
+type: governance
+summary: The governed moment of yes — an explicit sign-off required before a process can proceed. Approvals are not bureaucratic obstacles;
+  they are the system’s way of ensuring that decisions with consequences are made with appropriate authority and awareness.
+attributes:
+- name: subject-decision
+  type: text
+  card: 1..1
+- name: requested-action
+  type: text
+  card: 1..1
+- name: approvers
+  type: reference(employee-record)
+  card: 1..*
+- name: authority-basis
+  type: reference(decision-right)
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: rationale
+  type: text
+  card: 0..1
+- name: decided-at
+  type: datetime
+  card: 0..1
+states:
+- requested
+- routed
+- delegated
+- decided
+- escalated
+- recorded
+relations:
+- type: governed-by
+  target: policy
+- type: governed-by
+  target: agent-mandate
+- type: governed-by
+  target: decision-right

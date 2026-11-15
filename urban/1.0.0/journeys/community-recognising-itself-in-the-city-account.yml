@@ -1,0 +1,39 @@
+kind: journey
+slug: community-recognising-itself-in-the-city-account
+title: Community Recognising Itself in the City's Account
+stakeholder: affected-community
+summary: A community long left out of the city's story tells the city how it lives, reviews how it is shown, receives information
+  in its own languages and routes, hears the truth early in a crisis and judges each year whether the city's account is true.
+stages:
+- slug: tell-how-we-live
+  title: Tell How We Live
+  goal: The community's own account of its life is heard and set beside what is said about it.
+  step: public-communication-and-reputation/issue-and-reputation-sensing
+  touchpoints:
+  - lived-experience-listening-round
+- slug: review-how-we-are-shown
+  title: Review How We Are Shown
+  goal: The draft city profile neither erases nor misrepresents the community, and its changes are taken in.
+  step: public-communication-and-reputation/city-self-description
+  touchpoints:
+  - city-profile-review-circle
+- slug: receive-information-our-way
+  title: Receive Information Our Way
+  goal: The community receives the city's information in its languages on notice boards, in print and by spoken routes, not only online.
+  step: public-communication-and-reputation/city-channel-operation
+  touchpoints:
+  - neighbourhood-notice-board
+  - printed-and-spoken-information-route
+- slug: hear-the-truth-early
+  title: Hear the Truth Early
+  goal: In a crisis the community hears early, in its languages, what is known and what is not yet known.
+  step: public-communication-and-reputation/crisis-and-correction-communication
+  touchpoints:
+  - crisis-update-briefing
+  - printed-and-spoken-information-route
+- slug: judge-the-account
+  title: Judge the Account
+  goal: The community says whether it recognises itself in what the city says, and its findings reach the council.
+  step: public-communication-and-reputation/reputation-review
+  touchpoints:
+  - reputation-review-forum

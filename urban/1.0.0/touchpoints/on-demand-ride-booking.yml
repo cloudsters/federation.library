@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: on-demand-ride-booking
+title: On-Demand Ride Booking
+medium: channel
+summary: The application and telephone route through which riders book shared on-demand rides where transit does not reach or does
+  not run, and drivers receive their trips.
+exchanges:
+- shared-vehicle-use-for-protected-terms
+- driving-for-fair-terms
+journey: public-transport-passenger-travelling-without-a-car

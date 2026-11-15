@@ -1,0 +1,36 @@
+kind: entity
+slug: significant-place
+title: Significant Place
+type: master
+summary: 'Ground this life is attached to and would be diminished without — a home region, family land, a retreat, a place of worship,
+  a stretch of coast. Not property: the attachment is what makes it an entity, and it survives the sale.'
+attributes:
+- name: where
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: why-it-matters
+  type: text
+  card: 1..1
+- name: attached-since
+  type: date
+  card: 0..1
+- name: last-returned
+  type: date
+  card: 0..1
+- name: held-as-property
+  type: boolean
+  card: 0..1
+states:
+- found
+- attached to
+- returned to
+- looked after
+- left behind
+relations:
+- target: self
+  type: serves
+- target: life-narrative
+  type: part-of

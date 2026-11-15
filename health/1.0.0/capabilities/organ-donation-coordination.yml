@@ -1,0 +1,10 @@
+kind: capability
+slug: organ-donation-coordination
+title: Organ Donation Coordination
+level: L3
+parent: highly-specialised-care
+summary: Identify potential donors and coordinate donation with families and the donation organisation.
+binds:
+- source: src-570
+  edition: '2010'
+  jurisdiction: global

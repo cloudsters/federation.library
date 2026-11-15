@@ -1,0 +1,126 @@
+kind: value-stream
+slug: integrated-health-and-social-care
+title: Integrated Health and Social Care
+family: discovery-to-usage
+summary: Joining the city's social care with health services, neighbours and families, so that residents receive care that fits them
+  at every stage of life, from birth to old age, close to home. It holds a local network in which hospitals, clinics, social services,
+  care providers and community bodies agree how they work together, the assessment of a person's needs with the person and those who
+  care for them, one care plan across providers, care at home and in the neighbourhood before an institution, support for family and
+  neighbour carers, and safe handovers at birth, from child to adult services, on leaving hospital and at the end of life.
+trigger: A resident, their family, a health professional or a neighbour asks for care or support, or a person is about to leave hospital
+  or move between services.
+outcome: The resident receives care that fits them, close to home and joined across providers, under one plan that they and their
+  carers know, with no gap at the handovers between services.
+stakeholders:
+- older-resident
+- disabled-resident
+- caregiver
+- care-worker
+- social-worker
+- health-and-care-provider
+- parent-or-guardian
+steps:
+- slug: local-care-network
+  title: Local Care Network
+  summary: Hospitals, clinics, social services, care providers, pharmacies and community bodies of a district agree how they share
+    information, refer people and answer together for those they serve.
+  capabilities:
+  - care-network-agreement-drafting
+  - data-sharing-agreement-drafting
+  entities:
+  - care-network-agreement
+  - hospital
+  - data-sharing-agreement
+  serves:
+  - care-network-table
+  - signed-care-network-agreement
+- slug: care-request-and-needs-assessment
+  title: Care Request and Needs Assessment
+  summary: A request from a resident, family, professional or neighbour is received at one point, and a social worker assesses the
+    person's needs, strengths and wishes with them and their carers, whatever their status.
+  capabilities:
+  - care-needs-assessment
+  - status-independent-service-access
+  - care-and-isolation-mapping
+  entities:
+  - care-assessment
+  - care-map
+  serves:
+  - home-needs-assessment-visit
+  - single-care-request-point
+- slug: joined-care-planning
+  title: Joined Care Planning
+  summary: One care plan is agreed across providers with the person and their carers, naming who does what, the neighbours and community
+    support involved and the person who coordinates the whole.
+  capabilities:
+  - joined-care-planning
+  - care-service-linking
+  - neighbour-care-and-mutual-aid-support
+  entities:
+  - care-plan
+  - mutual-aid-network
+  serves:
+  - care-planning-meeting
+  - shared-care-plan-copy
+- slug: care-at-home-and-in-the-neighbourhood
+  title: Care at Home and in the Neighbourhood
+  summary: Care is delivered at home and in the neighbourhood before an institution is considered, through home care, shared care
+    spaces in community buildings, neighbourhood childcare and homes where older people share care with neighbours.
+  capabilities:
+  - home-care-provision
+  - community-space-provision
+  entities:
+  - care-plan
+  - public-service
+  - community-centre
+  serves:
+  - home-care-visit
+  - neighbourhood-care-space
+- slug: support-for-carers
+  title: Support for Carers
+  summary: Family and neighbour carers receive relief, training, pay where the care is work and a voice in the care plan, and the
+    care they give is counted.
+  capabilities:
+  - carer-support-provision
+  - contribution-recognition
+  entities:
+  - care-plan
+  - care-map
+  serves:
+  - carer-support-session
+- slug: safe-care-transitions
+  title: Safe Care Transitions
+  summary: Handovers between services around birth, from child to adult services, on leaving hospital and at the end of life are planned
+    ahead so that no one is left without care, and families are supported through birth, death and burial.
+  capabilities:
+  - care-transition-planning
+  - joined-care-planning
+  - care-service-linking
+  entities:
+  - care-transition
+  - care-plan
+  - hospital
+  serves:
+  - care-handover-confirmation
+  - hospital-discharge-planning-meeting
+- slug: care-gap-review
+  title: Care Gap Review
+  summary: Where people fell between services, waited too long or went without care is reviewed with those who use care, carers and
+    care workers, and the network agreement and services are changed.
+  capabilities:
+  - service-use-review
+  - failure-cause-analysis
+  - care-and-isolation-mapping
+  entities:
+  - service-review-report
+  - care-network-agreement
+  serves:
+  - care-gap-review-circle
+  - care-network-table
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global

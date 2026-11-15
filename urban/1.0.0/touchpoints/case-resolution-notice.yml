@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: case-resolution-notice
+title: Case Resolution Notice
+medium: artefact
+summary: The message that tells a resident or member of staff when and how their fault or request was solved.
+exchanges:
+- fault-report-for-a-solved-matter
+journey: resident-getting-help-with-a-digital-service

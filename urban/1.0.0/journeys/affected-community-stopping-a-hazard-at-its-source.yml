@@ -1,0 +1,47 @@
+kind: journey
+slug: affected-community-stopping-a-hazard-at-its-source
+title: Affected Community Stopping a Hazard at Its Source
+stakeholder: affected-community
+summary: A community living beside a source of pollution hosts sensors and reads the results, reports the hazard and sees it inspected,
+  has the polluter ordered to stop and chooses the remedy paid for the harm, decides what cleaned-up land becomes and reviews which
+  neighbourhoods carry the heaviest burden.
+stages:
+- slug: measure-the-air
+  title: Measure the Air
+  goal: Sensors stand first in the community's streets, residents take part in measuring and the readings are published as they come
+    in.
+  step: environmental-health-protection/air-noise-and-heat-monitoring
+  touchpoints:
+  - neighbourhood-air-sensor
+  - live-environment-readings
+- slug: report-and-see-it-inspected
+  title: Report and See It Inspected
+  goal: The community's report of smoke, smells or dumping is inspected at its source, and the community is told what was found and
+    what follows.
+  step: environmental-health-protection/hazard-report-and-inspection
+  touchpoints:
+  - environmental-hazard-hotline
+  - source-inspection-visit
+- slug: have-the-hazard-stopped
+  title: Have the Hazard Stopped
+  goal: Those responsible are ordered to stop by a set date, and the money owed for the harm is spent on a remedy the community chose,
+    with independent checks.
+  step: environmental-health-protection/abatement-and-polluter-remedy
+  touchpoints:
+  - abatement-order
+  - remedy-choice-assembly
+- slug: decide-what-the-land-becomes
+  title: Decide What the Land Becomes
+  goal: Contaminated land nearby is investigated, made safe and cleaned up, and the community decides what it becomes.
+  step: environmental-health-protection/contaminated-land-clean-up
+  touchpoints:
+  - contaminated-site-walk
+  - remedy-choice-assembly
+- slug: name-the-heaviest-burden
+  title: Name the Heaviest Burden
+  goal: The yearly review shows which neighbourhoods bear the most pollution, noise and heat, and next year's actions go where the
+    burden is heaviest.
+  step: environmental-health-protection/exposure-burden-review
+  touchpoints:
+  - exposure-burden-report
+  - remedy-choice-assembly

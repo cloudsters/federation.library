@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: donation-declaration
+title: Donation Declaration
+medium: artefact
+summary: A person's documented decision on organ and tissue donation, on a card, in a register or in an advance directive, consulted
+  when donation becomes possible.
+exchanges:
+- decision-for-respectful-donation
+journey: donor-family-journey

@@ -1,0 +1,19 @@
+kind: solution
+slug: public-communication-management-system
+title: Public Communication Management System
+role: system-of-engagement
+summary: Holds every item the city releases with its date, audiences, languages and channels, publishes it once to the website, social
+  media, newsletters, notice boards and service point displays, records each media enquiry and what was given, keeps each correction
+  beside what it corrects, and holds the agreed city profile.
+carries:
+- plain-language-content-production
+- city-channel-operation
+- media-enquiry-handling
+- public-correction-issuing
+- crisis-communication
+- city-profile-drafting
+holds:
+- public-communication
+- communication-channel
+- media-enquiry
+- city-profile

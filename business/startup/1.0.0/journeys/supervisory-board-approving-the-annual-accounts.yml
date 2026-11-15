@@ -1,0 +1,28 @@
+kind: journey
+slug: supervisory-board-approving-the-annual-accounts
+title: Supervisory Board Approving the Annual Accounts
+stakeholder: supervisory-board
+summary: The supervisory board reads the closed period as a health check, hears the auditor on the audit and approves the statements
+  for filing and publication.
+stages:
+- slug: read-the-health-check
+  title: Read the Health Check
+  goal: The board understands liquidity, profitability and the stewardship of resources at period end.
+  step: transparency-reporting/period-close
+  touchpoints:
+  - management-report
+  - supervisory-board-meeting
+- slug: hear-the-auditor
+  title: Hear the Auditor
+  goal: The board hears the auditor directly on findings and their resolution.
+  step: transparency-reporting/statement-audit
+  touchpoints:
+  - supervisory-board-meeting
+  - audit-findings-letter
+- slug: approve-the-accounts
+  title: Approve the Accounts
+  goal: The board approves the statements and proposes them to the owners.
+  step: transparency-reporting/approval-and-disclosure
+  touchpoints:
+  - supervisory-board-meeting
+  - annual-report

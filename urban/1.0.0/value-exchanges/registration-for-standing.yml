@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: registration-for-standing
+title: Registration for Standing
+between:
+- market-vendor
+- city-administration
+offered:
+- The vendor's registration and a fee set so that it does not price them out.
+returned:
+- A licence and a pitch with protection from removal without due process.
+touchpoint: vendor-registration-desk

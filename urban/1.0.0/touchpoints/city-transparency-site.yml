@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: city-transparency-site
+title: City Transparency Site
+medium: channel
+summary: The public site where decisions, budgets, spending and contracts are published in plain language and formats residents can
+  search and reuse.
+exchanges:
+- reporting-for-searchable-records
+- scrutiny-for-records-public-by-default
+journey: resident-keeping-the-city-open

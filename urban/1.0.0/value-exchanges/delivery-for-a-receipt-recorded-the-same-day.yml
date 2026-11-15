@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delivery-for-a-receipt-recorded-the-same-day
+title: Delivery for a Receipt Recorded the Same Day
+between:
+- local-producer
+- municipal-employee
+offered:
+- Goods delivered as ordered.
+returned:
+- A receipt recorded on the day of delivery, so that payment is not held up.
+touchpoint: delivery-receipt-check

@@ -1,0 +1,64 @@
+kind: entity
+slug: heritage-protection
+title: Heritage Protection Order
+type: governance
+summary: The protection given to a historic building, site or landscape, with what it protects, the stories the place holds and what
+  change it allows. The heritage office of the administration designates and reviews it, and it is consulted whenever a district is
+  assessed or a protected building is to be reused.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: protected-object
+  type: text
+  card: 1..1
+- name: object-kind
+  type: code
+  card: 1..1
+- name: buildings
+  type: reference(building)
+  card: 0..*
+- name: land
+  type: reference(land-parcel)
+  card: 0..*
+- name: protected-features
+  type: text
+  card: 1..*
+- name: permitted-change
+  type: text
+  card: 0..*
+- name: place-stories
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: designated-by
+  type: reference(council-decision)
+  card: 0..1
+- name: designated-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- assessed
+- designated
+- in-force
+- varied
+- lifted
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: land-parcel
+- type: based-on
+  target: civic-memory-record
+- type: refers-to
+  target: obligation-register
+binds:
+- source: src-201
+  edition: '2011-11-10'
+  jurisdiction: global

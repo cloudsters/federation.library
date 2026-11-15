@@ -1,0 +1,58 @@
+kind: entity
+slug: municipal-fleet
+title: Municipal Fleet
+type: master
+summary: The vehicles and mobile machines the city owns or leases, with their condition, use and service history. The fleet workshop
+  keeps the record and uses it to maintain and repair them, and to check repair or passing on before any is replaced.
+attributes:
+- name: fleet-name
+  type: text
+  card: 1..1
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: vehicles-and-machines
+  type: text
+  card: 1..*
+- name: vehicle-count
+  type: integer
+  card: 0..1
+- name: ownership-kinds
+  type: code
+  card: 1..*
+- name: energy-sources
+  type: code
+  card: 0..*
+- name: condition-records
+  type: document
+  card: 0..1
+- name: service-history
+  type: document
+  card: 0..1
+- name: annual-use
+  type: quantity
+  card: 0..1
+- name: replacement-checks
+  type: document
+  card: 0..*
+- name: passed-on-items
+  type: text
+  card: 0..*
+- name: shared-pool
+  type: reference(equipment-pool)
+  card: 0..1
+states:
+- established
+- operating
+- under-review
+- renewed
+- dissolved
+relations:
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: equipment-pool
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: contract

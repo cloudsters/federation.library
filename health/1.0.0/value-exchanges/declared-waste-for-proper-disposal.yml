@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: declared-waste-for-proper-disposal
+title: Declared Waste for Proper Disposal
+between:
+- facility-engineer
+- supplier
+offered:
+- Waste separated, declared and packed by category, with consignment records and safe access for collection.
+returned:
+- Lawful collection, treatment and disposal of every consignment, with proof of the route taken and the quantities treated.
+touchpoint: waste-collection-point

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: internal-audit-visit
+title: Internal Audit Visit
+medium: encounter
+summary: The visit in which trained internal auditors examine a unit's practice, records and documents against requirements, talk
+  with staff and agree the findings with the unit's leadership.
+exchanges:
+- audit-access-for-independent-findings
+journey: department-in-the-quality-cycle

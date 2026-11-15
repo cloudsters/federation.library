@@ -1,0 +1,10 @@
+kind: body
+slug: fire-and-rescue-service
+title: Fire and Rescue Service
+summary: Responds to fires, collisions and floods, trains and alerts neighbours who give first help, and checks fire safety in the
+  homes most at risk.
+holds:
+- fire-and-rescue-operation
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,66 @@
+kind: entity
+slug: automated-system-register
+title: Automated System Register
+type: intelligence
+summary: The list of every algorithm, camera and sensor the city uses to allocate services, enforce rules or watch public space, with
+  its purpose, data, known limits and the route to challenge its decisions. The administration keeps it public, and systems that lack
+  consent or cause harm are marked halted in it.
+attributes:
+- name: system-name
+  type: text
+  card: 1..1
+- name: system-kind
+  type: code
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: operating-department
+  type: text
+  card: 1..1
+- name: supplier
+  type: text
+  card: 0..1
+- name: data-used
+  type: text
+  card: 1..*
+- name: decisions-affected
+  type: text
+  card: 0..*
+- name: known-limits
+  type: text
+  card: 0..*
+- name: consent-status
+  type: code
+  card: 1..1
+- name: impact-assessment
+  type: document
+  card: 0..1
+- name: challenge-route
+  type: text
+  card: 1..1
+- name: introduced-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- assessed
+- listed
+- in-use
+- challenged
+- suspended
+- halted
+- retired
+relations:
+- type: governed-by
+  target: disclosure-policy
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: information-request
+- type: refers-to
+  target: legal-matter
+binds:
+- source: src-169
+  edition: '2019'
+  jurisdiction: global

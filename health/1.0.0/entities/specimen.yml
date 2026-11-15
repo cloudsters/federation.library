@@ -1,0 +1,67 @@
+kind: entity
+slug: specimen
+title: Specimen
+type: transactional
+summary: A sample of material taken from a patient for examination, such as blood, tissue, swab or fluid, tracked from collection
+  through transport, receipt, processing and storage to disposal.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: specimen-identifier
+  type: identifier
+  card: 1..1
+- name: specimen-type
+  type: code
+  card: 1..1
+- name: collected-at
+  type: datetime
+  card: 1..1
+- name: collector
+  type: reference(practitioner-role)
+  card: 0..1
+- name: body-site
+  type: code
+  card: 0..1
+- name: container
+  type: code
+  card: 0..1
+- name: clinical-orders
+  type: reference(clinical-order)
+  card: 1..*
+states:
+- ordered
+- collected
+- in-transit
+- received
+- processed
+- stored
+- disposed
+- rejected
+relations:
+- type: based-on
+  target: clinical-order
+- type: produces
+  target: observation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

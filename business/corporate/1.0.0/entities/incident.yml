@@ -1,0 +1,43 @@
+kind: entity
+slug: incident
+title: Incident
+type: transactional
+summary: An unplanned disruption — a signal that something has broken and needs immediate attention. Unlike a complaint (which comes from a
+  stakeholder), an incident is detected by the system itself or its operators, and its resolution restores normal operation.
+attributes:
+- name: affected-service
+  type: reference(service)
+  card: 0..1
+- name: affected-item
+  type: reference(configuration-item)
+  card: 0..1
+- name: symptom
+  type: text
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: impact
+  type: text
+  card: 0..1
+- name: detected-at
+  type: datetime
+  card: 1..1
+states:
+- detected
+- classified
+- assigned
+- mitigated
+- resolved
+- reviewed
+relations:
+- type: refers-to
+  target: configuration-item
+- type: refers-to
+  target: service-level-agreement
+- type: produces
+  target: change-request
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

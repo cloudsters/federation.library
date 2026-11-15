@@ -1,0 +1,67 @@
+kind: entity
+slug: security-policy
+title: Information Security Policy
+type: governance
+summary: The rules and controls that protect the city's information and systems, set within its risk framework. The administration
+  sets it within the risk appetite the council has stated, and every system, identity and contract is held to its controls and audited
+  against them.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: security-objectives
+  type: text
+  card: 1..*
+- name: controls
+  type: document
+  card: 1..1
+- name: classification-scheme
+  type: code
+  card: 1..*
+- name: roles
+  type: text
+  card: 1..*
+- name: risk-appetite
+  type: code
+  card: 0..1
+- name: incident-reporting-rule
+  type: text
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- adopted
+- in-force
+- audited
+- amended
+- retired
+relations:
+- type: governed-by
+  target: obligation-register
+- type: based-on
+  target: risk-register
+- type: refers-to
+  target: application
+- type: refers-to
+  target: digital-identity
+- type: refers-to
+  target: audit-finding
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

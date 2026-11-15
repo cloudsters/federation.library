@@ -1,0 +1,48 @@
+kind: solution
+slug: financial-accounting-system
+title: Financial Accounting System
+role: system-of-record
+summary: Holds the ledger, receivables, payables, fixed assets and intercompany accounts, closes the periods, consolidates the group
+  and produces the financial statements.
+carries:
+- budgetary-control-encumbrance
+- credit-collections-as-relationship
+- deferred-revenue-expense
+- depreciation-lifecycle-management
+- dimensional-analysis-architecture
+- dunning-and-collections
+- financial-close-as-health-check
+- financial-consolidation
+- financial-reporting-as-storytelling
+- fixed-asset-accounting
+- fraud-and-dispute-management
+- general-ledger-as-system-memory
+- intercompany-transaction-management
+- invoice-matching-verification
+- ledger-integrity-architecture
+- adjustments-and-deductions
+- multi-book-accounting
+- orchestrate-accounts-receivable-ar
+- payables-as-partnership-honour
+- payment-run-orchestration
+- capital-investment-accounting
+- exchange-gain-and-loss-reporting
+- revenue-as-value-sensing
+- steward-and-process-collections
+- asset-register-management
+- external-audit-coordination
+holds:
+- account
+- journal-entry
+- accounting-period
+- cost-center
+- profit-center
+- sales-invoice
+- purchase-invoice
+- credit-note
+- debit-note
+- payment
+- dunning
+- financial-statement
+- payment-term
+- asset

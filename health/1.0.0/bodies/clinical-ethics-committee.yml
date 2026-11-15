@@ -1,0 +1,10 @@
+kind: body
+slug: clinical-ethics-committee
+title: Clinical Ethics Committee
+summary: Advises on ethically difficult treatment decisions at the bedside, offers case consultation to teams, patients and
+  relatives, and develops the commons' guidance on recurring questions such as limiting treatment.
+holds:
+- clinical-ethics-consultation
+part_of: executive-board
+type: committee
+form: governing-body

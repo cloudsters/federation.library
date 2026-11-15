@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: questions-for-prompt-correction
+title: Questions for Prompt Correction
+between:
+- employee
+- human-resources-professional
+offered:
+- Questions raised where a pay statement looks wrong.
+returned:
+- A prompt explanation and correction, at once where the error is the organisation's.
+touchpoint: pay-statement

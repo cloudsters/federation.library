@@ -1,0 +1,16 @@
+kind: solution
+slug: payroll-and-benefits-system
+title: Payroll and Benefits System
+role: system-of-record
+summary: Calculates and pays wages, deductions, taxes and contributions, administers benefits and produces payslips and the reports
+  owed to authorities and funds.
+carries:
+- benefits-administration
+- benefits-as-care-infrastructure
+- compensation-fulfilment
+- payroll-processing-as-promise
+- steward-and-process-payroll-taxes
+- tax-withholding-as-civic-duty
+holds:
+- payroll-run
+- payslip

@@ -1,0 +1,40 @@
+kind: solution
+slug: process-and-quality-management-system
+title: Process and Quality Management System
+role: system-of-record
+summary: Holds every improvement proposal from intake to close, the process maps, improvement projects and standard procedures with
+  their owners, the published service standards, and each failure report with its cause analysis and corrective actions, and tracks
+  waiting, error and workload over time.
+carries:
+- improvement-opportunity-intake
+- process-mapping-with-frontline-staff
+- process-redesign
+- standard-procedure-writing
+- improvement-pilot-running
+- process-performance-review
+- service-standard-setting
+- in-service-quality-checking
+- service-failure-reporting
+- open-disclosure-of-service-failures
+- failure-cause-analysis
+- corrective-action-tracking
+- service-quality-review
+- service-co-design
+- service-journey-mapping
+- service-use-review
+- service-closure-planning
+- resident-access-audit
+holds:
+- improvement-opportunity
+- process-map
+- improvement-project
+- standard-procedure
+- service-standard
+- service-failure-report
+- cause-analysis-report
+- corrective-action
+- service-proposal
+- service-concept
+- service-journey-map
+- service-review-report
+- access-audit

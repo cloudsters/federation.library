@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: process-performance-board
+title: Process Performance Board
+medium: artefact
+summary: The board, on the wall and online, on which a process shows its waiting, error and workload over time, discussed regularly
+  with the staff who run it.
+exchanges:
+- workload-reports-for-held-gains
+journey: frontline-worker-improving-the-process-they-run

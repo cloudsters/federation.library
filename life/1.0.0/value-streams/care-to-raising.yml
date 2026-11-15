@@ -1,0 +1,89 @@
+kind: value-stream
+slug: care-to-raising
+title: Raising Someone into Themselves
+family: participant-to-community
+summary: Raising someone into themselves rather than into a plan — and carrying the weight of care without being spent by it. The
+  only value stream in a life whose output is another person's mandate.
+trigger: A child arrives, or reaches an age that asks for something different, or caring for someone has begun to leave nothing over
+  for the one who cares.
+outcome: The one being raised is becoming able to stand without the person, and the care is carried in a way the carer can keep up
+  without being spent.
+stakeholders:
+- child
+- dependant
+- partner
+- parent
+- practitioner
+- community
+steps:
+- slug: taking-on-the-care
+  title: Taking On the Care
+  summary: A child arrives, or someone close comes to need care, and the person's days reorganise around another's needs.
+  capabilities:
+  - taking-up-care
+  entities:
+  - birth
+  - child-relation
+  - dependant-relation
+  - care-episode
+  serves:
+  - at-the-bedside
+  - daily-round-of-care
+- slug: seeing-who-they-are
+  title: Seeing Who They Are
+  summary: Watching the one being raised or cared for closely enough to see who they are becoming, rather than who they were planned
+    to be.
+  capabilities:
+  - seeing-someone-as-themselves
+  entities:
+  - child-relation
+  - dependant-relation
+  serves:
+  - daily-round-of-care
+- slug: agreeing-how-to-raise
+  title: Agreeing How to Raise
+  summary: Those raising the child agree on what matters, where they differ, and what happens when they do, whether or not they share
+    a home.
+  capabilities:
+  - making-terms-explicit
+  - raising-a-hard-subject-calmly
+  entities:
+  - parenting-agreement
+  - partner-relation
+  - child-relation
+  serves:
+  - kitchen-table
+- slug: meeting-ones-own-upbringing
+  title: Meeting One's Own Upbringing
+  summary: Noticing when the way one was raised reaches through into how one is raising, and choosing what to pass on and what to
+    stop.
+  capabilities:
+  - recognising-inherited-patterns
+  entities:
+  - premise
+  - parent-relation
+  - pattern-log
+- slug: stepping-back-by-degrees
+  title: Stepping Back by Degrees
+  summary: Handing over decisions, tasks and risks as the one being raised can carry them, so they learn to stand without the person.
+  capabilities:
+  - stepping-back-as-others-grow
+  entities:
+  - child-relation
+  - decision
+  serves:
+  - daily-round-of-care
+- slug: caring-for-the-carer
+  title: Caring for the Carer
+  summary: Noticing when care leaves nothing over, and arranging help, rest and relief before the one who cares is spent.
+  capabilities:
+  - noticing-ones-own-depletion
+  - letting-others-help
+  entities:
+  - care-episode
+  - recovery-period
+  - strain-indicator
+  - community-relation
+  serves:
+  - care-rota
+  - help-at-the-door

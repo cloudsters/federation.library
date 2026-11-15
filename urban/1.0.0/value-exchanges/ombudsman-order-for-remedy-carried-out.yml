@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: ombudsman-order-for-remedy-carried-out
+title: Ombudsman Order for Remedy Carried Out
+between:
+- ombudsman
+- city-administration
+offered:
+- A reasoned order for remedy with the time to carry it out.
+returned:
+- The remedy carried out and reported back within that time.
+touchpoint: ombudsman-remedy-order

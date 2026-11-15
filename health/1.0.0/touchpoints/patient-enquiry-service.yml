@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: patient-enquiry-service
+title: Patient Enquiry Service
+medium: channel
+summary: The telephone, e-mail and chat service, staffed by people and assisted by an agent, through which prospective patients, returning
+  patients and relatives ask questions and are guided to the right service.
+exchanges:
+- answer-and-route-for-trust
+- agent-answer-for-context
+journey: search-for-expertise

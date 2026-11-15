@@ -1,0 +1,41 @@
+kind: journey
+slug: learning-to-work-as-one-team
+title: Learning to Work as One Team
+stakeholder: health-professions-student
+summary: The learner's path through interprofessional learning, from joining a mixed team to caring for patients together on a training
+  ward.
+stages:
+- slug: joining-a-mixed-team
+  title: Joining a Mixed Team
+  goal: Know one's team, its members' professions and what is expected of each.
+  step: interprofessional-education/cohort-formation
+  touchpoints:
+  - education-office
+  - learning-platform
+- slug: learning-together
+  title: Learning Together
+  goal: Work through cases and emergencies with learners of other professions and understand their reasoning.
+  step: interprofessional-education/joint-learning-sessions
+  touchpoints:
+  - simulation-centre
+  - learning-debriefing
+- slug: caring-together
+  title: Caring Together
+  goal: Care for real patients as a team, with one's own profession's responsibility and support from supervisors.
+  step: interprofessional-education/training-ward-practice
+  touchpoints:
+  - interprofessional-training-ward
+  - ward-round
+  - shift-handover
+- slug: reflecting-on-teamwork
+  title: Reflecting on Teamwork
+  goal: Understand what made the team work or fail, and what to do differently.
+  step: interprofessional-education/reflection-and-assessment
+  touchpoints:
+  - learning-debriefing
+- slug: evaluating-the-module
+  title: Evaluating the Module
+  goal: Have one's experience of the module shape the next cohort's.
+  step: interprofessional-education/evaluation
+  touchpoints:
+  - teaching-evaluation-survey

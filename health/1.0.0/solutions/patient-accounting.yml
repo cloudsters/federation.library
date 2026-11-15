@@ -1,0 +1,43 @@
+kind: solution
+slug: patient-accounting
+title: Patient Accounting
+role: system-of-record
+summary: 'Turns care into revenue: coverage checks and approvals, charge capture, clinical coding and case grouping, claims to payers,
+  payer reviews and denials, self-pay pricing and the agreements with payers.'
+carries:
+- insurance-verification-and-coverage
+- charge-capture
+- clinical-coding
+- coding-quality-audit
+- clinical-documentation-integrity
+- payer-invoicing
+- payer-review-management
+- denial-and-underpayment-recovery
+- denial-reporting
+- accounts-receivable
+- adjustments-and-deductions
+- tariff-and-price-management
+- supplementary-payment-management
+- optional-and-self-pay-services
+- outpatient-and-day-case-billing
+- payer-budget-negotiation
+holds:
+- payer-organisation
+- coverage-approval
+- payer-agreement
+- case-group
+- coding-rule
+- charge-item
+- claim
+- claim-review
+- price-list
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

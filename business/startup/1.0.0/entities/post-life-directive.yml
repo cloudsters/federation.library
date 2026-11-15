@@ -1,0 +1,34 @@
+kind: entity
+slug: post-life-directive
+title: Post-Life Directive
+type: transactional
+summary: Pre-death governance instructions for ongoing commons membership — which memberships continue, on what terms, for how long,
+  with what modification rights for the living community. Time-bounded, contestable, and subject to periodic commons review.
+attributes:
+- name: participant
+  type: reference(stakeholder)
+  card: 1..1
+- name: targets
+  type: text
+  card: 1..*
+- name: instructions
+  type: code
+  card: 1..*
+- name: expiry
+  type: quantity
+  card: 0..1
+- name: contest-parties
+  type: reference(stakeholder)
+  card: 0..*
+states:
+- encoded
+- dormant
+- death-verified
+- activated
+- executed
+- reviewed
+- contested
+- sunset
+relations:
+- type: refers-to
+  target: stakeholder

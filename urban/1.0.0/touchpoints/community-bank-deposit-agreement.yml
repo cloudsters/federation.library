@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: community-bank-deposit-agreement
+title: Community Bank Deposit Agreement
+medium: artefact
+summary: The agreement under which the city places deposits and surplus cash with a public or community bank that lends in the city
+  and reports that lending each year.
+exchanges:
+- deposits-for-local-lending
+journey: finance-officer-keeping-the-city-able-to-pay

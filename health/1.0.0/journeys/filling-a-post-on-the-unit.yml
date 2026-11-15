@@ -1,0 +1,40 @@
+kind: journey
+slug: filling-a-post-on-the-unit
+title: Filling a Post on the Unit
+stakeholder: unit-manager
+summary: The unit manager turns an approved post into a colleague who works safely and independently, with as little time as possible
+  between the vacancy and full contribution.
+stages:
+- slug: request-the-post
+  title: Request the Post
+  goal: Have an approved post released quickly, with requirements that reflect the unit's real needs.
+  step: recruitment-and-onboarding/position-requisition
+  touchpoints:
+  - hr-self-service
+  - workforce-plan
+- slug: reach-candidates
+  title: Reach Candidates
+  goal: Reach enough suitable candidates, including those not actively looking.
+  step: recruitment-and-onboarding/attraction-and-sourcing
+  touchpoints:
+  - job-advertisement
+  - careers-portal
+- slug: select-the-candidate
+  title: Select the Candidate
+  goal: Choose the best candidate through a fair, structured and timely selection.
+  step: recruitment-and-onboarding/screening-and-selection
+  touchpoints:
+  - job-interview
+- slug: welcome-the-newcomer
+  title: Welcome the Newcomer
+  goal: Give the newcomer a mentor, a planned induction and a first roster that leaves room to learn.
+  step: recruitment-and-onboarding/orientation-and-induction
+  touchpoints:
+  - unit-induction
+  - duty-roster
+- slug: confirm-competence
+  title: Confirm Competence
+  goal: Confirm that the newcomer is competent and close the probation with a clear decision.
+  step: recruitment-and-onboarding/clearance-for-independent-work
+  touchpoints:
+  - appraisal-meeting

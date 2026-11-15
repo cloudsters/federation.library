@@ -1,0 +1,59 @@
+kind: journey
+slug: administration-involving-residents-in-a-decision
+title: Administration Involving Residents in a Decision
+stakeholder: city-administration
+summary: The administration agrees in advance what residents will decide and shape, reaches those who seldom take part, removes the
+  barriers to taking part, holds a deliberation that makes disagreement visible, reports back what changed and reviews the practice
+  with residents.
+stages:
+- slug: agree-what-residents-decide
+  title: Agree What Residents Decide
+  goal: Before the process opens, the council, the administration and the communities affected have agreed what residents will decide,
+    what they will shape and what is reserved, with the budget, staff and the two or three points where their input weighs most.
+  step: resident-involvement-and-deliberation/involvement-planning
+  touchpoints:
+  - involvement-plan-workshop
+  - published-involvement-plan
+- slug: reach-those-seldom-heard
+  title: Reach Those Seldom Heard
+  goal: Community workers have met residents where they already gather, an assembly has been drawn by lot against representation targets,
+    and those who declined have been asked why.
+  step: resident-involvement-and-deliberation/outreach-and-recruitment
+  touchpoints:
+  - outreach-in-gathering-places
+  - assembly-invitation-letter
+  - decline-reason-follow-up
+- slug: remove-the-barriers
+  title: Remove the Barriers
+  goal: Every participant has the interpretation, childcare, travel, step-free access and plain-language material they asked for,
+    and is paid for their time.
+  step: resident-involvement-and-deliberation/access-and-preparation
+  touchpoints:
+  - access-needs-request
+  - plain-language-briefing-pack
+  - participant-payment
+- slug: hold-the-deliberation
+  title: Hold the Deliberation
+  goal: Residents, officials and experts have weighed the evidence and the options, the conflicting interests are visible, and the
+    groups most affected have had their calibrated say.
+  step: resident-involvement-and-deliberation/deliberation-and-co-design
+  touchpoints:
+  - interest-mapping-session
+  - deliberation-session
+  - affected-group-consent-round
+- slug: report-back-what-changed
+  title: Report Back What Changed
+  goal: Participants have heard what the council decided, why a proposal was not taken up and where each proposal went, with dissent
+    recorded next to the decision.
+  step: resident-involvement-and-deliberation/response-and-influence
+  touchpoints:
+  - what-we-heard-report
+  - report-back-meeting
+  - proposal-trace-page
+- slug: review-the-practice
+  title: Review the Practice
+  goal: Who took part and who did not, the burden placed on participants and the difference their input made are reviewed with residents,
+    and the participation charter and practice are adjusted.
+  step: resident-involvement-and-deliberation/participation-review
+  touchpoints:
+  - participation-review-circle

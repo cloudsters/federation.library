@@ -1,0 +1,38 @@
+kind: journey
+slug: young-person-meeting-across-generations
+title: Young Person Meeting Across Generations
+stakeholder: young-people
+summary: A young resident joins a programme with older residents, shares a place built for all ages, works through disagreement with
+  residents of other backgrounds, hears competing histories of a place side by side and says whether relations improved.
+stages:
+- slug: join-a-programme-with-elders
+  title: Join a Programme With Elders
+  goal: The young person learns from and helps older residents in a mentoring, learning or care exchange.
+  step: community-relations-and-cohesion/intergenerational-programmes
+  touchpoints:
+  - intergenerational-programme-session
+- slug: share-a-place-across-ages
+  title: Share a Place Across Ages
+  goal: The young person meets older residents in a playground, square or market built for all ages.
+  step: community-relations-and-cohesion/intergenerational-programmes
+  touchpoints:
+  - all-ages-play-and-rest-space
+- slug: work-through-disagreement
+  title: Work Through Disagreement
+  goal: The young person has worked through a real disagreement with residents of other origins and incomes in a facilitated gathering.
+  step: community-relations-and-cohesion/encounter-across-difference
+  touchpoints:
+  - facilitated-dialogue-gathering
+- slug: hear-competing-histories
+  title: Hear Competing Histories
+  goal: The young person has heard the competing histories of a place presented side by side, without being told which one is true.
+  step: community-relations-and-cohesion/contested-history-dialogue
+  touchpoints:
+  - contested-history-forum
+  - side-by-side-history-display
+- slug: say-whether-relations-improved
+  title: Say Whether Relations Improved
+  goal: The young person has told the review whether relations among young people of different backgrounds improved.
+  step: community-relations-and-cohesion/cohesion-review
+  touchpoints:
+  - cohesion-review-meeting

@@ -1,0 +1,10 @@
+kind: capability
+slug: federated-analysis
+title: Federated Analysis
+level: L3
+parent: research-data-services
+summary: Run analyses across institutions without moving patient-level data.
+binds:
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

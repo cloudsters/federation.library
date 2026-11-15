@@ -1,0 +1,47 @@
+kind: entity
+slug: involvement-activity
+title: Involvement Activity
+type: transactional
+summary: A defined occasion on which patients, relatives or the public shape a decision, service or study, such as a patient council
+  consultation, a co-design workshop or a review of study material, recorded with the question, the participants, the advice and the
+  response.
+attributes:
+- name: question
+  type: text
+  card: 1..1
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: involvement-level
+  type: code
+  card: 1..1
+- name: participants
+  type: reference(voluntary-engagement)
+  card: 0..*
+- name: organising-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: held-on
+  type: date
+  card: 0..1
+- name: advice
+  type: document
+  card: 0..1
+- name: response
+  type: document
+  card: 0..1
+states:
+- planned
+- held
+- advice-recorded
+- response-given
+- closed
+relations:
+- type: refers-to
+  target: governance-decision
+- type: produces
+  target: improvement-initiative
+binds:
+- source: src-511
+  edition: '2017'
+  jurisdiction: global

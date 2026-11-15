@@ -1,0 +1,59 @@
+kind: entity
+slug: health-issue
+title: Health Issue
+type: transactional
+summary: A health problem, condition or risk of a patient that care is directed at, held on the patient's problem list across encounters
+  until resolved. It is the thread that links diagnoses, plans and outcomes over time.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: code
+  type: code
+  card: 1..1
+- name: severity
+  type: code
+  card: 0..1
+- name: body-site
+  type: code
+  card: 0..*
+- name: onset
+  type: date
+  card: 0..1
+- name: asserted-by
+  type: reference(practitioner-role)
+  card: 0..1
+states:
+- suspected
+- active
+- in-remission
+- resolved
+- refuted
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global

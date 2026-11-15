@@ -1,0 +1,12 @@
+kind: body
+slug: medicines-committee
+title: Medicines Committee
+summary: 'Decides which medicines the commons uses and how: keeps the formulary by weighing evidence, safety and cost, steers the
+  medication safety programme and sets antimicrobial stewardship policy.'
+holds:
+- formulary-management
+- medication-safety-programme
+- antimicrobial-stewardship
+part_of: executive-board
+type: committee
+form: governing-body

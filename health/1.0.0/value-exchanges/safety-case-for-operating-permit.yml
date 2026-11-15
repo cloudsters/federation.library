@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: safety-case-for-operating-permit
+title: Safety Case for Operating Permit
+between:
+- clinical-engineer
+- health-regulator
+offered:
+- A complete application for regulated equipment with its shielding and safety design, its qualified staff and its quality
+  assurance programme.
+returned:
+- A permit to operate with clear conditions, and inspections that confirm the equipment protects patients, staff and the public.
+touchpoint: inspection-and-audit

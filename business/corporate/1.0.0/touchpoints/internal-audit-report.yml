@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: internal-audit-report
+title: Internal Audit Report
+medium: artefact
+summary: The report of an internal audit with findings, their causes, agreed measures, owners and dates, written as a diagnosis rather
+  than an accusation.
+exchanges:
+- open-access-for-a-caring-diagnosis
+- control-assurance-for-oversight
+journey: compliance-professional-auditing-internal-controls

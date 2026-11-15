@@ -1,0 +1,42 @@
+kind: entity
+slug: outbreak
+title: Outbreak
+type: transactional
+summary: A cluster of infections or colonisations linked in time, place and organism, managed by infection control through investigation,
+  containment measures and the declaration of its end.
+attributes:
+- name: organism
+  type: code
+  card: 1..1
+- name: affected-units
+  type: reference(organisation-unit)
+  card: 1..*
+- name: detected-on
+  type: date
+  card: 1..1
+- name: cases
+  type: reference(healthcare-associated-infection)
+  card: 1..*
+- name: measures
+  type: text
+  card: 1..*
+- name: notified-authority
+  type: reference(organisation)
+  card: 0..1
+- name: ended-on
+  type: date
+  card: 0..1
+states:
+- suspected
+- confirmed
+- contained
+- ended
+relations:
+- type: composed-of
+  target: healthcare-associated-infection
+- type: governed-by
+  target: emergency-preparedness-plan
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

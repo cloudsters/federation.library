@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: outpatient-clinic
+title: Outpatient Clinic
+medium: place
+summary: A specialised clinic where referred patients are seen by appointment for consultation, diagnostics and follow-up without
+  an overnight stay, and where many referral relationships are formed.
+exchanges:
+- prepared-visit-for-a-clear-plan
+- adherence-for-lifelong-follow-up
+- continuity-for-early-signals
+- care-close-to-home
+- screening-participation
+journey: building-a-new-clinical-service

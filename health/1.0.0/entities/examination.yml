@@ -1,0 +1,49 @@
+kind: entity
+slug: examination
+title: Examination
+type: transactional
+summary: A formal, high-stakes examination that decides on progression or qualification, such as a state examination or a specialty
+  examination, with its candidate, examiners, result and appeal.
+attributes:
+- name: examination-kind
+  type: code
+  card: 1..1
+- name: learner-record
+  type: reference(learner-record)
+  card: 1..1
+- name: examining-body
+  type: reference(organisation)
+  card: 1..1
+- name: examiners
+  type: reference(employee)
+  card: 0..*
+- name: held-on
+  type: date
+  card: 1..1
+- name: result
+  type: code
+  card: 0..1
+- name: grade
+  type: text
+  card: 0..1
+- name: appeal-lodged
+  type: boolean
+  card: 0..1
+states:
+- registered
+- admitted
+- held
+- passed
+- failed
+- appealed
+relations:
+- type: part-of
+  target: learner-record
+- type: produces
+  target: licence-to-practise
+- type: produces
+  target: specialty-certification
+binds:
+- source: src-424
+  edition: '3.0'
+  jurisdiction: global

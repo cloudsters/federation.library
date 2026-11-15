@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: insight-report
+title: Insight Report
+medium: artefact
+summary: The summary and visualisation of findings for decision-makers, with the actions they suggest and a record of the decision
+  taken on them.
+exchanges:
+- insight-for-a-recorded-decision
+journey: analyst-building-trusted-insight

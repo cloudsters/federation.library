@@ -1,0 +1,60 @@
+kind: entity
+slug: clinical-guideline
+title: Clinical Guideline
+type: governance
+summary: An evidence-based recommendation for the diagnosis or treatment of a condition, issued by a professional body or adopted
+  locally, with its evidence grade and validity, on which pathways and orders rest.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: topic
+  type: code
+  card: 1..1
+- name: issuing-body
+  type: reference(organisation)
+  card: 1..1
+- name: evidence-level
+  type: code
+  card: 0..1
+- name: recommendations
+  type: document
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+- name: local-adoption
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- in-development
+- published
+- adopted
+- under-revision
+- expired
+relations: []
+binds:
+- source: src-030
+  edition: 2.0.0
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-031
+  edition: '2021'
+  jurisdiction: global
+- source: src-411
+  edition: CDS-2.0.1
+  jurisdiction: global
+- source: src-462
+  edition: '2013'
+  jurisdiction: global

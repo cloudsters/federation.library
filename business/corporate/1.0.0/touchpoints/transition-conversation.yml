@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transition-conversation
+title: Transition Conversation
+medium: encounter
+summary: The conversation in which a promotion, move, resignation or retirement is discussed and agreed, with criteria, date and form
+  made clear.
+exchanges:
+- notice-for-an-orderly-handover
+journey: employee-moving-on-with-dignity

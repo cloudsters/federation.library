@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fair-plan-for-reliable-availability
+title: Fair Plan for Reliable Availability
+between:
+- operations-planning-agent
+- field-service-technician
+offered:
+- Rosters and day plans matched to skill, location and parts, with travel minimised and load shared fairly.
+returned:
+- Availability as rostered, status updates through the day and confirmation of each completed job.
+touchpoint: duty-roster

@@ -1,0 +1,75 @@
+kind: entity
+slug: culture-plan
+title: Culture Plan
+type: governance
+summary: The agreed plan for what the city funds in culture, the spaces it keeps and how residents take part in making culture as
+  well as attending it. The administration agrees it with artists, cultural organisations and neighbourhoods and the council adopts
+  it, and grants, workspaces and venue support are decided under it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: plan-period
+  type: period
+  card: 1..1
+- name: aims
+  type: text
+  card: 1..*
+- name: funded-areas
+  type: text
+  card: 1..*
+- name: total-funding
+  type: amount
+  card: 0..1
+- name: kept-spaces
+  type: reference(cultural-venue|creative-workspace)
+  card: 0..*
+- name: participation-commitments
+  type: text
+  card: 1..*
+- name: grant-criteria
+  type: text
+  card: 0..*
+- name: independence-safeguards
+  type: text
+  card: 0..*
+- name: agreed-with
+  type: text
+  card: 1..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- revised
+- retired
+relations:
+- type: based-on
+  target: community-asset-map
+- type: based-on
+  target: equity-impact-assessment
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: cultural-venue
+- type: refers-to
+  target: creative-workspace
+- type: produces
+  target: community-grant
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-262
+  edition: '1976-11-26'
+  jurisdiction: global
+- source: src-263
+  edition: '1980-10-27'
+  jurisdiction: global

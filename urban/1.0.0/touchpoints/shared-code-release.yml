@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shared-code-release
+title: Shared Code Release
+medium: artefact
+summary: The release of the code of an automation under open licence, with its documentation and an honest note of what worked and
+  what failed, for peer cities to reuse.
+exchanges:
+- code-reuse-for-shared-improvements
+journey: frontline-worker-improving-the-process-they-run

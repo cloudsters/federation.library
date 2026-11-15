@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: order-confirmation
+title: Order Confirmation
+medium: artefact
+summary: The company's confirmation of a customer order with items, quantities, prices and delivery date, which becomes the reference
+  for delivery and invoicing.
+exchanges:
+- agreed-formats-for-seamless-orders
+- goods-for-payment
+- reliable-promise-for-planning-trust
+- smooth-handover-for-a-successful-start
+- working-shop-for-completed-orders
+journey: customer-connecting-for-electronic-ordering

@@ -1,0 +1,13 @@
+kind: solution
+slug: payroll-system
+title: Payroll System
+role: system-of-record
+summary: Holds the pay scale with its grades, calculates pay, allowances, taxes and contributions each period, issues payslips, posts
+  the payroll to the accounts and settles final pay when a person leaves.
+carries:
+- payroll-processing
+- exit-and-claims-settlement
+holds:
+- pay-scale
+- payroll-run
+- exit-settlement

@@ -1,0 +1,14 @@
+kind: body
+slug: charter-and-rules-committee
+title: Charter and Rules Committee
+summary: Prepares the council's decisions on the charter, the boundary, the rules of procedure, voting methods and the decision map,
+  and reviews them on a fixed cycle.
+holds:
+- charter-and-civic-identity
+- rule-review
+- decision-rights-allocation
+- voting-method-design
+- power-mapping
+part_of: full-council
+type: committee
+form: governing-body

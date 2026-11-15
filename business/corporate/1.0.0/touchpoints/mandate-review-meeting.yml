@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mandate-review-meeting
+title: Mandate Review Meeting
+medium: encounter
+summary: The meeting at a fixed cadence in which people review escalations and the outcomes of agent exchanges and renew, adjust or
+  withdraw mandates.
+exchanges:
+- outcomes-for-a-renewed-mandate
+journey: buyer-mandating-an-agent-to-source-in-the-network

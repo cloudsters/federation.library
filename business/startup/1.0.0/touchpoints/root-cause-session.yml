@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: root-cause-session
+title: Root Cause Session
+medium: encounter
+summary: The working session in which the people involved trace a significant non-conformance to its root causes and agree corrective
+  and preventive actions.
+exchanges:
+- blame-free-reports-for-removed-causes
+journey: operator-building-quality-into-the-work

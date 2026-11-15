@@ -1,0 +1,41 @@
+kind: entity
+slug: recruitment-application
+title: Recruitment Application
+type: transactional
+summary: The moment someone raises their hand — a candidate’s application for a specific position, with its own pipeline of stages
+  from applied through screening, interview, and decision. The application is the transactional link between a person (candidate)
+  and an opportunity (position).
+attributes:
+- name: candidate
+  type: reference(candidate)
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: resume
+  type: document
+  card: 0..1
+- name: stage
+  type: code
+  card: 1..1
+- name: evaluations
+  type: text
+  card: 0..*
+- name: decision
+  type: code
+  card: 0..1
+states:
+- applied
+- screened
+- interviewed
+- evaluated
+- offered
+- hired
+- rejected
+relations:
+- type: refers-to
+  target: candidate
+- type: refers-to
+  target: position
+- type: produces
+  target: employee-record

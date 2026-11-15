@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: correct-entry-for-reliable-records
+title: Correct Entry for Reliable Records
+between:
+- employee
+- finance-professional
+offered:
+- Complete and correct requests for new and changed master data.
+returned:
+- Records created or corrected quickly, so that orders, invoices and reports rest on the same truth.
+touchpoint: master-data-request

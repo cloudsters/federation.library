@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: footprint-dashboard
+title: Footprint Dashboard
+medium: channel
+summary: The dashboard that shows energy, emissions, water and waste per site and unit against targets, refreshed from metering, procurement
+  and waste data.
+exchanges:
+- reduced-load-for-living-systems
+- low-emission-anaesthesia-for-shared-targets
+journey: load-measured-and-reduced

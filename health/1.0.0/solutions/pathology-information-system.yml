@@ -1,0 +1,30 @@
+kind: solution
+slug: pathology-information-system
+title: Pathology Information System
+role: system-of-record
+summary: Manages tissue and cell diagnostics from specimen receipt and grossing through histology, immunohistochemistry, molecular
+  pathology and frozen sections to the signed report, including autopsies and digital slide work.
+carries:
+- specimen-handling-and-grossing
+- histology-and-cytology-reporting
+- intraoperative-frozen-section
+- immunohistochemistry
+- molecular-pathology
+- companion-diagnostics
+- digital-pathology
+- autopsy-services
+- molecular-tumour-board
+- genetic-diagnostics
+holds:
+- specimen
+- diagnostic-report
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

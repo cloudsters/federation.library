@@ -1,0 +1,10 @@
+kind: capability
+slug: contrast-agent-safety
+title: Contrast Agent Safety
+level: L3
+parent: imaging-safety
+summary: Prevent and manage contrast reactions and contrast-associated kidney injury.
+binds:
+- source: src-551
+  edition: '2026'
+  jurisdiction: global

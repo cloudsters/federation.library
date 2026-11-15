@@ -1,0 +1,122 @@
+kind: value-stream
+slug: apprenticeships-and-skills-transmission
+title: Apprenticeships and Skills Transmission
+family: contributor-to-succession
+summary: Bringing the next generation into the work that keeps the city running, and keeping skills alive from one generation to the
+  next. It holds a shared apprenticeship pool funded by the city, employers and anchor institutions, standards set by those who practise
+  a trade, apprentices who learn in real work and rotate through several mentors, elders and master craftspeople paid to teach what
+  they know, and credentials that practitioners and neighbours recognise.
+trigger: The workforce plan shows a skill gap, a trade or craft is at risk of being lost as its practitioners age, or young people
+  and residents out of work ask for a paid path into work.
+outcome: Apprentices complete their path with a recognised credential and move into a paid role or a cooperative, and the mentors
+  who taught them are paid and recognised.
+stakeholders:
+- apprentice
+- mentor
+- young-people
+- older-resident
+- training-provider
+- local-business
+- trade-union
+- city-administration
+steps:
+- slug: apprenticeship-pool-set-up
+  title: Apprenticeship Pool Set-Up
+  summary: The city, employers, trade unions, training providers and anchor institutions set up a shared apprenticeship pool, funded
+    by a training levy, procurement requirements and maintenance budgets, that pays apprentices a living stipend and mentors for their
+    teaching time.
+  capabilities:
+  - apprenticeship-pool-funding
+  - fair-work-clause-drafting
+  - anchor-institution-agreement-drafting
+  entities:
+  - apprenticeship-pool
+  - procurement-policy
+  - anchor-institution-agreement
+  serves:
+  - apprenticeship-pool-agreement
+  - apprenticeship-pool-board-meeting
+- slug: competency-standards
+  title: Competency Standards
+  summary: A council of experienced practitioners sets for each trade what must be learned, how competence is shown and how apprentices
+    rotate between mentors, and recognises the informal family apprenticeships already under way.
+  capabilities:
+  - competency-standard-setting
+  - community-credential-issuing
+  entities:
+  - competency-standard
+  serves:
+  - trade-competency-guide
+  - trade-practitioners-circle
+- slug: apprentice-intake
+  title: Apprentice Intake
+  summary: Young people, residents out of work and newcomers are reached and admitted, with the skills they already hold recognised
+    and with places set around their care duties, travel and income.
+  capabilities:
+  - recruitment-outreach
+  - prior-skills-recognition
+  - apprenticeship-placement
+  entities:
+  - apprenticeship
+  - skill-recognition
+  serves:
+  - apprenticeship-open-day
+- slug: mentor-pairing
+  title: Mentor Pairing
+  summary: Each apprentice is paired for an extended period with a mentor, an experienced worker, a master craftsperson or an elder,
+    who is paid from the pool for the time spent teaching.
+  capabilities:
+  - mentor-matching
+  - apprenticeship-pool-funding
+  entities:
+  - mentoring-relationship
+  - apprenticeship
+  serves:
+  - mentor-apprentice-agreement
+- slug: learning-in-real-work
+  title: Learning in Real Work
+  summary: Apprentices learn by doing the city's real work, maintaining homes, parks, trees, streams and networks, with responsibility
+    growing stage by stage and rotation through several mentors and workplaces.
+  capabilities:
+  - apprenticeship-placement
+  - mentor-matching
+  - community-of-practice-support
+  entities:
+  - apprenticeship
+  - infrastructure-repair
+  - park
+  serves:
+  - apprentice-work-site
+- slug: progression-review
+  title: Progression Review
+  summary: At each stage the apprentice and the mentors review progress against the standard, the next stage opens on demonstrated
+    competence, and the stipend rises on a published wage ladder.
+  capabilities:
+  - apprentice-progression-review
+  - pay-scale-design
+  entities:
+  - apprenticeship
+  - competency-standard
+  serves:
+  - progression-review-meeting
+  - published-wage-ladder
+  - trade-competency-guide
+- slug: credential-and-placement
+  title: Credential and Placement
+  summary: Apprentices who complete receive a credential that practitioners recognise and that travels between employers, and move
+    into a paid role, into membership of a worker cooperative, or into mentoring the next cohort.
+  capabilities:
+  - community-credential-issuing
+  - job-matching
+  - worker-cooperative-formation-support
+  entities:
+  - skill-recognition
+  - employment-pathway
+  - apprenticeship
+  serves:
+  - credential-ceremony
+  - portable-trade-credential
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

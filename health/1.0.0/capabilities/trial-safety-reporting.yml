@@ -1,0 +1,16 @@
+kind: capability
+slug: trial-safety-reporting
+title: Trial Safety Reporting
+level: L3
+parent: clinical-trials
+summary: Capture, assess and report adverse events in trials within required timelines.
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-421
+  edition: '29.1'
+  jurisdiction: global
+- source: src-556
+  edition: '1994'
+  jurisdiction: global

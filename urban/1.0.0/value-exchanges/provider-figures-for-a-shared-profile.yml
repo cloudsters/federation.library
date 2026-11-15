@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: provider-figures-for-a-shared-profile
+title: Provider Figures for a Shared Profile
+between:
+- health-and-care-provider
+- city-administration
+offered:
+- Figures on illness and use of care by neighbourhood, without names.
+returned:
+- A profile that shows where providers and the city must act together.
+touchpoint: health-profile-workshop

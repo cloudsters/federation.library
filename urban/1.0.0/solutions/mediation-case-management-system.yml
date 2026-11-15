@@ -1,0 +1,19 @@
+kind: solution
+slug: mediation-case-management-system
+title: Mediation Case Management System
+role: system-of-record
+summary: Holds the mediation steps, the roster of mediators, each dispute case from intake through mediation or circle to agreement
+  or referral, the agreements and their follow-up, and the dispute pattern reports without names.
+carries:
+- mediation-protocol-drafting
+- community-mediator-training
+- dispute-intake-and-triage
+- resolution-agreement-recording
+- formal-route-referral
+- dispute-pattern-analysis
+holds:
+- mediation-protocol
+- mediator-roster
+- dispute-case
+- resolution-agreement
+- dispute-pattern-report

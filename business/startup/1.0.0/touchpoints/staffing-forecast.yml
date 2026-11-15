@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: staffing-forecast
+title: Staffing Forecast
+medium: artefact
+summary: The forecast of workload and of the number and skills of staff each unit and shift needs for the roster period.
+exchanges:
+- staffing-proposals-for-human-approval
+journey: shift-supervisor-keeping-every-shift-staffed

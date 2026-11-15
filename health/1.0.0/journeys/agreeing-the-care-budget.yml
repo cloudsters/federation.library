@@ -1,0 +1,32 @@
+kind: journey
+slug: agreeing-the-care-budget
+title: Agreeing the Care Budget
+stakeholder: payer
+summary: The payer's path through a budget period, from receiving the commons' evidence to settling over- and under-delivery at its
+  end.
+stages:
+- slug: examine-the-evidence
+  title: Examine the Evidence
+  goal: The commons' planned volumes, costs and supplement claims arrive in time and in a form that can be checked.
+  step: payer-contracting-and-budget-negotiation/negotiation-evidence-preparation
+  touchpoints:
+  - negotiation-documentation
+- slug: negotiate-terms
+  title: Negotiate Terms
+  goal: Volumes, prices and budget are agreed that secure care for the insured population at a justified cost.
+  step: payer-contracting-and-budget-negotiation/negotiation-with-payers
+  touchpoints:
+  - payer-negotiation
+- slug: conclude-or-arbitrate
+  title: Conclude or Arbitrate
+  goal: The agreement is signed, or the disputed points are decided by the arbitration body.
+  step: payer-contracting-and-budget-negotiation/agreement-and-arbitration
+  touchpoints:
+  - payer-negotiation
+  - arbitration-hearing
+- slug: settle-the-period
+  title: Settle the Period
+  goal: Over- and under-delivery are calculated transparently and settled without dispute.
+  step: payer-contracting-and-budget-negotiation/agreement-monitoring-and-settlement
+  touchpoints:
+  - payer-negotiation

@@ -1,0 +1,43 @@
+kind: journey
+slug: resident-proposing-and-deciding-what-the-city-funds
+title: Resident Proposing and Deciding What the City Funds
+stakeholder: resident
+summary: A resident proposes a project, sees who would pay and who would gain, decides a real share of the budget with other residents,
+  helps set the measures of benefit, follows whether the promise is kept and confirms whether it was.
+stages:
+- slug: propose-a-project
+  title: Propose a Project
+  goal: The proposal of the resident is received, framed and traceable from its origin to its decision.
+  step: city-programme-portfolio/programme-proposal
+  touchpoints:
+  - programme-proposal-portal
+- slug: see-who-pays-and-who-gains
+  title: See Who Pays and Who Gains
+  goal: The resident sees the published appraisal, including the costs to people outside the neighbourhood that proposed it.
+  step: city-programme-portfolio/programme-appraisal
+  touchpoints:
+  - published-appraisal
+- slug: decide-a-share-of-the-budget
+  title: Decide a Share of the Budget
+  goal: Residents have decided a real share of the city's spending, with safeguards for poorer neighbourhoods.
+  step: city-programme-portfolio/prioritisation-and-funding
+  touchpoints:
+  - participatory-budget-assembly
+- slug: help-set-the-measures
+  title: Help Set the Measures
+  goal: The measures by which the programme's benefit will be judged include those residents asked for.
+  step: city-programme-portfolio/commitment-publication
+  touchpoints:
+  - city-commitments-register
+- slug: follow-the-promise
+  title: Follow the Promise
+  goal: The resident can see progress against each commitment and why any programme was changed.
+  step: city-programme-portfolio/progress-review-and-rebalancing
+  touchpoints:
+  - programme-progress-page
+- slug: confirm-whether-it-was-kept
+  title: Confirm Whether It Was Kept
+  goal: The resident has judged with the benefit owner whether the intended benefit was realised.
+  step: city-programme-portfolio/benefit-confirmation-and-learning
+  touchpoints:
+  - benefit-review-session

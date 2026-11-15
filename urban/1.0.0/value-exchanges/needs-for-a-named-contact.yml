@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: needs-for-a-named-contact
+title: Needs for a Named Contact
+between:
+- investor
+- economic-development-officer
+offered:
+- The enterprise's account of its needs, hiring and commitments.
+returned:
+- A named contact who keeps in touch and links it to training providers and networks.
+touchpoint: aftercare-check-in

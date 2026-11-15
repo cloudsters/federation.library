@@ -1,0 +1,47 @@
+kind: journey
+slug: entrepreneur-turning-an-idea-into-an-enterprise
+title: Entrepreneur Turning an Idea into an Enterprise
+stakeholder: entrepreneur
+summary: A resident with an idea receives advice at one point of contact, joins an incubator in the neighbourhood, borrows from the
+  city fund, meets a mentor, works under support that tapers and is asked after one, three and five years how the enterprise stands.
+stages:
+- slug: get-advice-at-one-point
+  title: Get Advice at One Point
+  goal: The founder has advice in their language on the idea, the business form including cooperative forms, permits, tax and premises.
+  step: business-start-up-and-support/founder-advice
+  touchpoints:
+  - business-advice-desk
+- slug: join-the-incubator
+  title: Join the Incubator
+  goal: The founder works in an affordable space or incubator programme in the neighbourhood and has a say in how it is run.
+  step: business-start-up-and-support/incubation-and-workspace
+  touchpoints:
+  - neighbourhood-incubator-programme
+  - affordable-enterprise-workspace
+- slug: borrow-on-fair-terms
+  title: Borrow on Fair Terms
+  goal: The founder has a small loan or patient capital with repayment that follows the rhythm of the enterprise's income.
+  step: business-start-up-and-support/start-up-finance
+  touchpoints:
+  - small-enterprise-loan-application
+  - income-matched-repayment-plan
+- slug: meet-the-mentor
+  title: Meet the Mentor
+  goal: The founder meets an experienced owner, maker or cooperative member regularly in the first years.
+  step: business-start-up-and-support/founder-mentoring
+  touchpoints:
+  - founder-mentor-meeting
+- slug: agree-how-support-ends
+  title: Agree How Support Ends
+  goal: Reduced rent, grants and services are given under a written agreement that states how long they last, what the enterprise
+    aims to reach and how they taper.
+  step: business-start-up-and-support/time-limited-support-terms
+  touchpoints:
+  - time-limited-support-agreement
+  - affordable-enterprise-workspace
+- slug: report-how-it-stands
+  title: Report How It Stands
+  goal: One, three and five years on, the founder reports whether the enterprise survives and what work and income it holds.
+  step: business-start-up-and-support/business-support-review
+  touchpoints:
+  - enterprise-survival-check-in

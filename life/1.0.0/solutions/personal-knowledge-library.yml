@@ -1,0 +1,12 @@
+kind: solution
+slug: personal-knowledge-library
+title: Personal Knowledge Library
+role: system-of-record
+sovereignty: owned
+summary: Linked notes in which what was learned once can be found again and joined to what is learned next.
+carries:
+- keeping-knowledge-findable
+- connecting-ideas-across-fields
+holds:
+- reading-list
+- learning-event

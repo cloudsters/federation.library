@@ -1,0 +1,134 @@
+kind: value-stream
+slug: sport-and-active-recreation
+title: Sport and Active Recreation
+family: interest-to-relationship
+summary: Bringing residents from watching sport to playing it, and from sitting still to moving every day. It holds the profile of
+  who is active and who is not, sports halls, pools, pitches and play spaces open and affordable in every neighbourhood, fair booking
+  of facilities between clubs, schools and informal groups, support for clubs and grassroots sport, programmes for those least active,
+  free play for children, equipment lent where people live, and a review of activity and access.
+trigger: The sport and activity plan falls due, a facility opens, closes or is renewed, or the activity profile shows a neighbourhood
+  or group left out.
+outcome: Residents of every age and neighbourhood can reach places to play and move, clubs and informal groups share facilities fairly,
+  and those least active are taking part.
+stakeholders:
+- sports-club
+- resident
+- young-people
+- older-resident
+- disabled-resident
+- parent-or-guardian
+- volunteer
+- informal-worker
+steps:
+- slug: activity-profile
+  title: Activity Profile
+  summary: Who is physically active, who is not and why is mapped by neighbourhood, age, gender, disability and income, with residents
+    and clubs, together with the facilities within reach of each neighbourhood.
+  capabilities:
+  - physical-activity-profiling
+  - population-health-profiling
+  entities:
+  - physical-activity-profile
+  - health-profile
+  serves:
+  - neighbourhood-activity-survey
+  - published-activity-profile
+- slug: sport-and-activity-plan
+  title: Sport and Activity Plan
+  summary: A plan agreed with clubs, schools, young people and neighbourhoods sets where facilities and play spaces are needed, what
+    they cost to use and whom programmes reach first.
+  capabilities:
+  - sport-and-activity-planning
+  - participatory-plan-design
+  entities:
+  - sport-and-activity-plan
+  - sports-facility
+  serves:
+  - published-sport-and-activity-plan
+  - sport-plan-workshop
+- slug: facility-provision-and-access
+  title: Facility Provision and Access
+  summary: Sports halls, pools, pitches, courts and play spaces are provided and kept in every neighbourhood, with prices and opening
+    hours that let all residents use them, and school grounds open outside school hours.
+  capabilities:
+  - sports-facility-provision
+  - leisure-access-pricing
+  - shared-use-agreement-drafting
+  entities:
+  - sports-facility
+  - play-space
+  - shared-use-agreement
+  serves:
+  - neighbourhood-sports-facility
+  - reduced-price-leisure-pass
+- slug: fair-facility-booking
+  title: Fair Facility Booking
+  summary: Time in facilities is booked through one open system and shared fairly between clubs, schools, informal groups and casual
+    users, with priority for those who have had least.
+  capabilities:
+  - facility-booking
+  - leisure-access-pricing
+  entities:
+  - facility-booking
+  - sports-facility
+  serves:
+  - facility-allocation-round
+  - open-facility-booking-calendar
+- slug: club-and-grassroots-support
+  title: Club and Grassroots Support
+  summary: Clubs and informal sport groups receive help with coaching, volunteers, safeguarding and small grants, and the informal
+    sport economies of a neighbourhood are recognised rather than pushed out.
+  capabilities:
+  - sports-club-support
+  - volunteer-preparation-and-safeguarding
+  - community-grant-making
+  entities:
+  - community-grant
+  - volunteer-record
+  serves:
+  - club-support-clinic
+  - grassroots-sport-grant
+- slug: programmes-for-the-least-active
+  title: Programmes for the Least Active
+  summary: Programmes reach those least active, among them girls, elders, disabled residents and low-income neighbourhoods, with play
+    streets for children, walking and cycling skills, and sports equipment lent from points in the neighbourhood.
+  capabilities:
+  - active-recreation-programme-design
+  - sports-equipment-lending
+  - health-promotion-programme-design
+  entities:
+  - sports-equipment-pool
+  - play-space
+  - health-promotion-programme
+  serves:
+  - neighbourhood-equipment-lending-point
+  - neighbourhood-walking-group
+  - play-street-day
+- slug: activity-and-access-review
+  title: Activity and Access Review
+  summary: Who uses facilities and programmes, and how activity changes by neighbourhood and group, is reviewed with residents and
+    clubs, and the plan is adjusted.
+  capabilities:
+  - physical-activity-profiling
+  - service-use-review
+  - equity-audit
+  entities:
+  - physical-activity-profile
+  - facility-booking
+  serves:
+  - activity-and-access-review-meeting
+  - neighbourhood-activity-survey
+  - published-activity-profile
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-265
+  edition: '2015-11-17'
+  jurisdiction: global
+- source: src-266
+  edition: '2018-05-26'
+  jurisdiction: global
+- source: src-267
+  edition: '2013-04-17'
+  jurisdiction: global

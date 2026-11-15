@@ -1,0 +1,40 @@
+kind: journey
+slug: consumer-finding-a-clear-path-to-the-organisation
+title: Consumer Finding a Clear Path to the Organisation
+stakeholder: consumer
+summary: A consumer's obstacles shape the journey map, and the consumer then meets channels with clear roles, an easy way in, plain
+  service commitments and warranty terms known before they are needed.
+stages:
+- slug: tell-where-it-hurts
+  title: Tell Where It Hurts
+  goal: The consumer's account of where finding, buying or getting help went wrong is part of the journey map.
+  step: experience-strategy-design/journey-and-obstacle-mapping
+  touchpoints:
+  - customer-interview
+- slug: choose-a-channel-that-fits
+  title: Choose a Channel That Fits
+  goal: Each channel has a clear role and the consumer can move between them without starting again.
+  step: experience-strategy-design/service-channel-architecture
+  touchpoints:
+  - service-hotline
+  - website
+  - store-and-branch
+- slug: find-and-understand
+  title: Find and Understand
+  goal: The consumer finds the organisation in search, understands the offer and enters easily on any device.
+  step: experience-strategy-design/digital-entry-point-design
+  touchpoints:
+  - website
+  - online-shop
+- slug: know-the-commitments
+  title: Know the Commitments
+  goal: Service levels, policies and the use made of personal data are stated plainly before the consumer needs them.
+  step: experience-strategy-design/service-levels-and-policies
+  touchpoints:
+  - service-commitments
+- slug: know-the-warranty
+  title: Know the Warranty
+  goal: The warranty is clear at the time of purchase, including how to claim and what remedy to expect.
+  step: experience-strategy-design/warranty-and-safety-response-terms
+  touchpoints:
+  - warranty-terms

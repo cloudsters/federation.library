@@ -1,0 +1,13 @@
+kind: capability
+slug: research-consent-management
+title: Research Consent Management
+level: L3
+parent: research-ethics-and-integrity
+summary: Obtain, record and honour consent for research, including broad consent for the secondary use of care data.
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

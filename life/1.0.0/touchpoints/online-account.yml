@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: online-account
+title: An Online Account
+medium: channel
+mode: digital
+summary: An account with a service that holds mail, photographs, files or contacts, and the way into and out of it.
+exchanges:
+- data-for-service
+journey: a-platform-one-can-leave

@@ -1,0 +1,32 @@
+kind: journey
+slug: neighbouring-municipality-agreeing-the-work-the-cities-share
+title: Neighbouring Municipality Agreeing the Work the Cities Share
+stakeholder: neighbouring-municipality
+summary: A neighbouring municipality brings the regional picture into the assessment, weighs options that cross the boundary, reads
+  the adopted strategy and agrees which work and services the two municipalities share.
+stages:
+- slug: bring-the-regional-picture
+  title: Bring the Regional Picture
+  goal: The conditions of the region the two municipalities share are part of the assessment of need and condition.
+  step: city-strategy/need-and-condition-assessment
+  touchpoints:
+  - need-and-condition-report
+- slug: weigh-options-that-cross-the-boundary
+  title: Weigh Options That Cross the Boundary
+  goal: The effects of each option on the neighbour and on shared services are stated before the council chooses.
+  step: city-strategy/strategic-option-appraisal
+  touchpoints:
+  - strategic-options-paper
+- slug: read-the-adopted-strategy
+  title: Read the Adopted Strategy
+  goal: The neighbour knows the priorities of the term and what they ask of the services the two municipalities share.
+  step: city-strategy/strategy-choice-and-adoption
+  touchpoints:
+  - published-city-strategy
+- slug: agree-the-shared-work
+  title: Agree the Shared Work
+  goal: Which work the municipalities share, who decides and how the costs are split are agreed and published.
+  step: city-strategy/administration-design
+  touchpoints:
+  - administration-design-workshop
+  - published-administration-structure

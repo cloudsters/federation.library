@@ -1,0 +1,53 @@
+kind: entity
+slug: succession-declaration
+title: Succession Declaration
+type: transactional
+summary: A resident's witnessed designation of the successor to a community-held or affordable home, recognised by the body that holds
+  the home. That body records and keeps it, and it is used when the resident leaves or dies to pass the home to the successor at the
+  price the affordability covenant sets.
+attributes:
+- name: declarant-name
+  type: text
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: home
+  type: text
+  card: 0..1
+- name: successors
+  type: text
+  card: 1..*
+- name: witnessed-by
+  type: text
+  card: 1..*
+- name: holding-body
+  type: reference(cooperative)
+  card: 0..1
+- name: covenant
+  type: reference(affordability-covenant)
+  card: 0..1
+- name: declared-on
+  type: date
+  card: 1..1
+- name: executed-on
+  type: date
+  card: 0..1
+states:
+- declared
+- witnessed
+- recognised
+- revised
+- executed
+- revoked
+relations:
+- type: refers-to
+  target: building
+- type: governed-by
+  target: affordability-covenant
+- type: refers-to
+  target: cooperative
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

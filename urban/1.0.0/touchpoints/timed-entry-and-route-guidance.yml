@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: timed-entry-and-route-guidance
+title: Timed Entry and Route Guidance
+medium: channel
+summary: The guidance at crowded places and online that offers less crowded times and routes, with limits on the size of groups.
+exchanges:
+- flexible-timing-for-visits-without-crowding
+journey: visitor-staying-as-a-guest

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: referral-with-mediation-summary
+title: Referral With Mediation Summary
+medium: artefact
+summary: The referral, made with the parties' consent, of a dispute that needs a binding ruling or protection to legal advice, the
+  city's complaint route or the courts, carrying what mediation established.
+exchanges:
+- mediation-summary-for-informed-formal-handling
+- matched-route-for-established-facts
+journey: resident-resolving-a-dispute-with-a-neighbour

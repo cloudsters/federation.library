@@ -1,0 +1,132 @@
+kind: value-stream
+slug: nursing-and-health-professions-education
+title: Nursing and Health Professions Education
+family: demand-to-fulfillment
+summary: 'Educating nurses, midwives and other health professionals in vocational and academic programmes: theoretical teaching, supervised
+  clinical placements, practice instruction and examinations.'
+trigger: Trainees or students start a programme.
+outcome: Graduates are qualified and licensed to practise, and their clinical placements were delivered as required.
+stakeholders:
+- health-professions-student
+- clinical-educator
+- registered-nurse
+- midwife
+- allied-health-professional
+- university
+- follow-on-care-provider
+- affiliated-teaching-site
+- health-regulator
+steps:
+- slug: programme-and-placement-planning
+  title: Programme and Placement Planning
+  summary: Intake, curriculum and the placement plan across wards, specialist units and partner settings in long-term, community and
+    paediatric care are agreed with schools, universities and partners.
+  capabilities:
+  - health-professions-vocational-training
+  - academic-health-professions-programmes
+  - academic-partnership-management
+  - health-academy-programmes
+  - teaching-and-care-balance
+  entities:
+  - education-programme
+  - curriculum
+  - rotation
+  - contract
+- slug: recruitment-and-enrolment
+  title: Recruitment and Enrolment
+  summary: Applicants are attracted and selected, training contracts are concluded, and learners are enrolled with the support they
+    need to start.
+  capabilities:
+  - talent-pipeline-development
+  - candidate-screening-and-selection
+  - hiring-and-rehire-management
+  - learner-enrolment-and-records
+  entities:
+  - job-application
+  - employment
+  - learner-record
+  serves:
+  - careers-portal
+  - education-office
+  - job-interview
+- slug: theoretical-teaching
+  title: Theoretical Teaching
+  summary: Knowledge and clinical reasoning are taught in classroom and digital formats, and skills are practised in skills labs and
+    simulation before and between placements.
+  capabilities:
+  - health-academy-programmes
+  - learning-programme-delivery
+  - skills-lab-management
+  - simulation-centre-operations
+  - teaching-faculty-development
+  entities:
+  - course
+  - teaching-session
+  serves:
+  - learning-platform
+  - lecture-hall
+  - simulation-centre
+- slug: supervised-clinical-placement
+  title: Supervised Clinical Placement
+  summary: Learners work in placements across the commons and partner settings, guided by qualified practice instructors through a
+    planned share of instruction, with learning time protected from staffing gaps.
+  capabilities:
+  - practice-supervision
+  - health-professions-vocational-training
+  - clinical-onboarding
+  - teaching-and-care-balance
+  - staff-scheduling
+  entities:
+  - rotation
+  - teaching-session
+  - roster
+  serves:
+  - clinical-placement
+  - practice-instruction-session
+  - ward
+- slug: practice-assessment
+  title: Practice Assessment
+  summary: Competence is assessed in real care against defined competencies and documented with feedback, and gaps are closed through
+    a plan agreed with the learner.
+  capabilities:
+  - practice-supervision
+  - student-assessment
+  - competence-validation
+  entities:
+  - learner-assessment
+  - competency
+  - learner-record
+  serves:
+  - practice-instruction-session
+  - training-logbook
+- slug: final-examination-and-licensure
+  title: Final Examination and Licensure
+  summary: Learners sit the written, oral and practical final examination before external examiners, and those who pass apply for
+    the licence to practise.
+  capabilities:
+  - student-assessment
+  - structured-clinical-examination
+  - learner-enrolment-and-records
+  entities:
+  - examination
+  - licence-to-practise
+  - learner-record
+  serves:
+  - final-examination
+- slug: graduate-transition-and-evaluation
+  title: Graduate Transition and Evaluation
+  summary: Graduates are offered posts and a structured start in practice, and the programme is evaluated by learners, instructors
+    and outcome data.
+  capabilities:
+  - talent-pipeline-development
+  - hiring-and-rehire-management
+  - clinical-onboarding
+  - teaching-quality-evaluation
+  - education-quality-assurance
+  entities:
+  - employment
+  - teaching-evaluation
+  - measure-report
+  serves:
+  - job-interview
+  - teaching-evaluation-survey

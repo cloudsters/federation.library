@@ -1,0 +1,125 @@
+kind: value-stream
+slug: digital-solution-delivery-and-renewal
+title: Digital Solution Delivery and Renewal
+family: portfolio-to-system
+summary: Delivering the digital tools the city needs from a stated need to live use, and renewing or retiring the systems that no
+  longer serve. It holds the intake of digital demand, services designed with the residents and staff who will use them, sourcing
+  that prefers open code the city controls and shares, build, testing and go-live, the publication of code for peer cities, and the
+  orderly retirement of legacy systems.
+trigger: A department, neighbourhood or resident group needs a new or changed digital tool, the roadmap schedules a replacement, or
+  a legacy system reaches the end of its support.
+outcome: The digital tool is live, owned and understood by the city and open to change without the permission of a supplier, its code
+  is shared, and the system it replaced is retired with its data kept.
+stakeholders:
+- city-administration
+- information-technology-specialist
+- resident
+- technology-supplier
+- civic-technology-community
+- peer-city
+- legal-and-compliance-officer
+steps:
+- slug: digital-demand-intake
+  title: Digital Demand Intake
+  summary: Requests for new or changed tools are received from departments, neighbourhoods and resident groups, checked against the
+    roadmap and the architecture, and given a delivery mandate with a named owner.
+  capabilities:
+  - digital-demand-intake
+  - architecture-decision-review
+  - programme-proposal-intake
+  entities:
+  - change-request
+  - digital-roadmap
+  - city-programme
+  serves:
+  - demand-review-meeting
+  - digital-request-form
+- slug: service-design-with-residents
+  title: Service Design with Residents
+  summary: The service is designed with the residents and staff who will use it, including those who are offline or need support,
+    so that every digital route keeps an equal route on paper, by phone or in person.
+  capabilities:
+  - service-design-with-residents
+  - resident-hearing
+  entities:
+  - digital-service
+  - change-request
+  serves:
+  - prototype-testing-session
+  - service-design-session
+- slug: open-source-first-sourcing
+  title: Open-Source-First Sourcing
+  summary: The administration first looks for open code already used by peer cities, and where it buys, the contract makes the city
+    the owner of its data and releases the code the city funds under an open licence.
+  capabilities:
+  - open-source-first-sourcing
+  - delivery-partner-selection
+  - contract-review
+  entities:
+  - public-procurement
+  - procurement-policy
+  - contract
+  serves:
+  - open-tender-notice
+  - software-contract-negotiation
+- slug: solution-build-and-configuration
+  title: Solution Build and Configuration
+  summary: The solution is built or configured, connected to the city's systems through published interfaces, and its data model is
+    mapped to the shared definitions.
+  capabilities:
+  - solution-build-and-configuration
+  - interface-build-and-testing
+  - shared-data-model-design
+  entities:
+  - application
+  - system-interface
+  - shared-data-model
+  serves:
+  - working-software-demonstration
+- slug: acceptance-and-go-live
+  title: Acceptance and Go-Live
+  summary: Staff and residents test the solution against what was agreed, it goes live in stages with training and help, and it is
+    stabilised before it is handed over to operations.
+  capabilities:
+  - acceptance-testing
+  - solution-go-live
+  - service-level-setting
+  entities:
+  - application
+  - digital-service
+  - city-programme
+  serves:
+  - acceptance-test-session
+  - launch-help-point
+- slug: code-publication-and-sharing
+  title: Code Publication and Sharing
+  summary: The code, interfaces and data schemas are published in the city's public repository, where residents can audit them and
+    peer cities can reuse and improve them, and their improvements are taken back.
+  capabilities:
+  - code-publication-and-sharing
+  - lesson-recording-and-sharing
+  entities:
+  - source-code-repository
+  - application
+  serves:
+  - city-code-repository-site
+  - shared-code-community-meeting
+- slug: legacy-system-retirement
+  title: Legacy System Retirement
+  summary: Systems that are replaced or no longer supported are retired in order, with their data moved or archived in open formats,
+    their interfaces closed, their contracts ended and their records kept for the required periods.
+  capabilities:
+  - legacy-system-retirement
+  - data-retention-control
+  - contract-review
+  entities:
+  - application
+  - data-set
+  - contract
+  serves:
+  - retirement-notice
+  - software-contract-negotiation
+binds:
+- source: src-219
+  edition: '2014-07-15'
+  jurisdiction: global

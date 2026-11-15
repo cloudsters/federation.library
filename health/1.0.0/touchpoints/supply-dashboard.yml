@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supply-dashboard
+title: Supply Dashboard
+medium: channel
+summary: The view through which logistics and pharmacy staff see stock levels, forecasts, open orders and shortages across the commons,
+  and approve the orders proposed to them.
+exchanges:
+- demand-forecast-for-approval
+journey: keeping-the-ward-supplied

@@ -1,0 +1,31 @@
+kind: body
+slug: resident-services-department
+title: Resident Services Department
+summary: Runs the neighbourhood service points and the counter, telephone and post routes, keeps the service directory, writes the
+  entitlement rules with the departments whose services they are, finds residents who do not claim, takes and assesses applications,
+  gives decisions and reviews entitlements when circumstances change.
+holds:
+- service-access-and-wayfinding
+- entitlements-and-applications
+- service-catalogue-upkeep
+- service-point-planning
+- multilingual-information-design
+- assisted-service-route-provision
+- plain-language-testing
+- entitlement-rule-drafting
+- unclaimed-entitlement-outreach
+- service-application-intake
+- eligibility-assessment
+- entitlement-decision-issuing
+- entitlement-review
+- resident-enquiries
+- enquiry-intake
+- enquiry-need-clarification
+- enquiry-answering-and-referral
+- enquiry-follow-through
+- contact-record-keeping
+- enquiry-pattern-analysis
+- reduced-charge-enrolment
+part_of: full-council
+type: function
+form: organisational-unit

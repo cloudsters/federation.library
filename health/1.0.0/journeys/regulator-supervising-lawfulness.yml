@@ -1,0 +1,32 @@
+kind: journey
+slug: regulator-supervising-lawfulness
+title: Regulator Supervising Lawfulness
+stakeholder: health-regulator
+summary: 'The regulator''s side of legal affairs and compliance: finding obligations owned, receiving notifications and reports,
+  inspecting, and seeing deficiencies corrected.'
+stages:
+- slug: finding-obligations-owned
+  title: Finding Obligations Owned
+  goal: Find each supervised obligation held by a named owner with controls and evidence.
+  step: legal-affairs-and-compliance/obligation-embedding
+  touchpoints:
+  - inspection-and-audit
+- slug: receiving-notifications
+  title: Receiving Notifications
+  goal: Receive notifications of breaches and serious incidents within their deadlines and with the facts needed to act.
+  step: legal-affairs-and-compliance/breach-investigation
+  touchpoints:
+  - statutory-submission
+- slug: inspecting-and-receiving-reports
+  title: Inspecting and Receiving Reports
+  goal: Inspect, and receive mandatory reports that show the obligations are met.
+  step: legal-affairs-and-compliance/compliance-assurance-and-reporting
+  touchpoints:
+  - inspection-and-audit
+  - statutory-submission
+- slug: seeing-deficiencies-corrected
+  title: Seeing Deficiencies Corrected
+  goal: See the causes behind deficiencies removed rather than the deficiencies explained.
+  step: legal-affairs-and-compliance/lesson-feedback
+  touchpoints:
+  - inspection-and-audit

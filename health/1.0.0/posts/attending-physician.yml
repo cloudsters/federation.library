@@ -1,0 +1,10 @@
+kind: post
+slug: attending-physician
+title: Attending Physician
+summary: 'The senior physician responsible for a patient''s medical care: integrates findings, reasons through the differential
+  diagnosis, confirms the diagnosis, communicates uncertainty, sets the care plan and leads ward rounds.'
+of: clinical-centre-board
+responsibility: The medical care of each patient in the physician's charge, from integrating the findings to the diagnosis and the
+  care plan.
+accountable: body:clinical-centre-board
+type: role

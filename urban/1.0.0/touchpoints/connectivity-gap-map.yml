@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: connectivity-gap-map
+title: Connectivity Gap Map
+medium: artefact
+summary: The published map of where residents lack affordable, reliable access, by neighbourhood and group, beside the existing fibre
+  routes, masts and private networks.
+exchanges:
+- access-accounts-for-a-mapped-gap
+- settlement-knowledge-for-a-place-on-the-gap-map
+journey: resident-getting-affordable-connectivity

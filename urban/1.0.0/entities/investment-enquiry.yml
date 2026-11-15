@@ -1,0 +1,62 @@
+kind: entity
+slug: investment-enquiry
+title: Investment Enquiry
+type: transactional
+summary: An enquiry from an enterprise, an institution or a diaspora investor about settling or investing in the city, with what was
+  asked and answered. The one point of contact records it, and it is used to answer with facts on sites, skills, permits and costs,
+  to match sites and to open a support case or an investment agreement.
+attributes:
+- name: enquirer
+  type: text
+  card: 1..1
+- name: enquirer-kind
+  type: code
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: contact
+  type: text
+  card: 1..1
+- name: sector
+  type: code
+  card: 0..1
+- name: questions
+  type: text
+  card: 1..*
+- name: place-of-origin
+  type: text
+  card: 0..1
+- name: intended-investment
+  type: amount
+  card: 0..1
+- name: jobs-envisaged
+  type: integer
+  card: 0..1
+- name: sites-offered
+  type: reference(land-parcel|building)
+  card: 0..*
+- name: answer
+  type: document
+  card: 0..*
+- name: answered-on
+  type: date
+  card: 0..1
+states:
+- received
+- answered
+- matching
+- negotiating
+- settled
+- withdrawn
+relations:
+- type: refers-to
+  target: location-offer
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: produces
+  target: business-support-case
+- type: produces
+  target: investment-agreement

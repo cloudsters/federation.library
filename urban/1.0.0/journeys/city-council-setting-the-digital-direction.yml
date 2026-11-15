@@ -1,0 +1,42 @@
+kind: journey
+slug: city-council-setting-the-digital-direction
+title: City Council Setting the Digital Direction
+stakeholder: city-council
+summary: The council receives the assessment of the city's systems, adopts a digital strategy drawn from the city strategy and the
+  charter, funds the roadmap in the capital plan, decides major digital matters on a published review and renews the strategy each
+  year with the neighbourhoods.
+stages:
+- slug: receive-the-landscape
+  title: Receive the Landscape
+  goal: The council knows what the city's systems cost and serve, and where the city is bound to a single supplier.
+  step: digital-strategy-and-systems-architecture/digital-landscape-assessment
+  touchpoints:
+  - published-landscape-assessment
+- slug: adopt-the-digital-strategy
+  title: Adopt the Digital Strategy
+  goal: The digital strategy, with its principles of open code, city ownership of its data and decisions at the lowest competent scale,
+    is adopted in public.
+  step: digital-strategy-and-systems-architecture/digital-strategy-setting
+  touchpoints:
+  - draft-digital-strategy
+  - digital-strategy-adoption-debate
+- slug: fund-the-roadmap
+  title: Fund the Roadmap
+  goal: The builds, replacements and retirements on the roadmap are funded in the capital investment plan together with their upkeep.
+  step: digital-strategy-and-systems-architecture/digital-roadmap-planning
+  touchpoints:
+  - published-digital-roadmap
+- slug: decide-on-a-published-review
+  title: Decide on a Published Review
+  goal: The council takes a major digital decision with the architecture review before it, and states its reasons where it departs
+    from it.
+  step: digital-strategy-and-systems-architecture/architecture-decision-review
+  touchpoints:
+  - published-architecture-review
+- slug: renew-the-digital-strategy
+  title: Renew the Digital Strategy
+  goal: The strategy and the roadmap are renewed on what the systems delivered and on what the neighbourhoods and peer cities report.
+  step: digital-strategy-and-systems-architecture/digital-strategy-review
+  touchpoints:
+  - annual-digital-report
+  - digital-strategy-review-session

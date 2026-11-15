@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: account-of-events-for-a-fair-hearing
+title: Account of Events for a Fair Hearing
+between:
+- resident
+- city-administration
+offered:
+- The complainant's account of what happened and the papers they hold.
+returned:
+- A hearing by someone not involved who examines the records, including any automated decision.
+touchpoint: complaint-investigation-hearing

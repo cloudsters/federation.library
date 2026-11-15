@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: released-specification-for-reliable-delivery
+title: Released Specification for Reliable Delivery
+between:
+- development-engineer
+- production-operator
+offered:
+- A released specification with routings, work instructions and support during ramp-up.
+returned:
+- Feedback from the first runs on what can be made or delivered reliably, and on what must change.
+touchpoint: development-gate-review

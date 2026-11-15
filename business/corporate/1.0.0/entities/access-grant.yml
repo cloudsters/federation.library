@@ -1,0 +1,39 @@
+kind: entity
+slug: access-grant
+title: Access Grant
+type: governance
+summary: A right given to an identity to read or act on defined information or functions, such as a role-based access, a privileged
+  access or a partner access, with its basis, period and review.
+attributes:
+- name: identity
+  type: reference(identity)
+  card: 1..1
+- name: access-scope
+  type: code
+  card: 1..*
+- name: access-kind
+  type: code
+  card: 1..1
+- name: application
+  type: reference(application)
+  card: 0..1
+- name: granted-by
+  type: reference(employee-record)
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- requested
+- granted
+- under-review
+- revoked
+- expired
+relations:
+- type: governed-by
+  target: policy
+- type: based-on
+  target: decision-right

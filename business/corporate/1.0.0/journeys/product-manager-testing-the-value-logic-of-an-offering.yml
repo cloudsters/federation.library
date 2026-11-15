@@ -1,0 +1,34 @@
+kind: journey
+slug: product-manager-testing-the-value-logic-of-an-offering
+title: Product Manager Testing the Value Logic of an Offering
+stakeholder: product-manager
+summary: A product manager makes the value logic of an offering explicit, tests its assumptions against margins and customer evidence
+  and carries a changed model into offering and pricing decisions.
+stages:
+- slug: make-the-logic-explicit
+  title: Make the Logic Explicit
+  goal: The offering's customers, the value each stakeholder gives and receives and its revenue and cost logic are written down.
+  step: value-model-stewardship/value-logic-mapping
+  touchpoints:
+  - value-model-description
+- slug: test-the-assumptions
+  title: Test the Assumptions
+  goal: Margins, customer evidence and market shifts show which assumptions still hold and which do not.
+  step: value-model-stewardship/assumption-testing
+  touchpoints:
+  - profitability-analysis
+  - customer-insight-interview
+- slug: redesign-the-model
+  title: Redesign the Model
+  goal: A changed model with a fair sharing of value and checked economics is ready for decision.
+  step: value-model-stewardship/value-model-redesign
+  touchpoints:
+  - value-model-description
+  - board-meeting
+- slug: carry-the-change-into-the-offering
+  title: Carry the Change into the Offering
+  goal: The adopted model governs the offering, pricing and sourcing decisions of the product line.
+  step: value-model-stewardship/value-model-adoption
+  touchpoints:
+  - value-model-description
+  - product-catalogue

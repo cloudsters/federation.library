@@ -1,0 +1,6 @@
+kind: capability
+slug: reserve-release
+title: Reserve Release
+level: L3
+parent: supply-security
+summary: Release essential reserves when the agreed triggers are met and record where each release went.

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: hazard-reporting-line
+title: Hazard Reporting Line
+medium: channel
+summary: The line, by phone, message or through a worker collective, where staff, contracted and informal workers report heat and
+  other hazards into the shared register.
+exchanges:
+- collective-hazard-reports-for-shade-and-rest
+- staff-hazard-reports-for-safe-work
+journey: municipal-employee-paid-fairly-and-kept-safe

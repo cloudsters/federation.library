@@ -1,0 +1,34 @@
+kind: journey
+slug: job-applicant-exploring-a-new-employer
+title: Job Applicant Exploring a New Employer
+stakeholder: job-applicant
+summary: A job applicant, from school leaver to experienced specialist, discovers the employer, applies, is treated with respect at
+  every stage and, chosen or not, leaves with a fair view of the organisation.
+stages:
+- slug: discover-the-employer
+  title: Discover the Employer
+  goal: The applicant meets the employer at a fair, a school or online and finds what working there is really like.
+  step: talent-attraction-welcome/attraction-and-sourcing
+  touchpoints:
+  - careers-fair
+  - website
+  - job-posting
+- slug: apply-with-little-effort
+  title: Apply with Little Effort
+  goal: The applicant applies without needless forms, sees the status of the application and is kept in touch if not chosen this time.
+  step: talent-attraction-welcome/candidate-relationship
+  touchpoints:
+  - application-portal
+- slug: test-the-fit
+  title: Test the Fit
+  goal: The applicant experiences a fair, structured selection and forms an informed view of the team and the work.
+  step: talent-attraction-welcome/mutual-selection
+  touchpoints:
+  - job-interview
+  - work-sample
+- slug: receive-the-decision
+  title: Receive the Decision
+  goal: The applicant receives a clear offer, or a respectful decline with reasons and an invitation to stay in touch.
+  step: talent-attraction-welcome/offer-and-hire
+  touchpoints:
+  - employment-offer

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-cases-for-external-view
+title: Open Cases for an External View
+between:
+- head-of-clinical-department
+- external-peer-reviewer
+offered:
+- The department opens selected case records and its team's reasoning to review by peers from other institutions.
+returned:
+- The peers return a candid, collegial judgement of where care could have been better and practical changes proven elsewhere.
+touchpoint: peer-review-visit

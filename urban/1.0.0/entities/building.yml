@@ -1,0 +1,63 @@
+kind: entity
+slug: building
+title: Building
+type: master
+summary: An individual structure with its use, condition and history, and whether it is to be kept, reused or replaced. The administration
+  keeps the record from surveys and permits, and it is used to assess a district and to plan how old buildings are reused.
+attributes:
+- name: building-identifier
+  type: identifier
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: land-parcel
+  type: reference(land-parcel)
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: current-use
+  type: code
+  card: 1..1
+- name: former-uses
+  type: text
+  card: 0..*
+- name: construction-year
+  type: integer
+  card: 0..1
+- name: floor-area
+  type: quantity
+  card: 0..1
+- name: surveyed-condition
+  type: code
+  card: 0..1
+- name: heritage-protection
+  type: reference(heritage-protection)
+  card: 0..1
+- name: planned-future
+  type: code
+  card: 0..1
+- name: histories
+  type: reference(civic-memory-record)
+  card: 0..*
+states:
+- recorded
+- in-use
+- vacant
+- under-renewal
+- reused
+- demolished
+relations:
+- type: part-of
+  target: land-parcel
+- type: governed-by
+  target: zoning-plan
+- type: governed-by
+  target: heritage-protection
+- type: refers-to
+  target: civic-memory-record
+binds:
+- source: src-201
+  edition: '2011-11-10'
+  jurisdiction: global

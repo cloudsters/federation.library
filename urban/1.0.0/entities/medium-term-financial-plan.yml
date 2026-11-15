@@ -1,0 +1,63 @@
+kind: entity
+slug: medium-term-financial-plan
+title: Medium-Term Financial Plan
+type: governance
+summary: The plan of the city's income, spending, debt and reserves over several years, with the spending limit of each department,
+  adopted by the council as the frame for each annual budget. The finance department projects it from the strategy and the city's
+  financial health and rolls it forward each year, and grant-funded work that must last is moved into it before its grant ends.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: plan-horizon
+  type: period
+  card: 1..1
+- name: projected-income
+  type: document
+  card: 1..1
+- name: projected-spending
+  type: document
+  card: 1..1
+- name: projected-debt-and-reserves
+  type: document
+  card: 1..1
+- name: department-limits
+  type: document
+  card: 1..1
+- name: assumptions
+  type: text
+  card: 1..*
+- name: strategy
+  type: reference(city-strategy)
+  card: 1..1
+- name: borrowing-strategy
+  type: reference(borrowing-strategy)
+  card: 0..1
+- name: programmes-taken-over-from-grants
+  type: reference(city-programme)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+states:
+- projected
+- drafted
+- adopted
+- in-force
+- rolled-forward
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: economic-indicators
+- type: governed-by
+  target: borrowing-strategy
+- type: refers-to
+  target: capital-investment-plan
+- type: refers-to
+  target: municipal-budget
+binds:
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

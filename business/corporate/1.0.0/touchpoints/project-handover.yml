@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: project-handover
+title: Project Handover
+medium: encounter
+summary: The acceptance of finished results by their operating owners, with documentation and open items, after which the capacity
+  bound in the project is released.
+exchanges:
+- accepted-results-for-released-capacity
+journey: team-member-delivering-within-real-capacity

@@ -1,0 +1,33 @@
+kind: journey
+slug: end-user-adopting-an-open-offering
+title: End User Adopting an Open Offering
+stakeholder: end-user
+summary: An end user chooses between free and premium levels, finds the open release, adopts it without asking permission and contributes
+  improvements back.
+stages:
+- slug: choose-a-level
+  title: Choose a Level
+  goal: The free level gives real value and the user can see what premium levels add.
+  step: commons-open-distribution/free-and-premium-level-design
+  touchpoints:
+  - level-overview
+- slug: find-the-release
+  title: Find the Release
+  goal: The release is published with its licence and documentation.
+  step: commons-open-distribution/open-publication
+  touchpoints:
+  - open-repository
+  - open-licence
+- slug: adopt-without-asking
+  title: Adopt Without Asking
+  goal: The user discovers, tries, adopts and configures the offering without waiting for approval.
+  step: commons-open-distribution/self-service-adoption
+  touchpoints:
+  - open-repository
+  - help-centre
+- slug: contribute-back
+  title: Contribute Back
+  goal: The user's contribution is reviewed, taken in and recognised.
+  step: commons-open-distribution/contribution-intake-and-steward-recognition
+  touchpoints:
+  - contribution-review

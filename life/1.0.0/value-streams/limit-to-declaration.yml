@@ -1,0 +1,81 @@
+kind: value-stream
+slug: limit-to-declaration
+title: Naming One's Limits
+family: demand-to-fulfillment
+summary: Knowing where the limit actually is and saying so before it is crossed — which is the difference between a boundary and an
+  apology.
+trigger: Yes keeps coming out when the body is saying no, resentment builds after yet another commitment, or a limit is found only
+  by crossing it.
+outcome: The person knows where their limits lie and says so early, plainly and without apology, and the people around them can rely
+  on it.
+stakeholders:
+- employer
+- partner
+- parent
+- client
+- close-friend
+steps:
+- slug: hearing-the-unspoken-no
+  title: Hearing the Unspoken No
+  summary: The person catches the moment a yes comes out while the body is saying no, and notices the resentment that follows it.
+  capabilities:
+  - catching-the-reluctant-yes
+  entities:
+  - commitment
+  - mood-record
+  - journal
+- slug: finding-where-the-limit-lies
+  title: Finding Where the Limit Lies
+  summary: 'Looking back at the times a limit was crossed, the person locates it before the next crossing: in hours, kinds of demand,
+    kinds of behaviour.'
+  capabilities:
+  - recognising-ones-own-patterns
+  - knowing-ones-own-limits
+  entities:
+  - pattern-log
+  - strain-indicator
+  - boundary-set
+- slug: admitting-the-limit
+  title: Admitting the Limit
+  summary: The person accepts that the limit is real and not a weakness to be pushed through, which is often the hardest part of all.
+  capabilities:
+  - accepting-ones-own-limits
+  entities:
+  - self
+  - boundary-set
+  - premise
+- slug: saying-it-early
+  title: Saying It Early
+  summary: The limit is said plainly and before it is reached, without apology and without a long explanation.
+  capabilities:
+  - saying-no-early
+  - speaking-plainly-about-needs
+  entities:
+  - boundary-set
+  - conversation
+  - employer-relation
+  - partner-relation
+  serves:
+  - hard-conversation
+  - talk-with-the-boss
+- slug: holding-it-when-tested
+  title: Holding It When Tested
+  summary: When the limit is pushed, by others or by one's own guilt, the person holds it kindly and lets others have their reaction.
+  capabilities:
+  - holding-a-boundary-kindly
+  entities:
+  - boundary-set
+  - conflict
+  - relationship-agreement
+  serves:
+  - hard-conversation
+- slug: revisiting-the-limits
+  title: Revisiting the Limits
+  summary: As health, age and circumstances change, the person checks whether the limits they have stated still match the real ones.
+  capabilities:
+  - looking-back-without-blame
+  - knowing-ones-own-limits
+  entities:
+  - boundary-set
+  - review-cadence
+  - transition

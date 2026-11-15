@@ -1,0 +1,10 @@
+kind: capability
+slug: data-and-analytics-strategy
+title: Data & Analytics Strategy
+level: L3
+parent: data-governance
+summary: Set the strategy for data and analytics across care, management and research.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global

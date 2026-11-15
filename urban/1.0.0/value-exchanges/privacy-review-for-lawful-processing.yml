@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: privacy-review-for-lawful-processing
+title: Privacy Review for Lawful Processing
+between:
+- data-protection-officer
+- city-administration
+offered:
+- An independent check of the system's use of personal data.
+returned:
+- Involvement before the system is chosen and the full facts about the data it uses.
+touchpoint: impact-and-bias-assessment-session

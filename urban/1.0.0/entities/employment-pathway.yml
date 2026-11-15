@@ -1,0 +1,69 @@
+kind: entity
+slug: employment-pathway
+title: Employment Pathway
+type: transactional
+summary: A resident's path from seeking work to holding stable work or a share in a cooperative, with skills, constraints, placements
+  and support given. A community coordinator opens and keeps it with the resident, and it is used to match the resident to openings,
+  apprenticeships and transition support and to report placements.
+attributes:
+- name: pathway-number
+  type: identifier
+  card: 1..1
+- name: person-name
+  type: text
+  card: 1..1
+- name: coordinator
+  type: text
+  card: 0..1
+- name: skills
+  type: text
+  card: 0..*
+- name: constraints
+  type: text
+  card: 0..*
+- name: goals
+  type: text
+  card: 0..*
+- name: placements
+  type: text
+  card: 0..*
+- name: local-hiring-agreement
+  type: reference(local-hiring-agreement)
+  card: 0..1
+- name: transition-plan
+  type: reference(workforce-transition-plan)
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- opened
+- in-training
+- placed
+- in-support
+- in-stable-work
+- closed
+relations:
+- type: refers-to
+  target: skill-registry
+- type: refers-to
+  target: local-hiring-agreement
+- type: refers-to
+  target: apprenticeship
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: workforce-transition-plan
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global
+- source: src-244
+  edition: '2015'
+  jurisdiction: global

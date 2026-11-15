@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: spare-capacity-for-defined-terms
+title: Spare Capacity for Defined Terms
+between:
+- partner
+- operations-planning-agent
+offered:
+- Qualified people available for a defined time when the company's own capacity is short.
+returned:
+- A defined assignment under clear terms, the same job information as the company's own staff and timely settlement.
+touchpoint: capacity-request

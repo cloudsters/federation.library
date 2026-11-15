@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: appeal-for-an-independent-review
+title: Appeal for an Independent Review
+between:
+- taxpayer
+- legal-and-compliance-officer
+offered:
+- An appeal against enforcement, with the taxpayer's circumstances.
+returned:
+- A review independent of the revenue office, with enforcement paused until it is decided.
+touchpoint: enforcement-appeal-hearing

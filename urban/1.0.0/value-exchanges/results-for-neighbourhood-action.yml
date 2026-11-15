@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: results-for-neighbourhood-action
+title: Results for Neighbourhood Action
+between:
+- city-administration
+- neighbourhood-association
+offered:
+- The results of the analysis, released to the neighbourhood and as open data.
+returned:
+- The neighbourhood's use of the results in its own decisions and in its claims on the city.
+touchpoint: evidence-briefing

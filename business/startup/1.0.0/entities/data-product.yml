@@ -1,0 +1,41 @@
+kind: entity
+slug: data-product
+title: Data Product
+type: master
+summary: A curated, documented and owned set of data the enterprise offers for reuse across operations, steering and analysis, such
+  as customer, product or sales data, with defined content, quality guarantees, access rules and a responsible owner.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(department)
+  card: 1..1
+- name: content-description
+  type: text
+  card: 1..1
+- name: source-applications
+  type: reference(application)
+  card: 0..*
+- name: quality-guarantees
+  type: text
+  card: 0..*
+- name: access-rules
+  type: reference(policy)
+  card: 0..*
+- name: interfaces
+  type: reference(interface)
+  card: 0..*
+states:
+- proposed
+- in-development
+- published
+- withdrawn
+relations:
+- type: depends-on
+  target: application
+- type: governed-by
+  target: data-processing-record

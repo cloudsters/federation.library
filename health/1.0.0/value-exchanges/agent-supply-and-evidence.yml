@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: agent-supply-and-evidence
+title: Agent Supply and Evidence
+between:
+- supplier
+- health-informatics-specialist
+offered:
+- An agent with its documentation, intended purpose, performance evidence and updates under an agreed change plan.
+returned:
+- Validation in a real workflow, structured performance feedback, and a contract that rewards safe performance over time.
+touchpoint: ai-technical-documentation

@@ -1,0 +1,31 @@
+kind: journey
+slug: anchor-institution-shifting-its-purchasing
+title: Anchor Institution Shifting Its Purchasing
+stakeholder: anchor-institution
+summary: An anchor institution sees which of its purchases could stay local, sets shared targets with the city, shifts its purchasing
+  toward local and community-owned suppliers and reports to the neighbourhoods around it.
+stages:
+- slug: see-what-could-stay-local
+  title: See What Could Stay Local
+  goal: The institution knows which of its purchases local enterprises could supply.
+  step: local-supplier-development-and-social-value/local-supply-gap-mapping
+  touchpoints:
+  - local-supply-gap-map
+- slug: commit-to-shared-targets
+  title: Commit to Shared Targets
+  goal: The institution has published multi-year targets beside the city's.
+  step: local-supplier-development-and-social-value/local-purchasing-commitment
+  touchpoints:
+  - published-local-purchasing-targets
+- slug: shift-the-purchasing
+  title: Shift the Purchasing
+  goal: The institution buys from local and community-owned suppliers under the agreement, with joint supplier development.
+  step: local-supplier-development-and-social-value/anchor-institution-purchasing
+  touchpoints:
+  - purchasing-partners-meeting
+- slug: report-to-the-neighbours
+  title: Report to the Neighbours
+  goal: The institution has reported its local spend to the neighbourhoods around it and heard their view.
+  step: local-supplier-development-and-social-value/local-spend-and-social-value-report
+  touchpoints:
+  - local-spend-report-assembly

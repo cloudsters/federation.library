@@ -1,0 +1,10 @@
+kind: capability
+slug: business-model-design
+title: Business Model Design
+level: L3
+parent: business-model-and-innovation-horizon
+summary: Design how the organisation creates, delivers and sustains value across care, research and teaching.
+binds:
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: floor-priced-bids-for-contracts
+title: Floor-Priced Bids for Contracts
+between:
+- local-business
+- city-administration
+offered:
+- Bids priced at the wage floor and its benefits.
+returned:
+- Contracts open only to employers who pay the floor, so that no competitor wins by paying less.
+touchpoint: wage-floor-schedule

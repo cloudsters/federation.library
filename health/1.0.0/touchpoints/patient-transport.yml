@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: patient-transport
+title: Patient Transport
+medium: encounter
+summary: The movement of a patient by porter, bed or ambulance within or between sites, with the escort, equipment, records and belongings
+  the patient needs.
+exchanges: []
+journey: referring-hospital-transfer-journey

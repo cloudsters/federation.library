@@ -1,0 +1,37 @@
+kind: entity
+slug: budget
+title: Budget
+type: governance
+summary: A resource allocation plan — the financial expression of strategic priorities, deciding how the organisation distributes its
+  limited money and time across competing needs.
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: allocations
+  type: text
+  card: 1..*
+- name: accounts
+  type: reference(account)
+  card: 0..*
+- name: cost-centers
+  type: reference(cost-center)
+  card: 0..*
+- name: approving-authority
+  type: reference(employee-record)
+  card: 0..1
+- name: control-rules
+  type: text
+  card: 0..*
+states:
+- planned
+- approved
+- active
+- monitored
+- revised
+- closed
+relations:
+- type: refers-to
+  target: cost-center
+- type: refers-to
+  target: objective

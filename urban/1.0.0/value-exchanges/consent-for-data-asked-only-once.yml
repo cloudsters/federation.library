@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-for-data-asked-only-once
+title: Consent for Data Asked Only Once
+between:
+- resident
+- city-administration
+offered:
+- Consent, given for a stated purpose, to reuse data the city already holds.
+returned:
+- No repeated request for that data, a view of which department used it and when, and consent that can be withdrawn at any time.
+touchpoint: data-reuse-consent-prompt

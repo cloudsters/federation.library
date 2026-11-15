@@ -1,0 +1,11 @@
+kind: capability
+slug: ai-governance-framework
+title: AI Governance Framework
+level: L3
+parent: ai-governance-and-assurance
+summary: Design AI governance as an extension of organisational governance — clear mandates, accountability structures, and ethical
+  boundaries for every AI agent.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,63 @@
+kind: entity
+slug: taxpayer-account
+title: Taxpayer Account
+type: master
+summary: The account of a person or organisation that pays local taxes, fees or charges, with its liabilities, payments, relief and
+  balance. The revenue office keeps it correct and open to the taxpayer, and it is the one place where a bill, a payment, a relief
+  and an arrears case meet.
+attributes:
+- name: account-number
+  type: identifier
+  card: 1..1
+- name: account-holder
+  type: text
+  card: 1..1
+- name: holder-kind
+  type: code
+  card: 1..1
+- name: preferred-language
+  type: code
+  card: 0..1
+- name: parcels
+  type: reference(land-parcel)
+  card: 0..*
+- name: buildings
+  type: reference(building)
+  card: 0..*
+- name: assessments
+  type: reference(tax-assessment)
+  card: 0..*
+- name: relief-decisions
+  type: reference(tax-relief-decision)
+  card: 0..*
+- name: payments
+  type: reference(payment)
+  card: 0..*
+- name: balance
+  type: amount
+  card: 1..1
+- name: payment-arrangement
+  type: code
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 1..1
+states:
+- opened
+- active
+- in-arrears
+- under-relief
+- closed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: tax-assessment
+- type: refers-to
+  target: payment
+- type: refers-to
+  target: tax-relief-decision
+- type: refers-to
+  target: arrears-case

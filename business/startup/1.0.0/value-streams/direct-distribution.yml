@@ -1,0 +1,113 @@
+kind: value-stream
+slug: direct-distribution
+title: Direct Distribution
+family: proposition-to-audience
+summary: Reaching customers through the organisation's own channels, from field and inside sales to own shops, branches, web shop
+  and app, and keeping these channels staffed, informed and consistent with each other.
+trigger: The distribution strategy assigns customers to direct channels, or a direct channel's reach or conversion deviates from target.
+outcome: Direct channels reach their assigned customers with consistent offers and meet their reach and conversion targets.
+stakeholders:
+- consumer
+- business-customer
+- sales-representative
+- site-manager
+- customer-service-representative
+- information-technology-specialist
+- public-sector-customer
+steps:
+- slug: direct-channel-set-up
+  title: Direct Channel Set-Up
+  summary: Customers and territories assigned to direct channels are distributed across field sales, inside sales, outlets and online,
+    and each channel is staffed and equipped.
+  capabilities:
+  - territory-management
+  - distribution-resource-architecture
+  entities:
+  - channel
+  - territory
+  - branch
+  - position
+  serves:
+  - customer-portal
+  - sales-meeting
+  - store-and-branch
+- slug: field-and-inside-sales
+  title: Field and Inside Sales
+  summary: Sellers meet customers on site, by phone and in digital meetings, carrying the current offers and the customer's history
+    into each conversation.
+  capabilities:
+  - field-relationship-building
+  - digital-engagement-design
+  entities:
+  - customer-interaction
+  - calendar-event
+  - opportunity
+  serves:
+  - sales-meeting
+- slug: shop-and-branch-sales
+  title: Shop and Branch Sales
+  summary: Own shops and branches welcome customers, advise them, sell and take payment at the counter.
+  capabilities:
+  - physical-presence-as-community-hub
+  - point-of-sale-operations
+  entities:
+  - branch
+  - sales-order
+  - payment
+  serves:
+  - store-and-branch
+- slug: web-shop-and-app-operation
+  title: Web Shop and App Operation
+  summary: The web shop and app are run with current catalogue, prices, content and landing pages, so that visitors can browse, configure
+    and buy.
+  capabilities:
+  - ecommerce-platform-operation
+  - website-cms-management
+  - landing-page-conversion
+  entities:
+  - application
+  - product
+  - price-list
+  serves:
+  - customer-portal
+  - mobile-app
+  - online-shop
+- slug: checkout-and-order-capture
+  title: Checkout and Order Capture
+  summary: Checkout is kept simple and transparent, payment is taken and the order is captured with its terms and confirmed to the
+    customer.
+  capabilities:
+  - checkout-conversion-optimisation
+  entities:
+  - sales-order
+  - payment
+  - terms-and-conditions
+  serves:
+  - online-shop
+  - order-confirmation
+- slug: social-selling
+  title: Social Selling
+  summary: Offers are made shoppable where customers already gather on social platforms, connected to the same catalogue and order
+    flow.
+  capabilities:
+  - social-commerce-integration
+  entities:
+  - channel
+  - sales-order
+  - communication
+  serves:
+  - social-shop
+- slug: channel-consistency-and-performance-review
+  title: Channel Consistency and Performance Review
+  summary: Offers, prices and information are kept consistent across all direct channels, and each channel's reach and conversion
+    are reviewed against target.
+  capabilities:
+  - channel-vitality-sensing
+  entities:
+  - price-list
+  - promotion
+  - measure-report
+  serves:
+  - channel-review
+  - online-shop
+  - store-and-branch

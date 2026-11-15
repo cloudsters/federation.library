@@ -1,0 +1,25 @@
+kind: capability
+slug: biobank-operations
+title: Biobank Operations
+level: L3
+parent: biobanking-and-core-facilities
+summary: Collect, process, store and issue biospecimens with quality-controlled pre-analytics.
+binds:
+- source: src-335
+  edition: '2018'
+  jurisdiction: global
+- source: src-345
+  edition: '4.0'
+  jurisdiction: global
+- source: src-371
+  edition: '2018'
+  jurisdiction: global
+- source: src-372
+  edition: '2018'
+  jurisdiction: global
+- source: src-373
+  edition: '2019'
+  jurisdiction: global
+- source: src-560
+  edition: 5th-2023
+  jurisdiction: global

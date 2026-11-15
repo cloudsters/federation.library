@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shared-code-community-meeting
+title: Shared Code Community Meeting
+medium: encounter
+summary: The regular meeting of the cities, developers and residents who use and improve the same open code, in which improvements
+  are agreed and taken back.
+exchanges:
+- reusable-code-for-returned-improvements
+- code-audits-for-open-improvement
+journey: city-administration-replacing-a-legacy-system

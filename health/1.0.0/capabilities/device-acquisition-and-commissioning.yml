@@ -1,0 +1,16 @@
+kind: capability
+slug: device-acquisition-and-commissioning
+title: Device Acquisition & Commissioning
+level: L3
+parent: medical-device-lifecycle
+summary: Specify, acquire, accept and commission medical devices before first clinical use.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-295
+  edition: '2014'
+  jurisdiction: global

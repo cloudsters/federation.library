@@ -1,0 +1,39 @@
+kind: journey
+slug: knowing-what-the-commons-offers
+title: Knowing What the Commons Offers
+stakeholder: referring-practice
+summary: 'The referrer''s side of service marketing: being asked about needs, receiving clear service information, finding a working
+  route to refer and meeting the team behind the service.'
+stages:
+- slug: stating-needs
+  title: Stating Needs
+  goal: Be asked which services its patients lack and what makes referral difficult.
+  step: service-marketing/market-and-catchment-analysis
+  touchpoints:
+  - referrer-information-event
+- slug: receiving-service-information
+  title: Receiving Service Information
+  goal: Receive concise information on what the service offers, for whom, with which results and how to refer.
+  step: service-marketing/service-information-production
+  touchpoints:
+  - service-information-material
+  - referrer-portal
+- slug: finding-a-working-route
+  title: Finding a Working Route
+  goal: Refer and obtain an appointment without detours once the service is known.
+  step: service-marketing/access-readiness
+  touchpoints:
+  - referrer-portal
+  - appointment-service
+- slug: meeting-the-team
+  title: Meeting the Team
+  goal: Meet the clinicians behind the service and discuss cases and pathways with them.
+  step: service-marketing/campaign-delivery
+  touchpoints:
+  - referrer-information-event
+- slug: giving-feedback-on-fit
+  title: Giving Feedback on Fit
+  goal: Tell the commons whether the service met the needs of the patients referred.
+  step: service-marketing/effect-measurement
+  touchpoints:
+  - referrer-portal

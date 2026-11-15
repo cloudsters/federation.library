@@ -1,0 +1,52 @@
+kind: journey
+slug: provider-through-local-assurance
+title: Provider through Local Assurance
+stakeholder: supplier
+summary: 'How the provider of an AI system experiences the organisation''s assurance: clear requirements, a fair local validation,
+  defined conditions of use and a partner in monitoring and correction.'
+stages:
+- slug: proposed-use-registered
+  title: Proposed Use Registered
+  goal: Know which purpose, setting and owners the commons has registered for the system.
+  step: ai-assurance/use-registration
+  touchpoints:
+  - ai-system-register
+- slug: supplying-evidence
+  title: Supplying Evidence
+  goal: Supply technical documentation once, against a known list of requirements.
+  step: ai-assurance/risk-and-conformity-assessment
+  touchpoints:
+  - ai-technical-documentation
+- slug: validated-locally
+  title: Validated Locally
+  goal: Have the system evaluated fairly on local data, with criteria known in advance.
+  step: ai-assurance/local-validation
+  touchpoints:
+  - ai-governance-board
+- slug: approved-with-conditions
+  title: Approved with Conditions
+  goal: Receive a clear decision and the conditions of use.
+  step: ai-assurance/approval-for-defined-use
+  touchpoints:
+  - ai-governance-board
+  - ai-system-register
+- slug: sharing-monitoring
+  title: Sharing Monitoring
+  goal: Receive performance and incident information that helps improve the product.
+  step: ai-assurance/monitoring-in-use
+  touchpoints:
+  - ai-monitoring-dashboard
+- slug: delivering-updates
+  title: Delivering Updates
+  goal: Deliver updates under an agreed change plan, without a full new approval for each.
+  step: ai-assurance/change-control
+  touchpoints:
+  - ai-technical-documentation
+  - ai-governance-board
+- slug: correcting-faults
+  title: Correcting Faults
+  goal: Be informed promptly of faults and correct them within the agreed period.
+  step: ai-assurance/correction-and-withdrawal
+  touchpoints:
+  - supplier-portal
+  - regulatory-reporting-channel

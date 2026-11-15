@@ -1,0 +1,16 @@
+kind: capability
+slug: it-risk-and-security-control
+title: IT Risk & Security Control
+level: L3
+parent: information-security
+summary: Assess information security risks and maintain the controls that address them.
+binds:
+- source: src-077
+  edition: '2025'
+  jurisdiction: global
+- source: src-096
+  edition: '2022'
+  jurisdiction: global
+- source: src-393
+  edition: '2022'
+  jurisdiction: global

@@ -1,0 +1,40 @@
+kind: entity
+slug: partner-relation
+title: Life Partner Relation
+type: master
+summary: 'The person this life is built with. The relation, not the person, is what the model carries: what was agreed, what is assumed,
+  and what has never been said out loud.'
+attributes:
+- name: together-since
+  type: date
+  card: 0..1
+- name: how-it-began
+  type: reference(relationship-beginning)
+  card: 0..1
+- name: what-is-agreed
+  type: reference(relationship-agreement)
+  card: 0..1
+- name: what-is-assumed
+  type: text
+  card: 0..*
+- name: never-said
+  type: text
+  card: 0..*
+- name: shared-home
+  type: reference(home)
+  card: 0..1
+- name: last-agreed-again
+  type: date
+  card: 0..1
+states:
+- drawing close
+- committed
+- settled
+- strained
+- renewed
+- separated
+relations:
+- target: self
+  type: about
+- target: relationship-agreement
+  type: based-on

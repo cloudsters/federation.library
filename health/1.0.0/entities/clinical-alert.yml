@@ -1,0 +1,51 @@
+kind: entity
+slug: clinical-alert
+title: Clinical Alert
+type: transactional
+summary: A prospective warning attached to a patient, such as colonisation with a resistant organism, a fall risk or a risk of violence,
+  shown to everyone who acts on the record until it is ended.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: alert-kind
+  type: code
+  card: 1..1
+- name: reason
+  type: text
+  card: 0..1
+- name: period
+  type: period
+  card: 1..1
+- name: raised-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: visibility
+  type: code
+  card: 0..1
+states:
+- active
+- inactive
+- entered-in-error
+relations:
+- type: based-on
+  target: risk-assessment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

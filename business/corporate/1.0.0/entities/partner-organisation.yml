@@ -1,0 +1,47 @@
+kind: entity
+slug: partner-organisation
+title: Partner Organisation
+type: master
+summary: A co-creator of market reach — an alliance partner who extends the organisation's proposition into territories, segments, or
+  channels it cannot serve alone.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: partnership-type
+  type: code
+  card: 1..1
+- name: level
+  type: code
+  card: 0..1
+- name: commission-basis
+  type: text
+  card: 0..1
+- name: territories
+  type: reference(territory)
+  card: 0..*
+- name: segments
+  type: reference(market-segment)
+  card: 0..*
+states:
+- recruited
+- enabled
+- producing
+- tiered
+- wound-down
+relations:
+- type: refers-to
+  target: customer
+- type: assigned-to
+  target: territory
+- type: refers-to
+  target: channel
+- type: governed-by
+  target: agreement
+binds:
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

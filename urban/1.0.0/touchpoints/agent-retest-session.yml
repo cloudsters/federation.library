@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-retest-session
+title: Agent Retest Session
+medium: encounter
+summary: The testing of a retrained or reconfigured agent for fairness and results before it returns to its role.
+exchanges:
+- data-advice-for-lawful-retraining-and-retirement
+- retraining-for-a-continued-contract
+journey: municipal-ai-agent-serving-a-fixed-term

@@ -1,0 +1,40 @@
+kind: entity
+slug: boundary-set
+title: Boundaries
+type: governance
+summary: What this person has declared is not available — time, access, kinds of demand, kinds of behaviour. A boundary that has never
+  been stated out loud is a preference, and the model records which is which.
+attributes:
+- name: limits
+  type: text
+  card: 1..*
+- name: area
+  type: code
+  card: 1..*
+- name: applies-to
+  type: text
+  card: 0..*
+- name: stated-aloud
+  type: boolean
+  card: 1..1
+- name: stated-on
+  type: date
+  card: 0..1
+- name: last-tested
+  type: date
+  card: 0..1
+- name: revisit-on
+  type: date
+  card: 0..1
+states:
+- felt
+- declared
+- held
+- tested
+- crossed
+- revised
+relations:
+- target: value-set
+  type: based-on
+- target: self
+  type: about

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: questions-for-complete-answers
+title: Questions for Complete Answers
+between:
+- news-media
+- communications-officer
+offered:
+- Journalists' questions on what the city does and fails to do.
+returned:
+- Prompt and complete answers from a named spokesperson, with the enquiry and the answer on record.
+touchpoint: press-enquiry-line

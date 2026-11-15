@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: screening-for-protection
+title: Screening for Protection
+between:
+- elective-inpatient
+- registered-nurse
+offered:
+- The patient gives a screening swab on admission and follows the isolation precautions if found to carry a resistant organism.
+returned:
+- The nurse protects the patient from acquiring resistant organisms and explains the result, the reason for any isolation and how
+  long it will last.
+touchpoint: admission-desk

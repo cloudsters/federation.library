@@ -1,0 +1,37 @@
+kind: entity
+slug: ethics-policy
+title: Ethics Policy
+type: governance
+summary: A statement of ethical standards — the organisation's explicit code of what is right, so that taking part in it is guided by
+  shared values beyond mere compliance.
+attributes:
+- name: value-statements
+  type: text
+  card: 1..*
+- name: conduct-principles
+  type: text
+  card: 1..*
+- name: prohibited-behaviours
+  type: text
+  card: 0..*
+- name: expected-behaviours
+  type: text
+  card: 0..*
+- name: grey-area-guidance
+  type: text
+  card: 0..1
+- name: reporting-mechanism
+  type: text
+  card: 1..1
+states:
+- authored
+- ratified
+- communicated
+- lived
+- reviewed
+- renewed
+relations:
+- type: refers-to
+  target: solidarity-covenant
+- type: refers-to
+  target: policy

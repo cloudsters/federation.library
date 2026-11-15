@@ -1,0 +1,51 @@
+kind: journey
+slug: research-consortium-partnership
+title: Research Consortium Partnership
+stakeholder: research-partner
+summary: 'The side of a university or research institute that works with the commons on joint projects: finding a shared question,
+  applying for funds together, agreeing the rules, running the work and publishing the results.'
+stages:
+- slug: finding-a-shared-question
+  title: Finding a Shared Question
+  goal: Find a group in the commons with a complementary question, data or method.
+  step: industry-and-academic-partnerships/partner-scouting-and-matching
+  touchpoints:
+  - partnering-meeting
+- slug: checking-the-fit
+  title: Checking the Fit
+  goal: Confirm that both sides can commit capacity and that data and rights can be shared under fair rules.
+  step: industry-and-academic-partnerships/collaboration-assessment
+  touchpoints:
+  - partnering-meeting
+- slug: applying-together
+  title: Applying Together
+  goal: Submit a joint plan and, where funding is sought, a joint application with clear roles.
+  step: industry-and-academic-partnerships/joint-work-planning
+  touchpoints:
+  - funding-proposal
+  - study-protocol
+  - consortium-meeting
+- slug: agreeing-the-rules
+  title: Agreeing the Rules
+  goal: Sign an agreement on contributions, data and sample exchange, publication and rights before the work starts.
+  step: industry-and-academic-partnerships/collaboration-agreement
+  touchpoints:
+  - research-collaboration-agreement
+- slug: running-the-work
+  title: Running the Work
+  goal: Exchange data and samples as agreed, meet milestones and report to the funder on time.
+  step: industry-and-academic-partnerships/joint-work-conduct
+  touchpoints:
+  - consortium-meeting
+- slug: publishing-the-results
+  title: Publishing the Results
+  goal: Publish jointly and on time, with fair authorship and agreed handling of inventions.
+  step: industry-and-academic-partnerships/results-and-rights
+  touchpoints:
+  - scientific-publication
+- slug: reviewing-the-partnership
+  title: Reviewing the Partnership
+  goal: Decide whether the partnership continues into new projects.
+  step: industry-and-academic-partnerships/relationship-review
+  touchpoints:
+  - partnership-review-meeting

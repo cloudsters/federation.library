@@ -1,0 +1,55 @@
+kind: journey
+slug: ward-team-relying-on-building-services
+title: Ward Team Relying on Building Services
+stakeholder: registered-nurse
+summary: A ward team depends on power, ventilation, water and medical gases at every moment, reports faults, makes room for maintenance
+  and handles waste, and expects the building to keep patients safe.
+stages:
+- slug: prepare-for-planned-shutdowns
+  title: Prepare for Planned Shutdowns
+  goal: The ward learns of planned interruptions in time and has the measures in place that keep patients safe.
+  step: facility-operations-and-maintenance/installation-register-and-maintenance-planning
+  touchpoints:
+  - shutdown-notice
+- slug: report-a-fault
+  title: Report a Fault
+  goal: A fault is reported once, rated by risk to patients and fixed while the ward is kept informed.
+  step: facility-operations-and-maintenance/fault-reporting-and-response
+  touchpoints:
+  - facility-service-desk
+  - building-control-centre
+- slug: make-room-for-maintenance
+  title: Make Room for Maintenance
+  goal: Work on the ward happens at agreed times under infection control and safety measures.
+  step: facility-operations-and-maintenance/planned-maintenance-and-inspection
+  touchpoints:
+  - permit-to-work
+  - shutdown-notice
+- slug: rely-on-supplies
+  title: Rely on Supplies
+  goal: Power, ventilation, water and medical gases meet the ward's needs, and failures switch to backup without harm.
+  step: facility-operations-and-maintenance/utilities-and-energy-supply
+  touchpoints:
+  - building-control-centre
+  - ward
+- slug: stay-safe-and-secure
+  title: Stay Safe and Secure
+  goal: Staff can summon security at any time and know how to evacuate patients in a fire.
+  step: facility-operations-and-maintenance/site-safety-and-security
+  touchpoints:
+  - security-service
+  - evacuation-drill
+- slug: separate-and-hand-over-waste
+  title: Separate and Hand Over Waste
+  goal: Waste is separated correctly at source and collected before it accumulates.
+  step: facility-operations-and-maintenance/waste-handling-and-disposal
+  touchpoints:
+  - waste-collection-point
+  - waste-consignment-note
+- slug: see-service-performance
+  title: See Service Performance
+  goal: The ward sees response times, availability and its own energy and waste figures.
+  step: facility-operations-and-maintenance/performance-and-compliance-review
+  touchpoints:
+  - facility-service-report
+  - footprint-dashboard

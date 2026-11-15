@@ -1,0 +1,6 @@
+kind: capability
+slug: asset-criticality-rating
+title: Asset Criticality Rating
+level: L3
+parent: asset-planning-and-condition
+summary: Rate each asset by the services and neighbourhoods that depend on it and the harm its failure would cause.

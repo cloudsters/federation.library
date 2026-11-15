@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: monthly-variance-report
+title: Monthly Variance Report
+medium: artefact
+summary: The monthly comparison of actuals with the budget, with each deviation explained by its owner and the updated forecast for
+  the year.
+exchanges:
+- explained-deviations-for-timely-correction
+journey: city-council-adopting-and-steering-the-budget

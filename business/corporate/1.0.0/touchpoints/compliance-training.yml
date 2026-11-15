@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: compliance-training
+title: Compliance Training
+medium: encounter
+summary: The training, in person or online, in which staff learn the integrity code and the policies their role requires and confirm
+  that they know them.
+exchanges:
+- attention-for-practical-guidance
+- attested-conduct-for-clear-rules
+journey: employee-raising-an-integrity-concern

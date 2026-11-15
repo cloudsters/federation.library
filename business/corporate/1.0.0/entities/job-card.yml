@@ -1,0 +1,41 @@
+kind: entity
+slug: job-card
+title: Job Card
+type: transactional
+summary: A record of production work — a time-tracked operation within a work order that records what happened at a specific workstation,
+  making manufacturing visible and measurable.
+attributes:
+- name: work-order
+  type: reference(work-order)
+  card: 1..1
+- name: operation
+  type: text
+  card: 1..1
+- name: workstation
+  type: reference(workstation)
+  card: 1..1
+- name: operator
+  type: reference(employee-record)
+  card: 0..1
+- name: started-at
+  type: datetime
+  card: 1..1
+- name: finished-at
+  type: datetime
+  card: 0..1
+- name: produced-quantity
+  type: quantity
+  card: 0..1
+- name: scrapped-quantity
+  type: quantity
+  card: 0..1
+states:
+- open
+- in-progress
+- paused
+- completed
+relations:
+- type: part-of
+  target: work-order
+- type: assigned-to
+  target: workstation

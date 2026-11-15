@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shipping-data-for-reliable-carriage
+title: Shipping Data for Reliable Carriage
+between:
+- logistics-coordinator
+- logistics-service-provider
+offered:
+- Accurate shipping data, plannable volumes, consignments ready at the agreed time and freight settled promptly.
+returned:
+- Reliable carriage, tracking to proof of delivery and reach into markets the company does not serve itself.
+touchpoint: invoice

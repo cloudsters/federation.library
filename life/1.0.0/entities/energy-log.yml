@@ -1,0 +1,35 @@
+kind: entity
+slug: energy-log
+title: Energy Log
+type: intelligence
+summary: Where this person's capacity actually is across a day and a week, and what reliably drains or restores it. Recorded rather
+  than assumed, because almost everyone is wrong about their own peak hours.
+attributes:
+- name: logged-on
+  type: date
+  card: 1..1
+- name: time-of-day
+  type: code
+  card: 0..1
+- name: level
+  type: code
+  card: 1..1
+- name: drains
+  type: text
+  card: 0..*
+- name: restores
+  type: text
+  card: 0..*
+- name: context
+  type: text
+  card: 0..1
+states:
+- begun
+- kept
+- read
+- paused
+relations:
+- target: body
+  type: about
+- target: daily-rhythm
+  type: about

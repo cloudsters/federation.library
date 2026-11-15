@@ -1,0 +1,199 @@
+kind: value-stream
+slug: international-patient-services
+title: International Patient Services
+family: interest-to-relationship
+summary: 'Serving patients from abroad: enquiry, medical pre-assessment, cost estimate and payment guarantee, travel and stay arrangements,
+  interpretation, care coordination and aftercare at home.'
+trigger: A patient, physician or insurer from abroad requests treatment.
+outcome: The patient has been treated as agreed, the account is settled, and an aftercare plan is in place in the home country.
+stakeholders:
+- international-patient
+- relative
+- payer
+- referring-hospital
+- referring-practice
+- case-manager
+- specialist-physician
+- medical-interpreter
+- administrative-staff
+steps:
+- slug: enquiry-and-records-intake
+  title: Enquiry and Records Intake
+  summary: An enquiry from a patient, physician, insurer or agency abroad is registered by the international patient office, which
+    names one coordinator and requests the records, images and questions in a language the commons can review.
+  capabilities:
+  - international-patient-services
+  - patient-contact-centre
+  - interpreting-and-language-services
+  - document-digitisation
+  - data-protection-governance
+  entities:
+  - enquiry
+  - request-for-care
+  - patient
+  - clinical-document
+  - image-study
+  serves:
+  - international-patient-office
+- slug: medical-pre-assessment
+  title: Medical Pre-Assessment
+  summary: A specialist of the relevant service reviews the records, if needed by video with the patient or the physician abroad,
+    and states whether the commons can help, the proposed treatment, its expected duration and the risks of travel.
+  capabilities:
+  - finding-integration
+  - radiological-reporting
+  - video-consultation
+  - specialist-teleconsultation
+  - admission-decision
+  - care-plan-determination
+  entities:
+  - request-for-care
+  - clinical-document
+  - diagnostic-report
+  - image-study
+  - teleconsultation
+  - care-plan
+  serves:
+  - international-patient-office
+  - telemedicine-service
+- slug: cost-estimate-and-payment-guarantee
+  title: Cost Estimate and Payment Guarantee
+  summary: The treatment plan is priced into a cost estimate with its validity and contingencies; the commons commits to treatment
+    only once a payer's guarantee or the patient's deposit is in place and the treatment contract is signed.
+  capabilities:
+  - optional-and-self-pay-services
+  - tariff-and-price-management
+  - insurance-verification-and-coverage
+  - accounts-receivable
+  - contract-lifecycle-stewardship
+  entities:
+  - cost-estimate
+  - price-list
+  - insurance-coverage
+  - coverage-approval
+  - payment
+  - contract
+  - care-commitment
+  serves:
+  - cost-estimate
+  - international-patient-office
+- slug: travel-and-admission-planning
+  title: Travel and Admission Planning
+  summary: Dates are set across the departments involved; the patient receives a confirmation letter for travel and visa, transport
+    on arrival and lodging for companions are arranged, interpreters are booked and pre-admission tests are planned.
+  capabilities:
+  - international-patient-services
+  - appointment-booking-management
+  - pre-admission-preparation
+  - interpreting-and-language-services
+  - patient-transport-services
+  - relatives-and-visitor-support
+  entities:
+  - appointment
+  - care-commitment
+  - health-certificate
+  - related-person
+  - support-service-order
+  serves:
+  - international-patient-office
+  - treatment-confirmation-letter
+- slug: coordinated-treatment
+  title: Coordinated Treatment
+  summary: The patient is registered and identified, consents in their own language and is treated as planned; one coordinator keeps
+    teams, patient, companions and payer informed and agrees any change of plan and cost before it is made.
+  capabilities:
+  - patient-registration-and-admission
+  - patient-identification
+  - informed-consent
+  - interpreting-and-language-services
+  - international-patient-services
+  - interdisciplinary-consultation
+  - relatives-and-visitor-support
+  - patient-catering
+  entities:
+  - encounter
+  - episode-of-care
+  - informed-consent
+  - continuity-facilitator-mandate
+  - care-plan
+  - care-team
+  - cost-estimate
+  serves:
+  - admission-desk
+  - consent-form
+  - consultation
+  - international-patient-office
+  - ward
+- slug: discharge-and-handover-home
+  title: Discharge and Handover Home
+  summary: Before departure fitness to travel is confirmed, and the patient and the physician at home receive, with the patient's
+    consent, a translated discharge letter, the medication plan, images and an aftercare plan.
+  capabilities:
+  - discharge-readiness-assessment
+  - discharge-summary
+  - discharge-medication-plan
+  - patient-discharge-education
+  - interpreting-and-language-services
+  - care-transition-coordination
+  - health-information-release
+  entities:
+  - discharge-summary
+  - care-transition
+  - care-plan
+  - health-certificate
+  - mandate-to-export-personal-information
+  - image-study
+  serves:
+  - discharge-letter
+  - medication-plan
+- slug: account-settlement
+  title: Account Settlement
+  summary: The final account is itemised against the cost estimate, deposits and guarantees are offset, every difference is explained
+    to the patient or payer, and cross-border payment and any dispute are resolved.
+  capabilities:
+  - charge-capture
+  - optional-and-self-pay-services
+  - payer-invoicing
+  - accounts-receivable
+  - dunning-and-collections
+  - banking-and-reconciliation
+  entities:
+  - charge-item
+  - invoice
+  - payment
+  - cost-estimate
+  - coverage-approval
+  serves:
+  - cost-estimate
+  - international-patient-office
+- slug: remote-follow-up
+  title: Remote Follow-Up
+  summary: 'After return the coordinator and the treating specialist stay reachable: late results are sent, follow-up is held by video
+    with the patient or the physician at home, experience is surveyed and the relationship with the referring side is kept.'
+  capabilities:
+  - post-discharge-follow-up
+  - video-consultation
+  - specialist-teleconsultation
+  - laboratory-result-communication
+  - patient-experience-measurement
+  - referrer-relationship-management
+  entities:
+  - teleconsultation
+  - care-communication
+  - diagnostic-report
+  - patient-experience-survey
+  - referral-relationship
+  serves:
+  - diagnostic-report
+  - international-patient-office
+  - telemedicine-service
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

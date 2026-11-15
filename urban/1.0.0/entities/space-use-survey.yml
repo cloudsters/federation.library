@@ -1,0 +1,62 @@
+kind: entity
+slug: space-use-survey
+title: Space Use Survey
+type: intelligence
+summary: The record of how a public building is used through the day and the year, what it costs and emits, and which space stands
+  empty or underused. The facilities office prepares it, and it is used to propose what to share, combine or release.
+attributes:
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: survey-period
+  type: period
+  card: 1..1
+- name: surveyed-by
+  type: text
+  card: 1..1
+- name: spaces
+  type: text
+  card: 1..*
+- name: occupancy-by-time
+  type: document
+  card: 1..1
+- name: empty-spaces
+  type: text
+  card: 0..*
+- name: underused-spaces
+  type: text
+  card: 0..*
+- name: users
+  type: text
+  card: 0..*
+- name: running-cost
+  type: amount
+  card: 0..1
+- name: emissions
+  type: quantity
+  card: 0..1
+- name: proposed-changes
+  type: text
+  card: 0..*
+- name: method
+  type: text
+  card: 0..1
+states:
+- planned
+- surveyed
+- analysed
+- published
+- acted-on
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: building-energy-record
+- type: refers-to
+  target: carbon-footprint
+binds:
+- source: src-339
+  edition: 2018+Amd1:2024
+  jurisdiction: global

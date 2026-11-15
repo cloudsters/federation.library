@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: city-commitments-register
+title: City Commitments Register
+medium: artefact
+summary: The published register of the funded programmes as the city's commitments to residents, each with its benefits and measures,
+  owner, budget and dates.
+exchanges:
+- benefit-measures-for-published-commitments
+- commitments-for-independent-assurance
+journey: city-administration-carrying-the-strategy-into-funded-programmes

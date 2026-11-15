@@ -1,0 +1,54 @@
+kind: journey
+slug: legal-and-compliance-officer-keeping-the-municipality-lawful
+title: Legal and Compliance Officer Keeping the Municipality Lawful
+stakeholder: legal-and-compliance-officer
+summary: A legal officer takes in a matter, registers changed duties, drafts and tests a bylaw, gives each duty an owner and a control,
+  reviews contracts and leases, resolves claims through dialogue first and evidences compliance to the council and the supervisory
+  authority.
+stages:
+- slug: open-the-matter
+  title: Open the Matter
+  goal: The question, claim or obligation is recorded as a matter, assessed for urgency and exposure, and assigned.
+  step: legal-affairs-and-compliance/matter-intake
+  touchpoints:
+  - legal-advice-request
+  - claims-desk
+- slug: register-changed-duties
+  title: Register Changed Duties
+  goal: Each new or changed duty is in the register of obligations with the departments and activities it binds.
+  step: legal-affairs-and-compliance/obligation-identification
+  touchpoints:
+  - legal-change-bulletin
+- slug: draft-and-test-the-bylaw
+  title: Draft and Test the Bylaw
+  goal: The bylaw is in plain language, tested against the charter and higher law, and adopted by the council.
+  step: legal-affairs-and-compliance/bylaw-drafting-and-review
+  touchpoints:
+  - draft-bylaw
+  - council-meeting
+- slug: give-each-duty-an-owner
+  title: Give Each Duty an Owner
+  goal: Every obligation has an owner, a procedure and a control in the department that carries it.
+  step: legal-affairs-and-compliance/obligation-embedding
+  touchpoints:
+  - procedure-and-control-manual
+- slug: review-contracts-and-leases
+  title: Review Contracts and Leases
+  goal: Contracts, concessions and ground leases are lawful and fair, with the guarantees and bonds the city requires written in.
+  step: legal-affairs-and-compliance/contract-and-lease-review
+  touchpoints:
+  - contract-negotiation
+- slug: resolve-claims-through-dialogue
+  title: Resolve Claims Through Dialogue
+  goal: Claims are assessed and compensated where due, and disputes are mediated before any litigation.
+  step: legal-affairs-and-compliance/claim-and-dispute-resolution
+  touchpoints:
+  - mediation-session
+- slug: evidence-compliance
+  title: Evidence Compliance
+  goal: Compliance with each obligation is tested and reported to the council and the supervisory authority, and lessons reach bylaws
+    and procedures.
+  step: legal-affairs-and-compliance/compliance-assurance-and-reporting
+  touchpoints:
+  - compliance-report
+  - supervisory-review-meeting

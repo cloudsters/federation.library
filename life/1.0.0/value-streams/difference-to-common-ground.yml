@@ -1,0 +1,86 @@
+kind: value-stream
+slug: difference-to-common-ground
+title: Common Ground across Difference
+family: participant-to-community
+summary: Finding what holds across cultures, languages and convictions without flattening any of them into the others. The ground
+  has to be found, not assumed — and it is usually narrower and more load-bearing than either side expected.
+trigger: Someone close holds a conviction the person cannot share, or a move, a marriage or a new neighbourhood brings languages and
+  customs that do not fit together easily.
+outcome: The person can name the ground they share with people unlike them, however narrow, and stands on it without asking anyone
+  to become someone else.
+stakeholders:
+- community
+- partner
+- collaborator
+- close-friend
+steps:
+- slug: meeting-the-difference
+  title: Meeting the Difference
+  summary: Someone close holds a conviction the person cannot share, or a move or a marriage brings languages and customs that do
+    not fit together easily.
+  capabilities:
+  - staying-present-in-disagreement
+  entities:
+  - community-relation
+  - partner-relation
+  - worldview
+  serves:
+  - family-gathering
+  - the-neighbourhood
+- slug: understanding-before-answering
+  title: Understanding Before Answering
+  summary: Asking how the other came to hold what they hold, and listening long enough to be able to say it back in their words.
+  capabilities:
+  - listening-to-the-other-side
+  - understanding-another-worldview
+  entities:
+  - conversation
+  - worldview
+  serves:
+  - heart-to-heart
+- slug: seeing-ones-own-lens
+  title: Seeing One's Own Lens
+  summary: Noticing which of one's own convictions are inherited custom rather than chosen, and that they look just as strange from
+    outside.
+  capabilities:
+  - seeing-own-assumptions
+  entities:
+  - premise
+  - worldview
+- slug: finding-what-holds
+  title: Finding What Holds
+  summary: Naming the ground both sides already stand on, however narrow, a child both love, a street both live on, a care both share.
+  capabilities:
+  - finding-common-ground
+  entities:
+  - conversation
+  - community-relation
+  - value-set
+  serves:
+  - heart-to-heart
+  - the-neighbourhood
+- slug: acting-on-the-common-ground
+  title: Acting on the Common Ground
+  summary: Doing something together on that ground, a meal, a project, a shared decision, without asking anyone to give up who they
+    are.
+  capabilities:
+  - finding-common-ground
+  - staying-present-in-disagreement
+  entities:
+  - civic-action
+  - community-relation
+  - ritual
+  serves:
+  - open-table
+  - the-neighbourhood
+  - volunteer-shift
+- slug: letting-the-difference-stand
+  title: Letting the Difference Stand
+  summary: Accepting what remains unshared, and keeping the bond without needing the other to come round.
+  capabilities:
+  - staying-present-in-disagreement
+  entities:
+  - relationship-map
+  - worldview
+  serves:
+  - family-gathering

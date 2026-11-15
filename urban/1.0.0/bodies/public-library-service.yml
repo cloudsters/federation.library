@@ -1,0 +1,17 @@
+kind: body
+slug: public-library-service
+title: Public Library Service
+summary: Runs the city's libraries and tool-sharing points, lends books, tools and devices for learning, and offers devices, connection
+  and patient help with digital services in each neighbourhood.
+holds:
+- learning-resource-lending
+- digital-help-provision
+- community-venue-programming
+- community-media-space-provision
+- community-archive-keeping
+- story-consent-recording
+- media-skills-teaching
+- tool-library-operation
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,12 @@
+# One line ending everywhere: a release copy's digest is the same on every platform (LIBRARY R9).
+* text=auto eol=lf
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.zip  binary

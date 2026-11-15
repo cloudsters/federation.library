@@ -1,0 +1,13 @@
+kind: capability
+slug: solution-build-and-test
+title: Solution Build & Test
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Build or configure solutions to requirements and test them before release.
+binds:
+- source: src-312
+  edition: '2016'
+  jurisdiction: global
+- source: src-330
+  edition: '2021'
+  jurisdiction: global

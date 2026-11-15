@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: dispute-evidence-for-a-fair-settlement
+title: Dispute Evidence for a Fair Settlement
+between:
+- business-customer
+- customer-service-representative
+offered:
+- The reason for a deduction or dispute, with its evidence.
+returned:
+- A prompt settlement by credit note or explanation, and the cause fixed in sales or delivery.
+touchpoint: service-hotline

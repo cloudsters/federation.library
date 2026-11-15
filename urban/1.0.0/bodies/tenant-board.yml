@@ -1,0 +1,11 @@
+kind: body
+slug: tenant-board
+title: Tenant Board
+summary: The body that tenants of a building or estate elect from among themselves, which sets the standard of a livable home with
+  the housing office, inspects against it with trained residents and reviews how the homes are run.
+holds:
+- home-condition-inspection
+- tenant-body-support
+part_of: housing-committee
+type: committee
+form: governing-body

@@ -1,0 +1,78 @@
+# The steering loop of the family Discovery to Usage in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.discovery-to-usage
+title: Keep the family 'Discovery to Usage' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: discovery-to-usage
+  vs:
+  - public-service-design
+  - digital-public-services
+  - service-access-and-wayfinding
+  - service-applications-and-entitlements
+  - school-places-and-learning-pathways
+  - adult-and-lifelong-learning
+  - public-health-and-prevention
+  - integrated-health-and-social-care
+stance: The city designs its services so that residents find them and use them. No single stream of this family can see what
+  its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/discovery-to-usage
+  - value-model.yml#vs/public-service-design
+  - value-model.yml#vs/digital-public-services
+  - value-model.yml#vs/service-access-and-wayfinding
+  - value-model.yml#vs/service-applications-and-entitlements
+  - value-model.yml#vs/school-places-and-learning-pathways
+  - value-model.yml#vs/adult-and-lifelong-learning
+  - value-model.yml#vs/public-health-and-prevention
+  - value-model.yml#vs/integrated-health-and-social-care
+  registry:
+  - registry/value-streams/public-service-design.yml
+  - registry/value-streams/digital-public-services.yml
+  - registry/value-streams/service-access-and-wayfinding.yml
+  - registry/value-streams/service-applications-and-entitlements.yml
+  - registry/value-streams/school-places-and-learning-pathways.yml
+  - registry/value-streams/adult-and-lifelong-learning.yml
+  - registry/value-streams/public-health-and-prevention.yml
+  - registry/value-streams/integrated-health-and-social-care.yml
+  loop_states:
+  - operations/loops/_state/public-service-design.yml
+  - operations/loops/_state/digital-public-services.yml
+  - operations/loops/_state/service-access-and-wayfinding.yml
+  - operations/loops/_state/service-applications-and-entitlements.yml
+  - operations/loops/_state/school-places-and-learning-pathways.yml
+  - operations/loops/_state/adult-and-lifelong-learning.yml
+  - operations/loops/_state/public-health-and-prevention.yml
+  - operations/loops/_state/integrated-health-and-social-care.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.discovery-to-usage.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

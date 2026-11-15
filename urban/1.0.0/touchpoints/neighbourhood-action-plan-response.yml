@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-action-plan-response
+title: Neighbourhood Action Plan Response
+medium: artefact
+summary: The city's written answer to each request of a neighbourhood action plan, stating what it will do, by when, and why where
+  it will not.
+exchanges:
+- plan-requests-for-a-city-answer
+journey: neighbourhood-association-acting-for-its-neighbourhood

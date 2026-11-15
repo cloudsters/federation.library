@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: occupational-health-consultation
+title: Occupational Health Consultation
+medium: encounter
+summary: The confidential appointment with the occupational health service for pre-employment and periodic examinations, vaccinations,
+  care after an exposure and advice on fitness for work.
+exchanges:
+- disclosure-for-confidential-protection
+- pre-employment-health-assessment
+journey: working-safely-and-staying-well

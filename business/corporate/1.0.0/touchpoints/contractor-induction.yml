@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contractor-induction
+title: Contractor Induction
+medium: encounter
+summary: The induction of contractor staff into a site's hazards, rules, emergency routes and stop-work authority before they start
+  work on site.
+exchanges:
+- site-induction-for-safe-contract-work
+journey: contractor-working-safely-on-site

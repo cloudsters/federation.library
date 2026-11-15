@@ -1,0 +1,32 @@
+kind: journey
+slug: customer-relying-on-dependable-quality
+title: Customer Relying on Dependable Quality
+stakeholder: business-customer
+summary: A business customer states its quality requirements, receives a plan to meet them, raises a complaint when a delivery fails,
+  gets a lasting correction and relies on a certified quality system.
+stages:
+- slug: state-the-requirements
+  title: State the Requirements
+  goal: The customer's critical characteristics and acceptance criteria are understood and fixed in a quality plan.
+  step: quality-as-vitality/quality-requirements
+  touchpoints:
+  - quality-plan
+  - account-review
+- slug: raise-a-complaint
+  title: Raise a Complaint
+  goal: A failed delivery is acknowledged, contained and its impact on the customer's own operation is limited.
+  step: quality-as-vitality/non-conformance-handling
+  touchpoints:
+  - complaint-and-warranty-claim
+- slug: receive-a-lasting-correction
+  title: Receive a Lasting Correction
+  goal: The customer receives the root cause, the corrective actions and evidence that they work.
+  step: quality-as-vitality/cause-analysis-and-correction
+  touchpoints:
+  - corrective-action-report
+- slug: rely-on-a-certified-system
+  title: Rely on a Certified System
+  goal: A valid certificate and closed audit findings give the customer confidence without auditing everything itself.
+  step: quality-as-vitality/certification
+  touchpoints:
+  - certification-audit

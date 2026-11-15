@@ -1,0 +1,17 @@
+kind: solution
+slug: partner-and-channel-management-system
+title: Partner and Channel Management System
+role: system-of-record
+summary: Holds partners and channels with their agreements, levels, joint plans, registered deals and incentives, and offers partners
+  a portal to work with the commons.
+carries:
+- channel-ecosystem-design
+- channel-vitality-sensing
+- distribution-partnering
+- distribution-resource-architecture
+- partner-ecosystem-vitality
+- partner-portal-management
+- white-label-partnership
+holds:
+- partner-organisation
+- channel

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contract-exit-handover
+title: Contract Exit Handover
+medium: encounter
+summary: The handover at the end of a contract in which the supplier passes data, assets and knowledge to the city or the next provider
+  under the exit plan.
+exchanges:
+- continuity-for-an-orderly-exit
+journey: contract-manager-running-a-contract

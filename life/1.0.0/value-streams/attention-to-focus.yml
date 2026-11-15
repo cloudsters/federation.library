@@ -1,0 +1,92 @@
+kind: value-stream
+slug: attention-to-focus
+title: Guarding Attention
+family: demand-to-fulfillment
+summary: Attention treated as a held resource with a claim on it from every direction — defended, spent deliberately, and restored
+  when it runs out.
+trigger: A full day ends and the person cannot say where it went, or they notice they can no longer stay with one thing for long.
+outcome: Attention goes where the person means it to go, can be withdrawn from what does not matter, and comes back after rest.
+stakeholders:
+- employer
+- client
+- synthetic-collaborator
+- partner
+steps:
+- slug: losing-the-day
+  title: Losing the Day
+  summary: A full day ends and cannot be accounted for; the person admits that their attention is being spent by others more than
+    by themselves.
+  capabilities:
+  - noticing-where-attention-goes
+  entities:
+  - time-audit
+  - journal
+- slug: tracing-the-claims
+  title: Tracing the Claims on Attention
+  summary: 'Every pull on attention is traced to where it comes from: devices, messages, people, machines that ask for input, one''s
+    own restlessness.'
+  capabilities:
+  - noticing-where-attention-goes
+  - seeing-what-tools-take
+  entities:
+  - device
+  - agent
+  - technology-policy
+  - time-audit
+- slug: choosing-what-deserves-it
+  title: Choosing What Deserves It
+  summary: The person decides which few things are worth their whole attention in this season, and which may have only what is left
+    over.
+  capabilities:
+  - choosing-what-matters-now
+  entities:
+  - intention
+  - venture-portfolio
+  - commitment
+- slug: closing-the-doors
+  title: Closing the Doors
+  summary: Alerts, open channels and standing interruptions are shut or bundled, and others are told when the person can and cannot
+    be reached.
+  capabilities:
+  - taming-ones-devices
+  - saying-no-early
+  entities:
+  - technology-policy
+  - device
+  - boundary-set
+  - workspace
+  serves:
+  - away-message
+  - settings-screen
+- slug: staying-with-one-thing
+  title: Staying With One Thing
+  summary: Long unbroken stretches are kept for the work that needs them, and the person comes back gently each time the mind wanders
+    off.
+  capabilities:
+  - staying-with-one-thing
+  entities:
+  - daily-rhythm
+  - intention
+  - creative-output
+- slug: letting-attention-refill
+  title: Letting Attention Refill
+  summary: When attention runs dry, the person stops feeding it more input and lets it come back through quiet, the outdoors, movement
+    or sleep.
+  capabilities:
+  - resting-the-mind
+  entities:
+  - recovery-period
+  - significant-place
+  - daily-rhythm
+  serves:
+  - out-in-the-open
+- slug: checking-where-it-went
+  title: Checking Where It Went
+  summary: From time to time the person sets where attention actually went beside where it was meant to go, and adjusts the doors.
+  capabilities:
+  - looking-back-without-blame
+  - noticing-where-attention-goes
+  entities:
+  - time-audit
+  - coherence-reading
+  - review-cadence

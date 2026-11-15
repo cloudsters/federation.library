@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: event-plan-for-a-fair-assessment
+title: Event Plan for a Fair Assessment
+between:
+- event-organiser
+- city-administration
+offered:
+- The plan of the event, its audience, its needs and who has a say in it.
+returned:
+- A fair assessment within a set time, with the conditions that would make it work.
+touchpoint: event-assessment-meeting

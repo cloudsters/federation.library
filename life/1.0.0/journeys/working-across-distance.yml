@@ -1,0 +1,46 @@
+kind: journey
+slug: working-across-distance
+title: Working across Distance
+stakeholder: collaborator
+via: collaboration-to-automation
+summary: A collaborator in another place and time agrees with this person when to meet and when not, works in writing in between,
+  and keeps the relation more than a queue of tasks.
+stages:
+- slug: feel-the-stretch
+  title: Feel the Stretch
+  goal: Both sides have named how calls were eating the early mornings and late evenings.
+  step: distance-to-rhythm/feeling-the-stretch
+  touchpoints:
+  - video-call
+- slug: see-both-days
+  title: See Both Days
+  goal: The two working days lie side by side, showing where they overlap and where they never will.
+  step: distance-to-rhythm/seeing-both-days
+  touchpoints:
+  - shared-calendar
+- slug: agree-the-times
+  title: Agree the Times
+  goal: When to meet, when to answer and when each side is out of reach has been said aloud and holds.
+  step: distance-to-rhythm/agreeing-times-to-meet-and-not
+  touchpoints:
+  - shared-calendar
+  - video-call
+- slug: work-in-between
+  title: Work in Between
+  goal: Most of the shared work waits in writing for the collaborator to wake, and meetings are kept for a live voice.
+  step: distance-to-rhythm/working-in-between
+  touchpoints:
+  - message-thread
+  - shared-document
+- slug: keep-it-warm
+  title: Keep It Warm
+  goal: There is room for unhurried exchange, so the relation is more than tasks.
+  step: distance-to-rhythm/keeping-the-bond-warm
+  touchpoints:
+  - video-call
+- slug: check-the-pace
+  title: Check the Pace
+  goal: The pace has been looked at together and changed before either side quietly gave way.
+  step: distance-to-rhythm/checking-the-pace
+  touchpoints:
+  - video-call

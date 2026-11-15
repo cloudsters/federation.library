@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-findings-for-better-design
+title: Service Findings for Better Design
+between:
+- field-service-technician
+- development-engineer
+offered:
+- Service reports that record findings, recurring faults and how customers really use the product.
+returned:
+- Design and documentation changes that make the product easier to service and less likely to fail.
+touchpoint: service-report

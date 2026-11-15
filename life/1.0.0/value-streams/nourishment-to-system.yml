@@ -1,0 +1,79 @@
+kind: value-stream
+slug: nourishment-to-system
+title: Feeding the Body
+family: acquire-to-retire
+summary: Feeding the body as the living system it is, including the one inside it that does most of the work.
+trigger: Eating has become hurried, anxious or numb, or the gut, the skin or the body's defences start to protest.
+outcome: Food is chosen and shared with care for the living system it feeds, and hunger is a signal the person can trust again.
+stakeholders:
+- partner
+- child
+- practitioner
+- community
+steps:
+- slug: noticing-how-one-eats
+  title: Noticing How One Eats
+  summary: The person notices that eating has become hurried, anxious or numb, or that gut, skin or defences have begun to protest.
+  capabilities:
+  - listening-to-the-body
+  entities:
+  - habit-record
+  - body
+  - mood-record
+- slug: relearning-hunger
+  title: Relearning Hunger
+  summary: The person learns again to tell hunger from tiredness, boredom or stress, and to stop when they have had enough.
+  capabilities:
+  - trusting-ones-own-hunger
+  entities:
+  - body
+  - mood-record
+  - journal
+- slug: feeding-the-living-gut
+  title: Feeding the Living Gut
+  summary: 'Meals are chosen with the living system inside the gut in mind: variety, plants, fresh and fermented food, time between
+    meals.'
+  capabilities:
+  - eating-for-the-living-body
+  entities:
+  - health-plan
+  - habit-record
+  - body
+- slug: making-good-food-easy
+  title: Making Good Food Easy
+  summary: Shopping, cooking and the kitchen are arranged so that good food is the easy choice on a tired evening.
+  capabilities:
+  - cooking-simply-and-often
+  entities:
+  - home
+  - budget
+  - weekly-rhythm
+  serves:
+  - market-and-shop
+  - the-home
+- slug: eating-together
+  title: Eating Together
+  summary: Meals are shared at a table with others, at a pace that leaves room for talk, and children learn food by being around it.
+  capabilities:
+  - sharing-meals
+  entities:
+  - ritual
+  - partner-relation
+  - child-relation
+  - daily-rhythm
+  serves:
+  - shared-meal
+- slug: watching-what-food-does
+  title: Watching What Food Does
+  summary: The person notices how food affects energy, sleep, skin and mood, and adjusts, with a practitioner's help when the body
+    keeps protesting.
+  capabilities:
+  - weighing-feeling-against-measure
+  - knowing-ones-own-baseline
+  entities:
+  - health-data
+  - energy-log
+  - health-plan
+  - practitioner-relation
+  serves:
+  - doctors-appointment

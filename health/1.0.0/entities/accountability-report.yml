@@ -1,0 +1,48 @@
+kind: entity
+slug: accountability-report
+title: Accountability Report
+type: intelligence
+summary: A report by which the organisation accounts for its performance to its owner, its governance bodies or the public, such as
+  the annual report, a periodic owner report or a report the owner requested, composed of financial, activity, quality, workforce
+  and risk results.
+attributes:
+- name: report-kind
+  type: code
+  card: 1..1
+- name: addressee
+  type: reference(governance-body)
+  card: 0..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: financial-statement
+  type: reference(financial-statement)
+  card: 0..1
+- name: measure-reports
+  type: reference(measure-report)
+  card: 0..*
+- name: risks
+  type: reference(risk)
+  card: 0..*
+- name: content
+  type: document
+  card: 1..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- in-preparation
+- approved
+- submitted
+- published
+relations:
+- type: composed-of
+  target: financial-statement
+- type: composed-of
+  target: measure-report
+- type: based-on
+  target: governance-decision
+binds:
+- source: src-139
+  edition: '2.1'
+  jurisdiction: global

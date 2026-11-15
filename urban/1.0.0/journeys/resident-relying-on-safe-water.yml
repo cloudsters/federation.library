@@ -1,0 +1,42 @@
+kind: journey
+slug: resident-relying-on-safe-water
+title: Resident Relying on Safe Water
+stakeholder: resident
+summary: A resident reads the published water quality of their neighbourhood, is connected and has a leak repaired, is served first
+  in a shortage, uses a clean public toilet nearby and pays for drainage by the rain the property sends into the system.
+stages:
+- slug: trust-the-tap
+  title: Trust the Tap
+  goal: The resident can read the test results for the taps of their neighbourhood and is warned at once of any problem.
+  step: water-supply-and-sanitation/treatment-and-water-quality-testing
+  touchpoints:
+  - tap-water-quality-results
+- slug: be-connected-and-repaired
+  title: Be Connected and Repaired
+  goal: The household is connected to the water and sewer networks, its meter is read, and a reported leak is found and repaired.
+  step: water-supply-and-sanitation/household-connection-and-network-upkeep
+  touchpoints:
+  - utility-connection-request
+  - leak-and-outage-line
+- slug: be-served-first-in-a-shortage
+  title: Be Served First in a Shortage
+  goal: In a shortage or failure the household's basic need is served first under published rules, and water is brought where supply
+    is cut off.
+  step: water-supply-and-sanitation/shortage-and-interruption-response
+  touchpoints:
+  - water-restriction-notice
+  - emergency-water-point
+- slug: use-a-clean-toilet-nearby
+  title: Use a Clean Toilet Nearby
+  goal: A clean public toilet is open in the resident's neighbourhood, and the wastewater of the household is collected and treated.
+  step: water-supply-and-sanitation/wastewater-treatment-and-public-toilets
+  touchpoints:
+  - public-toilet
+- slug: pay-for-the-rain-sent
+  title: Pay for the Rain Sent
+  goal: The drains of the street are clear, rain is held in green spaces, and the household's drainage charge follows the rain its
+    property sends into the system.
+  step: water-supply-and-sanitation/stormwater-and-drainage
+  touchpoints:
+  - rain-garden-street
+  - household-utility-bill

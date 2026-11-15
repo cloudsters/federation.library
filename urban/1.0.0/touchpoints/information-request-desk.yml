@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: information-request-desk
+title: Information Request Desk
+medium: channel
+summary: The desk, online and in person, where residents and organisations request records of the city and follow the deadline and
+  answer.
+exchanges:
+- challenge-for-a-corrected-or-halted-system
+- reporting-for-searchable-records
+- request-for-an-answer-in-time
+journey: resident-keeping-the-city-open

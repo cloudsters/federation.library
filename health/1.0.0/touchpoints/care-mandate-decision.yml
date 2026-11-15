@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: care-mandate-decision
+title: Care Mandate Decision
+medium: artefact
+summary: The decision of a public authority that assigns the commons its care mandate and services, on which its permission
+  to provide and be paid for care depends.
+exchanges:
+- criteria-evidence-for-service-assignment
+- care-mandate-designation
+- regional-service-assignment
+- service-group-evidence-and-assignment
+journey: planning-authority-designating-the-mandate

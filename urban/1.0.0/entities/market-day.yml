@@ -1,0 +1,48 @@
+kind: entity
+slug: market-day
+title: Market Day
+type: transactional
+summary: A single day of market trading, with the market, the pitches taken, the traders present and the fees collected. The market's
+  operator records it, and it is used to count the use of pitches, to collect fees and to plan the next market days.
+attributes:
+- name: market
+  type: reference(market)
+  card: 1..1
+- name: trading-date
+  type: date
+  card: 1..1
+- name: hours
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: pitches-taken
+  type: reference(trading-pitch)
+  card: 0..*
+- name: traders-present
+  type: integer
+  card: 0..1
+- name: fees-collected
+  type: amount
+  card: 0..1
+- name: visitor-count
+  type: integer
+  card: 0..1
+- name: incidents
+  type: text
+  card: 0..*
+states:
+- scheduled
+- open
+- closed
+- cancelled
+relations:
+- type: part-of
+  target: market
+- type: refers-to
+  target: trading-pitch
+- type: refers-to
+  target: city-events-calendar
+- type: produces
+  target: payment

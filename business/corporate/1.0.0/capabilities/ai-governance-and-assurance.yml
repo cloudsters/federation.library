@@ -1,0 +1,10 @@
+kind: capability
+slug: ai-governance-and-assurance
+title: AI Governance & Assurance
+level: L2
+parent: ai-and-automation
+summary: Governing the use of AI and assuring that it works as intended.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,14 @@
+kind: body
+slug: local-economy-committee
+title: Local Economy Committee
+summary: Prepares the council's decisions on the economic development strategy and the sectors it supports, the market network plan,
+  the conditions on platforms and the investment agreements that come with city support, and receives the yearly reviews of business
+  support, networks, markets, the social economy and investment outcomes.
+holds:
+- economic-priority-setting
+- platform-licence-condition-setting
+- purchasing-commitment-setting
+- local-spend-reporting
+part_of: full-council
+type: committee
+form: governing-body

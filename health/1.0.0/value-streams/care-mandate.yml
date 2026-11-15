@@ -1,0 +1,153 @@
+kind: value-stream
+slug: care-mandate
+title: Care Mandate
+family: perception-to-mandate
+summary: 'Perceiving and holding the statutory care mandate: the care level, the designated service groups and their qualifying
+  criteria, the population the organisation must serve and the obligations attached, from application through renewal.'
+trigger: The public planning authority revises the regional care plan or opens a designation procedure, or a periodic review
+  of qualifying criteria falls due.
+outcome: The organisation holds a confirmed mandate in which every designated service group is evidenced against its criteria
+  and every obligation has a named owner.
+stakeholders:
+- health-planning-authority
+- national-care-standards-body
+- executive
+- head-of-clinical-department
+- referring-hospital
+- local-authority
+- general-public
+steps:
+- slug: planning-signal-intake
+  title: Planning Signal Intake
+  summary: A revised regional care plan, an opened designation procedure or a due review of qualifying criteria is registered,
+    and its consequences for care level, service groups and obligations are scoped.
+  capabilities:
+  - regulatory-landscape-sensing
+  - regional-care-planning-participation
+  - care-mandate-definition
+  - government-relations
+  entities:
+  - service-mandate
+  - service-group
+  - compliance-obligation
+  serves:
+  - regional-planning-conference
+- slug: population-need-assessment
+  title: Population Need Assessment
+  summary: The health needs, demand and access patterns of the population in the service region are assessed, together with
+    referral flows and the services neighbouring providers hold.
+  capabilities:
+  - population-needs-assessment
+  - demand-and-market-analysis
+  - referral-volume-forecasting
+  - service-region-design
+  - occupancy-forecasting
+  entities:
+  - catchment-population
+  - capacity-forecast
+  - measure-report
+  - referral-relationship
+  serves:
+  - regional-planning-conference
+- slug: criteria-self-assessment
+  title: Criteria Self-Assessment
+  summary: For the care level and for each held or sought service group, staffing, equipment, volume and quality criteria
+    are checked against the organisation's actual position, and every gap is named with what closing it would take.
+  capabilities:
+  - service-group-qualification
+  - care-level-classification
+  - safe-staffing-compliance
+  - specialist-qualification-verification
+  - medical-device-investment-planning
+  - outcome-benchmarking
+  entities:
+  - service-group
+  - service-group-assignment
+  - volume-threshold
+  - staffing-standard
+  - measure-report
+  serves:
+  - statutory-submission
+- slug: mandate-positioning
+  title: Mandate Positioning
+  summary: The organisation decides which care level and service groups to seek, keep or give up, aligns this with its academic
+    mandate and with neighbouring providers, and adopts the position.
+  capabilities:
+  - clinical-service-portfolio-stewardship
+  - academic-mandate-alignment
+  - regional-care-planning-participation
+  - alliance-and-merger-assessment
+  - care-mandate-definition
+  entities:
+  - service-mandate
+  - service-group-assignment
+  - governance-decision
+  - care-network
+  serves:
+  - regional-planning-conference
+- slug: application-and-designation
+  title: Application and Designation
+  summary: The application is submitted with evidence for each criterion, the authority's questions are answered, and the
+    designation decision is received and accepted or contested.
+  capabilities:
+  - service-group-qualification
+  - care-mandate-definition
+  - government-relations
+  - legal-advisory
+  - dispute-and-litigation
+  entities:
+  - service-group-assignment
+  - service-mandate
+  - statutory-report
+  - legal-matter
+  serves:
+  - care-mandate-decision
+  - mandate-application
+  - referrer-portal
+- slug: obligation-assignment
+  title: Obligation Assignment
+  summary: Every obligation attached to the mandate, from round-the-clock emergency care to public-health duties and pandemic
+    readiness, is assigned to a named owner and built into plans, budgets and capacity.
+  capabilities:
+  - compliance-framework
+  - population-health-responsibility
+  - delegation-of-authority
+  - emergency-network-coordination
+  - resource-capacity-planning
+  - planning-and-budgeting
+  entities:
+  - compliance-obligation
+  - service-mandate
+  - organisation-unit
+  - decision-right
+  - budget
+  serves:
+  - statutory-submission
+- slug: mandate-evidence-and-renewal
+  title: Mandate Evidence and Renewal
+  summary: Fulfilment of criteria, volumes and obligations is evidenced continuously and reported to the authorities, deviations
+    are corrected before they endanger a designation, and renewal is prepared from this record.
+  capabilities:
+  - service-group-qualification
+  - regulatory-reporting
+  - mandatory-quality-reporting
+  - compliance-sensing-monitoring
+  - safe-staffing-compliance
+  - drift-and-vitality-sensing
+  - availability-funding
+  entities:
+  - statutory-report
+  - measure-report
+  - quality-report
+  - service-group-assignment
+  - volume-threshold
+  - corrective-action
+  serves:
+  - inspection-and-audit
+  - public-quality-report
+  - statutory-submission
+start: true
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

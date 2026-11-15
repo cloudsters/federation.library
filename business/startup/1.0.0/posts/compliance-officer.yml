@@ -1,0 +1,13 @@
+kind: post
+slug: compliance-officer
+title: Compliance Officer
+summary: 'Keeps the enterprise acting with integrity and within the law.'
+of: executive-board
+responsibility: 'Leads the compliance programme with direct access to the executive and the audit and risk committee: integrity code,
+  anti-corruption, competition rules, investigations and compliance reporting.'
+accountable: body:executive-board
+type: role
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

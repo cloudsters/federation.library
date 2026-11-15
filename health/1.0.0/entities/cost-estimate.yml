@@ -1,0 +1,49 @@
+kind: entity
+slug: cost-estimate
+title: Cost Estimate
+type: transactional
+summary: A statement of the expected cost of a planned treatment for a patient who pays, or whose payer pays, outside negotiated rates,
+  built from the treatment plan and the price list, with validity, contingencies and the deposit or guarantee required.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: care-plan
+  type: reference(care-plan)
+  card: 0..1
+- name: price-list
+  type: reference(price-list)
+  card: 1..1
+- name: addressee
+  type: reference(organisation)
+  card: 0..1
+- name: estimated-amount
+  type: amount
+  card: 1..1
+- name: contingencies
+  type: text
+  card: 0..*
+- name: deposit-required
+  type: amount
+  card: 0..1
+- name: validity
+  type: period
+  card: 1..1
+states:
+- draft
+- issued
+- accepted
+- declined
+- expired
+- settled
+relations:
+- type: based-on
+  target: care-plan
+- type: based-on
+  target: price-list
+- type: refers-to
+  target: coverage-approval
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

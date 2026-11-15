@@ -1,0 +1,6 @@
+kind: capability
+slug: exchange-need-assessment
+title: Exchange Need Assessment
+level: L3
+parent: interoperability-and-integration
+summary: Record which data a service needs from another system, for what purpose and how often.

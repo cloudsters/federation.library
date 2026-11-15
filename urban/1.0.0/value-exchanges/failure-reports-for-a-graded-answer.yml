@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: failure-reports-for-a-graded-answer
+title: Failure Reports for a Graded Answer
+between:
+- resident
+- city-administration
+offered:
+- Reports of what went wrong when they used a service.
+returned:
+- A report graded by harm and urgency and answered within the time the standard sets.
+touchpoint: failure-and-near-miss-report-line

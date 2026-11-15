@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-service-trial
+title: Neighbourhood Service Trial
+medium: place
+summary: The neighbourhood in which a new or changed service runs for a defined time before the city decides to launch, change or
+  stop it.
+exchanges:
+- trial-experience-for-a-launch-decision
+journey: city-administration-bringing-a-new-service-into-use

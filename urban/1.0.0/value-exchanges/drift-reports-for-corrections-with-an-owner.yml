@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: drift-reports-for-corrections-with-an-owner
+title: Drift Reports for Corrections with an Owner
+between:
+- neighbourhood-association
+- city-council
+offered:
+- Reports of where budgets, services and decisions in the neighbourhood depart from the charter.
+returned:
+- Each drift corrected with an owner, a measure and a date, and stale parts of the charter renewed or retired.
+touchpoint: state-of-the-city-report

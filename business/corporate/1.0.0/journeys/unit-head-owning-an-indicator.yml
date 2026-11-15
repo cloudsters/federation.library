@@ -1,0 +1,31 @@
+kind: journey
+slug: unit-head-owning-an-indicator
+title: Unit Head Owning an Indicator
+stakeholder: site-manager
+summary: A unit head shapes the indicators that will judge the unit, confirms each period's results, reviews them with peers and governance
+  and answers every material gap with an action of their own.
+stages:
+- slug: shape-the-indicator
+  title: Shape the Indicator
+  goal: The indicator says what matters for the unit, has a named owner and has been tested for how it could be gamed.
+  step: sensing-benchmarking/indicator-definition
+  touchpoints:
+  - indicator-specification
+- slug: confirm-the-results
+  title: Confirm the Results
+  goal: Each period's results are complete and plausible, and the unit head confirms them before release.
+  step: sensing-benchmarking/measurement-and-validation
+  touchpoints:
+  - performance-dashboard
+- slug: review-with-the-whole-picture
+  title: Review with the Whole Picture
+  goal: Customer, operational, financial, people and impact results are reviewed together with trend and peer position.
+  step: sensing-benchmarking/performance-review
+  touchpoints:
+  - performance-review-meeting
+- slug: answer-the-gap
+  title: Answer the Gap
+  goal: Every material gap has an action with an owner and a date, and indicators that no longer mean anything are revised.
+  step: sensing-benchmarking/gap-response
+  touchpoints:
+  - performance-review-meeting

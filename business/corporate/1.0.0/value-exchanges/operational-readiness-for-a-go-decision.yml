@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: operational-readiness-for-a-go-decision
+title: Operational Readiness for a Go Decision
+between:
+- information-technology-specialist
+- site-manager
+offered:
+- A release ready to go, with fallback and handover prepared.
+returned:
+- A go decision and the unit's people available for cutover and support.
+touchpoint: go-live-readiness-review

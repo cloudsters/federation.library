@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: control-matrix
+title: Control Matrix
+medium: artefact
+summary: The register that maps the risks of each process to controls, owners, evidence and test results.
+exchanges:
+- documented-controls-for-audit-reliance
+journey: compliance-professional-auditing-internal-controls

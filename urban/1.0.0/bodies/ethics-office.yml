@@ -1,0 +1,11 @@
+kind: body
+slug: ethics-office
+title: Ethics Office
+summary: Keeps the confidential reporting channels, protects those who use them, investigates each report independently and checks
+  declarations of interests.
+holds:
+- misconduct-reporting-and-investigation
+- interest-declaration-handling
+part_of: standards-committee
+type: function
+form: organisational-unit

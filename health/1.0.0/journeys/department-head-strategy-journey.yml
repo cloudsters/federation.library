@@ -1,0 +1,62 @@
+kind: journey
+slug: department-head-strategy-journey
+title: Department Head Strategy Journey
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department takes part in the strategy cycle from the first invitation to carrying the agreed objectives
+  into the team.
+stages:
+- slug: invited-into-the-cycle
+  title: Invited into the Cycle
+  goal: Know the scope, calendar and own role in the strategy review.
+  step: strategy-development/strategy-review-commissioning
+  touchpoints:
+  - strategy-workshop
+  - staff-intranet
+- slug: contribute-field-knowledge
+  title: Contribute Field Knowledge
+  goal: Bring the department's view of demand, referrers and competing providers into the assessment.
+  step: strategy-development/environment-and-need-assessment
+  touchpoints:
+  - strategy-workshop
+  - performance-dashboard
+- slug: assess-the-department
+  title: Assess the Department
+  goal: See the department's strengths, gaps and results against peers and explain them.
+  step: strategy-development/internal-capability-assessment
+  touchpoints:
+  - performance-dialogue
+  - performance-dashboard
+- slug: shape-the-options
+  title: Shape the Options
+  goal: Test strategic options against clinical reality and propose the department's role in them.
+  step: strategy-development/vision-and-option-design
+  touchpoints:
+  - strategy-workshop
+- slug: learn-the-choice
+  title: Learn the Choice
+  goal: Understand the adopted strategy, its investments and what it means for the department.
+  step: strategy-development/strategy-choice-and-adoption
+  touchpoints:
+  - strategy-document
+  - staff-town-hall
+- slug: find-the-departments-place
+  title: Find the Department's Place
+  goal: Know the department's place, leadership and reporting line in the target structure, and the path to it.
+  step: strategy-development/target-organisation-design
+  touchpoints:
+  - strategy-document
+  - performance-dialogue
+- slug: agree-unit-objectives
+  title: Agree Unit Objectives
+  goal: Agree measurable objectives, resources and decision room for the department.
+  step: strategy-development/objective-cascade
+  touchpoints:
+  - unit-objectives-agreement
+  - performance-dialogue
+- slug: carry-the-strategy-to-the-team
+  title: Carry the Strategy to the Team
+  goal: Explain the strategy and the department's objectives to the team and return its questions.
+  step: strategy-development/strategy-communication
+  touchpoints:
+  - staff-town-hall
+  - staff-intranet

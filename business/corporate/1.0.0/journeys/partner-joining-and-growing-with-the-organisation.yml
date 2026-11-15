@@ -1,0 +1,47 @@
+kind: journey
+slug: partner-joining-and-growing-with-the-organisation
+title: Partner Joining and Growing with the Organisation
+stakeholder: partner
+summary: A partner applies and is selected, agrees terms, is trained and equipped, delivers under its own brand, registers and co-sells
+  deals and has its performance reviewed fairly.
+stages:
+- slug: apply-and-be-selected
+  title: Apply and Be Selected
+  goal: The partner is selected for its reach, competence and fit with the organisation's values.
+  step: channel-partner-distribution/partner-recruitment-and-selection
+  touchpoints:
+  - partner-portal
+  - trade-fair
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: Territory, brand use, quality, prices and revenue share are agreed.
+  step: channel-partner-distribution/partner-agreement
+  touchpoints:
+  - partner-agreement
+  - contract-negotiation
+- slug: get-trained-and-equipped
+  title: Get Trained and Equipped
+  goal: The partner is trained, certified and equipped with offers, material and support.
+  step: channel-partner-distribution/partner-onboarding-and-enablement
+  touchpoints:
+  - partner-training
+  - partner-portal
+- slug: deliver-under-its-own-brand
+  title: Deliver Under Its Own Brand
+  goal: The partner delivers under its own brand against shared quality standards.
+  step: channel-partner-distribution/white-label-delivery
+  touchpoints:
+  - partner-portal
+- slug: register-and-co-sell
+  title: Register and Co-Sell
+  goal: Opportunities are registered early and sold jointly where needed.
+  step: channel-partner-distribution/deal-registration-and-co-selling
+  touchpoints:
+  - deal-registration
+  - sales-meeting
+- slug: review-performance
+  title: Review Performance
+  goal: Sales and customer experience are reviewed and the partnership coached, renewed or ended.
+  step: channel-partner-distribution/partner-performance-review
+  touchpoints:
+  - partner-business-review

@@ -1,0 +1,13 @@
+kind: solution
+slug: therapist
+title: Therapist
+role: person
+sovereignty: third-party
+summary: Holds a regular, confidential hour in which the person's patterns, hurts and reactions are looked at with a trained witness.
+carries:
+- telling-it-to-someone-who-listens
+- recognising-ones-own-patterns
+- looking-at-what-hurt
+- naming-what-one-feels
+holds:
+- session

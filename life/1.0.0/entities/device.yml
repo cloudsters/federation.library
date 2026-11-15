@@ -1,0 +1,34 @@
+kind: entity
+slug: device
+title: Device
+type: master
+summary: A machine this life runs on — computer, phone, tablet, instrument, tool. Recorded with what depends on it, because the cost
+  of a device is almost never its price.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: used-for
+  type: text
+  card: 1..*
+- name: what-depends-on-it
+  type: text
+  card: 0..*
+- name: data-kept
+  type: text
+  card: 0..*
+- name: acquired-on
+  type: date
+  card: 0..1
+- name: still-used
+  type: boolean
+  card: 1..1
+states:
+- added
+- relied on
+- joined up
+- unused
+- retired
+relations:
+- target: technology-policy
+  type: based-on

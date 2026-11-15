@@ -1,0 +1,65 @@
+kind: entity
+slug: birth
+title: Birth
+type: transactional
+summary: The birth of a child in the organisation's care, linking mother and newborn and recording onset and mode of birth, time,
+  gestational age, attendants and the newborn's condition at birth. It opens the newborn's own record and is the source of the birth
+  notification.
+attributes:
+- name: mother
+  type: reference(patient)
+  card: 1..1
+- name: newborn
+  type: reference(patient)
+  card: 1..1
+- name: birth-time
+  type: datetime
+  card: 1..1
+- name: gestational-age
+  type: quantity
+  card: 1..1
+- name: onset-of-labour
+  type: code
+  card: 1..1
+- name: mode-of-birth
+  type: code
+  card: 1..1
+- name: condition-at-birth
+  type: reference(observation)
+  card: 1..*
+- name: attendants
+  type: reference(practitioner-role)
+  card: 1..*
+states:
+- expected
+- in-labour
+- born
+- notified
+relations:
+- type: part-of
+  target: episode-of-care
+- type: composed-of
+  target: procedure
+- type: refers-to
+  target: patient
+- type: produces
+  target: health-certificate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-430
+  edition: '2019'
+  jurisdiction: global
+- source: src-581
+  edition: '1953'
+  jurisdiction: global

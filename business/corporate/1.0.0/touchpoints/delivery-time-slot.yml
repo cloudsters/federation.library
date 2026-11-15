@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: delivery-time-slot
+title: Delivery Time Slot
+medium: artefact
+summary: The booked window in which a supplier or carrier delivers at the receiving dock, so that unloading, checking and putaway
+  can be prepared and waiting times avoided.
+exchanges:
+- booked-slot-for-prompt-receipt
+journey: carrier-moving-the-companys-goods

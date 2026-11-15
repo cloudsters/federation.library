@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: quality-samples-for-acknowledged-use
+title: Quality Samples for Acknowledged Use
+between:
+- research-scientist
+- research-partner
+offered:
+- The biobank's scientists offer quality-assured samples with linked clinical data and documented consent.
+returned:
+- The partner returns a stated research purpose, a contribution to costs, acknowledgement in publications and the data generated from
+  the samples.
+touchpoint: data-use-and-access-committee

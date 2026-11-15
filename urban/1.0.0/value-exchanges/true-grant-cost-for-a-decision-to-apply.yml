@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: true-grant-cost-for-a-decision-to-apply
+title: True Grant Cost for a Decision to Apply
+between:
+- finance-officer
+- mayor
+offered:
+- The conditions of a grant, its match funding and the running costs it leaves behind.
+returned:
+- A decision on which calls the city pursues.
+touchpoint: grant-fit-assessment

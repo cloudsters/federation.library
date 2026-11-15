@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: live-environment-readings
+title: Live Environment Readings
+medium: channel
+summary: The published readings of air quality, noise and heat across the city as they come in, by street and neighbourhood.
+exchanges:
+- sensor-hosting-for-published-readings
+journey: affected-community-stopping-a-hazard-at-its-source

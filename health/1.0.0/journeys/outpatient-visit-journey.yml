@@ -1,0 +1,55 @@
+kind: journey
+slug: outpatient-visit-journey
+title: Outpatient Visit Journey
+stakeholder: outpatient
+summary: A person referred to a specialist clinic prepares, is seen and examined, has tests done the same day, leaves with a plan
+  and treatment where needed, and knows the next contact.
+stages:
+- slug: get-ready
+  title: Get Ready
+  goal: Know what to bring, complete questionnaires and send prior findings ahead.
+  step: outpatient-care/visit-preparation
+  touchpoints:
+  - appointment-confirmation
+  - patient-portal
+- slug: check-in-and-wait
+  title: Check In and Wait
+  goal: Check in quickly and know how long the wait will be.
+  step: outpatient-care/arrival-and-check-in
+  touchpoints:
+  - outpatient-clinic
+  - admission-desk
+- slug: be-heard
+  title: Be Heard
+  goal: Be listened to and examined, in a language understood.
+  step: outpatient-care/history-and-examination
+  touchpoints:
+  - consultation
+- slug: have-tests-done
+  title: Have Tests Done
+  goal: Have the tests done on the same day without extra trips.
+  step: outpatient-care/outpatient-diagnostics
+  touchpoints:
+  - laboratory-counter
+  - imaging-department
+- slug: leave-with-a-plan
+  title: Leave with a Plan
+  goal: Leave with a diagnosis and a plan that is understood and agreed.
+  step: outpatient-care/diagnosis-and-plan
+  touchpoints:
+  - consultation
+  - medication-plan
+- slug: be-treated-without-a-stay
+  title: Be Treated without a Stay
+  goal: Receive infusions, radiotherapy or minor procedures and return home the same day.
+  step: outpatient-care/outpatient-treatment
+  touchpoints:
+  - day-care-unit
+- slug: know-the-next-contact
+  title: Know the Next Contact
+  goal: Know when and how the next contact takes place, in person or by video, or that care is complete.
+  step: outpatient-care/follow-up-or-completion
+  touchpoints:
+  - telemedicine-service
+  - patient-portal
+  - clinic-letter

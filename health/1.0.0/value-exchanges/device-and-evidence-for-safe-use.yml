@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: device-and-evidence-for-safe-use
+title: Device and Evidence for Safe Use
+between:
+- supplier
+- clinical-engineer
+offered:
+- The supplier offers the device with user instruction, technical documentation, service and the evidence behind its claims.
+returned:
+- The clinical engineers return a safely commissioned installation, structured user feedback and data on use under the agreed terms.
+touchpoint: device-commissioning

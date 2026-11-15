@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: home-readings-for-timely-response
+title: Home Readings for Timely Response
+between:
+- person-with-chronic-condition
+- advanced-practice-nurse
+offered:
+- Regular readings and symptom reports from home, and use of the devices as agreed.
+returned:
+- Alerts reviewed within the agreed time, a call or visit when values change, and direct admission when needed.
+touchpoint: home-monitoring-device

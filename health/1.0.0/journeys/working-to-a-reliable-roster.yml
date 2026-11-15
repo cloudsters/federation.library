@@ -1,0 +1,35 @@
+kind: journey
+slug: working-to-a-reliable-roster
+title: Working to a Reliable Roster
+stakeholder: registered-nurse
+summary: A nurse plans life around shifts, works them at safe staffing and sees the time worked credited, with fair treatment when
+  cover is needed at short notice.
+stages:
+- slug: plan-availability
+  title: Plan Availability
+  goal: Request leave and state shift preferences, then receive the roster early enough to plan life around it.
+  step: workforce-scheduling-and-staffing/roster-planning
+  touchpoints:
+  - hr-self-service
+  - duty-roster
+- slug: work-a-safely-staffed-shift
+  title: Work a Safely Staffed Shift
+  goal: Work a shift staffed at the required level, and be asked fairly and rarely to cover at short notice.
+  step: workforce-scheduling-and-staffing/shift-adjustment
+  touchpoints:
+  - staffing-huddle
+  - shift-handover
+  - ward
+- slug: record-the-time
+  title: Record the Time
+  goal: Record worked time, on-call duty and overtime with little effort.
+  step: workforce-scheduling-and-staffing/time-recording
+  touchpoints:
+  - hr-self-service
+- slug: see-the-time-credited
+  title: See the Time Credited
+  goal: See hours, overtime and on-call duty credited correctly and paid or compensated.
+  step: workforce-scheduling-and-staffing/period-close
+  touchpoints:
+  - hr-self-service
+  - pay-statement

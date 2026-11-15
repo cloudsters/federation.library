@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: disclosure-for-trust
+title: Disclosure for Trust
+between:
+- self
+- partner
+- client
+- dependant
+offered:
+- Saying plainly when an agent is acting, and whom to reach when it errs.
+returned:
+- Trust that holds when the agent gets something wrong.
+touchpoint: kitchen-table

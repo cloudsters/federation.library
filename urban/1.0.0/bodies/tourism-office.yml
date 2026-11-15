@@ -1,0 +1,15 @@
+kind: body
+slug: tourism-office
+title: Tourism Office
+summary: Tracks visitors and their effects by neighbourhood and season, drafts the visitor strategy and the host neighbourhood agreements,
+  relieves crowded places and gives visitors information that invites them to take part and to respect local life.
+holds:
+- visitor-economy
+- visitor-impact-monitoring
+- visitor-strategy-drafting
+- host-neighbourhood-agreement-drafting
+- visitor-crowding-control
+- visitor-information-provision
+part_of: full-council
+type: function
+form: organisational-unit

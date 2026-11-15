@@ -1,0 +1,67 @@
+kind: entity
+slug: framework-agreement
+title: Framework Agreement
+type: governance
+summary: An agreement that sets prices and terms for repeated purchases over a period, for the city alone or for several parties under
+  a joint purchasing agreement, against which orders are placed as needed within agreed volume bands. The procurement office or the
+  shared procurement service awards and keeps it, and members, and purchasing groups where the statutory framework allows, order under
+  it.
+attributes:
+- name: agreement-reference
+  type: identifier
+  card: 1..1
+- name: awarded-through
+  type: reference(public-procurement)
+  card: 1..1
+- name: suppliers
+  type: reference(supplier-record)
+  card: 1..*
+- name: parties
+  type: text
+  card: 1..*
+- name: category
+  type: reference(procurement-category)
+  card: 1..1
+- name: lots
+  type: text
+  card: 0..*
+- name: price-schedule
+  type: document
+  card: 1..1
+- name: volume-bands
+  type: text
+  card: 0..*
+- name: term
+  type: period
+  card: 1..1
+- name: maximum-value
+  type: amount
+  card: 0..1
+- name: call-off-rules
+  type: text
+  card: 1..1
+- name: open-to-purchasing-groups
+  type: boolean
+  card: 0..1
+states:
+- awarded
+- active
+- extended
+- exhausted
+- expired
+- terminated
+relations:
+- type: based-on
+  target: public-procurement
+- type: based-on
+  target: award-decision
+- type: refers-to
+  target: joint-purchasing-agreement
+- type: refers-to
+  target: supplier-record
+- type: produces
+  target: purchase-order
+binds:
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global

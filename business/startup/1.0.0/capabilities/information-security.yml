@@ -1,0 +1,10 @@
+kind: capability
+slug: information-security
+title: Information Security
+level: L2
+parent: technology-operations-and-security
+summary: Protecting information and systems against threats.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

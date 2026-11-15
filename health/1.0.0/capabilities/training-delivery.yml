@@ -1,0 +1,13 @@
+kind: capability
+slug: training-delivery
+title: Training Delivery
+level: L3
+parent: continuing-education
+summary: Plan, deliver and evaluate training programmes for staff.
+binds:
+- source: src-365
+  edition: '2019'
+  jurisdiction: global
+- source: src-460
+  edition: '1959'
+  jurisdiction: global

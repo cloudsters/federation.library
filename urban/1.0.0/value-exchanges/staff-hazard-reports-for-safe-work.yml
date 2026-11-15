@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-hazard-reports-for-safe-work
+title: Staff Hazard Reports for Safe Work
+between:
+- municipal-employee
+- city-administration
+offered:
+- Reports of hazards on routes, sites and visits.
+returned:
+- Each hazard in the shared register and acted on.
+touchpoint: hazard-reporting-line

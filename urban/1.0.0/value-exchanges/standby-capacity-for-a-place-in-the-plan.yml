@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: standby-capacity-for-a-place-in-the-plan
+title: Standby Capacity for a Place in the Plan
+between:
+- local-producer
+- procurement-officer
+offered:
+- The readiness of the producer to supply an essential good at short notice.
+returned:
+- A standby agreement with a place in the essential supply plan and orders when a main supplier fails.
+touchpoint: standby-supplier-qualification

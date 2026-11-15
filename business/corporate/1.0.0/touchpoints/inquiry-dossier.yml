@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: inquiry-dossier
+title: Inquiry Dossier
+medium: artefact
+summary: The record of a prospect's interest handed to sales, with who they are, what they read, asked and attended, and the consents
+  they gave.
+exchanges:
+- warm-inquiry-for-respectful-follow-up
+journey: sales-representative-receiving-warm-inquiries

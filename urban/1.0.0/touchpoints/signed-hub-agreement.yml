@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: signed-hub-agreement
+title: Signed Hub Agreement
+medium: artefact
+summary: The signed agreement under which a hub is run, with its schedules, allocations, workers' pay and right to stop unsafe schedules,
+  and the cap on commission from producers.
+exchanges:
+- public-site-for-shared-decisions-over-a-hub
+- produce-through-the-platform-for-a-capped-commission
+- delivery-work-for-fair-pay-and-safe-schedules
+journey: local-producer-selling-through-a-neighbourhood-hub

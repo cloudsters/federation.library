@@ -1,0 +1,26 @@
+kind: journey
+slug: blood-donor-journey
+title: Blood Donor Journey
+stakeholder: living-donor
+summary: A person gives blood or blood components, is checked and cared for at the donation, and learns of relevant findings and of
+  the safe use of the gift.
+stages:
+- slug: give-blood
+  title: Give Blood
+  goal: Book a time, pass the health check, donate comfortably and be thanked.
+  step: transfusion-medicine/blood-donation
+  touchpoints:
+  - donor-service
+  - blood-donation-centre
+- slug: hear-back
+  title: Hear Back
+  goal: Be told of any relevant finding in the donation, and be called again when the blood group is needed.
+  step: transfusion-medicine/component-preparation-and-storage
+  touchpoints:
+  - donor-service
+- slug: trust-the-gift-is-traced
+  title: Trust the Gift Is Traced
+  goal: Trust that each donation reaches a patient safely and can be traced if a problem arises.
+  step: transfusion-medicine/haemovigilance-and-traceability
+  touchpoints:
+  - donor-service

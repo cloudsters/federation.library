@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: investment-request
+title: Investment Request
+medium: artefact
+summary: The request with which a unit asks for equipment, building work or digital infrastructure, stating the need, the cost, the
+  benefit and the urgency.
+exchanges:
+- clinical-need-for-fitting-equipment
+- investment-need-for-priority-decision
+- replacement-plan-for-funded-renewal
+journey: requesting-an-investment

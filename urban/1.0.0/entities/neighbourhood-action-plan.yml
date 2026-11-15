@@ -1,0 +1,64 @@
+kind: entity
+slug: neighbourhood-action-plan
+title: Neighbourhood Action Plan
+type: governance
+summary: The plan a neighbourhood body agrees with its residents and the city, with its priorities, the decisions and budget share
+  the neighbourhood holds, what it asks of the city and the city's answer. The neighbourhood body keeps it and the city records its
+  answer, and both review it each year against what it achieved before renewing it.
+attributes:
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: neighbourhood-body
+  type: text
+  card: 1..1
+- name: plan-period
+  type: period
+  card: 1..1
+- name: priorities
+  type: text
+  card: 1..*
+- name: decisions-held
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: budget-share
+  type: amount
+  card: 0..1
+- name: participatory-budget
+  type: reference(participatory-budget-cycle)
+  card: 0..*
+- name: requests-to-city
+  type: text
+  card: 0..*
+- name: city-answer
+  type: text
+  card: 0..*
+- name: asset-map
+  type: reference(community-asset-map)
+  card: 0..1
+- name: agreed-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- agreed
+- answered
+- in-force
+- reviewed
+- renewed
+- retired
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: community-asset-map
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: participatory-budget-cycle
+- type: refers-to
+  target: whole-city-assessment

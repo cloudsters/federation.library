@@ -1,0 +1,99 @@
+kind: value-stream
+slug: community-voice-architecture
+title: Community Voice Architecture
+family: participant-to-community
+summary: 'Architecting how people inside the organisation speak and are heard: communication planned with them, dialogue channels
+  open to everyone, conflict handled as a source of learning, and the health of the community sensed and answered.'
+trigger: Leadership has a decision to communicate, an engagement or dialogue cycle falls due, or tension surfaces in a team or community.
+outcome: People understand the decision, have given their view through a channel open to them, and have seen how their voice changed
+  what happens next.
+stakeholders:
+- employee
+- executive-board
+- human-resources-professional
+- works-council
+- site-manager
+steps:
+- slug: message-and-audience
+  title: Message and Audience
+  summary: Decide what must be communicated or asked, to whom and why, and plan messages, channels and timing so that dialogue is
+    invited rather than announced and nobody is left out by design.
+  capabilities:
+  - community-communication-design
+  - communication-strategy
+  - inclusion-by-design
+  entities:
+  - communication
+  - department
+  serves:
+  - intranet
+  - team-meeting
+- slug: representative-consultation
+  title: Representative Consultation
+  summary: Inform and consult the employee representatives in good time where the matter touches their rights, before the message
+    goes to everyone.
+  capabilities:
+  - co-determination-cooperation
+  entities:
+  - communication
+  - governance-decision
+  serves:
+  - works-council-meeting
+- slug: dialogue-and-exchange
+  title: Dialogue and Exchange
+  summary: Open the channels where people talk with leadership and with each other, such as forums, gatherings, team meetings and
+    live conversation, so that the quiet and the periphery are heard.
+  capabilities:
+  - dialogue-exchange-cultivation
+  - livechat-conversational-engagement
+  - inclusion-by-design
+  - trust-architecture
+  entities:
+  - communication
+  - event
+  serves:
+  - employee-forum
+  - staff-assembly
+  - team-meeting
+- slug: engagement-pulse
+  title: Engagement Surveys
+  summary: Run engagement and pulse surveys as listening instruments, and sense trust, mutual support and collective capacity alongside
+    satisfaction.
+  capabilities:
+  - engagement-pulse-sensing
+  - community-health-sensing
+  entities:
+  - survey
+  - workforce-analytics
+  - measure-report
+  serves:
+  - pulse-survey
+  - works-council-meeting
+- slug: tension-resolution
+  title: Tension Resolution
+  summary: Surface tensions early and resolve them through facilitated, transparent paths, so that disagreement strengthens the community
+    instead of driving it underground.
+  capabilities:
+  - conflict-as-generative-practice
+  - trust-architecture
+  entities:
+  - grievance
+  - governance-decision
+  serves:
+  - facilitated-conversation
+- slug: response-and-recognition
+  title: Response and Recognition
+  summary: Publish back what was heard and what changes as a result, and recognise contributions in ways that honour participation
+    without manipulating behaviour.
+  capabilities:
+  - community-communication-design
+  - gamification-recognition-design
+  - trust-architecture
+  entities:
+  - communication
+  - improvement-suggestion
+  - measure-report
+  serves:
+  - intranet
+  - listening-report
+  - works-council-meeting

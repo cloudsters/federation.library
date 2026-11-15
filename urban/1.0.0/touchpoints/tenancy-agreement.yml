@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: tenancy-agreement
+title: Tenancy Agreement
+medium: artefact
+summary: The written agreement of a tenancy in plain language, with the rent and charges, the rights and duties of both sides and
+  how to report repairs.
+exchanges:
+- rent-and-care-for-a-safe-home-and-known-rights
+journey: tenant-living-in-a-city-home

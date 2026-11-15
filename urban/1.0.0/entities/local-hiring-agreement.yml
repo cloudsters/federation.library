@@ -1,0 +1,56 @@
+kind: entity
+slug: local-hiring-agreement
+title: Local Hiring Agreement
+type: governance
+summary: The commitment in a city contract, capital project or development agreement to hire residents, with its targets, the groups
+  it names and how it is reported. The council sets its terms and the department that holds the contract keeps it, and it is used
+  to direct outreach and job matching and to report the hires made.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: development-agreement
+  type: reference(development-agreement)
+  card: 0..1
+- name: capital-project
+  type: reference(capital-project)
+  card: 0..1
+- name: hiring-targets
+  type: text
+  card: 1..*
+- name: groups-named
+  type: text
+  card: 0..*
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: hires-reported
+  type: integer
+  card: 0..1
+- name: remedy-on-shortfall
+  type: text
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- negotiated
+- signed
+- in-force
+- reported
+- ended
+relations:
+- type: part-of
+  target: contract
+- type: part-of
+  target: development-agreement
+- type: based-on
+  target: economic-development-strategy
+- type: governed-by
+  target: procurement-policy
+- type: refers-to
+  target: employment-pathway

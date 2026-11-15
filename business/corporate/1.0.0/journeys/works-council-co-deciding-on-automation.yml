@@ -1,0 +1,34 @@
+kind: journey
+slug: works-council-co-deciding-on-automation
+title: Works Council Co-Deciding on Automation
+stakeholder: works-council
+summary: Employee representatives learn early which work is to be automated, weigh its effect on people, agree the conditions under
+  which agents may act and follow the review of automated processes.
+stages:
+- slug: know-the-rules-of-change
+  title: Know the Rules of Change
+  goal: The representatives know how processes may change and where their rights of information and co-determination apply.
+  step: process-as-living-pattern/process-governance
+  touchpoints:
+  - works-council-meeting
+- slug: weigh-each-automation
+  title: Weigh Each Automation
+  goal: Candidates for automation are disclosed early with their effect on jobs, workload and monitoring, and the council's view shapes
+    the decision.
+  step: process-as-living-pattern/automation-decision
+  touchpoints:
+  - automation-review-board
+  - works-council-meeting
+- slug: agree-the-terms-of-agency
+  title: Agree the Terms of Agency
+  goal: Limits on what agents may decide about people, and the paths to human override, are agreed before agents go live.
+  step: process-as-living-pattern/agent-mandate-design
+  touchpoints:
+  - agent-mandate
+- slug: follow-the-review
+  title: Follow the Review
+  goal: The council sees whether automated processes delivered their gains fairly and can ask for changes before mandates are renewed.
+  step: process-as-living-pattern/co-authorship-and-review
+  touchpoints:
+  - decision-log
+  - works-council-meeting

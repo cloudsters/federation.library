@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: user-experience-for-service-standards
+title: User Experience for Service Standards
+between:
+- disabled-resident
+- city-administration
+offered:
+- The experience of using the service and of where it fails its users.
+returned:
+- Standards set with its users, to which the service is then held.
+touchpoint: service-council-meeting

@@ -1,0 +1,53 @@
+kind: entity
+slug: market
+title: Market
+type: master
+summary: A regular or permanent marketplace for goods and exchange, with its vendors, its stalls and the rules of trading. The city
+  or the vendors' cooperative that runs it keeps the record, and it is used to allocate stalls, to support vendors into cooperatives
+  and to provide shared facilities.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: location
+  type: reference(land-parcel)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: market-kind
+  type: code
+  card: 1..1
+- name: trading-days
+  type: text
+  card: 1..*
+- name: stall-count
+  type: integer
+  card: 0..1
+- name: vendors
+  type: text
+  card: 0..*
+- name: operated-by
+  type: text
+  card: 1..1
+- name: trading-rules
+  type: document
+  card: 0..1
+- name: shared-facilities
+  type: text
+  card: 0..*
+states:
+- proposed
+- licensed
+- operating
+- suspended
+- closed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: cooperative
+- type: governed-by
+  target: bylaw

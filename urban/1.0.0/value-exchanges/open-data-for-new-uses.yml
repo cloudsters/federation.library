@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-data-for-new-uses
+title: Open Data for New Uses
+between:
+- local-business
+- city-administration
+offered:
+- Services built on the city's open data, and word of how it is used.
+returned:
+- Data sets free of personal data under an open licence, with a stated update rhythm.
+touchpoint: open-data-download-page

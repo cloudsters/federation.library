@@ -1,0 +1,39 @@
+kind: entity
+slug: cost-center
+title: Cost Center
+type: master
+summary: An accountability boundary — an organizational lens through which income and expense are tracked, making visible where value
+  is consumed and created.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: code
+  type: identifier
+  card: 1..1
+- name: parent
+  type: reference(cost-center)
+  card: 0..1
+- name: owning-department
+  type: reference(department)
+  card: 0..1
+- name: business-unit
+  type: reference(business-unit)
+  card: 0..1
+states:
+- defined
+- budgeted
+- charged
+- reviewed
+- closed
+relations:
+- type: part-of
+  target: cost-center
+- type: refers-to
+  target: account
+- type: governed-by
+  target: budget
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: profit-center

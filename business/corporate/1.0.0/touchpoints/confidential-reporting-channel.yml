@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: confidential-reporting-channel
+title: Confidential Reporting Channel
+medium: channel
+summary: The channel through which staff, suppliers and others report suspected breaches in confidence, anonymously if they wish,
+  and receive feedback.
+exchanges:
+- concern-raised-for-protection-and-fair-hearing
+journey: employee-knowing-and-keeping-the-rules

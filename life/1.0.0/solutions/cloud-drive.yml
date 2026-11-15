@@ -1,0 +1,12 @@
+kind: solution
+slug: cloud-drive
+title: Cloud Drive
+role: system-of-record
+sovereignty: hosted
+summary: The online folder a life keeps its documents in, reachable from every device and shareable with others.
+carries:
+- keeping-papers-in-order
+- keeping-records-readable
+- gathering-scattered-records
+holds:
+- personal-archive

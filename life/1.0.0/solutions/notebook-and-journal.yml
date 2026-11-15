@@ -1,0 +1,13 @@
+kind: solution
+slug: notebook-and-journal
+title: Notebook and Journal
+role: system-of-record
+sovereignty: owned
+summary: Paper or file where ideas are caught as they come and where the person writes to find out what they think and feel.
+carries:
+- capturing-ideas
+holds:
+- journal
+- mood-record
+- gratitude-log
+- pattern-log

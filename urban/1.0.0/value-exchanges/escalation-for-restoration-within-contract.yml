@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: escalation-for-restoration-within-contract
+title: Escalation for Restoration Within Contract
+between:
+- information-technology-specialist
+- technology-supplier
+offered:
+- An escalated incident with its evidence.
+returned:
+- Restoration within the contracted levels, and a report of the cause.
+touchpoint: operations-centre

@@ -1,0 +1,27 @@
+kind: journey
+slug: leadership-agreeing-one-plan
+title: Leadership Agreeing One Plan
+stakeholder: executive-board
+summary: The executive board sets the network and buffer policies, decides the trade-offs between demand, capacity, stock and money
+  in a recurring planning meeting and steers when disruption forces a change of plan.
+stages:
+- slug: set-network-and-buffer-policies
+  title: Set Network and Buffer Policies
+  goal: Sites, partners, production strategy and buffer policies are decided with their cost and resilience made visible.
+  step: supply-chain-orchestration/operations-network-and-policy-design
+  touchpoints:
+  - board-meeting
+- slug: decide-the-trade-offs
+  title: Decide the Trade-Offs
+  goal: Demand, supply, capacity, stock and financial plans are reconciled, the trade-offs are decided and one plan is released.
+  step: supply-chain-orchestration/integrated-plan-agreement
+  touchpoints:
+  - integrated-planning-meeting
+- slug: steer-through-a-disruption
+  title: Steer Through a Disruption
+  goal: A significant disruption reaches leadership quickly with options, and the decision on allocation and alternatives is taken
+    and communicated.
+  step: supply-chain-orchestration/deviation-and-disruption-steering
+  touchpoints:
+  - supply-disruption-alert
+  - integrated-planning-meeting

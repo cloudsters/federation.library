@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: planned-homes-for-a-forecast-that-follows-them
+title: Planned Homes for a Forecast That Follows Them
+between:
+- city-planner
+- city-administration
+offered:
+- The homes planned by neighbourhood and when they will be built.
+returned:
+- A forecast of children that sizes early-years and school places to the homes, in time to build them.
+touchpoint: child-population-forecast-workshop

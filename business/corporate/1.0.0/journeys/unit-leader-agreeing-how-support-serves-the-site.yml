@@ -1,0 +1,25 @@
+kind: journey
+slug: unit-leader-agreeing-how-support-serves-the-site
+title: Unit Leader Agreeing How Support Serves the Site
+stakeholder: site-manager
+summary: A unit leader agrees support services and hours that fit the site's work, receives infrastructure and devices for every role
+  and sees recurring problems removed.
+stages:
+- slug: agree-the-support-model
+  title: Agree the Support Model
+  goal: Support channels, hours, escalation paths and service levels fit the site's work.
+  step: support-as-care/support-model-definition
+  touchpoints:
+  - service-level-agreement
+- slug: equip-the-site
+  title: Equip the Site
+  goal: Capacity, networks and devices are in place for every role at the site.
+  step: support-as-care/infrastructure-and-device-provision
+  touchpoints:
+  - device-handover
+- slug: see-problems-removed
+  title: See Problems Removed
+  goal: The site sees recurring incidents traced and removed.
+  step: support-as-care/problem-diagnosis-and-learning
+  touchpoints:
+  - service-review

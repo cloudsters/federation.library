@@ -1,0 +1,42 @@
+kind: journey
+slug: local-producer-selling-through-a-neighbourhood-hub
+title: Local Producer Selling through a Neighbourhood Hub
+stakeholder: local-producer
+summary: A small producer joins the agreement of a neighbourhood hub, delivers on fixed days, reaches residents through pickup points
+  within walking distance, keeps its pricing under a capped commission and reviews prices and incomes with the hub partners each year.
+stages:
+- slug: join-the-hub-agreement
+  title: Join the Hub Agreement
+  goal: The producer is a party to the agreement under which the neighbourhood, carriers, retailers, producers and workers run the
+    hub and share its decisions.
+  step: urban-goods-and-food-distribution/neighbourhood-hub-establishment
+  touchpoints:
+  - hub-partners-assembly
+  - signed-hub-agreement
+- slug: deliver-on-fixed-days
+  title: Deliver on Fixed Days
+  goal: The producer delivers to the nearest hub on its fixed days and its loads are bundled with others.
+  step: urban-goods-and-food-distribution/producer-and-carrier-scheduling
+  touchpoints:
+  - hub-slot-booking
+  - neighbourhood-consolidation-hub
+- slug: reach-residents-nearby
+  title: Reach Residents Nearby
+  goal: The producer's food reaches residents at a pickup point within walking distance or on a mobile route.
+  step: urban-goods-and-food-distribution/last-mile-delivery-and-pickup
+  touchpoints:
+  - food-pickup-point
+- slug: keep-a-fair-share-of-the-price
+  title: Keep a Fair Share of the Price
+  goal: The commission taken from the producer is capped by the hub agreement, and the producer keeps its pricing.
+  step: urban-goods-and-food-distribution/delivery-worker-and-producer-terms
+  touchpoints:
+  - signed-hub-agreement
+- slug: review-prices-and-incomes
+  title: Review Prices and Incomes
+  goal: The producer has reviewed with the hub partners food prices, producer incomes and which neighbourhoods now reach fresh food,
+    and the hubs and rules are adjusted.
+  step: urban-goods-and-food-distribution/distribution-review
+  touchpoints:
+  - hub-partners-assembly
+  - delivery-and-food-access-map

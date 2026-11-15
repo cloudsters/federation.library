@@ -1,0 +1,62 @@
+kind: entity
+slug: digital-network
+title: Digital Network
+type: master
+summary: The fibre, wireless, mesh and sensor networks in the city, with their routes, owners, operators and condition. The operator
+  of each network keeps the record together with the city's asset register, and it is used to plan coverage, upkeep and renewal and
+  to keep services running when part of a network fails.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: network-kind
+  type: code
+  card: 1..1
+- name: network-role
+  type: code
+  card: 0..1
+- name: routes
+  type: document
+  card: 1..1
+- name: neighbourhoods-served
+  type: reference(neighbourhood)
+  card: 0..*
+- name: owner
+  type: text
+  card: 1..1
+- name: ownership-form
+  type: code
+  card: 1..1
+- name: operator
+  type: text
+  card: 0..1
+- name: capacity
+  type: quantity
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: access-terms
+  type: reference(network-access-agreement)
+  card: 0..1
+- name: commissioned-on
+  type: date
+  card: 0..1
+states:
+- planned
+- in-build
+- in-service
+- degraded
+- under-renewal
+- decommissioned
+relations:
+- type: governed-by
+  target: network-access-agreement
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: infrastructure-repair

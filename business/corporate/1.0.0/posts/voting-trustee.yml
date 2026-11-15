@@ -1,0 +1,9 @@
+kind: post
+slug: voting-trustee
+title: Voting Trustee
+summary: 'Casts the pooled votes of the owners who appointed the trust.'
+of: owners-meeting
+responsibility: Exercises the votes of pooled shares in the owners' meeting on behalf of the owners who appointed the trust, bound
+  by their agreement rather than by any scope of the enterprise.
+accountable: body:family-council
+type: role

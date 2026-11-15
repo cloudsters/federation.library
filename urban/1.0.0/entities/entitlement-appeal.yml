@@ -1,0 +1,60 @@
+kind: entity
+slug: entitlement-appeal
+title: Entitlement Appeal
+type: transactional
+summary: A resident's appeal against an entitlement decision, from receipt through review by someone not involved in the decision
+  to its outcome and any redress. The department records and answers it within its deadline, and appeals are counted to change rules
+  and systems.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: decision
+  type: reference(entitlement-decision)
+  card: 1..1
+- name: appealed-by
+  type: identifier
+  card: 1..1
+- name: grounds
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: reviewer
+  type: text
+  card: 1..1
+- name: automated-challenge
+  type: reference(automated-decision-challenge)
+  card: 0..1
+- name: decision-due
+  type: date
+  card: 1..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: redress
+  type: text
+  card: 0..*
+- name: cause-code
+  type: code
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+states:
+- received
+- under-review
+- decided
+- redress-given
+- closed
+- withdrawn
+relations:
+- type: refers-to
+  target: entitlement-decision
+- type: refers-to
+  target: automated-decision-challenge
+- type: governed-by
+  target: entitlement-rule
+- type: produces
+  target: corrective-action

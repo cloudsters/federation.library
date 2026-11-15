@@ -1,0 +1,59 @@
+kind: entity
+slug: platform-licence
+title: Platform Licence
+type: transactional
+summary: The licence under which a platform operates in the city, with its conditions on data collection, data portability and workers'
+  voice. The city issues it on the same terms to commercial and cooperative platforms and records how each keeps its conditions, and
+  it is used to grant, review and withdraw the use of the city's streets and services.
+attributes:
+- name: licence-number
+  type: identifier
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: operator-kind
+  type: code
+  card: 1..1
+- name: service-kind
+  type: code
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: data-collection-limits
+  type: text
+  card: 1..1
+- name: portability-terms
+  type: text
+  card: 1..1
+- name: worker-voice-terms
+  type: text
+  card: 1..1
+- name: street-and-service-use
+  type: text
+  card: 0..*
+- name: data-agreement
+  type: reference(data-sharing-agreement)
+  card: 0..1
+- name: fee
+  type: amount
+  card: 0..1
+- name: issued-on
+  type: date
+  card: 1..1
+states:
+- applied
+- issued
+- active
+- under-review
+- suspended
+- revoked
+- expired
+relations:
+- type: based-on
+  target: bylaw
+- type: refers-to
+  target: data-sharing-agreement
+- type: refers-to
+  target: cooperative-platform

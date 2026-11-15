@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pooled-data-for-price-benchmarks
+title: Pooled Data for Price Benchmarks
+between:
+- market-vendor
+- city-administration
+offered:
+- Anonymised sales, cost and price data pooled in the vendors' own cooperative under a data-sharing agreement.
+returned:
+- Published price ranges and cost benchmarks from which no single vendor's prices can be read.
+touchpoint: vendor-data-cooperative-meeting

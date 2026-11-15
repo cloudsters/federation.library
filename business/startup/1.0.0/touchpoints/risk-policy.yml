@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: risk-policy
+title: Risk Policy
+medium: artefact
+summary: The policy that sets the risk framework, categories, method, owners, escalation thresholds and the appetite the board accepts.
+exchanges:
+- appetite-for-bounded-risk-taking
+journey: risk-professional-running-the-risk-cycle

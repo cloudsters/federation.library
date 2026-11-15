@@ -1,0 +1,42 @@
+kind: entity
+slug: complaint
+title: Complaint
+type: transactional
+summary: A signal of ecosystem friction — a customer's voiced dissatisfaction that, when heard and resolved well, can strengthen the
+  relationship more than if the problem never occurred.
+attributes:
+- name: complainant
+  type: reference(customer)
+  card: 0..1
+- name: complainant-kind
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: channel
+  type: code
+  card: 0..1
+- name: resolution
+  type: text
+  card: 0..1
+states:
+- received
+- acknowledged
+- investigated
+- resolved
+- closed
+- escalated
+relations:
+- type: refers-to
+  target: return
+- type: refers-to
+  target: warranty-claim
+- type: produces
+  target: non-conformance

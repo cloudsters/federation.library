@@ -1,0 +1,6 @@
+kind: capability
+slug: order-promising
+title: Order Promising
+level: L3
+parent: order-management
+summary: Confirm delivery dates and quantities against available stock and capacity, and update promises when conditions change.

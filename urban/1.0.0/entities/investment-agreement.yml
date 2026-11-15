@@ -1,0 +1,68 @@
+kind: entity
+slug: investment-agreement
+title: Investment Agreement
+type: governance
+summary: The agreement on local hiring, fair pay, local suppliers and community benefit that comes with city support for an investment,
+  with repayment of support if commitments are not kept. The council approves it and the economic development office keeps it and
+  publishes each year whether it was kept, and it is used to recover support where commitments failed.
+attributes:
+- name: investor
+  type: text
+  card: 1..1
+- name: enquiry
+  type: reference(investment-enquiry)
+  card: 0..1
+- name: city-support
+  type: text
+  card: 1..*
+- name: support-value
+  type: amount
+  card: 0..1
+- name: local-hiring
+  type: reference(local-hiring-agreement)
+  card: 0..1
+- name: pay-commitment
+  type: text
+  card: 0..1
+- name: local-supplier-commitment
+  type: text
+  card: 0..1
+- name: community-benefit
+  type: text
+  card: 0..*
+- name: repayment-terms
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: outcome-reports
+  type: document
+  card: 0..*
+states:
+- drafted
+- negotiated
+- approved
+- signed
+- monitored
+- fulfilled
+- support-recovered
+- ended
+relations:
+- type: refers-to
+  target: investment-enquiry
+- type: refers-to
+  target: local-hiring-agreement
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: economic-development-strategy
+- type: refers-to
+  target: economic-indicators
+binds:
+- source: src-102
+  edition: '2023'
+  jurisdiction: global

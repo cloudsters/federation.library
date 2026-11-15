@@ -1,0 +1,66 @@
+kind: entity
+slug: acquisition-case
+title: Acquisition Case
+type: transactional
+summary: The case for acquiring a site or building, with the need, valuation, displacement risk, chosen route and decision. The asset
+  office carries it from appraisal to completion or withdrawal, and it is the basis on which the city buys, leases, supports a community
+  purchase or does not act.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: sites
+  type: reference(land-parcel)
+  card: 1..*
+- name: buildings
+  type: reference(building)
+  card: 0..*
+- name: need-stated
+  type: text
+  card: 1..1
+- name: need-source
+  type: code
+  card: 1..1
+- name: valuation
+  type: amount
+  card: 0..1
+- name: land-value
+  type: reference(land-value-map)
+  card: 0..1
+- name: current-residents-and-users
+  type: text
+  card: 0..*
+- name: displacement-findings
+  type: document
+  card: 0..1
+- name: chosen-route
+  type: code
+  card: 0..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: agreement
+  type: reference(land-purchase-agreement)
+  card: 0..1
+states:
+- opened
+- appraised
+- decided
+- negotiating
+- completed
+- withdrawn
+relations:
+- type: refers-to
+  target: land-parcel
+- type: based-on
+  target: vacancy-register
+- type: based-on
+  target: land-value-map
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: land-purchase-agreement
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

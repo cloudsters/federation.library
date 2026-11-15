@@ -1,0 +1,48 @@
+kind: entity
+slug: care-period-mandate
+title: Care Period Mandate
+type: governance
+summary: A care mandate that makes one unit or professional responsible for a patient's care for a defined period, such as an inpatient
+  stay or a course of outpatient treatment, within which individual care activities are mandated.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: responsible-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: responsible-professional
+  type: reference(practitioner-role)
+  card: 0..1
+- name: episode-of-care
+  type: reference(episode-of-care)
+  card: 0..1
+- name: basis
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+states:
+- requested
+- effective
+- suspended
+- ended
+relations:
+- type: refers-to
+  target: care-mandate
+- type: based-on
+  target: care-commitment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

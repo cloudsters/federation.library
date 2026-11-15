@@ -1,0 +1,20 @@
+kind: journey
+slug: participant-allowing-data-reuse
+title: Participant Allowing Data Reuse
+stakeholder: research-participant
+summary: A patient decides whether their care data and samples may serve research, can change that decision at any time and sees how
+  their data are used.
+stages:
+- slug: decide-on-consent
+  title: Decide on Consent
+  goal: The patient understands the request and gives, refuses or later withdraws consent.
+  step: health-data-reuse/consent-and-objection-status
+  touchpoints:
+  - consent-form
+  - patient-portal
+- slug: see-how-data-are-used
+  title: See How Data Are Used
+  goal: The participant can see which approved uses their data serve and what came of them.
+  step: health-data-reuse/use-logging-and-results-return
+  touchpoints:
+  - transparency-register

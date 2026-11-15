@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: sourcing-request
+title: Sourcing Request
+medium: artefact
+summary: The request through which a unit asks procurement to source goods or services that no contract covers, stating the need,
+  quantity, budget, timing and the experts who will specify it.
+exchanges:
+- user-requirements-for-a-fit-contract
+- technical-assessment-for-serviceable-devices
+journey: specifying-a-departments-need

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: new-method-evidence-for-payment
+title: New Method Evidence for Payment
+between:
+- executive
+- payer
+offered:
+- The executive offers evidence of benefit, the cost per case and a commitment to evaluate the new method in use.
+returned:
+- The payer returns an agreed payment for the method, such as a supplement or an interim price, and the evidence it expects before
+  standard payment.
+touchpoint: payer-negotiation

@@ -1,0 +1,19 @@
+kind: journey
+slug: patient-organisation-centre-journey
+title: Patient Organisation Centre Journey
+stakeholder: patient-organisation
+summary: A patient organisation takes a seat in the centre's steering and reviews its results and information with the centre.
+stages:
+- slug: take-a-seat
+  title: Take a Seat
+  goal: Hold a seat in the centre's steering with access to its decisions.
+  step: centre-development/centre-structure-design
+  touchpoints:
+  - centre-steering-meeting
+- slug: review-results-with-the-centre
+  title: Review Results with the Centre
+  goal: Review outcomes, pathways and patient information with the centre and press for improvement.
+  step: centre-development/performance-review-and-recognition
+  touchpoints:
+  - centre-steering-meeting
+  - patient-advisory-council

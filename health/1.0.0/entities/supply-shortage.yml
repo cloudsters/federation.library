@@ -1,0 +1,43 @@
+kind: entity
+slug: supply-shortage
+title: Supply Shortage
+type: transactional
+summary: An actual or announced inability to obtain a medicine, medical product or material in the quantity needed, recorded with
+  its cause, expected duration, clinical impact, remaining stock and the alternatives and allocation rule approved to bridge it.
+attributes:
+- name: affected-items
+  type: reference(inventory-item)
+  card: 1..*
+- name: medication
+  type: reference(medication)
+  card: 0..1
+- name: source
+  type: code
+  card: 1..1
+- name: cause
+  type: text
+  card: 0..1
+- name: expected-period
+  type: period
+  card: 0..1
+- name: clinical-impact
+  type: code
+  card: 1..1
+- name: approved-alternatives
+  type: reference(inventory-item)
+  card: 0..*
+- name: allocation-rule
+  type: text
+  card: 0..1
+states:
+- announced
+- assessed
+- mitigated
+- resolved
+relations:
+- type: refers-to
+  target: supplier-organisation
+- type: refers-to
+  target: medication
+- type: produces
+  target: governance-decision

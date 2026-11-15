@@ -1,0 +1,61 @@
+kind: entity
+slug: utility-account
+title: Utility Account
+type: master
+summary: A household's account for water, energy, heat and waste charges, with its tariff, any reduced charge, payments and arrears.
+  The service operator keeps it with the household, and uses it to bill by the adopted tariff, apply a reduced charge without a separate
+  application and offer an arrangement before any arrears grow.
+attributes:
+- name: account-number
+  type: identifier
+  card: 1..1
+- name: account-holder
+  type: text
+  card: 1..1
+- name: services
+  type: code
+  card: 1..*
+- name: service-connections
+  type: reference(service-connection)
+  card: 1..*
+- name: tariffs
+  type: reference(service-tariff)
+  card: 1..*
+- name: reduced-charge
+  type: reference(entitlement-decision)
+  card: 0..1
+- name: enrolment-consent
+  type: reference(consent-record)
+  card: 0..1
+- name: balance
+  type: amount
+  card: 1..1
+- name: arrears
+  type: amount
+  card: 0..1
+- name: payments
+  type: reference(payment)
+  card: 0..*
+- name: payment-arrangement
+  type: reference(payment-arrangement)
+  card: 0..1
+- name: disconnection-protected
+  type: boolean
+  card: 0..1
+states:
+- opened
+- active
+- in-arrears
+- under-arrangement
+- closed
+relations:
+- type: refers-to
+  target: service-connection
+- type: governed-by
+  target: service-tariff
+- type: based-on
+  target: entitlement-decision
+- type: refers-to
+  target: arrears-case
+- type: refers-to
+  target: resident-account

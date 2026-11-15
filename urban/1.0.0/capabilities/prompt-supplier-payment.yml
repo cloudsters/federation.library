@@ -1,0 +1,7 @@
+kind: capability
+slug: prompt-supplier-payment
+title: Prompt Supplier Payment
+level: L3
+parent: purchasing-and-payment
+summary: Pay matched invoices within a short fixed time, shortest for small and local suppliers, and pay interest where payment is
+  late.

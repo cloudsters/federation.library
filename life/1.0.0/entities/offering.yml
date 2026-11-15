@@ -1,0 +1,40 @@
+kind: entity
+slug: offering
+title: Offering
+type: master
+summary: 'Something this person puts in front of others in the expectation of a return — a service, a product, a role they will fill,
+  a body of expertise. Named apart from `skill`: a skill is held, an offering is stated, and most people hold far more than they state.'
+attributes:
+- name: what-is-offered
+  type: text
+  card: 1..1
+- name: for-whom
+  type: text
+  card: 1..1
+- name: in-their-words
+  type: text
+  card: 0..1
+- name: draws-on
+  type: list(skill)
+  card: 1..*
+- name: price
+  type: money
+  card: 0..1
+- name: will-not-change
+  type: text
+  card: 0..*
+- name: taken-up-by
+  type: list(client)
+  card: 0..*
+states:
+- held but unstated
+- stated
+- tried small
+- taken up
+- refined
+- withdrawn
+relations:
+- target: skill
+  type: based-on
+- target: natural-gift
+  type: based-on

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: recall-information-for-follow-up
+title: Recall Information for Follow-Up
+between:
+- specialist-physician
+- elective-inpatient
+offered:
+- The physician informs the patient promptly and plainly that a product used in their care is affected, what the risk is and which
+  follow-up is advised.
+returned:
+- The patient attends follow-up and reports symptoms, which allows timely treatment and completes the tracing.
+touchpoint: consultation

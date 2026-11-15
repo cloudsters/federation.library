@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: analytics-platform
+title: Analytics Platform
+medium: channel
+summary: The governed platform where data from operational systems and outside sources are collected, prepared and modelled, with
+  origin, owner, quality and access rules recorded.
+exchanges:
+- source-data-for-known-quality
+- forecast-errors-for-refreshed-models
+journey: analyst-building-trusted-insight

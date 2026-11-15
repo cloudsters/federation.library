@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: draft-notes-for-review
+title: Draft Notes for Review
+between:
+- documentation-agent
+- specialist-physician
+offered:
+- Draft admission and progress notes and proposed orders prepared from the conversation and the record, with their sources
+  shown.
+returned:
+- Review, correction and signature by the physician, and corrections logged for the agent's performance review, so that any
+  change to the agent is validated before release.
+touchpoint: clinical-workstation

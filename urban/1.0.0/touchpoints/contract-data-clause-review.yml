@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: contract-data-clause-review
+title: Contract Data Clause Review
+medium: encounter
+summary: The review of a contract for a digital system or service in which the clauses on data ownership, location and return are
+  agreed before it is signed.
+exchanges:
+- data-clauses-for-a-signed-contract
+- clause-review-for-owned-data
+journey: data-protection-officer-keeping-every-use-lawful

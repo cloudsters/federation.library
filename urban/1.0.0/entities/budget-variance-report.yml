@@ -1,0 +1,57 @@
+kind: entity
+slug: budget-variance-report
+title: Budget Variance Report
+type: intelligence
+summary: The monthly comparison of actual income and spending with the budget, with each deviation explained by its owner and the
+  forecast for the year updated. The finance department issues it to the departments and the council, and it is the starting point
+  for corrective action or a supplementary budget.
+attributes:
+- name: reporting-month
+  type: period
+  card: 1..1
+- name: budget
+  type: reference(municipal-budget)
+  card: 1..1
+- name: actuals
+  type: document
+  card: 1..1
+- name: deviations
+  type: document
+  card: 1..1
+- name: explanations
+  type: text
+  card: 0..*
+- name: explanation-owners
+  type: text
+  card: 0..*
+- name: open-commitments
+  type: amount
+  card: 0..1
+- name: year-end-forecast
+  type: amount
+  card: 1..1
+- name: addressed-to
+  type: text
+  card: 1..*
+- name: issued-on
+  type: date
+  card: 1..1
+states:
+- compiled
+- explained
+- issued
+- discussed
+- closed
+relations:
+- type: refers-to
+  target: municipal-budget
+- type: based-on
+  target: journal-entry
+- type: based-on
+  target: budget-commitment
+- type: refers-to
+  target: department
+binds:
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

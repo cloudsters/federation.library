@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: defect-report-for-a-repair-in-published-order
+title: Defect Report for a Repair in Published Order
+between:
+- resident
+- infrastructure-operator
+offered:
+- A resident's report of a broken path, street, bridge or light.
+returned:
+- The defect ranked by danger and by who depends on the route under published rules, and repaired within the set time.
+touchpoint: street-defect-report

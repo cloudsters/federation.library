@@ -1,0 +1,51 @@
+kind: journey
+slug: improving-administrative-work
+title: Improving Administrative Work
+stakeholder: administrative-staff
+summary: 'How staff in patient administration and secretariats experience improvement and automation: their ideas taken up, their
+  knowledge used and repetitive work taken off their desks.'
+stages:
+- slug: proposing-ideas
+  title: Proposing Ideas
+  goal: Submit an idea or a recurring problem easily and learn what happens to it.
+  step: process-improvement-and-automation/opportunity-intake
+  touchpoints:
+  - staff-idea-channel
+- slug: mapping-the-work
+  title: Mapping the Work
+  goal: Show how the work really runs, workarounds included, without being judged for them.
+  step: process-improvement-and-automation/current-state-analysis
+  touchpoints:
+  - process-mapping-workshop
+- slug: designing-the-new-way
+  title: Designing the New Way
+  goal: Help decide which tasks a machine should take over and what happens when it fails.
+  step: process-improvement-and-automation/future-state-design
+  touchpoints:
+  - process-mapping-workshop
+- slug: testing-automation
+  title: Testing Automation
+  goal: Test the automation with real cases before it runs on its own.
+  step: process-improvement-and-automation/automation-build-and-test
+  touchpoints:
+  - clinical-workstation
+- slug: trying-it-out
+  title: Trying It Out
+  goal: Try the new process in a pilot whose terms the staff representatives have agreed.
+  step: process-improvement-and-automation/pilot-and-agreement
+  touchpoints:
+  - improvement-board
+  - staff-consultation
+- slug: adopting-the-new-way
+  title: Adopting the New Way
+  goal: Receive training and updated instructions and know whom to ask.
+  step: process-improvement-and-automation/rollout
+  touchpoints:
+  - learning-platform
+  - controlled-document-library
+- slug: keeping-the-gain
+  title: Keeping the Gain
+  goal: See the gain hold and the freed time used for work that needs a person.
+  step: process-improvement-and-automation/sustainment
+  touchpoints:
+  - improvement-board

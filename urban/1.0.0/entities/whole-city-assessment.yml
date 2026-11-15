@@ -1,0 +1,79 @@
+kind: entity
+slug: whole-city-assessment
+title: Whole-City Assessment
+type: intelligence
+summary: The assessment of the state, equity and vitality of the whole city across neighbourhoods and groups, its blind spots, and
+  its drift from charter, mandate and the interests of future generations. The administration prepares it on a yearly cycle with residents,
+  the council discusses it, and each drift it names receives a correction with an owner, a measure and a date.
+attributes:
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: equity-findings
+  type: text
+  card: 0..*
+- name: vitality-findings
+  type: text
+  card: 0..*
+- name: blind-spots
+  type: text
+  card: 0..*
+- name: drift-findings
+  type: text
+  card: 0..*
+- name: corrections
+  type: text
+  card: 0..*
+- name: discussed-in
+  type: text
+  card: 0..*
+- name: issued-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scoped
+- gathered
+- assessed
+- published
+- discussed
+- corrections-decided
+- followed-up
+- closed
+relations:
+- type: based-on
+  target: city-dashboard
+- type: based-on
+  target: community-enumeration
+- type: refers-to
+  target: city-charter
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: automated-system-register
+- type: produces
+  target: oversight-report
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-170
+  edition: '2019'
+  jurisdiction: global
+- source: src-175
+  edition: '2019'
+  jurisdiction: global
+- source: src-179
+  edition: '2015-09-25'
+  jurisdiction: global
+- source: src-182
+  edition: '2022'
+  jurisdiction: global

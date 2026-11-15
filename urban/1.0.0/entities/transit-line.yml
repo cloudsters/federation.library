@@ -1,0 +1,62 @@
+kind: entity
+slug: transit-line
+title: Transit Line
+type: master
+summary: A bus, tram, rail or ferry route of the city, with its stops, hours, frequency and the vehicles that serve it. The transport
+  operator keeps the record under the mobility plan, and it is used to plan the network, run the daily service and tell riders where
+  and when they can travel.
+attributes:
+- name: line-code
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 0..1
+- name: mode
+  type: code
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: route
+  type: document
+  card: 1..1
+- name: stops
+  type: reference(transit-stop)
+  card: 1..*
+- name: timetable
+  type: reference(timetable)
+  card: 0..1
+- name: service-hours
+  type: text
+  card: 1..1
+- name: night-service
+  type: boolean
+  card: 1..1
+- name: vehicle-kinds
+  type: code
+  card: 0..*
+- name: vehicle-count
+  type: integer
+  card: 0..1
+- name: tariff
+  type: reference(service-tariff)
+  card: 0..1
+states:
+- planned
+- consulted
+- operating
+- diverted
+- suspended
+- withdrawn
+relations:
+- type: composed-of
+  target: transit-stop
+- type: governed-by
+  target: timetable
+- type: governed-by
+  target: mobility-plan
+- type: governed-by
+  target: service-tariff
+- type: refers-to
+  target: street

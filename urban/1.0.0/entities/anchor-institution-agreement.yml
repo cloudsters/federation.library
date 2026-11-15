@@ -1,0 +1,62 @@
+kind: entity
+slug: anchor-institution-agreement
+title: Anchor Institution Agreement
+type: governance
+summary: An agreement between an anchor institution such as a university, hospital or school and the neighbourhoods around it on sharing
+  land, buildings, purchasing, jobs and knowledge and on how neighbours take part in its decisions. The institution and the neighbourhood
+  bodies sign it and the city records it, and it is used to hold each side to what it shares and to how neighbours are heard.
+attributes:
+- name: institution
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: neighbourhood-parties
+  type: text
+  card: 1..*
+- name: shared-land-and-buildings
+  type: text
+  card: 0..*
+- name: purchasing-commitments
+  type: text
+  card: 0..*
+- name: job-commitments
+  type: text
+  card: 0..*
+- name: knowledge-sharing
+  type: text
+  card: 0..*
+- name: neighbour-participation
+  type: text
+  card: 1..1
+- name: reporting-dates
+  type: date
+  card: 0..*
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiated
+- signed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: school
+- type: refers-to
+  target: civil-society-body
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: governed-by
+  target: partnership-compact

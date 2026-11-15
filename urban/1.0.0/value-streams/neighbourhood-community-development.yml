@@ -1,0 +1,128 @@
+kind: value-stream
+slug: neighbourhood-community-development
+title: Neighbourhood Community Development
+family: participant-to-community
+summary: Supporting residents to know one another and act together where they live. It holds the mapping of what each neighbourhood
+  already has, support for the associations and resident bodies through which neighbours act, the priorities and decisions a neighbourhood
+  holds for itself, community centres and school buildings opened for shared use, the welcome of new neighbours and the regular encounters,
+  celebrations and shared symbols that turn strangers into neighbours.
+trigger: A neighbourhood body asks for support, the whole-city assessment shows a neighbourhood with weak ties or few places to meet,
+  or a neighbourhood action plan falls due for renewal.
+outcome: Residents know and help their neighbours, an open neighbourhood body speaks and acts for them, places to meet are open to
+  all, and the neighbourhood decides what it is able to decide.
+stakeholders:
+- resident
+- neighbourhood-association
+- community-development-worker
+- civil-society-organisation
+- young-people
+- older-resident
+- local-business
+- city-administration
+steps:
+- slug: neighbourhood-asset-mapping
+  title: Neighbourhood Asset Mapping
+  summary: Residents and community workers map the places, skills, relationships and bodies the neighbourhood already holds, who holds
+    power in it and who is not yet connected, as the starting point rather than a list of deficits.
+  capabilities:
+  - community-asset-mapping
+  - power-mapping
+  - blind-spot-mapping
+  entities:
+  - community-asset-map
+  - neighbourhood
+  serves:
+  - asset-mapping-walk
+  - neighbourhood-asset-map-view
+- slug: neighbourhood-body-support
+  title: Neighbourhood Body Support
+  summary: The city supports neighbourhood associations and resident bodies to form, meet openly, rotate their roles and stay answerable
+    to all residents, with a community worker, a small running grant and training where they ask for it.
+  capabilities:
+  - neighbourhood-body-support
+  - community-body-recognition
+  - community-grant-making
+  entities:
+  - neighbourhood
+  - community-grant
+  serves:
+  - neighbourhood-body-support-desk
+- slug: neighbourhood-action-planning
+  title: Neighbourhood Action Planning
+  summary: The neighbourhood body and its residents agree their priorities, the decisions and the share of budget the neighbourhood
+    holds for itself and what they ask of the city, in a neighbourhood action plan that the city answers.
+  capabilities:
+  - neighbourhood-action-planning
+  - decision-rights-allocation
+  - participatory-budget-organisation
+  entities:
+  - neighbourhood-action-plan
+  - decision-rights-register
+  - participatory-budget-cycle
+  serves:
+  - neighbourhood-action-plan-response
+  - neighbourhood-planning-assembly
+- slug: community-space-provision
+  title: Community Space Provision
+  summary: Community centres, libraries and school buildings and grounds are opened to residents outside their core hours under shared-use
+    agreements and run with the neighbours who use them, so that every neighbourhood has a place to meet without having to pay.
+  capabilities:
+  - community-space-provision
+  - shared-use-agreement-drafting
+  - interim-use-arrangement
+  entities:
+  - community-centre
+  - shared-use-agreement
+  - school
+  serves:
+  - community-room-booking
+  - shared-use-agreement-meeting
+- slug: welcome-and-encounter
+  title: Welcome and Encounter
+  summary: New residents are greeted and introduced to their neighbours, and regular, low-threshold encounters such as shared meals,
+    skill-shares and street gatherings are supported so that weak ties grow into trust.
+  capabilities:
+  - neighbourhood-encounter-support
+  - community-space-provision
+  entities:
+  - community-event
+  - neighbourhood
+  serves:
+  - neighbourhood-shared-meal
+  - new-neighbour-welcome-visit
+  - street-gathering-support
+- slug: neighbourhood-identity-and-celebration
+  title: Neighbourhood Identity and Celebration
+  summary: Residents design and care for the names, symbols, stories and seasonal celebrations that mark their neighbourhood, and
+    the city records and supports them without taking them over.
+  capabilities:
+  - neighbourhood-identity-support
+  - place-naming-and-commemoration
+  - civic-memory-documentation
+  - neighbourhood-encounter-support
+  entities:
+  - civic-memory-record
+  - community-event
+  serves:
+  - neighbourhood-story-collection
+  - neighbourhood-symbol-workshop
+  - street-gathering-support
+- slug: neighbourhood-review
+  title: Neighbourhood Review
+  summary: Each year the neighbourhood body and the city review whether ties, trust and participation have grown, who is still left
+    out and what the action plan achieved, and renew the plan.
+  capabilities:
+  - city-vitality-assessment
+  - equity-audit
+  - neighbourhood-action-planning
+  entities:
+  - neighbourhood-action-plan
+  - citizen-satisfaction
+  - whole-city-assessment
+  serves:
+  - annual-neighbourhood-review
+  - neighbourhood-asset-map-view
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

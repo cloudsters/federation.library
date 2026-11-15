@@ -1,0 +1,122 @@
+kind: value-stream
+slug: quality-as-vitality
+title: Quality in the Flow of Work
+family: collaboration-to-automation
+summary: 'Keeping quality a shared property of all work rather than a gate at the end: requirements are set, quality is checked in
+  the flow of work, every non-conformance is corrected at its cause, and the quality system is reviewed and certified.'
+trigger: A quality requirement is set or changed, a quality audit falls due, or a non-conformance is reported.
+outcome: Quality requirements are met, and every non-conformance is closed with an effective corrective action.
+stakeholders:
+- quality-manager
+- executive-board
+- production-operator
+- employee
+- certification-body
+- business-customer
+steps:
+- slug: quality-requirements
+  title: Quality Requirements
+  summary: The characteristics critical to quality are derived from customer, contractual and legal requirements, and preventive activities
+    and controls are fixed in a quality plan for each offering and process.
+  capabilities:
+  - quality-management-system
+  entities:
+  - quality-standard
+  - product-specification
+  - compliance-rule
+  - plan
+  serves:
+  - account-review
+  - quality-plan
+- slug: quality-system-and-documented-practice
+  title: Quality System and Documented Practice
+  summary: The quality policy, objectives, core processes, controls and measures are documented and kept current, and quality stewards
+    embedded in the teams carry them into daily work.
+  capabilities:
+  - quality-management-system
+  - quality-culture-cultivation
+  entities:
+  - policy
+  - objective
+  - quality-standard
+  - process-model
+  serves:
+  - quality-handbook
+  - shop-floor
+- slug: in-process-checks
+  title: In-Process Checks
+  summary: Products and services are checked against the quality plan while the work is done, with calibrated measuring equipment
+    and service reviews, and anyone may stop the work when quality is at risk.
+  capabilities:
+  - quality-sensing-improvement
+  - calibration-management
+  - service-quality-assurance
+  entities:
+  - quality-inspection
+  - equipment
+  - measure
+  serves:
+  - in-process-check
+  - shop-floor
+- slug: non-conformance-handling
+  title: Non-Conformance Handling
+  summary: Every non-conformance from checks, complaints, audits or incidents is recorded without blame, assessed for its impact and
+    contained by immediate action.
+  capabilities:
+  - steward-non-conformance
+  entities:
+  - non-conformance
+  - complaint
+  - incident
+  - batch-lot
+  serves:
+  - complaint-and-warranty-claim
+  - non-conformance-report
+  - shop-floor-meeting
+- slug: cause-analysis-and-correction
+  title: Cause Analysis and Correction
+  summary: The root causes of each significant non-conformance are found, corrective and preventive actions are taken, and their effect
+    is verified before the case is closed.
+  capabilities:
+  - root-cause-analysis
+  - steward-non-conformance
+  - quality-sensing-improvement
+  entities:
+  - non-conformance
+  - remediation-plan
+  - audit-finding
+  serves:
+  - corrective-action-report
+  - root-cause-session
+- slug: quality-review-and-audit
+  title: Quality Review and Audit
+  summary: Internal audits test units and processes against the requirements, and at a fixed cadence management reviews results, findings
+    and quality culture and decides on improvements and resources.
+  capabilities:
+  - quality-management-system
+  - quality-sensing-improvement
+  - quality-culture-cultivation
+  entities:
+  - audit
+  - audit-finding
+  - measure-report
+  - governance-decision
+  serves:
+  - internal-audit
+  - management-review
+- slug: certification
+  title: Certification
+  summary: The organisation prepares for certification and surveillance audits of its management systems, hosts the auditors, closes
+    the findings within the set period and keeps every certificate valid.
+  capabilities:
+  - management-system-certification
+  entities:
+  - accreditation
+  - audit
+  - audit-finding
+  serves:
+  - certification-audit
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

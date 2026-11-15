@@ -1,0 +1,13 @@
+kind: capability
+slug: strategic-workforce-planning
+title: Strategic Workforce Planning
+level: L3
+parent: workforce-strategy
+summary: Forecast workforce demand and supply by profession and plan how to close the gaps.
+binds:
+- source: src-239
+  edition: '2016'
+  jurisdiction: global
+- source: src-464
+  edition: 2nd ed. 2023
+  jurisdiction: global

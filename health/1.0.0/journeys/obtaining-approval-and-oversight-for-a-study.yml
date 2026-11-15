@@ -1,0 +1,44 @@
+kind: journey
+slug: obtaining-approval-and-oversight-for-a-study
+title: Obtaining Approval and Oversight for a Study
+stakeholder: clinician-scientist
+summary: The investigator's path through submission, review and authorisation, oversight while the study runs, and its proper closure.
+stages:
+- slug: submitting
+  title: Submitting
+  goal: Submit once, completely, and know at any time what is still missing.
+  step: research-governance-and-ethics-review/submission
+  touchpoints:
+  - research-submission-portal
+- slug: facing-the-committee
+  title: Facing the Committee
+  goal: Receive a reasoned decision within the set timeline and understand any conditions.
+  step: research-governance-and-ethics-review/ethics-review
+  touchpoints:
+  - research-ethics-committee-meeting
+- slug: clearing-regulatory-and-data-protection
+  title: Clearing Regulatory and Data Protection Review
+  goal: Hold every approval the study needs without discovering requirements late.
+  step: research-governance-and-ethics-review/regulatory-and-data-protection-review
+  touchpoints:
+  - research-submission-portal
+- slug: receiving-the-go-ahead
+  title: Receiving the Go-Ahead
+  goal: Start the study with contracts, insurance and resources confirmed.
+  step: research-governance-and-ethics-review/institutional-authorisation
+  touchpoints:
+  - research-collaboration-agreement
+- slug: staying-compliant
+  title: Staying Compliant
+  goal: Report changes and events easily and keep the approval valid until the end.
+  step: research-governance-and-ethics-review/ongoing-oversight
+  touchpoints:
+  - research-submission-portal
+  - inspection-and-audit
+  - research-integrity-consultation
+- slug: closing-the-study
+  title: Closing the Study
+  goal: Close the study properly and register its results.
+  step: research-governance-and-ethics-review/closure-and-reporting
+  touchpoints:
+  - study-register-entry

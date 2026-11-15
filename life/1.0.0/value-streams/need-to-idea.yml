@@ -1,0 +1,72 @@
+kind: value-stream
+slug: need-to-idea
+title: Noticing What Is Missing
+family: discovery-to-usage
+summary: Noticing what is missing before anyone has named it, and protecting the idea while it is still too fragile to defend itself.
+trigger: The person keeps running into something that should exist and does not, or an idea arrives that will not leave them alone.
+outcome: The idea has had room and time to take shape before it had to defend itself, and the person can say what need it answers.
+stakeholders:
+- close-friend
+- partner
+- collaborator
+- mentor
+steps:
+- slug: running-into-the-gap
+  title: Running into the Gap
+  summary: Again and again the person meets something that should exist and does not, and starts to notice the repetition.
+  capabilities:
+  - noticing-unmet-needs
+  entities:
+  - experience
+  - journal
+- slug: catching-the-idea
+  title: Catching the Idea
+  summary: Writing the idea down when it arrives, in whatever rough form, before it fades or gets talked out of existence.
+  capabilities:
+  - capturing-ideas
+  entities:
+  - journal
+  - intention
+- slug: giving-it-shelter
+  title: Giving It Shelter
+  summary: Keeping the idea away from early judgement and sharing it only with people who will help it grow.
+  capabilities:
+  - protecting-a-fragile-idea
+  entities:
+  - friend
+  - partner-relation
+  - boundary-set
+  serves:
+  - heart-to-heart
+  - long-walk
+- slug: letting-it-grow
+  title: Letting It Grow Unorganised
+  summary: Letting the idea meet other things, change shape and wait, without forcing a plan onto it too soon.
+  capabilities:
+  - letting-ideas-ripen
+  entities:
+  - journal
+  - creative-practice
+  - by-product
+- slug: naming-the-need
+  title: Naming the Need
+  summary: Saying plainly whose need the idea answers and how the person knows that need is real.
+  capabilities:
+  - saying-whose-need-it-answers
+  - noticing-unmet-needs
+  entities:
+  - intention
+  - conversation
+  - offering
+- slug: opening-it-to-trusted-others
+  title: Opening It to Trusted Others
+  summary: Showing the idea to a mentor or close collaborator once it can stand some questioning, and listening to what they see.
+  capabilities:
+  - inviting-honest-response
+  entities:
+  - mentor-relation
+  - conversation
+  - intention
+  - collaborator-relation
+  serves:
+  - mentoring-conversation

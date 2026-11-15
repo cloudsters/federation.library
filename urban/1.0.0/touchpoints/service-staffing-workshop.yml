@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-staffing-workshop
+title: Service Staffing Workshop
+medium: encounter
+summary: A working session in which each department estimates the staff and skills its services need and weighs how each gap could
+  be closed.
+exchanges:
+- service-needs-for-staffing-on-evidence
+journey: personnel-officer-drawing-up-the-workforce-plan

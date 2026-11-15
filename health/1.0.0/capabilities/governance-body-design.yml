@@ -1,0 +1,13 @@
+kind: capability
+slug: governance-body-design
+title: Governance Body Design
+level: L3
+parent: governance-bodies
+summary: Design the executive board, the supervisory board and the faculty bodies, their mandates and how they work together.
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global
+- source: src-534
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: project-plan
+title: Project Plan
+medium: artefact
+summary: The agreed plan of a project with its scope, deliverables, schedule, budget, team, interfaces and risks, against which progress
+  is reported.
+exchanges:
+- site-access-for-coordinated-installation
+- specialist-expertise-for-a-defined-brief
+journey: general-contractor-integrating-a-trade-package

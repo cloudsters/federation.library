@@ -1,0 +1,10 @@
+kind: capability
+slug: cleaning-services
+title: Cleaning Services
+level: L3
+parent: hospitality-and-support-services
+summary: Clean clinical and non-clinical areas to defined schedules and hygiene standards.
+binds:
+- source: src-352
+  edition: '2001'
+  jurisdiction: global

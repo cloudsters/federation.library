@@ -1,0 +1,39 @@
+kind: solution
+slug: it-service-and-asset-management-system
+title: IT Service and Asset Management System
+role: system-of-record
+summary: Holds the service catalogue, configuration items, devices and software licences, incidents, problems, changes and service
+  levels, runs the service desk for staff and takes hardware from purchase to secure disposal.
+carries:
+- configuration-and-service-topology
+- support-coverage-planning
+- digital-asset-lifecycle
+- incident-problem-resolution
+- it-asset-lifecycle-management
+- it-change-and-release-governance
+- user-help-service
+- self-service-enablement
+- service-delivery-choreography
+- service-level-as-partnership
+- service-management-philosophy
+- support-operations-as-learning
+- support-service-design
+- technology-service-communication
+- technology-service-vitality-sensing
+- core-business-system-lifecycle
+- end-user-device-management
+- software-licence-management
+- media-sanitisation
+holds:
+- it-service
+- configuration-item
+- software-licence
+- incident
+- major-incident
+- change-request
+- helpdesk-ticket
+- service-level-agreement
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

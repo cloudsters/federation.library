@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: synthetic-collaborator
+title: Synthetic Collaborator
+nature: agent
+stance: serving
+via: collaboration-to-automation
+represented_by:
+- agent
+dissolves: false

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: patient-recall-letter
+title: Patient Recall Letter
+medium: artefact
+summary: The letter that informs a patient that a product used in their care is affected by a safety problem, what this means for
+  them and which follow-up is advised.
+exchanges:
+- recall-information-for-follow-up
+journey: affected-by-a-product-recall

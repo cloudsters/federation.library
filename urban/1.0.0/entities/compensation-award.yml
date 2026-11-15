@@ -1,0 +1,64 @@
+kind: entity
+slug: compensation-award
+title: Compensation Award
+type: transactional
+summary: A payment or fee reduction made to a resident when a service failed them or broke a published guarantee, paid without a complaint
+  when a guarantee is broken or as the remedy of a complaint or an ombudsman case. The service responsible records it and pays it
+  from its compensation fund, and awards are counted in the complaint pattern report.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: recipient
+  type: identifier
+  card: 1..1
+- name: award-kind
+  type: code
+  card: 1..1
+- name: trigger
+  type: code
+  card: 1..1
+- name: broken-guarantee
+  type: reference(service-standard)
+  card: 0..1
+- name: complaint
+  type: reference(citizen-complaint)
+  card: 0..1
+- name: ombudsman-case
+  type: reference(ombudsman-case)
+  card: 0..1
+- name: failure-date
+  type: date
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: paid-from
+  type: reference(compensation-fund)
+  card: 1..1
+- name: decided-on
+  type: date
+  card: 1..1
+- name: paid-on
+  type: date
+  card: 0..1
+states:
+- triggered
+- calculated
+- approved
+- paid
+- disputed
+- withdrawn
+relations:
+- type: based-on
+  target: service-standard
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: ombudsman-case
+- type: governed-by
+  target: complaints-procedure
+- type: depends-on
+  target: compensation-fund
+- type: produces
+  target: payment

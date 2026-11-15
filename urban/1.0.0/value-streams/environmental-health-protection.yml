@@ -1,0 +1,109 @@
+kind: value-stream
+slug: environmental-health-protection
+title: Environmental Health Protection
+family: demand-to-fulfillment
+summary: 'Protecting residents from the hazards of the places they live in: polluted air, noise, contaminated land and extreme heat.
+  It holds the monitoring of air, noise and heat with sensors residents help to place, reports of hazards and the inspection of their
+  sources, orders to stop them, remedies funded by those who caused the harm and chosen by those who bear it, the clean-up of contaminated
+  land, cooling places in heat waves, and a review of which neighbourhoods bear the heaviest burden.'
+trigger: A resident reports a hazard, monitoring shows a limit is exceeded, a heat wave is forecast, or contaminated land is found.
+outcome: Hazards are found early and stopped at their source, contaminated land is cleaned up, residents are kept safe in heat, and
+  no neighbourhood carries a heavier burden than others.
+stakeholders:
+- resident
+- environmental-health-officer
+- affected-community
+- local-business
+- older-resident
+- community-health-worker
+- neighbourhood-association
+steps:
+- slug: air-noise-and-heat-monitoring
+  title: Air, Noise and Heat Monitoring
+  summary: Air quality, noise and heat are measured across the city, with sensors placed first in the neighbourhoods most exposed
+    and residents taking part in measuring, and the readings are published as they come in.
+  capabilities:
+  - environmental-quality-monitoring
+  - sensor-deployment
+  - open-data-publication
+  entities:
+  - air-quality-index
+  - noise-map
+  - sensor
+  serves:
+  - live-environment-readings
+  - neighbourhood-air-sensor
+- slug: hazard-report-and-inspection
+  title: Hazard Report and Inspection
+  summary: Residents report smoke, smells, noise, dumping or damp, and environmental health officers inspect the source, record what
+    they find and tell the resident what follows.
+  capabilities:
+  - environmental-hazard-inspection
+  - complaint-intake
+  entities:
+  - environmental-hazard-case
+  - citizen-complaint
+  serves:
+  - environmental-hazard-hotline
+  - source-inspection-visit
+- slug: abatement-and-polluter-remedy
+  title: Abatement and Polluter Remedy
+  summary: Those responsible are ordered to stop the hazard by a set date, and money owed for the harm is spent on remedies the affected
+    neighbourhood chooses, with independent checks that the work is done.
+  capabilities:
+  - environmental-hazard-inspection
+  - resident-inspection-support
+  - community-benefit-monitoring
+  entities:
+  - environmental-hazard-case
+  - noise-regulation
+  serves:
+  - abatement-order
+  - remedy-choice-assembly
+- slug: contaminated-land-clean-up
+  title: Contaminated Land Clean-Up
+  summary: Land suspected of contamination is investigated, made safe and cleaned up, by living methods where they work, and returned
+    to use with the neighbourhood deciding what it becomes.
+  capabilities:
+  - contaminated-land-remediation
+  - interim-use-arrangement
+  entities:
+  - contaminated-site
+  - land-parcel
+  serves:
+  - contaminated-site-walk
+  - remedy-choice-assembly
+- slug: heat-protection
+  title: Heat Protection
+  summary: When a heat wave is forecast residents are warned, cooling places open in every neighbourhood, and community health workers
+    and neighbours check on those most at risk.
+  capabilities:
+  - cooling-place-provision
+  - public-warning
+  - community-health-worker-deployment
+  entities:
+  - cooling-place
+  - health-alert
+  serves:
+  - heat-wave-cooling-room
+  - heat-wave-warning
+  - neighbour-heat-check
+- slug: exposure-burden-review
+  title: Exposure Burden Review
+  summary: Each year the city reviews with affected neighbourhoods which of them bear the most pollution, noise and heat, and sets
+    the next year's actions where the burden is heaviest.
+  capabilities:
+  - environmental-quality-monitoring
+  - hazard-and-vulnerability-mapping
+  - service-level-equity-mapping
+  entities:
+  - air-quality-index
+  - noise-map
+  - equity-impact-assessment
+  serves:
+  - exposure-burden-report
+  - remedy-choice-assembly
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

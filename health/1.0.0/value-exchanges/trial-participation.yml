@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: trial-participation
+title: Trial Participation
+between:
+- research-participant
+- clinician-scientist
+offered:
+- The participant offers time, data and samples, and accepts uncertainty about an intervention whose benefit is not yet proven.
+returned:
+- The investigator returns full information, close monitoring and care, the freedom to withdraw at any time without effect on treatment,
+  and the results of the study.
+touchpoint: consent-form

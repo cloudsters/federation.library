@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: service-group-evidence-and-assignment
+title: Service Group Evidence and Assignment
+between:
+- executive
+- health-planning-authority
+offered:
+- Evidence that each service group's staffing, equipment, volume and quality requirements are met, and a binding commitment
+  to serve the region.
+returned:
+- Assignment of the service groups and capacity on which the permission to provide and to be paid rests.
+touchpoint: care-mandate-decision

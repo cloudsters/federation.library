@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: neighbour-heat-check
+title: Neighbour Heat Check
+medium: encounter
+summary: The call or visit by a community health worker or neighbour to a resident most at risk during a heat wave.
+exchanges:
+- heat-checks-for-safety-in-the-heat
+journey: older-resident-safe-through-a-heat-wave

@@ -1,0 +1,34 @@
+kind: journey
+slug: consumer-discovering-a-new-offering
+title: Consumer Discovering a New Offering
+stakeholder: consumer
+summary: A consumer meets a new offering at its launch, on the shelf and online, follows it in social media and takes up a fair promotion
+  to try it.
+stages:
+- slug: see-the-launch
+  title: See the Launch
+  goal: The consumer learns of the new offering where and when it becomes available.
+  step: engagement-cultivation/launch-planning
+  touchpoints:
+  - product-launch
+  - store-and-branch
+- slug: meet-presentation-and-packaging
+  title: Meet Presentation and Packaging
+  goal: Packaging and descriptions explain the offering honestly where the consumer meets it.
+  step: engagement-cultivation/content-and-presentation
+  touchpoints:
+  - retail-shelf
+  - online-shop
+- slug: follow-in-social-media
+  title: Follow in Social Media
+  goal: The consumer finds a steady, useful presence and real answers.
+  step: engagement-cultivation/media-and-social-presence
+  touchpoints:
+  - social-media
+- slug: take-up-a-promotion
+  title: Take Up a Promotion
+  goal: A fair promotion makes trying the offering easier.
+  step: engagement-cultivation/campaign-and-promotion-execution
+  touchpoints:
+  - online-shop
+  - store-and-branch

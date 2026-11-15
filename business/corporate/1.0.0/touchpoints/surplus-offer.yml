@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: surplus-offer
+title: Surplus Offer
+medium: artefact
+summary: A typed declaration of spare capacity, knowledge or other surplus offered into the network, which others can find and answer.
+exchanges:
+- declared-surplus-for-answered-need
+journey: partner-running-a-federated-instance

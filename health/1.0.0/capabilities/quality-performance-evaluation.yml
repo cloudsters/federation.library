@@ -1,0 +1,10 @@
+kind: capability
+slug: quality-performance-evaluation
+title: Quality Performance Evaluation
+level: L3
+parent: quality-system
+summary: Evaluate whether quality objectives are met and decide on corrective action.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

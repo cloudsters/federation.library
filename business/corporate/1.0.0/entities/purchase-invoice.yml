@@ -1,0 +1,61 @@
+kind: entity
+slug: purchase-invoice
+title: Purchase Invoice
+type: transactional
+summary: The financial obligation for value received — the supplier's claim that triggers the organisation's outgoing payment and accounts
+  payable.
+attributes:
+- name: invoice-number
+  type: identifier
+  card: 1..1
+- name: invoice-date
+  type: date
+  card: 1..1
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: billed-lines
+  type: text
+  card: 1..*
+- name: taxes
+  type: amount
+  card: 0..1
+- name: total-amount
+  type: amount
+  card: 1..1
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 0..1
+- name: due-date
+  type: date
+  card: 1..1
+states:
+- draft
+- matched
+- posted
+- partially-paid
+- paid
+- debited
+- on-hold
+relations:
+- type: based-on
+  target: purchase-order
+- type: based-on
+  target: purchase-receipt
+- type: refers-to
+  target: supplier-organisation
+- type: produces
+  target: journal-entry
+binds:
+- source: src-134
+  edition: 3.0.21
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-140
+  edition: d16b
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

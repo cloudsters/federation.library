@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: barrier-report-line
+title: Barrier Report Line
+medium: channel
+summary: The channel, by telephone, text, online and at service points, through which residents report getting lost, being turned
+  away or meeting a barrier, and hear what was done.
+exchanges:
+- lost-and-turned-away-reports-for-changed-access
+journey: city-planner-making-the-way-to-services-findable

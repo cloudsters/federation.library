@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: coordinated-care-for-enrolled-patients
+title: Coordinated Care for Enrolled Patients
+between:
+- case-manager
+- person-with-chronic-condition
+offered:
+- One shared care plan, a named coordinator, rapid access when the condition worsens and monitoring at home that avoids unnecessary
+  hospital stays.
+returned:
+- Agreement to take part and to share information across providers, readings and symptom reports from home, and active self-management
+  of the condition.
+touchpoint: shared-care-plan

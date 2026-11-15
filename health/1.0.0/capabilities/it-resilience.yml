@@ -1,0 +1,13 @@
+kind: capability
+slug: it-resilience
+title: IT Resilience
+level: L2
+parent: technology-operations-and-security
+summary: Keeping technology available and recoverable.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-305
+  edition: '2025'
+  jurisdiction: global

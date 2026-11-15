@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digital-roadmap
+title: Digital Roadmap
+medium: artefact
+summary: The published plan that sequences digital initiatives over the planning horizon with their purpose, dependencies, cost and
+  expected benefit.
+exchanges:
+- roadmap-for-investment
+- academic-needs-for-shared-infrastructure
+journey: owner-funding-digital-transformation

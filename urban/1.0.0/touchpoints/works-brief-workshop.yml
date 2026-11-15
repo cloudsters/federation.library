@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: works-brief-workshop
+title: Works Brief Workshop
+medium: encounter
+summary: A workshop in which the owning department, future users and the crews who will maintain an asset write the brief of a public
+  work together.
+exchanges:
+- user-needs-for-a-sound-brief
+- maintainer-requirements-in-the-brief
+journey: public-works-engineer-delivering-a-public-work

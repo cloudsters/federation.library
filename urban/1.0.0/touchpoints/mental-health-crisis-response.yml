@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: mental-health-crisis-response
+title: Mental Health Crisis Response
+medium: encounter
+summary: The visit of a crisis team for mental health sent instead of or beside the police when the call is about a person in crisis.
+exchanges:
+- call-for-help-for-the-right-responder
+journey: resident-calling-for-help

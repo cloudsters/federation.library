@@ -1,0 +1,11 @@
+kind: body
+slug: fleet-workshop
+title: Fleet Workshop
+summary: Services and repairs the city's vehicles, machines and equipment, checks each failed item for repair before it is replaced,
+  and passes on what one department no longer needs to another or to a neighbourhood body.
+holds:
+- repair-before-replacement-check
+- fleet-and-equipment-maintenance
+part_of: public-works-department
+type: function
+form: organisational-unit

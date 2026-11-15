@@ -1,0 +1,10 @@
+kind: capability
+slug: discharge-medication-plan
+title: Discharge Medication Plan
+level: L3
+parent: discharge-management
+summary: Prepare the discharge medication plan and the medication the patient needs until the next prescription.
+binds:
+- source: src-512
+  edition: v3-2014
+  jurisdiction: global

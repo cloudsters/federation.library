@@ -1,0 +1,51 @@
+kind: journey
+slug: department-head-service-portfolio-journey
+title: Department Head Service Portfolio Journey
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department brings the service's results and future into the portfolio review and implements the decision
+  on entry, growth, concentration or exit.
+stages:
+- slug: raise-the-signal
+  title: Raise the Signal
+  goal: Bring the department's signals of demand, staffing and performance into the review.
+  step: service-portfolio-planning/portfolio-review-opening
+  touchpoints:
+  - performance-dialogue
+- slug: account-for-the-service
+  title: Account for the Service
+  goal: See and explain the service's volumes, outcomes and economics per site.
+  step: service-portfolio-planning/service-performance-assessment
+  touchpoints:
+  - performance-dashboard
+  - performance-dialogue
+- slug: understand-future-demand
+  title: Understand Future Demand
+  goal: Understand how need, referrals and the shift to day-case care will change the service.
+  step: service-portfolio-planning/demand-and-mandate-projection
+  touchpoints:
+  - performance-dashboard
+- slug: propose-the-services-future
+  title: Propose the Service's Future
+  goal: Propose growth, concentration, transfer or exit with a reasoned business case.
+  step: service-portfolio-planning/portfolio-option-design
+  touchpoints:
+  - business-case
+- slug: receive-the-decision
+  title: Receive the Decision
+  goal: Receive the board's decision on the service and the reasons for it.
+  step: service-portfolio-planning/portfolio-decision
+  touchpoints:
+  - performance-dialogue
+- slug: evidence-the-criteria
+  title: Evidence the Criteria
+  goal: Supply the staffing, equipment and volume evidence the service group requires.
+  step: service-portfolio-planning/mandate-and-volume-alignment
+  touchpoints:
+  - service-group-application
+- slug: implement-entry-or-exit
+  title: Implement Entry or Exit
+  goal: Carry the decided entry, growth, concentration or exit into objectives, staffing and the team's work.
+  step: service-portfolio-planning/portfolio-handover
+  touchpoints:
+  - unit-objectives-agreement
+  - staff-town-hall

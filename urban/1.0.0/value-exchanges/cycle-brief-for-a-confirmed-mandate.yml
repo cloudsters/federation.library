@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: cycle-brief-for-a-confirmed-mandate
+title: Cycle Brief for a Confirmed Mandate
+between:
+- mayor
+- city-council
+offered:
+- The mayor's brief for the strategy cycle, its scope, participants, method and calendar.
+returned:
+- The council's confirmation of the brief and of the vision and mandate the strategy must keep within.
+touchpoint: strategy-cycle-brief

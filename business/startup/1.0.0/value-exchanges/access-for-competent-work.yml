@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-for-competent-work
+title: Access for Competent Work
+between:
+- business-customer
+- field-service-technician
+offered:
+- Access to the site and equipment, the time of staff who know the situation and safe conditions to work in.
+returned:
+- Work performed to standard, adapted to the situation, validated and explained.
+touchpoint: service-hotline

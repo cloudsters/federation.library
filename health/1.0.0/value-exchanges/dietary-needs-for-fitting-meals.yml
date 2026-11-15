@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: dietary-needs-for-fitting-meals
+title: Dietary Needs for Fitting Meals
+between:
+- elective-inpatient
+- support-services-staff
+offered:
+- Meal choices, allergies and preferences stated, and feedback on what is eaten and left.
+returned:
+- Meals matching the prescribed diet and own taste, served on time, with help with eating where needed.
+touchpoint: meal-service

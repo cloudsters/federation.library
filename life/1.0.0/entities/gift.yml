@@ -1,0 +1,35 @@
+kind: entity
+slug: gift
+title: Gift
+type: transactional
+summary: Something meaningful given or received without terms — money, time, access, an introduction, care. Held with its direction,
+  because a circle in which gifts run one way is in a recorded state and not a healthy one.
+attributes:
+- name: direction
+  type: code
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: what
+  type: text
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: with
+  type: code
+  card: 0..1
+- name: under-plan
+  type: reference(giving-plan)
+  card: 0..1
+states:
+- offered
+- received
+- thanked for
+- passed on
+relations:
+- target: relationship-map
+  type: about
+- target: giving-plan
+  type: based-on

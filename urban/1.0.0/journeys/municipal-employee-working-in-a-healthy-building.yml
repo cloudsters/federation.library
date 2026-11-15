@@ -1,0 +1,32 @@
+kind: journey
+slug: municipal-employee-working-in-a-healthy-building
+title: Municipal Employee Working in a Healthy Building
+stakeholder: municipal-employee
+summary: A member of staff says how the office is used, reports faults in its installations, works through its retrofit and shares
+  the rooms with neighbourhood groups after hours.
+stages:
+- slug: say-how-space-is-used
+  title: Say How Space Is Used
+  goal: The staff's account of which rooms are used and which stand empty is part of the building use review.
+  step: public-buildings-and-facilities/building-use-review
+  touchpoints:
+  - building-use-walk-through
+- slug: report-faults-in-the-building
+  title: Report Faults in the Building
+  goal: Cold rooms, failed lifts, leaks and blocked exits reported by staff are put right.
+  step: public-buildings-and-facilities/building-operation-and-safety
+  touchpoints:
+  - building-help-desk
+- slug: work-through-the-retrofit
+  title: Work Through the Retrofit
+  goal: Staff know when and how the building will be retrofitted and see its energy use fall afterwards.
+  step: public-buildings-and-facilities/energy-use-and-retrofit
+  touchpoints:
+  - retrofit-works-briefing
+  - published-building-energy-ratings
+- slug: share-the-office-after-hours
+  title: Share the Office After Hours
+  goal: Meeting rooms the staff use by day are open to neighbourhood groups in the evenings.
+  step: public-buildings-and-facilities/shared-use-with-neighbourhoods
+  touchpoints:
+  - out-of-hours-room-booking

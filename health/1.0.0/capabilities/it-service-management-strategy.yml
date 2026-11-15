@@ -1,0 +1,10 @@
+kind: capability
+slug: it-service-management-strategy
+title: IT Service Management Strategy
+level: L3
+parent: it-service-management
+summary: Define how IT services are designed, delivered and improved.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

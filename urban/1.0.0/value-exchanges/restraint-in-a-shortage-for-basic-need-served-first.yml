@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: restraint-in-a-shortage-for-basic-need-served-first
+title: Restraint in a Shortage for Basic Need Served First
+between:
+- resident
+- infrastructure-operator
+offered:
+- Households' restraint in using water under the published limits.
+returned:
+- The basic need of every household served first and water brought to those cut off.
+touchpoint: water-restriction-notice

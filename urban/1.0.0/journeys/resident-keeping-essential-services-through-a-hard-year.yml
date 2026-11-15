@@ -1,0 +1,48 @@
+kind: journey
+slug: resident-keeping-essential-services-through-a-hard-year
+title: Resident Keeping Essential Services Through a Hard Year
+stakeholder: resident
+summary: A resident whose income falls receives a bill they can read, applies for relief, has charges for water, energy and transit
+  capped to what the household can carry, agrees a payment plan that fits when they earn, and appeals or has a debt written off when
+  it cannot fairly be recovered.
+stages:
+- slug: read-the-bill
+  title: Read the Bill
+  goal: The resident knows what is owed and on what basis, and can see the balance of the account.
+  step: local-taxation-and-revenue/assessment-and-billing
+  touchpoints:
+  - plain-language-tax-bill
+  - taxpayer-account-view
+- slug: apply-for-relief
+  title: Apply for Relief
+  goal: A reduction or deferral has been granted on published criteria and without stigma.
+  step: local-taxation-and-revenue/relief-and-hardship-support
+  touchpoints:
+  - relief-application-desk
+- slug: keep-essential-services
+  title: Keep Essential Services
+  goal: Charges for water, energy and transit stay within the cap, and no essential service is cut because the household cannot pay.
+  step: local-taxation-and-revenue/relief-and-hardship-support
+  touchpoints:
+  - essential-charge-cap-notice
+- slug: pay-what-can-be-paid
+  title: Pay What Can Be Paid
+  goal: Small payments are received through a channel close to the resident, such as a neighbourhood agent or a mobile payment, and
+    credited to the right account.
+  step: local-taxation-and-revenue/payment-collection
+  touchpoints:
+  - payment-channels
+- slug: agree-a-plan-that-fits
+  title: Agree a Plan That Fits
+  goal: Arrears are spread over a plan timed to when the resident earns, and hardship is referred to relief.
+  step: local-taxation-and-revenue/arrears-recovery
+  touchpoints:
+  - payment-reminder
+  - payment-plan-meeting
+- slug: appeal-or-start-again
+  title: Appeal or Start Again
+  goal: Enforcement has been reviewed on appeal, or a debt that cannot fairly be recovered has been written off on published rules.
+  step: local-taxation-and-revenue/arrears-recovery
+  touchpoints:
+  - enforcement-appeal-hearing
+  - arrears-write-off-decision

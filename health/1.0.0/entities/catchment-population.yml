@@ -1,0 +1,39 @@
+kind: entity
+slug: catchment-population
+title: Catchment Population
+type: master
+summary: The population the organisation or a network is responsible for or draws patients from, defined by area and service,
+  with its size, age structure, morbidity and expected demand.
+attributes:
+- name: areas
+  type: code
+  card: 1..*
+- name: services
+  type: reference(care-service)
+  card: 0..*
+- name: population-size
+  type: integer
+  card: 1..1
+- name: age-structure
+  type: document
+  card: 0..1
+- name: morbidity-profile
+  type: document
+  card: 0..1
+- name: expected-demand
+  type: quantity
+  card: 0..*
+- name: reference-period
+  type: period
+  card: 1..1
+states: []
+relations:
+- type: refers-to
+  target: service-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

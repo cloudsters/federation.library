@@ -1,0 +1,76 @@
+kind: value-stream
+slug: becoming-to-identity
+start: true
+title: Becoming Oneself
+family: perception-to-mandate
+summary: From the self that was handed over to the self that is chosen. Not a discovery of something fixed but the ongoing composition
+  of something living — honest enough to revise, stable enough to act from.
+trigger: The life being lived starts to feel borrowed, a role that once fit no longer does, or the old answer to who one is rings
+  false.
+outcome: The person can say who they are in their own words, revises it when it stops being true, and acts from it without waiting
+  for permission.
+stakeholders:
+- close-friend
+- partner
+- mentor
+- parent
+- community
+steps:
+- slug: noticing-the-borrowed-life
+  title: Noticing the Borrowed Life
+  summary: A role or an answer that once fit starts to chafe, and the person admits that part of the life being lived was handed over
+    rather than chosen.
+  capabilities:
+  - sensing-what-no-longer-fits
+  entities:
+  - self
+  - gravity
+- slug: asking-what-others-see
+  title: Asking What Others See
+  summary: The person asks those who know them well what they count on them for, and hears a self they had not quite claimed.
+  capabilities:
+  - asking-for-honest-reflection
+  entities:
+  - other-perception
+  - natural-gift
+  - friend
+  serves:
+  - heart-to-heart
+  - long-walk
+  - mentoring-conversation
+- slug: naming-oneself-plainly
+  title: Naming Oneself Plainly
+  summary: Who they are now is put into their own words, including the several selves they live at once, without borrowing anyone's
+    label.
+  capabilities:
+  - saying-who-one-is
+  - writing-to-find-out
+  entities:
+  - self
+  - journal
+  - life-narrative
+- slug: living-it-in-the-open
+  title: Living It in the Open
+  summary: The named self is tried at work, at home and online, to find out whether it holds when others are watching and no one has
+    given permission.
+  capabilities:
+  - acting-without-waiting-for-permission
+  - staying-whole-across-roles
+  entities:
+  - self
+  - standing
+  - community-relation
+  - role
+  serves:
+  - social-feed
+  - the-home
+  - the-workplace
+- slug: revising-when-untrue
+  title: Revising When It Stops Being True
+  summary: When the account no longer matches the life, it is changed again, and the change is taken as growth rather than as a failure.
+  capabilities:
+  - revising-oneself-without-shame
+  entities:
+  - self
+  - drift-reading
+  - journal

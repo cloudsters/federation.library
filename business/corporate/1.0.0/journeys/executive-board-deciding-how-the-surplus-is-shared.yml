@@ -1,0 +1,28 @@
+kind: journey
+slug: executive-board-deciding-how-the-surplus-is-shared
+title: Executive Board Deciding How the Surplus Is Shared
+stakeholder: executive-board
+summary: The executive board sets the planning frame, follows the year through variances and forecasts, and decides how the surplus
+  is shared between reinvestment, reserves, owners, staff and community.
+stages:
+- slug: set-targets-from-the-strategy
+  title: Set Targets from the Strategy
+  goal: Financial targets and planning assumptions follow from the strategy and the organisation's health.
+  step: value-stewardship-accounting/planning-frame-setting
+  touchpoints:
+  - board-meeting
+  - planning-guideline
+- slug: follow-the-year
+  title: Follow the Year
+  goal: The board sees deviations with their explanations and the updated forecast each period.
+  step: value-stewardship-accounting/variance-analysis-and-forecast
+  touchpoints:
+  - management-report
+  - board-meeting
+- slug: share-the-surplus
+  title: Share the Surplus
+  goal: The surplus is allocated by governed rules that protect the organisation's long-term health.
+  step: value-stewardship-accounting/value-distribution-decision
+  touchpoints:
+  - board-meeting
+  - shareholder-meeting

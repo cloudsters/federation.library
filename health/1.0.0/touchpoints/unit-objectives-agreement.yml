@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: unit-objectives-agreement
+title: Unit Objectives Agreement
+medium: artefact
+summary: The written agreement between the board and the head of a department or centre on objectives, measures, resources and decision
+  room for a period.
+exchanges:
+- unit-objectives
+- protected-research-time
+- benefit-ownership
+journey: department-head-strategy-journey

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: use-of-funds-statement
+title: Use-of-Funds Statement
+medium: artefact
+summary: The statement through which the commons accounts to a funder for earmarked funds, showing spending against the purpose and
+  conditions of the grant or allocation.
+exchanges:
+- public-purpose-for-investment-funds
+- research-results-for-funding
+- separate-accounting-for-academic-funding
+journey: granting-public-investment-funds

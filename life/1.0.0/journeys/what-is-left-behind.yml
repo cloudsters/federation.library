@@ -1,0 +1,33 @@
+kind: journey
+slug: what-is-left-behind
+title: What Is Left Behind
+stakeholder: descendant
+via: contributor-to-succession
+summary: Those who come after, including those not yet born, receive what this person chose to pass on, with the harm that stopped
+  here not passed with it, set down in writing and kept alive in memory.
+stages:
+- slug: inherit-less-harm
+  title: Inherit Less Harm
+  goal: The harm done to the person has been faced, so less of it reaches those who come after.
+  step: inheritance-to-transmission/facing-the-harm
+  touchpoints: []
+- slug: receive-a-choice
+  title: Receive a Choice
+  goal: What reaches those who come after was chosen on purpose, not merely left over.
+  step: inheritance-to-transmission/choosing-what-to-pass-on
+  touchpoints: []
+- slug: find-it-written
+  title: Find It Written
+  goal: Money and meaning reach those who come after as intended, in a will, directives and words written for them.
+  step: inheritance-to-transmission/putting-it-in-writing
+  touchpoints:
+  - the-will
+  - the-letter
+- slug: know-those-before
+  title: Know Those Before
+  goal: Those who come after know who came before them, and carry their good without their harm.
+  step: inheritance-to-transmission/honouring-those-before
+  touchpoints:
+  - family-gathering
+  - yearly-remembrance
+  - place-returned-to

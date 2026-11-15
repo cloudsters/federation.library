@@ -1,0 +1,40 @@
+kind: entity
+slug: rights-record
+title: Rights Record
+type: governance
+summary: 'Which rights in each piece of work this person keeps, has signed away, or has released to the commons, and on what terms.
+  Held apart from `contract`, which holds the agreements: this is the state they have left each piece in.'
+attributes:
+- name: work
+  type: reference(creative-output)
+  card: 1..1
+- name: kept
+  type: text
+  card: 0..*
+- name: signed-away
+  type: text
+  card: 0..*
+- name: signed-under
+  type: list(contract)
+  card: 0..*
+- name: released-under
+  type: code
+  card: 0..1
+- name: marked
+  type: boolean
+  card: 0..1
+- name: checked-on
+  type: date
+  card: 0..1
+states:
+- unclear
+- known
+- settled
+- contested
+relations:
+- target: creative-output
+  type: about
+- target: contract
+  type: based-on
+- target: body-of-work
+  type: part-of

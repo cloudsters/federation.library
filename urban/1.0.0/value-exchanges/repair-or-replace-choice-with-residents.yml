@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: repair-or-replace-choice-with-residents
+title: Repair or Replace Choice with Residents
+between:
+- affected-community
+- city-administration
+offered:
+- Residents' view of what to repair, refurbish or replace in their streets and buildings, and what they need to stay.
+returned:
+- One coordinated renewal planned with them and checked so that it does not push them out.
+touchpoint: renewal-options-workshop

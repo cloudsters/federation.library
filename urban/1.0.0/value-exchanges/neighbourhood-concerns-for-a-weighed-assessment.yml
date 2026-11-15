@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-concerns-for-a-weighed-assessment
+title: Neighbourhood Concerns for a Weighed Assessment
+between:
+- neighbourhood-association
+- data-protection-officer
+offered:
+- Concerns about what a proposed sensor or use of data would do to the neighbourhood.
+returned:
+- An assessment that weighs them, including whether the data is needed at all, and a published decision.
+touchpoint: privacy-impact-hearing

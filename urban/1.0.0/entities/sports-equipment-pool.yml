@@ -1,0 +1,56 @@
+kind: entity
+slug: sports-equipment-pool
+title: Sports Equipment Pool
+type: master
+summary: The sports and play equipment lent from points in the neighbourhood, with what is held, where it is lent from, by whom and
+  on what terms. The lending point keeps it, often with a club, library or community centre, and it lets residents play without buying
+  equipment.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: lending-points
+  type: reference(library|community-centre|service-point|sports-facility)
+  card: 1..*
+- name: equipment-items
+  type: text
+  card: 1..*
+- name: item-count
+  type: integer
+  card: 0..1
+- name: run-by
+  type: text
+  card: 1..*
+- name: lending-terms
+  type: text
+  card: 1..1
+- name: loan-count
+  type: integer
+  card: 0..1
+- name: fee
+  type: amount
+  card: 0..1
+states:
+- proposed
+- stocked
+- lending
+- suspended
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: library
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: health-promotion-programme
+- type: refers-to
+  target: volunteer-record
+binds:
+- source: src-265
+  edition: '2015-11-17'
+  jurisdiction: global

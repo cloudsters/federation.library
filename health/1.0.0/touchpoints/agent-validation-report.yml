@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-validation-report
+title: Agent Validation Report
+medium: artefact
+summary: The report of an agent's validation on the organisation's own data and workflow, with metrics, acceptance criteria, fairness
+  results and the go or no-go decision.
+exchanges:
+- agent-supply-and-evidence
+journey: serving-in-a-defined-role

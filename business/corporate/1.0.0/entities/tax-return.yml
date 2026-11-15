@@ -1,0 +1,40 @@
+kind: entity
+slug: tax-return
+title: Tax Return
+type: governance
+summary: A regulatory filing obligation — the organisation's periodic report to tax authorities, demonstrating compliance and settling its
+  fiscal obligations to the public commons.
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: taxable-amount
+  type: amount
+  card: 1..1
+- name: tax-due
+  type: amount
+  card: 1..1
+- name: reconciliation
+  type: document
+  card: 0..1
+- name: filing-status
+  type: code
+  card: 1..1
+- name: payment-reference
+  type: identifier
+  card: 0..1
+states:
+- prepared
+- reconciled
+- reviewed
+- filed
+- paid
+- archived
+relations:
+- type: based-on
+  target: tax-rule
+- type: produces
+  target: payment

@@ -1,0 +1,34 @@
+kind: journey
+slug: referring-practice-referral-journey
+title: Referring Practice Referral Journey
+stakeholder: referring-practice
+summary: A practice hands a patient it cannot treat alone to the commons, learns the decision and the date, and stays informed while
+  the patient waits.
+stages:
+- slug: send-the-referral
+  title: Send the Referral
+  goal: Hand over the patient with a clear question through the fastest channel the commons accepts.
+  step: referral-and-admission-management/request-receipt
+  touchpoints:
+  - referrer-portal
+  - referral-letter
+- slug: learn-the-decision
+  title: Learn the Decision
+  goal: Know within the agreed time whether the patient is accepted and what will happen, or where else to turn.
+  step: referral-and-admission-management/clinical-review-and-acceptance
+  touchpoints:
+  - referrer-portal
+  - clinical-messaging-service
+- slug: follow-the-wait
+  title: Follow the Wait
+  goal: Know the expected date and raise the priority when the patient's condition worsens.
+  step: referral-and-admission-management/prioritisation-and-waiting-list
+  touchpoints:
+  - referrer-portal
+- slug: see-the-date
+  title: See the Date
+  goal: See the confirmed date so that the patient can be prepared and supported in the meantime.
+  step: referral-and-admission-management/scheduling
+  touchpoints:
+  - referrer-portal
+  - appointment-confirmation

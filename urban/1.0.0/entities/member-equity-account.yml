@@ -1,0 +1,51 @@
+kind: entity
+slug: member-equity-account
+title: Member Equity Account
+type: master
+summary: A cooperative member's share, with its vesting, the surplus credited and the buyout due when the member leaves. The cooperative
+  keeps it for each member, and it is used to admit new members at a reduced share cost and to buy out retiring members fairly.
+attributes:
+- name: cooperative
+  type: reference(cooperative)
+  card: 1..1
+- name: member-name
+  type: text
+  card: 1..1
+- name: joined-on
+  type: date
+  card: 1..1
+- name: share-cost
+  type: amount
+  card: 1..1
+- name: paid-in
+  type: amount
+  card: 1..1
+- name: vesting-period
+  type: period
+  card: 0..1
+- name: surplus-credited
+  type: amount
+  card: 0..1
+- name: surplus-formula
+  type: text
+  card: 0..1
+- name: buyout-due
+  type: amount
+  card: 0..1
+- name: left-on
+  type: date
+  card: 0..1
+states:
+- opened
+- vesting
+- vested
+- buyout-due
+- settled
+- closed
+relations:
+- type: part-of
+  target: cooperative
+- type: produces
+  target: exit-settlement
+- type: produces
+  target: payment

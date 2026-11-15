@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-rates-for-predictable-bills
+title: Published Rates for Predictable Bills
+between:
+- city-council
+- taxpayer
+offered:
+- Adopted rates for the period, published with their reasons and the reductions and higher rates that apply.
+returned:
+- Taxpayers who can plan for what they owe and pay on time.
+touchpoint: published-tax-and-charge-schedule

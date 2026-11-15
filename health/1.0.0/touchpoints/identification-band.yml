@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: identification-band
+title: Identification Band
+medium: artefact
+summary: The band every patient wears from registration to discharge, carrying name, date of birth and a scannable identifier, against
+  which identity is checked before every specimen, medicine, blood product and procedure.
+exchanges: []
+journey: inpatient-stay-journey

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: need-behind-the-question-for-the-right-help
+title: Need Behind the Question for the Right Help
+between:
+- resident
+- frontline-worker
+offered:
+- The resident's account of what they need, including the difficulty behind the question.
+returned:
+- Help that answers the real need and a judgement of how urgent it is.
+touchpoint: city-contact-line

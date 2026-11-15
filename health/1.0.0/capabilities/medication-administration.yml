@@ -1,0 +1,10 @@
+kind: capability
+slug: medication-administration
+title: Medication Administration
+level: L3
+parent: medication-use-process
+summary: Administer medicines with verification of patient, medicine, dose, time and route at the bedside.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

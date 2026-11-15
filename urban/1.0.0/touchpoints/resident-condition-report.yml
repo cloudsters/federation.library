@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: resident-condition-report
+title: Resident Condition Report
+medium: channel
+summary: The route, online, by telephone and on paper, by which residents report the condition of streets, paths, buildings and trees,
+  with photographs and readings where they have them.
+exchanges:
+- resident-observations-for-a-fuller-condition-record
+journey: asset-officer-building-the-asset-plan

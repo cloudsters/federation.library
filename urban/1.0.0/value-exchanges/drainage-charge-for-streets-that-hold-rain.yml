@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: drainage-charge-for-streets-that-hold-rain
+title: Drainage Charge for Streets That Hold Rain
+between:
+- resident
+- infrastructure-operator
+offered:
+- A drainage charge that follows the rain the property sends into the system, and care of planted beds and green channels.
+returned:
+- Drains kept clear and streets and green spaces that hold the rain before it floods homes.
+touchpoint: rain-garden-street

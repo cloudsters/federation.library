@@ -1,0 +1,117 @@
+kind: value-stream
+slug: asset-lifecycle-planning
+title: Asset Lifecycle Planning
+family: acquire-to-retire
+summary: 'Planning the organisation''s assets, sites and workspaces over their whole life: setting the asset and property strategy,
+  deciding to buy, lease or build, registering and depreciating what is held, and running facilities and workplace services for their
+  users.'
+trigger: The asset planning cycle opens, or a space or asset need arises.
+outcome: An approved asset plan with renewal priorities feeds capital planning, and facilities and workspaces serve their users.
+stakeholders:
+- executive-board
+- site-manager
+- finance-professional
+- information-technology-specialist
+- employee
+- lender
+steps:
+- slug: asset-and-property-strategy
+  title: Asset and Property Strategy
+  summary: The long-term strategy for productive assets, sites and buildings is set with full lifecycle awareness, from first use
+    to end of life.
+  capabilities:
+  - asset-strategy-design
+  - property-strategy
+  entities:
+  - strategy
+  - asset
+  - facility
+  - plan
+  serves:
+  - board-meeting
+- slug: asset-investment-plan
+  title: Asset Investment Plan
+  summary: Replacement and expansion needs from condition, demand and strategy are prioritised into a multi-year investment plan with
+    business cases, and the funding is secured.
+  capabilities:
+  - asset-investment-planning
+  entities:
+  - business-case
+  - capital-project
+  - budget
+  - asset
+  serves:
+  - board-meeting
+  - investment-proposal
+  - lender-review
+- slug: space-and-facility-planning
+  title: Space and Facility Planning
+  summary: User needs are translated into space programmes and building proposals, space is allocated by agreed rules, and workspaces
+    are designed for wellbeing and collaboration.
+  capabilities:
+  - facility-planning
+  - space-management
+  - workspace-as-living-environment
+  entities:
+  - facility
+  - branch
+  - plan
+  serves:
+  - facility-service-desk
+  - workplace
+- slug: acquisition-and-provision
+  title: Acquisition and Provision
+  summary: Buying, leasing or building is decided on lifecycle cost and how firm the need is, and assets, vehicles and leased property
+    are acquired; anything to be built passes to asset creation.
+  capabilities:
+  - asset-acquisition-with-care
+  - lease-and-property-management
+  - fleet-management
+  entities:
+  - asset
+  - vehicle
+  - contract
+  - purchase-order
+  - financing-facility
+  serves:
+  - equipment-handover
+  - lease-or-financing-agreement
+- slug: asset-registration-and-valuation
+  title: Asset Registration and Valuation
+  summary: Every physical and digital asset is registered with location, owner, criticality and renewal date, capitalised, and depreciated
+    over its useful life.
+  capabilities:
+  - asset-register-management
+  - depreciation-lifecycle-management
+  - digital-asset-lifecycle
+  entities:
+  - asset
+  - equipment
+  - software-licence
+  - journal-entry
+  - account
+  serves:
+  - annual-report
+  - asset-register
+- slug: facility-operation-and-workplace-services
+  title: Facility Operation and Workplace Services
+  summary: Building systems, energy supply, access and security, and reception, cleaning, catering and meeting services are run so
+    that people can work well and safely on site.
+  capabilities:
+  - steward-facilities-operations
+  - building-technical-services
+  - energy-management
+  - security-and-access-control
+  - workplace-services
+  entities:
+  - facility
+  - equipment
+  - environmental-footprint
+  - service-level-agreement
+  serves:
+  - facility-service-desk
+  - workplace
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

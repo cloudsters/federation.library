@@ -1,0 +1,50 @@
+kind: entity
+slug: blanket-order
+title: Blanket Order
+type: transactional
+summary: A standing agreement for recurring exchange — a long-term commitment that provides supply stability while allowing flexible
+  release scheduling against actual demand.
+attributes:
+- name: item
+  type: reference(item)
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: agreed-quantity
+  type: quantity
+  card: 1..1
+- name: price
+  type: amount
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: released-quantity
+  type: quantity
+  card: 0..1
+- name: remaining-quantity
+  type: quantity
+  card: 0..1
+states:
+- active
+- releasing
+- partially-consumed
+- consumed
+- expired
+relations:
+- type: refers-to
+  target: item
+- type: produces
+  target: sales-order
+- type: produces
+  target: purchase-order
+- type: governed-by
+  target: agreement
+binds:
+- source: src-136
+  edition: d24a
+  jurisdiction: global

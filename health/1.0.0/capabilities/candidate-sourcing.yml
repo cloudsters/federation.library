@@ -1,0 +1,10 @@
+kind: capability
+slug: candidate-sourcing
+title: Candidate Sourcing
+level: L3
+parent: recruitment
+summary: Find candidates through job boards, networks, agencies, schools and events.
+binds:
+- source: src-380
+  edition: '2017'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quality-review-dialogue
+title: Quality Review Dialogue
+medium: encounter
+summary: The structured dialogue in which the organisation explains a notable quality result to the national body or its experts,
+  with analysis and actions, before the result is judged.
+exchanges:
+- quality-data-for-fair-comparison
+journey: department-outcome-results

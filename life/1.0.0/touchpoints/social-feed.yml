@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: social-feed
+title: The Social Feed
+medium: channel
+mode: digital
+summary: The stream on a platform where a person reads, posts, is seen and is shown what someone else has chosen.
+exchanges:
+- data-for-service
+- translation-for-understanding
+- consent-for-telling
+- care-for-followers
+journey: being-asked-what-i-see

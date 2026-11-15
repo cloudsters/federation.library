@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: in-process-check
+title: In-Process Check
+medium: encounter
+summary: The check of a product or service against the quality plan while the work is being done, with calibrated equipment and the
+  authority of anyone to stop the work.
+exchanges:
+- stop-authority-for-early-signals
+journey: operator-building-quality-into-the-work

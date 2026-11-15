@@ -1,0 +1,109 @@
+# The variant corporate of the business model; startup is its sibling.
+id: business
+variant: {name: corporate, after: startup}
+title: 'Business: corporate'
+kind: business-commons
+gives: 'A corporate commons, a group of several legal entities that makes goods and renders services across borders, with
+  owners, a governing board, an executive board and employee co-determination, holds its value creation as one whole: what
+  it is there for, the portfolio it builds, the community that carries it, the propositions it brings to its audiences and
+  the production that keeps its promises, read together. This model holds 84 streams in all thirteen families, the capability
+  map from L0 to L3, every entity and solution, and every Body with its Posts; the variant startup shares 35 of its streams.'
+asks: A Body that holds what the commons activates, and the commons' own evidence on its value creation.
+order:
+  perception-to-mandate:
+  - boundary-sensing-identity-design
+  - risk-as-immune-response
+  - compliance-as-integrity
+  - remediation-healing
+  - resilience-architecture
+  - ethical-practice-design
+  purpose-to-portfolio:
+  - strategy-as-living-design
+  - initiative-cultivation
+  - value-model-stewardship
+  - mergers-and-acquisitions
+  - portfolio-programme-orchestration
+  value-to-sustainability:
+  - value-stewardship-accounting
+  - revenue-architecture
+  - transparency-reporting
+  - capital-stewardship
+  - treasury-as-circulation
+  - internal-integrity-controls
+  - fiscal-responsibility-contribution
+  - global-value-consolidation
+  portfolio-to-system:
+  - stakeholder-technology-relationship
+  - technology-strategy-alignment
+  - digital-immune-design
+  - information-as-lifeblood
+  - interoperability-and-connectivity
+  - solution-lifecycle-design
+  - change-as-evolution
+  - support-as-care
+  - intelligence-cultivation
+  participant-to-community:
+  - community-voice-architecture
+  - ecosystem-relationship-design
+  - institutional-partnering
+  - governance-board-relationship
+  - public-narrative-presence
+  collaboration-to-automation:
+  - process-as-living-pattern
+  - quality-as-vitality
+  - change-as-growth
+  - knowledge-as-commons
+  - sensing-benchmarking
+  - ecological-health-safety
+  - regenerative-practice
+  contributor-to-succession:
+  - participant-intelligence-sensing
+  - workforce-as-ecosystem
+  - talent-attraction-welcome
+  - workforce-scheduling-and-staffing
+  - growth-development-cultivation
+  - relationship-stewardship
+  - recognition-reciprocity
+  - payroll-as-promise-fulfilled
+  - transition-graceful-exit
+  - ai-agent-lifecycle
+  discovery-to-usage:
+  - offering-portfolio-stewardship
+  - research-and-technology-development
+  - offering-discovery-ideation
+  - offering-design-craft
+  - experience-strategy-design
+  - experience-delivery-care
+  - post-delivery-stewardship
+  - safety-recall-integrity
+  - experience-sensing-evolution
+  interest-to-relationship:
+  - market-stakeholder-sensing
+  - value-narrative-design
+  - engagement-cultivation
+  - relationship-journey-design
+  proposition-to-audience:
+  - distribution-strategy-design
+  - direct-distribution
+  - platform-ecosystem-distribution
+  - community-network-distribution
+  - commons-open-distribution
+  - channel-partner-distribution
+  demand-to-fulfillment:
+  - supply-chain-orchestration
+  - production-craft-assembly
+  - logistics-flow-design
+  - service-delivery-governance
+  - service-resource-orchestration
+  - service-delivery-craft
+  - customer-project-delivery
+  source-to-alliance:
+  - sourcing-partnership-design
+  - payment-fair-settlement
+  - global-trade-exchange
+  - commons-federation-exchange
+  acquire-to-retire:
+  - asset-lifecycle-planning
+  - asset-creation-design
+  - asset-care-maintenance
+  - asset-end-of-life-stewardship

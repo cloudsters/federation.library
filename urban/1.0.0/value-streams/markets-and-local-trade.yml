@@ -1,0 +1,121 @@
+kind: value-stream
+slug: markets-and-local-trade
+title: Markets and Local Trade
+family: proposition-to-audience
+summary: Running the city's markets as the channel through which local producers and vendors reach residents with fresh and affordable
+  goods. It holds the planning of covered, weekly and street markets within reach of every neighbourhood, market rules agreed with
+  an elected vendor council, the registration of vendors, informal vendors included, with standing that protects them, the running
+  of market days, price and cost data shared by vendors in a cooperative they own, direct sales by farmers and makers of the region,
+  and a review of prices, incomes and access.
+trigger: A neighbourhood lacks a market or fresh food within reach, vendors or producers ask for a place to trade, or vendors raise
+  unfair fees, prices or conduct.
+outcome: Every neighbourhood has a market within reach, vendors trade with standing under rules they helped set, and prices are open
+  to vendors and buyers alike.
+stakeholders:
+- market-vendor
+- informal-worker
+- local-producer
+- resident
+- older-resident
+- neighbourhood-association
+- city-administration
+steps:
+- slug: market-network-planning
+  title: Market Network Planning
+  summary: The markets service plans where covered, weekly and street markets operate so that fresh and affordable goods are within
+    walking reach of every neighbourhood, with pitches kept for local producers.
+  capabilities:
+  - market-network-planning
+  - community-asset-mapping
+  entities:
+  - market
+  - local-economy-map
+  serves:
+  - market-location-consultation
+- slug: market-rules-with-vendors
+  title: Market Rules with Vendors
+  summary: Fees, hours, hygiene, conduct and the criteria for allocating pitches are agreed with a vendor council that vendors elect,
+    and published for every market.
+  capabilities:
+  - market-rule-drafting
+  - vendor-council-convening
+  entities:
+  - market-rules
+  - vendor-council
+  serves:
+  - published-market-rules
+  - vendor-council-election
+  - vendor-council-meeting
+- slug: vendor-registration
+  title: Vendor Registration
+  summary: Vendors, including those who have traded informally, are registered with a licence that gives them standing and a pitch,
+    protects them from removal without due process and does not price them out.
+  capabilities:
+  - vendor-registration
+  - market-and-pitch-allocation
+  entities:
+  - vendor-licence
+  - trading-pitch
+  serves:
+  - vendor-licence-card
+  - vendor-registration-desk
+- slug: market-day-operation
+  title: Market Day Operation
+  summary: Market staff and the vendor council set up, run and clear each market day, check hygiene, weights and safety, and collect
+    fees as the rules set them.
+  capabilities:
+  - market-day-operation
+  - payment-receipt-and-matching
+  - market-and-pitch-allocation
+  entities:
+  - market-day
+  - market
+  - payment
+  serves:
+  - market-day-stall
+- slug: shared-price-data
+  title: Shared Price Data
+  summary: Vendors contribute anonymised sales, cost and price data to a data cooperative they own, and aggregated price ranges and
+    cost benchmarks are published to vendors and residents in a form that prevents price fixing.
+  capabilities:
+  - market-data-pooling
+  - price-information-publication
+  - data-sharing-agreement-drafting
+  entities:
+  - market-price-report
+  - data-sharing-agreement
+  serves:
+  - published-market-price-board
+  - vendor-data-cooperative-meeting
+- slug: direct-producer-sales
+  title: Direct Producer Sales
+  summary: Farmers, food producers and makers of the region sell directly at markets and through the collection points of their cooperatives,
+    under agreements with open prices that pay producers fairly.
+  capabilities:
+  - producer-direct-sales-arrangement
+  - price-information-publication
+  entities:
+  - direct-sales-agreement
+  - market
+  serves:
+  - market-day-stall
+  - producer-collection-point
+  - producer-direct-sales-agreement
+- slug: market-review
+  title: Market Review
+  summary: The markets service and the vendor council review footfall, prices against other outlets, vendor incomes, who shops and
+    which neighbourhoods still lack a market, and change the plan and the rules.
+  capabilities:
+  - market-data-pooling
+  - public-life-observation
+  - market-network-planning
+  entities:
+  - market-price-report
+  - market
+  serves:
+  - market-review-meeting
+  - market-shopper-survey
+binds:
+- source: src-277
+  edition: '2015-06-12'
+  jurisdiction: global

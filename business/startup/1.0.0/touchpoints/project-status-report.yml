@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: project-status-report
+title: Project Status Report
+medium: artefact
+summary: The regular report on progress, cost, quality, risks and open decisions of a project, shared with the customer and the project
+  team.
+exchanges:
+- priced-change-for-timely-decision
+journey: customer-commissioning-a-project

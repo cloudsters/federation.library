@@ -1,0 +1,56 @@
+kind: entity
+slug: commons-fund
+title: Commons Fund
+type: master
+summary: The ring-fenced fund into which commons-generated value flows, such as captured land value, asset income, enterprise surplus
+  and the share of taxes the council assigns, held apart from the general budget and kept in value over time. The treasury accounts
+  for it apart from general revenue under the fund rules, and neighbourhood bodies allocate their share of it with residents.
+attributes:
+- name: fund-name
+  type: text
+  card: 1..1
+- name: rules
+  type: reference(commons-fund-rules)
+  card: 1..1
+- name: balance
+  type: amount
+  card: 1..1
+- name: balance-date
+  type: date
+  card: 1..1
+- name: inflows-by-source
+  type: document
+  card: 1..1
+- name: outflows-by-use
+  type: document
+  card: 0..1
+- name: neighbourhood-shares
+  type: document
+  card: 0..1
+- name: indexation-basis
+  type: code
+  card: 0..1
+- name: held-in
+  type: reference(bank-account)
+  card: 1..*
+- name: established-by
+  type: reference(council-decision)
+  card: 1..1
+- name: established-on
+  type: date
+  card: 1..1
+states:
+- proposed
+- established
+- active
+- suspended
+- dissolved
+relations:
+- type: governed-by
+  target: commons-fund-rules
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: bank-account
+- type: refers-to
+  target: neighbourhood

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: named-contact-call
+title: Named Contact Call
+medium: encounter
+summary: A regular call or visit from the named member of staff who keeps in touch with a resident who returns often or lives with
+  long-term needs.
+exchanges:
+- returning-trust-for-a-named-contact
+journey: resident-finding-a-way-through-what-they-owe

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: management-report
+title: Management Report
+medium: artefact
+summary: The periodic report to leaders of results against budget and forecast, with explained deviations and the health of liquidity
+  and profitability.
+exchanges:
+- explained-deviations-for-a-steering-forecast
+journey: unit-leader-answering-for-a-budget

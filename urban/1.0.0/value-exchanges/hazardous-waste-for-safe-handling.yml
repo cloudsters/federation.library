@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: hazardous-waste-for-safe-handling
+title: Hazardous Waste for Safe Handling
+between:
+- resident
+- infrastructure-operator
+offered:
+- Hazardous waste from the household or workshop, handed in separately.
+returned:
+- Safe storage and treatment, so that no neighbourhood carries a heavier burden.
+touchpoint: hazardous-waste-drop-off

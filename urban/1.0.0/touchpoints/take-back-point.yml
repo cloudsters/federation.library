@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: take-back-point
+title: Take-Back Point
+medium: place
+summary: A point in a shop, depot or hub where residents return products at the end of their use to their producers.
+exchanges:
+- returned-products-for-recovered-material
+journey: resident-mending-instead-of-buying

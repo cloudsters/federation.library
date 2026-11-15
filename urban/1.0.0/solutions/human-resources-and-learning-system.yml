@@ -1,0 +1,37 @@
+kind: solution
+slug: human-resources-and-learning-system
+title: Human Resources and Learning System
+role: system-of-record
+summary: Holds the staff learning paths and their progress, the oversight assignments with the competence they require, the agreements
+  with staff representatives and the findings of work allocation audits with the answers given.
+carries:
+- knowledge-gap-assessment
+- staff-learning-path-design
+- oversight-competence-building
+- staff-representative-consultation
+- work-allocation-audit
+- staff-record-keeping
+- staff-induction
+- staff-wellbeing-sensing
+- care-load-distribution
+- burnout-prevention
+- grievance-handling
+- retention-review
+- pay-equity-review
+- successor-development
+- role-rotation-scheduling
+- knowledge-keeper-appointment
+- continued-contribution-arrangement
+holds:
+- staff-learning-path
+- oversight-assignment
+- staff-agreement
+- work-allocation-audit
+- staff-record
+- position
+- employment-contract
+- induction-plan
+- staff-survey
+- grievance
+- role-rotation-schedule
+- labour-valuation

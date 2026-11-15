@@ -1,0 +1,39 @@
+kind: journey
+slug: after-the-quarrel
+title: After the Quarrel
+stakeholder: partner
+via: participant-to-community
+summary: The partner lives through the argument that keeps coming back, and finds the person stepping out of the heat, naming their
+  own part, mending what can be mended and learning the way back together.
+stages:
+- slug: see-the-fight-return
+  title: See the Fight Return
+  goal: The returning shape of the quarrel has been named by both, not carried as a private grievance by the partner.
+  step: friction-to-repair/noticing-the-same-fight
+  touchpoints:
+  - the-argument
+- slug: let-the-heat-pass
+  title: Let the Heat Pass
+  goal: The partner has seen the person step out of the heat without walking away for good.
+  step: friction-to-repair/letting-the-heat-pass
+  touchpoints:
+  - the-argument
+- slug: hear-their-part-named
+  title: Hear Their Part Named
+  goal: The partner has heard the person name what they did and what it cost, with no counter-charge attached.
+  step: friction-to-repair/owning-ones-part
+  touchpoints:
+  - saying-sorry
+- slug: see-it-made-right
+  title: See It Made Right
+  goal: What could be mended has been mended, and the partner has been asked what is needed before trust returns.
+  step: friction-to-repair/making-it-right
+  touchpoints:
+  - saying-sorry
+- slug: find-the-way-back
+  title: Find the Way Back
+  goal: Both know what helped them back, so the next breach has a path they have already walked.
+  step: friction-to-repair/learning-the-way-back
+  touchpoints:
+  - heart-to-heart
+  - long-walk

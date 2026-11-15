@@ -1,0 +1,27 @@
+kind: journey
+slug: community-holding-investment-to-its-word
+title: Community Holding Investment to Its Word
+stakeholder: affected-community
+summary: A community near a planned investment makes sure the city's offer is true to it, states its priorities before the benefit
+  agreement is signed and checks in public whether the commitments were kept and what the investment did to rents and local businesses.
+stages:
+- slug: keep-the-offer-true-to-us
+  title: Keep the Offer True to Us
+  goal: The neighbourhood described in the city's offer recognises itself in it.
+  step: inward-investment-and-location-promotion/location-offer-definition
+  touchpoints:
+  - location-offer-workshop
+- slug: state-our-priorities
+  title: State Our Priorities
+  goal: The community's priorities for work, suppliers and benefit are written into the agreement before it is signed.
+  step: inward-investment-and-location-promotion/local-benefit-agreement
+  touchpoints:
+  - community-benefit-hearing
+- slug: check-the-commitments
+  title: Check the Commitments
+  goal: The community can see whether each commitment was kept, how many residents found work and what happened to rents and local
+    businesses.
+  step: inward-investment-and-location-promotion/investment-outcome-review
+  touchpoints:
+  - published-investment-outcome-review
+  - investment-commitment-review

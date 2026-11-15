@@ -1,0 +1,27 @@
+kind: journey
+slug: prepared-for-the-worst
+title: Prepared for the Worst
+stakeholder: partner
+via: purpose-to-portfolio
+summary: The partner has thought through with this person, in a calm time, who would do what if something broke, and when it does,
+  acts from what was prepared instead of improvising in shock.
+stages:
+- slug: agree-who-does-what
+  title: Agree Who Does What
+  goal: The partner knows who would do what, and where the papers and contacts are, before anything breaks.
+  step: rupture-to-replan/agreeing-who-does-what
+  touchpoints:
+  - kitchen-table
+  - emergency-folder
+- slug: act-from-the-plan
+  title: Act from the Plan
+  goal: When something the life depended on falls away, the partner acts from what was prepared.
+  step: rupture-to-replan/when-it-falls-away
+  touchpoints:
+  - emergency-folder
+- slug: be-told-plainly
+  title: Be Told Plainly
+  goal: When a commitment ends, the partner has been told plainly what closes and what is handed on.
+  step: rupture-to-replan/ending-cleanly
+  touchpoints:
+  - hard-conversation

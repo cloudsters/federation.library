@@ -1,0 +1,45 @@
+kind: journey
+slug: supervisory-board-holding-management-to-account
+title: Supervisory Board Holding Management to Account
+stakeholder: supervisory-board
+summary: The supervisory board works under a clear design and clear decision rights, receives reporting that shows the health of the
+  whole, offers counsel rather than ceremony, reviews its own working and plans its renewal.
+stages:
+- slug: work-under-a-clear-mandate
+  title: Work Under a Clear Mandate
+  goal: The board and its committees have written mandates and know how they work with management and the owners.
+  step: governance-board-relationship/governance-design
+  touchpoints:
+  - board-rules-of-procedure
+- slug: know-who-decides-what
+  title: Know Who Decides What
+  goal: The board knows which decisions it reserves, the limits it has delegated and who may act for the company.
+  step: governance-board-relationship/decision-rights-and-entities
+  touchpoints:
+  - decision-rights-matrix
+  - company-register-entry
+- slug: receive-honest-reporting
+  title: Receive Honest Reporting
+  goal: The board receives a board pack that shows the health of the whole in time to read it, questions it and records its resolutions.
+  step: governance-board-relationship/board-reporting-and-counsel
+  touchpoints:
+  - board-pack
+  - supervisory-board-meeting
+- slug: account-to-the-owners
+  title: Account to the Owners
+  goal: The board reports to the owners' meeting on its supervision and receives their discharge or their challenge.
+  step: governance-board-relationship/owners-meeting
+  touchpoints:
+  - shareholder-meeting
+- slug: review-its-own-working
+  title: Review Its Own Working
+  goal: The board assesses its composition, competence and working, and whether those affected by its decisions were heard.
+  step: governance-board-relationship/governance-effectiveness-review
+  touchpoints:
+  - board-evaluation
+- slug: renew-its-members
+  title: Renew Its Members
+  goal: The board proposes new members in time, so that knowledge and authority do not concentrate in a few people.
+  step: governance-board-relationship/steward-succession
+  touchpoints:
+  - board-nomination

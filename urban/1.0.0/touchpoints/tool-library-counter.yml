@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: tool-library-counter
+title: Tool Library Counter
+medium: place
+summary: The counter of a tool library where residents and groups borrow and return tools.
+exchanges:
+- shared-tools-for-careful-return
+journey: resident-mending-instead-of-buying

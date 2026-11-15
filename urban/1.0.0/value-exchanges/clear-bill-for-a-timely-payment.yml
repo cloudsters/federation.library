@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clear-bill-for-a-timely-payment
+title: Clear Bill for a Timely Payment
+between:
+- finance-officer
+- taxpayer
+offered:
+- A bill in plain language that shows what is owed, on what basis and what the revenue funds.
+returned:
+- Payment on time, or an early word when the taxpayer cannot pay.
+touchpoint: plain-language-tax-bill

@@ -1,0 +1,61 @@
+kind: journey
+slug: mental-health-care-journey
+title: Mental Health Care Journey
+stakeholder: person-with-mental-illness
+summary: A person in mental crisis finds help, keeps their rights where compulsion is considered, agrees a safety plan, is treated
+  in the least restrictive setting, has every restriction ended and talked through, and goes home with a crisis plan and a next appointment.
+stages:
+- slug: find-help-in-crisis
+  title: Find Help in Crisis
+  goal: Reach help at any hour and be met with respect.
+  step: mental-health-care/crisis-access-and-assessment
+  touchpoints:
+  - emergency-department
+  - outpatient-clinic
+- slug: keep-ones-rights
+  title: Keep One's Rights
+  goal: Be asked first, decide as far as possible, and have any compulsion reviewed by a court with someone on one's side.
+  step: mental-health-care/legal-status-and-capacity
+  touchpoints:
+  - consent-form
+  - advance-directive-document
+  - patient-advocate-office
+- slug: agree-a-safety-plan
+  title: Agree a Safety Plan
+  goal: Talk openly about risk and agree what helps and whom to call.
+  step: mental-health-care/risk-assessment-and-safety-plan
+  touchpoints:
+  - consultation
+  - shared-care-plan
+- slug: choose-where-to-be-treated
+  title: Choose Where to Be Treated
+  goal: Be treated at home, in a day clinic or on a ward, whichever is the least restrictive setting that is safe.
+  step: mental-health-care/treatment-setting-decision
+  touchpoints:
+  - consultation
+  - home-visit
+  - day-care-unit
+  - ward
+- slug: get-better
+  title: Get Better
+  goal: Receive therapy and medication that help, with physical health cared for and relatives involved as wished.
+  step: mental-health-care/treatment-delivery
+  touchpoints:
+  - therapy-session
+  - ward-round
+  - medication-plan
+- slug: be-free-again
+  title: Be Free Again
+  goal: Have any restriction ended as soon as possible and talked through afterwards.
+  step: mental-health-care/least-restrictive-care-review
+  touchpoints:
+  - family-meeting
+  - patient-advocate-office
+- slug: go-home-with-a-plan
+  title: Go Home with a Plan
+  goal: Leave with a crisis plan, a next appointment and someone who will call.
+  step: mental-health-care/transition-to-community-care
+  touchpoints:
+  - discharge-planning-meeting
+  - discharge-letter
+  - follow-up-call

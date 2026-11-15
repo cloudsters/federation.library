@@ -1,0 +1,75 @@
+kind: entity
+slug: sport-and-activity-plan
+title: Sport and Activity Plan
+type: governance
+summary: The agreed plan for where facilities and play spaces are needed, what they cost to use and whom programmes reach first. The
+  administration agrees it with clubs, schools, young people and neighbourhoods and the council adopts it, and facility provision,
+  booking priorities and grants follow it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: plan-period
+  type: period
+  card: 1..1
+- name: aims
+  type: text
+  card: 1..*
+- name: planned-facilities
+  type: text
+  card: 0..*
+- name: price-rules
+  type: text
+  card: 1..*
+- name: booking-priorities
+  type: text
+  card: 1..*
+- name: priority-groups
+  type: text
+  card: 1..*
+- name: programmes
+  type: reference(health-promotion-programme)
+  card: 0..*
+- name: agreed-with
+  type: text
+  card: 1..*
+- name: budget
+  type: reference(municipal-budget)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- revised
+- retired
+relations:
+- type: based-on
+  target: physical-activity-profile
+- type: refers-to
+  target: sports-facility
+- type: refers-to
+  target: play-space
+- type: refers-to
+  target: shared-use-agreement
+- type: refers-to
+  target: capital-investment-plan
+- type: produces
+  target: community-grant
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-265
+  edition: '2015-11-17'
+  jurisdiction: global
+- source: src-266
+  edition: '2018-05-26'
+  jurisdiction: global

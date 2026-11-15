@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: role-review-for-supported-succession
+title: Role Review for Supported Succession
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The association's review of roles resting on one person, and its terms and rotation.
+returned:
+- Mentors and learning paths from the city for the association's successors.
+touchpoint: published-role-terms

@@ -1,0 +1,55 @@
+kind: entity
+slug: protest
+title: Protest or Demonstration
+type: transactional
+summary: A public expression of civic dissent or demand in public space, from its notice through the gathering to its end. Its organisers
+  give notice by a simple route and the city records it only to agree the safety of those taking part and of passers-by with the emergency
+  services, never to judge its cause.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: organisers
+  type: text
+  card: 0..*
+- name: notice-given-on
+  type: date
+  card: 0..1
+- name: stated-subject
+  type: text
+  card: 0..1
+- name: places
+  type: reference(public-space|street|park)
+  card: 1..*
+- name: route
+  type: document
+  card: 0..1
+- name: protest-period
+  type: period
+  card: 1..1
+- name: expected-participants
+  type: integer
+  card: 0..1
+- name: safety-arrangements
+  type: text
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..*
+- name: participant-count
+  type: integer
+  card: 0..1
+states:
+- notified
+- arranged
+- taking-place
+- ended
+relations:
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: street
+- type: refers-to
+  target: emergency-response
+- type: governed-by
+  target: bylaw

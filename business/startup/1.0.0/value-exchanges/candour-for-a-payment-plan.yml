@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: candour-for-a-payment-plan
+title: Candour for a Payment Plan
+between:
+- consumer
+- customer-service-representative
+offered:
+- An honest account of why a payment has stalled.
+returned:
+- A payment plan that fits the circumstances, instead of escalation.
+touchpoint: service-hotline

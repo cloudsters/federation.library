@@ -1,0 +1,36 @@
+kind: entity
+slug: mentee-relation
+title: Mentee Relation
+type: master
+summary: Someone this person is bringing on. The other seat of the mentor relation, held separately because a life occupies both at
+  once and usually notices only one.
+attributes:
+- name: in-what
+  type: list(skill)
+  card: 1..*
+- name: since
+  type: date
+  card: 0..1
+- name: time-given
+  type: duration
+  card: 0..1
+- name: what-was-agreed
+  type: text
+  card: 0..1
+- name: what-came-back
+  type: text
+  card: 0..*
+- name: what-was-passed-on
+  type: text
+  card: 0..*
+states:
+- asking
+- chosen
+- working alongside
+- going further
+- let go
+relations:
+- target: self
+  type: about
+- target: handover
+  type: serves

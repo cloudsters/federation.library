@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: day-care-unit
+title: Day Care Unit
+medium: place
+summary: A unit for procedures and treatments completed within one day, such as day surgery, infusions and endoscopies, where patients
+  arrive prepared and return home the same day.
+exchanges:
+- prepared-patient-for-a-safe-procedure
+journey: interventional-procedure-journey

@@ -1,0 +1,10 @@
+kind: capability
+slug: finding-integration
+title: Finding Integration
+level: L3
+parent: medical-assessment-and-diagnosis
+summary: Bring findings from history, examination, laboratory, imaging and pathology together into one clinical picture.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

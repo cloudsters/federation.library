@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consultation-views-for-a-weighed-proposal
+title: Consultation Views for a Weighed Proposal
+between:
+- resident
+- city-administration
+offered:
+- Residents' views on a proposal, given at a hearing or in writing.
+returned:
+- A proposal that states how the views were weighed, who benefits and who bears the cost.
+touchpoint: council-proposal

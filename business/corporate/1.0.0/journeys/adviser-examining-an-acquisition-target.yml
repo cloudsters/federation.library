@@ -1,0 +1,26 @@
+kind: journey
+slug: adviser-examining-an-acquisition-target
+title: Adviser Examining an Acquisition Target
+stakeholder: external-specialist
+summary: An external adviser examines a target's finances, contracts and liabilities, helps negotiate protections for the risks found
+  and supports a clean closing.
+stages:
+- slug: examine-the-target
+  title: Examine the Target
+  goal: The target's finances, contracts, liabilities, tax, people and technology are examined and the findings reported.
+  step: mergers-and-acquisitions/valuation-and-due-diligence
+  touchpoints:
+  - data-room
+  - due-diligence-report
+- slug: protect-against-the-risks
+  title: Protect Against the Risks
+  goal: Price, warranties and protections reflect the risks found.
+  step: mergers-and-acquisitions/negotiation-and-approval
+  touchpoints:
+  - contract-negotiation
+- slug: support-the-closing
+  title: Support the Closing
+  goal: Every closing condition is evidenced and the transfer is documented.
+  step: mergers-and-acquisitions/transaction-closing
+  touchpoints:
+  - closing-meeting

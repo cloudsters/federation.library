@@ -1,0 +1,63 @@
+kind: entity
+slug: housing-case
+title: Housing Case
+type: transactional
+summary: The record of a household at risk of losing its home or without one, with its circumstances, the help given and the outcome.
+  The housing officer keeps it with the household and the social worker involved, and uses it to prevent an eviction, arrange shelter
+  the same day and follow the move into a settled home.
+attributes:
+- name: case-number
+  type: identifier
+  card: 1..1
+- name: household-members
+  type: text
+  card: 1..*
+- name: case-officer
+  type: text
+  card: 0..1
+- name: situation
+  type: code
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: current-tenancy
+  type: reference(tenancy)
+  card: 0..1
+- name: arrears
+  type: reference(arrears-case)
+  card: 0..1
+- name: shelter-placement
+  type: reference(emergency-shelter)
+  card: 0..1
+- name: help-given
+  type: text
+  card: 0..*
+- name: settled-home
+  type: reference(dwelling)
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- opened
+- assessed
+- help-arranged
+- sheltered
+- rehoused
+- sustained
+- closed
+relations:
+- type: refers-to
+  target: tenancy
+- type: refers-to
+  target: arrears-case
+- type: refers-to
+  target: emergency-shelter
+- type: refers-to
+  target: care-assessment
+- type: governed-by
+  target: housing-policy

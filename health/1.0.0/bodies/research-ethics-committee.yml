@@ -1,0 +1,14 @@
+kind: body
+slug: research-ethics-committee
+title: Research Ethics Committee
+summary: Reviews research involving humans, their data and their samples, and decides whether a study may proceed. Independent in
+  its judgement; constituted by the faculty, or outside the commons where ethics review is organised nationally.
+holds:
+- ethics-committee-governance
+part_of: faculty-council
+type: committee
+form: governing-body
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global

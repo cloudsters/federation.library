@@ -1,0 +1,55 @@
+kind: journey
+slug: frontline-worker-improving-the-process-they-run
+title: Frontline Worker Improving the Process They Run
+stakeholder: frontline-worker
+summary: A frontline worker puts forward a process that wastes time, maps it as it really runs, redesigns it with residents and colleagues,
+  has a say in what is automated and what stays human, tests the tool, pilots the change and keeps watching whether the gains hold.
+stages:
+- slug: put-the-problem-forward
+  title: Put the Problem Forward
+  goal: The delay, error or overload the worker meets every day is logged, sized and given a process owner.
+  step: process-improvement-and-automation/opportunity-intake
+  touchpoints:
+  - improvement-idea-channel
+- slug: map-the-work-as-it-runs
+  title: Map the Work as It Runs
+  goal: How the work actually flows, where it waits and fails, and what residents meet at each point is mapped with the worker.
+  step: process-improvement-and-automation/current-state-mapping
+  touchpoints:
+  - process-walk
+  - current-state-process-map
+- slug: redesign-the-flow
+  title: Redesign the Flow
+  goal: Steps that add no value are removed with colleagues and residents, and the new way of working is written down as a standard
+    procedure.
+  step: process-improvement-and-automation/future-state-design
+  touchpoints:
+  - process-redesign-workshop
+  - published-standard-procedure
+- slug: say-what-stays-human
+  title: Say What Stays Human
+  goal: For each task it is decided, with the worker's view on record, what is automated, what an agent supports and what stays with
+    a person.
+  step: process-improvement-and-automation/automation-decision
+  touchpoints:
+  - automation-decision-meeting
+- slug: test-the-tool-on-real-work
+  title: Test the Tool on Real Work
+  goal: The tool built on open code and city data is tested on real cases, and the faults the worker finds are fixed before go-live.
+  step: process-improvement-and-automation/build-on-city-controlled-tools
+  touchpoints:
+  - staff-and-resident-test-run
+- slug: run-the-pilot
+  title: Run the Pilot
+  goal: The changed process runs first in one department or district, and the worker is trained before it spreads.
+  step: process-improvement-and-automation/pilot-and-rollout
+  touchpoints:
+  - pilot-run-review
+  - rollout-training-session
+- slug: keep-the-gains
+  title: Keep the Gains
+  goal: Waiting, error and workload are tracked with the worker, gains are held, and code worth sharing is published for peer cities.
+  step: process-improvement-and-automation/sustainment-and-review
+  touchpoints:
+  - process-performance-board
+  - shared-code-release

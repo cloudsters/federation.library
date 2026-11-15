@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: architecture-repository
+title: Architecture Repository
+medium: channel
+summary: The shared store of versioned, readable models of capabilities, applications, data, interfaces, principles and standards.
+exchanges:
+- architecture-principles-for-coherent-choices
+journey: architect-shaping-the-technology-direction

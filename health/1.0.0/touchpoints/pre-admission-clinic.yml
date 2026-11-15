@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: pre-admission-clinic
+title: Pre-Admission Clinic
+medium: place
+summary: The clinic where patients scheduled for planned admission or surgery are assessed in the days before, complete tests and
+  consents and receive instructions, so that the stay can start on the planned day.
+exchanges:
+- preparation-for-a-ready-admission
+journey: planned-admission-journey

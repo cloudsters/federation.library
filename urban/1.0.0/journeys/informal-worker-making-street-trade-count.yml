@@ -1,0 +1,38 @@
+kind: journey
+slug: informal-worker-making-street-trade-count
+title: Informal Worker Making Street Trade Count
+stakeholder: informal-worker
+summary: A street vendor raises a signal the city's data misses, maps street trade with the city under the vendors' own control, shows
+  who bears the burden of enforcement, discusses the shared picture and sees the correction through.
+stages:
+- slug: raise-a-signal
+  title: Raise a Signal
+  goal: The vendor's complaint or survey answer is recorded and traced to its source.
+  step: whole-city-perception/signal-collection
+  touchpoints:
+  - resident-survey
+  - petition-portal
+- slug: map-street-trade-with-the-city
+  title: Map Street Trade with the City
+  goal: Street trade is on the city's map, counted by the vendors themselves and used only with their consent.
+  step: whole-city-perception/blind-spot-mapping
+  touchpoints:
+  - community-mapping-walk
+- slug: show-who-bears-the-burden
+  title: Show Who Bears the Burden
+  goal: The burden of enforcement and the load on those who keep markets going are shown in the equity findings.
+  step: whole-city-perception/equity-and-vitality-assessment
+  touchpoints:
+  - equity-audit-report
+- slug: discuss-the-picture
+  title: Discuss the Picture
+  goal: The vendor has discussed the picture of the whole city before any correction was decided.
+  step: whole-city-perception/shared-picture
+  touchpoints:
+  - state-of-the-city-debate
+- slug: see-the-correction-through
+  title: See the Correction Through
+  goal: The vendor can follow the decided correction until the drift is closed.
+  step: whole-city-perception/corrective-decision-and-follow-through
+  touchpoints:
+  - implementation-report

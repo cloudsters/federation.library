@@ -1,0 +1,58 @@
+kind: entity
+slug: cultural-performance
+title: Cultural Performance
+type: transactional
+summary: A concert, play, exhibition opening or other cultural event, with its venue, makers, dates, ticket prices and audience. The
+  venue or the organiser records it, and it appears in the events calendar and in the counts of who takes part in culture.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: performance-kind
+  type: code
+  card: 1..1
+- name: venue
+  type: reference(cultural-venue)
+  card: 0..1
+- name: outdoor-place
+  type: reference(public-space|park)
+  card: 0..1
+- name: makers
+  type: text
+  card: 1..*
+- name: community-programmed
+  type: boolean
+  card: 0..1
+- name: performed-at
+  type: datetime
+  card: 1..*
+- name: ticket-prices
+  type: amount
+  card: 0..*
+- name: free-admission
+  type: boolean
+  card: 0..1
+- name: audience-count
+  type: integer
+  card: 0..1
+- name: festival
+  type: reference(festival)
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+states:
+- programmed
+- announced
+- performed
+- reported
+- cancelled
+relations:
+- type: part-of
+  target: festival
+- type: refers-to
+  target: cultural-venue
+- type: refers-to
+  target: city-events-calendar
+- type: governed-by
+  target: event-benefit-agreement

@@ -1,0 +1,10 @@
+kind: body
+slug: service-delivery
+title: Service Delivery
+summary: 'Delivers the services the enterprise sells: shapes service capability, initiates and runs engagements and closes them with
+  the customer.'
+holds:
+- service-delivery
+part_of: executive-board
+type: function
+form: organisational-unit

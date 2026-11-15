@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: attendance-for-screening-whatever-status
+title: Attendance for Screening Whatever Status
+between:
+- newcomer
+- health-and-care-provider
+offered:
+- Their attendance at screening and vaccination.
+returned:
+- Care whatever their status, in their language, with their data kept apart from enforcement.
+touchpoint: mobile-screening-clinic

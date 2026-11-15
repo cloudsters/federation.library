@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-timetable
+title: Published Timetable
+medium: artefact
+summary: The timetable of each line with its hours, frequencies and guaranteed night service, and the reasoning behind each change.
+exchanges:
+- fares-and-ridership-for-reliable-information
+journey: public-transport-passenger-travelling-without-a-car

@@ -1,0 +1,50 @@
+kind: entity
+slug: ai-system
+title: AI System
+type: master
+summary: A machine-based system the organisation uses that infers outputs such as predictions, recommendations, classifications or
+  content from data, held with its intended purpose, risk class, provider, version and deployment.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: intended-purpose
+  type: text
+  card: 1..1
+- name: risk-class
+  type: code
+  card: 1..1
+- name: provider
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: deployed-in
+  type: reference(organisation-unit)
+  card: 0..*
+- name: medical-device
+  type: reference(medical-device)
+  card: 0..1
+- name: autonomy-level
+  type: code
+  card: 1..1
+states:
+- proposed
+- in-validation
+- approved
+- in-use
+- suspended
+- withdrawn
+relations:
+- type: governed-by
+  target: agent-mandate
+- type: governed-by
+  target: oversight-assignment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

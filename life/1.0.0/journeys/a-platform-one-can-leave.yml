@@ -1,0 +1,41 @@
+kind: journey
+slug: a-platform-one-can-leave
+title: A Platform One Can Leave
+stakeholder: provider
+via: portfolio-to-system
+summary: A platform holds part of this life and finds its terms named, a way out built and tried, and its customer leaving before
+  it takes more than was agreed.
+stages:
+- slug: change-the-terms
+  title: Change the Terms
+  goal: The platform's change of terms, price or access has been noticed for how much of the life stood on it.
+  step: platform-to-sovereignty/feeling-the-ground-move
+  touchpoints:
+  - online-account
+  - terms-and-conditions
+  - customer-service-line
+- slug: be-named
+  title: Be Named
+  goal: What the platform holds and on what terms has been written down.
+  step: platform-to-sovereignty/naming-who-holds-what
+  touchpoints:
+  - terms-and-conditions
+- slug: see-a-way-out-built
+  title: See a Way Out Built
+  goal: What matters most can be taken from the platform elsewhere, through an export that works.
+  step: platform-to-sovereignty/building-a-way-out
+  touchpoints:
+  - online-account
+- slug: see-the-door-tried
+  title: See the Door Tried
+  goal: Something has actually been moved out of the platform once, so the way out is proven.
+  step: platform-to-sovereignty/trying-the-door
+  touchpoints:
+  - online-account
+- slug: be-held-to-terms
+  title: Be Held to Terms
+  goal: The platform is held to what was agreed, and is left before it takes more.
+  step: platform-to-sovereignty/holding-the-line
+  touchpoints:
+  - settings-screen
+  - terms-and-conditions

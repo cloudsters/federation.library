@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: batch-label
+title: Batch Label
+medium: artefact
+summary: The label on every sterile pack that states its contents, sterilisation batch, release and expiry date, scanned at use so
+  that the set is traced to the patient.
+exchanges:
+- used-sets-for-sterile-sets
+journey: theatre-team-relying-on-sterile-instruments

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: licence-statement
+title: Licence Statement
+medium: artefact
+summary: The statement of the software licences the commons holds, with their metrics, terms and use compared with installations,
+  presented in supplier licence audits.
+exchanges:
+- accurate-licence-use-for-transparent-terms
+journey: clinician-equipped-with-it

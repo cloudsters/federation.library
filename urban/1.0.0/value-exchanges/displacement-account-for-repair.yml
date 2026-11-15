@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: displacement-account-for-repair
+title: Displacement Account for Repair
+between:
+- affected-community
+- city-administration
+offered:
+- The community's account of who left the quarter and why.
+returned:
+- The displacement recorded in the review, with measures to repair it.
+touchpoint: community-benefit-report

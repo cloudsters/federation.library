@@ -1,0 +1,10 @@
+kind: body
+slug: housing-committee
+title: Housing Committee
+summary: Prepares the council's decisions on the housing policy, the allocation rules, the standard of a livable home and the upgrading
+  of informal settlements, and receives the yearly reviews of allocation, homelessness and upgrading.
+holds:
+- housing-and-shelter
+part_of: full-council
+type: committee
+form: governing-body

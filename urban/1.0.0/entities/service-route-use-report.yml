@@ -1,0 +1,59 @@
+kind: entity
+slug: service-route-use-report
+title: Service Route Use Report
+type: intelligence
+summary: The report of who uses each route to a service, digital, assisted or in person, and who is shut out, by neighbourhood, age,
+  language and disability. The department prepares it at a fixed rhythm, and it is used to change services, help and access.
+attributes:
+- name: services
+  type: reference(public-service)
+  card: 1..*
+- name: period
+  type: period
+  card: 1..1
+- name: routes
+  type: code
+  card: 1..*
+- name: use-by-route
+  type: quantity
+  card: 1..*
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: shut-out-groups
+  type: text
+  card: 0..*
+- name: reasons-reported
+  type: text
+  card: 0..*
+- name: changes-made
+  type: text
+  card: 0..*
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- scheduled
+- collected
+- analysed
+- published
+- acted-on
+relations:
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: service-point
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: citizen-satisfaction
+- type: refers-to
+  target: access-audit

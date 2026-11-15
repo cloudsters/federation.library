@@ -1,0 +1,20 @@
+kind: solution
+slug: digital-service-management-system
+title: Digital Service Management System
+role: system-of-engagement
+summary: Holds each digital service with its owner and published levels, receives requests, faults and changes by every channel and
+  tracks each to its end, records recurring problems with their causes and watches systems for availability and capacity.
+carries:
+- digital-demand-intake
+- service-level-setting
+- system-monitoring
+- service-desk-intake
+- incident-and-request-resolution
+- change-and-release-control
+- problem-analysis
+- service-digitisation-prioritisation
+holds:
+- digital-service
+- service-level-agreement
+- support-case
+- change-request

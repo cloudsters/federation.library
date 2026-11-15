@@ -1,0 +1,43 @@
+kind: entity
+slug: relationship-review
+title: Relationship Review
+type: transactional
+summary: A periodic review of a continuing relationship with a supplier, customer or partner, recording what it delivered to each
+  side against what was agreed, the other side's feedback and the decision to continue, develop or end it.
+attributes:
+- name: counterparty
+  type: reference(counterparty)
+  card: 1..1
+- name: relationship-kind
+  type: code
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: results
+  type: document
+  card: 0..1
+- name: counterparty-feedback
+  type: document
+  card: 0..1
+- name: findings
+  type: text
+  card: 1..*
+- name: decision
+  type: code
+  card: 0..1
+- name: agreed-actions
+  type: text
+  card: 0..*
+states:
+- scheduled
+- in-review
+- concluded
+- cancelled
+relations:
+- type: refers-to
+  target: contract
+- type: based-on
+  target: measure-report
+- type: produces
+  target: remediation-plan

@@ -1,0 +1,13 @@
+kind: post
+slug: information-security-officer
+title: Information Security Officer
+summary: 'Keeps the enterprise''s information and systems secure.'
+of: executive-board
+responsibility: Sets and monitors the information security programme, assesses digital risks, leads the response to cyber incidents
+  and reports them where required.
+accountable: body:executive-board
+type: role
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

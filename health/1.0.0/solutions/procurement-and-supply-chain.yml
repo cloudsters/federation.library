@@ -1,0 +1,49 @@
+kind: solution
+slug: procurement-and-supply-chain
+title: Procurement and Supply Chain
+role: system-of-record
+summary: Sources and buys goods and services through tenders and contracts, manages suppliers, and moves materials from goods receipt
+  through stores to the point of care, with batch and serial traceability and recall support.
+carries:
+- category-stewardship
+- supplier-selection-and-contracting
+- procurement-ordering
+- blanket-order-management
+- clinical-product-value-analysis
+- purchasing-cooperation
+- ethical-sourcing-design
+- supplier-relationship-stewardship
+- supplier-performance-evaluation
+- supplier-recovery
+- consignment-stock-management
+- material-demand-sensing
+- materials-availability-planning
+- inbound-flow-orchestration
+- clinical-warehousing-and-inventory
+- point-of-care-replenishment
+- internal-distribution
+- serial-number-tracking
+- returns-reverse-logistics
+- stock-reconciliation-practice
+- product-recall-management
+- recall-effectiveness-review
+- invoice-matching-verification
+- pharmaceutical-supply-management
+- implant-and-material-documentation
+holds:
+- supplier-organisation
+- tender
+- purchase-requisition
+- purchase-order
+- goods-receipt
+- inventory-item
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

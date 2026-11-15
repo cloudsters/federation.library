@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: enquiry-outcome-notice
+title: Enquiry Outcome Notice
+medium: artefact
+summary: The notice that tells the person what was done, after which the matter is closed.
+exchanges:
+- patience-for-news-within-the-promised-time
+journey: resident-reporting-a-problem-in-the-street

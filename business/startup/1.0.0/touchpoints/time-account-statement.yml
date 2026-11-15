@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: time-account-statement
+title: Time Account Statement
+medium: artefact
+summary: The statement of a person's hours for the period, with overtime, time credits and absences, as approved for payroll.
+exchanges:
+- recorded-time-for-fair-settlement
+journey: production-operator-working-to-a-fair-roster

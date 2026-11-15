@@ -1,0 +1,10 @@
+kind: body
+slug: hospital-pharmacy
+title: Hospital Pharmacy
+summary: 'Procures, prepares and issues medicines to the wards, high-risk preparations included, controls their quality and
+  advises clinicians on medication. Led by the chief pharmacist.'
+holds:
+- pharmacy-and-medication-management
+part_of: executive-board
+type: function
+form: organisational-unit

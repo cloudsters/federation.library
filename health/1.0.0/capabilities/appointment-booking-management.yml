@@ -1,0 +1,10 @@
+kind: capability
+slug: appointment-booking-management
+title: Appointment & Booking Management
+level: L3
+parent: referral-and-scheduling
+summary: Schedule appointments and admissions so that beds, staff and equipment are ready when the patient arrives.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

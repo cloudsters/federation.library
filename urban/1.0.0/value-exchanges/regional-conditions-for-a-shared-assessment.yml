@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: regional-conditions-for-a-shared-assessment
+title: Regional Conditions for a Shared Assessment
+between:
+- neighbouring-municipality
+- city-administration
+offered:
+- Data and knowledge on the conditions of the region the two municipalities share.
+returned:
+- An assessment of need and condition that names the regional pressures on both.
+touchpoint: need-and-condition-report

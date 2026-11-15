@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: older-person-with-frailty
+title: Older Person with Frailty
+nature: person
+stance: served
+summary: An older person whose reserves are reduced by multiple conditions, many medicines and limited mobility, often admitted
+  after a fall or an acute illness. The risk of delirium and lost independence rises with every day in hospital.
+seeks:
+- Treatment that preserves function and independence, a review of medicines and a safe return home or into care.
+brings:
+- Needs that cut across specialties and teach the commons to organise care around the whole person rather than the organ.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

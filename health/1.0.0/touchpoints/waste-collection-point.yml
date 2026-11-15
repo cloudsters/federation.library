@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: waste-collection-point
+title: Waste Collection Point
+medium: place
+summary: The point on each unit where waste is separated at source, so that recyclable, clinical and hazardous waste each take their
+  proper route.
+exchanges:
+- declared-waste-for-proper-disposal
+journey: load-measured-and-reduced

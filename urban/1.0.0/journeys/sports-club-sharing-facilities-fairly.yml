@@ -1,0 +1,41 @@
+kind: journey
+slug: sports-club-sharing-facilities-fairly
+title: Sports Club Sharing Facilities Fairly
+stakeholder: sports-club
+summary: A sports club adds its counts to the activity profile, helps shape the sport and activity plan, books a fair share of facility
+  time beside schools and informal groups, gets help with coaches and volunteers and reviews who uses the halls.
+stages:
+- slug: add-club-counts-to-the-profile
+  title: Add Club Counts to the Profile
+  goal: The knowledge of the club of who plays and who drops out is part of the activity profile.
+  step: sport-and-active-recreation/activity-profile
+  touchpoints:
+  - neighbourhood-activity-survey
+  - published-activity-profile
+- slug: shape-the-plan
+  title: Shape the Plan
+  goal: Where facilities are needed and whom programmes reach first is agreed with the club among others.
+  step: sport-and-active-recreation/sport-and-activity-plan
+  touchpoints:
+  - sport-plan-workshop
+  - published-sport-and-activity-plan
+- slug: book-a-fair-share-of-time
+  title: Book a Fair Share of Time
+  goal: The club has hall and pitch time through one open system, shared with schools, informal groups and casual users.
+  step: sport-and-active-recreation/fair-facility-booking
+  touchpoints:
+  - open-facility-booking-calendar
+  - facility-allocation-round
+- slug: get-help-with-coaches-and-volunteers
+  title: Get Help with Coaches and Volunteers
+  goal: The club has help with coaching, volunteers and safeguarding, and a small grant without heavy paperwork.
+  step: sport-and-active-recreation/club-and-grassroots-support
+  touchpoints:
+  - club-support-clinic
+  - grassroots-sport-grant
+- slug: review-who-uses-the-halls
+  title: Review Who Uses the Halls
+  goal: Who uses the facilities, and who does not, is reviewed with the club, and the plan is adjusted.
+  step: sport-and-active-recreation/activity-and-access-review
+  touchpoints:
+  - activity-and-access-review-meeting

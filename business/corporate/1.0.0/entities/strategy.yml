@@ -1,0 +1,41 @@
+kind: entity
+slug: strategy
+title: Strategy
+type: governance
+summary: The organisation's long-range plan — the deliberate translation of purpose into prioritised action, guiding where it invests its
+  effort across all four dimensions.
+attributes:
+- name: horizon
+  type: period
+  card: 1..1
+- name: arenas
+  type: text
+  card: 1..*
+- name: bets
+  type: text
+  card: 1..*
+- name: allocation-logic
+  type: text
+  card: 0..1
+- name: assumptions
+  type: text
+  card: 0..*
+- name: triggers
+  type: text
+  card: 0..*
+states:
+- drafted
+- deliberated
+- ratified
+- active
+- reviewed
+- superseded
+relations:
+- type: based-on
+  target: mission
+- type: based-on
+  target: vision
+- type: composed-of
+  target: objective
+- type: composed-of
+  target: initiative

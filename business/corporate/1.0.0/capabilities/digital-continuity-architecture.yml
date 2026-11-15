@@ -1,0 +1,11 @@
+kind: capability
+slug: digital-continuity-architecture
+title: Digital Continuity Architecture
+level: L3
+parent: it-resilience
+summary: Architect digital continuity as a non-negotiable — ensuring the system can sustain operations through disruption, protecting
+  stakeholders who depend on it.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contract-review-and-signing
+title: Contract Review and Signing
+medium: encounter
+summary: The review of the contract by the legal office with the winning supplier, in which the commitments of the bid become binding
+  clauses before the contract is signed.
+exchanges:
+- legal-review-for-a-binding-contract
+journey: procurement-officer-running-a-tender

@@ -1,0 +1,33 @@
+kind: journey
+slug: being-handed-the-decisions
+title: Being Handed the Decisions
+stakeholder: child
+via: collaboration-to-automation
+summary: The child learns who decides what in this household, is left with the decisions they stand closest to, and is given more
+  of them as they grow.
+stages:
+- slug: know-who-decides
+  title: Know Who Decides
+  goal: The child can say who decides what at home, who is asked first and who is only told.
+  step: decision-to-subsidiarity/saying-who-decides
+  touchpoints:
+  - kitchen-table
+- slug: keep-the-decision
+  title: Keep the Decision
+  goal: A decision left with the child stays with them, even when they choose differently from the adults.
+  step: decision-to-subsidiarity/letting-go-of-the-decision
+  touchpoints:
+  - kitchen-table
+  - daily-round-of-care
+- slug: see-the-gaps-closed
+  title: See the Gaps Closed
+  goal: Decisions nobody held have been given a home before they became the child's crisis.
+  step: decision-to-subsidiarity/catching-what-falls-between
+  touchpoints:
+  - kitchen-table
+- slug: take-on-more
+  title: Take On More
+  goal: As the child grows, more decisions have moved to them.
+  step: decision-to-subsidiarity/revisiting-as-people-grow
+  touchpoints:
+  - kitchen-table

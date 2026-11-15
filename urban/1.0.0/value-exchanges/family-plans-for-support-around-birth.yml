@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: family-plans-for-support-around-birth
+title: Family Plans for Support Around Birth
+between:
+- parent-or-guardian
+- social-worker
+offered:
+- The family's plans and wishes around the birth of a child.
+returned:
+- Support at home and in the neighbourhood planned before mother and child leave hospital.
+touchpoint: hospital-discharge-planning-meeting

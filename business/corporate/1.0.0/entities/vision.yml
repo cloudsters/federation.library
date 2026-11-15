@@ -1,0 +1,32 @@
+kind: entity
+slug: vision
+title: Vision
+type: governance
+summary: The organisation's aspiration — an image of the future state it strives toward, giving a direction that aligns all participants
+  and activities.
+attributes:
+- name: future-state
+  type: text
+  card: 1..1
+- name: horizon
+  type: period
+  card: 0..1
+- name: shift-from
+  type: text
+  card: 0..1
+- name: shift-to
+  type: text
+  card: 0..1
+states:
+- articulated
+- embraced
+- refreshed
+- fulfilled
+- renewed
+relations:
+- type: based-on
+  target: mission
+- type: refers-to
+  target: strategy
+- type: refers-to
+  target: objective

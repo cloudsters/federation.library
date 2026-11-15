@@ -1,0 +1,7 @@
+kind: capability
+slug: infrastructure-planning
+title: Infrastructure Planning
+level: L3
+parent: infrastructure
+summary: Plan technology infrastructure capacity against real demand, holding headroom where load is volatile and holding back where
+  capacity would only sit idle, so services endure peaks without waste.

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: advance-care-planning-conversation
+title: Advance Care Planning Conversation
+medium: encounter
+summary: The facilitated conversation, often repeated, in which a person with a serious illness, the relatives and the team discuss
+  goals of care, limits of treatment and a proxy.
+exchanges:
+- future-wishes-recorded-and-honoured
+journey: end-of-life-journey

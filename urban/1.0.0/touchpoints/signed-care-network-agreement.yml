@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: signed-care-network-agreement
+title: Signed Care Network Agreement
+medium: artefact
+summary: The signed agreement of a district's care network on information sharing, referral and joint answerability, published with
+  its members and its review date.
+exchanges:
+- neighbour-support-for-a-place-in-referrals
+- shared-referral-for-a-joined-answer
+journey: health-and-care-provider-joining-the-district-care-network

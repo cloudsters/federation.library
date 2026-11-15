@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: self-paying-patient
+title: Self-Paying Patient
+nature: person
+stance: served
+summary: 'A person who pays for care personally, in full or in part: without coverage, from abroad, for optional services such as
+  a single room, or for treatment no payer covers. Estimate, price and bill are part of the care experience.'
+seeks:
+- A clear estimate before care, a correct and understandable bill afterwards, and fair terms if paying takes time.
+brings:
+- Revenue outside regulated budgets, and a direct verdict on the commons' transparency and fairness in money matters.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

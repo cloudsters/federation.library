@@ -1,0 +1,73 @@
+kind: entity
+slug: masterplan
+title: Masterplan
+type: master
+summary: The city-wide spatial plan that sets land use, density, centres, green and blue networks and movement corridors over the
+  long term, and where the city grows, densifies, protects and retreats. The planning department prepares it with residents, the council
+  adopts it with its reasons, and land-use rules, district plans and capital investment are bound to it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: plan-maps
+  type: document
+  card: 1..*
+- name: density-targets
+  type: text
+  card: 0..*
+- name: centres
+  type: text
+  card: 0..*
+- name: green-and-blue-network
+  type: document
+  card: 0..1
+- name: movement-corridors
+  type: text
+  card: 0..*
+- name: growth-areas
+  type: text
+  card: 0..*
+- name: retreat-areas
+  type: text
+  card: 0..*
+- name: vision
+  type: reference(city-vision)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- review-opened
+- analysed
+- drafted
+- co-designed
+- adopted
+- in-force
+- monitored
+- superseded
+relations:
+- type: based-on
+  target: city-vision
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: future-scenario
+- type: refers-to
+  target: gis-layer
+- type: refers-to
+  target: flood-risk-map
+- type: based-on
+  target: public-consultation
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global

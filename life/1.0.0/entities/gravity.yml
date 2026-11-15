@@ -1,0 +1,37 @@
+kind: entity
+slug: gravity
+title: Gravity
+type: master
+summary: 'What holds this life in its current position — the person''s own ideas, habits and feelings, and, equally, the belief systems
+  and organisational structures of the people around them. The only entity here that is not a property of the person: gravity is a
+  field the life is in.'
+attributes:
+- name: what-holds
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: where-it-comes-from
+  type: text
+  card: 0..1
+- name: holds-in-place
+  type: text
+  card: 0..*
+- name: related-premise
+  type: reference(premise)
+  card: 0..1
+- name: noticed-on
+  type: date
+  card: 0..1
+states:
+- unfelt
+- felt
+- named
+- loosening
+- released
+relations:
+- target: self
+  type: about
+- target: premise
+  type: depends-on

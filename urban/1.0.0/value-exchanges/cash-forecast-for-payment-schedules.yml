@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: cash-forecast-for-payment-schedules
+title: Cash Forecast for Payment Schedules
+between:
+- finance-officer
+- city-administration
+offered:
+- The daily cash position and the forecast of receipts and payments.
+returned:
+- Departments' payment schedules, announced in advance.
+touchpoint: daily-cash-position-report

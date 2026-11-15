@@ -1,0 +1,36 @@
+kind: entity
+slug: knowledge-article
+title: Knowledge Article
+type: intelligence
+summary: A captured piece of the organisation's know-how — reusable knowledge that lets it learn, remember, and share what it knows across
+  time and participants.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: body
+  type: document
+  card: 1..1
+- name: topics
+  type: code
+  card: 1..*
+- name: author
+  type: reference(employee-record)
+  card: 1..1
+- name: audience
+  type: code
+  card: 1..1
+- name: review-cadence
+  type: code
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- draft
+- reviewed
+- published
+- revalidated
+- archived
+- superseded
+relations: []

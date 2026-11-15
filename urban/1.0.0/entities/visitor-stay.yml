@@ -1,0 +1,56 @@
+kind: entity
+slug: visitor-stay
+title: Visitor Stay
+type: transactional
+summary: A visitor's time in the city, from arrival to departure, with where they stayed, for how many nights and the overnight charge
+  collected. The accommodation provider records it under the visitor charge and the city counts stays by neighbourhood and season
+  without naming the visitor, and the counts feed the visitor impact assessment.
+attributes:
+- name: stay-reference
+  type: identifier
+  card: 1..1
+- name: arrival-date
+  type: date
+  card: 1..1
+- name: departure-date
+  type: date
+  card: 1..1
+- name: nights
+  type: integer
+  card: 1..1
+- name: guest-count
+  type: integer
+  card: 1..1
+- name: visit-purpose
+  type: code
+  card: 0..1
+- name: accommodation-kind
+  type: code
+  card: 1..1
+- name: holiday-let
+  type: reference(holiday-let-register)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: visitor-charge
+  type: amount
+  card: 0..1
+- name: charge-schedule
+  type: reference(tax-and-charge-schedule)
+  card: 0..1
+states:
+- booked
+- arrived
+- departed
+- charge-settled
+- cancelled
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: holiday-let-register
+- type: governed-by
+  target: tax-and-charge-schedule
+- type: produces
+  target: payment

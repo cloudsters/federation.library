@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digitisation-priority-session
+title: Digitisation Priority Session
+medium: encounter
+summary: The meeting of the department and the service council in which the order in which services move to a digital route is chosen
+  and its reasons recorded.
+exchanges:
+- exclusion-risk-for-a-safe-order
+- request-counts-for-a-published-order
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

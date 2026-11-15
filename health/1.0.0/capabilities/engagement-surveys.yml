@@ -1,0 +1,13 @@
+kind: capability
+slug: engagement-surveys
+title: Engagement Surveys
+level: L3
+parent: wellbeing-and-retention
+summary: Survey staff engagement and satisfaction and act on the results.
+binds:
+- source: src-377
+  edition: '2022'
+  jurisdiction: global
+- source: src-585
+  edition: III
+  jurisdiction: global

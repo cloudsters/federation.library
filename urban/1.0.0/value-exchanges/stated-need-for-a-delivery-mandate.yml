@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stated-need-for-a-delivery-mandate
+title: Stated Need for a Delivery Mandate
+between:
+- city-administration
+- information-technology-specialist
+offered:
+- A department's need for a new or changed tool, with its purpose.
+returned:
+- A delivery mandate with a named owner, checked against the roadmap and the architecture.
+touchpoint: digital-request-form

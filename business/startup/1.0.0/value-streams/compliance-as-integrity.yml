@@ -1,0 +1,146 @@
+kind: value-stream
+slug: compliance-as-integrity
+title: Compliance as Integrity
+family: perception-to-mandate
+summary: 'Keeping the organisation''s conduct within the law, its licences and its own declared values as a continuous state: a register
+  of obligations, an integrity code, living policies and controls, monitoring, investigation and audit evidence.'
+trigger: A new or changed regulation takes effect, a licence or approval falls due for renewal, or a compliance gap is reported.
+outcome: Each obligation is embedded in a policy or control with a named owner, and compliance is evidenced at audit.
+stakeholders:
+- legal-risk-and-compliance-professional
+- executive-board
+- employee
+- sector-regulator
+- data-protection-and-security-authority
+- external-auditor
+steps:
+- slug: obligation-identification
+  title: Obligation Identification
+  summary: New and changed laws, regulations, licence conditions and commitments the organisation has made are identified, and each
+    is recorded in the register of obligations with the entities and activities it binds.
+  capabilities:
+  - regulatory-landscape-sensing
+  - compliance-sensing-monitoring
+  - licence-and-permit-management
+  - compliance-as-integrity-code
+  entities:
+  - compliance-rule
+  - permit
+  - accreditation
+  - legal-entity
+  serves:
+  - licence-and-permit
+  - obligation-register
+  - regulatory-consultation
+- slug: integrity-code-design
+  title: Integrity Code Design
+  summary: The compliance framework is written as an integrity code that expresses the organisation's values, with the lines it will
+    not cross and the rules on bribery, conflicts of interest and dealings with competitors.
+  capabilities:
+  - compliance-as-integrity-code
+  - ethical-boundary-architecture
+  - anti-corruption-and-conflicts-of-interest
+  - competition-law-compliance
+  entities:
+  - ethics-policy
+  - compliance-rule
+  - policy
+  serves:
+  - integrity-code
+  - intranet
+- slug: policy-and-control-embedding
+  title: Policy and Control Embedding
+  summary: Each obligation receives a named owner, a policy with a review date, the controls and approval paths that fulfil it and
+    the decision rights behind them, and processing of personal data is assessed and recorded.
+  capabilities:
+  - policy-lifecycle-management
+  - approval-workflow-design
+  - delegation-of-authority
+  - privacy-impact-management
+  entities:
+  - policy
+  - internal-control
+  - approval
+  - decision-right
+  - data-processing-record
+  serves:
+  - data-protection-assessment
+  - intranet
+  - obligation-register
+- slug: training-and-attestation
+  title: Training and Attestation
+  summary: Staff receive the training their role requires, confirm that they know the policies that apply to them, and declare relationships
+    that may conflict with their duties.
+  capabilities:
+  - mandatory-training-management
+  - policy-lifecycle-management
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - course
+  - employee-record
+  - policy
+  - interest-declaration
+  serves:
+  - compliance-training
+  - conflict-of-interest-declaration
+- slug: adherence-monitoring
+  title: Adherence Monitoring
+  summary: Adherence is sensed continuously as a key indicator, licences and permits are renewed before they lapse, environmental, social
+    and privacy data are kept as evidence, and a confidential channel stays open for concerns.
+  capabilities:
+  - compliance-sensing-monitoring
+  - licence-and-permit-management
+  - esg-data-management
+  - privacy-impact-management
+  - whistleblower-protection
+  - human-rights-due-diligence
+  entities:
+  - permit
+  - measure-report
+  - data-processing-record
+  - sustainability-report
+  serves:
+  - confidential-reporting-channel
+  - licence-and-permit
+  - statutory-filing
+- slug: concern-investigation
+  title: Concern Investigation
+  summary: Suspected breaches are investigated confidentially with the reporter protected, the facts are established, and the outcome
+    decides correction, sanction and any notification to the authorities.
+  capabilities:
+  - whistleblower-protection
+  - anti-corruption-and-conflicts-of-interest
+  - competition-law-compliance
+  - compliance-sensing-monitoring
+  entities:
+  - compliance-case
+  - interest-declaration
+  - regulatory-notification
+  serves:
+  - confidential-reporting-channel
+  - statutory-filing
+- slug: audit-and-assurance
+  title: Audit and Assurance
+  summary: Audits are planned by risk, carried out and their findings followed to closure, and the state of compliance and of environmental,
+    social and governance performance is reported to the boards and the authorities.
+  capabilities:
+  - audit-lifecycle-management
+  - compliance-sensing-monitoring
+  - esg-data-management
+  entities:
+  - audit
+  - audit-finding
+  - report
+  - statutory-report
+  - sustainability-report
+  serves:
+  - assurance-audit
+  - certification-audit
+  - official-inspection
+  - supervisory-board-meeting
+  - sustainability-report
+start: true
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

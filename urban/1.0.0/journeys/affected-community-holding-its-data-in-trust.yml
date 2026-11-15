@@ -1,0 +1,33 @@
+kind: journey
+slug: affected-community-holding-its-data-in-trust
+title: Affected Community Holding Its Data in Trust
+stakeholder: affected-community
+summary: A community whose data has been used without its say is heard in the impact assessment, forms a data trust that decides who
+  may use data about it and on what terms, gives consent through the trust and checks each year how its data was used.
+stages:
+- slug: be-heard-on-the-harm
+  title: Be Heard on the Harm
+  goal: The community has said what a proposed use of data would do to it before any decision is taken.
+  step: data-protection-and-data-sovereignty/privacy-impact-assessment
+  touchpoints:
+  - privacy-impact-hearing
+- slug: form-the-data-trust
+  title: Form the Data Trust
+  goal: A data trust recognised by the city decides who may collect and use data about the community, on what terms, and how the benefits
+    flow back.
+  step: data-protection-and-data-sovereignty/neighbourhood-data-trusts
+  touchpoints:
+  - data-trust-founding-assembly
+  - published-data-sharing-terms
+- slug: give-consent-through-the-trust
+  title: Give Consent Through the Trust
+  goal: Members give, limit or withdraw consent on the terms of the trust and see where their data is used.
+  step: data-protection-and-data-sovereignty/consent-and-resident-control
+  touchpoints:
+  - personal-data-dashboard
+- slug: check-how-data-was-used
+  title: Check How Data Was Used
+  goal: The community sees in the yearly review how its data was used, shared and protected.
+  step: data-protection-and-data-sovereignty/breach-response-and-review
+  touchpoints:
+  - annual-data-protection-report

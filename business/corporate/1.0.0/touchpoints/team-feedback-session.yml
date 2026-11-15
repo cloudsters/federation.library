@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: team-feedback-session
+title: Team Feedback Session
+medium: encounter
+summary: The meeting in which survey results are fed back to the team that gave them and the team agrees what it will change.
+exchanges:
+- consented-voice-for-visible-action
+journey: employee-known-and-heard-with-consent

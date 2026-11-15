@@ -1,0 +1,9 @@
+id: journey
+term: Journey
+layer: how
+kind: element
+definition: 'Element 2: a stakeholder''s way toward a need, across the touchpoints where it meets the commons.'
+relations:
+  part_of: scaffold
+  of: stakeholder
+status: draft

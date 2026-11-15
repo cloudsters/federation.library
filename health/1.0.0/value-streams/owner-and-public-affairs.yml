@@ -1,0 +1,124 @@
+kind: value-stream
+slug: owner-and-public-affairs
+title: Owner and Public Affairs
+family: participant-to-community
+summary: 'Maintaining the relationship with the owner, government, legislators and professional associations: reporting to the owner,
+  positions on policy and legislation, and representation in sector bodies.'
+trigger: The owner requests a report, or a policy or legislative initiative affects the organisation.
+outcome: The owner has received the required reporting, and the organisation's position is represented in the relevant policy process.
+stakeholders:
+- owner
+- policy-maker
+- sector-association
+- university
+- executive
+- head-of-clinical-department
+- general-public
+steps:
+- slug: request-and-issue-intake
+  title: Request and Issue Intake
+  summary: Register the owner's requests and standing reporting duties, and detect policy, legislative and payment initiatives that
+    affect care, research, teaching or the enterprise, with their deadlines for comment.
+  capabilities:
+  - owner-relations
+  - regulatory-landscape-sensing
+  - government-relations
+  - ecosystem-sensing
+  entities:
+  - policy-initiative
+  - governance-decision
+  - compliance-obligation
+  serves:
+  - association-committee
+  - government-dialogue
+  - owner-meeting
+- slug: impact-assessment
+  title: Impact Assessment
+  summary: Assess what the request or initiative means for patients, services, finances, workforce, research and teaching, drawing
+    on the departments and the faculty concerned, and decide whether and how the organisation will respond.
+  capabilities:
+  - regulatory-landscape-sensing
+  - strategic-option-design
+  - financial-performance-management
+  - legal-advisory
+  - risk-oversight-and-coordination
+  entities:
+  - policy-initiative
+  - risk
+  - strategy
+- slug: owner-reporting
+  title: Owner Reporting
+  summary: Compile the report the owner requires on finances, activity, quality, workforce, investments and risks from validated data,
+    have the executive board approve it, and prepare the matters reserved for the owner's decision.
+  capabilities:
+  - board-communication-reporting
+  - financial-reporting
+  - integrated-performance-review
+  - workforce-reporting
+  - impact-measurement-design
+  entities:
+  - accountability-report
+  - financial-statement
+  - quality-report
+  - measure-report
+  - risk
+  serves:
+  - annual-report
+  - owner-report
+- slug: position-development
+  title: Position Development
+  summary: Formulate the organisation's position with evidence from its own care, research and teaching, align it with the faculty
+    and with peer organisations in the associations, and have the executive board adopt it.
+  capabilities:
+  - health-policy-advocacy
+  - association-relations
+  - hospital-and-faculty-cooperation
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - policy-initiative
+  - governance-decision
+  serves:
+  - association-committee
+  - joint-university-committee
+- slug: representation-and-dialogue
+  title: Representation and Dialogue
+  summary: Present the report to the owner and answer its questions, submit statements in consultations and hearings, meet ministries
+    and agencies, and speak through the associations, openly and within the rules on lobbying.
+  capabilities:
+  - owner-relations
+  - government-relations
+  - health-policy-advocacy
+  - association-relations
+  - regional-care-planning-participation
+  - media-relations
+  entities:
+  - accountability-report
+  - policy-initiative
+  - governance-decision
+  serves:
+  - annual-report
+  - association-committee
+  - consultation-response
+  - government-dialogue
+  - legislative-hearing
+  - owner-meeting
+  - public-website
+  - supervisory-body-meeting
+- slug: decision-follow-up
+  title: Decision Follow-Up
+  summary: Carry out the owner's decisions and expectations, follow the initiative to its enactment, translate the result into obligations,
+    strategy and plans, and report back internally on what was achieved.
+  capabilities:
+  - owner-relations
+  - compliance-framework
+  - strategy-alignment-across-functions
+  - goal-setting-and-cascade
+  - internal-communication
+  entities:
+  - governance-decision
+  - policy-initiative
+  - compliance-obligation
+  - strategic-objective
+  serves:
+  - government-dialogue
+  - owner-report

@@ -1,0 +1,106 @@
+kind: value-stream
+slug: payroll-as-promise-fulfilled
+title: Payroll as Promise Fulfilled
+family: contributor-to-succession
+summary: 'Paying every person correctly and on time: collecting pay inputs, administering benefits as designed, calculating pay, withholding
+  and remitting taxes and contributions, giving self-service insight, and reconciling payroll with the accounts.'
+trigger: A pay period closes, or an employee's terms or recorded time change.
+outcome: Every employee is paid correctly and on time, and payroll is reconciled with accounting.
+stakeholders:
+- employee
+- human-resources-professional
+- finance-professional
+- tax-authority
+steps:
+- slug: pay-input-collection
+  title: Pay Input Collection
+  summary: Collect the period's changes to terms, grades, working time, absences, benefits and deductions, including those people
+    enter themselves, and verify them before calculation.
+  capabilities:
+  - payroll-processing-as-promise
+  - employee-self-service-portal
+  entities:
+  - employment
+  - attendance
+  - leave-request
+  serves:
+  - employee-self-service
+  - time-account-statement
+- slug: benefit-enrolment
+  title: Benefit Enrolment
+  summary: Run enrolment windows, life events and eligibility rules exactly as the benefits were designed, and pass the resulting
+    contributions and deductions to payroll.
+  capabilities:
+  - benefits-administration
+  entities:
+  - employee-record
+  - policy
+  - agreement
+  serves:
+  - benefits-portal
+- slug: payroll-calculation
+  title: Payroll Calculation
+  summary: Calculate gross to net pay for each person with allowances, deductions and withheld taxes, and check the run for errors
+    before release.
+  capabilities:
+  - payroll-processing-as-promise
+  - tax-withholding-as-civic-duty
+  entities:
+  - payroll-run
+  - payslip
+  - tax-rule
+  serves:
+  - payroll-run-report
+- slug: payment-and-statements
+  title: Payment and Statements
+  summary: Pay each person on time, and issue pay statements that people can see and question through self-service.
+  capabilities:
+  - payroll-processing-as-promise
+  - employee-self-service-portal
+  entities:
+  - payslip
+  - payment
+  - bank-transaction
+  serves:
+  - employee-self-service
+  - pay-statement
+  - payroll-help-desk
+- slug: tax-and-contribution-remittance
+  title: Tax and Contribution Remittance
+  summary: Pay the withheld taxes and contributions to the right authorities and funds on time, and file the returns they require.
+  capabilities:
+  - steward-and-process-payroll-taxes
+  - tax-withholding-as-civic-duty
+  entities:
+  - tax-return
+  - statutory-report
+  - payment
+  serves:
+  - payroll-tax-return
+  - statutory-filing
+- slug: posting-and-reconciliation
+  title: Posting and Reconciliation
+  summary: Post payroll to the accounts, reconcile it with payments and tax returns, and clear any difference before the period is
+    closed.
+  capabilities:
+  - steward-and-process-payroll-taxes
+  - payroll-processing-as-promise
+  entities:
+  - journal-entry
+  - payroll-run
+  - bank-transaction
+  serves:
+  - official-inspection
+  - payroll-journal
+- slug: pay-data-benchmarking
+  title: Pay Data Benchmarking
+  summary: Gather market and internal pay data on a regular cycle, and hand it accurately to the fairness review where pay decisions
+    are made.
+  capabilities:
+  - compensation-benchmarking
+  entities:
+  - benchmark
+  - payroll-run
+  - measure-report
+  serves:
+  - pay-benchmark-report

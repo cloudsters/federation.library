@@ -1,0 +1,15 @@
+kind: solution
+slug: enterprise-succession-case-system
+title: Enterprise Succession Case System
+role: system-of-record
+summary: Holds the businesses and cooperatives due for succession, each succession plan with its successor and guide, the loans of
+  the succession fund and the equity accounts of cooperative members.
+carries:
+- business-succession-support
+- successor-matching
+- transition-capital-provision
+- member-equity-transition
+holds:
+- business-succession-plan
+- succession-fund
+- member-equity-account

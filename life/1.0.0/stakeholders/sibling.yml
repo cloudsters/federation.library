@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: sibling
+title: Sibling
+nature: person
+stance: both
+via: participant-to-community
+represented_by:
+- sibling-relation
+dissolves: false

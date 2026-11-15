@@ -1,0 +1,35 @@
+kind: solution
+slug: consent-management
+title: Consent Management
+role: system-of-record
+summary: 'Records and enforces what patients and their representatives have agreed to, refused or directed: consent to treatment
+  and to data use, objections, advance directives, proxies and mandates to share information, and the legal authorisations
+  that apply without consent.'
+carries:
+- informed-consent
+- surgical-indication-and-consent
+- anaesthesia-consent-and-risk-stratification
+- research-consent-management
+- patient-rights-stewardship
+- advance-care-planning
+- coercive-measure-safeguards
+- data-subject-rights-fulfilment
+- secondary-use-enablement
+holds:
+- informed-consent
+- objection
+- authorization-by-law
+- data-use-consent
+- advance-directive
+- proxy-mandate
+- mandate-to-export-personal-information
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

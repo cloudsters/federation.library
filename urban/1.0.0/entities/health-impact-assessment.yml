@@ -1,0 +1,61 @@
+kind: entity
+slug: health-impact-assessment
+title: Health Impact Assessment
+type: intelligence
+summary: The assessment of the effects of a plan or decision on health and on health gaps, made with the residents most affected.
+  The department proposing the plan carries it out, and its findings are published with the draft.
+attributes:
+- name: assessed-plan
+  type: text
+  card: 1..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: proposing-department
+  type: reference(department)
+  card: 1..1
+- name: affected-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: residents-consulted
+  type: text
+  card: 1..*
+- name: health-effects
+  type: text
+  card: 1..*
+- name: effects-on-health-gaps
+  type: text
+  card: 0..*
+- name: proposed-changes
+  type: text
+  card: 0..*
+- name: equity-assessment
+  type: reference(equity-impact-assessment)
+  card: 0..1
+- name: assessed-on
+  type: date
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: findings
+  type: document
+  card: 1..1
+states:
+- screened
+- scoped
+- assessed
+- published
+- considered
+- monitored
+relations:
+- type: based-on
+  target: health-profile
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: equity-impact-assessment
+- type: refers-to
+  target: district-plan
+- type: refers-to
+  target: neighbourhood

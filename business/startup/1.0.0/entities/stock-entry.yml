@@ -1,0 +1,44 @@
+kind: entity
+slug: stock-entry
+title: Stock Entry
+type: transactional
+summary: A material state change — the record of inventory moving between states (receipt, issue, transfer, manufacture), making the
+  organisation's material flow auditable.
+attributes:
+- name: purpose
+  type: code
+  card: 1..1
+- name: source-location
+  type: reference(location)
+  card: 0..1
+- name: target-location
+  type: reference(location)
+  card: 0..1
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 1..*
+- name: batch-lot
+  type: reference(batch-lot)
+  card: 0..1
+- name: valuation-impact
+  type: amount
+  card: 0..1
+- name: posting-date
+  type: date
+  card: 1..1
+states:
+- draft
+- posted
+- reversed
+relations:
+- type: refers-to
+  target: item
+- type: produces
+  target: journal-entry
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global

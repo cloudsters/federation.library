@@ -1,0 +1,11 @@
+kind: solution
+slug: home-care-service
+title: Home Care Service
+role: institution
+sovereignty: third-party
+summary: Carries the daily care of a dependant, or of the person in decline, at home and on agreed hours.
+carries:
+- taking-up-care
+- adapting-as-one-ages
+holds:
+- care-episode

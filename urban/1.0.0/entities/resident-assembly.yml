@@ -1,0 +1,66 @@
+kind: entity
+slug: resident-assembly
+title: Resident Assembly
+type: transactional
+summary: A body of residents selected by lot to deliberate on a question the city puts to it, such as the scenarios of the vision,
+  with its membership, sessions, recommendations and recorded disagreements. The administration convenes and supports it on the council's
+  mandate, and the council answers its recommendations in public.
+attributes:
+- name: question
+  type: text
+  card: 1..1
+- name: commissioned-by
+  type: reference(council-decision)
+  card: 1..1
+- name: selection-method
+  type: text
+  card: 1..1
+- name: selection-criteria
+  type: code
+  card: 0..*
+- name: member-count
+  type: integer
+  card: 1..1
+- name: members
+  type: text
+  card: 0..*
+- name: session-dates
+  type: date
+  card: 1..*
+- name: witnesses-heard
+  type: text
+  card: 0..*
+- name: recommendations
+  type: document
+  card: 0..1
+- name: disagreements
+  type: text
+  card: 0..*
+- name: answered-by
+  type: reference(council-decision)
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- commissioned
+- selected
+- deliberating
+- recommended
+- answered
+- closed
+relations:
+- type: governed-by
+  target: participation-charter
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: future-scenario
+- type: refers-to
+  target: city-vision
+- type: produces
+  target: public-record
+binds:
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global

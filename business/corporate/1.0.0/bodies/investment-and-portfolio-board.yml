@@ -1,0 +1,14 @@
+kind: body
+slug: investment-and-portfolio-board
+title: Investment and Portfolio Board
+summary: Decides which initiatives, projects and investments start, continue or stop within the executive's limits, and reviews whether
+  their benefits arrive.
+holds:
+- portfolio-curation
+- portfolio-governance-design
+- project-portfolio-management
+- benefit-realisation-management
+- technology-value-portfolio
+part_of: executive-board
+type: committee
+form: governing-body

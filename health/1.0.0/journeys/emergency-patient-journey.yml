@@ -1,0 +1,48 @@
+kind: journey
+slug: emergency-patient-journey
+title: Emergency Patient Journey
+stakeholder: emergency-patient
+summary: A person arriving unplanned is received, triaged by urgency, stabilised and examined, treated, and leaves the emergency department
+  with a clear next step.
+stages:
+- slug: arrive
+  title: Arrive
+  goal: Be received at once and handed over without losing what happened before arrival.
+  step: emergency-care/pre-alert-and-arrival
+  touchpoints:
+  - ambulance-handover
+  - emergency-department
+  - identification-band
+- slug: be-triaged
+  title: Be Triaged
+  goal: Know how urgent the condition is judged to be and how long the wait may last.
+  step: emergency-care/triage
+  touchpoints:
+  - triage
+  - emergency-department
+- slug: be-stabilised
+  title: Be Stabilised
+  goal: Have life-threatening problems brought under control by a prepared team.
+  step: emergency-care/resuscitation-and-stabilisation
+  touchpoints:
+  - resuscitation-room
+- slug: be-examined
+  title: Be Examined
+  goal: Have the complaint examined and its cause found.
+  step: emergency-care/emergency-assessment-and-diagnostics
+  touchpoints:
+  - consultation
+  - emergency-department
+- slug: be-relieved-and-watched
+  title: Be Relieved and Watched
+  goal: Have pain and symptoms relieved and be watched until it is safe to decide.
+  step: emergency-care/treatment-and-observation
+  touchpoints:
+  - emergency-department
+- slug: know-the-next-step
+  title: Know the Next Step
+  goal: Understand whether admission, transfer or home follows, with written advice and whom to call.
+  step: emergency-care/disposition-decision
+  touchpoints:
+  - discharge-letter
+  - emergency-department

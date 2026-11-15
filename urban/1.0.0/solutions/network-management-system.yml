@@ -1,0 +1,16 @@
+kind: solution
+slug: network-management-system
+title: Network Management System
+role: system-of-record
+summary: Holds the public and community networks with their routes, owners, operators, condition and access terms, coordinates their
+  building with other street works and records every fault and repair by neighbourhood.
+carries:
+- public-network-planning
+- network-build-coordination
+- community-network-support
+- network-upkeep
+holds:
+- digital-network
+- community-network
+- network-access-agreement
+- infrastructure-repair

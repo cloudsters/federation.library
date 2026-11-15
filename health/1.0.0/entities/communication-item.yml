@@ -1,0 +1,39 @@
+kind: entity
+slug: communication-item
+title: Communication Item
+type: transactional
+summary: A message the organisation issues to its own people and partners, such as an internal announcement, a leadership briefing
+  or a newsletter, with its subject, audience, channels, approval and release. Messages to the media and the public are public statements.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: audiences
+  type: code
+  card: 1..*
+- name: channels
+  type: code
+  card: 1..*
+- name: content
+  type: document
+  card: 1..1
+- name: languages
+  type: code
+  card: 0..*
+- name: source-decision
+  type: reference(governance-decision)
+  card: 0..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: released-at
+  type: datetime
+  card: 0..1
+states:
+- draft
+- approved
+- released
+- withdrawn
+relations:
+- type: based-on
+  target: governance-decision

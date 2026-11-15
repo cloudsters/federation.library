@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: evidence-and-options-for-weighed-recommendations
+title: Evidence and Options for Weighed Recommendations
+between:
+- city-administration
+- resident
+offered:
+- The evidence, the options and experts whom residents can question.
+returned:
+- Recommendations that weigh the options and state where residents still disagree.
+touchpoint: deliberation-session

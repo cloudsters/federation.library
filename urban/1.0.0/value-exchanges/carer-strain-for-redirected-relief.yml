@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: carer-strain-for-redirected-relief
+title: Carer Strain for Redirected Relief
+between:
+- caregiver
+- city-administration
+offered:
+- Whether relief reached the carer, and where carers are still left alone.
+returned:
+- Relief redirected to the carers it has not yet reached.
+touchpoint: volunteer-feedback-round

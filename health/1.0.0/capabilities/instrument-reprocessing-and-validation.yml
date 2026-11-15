@@ -1,0 +1,19 @@
+kind: capability
+slug: instrument-reprocessing-and-validation
+title: Instrument Reprocessing & Validation
+level: L3
+parent: sterile-processing
+summary: Clean, disinfect, sterilise and validate instruments in validated processes.
+binds:
+- source: src-296
+  edition: '2024'
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-299
+  edition: '2021'
+  jurisdiction: global
+- source: src-303
+  edition: '2019'
+  jurisdiction: global

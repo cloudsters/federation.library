@@ -1,0 +1,7 @@
+kind: capability
+slug: data-readiness-validation
+title: Data Readiness Validation
+level: L3
+parent: analytics-and-reporting
+summary: Validate data for completeness, correctness and structure before analysis, making every excluded or imputed value a visible
+  and justified choice, so the analysis rests on a sound and fair base.

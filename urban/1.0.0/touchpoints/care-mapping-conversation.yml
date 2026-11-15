@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: care-mapping-conversation
+title: Care Mapping Conversation
+medium: encounter
+summary: A conversation at the door or in a community place in which residents and community workers learn, with consent, what care
+  neighbours give, who lives isolated and which carers are under strain.
+exchanges:
+- consented-account-for-visible-care
+- consented-isolation-for-offered-company
+journey: caregiver-sharing-the-work-of-care

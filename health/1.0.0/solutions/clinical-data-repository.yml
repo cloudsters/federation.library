@@ -1,0 +1,30 @@
+kind: solution
+slug: clinical-data-repository
+title: Clinical Data Repository
+role: platform
+summary: Consolidates clinical data from all source systems into one vendor-neutral, longitudinal store in a common model, and offers
+  it as owned, quality-assured data products for care, steering and research.
+carries:
+- clinical-data-warehouse
+- shared-health-record-integration
+- data-lifecycle-management
+- master-data-stewardship
+- data-quality-management
+- common-data-model-harmonisation
+- secondary-use-enablement
+- real-world-data-provisioning
+holds:
+- data-product
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

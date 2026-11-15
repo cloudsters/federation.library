@@ -1,0 +1,68 @@
+kind: entity
+slug: emergency-response
+title: Emergency Response
+type: transactional
+summary: A coordinated response of the city to an acute emergency, from alert to recovery, with the emergency powers taken, the warnings
+  issued and the relief given to each neighbourhood. The crisis team records it as it acts, and it is reviewed with the affected neighbourhoods
+  once the powers have returned to their normal holders.
+attributes:
+- name: incident-kind
+  type: code
+  card: 1..1
+- name: affected-area
+  type: text
+  card: 1..1
+- name: declared-at
+  type: datetime
+  card: 1..1
+- name: alert-level
+  type: code
+  card: 1..1
+- name: activated-plan
+  type: reference(emergency-plan)
+  card: 0..1
+- name: emergency-powers
+  type: text
+  card: 0..*
+- name: powers-end-on
+  type: date
+  card: 0..1
+- name: warnings-issued
+  type: text
+  card: 0..*
+- name: relief-by-neighbourhood
+  type: document
+  card: 0..1
+- name: emergency-decisions
+  type: reference(public-record)
+  card: 0..*
+- name: services-restored-on
+  type: date
+  card: 0..1
+- name: ended-at
+  type: datetime
+  card: 0..1
+states:
+- alerted
+- declared
+- responding
+- stabilised
+- recovering
+- powers-returned
+- reviewed
+- closed
+relations:
+- type: based-on
+  target: emergency-plan
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: public-record
+- type: produces
+  target: oversight-report
+binds:
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global

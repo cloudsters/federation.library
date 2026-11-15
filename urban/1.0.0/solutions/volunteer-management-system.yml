@@ -1,0 +1,20 @@
+kind: solution
+slug: volunteer-management-system
+title: Volunteer Management System
+role: system-of-record
+summary: Publishes the volunteering opportunities of the city and its partners, matches volunteers to tasks and newcomer households
+  to mentors, records the checks, training and cover of each volunteer, keeps the contribution ledger and supports the mutual aid
+  networks with their records.
+carries:
+- volunteer-opportunity-listing
+- volunteer-matching
+- volunteer-preparation-and-safeguarding
+- contribution-recognition
+- newcomer-mentor-matching
+- neighbour-care-and-mutual-aid-support
+holds:
+- volunteer-opportunity
+- volunteer-record
+- contribution-ledger
+- mentor-pairing
+- mutual-aid-network

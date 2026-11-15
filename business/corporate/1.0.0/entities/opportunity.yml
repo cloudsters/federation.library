@@ -1,0 +1,37 @@
+kind: entity
+slug: opportunity
+title: Opportunity
+type: intelligence
+summary: A qualified exchange possibility — an inquiry that has been assessed and found to have real revenue potential, worth the
+  organisation investing sales effort to pursue.
+attributes:
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: expected-value
+  type: amount
+  card: 1..1
+- name: funnel-stage
+  type: reference(funnel-stage)
+  card: 1..1
+- name: probability
+  type: decimal
+  card: 0..1
+- name: expected-close-date
+  type: date
+  card: 1..1
+- name: competing-alternatives
+  type: text
+  card: 0..*
+states:
+- open
+- advancing
+- won
+- lost
+relations:
+- type: based-on
+  target: inquiry
+- type: produces
+  target: sales-order
+- type: refers-to
+  target: forecast

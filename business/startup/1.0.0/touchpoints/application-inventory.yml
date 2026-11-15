@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: application-inventory
+title: Application Inventory
+medium: artefact
+summary: The register of the organisation's applications with owners, value, cost, technical risk and planned renewal or retirement.
+exchanges:
+- guardrails-for-citizen-building
+journey: employee-shaping-own-tools-on-a-shared-platform

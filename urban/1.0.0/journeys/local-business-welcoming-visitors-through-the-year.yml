@@ -1,0 +1,39 @@
+kind: journey
+slug: local-business-welcoming-visitors-through-the-year
+title: Local Business Welcoming Visitors Through the Year
+stakeholder: local-business
+summary: A local business that hosts and serves visitors helps shape the visitor strategy, registers the homes it lets, makes offers
+  outside the peak with others, collects and passes on the overnight charge and weighs the season in the review.
+stages:
+- slug: shape-the-strategy
+  title: Shape the Strategy
+  goal: The knowledge of the business of seasons and trade is part of the visitor strategy.
+  step: tourism-and-visitor-welcome/visitor-strategy-and-host-agreements
+  touchpoints:
+  - visitor-strategy-forum
+- slug: register-the-let
+  title: Register the Let
+  goal: Each home the business lets to visitors is registered and within the limit for its neighbourhood.
+  step: tourism-and-visitor-welcome/holiday-let-and-crowding-rules
+  touchpoints:
+  - holiday-let-register-entry
+- slug: offer-outside-the-peak
+  title: Offer Outside the Peak
+  goal: The offers of the business outside the peak stand in the city's calendar and guide, made together with other local businesses.
+  step: tourism-and-visitor-welcome/year-round-visiting
+  touchpoints:
+  - city-seasons-visiting-calendar
+  - multilingual-visitor-guide
+- slug: collect-and-pass-on-the-charge
+  title: Collect and Pass On the Charge
+  goal: The overnight charge is collected from guests and passed to the city by a simple route.
+  step: tourism-and-visitor-welcome/visitor-charge-and-local-return
+  touchpoints:
+  - overnight-visitor-charge-statement
+- slug: weigh-the-season
+  title: Weigh the Season
+  goal: The business has set its gains beside the costs its neighbours bear, and the strategy is adjusted.
+  step: tourism-and-visitor-welcome/visitor-economy-review
+  touchpoints:
+  - visitor-economy-review-forum
+  - neighbourhood-visitor-impact-map

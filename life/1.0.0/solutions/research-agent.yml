@@ -1,0 +1,12 @@
+kind: solution
+slug: research-agent
+title: Research Agent
+role: agent
+sovereignty: hosted
+summary: Reads widely on a question, traces each claim back to where it came from and reports what it found and how sure it is.
+carries:
+- tracing-a-claim-back
+- reading-the-field
+- tracing-where-things-come-from
+holds:
+- reading-list

@@ -1,0 +1,54 @@
+kind: entity
+slug: timetable
+title: Timetable
+type: governance
+summary: The published hours and frequencies of a transit line, including guaranteed night service, with the reasoning for each change.
+  The transport operator sets it with riders and drivers under the mobility plan and publishes it, and crews, vehicles and rider information
+  are planned from it.
+attributes:
+- name: transit-line
+  type: reference(transit-line)
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: service-days
+  type: code
+  card: 1..*
+- name: service-hours
+  type: text
+  card: 1..1
+- name: frequencies
+  type: text
+  card: 1..*
+- name: night-service-guarantee
+  type: text
+  card: 0..1
+- name: shift-change-windows
+  type: text
+  card: 0..*
+- name: change-reasons
+  type: text
+  card: 0..*
+- name: consulted-in
+  type: reference(public-consultation)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- consulted
+- published
+- in-force
+- revised
+- superseded
+relations:
+- type: part-of
+  target: transit-line
+- type: governed-by
+  target: mobility-plan
+- type: based-on
+  target: mobility-data
+- type: based-on
+  target: public-consultation

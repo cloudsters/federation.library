@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: payer-negotiation
+title: Payer Negotiation
+medium: encounter
+summary: The negotiation with payers on budgets, prices and contracts for the coming period, in which the commons' volumes and costs
+  are argued.
+exchanges:
+- service-evidence-for-payment
+- new-method-evidence-for-payment
+- integrated-care-contract
+- access-performance-accountability
+- volume-agreement
+- service-commitment-for-budget
+journey: payer-service-portfolio-journey

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: pilot-programme
+title: Pilot Programme
+medium: encounter
+summary: The period in which selected customers use a new or revised offering in real operation before release and report on its value
+  and fit.
+exchanges:
+- pilot-use-for-early-access
+journey: end-user-testing-a-new-offering

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: revenue-account-session
+title: Revenue Account Session
+medium: encounter
+summary: A public session in which residents and resident inspectors question finance officers on the revenue account and follow particular
+  revenues from payment to use.
+exchanges:
+- inspection-questions-for-traced-answers
+journey: landowner-paying-for-the-land-they-hold

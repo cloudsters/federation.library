@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: host-share-for-continued-consent
+title: Host Share for Continued Consent
+between:
+- infrastructure-operator
+- affected-community
+offered:
+- A share of the surplus of the plant or network the community hosts.
+returned:
+- The community's continued consent to the asset in its neighbourhood.
+touchpoint: host-community-benefit-share

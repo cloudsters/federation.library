@@ -1,0 +1,64 @@
+kind: entity
+slug: mentor-pairing
+title: Mentor Pairing
+type: transactional
+summary: The pairing of a newcomer household with an established resident or earlier arrival, with its start, the help given in both
+  directions and its end. The welcome point or partner organisation that arranges it records it with the consent of both, and it is
+  used to support the pairing and to see whether newcomers settle.
+attributes:
+- name: newcomer-household
+  type: identifier
+  card: 1..1
+- name: mentor
+  type: identifier
+  card: 1..1
+- name: mentor-record
+  type: reference(volunteer-record)
+  card: 0..1
+- name: arranged-by
+  type: reference(welcome-point)
+  card: 0..1
+- name: paired-on
+  type: date
+  card: 1..1
+- name: languages
+  type: code
+  card: 0..*
+- name: help-to-newcomer
+  type: text
+  card: 0..*
+- name: help-to-mentor
+  type: text
+  card: 0..*
+- name: links-made
+  type: text
+  card: 0..*
+- name: check-in-dates
+  type: date
+  card: 0..*
+- name: ended-on
+  type: date
+  card: 0..1
+- name: end-reason
+  type: code
+  card: 0..1
+states:
+- requested
+- matched
+- active
+- paused
+- completed
+- ended-early
+relations:
+- type: refers-to
+  target: volunteer-record
+- type: refers-to
+  target: welcome-point
+- type: governed-by
+  target: consent-record
+- type: governed-by
+  target: integration-plan
+binds:
+- source: src-226
+  edition: '2018-12-19'
+  jurisdiction: global

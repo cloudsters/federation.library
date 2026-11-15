@@ -1,0 +1,45 @@
+kind: entity
+slug: policy
+title: Policy
+type: governance
+summary: A rule of conduct — a rule that keeps the organisation's activity within acceptable limits, protecting stakeholders while enabling
+  autonomous action within guardrails.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: rule-statement
+  type: text
+  card: 1..1
+- name: rationale
+  type: text
+  card: 0..1
+- name: owner
+  type: reference(employee-record)
+  card: 1..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: exceptions-process
+  type: text
+  card: 0..1
+- name: enforcement
+  type: text
+  card: 0..1
+states:
+- drafted
+- reviewed
+- approved
+- published
+- enforced
+- amended
+- retired
+relations:
+- type: based-on
+  target: compliance-rule
+- type: refers-to
+  target: audit
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

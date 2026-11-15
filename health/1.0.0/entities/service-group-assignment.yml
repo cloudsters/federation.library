@@ -1,0 +1,37 @@
+kind: entity
+slug: service-group-assignment
+title: Service Group Assignment
+type: governance
+summary: The assignment of a service group to a site by the planning authority, with its conditions, the evidence that requirements
+  are met and its period, determining what the site may provide and be paid for.
+attributes:
+- name: service-group
+  type: reference(service-group)
+  card: 1..1
+- name: site
+  type: reference(site)
+  card: 1..1
+- name: granted-by
+  type: reference(organisation)
+  card: 1..1
+- name: requirement-evidence
+  type: document
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..*
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- applied-for
+- under-review
+- granted
+- granted-with-conditions
+- refused
+- revoked
+relations:
+- type: part-of
+  target: service-mandate
+- type: governed-by
+  target: service-group

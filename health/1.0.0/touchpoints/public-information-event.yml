@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: public-information-event
+title: Public Information Event
+medium: encounter
+summary: An open event, such as an information evening, a health day or an open commons, at which the public meets clinicians and
+  learns about health, prevention and the commons' services.
+exchanges:
+- community-prevention-partnership
+- expert-information-for-patient-communities
+journey: finding-care-close-to-home

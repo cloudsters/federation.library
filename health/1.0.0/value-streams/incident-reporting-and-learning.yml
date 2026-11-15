@@ -1,0 +1,135 @@
+kind: value-stream
+slug: incident-reporting-and-learning
+title: Incident Reporting and Learning
+family: collaboration-to-automation
+summary: 'Learning from what went wrong or nearly did: confidential incident reporting, analysis of serious events and their root
+  causes, open disclosure to patients, mandatory notification and sharing of lessons across the organisation.'
+trigger: A staff member reports an incident or near miss, or a serious event occurs.
+outcome: The event is analysed, a harmed patient has been informed, actions are implemented and the lesson is shared.
+stakeholders:
+- registered-nurse
+- specialist-physician
+- quality-and-safety-manager
+- head-of-clinical-department
+- executive
+- person-harmed-in-care
+- relative
+- health-regulator
+steps:
+- slug: event-reporting
+  title: Event Reporting
+  summary: Any staff member reports an incident or near miss promptly, confidentially and without fear of sanction, after taking the
+    immediate measures that make the patient and the situation safe.
+  capabilities:
+  - incident-reporting-and-learning
+  - patient-safety-culture-development
+  - clinical-documentation-at-point-of-care
+  entities:
+  - incident
+  - patient
+  - adverse-event
+  serves:
+  - incident-reporting-system
+  - ward
+- slug: triage-and-grading
+  title: Triage and Grading
+  summary: Quality and safety staff grade the harm, classify the event, decide the depth of analysis, identify serious events that
+    require formal investigation and offer support to the staff involved.
+  capabilities:
+  - incident-reporting-and-learning
+  - serious-event-management
+  - clinical-risk-sensing
+  - staff-support-after-adverse-events
+  entities:
+  - incident
+  - adverse-event
+  - risk
+  serves:
+  - team-debrief
+  - ward-round
+- slug: open-disclosure
+  title: Open Disclosure
+  summary: When a patient has been harmed, a senior clinician informs the patient and family promptly, acknowledges what happened,
+    apologises, explains the next steps and names a contact person.
+  capabilities:
+  - open-disclosure
+  - patient-advocacy
+  - relatives-and-visitor-support
+  - medical-liability-claims-management
+  entities:
+  - adverse-event
+  - clinical-document
+  - related-person
+  serves:
+  - disclosure-conversation
+- slug: mandatory-notification
+  title: Mandatory Notification
+  summary: Events that fall under a notification duty, such as serious events, device incidents or adverse drug reactions, are notified
+    to the competent authority within the set deadline and followed up.
+  capabilities:
+  - regulatory-incident-reporting
+  - serious-event-management
+  - regulatory-reporting
+  entities:
+  - regulatory-notification
+  - incident
+  - compliance-obligation
+  serves:
+  - disclosure-conversation
+  - incident-reporting-system
+  - regulatory-reporting-channel
+- slug: cause-analysis
+  title: Cause Analysis
+  summary: A trained team analyses the event as a systems problem, interviews staff and the patient or family, and identifies contributing
+    factors in tasks, teams, equipment, environment and organisation.
+  capabilities:
+  - root-cause-analysis
+  - serious-event-management
+  - clinical-risk-sensing
+  entities:
+  - incident
+  - adverse-event
+  - case-review
+  - risk
+  serves:
+  - family-meeting
+  - team-debrief
+- slug: action-implementation
+  title: Action Implementation
+  summary: Actions are chosen for their strength, favouring changes to design and systems over reminders, assigned to owners with
+    deadlines, implemented and checked for effect.
+  capabilities:
+  - process-improvement
+  - change-implementation
+  - improvement-sustainment
+  - non-conformance-management
+  entities:
+  - corrective-action
+  - policy
+  - improvement-initiative
+  serves:
+  - corrective-action-tracker
+  - disclosure-conversation
+  - quality-and-safety-committee
+  - safety-huddle
+- slug: lesson-sharing
+  title: Lesson Sharing
+  summary: The reporter receives personal feedback, the patient learns what has changed, and the lesson is shared across units and,
+    without identifying anyone, with other organisations.
+  capabilities:
+  - incident-reporting-and-learning
+  - internal-communication
+  - wiki-knowledge-base-management
+  - open-disclosure
+  entities:
+  - incident
+  - corrective-action
+  serves:
+  - disclosure-conversation
+  - feedback-and-complaints-channel
+  - incident-reporting-system
+  - safety-lesson-bulletin
+binds:
+- source: src-533
+  edition: '2024'
+  jurisdiction: global

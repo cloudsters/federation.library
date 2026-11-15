@@ -1,0 +1,68 @@
+kind: entity
+slug: learning-offer
+title: Learning Offer
+type: master
+summary: A course, study circle or peer-teaching group offered to residents, with its place, times, cost, languages, who teaches it
+  and who takes part. The partner who runs it records it in the city's learning offer, and residents use it to find learning that
+  fits them.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: offer-kind
+  type: code
+  card: 1..1
+- name: run-by
+  type: text
+  card: 1..1
+- name: teachers
+  type: text
+  card: 1..*
+- name: places
+  type: reference(building)
+  card: 0..*
+- name: times
+  type: text
+  card: 1..*
+- name: cost
+  type: amount
+  card: 0..1
+- name: languages
+  type: code
+  card: 1..*
+- name: access-support
+  type: code
+  card: 0..*
+- name: capacity
+  type: integer
+  card: 0..1
+- name: enrolments
+  type: reference(learner-enrolment)
+  card: 0..*
+- name: partnership
+  type: reference(anchor-institution-agreement)
+  card: 0..1
+states:
+- proposed
+- planned
+- open-for-enrolment
+- running
+- completed
+- withdrawn
+relations:
+- type: based-on
+  target: need-assessment
+- type: refers-to
+  target: library
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: university
+- type: governed-by
+  target: anchor-institution-agreement
+- type: composed-of
+  target: learner-enrolment
+binds:
+- source: src-253
+  edition: '2015-11-13'
+  jurisdiction: global

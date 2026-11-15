@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-transparency-for-referrers
+title: Access Transparency for Referrers
+between:
+- head-of-clinical-department
+- referring-practice
+offered:
+- Current waiting times per service and urgency, the status of each referred patient, and a fast-track route for urgent referrals.
+returned:
+- Referrals graded by urgency with the information needed to prioritise, and fewer duplicate referrals to several providers.
+touchpoint: referrer-portal

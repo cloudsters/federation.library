@@ -1,0 +1,39 @@
+kind: journey
+slug: employee-knowing-and-keeping-the-rules
+title: Employee Knowing and Keeping the Rules
+stakeholder: employee
+summary: An employee learns the integrity code and the policies that apply to the role, declares conflicting relationships, and can
+  raise a concern in confidence and see it handled fairly.
+stages:
+- slug: meet-the-integrity-code
+  title: Meet the Integrity Code
+  goal: The employee knows the lines the organisation will not cross and why.
+  step: compliance-as-integrity/integrity-code-design
+  touchpoints:
+  - integrity-code
+  - intranet
+- slug: find-the-rules-for-the-role
+  title: Find the Rules for the Role
+  goal: The policies and approval paths that apply to the role are easy to find and to follow.
+  step: compliance-as-integrity/policy-and-control-embedding
+  touchpoints:
+  - intranet
+- slug: learn-attest-and-declare
+  title: Learn, Attest and Declare
+  goal: The employee has completed the training the role requires, confirmed the policies and declared relationships that may conflict.
+  step: compliance-as-integrity/training-and-attestation
+  touchpoints:
+  - compliance-training
+  - conflict-of-interest-declaration
+- slug: raise-a-concern
+  title: Raise a Concern
+  goal: The employee can report a suspected breach in confidence without fear of retaliation.
+  step: compliance-as-integrity/adherence-monitoring
+  touchpoints:
+  - confidential-reporting-channel
+- slug: see-it-handled-fairly
+  title: See It Handled Fairly
+  goal: The concern is investigated fairly, the reporter is protected and learns the outcome.
+  step: compliance-as-integrity/concern-investigation
+  touchpoints:
+  - confidential-reporting-channel

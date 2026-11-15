@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-change-notice
+title: Agent Change Notice
+medium: artefact
+summary: The notice that tells overseers and the team what changes in an AI agent's model, scope or mandate, and when the revalidated
+  version goes live.
+exchanges:
+- review-for-continued-mandate
+journey: agent-serving-in-a-defined-role

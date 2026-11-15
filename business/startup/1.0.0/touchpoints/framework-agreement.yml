@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: framework-agreement
+title: Framework Agreement
+medium: artefact
+summary: The agreement with a supplier on prices, terms and expected volumes over a period, against which orders and call-offs are
+  placed without new negotiation.
+exchanges:
+- fair-tender-for-an-honest-offer
+- reliable-call-offs-for-supply-commitment
+journey: supplier-relationship

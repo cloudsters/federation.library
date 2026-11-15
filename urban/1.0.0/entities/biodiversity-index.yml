@@ -1,0 +1,59 @@
+kind: entity
+slug: biodiversity-index
+title: Biodiversity Index
+type: intelligence
+summary: Species counts and habitat quality across the city, gathered with residents at fixed survey sites. The department responsible
+  keeps and publishes it, and it is used to see what green works and trees add to urban nature.
+attributes:
+- name: reference-date
+  type: date
+  card: 1..1
+- name: kept-by
+  type: text
+  card: 1..1
+- name: area-covered
+  type: text
+  card: 1..1
+- name: survey-sites
+  type: text
+  card: 0..*
+- name: species-counts
+  type: document
+  card: 1..1
+- name: habitat-classes
+  type: code
+  card: 0..*
+- name: index-value
+  type: decimal
+  card: 0..1
+- name: previous-value
+  type: decimal
+  card: 0..1
+- name: method
+  type: text
+  card: 1..1
+- name: gathered-with
+  type: text
+  card: 0..*
+- name: green-works-covered
+  type: reference(green-infrastructure-element)
+  card: 0..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+states:
+- planned
+- surveyed
+- validated
+- published
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: urban-forest
+- type: refers-to
+  target: green-infrastructure-element
+- type: refers-to
+  target: park
+- type: refers-to
+  target: neighbourhood

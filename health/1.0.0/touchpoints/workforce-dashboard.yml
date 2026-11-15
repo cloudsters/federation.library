@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: workforce-dashboard
+title: Workforce Dashboard
+medium: channel
+summary: The management view of posts, vacancies, turnover, absence, overtime, temporary staff and forecast workload by unit, compared
+  with plan and staffing standards.
+exchanges:
+- staffing-forecast-for-decisions
+journey: staffing-the-unit

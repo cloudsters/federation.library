@@ -1,0 +1,133 @@
+kind: value-stream
+slug: school-places-and-learning-pathways
+title: School Places and Learning Pathways
+family: discovery-to-usage
+summary: Making sure that every child and young person in the city has a place to learn and a path through learning that fits them.
+  It holds the forecast of children and the planning of early-years and school places by neighbourhood, school buildings that are
+  also neighbourhood places, fair admission and safe routes to school, learning beyond the classroom with families, neighbours and
+  local organisations in their own languages, early support for learners at risk of leaving, and more than one way back into learning
+  for those who have left.
+trigger: The yearly forecast of children by neighbourhood, a change in the school buildings, or signs that learners in a neighbourhood
+  are leaving learning early.
+outcome: Every child has an early-years and school place within reach, and every young person who leaves school has a route back into
+  learning or work.
+stakeholders:
+- young-people
+- parent-or-guardian
+- educator
+- city-planner
+- neighbourhood-association
+- training-provider
+- newcomer
+steps:
+- slug: child-population-forecast
+  title: Child Population Forecast
+  summary: The department forecasts the number of children by age and neighbourhood from the population register, births and planned
+    homes, and compares it with the early-years and school places within reach.
+  capabilities:
+  - school-place-forecasting
+  - growth-projection
+  entities:
+  - population-register
+  - school-place-plan
+  - school
+  serves:
+  - child-population-forecast-workshop
+  - published-school-place-plan
+- slug: places-and-school-buildings
+  title: Places and School Buildings
+  summary: Places are added, moved or reduced where the forecast shows, school buildings are built, extended or repaired, and early-years
+    places are planned with neighbourhood childcare groups and with care spaces in schools and community buildings.
+  capabilities:
+  - school-estate-planning
+  - early-years-place-planning
+  - capital-investment-planning
+  entities:
+  - school-place-plan
+  - school
+  - early-years-setting
+  - capital-project
+  serves:
+  - published-school-place-plan
+  - school-place-planning-forum
+- slug: fair-admission-and-school-routes
+  title: Fair Admission and School Routes
+  summary: Places are allocated by published, fair rules that meet the needs of disabled children and newcomers, and routes to school
+    are made safe together with pupils and parents.
+  capabilities:
+  - school-admission-coordination
+  - safe-school-route-design
+  - status-independent-service-access
+  entities:
+  - school-admission
+  - street
+  - school
+  serves:
+  - published-admission-rules
+  - school-admission-request
+  - school-route-walk-with-pupils
+- slug: schools-as-neighbourhood-places
+  title: Schools as Neighbourhood Places
+  summary: School buildings and grounds open outside teaching hours for learning, food, care and play, under agreements that educators
+    and neighbours govern together.
+  capabilities:
+  - shared-use-agreement-drafting
+  - community-space-provision
+  entities:
+  - shared-use-agreement
+  - school
+  serves:
+  - open-school-grounds
+  - school-community-governing-meeting
+- slug: learning-beyond-the-classroom
+  title: Learning Beyond the Classroom
+  summary: Schools, libraries, universities and local organisations offer learning in the neighbourhoods, in families' own languages
+    and across generations, so that what children learn connects with the life of the place.
+  capabilities:
+  - community-learning-partnership-building
+  - intergenerational-programme-design
+  - language-learning-provision
+  entities:
+  - learning-offer
+  - library
+  - university
+  - anchor-institution-agreement
+  serves:
+  - neighbourhood-learning-session
+- slug: early-support-for-learners
+  title: Early Support for Learners
+  summary: Educators, youth workers and families notice early when a learner is often absent, falling behind or about to leave, and
+    agree support around the learner, with the learner's own voice in it.
+  capabilities:
+  - learner-support-planning
+  - care-service-linking
+  entities:
+  - learner-support-plan
+  - school
+  serves:
+  - learner-support-meeting
+- slug: routes-back-into-learning
+  title: Routes Back into Learning
+  summary: Young people who have left learning are offered more than one way back, through second-chance schooling, apprenticeships,
+    community learning and recognised practical skills, and the city follows whether each found a route.
+  capabilities:
+  - return-to-learning-support
+  - apprenticeship-placement
+  - prior-skills-recognition
+  entities:
+  - learning-pathway
+  - apprenticeship
+  - skill-recognition
+  serves:
+  - routes-back-guidance-meeting
+  - young-person-pathway-follow-up
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-250
+  edition: '2021'
+  jurisdiction: global
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

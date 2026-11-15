@@ -1,0 +1,65 @@
+kind: entity
+slug: learning-pathway
+title: Learning Pathway
+type: transactional
+summary: A learner's route into, through or back into learning or work, with its steps and the support along it. The learner holds
+  it with their guide, and the city follows whether each young person who left school found a route.
+attributes:
+- name: learner
+  type: identifier
+  card: 1..1
+- name: guide
+  type: text
+  card: 0..1
+- name: aim
+  type: text
+  card: 1..1
+- name: route-kinds
+  type: code
+  card: 1..*
+- name: steps
+  type: text
+  card: 1..*
+- name: support
+  type: text
+  card: 0..*
+- name: enrolments
+  type: reference(learner-enrolment)
+  card: 0..*
+- name: apprenticeship
+  type: reference(apprenticeship)
+  card: 0..1
+- name: skills-recognised
+  type: reference(skill-recognition)
+  card: 0..*
+- name: started-on
+  type: date
+  card: 1..1
+- name: follow-up-dates
+  type: date
+  card: 0..*
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- opened
+- planned
+- active
+- paused
+- completed
+- left
+relations:
+- type: based-on
+  target: learner-support-plan
+- type: composed-of
+  target: learner-enrolment
+- type: refers-to
+  target: apprenticeship
+- type: refers-to
+  target: skill-recognition
+- type: refers-to
+  target: employment-pathway
+binds:
+- source: src-253
+  edition: '2015-11-13'
+  jurisdiction: global

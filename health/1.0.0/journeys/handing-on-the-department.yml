@@ -1,0 +1,44 @@
+kind: journey
+slug: handing-on-the-department
+title: Handing On the Department
+stakeholder: head-of-clinical-department
+summary: A department head approaching retirement prepares a successor with the faculty, hands over the department's knowledge and
+  networks, and remains a contributor in a new role.
+stages:
+- slug: plan-the-succession
+  title: Plan the Succession
+  goal: Start succession planning early enough that the department never stands without leadership.
+  step: succession-and-transition/key-role-review
+  touchpoints:
+  - joint-university-committee
+- slug: develop-successors
+  title: Develop Successors
+  goal: See potential successors in the department grow into leadership.
+  step: succession-and-transition/successor-development
+  touchpoints:
+  - appraisal-meeting
+- slug: agree-the-retirement
+  title: Agree the Retirement
+  goal: Agree date, form and any continued role in good time.
+  step: succession-and-transition/transition-decision
+  touchpoints:
+  - transition-conversation
+- slug: hand-over-the-department
+  title: Hand Over the Department
+  goal: Hand over patients, staff, research, networks and open matters completely.
+  step: succession-and-transition/role-handover
+  touchpoints:
+  - handover-dossier
+- slug: leave-in-good-standing
+  title: Leave in Good Standing
+  goal: Close the employment without loose ends.
+  step: succession-and-transition/exit-administration
+  touchpoints:
+  - hr-service-desk
+- slug: remain-a-contributor
+  title: Remain a Contributor
+  goal: Continue teaching, research or advice as an emeritus where wished.
+  step: succession-and-transition/continued-contribution
+  touchpoints:
+  - exit-interview
+  - lecture-hall

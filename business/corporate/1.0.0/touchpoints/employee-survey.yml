@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: employee-survey
+title: Employee Survey
+medium: channel
+summary: The engagement and pulse survey, run with consent and transparency, through which staff say how the work and the workplace
+  are landing on them.
+exchanges:
+- consented-voice-for-visible-action
+journey: employee-known-and-heard-with-consent

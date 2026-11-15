@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: payer-data-exchange
+title: Payer Data Exchange
+medium: channel
+summary: The electronic channel through which the commons and payers exchange admission notices, coverage confirmations, claims, remittance
+  advice and review requests.
+exchanges:
+- correct-claim-for-timely-payment
+- record-evidence-for-review-settlement
+journey: settling-a-claim

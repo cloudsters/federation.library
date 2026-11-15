@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: adherence-for-lifelong-follow-up
+title: Adherence for Lifelong Follow-Up
+between:
+- highly-specialised-care-patient
+- specialist-physician
+offered:
+- Adherence to immunosuppression, regular visits and early report of symptoms.
+returned:
+- Lifelong expert follow-up, drug levels monitored and rejection or infection detected early.
+touchpoint: outpatient-clinic

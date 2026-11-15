@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: people-dashboard
+title: People Dashboard
+medium: channel
+summary: The aggregated workforce reports on capacity, turnover, wellbeing and skills that reach management, employee representatives
+  and authorities where required, without exposing individuals.
+exchanges:
+- purpose-limits-for-agreed-people-systems
+- workforce-insight-for-humane-decisions
+journey: people-function-turning-records-into-insight

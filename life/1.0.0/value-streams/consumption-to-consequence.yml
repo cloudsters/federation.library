@@ -1,0 +1,87 @@
+kind: value-stream
+slug: consumption-to-consequence
+title: Knowing What Living Takes
+family: value-to-sustainability
+summary: What the life draws from the living world and what that drawing costs elsewhere. The one stream where a life commons and
+  an ecology commons are the same accounting.
+trigger: The cost of how one eats, travels or buys becomes visible elsewhere, in a landscape, an animal or someone else's labour,
+  and can no longer be looked past.
+outcome: The person knows what their way of living draws from the living world and has chosen, with open eyes, what to keep drawing
+  and what to give back.
+stakeholders:
+- place
+- animal-companion
+- descendant
+- community
+- living-world
+steps:
+- slug: seeing-the-cost-elsewhere
+  title: Seeing the Cost Elsewhere
+  summary: The cost of how one eats, travels or buys becomes visible in a landscape, an animal or someone else's labour, and can no
+    longer be looked past.
+  capabilities:
+  - seeing-what-ones-living-draws
+  entities:
+  - expense
+  - vehicle
+  - significant-place
+  - footprint
+  serves:
+  - journey-somewhere
+  - market-and-shop
+  - out-in-the-open
+- slug: staying-with-the-discomfort
+  title: Staying with the Discomfort
+  summary: The person stays with the uncomfortable truth, neither looking away nor sinking into guilt that changes nothing.
+  capabilities:
+  - looking-without-looking-away
+  entities:
+  - journal
+  - value-set
+- slug: tracing-where-things-come-from
+  title: Tracing Where Things Come From
+  summary: Food and goods are followed back to the places, animals and people that produced them.
+  capabilities:
+  - tracing-where-things-come-from
+  entities:
+  - expense
+  - footprint
+  serves:
+  - market-and-shop
+- slug: choosing-what-to-keep-drawing
+  title: Choosing What to Keep Drawing
+  summary: With open eyes the person chooses what to keep drawing from the living world and what to change, in line with what they
+    value.
+  capabilities:
+  - spending-by-what-one-values
+  entities:
+  - value-set
+  - budget
+  - vehicle
+  - footprint
+  serves:
+  - market-and-shop
+- slug: caring-for-the-living-ones-near
+  title: Caring for the Living Ones Near
+  summary: The animals and the ground the life is attached to are looked after as a shared responsibility, not as possessions.
+  capabilities:
+  - caring-for-animals-and-land
+  entities:
+  - animal-companion-relation
+  - significant-place
+  serves:
+  - tending-an-animal
+  - the-garden
+- slug: giving-something-back
+  title: Giving Something Back
+  summary: The person decides what they give back to the living world and the places they draw from, and keeps doing it.
+  capabilities:
+  - giving-back-by-choice
+  entities:
+  - giving-plan
+  - commons-instance
+  - contribution-record
+  serves:
+  - a-gift-given
+  - the-garden
+  - volunteer-shift

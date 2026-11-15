@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-safety-plan
+title: Published Safety Plan
+medium: artefact
+summary: The published community safety plan of a neighbourhood, stating what each service does, how residents set priorities and
+  how the police answer to them.
+exchanges:
+- local-priorities-for-police-that-answer-to-residents
+journey: neighbourhood-association-making-the-neighbourhood-safer

@@ -1,0 +1,60 @@
+kind: entity
+slug: knowledge-article
+title: Knowledge Article
+type: master
+summary: A dated and sourced piece of the city's working knowledge, such as the everyday expertise of frontline staff, a way of handling
+  a case or what a person leaving a role handed over, credited to those who hold it. Its owner keeps it current in the city's body
+  of knowledge, open to staff, partners and, where suitable, residents, and it is retired when it is outdated.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: body
+  type: document
+  card: 1..1
+- name: knowledge-kind
+  type: code
+  card: 1..1
+- name: contributors
+  type: text
+  card: 1..*
+- name: owner
+  type: text
+  card: 1..1
+- name: sources
+  type: text
+  card: 0..*
+- name: department
+  type: reference(department)
+  card: 0..1
+- name: community
+  type: reference(community-of-practice)
+  card: 0..1
+- name: audience
+  type: code
+  card: 1..*
+- name: recorded-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- published
+- under-review
+- retired
+relations:
+- type: refers-to
+  target: department
+- type: refers-to
+  target: municipal-capability
+- type: refers-to
+  target: standard-procedure
+- type: refers-to
+  target: lesson-record
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

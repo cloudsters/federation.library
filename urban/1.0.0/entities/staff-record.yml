@@ -1,0 +1,67 @@
+kind: entity
+slug: staff-record
+title: Staff Record
+type: master
+summary: The record of a person who works for the municipality, with their position, contract, skills, working time and history from
+  hire to exit. The personnel function keeps it open to the person it describes, and it is used for pay, for workforce planning and
+  for settling claims when the person leaves.
+attributes:
+- name: staff-number
+  type: identifier
+  card: 1..1
+- name: person-name
+  type: text
+  card: 1..1
+- name: date-of-birth
+  type: date
+  card: 0..1
+- name: positions-held
+  type: reference(position)
+  card: 1..*
+- name: contracts
+  type: reference(employment-contract)
+  card: 1..*
+- name: skills
+  type: text
+  card: 0..*
+- name: recognised-skills
+  type: reference(skill-recognition)
+  card: 0..*
+- name: working-time
+  type: quantity
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+- name: hired-on
+  type: date
+  card: 1..1
+- name: left-on
+  type: date
+  card: 0..1
+- name: exit-reason
+  type: code
+  card: 0..1
+states:
+- created
+- on-probation
+- active
+- on-leave
+- notice-given
+- left
+- archived
+relations:
+- type: assigned-to
+  target: position
+- type: based-on
+  target: employment-contract
+- type: refers-to
+  target: digital-identity
+- type: refers-to
+  target: payroll-run
+- type: produces
+  target: exit-settlement
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global

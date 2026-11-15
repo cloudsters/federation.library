@@ -1,0 +1,93 @@
+kind: value-stream
+slug: platform-to-sovereignty
+title: Who Holds the Ground
+family: portfolio-to-system
+summary: Whether the person owns the ground their life runs on or rents it from someone who can change the terms. Every platform is
+  a landlord until an exit exists.
+trigger: A service changes its terms, raises its price, locks an account or closes, and it becomes clear how much of the life was
+  standing on it.
+outcome: For everything the life depends on, the person knows who holds it and has a way out that works, so no landlord can take more
+  than was agreed.
+stakeholders:
+- authority
+- audience
+- partner
+- provider
+steps:
+- slug: feeling-the-ground-move
+  title: Feeling the Ground Move
+  summary: A service changes its terms, raises its price, locks an account or closes, and it becomes clear how much of the life was
+    standing on it.
+  capabilities:
+  - noticing-a-dependence
+  entities:
+  - technology-policy
+  - device
+  serves:
+  - customer-service-line
+  - online-account
+  - terms-and-conditions
+- slug: naming-who-holds-what
+  title: Naming Who Holds What
+  summary: Going through what the life depends on, mail, photographs, money, work, contacts, and naming who actually holds each one
+    and on what terms.
+  capabilities:
+  - mapping-what-the-life-runs-on
+  - reading-the-terms-lived-under
+  entities:
+  - technology-policy
+  - account
+  - contract
+  - service-account
+  - data-trace
+  serves:
+  - terms-and-conditions
+- slug: weighing-what-could-be-taken
+  title: Weighing What Could Be Taken
+  summary: Asking of each dependency what would happen if it vanished tomorrow, and which losses would be an inconvenience and which
+    a break in the life.
+  capabilities:
+  - weighing-a-dependence
+  entities:
+  - technology-policy
+  - crisis-plan
+- slug: building-a-way-out
+  title: Building a Way Out
+  summary: Making sure what matters most can be taken elsewhere, through an export that works, an address the person owns, a second
+    home for the things that count.
+  capabilities:
+  - building-a-way-out
+  entities:
+  - technology-policy
+  - device
+  - account
+  - service-account
+  serves:
+  - online-account
+- slug: trying-the-door
+  title: Trying the Door
+  summary: Testing the way out once by actually moving something across, because an exit that has never been used is only a hope.
+  capabilities:
+  - building-a-way-out
+  - testing-before-it-is-needed
+  entities:
+  - technology-policy
+  - crisis-plan
+  - service-account
+  serves:
+  - online-account
+- slug: holding-the-line
+  title: Holding the Line
+  summary: Living with the platforms that remain, noticing when their terms creep, and leaving before any of them takes more than
+    was agreed.
+  capabilities:
+  - reading-the-terms-lived-under
+  - noticing-a-dependence
+  - keeping-accounts-secure
+  entities:
+  - technology-policy
+  - boundary-set
+  - contract
+  serves:
+  - settings-screen
+  - terms-and-conditions

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: leak-and-outage-line
+title: Leak and Outage Line
+medium: channel
+summary: The telephone and online route, open day and night, through which residents report leaks, bursts and outages and are told
+  when supply returns.
+exchanges:
+- connection-and-meter-access-for-reliable-supply
+- outage-reports-for-restoration-of-the-vulnerable-first
+journey: infrastructure-operator-keeping-water-safe-and-flowing

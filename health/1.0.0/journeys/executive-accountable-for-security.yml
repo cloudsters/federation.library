@@ -1,0 +1,37 @@
+kind: journey
+slug: executive-accountable-for-security
+title: Executive Accountable for Security
+stakeholder: executive
+summary: A member of the executive board sets the security course, accepts residual risks, leads through incidents and answers to
+  the authority for the evidence.
+stages:
+- slug: set-the-course
+  title: Set the Course
+  goal: Security strategy, policy and ownership are decided at board level.
+  step: information-security/security-strategy-and-policy
+  touchpoints:
+  - board-meeting
+- slug: accept-residual-risks
+  title: Accept Residual Risks
+  goal: The board knows the top security risks and accepts only those within its appetite.
+  step: information-security/security-risk-assessment
+  touchpoints:
+  - board-meeting
+- slug: lead-through-an-incident
+  title: Lead Through an Incident
+  goal: Decisions on isolation, downtime and communication are taken quickly on a clear picture.
+  step: information-security/incident-response
+  touchpoints:
+  - security-operations-centre
+- slug: sign-the-notification
+  title: Sign the Notification
+  goal: Significant incidents are reported to the authority on time and completely.
+  step: information-security/incident-reporting
+  touchpoints:
+  - incident-notification
+- slug: answer-for-the-evidence
+  title: Answer for the Evidence
+  goal: The organisation proves to auditors and the authority that its controls work.
+  step: information-security/security-audit-and-improvement
+  touchpoints:
+  - inspection-and-audit

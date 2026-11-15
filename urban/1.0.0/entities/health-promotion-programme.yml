@@ -1,0 +1,59 @@
+kind: entity
+slug: health-promotion-programme
+title: Health Promotion Programme
+type: transactional
+summary: A programme that supports residents of a neighbourhood or group to stay well, with its aim, partners, community health workers
+  and those who take part. The city or its partner runs it and records what it changed.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: aim
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: groups-served
+  type: text
+  card: 0..*
+- name: run-by
+  type: text
+  card: 1..1
+- name: partners
+  type: text
+  card: 0..*
+- name: community-health-workers
+  type: text
+  card: 0..*
+- name: activities
+  type: text
+  card: 1..*
+- name: programme-period
+  type: period
+  card: 1..1
+- name: budget
+  type: amount
+  card: 0..1
+- name: participant-count
+  type: integer
+  card: 0..1
+- name: changes-recorded
+  type: text
+  card: 0..*
+states:
+- designed
+- funded
+- running
+- evaluated
+- renewed
+- ended
+relations:
+- type: based-on
+  target: health-profile
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: community-centre

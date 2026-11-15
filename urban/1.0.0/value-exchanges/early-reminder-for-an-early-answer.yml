@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-reminder-for-an-early-answer
+title: Early Reminder for an Early Answer
+between:
+- finance-officer
+- taxpayer
+offered:
+- A reminder that names the amount, the help available and how to agree a plan.
+returned:
+- An answer from the taxpayer before the debt grows.
+touchpoint: payment-reminder

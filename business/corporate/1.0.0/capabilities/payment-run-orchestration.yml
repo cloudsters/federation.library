@@ -1,0 +1,7 @@
+kind: capability
+slug: payment-run-orchestration
+title: Payment Run & Batch Processing
+level: L3
+parent: payables-and-expenses
+summary: Honouring commitments at scale — automated batch processing of outgoing payments, selecting due invoices, grouping by bank
+  and vendor, and generating payment files. The payment run transforms individual obligations into a single, efficient act of fulfillment.

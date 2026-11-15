@@ -1,0 +1,44 @@
+kind: journey
+slug: product-manager-defining-the-value-narrative
+title: Product Manager Defining the Value Narrative
+stakeholder: product-manager
+summary: A product manager chooses the segments to serve, states the promise for each, sets position and brand, designs pricing and
+  the channel mix, and releases the narrative for review against experience.
+stages:
+- slug: choose-whom-to-serve
+  title: Choose Whom to Serve
+  goal: The segments to serve are chosen from the market picture with what each needs and values.
+  step: value-narrative-design/target-segment-choice
+  touchpoints:
+  - market-picture
+- slug: state-the-promise
+  title: State the Promise
+  goal: For each segment the promise is stated in terms delivery can honour.
+  step: value-narrative-design/value-proposition-definition
+  touchpoints:
+  - value-proposition-workshop
+- slug: set-position-and-brand
+  title: Set Position and Brand
+  goal: Position, brand and core messages are set so that every channel tells the same story.
+  step: value-narrative-design/positioning-and-brand
+  touchpoints:
+  - brand-and-message-guide
+- slug: design-the-pricing
+  title: Design the Pricing
+  goal: Pricing logic and commercial models are designed so that both sides gain.
+  step: value-narrative-design/pricing-mechanism-design
+  touchpoints:
+  - price-list
+- slug: design-the-channel-mix
+  title: Design the Channel Mix
+  goal: The channels carrying the offer to each segment are designed as one network.
+  step: value-narrative-design/channel-mix-design
+  touchpoints:
+  - value-proposition-workshop
+- slug: release-and-review
+  title: Release and Review
+  goal: The narrative is approved, released and reviewed against what customers experience.
+  step: value-narrative-design/narrative-approval-and-review
+  touchpoints:
+  - brand-and-message-guide
+  - board-meeting

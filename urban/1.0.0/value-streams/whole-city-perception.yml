@@ -1,0 +1,146 @@
+kind: value-stream
+slug: whole-city-perception
+title: Whole-City Perception
+family: perception-to-mandate
+summary: The city's view of itself as a whole, gathering signals from departments, indicators and residents, mapping what the data
+  leaves out, sensing the wider region, assessing equity and vitality across neighbourhoods and groups, detecting drift from charter
+  and mandate, and correcting it in the open.
+trigger: The annual review of the state of the city starts, or signals from indicators, complaints or neighbourhoods show that the
+  city is drifting from its charter or mandate.
+outcome: A shared picture of the whole city is published and discussed, its blind spots are named, and each drift has a decided correction
+  with an owner, a measure and a date.
+stakeholders:
+- city-council
+- city-administration
+- resident
+- neighbourhood-association
+- informal-worker
+- future-generations
+steps:
+- slug: signal-collection
+  title: Signal Collection
+  summary: Reports from departments, the city's indicator set, complaints, petitions and resident surveys are gathered into one place
+    at a regular rhythm, with each signal traced to its source.
+  capabilities:
+  - city-signal-collection
+  - resident-petition-handling
+  entities:
+  - city-dashboard
+  - citizen-complaint
+  - citizen-petition
+  serves:
+  - petition-portal
+  - public-city-dashboard
+  - resident-survey
+- slug: blind-spot-mapping
+  title: Blind Spot Mapping
+  summary: What the city's data leaves out is mapped with residents, such as informal settlements, street trade, residents without
+    papers and unpaid care, and records held by communities are used with consent and stay in their control.
+  capabilities:
+  - blind-spot-mapping
+  - participation-boundary-review
+  entities:
+  - population-register
+  - community-enumeration
+  serves:
+  - community-mapping-walk
+- slug: environment-sensing
+  title: Environment Sensing
+  summary: Shifts in the region, the economy, the climate, the population and the law are sensed together with the city's own capacity,
+    so that the picture covers what is coming as well as what is.
+  capabilities:
+  - environment-sensing
+  - hazard-and-vulnerability-mapping
+  entities:
+  - city-dashboard
+  - risk-register
+  serves:
+  - environment-outlook
+- slug: equity-and-vitality-assessment
+  title: Equity and Civic Life Assessment
+  summary: Who benefits from the city's budgets, services and enforcement and who bears the burden is assessed across neighbourhoods
+    and groups, together with the vitality of shared spaces and the load on those who keep them.
+  capabilities:
+  - equity-audit
+  - city-vitality-assessment
+  entities:
+  - whole-city-assessment
+  - municipal-budget
+  serves:
+  - equity-audit-report
+- slug: drift-detection
+  title: Drift Detection
+  summary: Departure from the charter, the mandate and the interests of future generations is detected, including drift that the city's
+    own automated systems hide because they are trained on past patterns.
+  capabilities:
+  - drift-detection
+  - decision-impact-assessment
+  - automated-decision-oversight
+  entities:
+  - whole-city-assessment
+  - city-charter
+  - automated-system-register
+  serves:
+  - algorithm-and-sensor-list
+  - state-of-the-city-report
+- slug: shared-picture
+  title: Shared Picture
+  summary: The state of the whole city is published as one picture with its blind spots named, and discussed in the council and in
+    the neighbourhoods before any correction is decided.
+  capabilities:
+  - shared-city-picture-publication
+  - resident-hearing
+  entities:
+  - city-dashboard
+  - whole-city-assessment
+  - public-record
+  serves:
+  - state-of-the-city-debate
+  - state-of-the-city-report
+- slug: corrective-decision-and-follow-through
+  title: Corrective Decision and Follow-Through
+  summary: The council decides how each drift is corrected, gives every correction an owner, a measure and a date, and follows it
+    until the drift is closed.
+  capabilities:
+  - drift-correction
+  - council-decision-recording
+  - implementation-reporting
+  entities:
+  - council-decision
+  - whole-city-assessment
+  - oversight-report
+  serves:
+  - council-meeting
+  - implementation-report
+start: true
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-169
+  edition: '2019'
+  jurisdiction: global
+- source: src-170
+  edition: '2019'
+  jurisdiction: global
+- source: src-171
+  edition: 2016+Amd1:2024
+  jurisdiction: global
+- source: src-172
+  edition: '2019'
+  jurisdiction: global
+- source: src-173
+  edition: '2019'
+  jurisdiction: global
+- source: src-175
+  edition: '2019'
+  jurisdiction: global
+- source: src-179
+  edition: '2015-09-25'
+  jurisdiction: global
+- source: src-182
+  edition: '2022'
+  jurisdiction: global
+- source: src-183
+  edition: vol1-2020_vol2-2021
+  jurisdiction: global

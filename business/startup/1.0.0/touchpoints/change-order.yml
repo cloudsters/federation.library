@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: change-order
+title: Change Order
+medium: artefact
+summary: The priced proposal for a change in scope, time or cost, which is agreed before the change is made and then amends the contract.
+exchanges:
+- priced-change-for-timely-decision
+journey: customer-commissioning-a-project

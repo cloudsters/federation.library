@@ -1,0 +1,82 @@
+kind: value-stream
+slug: language-to-understanding
+title: Shared Words
+family: collaboration-to-automation
+summary: Building the shared words a group needs before it can think together, and noticing when a familiar word has quietly come
+  to mean two things.
+trigger: A conversation goes in circles until it turns out a familiar word means different things to different people, or a group
+  enters a field it has no words for yet.
+outcome: The group has words it means the same thing by, and someone notices and says so when one of them starts to split in two.
+stakeholders:
+- collaborator
+- community
+- partner
+- synthetic-collaborator
+steps:
+- slug: going-in-circles
+  title: Going in Circles
+  summary: A conversation goes round and round until it turns out that a familiar word means different things to different people.
+  capabilities:
+  - catching-a-word-that-splits
+  entities:
+  - conversation
+  - conflict
+  serves:
+  - the-argument
+  - working-session
+- slug: asking-what-we-mean
+  title: Asking What We Mean
+  summary: Stopping to ask what each person means by the word, with an example, instead of arguing about the conclusion.
+  capabilities:
+  - asking-what-words-mean
+  entities:
+  - conversation
+  serves:
+  - working-session
+- slug: borrowing-from-other-fields
+  title: Borrowing from Other Fields
+  summary: When the group enters a field it has no words for, looking at how neighbouring fields name the same thing and borrowing
+    a word where it fits.
+  capabilities:
+  - connecting-ideas-across-fields
+  entities:
+  - learning-event
+  - reading-list
+- slug: choosing-shared-words
+  title: Choosing Shared Words
+  summary: Agreeing the words the group will use and writing down what each one means, so newcomers can find them.
+  capabilities:
+  - building-shared-words
+  - writing-for-a-later-reader
+  entities:
+  - pattern-log
+  - community-relation
+  - shared-vocabulary
+  serves:
+  - shared-document
+  - working-session
+- slug: using-them-together
+  title: Using Them Together
+  summary: Using the shared words in daily speech and writing until newcomers, and agents, pick them up without being told.
+  capabilities:
+  - building-shared-words
+  entities:
+  - conversation
+  - agent
+  - community-relation
+  - shared-vocabulary
+  serves:
+  - talking-with-an-agent
+  - working-session
+- slug: questioning-what-we-think-we-know
+  title: Questioning Familiar Words
+  summary: Revisiting the words now and then, catching the one that has begun to mean two things, and saying so out loud.
+  capabilities:
+  - catching-a-word-that-splits
+  - seeing-own-assumptions
+  entities:
+  - pattern-log
+  - review-cadence
+  - shared-vocabulary
+  serves:
+  - working-session

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: complaint-grading-meeting
+title: Complaint Grading Meeting
+medium: encounter
+summary: The regular meeting that grades each complaint by seriousness and routes it to quick resolution by the service, investigation,
+  the misconduct route or the appeal route, and tells the complainant.
+exchanges:
+- graded-complaint-for-the-right-route
+journey: resident-complaining-about-a-broken-promise

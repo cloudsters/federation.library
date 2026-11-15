@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shared-storage-space
+title: Shared Storage Space
+medium: place
+summary: A storage space the city offers to purchasing groups and cooperatives where pooled orders are delivered, stored and shared
+  out.
+exchanges:
+- pooled-orders-for-access-to-city-terms
+journey: purchasing-group-pooling-its-orders

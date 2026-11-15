@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clear-request-for-a-timely-procedure
+title: Clear Request for a Timely Procedure
+between:
+- specialist-physician
+- diagnostic-physician
+offered:
+- A request with the clinical question, the urgency and the relevant findings.
+returned:
+- A procedure performed within the time the urgency requires, and a structured report with findings and recommendations.
+touchpoint: clinical-workstation

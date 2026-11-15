@@ -1,0 +1,52 @@
+kind: journey
+slug: asset-officer-building-the-asset-plan
+title: Asset Officer Building the Asset Plan
+stakeholder: asset-officer
+summary: The asset officer records every asset and how critical it is, grades its condition with inspectors and residents, publishes
+  the backlog, sets lifecycle plans with departments and crews, ranks renewal with neighbourhoods and carries the plan into the budget.
+stages:
+- slug: record-what-the-city-holds
+  title: Record What the City Holds
+  goal: Every asset is in one register with its location, class, owning department and the services that depend on it, and each is
+    rated for how critical it is.
+  step: infrastructure-asset-planning/asset-inventory-and-criticality
+  touchpoints:
+  - asset-register-review-session
+  - criticality-rating-workshop
+- slug: grade-the-condition
+  title: Grade the Condition
+  goal: Each asset has a condition grade and an estimate of its remaining life, drawn from surveys, residents' reports and sensor
+    readings.
+  step: infrastructure-asset-planning/condition-survey
+  touchpoints:
+  - condition-survey-round
+  - resident-condition-report
+- slug: publish-the-backlog
+  title: Publish the Backlog
+  goal: The deferred upkeep of every asset is valued and published by neighbourhood, so that residents and the council can see it.
+  step: infrastructure-asset-planning/maintenance-backlog-disclosure
+  touchpoints:
+  - published-maintenance-backlog
+- slug: plan-each-asset-class
+  title: Plan Each Asset Class
+  goal: Each class of asset has a service level residents can expect and a plan for its inspection, upkeep, renewal and retirement
+    over its whole life.
+  step: infrastructure-asset-planning/lifecycle-plans-by-asset-class
+  touchpoints:
+  - lifecycle-planning-workshop
+  - published-asset-service-levels
+- slug: rank-renewal-with-neighbourhoods
+  title: Rank Renewal with Neighbourhoods
+  goal: Renewal needs are ranked by published criteria, neighbourhood bodies have reviewed the ranking, and the agreed priorities
+    are in the asset plan.
+  step: infrastructure-asset-planning/renewal-priorities-with-neighbourhoods
+  touchpoints:
+  - published-renewal-criteria
+  - renewal-ranking-session
+- slug: carry-the-plan-into-the-budget
+  title: Carry the Plan into the Budget
+  goal: The asset plan is in the capital investment plan and the medium-term financial plan, with upkeep funded before new assets
+    are added.
+  step: infrastructure-asset-planning/upkeep-funding
+  touchpoints:
+  - asset-plan-budget-session

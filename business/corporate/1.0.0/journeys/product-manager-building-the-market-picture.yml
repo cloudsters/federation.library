@@ -1,0 +1,45 @@
+kind: journey
+slug: product-manager-building-the-market-picture
+title: Product Manager Building the Market Picture
+stakeholder: product-manager
+summary: A product manager researches markets and competitors, reads intent signals, segments customers, ranks opportunities by fit
+  with purpose and publishes a current picture for strategy, offering and marketing.
+stages:
+- slug: research-the-market
+  title: Research the Market
+  goal: Market size, trends, needs and buying behaviour are understood across the ecosystem.
+  step: market-stakeholder-sensing/market-and-customer-research
+  touchpoints:
+  - market-study
+  - customer-interview
+- slug: track-competitors
+  title: Track Competitors
+  goal: Competitors' and substitutes' offers, prices and moves are known.
+  step: market-stakeholder-sensing/competitor-tracking
+  touchpoints:
+  - trade-fair
+  - trade-press
+- slug: read-intent-signals
+  title: Read Intent Signals
+  goal: Weak signals of emerging need are detected, and fabricated or manipulated signals are filtered out.
+  step: market-stakeholder-sensing/intent-signal-detection
+  touchpoints:
+  - website
+- slug: segment-the-market
+  title: Segment the Market
+  goal: Customers are segmented by need, value and behaviour on a basis that offer, channel and service share.
+  step: market-stakeholder-sensing/customer-segmentation-and-profiling
+  touchpoints:
+  - market-picture
+- slug: rank-the-opportunities
+  title: Rank the Opportunities
+  goal: Opportunities are sized, validated and ranked by fit with purpose and capacity to serve.
+  step: market-stakeholder-sensing/opportunity-prioritisation
+  touchpoints:
+  - market-opportunity-review
+- slug: publish-the-picture
+  title: Publish the Picture
+  goal: The current market picture is published and kept up to date.
+  step: market-stakeholder-sensing/market-picture-publication
+  touchpoints:
+  - market-picture

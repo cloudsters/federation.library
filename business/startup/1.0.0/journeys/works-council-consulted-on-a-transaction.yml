@@ -1,0 +1,26 @@
+kind: journey
+slug: works-council-consulted-on-a-transaction
+title: Works Council Consulted on a Transaction
+stakeholder: works-council
+summary: The works council learns of a planned transaction in time to be consulted, shapes how staff move through integration or separation
+  and sees whether the promises made were kept.
+stages:
+- slug: be-informed-and-consulted
+  title: Be Informed and Consulted
+  goal: The council receives the information it is entitled to and gives its opinion before the transaction is approved.
+  step: mergers-and-acquisitions/negotiation-and-approval
+  touchpoints:
+  - works-council-meeting
+- slug: shape-the-transition-for-staff
+  title: Shape the Transition for Staff
+  goal: Transfers of staff, changed conditions and new structures are agreed with the council.
+  step: mergers-and-acquisitions/integration-or-separation
+  touchpoints:
+  - works-council-meeting
+  - integration-office
+- slug: check-the-promises
+  title: Check the Promises
+  goal: The council sees whether commitments to staff were kept as synergies were pursued.
+  step: mergers-and-acquisitions/synergy-review
+  touchpoints:
+  - works-council-meeting

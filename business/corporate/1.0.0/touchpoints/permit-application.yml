@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: permit-application
+title: Permit Application
+medium: artefact
+summary: The application to an authority for permission to build, change or operate an asset or site, with plans, impacts and the
+  measures proposed.
+exchanges:
+- complete-application-for-permission
+journey: local-authority-permitting-a-build

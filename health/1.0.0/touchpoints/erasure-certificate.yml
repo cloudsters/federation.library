@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: erasure-certificate
+title: Erasure Certificate
+medium: artefact
+summary: The evidence that the data on a retired device or storage medium were erased or destroyed by a verified method, kept for
+  each item and handed over by recyclers and service providers.
+exchanges:
+- service-contract-for-assured-uptime
+- accurate-licence-use-for-transparent-terms
+journey: service-provider-maintaining-devices

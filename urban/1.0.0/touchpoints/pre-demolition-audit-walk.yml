@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: pre-demolition-audit-walk
+title: Pre-Demolition Audit Walk
+medium: encounter
+summary: The walk through an asset due for retirement in which auditors and salvage cooperatives record its materials, hazards and
+  order of disassembly.
+exchanges:
+- material-audit-for-salvage-planning
+journey: asset-officer-retiring-an-asset

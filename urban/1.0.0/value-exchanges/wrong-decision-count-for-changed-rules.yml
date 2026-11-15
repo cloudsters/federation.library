@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: wrong-decision-count-for-changed-rules
+title: Wrong-Decision Count for Changed Rules
+between:
+- city-administration
+- city-council
+offered:
+- The count of wrong decisions by service and cause, including those prepared by automated systems.
+returned:
+- Decisions to change the rules or the systems where the count shows a pattern.
+touchpoint: published-appeal-count

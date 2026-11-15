@@ -1,0 +1,65 @@
+kind: entity
+slug: money-flow-account
+title: Money Flow Account
+type: intelligence
+summary: The public account of where the city's money comes from, where it is held and where it goes, including the cross-subsidies
+  between services and neighbourhoods and the share that flows into the commons fund. The finance department compiles it from the
+  books at least once a year, and residents use it to follow their money from payment to use.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: revenue-sources
+  type: document
+  card: 1..1
+- name: holdings
+  type: document
+  card: 1..1
+- name: uses
+  type: document
+  card: 1..1
+- name: cross-subsidies
+  type: text
+  card: 0..*
+- name: contributions-by-payer-group
+  type: document
+  card: 0..1
+- name: flows-by-neighbourhood
+  type: document
+  card: 0..1
+- name: commons-fund-inflow
+  type: amount
+  card: 0..1
+- name: source-accounts
+  type: reference(annual-accounts)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- compiled
+- checked
+- published
+- inspected
+- corrected
+relations:
+- type: based-on
+  target: journal-entry
+- type: based-on
+  target: annual-accounts
+- type: refers-to
+  target: commons-fund
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: public-record
+binds:
+- source: src-204
+  edition: '2014'
+  jurisdiction: global
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

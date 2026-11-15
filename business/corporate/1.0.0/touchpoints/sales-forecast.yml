@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: sales-forecast
+title: Sales Forecast
+medium: artefact
+summary: The forecast of demand per market, segment and offering, built from the outlooks of sellers, partners and customers.
+exchanges:
+- demand-outlook-for-planned-supply
+journey: sales-representative-receiving-a-territory-and-target

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: released-budget-for-spending-within-limits
+title: Released Budget for Spending Within Limits
+between:
+- finance-officer
+- city-administration
+offered:
+- Each department's budget, with stated decision rights to spend it.
+returned:
+- Spending kept within the released budget and reported each month.
+touchpoint: budget-release-letter

@@ -1,0 +1,65 @@
+kind: entity
+slug: festival
+title: Festival
+type: transactional
+summary: A recurring cultural celebration or event in the city, held as an edition with its dates, places, the community whose culture
+  it shows and those who organise, perform and steward it. The organiser runs it with the community it celebrates under its permit
+  and safety plan, and each edition is recorded so that its legacy carries into the next.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: edition
+  type: identifier
+  card: 1..1
+- name: organisers
+  type: text
+  card: 1..*
+- name: host-community
+  type: text
+  card: 0..*
+- name: co-designed-with
+  type: text
+  card: 0..*
+- name: event-period
+  type: period
+  card: 1..1
+- name: places
+  type: reference(public-space|park|street)
+  card: 0..*
+- name: application
+  type: reference(event-application)
+  card: 0..1
+- name: permit
+  type: reference(public-space-permit)
+  card: 0..1
+- name: safety-plan
+  type: reference(event-safety-plan)
+  card: 0..1
+- name: benefit-agreement
+  type: reference(event-benefit-agreement)
+  card: 0..1
+- name: attendance
+  type: integer
+  card: 0..1
+states:
+- proposed
+- approved
+- in-preparation
+- running
+- concluded
+- reviewed
+- cancelled
+relations:
+- type: based-on
+  target: event-application
+- type: governed-by
+  target: public-space-permit
+- type: governed-by
+  target: event-safety-plan
+- type: governed-by
+  target: event-benefit-agreement
+- type: composed-of
+  target: cultural-performance
+- type: produces
+  target: event-legacy-report

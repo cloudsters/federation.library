@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: payment-plan-meeting
+title: Payment Plan Meeting
+medium: encounter
+summary: A meeting in which a revenue officer and a taxpayer agree a plan timed to when the taxpayer earns, and hardship is referred
+  to relief.
+exchanges:
+- workable-plan-for-kept-instalments
+- market-day-plan-for-steady-payment
+journey: finance-officer-raising-local-revenue

@@ -1,0 +1,10 @@
+kind: body
+slug: internal-audit
+title: Internal Audit
+summary: Examines independently whether controls, processes and governance work as intended, and reports its findings to the
+  executive board and the supervisory board.
+holds:
+- internal-control-and-audit
+part_of: executive-board
+type: function
+form: organisational-unit

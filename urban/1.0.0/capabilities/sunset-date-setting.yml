@@ -1,0 +1,6 @@
+kind: capability
+slug: sunset-date-setting
+title: Sunset Date Setting
+level: L3
+parent: algorithm-assurance
+summary: Give each approved system a published date on which its use ends unless it is authorised again.

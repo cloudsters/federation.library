@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-care-for-toilets-kept-open
+title: Neighbourhood Care for Toilets Kept Open
+between:
+- neighbourhood-association
+- infrastructure-operator
+offered:
+- The neighbourhood's watch over its public toilets and reports when they are dirty or closed.
+returned:
+- Clean, free and accessible toilets kept open in every neighbourhood.
+touchpoint: public-toilet

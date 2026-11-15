@@ -1,0 +1,51 @@
+kind: entity
+slug: affordability-covenant
+title: Affordability Covenant
+type: governance
+summary: The restriction attached to a home that binds every successor to its affordable price and terms. The body that holds the
+  home records it with the land registry, and it is used to set the price at each succession or resale and to keep the home affordable
+  for those who follow.
+attributes:
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: land-parcel
+  type: reference(land-parcel)
+  card: 0..1
+- name: holding-body
+  type: text
+  card: 1..1
+- name: price-formula
+  type: text
+  card: 1..1
+- name: eligibility-terms
+  type: text
+  card: 0..*
+- name: occupancy-terms
+  type: text
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- agreed
+- registered
+- in-force
+- amended
+- released
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: land-registry
+- type: governed-by
+  target: commons-charter

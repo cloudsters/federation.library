@@ -1,0 +1,11 @@
+kind: solution
+slug: photo-library
+title: Photo Library
+role: system-of-record
+sovereignty: hosted
+summary: The store of a life's pictures and films, with the dates and places that make them findable later.
+carries:
+- keeping-an-archive
+- keeping-records-readable
+holds:
+- personal-archive

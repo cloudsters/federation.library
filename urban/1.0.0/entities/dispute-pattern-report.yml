@@ -1,0 +1,55 @@
+kind: entity
+slug: dispute-pattern-report
+title: Dispute Pattern Report
+type: intelligence
+summary: The report, without names, of which disputes recur, where and why, and the causes passed to departments and neighbourhood
+  bodies. The mediation service compiles it with the mediators and publishes it, and departments and neighbourhood bodies use it to
+  remove the causes of disputes.
+attributes:
+- name: report-period
+  type: period
+  card: 1..1
+- name: case-count
+  type: integer
+  card: 1..1
+- name: disputes-by-kind
+  type: document
+  card: 0..1
+- name: disputes-by-neighbourhood
+  type: document
+  card: 0..1
+- name: recurring-kinds
+  type: code
+  card: 0..*
+- name: causes
+  type: text
+  card: 0..*
+- name: causes-passed-to
+  type: reference(department)
+  card: 0..*
+- name: agreements-kept-share
+  type: decimal
+  card: 0..1
+- name: referral-count
+  type: integer
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- reviewed
+- published
+- acted-on
+- superseded
+relations:
+- type: based-on
+  target: dispute-case
+- type: refers-to
+  target: department
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: cohesion-assessment
+- type: produces
+  target: lesson-record

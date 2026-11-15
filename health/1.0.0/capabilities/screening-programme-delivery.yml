@@ -1,0 +1,11 @@
+kind: capability
+slug: screening-programme-delivery
+title: Screening Programme Delivery
+level: L3
+parent: outpatient-and-day-care
+summary: Perform organised screening examinations to programme standards, communicate results and route every positive finding to
+  diagnostic follow-up.
+binds:
+- source: src-461
+  edition: '2015'
+  jurisdiction: global

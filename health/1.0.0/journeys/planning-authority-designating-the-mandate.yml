@@ -1,0 +1,52 @@
+kind: journey
+slug: planning-authority-designating-the-mandate
+title: Planning Authority Designating the Mandate
+stakeholder: health-planning-authority
+summary: 'The planning authority''s side of the care mandate: opening the procedure, sharing the regional need, obtaining
+  evidence, coordinating providers, designating and monitoring fulfilment.'
+stages:
+- slug: opening-the-procedure
+  title: Opening the Procedure
+  goal: Make the revised care plan or the opened procedure known to every provider, with its timetable and criteria.
+  step: care-mandate/planning-signal-intake
+  touchpoints:
+  - regional-planning-conference
+- slug: sharing-the-need-picture
+  title: Sharing the Need Picture
+  goal: Bring the authority's view of population need and access gaps into each provider's assessment.
+  step: care-mandate/population-need-assessment
+  touchpoints:
+  - regional-planning-conference
+- slug: requesting-structural-data
+  title: Requesting Structural Data
+  goal: Obtain comparable data on staffing, equipment and volumes from every provider before deciding.
+  step: care-mandate/criteria-self-assessment
+  touchpoints:
+  - statutory-submission
+- slug: coordinating-the-region
+  title: Coordinating the Region
+  goal: See providers align their positions so that the region is covered without wasteful duplication.
+  step: care-mandate/mandate-positioning
+  touchpoints:
+  - regional-planning-conference
+- slug: designating
+  title: Designating
+  goal: Decide on a complete, evidenced application and issue a designation with clear conditions.
+  step: care-mandate/application-and-designation
+  touchpoints:
+  - mandate-application
+  - care-mandate-decision
+- slug: relying-on-named-owners
+  title: Relying on Named Owners
+  goal: Know who in the commons answers for emergency care, public-health duties and every other obligation attached.
+  step: care-mandate/obligation-assignment
+  touchpoints:
+  - statutory-submission
+- slug: monitoring-fulfilment
+  title: Monitoring Fulfilment
+  goal: Receive evidence that criteria and obligations remain met, and act early where they are not.
+  step: care-mandate/mandate-evidence-and-renewal
+  touchpoints:
+  - statutory-submission
+  - inspection-and-audit
+  - public-quality-report

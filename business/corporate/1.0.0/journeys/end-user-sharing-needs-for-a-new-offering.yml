@@ -1,0 +1,32 @@
+kind: journey
+slug: end-user-sharing-needs-for-a-new-offering
+title: End User Sharing Needs for a New Offering
+stakeholder: end-user
+summary: An end user shows how the work is really done, offers ideas, helps shape concepts and learns which concepts go ahead and
+  why.
+stages:
+- slug: show-how-the-work-is-done
+  title: Show How the Work Is Done
+  goal: The user is observed and heard in their own setting, and real difficulties are recorded, not only wishes.
+  step: offering-discovery-ideation/need-discovery
+  touchpoints:
+  - customer-interview
+- slug: offer-an-idea
+  title: Offer an Idea
+  goal: The user's suggestion is recorded with the need behind it, and the user receives an answer.
+  step: offering-discovery-ideation/idea-collection
+  touchpoints:
+  - idea-portal
+  - user-community
+- slug: shape-concepts-together
+  title: Shape Concepts Together
+  goal: The user explores possible solutions with the team and sees their need reflected in the concepts.
+  step: offering-discovery-ideation/concept-generation
+  touchpoints:
+  - co-design-workshop
+- slug: learn-the-outcome
+  title: Learn the Outcome
+  goal: The user learns which concepts go ahead and why the others were closed.
+  step: offering-discovery-ideation/concept-selection
+  touchpoints:
+  - idea-portal

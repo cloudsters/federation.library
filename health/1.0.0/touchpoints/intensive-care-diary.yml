@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: intensive-care-diary
+title: Intensive Care Diary
+medium: artefact
+summary: The diary that staff and relatives write during an intensive care stay, which helps survivors understand the time they cannot
+  remember.
+exchanges:
+- honest-information-for-the-patients-voice
+journey: intensive-care-relative-journey

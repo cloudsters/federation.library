@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: work-permit
+title: Work Permit
+medium: artefact
+summary: The permit that releases hazardous work, such as hot work or work at height or in confined spaces, only once its hazards
+  are controlled, naming who may do it and until when.
+exchanges:
+- workplace-knowledge-for-protection
+- site-induction-for-safe-contract-work
+journey: operator-working-safely-every-shift

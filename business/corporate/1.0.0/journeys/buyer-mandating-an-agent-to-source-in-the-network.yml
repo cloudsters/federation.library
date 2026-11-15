@@ -1,0 +1,26 @@
+kind: journey
+slug: buyer-mandating-an-agent-to-source-in-the-network
+title: Buyer Mandating an Agent to Source in the Network
+stakeholder: procurement-specialist
+summary: A procurement specialist expresses a need and the mandate an agent acts within, takes over when an escalation trigger fires
+  and reviews the outcomes to renew or adjust the mandate.
+stages:
+- slug: state-the-need-and-mandate
+  title: State the Need and Mandate
+  goal: The need is published as a typed intent, and price bounds, alignment, volumes and escalation triggers are authorised.
+  step: commons-federation-exchange/need-and-mandate-definition
+  touchpoints:
+  - published-need
+  - agent-mandate
+- slug: take-over-an-escalation
+  title: Take Over an Escalation
+  goal: When a trigger fires, the case arrives with its history and the person decides.
+  step: commons-federation-exchange/agent-to-agent-negotiation
+  touchpoints:
+  - agent-escalation
+- slug: review-the-mandate
+  title: Review the Mandate
+  goal: Outcomes and escalations are reviewed and the mandate is renewed, adjusted or withdrawn.
+  step: commons-federation-exchange/mandate-review
+  touchpoints:
+  - mandate-review-meeting

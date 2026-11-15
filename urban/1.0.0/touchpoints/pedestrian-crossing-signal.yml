@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: pedestrian-crossing-signal
+title: Pedestrian Crossing Signal
+medium: artefact
+summary: The signal at a crossing that gives priority to people walking and time enough to cross for those who walk slowly.
+exchanges:
+- crossing-reports-for-signals-that-wait
+journey: older-resident-crossing-and-walking-safely

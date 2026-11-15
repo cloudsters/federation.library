@@ -1,0 +1,10 @@
+kind: solution
+slug: household-help
+title: Household Help
+role: person
+sovereignty: third-party
+summary: Takes on cleaning, laundry or cooking on agreed days, so the load at home is not carried by its members alone.
+carries:
+- keeping-order-lightly
+- cooking-simply-and-often
+holds: []

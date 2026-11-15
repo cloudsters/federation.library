@@ -1,0 +1,22 @@
+kind: solution
+slug: public-health-information-system
+title: Public Health Information System
+role: system-of-insight
+summary: Brings together figures on health from providers, residents and sensors into the city's health profile by neighbourhood and
+  group, keeps the health impact assessments, the promotion programmes and prevention campaigns with their reach, and issues and tracks
+  health alerts.
+carries:
+- population-health-profiling
+- health-impact-assessment
+- health-promotion-programme-design
+- prevention-outreach-organisation
+- health-threat-surveillance
+- physical-activity-profiling
+- outbreak-control-operation
+holds:
+- health-profile
+- health-impact-assessment
+- health-promotion-programme
+- prevention-campaign
+- health-alert
+- physical-activity-profile

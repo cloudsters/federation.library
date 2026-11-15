@@ -1,0 +1,11 @@
+kind: capability
+slug: consent-and-directive-management
+title: Consent and Directive Management
+level: L3
+parent: information-and-consent
+summary: Keep every consent, refusal, advance directive and proxy authority current in one place, visible at each point of care and
+  enforced by every system that uses the patient's data, including on withdrawal.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

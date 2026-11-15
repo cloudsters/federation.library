@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: clinical-placement
+title: Clinical Placement
+medium: encounter
+summary: The period in which a student or trainee works in a clinical unit under supervision, as part of the care team, to learn in
+  real practice.
+exchanges:
+- teaching-for-contribution
+- affiliation-for-placements
+- instruction-for-contribution
+- learners-for-placements-beyond-the-commons
+journey: becoming-a-physician

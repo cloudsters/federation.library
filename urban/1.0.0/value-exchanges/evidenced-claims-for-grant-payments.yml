@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: evidenced-claims-for-grant-payments
+title: Evidenced Claims for Grant Payments
+between:
+- finance-officer
+- funding-body
+offered:
+- Claims and progress reports, with the spending evidence behind them.
+returned:
+- Grant payments on time.
+touchpoint: grant-claim-and-report

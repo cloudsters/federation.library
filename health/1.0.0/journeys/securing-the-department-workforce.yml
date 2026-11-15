@@ -1,0 +1,49 @@
+kind: journey
+slug: securing-the-department-workforce
+title: Securing the Department's Workforce
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department turns the care, teaching and research the department must deliver into posts it may fill,
+  and watches the plan hold through the year.
+stages:
+- slug: receive-the-planning-frame
+  title: Receive the Planning Frame
+  goal: Know the assumptions, service changes and budget frame the department must plan within.
+  step: workforce-planning/planning-mandate
+  touchpoints:
+  - workforce-planning-round
+- slug: see-the-current-workforce
+  title: See the Current Workforce
+  goal: Have an accurate picture of posts, vacancies, turnover, absence and overtime in the department.
+  step: workforce-planning/workforce-baseline
+  touchpoints:
+  - workforce-dashboard
+- slug: state-the-demand
+  title: State the Demand
+  goal: Have planned activity, staffing standards and teaching and research duties translated into staff demand by profession.
+  step: workforce-planning/demand-forecast
+  touchpoints:
+  - workforce-planning-round
+- slug: understand-the-supply
+  title: Understand the Supply
+  goal: Know who will leave, who will complete training and what the labour market will yield.
+  step: workforce-planning/supply-forecast
+  touchpoints:
+  - workforce-dashboard
+- slug: choose-the-measures
+  title: Choose the Measures
+  goal: Agree how each gap is closed, including new roles, task shifts and the work given to AI agents.
+  step: workforce-planning/gap-closure-design
+  touchpoints:
+  - workforce-planning-round
+- slug: receive-approved-posts
+  title: Receive Approved Posts
+  goal: Receive approved, funded posts and the authority to recruit against them.
+  step: workforce-planning/plan-approval
+  touchpoints:
+  - workforce-plan
+- slug: follow-the-plan
+  title: Follow the Plan
+  goal: See early when the plan slips and act before staffing becomes unsafe.
+  step: workforce-planning/plan-monitoring
+  touchpoints:
+  - workforce-dashboard

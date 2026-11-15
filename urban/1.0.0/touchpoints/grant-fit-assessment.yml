@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: grant-fit-assessment
+title: Grant Fit Assessment
+medium: artefact
+summary: The assessment of a call's conditions, the match funding it requires and the running costs it leaves behind when the grant
+  ends, made before the city applies.
+exchanges:
+- true-grant-cost-for-a-decision-to-apply
+journey: finance-officer-securing-what-the-city-is-due

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: medication-review
+title: Medication Review
+medium: encounter
+summary: The conversation in which a pharmacist or physician goes through all of a patient's medicines with the patient, checks their
+  use and effects, and agrees changes.
+exchanges:
+- medication-history-for-a-reconciled-plan
+journey: medication-journey

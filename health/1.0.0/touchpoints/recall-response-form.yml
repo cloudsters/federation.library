@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: recall-response-form
+title: Recall Response Form
+medium: artefact
+summary: The form on which each affected unit confirms the stock checked, the items removed or corrected and the patients identified,
+  returned to the central vigilance point.
+exchanges:
+- safety-notice-for-confirmed-action
+journey: care-team-keeping-devices-safe-to-use

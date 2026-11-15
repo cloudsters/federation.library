@@ -1,0 +1,64 @@
+kind: entity
+slug: shared-data-model
+title: Shared Data Model
+type: governance
+summary: The shared definitions and identifiers of the core things of the city, such as address, parcel, building, resident and service,
+  that every system uses. The administration keeps it with those who hold the data and publishes it, and every system, interface and
+  data set maps its data to it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: core-things
+  type: text
+  card: 1..*
+- name: definitions
+  type: document
+  card: 1..1
+- name: identifier-schemes
+  type: code
+  card: 1..*
+- name: data-holders
+  type: text
+  card: 1..*
+- name: steward
+  type: text
+  card: 1..1
+- name: data-sets
+  type: reference(data-set)
+  card: 0..*
+- name: published-in
+  type: reference(source-code-repository)
+  card: 0..1
+- name: effective-from
+  type: date
+  card: 0..1
+- name: change-log
+  type: document
+  card: 0..1
+states:
+- proposed
+- drafted
+- agreed
+- published
+- in-use
+- revised
+- deprecated
+relations:
+- type: governed-by
+  target: systems-architecture
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: data-catalogue
+binds:
+- source: src-177
+  edition: '2017'
+  jurisdiction: global

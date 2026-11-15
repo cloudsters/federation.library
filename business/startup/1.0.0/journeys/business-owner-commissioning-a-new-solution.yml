@@ -1,0 +1,40 @@
+kind: journey
+slug: business-owner-commissioning-a-new-solution
+title: Business Owner Commissioning a New Solution
+stakeholder: site-manager
+summary: A business owner states the requirements for a new solution, takes part in the build-or-buy decision and the blueprint, accepts
+  the tested solution and keeps it serving its work until it is retired.
+stages:
+- slug: state-the-requirements
+  title: State the Requirements
+  goal: Requirements and the business case are agreed and the sourcing decision taken.
+  step: solution-lifecycle-design/requirement-and-sourcing-decision
+  touchpoints:
+  - requirement-workshop
+  - technology-demand-request
+- slug: confirm-the-blueprint
+  title: Confirm the Blueprint
+  goal: The design fits the work it is meant to enable and the enterprise architecture.
+  step: solution-lifecycle-design/solution-blueprint
+  touchpoints:
+  - requirement-workshop
+  - architecture-board
+- slug: accept-the-solution
+  title: Accept the Solution
+  goal: The solution passes acceptance with real cases from the unit.
+  step: solution-lifecycle-design/solution-testing
+  touchpoints:
+  - user-acceptance-test
+- slug: approve-the-release
+  title: Approve the Release
+  goal: The unit agrees the release timing and its risk to running work.
+  step: solution-lifecycle-design/change-and-release-approval
+  touchpoints:
+  - change-board
+- slug: keep-it-serving
+  title: Keep It Serving
+  goal: The solution is maintained while it serves, and retired with its data when it no longer does.
+  step: solution-lifecycle-design/maintenance-and-retirement
+  touchpoints:
+  - application-inventory
+  - service-review

@@ -1,0 +1,65 @@
+kind: entity
+slug: visitor-strategy
+title: Visitor Strategy
+type: governance
+summary: The city's agreed strategy for welcoming visitors across the year, with the limits it sets on holiday lets, crowding and
+  group size, the seasons it widens and the share of visitor charge income returned to host neighbourhoods. The administration agrees
+  it with residents, businesses and workers and the council adopts it, and it is reviewed against the visitor impact assessment.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: strategy-period
+  type: period
+  card: 1..1
+- name: aims
+  type: text
+  card: 1..*
+- name: host-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: host-agreements
+  type: reference(neighbourhood-agreement)
+  card: 0..*
+- name: holiday-let-limits
+  type: text
+  card: 0..*
+- name: crowding-limits
+  type: text
+  card: 0..*
+- name: off-peak-offers
+  type: text
+  card: 0..*
+- name: neighbourhood-income-share
+  type: decimal
+  card: 0..1
+- name: agreed-with
+  type: text
+  card: 1..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- revised
+- retired
+relations:
+- type: based-on
+  target: visitor-impact-assessment
+- type: refers-to
+  target: neighbourhood-agreement
+- type: refers-to
+  target: city-strategy
+- type: refers-to
+  target: holiday-let-register
+- type: refers-to
+  target: tax-and-charge-schedule
+- type: refers-to
+  target: fund-allocation

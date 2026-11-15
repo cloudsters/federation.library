@@ -1,0 +1,12 @@
+kind: solution
+slug: self-hosted-agent
+title: Self-Hosted Agent
+role: agent
+sovereignty: owned
+summary: A machine collaborator running on the person's own device over their own records, sending nothing out.
+carries:
+- keeping-ones-data-close
+- keeping-work-on-own-ground
+- gathering-scattered-records
+- keeping-knowledge-findable
+holds: []

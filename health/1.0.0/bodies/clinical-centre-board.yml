@@ -1,0 +1,49 @@
+kind: body
+slug: clinical-centre-board
+title: Clinical Centre Board
+summary: The joint medical, nursing and commercial leadership of a centre that groups departments around an organ system or
+  patient group. Answers for the centre's inpatient and ambulatory care, the specialised programmes it hosts, its results
+  and its budget.
+holds:
+- inpatient-care
+- ambulatory-and-remote-care
+- cardiovascular-and-stroke-care
+- maternal-and-child-health
+- mental-health-care
+- highly-specialised-care
+- geriatric-and-palliative-care
+- child-and-adolescent-health
+- prehospital-and-emergency-networks
+- intensive-care
+- specialty-training-programmes
+- training-logbook-management
+- rotation-planning
+- specialist-examination-preparation
+- preoperative-assessment
+- anaesthesia-consent-and-risk-stratification
+- preoperative-optimisation
+- anaesthesia-induction-and-monitoring
+- anaesthesia-emergence
+- intraoperative-documentation
+- post-anaesthesia-recovery
+- postoperative-monitoring
+- cancer-care
+- postgraduate-medical-training
+- emergency-department-care
+- laboratory-testing-process
+- specialised-laboratory-services
+- pathology-services
+- diagnostic-imaging
+- interventional-and-nuclear-imaging
+- imaging-safety
+- surgical-indication-and-consent
+- surgical-procedure-performance
+- surgical-safety-checklist-practice
+- implant-and-material-documentation
+- surgical-complication-management
+- enhanced-recovery
+- rehabilitative-therapies
+- supportive-clinical-services
+part_of: executive-board
+type: management
+form: organisational-unit

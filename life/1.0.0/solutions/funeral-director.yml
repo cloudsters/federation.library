@@ -1,0 +1,12 @@
+kind: solution
+slug: funeral-director
+title: Funeral Director
+role: person
+sovereignty: third-party
+summary: Carries the arrangements after a death so that those left can grieve and mark the ending.
+carries:
+- marking-endings
+- giving-loss-a-place
+holds:
+- death
+- ritual

@@ -1,0 +1,33 @@
+kind: journey
+slug: neighbourhood-association-rotating-its-roles
+title: Neighbourhood Association Rotating Its Roles
+stakeholder: neighbourhood-association
+summary: A neighbourhood association reviews which of its roles rest on one person, gives chairs, facilitation and representation
+  fixed terms with rest in between, develops successors alongside the holders and makes each handover carry the reasons as well as
+  the tasks.
+stages:
+- slug: see-where-it-rests-on-one-person
+  title: See Where It Rests on One Person
+  goal: The roles whose decisions, relationships or knowledge rest on one person are named, with successors recorded.
+  step: succession-and-role-transition/key-role-review
+  touchpoints:
+  - key-role-review-meeting
+- slug: set-terms-and-rest
+  title: Set Terms and Rest
+  goal: Chairs, facilitation, representation and watch duties have fixed terms, staggered rotation and a period of rest before anyone
+    holds them again.
+  step: succession-and-role-transition/rotation-and-term-setting
+  touchpoints:
+  - published-role-terms
+- slug: grow-successors
+  title: Grow Successors
+  goal: Successors drawn from members and young people work alongside the holders with a mentor.
+  step: succession-and-role-transition/successor-development
+  touchpoints:
+  - successor-overlap
+- slug: hand-over-with-reasons
+  title: Hand Over with Reasons
+  goal: Each handover passes the tasks, the relationships and the reasons behind past decisions, including the dissent.
+  step: succession-and-role-transition/role-handover
+  touchpoints:
+  - handover-file

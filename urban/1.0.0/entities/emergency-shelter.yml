@@ -1,0 +1,59 @@
+kind: entity
+slug: emergency-shelter
+title: Emergency Shelter
+type: master
+summary: A place where residents without a home can stay safely at short notice, with its capacity, access rules and the support offered
+  there. The housing office keeps the record with the body that runs the shelter, and uses it to offer a place the same day and to
+  plan shelter across the city.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: shelter-kind
+  type: code
+  card: 1..1
+- name: capacity
+  type: integer
+  card: 1..1
+- name: places-free
+  type: integer
+  card: 0..1
+- name: groups-served
+  type: code
+  card: 0..*
+- name: access-rules
+  type: text
+  card: 1..*
+- name: opening-hours
+  type: text
+  card: 1..1
+- name: support-offered
+  type: text
+  card: 0..*
+- name: access-features
+  type: code
+  card: 0..*
+- name: building
+  type: reference(building)
+  card: 0..1
+states:
+- planned
+- open
+- full
+- suspended
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: housing-policy
+- type: governed-by
+  target: service-standard

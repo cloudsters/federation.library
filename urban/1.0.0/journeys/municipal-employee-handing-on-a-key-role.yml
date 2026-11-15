@@ -1,0 +1,52 @@
+kind: journey
+slug: municipal-employee-handing-on-a-key-role
+title: Municipal Employee Handing On a Key Role
+stakeholder: municipal-employee
+summary: A long-serving engineer whose knowledge rests with them alone is named in the succession plan, works alongside a successor
+  for a year, is appointed a paid knowledge keeper, hands over the reasoning and relationships of the role, leaves with what is owed
+  and goes on mentoring.
+stages:
+- slug: be-recognised-as-a-key-role
+  title: Be Recognised as a Key Role
+  goal: The yearly review has named the role as one whose decisions, relationships or knowledge rest with one person, and a successor
+    and their readiness are recorded.
+  step: succession-and-role-transition/key-role-review
+  touchpoints:
+  - key-role-review-meeting
+  - retirement-and-knowledge-risk-map
+- slug: work-beside-the-successor
+  title: Work Beside the Successor
+  goal: The successor works alongside the holder over an overlap of six to eighteen months, taking on decisions step by step.
+  step: succession-and-role-transition/successor-development
+  touchpoints:
+  - successor-overlap
+- slug: become-a-knowledge-keeper
+  title: Become a Knowledge Keeper
+  goal: The employee is appointed and paid to advise on decisions within their memory, and their testimony is recorded in their own
+    words.
+  step: succession-and-role-transition/knowledge-keeper-roles
+  touchpoints:
+  - knowledge-keeper-circle
+  - testimony-recording-session
+- slug: hand-over-the-reasons
+  title: Hand Over the Reasons
+  goal: Tasks, relationships, open matters and the reasons behind past decisions, with the dissent, pass to the successor, and so
+    does the access to systems.
+  step: succession-and-role-transition/role-handover
+  touchpoints:
+  - handover-file
+  - handover-meeting
+- slug: leave-fairly
+  title: Leave Fairly
+  goal: Final pay, pension and any share in a commons fund or cooperative are settled, with a clear record of what the employee keeps
+    and what returns to the city.
+  step: succession-and-role-transition/fair-exit
+  touchpoints:
+  - exit-settlement-statement
+  - exit-conversation
+- slug: go-on-contributing
+  title: Go On Contributing
+  goal: The retired employee goes on as a mentor, knowledge keeper or volunteer, and the succession plan is updated for the next cycle.
+  step: succession-and-role-transition/continued-contribution
+  touchpoints:
+  - continued-contribution-invitation

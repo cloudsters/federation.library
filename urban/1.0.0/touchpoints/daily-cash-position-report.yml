@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: daily-cash-position-report
+title: Daily Cash Position Report
+medium: artefact
+summary: The treasury's daily statement of the city's cash across its bank accounts, with the forecast of receipts and payments over
+  the coming months.
+exchanges:
+- cash-forecast-for-payment-schedules
+journey: finance-officer-keeping-the-city-able-to-pay

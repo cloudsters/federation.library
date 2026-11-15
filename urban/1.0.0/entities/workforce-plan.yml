@@ -1,0 +1,77 @@
+kind: entity
+slug: workforce-plan
+title: Workforce Plan
+type: governance
+summary: The plan approved by the council of the staff, skills and AI agents each department needs over the term, with targets for
+  recruitment, apprenticeships, local hiring, succession and automation and the work that stays with a person. The personnel function
+  drafts it with departments and staff representatives, and it is used to fund positions, to open vacancies and to check actual staffing
+  each quarter.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: departments-covered
+  type: reference(department)
+  card: 1..*
+- name: positions-planned
+  type: reference(position)
+  card: 0..*
+- name: recruitment-targets
+  type: text
+  card: 0..*
+- name: apprenticeship-targets
+  type: integer
+  card: 0..1
+- name: local-hiring-targets
+  type: text
+  card: 0..*
+- name: automation-targets
+  type: text
+  card: 0..*
+- name: work-that-stays-with-a-person
+  type: text
+  card: 0..*
+- name: forecast
+  type: reference(workforce-forecast)
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- mandated
+- drafted
+- consulted
+- approved
+- published
+- in-force
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: medium-term-financial-plan
+- type: based-on
+  target: workforce-forecast
+- type: refers-to
+  target: municipal-budget
+- type: governed-by
+  target: council-decision
+- type: composed-of
+  target: position
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-239
+  edition: '2016'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: activity-accounts-for-a-fuller-profile
+title: Activity Accounts for a Fuller Profile
+between:
+- resident
+- city-administration
+offered:
+- Residents' accounts of how they move and what keeps them from it.
+returned:
+- An activity profile that shows who is left out and why.
+touchpoint: neighbourhood-activity-survey

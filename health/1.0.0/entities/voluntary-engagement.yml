@@ -1,0 +1,47 @@
+kind: entity
+slug: voluntary-engagement
+title: Voluntary Engagement
+type: transactional
+summary: A person's unpaid or honorary engagement with the organisation outside employment, as a volunteer, patient partner, patient
+  council member, patient advocate or peer supporter, with its role, agreement, preparation, supervising unit and period.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: engagement-kind
+  type: code
+  card: 1..1
+- name: role-description
+  type: text
+  card: 1..1
+- name: supervising-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: agreement
+  type: document
+  card: 0..1
+- name: screening-completed
+  type: boolean
+  card: 0..1
+- name: preparation
+  type: reference(course)
+  card: 0..*
+- name: period
+  type: period
+  card: 1..1
+states:
+- enquired
+- screened
+- prepared
+- active
+- paused
+- ended
+relations:
+- type: assigned-to
+  target: organisation-unit
+- type: governed-by
+  target: policy
+binds:
+- source: src-511
+  edition: '2017'
+  jurisdiction: global

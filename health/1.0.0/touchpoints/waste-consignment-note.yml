@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: waste-consignment-note
+title: Waste Consignment Note
+medium: artefact
+summary: The document that accompanies hazardous or clinical waste from the commons to its treatment or disposal, recording type,
+  quantity, carrier and destination, and returns as proof of proper disposal.
+exchanges:
+- declared-waste-for-proper-disposal
+journey: ward-team-relying-on-building-services

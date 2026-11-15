@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-dispute-desk
+title: Neighbourhood Dispute Desk
+medium: channel
+summary: The point in a neighbourhood building, and online, where any resident can bring a dispute or harm and have it assessed for
+  safety, urgency and the right step.
+exchanges:
+- dispute-account-for-a-safe-route
+journey: resident-resolving-a-dispute-with-a-neighbour

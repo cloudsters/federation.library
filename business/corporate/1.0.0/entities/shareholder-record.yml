@@ -1,0 +1,49 @@
+kind: entity
+slug: shareholder-record
+title: Shareholder Record
+type: master
+summary: An ownership participant — a stakeholder who has invested capital and expects the organisation to steward it wisely, requiring
+  transparent communication and fair returns.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: share-class
+  type: code
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: contact-details
+  type: text
+  card: 0..*
+- name: folio
+  type: identifier
+  card: 0..1
+states:
+- subscribed
+- holding
+- communicated-to
+- transferred
+- exited
+relations:
+- type: refers-to
+  target: organization
+- type: refers-to
+  target: board-of-directors
+- type: refers-to
+  target: report
+- type: refers-to
+  target: stakeholder
+- type: part-of
+  target: shareholder-register
+binds:
+- source: src-150
+  edition: '2020'
+  jurisdiction: global
+- source: src-101
+  edition: '2023'
+  jurisdiction: global

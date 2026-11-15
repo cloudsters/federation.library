@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: theatre-planning-meeting
+title: Theatre Planning Meeting
+medium: encounter
+summary: The meeting in which theatre management and the surgical and anaesthesia departments allocate sessions, fix the coming lists
+  and review how sessions were used.
+exchanges:
+- sessions-for-committed-use
+journey: surgeon-theatre-journey

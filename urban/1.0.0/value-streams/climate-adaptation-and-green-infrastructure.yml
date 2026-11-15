@@ -1,0 +1,131 @@
+kind: value-stream
+slug: climate-adaptation-and-green-infrastructure
+title: Climate Adaptation and Green Infrastructure
+family: acquire-to-retire
+summary: Adapting the city's infrastructure to heat, heavy rain, flooding and erosion, and turning hard surfaces into green, shaded
+  ground that holds water. It holds the assessment of how exposed each asset and neighbourhood is, adaptation options weighed with
+  residents up to planned retreat from the most exposed land, the removal of paving and the building of sponge surfaces and blue-green
+  corridors, trees planted where shade is most lacking, slopes, riverbanks and shorelines protected with living and built defences,
+  and the care and monitoring of what was built until it holds.
+trigger: The asset plan or the risk register shows an asset or neighbourhood exposed to heat, flood or erosion, or a flood, heat wave
+  or landslide reveals one.
+outcome: Exposed assets and neighbourhoods are adapted, sealed ground is opened, the canopy grows where shade was lacking, and the
+  defences are cared for and monitored.
+stakeholders:
+- asset-officer
+- infrastructure-operator
+- resident
+- affected-community
+- informal-settlement-resident
+- neighbourhood-association
+- landowner
+- young-people
+- future-generations
+steps:
+- slug: asset-exposure-assessment
+  title: Asset Exposure Assessment
+  summary: The asset office and the operators assess how heat, heavy rain, flooding and erosion threaten each class of asset and each
+    neighbourhood, using the hazard maps, past floods and the knowledge of residents who live with them.
+  capabilities:
+  - asset-climate-exposure-assessment
+  - hazard-and-vulnerability-mapping
+  entities:
+  - climate-exposure-assessment
+  - flood-risk-map
+  - flood-event
+  - infrastructure-asset
+  serves:
+  - flood-and-heat-exposure-walk
+  - published-asset-exposure-map
+- slug: adaptation-options-with-residents
+  title: Adaptation Options with Residents
+  summary: With the residents of exposed neighbourhoods the city weighs protecting, raising, making room for water or, where nothing
+    else will hold, planned retreat with fair buyouts, shares the cost fairly and records the choice in an adaptation plan.
+  capabilities:
+  - adaptation-option-appraisal
+  - involvement-planning
+  - risk-treatment-planning
+  entities:
+  - adaptation-plan
+  - climate-action-plan
+  serves:
+  - adaptation-options-forum
+  - planned-retreat-counselling
+- slug: paving-removal-and-sponge-surfaces
+  title: Paving Removal and Sponge Surfaces
+  summary: Sealed yards, car parks, squares and streets are opened and rebuilt as permeable ground, rain gardens and swales that hold
+    and slowly release rain, often with residents and pupils who then help to maintain them.
+  capabilities:
+  - paving-removal-and-sponge-surfaces
+  - wastewater-and-stormwater-handling
+  entities:
+  - green-infrastructure-element
+  - street
+  - public-space
+  serves:
+  - greened-schoolyard
+  - paving-removal-day
+- slug: tree-planting-where-shade-is-lacking
+  title: Tree Planting Where Shade Is Lacking
+  summary: The city maps canopy and heat by neighbourhood and plants diverse, climate-ready trees first where shade is most lacking,
+    with residents who choose the places and help plant them.
+  capabilities:
+  - canopy-gap-mapping
+  - tree-planting-organisation
+  entities:
+  - urban-forest
+  - tree-inventory
+  - tree-planting
+  serves:
+  - published-canopy-and-heat-map
+  - tree-planting-day
+- slug: slope-riverbank-and-shoreline-protection
+  title: Slope, Riverbank and Shoreline Protection
+  summary: Unstable slopes, eroding riverbanks and exposed shorelines are protected with planting, restored wetlands and living edges
+    where they suffice and with built defences where they do not, together with the communities who use them.
+  capabilities:
+  - erosion-protection-works
+  - adaptation-option-appraisal
+  entities:
+  - flood-and-erosion-defence
+  - waterway
+  - land-parcel
+  serves:
+  - living-edge-work-day
+  - slope-and-bank-works-site
+- slug: blue-green-corridors
+  title: Blue-Green Corridors
+  summary: Walking and cycling routes and former rail and industrial corridors are built as blue-green corridors that carry people,
+    store floodwater, cool the air and link habitats.
+  capabilities:
+  - blue-green-corridor-construction
+  - green-and-blue-network-planning
+  entities:
+  - green-infrastructure-element
+  - street
+  - waterway
+  serves:
+  - blue-green-corridor-route
+  - corridor-design-walk
+- slug: establishment-care-and-monitoring
+  title: Establishment Care and Monitoring
+  summary: Young trees and new green and defensive works are watered and tended until established, often under care agreements with
+    residents, and their performance in heat and storms is monitored and fed back into the asset plan.
+  capabilities:
+  - tree-establishment-care
+  - adaptation-performance-monitoring
+  - shared-place-care-agreement-drafting
+  entities:
+  - tree-inventory
+  - green-infrastructure-element
+  - place-care-agreement
+  - biodiversity-index
+  serves:
+  - after-storm-performance-check
+  - greened-schoolyard
+  - place-care-agreement-meeting
+  - young-tree-watering-rota
+binds:
+- source: src-640
+  edition: '2026'
+  jurisdiction: global

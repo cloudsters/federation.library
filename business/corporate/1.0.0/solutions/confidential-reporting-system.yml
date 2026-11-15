@@ -1,0 +1,11 @@
+kind: solution
+slug: confidential-reporting-system
+title: Confidential Reporting System
+role: system-of-record
+summary: Receives reports of misconduct in confidence, anonymously where the reporter wishes, protects the reporter, and carries each
+  case through acknowledgement, investigation and feedback.
+carries:
+- anti-corruption-and-conflicts-of-interest
+- whistleblower-protection
+holds:
+- compliance-case

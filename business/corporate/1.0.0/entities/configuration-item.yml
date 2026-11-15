@@ -1,0 +1,49 @@
+kind: entity
+slug: configuration-item
+title: Configuration Item
+type: master
+summary: A named element in the system’s topology — a server, application, service, network device, or any component whose state and
+  relationships matter for understanding how the whole works. The CI is the smallest unit of operational awareness.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: ci-type
+  type: code
+  card: 1..1
+- name: owner
+  type: reference(department)
+  card: 0..1
+- name: depends-on-items
+  type: reference(configuration-item)
+  card: 0..*
+- name: parent-item
+  type: reference(configuration-item)
+  card: 0..1
+- name: version
+  type: identifier
+  card: 0..1
+states:
+- discovered
+- classified
+- related
+- in-service
+- changed
+- retired
+relations:
+- type: depends-on
+  target: configuration-item
+- type: part-of
+  target: configuration-item
+- type: refers-to
+  target: incident
+- type: refers-to
+  target: change-request
+- type: refers-to
+  target: asset
+- type: refers-to
+  target: service
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

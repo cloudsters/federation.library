@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: agent-work-for-a-bounded-mandate
+title: Agent Work for a Bounded Mandate
+between:
+- municipal-ai-agent
+- city-administration
+offered:
+- The agent's work on the tasks its mandate gives it, with a record of each.
+returned:
+- A written mandate with tasks, limits and escalation points, renewed, changed or ended at review.
+touchpoint: written-agent-mandate

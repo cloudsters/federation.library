@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fare-for-travel-priced-to-shift-pay
+title: Fare for Travel Priced to Shift Pay
+between:
+- night-shift-worker
+- city-council
+offered:
+- The fares workers pay and their regular use of the network at night.
+returned:
+- One ticket across modes at a fare set to shift-worker pay, reduced or free for those on low incomes.
+touchpoint: fare-and-concession-card

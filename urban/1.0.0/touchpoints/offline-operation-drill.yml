@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: offline-operation-drill
+title: Offline Operation Drill
+medium: encounter
+summary: The drill in which staff, neighbourhood volunteers and emergency services run essential services without the central systems
+  and record what fails.
+exchanges:
+- mesh-network-for-a-role-in-the-plan
+- drill-capacity-for-tested-fallbacks
+journey: neighbourhood-association-keeping-essential-services-working-offline

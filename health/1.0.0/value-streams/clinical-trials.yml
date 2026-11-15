@@ -1,0 +1,161 @@
+kind: value-stream
+slug: clinical-trials
+title: Clinical Trials
+family: demand-to-fulfillment
+summary: 'Conducting interventional clinical studies, investigator-initiated or sponsored: feasibility, approvals, site start-up,
+  participant recruitment, conduct and monitoring, data management, close-out and registration of results.'
+trigger: An investigator proposes a study protocol, or a sponsor offers a study to the site.
+outcome: The trial is completed to protocol with participants protected, data locked, and results registered and reported.
+stakeholders:
+- research-participant
+- clinician-scientist
+- clinical-research-coordinator
+- clinical-pharmacist
+- research-manager
+- industry-partner
+- research-funder
+- research-ethics-committee
+- health-regulator
+steps:
+- slug: protocol-and-feasibility
+  title: Protocol and Feasibility
+  summary: For a trial initiated by the organisation's own investigators the protocol is designed with statistical and sponsor support;
+    for a sponsored trial the site tests scientific fit, eligible patients, competing studies and capacity before accepting.
+  capabilities:
+  - trial-feasibility-and-start-up
+  - investigator-initiated-trial-sponsorship
+  - research-question-development
+  - biostatistics-support
+  - real-world-data-provisioning
+  entities:
+  - research-study
+  - study-protocol
+  - dataset
+  serves:
+  - funding-proposal
+  - study-protocol
+- slug: approvals-and-contracts
+  title: Approvals and Contracts
+  summary: The sponsor, or the organisation where it sponsors the trial itself, obtains ethics, regulatory and data protection approval
+    and registers the trial publicly before the first enrolment, and the site contract and per-participant budget with the sponsor
+    or funder are agreed.
+  capabilities:
+  - ethics-committee-governance
+  - privacy-impact-management
+  - industry-research-contracting
+  - grant-award-administration
+  - clinical-trial-management
+  entities:
+  - study-review
+  - contract
+  - research-grant
+  - data-processing-record
+  serves:
+  - research-collaboration-agreement
+  - study-register-entry
+- slug: site-start-up
+  title: Site Start-Up
+  summary: 'The site is initiated: trial tasks are delegated to trained staff, investigational products are received and stored, study
+    procedures are set up in clinical systems, and the site is cleared to enrol.'
+  capabilities:
+  - trial-feasibility-and-start-up
+  - investigational-product-management
+  - clinical-system-configuration
+  - competence-validation
+  entities:
+  - research-study
+  - investigational-product
+  - credential
+  - practitioner-role
+  serves:
+  - hospital-pharmacy
+  - sponsor-site-visit
+- slug: recruitment-and-consent
+  title: Recruitment and Consent
+  summary: Eligible patients are identified in clinics and records, informed in plain language, given time to decide, and consented,
+    screened and enrolled or randomised.
+  capabilities:
+  - trial-participant-recruitment
+  - research-consent-management
+  - decision-aids-and-health-literacy
+  - interpreting-and-language-services
+  entities:
+  - participant-enrolment
+  - informed-consent
+  - data-use-consent
+  - patient
+  serves:
+  - clinical-workstation
+  - consent-form
+  - consultation
+  - participant-information-sheet
+  - study-data-capture
+- slug: trial-conduct-and-safety
+  title: Trial Conduct and Safety
+  summary: Participants attend visits on schedule, receive the intervention and give samples and data; adverse events are recorded
+    and assessed, serious ones reach the sponsor promptly for reporting to the authority and ethics committee, and study-only services
+    are billed to sponsor or grant, not the payer.
+  capabilities:
+  - clinical-trial-management
+  - investigational-product-management
+  - trial-safety-reporting
+  - specimen-collection-and-pre-analytics
+  entities:
+  - study-visit
+  - investigational-product
+  - study-adverse-event
+  - specimen
+  - medication-administration
+  serves:
+  - clinical-trial-unit
+  - sponsor-site-visit
+  - study-data-capture
+  - study-visit
+- slug: monitoring-and-data-management
+  title: Monitoring and Data Management
+  summary: Monitors verify study data against source records, data queries are resolved, audits and inspections are answered, and
+    the trial database is cleaned and locked.
+  capabilities:
+  - study-monitoring-and-data-management
+  - research-data-collection
+  - data-quality-management
+  - audit-lifecycle-management
+  - pseudonymisation-and-record-linkage
+  entities:
+  - dataset
+  - health-record
+  - audit
+  - audit-finding
+  serves:
+  - inspection-and-audit
+  - sponsor-site-visit
+  - study-data-capture
+- slug: close-out-and-results
+  title: Close-Out and Results
+  summary: The site is closed out, products are reconciled and records archived; results are analysed, entered in the public register,
+    published whether positive or negative, and shared with participants.
+  capabilities:
+  - clinical-trial-management
+  - research-data-analysis
+  - research-publication
+  - record-retention-and-archiving
+  - grant-award-administration
+  entities:
+  - research-study
+  - publication
+  - dataset
+  - investigational-product
+  serves:
+  - patient-portal
+  - sponsor-site-visit
+  - study-register-entry
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-516
+  edition: '2025'
+  jurisdiction: global
+- source: src-521
+  edition: '2025'
+  jurisdiction: global

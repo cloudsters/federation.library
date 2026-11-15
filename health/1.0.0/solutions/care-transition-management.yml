@@ -1,0 +1,33 @@
+kind: solution
+slug: care-transition-management
+title: Care Transition Management
+role: system-of-record
+summary: 'Plans and coordinates the handover of patients to the next care provider: discharge readiness, follow-on care, rehabilitation
+  and social care arrangements, and named continuity coordination across units and providers.'
+carries:
+- discharge-readiness-assessment
+- discharge-execution
+- patient-discharge-education
+- care-transition-coordination
+- nursing-transfer-handover
+- social-care-coordination
+- readmission-prevention
+- rehabilitation-needs-assessment
+- rehabilitation-referral
+- rehabilitation-provider-coordination
+- interhospital-transfer
+- post-discharge-follow-up
+- clinical-social-work
+holds:
+- care-transition
+- continuity-facilitator-mandate
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

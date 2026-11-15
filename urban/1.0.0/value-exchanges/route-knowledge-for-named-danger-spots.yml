@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: route-knowledge-for-named-danger-spots
+title: Route Knowledge for Named Danger Spots
+between:
+- parent-or-guardian
+- city-planner
+offered:
+- The knowledge of parents, children and elders of where their routes feel and are unsafe.
+returned:
+- Danger spots named on the map beside the recorded collisions and placed first in the safety schemes.
+touchpoint: safe-route-walk

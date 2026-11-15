@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: press-enquiry-line
+title: Press Enquiry Line
+medium: channel
+summary: The line and address through which any journalist reaches a named spokesperson of the city and receives an answer within
+  a stated time.
+exchanges:
+- questions-for-complete-answers
+journey: journalist-getting-answers-from-the-city

@@ -1,0 +1,128 @@
+kind: value-stream
+slug: digital-infrastructure-and-connectivity
+title: Digital Infrastructure and Connectivity
+family: portfolio-to-system
+summary: Providing the networks the city and its residents depend on as shared utilities, with public fibre, wireless and sensor networks
+  owned by the city or by neighbourhoods and their cooperatives, open to service providers on fair terms and kept in repair. It holds
+  the mapping of where connectivity is missing or unaffordable, the planning and building of public and community networks, the terms
+  on which others use them, and the placing of sensors in the city.
+trigger: The digital strategy or a connectivity gap mapping shows neighbourhoods without affordable, reliable access, a network needs
+  renewal, or a neighbourhood proposes its own network.
+outcome: Every neighbourhood has affordable, reliable connectivity over networks held as commons, open to providers on published terms
+  and kept in repair.
+stakeholders:
+- resident
+- neighbourhood-association
+- community-network-operator
+- infrastructure-operator
+- technology-supplier
+- local-business
+- city-planner
+- affected-community
+steps:
+- slug: connectivity-gap-mapping
+  title: Connectivity Gap Mapping
+  summary: The administration and neighbourhood bodies map where residents lack affordable, reliable access, by neighbourhood and
+    group, together with the existing fibre routes, masts and private networks.
+  capabilities:
+  - connectivity-gap-mapping
+  - equity-audit
+  - community-asset-mapping
+  entities:
+  - digital-network
+  - neighbourhood
+  - gis-layer
+  serves:
+  - connectivity-gap-map
+  - connectivity-survey
+- slug: public-network-planning
+  title: Public Network Planning
+  summary: The backbone and last-mile networks are planned with the neighbourhoods, deciding which parts the city holds and which
+    neighbourhood cooperatives own and run, and laying them alongside street, utility and capital works already planned.
+  capabilities:
+  - public-network-planning
+  - community-network-support
+  - capital-investment-planning
+  - cross-boundary-agreement-handling
+  entities:
+  - digital-network
+  - community-network
+  - capital-investment-plan
+  serves:
+  - network-planning-workshop
+  - street-works-coordination-meeting
+- slug: network-ownership-and-access-terms
+  title: Network Ownership and Access Terms
+  summary: Network assets are placed in public or community trusts that keep them commons, and the terms on which providers use the
+    backbone are agreed and published, with the same price and conditions for all.
+  capabilities:
+  - network-access-agreement-drafting
+  - owner-mandate-setting
+  - contract-review
+  entities:
+  - network-access-agreement
+  - public-asset-register
+  - contract
+  serves:
+  - network-trust-agreement
+  - published-network-access-terms
+- slug: network-build-and-connection
+  title: Network Build and Connection
+  summary: Fibre, wireless and mesh networks are built in coordinated stages with other works in the street, and homes, community
+    places and public buildings are connected, beginning with the neighbourhoods least served.
+  capabilities:
+  - network-build-coordination
+  - delivery-partner-selection
+  - community-network-support
+  entities:
+  - digital-network
+  - community-network
+  - construction-phase
+  serves:
+  - connection-request-desk
+  - home-connection-visit
+  - street-works-coordination-meeting
+- slug: sensor-placement
+  title: Sensor Placement
+  summary: Sensors and meters the city needs for its services are placed only for a declared purpose approved in the open, entered
+    in the register of automated systems and connected to the network.
+  capabilities:
+  - sensor-deployment
+  - automated-decision-oversight
+  entities:
+  - sensor
+  - automated-system-register
+  - digital-network
+  serves:
+  - sensor-approval-hearing
+  - sensor-notice-plate
+- slug: network-upkeep-and-renewal
+  title: Network Upkeep and Renewal
+  summary: Operators keep the networks in repair and report faults and outages by neighbourhood, and the city funds their renewal
+    from its upkeep plan rather than after failure.
+  capabilities:
+  - network-upkeep
+  - upkeep-cost-assessment
+  - system-monitoring
+  entities:
+  - digital-network
+  - infrastructure-repair
+  - public-asset-register
+  serves:
+  - network-fault-line
+  - network-performance-report
+- slug: network-review-with-neighbourhoods
+  title: Network Review with Neighbourhoods
+  summary: Community assemblies at neighbourhood, district and city level review in regular cycles the access, price and reliability
+    of the networks, and decide on extensions and changes to the access terms.
+  capabilities:
+  - community-network-support
+  - resident-hearing
+  - network-access-agreement-drafting
+  entities:
+  - community-network
+  - network-access-agreement
+  - public-consultation
+  serves:
+  - network-performance-report
+  - network-review-assembly

@@ -1,0 +1,26 @@
+kind: journey
+slug: works-council-taking-part-in-a-strategy-review
+title: Works Council Taking Part in a Strategy Review
+stakeholder: works-council
+summary: The works council brings the workforce's view into the assessment, is consulted on the target organisation before it is fixed
+  and helps carry the strategy to the staff.
+stages:
+- slug: bring-the-workforce-view
+  title: Bring the Workforce View
+  goal: The skills, workload and concerns of the workforce enter the assessment of the organisation's own capacities.
+  step: strategy-as-living-design/environment-and-capability-assessment
+  touchpoints:
+  - strategy-retreat
+  - works-council-meeting
+- slug: be-consulted-on-the-structure
+  title: Be Consulted on the Structure
+  goal: Planned changes to structure, sites and outsourcing are reported early enough for the council's opinion to shape them.
+  step: strategy-as-living-design/target-organisation-design
+  touchpoints:
+  - works-council-meeting
+- slug: carry-the-strategy-to-staff
+  title: Carry the Strategy to Staff
+  goal: Staff hear what the strategy means for their work from management and their representatives together.
+  step: strategy-as-living-design/strategy-communication
+  touchpoints:
+  - staff-assembly

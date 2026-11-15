@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: service-status-page
+title: Service Status Page
+medium: channel
+summary: The public page that shows whether each digital service is running, the faults being repaired and the changes planned.
+exchanges:
+- release-notice-for-reported-problems
+journey: resident-getting-help-with-a-digital-service

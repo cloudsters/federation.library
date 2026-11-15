@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: say-in-the-plan-for-one-coordinator
+title: Say in the Plan for One Coordinator
+between:
+- disabled-resident
+- social-worker
+offered:
+- Their say in who does what and when.
+returned:
+- One plan they hold, with one person who coordinates it and whom they can call.
+touchpoint: care-planning-meeting

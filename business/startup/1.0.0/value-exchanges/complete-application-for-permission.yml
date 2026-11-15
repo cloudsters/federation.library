@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complete-application-for-permission
+title: Complete Application for Permission
+between:
+- site-manager
+- local-authority
+offered:
+- A complete application stating use, design, impacts and the measures proposed.
+returned:
+- A timely decision and a permit with clear conditions.
+touchpoint: official-inspection

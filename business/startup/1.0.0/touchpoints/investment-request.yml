@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: investment-request
+title: Investment Request
+medium: artefact
+summary: The request for a capital project with its business case, lifecycle cost, risk and contribution to purpose.
+exchanges:
+- investment-case-for-committed-funds
+journey: unit-leader-requesting-a-capital-investment

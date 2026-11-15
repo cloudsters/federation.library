@@ -1,0 +1,10 @@
+kind: capability
+slug: teleradiology
+title: Teleradiology
+level: L3
+parent: diagnostic-imaging
+summary: Read images at a distance to secure round-the-clock coverage across sites and partners.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global

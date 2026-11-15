@@ -1,0 +1,41 @@
+kind: entity
+slug: calendar-event
+title: Calendar Event
+type: transactional
+summary: A shared moment in time — when participants agree to be present together, whether for decision, collaboration, or celebration.
+  The calendar event is the system’s way of honouring that the most valuable exchanges happen in real time.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: time-window
+  type: period
+  card: 1..1
+- name: participants
+  type: reference(employee-record)
+  card: 0..*
+- name: external-participants
+  type: text
+  card: 0..*
+- name: location
+  type: text
+  card: 0..1
+- name: agenda
+  type: text
+  card: 0..1
+- name: recurrence
+  type: code
+  card: 0..1
+- name: outcomes
+  type: text
+  card: 0..1
+states:
+- proposed
+- invited
+- confirmed
+- declined
+- occurred
+- cancelled
+relations:
+- type: refers-to
+  target: employee-record

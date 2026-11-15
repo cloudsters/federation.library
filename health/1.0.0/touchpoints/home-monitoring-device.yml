@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: home-monitoring-device
+title: Home Monitoring Device
+medium: artefact
+summary: The device at the patient's home that measures vital signs or symptoms and transmits them to the team that monitors and responds
+  to them.
+exchanges:
+- home-readings-for-timely-response
+- coordinated-care-for-enrolled-patients
+journey: living-with-coordinated-care

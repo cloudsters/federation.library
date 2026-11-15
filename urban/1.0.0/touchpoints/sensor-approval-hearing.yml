@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: sensor-approval-hearing
+title: Sensor Approval Hearing
+medium: encounter
+summary: The open hearing in which the purpose and data of a proposed sensor are put to residents before it is approved.
+exchanges:
+- declared-purpose-for-heard-objections
+journey: resident-getting-affordable-connectivity

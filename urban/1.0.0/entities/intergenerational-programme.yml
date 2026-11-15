@@ -1,0 +1,59 @@
+kind: entity
+slug: intergenerational-programme
+title: Intergenerational Programme
+type: transactional
+summary: A programme that brings young people, families and older residents together for learning, mentoring or care, with its place,
+  partners and those who take part. The partner who runs it records it, together with the city where the city funds it, and it is
+  used to see what knowledge and care passed between the ages.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: programme-kind
+  type: code
+  card: 1..1
+- name: place
+  type: reference(community-centre|park|school)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: partners
+  type: text
+  card: 1..*
+- name: age-groups
+  type: code
+  card: 1..*
+- name: participant-count
+  type: integer
+  card: 0..1
+- name: schedule
+  type: text
+  card: 1..1
+- name: programme-period
+  type: period
+  card: 1..1
+- name: funding
+  type: reference(community-grant)
+  card: 0..1
+- name: results
+  type: text
+  card: 0..*
+states:
+- proposed
+- planned
+- running
+- paused
+- completed
+- ended
+relations:
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: school
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-grant
+- type: produces
+  target: lesson-record

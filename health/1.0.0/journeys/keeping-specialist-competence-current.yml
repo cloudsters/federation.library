@@ -1,0 +1,36 @@
+kind: journey
+slug: keeping-specialist-competence-current
+title: Keeping Specialist Competence Current
+stakeholder: specialist-physician
+summary: A specialist meets the continuing education obligation of the profession and keeps up the competence behind the privileges
+  held, alongside full clinical duties.
+stages:
+- slug: agree-learning-goals
+  title: Agree Learning Goals
+  goal: Agree learning goals that serve the specialty, the privileges held and the department.
+  step: professional-development/appraisal-and-plan
+  touchpoints:
+  - appraisal-meeting
+- slug: attend-certified-learning
+  title: Attend Certified Learning
+  goal: Attend certified learning inside and outside the organisation with protected time.
+  step: professional-development/learning-offer
+  touchpoints:
+  - course-catalogue
+  - scientific-meeting
+  - learning-platform
+  - simulation-centre
+- slug: evidence-the-credits
+  title: Evidence the Credits
+  goal: Have credits recorded and recognised towards recertification without duplicate effort.
+  step: professional-development/credits-and-records
+  touchpoints:
+  - participation-certificate
+  - professional-register
+  - hr-self-service
+- slug: show-current-competence
+  title: Show Current Competence
+  goal: Show current competence when privileges are reviewed.
+  step: professional-development/development-review
+  touchpoints:
+  - appraisal-meeting

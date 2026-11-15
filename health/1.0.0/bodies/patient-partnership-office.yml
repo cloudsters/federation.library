@@ -1,0 +1,11 @@
+kind: body
+slug: patient-partnership-office
+title: Patient Partnership Office
+summary: 'Makes patients partners in their care: consent standards, patient rights, shared decision-making, health literacy,
+  interpreting, self-management support, patient experience measurement, complaints and support for relatives and visitors.'
+holds:
+- information-and-consent
+- patient-experience
+part_of: executive-board
+type: function
+form: organisational-unit

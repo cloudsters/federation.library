@@ -1,0 +1,58 @@
+kind: entity
+slug: care-pathway
+title: Care Pathway
+type: governance
+summary: A standardised, evidence-based sequence of care activities for a defined patient group, such as hip replacement or acute
+  stroke, with time targets and decision points, from which individual care plans are derived.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: target-population
+  type: text
+  card: 1..1
+- name: stages
+  type: document
+  card: 1..1
+- name: time-targets
+  type: text
+  card: 0..*
+- name: guidelines
+  type: reference(clinical-guideline)
+  card: 0..*
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- draft
+- approved
+- in-force
+- under-review
+- withdrawn
+relations:
+- type: based-on
+  target: clinical-guideline
+- type: governed-by
+  target: policy
+binds:
+- source: src-030
+  edition: 2.0.0
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-031
+  edition: '2021'
+  jurisdiction: global

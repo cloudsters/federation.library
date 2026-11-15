@@ -1,0 +1,144 @@
+kind: value-stream
+slug: it-service-operations
+title: IT Service Operations
+family: portfolio-to-system
+summary: 'Running the digital services that care and the enterprise depend on around the clock: monitoring, availability, capacity,
+  backup, change and release, and user support for incidents and requests.'
+trigger: A service enters operation, a monitoring event is detected, or a user reports an incident or request.
+outcome: Services meet their agreed availability and response levels, and every incident and request is resolved.
+stakeholders:
+- registered-nurse
+- specialist-physician
+- administrative-staff
+- head-of-clinical-department
+- health-informatics-specialist
+- supplier
+- clinical-engineer
+steps:
+- slug: service-definition-and-levels
+  title: Service Definition and Levels
+  summary: Enter each service in the catalogue with its owner, criticality for care, support hours, service levels and recovery objectives,
+    and map the applications and infrastructure it depends on.
+  capabilities:
+  - it-service-management-strategy
+  - it-service-level-management
+  - configuration-and-service-topology
+  - business-continuity-design
+  entities:
+  - it-service
+  - application
+  - organisation-unit
+  - contract
+  serves:
+  - service-catalogue
+  - service-review-meeting
+- slug: monitoring-and-capacity
+  title: Monitoring and Capacity
+  summary: Monitor availability, performance and capacity of services, networks and data centres around the clock, run backup and
+    redundancy, and plan capacity ahead of demand.
+  capabilities:
+  - it-operations
+  - infrastructure-administration
+  - infrastructure-planning
+  - network-and-communication-infrastructure
+  - technology-resilience-operations
+  entities:
+  - it-service
+  - application
+  - asset
+  - service-ticket
+  serves:
+  - service-status-notice
+- slug: service-desk-intake
+  title: Service Desk Intake
+  summary: Receive disruptions and requests from users and from monitoring, identify the caller, classify each ticket by impact on
+    care and urgency, and resolve at first contact where possible.
+  capabilities:
+  - it-user-support
+  - incident-problem-resolution
+  - identity-access-management
+  entities:
+  - service-ticket
+  - identity
+  - it-service
+  serves:
+  - it-service-desk
+- slug: resolution-and-fulfilment
+  title: Resolution and Fulfilment
+  summary: Restore disrupted services through escalation to specialist teams and suppliers, invoke fallback procedures in major disruptions,
+    and fulfil requests for access, equipment and configuration.
+  capabilities:
+  - incident-problem-resolution
+  - it-operations
+  - clinical-downtime-procedures
+  - degraded-mode-governance
+  - supplier-relationship-stewardship
+  - identity-access-management
+  entities:
+  - service-ticket
+  - it-service
+  - access-grant
+  - contract
+  - supplier-organisation
+  serves:
+  - it-service-desk
+  - service-status-notice
+- slug: change-and-release
+  title: Change and Release
+  summary: Pass every change, patch and release through risk and impact assessment, schedule it outside care-critical times, implement
+    it with a rollback plan and verify the result.
+  capabilities:
+  - it-change-and-release-governance
+  - configuration-and-service-topology
+  - solution-maintenance
+  - deployment-strategy
+  - vulnerability-management
+  entities:
+  - change-request
+  - application
+  - it-service
+  serves:
+  - change-advisory-board
+  - service-status-notice
+- slug: problem-and-continuity-management
+  title: Problem and Continuity Management
+  summary: Analyse recurring disruptions for their root causes, remove them through changes, and test the recovery of critical services
+    in planned exercises.
+  capabilities:
+  - incident-problem-resolution
+  - it-continuity-management
+  - resilience-testing-evolution
+  - root-cause-analysis
+  entities:
+  - service-ticket
+  - change-request
+  - emergency-preparedness-plan
+  - corrective-action
+  serves:
+  - service-review-meeting
+- slug: service-level-review
+  title: Service Level Review
+  summary: Report performance against service levels to units and suppliers at a regular cadence, evaluate supplier performance and
+    agree improvements.
+  capabilities:
+  - it-service-level-management
+  - supplier-performance-evaluation
+  - it-service-management-strategy
+  - process-improvement
+  entities:
+  - measure-report
+  - it-service
+  - contract
+  - corrective-action
+  serves:
+  - service-review-meeting
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-077
+  edition: '2025'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

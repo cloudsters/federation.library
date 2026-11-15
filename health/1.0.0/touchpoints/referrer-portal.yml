@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: referrer-portal
+title: Referrer Portal
+medium: channel
+summary: The digital channel through which practices and hospitals refer patients, request transfers, follow the progress
+  of their patients and receive results and letters.
+exchanges:
+- complete-referral-for-a-timely-decision
+- new-service-for-appropriate-referrals
+- referral-for-timely-handback
+- referral-data-for-coded-findings
+- access-transparency-for-referrers
+- service-information-for-referrers
+- service-change-notice
+journey: neighbouring-hospital-dividing-the-region

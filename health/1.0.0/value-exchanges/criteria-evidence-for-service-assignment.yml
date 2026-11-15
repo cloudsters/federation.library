@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: criteria-evidence-for-service-assignment
+title: Criteria Evidence for Service Assignment
+between:
+- executive
+- health-planning-authority
+offered:
+- The executive offers evidence that the new service meets the staffing, equipment and quality criteria of its service group
+  and answers a need in the region.
+returned:
+- The authority returns the assignment of the service group to the site, on which the permission to provide and be paid for
+  the service depends.
+touchpoint: care-mandate-decision

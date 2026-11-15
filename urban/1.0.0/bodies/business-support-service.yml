@@ -1,0 +1,19 @@
+kind: body
+slug: business-support-service
+title: Business Support Service
+summary: Assesses who starts and keeps businesses and what holds others back, advises founders at one point of contact in their language,
+  runs incubators and affordable workspace with the founders who use them, gives small loans through the city fund and community banks,
+  matches founders with mentors, sets support under time-limited terms and reviews after one, three and five years which enterprises
+  stand on their own.
+holds:
+- business-start-up-and-support
+- enterprise-need-assessment
+- business-advice-provision
+- incubation-and-workspace-provision
+- start-up-finance-provision
+- time-limited-support-setting
+- business-support-evaluation
+- mentor-matching
+part_of: economic-development-department
+type: function
+form: organisational-unit

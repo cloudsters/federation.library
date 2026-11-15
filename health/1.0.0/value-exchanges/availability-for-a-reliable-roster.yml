@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: availability-for-a-reliable-roster
+title: Availability for a Reliable Roster
+between:
+- registered-nurse
+- unit-manager
+offered:
+- Availability for shifts, nights, weekends and short-notice cover, and preferences stated in time.
+returned:
+- A roster published in time that respects preferences, working-time rules and safe staffing, and short-notice requests that are shared
+  fairly and compensated.
+touchpoint: duty-roster

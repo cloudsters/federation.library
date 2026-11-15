@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: cost-estimate
+title: Cost Estimate
+medium: artefact
+summary: The document stating the expected cost of a proposed treatment, its validity and contingencies, and the deposit or payment
+  guarantee required before the patient travels or is admitted.
+exchanges:
+- coordinated-care-for-guaranteed-commitment
+- itemised-account-for-payment-guarantee
+- transparent-bill-for-payment
+journey: paying-for-care-directly

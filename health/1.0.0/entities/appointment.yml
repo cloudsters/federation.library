@@ -1,0 +1,58 @@
+kind: entity
+slug: appointment
+title: Appointment
+type: transactional
+summary: A booked time at which a patient, one or more care professionals and the required room or equipment meet for a planned service.
+  It reserves capacity and becomes an encounter when the patient arrives.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: care-service
+  type: reference(care-service)
+  card: 1..1
+- name: scheduled-period
+  type: period
+  card: 1..1
+- name: schedule
+  type: reference(schedule)
+  card: 1..1
+- name: participants
+  type: reference(practitioner-role)
+  card: 0..*
+- name: room
+  type: reference(room)
+  card: 0..1
+- name: booking-channel
+  type: code
+  card: 0..1
+states:
+- proposed
+- booked
+- arrived
+- fulfilled
+- cancelled
+- no-show
+relations:
+- type: depends-on
+  target: schedule
+- type: based-on
+  target: request-for-care
+- type: produces
+  target: encounter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

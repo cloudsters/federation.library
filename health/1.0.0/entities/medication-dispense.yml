@@ -1,0 +1,55 @@
+kind: entity
+slug: medication-dispense
+title: Medication Dispense
+type: transactional
+summary: The preparation and issue of a medication by the pharmacy for a patient or a unit stock, including compounding and unit-dose
+  packaging, traceable to batch and expiry.
+attributes:
+- name: medication-order
+  type: reference(medication-order)
+  card: 0..1
+- name: medication
+  type: reference(medication)
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: batch
+  type: identifier
+  card: 0..1
+- name: expiry
+  type: date
+  card: 0..1
+- name: destination
+  type: reference(organisation-unit)
+  card: 0..1
+- name: dispensed-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: dispensed-at
+  type: datetime
+  card: 1..1
+states:
+- preparation
+- in-progress
+- completed
+- cancelled
+- declined
+relations:
+- type: based-on
+  target: medication-order
+- type: depends-on
+  target: inventory-item
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

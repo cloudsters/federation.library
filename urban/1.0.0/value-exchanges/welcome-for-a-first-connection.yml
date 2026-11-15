@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: welcome-for-a-first-connection
+title: Welcome for a First Connection
+between:
+- neighbourhood-association
+- resident
+offered:
+- A greeting, a welcome pack and introductions to neighbours.
+returned:
+- A new resident who knows someone and where people meet.
+touchpoint: new-neighbour-welcome-visit

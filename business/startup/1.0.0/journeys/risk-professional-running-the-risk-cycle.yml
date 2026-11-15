@@ -1,0 +1,53 @@
+kind: journey
+slug: risk-professional-running-the-risk-cycle
+title: Risk Professional Running the Risk Cycle
+stakeholder: legal-risk-and-compliance-professional
+summary: The risk professional renews the framework, gathers what threatens each unit and its suppliers, joins the views into one
+  profile, has treatments owned and watched, and reports the whole to the boards and lenders.
+stages:
+- slug: renew-the-framework
+  title: Renew the Framework
+  goal: Policy, categories, method, owners and thresholds are confirmed for the cycle and the board has stated its appetite.
+  step: risk-as-immune-response/risk-framework-and-appetite
+  touchpoints:
+  - risk-policy
+  - board-meeting
+- slug: gather-what-threatens
+  title: Gather What Threatens
+  goal: Every unit has named its risks, including those that enter through suppliers and the workarounds that signal an unmet need.
+  step: risk-as-immune-response/risk-identification
+  touchpoints:
+  - risk-workshop
+  - risk-register
+- slug: rate-and-join
+  title: Rate and Join
+  goal: Every risk is rated by the common method and the unit views form one profile of the whole.
+  step: risk-as-immune-response/risk-evaluation
+  touchpoints:
+  - risk-register
+  - risk-dashboard
+- slug: see-treatments-owned
+  title: See Treatments Owned
+  goal: Each risk beyond appetite has an owned treatment, whether control, reduction, transfer or a reasoned acceptance.
+  step: risk-as-immune-response/risk-treatment
+  touchpoints:
+  - risk-register
+  - insurance-renewal
+  - contract-negotiation
+- slug: watch-the-signals
+  title: Watch the Signals
+  goal: Signals on risks, controls and suppliers reach those who can act in time, and treatments are adjusted when a risk moves.
+  step: risk-as-immune-response/risk-monitoring
+  touchpoints:
+  - risk-dashboard
+  - supplier-portal
+  - supplier-audit
+- slug: report-the-whole
+  title: Report the Whole
+  goal: Boards and lenders have the profile and the state of treatment, and what one unit learnt is shared with the others.
+  step: risk-as-immune-response/risk-reporting-and-sharing
+  touchpoints:
+  - risk-report
+  - supervisory-board-meeting
+  - lender-review
+  - knowledge-base

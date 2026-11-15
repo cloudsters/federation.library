@@ -1,0 +1,46 @@
+kind: entity
+slug: crisis-plan
+title: Crisis Plan
+type: governance
+summary: Decisions taken in advance for breaks that are foreseeable but not scheduled — illness, job loss, a death, a household in
+  trouble. Its whole value is that it was written by a person who was not yet inside the event.
+attributes:
+- name: foreseeable-breaks
+  type: code
+  card: 1..*
+- name: first-moves
+  type: text
+  card: 1..*
+- name: who-does-what
+  type: text
+  card: 0..*
+- name: where-the-papers-are
+  type: text
+  card: 0..1
+- name: reserves
+  type: list(account)
+  card: 0..*
+- name: whom-to-call
+  type: text
+  card: 0..*
+- name: written-on
+  type: date
+  card: 1..1
+- name: last-tried
+  type: date
+  card: 0..1
+states:
+- imagined
+- agreed
+- tried
+- used
+- revised
+relations:
+- target: dependant-relation
+  type: about
+- target: account
+  type: depends-on
+- target: insurance-policy
+  type: depends-on
+- target: dependency-register
+  type: based-on

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: rest-and-amenity-request
+title: Rest and Amenity Request
+medium: channel
+summary: The route by which residents ask for seating, shade, shelter, drinking water, toilets or lighting where they are missing.
+exchanges:
+- rest-needs-for-places-to-stay
+journey: disabled-resident-finding-a-place-to-stay

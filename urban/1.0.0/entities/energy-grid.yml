@@ -1,0 +1,56 @@
+kind: entity
+slug: energy-grid
+title: Energy Grid
+type: master
+summary: The infrastructure that generates, carries and distributes electricity and heat in the city, with its owners and operators,
+  its capacity and its condition. The enterprise or operator that runs it keeps the record, and the city uses it to set the owner
+  mandate, plan upkeep and share the surplus with the communities that host its assets.
+attributes:
+- name: network-name
+  type: text
+  card: 1..1
+- name: energy-kinds
+  type: code
+  card: 1..*
+- name: operator
+  type: text
+  card: 1..1
+- name: owning-enterprise
+  type: reference(municipal-enterprise)
+  card: 0..1
+- name: coverage
+  type: document
+  card: 1..1
+- name: generation-capacity
+  type: quantity
+  card: 0..1
+- name: community-owned-share
+  type: decimal
+  card: 0..1
+- name: connected-households
+  type: integer
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: renewal-due-on
+  type: date
+  card: 0..1
+- name: asset-record
+  type: reference(public-asset-register)
+  card: 0..1
+states:
+- planned
+- built
+- operating
+- under-renewal
+- decommissioned
+relations:
+- type: part-of
+  target: city
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: gis-layer

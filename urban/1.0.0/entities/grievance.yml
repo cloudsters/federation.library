@@ -1,0 +1,61 @@
+kind: entity
+slug: grievance
+title: Grievance
+type: transactional
+summary: A grievance raised by a member of staff or a worker, from receipt through hearing and resolution to the fixing of its cause.
+  The personnel function records it and someone outside the line of the person who raised it hears it, and it is used to resolve the
+  matter and to change how the work is organised.
+attributes:
+- name: grievance-number
+  type: identifier
+  card: 1..1
+- name: raised-by
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 0..1
+- name: subject
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: heard-by
+  type: text
+  card: 0..1
+- name: staff-representative
+  type: text
+  card: 0..1
+- name: resolution
+  type: text
+  card: 0..1
+- name: cause-found
+  type: text
+  card: 0..1
+- name: cause-fixed-on
+  type: date
+  card: 0..1
+states:
+- received
+- under-hearing
+- in-mediation
+- resolved
+- cause-fixed
+- closed
+relations:
+- type: governed-by
+  target: staff-agreement
+- type: governed-by
+  target: mediation-protocol
+- type: refers-to
+  target: staff-record
+- type: produces
+  target: corrective-action
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-240
+  edition: '2021'
+  jurisdiction: global

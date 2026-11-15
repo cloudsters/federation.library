@@ -1,0 +1,32 @@
+kind: journey
+slug: member-of-the-public-judging-the-company
+title: Member of the Public Judging the Company
+stakeholder: general-public
+summary: A member of the public forms a view from the company's own account, from what the press reports and from its conduct in the
+  community, rates it openly and sees that ratings are read and answered.
+stages:
+- slug: read-the-companys-story
+  title: Read the Company's Story
+  goal: The person finds a truthful account of what the company does and stands for, including what is unfinished.
+  step: public-narrative-presence/narrative-and-message-strategy
+  touchpoints:
+  - website
+- slug: follow-the-news
+  title: Follow the News
+  goal: The person learns of real developments through reporting based on accurate announcements.
+  step: public-narrative-presence/release-and-media-relations
+  touchpoints:
+  - press-release
+- slug: see-the-company-show-up
+  title: See the Company Show Up
+  goal: The person sees the company present and contributing where people gather, with support reported openly.
+  step: public-narrative-presence/community-presence
+  touchpoints:
+  - community-sponsorship
+  - open-day
+- slug: rate-and-be-answered
+  title: Rate and Be Answered
+  goal: The person's rating or review is read, answered in public and, where it reveals a fault, fed back into operations.
+  step: public-narrative-presence/reputation-monitoring-and-response
+  touchpoints:
+  - public-ratings-and-reviews

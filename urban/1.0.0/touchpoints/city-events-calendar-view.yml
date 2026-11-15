@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: city-events-calendar-view
+title: City Events Calendar View
+medium: channel
+summary: The public view of the city's one calendar of events across the year and the neighbourhoods, in which proposals take a date.
+exchanges:
+- proposal-for-a-place-in-the-calendar
+journey: event-organiser-holding-a-first-festival

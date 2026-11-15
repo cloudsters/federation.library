@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: request-for-quotation
+title: Request for Quotation
+medium: artefact
+summary: The customer's request, with specification, quantities, dates and commercial terms, to which the company responds with an
+  offer and through which it is compared with competitors.
+exchanges:
+- defined-works-for-safe-delivery
+- fair-tender-for-an-honest-offer
+- need-disclosure-for-a-fitting-offer
+journey: customer-journey

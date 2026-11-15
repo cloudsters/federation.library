@@ -1,0 +1,52 @@
+kind: entity
+slug: curriculum
+title: Curriculum
+type: governance
+summary: The binding definition of what learners in a programme must learn and be able to do, ordered into phases with outcomes, competencies,
+  courses, rotations and assessments, and approved by the responsible faculty body.
+attributes:
+- name: education-programme
+  type: reference(education-programme)
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: learning-outcomes
+  type: text
+  card: 1..*
+- name: competencies
+  type: reference(competency)
+  card: 1..*
+- name: professional-activities
+  type: reference(entrustable-professional-activity)
+  card: 0..*
+- name: structure
+  type: document
+  card: 1..1
+- name: approved-by
+  type: reference(governance-body)
+  card: 1..1
+states:
+- draft
+- approved
+- in-force
+- under-revision
+- withdrawn
+relations:
+- type: part-of
+  target: education-programme
+- type: refers-to
+  target: competency
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-071
+  edition: '2005'
+  jurisdiction: global
+- source: src-413
+  edition: '1.1'
+  jurisdiction: global
+- source: src-420
+  edition: '2013'
+  jurisdiction: global

@@ -1,0 +1,65 @@
+kind: entity
+slug: lesson-record
+title: Lesson Record
+type: intelligence
+summary: A recorded lesson from a programme or district, what worked, what failed and what must change. The owner of the programme
+  or district records it with residents, and it is shared with other cities and returned to the next strategy.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: source-kind
+  type: code
+  card: 1..1
+- name: programme
+  type: reference(city-programme)
+  card: 0..1
+- name: development-project
+  type: reference(development-project)
+  card: 0..1
+- name: what-worked
+  type: text
+  card: 0..*
+- name: what-failed
+  type: text
+  card: 0..*
+- name: required-changes
+  type: text
+  card: 0..*
+- name: recorded-with
+  type: text
+  card: 1..*
+- name: recorded-on
+  type: date
+  card: 1..1
+- name: shared-with
+  type: text
+  card: 0..*
+- name: returned-to
+  type: reference(city-strategy)
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- captured
+- validated
+- published
+- shared
+- applied
+- archived
+relations:
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: development-project
+- type: refers-to
+  target: oversight-report
+- type: refers-to
+  target: city-strategy
+- type: produces
+  target: public-record
+binds:
+- source: src-198
+  edition: '2022-07-06'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: point-of-service-feedback
+title: Point-of-Service Feedback
+medium: channel
+summary: The short feedback gathered where a service is delivered, in person, by phone or online, and passed to those who run it.
+exchanges:
+- service-feedback-for-a-listening-service
+journey: resident-met-by-a-service-failure

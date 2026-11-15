@@ -1,0 +1,11 @@
+kind: solution
+slug: shared-workspace
+title: Shared Workspace
+role: institution
+sovereignty: third-party
+summary: A rented desk, studio or workshop among others who work, away from home.
+carries:
+- arranging-a-place-for-work
+- finding-room-for-the-work
+holds:
+- workspace

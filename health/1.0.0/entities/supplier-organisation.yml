@@ -1,0 +1,40 @@
+kind: entity
+slug: supplier-organisation
+title: Supplier Organisation
+type: master
+summary: An organisation that supplies goods or services to the organisation, such as medicines, devices, consumables, maintenance
+  or catering, with its qualification, contracts and performance.
+attributes:
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: supplier-identifier
+  type: identifier
+  card: 1..1
+- name: categories
+  type: code
+  card: 1..*
+- name: qualification-status
+  type: code
+  card: 1..1
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+- name: performance-rating
+  type: code
+  card: 0..1
+states:
+- prospective
+- qualified
+- active
+- blocked
+- inactive
+relations:
+- type: refers-to
+  target: organisation
+- type: governed-by
+  target: contract
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

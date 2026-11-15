@@ -1,0 +1,54 @@
+kind: entity
+slug: story-consent
+title: Story Consent
+type: transactional
+summary: The record of how a teller agreed their story may be framed, attributed and reused, by whom and for how long, and of any
+  withdrawal. The resident body of the story archive records it with the teller, and every publication or reuse of the story by the
+  city, researchers, funders or developers is checked against it.
+attributes:
+- name: story
+  type: identifier
+  card: 1..1
+- name: archive
+  type: reference(story-archive)
+  card: 0..1
+- name: teller
+  type: text
+  card: 1..1
+- name: agreed-framing
+  type: text
+  card: 1..1
+- name: attribution
+  type: code
+  card: 1..1
+- name: permitted-uses
+  type: code
+  card: 1..*
+- name: permitted-users
+  type: text
+  card: 0..*
+- name: valid-period
+  type: period
+  card: 0..1
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: reuse-requests
+  type: text
+  card: 0..*
+- name: withdrawn-on
+  type: date
+  card: 0..1
+states:
+- requested
+- agreed
+- in-use
+- expired
+- withdrawn
+relations:
+- type: part-of
+  target: story-archive
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: public-communication

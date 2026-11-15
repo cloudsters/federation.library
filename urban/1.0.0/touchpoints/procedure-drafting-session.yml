@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: procedure-drafting-session
+title: Procedure Drafting Session
+medium: encounter
+summary: The session in which a validated pattern is carried into a standard procedure for the services where its conditions hold,
+  with room left for local adaptation.
+exchanges:
+- local-adaptation-for-procedures-that-hold
+journey: city-administration-curating-a-practice-pattern

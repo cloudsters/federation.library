@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: research-data-portal
+title: Research Data Portal
+medium: channel
+summary: The channel through which researchers find available data and samples, test feasibility on aggregate figures and submit access
+  requests.
+exchanges:
+- curated-data-for-faithful-use
+journey: answering-a-question-from-data

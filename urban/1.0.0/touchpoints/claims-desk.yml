@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: claims-desk
+title: Claims Desk
+medium: channel
+summary: The channel through which residents and businesses file a claim against the city or raise a dispute, and follow its assessment.
+exchanges:
+- claim-for-fair-compensation
+- dispute-for-mediated-repair
+journey: local-business-meeting-the-rules-of-the-city

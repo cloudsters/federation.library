@@ -1,0 +1,68 @@
+kind: entity
+slug: wayfinding-element
+title: Wayfinding Element
+type: master
+summary: A landmark, textured paving, sound cue, colour code, mural or sign that helps people find their way at a decision point.
+  The city records where each stands and who looks after it, and it is checked in access audits.
+attributes:
+- name: element-kind
+  type: code
+  card: 1..1
+- name: location
+  type: document
+  card: 1..1
+- name: decision-point
+  type: text
+  card: 0..1
+- name: street
+  type: reference(street)
+  card: 0..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: senses
+  type: code
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: story
+  type: text
+  card: 0..1
+- name: map
+  type: reference(wayfinding-map)
+  card: 0..1
+- name: cared-for-by
+  type: text
+  card: 1..1
+- name: installed-on
+  type: date
+  card: 0..1
+- name: last-checked
+  type: date
+  card: 0..1
+states:
+- proposed
+- designed
+- installed
+- in-use
+- damaged
+- removed
+relations:
+- type: part-of
+  target: street
+- type: refers-to
+  target: building
+- type: based-on
+  target: wayfinding-map
+- type: refers-to
+  target: access-audit
+- type: refers-to
+  target: civic-memory-record
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-250
+  edition: '2021'
+  jurisdiction: global

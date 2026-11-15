@@ -1,0 +1,36 @@
+kind: journey
+slug: community-land-trust-keeping-homes-and-land-in-the-community
+title: Community Land Trust Keeping Homes and Land in the Community
+stakeholder: community-land-trust
+summary: A community land trust maps its homes and plots due for transfer, records residents' designation of successors to affordable
+  homes at the covenant price in witnessed declarations, records use rights passing at life events with the claims of women and widows
+  protected and reports each year how many stayed in the community.
+stages:
+- slug: map-what-is-due-for-transfer
+  title: Map What Is Due for Transfer
+  goal: The homes and plots of the trust due for transfer are mapped neighbourhood by neighbourhood.
+  step: enterprise-and-tenure-succession/succession-need-mapping
+  touchpoints:
+  - succession-need-map
+- slug: witness-the-designation
+  title: Witness the Designation
+  goal: Residents of the homes of the trust designate their successors in a witnessed declaration, and the successor takes over at
+    the price the covenant sets.
+  step: enterprise-and-tenure-succession/home-succession
+  touchpoints:
+  - witnessed-declaration
+  - covenant-price-statement
+- slug: pass-the-use-right
+  title: Pass the Use Right
+  goal: Use rights pass at life events by a witnessed transfer recorded beside the land registry, with their obligations attached
+    and the claims of women and widows protected.
+  step: enterprise-and-tenure-succession/land-use-right-transfer
+  touchpoints:
+  - witnessed-declaration
+  - use-right-transfer-entry
+- slug: report-what-stayed
+  title: Report What Stayed
+  goal: The trust reports which homes and plots stayed in the community and which were sold away, as part of the city's yearly review.
+  step: enterprise-and-tenure-succession/succession-review
+  touchpoints:
+  - succession-review-report

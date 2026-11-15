@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: consultation-report
+title: Consultation Report
+medium: artefact
+summary: The written answer of a consulted specialty or a case conference, with the findings reviewed, the recommendation, its rationale
+  and who acts on it.
+exchanges:
+- case-for-a-joint-recommendation
+- preferences-for-an-explained-recommendation
+journey: referring-hospital-case-conference-journey

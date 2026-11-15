@@ -1,0 +1,10 @@
+kind: capability
+slug: labour-and-birth-care
+title: Labour & Birth Care
+level: L3
+parent: maternal-and-child-health
+summary: Care for mothers and newborns during labour and birth, including obstetric emergencies.
+binds:
+- source: src-580
+  edition: '2017'
+  jurisdiction: global

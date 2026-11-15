@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: owner-report
+title: Owner Report
+medium: artefact
+summary: The periodic report to the owner on finances, activity, quality, workforce, investments and risks, and any report the owner
+  requests on a specific matter.
+exchanges:
+- accountability-for-ownership
+journey: holding-the-organisation-to-account

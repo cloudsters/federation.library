@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: call-for-help-for-the-right-responder
+title: Call for Help for the Right Responder
+between:
+- resident
+- emergency-service
+offered:
+- The caller's account of what is happening and where.
+returned:
+- An answer at once in the caller's language and the right responder sent, with the response recorded.
+touchpoint: emergency-number

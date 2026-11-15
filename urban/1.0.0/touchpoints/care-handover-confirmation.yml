@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: care-handover-confirmation
+title: Care Handover Confirmation
+medium: artefact
+summary: The record by which the receiving service confirms that it has taken over a person's care on the agreed date, without which
+  the transition does not close.
+exchanges:
+- discharge-notice-for-care-ready-at-home
+journey: social-worker-joining-care-around-a-person

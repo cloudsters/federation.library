@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mediator-follow-up-call
+title: Mediator Follow-Up Call
+medium: channel
+summary: The call or visit by which the mediator checks back with each party that the agreement is kept, and returns a broken agreement
+  to the next step.
+exchanges:
+- follow-up-for-a-kept-agreement
+journey: resident-resolving-a-dispute-with-a-neighbour

@@ -1,0 +1,61 @@
+kind: entity
+slug: shared-mobility-scheme
+title: Shared Mobility Scheme
+type: master
+summary: A scheme of shared bikes, cargo bikes, cars or on-demand rides, with its operator, area, hours, fares and terms for riders
+  and workers. The transport office keeps the record whether the city, a cooperative or a licensed operator runs it, and uses it to
+  fill gaps where transit does not reach or does not run.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: vehicle-kinds
+  type: code
+  card: 1..*
+- name: operator
+  type: text
+  card: 1..1
+- name: operator-kind
+  type: code
+  card: 1..1
+- name: licence
+  type: reference(platform-licence)
+  card: 0..1
+- name: service-area
+  type: document
+  card: 1..1
+- name: operating-hours
+  type: text
+  card: 1..1
+- name: fleet-size
+  type: integer
+  card: 0..1
+- name: fares
+  type: text
+  card: 1..*
+- name: rider-terms
+  type: document
+  card: 1..1
+- name: worker-terms
+  type: document
+  card: 0..1
+- name: data-sharing
+  type: reference(data-sharing-agreement)
+  card: 0..1
+states:
+- proposed
+- licensed
+- operating
+- suspended
+- ended
+relations:
+- type: based-on
+  target: platform-licence
+- type: governed-by
+  target: mobility-plan
+- type: governed-by
+  target: data-sharing-agreement
+- type: refers-to
+  target: wage-floor-agreement
+- type: refers-to
+  target: neighbourhood

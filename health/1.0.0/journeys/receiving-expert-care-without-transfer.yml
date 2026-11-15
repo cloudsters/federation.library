@@ -1,0 +1,31 @@
+kind: journey
+slug: receiving-expert-care-without-transfer
+title: Receiving Expert Care Without Transfer
+stakeholder: critically-ill-patient
+summary: 'The patient''s side of a teleconsultation: specialist expertise brought to the local hospital near relatives, with transfer
+  only when it is truly needed.'
+stages:
+- slug: agreeing-to-remote-care
+  title: Agreeing to Remote Care
+  goal: Agree, personally or through a representative, to be assessed by a remote specialist and to have data shared between the hospitals.
+  step: telemedicine-network/teleconsultation-request
+  touchpoints:
+  - consent-form
+- slug: being-assessed-remotely
+  title: Being Assessed Remotely
+  goal: Be examined by the specialist by video together with the local team.
+  step: telemedicine-network/remote-assessment
+  touchpoints:
+  - telemedicine-service
+- slug: treatment-with-specialist-backing
+  title: Treatment with Specialist Backing
+  goal: Receive treatment decided with specialist input, without losing time.
+  step: telemedicine-network/remote-treatment-support
+  touchpoints:
+  - remote-ward-round
+- slug: moving-only-when-needed
+  title: Moving Only When Needed
+  goal: Be transferred to the specialist centre only when the care needed cannot be provided locally.
+  step: telemedicine-network/transfer-decision
+  touchpoints:
+  - referral-letter

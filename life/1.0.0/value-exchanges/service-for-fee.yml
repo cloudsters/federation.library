@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-for-fee
+title: Service for Fee
+between:
+- self
+- client
+offered:
+- a problem taken off someone's hands
+returned:
+- a fee and a reference
+touchpoint: client-meeting

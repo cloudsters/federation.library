@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: approval-workflow
+title: Approval Workflow
+medium: channel
+summary: The digital flow in which requests and commitments are checked against budget and authority and approved before they become
+  expenses.
+exchanges:
+- justified-request-for-quick-approval
+journey: employee-working-within-controls

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pattern-report-for-local-change
+title: Pattern Report for Local Change
+between:
+- city-administration
+- neighbourhood-association
+offered:
+- The dispute pattern report for the neighbourhood.
+returned:
+- Local changes, such as quiet hours or shared rules for a courtyard, that remove the causes.
+touchpoint: dispute-pattern-review-meeting

@@ -1,0 +1,50 @@
+kind: journey
+slug: resident-complaining-about-a-broken-promise
+title: Resident Complaining About a Broken Promise
+stakeholder: resident
+summary: A resident helps set the promises the city makes, complains when one is broken, learns which route the complaint takes, is
+  heard by someone not involved, receives a reasoned answer with a remedy and, when not satisfied, takes the matter directly to the
+  ombudsman.
+stages:
+- slug: help-set-the-promises
+  title: Help Set the Promises
+  goal: The resident has helped set the service guarantees and knows how to complain and how long each stage may take.
+  step: complaints-and-ombudsman/complaints-procedure-and-guarantees
+  touchpoints:
+  - service-guarantee-workshop
+  - published-complaints-procedure
+- slug: make-the-complaint
+  title: Make the Complaint
+  goal: The complaint is taken by the resident's chosen route and acknowledged within the published time, with the name of the person
+    who handles it.
+  step: complaints-and-ombudsman/complaint-intake-and-acknowledgement
+  touchpoints:
+  - any-route-complaint-channel
+  - complaint-acknowledgement-letter
+- slug: learn-its-route
+  title: Learn Its Route
+  goal: The resident knows whether the complaint is put right at once, investigated or passed to the misconduct or appeal route.
+  step: complaints-and-ombudsman/classification-and-routing
+  touchpoints:
+  - complaint-grading-meeting
+- slug: be-heard
+  title: Be Heard
+  goal: An officer not involved has heard the resident and the staff concerned and looked at the records.
+  step: complaints-and-ombudsman/complaint-investigation
+  touchpoints:
+  - complaint-investigation-hearing
+- slug: receive-answer-and-remedy
+  title: Receive Answer and Remedy
+  goal: The resident has a reasoned answer, an apology where the city was at fault and a remedy, with compensation paid without asking
+    where a guarantee was broken.
+  step: complaints-and-ombudsman/response-and-remedy
+  touchpoints:
+  - reasoned-response-letter
+  - automatic-compensation-notice
+- slug: take-it-to-the-ombudsman
+  title: Take It to the Ombudsman
+  goal: The resident, still not satisfied, has reached the ombudsman directly and received an independent decision.
+  step: complaints-and-ombudsman/ombudsman-review
+  touchpoints:
+  - ombudsman-complaint-desk
+  - ombudsman-remedy-order

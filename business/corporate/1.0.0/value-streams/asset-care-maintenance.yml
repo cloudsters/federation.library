@@ -1,0 +1,98 @@
+kind: value-stream
+slug: asset-care-maintenance
+title: Asset Care & Maintenance
+family: acquire-to-retire
+summary: 'Keeping productive assets, such as machines, buildings, vehicles, devices and measuring equipment, safe and available: sensing
+  their condition, planning preventive and mandatory work, repairing failures and learning from them to raise reliability.'
+trigger: A maintenance or inspection date falls due, a condition signal is raised, or an asset fails.
+outcome: The asset is safe and available for use, and its maintenance history is recorded.
+stakeholders:
+- maintenance-technician
+- production-operator
+- site-manager
+- external-specialist
+- occupational-safety-authority
+steps:
+- slug: maintenance-strategy
+  title: Maintenance Strategy
+  summary: Failure modes and criticality are analysed and a maintenance strategy is set for each asset, whether run to failure, by
+    schedule or by condition.
+  capabilities:
+  - reliability-engineering
+  - preventive-care-design
+  entities:
+  - asset
+  - equipment
+  - plan
+  serves:
+  - maintenance-plan
+- slug: condition-monitoring
+  title: Condition Monitoring
+  summary: Asset health is monitored through sensors, inspection rounds and operator reports, and signals of developing failure raise
+    maintenance requests in time.
+  capabilities:
+  - asset-condition-sensing
+  entities:
+  - equipment
+  - digital-twin-asset
+  - measure
+  - maintenance-request
+  serves:
+  - asset-condition-monitor
+  - inspection-round
+  - maintenance-request
+  - remote-service-connection
+- slug: planned-and-mandatory-maintenance
+  title: Planned and Mandatory Maintenance
+  summary: Preventive maintenance, calibration of measuring equipment and mandatory inspections of regulated assets and buildings
+    are scheduled, carried out and their findings closed.
+  capabilities:
+  - preventive-care-design
+  - planned-building-maintenance
+  - statutory-inspection
+  - calibration-management
+  entities:
+  - maintenance-request
+  - equipment
+  - facility
+  - quality-inspection
+  - audit-finding
+  serves:
+  - inspection-certificate
+  - maintenance-plan
+  - official-inspection
+  - planned-shutdown
+- slug: fault-response-and-repair
+  title: Fault Response and Repair
+  summary: Failures are reported, prioritised by safety and criticality, repaired with the right parts and skills, and the asset is
+    returned to service.
+  capabilities:
+  - responsive-maintenance
+  entities:
+  - maintenance-request
+  - repair-order
+  - incident
+  - item
+  serves:
+  - maintenance-request
+  - spare-parts-stock
+- slug: failure-analysis-and-reliability-review
+  title: Failure Analysis and Reliability Review
+  summary: Significant failures are analysed for their causes, maintenance history, availability and cost are reviewed per asset,
+    and strategies, schedules and designs are adjusted.
+  capabilities:
+  - reliability-engineering
+  - responsive-maintenance
+  - asset-register-management
+  entities:
+  - incident
+  - asset
+  - change-request
+  - kpi
+  serves:
+  - official-inspection
+  - root-cause-review
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

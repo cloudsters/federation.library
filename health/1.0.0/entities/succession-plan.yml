@@ -1,0 +1,42 @@
+kind: entity
+slug: succession-plan
+title: Succession Plan
+type: governance
+summary: The plan that secures a key position against vacancy, naming potential successors with their readiness and development actions,
+  and the interim arrangement if the position falls vacant before a successor is ready.
+attributes:
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: incumbent
+  type: reference(employee)
+  card: 0..1
+- name: vacancy-risk
+  type: code
+  card: 1..1
+- name: candidates
+  type: reference(employee)
+  card: 0..*
+- name: readiness
+  type: code
+  card: 0..*
+- name: development-actions
+  type: text
+  card: 0..*
+- name: interim-arrangement
+  type: text
+  card: 0..1
+- name: review-date
+  type: date
+  card: 1..1
+states:
+- draft
+- approved
+- active
+- executed
+- under-review
+relations:
+- type: refers-to
+  target: position
+- type: depends-on
+  target: appraisal

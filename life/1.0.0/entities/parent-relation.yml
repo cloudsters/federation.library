@@ -1,0 +1,36 @@
+kind: entity
+slug: parent-relation
+title: Parent Relation
+type: master
+summary: Someone who raised this person. The relation runs in two directions across a life and reverses somewhere in the middle, which
+  is why it appears again under `dependant`.
+attributes:
+- name: related-by
+  type: code
+  card: 1..1
+- name: living
+  type: boolean
+  card: 1..1
+- name: what-came-down
+  type: text
+  card: 0..*
+- name: unspoken-rules
+  type: text
+  card: 0..*
+- name: needs-care
+  type: boolean
+  card: 0..1
+- name: as-dependant
+  type: reference(dependant-relation)
+  card: 0..1
+states:
+- raising
+- alongside
+- ageing
+- cared for
+- remembered
+relations:
+- target: self
+  type: about
+- target: family-charter
+  type: based-on

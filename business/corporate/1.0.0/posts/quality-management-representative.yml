@@ -1,0 +1,13 @@
+kind: post
+slug: quality-management-representative
+title: Quality Management Representative
+summary: 'Keeps the quality management system effective and certified.'
+of: quality-management
+responsibility: Keeps the quality management system effective and certified, reports on its performance and leads audits and corrective
+  action.
+accountable: body:quality-management
+type: role
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

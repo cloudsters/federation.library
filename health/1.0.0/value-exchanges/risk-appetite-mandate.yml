@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: risk-appetite-mandate
+title: Risk Appetite Mandate
+between:
+- executive
+- owner
+offered:
+- A stated risk appetite and an honest picture of the risks the commons carries and how they are treated.
+returned:
+- Confirmation of the appetite, and decisions on risks that exceed what the executive may accept.
+touchpoint: audit-committee-meeting

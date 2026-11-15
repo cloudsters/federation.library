@@ -1,0 +1,52 @@
+kind: entity
+slug: patient-summary
+title: Patient Summary
+type: transactional
+summary: A concise, current extract of a patient's essential health information, such as problems, allergies, medication and implants,
+  compiled to be shared across providers and borders for unplanned or continuing care.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: health-issues
+  type: reference(health-issue)
+  card: 0..*
+- name: allergies
+  type: reference(allergy-or-intolerance)
+  card: 0..*
+- name: medication
+  type: reference(medication-order)
+  card: 0..*
+- name: implants
+  type: reference(implant)
+  card: 0..*
+- name: compiled-at
+  type: datetime
+  card: 1..1
+states:
+- compiled
+- validated
+- shared
+- withdrawn
+relations:
+- type: based-on
+  target: mandate-to-export-personal-information
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global

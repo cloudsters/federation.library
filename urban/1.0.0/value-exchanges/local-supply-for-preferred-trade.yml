@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: local-supply-for-preferred-trade
+title: Local Supply for Preferred Trade
+between:
+- local-business
+- event-organiser
+offered:
+- Food, goods and services from local suppliers.
+returned:
+- Preference in the event's purchasing and income kept in the city.
+touchpoint: fair-pay-and-benefit-agreement

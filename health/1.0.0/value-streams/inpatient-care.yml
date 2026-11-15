@@ -1,0 +1,219 @@
+kind: value-stream
+slug: inpatient-care
+title: Inpatient Care
+family: demand-to-fulfillment
+summary: 'Treating patients during a hospital stay: admission assessment, diagnostic synthesis, treatment planning, ward rounds, treatment
+  delivery, monitoring and continuous evaluation until the patient is ready for discharge.'
+trigger: A patient is admitted to a ward.
+outcome: The patient's condition is diagnosed and treated as planned, and the patient is ready for discharge or transfer.
+stakeholders:
+- elective-inpatient
+- emergency-patient
+- older-person-with-frailty
+- person-with-mental-illness
+- relative
+- specialist-physician
+- physician-in-specialty-training
+- registered-nurse
+- allied-health-professional
+- clinical-pharmacist
+- case-manager
+- documentation-agent
+- clinical-decision-support-agent
+- paediatric-patient
+- person-with-cancer
+- medical-student
+steps:
+- slug: ward-admission
+  title: Ward Admission
+  summary: The ward accepts responsibility for the patient, places them in a bed suited to their needs and isolation status, confirms
+    identity, allergies and alerts, and names the responsible physician and nurse for the stay.
+  capabilities:
+  - bed-coordination-and-placement
+  - patient-identification
+  - clinical-handover
+  - isolation-and-screening-management
+  entities:
+  - encounter
+  - bed-assignment
+  - care-period-mandate
+  - care-team
+  - clinical-alert
+  - allergy-or-intolerance
+  serves:
+  - identification-band
+  - isolation-room
+  - ward
+- slug: admission-assessment
+  title: Admission Assessment
+  summary: A structured history and examination are taken, medication is reconciled, risks are screened and older patients receive
+    a geriatric assessment, so that every problem to be addressed in the stay is on the problem list.
+  capabilities:
+  - clinical-history-taking
+  - physical-examination
+  - medication-reconciliation
+  - geriatric-assessment
+  - nursing-risk-screening
+  - clinical-documentation-at-point-of-care
+  - ambient-clinical-documentation
+  entities:
+  - health-issue
+  - observation
+  - medication-reconciliation
+  - risk-assessment
+  - care-needs-assessment
+  - clinical-document
+  serves:
+  - clinical-workstation
+  - consultation
+  - nursing-admission-interview
+- slug: diagnostic-synthesis
+  title: Diagnostic Synthesis
+  summary: Differential diagnoses are generated and narrowed through targeted investigations, laboratory, imaging and pathology findings
+    are integrated, and the working diagnosis is confirmed and recorded with its degree of certainty.
+  capabilities:
+  - differential-diagnosis-reasoning
+  - clinical-order-entry
+  - laboratory-test-stewardship
+  - finding-integration
+  - diagnosis-confirmation
+  - diagnostic-uncertainty-communication
+  - ai-assistant-integration
+  entities:
+  - clinical-order
+  - diagnostic-report
+  - observation
+  - diagnosis
+  - health-issue
+  serves:
+  - clinical-workstation
+  - consultation
+  - ward-round
+- slug: treatment-planning
+  title: Treatment Planning
+  summary: A plan of care is agreed with the patient that applies the relevant pathway, states goals, treatments, limits of treatment,
+    responsibilities and the expected date of discharge, and secures consent for each intervention and, where the patient is eligible
+    and willing, for participation in a trial.
+  capabilities:
+  - care-plan-determination
+  - clinical-pathway-application
+  - shared-decision-making-practice
+  - informed-consent
+  - advance-care-planning
+  - discharge-readiness-assessment
+  - trial-participant-recruitment
+  entities:
+  - care-plan
+  - care-goal
+  - care-pathway
+  - shared-decision
+  - informed-consent
+  - preference
+  - advance-directive
+  - participant-enrolment
+  serves:
+  - advance-care-planning-conversation
+  - advance-directive-document
+  - consultation
+  - family-meeting
+  - patient-decision-aid
+- slug: ward-rounds-and-treatment
+  title: Ward Rounds and Treatment
+  summary: Daily interprofessional ward rounds, joined by students and trainees who learn under supervision, review progress, adjust
+    the plan and set the tasks of the day, and treatments, medicines, therapies and consultations are ordered, delivered and documented.
+  capabilities:
+  - ward-rounds
+  - clinical-order-entry
+  - medication-prescribing
+  - interdisciplinary-consultation
+  - pain-management
+  - early-rehabilitation
+  - clinical-documentation-at-point-of-care
+  - bedside-teaching
+  - practice-supervision
+  entities:
+  - care-plan
+  - clinical-order
+  - medication-order
+  - procedure
+  - clinical-document
+  - teaching-session
+  serves:
+  - clinical-workstation
+  - medication-chart
+  - therapy-session
+  - ward-round
+- slug: specialised-treatment
+  title: Specialised Treatment
+  summary: Condition-specific treatment is delivered in specialised units and programmes under their own protocols, such as stroke
+    and chest-pain units, cancer therapy, psychiatric treatment with safeguards on coercion, and isolation care for high-consequence
+    infections.
+  capabilities:
+  - stroke-unit-care
+  - acute-cardiac-care
+  - systemic-cancer-therapy
+  - psychiatric-inpatient-care
+  - coercive-measure-safeguards
+  - high-consequence-infection-care
+  - rare-disease-care
+  - paediatric-care
+  entities:
+  - care-plan
+  - care-pathway
+  - procedure
+  - medication-administration
+  - authorization-by-law
+- slug: monitoring-and-escalation
+  title: Monitoring and Escalation
+  summary: Vital signs and early-warning scores are monitored, deterioration is escalated to rapid review or the outreach team, complications
+    such as infection are detected early, and responsibility is handed over between shifts.
+  capabilities:
+  - deterioration-recognition-and-response
+  - critical-care-outreach
+  - clinical-handover
+  - infection-surveillance
+  - predictive-analytics
+  - medical-device-integration
+  entities:
+  - observation
+  - prediction
+  - clinical-alert
+  - healthcare-associated-infection
+  - care-communication
+  serves:
+  - nurse-call
+  - observation-chart
+  - rapid-response-call
+  - shift-handover
+- slug: progress-evaluation
+  title: Progress Evaluation
+  summary: Progress against the care goals is evaluated, diagnosis and plan are revised where they fail, and once the goals of the
+    stay are met the patient is confirmed as medically ready for discharge or transfer.
+  capabilities:
+  - care-plan-determination
+  - finding-integration
+  - discharge-readiness-assessment
+  - clinical-outcome-tracking
+  - patient-reported-outcome-measurement
+  entities:
+  - care-goal
+  - care-plan
+  - diagnosis
+  - observation
+  - patient-reported-outcome
+  serves:
+  - family-meeting
+  - ward-round
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-512
+  edition: v3-2014
+  jurisdiction: global
+- source: src-532
+  edition: '2014'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: investment-proposal
+title: Investment Proposal
+medium: artefact
+summary: The business case for an investment in assets or sites, with need, options, lifecycle cost, funding and risks, on which leadership
+  and lenders decide.
+exchanges:
+- investment-case-for-funding-decision
+- sound-case-for-matched-financing
+- operator-insight-for-a-maintainable-design
+journey: site-manager-planning-the-sites-future

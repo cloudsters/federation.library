@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: council-proposal
+title: Council Proposal
+medium: artefact
+summary: The proposal put before the council, with evidence, alternatives, cost, the results of consultation and a statement of who
+  benefits and who bears the cost.
+exchanges:
+- consultation-views-for-a-weighed-proposal
+- evidence-for-a-reasoned-resolution
+journey: city-administration-taking-a-proposal-to-resolution

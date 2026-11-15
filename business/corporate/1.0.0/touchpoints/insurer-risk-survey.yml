@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: insurer-risk-survey
+title: Insurer Risk Survey
+medium: encounter
+summary: The visit of an insurer's risk engineer to the company's sites to assess hazards, controls and loss prevention before cover
+  is priced.
+exchanges:
+- transparent-risk-profile-for-fair-cover
+journey: insurer-pricing-cover-on-a-known-risk-profile

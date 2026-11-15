@@ -1,0 +1,108 @@
+kind: value-stream
+slug: change-as-evolution
+title: Change as Evolution
+family: portfolio-to-system
+summary: Carrying a tested solution or change into live use in small, reversible steps, grounded in how work really happens, with
+  the human transition planned alongside the technical cutover so that adoption is designed rather than assumed.
+trigger: A tested solution or change is ready for deployment.
+outcome: The change is deployed and adopted by its users without disruption to running services.
+stakeholders:
+- information-technology-specialist
+- employee
+- site-manager
+- works-council
+steps:
+- slug: deployment-strategy-setting
+  title: Deployment Strategy Setting
+  summary: The way the change will be introduced is chosen, whether as a single cutover, in phases or continuously, with its rollback
+    path.
+  capabilities:
+  - deployment-strategy-design
+  entities:
+  - plan
+  - change-request
+  serves:
+  - deployment-plan
+- slug: current-work-discovery
+  title: Current Work Discovery
+  summary: How work actually flows today is discovered from event data and observation, with respect for privacy, so that the transition
+    starts from reality.
+  capabilities:
+  - process-mining-discovery
+  entities:
+  - process-model
+  serves:
+  - process-walkthrough
+  - works-council-meeting
+- slug: transition-planning
+  title: Transition Planning
+  summary: The implementation plan, communication, training and support for the people affected are planned together with the technical
+    steps.
+  capabilities:
+  - change-management-as-care
+  - solution-rollout
+  entities:
+  - plan
+  - communication
+  - employee-record
+  serves:
+  - deployment-plan
+  - intranet
+  - staff-training
+  - works-council-meeting
+- slug: release-preparation
+  title: Release Preparation
+  summary: Releases are bundled, scheduled and checked for readiness, with dependencies, fallback and the operational handover prepared.
+  capabilities:
+  - release-orchestration
+  entities:
+  - change-request
+  - configuration-item
+  serves:
+  - go-live-readiness-review
+- slug: deployment-and-cutover
+  title: Deployment and Cutover
+  summary: The change is deployed into production, the operational availability of the affected services is confirmed, and the rollback
+    is used if needed.
+  capabilities:
+  - solution-go-live
+  - release-orchestration
+  entities:
+  - configuration-item
+  - it-service
+  - application
+  serves:
+  - go-live-readiness-review
+  - go-live-support
+- slug: adoption-support
+  title: Adoption Support
+  summary: Users are trained and accompanied through the transition, and their difficulties are answered until the new way of working
+    is established.
+  capabilities:
+  - solution-rollout
+  - change-management-as-care
+  entities:
+  - employee-record
+  - knowledge-article
+  - communication
+  serves:
+  - go-live-support
+  - staff-training
+- slug: post-deployment-review
+  title: Post-Deployment Review
+  summary: Stability, incidents and the actual flow of work after the change are reviewed, and the findings are fed back to the solution
+    and the next release.
+  capabilities:
+  - solution-go-live
+  - process-mining-discovery
+  entities:
+  - measure-report
+  - incident
+  - process-model
+  serves:
+  - post-deployment-review
+  - works-council-meeting
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

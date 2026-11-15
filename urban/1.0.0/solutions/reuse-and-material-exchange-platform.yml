@@ -1,0 +1,22 @@
+kind: solution
+slug: reuse-and-material-exchange-platform
+title: Reuse and Material Exchange Platform
+role: system-of-engagement
+summary: Lists the furniture, tools, vehicles and equipment shared across departments and neighbourhood bodies, takes requests to
+  borrow them, records reclaimed materials with their material passports and logs what suppliers take back and return to use.
+carries:
+- reuse-before-purchase-check
+- shared-equipment-pooling
+- reclaimed-material-sourcing
+- deconstruction-and-salvage
+- material-bank-operation
+- repair-point-support
+- remaking-hub-support
+holds:
+- equipment-pool
+- material-passport
+- take-back-record
+- material-bank
+- salvaged-material-lot
+- repair-point
+- remaking-hub

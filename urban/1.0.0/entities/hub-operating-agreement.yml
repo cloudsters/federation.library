@@ -1,0 +1,63 @@
+kind: entity
+slug: hub-operating-agreement
+title: Hub Operating Agreement
+type: governance
+summary: The agreement under which a neighbourhood, carriers, retailers, producers and workers run a hub, with schedules, allocations,
+  pay, safety and commission. The parties sign it and keep it together with the city, and it is used to settle slots, protect workers
+  who stop an unsafe schedule and cap what producers pay.
+attributes:
+- name: hub
+  type: reference(distribution-hub)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: decision-rules
+  type: text
+  card: 1..1
+- name: consolidation-schedule
+  type: text
+  card: 1..*
+- name: delivery-allocations
+  type: text
+  card: 0..*
+- name: worker-pay-floor
+  type: reference(wage-floor-agreement)
+  card: 0..1
+- name: safety-rules
+  type: text
+  card: 1..*
+- name: schedule-stop-right
+  type: text
+  card: 0..1
+- name: commission-cap
+  type: decimal
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- signed
+- in-force
+- reviewed
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: distribution-hub
+- type: based-on
+  target: wage-floor-agreement
+- type: governed-by
+  target: food-strategy
+- type: refers-to
+  target: direct-sales-agreement
+- type: refers-to
+  target: neighbourhood

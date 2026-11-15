@@ -1,0 +1,33 @@
+kind: journey
+slug: young-people-greening-their-school-and-street
+title: Young People Greening Their School and Street
+stakeholder: young-people
+summary: Pupils find where shade is lacking, open the paving of their schoolyard, plant trees in the places they chose and water them
+  until they are established.
+stages:
+- slug: find-where-shade-is-lacking
+  title: Find Where Shade Is Lacking
+  goal: The pupils know where their neighbourhood is hottest and has the least shade, and have chosen places for trees.
+  step: climate-adaptation-and-green-infrastructure/tree-planting-where-shade-is-lacking
+  touchpoints:
+  - published-canopy-and-heat-map
+- slug: open-the-schoolyard
+  title: Open the Schoolyard
+  goal: Paving in the schoolyard is broken up and rebuilt as permeable ground and rain gardens that hold rain.
+  step: climate-adaptation-and-green-infrastructure/paving-removal-and-sponge-surfaces
+  touchpoints:
+  - paving-removal-day
+  - greened-schoolyard
+- slug: plant-the-trees
+  title: Plant the Trees
+  goal: Diverse, climate-ready trees are planted in the places the pupils chose.
+  step: climate-adaptation-and-green-infrastructure/tree-planting-where-shade-is-lacking
+  touchpoints:
+  - tree-planting-day
+- slug: water-until-established
+  title: Water Until Established
+  goal: The young trees and rain gardens are watered and tended through the first dry summers.
+  step: climate-adaptation-and-green-infrastructure/establishment-care-and-monitoring
+  touchpoints:
+  - young-tree-watering-rota
+  - greened-schoolyard

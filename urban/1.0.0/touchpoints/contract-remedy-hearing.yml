@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contract-remedy-hearing
+title: Contract Remedy Hearing
+medium: encounter
+summary: A meeting in which the contract manager hears the supplier on a shortfall or a requested change and agrees a correction or
+  variation within what the contract allows.
+exchanges:
+- a-hearing-for-a-remedy-on-the-record
+journey: contract-manager-running-a-contract

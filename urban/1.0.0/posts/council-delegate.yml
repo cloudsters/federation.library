@@ -1,0 +1,9 @@
+kind: post
+slug: council-delegate
+title: Council Delegate
+summary: 'Carries the council''s mandate into the joint committee of neighbouring municipalities.'
+of: inter-municipal-joint-committee
+responsibility: A councillor sent by the council to the joint committee with neighbouring municipalities, bound by the council's mandate
+  and reporting back to it.
+accountable: body:full-council
+type: role

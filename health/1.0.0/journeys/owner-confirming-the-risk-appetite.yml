@@ -1,0 +1,20 @@
+kind: journey
+slug: owner-confirming-the-risk-appetite
+title: Owner Confirming the Risk Appetite
+stakeholder: owner
+summary: 'The owner''s side of enterprise risk: confirming the appetite the commons may accept, and receiving the risk profile
+  and the readiness of plans.'
+stages:
+- slug: confirming-the-appetite
+  title: Confirming the Appetite
+  goal: Confirm how much threat to the mandate the commons may accept, and who may accept more.
+  step: enterprise-risk-and-resilience/risk-framework-and-appetite
+  touchpoints:
+  - audit-committee-meeting
+- slug: receiving-the-risk-profile
+  title: Receiving the Risk Profile
+  goal: See the top risks, their treatment and the readiness of plans, and decide on risks beyond the executive's authority.
+  step: enterprise-risk-and-resilience/risk-oversight-reporting
+  touchpoints:
+  - audit-committee-meeting
+  - board-report

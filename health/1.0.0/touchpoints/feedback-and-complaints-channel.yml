@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: feedback-and-complaints-channel
+title: Feedback and Complaints Channel
+medium: channel
+summary: The channel through which patients and relatives give praise, raise concerns and make complaints, and through which
+  they receive an answer.
+exchanges:
+- concern-heard-and-answered
+- feedback-for-visible-change
+- response-to-public-reviews
+journey: relative-speaking-for-the-patient

@@ -1,0 +1,6 @@
+kind: capability
+slug: autopsy-services
+title: Autopsy Services
+level: L3
+parent: pathology-services
+summary: Perform clinical autopsies and feed the findings back to the treating clinicians.

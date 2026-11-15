@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: response-time-report
+title: Response Time Report
+medium: artefact
+summary: The yearly report of response times by neighbourhood, whether residents feel safer and the complaints about responders.
+exchanges:
+- complaints-and-verdict-for-changed-practice
+journey: resident-calling-for-help

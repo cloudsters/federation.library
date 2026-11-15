@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: sales-assistant-agent
+title: Sales Assistant Agent
+nature: agent
+stance: serving
+summary: An AI agent that qualifies enquiries, researches prospects, drafts offers and follow-ups and keeps customer records current,
+  for sales staff to review and send.
+seeks:
+- Current product, price and customer data, and clear boundaries on what it may promise.
+brings:
+- Faster responses to customers and more time for sales staff to spend with them.
+represented_by:
+- agent
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

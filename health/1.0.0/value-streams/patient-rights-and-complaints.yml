@@ -1,0 +1,139 @@
+kind: value-stream
+slug: patient-rights-and-complaints
+title: Patient Rights and Complaints
+family: interest-to-relationship
+summary: 'Upholding patient rights and resolving complaints: information on rights, independent patient advocates, complaint intake,
+  investigation, response and the learning drawn from complaints.'
+trigger: A patient or relative raises a complaint or asserts a right.
+outcome: The complaint is answered within the set period, the patient is informed of the result, and resulting improvements are recorded.
+stakeholders:
+- elective-inpatient
+- relative
+- patient-advocate
+- administrative-staff
+- head-of-clinical-department
+- executive
+- health-regulator
+steps:
+- slug: intake-and-acknowledgement
+  title: Intake and Acknowledgement
+  summary: Receive a complaint or a rights request through any channel, record it and acknowledge it within the set time, offer the
+    help of the patient advocate and of an interpreter, and settle on the spot what the team can settle.
+  capabilities:
+  - complaint-management
+  - patient-rights-stewardship
+  - patient-advocacy
+  - patient-contact-centre
+  - interpreting-and-language-services
+  entities:
+  - complaint
+  - care-information-request
+  - patient
+  - related-person
+  serves:
+  - feedback-and-complaints-channel
+  - interpreting-service
+  - patient-advocate-office
+  - patient-portal
+  - ward
+- slug: classification-and-routing
+  title: Classification and Routing
+  summary: Classify the matter by subject and severity, send requests for record access, correction or a second opinion to their own
+    procedures, pass any harm event to safety review and any claim for compensation to claims handling, and name an owner and a deadline.
+  capabilities:
+  - complaint-management
+  - data-subject-rights-fulfilment
+  - health-information-release
+  - second-opinion-access
+  - incident-reporting-and-learning
+  - medical-liability-claims-management
+  - clinical-risk-sensing
+  entities:
+  - complaint
+  - care-information-request
+  - incident
+  - liability-claim
+  serves:
+  - feedback-and-complaints-channel
+  - patient-portal
+- slug: investigation
+  title: Investigation
+  summary: Hear the complainant fully, review the record with the patient's permission where a relative complains, obtain the accounts
+    of the staff involved, analyse causes where care fell short, and support the staff named in the complaint.
+  capabilities:
+  - complaint-management
+  - root-cause-analysis
+  - health-record-management
+  - patient-advocacy
+  - staff-support-after-adverse-events
+  entities:
+  - complaint
+  - health-record
+  - clinical-document
+  - adverse-event
+  - case-review
+  serves:
+  - complaint-resolution-meeting
+- slug: response-and-resolution
+  title: Response and Resolution
+  summary: Answer in writing or in a meeting with what was found, an apology where it is due, open disclosure where harm occurred
+    and what will change, fulfil the right asserted, and state where the complainant can turn if not satisfied.
+  capabilities:
+  - complaint-management
+  - open-disclosure
+  - health-information-release
+  - data-subject-rights-fulfilment
+  - second-opinion-access
+  - legal-advisory
+  entities:
+  - complaint
+  - care-information-request
+  - adverse-event
+  serves:
+  - complaint-resolution-meeting
+  - complaint-response-letter
+  - patient-portal
+  - record-copy
+- slug: escalation-and-external-review
+  title: Escalation and External Review
+  summary: Where the complainant remains dissatisfied, offer independent review or mediation by the patient advocate, cooperate fully
+    with an external complaints body, regulator or court, and carry out what it requires.
+  capabilities:
+  - patient-advocacy
+  - dispute-and-litigation
+  - medical-liability-claims-management
+  - regulatory-reporting
+  - compliance-assurance
+  entities:
+  - complaint
+  - liability-claim
+  - compliance-obligation
+  - corrective-action
+  serves:
+  - complaint-response-letter
+  - inspection-and-audit
+  - patient-advocate-office
+- slug: learning-and-improvement
+  title: Learning and Improvement
+  summary: Analyse complaints by theme, unit and severity together with incidents and experience results, report patterns to unit
+    heads and the board, assign corrective actions and check that they work, and tell complainants what changed.
+  capabilities:
+  - complaint-management
+  - clinical-risk-sensing
+  - non-conformance-management
+  - process-improvement
+  - board-communication-reporting
+  - improvement-sustainment
+  entities:
+  - complaint
+  - corrective-action
+  - measure-report
+  - improvement-initiative
+  serves:
+  - board-meeting
+  - complaint-response-letter
+  - public-website
+binds:
+- source: src-599
+  edition: '2016'
+  jurisdiction: global

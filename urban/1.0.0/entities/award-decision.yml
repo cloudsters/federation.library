@@ -1,0 +1,64 @@
+kind: entity
+slug: award-decision
+title: Award Decision
+type: transactional
+summary: The reasoned decision to award a contract, with the scores of every bid, the reasons, the level that decided under delegation,
+  the standstill period and any challenge. The procurement office prepares it and the office holder or body the delegation names decides
+  it, and it is told to every bidder and published once final.
+attributes:
+- name: procurement
+  type: reference(public-procurement)
+  card: 1..1
+- name: successful-bids
+  type: reference(bid)
+  card: 1..*
+- name: decided-by
+  type: text
+  card: 1..1
+- name: delegation
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 1..1
+- name: award-value
+  type: amount
+  card: 1..1
+- name: reasons
+  type: text
+  card: 1..1
+- name: score-summary
+  type: document
+  card: 1..1
+- name: standstill-period
+  type: period
+  card: 0..1
+- name: challenges
+  type: text
+  card: 0..*
+- name: challenge-outcome
+  type: code
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- prepared
+- decided
+- notified
+- in-standstill
+- challenged
+- final
+- published
+- withdrawn
+relations:
+- type: refers-to
+  target: public-procurement
+- type: based-on
+  target: bid
+- type: governed-by
+  target: decision-rights-register
+- type: produces
+  target: contract
+- type: produces
+  target: public-record

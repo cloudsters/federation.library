@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: letter-of-claim
+title: Letter of Claim
+medium: artefact
+summary: The written claim with which a patient, a family or their lawyer asks the commons for explanation and compensation
+  for harm attributed to care.
+exchanges:
+- fair-claim-resolution
+- claims-handling-partnership
+journey: harmed-person-seeking-redress

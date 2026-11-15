@@ -1,0 +1,39 @@
+kind: entity
+slug: waste-consignment
+title: Waste Consignment
+type: transactional
+summary: One handover of separated waste from the organisation to a licensed carrier for treatment or disposal, recording the waste
+  category, quantity, origin, carrier and destination, closed by proof of proper disposal.
+attributes:
+- name: waste-category
+  type: code
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: origin-site
+  type: reference(site)
+  card: 1..1
+- name: carrier
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: destination
+  type: reference(organisation)
+  card: 1..1
+- name: collected-on
+  type: date
+  card: 1..1
+- name: disposal-evidence
+  type: document
+  card: 0..1
+states:
+- prepared
+- collected
+- in-transit
+- disposed
+- rejected
+relations:
+- type: governed-by
+  target: compliance-obligation
+- type: governed-by
+  target: contract

@@ -1,0 +1,54 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: extract
+library: commons-engineering
+version: v2026.11.3
+made_in: Commons-Engineering/commons.core@d640de6905aa41f01ea7a43c5b475cdd5982f199
+event: Commons-Engineering/commons.core@d640de6905aa41f01ea7a43c5b475cdd5982f199:lifecycle/events/2026-11-15-release-patterns-v2026.11.3.yml
+gate:
+  result: pass
+  check: Commons-Engineering/commons.core@d640de6:specs/tools/check_library.py
+graph_run: commons-2026-11-15c
+extractor: Commons-Engineering/commons.core@d640de6:specs/tools/extract.py
+policy: Commons-Engineering/commons.core@d640de6:.commons/patterns-policy.yml
+scope: orbits 0-3
+count:
+  stock: 2236
+  archived: 8
+  left_out: 0
+  cut: 2228
+  by_folder:
+    0-singularity:
+      stock: 2
+      archived: 0
+      left_out: 0
+      cut: 2
+    1-principles:
+      stock: 34
+      archived: 0
+      left_out: 0
+      cut: 34
+    2-commons-base:
+      stock: 124
+      archived: 8
+      left_out: 0
+      cut: 116
+    2-commons:
+      stock: 1802
+      archived: 0
+      left_out: 0
+      cut: 1802
+    3-transversals:
+      stock: 274
+      archived: 0
+      left_out: 0
+      cut: 274
+digest: sha256:5922475a4b1424ea35b66b51c7e1325dcf9ff632978e29a2121e6bdbaf8efe5b
+parts:
+  patterns:
+    class: public
+    digest: sha256:6d32af2b8c9c7824d7fcbed27243afd3907bcd1fdf24a74fc4bb4337595ec308
+licence: CC-BY-SA-4.0
+answers: cloudsters/federation.library
+retires:
+- id: patterns@v2026.11.2
+  from: '2026-11-15'

@@ -1,0 +1,52 @@
+kind: entity
+slug: purchase-receipt
+title: Purchase Receipt
+type: transactional
+summary: 'The confirmation of arrival — the document that records physical receipt of goods at the warehouse, matching what arrived
+  against what was ordered. The purchase receipt completes the promise cycle: ordered, shipped, received, verified.'
+attributes:
+- name: receipt-date
+  type: date
+  card: 1..1
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 1..1
+- name: accepted-items
+  type: reference(item)
+  card: 0..*
+- name: accepted-quantity
+  type: quantity
+  card: 1..1
+- name: rejected-quantity
+  type: quantity
+  card: 0..1
+- name: condition
+  type: code
+  card: 1..1
+- name: storage-location
+  type: reference(location)
+  card: 1..1
+states:
+- draft
+- received
+- inspected
+- accepted
+- rejected
+- posted
+relations:
+- type: based-on
+  target: purchase-order
+- type: produces
+  target: stock-entry
+- type: refers-to
+  target: purchase-invoice
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

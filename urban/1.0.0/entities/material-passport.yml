@@ -1,0 +1,60 @@
+kind: entity
+slug: material-passport
+title: Material Passport
+type: master
+summary: The record of the materials in a building, work or product, with their quantities, origin, condition and how they can be
+  taken apart and reused. The owner of the building or the supplier of the product keeps it with the city, and it is used to source
+  reclaimed materials, to plan reuse at the end of use and to account for embedded carbon.
+attributes:
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: product-description
+  type: text
+  card: 0..1
+- name: materials
+  type: text
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 0..*
+- name: origin
+  type: text
+  card: 0..*
+- name: condition
+  type: code
+  card: 0..*
+- name: reclaimed-content
+  type: decimal
+  card: 0..1
+- name: reuse-guide
+  type: document
+  card: 0..1
+- name: embedded-carbon
+  type: quantity
+  card: 0..1
+- name: kept-by
+  type: text
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+states:
+- issued
+- verified
+- in-use
+- updated
+- taken-apart
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: capital-project
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: carbon-footprint

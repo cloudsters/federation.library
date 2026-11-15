@@ -1,0 +1,37 @@
+kind: journey
+slug: frontline-worker-passing-on-what-they-know
+title: Frontline Worker Passing On What They Know
+stakeholder: frontline-worker
+summary: A long-serving frontline worker has their expertise recorded and credited, keeps the entries current, shares failures with
+  peers across departments, mentors a colleague and hands over what they know before they leave.
+stages:
+- slug: have-expertise-recorded-and-credited
+  title: Have Expertise Recorded and Credited
+  goal: What the worker knows from years in the work is documented with them, in their words and under their name.
+  step: knowledge-sharing-and-staff-learning/frontline-knowledge-capture
+  touchpoints:
+  - knowledge-capture-interview
+- slug: keep-the-entries-current
+  title: Keep the Entries Current
+  goal: The worker corrects and updates the entries they own, and outdated ones are retired.
+  step: knowledge-sharing-and-staff-learning/curation-and-access
+  touchpoints:
+  - staff-knowledge-base
+- slug: share-failures-with-peers
+  title: Share Failures with Peers
+  goal: The worker brings problems and failures to colleagues who do similar work elsewhere and takes their solutions back.
+  step: knowledge-sharing-and-staff-learning/communities-of-practice
+  touchpoints:
+  - community-of-practice-meeting
+- slug: mentor-a-colleague
+  title: Mentor a Colleague
+  goal: The worker mentors a colleague along a learning path in working time.
+  step: knowledge-sharing-and-staff-learning/learning-paths
+  touchpoints:
+  - staff-learning-path-plan
+- slug: hand-over-on-leaving
+  title: Hand Over on Leaving
+  goal: Before the worker leaves, their knowledge, relationships and open matters are handed over and the record is credited to them.
+  step: knowledge-sharing-and-staff-learning/knowledge-handover
+  touchpoints:
+  - knowledge-handover-meeting

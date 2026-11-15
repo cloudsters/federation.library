@@ -1,0 +1,109 @@
+kind: value-stream
+slug: value-narrative-design
+title: Value Narrative Design
+family: interest-to-relationship
+summary: 'Setting how offerings are positioned and promised to each segment: the value proposition, the pricing mechanism, the channel
+  mix, positioning and brand, and the loyalty commitment offered in return.'
+trigger: A strategy change, a new segment, a launch or a weak position calls for a new value narrative.
+outcome: An agreed value proposition, pricing mechanism, positioning and channel mix per segment is in use.
+stakeholders:
+- product-manager
+- executive-board
+- sales-representative
+- business-customer
+- consumer
+- distributor
+steps:
+- slug: target-segment-choice
+  title: Target Segment Choice
+  summary: The segments the offering is meant to serve are chosen from the market picture, with what each needs and values.
+  capabilities:
+  - customer-segmentation
+  - value-proposition-articulation
+  entities:
+  - market-segment
+  - strategy
+  serves:
+  - market-picture
+- slug: value-proposition-definition
+  title: Value Proposition Definition
+  summary: For each segment the organisation states what customers will receive and experience, in a promise that delivery can honour.
+  capabilities:
+  - value-proposition-articulation
+  entities:
+  - product
+  - service
+  - business-model
+  serves:
+  - product-catalogue
+  - value-proposition-workshop
+  - website
+- slug: positioning-and-brand
+  title: Positioning and Brand
+  summary: The offering's position against alternatives, its brand and the core messages for each audience are set, so that every
+    channel tells the same story.
+  capabilities:
+  - brand-management
+  - communication-as-invitation
+  entities:
+  - brand
+  - communication
+  serves:
+  - brand-and-message-guide
+  - product-catalogue
+  - trade-fair
+  - trade-press
+- slug: pricing-mechanism-design
+  title: Pricing Mechanism Design
+  summary: The pricing logic, price levels and commercial models are designed so that both sides gain from the exchange.
+  capabilities:
+  - value-exchange-design
+  entities:
+  - price-list
+  - business-model
+  - terms-and-conditions
+  serves:
+  - price-list
+  - quotation
+- slug: channel-mix-design
+  title: Channel Mix Design
+  summary: The mix of channels that carry the offering to each segment is designed as a network, using what is known about how each
+    channel performs.
+  capabilities:
+  - channel-ecosystem-design
+  - channel-vitality-sensing
+  entities:
+  - channel
+  - market-segment
+  - kpi
+  serves:
+  - customer-portal
+  - partner-portal
+  - sales-meeting
+  - value-proposition-workshop
+- slug: loyalty-commitment-design
+  title: Loyalty Commitment Design
+  summary: What the organisation gives back to customers who stay is designed as reciprocal value rather than switching costs.
+  capabilities:
+  - loyalty-as-mutual-commitment
+  entities:
+  - loyalty-program
+  - terms-and-conditions
+  serves:
+  - account-review
+  - loyalty-programme
+- slug: narrative-approval-and-review
+  title: Narrative Approval and Review
+  summary: The value narrative is agreed and released to marketing and sales, and its claims and channel performance are reviewed
+    against what customers experience.
+  capabilities:
+  - value-proposition-articulation
+  - channel-vitality-sensing
+  entities:
+  - governance-decision
+  - measure-report
+  serves:
+  - account-review
+  - board-meeting
+  - brand-and-message-guide
+  - partner-business-review

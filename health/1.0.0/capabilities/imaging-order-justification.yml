@@ -1,0 +1,13 @@
+kind: capability
+slug: imaging-order-justification
+title: Imaging Order Justification
+level: L3
+parent: diagnostic-imaging
+summary: Justify each imaging request by indication, benefit and radiation exposure before it is performed.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-537
+  edition: living
+  jurisdiction: global

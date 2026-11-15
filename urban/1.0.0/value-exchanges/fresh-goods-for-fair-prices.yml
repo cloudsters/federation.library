@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fresh-goods-for-fair-prices
+title: Fresh Goods for Fair Prices
+between:
+- market-vendor
+- resident
+offered:
+- Fresh and affordable goods near home.
+returned:
+- Steady custom and a fair price.
+touchpoint: market-day-stall

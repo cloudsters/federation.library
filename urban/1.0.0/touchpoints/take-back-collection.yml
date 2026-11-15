@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: take-back-collection
+title: Take-Back Collection
+medium: encounter
+summary: The collection by a supplier, or repairers on its behalf, of products and packaging at the end of use, recorded with what
+  is repaired, refurbished, recovered or disposed of.
+exchanges:
+- returned-products-for-materials-kept-in-use
+journey: supplier-taking-back-what-it-supplied

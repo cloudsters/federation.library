@@ -1,0 +1,31 @@
+kind: journey
+slug: technician-receiving-the-right-jobs
+title: Technician Receiving the Right Jobs
+stakeholder: field-service-technician
+summary: A field service technician works to a fair roster, keeps skills certified, carries the parts the day needs and receives jobs
+  that match competence, location and response time.
+stages:
+- slug: work-to-a-fair-roster
+  title: Work to a Fair Roster
+  goal: The roster balances load across the team and leaves room for training and rest.
+  step: service-resource-orchestration/resource-and-capacity-plan
+  touchpoints:
+  - duty-roster
+- slug: keep-skills-certified
+  title: Keep Skills Certified
+  goal: The technician is trained, certified and coached for the work assigned, and the record shows it.
+  step: service-resource-orchestration/service-skill-enablement
+  touchpoints:
+  - skills-training-and-certification
+- slug: carry-the-right-parts
+  title: Carry the Right Parts
+  goal: The parts for the day's jobs are in the vehicle or at a nearby stock point.
+  step: service-resource-orchestration/spare-parts-provision
+  touchpoints:
+  - spare-parts-stock
+- slug: receive-the-day-plan
+  title: Receive the Day Plan
+  goal: Jobs arrive with the customer's situation, parts and response time, and changes through the day are announced.
+  step: service-resource-orchestration/scheduling-and-dispatch
+  touchpoints:
+  - job-assignment

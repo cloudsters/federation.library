@@ -1,0 +1,40 @@
+kind: entity
+slug: service-level-agreement
+title: Service Level Agreement
+type: governance
+summary: A measurable promise — a formal commitment defining response times, resolution times, escalation paths, and service hours.
+  Unlike a general agreement (G18), an SLA has timers that tick, thresholds that trigger, and consequences that matter. It is governance
+  made operational.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: metrics
+  type: reference(measure)
+  card: 1..*
+- name: thresholds
+  type: text
+  card: 1..*
+- name: service-hours
+  type: text
+  card: 1..1
+- name: escalation-levels
+  type: text
+  card: 0..*
+- name: breach-consequences
+  type: text
+  card: 0..1
+states:
+- defined
+- active
+- measured
+- breach-alerted
+- reported
+- reviewed
+relations:
+- type: part-of
+  target: contract
+- type: refers-to
+  target: agreement
+- type: refers-to
+  target: helpdesk-ticket

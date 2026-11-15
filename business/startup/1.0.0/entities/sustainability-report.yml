@@ -1,0 +1,51 @@
+kind: entity
+slug: sustainability-report
+title: Sustainability Report
+type: intelligence
+summary: The periodic report of the enterprise's environmental, social and governance performance, with material topics, metrics,
+  targets and progress, prepared to the reporting duties that apply and assured where required.
+attributes:
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: material-topics
+  type: text
+  card: 1..*
+- name: footprints
+  type: reference(environmental-footprint)
+  card: 0..*
+- name: targets
+  type: reference(ecological-parameter)
+  card: 0..*
+- name: assurance-opinion
+  type: code
+  card: 0..1
+- name: content
+  type: document
+  card: 1..1
+states:
+- in-preparation
+- assured
+- approved
+- published
+relations:
+- type: composed-of
+  target: environmental-footprint
+- type: governed-by
+  target: compliance-rule
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-112
+  edition: '2023'
+  jurisdiction: global
+- source: src-115
+  edition: 2023-12
+  jurisdiction: global
+- source: src-139
+  edition: '2.1'
+  jurisdiction: global

@@ -1,0 +1,41 @@
+kind: entity
+slug: relationship-agreement
+title: Relationship Agreement
+type: governance
+summary: What two people in a close relation have actually agreed — about money, time, fidelity, family, work, and how disagreement
+  will be handled. Most relations run on assumption; the entity exists to hold the part that was said.
+attributes:
+- name: relation-kind
+  type: code
+  card: 1..1
+- name: topics
+  type: code
+  card: 1..*
+- name: terms
+  type: text
+  card: 1..*
+- name: assumed-not-said
+  type: text
+  card: 0..*
+- name: disagreement-handled-by
+  type: text
+  card: 0..1
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: revisit-when
+  type: text
+  card: 0..1
+states:
+- assumed
+- spoken
+- agreed
+- strained
+- renewed
+relations:
+- target: partner-relation
+  type: about
+- target: value-set
+  type: based-on
+- target: relationship-agreement
+  type: replaces

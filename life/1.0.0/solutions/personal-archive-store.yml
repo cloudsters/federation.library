@@ -1,0 +1,16 @@
+kind: solution
+slug: personal-archive-store
+title: Personal Archive Store
+role: system-of-record
+sovereignty: owned
+summary: Keeps the notes, photographs, letters and documents of a life in one place the person controls, in forms that will still
+  open years from now.
+carries:
+- keeping-an-archive
+- gathering-scattered-records
+- keeping-records-readable
+- keeping-ones-data-close
+holds:
+- personal-archive
+- body-of-work
+- creative-output

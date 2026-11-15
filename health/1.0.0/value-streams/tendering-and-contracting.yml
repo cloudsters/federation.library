@@ -1,0 +1,150 @@
+kind: value-stream
+slug: tendering-and-contracting
+title: Tendering and Contracting
+family: source-to-alliance
+summary: 'Procuring goods and services lawfully and competitively: specification of needs, public tender procedures, evaluation, award
+  and supply contracts with service levels.'
+trigger: A need exceeds the threshold for direct ordering, or a supply contract approaches expiry.
+outcome: A supply contract with agreed terms and service levels is awarded and in force.
+stakeholders:
+- administrative-staff
+- head-of-clinical-department
+- clinical-engineer
+- clinical-pharmacist
+- executive
+- supplier
+- purchasing-alliance
+- natural-environment
+steps:
+- slug: need-assessment-and-procedure-choice
+  title: Need Assessment and Procedure Choice
+  summary: 'The need is confirmed against the category plan and the budget, its value is estimated over the contract term, and the
+    procedure is chosen: its type, the division into lots, and whether to tender alone or jointly through a purchasing alliance.'
+  capabilities:
+  - category-stewardship
+  - budgetary-control-encumbrance
+  - capital-planning
+  - purchasing-cooperation
+  - supplier-selection-and-contracting
+  - legal-advisory
+  entities:
+  - purchase-requisition
+  - category-plan
+  - budget
+  - tender
+  serves:
+  - alliance-sourcing-group
+  - sourcing-request
+- slug: requirement-specification
+  title: Requirement Specification
+  summary: Users, clinical engineering, pharmacy, hygiene, IT, data protection and procurement specify product-neutral requirements,
+    service levels and sustainability criteria, the award criteria with their weights, and the draft contract terms.
+  capabilities:
+  - supplier-selection-and-contracting
+  - clinical-product-value-analysis
+  - quality-requirements
+  - ethical-sourcing-design
+  - privacy-impact-management
+  - medical-device-cybersecurity
+  - contract-lifecycle-stewardship
+  entities:
+  - tender
+  - contract
+  - category-plan
+  serves:
+  - alliance-sourcing-group
+  - call-for-tender
+  - sourcing-request
+  - supplier-market-dialogue
+- slug: tender-publication-and-bidding
+  title: Tender Publication and Bidding
+  summary: The call for tender is published, suppliers' questions are answered with the same information for every bidder, and bids
+    are received sealed until the deadline.
+  capabilities:
+  - supplier-selection-and-contracting
+  - anti-corruption-and-conflicts-of-interest
+  - compliance-assurance
+  - information-content-management
+  entities:
+  - tender
+  - bid
+  - supplier-organisation
+  serves:
+  - call-for-tender
+  - supplier-portal
+- slug: bid-evaluation
+  title: Bid Evaluation
+  summary: Bids are opened under dual control, checked for completeness and the bidder's suitability, excluded where grounds exist
+    and scored against the published criteria, with samples or demonstrations where specified and every evaluator's conflicts declared.
+  capabilities:
+  - supplier-selection-and-contracting
+  - clinical-product-value-analysis
+  - vendor-risk-management
+  - anti-corruption-and-conflicts-of-interest
+  - ethical-sourcing-design
+  entities:
+  - bid
+  - tender
+  - supplier-organisation
+  - organisation
+  serves:
+  - alliance-sourcing-group
+  - product-trial
+  - supplier-portal
+- slug: award-decision
+  title: Award Decision
+  summary: The award is approved within delegated authority, every bidder is informed of the result and its reasons, a standstill
+    period is observed, and any challenge is answered before the contract is concluded.
+  capabilities:
+  - delegation-of-authority
+  - supplier-selection-and-contracting
+  - legal-advisory
+  - dispute-and-litigation
+  entities:
+  - tender
+  - bid
+  - governance-decision
+  serves:
+  - award-notice
+  - supplier-portal
+- slug: contract-conclusion
+  title: Contract Conclusion
+  summary: The contract is finalised with prices, service levels, delivery, warranty, liability, data processing and exit terms, signed
+    and registered, and the supplier, the contract and its catalogue items are set up in master data.
+  capabilities:
+  - contract-lifecycle-stewardship
+  - supplier-relationship-stewardship
+  - master-data-stewardship
+  - blanket-order-management
+  - data-protection-governance
+  entities:
+  - contract
+  - supplier-organisation
+  - inventory-item
+  - organisation
+  serves:
+  - supply-contract
+- slug: contract-mobilisation-and-renewal
+  title: Contract Mobilisation and Renewal
+  summary: Units are informed and ordering routes, catalogues and stock rules are switched to the new contract; obligations, volume
+    commitments and service levels are tracked, and renewal or re-tender starts in time before expiry.
+  capabilities:
+  - contract-lifecycle-stewardship
+  - compliance-sensing-monitoring
+  - supplier-performance-evaluation
+  - change-implementation
+  - internal-communication
+  entities:
+  - contract
+  - purchase-order
+  - supplier-organisation
+  - inventory-item
+  serves:
+  - ordering-catalogue
+  - supplier-portal
+  - supplier-review-meeting
+  - supply-contract
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

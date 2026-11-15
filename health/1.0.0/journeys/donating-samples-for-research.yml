@@ -1,0 +1,33 @@
+kind: journey
+slug: donating-samples-for-research
+title: Donating Samples for Research
+stakeholder: research-participant
+summary: The donor's path from being asked for samples to learning what they made possible, with control over the consent throughout.
+stages:
+- slug: being-asked
+  title: Being Asked
+  goal: Understand what donating means, what research it serves and how one's identity is protected, and decide freely.
+  step: biobanking/donor-information-and-consent
+  touchpoints:
+  - consultation
+  - participant-information-sheet
+  - consent-form
+- slug: giving-samples
+  title: Giving Samples
+  goal: Give samples alongside routine care without extra needles or visits wherever possible.
+  step: biobanking/sample-collection
+  touchpoints:
+  - laboratory-counter
+- slug: staying-in-control
+  title: Staying in Control
+  goal: Withdraw or narrow one's consent at any time and see the decision honoured.
+  step: biobanking/sample-and-data-release
+  touchpoints:
+  - patient-portal
+- slug: learning-what-it-made-possible
+  title: Learning What It Made Possible
+  goal: Learn what research one's samples have served and receive any agreed findings that matter for one's health.
+  step: biobanking/return-and-recognition
+  touchpoints:
+  - public-website
+  - patient-portal

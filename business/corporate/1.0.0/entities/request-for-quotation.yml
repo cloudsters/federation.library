@@ -1,0 +1,49 @@
+kind: entity
+slug: request-for-quotation
+title: Request for Quotation
+type: transactional
+summary: A request to suppliers — the organisation's structured request for competitive prices, starting the sourcing of what its
+  production needs.
+attributes:
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 1..*
+- name: suppliers
+  type: reference(supplier-organisation)
+  card: 1..*
+- name: response-deadline
+  type: date
+  card: 1..1
+- name: quoted-prices
+  type: text
+  card: 0..*
+- name: comparison
+  type: document
+  card: 0..1
+- name: awarded-supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+states:
+- draft
+- sent
+- responses-received
+- evaluated
+- awarded
+- closed
+relations:
+- type: based-on
+  target: material-request
+- type: refers-to
+  target: supplier-organisation
+- type: produces
+  target: purchase-order
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

@@ -1,0 +1,27 @@
+kind: journey
+slug: consumer-receiving-and-returning-a-parcel
+title: Consumer Receiving and Returning a Parcel
+stakeholder: consumer
+summary: A consumer orders online, follows the parcel to the door or a pick-up point, and returns what does not fit through a simple
+  path that refunds or replaces promptly.
+stages:
+- slug: choose-how-to-receive
+  title: Choose How to Receive
+  goal: Delivery options, dates and costs are clear at the moment of ordering.
+  step: logistics-flow-design/order-release-and-routing
+  touchpoints:
+  - online-shop
+- slug: follow-the-parcel
+  title: Follow the Parcel
+  goal: The consumer can follow the parcel, change the place or time of delivery and receives it as promised.
+  step: logistics-flow-design/transport-and-delivery
+  touchpoints:
+  - shipment-tracking
+  - proof-of-delivery
+- slug: send-it-back
+  title: Send It Back
+  goal: The consumer returns an item by post or in a store, states the reason and is refunded or receives a replacement promptly.
+  step: logistics-flow-design/returns-and-reverse-flow
+  touchpoints:
+  - return-authorisation
+  - store-and-branch

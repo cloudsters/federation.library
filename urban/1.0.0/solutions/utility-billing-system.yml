@@ -1,0 +1,11 @@
+kind: solution
+slug: utility-billing-system
+title: Utility Billing System
+role: system-of-record
+summary: Holds each household's account for water, energy, heat, waste and drainage with its tariff, any reduced charge, payments,
+  arrears and the protection that keeps basic supply on.
+carries:
+- disconnection-protection
+- reduced-charge-enrolment
+holds:
+- utility-account

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: decision-review-by-a-person
+title: Decision Review by a Person
+medium: encounter
+summary: The review of a challenged decision by a person who sees the system's reasons and the records of the person who challenged
+  it and decides whether the decision stands.
+exchanges:
+- resident-challenge-for-review-by-a-person
+- worker-challenge-for-a-disclosed-review
+journey: platform-worker-challenging-an-automated-decision

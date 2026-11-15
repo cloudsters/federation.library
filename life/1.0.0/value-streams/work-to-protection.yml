@@ -1,0 +1,90 @@
+kind: value-stream
+slug: work-to-protection
+title: Guarding One's Own Work
+family: proposition-to-audience
+summary: Keeping the right to one's own work — and deciding deliberately what is released to the commons rather than losing it by
+  default.
+trigger: The person finds their work copied, used without credit or claimed by a contract they barely read, or they are about to publish
+  and have not decided what to release.
+outcome: The person holds the rights they meant to keep, and what went to the commons went there by choice.
+stakeholders:
+- collaborator
+- client
+- audience
+- authority
+- community
+steps:
+- slug: finding-the-work-taken
+  title: Finding the Work Taken
+  summary: Discovering the work copied, used without credit or claimed by a contract barely read, and feeling the loss of it.
+  capabilities:
+  - noticing-misuse-of-ones-work
+  entities:
+  - creative-output
+  - contract
+  - publication
+  - rights-record
+  serves:
+  - published-work
+  - social-feed
+- slug: learning-what-one-holds
+  title: Learning What One Holds
+  summary: Finding out which rights the person still has, what has been signed away and what the law gives them by default.
+  capabilities:
+  - understanding-ones-rights
+  entities:
+  - contract
+  - body-of-work
+  - rights-record
+  serves:
+  - lawyers-office
+  - work-agreement
+- slug: reading-before-signing
+  title: Reading Before Signing
+  summary: Reading what an agreement does to the work before signing it, and asking for changes where it takes too much.
+  capabilities:
+  - reading-before-signing
+  entities:
+  - contract
+  - client-relation
+  - employer-relation
+  serves:
+  - work-agreement
+- slug: deciding-what-to-release
+  title: Deciding What to Release
+  summary: Choosing deliberately which work goes to the commons and on what terms, and which the person keeps.
+  capabilities:
+  - releasing-work-by-choice
+  entities:
+  - decision
+  - body-of-work
+  - commons-instance
+  - publication
+  - rights-record
+  serves:
+  - published-work
+- slug: marking-the-work
+  title: Marking the Work Clearly
+  summary: Putting name, date and terms of use on the work when it goes out, so credit and permission are plain to anyone.
+  capabilities:
+  - marking-authorship-clearly
+  entities:
+  - publication
+  - creative-output
+  - rights-record
+  serves:
+  - published-work
+- slug: standing-up-for-it
+  title: Standing Up for It
+  summary: Asking for credit or removal when the work is misused, with help where needed, and choosing when to let a case go.
+  capabilities:
+  - raising-it-early
+  - choosing-ones-battles
+  entities:
+  - conflict
+  - repair
+  - contract
+  - rights-record
+  serves:
+  - hard-conversation
+  - lawyers-office

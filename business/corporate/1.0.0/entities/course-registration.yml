@@ -1,0 +1,36 @@
+kind: entity
+slug: course-registration
+title: Course Registration
+type: transactional
+summary: A person's registration for a course, with attendance, assessment result and the credential or record of completion it earns.
+attributes:
+- name: course
+  type: reference(course)
+  card: 1..1
+- name: employee
+  type: reference(employee-record)
+  card: 0..1
+- name: participant-name
+  type: text
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 1..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: result
+  type: code
+  card: 0..1
+states:
+- registered
+- waitlisted
+- attending
+- completed
+- failed
+- cancelled
+relations:
+- type: part-of
+  target: course
+- type: produces
+  target: credential

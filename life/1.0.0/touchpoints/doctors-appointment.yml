@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: doctors-appointment
+title: The Doctor's Appointment
+medium: moment
+mode: in-person
+summary: Time with a doctor or other practitioner to say what has changed, hear what it may mean and decide together.
+exchanges:
+- account-for-care
+journey: a-patient-who-comes-early

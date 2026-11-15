@@ -1,0 +1,40 @@
+kind: journey
+slug: municipal-ai-agent-acting-within-its-mandate
+title: Municipal AI Agent Acting Within Its Mandate
+stakeholder: municipal-ai-agent
+summary: An AI agent receives a written mandate, answers to a named overseer, prepares and records its work, hands residents to a
+  person whenever they ask or its mandate requires, and has its mandate renewed, changed or ended at review.
+stages:
+- slug: receive-a-written-mandate
+  title: Receive a Written Mandate
+  goal: The agent's tasks, limits and the person who answers for it are written down before it starts work.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - written-agent-mandate
+- slug: answer-to-a-named-overseer
+  title: Answer to a Named Overseer
+  goal: The agent has a named overseer, the points at which it stops for a person, and the routes by which it is overridden.
+  step: human-agent-teaming/oversight-and-escalation
+  touchpoints:
+  - overseer-assignment-letter
+  - override-and-escalation-route
+- slug: prepare-and-record
+  title: Prepare and Record
+  goal: The agent carries out and prepares tasks under its mandate, and each significant decision is recorded with the mandate and
+    the person who authorised it.
+  step: human-agent-teaming/joint-work
+  touchpoints:
+  - agent-decision-log
+- slug: hand-residents-to-a-person
+  title: Hand Residents to a Person
+  goal: A resident who asks for a person, or whose matter the mandate keeps human, is handed to a member of staff without delay.
+  step: human-agent-teaming/joint-work
+  touchpoints:
+  - reach-a-person-line
+- slug: have-the-mandate-decided
+  title: Have the Mandate Decided
+  goal: The agent's results and errors are reviewed, and its mandate is renewed, changed or ended.
+  step: human-agent-teaming/joint-performance-review
+  touchpoints:
+  - joint-teaming-review
+  - written-agent-mandate

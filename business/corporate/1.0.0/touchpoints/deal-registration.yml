@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: deal-registration
+title: Deal Registration
+medium: artefact
+summary: The partner's registration of an opportunity with the customer and need, which settles ownership early and opens joint selling.
+exchanges:
+- registered-deal-for-protected-opportunity
+journey: partner-joining-and-growing-with-the-organisation

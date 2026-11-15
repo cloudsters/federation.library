@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-data-for-a-monitored-connection
+title: Network Data for a Monitored Connection
+between:
+- infrastructure-operator
+- information-technology-specialist
+offered:
+- Data from its networks through a published interface.
+returned:
+- A connection that is watched, with failures contained before they spread.
+touchpoint: conformance-test-environment

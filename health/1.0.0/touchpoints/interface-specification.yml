@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: interface-specification
+title: Interface Specification
+medium: artefact
+summary: The agreed document that defines what one exchange carries, in which format and coding, on which trigger and with which error
+  handling.
+exchanges:
+- specification-for-supported-solution
+- conformance-for-national-services
+- connection-readiness-for-electronic-transfer
+journey: connecting-to-the-national-health-network

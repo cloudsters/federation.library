@@ -1,0 +1,37 @@
+kind: entity
+slug: analytics-model
+title: Analytics Model
+type: intelligence
+summary: A predictive model — a statistical or machine learning model that turns raw data into forecasts about the organisation, so that it
+  can anticipate rather than merely react.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: input-features
+  type: text
+  card: 1..*
+- name: method
+  type: code
+  card: 1..1
+- name: training-data
+  type: text
+  card: 0..1
+- name: performance-metrics
+  type: text
+  card: 0..*
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- scoped
+- hypothesised
+- trained
+- validated
+- deployed
+- monitored
+- retrained
+- retired
+relations:
+- type: refers-to
+  target: measure

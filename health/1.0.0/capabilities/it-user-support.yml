@@ -1,0 +1,10 @@
+kind: capability
+slug: it-user-support
+title: IT User Support
+level: L3
+parent: it-service-management
+summary: Support users through a service desk with defined escalation paths, around the clock for clinical systems.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

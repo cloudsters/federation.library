@@ -1,0 +1,36 @@
+kind: journey
+slug: neighbourhood-association-keeping-essential-services-working-offline
+title: Neighbourhood Association Keeping Essential Services Working Offline
+stakeholder: neighbourhood-association
+summary: A neighbourhood association hosts mesh nodes, local copies of essential information and backup power in a community place,
+  rehearses offline operation with staff and emergency services, keeps the neighbourhood served during an outage and brings what failed
+  into the audit.
+stages:
+- slug: host-the-fallbacks
+  title: Host the Fallbacks
+  goal: The neighbourhood's community place holds a mesh node, local copies of essential information and backup power, and the association
+    knows its role in the plan.
+  step: information-security-and-digital-resilience/continuity-and-offline-planning
+  touchpoints:
+  - neighbourhood-resilience-point
+  - continuity-plan-summary
+- slug: rehearse-offline-operation
+  title: Rehearse Offline Operation
+  goal: Volunteers, staff and emergency services have run the neighbourhood's essential services offline, and what failed is recorded
+    and fixed.
+  step: information-security-and-digital-resilience/continuity-exercise
+  touchpoints:
+  - offline-operation-drill
+- slug: keep-the-neighbourhood-served
+  title: Keep the Neighbourhood Served
+  goal: During the outage residents reach essential information and services at the community place and are told what happened.
+  step: information-security-and-digital-resilience/security-incident-response
+  touchpoints:
+  - neighbourhood-resilience-point
+  - security-incident-notice
+- slug: bring-what-failed-to-the-audit
+  title: Bring What Failed to the Audit
+  goal: The neighbourhood's account of the outage is in the audit, and its lessons are in the plans.
+  step: information-security-and-digital-resilience/security-audit-and-improvement
+  touchpoints:
+  - security-audit-report

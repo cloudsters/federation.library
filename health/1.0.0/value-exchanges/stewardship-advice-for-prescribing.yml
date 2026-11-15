@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stewardship-advice-for-prescribing
+title: Stewardship Advice for Prescribing
+between:
+- clinical-pharmacist
+- specialist-physician
+offered:
+- The stewardship pharmacist reviews antimicrobial prescriptions and advises on choice, dose, duration and de-escalation.
+returned:
+- The prescriber adapts treatment and reports the clinical course, so that local guidance keeps pace with resistance patterns.
+touchpoint: antimicrobial-stewardship-round

@@ -1,0 +1,43 @@
+kind: journey
+slug: buyer-building-a-category
+title: Buyer Building a Category
+stakeholder: procurement-specialist
+summary: A procurement specialist analyses spend and supply markets, qualifies and selects suppliers in a fair tender, orders within
+  framework agreements and reviews and develops the supplier base.
+stages:
+- slug: scan-the-supply-market
+  title: Scan the Supply Market
+  goal: Spend, supply markets and supplier health are understood, and a category plan sets the approach.
+  step: sourcing-partnership-design/category-planning-and-market-analysis
+  touchpoints:
+  - trade-fair
+- slug: qualify-candidates
+  title: Qualify Candidates
+  goal: Candidate suppliers are assessed on site and on evidence before they are invited.
+  step: sourcing-partnership-design/supplier-qualification
+  touchpoints:
+  - supplier-audit
+  - supplier-qualification-questionnaire
+- slug: tender-and-award
+  title: Tender and Award
+  goal: Offers are compared on total cost, quality and fit, and terms are negotiated fairly.
+  step: sourcing-partnership-design/tender-selection-and-contract
+  touchpoints:
+  - request-for-quotation
+  - quotation
+  - contract-negotiation
+  - framework-agreement
+- slug: order-within-the-framework
+  title: Order Within the Framework
+  goal: Routine needs are ordered against framework agreements with little effort on either side.
+  step: sourcing-partnership-design/ordering-and-call-off
+  touchpoints:
+  - purchase-order
+  - supplier-portal
+- slug: review-and-develop-suppliers
+  title: Review and Develop Suppliers
+  goal: Supplier performance and risk are reviewed with each supplier and turned into development goals.
+  step: sourcing-partnership-design/supplier-performance-and-risk-review
+  touchpoints:
+  - supplier-scorecard
+  - supplier-review

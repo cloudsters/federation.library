@@ -1,0 +1,100 @@
+kind: value-stream
+slug: philanthropy
+title: Philanthropy
+family: value-to-sustainability
+summary: Raising and stewarding donations, bequests, foundations and endowments that fund care, research and teaching beyond public
+  and payer funding.
+trigger: A donor shows interest, or a project is selected for philanthropic funding.
+outcome: The gift is received, used as the donor intended, acknowledged and reported.
+stakeholders:
+- philanthropic-donor
+- general-public
+- head-of-clinical-department
+- executive
+steps:
+- slug: funding-priority-selection
+  title: Funding Priority Selection
+  summary: The commons selects the projects it offers for philanthropic support in line with its strategy, each with a clear purpose,
+    cost and expected benefit for patients, research or teaching.
+  capabilities:
+  - fundraising-and-donations
+  - strategy-alignment-across-functions
+  - initiative-evaluation-and-selection
+  entities:
+  - strategic-objective
+  - capital-project
+  - budget
+- slug: donor-cultivation
+  title: Donor Cultivation
+  summary: Prospective donors, among them grateful patients, relatives and local businesses, are identified with respect for their
+    privacy and engaged through campaigns, events and personal conversations.
+  capabilities:
+  - fundraising-and-donations
+  - donor-relations
+  - community-relations
+  - data-protection-governance
+  entities:
+  - philanthropic-gift
+  - organisation
+  serves:
+  - donor-conversation
+  - public-website
+- slug: gift-acceptance
+  title: Gift Acceptance
+  summary: Each gift is checked against the acceptance policy for conflicts of interest, reputational risk and restrictions the commons
+    can honour, agreed in writing and formally accepted.
+  capabilities:
+  - fundraising-and-donations
+  - anti-corruption-and-conflicts-of-interest
+  - legal-advisory
+  - tax-strategy
+  entities:
+  - philanthropic-gift
+  - contract
+  - policy
+  - governance-decision
+  serves:
+  - donor-conversation
+  - gift-agreement
+- slug: gift-receipt-and-acknowledgement
+  title: Gift Receipt and Acknowledgement
+  summary: The gift is received, booked to a fund earmarked for its purpose, confirmed with a donation receipt and acknowledged personally.
+  capabilities:
+  - general-accounting
+  - donor-relations
+  - tax-processing
+  entities:
+  - philanthropic-gift
+  - payment
+  - ledger-entry
+  serves:
+  - donation-receipt
+- slug: gift-use-and-endowment-stewardship
+  title: Gift Use and Endowment Stewardship
+  summary: Gifts are spent on their designated purpose, endowment capital is preserved and invested, and affiliated foundations distribute
+    their income according to their statutes.
+  capabilities:
+  - endowment-stewardship
+  - foundation-management
+  - debt-and-investment-management
+  - budgetary-control-encumbrance
+  entities:
+  - philanthropic-gift
+  - budget
+  - organisation
+- slug: donor-reporting-and-recognition
+  title: Donor Reporting and Recognition
+  summary: Donors receive an account of how their gift was used and what it achieved and are recognised as agreed, and the commons
+    reports its philanthropic income and its use to the public.
+  capabilities:
+  - donor-relations
+  - impact-measurement-design
+  - financial-reporting
+  entities:
+  - philanthropic-gift
+  - measure-report
+  - financial-statement
+  serves:
+  - annual-report
+  - donor-impact-report
+  - public-website

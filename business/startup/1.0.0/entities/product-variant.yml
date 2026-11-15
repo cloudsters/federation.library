@@ -1,0 +1,39 @@
+kind: entity
+slug: product-variant
+title: Product Variant
+type: master
+summary: A sellable variation of a product that differs in attributes such as size, colour, configuration, edition or packaging, with
+  its own identifier, price and stock, while sharing the product's definition.
+attributes:
+- name: product
+  type: reference(product)
+  card: 1..1
+- name: variant-identifier
+  type: identifier
+  card: 1..1
+- name: variant-attributes
+  type: text
+  card: 1..*
+- name: barcode
+  type: identifier
+  card: 0..1
+- name: inventory-item
+  type: reference(item)
+  card: 0..1
+- name: bill-of-materials
+  type: reference(bom)
+  card: 0..1
+states:
+- active
+- blocked
+- discontinued
+relations:
+- type: part-of
+  target: product
+binds:
+- source: src-148
+  edition: '16.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

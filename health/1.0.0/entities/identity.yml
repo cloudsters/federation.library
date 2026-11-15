@@ -1,0 +1,52 @@
+kind: entity
+slug: identity
+title: Identity
+type: master
+summary: A digital identity under which a person, device or system is authenticated to the organisation's services, such as an employee
+  account, a patient portal account or a service identity, with its assurance level.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: identity-kind
+  type: code
+  card: 1..1
+- name: employee
+  type: reference(employee)
+  card: 0..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: assurance-level
+  type: code
+  card: 1..1
+- name: authentication-means
+  type: code
+  card: 1..*
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- requested
+- active
+- locked
+- revoked
+relations:
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-077
+  edition: '2025'
+  jurisdiction: global
+- source: src-412
+  edition: RFC7643/RFC7644
+  jurisdiction: global
+- source: src-436
+  edition: 1.0-errata2
+  jurisdiction: global

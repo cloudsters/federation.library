@@ -1,0 +1,20 @@
+kind: journey
+slug: staff-representatives-agreeing-a-new-system
+title: Staff Representatives Agreeing a New System
+stakeholder: staff-representation
+summary: Staff representatives learn early which employee data a new system records, agree the limits of their use and follow the
+  introduction to staff.
+stages:
+- slug: review-the-system
+  title: Review the System
+  goal: Representatives know which employee data the system records and agree how they may be used.
+  step: solution-delivery/solution-selection-and-contracting
+  touchpoints:
+  - staff-consultation
+- slug: follow-the-introduction
+  title: Follow the Introduction
+  goal: Staff are trained and introduced to the system as agreed.
+  step: solution-delivery/training-and-go-live
+  touchpoints:
+  - staff-consultation
+  - system-training

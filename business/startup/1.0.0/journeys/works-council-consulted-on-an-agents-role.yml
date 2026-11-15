@@ -1,0 +1,34 @@
+kind: journey
+slug: works-council-consulted-on-an-agents-role
+title: Works Council Consulted on an Agent's Role
+stakeholder: works-council
+summary: The works council learns early of a request for an agent, is consulted on its mandate and effect on work, sees it commissioned
+  under the agreed conditions and receives the findings of its reviews.
+stages:
+- slug: learn-of-the-request
+  title: Learn of the Request
+  goal: The council receives the request with the tasks, the expected benefit and the people whose work it changes.
+  step: ai-agent-lifecycle/role-request
+  touchpoints:
+  - agent-role-request
+  - works-council-meeting
+- slug: be-consulted-on-the-mandate
+  title: Be Consulted on the Mandate
+  goal: The council is consulted on the agent's mandate, monitoring of work and effect on jobs, and its conditions are recorded.
+  step: ai-agent-lifecycle/role-and-mandate-design
+  touchpoints:
+  - works-council-meeting
+  - agent-mandate
+- slug: see-the-conditions-applied
+  title: See the Conditions Applied
+  goal: The council sees the agent commissioned within the agreed mandate and with trained overseers.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - agent-mandate
+- slug: receive-the-review-findings
+  title: Receive the Review Findings
+  goal: The council receives the review findings on errors, overrides and fairness, and is consulted again before a material change.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-performance-review
+  - works-council-meeting

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: equipment-pool
+title: Equipment Pool
+medium: place
+summary: The central pool from which units borrow cleaned and checked mobile devices such as infusion pumps and monitors, and to which
+  they return them after use or on failure.
+exchanges:
+- fault-reports-for-available-devices
+journey: care-team-keeping-devices-safe-to-use

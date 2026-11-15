@@ -1,0 +1,19 @@
+kind: journey
+slug: certification-body-centre-journey
+title: Certification Body Centre Journey
+stakeholder: certification-body
+summary: The certification body states its requirements to an applying centre, audits it and grants, conditions or withholds recognition.
+stages:
+- slug: state-the-requirements
+  title: State the Requirements
+  goal: Make the requirements and the evidence expected known to the applying centre.
+  step: centre-development/requirements-gap-assessment
+  touchpoints:
+  - centre-manual
+- slug: audit-and-decide
+  title: Audit and Decide
+  goal: Test the centre against the requirements and grant, condition or withhold recognition.
+  step: centre-development/performance-review-and-recognition
+  touchpoints:
+  - inspection-and-audit
+  - centre-manual

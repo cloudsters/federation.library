@@ -1,0 +1,10 @@
+kind: capability
+slug: sterile-goods-release-and-traceability
+title: Sterile Goods Release & Traceability
+level: L3
+parent: sterile-processing
+summary: Release sterile goods by documented criteria and trace each set to the patient.
+binds:
+- source: src-296
+  edition: '2024'
+  jurisdiction: global

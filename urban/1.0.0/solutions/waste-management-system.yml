@@ -1,0 +1,15 @@
+kind: solution
+slug: waste-management-system
+title: Waste Management System
+role: system-of-record
+summary: Holds the containers, vehicles, depots and sites of the waste system, plans collection rounds, records missed collections
+  and the contracts of waste picker cooperatives, and counts what is collected, recovered and disposed of by neighbourhood and material.
+carries:
+- waste-collection-rounds
+- waste-picker-contracting
+- material-recovery
+- hazardous-waste-handling
+holds:
+- waste-system
+- waste-metrics
+- producer-responsibility-agreement

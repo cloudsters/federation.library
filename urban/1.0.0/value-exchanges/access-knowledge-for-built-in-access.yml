@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-knowledge-for-built-in-access
+title: Access Knowledge for Built-In Access
+between:
+- disabled-resident
+- city-administration
+offered:
+- Knowledge of where a service keeps disabled residents out.
+returned:
+- Accessibility written into the standard from the start and checked in service.
+touchpoint: service-standard-workshop

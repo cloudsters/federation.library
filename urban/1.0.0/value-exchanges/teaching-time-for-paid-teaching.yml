@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: teaching-time-for-paid-teaching
+title: Teaching Time for Paid Teaching
+between:
+- mentor
+- city-administration
+offered:
+- Time spent teaching an apprentice over an extended period.
+returned:
+- Pay from the pool for that time, as knowledge work and not as volunteering.
+touchpoint: mentor-apprentice-agreement

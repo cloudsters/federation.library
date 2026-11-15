@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: maternity-patient
+title: Maternity Patient
+nature: person
+stance: served
+summary: A pregnant person who comes to the commons for antenatal care, birth and the days after, from a low-risk birth to a high-risk
+  pregnancy that needs perinatal intensive care. Often the first contact a whole family has with the commons.
+seeks:
+- A safe birth in a setting that respects their wishes, with specialist care ready if mother or child needs it.
+brings:
+- Planned and unplanned demand that keeps obstetric and neonatal teams skilled and builds a family's lasting trust in the commons.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

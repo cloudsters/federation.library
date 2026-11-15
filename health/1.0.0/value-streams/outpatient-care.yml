@@ -1,0 +1,176 @@
+kind: value-stream
+slug: outpatient-care
+title: Outpatient Care
+family: demand-to-fulfillment
+summary: 'Seeing patients in specialist outpatient clinics: preparation, history and examination, diagnostics, diagnosis and plan,
+  in-person or remote follow-up, and a report to the referrer.'
+trigger: An outpatient appointment is booked for a patient on referral or for follow-up.
+outcome: The patient has a diagnosis and plan, the referrer has received a report, and follow-up is scheduled or care is completed.
+stakeholders:
+- outpatient
+- person-with-chronic-condition
+- person-with-cancer
+- referring-practice
+- specialist-physician
+- physician-in-specialty-training
+- advanced-practice-nurse
+- registered-nurse
+- administrative-staff
+- patient-assistant-agent
+- paediatric-patient
+steps:
+- slug: visit-preparation
+  title: Visit Preparation
+  summary: Before the appointment, the referral and prior findings are gathered from the referrer and the shared record, questionnaires
+    are sent to the patient, tests are arranged in advance and the clinic session is staffed.
+  capabilities:
+  - outpatient-clinic-operations
+  - appointment-booking-management
+  - patient-portal
+  - patient-reported-outcome-measurement
+  - shared-health-record-integration
+  entities:
+  - appointment
+  - schedule
+  - referral
+  - patient-reported-outcome
+  - patient-summary
+  serves:
+  - appointment-confirmation
+  - appointment-service
+  - patient-held-health-record
+  - patient-portal
+- slug: arrival-and-check-in
+  title: Arrival and Check-In
+  summary: The patient checks in at a kiosk or the desk, identity and coverage are confirmed, and the clinic sees who is waiting for
+    whom and for how long.
+  capabilities:
+  - patient-registration-and-admission
+  - patient-identification
+  - insurance-verification-and-coverage
+  - outpatient-clinic-operations
+  entities:
+  - encounter
+  - patient
+  - insurance-coverage
+  serves:
+  - admission-desk
+  - outpatient-clinic
+- slug: history-and-examination
+  title: History and Examination
+  summary: The clinician takes the history, reviews symptoms and current medication, examines the patient and records the findings
+    at the point of care, with an interpreter where language requires it.
+  capabilities:
+  - clinical-history-taking
+  - physical-examination
+  - medication-reconciliation
+  - clinical-documentation-at-point-of-care
+  - ambient-clinical-documentation
+  - interpreting-and-language-services
+  entities:
+  - observation
+  - health-issue
+  - medication-reconciliation
+  - clinical-document
+  serves:
+  - consultation
+- slug: outpatient-diagnostics
+  title: Outpatient Diagnostics
+  summary: Laboratory, imaging and functional tests are performed during the visit or on the same day where possible, so that results
+    reach the clinician before the patient leaves or by an agreed date.
+  capabilities:
+  - clinical-order-entry
+  - laboratory-test-stewardship
+  - point-of-care-testing
+  - specimen-collection-and-pre-analytics
+  - imaging-order-justification
+  entities:
+  - clinical-order
+  - specimen
+  - observation
+  - diagnostic-report
+  - image-study
+  serves:
+  - imaging-department
+  - laboratory-counter
+- slug: diagnosis-and-plan
+  title: Diagnosis and Plan
+  summary: Findings are integrated into a diagnosis, the options are discussed and a plan is agreed with the patient, including prescriptions,
+    digital health applications, self-management, an open trial where the patient is eligible, and the timing of the next contact.
+  capabilities:
+  - finding-integration
+  - diagnosis-confirmation
+  - care-plan-determination
+  - shared-decision-making-practice
+  - decision-aids-and-health-literacy
+  - medication-prescribing
+  - digital-health-application-prescription
+  - self-management-support
+  - trial-participant-recruitment
+  entities:
+  - diagnosis
+  - care-plan
+  - care-goal
+  - shared-decision
+  - medication-order
+  - participant-enrolment
+  serves:
+  - consultation
+  - medication-plan
+- slug: outpatient-treatment
+  title: Outpatient Treatment
+  summary: Treatments that need no overnight stay are delivered in the clinic or day unit under the agreed plan, such as infusions
+    and systemic cancer therapy, courses of radiotherapy and minor procedures.
+  capabilities:
+  - day-case-treatment
+  - systemic-cancer-therapy
+  - radiation-therapy
+  - medication-administration
+  - cytotoxic-preparation
+  entities:
+  - procedure
+  - medication-order
+  - medication-administration
+  - encounter
+  - care-plan
+  serves:
+  - day-care-unit
+- slug: report-to-the-referrer
+  title: Report to the Referrer
+  summary: A clinic letter with diagnosis, results, medication changes and the division of further tasks is sent to the referrer and
+    made available to the patient and the shared record.
+  capabilities:
+  - clinical-documentation-at-point-of-care
+  - ambient-clinical-documentation
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - referrer-relationship-management
+  entities:
+  - clinical-document
+  - care-communication
+  - patient-summary
+  serves:
+  - clinic-letter
+  - clinical-messaging-service
+  - patient-held-health-record
+- slug: follow-up-or-completion
+  title: Follow-Up or Completion
+  summary: Follow-up is booked in person or by video, patients with chronic conditions or after cancer are enrolled in structured
+    programmes, or care is completed, and the episode is closed and billed.
+  capabilities:
+  - video-consultation
+  - chronic-care-programmes
+  - cancer-survivorship-care
+  - affiliated-practice-integration
+  - appointment-booking-management
+  - outpatient-and-day-case-billing
+  entities:
+  - appointment
+  - episode-of-care
+  - teleconsultation
+  - care-plan
+  - charge-item
+  serves:
+  - clinic-letter
+  - patient-portal
+  - telemedicine-service

@@ -1,0 +1,13 @@
+kind: body
+slug: audit-and-risk-committee
+title: Audit and Risk Committee
+summary: Prepares the governing board's decisions on the accounts, the external audit, internal control, internal audit, risk and
+  compliance, and meets the auditors without the executive present.
+holds:
+- accounting-and-reporting
+- internal-control-and-audit
+- enterprise-risk-management
+- compliance-management
+part_of: governing-board
+type: committee
+form: governing-body

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: confidential-reporting-channel
+title: Confidential Reporting Channel
+medium: channel
+summary: The protected channel through which staff, patients and business partners report suspected misconduct, anonymously
+  if they wish, and learn what was done about it.
+exchanges:
+- trusted-reporting-channel
+- integrity-in-supplier-relations
+journey: staff-representation-raising-signals

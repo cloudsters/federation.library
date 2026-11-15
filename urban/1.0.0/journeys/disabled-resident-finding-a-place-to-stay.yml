@@ -1,0 +1,34 @@
+kind: journey
+slug: disabled-resident-finding-a-place-to-stay
+title: Disabled Resident Finding a Place to Stay
+stakeholder: disabled-resident
+summary: A disabled resident shows where rest is missing, asks for seating, shade and a toilet on the routes they use, agrees lighting
+  and safe routes home at night and checks that the space stays open to all.
+stages:
+- slug: show-where-rest-is-missing
+  title: Show Where Rest Is Missing
+  goal: Where the resident cannot stay for lack of seating, shade or toilets is recorded in the observation of the space.
+  step: public-space-use-and-programming/public-life-observation
+  touchpoints:
+  - public-life-observation-walk
+- slug: ask-for-seating-and-shade
+  title: Ask for Seating and Shade
+  goal: Seating, shade, water and toilets stand where the resident needs them, and the space is adapted as its use is learnt.
+  step: public-space-use-and-programming/places-to-stay-and-gather
+  touchpoints:
+  - rest-and-amenity-request
+  - places-to-sit-and-rest
+- slug: agree-safe-routes-at-night
+  title: Agree Safe Routes at Night
+  goal: Lighting and safe routes home are part of the night-time agreement for the space.
+  step: public-space-use-and-programming/night-time-life-agreements
+  touchpoints:
+  - night-time-forum
+  - published-night-time-agreement
+- slug: check-the-space-stays-open
+  title: Check the Space Stays Open
+  goal: The openness review records whether the space remains usable by disabled residents and others who need to rest.
+  step: public-space-use-and-programming/shared-care-of-public-spaces
+  touchpoints:
+  - public-space-openness-check
+  - published-public-life-survey

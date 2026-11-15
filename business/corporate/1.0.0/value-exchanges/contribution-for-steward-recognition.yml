@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: contribution-for-steward-recognition
+title: Contribution for Steward Recognition
+between:
+- partner
+- development-engineer
+offered:
+- Contributions of code, patterns and knowledge offered for review.
+returned:
+- Careful review, integration into the shared origin and ongoing recognition when others reuse the work.
+touchpoint: contribution-review

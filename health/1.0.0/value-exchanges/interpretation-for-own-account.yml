@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: interpretation-for-own-account
+title: Interpretation for Own Account
+between:
+- medical-interpreter
+- international-patient
+offered:
+- Complete and faithful interpretation of history taking, consent talks, ward rounds and discharge, with attention to cultural expectations.
+returned:
+- The person's own account in their own words, which makes the history reliable and consent and shared decisions valid.
+touchpoint: consent-form

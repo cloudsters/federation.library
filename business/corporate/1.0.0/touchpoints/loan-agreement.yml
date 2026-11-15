@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: loan-agreement
+title: Loan Agreement
+medium: artefact
+summary: The agreement with a lender on amount, term, interest, security, covenants and the reporting the loan requires.
+exchanges:
+- credit-for-covenant-discipline
+journey: lender-financing-a-long-horizon-investment

@@ -1,0 +1,33 @@
+kind: journey
+slug: local-producer-supplying-public-kitchens
+title: Local Producer Supplying Public Kitchens
+stakeholder: local-producer
+summary: A producer of the region reads the city's local purchasing targets, gets help to bid and deliver, supplies school and care
+  kitchens on multi-year terms and sees in the yearly report what local supply built.
+stages:
+- slug: read-the-local-targets
+  title: Read the Local Targets
+  goal: The producer knows the volumes the city commits to local food over several years.
+  step: local-supplier-development-and-social-value/local-purchasing-commitment
+  touchpoints:
+  - published-local-purchasing-targets
+- slug: get-ready-to-bid
+  title: Get Ready to Bid
+  goal: The producer or its cooperative has the help with tendering, certification and working capital it asked for.
+  step: local-supplier-development-and-social-value/supplier-capacity-building
+  touchpoints:
+  - tendering-clinic
+- slug: supply-the-kitchens
+  title: Supply the Kitchens
+  goal: The producer supplies public kitchens on multi-year terms with seasonal volume bands and a price band that covers its costs
+    and wages.
+  step: local-supplier-development-and-social-value/regional-food-sourcing-for-public-kitchens
+  touchpoints:
+  - producer-and-kitchen-contract-meeting
+  - public-kitchen
+- slug: see-what-local-supply-built
+  title: See What Local Supply Built
+  goal: The producer can see the city's local food share and whether the targets were met.
+  step: local-supplier-development-and-social-value/local-spend-and-social-value-report
+  touchpoints:
+  - published-local-spend-report

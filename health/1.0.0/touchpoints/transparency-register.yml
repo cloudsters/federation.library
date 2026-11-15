@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transparency-register
+title: Transparency Register
+medium: channel
+summary: The public register of approved data uses with their purpose, recipients and results, through which participants and the
+  public see how care data serve research.
+exchanges:
+- consent-for-protected-use
+journey: participant-allowing-data-reuse

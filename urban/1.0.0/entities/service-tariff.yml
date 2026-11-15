@@ -1,0 +1,61 @@
+kind: entity
+slug: service-tariff
+title: Service Tariff
+type: governance
+summary: The adopted charges for water, energy, heat, waste, drainage or transport, with the basic quantity, the reduced rates and
+  who qualifies for them. The service operator proposes it and the council adopts it after public review, and every utility account
+  and fare is charged by it.
+attributes:
+- name: service
+  type: code
+  card: 1..1
+- name: tariff-period
+  type: period
+  card: 1..1
+- name: charge-basis
+  type: code
+  card: 1..1
+- name: basic-quantity
+  type: quantity
+  card: 0..1
+- name: basic-charge
+  type: amount
+  card: 1..1
+- name: charge-bands
+  type: text
+  card: 1..*
+- name: standing-charge
+  type: amount
+  card: 0..1
+- name: reduced-rates
+  type: text
+  card: 0..*
+- name: eligibility-rules
+  type: reference(entitlement-rule)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- reviewed
+- adopted
+- in-force
+- renewed
+- superseded
+relations:
+- type: part-of
+  target: tax-and-charge-schedule
+- type: based-on
+  target: service-equity-report
+- type: governed-by
+  target: entitlement-rule
+- type: refers-to
+  target: council-decision
+binds:
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

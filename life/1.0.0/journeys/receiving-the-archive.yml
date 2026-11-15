@@ -1,0 +1,31 @@
+kind: journey
+slug: receiving-the-archive
+title: Receiving the Archive
+stakeholder: descendant
+via: portfolio-to-system
+summary: Those who come after receive a life's records gathered in one place, named and dated while someone still knew, kept in forms
+  they can still open, with the way in left for them.
+stages:
+- slug: find-it-gathered
+  title: Find It Gathered
+  goal: What lay in boxes, old phones and accounts has been brought into one place.
+  step: record-to-memory/gathering-the-scattered
+  touchpoints:
+  - family-archive
+- slug: read-names-and-dates
+  title: Read Names and Dates
+  goal: Photographs and papers carry who, where and when, so a stranger can read them.
+  step: record-to-memory/giving-things-names-and-dates
+  touchpoints:
+  - family-archive
+- slug: open-it-later
+  title: Open It Later
+  goal: The record is kept in forms and places that outlive any one device or service.
+  step: record-to-memory/keeping-it-readable
+  touchpoints: []
+- slug: find-the-way-in
+  title: Find the Way In
+  goal: Those who come after know where the archive is and how to open it.
+  step: record-to-memory/leaving-the-way-in
+  touchpoints:
+  - the-will

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: decision-for-respectful-donation
+title: Decision for Respectful Donation
+between:
+- relative
+- specialist-physician
+offered:
+- The patient's known or presumed decision on donation, conveyed in time.
+returned:
+- Honest and unhurried information, respect for the decision whichever it is, and a dignified farewell.
+touchpoint: donation-conversation

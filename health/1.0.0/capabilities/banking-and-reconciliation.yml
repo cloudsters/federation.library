@@ -1,0 +1,10 @@
+kind: capability
+slug: banking-and-reconciliation
+title: Banking & Reconciliation
+level: L3
+parent: treasury
+summary: Manage bank accounts and reconcile them with the ledger.
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,64 @@
+kind: journey
+slug: clinical-unit-obtaining-new-equipment
+title: Clinical Unit Obtaining New Equipment
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department brings an equipment need into the investment plan, shapes the choice with the unit's users
+  and receives equipment that is installed, connected and safe for the team to use.
+stages:
+- slug: state-the-need
+  title: State the Need
+  goal: The unit's request for new or replacement equipment is recorded with its clinical reason, urgency and expected use, and its
+    rank in the investment plan is known.
+  step: medical-equipment-acquisition/need-and-replacement-planning
+  touchpoints:
+  - investment-request
+  - investment-committee
+- slug: define-requirements
+  title: Define Requirements
+  goal: Users have stated what the equipment must do and how it must fit their work, and the assessment confirms that the benefit
+    justifies the cost.
+  step: medical-equipment-acquisition/evaluation-and-specification
+  touchpoints:
+  - equipment-specification
+  - technology-assessment-committee
+- slug: try-and-choose
+  title: Try and Choose
+  goal: Users have tried the shortlisted equipment in practice and their judgement weighs in the award.
+  step: medical-equipment-acquisition/procurement-and-contracting
+  touchpoints:
+  - product-trial
+  - call-for-tender
+- slug: prepare-the-space
+  title: Prepare the Space
+  goal: The room is ready, the works are timed around clinical operation and the unit knows when the equipment arrives.
+  step: medical-equipment-acquisition/site-preparation-and-installation
+  touchpoints:
+  - site-coordination-meeting
+- slug: witness-acceptance
+  title: Witness Acceptance
+  goal: The unit sees the equipment pass its acceptance tests and knows which defects the supplier must still correct.
+  step: medical-equipment-acquisition/delivery-and-acceptance-testing
+  touchpoints:
+  - device-commissioning
+  - acceptance-test-report
+- slug: see-it-registered-and-connected
+  title: See It Registered and Connected
+  goal: The device appears in the unit's inventory with its inspection dates, and its data reach the patient record without manual
+    transcription.
+  step: medical-equipment-acquisition/registration-and-integration
+  touchpoints:
+  - medical-equipment-register
+  - clinical-workstation
+- slug: instruct-the-team
+  title: Instruct the Team
+  goal: Every user is instructed and recorded before first use, and the operating procedure is at hand.
+  step: medical-equipment-acquisition/user-instruction-and-release
+  touchpoints:
+  - device-instruction-session
+  - learning-platform
+- slug: report-early-experience
+  title: Report Early Experience
+  goal: Faults and difficulties in the first months reach clinical engineering and the supplier and are resolved under warranty.
+  step: medical-equipment-acquisition/early-use-review
+  touchpoints:
+  - clinical-engineering-service-desk

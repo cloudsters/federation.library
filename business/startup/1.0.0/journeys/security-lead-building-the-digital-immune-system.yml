@@ -1,0 +1,47 @@
+kind: journey
+slug: security-lead-building-the-digital-immune-system
+title: Security Lead Building the Digital Defences
+stakeholder: information-technology-specialist
+summary: A security lead assesses digital risk, designs protection and continuity into systems, governs identities, watches for threats
+  and leads the containment and recovery of incidents.
+stages:
+- slug: assess-the-digital-risk
+  title: Assess the Digital Risk
+  goal: Threats, weaknesses and obligations are assessed and the accepted level of risk is set.
+  step: digital-immune-design/digital-risk-assessment
+  touchpoints:
+  - digital-risk-register
+  - board-meeting
+- slug: design-protection-in
+  title: Design Protection In
+  goal: Systems and data flows protect confidentiality, integrity and privacy from the start.
+  step: digital-immune-design/security-and-privacy-by-design
+  touchpoints:
+  - architecture-board
+  - processing-record
+- slug: govern-identities-and-access
+  title: Govern Identities and Access
+  goal: Every person, device, agent and system has only the access it needs.
+  step: digital-immune-design/identity-and-access-governance
+  touchpoints:
+  - access-request
+- slug: design-for-recovery
+  title: Design for Recovery
+  goal: Recovery targets and degraded modes exist for each critical service and are rehearsed.
+  step: digital-immune-design/continuity-and-recovery-design
+  touchpoints:
+  - recovery-exercise
+- slug: watch-for-threats
+  title: Watch for Threats
+  goal: Threats are seen early and vulnerabilities removed within their deadlines.
+  step: digital-immune-design/threat-and-vulnerability-monitoring
+  touchpoints:
+  - security-monitoring
+  - vulnerability-advisory
+- slug: contain-and-recover
+  title: Contain and Recover
+  goal: Incidents are contained, services recovered, those affected notified and lessons built in.
+  step: digital-immune-design/incident-containment-and-recovery
+  touchpoints:
+  - security-monitoring
+  - breach-notification

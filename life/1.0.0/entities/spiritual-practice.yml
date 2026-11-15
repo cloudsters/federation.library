@@ -1,0 +1,36 @@
+kind: entity
+slug: spiritual-practice
+title: Spiritual Practice
+type: master
+summary: A repeated practice this person holds for reasons that are not instrumental — prayer, meditation, contemplation, silence,
+  observance. Recorded as a practice rather than a belief because it is the doing that recurs.
+attributes:
+- name: form
+  type: code
+  card: 1..1
+- name: when-and-where
+  type: text
+  card: 1..1
+- name: length
+  type: duration
+  card: 0..1
+- name: rooted-in
+  type: text
+  card: 0..1
+- name: kept-with
+  type: list(community)
+  card: 0..*
+- name: kept-since
+  type: date
+  card: 0..1
+states:
+- drawn to
+- begun
+- kept
+- lapsed
+- returned to
+relations:
+- target: daily-rhythm
+  type: part-of
+- target: worldview
+  type: based-on

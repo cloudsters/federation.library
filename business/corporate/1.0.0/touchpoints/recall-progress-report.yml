@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: recall-progress-report
+title: Recall Progress Report
+medium: artefact
+summary: The running report of how far affected products have been reached, retrieved, repaired or replaced, shared with authorities
+  and trade partners until closure.
+exchanges:
+- timely-notification-for-coordinated-oversight
+- trade-cooperation-for-swift-withdrawal
+journey: quality-manager-leading-a-recall

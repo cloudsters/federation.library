@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: capacity-huddle
+title: Capacity Huddle
+medium: encounter
+summary: The short meeting held at fixed times each day in which patient-flow, ward and emergency leads match expected admissions
+  and discharges with beds and staff and agree actions and escalation.
+exchanges:
+- bed-proposal-for-approval
+journey: waiting-for-a-bed-journey

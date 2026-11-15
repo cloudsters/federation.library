@@ -1,0 +1,15 @@
+kind: body
+slug: quality-management
+title: Quality Management
+summary: Keeps the quality management system and its certification, controls and assures quality, and leads product conformity, safety
+  alerts and recalls.
+holds:
+- quality-management
+- product-safety-and-conformity
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

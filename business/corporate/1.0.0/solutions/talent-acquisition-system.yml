@@ -1,0 +1,19 @@
+kind: solution
+slug: talent-acquisition-system
+title: Talent Acquisition System
+role: system-of-record
+summary: Publishes vacancies, keeps candidate relationships and applications, organises selection and offers, and hands new hires
+  to the human resources record.
+carries:
+- candidate-relationship-memory
+- internal-mobility-marketplace
+- role-design-invitation
+- selection-as-mutual-discovery
+- talent-ecosystem-scouting
+- hiring-and-rehire-management
+- employer-branding
+- talent-pipeline-development
+holds:
+- job-vacancy
+- candidate
+- recruitment-application

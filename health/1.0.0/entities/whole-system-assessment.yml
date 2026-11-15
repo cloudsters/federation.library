@@ -1,0 +1,39 @@
+kind: entity
+slug: whole-system-assessment
+title: Whole-System Assessment
+type: intelligence
+summary: The periodic, integrated judgement of the state and vitality of the whole organisation across care, research, teaching
+  and enterprise, combining measures, environment signals and drift signals into one picture with its conclusions.
+attributes:
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: measure-reports
+  type: reference(measure-report)
+  card: 1..*
+- name: drift-signals
+  type: reference(drift-signal)
+  card: 0..*
+- name: benchmarks
+  type: reference(benchmark)
+  card: 0..*
+- name: conclusions
+  type: text
+  card: 1..1
+- name: prepared-for
+  type: reference(governance-body)
+  card: 1..*
+- name: content
+  type: document
+  card: 1..1
+states:
+- in-preparation
+- presented
+- accepted
+relations:
+- type: composed-of
+  target: measure-report
+- type: composed-of
+  target: drift-signal
+- type: based-on
+  target: benchmark

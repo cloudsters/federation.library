@@ -1,0 +1,37 @@
+kind: entity
+slug: maintenance-request
+title: Maintenance Request
+type: transactional
+summary: A signal from the operational body — the system sensing that something needs attention, whether proactively through scheduled
+  care or reactively when a breakdown demands response.
+attributes:
+- name: asset
+  type: reference(asset)
+  card: 0..1
+- name: equipment
+  type: reference(equipment)
+  card: 0..1
+- name: request-type
+  type: code
+  card: 1..1
+- name: priority
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: technician
+  type: reference(employee-record)
+  card: 0..1
+states:
+- requested
+- prioritised
+- assigned
+- in-progress
+- completed
+- closed
+relations:
+- type: refers-to
+  target: asset
+- type: refers-to
+  target: equipment

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: disruption-notice
+title: Disruption Notice
+medium: artefact
+summary: The notice to customers and partners of a disruption, its expected effect, the allocation of supply and the date of the next
+  update.
+exchanges:
+- honest-notice-for-continued-custom
+journey: business-customer-kept-supplied-through-a-disruption

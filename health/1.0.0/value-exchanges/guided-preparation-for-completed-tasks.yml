@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: guided-preparation-for-completed-tasks
+title: Guided Preparation for Completed Tasks
+between:
+- patient-assistant-agent
+- elective-inpatient
+offered:
+- Reminders and plain-language answers on preparation and the next step at any hour, with handover to staff for every clinical question.
+returned:
+- Completed questionnaires and confirmations, and the questions the agent cannot answer, passed on for staff to resolve.
+touchpoint: patient-portal

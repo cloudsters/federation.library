@@ -1,0 +1,22 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: model
+model: business
+variant: corporate
+source: Commons-Engineering/business.core@ffd527a26ed662f8feb66a56e5ed269afb3a303d:models/emulation/corporate
+written_in: commons-engineering/commons@0.3.0
+library: commons-engineering
+version: 1.0.0
+made_in: Commons-Engineering/business.core@ffd527a26ed662f8feb66a56e5ed269afb3a303d
+event: Commons-Engineering/business.core@ffd527a26ed662f8feb66a56e5ed269afb3a303d:lifecycle/events/2026-11-15-release-business-corporate-1.0.0.yml
+gate:
+  result: pass
+  check: Commons-Engineering/business.core@ffd527a:models/commons/commons-engineering/commons/specs/tools/check_library.py
+changed:
+- model
+parts:
+  model:
+    class: public
+    digest: sha256:3df936330b59be817e16c72a6089517af9c5e6217de8b506ef2fac9c3a6a4d27
+licence: CC-BY-SA-4.0
+answers: cloudsters/federation.library
+renames: {}

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: smart-meter-data-consent
+title: Smart Meter Data Consent
+medium: artefact
+summary: The household's record of consent under the rules residents agreed, stating what meter data is used, for what, and what flexibility
+  the household offers in return for a reward.
+exchanges:
+- flexibility-for-a-reward-under-agreed-data-rules
+journey: neighbourhood-association-building-community-energy

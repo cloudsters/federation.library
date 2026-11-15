@@ -1,0 +1,14 @@
+kind: stakeholder
+slug: municipal-ai-agent
+title: Municipal AI Agent
+nature: agent
+stance: serving
+summary: An AI agent acting for the municipality within a written mandate, under the oversight of a named person. It does or prepares
+  rule-based tasks and hands to a person what its mandate keeps human.
+seeks:
+- Clear tasks, stated limits, reliable data and a named person to escalate to.
+brings:
+- Consistent handling of rule-based tasks at any hour, cases prepared for people to decide, and a record of what it did and under
+  which mandate.
+represented_by:
+- agent-overseer

@@ -1,0 +1,12 @@
+kind: solution
+slug: contact-centre-and-self-service-system
+title: Contact Centre and Self-Service System
+role: system-of-engagement
+summary: Brings customer contacts across telephone, chat, messaging and the customer portal into one queue, and offers self-service
+  answers and conversational assistants for common requests.
+carries:
+- livechat-conversational-engagement
+- registration-as-relationship
+- request-inquiry-as-listening
+- customer-self-service
+holds: []

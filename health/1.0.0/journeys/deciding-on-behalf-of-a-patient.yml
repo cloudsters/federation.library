@@ -1,0 +1,53 @@
+kind: journey
+slug: deciding-on-behalf-of-a-patient
+title: Deciding on Behalf of a Patient
+stakeholder: relative
+summary: A relative whose family member can no longer decide is recognised as proxy, informed honestly and helped to decide as the
+  patient would have wished, often under time pressure in intensive or end-of-life care.
+stages:
+- slug: being-called-in
+  title: Being Called In
+  goal: Learn early that a decision is due and that one's role as proxy is needed.
+  step: informed-choice-and-consent/decision-recognition
+  touchpoints:
+  - intensive-care-unit
+  - ward
+- slug: establishing-authority
+  title: Establishing Authority
+  goal: Have one's authority to decide recognised, or the patient's directive found, without delay or dispute.
+  step: informed-choice-and-consent/capacity-and-representation
+  touchpoints:
+  - advance-directive-document
+  - consultation
+- slug: understanding-the-situation
+  title: Understanding the Situation
+  goal: Understand the patient's condition, prognosis and realistic options in plain terms.
+  step: informed-choice-and-consent/information-and-options
+  touchpoints:
+  - family-meeting
+  - interpreting-service
+- slug: representing-the-patients-will
+  title: Representing the Patient's Will
+  goal: Decide as the patient would have wished, not alone, and with ethics support when family or team disagree.
+  step: informed-choice-and-consent/deliberation
+  touchpoints:
+  - family-meeting
+- slug: deciding-for-the-patient
+  title: Deciding for the Patient
+  goal: Give or refuse consent on the patient's behalf in a record that protects both patient and proxy.
+  step: informed-choice-and-consent/decision-and-consent
+  touchpoints:
+  - consent-form
+- slug: seeing-the-decision-followed
+  title: Seeing the Decision Followed
+  goal: See the agreed limits of treatment followed on every shift and at every transfer.
+  step: informed-choice-and-consent/organisation-wide-availability
+  touchpoints:
+  - ward-round
+  - shift-handover
+- slug: revisiting-the-decision
+  title: Revisiting the Decision
+  goal: Be consulted again when the patient's condition changes, and be supported when care turns to comfort.
+  step: informed-choice-and-consent/honouring-review-and-withdrawal
+  touchpoints:
+  - family-meeting

@@ -1,0 +1,46 @@
+kind: journey
+slug: nursing-care-journey
+title: Nursing Care Journey
+stakeholder: elective-inpatient
+summary: A patient on a ward is known as a person, protected from avoidable harm, agrees the care wanted, receives help when needed,
+  sees progress and does not have to repeat everything at each shift.
+stages:
+- slug: be-known-as-a-person
+  title: Be Known as a Person
+  goal: Be asked about habits, needs and worries once and properly.
+  step: nursing-care/nursing-assessment
+  touchpoints:
+  - nursing-admission-interview
+- slug: be-protected
+  title: Be Protected
+  goal: Have risks of falls, pressure injury and malnutrition spotted before harm occurs.
+  step: nursing-care/risk-screening
+  touchpoints:
+  - nursing-admission-interview
+  - ward
+- slug: agree-the-care
+  title: Agree the Care
+  goal: Agree what help is wanted and what the patient does alone.
+  step: nursing-care/nursing-diagnosis-and-care-planning
+  touchpoints:
+  - ward
+- slug: get-help-when-needed
+  title: Get Help When Needed
+  goal: Receive care and help promptly when calling.
+  step: nursing-care/nursing-interventions
+  touchpoints:
+  - nurse-call
+  - ward
+- slug: see-progress
+  title: See Progress
+  goal: See own progress and be prepared for self-care at home.
+  step: nursing-care/nursing-evaluation
+  touchpoints:
+  - ward
+  - observation-chart
+- slug: be-handed-over-well
+  title: Be Handed Over Well
+  goal: Not have to repeat everything to every new nurse.
+  step: nursing-care/handover
+  touchpoints:
+  - shift-handover

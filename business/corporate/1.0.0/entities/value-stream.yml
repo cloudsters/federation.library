@@ -1,0 +1,43 @@
+kind: entity
+slug: value-stream
+title: Value Stream
+type: governance
+summary: A named flow of value creation — the path along which stakeholder need is transformed into delivered value, crossing capabilities
+  and touchpoints. The horizontal thread that weaves through the vertical architecture.
+attributes:
+- name: triggering-need
+  type: text
+  card: 1..1
+- name: stages
+  type: text
+  card: 1..*
+- name: capabilities
+  type: reference(capability)
+  card: 1..*
+- name: touchpoints
+  type: reference(touchpoint)
+  card: 0..*
+- name: inputs
+  type: text
+  card: 0..*
+- name: outputs
+  type: text
+  card: 0..*
+- name: flow-metrics
+  type: reference(measure)
+  card: 0..*
+states:
+- mapped
+- activated
+- measured
+- optimised
+- evolved
+relations:
+- type: depends-on
+  target: capability
+- type: refers-to
+  target: journey
+binds:
+- source: src-035
+  edition: '15'
+  jurisdiction: global

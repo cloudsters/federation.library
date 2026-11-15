@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-night-time-agreement
+title: Published Night-Time Agreement
+medium: artefact
+summary: The agreement for a neighbourhood's nights, published with its hours, sound limits, lighting and safe routes home.
+exchanges:
+- night-venue-trade-for-agreed-hours-and-sound
+journey: disabled-resident-finding-a-place-to-stay

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: annual-audit
+title: Annual Audit
+medium: encounter
+summary: The examination of the financial statements and the controls behind them by the external auditor, from the interim review
+  through year-end fieldwork to the closing meeting.
+exchanges:
+- audit-access-for-independent-opinion
+journey: auditing-the-annual-statements

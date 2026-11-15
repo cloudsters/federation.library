@@ -1,0 +1,35 @@
+kind: journey
+slug: journalist-reporting-on-the-company
+title: Journalist Reporting on the Company
+stakeholder: news-media
+summary: A journalist follows the company's own account, receives accurate announcements, gets consistent answers from a reachable
+  press office, is told the facts in a crisis and sees errors corrected openly.
+stages:
+- slug: follow-the-companys-account
+  title: Follow the Company's Account
+  goal: The journalist finds the company's narrative, its milestones and what is unfinished, with named spokespersons.
+  step: public-narrative-presence/narrative-and-message-strategy
+  touchpoints:
+  - online-newsroom
+- slug: receive-the-announcement
+  title: Receive the Announcement
+  goal: The journalist receives a plain, accurate announcement and has questions answered consistently.
+  step: public-narrative-presence/release-and-media-relations
+  touchpoints:
+  - press-release
+  - press-office
+- slug: get-the-facts-in-a-crisis
+  title: Get the Facts in a Crisis
+  goal: In a crisis the journalist reaches a defined spokesperson and receives coordinated statements that are corrected when facts
+    change.
+  step: public-narrative-presence/crisis-response
+  touchpoints:
+  - crisis-statement
+  - press-office
+- slug: see-errors-corrected
+  title: See Errors Corrected
+  goal: Inaccuracies in coverage are answered with facts, and the company's own errors are corrected in public.
+  step: public-narrative-presence/reputation-monitoring-and-response
+  touchpoints:
+  - online-newsroom
+  - press-office

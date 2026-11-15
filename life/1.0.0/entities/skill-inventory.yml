@@ -1,0 +1,40 @@
+kind: entity
+slug: skill-inventory
+title: Skill Inventory
+type: intelligence
+summary: What this person can do, at what level, and when each was last used in earnest. The last column is what turns a list into
+  an instrument.
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: skills
+  type: list(skill)
+  card: 1..*
+- name: level
+  type: code
+  card: 1..*
+- name: last-used-in-earnest
+  type: date
+  card: 0..*
+- name: paid-for
+  type: boolean
+  card: 0..*
+- name: credentials
+  type: list(credential)
+  card: 0..*
+- name: gone-stale
+  type: text
+  card: 0..*
+states:
+- listed
+- current
+- stale
+- revised
+relations:
+- target: skill
+  type: about
+- target: natural-gift
+  type: about
+- target: credential
+  type: about

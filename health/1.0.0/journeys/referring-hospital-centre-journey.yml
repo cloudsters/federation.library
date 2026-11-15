@@ -1,0 +1,27 @@
+kind: journey
+slug: referring-hospital-centre-journey
+title: Referring Hospital Centre Journey
+stakeholder: referring-hospital
+summary: A partner hospital joins the centre's network, presents its patients in the centre's case conferences and refers along agreed
+  routes.
+stages:
+- slug: join-the-network
+  title: Join the Network
+  goal: Agree the hospital's role, commitments and routes of referral and return with the centre.
+  step: centre-development/centre-structure-design
+  touchpoints:
+  - cooperation-agreement
+- slug: present-cases
+  title: Present Cases
+  goal: Present patients in the centre's case conferences, in person or by video link.
+  step: centre-development/pathway-and-case-conference-build
+  touchpoints:
+  - multidisciplinary-case-conference
+  - telemedicine-service
+- slug: refer-to-the-centre
+  title: Refer to the Centre
+  goal: Refer patients to the centre through the agreed route and receive them back with a clear plan.
+  step: centre-development/centre-launch
+  touchpoints:
+  - referrer-portal
+  - referrer-forum

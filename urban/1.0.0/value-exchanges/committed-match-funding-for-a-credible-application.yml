@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: committed-match-funding-for-a-credible-application
+title: Committed Match Funding for a Credible Application
+between:
+- city-council
+- funding-body
+offered:
+- The council's commitment of match funding.
+returned:
+- An application assessed as one the city can carry through.
+touchpoint: match-funding-resolution

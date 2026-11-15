@@ -1,0 +1,64 @@
+kind: entity
+slug: green-infrastructure-element
+title: Green Infrastructure Element
+type: master
+summary: A rain garden, swale, permeable surface, green roof, wetland or blue-green corridor that holds water, cools the air or supports
+  habitats. The department responsible keeps its record with those who care for it, and it is maintained and monitored like any other
+  asset.
+attributes:
+- name: element-number
+  type: identifier
+  card: 1..1
+- name: element-kind
+  type: code
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: site
+  type: reference(street|public-space|park|waterway)
+  card: 0..1
+- name: area
+  type: quantity
+  card: 0..1
+- name: water-holding-capacity
+  type: quantity
+  card: 0..1
+- name: built-on
+  type: date
+  card: 0..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: care-agreement
+  type: reference(place-care-agreement)
+  card: 0..1
+- name: monitoring-results
+  type: document
+  card: 0..*
+- name: asset-record
+  type: reference(infrastructure-asset)
+  card: 0..1
+states:
+- planned
+- built
+- establishing
+- established
+- under-repair
+- removed
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: based-on
+  target: adaptation-plan
+- type: refers-to
+  target: street
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: waterway
+- type: governed-by
+  target: place-care-agreement

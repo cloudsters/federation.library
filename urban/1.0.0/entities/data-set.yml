@@ -1,0 +1,66 @@
+kind: entity
+slug: data-set
+title: Data Set
+type: master
+summary: A body of data the city holds or uses, with its owner, definition, origin, quality, access rules and retention period. The
+  owning department keeps it and describes it in the data catalogue, and it is used in exchange, analysis and open data release within
+  its access rules.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: definition
+  type: reference(shared-data-model)
+  card: 0..1
+- name: data-owner
+  type: text
+  card: 1..1
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: origin
+  type: code
+  card: 1..*
+- name: source-sensors
+  type: reference(sensor)
+  card: 0..*
+- name: quality-measures
+  type: document
+  card: 0..1
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: access-rules
+  type: text
+  card: 1..1
+- name: personal-data
+  type: boolean
+  card: 1..1
+- name: retention-period
+  type: text
+  card: 0..1
+- name: formats
+  type: code
+  card: 0..*
+states:
+- proposed
+- defined
+- catalogued
+- in-use
+- archived
+- deleted
+relations:
+- type: based-on
+  target: shared-data-model
+- type: part-of
+  target: data-catalogue
+- type: refers-to
+  target: processing-record
+- type: refers-to
+  target: sensor
+- type: governed-by
+  target: data-sharing-agreement
+binds:
+- source: src-177
+  edition: '2017'
+  jurisdiction: global

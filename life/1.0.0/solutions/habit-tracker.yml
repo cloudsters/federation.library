@@ -1,0 +1,11 @@
+kind: solution
+slug: habit-tracker
+title: Habit Tracker
+role: system-of-insight
+sovereignty: hosted
+summary: Records what is done day by day, so that a habit, and its lapse, become visible early.
+carries:
+- building-habits-into-ordinary-days
+- starting-again-after-a-lapse
+holds:
+- habit-record

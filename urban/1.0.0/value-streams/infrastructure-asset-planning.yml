@@ -1,0 +1,123 @@
+kind: value-stream
+slug: infrastructure-asset-planning
+title: Infrastructure Asset Planning
+family: acquire-to-retire
+summary: Knowing what infrastructure the city holds and planning each asset over its whole life. It holds the record of every road,
+  bridge, pipe, public building, park and tree with its criticality, condition and remaining life, the maintenance backlog made public
+  in a ledger every resident can read, lifecycle plans with service levels for each class of asset, and renewal priorities set with
+  neighbourhoods and funded in the budget alongside new projects.
+trigger: The yearly asset planning cycle opens, or a survey, a failure or a new duty changes what the city knows about its assets.
+outcome: An adopted asset plan rests on a public record of condition and backlog, renewal priorities are agreed with neighbourhoods,
+  and upkeep is funded on the same footing as new projects.
+stakeholders:
+- asset-officer
+- city-council
+- city-administration
+- infrastructure-operator
+- finance-officer
+- neighbourhood-association
+- resident
+- future-generations
+steps:
+- slug: asset-inventory-and-criticality
+  title: Asset Inventory and Criticality
+  summary: The asset office records every asset with its location, class, owning department and the services and neighbourhoods that
+    depend on it, and rates how critical each one is. The result is one register of what the city holds and what fails worst if it
+    fails.
+  capabilities:
+  - public-asset-registration
+  - asset-criticality-rating
+  - data-definition-and-cataloguing
+  entities:
+  - infrastructure-asset
+  - public-asset-register
+  - gis-layer
+  serves:
+  - asset-register-review-session
+  - criticality-rating-workshop
+- slug: condition-survey
+  title: Condition Survey
+  summary: Inspectors survey the condition of assets by schedule and by risk, and residents' reports and sensor readings are added
+    to the survey. Each asset receives a condition grade and an estimate of its remaining life.
+  capabilities:
+  - condition-survey
+  - sensor-deployment
+  - digital-twin-upkeep
+  entities:
+  - condition-assessment
+  - infrastructure-asset
+  - sensor
+  serves:
+  - condition-survey-round
+  - resident-condition-report
+- slug: maintenance-backlog-disclosure
+  title: Maintenance Backlog Disclosure
+  summary: The asset office values the maintenance backlog as repair cost, share of asset value and remaining life, and publishes
+    it by asset and neighbourhood. Residents and the council can see what upkeep has been deferred and where.
+  capabilities:
+  - maintenance-backlog-publication
+  - upkeep-cost-assessment
+  - public-record-publication
+  entities:
+  - maintenance-backlog-ledger
+  - public-asset-register
+  serves:
+  - neighbourhood-backlog-meeting
+  - published-maintenance-backlog
+- slug: lifecycle-plans-by-asset-class
+  title: Lifecycle Plans by Asset Class
+  summary: For each class of asset the departments set the service level residents can expect, how and when assets are inspected,
+    maintained, renewed and retired, and the cost of that over their whole life. The plans together form the city's asset plan.
+  capabilities:
+  - asset-lifecycle-planning
+  - whole-life-cost-assessment
+  entities:
+  - asset-plan
+  - whole-life-cost-calculation
+  - infrastructure-asset
+  serves:
+  - lifecycle-planning-workshop
+  - published-asset-service-levels
+- slug: renewal-priorities-with-neighbourhoods
+  title: Renewal Priorities with Neighbourhoods
+  summary: Renewal and repair needs are ranked by published criteria of criticality, risk and fairness between neighbourhoods, and
+    neighbourhood bodies review the ranking and add what they see. The agreed priorities are recorded in the asset plan.
+  capabilities:
+  - renewal-prioritisation
+  - budget-equity-assessment
+  - involvement-planning
+  entities:
+  - asset-plan
+  - maintenance-backlog-ledger
+  - neighbourhood
+  serves:
+  - neighbourhood-backlog-meeting
+  - published-renewal-criteria
+  - renewal-ranking-session
+- slug: upkeep-funding
+  title: Upkeep Funding
+  summary: The asset plan is carried into the capital investment plan and the medium-term financial plan, with upkeep funded before
+    new assets are added. The council adopts the plan and the funding with the budget.
+  capabilities:
+  - capital-investment-planning
+  - medium-term-financial-planning
+  - upkeep-cost-assessment
+  entities:
+  - capital-investment-plan
+  - municipal-budget
+  - asset-plan
+  serves:
+  - asset-plan-budget-session
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

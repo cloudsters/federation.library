@@ -1,0 +1,197 @@
+kind: value-stream
+slug: strategy-development
+title: Strategy Development
+family: purpose-to-portfolio
+summary: 'Translating mandate and mission into strategy: assessing population need, environment and internal capability, choosing
+  strategic options, the business model and the organisational structure, setting goals and communicating them.'
+trigger: The strategy cycle opens, or a major shift in mandate, funding, demand or competition invalidates the current strategy.
+outcome: An adopted strategy with goals, measures, business model and target organisational structure is communicated and cascaded
+  to every unit.
+stakeholders:
+- executive
+- owner
+- head-of-clinical-department
+- university
+- staff-representation
+- patient-organisation
+- general-public
+steps:
+- slug: strategy-review-commissioning
+  title: Strategy Review Commissioning
+  summary: The board opens the strategy cycle, confirms the mandate and mission that bound it, and sets the horizon, scope, participants,
+    method and calendar of the review.
+  capabilities:
+  - strategy-cycle-management
+  - drift-and-vitality-sensing
+  - stakeholder-mandate-alignment
+  - academic-mandate-alignment
+  - board-communication-reporting
+  entities:
+  - strategy
+  - charter
+  - service-mandate
+  - governance-decision
+  serves:
+  - staff-intranet
+  - strategy-workshop
+  - supervisory-body-meeting
+- slug: environment-and-need-assessment
+  title: Environment and Need Assessment
+  summary: The population's health needs, demand and access patterns, referral flows, competing and partner providers, and regulatory,
+    payment and technology shifts are assessed for the strategy horizon.
+  capabilities:
+  - population-needs-assessment
+  - ecosystem-sensing
+  - demand-and-market-analysis
+  - regulatory-landscape-sensing
+  - referral-volume-forecasting
+  - predictive-analytics
+  entities:
+  - catchment-population
+  - service-mandate
+  - capacity-forecast
+  - referral-relationship
+  - benchmark
+  serves:
+  - performance-dashboard
+  - strategy-workshop
+- slug: internal-capability-assessment
+  title: Internal Capability Assessment
+  summary: Strengths, gaps and latent capacities are assessed across care, research, teaching, workforce, finances, digital maturity
+    and estate, using performance data and comparison with peers.
+  capabilities:
+  - internal-capability-sensing
+  - whole-system-state-perception
+  - integrated-performance-review
+  - performance-benchmarking
+  - service-line-profitability
+  - research-performance-assessment
+  - digital-maturity-assessment
+  - workforce-analytics-deployment
+  entities:
+  - measure-report
+  - benchmark
+  - financial-statement
+  - patient-level-cost
+  - dashboard
+  - organisation-unit
+  serves:
+  - performance-dashboard
+  - performance-dialogue
+- slug: vision-and-option-design
+  title: Vision and Option Design
+  summary: A long-term vision is formed, and strategic options, including business models, care-model shifts, innovation horizons
+    and alliances, are designed and evaluated against mandate, demand, capacity, finances and risk.
+  capabilities:
+  - strategic-vision-setting
+  - strategic-option-design
+  - business-model-design
+  - business-model-evolution
+  - care-model-shift-planning
+  - innovation-horizon-planning
+  - alliance-and-merger-assessment
+  - risk-oversight-and-coordination
+  entities:
+  - strategy
+  - catchment-population
+  - care-network
+  - risk
+  serves:
+  - patient-advisory-council
+  - strategy-workshop
+  - supervisory-body-meeting
+- slug: strategy-choice-and-adoption
+  title: Strategy Choice and Adoption
+  summary: The board selects one strategy and the investments it requires, consults staff representation, and has the strategy approved
+    by the supervisory body and the owner where the statutes require it.
+  capabilities:
+  - long-horizon-strategy-design
+  - capital-planning
+  - owner-relations
+  - co-determination-cooperation
+  - board-communication-reporting
+  entities:
+  - strategy
+  - governance-decision
+  - governance-body
+  serves:
+  - board-meeting
+  - staff-consultation
+  - staff-town-hall
+  - strategy-document
+  - supervisory-body-meeting
+- slug: target-organisation-design
+  title: Target Organisation Design
+  summary: The structure, clinical leadership, decision rights, legal entities and skill mix that the strategy requires are designed,
+    together with the path of restructuring from the present organisation.
+  capabilities:
+  - organisation-design
+  - restructuring-design
+  - clinical-leadership-structure
+  - delegation-of-authority
+  - subsidiary-governance
+  - skill-mix-design
+  entities:
+  - organisation-unit
+  - position
+  - governance-body
+  - cost-centre
+  serves:
+  - performance-dialogue
+  - staff-consultation
+  - strategy-document
+  - supervisory-body-meeting
+- slug: objective-cascade
+  title: Objective Cascade
+  summary: The strategy is translated into measurable objectives with owners, targets and measures, the people, digital and estate
+    strategies are aligned with it, and objectives are agreed with every unit and reflected in its budget.
+  capabilities:
+  - goal-setting-and-cascade
+  - strategy-alignment-across-functions
+  - performance-strategy
+  - planning-and-budgeting
+  - people-strategy-design
+  - technology-strategy-and-governance
+  - property-strategy
+  - performance-management
+  entities:
+  - strategic-objective
+  - measure
+  - budget
+  - organisation-unit
+  serves:
+  - performance-dialogue
+  - unit-objectives-agreement
+- slug: strategy-communication
+  title: Strategy Communication
+  summary: The adopted strategy is explained to staff, partners, the owner and the public in terms each can act on, and their responses
+    are gathered for the next review.
+  capabilities:
+  - strategy-communication
+  - communication-strategy
+  - internal-communication
+  - media-relations
+  - community-relations
+  entities:
+  - strategy
+  - strategic-objective
+  serves:
+  - annual-report
+  - patient-advisory-council
+  - public-website
+  - staff-intranet
+  - staff-town-hall
+  - strategy-document
+binds:
+- source: src-035
+  edition: '15'
+  jurisdiction: global
+- source: src-052
+  edition: '2022'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

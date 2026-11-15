@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shipment-tracking
+title: Shipment Tracking
+medium: channel
+summary: The notices and tracking view that tell the recipient what has been dispatched, where it is and when it will arrive, and
+  through which the place or time of delivery can be changed.
+exchanges:
+- shipping-data-for-reliable-carriage
+- honest-window-for-successful-delivery
+journey: consumer-receiving-and-returning-a-parcel

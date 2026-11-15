@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: risk-picture-for-a-stated-appetite
+title: Risk Picture for a Stated Appetite
+between:
+- mayor
+- city-council
+offered:
+- A risk framework with the city's top risks, their owners and proposed treatments.
+returned:
+- A stated appetite for each kind of threat, and funding or a reasoned acceptance for each risk beyond it.
+touchpoint: risk-review-meeting

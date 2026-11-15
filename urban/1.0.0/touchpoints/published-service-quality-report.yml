@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-service-quality-report
+title: Published Service Quality Report
+medium: artefact
+summary: The published report of how each service met its standards, which failures occurred, what was done about them and what was
+  learned.
+exchanges:
+- inspection-findings-for-an-answer-on-quality
+- quality-report-for-council-scrutiny
+journey: resident-inspector-reviewing-service-quality

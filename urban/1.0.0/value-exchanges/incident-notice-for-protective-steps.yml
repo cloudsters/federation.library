@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: incident-notice-for-protective-steps
+title: Incident Notice for Protective Steps
+between:
+- city-administration
+- resident
+offered:
+- Notice of an incident, what it affects and where services still run.
+returned:
+- Residents who take protective steps and report what they see.
+touchpoint: security-incident-notice

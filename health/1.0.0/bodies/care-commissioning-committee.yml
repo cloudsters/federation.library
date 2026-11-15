@@ -1,0 +1,11 @@
+kind: body
+slug: care-commissioning-committee
+title: Care Commissioning Committee
+summary: 'An elected committee of the owner that commissions care: it defines the care mandate, the population and services
+  owed and the rules under which the commons and other providers are paid. Found where a regional authority both owns and funds
+  care.'
+holds:
+- care-mandate
+part_of: owner-assembly
+type: committee
+form: governing-body

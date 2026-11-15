@@ -1,0 +1,21 @@
+id: origin
+term: Origin
+layer: what
+kind: concept
+definition: 'Where a record, a pattern or an emulation comes from: a record of a released model by `<library>/<model>@<version>#<kind>:<slug>`,
+  a pattern by its id and release, and an emulation by a release, a revision or another emulation.'
+why: One key with one meaning, as the lock and the bill already spell it (commons.o#109, decision 12); it replaces adopted_from.
+  A record keeps its origin's slug even where the commons renames it. A record of the commons' own, and a change taken from
+  one of its own emulations, names none, since only a release is an origin that stays. What a record changes against its
+  origin is derived on request, and where-used resolves origins, so a withholding reaches every record built from the release.
+  In German, Herkunft.
+relations:
+  names: release
+  resolved_by: where-used
+not:
+- adopted_from, its earlier key
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

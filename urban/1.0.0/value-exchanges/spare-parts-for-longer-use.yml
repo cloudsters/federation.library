@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: spare-parts-for-longer-use
+title: Spare Parts for Longer Use
+between:
+- supplier
+- city-administration
+offered:
+- Spare parts and repair information for the vehicles, machines and equipment the supplier sold the city.
+returned:
+- Contracts that reward durability and repair over replacement.
+touchpoint: municipal-fleet-workshop

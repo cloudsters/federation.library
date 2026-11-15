@@ -1,0 +1,138 @@
+kind: value-stream
+slug: arts-and-cultural-participation
+title: Arts and Cultural Participation
+family: interest-to-relationship
+summary: Supporting residents to make culture as well as to attend it. It holds the mapping of the city's cultural life with those
+  who make it, a culture plan agreed with artists and communities, affordable spaces where artists work and teach, theatres, museums
+  and libraries opened to residents as makers and as partners in choosing what is shown, support for community culture that does not
+  make groups dependent, public art decided by the neighbourhoods that live with it, and the protection of cultural spaces from displacement.
+trigger: The culture plan falls due, artists or community groups ask for space or support, or a cultural space is at risk of being
+  lost.
+outcome: Residents of every neighbourhood make and shape culture in spaces they can reach and afford, and the city's cultural places
+  are held together with the communities that use them.
+stakeholders:
+- artist
+- cultural-organisation
+- resident
+- young-people
+- older-resident
+- neighbourhood-association
+- civil-society-organisation
+- affected-community
+steps:
+- slug: cultural-life-mapping
+  title: Cultural Life Mapping
+  summary: The city maps with artists, cultural groups and neighbourhoods where culture is made and enjoyed, including informal and
+    community practice, and where residents have no culture within reach.
+  capabilities:
+  - cultural-mapping
+  - community-asset-mapping
+  entities:
+  - community-asset-map
+  - cultural-venue
+  serves:
+  - cultural-mapping-walk
+  - published-cultural-map
+- slug: culture-plan
+  title: Culture Plan
+  summary: A culture plan is agreed with artists, cultural organisations and neighbourhoods, stating what the city funds, the spaces
+    it keeps and how residents take part in making culture.
+  capabilities:
+  - culture-plan-drafting
+  - deliberation-facilitation
+  entities:
+  - culture-plan
+  serves:
+  - culture-plan-forum
+  - published-culture-plan
+- slug: affordable-creative-spaces
+  title: Affordable Creative Spaces
+  summary: Studios, rehearsal rooms and workshops are provided at affordable rents in public buildings and empty spaces, run by the
+    artists themselves, with a commitment to teach and to open their doors to neighbours.
+  capabilities:
+  - creative-workspace-provision
+  - public-land-leasing
+  - interim-use-arrangement
+  entities:
+  - creative-workspace
+  - building
+  serves:
+  - artist-run-studio
+  - creative-workspace-call
+  - open-studio-day
+- slug: venues-open-to-residents
+  title: Venues Open to Residents
+  summary: Theatres, concert halls, museums and libraries open their programmes and collections to residents as makers and as partners
+    in choosing what is shown, with community programming in turn and tickets that residents can afford.
+  capabilities:
+  - community-venue-programming
+  - shared-collection-curation
+  - leisure-access-pricing
+  entities:
+  - cultural-venue
+  - cultural-collection
+  - cultural-performance
+  - library
+  serves:
+  - community-programming-night
+  - resident-ticket-scheme
+  - shared-curation-panel
+- slug: community-culture-funding
+  title: Community Culture Funding
+  summary: Small grants and stable support over several years go to community culture, chosen with residents and artists, with safeguards
+    that keep the groups independent of the city.
+  capabilities:
+  - community-grant-making
+  - independence-safeguard-review
+  entities:
+  - community-grant
+  - culture-plan
+  serves:
+  - community-culture-grant-call
+  - culture-grant-panel
+  - published-culture-plan
+- slug: public-art-decided-by-neighbourhoods
+  title: Public Art Decided by Neighbourhoods
+  summary: Public art, murals and other shared symbols in a neighbourhood are commissioned and cared for through decisions taken by
+    those who live with them.
+  capabilities:
+  - public-art-commissioning
+  - neighbourhood-identity-support
+  entities:
+  - public-artwork
+  - place-care-agreement
+  serves:
+  - public-art-neighbourhood-decision
+  - public-artwork-care-agreement
+- slug: cultural-space-protection-and-review
+  title: Cultural Space Protection and Review
+  summary: Cultural spaces under pressure from rising rents or redevelopment are protected through planning rules, community ownership
+    or reuse, and who takes part in culture, by neighbourhood and group, is reviewed with the communities concerned.
+  capabilities:
+  - cultural-space-protection
+  - displacement-risk-assessment
+  - equity-audit
+  entities:
+  - cultural-venue
+  - heritage-protection
+  - equity-impact-assessment
+  serves:
+  - cultural-space-at-risk-notice
+  - culture-participation-review-meeting
+  - published-cultural-map
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-262
+  edition: '1976-11-26'
+  jurisdiction: global
+- source: src-263
+  edition: '1980-10-27'
+  jurisdiction: global
+- source: src-264
+  edition: '2003-10-17'
+  jurisdiction: global
+- source: src-267
+  edition: '2013-04-17'
+  jurisdiction: global

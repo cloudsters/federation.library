@@ -1,0 +1,15 @@
+kind: body
+slug: finance-and-audit-committee
+title: Finance and Audit Committee
+summary: Receives the reports of internal audit, resident inspectors and the external auditor, follows every finding to an answer,
+  and examines implementation and compliance reports for the council.
+holds:
+- public-oversight-and-audit
+- compliance-reporting
+- reserve-level-setting
+- borrowing-strategy-design
+- fiscal-sustainability-assessment
+- service-quality-review
+part_of: full-council
+type: committee
+form: governing-body

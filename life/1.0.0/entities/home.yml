@@ -1,0 +1,36 @@
+kind: entity
+slug: home
+title: Home
+type: master
+summary: Where this life is lived from — owned, rented, shared, mobile. Carries both a cost and an attachment, and the two are rarely
+  proportionate to each other.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: where
+  type: text
+  card: 1..1
+- name: since
+  type: date
+  card: 0..1
+- name: cost
+  type: money
+  card: 0..1
+- name: shared-with
+  type: text
+  card: 0..*
+- name: what-unsettles
+  type: text
+  card: 0..*
+states:
+- looking
+- settling in
+- lived in
+- rearranged
+- left
+relations:
+- target: account
+  type: depends-on
+- target: significant-place
+  type: part-of

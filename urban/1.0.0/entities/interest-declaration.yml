@@ -1,0 +1,52 @@
+kind: entity
+slug: interest-declaration
+title: Interest Declaration
+type: transactional
+summary: A declaration by a councillor or official of interests, gifts and other roles that may conflict with their duties, and of
+  the decisions they stepped back from. The council office collects, publishes and checks it, and it is consulted before each decision
+  in which the declarant takes part.
+attributes:
+- name: declarant
+  type: text
+  card: 1..1
+- name: declarant-role
+  type: code
+  card: 1..1
+- name: declaration-period
+  type: period
+  card: 1..1
+- name: declared-on
+  type: date
+  card: 1..1
+- name: interests
+  type: text
+  card: 0..*
+- name: gifts
+  type: text
+  card: 0..*
+- name: other-roles
+  type: text
+  card: 0..*
+- name: decisions-stepped-back-from
+  type: reference(council-decision)
+  card: 0..*
+- name: checked-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- due
+- submitted
+- published
+- checked
+- updated
+- closed
+relations:
+- type: governed-by
+  target: code-of-conduct
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: public-record

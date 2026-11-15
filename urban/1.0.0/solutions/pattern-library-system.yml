@@ -1,0 +1,19 @@
+kind: solution
+slug: pattern-library-system
+title: Pattern Library System
+role: system-of-record
+summary: Holds the city's practice patterns with the contexts in which they were tested, the conditions under which they hold and
+  fail, the evidence reviews behind them, their adherence reports and their revision or retirement, and publishes the library to staff,
+  residents and peer cities.
+carries:
+- evidence-and-variation-scanning
+- pattern-validation
+- pattern-condition-statement
+- pattern-library-curation
+- practice-adherence-monitoring
+- pattern-retirement
+holds:
+- practice-pattern
+- pattern-library
+- practice-adherence-report
+- evidence-review

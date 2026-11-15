@@ -1,0 +1,44 @@
+kind: entity
+slug: pattern-log
+title: Pattern Log
+type: intelligence
+summary: Repetitions this person has recognised in their own conduct — what recurs, under what conditions, with what result. A pattern
+  seen is not yet a limit; it is a default, and the difference is the whole point of writing it down.
+attributes:
+- name: pattern
+  type: text
+  card: 1..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: result
+  type: text
+  card: 0..1
+- name: origin
+  type: code
+  card: 0..1
+- name: first-seen
+  type: date
+  card: 0..1
+- name: seen-again
+  type: date
+  card: 0..*
+- name: usable-by-others
+  type: boolean
+  card: 0..1
+- name: retired-on
+  type: date
+  card: 0..1
+states:
+- noticed
+- written
+- used
+- improved
+- retired
+relations:
+- target: self
+  type: about
+- target: ancestor
+  type: about
+- target: journal
+  type: based-on

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: failure-insight-for-better-design
+title: Failure Insight for Better Design
+between:
+- maintenance-technician
+- development-engineer
+offered:
+- Maintenance history and the causes found behind significant failures.
+returned:
+- Designs and specifications changed to remove those causes.
+touchpoint: root-cause-review

@@ -1,0 +1,42 @@
+kind: entity
+slug: public-statement
+title: Public Statement
+type: transactional
+summary: A message the organisation issues to the media or the public, such as a press release, a crisis statement, a correction or
+  a reply to a public review, with its topic, approval, spokesperson and time of release.
+attributes:
+- name: statement-kind
+  type: code
+  card: 1..1
+- name: topic
+  type: text
+  card: 1..1
+- name: audiences
+  type: code
+  card: 1..*
+- name: channels
+  type: code
+  card: 1..*
+- name: content
+  type: document
+  card: 1..1
+- name: spokesperson
+  type: reference(employee)
+  card: 0..1
+- name: approved-by
+  type: reference(employee)
+  card: 1..1
+- name: released-at
+  type: datetime
+  card: 0..1
+states:
+- draft
+- under-approval
+- released
+- corrected
+- withdrawn
+relations:
+- type: refers-to
+  target: incident
+- type: refers-to
+  target: public-rating

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-digital-roadmap
+title: Published Digital Roadmap
+medium: artefact
+summary: The published plan of which systems are built, replaced and retired, and when, with the whole-life cost of each and the programmes
+  that carry them.
+exchanges:
+- costed-roadmap-for-capital-funding
+- aligned-offers-for-a-published-roadmap
+journey: city-council-setting-the-digital-direction

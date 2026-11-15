@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: incident-reports-for-safety-action
+title: Incident Reports for Safety Action
+between:
+- customer-service-representative
+- quality-manager
+offered:
+- Prompt, factual reports of harm or risk raised by customers.
+returned:
+- Action by the safety owner and word on what was done, so that the front line can answer the customer.
+touchpoint: incident-report

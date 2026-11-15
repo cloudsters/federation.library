@@ -1,0 +1,26 @@
+kind: journey
+slug: employee-owner-sharing-in-the-gains
+title: Employee Owner Sharing in the Gains
+stakeholder: employee-owner
+summary: An employee owner receives a profit share and sees how automation gains are shared and how fairly reward is distributed,
+  as both contributor and owner.
+stages:
+- slug: receive-the-profit-share
+  title: Receive the Profit Share
+  goal: The employee owner receives the profit share with a clear statement of how it was calculated.
+  step: recognition-reciprocity/pay-review
+  touchpoints:
+  - profit-share-statement
+- slug: see-automation-gains-shared
+  title: See Automation Gains Shared
+  goal: The employee owner sees the share of automation gains reported like any other commitment.
+  step: recognition-reciprocity/automation-gain-sharing
+  touchpoints:
+  - automation-gain-sharing-report
+- slug: judge-the-fairness-as-owner
+  title: Judge the Fairness as Owner
+  goal: The employee owner reviews the fairness findings and can raise them in the owners' and staff forums.
+  step: recognition-reciprocity/retention-and-fairness-review
+  touchpoints:
+  - pay-fairness-report
+  - staff-assembly

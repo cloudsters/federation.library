@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: tap-water-quality-results
+title: Tap Water Quality Results
+medium: artefact
+summary: The published results of tests at the plant and at taps by neighbourhood, with any limit exceeded and the warning given.
+exchanges:
+- published-results-for-trust-in-the-tap
+journey: resident-relying-on-safe-water

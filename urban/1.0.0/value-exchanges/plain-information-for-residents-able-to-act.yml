@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: plain-information-for-residents-able-to-act
+title: Plain Information for Residents Able to Act
+between:
+- resident
+- city-administration
+offered:
+- Residents' attention to what the city decided and changed.
+returned:
+- Information in plain language and their own language on what changed, why and what it means for them.
+touchpoint: plain-language-notice

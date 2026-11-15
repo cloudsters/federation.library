@@ -1,0 +1,51 @@
+kind: entity
+slug: process-model
+title: Process Model
+type: master
+summary: The documented model of a clinical or administrative process, with its owner, purpose, steps, roles, inputs, outputs, interfaces
+  and measures, published for those who carry it out and used as the baseline for improvement and automation.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: process-owner
+  type: reference(employee)
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: model
+  type: document
+  card: 1..1
+- name: roles
+  type: code
+  card: 1..*
+- name: measures
+  type: reference(measure)
+  card: 0..*
+- name: version
+  type: identifier
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- draft
+- published
+- under-review
+- retired
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: measure
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

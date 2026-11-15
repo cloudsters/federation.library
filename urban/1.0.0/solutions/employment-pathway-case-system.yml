@@ -1,0 +1,17 @@
+kind: solution
+slug: employment-pathway-case-system
+title: Employment Pathway Case System
+role: system-of-engagement
+summary: Records the pathway of each job seeker from intake to an ongoing role, the openings held under local hiring commitments and
+  their delivery, the cooperatives formed from informal trades, and each transition plan with its income floor and placements.
+carries:
+- local-hiring-requirement-setting
+- job-matching
+- livelihood-skills-teaching
+- worker-cooperative-formation-support
+- workforce-transition-planning
+- transition-income-protection
+holds:
+- employment-pathway
+- local-hiring-agreement
+- workforce-transition-plan

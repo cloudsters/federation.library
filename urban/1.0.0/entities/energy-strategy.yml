@@ -1,0 +1,62 @@
+kind: entity
+slug: energy-strategy
+title: Energy Strategy
+type: governance
+summary: The city's plan for power and heat, with renewable generation, heat networks, retrofit, community ownership and the transition
+  of fossil energy workers. The energy office drafts it from the map of demand and sources and the council adopts it, and it decides
+  where heat networks, generation and retrofit go first.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: renewable-targets
+  type: text
+  card: 1..*
+- name: priority-areas
+  type: reference(neighbourhood)
+  card: 0..*
+- name: generation-sites
+  type: text
+  card: 0..*
+- name: retrofit-programme
+  type: reference(capital-project)
+  card: 0..*
+- name: community-ownership-target
+  type: text
+  card: 0..1
+- name: worker-transition
+  type: reference(workforce-transition-plan)
+  card: 0..1
+- name: demand-map
+  type: reference(gis-layer)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- renewed
+- retired
+relations:
+- type: based-on
+  target: gis-layer
+- type: based-on
+  target: carbon-footprint
+- type: refers-to
+  target: energy-grid
+- type: refers-to
+  target: heat-network
+- type: refers-to
+  target: workforce-transition-plan
+- type: governed-by
+  target: city-strategy

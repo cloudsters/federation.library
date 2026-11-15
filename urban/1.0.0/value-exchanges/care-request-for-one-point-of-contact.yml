@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: care-request-for-one-point-of-contact
+title: Care Request for One Point of Contact
+between:
+- caregiver
+- social-worker
+offered:
+- A request for care and what they know of the person they care for.
+returned:
+- One point of contact and an assessment made with them and the person.
+touchpoint: single-care-request-point

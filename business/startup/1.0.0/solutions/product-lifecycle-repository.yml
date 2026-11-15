@@ -1,0 +1,35 @@
+kind: solution
+slug: product-lifecycle-repository
+title: Product Lifecycle Repository
+role: system-of-record
+summary: 'Holds products and services from idea to withdrawal: requirements, specifications, structures, variants, documents, engineering
+  changes, material passports and the gates passed on the way.'
+carries:
+- bill-of-materials-architecture
+- circular-production-design
+- composable-offering-architecture
+- delivery-readiness-design
+- offering-as-pattern
+- offering-knowledge-architecture
+- offering-lifecycle-stewardship
+- offering-portfolio-cultivation
+- offering-prototyping-craft
+- plm-engineering-change
+- product-variant-configuration
+- requirement-sensing
+- workstation-and-routing-design
+- offering-roadmap-planning
+- service-definition
+- product-documentation
+- product-design-and-engineering
+- development-gate-governance
+- product-regulatory-compliance
+holds:
+- product
+- service
+- product-variant
+- product-specification
+- bom
+- routing
+- circular-material-passport
+- change-request

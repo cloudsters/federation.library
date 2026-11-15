@@ -1,0 +1,120 @@
+kind: value-stream
+slug: community-relations-and-cohesion
+title: Community Relations and Cohesion
+family: participant-to-community
+summary: Building trust and solidarity between residents of different faiths, origins, ages and incomes, so that the city holds its
+  differences without splitting along them. It holds the sensing of cohesion and of early signs of tension, standing dialogue between
+  faith and belief communities and agreements on shared space, programmes and places where generations meet, places where people of
+  different backgrounds meet and work through disagreement, and dialogue on contested histories that lets several accounts stand side
+  by side.
+trigger: The cohesion assessment or community workers show growing distance or tension between groups, an incident or a public dispute
+  strains relations, or a faith, age or community group asks for dialogue.
+outcome: Groups that lived apart know and work with one another, tensions are noticed and answered early, and shared places and stories
+  hold the city's differences.
+stakeholders:
+- resident
+- faith-communities
+- civil-society-organisation
+- neighbourhood-association
+- young-people
+- older-resident
+- affected-community
+- community-development-worker
+- mayor
+steps:
+- slug: cohesion-sensing
+  title: Cohesion Sensing
+  summary: Trusted residents, community workers and the resident survey report how groups relate, where trust is falling and where
+    tension is rising, and the city brings these signals together in a cohesion assessment.
+  capabilities:
+  - tension-sensing
+  - cohesion-assessment
+  - city-signal-collection
+  entities:
+  - cohesion-assessment
+  - citizen-satisfaction
+  serves:
+  - published-cohesion-picture
+  - trusted-voices-network
+- slug: interfaith-dialogue
+  title: Interfaith Dialogue
+  summary: The city convenes a standing forum of faith and belief communities that meets regularly, acts together for the common good
+    and is ready to speak together when tension rises.
+  capabilities:
+  - interfaith-forum-convening
+  - coalition-convening
+  entities:
+  - interfaith-forum
+  - faith-community
+  serves:
+  - interfaith-forum-meeting
+- slug: faith-and-shared-space-agreements
+  title: Faith and Shared Space Agreements
+  summary: Faith communities and their neighbours agree how sacred sites, burial grounds, ritual times and shared streets and squares
+    are respected and used, and the city records the agreement and its review.
+  capabilities:
+  - faith-space-agreement-drafting
+  - heritage-and-place-story-assessment
+  entities:
+  - faith-space-agreement
+  - faith-community
+  serves:
+  - faith-space-agreement-meeting
+- slug: intergenerational-programmes
+  title: Intergenerational Programmes
+  summary: Young people, families and older residents are brought together in shared places and programmes, such as playgrounds with
+    seating for elders, mentoring, learning and care exchanges, so that knowledge and care flow both ways.
+  capabilities:
+  - intergenerational-programme-design
+  - encounter-space-design
+  entities:
+  - intergenerational-programme
+  - community-centre
+  serves:
+  - all-ages-play-and-rest-space
+  - intergenerational-programme-session
+- slug: encounter-across-difference
+  title: Encounter Across Difference
+  summary: Markets, halls, parks and shared meals are designed and run as neutral places where residents of different origins and
+    incomes meet again and again, and facilitated gatherings let them work through disagreement on real questions.
+  capabilities:
+  - encounter-space-design
+  - deliberation-facilitation
+  - tension-de-escalation
+  entities:
+  - community-event
+  - community-centre
+  serves:
+  - facilitated-dialogue-gathering
+  - neutral-meeting-place
+- slug: contested-history-dialogue
+  title: Contested History Dialogue
+  summary: Where groups hold competing histories of a place, a monument or a past harm, the city convenes those concerned to present
+    the accounts side by side without forcing agreement, and records what is agreed on naming, display and repair.
+  capabilities:
+  - contested-history-dialogue-convening
+  - civic-memory-documentation
+  - place-naming-and-commemoration
+  entities:
+  - civic-memory-record
+  - heritage-protection
+  serves:
+  - contested-history-forum
+  - side-by-side-history-display
+- slug: cohesion-review
+  title: Cohesion Review
+  summary: The city and its community partners review each year whether relations between groups have improved, what each programme
+    achieved and where tension persists, and report it openly.
+  capabilities:
+  - cohesion-assessment
+  - lesson-recording-and-sharing
+  entities:
+  - cohesion-assessment
+  - lesson-record
+  serves:
+  - cohesion-review-meeting
+  - published-cohesion-picture
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

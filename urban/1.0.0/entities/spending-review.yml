@@ -1,0 +1,65 @@
+kind: entity
+slug: spending-review
+title: Spending Review
+type: intelligence
+summary: The review of what a service or programme achieved for its money against its objective and the measures residents helped
+  set. The finance department carries it out with the department responsible and with residents and publishes the results, and the
+  next budget moves money from what did not work to what did.
+attributes:
+- name: review-period
+  type: period
+  card: 1..1
+- name: reviewed-programme
+  type: reference(city-programme)
+  card: 0..1
+- name: reviewed-department
+  type: reference(department)
+  card: 0..1
+- name: objectives
+  type: reference(city-objective)
+  card: 1..*
+- name: measures
+  type: text
+  card: 1..*
+- name: spending
+  type: amount
+  card: 1..1
+- name: measured-results
+  type: text
+  card: 1..*
+- name: benefits-by-group
+  type: document
+  card: 0..1
+- name: participating-residents
+  type: text
+  card: 0..*
+- name: proposed-budget-changes
+  type: text
+  card: 0..*
+- name: reviewed-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scoped
+- conducted
+- published
+- applied-in-budget
+- closed
+relations:
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: city-objective
+- type: based-on
+  target: annual-accounts
+- type: based-on
+  target: programme-report
+- type: produces
+  target: oversight-report
+binds:
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global

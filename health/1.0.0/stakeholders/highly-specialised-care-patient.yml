@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: highly-specialised-care-patient
+title: Highly Specialised Care Patient
+nature: person
+stance: served
+summary: A person referred from a wide catchment for care concentrated in few centres, such as transplantation, severe burns or complex
+  surgery. The treating commons is often far from home and from the follow-on care.
+seeks:
+- Access to scarce expertise, coordinated travel and admission, and a handover back to care close to home.
+brings:
+- The complex cases that justify the commons' highly specialised mandates and sustain the experience its specialist teams need.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

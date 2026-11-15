@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: calibrated-say-for-protected-groups
+title: Calibrated Say for Protected Groups
+between:
+- affected-community
+- city-council
+offered:
+- The consent or objection of the group most affected, on the matters that touch it most.
+returned:
+- Protection strong enough to matter, bounded so that it does not freeze every decision.
+touchpoint: affected-group-consent-round

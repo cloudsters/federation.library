@@ -1,0 +1,105 @@
+kind: value-stream
+slug: knowledge-as-commons
+title: Knowledge as Commons
+family: collaboration-to-automation
+summary: 'Stewarding the organisation''s know-how as a commons: critical knowledge is identified, captured, curated and taught through
+  articles, patterns, communities and courses, so that people and agents find what others already know.'
+trigger: Knowledge is at risk of being lost, a team cannot find what others already know, or a knowledge base falls due for curation.
+outcome: Critical knowledge is captured, curated and in use by people and agents.
+stakeholders:
+- employee
+- human-resources-professional
+- information-technology-specialist
+- apprentice
+- customer-service-agent
+steps:
+- slug: knowledge-strategy
+  title: Knowledge Strategy
+  summary: The organisation decides which knowledge is critical to its purpose, where it is at risk of loss, who stewards each domain
+    and how people and agents are to reach it.
+  capabilities:
+  - knowledge-strategy-design
+  entities:
+  - strategy
+  - competency-model
+  - knowledge-article
+- slug: knowledge-gap-assessment
+  title: Knowledge Gap Assessment
+  summary: How well knowledge is captured, shared and used is assessed against the strategy, and the gaps, single points of expertise
+    and stale areas are named.
+  capabilities:
+  - knowledge-capability-assessment
+  entities:
+  - report
+  - competency-model
+  - skill
+  serves:
+  - expert-interview
+- slug: knowledge-capture
+  title: Knowledge Capture
+  summary: Experts, projects and incident reviews write back what they have learned as articles and patterns, which peers review before
+    they are shared.
+  capabilities:
+  - lessons-learned-management
+  - wiki-knowledge-base-management
+  - pattern-language-cultivation
+  entities:
+  - knowledge-article
+  - pattern
+  - project
+  serves:
+  - knowledge-base
+  - pattern-library
+- slug: curation-and-access
+  title: Curation and Access
+  summary: 'The knowledge base and pattern library are tended by their owners: verification status, versions and search are kept current,
+    outdated material is retired and access for people and agents is set.'
+  capabilities:
+  - wiki-knowledge-base-management
+  - pattern-language-cultivation
+  - knowledge-practice-renewal
+  entities:
+  - knowledge-article
+  - pattern
+  - access-grant
+  serves:
+  - knowledge-base
+  - pattern-library
+- slug: communities-of-practice
+  title: Communities of Practice
+  summary: Practitioners across units meet in communities of practice to exchange experience, review patterns and mentor newcomers,
+    so that know-how spreads through use.
+  capabilities:
+  - knowledge-practice-cultivation
+  entities:
+  - event
+  - pattern
+  - employee-record
+  serves:
+  - community-of-practice-meeting
+- slug: learning-paths-and-certification
+  title: Learning Paths and Certification
+  summary: Shared knowledge is turned into courses, exercises and certifications that people take at their own pace, with completion
+    and results recorded.
+  capabilities:
+  - online-course-certification
+  entities:
+  - course
+  - course-registration
+  - credential
+  serves:
+  - learning-platform
+- slug: knowledge-renewal
+  title: Knowledge Renewal
+  summary: Use of and contribution to the shared knowledge are reviewed, contributors are recognised, and the tools and practices
+    of knowledge work are developed further.
+  capabilities:
+  - knowledge-practice-renewal
+  - knowledge-capability-assessment
+  entities:
+  - measure-report
+  - contribution-proof
+  - knowledge-article
+  serves:
+  - development-review
+  - knowledge-base

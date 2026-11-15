@@ -1,0 +1,112 @@
+kind: value-stream
+slug: participant-intelligence-sensing
+title: Participant Intelligence & Sensing
+family: contributor-to-succession
+summary: 'Knowing the organisation''s people with their consent: contributor records and working time are kept accurate, inquiries
+  are answered, voice and wellbeing are sensed, and workforce insight reaches those who steer without reducing people to metrics.'
+trigger: A contributor's data change, an employee inquiry is raised, or a workforce report is needed.
+outcome: Contributor records are accurate and current, the inquiry is answered, and workforce insight reaches those who steer.
+stakeholders:
+- employee
+- human-resources-professional
+- works-council
+- executive-board
+- data-protection-and-security-authority
+steps:
+- slug: people-systems-set-up
+  title: People Systems Set-Up
+  summary: The people information systems, time recording and self-service are designed and run under a purpose-limited data-use charter,
+    with access rules that let each person see what is held about them.
+  capabilities:
+  - people-systems-architecture
+  - time-presence-architecture
+  entities:
+  - application
+  - data-processing-record
+  - access-grant
+  serves:
+  - data-use-charter
+  - works-council-meeting
+- slug: contributor-record-maintenance
+  title: Contributor Record Maintenance
+  summary: Personal, contract and position data are created and changed from hire to exit through self-service and the people function,
+    and are checked for accuracy and completeness.
+  capabilities:
+  - participant-data-stewardship
+  entities:
+  - employee-record
+  - employment
+  - position
+  - data-use-consent
+  serves:
+  - employee-self-service
+- slug: time-and-presence-recording
+  title: Time and Presence Recording
+  summary: Attendance, working time and absences are recorded, corrected and reconciled, so that pay, planning and the rights of each
+    person rest on the same record.
+  capabilities:
+  - time-presence-architecture
+  - participant-data-stewardship
+  entities:
+  - attendance
+  - timesheet
+  - leave-request
+  serves:
+  - employee-self-service
+  - time-recording
+- slug: inquiry-handling
+  title: Inquiry Handling
+  summary: Questions from employees are answered through self-service and a people help desk, routed to the right expert and closed
+    with an answer the person can rely on.
+  capabilities:
+  - participant-inquiry-as-care
+  entities:
+  - helpdesk-ticket
+  - knowledge-article
+  - employee-record
+  serves:
+  - people-help-desk
+- slug: voice-and-wellbeing-sensing
+  title: Voice and Wellbeing Sensing
+  summary: Engagement and pulse surveys, suggestions and employee research are run with consent and transparency, and their results
+    are fed back to the teams that gave them.
+  capabilities:
+  - collective-voice-integration
+  - wellbeing-contribution-sensing
+  entities:
+  - survey
+  - improvement-suggestion
+  - measure
+  serves:
+  - employee-survey
+  - team-feedback-session
+- slug: workforce-analysis
+  title: Workforce Analysis
+  summary: Questions about capacity, turnover, wellbeing and skills are framed with those who ask them, the data are gathered and
+    transformed, and patterns in the workforce are analysed.
+  capabilities:
+  - workforce-analytics-deployment
+  - workforce-intelligence-cultivation
+  - wellbeing-contribution-sensing
+  entities:
+  - workforce-analytics
+  - measure
+  - prediction
+  serves:
+  - people-dashboard
+- slug: people-insight-delivery
+  title: People Insight Delivery
+  summary: Workforce reports and dashboards reach management, employee representatives and authorities where required, and the decisions
+    taken on them are followed up.
+  capabilities:
+  - people-insight-reporting
+  - workforce-intelligence-cultivation
+  entities:
+  - report
+  - dashboard
+  - statutory-report
+  - workforce-plan
+  serves:
+  - board-meeting
+  - people-dashboard
+  - works-council-meeting

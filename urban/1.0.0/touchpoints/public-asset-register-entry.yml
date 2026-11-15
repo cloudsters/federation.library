@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: public-asset-register-entry
+title: Public Asset Register Entry
+medium: artefact
+summary: The published entry of an acquired, built or retired asset in the public asset register, with its purpose, value and state.
+exchanges:
+- holding-purpose-for-public-scrutiny
+journey: asset-officer-acquiring-land-for-the-city

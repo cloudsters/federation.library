@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: written-agent-mandate
+title: Written Agent Mandate
+medium: artefact
+summary: The written mandate of an agent, with its tasks, limits, escalation points, review date and the person who answers for it,
+  published to staff and residents.
+exchanges:
+- agent-work-for-a-bounded-mandate
+journey: municipal-ai-agent-acting-within-its-mandate

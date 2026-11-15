@@ -1,0 +1,16 @@
+kind: solution
+slug: local-economy-information-system
+title: Local Economy Information System
+role: system-of-insight
+summary: Brings registrations, closures, empty premises, market figures and the reports of networks and enterprises together into
+  the map of the local economy, the assessment of enterprise need by neighbourhood and group, and the yearly reviews of networks,
+  the social economy and investment outcomes.
+carries:
+- enterprise-need-assessment
+- local-economy-mapping
+- network-vitality-review
+- social-value-reporting
+- investment-outcome-review
+holds:
+- local-economy-map
+- social-economy-report

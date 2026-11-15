@@ -1,0 +1,43 @@
+kind: entity
+slug: insurance-coverage
+title: Insurance Coverage
+type: master
+summary: A patient's entitlement to have care paid by a payer, with its kind, period, scheme and co-payment, checked at admission
+  to determine the billing route and the covered services.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: payer
+  type: reference(payer-organisation)
+  card: 1..1
+- name: member-identifier
+  type: identifier
+  card: 1..1
+- name: coverage-kind
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+- name: co-payment
+  type: amount
+  card: 0..1
+- name: verified-on
+  type: date
+  card: 0..1
+states:
+- unverified
+- active
+- suspended
+- ended
+relations:
+- type: governed-by
+  target: payer-agreement
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

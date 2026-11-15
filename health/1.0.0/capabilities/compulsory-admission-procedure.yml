@@ -1,0 +1,11 @@
+kind: capability
+slug: compulsory-admission-procedure
+title: Compulsory Admission Procedure
+level: L3
+parent: mental-health-care
+summary: Admit or treat a person against their will only where the legal criteria are met, with court or authority review, information
+  on rights, legal representation and an end to compulsion as soon as the criteria lapse.
+binds:
+- source: src-610
+  edition: '2006'
+  jurisdiction: global

@@ -1,0 +1,208 @@
+kind: value-stream
+slug: medical-equipment-acquisition
+title: Medical Equipment Acquisition
+family: acquire-to-retire
+summary: 'Bringing medical equipment into use: needs and replacement planning, specification, evaluation, acceptance testing, commissioning,
+  registration and instruction of users.'
+trigger: A unit requests new or replacement medical equipment, or the replacement plan schedules it.
+outcome: The equipment is accepted, registered and commissioned, and its users are instructed.
+stakeholders:
+- head-of-clinical-department
+- registered-nurse
+- diagnostic-technologist
+- clinical-engineer
+- facility-engineer
+- health-informatics-specialist
+- administrative-staff
+- executive
+- supplier
+- health-regulator
+steps:
+- slug: need-and-replacement-planning
+  title: Need and Replacement Planning
+  summary: Collect requests for new equipment from the units and derive replacement needs from the age, condition, failure history
+    and support status of the installed base, then rank both in the equipment investment plan.
+  capabilities:
+  - medical-device-investment-planning
+  - asset-condition-sensing
+  - device-inventory-and-registration
+  - capital-planning
+  entities:
+  - medical-device
+  - asset
+  - purchase-requisition
+  - capital-project
+  - budget
+  serves:
+  - equipment-performance-report
+  - investment-committee
+  - investment-request
+- slug: evaluation-and-specification
+  title: Evaluation and Specification
+  summary: Assess clinical benefit, evidence, safety and total cost of ownership against the standard device families, and specify
+    functional, interface, security, hygiene and service requirements together with the future users.
+  capabilities:
+  - health-technology-assessment
+  - clinical-product-value-analysis
+  - new-procedure-introduction
+  - device-acquisition-and-commissioning
+  - medical-device-integration
+  - medical-device-cybersecurity
+  - privacy-impact-management
+  - hygiene-management
+  entities:
+  - purchase-requisition
+  - risk
+  - data-processing-record
+  - capital-project
+  serves:
+  - equipment-specification
+  - technology-assessment-committee
+- slug: procurement-and-contracting
+  title: Procurement and Contracting
+  summary: Tender the purchase or call it off under a framework agreement, evaluate offers against the specification with users, and
+    contract for delivery, installation, instruction, warranty, service, spare parts, security updates and take-back.
+  capabilities:
+  - supplier-selection-and-contracting
+  - purchasing-cooperation
+  - blanket-order-management
+  - procurement-ordering
+  - contract-lifecycle-stewardship
+  - vendor-risk-management
+  - budgetary-control-encumbrance
+  - public-investment-funding
+  entities:
+  - tender
+  - contract
+  - supplier-organisation
+  - purchase-order
+  - budget
+  - public-funding-allocation
+  serves:
+  - call-for-tender
+  - product-trial
+  - supplier-portal
+  - supply-contract
+- slug: site-preparation-and-installation
+  title: Site Preparation and Installation
+  summary: Prepare the room, building services, shielding and network connections the equipment needs, obtain any permit required
+    to operate it, and have the supplier install it at times that spare clinical operation.
+  capabilities:
+  - facility-planning
+  - construction-execution
+  - building-technical-services
+  - construction-infection-risk-control
+  - radiation-protection
+  - magnetic-resonance-safety
+  - licence-and-permit-management
+  - network-and-communication-infrastructure
+  entities:
+  - room
+  - facility
+  - capital-project
+  - permit
+  - medical-device
+  serves:
+  - inspection-and-audit
+  - site-coordination-meeting
+  - permit-application
+- slug: delivery-and-acceptance-testing
+  title: Delivery and Acceptance Testing
+  summary: Receive the equipment against the order, check completeness and documentation, run acceptance and initial safety tests,
+    and record the defects the supplier must correct before acceptance is signed and the invoice is paid.
+  capabilities:
+  - inbound-flow-orchestration
+  - device-acquisition-and-commissioning
+  - device-safety-and-metrology-inspection
+  - serial-number-tracking
+  - invoice-matching-verification
+  entities:
+  - goods-receipt
+  - medical-device
+  - maintenance-order
+  - purchase-order
+  - invoice
+  serves:
+  - acceptance-test-report
+  - device-commissioning
+  - goods-receiving
+- slug: registration-and-integration
+  title: Registration and Integration
+  summary: Enter the device in the equipment inventory and the mandatory registers, capitalise it as an asset, set its maintenance
+    and inspection plan, and connect it to clinical systems and the network under security controls.
+  capabilities:
+  - device-inventory-and-registration
+  - fixed-asset-accounting
+  - device-maintenance-planning
+  - medical-device-integration
+  - medical-device-cybersecurity
+  - configuration-and-service-topology
+  entities:
+  - medical-device
+  - asset
+  - cost-centre
+  - maintenance-order
+  - interface
+  - application
+  serves:
+  - clinical-workstation
+  - medical-equipment-register
+- slug: user-instruction-and-release
+  title: User Instruction and Release
+  summary: Have the supplier instruct designated first users, let them instruct further users, record every briefing, issue the operating
+    procedure and release the device for clinical use.
+  capabilities:
+  - device-operator-training
+  - competence-validation
+  - mandatory-training-management
+  - clinical-standard-operating-procedures
+  - device-acquisition-and-commissioning
+  entities:
+  - medical-device
+  - credential
+  - employee
+  - policy
+  serves:
+  - device-instruction-session
+  - learning-platform
+- slug: early-use-review
+  title: Early-Use Review
+  summary: Review the first months of use for faults, user difficulties, utilisation and the expected benefit, claim warranty remedies
+    and close the defects left open at acceptance.
+  capabilities:
+  - device-warranty-management
+  - device-incident-handling
+  - supplier-performance-evaluation
+  - asset-condition-sensing
+  - new-procedure-introduction
+  entities:
+  - medical-device
+  - maintenance-order
+  - incident
+  - contract
+  - measure-report
+  serves:
+  - clinical-engineering-service-desk
+  - service-visit
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-054
+  edition: '2024'
+  jurisdiction: global
+- source: src-295
+  edition: '2014'
+  jurisdiction: global
+- source: src-402
+  edition: '2019'
+  jurisdiction: global

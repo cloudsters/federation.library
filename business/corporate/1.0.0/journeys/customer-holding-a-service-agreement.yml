@@ -1,0 +1,34 @@
+kind: journey
+slug: customer-holding-a-service-agreement
+title: Customer Holding a Service Agreement
+stakeholder: business-customer
+summary: A business customer chooses a service, agrees its levels and entitlements, sees delivered performance openly reported and
+  reviews it with the company at a fixed cadence.
+stages:
+- slug: choose-the-service
+  title: Choose the Service
+  goal: The customer understands which services are offered, through which delivery models and with which promises.
+  step: service-delivery-governance/service-strategy
+  touchpoints:
+  - service-catalogue
+- slug: agree-levels-and-entitlements
+  title: Agree Levels and Entitlements
+  goal: Levels, entitlements and escalation paths are written into an agreement both sides can act on.
+  step: service-delivery-governance/service-agreement-administration
+  touchpoints:
+  - service-agreement
+  - contract-negotiation
+- slug: see-delivered-performance
+  title: See Delivered Performance
+  goal: The customer sees performance against the agreed levels, including breaches and the escalation under way.
+  step: service-delivery-governance/delivery-performance-monitoring
+  touchpoints:
+  - service-level-report
+  - customer-portal
+- slug: review-quality-together
+  title: Review Quality Together
+  goal: Delivered quality is reviewed with the customer's own evidence, and agreed corrections are followed up.
+  step: service-delivery-governance/service-quality-review
+  touchpoints:
+  - account-review
+  - customer-feedback-survey

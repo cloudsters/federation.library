@@ -1,0 +1,26 @@
+kind: journey
+slug: contractor-working-safely-on-site
+title: Contractor Working Safely on Site
+stakeholder: supplier
+summary: A supplier's staff are qualified and inducted before working on site, work under permit and supervision, take part in emergency
+  arrangements and report incidents as the company's own staff do.
+stages:
+- slug: be-inducted-before-work
+  title: Be Inducted Before Work
+  goal: Contractor staff are qualified, know the site's hazards, rules and stop-work authority and start only under permit.
+  step: ecological-health-safety/work-and-contractor-control
+  touchpoints:
+  - contractor-induction
+  - work-permit
+- slug: join-the-emergency-arrangements
+  title: Join the Emergency Arrangements
+  goal: Contractor staff on site are covered by alarms, routes and roll calls.
+  step: ecological-health-safety/emergency-preparedness
+  touchpoints:
+  - emergency-drill
+- slug: report-as-one-team
+  title: Report as One Team
+  goal: Incidents involving contractor staff are reported and investigated in the same way as any other.
+  step: ecological-health-safety/incident-and-near-miss-reporting
+  touchpoints:
+  - incident-report

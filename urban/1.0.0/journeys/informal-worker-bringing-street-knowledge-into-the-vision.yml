@@ -1,0 +1,32 @@
+kind: journey
+slug: informal-worker-bringing-street-knowledge-into-the-vision
+title: Informal Worker Bringing Street Knowledge into the Vision
+stakeholder: informal-worker
+summary: An informal worker shares in a trade group the knowledge of uncertain futures that street work demands, sees it in the published
+  scenarios, names the tensions of the trade in the assembly and follows whether the city moves towards the vision.
+stages:
+- slug: share-what-the-street-knows
+  title: Share What the Street Knows
+  goal: The knowledge of uncertain futures held by street vendors and informal workers is recorded beside that of experts.
+  step: shared-city-vision/futures-capacity-building
+  touchpoints:
+  - trade-foresight-group
+- slug: see-that-knowledge-in-the-scenarios
+  title: See That Knowledge in the Scenarios
+  goal: The published scenarios show what informal workers know about the futures of street life and trade.
+  step: shared-city-vision/future-scenario-development
+  touchpoints:
+  - published-future-scenarios
+- slug: name-the-tensions-of-the-trade
+  title: Name the Tensions of the Trade
+  goal: The tensions between informal workers and other groups over public space are recorded in the draft vision rather than smoothed
+    away.
+  step: shared-city-vision/vision-deliberation
+  touchpoints:
+  - resident-assembly-session
+- slug: follow-the-city-towards-the-vision
+  title: Follow the City Towards the Vision
+  goal: The worker can see whether the city moves towards the vision and can signal where it does not.
+  step: shared-city-vision/vision-communication-and-renewal
+  touchpoints:
+  - vision-progress-page

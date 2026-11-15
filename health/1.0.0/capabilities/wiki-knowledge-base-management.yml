@@ -1,0 +1,10 @@
+kind: capability
+slug: wiki-knowledge-base-management
+title: Wiki & Knowledge Base Management
+level: L3
+parent: knowledge-management
+summary: Maintain a shared knowledge base with page ownership, review status and version history.
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

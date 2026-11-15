@@ -1,0 +1,52 @@
+kind: entity
+slug: flood-risk-map
+title: Flood Risk Map
+type: intelligence
+summary: The spatial map of flood probability and of the neighbourhoods and residents it would affect, including the drainage that
+  communities have built themselves. The administration keeps it with the infrastructure operators, and it feeds the risk register
+  and the emergency plans.
+attributes:
+- name: area-covered
+  type: text
+  card: 1..1
+- name: probability-classes
+  type: code
+  card: 1..*
+- name: flood-extent
+  type: document
+  card: 1..1
+- name: affected-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: exposed-residents
+  type: integer
+  card: 0..1
+- name: community-drainage
+  type: text
+  card: 0..*
+- name: method
+  type: text
+  card: 0..1
+- name: data-sources
+  type: text
+  card: 0..*
+- name: reference-date
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- commissioned
+- modelled
+- validated
+- published
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-enumeration

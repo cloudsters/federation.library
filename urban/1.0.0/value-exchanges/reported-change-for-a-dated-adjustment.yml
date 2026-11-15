@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reported-change-for-a-dated-adjustment
+title: Reported Change for a Dated Adjustment
+between:
+- caregiver
+- city-administration
+offered:
+- A report, made once, of a change in their circumstances or those of the person they care for.
+returned:
+- An adjustment from the date of the change, without being asked again for what the city knows.
+touchpoint: change-of-circumstances-notice

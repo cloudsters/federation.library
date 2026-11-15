@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: security-risk-workshop
+title: Security Risk Workshop
+medium: encounter
+summary: The workshop in which the threats to and weaknesses of each system are assessed within the city's risk framework and their
+  treatments proposed.
+exchanges:
+- threat-knowledge-for-a-registered-risk
+- assessed-risks-for-an-adopted-policy
+journey: information-technology-specialist-protecting-the-city-systems

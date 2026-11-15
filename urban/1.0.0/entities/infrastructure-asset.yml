@@ -1,0 +1,74 @@
+kind: entity
+slug: infrastructure-asset
+title: Infrastructure Asset
+type: master
+summary: A single asset of the city, such as a road section, bridge, pipe, public building, park or tree, with its class, location,
+  owning department, criticality, condition and remaining life. The asset office keeps it in the public asset register, and every
+  inspection, repair, renewal and retirement is recorded against it.
+attributes:
+- name: asset-number
+  type: identifier
+  card: 1..1
+- name: asset-class
+  type: code
+  card: 1..1
+- name: asset-name
+  type: text
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: dependent-services
+  type: text
+  card: 0..*
+- name: criticality
+  type: code
+  card: 1..1
+- name: latest-condition
+  type: reference(condition-assessment)
+  card: 0..1
+- name: remaining-life
+  type: quantity
+  card: 0..1
+- name: in-service-on
+  type: date
+  card: 0..1
+- name: register-entry
+  type: reference(public-asset-register)
+  card: 0..1
+states:
+- planned
+- under-construction
+- in-service
+- under-renewal
+- out-of-use
+- retired
+relations:
+- type: part-of
+  target: public-asset-register
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: asset-plan
+- type: refers-to
+  target: gis-layer
+- type: refers-to
+  target: material-passport
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-301
+  edition: '2018'
+  jurisdiction: global

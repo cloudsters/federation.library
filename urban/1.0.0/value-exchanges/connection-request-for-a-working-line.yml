@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: connection-request-for-a-working-line
+title: Connection Request for a Working Line
+between:
+- resident
+- community-network-operator
+offered:
+- A request to be connected, and the member's share or fee.
+returned:
+- A working connection at home, with help to get online.
+touchpoint: connection-request-desk

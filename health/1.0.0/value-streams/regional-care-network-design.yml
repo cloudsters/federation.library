@@ -1,0 +1,171 @@
+kind: value-stream
+slug: regional-care-network-design
+title: Regional Care Network Design
+family: proposition-to-audience
+summary: 'Designing how the organisation''s services reach the population of its region: distribution of services across sites, hub-and-spoke
+  arrangements, satellite and outpatient centres, outreach clinics and shifts of care to ambulatory settings.'
+trigger: The mandate, portfolio or regional demand changes, or a site or setting no longer serves its population.
+outcome: A configured regional network specifies which services are offered where and how patients move between sites and settings.
+stakeholders:
+- general-public
+- health-planning-authority
+- payer
+- referring-hospital
+- referring-practice
+- follow-on-care-provider
+- emergency-medical-service
+- executive
+steps:
+- slug: regional-need-assessment
+  title: Regional Need Assessment
+  summary: Assess the health needs, demand, travel times and access patterns of the region's population, and find where the current
+    distribution of services leaves gaps, duplication or volumes too small for safe care.
+  capabilities:
+  - population-needs-assessment
+  - demand-and-market-analysis
+  - ecosystem-sensing
+  - referral-volume-forecasting
+  - care-mandate-definition
+  - internal-capability-sensing
+  entities:
+  - catchment-population
+  - care-service
+  - site
+  - service-mandate
+  - measure-report
+  serves:
+  - patient-advisory-council
+  - public-information-event
+  - regional-planning-forum
+- slug: network-option-design
+  title: Network Option Design
+  summary: Design alternative configurations of hub, satellite and outreach sites and of shifts to day, ambulatory and home settings,
+    and evaluate each against access, quality requirements, volume thresholds, staffing and cost.
+  capabilities:
+  - care-network-configuration
+  - strategic-option-design
+  - care-model-shift-planning
+  - service-group-qualification
+  - care-level-classification
+  - clinical-service-portfolio-stewardship
+  - service-business-case
+  entities:
+  - site
+  - care-service
+  - service-group
+  - volume-threshold
+  - staffing-standard
+  - catchment-population
+  - strategy
+  serves:
+  - regional-planning-forum
+- slug: regional-planning-alignment
+  title: Regional Planning Alignment
+  summary: Agree the preferred configuration with the planning authority, payers and neighbouring providers, apply for the service
+    group assignments it requires and settle the capacity and funding each site will carry.
+  capabilities:
+  - regional-care-planning-participation
+  - service-region-design
+  - government-relations
+  - payer-budget-negotiation
+  - public-investment-funding
+  - stakeholder-mandate-alignment
+  entities:
+  - service-mandate
+  - service-group-assignment
+  - payer-agreement
+  - public-funding-allocation
+  - governance-decision
+  serves:
+  - care-mandate-decision
+  - payer-negotiation
+  - regional-planning-forum
+- slug: partner-commitment
+  title: Partner Commitment
+  summary: Conclude agreements with partner hospitals, practices and follow-on providers on their role in the network, the services
+    each commits, the rules for transfer and return, and the shared pathways and quality standards.
+  capabilities:
+  - network-partnership-governance
+  - contract-lifecycle-stewardship
+  - alliance-and-merger-assessment
+  - affiliated-practice-integration
+  - trauma-network-participation
+  - clinical-pathway-design
+  entities:
+  - care-network
+  - network-membership
+  - contract
+  - care-pathway
+  - referral-relationship
+  serves:
+  - care-network-meeting
+  - cooperation-agreement
+- slug: access-route-information
+  title: Access Route Information
+  summary: Inform the population, referrers and emergency services ahead of each change which service is offered where, how patients
+    are routed between sites and settings, and what changes for them.
+  capabilities:
+  - communication-strategy
+  - website-cms-management
+  - referrer-relationship-management
+  - emergency-network-coordination
+  - community-relations
+  entities:
+  - care-service
+  - site
+  - referral-relationship
+  - care-pathway
+  serves:
+  - public-information-event
+  - public-website
+- slug: network-implementation
+  title: Network Implementation
+  summary: 'Put the configuration into operation: open, relocate or close services, prepare sites, staff and equipment, connect partners
+    digitally and set up transfer routes and transport between sites.'
+  capabilities:
+  - service-launch-readiness
+  - change-implementation
+  - facility-planning
+  - capital-planning
+  - resource-capacity-planning
+  - interhospital-transfer
+  - secure-clinical-messaging
+  - integrated-emergency-care-operations
+  entities:
+  - site
+  - facility
+  - care-service
+  - organisation-unit
+  - capital-project
+  - care-pathway
+  serves:
+  - care-mandate-decision
+  - outpatient-clinic
+  - satellite-clinic
+- slug: network-performance-review
+  title: Network Performance Review
+  summary: Review access, volumes, transfers, outcomes and cost by site and partner against the intended configuration, and adjust
+    roles, services or routes where the network does not serve the population as planned.
+  capabilities:
+  - integrated-performance-review
+  - clinical-outcome-tracking
+  - performance-benchmarking
+  - business-intelligence-and-reporting
+  - service-lifecycle-management
+  - access-standard-management
+  entities:
+  - measure-report
+  - benchmark
+  - dashboard
+  - catchment-population
+  - network-membership
+  serves:
+  - public-quality-report
+  - regional-planning-forum
+binds:
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

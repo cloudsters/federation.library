@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shoppable-offer-for-shared-recommendation
+title: Shoppable Offer for Shared Recommendation
+between:
+- product-manager
+- consumer
+offered:
+- Offers that can be bought where the consumer already gathers, tied to the same catalogue, prices and order flow.
+returned:
+- Purchases, and recommendations shared with their own network.
+touchpoint: social-shop

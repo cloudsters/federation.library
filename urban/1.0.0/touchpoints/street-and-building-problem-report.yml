@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: street-and-building-problem-report
+title: Street and Building Problem Report
+medium: channel
+summary: The online form and phone application through which residents and visitors report a problem in a street or public building,
+  with its place and a photograph.
+exchanges:
+- report-for-a-reference-and-a-promised-time
+journey: resident-reporting-a-problem-in-the-street

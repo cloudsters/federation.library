@@ -1,0 +1,44 @@
+kind: journey
+slug: team-working-alongside-a-new-agent
+title: Team Working Alongside a New Agent
+stakeholder: employee
+summary: An employee whose work an agent changes is asked about it, oversees it in daily work, gives feedback that shapes its review,
+  is briefed on changes and takes back tasks when the agent is retired.
+stages:
+- slug: say-how-the-work-changes
+  title: Say How the Work Changes
+  goal: The team's view of which tasks the agent should take and which must stay with people is part of the request.
+  step: ai-agent-lifecycle/role-request
+  touchpoints:
+  - agent-role-request
+- slug: learn-to-oversee
+  title: Learn to Oversee
+  goal: Named team members are trained as overseers and know the escalation rules before the agent goes live.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - agent-mandate
+- slug: work-alongside-the-agent
+  title: Work Alongside the Agent
+  goal: The team can tell the agent's outputs from its own, override them and report what goes wrong.
+  step: ai-agent-lifecycle/onboarding-into-the-workflow
+  touchpoints:
+  - agent-oversight-console
+  - team-meeting
+- slug: shape-the-review
+  title: Shape the Review
+  goal: The team's feedback and overrides weigh in the decision to continue, restrict or retrain the agent.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-performance-review
+- slug: be-briefed-on-changes
+  title: Be Briefed on Changes
+  goal: The team knows what a changed agent does differently before it goes live.
+  step: ai-agent-lifecycle/retraining-and-change
+  touchpoints:
+  - agent-change-notice
+- slug: take-back-the-tasks
+  title: Take Back the Tasks
+  goal: When the agent is retired, its tasks pass in an orderly way to a successor or to the team.
+  step: ai-agent-lifecycle/retirement-and-succession
+  touchpoints:
+  - handover-plan

@@ -1,0 +1,33 @@
+kind: journey
+slug: having-the-right-implant-at-the-table
+title: Having the Right Implant at the Table
+stakeholder: surgeon
+summary: 'A surgeon''s side of supply: every planned implant in the right size in the theatre before the first incision, and each
+  one traceable to the patient afterwards.'
+stages:
+- slug: plan-the-case
+  title: Plan the Case
+  goal: The theatre schedule and a current preference list tell logistics what the case needs, without a separate order.
+  step: clinical-supply-logistics/demand-and-stock-planning
+  touchpoints:
+  - clinical-workstation
+- slug: find-the-case-cart-ready
+  title: Find the Case Cart Ready
+  goal: The case cart with implants in the planned sizes and the agreed spares is in the theatre before the patient arrives.
+  step: clinical-supply-logistics/picking-and-distribution
+  touchpoints:
+  - case-cart
+  - operating-theatre
+- slug: document-the-implant
+  title: Document the Implant
+  goal: Each implant is scanned to patient and procedure in the theatre, and the record is complete when the operation ends.
+  step: clinical-supply-logistics/use-and-consumption-recording
+  touchpoints:
+  - operating-theatre
+  - clinical-workstation
+- slug: act-on-a-recall
+  title: Act on a Recall
+  goal: When an implant is recalled, the department receives the list of affected patients from the records within hours.
+  step: clinical-supply-logistics/returns-and-disposal
+  touchpoints:
+  - clinical-workstation

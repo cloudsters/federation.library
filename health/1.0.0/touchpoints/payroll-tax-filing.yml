@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: payroll-tax-filing
+title: Payroll Tax Filing
+medium: artefact
+summary: The periodic filing through which the employer declares and remits the taxes withheld from salaries, and the annual statement
+  that credits them to each employee.
+exchanges:
+- payroll-tax-for-legal-certainty
+journey: being-paid-correctly

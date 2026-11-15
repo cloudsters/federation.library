@@ -1,0 +1,55 @@
+kind: entity
+slug: assessment-instrument
+title: Assessment Instrument
+type: master
+summary: A validated instrument for assessing a patient, such as a clinical score, rating scale, screening tool or patient questionnaire,
+  defined once with its items, scoring rule and interpretation.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: instrument-kind
+  type: code
+  card: 1..1
+- name: item-definition
+  type: document
+  card: 1..1
+- name: scoring-rule
+  type: text
+  card: 1..1
+- name: interpretation-bands
+  type: text
+  card: 0..1
+- name: use-conditions
+  type: text
+  card: 0..1
+states:
+- draft
+- approved
+- withdrawn
+relations: []
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-588
+  edition: '1974'
+  jurisdiction: global

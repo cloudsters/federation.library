@@ -1,0 +1,67 @@
+kind: entity
+slug: change-request
+title: Change Request
+type: transactional
+summary: A request for a new or changed digital tool or for a change to a live system, with its purpose, owner, risk and decision.
+  The administration records it from intake to decision, and once approved it is carried into the roadmap, a programme or a release.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: request-kind
+  type: code
+  card: 1..1
+- name: requested-by
+  type: text
+  card: 1..1
+- name: requesting-body
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: affected-systems
+  type: reference(application)
+  card: 0..*
+- name: affected-services
+  type: reference(digital-service)
+  card: 0..*
+- name: owner
+  type: text
+  card: 0..1
+- name: risk-rating
+  type: code
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: release-window
+  type: period
+  card: 0..1
+- name: rollback-plan
+  type: document
+  card: 0..1
+states:
+- received
+- assessed
+- approved
+- rejected
+- scheduled
+- released
+- rolled-back
+- closed
+relations:
+- type: refers-to
+  target: digital-roadmap
+- type: refers-to
+  target: systems-architecture
+- type: refers-to
+  target: application
+- type: refers-to
+  target: support-case
+- type: produces
+  target: city-programme
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

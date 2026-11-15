@@ -1,0 +1,13 @@
+kind: capability
+slug: clinical-history-taking
+title: Clinical History Taking
+level: L3
+parent: medical-assessment-and-diagnosis
+summary: Take a structured history of complaints, previous illness, medication, allergies, family and social circumstances.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

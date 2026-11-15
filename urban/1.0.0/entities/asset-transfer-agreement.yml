@@ -1,0 +1,67 @@
+kind: entity
+slug: asset-transfer-agreement
+title: Asset Transfer Agreement
+type: governance
+summary: The agreement by which the city transfers or leases land or a building to a community body, with the use, upkeep, access
+  and affordability it binds and when it is reviewed. The city and the community body sign it, and it is held with the public asset
+  register.
+attributes:
+- name: agreement-number
+  type: identifier
+  card: 1..1
+- name: transfer-kind
+  type: code
+  card: 1..1
+- name: properties
+  type: reference(land-parcel|building)
+  card: 1..*
+- name: community-body
+  type: text
+  card: 1..1
+- name: permitted-use
+  type: text
+  card: 1..*
+- name: upkeep-duties
+  type: text
+  card: 1..*
+- name: access-terms
+  type: text
+  card: 0..*
+- name: affordability-covenants
+  type: reference(affordability-covenant)
+  card: 0..*
+- name: use-rights
+  type: reference(land-use-right)
+  card: 0..*
+- name: term
+  type: period
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- approved
+- signed
+- in-force
+- under-review
+- ended
+relations:
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: affordability-covenant
+- type: refers-to
+  target: land-use-right
+- type: governed-by
+  target: commons-charter
+- type: based-on
+  target: council-decision
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

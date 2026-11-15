@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: volunteer-work-for-a-place-in-the-count
+title: Volunteer Work for a Place in the Count
+between:
+- volunteer
+- personnel-officer
+offered:
+- An account of the work volunteers do for the city's services and shared places.
+returned:
+- That work counted in the baseline, so that the plan does not assume it costs nothing.
+touchpoint: workforce-baseline-report

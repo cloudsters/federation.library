@@ -1,0 +1,51 @@
+kind: entity
+slug: employee
+title: Employee
+type: master
+summary: A person who works in the organisation in any profession, employed by it or the partner university, through an agency or
+  on a joint, honorary or service contract, held once with qualifications and assignments. It represents serving stakeholders such
+  as physicians, nurses and scientists in the data.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: professions
+  type: code
+  card: 1..*
+- name: primary-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: qualifications
+  type: reference(credential)
+  card: 0..*
+- name: contact
+  type: text
+  card: 0..*
+states:
+- onboarding
+- active
+- on-leave
+- exited
+relations: []
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-412
+  edition: RFC7643/RFC7644
+  jurisdiction: global

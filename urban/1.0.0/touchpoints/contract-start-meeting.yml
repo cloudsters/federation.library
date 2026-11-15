@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contract-start-meeting
+title: Contract Start Meeting
+medium: encounter
+summary: The first meeting of the contract manager, the staff who rely on the contract and the supplier, in which obligations, service
+  levels, commitments and contacts are handed over and the start of delivery is agreed.
+exchanges:
+- obligations-handed-over-for-a-clean-start
+journey: contract-manager-running-a-contract

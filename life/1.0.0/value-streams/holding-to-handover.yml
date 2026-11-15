@@ -1,0 +1,91 @@
+kind: value-stream
+slug: holding-to-handover
+title: Leaving a Role Well
+family: contributor-to-succession
+summary: Leaving a role so that what was built survives the leaving — including knowing when it is time, and marking the ending rather
+  than letting it blur.
+trigger: The person senses it is time to step away, or age, health, a successor who is ready or a change in circumstances makes the
+  leaving unavoidable.
+outcome: What was built carries on in other hands, and the ending was marked rather than left to blur.
+stakeholders:
+- mentee
+- collaborator
+- employer
+- community
+- client
+steps:
+- slug: sensing-it-is-time
+  title: Sensing It Is Time
+  summary: Recognising, ideally before it is forced, that what the person holds would now be better carried by someone else.
+  capabilities:
+  - knowing-when-to-step-away
+  entities:
+  - venture
+  - season-reading
+  - self
+- slug: accepting-the-ending
+  title: Accepting the Ending
+  summary: Letting the decision become real inside, including the grief and the fear of who one is without the role.
+  capabilities:
+  - grieving-what-ends
+  entities:
+  - decision
+  - life-narrative
+  - mood-record
+- slug: finding-who-carries-it-on
+  title: Finding Who Carries It On
+  summary: Seeing who is ready or could become ready, and choosing them for the work ahead rather than for resemblance to oneself.
+  capabilities:
+  - choosing-a-successor
+  entities:
+  - mentee-relation
+  - venture
+  - professional-network
+  serves:
+  - the-workplace
+  - working-side-by-side
+- slug: passing-on-what-is-known
+  title: Passing On What Is Known
+  summary: Writing down and showing what lives only in the person's head, the relations, the reasons behind things and the unwritten
+    rules.
+  capabilities:
+  - handing-over-knowledge
+  - putting-experience-into-words
+  entities:
+  - handover
+  - mentee-relation
+  - delegation-line
+  serves:
+  - shared-document
+  - the-handover
+- slug: stepping-back-for-real
+  title: Stepping Back for Real
+  summary: Letting the successor decide, including where the person would have decided differently, and not hovering at the edges.
+  capabilities:
+  - letting-go-of-control
+  entities:
+  - handover
+  - boundary-set
+  - commitment
+  serves:
+  - the-handover
+- slug: marking-the-ending
+  title: Marking the Ending
+  summary: Closing the time with words, a gathering or a ritual, so the ending is seen by everyone rather than left to blur.
+  capabilities:
+  - marking-endings
+  entities:
+  - ritual
+  - venture-milestone
+  - transition
+  serves:
+  - the-farewell
+- slug: looking-back-on-what-carries-on
+  title: Looking Back Later
+  summary: Some time after, seeing what survived in other hands and what the person now has room for.
+  capabilities:
+  - reviewing-a-chapter
+  entities:
+  - contribution-record
+  - distance-travelled
+  - life-narrative

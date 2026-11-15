@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-review
+title: Service Review
+medium: encounter
+summary: The periodic review with a unit of service performance against agreed levels and of users' experience, ending in agreed improvements.
+exchanges:
+- service-commitment-for-fair-cost
+- user-experience-for-better-service
+journey: technology-partner-serving-a-business-unit

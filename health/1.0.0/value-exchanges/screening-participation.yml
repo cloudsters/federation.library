@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: screening-participation
+title: Screening Participation
+between:
+- diagnostic-physician
+- screening-and-prevention-participant
+offered:
+- A timely invitation, an examination of assured quality, a clear result and a fast route to diagnosis and treatment when a finding
+  is positive.
+returned:
+- Participation, consent to have results recorded and compared over time, and the population data that let the programme demonstrate
+  its health effect.
+touchpoint: laboratory-counter

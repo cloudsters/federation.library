@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: self-service-portal
+title: Self-Service Portal
+medium: channel
+summary: The internal portal where staff solve common problems themselves, order services and devices and follow their requests.
+exchanges:
+- clear-report-for-swift-help
+journey: employee-getting-help-with-a-system

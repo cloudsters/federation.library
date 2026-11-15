@@ -1,0 +1,13 @@
+kind: capability
+slug: compounding-and-preparation
+title: Compounding & Preparation
+level: L3
+parent: pharmaceutical-production
+summary: Compound and prepare patient-specific and batch medicines, including parenteral nutrition.
+binds:
+- source: src-510
+  edition: '2021'
+  jurisdiction: global
+- source: src-515
+  edition: PE 010-4
+  jurisdiction: global

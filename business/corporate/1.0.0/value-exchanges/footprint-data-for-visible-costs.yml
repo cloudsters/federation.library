@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: footprint-data-for-visible-costs
+title: Footprint Data for Visible Costs
+between:
+- site-manager
+- finance-professional
+offered:
+- The site's data on energy, materials, emissions and people.
+returned:
+- Ecological and social costs shown where they arise, beside the financial ones.
+touchpoint: cost-centre-report

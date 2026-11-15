@@ -1,0 +1,132 @@
+kind: value-stream
+slug: transfusion-medicine
+title: Transfusion Medicine
+family: demand-to-fulfillment
+summary: 'Providing safe blood products to patients: blood donation, preparation and storage of products, compatibility testing, issue,
+  bedside transfusion and monitoring of reactions.'
+trigger: A clinician orders a blood product for a patient, or the stock of a blood component falls below its target level and donations
+  are called in.
+outcome: The compatible product has been transfused safely, and its use and any reaction are documented.
+stakeholders:
+- living-donor
+- person-with-cancer
+- elective-inpatient
+- emergency-patient
+- critically-ill-patient
+- specialist-physician
+- surgeon
+- anaesthesiologist
+- diagnostic-physician
+- diagnostic-technologist
+- registered-nurse
+- supplier
+- health-regulator
+steps:
+- slug: blood-donation
+  title: Blood Donation
+  summary: Donors are recruited and screened for eligibility, blood and components are collected, and every donation is tested for
+    blood group and transmissible infections before any product is released.
+  capabilities:
+  - blood-donation-service
+  - specimen-collection-and-pre-analytics
+  - laboratory-analysis-and-validation
+  entities:
+  - donor
+  - blood-donation
+  - specimen
+  - observation
+  serves:
+  - blood-donation-centre
+  - donor-service
+- slug: component-preparation-and-storage
+  title: Component Preparation and Storage
+  summary: Donations are separated into red cells, plasma and platelets, labelled and released once testing is complete, and stored
+    under monitored conditions together with products received from external suppliers.
+  capabilities:
+  - blood-donation-service
+  - transfusion-medicine
+  - materials-availability-planning
+  - clinical-warehousing-and-inventory
+  - serial-number-tracking
+  entities:
+  - blood-donation
+  - blood-product
+  - inventory-item
+  - goods-receipt
+  serves:
+  - donor-service
+  - blood-bank
+- slug: indication-and-order
+  title: Indication and Order
+  summary: The clinician sets the indication against transfusion thresholds after the patient's own blood has been optimised, informs
+    the patient and orders the product with a pre-transfusion sample.
+  capabilities:
+  - transfusion-medicine
+  - preoperative-optimisation
+  - laboratory-test-stewardship
+  - clinical-order-entry
+  - informed-consent
+  entities:
+  - clinical-order
+  - informed-consent
+  - observation
+  - specimen
+  serves:
+  - consent-form
+  - consultation
+- slug: compatibility-testing-and-issue
+  title: Compatibility Testing and Issue
+  summary: Blood group and antibodies are determined, the product is cross-matched or selected electronically and issued for the named
+    patient, and in major haemorrhage a massive transfusion protocol releases emergency units at once, before compatibility testing
+    is complete.
+  capabilities:
+  - transfusion-medicine
+  - laboratory-analysis-and-validation
+  - patient-identification
+  - serial-number-tracking
+  entities:
+  - specimen
+  - observation
+  - diagnostic-report
+  - blood-product
+  serves:
+  - bedside-check
+  - blood-bank
+- slug: bedside-transfusion
+  title: Bedside Transfusion
+  summary: At the bedside, patient identity and product are checked against each other, the transfusion is started and the patient
+    is monitored for reactions until it is complete.
+  capabilities:
+  - transfusion-medicine
+  - patient-identification
+  - nursing-interventions
+  - deterioration-recognition-and-response
+  - clinical-documentation-at-point-of-care
+  entities:
+  - transfusion
+  - blood-product
+  - observation
+  serves:
+  - bedside-check
+  - day-care-unit
+  - identification-band
+  - observation-chart
+- slug: haemovigilance-and-traceability
+  title: Haemovigilance and Traceability
+  summary: The fate of every unit is documented, reactions and errors are investigated and reported to the authority, and donor and
+    recipient can be traced to each other in both directions, including for product recalls.
+  capabilities:
+  - transfusion-medicine
+  - serial-number-tracking
+  - incident-reporting-and-learning
+  - regulatory-incident-reporting
+  - product-recall-management
+  entities:
+  - transfusion
+  - blood-product
+  - blood-donation
+  - adverse-event
+  - incident
+  serves:
+  - donor-service
+  - nurse-call

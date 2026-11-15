@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: follow-up-call
+title: Follow-Up Call
+medium: encounter
+summary: The call in the first days after discharge that checks recovery, medicines and services at home, passes on pending results
+  and solves problems before they lead to readmission.
+exchanges:
+- readiness-for-a-safe-return-home
+journey: going-home-journey

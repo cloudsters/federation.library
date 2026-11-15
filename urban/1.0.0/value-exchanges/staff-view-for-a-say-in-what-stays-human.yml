@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-view-for-a-say-in-what-stays-human
+title: Staff View for a Say in What Stays Human
+between:
+- staff-representative
+- city-administration
+offered:
+- The staff view on each task proposed for automation and its effect on jobs and workload.
+returned:
+- Information in good time and a decision that records which tasks stay with a person and why.
+touchpoint: automation-decision-meeting

@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: customer-portal
+title: Customer Portal
+medium: channel
+summary: The secure portal where business customers see their prices, orders, deliveries, invoices, documents and service cases, order
+  spare parts and contact the company.
+exchanges:
+- correct-invoice-for-prompt-payment
+- honest-notice-for-continued-custom
+- open-reporting-for-trust
+- prepared-seller-for-time-given
+- reliable-promise-for-planning-trust
+- usage-data-for-ready-capacity
+journey: business-customer-kept-supplied-through-a-disruption

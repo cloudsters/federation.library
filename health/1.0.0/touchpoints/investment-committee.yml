@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: investment-committee
+title: Investment Committee
+medium: encounter
+summary: The committee in which management, finance, clinical engineering, estates and digital services rank investment requests and
+  prepare the investment programme for approval.
+exchanges:
+- clinical-need-for-fitting-equipment
+- investment-need-for-priority-decision
+- replacement-plan-for-funded-renewal
+journey: requesting-an-investment

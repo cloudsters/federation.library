@@ -1,0 +1,48 @@
+kind: entity
+slug: position
+title: Position
+type: master
+summary: The post, not the person — a named role in the organisation’s structure that exists independently of who fills it. Positions
+  define what the system needs; employees define who answers the call. The gap between positions and people is the system’s capacity
+  signal.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: reports-to
+  type: reference(position)
+  card: 0..1
+- name: required-skills
+  type: reference(skill)
+  card: 0..*
+- name: budgeted-status
+  type: code
+  card: 1..1
+- name: employee
+  type: reference(employee-record)
+  card: 0..1
+- name: cost-center
+  type: reference(cost-center)
+  card: 0..1
+states:
+- created
+- budgeted
+- approved
+- filled
+- vacated
+- frozen
+- closed
+relations:
+- type: part-of
+  target: department
+- type: refers-to
+  target: employee-record
+- type: refers-to
+  target: skill
+- type: refers-to
+  target: recruitment-application
+- type: governed-by
+  target: budget

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: revenue-account-for-residents-scrutiny
+title: Revenue Account for Residents' Scrutiny
+between:
+- finance-officer
+- resident
+offered:
+- What each tax, fee and charge raised, who paid it and what it funded, including the share for the commons fund.
+returned:
+- Residents' questions and their judgement of whether their money was well used.
+touchpoint: published-revenue-account

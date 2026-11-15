@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: onboarding-companion
+title: Onboarding Companion
+medium: encounter
+summary: The experienced colleague named to accompany a newcomer through the first weeks, answering questions and opening the doors
+  that no manual describes.
+exchanges:
+- prepared-welcome-for-early-contribution
+journey: employment-journey

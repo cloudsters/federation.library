@@ -1,0 +1,37 @@
+kind: journey
+slug: municipal-employee-paid-fairly-and-kept-safe
+title: Municipal Employee Paid Fairly and Kept Safe
+stakeholder: municipal-employee
+summary: A member of staff sees how their position is graded on a published scale tied to living costs, is paid correctly each period,
+  has the care and maintenance work of the role counted and is protected from heat and other hazards at work.
+stages:
+- slug: see-the-grade-and-why
+  title: See the Grade and Why
+  goal: The employee can see how their position is graded on a scale tied to local living costs, and why, after negotiation with staff
+    representatives.
+  step: pay-and-fair-work-standards/pay-scale-setting
+  touchpoints:
+  - published-pay-scale
+- slug: be-paid-correctly
+  title: Be Paid Correctly
+  goal: Pay, allowances, taxes and contributions are calculated correctly and on time, with a payslip the employee can follow and
+    a desk that corrects errors.
+  step: pay-and-fair-work-standards/payroll-processing
+  touchpoints:
+  - payslip
+  - payroll-query-desk
+- slug: have-unseen-work-counted
+  title: Have Unseen Work Counted
+  goal: The listening, care and maintenance work the role carries but no description names is mapped with the employee and counted
+    in pay and workload.
+  step: pay-and-fair-work-standards/unseen-work-valuation
+  touchpoints:
+  - care-work-mapping-circle
+- slug: be-protected-at-work
+  title: Be Protected at Work
+  goal: Heat and other hazards where the employee works are in the shared register, and shade, water, rest breaks, shifted hours and
+    health checks follow.
+  step: pay-and-fair-work-standards/workplace-hazard-protection
+  touchpoints:
+  - hazard-reporting-line
+  - shade-and-water-point

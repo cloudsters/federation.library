@@ -1,0 +1,6 @@
+kind: capability
+slug: setting-an-agents-reach
+title: Setting an Agent's Reach
+level: L3
+parent: what-machines-carry
+summary: The ability to state what a machine agent may decide alone, what it must ask about, and what it may never do.

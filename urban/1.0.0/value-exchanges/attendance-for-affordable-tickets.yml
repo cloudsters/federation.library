@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: attendance-for-affordable-tickets
+title: Attendance for Affordable Tickets
+between:
+- resident
+- cultural-organisation
+offered:
+- Residents' attendance and their word to friends and neighbours.
+returned:
+- Tickets that residents of every neighbourhood can afford.
+touchpoint: resident-ticket-scheme

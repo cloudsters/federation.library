@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: procurement-request-intake
+title: Procurement Request Intake
+medium: channel
+summary: The channel through which a department brings a need to the procurement office, with its budget line, estimated value and
+  timing, and receives the procedure to be followed.
+exchanges:
+- a-confirmed-need-for-a-lawful-procedure
+journey: procurement-officer-running-a-tender

@@ -1,0 +1,12 @@
+kind: post
+slug: environmental-officer
+title: Environmental Officer
+summary: 'Keeps the enterprise''s emissions, waste and hazardous materials within permits and law.'
+of: health-safety-and-environment
+responsibility: Monitors emissions, waste and hazardous materials against permits and law, advises the executive and reports deviations.
+accountable: body:health-safety-and-environment
+type: role
+binds:
+- source: src-089
+  edition: '2026'
+  jurisdiction: global

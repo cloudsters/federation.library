@@ -1,0 +1,108 @@
+kind: value-stream
+slug: safety-recall-integrity
+title: Safety & Recall Integrity
+family: discovery-to-usage
+summary: 'Protecting customers and the public from hazards in offerings already on the market: watching for safety signals, assessing
+  hazards, correcting, withdrawing or recalling products, informing authorities and customers, and removing the cause.'
+trigger: A safety signal, failure pattern or request from an authority points to a risk from an offering in the market.
+outcome: Affected products are corrected, withdrawn or recalled, customers and authorities are informed, and the cause is removed.
+stakeholders:
+- consumer
+- end-user
+- sector-regulator
+- quality-manager
+- distributor
+- news-media
+steps:
+- slug: safety-signal-monitoring
+  title: Safety Signal Monitoring
+  summary: Field data, complaints, warranty claims and incidents are watched for signals that an offering on the market may cause
+    harm.
+  capabilities:
+  - product-safety-monitoring
+  entities:
+  - complaint
+  - incident
+  - warranty-claim
+  - measure-report
+  serves:
+  - complaint-and-warranty-claim
+  - incident-report
+  - service-hotline
+- slug: hazard-assessment
+  title: Hazard Assessment
+  summary: The likelihood and consequences of the hazard are assessed, and the affected products, batches and customers are identified.
+  capabilities:
+  - hazard-sensing-assessment
+  entities:
+  - risk
+  - batch-lot
+  - serial-number
+  serves:
+  - product-safety-committee
+- slug: recall-decision-and-activation
+  title: Recall Decision and Activation
+  summary: Against defined thresholds the organisation decides on correction, withdrawal or recall, and activates the response at
+    once.
+  capabilities:
+  - safety-recall-activation
+  entities:
+  - recall
+  - governance-decision
+  - batch-lot
+  serves:
+  - product-safety-committee
+  - recall-playbook
+- slug: authority-notification
+  title: Authority Notification
+  summary: The competent authorities are notified within the set deadlines and kept informed with complete and timely reports.
+  capabilities:
+  - regulatory-transparency
+  entities:
+  - regulatory-notification
+  - recall
+  serves:
+  - statutory-filing
+- slug: customer-and-public-communication
+  title: Customer and Public Communication
+  summary: Affected customers, trade partners and the public are informed clearly and candidly, with guidance they can act on.
+  capabilities:
+  - recall-communication-with-care
+  entities:
+  - communication
+  - public-statement
+  - recall
+  serves:
+  - press-release
+  - safety-and-recall-notice
+  - website
+- slug: recall-execution-and-effectiveness
+  title: Recall Execution and Effectiveness
+  summary: Products are retrieved, repaired or replaced, and the organisation tracks whether every affected customer has been reached
+    and made whole.
+  capabilities:
+  - recall-effectiveness-sensing
+  entities:
+  - recall
+  - return
+  - repair-order
+  - measure-report
+  serves:
+  - official-inspection
+  - recall-progress-report
+  - return-point
+  - service-visit
+- slug: recall-closure-and-learning
+  title: Recall Closure and Learning
+  summary: The recall is closed with final reports to the authorities, and the cause is removed in design, production and supply.
+  capabilities:
+  - recall-completion-learning
+  - regulatory-transparency
+  entities:
+  - recall
+  - report
+  - change-request
+  serves:
+  - product-safety-committee
+  - recall-progress-report
+  - website

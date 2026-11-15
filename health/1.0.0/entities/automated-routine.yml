@@ -1,0 +1,48 @@
+kind: entity
+slug: automated-routine
+title: Automated Routine
+type: master
+summary: A software routine that performs a rule-based task in a process without human action, such as transferring data between systems,
+  checking completeness or sending reminders, held with its owner, trigger, rules, access, fallback and version.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: process
+  type: reference(process-model)
+  card: 1..1
+- name: owner
+  type: reference(employee)
+  card: 1..1
+- name: trigger
+  type: text
+  card: 1..1
+- name: rules
+  type: document
+  card: 1..1
+- name: run-identity
+  type: reference(identity)
+  card: 1..1
+- name: fallback
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- in-design
+- in-test
+- in-operation
+- suspended
+- retired
+relations:
+- type: part-of
+  target: process-model
+- type: depends-on
+  target: interface
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

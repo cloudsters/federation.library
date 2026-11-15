@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: clinical-need-for-fitting-equipment
+title: Clinical Need for Fitting Equipment
+between:
+- head-of-clinical-department
+- clinical-engineer
+offered:
+- The unit's clinical need, use cases and expected volumes, and its users' time to specify, trial and accept the equipment.
+returned:
+- Equipment chosen on evidence and total cost, matched to the commons' standard device families, connected to clinical systems and
+  arriving with maintenance and instruction planned.
+touchpoint: investment-request

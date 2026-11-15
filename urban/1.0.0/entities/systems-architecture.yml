@@ -1,0 +1,70 @@
+kind: entity
+slug: systems-architecture
+title: Systems Architecture
+type: governance
+summary: The current and target model of the city's systems as one whole, with the scale at which each system and data set sits, how
+  they depend on one another and the principles every change must follow. The administration keeps it and the council adopts its principles,
+  and every major digital decision is reviewed against it before it is taken.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: architecture-view
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: principles
+  type: text
+  card: 1..*
+- name: levels
+  type: code
+  card: 1..*
+- name: placement-by-level
+  type: document
+  card: 1..1
+- name: systems
+  type: reference(application)
+  card: 0..*
+- name: data-models
+  type: reference(shared-data-model)
+  card: 0..*
+- name: dependencies
+  type: document
+  card: 0..1
+- name: redundancy-arrangements
+  type: text
+  card: 0..*
+- name: decision-reviews
+  type: reference(public-record)
+  card: 0..*
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- adopted
+- in-force
+- under-revision
+- superseded
+relations:
+- type: based-on
+  target: digital-strategy
+- type: based-on
+  target: dependency-map
+- type: governed-by
+  target: decision-rights-register
+- type: composed-of
+  target: application
+- type: refers-to
+  target: shared-data-model
+- type: refers-to
+  target: interface-specification
+- type: produces
+  target: public-record
+binds:
+- source: src-174
+  edition: '2021'
+  jurisdiction: global

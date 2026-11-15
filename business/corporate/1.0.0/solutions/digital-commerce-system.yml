@@ -1,0 +1,19 @@
+kind: solution
+slug: digital-commerce-system
+title: Digital Commerce System
+role: system-of-engagement
+summary: 'Runs the online shop and ordering portal: catalogue presentation, search, basket, checkout, customer accounts, local languages
+  and currencies, and the handover of orders to fulfilment.'
+carries:
+- checkout-conversion-optimisation
+- cross-border-commerce-management
+- digital-engagement-design
+- ecommerce-platform-operation
+- geographic-localisation
+- offering-presentation-design
+- registration-as-relationship
+- self-service-distribution
+- social-commerce-integration
+- storefront-experience-design
+holds:
+- sales-order

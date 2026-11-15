@@ -1,0 +1,10 @@
+kind: capability
+slug: chronic-care-programmes
+title: Chronic Care Programmes
+level: L3
+parent: outpatient-and-day-care
+summary: Run structured programmes for patients with chronic conditions and track participation and outcomes.
+binds:
+- source: src-472
+  edition: '1998'
+  jurisdiction: global

@@ -1,0 +1,35 @@
+kind: journey
+slug: consumer-affected-by-a-product-recall
+title: Consumer Affected by a Product Recall
+stakeholder: consumer
+summary: A consumer reports a concern, learns of a recall through a clear notice, has the product made safe at no cost and can see
+  that the cause has been removed.
+stages:
+- slug: report-a-concern
+  title: Report a Concern
+  goal: A report of harm or a near miss is taken seriously and becomes part of the safety signal.
+  step: safety-recall-integrity/safety-signal-monitoring
+  touchpoints:
+  - service-hotline
+  - complaint-and-warranty-claim
+- slug: learn-of-the-recall
+  title: Learn of the Recall
+  goal: The consumer learns clearly and candidly what the hazard is, whether their product is affected and what to do.
+  step: safety-recall-integrity/customer-and-public-communication
+  touchpoints:
+  - safety-and-recall-notice
+  - press-release
+  - website
+- slug: have-the-product-made-safe
+  title: Have the Product Made Safe
+  goal: The product is retrieved, repaired or replaced at no cost and the consumer is made whole.
+  step: safety-recall-integrity/recall-execution-and-effectiveness
+  touchpoints:
+  - return-point
+  - service-visit
+- slug: see-the-cause-removed
+  title: See the Cause Removed
+  goal: The consumer can see that the recall has closed and what was changed to prevent it recurring.
+  step: safety-recall-integrity/recall-closure-and-learning
+  touchpoints:
+  - website

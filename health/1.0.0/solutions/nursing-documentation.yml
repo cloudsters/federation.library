@@ -1,0 +1,40 @@
+kind: solution
+slug: nursing-documentation
+title: Nursing Documentation
+role: system-of-record
+summary: 'Records the nursing process for each patient: assessments, risk screenings, care planning, interventions, vital signs and
+  evaluation. Its acuity classifications feed staffing, and its observations are the ward''s part of the patient''s measured findings.'
+carries:
+- nursing-documentation
+- nursing-assessment
+- nursing-risk-screening
+- nursing-care-planning
+- nursing-interventions
+- nursing-evaluation
+- fall-prevention
+- pressure-injury-prevention
+- nutrition-and-hydration-care
+- wound-care
+- mobility-and-self-care-support
+- pain-management
+- deterioration-recognition-and-response
+- postoperative-monitoring
+- nursing-transfer-handover
+- nurse-sensitive-outcome-monitoring
+- workload-estimation
+- critical-care-outreach
+holds:
+- care-needs-assessment
+- risk-assessment
+- acuity-classification
+- observation
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

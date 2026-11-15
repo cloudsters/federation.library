@@ -1,0 +1,36 @@
+kind: entity
+slug: volume-threshold
+title: Volume Threshold
+type: governance
+summary: A minimum annual case volume that a site, or a surgeon, must reach for a defined complex procedure in order to provide
+  it at all, forecast in advance and tested afterwards.
+attributes:
+- name: procedure-scope
+  type: code
+  card: 1..*
+- name: minimum-volume
+  type: integer
+  card: 1..1
+- name: applies-per
+  type: code
+  card: 1..1
+- name: forecast-basis
+  type: text
+  card: 0..1
+- name: exceptions
+  type: text
+  card: 0..*
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- in-force
+- suspended
+- withdrawn
+relations:
+- type: based-on
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

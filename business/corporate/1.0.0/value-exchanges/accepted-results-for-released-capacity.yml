@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: accepted-results-for-released-capacity
+title: Accepted Results for Released Capacity
+between:
+- employee
+- site-manager
+offered:
+- Finished results with documentation, open items and the lessons the project has learned.
+returned:
+- Acceptance into operation, ownership of what remains open and the release of the team to new work.
+touchpoint: project-handover

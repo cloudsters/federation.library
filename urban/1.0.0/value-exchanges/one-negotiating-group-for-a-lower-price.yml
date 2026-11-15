@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: one-negotiating-group-for-a-lower-price
+title: One Negotiating Group for a Lower Price
+between:
+- tenant
+- landowner
+offered:
+- One offer from all households, negotiated once instead of one by one.
+returned:
+- A purchase or long lease on terms no single household could have reached.
+touchpoint: joint-purchase-negotiation

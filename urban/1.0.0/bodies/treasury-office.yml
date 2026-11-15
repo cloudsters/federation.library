@@ -1,0 +1,20 @@
+kind: body
+slug: treasury-office
+title: Treasury Office
+summary: Manages the city's cash and bank accounts, proposes the reserves and the borrowing strategy, raises loans and community bonds,
+  places deposits with public and community banks and services the debt, refinancing it when terms improve.
+holds:
+- treasury-and-debt
+- cash-forecasting
+- bank-reconciliation
+- reserve-level-setting
+- borrowing-strategy-design
+- debt-affordability-assessment
+- loan-and-bond-raising
+- community-bond-issuing
+- surplus-cash-placement
+- community-bank-capitalisation
+- debt-servicing
+part_of: finance-department
+type: function
+form: organisational-unit

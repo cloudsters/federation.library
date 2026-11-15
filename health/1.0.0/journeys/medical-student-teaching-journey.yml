@@ -1,0 +1,19 @@
+kind: journey
+slug: medical-student-teaching-journey
+title: Medical Student Teaching Journey
+stakeholder: medical-student
+summary: Medical students evaluate the teaching they receive and see how their evaluation shapes the teaching priorities of the commons.
+stages:
+- slug: evaluate-teaching
+  title: Evaluate Teaching
+  goal: Give structured evaluation of courses, placements and teachers.
+  step: academic-strategy/academic-performance-assessment
+  touchpoints:
+  - learning-platform
+- slug: see-the-priorities
+  title: See the Priorities
+  goal: Learn which programmes, placements and curriculum changes the commons commits to, and why.
+  step: academic-strategy/teaching-priority-setting
+  touchpoints:
+  - learning-platform
+  - lecture-hall

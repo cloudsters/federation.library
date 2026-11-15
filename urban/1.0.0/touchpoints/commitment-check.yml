@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: commitment-check
+title: Commitment Check
+medium: channel
+summary: The check of every order and contract against the budget still available, recorded as a commitment before the order goes
+  to the supplier.
+exchanges:
+- committed-order-for-delivery-on-terms
+journey: city-administration-spending-within-the-budget

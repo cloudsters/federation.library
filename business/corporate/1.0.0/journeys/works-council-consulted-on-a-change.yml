@@ -1,0 +1,32 @@
+kind: journey
+slug: works-council-consulted-on-a-change
+title: Works Council Consulted on a Change
+stakeholder: works-council
+summary: Employee representatives are informed early about a change, consulted on its plan, give or withhold consent where the law
+  requires it and follow the transition and its adoption on behalf of the staff.
+stages:
+- slug: be-informed-early
+  title: Be Informed Early
+  goal: The representatives know the groups affected and the depth of impact before the plan is fixed.
+  step: change-as-growth/impact-and-readiness-assessment
+  touchpoints:
+  - works-council-meeting
+- slug: consult-and-decide
+  title: Consult and Decide
+  goal: The council has been consulted in good time, its consent obtained where required and disagreements resolved by the agreed
+    route.
+  step: change-as-growth/consultation-of-employee-representatives
+  touchpoints:
+  - works-council-meeting
+- slug: accompany-the-transition
+  title: Accompany the Transition
+  goal: The council sees that people are accompanied into new roles or supported on their way out as agreed.
+  step: change-as-growth/transition-and-implementation
+  touchpoints:
+  - staff-assembly
+- slug: watch-the-adoption
+  title: Watch the Adoption
+  goal: The council receives adoption measures and feedback and can raise where the change burdens staff.
+  step: change-as-growth/adoption-monitoring
+  touchpoints:
+  - adoption-review

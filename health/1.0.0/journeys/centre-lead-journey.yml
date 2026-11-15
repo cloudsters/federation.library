@@ -1,0 +1,55 @@
+kind: journey
+slug: centre-lead-journey
+title: Centre Lead Journey
+stakeholder: head-of-clinical-department
+summary: The physician who leads a centre carries it from proposal through mandate, partnership, pathways and launch to external recognition.
+stages:
+- slug: propose-the-centre
+  title: Propose the Centre
+  goal: Describe the clinical focus, the partners and the case for a centre.
+  step: centre-development/centre-proposal
+  touchpoints:
+  - business-case
+  - performance-dialogue
+- slug: receive-the-mandate
+  title: Receive the Mandate
+  goal: Obtain the board's mandate, resources and authority across departments.
+  step: centre-development/centre-commitment
+  touchpoints:
+  - board-meeting
+- slug: know-the-gap
+  title: Know the Gap
+  goal: Know precisely which requirements for recognition the centre meets and which it does not.
+  step: centre-development/requirements-gap-assessment
+  touchpoints:
+  - centre-manual
+  - centre-steering-meeting
+- slug: bind-the-partners
+  title: Bind the Partners
+  goal: Agree roles, decision rules and commitments with every participating unit and partner.
+  step: centre-development/centre-structure-design
+  touchpoints:
+  - cooperation-agreement
+  - centre-steering-meeting
+- slug: agree-the-pathways
+  title: Agree the Pathways
+  goal: Agree pathways and case conferences that every participating specialty follows.
+  step: centre-development/pathway-and-case-conference-build
+  touchpoints:
+  - multidisciplinary-case-conference
+  - centre-manual
+- slug: open-the-centre
+  title: Open the Centre
+  goal: Make the centre known to referrers, patients and the public with clear routes of access.
+  step: centre-development/centre-launch
+  touchpoints:
+  - referrer-forum
+  - public-website
+- slug: earn-recognition
+  title: Earn Recognition
+  goal: Pass the external audit, correct its findings and keep recognition through renewal.
+  step: centre-development/performance-review-and-recognition
+  touchpoints:
+  - inspection-and-audit
+  - centre-manual
+  - centre-steering-meeting

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-team-briefing
+title: Service Team Briefing
+medium: encounter
+summary: The short briefing of the service team on expected volumes, open issues, changes and standards at the start of a shift or
+  week.
+exchanges:
+- incident-reports-for-safety-action
+journey: customer-service-representative-serving-on-the-front-line

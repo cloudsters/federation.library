@@ -1,0 +1,39 @@
+kind: entity
+slug: prediction
+title: Prediction
+type: intelligence
+summary: An output of an analytic or AI model about a customer, product, asset or operation, such as a churn risk, a demand estimate
+  or a failure probability, recorded with model version, confidence and what was done with it.
+attributes:
+- name: analytics-model
+  type: reference(analytics-model)
+  card: 1..1
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: subject-reference
+  type: identifier
+  card: 1..1
+- name: predicted-value
+  type: quantity
+  card: 0..1
+- name: predicted-class
+  type: code
+  card: 0..1
+- name: confidence
+  type: decimal
+  card: 0..1
+- name: generated-at
+  type: datetime
+  card: 1..1
+- name: action-taken
+  type: code
+  card: 0..1
+states:
+- generated
+- reviewed
+- acted-on
+- dismissed
+relations:
+- type: refers-to
+  target: analytics-model

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-activity-profile
+title: Published Activity Profile
+medium: artefact
+summary: The published profile of physical activity by neighbourhood, age, gender, disability and income, with the facilities within
+  reach of each neighbourhood.
+exchanges:
+- activity-accounts-for-a-fuller-profile
+journey: sports-club-sharing-facilities-fairly

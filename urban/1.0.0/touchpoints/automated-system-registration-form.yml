@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: automated-system-registration-form
+title: Automated System Registration Form
+medium: artefact
+summary: The form on which a department states a proposed system's purpose, the decisions it touches, the data it uses and who supplies
+  it, before any use.
+exchanges:
+- supplier-disclosure-for-a-registered-use
+journey: city-administration-bringing-an-automated-system-under-assurance

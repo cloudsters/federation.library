@@ -1,0 +1,36 @@
+kind: entity
+slug: cost-centre
+title: Cost Centre
+type: master
+summary: A unit of cost and revenue accounting, mapped to an organisation unit or activity, to which personnel, material and overhead
+  costs are posted and from which case costs are allocated.
+attributes:
+- name: cost-centre-code
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: cost-centre-kind
+  type: code
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: responsible
+  type: reference(position)
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- active
+- locked
+- closed
+relations:
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

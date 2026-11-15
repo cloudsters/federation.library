@@ -1,0 +1,8 @@
+kind: capability
+slug: autonomous-procurement
+title: Autonomous Procurement via Intent Matching
+level: L3
+parent: commons-network-exchange
+summary: A commons’ D4 agent continuously matches internal needs against the federated intent network — not by searching a catalogue
+  but by querying the Commons MCP for matching offer intents, then negotiating directly with the offering commons’ Blueprint MCP.
+  Sourcing becomes a permanent, ambient scan rather than a discrete procurement event.

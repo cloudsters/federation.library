@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: land-and-growth-atlas
+title: Land and Growth Atlas
+medium: artefact
+summary: The published maps of land supply, vacant and underused land and buildings, expected growth or decline, network capacity
+  and land exposed to hazards.
+exchanges:
+- network-capacity-for-growth-where-it-can-be-served
+- land-information-for-a-fair-picture-of-supply
+journey: city-planner-renewing-the-spatial-plan

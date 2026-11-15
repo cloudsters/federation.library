@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pooled-orders-for-access-to-city-terms
+title: Pooled Orders for Access to City Terms
+between:
+- purchasing-group
+- procurement-officer
+offered:
+- The group's pooled orders and its own decisions on what to buy.
+returned:
+- Advice, shared storage and access to city framework agreements where the statutory framework allows.
+touchpoint: purchasing-group-advice-desk

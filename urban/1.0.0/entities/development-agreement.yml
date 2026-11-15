@@ -1,0 +1,64 @@
+kind: entity
+slug: development-agreement
+title: Development Agreement
+type: governance
+summary: The binding agreement between the city, landowners and developers on a development, with its commons space, affordable homes,
+  community benefit fund, the community's right to buy first and the share of the rise in land value it returns. The city negotiates
+  it and the legal office reviews it, the council approves it, and residents and the city review its delivery after the quarter is
+  built.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: development-project
+  type: reference(development-project)
+  card: 1..1
+- name: commons-space
+  type: quantity
+  card: 0..1
+- name: affordable-homes
+  type: integer
+  card: 0..1
+- name: community-benefit-fund
+  type: amount
+  card: 0..1
+- name: right-to-buy-first
+  type: text
+  card: 0..1
+- name: land-value-contribution
+  type: amount
+  card: 0..1
+- name: other-obligations
+  type: text
+  card: 0..*
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: benefit-review-date
+  type: date
+  card: 0..1
+states:
+- negotiating
+- approved
+- signed
+- in-force
+- reviewed
+- fulfilled
+- terminated
+relations:
+- type: refers-to
+  target: development-project
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: contract
+- type: produces
+  target: oversight-report

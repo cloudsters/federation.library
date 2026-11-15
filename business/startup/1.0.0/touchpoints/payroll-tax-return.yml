@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: payroll-tax-return
+title: Payroll Tax Return
+medium: artefact
+summary: The return through which the company declares the taxes and contributions withheld from pay and pays them to the authorities
+  and funds.
+exchanges:
+- withheld-taxes-for-compliance-certainty
+journey: payroll-specialist-closing-a-pay-run

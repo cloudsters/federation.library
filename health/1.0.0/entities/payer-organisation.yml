@@ -1,0 +1,28 @@
+kind: entity
+slug: payer-organisation
+title: Payer Organisation
+type: master
+summary: An organisation that pays for care on behalf of covered persons, such as a statutory or private insurer, a public authority
+  or an employer scheme, with its rules and claim channels.
+attributes:
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: payer-kind
+  type: code
+  card: 1..1
+- name: payer-identifier
+  type: identifier
+  card: 1..1
+- name: claim-channels
+  type: code
+  card: 0..*
+- name: contact
+  type: text
+  card: 0..*
+states:
+- active
+- inactive
+relations:
+- type: refers-to
+  target: organisation

@@ -1,0 +1,13 @@
+kind: body
+slug: finance-and-accounting
+title: Finance and Accounting
+summary: 'Keeps the books and the money: general and asset accounting, separate accounting of funded activities, closing and consolidation,
+  financial reporting and tax, cash, banking, debt and investment, and payables.'
+holds:
+- financial-accounting
+- reporting-and-tax
+- treasury
+- payables-and-expenses
+part_of: executive-board
+type: function
+form: organisational-unit

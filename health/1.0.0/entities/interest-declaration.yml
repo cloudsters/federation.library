@@ -1,0 +1,47 @@
+kind: entity
+slug: interest-declaration
+title: Interest Declaration
+type: transactional
+summary: A staff member's declaration of a relationship that may conflict with their duties, such as consultancy, sponsorship,
+  research funding, shareholding or gifts from industry or suppliers, assessed and accepted, conditioned or refused.
+attributes:
+- name: declarant
+  type: reference(employee)
+  card: 1..1
+- name: interest-kind
+  type: code
+  card: 1..1
+- name: counterparty
+  type: reference(organisation)
+  card: 1..1
+- name: value
+  type: amount
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+- name: assessment
+  type: code
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..1
+states:
+- declared
+- under-assessment
+- accepted
+- accepted-with-conditions
+- refused
+- ended
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: organisation
+binds:
+- source: src-316
+  edition: '2025'
+  jurisdiction: global
+- source: src-486
+  edition: '2026'
+  jurisdiction: global

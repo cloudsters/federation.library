@@ -1,0 +1,26 @@
+kind: journey
+slug: insurer-pricing-cover-on-a-known-risk-profile
+title: Insurer Pricing Cover on a Known Risk Profile
+stakeholder: insurer
+summary: An insurer surveys the company's sites, prices cover on what it finds, agrees the risks it will carry and follows how the
+  profile changes over the term.
+stages:
+- slug: survey-the-risks
+  title: Survey the Risks
+  goal: The insurer has seen the sites, the loss history and the controls and can judge the risk.
+  step: risk-as-immune-response/risk-evaluation
+  touchpoints:
+  - insurer-risk-survey
+- slug: agree-the-cover
+  title: Agree the Cover
+  goal: The risks to be transferred are agreed, priced and placed with clear conditions.
+  step: risk-as-immune-response/risk-treatment
+  touchpoints:
+  - insurance-renewal
+- slug: follow-the-profile
+  title: Follow the Profile
+  goal: The insurer hears of material changes in time and sees its loss-prevention advice taken up.
+  step: risk-as-immune-response/risk-monitoring
+  touchpoints:
+  - insurer-risk-survey
+  - risk-report

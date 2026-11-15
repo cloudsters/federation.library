@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-account-for-an-updated-roadmap
+title: Neighbourhood Account for an Updated Roadmap
+between:
+- neighbourhood-association
+- city-council
+offered:
+- An account of what the city's systems delivered in the neighbourhood and where they failed.
+returned:
+- A strategy and roadmap updated where the account shows they fall short.
+touchpoint: digital-strategy-review-session

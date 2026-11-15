@@ -1,0 +1,31 @@
+kind: journey
+slug: ombudsman-deciding-an-unresolved-complaint
+title: Ombudsman Deciding an Unresolved Complaint
+stakeholder: ombudsman
+summary: The ombudsman receives a complaint the city did not resolve in time, investigates it independently, orders a remedy and reports
+  failures that recur across the city to the council in public.
+stages:
+- slug: receive-the-complaint-directly
+  title: Receive the Complaint Directly
+  goal: The complainant has reached the ombudsman without passing through the administration, and the case is opened.
+  step: complaints-and-ombudsman/ombudsman-review
+  touchpoints:
+  - ombudsman-complaint-desk
+- slug: investigate-independently
+  title: Investigate Independently
+  goal: The ombudsman has heard both sides and seen every record needed, including how any automated system took part.
+  step: complaints-and-ombudsman/complaint-investigation
+  touchpoints:
+  - complaint-investigation-hearing
+- slug: order-the-remedy
+  title: Order the Remedy
+  goal: A reasoned decision orders the remedy, and the city carries it out within the time set.
+  step: complaints-and-ombudsman/ombudsman-review
+  touchpoints:
+  - ombudsman-remedy-order
+- slug: report-to-the-council
+  title: Report to the Council
+  goal: Failures that recur across services and neighbourhoods are reported to the council in public and answered.
+  step: complaints-and-ombudsman/learning-from-complaints
+  touchpoints:
+  - ombudsman-public-report

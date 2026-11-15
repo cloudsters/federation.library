@@ -1,0 +1,7 @@
+kind: capability
+slug: part-disposition-traceability
+title: Part Disposition Traceability
+level: L3
+parent: asset-end-of-life
+summary: Record the source, reason for disposition and destination of every part from a retired asset, so its fate is fully traceable,
+  hazards are provably handled and recovered value is documented.

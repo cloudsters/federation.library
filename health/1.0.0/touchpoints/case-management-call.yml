@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: case-management-call
+title: Case Management Call
+medium: encounter
+summary: The scheduled contact by phone or video in which a case manager reviews an enrolled patient's condition, plan and needs and
+  arranges what is missing.
+exchanges:
+- coordinated-care-for-enrolled-patients
+journey: living-with-coordinated-care

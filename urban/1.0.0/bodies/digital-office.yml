@@ -1,0 +1,61 @@
+kind: body
+slug: digital-office
+title: Digital Office
+summary: Keeps the architecture and the roadmap of the city's systems, plans and keeps the public networks with the neighbourhoods,
+  connects systems through shared definitions and published interfaces, delivers and retires digital tools, and runs the service desk
+  and the live services.
+holds:
+- digital-strategy-and-architecture
+- digital-infrastructure-and-networks
+- interoperability-and-integration
+- solution-delivery-and-renewal
+- service-operations-and-support
+- digital-landscape-assessment
+- dependency-mapping
+- digital-strategy-drafting
+- systems-architecture-design
+- digital-roadmap-planning
+- architecture-decision-review
+- connectivity-gap-mapping
+- public-network-planning
+- network-access-agreement-drafting
+- network-build-coordination
+- community-network-support
+- sensor-deployment
+- network-upkeep
+- exchange-need-assessment
+- shared-data-model-design
+- federation-agreement-drafting
+- interface-specification
+- interface-build-and-testing
+- exchange-monitoring
+- digital-demand-intake
+- service-design-with-residents
+- open-source-first-sourcing
+- solution-build-and-configuration
+- acceptance-testing
+- solution-go-live
+- code-publication-and-sharing
+- legacy-system-retirement
+- service-level-setting
+- system-monitoring
+- service-desk-intake
+- incident-and-request-resolution
+- change-and-release-control
+- problem-analysis
+- automation-design-and-sourcing
+- automation-candidate-assessment
+- supplier-exit-planning
+- practice-encoding
+- agent-mandate-drafting
+- oversight-and-escalation-design
+- agent-commissioning
+- agent-retraining
+- agent-retirement-and-succession
+- digital-and-assisted-service-routes
+- service-digitisation-prioritisation
+- resident-account-provision
+- once-only-data-reuse
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,38 @@
+kind: journey
+slug: sponsor-seeing-a-change-take-hold
+title: Sponsor Seeing a Change Take Hold
+stakeholder: executive-board
+summary: A sponsor commissions an honest readiness assessment, approves a plan that names what ends, seeks agreement with employee
+  representatives and keeps attention and resources on the change until it holds.
+stages:
+- slug: face-the-readiness
+  title: Face the Readiness
+  goal: The sponsor knows the barriers, enablers and cultural context of the change before committing to it.
+  step: change-as-growth/impact-and-readiness-assessment
+  touchpoints:
+  - change-impact-workshop
+- slug: approve-the-plan
+  title: Approve the Plan
+  goal: Champions, roles, training, incentives and adoption measures are approved and resourced.
+  step: change-as-growth/change-design
+  touchpoints:
+  - change-plan
+- slug: reach-agreement
+  title: Reach Agreement
+  goal: The change is agreed with employee representatives before it is carried out.
+  step: change-as-growth/consultation-of-employee-representatives
+  touchpoints:
+  - works-council-meeting
+- slug: keep-attention-on-adoption
+  title: Keep Attention on Adoption
+  goal: Adoption is reported to the sponsor, who reinforces the new way where it does not yet hold.
+  step: change-as-growth/adoption-monitoring
+  touchpoints:
+  - adoption-review
+- slug: secure-the-gains
+  title: Secure the Gains
+  goal: Performance is watched until the gains are secure, and drift is corrected rather than declared success.
+  step: change-as-growth/consolidation-and-lessons
+  touchpoints:
+  - lessons-learned-review
+  - board-meeting

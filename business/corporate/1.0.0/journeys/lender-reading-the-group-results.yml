@@ -1,0 +1,20 @@
+kind: journey
+slug: lender-reading-the-group-results
+title: Lender Reading the Group Results
+stakeholder: lender
+summary: A lender relies on the group's cash pooling and reads consolidated results to judge the strength of the whole group behind
+  its credit.
+stages:
+- slug: run-the-cash-pool
+  title: Run the Cash Pool
+  goal: The pooling arrangement moves cash between entities as agreed.
+  step: global-value-consolidation/group-cash-orchestration
+  touchpoints:
+  - cash-pool
+- slug: read-the-consolidated-results
+  title: Read the Consolidated Results
+  goal: The lender receives consolidated results with currency effects explained.
+  step: global-value-consolidation/group-results-reporting
+  touchpoints:
+  - lender-review
+  - annual-report

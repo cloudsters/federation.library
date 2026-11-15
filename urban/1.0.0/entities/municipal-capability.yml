@@ -1,0 +1,60 @@
+kind: entity
+slug: municipal-capability
+title: Municipal Capability
+type: master
+summary: A capability of the administration, with the staff, assets, systems and finances that carry it, whether the city does the
+  work itself, shares it or leaves it to others, and the strength and gaps found when it was last assessed. The administration keeps
+  it, and it is used to test strategic options and to design the departments.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: delivery-mode
+  type: code
+  card: 1..1
+- name: responsible-department
+  type: reference(department)
+  card: 0..1
+- name: partners
+  type: text
+  card: 0..*
+- name: staff-count
+  type: integer
+  card: 0..1
+- name: assets
+  type: text
+  card: 0..*
+- name: systems
+  type: text
+  card: 0..*
+- name: annual-cost
+  type: amount
+  card: 0..1
+- name: assessed-maturity
+  type: code
+  card: 0..1
+- name: gaps
+  type: text
+  card: 0..*
+- name: assessed-on
+  type: date
+  card: 0..1
+states:
+- identified
+- assessed
+- developed
+- shared
+- transferred
+- retired
+relations:
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: cross-boundary-agreement
+- type: refers-to
+  target: city-strategy

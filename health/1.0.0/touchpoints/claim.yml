@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: claim
+title: Claim
+medium: artefact
+summary: The bill sent to a payer for a case or service, built from coded diagnoses and procedures, and the object of the payer's
+  review.
+exchanges:
+- substantiated-record-for-a-decided-claim
+- correct-claim-for-timely-payment
+journey: settling-a-claim

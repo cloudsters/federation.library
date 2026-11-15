@@ -1,0 +1,54 @@
+kind: journey
+slug: information-technology-specialist-keeping-the-city-systems-whole
+title: Information Technology Specialist Keeping the City's Systems Whole
+stakeholder: information-technology-specialist
+summary: An information technology specialist assesses the city's systems with their owners, maps what the city depends on with residents
+  and staff, designs the target architecture, plans one roadmap, reviews major digital decisions against it and reports each year
+  where the architecture has drifted.
+stages:
+- slug: assess-the-landscape
+  title: Assess the Landscape
+  goal: The maturity, cost and use of each system are known, with the residents it serves poorly and where the city depends on a single
+    supplier or a single central point.
+  step: digital-strategy-and-systems-architecture/digital-landscape-assessment
+  touchpoints:
+  - system-owner-review
+  - published-landscape-assessment
+- slug: map-the-dependencies
+  title: Map the Dependencies
+  goal: The networks, servers, sensors and services the city depends on are mapped with residents and staff, and each single point
+    of failure is named.
+  step: digital-strategy-and-systems-architecture/digital-dependency-mapping
+  touchpoints:
+  - dependency-mapping-workshop
+  - published-dependency-map
+- slug: design-the-target-architecture
+  title: Design the Target Architecture
+  goal: The target architecture states what the neighbourhood, district and city levels each hold and decide, the shared definitions
+    and interfaces between them and the redundancy that removes single points of failure.
+  step: digital-strategy-and-systems-architecture/target-architecture-design
+  touchpoints:
+  - architecture-design-session
+  - published-target-architecture
+- slug: plan-one-roadmap
+  title: Plan One Roadmap
+  goal: The systems to build, replace and retire are on one roadmap with their whole-life cost, and are carried into the programme
+    portfolio.
+  step: digital-strategy-and-systems-architecture/digital-roadmap-planning
+  touchpoints:
+  - published-digital-roadmap
+- slug: review-major-decisions
+  title: Review Major Decisions
+  goal: Each major digital decision has been reviewed against the strategy and the architecture before it is taken, and the review
+    is published with its reasons.
+  step: digital-strategy-and-systems-architecture/architecture-decision-review
+  touchpoints:
+  - architecture-review-meeting
+  - published-architecture-review
+- slug: report-the-drift
+  title: Report the Drift
+  goal: Where the architecture has drifted and what peer cities have learned are reported, and the roadmap and the strategy are updated.
+  step: digital-strategy-and-systems-architecture/digital-strategy-review
+  touchpoints:
+  - digital-strategy-review-session
+  - annual-digital-report

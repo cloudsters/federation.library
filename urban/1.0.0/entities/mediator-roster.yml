@@ -1,0 +1,51 @@
+kind: entity
+slug: mediator-roster
+title: Mediator Roster
+type: master
+summary: The list of trained community mediators and restorative circle keepers by neighbourhood, with their languages, training and
+  availability. The city's mediation service keeps it with the neighbourhood bodies, and it is used to assign each dispute a mediator
+  who speaks the parties' language and is trusted where they live.
+attributes:
+- name: keeper
+  type: text
+  card: 1..1
+- name: coverage
+  type: reference(neighbourhood)
+  card: 1..*
+- name: mediators
+  type: text
+  card: 1..*
+- name: practice-kinds
+  type: code
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: training-completed
+  type: text
+  card: 0..*
+- name: observed-practice-hours
+  type: quantity
+  card: 0..*
+- name: availability
+  type: text
+  card: 0..*
+- name: volunteer-records
+  type: reference(volunteer-record)
+  card: 0..*
+- name: last-updated-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- published
+- in-use
+- under-review
+- superseded
+relations:
+- type: governed-by
+  target: mediation-protocol
+- type: refers-to
+  target: volunteer-record
+- type: refers-to
+  target: neighbourhood

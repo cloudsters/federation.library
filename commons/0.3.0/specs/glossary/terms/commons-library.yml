@@ -1,0 +1,17 @@
+id: commons-library
+term: Commons LIBRARY
+layer: what
+kind: repository
+definition: What holds the releases of models and the extracts of patterns, from which a commons installs.
+why: 'Only the component (commons.o#109, models note part 3.3): where a shelf or a catalogue of what one model holds is
+  meant, the text says shelf or catalogue.'
+relations:
+  is_a: component
+not:
+- a shelf or a catalogue of what one model holds
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); earlier 2026-10-29,
+    commons.o#98, comment 6505618412: Adopted 29 October 2026 (the merge of commons.o#100)'

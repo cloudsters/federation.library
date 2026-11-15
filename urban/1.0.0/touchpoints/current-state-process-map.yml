@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: current-state-process-map
+title: Current-State Process Map
+medium: artefact
+summary: The map of a process as it actually runs, with its steps, roles, waiting points, systems and what residents meet, drawn with
+  the staff who run it and used again when a failure is analysed.
+exchanges:
+- working-knowledge-for-a-true-map
+journey: frontline-worker-improving-the-process-they-run

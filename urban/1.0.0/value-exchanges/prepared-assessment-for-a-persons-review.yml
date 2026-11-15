@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-assessment-for-a-persons-review
+title: Prepared Assessment for a Person's Review
+between:
+- municipal-ai-agent
+- frontline-worker
+offered:
+- An assessment prepared against the rules, with its reasons and the data it used.
+returned:
+- A caseworker's review before any refusal, and each correction recorded so that the system is changed.
+touchpoint: caseworker-check-before-refusal

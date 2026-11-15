@@ -1,0 +1,48 @@
+kind: solution
+slug: facility-management
+title: Facility Management
+role: system-of-record
+summary: Manages sites, buildings and rooms, their technical maintenance, energy use and environmental footprint, construction
+  projects, and support services such as cleaning, catering, patient transport and waste removal.
+carries:
+- facility-planning
+- construction-design-and-planning
+- construction-execution
+- construction-management
+- workspace-provision
+- facility-operations-management
+- building-technical-services
+- responsive-maintenance
+- security-and-access-control
+- energy-management
+- carbon-footprint-reduction
+- esg-data-management
+- hazardous-waste-management
+- environmental-hygiene
+- water-safety
+- fire-safety
+- asset-condition-sensing
+- patient-catering
+- cleaning-services
+- linen-and-textile-services
+- patient-transport-services
+- mortuary-services
+- internal-distribution
+holds:
+- site
+- facility
+- room
+- maintenance-order
+- capital-project
+- support-service-order
+- environmental-footprint
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

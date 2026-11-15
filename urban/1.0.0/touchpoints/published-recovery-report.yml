@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-recovery-report
+title: Published Recovery Report
+medium: artefact
+summary: The published report of what a retired asset returned in materials reused, recovered and disposed of.
+exchanges:
+- recovery-figures-for-learning
+journey: asset-officer-retiring-an-asset

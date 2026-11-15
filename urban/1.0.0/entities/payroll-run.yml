@@ -1,0 +1,55 @@
+kind: entity
+slug: payroll-run
+title: Payroll Run
+type: transactional
+summary: The calculation and payment of salaries for one period, with the taxes and contributions withheld and the posting to the
+  accounts. The personnel and finance functions run and reconcile it, and it is used to issue payslips, to remit what was withheld
+  and to settle final pay on exit.
+attributes:
+- name: pay-period
+  type: period
+  card: 1..1
+- name: staff-paid
+  type: integer
+  card: 1..1
+- name: gross-pay
+  type: amount
+  card: 1..1
+- name: taxes-withheld
+  type: amount
+  card: 1..1
+- name: contributions-withheld
+  type: amount
+  card: 1..1
+- name: net-pay
+  type: amount
+  card: 1..1
+- name: payments
+  type: reference(payment)
+  card: 1..*
+- name: journal-entries
+  type: reference(journal-entry)
+  card: 1..*
+- name: payslips
+  type: document
+  card: 1..*
+- name: run-on
+  type: date
+  card: 1..1
+states:
+- opened
+- inputs-collected
+- calculated
+- approved
+- paid
+- posted
+- corrected
+relations:
+- type: based-on
+  target: staff-record
+- type: governed-by
+  target: pay-scale
+- type: produces
+  target: payment
+- type: produces
+  target: journal-entry

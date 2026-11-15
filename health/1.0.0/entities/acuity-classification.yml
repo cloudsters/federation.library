@@ -1,0 +1,41 @@
+kind: entity
+slug: acuity-classification
+title: Acuity Classification
+type: transactional
+summary: The classification of a patient into a nursing workload category for a shift or day, aggregated per unit to compare required
+  with available staff and to evidence that staffing standards are met.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: classification-date
+  type: date
+  card: 1..1
+- name: shift
+  type: code
+  card: 0..1
+- name: category
+  type: code
+  card: 1..1
+- name: required-care-time
+  type: quantity
+  card: 0..1
+- name: classified-by
+  type: reference(practitioner-role)
+  card: 1..1
+states:
+- recorded
+- validated
+relations:
+- type: governed-by
+  target: staffing-standard
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

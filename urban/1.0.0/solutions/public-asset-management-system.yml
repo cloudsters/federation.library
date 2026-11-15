@@ -1,0 +1,32 @@
+kind: solution
+slug: public-asset-management-system
+title: Public Asset Management System
+role: system-of-record
+summary: Holds the register of the land, buildings, networks and enterprises the city holds, with the value, condition, use and income
+  of each and the rents and charges set for them, and each municipal enterprise with its mandate and the surplus it returns.
+carries:
+- public-asset-registration
+- asset-rent-and-charge-setting
+- owner-mandate-setting
+- enterprise-surplus-allocation
+- shared-place-care-agreement-drafting
+- creative-workspace-provision
+- public-art-commissioning
+- public-amenity-provision
+- street-repair-prioritisation
+- asset-criticality-rating
+- asset-lifecycle-planning
+- renewal-prioritisation
+- end-of-life-option-appraisal
+- pre-demolition-audit
+- asset-record-closure
+holds:
+- public-asset-register
+- municipal-enterprise
+- place-care-agreement
+- creative-workspace
+- public-artwork
+- infrastructure-asset
+- asset-plan
+- retirement-decision
+- material-recovery-report

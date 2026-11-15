@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: patient-held-health-record
+title: Patient-Held Health Record
+medium: artefact
+summary: The cross-provider electronic record controlled by the patient, into which the commons writes findings and letters and from
+  which it reads the patient's history.
+exchanges:
+- future-wishes-recorded-and-honoured
+- second-opinion-for-informed-choice
+- record-access-for-continuity
+- access-to-own-record
+journey: patient-sharing-a-health-record

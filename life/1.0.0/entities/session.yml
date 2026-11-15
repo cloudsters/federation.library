@@ -1,0 +1,36 @@
+kind: entity
+slug: session
+title: Session
+type: transactional
+summary: A scheduled working appointment about this person themselves — therapy, coaching, supervision, spiritual direction. Held
+  as a recurring event because what it does, it does by recurring.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: with
+  type: reference(therapist)
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: length
+  type: duration
+  card: 0..1
+- name: brought
+  type: text
+  card: 0..1
+- name: taken-away
+  type: text
+  card: 0..*
+- name: next-on
+  type: date
+  card: 0..1
+states:
+- booked
+- held
+- missed
+- followed up
+relations:
+- target: therapist
+  type: part-of

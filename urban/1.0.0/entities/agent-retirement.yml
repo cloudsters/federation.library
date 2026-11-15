@@ -1,0 +1,55 @@
+kind: entity
+slug: agent-retirement
+title: Agent Retirement
+type: transactional
+summary: The retirement of an AI agent from its role, with the successor agent or staff who take over its tasks, the records kept
+  and the access revoked. The department that owns the agent carries it out under the agent's mandate, and it is used to show that
+  no task, record or access was left behind.
+attributes:
+- name: ai-agent
+  type: reference(ai-agent)
+  card: 1..1
+- name: mandate
+  type: reference(agent-mandate)
+  card: 1..1
+- name: reason
+  type: code
+  card: 1..1
+- name: retired-on
+  type: date
+  card: 1..1
+- name: successor-agent
+  type: reference(ai-agent)
+  card: 0..1
+- name: staff-taking-over
+  type: text
+  card: 0..*
+- name: tasks-handed-over
+  type: text
+  card: 1..*
+- name: records-kept
+  type: reference(data-set)
+  card: 0..*
+- name: access-revoked
+  type: reference(digital-identity)
+  card: 1..*
+- name: supplier-exit-plan
+  type: reference(supplier-exit-plan)
+  card: 0..1
+states:
+- scheduled
+- tasks-transferred
+- records-archived
+- access-revoked
+- completed
+relations:
+- type: refers-to
+  target: ai-agent
+- type: governed-by
+  target: agent-mandate
+- type: depends-on
+  target: supplier-exit-plan
+- type: refers-to
+  target: automated-system-register
+- type: produces
+  target: knowledge-article

@@ -1,0 +1,52 @@
+kind: journey
+slug: receivables-accountant-collecting-what-is-due
+title: Receivables Accountant Collecting What Is Due
+stakeholder: finance-professional
+summary: A receivables accountant sets customer credit, turns delivered value into invoices and recognised revenue, applies payments,
+  follows up overdue amounts and resolves differences at their cause.
+stages:
+- slug: set-customer-credit
+  title: Set Customer Credit
+  goal: Each customer's creditworthiness is assessed and limits and terms are set.
+  step: revenue-architecture/customer-credit-setting
+  touchpoints:
+  - credit-assessment
+- slug: capture-what-is-billable
+  title: Capture What Is Billable
+  goal: Deliveries, milestones, time and usage are rated against orders and plans.
+  step: revenue-architecture/billable-event-capture
+  touchpoints:
+  - accounting-workbench
+  - delivery-note
+- slug: issue-the-invoices
+  title: Issue the Invoices
+  goal: Correct invoices go out in every form customers and authorities require.
+  step: revenue-architecture/invoice-issue
+  touchpoints:
+  - invoice
+  - electronic-order-interface
+- slug: recognise-the-revenue
+  title: Recognise the Revenue
+  goal: Revenue is recognised when value is delivered and deferred where it is not.
+  step: revenue-architecture/revenue-recognition
+  touchpoints:
+  - accounting-workbench
+- slug: apply-the-payments
+  title: Apply the Payments
+  goal: Payments are matched to open invoices so that receivables are true each day.
+  step: revenue-architecture/payment-receipt-and-application
+  touchpoints:
+  - accounting-workbench
+  - bank-statement
+- slug: follow-up-overdue-amounts
+  title: Follow Up Overdue Amounts
+  goal: Overdue amounts are followed up in graduated steps and payment plans agreed where needed.
+  step: revenue-architecture/dunning-and-collection
+  touchpoints:
+  - payment-reminder
+- slug: resolve-differences
+  title: Resolve Differences
+  goal: Disputes are settled and their causes fed back to sales and delivery.
+  step: revenue-architecture/adjustment-and-deduction-resolution
+  touchpoints:
+  - credit-note

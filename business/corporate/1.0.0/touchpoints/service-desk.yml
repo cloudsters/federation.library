@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-desk
+title: Service Desk
+medium: channel
+summary: The internal phone, chat and email point where staff and agents report incidents and requests and reach a person who helps.
+exchanges:
+- vigilance-for-protection
+- clear-report-for-swift-help
+- precise-diagnostics-for-a-lasting-fix
+journey: employee-working-securely

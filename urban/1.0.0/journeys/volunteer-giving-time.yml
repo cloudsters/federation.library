@@ -1,0 +1,49 @@
+kind: journey
+slug: volunteer-giving-time
+title: Volunteer Giving Time
+stakeholder: volunteer
+summary: A volunteer finds a task in one place, is matched, prepared and covered, cares for a shared place under a written agreement,
+  sees the hours recognised and says how it went, including why they stepped back.
+stages:
+- slug: find-a-task
+  title: Find a Task
+  goal: The volunteer has found a task in one place, from a single afternoon to a standing role, or a way to help fix a problem they
+    reported.
+  step: volunteering-and-mutual-aid/opportunity-offering
+  touchpoints:
+  - volunteering-opportunities-board
+  - report-and-help-route
+- slug: be-matched
+  title: Be Matched
+  goal: The volunteer is matched to a task that fits their skills, time and wishes.
+  step: volunteering-and-mutual-aid/matching-and-preparation
+  touchpoints:
+  - volunteer-matching-conversation
+- slug: be-prepared-and-covered
+  title: Be Prepared and Covered
+  goal: The volunteer is prepared, checked where the task involves children or vulnerable adults, insured, and knows they can step
+    back at any time without penalty.
+  step: volunteering-and-mutual-aid/matching-and-preparation
+  touchpoints:
+  - volunteer-induction-and-check
+- slug: care-for-a-shared-place
+  title: Care for a Shared Place
+  goal: The volunteer's group has agreed in writing with the city who cares for the park or trees, what each side provides and when
+    the agreement is reviewed.
+  step: volunteering-and-mutual-aid/shared-place-care-agreements
+  touchpoints:
+  - place-care-agreement-signing
+  - place-care-check-in
+- slug: see-the-hours-recognised
+  title: See the Hours Recognised
+  goal: The hours given are recorded in the contribution ledger and recognised in public, without becoming a duty or a price.
+  step: volunteering-and-mutual-aid/contribution-recognition
+  touchpoints:
+  - contribution-ledger-account
+  - contribution-recognition-gathering
+- slug: say-how-it-went
+  title: Say How It Went
+  goal: The volunteer has told the city whether the work overburdened them, or why they stepped back.
+  step: volunteering-and-mutual-aid/volunteering-review
+  touchpoints:
+  - volunteer-feedback-round

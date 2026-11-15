@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: threat-knowledge-for-a-registered-risk
+title: Threat Knowledge for a Registered Risk
+between:
+- technology-supplier
+- information-technology-specialist
+offered:
+- Known weaknesses of its products and the threats it sees.
+returned:
+- Risks entered in the register with owners, and fair notice of the controls its products must meet.
+touchpoint: security-risk-workshop

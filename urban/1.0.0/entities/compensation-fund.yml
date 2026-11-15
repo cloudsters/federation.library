@@ -1,0 +1,56 @@
+kind: entity
+slug: compensation-fund
+title: Compensation Fund
+type: master
+summary: The fund each service carries from its own budget, from which compensation is paid when it breaks a published guarantee,
+  with its balance, its top-up rule and the awards paid from it. The department responsible for the service holds it and the treasury
+  accounts for it, and its draw-down shows the council the cost of each service's failures.
+attributes:
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: budget
+  type: reference(municipal-budget)
+  card: 1..1
+- name: fund-period
+  type: period
+  card: 1..1
+- name: opening-balance
+  type: amount
+  card: 1..1
+- name: current-balance
+  type: amount
+  card: 1..1
+- name: top-up-rule
+  type: text
+  card: 1..1
+- name: paid-out
+  type: amount
+  card: 0..1
+- name: award-count
+  type: integer
+  card: 0..1
+- name: bank-account
+  type: reference(bank-account)
+  card: 0..1
+states:
+- established
+- funded
+- active
+- depleted
+- replenished
+- closed
+relations:
+- type: part-of
+  target: municipal-budget
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: public-service
+- type: governed-by
+  target: complaints-procedure
+- type: refers-to
+  target: bank-account

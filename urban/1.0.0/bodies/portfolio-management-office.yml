@@ -1,0 +1,23 @@
+kind: body
+slug: portfolio-management-office
+title: Portfolio Management Office
+summary: Takes in, traces and appraises proposals, balances the portfolio and plans capital investment, sets benefit measures with
+  residents, mobilises programmes, reviews their progress and confirms their benefits and lessons.
+holds:
+- programme-selection-and-funding
+- programme-delivery-and-review
+- programme-proposal-intake
+- proposal-tracing
+- programme-appraisal
+- whole-life-cost-assessment
+- portfolio-balancing
+- capital-investment-planning
+- benefit-measure-setting
+- programme-mobilisation
+- delivery-partner-selection
+- programme-progress-review
+- benefit-confirmation
+- lesson-recording-and-sharing
+part_of: full-council
+type: function
+form: organisational-unit

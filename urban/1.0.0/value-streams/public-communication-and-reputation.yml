@@ -1,0 +1,140 @@
+kind: value-stream
+slug: public-communication-and-reputation
+title: Public Communication and Reputation
+family: proposition-to-audience
+summary: Informing residents and the wider region about what the city does, and earning a reputation that rests on how residents actually
+  live rather than on a marketed image. It holds the sensing of what is said about the city and of where that differs from residents'
+  experience, an honest account of the city reviewed with the communities it describes, plain-language information in the languages
+  residents use, media relations open to local, community and outside media alike, the city's own channels online and offline, open
+  communication in a crisis with corrections of what was wrong, and a review of whether residents recognise themselves in what the
+  city says.
+trigger: The city takes a decision, changes a service or faces a crisis, a journalist or resident asks a question, or what is said
+  about the city drifts from what residents report of their own lives.
+outcome: Residents and the region know what the city does and why, in words they understand, and the account the city gives of itself
+  is one its neighbourhoods recognise as true.
+stakeholders:
+- resident
+- news-media
+- communications-officer
+- mayor
+- city-council
+- city-administration
+- neighbourhood-association
+- affected-community
+steps:
+- slug: issue-and-reputation-sensing
+  title: Issue and Reputation Sensing
+  summary: The communications office follows what residents, local and outside media and online channels say about the city and sets
+    it beside what residents report of their own lives, so that gaps between image and lived reality are seen early.
+  capabilities:
+  - public-conversation-monitoring
+  - city-signal-collection
+  - reputation-gap-assessment
+  entities:
+  - reputation-report
+  - citizen-satisfaction
+  serves:
+  - lived-experience-listening-round
+  - public-conversation-digest
+- slug: city-self-description
+  title: City Self-Description
+  summary: The communications office drafts the city's account of itself, what it is, what it offers and where it falls short, from
+    the charter and the civic memory, and reviews it with neighbourhood bodies so that it neither erases nor misrepresents the communities
+    it describes.
+  capabilities:
+  - city-profile-drafting
+  - community-representation-review
+  - civic-memory-documentation
+  entities:
+  - city-profile
+  - city-charter
+  - civic-memory-record
+  serves:
+  - city-profile-review-circle
+  - published-city-profile
+- slug: public-information-preparation
+  title: Public Information Preparation
+  summary: Departments and the communications office turn decisions, services and plans into plain-language information in the languages
+    residents use, stating what changed, why, and what it means for whom.
+  capabilities:
+  - plain-language-content-production
+  - multilingual-information-design
+  - plain-language-testing
+  entities:
+  - public-communication
+  - council-decision
+  serves:
+  - plain-language-notice
+  - resident-readability-check
+- slug: media-relations
+  title: Media Relations
+  summary: Named spokespeople answer journalists promptly and completely, give local, community and outside media the same access
+    to information and briefings, and record each enquiry and what was given.
+  capabilities:
+  - media-enquiry-handling
+  - information-request-handling
+  - public-correction-issuing
+  entities:
+  - media-enquiry
+  - public-communication
+  serves:
+  - open-media-briefing
+  - press-enquiry-line
+  - published-media-enquiry-log
+- slug: city-channel-operation
+  title: City Channel Operation
+  summary: The city's website, social media accounts, newsletters, notice boards and displays in neighbourhood service points are
+    run as one set of channels with the same information, and printed and spoken routes reach those who are not online.
+  capabilities:
+  - city-channel-operation
+  - assisted-service-route-provision
+  - multilingual-information-design
+  entities:
+  - communication-channel
+  - public-communication
+  - service-point
+  serves:
+  - city-website-and-social-accounts
+  - neighbourhood-notice-board
+  - printed-and-spoken-information-route
+- slug: crisis-and-correction-communication
+  title: Crisis and Correction Communication
+  summary: In an emergency, a service failure or a public controversy the city speaks early, says what it knows and does not yet know,
+    corrects false or mistaken accounts including its own, and reports what it is doing until the matter is closed.
+  capabilities:
+  - crisis-communication
+  - public-warning
+  - public-correction-issuing
+  entities:
+  - public-communication
+  - emergency-response
+  serves:
+  - crisis-update-briefing
+  - printed-and-spoken-information-route
+  - published-correction-notice
+- slug: reputation-review
+  title: Reputation Review
+  summary: Once a year the communications office reviews with residents and neighbourhood bodies whom the city's information reached
+    and whom it missed, whether it was understood and trusted, and whether residents recognise their lives in the city's account,
+    and reports the findings to the council.
+  capabilities:
+  - reputation-gap-assessment
+  - resident-service-feedback-gathering
+  - community-representation-review
+  entities:
+  - reputation-report
+  - citizen-satisfaction
+  - city-profile
+  serves:
+  - reputation-report-to-council
+  - reputation-review-forum
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global
+- source: src-270
+  edition: '2021'
+  jurisdiction: global
+- source: src-271
+  edition: '2024-12-17'
+  jurisdiction: global

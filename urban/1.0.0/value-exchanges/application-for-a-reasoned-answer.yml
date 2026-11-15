@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: application-for-a-reasoned-answer
+title: Application for a Reasoned Answer
+between:
+- job-seeker
+- personnel-officer
+offered:
+- An application and the time to be assessed.
+returned:
+- An assessment against the published criteria by a panel that declared its interests, and an answer with reasons.
+touchpoint: selection-panel-interview

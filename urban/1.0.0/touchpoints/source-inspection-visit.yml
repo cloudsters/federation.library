@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: source-inspection-visit
+title: Source Inspection Visit
+medium: encounter
+summary: The visit of an environmental health officer to the source of a reported hazard, recording what is found and telling the
+  resident and those responsible what follows.
+exchanges:
+- hazard-report-for-an-inspection-and-an-answer
+- compliance-for-a-clear-order-and-date
+journey: older-resident-safe-through-a-heat-wave

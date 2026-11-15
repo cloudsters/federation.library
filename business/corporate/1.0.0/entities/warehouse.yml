@@ -1,0 +1,41 @@
+kind: entity
+slug: warehouse
+title: Warehouse
+type: master
+summary: A storage site in the material flow — the place where inventory rests between production and consumption, enabling the
+  organisation to buffer supply and demand.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: warehouse-type
+  type: code
+  card: 1..1
+- name: facility
+  type: reference(facility)
+  card: 0..1
+- name: branch
+  type: reference(branch)
+  card: 0..1
+- name: locations
+  type: reference(location)
+  card: 0..*
+states:
+- opened
+- stocked
+- operating
+- reconciled
+- closed
+relations:
+- type: part-of
+  target: branch
+- type: composed-of
+  target: location
+- type: refers-to
+  target: item
+- type: refers-to
+  target: stock-entry
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

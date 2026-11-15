@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: complete-referral-for-a-timely-decision
+title: Complete Referral for a Timely Decision
+between:
+- referring-practice
+- specialist-physician
+offered:
+- A referral with a clear question, the urgency, the history, current medication and prior findings, sent through an agreed
+  channel.
+returned:
+- A decision within the agreed time, either acceptance with what will be done and when, or redirection to a better place with
+  reasons.
+touchpoint: referrer-portal

@@ -1,0 +1,26 @@
+kind: solution
+slug: enterprise-scheduling
+title: Enterprise Scheduling
+role: system-of-record
+summary: Manages the bookable availability of clinicians, rooms and equipment, the appointments made against it and the waiting lists
+  for planned services that cannot yet be booked. It serves outpatient clinics, day cases, therapies and diagnostics alike.
+carries:
+- appointment-booking-management
+- waiting-list-management
+- outpatient-clinic-operations
+- day-case-treatment
+- patient-contact-centre
+holds:
+- appointment
+- schedule
+- waiting-list-entry
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,60 @@
+kind: entity
+slug: legal-matter
+title: Legal Matter
+type: transactional
+summary: A legal question, claim or dispute that concerns the city, including harm from its automated decisions, from intake to closure.
+  The legal office records and handles it or directs outside counsel, and it is resolved through dialogue and mediation before litigation.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: matter-kind
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: parties
+  type: text
+  card: 0..*
+- name: urgency
+  type: code
+  card: 0..1
+- name: handled-by
+  type: text
+  card: 1..1
+- name: claimed-amount
+  type: amount
+  card: 0..1
+- name: resolution-route
+  type: code
+  card: 0..1
+- name: outcome
+  type: text
+  card: 0..1
+- name: compensation-paid
+  type: amount
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- opened
+- assessed
+- assigned
+- in-mediation
+- in-litigation
+- resolved
+- closed
+relations:
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: obligation-register
+- type: produces
+  target: oversight-report

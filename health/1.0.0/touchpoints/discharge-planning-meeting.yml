@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: discharge-planning-meeting
+title: Discharge Planning Meeting
+medium: encounter
+summary: The meeting where the team, the patient, relatives and follow-on providers agree the date, care and support for discharge;
+  where a bed is either freed or blocked.
+exchanges:
+- complete-handover-for-continuation-without-gap
+- readiness-for-a-safe-return-home
+- early-notice-for-follow-on-places
+journey: follow-on-care-cooperation

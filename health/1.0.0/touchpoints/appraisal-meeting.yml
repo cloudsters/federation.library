@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: appraisal-meeting
+title: Appraisal Meeting
+medium: encounter
+summary: The conversation between a member of staff and their manager on performance, competence, development and wellbeing, including
+  the probation review, ending in agreed goals.
+exchanges:
+- commitment-for-good-working-conditions
+- commitment-to-learning-for-development
+journey: growing-in-the-role

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: safety-lesson-bulletin
+title: Safety Lesson Bulletin
+medium: artefact
+summary: The regular bulletin that shares anonymised lessons from incidents, reviews and recalls across the organisation, stating
+  what happened and what has changed.
+exchanges:
+- incident-report-for-feedback
+journey: reporting-an-incident

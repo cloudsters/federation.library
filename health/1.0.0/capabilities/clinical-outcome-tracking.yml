@@ -1,0 +1,13 @@
+kind: capability
+slug: clinical-outcome-tracking
+title: Clinical Outcome Tracking
+level: L3
+parent: quality-measurement
+summary: Track treatment results, complications, mortality and readmissions by service and condition.
+binds:
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

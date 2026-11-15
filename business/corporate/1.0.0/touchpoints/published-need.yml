@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-need
+title: Published Need
+medium: artefact
+summary: The typed statement of an internal need, published to the federated network so that agents of other members can match it
+  with their offers.
+exchanges:
+- bounded-mandate-for-accountable-action
+journey: buyer-mandating-an-agent-to-source-in-the-network

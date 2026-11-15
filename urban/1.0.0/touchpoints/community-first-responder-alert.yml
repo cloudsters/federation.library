@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: community-first-responder-alert
+title: Community First Responder Alert
+medium: channel
+summary: The alert that calls trained neighbours nearby to give first help until fire, rescue or medical crews arrive.
+exchanges:
+- first-help-for-training-and-equipment
+journey: resident-calling-for-help

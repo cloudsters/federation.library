@@ -1,0 +1,10 @@
+kind: capability
+slug: trial-feasibility-and-start-up
+title: Trial Feasibility & Start-up
+level: L3
+parent: clinical-trials
+summary: Assess trial feasibility and complete approvals, contracts and site set-up.
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global

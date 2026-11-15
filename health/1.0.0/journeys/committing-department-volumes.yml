@@ -1,0 +1,26 @@
+kind: journey
+slug: committing-department-volumes
+title: Committing Department Volumes
+stakeholder: head-of-clinical-department
+summary: 'The department head''s part in a payer agreement: committing to volumes and receiving the targets that follow from what
+  was agreed.'
+stages:
+- slug: plan-department-volumes
+  title: Plan Department Volumes
+  goal: The department's expected cases, case mix and new services rest on clinical judgement as well as on data.
+  step: payer-contracting-and-budget-negotiation/volume-and-service-planning
+  touchpoints:
+  - performance-dialogue
+- slug: receive-agreed-targets
+  title: Receive Agreed Targets
+  goal: The department knows its agreed volumes and the consequences of exceeding or missing them.
+  step: payer-contracting-and-budget-negotiation/internal-target-translation
+  touchpoints:
+  - performance-dialogue
+  - controlling-report
+- slug: track-delivered-volumes
+  title: Track Delivered Volumes
+  goal: Delivered volumes are visible during the year, early enough to steer.
+  step: payer-contracting-and-budget-negotiation/agreement-monitoring-and-settlement
+  touchpoints:
+  - controlling-report

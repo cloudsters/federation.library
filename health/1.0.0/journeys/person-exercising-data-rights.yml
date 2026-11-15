@@ -1,0 +1,32 @@
+kind: journey
+slug: person-exercising-data-rights
+title: Person Exercising Data Rights
+stakeholder: data-subject
+summary: A person learns how the commons uses their data, asks to see, correct or restrict it, receives an answer within the deadline
+  and is told if their data were compromised.
+stages:
+- slug: be-informed
+  title: Be Informed
+  goal: The person knows which data are processed, why, on which basis and for how long.
+  step: data-protection-and-information-governance/approval-and-record-of-processing
+  touchpoints:
+  - privacy-notice
+- slug: trust-limited-access
+  title: Trust Limited Access
+  goal: Only those entitled see the person's data, and misuse is detected.
+  step: data-protection-and-information-governance/access-and-retention-control
+  touchpoints:
+  - patient-portal
+- slug: ask-and-receive-an-answer
+  title: Ask and Receive an Answer
+  goal: A request to see, correct, restrict or erase data is answered completely within the deadline.
+  step: data-protection-and-information-governance/data-subject-requests
+  touchpoints:
+  - data-protection-office
+  - patient-portal
+- slug: be-told-of-a-breach
+  title: Be Told of a Breach
+  goal: If a breach puts the person at high risk, they are told what happened and what to do.
+  step: data-protection-and-information-governance/breach-assessment-and-notification
+  touchpoints:
+  - incident-notification

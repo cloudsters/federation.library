@@ -1,0 +1,60 @@
+kind: entity
+slug: citizen-petition
+title: Citizen Petition
+type: transactional
+summary: A formal request from residents to the city, including a request for a vote of residents or for a recall. The council office
+  receives and verifies it and answers within its deadline, and a valid petition for a vote or recall is carried into an election.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: petition-kind
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: organisers
+  type: text
+  card: 1..*
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: signature-count
+  type: integer
+  card: 1..1
+- name: signatures-required
+  type: integer
+  card: 0..1
+- name: verified-count
+  type: integer
+  card: 0..1
+- name: response-deadline
+  type: date
+  card: 1..1
+- name: response
+  type: text
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: resulting-election
+  type: reference(election)
+  card: 0..1
+states:
+- submitted
+- verified
+- admitted
+- answered
+- put-to-vote
+- rejected
+- closed
+relations:
+- type: governed-by
+  target: participation-charter
+- type: governed-by
+  target: city-constitution
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: election

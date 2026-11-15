@@ -1,0 +1,62 @@
+kind: entity
+slug: work-allocation-audit
+title: Work Allocation Audit
+type: intelligence
+summary: The findings of staff and of the workers of contracted services on how a system assigns tasks, sets schedules and pay and
+  judges performance, with the method and data they used. The staff representatives and workers who carry it out record it and bring
+  it to the service, which must answer it and change what is unfair, and it feeds the staff agreement and the monitoring of the system.
+attributes:
+- name: system
+  type: reference(automated-system-register)
+  card: 1..1
+- name: service
+  type: reference(public-service)
+  card: 0..1
+- name: contracted-service
+  type: reference(contract)
+  card: 0..1
+- name: audited-by
+  type: text
+  card: 1..*
+- name: scope
+  type: code
+  card: 1..*
+- name: method
+  type: text
+  card: 1..1
+- name: data-examined
+  type: reference(data-set)
+  card: 0..*
+- name: findings
+  type: text
+  card: 1..*
+- name: audit-period
+  type: period
+  card: 1..1
+- name: service-response
+  type: text
+  card: 0..1
+- name: responded-on
+  type: date
+  card: 0..1
+- name: changes-agreed
+  type: text
+  card: 0..*
+states:
+- requested
+- in-progress
+- reported
+- answered
+- acted-on
+- closed
+relations:
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: automated-system-performance-report
+- type: produces
+  target: staff-agreement

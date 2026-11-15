@@ -1,0 +1,51 @@
+kind: solution
+slug: city-insight-and-performance-system
+title: City Insight and Performance System
+role: system-of-insight
+summary: Brings department reports, indicators, complaints and surveys together, assesses equity, vitality and drift, and tracks each
+  correction and performance measure over time.
+carries:
+- city-signal-collection
+- environment-sensing
+- equity-audit
+- city-vitality-assessment
+- drift-detection
+- drift-correction
+- power-mapping
+- implementation-reporting
+- resident-need-assessment
+- ecological-limit-assessment
+- municipal-capability-assessment
+- city-objective-setting
+- departmental-plan-alignment
+- information-need-intake
+- analysis-and-modelling
+- cohesion-assessment
+- tension-sensing
+- service-route-use-analysis
+- complaint-pattern-reporting
+- visitor-impact-monitoring
+- public-life-observation
+- housing-need-analysis
+- road-danger-analysis
+- service-level-equity-mapping
+holds:
+- city-dashboard
+- whole-city-assessment
+- oversight-report
+- citizen-complaint
+- need-assessment
+- municipal-capability
+- city-objective
+- departmental-plan
+- information-need
+- data-product
+- cohesion-assessment
+- citizen-satisfaction
+- service-route-use-report
+- complaint-pattern-report
+- visitor-impact-assessment
+- public-life-survey
+- housing-index
+- safety-statistics
+- service-equity-report

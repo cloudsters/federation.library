@@ -1,0 +1,21 @@
+id: commons-core
+term: Commons CORE
+layer: why
+kind: concept
+definition: 'What a commons'' repository holds: its models, which give orientation and shape the future.'
+why: 'Its models are the cybernetic models of its shared value creation, the runtime among them. The value creation is regulated,
+  not the people. Its guiding sentence: "The model''s present is its last commit — and the model holds the near future."
+  It guides the work, which always works on the near future, and is no claim about reality: comparing commits shows how
+  the model changed, not how reality drifted (commons.o#91, comment 6470680520). Since structure 0.4.0 a CORE holds models
+  in models/, the runtime among them (commons.o#109, comment 6599561846); the repository that holds it is its instance.'
+relations:
+  is_a: component
+  held_in: instance
+  worked_on_in: model-workshop
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); decided 2026-11-03,
+    commons.o#110, comment 6605938212 (G1); adopted 29 October 2026 in its earlier wording (commons.o#98, comment 6505618412,
+    the merge of commons.o#100); first decided 2026-09-16, PLAN.md §1, core sentence'

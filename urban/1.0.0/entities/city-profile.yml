@@ -1,0 +1,60 @@
+kind: entity
+slug: city-profile
+title: City Profile
+type: governance
+summary: The city's agreed public account of what it is, what it offers and where it falls short, drawn from the charter, the civic
+  memory and evidence. The communications office drafts it and reviews it with the neighbourhood bodies and communities it describes,
+  and it is the account from which the city's information and its offer to those it wants to attract are written.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: account
+  type: document
+  card: 1..1
+- name: offers
+  type: text
+  card: 1..*
+- name: shortcomings
+  type: text
+  card: 0..*
+- name: charter
+  type: reference(city-charter)
+  card: 1..1
+- name: civic-memory
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: evidence
+  type: document
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: objections-recorded
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 1..*
+- name: agreed-on
+  type: date
+  card: 0..1
+- name: next-review
+  type: date
+  card: 0..1
+states:
+- drafted
+- in-community-review
+- agreed
+- published
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: city-charter
+- type: based-on
+  target: civic-memory-record
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: reputation-report

@@ -1,0 +1,46 @@
+kind: entity
+slug: customs-declaration
+title: Customs Declaration
+type: transactional
+summary: A declaration to customs for goods crossing a border, with goods classification, origin, value, duties and the procedure
+  used, which releases the goods and evidences duty and export compliance.
+attributes:
+- name: direction
+  type: code
+  card: 1..1
+- name: shipment
+  type: reference(shipment)
+  card: 1..1
+- name: goods-classification
+  type: code
+  card: 1..*
+- name: country-of-origin
+  type: code
+  card: 1..1
+- name: customs-value
+  type: amount
+  card: 1..1
+- name: duties
+  type: amount
+  card: 0..1
+- name: procedure
+  type: code
+  card: 1..1
+- name: customs-reference
+  type: identifier
+  card: 0..1
+states:
+- prepared
+- submitted
+- cleared
+- held
+- amended
+relations:
+- type: refers-to
+  target: shipment
+- type: governed-by
+  target: compliance-rule
+binds:
+- source: src-136
+  edition: d24a
+  jurisdiction: global

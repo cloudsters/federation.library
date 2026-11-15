@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: verified-identity-for-a-safe-sign-in
+title: Verified Identity for a Safe Sign-In
+between:
+- resident
+- city-administration
+offered:
+- Proof of who the resident is, given once.
+returned:
+- One identity for the city's services that shares no more than each service needs.
+touchpoint: resident-sign-in-service

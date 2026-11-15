@@ -1,0 +1,105 @@
+kind: value-stream
+slug: ecosystem-relationship-design
+title: Partner and Alliance Relationship Design
+family: participant-to-community
+summary: 'Designing relationship and standing for those outside daily operations: investors, lenders and owners informed openly and
+  equally, and non-human, future and agent participants represented before decisions that affect them.'
+trigger: A reporting date or owners' meeting falls due, a price-sensitive event occurs, an investor seeks dialogue, or a decision
+  will affect participants who hold no seat.
+outcome: Investors and owners have received accurate, timely and equal information, their concerns are answered, and absent participants
+  were represented before the decision.
+stakeholders:
+- shareholder
+- financial-investor
+- lender
+- finance-professional
+- executive-board
+- future-generations
+steps:
+- slug: participant-standing-map
+  title: Participant Standing Map
+  summary: Identify the investors, lenders and owners and the absent participants that decisions affect, and record what each needs
+    to know and how each is represented.
+  capabilities:
+  - investor-relationship-design
+  - non-human-participant-design
+  entities:
+  - stakeholder
+  - shareholder-register
+  - counterparty
+  serves:
+  - proxy-mandate
+  - shareholder-register
+- slug: disclosure-planning
+  title: Disclosure Planning
+  summary: Plan reporting dates and owners' communications, and set the rules that make disclosure of material events equal, timely
+    and complete.
+  capabilities:
+  - investor-transparency
+  - owner-relations
+  entities:
+  - calendar-event
+  - accountability-report
+  - communication
+  serves:
+  - financial-calendar
+  - website
+- slug: owner-and-investor-reporting
+  title: Owner and Investor Reporting
+  summary: Publish results, letters and the full picture of value creation, including what went badly, through reports, calls and
+    meetings.
+  capabilities:
+  - investor-transparency
+  - owner-relations
+  entities:
+  - accountability-report
+  - financial-statement
+  - communication
+  serves:
+  - annual-report
+  - letter-to-owners
+  - sustainability-report
+- slug: investor-dialogue
+  title: Investor Dialogue
+  summary: Meet investors, analysts and lenders, answer their questions, and keep a record of what they ask so that answers stay consistent
+    and expectations stay aligned with the purpose.
+  capabilities:
+  - investor-relationship-design
+  - owner-relations
+  entities:
+  - shareholder-record
+  - communication
+  serves:
+  - investor-meeting
+  - lender-review
+  - shareholder-meeting
+- slug: absent-participant-representation
+  title: Absent Participant Representation
+  summary: Seat proxies or guardians for ecological, future and agent participants with a defined mandate, and hear them before decisions
+    that will affect them.
+  capabilities:
+  - non-human-participant-design
+  entities:
+  - commons-charter
+  - decision-right
+  - ecological-parameter
+  serves:
+  - absent-participant-hearing
+  - proxy-mandate
+- slug: concern-follow-up
+  title: Concern Follow-Up
+  summary: Answer the concerns raised by investors, owners and proxies, report back what was decided, and adjust the relationship
+    where trust was strained.
+  capabilities:
+  - investor-relationship-design
+  - investor-transparency
+  - non-human-participant-design
+  entities:
+  - governance-decision
+  - communication
+  serves:
+  - absent-participant-hearing
+  - lender-review
+  - letter-to-owners
+  - shareholder-meeting
+  - sustainability-report

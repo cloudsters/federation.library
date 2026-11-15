@@ -1,0 +1,14 @@
+kind: solution
+slug: independent-financial-planner
+title: Independent Financial Planner
+role: person
+sovereignty: third-party
+summary: Lays all holdings and future needs side by side and helps set the rules for money kept for later.
+carries:
+- seeing-all-ones-bets-together
+- knowing-how-much-one-can-absorb
+- planning-for-a-long-life
+holds:
+- investment-policy
+- financial-position
+- investment-transaction

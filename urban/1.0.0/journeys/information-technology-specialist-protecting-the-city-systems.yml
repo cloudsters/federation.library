@@ -1,0 +1,41 @@
+kind: journey
+slug: information-technology-specialist-protecting-the-city-systems
+title: Information Technology Specialist Protecting the City's Systems
+stakeholder: information-technology-specialist
+summary: An information technology specialist assesses threats within the city's risk framework, gives each identity only the access
+  it needs, watches systems for attacks, contains incidents and builds the lessons of each audit into the systems.
+stages:
+- slug: assess-the-threats
+  title: Assess the Threats
+  goal: The threats to and weaknesses of each system are assessed and entered in the risk register, under a policy set within the
+    city's risk framework.
+  step: information-security-and-digital-resilience/security-policy-and-risk-assessment
+  touchpoints:
+  - security-risk-workshop
+- slug: grant-only-needed-access
+  title: Grant Only Needed Access
+  goal: Every person, device and system has an identity and only the access it needs, reviewed and withdrawn on time.
+  step: information-security-and-digital-resilience/identity-and-access
+  touchpoints:
+  - access-request-portal
+  - resident-sign-in-service
+- slug: watch-for-attacks
+  title: Watch for Attacks
+  goal: Attacks and anomalies are seen early, and weaknesses are removed within deadlines set by their severity.
+  step: information-security-and-digital-resilience/threat-detection
+  touchpoints:
+  - security-operations-centre
+  - vulnerability-report-channel
+- slug: contain-the-incident
+  title: Contain the Incident
+  goal: The attack or outage is contained, essential services run in their offline modes and those affected are informed within deadlines.
+  step: information-security-and-digital-resilience/security-incident-response
+  touchpoints:
+  - security-operations-centre
+  - security-incident-notice
+- slug: build-in-the-lessons
+  title: Build In the Lessons
+  goal: Audit findings are closed and their lessons are built into the design of the systems.
+  step: information-security-and-digital-resilience/security-audit-and-improvement
+  touchpoints:
+  - security-audit-report

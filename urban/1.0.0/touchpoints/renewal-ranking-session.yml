@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: renewal-ranking-session
+title: Renewal Ranking Session
+medium: encounter
+summary: A session in which neighbourhood bodies review the draft ranking of renewal needs, add what they see and agree the priorities
+  recorded in the asset plan.
+exchanges:
+- neighbourhood-review-for-agreed-priorities
+journey: asset-officer-building-the-asset-plan

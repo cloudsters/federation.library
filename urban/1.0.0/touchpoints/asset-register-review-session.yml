@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: asset-register-review-session
+title: Asset Register Review Session
+medium: encounter
+summary: A working session in which the asset office, the departments and the operators record each asset with its location, class,
+  owner and the services that depend on it.
+exchanges:
+- asset-knowledge-for-one-register
+journey: asset-officer-building-the-asset-plan

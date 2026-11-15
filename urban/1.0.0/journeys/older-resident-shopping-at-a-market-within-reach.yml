@@ -1,0 +1,38 @@
+kind: journey
+slug: older-resident-shopping-at-a-market-within-reach
+title: Older Resident Shopping at a Market Within Reach
+stakeholder: older-resident
+summary: An older resident asks for a market within walking reach, shops there on market days, reads open prices, buys directly from
+  producers of the region and says in the review what works and what is missing.
+stages:
+- slug: ask-for-a-market-nearby
+  title: Ask for a Market Nearby
+  goal: The neighbourhood's need for fresh and affordable goods within walking reach is part of the market plan.
+  step: markets-and-local-trade/market-network-planning
+  touchpoints:
+  - market-location-consultation
+- slug: shop-on-market-day
+  title: Shop on Market Day
+  goal: The resident buys fresh goods at a market that is safe, clean and fairly weighed.
+  step: markets-and-local-trade/market-day-operation
+  touchpoints:
+  - market-day-stall
+- slug: read-the-open-prices
+  title: Read the Open Prices
+  goal: The resident can see the usual price ranges and knows when a price is fair.
+  step: markets-and-local-trade/shared-price-data
+  touchpoints:
+  - published-market-price-board
+- slug: buy-from-the-producer
+  title: Buy from the Producer
+  goal: The resident buys directly from a farmer or maker of the region at a market or a collection point.
+  step: markets-and-local-trade/direct-producer-sales
+  touchpoints:
+  - producer-collection-point
+  - market-day-stall
+- slug: say-what-is-missing
+  title: Say What Is Missing
+  goal: The resident's experience of prices, access and the market's place in daily life is counted in the review.
+  step: markets-and-local-trade/market-review
+  touchpoints:
+  - market-shopper-survey

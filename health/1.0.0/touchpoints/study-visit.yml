@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: study-visit
+title: Study Visit
+medium: encounter
+summary: The protocol-defined visit at which a participant is examined, treated or sampled and asked about their wellbeing, within
+  a fixed time window.
+exchanges:
+- trial-participation
+journey: carrying-a-finding-to-patients

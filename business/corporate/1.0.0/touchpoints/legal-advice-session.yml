@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: legal-advice-session
+title: Legal Advice Session
+medium: encounter
+summary: The conversation in which internal counsel advises leadership or staff on a matter, weighing both the law and the ethical
+  framework, and records the advice given.
+exchanges:
+- candour-for-sound-counsel
+journey: legal-counsel-guiding-a-questionable-decision

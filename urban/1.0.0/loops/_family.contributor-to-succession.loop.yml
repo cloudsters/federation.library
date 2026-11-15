@@ -1,0 +1,82 @@
+# The steering loop of the family Contributor to Succession in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.contributor-to-succession
+title: Keep the family 'Contributor to Succession' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: contributor-to-succession
+  vs:
+  - municipal-workforce-planning
+  - recruitment-and-induction
+  - apprenticeships-and-skills-transmission
+  - local-employment-and-livelihood-pathways
+  - pay-and-fair-work-standards
+  - staff-wellbeing-and-retention
+  - succession-and-role-transition
+  - enterprise-and-tenure-succession
+  - ai-agent-lifecycle
+stance: The city recruits, sustains and renews those who run it, people and automated services alike. No single stream of
+  this family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/contributor-to-succession
+  - value-model.yml#vs/municipal-workforce-planning
+  - value-model.yml#vs/recruitment-and-induction
+  - value-model.yml#vs/apprenticeships-and-skills-transmission
+  - value-model.yml#vs/local-employment-and-livelihood-pathways
+  - value-model.yml#vs/pay-and-fair-work-standards
+  - value-model.yml#vs/staff-wellbeing-and-retention
+  - value-model.yml#vs/succession-and-role-transition
+  - value-model.yml#vs/enterprise-and-tenure-succession
+  - value-model.yml#vs/ai-agent-lifecycle
+  registry:
+  - registry/value-streams/municipal-workforce-planning.yml
+  - registry/value-streams/recruitment-and-induction.yml
+  - registry/value-streams/apprenticeships-and-skills-transmission.yml
+  - registry/value-streams/local-employment-and-livelihood-pathways.yml
+  - registry/value-streams/pay-and-fair-work-standards.yml
+  - registry/value-streams/staff-wellbeing-and-retention.yml
+  - registry/value-streams/succession-and-role-transition.yml
+  - registry/value-streams/enterprise-and-tenure-succession.yml
+  - registry/value-streams/ai-agent-lifecycle.yml
+  loop_states:
+  - operations/loops/_state/municipal-workforce-planning.yml
+  - operations/loops/_state/recruitment-and-induction.yml
+  - operations/loops/_state/apprenticeships-and-skills-transmission.yml
+  - operations/loops/_state/local-employment-and-livelihood-pathways.yml
+  - operations/loops/_state/pay-and-fair-work-standards.yml
+  - operations/loops/_state/staff-wellbeing-and-retention.yml
+  - operations/loops/_state/succession-and-role-transition.yml
+  - operations/loops/_state/enterprise-and-tenure-succession.yml
+  - operations/loops/_state/ai-agent-lifecycle.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.contributor-to-succession.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

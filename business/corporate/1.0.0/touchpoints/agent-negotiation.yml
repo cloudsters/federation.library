@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: agent-negotiation
+title: Agent Negotiation
+medium: encounter
+summary: The negotiation between the agents of two members on terms, service levels and the value exchanged, each within its own mandate.
+exchanges:
+- surplus-for-matched-need
+journey: network-member-offering-surplus

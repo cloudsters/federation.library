@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: clinical-judgement-for-standard-products
+title: Clinical Judgement for Standard Products
+between:
+- surgeon
+- administrative-staff
+offered:
+- Clinical evaluation of candidate products on outcome, safety and handling, and use of the agreed standard in daily practice.
+returned:
+- A standard assortment that meets the clinical need, is reliably available and costs less over its use, with the reasons for each
+  decision explained.
+touchpoint: clinical-product-committee

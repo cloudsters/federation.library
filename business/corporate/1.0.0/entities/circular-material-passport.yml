@@ -1,0 +1,42 @@
+kind: entity
+slug: circular-material-passport
+title: Circular Material Passport
+type: master
+summary: A BOM extension tracking materials beyond commons boundaries for true circularity. The material knows where it has been and
+  where it must go — enabling genuine circular economy governance across the federated commons network.
+attributes:
+- name: material-identity
+  type: identifier
+  card: 1..1
+- name: composition
+  type: text
+  card: 1..*
+- name: provenance-history
+  type: text
+  card: 0..*
+- name: circularity-attributes
+  type: text
+  card: 0..*
+- name: end-of-life-obligations
+  type: text
+  card: 0..*
+states:
+- issued
+- tracked-across-boundaries
+- verified
+- end-of-life-governed
+- recycled
+- reissued
+relations:
+- type: refers-to
+  target: bom
+- type: refers-to
+  target: item
+- type: refers-to
+  target: serial-number
+- type: refers-to
+  target: verifiable-credential
+binds:
+- source: src-149
+  edition: '3.2'
+  jurisdiction: global

@@ -1,0 +1,33 @@
+kind: journey
+slug: harmed-person-seeking-redress
+title: Harmed Person Seeking Redress
+stakeholder: person-harmed-in-care
+summary: 'The side of a person harmed in care: making a claim, receiving an honest assessment, reaching a resolution and seeing
+  that something changed.'
+stages:
+- slug: making-the-claim
+  title: Making the Claim
+  goal: Have the claim acknowledged promptly and know who handles it.
+  step: legal-affairs-and-compliance/matter-intake
+  touchpoints:
+  - letter-of-claim
+  - feedback-and-complaints-channel
+- slug: awaiting-an-honest-assessment
+  title: Awaiting an Honest Assessment
+  goal: Receive, within a stated time, a reasoned answer on what happened and whether care fell short.
+  step: legal-affairs-and-compliance/legal-assessment
+  touchpoints:
+  - letter-of-claim
+- slug: reaching-resolution
+  title: Reaching Resolution
+  goal: Reach an apology where due and fair compensation without years of litigation.
+  step: legal-affairs-and-compliance/claim-and-dispute-resolution
+  touchpoints:
+  - open-disclosure-meeting
+  - conciliation-procedure
+- slug: seeing-change
+  title: Seeing Change
+  goal: Learn what the commons changed so that the harm does not happen to others.
+  step: legal-affairs-and-compliance/lesson-feedback
+  touchpoints:
+  - open-disclosure-meeting

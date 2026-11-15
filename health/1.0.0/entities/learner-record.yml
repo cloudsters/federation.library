@@ -1,0 +1,43 @@
+kind: entity
+slug: learner-record
+title: Learner Record
+type: master
+summary: The record of one learner's progress through an education programme, holding enrolment, rotations, assessments, examinations,
+  entrustment decisions and logbook. It represents the learner stakeholder in the data.
+attributes:
+- name: learner-identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: education-programme
+  type: reference(education-programme)
+  card: 1..1
+- name: enrolment-period
+  type: period
+  card: 1..1
+- name: current-phase
+  type: code
+  card: 0..1
+- name: mentor
+  type: reference(practitioner-role)
+  card: 0..1
+- name: employee
+  type: reference(employee)
+  card: 0..1
+states:
+- enrolled
+- on-leave
+- completed
+- withdrawn
+relations:
+- type: governed-by
+  target: curriculum
+binds:
+- source: src-408
+  edition: '2.0'
+  jurisdiction: global
+- source: src-410
+  edition: '3.0'
+  jurisdiction: global

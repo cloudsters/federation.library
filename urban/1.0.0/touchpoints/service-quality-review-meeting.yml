@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-quality-review-meeting
+title: Service Quality Review Meeting
+medium: encounter
+summary: The regular review of quality across the city's services with resident inspectors and internal audit, whose results go to
+  the council and whose lessons go to every department.
+exchanges:
+- inspection-findings-for-an-answer-on-quality
+- quality-report-for-council-scrutiny
+journey: resident-inspector-reviewing-service-quality

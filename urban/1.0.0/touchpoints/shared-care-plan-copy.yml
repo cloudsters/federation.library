@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: shared-care-plan-copy
+title: Shared Care Plan Copy
+medium: artefact
+summary: The copy of the one care plan that the person and their carers hold, naming who does what, when, and whom to call.
+exchanges:
+- say-in-the-plan-for-one-coordinator
+journey: social-worker-joining-care-around-a-person

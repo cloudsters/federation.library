@@ -1,0 +1,40 @@
+kind: entity
+slug: workstation
+title: Workstation
+type: master
+summary: A production station — a defined place in production where raw inputs are transformed into finished value, with its own cost rate
+  and capacity constraints.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: workstation-type
+  type: code
+  card: 1..1
+- name: operating-cost-rate
+  type: amount
+  card: 0..1
+- name: capacity
+  type: quantity
+  card: 1..1
+- name: working-hours
+  type: text
+  card: 0..1
+- name: work-center
+  type: reference(work-center)
+  card: 0..1
+states:
+- defined
+- capacity-set
+- scheduled
+- maintained
+- retired
+relations:
+- type: part-of
+  target: work-center
+- type: refers-to
+  target: work-order
+- type: refers-to
+  target: job-card
+- type: refers-to
+  target: bom

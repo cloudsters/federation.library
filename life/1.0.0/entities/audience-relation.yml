@@ -1,0 +1,34 @@
+kind: entity
+slug: audience-relation
+title: Audience Relation
+type: master
+summary: People who attend to this person's work without being in a relation with them — readers, listeners, followers, attendees.
+  Held apart from `community`, which knows its members; an audience is reached, not joined.
+attributes:
+- name: who
+  type: text
+  card: 1..1
+- name: where-they-gather
+  type: text
+  card: 1..*
+- name: reached-through
+  type: list(publication)
+  card: 0..*
+- name: on-own-ground
+  type: boolean
+  card: 0..1
+- name: how-they-respond
+  type: text
+  card: 0..*
+states:
+- unreached
+- reached
+- listening
+- responding
+- invited over
+- lost
+relations:
+- target: publication
+  type: depends-on
+- target: body-of-work
+  type: about

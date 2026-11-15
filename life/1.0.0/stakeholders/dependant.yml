@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: dependant
+title: Dependant
+nature: person
+stance: served
+via: participant-to-community
+represented_by:
+- dependant-relation
+dissolves: false

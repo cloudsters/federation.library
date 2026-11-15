@@ -1,0 +1,129 @@
+kind: value-stream
+slug: revenue-architecture
+title: Revenue Architecture
+family: value-to-sustainability
+summary: Turning delivered value into recognised revenue and collected cash, from customer credit and billing of deliveries, subscriptions
+  and usage to receivables, collections and the fair resolution of every difference.
+trigger: A delivery is completed, a billing period closes or a usage threshold is reached, creating revenue to be invoiced and collected.
+outcome: Revenue is invoiced, recognised and collected, and every remaining difference is resolved or written off.
+stakeholders:
+- business-customer
+- consumer
+- finance-professional
+- customer-service-representative
+- finance-operations-agent
+steps:
+- slug: customer-credit-setting
+  title: Customer Credit Setting
+  summary: The creditworthiness of each customer is assessed, and credit limits and payment terms are set and reviewed as the relationship
+    develops.
+  capabilities:
+  - credit-collections-as-relationship
+  entities:
+  - customer
+  - payment-term
+  - account
+  serves:
+  - contract-negotiation
+  - credit-assessment
+  - customer-portal
+- slug: billable-event-capture
+  title: Billable Event Capture
+  summary: Deliveries, milestones, time and measured usage are collected and rated against orders, contracts and subscription plans
+    to determine what is due.
+  capabilities:
+  - subscription-billing-management
+  entities:
+  - subscription
+  - usage-record
+  - sales-order
+  - delivery-note
+  - contract
+  serves:
+  - accounting-workbench
+  - customer-portal
+  - delivery-note
+  - mobile-app
+- slug: invoice-issue
+  title: Invoice Issue
+  summary: Correct invoices are produced and sent through the channel and in the structured electronic form each customer and authority
+    requires.
+  capabilities:
+  - customer-invoicing
+  - electronic-invoicing-compliance
+  entities:
+  - sales-invoice
+  - customer
+  - tax-category
+  serves:
+  - electronic-order-interface
+  - invoice
+  - mobile-app
+- slug: revenue-recognition
+  title: Revenue Recognition
+  summary: Revenue is recognised when the value has been delivered, deferred where it has not, and traced back to the engagements
+    and campaigns that earned it.
+  capabilities:
+  - revenue-as-value-sensing
+  - deferred-revenue-expense
+  - marketing-attribution-analytics
+  entities:
+  - journal-entry
+  - sales-invoice
+  - subscription
+  - campaign
+  serves:
+  - accounting-workbench
+- slug: payment-receipt-and-application
+  title: Payment Receipt and Application
+  summary: Incoming payments are received, matched to open invoices and posted to the customer accounts, so that receivables show
+    the true position each day.
+  capabilities:
+  - orchestrate-accounts-receivable-ar
+  - steward-and-process-collections
+  entities:
+  - payment
+  - bank-transaction
+  - sales-invoice
+  serves:
+  - account-statement
+  - accounting-workbench
+  - bank-statement
+  - customer-portal
+  - mobile-app
+- slug: dunning-and-collection
+  title: Dunning and Collection
+  summary: Overdue amounts are followed up in graduated steps, the reason behind each stalled payment is sought before escalation,
+    and payment plans are agreed where circumstances call for them.
+  capabilities:
+  - dunning-and-collections
+  - credit-collections-as-relationship
+  - steward-and-process-collections
+  entities:
+  - dunning
+  - customer
+  - payment
+  serves:
+  - payment-reminder
+  - service-hotline
+- slug: adjustment-and-deduction-resolution
+  title: Adjustment and Deduction Resolution
+  summary: Disputed amounts, deductions and short payments are investigated and settled by credit note, debit note or write-off, and
+    their causes are fed back to sales and delivery.
+  capabilities:
+  - adjustments-and-deductions
+  entities:
+  - credit-note
+  - debit-note
+  - complaint
+  - journal-entry
+  serves:
+  - credit-note
+  - service-hotline
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

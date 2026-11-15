@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: access-to-own-record
+title: Access to Own Record
+between:
+- administrative-staff
+- outpatient
+offered:
+- Prompt, secure access to reviewed results, letters and the medication plan, and their export into the patient-held record.
+returned:
+- Corrections of errors in the record, consent to share information with other providers, and an informed patient who makes the next
+  encounter safer.
+touchpoint: patient-portal

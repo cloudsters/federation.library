@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: continuity-for-early-signals
+title: Continuity for Early Signals
+between:
+- advanced-practice-nurse
+- person-with-chronic-condition
+offered:
+- A named contact, planned recall, self-management education and a direct route back when the condition changes.
+returned:
+- Regular reports of symptoms and measurements, adherence to the agreed plan, and problems raised early enough to avoid an emergency
+  admission.
+touchpoint: patient-portal

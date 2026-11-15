@@ -1,0 +1,31 @@
+kind: solution
+slug: enterprise-resource-planning-system
+title: Enterprise Resource Planning System
+role: system-of-record
+summary: The transactional backbone that links orders, items, stock, purchasing, production and invoicing to the ledger, so that each
+  business event is recorded once and flows on.
+carries:
+- drop-ship-orchestration
+- landed-cost-calculation
+- order-fulfilment-orchestration
+- order-routing-intelligence
+- rebate-agreement-management
+- return-as-feedback-loop
+- returns-reverse-logistics
+- subcontracting-orchestration
+- order-promising
+- allocation-and-backorder-management
+- customer-invoicing
+holds:
+- item
+- sales-order
+- purchase-order
+- delivery-note
+- purchase-receipt
+- receipt
+- material-request
+- stock-entry
+- subcontracting-order
+- payment-term
+- price-list
+- return

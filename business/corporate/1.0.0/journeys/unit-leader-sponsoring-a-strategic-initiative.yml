@@ -1,0 +1,52 @@
+kind: journey
+slug: unit-leader-sponsoring-a-strategic-initiative
+title: Unit Leader Sponsoring a Strategic Initiative
+stakeholder: site-manager
+summary: A unit leader frames an idea as a testable initiative, wins its place in the portfolio, launches it with a team and budget,
+  steers it on evidence and answers for the benefit it delivers.
+stages:
+- slug: frame-the-initiative
+  title: Frame the Initiative
+  goal: The idea is written as a hypothesis with expected benefit, cost, risk and a named sponsor.
+  step: initiative-cultivation/initiative-proposal
+  touchpoints:
+  - initiative-charter
+- slug: win-a-place-in-the-portfolio
+  title: Win a Place in the Portfolio
+  goal: The initiative is weighed against the others and selected within the capacity the organisation can commit.
+  step: initiative-cultivation/initiative-selection
+  touchpoints:
+  - portfolio-board
+  - initiative-charter
+- slug: name-the-benefits
+  title: Name the Benefits
+  goal: Measures for customers, people, finances and the environment are set and the benefit owners in the units are named.
+  step: initiative-cultivation/benefit-and-measure-definition
+  touchpoints:
+  - initiative-charter
+  - benefit-review
+- slug: launch-with-authority
+  title: Launch with Authority
+  goal: The team, budget and plan are in place and the initiative may act.
+  step: initiative-cultivation/initiative-launch
+  touchpoints:
+  - initiative-charter
+- slug: report-progress-honestly
+  title: Report Progress Honestly
+  goal: Progress, results and the experience of those affected are reported at each review, including weak signals.
+  step: initiative-cultivation/progress-sensing
+  touchpoints:
+  - initiative-progress-review
+- slug: adjust-or-stop
+  title: Adjust or Stop
+  goal: On the evidence the initiative is strengthened, re-scoped, merged or stopped without blame.
+  step: initiative-cultivation/initiative-refinement
+  touchpoints:
+  - portfolio-board
+  - initiative-progress-review
+- slug: confirm-the-benefit
+  title: Confirm the Benefit
+  goal: The benefit owners confirm what was realised and the lessons return to the strategy.
+  step: initiative-cultivation/benefit-confirmation-and-reflection
+  touchpoints:
+  - benefit-review

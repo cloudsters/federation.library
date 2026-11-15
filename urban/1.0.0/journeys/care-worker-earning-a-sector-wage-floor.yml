@@ -1,0 +1,35 @@
+kind: journey
+slug: care-worker-earning-a-sector-wage-floor
+title: Care Worker Earning a Sector Wage Floor
+stakeholder: care-worker
+summary: A care worker employed by a contractor of the city gains a wage floor negotiated by workers, employers and the city, has
+  the care work behind each visit counted, is protected from heat on home visits and takes part in the audit that checks the floor
+  is paid.
+stages:
+- slug: win-the-floor
+  title: Win the Floor
+  goal: A wage floor indexed to living costs, with benefits and progression, binds every care contractor through procurement.
+  step: pay-and-fair-work-standards/sector-wage-floors
+  touchpoints:
+  - sector-wage-negotiation
+  - wage-floor-schedule
+- slug: have-care-work-counted
+  title: Have Care Work Counted
+  goal: The emotional and care work behind each visit is mapped with care workers and counted in hours and pay.
+  step: pay-and-fair-work-standards/unseen-work-valuation
+  touchpoints:
+  - care-work-mapping-circle
+- slug: be-protected-on-visits
+  title: Be Protected on Visits
+  goal: Hazards on home visits and in heat are reported and acted on, with hours shifted on hot days.
+  step: pay-and-fair-work-standards/workplace-hazard-protection
+  touchpoints:
+  - hazard-reporting-line
+- slug: audit-the-contractor
+  title: Audit the Contractor
+  goal: Workers and the city have audited whether the contractor pays the floor and keeps the conditions, the breach is remedied or
+    the contract ended, and the results are published.
+  step: pay-and-fair-work-standards/fair-work-audit
+  touchpoints:
+  - joint-fair-work-audit
+  - published-fair-work-findings

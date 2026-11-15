@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: cost-centre-report
+title: Cost Centre Report
+medium: artefact
+summary: The periodic report to a unit of its costs, revenues, project spending and draw on natural, social and human capital, against
+  budget.
+exchanges:
+- footprint-data-for-visible-costs
+journey: unit-leader-answering-for-a-budget

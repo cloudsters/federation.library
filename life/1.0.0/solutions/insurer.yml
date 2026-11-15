@@ -1,0 +1,11 @@
+kind: solution
+slug: insurer
+title: Insurer
+role: institution
+sovereignty: third-party
+summary: Turns a rare large loss into a regular small payment, on terms written in the policy.
+carries:
+- preparing-fallbacks
+- knowing-what-a-policy-covers
+holds:
+- insurance-policy

@@ -1,0 +1,21 @@
+kind: body
+slug: neighbourhood-council
+title: Neighbourhood Council
+summary: A recognised body for a neighbourhood, with stated decision rights over local matters, that hears residents and assesses
+  the vitality of the neighbourhood's shared spaces.
+holds:
+- resident-hearing
+- city-vitality-assessment
+- community-asset-mapping
+- commons-fund-allocation
+- budget-bid-preparation
+- connectivity-gap-mapping
+- neighbourhood-action-planning
+- host-neighbourhood-agreement-drafting
+- public-art-commissioning
+- street-space-allocation
+- street-safety-audit
+- renewal-prioritisation
+part_of: full-council
+type: committee
+form: governing-body

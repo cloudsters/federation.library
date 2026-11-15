@@ -1,0 +1,105 @@
+kind: value-stream
+slug: support-as-care
+title: Support as Care
+family: portfolio-to-system
+summary: Helping people and agents work with technology, by designing support services, providing infrastructure and devices, resolving
+  incidents and requests, removing root causes and keeping infrastructure and technology assets current.
+trigger: A user reports an incident or request, or infrastructure or a technology asset needs attention.
+outcome: Every incident and request is resolved within its service level, and infrastructure and technology assets are current.
+stakeholders:
+- employee
+- information-technology-specialist
+- technology-provider
+- site-manager
+steps:
+- slug: support-model-definition
+  title: Support Model Definition
+  summary: Support services, channels, hours, escalation paths and their service levels are designed around what users need to work
+    well.
+  capabilities:
+  - support-service-design
+  - support-coverage-planning
+  entities:
+  - it-service
+  - service-level-agreement
+  serves:
+  - service-level-agreement
+- slug: infrastructure-and-device-provision
+  title: Infrastructure and Device Provision
+  summary: Capacity, cloud services, networks and the devices staff work with are planned and provided for every site and role.
+  capabilities:
+  - infrastructure-planning
+  - cloud-service-management
+  - network-and-communication-infrastructure
+  - end-user-device-management
+  entities:
+  - configuration-item
+  - equipment
+  - it-service
+  serves:
+  - device-handover
+- slug: request-and-incident-intake
+  title: Request and Incident Intake
+  summary: Incidents and requests are received through self-service, the service desk and monitoring, recorded and classified, with
+    a person always reachable.
+  capabilities:
+  - user-help-service
+  - self-service-enablement
+  entities:
+  - helpdesk-ticket
+  - incident
+  - knowledge-article
+  serves:
+  - self-service-portal
+  - service-desk
+- slug: incident-and-request-resolution
+  title: Incident and Request Resolution
+  summary: Incidents are resolved and requests fulfilled within their service levels, using the service topology to see what is affected
+    and escalating where needed.
+  capabilities:
+  - incident-problem-resolution
+  - service-delivery-choreography
+  - configuration-and-service-topology
+  entities:
+  - incident
+  - helpdesk-ticket
+  - configuration-item
+  serves:
+  - device-handover
+  - service-desk
+- slug: problem-diagnosis-and-learning
+  title: Problem Diagnosis and Learning
+  summary: Recurring incidents are traced to their root causes and removed, and what each interaction teaches is turned into knowledge
+    and improvement.
+  capabilities:
+  - incident-problem-resolution
+  - support-operations-as-learning
+  entities:
+  - incident
+  - knowledge-article
+  - change-request
+  serves:
+  - knowledge-base
+  - service-review
+  - vulnerability-advisory
+- slug: infrastructure-and-asset-administration
+  title: Infrastructure and Asset Administration
+  summary: Infrastructure is administered and patched, technology assets and software entitlements are tracked through their lifecycle,
+    and the configuration record is kept current.
+  capabilities:
+  - infrastructure-administration
+  - it-asset-lifecycle-management
+  - software-licence-management
+  - configuration-and-service-topology
+  entities:
+  - configuration-item
+  - software-licence
+  - equipment
+  - asset
+  serves:
+  - software-entitlement-record
+  - vulnerability-advisory
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-service-levels
+title: Published Service Levels
+medium: artefact
+summary: The published description of each digital service, with its owner, the people it serves, its hours and availability and the
+  help users can expect.
+exchanges:
+- published-levels-for-known-expectations
+journey: resident-getting-help-with-a-digital-service

@@ -1,0 +1,34 @@
+kind: journey
+slug: consumer-claiming-under-warranty
+title: Consumer Claiming Under Warranty
+stakeholder: consumer
+summary: A consumer registers a product, has it serviced, makes a warranty claim when it fails and receives a fair decision and remedy
+  within the set period.
+stages:
+- slug: register-the-product
+  title: Register the Product
+  goal: The product is registered with its owner, so that entitlements are on record and the consumer can be reached.
+  step: post-delivery-stewardship/product-and-owner-registration
+  touchpoints:
+  - product-registration
+  - mobile-app
+- slug: keep-the-product-serviced
+  title: Keep the Product Serviced
+  goal: Agreed maintenance is carried out and the consumer is asked how the product serves them.
+  step: post-delivery-stewardship/ongoing-service
+  touchpoints:
+  - service-visit
+- slug: make-a-claim
+  title: Make a Claim
+  goal: The claim is received, the entitlement checked against the registration and the failure diagnosed.
+  step: post-delivery-stewardship/warranty-claim-intake
+  touchpoints:
+  - complaint-and-warranty-claim
+  - service-hotline
+- slug: receive-a-fair-remedy
+  title: Receive a Fair Remedy
+  goal: The claim is decided fairly within the set period and the product is repaired, replaced or refunded.
+  step: post-delivery-stewardship/claim-decision-and-remedy
+  touchpoints:
+  - complaint-and-warranty-claim
+  - return-point

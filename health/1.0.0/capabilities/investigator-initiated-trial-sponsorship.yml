@@ -1,0 +1,13 @@
+kind: capability
+slug: investigator-initiated-trial-sponsorship
+title: Investigator-Initiated Trial Sponsorship
+level: L3
+parent: clinical-trials
+summary: Take on sponsor responsibilities for trials initiated by the organisation's own investigators.
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-516
+  edition: '2025'
+  jurisdiction: global

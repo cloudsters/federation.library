@@ -1,0 +1,44 @@
+kind: entity
+slug: initiative
+title: Initiative
+type: governance
+summary: A strategic action vehicle — a bounded effort that bridges the gap between objective and outcome, consuming resources to change
+  the organisation's course.
+attributes:
+- name: mandate
+  type: text
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: budget
+  type: amount
+  card: 0..1
+- name: owner
+  type: reference(employee-record)
+  card: 1..1
+- name: milestones
+  type: text
+  card: 0..*
+- name: expected-outcome
+  type: text
+  card: 1..1
+- name: parent-objective
+  type: reference(objective)
+  card: 0..1
+states:
+- proposed
+- evaluated
+- selected
+- chartered
+- executing
+- reviewed
+- closed
+- cancelled
+relations:
+- type: based-on
+  target: objective
+- type: part-of
+  target: program
+- type: governed-by
+  target: budget

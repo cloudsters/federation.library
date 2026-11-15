@@ -1,0 +1,44 @@
+kind: entity
+slug: work-direction
+title: Work Direction
+type: governance
+summary: Where this person intends their working life to go over several years, and what has to be built for that to be possible.
+  Held as direction rather than plan, because the useful part is the bearing, not the route.
+attributes:
+- name: bearing
+  type: text
+  card: 1..1
+- name: horizon
+  type: duration
+  card: 0..1
+- name: what-must-be-built
+  type: text
+  card: 0..*
+- name: gifts-drawn-on
+  type: list(natural-gift)
+  card: 0..*
+- name: skills-to-build
+  type: list(skill)
+  card: 0..*
+- name: next-door
+  type: text
+  card: 0..1
+- name: set-on
+  type: date
+  card: 1..1
+- name: last-read
+  type: date
+  card: 0..1
+states:
+- searching
+- set
+- followed
+- drifting
+- reset
+relations:
+- target: life-purpose
+  type: serves
+- target: natural-gift
+  type: based-on
+- target: life-blueprint
+  type: part-of

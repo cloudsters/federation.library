@@ -1,0 +1,21 @@
+kind: solution
+slug: workforce-scheduling-system
+title: Workforce Scheduling System
+role: system-of-record
+summary: Plans rosters and shifts against demand and working-time rules, records attendance, leave and overtime, and lets staff swap
+  and request time off.
+carries:
+- employee-shift-planning
+- leave-as-life-support
+- time-presence-architecture
+- workforce-rhythm-design
+- workload-estimation
+- overtime-governance
+- family-and-flexible-working-support
+holds:
+- roster
+- shift-assignment
+- attendance
+- leave-request
+- timesheet
+- calendar-event

@@ -1,0 +1,11 @@
+kind: capability
+slug: loan-instrument-set-management
+title: Loan Instrument Set Management
+level: L3
+parent: sterile-processing
+summary: Plan, receive, check, reprocess and return the instrument sets and implants that suppliers lend for scheduled operations,
+  with enough lead time for validated processing and a record of what was used.
+binds:
+- source: src-299
+  edition: '2021'
+  jurisdiction: global

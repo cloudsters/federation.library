@@ -1,0 +1,73 @@
+kind: value-stream
+slug: mortality-to-mandate
+start: true
+title: Facing Mortality
+family: perception-to-mandate
+summary: Finitude as the thing that makes a mandate binding. Death is not a failure of the system; it is the boundary condition that
+  gives the whole design its urgency.
+trigger: Someone of one's own age dies, a birthday or a diagnosis makes the end concrete, or the years ahead begin to feel countable.
+outcome: The person knows what they want to have lived for, and that knowledge settles choices that had long been deferred.
+stakeholders:
+- partner
+- child
+- descendant
+- close-friend
+- practitioner
+steps:
+- slug: when-the-end-becomes-real
+  title: When the End Becomes Real
+  summary: Someone of one's own age dies, or a birthday or diagnosis makes the end concrete, and the person lets the fact stay rather
+    than pushing it away.
+  capabilities:
+  - staying-with-ones-finitude
+  entities:
+  - death
+  - health-event
+  - self
+- slug: looking-back-from-the-end
+  title: Looking Back from the End
+  summary: The person imagines their life from its close, and sees what they would regret and what they would be glad of.
+  capabilities:
+  - looking-back-from-the-end
+  entities:
+  - refused-future
+  - life-narrative
+- slug: naming-what-matters-most
+  title: Naming What Matters Most
+  summary: What the person wants to have lived for is said in a few plain sentences, short enough to remember on an ordinary day.
+  capabilities:
+  - naming-what-matters-most
+  entities:
+  - life-purpose
+  - value-set
+- slug: settling-what-was-postponed
+  title: Settling What Was Postponed
+  summary: Choices that had been deferred for years, a reconciliation, a move, a change of work, are taken up and finally made.
+  capabilities:
+  - settling-what-was-postponed
+  entities:
+  - decision
+  - commitment
+- slug: saying-it-to-those-who-stay
+  title: Saying It to Those Who Stay
+  summary: Wishes about dying and what is to be passed on are talked through with the people closest, and what has no legal form is
+    written down.
+  capabilities:
+  - speaking-openly-about-death
+  entities:
+  - conversation
+  - ethical-will
+  - partner-relation
+  - child-relation
+  serves:
+  - talking-about-the-end
+  - the-letter
+- slug: living-by-what-was-settled
+  title: Living by What Was Settled
+  summary: In the years that follow, the person keeps coming back to what they named, and lets it decide the choices it was meant
+    to decide.
+  capabilities:
+  - returning-to-what-matters
+  entities:
+  - life-purpose
+  - review-cadence

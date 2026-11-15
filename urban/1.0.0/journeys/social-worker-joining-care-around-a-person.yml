@@ -1,0 +1,52 @@
+kind: journey
+slug: social-worker-joining-care-around-a-person
+title: Social Worker Joining Care Around a Person
+stakeholder: social-worker
+summary: A social worker receives a request for care at one point, assesses the person's needs with them and their carers, agrees
+  one plan across providers, arranges care at home and in the neighbourhood, supports the carers, plans each handover ahead and finds
+  where people fell between services.
+stages:
+- slug: receive-the-request-at-one-point
+  title: Receive the Request at One Point
+  goal: The request has arrived at one point, and the person's needs, strengths and wishes are assessed with them and their carers,
+    whatever their status.
+  step: integrated-health-and-social-care/care-request-and-needs-assessment
+  touchpoints:
+  - single-care-request-point
+  - home-needs-assessment-visit
+- slug: agree-one-plan
+  title: Agree One Plan
+  goal: One care plan names who does what across providers, the neighbours and community support involved and the person who coordinates
+    the whole.
+  step: integrated-health-and-social-care/joined-care-planning
+  touchpoints:
+  - care-planning-meeting
+  - shared-care-plan-copy
+- slug: arrange-care-close-to-home
+  title: Arrange Care Close to Home
+  goal: Care is delivered at home and in the neighbourhood before an institution is considered.
+  step: integrated-health-and-social-care/care-at-home-and-in-the-neighbourhood
+  touchpoints:
+  - home-care-visit
+  - neighbourhood-care-space
+- slug: support-the-carers
+  title: Support the Carers
+  goal: Family and neighbour carers have relief, training, pay where the care is work and a voice in the plan.
+  step: integrated-health-and-social-care/support-for-carers
+  touchpoints:
+  - carer-support-session
+- slug: plan-the-handover-ahead
+  title: Plan the Handover Ahead
+  goal: Each handover around birth, into adult services, on leaving hospital and at the end of life is planned ahead and confirmed
+    by the receiving service.
+  step: integrated-health-and-social-care/safe-care-transitions
+  touchpoints:
+  - hospital-discharge-planning-meeting
+  - care-handover-confirmation
+- slug: find-where-people-fell-between-services
+  title: Find Where People Fell Between Services
+  goal: Where people fell between services, waited too long or went without care is reviewed with those who use care, carers and care
+    workers, and the network changes.
+  step: integrated-health-and-social-care/care-gap-review
+  touchpoints:
+  - care-gap-review-circle

@@ -1,0 +1,46 @@
+kind: entity
+slug: subscription
+title: Subscription
+type: transactional
+summary: A recurring promise of value — the system's commitment to deliver continuously, and the stakeholder's commitment to receive.
+  Each renewal is not a transaction but a reaffirmation of mutual trust.
+attributes:
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: plan
+  type: text
+  card: 1..1
+- name: price
+  type: amount
+  card: 1..1
+- name: cycle
+  type: code
+  card: 1..1
+- name: entitlement
+  type: text
+  card: 1..1
+- name: start-date
+  type: date
+  card: 1..1
+- name: renewal-date
+  type: date
+  card: 0..1
+- name: service
+  type: reference(service)
+  card: 0..1
+states:
+- trial
+- active
+- paused
+- renewed
+- cancelled
+- churned
+- expired
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: service
+- type: produces
+  target: sales-invoice

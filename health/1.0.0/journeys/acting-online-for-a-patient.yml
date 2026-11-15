@@ -1,0 +1,34 @@
+kind: journey
+slug: acting-online-for-a-patient
+title: Acting Online for a Patient
+stakeholder: relative
+summary: 'The side of a relative or representative who manages a patient''s care online: authorised access, questions, bookings and
+  documents on the patient''s behalf.'
+stages:
+- slug: obtaining-proxy-access
+  title: Obtaining Proxy Access
+  goal: Obtain verified access within the scope that the patient or the law allows.
+  step: digital-patient-access/identity-and-access
+  touchpoints:
+  - patient-portal
+  - consent-form
+- slug: asking-on-behalf
+  title: Asking on Behalf
+  goal: Raise questions and concerns for the patient and be answered as an authorised representative.
+  step: digital-patient-access/request-and-routing
+  touchpoints:
+  - patient-portal
+- slug: arranging-appointments
+  title: Arranging Appointments
+  goal: Book and coordinate appointments around the commitments of patient and carer.
+  step: digital-patient-access/online-booking
+  touchpoints:
+  - patient-portal
+  - appointment-service
+- slug: keeping-the-documents
+  title: Keeping the Documents
+  goal: Have letters, results and the medication plan at hand for the next provider.
+  step: digital-patient-access/record-and-results-access
+  touchpoints:
+  - patient-portal
+  - medication-plan

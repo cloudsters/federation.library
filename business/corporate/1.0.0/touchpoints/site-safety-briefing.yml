@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: site-safety-briefing
+title: Site Safety Briefing
+medium: encounter
+summary: The briefing everyone receives before working on a site, on its hazards, rules, emergency routes and the people responsible
+  for safety.
+exchanges:
+- safety-plan-for-clearance-to-build
+journey: contractor-building-an-asset-for-the-company

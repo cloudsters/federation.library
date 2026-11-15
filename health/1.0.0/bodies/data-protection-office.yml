@@ -1,0 +1,11 @@
+kind: body
+slug: data-protection-office
+title: Data Protection Office
+summary: Advises the commons independently on the protection of personal data, monitors compliance, advises on impact assessments,
+  data-subject requests and breaches, is the contact for data subjects and the supervisory authority, and reports to the executive
+  board without deciding on processing itself.
+holds:
+- data-protection-and-privacy
+part_of: executive-board
+type: function
+form: organisational-unit

@@ -1,0 +1,13 @@
+kind: body
+slug: business-excellence-office
+title: Business Excellence Office
+summary: 'Holds the disciplines of continuous improvement: performance measurement, process management, change management and knowledge
+  management across the enterprise.'
+holds:
+- organisational-performance
+- process-management
+- change-management
+- knowledge-management
+part_of: executive-board
+type: function
+form: organisational-unit

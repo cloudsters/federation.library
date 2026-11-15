@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: customer-insight-review
+title: Customer Insight Review
+medium: encounter
+summary: The regular review in which findings from all sources are combined, assigned to owning units and checked against earlier
+  improvements.
+exchanges:
+- combined-findings-for-owned-improvement
+journey: quality-manager-turning-feedback-into-improvement

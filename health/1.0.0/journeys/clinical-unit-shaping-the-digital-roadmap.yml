@@ -1,0 +1,51 @@
+kind: journey
+slug: clinical-unit-shaping-the-digital-roadmap
+title: Clinical Unit Shaping the Digital Roadmap
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department brings the unit's needs into the digital strategy, sees them weighed and scheduled, and
+  holds the commons to the value it promised.
+stages:
+- slug: state-digital-needs
+  title: State Digital Needs
+  goal: The unit's needs and ideas are recorded as demand with their expected benefit.
+  step: digital-strategy-and-architecture/need-and-opportunity-sensing
+  touchpoints:
+  - digital-demand-intake
+- slug: contribute-to-the-assessment
+  title: Contribute to the Assessment
+  goal: The unit's experience of how well systems support its work enters the maturity and landscape assessment.
+  step: digital-strategy-and-architecture/maturity-and-landscape-assessment
+  touchpoints:
+  - digital-maturity-report
+- slug: validate-target-processes
+  title: Validate Target Processes
+  goal: The unit confirms that the target architecture supports how its care should run.
+  step: digital-strategy-and-architecture/target-architecture-design
+  touchpoints:
+  - system-landscape-model
+  - architecture-board
+- slug: find-needs-in-the-roadmap
+  title: Find Needs in the Roadmap
+  goal: The unit sees where and when its needs are addressed, and why others come first.
+  step: digital-strategy-and-architecture/strategy-and-roadmap
+  touchpoints:
+  - digital-roadmap
+- slug: receive-the-decision
+  title: Receive the Decision
+  goal: The unit knows which of its initiatives are funded, who owns them and when they start.
+  step: digital-strategy-and-architecture/investment-decision
+  touchpoints:
+  - digital-steering-committee
+- slug: bring-changes-to-review
+  title: Bring Changes to Review
+  goal: Changes the unit wants are judged once against the architecture instead of being negotiated system by system.
+  step: digital-strategy-and-architecture/architecture-governance
+  touchpoints:
+  - architecture-board
+- slug: review-delivered-value
+  title: Review Delivered Value
+  goal: The unit sees whether delivered solutions brought the promised benefit and can reopen its priorities.
+  step: digital-strategy-and-architecture/value-and-roadmap-review
+  touchpoints:
+  - digital-steering-committee
+  - digital-roadmap

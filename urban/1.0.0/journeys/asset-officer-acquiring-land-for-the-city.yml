@@ -1,0 +1,45 @@
+kind: journey
+slug: asset-officer-acquiring-land-for-the-city
+title: Asset Officer Acquiring Land for the City
+stakeholder: asset-officer
+summary: The asset officer sets out the land the city and its communities need, appraises a site with those who live on it, buys or
+  receives it, places it in community trust where residents are ready, and registers it with its purpose and an interim use.
+stages:
+- slug: set-out-the-need
+  title: Set Out the Need
+  goal: The land and buildings the city's plans and communities need are mapped, and vacant sites that could meet a need are listed
+    for appraisal.
+  step: land-and-property-acquisition/land-need-and-site-identification
+  touchpoints:
+  - land-need-map
+  - vacant-site-report
+- slug: appraise-the-site
+  title: Appraise the Site
+  goal: The site is valued, its cost is weighed against the need and the risk of displacing those who live there, and a route is chosen.
+  step: land-and-property-acquisition/acquisition-appraisal
+  touchpoints:
+  - acquisition-appraisal-report
+  - displacement-risk-hearing
+- slug: buy-or-receive-the-site
+  title: Buy or Receive the Site
+  goal: The city has bought or received the site on reviewed terms, and the title is recorded.
+  step: land-and-property-acquisition/purchase-and-transfer
+  touchpoints:
+  - purchase-contract-signing
+  - land-registry-entry
+- slug: place-it-in-trust-where-ready
+  title: Place It in Trust Where Ready
+  goal: Where residents are ready to hold it, the land is with a community land trust or on a long ground lease, under covenants that
+    keep it affordable.
+  step: land-and-property-acquisition/transfer-into-community-trust
+  touchpoints:
+  - community-trust-transfer-signing
+  - affordability-covenant-text
+- slug: register-and-arrange-interim-use
+  title: Register and Arrange Interim Use
+  goal: The land is in the public asset register with the purpose for which it is held, and a group uses and cares for it until that
+    purpose is met.
+  step: land-and-property-acquisition/registration-and-holding-terms
+  touchpoints:
+  - public-asset-register-entry
+  - interim-use-open-call

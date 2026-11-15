@@ -1,0 +1,11 @@
+kind: solution
+slug: footprint-calculator
+title: Footprint Calculator
+role: system-of-insight
+sovereignty: hosted
+summary: Estimates what a life draws from land, water, energy and the labour of others, and from where.
+carries:
+- seeing-what-ones-living-draws
+- tracing-where-things-come-from
+holds:
+- footprint

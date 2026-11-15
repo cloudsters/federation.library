@@ -1,0 +1,53 @@
+kind: entity
+slug: credit-note
+title: Credit Note
+type: transactional
+summary: A correction in the customer's favor — a financial adjustment that reduces what is owed, restoring balance when the original
+  exchange was imperfect.
+attributes:
+- name: number
+  type: identifier
+  card: 1..1
+- name: credit-date
+  type: date
+  card: 1..1
+- name: original-invoice
+  type: reference(sales-invoice)
+  card: 1..1
+- name: reversed-lines
+  type: text
+  card: 1..*
+- name: taxes
+  type: amount
+  card: 0..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: cause
+  type: code
+  card: 1..1
+states:
+- draft
+- posted
+- applied
+- refunded
+relations:
+- type: based-on
+  target: sales-invoice
+- type: refers-to
+  target: return
+- type: refers-to
+  target: complaint
+binds:
+- source: src-134
+  edition: 3.0.21
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-140
+  edition: d16b
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

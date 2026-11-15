@@ -1,0 +1,37 @@
+kind: entity
+slug: distance-travelled
+title: Distance Travelled
+type: intelligence
+summary: The distance between where this life now stands and where it started, measured backwards and dated. The imagined futures
+  are not a measuring stick — measured forward against them, every life reads as failing, and the better the imagined future the worse
+  the reading.
+attributes:
+- name: read-on
+  type: date
+  card: 1..1
+- name: starting-point
+  type: text
+  card: 1..1
+- name: started-on
+  type: date
+  card: 1..1
+- name: where-now
+  type: text
+  card: 1..1
+- name: what-changed
+  type: text
+  card: 1..*
+- name: parts-of-life
+  type: code
+  card: 0..*
+states:
+- measured
+- read back
+- revisited
+relations:
+- target: life-blueprint
+  type: about
+- target: transition
+  type: records
+- target: life-dashboard
+  type: part-of

@@ -1,0 +1,46 @@
+kind: entity
+slug: channel
+title: Publishing Channel
+type: master
+summary: A place this person's work is published on and its readers are reached through — a site of one's own, a letter list, a stage,
+  a borrowed platform. Held with whether the ground is owned or borrowed and how the work and the readers would come out of it, because
+  borrowed ground can be taken back.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: ground
+  type: code
+  card: 1..1
+- name: held-in
+  type: reference(service-account)
+  card: 0..1
+- name: reaches
+  type: reference(audience-relation)
+  card: 0..1
+- name: readers-reached-directly
+  type: boolean
+  card: 0..1
+- name: way-out
+  type: text
+  card: 0..1
+- name: since
+  type: date
+  card: 0..1
+- name: publications
+  type: list(publication)
+  card: 0..*
+states:
+- chosen
+- building
+- active
+- shrinking
+- being left
+- left
+relations:
+- target: audience-relation
+  type: serves
+- target: provider-relation
+  type: depends-on
+- target: technology-policy
+  type: based-on

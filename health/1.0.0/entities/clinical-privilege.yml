@@ -1,0 +1,47 @@
+kind: entity
+slug: clinical-privilege
+title: Clinical Privilege
+type: governance
+summary: The organisation's permission for a practitioner to perform a defined scope of procedures or care in its units, granted on
+  licence, certification and demonstrated performance, and reviewed at fixed intervals.
+attributes:
+- name: practitioner-role
+  type: reference(practitioner-role)
+  card: 1..1
+- name: privilege-scope
+  type: code
+  card: 1..*
+- name: granted-by
+  type: reference(governance-body)
+  card: 1..1
+- name: credentials
+  type: reference(credential)
+  card: 0..*
+- name: specialty-certification
+  type: reference(specialty-certification)
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: conditions
+  type: text
+  card: 0..*
+states:
+- requested
+- under-review
+- granted
+- restricted
+- suspended
+- revoked
+- expired
+relations:
+- type: based-on
+  target: licence-to-practise
+- type: based-on
+  target: specialty-certification
+- type: based-on
+  target: professional-practice-evaluation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

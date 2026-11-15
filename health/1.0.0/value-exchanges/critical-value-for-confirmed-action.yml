@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: critical-value-for-confirmed-action
+title: Critical Value for Confirmed Action
+between:
+- diagnostic-technologist
+- specialist-physician
+offered:
+- Immediate notification of a critical value to a responsible clinician.
+returned:
+- Read-back, confirmed receipt and prompt action for the patient, documented in the record.
+touchpoint: urgent-result-call

@@ -1,0 +1,115 @@
+kind: value-stream
+slug: offering-design-craft
+title: Offering Design & Craft
+family: discovery-to-usage
+summary: Designing and developing a new or changed offering from approved concept to released specification, through co-creation,
+  prototyping, testing with customers and preparing production or service delivery.
+trigger: A concept is approved for development.
+outcome: A validated offering design with its specifications is released for production or service delivery.
+stakeholders:
+- development-engineer
+- product-manager
+- end-user
+- specifier
+- quality-manager
+- certification-body
+steps:
+- slug: development-mandate
+  title: Development Mandate
+  summary: The approved concept becomes a development project with a team, a budget and decision gates on market, technical and economic
+    readiness.
+  capabilities:
+  - development-gate-governance
+  entities:
+  - project
+  - business-case
+  - governance-decision
+  serves:
+  - development-gate-review
+- slug: co-creative-design
+  title: Co-Creative Design
+  summary: The offering is designed together with future users and partners, built from reusable patterns and composable parts so
+    that it can be adapted to different contexts.
+  capabilities:
+  - value-co-creation-design
+  - offering-as-pattern
+  - dynamic-proposition-assembly
+  entities:
+  - product-specification
+  - pattern
+  - dynamic-proposition
+  serves:
+  - co-design-workshop
+- slug: product-and-service-engineering
+  title: Product and Service Engineering
+  summary: Products are engineered to requirements, cost targets and rules, and services are defined by scope, deliverables, service
+    levels, roles and price basis.
+  capabilities:
+  - product-design-and-engineering
+  - service-definition
+  entities:
+  - product-specification
+  - bom
+  - service
+  - service-level-agreement
+  serves:
+  - technical-specification
+- slug: prototyping-and-testing
+  title: Prototyping and Testing
+  summary: Prototypes are built and tested in short iterations, and what is learnt flows back into the design rather than into a single
+    pass or fail.
+  capabilities:
+  - offering-prototyping-craft
+  entities:
+  - product-specification
+  - quality-inspection
+  - report
+  serves:
+  - test-laboratory
+  - user-test
+- slug: market-resonance-test
+  title: Market Resonance Test
+  summary: The new or revised offering is tested with real customers to confirm that it meets a genuine need and is worth its price
+    before it is scaled.
+  capabilities:
+  - market-resonance-testing
+  entities:
+  - survey
+  - market-insight
+  - customer-satisfaction-score
+  serves:
+  - pilot-programme
+  - sample-and-trial
+- slug: conformity-and-certification
+  title: Conformity and Certification
+  summary: The rules that apply to the offering in each target market are identified, conformity is evidenced and the approvals and
+    certificates it needs are obtained.
+  capabilities:
+  - product-regulatory-compliance
+  - product-certification
+  entities:
+  - compliance-rule
+  - accreditation
+  - product-specification
+  serves:
+  - certification-audit
+  - declaration-of-conformity
+- slug: delivery-readiness-and-release
+  title: Delivery Readiness and Release
+  summary: Production or service delivery is prepared with routings, documentation, instructions and support, and the final gate releases
+    the specification for delivery.
+  capabilities:
+  - delivery-readiness-design
+  - product-documentation
+  - development-gate-governance
+  entities:
+  - product-specification
+  - routing
+  - knowledge-article
+  - approval
+  serves:
+  - customer-training
+  - development-gate-review
+  - product-catalogue
+  - technical-specification
+  - user-documentation

@@ -1,0 +1,56 @@
+kind: journey
+slug: frontline-worker-working-beside-an-ai-agent
+title: Frontline Worker Working Beside an AI Agent
+stakeholder: frontline-worker
+summary: A frontline worker says where an agent could help, agrees which tasks it does and which stay human, learns to oversee and
+  override it, works beside it with every significant decision recorded, examines how systems assign the work and reviews the arrangement
+  with colleagues.
+stages:
+- slug: say-where-an-agent-could-help
+  title: Say Where an Agent Could Help
+  goal: The work an agent could take on or support is named with the staff who know it best, with what they and residents expect.
+  step: human-agent-teaming/teaming-need
+  touchpoints:
+  - teaming-need-workshop
+- slug: agree-who-does-what
+  title: Agree Who Does What
+  goal: Which tasks the agent does, which it prepares for a person and which stay human is agreed and written into the agent's mandate.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - task-division-workshop
+  - written-agent-mandate
+- slug: know-when-to-step-in
+  title: Know When to Step In
+  goal: The worker knows the points at which a person reviews or decides and the routes to override the agent or escalate.
+  step: human-agent-teaming/oversight-and-escalation
+  touchpoints:
+  - override-and-escalation-route
+  - overseer-assignment-letter
+- slug: learn-to-read-the-agent
+  title: Learn to Read the Agent
+  goal: The worker can read the agent's outputs, notice when not to trust them, override them and report faults.
+  step: human-agent-teaming/staff-preparation
+  touchpoints:
+  - agent-oversight-training
+- slug: work-side-by-side
+  title: Work Side by Side
+  goal: The work is done under the mandate, significant decisions are recorded with the person who authorised them, and residents
+    can always reach a person.
+  step: human-agent-teaming/joint-work
+  touchpoints:
+  - agent-decision-log
+  - reach-a-person-line
+- slug: examine-how-work-is-assigned
+  title: Examine How Work Is Assigned
+  goal: With colleagues and the workers of contracted services, the worker examines how systems assign tasks, set schedules and judge
+    performance.
+  step: human-agent-teaming/worker-audit-of-work-allocation
+  touchpoints:
+  - work-allocation-audit-circle
+- slug: review-the-team-together
+  title: Review the Team Together
+  goal: What the teaming achieved, where the agent erred and how workload changed are reviewed, and the agent's mandate is renewed,
+    changed or ended.
+  step: human-agent-teaming/joint-performance-review
+  touchpoints:
+  - joint-teaming-review

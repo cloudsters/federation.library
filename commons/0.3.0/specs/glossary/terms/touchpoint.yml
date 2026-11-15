@@ -1,0 +1,9 @@
+id: touchpoint
+term: Touchpoint
+layer: how
+kind: element
+definition: 'Element 3: the agreed place where a stakeholder and the commons exchange a mutual value promise — the joint of the model, a black box to the stakeholder.'
+why: The steps of the commons' streams keep the promise and say so in `serves`; the stakeholder side names nothing inside.
+relations:
+  part_of: scaffold
+status: draft

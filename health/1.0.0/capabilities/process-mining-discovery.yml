@@ -1,0 +1,10 @@
+kind: capability
+slug: process-mining-discovery
+title: Process Mining & Discovery
+level: L3
+parent: process-management
+summary: Discover actual patient and administrative pathways from system event logs and compare them with intended pathways.
+binds:
+- source: src-432
+  edition: '2023'
+  jurisdiction: global

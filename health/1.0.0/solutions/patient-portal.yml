@@ -1,0 +1,29 @@
+kind: solution
+slug: patient-portal
+title: Patient Portal
+role: system-of-engagement
+summary: Gives patients and their representatives digital access to appointments, documents, results, questionnaires, messages and
+  self-management tools. It is where patients report outcomes and their experience of care in their own words.
+carries:
+- patient-portal
+- appointment-booking-management
+- pre-admission-preparation
+- patient-reported-outcome-measurement
+- patient-experience-measurement
+- decision-aids-and-health-literacy
+- self-management-support
+- post-discharge-follow-up
+- patient-discharge-education
+holds:
+- patient-reported-outcome
+- patient-experience-survey
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

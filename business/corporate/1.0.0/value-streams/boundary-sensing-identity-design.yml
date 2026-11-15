@@ -1,0 +1,155 @@
+kind: value-stream
+slug: boundary-sensing-identity-design
+title: Boundary Sensing & Identity Design
+family: perception-to-mandate
+summary: 'Holding what the organisation is and where it stops: whom it serves, what it does and leaves to others, which mandate it
+  holds and whether that mandate is still alive, sensed against its environment and its own capability.'
+trigger: A founding, a change of ownership or scope, or a scheduled mandate review calls the organisation's identity and boundary
+  into question.
+outcome: A ratified identity, boundary and stakeholder charter are published, and stale parts of the mandate are renewed or retired.
+stakeholders:
+- shareholder
+- supervisory-board
+- executive-board
+- employee
+- business-customer
+- local-community
+steps:
+- slug: review-occasion
+  title: Review Occasion
+  summary: The occasion for opening identity and boundary is established, whether a founding, a change of owner or scope, a scheduled
+    review or signals that the mandate has gone stale, and the scope and the bodies to be heard are set.
+  capabilities:
+  - stale-mandate-detection
+  - algorithmic-vitality-sensing
+  - whole-system-state-perception
+  entities:
+  - organization
+  - whole-system-assessment
+  - governance-decision
+  serves:
+  - board-meeting
+  - shareholder-meeting
+  - supervisory-board-meeting
+- slug: environment-and-capability-sensing
+  title: Environment and Capability Sensing
+  summary: Market, competitive, technological, regulatory and social shifts are sensed together with the organisation's own strengths,
+    gaps and latent capacities, and what is learnt is kept where everyone can find it.
+  capabilities:
+  - ecosystem-sensing
+  - internal-capability-sensing
+  - whole-system-state-perception
+  - knowledge-base-management
+  entities:
+  - market-insight
+  - whole-system-assessment
+  - benchmark
+  - knowledge-article
+  serves:
+  - environment-and-capability-scan
+  - knowledge-base
+  - stakeholder-survey
+- slug: stakeholder-need-hearing
+  title: Stakeholder Need Hearing
+  summary: The needs and expectations of customers, owners, staff, partners, lenders and the public are heard, including what they
+    do not yet say, and the tensions between them are made explicit before anything is drafted.
+  capabilities:
+  - stakeholder-need-discovery
+  - stakeholder-mandate-alignment
+  entities:
+  - stakeholder
+  - survey
+  - market-insight
+  serves:
+  - staff-assembly
+  - stakeholder-dialogue
+  - stakeholder-survey
+- slug: vision-and-values-drafting
+  title: Vision and Values Drafting
+  summary: A vision is drafted that orients everyone towards a shared future, and the values and ethical commitments that bind all
+    who work in and for the organisation are stated with those who must live them.
+  capabilities:
+  - strategic-vision-cultivation
+  - values-establishment
+  - stakeholder-mandate-alignment
+  entities:
+  - vision
+  - mission
+  - ethics-policy
+  serves:
+  - stakeholder-dialogue
+  - strategy-workshop
+- slug: boundary-setting
+  title: Boundary Setting
+  summary: 'The boundary is stated: what the organisation does, what it deliberately does not do, what it leaves to partners, what
+    is shared and what is its own, which legal entities and subsidiaries carry it, and where the structure must be renewed.'
+  capabilities:
+  - activity-boundary-definition
+  - commons-boundary-design
+  - legal-entity-management
+  - subsidiary-governance
+  - structural-renewal-design
+  entities:
+  - organization
+  - legal-entity
+  - business-unit
+  - commons-charter
+  serves:
+  - boundary-map
+  - strategy-workshop
+- slug: stakeholder-charter-drafting
+  title: Stakeholder Charter Drafting
+  summary: The stakeholder charter states whom the organisation serves, what it promises each of them, who takes part in governing
+    it and how it will be held to account, and how its impact on them will be measured.
+  capabilities:
+  - stakeholder-charter-design
+  - stakeholder-mandate-alignment
+  - impact-measurement-design
+  entities:
+  - commons-charter
+  - stakeholder
+  - measure
+  serves:
+  - stakeholder-charter
+- slug: ratification-and-publication
+  title: Ratification and Publication
+  summary: The entitled bodies adopt vision, values, boundary and charter, the records of the legal entities are brought into line,
+    and the identity is published and carried consistently into the brand and everyday practice.
+  capabilities:
+  - mandate-legitimacy-cultivation
+  - legal-entity-management
+  - brand-management
+  entities:
+  - governance-decision
+  - commons-charter
+  - legal-entity
+  - brand
+  serves:
+  - company-register-entry
+  - intranet
+  - shareholder-meeting
+  - staff-assembly
+  - supervisory-board-meeting
+  - website
+- slug: mandate-vitality-review
+  title: Mandate Drift Review
+  summary: Whether decisions, offerings and conduct still follow the stated identity is watched over time, every drift is corrected
+    with an owner, a measure and a date, and stale parts of the mandate are re-consented or retired.
+  capabilities:
+  - stale-mandate-detection
+  - algorithmic-vitality-sensing
+  - drift-correction
+  - impact-measurement-design
+  - mandate-legitimacy-cultivation
+  entities:
+  - whole-system-assessment
+  - measure-report
+  - agent-mandate
+  - governance-decision
+  serves:
+  - annual-report
+  - board-meeting
+  - intranet
+  - mandate-review
+  - shareholder-meeting
+start: true

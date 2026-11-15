@@ -1,0 +1,44 @@
+kind: entity
+slug: digital-demand
+title: Digital Demand
+type: transactional
+summary: A request from a clinical, research, teaching or administrative unit for a new or changed digital solution or data product,
+  assessed for benefit, cost, risk and architectural fit before it is approved, deferred or rejected.
+attributes:
+- name: requesting-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: need
+  type: text
+  card: 1..1
+- name: demand-kind
+  type: code
+  card: 1..1
+- name: expected-benefit
+  type: text
+  card: 1..1
+- name: estimated-cost
+  type: amount
+  card: 0..1
+- name: priority
+  type: code
+  card: 0..1
+- name: strategic-objectives
+  type: reference(strategic-objective)
+  card: 0..*
+- name: decision
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- submitted
+- in-assessment
+- approved
+- deferred
+- rejected
+- in-delivery
+- delivered
+relations:
+- type: refers-to
+  target: strategic-objective
+- type: based-on
+  target: governance-decision

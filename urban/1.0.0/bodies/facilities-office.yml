@@ -1,0 +1,15 @@
+kind: body
+slug: facilities-office
+title: Facilities Office
+summary: Runs the city's own buildings, reviews how they are used, keeps their installations and fire safety in order, meters and
+  reduces their energy use, opens them to neighbourhoods and supports community bodies that take one over.
+holds:
+- public-buildings
+- space-use-review
+- building-systems-operation
+- building-energy-monitoring
+- public-building-retrofit
+- community-operator-support
+part_of: full-council
+type: function
+form: organisational-unit

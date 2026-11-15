@@ -1,0 +1,47 @@
+kind: entity
+slug: contract
+title: Contract
+type: governance
+summary: A legally binding agreement between the organisation and another party, such as a cooperation, service, supply, lease,
+  licence, research, collective or workplace agreement, with obligations, term, value and renewal.
+attributes:
+- name: contract-kind
+  type: code
+  card: 1..1
+- name: parties
+  type: reference(organisation)
+  card: 1..*
+- name: subject
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: contract-value
+  type: amount
+  card: 0..1
+- name: obligations
+  type: text
+  card: 1..*
+- name: notice-period
+  type: quantity
+  card: 0..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+states:
+- draft
+- under-negotiation
+- signed
+- in-force
+- terminated
+- expired
+relations:
+- type: based-on
+  target: governance-decision
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: application-for-asking-only-what-is-missing
+title: Application for Asking Only What Is Missing
+between:
+- resident
+- frontline-worker
+offered:
+- An application by the route that suits them.
+returned:
+- Help to complete it, and a request only for evidence the city does not already hold.
+touchpoint: any-route-application

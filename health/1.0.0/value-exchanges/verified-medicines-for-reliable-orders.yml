@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: verified-medicines-for-reliable-orders
+title: Verified Medicines for Reliable Orders
+between:
+- supplier
+- clinical-pharmacist
+offered:
+- Medicines delivered as ordered with verified identity, batch and cold chain, and early notice of any supply problem.
+returned:
+- Orders that follow an agreed forecast, payment on the agreed terms and volumes committed for the contract term.
+touchpoint: supplier-portal

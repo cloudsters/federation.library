@@ -1,0 +1,68 @@
+kind: entity
+slug: participatory-budget-cycle
+title: Participatory Budget Cycle
+type: transactional
+summary: One cycle in which residents propose and decide a share of the city's spending, with its rules, safeguards for poorer neighbourhoods,
+  votes and results. The administration runs it under the participation charter, and the programmes residents choose are funded in
+  the budget.
+attributes:
+- name: cycle-period
+  type: period
+  card: 1..1
+- name: budget-share
+  type: amount
+  card: 1..1
+- name: rules
+  type: document
+  card: 1..1
+- name: neighbourhood-safeguards
+  type: text
+  card: 0..*
+- name: eligible-participants
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: proposals-submitted
+  type: integer
+  card: 0..1
+- name: voting-method
+  type: code
+  card: 1..1
+- name: votes-cast
+  type: integer
+  card: 0..1
+- name: results
+  type: document
+  card: 0..1
+- name: funded-programmes
+  type: reference(city-programme)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+states:
+- designed
+- announced
+- proposals-open
+- assessed
+- voting
+- decided
+- funded
+- reviewed
+relations:
+- type: governed-by
+  target: participation-charter
+- type: part-of
+  target: municipal-budget
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: city-programme
+- type: produces
+  target: public-record
+binds:
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global

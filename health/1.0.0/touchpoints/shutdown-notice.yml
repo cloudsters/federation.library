@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shutdown-notice
+title: Shutdown Notice
+medium: artefact
+summary: The notice that announces a planned interruption of power, water, ventilation, medical gases or another service to the affected
+  units, with its time, duration and the measures that keep care safe.
+exchanges:
+- ward-access-for-reliable-building-services
+journey: ward-team-relying-on-building-services

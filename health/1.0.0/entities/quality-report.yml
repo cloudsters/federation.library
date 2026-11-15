@@ -1,0 +1,35 @@
+kind: entity
+slug: quality-report
+title: Quality Report
+type: intelligence
+summary: The organisation's public report on its structure, services, volumes and quality results for a period, prepared in
+  the form a regulator or payer prescribes and used by patients and referrers to choose.
+attributes:
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: sites
+  type: reference(site)
+  card: 0..*
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: measure-reports
+  type: reference(measure-report)
+  card: 1..*
+- name: structural-data
+  type: document
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- in-preparation
+- submitted
+- published
+- corrected
+relations:
+- type: composed-of
+  target: measure-report
+- type: governed-by
+  target: compliance-obligation

@@ -1,0 +1,27 @@
+kind: journey
+slug: referring-hospital-transfer-journey
+title: Referring Hospital Transfer Journey
+stakeholder: referring-hospital
+summary: A hospital that needs to transfer a patient sees the available capacity, has its request answered quickly through one route,
+  hands over the patient with the agreed escort, and takes the patient back when specialist care is no longer needed.
+stages:
+- slug: see-the-capacity
+  title: See the Capacity
+  goal: Know which beds and specialist services are available in the network.
+  step: patient-flow-and-bed-management/daily-capacity-coordination
+  touchpoints:
+  - capacity-board
+- slug: request-the-transfer
+  title: Request the Transfer
+  goal: Have a transfer request answered quickly through one route, with specialist advice where needed.
+  step: patient-flow-and-bed-management/interhospital-transfer
+  touchpoints:
+  - transfer-coordination-centre
+  - telemedicine-service
+- slug: hand-over-the-patient
+  title: Hand Over the Patient
+  goal: Hand over the patient with the agreed escort and information.
+  step: patient-flow-and-bed-management/patient-transport
+  touchpoints:
+  - patient-transport
+  - ambulance-handover

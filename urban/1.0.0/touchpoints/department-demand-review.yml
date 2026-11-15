@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: department-demand-review
+title: Department Demand Review
+medium: encounter
+summary: A yearly meeting in which the procurement office and each department go through what the department bought and what it will
+  need in the coming years.
+exchanges:
+- demand-forecasts-for-a-plan-departments-can-rely-on
+journey: procurement-officer-setting-how-the-city-buys

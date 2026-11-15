@@ -1,0 +1,40 @@
+kind: entity
+slug: position
+title: Position
+type: master
+summary: A budgeted post in the organisation's establishment, with its unit, profession, grade, working time and funding source,
+  filled, vacant or frozen independently of who holds it.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: profession
+  type: code
+  card: 1..1
+- name: grade
+  type: code
+  card: 1..1
+- name: budgeted-time
+  type: quantity
+  card: 1..1
+- name: funding-source
+  type: code
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 1..1
+states:
+- planned
+- budgeted
+- filled
+- vacant
+- frozen
+- closed
+relations:
+- type: part-of
+  target: organisation-unit
+- type: governed-by
+  target: budget

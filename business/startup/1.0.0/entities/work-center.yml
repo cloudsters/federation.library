@@ -1,0 +1,41 @@
+kind: entity
+slug: work-center
+title: Work Center
+type: master
+summary: A constellation of productive capacity — a logical grouping of machines, people, and tooling with defined capacity, cost
+  rates, and scheduling rules. Unlike a workstation (a single physical point), a work centre represents an orchestrated bundle of
+  capability.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: member-resources
+  type: reference(workstation)
+  card: 0..*
+- name: capacity
+  type: quantity
+  card: 1..1
+- name: cost-rate
+  type: amount
+  card: 0..1
+- name: working-hours
+  type: text
+  card: 1..1
+- name: scheduling-rules
+  type: text
+  card: 0..1
+states:
+- defined
+- capacity-set
+- scheduled
+- maintained
+- retired
+relations:
+- type: composed-of
+  target: workstation
+- type: refers-to
+  target: work-order
+- type: refers-to
+  target: bom
+- type: refers-to
+  target: production-plan

@@ -1,0 +1,28 @@
+kind: journey
+slug: employee-working-securely
+title: Employee Working Securely
+stakeholder: employee
+summary: An employee receives the access the work needs, learns to recognise threats, reports what looks wrong and is supported when
+  an incident touches their work.
+stages:
+- slug: receive-the-right-access
+  title: Receive the Right Access
+  goal: The employee holds the access the role needs from the first day, and loses it when the role changes.
+  step: digital-immune-design/identity-and-access-governance
+  touchpoints:
+  - access-request
+  - onboarding-day
+- slug: recognise-and-report-threats
+  title: Recognise and Report Threats
+  goal: The employee recognises suspicious messages and reports them at once.
+  step: digital-immune-design/threat-and-vulnerability-monitoring
+  touchpoints:
+  - security-awareness-training
+  - service-desk
+- slug: work-through-an-incident
+  title: Work Through an Incident
+  goal: The employee knows what to do during an incident and can work in a degraded mode.
+  step: digital-immune-design/incident-containment-and-recovery
+  touchpoints:
+  - service-desk
+  - intranet

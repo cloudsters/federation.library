@@ -1,0 +1,47 @@
+kind: entity
+slug: repair-order
+title: Repair Order
+type: transactional
+summary: An order to repair — the organisation's commitment to fix what is broken, honouring the original promise by returning a product to
+  working order.
+attributes:
+- name: product
+  type: reference(product)
+  card: 1..1
+- name: serial-number
+  type: reference(serial-number)
+  card: 0..1
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: diagnosis
+  type: text
+  card: 0..1
+- name: parts
+  type: reference(item)
+  card: 0..*
+- name: labour
+  type: quantity
+  card: 0..1
+- name: estimate
+  type: amount
+  card: 0..1
+- name: warranty-claim
+  type: reference(warranty-claim)
+  card: 0..1
+states:
+- received
+- diagnosed
+- estimated
+- approved
+- repaired
+- tested
+- returned
+- invoiced
+relations:
+- type: refers-to
+  target: warranty-claim
+- type: produces
+  target: sales-invoice
+- type: produces
+  target: stock-entry

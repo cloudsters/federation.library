@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: new-service-for-appropriate-referrals
+title: New Service for Appropriate Referrals
+between:
+- specialist-physician
+- referring-practice
+offered:
+- The specialist team offers a new service with a stated access route, referral criteria, response times and a report back
+  after treatment.
+returned:
+- The referring practice returns appropriate referrals with the information the team needs, and feedback on whether the service
+  meets its patients' needs.
+touchpoint: referrer-portal

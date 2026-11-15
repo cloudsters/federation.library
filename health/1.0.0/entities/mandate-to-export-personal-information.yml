@@ -1,0 +1,57 @@
+kind: entity
+slug: mandate-to-export-personal-information
+title: Mandate to Export Personal Information
+type: governance
+summary: A care mandate that entitles the organisation to pass a patient's personal care information to a named recipient outside
+  it, for a stated purpose and scope, such as another provider, a registry or a cross-border service.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: recipient
+  type: reference(organisation)
+  card: 1..1
+- name: purpose
+  type: code
+  card: 1..1
+- name: information-scope
+  type: code
+  card: 1..*
+- name: basis
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- requested
+- effective
+- executed
+- revoked
+- ended
+relations:
+- type: refers-to
+  target: care-mandate
+- type: based-on
+  target: informed-consent
+- type: based-on
+  target: authorization-by-law
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

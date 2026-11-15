@@ -1,0 +1,53 @@
+kind: entity
+slug: facility
+title: Facility
+type: master
+summary: A building or major installation of a site, such as a ward block, operating suite, energy plant or data centre, managed through
+  its lifecycle from planning and construction through operation to renewal.
+attributes:
+- name: facility-identifier
+  type: identifier
+  card: 1..1
+- name: site
+  type: reference(site)
+  card: 1..1
+- name: facility-kind
+  type: code
+  card: 1..1
+- name: floor-area
+  type: quantity
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: asset
+  type: reference(asset)
+  card: 0..1
+states:
+- planned
+- under-construction
+- in-operation
+- under-renovation
+- decommissioned
+relations:
+- type: part-of
+  target: site
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-409
+  edition: '2024'
+  jurisdiction: global

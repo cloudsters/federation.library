@@ -1,0 +1,10 @@
+kind: capability
+slug: device-maintenance-execution
+title: Device Maintenance Execution
+level: L3
+parent: device-maintenance-and-safety
+summary: Carry out and record preventive and corrective maintenance, internal or by contracted service.
+binds:
+- source: src-295
+  edition: '2014'
+  jurisdiction: global

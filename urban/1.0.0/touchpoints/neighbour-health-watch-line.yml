@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbour-health-watch-line
+title: Neighbour Health Watch Line
+medium: channel
+summary: The channel through which neighbours trained to spot early signs of outbreaks, heat stress or polluted air and water report
+  them, and hear what was done.
+exchanges:
+- spotted-signs-for-quick-action
+journey: community-health-worker-keeping-the-neighbourhood-well

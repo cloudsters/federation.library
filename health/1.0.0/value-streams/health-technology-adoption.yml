@@ -1,0 +1,147 @@
+kind: value-stream
+slug: health-technology-adoption
+title: Health Technology Adoption
+family: discovery-to-usage
+summary: 'Deciding whether and how new diagnostic and therapeutic methods, devices and medicines enter routine care: evidence review,
+  cost and reimbursement assessment, controlled introduction and follow-up evaluation.'
+trigger: A clinician or manufacturer proposes a new method, device or medicine for routine use.
+outcome: The method is adopted with funding, training and follow-up evaluation arranged, or declined with documented reasons.
+stakeholders:
+- specialist-physician
+- clinical-pharmacist
+- clinical-engineer
+- executive
+- elective-inpatient
+- payer
+- industry-partner
+- supplier
+steps:
+- slug: technology-proposal
+  title: Technology Proposal
+  summary: A clinician, or a manufacturer through a clinician, proposes a diagnostic or therapeutic method, device, medicine or digital
+    tool for routine use, stating the patients it serves, the expected benefit and the resources it needs.
+  capabilities:
+  - health-technology-assessment
+  - technology-innovation
+  - clinical-innovation-management
+  entities:
+  - technology-assessment
+  - medical-device
+  - medication
+  - ai-system
+  serves:
+  - new-technology-application
+- slug: evidence-and-safety-assessment
+  title: Evidence and Safety Assessment
+  summary: Benefit, harm and the certainty of the evidence are appraised against current practice, regulatory status is checked, and
+    digital tools are validated on the organisation's own data before any recommendation is made.
+  capabilities:
+  - health-technology-assessment
+  - guideline-adoption
+  - hazard-assessment
+  - decision-support-validation
+  - biostatistics-support
+  entities:
+  - technology-assessment
+  - publication
+  - clinical-guideline
+  - ai-validation
+  serves:
+  - technology-assessment-committee
+- slug: cost-and-payment-assessment
+  title: Cost and Payment Assessment
+  summary: Cost per case, budget impact, investment need, effects on capacity and staff, and the payment route, including supplementary
+    payment for new methods, are assessed and set out in a business case.
+  capabilities:
+  - patient-level-costing
+  - clinical-product-value-analysis
+  - supplementary-payment-management
+  - capital-planning
+  - tariff-and-price-management
+  entities:
+  - technology-assessment
+  - business-case
+  - patient-level-cost
+  - payer-agreement
+  serves:
+  - business-case
+  - payer-negotiation
+  - technology-assessment-committee
+- slug: adoption-decision
+  title: Adoption Decision
+  summary: The assessment committee recommends and the responsible body decides to adopt, to adopt under evaluation with defined conditions,
+    or to decline with documented reasons; adopted medicines enter the formulary.
+  capabilities:
+  - health-technology-assessment
+  - new-procedure-introduction
+  - formulary-management
+  - delegation-of-authority
+  entities:
+  - technology-assessment
+  - governance-decision
+  - formulary
+  serves:
+  - board-meeting
+  - technology-assessment-committee
+- slug: controlled-introduction
+  title: Controlled Introduction
+  summary: The technology is procured and commissioned, users are trained and privileged, pathways and patient information are updated,
+    and the first cases are performed under supervision and with informed consent.
+  capabilities:
+  - new-procedure-introduction
+  - supplier-selection-and-contracting
+  - device-acquisition-and-commissioning
+  - device-operator-training
+  - clinical-privileging
+  - clinical-pathway-design
+  - informed-consent
+  entities:
+  - contract
+  - medical-device
+  - credential
+  - clinical-privilege
+  - care-pathway
+  - informed-consent
+  serves:
+  - consent-form
+  - consultation
+  - device-commissioning
+  - operating-theatre
+- slug: follow-up-evaluation
+  title: Follow-Up Evaluation
+  summary: Use, outcomes, complications, patient-reported results and costs are tracked against the expectations of the assessment,
+    and the technology is confirmed, restricted or withdrawn.
+  capabilities:
+  - clinical-outcome-tracking
+  - complication-and-mortality-tracking
+  - patient-reported-outcome-measurement
+  - clinical-registry-participation
+  - pharmacovigilance
+  - model-monitoring-and-drift
+  entities:
+  - measure-report
+  - procedure
+  - implant
+  - adverse-event
+  - clinical-registry
+  - governance-decision
+  serves:
+  - outpatient-clinic
+  - patient-portal
+  - technology-assessment-committee
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-044
+  edition: '2011'
+  jurisdiction: global
+- source: src-462
+  edition: '2013'
+  jurisdiction: global
+- source: src-463
+  edition: '3.0'
+  jurisdiction: global

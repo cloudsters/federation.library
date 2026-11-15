@@ -1,0 +1,32 @@
+kind: journey
+slug: seeing-ones-own-record
+title: Seeing One's Own Record
+stakeholder: elective-inpatient
+summary: A patient asks to see and copy their record, receives it within the legal deadline in a form they can use, and can have errors
+  corrected.
+stages:
+- slug: requesting-access
+  title: Requesting Access
+  goal: Request the record through the portal or in writing without having to give a reason.
+  step: patient-rights-and-complaints/intake-and-acknowledgement
+  touchpoints:
+  - patient-portal
+- slug: proving-entitlement
+  title: Proving Entitlement
+  goal: Have identity and entitlement confirmed quickly and securely.
+  step: patient-rights-and-complaints/classification-and-routing
+  touchpoints:
+  - patient-portal
+- slug: receiving-the-record
+  title: Receiving the Record
+  goal: Receive a complete copy within the deadline, with help to understand it and to correct what is wrong.
+  step: patient-rights-and-complaints/response-and-resolution
+  touchpoints:
+  - record-copy
+  - patient-portal
+- slug: challenging-a-refusal
+  title: Challenging a Refusal
+  goal: Have a refusal or a partial release explained and reviewed independently.
+  step: patient-rights-and-complaints/escalation-and-external-review
+  touchpoints:
+  - patient-advocate-office

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: payroll-tax-for-legal-certainty
+title: Payroll Tax for Legal Certainty
+between:
+- administrative-staff
+- tax-authority
+offered:
+- Taxes withheld correctly from every salary, remitted when due, and declared in complete periodic filings.
+returned:
+- Legal certainty for employer and employees, and the withheld taxes credited to each employee.
+touchpoint: payroll-tax-filing

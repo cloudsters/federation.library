@@ -1,0 +1,34 @@
+kind: journey
+slug: resident-inspector-examining-a-contract
+title: Resident Inspector Examining a Contract
+stakeholder: resident-inspector
+summary: A resident inspector reads a contract's performance reports, examines its records and spending with users of the service,
+  follows its variations and remedies and sees the findings weighed when the contract comes to an end.
+stages:
+- slug: read-the-performance-reports
+  title: Read the Performance Reports
+  goal: The inspector has the contract's reports on delivery and commitments and knows what was promised.
+  step: contract-and-supplier-performance/delivery-and-commitment-monitoring
+  touchpoints:
+  - monthly-contract-performance-report
+- slug: examine-records-and-spending
+  title: Examine Records and Spending
+  goal: The inspector has examined the contract's records and spending with users of the service and published findings that the administration
+    answers.
+  step: contract-and-supplier-performance/user-feedback-and-resident-inspection
+  touchpoints:
+  - resident-contract-inspection
+  - contracted-service-feedback-channel
+- slug: follow-the-variations
+  title: Follow the Variations
+  goal: Every change in scope, price or term and every remedy applied can be traced in the published register.
+  step: contract-and-supplier-performance/variation-and-remedy
+  touchpoints:
+  - published-contract-register
+- slug: see-findings-weighed-at-the-end
+  title: See Findings Weighed at the End
+  goal: The findings of the inspector are part of the decision on renewal or exit, and the decision is public.
+  step: contract-and-supplier-performance/renewal-or-exit-decision
+  touchpoints:
+  - provision-option-review
+  - published-contract-register

@@ -1,0 +1,13 @@
+kind: solution
+slug: offline-backup
+title: Offline Backup
+role: system-of-record
+sovereignty: owned
+summary: A second copy kept apart from every service and restored now and then, so that losing one device or one account loses nothing.
+carries:
+- preparing-fallbacks
+- testing-before-it-is-needed
+- keeping-ones-data-close
+holds:
+- personal-archive
+- body-of-work

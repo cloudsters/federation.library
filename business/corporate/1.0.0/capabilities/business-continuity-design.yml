@@ -1,0 +1,11 @@
+kind: capability
+slug: business-continuity-design
+title: Business Continuity Design
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Design business continuity as resilience architecture — ensuring the system can sustain its purpose through disruption, not
+  just survive the event.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

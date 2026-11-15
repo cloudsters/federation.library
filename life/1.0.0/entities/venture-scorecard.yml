@@ -1,0 +1,39 @@
+kind: entity
+slug: venture-scorecard
+title: Venture Scorecard
+type: intelligence
+summary: How each venture is doing against what it was taken on for — including whether it is still being taken on for that.
+attributes:
+- name: venture
+  type: reference(venture)
+  card: 1..1
+- name: taken-on-for
+  type: text
+  card: 1..1
+- name: how-it-stands
+  type: text
+  card: 1..1
+- name: still-wanted
+  type: boolean
+  card: 1..1
+- name: times-rescued
+  type: quantity
+  card: 0..1
+- name: read-on
+  type: date
+  card: 1..1
+- name: next-step
+  type: code
+  card: 0..1
+states:
+- on course
+- drifting
+- in question
+- ending
+relations:
+- target: venture
+  type: about
+- target: venture-portfolio
+  type: part-of
+- target: venture-milestone
+  type: based-on

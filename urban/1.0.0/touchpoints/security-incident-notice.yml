@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: security-incident-notice
+title: Security Incident Notice
+medium: artefact
+summary: The notice to the council, the authorities and the residents affected of an attack or outage, what it affects, where services
+  still run and what to do.
+exchanges:
+- incident-notice-for-protective-steps
+journey: information-technology-specialist-protecting-the-city-systems

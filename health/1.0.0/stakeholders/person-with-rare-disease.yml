@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: person-with-rare-disease
+title: Person with Rare Disease
+nature: person
+stance: served
+summary: A person with a rare or undiagnosed condition who has often seen many providers before reaching the commons. Diagnosis may
+  depend on genomic testing and on expertise shared across centres.
+seeks:
+- A diagnosis, access to the few experts and therapies for the condition, and coordination with centres elsewhere.
+brings:
+- Cases and data that make the commons a reference point in a cross-centre expert network and advance knowledge of the condition.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

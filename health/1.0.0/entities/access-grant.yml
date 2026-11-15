@@ -1,0 +1,54 @@
+kind: entity
+slug: access-grant
+title: Access Grant
+type: governance
+summary: A right given to an identity to read or act on defined information or functions, such as a role-based access, an emergency
+  override or a research data access, with its basis, period and review.
+attributes:
+- name: identity
+  type: reference(identity)
+  card: 1..1
+- name: access-scope
+  type: code
+  card: 1..*
+- name: access-kind
+  type: code
+  card: 1..1
+- name: care-mandate
+  type: reference(care-mandate)
+  card: 0..1
+- name: granted-by
+  type: reference(employee)
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- requested
+- granted
+- under-review
+- revoked
+- expired
+relations:
+- type: based-on
+  target: care-mandate
+- type: based-on
+  target: data-use-agreement
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-412
+  edition: RFC7643/RFC7644
+  jurisdiction: global

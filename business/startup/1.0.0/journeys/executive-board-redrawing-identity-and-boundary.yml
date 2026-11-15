@@ -1,0 +1,66 @@
+kind: journey
+slug: executive-board-redrawing-identity-and-boundary
+title: Executive Board Redrawing Identity and Boundary
+stakeholder: executive-board
+summary: The executive board opens the question of what the organisation is and where it stops, listens to its environment and its
+  stakeholders, draws vision, values, boundary and charter, has them adopted and keeps watching whether the mandate is still alive.
+stages:
+- slug: open-the-question
+  title: Open the Question
+  goal: The reason for reopening identity and boundary is named, and the scope, the bodies involved and the timetable are agreed.
+  step: boundary-sensing-identity-design/review-occasion
+  touchpoints:
+  - board-meeting
+  - supervisory-board-meeting
+- slug: read-the-environment
+  title: Read the Environment
+  goal: Shifts in market, technology, regulation and society are read together with the organisation's own strengths and gaps, and
+    the findings are kept where everyone can use them.
+  step: boundary-sensing-identity-design/environment-and-capability-sensing
+  touchpoints:
+  - environment-and-capability-scan
+  - knowledge-base
+- slug: hear-the-stakeholders
+  title: Hear the Stakeholders
+  goal: Customers, owners, staff, partners and neighbours have been heard, and the tensions between their expectations are stated
+    openly.
+  step: boundary-sensing-identity-design/stakeholder-need-hearing
+  touchpoints:
+  - stakeholder-dialogue
+  - stakeholder-survey
+- slug: draft-vision-and-values
+  title: Draft Vision and Values
+  goal: A vision and the values that bind everyone are drafted with those who must live them.
+  step: boundary-sensing-identity-design/vision-and-values-drafting
+  touchpoints:
+  - strategy-workshop
+- slug: draw-the-boundary
+  title: Draw the Boundary
+  goal: What the organisation does, what it leaves to others and which entities carry it are drawn on one map that the board can defend.
+  step: boundary-sensing-identity-design/boundary-setting
+  touchpoints:
+  - boundary-map
+  - strategy-workshop
+- slug: promise-each-stakeholder
+  title: Promise Each Stakeholder
+  goal: The charter states what each stakeholder is promised, who governs and how impact will be measured.
+  step: boundary-sensing-identity-design/stakeholder-charter-drafting
+  touchpoints:
+  - stakeholder-charter
+- slug: have-it-adopted-and-published
+  title: Have It Adopted and Published
+  goal: The entitled bodies have adopted the identity, the registers match it and it is published and carried into the brand.
+  step: boundary-sensing-identity-design/ratification-and-publication
+  touchpoints:
+  - supervisory-board-meeting
+  - shareholder-meeting
+  - company-register-entry
+  - website
+- slug: keep-the-mandate-alive
+  title: Keep the Mandate Alive
+  goal: Drift between stated identity and actual conduct is noticed, owned and corrected, and stale parts of the mandate are renewed
+    or retired.
+  step: boundary-sensing-identity-design/mandate-vitality-review
+  touchpoints:
+  - mandate-review
+  - board-meeting

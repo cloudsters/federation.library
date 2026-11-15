@@ -1,0 +1,47 @@
+kind: journey
+slug: shift-supervisor-keeping-every-shift-staffed
+title: Shift Supervisor Keeping Every Shift Staffed
+stakeholder: shift-supervisor
+summary: A shift supervisor works from a workload forecast, builds and checks the roster, covers absences and peaks each shift, confirms
+  recorded time and closes the period fairly.
+stages:
+- slug: know-the-workload
+  title: Know the Workload
+  goal: The supervisor has a forecast of workload and required staff and skills for each shift of the period.
+  step: workforce-scheduling-and-staffing/workload-forecast
+  touchpoints:
+  - staffing-forecast
+- slug: build-the-roster
+  title: Build the Roster
+  goal: The roster covers the required skills on every shift, respects working-time rules and is approved by the representatives.
+  step: workforce-scheduling-and-staffing/roster-planning
+  touchpoints:
+  - duty-roster
+  - works-council-meeting
+- slug: close-the-gaps-in-advance
+  title: Close the Gaps in Advance
+  goal: Gaps found in the check are closed from the flexible pool or internal moves before the period starts.
+  step: workforce-scheduling-and-staffing/staffing-check
+  touchpoints:
+  - duty-roster
+  - flexible-staff-pool
+- slug: cover-the-shift
+  title: Cover the Shift
+  goal: Each shift starts with the people and skills it needs, absences covered through swaps, standby or the pool.
+  step: workforce-scheduling-and-staffing/shift-adjustment
+  touchpoints:
+  - shop-floor-meeting
+  - flexible-staff-pool
+  - shift-handover
+- slug: confirm-recorded-time
+  title: Confirm Recorded Time
+  goal: Recorded time is checked against working-time rules and overtime limits, and deviations are cleared.
+  step: workforce-scheduling-and-staffing/time-recording
+  touchpoints:
+  - time-recording-terminal
+- slug: close-the-period
+  title: Close the Period
+  goal: The period's working time is approved and handed to payroll, with time accounts settled fairly.
+  step: workforce-scheduling-and-staffing/period-close
+  touchpoints:
+  - time-account-statement

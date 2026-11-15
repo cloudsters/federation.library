@@ -1,0 +1,10 @@
+kind: capability
+slug: acute-cardiac-care
+title: Acute Cardiac Care
+level: L3
+parent: cardiovascular-and-stroke-care
+summary: Treat acute coronary syndromes, arrhythmias and acute heart failure, including in a chest-pain unit.
+binds:
+- source: src-524
+  edition: ACS-2023 / AF-2024 / HF-2026
+  jurisdiction: global

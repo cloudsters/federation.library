@@ -1,0 +1,33 @@
+kind: entity
+slug: payment-term
+title: Payment Term
+type: master
+summary: The rhythm of settlement — a named agreement about when and how payment will flow. Payment terms are not mere configuration;
+  they shape cash flow, encode trust levels, and create the tempo of financial relationships.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: due-date-rule
+  type: text
+  card: 1..1
+- name: instalments
+  type: text
+  card: 0..*
+- name: early-payment-discount
+  type: text
+  card: 0..1
+states:
+- defined
+- assigned
+- applied
+- revised
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: supplier-organisation
+- type: refers-to
+  target: sales-invoice
+- type: refers-to
+  target: purchase-invoice

@@ -1,0 +1,39 @@
+kind: journey
+slug: team-member-delivering-within-real-capacity
+title: Team Member Delivering Within Real Capacity
+stakeholder: employee
+summary: A team member is assigned to approved work according to real availability, joins a chartered project, delivers in the team's
+  own cadence, raises collisions early and is released when the work is handed over.
+stages:
+- slug: be-counted-honestly
+  title: Be Counted Honestly
+  goal: The person's skills and available time are recorded truthfully, and no one is assigned to more work than the hours can hold.
+  step: portfolio-programme-orchestration/capacity-allocation
+  touchpoints:
+  - capacity-plan
+- slug: join-a-chartered-team
+  title: Join a Chartered Team
+  goal: The team member knows the project's goal, their role and the people and agents they will work with.
+  step: portfolio-programme-orchestration/programme-and-project-set-up
+  touchpoints:
+  - project-charter
+- slug: deliver-in-the-team-s-cadence
+  title: Deliver in the Team's Cadence
+  goal: The team plans each cadence from the shared backlog, takes on only what it can finish and records the effort spent.
+  step: portfolio-programme-orchestration/iterative-delivery
+  touchpoints:
+  - sprint-planning
+  - shared-backlog
+- slug: raise-what-the-team-cannot-solve
+  title: Raise What the Team Cannot Solve
+  goal: Dependencies and overload that the team cannot resolve reach the review and come back as a decision.
+  step: portfolio-programme-orchestration/progress-and-dependency-review
+  touchpoints:
+  - progress-review
+- slug: finish-and-move-on
+  title: Finish and Move On
+  goal: The team member hands over the results, contributes to the lessons and is free for the next assignment.
+  step: portfolio-programme-orchestration/closure-and-handover
+  touchpoints:
+  - project-handover
+  - lessons-learned-review

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: home-needs-assessment-visit
+title: Home Needs Assessment Visit
+medium: encounter
+summary: The visit in which a social worker assesses a person's needs, strengths and wishes at home with them and those who care for
+  them.
+exchanges:
+- care-request-for-one-point-of-contact
+- wishes-for-an-assessment-in-ones-own-words
+journey: social-worker-joining-care-around-a-person

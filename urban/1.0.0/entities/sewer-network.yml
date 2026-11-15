@@ -1,0 +1,65 @@
+kind: entity
+slug: sewer-network
+title: Sewer Network
+type: master
+summary: The sewers, drains, treatment plants and green spaces that take wastewater and rain away, with their capacity and condition.
+  The network operator keeps the record, and uses it to plan treatment and recovery, keep drains clear and share the cost of drainage
+  by how much rain each property sends in.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: extent
+  type: document
+  card: 1..1
+- name: components
+  type: code
+  card: 1..*
+- name: treatment-plants
+  type: text
+  card: 0..*
+- name: treatment-capacity
+  type: quantity
+  card: 0..1
+- name: area-served
+  type: quantity
+  card: 0..1
+- name: overflow-points
+  type: text
+  card: 0..*
+- name: recovered-outputs
+  type: code
+  card: 0..*
+- name: public-toilet-count
+  type: integer
+  card: 0..1
+- name: condition-grade
+  type: code
+  card: 0..1
+- name: last-surveyed-on
+  type: date
+  card: 0..1
+states:
+- planned
+- built
+- operating
+- under-renewal
+- decommissioned
+relations:
+- type: refers-to
+  target: waterway
+- type: refers-to
+  target: flood-risk-map
+- type: refers-to
+  target: public-space
+- type: governed-by
+  target: service-tariff
+- type: refers-to
+  target: infrastructure-repair
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

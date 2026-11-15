@@ -1,0 +1,30 @@
+kind: entity
+slug: mailing-list
+title: Mailing List
+type: intelligence
+summary: A curated audience — a named group of contacts who have consented to receive communication on a topic. Unlike a campaign
+  which is a moment, the mailing list is a standing relationship between the system and those who want to listen.
+attributes:
+- name: topic
+  type: text
+  card: 1..1
+- name: members
+  type: reference(contact)
+  card: 0..*
+- name: subscription-status
+  type: code
+  card: 1..1
+- name: consent-provenance
+  type: reference(data-use-consent)
+  card: 0..*
+- name: unsubscribe-route
+  type: text
+  card: 1..1
+states:
+- created
+- growing
+- cleaned
+- archived
+relations:
+- type: governed-by
+  target: data-use-consent

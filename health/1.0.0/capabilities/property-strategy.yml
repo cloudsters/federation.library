@@ -1,0 +1,10 @@
+kind: capability
+slug: property-strategy
+title: Property Strategy
+level: L3
+parent: estate-development
+summary: Set the long-term strategy for the organisation's sites and buildings.
+binds:
+- source: src-339
+  edition: '2018'
+  jurisdiction: global

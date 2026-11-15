@@ -1,0 +1,10 @@
+kind: capability
+slug: owner-relations
+title: Owner Relations
+level: L3
+parent: governance-bodies
+summary: Keep transparent, regular communication with the owners and public bodies that hold the organisation.
+binds:
+- source: src-534
+  edition: '2024'
+  jurisdiction: global

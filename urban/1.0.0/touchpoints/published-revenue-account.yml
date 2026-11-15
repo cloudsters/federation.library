@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-revenue-account
+title: Published Revenue Account
+medium: artefact
+summary: The yearly account of what each tax, fee and charge raised, who paid it and what it funded, including the share that flowed
+  into the commons fund.
+exchanges:
+- revenue-account-for-residents-scrutiny
+journey: finance-officer-raising-local-revenue

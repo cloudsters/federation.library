@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shared-answer-library
+title: Shared Answer Library
+medium: artefact
+summary: The body of answers kept by the services and used by all frontline staff, dated and owned, so that most enquiries are answered
+  at first contact.
+exchanges:
+- questions-met-for-answers-kept-current
+journey: frontline-worker-answering-at-first-contact

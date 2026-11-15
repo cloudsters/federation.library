@@ -1,0 +1,33 @@
+kind: journey
+slug: disabled-resident-challenging-a-decision-with-help
+title: Disabled Resident Challenging a Decision with Help
+stakeholder: disabled-resident
+summary: A disabled resident complains with help about a decision an automated system took part in, sees the working of that system
+  examined, receives a remedy, and sees the barrier counted and its cause removed.
+stages:
+- slug: complain-with-help
+  title: Complain with Help
+  goal: The resident has made the complaint in the form that suits them, with someone at their side, and it has been acknowledged.
+  step: complaints-and-ombudsman/complaint-intake-and-acknowledgement
+  touchpoints:
+  - complaint-support-conversation
+  - any-route-complaint-channel
+- slug: see-the-decision-examined
+  title: See the Decision Examined
+  goal: The investigation has looked at the records and at how the automated system weighed the resident's case.
+  step: complaints-and-ombudsman/complaint-investigation
+  touchpoints:
+  - complaint-investigation-hearing
+- slug: receive-a-remedy
+  title: Receive a Remedy
+  goal: The decision has been changed or explained in plain language, with an apology where the city was at fault.
+  step: complaints-and-ombudsman/response-and-remedy
+  touchpoints:
+  - reasoned-response-letter
+- slug: see-the-cause-removed
+  title: See the Cause Removed
+  goal: The complaint is counted by group in the published account, and the service has removed the cause of the barrier.
+  step: complaints-and-ombudsman/learning-from-complaints
+  touchpoints:
+  - published-complaints-count
+  - complaint-learning-review

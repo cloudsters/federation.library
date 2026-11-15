@@ -1,0 +1,16 @@
+kind: body
+slug: information-security-office
+title: Information Security Office
+summary: Sets the security policy within the city's risk framework, assesses the threats to each system, gives identities only the
+  access they need, plans continuity with offline fallbacks in the neighbourhoods, watches for attacks and contains incidents.
+holds:
+- information-security-and-resilience
+- security-policy-setting
+- security-risk-assessment
+- identity-and-access-control
+- threat-detection
+- security-incident-response
+- service-continuity-planning
+part_of: full-council
+type: function
+form: organisational-unit

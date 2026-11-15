@@ -1,0 +1,41 @@
+kind: journey
+slug: intensive-care-patient-journey
+title: Intensive Care Patient Journey
+stakeholder: critically-ill-patient
+summary: A critically ill person reaches intensive care in time, is stabilised within the limits of their own will, survives organ
+  failure with as little harm as possible, regains function and moves on without loss of information.
+stages:
+- slug: reach-intensive-care-in-time
+  title: Reach Intensive Care in Time
+  goal: Reach intensive care before the condition becomes irreversible.
+  step: intensive-care/intensive-care-admission
+  touchpoints:
+  - rapid-response-call
+  - intensive-care-unit
+- slug: be-stabilised-within-own-limits
+  title: Be Stabilised within Own Limits
+  goal: Have vital functions secured within the limits the person has set.
+  step: intensive-care/assessment-and-stabilisation
+  touchpoints:
+  - intensive-care-unit
+  - advance-directive-document
+- slug: survive-the-crisis
+  title: Survive the Crisis
+  goal: Survive organ failure with as little suffering, delirium and harm as possible.
+  step: intensive-care/organ-support-and-monitoring
+  touchpoints:
+  - intensive-care-unit
+- slug: regain-strength
+  title: Regain Strength
+  goal: Breathe, move, swallow and orient again, and make sense of the time in intensive care.
+  step: intensive-care/weaning-and-recovery
+  touchpoints:
+  - therapy-session
+  - intensive-care-diary
+- slug: move-on-safely
+  title: Move On Safely
+  goal: Move to the ward without losing what the intensive care team knew.
+  step: intensive-care/step-down-transfer
+  touchpoints:
+  - shift-handover
+  - ward

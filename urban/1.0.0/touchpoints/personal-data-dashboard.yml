@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: personal-data-dashboard
+title: Personal Data Dashboard
+medium: channel
+summary: The resident's own view of the data the city holds about them, where it is used, the consent they have given and when each
+  piece expires.
+exchanges:
+- consent-choices-for-honoured-limits
+journey: resident-controlling-their-own-data

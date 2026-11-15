@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-complaints-count
+title: Published Complaints Count
+medium: artefact
+summary: The published count of complaints and compensation by service, neighbourhood and group, with the patterns found, reported
+  to the council.
+exchanges:
+- complaint-patterns-for-council-scrutiny
+- community-harm-for-a-fund-it-directs
+journey: disabled-resident-challenging-a-decision-with-help

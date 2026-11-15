@@ -1,0 +1,37 @@
+kind: entity
+slug: workspace
+title: Workspace
+type: master
+summary: Where this person actually produces — a room, a desk, a studio, a workshop, a shared floor. Held separately from `home` even
+  when it is inside it, because the conditions that make a home good and a workspace good are not the same.
+attributes:
+- name: where
+  type: text
+  card: 1..1
+- name: inside-home
+  type: reference(home)
+  card: 0..1
+- name: shared-with
+  type: text
+  card: 0..*
+- name: when-available
+  type: text
+  card: 0..1
+- name: set-up-for
+  type: list(creative-practice)
+  card: 0..*
+- name: what-still-pulls-away
+  type: text
+  card: 0..*
+states:
+- missing
+- found
+- set up
+- in use
+- lost to a change
+- rearranged
+relations:
+- target: home
+  type: part-of
+- target: creative-practice
+  type: serves

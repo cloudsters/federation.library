@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: criticality-rating-workshop
+title: Criticality Rating Workshop
+medium: encounter
+summary: A workshop in which officers and crews rate how critical each asset is by the services and neighbourhoods its failure would
+  harm.
+exchanges:
+- service-dependencies-for-a-criticality-rating
+journey: asset-officer-building-the-asset-plan

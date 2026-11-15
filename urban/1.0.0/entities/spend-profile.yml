@@ -1,0 +1,62 @@
+kind: entity
+slug: spend-profile
+title: Spend Profile
+type: intelligence
+summary: The analysis of what the city and its municipal enterprises bought, from whom and where the money landed, by category, department,
+  supplier ownership and region, together with what departments expect to need over the coming years. The procurement office compiles
+  it each year from the accounts and the supplier records, and it is the basis for category strategies, local purchasing targets,
+  the carbon account and the search for purchases to share with others.
+attributes:
+- name: reference-period
+  type: period
+  card: 1..1
+- name: enterprises-covered
+  type: reference(municipal-enterprise)
+  card: 0..*
+- name: total-spend
+  type: amount
+  card: 1..1
+- name: spend-by-category
+  type: document
+  card: 1..1
+- name: spend-by-ownership
+  type: document
+  card: 0..1
+- name: spend-by-region
+  type: document
+  card: 0..1
+- name: local-share
+  type: decimal
+  card: 0..1
+- name: supplier-count
+  type: integer
+  card: 0..1
+- name: expected-demand
+  type: document
+  card: 0..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: compiled-on
+  type: date
+  card: 1..1
+states:
+- scoped
+- compiled
+- validated
+- published
+- superseded
+relations:
+- type: based-on
+  target: journal-entry
+- type: based-on
+  target: supplier-record
+- type: refers-to
+  target: procurement-category
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: municipal-budget

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quality-data-submission
+title: Quality Data Submission
+medium: channel
+summary: The secure electronic channel through which the organisation submits mandatory quality data to the national body and receives
+  its results and requests for statements.
+exchanges:
+- quality-data-for-fair-comparison
+journey: department-outcome-results

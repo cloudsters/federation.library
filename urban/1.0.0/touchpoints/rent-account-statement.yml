@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: rent-account-statement
+title: Rent Account Statement
+medium: artefact
+summary: The regular statement of a tenant's rent and service charges, payments and any arrears, with the help available before arrears
+  grow.
+exchanges:
+- honesty-about-arrears-for-an-arrangement-before-eviction
+journey: tenant-living-in-a-city-home

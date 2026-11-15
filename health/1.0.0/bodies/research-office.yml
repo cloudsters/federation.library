@@ -1,0 +1,13 @@
+kind: body
+slug: research-office
+title: Research Office
+summary: 'Supports research strategy and funding: research infrastructure and performance, grant applications and awards,
+  overhead reinvestment, industry contracts, research consent and integrity, animal research oversight and the administration
+  of ethics review.'
+holds:
+- research-strategy
+- research-funding
+- research-ethics-and-integrity
+part_of: faculty-council
+type: function
+form: organisational-unit

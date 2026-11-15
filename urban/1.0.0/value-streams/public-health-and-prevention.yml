@@ -1,0 +1,129 @@
+kind: value-stream
+slug: public-health-and-prevention
+title: Public Health and Prevention
+family: discovery-to-usage
+summary: Keeping residents well and preventing illness before it needs treatment, by acting on the conditions in which people live.
+  It holds the city's health profile by neighbourhood and group, the assessment of the health effects of the city's own plans, health
+  promotion carried by community health workers and pharmacies in the neighbourhoods, prevention and screening that reach those least
+  served, harm reduction that treats substance use as a matter of health, and the watch for outbreaks and environmental threats with
+  neighbours trained to spot them.
+trigger: The yearly health profile, a gap in health between neighbourhoods or groups, a plan with effects on health, or an emerging
+  threat to health.
+outcome: The city knows where and why residents fall ill, its plans are weighed for their effect on health, and prevention reaches
+  the neighbourhoods and groups with the widest gaps.
+stakeholders:
+- resident
+- community-health-worker
+- health-and-care-provider
+- affected-community
+- older-resident
+- city-planner
+steps:
+- slug: city-health-profile
+  title: City Health Profile
+  summary: Life expectancy, illness and mental health and the conditions behind them, such as housing, air, heat, food and income,
+    are described by neighbourhood and group with residents and health providers.
+  capabilities:
+  - population-health-profiling
+  - environment-sensing
+  - hazard-and-vulnerability-mapping
+  entities:
+  - health-profile
+  - air-quality-index
+  - population-register
+  serves:
+  - health-profile-workshop
+  - published-city-health-profile
+- slug: health-impact-assessment
+  title: Health Impact Assessment
+  summary: The city's plans for homes, streets, transport, food and green space are assessed for their effects on health and on health
+    gaps before they are decided, together with the residents most affected.
+  capabilities:
+  - health-impact-assessment
+  - decision-impact-assessment
+  entities:
+  - health-impact-assessment
+  - equity-impact-assessment
+  - council-decision
+  serves:
+  - health-impact-hearing
+  - published-health-impact-statement
+- slug: neighbourhood-health-promotion
+  title: Neighbourhood Health Promotion
+  summary: Community health workers drawn from the neighbourhood, pharmacies and local clinics teach neighbours about health, guide
+    them through health services, and support healthy food, movement and rest where people live.
+  capabilities:
+  - community-health-worker-deployment
+  - health-promotion-programme-design
+  entities:
+  - health-promotion-programme
+  - neighbourhood
+  serves:
+  - neighbourhood-health-session
+  - pharmacy-health-check
+- slug: prevention-and-screening-outreach
+  title: Prevention and Screening Outreach
+  summary: Vaccination, screening and early checks are brought to the neighbourhoods and groups that use them least, at times and
+    in languages that fit them and whatever their status.
+  capabilities:
+  - prevention-outreach-organisation
+  - status-independent-service-access
+  - language-access-provision
+  entities:
+  - prevention-campaign
+  - health-profile
+  serves:
+  - mobile-screening-clinic
+  - pharmacy-health-check
+- slug: harm-reduction
+  title: Harm Reduction
+  summary: Residents who use drugs, their neighbours and peer workers shape services that treat substance use as a matter of health,
+    with safe places and routes into treatment.
+  capabilities:
+  - harm-reduction-service-design
+  - service-co-design
+  entities:
+  - public-service
+  - health-promotion-programme
+  serves:
+  - harm-reduction-design-circle
+  - harm-reduction-drop-in
+- slug: health-threat-watch
+  title: Health Threat Watch
+  summary: Outbreaks and environmental threats such as heat and polluted air and water are watched through health data, sensors and
+    neighbours trained to spot them, and the residents most at risk are warned and helped early.
+  capabilities:
+  - health-threat-surveillance
+  - public-warning
+  - sensor-deployment
+  entities:
+  - health-alert
+  - air-quality-index
+  - sensor
+  serves:
+  - health-alert-message
+  - neighbour-health-watch-line
+- slug: health-gap-review
+  title: Health Gap Review
+  summary: How health gaps between neighbourhoods and groups have changed is reviewed and published with residents, and prevention
+    is moved to where the gaps remain.
+  capabilities:
+  - population-health-profiling
+  - equity-audit
+  - city-vitality-assessment
+  entities:
+  - health-profile
+  - whole-city-assessment
+  serves:
+  - health-gap-review-forum
+  - published-city-health-profile
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global
+- source: src-254
+  edition: '2025-09-19'
+  jurisdiction: global

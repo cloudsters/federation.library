@@ -1,0 +1,12 @@
+kind: solution
+slug: employee-self-service-portal
+title: Employee Self-Service Portal
+role: system-of-engagement
+summary: Gives staff one place to see their pay, request leave, update personal data, raise questions, prepare their start and recognise
+  colleagues.
+carries:
+- employee-self-service-portal
+- gamification-recognition-design
+- participant-inquiry-as-care
+- pre-boarding-experience
+holds: []

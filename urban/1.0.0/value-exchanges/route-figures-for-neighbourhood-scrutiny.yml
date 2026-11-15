@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: route-figures-for-neighbourhood-scrutiny
+title: Route Figures for Neighbourhood Scrutiny
+between:
+- city-administration
+- neighbourhood-association
+offered:
+- The figures of who uses each route and who is shut out, by neighbourhood, age, language and disability.
+returned:
+- The association's scrutiny of the figures and the names of residents' groups the city still does not reach.
+touchpoint: published-route-use-report

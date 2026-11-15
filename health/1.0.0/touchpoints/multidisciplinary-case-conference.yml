@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: multidisciplinary-case-conference
+title: Multidisciplinary Case Conference
+medium: encounter
+summary: The conference where specialists from several disciplines review a complex case together, often with external partners by
+  video, and agree on a treatment recommendation.
+exchanges:
+- case-for-a-joint-recommendation
+- specialist-knowledge-for-shared-standards
+- remote-specialist-advice
+- centre-network-cooperation
+- centre-practice
+journey: referring-hospital-centre-journey

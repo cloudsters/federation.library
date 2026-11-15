@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: proof-of-coverage-for-certainty
+title: Proof of Coverage for Certainty
+between:
+- elective-inpatient
+- administrative-staff
+offered:
+- Proof of coverage and the personal data needed to bill the stay, given before admission.
+returned:
+- Certainty about what the payer covers and what, if anything, the patient will pay.
+touchpoint: admission-desk

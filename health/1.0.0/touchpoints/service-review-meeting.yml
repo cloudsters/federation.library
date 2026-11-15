@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-review-meeting
+title: Service Review Meeting
+medium: encounter
+summary: The periodic meeting in which IT and a clinical or administrative unit, or a supplier, review performance against agreed
+  service levels and agree improvements.
+exchanges:
+- care-criticality-for-service-levels
+- escalation-for-contracted-support
+journey: unit-agreeing-its-service-levels

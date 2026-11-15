@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-results-report
+title: Agent Results Report
+medium: artefact
+summary: The report of an agent's results, errors and the challenges raised against it, set before each review.
+exchanges:
+- challenges-for-a-corrected-agent
+- results-record-for-a-reviewed-mandate
+journey: municipal-ai-agent-serving-a-fixed-term

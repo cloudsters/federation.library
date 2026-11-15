@@ -1,0 +1,34 @@
+kind: journey
+slug: municipal-employee-buying-what-the-work-needs
+title: Municipal Employee Buying What the Work Needs
+stakeholder: municipal-employee
+summary: A member of staff raises a request to buy, checks first whether a shared pool can meet the need, orders against the framework
+  agreement, records what arrived and helps clear a difference on the invoice.
+stages:
+- slug: raise-the-request
+  title: Raise the Request
+  goal: The request is checked against the budget still available and approved at the delegated level.
+  step: purchasing-and-supplier-payment/requisition-and-approval
+  touchpoints:
+  - purchase-request-form
+- slug: order-after-checking-the-pool
+  title: Order After Checking the Pool
+  goal: The need is met from the shared pool, or an order is placed under the framework agreement with deliverables and a date the
+    supplier confirmed.
+  step: purchasing-and-supplier-payment/order-and-call-off
+  touchpoints:
+  - shared-equipment-catalogue
+  - call-off-order
+- slug: record-what-arrived
+  title: Record What Arrived
+  goal: What arrived, in what quantity and condition, or the service delivered, is recorded, and any shortfall is passed to the contract
+    manager.
+  step: purchasing-and-supplier-payment/goods-receipt-and-service-confirmation
+  touchpoints:
+  - delivery-receipt-check
+- slug: clear-the-difference
+  title: Clear the Difference
+  goal: A difference between invoice, order and receipt is cleared with the finance office and the supplier before payment.
+  step: purchasing-and-supplier-payment/invoice-receipt-and-matching
+  touchpoints:
+  - supplier-invoice-channel

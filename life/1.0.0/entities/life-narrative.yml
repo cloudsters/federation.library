@@ -1,0 +1,39 @@
+kind: entity
+slug: life-narrative
+title: Life Narrative
+type: master
+summary: 'The story this person tells about their own life — its chapters, its turning points, and the threads that run through more
+  than one. It is an account, not a record: two people who lived the same years tell it differently, and the telling is itself a fact
+  about the teller.'
+attributes:
+- name: chapters
+  type: text
+  card: 1..*
+- name: turning-points
+  type: list(transition)
+  card: 0..*
+- name: threads
+  type: text
+  card: 0..*
+- name: steering-beliefs
+  type: list(premise)
+  card: 0..*
+- name: next-chapter
+  type: text
+  card: 0..1
+- name: last-retold
+  type: date
+  card: 0..1
+states:
+- told by habit
+- broken
+- reworked
+- retold
+- carried
+relations:
+- target: self
+  type: about
+- target: experience
+  type: based-on
+- target: journal
+  type: based-on

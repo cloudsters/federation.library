@@ -1,0 +1,55 @@
+kind: entity
+slug: care-commitment
+title: Care Commitment
+type: governance
+summary: The organisation's declared acceptance of responsibility to address a request for care, stating what it will do and by when.
+  Once the subject of care agrees, or the law authorises care without agreement, the commitment makes the care mandate effective.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: request-for-care
+  type: reference(request-for-care)
+  card: 1..1
+- name: committed-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: committed-services
+  type: reference(care-service)
+  card: 1..*
+- name: committed-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: committed-at
+  type: datetime
+  card: 1..1
+- name: target-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- agreed
+- effective
+- fulfilled
+- withdrawn
+relations:
+- type: based-on
+  target: request-for-care
+- type: produces
+  target: care-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

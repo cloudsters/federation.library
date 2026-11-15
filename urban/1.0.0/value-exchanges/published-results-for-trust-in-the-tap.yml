@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-results-for-trust-in-the-tap
+title: Published Results for Trust in the Tap
+between:
+- resident
+- infrastructure-operator
+offered:
+- Residents' trust in tap water, and their reports when it looks, smells or tastes wrong.
+returned:
+- Water treated to drinking quality, results published by neighbourhood and any warning issued at once.
+touchpoint: tap-water-quality-results

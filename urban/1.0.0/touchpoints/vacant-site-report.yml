@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: vacant-site-report
+title: Vacant Site Report
+medium: channel
+summary: The route by which residents report buildings and plots that stand empty or decay, which feeds the vacancy register.
+exchanges:
+- vacancy-reports-for-a-current-register
+journey: asset-officer-acquiring-land-for-the-city

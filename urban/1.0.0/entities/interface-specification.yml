@@ -1,0 +1,60 @@
+kind: entity
+slug: interface-specification
+title: Interface Specification
+type: governance
+summary: The published description of how a system exchanges data, with its formats, meaning, identity checks, conformance rules and
+  version. The owner of the system that offers the interface publishes it in the public repository, and every connection is built
+  and tested against it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: offering-system
+  type: reference(application)
+  card: 1..1
+- name: formats
+  type: code
+  card: 1..*
+- name: meaning
+  type: reference(shared-data-model)
+  card: 0..*
+- name: identity-checks
+  type: text
+  card: 1..*
+- name: conformance-rules
+  type: document
+  card: 1..1
+- name: published-in
+  type: reference(source-code-repository)
+  card: 0..1
+- name: licence
+  type: code
+  card: 0..1
+- name: change-notice
+  type: text
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: deprecated-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- published
+- in-use
+- deprecated
+- withdrawn
+relations:
+- type: based-on
+  target: shared-data-model
+- type: governed-by
+  target: federation-agreement
+- type: refers-to
+  target: application
+- type: refers-to
+  target: source-code-repository

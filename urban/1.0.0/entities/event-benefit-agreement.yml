@@ -1,0 +1,57 @@
+kind: entity
+slug: event-benefit-agreement
+title: Event Benefit Agreement
+type: governance
+summary: The agreement on fair pay for the artists, workers, vendors and volunteers of an event, the preference for local suppliers,
+  the publication of its income and costs and the share of income returned to the community it celebrates. The organiser signs it
+  with the city and the community concerned, and it is checked when the event's accounts are published.
+attributes:
+- name: event
+  type: reference(festival|cultural-performance)
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: pay-terms
+  type: text
+  card: 1..*
+- name: volunteer-recognition
+  type: text
+  card: 0..1
+- name: wage-floor
+  type: reference(wage-floor-agreement)
+  card: 0..1
+- name: local-supplier-share
+  type: decimal
+  card: 0..1
+- name: beneficiary-community
+  type: text
+  card: 1..*
+- name: community-share
+  type: decimal
+  card: 0..1
+- name: published-accounts
+  type: document
+  card: 0..1
+- name: accounts-published-on
+  type: date
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- signed
+- in-effect
+- accounts-published
+- settled
+relations:
+- type: refers-to
+  target: wage-floor-agreement
+- type: refers-to
+  target: community-grant
+- type: refers-to
+  target: money-flow-account
+- type: produces
+  target: public-record

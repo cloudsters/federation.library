@@ -1,0 +1,155 @@
+kind: value-stream
+slug: observational-and-data-driven-research
+title: Observational and Data-Driven Research
+family: demand-to-fulfillment
+summary: 'Conducting cohort studies, registries, health services research and analyses of routine data: protocol, approvals, data
+  acquisition, analysis and publication.'
+trigger: A research question is posed that can be answered by observation, a registry or existing data.
+outcome: The study is completed, its results are published, and its data are documented for reuse.
+stakeholders:
+- research-scientist
+- clinician-scientist
+- research-participant
+- health-informatics-specialist
+- data-protection-officer
+- research-ethics-committee
+- research-partner
+- research-funder
+steps:
+- slug: research-question-and-protocol
+  title: Research Question and Protocol
+  summary: The question, design, population, variables, sample size and analysis plan are set down in a protocol, and the availability
+    and quality of the data it needs are checked against the plan.
+  capabilities:
+  - research-question-development
+  - biostatistics-support
+  - cohort-and-registry-studies
+  - real-world-data-provisioning
+  entities:
+  - research-study
+  - study-protocol
+  - cohort
+  - dataset
+  serves:
+  - research-data-portal
+  - study-protocol
+- slug: approvals-and-data-access
+  title: Approvals and Data Access
+  summary: Ethics and data protection review are completed, the consent or legal basis for each data source is confirmed, and the
+    access committee approves the request under a data-use agreement.
+  capabilities:
+  - ethics-committee-governance
+  - privacy-impact-management
+  - research-consent-management
+  - data-access-governance
+  - secondary-use-enablement
+  entities:
+  - study-review
+  - data-access-request
+  - data-use-agreement
+  - data-use-consent
+  - data-processing-record
+  serves:
+  - consent-form
+  - data-use-and-access-committee
+  - patient-portal
+  - research-collaboration-agreement
+  - research-submission-portal
+- slug: data-acquisition
+  title: Data Acquisition
+  summary: Data are collected prospectively in cohort visits, registry documentation and questionnaires, or extracted from routine
+    care records, and are linked across sources under pseudonyms.
+  capabilities:
+  - research-data-collection
+  - cohort-and-registry-studies
+  - research-data-integration-centre
+  - pseudonymisation-and-record-linkage
+  - patient-reported-outcome-measurement
+  - clinical-registry-participation
+  entities:
+  - dataset
+  - participant-enrolment
+  - study-visit
+  - clinical-registry
+  - patient-reported-outcome
+  - health-record
+  serves:
+  - patient-portal
+  - research-data-portal
+  - study-visit
+- slug: data-preparation
+  title: Data Preparation
+  summary: Data are cleaned, checked for completeness and plausibility, mapped to a common data model and shared vocabularies, and
+    documented so that every variable can be traced to its source.
+  capabilities:
+  - common-data-model-harmonisation
+  - data-quality-management
+  - terminology-services
+  - research-data-collection
+  entities:
+  - dataset
+  - code-system
+  - data-product
+  serves:
+  - secure-processing-environment
+- slug: analysis
+  title: Analysis
+  summary: The data are analysed according to the plan, at one site or across institutions by federated analysis without moving patient-level
+    data, with sensitivity analyses and an account of bias and missing data.
+  capabilities:
+  - research-data-analysis
+  - biostatistics-support
+  - federated-analysis
+  - predictive-analytics
+  entities:
+  - dataset
+  - research-study
+  serves:
+  - secure-processing-environment
+- slug: publication-and-use-of-results
+  title: Publication and Use of Results
+  summary: Results are published openly, whether they confirm the hypothesis or not, explained to participants and the public, and
+    fed into guidelines, pathways and quality improvement where they change practice.
+  capabilities:
+  - research-publication
+  - research-performance-assessment
+  - guideline-adoption
+  - patient-and-public-involvement
+  entities:
+  - publication
+  - research-study
+  - clinical-guideline
+  serves:
+  - public-website
+  - scientific-publication
+- slug: data-documentation-for-reuse
+  title: Data Documentation for Reuse
+  summary: Datasets, analysis code and metadata are documented, archived for their retention period and made findable, so that results
+    can be reproduced and the data reused under the access rules.
+  capabilities:
+  - data-lifecycle-management
+  - research-data-integration-centre
+  - record-retention-and-archiving
+  - information-content-management
+  entities:
+  - dataset
+  - data-product
+  - data-use-agreement
+  serves:
+  - research-data-portal
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-527
+  edition: '2015'
+  jurisdiction: global
+- source: src-528
+  edition: '2007'
+  jurisdiction: global

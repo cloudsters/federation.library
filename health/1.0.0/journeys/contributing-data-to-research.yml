@@ -1,0 +1,27 @@
+kind: journey
+slug: contributing-data-to-research
+title: Contributing Data to Research
+stakeholder: research-participant
+summary: 'The participant''s side of data-driven research: agreeing to the use of their data, contributing it and learning what it
+  showed.'
+stages:
+- slug: agreeing-to-data-use
+  title: Agreeing to Data Use
+  goal: Understand how one's data will be used and protected, and agree or object on that basis.
+  step: observational-and-data-driven-research/approvals-and-data-access
+  touchpoints:
+  - consent-form
+  - patient-portal
+- slug: contributing-data
+  title: Contributing Data
+  goal: Contribute visits and questionnaires with little burden, knowing why each is asked for.
+  step: observational-and-data-driven-research/data-acquisition
+  touchpoints:
+  - study-visit
+  - patient-portal
+- slug: seeing-what-it-showed
+  title: Seeing What It Showed
+  goal: Learn in plain language what the research using one's data has found.
+  step: observational-and-data-driven-research/publication-and-use-of-results
+  touchpoints:
+  - public-website

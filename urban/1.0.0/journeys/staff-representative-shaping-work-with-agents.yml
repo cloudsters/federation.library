@@ -1,0 +1,39 @@
+kind: journey
+slug: staff-representative-shaping-work-with-agents
+title: Staff Representative Shaping Work with Agents
+stakeholder: staff-representative
+summary: A staff representative is consulted on the division of work between staff and an agent, agrees its limits, checks the routes
+  of override, audits with workers how systems allocate work and takes part in deciding whether the agent's mandate continues.
+stages:
+- slug: be-consulted-on-the-division
+  title: Be Consulted on the Division
+  goal: The representative is consulted on which tasks the agent takes and what stays with staff before the mandate is written.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - task-division-workshop
+- slug: agree-the-limits
+  title: Agree the Limits
+  goal: An agreement with staff sets the agent's limits and protects staff from being judged by it alone.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - staff-agreement-signing
+- slug: check-the-routes-of-override
+  title: Check the Routes of Override
+  goal: Staff can override the agent and escalate to a person, and no one is blamed for doing so.
+  step: human-agent-teaming/oversight-and-escalation
+  touchpoints:
+  - override-and-escalation-route
+- slug: audit-the-allocation-with-workers
+  title: Audit the Allocation with Workers
+  goal: Staff and contracted workers have examined how systems allocate work, and the service has answered in writing and changed
+    what is unfair.
+  step: human-agent-teaming/worker-audit-of-work-allocation
+  touchpoints:
+  - work-allocation-audit-circle
+  - allocation-audit-answer
+- slug: decide-whether-the-mandate-continues
+  title: Decide Whether the Mandate Continues
+  goal: The representative's view on workload and fairness is weighed when the agent's mandate is renewed, changed or ended.
+  step: human-agent-teaming/joint-performance-review
+  touchpoints:
+  - joint-teaming-review

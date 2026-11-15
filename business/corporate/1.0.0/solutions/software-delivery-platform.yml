@@ -1,0 +1,17 @@
+kind: solution
+slug: software-delivery-platform
+title: Software Delivery Platform
+role: platform
+summary: Supports building, testing and releasing the organisation's own software, with source control, pipelines, environments and
+  the records of what was deployed where.
+carries:
+- solution-build-and-test
+- continuous-delivery-practice
+- deployment-strategy-design
+- solution-go-live
+- solution-maintenance
+- platform-engineering-practice
+- release-orchestration
+- solution-design-development
+- solution-rollout
+holds: []

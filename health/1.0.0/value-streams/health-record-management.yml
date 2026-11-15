@@ -1,0 +1,157 @@
+kind: value-stream
+slug: health-record-management
+title: Health Record Management
+family: demand-to-fulfillment
+summary: 'Keeping the patient''s health record complete, available and lawful: documentation standards, completion and signing, scanning,
+  archiving, retention and release of information to authorised parties.'
+trigger: A patient episode ends, or an authorised party requests information from the record.
+outcome: The record is complete, signed and archived, and requested information is released lawfully.
+stakeholders:
+- person-with-chronic-condition
+- elective-inpatient
+- relative
+- specialist-physician
+- registered-nurse
+- administrative-staff
+- health-informatics-specialist
+- referring-practice
+- payer
+- documentation-agent
+steps:
+- slug: documentation-standards
+  title: Documentation Standards
+  summary: What must be documented, by whom, when and in which form is set for each profession and setting, coded with shared terminologies
+    and built into the templates and forms of the clinical system.
+  capabilities:
+  - health-record-management
+  - information-content-management
+  - clinical-system-configuration
+  - terminology-services
+  entities:
+  - policy
+  - code-system
+  - health-record
+  serves:
+  - clinical-workstation
+- slug: capture-during-care
+  title: Capture during Care
+  summary: Care professionals document findings, decisions, orders and care at the point of care, device data flow in without transcription,
+    drafts are generated from conversation where validated, and paper documents are scanned in.
+  capabilities:
+  - clinical-documentation-at-point-of-care
+  - nursing-documentation
+  - ambient-clinical-documentation
+  - medical-device-integration
+  - document-digitisation
+  entities:
+  - clinical-document
+  - observation
+  - health-record
+  serves:
+  - clinical-workstation
+  - patient-held-health-record
+  - patient-portal
+- slug: completion-and-signing
+  title: Completion and Signing
+  summary: At the end of the episode open documents are completed and signed, gaps are queried with the author, and the record is
+    checked for completeness and specificity before it is closed.
+  capabilities:
+  - health-record-management
+  - clinical-documentation-integrity
+  - data-quality-management
+  entities:
+  - health-record
+  - clinical-document
+  - discharge-summary
+  - episode-of-care
+  serves:
+  - clinical-workstation
+- slug: archiving
+  title: Archiving
+  summary: The closed record is archived in a durable and legally valid form, indexed for retrieval and protected against alteration
+    and loss.
+  capabilities:
+  - record-retention-and-archiving
+  - data-lifecycle-management
+  - technology-resilience-operations
+  - data-security-architecture
+  entities:
+  - health-record
+  - clinical-document
+  serves:
+  - medical-records-office
+- slug: request-validation
+  title: Request Validation
+  summary: Requests for information from patients, representatives, providers, payers, courts and authorities are checked for identity,
+    entitlement, consent or legal basis, objection and scope.
+  capabilities:
+  - health-information-release
+  - data-subject-rights-fulfilment
+  - patient-rights-stewardship
+  - legal-advisory
+  entities:
+  - care-information-request
+  - mandate-to-export-personal-information
+  - authorization-by-law
+  - proxy-mandate
+  - objection
+  serves:
+  - claim
+  - medical-records-office
+  - patient-portal
+- slug: release-and-logging
+  title: Release and Logging
+  summary: The information requested is compiled and released through a secure channel or the patient portal, and every release and
+    every access to the record is logged and open to audit.
+  capabilities:
+  - health-information-release
+  - secure-clinical-messaging
+  - patient-portal
+  - shared-health-record-integration
+  - identity-access-management
+  entities:
+  - care-information-request
+  - patient-summary
+  - access-grant
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - medical-records-office
+  - patient-portal
+  - record-copy
+- slug: retention-end-and-disposal
+  title: Retention End and Disposal
+  summary: When the retention period ends, records are checked for reasons to keep them longer, such as research or litigation, and
+    are otherwise destroyed lawfully with documentation.
+  capabilities:
+  - record-retention-and-archiving
+  - data-lifecycle-management
+  - data-protection-governance
+  entities:
+  - health-record
+  - data-processing-record
+  - policy
+  serves:
+  - medical-records-office
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-017
+  edition: '2019'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-333
+  edition: '2025'
+  jurisdiction: global
+- source: src-378
+  edition: '2021'
+  jurisdiction: global

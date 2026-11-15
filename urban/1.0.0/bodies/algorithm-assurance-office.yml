@@ -1,0 +1,18 @@
+kind: body
+slug: algorithm-assurance-office
+title: Algorithm Assurance Office
+summary: Keeps the register of the city's automated systems, coordinates impact and bias assessment with the departments, the data
+  protection office and the communities affected, monitors systems in use, handles challenges to automated decisions and prepares
+  the work of the automated systems review panel.
+holds:
+- algorithm-assurance
+- automated-system-use-registration
+- algorithmic-impact-assessment
+- bias-and-fairness-testing
+- automated-system-performance-monitoring
+- automated-decision-challenge-handling
+- automated-decision-oversight
+- mandate-accountability-recording
+part_of: full-council
+type: function
+form: organisational-unit

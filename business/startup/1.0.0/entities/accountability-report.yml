@@ -1,0 +1,45 @@
+kind: entity
+slug: accountability-report
+title: Accountability Report
+type: intelligence
+summary: A report by which the enterprise accounts for its performance to its owners, governance bodies or the public, such as the
+  annual report or a periodic owner report, composed of financial, market, operational, workforce, sustainability and risk results.
+attributes:
+- name: report-kind
+  type: code
+  card: 1..1
+- name: addressee
+  type: reference(board-of-directors)
+  card: 0..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: financial-statement
+  type: reference(financial-statement)
+  card: 0..1
+- name: measure-reports
+  type: reference(measure-report)
+  card: 0..*
+- name: risks
+  type: reference(risk)
+  card: 0..*
+- name: content
+  type: document
+  card: 1..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- in-preparation
+- approved
+- submitted
+- published
+relations:
+- type: composed-of
+  target: financial-statement
+- type: composed-of
+  target: measure-report
+- type: composed-of
+  target: sustainability-report
+- type: based-on
+  target: governance-decision

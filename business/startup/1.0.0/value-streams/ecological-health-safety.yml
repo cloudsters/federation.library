@@ -1,0 +1,135 @@
+kind: value-stream
+slug: ecological-health-safety
+title: Ecological Health & Safety
+family: collaboration-to-automation
+summary: 'Protecting people at work and the natural environment around the organisation''s activities: hazards and impacts are assessed
+  and controlled, staff are instructed and cared for, emergencies are prepared for, and incidents and emissions are monitored and
+  acted on.'
+trigger: A hazard or environmental assessment falls due, a new activity is introduced, or an accident or environmental incident occurs.
+outcome: Hazards and environmental impacts are controlled, people are trained and protected, and incidents are investigated and acted
+  on.
+stakeholders:
+- site-manager
+- employee
+- production-operator
+- occupational-safety-authority
+- environmental-authority
+- natural-environment
+steps:
+- slug: hazard-and-impact-assessment
+  title: Hazard and Impact Assessment
+  summary: Workplace hazards, hazardous substances, fire risks and the environmental impact of products, services and operations are
+    assessed, and the legal and stakeholder requirements that apply are identified.
+  capabilities:
+  - health-safety-as-care
+  - environmental-stewardship-design
+  - hazardous-substance-safety
+  - fire-safety
+  entities:
+  - risk
+  - compliance-rule
+  - facility
+  - environmental-footprint
+  serves:
+  - environmental-permit
+  - risk-assessment
+  - shop-floor
+- slug: health-safety-and-environment-programme
+  title: Health, Safety and Environment Programme
+  summary: Policy, objectives and controls are set for every significant hazard and impact, with protective measures, permits, pollution
+    prevention and waste avoidance at source.
+  capabilities:
+  - health-safety-as-care
+  - environmental-stewardship-design
+  - emissions-and-pollution-control
+  - waste-prevention-and-reuse
+  entities:
+  - policy
+  - objective
+  - permit
+  - ecological-parameter
+  serves:
+  - environmental-permit
+- slug: instruction-and-occupational-health
+  title: Instruction and Occupational Health
+  summary: Staff are instructed in safe work for their workplace and tasks, and occupational health checks, vaccinations and the management
+    of exposures are provided.
+  capabilities:
+  - safety-training
+  - occupational-health-service
+  - hazardous-substance-safety
+  entities:
+  - course
+  - course-registration
+  - credential
+  - employee-record
+  serves:
+  - occupational-health-check
+  - safety-instruction
+- slug: work-and-contractor-control
+  title: Work and Contractor Control
+  summary: Hazardous work is released by permit, contractors are qualified, inducted and supervised on site, and every person may
+    stop work that endangers people or the environment.
+  capabilities:
+  - contractor-safety-management
+  - health-safety-as-care
+  entities:
+  - supplier-organisation
+  - credential
+  - approval
+  - facility
+  serves:
+  - contractor-induction
+  - shop-floor
+  - work-permit
+- slug: emergency-preparedness
+  title: Emergency Preparedness
+  summary: The response to fires, spills, natural disasters and other emergencies is planned and exercised at every site, with evacuation
+    routes, alarms and responders kept ready.
+  capabilities:
+  - emergency-and-disaster-preparedness
+  - fire-safety
+  entities:
+  - continuity-plan
+  - facility
+  - plan
+  serves:
+  - emergency-drill
+- slug: incident-and-near-miss-reporting
+  title: Incident and Near-Miss Reporting
+  summary: Accidents, near misses and environmental incidents are reported without blame, investigated for their causes, notified
+    to the authorities where required and answered with corrective measures.
+  capabilities:
+  - incident-reporting-and-learning
+  - health-safety-as-care
+  entities:
+  - incident
+  - regulatory-notification
+  - remediation-plan
+  serves:
+  - incident-report
+  - shop-floor-meeting
+  - statutory-filing
+- slug: monitoring-audit-and-reporting
+  title: Monitoring, Audit and Reporting
+  summary: Accidents, exposures, emissions and waste are measured, sites are audited, and performance and lessons are reported to
+    management, authorities and other units.
+  capabilities:
+  - ehs-performance-sensing
+  - emissions-and-pollution-control
+  - incident-reporting-and-learning
+  entities:
+  - environmental-footprint
+  - measure-report
+  - audit
+  - statutory-report
+  serves:
+  - environmental-monitoring-record
+  - official-inspection
+binds:
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global
+- source: src-089
+  edition: '2026'
+  jurisdiction: global

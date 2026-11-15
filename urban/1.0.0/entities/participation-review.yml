@@ -1,0 +1,63 @@
+kind: entity
+slug: participation-review
+title: Participation Review
+type: intelligence
+summary: The review of who took part and who did not, the burden participation placed on people, why they left and whether their input
+  changed outcomes, with the changes agreed. Residents and the administration carry it out together, for involvement processes and
+  for the city's volunteering offer, and the participation charter and later involvement plans are adjusted from it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: processes-reviewed
+  type: reference(involvement-plan)
+  card: 0..*
+- name: participation-by-group
+  type: text
+  card: 1..*
+- name: absent-groups
+  type: text
+  card: 0..*
+- name: time-asked-of-participants
+  type: quantity
+  card: 0..1
+- name: reasons-for-leaving
+  type: text
+  card: 0..*
+- name: outcomes-changed
+  type: text
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: agreed-changes
+  type: text
+  card: 0..*
+- name: charter-amendment
+  type: reference(council-decision)
+  card: 0..1
+states:
+- scheduled
+- gathering
+- reviewed
+- changes-agreed
+- published
+- closed
+relations:
+- type: refers-to
+  target: participation-charter
+- type: based-on
+  target: involvement-plan
+- type: based-on
+  target: participation-feedback-report
+- type: refers-to
+  target: volunteer-record
+- type: produces
+  target: lesson-record
+binds:
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global

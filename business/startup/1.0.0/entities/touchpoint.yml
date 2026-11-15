@@ -1,0 +1,33 @@
+kind: entity
+slug: touchpoint
+title: Touchpoint
+type: governance
+summary: A moment of truth — the specific interaction point where a stakeholder and the system meet, exchange value, and form impressions.
+  Touchpoints are where governance becomes tangible and where trust is either built or broken.
+attributes:
+- name: channel
+  type: reference(channel)
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: interaction
+  type: text
+  card: 1..1
+- name: exchanged-value
+  type: text
+  card: 0..1
+- name: instrumentation
+  type: text
+  card: 0..1
+states:
+- identified
+- designed
+- instrumented
+- sensed
+- optimised
+relations:
+- type: part-of
+  target: journey
+- type: refers-to
+  target: channel

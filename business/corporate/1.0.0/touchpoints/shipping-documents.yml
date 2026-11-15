@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: shipping-documents
+title: Shipping Documents
+medium: artefact
+summary: The commercial, transport and origin documents that accompany a cross-border shipment, prepared, checked and kept for inspection.
+exchanges:
+- complete-documents-for-onward-carriage
+journey: customs-broker-clearing-for-the-company

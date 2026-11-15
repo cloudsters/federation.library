@@ -1,0 +1,43 @@
+kind: entity
+slug: competency
+title: Competency
+type: master
+summary: A defined, observable ability of a health professional that integrates knowledge, skills and attitudes, such as breaking
+  bad news or managing an airway, described with levels from novice to expert.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: competency-domain
+  type: code
+  card: 1..1
+- name: level-descriptors
+  type: text
+  card: 1..*
+- name: professions
+  type: code
+  card: 1..*
+- name: framework-element
+  type: identifier
+  card: 0..1
+states:
+- draft
+- approved
+- withdrawn
+relations: []
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-071
+  edition: '2005'
+  jurisdiction: global
+- source: src-413
+  edition: '1.1'
+  jurisdiction: global
+- source: src-433
+  edition: '2012'
+  jurisdiction: global

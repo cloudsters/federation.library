@@ -1,0 +1,6 @@
+kind: capability
+slug: automated-system-performance-monitoring
+title: Automated System Performance Monitoring
+level: L3
+parent: algorithm-assurance
+summary: Monitor an automated system's results for error, bias and drift and report them at an agreed rhythm.

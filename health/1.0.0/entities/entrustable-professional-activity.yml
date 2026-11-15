@@ -1,0 +1,39 @@
+kind: entity
+slug: entrustable-professional-activity
+title: Entrustable Professional Activity
+type: master
+summary: A unit of professional work, such as admitting a patient or performing a procedure, that a trainee may be entrusted to perform
+  without supervision once the required competencies are demonstrated.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: required-competencies
+  type: reference(competency)
+  card: 1..*
+- name: supervision-levels
+  type: code
+  card: 1..*
+- name: expected-stage
+  type: code
+  card: 0..1
+states:
+- draft
+- approved
+- withdrawn
+relations:
+- type: depends-on
+  target: competency
+binds:
+- source: src-071
+  edition: '2005'
+  jurisdiction: global
+- source: src-433
+  edition: '2012'
+  jurisdiction: global

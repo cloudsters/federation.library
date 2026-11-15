@@ -1,0 +1,64 @@
+kind: journey
+slug: city-administration-bringing-a-new-service-into-use
+title: City Administration Bringing a New Service into Use
+stakeholder: city-administration
+summary: A department takes up a need that no service meets, shapes the concept with those who will use and deliver it, makes the
+  case for a trial, runs the trial in one neighbourhood, prepares staff, places and information, opens the service and reviews it
+  against what it promised.
+stages:
+- slug: take-up-the-need
+  title: Take Up the Need
+  goal: The need is described with those who have it, the services and community assets that already touch it are known, and a service
+    proposal is recorded and answered.
+  step: public-service-design/need-identification
+  touchpoints:
+  - service-need-intake
+  - need-and-asset-conversation
+- slug: shape-the-concept-with-users-and-staff
+  title: Shape the Concept with Users and Staff
+  goal: Residents, frontline staff and the department have agreed whom the service serves, what it offers, through which channels
+    and places, and how a person reaches a human.
+  step: public-service-design/service-concept-co-design
+  touchpoints:
+  - service-co-design-session
+  - resident-journey-walk-through
+- slug: make-the-case
+  title: Make the Case
+  goal: The whole-life cost, the staff and buildings needed and who gains and who is left out are set out, and the council or its
+    committee has decided whether to trial the service.
+  step: public-service-design/service-case-and-approval
+  touchpoints:
+  - service-case-paper
+  - service-trial-decision-hearing
+- slug: run-a-bounded-trial
+  title: Run a Bounded Trial
+  goal: The service has run in one neighbourhood for a set time, what worked, what failed and who did not come is recorded, and the
+    decision to launch, change or stop is taken.
+  step: public-service-design/service-trial
+  touchpoints:
+  - neighbourhood-service-trial
+  - trial-feedback-diary
+- slug: get-ready-to-launch
+  title: Get Ready to Launch
+  goal: Staff are prepared, buildings, channels and information are ready in the languages residents use, the service standard is
+    set and the service is in the directory.
+  step: public-service-design/launch-readiness
+  touchpoints:
+  - staff-readiness-briefing
+  - city-service-directory
+- slug: open-and-fix-early-faults
+  title: Open and Fix Early Faults
+  goal: The residents the service is for have heard of it through channels and places they trust, and the faults of the first weeks
+    are found and fixed.
+  step: public-service-design/service-launch
+  touchpoints:
+  - launch-notice-in-trusted-places
+  - early-fault-huddle
+- slug: review-against-the-promise
+  title: Review Against the Promise
+  goal: The service is reviewed with its users and staff at the fixed time, and it is kept, changed or closed, with a route for residents
+    who still need it.
+  step: public-service-design/service-use-and-value-review
+  touchpoints:
+  - service-review-forum
+  - published-service-review

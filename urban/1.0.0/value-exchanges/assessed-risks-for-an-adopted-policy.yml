@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: assessed-risks-for-an-adopted-policy
+title: Assessed Risks for an Adopted Policy
+between:
+- information-technology-specialist
+- city-council
+offered:
+- The assessed digital risks and a proposed security policy.
+returned:
+- A policy adopted within the council's risk appetite, and funds for the treatments it requires.
+touchpoint: security-risk-workshop

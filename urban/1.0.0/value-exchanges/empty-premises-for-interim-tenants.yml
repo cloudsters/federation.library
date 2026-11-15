@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: empty-premises-for-interim-tenants
+title: Empty Premises for Interim Tenants
+between:
+- landowner
+- local-business
+offered:
+- Empty shops at low rent for a stated time.
+returned:
+- Premises kept in use and cared for, and life on the street.
+touchpoint: empty-shop-interim-use-call

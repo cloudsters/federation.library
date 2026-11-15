@@ -1,0 +1,48 @@
+kind: journey
+slug: neighbouring-municipality-buying-together
+title: Neighbouring Municipality Buying Together
+stakeholder: neighbouring-municipality
+summary: A neighbouring municipality names the purchases it shares with the city, agrees in writing how joint buying works, joins
+  the shared procurement service, takes part in a joint tender, orders under the shared framework and reviews each year what buying
+  together saved.
+stages:
+- slug: name-the-shared-needs
+  title: Name the Shared Needs
+  goal: The purchases where buying together improves price, terms or local supply are named.
+  step: joint-purchasing-and-purchasing-alliances/shared-demand-identification
+  touchpoints:
+  - purchasing-partners-meeting
+- slug: agree-how-to-buy-together
+  title: Agree How to Buy Together
+  goal: The written agreement on who runs each tender, how decisions, volumes, costs and savings are shared and how a party leaves
+    is approved by each council.
+  step: joint-purchasing-and-purchasing-alliances/joint-purchasing-agreement
+  touchpoints:
+  - joint-purchasing-agreement-negotiation
+- slug: join-the-shared-service
+  title: Join the Shared Service
+  goal: The municipality has a delegate on the board of the shared procurement service and pays a contribution it can afford.
+  step: joint-purchasing-and-purchasing-alliances/shared-procurement-service
+  touchpoints:
+  - shared-procurement-board-meeting
+- slug: take-part-in-the-joint-tender
+  title: Take Part in the Joint Tender
+  goal: The joint tender runs on agreed criteria with lots local suppliers can win, and a framework agreement every member can use
+    is awarded.
+  step: joint-purchasing-and-purchasing-alliances/joint-tender-and-framework-award
+  touchpoints:
+  - tender-portal
+  - bid-evaluation-meeting
+- slug: order-under-the-framework
+  title: Order Under the Framework
+  goal: The municipality orders as it needs within the agreed volume bands.
+  step: joint-purchasing-and-purchasing-alliances/member-call-off
+  touchpoints:
+  - call-off-order
+- slug: review-what-it-saved
+  title: Review What It Saved
+  goal: Savings and costs are shared by the agreed rule, and what smaller members and local suppliers gained or lost is known.
+  step: joint-purchasing-and-purchasing-alliances/savings-sharing-and-alliance-review
+  touchpoints:
+  - shared-procurement-board-meeting
+  - published-alliance-review

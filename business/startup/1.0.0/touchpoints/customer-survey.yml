@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: customer-survey
+title: Customer Survey
+medium: artefact
+summary: The short questionnaire put to customers at defined points in the relationship, asking about satisfaction, ease and whether
+  they would recommend.
+exchanges:
+- candid-feedback-for-visible-change
+- research-participation-for-fitting-offers
+- fair-review-for-candid-account
+journey: consumer-giving-feedback-and-seeing-it-count

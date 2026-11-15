@@ -1,0 +1,53 @@
+kind: entity
+slug: competency-standard
+title: Competency Standard
+type: governance
+summary: The standard set by practitioners for a trade or role, stating what must be learned, how competence is shown and how apprentices
+  progress. A council of experienced practitioners sets and reviews it, and it is used to admit, review and credential apprentices
+  and to recognise the skills of others.
+attributes:
+- name: trade
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: learning-outcomes
+  type: text
+  card: 1..*
+- name: stages
+  type: text
+  card: 1..*
+- name: evidence-of-competence
+  type: text
+  card: 1..*
+- name: rotation-rule
+  type: text
+  card: 0..1
+- name: wage-ladder
+  type: text
+  card: 0..1
+- name: set-by
+  type: text
+  card: 1..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- revised
+- retired
+relations:
+- type: governed-by
+  target: apprenticeship-pool
+- type: produces
+  target: skill-recognition
+- type: refers-to
+  target: apprenticeship
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

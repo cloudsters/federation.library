@@ -1,0 +1,6 @@
+kind: capability
+slug: interaction-and-dose-checking
+title: Interaction & Dose Checking
+level: L3
+parent: medication-use-process
+summary: Check prescriptions for interactions, contraindications and dose errors before they reach the patient.

@@ -1,0 +1,60 @@
+kind: journey
+slug: executive-board-renewing-the-strategy
+title: Executive Board Renewing the Strategy
+stakeholder: executive-board
+summary: The executive board opens a strategy cycle, reads the ground and its own capacities, chooses one long-horizon strategy, shapes
+  the organisation that carries it and tells it in terms everyone can act on.
+stages:
+- slug: open-the-cycle
+  title: Open the Cycle
+  goal: The mission, mandate, horizon, participants and calendar of the review are confirmed and known to all who take part.
+  step: strategy-as-living-design/strategy-cycle-opening
+  touchpoints:
+  - board-meeting
+  - strategy-retreat
+- slug: read-the-ground
+  title: Read the Ground
+  goal: Markets, technology, regulation, ecological limits and the organisation's own strengths and gaps are on one table with their
+    evidence.
+  step: strategy-as-living-design/environment-and-capability-assessment
+  touchpoints:
+  - strategy-retreat
+  - strategic-assessment
+- slug: test-the-options
+  title: Test the Options
+  goal: Each strategic option has been tested against alternative futures, the mission, capacity, finances and risk.
+  step: strategy-as-living-design/option-design-and-testing
+  touchpoints:
+  - strategy-retreat
+  - strategic-assessment
+- slug: choose-and-adopt
+  title: Choose and Adopt
+  goal: One strategy is chosen with its resource rules and decision speeds, and the bodies that must approve it have done so.
+  step: strategy-as-living-design/strategy-choice-and-adoption
+  touchpoints:
+  - board-meeting
+  - supervisory-board-meeting
+  - strategy-document
+- slug: shape-the-organisation
+  title: Shape the Organisation
+  goal: The structure and operating model the strategy needs are designed, and those affected have been consulted.
+  step: strategy-as-living-design/target-organisation-design
+  touchpoints:
+  - board-meeting
+  - works-council-meeting
+- slug: cascade-the-objectives
+  title: Cascade the Objectives
+  goal: Every unit holds measurable objectives with owners and a unit strategy that fits the whole.
+  step: strategy-as-living-design/objective-cascade
+  touchpoints:
+  - objective-agreement
+  - strategy-document
+- slug: tell-the-strategy
+  title: Tell the Strategy
+  goal: Staff, owners, partners and the public have heard the strategy as one narrative, and their responses are collected for the
+    next review.
+  step: strategy-as-living-design/strategy-communication
+  touchpoints:
+  - staff-assembly
+  - intranet
+  - annual-report

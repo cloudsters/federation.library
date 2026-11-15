@@ -1,0 +1,10 @@
+kind: capability
+slug: knowledge-strategy-design
+title: Knowledge Strategy Design
+level: L3
+parent: knowledge-management
+summary: Decide which knowledge the organisation must capture, share and develop, and assess how well it does so.
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

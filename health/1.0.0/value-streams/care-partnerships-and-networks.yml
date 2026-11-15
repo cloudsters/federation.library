@@ -1,0 +1,181 @@
+kind: value-stream
+slug: care-partnerships-and-networks
+title: Care Partnerships and Networks
+family: interest-to-relationship
+summary: 'Forming and maintaining relationships with partner providers and care networks: cooperation agreements with hospitals, practices,
+  rehabilitation and nursing providers, and membership in trauma, stroke, cancer and other networks.'
+trigger: A cooperation is proposed, a network invites participation, or a partnership review falls due.
+outcome: An agreed cooperation or network membership is in force, operated as agreed and reviewed for its value.
+stakeholders:
+- referring-hospital
+- referring-practice
+- follow-on-care-provider
+- emergency-medical-service
+- certification-body
+- health-planning-authority
+- executive
+- head-of-clinical-department
+- case-manager
+steps:
+- slug: partnership-opportunity-assessment
+  title: Partnership Opportunity Assessment
+  summary: A proposed cooperation or network invitation is assessed against the care mandate, the population's needs, patient flows,
+    the partner's quality and capacity, the obligations it brings and the legal limits on cooperation between providers.
+  capabilities:
+  - alliance-and-merger-assessment
+  - population-needs-assessment
+  - demand-and-market-analysis
+  - service-region-design
+  - regional-care-planning-participation
+  - legal-advisory
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - organisation
+  - care-network
+  - catchment-population
+  - service-mandate
+  - referral-relationship
+  - governance-decision
+  serves:
+  - cooperation-negotiation
+- slug: cooperation-design
+  title: Cooperation Design
+  summary: The partners define the patient groups and services covered, shared pathways, transfer and return rules, responsibility
+    at each handover, information exchange, quality commitments and any payments between them.
+  capabilities:
+  - network-partnership-governance
+  - clinical-pathway-design
+  - care-transition-coordination
+  - rehabilitation-provider-coordination
+  - integration-strategy
+  - tariff-and-price-management
+  entities:
+  - care-network
+  - care-service
+  - care-pathway
+  - interface
+  - price-list
+  serves:
+  - cooperation-negotiation
+  - network-steering-meeting
+- slug: agreement-and-network-admission
+  title: Agreement and Network Admission
+  summary: The cooperation agreement is negotiated, approved under the delegation rules and signed; for a network, membership is applied
+    for and its requirements are evidenced, including certification audits where the network demands them.
+  capabilities:
+  - contract-lifecycle-stewardship
+  - delegation-of-authority
+  - data-protection-governance
+  - centre-certification
+  - trauma-network-participation
+  entities:
+  - contract
+  - network-membership
+  - governance-decision
+  - accreditation
+  - data-processing-record
+  serves:
+  - board-meeting
+  - cooperation-agreement
+  - cooperation-negotiation
+  - inspection-and-audit
+- slug: cooperation-set-up
+  title: Cooperation Set-Up
+  summary: Contacts, on-call routes, teleconsultation and image-sharing links, transfer procedures and electronic messaging are put
+    in place, the shared pathways are embedded in the units concerned and staff on both sides are briefed.
+  capabilities:
+  - secure-clinical-messaging
+  - specialist-teleconsultation
+  - teleradiology
+  - integration-platform-operation
+  - clinical-pathway-application
+  - external-professional-education
+  - training-delivery
+  entities:
+  - interface
+  - care-pathway
+  - referral-relationship
+  - practitioner-role
+  - policy
+  serves:
+  - clinical-messaging-service
+  - referrer-education-event
+  - telemedicine-service
+- slug: joint-care-operation
+  title: Joint Care Operation
+  summary: 'Patients move under the agreement: partners consult by teleconsultation, transfer patients who need the commons'' level
+    of care, join case conferences, and take patients back for further care, rehabilitation or nursing close to home.'
+  capabilities:
+  - specialist-teleconsultation
+  - interhospital-transfer
+  - emergency-network-coordination
+  - time-critical-pathway-activation
+  - multidisciplinary-tumour-board
+  - rare-disease-care
+  - rehabilitation-provider-coordination
+  - social-care-coordination
+  entities:
+  - referral
+  - teleconsultation
+  - care-transition
+  - case-conference
+  - care-communication
+  serves:
+  - discharge-letter
+  - discharge-planning-meeting
+  - medication-plan
+  - multidisciplinary-case-conference
+  - referrer-direct-line
+  - telemedicine-service
+- slug: network-quality-reporting
+  title: Network Quality Reporting
+  summary: The commons supplies the data that the agreement and the network require, contributes to network registries and audits,
+    and receives a comparison of its results with those of the other members.
+  capabilities:
+  - clinical-registry-participation
+  - quality-indicator-governance
+  - clinical-outcome-tracking
+  - outcome-benchmarking
+  - centre-certification
+  entities:
+  - measure-report
+  - clinical-registry
+  - benchmark
+  - audit
+  - audit-finding
+  serves:
+  - inspection-and-audit
+  - network-steering-meeting
+  - public-quality-report
+- slug: partnership-value-review
+  title: Partnership Value Review
+  summary: 'Each cooperation and membership is reviewed periodically for what it delivered to patients and to each partner: volumes,
+    transfer times, quality results, cost and obligations met. It is then continued, changed or ended in an orderly way.'
+  capabilities:
+  - network-partnership-governance
+  - performance-benchmarking
+  - service-line-profitability
+  - impact-measurement-design
+  - contract-lifecycle-stewardship
+  entities:
+  - relationship-review
+  - contract
+  - network-membership
+  - measure-report
+  - governance-decision
+  serves:
+  - cooperation-agreement
+  - partnership-review-meeting
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

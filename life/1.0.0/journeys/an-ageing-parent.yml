@@ -1,0 +1,34 @@
+kind: journey
+slug: an-ageing-parent
+title: An Ageing Parent
+stakeholder: parent
+via: participant-to-community
+summary: A parent growing older finds the old family terms raised calmly by their grown child, is asked how they look from their own
+  seat, and lives with terms that fit the family as it now is.
+stages:
+- slug: meet-the-old-rule
+  title: Meet the Old Rule
+  goal: The tension between the old unspoken rule and the parent's new needs has been noticed rather than buried.
+  step: kinship-to-agreement/feeling-the-old-rule
+  touchpoints:
+  - visiting-an-ageing-parent
+  - family-gathering
+- slug: be-asked-at-the-table
+  title: Be Asked at the Table
+  goal: The parent has been part of a calm talk about the family's terms and has said how they look from their seat.
+  step: kinship-to-agreement/talking-it-through
+  touchpoints:
+  - kitchen-table
+  - hard-conversation
+- slug: know-what-changes
+  title: Know What Changes
+  goal: The parent knows which terms stay, which change, and which their child will no longer carry.
+  step: kinship-to-agreement/keeping-changing-setting-down
+  touchpoints:
+  - kitchen-table
+- slug: live-the-new-terms
+  title: Live the New Terms
+  goal: The new terms hold at the next holiday or crisis, and are looked at again as roles shift with age.
+  step: kinship-to-agreement/living-the-new-terms
+  touchpoints:
+  - family-gathering

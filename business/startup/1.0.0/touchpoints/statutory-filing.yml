@@ -1,0 +1,18 @@
+kind: touchpoint
+slug: statutory-filing
+title: Statutory Filing
+medium: artefact
+summary: A report, return or notification the company must file with an authority or register, such as tax returns, register entries,
+  emission reports or incident notifications.
+exchanges:
+- accountable-processing-for-supervisory-trust
+- conformance-for-licence
+- correct-returns-for-legal-certainty
+- evidence-for-closed-obligations
+- filed-accounts-for-a-public-record
+- notification-for-fair-oversight
+- prompt-notice-for-proportionate-enforcement
+- structured-filings-for-simpler-compliance
+- timely-notification-for-coordinated-oversight
+- withheld-taxes-for-compliance-certainty
+journey: mandate-cycle

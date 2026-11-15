@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: supplier-audit
+title: Supplier Audit
+medium: encounter
+summary: The audit at a supplier's site in which the company, or its customer at the company's site, assesses processes, quality,
+  capacity and working conditions against agreed requirements.
+exchanges:
+- clear-requirements-for-conforming-supply
+- disclosed-conduct-for-approved-status
+- supplier-candour-for-a-steady-relationship
+journey: risk-professional-running-the-risk-cycle

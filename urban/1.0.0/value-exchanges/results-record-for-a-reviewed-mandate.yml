@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: results-record-for-a-reviewed-mandate
+title: Results Record for a Reviewed Mandate
+between:
+- municipal-ai-agent
+- city-administration
+offered:
+- A record of its results, its errors and the challenges raised against it.
+returned:
+- The mandate continued, adjusted or ended on that record.
+touchpoint: agent-review-session

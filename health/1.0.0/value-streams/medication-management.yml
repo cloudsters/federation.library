@@ -1,0 +1,159 @@
+kind: value-stream
+slug: medication-management
+title: Medication Management
+family: demand-to-fulfillment
+summary: 'Getting the right medicine to the right patient: medication history and reconciliation, prescribing with interaction and
+  dose checks, pharmaceutical review, preparation including compounding, dispensing, administration and monitoring.'
+trigger: A patient's medication must be started, changed or reviewed.
+outcome: The patient has received the intended medicine in the right dose, form and time, and its effect is monitored.
+stakeholders:
+- person-with-chronic-condition
+- older-person-with-frailty
+- elective-inpatient
+- informal-carer
+- specialist-physician
+- physician-in-specialty-training
+- clinical-pharmacist
+- registered-nurse
+- referring-practice
+- clinical-decision-support-agent
+- supplier
+- paediatric-patient
+steps:
+- slug: medication-history-and-reconciliation
+  title: Medication History and Reconciliation
+  summary: At admission or transfer, the medicines the patient actually takes are established from patient, carers, practice and shared
+    record, and reconciled with what is prescribed so that omissions and duplications are resolved.
+  capabilities:
+  - medication-reconciliation
+  - clinical-history-taking
+  - shared-health-record-integration
+  - clinical-pharmacist-review
+  entities:
+  - medication-reconciliation
+  - medication
+  - allergy-or-intolerance
+  - patient-summary
+  serves:
+  - medication-plan
+  - medication-review
+  - patient-held-health-record
+- slug: prescribing
+  title: Prescribing
+  summary: The prescriber selects medicine, dose, route and duration electronically within the formulary, adjusted for kidney and
+    liver function, age and weight, and states the indication.
+  capabilities:
+  - medication-prescribing
+  - formulary-management
+  - clinical-order-entry
+  - antimicrobial-stewardship
+  - controlled-substance-management
+  entities:
+  - medication-order
+  - medication
+  - formulary
+  - observation
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+  - medication-chart
+  - ward-round
+- slug: safety-checks-and-pharmaceutical-review
+  title: Safety Checks and Pharmaceutical Review
+  summary: Decision support checks every prescription for interactions, allergies, contraindications and dose errors, and a pharmacist
+    reviews high-risk patients and medicines, with drug levels where needed, and advises the prescriber.
+  capabilities:
+  - interaction-and-dose-checking
+  - clinical-pharmacist-review
+  - therapeutic-drug-monitoring
+  - antimicrobial-stewardship
+  - medication-safety-programme
+  - ai-assistant-integration
+  entities:
+  - medication-order
+  - allergy-or-intolerance
+  - observation
+  - clinical-alert
+  - care-communication
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+  - medication-chart
+  - medication-review
+- slug: preparation-and-compounding
+  title: Preparation and Compounding
+  summary: Patient-specific medicines, parenteral nutrition and cytotoxic preparations are planned, compounded under protected conditions,
+    tested and released with batch records.
+  capabilities:
+  - pharmacy-production-planning
+  - compounding-and-preparation
+  - cytotoxic-preparation
+  - preparation-quality-control
+  - batch-traceability-and-records
+  - hazardous-substance-safety
+  entities:
+  - medication-dispense
+  - medication
+  - inventory-item
+  - nutrition-order
+- slug: dispensing-and-supply
+  title: Dispensing and Supply
+  summary: Medicines are dispensed as unit doses or ward stock, stocks are kept secure, controlled substances are accounted for, and
+    shortages are bridged by substitution.
+  capabilities:
+  - medication-dispensing
+  - pharmaceutical-supply-management
+  - point-of-care-replenishment
+  - controlled-substance-management
+  - drug-shortage-management
+  - serial-number-tracking
+  entities:
+  - medication-dispense
+  - medication
+  - inventory-item
+- slug: administration
+  title: Administration
+  summary: Each dose is given after checking patient, medicine, dose, time and route at the bedside, infusion pumps are programmed
+    from the order, and every dose given or withheld is recorded at once with reasons.
+  capabilities:
+  - medication-administration
+  - patient-identification
+  - medical-device-integration
+  - nursing-documentation
+  entities:
+  - medication-administration
+  - medication-order
+  - medical-device
+  serves:
+  - bedside-check
+  - identification-band
+  - medication-chart
+- slug: effect-monitoring-and-review
+  title: Effect Monitoring and Review
+  summary: Effects, drug levels and adverse reactions are monitored, therapy is adjusted, reactions are reported, and the medication
+    is reviewed again at transfer and discharge.
+  capabilities:
+  - therapeutic-drug-monitoring
+  - pharmacovigilance
+  - clinical-pharmacist-review
+  - medication-reconciliation
+  - discharge-medication-plan
+  - regulatory-incident-reporting
+  entities:
+  - observation
+  - adverse-event
+  - medication-reconciliation
+  - medication-order
+  serves:
+  - discharge-letter
+  - medication-plan
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-512
+  edition: v3-2014
+  jurisdiction: global
+- source: src-515
+  edition: PE 010-4
+  jurisdiction: global

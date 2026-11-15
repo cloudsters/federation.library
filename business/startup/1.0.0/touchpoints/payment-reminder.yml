@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payment-reminder
+title: Payment Reminder
+medium: artefact
+summary: The courteous notice of an overdue amount that asks for payment or for the reason it is held, before any escalation.
+exchanges:
+- candour-for-a-payment-plan
+journey: consumer-paying-for-a-subscription

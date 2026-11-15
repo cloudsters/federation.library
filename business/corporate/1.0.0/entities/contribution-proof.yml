@@ -1,0 +1,34 @@
+kind: entity
+slug: contribution-proof
+title: Contribution Proof
+type: transactional
+summary: Cryptographic or peer-reviewed proof of value creation — regardless of whether the contributor is internal, external, human,
+  or machine. The universal receipt of the commons economy, replacing timesheets, invoices, and performance reviews with a single,
+  verifiable attestation of value delivered.
+attributes:
+- name: contributor
+  type: reference(employee-record)
+  card: 0..1
+- name: contribution
+  type: text
+  card: 1..1
+- name: evidence
+  type: document
+  card: 1..1
+- name: source-channel
+  type: code
+  card: 1..1
+- name: attestation
+  type: document
+  card: 0..1
+states:
+- generated
+- attested
+- verified
+- disputed
+- aggregated
+relations:
+- type: refers-to
+  target: capability-node
+- type: produces
+  target: trust-score

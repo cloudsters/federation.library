@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shared-care-plan
+title: Shared Care Plan
+medium: artefact
+summary: The care plan held jointly by the commons, the practice, nursing and social care for an enrolled patient, stating goals,
+  responsibilities, the coordinator and what to do when the condition worsens.
+exchanges:
+- coordinated-care-for-enrolled-patients
+- shared-care-partnership
+journey: sharing-care-for-enrolled-patients

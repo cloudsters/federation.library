@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: follow-up-for-a-kept-agreement
+title: Follow-Up for a Kept Agreement
+between:
+- community-mediator
+- resident
+offered:
+- A check back on whether the agreement is kept.
+returned:
+- Early word of a breach, so that the dispute returns to the next step in time.
+touchpoint: mediator-follow-up-call

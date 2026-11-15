@@ -1,0 +1,42 @@
+kind: entity
+slug: remediation-plan
+title: Remediation Plan
+type: governance
+summary: A plan to put things right — the organisation's structured response to damage or non-conformance, directing resources toward
+  investigation, correction, and prevention of recurrence.
+attributes:
+- name: triggering-issue
+  type: text
+  card: 1..1
+- name: root-cause
+  type: text
+  card: 0..1
+- name: corrective-actions
+  type: text
+  card: 1..*
+- name: preventive-actions
+  type: text
+  card: 0..*
+- name: owners
+  type: reference(employee-record)
+  card: 1..*
+- name: deadlines
+  type: date
+  card: 1..*
+- name: verification-criteria
+  type: text
+  card: 0..1
+states:
+- opened
+- root-caused
+- actions-assigned
+- implemented
+- effectiveness-verified
+- closed
+relations:
+- type: based-on
+  target: non-conformance
+- type: based-on
+  target: risk
+- type: refers-to
+  target: policy

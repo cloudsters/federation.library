@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-offer
+title: Published Offer
+medium: artefact
+summary: The typed statement of surplus capacity, goods or capability that a member publishes to the federated network for matching.
+exchanges:
+- surplus-for-matched-need
+journey: network-member-offering-surplus

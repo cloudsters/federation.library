@@ -1,0 +1,45 @@
+kind: entity
+slug: network-membership
+title: Network Membership
+type: governance
+summary: An organisation's membership in a care network, with its role, the services it commits, the requirements it must meet and
+  the period it holds.
+attributes:
+- name: care-network
+  type: reference(care-network)
+  card: 1..1
+- name: member
+  type: reference(organisation)
+  card: 1..1
+- name: member-role
+  type: code
+  card: 1..1
+- name: committed-services
+  type: reference(care-service)
+  card: 0..*
+- name: requirements
+  type: text
+  card: 0..*
+- name: period
+  type: period
+  card: 0..1
+states:
+- applied
+- active
+- suspended
+- ended
+relations:
+- type: part-of
+  target: care-network
+- type: based-on
+  target: contract
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

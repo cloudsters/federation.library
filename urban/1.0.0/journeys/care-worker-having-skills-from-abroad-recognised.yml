@@ -1,0 +1,35 @@
+kind: journey
+slug: care-worker-having-skills-from-abroad-recognised
+title: Care Worker Having Skills from Abroad Recognised
+stakeholder: care-worker
+summary: A care worker who trained in another country hears of a care vacancy in their own language, has qualifications and years
+  of care recognised with a practical demonstration, is assessed by a panel that includes residents who use the service and signs
+  at the grade the recognised skills earn.
+stages:
+- slug: hear-of-the-vacancy
+  title: Hear of the Vacancy
+  goal: The vacancy has reached the care worker through a welcome point or an association, in a language they read.
+  step: recruitment-and-induction/outreach-and-advertising
+  touchpoints:
+  - neighbourhood-recruitment-session
+- slug: have-qualifications-from-abroad-recognised
+  title: Have Qualifications from Abroad Recognised
+  goal: Qualifications gained in another country and years of care are recognised, with peers' attestations counted and a practical
+    demonstration where papers are missing.
+  step: recruitment-and-induction/skills-recognition
+  touchpoints:
+  - qualification-recognition-desk
+  - skills-demonstration
+  - skill-attestation
+- slug: be-assessed-with-residents
+  title: Be Assessed with Residents
+  goal: The panel, including residents who use the care service, has assessed the care worker against the published criteria.
+  step: recruitment-and-induction/candidate-selection
+  touchpoints:
+  - selection-panel-interview
+- slug: sign-at-the-earned-grade
+  title: Sign at the Earned Grade
+  goal: The contract places the care worker at the grade the recognised skills earn, not below it.
+  step: recruitment-and-induction/offer-and-contract
+  touchpoints:
+  - offer-letter-and-contract

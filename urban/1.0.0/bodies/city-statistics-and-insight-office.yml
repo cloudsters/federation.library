@@ -1,0 +1,25 @@
+kind: body
+slug: city-statistics-and-insight-office
+title: City Statistics and Insight Office
+summary: Gathers the city's signals, maps what the data leaves out, senses the wider region, assesses equity and vitality, detects
+  drift and publishes the shared picture of the city.
+holds:
+- whole-city-perception
+- growth-projection
+- ecological-limit-assessment
+- city-data-and-analytics
+- information-need-intake
+- data-definition-and-cataloguing
+- data-sourcing-and-integration
+- data-quality-assurance
+- analysis-and-modelling
+- digital-twin-upkeep
+- open-data-publication
+- cohesion-assessment
+- bias-and-fairness-testing
+- trial-evaluation
+- service-route-use-analysis
+- service-level-equity-mapping
+part_of: full-council
+type: function
+form: organisational-unit

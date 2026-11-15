@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-account-statement
+title: Supplier Account Statement
+medium: artefact
+summary: The statement of open and settled items between the company and a supplier, reconciled by both sides so that differences
+  surface and are settled.
+exchanges:
+- prompt-answers-for-clean-records
+journey: supplier-waiting-to-be-paid

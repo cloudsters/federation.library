@@ -1,0 +1,60 @@
+kind: entity
+slug: commons-fund-rules
+title: Commons Fund Rules
+type: governance
+summary: The rules that state which revenue enters the commons fund, how it is protected from being drawn into the general budget
+  and kept in value, and how neighbourhoods allocate it, weighted towards greatest need. The council adopts them under the commons
+  charter, and every inflow, allocation and annual report of the fund is tested against them.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: eligible-revenue-sources
+  type: text
+  card: 1..*
+- name: assigned-tax-share
+  type: decimal
+  card: 0..1
+- name: protection-rules
+  type: text
+  card: 1..*
+- name: value-preservation-rule
+  type: text
+  card: 0..1
+- name: allocation-rules
+  type: text
+  card: 1..*
+- name: need-weighting
+  type: text
+  card: 0..1
+- name: reporting-rule
+  type: text
+  card: 1..1
+- name: amendment-procedure
+  type: text
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- amended
+- retired
+relations:
+- type: based-on
+  target: commons-charter
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: need-assessment

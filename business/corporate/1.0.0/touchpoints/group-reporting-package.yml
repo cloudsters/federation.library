@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: group-reporting-package
+title: Group Reporting Package
+medium: artefact
+summary: The set of reconciled accounts, intercompany balances and notes each entity delivers to the parent for consolidation.
+exchanges:
+- reporting-package-for-one-group-picture
+journey: entity-accountant-reporting-into-the-group

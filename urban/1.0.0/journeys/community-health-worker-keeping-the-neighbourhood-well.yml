@@ -1,0 +1,50 @@
+kind: journey
+slug: community-health-worker-keeping-the-neighbourhood-well
+title: Community Health Worker Keeping the Neighbourhood Well
+stakeholder: community-health-worker
+summary: A community health worker brings what neighbours know into the city's health profile, teaches and guides neighbours, brings
+  screening to those who use it least, opens a route into treatment for residents who use drugs, spots threats early and checks whether
+  the gaps close.
+stages:
+- slug: bring-the-neighbourhood-into-the-profile
+  title: Bring the Neighbourhood into the Profile
+  goal: What neighbours know of illness, housing, heat, air and food is in the health profile beside the figures of health providers.
+  step: public-health-and-prevention/city-health-profile
+  touchpoints:
+  - health-profile-workshop
+- slug: teach-and-guide-neighbours
+  title: Teach and Guide Neighbours
+  goal: Neighbours have learned about health in their own language and been guided through the health services they need.
+  step: public-health-and-prevention/neighbourhood-health-promotion
+  touchpoints:
+  - neighbourhood-health-session
+  - pharmacy-health-check
+- slug: bring-screening-to-those-least-served
+  title: Bring Screening to Those Least Served
+  goal: Vaccination, screening and early checks have reached the groups that use them least, at times and in languages that fit them
+    and whatever their status.
+  step: public-health-and-prevention/prevention-and-screening-outreach
+  touchpoints:
+  - mobile-screening-clinic
+  - pharmacy-health-check
+- slug: open-a-route-into-treatment
+  title: Open a Route into Treatment
+  goal: Residents who use drugs are met in a safe place shaped with them and have a route into treatment that stays open.
+  step: public-health-and-prevention/harm-reduction
+  touchpoints:
+  - harm-reduction-drop-in
+  - harm-reduction-design-circle
+- slug: spot-threats-early
+  title: Spot Threats Early
+  goal: Signs of an outbreak, of heat or of polluted air or water have been reported early, and the residents most at risk are warned
+    and helped.
+  step: public-health-and-prevention/health-threat-watch
+  touchpoints:
+  - neighbour-health-watch-line
+  - health-alert-message
+- slug: check-whether-the-gaps-close
+  title: Check Whether the Gaps Close
+  goal: The worker has reviewed with residents how the neighbourhood's health gap has changed, and prevention moves to where it remains.
+  step: public-health-and-prevention/health-gap-review
+  touchpoints:
+  - health-gap-review-forum

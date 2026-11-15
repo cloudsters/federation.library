@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: debt-service-schedule
+title: Debt Service Schedule
+medium: artefact
+summary: The schedule of every interest payment and repayment the city owes, by lender and date, kept and published.
+exchanges:
+- on-time-service-for-better-refinancing
+- promised-interest-for-renewed-savings
+journey: finance-officer-keeping-the-city-able-to-pay

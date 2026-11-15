@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: agent-mandate
+title: Agent Mandate
+medium: artefact
+summary: 'The written mandate of an AI agent: its permitted actions, the decisions that stay with people, escalation rules, data access
+  and named overseers.'
+exchanges:
+- bounded-mandate-for-accountable-action
+- consultation-for-accepted-change
+- early-disclosure-for-fair-automation
+- mandate-for-accountable-agency
+- mandate-for-bounded-work
+journey: agent-working-under-a-clear-mandate

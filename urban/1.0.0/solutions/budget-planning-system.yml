@@ -1,0 +1,22 @@
+kind: solution
+slug: budget-planning-system
+title: Budget Planning System
+role: system-of-insight
+summary: Holds the medium-term financial plan and its forecasts, the budget bids with their upkeep costs, the equity impact assessments,
+  the spending reviews, the funding mix reviews and the fiscal sustainability reports.
+carries:
+- medium-term-financial-planning
+- fiscal-forecasting
+- budget-bid-preparation
+- upkeep-cost-assessment
+- budget-equity-assessment
+- spending-outcome-review
+- funding-mix-review
+- fiscal-sustainability-assessment
+holds:
+- medium-term-financial-plan
+- budget-bid
+- equity-impact-assessment
+- spending-review
+- funding-mix-review
+- fiscal-sustainability-report

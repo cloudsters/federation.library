@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: handover-walkthrough
+title: Handover Walkthrough
+medium: encounter
+summary: The joint inspection of finished works by contractors, facility engineers and future users, recording defects and gaps in
+  documentation before the building is accepted.
+exchanges:
+- space-needs-for-a-fitting-building
+- works-contract-for-a-safe-site
+journey: clinical-unit-moving-into-a-new-building

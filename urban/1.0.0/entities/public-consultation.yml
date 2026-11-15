@@ -1,0 +1,61 @@
+kind: entity
+slug: public-consultation
+title: Public Consultation
+type: transactional
+summary: A structured process for hearing residents and their organisations on a proposal or on what the city should stand for, with
+  the groups invited and those known to be absent. The administration runs and records it, and its results go into the proposal the
+  council decides.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: proposal
+  type: reference(council-decision)
+  card: 0..1
+- name: consultation-period
+  type: period
+  card: 1..1
+- name: methods
+  type: code
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: places
+  type: text
+  card: 0..*
+- name: invited-groups
+  type: text
+  card: 0..*
+- name: absent-groups
+  type: text
+  card: 0..*
+- name: contribution-count
+  type: integer
+  card: 0..1
+- name: summary-of-views
+  type: document
+  card: 0..1
+- name: dissent
+  type: text
+  card: 0..*
+states:
+- planned
+- announced
+- open
+- closed
+- summarised
+- answered
+relations:
+- type: governed-by
+  target: participation-charter
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: public-record
+binds:
+- source: src-186
+  edition: '2017-12-14'
+  jurisdiction: global

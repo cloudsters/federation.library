@@ -1,0 +1,21 @@
+kind: journey
+slug: being-asked-what-i-see
+title: Being Asked What I See
+stakeholder: close-friend
+via: perception-to-mandate
+summary: A close friend is asked what they count on this person for, and then sees the self that was named tried in the open, at work,
+  at home and online.
+stages:
+- slug: say-what-i-count-on
+  title: Say What I Count On
+  goal: The friend has said what they rely on the person for, and has been heard rather than argued with.
+  step: becoming-to-identity/asking-what-others-see
+  touchpoints:
+  - heart-to-heart
+  - long-walk
+- slug: see-it-lived
+  title: See It Lived
+  goal: The friend sees the named self lived in the open, not only spoken of.
+  step: becoming-to-identity/living-it-in-the-open
+  touchpoints:
+  - social-feed

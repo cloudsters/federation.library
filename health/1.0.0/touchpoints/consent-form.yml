@@ -1,0 +1,24 @@
+kind: touchpoint
+slug: consent-form
+title: Consent Form
+medium: artefact
+summary: The document recording that a patient, or a representative, was informed about a treatment, a study or a use of data and
+  agreed to it.
+exchanges:
+- preparation-for-a-ready-admission
+- informed-consent-for-the-operation
+- disclosure-for-safe-anaesthesia
+- prepared-patient-for-a-safe-procedure
+- consent-to-testing-for-an-explained-diagnosis
+- new-method-access-for-informed-consent
+- trial-participation
+- data-permission-for-protection-and-transparency
+- independent-review-for-trust
+- samples-for-protected-use
+- interpretation-for-own-account
+- options-for-an-informed-decision
+- support-for-a-proxy-decision
+- free-consent-to-research
+- consent-for-protected-use
+- treatment-without-transfer
+journey: participant-allowing-data-reuse

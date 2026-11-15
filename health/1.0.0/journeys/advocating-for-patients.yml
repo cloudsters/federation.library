@@ -1,0 +1,38 @@
+kind: journey
+slug: advocating-for-patients
+title: Advocating for Patients
+stakeholder: patient-advocate
+summary: An independent patient advocate receives concerns on the wards, helps patients and relatives voice them, mediates with the
+  teams and brings recurring patterns to the leadership.
+stages:
+- slug: receiving-concerns
+  title: Receiving Concerns
+  goal: Be easy to find and receive concerns in confidence before they harden into formal complaints.
+  step: patient-rights-and-complaints/intake-and-acknowledgement
+  touchpoints:
+  - patient-advocate-office
+  - ward
+- slug: accompanying-the-investigation
+  title: Accompanying the Investigation
+  goal: Obtain the information needed and make sure the patient's account is heard.
+  step: patient-rights-and-complaints/investigation
+  touchpoints:
+  - complaint-resolution-meeting
+- slug: mediating-a-resolution
+  title: Mediating a Resolution
+  goal: Help the patient and the team reach an answer both can accept.
+  step: patient-rights-and-complaints/response-and-resolution
+  touchpoints:
+  - complaint-resolution-meeting
+- slug: reviewing-independently
+  title: Reviewing Independently
+  goal: Offer an independent view when the organisation's answer does not satisfy.
+  step: patient-rights-and-complaints/escalation-and-external-review
+  touchpoints:
+  - patient-advocate-office
+- slug: reporting-patterns
+  title: Reporting Patterns
+  goal: Bring recurring concerns to the leadership and see them acted on.
+  step: patient-rights-and-complaints/learning-and-improvement
+  touchpoints:
+  - board-meeting

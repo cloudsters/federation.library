@@ -1,0 +1,56 @@
+kind: journey
+slug: finance-officer-keeping-the-city-able-to-pay
+title: Finance Officer Keeping the City Able to Pay
+stakeholder: finance-officer
+summary: The treasurer establishes the cash position each day, proposes the reserves and the borrowing strategy, raises loans and
+  bonds within it, places deposits with banks that lend in the city, services and reviews the debt and reports whether the city's
+  finances hold over a generation.
+stages:
+- slug: know-the-cash-position
+  title: Know the Cash Position
+  goal: The cash position is known each day and every payment due in the coming months is covered.
+  step: treasury-and-debt/cash-positioning-and-forecasting
+  touchpoints:
+  - daily-cash-position-report
+  - supplier-payment-run
+- slug: propose-the-reserves
+  title: Propose the Reserves
+  goal: The council has set reserves for emergencies, recovery and asset renewal, with rules for drawing and refilling them.
+  step: treasury-and-debt/reserve-setting
+  touchpoints:
+  - reserve-policy-debate
+- slug: set-the-limits-on-borrowing
+  title: Set the Limits on Borrowing
+  goal: The council has adopted what the city may borrow for, a limit on debt service and the conditions it will not accept.
+  step: treasury-and-debt/borrowing-strategy-and-limits
+  touchpoints:
+  - borrowing-strategy-debate
+  - debt-affordability-statement
+- slug: raise-the-finance
+  title: Raise the Finance
+  goal: The capital plan is financed from development banks, community finance and residents' bonds on terms that leave the city's
+    decisions with the city.
+  step: treasury-and-debt/loan-and-bond-raising
+  touchpoints:
+  - lender-negotiation-meeting
+  - community-bond-offer
+- slug: bank-where-money-stays-local
+  title: Bank Where Money Stays Local
+  goal: The city's deposits sit with public and community banks that lend in the city.
+  step: treasury-and-debt/public-and-community-banking
+  touchpoints:
+  - community-bank-deposit-agreement
+- slug: service-and-review-the-debt
+  title: Service and Review the Debt
+  goal: Every repayment is made when due, and the debt is reviewed against the strategy and refinanced where terms improve.
+  step: treasury-and-debt/debt-service-and-refinancing
+  touchpoints:
+  - debt-service-schedule
+  - annual-debt-review
+- slug: report-on-a-generation
+  title: Report on a Generation
+  goal: The council and the supervisory authority know whether income covers spending, debt and upkeep over a generation and what
+    burdens pass to later residents.
+  step: treasury-and-debt/fiscal-sustainability-assessment
+  touchpoints:
+  - published-fiscal-sustainability-report

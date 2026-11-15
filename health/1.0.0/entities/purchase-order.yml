@@ -1,0 +1,57 @@
+kind: entity
+slug: purchase-order
+title: Purchase Order
+type: transactional
+summary: An order placed with a supplier for goods or services at agreed prices and delivery terms, under a contract or tender result,
+  and matched later to receipt and invoice.
+attributes:
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: items
+  type: reference(inventory-item)
+  card: 0..*
+- name: description
+  type: text
+  card: 0..1
+- name: order-amount
+  type: amount
+  card: 1..1
+- name: delivery-date
+  type: date
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: ordered-on
+  type: date
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 1..1
+states:
+- draft
+- released
+- confirmed
+- partially-received
+- received
+- closed
+- cancelled
+relations:
+- type: based-on
+  target: purchase-requisition
+- type: governed-by
+  target: contract
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-452
+  edition: '3.3'
+  jurisdiction: global

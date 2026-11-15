@@ -1,0 +1,27 @@
+kind: journey
+slug: prescribing-through-a-shortage
+title: Prescribing Through a Shortage
+stakeholder: specialist-physician
+summary: 'A prescriber''s side of medicine supply: a formulary to prescribe from, early warning of shortages and a safe switch to
+  an approved alternative.'
+stages:
+- slug: prescribe-from-the-formulary
+  title: Prescribe from the Formulary
+  goal: The prescribing catalogue offers the formulary's preferred products, and a proposal for an addition has a known route.
+  step: pharmaceutical-supply/formulary-based-assortment
+  touchpoints:
+  - clinical-workstation
+  - drug-and-therapeutics-committee
+- slug: receive-early-warning
+  title: Receive Early Warning
+  goal: Prescribers learn early of a shortage that affects their patients, and of its expected duration.
+  step: pharmaceutical-supply/shortage-detection-and-assessment
+  touchpoints:
+  - shortage-notice
+- slug: switch-patients-safely
+  title: Switch Patients Safely
+  goal: An approved alternative, its dose conversion and the allocation rule are available at the point of prescribing.
+  step: pharmaceutical-supply/substitution-and-allocation
+  touchpoints:
+  - shortage-notice
+  - clinical-workstation

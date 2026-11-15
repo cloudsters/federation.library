@@ -1,0 +1,59 @@
+kind: entity
+slug: equity-impact-assessment
+title: Equity Impact Assessment
+type: intelligence
+summary: The assessment of who pays and who benefits from a budget, a revenue policy or another major decision across neighbourhoods
+  and groups, made with affected residents. The finance department or the department proposing the decision carries it out, and its
+  findings are published with the draft and tested again before the decision is renewed.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: assessed-budget
+  type: reference(municipal-budget)
+  card: 0..1
+- name: assessed-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: groups-considered
+  type: code
+  card: 1..*
+- name: neighbourhoods-considered
+  type: reference(neighbourhood)
+  card: 1..*
+- name: participating-residents
+  type: text
+  card: 0..*
+- name: costs-by-group
+  type: document
+  card: 1..1
+- name: benefits-by-group
+  type: document
+  card: 1..1
+- name: findings
+  type: text
+  card: 1..*
+- name: assessed-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scoped
+- conducted
+- reviewed-with-residents
+- published
+- applied
+- renewed
+relations:
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: public-consultation
+- type: produces
+  target: public-record

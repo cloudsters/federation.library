@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: current-instructions-for-skilled-execution
+title: Current Instructions for Skilled Execution
+between:
+- development-engineer
+- production-operator
+offered:
+- Clear, current instructions at the place of work, and changes announced at a controlled point.
+returned:
+- Work performed to standard, and feedback wherever instructions do not fit the work as it is actually done.
+touchpoint: work-instruction

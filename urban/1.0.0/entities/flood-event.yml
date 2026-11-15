@@ -1,0 +1,58 @@
+kind: entity
+slug: flood-event
+title: Flood Event
+type: transactional
+summary: An actual or near-miss flood, with where the water went, what it damaged and which assets failed. The asset office records
+  it after each event with the operators and residents, and it is used to assess exposure and to test the flood risk map.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: event-kind
+  type: code
+  card: 1..1
+- name: cause
+  type: code
+  card: 0..1
+- name: started-at
+  type: datetime
+  card: 1..1
+- name: ended-at
+  type: datetime
+  card: 0..1
+- name: extent
+  type: document
+  card: 0..1
+- name: neighbourhoods-affected
+  type: reference(neighbourhood)
+  card: 0..*
+- name: assets-failed
+  type: reference(infrastructure-asset)
+  card: 0..*
+- name: damage
+  type: text
+  card: 0..*
+- name: residents-affected
+  type: integer
+  card: 0..1
+- name: emergency-response
+  type: reference(emergency-response)
+  card: 0..1
+- name: recorded-by
+  type: text
+  card: 1..1
+states:
+- reported
+- recorded
+- surveyed
+- reviewed
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: emergency-response
+- type: refers-to
+  target: flood-risk-map

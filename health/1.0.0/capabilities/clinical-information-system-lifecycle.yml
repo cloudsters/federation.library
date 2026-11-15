@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-information-system-lifecycle
+title: Clinical Information System Lifecycle
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Select, introduce, migrate and replace the core clinical information system.
+binds:
+- source: src-034
+  edition: '2023'
+  jurisdiction: global

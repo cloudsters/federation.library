@@ -1,0 +1,64 @@
+kind: entity
+slug: supplier-exit-plan
+title: Supplier Exit Plan
+type: governance
+summary: The plan by which the city can change the supplier of a system or take the work back into the administration without losing
+  its data, code or service, with the formats and rights it needs and the steps and cost of leaving. The department that owns the
+  system writes it before purchase and the contract binds the supplier to it, and it is used when a contract ends, a supplier fails
+  or the city decides to bring the work back.
+attributes:
+- name: application
+  type: reference(application)
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: supplier
+  type: text
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: data-to-return
+  type: reference(data-set)
+  card: 0..*
+- name: data-formats
+  type: code
+  card: 0..*
+- name: code-rights
+  type: text
+  card: 1..1
+- name: source-code
+  type: reference(source-code-repository)
+  card: 0..1
+- name: exit-steps
+  type: text
+  card: 1..*
+- name: notice-period
+  type: quantity
+  card: 0..1
+- name: exit-cost
+  type: amount
+  card: 0..1
+- name: tested-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- tested
+- in-force
+- invoked
+- completed
+- retired
+relations:
+- type: refers-to
+  target: application
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: source-code-repository
+- type: refers-to
+  target: data-set
+- type: governed-by
+  target: procurement-policy

@@ -1,0 +1,161 @@
+kind: value-stream
+slug: referrer-relations
+title: Referrer Relations
+family: interest-to-relationship
+summary: 'Building lasting relationships with referring physicians and practices: understanding referral patterns, liaison, timely
+  reports, services for referrers, and regular feedback and surveys.'
+trigger: A new referrer is identified, referral patterns change, or a referrer raises a concern.
+outcome: Referrers receive timely information through a named contact, and their satisfaction and referral patterns are known.
+stakeholders:
+- referring-practice
+- referring-hospital
+- specialist-physician
+- head-of-clinical-department
+- administrative-staff
+- executive
+steps:
+- slug: referral-pattern-analysis
+  title: Referral Pattern Analysis
+  summary: Referrals are analysed by referrer, service and area to show who refers which patients, which referrers are new, growing,
+    declining or lost, and where the commons' services do not reach the need of the catchment.
+  capabilities:
+  - demand-and-market-analysis
+  - referral-volume-forecasting
+  - population-needs-assessment
+  - business-intelligence-and-reporting
+  - master-data-stewardship
+  entities:
+  - referral
+  - referral-relationship
+  - organisation
+  - catchment-population
+  - measure-report
+  - capacity-forecast
+- slug: referrer-approach
+  title: Referrer Approach
+  summary: A new or declining referrer is visited by a named liaison and a senior physician of the relevant service, who learn the
+    practice's patient mix and needs and present the services, admission routes and contacts, without any inducement to refer.
+  capabilities:
+  - referrer-relationship-management
+  - clinical-focus-positioning
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - referral-relationship
+  - organisation
+  - care-service
+  serves:
+  - public-website
+  - referrer-liaison-visit
+- slug: service-and-communication-agreement
+  title: Service and Communication Agreement
+  summary: The commons and the referrer agree the named contacts, the referral and admission routes, the information a referral must
+    carry, the time within which reports and letters are sent, and the electronic channels both sides use.
+  capabilities:
+  - referrer-relationship-management
+  - referral-intake-management
+  - secure-clinical-messaging
+  - national-health-network-connectivity
+  entities:
+  - referral-relationship
+  - care-service
+  - interface
+  serves:
+  - clinical-messaging-service
+  - referrer-liaison-visit
+  - referrer-portal
+- slug: referral-acknowledgement
+  title: Referral Acknowledgement
+  summary: Each referral is acknowledged on receipt; the referrer learns whether it was accepted, redirected or declined and when
+    the patient will be seen, and an urgent request reaches an on-duty specialist directly.
+  capabilities:
+  - referral-intake-management
+  - admission-decision
+  - appointment-booking-management
+  - waiting-list-management
+  - secure-clinical-messaging
+  entities:
+  - referral
+  - request-for-care
+  - care-commitment
+  - appointment
+  - waiting-list-entry
+  - care-communication
+  serves:
+  - referral-letter
+  - referrer-direct-line
+  - referrer-portal
+- slug: reporting-to-the-referrer
+  title: Reporting to the Referrer
+  summary: The referrer receives findings, the discharge letter and the medication plan within the agreed time, is told at once of
+    major events such as transfer or death, and can reach the treating physician with questions.
+  capabilities:
+  - discharge-summary
+  - discharge-medication-plan
+  - laboratory-result-communication
+  - imaging-result-communication
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - care-transition-coordination
+  entities:
+  - discharge-summary
+  - diagnostic-report
+  - care-communication
+  - care-transition
+  - patient-summary
+  serves:
+  - clinical-messaging-service
+  - diagnostic-report
+  - discharge-letter
+  - medication-plan
+  - patient-held-health-record
+  - referrer-direct-line
+- slug: services-for-referrers
+  title: Services for Referrers
+  summary: Referrers are offered specialist advice by teleconsultation without a new referral, a seat in case conferences on their
+    patients, and continuing education and quality circles on new treatments and shared pathways.
+  capabilities:
+  - specialist-teleconsultation
+  - multidisciplinary-tumour-board
+  - external-professional-education
+  - continuing-education-programme-certification
+  - clinical-pathway-design
+  entities:
+  - teleconsultation
+  - case-conference
+  - course
+  - continuing-education-credit
+  - care-pathway
+  serves:
+  - multidisciplinary-case-conference
+  - referrer-education-event
+  - telemedicine-service
+- slug: referrer-feedback-and-review
+  title: Referrer Feedback and Review
+  summary: Referrer satisfaction is surveyed periodically and concerns are handled as they arise; results and referral trends are
+    reviewed with each department, and the changes agreed are reported back to the referrers.
+  capabilities:
+  - referrer-relationship-management
+  - complaint-management
+  - quality-transparency-communication
+  - integrated-performance-review
+  - process-improvement
+  entities:
+  - relationship-review
+  - complaint
+  - measure-report
+  - corrective-action
+  - referral-relationship
+  serves:
+  - public-quality-report
+  - referrer-liaison-visit
+  - referrer-survey
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

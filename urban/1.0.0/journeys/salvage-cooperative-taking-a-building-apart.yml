@@ -1,0 +1,38 @@
+kind: journey
+slug: salvage-cooperative-taking-a-building-apart
+title: Salvage Cooperative Taking a Building Apart
+stakeholder: salvage-cooperative
+summary: The cooperative joins the material audit, dismantles the building with local workers, sorts what it recovers, stores and
+  offers it through the material bank and reports what was returned to use.
+stages:
+- slug: join-the-material-audit
+  title: Join the Material Audit
+  goal: The cooperative has walked the building with the auditors and planned what it can salvage and how.
+  step: asset-decommissioning-and-material-recovery/pre-demolition-material-audit
+  touchpoints:
+  - pre-demolition-audit-walk
+- slug: dismantle-with-local-workers
+  title: Dismantle with Local Workers
+  goal: The building is taken apart safely by the cooperative's members and local workers.
+  step: asset-decommissioning-and-material-recovery/deconstruction-and-salvage
+  touchpoints:
+  - deconstruction-site
+- slug: sort-by-next-use
+  title: Sort by Next Use
+  goal: Components and materials are sorted by type, condition and next use and recorded lot by lot.
+  step: asset-decommissioning-and-material-recovery/deconstruction-and-salvage
+  touchpoints:
+  - salvage-sorting-yard
+- slug: offer-through-the-material-bank
+  title: Offer Through the Material Bank
+  goal: The salvaged lots are stored and offered to city works, builders and residents.
+  step: asset-decommissioning-and-material-recovery/material-banking-and-reuse
+  touchpoints:
+  - material-bank-store
+  - material-bank-open-list
+- slug: report-what-was-returned
+  title: Report What Was Returned
+  goal: The quantities reused, recovered and disposed of are in the recovery report of the retired asset.
+  step: asset-decommissioning-and-material-recovery/asset-record-closure
+  touchpoints:
+  - published-recovery-report

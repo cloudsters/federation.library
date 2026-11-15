@@ -1,0 +1,32 @@
+kind: journey
+slug: end-user-testing-a-new-offering
+title: End User Testing a New Offering
+stakeholder: end-user
+summary: An end user co-designs an offering, tries its prototypes, uses it in a pilot and receives a release with the documentation
+  and training to use it well.
+stages:
+- slug: co-design-the-offering
+  title: Co-Design the Offering
+  goal: The user's way of working shapes the design from the start.
+  step: offering-design-craft/co-creative-design
+  touchpoints:
+  - co-design-workshop
+- slug: try-a-prototype
+  title: Try a Prototype
+  goal: The user tries a prototype in a realistic task and sees what was changed from the last round.
+  step: offering-design-craft/prototyping-and-testing
+  touchpoints:
+  - user-test
+- slug: use-it-in-a-pilot
+  title: Use It in a Pilot
+  goal: The user works with the new offering in real operation and reports whether it meets the need and is worth its price.
+  step: offering-design-craft/market-resonance-test
+  touchpoints:
+  - pilot-programme
+- slug: receive-a-usable-release
+  title: Receive a Usable Release
+  goal: The released offering comes with documentation and training that let the user work with it confidently.
+  step: offering-design-craft/delivery-readiness-and-release
+  touchpoints:
+  - user-documentation
+  - customer-training

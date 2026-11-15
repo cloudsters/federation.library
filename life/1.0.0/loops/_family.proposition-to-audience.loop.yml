@@ -1,0 +1,85 @@
+loop: _family.proposition-to-audience
+title: Keep the family 'Proposition to Audience' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: proposition-to-audience
+  vs:
+  - voice-to-reach
+  - work-to-platform
+  - work-to-protection
+  - meaning-to-translation
+  - standing-to-authorship
+stance: The value proposition reaches its receiving & interacting community (1:n). No single stream of this family
+  can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed season of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was built into the runtime, adapted there, or left on the shelf
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/proposition-to-audience
+  - value-model.yml#vs/voice-to-reach
+  - value-model.yml#vs/work-to-platform
+  - value-model.yml#vs/work-to-protection
+  - value-model.yml#vs/meaning-to-translation
+  - value-model.yml#vs/standing-to-authorship
+  registry:
+  - instance/registry/5_value-streams/voice-to-reach.md
+  - instance/registry/5_value-streams/work-to-platform.md
+  - instance/registry/5_value-streams/work-to-protection.md
+  - instance/registry/5_value-streams/meaning-to-translation.md
+  - instance/registry/5_value-streams/standing-to-authorship.md
+  loop_states:
+  - instance/operations/loops/_state/voice-to-reach.yml
+  - instance/operations/loops/_state/work-to-platform.yml
+  - instance/operations/loops/_state/work-to-protection.yml
+  - instance/operations/loops/_state/meaning-to-translation.yml
+  - instance/operations/loops/_state/standing-to-authorship.yml
+  measures:
+  - authorship-asked-before-telling
+  - authorship-how-much-is-mine
+  - authorship-own-part-marked
+  - authorship-stories-left-to-others
+  - own-ground-direct-reach
+  - own-ground-exit-known
+  - own-ground-exit-tried
+  - own-ground-messages-sent
+  - protection-cases-pursued
+  - protection-read-before-signing
+  - protection-rights-as-meant
+  - protection-work-marked
+  - reach-hours-in-public
+  - reach-own-voice
+  - reach-steady-pace
+  - reach-where-people-gather
+  - translation-faith-with-origin
+  - translation-meaning-came-through
+  - translation-naming-the-field
+  - translation-tested-with-insiders
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.proposition-to-audience.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or this life declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

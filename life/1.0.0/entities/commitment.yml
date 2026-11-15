@@ -1,0 +1,36 @@
+kind: entity
+slug: commitment
+title: Commitment
+type: transactional
+summary: A promise this person made — to someone else, to a venture, or to themselves. The third kind is the one most often broken
+  and least often recorded.
+attributes:
+- name: made-to
+  type: code
+  card: 1..1
+- name: what-was-promised
+  type: text
+  card: 1..1
+- name: made-on
+  type: date
+  card: 1..1
+- name: due
+  type: date
+  card: 0..1
+- name: toward
+  type: reference(venture)
+  card: 0..1
+- name: written-down
+  type: boolean
+  card: 0..1
+states:
+- considered
+- made
+- kept
+- renegotiated
+- released
+relations:
+- target: decision
+  type: based-on
+- target: venture-portfolio
+  type: part-of

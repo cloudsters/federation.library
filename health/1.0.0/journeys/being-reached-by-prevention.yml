@@ -1,0 +1,33 @@
+kind: journey
+slug: being-reached-by-prevention
+title: Being Reached by Prevention
+stakeholder: person-facing-access-barriers
+summary: 'The side of a person who does not come to the commons on their own: services brought to where they are, in their language,
+  with a way into care when it is needed.'
+stages:
+- slug: being-heard
+  title: Being Heard
+  goal: Have the barriers faced by one's group recognised through community partners.
+  step: population-health-programmes/population-need-identification
+  touchpoints:
+  - community-venue
+- slug: being-approached
+  title: Being Approached
+  goal: Be approached by trusted people where one lives, in one's own language.
+  step: population-health-programmes/invitation-and-outreach
+  touchpoints:
+  - community-venue
+  - mobile-clinic
+- slug: receiving-care-on-site
+  title: Receiving Care on Site
+  goal: Receive screening, vaccination or advice on the spot, without appointment or administrative hurdles.
+  step: population-health-programmes/screening-and-prevention-delivery
+  touchpoints:
+  - mobile-clinic
+- slug: finding-the-way-into-care
+  title: Finding the Way into Care
+  goal: Be accompanied into diagnosis and treatment when a finding requires it.
+  step: population-health-programmes/result-and-follow-up
+  touchpoints:
+  - mobile-clinic
+  - outpatient-clinic

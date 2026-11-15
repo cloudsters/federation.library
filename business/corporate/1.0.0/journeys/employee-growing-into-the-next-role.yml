@@ -1,0 +1,47 @@
+kind: journey
+slug: employee-growing-into-the-next-role
+title: Employee Growing into the Next Role
+stakeholder: employee
+summary: An employee understands how their work fits the whole, sees a visible path, agrees a development plan in regular conversations,
+  learns in real work and courses, keeps mandatory credentials current and moves on through the skills match.
+stages:
+- slug: see-the-whole
+  title: See the Whole
+  goal: The employee understands the organisation's purpose, rhythms and how their work connects to that of others.
+  step: growth-development-cultivation/system-orientation
+  touchpoints:
+  - orientation-programme
+- slug: see-the-path
+  title: See the Path
+  goal: The employee can see job families, levels and the skills each requires, and where their own profile stands.
+  step: growth-development-cultivation/career-framework-and-skills
+  touchpoints:
+  - career-framework
+  - internal-job-market
+- slug: agree-a-development-plan
+  title: Agree a Development Plan
+  goal: A forward-looking conversation ends in a light, agreed plan for contribution, learning and aspirations.
+  step: growth-development-cultivation/growth-conversations
+  touchpoints:
+  - development-review
+- slug: learn-in-work-and-courses
+  title: Learn in Work and Courses
+  goal: The employee learns through stretch work, mentoring and courses, and receives credentials for what is completed.
+  step: growth-development-cultivation/learning-delivery
+  touchpoints:
+  - learning-platform
+  - mentoring
+- slug: keep-credentials-current
+  title: Keep Credentials Current
+  goal: The training the role requires is completed and renewed before it lapses.
+  step: growth-development-cultivation/mandatory-training
+  touchpoints:
+  - learning-platform
+  - safety-instruction
+- slug: take-the-next-step
+  title: Take the Next Step
+  goal: What the employee has grown into is recorded, and a fitting move is opened through the skills match.
+  step: growth-development-cultivation/development-review
+  touchpoints:
+  - development-review
+  - internal-job-market

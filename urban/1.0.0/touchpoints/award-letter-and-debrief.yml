@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: award-letter-and-debrief
+title: Award Letter and Debrief
+medium: encounter
+summary: The letter that gives every bidder its scores and the reasons for the award with the standstill period, and the conversation
+  offered to each bidder who asks for it.
+exchanges:
+- scores-and-reasons-for-an-accepted-award
+journey: procurement-officer-running-a-tender

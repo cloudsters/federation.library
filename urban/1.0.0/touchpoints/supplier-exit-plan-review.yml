@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-exit-plan-review
+title: Supplier Exit Plan Review
+medium: encounter
+summary: The review, before any purchase, of how the city can change supplier or bring the work back into the administration without
+  losing its data or code.
+exchanges:
+- supplier-work-for-a-planned-exit
+journey: staff-representative-agreeing-to-an-automated-process

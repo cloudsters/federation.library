@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: construction-site
+title: Construction Site
+medium: place
+summary: The site where an asset or building is constructed or installed, with its access rules, safety measures and the records kept
+  throughout the works.
+exchanges:
+- defined-works-for-safe-delivery
+- safety-plan-for-clearance-to-build
+journey: contractor-building-an-asset-for-the-company

@@ -1,0 +1,20 @@
+kind: touchpoint
+slug: official-inspection
+title: Official Inspection
+medium: encounter
+summary: The inspection of a site or product by an authority for safety, environment, product compliance or tax, with findings the
+  company must answer and correct.
+exchanges:
+- audit-cooperation-for-closed-years
+- complete-application-for-permission
+- conformance-for-licence
+- correct-declaration-for-swift-clearance
+- evidence-for-closed-obligations
+- inspection-evidence-for-safe-operation
+- monitoring-evidence-for-permitted-operation
+- notification-for-fair-oversight
+- prompt-notice-for-proportionate-enforcement
+- safety-plan-for-clearance-to-build
+- timely-notification-for-coordinated-oversight
+- withheld-taxes-for-compliance-certainty
+journey: mandate-cycle

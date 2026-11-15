@@ -1,0 +1,32 @@
+kind: journey
+slug: artist-shaping-a-festival-of-their-culture
+title: Artist Shaping a Festival of Their Culture
+stakeholder: artist
+summary: An artist whose culture a festival presents decides with others of their community what is shown, is paid fairly and sees
+  the money flows, meets visitors in exchange at shared tables and passes their knowledge to local organisers.
+stages:
+- slug: decide-what-is-shown
+  title: Decide What Is Shown
+  goal: The artist and their community have decided what of their culture the festival shows and how visitors take part.
+  step: city-events-and-festivals/event-co-design-with-communities
+  touchpoints:
+  - community-co-design-circle
+- slug: be-paid-fairly
+  title: Be Paid Fairly
+  goal: The artist is paid fairly, and the income and costs of the festival are open to see, with a share returned to the community.
+  step: city-events-and-festivals/fair-pay-and-open-money-flows
+  touchpoints:
+  - fair-pay-and-benefit-agreement
+  - published-event-accounts
+- slug: meet-visitors-in-exchange
+  title: Meet Visitors in Exchange
+  goal: Visitors and residents have met the artist at shared meals and open moments rather than only watching a show.
+  step: city-events-and-festivals/event-delivery
+  touchpoints:
+  - shared-festival-meal
+- slug: pass-on-knowledge
+  title: Pass On Knowledge
+  goal: What the artist learnt is passed to local organisers and recorded for the next festival.
+  step: city-events-and-festivals/event-legacy-review
+  touchpoints:
+  - event-legacy-gathering

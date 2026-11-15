@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: referrer-forum
+title: Referrer Forum
+medium: encounter
+summary: The meeting in which the commons presents new, changed or discontinued services to referring practices and hospitals and
+  hears what they and their patients need.
+exchanges:
+- service-change-notice
+journey: referring-practice-service-change-journey

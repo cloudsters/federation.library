@@ -1,0 +1,19 @@
+kind: journey
+slug: being-cared-for-on-a-training-ward
+title: Being Cared for on a Training Ward
+stakeholder: elective-inpatient
+summary: 'The patient''s side of interprofessional education: care by a supervised team of learners, and a say in how it went.'
+stages:
+- slug: being-cared-for-by-learners
+  title: Being Cared for by Learners
+  goal: Receive safe, attentive care from a learner team and know who is responsible at every moment.
+  step: interprofessional-education/training-ward-practice
+  touchpoints:
+  - interprofessional-training-ward
+  - ward-round
+- slug: telling-how-it-was
+  title: Telling How It Was
+  goal: Say how the care felt and see that it counts.
+  step: interprofessional-education/evaluation
+  touchpoints:
+  - feedback-and-complaints-channel

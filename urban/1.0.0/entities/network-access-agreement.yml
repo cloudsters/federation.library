@@ -1,0 +1,66 @@
+kind: entity
+slug: network-access-agreement
+title: Network Access Agreement
+type: governance
+summary: The published terms on which providers use a public or community network, with the same price and conditions for all. The
+  city or the trust that holds the network agrees and publishes them, community assemblies review them in regular cycles, and every
+  provider that uses the network signs on to them.
+attributes:
+- name: networks
+  type: reference(digital-network)
+  card: 1..*
+- name: holding-body
+  type: text
+  card: 1..1
+- name: access-services
+  type: text
+  card: 1..*
+- name: price-schedule
+  type: document
+  card: 1..1
+- name: conditions
+  type: text
+  card: 1..*
+- name: equal-terms-rule
+  type: text
+  card: 1..1
+- name: providers
+  type: text
+  card: 0..*
+- name: provider-contracts
+  type: reference(contract)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- drafted
+- consulted
+- agreed
+- published
+- in-force
+- under-review
+- amended
+- terminated
+relations:
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: digital-network
+- type: refers-to
+  target: community-network
+- type: based-on
+  target: public-consultation
+- type: produces
+  target: contract
+- type: produces
+  target: public-record

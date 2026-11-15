@@ -1,0 +1,50 @@
+kind: entity
+slug: teaching-session
+title: Teaching Session
+type: transactional
+summary: One scheduled delivery of a course unit with its teachers, learners, room and time, recorded as delivered so that teaching
+  load can be attributed to staff and units and reconciled with clinical time.
+attributes:
+- name: course
+  type: reference(course)
+  card: 1..1
+- name: session-period
+  type: period
+  card: 1..1
+- name: teachers
+  type: reference(employee)
+  card: 1..*
+- name: learners
+  type: reference(learner-record)
+  card: 0..*
+- name: room
+  type: reference(room)
+  card: 0..1
+- name: involves-patients
+  type: boolean
+  card: 0..1
+- name: delivered-hours
+  type: quantity
+  card: 0..1
+states:
+- scheduled
+- delivered
+- cancelled
+relations:
+- type: part-of
+  target: course
+- type: assigned-to
+  target: room
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-414
+  edition: '1.2'
+  jurisdiction: global
+- source: src-420
+  edition: '2013'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: change-adoption
+title: Change Adoption
+between:
+- head-of-clinical-department
+- registered-nurse
+offered:
+- The purpose of the change, the training it requires and the time to learn it.
+returned:
+- Adoption of the change in daily work, and reports of what does not yet work.
+touchpoint: learning-platform

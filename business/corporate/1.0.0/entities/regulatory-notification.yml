@@ -1,0 +1,42 @@
+kind: entity
+slug: regulatory-notification
+title: Regulatory Notification
+type: transactional
+summary: A report the enterprise must submit to a competent authority within a set deadline, such as on a serious accident, a data
+  breach, a dangerous product, an environmental release or a serious AI malfunction, followed up until closed.
+attributes:
+- name: notification-kind
+  type: code
+  card: 1..1
+- name: authority
+  type: reference(counterparty)
+  card: 1..1
+- name: obligation
+  type: reference(compliance-rule)
+  card: 1..1
+- name: due-at
+  type: datetime
+  card: 1..1
+- name: submitted-at
+  type: datetime
+  card: 0..1
+- name: content
+  type: document
+  card: 1..1
+- name: authority-reference
+  type: identifier
+  card: 0..1
+states:
+- drafted
+- submitted
+- follow-up-requested
+- closed
+relations:
+- type: based-on
+  target: compliance-rule
+- type: refers-to
+  target: incident
+- type: refers-to
+  target: recall
+- type: refers-to
+  target: agent

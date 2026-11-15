@@ -1,0 +1,10 @@
+kind: solution
+slug: point-of-sale-system
+title: Point of Sale System
+role: system-of-engagement
+summary: Records sales, payments and returns where customers buy in person, in a shop, showroom, counter or at an event, and keeps
+  the location connected to stock and customer records.
+carries:
+- physical-presence-as-community-hub
+- point-of-sale-operations
+holds: []

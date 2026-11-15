@@ -1,0 +1,67 @@
+kind: entity
+slug: agent-mandate
+title: Agent Mandate
+type: governance
+summary: The written mandate of an AI agent, with the tasks it does, the tasks it prepares for a person, those that stay human, its
+  limits, its escalation points and the person who answers for it. The service writes it with its staff and their representatives
+  and renews, changes or ends it at each joint review, and every significant decision the agent takes is recorded against it.
+attributes:
+- name: agent
+  type: reference(ai-agent)
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: tasks-done
+  type: text
+  card: 1..*
+- name: tasks-prepared
+  type: text
+  card: 0..*
+- name: tasks-kept-human
+  type: text
+  card: 0..*
+- name: limits
+  type: text
+  card: 1..*
+- name: escalation-points
+  type: text
+  card: 1..*
+- name: accountable-person
+  type: text
+  card: 1..1
+- name: staff-agreement
+  type: reference(staff-agreement)
+  card: 0..1
+- name: approval
+  type: reference(automated-system-approval)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 1..1
+states:
+- drafted
+- consulted
+- agreed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: ai-agent
+- type: based-on
+  target: staff-agreement
+- type: governed-by
+  target: automated-system-approval
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: oversight-assignment
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

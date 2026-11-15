@@ -1,0 +1,13 @@
+kind: capability
+slug: patient-portal
+title: Patient Portal
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Offer patients online access to appointments, documents, messages and questionnaires.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

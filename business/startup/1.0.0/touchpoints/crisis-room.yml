@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: crisis-room
+title: Crisis Room
+medium: place
+summary: The room, physical or virtual, where the crisis team convenes, holds its decision rights and follows the situation until
+  normal operation returns.
+exchanges:
+- shared-emergency-plans-for-coordinated-rescue
+journey: site-manager-keeping-a-site-running-through-disruption

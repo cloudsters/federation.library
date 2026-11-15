@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: vision-progress-page
+title: Vision Progress Page
+medium: channel
+summary: The public page where residents follow how the city moves towards its vision and send signals that it no longer holds.
+exchanges:
+- drift-signals-for-a-reopened-review
+journey: city-council-renewing-the-city-vision

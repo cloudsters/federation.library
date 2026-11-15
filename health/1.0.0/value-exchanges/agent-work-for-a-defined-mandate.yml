@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: agent-work-for-a-defined-mandate
+title: Agent Work for a Defined Mandate
+between:
+- documentation-agent
+- specialist-physician
+offered:
+- Drafted notes, letters and coding proposals delivered within its mandate, with uncertainty shown and every action logged.
+returned:
+- A clear mandate, the data access it needs, human review and correction of its outputs, and feedback that improves its next
+  version.
+touchpoint: clinical-workstation

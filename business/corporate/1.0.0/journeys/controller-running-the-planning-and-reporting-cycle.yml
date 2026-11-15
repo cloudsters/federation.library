@@ -1,0 +1,54 @@
+kind: journey
+slug: controller-running-the-planning-and-reporting-cycle
+title: Controller Running the Planning and Reporting Cycle
+stakeholder: finance-professional
+summary: A controller sets the planning frame, gathers budgets, keeps cost and multi-capital accounts, calculates margins and value,
+  explains variances with the units and prepares the decision on the surplus.
+stages:
+- slug: set-the-frame
+  title: Set the Frame
+  goal: Targets, assumptions and the outlook for the period are derived from the strategy and the financial health of the organisation.
+  step: value-stewardship-accounting/planning-frame-setting
+  touchpoints:
+  - planning-guideline
+  - board-meeting
+- slug: gather-the-budgets
+  title: Gather the Budgets
+  goal: Budgets of every cost and profit centre are prepared, negotiated and allocated.
+  step: value-stewardship-accounting/budget-preparation-and-allocation
+  touchpoints:
+  - budget-round
+  - budget
+- slug: keep-the-books-by-centre
+  title: Keep the Books by Centre
+  goal: Costs and revenues land in the right centre, object and period, with prepared postings reviewed.
+  step: value-stewardship-accounting/cost-and-period-accounting
+  touchpoints:
+  - accounting-workbench
+- slug: record-the-other-capitals
+  title: Record the Other Capitals
+  goal: Natural, social and human capital flows are recorded beside the financial ones.
+  step: value-stewardship-accounting/multi-capital-recording
+  touchpoints:
+  - accounting-workbench
+  - cost-centre-report
+- slug: calculate-margins-and-value
+  title: Calculate Margins and Value
+  goal: Product costs and margins by offering, customer, channel and region are known, and value is attributed fairly.
+  step: value-stewardship-accounting/costing-and-value-attribution
+  touchpoints:
+  - profitability-analysis
+- slug: explain-and-forecast
+  title: Explain and Forecast
+  goal: Variances are explained by their owners and the year-end forecast is updated.
+  step: value-stewardship-accounting/variance-analysis-and-forecast
+  touchpoints:
+  - management-report
+  - budget-round
+- slug: prepare-the-distribution-decision
+  title: Prepare the Distribution Decision
+  goal: The surplus and the options for its use are prepared for the bodies that decide.
+  step: value-stewardship-accounting/value-distribution-decision
+  touchpoints:
+  - board-meeting
+  - profitability-analysis

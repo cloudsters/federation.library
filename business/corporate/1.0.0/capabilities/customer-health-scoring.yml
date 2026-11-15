@@ -1,0 +1,7 @@
+kind: capability
+slug: customer-health-scoring
+title: Customer Health Scoring
+level: L3
+parent: account-management
+summary: Reading the state of a relationship — computing health scores from engagement signals, usage patterns, support interactions, and
+  financial indicators. Not to judge the customer but to sense when the relationship needs attention before it fades.

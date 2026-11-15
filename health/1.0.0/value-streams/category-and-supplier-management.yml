@@ -1,0 +1,166 @@
+kind: value-stream
+slug: category-and-supplier-management
+title: Category and Supplier Management
+family: source-to-alliance
+summary: 'Steering what the organisation buys and from whom: sourcing strategy, category plans, clinical product evaluation and standardisation,
+  supplier performance and strategic partnerships including purchasing alliances.'
+trigger: The category planning cycle opens, a clinician proposes a new product, or a supplier underperforms.
+outcome: Each category has a strategy and standardised products, and its suppliers are managed against agreed performance.
+stakeholders:
+- administrative-staff
+- executive
+- head-of-clinical-department
+- surgeon
+- registered-nurse
+- clinical-pharmacist
+- clinical-engineer
+- supplier
+- purchasing-alliance
+- natural-environment
+steps:
+- slug: spend-and-demand-analysis
+  title: Spend and Demand Analysis
+  summary: Spend from orders and invoices is consolidated across units and sites, classified into categories and analysed together
+    with demand, product use, prices, supplier concentration and supply risks, and compared with the prices peers pay.
+  capabilities:
+  - category-stewardship
+  - material-demand-sensing
+  - business-intelligence-and-reporting
+  - master-data-stewardship
+  - performance-benchmarking
+  - cost-accounting
+  entities:
+  - purchase-order
+  - invoice
+  - inventory-item
+  - supplier-organisation
+  - benchmark
+  - cost-centre
+- slug: category-strategy-setting
+  title: Category Strategy Setting
+  summary: 'Each category receives a plan within the supply chain strategy: the sourcing route, alone or through a purchasing alliance,
+    the supplier base, the standard assortment and the targets for cost, supply security and sustainability, informed by dialogue
+    with the market.'
+  capabilities:
+  - supply-chain-strategy
+  - category-stewardship
+  - purchasing-cooperation
+  - ethical-sourcing-design
+  - carbon-footprint-reduction
+  - vendor-risk-management
+  - materials-availability-planning
+  - cost-management
+  entities:
+  - category-plan
+  - strategy
+  - supplier-organisation
+  - risk
+  - environmental-footprint
+  serves:
+  - supplier-market-dialogue
+- slug: clinical-product-evaluation
+  title: Clinical Product Evaluation
+  summary: Product requests are screened against the category plan, and those changing the method of care go to technology assessment;
+    clinicians, nurses, pharmacy, clinical engineering, hygiene and procurement compare candidates for outcome, safety, usability
+    and total cost of use, with trials where needed.
+  capabilities:
+  - clinical-product-value-analysis
+  - health-technology-assessment
+  - hazard-assessment
+  - hygiene-management
+  - anti-corruption-and-conflicts-of-interest
+  - cost-management
+  entities:
+  - product-evaluation
+  - inventory-item
+  - category-plan
+  serves:
+  - new-product-request
+  - product-trial
+- slug: assortment-standardisation
+  title: Assortment Standardisation
+  summary: The clinical product committee decides which products become standard; catalogue items are listed or delisted, order sets,
+    stock lists and preference lists are changed, and users are informed and instructed in the conversion.
+  capabilities:
+  - clinical-product-value-analysis
+  - master-data-stewardship
+  - clinical-system-configuration
+  - change-implementation
+  - device-operator-training
+  - delegation-of-authority
+  entities:
+  - governance-decision
+  - product-evaluation
+  - inventory-item
+  - category-plan
+  serves:
+  - clinical-product-committee
+  - operating-theatre
+  - ordering-catalogue
+- slug: sourcing-event-planning
+  title: Sourcing Event Planning
+  summary: 'Contract expiries, volume changes and category decisions are turned into a calendar of sourcing events, each with its
+    route: a tender of its own, a call-off from an alliance framework agreement, or a renegotiation with the current supplier.'
+  capabilities:
+  - category-stewardship
+  - contract-lifecycle-stewardship
+  - purchasing-cooperation
+  - blanket-order-management
+  - supplier-selection-and-contracting
+  entities:
+  - category-plan
+  - contract
+  - tender
+  - supplier-organisation
+- slug: supplier-performance-review
+  title: Supplier Performance Review
+  summary: Each key supplier is measured on delivery reliability, quality, price compliance, service levels, sustainability and conduct;
+    the results are reviewed with the supplier, gaps are escalated, costs recovered and corrective action agreed.
+  capabilities:
+  - supplier-performance-evaluation
+  - supplier-recovery
+  - vendor-risk-management
+  - non-conformance-management
+  - contract-lifecycle-stewardship
+  - ethical-sourcing-design
+  entities:
+  - supplier-organisation
+  - contract
+  - measure-report
+  - goods-receipt
+  - corrective-action
+  serves:
+  - supplier-portal
+  - supplier-review-meeting
+- slug: strategic-partnership-development
+  title: Strategic Partnership Development
+  summary: Strategic suppliers are developed into partnerships with supply-security commitments, joint improvement and innovation
+    on clear terms; membership in purchasing alliances is reviewed, and the results feed the next category plan.
+  capabilities:
+  - supplier-relationship-stewardship
+  - innovation-partnerships
+  - purchasing-cooperation
+  - business-continuity-design
+  - anti-corruption-and-conflicts-of-interest
+  - ethics-policy
+  entities:
+  - supplier-organisation
+  - contract
+  - organisation
+  - category-plan
+  serves:
+  - supplier-review-meeting
+  - supply-contract
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-098
+  edition: 2017-a1-2024
+  jurisdiction: global
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global
+- source: src-299
+  edition: '2021'
+  jurisdiction: global

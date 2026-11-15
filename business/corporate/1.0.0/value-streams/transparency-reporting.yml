@@ -1,0 +1,119 @@
+kind: value-stream
+slug: transparency-reporting
+title: Transparency & Reporting
+family: value-to-sustainability
+summary: Closing the books each period as a health check of the organisation, preparing financial statements that tell owners, lenders,
+  authorities and the public the truth about its position, and having them audited and disclosed.
+trigger: An accounting period closes, or a statement or disclosure falls due.
+outcome: Closed books and audited financial statements are approved and published on time.
+stakeholders:
+- finance-professional
+- executive-board
+- supervisory-board
+- external-auditor
+- shareholder
+- company-registry
+steps:
+- slug: close-preparation
+  title: Close Preparation
+  summary: The close calendar, cut-off rules and responsibilities are set, and accruals, provisions and open items are gathered from
+    every area.
+  capabilities:
+  - financial-close-as-health-check
+  entities:
+  - accounting-period
+  - plan
+  - journal-entry
+  serves:
+  - close-calendar
+- slug: ledger-completion-and-reconciliation
+  title: Ledger Completion and Reconciliation
+  summary: All sub-ledgers are posted to the general ledger, accounts are reconciled with their sources, and differences are cleared
+    before the period is closed.
+  capabilities:
+  - general-ledger-as-system-memory
+  entities:
+  - journal-entry
+  - account
+  - accounting-period
+  serves:
+  - accounting-workbench
+- slug: asset-and-valuation-adjustment
+  title: Asset and Valuation Adjustment
+  summary: Depreciation, impairments, revaluations and other valuation adjustments are posted for fixed assets and balances.
+  capabilities:
+  - fixed-asset-accounting
+  - deferred-revenue-expense
+  entities:
+  - asset
+  - journal-entry
+  serves:
+  - accounting-workbench
+- slug: period-close
+  title: Period Close
+  summary: The period is closed and locked, and the results are read as a health check of liquidity, profitability and the stewardship
+    of resources.
+  capabilities:
+  - financial-close-as-health-check
+  - general-ledger-as-system-memory
+  entities:
+  - accounting-period
+  - financial-statement
+  serves:
+  - management-report
+  - supervisory-board-meeting
+- slug: statement-preparation
+  title: Statement Preparation
+  summary: The balance sheet, income statement, cash flow statement and notes are prepared, together with a narrative of what the
+    numbers mean for each stakeholder.
+  capabilities:
+  - financial-reporting-as-storytelling
+  entities:
+  - financial-statement
+  - report
+  serves:
+  - annual-report
+  - audit-fieldwork
+- slug: statement-audit
+  title: Statement Audit
+  summary: The independent audit of the statements is prepared, supported with evidence and followed up until every finding is closed.
+  capabilities:
+  - external-audit-coordination
+  entities:
+  - audit
+  - audit-finding
+  - financial-statement
+  serves:
+  - audit-fieldwork
+  - audit-findings-letter
+  - supervisory-board-meeting
+- slug: approval-and-disclosure
+  title: Approval and Disclosure
+  summary: The audited statements are approved by the competent bodies, filed with the registry and authorities, and published to
+    owners, lenders and the public.
+  capabilities:
+  - financial-reporting-as-storytelling
+  entities:
+  - financial-statement
+  - statutory-report
+  - governance-decision
+  serves:
+  - annual-report
+  - statutory-filing
+  - supervisory-board-meeting
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-106
+  edition: '2026'
+  jurisdiction: global
+- source: src-112
+  edition: '2023'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global
+- source: src-115
+  edition: 2023-12
+  jurisdiction: global

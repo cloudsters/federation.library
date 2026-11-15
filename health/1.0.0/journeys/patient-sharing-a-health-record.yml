@@ -1,0 +1,20 @@
+kind: journey
+slug: patient-sharing-a-health-record
+title: Patient Sharing a Health Record
+stakeholder: person-with-chronic-condition
+summary: A person with a long-term condition is recognised as one person across systems and lets the commons read and write the shared
+  health record they control.
+stages:
+- slug: be-recognised-as-one-person
+  title: Be Recognised as One Person
+  goal: Records from all systems and earlier stays are linked to one identity.
+  step: interoperability-and-connectivity/interface-build-and-mapping
+  touchpoints:
+  - admission-desk
+- slug: share-the-record
+  title: Share the Record
+  goal: Findings, letters and the medication plan reach the shared record, and the person decides who sees them.
+  step: interoperability-and-connectivity/live-exchange
+  touchpoints:
+  - patient-held-health-record
+  - patient-portal

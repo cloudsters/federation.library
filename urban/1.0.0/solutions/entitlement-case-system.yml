@@ -1,0 +1,18 @@
+kind: solution
+slug: entitlement-case-system
+title: Entitlement Case System
+role: system-of-record
+summary: Holds the published entitlement rules, each application from receipt through assessment to decision, each decision with its
+  reasons and review date, and each appeal with its outcome and redress, and counts wrong decisions by cause.
+carries:
+- entitlement-rule-drafting
+- unclaimed-entitlement-outreach
+- eligibility-assessment
+- entitlement-decision-issuing
+- entitlement-review
+- entitlement-appeal-handling
+holds:
+- entitlement-rule
+- service-application
+- entitlement-decision
+- entitlement-appeal

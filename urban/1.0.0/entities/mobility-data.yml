@@ -1,0 +1,54 @@
+kind: entity
+slug: mobility-data
+title: Mobility Data
+type: intelligence
+summary: Counts and surveys of trips by walking, cycling, transit, car and delivery vehicle, by hour, route and neighbourhood. The
+  transport office collects them from sensors, ticket sales and rider surveys, together with walks with the residents the counts miss,
+  and uses them to plan the network and review who it reaches.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: modes
+  type: code
+  card: 1..*
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: trip-counts
+  type: document
+  card: 1..1
+- name: survey-results
+  type: document
+  card: 0..*
+- name: sources
+  type: code
+  card: 1..*
+- name: sensors
+  type: reference(sensor)
+  card: 0..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+states:
+- collected
+- validated
+- published
+- superseded
+relations:
+- type: based-on
+  target: sensor
+- type: refers-to
+  target: street
+- type: refers-to
+  target: transit-line
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: processing-record

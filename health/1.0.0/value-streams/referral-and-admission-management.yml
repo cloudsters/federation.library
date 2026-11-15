@@ -1,0 +1,146 @@
+kind: value-stream
+slug: referral-and-admission-management
+title: Referral and Admission Management
+family: demand-to-fulfillment
+summary: 'Turning a request for care into a scheduled appointment or admission: referral intake and assessment, acceptance, scheduling,
+  pre-admission assessment, registration and patient identification.'
+trigger: A referral or request for care is received from a patient, a referrer or another provider.
+outcome: The request is accepted and the patient is scheduled, prepared and registered, or the request is redirected with reasons.
+stakeholders:
+- referring-practice
+- referring-hospital
+- outpatient
+- elective-inpatient
+- specialist-physician
+- administrative-staff
+- registered-nurse
+- payer
+- patient-assistant-agent
+steps:
+- slug: request-receipt
+  title: Request Receipt
+  summary: A referral or request for care arrives through the referrer portal, a letter, the telephone or the patient, is matched
+    to the patient's identity and is checked for a clear question, the urgency and the clinical information needed to decide.
+  capabilities:
+  - referral-intake-management
+  - patient-contact-centre
+  - master-patient-index
+  - patient-identification
+  - secure-clinical-messaging
+  entities:
+  - request-for-care
+  - referral
+  - request-mandate
+  - patient
+  serves:
+  - appointment-service
+  - patient-portal
+  - referral-letter
+  - referrer-portal
+- slug: clinical-review-and-acceptance
+  title: Clinical Review and Acceptance
+  summary: A clinician of the receiving service assesses the request against eligibility and urgency criteria and either accepts it,
+    committing what will be done and by when, or redirects it to a better place with reasons.
+  capabilities:
+  - referral-intake-management
+  - admission-decision
+  - clinical-pathway-application
+  - second-opinion-access
+  - referrer-relationship-management
+  entities:
+  - referral
+  - care-commitment
+  - care-service
+  - care-pathway
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - patient-portal
+  - referrer-portal
+- slug: prioritisation-and-waiting-list
+  title: Prioritisation and Waiting List
+  summary: Accepted requests that cannot be scheduled at once are placed on the waiting list with a clinical priority and a due date,
+    reviewed when the patient's condition changes, and the patient is told the expected date.
+  capabilities:
+  - waiting-list-management
+  - patient-contact-centre
+  - patient-portal
+  entities:
+  - waiting-list-entry
+  - care-commitment
+  - patient
+  serves:
+  - appointment-service
+  - referrer-portal
+  - waiting-time-notice
+- slug: scheduling
+  title: Scheduling
+  summary: The appointment or admission is booked against the schedules of clinicians, beds, rooms and equipment and confirmed to
+    patient and referrer, with how to prepare, what to bring and whom to call.
+  capabilities:
+  - appointment-booking-management
+  - bed-occupancy-planning
+  - interpreting-and-language-services
+  - patient-portal
+  entities:
+  - appointment
+  - schedule
+  - bed-assignment
+  - waiting-list-entry
+  serves:
+  - appointment-confirmation
+  - appointment-service
+  - patient-portal
+  - referrer-portal
+- slug: pre-admission-assessment
+  title: Pre-Admission Assessment
+  summary: Before a planned admission, history, medication, allergies, screening for resistant organisms and fitness for the planned
+    treatment are assessed, outstanding diagnostics and consents are completed and coverage is confirmed.
+  capabilities:
+  - pre-admission-preparation
+  - preoperative-assessment
+  - medication-reconciliation
+  - nursing-risk-screening
+  - isolation-and-screening-management
+  - insurance-verification-and-coverage
+  entities:
+  - care-needs-assessment
+  - allergy-or-intolerance
+  - medication-reconciliation
+  - clinical-alert
+  - insurance-coverage
+  - coverage-approval
+  - informed-consent
+  serves:
+  - consent-form
+  - patient-portal
+  - pre-admission-clinic
+- slug: registration-and-identification
+  title: Registration and Identification
+  summary: On arrival the patient is registered, identity is verified and bound to an identification band, contacts and coverage are
+    recorded, the patient is asked for consent to the research use of data and samples, and the encounter and episode are opened under
+    the responsibility of the admitting unit.
+  capabilities:
+  - patient-registration-and-admission
+  - patient-identification
+  - master-patient-index
+  - insurance-verification-and-coverage
+  - research-consent-management
+  entities:
+  - patient
+  - related-person
+  - encounter
+  - episode-of-care
+  - insurance-coverage
+  - care-period-mandate
+  - data-use-consent
+  serves:
+  - admission-desk
+  - identification-band
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

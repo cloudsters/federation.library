@@ -1,0 +1,35 @@
+kind: journey
+slug: grieving-alongside
+title: Grieving Alongside
+stakeholder: sibling
+via: participant-to-community
+summary: A sibling shares a loss with this person, is let see the grief rather than spared it, and marks the loss together so it belongs
+  to both.
+stages:
+- slug: hear-the-news
+  title: Hear the News
+  goal: The sibling has heard of the loss from the person directly and has not been left to learn it elsewhere.
+  step: grief-to-shared-meaning/the-loss-arrives
+  touchpoints:
+  - phone-call
+- slug: be-let-see-it
+  title: Be Let See It
+  goal: The sibling has been allowed to see the grief instead of being spared it.
+  step: grief-to-shared-meaning/letting-others-see-it
+  touchpoints:
+  - heart-to-heart
+  - help-at-the-door
+- slug: bear-witness-together
+  title: Bear Witness Together
+  goal: The sibling's own memories and own way of grieving have been listened to without being hurried.
+  step: grief-to-shared-meaning/bearing-witness
+  touchpoints:
+  - the-funeral
+  - heart-to-heart
+- slug: mark-it-together
+  title: Mark It Together
+  goal: The loss has been marked together, and the date is kept as belonging to both.
+  step: grief-to-shared-meaning/marking-the-loss-together
+  touchpoints:
+  - the-funeral
+  - yearly-remembrance

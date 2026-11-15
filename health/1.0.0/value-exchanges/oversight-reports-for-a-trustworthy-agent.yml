@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: oversight-reports-for-a-trustworthy-agent
+title: Oversight Reports for a Trustworthy Agent
+between:
+- specialist-physician
+- health-informatics-specialist
+offered:
+- Reports of errors, overrides and misfits observed in daily use, and time for periodic review.
+returned:
+- An agent that is validated, monitored and corrected, and the authority and training to override or stop it.
+touchpoint: ai-monitoring-dashboard

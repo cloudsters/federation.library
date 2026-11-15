@@ -1,0 +1,27 @@
+kind: journey
+slug: works-council-guarding-workforce-data
+title: Works Council Guarding Workforce Data
+stakeholder: works-council
+summary: Employee representatives agree the purposes and access rules of people systems, co-own the design of surveys and receive
+  workforce insight so that sensing serves people rather than polices them.
+stages:
+- slug: agree-the-purposes
+  title: Agree the Purposes
+  goal: People systems go live only under a data-use charter the council has agreed.
+  step: participant-intelligence-sensing/people-systems-set-up
+  touchpoints:
+  - data-use-charter
+  - works-council-meeting
+- slug: co-own-the-listening
+  title: Co-Own the Listening
+  goal: Surveys are designed with the council, run with consent and never traced to individuals.
+  step: participant-intelligence-sensing/voice-and-wellbeing-sensing
+  touchpoints:
+  - employee-survey
+- slug: receive-the-insight
+  title: Receive the Insight
+  goal: The council receives aggregated workforce insight and sees the decisions taken on it followed up.
+  step: participant-intelligence-sensing/people-insight-delivery
+  touchpoints:
+  - people-dashboard
+  - works-council-meeting

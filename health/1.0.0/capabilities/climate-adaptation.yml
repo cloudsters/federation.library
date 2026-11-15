@@ -1,0 +1,19 @@
+kind: capability
+slug: climate-adaptation
+title: Climate Adaptation
+level: L3
+parent: environmental-sustainability
+summary: Prepare buildings, services and staff for heat waves, floods and other climate impacts.
+binds:
+- source: src-367
+  edition: '2019'
+  jurisdiction: global
+- source: src-368
+  edition: '2021'
+  jurisdiction: global
+- source: src-500
+  edition: '2023'
+  jurisdiction: global
+- source: src-571
+  edition: '2026'
+  jurisdiction: global

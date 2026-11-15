@@ -1,0 +1,6 @@
+kind: capability
+slug: model-monitoring-and-drift
+title: Model Monitoring & Drift
+level: L3
+parent: ai-governance-and-assurance
+summary: Monitor deployed models for performance, drift and bias over time.

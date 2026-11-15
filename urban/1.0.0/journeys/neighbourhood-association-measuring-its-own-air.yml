@@ -1,0 +1,39 @@
+kind: journey
+slug: neighbourhood-association-measuring-its-own-air
+title: Neighbourhood Association Measuring Its Own Air
+stakeholder: neighbourhood-association
+summary: A neighbourhood association asks what the air in its streets is doing to residents, measures it with its own sensors in the
+  city's data platform, keeps the readings fit for use, reads them with the city's analysts and sees the results opened to all.
+stages:
+- slug: ask-the-question
+  title: Ask the Question
+  goal: The neighbourhood's question and the decision it serves are recorded before any data is gathered.
+  step: city-data-and-analytics/information-need-intake
+  touchpoints:
+  - evidence-request-form
+- slug: measure-with-its-own-sensors
+  title: Measure with Its Own Sensors
+  goal: Residents' own measurements flow into the city's data platform under its access rules.
+  step: city-data-and-analytics/data-sourcing-and-integration
+  touchpoints:
+  - community-sensor-kit
+- slug: keep-the-readings-sound
+  title: Keep the Readings Sound
+  goal: The readings are checked for completeness and correctness, and the gaps in their coverage are recorded.
+  step: city-data-and-analytics/data-quality-assurance
+  touchpoints:
+  - data-quality-dashboard
+- slug: read-the-data-together
+  title: Read the Data Together
+  goal: Residents trained to read local data have worked through the results with the analysts, and the uncertainty of each result
+    is stated.
+  step: city-data-and-analytics/analysis-and-modelling
+  touchpoints:
+  - data-literacy-workshop
+- slug: open-the-results
+  title: Open the Results
+  goal: The results reach the neighbourhood, join the shared city picture and are released as open data.
+  step: city-data-and-analytics/release-and-open-data
+  touchpoints:
+  - evidence-briefing
+  - open-data-download-page

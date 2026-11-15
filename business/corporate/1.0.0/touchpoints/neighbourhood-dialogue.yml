@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: neighbourhood-dialogue
+title: Neighbourhood Dialogue
+medium: encounter
+summary: The regular meeting or contact through which the neighbours of a site raise concerns about noise, traffic or emissions and
+  learn of plans and incidents.
+exchanges:
+- presence-for-neighbourly-goodwill
+- prompt-warning-for-calm-cooperation
+journey: neighbour-living-alongside-a-site

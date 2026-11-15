@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: mandate-for-knowing-who-answers
+title: Mandate for Knowing Who Answers
+between:
+- resident
+- city-council
+offered:
+- The mandate residents give through their vote.
+returned:
+- A published map that states which body decides what and who answers for each matter.
+touchpoint: published-decision-map

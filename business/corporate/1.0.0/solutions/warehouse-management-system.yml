@@ -1,0 +1,22 @@
+kind: solution
+slug: warehouse-management-system
+title: Warehouse Management System
+role: system-of-record
+summary: Directs receiving, put-away, picking, packing, shipping and counting in each warehouse, and knows the location, batch and
+  serial number of every unit in stock.
+carries:
+- consignment-stock-management
+- inbound-flow-orchestration
+- pick-pack-ship-orchestration
+- returns-reverse-logistics
+- serial-number-tracking
+- stock-reconciliation-practice
+- warehouse-topology-design
+- warehousing-as-stewardship
+holds:
+- warehouse
+- location
+- stock-entry
+- stock-reconciliation
+- serial-number
+- batch-lot

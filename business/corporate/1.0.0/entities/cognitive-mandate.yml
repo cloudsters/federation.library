@@ -1,0 +1,31 @@
+kind: entity
+slug: cognitive-mandate
+title: Cognitive Mandate
+type: governance
+summary: A cognitive act that must remain human — consent, purpose definition, ethical review, accountability attribution. Formally
+  listed in the commons charter, protected from agent substitution, and reviewed at defined intervals. The commons’ theory of what
+  human governance means in an age of capable agents.
+attributes:
+- name: reserved-acts
+  type: text
+  card: 1..*
+- name: rationale
+  type: text
+  card: 1..*
+- name: substitution-protection
+  type: text
+  card: 1..1
+- name: review-interval
+  type: code
+  card: 1..1
+states:
+- listed
+- protected
+- enforced
+- reviewed
+- evolved
+relations:
+- type: part-of
+  target: commons-charter
+- type: refers-to
+  target: agent-mandate

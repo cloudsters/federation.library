@@ -1,0 +1,52 @@
+kind: entity
+slug: livelihood-floor-agreement
+title: Livelihood Floor Agreement
+type: governance
+summary: The binding agreement that the core roles keeping the commons running receive at least a living income, with the roles covered,
+  the source of funds and how the levels are set. The council or the body of the commons fund adopts it, and it is used to pay park
+  caretakers, facilitators, maintenance workers and knowledge keepers whatever their decisions.
+attributes:
+- name: roles-covered
+  type: text
+  card: 1..*
+- name: income-floor
+  type: amount
+  card: 1..1
+- name: level-setting-rule
+  type: text
+  card: 1..1
+- name: funding-source
+  type: reference(commons-fund)
+  card: 0..1
+- name: other-funding
+  type: text
+  card: 0..*
+- name: labour-valuation
+  type: reference(labour-valuation)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- reviewed
+- renewed
+- ended
+relations:
+- type: based-on
+  target: labour-valuation
+- type: depends-on
+  target: commons-fund
+- type: governed-by
+  target: commons-fund-rules
+- type: produces
+  target: payment

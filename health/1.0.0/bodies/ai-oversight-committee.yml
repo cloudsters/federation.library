@@ -1,0 +1,17 @@
+kind: body
+slug: ai-oversight-committee
+title: AI Oversight Committee
+summary: 'Governs the use of artificial intelligence: sets mandates and approval rules, validates clinical decision support before
+  and during use, and assures regulatory conformity and fair performance across patient groups.'
+holds:
+- ai-governance-framework
+- decision-support-validation
+- ai-regulatory-conformity
+- algorithmic-fairness-assurance
+part_of: executive-board
+type: committee
+form: governing-body
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

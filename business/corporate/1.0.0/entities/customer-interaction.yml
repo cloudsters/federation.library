@@ -1,0 +1,41 @@
+kind: entity
+slug: customer-interaction
+title: Customer Interaction
+type: transactional
+summary: A recorded contact between the enterprise and a customer, prospect or partner, such as a call, visit, meeting, message or
+  chat, with its participants, topic, outcome and agreed next step.
+attributes:
+- name: interaction-kind
+  type: code
+  card: 1..1
+- name: customer-account
+  type: reference(customer)
+  card: 0..1
+- name: contacts
+  type: reference(contact)
+  card: 0..*
+- name: employee
+  type: reference(employee-record)
+  card: 0..1
+- name: channel
+  type: code
+  card: 1..1
+- name: occurred-at
+  type: datetime
+  card: 1..1
+- name: notes
+  type: text
+  card: 0..1
+- name: next-step
+  type: text
+  card: 0..1
+states:
+- planned
+- held
+- logged
+- cancelled
+relations:
+- type: refers-to
+  target: opportunity
+- type: refers-to
+  target: helpdesk-ticket

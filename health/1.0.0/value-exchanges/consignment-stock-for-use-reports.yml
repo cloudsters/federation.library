@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consignment-stock-for-use-reports
+title: Consignment Stock for Use Reports
+between:
+- supplier
+- administrative-staff
+offered:
+- Implants and high-cost items held on site in the supplier's ownership, in the sizes needed and replaced after use.
+returned:
+- A prompt and accurate report of every item used, with its serial number, and payment for consumption on the agreed terms.
+touchpoint: supplier-portal

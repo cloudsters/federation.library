@@ -1,0 +1,10 @@
+kind: capability
+slug: ambient-clinical-documentation
+title: Ambient Clinical Documentation
+level: L3
+parent: human-agent-collaboration
+summary: Generate draft clinical documentation from conversations and data for clinician review.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

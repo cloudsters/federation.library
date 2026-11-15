@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-psychology
+title: Clinical Psychology
+level: L3
+parent: supportive-clinical-services
+summary: Provide psychological assessment and support to patients, including in cancer care.
+binds:
+- source: src-579
+  edition: '1.2026'
+  jurisdiction: global

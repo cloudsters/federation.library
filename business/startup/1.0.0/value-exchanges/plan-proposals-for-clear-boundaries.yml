@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: plan-proposals-for-clear-boundaries
+title: Plan Proposals for Clear Boundaries
+between:
+- operations-planning-agent
+- executive-board
+offered:
+- Plan proposals, scenarios and early warnings of bottlenecks and shortages, prepared from current orders, stock and capacity.
+returned:
+- Clear boundaries for what the agent may propose, timely decisions on trade-offs and the data it needs.
+touchpoint: integrated-planning-meeting

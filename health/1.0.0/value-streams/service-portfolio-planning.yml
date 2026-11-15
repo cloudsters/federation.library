@@ -1,0 +1,166 @@
+kind: value-stream
+slug: service-portfolio-planning
+title: Service Portfolio Planning
+family: purpose-to-portfolio
+summary: Deciding which clinical services and specialties the organisation offers, at which sites, in which volumes and at which level
+  of specialisation, including entering, growing, concentrating or exiting services.
+trigger: The strategy, the care mandate, demand forecasts or service performance indicate that the service mix must change.
+outcome: A decided service portfolio per site, with volume targets and planned entries and exits, is handed to the units that implement
+  it.
+stakeholders:
+- executive
+- head-of-clinical-department
+- health-planning-authority
+- national-care-standards-body
+- payer
+- referring-practice
+- referring-hospital
+- staff-representation
+- general-public
+steps:
+- slug: portfolio-review-opening
+  title: Portfolio Review Opening
+  summary: Signals from the strategy, the mandate, demand forecasts and service performance are collected, and the board opens a review
+    of the service mix with its scope, sites and decision calendar.
+  capabilities:
+  - clinical-service-portfolio-stewardship
+  - drift-and-vitality-sensing
+  - regulatory-landscape-sensing
+  - integrated-performance-review
+  entities:
+  - care-service
+  - service-mandate
+  - strategy
+  - measure-report
+  serves:
+  - performance-dialogue
+- slug: service-performance-assessment
+  title: Service Performance Assessment
+  summary: Each service is assessed per site against its mandate, its volumes and volume thresholds, its outcomes, its qualifying
+    criteria, its contribution margin and its position with referrers.
+  capabilities:
+  - service-line-profitability
+  - clinical-outcome-tracking
+  - outcome-benchmarking
+  - service-group-qualification
+  - demand-and-market-analysis
+  entities:
+  - care-service
+  - measure-report
+  - benchmark
+  - patient-level-cost
+  - volume-threshold
+  - service-group-assignment
+  serves:
+  - performance-dashboard
+  - performance-dialogue
+  - public-quality-report
+- slug: demand-and-mandate-projection
+  title: Demand and Mandate Projection
+  summary: Population need and referral volumes are projected per service and site, together with the shift of care to day-case and
+    home settings and the expected changes in the regional care plan.
+  capabilities:
+  - population-needs-assessment
+  - referral-volume-forecasting
+  - care-model-shift-planning
+  - service-region-design
+  - regional-care-planning-participation
+  - predictive-analytics
+  entities:
+  - catchment-population
+  - capacity-forecast
+  - service-mandate
+  - service-group
+  serves:
+  - performance-dashboard
+  - referrer-forum
+  - regional-planning-conference
+- slug: portfolio-option-design
+  title: Portfolio Option Design
+  summary: Options per service and site, to enter, grow, hold, concentrate, transfer to a network partner or exit, are developed with
+    their concepts, staffing implications and business cases.
+  capabilities:
+  - service-concept-development
+  - service-business-case
+  - business-model-evolution
+  - network-partnership-governance
+  - strategic-workforce-planning
+  - health-technology-assessment
+  entities:
+  - care-service
+  - site
+  - service-group
+  - care-network
+  serves:
+  - business-case
+  - regional-planning-conference
+- slug: portfolio-decision
+  title: Portfolio Decision
+  summary: The board decides the portfolio per site, with volume targets and planned entries, concentrations and exits, after consulting
+    staff representation and, where required, the owner.
+  capabilities:
+  - clinical-service-portfolio-stewardship
+  - co-determination-cooperation
+  - owner-relations
+  - legal-advisory
+  - risk-oversight-and-coordination
+  entities:
+  - governance-decision
+  - care-service
+  - strategic-objective
+  serves:
+  - performance-dialogue
+  - public-consultation-meeting
+  - staff-consultation
+- slug: mandate-and-volume-alignment
+  title: Mandate and Volume Alignment
+  summary: 'The decided portfolio is carried into the mandate and payment frame: service groups are applied for or returned, volume
+    thresholds are forecast, and volumes are agreed with payers.'
+  capabilities:
+  - care-mandate-definition
+  - service-group-qualification
+  - care-level-classification
+  - payer-budget-negotiation
+  - government-relations
+  - regional-care-planning-participation
+  entities:
+  - service-group-assignment
+  - service-mandate
+  - volume-threshold
+  - payer-agreement
+  serves:
+  - care-mandate-decision
+  - payer-negotiation
+  - regional-planning-conference
+  - service-group-application
+- slug: portfolio-handover
+  title: Portfolio Handover
+  summary: The decided portfolio is handed to the units with objectives, budgets and timelines for entries and exits, and referrers,
+    patients and the public are told what changes and where care is now found.
+  capabilities:
+  - service-lifecycle-management
+  - goal-setting-and-cascade
+  - planning-and-budgeting
+  - referrer-relationship-management
+  - website-cms-management
+  - community-relations
+  - internal-communication
+  entities:
+  - care-service
+  - strategic-objective
+  - budget
+  - referral-relationship
+  serves:
+  - public-website
+  - referrer-forum
+  - referrer-portal
+  - staff-consultation
+  - staff-town-hall
+  - unit-objectives-agreement
+binds:
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

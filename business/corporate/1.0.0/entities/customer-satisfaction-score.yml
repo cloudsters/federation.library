@@ -1,0 +1,36 @@
+kind: entity
+slug: customer-satisfaction-score
+title: Customer Satisfaction Score
+type: intelligence
+summary: A measure of exchange quality — the organisation's indicator of how well its propositions meet customer expectations, and so of
+  how well its proposition and exchange (D3) work.
+attributes:
+- name: rating
+  type: decimal
+  card: 1..1
+- name: scale
+  type: code
+  card: 1..1
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: captured-at
+  type: datetime
+  card: 1..1
+- name: verbatim
+  type: text
+  card: 0..1
+states:
+- solicited
+- captured
+- aggregated
+- trended
+- acted-upon
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: helpdesk-ticket

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: standby-supplier-qualification
+title: Standby Supplier Qualification
+medium: encounter
+summary: The meeting in which the procurement office qualifies a local or regional supplier of an essential good and signs a standby
+  agreement with it.
+exchanges:
+- standby-capacity-for-a-place-in-the-plan
+journey: local-producer-standing-by-for-essential-supply

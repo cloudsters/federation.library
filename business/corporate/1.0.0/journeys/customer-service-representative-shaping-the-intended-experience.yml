@@ -1,0 +1,37 @@
+kind: journey
+slug: customer-service-representative-shaping-the-intended-experience
+title: Customer Service Representative Shaping the Intended Experience
+stakeholder: customer-service-representative
+summary: A customer service representative brings front-line knowledge into journey mapping, helps define how service should feel
+  and what policies are fair, prepares for safety cases and is trained to the agreed standards.
+stages:
+- slug: map-the-obstacles
+  title: Map the Obstacles
+  goal: What customers report at the front line marks the obstacles on the journey map.
+  step: experience-strategy-design/journey-and-obstacle-mapping
+  touchpoints:
+  - journey-mapping-workshop
+- slug: define-how-it-should-feel
+  title: Define How It Should Feel
+  goal: The intended experience and the behaviours that express care are articulated in terms the team can live.
+  step: experience-strategy-design/intended-experience-definition
+  touchpoints:
+  - journey-mapping-workshop
+- slug: shape-fair-policies
+  title: Shape Fair Policies
+  goal: Service levels and policies are fair commitments that the team can keep.
+  step: experience-strategy-design/service-levels-and-policies
+  touchpoints:
+  - service-commitments
+- slug: prepare-for-a-safety-case
+  title: Prepare for a Safety Case
+  goal: The representative knows the playbook and their role if a safety issue or recall arises.
+  step: experience-strategy-design/warranty-and-safety-response-terms
+  touchpoints:
+  - recall-playbook
+- slug: learn-the-standards
+  title: Learn the Standards
+  goal: The representative is trained to the published standards and knows the authority they have to resolve concerns.
+  step: experience-strategy-design/experience-standards-adoption
+  touchpoints:
+  - service-standards-training

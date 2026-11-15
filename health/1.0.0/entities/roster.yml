@@ -1,0 +1,42 @@
+kind: entity
+slug: roster
+title: Roster
+type: transactional
+summary: The planned allocation of staff to shifts and on-call duties for a unit over a planning period, built against demand, skill
+  mix, staffing standards and working-time rules.
+attributes:
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: planning-period
+  type: period
+  card: 1..1
+- name: staffing-standards
+  type: reference(staffing-standard)
+  card: 0..*
+- name: planned-hours
+  type: quantity
+  card: 0..1
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- draft
+- published
+- in-execution
+- closed
+relations:
+- type: assigned-to
+  target: organisation-unit
+- type: governed-by
+  target: staffing-standard
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global

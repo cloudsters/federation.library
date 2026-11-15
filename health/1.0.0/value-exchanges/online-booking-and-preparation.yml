@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: online-booking-and-preparation
+title: Online Booking and Preparation
+between:
+- administrative-staff
+- outpatient
+offered:
+- Bookable appointments with real availability, reminders, and pre-visit questionnaires that make the visit shorter and better prepared.
+returned:
+- Self-service booking and completed questionnaires that reduce telephone load and missed appointments, and current contact and coverage
+  data.
+touchpoint: patient-portal

@@ -1,0 +1,14 @@
+kind: body
+slug: personnel-committee
+title: Personnel Committee
+summary: Prepares the council's decisions on the workforce plan, the pay scale, local hiring requirements and fixed terms for roles
+  that gather power, and receives the reviews of retention, pay fairness and succession.
+holds:
+- workforce-plan-drafting
+- pay-scale-design
+- local-hiring-requirement-setting
+- role-rotation-scheduling
+- retention-review
+part_of: full-council
+type: committee
+form: governing-body

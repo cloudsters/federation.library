@@ -1,0 +1,9 @@
+kind: body
+slug: payroll-and-benefits-administration
+title: Payroll and Benefits Administration
+summary: Pays people correctly and on time, administers benefits and files what is owed to authorities and funds.
+holds:
+- payroll-and-benefits
+part_of: human-resources
+type: function
+form: organisational-unit

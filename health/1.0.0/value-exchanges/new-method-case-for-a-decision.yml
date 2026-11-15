@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: new-method-case-for-a-decision
+title: New Method Case for a Decision
+between:
+- specialist-physician
+- executive
+offered:
+- 'The proposing physician offers a case for the new method: the patients who would benefit, the evidence, the expected volumes and
+  the training it needs.'
+returned:
+- The executive returns a reasoned decision and, on adoption, funding, a controlled introduction with training and privileges, and
+  a date for follow-up evaluation.
+touchpoint: technology-assessment-committee

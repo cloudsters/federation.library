@@ -1,0 +1,59 @@
+kind: entity
+slug: care-assessment
+title: Care Assessment
+type: transactional
+summary: The assessment of a person's needs, strengths and wishes for care and support, made with them and their carers. The social
+  worker responsible records it, and it is the basis of the care plan.
+attributes:
+- name: person
+  type: identifier
+  card: 1..1
+- name: carers
+  type: text
+  card: 0..*
+- name: requested-by
+  type: text
+  card: 1..1
+- name: request-route
+  type: code
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: social-worker
+  type: text
+  card: 1..1
+- name: needs
+  type: text
+  card: 1..*
+- name: strengths
+  type: text
+  card: 0..*
+- name: wishes
+  type: text
+  card: 0..*
+- name: community-support
+  type: text
+  card: 0..*
+- name: network
+  type: reference(care-network-agreement)
+  card: 0..1
+- name: assessed-on
+  type: date
+  card: 0..1
+states:
+- requested
+- scheduled
+- in-assessment
+- completed
+- reviewed
+- closed
+relations:
+- type: governed-by
+  target: care-network-agreement
+- type: refers-to
+  target: care-map
+- type: refers-to
+  target: public-service
+- type: produces
+  target: care-plan

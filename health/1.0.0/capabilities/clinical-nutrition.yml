@@ -1,0 +1,16 @@
+kind: capability
+slug: clinical-nutrition
+title: Clinical Nutrition
+level: L3
+parent: supportive-clinical-services
+summary: Assess nutritional status and provide nutrition therapy, including enteral and parenteral nutrition.
+binds:
+- source: src-510
+  edition: '2021'
+  jurisdiction: global
+- source: src-555
+  edition: '2019'
+  jurisdiction: global
+- source: src-591
+  edition: '2003'
+  jurisdiction: global

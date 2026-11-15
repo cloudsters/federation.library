@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: emergency-number
+title: Emergency Number
+medium: channel
+summary: The one number for urgent help, answered at once in the caller's language, from which the right responder is sent.
+exchanges:
+- call-for-help-for-the-right-responder
+journey: resident-calling-for-help

@@ -1,0 +1,37 @@
+kind: journey
+slug: business-customer-relying-on-an-offering-over-time
+title: Business Customer Relying on an Offering Over Time
+stakeholder: business-customer
+summary: A business customer builds its own operation on an offering, needs to know what is coming, chooses from clear variants, finds
+  the same information everywhere and is carried through to a successor when the offering is retired.
+stages:
+- slug: see-what-is-coming
+  title: See What Is Coming
+  goal: The customer knows which releases and withdrawals are planned and can time its own purchases and changes around them.
+  step: offering-portfolio-stewardship/offering-roadmap
+  touchpoints:
+  - account-review
+  - offering-roadmap
+- slug: choose-among-clear-variants
+  title: Choose Among Clear Variants
+  goal: The customer chooses from a clear set of variants and options that can be delivered reliably.
+  step: offering-portfolio-stewardship/variant-and-configuration-governance
+  touchpoints:
+  - product-catalogue
+  - customer-portal
+- slug: find-reliable-information
+  title: Find Reliable Information
+  goal: Data sheets, descriptions and documents are accurate and consistent wherever the customer looks.
+  step: offering-portfolio-stewardship/offering-knowledge-upkeep
+  touchpoints:
+  - offering-description
+  - customer-portal
+  - website
+- slug: migrate-before-withdrawal
+  title: Migrate Before Withdrawal
+  goal: The customer is told in good time when an offering will be retired, with last-order dates, a successor and support through
+    the change.
+  step: offering-portfolio-stewardship/lifecycle-decision-and-retirement
+  touchpoints:
+  - discontinuation-notice
+  - account-review

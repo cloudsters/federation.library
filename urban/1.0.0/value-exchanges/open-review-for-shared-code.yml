@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-review-for-shared-code
+title: Open Review for Shared Code
+between:
+- civic-technology-community
+- information-technology-specialist
+offered:
+- Reviews of the new digital route, fixes and checks of its accessibility.
+returned:
+- The route's code and data definitions published under open licence, and their findings taken into the release.
+touchpoint: form-cutting-workshop

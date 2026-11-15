@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: single-care-request-point
+title: Single Care Request Point
+medium: channel
+summary: The one point, by telephone, online and in person, at which a resident, family, professional or neighbour asks for care or
+  support, whatever the person's status.
+exchanges:
+- care-request-for-one-point-of-contact
+journey: social-worker-joining-care-around-a-person

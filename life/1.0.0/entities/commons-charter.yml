@@ -1,0 +1,37 @@
+kind: entity
+slug: commons-charter
+title: Commons Charter
+type: governance
+summary: The terms on which this life participates in something governed with others — what is contributed, what is drawn, and what
+  obligations follow from membership.
+attributes:
+- name: commons
+  type: reference(commons-instance)
+  card: 1..1
+- name: joined-on
+  type: date
+  card: 0..1
+- name: contributed
+  type: text
+  card: 1..*
+- name: drawn
+  type: text
+  card: 0..*
+- name: obligations
+  type: text
+  card: 0..*
+- name: how-to-leave
+  type: text
+  card: 0..1
+- name: next-reading
+  type: date
+  card: 0..1
+states:
+- joined
+- active
+- lapsed
+- renegotiated
+- left
+relations:
+- target: commons-instance
+  type: about

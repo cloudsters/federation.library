@@ -1,0 +1,57 @@
+kind: entity
+slug: cause-analysis-report
+title: Cause Analysis Report
+type: intelligence
+summary: The causes found for a serious or repeated failure in the process, the tools and the conditions of work, with the evidence
+  and the actions proposed to remove them. The staff who run the service and those affected prepare it together and the process owner
+  keeps it, and the corrective actions are agreed on its basis.
+attributes:
+- name: failures
+  type: reference(service-failure-report)
+  card: 1..*
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: analysed-with
+  type: text
+  card: 1..*
+- name: process-map
+  type: reference(process-map)
+  card: 0..1
+- name: causes
+  type: text
+  card: 1..*
+- name: cause-categories
+  type: code
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..*
+- name: proposed-actions
+  type: text
+  card: 1..*
+- name: completed-on
+  type: date
+  card: 0..1
+- name: shared-as
+  type: reference(lesson-record)
+  card: 0..1
+states:
+- opened
+- analysing
+- reported
+- accepted
+- closed
+relations:
+- type: based-on
+  target: service-failure-report
+- type: refers-to
+  target: process-map
+- type: produces
+  target: corrective-action
+- type: produces
+  target: lesson-record
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

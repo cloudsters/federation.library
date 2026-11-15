@@ -1,0 +1,34 @@
+kind: entity
+slug: ancestor
+title: Ancestor
+type: master
+summary: Someone this life descends from whose patterns it still carries — in habits, in expectations, in what was never discussed.
+  Named whether or not they were known personally, because what is inherited does not require acquaintance.
+attributes:
+- name: relation-to-self
+  type: code
+  card: 1..1
+- name: known-personally
+  type: boolean
+  card: 1..1
+- name: lifetime
+  type: period
+  card: 0..1
+- name: what-came-down
+  type: text
+  card: 0..*
+- name: patterns-carried
+  type: text
+  card: 0..*
+- name: sources
+  type: text
+  card: 0..*
+states:
+- unknown
+- traced
+- recognised in oneself
+- reckoned with
+- carried by choice
+relations:
+- target: life-narrative
+  type: part-of

@@ -1,0 +1,43 @@
+kind: entity
+slug: bom
+title: Bill of Materials
+type: master
+summary: The recipe of production — a precise declaration of what goes into what, at what quantity, with what alternatives. The system's
+  memory of how to transform raw materials into delivered value.
+attributes:
+- name: parent-item
+  type: reference(item)
+  card: 1..1
+- name: components
+  type: reference(item)
+  card: 1..*
+- name: component-lines
+  type: text
+  card: 1..*
+- name: routing
+  type: text
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: active
+  type: boolean
+  card: 1..1
+- name: rolled-up-cost
+  type: amount
+  card: 0..1
+states:
+- drafted
+- validated
+- active
+- revised
+- obsoleted
+relations:
+- type: composed-of
+  target: item
+- type: refers-to
+  target: work-order
+- type: refers-to
+  target: workstation
+- type: refers-to
+  target: product

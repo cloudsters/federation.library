@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: newsletter
+title: Newsletter
+medium: channel
+summary: The regular email or postal message to people who have asked for it, carrying news, useful content and offers.
+exchanges:
+- consent-for-relevant-contact
+journey: prospective-customer-growing-interested

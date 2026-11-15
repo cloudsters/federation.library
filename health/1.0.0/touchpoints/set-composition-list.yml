@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: set-composition-list
+title: Set Composition List
+medium: artefact
+summary: The list of the instruments that belong to a set, with images and processing notes, used to assemble the set, to check it
+  before use and to count it after use.
+exchanges:
+- used-sets-for-sterile-sets
+- loan-sets-for-timely-reprocessing
+journey: theatre-team-relying-on-sterile-instruments

@@ -1,0 +1,26 @@
+kind: journey
+slug: inheriting-the-work
+title: Inheriting the Work
+stakeholder: descendant
+via: discovery-to-usage
+summary: Those who come after receive a life's work gathered in one place, know where it lives and what should happen to it, and can
+  see it whole.
+stages:
+- slug: find-it-in-one-place
+  title: Find It in One Place
+  goal: The work, including what others held, lies in one place with what each piece is and when it was made.
+  step: work-to-body-of-work/gathering-the-pieces
+  touchpoints:
+  - family-archive
+- slug: know-where-it-lives
+  title: Know Where It Lives
+  goal: Someone besides the maker knows where the work is and what should happen to it.
+  step: work-to-body-of-work/telling-someone-where-it-is
+  touchpoints:
+  - the-will
+- slug: see-it-whole
+  title: See It Whole
+  goal: The work has been shown as a whole to those who might use it, now or later.
+  step: work-to-body-of-work/letting-it-be-seen-whole
+  touchpoints:
+  - published-work

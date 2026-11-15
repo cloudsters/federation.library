@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: usage-reports-for-open-patterns
+title: Usage Reports for Open Patterns
+between:
+- peer-city
+- city-administration
+offered:
+- Reports of how a pattern worked where they used it.
+returned:
+- Free access to the patterns with their conditions, and notice when one is revised or retired.
+touchpoint: city-pattern-library

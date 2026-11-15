@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: triage
+title: Triage
+medium: encounter
+summary: The first structured assessment of an arriving emergency patient by a trained nurse, which sets the urgency category and
+  the maximum time to physician contact and is repeated while the patient waits.
+exchanges:
+- urgency-for-an-honest-wait
+journey: emergency-patient-journey

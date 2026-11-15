@@ -1,0 +1,134 @@
+kind: value-stream
+slug: homelessness-and-housing-allocation
+title: Homelessness and Housing Allocation
+family: demand-to-fulfillment
+summary: Making sure that every resident has a secure and affordable place to live, and that no one is left without shelter. It holds
+  the assessment of housing need by neighbourhood, household and income, early help for residents at risk of losing their home, emergency
+  shelter offered without conditions, applications for an affordable home and their assessment, the allocation of the city's affordable
+  homes by published rules, and the move into a settled home with the support that keeps it.
+trigger: A resident applies for a home or for help, a household is at risk of losing its home, someone is found without shelter, or
+  the yearly assessment of housing need is due.
+outcome: Residents without a home are sheltered and on a path to a settled home, affordable homes are let by rules anyone can read,
+  and those at risk keep the home they have.
+stakeholders:
+- resident-without-a-home
+- resident
+- tenant
+- housing-officer
+- social-worker
+- community-land-trust
+- newcomer
+- city-council
+steps:
+- slug: housing-need-assessment
+  title: Housing Need Assessment
+  summary: The housing office assesses each year how many homes of which size and cost each neighbourhood and group needs, sets this
+    beside the homes the city and others hold and the ratio of housing costs to incomes, and reports the gap to the council for the
+    housing policy.
+  capabilities:
+  - housing-need-analysis
+  - growth-projection
+  - displacement-risk-assessment
+  entities:
+  - housing-index
+  - need-assessment
+  - housing-policy
+  - dwelling
+  serves:
+  - housing-need-report
+- slug: early-help-to-keep-a-home
+  title: Early Help to Keep a Home
+  summary: Housing officers, social workers and neighbour networks spot households at risk of eviction or arrears early, offer advice
+    on their rights, negotiate with the landlord and link them to the support they are entitled to, so that the home is kept.
+  capabilities:
+  - tenancy-sustainment-support
+  - unclaimed-entitlement-outreach
+  - care-service-linking
+  entities:
+  - housing-case
+  - tenancy
+  - arrears-case
+  serves:
+  - eviction-prevention-visit
+  - housing-advice-desk
+- slug: emergency-shelter-provision
+  title: Emergency Shelter Provision
+  summary: A resident without shelter is offered a safe place the same day, without conditions on status, records or behaviour, and
+    their needs for care and for a settled home are assessed with them.
+  capabilities:
+  - emergency-shelter-placement
+  - care-needs-assessment
+  entities:
+  - emergency-shelter
+  - housing-case
+  serves:
+  - low-threshold-shelter
+  - same-day-shelter-line
+- slug: housing-application-and-register
+  title: Housing Application and Register
+  summary: A resident applies for an affordable home by any route, with help where needed, their need and circumstances are assessed
+    against the published rules, and they are placed on the housing register with a stated priority they can see and challenge.
+  capabilities:
+  - service-application-intake
+  - eligibility-assessment
+  - entitlement-appeal-handling
+  entities:
+  - housing-register
+  - service-application
+  - entitlement-rule
+  serves:
+  - housing-advice-desk
+  - housing-register-portal
+- slug: home-allocation
+  title: Home Allocation
+  summary: When a home of the city or a partner falls empty, it is matched to applicants on the register by priority, household size
+    and access needs, offered with a reasoned decision, and every allocation is recorded openly.
+  capabilities:
+  - home-allocation-matching
+  - entitlement-decision-issuing
+  entities:
+  - dwelling
+  - housing-register
+  - entitlement-decision
+  serves:
+  - home-offer-letter
+  - published-allocation-record
+- slug: move-in-and-settling-support
+  title: Move-In and Settling Support
+  summary: The new tenant moves in with furniture, connections and benefits in place, and receives support for as long as needed to
+    settle, so that a resident who was without a home keeps the new one.
+  capabilities:
+  - tenancy-sustainment-support
+  - tenancy-administration
+  - care-service-linking
+  entities:
+  - tenancy
+  - housing-case
+  - dwelling
+  serves:
+  - tenancy-support-visit
+- slug: allocation-and-homelessness-review
+  title: Allocation and Homelessness Review
+  summary: Once a year the housing office reviews with residents and housing bodies who received a home, who waited longest, how many
+    were sheltered and rehoused and how many lost their homes, and reports to the council.
+  capabilities:
+  - housing-need-analysis
+  - service-quality-review
+  - participation-feedback-reporting
+  entities:
+  - housing-register
+  - housing-index
+  serves:
+  - annual-housing-review-forum
+  - housing-need-report
+  - published-allocation-record
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-292
+  edition: '2007-02-05'
+  jurisdiction: global

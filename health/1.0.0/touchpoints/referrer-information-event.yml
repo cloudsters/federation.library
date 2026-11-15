@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: referrer-information-event
+title: Referrer Information Event
+medium: encounter
+summary: An event at which clinicians of the commons present services, pathways and results to referring practices and hospitals and
+  discuss cases with them.
+exchanges:
+- service-information-for-referrers
+journey: knowing-what-the-commons-offers

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: record-access-on-request
+title: Record Access on Request
+between:
+- administrative-staff
+- elective-inpatient
+offered:
+- A complete, readable copy of the record or access to it within the legal deadline, and correction of what is wrong.
+returned:
+- Proof of identity and entitlement, and a patient who can check their own information and carry it to other providers.
+touchpoint: patient-portal

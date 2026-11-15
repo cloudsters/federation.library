@@ -1,0 +1,130 @@
+kind: value-stream
+slug: value-stewardship-accounting
+title: Value Sensing & Stewardship Accounting
+family: value-to-sustainability
+summary: Planning and accounting for what resources really cost and yield, across money and the other capitals, so that budgets direct
+  effort where the purpose needs it and every unit can see and answer for its own flows.
+trigger: The planning cycle opens, or a period report shows a deviation from budget.
+outcome: Units operate within agreed budgets, costs and value are transparent, and every material deviation is explained and acted
+  on.
+stakeholders:
+- executive-board
+- managing-director
+- finance-professional
+- site-manager
+- finance-operations-agent
+steps:
+- slug: planning-frame-setting
+  title: Planning Frame Setting
+  summary: Financial targets, planning assumptions and the outlook for the period are derived from the strategy and the current financial
+    health of the organisation.
+  capabilities:
+  - strategic-financial-sensing
+  entities:
+  - plan
+  - forecast
+  - objective
+  serves:
+  - board-meeting
+  - planning-guideline
+- slug: budget-preparation-and-allocation
+  title: Budget Preparation and Allocation
+  summary: Budgets are prepared and allocated to cost and profit centres so that resources flow to the work the strategy needs, and
+    each centre knows what it answers for.
+  capabilities:
+  - budget-as-resource-flow-design
+  - responsibility-accounting
+  entities:
+  - budget
+  - cost-center
+  - profit-center
+  serves:
+  - budget
+  - budget-round
+- slug: cost-and-period-accounting
+  title: Cost and Period Accounting
+  summary: Costs and revenues are recorded by type, centre and object, accrued or deferred to the period they belong to, and kept
+    in every set of books the organisation must maintain.
+  capabilities:
+  - cost-accounting
+  - deferred-revenue-expense
+  - multi-book-accounting
+  entities:
+  - journal-entry
+  - cost-center
+  - account
+  - accounting-period
+  serves:
+  - accounting-workbench
+- slug: multi-capital-recording
+  title: Multi-Capital Recording
+  summary: The organisation's draw on and contribution to natural, social and human capital are recorded next to its financial flows,
+    so that ecological and social costs appear where they arise.
+  capabilities:
+  - multi-capital-accounting
+  - ecological-accounting
+  entities:
+  - environmental-footprint
+  - measure
+  - account
+  serves:
+  - accounting-workbench
+  - cost-centre-report
+- slug: costing-and-value-attribution
+  title: Costing and Value Attribution
+  summary: The cost of each product and service is calculated, margins are analysed by offering, customer, channel and region, and
+    value is attributed to the units that created it together.
+  capabilities:
+  - product-costing
+  - profitability-analysis
+  - value-attribution
+  - cost-transparency
+  entities:
+  - product
+  - service
+  - profit-center
+  - measure-report
+  serves:
+  - cost-centre-report
+  - profitability-analysis
+- slug: variance-analysis-and-forecast
+  title: Variance Analysis and Forecast
+  summary: Actuals are compared with budget each period, every material deviation is explained by its owner, corrective action is
+    agreed, and the forecast for the rest of the year is updated.
+  capabilities:
+  - strategic-financial-sensing
+  - responsibility-accounting
+  - cost-transparency
+  entities:
+  - budget
+  - forecast
+  - measure-report
+  - report
+  serves:
+  - board-meeting
+  - budget-round
+  - management-report
+- slug: value-distribution-decision
+  title: Value Distribution Decision
+  summary: The surplus of the period is allocated between reinvestment, reserves, owners, staff and community by governed rules that
+    protect the organisation's long-term health.
+  capabilities:
+  - value-distribution-governance
+  entities:
+  - governance-decision
+  - financial-statement
+  - budget
+  serves:
+  - board-meeting
+  - profitability-analysis
+  - shareholder-meeting
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-106
+  edition: '2026'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

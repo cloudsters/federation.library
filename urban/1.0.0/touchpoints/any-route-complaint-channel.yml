@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: any-route-complaint-channel
+title: Any-Route Complaint Channel
+medium: channel
+summary: The channel that takes complaints in person, by telephone, letter, message or online, and records each under one reference.
+exchanges:
+- complaint-for-an-acknowledgement-and-a-named-handler
+journey: resident-complaining-about-a-broken-promise

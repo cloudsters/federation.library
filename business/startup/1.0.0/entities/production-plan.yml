@@ -1,0 +1,38 @@
+kind: entity
+slug: production-plan
+title: Production Plan
+type: transactional
+summary: The organisation's production schedule — a coordinated plan that balances demand forecasts, material availability, and production
+  capacity to determine what gets made and when.
+attributes:
+- name: demand-sources
+  type: code
+  card: 1..*
+- name: horizon
+  type: period
+  card: 1..1
+- name: netting-basis
+  type: text
+  card: 0..1
+- name: branch
+  type: reference(branch)
+  card: 0..1
+- name: proposed-work-orders
+  type: reference(work-order)
+  card: 0..*
+- name: proposed-material-requests
+  type: reference(material-request)
+  card: 0..*
+states:
+- draft
+- simulated
+- confirmed
+- released
+- closed
+relations:
+- type: based-on
+  target: forecast
+- type: produces
+  target: work-order
+- type: produces
+  target: material-request

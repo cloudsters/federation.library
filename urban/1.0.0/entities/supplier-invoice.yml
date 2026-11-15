@@ -1,0 +1,63 @@
+kind: entity
+slug: supplier-invoice
+title: Supplier Invoice
+type: transactional
+summary: A supplier's claim for payment, with its match to order and receipt, any difference in price or quantity cleared, its approval,
+  its due date and the date it was paid. The finance office captures and matches it, and once matched it is paid within the fixed
+  time and recorded in the books.
+attributes:
+- name: invoice-number
+  type: identifier
+  card: 1..1
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 0..1
+- name: goods-receipts
+  type: reference(goods-receipt)
+  card: 0..*
+- name: received-on
+  type: date
+  card: 1..1
+- name: invoice-amount
+  type: amount
+  card: 1..1
+- name: tax-amount
+  type: amount
+  card: 0..1
+- name: match-result
+  type: code
+  card: 0..1
+- name: differences
+  type: text
+  card: 0..*
+- name: payment-due-on
+  type: date
+  card: 1..1
+- name: paid-by
+  type: reference(payment)
+  card: 0..1
+- name: late-payment-interest
+  type: amount
+  card: 0..1
+states:
+- received
+- captured
+- matched
+- in-dispute
+- approved
+- paid
+- rejected
+relations:
+- type: refers-to
+  target: purchase-order
+- type: refers-to
+  target: goods-receipt
+- type: refers-to
+  target: supplier-record
+- type: produces
+  target: payment
+- type: produces
+  target: journal-entry

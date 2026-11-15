@@ -1,0 +1,86 @@
+kind: value-stream
+slug: faculty-to-longevity
+title: A Mind That Lasts
+family: acquire-to-retire
+summary: Keeping the mind working across a span longer than most people plan for.
+trigger: Names and words start to slip, a parent's memory begins to fail, or it dawns that the mind will need to last longer than
+  anyone planned.
+outcome: The mind is kept in use, curious and in company, and the life is arranged so that it can go on learning late.
+stakeholders:
+- community
+- close-friend
+- partner
+- practitioner
+steps:
+- slug: noticing-the-slips
+  title: Noticing the Slips
+  summary: Names and words begin to slip, or a parent's memory starts to fail, and the person faces the question of their own mind
+    without panic.
+  capabilities:
+  - facing-decline-without-dread
+  entities:
+  - body
+  - parent-relation
+  - health-event
+  serves:
+  - visiting-an-ageing-parent
+- slug: seeing-the-longer-span
+  title: Seeing the Longer Span
+  summary: It dawns that the mind may need to last far longer than anyone planned, and the person begins to ask what keeps it working.
+  capabilities:
+  - planning-for-a-long-life
+  entities:
+  - life-blueprint
+  - health-plan
+  - learning-plan
+- slug: keeping-on-learning
+  title: Keeping On Learning
+  summary: New skills, languages, instruments or fields are taken up on purpose, hard enough to stretch the mind and dear enough to
+    keep.
+  capabilities:
+  - learning-something-new-late
+  entities:
+  - learning-plan
+  - learning-event
+  - skill
+  - reading-list
+  serves:
+  - the-class
+- slug: keeping-company
+  title: Keeping Company
+  summary: Friendships, conversation and shared work are kept up, because a mind kept in company stays in use.
+  capabilities:
+  - keeping-friendships-alive
+  entities:
+  - friend
+  - community-relation
+  - conversation
+  serves:
+  - a-visit
+  - regular-gathering
+  - shared-meal
+- slug: looking-after-the-minds-body
+  title: Looking After the Mind's Body
+  summary: Sleep, movement, hearing, sight and blood pressure are looked after as part of looking after the mind.
+  capabilities:
+  - knowing-ones-own-baseline
+  - building-habits-into-ordinary-days
+  entities:
+  - health-plan
+  - health-data
+  - body
+  serves:
+  - doctors-appointment
+- slug: arranging-life-for-later-years
+  title: Arranging Life for Later Years
+  summary: Home, work and community are arranged so that learning, use and company stay within reach as the person ages.
+  capabilities:
+  - adapting-as-one-ages
+  - planning-for-a-long-life
+  entities:
+  - home
+  - work-direction
+  - transition
+  - community-relation
+  serves:
+  - moving-home

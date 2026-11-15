@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: family-part-for-early-word
+title: Family Part for Early Word
+between:
+- parent-or-guardian
+- educator
+offered:
+- What the family knows of the child and its part in the support agreed.
+returned:
+- Early word when the child falls behind, before the child leaves.
+touchpoint: learner-support-meeting

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: annual-data-protection-report
+title: Annual Data Protection Report
+medium: artefact
+summary: The yearly published review of the city's processing of personal data, residents' requests, data shared through trusts and
+  agreements, and breaches.
+exchanges:
+- breach-reports-for-supervisory-guidance
+- annual-review-for-council-oversight
+journey: data-protection-officer-keeping-every-use-lawful

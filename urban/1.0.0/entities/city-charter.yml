@@ -1,0 +1,61 @@
+kind: entity
+slug: city-charter
+title: City Charter
+type: master
+summary: The statement of the city's purpose, its values and what it owes residents and future generations, written in plain language.
+  The council adopts it and the administration keeps it current, and every later decision can be tested against it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: values
+  type: text
+  card: 1..*
+- name: commitments
+  type: text
+  card: 1..*
+- name: review-procedure
+  type: text
+  card: 1..1
+- name: contested-histories
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: adopted-on
+  type: date
+  card: 0..1
+- name: language-versions
+  type: document
+  card: 1..*
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- ratified
+- published
+- in-force
+- under-review
+- renewed
+- retired
+relations:
+- type: refers-to
+  target: city
+- type: based-on
+  target: civic-memory-record
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: public-record
+binds:
+- source: src-171
+  edition: 2016+Amd1:2024
+  jurisdiction: global

@@ -1,0 +1,48 @@
+kind: entity
+slug: category-plan
+title: Category Plan
+type: governance
+summary: The plan for one category of spend, such as orthopaedic implants, wound care or laboratory reagents, stating its scope, spend,
+  supply market, sourcing route, standard assortment, targets and supply risks for a period.
+attributes:
+- name: category
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: planning-period
+  type: period
+  card: 1..1
+- name: annual-spend
+  type: amount
+  card: 0..1
+- name: sourcing-route
+  type: code
+  card: 1..1
+- name: standard-items
+  type: reference(inventory-item)
+  card: 0..*
+- name: targets
+  type: text
+  card: 1..*
+states:
+- draft
+- approved
+- in-execution
+- under-review
+- closed
+relations:
+- type: based-on
+  target: strategy
+- type: refers-to
+  target: supplier-organisation
+- type: refers-to
+  target: contract
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

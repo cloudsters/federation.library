@@ -1,0 +1,50 @@
+kind: entity
+slug: civic-coalition
+title: Civic Coalition
+type: master
+summary: A coalition of neighbourhood bodies and civil-society organisations that works on a shared question across the city, with
+  its members and the agreement that binds them. Its members keep the record and the agreement and the city records the support it
+  gives, and it is used to work on shared questions while each member stays independent.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: shared-question
+  type: text
+  card: 1..1
+- name: member-organisations
+  type: reference(civil-society-body)
+  card: 0..*
+- name: member-neighbourhood-bodies
+  type: text
+  card: 0..*
+- name: coalition-agreement
+  type: document
+  card: 1..1
+- name: decision-method
+  type: text
+  card: 0..1
+- name: convened-by
+  type: text
+  card: 0..1
+- name: city-support
+  type: text
+  card: 0..*
+- name: contact
+  type: text
+  card: 1..1
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- forming
+- active
+- dormant
+- dissolved
+relations:
+- type: composed-of
+  target: civil-society-body
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: partnership-compact

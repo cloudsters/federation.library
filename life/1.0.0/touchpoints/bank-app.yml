@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: bank-app
+title: The Bank's App
+medium: channel
+mode: digital
+summary: Where the money is seen moving, set aside and drawn on.
+exchanges:
+- money-for-shelter
+- premium-for-cover
+journey: sharing-the-money

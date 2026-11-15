@@ -1,0 +1,59 @@
+kind: entity
+slug: bank-account
+title: Bank Account
+type: master
+summary: An account the city holds with a bank, with its purpose, balance and the bank that holds it, including deposits placed with
+  public and community banks that lend in the city. The treasury opens, reconciles and closes it under the council's rules, and it
+  shows where the city's money is held.
+attributes:
+- name: account-identifier
+  type: identifier
+  card: 1..1
+- name: holding-bank
+  type: text
+  card: 1..1
+- name: bank-kind
+  type: code
+  card: 1..1
+- name: account-purpose
+  type: code
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: balance
+  type: amount
+  card: 1..1
+- name: balance-date
+  type: date
+  card: 1..1
+- name: signatories
+  type: text
+  card: 1..*
+- name: interest-rate
+  type: decimal
+  card: 0..1
+- name: deposit-term
+  type: period
+  card: 0..1
+- name: held-for-reserve
+  type: reference(reserve-fund)
+  card: 0..1
+- name: held-for-commons-fund
+  type: reference(commons-fund)
+  card: 0..1
+states:
+- requested
+- opened
+- active
+- frozen
+- closed
+relations:
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: reserve-fund
+- type: refers-to
+  target: commons-fund
+- type: governed-by
+  target: council-decision

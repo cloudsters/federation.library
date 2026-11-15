@@ -1,0 +1,10 @@
+kind: capability
+slug: health-and-safety
+title: Health & Safety
+level: L1
+parent: quality-safety-and-sustainability
+summary: Protecting the health and safety of staff, contractors and visitors.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

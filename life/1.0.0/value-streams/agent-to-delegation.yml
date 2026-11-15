@@ -1,0 +1,88 @@
+kind: value-stream
+slug: agent-to-delegation
+title: Living with Agents
+family: portfolio-to-system
+summary: The machine agents a life now runs on — what they are allowed to decide, what they must hand back, and how a person stays
+  able to do what they have delegated.
+trigger: An agent starts acting in the person's name, paying, answering or booking, or one makes a choice the person would not have
+  made, or a skill fades from long disuse.
+outcome: Each agent has a stated reach and hands back what it must, and the person can still do by hand what they have chosen to hand
+  over.
+stakeholders:
+- synthetic-collaborator
+- partner
+- dependant
+- client
+- provider
+steps:
+- slug: noticing-it-acts-for-me
+  title: Noticing It Acts for Me
+  summary: An agent starts paying, answering or booking in the person's name, and they realise something now speaks for them.
+  capabilities:
+  - noticing-what-acts-in-ones-name
+  entities:
+  - agent
+  - delegation-line
+  serves:
+  - agent-record
+- slug: stating-its-reach
+  title: Stating Its Reach
+  summary: Writing down what each agent may decide alone, what it must ask about first, and what it may never do, in words the person
+    could show to someone else.
+  capabilities:
+  - setting-an-agents-reach
+  entities:
+  - agent
+  - delegation-line
+  - boundary-set
+  serves:
+  - agent-instructions
+- slug: deciding-what-comes-back
+  title: Deciding What Comes Back
+  summary: Naming the moments an agent must hand back to the person, such as larger sums, anything touching a dependant, anything
+    that cannot be undone.
+  capabilities:
+  - setting-an-agents-reach
+  - deciding-what-stays-human
+  entities:
+  - delegation-line
+  - agent
+  - dependant-relation
+  serves:
+  - agent-instructions
+- slug: checking-its-choices
+  title: Checking Its Choices
+  summary: Looking back at what the agent actually did, especially the choice the person would not have made, and widening or narrowing
+    its reach accordingly.
+  capabilities:
+  - reviewing-delegated-work
+  entities:
+  - agent
+  - pattern-log
+  - delegation-line
+  serves:
+  - agent-record
+- slug: keeping-the-hand-in
+  title: Keeping the Hand In
+  summary: Doing by hand, now and then, what has been handed over, so the skill does not fade into something the person can no longer
+    check or take back.
+  capabilities:
+  - keeping-a-delegated-skill-alive
+  entities:
+  - skill
+  - agent
+- slug: telling-those-it-touches
+  title: Telling Those It Touches
+  summary: Letting a partner, clients or dependants know when they are dealing with an agent, and whom to reach when it gets something
+    wrong.
+  capabilities:
+  - being-open-about-delegation
+  entities:
+  - agent
+  - partner-relation
+  - client-relation
+  - dependant-relation
+  serves:
+  - client-meeting
+  - kitchen-table
+  - message-thread

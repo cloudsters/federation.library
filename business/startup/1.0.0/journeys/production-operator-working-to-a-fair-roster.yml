@@ -1,0 +1,33 @@
+kind: journey
+slug: production-operator-working-to-a-fair-roster
+title: Production Operator Working to a Fair Roster
+stakeholder: production-operator
+summary: A production operator states availability and preferences, receives a roster in time, swaps or covers shifts when life or
+  demand changes, records the time worked and sees overtime settled fairly.
+stages:
+- slug: state-availability
+  title: State Availability
+  goal: The operator's leave, preferences and limits are entered before the roster is built, and the published roster respects them.
+  step: workforce-scheduling-and-staffing/roster-planning
+  touchpoints:
+  - roster-self-service
+  - duty-roster
+- slug: swap-or-cover-a-shift
+  title: Swap or Cover a Shift
+  goal: The operator can swap a shift or step in for an absent colleague with fair notice and without disputes.
+  step: workforce-scheduling-and-staffing/shift-adjustment
+  touchpoints:
+  - roster-self-service
+  - shift-handover
+- slug: record-the-time-worked
+  title: Record the Time Worked
+  goal: Time worked, breaks and overtime are recorded accurately and can be seen by the operator.
+  step: workforce-scheduling-and-staffing/time-recording
+  touchpoints:
+  - time-recording-terminal
+- slug: see-the-time-account-settled
+  title: See the Time Account Settled
+  goal: The operator receives a statement of the period's hours and sees overtime paid or credited as agreed.
+  step: workforce-scheduling-and-staffing/period-close
+  touchpoints:
+  - time-account-statement

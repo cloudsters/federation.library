@@ -1,0 +1,82 @@
+kind: value-stream
+slug: uptake-to-standing
+title: Becoming Someone Who Is Asked
+family: interest-to-relationship
+summary: From being engaged to being relied upon — the accumulation across years that turns a person from someone who is hired into
+  someone who is asked.
+trigger: The person notices they are still being hired anew for every piece of work, or someone comes back for the first time of their
+  own accord.
+outcome: The person is relied upon and sought out, and feedback travels both ways often enough that the standing stays honest.
+stakeholders:
+- client
+- employer
+- collaborator
+- community
+steps:
+- slug: noticing-being-hired-anew
+  title: Noticing Being Hired Anew
+  summary: The person sees that every piece of work starts from nothing, or that someone has come back of their own accord for the
+    first time.
+  capabilities:
+  - reading-ones-standing
+  entities:
+  - client-relation
+  - standing
+  - income-event
+- slug: doing-reliable-work
+  title: Doing Reliable Work
+  summary: Delivering what was promised, on ordinary days as well as good ones, so trust has something to build on.
+  capabilities:
+  - keeping-promises
+  entities:
+  - commitment
+  - creative-output
+  - client-relation
+  serves:
+  - the-delivery
+- slug: asking-for-honest-feedback
+  title: Asking for Honest Feedback
+  summary: Asking those served what worked and what did not, and receiving it without arguing.
+  capabilities:
+  - inviting-honest-response
+  - hearing-without-defending
+  entities:
+  - other-perception
+  - conversation
+  - client-relation
+  serves:
+  - client-meeting
+- slug: giving-feedback-in-return
+  title: Giving Feedback in Return
+  summary: Telling clients and collaborators honestly what helps and what hinders, so the relation runs both ways.
+  capabilities:
+  - giving-honest-feedback
+  entities:
+  - conversation
+  - client-relation
+  - professional-network
+  - collaborator-relation
+  serves:
+  - client-meeting
+  - coffee-catch-up
+- slug: staying-in-touch-between-work
+  title: Staying in Touch Between Work
+  summary: Keeping the relation alive when no work is passing between them, without turning every contact into selling.
+  capabilities:
+  - keeping-relations-warm
+  entities:
+  - professional-network
+  - relationship-map
+  - gift
+  serves:
+  - coffee-catch-up
+  - message-thread
+- slug: keeping-standing-honest
+  title: Keeping Standing Honest
+  summary: Checking whether what others take the person to be good for still matches what they actually do and give.
+  capabilities:
+  - reading-ones-standing
+  entities:
+  - standing
+  - other-perception
+  - contribution-record

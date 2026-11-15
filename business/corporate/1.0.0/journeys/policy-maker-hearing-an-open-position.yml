@@ -1,0 +1,32 @@
+kind: journey
+slug: policy-maker-hearing-an-open-position
+title: Policy Maker Hearing an Open Position
+stakeholder: policy-maker
+summary: A policy maker consults on a proposed rule, receives a position that could survive public disclosure, meets the organisation
+  in recorded dialogue and sees its commitments kept.
+stages:
+- slug: open-the-consultation
+  title: Open the Consultation
+  goal: The policy maker receives an early, evidence-based view of how the proposal would work in practice.
+  step: institutional-partnering/issue-assessment
+  touchpoints:
+  - public-consultation
+- slug: receive-a-disclosable-position
+  title: Receive a Disclosable Position
+  goal: The policy maker receives a written position that states plainly what the organisation will and will not seek.
+  step: institutional-partnering/position-development
+  touchpoints:
+  - position-paper
+- slug: meet-in-recorded-dialogue
+  title: Meet in Recorded Dialogue
+  goal: The policy maker meets representatives whose contacts and advocacy are on the public record.
+  step: institutional-partnering/representation-and-dialogue
+  touchpoints:
+  - policy-dialogue
+  - advocacy-register-entry
+- slug: see-commitments-kept
+  title: See Commitments Kept
+  goal: The policy maker sees the commitments made in dialogue met, and the relationship reviewed for what it gave both sides.
+  step: institutional-partnering/commitment-follow-up
+  touchpoints:
+  - policy-dialogue

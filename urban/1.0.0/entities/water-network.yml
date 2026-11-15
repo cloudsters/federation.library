@@ -1,0 +1,56 @@
+kind: entity
+slug: water-network
+title: Water Network
+type: master
+summary: The pipes, treatment plants and reservoirs that deliver clean water to the city and take wastewater away, with their owner,
+  operator, capacity and condition. The operator that runs it keeps the record, and the city uses it to set the owner mandate, cap
+  water charges and plan the upkeep that keeps supply safe.
+attributes:
+- name: network-name
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: owning-enterprise
+  type: reference(municipal-enterprise)
+  card: 0..1
+- name: coverage
+  type: document
+  card: 1..1
+- name: treatment-capacity
+  type: quantity
+  card: 0..1
+- name: storage-capacity
+  type: quantity
+  card: 0..1
+- name: connected-households
+  type: integer
+  card: 0..1
+- name: unserved-households
+  type: integer
+  card: 0..1
+- name: water-loss-share
+  type: decimal
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: asset-record
+  type: reference(public-asset-register)
+  card: 0..1
+states:
+- planned
+- built
+- operating
+- under-renewal
+- decommissioned
+relations:
+- type: part-of
+  target: city
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: cross-boundary-agreement
+- type: refers-to
+  target: gis-layer

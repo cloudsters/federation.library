@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delegated-care-for-reported-observations
+title: Delegated Care for Reported Observations
+between:
+- registered-nurse
+- nursing-assistant
+offered:
+- Clear delegation of care tasks matched to competence, with what to watch for.
+returned:
+- Care performed as delegated and every change in the patient reported at once.
+touchpoint: shift-handover

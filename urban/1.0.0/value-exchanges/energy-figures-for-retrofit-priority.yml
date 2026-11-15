@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: energy-figures-for-retrofit-priority
+title: Energy Figures for Retrofit Priority
+between:
+- facilities-officer
+- city-council
+offered:
+- The metered energy use and emissions of every public building, with the worst performers named.
+returned:
+- Retrofit funded first where it saves most.
+touchpoint: published-building-energy-ratings

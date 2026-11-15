@@ -1,0 +1,42 @@
+# Words, keys and names no longer used in Commons Engineering, each with its kind and what replaces it (`use`).
+# - name: no meaning outside its former use; fails by string, in text, slugs and file names.
+# - key: an ordinary word retired only in one structural place, named in `where`: its `text`, and where a tool can read
+#   the place, one of `key`, `value_of`, `prefix` or `file`; fails only there, and a key named in text alone is read by people.
+# - word: an ordinary word retired in one sense of prose, named in `sense`; one should per word and file, never a fail.
+#   `forms` lists the forms in which it has been seen.
+# Quotations, source texts and history (recorded events, decision logs) are exempt. A word that is a live term in
+# another sense is held by that term's `not:`, never here. Federation-specific retirements live in the Federation's CORE.
+rejected:
+  - { term: "adopted_from", kind: "name", use: "origin", since: 2026-11-03 }
+  - { term: "build record", kind: "name", use: "provenance-record", note: "its earlier name; .build/ is its earlier location", since: 2026-11-03 }
+  - { term: "Extension-Builders", kind: "name", use: "domain-core", note: "withdrawn; a [domain].core is a commons like any other", since: 2026-11-03 }
+  - { term: "[org]", kind: "name", use: "placeholder", since: 2026-10-26 }
+  - { term: "orbit_level", kind: "name", use: "shell", since: 2026-10-24 }
+  - { term: "game pole", kind: "name", use: "world", since: 2026-10-16 }
+  - { term: "Sub-Core", kind: "name", use: "commons-core", since: 2026-09-13 }
+  - { term: "Commons OS", kind: "name", use: "commons-core", since: 2026-07-28 }
+  - { term: "Hire to Retire", kind: "name", use: "value-stream-family", note: "a candidate name of the d2 family; it is Contributor to Succession (MODEL)", since: 2026-07-21 }
+  - { term: "Welcome to Transition", kind: "name", use: "value-stream-family", note: "a candidate name of the d2 family; it is Contributor to Succession (MODEL)", since: 2026-07-21 }
+  - { term: "registry", kind: "key", where: {"text": "an area of a CORE, registry/ and offer/registry/; a GRAPH source kind; an MCP source; the CORE check"}, use: "runtime", since: 2026-11-03 }
+  - { term: "operations", kind: "key", where: {"text": "an area of a CORE, operations/; a GRAPH source kind; the blueprint frame's section"}, use: "runtime", note: "the frame's section is loops; operating a service keeps the ordinary word", since: 2026-11-03 }
+  - { term: "offer", kind: "key", where: {"text": "the area offer/, the file offer.yml and the check offer"}, use: "emulation", note: "the file is model.yml; MCP's offer, what a grant reads, writes and may spend, keeps its meaning", since: 2026-11-03 }
+  - { term: "adopted", kind: "key", where: {"text": "a usage of a bill's line (CORE R37)", "value_of": "usage"}, use: "usage", since: 2026-11-03 }
+  - { term: "library", kind: "key", where: {"text": "the key that listed an element's archetypes in an extension's element model, never release.yml's library", "key": "library"}, use: "archetype", since: 2026-10-26 }
+  - { term: "manifest", kind: "key", where: {"text": "the file name of an extension's offer file", "file": "manifest.yml"}, use: "model", since: 2026-10-26 }
+  - { term: "declined", kind: "key", where: {"text": "the key of an activation event", "key": "declined"}, use: "build", note: "what no record names stays on the shelf", since: 2026-10-26 }
+  - { term: "observation", kind: "key", where: {"text": "the id prefix of a Fabric's reading", "prefix": "observation:"}, use: "reading", since: 2026-10-28 }
+  - { term: "seat", kind: "key", where: {"text": "element 9's name", "value_of": "kind"}, use: "body", since: 2026-10-18 }
+  - { term: "Organization", kind: "key", where: {"text": "element 9's name", "value_of": "kind"}, use: "body", since: 2026-10-05 }
+  - { term: "value proposition", kind: "key", where: {"text": "element 4's name", "value_of": "kind"}, use: "value-exchange", since: 2026-10-05 }
+  - { term: "tier", kind: "word", sense: "a part a model is released in, its essentials or its enhanced part, or a visibility class", use: "variant", forms: ["tiers"], note: "a model has no tiers and is installed whole; who may see a thing is a visibility class; a tier named by what it measures, such as tier 3 of the topology or a source's trust tier, keeps its sense", since: 2026-11-04 }
+  - { term: "essentials", kind: "word", sense: "a tier of a model, or a product name for a model's release", use: "model", note: "a model is named by its domain: commons, health, business, life, urban, place; released copies and citations keep their names as history; the record mark essential keeps its sense", since: 2026-11-04 }
+  - { term: "enhanced", kind: "word", sense: "the served tier of a model, or a product name for it", use: "variant", note: "what a maker gives out as no copy stays in its knowledge/, served by the MCP under a grant", since: 2026-11-04 }
+  - { term: "activate", kind: "word", sense: "taking records of a model into the runtime as an act of its own", use: "build", forms: ["activates", "activated", "activating", "activation"], since: 2026-11-03 }
+  - { term: "not selected", kind: "word", sense: "what no decision took from an installed extension or model", use: "build", note: "what no record names stays on the shelf", since: 2026-11-03 }
+  - { term: "extension", kind: "word", sense: "what a [domain].core makes and releases, which is a model", use: "model", forms: ["extensions"], note: "extend keeps its sense for a kind's specification and the fields it adds", since: 2026-11-03 }
+  - { term: "adopt", kind: "word", sense: "taking contents of an installed extension or model into a commons' records", use: "build", forms: ["adopted", "adopts", "adopting"], note: "putting a decision or a specification into force keeps the word", since: 2026-11-01 }
+  - { term: "ring", kind: "word", sense: "a group of users at one closeness to a commons' model", use: "shell", since: 2026-10-24 }
+  - { term: "position", kind: "word", sense: "a slot of the scaffold, now an element", use: "scaffold", forms: ["positions"], note: "the HR sense, which a Post maps to, stays", since: 2026-10-18 }
+  - { term: "house", kind: "word", sense: "a commons or an organisation, never the dwelling", use: "commons", forms: ["houses", "Haus", "Häuser"], since: 2026-10-16 }
+  - { term: "Game", kind: "word", sense: "a world, a full future state a commons could be in", use: "world", forms: ["Games"], since: 2026-10-16 }
+  - { term: "lead", kind: "word", sense: "a prospective customer", use: "inquiry", since: 2026-10-16 }

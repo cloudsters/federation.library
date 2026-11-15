@@ -1,0 +1,20 @@
+kind: solution
+slug: public-works-project-system
+title: Public Works Project System
+role: system-of-record
+summary: Holds each public work and each neighbourhood renewal from brief through design, permits and construction stages to acceptance,
+  with the reviews it passed, the record of what was built and with which materials, and the handover record with its open defects.
+carries:
+- works-brief-preparation
+- whole-life-design
+- design-for-disassembly
+- works-permit-coordination
+- works-neighbour-liaison
+- construction-supervision
+- works-commissioning-and-handover
+- renewal-works-coordination
+holds:
+- works-brief
+- works-design
+- handover-record
+- renewal-scheme

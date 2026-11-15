@@ -1,0 +1,10 @@
+kind: body
+slug: treasury
+title: Treasury
+summary: 'Keeps the enterprise solvent: manages cash, banks, liquidity, financing, investments and financial risks, and executes payments.'
+holds:
+- treasury
+- capital-and-financing
+part_of: executive-board
+type: function
+form: organisational-unit

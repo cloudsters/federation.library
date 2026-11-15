@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complaint-for-a-lasting-correction
+title: Complaint for a Lasting Correction
+between:
+- business-customer
+- quality-manager
+offered:
+- A complaint with evidence, returned parts and access to the failure as it appeared in the customer's operation.
+returned:
+- Containment, the root cause, verified corrective and preventive actions and a continued relationship built on candour.
+touchpoint: complaint-and-warranty-claim

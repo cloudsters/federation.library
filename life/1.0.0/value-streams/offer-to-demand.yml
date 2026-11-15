@@ -1,0 +1,76 @@
+kind: value-stream
+slug: offer-to-demand
+title: Knowing Who Wants It
+family: interest-to-relationship
+summary: Whether what the life has to give is actually wanted, by whom, and on what evidence. The gap between what a person is proud
+  of and what anyone asks for is one of the quietest sources of a wasted decade.
+trigger: What the person is proud of meets silence, or they begin to wonder whether anyone actually asks for what they keep offering.
+outcome: The person knows who wants what they have to give and on what evidence, and the offer has moved toward that or deliberately
+  stayed.
+stakeholders:
+- client
+- employer
+- audience
+- collaborator
+- mentor
+steps:
+- slug: meeting-the-silence
+  title: Meeting the Silence
+  summary: What the person is proud of meets little response, and they let the question in whether anyone actually wants it.
+  capabilities:
+  - hearing-without-defending
+  entities:
+  - offering
+  - mood-record
+  - self
+  serves:
+  - replies-and-comments
+- slug: saying-what-is-offered
+  title: Saying What Is Offered
+  summary: Describing the offer in the words of those it is for, rather than in the words of the person who made it.
+  capabilities:
+  - describing-an-offer-plainly
+  entities:
+  - offering
+  - natural-gift
+  - skill
+- slug: finding-who-actually-asks
+  title: Finding Who Actually Asks
+  summary: Looking at who has paid, come back or recommended, and who has said no, as evidence rather than hope.
+  capabilities:
+  - reading-real-demand
+  entities:
+  - income-event
+  - client-relation
+  - other-perception
+  - relationship-map
+- slug: testing-before-building-more
+  title: Testing Before Building More
+  summary: Putting a small version in front of real people and watching whether they take it up.
+  capabilities:
+  - testing-an-offer-small
+  entities:
+  - offering
+  - conversation
+  - client-relation
+  serves:
+  - client-meeting
+  - watching-someone-use-it
+- slug: knowing-ones-line
+  title: Knowing One's Line
+  summary: Deciding what the person will and will not change about the offer to meet what is asked for.
+  capabilities:
+  - knowing-ones-line
+  entities:
+  - value-set
+  - boundary-set
+  - offering
+- slug: moving-or-staying
+  title: Moving or Staying
+  summary: Shifting the offer toward what is wanted, or choosing to keep it as it is with open eyes about what that costs.
+  capabilities:
+  - deciding-with-open-eyes
+  entities:
+  - decision
+  - offering
+  - work-direction

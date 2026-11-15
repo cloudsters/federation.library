@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: workable-sequence-for-truthful-confirmation
+title: Workable Sequence for Truthful Confirmation
+between:
+- shift-supervisor
+- production-operator
+offered:
+- A sequence the team can sustain, materials ready, an honest handover and support when problems arise.
+returned:
+- Output confirmed with true times, quantities and downtime, and problems raised the moment they appear.
+touchpoint: shift-handover

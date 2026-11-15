@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-election-results
+title: Published Election Results
+medium: artefact
+summary: The certified results by district and polling station, published with the period and the route for challenge.
+exchanges:
+- cast-vote-for-a-verifiable-result
+- certified-result-for-taking-office
+journey: election-office-running-the-municipal-election

@@ -1,0 +1,67 @@
+kind: entity
+slug: repair-order
+title: Repair Order
+type: transactional
+summary: A repair to a home or building, with the fault reported, its priority and promised date, who did the work and the tenant's
+  confirmation. The housing office opens it from a report made by any route and keeps it until the tenant confirms the fault is fixed,
+  and it shows whether the published repair times were kept.
+attributes:
+- name: order-number
+  type: identifier
+  card: 1..1
+- name: dwelling
+  type: reference(dwelling)
+  card: 0..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: fault-reported
+  type: text
+  card: 1..1
+- name: reported-by
+  type: text
+  card: 1..1
+- name: reporting-route
+  type: code
+  card: 1..1
+- name: reported-at
+  type: datetime
+  card: 1..1
+- name: priority
+  type: code
+  card: 1..1
+- name: promised-by
+  type: date
+  card: 1..1
+- name: done-by
+  type: text
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: tenant-confirmed-on
+  type: date
+  card: 0..1
+states:
+- reported
+- prioritised
+- scheduled
+- in-progress
+- done
+- confirmed
+- closed
+relations:
+- type: refers-to
+  target: dwelling
+- type: refers-to
+  target: tenancy
+- type: governed-by
+  target: service-standard
+- type: refers-to
+  target: contract
+- type: produces
+  target: compensation-award
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,44 @@
+kind: journey
+slug: the-home-that-steadies
+title: The Home That Steadies
+stakeholder: place
+via: demand-to-fulfillment
+summary: A home is read for what it does to the people in it, rearranged so that it does the steadying, agreed among those who share
+  it, kept lightly, and left when it keeps undoing the life.
+stages:
+- slug: be-suspected
+  title: Be Suspected
+  goal: The tension a room leaves has been traced to the room rather than blamed on the person.
+  step: setting-to-regulation/noticing-unexplained-tension
+  touchpoints:
+  - the-home
+- slug: be-read
+  title: Be Read
+  goal: The place's light, noise, clutter, warmth and view have each been noticed for what they do.
+  step: setting-to-regulation/reading-what-the-place-does
+  touchpoints:
+  - the-home
+- slug: be-rearranged
+  title: Be Rearranged
+  goal: The place has been changed so that it does the steadying.
+  step: setting-to-regulation/arranging-the-surroundings
+  touchpoints:
+  - the-home
+- slug: be-shared-by-agreement
+  title: Be Shared by Agreement
+  goal: Those who share the place have agreed what each part of it is for and when it is quiet.
+  step: setting-to-regulation/agreeing-the-shared-space
+  touchpoints:
+  - the-home
+- slug: be-kept-lightly
+  title: Be Kept Lightly
+  goal: Small daily resets keep the place steady without order becoming one more demand.
+  step: setting-to-regulation/keeping-it-steady-lightly
+  touchpoints:
+  - the-home
+- slug: be-left-or-changed
+  title: Be Left or Changed
+  goal: Where the setting kept undoing the life, a different room or home has been chosen.
+  step: setting-to-regulation/changing-the-place-itself
+  touchpoints:
+  - moving-home

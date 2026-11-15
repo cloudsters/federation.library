@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-asset-service-levels
+title: Published Asset Service Levels
+medium: artefact
+summary: The published list of what residents can expect from each class of asset, such as how soon a pothole is filled or a streetlight
+  restored.
+exchanges:
+- service-levels-residents-can-hold-the-city-to
+journey: asset-officer-building-the-asset-plan

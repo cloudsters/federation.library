@@ -1,0 +1,60 @@
+kind: entity
+slug: medication
+title: Medication
+type: master
+summary: A medicinal product as handled in the organisation, defined by active ingredients, strength, dose form and package, and identified
+  by product and classification codes for ordering, dispensing and safety checks.
+attributes:
+- name: product-code
+  type: identifier
+  card: 1..*
+- name: name
+  type: text
+  card: 1..1
+- name: active-ingredients
+  type: code
+  card: 1..*
+- name: strength
+  type: quantity
+  card: 0..*
+- name: dose-form
+  type: code
+  card: 1..1
+- name: classification
+  type: code
+  card: 0..*
+- name: high-alert
+  type: boolean
+  card: 0..1
+states:
+- active
+- inactive
+relations: []
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-418
+  edition: '2017'
+  jurisdiction: global

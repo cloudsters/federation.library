@@ -1,0 +1,26 @@
+kind: journey
+slug: development-engineer-protecting-the-know-how-behind-an-offering
+title: Development Engineer Protecting the Know-How Behind an Offering
+stakeholder: development-engineer
+summary: A development engineer reports what a funded bet has shown, records the know-how that keeps an offering deliverable and discloses
+  the inventions behind it so that the organisation can decide what to protect, license or share.
+stages:
+- slug: report-what-the-bet-has-shown
+  title: Report What the Bet Has Shown
+  goal: The evidence from development work is presented plainly, and the engineer learns whether the bet continues, stops or scales.
+  step: offering-portfolio-stewardship/innovation-bet-allocation
+  touchpoints:
+  - portfolio-review-meeting
+- slug: record-the-know-how
+  title: Record the Know How
+  goal: The technical know-how behind the offering is written down where sales, delivery and service can find it.
+  step: offering-portfolio-stewardship/offering-knowledge-upkeep
+  touchpoints:
+  - offering-description
+- slug: disclose-and-decide-protection
+  title: Disclose and Decide Protection
+  goal: Inventions and designs are disclosed, and a reasoned decision to protect, license or share openly follows with the inventors
+    recognised.
+  step: offering-portfolio-stewardship/intellectual-asset-care
+  touchpoints:
+  - invention-disclosure

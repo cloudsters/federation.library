@@ -1,0 +1,63 @@
+kind: entity
+slug: improvement-opportunity
+title: Improvement Opportunity
+type: transactional
+summary: A proposal to make a process of the administration simpler or more reliable, put forward by a department, a member of staff
+  or a resident, with the delay, error or overload it addresses. The administration logs and sizes it on intake and gives it a process
+  owner, and it is used to choose which processes are mapped and redesigned first.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: process-concerned
+  type: text
+  card: 1..1
+- name: submitted-by
+  type: text
+  card: 1..1
+- name: submitter-kind
+  type: code
+  card: 1..1
+- name: problem-observed
+  type: text
+  card: 1..1
+- name: problem-kind
+  type: code
+  card: 1..*
+- name: service
+  type: reference(public-service)
+  card: 0..1
+- name: department
+  type: reference(department)
+  card: 0..1
+- name: cases-affected-per-year
+  type: quantity
+  card: 0..1
+- name: related-complaints
+  type: reference(citizen-complaint)
+  card: 0..*
+- name: process-owner
+  type: text
+  card: 0..1
+- name: submitted-on
+  type: date
+  card: 1..1
+states:
+- submitted
+- logged
+- sized
+- assigned
+- in-improvement
+- declined
+- closed
+relations:
+- type: refers-to
+  target: department
+- type: refers-to
+  target: public-service
+- type: based-on
+  target: citizen-complaint
+- type: produces
+  target: improvement-project
+- type: produces
+  target: automation-proposal

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: nomination-for-recognised-mediators
+title: Nomination for Recognised Mediators
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The names of residents whom neighbours already trust.
+returned:
+- Mediators trained and listed in the roster for the neighbourhood.
+touchpoint: mediator-nomination

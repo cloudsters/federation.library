@@ -1,0 +1,13 @@
+kind: capability
+slug: telemonitoring
+title: Telemonitoring
+level: L3
+parent: telemedicine-and-home-care
+summary: Monitor patients at home remotely and act on alerts.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-419
+  edition: '2022'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: supplier-payment-statement
+title: Supplier Payment Statement
+medium: artefact
+summary: The statement sent with each payment, naming the invoices paid, the date and any interest paid because payment was late.
+exchanges:
+- a-correct-invoice-for-payment-within-days
+journey: local-producer-getting-paid-on-time

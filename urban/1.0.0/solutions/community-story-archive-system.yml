@@ -1,0 +1,12 @@
+kind: solution
+slug: community-story-archive-system
+title: Community Story Archive System
+role: system-of-record
+summary: Keeps the recordings, oral histories, documents and images a community gathers under the rules its resident body sets, with
+  each teller's consent on framing, attribution and reuse, and withdraws a story when consent is withdrawn.
+carries:
+- community-archive-keeping
+- story-consent-recording
+holds:
+- story-archive
+- story-consent

@@ -1,0 +1,27 @@
+kind: journey
+slug: staff-representation-raising-signals
+title: Staff Representation Raising Signals
+stakeholder: staff-representation
+summary: 'The staff representation''s side of whole-system perception: raising signals from the floor, seeing the same picture
+  as the board and being consulted on corrections.'
+stages:
+- slug: raising-signals-from-the-floor
+  title: Raising Signals from the Floor
+  goal: Bring early signs of strain and drift seen by staff into the picture.
+  step: whole-system-perception/signal-collection
+  touchpoints:
+  - staff-consultation
+  - confidential-reporting-channel
+- slug: seeing-the-same-picture
+  title: Seeing the Same Picture
+  goal: See the state of the whole commons as the board sees it.
+  step: whole-system-perception/shared-picture
+  touchpoints:
+  - staff-town-hall
+  - staff-consultation
+- slug: being-consulted-on-corrections
+  title: Being Consulted on Corrections
+  goal: Be consulted on corrections that change work, staffing or structure.
+  step: whole-system-perception/corrective-decision
+  touchpoints:
+  - staff-consultation

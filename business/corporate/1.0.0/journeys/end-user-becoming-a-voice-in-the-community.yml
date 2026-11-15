@@ -1,0 +1,38 @@
+kind: journey
+slug: end-user-becoming-a-voice-in-the-community
+title: End User Becoming a Voice in the Community
+stakeholder: end-user
+summary: An end user whose satisfaction is recognised shares practice with others, registers for and takes part in gatherings, and
+  sees the people they introduce welcomed and their help recognised.
+stages:
+- slug: be-recognised-as-ready
+  title: Be Recognised as Ready
+  goal: The user's satisfaction and willingness to recommend are recognised without pressure.
+  step: community-network-distribution/advocacy-readiness-sensing
+  touchpoints:
+  - user-community
+  - customer-survey
+- slug: share-practice
+  title: Share Practice
+  goal: The user has the knowledge, material and spaces to share their practice.
+  step: community-network-distribution/community-enablement
+  touchpoints:
+  - user-community
+- slug: register-for-a-gathering
+  title: Register for a Gathering
+  goal: The user finds a gathering worth attending and registers easily.
+  step: community-network-distribution/event-design-and-registration
+  touchpoints:
+  - event-invitation
+- slug: take-part-and-stay-in-touch
+  title: Take Part and Stay in Touch
+  goal: The user experiences the offering directly, meets peers and is followed up with care.
+  step: community-network-distribution/gathering-and-follow-up
+  touchpoints:
+  - community-gathering
+- slug: see-referrals-recognised
+  title: See Referrals Recognised
+  goal: The people the user introduces are welcomed and the user is recognised as agreed.
+  step: community-network-distribution/referral-tracking-and-recognition
+  touchpoints:
+  - referral-programme

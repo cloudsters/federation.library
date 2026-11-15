@@ -1,0 +1,46 @@
+kind: journey
+slug: employee-asking-whether-contribution-comes-back-fairly
+title: Employee Asking Whether Contribution Comes Back Fairly
+stakeholder: employee
+summary: An employee sees how the role is graded, learns the outcome of the pay review, chooses benefits that fit life, is recognised
+  in the everyday, shares in the gains of automation and is asked whether it all feels fair.
+stages:
+- slug: understand-the-grade
+  title: Understand the Grade
+  goal: The employee can see the grade of the role, the pay range it carries and how it was evaluated.
+  step: recognition-reciprocity/pay-grading
+  touchpoints:
+  - pay-structure
+- slug: learn-the-pay-decision
+  title: Learn the Pay Decision
+  goal: The employee receives the pay and bonus decision with its reasons, in time for the new period.
+  step: recognition-reciprocity/pay-review
+  touchpoints:
+  - pay-review-letter
+  - development-review
+- slug: choose-benefits-that-fit-life
+  title: Choose Benefits That Fit Life
+  goal: The employee finds and chooses benefits, childcare support and flexible working that fit the current stage of life.
+  step: recognition-reciprocity/benefits-and-care-offer
+  touchpoints:
+  - benefits-portal
+- slug: be-recognised-in-the-everyday
+  title: Be Recognised in the Everyday
+  goal: Contributions are recognised specifically and soon, in the team and across it.
+  step: recognition-reciprocity/everyday-recognition
+  touchpoints:
+  - recognition-moment
+  - team-meeting
+- slug: share-in-automation-gains
+  title: Share in Automation Gains
+  goal: Where automation changes the employee's work, a share of its gains funds the move to new skills.
+  step: recognition-reciprocity/automation-gain-sharing
+  touchpoints:
+  - automation-gain-sharing-report
+- slug: say-whether-it-feels-fair
+  title: Say Whether It Feels Fair
+  goal: The employee's view of pay fairness and belonging is asked for, and the findings are published.
+  step: recognition-reciprocity/retention-and-fairness-review
+  touchpoints:
+  - pulse-survey
+  - pay-fairness-report

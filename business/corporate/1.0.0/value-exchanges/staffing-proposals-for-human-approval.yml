@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staffing-proposals-for-human-approval
+title: Staffing Proposals for Human Approval
+between:
+- operations-planning-agent
+- shift-supervisor
+offered:
+- A forecast of workload and a proposed staffing for each shift, with the reasoning shown.
+returned:
+- Approval or correction by the supervisor, and the corrections fed back to improve the next forecast.
+touchpoint: staffing-forecast

@@ -1,0 +1,38 @@
+kind: solution
+slug: participation-platform
+title: Participation Platform
+role: system-of-engagement
+summary: Runs consultations, hearings and surveys in several languages and channels, records who took part and who was absent, and
+  holds the participation rules and the recognised community bodies.
+carries:
+- resident-hearing
+- participation-boundary-review
+- community-body-recognition
+- futures-literacy-building
+- resident-assembly-convening
+- participatory-plan-design
+- participatory-budget-organisation
+- community-asset-mapping
+- commons-fund-allocation
+- involvement-planning
+- participant-selection-by-lot
+- participation-feedback-reporting
+- participation-practice-review
+- service-council-convening
+- neighbourhood-action-planning
+- street-safety-audit
+holds:
+- public-consultation
+- participation-charter
+- neighbourhood
+- visioning-circle
+- resident-assembly
+- participatory-budget-cycle
+- community-asset-map
+- fund-allocation
+- involvement-plan
+- participation-feedback-report
+- participation-review
+- service-council
+- neighbourhood-action-plan
+- newcomer-council

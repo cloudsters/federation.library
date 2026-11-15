@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: care-duties-for-hours-that-fit
+title: Care Duties for Hours That Fit
+between:
+- caregiver
+- city-administration
+offered:
+- A request from a member of staff who cares for a family member to fit working hours around that care.
+returned:
+- Hours set around the care duties without loss of standing.
+touchpoint: flexible-working-request

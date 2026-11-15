@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: decision-log
+title: Decision Log
+medium: artefact
+summary: The record of significant decisions taken with agents, naming the mandate under which each was taken and the person who authorised
+  that mandate.
+exchanges:
+- traceable-decisions-for-a-renewed-mandate
+journey: agent-working-under-a-clear-mandate

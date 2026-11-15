@@ -1,0 +1,13 @@
+kind: stakeholder
+slug: operations-planning-agent
+title: Operations Planning Agent
+nature: agent
+stance: serving
+summary: An AI agent that forecasts admissions and discharges and proposes bed allocation, theatre schedules, staffing and
+  supply orders for managers to approve.
+seeks:
+- Timely data on beds, schedules, staff and stock, and the boundaries within which it may propose.
+brings:
+- Better use of beds, theatres and staff, and earlier warning of bottlenecks.
+represented_by:
+- ai-system

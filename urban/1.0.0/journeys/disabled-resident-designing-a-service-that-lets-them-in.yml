@@ -1,0 +1,38 @@
+kind: journey
+slug: disabled-resident-designing-a-service-that-lets-them-in
+title: Disabled Resident Designing a Service That Lets Them In
+stakeholder: disabled-resident
+summary: A disabled resident names a service that is missing, walks its journey with the department, says who the case would leave
+  out, tries the service in the neighbourhood and sees it checked against its promise.
+stages:
+- slug: name-the-missing-service
+  title: Name the Missing Service
+  goal: The resident's need, and the help neighbours already give, are described in the resident's own words.
+  step: public-service-design/need-identification
+  touchpoints:
+  - need-and-asset-conversation
+- slug: walk-the-journey
+  title: Walk the Journey
+  goal: The resident has walked each step of the planned service with staff, and every barrier found is removed from the concept.
+  step: public-service-design/service-concept-co-design
+  touchpoints:
+  - resident-journey-walk-through
+  - service-co-design-session
+- slug: say-who-would-be-left-out
+  title: Say Who Would Be Left Out
+  goal: The resident's view of who the service would leave out is before the committee and weighed in its decision.
+  step: public-service-design/service-case-and-approval
+  touchpoints:
+  - service-trial-decision-hearing
+- slug: try-it-in-the-neighbourhood
+  title: Try It in the Neighbourhood
+  goal: The resident has used the service during the trial and recorded where it still keeps people out.
+  step: public-service-design/service-trial
+  touchpoints:
+  - neighbourhood-service-trial
+- slug: see-the-promise-checked
+  title: See the Promise Checked
+  goal: The published review shows whether disabled residents use the service and what changes follow.
+  step: public-service-design/service-use-and-value-review
+  touchpoints:
+  - published-service-review

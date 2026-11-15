@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: clinic-letter
+title: Clinic Letter
+medium: artefact
+summary: The letter that reports an outpatient visit to the referrer and the patient, with diagnosis, results, medication changes
+  and the agreed division of further care.
+exchanges:
+- clinic-letter-for-continued-care
+journey: outpatient-visit-journey

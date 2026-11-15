@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: conciliation-procedure
+title: Conciliation Procedure
+medium: encounter
+summary: The out-of-court procedure in which an independent expert body assesses a claim of harm in care and proposes a resolution
+  both sides can accept.
+exchanges:
+- fair-claim-resolution
+- claims-handling-partnership
+journey: harmed-person-seeking-redress

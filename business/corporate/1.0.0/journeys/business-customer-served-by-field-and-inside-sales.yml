@@ -1,0 +1,33 @@
+kind: journey
+slug: business-customer-served-by-field-and-inside-sales
+title: Business Customer Served by Field and Inside Sales
+stakeholder: business-customer
+summary: A business customer knows who serves it, meets prepared sellers on site, by phone or online, orders through the portal or
+  web shop and receives a confirmed order.
+stages:
+- slug: know-its-contact
+  title: Know Its Contact
+  goal: The customer knows who serves it and how to reach them.
+  step: direct-distribution/direct-channel-set-up
+  touchpoints:
+  - sales-meeting
+  - customer-portal
+- slug: meet-a-prepared-seller
+  title: Meet a Prepared Seller
+  goal: The seller arrives with current offers and the customer's history.
+  step: direct-distribution/field-and-inside-sales
+  touchpoints:
+  - sales-meeting
+- slug: order-online
+  title: Order Online
+  goal: Routine orders are placed online with the customer's own prices.
+  step: direct-distribution/web-shop-and-app-operation
+  touchpoints:
+  - customer-portal
+  - online-shop
+- slug: receive-a-confirmed-order
+  title: Receive a Confirmed Order
+  goal: The order is captured with its terms and confirmed promptly.
+  step: direct-distribution/checkout-and-order-capture
+  touchpoints:
+  - order-confirmation

@@ -1,0 +1,65 @@
+kind: entity
+slug: medical-device
+title: Medical Device
+type: master
+summary: An individual item of medical equipment used in care, such as a ventilator, infusion pump, monitor or scanner, kept safe
+  for use through user instruction, inspection, maintenance and incident reporting.
+attributes:
+- name: device-identifier
+  type: identifier
+  card: 1..*
+- name: device-type
+  type: code
+  card: 1..1
+- name: manufacturer
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: serial-number
+  type: identifier
+  card: 0..1
+- name: location
+  type: reference(room)
+  card: 0..1
+- name: risk-class
+  type: code
+  card: 0..1
+- name: next-inspection
+  type: date
+  card: 0..1
+- name: asset
+  type: reference(asset)
+  card: 0..1
+states:
+- in-commissioning
+- in-use
+- in-maintenance
+- out-of-service
+- decommissioned
+relations:
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-054
+  edition: '2024'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

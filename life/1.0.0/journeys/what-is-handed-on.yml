@@ -1,0 +1,30 @@
+kind: journey
+slug: what-is-handed-on
+title: What Is Handed On
+stakeholder: child
+via: contributor-to-succession
+summary: The child receives, day by day, the craft, habits and conversations this person chose to pass on, finds them set down in
+  writing, and keeps the memory of those before.
+stages:
+- slug: learn-it-by-living
+  title: Learn It by Living
+  goal: The child has received the chosen way through shared craft, conversation and small habits, with the old pattern caught when
+    it rose.
+  step: inheritance-to-transmission/passing-it-on-day-by-day
+  touchpoints:
+  - daily-round-of-care
+  - working-side-by-side
+- slug: find-it-written
+  title: Find It Written
+  goal: Money and meaning reach the child as intended, in a will, directives and words written for them.
+  step: inheritance-to-transmission/putting-it-in-writing
+  touchpoints:
+  - the-will
+  - the-letter
+- slug: remember-those-before
+  title: Remember Those Before
+  goal: The child knows who came before and carries their good without being asked to repeat their harm.
+  step: inheritance-to-transmission/honouring-those-before
+  touchpoints:
+  - family-gathering
+  - yearly-remembrance

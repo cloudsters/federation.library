@@ -1,0 +1,61 @@
+kind: entity
+slug: street
+title: Street
+type: master
+summary: A public street or path as a route between homes and services and as shared space. The city keeps its record, and it is used
+  to plan safe routes to school and services and the wayfinding along them.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: other-names
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: course
+  type: document
+  card: 1..1
+- name: length
+  type: quantity
+  card: 0..1
+- name: street-kind
+  type: code
+  card: 1..1
+- name: speed-limit
+  type: quantity
+  card: 0..1
+- name: surface-condition
+  type: code
+  card: 0..1
+- name: crossings
+  type: integer
+  card: 0..1
+- name: school-route
+  type: boolean
+  card: 0..1
+- name: wayfinding-elements
+  type: reference(wayfinding-element)
+  card: 0..*
+- name: maintained-by
+  type: reference(department)
+  card: 1..1
+states:
+- planned
+- built
+- in-use
+- under-works
+- redesigned
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: gis-layer
+- type: refers-to
+  target: school
+- type: composed-of
+  target: wayfinding-element

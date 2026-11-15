@@ -1,0 +1,39 @@
+kind: entity
+slug: transition
+title: Life Transition
+type: transactional
+summary: A change of phase — a new city, a new role, a household forming or ending, children leaving, work stopping. Held as a single
+  entity across all of its kinds, because what a life must do in one of them is the same work every time.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: from
+  type: text
+  card: 1..1
+- name: to
+  type: text
+  card: 1..1
+- name: began-on
+  type: date
+  card: 1..1
+- name: settled-on
+  type: date
+  card: 0..1
+- name: marked-by
+  type: reference(ritual)
+  card: 0..1
+- name: plan-redrawn
+  type: reference(life-blueprint)
+  card: 0..1
+states:
+- coming
+- under way
+- in between
+- settling
+- settled
+relations:
+- target: life-narrative
+  type: part-of
+- target: life-blueprint
+  type: about

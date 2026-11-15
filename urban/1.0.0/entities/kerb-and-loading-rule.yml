@@ -1,0 +1,60 @@
+kind: entity
+slug: kerb-and-loading-rule
+title: Kerb and Loading Rule
+type: governance
+summary: The rule for a street or district on loading zones, delivery windows, vehicle limits, parking and their charges. The transport
+  office drafts it with the neighbourhood and carriers and it is made under the mobility plan, and it is used to keep heavy vehicles
+  out of residential streets at harmful hours and to keep the kerb clear.
+attributes:
+- name: streets
+  type: reference(street)
+  card: 1..*
+- name: loading-zones
+  type: text
+  card: 0..*
+- name: delivery-windows
+  type: text
+  card: 0..*
+- name: vehicle-limits
+  type: text
+  card: 0..*
+- name: clean-vehicle-access
+  type: text
+  card: 0..1
+- name: kerb-uses
+  type: code
+  card: 0..*
+- name: charges
+  type: text
+  card: 0..*
+- name: enforcement
+  type: text
+  card: 0..1
+- name: income-use
+  type: text
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: made-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- consulted
+- made
+- in-force
+- amended
+- revoked
+relations:
+- type: refers-to
+  target: street
+- type: governed-by
+  target: mobility-plan
+- type: governed-by
+  target: bylaw
+- type: refers-to
+  target: distribution-hub

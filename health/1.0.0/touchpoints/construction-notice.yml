@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: construction-notice
+title: Construction Notice
+medium: artefact
+summary: The notice that informs units, patients, staff and neighbours of coming works, their duration, the disruption to expect and
+  the measures that protect them.
+exchanges:
+- early-notice-for-neighbourly-tolerance
+journey: clinical-unit-moving-into-a-new-building

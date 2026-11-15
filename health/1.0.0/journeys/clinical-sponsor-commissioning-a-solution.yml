@@ -1,0 +1,36 @@
+kind: journey
+slug: clinical-sponsor-commissioning-a-solution
+title: Clinical Sponsor Commissioning a Solution
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department sponsors a solution from approved demand to routine use and answers for its benefit.
+stages:
+- slug: take-on-sponsorship
+  title: Take On Sponsorship
+  goal: The sponsor knows the scope, budget, team and benefits they answer for.
+  step: solution-delivery/delivery-mandate
+  touchpoints:
+  - digital-steering-committee
+- slug: set-the-requirements
+  title: Set the Requirements
+  goal: The unit's target workflow and clinical safety needs are stated before any product is chosen.
+  step: solution-delivery/requirements-and-process-design
+  touchpoints:
+  - requirements-workshop
+- slug: choose-the-solution
+  title: Choose the Solution
+  goal: Candidates are judged by those who will use them, against the stated requirements.
+  step: solution-delivery/solution-selection-and-contracting
+  touchpoints:
+  - call-for-tender
+- slug: sign-off-acceptance
+  title: Sign Off Acceptance
+  goal: The sponsor confirms, on the users' evidence, that the solution is fit for go-live.
+  step: solution-delivery/testing-and-acceptance
+  touchpoints:
+  - user-acceptance-test
+- slug: confirm-the-benefits
+  title: Confirm the Benefits
+  goal: Adoption and benefits are measured and the solution is handed to operations with agreed service levels.
+  step: solution-delivery/stabilisation-and-handover
+  touchpoints:
+  - service-review-meeting

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: captured-context-for-findable-knowledge
+title: Captured Context for Findable Knowledge
+between:
+- employee
+- information-technology-specialist
+offered:
+- Documents and data captured with their context.
+returned:
+- A repository and catalogue where knowledge can be found and reused by everyone entitled to it.
+touchpoint: records-repository

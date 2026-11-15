@@ -1,0 +1,46 @@
+kind: journey
+slug: bereaved-relative-journey
+title: Bereaved Relative Journey
+stakeholder: relative
+summary: A relative learns that the illness is life-limiting, shares in planning, is supported while caring, is present at the end,
+  takes leave with dignity and is supported in grief.
+stages:
+- slug: learn-the-situation
+  title: Learn the Situation
+  goal: Understand that the illness is life-limiting and what that means for the family.
+  step: palliative-and-end-of-life-care/palliative-assessment
+  touchpoints:
+  - family-meeting
+- slug: share-in-planning
+  title: Share in Planning
+  goal: Know the person's wishes and what the role of proxy involves.
+  step: palliative-and-end-of-life-care/advance-care-planning
+  touchpoints:
+  - advance-care-planning-conversation
+  - family-meeting
+- slug: be-supported-in-caring
+  title: Be Supported in Caring
+  goal: Be informed, relieved and supported while caring.
+  step: palliative-and-end-of-life-care/symptom-control-and-support
+  touchpoints:
+  - family-meeting
+  - home-visit
+- slug: be-there-at-the-end
+  title: Be There at the End
+  goal: Be told when the time is near and be able to stay.
+  step: palliative-and-end-of-life-care/care-in-the-dying-phase
+  touchpoints:
+  - palliative-care-unit
+- slug: take-leave
+  title: Take Leave
+  goal: Take leave with dignity and have the formalities explained.
+  step: palliative-and-end-of-life-care/death-and-after-death-care
+  touchpoints:
+  - farewell-room
+  - death-certificate
+- slug: grieve-with-support
+  title: Grieve with Support
+  goal: Have questions answered and receive support in grief.
+  step: palliative-and-end-of-life-care/bereavement-support
+  touchpoints:
+  - bereavement-follow-up

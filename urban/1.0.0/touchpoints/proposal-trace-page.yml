@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: proposal-trace-page
+title: Proposal Trace Page
+medium: channel
+summary: The online page that traces each proposal from its origin through deliberation and the council's decision to what was carried
+  out.
+exchanges:
+- traced-proposal-for-continued-scrutiny
+journey: resident-drawn-by-lot-for-an-assembly

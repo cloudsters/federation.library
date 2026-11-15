@@ -1,0 +1,40 @@
+kind: entity
+slug: service
+title: Service
+type: master
+summary: An intangible value exchange — the organisation's capacity to act on behalf of another, blending proposition design (D3) with
+  operational delivery (D4) in real time.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: delivery-unit
+  type: code
+  card: 1..1
+- name: pricing-basis
+  type: code
+  card: 1..1
+- name: skills
+  type: reference(skill)
+  card: 0..*
+- name: positions
+  type: reference(position)
+  card: 0..*
+states:
+- designed
+- offered
+- delivered
+- renewed
+- retired
+relations:
+- type: refers-to
+  target: product
+- type: refers-to
+  target: subscription
+- type: depends-on
+  target: skill
+- type: governed-by
+  target: contract

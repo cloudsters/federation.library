@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: strategy-approval
+title: Strategy Approval
+between:
+- executive
+- owner
+offered:
+- A strategy that fulfils the mandate within the financial frame, with its investment needs, risks and expected results made
+  explicit.
+returned:
+- Approval of the strategy, commitment of capital and the owner's backing when the strategy meets public resistance.
+touchpoint: supervisory-body-meeting

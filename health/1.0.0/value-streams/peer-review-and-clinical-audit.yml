@@ -1,0 +1,117 @@
+kind: value-stream
+slug: peer-review-and-clinical-audit
+title: Peer Review and Clinical Audit
+family: collaboration-to-automation
+summary: 'Physician-led and interprofessional review of practice: case-record review against standards, peer visits, morbidity and
+  mortality conferences and the improvement actions they agree.'
+trigger: An indicator outlier, a scheduled audit or a notable case selects cases for review.
+outcome: Review findings and agreed improvement actions are documented, and their implementation is checked.
+stakeholders:
+- head-of-clinical-department
+- specialist-physician
+- physician-in-specialty-training
+- registered-nurse
+- quality-and-safety-manager
+- external-peer-reviewer
+steps:
+- slug: case-and-topic-selection
+  title: Case and Topic Selection
+  summary: Cases are selected by defined triggers such as unexpected death, unplanned return to theatre or an indicator outlier, and
+    audit topics are chosen from risks, guidelines and the annual audit programme.
+  capabilities:
+  - clinical-risk-sensing
+  - complication-and-mortality-tracking
+  - clinical-audit
+  - quality-indicator-governance
+  entities:
+  - measure-report
+  - case-review
+  - adverse-event
+  - encounter
+  serves:
+  - quality-dashboard
+- slug: review-preparation
+  title: Review Preparation
+  summary: Review criteria are drawn from guidelines and local standards, case records are compiled and pseudonymised where required,
+    and internal and external reviewers are appointed and briefed.
+  capabilities:
+  - clinical-peer-review
+  - clinical-audit
+  - guideline-adoption
+  - health-record-management
+  - data-protection-governance
+  entities:
+  - case-review
+  - audit
+  - health-record
+  - clinical-guideline
+  - care-pathway
+  serves:
+  - peer-review-visit
+- slug: case-record-review
+  title: Case-Record Review
+  summary: Reviewers examine the records against the criteria, reconstruct the course of care and note where decisions, timing, documentation
+    or teamwork departed from the standard.
+  capabilities:
+  - clinical-peer-review
+  - clinical-audit
+  - clinical-documentation-integrity
+  entities:
+  - health-record
+  - clinical-document
+  - case-review
+  - audit
+  serves:
+  - peer-review-visit
+- slug: peer-dialogue
+  title: Peer Dialogue
+  summary: Reviewers and the treating team discuss the findings as equals, in a peer visit or a morbidity and mortality conference,
+    judge preventability without blame and identify what would make care better.
+  capabilities:
+  - morbidity-and-mortality-review
+  - clinical-peer-review
+  - patient-safety-culture-development
+  - team-based-learning
+  entities:
+  - case-review
+  - audit-finding
+  serves:
+  - morbidity-and-mortality-conference
+  - peer-review-visit
+- slug: improvement-agreement
+  title: Improvement Agreement
+  summary: Findings and agreed actions are documented with owners and deadlines, fed into pathways, training or staffing decisions,
+    and reported to the department and the quality and safety committee.
+  capabilities:
+  - clinical-audit
+  - process-improvement
+  - change-planning
+  - quality-performance-evaluation
+  entities:
+  - audit-finding
+  - corrective-action
+  - improvement-initiative
+  serves:
+  - clinical-audit-report
+  - corrective-action-tracker
+  - quality-and-safety-committee
+- slug: implementation-check
+  title: Implementation Check
+  summary: A follow-up review or re-audit checks that the actions were implemented and changed practice, and practitioner-level findings
+    feed the ongoing evaluation of clinical privileges.
+  capabilities:
+  - improvement-sustainment
+  - clinical-audit
+  - clinical-privileging
+  entities:
+  - corrective-action
+  - audit
+  - professional-practice-evaluation
+  - measure-report
+  serves:
+  - clinical-audit-report
+  - quality-dashboard
+binds:
+- source: src-535
+  edition: '2016'
+  jurisdiction: global

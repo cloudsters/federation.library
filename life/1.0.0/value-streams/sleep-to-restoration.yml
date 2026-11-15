@@ -1,0 +1,98 @@
+kind: value-stream
+slug: sleep-to-restoration
+title: Sleeping Well
+family: demand-to-fulfillment
+summary: Sleep as the system everything else runs on, designed rather than left to whatever the day leaves over.
+trigger: Mornings start already in debt, nights are broken by a child, a shift pattern or a racing mind, or sleep is the first thing
+  cut when the day runs over.
+outcome: Sleep has its own protected place in the day, is shared fairly within the household, and the person wakes able to meet what
+  comes.
+stakeholders:
+- partner
+- child
+- place
+- employer
+steps:
+- slug: noticing-the-sleep-debt
+  title: Noticing the Sleep Debt
+  summary: Admitting that mornings start already tired and that sleep has become whatever is left once everything else is done.
+  capabilities:
+  - noticing-ones-own-depletion
+  entities:
+  - body
+  - energy-log
+  - strain-indicator
+- slug: learning-ones-own-night
+  title: Learning One's Own Night
+  summary: 'For a while the person simply watches how sleep goes: when it comes, what breaks it, what the evening before held, without
+    trying to fix it yet.'
+  capabilities:
+  - knowing-ones-own-sleep
+  entities:
+  - health-data
+  - habit-record
+  - journal
+- slug: naming-what-breaks-sleep
+  title: Naming What Breaks Sleep
+  summary: 'The child, the shift, the screen, the racing mind: the person sorts what is theirs to change from what is to be shared
+    or simply lived with.'
+  capabilities:
+  - telling-the-changeable-from-the-given
+  - recognising-ones-own-patterns
+  entities:
+  - pattern-log
+  - home
+  - device
+  serves:
+  - bedtime-and-the-night
+- slug: claiming-a-sleep-window
+  title: Claiming a Sleep Window
+  summary: Sleep is given a fixed place in the day that other things have to fit around, and the evening is wound down towards it.
+  capabilities:
+  - keeping-a-sleep-window
+  - winding-down-the-evening
+  entities:
+  - daily-rhythm
+  - health-plan
+  - boundary-set
+- slug: sharing-the-nights
+  title: Sharing the Nights Fairly
+  summary: Night waking, early starts and lie-ins are divided within the household, so no one person carries the broken nights alone.
+  capabilities:
+  - dividing-the-load-fairly
+  - speaking-plainly-about-needs
+  entities:
+  - partner-relation
+  - child-relation
+  - relationship-agreement
+  - parenting-agreement
+  serves:
+  - bedtime-and-the-night
+  - kitchen-table
+- slug: holding-the-line-on-long-days
+  title: Guarding Sleep on Long Days
+  summary: When the day runs over, sleep is no longer the first thing cut; the person notices the old trade being offered and declines
+    it.
+  capabilities:
+  - saying-no-early
+  - keeping-a-sleep-window
+  entities:
+  - daily-rhythm
+  - commitment
+  - boundary-set
+  serves:
+  - end-of-the-working-day
+- slug: looking-back-over-the-weeks
+  title: Looking Back Over the Weeks
+  summary: The person reads how they have been waking over weeks rather than single nights, and changes the design when the life changes
+    shape.
+  capabilities:
+  - looking-back-without-blame
+  entities:
+  - review-cadence
+  - drift-reading
+  - energy-log
+binds:
+- source: src-165
+  edition: 2012-02
+  jurisdiction: global

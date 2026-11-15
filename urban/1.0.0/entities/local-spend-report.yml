@@ -1,0 +1,61 @@
+kind: entity
+slug: local-spend-report
+title: Local Spend Report
+type: intelligence
+summary: The yearly account of the share of spending with local, small, cooperative and resident-owned suppliers by neighbourhood
+  and group, the jobs, wages and training those contracts brought and progress against the purchasing targets. The procurement office
+  compiles it with communities and anchor institutions, and the council uses it to adjust the targets.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: total-spend
+  type: amount
+  card: 1..1
+- name: local-spend
+  type: amount
+  card: 1..1
+- name: local-share
+  type: decimal
+  card: 1..1
+- name: spend-by-neighbourhood
+  type: document
+  card: 0..1
+- name: spend-by-ownership
+  type: document
+  card: 0..1
+- name: jobs-created
+  type: integer
+  card: 0..1
+- name: local-hires
+  type: integer
+  card: 0..1
+- name: training-places
+  type: integer
+  card: 0..1
+- name: targets-met
+  type: text
+  card: 0..*
+- name: anchor-institutions-covered
+  type: text
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- reviewed
+- published
+- debated
+- superseded
+relations:
+- type: based-on
+  target: spend-profile
+- type: refers-to
+  target: purchasing-commitment
+- type: refers-to
+  target: economic-indicators
+- type: refers-to
+  target: contract-performance-report
+- type: produces
+  target: public-record

@@ -1,0 +1,60 @@
+kind: entity
+slug: public-procurement
+title: Public Procurement
+type: transactional
+summary: A purchasing process for public goods, works or services, from published notice to award. The administration runs it under
+  the city's rules, it is open to internal audit and resident inspection, and an award results in a contract.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: procedure-kind
+  type: code
+  card: 1..1
+- name: estimated-value
+  type: amount
+  card: 1..1
+- name: award-criteria
+  type: text
+  card: 1..*
+- name: published-on
+  type: date
+  card: 0..1
+- name: bid-deadline
+  type: datetime
+  card: 0..1
+- name: bid-count
+  type: integer
+  card: 0..1
+- name: awarded-to
+  type: text
+  card: 0..1
+- name: awarded-value
+  type: amount
+  card: 0..1
+- name: award-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: resulting-contract
+  type: reference(contract)
+  card: 0..1
+states:
+- planned
+- published
+- open
+- evaluated
+- awarded
+- contracted
+- cancelled
+relations:
+- type: based-on
+  target: municipal-budget
+- type: governed-by
+  target: disclosure-policy
+- type: produces
+  target: contract
+- type: produces
+  target: public-record

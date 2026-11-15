@@ -1,0 +1,40 @@
+kind: journey
+slug: service-provider-maintaining-devices
+title: Service Provider Maintaining Devices
+stakeholder: supplier
+summary: A manufacturer or service company maintains devices under contract, responds to failures, carries out safety corrections
+  and takes devices back at the end of their life.
+stages:
+- slug: agree-the-service-plan
+  title: Agree the Service Plan
+  goal: Maintenance dates, response times and spare parts are agreed for the contract period.
+  step: medical-equipment-maintenance/maintenance-planning-and-scheduling
+  touchpoints:
+  - supply-contract
+  - service-contract-review
+- slug: service-the-device
+  title: Service the Device
+  goal: The technician maintains, inspects or repairs the device and leaves a complete service report.
+  step: medical-equipment-maintenance/maintenance-and-inspection
+  touchpoints:
+  - service-visit
+- slug: correct-a-safety-problem
+  title: Correct a Safety Problem
+  goal: The manufacturer's safety notice reaches every affected device and the correction is confirmed.
+  step: medical-equipment-maintenance/incident-and-safety-notice-handling
+  touchpoints:
+  - field-safety-notice
+  - service-visit
+- slug: review-the-contract
+  title: Review the Contract
+  goal: Response times, uptime and cost are reviewed and the contract is adjusted.
+  step: medical-equipment-maintenance/condition-and-performance-review
+  touchpoints:
+  - service-contract-review
+  - equipment-performance-report
+- slug: take-back-at-end-of-life
+  title: Take Back at End of Life
+  goal: Retired devices are taken back for reuse or recycling with evidence that their data are erased.
+  step: medical-equipment-maintenance/decommissioning-and-disposal
+  touchpoints:
+  - erasure-certificate

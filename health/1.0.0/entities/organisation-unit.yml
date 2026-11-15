@@ -1,0 +1,43 @@
+kind: entity
+slug: organisation-unit
+title: Organisation Unit
+type: master
+summary: A unit of the organisation's structure, such as a department, clinic, institute, centre, care unit or administrative
+  function, with its head, cost centres, sites and place in the hierarchy.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: unit-kind
+  type: code
+  card: 1..1
+- name: parent
+  type: reference(organisation-unit)
+  card: 0..1
+- name: head
+  type: reference(position)
+  card: 0..1
+- name: cost-centres
+  type: reference(cost-centre)
+  card: 0..*
+- name: sites
+  type: reference(site)
+  card: 0..*
+states:
+- planned
+- active
+- merged
+- closed
+relations:
+- type: part-of
+  target: organisation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

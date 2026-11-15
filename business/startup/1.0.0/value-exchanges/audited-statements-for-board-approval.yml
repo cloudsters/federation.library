@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: audited-statements-for-board-approval
+title: Audited Statements for Board Approval
+between:
+- executive-board
+- supervisory-board
+offered:
+- Audited statements with a narrative of what they mean, and the auditor's findings in full.
+returned:
+- Approval of the statements and the board's own judgement of the organisation's health.
+touchpoint: supervisory-board-meeting

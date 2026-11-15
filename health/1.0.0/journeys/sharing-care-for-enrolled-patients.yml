@@ -1,0 +1,52 @@
+kind: journey
+slug: sharing-care-for-enrolled-patients
+title: Sharing Care for Enrolled Patients
+stakeholder: referring-practice
+summary: 'The practice''s side of an integrated care programme: joining as a partner, proposing patients, holding one plan with the
+  hospital and other providers, and seeing the results.'
+stages:
+- slug: joining-as-partner
+  title: Joining as Partner
+  goal: Agree a clear role, workload and remuneration in the programme.
+  step: integrated-care-programmes/programme-design-and-contracting
+  touchpoints:
+  - cooperation-agreement
+  - care-network-meeting
+- slug: proposing-patients
+  title: Proposing Patients
+  goal: Propose suitable patients and have them enrolled without extra paperwork.
+  step: integrated-care-programmes/identification-and-enrolment
+  touchpoints:
+  - referrer-portal
+- slug: contributing-to-assessment
+  title: Contributing to Assessment
+  goal: Contribute the patient's history and local knowledge to a joint assessment.
+  step: integrated-care-programmes/joint-needs-assessment
+  touchpoints:
+  - clinical-messaging-service
+- slug: holding-the-same-plan
+  title: Holding the Same Plan
+  goal: Hold the same care plan as the hospital, with responsibilities that are clear to both sides.
+  step: integrated-care-programmes/shared-care-plan
+  touchpoints:
+  - shared-care-plan
+- slug: caring-with-specialist-backing
+  title: Caring with Specialist Backing
+  goal: Continue primary care with direct access to specialists and a timely letter after every contact.
+  step: integrated-care-programmes/coordinated-care-delivery
+  touchpoints:
+  - clinical-messaging-service
+  - discharge-letter
+- slug: adjusting-together
+  title: Adjusting Together
+  goal: Adjust the plan jointly when the patient's condition changes or after a hospital stay.
+  step: integrated-care-programmes/care-plan-review
+  touchpoints:
+  - shared-care-plan
+  - case-management-call
+- slug: seeing-results
+  title: Seeing Results
+  goal: See the programme's results for its own patients and help decide on its future.
+  step: integrated-care-programmes/programme-evaluation-and-settlement
+  touchpoints:
+  - care-network-meeting

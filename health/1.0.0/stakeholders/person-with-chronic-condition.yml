@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: person-with-chronic-condition
+title: Person with Chronic Condition
+nature: person
+stance: served
+summary: A person living with a long-term condition, often several at once, who returns repeatedly and shares care with general practice,
+  community services and specialists. No single provider owns the whole path.
+seeks:
+- Continuity across visits and providers, one coordinated plan and support to manage the condition between contacts.
+brings:
+- Expert knowledge of their own condition and data over time that make continuity, self-management and longitudinal research possible.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

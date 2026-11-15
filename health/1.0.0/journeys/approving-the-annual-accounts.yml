@@ -1,0 +1,21 @@
+kind: journey
+slug: approving-the-annual-accounts
+title: Approving the Annual Accounts
+stakeholder: owner
+summary: 'The owner''s part in closing a financial year: receiving the audited statements, approving them and discharging the board.'
+stages:
+- slug: receive-the-audit-findings
+  title: Receive the Audit Findings
+  goal: The audit opinion and findings are explained to the supervisory body by the auditor in person.
+  step: financial-accounting-and-treasury/statement-preparation-and-audit
+  touchpoints:
+  - audit-report
+  - supervisory-body-meeting
+- slug: approve-and-discharge
+  title: Approve and Discharge
+  goal: The statements are approved, the result is appropriated and the board is discharged on a sound basis.
+  step: financial-accounting-and-treasury/statement-approval-and-disclosure
+  touchpoints:
+  - supervisory-body-meeting
+  - annual-report
+  - tax-return

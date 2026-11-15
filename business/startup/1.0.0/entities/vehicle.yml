@@ -1,0 +1,43 @@
+kind: entity
+slug: vehicle
+title: Vehicle
+type: master
+summary: A vehicle of the organisation — each a named asset with contracts, fuel consumption, and maintenance needs, connecting its sites
+  across physical space.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: registration
+  type: identifier
+  card: 1..1
+- name: model
+  type: text
+  card: 1..1
+- name: assigned-driver
+  type: reference(employee-record)
+  card: 0..1
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+- name: fuel-log
+  type: text
+  card: 0..*
+- name: odometer
+  type: quantity
+  card: 0..1
+states:
+- acquired
+- assigned
+- operating
+- serviced
+- disposed
+relations:
+- type: refers-to
+  target: asset
+- type: assigned-to
+  target: employee-record
+- type: refers-to
+  target: maintenance-request
+- type: refers-to
+  target: carrier

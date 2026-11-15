@@ -1,0 +1,131 @@
+kind: value-stream
+slug: engagement-cultivation
+title: Engagement Building
+family: interest-to-relationship
+summary: 'Planning and running the marketing that turns interest into qualified demand: goals and budgets, content and media, campaigns,
+  promotions and nurture, with customer response tracked and learnt from.'
+trigger: The marketing plan cycle opens, an offering is launched, or demand in a segment falls below plan.
+outcome: Campaigns have reached their target customers, and qualified inquiries are handed to sales with their effect measured against
+  budget.
+stakeholders:
+- prospective-customer
+- business-customer
+- consumer
+- sales-representative
+- product-manager
+- sales-assistant-agent
+steps:
+- slug: marketing-goals-and-budget
+  title: Marketing Goals and Budget
+  summary: Goals and measures per offering, channel and segment are set, and the marketing budget is allocated to reach them.
+  capabilities:
+  - engagement-goal-design
+  - engagement-resource-stewardship
+  entities:
+  - objective
+  - budget
+  - kpi
+  serves:
+  - marketing-performance-review
+- slug: launch-planning
+  title: Launch Planning
+  summary: For each launch the target audience, timing, channels and partners are planned together with sales and delivery.
+  capabilities:
+  - go-to-ecosystem-strategy
+  entities:
+  - plan
+  - product
+  - market-segment
+  serves:
+  - product-launch
+  - store-and-branch
+- slug: content-and-presentation
+  title: Content and Presentation
+  summary: Marketing material, offer descriptions and packaging are created and kept current as the offering evolves.
+  capabilities:
+  - offering-narrative-stewardship
+  - offering-presentation-design
+  entities:
+  - communication
+  - product
+  - brand
+  serves:
+  - online-shop
+  - product-catalogue
+  - retail-shelf
+  - website
+- slug: audience-building
+  title: Audience Building
+  summary: Target audiences are built from genuine fit, and every person's consents and communication preferences are recorded and
+    honoured.
+  capabilities:
+  - ad-audience-management
+  - consent-and-preference-management
+  entities:
+  - segment
+  - mailing-list
+  - data-use-consent
+  serves:
+  - newsletter
+  - preference-centre
+- slug: media-and-social-presence
+  title: Media and Social Presence
+  summary: Paid media are planned, bought and measured, and the organisation keeps a steady, useful presence in social and earned
+    channels.
+  capabilities:
+  - advertising-and-media-planning
+  - social-media-presence-management
+  - visibility-cultivation
+  entities:
+  - campaign
+  - communication
+  - budget
+  serves:
+  - advertisement
+  - social-media
+  - trade-press
+- slug: campaign-and-promotion-execution
+  title: Campaign and Promotion Execution
+  summary: Campaigns run as journeys that respond to how each person engages, and promotions adjust the exchange within limits that
+    keep it fair.
+  capabilities:
+  - marketing-campaign-automation
+  - value-exchange-calibration
+  entities:
+  - campaign
+  - promotion
+  - price-list
+  serves:
+  - newsletter
+  - online-shop
+  - store-and-branch
+  - trade-fair
+  - webinar
+- slug: inquiry-nurture-and-handover
+  title: Inquiry Follow-Up and Handover
+  summary: Interested people receive relevant content at their own pace, and those who are ready are handed to sales with their history.
+  capabilities:
+  - inquiry-nurturing-automation
+  - relationship-health-sensing
+  entities:
+  - inquiry
+  - funnel-stage
+  - communication
+  serves:
+  - inquiry-dossier
+  - sales-meeting
+  - website
+- slug: response-and-insight-review
+  title: Response and Insight Review
+  summary: Customer response, relationship health and spend are reviewed against the goals, and customer insight is fed back into
+    offering and marketing decisions.
+  capabilities:
+  - stakeholder-insight-integration
+  - relationship-health-sensing
+  - engagement-goal-design
+  entities:
+  - measure-report
+  - campaign
+  - market-insight
+  serves:
+  - marketing-performance-review

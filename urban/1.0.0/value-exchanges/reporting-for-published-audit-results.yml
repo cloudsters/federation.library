@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reporting-for-published-audit-results
+title: Reporting for Published Audit Results
+between:
+- news-media
+- city-administration
+offered:
+- Reporting that carries the audit results to residents.
+returned:
+- Published findings on every contractor audited.
+touchpoint: published-fair-work-findings

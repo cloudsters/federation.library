@@ -1,0 +1,44 @@
+kind: journey
+slug: customer-service-representative-serving-on-the-front-line
+title: Customer Service Representative Serving on the Front Line
+stakeholder: customer-service-representative
+summary: A customer service representative works a staffed shift, resolves cases and complaints, processes returns, raises incidents
+  openly and follows up so that customers keep the value they bought.
+stages:
+- slug: know-the-shift-ahead
+  title: Know the Shift Ahead
+  goal: The team is staffed for the expected volume and knows the open issues and changes.
+  step: experience-delivery-care/service-capacity-planning
+  touchpoints:
+  - service-team-briefing
+- slug: resolve-cases
+  title: Resolve Cases
+  goal: Cases are routed to the right person and resolved within the service level, and what they reveal is kept.
+  step: experience-delivery-care/request-and-inquiry-handling
+  touchpoints:
+  - service-case
+  - service-hotline
+- slug: settle-complaints
+  title: Settle Complaints
+  goal: Complaints are resolved with the customer and their causes passed on for improvement.
+  step: experience-delivery-care/complaint-resolution
+  touchpoints:
+  - complaint-and-warranty-claim
+- slug: returns-handling
+  title: Returns Handling
+  goal: Returns are inspected, remedied and routed to reuse or disposal, with the reason recorded.
+  step: experience-delivery-care/return-processing
+  touchpoints:
+  - return-point
+- slug: raise-incidents
+  title: Raise Incidents
+  goal: Harm or risk raised by a customer is reported openly to the safety owner.
+  step: experience-delivery-care/incident-and-risk-reporting
+  touchpoints:
+  - incident-report
+- slug: follow-up-on-adoption
+  title: Follow Up on Adoption
+  goal: Customers at risk of losing the value they bought are contacted in time.
+  step: experience-delivery-care/adoption-follow-up
+  touchpoints:
+  - adoption-check-in

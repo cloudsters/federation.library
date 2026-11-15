@@ -1,0 +1,13 @@
+kind: capability
+slug: data-security-architecture
+title: Data Security Architecture
+level: L3
+parent: information-security
+summary: Design the architecture that secures data flows and protects privacy across systems.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global
+- source: src-342
+  edition: '2025'
+  jurisdiction: global

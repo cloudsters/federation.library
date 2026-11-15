@@ -1,0 +1,54 @@
+kind: entity
+slug: vendor-council
+title: Vendor Council
+type: master
+summary: The body that the vendors of a market or of the city elect to agree market rules with the city and to speak for vendors.
+  The council keeps its own record of members and terms, and the markets service records it as the party with which rules, fees and
+  reviews are agreed.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: scope
+  type: code
+  card: 1..1
+- name: markets
+  type: reference(market)
+  card: 0..*
+- name: members
+  type: text
+  card: 1..*
+- name: member-count
+  type: integer
+  card: 0..1
+- name: informal-vendors-included
+  type: boolean
+  card: 0..1
+- name: election-rules
+  type: text
+  card: 1..1
+- name: elected-on
+  type: date
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+- name: meeting-rhythm
+  type: code
+  card: 0..1
+- name: spokespeople
+  type: text
+  card: 0..*
+states:
+- forming
+- elected
+- active
+- renewing
+- dissolved
+relations:
+- type: refers-to
+  target: market
+- type: refers-to
+  target: civil-society-body
+- type: produces
+  target: market-rules

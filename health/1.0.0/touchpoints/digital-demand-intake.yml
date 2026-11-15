@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digital-demand-intake
+title: Digital Demand Intake
+medium: channel
+summary: The channel through which units submit needs for new or changed digital solutions, reports and data, and follow their assessment,
+  priority and decision.
+exchanges:
+- clinical-needs-for-architectural-direction
+- steering-question-for-trusted-report
+journey: clinical-unit-shaping-the-digital-roadmap

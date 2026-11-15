@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: account-statement
+title: Account Statement
+medium: artefact
+summary: The statement of a customer's open items, payments received and current balance, available on request or in the portal.
+exchanges:
+- transparent-charges-for-timely-payment
+journey: consumer-paying-for-a-subscription

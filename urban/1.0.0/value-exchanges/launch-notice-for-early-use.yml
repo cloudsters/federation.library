@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: launch-notice-for-early-use
+title: Launch Notice for Early Use
+between:
+- city-administration
+- newcomer
+offered:
+- Word of the new digital route in the newcomer's language, through the channels they use.
+returned:
+- Residents who try the route early and report what fails.
+touchpoint: digital-route-launch-notice

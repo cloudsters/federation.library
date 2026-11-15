@@ -1,0 +1,64 @@
+kind: entity
+slug: allergy-or-intolerance
+title: Allergy or Intolerance
+type: transactional
+summary: A recorded propensity of a patient to react adversely to a substance, such as a medication, food or contrast agent, with
+  its criticality and reactions, checked before every order and administration.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: substance
+  type: code
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: criticality
+  type: code
+  card: 1..1
+- name: reactions
+  type: code
+  card: 0..*
+- name: onset
+  type: date
+  card: 0..1
+- name: recorded-by
+  type: reference(practitioner-role)
+  card: 1..1
+states:
+- unconfirmed
+- confirmed
+- refuted
+- inactive
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

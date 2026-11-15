@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: host-neighbourhood-agreement
+title: Host Neighbourhood Agreement
+medium: artefact
+summary: The agreement between the city and a neighbourhood that receives many visitors on what it welcomes, where limits apply and
+  what it asks of its guests.
+exchanges:
+- neighbourhood-welcome-for-agreed-limits
+- respect-for-local-life-for-an-open-door
+journey: neighbourhood-association-hosting-visitors-on-its-own-terms

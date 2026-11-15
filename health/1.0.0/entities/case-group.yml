@@ -1,0 +1,35 @@
+kind: entity
+slug: case-group
+title: Case Group
+type: master
+summary: A class of the case-based payment system that groups inpatient cases with similar diagnoses, procedures and resource use,
+  carrying the relative weight and length-of-stay bounds that determine payment.
+attributes:
+- name: case-group-code
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: relative-weight
+  type: decimal
+  card: 1..1
+- name: length-of-stay-bounds
+  type: quantity
+  card: 0..*
+- name: classification-version
+  type: identifier
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+states:
+- in-force
+- withdrawn
+relations:
+- type: governed-by
+  target: coding-rule
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

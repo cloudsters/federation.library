@@ -1,0 +1,32 @@
+kind: journey
+slug: technology-provider-delivering-a-solution
+title: Technology Provider Delivering a Solution
+stakeholder: technology-provider
+summary: A technology provider answers a sourcing decision, builds or configures the solution, supports its testing and maintains
+  and upgrades it over its life.
+stages:
+- slug: answer-the-sourcing-decision
+  title: Answer the Sourcing Decision
+  goal: The provider understands the requirements and offers a comparable solution.
+  step: solution-lifecycle-design/requirement-and-sourcing-decision
+  touchpoints:
+  - contract-negotiation
+  - requirement-workshop
+- slug: build-or-configure
+  title: Build or Configure
+  goal: The solution is built or configured on the agreed platforms.
+  step: solution-lifecycle-design/solution-build
+  touchpoints:
+  - shared-development-platform
+- slug: support-the-testing
+  title: Support the Testing
+  goal: Defects found in testing are corrected before release.
+  step: solution-lifecycle-design/solution-testing
+  touchpoints:
+  - user-acceptance-test
+- slug: maintain-and-upgrade
+  title: Maintain and Upgrade
+  goal: The solution is maintained, upgraded and, at the end, its data handed back.
+  step: solution-lifecycle-design/maintenance-and-retirement
+  touchpoints:
+  - application-inventory

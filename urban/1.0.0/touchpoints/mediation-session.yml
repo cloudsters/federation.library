@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mediation-session
+title: Mediation Session
+medium: encounter
+summary: A session with a neutral mediator in which a claim or dispute with the city is settled through dialogue before any litigation.
+exchanges:
+- claim-for-fair-compensation
+- dispute-for-mediated-repair
+journey: legal-and-compliance-officer-keeping-the-municipality-lawful

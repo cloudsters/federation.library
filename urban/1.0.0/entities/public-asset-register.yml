@@ -1,0 +1,74 @@
+kind: entity
+slug: public-asset-register
+title: Public Asset Register
+type: master
+summary: The register of the land, buildings, networks and enterprises the city holds, with the value, condition, use and income of
+  each, and the community assets residents have mapped beside it. The asset office keeps it current with the valuation office, and
+  it is used to set rents and returns, plan upkeep and account for what the city owns.
+attributes:
+- name: asset-number
+  type: identifier
+  card: 1..1
+- name: asset-kind
+  type: code
+  card: 1..1
+- name: asset-name
+  type: text
+  card: 1..1
+- name: parcel
+  type: reference(land-parcel)
+  card: 0..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: enterprise
+  type: reference(municipal-enterprise)
+  card: 0..1
+- name: book-value
+  type: amount
+  card: 1..1
+- name: valuation-date
+  type: date
+  card: 1..1
+- name: condition
+  type: code
+  card: 1..1
+- name: current-use
+  type: code
+  card: 1..1
+- name: annual-income
+  type: amount
+  card: 0..1
+- name: held-in-trust
+  type: boolean
+  card: 0..1
+states:
+- registered
+- valued
+- in-use
+- let
+- vacant
+- disposed
+relations:
+- type: composed-of
+  target: land-parcel
+- type: composed-of
+  target: building
+- type: refers-to
+  target: municipal-enterprise
+- type: based-on
+  target: land-registry
+- type: refers-to
+  target: community-asset-map
+- type: governed-by
+  target: commons-charter
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-192
+  edition: '2024'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

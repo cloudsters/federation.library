@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: shift-handover
+title: Shift Handover
+medium: encounter
+summary: The structured transfer of information and of responsibility for patients from one shift or team to the next.
+exchanges:
+- structured-step-down-for-ward-acceptance
+- delegated-care-for-reported-observations
+journey: nurse-raising-a-moral-concern

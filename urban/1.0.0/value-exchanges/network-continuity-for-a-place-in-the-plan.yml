@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-continuity-for-a-place-in-the-plan
+title: Network Continuity for a Place in the Plan
+between:
+- infrastructure-operator
+- city-administration
+offered:
+- Continuity plans for the networks it runs, and its people in the exercises.
+returned:
+- A defined role in the emergency plan and clear priorities for restoration.
+touchpoint: published-emergency-plan

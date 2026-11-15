@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: grievance-desk
+title: Grievance Desk
+medium: channel
+summary: The desk, outside the line management of the person who raises it, where a grievance is received and its handling followed.
+exchanges:
+- grievance-for-a-fixed-cause
+journey: frontline-worker-staying-well-in-a-demanding-role

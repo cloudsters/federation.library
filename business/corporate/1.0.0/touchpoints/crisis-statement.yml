@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: crisis-statement
+title: Crisis Statement
+medium: artefact
+summary: The statement issued in a crisis by a defined spokesperson, saying what is known, what is being done and what those affected
+  should do, updated as facts change.
+exchanges:
+- truthful-account-for-fair-reporting
+- prompt-warning-for-calm-cooperation
+journey: journalist-reporting-on-the-company

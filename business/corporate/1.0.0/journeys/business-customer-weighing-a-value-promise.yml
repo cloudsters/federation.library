@@ -1,0 +1,48 @@
+kind: journey
+slug: business-customer-weighing-a-value-promise
+title: Business Customer Weighing a Value Promise
+stakeholder: business-customer
+summary: A business customer recognises itself in a value promise, tells the offer apart from alternatives, understands the price,
+  reaches the offer through a fitting channel, finds loyalty repaid and sees the promise kept.
+stages:
+- slug: recognise-itself-in-the-promise
+  title: Recognise Itself in the Promise
+  goal: The customer sees a promise that speaks to its needs and that delivery can honour.
+  step: value-narrative-design/value-proposition-definition
+  touchpoints:
+  - website
+  - product-catalogue
+- slug: tell-the-offer-apart
+  title: Tell the Offer Apart
+  goal: The customer understands how the offer differs from the alternatives.
+  step: value-narrative-design/positioning-and-brand
+  touchpoints:
+  - trade-press
+  - trade-fair
+- slug: understand-the-price
+  title: Understand the Price
+  goal: The pricing logic is transparent and the customer can see what it pays for.
+  step: value-narrative-design/pricing-mechanism-design
+  touchpoints:
+  - price-list
+  - quotation
+- slug: reach-the-offer-its-own-way
+  title: Reach the Offer Its Own Way
+  goal: The customer reaches the offer through the channel that suits it.
+  step: value-narrative-design/channel-mix-design
+  touchpoints:
+  - customer-portal
+  - sales-meeting
+- slug: see-loyalty-repaid
+  title: See Loyalty Repaid
+  goal: Staying brings real value rather than switching costs.
+  step: value-narrative-design/loyalty-commitment-design
+  touchpoints:
+  - loyalty-programme
+  - account-review
+- slug: find-the-promise-kept
+  title: Find the Promise Kept
+  goal: What the customer experiences matches what it was promised, and gaps are heard.
+  step: value-narrative-design/narrative-approval-and-review
+  touchpoints:
+  - account-review

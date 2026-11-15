@@ -1,0 +1,35 @@
+kind: solution
+slug: open-data-portal
+title: Open Data Portal
+role: platform
+summary: Publishes decisions, budgets, spending, contracts, election results and the shared picture of the city in formats residents
+  can search and reuse.
+carries:
+- public-record-publication
+- shared-city-picture-publication
+- implementation-reporting
+- vision-communication
+- proposal-tracing
+- revenue-flow-reporting
+- open-data-publication
+- research-findings-return
+- price-information-publication
+- procurement-plan-publication
+- maintenance-backlog-publication
+holds:
+- public-record
+- municipal-budget
+- public-procurement
+- contract
+- city-dashboard
+- programme-portfolio
+- money-flow-account
+- open-data-release
+- market-price-report
+- procurement-plan
+- contract-register
+- award-decision
+- payment-performance-report
+- local-spend-report
+- supply-dependency-map
+- maintenance-backlog-ledger

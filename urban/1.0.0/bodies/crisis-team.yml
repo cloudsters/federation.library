@@ -1,0 +1,15 @@
+kind: body
+slug: crisis-team
+title: Crisis Team
+summary: Takes command in an emergency within decision rights bounded in scope and time, coordinates emergency services and departments,
+  warns residents and allocates relief by need.
+holds:
+- crisis-command
+- public-warning
+- fair-relief-allocation
+- emergency-power-limitation
+- supply-disruption-response
+- reserve-release
+part_of: full-council
+type: management
+form: organisational-unit

@@ -1,0 +1,38 @@
+kind: body
+slug: finance-department
+title: Finance Department
+summary: The municipality's finance function under the treasurer, which proposes the revenue policy, plans and steers the budget,
+  keeps the books and the annual accounts, reviews the funding mix and the city's long-term financial health, exercises the city's
+  role as owner of its enterprises and reports where the city's money comes from and where it goes.
+holds:
+- budget-planning-and-control
+- accounting-and-financial-reporting
+- revenue-policy-design
+- tax-and-charge-rate-setting
+- medium-term-financial-planning
+- fiscal-forecasting
+- budget-bid-preparation
+- upkeep-cost-assessment
+- budget-equity-assessment
+- budget-release
+- commitment-control
+- variance-reporting-and-forecasting
+- spending-outcome-review
+- transaction-recording
+- ecological-and-social-cost-accounting
+- annual-accounts-preparation
+- revenue-flow-reporting
+- transfer-entitlement-tracking
+- regional-revenue-pooling
+- funding-mix-review
+- fiscal-sustainability-assessment
+- owner-mandate-setting
+- enterprise-surplus-allocation
+- commons-fund-accounting
+- payroll-processing
+- invoice-matching
+- prompt-supplier-payment
+- payment-time-reporting
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,45 @@
+kind: journey
+slug: bringing-a-new-method-into-routine-care
+title: Bringing a New Method into Routine Care
+stakeholder: specialist-physician
+summary: The proposing physician's path from a promising method to its evaluated use for the patients who benefit from it.
+stages:
+- slug: proposing-the-method
+  title: Proposing the Method
+  goal: Put a promising method before the organisation with a clear case for the patients who would benefit.
+  step: health-technology-adoption/technology-proposal
+  touchpoints:
+  - new-technology-application
+- slug: making-the-evidence-case
+  title: Making the Evidence Case
+  goal: Have the evidence judged fairly and promptly by people who understand the clinical question.
+  step: health-technology-adoption/evidence-and-safety-assessment
+  touchpoints:
+  - technology-assessment-committee
+- slug: clarifying-cost-and-payment
+  title: Clarifying Cost and Payment
+  goal: Know what the method costs and how it will be paid for before patients depend on it.
+  step: health-technology-adoption/cost-and-payment-assessment
+  touchpoints:
+  - technology-assessment-committee
+- slug: receiving-the-decision
+  title: Receiving the Decision
+  goal: Receive a reasoned decision with the conditions of adoption or the reasons for declining.
+  step: health-technology-adoption/adoption-decision
+  touchpoints:
+  - technology-assessment-committee
+  - board-meeting
+- slug: introducing-the-method-safely
+  title: Introducing the Method Safely
+  goal: Perform the first cases with a trained team, working equipment and fully informed patients.
+  step: health-technology-adoption/controlled-introduction
+  touchpoints:
+  - device-commissioning
+  - operating-theatre
+  - consent-form
+- slug: showing-the-results
+  title: Showing the Results
+  goal: Show that the method delivers its expected benefit and keep it in use on that evidence.
+  step: health-technology-adoption/follow-up-evaluation
+  touchpoints:
+  - technology-assessment-committee

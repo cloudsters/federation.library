@@ -1,0 +1,33 @@
+kind: journey
+slug: clinician-scientist-academic-journey
+title: Clinician Scientist Academic Journey
+stakeholder: clinician-scientist
+summary: A clinician scientist has research counted, finds a place in a profile area, secures protected time and a career path, and
+  gains access to infrastructure and funds.
+stages:
+- slug: be-counted
+  title: Be Counted
+  goal: Have publications, grants and trials attributed to the unit and the profile area.
+  step: academic-strategy/academic-performance-assessment
+  touchpoints:
+  - academic-performance-report
+- slug: join-a-profile-area
+  title: Join a Profile Area
+  goal: Place one's research in a profile area with partners, patients and infrastructure.
+  step: academic-strategy/research-profile-definition
+  touchpoints:
+  - strategy-workshop
+  - cooperation-agreement
+- slug: secure-a-career-path
+  title: Secure a Career Path
+  goal: Obtain a position with protected research time and a route to appointment.
+  step: academic-strategy/appointment-planning
+  touchpoints:
+  - unit-objectives-agreement
+- slug: gain-infrastructure-and-funds
+  title: Gain Infrastructure and Funds
+  goal: Gain access to core facilities, data and seed funds that make competitive proposals possible.
+  step: academic-strategy/infrastructure-and-funding-alignment
+  touchpoints:
+  - funding-proposal
+  - budget-plan

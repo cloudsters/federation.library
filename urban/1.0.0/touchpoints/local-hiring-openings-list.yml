@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: local-hiring-openings-list
+title: Local Hiring Openings List
+medium: channel
+summary: The list of openings that contracts, projects and agreements hold for residents under the local hiring commitments, shared
+  with community coordinators.
+exchanges:
+- readiness-for-openings-held-for-residents
+journey: job-seeker-finding-secure-local-work

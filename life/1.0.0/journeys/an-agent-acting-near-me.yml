@@ -1,0 +1,26 @@
+kind: journey
+slug: an-agent-acting-near-me
+title: An Agent Acting Near Me
+stakeholder: dependant
+via: portfolio-to-system
+summary: Someone who depends on this person finds that anything an agent does that touches them comes back to a person first, and
+  is told when they are dealing with an agent and whom to reach.
+stages:
+- slug: be-within-its-reach
+  title: Be within Its Reach
+  goal: What an agent may do that touches the dependant is written down in words someone else could read.
+  step: agent-to-delegation/stating-its-reach
+  touchpoints:
+  - agent-instructions
+- slug: come-back-to-a-person
+  title: Come Back to a Person
+  goal: Anything that touches the dependant is handed back to the person before it is done.
+  step: agent-to-delegation/deciding-what-comes-back
+  touchpoints:
+  - agent-instructions
+- slug: be-told
+  title: Be Told
+  goal: The dependant knows when they are dealing with an agent, and whom to reach when it gets something wrong.
+  step: agent-to-delegation/telling-those-it-touches
+  touchpoints:
+  - kitchen-table

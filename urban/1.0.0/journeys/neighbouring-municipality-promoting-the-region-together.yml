@@ -1,0 +1,38 @@
+kind: journey
+slug: neighbouring-municipality-promoting-the-region-together
+title: Neighbouring Municipality Promoting the Region Together
+stakeholder: neighbouring-municipality
+summary: A neighbouring municipality agrees with the city to promote the region together, share a register of sites and the costs
+  of promotion, refrain from outbidding with tax breaks and share part of the revenue that investment brings.
+stages:
+- slug: state-the-regional-offer
+  title: State the Regional Offer
+  goal: What the region offers and which investment it seeks is stated jointly from evidence.
+  step: inward-investment-and-location-promotion/location-offer-definition
+  touchpoints:
+  - published-location-offer
+- slug: agree-not-to-outbid
+  title: Agree Not to Outbid
+  goal: The municipalities have agreed in writing to promote together, share the costs of promotion and part of the revenue, and not
+    to outbid one another with tax breaks.
+  step: inward-investment-and-location-promotion/joint-regional-promotion
+  touchpoints:
+  - regional-promotion-agreement
+- slug: share-the-sites
+  title: Share the Sites
+  goal: One register of sites across the region is kept and used by both municipalities.
+  step: inward-investment-and-location-promotion/joint-regional-promotion
+  touchpoints:
+  - shared-regional-site-register
+- slug: pass-on-enquiries
+  title: Pass on Enquiries
+  goal: An enquiry that fits a site in the neighbouring municipality better is passed on, not kept from the neighbour.
+  step: inward-investment-and-location-promotion/investment-enquiry-handling
+  touchpoints:
+  - investment-contact-point
+- slug: review-what-investment-did
+  title: Review What Investment Did
+  goal: What investment did to work, rents and existing businesses across the region is reviewed together.
+  step: inward-investment-and-location-promotion/investment-outcome-review
+  touchpoints:
+  - published-investment-outcome-review

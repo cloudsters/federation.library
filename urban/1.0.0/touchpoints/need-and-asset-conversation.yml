@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: need-and-asset-conversation
+title: Need and Asset Conversation
+medium: encounter
+summary: A conversation in the neighbourhood with the residents who have a need, in which the need is described in their words together
+  with the services and community help that already touch it.
+exchanges:
+- described-need-for-an-answered-proposal
+journey: city-administration-bringing-a-new-service-into-use

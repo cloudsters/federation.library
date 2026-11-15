@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: outage-reports-for-restoration-of-the-vulnerable-first
+title: Outage Reports for Restoration of the Vulnerable First
+between:
+- tenant
+- infrastructure-operator
+offered:
+- Reports of an outage and word of the households that depend on power or heat for health.
+returned:
+- Essential services and vulnerable households restored first, a backed-up place open nearby and word of when supply returns.
+touchpoint: leak-and-outage-line

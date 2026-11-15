@@ -1,0 +1,17 @@
+kind: touchpoint
+slug: invoice
+title: Invoice
+medium: artefact
+summary: The bill for goods or services delivered, with items, prices, taxes and payment terms, which the customer checks against
+  order and receipt before paying.
+exchanges:
+- correct-invoice-for-prompt-payment
+- correct-invoice-for-timely-payment
+- counter-service-for-a-return-visit
+- goods-for-payment
+- order-data-for-clean-matching
+- payment-security-for-a-first-trade
+- shipping-data-for-reliable-carriage
+- transparent-charges-for-timely-payment
+- transparent-report-for-sign-off
+journey: receivables-accountant-collecting-what-is-due

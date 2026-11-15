@@ -1,0 +1,44 @@
+kind: entity
+slug: teaching-evaluation
+title: Teaching Evaluation
+type: transactional
+summary: A learner's or peer's structured evaluation of a course, teaching session, teacher or placement, collected after delivery
+  and aggregated into teaching quality measures for teachers, curriculum and fund allocation.
+attributes:
+- name: evaluated-course
+  type: reference(course)
+  card: 0..1
+- name: evaluated-rotation
+  type: reference(rotation)
+  card: 0..1
+- name: evaluated-teachers
+  type: reference(employee)
+  card: 0..*
+- name: evaluator-role
+  type: code
+  card: 1..1
+- name: submitted-on
+  type: date
+  card: 1..1
+- name: ratings
+  type: integer
+  card: 1..*
+- name: comments
+  type: text
+  card: 0..1
+- name: anonymous
+  type: boolean
+  card: 1..1
+states:
+- open
+- submitted
+- analysed
+relations:
+- type: refers-to
+  target: course
+- type: refers-to
+  target: rotation
+binds:
+- source: src-460
+  edition: '1959'
+  jurisdiction: global

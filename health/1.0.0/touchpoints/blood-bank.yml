@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: blood-bank
+title: Blood Bank
+medium: place
+summary: Where blood products are stored, tested for compatibility and issued for named patients around the clock.
+exchanges:
+- compatible-unit-for-a-documented-transfusion
+journey: transfusion-recipient-journey

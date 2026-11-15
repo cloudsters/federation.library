@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: notice-of-assembly-for-a-protected-gathering
+title: Notice of Assembly for a Protected Gathering
+between:
+- resident
+- city-administration
+offered:
+- Simple notice of a gathering or demonstration.
+returned:
+- The right to gather upheld and the safety of those taking part agreed.
+touchpoint: assembly-notice

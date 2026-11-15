@@ -1,0 +1,1722 @@
+# the extension's blueprint sections (the run's forms, part E), derived at release; never edited by hand
+sections:
+- id: life.value-stream.becoming-to-identity
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: becoming-to-identity
+  cardinality: one
+  labels:
+    en: Becoming Oneself
+- id: life.value-stream.conviction-to-conduct
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: conviction-to-conduct
+  cardinality: one
+  labels:
+    en: Living by One's Values
+- id: life.value-stream.experience-to-story
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: experience-to-story
+  cardinality: one
+  labels:
+    en: Telling One's Own Story
+- id: life.value-stream.exposure-to-boundary
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: exposure-to-boundary
+  cardinality: one
+  labels:
+    en: Keeping One's Edges
+- id: life.value-stream.inheritance-to-choice
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: inheritance-to-choice
+  cardinality: one
+  labels:
+    en: Sorting What Was Handed Down
+- id: life.value-stream.mortality-to-mandate
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: mortality-to-mandate
+  cardinality: one
+  labels:
+    en: Facing Mortality
+- id: life.value-stream.noticing-to-discernment
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: noticing-to-discernment
+  cardinality: one
+  labels:
+    en: Seeing Clearly
+- id: life.value-stream.rupture-to-continuity
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: rupture-to-continuity
+  cardinality: one
+  labels:
+    en: Staying Oneself through Upheaval
+- id: life.value-stream.agent-to-delegation
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: agent-to-delegation
+  cardinality: one
+  labels:
+    en: Living with Agents
+- id: life.value-stream.platform-to-sovereignty
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: platform-to-sovereignty
+  cardinality: one
+  labels:
+    en: Who Holds the Ground
+- id: life.value-stream.record-to-memory
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: record-to-memory
+  cardinality: one
+  labels:
+    en: The Personal Archive
+- id: life.value-stream.space-to-workshop
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: space-to-workshop
+  cardinality: one
+  labels:
+    en: A Room for the Work
+- id: life.value-stream.tool-to-integration
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: tool-to-integration
+  cardinality: one
+  labels:
+    en: Tools That Work Together
+- id: life.value-stream.calling-to-direction
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: calling-to-direction
+  cardinality: one
+  labels:
+    en: Finding a Direction
+- id: life.value-stream.constraint-to-invention
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: constraint-to-invention
+  cardinality: one
+  labels:
+    en: Designing Within Limits
+- id: life.value-stream.direction-to-commitment
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: direction-to-commitment
+  cardinality: one
+  labels:
+    en: Choosing and Committing
+- id: life.value-stream.horizon-to-season
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: horizon-to-season
+  cardinality: one
+  labels:
+    en: Planning in Seasons
+- id: life.value-stream.option-to-portfolio
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: option-to-portfolio
+  cardinality: one
+  labels:
+    en: Spreading the Bets
+- id: life.value-stream.rupture-to-replan
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: rupture-to-replan
+  cardinality: one
+  labels:
+    en: Planning for the Unplanned
+- id: life.value-stream.consumption-to-consequence
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: consumption-to-consequence
+  cardinality: one
+  labels:
+    en: Knowing What Living Takes
+- id: life.value-stream.earning-to-income
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: earning-to-income
+  cardinality: one
+  labels:
+    en: Earning a Lasting Living
+- id: life.value-stream.exposure-to-buffer
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: exposure-to-buffer
+  cardinality: one
+  labels:
+    en: Holding Something in Reserve
+- id: life.value-stream.loss-to-renewal
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: loss-to-renewal
+  cardinality: one
+  labels:
+    en: Growing through What Breaks
+- id: life.value-stream.obligation-to-ledger
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: obligation-to-ledger
+  cardinality: one
+  labels:
+    en: Seeing What Is Owed
+- id: life.value-stream.spending-to-enough
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: spending-to-enough
+  cardinality: one
+  labels:
+    en: Knowing What Is Enough
+- id: life.value-stream.decision-to-subsidiarity
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: decision-to-subsidiarity
+  cardinality: one
+  labels:
+    en: Who Decides What
+- id: life.value-stream.distance-to-rhythm
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: distance-to-rhythm
+  cardinality: one
+  labels:
+    en: Working across Distance
+- id: life.value-stream.language-to-understanding
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: language-to-understanding
+  cardinality: one
+  labels:
+    en: Shared Words
+- id: life.value-stream.practice-to-pattern
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: practice-to-pattern
+  cardinality: one
+  labels:
+    en: Keeping What Worked
+- id: life.value-stream.thinking-to-shared-sense
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: thinking-to-shared-sense
+  cardinality: one
+  labels:
+    en: Making Sense Together
+- id: life.value-stream.work-to-agent
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: work-to-agent
+  cardinality: one
+  labels:
+    en: What Stays Human
+- id: life.value-stream.curiosity-to-capability
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: curiosity-to-capability
+  cardinality: one
+  labels:
+    en: Learning That Lasts
+- id: life.value-stream.experience-to-teaching
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: experience-to-teaching
+  cardinality: one
+  labels:
+    en: Teaching from Experience
+- id: life.value-stream.holding-to-handover
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: holding-to-handover
+  cardinality: one
+  labels:
+    en: Leaving a Role Well
+- id: life.value-stream.inheritance-to-transmission
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: inheritance-to-transmission
+  cardinality: one
+  labels:
+    en: Passing Down across Generations
+- id: life.value-stream.role-to-design
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: role-to-design
+  cardinality: one
+  labels:
+    en: Shaping One's Own Role
+- id: life.value-stream.skill-to-relevance
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: skill-to-relevance
+  cardinality: one
+  labels:
+    en: Keeping Skills Alive
+- id: life.value-stream.care-to-raising
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: care-to-raising
+  cardinality: one
+  labels:
+    en: Raising Someone into Themselves
+- id: life.value-stream.circle-to-reciprocity
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: circle-to-reciprocity
+  cardinality: one
+  labels:
+    en: Keeping the Circle Alive
+- id: life.value-stream.closeness-to-consent
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: closeness-to-consent
+  cardinality: one
+  labels:
+    en: Close without Disappearing
+- id: life.value-stream.difference-to-common-ground
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: difference-to-common-ground
+  cardinality: one
+  labels:
+    en: Common Ground across Difference
+- id: life.value-stream.encounter-to-belonging
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: encounter-to-belonging
+  cardinality: one
+  labels:
+    en: Finding One's People
+- id: life.value-stream.friction-to-repair
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: friction-to-repair
+  cardinality: one
+  labels:
+    en: Finding the Way Back
+- id: life.value-stream.gathering-to-ritual
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: gathering-to-ritual
+  cardinality: one
+  labels:
+    en: Marking Times Together
+- id: life.value-stream.grief-to-shared-meaning
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: grief-to-shared-meaning
+  cardinality: one
+  labels:
+    en: Grieving Together
+- id: life.value-stream.kinship-to-agreement
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: kinship-to-agreement
+  cardinality: one
+  labels:
+    en: Renegotiating Family Terms
+- id: life.value-stream.voice-to-say
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: voice-to-say
+  cardinality: one
+  labels:
+    en: Having a Real Say
+- id: life.value-stream.idea-to-work
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: idea-to-work
+  cardinality: one
+  labels:
+    en: Making the Thing
+- id: life.value-stream.need-to-idea
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: need-to-idea
+  cardinality: one
+  labels:
+    en: Noticing What Is Missing
+- id: life.value-stream.practice-to-mastery
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: practice-to-mastery
+  cardinality: one
+  labels:
+    en: Years of Practice
+- id: life.value-stream.talent-to-skill
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: talent-to-skill
+  cardinality: one
+  labels:
+    en: Honing a Natural Gift
+- id: life.value-stream.use-to-refinement
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: use-to-refinement
+  cardinality: one
+  labels:
+    en: Learning from Real Use
+- id: life.value-stream.work-to-body-of-work
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: work-to-body-of-work
+  cardinality: one
+  labels:
+    en: Gathering a Life's Work
+- id: life.value-stream.employment-to-arrangement
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: employment-to-arrangement
+  cardinality: one
+  labels:
+    en: The Job as an Agreement
+- id: life.value-stream.offer-to-demand
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: offer-to-demand
+  cardinality: one
+  labels:
+    en: Knowing Who Wants It
+- id: life.value-stream.trust-to-terms
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: trust-to-terms
+  cardinality: one
+  labels:
+    en: Agreeing Fair Terms
+- id: life.value-stream.uptake-to-standing
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: uptake-to-standing
+  cardinality: one
+  labels:
+    en: Becoming Someone Who Is Asked
+- id: life.value-stream.meaning-to-translation
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: meaning-to-translation
+  cardinality: one
+  labels:
+    en: Translating Between Worlds
+- id: life.value-stream.standing-to-authorship
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: standing-to-authorship
+  cardinality: one
+  labels:
+    en: Whose Story It Is
+- id: life.value-stream.voice-to-reach
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: voice-to-reach
+  cardinality: one
+  labels:
+    en: Finding One's Public Voice
+- id: life.value-stream.work-to-platform
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: work-to-platform
+  cardinality: one
+  labels:
+    en: Building on One's Own Ground
+- id: life.value-stream.work-to-protection
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: work-to-protection
+  cardinality: one
+  labels:
+    en: Guarding One's Own Work
+- id: life.value-stream.body-to-capacity
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: body-to-capacity
+  cardinality: one
+  labels:
+    en: Carrying One's Own Weight
+- id: life.value-stream.condition-to-agency
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: condition-to-agency
+  cardinality: one
+  labels:
+    en: Living with a Condition
+- id: life.value-stream.faculty-to-longevity
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: faculty-to-longevity
+  cardinality: one
+  labels:
+    en: A Mind That Lasts
+- id: life.value-stream.holding-to-bequest
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: holding-to-bequest
+  cardinality: one
+  labels:
+    en: Putting Affairs in Order
+- id: life.value-stream.nourishment-to-system
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: nourishment-to-system
+  cardinality: one
+  labels:
+    en: Feeding the Body
+- id: life.value-stream.signal-to-knowledge
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: signal-to-knowledge
+  cardinality: one
+  labels:
+    en: Hearing the Body
+- id: life.value-stream.attention-to-focus
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: attention-to-focus
+  cardinality: one
+  labels:
+    en: Guarding Attention
+- id: life.value-stream.effort-to-recovery
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: effort-to-recovery
+  cardinality: one
+  labels:
+    en: Building in Rest
+- id: life.value-stream.energy-to-allocation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: energy-to-allocation
+  cardinality: one
+  labels:
+    en: Spending the Good Hours
+- id: life.value-stream.feeling-to-response
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: feeling-to-response
+  cardinality: one
+  labels:
+    en: The Pause before Acting
+- id: life.value-stream.intention-to-shipped
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: intention-to-shipped
+  cardinality: one
+  labels:
+    en: Finishing Things
+- id: life.value-stream.limit-to-declaration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: limit-to-declaration
+  cardinality: one
+  labels:
+    en: Naming One's Limits
+- id: life.value-stream.rhythm-to-day
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: rhythm-to-day
+  cardinality: one
+  labels:
+    en: Finding the Day's Rhythm
+- id: life.value-stream.setting-to-regulation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: setting-to-regulation
+  cardinality: one
+  labels:
+    en: Surroundings That Steady
+- id: life.value-stream.sleep-to-restoration
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: sleep-to-restoration
+  cardinality: one
+  labels:
+    en: Sleeping Well
+- id: life.value-stream.commons-to-obligation
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: commons-to-obligation
+  cardinality: one
+  labels:
+    en: Repaying the Common Good
+- id: life.value-stream.dependency-to-awareness
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: dependency-to-awareness
+  cardinality: one
+  labels:
+    en: Knowing What One Rests On
+- id: life.value-stream.exchange-to-alliance
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: exchange-to-alliance
+  cardinality: one
+  labels:
+    en: Alliances Worth Keeping
+- id: life.value-stream.service-to-terms
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: service-to-terms
+  cardinality: one
+  labels:
+    en: Reading the Fine Print
+- id: life.entity.account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: account
+  cardinality: one
+  labels:
+    en: Account
+- id: life.entity.agent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent
+  cardinality: one
+  labels:
+    en: Agent
+- id: life.entity.ancestor
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ancestor
+  cardinality: one
+  labels:
+    en: Ancestor
+- id: life.entity.animal-companion-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: animal-companion-relation
+  cardinality: one
+  labels:
+    en: Animal Companion Relation
+- id: life.entity.audience-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audience-relation
+  cardinality: one
+  labels:
+    en: Audience Relation
+- id: life.entity.birth
+  within: element.entity
+  binds:
+    kind: entity
+    slug: birth
+  cardinality: one
+  labels:
+    en: Birth
+- id: life.entity.body
+  within: element.entity
+  binds:
+    kind: entity
+    slug: body
+  cardinality: one
+  labels:
+    en: Body
+- id: life.entity.body-of-work
+  within: element.entity
+  binds:
+    kind: entity
+    slug: body-of-work
+  cardinality: one
+  labels:
+    en: Body of Work
+- id: life.entity.boundary-set
+  within: element.entity
+  binds:
+    kind: entity
+    slug: boundary-set
+  cardinality: one
+  labels:
+    en: Boundaries
+- id: life.entity.budget
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget
+  cardinality: one
+  labels:
+    en: Budget
+- id: life.entity.by-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: by-product
+  cardinality: one
+  labels:
+    en: By-Product
+- id: life.entity.care-episode
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-episode
+  cardinality: one
+  labels:
+    en: Care Episode
+- id: life.entity.channel
+  within: element.entity
+  binds:
+    kind: entity
+    slug: channel
+  cardinality: one
+  labels:
+    en: Publishing Channel
+- id: life.entity.character-trait
+  within: element.entity
+  binds:
+    kind: entity
+    slug: character-trait
+  cardinality: one
+  labels:
+    en: Character Trait
+- id: life.entity.child-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: child-relation
+  cardinality: one
+  labels:
+    en: Child Relation
+- id: life.entity.civic-action
+  within: element.entity
+  binds:
+    kind: entity
+    slug: civic-action
+  cardinality: one
+  labels:
+    en: Civic Action
+- id: life.entity.client-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: client-relation
+  cardinality: one
+  labels:
+    en: Client Relation
+- id: life.entity.coherence-reading
+  within: element.entity
+  binds:
+    kind: entity
+    slug: coherence-reading
+  cardinality: one
+  labels:
+    en: Coherence Reading
+- id: life.entity.collaborator-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: collaborator-relation
+  cardinality: one
+  labels:
+    en: Work Collaborator Relation
+- id: life.entity.commitment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commitment
+  cardinality: one
+  labels:
+    en: Commitment
+- id: life.entity.commons-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-charter
+  cardinality: one
+  labels:
+    en: Commons Charter
+- id: life.entity.commons-instance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-instance
+  cardinality: one
+  labels:
+    en: Commons
+- id: life.entity.community-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-relation
+  cardinality: one
+  labels:
+    en: Community Relation
+- id: life.entity.condition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: condition
+  cardinality: one
+  labels:
+    en: Condition
+- id: life.entity.conflict
+  within: element.entity
+  binds:
+    kind: entity
+    slug: conflict
+  cardinality: one
+  labels:
+    en: Conflict
+- id: life.entity.contract
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract
+  cardinality: one
+  labels:
+    en: Contract
+- id: life.entity.contribution-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contribution-record
+  cardinality: one
+  labels:
+    en: Contribution Record
+- id: life.entity.conversation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: conversation
+  cardinality: one
+  labels:
+    en: Meaningful Conversation
+- id: life.entity.creative-output
+  within: element.entity
+  binds:
+    kind: entity
+    slug: creative-output
+  cardinality: one
+  labels:
+    en: Creative Output
+- id: life.entity.creative-practice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: creative-practice
+  cardinality: one
+  labels:
+    en: Creative Practice
+- id: life.entity.credential
+  within: element.entity
+  binds:
+    kind: entity
+    slug: credential
+  cardinality: one
+  labels:
+    en: Credential
+- id: life.entity.crisis
+  within: element.entity
+  binds:
+    kind: entity
+    slug: crisis
+  cardinality: one
+  labels:
+    en: Crisis
+- id: life.entity.crisis-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: crisis-plan
+  cardinality: one
+  labels:
+    en: Crisis Plan
+- id: life.entity.daily-rhythm
+  within: element.entity
+  binds:
+    kind: entity
+    slug: daily-rhythm
+  cardinality: one
+  labels:
+    en: Daily Rhythm
+- id: life.entity.data-trace
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-trace
+  cardinality: one
+  labels:
+    en: Data Trace
+- id: life.entity.death
+  within: element.entity
+  binds:
+    kind: entity
+    slug: death
+  cardinality: one
+  labels:
+    en: Death
+- id: life.entity.decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision
+  cardinality: one
+  labels:
+    en: Decision
+- id: life.entity.delegation-line
+  within: element.entity
+  binds:
+    kind: entity
+    slug: delegation-line
+  cardinality: one
+  labels:
+    en: Delegation Line
+- id: life.entity.dependant-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dependant-relation
+  cardinality: one
+  labels:
+    en: Dependant Relation
+- id: life.entity.dependency-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dependency-register
+  cardinality: one
+  labels:
+    en: Dependency Register
+- id: life.entity.device
+  within: element.entity
+  binds:
+    kind: entity
+    slug: device
+  cardinality: one
+  labels:
+    en: Device
+- id: life.entity.distance-travelled
+  within: element.entity
+  binds:
+    kind: entity
+    slug: distance-travelled
+  cardinality: one
+  labels:
+    en: Distance Travelled
+- id: life.entity.drift-reading
+  within: element.entity
+  binds:
+    kind: entity
+    slug: drift-reading
+  cardinality: one
+  labels:
+    en: Drift Reading
+- id: life.entity.emotional-state
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emotional-state
+  cardinality: one
+  labels:
+    en: Emotional State
+- id: life.entity.employer-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employer-relation
+  cardinality: one
+  labels:
+    en: Employer Relation
+- id: life.entity.energy-log
+  within: element.entity
+  binds:
+    kind: entity
+    slug: energy-log
+  cardinality: one
+  labels:
+    en: Energy Log
+- id: life.entity.ethical-will
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ethical-will
+  cardinality: one
+  labels:
+    en: Ethical Will
+- id: life.entity.expense
+  within: element.entity
+  binds:
+    kind: entity
+    slug: expense
+  cardinality: one
+  labels:
+    en: Significant Expense
+- id: life.entity.experience
+  within: element.entity
+  binds:
+    kind: entity
+    slug: experience
+  cardinality: one
+  labels:
+    en: Experience
+- id: life.entity.family-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: family-charter
+  cardinality: one
+  labels:
+    en: Family Charter
+- id: life.entity.financial-position
+  within: element.entity
+  binds:
+    kind: entity
+    slug: financial-position
+  cardinality: one
+  labels:
+    en: Financial Position
+- id: life.entity.footprint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: footprint
+  cardinality: one
+  labels:
+    en: Life Footprint
+- id: life.entity.friend
+  within: element.entity
+  binds:
+    kind: entity
+    slug: friend
+  cardinality: one
+  labels:
+    en: Close Friend
+- id: life.entity.gift
+  within: element.entity
+  binds:
+    kind: entity
+    slug: gift
+  cardinality: one
+  labels:
+    en: Gift
+- id: life.entity.giving-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: giving-plan
+  cardinality: one
+  labels:
+    en: Giving Plan
+- id: life.entity.gratitude-log
+  within: element.entity
+  binds:
+    kind: entity
+    slug: gratitude-log
+  cardinality: one
+  labels:
+    en: Gratitude Log
+- id: life.entity.gravity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: gravity
+  cardinality: one
+  labels:
+    en: Gravity
+- id: life.entity.habit-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: habit-record
+  cardinality: one
+  labels:
+    en: Habit Record
+- id: life.entity.handover
+  within: element.entity
+  binds:
+    kind: entity
+    slug: handover
+  cardinality: one
+  labels:
+    en: Handover
+- id: life.entity.health-data
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-data
+  cardinality: one
+  labels:
+    en: Health Data
+- id: life.entity.health-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-event
+  cardinality: one
+  labels:
+    en: Health Event
+- id: life.entity.health-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-plan
+  cardinality: one
+  labels:
+    en: Health Plan
+- id: life.entity.home
+  within: element.entity
+  binds:
+    kind: entity
+    slug: home
+  cardinality: one
+  labels:
+    en: Home
+- id: life.entity.income-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: income-event
+  cardinality: one
+  labels:
+    en: Income Event
+- id: life.entity.insurance-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: insurance-policy
+  cardinality: one
+  labels:
+    en: Insurance Policy
+- id: life.entity.intention
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intention
+  cardinality: one
+  labels:
+    en: Intention
+- id: life.entity.investment-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: investment-policy
+  cardinality: one
+  labels:
+    en: Investment Policy
+- id: life.entity.investment-transaction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: investment-transaction
+  cardinality: one
+  labels:
+    en: Investment Transaction
+- id: life.entity.journal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: journal
+  cardinality: one
+  labels:
+    en: Journal
+- id: life.entity.learning-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learning-event
+  cardinality: one
+  labels:
+    en: Learning Event
+- id: life.entity.learning-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learning-plan
+  cardinality: one
+  labels:
+    en: Learning Plan
+- id: life.entity.life-blueprint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: life-blueprint
+  cardinality: one
+  labels:
+    en: Life Blueprint
+- id: life.entity.life-dashboard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: life-dashboard
+  cardinality: one
+  labels:
+    en: Life Dashboard
+- id: life.entity.life-narrative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: life-narrative
+  cardinality: one
+  labels:
+    en: Life Narrative
+- id: life.entity.life-purpose
+  within: element.entity
+  binds:
+    kind: entity
+    slug: life-purpose
+  cardinality: one
+  labels:
+    en: Life Purpose
+- id: life.entity.mentee-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mentee-relation
+  cardinality: one
+  labels:
+    en: Mentee Relation
+- id: life.entity.mentor-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mentor-relation
+  cardinality: one
+  labels:
+    en: Mentor Relation
+- id: life.entity.mood-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mood-record
+  cardinality: one
+  labels:
+    en: Mood Record
+- id: life.entity.natural-gift
+  within: element.entity
+  binds:
+    kind: entity
+    slug: natural-gift
+  cardinality: one
+  labels:
+    en: Natural Gift
+- id: life.entity.obligation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: obligation
+  cardinality: one
+  labels:
+    en: Obligation
+- id: life.entity.offering
+  within: element.entity
+  binds:
+    kind: entity
+    slug: offering
+  cardinality: one
+  labels:
+    en: Offering
+- id: life.entity.other-perception
+  within: element.entity
+  binds:
+    kind: entity
+    slug: other-perception
+  cardinality: one
+  labels:
+    en: Other-Perception
+- id: life.entity.parent-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: parent-relation
+  cardinality: one
+  labels:
+    en: Parent Relation
+- id: life.entity.parenting-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: parenting-agreement
+  cardinality: one
+  labels:
+    en: Parenting Agreement
+- id: life.entity.partner-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: partner-relation
+  cardinality: one
+  labels:
+    en: Life Partner Relation
+- id: life.entity.pattern-log
+  within: element.entity
+  binds:
+    kind: entity
+    slug: pattern-log
+  cardinality: one
+  labels:
+    en: Pattern Log
+- id: life.entity.personal-archive
+  within: element.entity
+  binds:
+    kind: entity
+    slug: personal-archive
+  cardinality: one
+  labels:
+    en: Personal Archive
+- id: life.entity.practitioner-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: practitioner-relation
+  cardinality: one
+  labels:
+    en: Care Practitioner Relation
+- id: life.entity.premise
+  within: element.entity
+  binds:
+    kind: entity
+    slug: premise
+  cardinality: one
+  labels:
+    en: Premise
+- id: life.entity.presentation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: presentation
+  cardinality: one
+  labels:
+    en: Presentation
+- id: life.entity.professional-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: professional-network
+  cardinality: one
+  labels:
+    en: Professional Network
+- id: life.entity.provider-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: provider-relation
+  cardinality: one
+  labels:
+    en: Service Provider Relation
+- id: life.entity.publication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: publication
+  cardinality: one
+  labels:
+    en: Publication
+- id: life.entity.reading-list
+  within: element.entity
+  binds:
+    kind: entity
+    slug: reading-list
+  cardinality: one
+  labels:
+    en: Reading List
+- id: life.entity.recovery-period
+  within: element.entity
+  binds:
+    kind: entity
+    slug: recovery-period
+  cardinality: one
+  labels:
+    en: Recovery Period
+- id: life.entity.refused-future
+  within: element.entity
+  binds:
+    kind: entity
+    slug: refused-future
+  cardinality: one
+  labels:
+    en: Refused Future
+- id: life.entity.relationship-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-agreement
+  cardinality: one
+  labels:
+    en: Relationship Agreement
+- id: life.entity.relationship-beginning
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-beginning
+  cardinality: one
+  labels:
+    en: Relationship Beginning
+- id: life.entity.relationship-ending
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-ending
+  cardinality: one
+  labels:
+    en: Relationship Ending
+- id: life.entity.relationship-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-map
+  cardinality: one
+  labels:
+    en: Relationship Map
+- id: life.entity.relocation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relocation
+  cardinality: one
+  labels:
+    en: Relocation
+- id: life.entity.repair
+  within: element.entity
+  binds:
+    kind: entity
+    slug: repair
+  cardinality: one
+  labels:
+    en: Repair
+- id: life.entity.review-cadence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: review-cadence
+  cardinality: one
+  labels:
+    en: Review Cadence
+- id: life.entity.rights-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: rights-record
+  cardinality: one
+  labels:
+    en: Rights Record
+- id: life.entity.ritual
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ritual
+  cardinality: one
+  labels:
+    en: Ritual
+- id: life.entity.role
+  within: element.entity
+  binds:
+    kind: entity
+    slug: role
+  cardinality: one
+  labels:
+    en: Role Held
+- id: life.entity.season-reading
+  within: element.entity
+  binds:
+    kind: entity
+    slug: season-reading
+  cardinality: one
+  labels:
+    en: Season Reading
+- id: life.entity.self
+  within: element.entity
+  binds:
+    kind: entity
+    slug: self
+  cardinality: one
+  labels:
+    en: Self
+- id: life.entity.service-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-account
+  cardinality: one
+  labels:
+    en: Service Account
+- id: life.entity.session
+  within: element.entity
+  binds:
+    kind: entity
+    slug: session
+  cardinality: one
+  labels:
+    en: Session
+- id: life.entity.shared-vocabulary
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-vocabulary
+  cardinality: one
+  labels:
+    en: Shared Vocabulary
+- id: life.entity.sibling-relation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sibling-relation
+  cardinality: one
+  labels:
+    en: Sibling Relation
+- id: life.entity.significant-place
+  within: element.entity
+  binds:
+    kind: entity
+    slug: significant-place
+  cardinality: one
+  labels:
+    en: Significant Place
+- id: life.entity.skill
+  within: element.entity
+  binds:
+    kind: entity
+    slug: skill
+  cardinality: one
+  labels:
+    en: Skill
+- id: life.entity.skill-inventory
+  within: element.entity
+  binds:
+    kind: entity
+    slug: skill-inventory
+  cardinality: one
+  labels:
+    en: Skill Inventory
+- id: life.entity.spiritual-practice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: spiritual-practice
+  cardinality: one
+  labels:
+    en: Spiritual Practice
+- id: life.entity.standing
+  within: element.entity
+  binds:
+    kind: entity
+    slug: standing
+  cardinality: one
+  labels:
+    en: Standing
+- id: life.entity.strain-indicator
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strain-indicator
+  cardinality: one
+  labels:
+    en: Strain Indicator
+- id: life.entity.technology-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: technology-policy
+  cardinality: one
+  labels:
+    en: Technology Policy
+- id: life.entity.therapist
+  within: element.entity
+  binds:
+    kind: entity
+    slug: therapist
+  cardinality: one
+  labels:
+    en: Therapist or Coach
+- id: life.entity.time-audit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: time-audit
+  cardinality: one
+  labels:
+    en: Time Audit
+- id: life.entity.transition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: transition
+  cardinality: one
+  labels:
+    en: Life Transition
+- id: life.entity.value-set
+  within: element.entity
+  binds:
+    kind: entity
+    slug: value-set
+  cardinality: one
+  labels:
+    en: Values
+- id: life.entity.vehicle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vehicle
+  cardinality: one
+  labels:
+    en: Vehicle
+- id: life.entity.venture
+  within: element.entity
+  binds:
+    kind: entity
+    slug: venture
+  cardinality: one
+  labels:
+    en: Venture
+- id: life.entity.venture-milestone
+  within: element.entity
+  binds:
+    kind: entity
+    slug: venture-milestone
+  cardinality: one
+  labels:
+    en: Venture Milestone
+- id: life.entity.venture-portfolio
+  within: element.entity
+  binds:
+    kind: entity
+    slug: venture-portfolio
+  cardinality: one
+  labels:
+    en: Venture Portfolio
+- id: life.entity.venture-scorecard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: venture-scorecard
+  cardinality: one
+  labels:
+    en: Venture Scorecard
+- id: life.entity.weekly-rhythm
+  within: element.entity
+  binds:
+    kind: entity
+    slug: weekly-rhythm
+  cardinality: one
+  labels:
+    en: Weekly Rhythm
+- id: life.entity.will
+  within: element.entity
+  binds:
+    kind: entity
+    slug: will
+  cardinality: one
+  labels:
+    en: Will and Directive
+- id: life.entity.work-change
+  within: element.entity
+  binds:
+    kind: entity
+    slug: work-change
+  cardinality: one
+  labels:
+    en: Work Change
+- id: life.entity.work-direction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: work-direction
+  cardinality: one
+  labels:
+    en: Work Direction
+- id: life.entity.workspace
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workspace
+  cardinality: one
+  labels:
+    en: Workspace
+- id: life.entity.worldview
+  within: element.entity
+  binds:
+    kind: entity
+    slug: worldview
+  cardinality: one
+  labels:
+    en: Worldview

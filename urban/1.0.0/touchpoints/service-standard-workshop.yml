@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-standard-workshop
+title: Service Standard Workshop
+medium: encounter
+summary: The workshop in which a service sets its standards with those who use it, including disabled residents, and with the staff
+  who deliver it.
+exchanges:
+- resident-expectations-for-published-standards
+- access-knowledge-for-built-in-access
+journey: resident-inspector-reviewing-service-quality

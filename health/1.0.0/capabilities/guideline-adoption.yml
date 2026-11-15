@@ -1,0 +1,25 @@
+kind: capability
+slug: guideline-adoption
+title: Guideline Adoption
+level: L3
+parent: guidelines-and-pathways
+summary: Adopt clinical guidelines locally and integrate them into pathways and decision support.
+binds:
+- source: src-030
+  edition: 2.0.0
+  jurisdiction: global
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-462
+  edition: '2013'
+  jurisdiction: global
+- source: src-519
+  edition: '2017'
+  jurisdiction: global
+- source: src-538
+  edition: '2.0'
+  jurisdiction: global

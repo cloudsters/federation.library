@@ -1,0 +1,25 @@
+kind: journey
+slug: service-agent-answering-from-the-knowledge-base
+title: Service Agent Answering from the Knowledge Base
+stakeholder: customer-service-agent
+summary: A service agent drafts articles from resolved cases for human review, answers from verified knowledge within its access rules
+  and reports where answers are missing so that the knowledge base improves.
+stages:
+- slug: draft-from-resolved-cases
+  title: Draft from Resolved Cases
+  goal: Answers that resolved real cases are drafted as articles and passed to people for review.
+  step: knowledge-as-commons/knowledge-capture
+  touchpoints:
+  - knowledge-base
+- slug: answer-from-verified-knowledge
+  title: Answer from Verified Knowledge
+  goal: The agent answers only from current, verified articles it is permitted to use.
+  step: knowledge-as-commons/curation-and-access
+  touchpoints:
+  - knowledge-base
+- slug: report-the-gaps
+  title: Report the Gaps
+  goal: Unanswered questions and failed searches are reported to the knowledge stewards for the next round of renewal.
+  step: knowledge-as-commons/knowledge-renewal
+  touchpoints:
+  - knowledge-base

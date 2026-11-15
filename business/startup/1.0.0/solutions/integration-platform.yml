@@ -1,0 +1,14 @@
+kind: solution
+slug: integration-platform
+title: Integration Platform
+role: platform
+summary: Connects systems inside and outside the organisation through interfaces, events, application programming interfaces and electronic
+  business documents, and monitors that every exchange arrives.
+carries:
+- api-as-distribution
+- electronic-invoicing-compliance
+- platform-interface-sovereignty
+- integration-strategy
+- integration-platform-operation
+- electronic-business-document-exchange
+holds: []

@@ -1,0 +1,62 @@
+kind: entity
+slug: mobility-plan
+title: Mobility Plan
+type: governance
+summary: The city's plan for how people and goods move, with the allocation of street space, the transport network and the targets
+  for safety and access. The transport office drafts it with neighbourhoods, riders and transport workers and the council adopts it,
+  and routes, timetables, street schemes and kerb rules are set within it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: street-space-allocation
+  type: document
+  card: 1..1
+- name: network-plan
+  type: document
+  card: 1..1
+- name: night-corridors
+  type: text
+  card: 0..*
+- name: safety-targets
+  type: text
+  card: 1..*
+- name: access-targets
+  type: text
+  card: 1..*
+- name: kerb-rules
+  type: reference(kerb-and-loading-rule)
+  card: 0..*
+- name: evidence
+  type: reference(mobility-data)
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: mobility-data
+- type: based-on
+  target: safety-statistics
+- type: governed-by
+  target: city-strategy
+- type: refers-to
+  target: transit-line
+- type: refers-to
+  target: street
+- type: refers-to
+  target: kerb-and-loading-rule

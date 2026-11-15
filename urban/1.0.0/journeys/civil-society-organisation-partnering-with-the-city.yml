@@ -1,0 +1,45 @@
+kind: journey
+slug: civil-society-organisation-partnering-with-the-city
+title: Civil-Society Organisation Partnering With the City
+stakeholder: civil-society-organisation
+summary: A civil-society organisation describes itself for the directory, agrees the partnership compact, joins a coalition across
+  the city, applies for support on published criteria while keeping its independence and reviews the partnership with the city.
+stages:
+- slug: describe-itself
+  title: Describe Itself
+  goal: The organisation appears in the civil-society directory as it describes itself, with whom it serves, where it works and its
+    relationship with the city.
+  step: civil-society-partnership/civil-society-mapping
+  touchpoints:
+  - civil-society-mapping-session
+  - civil-society-directory-view
+- slug: agree-the-compact
+  title: Agree the Compact
+  goal: The organisation has helped agree the compact that states how the city consults and funds civil society, respects its right
+    to campaign and resolves disagreements, and the council has adopted it.
+  step: civil-society-partnership/partnership-compact
+  touchpoints:
+  - compact-negotiation
+  - adopted-partnership-compact
+- slug: join-a-coalition
+  title: Join a Coalition
+  goal: The organisation works with neighbourhood bodies and other organisations on a shared question across the city, under an agreement
+    that respects each member's independence.
+  step: civil-society-partnership/coalition-support
+  touchpoints:
+  - coalition-convening-meeting
+- slug: apply-on-published-criteria
+  title: Apply on Published Criteria
+  goal: The organisation has applied for funding and recognition on published criteria and has shown that it stays open and answerable
+    to those it speaks for.
+  step: civil-society-partnership/independence-safeguards
+  touchpoints:
+  - published-funding-criteria
+  - independence-check
+- slug: review-the-partnership
+  title: Review the Partnership
+  goal: The organisation and the city have reviewed what the partnership delivered and where trust was strained, and have renewed,
+    changed or ended it.
+  step: civil-society-partnership/partnership-review
+  touchpoints:
+  - joint-partnership-review

@@ -1,0 +1,13 @@
+kind: capability
+slug: radiological-reporting
+title: Radiological Reporting
+level: L3
+parent: diagnostic-imaging
+summary: Read images and issue structured reports that can be reused in care and research.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

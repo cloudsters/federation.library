@@ -1,0 +1,19 @@
+kind: body
+slug: community-mediation-service
+title: Community Mediation Service
+summary: Drafts with neighbourhood bodies and the formal routes the steps a dispute moves through, trains and lists community mediators,
+  receives and assesses disputes, holds mediation and restorative circles, records and follows up agreements, refers what it cannot
+  resolve and passes the causes of recurring disputes to those who can remove them.
+holds:
+- mediation-and-restorative-practice
+- mediation-protocol-drafting
+- community-mediator-training
+- dispute-intake-and-triage
+- mediation-facilitation
+- restorative-circle-facilitation
+- resolution-agreement-recording
+- formal-route-referral
+- dispute-pattern-analysis
+part_of: integration-and-cohesion-office
+type: function
+form: organisational-unit

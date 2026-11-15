@@ -1,0 +1,66 @@
+kind: entity
+slug: development-project
+title: Development Project
+type: transactional
+summary: The development or renewal of a district or quarter, from proposal to delivery and review, with its land, partners, terms
+  and interim uses. The planning department carries it on the council's commitment, and it binds the district plan, the development
+  agreements and the stages of delivery together.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: project-kind
+  type: code
+  card: 1..1
+- name: proposed-by
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: land
+  type: reference(land-parcel)
+  card: 1..*
+- name: district-plan
+  type: reference(district-plan)
+  card: 0..1
+- name: agreements
+  type: reference(development-agreement)
+  card: 0..*
+- name: partners
+  type: text
+  card: 0..*
+- name: commitment-decision
+  type: reference(council-decision)
+  card: 0..1
+- name: interim-uses
+  type: text
+  card: 0..*
+- name: delivery-period
+  type: period
+  card: 0..1
+states:
+- proposed
+- committed
+- assessed
+- planned
+- agreed
+- delivering
+- reviewed
+- closed
+relations:
+- type: based-on
+  target: masterplan
+- type: governed-by
+  target: district-plan
+- type: governed-by
+  target: development-agreement
+- type: composed-of
+  target: construction-phase
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: council-decision

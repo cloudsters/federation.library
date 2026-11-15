@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: digital-route-launch-notice
+title: Digital Route Launch Notice
+medium: channel
+summary: The notice that a digital route is open, sent through the channels residents use and in their languages, saying that the
+  offline and assisted routes stay open.
+exchanges:
+- launch-notice-for-early-use
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

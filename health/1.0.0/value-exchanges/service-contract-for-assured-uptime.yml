@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: service-contract-for-assured-uptime
+title: Service Contract for Assured Uptime
+between:
+- clinical-engineer
+- supplier
+offered:
+- A service contract with predictable revenue, timely access to the devices and their fault history, and prompt payment.
+returned:
+- Maintenance and repair within the agreed response times and uptime, spare parts and security updates for the whole support period,
+  a service report for every visit and take-back with certified data erasure.
+touchpoint: supply-contract

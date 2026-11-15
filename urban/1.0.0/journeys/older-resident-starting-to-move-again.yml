@@ -1,0 +1,33 @@
+kind: journey
+slug: older-resident-starting-to-move-again
+title: Older Resident Starting to Move Again
+stakeholder: older-resident
+summary: An older resident says why they stopped moving, finds a facility at a price and hour that fit, joins a walking group in the
+  neighbourhood and tells the review what changed.
+stages:
+- slug: say-why-they-stopped
+  title: Say Why They Stopped
+  goal: The resident's reasons for not being active are part of the activity profile.
+  step: sport-and-active-recreation/activity-profile
+  touchpoints:
+  - neighbourhood-activity-survey
+- slug: find-a-price-and-hour-that-fit
+  title: Find a Price and Hour That Fit
+  goal: The resident can use a facility near home at a price they can afford and at hours that suit them.
+  step: sport-and-active-recreation/facility-provision-and-access
+  touchpoints:
+  - neighbourhood-sports-facility
+  - reduced-price-leisure-pass
+- slug: join-a-walking-group
+  title: Join a Walking Group
+  goal: The resident walks regularly with others and borrows what they need from a point nearby.
+  step: sport-and-active-recreation/programmes-for-the-least-active
+  touchpoints:
+  - neighbourhood-walking-group
+  - neighbourhood-equipment-lending-point
+- slug: tell-what-changed
+  title: Tell What Changed
+  goal: The resident's experience is part of the review, and the plan is adjusted.
+  step: sport-and-active-recreation/activity-and-access-review
+  touchpoints:
+  - activity-and-access-review-meeting

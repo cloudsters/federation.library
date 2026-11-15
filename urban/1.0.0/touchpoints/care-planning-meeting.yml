@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: care-planning-meeting
+title: Care Planning Meeting
+medium: encounter
+summary: The meeting in which the person, their carers, the providers and the neighbours involved agree one care plan and the person
+  who coordinates it.
+exchanges:
+- provider-commitment-for-a-joined-plan
+- say-in-the-plan-for-one-coordinator
+- unpaid-care-for-relief-and-a-voice
+journey: social-worker-joining-care-around-a-person

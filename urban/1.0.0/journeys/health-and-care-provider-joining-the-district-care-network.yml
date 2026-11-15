@@ -1,0 +1,41 @@
+kind: journey
+slug: health-and-care-provider-joining-the-district-care-network
+title: Health and Care Provider Joining the District Care Network
+stakeholder: health-and-care-provider
+summary: A hospital or clinic signs the district's care network agreement, refers people to the one request point, commits its part
+  to the joined plan, hands patients over without a gap and answers with the other members for the gaps that remain.
+stages:
+- slug: sign-the-network-agreement
+  title: Sign the Network Agreement
+  goal: The provider has agreed with the district's other providers and the city how they share information, refer people and answer
+    together.
+  step: integrated-health-and-social-care/local-care-network
+  touchpoints:
+  - care-network-table
+  - signed-care-network-agreement
+- slug: refer-to-one-point
+  title: Refer to One Point
+  goal: The provider's referrals for social care reach the one request point, with what the person has agreed may be shared.
+  step: integrated-health-and-social-care/care-request-and-needs-assessment
+  touchpoints:
+  - single-care-request-point
+- slug: commit-to-the-joined-plan
+  title: Commit to the Joined Plan
+  goal: The provider's part in each person's care is written in the one plan, beside that of social care, carers and neighbours.
+  step: integrated-health-and-social-care/joined-care-planning
+  touchpoints:
+  - care-planning-meeting
+- slug: hand-over-without-a-gap
+  title: Hand Over Without a Gap
+  goal: Each patient leaving the provider's care has a planned handover, confirmed by the service that takes over.
+  step: integrated-health-and-social-care/safe-care-transitions
+  touchpoints:
+  - hospital-discharge-planning-meeting
+  - care-handover-confirmation
+- slug: answer-together-for-the-gaps
+  title: Answer Together for the Gaps
+  goal: The provider has reviewed the gaps with the network, and the agreement and its own services are changed.
+  step: integrated-health-and-social-care/care-gap-review
+  touchpoints:
+  - care-gap-review-circle
+  - care-network-table

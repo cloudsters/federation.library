@@ -1,0 +1,40 @@
+kind: journey
+slug: journalist-getting-answers-from-the-city
+title: Journalist Getting Answers from the City
+stakeholder: news-media
+summary: A journalist of a local, community or outside outlet asks the city a question, attends the same briefings as every other
+  outlet, receives plain information, follows the city through a crisis and sees its mistakes corrected in the open.
+stages:
+- slug: ask-the-city
+  title: Ask the City
+  goal: The journalist's question reaches a named spokesperson and is answered promptly and completely, and the enquiry and what was
+    given are recorded.
+  step: public-communication-and-reputation/media-relations
+  touchpoints:
+  - press-enquiry-line
+  - published-media-enquiry-log
+- slug: attend-an-open-briefing
+  title: Attend an Open Briefing
+  goal: Local, community and outside media receive the same briefing and the same information at the same time.
+  step: public-communication-and-reputation/media-relations
+  touchpoints:
+  - open-media-briefing
+- slug: read-the-plain-release
+  title: Read the Plain Release
+  goal: The city's release states what changed, why and for whom, in words the outlet's readers understand.
+  step: public-communication-and-reputation/public-information-preparation
+  touchpoints:
+  - plain-language-notice
+- slug: follow-the-city-through-a-crisis
+  title: Follow the City Through a Crisis
+  goal: In an emergency or controversy the city speaks early, says what it knows and does not yet know, and reports until the matter
+    is closed.
+  step: public-communication-and-reputation/crisis-and-correction-communication
+  touchpoints:
+  - crisis-update-briefing
+- slug: see-a-mistake-corrected
+  title: See a Mistake Corrected
+  goal: A false or mistaken account, the city's own included, is corrected as openly as it was made.
+  step: public-communication-and-reputation/crisis-and-correction-communication
+  touchpoints:
+  - published-correction-notice

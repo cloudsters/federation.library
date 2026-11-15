@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-warning-for-protection
+title: Early Warning for Protection
+between:
+- consumer
+- quality-manager
+offered:
+- Early reports of harm, near misses and unexpected behaviour of a product.
+returned:
+- Serious attention to every report, and protection for them and others once a hazard is confirmed.
+touchpoint: service-hotline

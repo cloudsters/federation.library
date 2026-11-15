@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mandate-application
+title: Mandate Application
+medium: artefact
+summary: The application through which the commons seeks a care level and service groups from the planning authority, with evidence
+  that each criterion is met.
+exchanges:
+- care-mandate-designation
+journey: planning-authority-designating-the-mandate

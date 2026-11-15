@@ -1,0 +1,34 @@
+kind: journey
+slug: neighbourhood-association-making-park-care-count
+title: Neighbourhood Association Making Park Care Count
+stakeholder: neighbourhood-association
+summary: A neighbourhood association maps with the caretakers the paid and unpaid care that keeps its park going, secures a living
+  income floor for the core roles of caretakers, gets shade and water for those who work in heat and joins the audit of the maintenance
+  contractor.
+stages:
+- slug: map-the-care-of-the-park
+  title: Map the Care of the Park
+  goal: All the work that keeps the park going, paid and unpaid, is documented with those who do it, and how it counts is agreed.
+  step: pay-and-fair-work-standards/unseen-work-valuation
+  touchpoints:
+  - care-work-mapping-circle
+- slug: secure-a-livelihood-floor
+  title: Secure a Livelihood Floor
+  goal: The core roles of caretakers receive a living income floor from the city or the commons fund that does not depend on the popularity
+    of their decisions.
+  step: pay-and-fair-work-standards/commons-work-pay
+  touchpoints:
+  - commons-livelihood-covenant
+- slug: protect-those-who-work-in-heat
+  title: Protect Those Who Work in Heat
+  goal: Caretakers and contracted crews in the park have shade, water, rest breaks and shifted hours in heat.
+  step: pay-and-fair-work-standards/workplace-hazard-protection
+  touchpoints:
+  - shade-and-water-point
+- slug: audit-the-maintenance-contract
+  title: Audit the Maintenance Contract
+  goal: The association and the workers have audited with the city whether the maintenance contractor pays the floor and keeps the
+    conditions.
+  step: pay-and-fair-work-standards/fair-work-audit
+  touchpoints:
+  - joint-fair-work-audit

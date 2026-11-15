@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-priorities-for-a-place-in-the-draft
+title: Neighbourhood Priorities for a Place in the Draft
+between:
+- neighbourhood-association
+- finance-officer
+offered:
+- The neighbourhood's priorities, and the care work and shared assets residents keep going.
+returned:
+- A neighbourhood bid in the draft budget and the share set aside for the participatory budget.
+touchpoint: neighbourhood-budget-bid-meeting

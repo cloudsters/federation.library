@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: enforcement-appeal-hearing
+title: Enforcement Appeal Hearing
+medium: encounter
+summary: The hearing in which a taxpayer appeals against enforcement before a reviewer independent of the revenue office, with enforcement
+  paused until it is decided.
+exchanges:
+- appeal-for-an-independent-review
+journey: resident-keeping-essential-services-through-a-hard-year

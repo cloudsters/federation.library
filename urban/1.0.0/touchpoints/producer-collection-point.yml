@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: producer-collection-point
+title: Producer Collection Point
+medium: place
+summary: A point in a neighbourhood where residents collect produce ordered directly from the cooperatives of farmers and makers of
+  the region.
+exchanges:
+- fresh-produce-for-direct-payment
+journey: local-producer-selling-directly-at-market

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delivery-view-for-a-review-that-counts-it
+title: Delivery View for a Review That Counts It
+between:
+- frontline-worker
+- city-administration
+offered:
+- Staff's account of what the service achieved and what it costs them to deliver.
+returned:
+- Their account recorded in the review and weighed in the decision on the service's future.
+touchpoint: service-review-forum

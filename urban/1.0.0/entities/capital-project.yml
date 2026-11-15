@@ -1,0 +1,68 @@
+kind: entity
+slug: capital-project
+title: Capital Project
+type: transactional
+summary: A project that builds, buys or renews an asset of the city, with its scope, budget, schedule and contracts. The department
+  that owns the asset delivers it within a programme, and it is reported on until the asset is handed over.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: project-kind
+  type: code
+  card: 1..1
+- name: asset
+  type: text
+  card: 1..1
+- name: programme
+  type: reference(city-programme)
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: budget
+  type: amount
+  card: 1..1
+- name: schedule
+  type: period
+  card: 1..1
+- name: land
+  type: reference(land-parcel)
+  card: 0..*
+- name: procurements
+  type: reference(public-procurement)
+  card: 0..*
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+- name: completed-on
+  type: date
+  card: 0..1
+states:
+- planned
+- approved
+- procuring
+- under-construction
+- completed
+- handed-over
+- closed
+relations:
+- type: part-of
+  target: city-programme
+- type: part-of
+  target: capital-investment-plan
+- type: composed-of
+  target: construction-phase
+- type: refers-to
+  target: public-procurement
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: land-parcel
+binds:
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global

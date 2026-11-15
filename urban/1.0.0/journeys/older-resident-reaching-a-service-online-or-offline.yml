@@ -1,0 +1,43 @@
+kind: journey
+slug: older-resident-reaching-a-service-online-or-offline
+title: Older Resident Reaching a Service Online or Offline
+stakeholder: older-resident
+summary: An older resident uses the counter and telephone route without losing out, learns digital services with patient help in the
+  library, follows requests in one account, hears of a new route in good time and says why a route does not work for them.
+stages:
+- slug: use-the-offline-route
+  title: Use the Offline Route
+  goal: The resident has made a request by counter, telephone or post, with help where needed, and received the same outcome within
+    the same deadline.
+  step: digital-public-services/offline-and-assisted-route
+  touchpoints:
+  - counter-telephone-and-post-route
+  - assisted-help-appointment
+- slug: learn-with-patient-help
+  title: Learn with Patient Help
+  goal: The resident has used a device and connection in a trusted place and learned from a neighbour how to use the services they
+    need.
+  step: digital-public-services/digital-help-in-trusted-places
+  touchpoints:
+  - library-digital-help-desk
+  - neighbour-digital-help-session
+- slug: follow-requests-in-one-place
+  title: Follow Requests in One Place
+  goal: The resident follows each request in one account, gives or withdraws consent to reuse their data, and sees which department
+    used it.
+  step: digital-public-services/resident-account-and-once-only-data
+  touchpoints:
+  - resident-account-page
+  - data-reuse-consent-prompt
+- slug: hear-of-the-new-route
+  title: Hear of the New Route
+  goal: The resident has heard of the new digital route through a channel they use and knows the offline route stays open.
+  step: digital-public-services/digital-route-launch
+  touchpoints:
+  - digital-route-launch-notice
+- slug: say-why-a-route-fails
+  title: Say Why a Route Fails
+  goal: The resident has been asked why a route did not work for them, and the answer has changed the service or its help.
+  step: digital-public-services/route-use-and-exclusion-review
+  touchpoints:
+  - shut-out-resident-follow-up

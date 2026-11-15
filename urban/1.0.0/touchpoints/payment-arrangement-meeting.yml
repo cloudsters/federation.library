@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: payment-arrangement-meeting
+title: Payment Arrangement Meeting
+medium: encounter
+summary: A conversation with a household behind with rent or utility charges, to agree an arrangement it can keep and to link it to
+  help with its income.
+exchanges:
+- honesty-about-arrears-for-an-arrangement-before-eviction
+- payment-plan-for-supply-kept-on
+journey: tenant-living-in-a-city-home

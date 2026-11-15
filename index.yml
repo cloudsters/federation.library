@@ -17,4 +17,48 @@ releases:
   version: v2026.11.2
   record: patterns/v2026.11.2/release.yml
   digest: sha256:bdd866ab88ddc95822836865e52307c2881f14da727f56ac20d626f78b72a2cf
+  state: retired
+- id: commons
+  kind: model
+  version: 0.3.0
+  record: commons/0.3.0/release.yml
+  digest: sha256:e93d7a38583ce1321591a5bd81a81244837f2278e4191af23956f52512a71dd2
+  state: released
+- id: patterns
+  kind: extract
+  version: v2026.11.3
+  record: patterns/v2026.11.3/release.yml
+  digest: sha256:646c38657671a81cbe7447894094709071cc97459cdaa1f358d6acc5a31c3bf4
+  state: released
+- id: life
+  kind: model
+  version: 1.0.0
+  record: life/1.0.0/release.yml
+  digest: sha256:59296556bc3e1dc930c07d7a3fa8afc38c96a3399cb3fae1ad1685c269c8a06c
+  state: released
+- id: health
+  kind: model
+  version: 1.0.0
+  record: health/1.0.0/release.yml
+  digest: sha256:9cd1525e350d178dceb056dcf14f94c9085900eb734758171cacf73190b18428
+  state: released
+- id: urban
+  kind: model
+  version: 1.0.0
+  record: urban/1.0.0/release.yml
+  digest: sha256:10fcf6e801ad14ab68375c5210bf06d4f893f872ff9cd3d2bd0646afa10956d3
+  state: released
+- id: business
+  variant: startup
+  kind: model
+  version: 1.0.0
+  record: business/startup/1.0.0/release.yml
+  digest: sha256:ffd0dc6a3feb5e0283a5b31782ee9284b20df34b55f38fa7d5b01b9525113ced
+  state: released
+- id: business
+  variant: corporate
+  kind: model
+  version: 1.0.0
+  record: business/corporate/1.0.0/release.yml
+  digest: sha256:f3f8f5bb0b743ae8421eb8a2597c985ccf7ad7cfbbf3288d12532b84207ea4be
   state: released

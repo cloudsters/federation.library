@@ -1,0 +1,49 @@
+kind: entity
+slug: risk
+title: Risk
+type: governance
+summary: An identified uncertainty — a potential threat or opportunity that could affect the organisation's ability to achieve its purpose,
+  requiring proactive identification, assessment, and mitigation.
+attributes:
+- name: description
+  type: text
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: likelihood
+  type: code
+  card: 1..1
+- name: impact
+  type: code
+  card: 1..1
+- name: owner
+  type: reference(employee-record)
+  card: 1..1
+- name: mitigation
+  type: text
+  card: 0..1
+- name: contingency
+  type: text
+  card: 0..1
+- name: residual-rating
+  type: code
+  card: 0..1
+states:
+- identified
+- assessed
+- treated
+- monitored
+- closed
+- realised
+relations:
+- type: refers-to
+  target: objective
+- type: produces
+  target: remediation-plan
+- type: produces
+  target: incident
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

@@ -1,0 +1,125 @@
+kind: value-stream
+slug: innovation-and-technology-transfer
+title: Innovation and Technology Transfer
+family: discovery-to-usage
+summary: 'Turning inventions and know-how from care and research into use beyond the organisation: invention disclosure, assessment,
+  protection of intellectual property, licensing, start-ups and co-development with industry.'
+trigger: A staff member discloses an invention or an innovation with external potential.
+outcome: The innovation is protected and licensed, spun out or released openly, with returns flowing back to the organisation.
+stakeholders:
+- research-scientist
+- clinician-scientist
+- registered-nurse
+- technology-transfer-manager
+- industry-partner
+- research-partner
+- executive
+steps:
+- slug: invention-disclosure
+  title: Invention Disclosure
+  summary: A member of staff reports an invention or an innovation with external potential, such as a device, a diagnostic method
+    or software, naming the inventors, their contributions and the funding and agreements involved.
+  capabilities:
+  - clinical-innovation-management
+  - intellectual-property-management
+  entities:
+  - invention-disclosure
+  - research-grant
+  - contract
+  serves:
+  - invention-disclosure-form
+- slug: invention-assessment
+  title: Invention Assessment
+  summary: Novelty, protectability, market and development need are assessed, the rights of funders and partners are checked, and
+    the organisation decides within the required period to claim or release the invention.
+  capabilities:
+  - intellectual-property-management
+  - demand-and-market-analysis
+  - contract-lifecycle-stewardship
+  - legal-advisory
+  entities:
+  - invention-disclosure
+  - contract
+  - governance-decision
+  serves:
+  - technology-transfer-office
+- slug: intellectual-property-protection
+  title: Intellectual Property Protection
+  summary: Patent or other protection is filed with external counsel before the invention is published, and the timing of scientific
+    publication is agreed with the inventors.
+  capabilities:
+  - intellectual-property-management
+  - outside-counsel-management
+  - research-publication
+  entities:
+  - intellectual-property-right
+  - invention-disclosure
+  - publication
+  serves:
+  - scientific-publication
+  - technology-transfer-office
+- slug: validation-and-co-development
+  title: Validation and Co-Development
+  summary: Prototypes are built and their value is demonstrated in controlled care settings or with development partners, funded by
+    validation grants or partner contributions.
+  capabilities:
+  - innovation-testbeds
+  - innovation-partnerships
+  - grant-application-management
+  - project-management
+  entities:
+  - research-study
+  - research-grant
+  - contract
+  serves:
+  - innovation-lab
+  - research-collaboration-agreement
+- slug: transfer-route-decision
+  title: Transfer Route Decision
+  summary: 'The route to use is chosen: a licence to an existing company, a spin-off, continued co-development or open release, weighing
+    benefit for patients, returns and the inventors'' own plans.'
+  capabilities:
+  - licensing-and-commercialisation
+  - spin-off-support
+  - innovation-partnerships
+  - business-model-design
+  entities:
+  - governance-decision
+  - intellectual-property-right
+  serves:
+  - technology-transfer-office
+- slug: licensing-or-spin-off
+  title: Licensing or Spin-Off
+  summary: The licence or spin-off agreement is negotiated and concluded, founders are supported in setting up the company, and conflicts
+    between employment and company roles are managed.
+  capabilities:
+  - licensing-and-commercialisation
+  - spin-off-support
+  - anti-corruption-and-conflicts-of-interest
+  - contract-lifecycle-stewardship
+  entities:
+  - contract
+  - organisation
+  - intellectual-property-right
+  serves:
+  - licence-agreement
+- slug: return-flow
+  title: Return Flow
+  summary: Fees, royalties and equity proceeds are collected, inventors receive their share, proceeds are reinvested in research and
+    care, and protection that no longer serves a purpose is dropped.
+  capabilities:
+  - research-overhead-and-reinvestment
+  - accounts-receivable
+  - payroll-administration
+  - intellectual-property-management
+  entities:
+  - payment
+  - invoice
+  - intellectual-property-right
+  - contract
+  serves:
+  - technology-transfer-office
+binds:
+- source: src-612
+  edition: 2001/2002
+  jurisdiction: global

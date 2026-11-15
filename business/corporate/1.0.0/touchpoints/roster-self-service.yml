@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: roster-self-service
+title: Roster Self-Service
+medium: channel
+summary: The channel through which staff enter availability, leave and preferences, see their roster and swap or offer shifts.
+exchanges:
+- availability-for-a-predictable-roster
+journey: production-operator-working-to-a-fair-roster

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: handover-for-a-credited-record
+title: Handover for a Credited Record
+between:
+- frontline-worker
+- city-administration
+offered:
+- What they know, their working relationships and their open matters.
+returned:
+- Time set aside before they go and a handover record credited to them.
+touchpoint: knowledge-handover-meeting

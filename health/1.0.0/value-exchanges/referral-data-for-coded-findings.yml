@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: referral-data-for-coded-findings
+title: Referral Data for Coded Findings
+between:
+- referring-practice
+- specialist-physician
+offered:
+- Electronic referrals with the question, the history and the current medication, readable without retyping.
+returned:
+- Coded letters and findings delivered electronically and on time at the end of each contact or stay.
+touchpoint: referrer-portal

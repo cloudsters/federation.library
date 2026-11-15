@@ -1,0 +1,27 @@
+kind: journey
+slug: account-manager-keeping-the-project-promise
+title: Account Manager Keeping the Project Promise
+stakeholder: key-account-manager
+summary: A key account manager hands the sold project to delivery with nothing lost, keeps the customer informed through progress
+  and changes, and closes the project into use and the next conversation.
+stages:
+- slug: hand-over-the-sale
+  title: Hand Over the Sale
+  goal: What was promised in the sale is handed to the project team in full.
+  step: customer-project-delivery/project-set-up
+  touchpoints:
+  - project-kick-off
+- slug: keep-the-customer-informed
+  title: Keep the Customer Informed
+  goal: The customer hears about progress, risks and changes before surprises arise.
+  step: customer-project-delivery/progress-cost-and-change-control
+  touchpoints:
+  - project-status-report
+  - account-review
+- slug: close-into-use
+  title: Close into Use
+  goal: The project is closed with acceptance, and the customer's experience shapes the next proposal.
+  step: customer-project-delivery/acceptance-and-handover
+  touchpoints:
+  - acceptance-certificate
+  - account-review

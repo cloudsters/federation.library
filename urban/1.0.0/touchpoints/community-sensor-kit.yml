@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: community-sensor-kit
+title: Community Sensor Kit
+medium: artefact
+summary: The sensors, guidance and connection that residents use to measure air and other conditions in their streets and feed the
+  readings into the city's data platform.
+exchanges:
+- resident-measurements-for-a-place-in-city-data
+journey: neighbourhood-association-measuring-its-own-air

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transition-conversation
+title: Transition Conversation
+medium: encounter
+summary: The conversation in which a contributor and the organisation agree the timing, form and terms of a promotion, move, departure
+  or retirement, and the handover it requires.
+exchanges:
+- knowledge-handover-for-recognition
+journey: handing-on-the-department

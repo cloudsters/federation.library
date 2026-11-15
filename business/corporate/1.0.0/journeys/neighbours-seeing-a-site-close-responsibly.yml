@@ -1,0 +1,26 @@
+kind: journey
+slug: neighbours-seeing-a-site-close-responsibly
+title: Neighbours Seeing a Site Close Responsibly
+stakeholder: local-community
+summary: The local community learns early of a site's closure, sees hazards removed lawfully and finds the land restored as obligations
+  require.
+stages:
+- slug: hear-of-the-plan-early
+  title: Hear of the Plan Early
+  goal: Neighbours learn of the closure, its timeline and its risks before work starts.
+  step: asset-end-of-life-stewardship/exit-planning
+  touchpoints:
+  - community-consultation
+- slug: see-hazards-removed
+  title: See Hazards Removed
+  goal: Hazardous materials leave the site lawfully and the community is kept informed.
+  step: asset-end-of-life-stewardship/recycling-and-hazardous-handling
+  touchpoints:
+  - community-consultation
+- slug: find-the-land-restored
+  title: Find the Land Restored
+  goal: The former site is safe and restored, and its future use is discussed.
+  step: asset-end-of-life-stewardship/site-closure-and-abandonment
+  touchpoints:
+  - former-site
+  - community-consultation

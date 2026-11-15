@@ -1,0 +1,124 @@
+kind: value-stream
+slug: shared-city-vision
+title: Shared City Vision
+family: purpose-to-portfolio
+summary: Imagining with residents the city they want to live in a generation from now, building the capacity of neighbourhoods, schools,
+  trades and community bodies to think about the future, weighing alternative futures, and adopting a long-term vision that the council
+  commits to beyond any one term and renews in the open.
+trigger: The council opens the vision review at its scheduled interval, or a long-term shift in population, climate, economy or the
+  region shows that the current vision no longer holds.
+outcome: A long-term city vision, imagined with residents and adopted across parties, is published with the alternative futures it
+  was weighed against and the date of its next review.
+stakeholders:
+- city-council
+- mayor
+- resident
+- neighbourhood-association
+- civil-society-organisation
+- affected-community
+- informal-worker
+- young-people
+- future-generations
+steps:
+- slug: vision-review-opening
+  title: Vision Review Opening
+  summary: The council opens the vision review, confirms the charter and mandate that bound it, sets the horizon, the communities
+    to be reached and the calendar, and the parties agree that the result will outlast the current term.
+  capabilities:
+  - vision-cycle-planning
+  - cross-party-agreement-building
+  - drift-detection
+  entities:
+  - city-vision
+  - city-charter
+  - council-decision
+  serves:
+  - cross-party-vision-compact
+  - vision-review-notice
+- slug: futures-capacity-building
+  title: Futures Capacity Building
+  summary: Neighbourhood visioning circles, schools, trade groups and community bodies are supported to imagine and discuss the futures
+    they want, and the knowledge of uncertain futures already held by street vendors, informal workers, elders and young people is
+    recorded beside that of experts.
+  capabilities:
+  - futures-literacy-building
+  - resident-hearing
+  - community-body-recognition
+  entities:
+  - visioning-circle
+  - neighbourhood
+  serves:
+  - neighbourhood-visioning-session
+  - school-futures-workshop
+  - trade-foresight-group
+- slug: future-scenario-development
+  title: Future Scenario Development
+  summary: Alternative futures of the city over the vision horizon are drawn up from the residents' visions, the whole-city assessment
+    and the trends in population, climate, economy and the region, including futures the city would not want.
+  capabilities:
+  - future-scenario-building
+  - environment-sensing
+  - city-vitality-assessment
+  entities:
+  - future-scenario
+  - whole-city-assessment
+  serves:
+  - published-future-scenarios
+  - scenario-workshop
+- slug: vision-deliberation
+  title: Vision Deliberation
+  summary: A resident assembly selected by lot, together with neighbourhood and community bodies, weighs the scenarios, names the
+    tensions between groups, records where they disagree and drafts the vision.
+  capabilities:
+  - resident-assembly-convening
+  - vision-drafting
+  - dissent-recording
+  entities:
+  - resident-assembly
+  - city-vision
+  - future-scenario
+  serves:
+  - resident-assembly-invitation
+  - resident-assembly-session
+- slug: vision-adoption
+  title: Vision Adoption
+  summary: The draft vision is tested against what it leaves to those who will live in the city later, and the council adopts it with
+    its reasons, the futures it was weighed against and the date of its next review, binding later strategies and plans to it.
+  capabilities:
+  - future-generations-assessment
+  - council-decision-recording
+  entities:
+  - city-vision
+  - council-decision
+  - future-scenario
+  serves:
+  - future-generations-statement
+  - published-city-vision
+  - vision-adoption-debate
+- slug: vision-communication-and-renewal
+  title: Vision Communication and Renewal
+  summary: The vision is told in the languages and media residents use, residents follow how the city moves towards it, and signals
+    that it no longer holds reopen the review.
+  capabilities:
+  - vision-communication
+  - shared-city-picture-publication
+  - drift-detection
+  entities:
+  - city-vision
+  - city-dashboard
+  serves:
+  - vision-in-community-media
+  - vision-progress-page
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global
+- source: src-202
+  edition: '2024-09-22'
+  jurisdiction: global

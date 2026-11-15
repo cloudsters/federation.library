@@ -1,0 +1,25 @@
+kind: journey
+slug: requesting-an-investment
+title: Requesting an Investment
+stakeholder: head-of-clinical-department
+summary: The department head's path from a capital need to equipment or space in use.
+stages:
+- slug: state-the-need
+  title: State the Need
+  goal: The need is stated once, with its clinical purpose, urgency and expected benefit.
+  step: capital-planning-and-investment-funding/capital-need-identification
+  touchpoints:
+  - investment-request
+- slug: make-the-case
+  title: Make the Case
+  goal: The investment case is judged by transparent criteria against all other requests.
+  step: capital-planning-and-investment-funding/investment-case-and-prioritisation
+  touchpoints:
+  - investment-committee
+- slug: learn-the-decision
+  title: Learn the Decision
+  goal: The department learns the decision and its reasons and, if approved, the budget and schedule.
+  step: capital-planning-and-investment-funding/investment-approval-and-release
+  touchpoints:
+  - investment-committee
+  - board-meeting

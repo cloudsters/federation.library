@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: escalation-for-rapid-review
+title: Escalation for Rapid Review
+between:
+- registered-nurse
+- specialist-physician
+offered:
+- Early recognition of deterioration and a structured escalation of observations and concern.
+returned:
+- A bedside review within the defined time, a documented plan and, where needed, the outreach team or transfer to a higher level of
+  care.
+touchpoint: rapid-response-call

@@ -1,0 +1,34 @@
+kind: entity
+slug: repair
+title: Repair
+type: transactional
+summary: The move that closed a break, or tried to. Recorded separately from the conflict, because a relation with many conflicts
+  and many repairs is in a different state from one with few of each.
+attributes:
+- name: for-conflict
+  type: reference(conflict)
+  card: 1..1
+- name: own-part
+  type: text
+  card: 1..1
+- name: what-was-done
+  type: text
+  card: 1..*
+- name: what-was-asked-for
+  type: text
+  card: 0..*
+- name: made-on
+  type: date
+  card: 1..1
+- name: what-helped
+  type: text
+  card: 0..*
+states:
+- owed
+- offered
+- accepted
+- not accepted
+- learned from
+relations:
+- target: conflict
+  type: about

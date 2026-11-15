@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: master-data-request
+title: Master Data Request
+medium: artefact
+summary: The request to create, change or retire a master record for a customer, supplier, offering, location or unit, checked against
+  agreed rules.
+exchanges:
+- correct-entry-for-reliable-records
+journey: employee-finding-and-trusting-information

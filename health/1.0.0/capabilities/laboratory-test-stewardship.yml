@@ -1,0 +1,10 @@
+kind: capability
+slug: laboratory-test-stewardship
+title: Laboratory Test Stewardship
+level: L3
+parent: laboratory-testing-process
+summary: Guide appropriate test ordering to avoid unnecessary and missed tests.
+binds:
+- source: src-541
+  edition: 2012-2023
+  jurisdiction: global

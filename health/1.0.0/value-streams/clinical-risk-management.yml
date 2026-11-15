@@ -1,0 +1,132 @@
+kind: value-stream
+slug: clinical-risk-management
+title: Clinical Risk Management
+family: collaboration-to-automation
+summary: 'Identifying and reducing clinical risks before harm occurs: proactive risk assessment, safety practices such as surgical
+  checklists, medication safety rules and fall prevention, and the safety culture that sustains them.'
+trigger: A risk assessment cycle runs, a new process or technology is introduced, or a safety culture survey shows a gap.
+outcome: Identified clinical risks are treated with safety practices that are implemented, trained and monitored.
+stakeholders:
+- quality-and-safety-manager
+- head-of-clinical-department
+- registered-nurse
+- surgeon
+- anaesthesiologist
+- clinical-pharmacist
+- executive
+- elective-inpatient
+- older-person-with-frailty
+steps:
+- slug: risk-identification
+  title: Risk Identification
+  summary: Clinical risks are identified from incident reports, claims, audits, indicators, safety culture surveys and the introduction
+    of new processes, procedures and technologies, before they cause harm.
+  capabilities:
+  - clinical-risk-sensing
+  - hazard-assessment
+  - patient-safety-culture-development
+  - new-procedure-introduction
+  - medical-liability-claims-management
+  entities:
+  - risk
+  - incident
+  - liability-claim
+  - measure-report
+  serves:
+  - incident-reporting-system
+  - safety-huddle
+- slug: risk-assessment
+  title: Risk Assessment
+  summary: Each risk is analysed prospectively, for example by walking through the process for possible failures, rated for likelihood
+    and impact, given an owner and entered in the risk register.
+  capabilities:
+  - unit-risk-management
+  - hazard-assessment
+  - risk-oversight-and-coordination
+  - process-definition
+  entities:
+  - risk
+  - process-model
+  - organisation-unit
+  serves:
+  - risk-register
+  - safety-huddle
+- slug: safety-practice-design
+  title: Safety Practice Design
+  summary: Proven safety practices are selected or adapted for each risk, such as the surgical safety checklist, rules for high-risk
+    medicines and fall and pressure injury prevention, and built into procedures and systems.
+  capabilities:
+  - surgical-safety-checklist-practice
+  - medication-safety-programme
+  - fall-prevention
+  - pressure-injury-prevention
+  - clinical-standard-operating-procedures
+  - clinical-knowledge-as-code
+  entities:
+  - policy
+  - risk
+  - care-pathway
+  - decision-support-rule
+  serves:
+  - ward
+  - surgical-safety-checklist
+- slug: implementation-and-training
+  title: Implementation and Training
+  summary: Practices are introduced with training, simulation in the real setting and changes to forms, prompts and equipment, so
+    that the safe way becomes the easy way for every team.
+  capabilities:
+  - change-implementation
+  - in-situ-simulation
+  - crisis-resource-management-training
+  - mandatory-training-management
+  - clinical-system-configuration
+  entities:
+  - policy
+  - decision-support-rule
+  - credential
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+  - simulation-centre
+- slug: compliance-and-effect-monitoring
+  title: Compliance and Effect Monitoring
+  summary: Adherence and effect are monitored through observation audits, indicators such as falls and pressure injuries per patient
+    day, and incident trends, and gaps are fed back to the teams.
+  capabilities:
+  - nurse-sensitive-outcome-monitoring
+  - clinical-audit
+  - controls-monitoring
+  - compliance-sensing-monitoring
+  entities:
+  - measure
+  - measure-report
+  - audit
+  - risk
+  serves:
+  - operating-theatre
+  - quality-dashboard
+  - safety-huddle
+  - ward
+  - ward-round
+  - surgical-safety-checklist
+- slug: risk-review-and-assurance
+  title: Risk Review and Assurance
+  summary: The quality and safety committee reviews the clinical risk profile and the effect of controls and escalates material risks
+    to the executive board, which decides on acceptance and resources.
+  capabilities:
+  - risk-oversight-and-coordination
+  - board-communication-reporting
+  - insurance-management
+  - patient-safety-culture-development
+  entities:
+  - risk
+  - governance-decision
+  - dashboard
+  serves:
+  - board-meeting
+  - quality-and-safety-committee
+  - risk-register
+binds:
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

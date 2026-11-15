@@ -1,0 +1,44 @@
+kind: entity
+slug: technology-policy
+title: Technology Policy
+type: governance
+summary: How this life has decided to use machines — what is on which device, what data goes where, what is kept sovereign, what attention
+  is given to a screen and when it is not. One of the few governance records a person needs and almost nobody writes.
+attributes:
+- name: devices
+  type: list(device)
+  card: 0..*
+- name: services
+  type: list(service-account)
+  card: 0..*
+- name: what-goes-where
+  type: text
+  card: 0..*
+- name: kept-sovereign
+  type: text
+  card: 0..*
+- name: data-given
+  type: text
+  card: 0..*
+- name: agents-allowed
+  type: list(agent)
+  card: 0..*
+- name: screen-free-times
+  type: text
+  card: 0..*
+- name: written-on
+  type: date
+  card: 1..1
+states:
+- implicit
+- written
+- kept
+- creeping
+- rewritten
+relations:
+- target: device
+  type: about
+- target: service-account
+  type: about
+- target: boundary-set
+  type: based-on

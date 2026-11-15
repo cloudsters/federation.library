@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: mutual-aid-support-desk
+title: Mutual Aid Support Desk
+medium: channel
+summary: The contact through which a mutual aid group asks the city for a room, a small fund, help with keeping its records or a link
+  to formal services.
+exchanges:
+- network-support-for-shared-resources
+journey: caregiver-sharing-the-work-of-care

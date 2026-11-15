@@ -1,0 +1,12 @@
+kind: body
+slug: procurement-and-logistics
+title: Procurement and Logistics
+summary: 'Buys and moves everything the commons uses: supply strategy, categories, supplier selection and contracts, clinical product
+  evaluation, purchasing cooperation, supplier management, warehousing and distribution to the point of care.'
+holds:
+- sourcing-and-procurement
+- supplier-management
+- materials-and-logistics
+part_of: executive-board
+type: function
+form: organisational-unit

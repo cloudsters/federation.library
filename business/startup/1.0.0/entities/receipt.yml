@@ -1,0 +1,52 @@
+kind: entity
+slug: receipt
+title: Receipt
+type: transactional
+summary: Goods received — the moment materials arrive at the organisation from a supplier, requiring inspection and entry into inventory
+  before they can be used in production.
+attributes:
+- name: receipt-date
+  type: date
+  card: 1..1
+- name: origin-type
+  type: code
+  card: 1..1
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 1..*
+- name: condition
+  type: code
+  card: 1..1
+- name: destination
+  type: reference(location)
+  card: 1..1
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 0..1
+states:
+- draft
+- received
+- inspected
+- put-away
+- rejected
+- returned
+relations:
+- type: assigned-to
+  target: location
+- type: produces
+  target: stock-entry
+- type: refers-to
+  target: purchase-receipt
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

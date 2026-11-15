@@ -1,0 +1,10 @@
+kind: capability
+slug: patient-catering
+title: Patient Catering
+level: L3
+parent: hospitality-and-support-services
+summary: Provide meals that meet patients' dietary needs and preferences.
+binds:
+- source: src-510
+  edition: '2021'
+  jurisdiction: global

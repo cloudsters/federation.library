@@ -1,0 +1,44 @@
+kind: journey
+slug: technology-partner-serving-a-business-unit
+title: Technology Partner Serving a Business Unit
+stakeholder: information-technology-specialist
+summary: A technology specialist acting as partner to a business unit listens for needs, shapes demand, describes services plainly,
+  agrees service levels, advises on change and reviews performance with the unit.
+stages:
+- slug: listen-for-needs
+  title: Listen for Needs
+  goal: Needs of units, staff and agents are heard beyond their stated requests.
+  step: stakeholder-technology-relationship/technology-need-sensing
+  touchpoints:
+  - technology-partnering-meeting
+- slug: shape-the-demand
+  title: Shape the Demand
+  goal: Requirements and business cases are ready and ranked with the units.
+  step: stakeholder-technology-relationship/demand-shaping-and-prioritisation
+  touchpoints:
+  - technology-demand-request
+- slug: describe-the-services
+  title: Describe the Services
+  goal: Available services, how to use them and their cost are described in plain language.
+  step: stakeholder-technology-relationship/service-offer-communication
+  touchpoints:
+  - service-catalogue
+  - intranet
+- slug: commit-to-service-levels
+  title: Commit to Service Levels
+  goal: Service levels are agreed as mutual commitments.
+  step: stakeholder-technology-relationship/service-level-agreement
+  touchpoints:
+  - service-level-agreement
+- slug: advise-on-transformation
+  title: Advise on Transformation
+  goal: The unit is guided on options, sequence and pace of change.
+  step: stakeholder-technology-relationship/transformation-advisory
+  touchpoints:
+  - technology-partnering-meeting
+- slug: review-with-the-unit
+  title: Review with the Unit
+  goal: Performance and experience are reviewed and improvements committed.
+  step: stakeholder-technology-relationship/service-performance-review
+  touchpoints:
+  - service-review

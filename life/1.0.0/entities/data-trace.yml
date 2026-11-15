@@ -1,0 +1,42 @@
+kind: entity
+slug: data-trace
+title: Data Trace
+type: intelligence
+summary: 'What others hold about this person — records, profiles, histories, images and recordings that have left home and now sit
+  with providers, authorities and machines. Held apart from `technology-policy`, which records intent: this records what has actually
+  gone, and where it now is.'
+attributes:
+- name: held-by
+  type: reference(provider-relation)
+  card: 1..1
+- name: held-in
+  type: reference(service-account)
+  card: 0..1
+- name: what
+  type: code
+  card: 1..*
+- name: given-how
+  type: code
+  card: 0..1
+- name: found-on
+  type: date
+  card: 1..1
+- name: can-be-removed
+  type: boolean
+  card: 0..1
+- name: removal-asked-on
+  type: date
+  card: 0..1
+states:
+- found
+- accepted
+- narrowed
+- removed
+- beyond reach
+relations:
+- target: self
+  type: about
+- target: service-account
+  type: about
+- target: provider-relation
+  type: about

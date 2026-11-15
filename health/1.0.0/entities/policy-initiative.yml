@@ -1,0 +1,43 @@
+kind: entity
+slug: policy-initiative
+title: Policy Initiative
+type: transactional
+summary: A public policy, legislative, regulatory or payment initiative that affects the organisation, followed from first notice
+  through impact assessment and the organisation's adopted position to enactment, with the submissions made.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: issuing-body
+  type: reference(organisation)
+  card: 1..1
+- name: initiative-kind
+  type: code
+  card: 1..1
+- name: affected-areas
+  type: code
+  card: 1..*
+- name: comment-deadline
+  type: date
+  card: 0..1
+- name: impact-assessment
+  type: document
+  card: 0..1
+- name: adopted-position
+  type: reference(governance-decision)
+  card: 0..1
+- name: submissions
+  type: document
+  card: 0..*
+states:
+- identified
+- assessed
+- position-adopted
+- submitted
+- enacted
+- abandoned
+relations:
+- type: produces
+  target: compliance-obligation
+- type: refers-to
+  target: strategy

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: data-exchange-request
+title: Data Exchange Request
+medium: channel
+summary: The channel through which a department, a neighbourhood platform or a partner asks for data from another system, stating
+  its purpose and how often it is needed.
+exchanges:
+- stated-need-for-an-assessed-exchange
+- platform-request-for-data-on-stated-terms
+journey: information-technology-specialist-connecting-two-systems

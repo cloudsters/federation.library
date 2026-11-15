@@ -1,0 +1,16 @@
+kind: capability
+slug: molecular-pathology
+title: Molecular Pathology
+level: L3
+parent: pathology-services
+summary: Perform molecular and genomic analyses of tumours and other tissue, including liquid biopsy.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-427
+  edition: 21.1.5
+  jurisdiction: global
+- source: src-428
+  edition: STU3
+  jurisdiction: global

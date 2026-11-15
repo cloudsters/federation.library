@@ -1,0 +1,46 @@
+kind: journey
+slug: unit-steering-with-its-own-data
+title: Unit Steering with Its Own Data
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department turns a steering question into a trusted report and uses it, correcting data at the source
+  where the figures are wrong.
+stages:
+- slug: ask-the-question
+  title: Ask the Question
+  goal: The question, the decision it serves and its audience are recorded and prioritised.
+  step: data-and-analytics/information-need-intake
+  touchpoints:
+  - digital-demand-intake
+  - data-catalogue
+- slug: agree-the-definitions
+  title: Agree the Definitions
+  goal: The unit and the data team agree each indicator's definition and owner.
+  step: data-and-analytics/measure-and-data-definition
+  touchpoints:
+  - data-catalogue
+- slug: correct-at-the-source
+  title: Correct at the Source
+  goal: Documentation defects found in the data are corrected where they arise.
+  step: data-and-analytics/data-quality-assurance
+  touchpoints:
+  - clinical-workstation
+  - reporting-portal
+- slug: validate-the-figures
+  title: Validate the Figures
+  goal: The unit confirms the draft report against figures it knows.
+  step: data-and-analytics/analysis-and-product-build
+  touchpoints:
+  - reporting-portal
+- slug: open-the-report
+  title: Open the Report
+  goal: Authorised users find and open the report with its definitions alongside.
+  step: data-and-analytics/release-and-access
+  touchpoints:
+  - reporting-portal
+  - data-catalogue
+- slug: steer-and-ask-again
+  title: Steer and Ask Again
+  goal: The unit steers by the report and asks for changes as its questions change.
+  step: data-and-analytics/use-monitoring-and-upkeep
+  touchpoints:
+  - reporting-portal

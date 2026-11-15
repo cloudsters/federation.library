@@ -1,0 +1,29 @@
+kind: journey
+slug: supplier-planning-against-a-shared-forecast
+title: Supplier Planning Against a Shared Forecast
+stakeholder: direct-material-supplier
+summary: A supplier of direct materials receives a rolling forecast it can plan capacity on, firm orders and call-offs within an agreed
+  horizon, and a fair hearing when it signals a shortfall early.
+stages:
+- slug: receive-the-forecast
+  title: Receive the Forecast
+  goal: The supplier sees the expected requirements for its items over the planning horizon and confirms what it can supply.
+  step: supply-chain-orchestration/supply-materials-and-capacity-plan
+  touchpoints:
+  - shared-forecast
+  - supplier-portal
+- slug: receive-orders-and-call-offs
+  title: Receive Orders and Call-Offs
+  goal: Firm orders and call-offs arrive within the agreed horizon and match the forecast closely enough to plan on.
+  step: supply-chain-orchestration/master-schedule-release
+  touchpoints:
+  - purchase-order
+  - delivery-call-off
+  - supplier-portal
+- slug: signal-a-shortfall
+  title: Signal a Shortfall
+  goal: A looming shortfall is reported early and answered with a joint search for alternatives rather than with penalties.
+  step: supply-chain-orchestration/deviation-and-disruption-steering
+  touchpoints:
+  - supply-disruption-alert
+  - supplier-portal

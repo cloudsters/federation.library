@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: money-for-shelter
+title: Money for Shelter
+between:
+- self
+- provider
+offered:
+- money, regularly
+returned:
+- a place to live from
+touchpoint: terms-and-conditions

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: capacity-signals-for-confirmed-plans
+title: Capacity Signals for Confirmed Plans
+between:
+- operations-planning-agent
+- managing-director
+offered:
+- Allocation proposals across people and agents, current effort records and early warnings of collisions and overload.
+returned:
+- A mandate to propose, confirmed or corrected plans, and decisions on the collisions it has flagged.
+touchpoint: capacity-plan

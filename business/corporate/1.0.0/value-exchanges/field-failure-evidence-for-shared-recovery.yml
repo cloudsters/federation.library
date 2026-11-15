@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: field-failure-evidence-for-shared-recovery
+title: Field Failure Evidence for Shared Recovery
+between:
+- quality-manager
+- direct-material-supplier
+offered:
+- Field failure data, failed parts and evidence that trace the failure to the supplied part.
+returned:
+- A share of the cost, a root-cause analysis and a correction that stops the failure recurring.
+touchpoint: failure-analysis-review

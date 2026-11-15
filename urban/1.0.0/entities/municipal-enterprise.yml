@@ -1,0 +1,66 @@
+kind: entity
+slug: municipal-enterprise
+title: Municipal Enterprise
+type: master
+summary: A company or utility the city owns in whole or in part, in energy, water, transit or other services, with its mission, pricing
+  principles and the return it owes the city. The council sets its owner mandate and reviews it each year, and the share of its surplus
+  that is reinvested, shared with host communities or returned to the commons fund is decided on its accounts.
+attributes:
+- name: legal-name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: service-fields
+  type: code
+  card: 1..*
+- name: city-ownership-share
+  type: decimal
+  card: 1..1
+- name: co-owners
+  type: text
+  card: 0..*
+- name: mission
+  type: text
+  card: 1..1
+- name: pricing-principles
+  type: text
+  card: 1..*
+- name: annual-surplus
+  type: amount
+  card: 0..1
+- name: reinvested-share
+  type: decimal
+  card: 0..1
+- name: host-community-share
+  type: decimal
+  card: 0..1
+- name: commons-fund-share
+  type: decimal
+  card: 0..1
+- name: owner-mandate
+  type: reference(council-decision)
+  card: 0..1
+states:
+- founded
+- operating
+- under-review
+- restructured
+- sold
+- dissolved
+relations:
+- type: governed-by
+  target: council-decision
+- type: part-of
+  target: public-asset-register
+- type: refers-to
+  target: energy-grid
+- type: refers-to
+  target: water-network
+- type: refers-to
+  target: commons-fund
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

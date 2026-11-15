@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: engineering-change-notice
+title: Engineering Change Notice
+medium: artefact
+summary: The notice that announces a change to a product, routing or instruction, states from which unit, lot or date it applies and
+  what happens to existing stock and open orders.
+exchanges:
+- current-instructions-for-skilled-execution
+journey: operator-running-a-shift

@@ -1,0 +1,36 @@
+kind: entity
+slug: publication
+title: Publication
+type: transactional
+summary: 'The moment a made thing was put where others could reach it. Separate from making it: a great deal is made and never published,
+  and the gap between the two counts.'
+attributes:
+- name: of
+  type: reference(creative-output)
+  card: 1..1
+- name: where
+  type: text
+  card: 1..1
+- name: on-own-ground
+  type: boolean
+  card: 1..1
+- name: published-on
+  type: date
+  card: 1..1
+- name: release-terms
+  type: text
+  card: 0..1
+- name: response
+  type: text
+  card: 0..*
+states:
+- released
+- found
+- responded to
+- revised
+- withdrawn
+relations:
+- target: creative-output
+  type: about
+- target: audience-relation
+  type: serves

@@ -1,0 +1,63 @@
+kind: entity
+slug: volunteer-opportunity
+title: Volunteer Opportunity
+type: transactional
+summary: A task residents can take on for the city or a partner, from a single afternoon to a standing role, with its purpose, place,
+  time, the skills needed and the checks it requires. The department, neighbourhood body or civil-society organisation offering it
+  describes it, and the city publishes it in one place so that residents can find it, including a resident who reported the problem
+  it fixes.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: offered-by
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: place
+  type: text
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: time-commitment
+  type: text
+  card: 1..1
+- name: skills-needed
+  type: text
+  card: 0..*
+- name: checks-required
+  type: code
+  card: 0..*
+- name: insurance-cover
+  type: text
+  card: 0..1
+- name: places-available
+  type: integer
+  card: 0..1
+- name: reported-problem
+  type: reference(citizen-complaint)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- published
+- filled
+- in-progress
+- completed
+- withdrawn
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: department
+- type: refers-to
+  target: civil-society-body
+- type: assigned-to
+  target: volunteer-record

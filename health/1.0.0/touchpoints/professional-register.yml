@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: professional-register
+title: Professional Register
+medium: channel
+summary: The register of licensed and certified health professionals kept by the competent authority or professional body, through
+  which licences, specialist recognition and credits are verified at the source.
+exchanges:
+- credits-for-recertification
+- licence-status-confirmation
+journey: gaining-and-keeping-clinical-privileges

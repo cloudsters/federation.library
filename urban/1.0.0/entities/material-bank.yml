@@ -1,0 +1,58 @@
+kind: entity
+slug: material-bank
+title: Material Bank
+type: master
+summary: A store of salvaged building components and materials with an open list of what is available and in what condition. The city
+  or a salvage cooperative runs it, and city works, builders and residents draw on it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: operator-kind
+  type: code
+  card: 1..1
+- name: operating-cooperative
+  type: reference(cooperative)
+  card: 0..1
+- name: locations
+  type: text
+  card: 1..*
+- name: storage-capacity
+  type: quantity
+  card: 0..1
+- name: lots-held
+  type: reference(salvaged-material-lot)
+  card: 0..*
+- name: open-list
+  type: document
+  card: 1..1
+- name: issue-terms
+  type: text
+  card: 1..1
+- name: who-may-draw
+  type: text
+  card: 0..*
+- name: recovery-hubs
+  type: reference(remaking-hub)
+  card: 0..*
+- name: opened-on
+  type: date
+  card: 0..1
+states:
+- planned
+- opened
+- operating
+- suspended
+- closed
+relations:
+- type: composed-of
+  target: salvaged-material-lot
+- type: refers-to
+  target: material-passport
+- type: assigned-to
+  target: cooperative
+- type: refers-to
+  target: remaking-hub

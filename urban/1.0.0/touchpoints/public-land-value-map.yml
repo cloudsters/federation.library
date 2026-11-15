@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: public-land-value-map
+title: Public Land Value Map
+medium: artefact
+summary: The published map of land values across the city against a baseline, showing where public investment, transit and rezoning
+  have raised them.
+exchanges:
+- land-value-map-for-neighbourhood-knowledge
+journey: finance-officer-raising-local-revenue

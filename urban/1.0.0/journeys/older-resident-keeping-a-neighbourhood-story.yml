@@ -1,0 +1,38 @@
+kind: journey
+slug: older-resident-keeping-a-neighbourhood-story
+title: Older Resident Keeping a Neighbourhood Story
+stakeholder: older-resident
+summary: An older resident tells the neighbourhood's story in a story circle, records it as an oral history, sees it kept in the community
+  archive, agrees how it may be framed and reused, and has a request to reuse it reviewed by the community's own body.
+stages:
+- slug: tell-in-the-circle
+  title: Tell in the Circle
+  goal: The resident's story is told and heard among neighbours in a regular story circle.
+  step: neighbourhood-and-community-media/story-gathering-and-archive
+  touchpoints:
+  - story-circle-gathering
+- slug: record-the-history
+  title: Record the History
+  goal: The story is recorded as an oral history, across generations where young people take part.
+  step: neighbourhood-and-community-media/story-gathering-and-archive
+  touchpoints:
+  - oral-history-recording-session
+- slug: keep-it-in-the-archive
+  title: Keep It in the Archive
+  goal: The recording is kept in the community archive under rules the resident body sets on what is shared outward.
+  step: neighbourhood-and-community-media/story-gathering-and-archive
+  touchpoints:
+  - community-story-archive
+- slug: agree-how-it-is-told
+  title: Agree How It Is Told
+  goal: The teller has agreed how the story is framed and attributed, and knows the consent can be withdrawn.
+  step: neighbourhood-and-community-media/story-consent-and-attribution
+  touchpoints:
+  - story-consent-form
+- slug: decide-on-reuse
+  title: Decide on Reuse
+  goal: A request by the city, researchers, funders or developers to reuse the story is reviewed by the resident body and answered
+    on the community's terms.
+  step: neighbourhood-and-community-media/story-consent-and-attribution
+  touchpoints:
+  - story-reuse-request-review

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: formulary-adherence-for-secure-supply
+title: Formulary Adherence for Secure Supply
+between:
+- specialist-physician
+- clinical-pharmacist
+offered:
+- Prescribing within the formulary, and evidence and expected use for each proposed addition.
+returned:
+- Medicines that are reliably available and safer through standardisation, with pharmacist advice when a choice is unclear.
+touchpoint: clinical-workstation

@@ -1,0 +1,116 @@
+kind: value-stream
+slug: workforce-as-ecosystem
+title: Workforce Strategy and Design
+family: contributor-to-succession
+summary: 'Designing the workforce as the ecosystem the purpose needs: people strategy, a capability architecture, the mix of permanent,
+  contingent and digital contributors, policies for remote, distributed and neurodivergent work, and sensing whether it all works.'
+trigger: The planning cycle opens, or business changes or staffing gaps alter workforce demand.
+outcome: An approved workforce strategy and plan by role and skill mix sets the targets for hiring, development and deployment, and
+  its effect is sensed and adjusted.
+stakeholders:
+- executive-board
+- human-resources-professional
+- site-manager
+- works-council
+- employee
+- operations-planning-agent
+steps:
+- slug: people-strategy-mandate
+  title: People Strategy Mandate
+  summary: The executive opens the planning cycle and sets the people strategy, its horizon and the budget frame in line with the
+    purpose.
+  capabilities:
+  - people-strategy-design
+  entities:
+  - strategy
+  - workforce-plan
+  - budget
+  serves:
+  - workforce-planning-round
+- slug: capability-baseline
+  title: Capability Baseline
+  summary: Map the competencies and skills the organisation has today across permanent, contingent and digital contributors, with
+    posts, turnover and known gaps.
+  capabilities:
+  - capability-architecture
+  - contingent-workforce-management
+  - people-strategy-sensing
+  entities:
+  - competency-model
+  - skill
+  - position
+  - workforce-analytics
+  serves:
+  - skills-inventory
+- slug: demand-and-supply-forecast
+  title: Demand and Supply Forecast
+  summary: Derive the roles and skills the strategy will need, and project what the organisation will have from attrition, development,
+    the education pipeline and the labour market.
+  capabilities:
+  - capability-architecture
+  - talent-pipeline-development
+  entities:
+  - workforce-plan
+  - forecast
+  - skill
+  serves:
+  - workforce-dashboard
+  - workforce-plan
+- slug: workforce-mix-design
+  title: Workforce Mix Design
+  summary: 'Decide how each gap is closed: hire, develop, move people internally, engage contingent workers or assign defined work
+    to agents, weighing cost, risk and inclusion.'
+  capabilities:
+  - internal-mobility-marketplace
+  - contingent-workforce-management
+  - neurodiversity-and-inclusion
+  entities:
+  - workforce-plan
+  - position
+  - capability-node
+  serves:
+  - workforce-plan
+  - workforce-planning-round
+  - works-council-meeting
+- slug: workforce-policy-design
+  title: Workforce Policy Design
+  summary: 'Set the policies that make the mix work: remote and distributed work, cognitive inclusion, contingent engagement and fair
+    rules for everyone who contributes.'
+  capabilities:
+  - workforce-ecosystem-policies
+  - remote-and-distributed-work-design
+  - neurodiversity-and-inclusion
+  entities:
+  - policy
+  - workforce-plan
+  serves:
+  - workplace-policy
+  - works-council-meeting
+- slug: plan-approval
+  title: Plan Approval
+  summary: Cost the plan against the budget, and approve targets by role and skill mix together with the authority to recruit at each
+    level.
+  capabilities:
+  - people-strategy-design
+  - delegation-of-authority
+  entities:
+  - workforce-plan
+  - governance-decision
+  - budget
+  serves:
+  - board-meeting
+  - workforce-plan
+  - works-council-meeting
+- slug: strategy-sensing
+  title: Strategy Sensing
+  summary: Track posts, skills, mobility and engagement against the plan, and adjust strategy or policy when the ecosystem shows that
+    the intended conditions are not appearing.
+  capabilities:
+  - people-strategy-sensing
+  entities:
+  - workforce-analytics
+  - measure-report
+  - workforce-plan
+  serves:
+  - workforce-dashboard
+  - works-council-meeting

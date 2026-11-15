@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: credit-for-release
+title: Credit for Release
+between:
+- self
+- audience
+- community
+- collaborator
+offered:
+- Work released with name, date and terms marked, some of it given to the commons.
+returned:
+- Credit kept, use that respects the terms, and work that travels further than it could alone.
+touchpoint: published-work

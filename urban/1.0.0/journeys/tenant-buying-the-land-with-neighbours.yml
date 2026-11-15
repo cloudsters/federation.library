@@ -1,0 +1,39 @@
+kind: journey
+slug: tenant-buying-the-land-with-neighbours
+title: Tenant Buying the Land with Neighbours
+stakeholder: tenant
+summary: A tenant whose home is at risk names the site, is heard on displacement, pools savings with neighbours and gets the city's
+  advice, negotiates as one group and secures the home in community trust.
+stages:
+- slug: name-the-site
+  title: Name the Site
+  goal: The tenant's building or plot is on the city's map of needs and sites, with the households who live there.
+  step: land-and-property-acquisition/land-need-and-site-identification
+  touchpoints:
+  - vacant-site-report
+  - land-need-map
+- slug: be-heard-on-displacement
+  title: Be Heard on Displacement
+  goal: The appraisal records who lives on the site and what a sale to others would cost them.
+  step: land-and-property-acquisition/acquisition-appraisal
+  touchpoints:
+  - displacement-risk-hearing
+- slug: pool-savings-and-get-advice
+  title: Pool Savings and Get Advice
+  goal: The households have pooled their savings and have the city's advice and bridging finance for a joint purchase.
+  step: land-and-property-acquisition/joint-purchase-with-residents
+  touchpoints:
+  - joint-purchase-advice-desk
+- slug: negotiate-as-one
+  title: Negotiate as One
+  goal: The households have negotiated with the owner as one group and agreed a price none of them could have reached alone.
+  step: land-and-property-acquisition/joint-purchase-with-residents
+  touchpoints:
+  - joint-purchase-negotiation
+- slug: secure-the-home-in-trust
+  title: Secure the Home in Trust
+  goal: The land is held in community trust under covenants that keep it affordable, and the tenant's right of use is recorded.
+  step: land-and-property-acquisition/transfer-into-community-trust
+  touchpoints:
+  - affordability-covenant-text
+  - community-trust-transfer-signing

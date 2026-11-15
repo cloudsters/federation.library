@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: instructions-for-safe-processing
+title: Instructions for Safe Processing
+between:
+- health-informatics-specialist
+- supplier
+offered:
+- Documented instructions for processing personal data on the commons' behalf, and the right to audit compliance.
+returned:
+- Processing only as instructed, with safeguards, disclosure of sub-processors and prompt notification of any breach.
+touchpoint: record-of-processing

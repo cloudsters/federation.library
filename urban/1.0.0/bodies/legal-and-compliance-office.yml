@@ -1,0 +1,15 @@
+kind: body
+slug: legal-and-compliance-office
+title: Legal and Compliance Office
+summary: Advises council and administration, drafts bylaws, reviews contracts and leases, handles claims and disputes, keeps the register
+  of obligations and reports on compliance.
+holds:
+- legal-services-and-compliance
+- network-access-agreement-drafting
+- data-sharing-agreement-drafting
+- formal-route-referral
+- fair-work-clause-drafting
+- affordability-covenant-drafting
+part_of: full-council
+type: function
+form: organisational-unit

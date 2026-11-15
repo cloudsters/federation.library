@@ -1,0 +1,36 @@
+kind: entity
+slug: invention-disclosure
+title: Invention Disclosure
+type: transactional
+summary: The report of an invention made by staff, such as a new product feature, process or piece of software, on which the enterprise
+  decides whether to claim, protect and use it and how the inventors are rewarded.
+attributes:
+- name: inventors
+  type: reference(employee-record)
+  card: 1..*
+- name: title
+  type: text
+  card: 1..1
+- name: description
+  type: document
+  card: 1..1
+- name: disclosed-on
+  type: date
+  card: 1..1
+- name: decision
+  type: code
+  card: 0..1
+- name: protection-status
+  type: code
+  card: 0..1
+states:
+- disclosed
+- under-evaluation
+- claimed
+- released
+- protected
+relations:
+- type: governed-by
+  target: policy
+- type: produces
+  target: intellectual-property-right

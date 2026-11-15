@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: dose-check-for-justified-override
+title: Dose Check for Justified Override
+between:
+- clinical-decision-support-agent
+- specialist-physician
+offered:
+- Interaction, allergy and dose warnings at the moment of prescribing, with source and severity shown.
+returned:
+- Acceptance or a justified override, which shows which warnings help and which only distract.
+touchpoint: decision-support-prompt

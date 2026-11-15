@@ -1,0 +1,45 @@
+kind: journey
+slug: artist-making-work-and-teaching-in-the-neighbourhood
+title: Artist Making Work and Teaching in the Neighbourhood
+stakeholder: artist
+summary: An artist puts their practice on the city's cultural map, helps agree the culture plan, takes an affordable studio run with
+  other artists, opens its doors to neighbours, makes a mural the neighbourhood chose and keeps the studio when rents rise.
+stages:
+- slug: be-on-the-map
+  title: Be on the Map
+  goal: The practice of the artist, including informal and community work, is on the cultural map of the neighbourhood.
+  step: arts-and-cultural-participation/cultural-life-mapping
+  touchpoints:
+  - cultural-mapping-walk
+  - published-cultural-map
+- slug: shape-the-culture-plan
+  title: Shape the Culture Plan
+  goal: The view of the artist on spaces and support is part of the culture plan.
+  step: arts-and-cultural-participation/culture-plan
+  touchpoints:
+  - culture-plan-forum
+- slug: take-an-affordable-studio
+  title: Take an Affordable Studio
+  goal: The artist works at an affordable rent in a studio run by the artists themselves.
+  step: arts-and-cultural-participation/affordable-creative-spaces
+  touchpoints:
+  - creative-workspace-call
+  - artist-run-studio
+- slug: open-the-doors-to-neighbours
+  title: Open the Doors to Neighbours
+  goal: Neighbours come in to learn a craft, as the artist committed to when taking the studio.
+  step: arts-and-cultural-participation/affordable-creative-spaces
+  touchpoints:
+  - open-studio-day
+- slug: make-a-mural-the-neighbourhood-chose
+  title: Make a Mural the Neighbourhood Chose
+  goal: The artist is commissioned for a work the neighbourhood decided on and will live with.
+  step: arts-and-cultural-participation/public-art-decided-by-neighbourhoods
+  touchpoints:
+  - public-art-neighbourhood-decision
+- slug: keep-the-studio-from-loss
+  title: Keep the Studio from Loss
+  goal: The studio under pressure from rising rents is protected through planning rules, community ownership or reuse.
+  step: arts-and-cultural-participation/cultural-space-protection-and-review
+  touchpoints:
+  - cultural-space-at-risk-notice

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: intensive-care-unit
+title: Intensive Care Unit
+medium: place
+summary: The unit where critically ill patients receive continuous monitoring and organ support, and where relatives meet the team
+  at the most difficult moments of an illness.
+exchanges:
+- honest-information-for-the-patients-voice
+- donor-report-for-coordinated-donation
+- support-for-a-proxy-decision
+journey: deciding-on-behalf-of-a-patient

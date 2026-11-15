@@ -1,0 +1,32 @@
+kind: journey
+slug: network-member-offering-surplus
+title: Network Member Offering Surplus
+stakeholder: partner
+summary: A member of the federated network publishes surplus, shows verified evidence of its fitness, negotiates through its agent
+  and has the exchange settled and recorded in both books.
+stages:
+- slug: publish-surplus
+  title: Publish Surplus
+  goal: Surplus capacity or goods are announced as offer intents that agents in the network can match.
+  step: commons-federation-exchange/federated-matching
+  touchpoints:
+  - published-offer
+  - federated-exchange-network
+- slug: show-verified-evidence
+  title: Show Verified Evidence
+  goal: Governance fitness, ecological accountability and relational continuity are shown on verified evidence.
+  step: commons-federation-exchange/counterpart-fitness-check
+  touchpoints:
+  - verified-member-evidence
+- slug: negotiate-through-the-agent
+  title: Negotiate Through the Agent
+  goal: The member's agent negotiates terms and service levels within its own mandate.
+  step: commons-federation-exchange/agent-to-agent-negotiation
+  touchpoints:
+  - agent-negotiation
+- slug: settle-and-record
+  title: Settle and Record
+  goal: The exchange is performed and settled and recorded with its mandate in both books.
+  step: commons-federation-exchange/exchange-settlement-and-recording
+  touchpoints:
+  - exchange-record

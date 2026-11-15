@@ -1,0 +1,159 @@
+kind: value-stream
+slug: translational-research
+title: Translational Research
+family: discovery-to-usage
+summary: 'Carrying discoveries from laboratory to patient and back: preclinical development, first-in-human studies, biomarker and
+  diagnostic development, and turning clinical observations into new research questions.'
+trigger: A laboratory or clinical finding shows potential for a new diagnostic or therapy.
+outcome: The finding has advanced to its next stage of development, a clinical study or a validated method, or has been stopped with
+  documented reasons.
+stakeholders:
+- clinician-scientist
+- research-scientist
+- research-participant
+- technology-transfer-manager
+- industry-partner
+- research-funder
+- health-regulator
+- research-ethics-committee
+- research-partner
+steps:
+- slug: finding-assessment
+  title: Finding Assessment
+  summary: A laboratory or clinical finding with potential is assessed for scientific strength, clinical need, feasibility and intellectual
+    property position, and a team with protected research time takes it on under a staged development plan.
+  capabilities:
+  - research-question-development
+  - bench-to-bedside-translation
+  - clinician-scientist-programmes
+  - intellectual-property-management
+  entities:
+  - research-study
+  - invention-disclosure
+  - publication
+  serves:
+  - technology-transfer-office
+  - translational-gate-review
+- slug: preclinical-development
+  title: Preclinical Development
+  summary: Efficacy, mechanism and safety are established in laboratory models and, where no alternative exists, in approved animal
+    studies, using shared core facilities and competitive grant funding.
+  capabilities:
+  - core-facility-operations
+  - animal-research-oversight
+  - research-data-analysis
+  - biostatistics-support
+  - grant-application-management
+  entities:
+  - research-study
+  - study-review
+  - research-grant
+  - dataset
+  serves:
+  - core-facility
+  - funding-proposal
+  - research-laboratory
+- slug: biomarker-and-method-validation
+  title: Biomarker and Method Validation
+  summary: Candidate biomarkers and diagnostic methods are validated analytically and clinically on biobank samples and clinical data,
+    under laboratory quality rules, before they may guide decisions about patients.
+  capabilities:
+  - biobank-operations
+  - laboratory-quality-assurance
+  - companion-diagnostics
+  - genetic-diagnostics
+  - research-data-analysis
+  - data-access-governance
+  entities:
+  - biobank-sample
+  - data-access-request
+  - dataset
+  - diagnostic-report
+  serves:
+  - biobank
+  - data-use-and-access-committee
+- slug: investigational-product-manufacture
+  title: Investigational Product Manufacture
+  summary: Cell, gene and tissue therapies or other investigational products are manufactured, tested and released to the quality
+    required for use in humans, with complete batch records.
+  capabilities:
+  - advanced-therapy-development
+  - compounding-and-preparation
+  - preparation-quality-control
+  - batch-traceability-and-records
+  - core-facility-operations
+  entities:
+  - investigational-product
+  - medication
+  serves:
+  - core-facility
+  - hospital-pharmacy
+- slug: regulatory-and-ethics-preparation
+  title: Regulatory and Ethics Preparation
+  summary: Scientific advice is sought from the regulator, the dossier and the first-in-human protocol are prepared, the organisation
+    takes on sponsorship, and ethics and regulatory approval are obtained.
+  capabilities:
+  - investigator-initiated-trial-sponsorship
+  - ethics-committee-governance
+  - trial-feasibility-and-start-up
+  - industry-research-contracting
+  - regulatory-landscape-sensing
+  entities:
+  - study-protocol
+  - study-review
+  - investigational-product
+  - contract
+  serves:
+  - regulatory-advice-meeting
+  - research-ethics-committee-meeting
+- slug: first-in-human-study
+  title: First-in-Human Study
+  summary: The product is given to the first participants under intensive safety monitoring, with stepwise increases in dose or exposure
+    and predefined stopping rules.
+  capabilities:
+  - clinical-trial-management
+  - trial-participant-recruitment
+  - research-consent-management
+  - trial-safety-reporting
+  - investigational-product-management
+  - study-monitoring-and-data-management
+  entities:
+  - research-study
+  - participant-enrolment
+  - informed-consent
+  - study-visit
+  - study-adverse-event
+  - investigational-product
+  serves:
+  - clinical-trial-unit
+  - study-visit
+  - participant-information-sheet
+- slug: gate-review-and-reverse-translation
+  title: Gate Review and Reverse Translation
+  summary: The results decide whether development advances to a larger study, a partner or a licence, or stops with documented reasons,
+    and clinical observations return to the laboratory as new research questions.
+  capabilities:
+  - bench-to-bedside-translation
+  - innovation-partnerships
+  - licensing-and-commercialisation
+  - research-publication
+  - research-performance-assessment
+  entities:
+  - governance-decision
+  - publication
+  - contract
+  - intellectual-property-right
+  serves:
+  - research-collaboration-agreement
+  - scientific-publication
+  - translational-gate-review
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-530
+  edition: '2.0'
+  jurisdiction: global

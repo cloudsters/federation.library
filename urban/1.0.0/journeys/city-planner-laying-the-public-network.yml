@@ -1,0 +1,33 @@
+kind: journey
+slug: city-planner-laying-the-public-network
+title: City Planner Laying the Public Network
+stakeholder: city-planner
+summary: A city planner maps where connectivity is missing, plans backbone and last-mile networks with the neighbourhoods, coordinates
+  building with other works in the street and places sensors only for a declared and approved purpose.
+stages:
+- slug: map-where-access-is-missing
+  title: Map Where Access Is Missing
+  goal: Gaps by neighbourhood and group are mapped beside the existing fibre routes, masts and private networks.
+  step: digital-infrastructure-and-connectivity/connectivity-gap-mapping
+  touchpoints:
+  - connectivity-gap-map
+- slug: plan-backbone-and-local-networks
+  title: Plan Backbone and Local Networks
+  goal: The plan states which parts of the network the city holds and which the neighbourhood cooperatives own and run.
+  step: digital-infrastructure-and-connectivity/public-network-planning
+  touchpoints:
+  - network-planning-workshop
+  - street-works-coordination-meeting
+- slug: coordinate-the-build
+  title: Coordinate the Build
+  goal: Networks are built in stages while the street is open for other works, starting with the neighbourhoods least served.
+  step: digital-infrastructure-and-connectivity/network-build-and-connection
+  touchpoints:
+  - street-works-coordination-meeting
+- slug: place-sensors-for-a-declared-purpose
+  title: Place Sensors for a Declared Purpose
+  goal: Each sensor has a declared purpose approved in the open and an entry in the register of automated systems before it is connected.
+  step: digital-infrastructure-and-connectivity/sensor-placement
+  touchpoints:
+  - sensor-approval-hearing
+  - sensor-notice-plate

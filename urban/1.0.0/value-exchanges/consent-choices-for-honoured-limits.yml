@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-choices-for-honoured-limits
+title: Consent Choices for Honoured Limits
+between:
+- resident
+- city-administration
+offered:
+- The resident's choices to give, limit or withdraw consent and to set when their data expires.
+returned:
+- Those choices honoured in every system that holds the resident's data.
+touchpoint: personal-data-dashboard

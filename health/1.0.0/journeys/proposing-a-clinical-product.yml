@@ -1,0 +1,40 @@
+kind: journey
+slug: proposing-a-clinical-product
+title: Proposing a Clinical Product
+stakeholder: surgeon
+summary: A surgeon's path from a request for a new or changed product to a decided standard, in which clinical judgement and total
+  cost are weighed together and the decision is explained.
+stages:
+- slug: raise-the-request
+  title: Raise the Request
+  goal: The clinical need, the evidence, the expected volume and any ties to the supplier are stated once, in a request that receives
+    an answer within a known time.
+  step: category-and-supplier-management/clinical-product-evaluation
+  touchpoints:
+  - new-product-request
+- slug: evaluate-in-practice
+  title: Evaluate in Practice
+  goal: Candidate products are tried in real cases with the supplier's instruction, and the team's structured judgement counts in
+    the decision.
+  step: category-and-supplier-management/clinical-product-evaluation
+  touchpoints:
+  - product-trial
+- slug: take-part-in-the-decision
+  title: Take Part in the Decision
+  goal: The standard is decided with clinical representation, and its reasons are explained to the requesting department.
+  step: category-and-supplier-management/assortment-standardisation
+  touchpoints:
+  - clinical-product-committee
+- slug: convert-to-the-standard
+  title: Convert to the Standard
+  goal: The chosen product is on the preference lists and shelves from a known date, with instruction for the whole team.
+  step: category-and-supplier-management/assortment-standardisation
+  touchpoints:
+  - ordering-catalogue
+  - operating-theatre
+- slug: report-product-problems
+  title: Report Product Problems
+  goal: Defects and delivery failures the team reports are raised in the supplier review and lead to correction.
+  step: category-and-supplier-management/supplier-performance-review
+  touchpoints:
+  - supplier-review-meeting

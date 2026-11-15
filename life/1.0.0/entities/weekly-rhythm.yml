@@ -1,0 +1,39 @@
+kind: entity
+slug: weekly-rhythm
+title: Weekly Rhythm
+type: governance
+summary: How the week is laid out across everything this life carries — work, family, body, practice, recovery, the commons. The resolution
+  at which competition between the families is actually visible.
+attributes:
+- name: shape-of-the-week
+  type: text
+  card: 1..1
+- name: standing-places
+  type: text
+  card: 1..*
+- name: fixed
+  type: text
+  card: 0..*
+- name: rest
+  type: text
+  card: 0..*
+- name: share-of-each-venture
+  type: text
+  card: 0..*
+- name: designed-on
+  type: date
+  card: 1..1
+- name: last-redrawn
+  type: date
+  card: 0..1
+states:
+- sketched
+- holding
+- crowded
+- slipping
+- redrawn
+relations:
+- target: life-blueprint
+  type: part-of
+- target: venture-portfolio
+  type: based-on

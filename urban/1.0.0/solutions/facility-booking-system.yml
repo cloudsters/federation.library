@@ -1,0 +1,22 @@
+kind: solution
+slug: facility-booking-system
+title: Facility Booking System
+role: system-of-engagement
+summary: Lets residents and community bodies book rooms in community centres, libraries and school buildings free of charge, holds
+  the shared-use agreements with their hours, rules and keys, and records the community events held.
+carries:
+- community-space-provision
+- shared-use-agreement-drafting
+- neighbourhood-encounter-support
+- facility-booking
+- community-media-space-provision
+- shared-business-facility-provision
+holds:
+- community-centre
+- school
+- shared-use-agreement
+- community-event
+- facility-booking
+- sports-facility
+- play-space
+- shared-business-facility

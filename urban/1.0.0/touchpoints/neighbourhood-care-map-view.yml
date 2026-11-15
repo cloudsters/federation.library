@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: neighbourhood-care-map-view
+title: Neighbourhood Care Map View
+medium: artefact
+summary: The shared map of the care already given and the gaps no one covers, showing only what those named consented to.
+exchanges:
+- care-gaps-for-targeted-help
+journey: caregiver-sharing-the-work-of-care

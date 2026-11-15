@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: drug-and-therapeutics-committee
+title: Drug and Therapeutics Committee
+medium: encounter
+summary: The committee of physicians and pharmacists that decides which medicines enter the formulary, with which restrictions and
+  preferred alternatives, and reviews their use.
+exchanges:
+- formulary-appraisal-for-prescribing
+- formulary-adherence-for-secure-supply
+journey: evidence-into-daily-practice

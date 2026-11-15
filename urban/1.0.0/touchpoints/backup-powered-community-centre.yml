@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: backup-powered-community-centre
+title: Backup-Powered Community Centre
+medium: place
+summary: A community centre kept running by a neighbourhood battery or backup when power or heat fails, where residents keep warm,
+  charge devices and get word of when supply returns.
+exchanges:
+- outage-reports-for-restoration-of-the-vulnerable-first
+journey: tenant-getting-a-warm-and-affordable-home

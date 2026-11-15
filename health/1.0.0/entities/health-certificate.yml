@@ -1,0 +1,51 @@
+kind: entity
+slug: health-certificate
+title: Health Certificate
+type: transactional
+summary: A certificate the organisation issues about a person's health matter for a third party, such as incapacity for work, fitness,
+  cause of death or a medical opinion, with its issuer and validity.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: certificate-kind
+  type: code
+  card: 1..1
+- name: issued-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+- name: validity
+  type: period
+  card: 0..1
+- name: addressed-to
+  type: reference(organisation)
+  card: 0..1
+- name: content
+  type: document
+  card: 1..1
+states:
+- draft
+- issued
+- revoked
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

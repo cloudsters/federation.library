@@ -1,0 +1,36 @@
+kind: entity
+slug: channel
+title: Channel
+type: master
+summary: A route through which value reaches the market — the link between proposition and customer, whether digital, physical, or through
+  partners.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: channel-type
+  type: code
+  card: 1..1
+- name: performance-metrics
+  type: reference(kpi)
+  card: 0..*
+- name: products
+  type: reference(product)
+  card: 0..*
+- name: partners
+  type: reference(partner-organisation)
+  card: 0..*
+states:
+- designed
+- launched
+- optimised
+- phased-out
+relations:
+- type: refers-to
+  target: product
+- type: depends-on
+  target: partner-organisation
+- type: refers-to
+  target: touchpoint
+- type: refers-to
+  target: sales-order

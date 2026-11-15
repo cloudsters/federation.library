@@ -1,0 +1,32 @@
+kind: journey
+slug: staff-representative-shaping-the-workforce-plan
+title: Staff Representative Shaping the Workforce Plan
+stakeholder: staff-representative
+summary: A staff representative agrees the timetable and the questions of the plan, checks that the count includes contracted workers,
+  volunteers and agents, gives the staff's view on how gaps are closed and is consulted before the council approves.
+stages:
+- slug: agree-the-timetable-and-questions
+  title: Agree the Timetable and Questions
+  goal: The representative has agreed with the personnel function when the plan is drawn up and which questions it answers.
+  step: municipal-workforce-planning/planning-mandate
+  touchpoints:
+  - workforce-planning-consultation
+- slug: check-the-count
+  title: Check the Count
+  goal: The baseline counts contracted workers, volunteers and agents beside staff, so that no one's work goes unseen.
+  step: municipal-workforce-planning/workforce-baseline
+  touchpoints:
+  - workforce-baseline-report
+- slug: speak-for-staff-on-the-gaps
+  title: Speak for Staff on the Gaps
+  goal: The staff's view on internal moves, shared staff and the work given to agents is part of the plan's choices.
+  step: municipal-workforce-planning/gap-closure-design
+  touchpoints:
+  - workforce-planning-consultation
+- slug: be-consulted-before-approval
+  title: Be Consulted Before Approval
+  goal: The representatives' opinion on the draft plan is given in good time and put before the council with it.
+  step: municipal-workforce-planning/plan-approval
+  touchpoints:
+  - workforce-planning-consultation
+  - personnel-committee-meeting

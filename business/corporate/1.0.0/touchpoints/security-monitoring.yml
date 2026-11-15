@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: security-monitoring
+title: Security Monitoring
+medium: channel
+summary: The continuous observation of systems for threats, anomalies and weaknesses, from which incidents are detected and handled.
+exchanges:
+- risk-picture-for-an-accepted-level-of-risk
+journey: security-lead-building-the-digital-immune-system

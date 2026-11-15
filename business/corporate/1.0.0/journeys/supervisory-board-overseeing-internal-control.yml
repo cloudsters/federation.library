@@ -1,0 +1,26 @@
+kind: journey
+slug: supervisory-board-overseeing-internal-control
+title: Supervisory Board Overseeing Internal Control
+stakeholder: supervisory-board
+summary: The supervisory board sets the responsibilities for control, receives the findings of internal audit and judges the effectiveness
+  of internal control each year.
+stages:
+- slug: set-the-responsibilities
+  title: Set the Responsibilities
+  goal: Responsibilities of board, management and staff for internal control are stated.
+  step: internal-integrity-controls/control-framework-design
+  touchpoints:
+  - supervisory-board-meeting
+- slug: receive-the-diagnosis
+  title: Receive the Diagnosis
+  goal: The board receives internal audit's findings directly and unfiltered.
+  step: internal-integrity-controls/internal-audit-review
+  touchpoints:
+  - supervisory-board-meeting
+  - internal-audit-report
+- slug: judge-the-effectiveness
+  title: Judge the Effectiveness
+  goal: The board judges whether internal control is effective and what must improve.
+  step: internal-integrity-controls/control-effectiveness-reporting
+  touchpoints:
+  - supervisory-board-meeting

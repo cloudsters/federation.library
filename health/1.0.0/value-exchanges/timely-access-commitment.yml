@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: timely-access-commitment
+title: Timely Access Commitment
+between:
+- administrative-staff
+- elective-inpatient
+offered:
+- A place on the list with a due date under the access standard, regular information on the expected date, and another provider when
+  the standard cannot be met.
+returned:
+- Prompt notice of changes in condition or availability, acceptance of offered dates, and timely cancellation that frees slots for
+  others.
+touchpoint: patient-portal

@@ -1,0 +1,33 @@
+kind: solution
+slug: enterprise-architecture-repository
+title: Enterprise Architecture Repository
+role: system-of-insight
+summary: Models the organisation's capabilities, processes, information, applications and interfaces as one connected landscape,
+  and supports application portfolio decisions, solution design and the lifecycle of every system.
+carries:
+- enterprise-architecture-management
+- layered-information-system-model
+- system-landscape-twin
+- information-architecture
+- solution-architecture
+- application-portfolio-management
+- interoperability-map
+- technology-strategy-and-governance
+- it-portfolio-and-value-management
+- digital-maturity-assessment
+- solution-lifecycle-planning
+- clinical-information-system-lifecycle
+- internal-capability-sensing
+- process-governance
+- process-definition
+holds: []
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

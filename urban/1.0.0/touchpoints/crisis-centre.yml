@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: crisis-centre
+title: Crisis Centre
+medium: place
+summary: The room from which the crisis team commands the response, keeps the shared picture and records each emergency decision.
+exchanges:
+- bounded-powers-for-recorded-command
+- response-capacity-for-coordinated-command
+journey: mayor-steering-the-city-through-an-emergency

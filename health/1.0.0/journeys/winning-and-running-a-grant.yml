@@ -1,0 +1,44 @@
+kind: journey
+slug: winning-and-running-a-grant
+title: Winning and Running a Grant
+stakeholder: clinician-scientist
+summary: The clinician scientist's path from a funding idea to a closed grant, supported by the grant office at every stage.
+stages:
+- slug: find-a-fitting-call
+  title: Find a Fitting Call
+  goal: Relevant calls reach the researcher early enough to prepare a competitive application.
+  step: research-funding/funding-opportunity-scouting
+  touchpoints:
+  - research-funding-advice
+- slug: submit-the-proposal
+  title: Submit the Proposal
+  goal: A competitive proposal with a correct full-cost budget is submitted on time without administrative friction.
+  step: research-funding/application-preparation-and-submission
+  touchpoints:
+  - funding-proposal
+  - research-funding-advice
+- slug: sign-the-award
+  title: Sign the Award
+  goal: Terms, rights and budget are negotiated by experts, and the agreement is signed quickly.
+  step: research-funding/award-negotiation-and-contracting
+  touchpoints:
+  - grant-agreement
+- slug: start-the-project
+  title: Start the Project
+  goal: Cost centre, budget and positions are ready when the project starts.
+  step: research-funding/grant-set-up
+  touchpoints:
+  - research-funding-advice
+- slug: spend-by-the-rules
+  title: Spend by the Rules
+  goal: The researcher sees the grant's budget position at any time and is warned before a funder rule is broken.
+  step: research-funding/grant-spending-and-compliance
+  touchpoints:
+  - research-funding-advice
+- slug: report-and-close
+  title: Report and Close
+  goal: Reports are accepted by the funder, and the outputs are attributed to the grant.
+  step: research-funding/reporting-and-close-out
+  touchpoints:
+  - use-of-funds-statement
+  - scientific-publication

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: neighbourhood-resilience-point
+title: Neighbourhood Resilience Point
+medium: place
+summary: A community place in a neighbourhood that holds a mesh network node, local copies of essential information and backup power,
+  and stays open when central systems fail.
+exchanges:
+- host-place-for-pre-placed-fallbacks
+- mesh-network-for-a-role-in-the-plan
+- incident-notice-for-protective-steps
+journey: neighbourhood-association-keeping-essential-services-working-offline

@@ -1,0 +1,23 @@
+kind: body
+slug: executive-board
+title: Executive Board
+summary: 'Runs the enterprise and answers for the direction of the whole: sets strategy within the mandate, allocates resources, appoints
+  management and represents the enterprise. A commons names it executive board, management board or managing directors.'
+holds:
+- strategy-and-governance
+- offering-and-innovation
+- market-and-customer
+- operations-and-fulfilment
+- sourcing-and-suppliers
+- assets-and-facilities
+- quality-safety-and-sustainability
+- people-and-workforce
+- finance-and-funding
+- digital-and-data
+part_of: governing-board
+type: board
+form: governing-body
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global

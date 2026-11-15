@@ -1,0 +1,24 @@
+kind: solution
+slug: health-safety-and-environment-system
+title: Health, Safety and Environment System
+role: system-of-record
+summary: Holds risk assessments, hazardous substances, incidents and near misses, inspections, permits and environmental data, and
+  tracks the measures that keep people and surroundings safe.
+carries:
+- ehs-performance-sensing
+- hazardous-waste-management
+- harm-cause-investigation
+- emergency-and-disaster-preparedness
+- safety-training
+- occupational-health-service
+- hazardous-substance-safety
+- fire-safety
+- contractor-safety-management
+- incident-reporting-and-learning
+- return-to-work-management
+- emissions-and-pollution-control
+- waste-prevention-and-reuse
+holds:
+- incident
+- permit
+- environmental-footprint

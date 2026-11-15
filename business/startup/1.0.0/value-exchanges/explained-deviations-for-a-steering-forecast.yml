@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: explained-deviations-for-a-steering-forecast
+title: Explained Deviations for a Steering Forecast
+between:
+- site-manager
+- finance-professional
+offered:
+- Explanations of every material deviation and the corrective action the unit will take.
+returned:
+- An updated forecast and reports the unit can steer by.
+touchpoint: management-report

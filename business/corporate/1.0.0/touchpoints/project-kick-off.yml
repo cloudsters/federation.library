@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: project-kick-off
+title: Project Kick-Off
+medium: encounter
+summary: The first meeting of a customer project in which sales hands over what was promised and the customer and the project team
+  agree scope, deliverables, schedule, roles and risks.
+exchanges:
+- requirements-for-a-fitting-design
+journey: customer-commissioning-a-project

@@ -1,0 +1,36 @@
+kind: entity
+slug: attendance
+title: Attendance
+type: transactional
+summary: 'The simplest signal of presence — a daily record of when a participant arrived and departed. Unlike a timesheet (which tracks
+  effort against tasks), attendance is the binary truth of being here. Simple, but foundational for care: a commons cannot support
+  people it does not know are present.'
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: attendance-date
+  type: date
+  card: 1..1
+- name: check-in
+  type: datetime
+  card: 1..1
+- name: check-out
+  type: datetime
+  card: 0..1
+- name: hours
+  type: quantity
+  card: 0..1
+- name: status
+  type: code
+  card: 1..1
+states:
+- opened
+- closed
+- regularised
+- posted
+relations:
+- type: refers-to
+  target: leave-request
+- type: refers-to
+  target: payslip

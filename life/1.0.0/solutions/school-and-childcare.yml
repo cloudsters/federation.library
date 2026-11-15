@@ -1,0 +1,9 @@
+kind: solution
+slug: school-and-childcare
+title: School and Childcare
+role: institution
+sovereignty: third-party
+summary: Carries a child's daily care and teaching for a large part of the week, alongside those raising the child.
+carries:
+- taking-up-care
+holds: []

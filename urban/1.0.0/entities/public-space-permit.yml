@@ -1,0 +1,69 @@
+kind: entity
+slug: public-space-permit
+title: Public Space Permit
+type: transactional
+summary: Permission to use a public space or road for an event, a market, a stage, a play street or another use, covering space, food,
+  sound and safety in one permit with its conditions. The administration issues it within a set time, checks it during the use and
+  closes it when the space is restored.
+attributes:
+- name: permit-number
+  type: identifier
+  card: 1..1
+- name: holder
+  type: text
+  card: 1..1
+- name: use-kind
+  type: code
+  card: 1..1
+- name: places
+  type: reference(public-space|park|street)
+  card: 1..*
+- name: permit-period
+  type: period
+  card: 1..1
+- name: hours
+  type: text
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..*
+- name: sound-limits
+  type: text
+  card: 0..1
+- name: safety-plan
+  type: reference(event-safety-plan)
+  card: 0..1
+- name: fee
+  type: amount
+  card: 0..1
+- name: application
+  type: reference(event-application)
+  card: 0..1
+- name: issued-on
+  type: date
+  card: 0..1
+states:
+- applied
+- assessed
+- granted
+- in-use
+- closed
+- refused
+- revoked
+relations:
+- type: based-on
+  target: event-application
+- type: governed-by
+  target: noise-regulation
+- type: governed-by
+  target: bylaw
+- type: depends-on
+  target: event-safety-plan
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: street
+binds:
+- source: src-268
+  edition: '2020-09-17'
+  jurisdiction: global

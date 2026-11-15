@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: operating-list
+title: Operating List
+medium: artefact
+summary: The published sequence of operations per theatre and day, with patient, procedure, team, expected duration and special requirements,
+  against which every department prepares.
+exchanges:
+- complete-booking-for-a-ready-slot
+- schedule-proposal-for-approval
+journey: surgeon-theatre-journey

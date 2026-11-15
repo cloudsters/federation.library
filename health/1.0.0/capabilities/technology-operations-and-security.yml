@@ -1,0 +1,16 @@
+kind: capability
+slug: technology-operations-and-security
+title: Technology Operations & Security
+level: L1
+parent: digital-and-data
+summary: Running, protecting and recovering the technology on which care depends.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

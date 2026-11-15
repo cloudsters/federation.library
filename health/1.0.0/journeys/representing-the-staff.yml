@@ -1,0 +1,46 @@
+kind: journey
+slug: representing-the-staff
+title: Representing the Staff
+stakeholder: staff-representation
+summary: Elected staff representatives bring the staff's concerns to management, consult and negotiate on their behalf, and see that
+  what is agreed is carried out.
+stages:
+- slug: raise-the-matter
+  title: Raise the Matter
+  goal: Bring a concern or a co-determined matter to management early and have it registered.
+  step: employee-relations-and-retention/matter-intake
+  touchpoints:
+  - staff-consultation
+- slug: gather-the-staff-view
+  title: Gather the Staff View
+  goal: Know what staff experience and want before negotiating.
+  step: employee-relations-and-retention/listening-and-analysis
+  touchpoints:
+  - staff-assembly
+  - staff-survey-questionnaire
+- slug: consult-and-negotiate
+  title: Consult and Negotiate
+  goal: Receive complete information in time and negotiate on equal footing.
+  step: employee-relations-and-retention/consultation-and-negotiation
+  touchpoints:
+  - staff-consultation
+- slug: conclude-an-agreement
+  title: Conclude an Agreement
+  goal: Reach an agreement that staff accept and management honours.
+  step: employee-relations-and-retention/agreement-or-resolution
+  touchpoints:
+  - collective-agreement
+  - staff-consultation
+- slug: see-it-carried-out
+  title: See It Carried Out
+  goal: See the agreement applied in rosters, pay and policies, and all staff informed.
+  step: employee-relations-and-retention/implementation-and-communication
+  touchpoints:
+  - staff-assembly
+  - intranet
+- slug: review-the-partnership
+  title: Review the Partnership
+  goal: Judge with management whether the measures and the partnership work.
+  step: employee-relations-and-retention/relations-review
+  touchpoints:
+  - staff-consultation

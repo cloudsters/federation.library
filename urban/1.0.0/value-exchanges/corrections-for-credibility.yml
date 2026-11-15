@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: corrections-for-credibility
+title: Corrections for Credibility
+between:
+- news-media
+- communications-officer
+offered:
+- Outlets' reports of where accounts of the city, its own included, are false or mistaken.
+returned:
+- A correction placed as prominently as the account it corrects.
+touchpoint: published-correction-notice

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: discharge-letter-for-continued-care
+title: Discharge Letter for Continued Care
+between:
+- specialist-physician
+- referring-practice
+offered:
+- The discharge letter and medication plan on the day of discharge, with pending results and recommendations.
+returned:
+- Continued prescribing and follow-up of open points in general practice, and feedback on how useful the letter was.
+touchpoint: discharge-letter

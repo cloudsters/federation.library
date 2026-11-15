@@ -1,0 +1,89 @@
+kind: value-stream
+slug: service-delivery-governance
+title: Service Delivery Governance
+family: demand-to-fulfillment
+summary: 'Setting the rules under which services are promised and delivered: the service strategy, the standards and levels of each
+  service, the agreements with customers, and the review of delivered quality against what was promised.'
+trigger: A service is introduced or changed, or delivery performance falls short of agreed levels.
+outcome: Every service has defined levels, rules and an owner, and its performance is reviewed against commitments.
+stakeholders:
+- business-customer
+- consumer
+- product-manager
+- quality-manager
+- field-service-technician
+- customer-service-representative
+steps:
+- slug: service-strategy
+  title: Service Strategy
+  summary: It is decided which services are offered to whom, through which delivery models, on site, remote, in a workshop or self-service,
+    and which are delivered internal or with partners.
+  capabilities:
+  - service-strategy-design
+  entities:
+  - service
+  - strategy
+  - market-segment
+  serves:
+  - board-meeting
+  - service-catalogue
+- slug: service-standards-and-levels
+  title: Service Standards and Levels
+  summary: For each service the standards, response and resolution levels, escalation paths and definition of done are set and given
+    an owner, so that every service promise can be kept.
+  capabilities:
+  - service-strategy-design
+  - quality-standard-design
+  entities:
+  - service-level-agreement
+  - quality-standard
+  - service
+  - policy
+  serves:
+  - intranet
+  - service-standard
+- slug: service-agreement-administration
+  title: Service Agreement Administration
+  summary: Service and maintenance agreements are concluded, administered and renewed with their entitlements and levels, so that
+    delivery knows what each customer is owed.
+  capabilities:
+  - service-contract-management
+  entities:
+  - contract
+  - service-level-agreement
+  - subscription
+  - customer
+  serves:
+  - contract-negotiation
+  - service-agreement
+- slug: delivery-performance-monitoring
+  title: Delivery Performance Monitoring
+  summary: Delivered services are measured continuously against their levels, breaches are escalated along the agreed path, and customers
+    are kept informed.
+  capabilities:
+  - service-quality-assurance
+  entities:
+  - kpi
+  - measure-report
+  - service-order
+  - complaint
+  serves:
+  - customer-portal
+  - service-hotline
+  - service-level-report
+- slug: service-quality-review
+  title: Service Quality Review
+  summary: Delivered services are reviewed through checks, audits and customer evidence at a fixed cadence, gaps are corrected, and
+    standards, levels and strategy are updated from what was learned.
+  capabilities:
+  - service-quality-assurance
+  - service-strategy-design
+  entities:
+  - audit
+  - audit-finding
+  - customer-satisfaction-score
+  - non-conformance
+  serves:
+  - account-review
+  - customer-feedback-survey
+  - service-audit

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: complaint-investigation-hearing
+title: Complaint Investigation Hearing
+medium: encounter
+summary: The hearing in which an officer not involved in the matter, or the ombudsman, hears the complainant and the staff concerned
+  and examines the records, including the working of any automated system.
+exchanges:
+- account-of-events-for-a-fair-hearing
+- staff-account-for-a-fair-investigation
+- unresolved-complaint-for-independent-review
+journey: resident-complaining-about-a-broken-promise

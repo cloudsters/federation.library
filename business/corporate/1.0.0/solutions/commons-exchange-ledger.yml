@@ -1,0 +1,25 @@
+kind: solution
+slug: commons-exchange-ledger
+title: Commons Exchange Ledger
+role: system-of-record
+summary: Records intents, agent-to-agent negotiations, contributions and value tokens exchanged between commons instances, with the
+  trust scores and credentials that admit a party to exchange.
+carries:
+- autonomous-procurement
+- commons-exchange-protocol
+- dark-capacity-activation
+- intent-broadcasting
+- liquid-capacity-matching
+- shadow-commons-detection
+- trust-architecture
+- value-exchange-calibration
+holds:
+- need-intent
+- offer-intent
+- a2a-handshake
+- contribution-proof
+- value-token
+- trust-score
+- verifiable-credential
+- intent-signal
+- shadow-commons-signal

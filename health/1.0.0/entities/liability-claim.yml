@@ -1,0 +1,48 @@
+kind: entity
+slug: liability-claim
+title: Liability Claim
+type: transactional
+summary: A claim for compensation made against the organisation for harm allegedly caused in care, handled with the liability
+  insurer through investigation, expert opinion and settlement or court decision.
+attributes:
+- name: claimant-kind
+  type: code
+  card: 1..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: alleged-harm
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: insurer
+  type: reference(organisation)
+  card: 0..1
+- name: reserve
+  type: amount
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- received
+- under-investigation
+- in-negotiation
+- in-litigation
+- settled
+- rejected
+- closed
+relations:
+- type: refers-to
+  target: incident
+- type: refers-to
+  target: adverse-event
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

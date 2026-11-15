@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: care-gap-review-circle
+title: Care Gap Review Circle
+medium: encounter
+summary: The circle in which those who use care, carers, care workers and the members of the network review where people fell between
+  services or waited too long, and agree changes.
+exchanges:
+- care-work-knowledge-for-changed-conditions
+- gap-accounts-for-a-changed-network
+journey: social-worker-joining-care-around-a-person

@@ -1,0 +1,10 @@
+kind: capability
+slug: data-lifecycle-management
+title: Data Lifecycle Management
+level: L3
+parent: data-governance
+summary: Manage data from creation and storage to archiving and deletion.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global

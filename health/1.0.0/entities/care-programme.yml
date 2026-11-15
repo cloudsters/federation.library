@@ -1,0 +1,51 @@
+kind: entity
+slug: care-programme
+title: Care Programme
+type: master
+summary: A defined programme of care, prevention or screening for a target population, such as an integrated care programme for a
+  chronic condition or a screening programme, with eligibility, interventions, partners, funding and outcome measures.
+attributes:
+- name: programme-kind
+  type: code
+  card: 1..1
+- name: target-population
+  type: text
+  card: 1..1
+- name: eligibility-criteria
+  type: text
+  card: 1..1
+- name: interventions
+  type: text
+  card: 1..1
+- name: partners
+  type: reference(organisation)
+  card: 0..*
+- name: care-pathway
+  type: reference(care-pathway)
+  card: 0..1
+- name: funding
+  type: reference(payer-agreement)
+  card: 0..1
+- name: outcome-measures
+  type: reference(measure)
+  card: 1..*
+states:
+- planned
+- enrolling
+- running
+- under-evaluation
+- closed
+relations:
+- type: based-on
+  target: care-pathway
+- type: governed-by
+  target: contract
+- type: refers-to
+  target: catchment-population
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

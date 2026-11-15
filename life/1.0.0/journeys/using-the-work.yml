@@ -1,0 +1,34 @@
+kind: journey
+slug: using-the-work
+title: Using the Work
+stakeholder: client
+via: discovery-to-usage
+summary: A client is watched using the work, asked what got in the way, receives a changed version, and stays in a loop of listening
+  that does not close.
+stages:
+- slug: be-watched-using-it
+  title: Be Watched Using It
+  goal: What the client actually does with the work, including what they skip, has been seen first hand.
+  step: use-to-refinement/watching-it-in-use
+  touchpoints:
+  - watching-someone-use-it
+- slug: be-asked-what-hindered
+  title: Be Asked What Hindered
+  goal: The client has been asked what they used it for, what got in the way and what they did instead.
+  step: use-to-refinement/asking-those-who-use-it
+  touchpoints:
+  - client-meeting
+  - watching-someone-use-it
+- slug: receive-the-change
+  title: Receive the Change
+  goal: A changed version has been put back in the client's hands.
+  step: use-to-refinement/changing-the-work
+  touchpoints:
+  - the-delivery
+  - published-work
+- slug: stay-in-the-loop
+  title: Stay in the Loop
+  goal: The client's use keeps being listened to as a standing habit, not a one-off.
+  step: use-to-refinement/keeping-the-loop-open
+  touchpoints:
+  - replies-and-comments

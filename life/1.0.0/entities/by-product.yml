@@ -1,0 +1,35 @@
+kind: entity
+slug: by-product
+title: By-Product
+type: transactional
+summary: A result nobody planned that arrived on the way to something else — a relationship, a capability, an opening, a piece of
+  understanding. Often worth more than the goal that produced it, and invisible to every other record here, all of which hold only
+  what was intended.
+attributes:
+- name: what
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: arrived-on
+  type: date
+  card: 0..1
+- name: on-the-way-to
+  type: reference(intention)
+  card: 0..1
+- name: kept-how
+  type: text
+  card: 0..1
+- name: outweighed-the-goal
+  type: boolean
+  card: 0..1
+states:
+- unnoticed
+- noticed
+- kept
+- put to use
+- lost
+relations:
+- target: intention
+  type: based-on

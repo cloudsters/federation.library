@@ -1,0 +1,40 @@
+kind: entity
+slug: interest-declaration
+title: Interest Declaration
+type: transactional
+summary: A staff member's declaration of a relationship that may conflict with their duties, such as a side activity, a shareholding,
+  a family tie to a supplier or gifts from business partners, assessed and accepted, conditioned or refused.
+attributes:
+- name: declarant
+  type: reference(employee-record)
+  card: 1..1
+- name: interest-kind
+  type: code
+  card: 1..1
+- name: counterparty
+  type: reference(counterparty)
+  card: 0..1
+- name: value
+  type: amount
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+- name: assessment
+  type: code
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..1
+states:
+- declared
+- under-assessment
+- accepted
+- accepted-with-conditions
+- refused
+- ended
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: counterparty

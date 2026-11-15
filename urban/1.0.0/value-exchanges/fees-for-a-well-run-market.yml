@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fees-for-a-well-run-market
+title: Fees for a Well-Run Market
+between:
+- market-vendor
+- city-administration
+offered:
+- The fees the rules set for each market day.
+returned:
+- A market set up, run, checked and cleared safely.
+touchpoint: market-day-stall

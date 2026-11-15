@@ -1,0 +1,35 @@
+kind: journey
+slug: paying-for-care-directly
+title: Paying for Care Directly
+stakeholder: self-paying-patient
+summary: The path of a patient who pays for care personally, from the estimate before treatment to a settled bill.
+stages:
+- slug: receive-a-cost-estimate
+  title: Receive a Cost Estimate
+  goal: Before treatment the patient knows what will be charged, what a payer covers and what they will pay themselves.
+  step: revenue-cycle/coverage-verification-and-approval
+  touchpoints:
+  - admission-desk
+  - cost-estimate
+  - patient-portal
+- slug: receive-the-bill
+  title: Receive the Bill
+  goal: A correct, itemised and understandable bill arrives promptly after care.
+  step: revenue-cycle/claim-preparation-and-billing
+  touchpoints:
+  - patient-invoice
+  - patient-portal
+- slug: pay-the-bill
+  title: Pay the Bill
+  goal: Paying is simple through the patient's preferred channel, and the payment is confirmed.
+  step: revenue-cycle/payment-posting-and-receivables
+  touchpoints:
+  - patient-billing-service
+  - patient-portal
+- slug: agree-payment-terms
+  title: Agree Payment Terms
+  goal: A patient who cannot pay at once agrees a fair plan instead of facing escalating reminders.
+  step: revenue-cycle/collections-and-write-off
+  touchpoints:
+  - patient-billing-service
+  - patient-invoice

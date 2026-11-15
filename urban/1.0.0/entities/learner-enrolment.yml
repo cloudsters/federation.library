@@ -1,0 +1,59 @@
+kind: entity
+slug: learner-enrolment
+title: Learner Enrolment
+type: transactional
+summary: A resident's enrolment in a learning offer, from request to completion, with the help they need to take part. The partner
+  running the offer records it, and enrolments are counted in the learning outcome review.
+attributes:
+- name: offer
+  type: reference(learning-offer)
+  card: 1..1
+- name: learner
+  type: identifier
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: enrolled-on
+  type: date
+  card: 1..1
+- name: support-needed
+  type: code
+  card: 0..*
+- name: fee-charged
+  type: amount
+  card: 0..1
+- name: fee-reduction
+  type: reference(entitlement-decision)
+  card: 0..1
+- name: sessions-attended
+  type: integer
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: credential
+  type: reference(skill-recognition)
+  card: 0..1
+- name: pathway
+  type: reference(learning-pathway)
+  card: 0..1
+states:
+- requested
+- enrolled
+- attending
+- completed
+- withdrawn
+relations:
+- type: part-of
+  target: learning-offer
+- type: part-of
+  target: learning-pathway
+- type: refers-to
+  target: entitlement-decision
+- type: produces
+  target: skill-recognition
+binds:
+- source: src-253
+  edition: '2015-11-13'
+  jurisdiction: global

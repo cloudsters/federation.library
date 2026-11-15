@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: material-audit-for-salvage-planning
+title: Material Audit for Salvage Planning
+between:
+- asset-officer
+- salvage-cooperative
+offered:
+- The audit of materials, hazards and order of disassembly, recorded in the material passport.
+returned:
+- The cooperative's plan of what can be salvaged and how, with its price for the work.
+touchpoint: pre-demolition-audit-walk

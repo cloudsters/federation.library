@@ -1,0 +1,23 @@
+id: configuration
+term: Configuration
+layer: what
+kind: concept
+definition: 'What a commons'' models are made of at a revision: the models it installs and the origin each record of its
+  runtime names, changed only by decision, every revision of `main` being one.'
+why: 'With the taking dissolved (Holger, commons.o#109, comment 6602880861), a configuration is no selection of its own:
+  installing and building are its acts, and what no record names stays on the shelf. In German, Konfiguration.'
+relations:
+  gathers:
+  - install
+  - build
+  sets: usage
+not:
+- the settings of a CORE
+- a selection from an offer, its earlier reading
+- a profile; a target environment such as boot, local or federated is none, and a commons' mode of access is its shells
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); earlier 2026-10-30,
+    commons.o#107, comment 6519835234: Adopted 30 October 2026 (step 1 of the bill of materials)'

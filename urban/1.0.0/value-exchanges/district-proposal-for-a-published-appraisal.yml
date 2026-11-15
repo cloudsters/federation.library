@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: district-proposal-for-a-published-appraisal
+title: District Proposal for a Published Appraisal
+between:
+- property-developer
+- city-planner
+offered:
+- A proposal for a district with its reasons and a first view of the land.
+returned:
+- An appraisal against the spatial plan and the strategy, published with its reasons.
+touchpoint: district-proposal-form

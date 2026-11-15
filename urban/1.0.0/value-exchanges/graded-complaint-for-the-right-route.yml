@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: graded-complaint-for-the-right-route
+title: Graded Complaint for the Right Route
+between:
+- resident
+- city-administration
+offered:
+- The complaint as told, with what the complainant wants put right.
+returned:
+- A route chosen by seriousness, told to the complainant, so that small matters are put right at once and serious ones investigated.
+touchpoint: complaint-grading-meeting

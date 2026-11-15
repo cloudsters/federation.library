@@ -1,0 +1,63 @@
+kind: entity
+slug: business-support-review
+title: Business Support Review
+type: intelligence
+summary: The review of which supported enterprises survive after one, three and five years, the work and income they hold and whom
+  the support reached. The business support service prepares it from its cases and the city's economic indicators, and it is used
+  to change the support offer and the groups and neighbourhoods it reaches.
+attributes:
+- name: review-period
+  type: period
+  card: 1..1
+- name: cohort
+  type: text
+  card: 1..1
+- name: enterprises-supported
+  type: integer
+  card: 1..1
+- name: surviving-after-one-year
+  type: integer
+  card: 0..1
+- name: surviving-after-three-years
+  type: integer
+  card: 0..1
+- name: surviving-after-five-years
+  type: integer
+  card: 0..1
+- name: jobs-held
+  type: integer
+  card: 0..1
+- name: income-held
+  type: amount
+  card: 0..1
+- name: reach-by-group
+  type: text
+  card: 0..*
+- name: reach-by-neighbourhood
+  type: text
+  card: 0..*
+- name: changes-to-offer
+  type: text
+  card: 0..*
+- name: report
+  type: document
+  card: 1..1
+states:
+- planned
+- data-gathered
+- analysed
+- published
+- acted-on
+relations:
+- type: based-on
+  target: business-support-case
+- type: based-on
+  target: economic-indicators
+- type: refers-to
+  target: business-register
+- type: refers-to
+  target: incubator-programme
+binds:
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global

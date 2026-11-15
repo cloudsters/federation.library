@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: device-handover
+title: Device Handover
+medium: encounter
+summary: The handover of a configured device and working access to a person or site, with a short introduction.
+exchanges:
+- working-equipment-for-ready-work
+journey: unit-leader-agreeing-how-support-serves-the-site

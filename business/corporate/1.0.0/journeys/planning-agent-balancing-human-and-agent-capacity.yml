@@ -1,0 +1,26 @@
+kind: journey
+slug: planning-agent-balancing-human-and-agent-capacity
+title: Planning Agent Balancing Human and Agent Capacity
+stakeholder: operations-planning-agent
+summary: A planning agent proposes how the capacity of people and agents is spread across approved work, keeps the backlog and effort
+  records current and flags collisions to the people who decide.
+stages:
+- slug: propose-an-allocation
+  title: Propose an Allocation
+  goal: A capacity proposal matches skills and availability of people and agents to approved work and shows overload and idle capacity.
+  step: portfolio-programme-orchestration/capacity-allocation
+  touchpoints:
+  - capacity-plan
+- slug: keep-the-backlog-current
+  title: Keep the Backlog Current
+  goal: Effort and progress are recorded against every backlog item without extra work for the team.
+  step: portfolio-programme-orchestration/iterative-delivery
+  touchpoints:
+  - shared-backlog
+- slug: flag-collisions-for-decision
+  title: Flag Collisions for Decision
+  goal: Competing claims on the same people or agents are surfaced before each review, with options for the people who decide.
+  step: portfolio-programme-orchestration/progress-and-dependency-review
+  touchpoints:
+  - progress-review
+  - capacity-plan

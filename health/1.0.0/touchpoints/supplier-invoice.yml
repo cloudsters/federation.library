@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: supplier-invoice
+title: Supplier Invoice
+medium: artefact
+summary: The supplier's bill for delivered goods or services, received as a structured electronic document and matched with order
+  and receipt before payment.
+exchanges:
+- spending-approval-for-budget-view
+- delivery-for-on-time-payment
+journey: delivering-and-getting-paid

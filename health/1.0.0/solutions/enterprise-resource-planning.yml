@@ -1,0 +1,58 @@
+kind: solution
+slug: enterprise-resource-planning
+title: Enterprise Resource Planning
+role: system-of-record
+summary: 'Keeps the organisation''s books: general and asset accounting, cost centres, budgets and their control, payables
+  and receivables, payments, treasury, public and third-party funds, and the financial statements.'
+carries:
+- planning-and-budgeting
+- public-investment-funding
+- capital-planning
+- research-and-teaching-fund-allocation
+- budgetary-control-encumbrance
+- cost-accounting
+- responsibility-accounting
+- general-accounting
+- fixed-asset-accounting
+- capital-project-accounting
+- separated-activity-accounting
+- financial-close
+- financial-consolidation
+- intercompany-transaction-management
+- financial-reporting
+- tax-processing
+- cash-management
+- cash-flow-forecasting
+- banking-and-reconciliation
+- debt-and-investment-management
+- treasury-risk-management
+- accounts-payable
+- invoice-matching-verification
+- payment-run-orchestration
+- electronic-invoicing-compliance
+- expense-stewardship
+- fraud-and-dispute-management
+- accounts-receivable
+- dunning-and-collections
+- grant-award-administration
+- research-overhead-and-reinvestment
+- endowment-stewardship
+- foundation-management
+holds:
+- cost-centre
+- budget
+- invoice
+- payment
+- asset
+- public-funding-allocation
+- financial-statement
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

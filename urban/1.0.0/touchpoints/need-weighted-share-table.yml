@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: need-weighted-share-table
+title: Need-Weighted Share Table
+medium: artefact
+summary: The published table of each neighbourhood's share of the commons fund, weighted towards the greatest need, with the evidence
+  on which the weights rest.
+exchanges:
+- need-evidence-for-a-weighted-share
+journey: city-council-making-public-assets-yield-for-the-commons

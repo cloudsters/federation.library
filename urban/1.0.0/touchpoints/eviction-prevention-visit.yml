@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: eviction-prevention-visit
+title: Eviction Prevention Visit
+medium: encounter
+summary: A visit by a housing officer or social worker to a household at risk of eviction or arrears, to hear its circumstances, negotiate
+  with the landlord and link it to the support it is entitled to.
+exchanges:
+- early-warning-for-a-kept-home
+journey: housing-officer-assessing-need-and-keeping-homes

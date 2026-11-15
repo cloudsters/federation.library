@@ -1,0 +1,34 @@
+kind: journey
+slug: sharing-the-money
+title: Sharing the Money
+stakeholder: partner
+via: value-to-sustainability
+summary: The partner talks about money openly with this person, agrees what enough means for the household, and sees the money follow
+  what both care about rather than habit.
+stages:
+- slug: see-enough-named
+  title: See Enough Named
+  goal: The partner has seen the household's line of enough written down in terms of what it allows.
+  step: spending-to-enough/naming-enough
+  touchpoints:
+  - household-budget
+  - bank-app
+- slug: agree-at-home
+  title: Agree at Home
+  goal: The partner and the person have agreed out loud what enough means for their household.
+  step: spending-to-enough/agreeing-at-home
+  touchpoints:
+  - kitchen-table
+  - household-budget
+- slug: spend-on-what-matters
+  title: Spend on What Matters
+  goal: Time and experiences shared with the partner come before habit or comparison in what the household spends.
+  step: spending-to-enough/spending-on-what-matters
+  touchpoints:
+  - trip-together
+- slug: revisit-together
+  title: Revisit Together
+  goal: The line of enough is looked at again with the partner when the life changes, and moved if it no longer holds.
+  step: spending-to-enough/revisiting-enough
+  touchpoints:
+  - household-budget

@@ -1,0 +1,39 @@
+kind: entity
+slug: handover
+title: Handover
+type: transactional
+summary: The point something this person held passed to someone else — a role, a venture, a responsibility, a body of knowledge, a
+  home. What most models of a life leave out entirely, and the move a life is eventually judged on.
+attributes:
+- name: what
+  type: text
+  card: 1..1
+- name: to-whom
+  type: text
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: knowledge-passed
+  type: text
+  card: 0..*
+- name: way-in
+  type: text
+  card: 0..1
+- name: marked-by
+  type: reference(ritual)
+  card: 0..1
+- name: stepped-back
+  type: boolean
+  card: 0..1
+states:
+- foreseen
+- prepared
+- made
+- marked
+- let go
+relations:
+- target: mentee-relation
+  type: serves
+- target: will
+  type: based-on

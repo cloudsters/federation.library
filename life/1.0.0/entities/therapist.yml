@@ -1,0 +1,34 @@
+kind: entity
+slug: therapist
+title: Therapist or Coach
+type: master
+summary: A professional held in an ongoing working relation about this person's inner life or conduct. Paid, bounded and confidential
+  — which is exactly what lets it carry what the unpaid relations cannot.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: working-on
+  type: text
+  card: 1..*
+- name: since
+  type: date
+  card: 0..1
+- name: meets-every
+  type: duration
+  card: 0..1
+- name: fee
+  type: money
+  card: 0..1
+- name: sessions
+  type: list(session)
+  card: 0..*
+states:
+- sought
+- begun
+- working
+- paused
+- ended
+relations:
+- target: self
+  type: about

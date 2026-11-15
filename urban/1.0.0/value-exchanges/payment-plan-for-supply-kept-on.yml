@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: payment-plan-for-supply-kept-on
+title: Payment Plan for Supply Kept On
+between:
+- resident
+- infrastructure-operator
+offered:
+- The household's honest account of what it can pay and its keeping to the arrangement.
+returned:
+- The water and energy it needs for basic life kept flowing, and help with its income.
+touchpoint: household-utility-bill

@@ -1,0 +1,60 @@
+kind: entity
+slug: air-quality-index
+title: Air Quality Index
+type: intelligence
+summary: The continuous measurement of air quality across the city, including measurements made by residents themselves. The administration
+  keeps it from its own sensors and the stations residents run, each with its stated accuracy, and it is published and used for health
+  warnings, planning and the review of traffic and heating.
+attributes:
+- name: pollutants
+  type: code
+  card: 1..*
+- name: measuring-points
+  type: text
+  card: 1..*
+- name: sensors
+  type: reference(sensor)
+  card: 0..*
+- name: resident-stations
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: index-values
+  type: document
+  card: 1..1
+- name: measurement-period
+  type: period
+  card: 1..1
+- name: method
+  type: text
+  card: 0..1
+- name: stated-accuracy
+  type: text
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: last-updated
+  type: datetime
+  card: 1..1
+- name: published-as
+  type: reference(open-data-release)
+  card: 0..1
+states:
+- designed
+- measuring
+- validated
+- published
+- updated
+- retired
+relations:
+- type: based-on
+  target: data-set
+- type: refers-to
+  target: sensor
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-dashboard

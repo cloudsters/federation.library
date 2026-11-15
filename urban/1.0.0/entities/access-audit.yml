@@ -1,0 +1,69 @@
+kind: entity
+slug: access-audit
+title: Access Audit
+type: transactional
+summary: An audit of a service point, building, route or digital channel by residents who meet barriers, with its findings and the
+  dates by which each barrier will be removed. The department responsible publishes it and follows each finding to its removal.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: service-point
+  type: reference(service-point)
+  card: 0..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: street
+  type: reference(street)
+  card: 0..1
+- name: digital-service
+  type: reference(digital-service)
+  card: 0..1
+- name: auditors
+  type: text
+  card: 1..*
+- name: auditor-pay
+  type: amount
+  card: 0..1
+- name: audited-on
+  type: date
+  card: 1..1
+- name: findings
+  type: text
+  card: 0..*
+- name: removal-dates
+  type: date
+  card: 0..*
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: published-report
+  type: document
+  card: 0..1
+states:
+- scheduled
+- audited
+- published
+- in-remedy
+- closed
+relations:
+- type: refers-to
+  target: service-point
+- type: refers-to
+  target: building
+- type: refers-to
+  target: street
+- type: refers-to
+  target: digital-service
+- type: governed-by
+  target: service-standard
+- type: produces
+  target: corrective-action
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-250
+  edition: '2021'
+  jurisdiction: global

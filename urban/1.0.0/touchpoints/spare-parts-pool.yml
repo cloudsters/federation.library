@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: spare-parts-pool
+title: Spare Parts Pool
+medium: place
+summary: The shared stock of spare parts and reclaimed components that repair points draw on.
+exchanges:
+- donated-parts-for-unstopped-repairs
+journey: resident-mending-instead-of-buying

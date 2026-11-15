@@ -1,0 +1,49 @@
+kind: entity
+slug: ledger-entry
+title: Ledger Entry
+type: transactional
+summary: A posting in the general ledger that records the financial effect of a transaction, such as revenue from a claim, a supplier
+  invoice, a payroll run or depreciation, against an account, a cost centre, an activity and a period.
+attributes:
+- name: entry-identifier
+  type: identifier
+  card: 1..1
+- name: account
+  type: code
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: posting-date
+  type: date
+  card: 1..1
+- name: accounting-period
+  type: period
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 0..1
+- name: activity
+  type: code
+  card: 0..1
+- name: source-document
+  type: document
+  card: 0..1
+states:
+- parked
+- posted
+- reversed
+relations:
+- type: assigned-to
+  target: cost-centre
+- type: refers-to
+  target: payment
+- type: refers-to
+  target: claim
+binds:
+- source: src-139
+  edition: '2.1'
+  jurisdiction: global
+- source: src-455
+  edition: '2015'
+  jurisdiction: global

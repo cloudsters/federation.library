@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: interface-specification
+title: Interface Specification
+medium: artefact
+summary: 'The agreed description of an exchange between systems: content, format, reference data, channel, timing and error handling.'
+exchanges:
+- agreed-formats-for-seamless-orders
+journey: integration-specialist-connecting-a-partner

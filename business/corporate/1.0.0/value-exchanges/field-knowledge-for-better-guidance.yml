@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: field-knowledge-for-better-guidance
+title: Field Knowledge for Better Guidance
+between:
+- field-service-technician
+- customer-service-agent
+offered:
+- Findings, solutions and customer signals from each completed job.
+returned:
+- Better guidance at intake and for the next job, and answers drawn from the whole team's experience.
+touchpoint: service-report

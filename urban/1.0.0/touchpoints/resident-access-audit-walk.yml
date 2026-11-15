@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: resident-access-audit-walk
+title: Resident Access Audit Walk
+medium: encounter
+summary: An audit of service points, routes and digital channels by disabled residents and others who meet barriers, carried out at
+  a fixed rhythm and paid.
+exchanges:
+- paid-audit-for-dated-removal
+journey: disabled-resident-holding-the-city-to-access

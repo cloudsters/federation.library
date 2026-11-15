@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: explained-deviations-for-timely-correction
+title: Explained Deviations for Timely Correction
+between:
+- city-administration
+- city-council
+offered:
+- Each month's deviations from the budget, explained by their owners, and the updated forecast.
+returned:
+- Corrective decisions taken while the year can still be changed.
+touchpoint: monthly-variance-report

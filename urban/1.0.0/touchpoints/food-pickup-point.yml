@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: food-pickup-point
+title: Food Pickup Point
+medium: place
+summary: A corner shop, community centre or transit stop within walking distance where residents collect fresh food and parcels delivered
+  from the hub.
+exchanges:
+- regular-custom-for-fresh-food-at-a-fair-price
+journey: local-producer-selling-through-a-neighbourhood-hub

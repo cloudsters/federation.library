@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: network-assets-for-a-commons-trust
+title: Network Assets for a Commons Trust
+between:
+- community-network-operator
+- city-council
+offered:
+- The network assets and their operation under the rules of the trust.
+returned:
+- A trust agreement that keeps the network out of private sale, with the duty of the trust running to the community.
+touchpoint: network-trust-agreement

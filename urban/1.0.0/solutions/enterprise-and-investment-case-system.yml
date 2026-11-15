@@ -1,0 +1,28 @@
+kind: solution
+slug: enterprise-and-investment-case-system
+title: Enterprise and Investment Case System
+role: system-of-engagement
+summary: Records the advice, space, finance, mentoring and contacts the city gives each founder, enterprise and investor from first
+  contact to close, with the incubator programmes, workspaces, loans, time-limited support agreements, enterprise statutes, the location
+  offer, investment enquiries and the reviews after support.
+carries:
+- business-advice-provision
+- incubation-and-workspace-provision
+- start-up-finance-provision
+- time-limited-support-setting
+- business-support-evaluation
+- investment-enquiry-handling
+- investor-aftercare
+- location-offer-definition
+- cooperative-conversion-support
+- mission-safeguard-advice
+holds:
+- business-support-case
+- incubator-programme
+- enterprise-workspace
+- enterprise-loan
+- business-support-agreement
+- business-support-review
+- enterprise-statutes
+- location-offer
+- investment-enquiry

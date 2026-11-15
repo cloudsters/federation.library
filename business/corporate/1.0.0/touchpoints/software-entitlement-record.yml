@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: software-entitlement-record
+title: Software Entitlement Record
+medium: artefact
+summary: The record of software licences and entitlements against actual use, kept current through the lifecycle of each asset.
+exchanges:
+- entitlements-for-accurate-use-records
+journey: technology-provider-resolving-an-escalated-fault

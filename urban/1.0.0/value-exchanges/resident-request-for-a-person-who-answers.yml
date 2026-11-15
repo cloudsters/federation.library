@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-request-for-a-person-who-answers
+title: Resident Request for a Person Who Answers
+between:
+- resident
+- municipal-ai-agent
+offered:
+- The resident's request or question to the service.
+returned:
+- An answer within the agent's mandate, or a hand-over to a person whenever the resident asks.
+touchpoint: override-and-escalation-route

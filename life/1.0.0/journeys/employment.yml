@@ -1,0 +1,34 @@
+kind: journey
+slug: employment
+title: Employment
+stakeholder: employer
+via: interest-to-relationship
+summary: An employer meets someone who reads the job as terms rather than fate, asks for what the life needs before signing, keeps
+  the agreed limits, and comes back when the life changes.
+stages:
+- slug: make-an-offer
+  title: Make an Offer
+  goal: The employer's offer has been read as terms to be weighed rather than accepted as a given.
+  step: employment-to-arrangement/seeing-the-job-as-a-choice
+  touchpoints:
+  - work-agreement
+- slug: agree-the-terms
+  title: Agree the Terms
+  goal: The employer knows the hours, pay and limits the person needs, and has agreed them before signing.
+  step: employment-to-arrangement/negotiating-the-terms
+  touchpoints:
+  - talk-with-the-boss
+  - work-agreement
+- slug: work-within-the-limits
+  title: Work within the Limits
+  goal: The employer has someone whose agreed limits hold in the real week, and who says so when they slip.
+  step: employment-to-arrangement/living-inside-the-arrangement
+  touchpoints:
+  - the-workplace
+- slug: reopen-the-terms
+  title: Reopen the Terms
+  goal: When the person's life changes, the employer has been asked in good time to change the terms, rather than losing the person
+    without warning.
+  step: employment-to-arrangement/reopening-when-life-changes
+  touchpoints:
+  - talk-with-the-boss

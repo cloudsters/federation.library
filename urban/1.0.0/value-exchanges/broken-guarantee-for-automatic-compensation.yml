@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: broken-guarantee-for-automatic-compensation
+title: Broken Guarantee for Automatic Compensation
+between:
+- resident
+- city-administration
+offered:
+- The resident's reliance on a published guarantee.
+returned:
+- Compensation paid automatically from the fund of the service when the guarantee is broken.
+touchpoint: automatic-compensation-notice

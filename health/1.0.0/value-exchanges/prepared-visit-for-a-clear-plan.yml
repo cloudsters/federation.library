@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-visit-for-a-clear-plan
+title: Prepared Visit for a Clear Plan
+between:
+- outpatient
+- specialist-physician
+offered:
+- Prior findings, a current medication list, completed questionnaires and the patient's own questions and goals.
+returned:
+- A diagnosis and plan explained and agreed in one visit, with tests done the same day where possible and the next contact booked.
+touchpoint: patient-portal

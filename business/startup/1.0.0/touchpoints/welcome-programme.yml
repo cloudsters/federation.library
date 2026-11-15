@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: welcome-programme
+title: Welcome Programme
+medium: encounter
+summary: The planned sequence of welcome, set-up help and first-use support that takes a new customer from purchase to confident,
+  productive use.
+exchanges:
+- onboarding-guidance-for-committed-use
+- smooth-handover-for-a-successful-start
+journey: business-customer-getting-into-productive-use

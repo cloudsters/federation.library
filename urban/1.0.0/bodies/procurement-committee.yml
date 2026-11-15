@@ -1,0 +1,13 @@
+kind: body
+slug: procurement-committee
+title: Procurement Committee
+summary: Prepares the council's decisions on the procurement policy and its scorecard, the large choices between own provision and
+  contracting, the local purchasing targets and the limits on embedded carbon, decides the awards above the value the delegation sets
+  and receives the yearly reports on local spend, circular purchasing and payment times.
+holds:
+- procurement-criteria-co-design
+- provision-option-assessment
+- award-decision-and-publication
+part_of: full-council
+type: committee
+form: governing-body

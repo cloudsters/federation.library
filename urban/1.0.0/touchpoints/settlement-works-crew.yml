@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: settlement-works-crew
+title: Settlement Works Crew
+medium: encounter
+summary: The crew of residents, paid and equipped, that builds and keeps water points, toilets, drains, lighting and paths and strengthens
+  homes and slopes in its own settlement.
+exchanges:
+- crew-work-for-pay-and-connected-homes
+- local-skill-for-safer-homes-and-slopes
+journey: city-planner-upgrading-a-settlement-with-its-residents

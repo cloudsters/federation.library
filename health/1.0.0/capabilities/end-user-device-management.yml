@@ -1,0 +1,11 @@
+kind: capability
+slug: end-user-device-management
+title: End-User Device Management
+level: L3
+parent: infrastructure
+summary: Provide staff with standard workstations, mobile devices and printers, enrol them in central management, keep them configured
+  and updated, and replace them on schedule.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

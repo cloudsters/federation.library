@@ -1,0 +1,7 @@
+kind: capability
+slug: identity-access-management
+title: Steward IT user identity and authorization
+level: L3
+parent: information-security
+summary: Authenticate every user, human or agent, and grant scoped, revocable access to systems according to role and purpose, reviewing
+  and withdrawing rights as roles change.

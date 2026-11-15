@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-asset-map-view
+title: Neighbourhood Asset Map View
+medium: artefact
+summary: The published map of what the neighbourhood already has, kept current by its residents and used as the starting point of
+  its plan and its yearly review.
+exchanges:
+- visible-assets-for-local-initiative
+journey: neighbourhood-association-acting-for-its-neighbourhood

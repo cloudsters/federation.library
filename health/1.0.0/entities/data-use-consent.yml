@@ -1,0 +1,50 @@
+kind: entity
+slug: data-use-consent
+title: Data-Use Consent
+type: governance
+summary: A person's permission for their health data and biological samples to be used beyond their own care, such as for research,
+  registries or quality improvement, with its scope, duration and the right to withdraw.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: use-scope
+  type: code
+  card: 1..*
+- name: data-categories
+  type: code
+  card: 1..*
+- name: includes-samples
+  type: boolean
+  card: 0..1
+- name: information-version
+  type: identifier
+  card: 1..1
+- name: given-at
+  type: datetime
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- pending
+- given
+- partially-withdrawn
+- withdrawn
+- expired
+relations:
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: settled-exchange-for-a-matching-record
+title: Settled Exchange for a Matching Record
+between:
+- finance-operations-agent
+- partner
+offered:
+- Settlement of the agreed exchange and its record with the mandate in the company's books.
+returned:
+- Performance as agreed and a matching record in the partner's books.
+touchpoint: exchange-record

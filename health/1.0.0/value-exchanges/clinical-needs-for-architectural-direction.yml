@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clinical-needs-for-architectural-direction
+title: Clinical Needs for Architectural Direction
+between:
+- head-of-clinical-department
+- health-informatics-specialist
+offered:
+- The unit's needs, process knowledge and clinical priorities, stated as demand with an expected benefit and a named owner.
+returned:
+- A transparent priority on the roadmap and an architecture decision that says what will be built, reused or replaced, and when.
+touchpoint: architecture-board

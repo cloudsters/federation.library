@@ -1,0 +1,53 @@
+kind: journey
+slug: public-works-engineer-delivering-a-public-work
+title: Public Works Engineer Delivering a Public Work
+stakeholder: public-works-engineer
+summary: The engineer writes the brief with users and crews, designs for the whole life of the asset, obtains permits and tells neighbours,
+  tenders the works in small lots, supervises construction and hands the tested asset into the register and into maintenance.
+stages:
+- slug: write-the-brief
+  title: Write the Brief
+  goal: The brief states the need, the service level, the carbon and lifecycle targets, the maintainers' requirements and the budget.
+  step: public-works-design-and-construction/works-brief
+  touchpoints:
+  - works-brief-workshop
+- slug: design-for-the-whole-life
+  title: Design for the Whole Life
+  goal: The design is durable, easy to maintain, open to all, ready for heat and heavy rain and recorded for later disassembly, and
+    users and crews have reviewed it.
+  step: public-works-design-and-construction/design-for-whole-life
+  touchpoints:
+  - design-review-session
+  - design-access-audit
+  - works-material-passport
+- slug: obtain-permits-and-tell-neighbours
+  title: Obtain Permits and Tell Neighbours
+  goal: The permits, consents and operators' agreements are in place, and neighbours know what will happen and when.
+  step: public-works-design-and-construction/permits-and-consents
+  touchpoints:
+  - consent-coordination-meeting
+  - works-notice-to-neighbours
+- slug: tender-in-small-lots
+  title: Tender in Small Lots
+  goal: The works are specified by outcome, divided into lots small builders can win, and awarded with local hiring and reclaimed
+    materials required where they fit.
+  step: public-works-design-and-construction/works-contracting
+  touchpoints:
+  - works-tender-notice
+- slug: supervise-the-works
+  title: Supervise the Works
+  goal: Each stage is built to quality, cost and safety, neighbours keep their access, and what was built and with which materials
+    is recorded.
+  step: public-works-design-and-construction/construction-and-supervision
+  touchpoints:
+  - site-supervision-visit
+  - works-site-information-board
+- slug: test-and-hand-over
+  title: Test and Hand Over
+  goal: The asset is tested against its brief, accepted with its documents, material passport and open defects, entered in the register
+    and handed to its operators.
+  step: public-works-design-and-construction/commissioning-and-handover
+  touchpoints:
+  - commissioning-acceptance-walk
+  - works-handover-file
+  - public-asset-register-entry

@@ -1,0 +1,42 @@
+kind: entity
+slug: recall
+title: Recall
+type: transactional
+summary: An organisation-wide withdrawal of a product — a coordinated action triggered when a product poses safety or quality risks,
+  requiring communication, retrieval, and remediation across all channels.
+attributes:
+- name: product
+  type: reference(product)
+  card: 1..1
+- name: affected-serials
+  type: reference(serial-number)
+  card: 0..*
+- name: affected-batches
+  type: reference(batch-lot)
+  card: 0..*
+- name: hazard-assessment
+  type: text
+  card: 1..1
+- name: communication-plan
+  type: document
+  card: 0..1
+- name: remediation
+  type: code
+  card: 1..1
+states:
+- initiated
+- hazard-assessed
+- communicated
+- retrieving
+- reported
+- monitored
+- terminated
+relations:
+- type: refers-to
+  target: batch-lot
+- type: refers-to
+  target: serial-number
+- type: based-on
+  target: non-conformance
+- type: produces
+  target: regulatory-notification

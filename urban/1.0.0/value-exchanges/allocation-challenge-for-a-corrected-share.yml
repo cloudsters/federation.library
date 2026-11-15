@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: allocation-challenge-for-a-corrected-share
+title: Allocation Challenge for a Corrected Share
+between:
+- finance-officer
+- funding-body
+offered:
+- Evidence of an error in the city's allocation.
+returned:
+- A corrected share, or the reasons why it stands.
+touchpoint: allocation-review-meeting

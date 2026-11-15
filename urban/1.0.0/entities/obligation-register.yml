@@ -1,0 +1,64 @@
+kind: entity
+slug: obligation-register
+title: Obligation Register
+type: governance
+summary: The register of the city's duties under the statutory local-government framework and higher law, each with the departments
+  it binds, its owner, procedure and control. The legal office keeps it, and it is the basis on which compliance is tested and reported
+  to the council and the supervisory authority.
+attributes:
+- name: duty
+  type: text
+  card: 1..1
+- name: legal-source
+  type: code
+  card: 1..1
+- name: effective-from
+  type: date
+  card: 1..1
+- name: binds-departments
+  type: text
+  card: 1..*
+- name: owner
+  type: text
+  card: 1..1
+- name: procedure
+  type: document
+  card: 0..1
+- name: control
+  type: text
+  card: 0..1
+- name: approval-limits
+  type: amount
+  card: 0..*
+- name: compliance-status
+  type: code
+  card: 0..1
+- name: last-tested-on
+  type: date
+  card: 0..1
+- name: next-test-on
+  type: date
+  card: 0..1
+states:
+- identified
+- recorded
+- assigned
+- embedded
+- tested
+- reported
+- retired
+relations:
+- type: governed-by
+  target: city-constitution
+- type: refers-to
+  target: decision-rights-register
+- type: refers-to
+  target: bylaw
+- type: refers-to
+  target: contract
+- type: produces
+  target: oversight-report
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

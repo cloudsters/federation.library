@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digital-request-form
+title: Digital Request Form
+medium: channel
+summary: The form through which departments, neighbourhoods and resident groups ask for a new or changed digital tool and follow the
+  answer.
+exchanges:
+- stated-need-for-a-delivery-mandate
+- group-request-for-a-reasoned-answer
+journey: city-administration-replacing-a-legacy-system

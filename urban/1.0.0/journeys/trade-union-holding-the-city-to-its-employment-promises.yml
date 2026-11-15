@@ -1,0 +1,35 @@
+kind: journey
+slug: trade-union-holding-the-city-to-its-employment-promises
+title: Trade Union Holding the City to Its Employment Promises
+stakeholder: trade-union
+summary: A trade union negotiates local hiring requirements into the city's contracts and agreements, checks that placements under
+  them are secure work, plans with the city the transition of workers whose work is phased out and holds the city to the guarantee
+  until its review.
+stages:
+- slug: write-in-the-commitments
+  title: Write In the Commitments
+  goal: Local hiring requirements with targets for residents out of work stand in the city's contracts, capital projects and development
+    agreements.
+  step: local-employment-and-livelihood-pathways/local-hiring-commitments
+  touchpoints:
+  - local-hiring-clause
+- slug: check-the-placements
+  title: Check the Placements
+  goal: Placements under the commitments are secure work at the agreed floor, not short contracts that end with the project.
+  step: local-employment-and-livelihood-pathways/job-matching-and-placement
+  touchpoints:
+  - local-hiring-compliance-report
+- slug: plan-the-transition
+  title: Plan the Transition
+  goal: The union has planned with the city and the workers who is affected, the income floor, the retraining paths, the routes into
+    ownership and the date of review.
+  step: local-employment-and-livelihood-pathways/workforce-transition-planning
+  touchpoints:
+  - transition-planning-table
+  - published-transition-plan
+- slug: hold-the-city-to-the-guarantee
+  title: Hold the City to the Guarantee
+  goal: At the review the guarantee is extended or ended on the placement rates achieved, with the account of the union heard.
+  step: local-employment-and-livelihood-pathways/transition-follow-through
+  touchpoints:
+  - transition-guarantee-review

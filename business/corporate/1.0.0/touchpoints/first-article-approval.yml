@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: first-article-approval
+title: First Article Approval
+medium: encounter
+summary: The inspection and approval of the first parts made with series tooling and processes, by which the customer releases the
+  product for regular supply.
+exchanges:
+- traceable-goods-for-series-acceptance
+- clear-requirements-for-conforming-supply
+journey: customer-receiving-traceable-goods

@@ -1,0 +1,37 @@
+kind: entity
+slug: body-of-work
+title: Body of Work
+type: master
+summary: What this person has made that outlasts the making of it, taken together rather than piece by piece. It accumulates whether
+  or not anyone is curating it; the entity exists so that someone is.
+attributes:
+- name: pieces
+  type: list(creative-output)
+  card: 0..*
+- name: threads
+  type: text
+  card: 0..*
+- name: kept-where
+  type: text
+  card: 1..*
+- name: in-open-forms
+  type: boolean
+  card: 0..1
+- name: rights-held
+  type: text
+  card: 0..*
+- name: wishes-for-later
+  type: text
+  card: 0..1
+states:
+- scattered
+- gathered
+- chosen through
+- kept safe
+- shown whole
+- handed on
+relations:
+- target: creative-output
+  type: based-on
+- target: self
+  type: about

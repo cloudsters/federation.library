@@ -1,0 +1,49 @@
+kind: journey
+slug: delivery-carrier-delivering-through-shared-hubs
+title: Delivery Carrier Delivering through Shared Hubs
+stakeholder: delivery-carrier
+summary: A carrier shares its trip data for the city's map, helps place a shared hub, books slots and bundles orders, keeps to the
+  district's delivery windows, delivers the last mile by cargo bike and works under terms that protect its workers.
+stages:
+- slug: share-the-trip-data
+  title: Share the Trip Data
+  goal: The carrier's trips, vehicle types and loading by district are in the city's map beside the neighbourhoods without fresh food
+    in reach.
+  step: urban-goods-and-food-distribution/goods-and-food-access-mapping
+  touchpoints:
+  - delivery-and-food-access-map
+- slug: help-place-the-hub
+  title: Help Place the Hub
+  goal: A shared loading bay and consolidation hub is placed on public land with the carrier as a party to its agreement.
+  step: urban-goods-and-food-distribution/neighbourhood-hub-establishment
+  touchpoints:
+  - hub-partners-assembly
+  - neighbourhood-consolidation-hub
+- slug: book-and-bundle
+  title: Book and Bundle
+  goal: The carrier books hub slots, bundles its orders with others and earns more delivery allocations for consolidating.
+  step: urban-goods-and-food-distribution/producer-and-carrier-scheduling
+  touchpoints:
+  - hub-slot-booking
+- slug: keep-to-the-delivery-windows
+  title: Keep to the Delivery Windows
+  goal: The carrier's heavy vehicles keep out of residential streets at the hours they harm most, and its clean vehicles use the loading
+    zones set for them.
+  step: urban-goods-and-food-distribution/delivery-window-and-loading-rules
+  touchpoints:
+  - kerb-and-loading-map
+- slug: deliver-the-last-mile
+  title: Deliver the Last Mile
+  goal: Parcels leave the hub by cargo bike or small electric vehicle and reach homes and pickup points without large vehicles on
+    residential streets.
+  step: urban-goods-and-food-distribution/last-mile-delivery-and-pickup
+  touchpoints:
+  - cargo-bike-round
+  - food-pickup-point
+- slug: work-under-fair-terms
+  title: Work under Fair Terms
+  goal: The carrier's workers have fair pay and safe schedules under the hub agreement and may stop a schedule that puts them at risk.
+  step: urban-goods-and-food-distribution/delivery-worker-and-producer-terms
+  touchpoints:
+  - signed-hub-agreement
+  - cargo-bike-round

@@ -1,0 +1,142 @@
+kind: value-stream
+slug: professional-development
+title: Professional Development
+family: contributor-to-succession
+summary: 'Keeping contributors competent and growing: competency models, appraisals, development plans, continuing professional development
+  and its documentation, and mandatory training with its tracking.'
+trigger: An appraisal cycle runs, a competency gap appears, or a training or recertification obligation falls due.
+outcome: Contributors have completed agreed development and mandatory training, and their competence and credits are documented.
+stakeholders:
+- registered-nurse
+- specialist-physician
+- allied-health-professional
+- unit-manager
+- clinical-educator
+- professional-body
+steps:
+- slug: competency-requirements
+  title: Competency Requirements
+  summary: Define for each role the competencies, mandatory training and recertification it requires, and the career levels it opens.
+  capabilities:
+  - competency-model-design
+  - career-framework-architecture
+  - mandatory-training-management
+  entities:
+  - competency
+  - policy
+  - position
+  serves:
+  - hr-self-service
+  - learning-platform
+- slug: appraisal-and-plan
+  title: Appraisal and Development Plan
+  summary: Hold the appraisal, assess performance and competence against the role, and agree goals and a development plan with time
+    and funding.
+  capabilities:
+  - performance-management
+  - competence-validation
+  - internal-mobility-marketplace
+  entities:
+  - appraisal
+  - competency
+  - employee
+  serves:
+  - appraisal-meeting
+- slug: learning-offer
+  title: Learning Offer
+  summary: 'Provide the learning that plans and obligations require: courses, digital learning, simulation, skills training, conferences
+    and leadership programmes, certified where credits are due.'
+  capabilities:
+  - training-delivery
+  - learning-programme-delivery
+  - simulation-centre-operations
+  - skills-lab-management
+  - leadership-development
+  - continuing-education-programme-certification
+  entities:
+  - course
+  - teaching-session
+  - education-programme
+  serves:
+  - course-catalogue
+  - learning-platform
+  - scientific-meeting
+  - simulation-centre
+- slug: mandatory-training
+  title: Mandatory Training
+  summary: Assign mandatory training by role, remind before expiry, and evidence completion of fire safety, hygiene, data protection,
+    resuscitation, radiation protection and device briefings.
+  capabilities:
+  - mandatory-training-management
+  - resuscitation-training
+  - device-operator-training
+  - safety-training
+  - radiation-protection
+  entities:
+  - credential
+  - course
+  serves:
+  - learning-platform
+  - simulation-centre
+- slug: learning-in-practice
+  title: Learning in Practice
+  summary: Release staff for learning in the roster, and apply what was learned at work through supervised practice, in-situ simulation,
+    projects and rotations.
+  capabilities:
+  - continuing-professional-development
+  - in-situ-simulation
+  - crisis-resource-management-training
+  - staff-scheduling
+  entities:
+  - teaching-session
+  - absence
+  - competency
+  serves:
+  - duty-roster
+  - simulation-centre
+  - ward
+- slug: credits-and-records
+  title: Credits and Records
+  summary: Record completed learning, verify continuing education credits, and keep each person's training and recertification status
+    current and visible to them and their manager.
+  capabilities:
+  - continuing-education-credit-compliance
+  - professional-registration-monitoring
+  - employee-data-stewardship
+  - hr-information-systems
+  entities:
+  - continuing-education-credit
+  - credential
+  - specialty-certification
+  serves:
+  - hr-self-service
+  - learning-platform
+  - participation-certificate
+  - professional-register
+- slug: development-review
+  title: Development Review
+  summary: Review whether development closed the gaps, evaluate the learning offer, update the plan, and feed the results into careers,
+    privileges and the workforce plan.
+  capabilities:
+  - performance-management
+  - education-quality-assurance
+  - workforce-analytics-deployment
+  entities:
+  - appraisal
+  - measure-report
+  - competency
+  serves:
+  - appraisal-meeting
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-460
+  edition: '1959'
+  jurisdiction: global
+- source: src-507
+  edition: '2025'
+  jurisdiction: global

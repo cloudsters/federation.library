@@ -1,0 +1,43 @@
+kind: entity
+slug: role
+title: Role Held
+type: master
+summary: 'A role this person holds — parent, carer, chair, employee, elder, the neighbour who gets called — with what it asks and
+  what it gives. Held apart from `self`, which no role should swallow: a life holds several at once, and the recorded question is
+  whether each can still be laid down at the end of the day.'
+attributes:
+- name: held-in
+  type: text
+  card: 1..1
+- name: taken-on
+  type: date
+  card: 0..1
+- name: asks
+  type: text
+  card: 1..*
+- name: gives
+  type: text
+  card: 0..*
+- name: hours-a-week
+  type: duration
+  card: 0..1
+- name: laid-down-when
+  type: text
+  card: 0..1
+- name: venture
+  type: reference(venture)
+  card: 0..1
+- name: handed-on-in
+  type: reference(handover)
+  card: 0..1
+states:
+- taken on
+- carried
+- swallowing
+- laid down
+- handed on
+relations:
+- target: self
+  type: about
+- target: venture
+  type: part-of

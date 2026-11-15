@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: maintenance-windows-for-reliable-assets
+title: Maintenance Windows for Reliable Assets
+between:
+- site-manager
+- maintenance-technician
+offered:
+- Agreed windows for planned work, and the budget for it.
+returned:
+- Assets kept reliable and safe, and fewer unplanned stops.
+touchpoint: maintenance-plan

@@ -1,0 +1,54 @@
+kind: entity
+slug: patient-message
+title: Patient Message
+type: transactional
+summary: A message within a current care relationship between a patient or an authorised representative and the care team through
+  a digital channel, such as a question, a booking or renewal request, or a reply, with topic, urgency, routing and answer.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: sender-kind
+  type: code
+  card: 1..1
+- name: topic
+  type: code
+  card: 1..1
+- name: urgency
+  type: code
+  card: 0..1
+- name: content
+  type: document
+  card: 1..1
+- name: routed-to
+  type: reference(organisation-unit)
+  card: 0..1
+- name: sent-at
+  type: datetime
+  card: 1..1
+- name: answered-at
+  type: datetime
+  card: 0..1
+states:
+- sent
+- received
+- triaged
+- answered
+- closed
+relations:
+- type: part-of
+  target: health-record
+- type: depends-on
+  target: identity
+- type: based-on
+  target: proxy-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global

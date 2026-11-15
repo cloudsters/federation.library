@@ -1,0 +1,63 @@
+kind: entity
+slug: care-needs-assessment
+title: Care Needs Assessment
+type: transactional
+summary: A structured assessment of what care a patient needs, covering nursing, therapy, nutrition, mobility, cognition and social
+  circumstances, whose findings set the goals and interventions of the care plan.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: instruments
+  type: reference(assessment-instrument)
+  card: 0..*
+- name: identified-needs
+  type: code
+  card: 1..*
+- name: findings
+  type: text
+  card: 0..1
+- name: assessor
+  type: reference(practitioner-role)
+  card: 1..1
+- name: assessed-at
+  type: datetime
+  card: 1..1
+states:
+- in-progress
+- completed
+- revised
+relations:
+- type: part-of
+  target: encounter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-005
+  edition: '20260101'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-583
+  edition: '1987'
+  jurisdiction: global
+- source: src-593
+  edition: '1965'
+  jurisdiction: global

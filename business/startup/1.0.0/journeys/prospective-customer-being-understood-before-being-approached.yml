@@ -1,0 +1,27 @@
+kind: journey
+slug: prospective-customer-being-understood-before-being-approached
+title: Prospective Customer Being Understood Before Being Approached
+stakeholder: prospective-customer
+summary: A prospective customer takes part in research, shows emerging interest that is noticed without being pursued, and is profiled
+  with consent so that later offers fit its real needs.
+stages:
+- slug: take-part-in-research
+  title: Take Part in Research
+  goal: The prospect's needs and buying behaviour are heard, and its data are used only for the stated purpose.
+  step: market-stakeholder-sensing/market-and-customer-research
+  touchpoints:
+  - customer-interview
+  - customer-survey
+- slug: show-emerging-need
+  title: Show Emerging Need
+  goal: Interest shown by reading, downloading or asking is noticed and checked for authenticity, without intrusive pursuit.
+  step: market-stakeholder-sensing/intent-signal-detection
+  touchpoints:
+  - website
+  - trade-fair
+- slug: be-profiled-with-consent
+  title: Be Profiled with Consent
+  goal: The prospect's profile reflects its actual needs and is held with consent it can see and change.
+  step: market-stakeholder-sensing/customer-segmentation-and-profiling
+  touchpoints:
+  - preference-centre

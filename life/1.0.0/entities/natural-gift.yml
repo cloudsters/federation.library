@@ -1,0 +1,37 @@
+kind: entity
+slug: natural-gift
+title: Natural Gift
+type: master
+summary: 'What this person is reliably counted on for — a capacity that others notice and value, that energises rather than drains,
+  and that keeps improving. It is not a skill and not a strength: the test is other people''s report, because people systematically
+  discount whatever comes to them easily.'
+attributes:
+- name: description
+  type: text
+  card: 1..1
+- name: evidence
+  type: list(other-perception)
+  card: 1..*
+- name: energises
+  type: boolean
+  card: 0..1
+- name: put-to-work-in
+  type: list(venture)
+  card: 0..*
+- name: grown-into
+  type: reference(skill)
+  card: 0..1
+- name: first-noticed
+  type: date
+  card: 0..1
+states:
+- unnoticed
+- reported by others
+- claimed
+- relied on
+- grown into a craft
+relations:
+- target: other-perception
+  type: based-on
+- target: self
+  type: about

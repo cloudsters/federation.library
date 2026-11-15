@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: structured-clinical-examination
+title: Structured Clinical Examination
+medium: encounter
+summary: The examination in which learners rotate through timed stations with standardised patients and tasks, observed and scored
+  against defined criteria.
+exchanges:
+- teaching-for-contribution
+journey: becoming-a-physician

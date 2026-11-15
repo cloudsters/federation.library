@@ -1,0 +1,6 @@
+kind: capability
+slug: agent-commissioning
+title: Agent Commissioning
+level: L3
+parent: human-agent-teamwork
+summary: Configure an AI agent, give it scoped and revocable access and a named overseer, and put it into its role.

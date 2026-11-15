@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: dispute-account-for-a-safe-route
+title: Dispute Account for a Safe Route
+between:
+- resident
+- community-mediator
+offered:
+- An account of the dispute or harm.
+returned:
+- An assessment of safety and urgency and the right next step, with violence passed at once to the competent authority.
+touchpoint: neighbourhood-dispute-desk

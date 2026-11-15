@@ -1,0 +1,21 @@
+kind: journey
+slug: tax-authority-receiving-withheld-payroll-taxes
+title: Tax Authority Receiving Withheld Payroll Taxes
+stakeholder: tax-authority
+summary: The tax authority receives withheld taxes and complete returns on time, and finds the payroll records reconciled and open
+  to inspection.
+stages:
+- slug: receive-returns-and-payment
+  title: Receive Returns and Payment
+  goal: Payroll tax returns are filed and the withheld taxes paid by the due date.
+  step: payroll-as-promise-fulfilled/tax-and-contribution-remittance
+  touchpoints:
+  - payroll-tax-return
+  - statutory-filing
+- slug: inspect-reconciled-records
+  title: Inspect Reconciled Records
+  goal: An inspection finds payroll, payments and returns reconciled and the evidence ready.
+  step: payroll-as-promise-fulfilled/posting-and-reconciliation
+  touchpoints:
+  - official-inspection
+  - payroll-journal

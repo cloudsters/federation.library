@@ -1,0 +1,21 @@
+kind: body
+slug: revenue-office
+title: Revenue Office
+summary: Assesses and bills local taxes, fees and charges, keeps each taxpayer's account, decides on relief and caps essential charges,
+  receives and matches payments, recovers arrears fairly and collects the contributions due under development agreements.
+holds:
+- local-taxation-and-charges
+- tax-assessment
+- revenue-billing
+- taxpayer-record-keeping
+- tax-relief-assessment
+- essential-charge-capping
+- payment-receipt-and-matching
+- arrears-recovery
+- development-contribution-collection
+- hardship-case-coordination
+- income-matched-payment-arrangement
+- service-tariff-design
+part_of: finance-department
+type: function
+form: organisational-unit

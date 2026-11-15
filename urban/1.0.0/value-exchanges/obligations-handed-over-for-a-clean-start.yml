@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: obligations-handed-over-for-a-clean-start
+title: Obligations Handed Over for a Clean Start
+between:
+- contract-manager
+- supplier
+offered:
+- The contract's obligations, service levels, contacts and the staff who rely on it.
+returned:
+- Delivery that starts on time, in the way agreed.
+touchpoint: contract-start-meeting

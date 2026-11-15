@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: product-analysis-for-shared-lessons
+title: Product Analysis for Shared Lessons
+between:
+- technology-supplier
+- information-technology-specialist
+offered:
+- Its analysis of the faults in its product and their fixes.
+returned:
+- Recorded lessons that keep the same failure from returning elsewhere.
+touchpoint: problem-review-meeting

@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: emergency-patient
+title: Emergency Patient
+nature: person
+stance: served
+summary: A person who arrives unplanned, by ambulance or on foot, with an acute condition whose urgency is not yet known. The path
+  begins without an appointment and often ends in a bed nobody planned for.
+seeks:
+- Fast assessment by urgency, effective treatment and a clear next step, whether admission, transfer or return home.
+brings:
+- The unplanned case load through which the commons proves its round-the-clock readiness and earns its emergency care mandate.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

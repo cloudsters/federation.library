@@ -1,0 +1,55 @@
+kind: journey
+slug: referring-practice-relationship
+title: Referring Practice Relationship
+stakeholder: referring-practice
+summary: The referring practice's side of the relationship, from first contact with a named liaison through referrals that are acknowledged
+  and reported back on time to being asked what should improve.
+stages:
+- slug: getting-to-know-the-commons
+  title: Getting to Know the Commons
+  goal: Know which services the commons offers, how to refer and whom to call.
+  step: referrer-relations/referrer-approach
+  touchpoints:
+  - referrer-liaison-visit
+  - public-website
+- slug: agreeing-how-to-work-together
+  title: Agreeing How to Work Together
+  goal: Have one named contact, a referral route that fits the practice's systems and a stated time for reports.
+  step: referrer-relations/service-and-communication-agreement
+  touchpoints:
+  - referrer-liaison-visit
+  - referrer-portal
+  - clinical-messaging-service
+- slug: referring-a-patient
+  title: Referring a Patient
+  goal: Know promptly that the referral arrived, whether it was accepted and when the patient will be seen.
+  step: referrer-relations/referral-acknowledgement
+  touchpoints:
+  - referral-letter
+  - referrer-portal
+  - referrer-direct-line
+- slug: receiving-the-patient-back
+  title: Receiving the Patient Back
+  goal: Have the discharge letter, findings and medication plan in hand when the patient returns to the practice.
+  step: referrer-relations/reporting-to-the-referrer
+  touchpoints:
+  - discharge-letter
+  - diagnostic-report
+  - medication-plan
+  - clinical-messaging-service
+  - patient-held-health-record
+- slug: using-specialist-support
+  title: Using Specialist Support
+  goal: Get specialist advice without a new referral and keep up with the treatments the practice's patients receive.
+  step: referrer-relations/services-for-referrers
+  touchpoints:
+  - telemedicine-service
+  - multidisciplinary-case-conference
+  - referrer-education-event
+- slug: giving-feedback
+  title: Giving Feedback
+  goal: Be asked what works and what does not, and see that something changes.
+  step: referrer-relations/referrer-feedback-and-review
+  touchpoints:
+  - referrer-survey
+  - referrer-liaison-visit

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-plan-for-recognised-contribution
+title: Neighbourhood Plan for Recognised Contribution
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- A neighbourhood plan stating how the neighbourhood contributes to the city's objectives.
+returned:
+- Recognition of that plan in the city's objectives, and the resources it needs.
+touchpoint: objective-setting-session

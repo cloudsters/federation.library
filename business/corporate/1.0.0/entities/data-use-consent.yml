@@ -1,0 +1,36 @@
+kind: entity
+slug: data-use-consent
+title: Data-Use Consent
+type: governance
+summary: A person's recorded permission, refusal or withdrawal for a defined use of their personal data, such as marketing contact,
+  profiling or sharing with partners, with its scope, channel, time and proof.
+attributes:
+- name: contact
+  type: reference(contact)
+  card: 0..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: purposes
+  type: code
+  card: 1..*
+- name: channel
+  type: code
+  card: 1..1
+- name: given-at
+  type: datetime
+  card: 1..1
+- name: withdrawn-at
+  type: datetime
+  card: 0..1
+- name: evidence
+  type: document
+  card: 0..1
+states:
+- given
+- refused
+- withdrawn
+- expired
+relations:
+- type: refers-to
+  target: data-processing-record

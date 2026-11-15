@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: talking-with-an-agent
+title: Talking with an Agent
+medium: channel
+mode: digital
+summary: Working through a question or a task in conversation with a machine collaborator.
+exchanges:
+- view-for-understanding
+- reach-for-carrying
+journey: carrying-part-of-the-work

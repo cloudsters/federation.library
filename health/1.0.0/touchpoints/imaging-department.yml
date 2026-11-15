@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: imaging-department
+title: Imaging Department
+medium: place
+summary: Where images are acquired and interpreted and image-guided procedures are performed, for inpatients, outpatients and referring
+  practices.
+exchanges:
+- safety-disclosure-for-a-safe-examination
+- screening-participation
+journey: taking-part-in-screening

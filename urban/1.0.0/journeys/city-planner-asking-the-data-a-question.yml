@@ -1,0 +1,31 @@
+kind: journey
+slug: city-planner-asking-the-data-a-question
+title: City Planner Asking the Data a Question
+stakeholder: city-planner
+summary: A city planner records the question a planning decision needs answered, finds the data sets that bear on it, models the options
+  in the digital twin and receives a briefing that states its limits.
+stages:
+- slug: record-the-question
+  title: Record the Question
+  goal: The question and the decision it serves are recorded before any data is gathered.
+  step: city-data-and-analytics/information-need-intake
+  touchpoints:
+  - evidence-request-form
+- slug: find-the-data
+  title: Find the Data
+  goal: The planner finds the data sets that bear on the question, with their owners, definitions and quality.
+  step: city-data-and-analytics/data-definition-and-cataloguing
+  touchpoints:
+  - data-catalogue-search
+- slug: model-the-options
+  title: Model the Options
+  goal: The options are modelled in the digital twin, with the uncertainty of each result.
+  step: city-data-and-analytics/analysis-and-modelling
+  touchpoints:
+  - digital-twin-viewer
+- slug: receive-the-briefing
+  title: Receive the Briefing
+  goal: The planner has a briefing that answers the question, states its limits and joins the shared city picture.
+  step: city-data-and-analytics/release-and-open-data
+  touchpoints:
+  - evidence-briefing

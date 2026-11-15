@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-group-application
+title: Service Group Application
+medium: artefact
+summary: The application to the planning authority for the assignment or retention of a service group at a site, with the evidence
+  that staffing, equipment, volume and quality requirements are met.
+exchanges:
+- service-group-evidence-and-assignment
+journey: planning-authority-service-portfolio-journey

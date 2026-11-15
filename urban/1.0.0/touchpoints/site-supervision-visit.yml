@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: site-supervision-visit
+title: Site Supervision Visit
+medium: encounter
+summary: The visit in which the city's engineer checks quality, cost, safety and neighbours' access on site and accepts each stage.
+exchanges:
+- built-record-for-accepted-stages
+journey: public-works-engineer-delivering-a-public-work

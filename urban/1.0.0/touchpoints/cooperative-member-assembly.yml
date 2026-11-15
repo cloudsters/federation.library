@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: cooperative-member-assembly
+title: Cooperative Member Assembly
+medium: encounter
+summary: The assembly of a cooperative's members that admits new members, sets the formula for the surplus and decides the buy-out
+  of retiring members.
+exchanges:
+- earned-share-for-full-membership
+- retiring-share-for-a-fair-buy-out
+journey: local-business-passing-the-business-on

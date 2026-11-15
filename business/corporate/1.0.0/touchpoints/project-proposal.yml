@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: project-proposal
+title: Project Proposal
+medium: artefact
+summary: The registered proposal for a programme, project or larger work package, naming sponsor, scope, expected benefit and effort,
+  which the portfolio body screens against strategy.
+exchanges:
+- business-case-for-a-portfolio-decision
+journey: sponsor-bringing-a-project-through-the-portfolio

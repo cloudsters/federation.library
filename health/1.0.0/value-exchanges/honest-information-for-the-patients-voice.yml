@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: honest-information-for-the-patients-voice
+title: Honest Information for the Patient's Voice
+between:
+- specialist-physician
+- relative
+offered:
+- Regular, honest information on condition, goals and prognosis, open visiting and a place in decisions.
+returned:
+- The patient's known wishes, values and directive, and the presence of people close to the patient, which supports orientation
+  and recovery.
+touchpoint: family-meeting

@@ -1,0 +1,10 @@
+kind: capability
+slug: risk-oversight-and-coordination
+title: Risk Oversight & Coordination
+level: L3
+parent: enterprise-risk-management
+summary: Aggregate, assess and report risks across the organisation and share risk knowledge between units.
+binds:
+- source: src-459
+  edition: '2026'
+  jurisdiction: global

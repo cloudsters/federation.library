@@ -1,0 +1,10 @@
+kind: body
+slug: ombudsman-office
+title: Ombudsman Office
+summary: The ombudsman and staff, independent of the administration, who receive complaints directly, investigate with full access
+  to records, order remedies and report failures across the city to the council in public.
+holds:
+- ombudsman-case-handling
+part_of: full-council
+type: function
+form: organisational-unit

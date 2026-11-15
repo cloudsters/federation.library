@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: platform-dependency-review
+title: Platform Dependency Review
+medium: encounter
+summary: The review in which external platforms and marketplaces are assessed for the dependency they create, and fallbacks are kept
+  for whatever is core.
+exchanges:
+- committed-use-for-stable-terms
+journey: information-technology-specialist-guarding-platform-dependencies

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: returned-goods-for-prompt-remedy
+title: Returned Goods for Prompt Remedy
+between:
+- consumer
+- customer-service-representative
+offered:
+- The product handed back with the reason for its return.
+returned:
+- A prompt refund, replacement or repair, and the product sent to reuse wherever possible.
+touchpoint: return-point

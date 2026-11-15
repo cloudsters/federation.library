@@ -1,0 +1,38 @@
+kind: entity
+slug: access-standard
+title: Access Standard
+type: governance
+summary: A rule that sets the maximum time within which a patient must be assessed or treated for a service and urgency, such as a
+  care guarantee or a waiting-time target, with the remedy owed when it is not met.
+attributes:
+- name: issuing-body
+  type: reference(organisation)
+  card: 1..1
+- name: services
+  type: reference(care-service)
+  card: 0..*
+- name: urgency-category
+  type: code
+  card: 1..1
+- name: maximum-wait
+  type: quantity
+  card: 1..1
+- name: measurement-rule
+  type: text
+  card: 1..1
+- name: remedy
+  type: text
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 1..1
+states:
+- draft
+- in-force
+- under-review
+- withdrawn
+relations:
+- type: based-on
+  target: compliance-obligation
+- type: based-on
+  target: payer-agreement

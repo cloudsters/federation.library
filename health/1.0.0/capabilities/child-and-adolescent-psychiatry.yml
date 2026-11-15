@@ -1,0 +1,11 @@
+kind: capability
+slug: child-and-adolescent-psychiatry
+title: Child and Adolescent Psychiatry
+level: L3
+parent: mental-health-care
+summary: Assess and treat mental illness in children and adolescents together with their families, in settings separate from adults,
+  and prepare their move into adult services.
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

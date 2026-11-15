@@ -1,0 +1,59 @@
+kind: entity
+slug: request-for-care
+title: Request for Care
+type: transactional
+summary: A request, made by a person or on their behalf, for the organisation to address a health need, whether it arrives as a self-presentation,
+  an emergency, a referral or a transfer. It starts every continuity-of-care process and must be answered.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: requesting-party
+  type: code
+  card: 1..1
+- name: reason-for-request
+  type: code
+  card: 1..*
+- name: urgency
+  type: code
+  card: 1..1
+- name: requested-service
+  type: reference(care-service)
+  card: 0..1
+- name: referral
+  type: reference(referral)
+  card: 0..1
+- name: channel
+  type: code
+  card: 0..1
+- name: received-at
+  type: datetime
+  card: 1..1
+states:
+- received
+- under-assessment
+- accepted
+- redirected
+- declined
+- withdrawn
+relations:
+- type: based-on
+  target: request-mandate
+- type: produces
+  target: care-commitment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

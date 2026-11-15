@@ -1,0 +1,55 @@
+kind: entity
+slug: resident-account
+title: Resident Account
+type: master
+summary: The account in which a resident requests services and follows their requests, with the data they have allowed the city to
+  reuse. The resident holds it through their digital identity and the administration keeps it, and the resident sees in it which department
+  used their data.
+attributes:
+- name: account-identifier
+  type: identifier
+  card: 1..1
+- name: holder-identity
+  type: reference(digital-identity)
+  card: 1..1
+- name: preferred-languages
+  type: code
+  card: 0..*
+- name: contact-channels
+  type: code
+  card: 0..*
+- name: applications
+  type: reference(service-application)
+  card: 0..*
+- name: consents
+  type: reference(consent-record)
+  card: 0..*
+- name: data-uses
+  type: text
+  card: 0..*
+- name: mandated-helpers
+  type: text
+  card: 0..*
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+states:
+- opened
+- verified
+- active
+- suspended
+- closed
+relations:
+- type: based-on
+  target: digital-identity
+- type: refers-to
+  target: consent-record
+- type: refers-to
+  target: service-application
+- type: refers-to
+  target: population-register
+- type: refers-to
+  target: digital-service

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: public-city-dashboard
+title: Public City Dashboard
+medium: channel
+summary: The public view of the city's indicator set, complaints and petitions, each signal traced to its source and updated at a
+  regular rhythm.
+exchanges:
+- complaints-and-answers-for-a-traced-signal
+journey: city-administration-assembling-the-whole-city-picture

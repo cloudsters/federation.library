@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: defect-reports-for-correction-at-source
+title: Defect Reports for Correction at Source
+between:
+- research-institution
+- city-administration
+offered:
+- Defects and gaps it finds in the city's data.
+returned:
+- Defects corrected where the data arises, and gaps recorded in the catalogue.
+touchpoint: data-quality-dashboard

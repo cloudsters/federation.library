@@ -1,0 +1,56 @@
+kind: journey
+slug: protected-from-infection
+title: Protected from Infection
+stakeholder: elective-inpatient
+summary: 'How a patient admitted for planned treatment experiences infection prevention: screened, protected, informed when isolated
+  and treated with the right antimicrobials.'
+stages:
+- slug: clean-environment
+  title: Clean Environment
+  goal: Be cared for in a clean room by staff who follow the same hygiene standards everywhere.
+  step: infection-prevention-and-control/hygiene-standards
+  touchpoints:
+  - ward
+  - infection-control-committee
+- slug: screened-on-admission
+  title: Screened on Admission
+  goal: Be screened quickly, told the result and, if isolated, understand why and for how long.
+  step: infection-prevention-and-control/screening-and-isolation
+  touchpoints:
+  - admission-desk
+  - isolation-room
+- slug: watched-for-infection
+  title: Watched for Infection
+  goal: Have signs of infection recognised and confirmed early.
+  step: infection-prevention-and-control/surveillance
+  touchpoints:
+  - ward-round
+  - laboratory-counter
+- slug: hygiene-observed
+  title: Hygiene Observed
+  goal: See staff clean their hands before touching them, and feel free to ask.
+  step: infection-prevention-and-control/practice-audit
+  touchpoints:
+  - ward
+- slug: right-antimicrobials
+  title: Right Antimicrobials
+  goal: Receive antibiotics only when needed, in the right dose and for the right time.
+  step: infection-prevention-and-control/antimicrobial-stewardship
+  touchpoints:
+  - ward-round
+  - antimicrobial-stewardship-round
+- slug: informed-in-an-outbreak
+  title: Informed in an Outbreak
+  goal: Be told promptly when affected by an outbreak and what it means for care and visits.
+  step: infection-prevention-and-control/outbreak-response
+  touchpoints:
+  - ward
+  - isolation-room
+  - outbreak-team-meeting
+- slug: results-visible
+  title: Results Visible
+  goal: Be able to see the commons' infection rates and how they compare.
+  step: infection-prevention-and-control/reporting-and-improvement
+  touchpoints:
+  - public-quality-report
+  - infection-control-committee

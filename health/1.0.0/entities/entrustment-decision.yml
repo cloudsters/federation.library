@@ -1,0 +1,51 @@
+kind: entity
+slug: entrustment-decision
+title: Entrustment Decision
+type: transactional
+summary: A documented decision, taken by a competence committee or a supervisor, that a learner may perform an entrustable professional
+  activity at a stated level of supervision, based on accumulated assessment evidence.
+attributes:
+- name: learner-record
+  type: reference(learner-record)
+  card: 1..1
+- name: activity
+  type: reference(entrustable-professional-activity)
+  card: 1..1
+- name: supervision-level
+  type: code
+  card: 1..1
+- name: decided-by
+  type: reference(governance-body)
+  card: 0..1
+- name: supervisor
+  type: reference(practitioner-role)
+  card: 0..1
+- name: evidence
+  type: reference(learner-assessment)
+  card: 1..*
+- name: decided-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- granted
+- restricted
+- revoked
+relations:
+- type: part-of
+  target: learner-record
+- type: based-on
+  target: learner-assessment
+binds:
+- source: src-071
+  edition: '2005'
+  jurisdiction: global
+- source: src-408
+  edition: '2.0'
+  jurisdiction: global
+- source: src-410
+  edition: '3.0'
+  jurisdiction: global

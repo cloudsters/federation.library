@@ -1,0 +1,12 @@
+kind: solution
+slug: connected-asset-and-digital-twin-platform
+title: Connected Asset and Digital Twin Platform
+role: platform
+summary: Connects machines, sensors and devices, collects their data at the edge and in the centre, and keeps digital twins that show
+  the condition and behaviour of assets as they run.
+carries:
+- asset-condition-sensing
+- digital-twin-architecture
+- iot-device-integration
+holds:
+- digital-twin-asset

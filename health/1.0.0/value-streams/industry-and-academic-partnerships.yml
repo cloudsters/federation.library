@@ -1,0 +1,174 @@
+kind: value-stream
+slug: industry-and-academic-partnerships
+title: Industry and Academic Partnerships
+family: interest-to-relationship
+summary: 'Forming and maintaining research and development relationships with universities, research institutes and industry: consortia,
+  collaboration agreements, sponsor relations and joint development.'
+trigger: A partner proposes a collaboration, or a research group seeks a partner.
+outcome: A collaboration agreement is signed, the joint work proceeds, and the relationship is periodically reviewed.
+stakeholders:
+- industry-partner
+- research-partner
+- university
+- research-funder
+- clinician-scientist
+- research-scientist
+- head-of-clinical-department
+- executive
+steps:
+- slug: partner-scouting-and-matching
+  title: Partner Scouting and Matching
+  summary: Research groups state what they need from a partner and incoming proposals are screened; candidates are matched against
+    the research strategy, focus areas and existing partnerships, and first partnering meetings are held.
+  capabilities:
+  - research-strategy-design
+  - academic-partnership-management
+  - innovation-partnerships
+  - third-party-funding-strategy
+  - research-question-development
+  entities:
+  - organisation
+  - strategy
+  - research-study
+  serves:
+  - partnering-meeting
+  - technology-transfer-office
+- slug: collaboration-assessment
+  title: Collaboration Assessment
+  summary: The proposal is assessed for scientific merit, strategic fit, capacity, conflicts of interest, independence of research
+    and publication, data protection, intellectual property, export control and research security, and the reputational risk the partner
+    brings.
+  capabilities:
+  - anti-corruption-and-conflicts-of-interest
+  - research-integrity
+  - privacy-impact-management
+  - intellectual-property-management
+  - trial-feasibility-and-start-up
+  - legal-advisory
+  entities:
+  - organisation
+  - research-study
+  - risk
+  - policy
+  serves:
+  - partnering-meeting
+- slug: joint-work-planning
+  title: Joint Work Planning
+  summary: 'The partners set out the joint work: research question, design, work packages, resources, data and sample flows, publication
+    plan and milestones, and prepare the joint application where external funding is sought.'
+  capabilities:
+  - research-question-development
+  - grant-application-management
+  - biostatistics-support
+  - project-management
+  - research-data-integration-centre
+  entities:
+  - research-study
+  - study-protocol
+  - research-grant
+  - dataset
+  serves:
+  - consortium-meeting
+  - funding-proposal
+  - study-protocol
+- slug: collaboration-agreement
+  title: Collaboration Agreement
+  summary: 'The agreement is negotiated, approved by the competent body and signed: scope, contributions and payments, overheads,
+    data and material transfer, confidentiality, publication rights, and ownership, use and licensing of results.'
+  capabilities:
+  - industry-research-contracting
+  - contract-lifecycle-stewardship
+  - intellectual-property-management
+  - data-access-governance
+  - research-overhead-and-reinvestment
+  - delegation-of-authority
+  entities:
+  - contract
+  - data-use-agreement
+  - research-grant
+  - governance-decision
+  serves:
+  - board-meeting
+  - research-collaboration-agreement
+  - technology-transfer-office
+- slug: joint-work-conduct
+  title: Joint Work Conduct
+  summary: 'The joint work proceeds under shared governance: data and samples are exchanged or analysed in place as agreed, milestones
+    are tracked in consortium meetings, payments and funder reports follow progress, and deviations are agreed.'
+  capabilities:
+  - project-management
+  - research-data-integration-centre
+  - federated-analysis
+  - biobank-operations
+  - core-facility-operations
+  - clinical-trial-management
+  - grant-award-administration
+  entities:
+  - research-study
+  - dataset
+  - biobank-sample
+  - data-use-agreement
+  - research-grant
+  - invoice
+  - payment
+  serves:
+  - consortium-meeting
+- slug: results-and-rights
+  title: Results and Rights
+  summary: Results are published as agreed, negative results included; inventions are disclosed and allocated under the agreement,
+    protected where worthwhile and licensed or spun off, and findings with clinical promise are moved towards care.
+  capabilities:
+  - research-publication
+  - intellectual-property-management
+  - licensing-and-commercialisation
+  - spin-off-support
+  - bench-to-bedside-translation
+  entities:
+  - publication
+  - invention-disclosure
+  - contract
+  serves:
+  - scientific-publication
+  - technology-transfer-office
+- slug: relationship-review
+  title: Relationship Review
+  summary: The partnership is reviewed periodically for scientific output, funding, translation into care, compliance with the agreement
+    and the transparency of payments, and is renewed, extended to new fields or ended.
+  capabilities:
+  - research-performance-assessment
+  - academic-partnership-management
+  - innovation-partnerships
+  - compliance-assurance
+  - contract-lifecycle-stewardship
+  entities:
+  - relationship-review
+  - contract
+  - publication
+  - measure-report
+  serves:
+  - partnership-review-meeting
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-335
+  edition: '2018'
+  jurisdiction: global
+- source: src-484
+  edition: HE 2.1
+  jurisdiction: global
+- source: src-513
+  edition: '2023'
+  jurisdiction: global
+- source: src-526
+  edition: 2026-01
+  jurisdiction: global

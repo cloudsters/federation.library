@@ -1,0 +1,41 @@
+kind: journey
+slug: market-vendor-trading-with-standing
+title: Market Vendor Trading with Standing
+stakeholder: market-vendor
+summary: A vendor who has traded informally is registered with a licence and a pitch, elects the vendor council that agrees the market
+  rules, trades on market days, pools price data with other vendors and reviews the market with the city.
+stages:
+- slug: register-with-standing
+  title: Register with Standing
+  goal: The vendor holds a licence and a pitch that protect against removal without due process and do not price them out.
+  step: markets-and-local-trade/vendor-registration
+  touchpoints:
+  - vendor-registration-desk
+  - vendor-licence-card
+- slug: elect-the-vendor-council
+  title: Elect the Vendor Council
+  goal: The vendor has voted for the council that agrees fees, hours, hygiene, conduct and pitch allocation with the city.
+  step: markets-and-local-trade/market-rules-with-vendors
+  touchpoints:
+  - vendor-council-election
+  - vendor-council-meeting
+  - published-market-rules
+- slug: trade-on-market-day
+  title: Trade on Market Day
+  goal: The market day is set up, run and cleared safely, and fees are collected as the rules set them.
+  step: markets-and-local-trade/market-day-operation
+  touchpoints:
+  - market-day-stall
+- slug: pool-the-prices
+  title: Pool the Prices
+  goal: The vendor's anonymised sales and costs are in the data cooperative, and the vendor can benchmark against peer ranges.
+  step: markets-and-local-trade/shared-price-data
+  touchpoints:
+  - vendor-data-cooperative-meeting
+  - published-market-price-board
+- slug: review-the-market
+  title: Review the Market
+  goal: Footfall, prices, vendor incomes and the neighbourhoods still without a market are reviewed, and the plan and rules are changed.
+  step: markets-and-local-trade/market-review
+  touchpoints:
+  - market-review-meeting

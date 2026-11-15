@@ -1,0 +1,19 @@
+kind: journey
+slug: staff-representation-initiative-journey
+title: Staff Representation Initiative Journey
+stakeholder: staff-representation
+summary: The staff representation is consulted when an initiative is set up and watches its effect on workload and working conditions
+  during delivery.
+stages:
+- slug: be-consulted-early
+  title: Be Consulted Early
+  goal: Learn the initiative's effect on jobs and working conditions before work starts.
+  step: strategic-initiative-portfolio/initiative-mobilisation
+  touchpoints:
+  - staff-consultation
+- slug: watch-the-burden
+  title: Watch the Burden
+  goal: Track workload and working conditions during delivery and intervene where they suffer.
+  step: strategic-initiative-portfolio/initiative-delivery
+  touchpoints:
+  - staff-consultation

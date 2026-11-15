@@ -1,0 +1,34 @@
+kind: entity
+slug: mood-record
+title: Mood Record
+type: intelligence
+summary: What this person has felt over time, dated. Distinct from `emotional-state`, which names a state deliberately sought together
+  with what reliably produces it; this only observes.
+attributes:
+- name: felt-on
+  type: date
+  card: 1..1
+- name: feeling
+  type: text
+  card: 1..1
+- name: in-the-body
+  type: text
+  card: 0..1
+- name: what-happened
+  type: text
+  card: 0..1
+- name: story-told
+  type: text
+  card: 0..1
+- name: context
+  type: text
+  card: 0..1
+states:
+- noticed
+- named
+- looked back on
+relations:
+- target: self
+  type: about
+- target: body
+  type: about

@@ -1,0 +1,13 @@
+kind: solution
+slug: social-publishing-platform
+title: Social Publishing Platform
+role: system-of-engagement
+sovereignty: third-party
+summary: Reaches people where they already are, on terms and through a feed the platform sets and can change.
+carries:
+- meeting-people-where-they-are
+holds:
+- channel
+- publication
+- audience-relation
+- data-trace

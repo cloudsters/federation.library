@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: cargo-bike-round
+title: Cargo Bike Round
+medium: encounter
+summary: The delivery round by cargo bike or small electric vehicle from the hub to homes and pickup points, run on a schedule the
+  rider may stop if it puts them at risk.
+exchanges:
+- delivery-work-for-fair-pay-and-safe-schedules
+journey: delivery-carrier-delivering-through-shared-hubs

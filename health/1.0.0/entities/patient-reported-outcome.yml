@@ -1,0 +1,46 @@
+kind: entity
+slug: patient-reported-outcome
+title: Patient-Reported Outcome
+type: transactional
+summary: A patient's own report of symptoms, function or quality of life at a defined point in care, collected with a validated instrument
+  so that outcomes can be compared across time and providers.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: instrument
+  type: reference(assessment-instrument)
+  card: 1..1
+- name: episode-of-care
+  type: reference(episode-of-care)
+  card: 0..1
+- name: time-point
+  type: code
+  card: 1..1
+- name: completed-at
+  type: datetime
+  card: 0..1
+- name: responses
+  type: document
+  card: 0..1
+- name: scores
+  type: quantity
+  card: 0..*
+states:
+- invited
+- in-progress
+- completed
+- expired
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

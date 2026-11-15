@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: remote-image-reading
+title: Remote Image Reading
+between:
+- diagnostic-physician
+- referring-hospital
+offered:
+- Reading and reporting of images acquired at the partner site around the clock, with urgent findings communicated directly to the
+  responsible clinician.
+returned:
+- Images acquired to the agreed protocols with the clinical indication stated, and the agreed fee per examination.
+touchpoint: clinical-messaging-service

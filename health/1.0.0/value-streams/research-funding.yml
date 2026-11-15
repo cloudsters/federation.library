@@ -1,0 +1,124 @@
+kind: value-stream
+slug: research-funding
+title: Research Funding
+family: value-to-sustainability
+summary: 'Winning and stewarding external research funding: identifying calls, preparing and submitting applications, negotiating
+  awards, administering grants and reporting to funders through close-out.'
+trigger: A funding call is published, or a research group seeks external funding for a project.
+outcome: The grant is awarded, spent according to its terms and closed with accepted financial and scientific reports.
+stakeholders:
+- clinician-scientist
+- research-scientist
+- research-funder
+- industry-partner
+- administrative-staff
+steps:
+- slug: funding-opportunity-scouting
+  title: Funding Opportunity Scouting
+  summary: The grant office scouts funding calls and industry interest and matches them to research groups according to the research
+    and funding strategy.
+  capabilities:
+  - third-party-funding-strategy
+  - grant-application-management
+  - research-strategy-design
+  entities:
+  - research-grant
+  - organisation
+  serves:
+  - research-funding-advice
+- slug: application-preparation-and-submission
+  title: Application Preparation and Submission
+  summary: Researchers write the proposal, and the grant office calculates the full-cost budget with overheads, secures the internal
+    approvals and submits the application before the deadline.
+  capabilities:
+  - grant-application-management
+  - research-question-development
+  - biostatistics-support
+  - cost-accounting
+  entities:
+  - research-grant
+  - research-study
+  - study-protocol
+  serves:
+  - funding-proposal
+  - research-funding-advice
+- slug: award-negotiation-and-contracting
+  title: Award Negotiation and Contracting
+  summary: After a positive decision, budget, eligible costs, rights to results and publication terms are negotiated, and the grant
+    agreement or research contract is signed.
+  capabilities:
+  - grant-award-administration
+  - industry-research-contracting
+  - contract-lifecycle-stewardship
+  - intellectual-property-management
+  - anti-corruption-and-conflicts-of-interest
+  entities:
+  - research-grant
+  - contract
+  serves:
+  - grant-agreement
+- slug: grant-set-up
+  title: Grant Set-Up
+  summary: The grant receives its own cost centre and budget lines, funded positions are created and filled, and the funder's conditions
+    are made known to the project team.
+  capabilities:
+  - grant-award-administration
+  - responsibility-accounting
+  - position-requisition-management
+  entities:
+  - research-grant
+  - cost-centre
+  - budget
+  - position
+  serves:
+  - research-funding-advice
+- slug: grant-spending-and-compliance
+  title: Grant Spending and Compliance
+  summary: Spending is checked against eligible-cost rules and the grant budget, the working time of funded staff is recorded, and
+    changes to plan or budget are agreed with the funder.
+  capabilities:
+  - grant-award-administration
+  - budgetary-control-encumbrance
+  - time-and-attendance
+  - separated-activity-accounting
+  entities:
+  - research-grant
+  - ledger-entry
+  - working-time-record
+  - budget
+  serves:
+  - research-funding-advice
+- slug: reporting-and-close-out
+  title: Reporting and Close-Out
+  summary: Interim and final financial and scientific reports are delivered, funder audits are answered, the grant is closed and its
+    outputs are attributed to the funder.
+  capabilities:
+  - grant-award-administration
+  - research-publication
+  - research-performance-assessment
+  entities:
+  - research-grant
+  - publication
+  - audit
+  serves:
+  - scientific-publication
+  - use-of-funds-statement
+- slug: overhead-reinvestment
+  title: Overhead Reinvestment
+  summary: Overheads earned on grants are collected and reinvested in core facilities, research data infrastructure and the groups
+    that earned them, by published rules.
+  capabilities:
+  - research-overhead-and-reinvestment
+  - research-infrastructure-planning
+  - research-and-teaching-fund-allocation
+  entities:
+  - research-grant
+  - budget
+  - cost-centre
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global

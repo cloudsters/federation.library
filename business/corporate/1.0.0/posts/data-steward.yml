@@ -1,0 +1,12 @@
+kind: post
+slug: data-steward
+title: Data Steward
+summary: 'Keeps the data of one domain defined, sound and properly used.'
+of: data-and-analytics
+responsibility: Answers for the definitions, quality and proper use of the data of one domain.
+accountable: body:data-and-analytics
+type: role
+binds:
+- source: src-147
+  edition: '2022'
+  jurisdiction: global

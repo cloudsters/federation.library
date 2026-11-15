@@ -1,0 +1,80 @@
+kind: value-stream
+slug: effort-to-recovery
+title: Building in Rest
+family: demand-to-fulfillment
+summary: Rest as an active process built into the work rather than a concession granted after it. A life without recovery runs on
+  momentum until the momentum ends.
+trigger: Weekends no longer restore, holidays are spent falling ill, or the body stops recovering overnight.
+outcome: Rest is part of how the person works rather than a reward granted after it, and the life keeps moving without running down.
+stakeholders:
+- employer
+- partner
+- client
+- place
+steps:
+- slug: noticing-rest-no-longer-restores
+  title: Noticing Rest No Longer Restores
+  summary: Weekends pass without restoring and holidays begin with illness; the person admits they have been running on momentum.
+  capabilities:
+  - noticing-ones-own-depletion
+  - heeding-early-warnings
+  entities:
+  - strain-indicator
+  - recovery-period
+  - body
+- slug: seeing-the-pattern
+  title: Seeing the Pattern
+  summary: The person traces how effort and rest actually alternate across their weeks, and where rest keeps being pushed back.
+  capabilities:
+  - recognising-ones-own-patterns
+  entities:
+  - pattern-log
+  - time-audit
+  - weekly-rhythm
+- slug: learning-what-restores
+  title: Learning What Restores
+  summary: The person finds out which kinds of rest truly bring them back, such as sleep, movement, company, solitude, nature or making,
+    and which only numb.
+  capabilities:
+  - knowing-what-restores-oneself
+  - making-room-for-play
+  entities:
+  - energy-log
+  - journal
+  - recovery-period
+- slug: building-rest-into-the-work
+  title: Building Rest Into the Work
+  summary: Pauses within the day, quieter days in the week and longer breaks in the year are placed before the work fills the calendar.
+  capabilities:
+  - building-pauses-into-work
+  - designing-ones-own-day
+  entities:
+  - daily-rhythm
+  - weekly-rhythm
+  - recovery-period
+  serves:
+  - shared-calendar
+- slug: letting-work-actually-stop
+  title: Letting Work Actually Stop
+  summary: During rest the work is truly put down, and those who depend on the person know who covers for them and when they return.
+  capabilities:
+  - putting-work-down
+  - handing-things-over
+  entities:
+  - boundary-set
+  - delegation-line
+  - employer-relation
+  - client-relation
+  serves:
+  - away-message
+  - end-of-the-working-day
+- slug: keeping-rest-under-pressure
+  title: Keeping Rest Under Pressure
+  summary: When a demanding season comes, rest is shortened rather than cancelled, and the debt is paid back soon after it ends.
+  capabilities:
+  - heeding-early-warnings
+  - saying-no-early
+  entities:
+  - recovery-period
+  - commitment
+  - strain-indicator

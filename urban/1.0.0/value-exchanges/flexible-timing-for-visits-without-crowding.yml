@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: flexible-timing-for-visits-without-crowding
+title: Flexible Timing for Visits Without Crowding
+between:
+- visitor
+- city-administration
+offered:
+- The visitor's willingness to come at less crowded times and by other routes.
+returned:
+- A visit without the crowding, and a place that its neighbours can still use.
+touchpoint: timed-entry-and-route-guidance

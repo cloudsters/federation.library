@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consolidated-results-for-lending-confidence
+title: Consolidated Results for Lending Confidence
+between:
+- parent-company
+- lender
+offered:
+- Consolidated results with currency effects explained and the strength of the whole group visible.
+returned:
+- Credit and cash pooling for the group on terms that reflect its strength.
+touchpoint: lender-review

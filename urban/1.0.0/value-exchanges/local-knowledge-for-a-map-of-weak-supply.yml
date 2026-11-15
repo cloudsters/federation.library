@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: local-knowledge-for-a-map-of-weak-supply
+title: Local Knowledge for a Map of Weak Supply
+between:
+- neighbourhood-association
+- procurement-officer
+offered:
+- The neighbourhood's knowledge of where its food, water and medicine come from and who would be cut off first.
+returned:
+- A published map that shows the neighbourhood's dependencies and the reserves planned for it.
+touchpoint: essential-supply-mapping-session

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: risk-profile-for-board-decision
+title: Risk Profile for Board Decision
+between:
+- quality-and-safety-manager
+- executive
+offered:
+- Quality and safety present the clinical risk profile, the state of controls and the residual risks that exceed the agreed
+  appetite.
+returned:
+- The executive board decides on acceptance, resources and owners, and asks for evidence that the controls work.
+touchpoint: board-meeting

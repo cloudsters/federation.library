@@ -1,0 +1,58 @@
+kind: entity
+slug: cross-boundary-agreement
+title: Cross-Boundary Agreement
+type: governance
+summary: An agreement with neighbouring municipalities on water, transit, land or services that cross the city's boundary, sharing
+  decisions, costs and maintenance and giving a voice to those who rely on them. Each party's council approves it, and it is kept
+  and reviewed by the bodies it names.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: subject
+  type: text
+  card: 1..1
+- name: infrastructure-covered
+  type: text
+  card: 1..*
+- name: decision-sharing
+  type: text
+  card: 1..1
+- name: cost-sharing
+  type: text
+  card: 1..1
+- name: maintenance-duties
+  type: text
+  card: 0..*
+- name: user-voice
+  type: text
+  card: 0..1
+- name: dispute-procedure
+  type: text
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 1..*
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiated
+- approved
+- in-force
+- reviewed
+- renewed
+- terminated
+relations:
+- type: refers-to
+  target: city
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: contract

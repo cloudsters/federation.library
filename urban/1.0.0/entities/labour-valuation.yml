@@ -1,0 +1,55 @@
+kind: entity
+slug: labour-valuation
+title: Labour Valuation
+type: intelligence
+summary: The record, made with those who do it, of the care, maintenance and emotional work behind a service or a shared place, paid
+  and unpaid, with the time it takes and the value agreed. The service or the neighbourhood body keeps it with the people it describes,
+  and it is used to share the care load, to set commons work pay and to recognise what is given.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: public-service
+  type: reference(public-service)
+  card: 0..1
+- name: place
+  type: text
+  card: 0..1
+- name: kinds-of-work
+  type: text
+  card: 1..*
+- name: carried-by
+  type: text
+  card: 0..*
+- name: hours-per-month
+  type: quantity
+  card: 0..1
+- name: paid-share
+  type: decimal
+  card: 0..1
+- name: value-agreed
+  type: amount
+  card: 0..1
+- name: care-map
+  type: reference(care-map)
+  card: 0..1
+- name: recorded-on
+  type: date
+  card: 1..1
+states:
+- started
+- mapped
+- agreed
+- published
+- updated
+relations:
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: park
+- type: based-on
+  target: care-map
+- type: produces
+  target: livelihood-floor-agreement
+- type: refers-to
+  target: role-rotation-schedule

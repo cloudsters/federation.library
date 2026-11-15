@@ -1,0 +1,34 @@
+kind: journey
+slug: resident-inspector-reviewing-service-quality
+title: Resident Inspector Reviewing Service Quality
+stakeholder: resident-inspector
+summary: A resident inspector checks that services publish the standards they promise, inspects quality where services are delivered,
+  tests whether corrective actions really closed and reports to the regular quality review.
+stages:
+- slug: check-the-promised-standards
+  title: Check the Promised Standards
+  goal: The inspector sees that each service has set its standards with those who use and deliver it and published them.
+  step: service-quality-and-learning-from-failure/service-standard-setting
+  touchpoints:
+  - service-standard-workshop
+  - published-service-standard
+- slug: inspect-at-the-point-of-service
+  title: Inspect at the Point of Service
+  goal: The inspector checks quality where the service is delivered, using its built-in checks and residents' feedback.
+  step: service-quality-and-learning-from-failure/in-service-quality-checks
+  touchpoints:
+  - point-of-service-feedback
+  - built-in-quality-checklist
+- slug: test-whether-actions-closed
+  title: Test Whether Actions Closed
+  goal: The inspector tests whether corrective actions closed with a checked effect or only on paper.
+  step: service-quality-and-learning-from-failure/corrective-action
+  touchpoints:
+  - corrective-action-tracker
+- slug: report-to-the-review
+  title: Report to the Review
+  goal: Findings of the inspection go into the quality review, which reports to the council and answers each finding in public.
+  step: service-quality-and-learning-from-failure/quality-review-and-lesson-sharing
+  touchpoints:
+  - service-quality-review-meeting
+  - published-service-quality-report

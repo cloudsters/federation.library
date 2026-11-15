@@ -1,0 +1,109 @@
+kind: value-stream
+slug: civil-society-partnership
+title: Civil-Society Partnership
+family: participant-to-community
+summary: Working with the associations, cooperatives, faith communities, schools and other anchor institutions through which residents
+  act together, as partners that stay independent of the city. It holds the map of the city's civil society and the relationship the
+  city holds with each body, a partnership compact that states what each side owes the other, agreements with anchor institutions
+  on sharing their land, buildings and knowledge with the neighbourhoods around them, support for coalitions that join groups across
+  the city, safeguards against funding dependency and capture, and a joint review of each partnership.
+trigger: A council term begins, the partnership compact falls due for renewal, a civil-society body or anchor institution proposes
+  a partnership, or a review shows a community body losing touch with those it serves.
+outcome: Civil-society bodies and anchor institutions work with the city on agreed terms, keep their independence and their ties to
+  residents, and join in coalitions that act for the city as a whole.
+stakeholders:
+- civil-society-organisation
+- neighbourhood-association
+- faith-communities
+- research-institution
+- local-business
+- city-council
+- mayor
+- city-administration
+steps:
+- slug: civil-society-mapping
+  title: Civil-Society Mapping
+  summary: The administration maps with community bodies the associations, cooperatives, faith communities, schools and anchor institutions
+    active in the city, whom each serves, where they work and the relationship the city holds with each.
+  capabilities:
+  - civil-society-mapping
+  - community-asset-mapping
+  entities:
+  - civil-society-directory
+  - civil-society-body
+  serves:
+  - civil-society-directory-view
+  - civil-society-mapping-session
+- slug: partnership-compact
+  title: Partnership Compact
+  summary: The city and civil society agree a compact that states how the city consults them, funds them on fair multi-year terms,
+    respects their right to campaign and criticise, and resolves disagreements, and the council adopts it.
+  capabilities:
+  - partnership-compact-drafting
+  - council-decision-recording
+  - community-grant-making
+  entities:
+  - partnership-compact
+  - council-decision
+  serves:
+  - adopted-partnership-compact
+  - compact-negotiation
+- slug: anchor-institution-agreements
+  title: Anchor Institution Agreements
+  summary: Universities, hospitals, schools and faith communities agree with the neighbourhoods around them how they share land, buildings,
+    purchasing, jobs and knowledge, and how neighbours take part in the decisions of the institution that affect them.
+  capabilities:
+  - anchor-institution-agreement-drafting
+  - shared-use-agreement-drafting
+  entities:
+  - anchor-institution-agreement
+  - school
+  - civil-society-body
+  serves:
+  - anchor-agreement-negotiation
+  - anchor-neighbourhood-panel
+- slug: coalition-support
+  title: Coalition Support
+  summary: The city convenes and supports coalitions that join neighbourhood bodies and civil-society organisations across the city
+    on shared questions, with clear agreements that respect the independence of each member.
+  capabilities:
+  - coalition-convening
+  - neighbourhood-body-support
+  entities:
+  - civic-coalition
+  - civil-society-body
+  serves:
+  - coalition-convening-meeting
+- slug: independence-safeguards
+  title: Independence Safeguards
+  summary: Funding, access and recognition are given on published criteria so that no body depends on a single funder or is captured
+    by gatekeepers, and the city checks that the bodies it works with stay open and answerable to those they speak for.
+  capabilities:
+  - independence-safeguard-review
+  - community-body-recognition
+  - interest-declaration-handling
+  entities:
+  - partnership-compact
+  - community-grant
+  serves:
+  - independence-check
+  - published-funding-criteria
+- slug: partnership-review
+  title: Partnership Review
+  summary: The city and its partners review together what each partnership delivered to residents and to both sides and where trust
+    was strained, and renew, change or end it.
+  capabilities:
+  - partnership-review
+  - lesson-recording-and-sharing
+  entities:
+  - partnership-review-report
+  - partnership-compact
+  serves:
+  - joint-partnership-review
+binds:
+- source: src-179
+  edition: '2015-09-25'
+  jurisdiction: global
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global

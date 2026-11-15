@@ -1,0 +1,31 @@
+kind: journey
+slug: development-engineer-stewarding-an-open-release
+title: Development Engineer Stewarding an Open Release
+stakeholder: development-engineer
+summary: A development engineer helps decide what to open, publishes the release with documentation, supports forks and reviews contributions
+  from adopters.
+stages:
+- slug: decide-what-to-open
+  title: Decide What to Open
+  goal: The parts to release openly and the licence that governs them are decided.
+  step: commons-open-distribution/open-release-decision
+  touchpoints:
+  - open-release-review
+- slug: publish-with-documentation
+  title: Publish with Documentation
+  goal: The release is published with licence, documentation and a model for forking.
+  step: commons-open-distribution/open-publication
+  touchpoints:
+  - open-repository
+- slug: support-forks
+  title: Support Forks
+  goal: Local instances are supported and stay connected to the shared origin.
+  step: commons-open-distribution/fork-and-federation-support
+  touchpoints:
+  - federation-meeting
+- slug: review-contributions
+  title: Review Contributions
+  goal: Contributions are reviewed, improved together and taken in.
+  step: commons-open-distribution/contribution-intake-and-steward-recognition
+  touchpoints:
+  - contribution-review

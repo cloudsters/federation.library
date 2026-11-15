@@ -1,0 +1,51 @@
+kind: entity
+slug: mayoral-office
+title: Mayoral Office
+type: master
+summary: The office of the elected head of the city's government and administration, recorded with its holder, term, delegations and
+  the decision rights it carries, including those it takes in an emergency. The council office keeps it, so that residents know who
+  answers for the administration.
+attributes:
+- name: office-title
+  type: text
+  card: 1..1
+- name: office-holder
+  type: text
+  card: 0..1
+- name: appointment-mode
+  type: code
+  card: 1..1
+- name: elected-in
+  type: reference(election)
+  card: 0..1
+- name: term
+  type: period
+  card: 0..1
+- name: deputies
+  type: text
+  card: 0..*
+- name: delegations
+  type: text
+  card: 0..*
+- name: mandate-statement
+  type: text
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+states:
+- vacant
+- elected
+- in-office
+- acting
+- recalled
+- term-ended
+relations:
+- type: part-of
+  target: city
+- type: based-on
+  target: election
+- type: governed-by
+  target: city-constitution
+- type: governed-by
+  target: decision-rights-register

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: daily-walks-for-changed-crossings
+title: Daily Walks for Changed Crossings
+between:
+- parent-or-guardian
+- city-planner
+offered:
+- The routes they walk with their children every day and the times they are busiest.
+returned:
+- Changes at the points they named, and a route children can walk without an adult.
+touchpoint: school-route-walk-with-pupils

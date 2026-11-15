@@ -1,0 +1,55 @@
+kind: entity
+slug: visioning-circle
+title: Visioning Circle
+type: transactional
+summary: A gathering of a neighbourhood, school, trade or community body that imagines and discusses the future it wants, including
+  the knowledge of uncertain futures that street vendors, informal workers, elders and young people already hold. The body that convenes
+  it records it with the support of the administration, and its record goes into the scenarios and the draft vision.
+attributes:
+- name: circle-kind
+  type: code
+  card: 1..1
+- name: convened-by
+  type: text
+  card: 1..1
+- name: vision-review
+  type: reference(city-vision)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: meeting-dates
+  type: date
+  card: 1..*
+- name: participant-count
+  type: integer
+  card: 0..1
+- name: groups-taking-part
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: futures-imagined
+  type: document
+  card: 1..*
+- name: local-future-knowledge
+  type: text
+  card: 0..*
+- name: consent-terms
+  type: text
+  card: 1..1
+states:
+- proposed
+- convened
+- meeting
+- recorded
+- shared
+- closed
+relations:
+- type: refers-to
+  target: city-vision
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: participation-charter

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: matched-route-for-established-facts
+title: Matched Route for Established Facts
+between:
+- legal-and-compliance-officer
+- resident
+offered:
+- Legal advice, the city's complaint route or a court, matched to the dispute.
+returned:
+- The resident's case, with the facts already established.
+touchpoint: referral-with-mediation-summary

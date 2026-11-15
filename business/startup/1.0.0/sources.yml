@@ -1,0 +1,232 @@
+# the attribution list (extension R31), generated at release
+sources:
+- id: src-035
+  designation: BIZBOK Guide
+  edition: '15'
+  jurisdiction: global
+  relation: adopt
+- id: src-055
+  designation: ISO 55001:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-075
+  designation: ISO 9001:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-078
+  designation: ISO/IEC 42001:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-086
+  designation: TOGAF Standard, 10th Edition (C220)
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global
+  relation: adopt
+- id: src-087
+  designation: ArchiMate 4 (C260)
+  edition: '4'
+  jurisdiction: global
+  relation: adopt
+- id: src-088
+  designation: BPMN 2.0.2 / ISO/IEC 19510:2013
+  edition: 2.0.2
+  jurisdiction: global
+  relation: adopt
+- id: src-089
+  designation: ISO 14001:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-090
+  designation: ISO 45001:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-091
+  designation: ISO 50001:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-092
+  designation: ISO 37301:2021
+  edition: 2021-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-093
+  designation: ISO 31000:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-094
+  designation: ISO 22301:2019
+  edition: 2019-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-095
+  designation: ISO/IEC 27001:2022
+  edition: 2022-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-096
+  designation: ISO/IEC 27002:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-097
+  designation: ISO 26000:2010
+  edition: '2010'
+  jurisdiction: global
+  relation: adopt
+- id: src-098
+  designation: ISO 44001:2017
+  edition: 2017-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-099
+  designation: ISO 56001:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-100
+  designation: ISO 37000:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-101
+  designation: G20/OECD Principles of Corporate Governance (2023)
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-102
+  designation: OECD MNE Guidelines (2023)
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-106
+  designation: IFRS Accounting Standards 2026 (issued at 1 January 2026)
+  edition: '2026'
+  jurisdiction: global
+  relation: bind
+- id: src-110
+  designation: GHG Protocol Corporate Standard
+  edition: 2004-scope2-2015
+  jurisdiction: global
+  relation: bind
+- id: src-111
+  designation: GHG Protocol Scope 3 Standard
+  edition: 2011-c2013
+  jurisdiction: global
+  relation: bind
+- id: src-112
+  designation: IFRS S1
+  edition: '2023'
+  jurisdiction: global
+  relation: bind
+- id: src-113
+  designation: IFRS S2, as amended 2025-12
+  edition: 2023-a2025-12
+  jurisdiction: global
+  relation: bind
+- id: src-114
+  designation: GRI Universal Standards 2021 with Sector and Topic Standards
+  edition: '2021'
+  jurisdiction: global
+  relation: bind
+- id: src-115
+  designation: SASB Standards (77 industry Standards)
+  edition: 2023-12
+  jurisdiction: global
+  relation: bind
+- id: src-133
+  designation: ISO 20022-1:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: bind
+- id: src-134
+  designation: Peppol BIS Billing 3.0
+  edition: 3.0.21
+  jurisdiction: global
+  relation: bind
+- id: src-135
+  designation: OASIS UBL 2.5; ISO/IEC 19845:2015 (UBL 2.1)
+  edition: '2.5'
+  jurisdiction: global
+  relation: bind
+- id: src-136
+  designation: UN/EDIFACT D.24A
+  edition: d24a
+  jurisdiction: global
+  relation: bind
+- id: src-137
+  designation: GS1 General Specifications Release 26.0
+  edition: '26.0'
+  jurisdiction: global
+  relation: bind
+- id: src-138
+  designation: GS1 EPCIS 2.0 / ISO/IEC 19987:2024
+  edition: '2.0'
+  jurisdiction: global
+  relation: bind
+- id: src-139
+  designation: XBRL 2.1
+  edition: '2.1'
+  jurisdiction: global
+  relation: bind
+- id: src-140
+  designation: UN/CEFACT XML Cross Industry Invoice
+  edition: d16b
+  jurisdiction: global
+  relation: bind
+- id: src-141
+  designation: Incoterms 2020 (ICC Publication No. 723E)
+  edition: '2020'
+  jurisdiction: global
+  relation: bind
+- id: src-147
+  designation: ISO 8000-1:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: mirror
+- id: src-148
+  designation: ECLASS 16.0
+  edition: '16.0'
+  jurisdiction: global
+  relation: mirror
+- id: src-149
+  designation: IDTA-01001-3-2
+  edition: '3.2'
+  jurisdiction: global
+  relation: mirror
+- id: src-150
+  designation: ISO 17442-1:2020
+  edition: '2020'
+  jurisdiction: global
+  relation: bind
+- id: src-152
+  designation: ITIL (Version 5)
+  edition: '5'
+  jurisdiction: global
+  relation: adopt
+- id: src-153
+  designation: COBIT 2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-154
+  designation: DORA metrics
+  edition: '2026-01-05'
+  jurisdiction: global
+  relation: adopt
+- id: src-155
+  designation: ISO 30414:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-157
+  designation: Kaplan RS, Norton DP, Harvard Business Review 1992;70(1):71–79
+  edition: '1992'
+  jurisdiction: global
+  relation: adopt

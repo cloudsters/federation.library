@@ -1,0 +1,39 @@
+kind: entity
+slug: job-vacancy
+title: Job Vacancy
+type: transactional
+summary: An approved request to fill a position, from approval through advertisement, selection and offer, measured by the time it
+  takes to fill.
+attributes:
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: requirements
+  type: text
+  card: 1..1
+- name: approved-by
+  type: reference(employee)
+  card: 0..1
+- name: advertised-on
+  type: date
+  card: 0..1
+- name: closing-date
+  type: date
+  card: 0..1
+- name: channels
+  type: code
+  card: 0..*
+states:
+- requested
+- approved
+- advertised
+- in-selection
+- filled
+- cancelled
+relations:
+- type: produces
+  target: employment
+binds:
+- source: src-429
+  edition: '4.5'
+  jurisdiction: global

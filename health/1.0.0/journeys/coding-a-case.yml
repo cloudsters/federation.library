@@ -1,0 +1,33 @@
+kind: journey
+slug: coding-a-case
+title: Coding a Case
+stakeholder: administrative-staff
+summary: The clinical coder's path from the open record to a released and defensible case, supported by drafted coding proposals and
+  in dialogue with the clinicians.
+stages:
+- slug: review-the-open-record
+  title: Review the Open Record
+  goal: Gaps in the record are found while the patient is still in care and the clinician still remembers the case.
+  step: clinical-coding-and-documentation-integrity/concurrent-documentation-review
+  touchpoints:
+  - coding-worklist
+  - documentation-query
+- slug: assign-codes
+  title: Assign Codes
+  goal: Diagnoses and procedures are coded correctly and completely, with every drafted proposal confirmed or corrected by the coder.
+  step: clinical-coding-and-documentation-integrity/diagnosis-and-procedure-coding
+  touchpoints:
+  - coding-worklist
+- slug: group-and-release
+  title: Group and Release
+  goal: The case is grouped, checked and released for billing within the commons' target time after discharge.
+  step: clinical-coding-and-documentation-integrity/case-grouping-and-release
+  touchpoints:
+  - coding-worklist
+  - claim
+- slug: review-audit-results
+  title: Review Audit Results
+  goal: Errors found in audits and payer reviews are understood and corrected in the coder's own practice.
+  step: clinical-coding-and-documentation-integrity/coding-quality-audit-and-feedback
+  touchpoints:
+  - coding-feedback-review

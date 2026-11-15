@@ -1,0 +1,66 @@
+kind: entity
+slug: visitor-impact-assessment
+title: Visitor Impact Assessment
+type: intelligence
+summary: The account of visitor numbers, stays and holiday lets and of their effects on homes, rents, local shops, noise and crowding,
+  by neighbourhood and season, with residents' own accounts beside the counts and who gains and who bears the cost. The administration
+  prepares it with host neighbourhoods at a set rhythm, and it is used to set and adjust the visitor strategy and its limits.
+attributes:
+- name: assessment-period
+  type: period
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: visitor-count
+  type: integer
+  card: 1..1
+- name: overnight-stays
+  type: integer
+  card: 0..1
+- name: holiday-let-count
+  type: integer
+  card: 0..1
+- name: rent-change
+  type: decimal
+  card: 0..1
+- name: shop-closures
+  type: integer
+  card: 0..1
+- name: noise-reports
+  type: integer
+  card: 0..1
+- name: crowded-places
+  type: reference(public-space)
+  card: 0..*
+- name: resident-accounts
+  type: text
+  card: 0..*
+- name: gains-and-costs
+  type: text
+  card: 0..*
+- name: report-document
+  type: document
+  card: 1..1
+states:
+- planned
+- gathered
+- analysed
+- reviewed
+- published
+- superseded
+relations:
+- type: based-on
+  target: visitor-stay
+- type: based-on
+  target: holiday-let-register
+- type: based-on
+  target: public-life-survey
+- type: refers-to
+  target: economic-indicators
+- type: refers-to
+  target: visitor-strategy
+binds:
+- source: src-269
+  edition: '2024'
+  jurisdiction: global

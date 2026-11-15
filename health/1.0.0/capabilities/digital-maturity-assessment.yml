@@ -1,0 +1,10 @@
+kind: capability
+slug: digital-maturity-assessment
+title: Digital Maturity Assessment
+level: L3
+parent: digital-strategy-and-governance
+summary: Assess digital maturity with recognised maturity models and steer improvement from the results.
+binds:
+- source: src-052
+  edition: '2022'
+  jurisdiction: global

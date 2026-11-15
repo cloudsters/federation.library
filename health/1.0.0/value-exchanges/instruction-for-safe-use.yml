@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: instruction-for-safe-use
+title: Instruction for Safe Use
+between:
+- clinical-engineer
+- registered-nurse
+offered:
+- Devices released for use with instruction by authorised persons, an operating procedure and a named contact for faults.
+returned:
+- Use within each device's intended purpose, a recorded briefing for every user and early reports of faults and difficulties.
+touchpoint: learning-platform

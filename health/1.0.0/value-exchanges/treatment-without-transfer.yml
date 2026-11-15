@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: treatment-without-transfer
+title: Treatment Without Transfer
+between:
+- specialist-physician
+- critically-ill-patient
+offered:
+- Specialist assessment and decisions that let treatment continue in the local hospital near relatives, and transfer when only the
+  specialist centre can provide what is needed.
+returned:
+- Consent, given personally or by a representative, to remote assessment and data sharing, and the trust that makes decisions taken
+  at a distance acceptable to patient and family.
+touchpoint: consent-form

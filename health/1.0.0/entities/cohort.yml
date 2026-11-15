@@ -1,0 +1,49 @@
+kind: entity
+slug: cohort
+title: Cohort
+type: master
+summary: A defined group of persons followed for research or registry purposes because they share a characteristic, such as a diagnosis,
+  an exposure or a birth year, with explicit inclusion rules and a follow-up schedule.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: inclusion-criteria
+  type: text
+  card: 1..1
+- name: exclusion-criteria
+  type: text
+  card: 0..1
+- name: recruitment-period
+  type: period
+  card: 1..1
+- name: follow-up-schedule
+  type: text
+  card: 0..1
+- name: steward
+  type: reference(organisation-unit)
+  card: 1..1
+- name: consent-basis
+  type: code
+  card: 1..1
+states:
+- planned
+- recruiting
+- in-follow-up
+- closed
+relations:
+- type: based-on
+  target: data-use-consent
+binds:
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-435
+  edition: QUERY-1.1.0
+  jurisdiction: global

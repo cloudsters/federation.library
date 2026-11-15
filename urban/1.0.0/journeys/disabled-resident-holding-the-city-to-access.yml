@@ -1,0 +1,32 @@
+kind: journey
+slug: disabled-resident-holding-the-city-to-access
+title: Disabled Resident Holding the City to Access
+stakeholder: disabled-resident
+summary: A disabled resident records how they find their way, tests the new cues before they are built, audits service points and
+  routes for pay and sees each barrier removed by its published date.
+stages:
+- slug: record-how-they-find-their-way
+  title: Record How They Find Their Way
+  goal: The sounds, textures and landmarks the resident relies on, and the places where the way fails, are on the shared map.
+  step: service-access-and-wayfinding/wayfinding-walks-and-mapping
+  touchpoints:
+  - wayfinding-walk
+- slug: test-the-cues
+  title: Test the Cues
+  goal: Textures, sound cues and colour codes have been tested by the resident before they are built along the route.
+  step: service-access-and-wayfinding/multisensory-wayfinding-design
+  touchpoints:
+  - wayfinding-design-workshop
+- slug: audit-for-pay
+  title: Audit for Pay
+  goal: The resident has audited service points, routes and digital channels at the fixed rhythm and been paid for the time.
+  step: service-access-and-wayfinding/resident-access-audit
+  touchpoints:
+  - resident-access-audit-walk
+- slug: see-each-barrier-removed
+  title: See Each Barrier Removed
+  goal: Each barrier the audit found is removed by its published date, or the delay is explained in public.
+  step: service-access-and-wayfinding/access-and-reach-review
+  touchpoints:
+  - published-access-audit
+  - access-and-reach-review-meeting

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: public-review-for-public-answer
+title: Public Review for Public Answer
+between:
+- consumer
+- customer-service-representative
+offered:
+- A public account of their experience for other buyers to read.
+returned:
+- A prompt, respectful public answer and, where something went wrong, contact to put it right.
+touchpoint: public-reviews

@@ -1,0 +1,95 @@
+kind: value-stream
+slug: global-trade-exchange
+title: Global Trade & Exchange
+family: source-to-alliance
+summary: 'Moving goods and payments across borders lawfully and at the correct duty: classifying goods and checking trade restrictions,
+  using trade preferences, documenting and declaring each shipment, securing cross-border payment and settling in foreign currency.'
+trigger: A cross-border purchase or sale is planned, or goods reach a border.
+outcome: Goods and payments cross borders lawfully, on time and at the correct duty.
+stakeholders:
+- customs-authority
+- logistics-service-provider
+- logistics-coordinator
+- finance-professional
+- supplier
+- business-customer
+steps:
+- slug: classification-and-origin
+  title: Classification and Origin
+  summary: Goods and services are classified for trade, their origin is determined, and restricted goods, destinations and parties
+    are identified before any commitment is made.
+  capabilities:
+  - goods-classification
+  - global-trade-navigation
+  entities:
+  - item
+  - product
+  - compliance-rule
+  serves:
+  - export-licence
+- slug: duty-and-preference-determination
+  title: Duty and Preference Determination
+  summary: Duties are calculated, preferences under trade agreements are claimed with proof of origin, and the landed cost of the
+    goods is updated.
+  capabilities:
+  - customs-duty-assessment
+  - orchestrate-trade-preferences
+  - landed-cost-calculation
+  entities:
+  - customs-declaration
+  - item
+  - tax-rule
+  serves:
+  - proof-of-origin
+  - quotation
+- slug: trade-documentation
+  title: Trade Documentation
+  summary: The commercial, transport and origin documents for each shipment are prepared, checked and kept for inspection.
+  capabilities:
+  - shipment-record-keeping
+  entities:
+  - delivery-note
+  - shipment
+  - sales-invoice
+  - customs-declaration
+  serves:
+  - shipping-documents
+- slug: customs-declaration-and-clearance
+  title: Customs Declaration and Clearance
+  summary: Declarations are lodged with customs, queries are answered, duties are paid and the goods are released for onward transport.
+  capabilities:
+  - customs-authority-dialogue
+  entities:
+  - customs-declaration
+  - shipment
+  - payment
+  serves:
+  - customs-declaration
+  - official-inspection
+- slug: cross-border-payment-security
+  title: Cross-Border Payment Security
+  summary: Payment is secured through letters of credit or other instruments where trust is not yet established, and amounts are converted
+    at the applicable exchange rates.
+  capabilities:
+  - documentary-credit-arrangement
+  - foreign-exchange-conversion
+  entities:
+  - contract
+  - payment
+  - bank-account
+  serves:
+  - letter-of-credit
+- slug: trade-settlement-and-restitution
+  title: Trade Settlement and Restitution
+  summary: Cross-border transactions are settled fairly with all parties, duty refunds are claimed, errors are corrected with the
+    authorities, and any restitution owed is made.
+  capabilities:
+  - trade-settlement-as-fair-exchange
+  - duty-refund-and-restitution
+  entities:
+  - payment
+  - customs-declaration
+  - credit-note
+  serves:
+  - duty-refund-claim
+  - invoice

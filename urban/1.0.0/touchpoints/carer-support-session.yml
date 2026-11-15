@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: carer-support-session
+title: Carer Support Session
+medium: encounter
+summary: A session at which family and neighbour carers arrange relief, receive training, agree pay where the care is work and prepare
+  their part in the care plan.
+exchanges:
+- unpaid-care-for-relief-and-a-voice
+journey: social-worker-joining-care-around-a-person

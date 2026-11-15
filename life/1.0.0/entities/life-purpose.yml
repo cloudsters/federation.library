@@ -1,0 +1,38 @@
+kind: entity
+slug: life-purpose
+title: Life Purpose
+type: master
+summary: The stated reason this life is organised the way it is. It is written to be read back later and found wrong — a purpose that
+  has never been revised has not been tested.
+attributes:
+- name: statement
+  type: text
+  card: 1..1
+- name: working-away-from
+  type: reference(refused-future)
+  card: 0..1
+- name: draws-on
+  type: list(natural-gift)
+  card: 0..*
+- name: written-on
+  type: date
+  card: 1..1
+- name: last-read-back
+  type: date
+  card: 0..1
+- name: earlier-wording
+  type: reference(life-purpose)
+  card: 0..1
+states:
+- sensed
+- stated
+- tested
+- read again
+- outgrown
+relations:
+- target: value-set
+  type: based-on
+- target: natural-gift
+  type: based-on
+- target: life-purpose
+  type: replaces

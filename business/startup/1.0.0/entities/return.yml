@@ -1,0 +1,40 @@
+kind: entity
+slug: return
+title: Return
+type: transactional
+summary: A reversal of exchange — goods coming back from the customer to the organisation, signalling that the value proposition was not
+  fully met and requiring service recovery.
+attributes:
+- name: original-order
+  type: reference(sales-order)
+  card: 0..1
+- name: original-delivery
+  type: reference(delivery-note)
+  card: 0..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: reason
+  type: code
+  card: 1..1
+- name: disposition
+  type: code
+  card: 0..1
+states:
+- requested
+- authorised
+- received
+- inspected
+- restocked
+- scrapped
+- credited
+relations:
+- type: based-on
+  target: delivery-note
+- type: produces
+  target: credit-note
+- type: produces
+  target: stock-entry

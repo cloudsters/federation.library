@@ -1,0 +1,37 @@
+kind: journey
+slug: customs-authority-clearing-a-consignment
+title: Customs Authority Clearing a Consignment
+stakeholder: customs-authority
+summary: A customs authority grants licences for restricted goods, verifies claimed origin, receives correct declarations, inspects
+  and releases consignments and handles corrections and refunds.
+stages:
+- slug: decide-on-a-licence
+  title: Decide on a Licence
+  goal: Restricted goods, destinations and parties are declared before commitment, and licences are applied for where required.
+  step: global-trade-exchange/classification-and-origin
+  touchpoints:
+  - export-licence
+- slug: verify-claimed-origin
+  title: Verify Claimed Origin
+  goal: Proofs of origin behind claimed preferences can be verified.
+  step: global-trade-exchange/duty-and-preference-determination
+  touchpoints:
+  - proof-of-origin
+- slug: receive-the-declaration
+  title: Receive the Declaration
+  goal: Declarations arrive complete and correct, with duties paid.
+  step: global-trade-exchange/customs-declaration-and-clearance
+  touchpoints:
+  - customs-declaration
+- slug: inspect-and-release
+  title: Inspect and Release
+  goal: Goods selected for control are presented and released without delay.
+  step: global-trade-exchange/customs-declaration-and-clearance
+  touchpoints:
+  - official-inspection
+- slug: correct-and-refund
+  title: Correct and Refund
+  goal: Errors are corrected voluntarily and refund claims are documented.
+  step: global-trade-exchange/trade-settlement-and-restitution
+  touchpoints:
+  - duty-refund-claim

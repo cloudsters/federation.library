@@ -1,0 +1,14 @@
+kind: body
+slug: innovation-and-intellectual-property
+title: Innovation and Intellectual Property
+summary: Runs the innovation portfolio and partnerships, protects inventions and brands and licenses or shares what the enterprise
+  has created.
+holds:
+- innovation-and-transfer
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-099
+  edition: '2024'
+  jurisdiction: global

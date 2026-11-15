@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: yearly-maintenance-review-meeting
+title: Yearly Maintenance Review Meeting
+medium: encounter
+summary: The yearly meeting in each neighbourhood at which condition, response times and backlog are compared with the service levels.
+exchanges:
+- performance-figures-for-neighbourhood-judgement
+journey: frontline-worker-keeping-the-city-in-service

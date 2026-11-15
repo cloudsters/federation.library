@@ -1,0 +1,33 @@
+kind: entity
+slug: promotion
+title: Promotion
+type: intelligence
+summary: A time-bound exchange incentive — a deliberate price or value adjustment designed to stimulate demand, clear inventory, or
+  attract new participants into the ecosystem.
+attributes:
+- name: eligibility
+  type: text
+  card: 1..1
+- name: benefit
+  type: text
+  card: 1..1
+- name: validity
+  type: period
+  card: 1..1
+- name: usage-limits
+  type: integer
+  card: 0..1
+- name: redemptions
+  type: integer
+  card: 0..1
+- name: price-list
+  type: reference(price-list)
+  card: 0..1
+states:
+- designed
+- active
+- expired
+- analysed
+relations:
+- type: refers-to
+  target: price-list

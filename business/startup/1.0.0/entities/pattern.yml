@@ -1,0 +1,38 @@
+kind: entity
+slug: pattern
+title: Pattern
+type: intelligence
+summary: A unit of transferable know-how — a named, recurring solution to a problem in a context, distilled from experience and shared with
+  the community, growing richer with each application.
+attributes:
+- name: level
+  type: code
+  card: 1..1
+- name: context
+  type: text
+  card: 1..1
+- name: problem
+  type: text
+  card: 1..1
+- name: forces
+  type: text
+  card: 1..1
+- name: solution
+  type: text
+  card: 1..1
+- name: consequences
+  type: text
+  card: 1..1
+- name: related
+  type: reference(pattern)
+  card: 0..*
+states:
+- discovered
+- drafted
+- reviewed
+- published
+- applied
+- evolved
+relations:
+- type: refers-to
+  target: pattern

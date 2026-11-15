@@ -1,0 +1,57 @@
+kind: entity
+slug: building-installation
+title: Building Installation
+type: master
+summary: A technical installation of a building, such as a ventilation unit, lift, emergency generator, medical gas pipeline, fire
+  alarm or water system, held with the areas it serves, its criticality for care, its inspection duties and its maintenance plan.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: facility
+  type: reference(facility)
+  card: 1..1
+- name: installation-kind
+  type: code
+  card: 1..1
+- name: served-rooms
+  type: reference(room)
+  card: 0..*
+- name: criticality
+  type: code
+  card: 1..1
+- name: inspection-interval
+  type: quantity
+  card: 0..1
+- name: next-inspection
+  type: date
+  card: 0..1
+- name: asset
+  type: reference(asset)
+  card: 0..1
+states:
+- in-commissioning
+- in-operation
+- in-maintenance
+- out-of-service
+- decommissioned
+relations:
+- type: part-of
+  target: facility
+- type: governed-by
+  target: compliance-obligation
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-302
+  edition: '2016'
+  jurisdiction: global
+- source: src-409
+  edition: '2024'
+  jurisdiction: global
+- source: src-442
+  edition: V3.0
+  jurisdiction: global
+- source: src-518
+  edition: '2011'
+  jurisdiction: global

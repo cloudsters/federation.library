@@ -1,0 +1,35 @@
+kind: journey
+slug: resident-seeing-where-the-city-spends
+title: Resident Seeing Where the City Spends
+stakeholder: resident
+summary: A resident reads where the city's money lands, helps set what the city should value beyond price, follows the choice between
+  providing a service itself and buying it, and sees in the forward plan what the city will buy.
+stages:
+- slug: see-where-the-money-lands
+  title: See Where the Money Lands
+  goal: The resident can see how much the city spends with local, small and cooperative suppliers and in which neighbourhoods.
+  step: procurement-strategy-and-category-planning/spend-and-demand-analysis
+  touchpoints:
+  - published-spend-analysis
+- slug: say-what-the-city-should-value
+  title: Say What the City Should Value
+  goal: The resident has helped weigh local ownership, living wages, worker voice and emissions against price, and sees the weights
+    adopted.
+  step: procurement-strategy-and-category-planning/procurement-policy-and-criteria
+  touchpoints:
+  - criteria-co-design-workshop
+  - published-procurement-scorecard
+- slug: follow-the-provision-choice
+  title: Follow the Provision Choice
+  goal: The resident has been heard on whether the city should run a service itself and can follow the council's decision and its
+    reasons.
+  step: procurement-strategy-and-category-planning/own-provision-or-contract-choice
+  touchpoints:
+  - provision-option-review
+  - procurement-committee-session
+- slug: read-what-the-city-will-buy
+  title: Read What the City Will Buy
+  goal: The resident can read the purchases planned and the criteria that will apply to them.
+  step: procurement-strategy-and-category-planning/forward-procurement-plan
+  touchpoints:
+  - published-forward-procurement-plan

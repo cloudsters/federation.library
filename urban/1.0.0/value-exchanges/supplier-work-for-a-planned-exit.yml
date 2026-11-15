@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: supplier-work-for-a-planned-exit
+title: Supplier Work for a Planned Exit
+between:
+- technology-supplier
+- city-administration
+offered:
+- Working components, their documentation and the city's data in open formats.
+returned:
+- A fair contract whose terms for handing back code and data are known to both sides from the start.
+touchpoint: supplier-exit-plan-review

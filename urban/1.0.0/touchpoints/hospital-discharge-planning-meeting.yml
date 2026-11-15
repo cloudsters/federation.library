@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: hospital-discharge-planning-meeting
+title: Hospital Discharge Planning Meeting
+medium: encounter
+summary: The meeting, held before a person leaves hospital or moves between services around birth, into adult services or at the end
+  of life, in which the handover is planned with them and their family.
+exchanges:
+- discharge-notice-for-care-ready-at-home
+- family-plans-for-support-around-birth
+journey: social-worker-joining-care-around-a-person

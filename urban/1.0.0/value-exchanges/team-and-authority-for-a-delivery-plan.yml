@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: team-and-authority-for-a-delivery-plan
+title: Team and Authority for a Delivery Plan
+between:
+- mayor
+- city-administration
+offered:
+- A programme's team, budget and authority to act.
+returned:
+- A delivery plan that the programme owner answers for.
+touchpoint: programme-launch-meeting

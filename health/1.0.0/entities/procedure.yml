@@ -1,0 +1,68 @@
+kind: entity
+slug: procedure
+title: Procedure
+type: transactional
+summary: An intervention performed on or for a patient, whether surgical, interventional, diagnostic, therapeutic or nursing, recorded
+  with what was done, where on the body, by whom and with what outcome, and coded for documentation, payment and quality.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: code
+  type: code
+  card: 1..1
+- name: body-site
+  type: code
+  card: 0..*
+- name: performed-period
+  type: period
+  card: 1..1
+- name: performers
+  type: reference(practitioner-role)
+  card: 1..*
+- name: outcome
+  type: code
+  card: 0..1
+- name: devices-used
+  type: reference(medical-device)
+  card: 0..*
+states:
+- preparation
+- in-progress
+- completed
+- not-done
+- stopped
+- entered-in-error
+relations:
+- type: based-on
+  target: clinical-order
+- type: based-on
+  target: informed-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

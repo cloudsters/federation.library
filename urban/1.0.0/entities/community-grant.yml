@@ -1,0 +1,62 @@
+kind: entity
+slug: community-grant
+title: Community Grant
+type: transactional
+summary: A multi-year grant the city gives to a neighbourhood association or civil-society organisation on published criteria, with
+  its purpose, term and light reporting. The department responsible awards and pays it, and its terms keep the body answerable to
+  the people it serves rather than to the city's funding.
+attributes:
+- name: grant-number
+  type: identifier
+  card: 1..1
+- name: recipient-body
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: criteria-applied
+  type: text
+  card: 1..*
+- name: amount-per-year
+  type: amount
+  card: 1..1
+- name: grant-term
+  type: period
+  card: 1..1
+- name: reporting-rule
+  type: text
+  card: 0..1
+- name: payment-schedule
+  type: document
+  card: 0..1
+- name: awarded-by
+  type: reference(council-decision)
+  card: 0..1
+- name: awarded-on
+  type: date
+  card: 1..1
+states:
+- applied
+- assessed
+- awarded
+- paid
+- reported
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: participation-charter
+- type: produces
+  target: payment
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

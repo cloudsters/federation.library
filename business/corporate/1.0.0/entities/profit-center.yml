@@ -1,0 +1,36 @@
+kind: entity
+slug: profit-center
+title: Profit Center
+type: master
+summary: Where value is created and measured — a responsibility centre that tracks both revenue and cost, revealing where the system
+  actually generates surplus. Unlike a cost centre (which sees only outflow), a profit centre shows the full picture of value creation.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: code
+  type: identifier
+  card: 1..1
+- name: parent
+  type: reference(profit-center)
+  card: 0..1
+- name: business-unit
+  type: reference(business-unit)
+  card: 0..1
+states:
+- defined
+- budgeted
+- transacted
+- analysed
+- closed
+relations:
+- type: part-of
+  target: profit-center
+- type: refers-to
+  target: cost-center
+- type: assigned-to
+  target: business-unit
+- type: refers-to
+  target: account
+- type: governed-by
+  target: budget

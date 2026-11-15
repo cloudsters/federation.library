@@ -1,0 +1,10 @@
+kind: capability
+slug: mission-articulation
+title: Mission Articulation
+level: L3
+parent: purpose-and-values
+summary: State the organisation's mission as a short commitment that guides decisions across care, research and teaching.
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global

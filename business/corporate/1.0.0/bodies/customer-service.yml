@@ -1,0 +1,9 @@
+kind: body
+slug: customer-service
+title: Customer Service
+summary: Designs the customer experience, onboards customers, resolves their requests and complaints and listens to their feedback.
+holds:
+- customer-service-and-experience
+part_of: executive-board
+type: function
+form: organisational-unit

@@ -1,0 +1,51 @@
+kind: entity
+slug: council
+title: City Council
+type: master
+summary: The elected body that decides for the municipality, with its members, committees and term of office. The record is kept by
+  the council's own office and shows residents who holds the mandate and which decision rights come with it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: constituted-by
+  type: reference(election)
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: member-count
+  type: integer
+  card: 1..1
+- name: members
+  type: text
+  card: 1..*
+- name: committees
+  type: text
+  card: 0..*
+- name: rules-of-procedure
+  type: document
+  card: 1..1
+- name: mandate-statement
+  type: text
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+states:
+- elected
+- constituted
+- sitting
+- dissolved
+- term-ended
+relations:
+- type: part-of
+  target: city
+- type: based-on
+  target: election
+- type: governed-by
+  target: city-constitution
+- type: governed-by
+  target: decision-rights-register
+- type: produces
+  target: council-decision

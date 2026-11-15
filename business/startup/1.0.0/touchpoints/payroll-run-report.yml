@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: payroll-run-report
+title: Payroll Run Report
+medium: artefact
+summary: The report of a pay run with totals, exceptions and checks, reviewed before the run is released for payment.
+exchanges:
+- reconciled-payroll-for-clean-books
+journey: payroll-specialist-closing-a-pay-run

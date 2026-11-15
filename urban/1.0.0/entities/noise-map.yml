@@ -1,0 +1,53 @@
+kind: entity
+slug: noise-map
+title: Noise Map
+type: intelligence
+summary: The spatial distribution of noise levels across the city by time of day. The environment office models and measures it, with
+  sensors placed first in the most exposed neighbourhoods, and uses it to enforce the noise rules and to review which neighbourhoods
+  bear the heaviest burden.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: noise-sources
+  type: code
+  card: 1..*
+- name: time-bands
+  type: code
+  card: 1..*
+- name: method
+  type: code
+  card: 1..1
+- name: levels-map
+  type: document
+  card: 1..1
+- name: measurement-points
+  type: reference(sensor)
+  card: 0..*
+- name: residents-above-limit
+  type: integer
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+states:
+- measured
+- modelled
+- validated
+- published
+- superseded
+relations:
+- type: based-on
+  target: sensor
+- type: refers-to
+  target: noise-regulation
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: gis-layer

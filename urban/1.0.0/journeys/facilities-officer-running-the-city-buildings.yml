@@ -1,0 +1,50 @@
+kind: journey
+slug: facilities-officer-running-the-city-buildings
+title: Facilities Officer Running the City Buildings
+stakeholder: facilities-officer
+summary: The facilities officer reviews how each building is used, keeps its installations safe, retrofits the worst performers, opens
+  rooms to neighbourhoods, reactivates empty buildings and hands buildings to community operators.
+stages:
+- slug: review-how-buildings-are-used
+  title: Review How Buildings Are Used
+  goal: The use, cost and emissions of each building are known, and space to share, combine or release is proposed.
+  step: public-buildings-and-facilities/building-use-review
+  touchpoints:
+  - building-use-walk-through
+  - published-building-energy-ratings
+- slug: keep-installations-safe
+  title: Keep Installations Safe
+  goal: Heating, ventilation, water, lifts, lighting and fire safety installations are run, checked and in order.
+  step: public-buildings-and-facilities/building-operation-and-safety
+  touchpoints:
+  - installation-and-fire-safety-check
+  - building-help-desk
+- slug: retrofit-the-worst-performers
+  title: Retrofit the Worst Performers
+  goal: The buildings that use the most energy are insulated, re-equipped and fitted with renewable energy.
+  step: public-buildings-and-facilities/energy-use-and-retrofit
+  touchpoints:
+  - retrofit-works-briefing
+  - community-energy-roof-agreement
+- slug: open-rooms-to-neighbourhoods
+  title: Open Rooms to Neighbourhoods
+  goal: Halls, classrooms, kitchens and yards are open to residents outside their main hours, booked openly with keys held by trusted
+    groups.
+  step: public-buildings-and-facilities/shared-use-with-neighbourhoods
+  touchpoints:
+  - out-of-hours-room-booking
+  - key-holding-agreement
+- slug: reactivate-empty-buildings
+  title: Reactivate Empty Buildings
+  goal: Empty buildings are safe and open for interim or lasting community use that keeps their character.
+  step: public-buildings-and-facilities/reactivation-of-empty-buildings
+  touchpoints:
+  - empty-building-open-day
+  - interim-use-open-call
+- slug: hand-over-to-community-operators
+  title: Hand Over to Community Operators
+  goal: Buildings a community body can run are leased or transferred on agreed terms, and the operator is supported in its first years.
+  step: public-buildings-and-facilities/handover-to-community-operators
+  touchpoints:
+  - building-handover-signing
+  - operator-support-visit

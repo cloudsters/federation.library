@@ -1,0 +1,126 @@
+kind: value-stream
+slug: clinical-coding-and-documentation-integrity
+title: Clinical Coding and Documentation Integrity
+family: value-to-sustainability
+summary: Making each case's documentation complete and accurate, then coding diagnoses and procedures and grouping the case so that
+  the payment claimed reflects the care delivered.
+trigger: A patient episode is under way or has ended, and its documentation must support coding.
+outcome: The case is completely documented, correctly coded and grouped, and released for billing.
+stakeholders:
+- physician-in-specialty-training
+- registered-nurse
+- administrative-staff
+- documentation-agent
+- head-of-clinical-department
+steps:
+- slug: point-of-care-documentation
+  title: Point-of-Care Documentation
+  summary: Physicians and nurses record findings, diagnoses, procedures, implants and care given as they happen, with AI-drafted notes
+    reviewed and signed by their authors, so that the record is complete and accurate for the care of the patient and for every later
+    use.
+  capabilities:
+  - clinical-documentation-at-point-of-care
+  - nursing-documentation
+  - intraoperative-documentation
+  - implant-and-material-documentation
+  - ambient-clinical-documentation
+  entities:
+  - clinical-document
+  - diagnosis
+  - procedure
+  - observation
+  - implant
+  - encounter
+  serves:
+  - clinical-workstation
+- slug: concurrent-documentation-review
+  title: Concurrent Documentation Review
+  summary: While the patient is still in care, documentation specialists review the record for completeness and specificity and send
+    queries to the responsible clinician on unstated, vague or conflicting findings.
+  capabilities:
+  - clinical-documentation-integrity
+  - ai-assistant-integration
+  - data-quality-management
+  entities:
+  - health-record
+  - clinical-document
+  - diagnosis
+  - documentation-query
+  serves:
+  - clinical-workstation
+  - coding-worklist
+  - documentation-query
+- slug: record-completion-at-discharge
+  title: Record Completion at Discharge
+  summary: At discharge the responsible physician confirms the final diagnoses and procedures, answers the open queries and signs
+    the discharge summary, closing the record so that coding can start without delay.
+  capabilities:
+  - discharge-summary
+  - clinical-documentation-integrity
+  - health-record-management
+  entities:
+  - discharge-summary
+  - diagnosis
+  - procedure
+  - documentation-query
+  - health-record
+  serves:
+  - clinical-workstation
+  - discharge-letter
+  - documentation-query
+- slug: diagnosis-and-procedure-coding
+  title: Diagnosis and Procedure Coding
+  summary: Clinical coders, supported by coding proposals drafted from the record, assign the principal and secondary diagnoses and
+    the procedures under the binding coding rules and the current code systems.
+  capabilities:
+  - clinical-coding
+  - terminology-services
+  - ai-assistant-integration
+  entities:
+  - diagnosis
+  - procedure
+  - coding-rule
+  - code-system
+  - encounter
+  serves:
+  - coding-worklist
+- slug: case-grouping-and-release
+  title: Case Grouping and Release
+  summary: The coded case is assigned to its case group, checked for plausibility, length-of-stay bounds and supplementary payments,
+    reconciled with the captured charges and released for billing.
+  capabilities:
+  - clinical-coding
+  - supplementary-payment-management
+  - charge-capture
+  - tariff-and-price-management
+  entities:
+  - case-group
+  - charge-item
+  - claim
+  - coding-rule
+  serves:
+  - claim
+  - coding-worklist
+- slug: coding-quality-audit-and-feedback
+  title: Coding Quality Audit and Feedback
+  summary: Samples of released cases and the outcomes of payer reviews are audited for coding and documentation errors, and recurring
+    patterns are fed back to departments, coders and documentation training.
+  capabilities:
+  - coding-quality-audit
+  - denial-reporting
+  - business-intelligence-and-reporting
+  - continuing-professional-development
+  entities:
+  - audit
+  - audit-finding
+  - corrective-action
+  - claim-review
+  serves:
+  - coding-feedback-review
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global

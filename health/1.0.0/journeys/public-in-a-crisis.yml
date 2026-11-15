@@ -1,0 +1,19 @@
+kind: journey
+slug: public-in-a-crisis
+title: Public in a Crisis
+stakeholder: general-public
+summary: 'The public''s side of a crisis: receiving guidance on where to seek care while the commons is under strain, and seeing
+  services restored.'
+stages:
+- slug: getting-guidance
+  title: Getting Guidance
+  goal: Know where and when to seek care while the commons is under strain.
+  step: enterprise-risk-and-resilience/crisis-command-and-response
+  touchpoints:
+  - public-website
+- slug: seeing-services-restored
+  title: Seeing Services Restored
+  goal: Learn which services are available again and when.
+  step: enterprise-risk-and-resilience/recovery-and-learning
+  touchpoints:
+  - public-website

@@ -1,0 +1,27 @@
+kind: journey
+slug: employee-being-paid-right-and-on-time
+title: Employee Being Paid Right and on Time
+stakeholder: employee
+summary: An employee enters changes and enrols in benefits through self-service, is paid correctly on the promised day and can see
+  and question every line of the pay statement.
+stages:
+- slug: report-changes
+  title: Report Changes
+  goal: Changes of address, bank account, family or hours are entered once and reach the pay run.
+  step: payroll-as-promise-fulfilled/pay-input-collection
+  touchpoints:
+  - employee-self-service
+- slug: enrol-in-benefits
+  title: Enrol in Benefits
+  goal: Enrolments and life events are applied exactly as the benefits were designed.
+  step: payroll-as-promise-fulfilled/benefit-enrolment
+  touchpoints:
+  - benefits-portal
+- slug: be-paid-and-understand-it
+  title: Be Paid and Understand It
+  goal: Pay arrives on the promised day, and the statement can be read and questioned, with errors corrected quickly.
+  step: payroll-as-promise-fulfilled/payment-and-statements
+  touchpoints:
+  - pay-statement
+  - employee-self-service
+  - payroll-help-desk

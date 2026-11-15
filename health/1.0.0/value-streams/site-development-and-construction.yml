@@ -1,0 +1,193 @@
+kind: value-stream
+slug: site-development-and-construction
+title: Site Development and Construction
+family: acquire-to-retire
+summary: 'Developing the organisation''s sites and buildings: site master planning, space planning, construction and refurbishment
+  projects while care continues, and handover into operation.'
+trigger: The site plan or a space need calls for new, extended or refurbished buildings.
+outcome: The building is completed, accepted and handed over into operation on time and within budget.
+stakeholders:
+- head-of-clinical-department
+- registered-nurse
+- executive
+- owner
+- facility-engineer
+- construction-contractor
+- public-funding-body
+- local-authority
+- staff-representation
+- general-public
+- natural-environment
+steps:
+- slug: site-and-space-planning
+  title: Site and Space Planning
+  summary: Keep the site master plan aligned with the clinical strategy, measure how existing space is used, and decide where buildings
+    are to be added, extended, refurbished or released, with climate risks and emissions in view.
+  capabilities:
+  - property-strategy
+  - space-management
+  - facility-planning
+  - strategy-alignment-across-functions
+  - sustainability-strategy-design
+  - climate-adaptation
+  entities:
+  - site
+  - facility
+  - room
+  - strategy
+  - environmental-footprint
+  serves:
+  - investment-request
+  - site-master-plan
+- slug: project-brief-and-funding
+  title: Project Brief and Funding
+  summary: Define the brief with future users, covering services, functions, space programme, adjacencies and standards, then prepare
+    the investment case and secure approval and public or own funding.
+  capabilities:
+  - facility-planning
+  - capital-planning
+  - public-investment-funding
+  - initiative-evaluation-and-selection
+  - project-management
+  entities:
+  - capital-project
+  - public-funding-allocation
+  - governance-decision
+  - budget
+  serves:
+  - building-user-group
+  - investment-committee
+- slug: design-and-permits
+  title: Design and Permits
+  summary: Develop the design from concept to execution, review it for hygiene, fire safety, accessibility, energy and running cost,
+    consult staff representatives on new workplaces, and obtain the building permit.
+  capabilities:
+  - construction-design-and-planning
+  - building-information-management
+  - hygiene-management
+  - fire-safety
+  - carbon-footprint-reduction
+  - licence-and-permit-management
+  - co-determination-cooperation
+  entities:
+  - capital-project
+  - facility
+  - room
+  - permit
+  - compliance-obligation
+  serves:
+  - building-user-group
+  - room-data-sheet
+  - staff-consultation
+  - permit-application
+- slug: tender-and-contracting
+  title: Tender and Contracting
+  summary: Tender planning services and construction works in lots or as one general contract, evaluate bids, and contract for scope,
+    schedule, price, quality, site rules and warranty.
+  capabilities:
+  - supplier-selection-and-contracting
+  - contract-lifecycle-stewardship
+  - vendor-risk-management
+  - ethical-sourcing-design
+  - budgetary-control-encumbrance
+  entities:
+  - tender
+  - contract
+  - supplier-organisation
+  - capital-project
+  serves:
+  - call-for-tender
+  - project-steering-committee
+  - supplier-portal
+- slug: construction-during-operation
+  title: Construction During Operation
+  summary: 'Build while care continues: phase the works around clinical operation, protect patients from dust, noise, vibration and
+    water contamination, keep escape routes and utilities working, and control cost, schedule and quality.'
+  capabilities:
+  - construction-execution
+  - construction-management
+  - construction-infection-risk-control
+  - occupational-safety-programme
+  - business-continuity-design
+  - project-management
+  - capital-project-accounting
+  entities:
+  - capital-project
+  - facility
+  - risk
+  - contract
+  - invoice
+  serves:
+  - construction-notice
+  - construction-site-induction
+  - hygiene-round
+  - public-website
+  - site-coordination-meeting
+- slug: commissioning-and-handover
+  title: Commissioning and Handover
+  summary: Test and commission the technical systems, accept the works with their documentation and defects list, flush and sample
+    the water systems, obtain approval for occupancy and hand the building over to facility operations.
+  capabilities:
+  - building-commissioning-and-handover
+  - building-technical-services
+  - water-safety
+  - building-information-management
+  - licence-and-permit-management
+  - fixed-asset-accounting
+  entities:
+  - facility
+  - building-installation
+  - permit
+  - asset
+  - capital-project
+  serves:
+  - acceptance-test-report
+  - handover-walkthrough
+  - room-data-sheet
+  - permit-application
+- slug: relocation-and-start-of-operation
+  title: Relocation and Start of Operation
+  summary: Equip and furnish the rooms, familiarise staff with the new building, move units, patients and equipment in planned stages,
+    and start clinical operation once readiness is confirmed.
+  capabilities:
+  - clinical-relocation-management
+  - workspace-provision
+  - service-launch-readiness
+  - device-acquisition-and-commissioning
+  - patient-transport-services
+  - internal-communication
+  entities:
+  - room
+  - bed
+  - organisation-unit
+  - medical-device
+  serves:
+  - move-plan
+  - ward
+- slug: post-occupancy-evaluation
+  title: Post-Occupancy Evaluation
+  summary: Evaluate the building in use against its brief for function, user experience, energy and running cost, have contractors
+    remedy defects under warranty, and feed the lessons into the design standards of later projects.
+  capabilities:
+  - post-occupancy-evaluation
+  - space-management
+  - energy-management
+  - supplier-recovery
+  entities:
+  - facility
+  - environmental-footprint
+  - contract
+  - capital-project
+  serves:
+  - defects-notice
+  - post-occupancy-survey
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-325
+  edition: '2026'
+  jurisdiction: global
+- source: src-348
+  edition: 2011-06
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: post
+slug: case-manager
+title: Case Manager
+summary: 'Coordinates a patient''s path out of the commons: assesses discharge readiness, organises follow-on care, social care and
+  rehabilitation, and prepares patient and relatives for a safe transition.'
+of: patient-management-centre
+responsibility: 'A patient''s safe transition out of the commons: discharge readiness, follow-on care, social care and rehabilitation,
+  and the preparation of patient and relatives.'
+accountable: body:patient-management-centre
+type: role

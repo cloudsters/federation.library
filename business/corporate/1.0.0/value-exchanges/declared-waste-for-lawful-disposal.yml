@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: declared-waste-for-lawful-disposal
+title: Declared Waste for Lawful Disposal
+between:
+- site-manager
+- logistics-service-provider
+offered:
+- Waste correctly declared, separated and packed, and retired assets ready for collection.
+returned:
+- Lawful carriage, treatment and disposal, with proof of the chain of custody.
+touchpoint: waste-consignment-record

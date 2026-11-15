@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: work-instruction
+title: Work Instruction
+medium: artefact
+summary: The released instruction at the place of work that shows how an operation is performed, with the structure, routing, tools,
+  checks and safety notes that apply to the current version.
+exchanges:
+- current-instructions-for-skilled-execution
+journey: operator-running-a-shift

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: city-jobs-board
+title: City Jobs Board
+medium: channel
+summary: The city's list of vacancies and apprenticeships, online and on paper, in plain language and in the languages residents speak.
+exchanges:
+- plain-vacancies-for-applicants-from-every-neighbourhood
+journey: job-seeker-joining-the-city-staff

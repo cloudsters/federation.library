@@ -1,0 +1,131 @@
+kind: value-stream
+slug: city-programme-portfolio
+title: City Programme Portfolio
+family: purpose-to-portfolio
+summary: Carrying the strategy and the spatial plan into the programmes and capital projects the city funds, from proposals by departments,
+  neighbourhoods and residents through appraisal, prioritisation and funding, mobilisation and regular rebalancing to confirmed benefits,
+  held as published commitments to residents who help set the benefits and follow whether they are kept.
+trigger: The budget cycle opens, a programme or capital project is proposed, or the periodic review of the portfolio falls due.
+outcome: A balanced portfolio of funded programmes and projects is delivered and tracked against benefits residents helped define,
+  each is continued, changed or ended with reasons, and its lessons return to the strategy.
+stakeholders:
+- city-council
+- mayor
+- city-administration
+- resident
+- neighbourhood-association
+- civil-society-organisation
+- affected-community
+- external-auditor
+steps:
+- slug: programme-proposal
+  title: Programme Proposal
+  summary: Departments, neighbourhood bodies and residents propose programmes and capital projects, each framed with the objective
+    it serves, its expected benefit, cost and risk and a sponsor, and every proposal can be traced from its origin.
+  capabilities:
+  - programme-proposal-intake
+  - proposal-tracing
+  entities:
+  - city-programme
+  - programme-case
+  - city-objective
+  serves:
+  - programme-proposal-portal
+- slug: programme-appraisal
+  title: Programme Appraisal
+  summary: Each proposal is appraised for its benefit and its whole-life cost, including upkeep, care work and ecological costs, and
+    for who pays and who gains, including people outside the neighbourhood that proposed it.
+  capabilities:
+  - programme-appraisal
+  - whole-life-cost-assessment
+  - decision-impact-assessment
+  entities:
+  - programme-case
+  - city-programme
+  serves:
+  - appraisal-panel-meeting
+  - published-appraisal
+- slug: prioritisation-and-funding
+  title: Prioritisation and Funding
+  summary: The portfolio is balanced across objectives, neighbourhoods, risk and the capacity the city can really commit, a real share
+    of it is decided by residents in a participatory budget with safeguards for poorer neighbourhoods, and it is funded in the budget
+    and the multi-year capital plan.
+  capabilities:
+  - portfolio-balancing
+  - participatory-budget-organisation
+  - capital-investment-planning
+  entities:
+  - programme-portfolio
+  - municipal-budget
+  - participatory-budget-cycle
+  - capital-investment-plan
+  serves:
+  - budget-and-capital-plan-debate
+  - participatory-budget-assembly
+- slug: commitment-publication
+  title: Commitment Publication
+  summary: The funded portfolio is published as the city's commitments to residents, each programme with the benefits and measures
+    residents helped set, its owner, its budget and its dates.
+  capabilities:
+  - benefit-measure-setting
+  - public-record-publication
+  - proposal-tracing
+  entities:
+  - programme-portfolio
+  - city-programme
+  - public-record
+  serves:
+  - city-commitments-register
+- slug: programme-mobilisation
+  title: Programme Mobilisation
+  summary: Each programme is given its team, budget and plan, its delivery partners are chosen, including community bodies where they
+    can carry the work, and its projects and purchases are launched.
+  capabilities:
+  - programme-mobilisation
+  - delivery-partner-selection
+  entities:
+  - city-programme
+  - capital-project
+  - public-procurement
+  serves:
+  - delivery-partner-call
+  - programme-launch-meeting
+- slug: progress-review-and-rebalancing
+  title: Progress Review and Rebalancing
+  summary: At a regular rhythm the progress, cost and experience of residents are reviewed for every programme, and each is strengthened,
+    re-scoped, merged or stopped, and the portfolio is rebalanced by council decision.
+  capabilities:
+  - programme-progress-review
+  - portfolio-balancing
+  - implementation-reporting
+  entities:
+  - programme-portfolio
+  - programme-report
+  - council-decision
+  serves:
+  - portfolio-review-meeting
+  - programme-progress-page
+- slug: benefit-confirmation-and-learning
+  title: Benefit Confirmation and Learning
+  summary: After delivery, residents and the owners of each benefit confirm whether it was realised, and what worked, what failed
+    and what must change is recorded, shared with other cities and returned to the strategy.
+  capabilities:
+  - benefit-confirmation
+  - lesson-recording-and-sharing
+  entities:
+  - city-programme
+  - oversight-report
+  - lesson-record
+  serves:
+  - benefit-review-session
+  - shared-lesson-library
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global
+- source: src-198
+  edition: '2022-07-06'
+  jurisdiction: global

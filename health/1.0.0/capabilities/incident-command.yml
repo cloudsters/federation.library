@@ -1,0 +1,11 @@
+kind: capability
+slug: incident-command
+title: Incident Command
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: 'Activate and lead incident command in a major incident: raise the alert, staff the command roles, direct surge and
+  degraded-mode measures, coordinate with external responders and stand down.'
+binds:
+- source: src-338
+  edition: '2018'
+  jurisdiction: global

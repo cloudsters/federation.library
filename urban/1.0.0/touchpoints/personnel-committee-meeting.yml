@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: personnel-committee-meeting
+title: Personnel Committee Meeting
+medium: encounter
+summary: The public meeting of the council's personnel committee, in which the workforce plan, the pay scale, local hiring requirements,
+  fixed terms and the reviews of retention are prepared for the council.
+exchanges:
+- plan-costs-for-an-approved-budget
+- quarterly-figures-for-course-corrections
+- retention-findings-for-council-decisions
+journey: city-council-setting-and-approving-the-workforce-plan

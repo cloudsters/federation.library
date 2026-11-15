@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: met-residents-for-a-route-into-treatment
+title: Met Residents for a Route into Treatment
+between:
+- community-health-worker
+- health-and-care-provider
+offered:
+- Residents met at the drop-in who want treatment.
+returned:
+- A place in treatment held open for them, without a long wait.
+touchpoint: harm-reduction-drop-in

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: home-fire-safety-check
+title: Home Fire Safety Check
+medium: encounter
+summary: The visit of fire and rescue crews to the homes most at risk to check alarms, escape routes and hazards.
+exchanges:
+- open-door-for-a-safer-home
+journey: resident-calling-for-help

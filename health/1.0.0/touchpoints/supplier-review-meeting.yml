@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: supplier-review-meeting
+title: Supplier Review Meeting
+medium: encounter
+summary: The regular meeting in which the commons and a key supplier review delivery, quality, service levels, prices and joint improvement,
+  and agree corrective action.
+exchanges:
+- performance-feedback-for-reliable-supply
+- supply-security-for-long-term-commitment
+journey: working-with-the-commons-as-a-supplier

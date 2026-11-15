@@ -1,0 +1,38 @@
+kind: journey
+slug: friendship-over-years
+title: Friendship over the Years
+stakeholder: close-friend
+via: participant-to-community
+summary: A close friend is reached for without having to call first, is let help in turn, and finds the friendship given a regular
+  place, or let go with thanks when it has run its course.
+stages:
+- slug: be-reached-for
+  title: Be Reached For
+  goal: The friend has been called, written to or visited without having to be the one who called last.
+  step: circle-to-reciprocity/reaching-out-first
+  touchpoints:
+  - phone-call
+  - message-thread
+  - a-visit
+- slug: be-let-help
+  title: Be Let Help
+  goal: The friend has been asked for help as well as given it, and is a friend rather than an audience.
+  step: circle-to-reciprocity/asking-as-well-as-giving
+  touchpoints:
+  - phone-call
+  - help-at-the-door
+- slug: have-a-standing-place
+  title: Have a Standing Place
+  goal: The friendship has a recurring place in the week or the year that does not depend on chance.
+  step: circle-to-reciprocity/keeping-bonds-on-purpose
+  touchpoints:
+  - shared-meal
+  - long-walk
+  - phone-call
+  - trip-together
+- slug: be-let-go-with-thanks
+  title: Be Let Go with Thanks
+  goal: Where the friendship has run its course, it has ended with thanks said rather than by slow neglect.
+  step: circle-to-reciprocity/letting-some-go-gracefully
+  touchpoints:
+  - the-letter

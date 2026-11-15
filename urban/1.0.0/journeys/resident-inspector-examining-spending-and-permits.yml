@@ -1,0 +1,38 @@
+kind: journey
+slug: resident-inspector-examining-spending-and-permits
+title: Resident Inspector Examining Spending and Permits
+stakeholder: resident-inspector
+summary: A resident inspector learns who decides what, reads the resolutions behind spending, follows what was promised, inspects
+  spending, procurement and permits and publishes findings, and names the imbalances of power seen along the way.
+stages:
+- slug: see-who-decides
+  title: See Who Decides
+  goal: The inspector knows which body holds each decision under inspection.
+  step: governance-and-oversight/decision-authority-mapping
+  touchpoints:
+  - published-decision-map
+- slug: read-the-resolutions
+  title: Read the Resolutions
+  goal: The inspector has the resolutions, reasons and votes behind the spending to be examined.
+  step: governance-and-oversight/deliberation-and-resolution
+  touchpoints:
+  - council-minutes
+- slug: follow-the-promises
+  title: Follow the Promises
+  goal: The inspector can compare what was promised with what was reported as delivered.
+  step: governance-and-oversight/implementation-oversight
+  touchpoints:
+  - implementation-report
+- slug: inspect-and-publish
+  title: Inspect and Publish
+  goal: Spending, procurement and permits have been inspected, and the findings are published with their evidence.
+  step: governance-and-oversight/audit-and-inspection
+  touchpoints:
+  - resident-inspection
+  - audit-report
+- slug: name-the-imbalances
+  title: Name the Imbalances
+  goal: Imbalances of power the inspection revealed are brought into the review of the rules.
+  step: governance-and-oversight/governance-effectiveness-review
+  touchpoints:
+  - governance-review-session

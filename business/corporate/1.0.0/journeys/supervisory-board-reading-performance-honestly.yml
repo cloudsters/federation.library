@@ -1,0 +1,26 @@
+kind: journey
+slug: supervisory-board-reading-performance-honestly
+title: Supervisory Board Reading Performance Honestly
+stakeholder: supervisory-board
+summary: A supervisory board states what it needs to watch, receives a complete picture that includes the gaps and peer position,
+  challenges management on it and follows the responses to their effect.
+stages:
+- slug: say-what-must-be-watched
+  title: Say What Must Be Watched
+  goal: The board's oversight questions are reflected in the areas the organisation measures.
+  step: sensing-benchmarking/measurement-strategy
+  touchpoints:
+  - supervisory-board-meeting
+- slug: read-the-full-picture
+  title: Read the Full Picture
+  goal: Results arrive with trends, peer position and gaps, not only the flattering figures.
+  step: sensing-benchmarking/performance-review
+  touchpoints:
+  - supervisory-board-meeting
+  - performance-dashboard
+- slug: follow-the-responses
+  title: Follow the Responses
+  goal: The board sees that material gaps are answered and checks the effect at the next review.
+  step: sensing-benchmarking/gap-response
+  touchpoints:
+  - supervisory-board-meeting

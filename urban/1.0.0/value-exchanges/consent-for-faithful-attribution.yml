@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-for-faithful-attribution
+title: Consent for Faithful Attribution
+between:
+- older-resident
+- community-story-council
+offered:
+- The teller's consent to a stated framing, attribution and reuse of the story.
+returned:
+- A story used only as agreed, and withdrawn when the teller withdraws consent.
+touchpoint: story-consent-form

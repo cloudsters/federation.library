@@ -1,0 +1,47 @@
+kind: entity
+slug: payroll-run
+title: Payroll Run
+type: transactional
+summary: The periodic calculation and payment of pay for a legal entity, from contracts, working time, absences and allowances to
+  pay statements per employee, ledger postings and statutory contributions.
+attributes:
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: pay-period
+  type: period
+  card: 1..1
+- name: employees
+  type: reference(employee-record)
+  card: 1..*
+- name: gross-amount
+  type: amount
+  card: 1..1
+- name: net-amount
+  type: amount
+  card: 1..1
+- name: payments
+  type: reference(payment)
+  card: 0..*
+- name: posted-on
+  type: date
+  card: 0..1
+states:
+- prepared
+- calculated
+- approved
+- paid
+- posted
+relations:
+- type: based-on
+  target: attendance
+- type: based-on
+  target: employment
+- type: produces
+  target: payment
+- type: produces
+  target: journal-entry
+- type: composed-of
+  target: payslip
+- type: composed-of
+  target: payslip

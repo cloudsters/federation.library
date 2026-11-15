@@ -1,0 +1,12 @@
+kind: solution
+slug: sibling-handling-affairs
+title: Sibling Handling Affairs
+role: person
+sovereignty: held-by-another
+summary: A brother or sister who takes over a parent's papers, appointments and care arrangements so that not every sibling has to.
+carries:
+- taking-up-care
+- organising-mutual-help
+- keeping-papers-in-order
+holds:
+- care-episode

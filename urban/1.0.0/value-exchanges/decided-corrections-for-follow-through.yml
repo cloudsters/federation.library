@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: decided-corrections-for-follow-through
+title: Decided Corrections for Follow-Through
+between:
+- city-council
+- city-administration
+offered:
+- A decided correction for each drift, with an owner, a measure and a date.
+returned:
+- Reports on each correction until the drift is closed.
+touchpoint: council-meeting

@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: referral-for-timely-handback
+title: Referral for Timely Handback
+between:
+- specialist-physician
+- referring-practice
+offered:
+- Acceptance of a patient the practice cannot treat alone, a direct line to a specialist, and findings and a discharge letter
+  within the agreed time.
+returned:
+- The referred patient with a clear question, the history and current medication, and the practice's choice of the commons for
+  the next referral.
+touchpoint: referrer-portal

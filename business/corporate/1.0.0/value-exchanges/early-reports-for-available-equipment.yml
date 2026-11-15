@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-reports-for-available-equipment
+title: Early Reports for Available Equipment
+between:
+- production-operator
+- maintenance-technician
+offered:
+- Early reports of developing problems, care in operation and equipment released when work is due.
+returned:
+- Quick repair, planned work timed around operation and equipment that is available when needed.
+touchpoint: maintenance-request

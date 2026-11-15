@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: landowner-consent-for-agreed-terms
+title: Landowner Consent for Agreed Terms
+between:
+- landowner
+- city-planner
+offered:
+- The landowner's consent to the residents staying and to the works on the land.
+returned:
+- Agreed terms for the land, set out in the signed plan.
+touchpoint: upgrading-plan-assembly

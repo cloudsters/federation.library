@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: handover-plan
+title: Handover Plan
+medium: artefact
+summary: The plan by which responsibilities, open matters, knowledge, networks and access pass from one role holder, person or agent,
+  to the next.
+exchanges:
+- notice-for-an-orderly-handover
+- secured-place-for-a-planned-return
+journey: employee-moving-on-with-dignity

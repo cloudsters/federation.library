@@ -1,0 +1,51 @@
+kind: entity
+slug: delivery-note
+title: Delivery Note
+type: transactional
+summary: Proof of goods in transit — the document that accompanies physical goods as they leave the organisation and travel toward the
+  customer, confirming what was shipped.
+attributes:
+- name: delivery-date
+  type: date
+  card: 1..1
+- name: sales-order
+  type: reference(sales-order)
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: items
+  type: reference(item)
+  card: 1..*
+- name: quantities
+  type: quantity
+  card: 1..*
+- name: pick-pack-detail
+  type: text
+  card: 0..1
+- name: shipment
+  type: reference(shipment)
+  card: 0..1
+states:
+- draft
+- picked
+- packed
+- shipped
+- delivered
+relations:
+- type: based-on
+  target: sales-order
+- type: part-of
+  target: shipment
+- type: produces
+  target: stock-entry
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

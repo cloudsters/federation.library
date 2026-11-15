@@ -1,0 +1,48 @@
+kind: entity
+slug: bid
+title: Bid
+type: transactional
+summary: A supplier's offer in response to a tender, with its price, its technical and service proposal and its declarations, checked
+  for completeness and suitability and scored against the published award criteria.
+attributes:
+- name: tender
+  type: reference(tender)
+  card: 1..1
+- name: bidder
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: lots
+  type: code
+  card: 0..*
+- name: offered-price
+  type: amount
+  card: 1..1
+- name: proposal
+  type: document
+  card: 1..*
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: score
+  type: decimal
+  card: 0..1
+- name: exclusion-reason
+  type: text
+  card: 0..1
+states:
+- received
+- opened
+- excluded
+- evaluated
+- awarded
+- unsuccessful
+- withdrawn
+relations:
+- type: part-of
+  target: tender
+- type: refers-to
+  target: supplier-organisation
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global

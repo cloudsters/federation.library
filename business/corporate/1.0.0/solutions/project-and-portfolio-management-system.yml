@@ -1,0 +1,37 @@
+kind: solution
+slug: project-and-portfolio-management-system
+title: Project and Portfolio Management System
+role: system-of-record
+summary: Holds the portfolio of initiatives, programmes, projects and capital projects with their business cases, plans, tasks, resources
+  and benefits, and supports the decisions to start, change or stop them.
+carries:
+- asset-construction-stewardship
+- capital-project-stewardship
+- construction-execution
+- change-adoption
+- initiative-activation
+- initiative-evaluation-as-sensing
+- initiative-evolution
+- initiative-reflection
+- initiative-seeding
+- portfolio-as-ecosystem
+- portfolio-curation
+- portfolio-governance-design
+- programme-orchestration
+- project-craft
+- project-portfolio-management
+- sprint-backlog-management
+- steward-asset-construction
+- technology-value-portfolio
+- post-merger-integration
+- benefit-realisation-management
+- offering-business-case
+- grants-and-public-funding
+holds:
+- portfolio
+- program
+- initiative
+- project
+- task
+- business-case
+- capital-project

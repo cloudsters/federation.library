@@ -1,0 +1,66 @@
+kind: entity
+slug: journal-entry
+title: Journal Entry
+type: transactional
+summary: A transaction recorded in the city's books by fund, department and purpose, with its amount, date and the document that supports
+  it. The accounting office records it, and every report of the city's money, from the monthly variance report to the annual accounts
+  and grant claims, is built from these entries.
+attributes:
+- name: entry-number
+  type: identifier
+  card: 1..1
+- name: posting-date
+  type: date
+  card: 1..1
+- name: fund
+  type: code
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: purpose-code
+  type: code
+  card: 1..1
+- name: account-code
+  type: code
+  card: 1..1
+- name: debit-amount
+  type: amount
+  card: 0..1
+- name: credit-amount
+  type: amount
+  card: 0..1
+- name: supporting-document
+  type: document
+  card: 1..1
+- name: grant
+  type: reference(grant-award)
+  card: 0..1
+- name: recorded-by
+  type: text
+  card: 1..1
+- name: reversal-of
+  type: reference(journal-entry)
+  card: 0..1
+states:
+- drafted
+- posted
+- approved
+- reversed
+- period-closed
+relations:
+- type: part-of
+  target: annual-accounts
+- type: refers-to
+  target: department
+- type: refers-to
+  target: payment
+- type: refers-to
+  target: grant-award
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-204
+  edition: '2014'
+  jurisdiction: global

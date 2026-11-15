@@ -1,0 +1,10 @@
+kind: capability
+slug: secure-clinical-messaging
+title: Secure Clinical Messaging
+level: L3
+parent: interoperability-and-exchange
+summary: Operate secure messaging between clinicians within and across organisations.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

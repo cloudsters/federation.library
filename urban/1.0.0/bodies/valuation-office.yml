@@ -1,0 +1,12 @@
+kind: body
+slug: valuation-office
+title: Valuation Office
+summary: Keeps the value of every parcel, building and public asset current, separates the value of land from the value of buildings,
+  monitors the rise in land values against a baseline and assesses the levy due on that rise.
+holds:
+- property-valuation
+- land-value-monitoring
+- betterment-levy-assessment
+part_of: finance-department
+type: function
+form: organisational-unit

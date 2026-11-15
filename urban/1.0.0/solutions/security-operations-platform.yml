@@ -1,0 +1,11 @@
+kind: solution
+slug: security-operations-platform
+title: Security Operations Platform
+role: system-of-insight
+summary: Watches the city's systems and networks for attacks, anomalies and weaknesses, and tracks each weakness to its removal and
+  each security incident from detection to recovery.
+carries:
+- threat-detection
+- security-incident-response
+holds:
+- security-incident

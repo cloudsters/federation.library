@@ -1,0 +1,63 @@
+kind: entity
+slug: ombudsman-case
+title: Ombudsman Case
+type: transactional
+summary: A complaint taken to the ombudsman independent of the administration by a complainant who is not satisfied with the city's
+  answer or received none in time, followed from receipt through investigation to the remedy ordered. The office of the ombudsman
+  keeps it apart from the administration, and its outcome goes to the service that must put it right and into the public report of
+  the ombudsman to the council.
+attributes:
+- name: case-number
+  type: identifier
+  card: 1..1
+- name: complainant
+  type: identifier
+  card: 1..1
+- name: original-complaint
+  type: reference(citizen-complaint)
+  card: 0..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: grounds
+  type: code
+  card: 1..*
+- name: subject
+  type: text
+  card: 1..1
+- name: findings
+  type: text
+  card: 0..1
+- name: remedy-ordered
+  type: text
+  card: 0..1
+- name: compensation
+  type: reference(compensation-award)
+  card: 0..*
+- name: service-response
+  type: text
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: reported-in
+  type: reference(oversight-report)
+  card: 0..1
+states:
+- received
+- accepted
+- under-investigation
+- decided
+- remedied
+- closed
+relations:
+- type: based-on
+  target: citizen-complaint
+- type: governed-by
+  target: complaints-procedure
+- type: produces
+  target: compensation-award
+- type: produces
+  target: corrective-action
+- type: produces
+  target: oversight-report

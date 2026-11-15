@@ -1,0 +1,40 @@
+kind: journey
+slug: platform-workers-founding-their-own-platform
+title: Platform Workers Founding Their Own Platform
+stakeholder: platform-worker
+summary: Delivery and care workers found a cooperative with model statutes, build a platform they own on code the city shares, hold
+  all platforms in the city to the same conditions on data and voice, and report how workers and users fared.
+stages:
+- slug: be-counted-in-the-social-economy
+  title: Be Counted in the Social Economy
+  goal: The workers' group and what it needs appear on the map of the city's cooperatives and social enterprises.
+  step: social-and-cooperative-economy/social-economy-mapping
+  touchpoints:
+  - social-economy-mapping-session
+- slug: found-the-cooperative
+  title: Found the Cooperative
+  goal: The workers have founded a cooperative on model statutes with advice on members' rights and decisions.
+  step: social-and-cooperative-economy/cooperative-formation-and-conversion
+  touchpoints:
+  - cooperative-statutes-workshop
+- slug: build-on-shared-code
+  title: Build on Shared Code
+  goal: The cooperative runs its platform on open code the city shares, with start-up finance and fair access to public demand.
+  step: social-and-cooperative-economy/cooperative-platform-support
+  touchpoints:
+  - platform-cooperative-support-call
+  - open-platform-code-release
+- slug: hold-platforms-to-the-same-terms
+  title: Hold Platforms to the Same Terms
+  goal: Every platform in the city collects minimal data, lets workers take their data and ratings with them and gives workers a voice
+    in the rules that allocate their work.
+  step: social-and-cooperative-economy/platform-operating-conditions
+  touchpoints:
+  - platform-licence-hearing
+  - data-and-rating-export
+- slug: report-how-workers-fared
+  title: Report How Workers Fared
+  goal: How platform workers and users fared is part of the city's yearly account of the social economy.
+  step: social-and-cooperative-economy/social-value-reporting
+  touchpoints:
+  - platform-worker-and-user-survey

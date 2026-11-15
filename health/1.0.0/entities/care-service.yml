@@ -1,0 +1,57 @@
+kind: entity
+slug: care-service
+title: Care Service
+type: master
+summary: A defined clinical service the organisation offers, such as stroke care, cardiac surgery or radiotherapy, with eligibility,
+  sites, availability and responsible unit, published so that patients and referrers can request it.
+attributes:
+- name: service-code
+  type: code
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: responsible-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: sites
+  type: reference(site)
+  card: 1..*
+- name: service-groups
+  type: reference(service-group)
+  card: 0..*
+- name: eligibility
+  type: text
+  card: 0..1
+- name: availability
+  type: text
+  card: 0..1
+- name: referral-required
+  type: boolean
+  card: 0..1
+states:
+- planned
+- offered
+- suspended
+- discontinued
+relations:
+- type: governed-by
+  target: service-mandate
+- type: depends-on
+  target: service-group-assignment
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

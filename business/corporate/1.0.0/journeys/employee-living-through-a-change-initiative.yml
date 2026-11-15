@@ -1,0 +1,27 @@
+kind: journey
+slug: employee-living-through-a-change-initiative
+title: Employee Living Through a Change Initiative
+stakeholder: employee
+summary: An employee proposes an improvement, is asked how a change feels in daily work and sees whether the promised benefit arrived.
+stages:
+- slug: put-forward-an-idea
+  title: Put Forward an Idea
+  goal: The employee's idea for change is received, framed and given a fair hearing.
+  step: initiative-cultivation/initiative-proposal
+  touchpoints:
+  - intranet
+  - initiative-charter
+- slug: tell-how-the-change-feels
+  title: Tell How the Change Feels
+  goal: The employee's experience of the change is asked for and heard at each review.
+  step: initiative-cultivation/progress-sensing
+  touchpoints:
+  - initiative-progress-review
+  - shop-floor-meeting
+- slug: see-the-result
+  title: See the Result
+  goal: The employee learns what the initiative achieved and what will change because of it.
+  step: initiative-cultivation/benefit-confirmation-and-reflection
+  touchpoints:
+  - intranet
+  - staff-assembly

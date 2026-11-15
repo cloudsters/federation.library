@@ -1,0 +1,34 @@
+kind: journey
+slug: neighbourhood-association-keeping-the-quarter-rooted
+title: Neighbourhood Association Keeping Its People in the Quarter
+stakeholder: neighbourhood-association
+summary: A neighbourhood association brings the stories and the people of the place into the site assessment, designs the quarter
+  with the planners, claims the benefits that must stay with the community and reviews whether the quarter lives as intended.
+stages:
+- slug: bring-the-stories-of-the-place
+  title: Bring the Stories of the Place
+  goal: The histories the place holds and the residents, businesses and assets already there are recorded in the site assessment.
+  step: district-development/site-heritage-and-community-assessment
+  touchpoints:
+  - site-and-story-walk
+  - site-assessment-report
+- slug: design-the-quarter-with-the-planners
+  title: Design the Quarter with the Planners
+  goal: The concept keeps the old buildings and histories the neighbourhood values and mixes homes for different incomes with work
+    and shops.
+  step: district-development/district-concept-design
+  touchpoints:
+  - district-design-workshop
+- slug: claim-what-stays-behind
+  title: Claim What Stays Behind
+  goal: The benefits the neighbourhood asked for are written into the agreement with a fund and a shared decision on its use.
+  step: district-development/development-agreement
+  touchpoints:
+  - agreement-negotiation-round
+- slug: review-whether-the-quarter-lives
+  title: Review Whether the Quarter Lives
+  goal: The neighbourhood has judged whether the quarter lives as intended, the benefits were delivered and who was displaced.
+  step: district-development/quarter-review
+  touchpoints:
+  - quarter-review-walk
+  - community-benefit-report

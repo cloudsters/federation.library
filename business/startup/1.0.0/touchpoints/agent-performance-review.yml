@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-performance-review
+title: Agent Performance Review
+medium: encounter
+summary: The periodic review of an AI agent's outputs, overrides, errors, drift and fairness with its overseers, ending in a decision
+  to continue, restrict or retrain.
+exchanges:
+- review-for-continued-mandate
+journey: agent-serving-in-a-defined-role

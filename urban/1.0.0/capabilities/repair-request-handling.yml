@@ -1,0 +1,7 @@
+kind: capability
+slug: repair-request-handling
+title: Repair Request Handling
+level: L3
+parent: tenancy-and-home-repair
+summary: Take a repair report by any route, set its priority and date within published times, assign the crew, and close it only when
+  the tenant confirms it is fixed.

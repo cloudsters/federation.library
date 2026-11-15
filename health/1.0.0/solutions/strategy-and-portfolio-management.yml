@@ -1,0 +1,37 @@
+kind: solution
+slug: strategy-and-portfolio-management
+title: Strategy and Portfolio Management
+role: system-of-insight
+summary: Holds the adopted strategy and its objectives, cascades them to units, and steers the portfolio of initiatives, programmes
+  and projects that realise them against measured progress.
+carries:
+- strategic-vision-setting
+- goal-setting-and-cascade
+- strategy-alignment-across-functions
+- performance-strategy
+- integrated-performance-review
+- innovation-horizon-planning
+- portfolio-governance-design
+- initiative-development
+- initiative-evaluation-and-selection
+- project-portfolio-management
+- programme-orchestration
+- project-management
+- change-planning
+- change-implementation
+- clinical-innovation-management
+- it-portfolio-and-value-management
+- capital-planning
+holds:
+- strategy
+- strategic-objective
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

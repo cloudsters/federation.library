@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: access-request
+title: Access Request
+medium: artefact
+summary: The request to grant, change or withdraw access for a person, device, agent or system, approved by its owner and reviewed
+  periodically.
+exchanges:
+- vigilance-for-protection
+journey: security-lead-building-the-digital-immune-system

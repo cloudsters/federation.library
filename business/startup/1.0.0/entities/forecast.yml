@@ -1,0 +1,36 @@
+kind: entity
+slug: forecast
+title: Forecast
+type: governance
+summary: A prediction of future state — the organisation's best estimate of upcoming demand, revenue, or cost, enabling it to adapt ahead
+  rather than react in a scramble.
+attributes:
+- name: subject
+  type: code
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: method
+  type: code
+  card: 0..1
+- name: assumptions
+  type: text
+  card: 0..*
+- name: confidence
+  type: decimal
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- created
+- published
+- tracked
+- revised
+- retired
+relations:
+- type: refers-to
+  target: budget
+- type: produces
+  target: production-plan

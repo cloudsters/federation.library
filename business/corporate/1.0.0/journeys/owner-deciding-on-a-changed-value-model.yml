@@ -1,0 +1,27 @@
+kind: journey
+slug: owner-deciding-on-a-changed-value-model
+title: Owner Deciding on a Changed Value Model
+stakeholder: shareholder
+summary: An owner hears how the organisation creates and shares value, weighs the horizon commitments it proposes and gives or withholds
+  the mandate for a changed model.
+stages:
+- slug: hear-the-horizon-commitments
+  title: Hear the Horizon Commitments
+  goal: The owner knows the near, middle and far horizons and the share of resources each one claims.
+  step: value-model-stewardship/horizon-commitment
+  touchpoints:
+  - shareholder-meeting
+  - annual-report
+- slug: weigh-the-redesign
+  title: Weigh the Redesign
+  goal: The owner understands how the changed model shares value among owners, staff, customers and community.
+  step: value-model-stewardship/value-model-redesign
+  touchpoints:
+  - shareholder-meeting
+  - value-model-description
+- slug: give-the-mandate
+  title: Give the Mandate
+  goal: The owner approves the changed model where the articles require it, and its version is recorded.
+  step: value-model-stewardship/value-model-adoption
+  touchpoints:
+  - shareholder-meeting

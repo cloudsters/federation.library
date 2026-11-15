@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: security-operations-centre
+title: Security Operations Centre
+medium: place
+summary: The around-the-clock function that watches systems for threats, triages alerts and leads the technical response to security
+  incidents.
+exchanges:
+- detection-for-crisis-decisions
+journey: executive-accountable-for-security

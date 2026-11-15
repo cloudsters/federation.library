@@ -1,0 +1,33 @@
+kind: journey
+slug: bank-serving-the-accounts-and-credit-lines
+title: Bank Serving the Accounts and Credit Lines
+stakeholder: lender
+summary: A bank holds the organisation's accounts, provides credit lines and hedging instruments and works with the treasury to recall
+  and investigate suspicious payments.
+stages:
+- slug: provide-the-statements
+  title: Provide the Statements
+  goal: Statements are delivered electronically every day and differences are clarified quickly.
+  step: treasury-as-circulation/bank-statement-reconciliation
+  touchpoints:
+  - bank-statement
+  - online-banking
+- slug: provide-credit-and-placement
+  title: Provide Credit and Placement
+  goal: Credit lines are available and surplus funds placed on agreed terms.
+  step: treasury-as-circulation/funding-and-surplus-placement
+  touchpoints:
+  - lender-review
+  - online-banking
+- slug: provide-hedges
+  title: Provide Hedges
+  goal: Hedging instruments are dealt, confirmed and settled as agreed.
+  step: treasury-as-circulation/risk-hedging
+  touchpoints:
+  - online-banking
+- slug: help-contain-fraud
+  title: Help Contain Fraud
+  goal: Suspicious payments reported by the treasury are recalled where possible and investigated together.
+  step: treasury-as-circulation/fraud-and-dispute-handling
+  touchpoints:
+  - online-banking

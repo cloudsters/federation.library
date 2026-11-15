@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: release-notice
+title: Release Notice
+medium: artefact
+summary: The notice to users of a change to a digital service, with its date, what changes and what to do if it fails.
+exchanges:
+- release-notice-for-reported-problems
+journey: resident-getting-help-with-a-digital-service

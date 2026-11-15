@@ -1,0 +1,15 @@
+kind: solution
+slug: personal-health-record
+title: Personal Health Record
+role: system-of-record
+sovereignty: hosted
+summary: Every result, diagnosis, medication and symptom note in one record the person holds and brings to any consultation.
+carries:
+- keeping-track-of-symptoms
+- describing-what-one-notices
+- learning-from-family-history
+holds:
+- health-data
+- health-event
+- condition
+- health-plan

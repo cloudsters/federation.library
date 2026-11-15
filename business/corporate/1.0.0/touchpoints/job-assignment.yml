@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: job-assignment
+title: Job Assignment
+medium: channel
+summary: The assignment of a job to a technician or partner on a mobile device, with the customer's situation, history, entitlement,
+  parts and response time, updated through the day.
+exchanges:
+- fair-plan-for-reliable-availability
+- spare-capacity-for-defined-terms
+journey: technician-receiving-the-right-jobs

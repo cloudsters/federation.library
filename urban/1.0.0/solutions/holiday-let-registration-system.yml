@@ -1,0 +1,11 @@
+kind: solution
+slug: holiday-let-registration-system
+title: Holiday-Let Registration System
+role: system-of-record
+summary: Registers every home let to visitors with its owner and nights let, checks each against the limit of its neighbourhood and
+  records the stays on which the overnight charge falls.
+carries:
+- holiday-let-registration
+holds:
+- holiday-let-register
+- visitor-stay

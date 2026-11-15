@@ -1,0 +1,143 @@
+kind: value-stream
+slug: spatial-development-planning
+title: Spatial Development Planning
+family: purpose-to-portfolio
+summary: Setting where and how the city grows and changes over the long term, through a city-wide spatial plan that turns the vision
+  into land use, density, centres, green and blue networks and movement corridors, favouring compact, mixed and walkable growth inside
+  the existing city over spread at its edge, and through the land-use rules that carry it, made and changed with residents.
+trigger: The vision or the strategy is renewed, the spatial plan reaches its review date, or growth, decline, climate risk or a large
+  infrastructure decision makes the current plan unfit.
+outcome: An adopted city-wide spatial plan and land-use rules state where the city grows, densifies, protects and retreats, with their
+  reasons, and remain open to residents' review.
+stakeholders:
+- city-council
+- city-administration
+- city-planner
+- resident
+- neighbourhood-association
+- affected-community
+- landowner
+- property-developer
+- infrastructure-operator
+- neighbouring-municipality
+- future-generations
+steps:
+- slug: spatial-plan-review-opening
+  title: Spatial Plan Review Opening
+  summary: On the council's mandate the planning department opens the review of the spatial plan, sets its scope, horizon and calendar,
+    and lists the land-use rules found outdated or no longer serving current communities.
+  capabilities:
+  - spatial-plan-review-scoping
+  - rule-review
+  entities:
+  - masterplan
+  - zoning-plan
+  - council-decision
+  serves:
+  - spatial-plan-review-notice
+- slug: land-and-growth-analysis
+  title: Land and Growth Analysis
+  summary: Planners map the land supply, vacant and underused land and buildings, expected population and housing need, the capacity
+    of infrastructure networks and the land exposed to hazards.
+  capabilities:
+  - land-capacity-analysis
+  - growth-projection
+  - hazard-and-vulnerability-mapping
+  entities:
+  - land-parcel
+  - gis-layer
+  - flood-risk-map
+  serves:
+  - infrastructure-capacity-consultation
+  - land-and-growth-atlas
+- slug: spatial-option-design
+  title: Spatial Option Design
+  summary: Alternative patterns of growth are designed, such as development inside the existing city, density around transit, mixed-use
+    centres, protected green and blue networks and retreat from flood-prone land, and tested against the vision, the cost of infrastructure
+    and who bears it.
+  capabilities:
+  - spatial-option-design
+  - density-and-mix-planning
+  - green-and-blue-network-planning
+  - decision-impact-assessment
+  entities:
+  - masterplan
+  - future-scenario
+  - gis-layer
+  serves:
+  - spatial-options-exhibition
+- slug: plan-co-design
+  title: Plan Co-Design
+  summary: The draft plan is worked out with neighbourhoods and the communities most affected, who see where change is proposed, what
+    it would mean for rents and for who can stay, and how their own visions are reflected.
+  capabilities:
+  - participatory-plan-design
+  - displacement-risk-assessment
+  - resident-hearing
+  entities:
+  - masterplan
+  - public-consultation
+  - neighbourhood
+  serves:
+  - displacement-risk-report
+  - neighbourhood-planning-workshop
+- slug: land-use-rule-drafting
+  title: Land-Use Rule Drafting
+  summary: The land-use rules that carry the plan are drafted, allowing homes, shops and workspaces side by side, requiring mixed-income
+    housing and space for commons in new development, and returning part of the rise in land value to the community.
+  capabilities:
+  - zoning-rule-drafting
+  - land-value-capture-design
+  - bylaw-drafting
+  entities:
+  - zoning-plan
+  - bylaw
+  serves:
+  - draft-land-use-rules
+- slug: spatial-plan-adoption
+  title: Spatial Plan Adoption
+  summary: Objections are answered in writing, neighbouring municipalities are consulted on what crosses the boundary, and the council
+    adopts the spatial plan and land-use rules with their reasons and the positions of the minority.
+  capabilities:
+  - council-decision-recording
+  - dissent-recording
+  - cross-boundary-agreement-handling
+  entities:
+  - masterplan
+  - zoning-plan
+  - council-decision
+  - cross-boundary-agreement
+  serves:
+  - cross-boundary-plan-consultation
+  - objection-response-report
+  - spatial-plan-adoption-debate
+- slug: spatial-plan-monitoring
+  title: Spatial Plan Monitoring
+  summary: Planners and residents follow where growth actually happens, how much open land is built on and where residents are displaced,
+    and deviations from the plan reopen it before its review date.
+  capabilities:
+  - spatial-plan-monitoring
+  - drift-detection
+  - implementation-reporting
+  entities:
+  - masterplan
+  - gis-layer
+  - city-dashboard
+  serves:
+  - growth-monitoring-report
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-185
+  edition: 2019-03
+  jurisdiction: global
+- source: src-192
+  edition: '2024'
+  jurisdiction: global
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global
+- source: src-201
+  edition: '2011-11-10'
+  jurisdiction: global

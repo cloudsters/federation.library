@@ -1,0 +1,41 @@
+kind: entity
+slug: strategic-objective
+title: Strategic Objective
+type: governance
+summary: A measurable objective derived from the strategy, with an owner, a target, a deadline and the measures by which progress
+  is judged.
+attributes:
+- name: strategy
+  type: reference(strategy)
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: target
+  type: text
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+- name: measures
+  type: reference(measure)
+  card: 0..*
+- name: progress
+  type: code
+  card: 0..1
+states:
+- proposed
+- agreed
+- on-track
+- at-risk
+- achieved
+- abandoned
+relations:
+- type: part-of
+  target: strategy
+- type: refers-to
+  target: measure
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,58 @@
+kind: journey
+slug: personnel-officer-drawing-up-the-workforce-plan
+title: Personnel Officer Drawing Up the Workforce Plan
+stakeholder: personnel-officer
+summary: A personnel officer takes the council's brief for the term, counts every position and the work no one has counted, gathers
+  the departments' needs, forecasts retirements and the knowledge they put at risk, chooses how to close each gap, brings the plan
+  to approval and follows it quarter by quarter.
+stages:
+- slug: take-the-brief
+  title: Take the Brief
+  goal: What the plan must cover for the term is set by the council, and its timetable and questions are agreed with staff representatives.
+  step: municipal-workforce-planning/planning-mandate
+  touchpoints:
+  - workforce-plan-brief
+  - workforce-planning-consultation
+- slug: count-all-the-work
+  title: Count All the Work
+  goal: Every position, the person or agent who holds it, their skills, contracts and age, and the work contracted workers and volunteers
+    do for the city are counted.
+  step: municipal-workforce-planning/workforce-baseline
+  touchpoints:
+  - workforce-baseline-report
+- slug: gather-the-needs
+  title: Gather the Needs
+  goal: Each department has estimated the staff and skills its services will need, including the maintenance and care work the city
+    itself requires.
+  step: municipal-workforce-planning/demand-forecast
+  touchpoints:
+  - service-staffing-workshop
+- slug: see-who-will-leave
+  title: See Who Will Leave
+  goal: Retirements, departures and the roles and knowledge resting on one person are forecast, with the apprentices and local recruits
+    who can fill the gaps in time.
+  step: municipal-workforce-planning/supply-and-retirement-forecast
+  touchpoints:
+  - retirement-and-knowledge-risk-map
+- slug: choose-how-to-close-each-gap
+  title: Choose How to Close Each Gap
+  goal: Each gap is closed by recruitment, apprenticeship, internal moves, staff shared with neighbouring municipalities, volunteers
+    or AI agents, with local hiring targets set and the work that stays with a person named.
+  step: municipal-workforce-planning/gap-closure-design
+  touchpoints:
+  - service-staffing-workshop
+  - workforce-planning-consultation
+- slug: bring-the-plan-to-approval
+  title: Bring the Plan to Approval
+  goal: The plan, with the opinion of staff representatives, is approved by the council with the budget that funds it, and published.
+  step: municipal-workforce-planning/plan-approval
+  touchpoints:
+  - personnel-committee-meeting
+  - published-workforce-plan
+- slug: follow-the-plan-each-quarter
+  title: Follow the Plan Each Quarter
+  goal: Staffing, vacancies, turnover and apprentice numbers are compared with the plan each quarter, and each deviation is returned
+    to the department concerned.
+  step: municipal-workforce-planning/plan-monitoring
+  touchpoints:
+  - quarterly-workforce-report

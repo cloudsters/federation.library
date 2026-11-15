@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: fare-and-concession-card
+title: Fare and Concession Card
+medium: artefact
+summary: The single ticket across modes, with the reduced and free fares for low incomes, children and elders and the fare for night
+  shifts carried on it.
+exchanges:
+- fare-for-travel-priced-to-shift-pay
+journey: night-shift-worker-getting-to-work-at-any-hour

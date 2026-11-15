@@ -1,0 +1,118 @@
+kind: value-stream
+slug: public-buildings-and-facilities
+title: Public Buildings and Facilities
+family: acquire-to-retire
+summary: Running the buildings the city owns or uses, such as offices, libraries, schools, community centres, depots and halls, so
+  that they are safe, use little energy and are open to their neighbourhoods, and bringing empty buildings back into use. It holds
+  the review of how each building is used, the daily operation of its technical installations and its fire safety, the energy use
+  and retrofit of the city's own buildings, shared use by residents and groups, the reactivation of empty buildings and former industrial
+  sites, and the handing of buildings to community operators.
+trigger: A building enters the city's portfolio, its users or use change, a need for space arises, or a building falls empty.
+outcome: Every public building is safe, efficient and in use, shared with its neighbourhood, and empty buildings are back in use or
+  passed to retirement.
+stakeholders:
+- facilities-officer
+- municipal-employee
+- neighbourhood-association
+- civil-society-organisation
+- cultural-organisation
+- resident
+- disabled-resident
+- social-enterprise
+steps:
+- slug: building-use-review
+  title: Building Use Review
+  summary: The facilities office surveys how each building is used through the day and the year, what it costs and emits, and which
+    space stands empty or underused, and proposes what to share, combine or release.
+  capabilities:
+  - space-use-review
+  - embedded-carbon-assessment
+  entities:
+  - building
+  - space-use-survey
+  - public-asset-register
+  serves:
+  - building-use-walk-through
+  - published-building-energy-ratings
+- slug: building-operation-and-safety
+  title: Building Operation and Safety
+  summary: Heating, ventilation, water, lifts, lighting and fire safety installations are run, checked and kept in order so that each
+    building is safe and healthy for those who work in and visit it.
+  capabilities:
+  - building-systems-operation
+  - statutory-safety-inspection
+  entities:
+  - building
+  - building-installation
+  - inspection-record
+  serves:
+  - building-help-desk
+  - installation-and-fire-safety-check
+- slug: energy-use-and-retrofit
+  title: Energy Use and Retrofit
+  summary: Energy use is metered and published for every public building, and the worst performers are insulated, re-equipped and
+    fitted with renewable energy, with community energy cooperatives where they offer.
+  capabilities:
+  - building-energy-monitoring
+  - public-building-retrofit
+  - community-energy-partnering
+  entities:
+  - building-energy-record
+  - building
+  - carbon-footprint
+  serves:
+  - community-energy-roof-agreement
+  - published-building-energy-ratings
+  - retrofit-works-briefing
+- slug: shared-use-with-neighbourhoods
+  title: Shared Use with Neighbourhoods
+  summary: Halls, classrooms, kitchens and yards are opened to residents and groups outside their main hours under shared-use agreements,
+    booked openly, with keys held by trusted groups.
+  capabilities:
+  - shared-use-agreement-drafting
+  - community-space-provision
+  - facility-booking
+  entities:
+  - shared-use-agreement
+  - community-centre
+  - facility-booking
+  serves:
+  - key-holding-agreement
+  - out-of-hours-room-booking
+- slug: reactivation-of-empty-buildings
+  title: Reactivation of Empty Buildings
+  summary: Empty buildings and former industrial sites are made safe and opened for interim or lasting community use, keeping the
+    material and the stories that give them their character.
+  capabilities:
+  - interim-use-arrangement
+  - heritage-reuse-planning
+  - building-systems-operation
+  entities:
+  - building
+  - vacancy-register
+  - heritage-protection
+  serves:
+  - empty-building-open-day
+  - interim-use-open-call
+- slug: handover-to-community-operators
+  title: Handover to Community Operators
+  summary: Where a community body can run a building, the city leases or transfers it on agreed terms of use, upkeep and access, and
+    supports the operator in its first years.
+  capabilities:
+  - community-asset-transfer
+  - public-land-leasing
+  - community-operator-support
+  entities:
+  - asset-transfer-agreement
+  - building
+  - cooperative
+  serves:
+  - building-handover-signing
+  - operator-support-visit
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-339
+  edition: 2018+Amd1:2024
+  jurisdiction: global

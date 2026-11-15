@@ -1,0 +1,40 @@
+kind: entity
+slug: grievance
+title: Grievance
+type: transactional
+summary: A formal concern raised by a member of staff about their treatment at work, such as workload, pay, conduct of others or discrimination,
+  heard in a fair procedure with the right to representation and answered within set times.
+attributes:
+- name: employee
+  type: reference(employee-record)
+  card: 1..1
+- name: grievance-kind
+  type: code
+  card: 1..1
+- name: organisation-unit
+  type: reference(department)
+  card: 0..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: represented
+  type: boolean
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: appeal-lodged
+  type: boolean
+  card: 0..1
+states:
+- received
+- under-investigation
+- heard
+- resolved
+- appealed
+- closed
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: employment

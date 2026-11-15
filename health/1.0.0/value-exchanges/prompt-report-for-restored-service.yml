@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prompt-report-for-restored-service
+title: Prompt Report for Restored Service
+between:
+- registered-nurse
+- health-informatics-specialist
+offered:
+- A prompt report of a disruption or need, with its effect on patient care and the location affected.
+returned:
+- Restored service or a fulfilled request within the agreed time, with status updates and fallback instructions in the meantime.
+touchpoint: it-service-desk

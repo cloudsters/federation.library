@@ -1,0 +1,58 @@
+kind: entity
+slug: misconduct-report
+title: Misconduct Report
+type: transactional
+summary: A confidential report of suspected misconduct by a councillor or official, with the investigation and outcome that follow.
+  An independent investigating office keeps it and protects the reporter, and its outcome decides correction, sanction and notification.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: reporter-identity
+  type: text
+  card: 0..1
+- name: protection-measures
+  type: text
+  card: 0..*
+- name: subject
+  type: text
+  card: 1..1
+- name: investigated-by
+  type: text
+  card: 0..1
+- name: facts-established
+  type: text
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: correction
+  type: text
+  card: 0..1
+- name: sanction
+  type: text
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- received
+- acknowledged
+- assessed
+- investigated
+- decided
+- notified
+- closed
+relations:
+- type: governed-by
+  target: code-of-conduct
+- type: refers-to
+  target: interest-declaration
+- type: refers-to
+  target: legal-matter

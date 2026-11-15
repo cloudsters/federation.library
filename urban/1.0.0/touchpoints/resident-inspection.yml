@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: resident-inspection
+title: Resident Inspection
+medium: encounter
+summary: An inspection by trained resident inspectors of a municipal process such as procurement, permits or spending, with access
+  to the records it needs.
+exchanges:
+- inspection-findings-for-public-answers
+journey: city-administration-taking-a-proposal-to-resolution

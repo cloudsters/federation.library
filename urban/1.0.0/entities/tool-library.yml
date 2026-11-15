@@ -1,0 +1,58 @@
+kind: entity
+slug: tool-library
+title: Tool Library
+type: master
+summary: A lending library of tools and spare parts open to residents and groups, with an open list of what is available. A neighbourhood
+  body or the city runs it, and repair points and residents borrow from it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: run-by
+  type: text
+  card: 1..1
+- name: operator-kind
+  type: code
+  card: 1..1
+- name: place
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: open-list
+  type: document
+  card: 1..1
+- name: item-count
+  type: integer
+  card: 0..1
+- name: spare-parts
+  type: text
+  card: 0..*
+- name: lending-terms
+  type: text
+  card: 1..1
+- name: who-may-borrow
+  type: text
+  card: 0..*
+- name: loans-per-year
+  type: integer
+  card: 0..1
+- name: opened-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- opened
+- lending
+- paused
+- closed
+relations:
+- type: refers-to
+  target: equipment-pool
+- type: refers-to
+  target: repair-point
+- type: refers-to
+  target: material-bank
+- type: refers-to
+  target: neighbourhood

@@ -1,0 +1,10 @@
+kind: capability
+slug: privacy-impact-management
+title: Privacy Impact Assessment & Management
+level: L3
+parent: data-protection-and-privacy
+summary: Assess privacy risks of new processing activities and systems and manage the resulting measures.
+binds:
+- source: src-395
+  edition: '2023'
+  jurisdiction: global

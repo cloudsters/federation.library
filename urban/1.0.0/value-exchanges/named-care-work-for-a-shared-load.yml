@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: named-care-work-for-a-shared-load
+title: Named Care Work for a Shared Load
+between:
+- frontline-worker
+- city-administration
+offered:
+- The listening, conflict-holding and facilitation work they carry for the team.
+returned:
+- That work named in the team agreement, recorded and rotated.
+touchpoint: team-agreement

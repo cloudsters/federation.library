@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: internal-audit-report
+title: Internal Audit Report
+medium: artefact
+summary: The report of an internal audit to the board and the supervisory body, with its findings, their severity and the
+  corrective actions agreed with the audited units.
+exchanges:
+- independent-assurance
+journey: owner-overseeing-the-commons

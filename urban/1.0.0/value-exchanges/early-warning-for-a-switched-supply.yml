@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-warning-for-a-switched-supply
+title: Early Warning for a Switched Supply
+between:
+- health-and-care-provider
+- procurement-officer
+offered:
+- An early warning that a supply is failing.
+returned:
+- A quick switch to standby suppliers and the release of reserves when the triggers are met.
+touchpoint: supply-disruption-alert

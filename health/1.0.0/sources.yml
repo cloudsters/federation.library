@@ -1,0 +1,1806 @@
+# the attribution list (extension R31), generated at release
+sources:
+- id: src-001
+  designation: ISO 13940:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-002
+  designation: ISO/PAS 24305:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-003
+  designation: Elwyn G et al., BMJ 2017;359:j4891
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-004
+  designation: SNOMED CT
+  edition: '2026-10-01'
+  jurisdiction: global
+  relation: bind
+- id: src-005
+  designation: ICNP SNOMED CT Nursing Practice Refset
+  edition: '20260101'
+  jurisdiction: global
+  relation: bind
+- id: src-006
+  designation: LOINC
+  edition: '2.83'
+  jurisdiction: global
+  relation: bind
+- id: src-007
+  designation: ICD-11 MMS
+  edition: 2026-01
+  jurisdiction: global
+  relation: bind
+- id: src-008
+  designation: ATC/DDD
+  edition: '2026'
+  jurisdiction: global
+  relation: bind
+- id: src-013
+  designation: ISO 21090:2011
+  edition: '2011'
+  jurisdiction: global
+  relation: mirror
+- id: src-014
+  designation: UCUM
+  edition: '2.2'
+  jurisdiction: global
+  relation: mirror
+- id: src-015
+  designation: openEHR RM
+  edition: 1.1.0
+  jurisdiction: global
+  relation: mirror
+- id: src-016
+  designation: openEHR AM (archetypes and templates)
+  edition: 2.3.0
+  jurisdiction: global
+  relation: mirror
+- id: src-017
+  designation: ISO 13606-1:2019 (with ISO 13606-3:2019, reference archetypes and term lists)
+  edition: '2019'
+  jurisdiction: global
+  relation: mirror
+- id: src-018
+  designation: FHIR R4
+  edition: 4.0.1
+  jurisdiction: global
+  relation: bind
+- id: src-019
+  designation: FHIR R5
+  edition: 5.0.0
+  jurisdiction: global
+  relation: bind
+- id: src-020
+  designation: IHE ITI TF
+  edition: '20.2'
+  jurisdiction: global
+  relation: bind
+- id: src-021
+  designation: DICOM PS3
+  edition: 2026d
+  jurisdiction: global
+  relation: bind
+- id: src-022
+  designation: ISO 27269:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: bind
+- id: src-028
+  designation: HL7 CQL
+  edition: 1.5.3
+  jurisdiction: global
+  relation: adopt
+- id: src-029
+  designation: HL7 CDS Hooks
+  edition: 2.0.1
+  jurisdiction: global
+  relation: adopt
+- id: src-030
+  designation: CPG-on-FHIR (hl7.fhir.uv.cpg)
+  edition: 2.0.0
+  jurisdiction: global
+  relation: adopt
+- id: src-031
+  designation: SMART Guidelines knowledge layers L1–L5
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-032
+  designation: ISO 12967-1:2020, ISO 12967-2:2020, ISO 12967-3:2020
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-033
+  designation: '3LGM², as set out in Winter A et al., Health Information Systems: Technological and Management Perspectives'
+  edition: 3rd-2023
+  jurisdiction: global
+  relation: adopt
+- id: src-034
+  designation: ISO 10781:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-035
+  designation: BIZBOK Guide
+  edition: '15'
+  jurisdiction: global
+  relation: adopt
+- id: src-036
+  designation: OMOP CDM
+  edition: 5.5.0
+  jurisdiction: global
+  relation: bind
+- id: src-037
+  designation: ICH E6(R3)
+  edition: r3-2025-01-06
+  jurisdiction: global
+  relation: bind
+- id: src-038
+  designation: Declaration of Helsinki
+  edition: '2024-10-19'
+  jurisdiction: global
+  relation: bind
+- id: src-039
+  designation: FAIR Principles (Wilkinson MD et al., Sci Data 2016;3:160018)
+  edition: '2016'
+  jurisdiction: global
+  relation: bind
+- id: src-043
+  designation: SHA 2011 (classifications of functions, providers and financing schemes)
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-044
+  designation: Time-driven activity-based costing (Kaplan RS, Porter ME, Harvard Business Review, September 2011)
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-049
+  designation: ICHOM Sets
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+  relation: adopt
+- id: src-050
+  designation: Value-based health care (Porter ME, N Engl J Med 2010;363:2477–2481)
+  edition: '2010'
+  jurisdiction: global
+  relation: adopt
+- id: src-052
+  designation: HIMSS EMRAM
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-054
+  designation: ISO/IEEE 11073-10700:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-055
+  designation: ISO 55001:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-056
+  designation: IEC 80001-1:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-058
+  designation: WHO IPCHS framework (resolution WHA69.24)
+  edition: wha69-24
+  jurisdiction: global
+  relation: adopt
+- id: src-070
+  designation: CanMEDS
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-071
+  designation: Entrustable professional activities (ten Cate O, Med Educ 2005;39:1176–1177)
+  edition: '2005'
+  jurisdiction: global
+  relation: adopt
+- id: src-075
+  designation: ISO 9001:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-076
+  designation: ISO 15189:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-077
+  designation: ISO 27799:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: mirror
+- id: src-078
+  designation: ISO/IEC 42001:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: mirror
+- id: src-079
+  designation: Donabedian A, JAMA 1988;260(12):1743–1748
+  edition: '1988'
+  jurisdiction: global
+  relation: adopt
+- id: src-087
+  designation: ArchiMate 4 (C260)
+  edition: '4'
+  jurisdiction: global
+  relation: adopt
+- id: src-088
+  designation: BPMN 2.0.2 / ISO/IEC 19510:2013
+  edition: 2.0.2
+  jurisdiction: global
+  relation: adopt
+- id: src-089
+  designation: ISO 14001:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-090
+  designation: ISO 45001:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-091
+  designation: ISO 50001:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-092
+  designation: ISO 37301:2021
+  edition: 2021-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-093
+  designation: ISO 31000:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-094
+  designation: ISO 22301:2019
+  edition: 2019-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-095
+  designation: ISO/IEC 27001:2022
+  edition: 2022-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-096
+  designation: ISO/IEC 27002:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-098
+  designation: ISO 44001:2017
+  edition: 2017-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-099
+  designation: ISO 56001:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-100
+  designation: ISO 37000:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-106
+  designation: IFRS Accounting Standards 2026 (issued at 1 January 2026)
+  edition: '2026'
+  jurisdiction: global
+  relation: bind
+- id: src-110
+  designation: GHG Protocol Corporate Standard
+  edition: 2004-scope2-2015
+  jurisdiction: global
+  relation: bind
+- id: src-111
+  designation: GHG Protocol Scope 3 Standard
+  edition: 2011-c2013
+  jurisdiction: global
+  relation: bind
+- id: src-133
+  designation: ISO 20022-1:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: bind
+- id: src-135
+  designation: OASIS UBL 2.5; ISO/IEC 19845:2015 (UBL 2.1)
+  edition: '2.5'
+  jurisdiction: global
+  relation: bind
+- id: src-137
+  designation: GS1 General Specifications Release 26.0
+  edition: '26.0'
+  jurisdiction: global
+  relation: bind
+- id: src-138
+  designation: GS1 EPCIS 2.0 / ISO/IEC 19987:2024
+  edition: '2.0'
+  jurisdiction: global
+  relation: bind
+- id: src-139
+  designation: XBRL 2.1
+  edition: '2.1'
+  jurisdiction: global
+  relation: bind
+- id: src-147
+  designation: ISO 8000-1:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: mirror
+- id: src-152
+  designation: ITIL (Version 5)
+  edition: '5'
+  jurisdiction: global
+  relation: adopt
+- id: src-155
+  designation: ISO 30414:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-196
+  designation: ISO 21504:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-218
+  designation: ISO/IEC 20000-1:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-233
+  designation: ISO 30401:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-234
+  designation: ISO 10002:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-239
+  designation: ISO 30409:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-250
+  designation: ISO 21542:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-251
+  designation: A/RES/44/25; UNTS vol. 1577, p. 3; UNTC Chapter IV-11
+  edition: '1989-11-20'
+  jurisdiction: global
+  relation: adopt
+- id: src-254
+  designation: WHA58.3 (2005), amended by WHA67.13 (2014), WHA75.12 (2022) and WHA77.17 (2024)
+  edition: '2025-09-19'
+  jurisdiction: global
+  relation: adopt
+- id: src-257
+  designation: ISO 18295-1:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-258
+  designation: ISO 20121:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-295
+  designation: IEC 62353:2014
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-296
+  designation: ISO 17665:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-297
+  designation: ISO 15883-1:2024 (series ISO 15883)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-298
+  designation: ISO/IEC 19770-1:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-299
+  designation: ISO 17664-1:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-300
+  designation: ISO 19011:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-301
+  designation: ISO 19650-1:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-302
+  designation: ISO 7396-1:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-303
+  designation: ISO 11607-1:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-304
+  designation: ISO 14971:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-305
+  designation: ISO/IEC 27031:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-306
+  designation: ANSI/NISO Z39.104-2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-310
+  designation: IEC 60364-7-710:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-311
+  designation: IEC 62304:2006+AMD1:2015 CSV
+  edition: 2006+AMD1:2015
+  jurisdiction: global
+  relation: adopt
+- id: src-312
+  designation: IEC 82304-1:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-313
+  designation: INACSL Healthcare Simulation Standards of Best Practice, fourth edition (2025 revision); Preamble DOI 10.1016/j.ecns.2025.101774
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-314
+  designation: ISO 11140-1:2014
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-315
+  designation: ISO 21502:2020
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-316
+  designation: ISO 37001:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-317
+  designation: ISO/IEC 19770-3:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-318
+  designation: UICC TNM Classification of Malignant Tumours, 9th edition (ISBN 978-1-394-21685-7)
+  edition: 9th
+  jurisdiction: global
+  relation: adopt
+- id: src-319
+  designation: WCAG 2.1 (W3C Recommendation)
+  edition: '2.1'
+  jurisdiction: global
+  relation: adopt
+- id: src-320
+  designation: WFME Standards for BME 2020, PGME 2023, CPD 2024
+  edition: BME-2020/PGME-2023/CPD-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-324
+  designation: EN 15331:2011
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-325
+  designation: EN 15978:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-326
+  designation: EN 16442:2015
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-327
+  designation: EUCAST Breakpoint tables v16.1
+  edition: '16.1'
+  jurisdiction: global
+  relation: adopt
+- id: src-328
+  designation: ICCR datasets
+  edition: collection
+  jurisdiction: global
+  relation: adopt
+- id: src-329
+  designation: IEC 62443-3-3:2013
+  edition: '2013'
+  jurisdiction: global
+  relation: adopt
+- id: src-330
+  designation: IEC 81001-5-1:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-331
+  designation: Global Internal Audit Standards (2024)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-332
+  designation: ISO 11138-1:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-333
+  designation: ISO 14721:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-334
+  designation: ISO 15883-4:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-335
+  designation: ISO 20387:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-336
+  designation: ISO 20658:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-337
+  designation: ISO 21503:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-338
+  designation: ISO 22320:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-339
+  designation: ISO 41001:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-340
+  designation: ISO/IEC 19770-2:2015
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-341
+  designation: ISO/IEC 27035-1:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-342
+  designation: ISO/IEC 27701:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-343
+  designation: ISO/TS 30421:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-344
+  designation: NIST SP 800-88 Rev. 2
+  edition: Rev. 2
+  jurisdiction: global
+  relation: adopt
+- id: src-345
+  designation: DOI 10.1089/bio.2024.0010
+  edition: '4.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-346
+  designation: SSH Core Accreditation Standards (2021)
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-347
+  designation: VDI 6022 Blatt 1:2018-01
+  edition: 2018-01
+  jurisdiction: global
+  relation: adopt
+- id: src-348
+  designation: VDI 6039:2011-06
+  edition: 2011-06
+  jurisdiction: global
+  relation: adopt
+- id: src-349
+  designation: ANSI/AAMI EQ89:2015 (R2023)
+  edition: 2015(R2023)
+  jurisdiction: global
+  relation: adopt
+- id: src-350
+  designation: CVSS v4.0
+  edition: '4.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-351
+  designation: EFI Standards Version 9.0
+  edition: '9.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-352
+  designation: EN 13549:2001
+  edition: '2001'
+  jurisdiction: global
+  relation: adopt
+- id: src-361
+  designation: IEC 60300-3-3:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-362
+  designation: IEC 61223-3-5:2019 (part of the IEC 61223 series)
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-363
+  designation: IEEE 2883-2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-364
+  designation: 'IPMS: All Buildings'
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-365
+  designation: ISO 10015:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-366
+  designation: ISO 13485:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-367
+  designation: ISO 14090:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-368
+  designation: ISO 14091:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-369
+  designation: ISO 15489-1:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-370
+  designation: ISO 15686-5:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-371
+  designation: ISO 20166-1:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-372
+  designation: ISO 20184-1:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-373
+  designation: ISO 20186-1:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-374
+  designation: ISO 21001:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-375
+  designation: ISO/TS 22318:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-376
+  designation: ISO 22398:2013
+  edition: '2013'
+  jurisdiction: global
+  relation: adopt
+- id: src-377
+  designation: ISO 23326:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-378
+  designation: ISO 27789:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-379
+  designation: ISO 30405:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-380
+  designation: ISO/TS 30407:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-381
+  designation: ISO 30408:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-382
+  designation: ISO 30415:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-383
+  designation: ISO 30422:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-384
+  designation: ISO 30434:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-385
+  designation: IEC 31010:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-386
+  designation: ISO 37002:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-387
+  designation: ISO 56002:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-388
+  designation: ISO 56003:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-389
+  designation: ISO 56005:2020
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-390
+  designation: ISO/IEC 17025:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-391
+  designation: ISO/IEC 24760-1:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-392
+  designation: ISO/IEC 25012:2008
+  edition: '2008'
+  jurisdiction: global
+  relation: adopt
+- id: src-393
+  designation: ISO/IEC 27005:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-394
+  designation: ISO/IEC 27036-1:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-395
+  designation: ISO/IEC 29134:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-396
+  designation: ISO/IEC 30111:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-397
+  designation: ISO/IEC 38500:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-398
+  designation: ISO/IEC/IEEE 42010:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-399
+  designation: ISO/TS 22317:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-400
+  designation: ISO 25237:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-401
+  designation: 2026 CAMH, Medical Staff (MS) chapter (SKU CAH26, ISBN 978-1-635-85459-6)
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-402
+  designation: ANSI/NEMA HN 1-2019 (MDS2)
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-403
+  designation: The Standard for Portfolio Management, 4th ed.; The Standard for Program Management, 5th ed.
+  edition: SPfM4-2017; SPgM5-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-404
+  designation: hl7.fhir.uv.ips#2.0.1 (STU 2, FHIR R4 4.0.1)
+  edition: 2.0.1
+  jurisdiction: global
+  relation: bind
+- id: src-405
+  designation: HL7 Version 2.9.1
+  edition: v2.9.1
+  jurisdiction: global
+  relation: bind
+- id: src-406
+  designation: CERIF 1.6.1
+  edition: 1.6.1
+  jurisdiction: global
+  relation: bind
+- id: src-407
+  designation: ICCBBA ST-001, ISBT 128 Standard Technical Specification v6.2.2
+  edition: 6.2.2
+  jurisdiction: global
+  relation: bind
+- id: src-408
+  designation: 1EdTech CLR 2.0
+  edition: '2.0'
+  jurisdiction: global
+  relation: bind
+- id: src-409
+  designation: ISO 16739-1:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: bind
+- id: src-410
+  designation: 1EdTech Open Badges 3.0
+  edition: '3.0'
+  jurisdiction: global
+  relation: bind
+- id: src-411
+  designation: openEHR GDL2 (CDS component)
+  edition: CDS-2.0.1
+  jurisdiction: global
+  relation: bind
+- id: src-412
+  designation: IETF RFC 7643 and RFC 7644
+  edition: RFC7643/RFC7644
+  jurisdiction: global
+  relation: bind
+- id: src-413
+  designation: 1EdTech CASE 1.1
+  edition: '1.1'
+  jurisdiction: global
+  relation: bind
+- id: src-414
+  designation: 1EdTech OneRoster 1.2
+  edition: '1.2'
+  jurisdiction: global
+  relation: bind
+- id: src-415
+  designation: CDISC ODM v2.0
+  edition: '2.0'
+  jurisdiction: global
+  relation: bind
+- id: src-416
+  designation: HL7 CDA R2
+  edition: R2.0-2024
+  jurisdiction: global
+  relation: bind
+- id: src-417
+  designation: ICH E2B(R3)
+  edition: '5.03'
+  jurisdiction: global
+  relation: bind
+- id: src-418
+  designation: ISO 11615:2017; ISO 11616:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: bind
+- id: src-419
+  designation: ISO/IEEE 11073-20601:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: bind
+- id: src-420
+  designation: ANSI/MEDBIQ CI.10.1-2013
+  edition: '2013'
+  jurisdiction: global
+  relation: bind
+- id: src-421
+  designation: MedDRA
+  edition: '29.1'
+  jurisdiction: global
+  relation: bind
+- id: src-422
+  designation: MIABIS Core 3.0, DOI 10.1089/bio.2023.0074
+  edition: Core-3.0
+  jurisdiction: global
+  relation: bind
+- id: src-423
+  designation: IEEE 9274.1.1-2023
+  edition: '2023'
+  jurisdiction: global
+  relation: bind
+- id: src-424
+  designation: 1EdTech QTI 3.0
+  edition: '3.0'
+  jurisdiction: global
+  relation: bind
+- id: src-427
+  designation: HGVS Nomenclature
+  edition: 21.1.5
+  jurisdiction: global
+  relation: bind
+- id: src-428
+  designation: hl7.fhir.uv.genomics-reporting#3.0.0
+  edition: STU3
+  jurisdiction: global
+  relation: bind
+- id: src-429
+  designation: HR Open Standards 4.5
+  edition: '4.5'
+  jurisdiction: global
+  relation: bind
+- id: src-430
+  designation: ICD-10 Version 2019
+  edition: '2019'
+  jurisdiction: global
+  relation: bind
+- id: src-431
+  designation: ICF (WHA54.21)
+  edition: 2026-01
+  jurisdiction: global
+  relation: bind
+- id: src-432
+  designation: IEEE 1849-2023
+  edition: '2023'
+  jurisdiction: global
+  relation: bind
+- id: src-433
+  designation: MEDBIQ CF.10.1-2012
+  edition: '2012'
+  jurisdiction: global
+  relation: bind
+- id: src-434
+  designation: EDXL-HAVE v2.0 Committee Specification 02
+  edition: 2.0-cs02
+  jurisdiction: global
+  relation: bind
+- id: src-435
+  designation: openEHR AQL (QUERY component)
+  edition: QUERY-1.1.0
+  jurisdiction: global
+  relation: bind
+- id: src-436
+  designation: OpenID Connect Core 1.0 (errata set 2); also ISO/IEC 26131:2024
+  edition: 1.0-errata2
+  jurisdiction: global
+  relation: bind
+- id: src-437
+  designation: ISO/IEC 5962:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: bind
+- id: src-438
+  designation: 1EdTech LTI Core Specification 1.3
+  edition: '1.3'
+  jurisdiction: global
+  relation: bind
+- id: src-439
+  designation: CDISC CDASHIG v2.3 / CDASH Model v1.3
+  edition: '2.3'
+  jurisdiction: global
+  relation: bind
+- id: src-440
+  designation: CDISC SDTM v2.1
+  edition: '2.1'
+  jurisdiction: global
+  relation: bind
+- id: src-441
+  designation: CLSI POCT01-A2
+  edition: A2 (2006)
+  jurisdiction: global
+  relation: bind
+- id: src-442
+  designation: COBie V3.0 (NBIMS-US V4)
+  edition: V3.0
+  jurisdiction: global
+  relation: bind
+- id: src-443
+  designation: Crossref metadata deposit schema 5.5.0
+  edition: 5.5.0
+  jurisdiction: global
+  relation: bind
+- id: src-444
+  designation: DataCite Metadata Schema 4.7 (DOI 10.14454/qdd3-ps68)
+  edition: '4.7'
+  jurisdiction: global
+  relation: bind
+- id: src-447
+  designation: ICD-O-3.2
+  edition: 3.2 (2019)
+  jurisdiction: global
+  relation: bind
+- id: src-448
+  designation: ICNP SNOMED CT Nursing Practice Refset, January 2026 release
+  edition: 2026-01
+  jurisdiction: global
+  relation: bind
+- id: src-449
+  designation: IHE RAD TF Rev. 23.0 (XDS-I.b profile)
+  edition: Rev. 23.0
+  jurisdiction: global
+  relation: bind
+- id: src-450
+  designation: EDXL-DE v2.0 (OASIS Committee Specification 02)
+  edition: 2.0 CS02
+  jurisdiction: global
+  relation: bind
+- id: src-451
+  designation: IETF RFC 6749
+  edition: RFC 6749
+  jurisdiction: global
+  relation: bind
+- id: src-452
+  designation: Peppol BIS Ordering 3 (profile urn:fdc:peppol.eu:poacc:bis:ordering:3)
+  edition: '3.3'
+  jurisdiction: global
+  relation: bind
+- id: src-453
+  designation: WHO Classification of Tumours, 5th edition (14 volumes); 6th edition begun with Volume 1, Digestive System
+    Tumours (2026)
+  edition: '5th ed. (Digestive: 6th ed. 2026)'
+  jurisdiction: global
+  relation: bind
+- id: src-454
+  designation: WIPO Standard ST.96
+  edition: '10.0'
+  jurisdiction: global
+  relation: bind
+- id: src-455
+  designation: XBRL GL 2015 (GL Framework REC-2015-03-25)
+  edition: '2015'
+  jurisdiction: global
+  relation: bind
+- id: src-457
+  designation: CoARA Agreement on Reforming Research Assessment (20 July 2022)
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-458
+  designation: DORA (2012)
+  edition: '2012'
+  jurisdiction: global
+  relation: adopt
+- id: src-459
+  designation: 'IIA Statement of Position: Three Lines Model (2026)'
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-460
+  designation: Kirkpatrick DL, 'Techniques for Evaluating Training Programs', Journal of the American Society of Training
+    Directors, 1959–1960 (four-part series); now 'The Kirkpatrick Model', Kirkpatrick Partners
+  edition: '1959'
+  jurisdiction: global
+  relation: adopt
+- id: src-461
+  designation: ESG 2015
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-462
+  designation: GRADE Handbook (Schünemann H, Brożek J, Guyatt G, Oxman A, eds.), updated October 2013
+  edition: '2013'
+  jurisdiction: global
+  relation: adopt
+- id: src-463
+  designation: HTA Core Model Version 3.0
+  edition: '3.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-464
+  designation: WHO WISN User Manual, 2nd ed. (ISBN 9789240070066)
+  edition: 2nd ed. 2023
+  jurisdiction: global
+  relation: adopt
+- id: src-465
+  designation: ASBH Core Competencies, 3rd edition
+  edition: 3rd ed.
+  jurisdiction: global
+  relation: adopt
+- id: src-466
+  designation: EACH Charter (1988), Annotations updated edition 2022
+  edition: 1988 / annotations 2022
+  jurisdiction: global
+  relation: adopt
+- id: src-467
+  designation: IPEC Core Competencies Version 3 (2023)
+  edition: 3 (2023)
+  jurisdiction: global
+  relation: adopt
+- id: src-469
+  designation: DOI 10.1038/520429a (Hicks D, Wouters P, Waltman L, de Rijcke S, Rafols I. Nature 2015;520(7548):429–431)
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-470
+  designation: WHO reference number B09489
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-471
+  designation: ISBN 9789240081291
+  edition: 2nd ed. 2023
+  jurisdiction: global
+  relation: adopt
+- id: src-472
+  designation: Wagner EH. Eff Clin Pract 1998;1(1):2–4 (PMID 10345255)
+  edition: '1998'
+  jurisdiction: global
+  relation: adopt
+- id: src-473
+  designation: CIS Controls v8.1
+  edition: v8.1
+  jurisdiction: global
+  relation: adopt
+- id: src-474
+  designation: DOI 10.2766/87192; ISBN 978-92-79-43559-1 (PDF); catalogue NC-05-14-068-EN-N
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-476
+  designation: IDDSI Framework (© The International Dysphagia Diet Standardisation Initiative 2019)
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-477
+  designation: DOI 10.1097/SLA.0000000000002794 (Hirst A et al. Ann Surg 2019;269(2):211–220)
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-478
+  designation: DOI 10.1136/bmj.n2061 (Skivington K et al. BMJ 2021;374:n2061)
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-479
+  designation: WHO/HRH/HPN/10.3
+  edition: '2010'
+  jurisdiction: global
+  relation: adopt
+- id: src-480
+  designation: AMEC Barcelona Principles 4.0
+  edition: '4.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-481
+  designation: CIHC Competency Framework for Advancing Collaboration 2024 (ISBN 978-1-926819-11-2)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-482
+  designation: COSO ERM Framework (2017)
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-483
+  designation: DAMA-DMBOK2 Revised Edition
+  edition: 2R-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-484
+  designation: DESCA HE 2.1
+  edition: HE 2.1
+  jurisdiction: global
+  relation: adopt
+- id: src-485
+  designation: DFG Research-Oriented Equity and Diversity Standards (2022)
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-486
+  designation: EFPIA Code of Practice, Final Consolidated Version 2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-489
+  designation: Desai T, Ritchie F, Welpton R (2016). UWE Economics Working Paper Series 1601
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-490
+  designation: MSP 5th edition
+  edition: 5th ed. 2020
+  jurisdiction: global
+  relation: adopt
+- id: src-491
+  designation: DOI 10.1017/S0266462311000638 (Kidholm K et al. Int J Technol Assess Health Care 2012;28(1):44–51)
+  edition: '2012'
+  jurisdiction: global
+  relation: adopt
+- id: src-492
+  designation: MITRE ATT&CK v20.0
+  edition: v20
+  jurisdiction: global
+  relation: adopt
+- id: src-493
+  designation: Langley GJ et al., The Improvement Guide, 2nd ed., ISBN 978-0-470-19241-2
+  edition: 2nd ed. 2009
+  jurisdiction: global
+  relation: adopt
+- id: src-494
+  designation: DOI 10.2196/jmir.8775 (Greenhalgh T et al. J Med Internet Res 2017;19(11):e367)
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-495
+  designation: DOI 10.2105/AJPH.89.9.1322 (Glasgow RE, Vogt TM, Boles SM. Am J Public Health 1999;89(9):1322–1327)
+  edition: '1999'
+  jurisdiction: global
+  relation: adopt
+- id: src-496
+  designation: DOI 10.1111/jpm.12129 (Bowers L. J Psychiatr Ment Health Nurs 2014;21(6):499–508)
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-497
+  designation: SBTi Corporate Net-Zero Standard V1.3.1
+  edition: V1.3.1
+  jurisdiction: global
+  relation: adopt
+- id: src-498
+  designation: BSRIA BG 54/2018 (ISBN 978-0-86022-764-9)
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-499
+  designation: TeamSTEPPS 3.0
+  edition: '3.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-500
+  designation: ISBN 978-92-4-008188-8
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-501
+  designation: WHO HEAT / HEAT Plus, Version 7.1
+  edition: '7.1'
+  jurisdiction: global
+  relation: adopt
+- id: src-502
+  designation: Resolution WHA69.19 (28 May 2016); ISBN 978 92 4 151113 1
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-503
+  designation: WHO/IER/PSP/2010.2
+  edition: '1.1'
+  jurisdiction: global
+  relation: adopt
+- id: src-504
+  designation: ISBN 978-92-4-154841-0
+  edition: '2012'
+  jurisdiction: global
+  relation: adopt
+- id: src-505
+  designation: WHO Surgical Safety Checklist 2009; ISBN 978 92 4 159859 0
+  edition: '2009'
+  jurisdiction: global
+  relation: adopt
+- id: src-506
+  designation: DOI 10.1136/bmj-2023-078378 (Collins GS et al., BMJ 2024;385:e078378)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-507
+  designation: ERC Guidelines 2025; Executive Summary DOI 10.1016/j.resuscitation.2025.110770 (Greif R et al., Resuscitation
+    2025;215:110770)
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-508
+  designation: DOI 10.1038/s41591-022-01772-9 (Vasey B et al., Nat Med 2022;28:924-933)
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-509
+  designation: WHO/IER/PSP/2009/01; ISBN 978-92-4-159790-6
+  edition: '2009'
+  jurisdiction: global
+  relation: adopt
+- id: src-510
+  designation: DOI 10.1016/j.clnu.2021.09.039 (Thibault R et al., Clin Nutr 2021;40:5684-5709)
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-511
+  designation: DOI 10.1136/bmj.j3453 (Staniszewska S et al., BMJ 2017;358:j3453)
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-512
+  designation: WHO High 5s Medication Reconciliation SOP, Version 3
+  edition: v3-2014
+  jurisdiction: global
+  relation: adopt
+- id: src-513
+  designation: DOI 10.26356/ECOC; ISBN 978-3-9823562-3-5
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-514
+  designation: ATLS 11th edition
+  edition: '11'
+  jurisdiction: global
+  relation: adopt
+- id: src-515
+  designation: PIC/S PE 010-4
+  edition: PE 010-4
+  jurisdiction: global
+  relation: adopt
+- id: src-516
+  designation: DOI 10.1136/bmj-2024-081477 (Chan AW et al., BMJ 2025;389:e081477)
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-517
+  designation: 'Resolution WHA63.16 (21 May 2010); support list: WHO health workforce support and safeguards list 2023 (ISBN
+    978-92-4-006978-7)'
+  edition: 2010 / list-2023
+  jurisdiction: global
+  relation: adopt
+- id: src-518
+  designation: ISBN 978 92 4 154810 6
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-519
+  designation: AGREE II (update December 2017); original publication DOI 10.1503/cmaj.090449 (Brouwers MC et al., CMAJ 2010;182:E839-E842)
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-520
+  designation: ISBN 978-92-4-151380-7
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-521
+  designation: DOI 10.1136/bmj-2024-081123 (Hopewell S et al., BMJ 2025;389:e081123)
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-523
+  designation: ERAS Society procedure-specific guidelines (series)
+  edition: series
+  jurisdiction: global
+  relation: adopt
+- id: src-524
+  designation: 'ESC Guidelines: 2023 ESC Guidelines for the management of acute coronary syndromes; 2024 ESC Guidelines for
+    the management of atrial fibrillation; 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac
+    death; 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy; 2019 ESC Guidelines on supraventricular
+    tachycardia; 2026 ESC Guidelines for the management of heart failure'
+  edition: ACS-2023 / AF-2024 / HF-2026
+  jurisdiction: global
+  relation: adopt
+- id: src-526
+  designation: ICMJE Recommendations (updated January 2026)
+  edition: 2026-01
+  jurisdiction: global
+  relation: adopt
+- id: src-527
+  designation: DOI 10.1371/journal.pmed.1001885 (Benchimol EI et al., PLoS Med 2015;12:e1001885)
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-528
+  designation: DOI 10.1016/S0140-6736(07)61602-X
+  edition: '2007'
+  jurisdiction: global
+  relation: adopt
+- id: src-529
+  designation: ISBN 978-92-4-154856-4
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-530
+  designation: DOI 10.1371/journal.pbio.3000410
+  edition: '2.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-531
+  designation: DOI 10.24318/cope.2019.1.4
+  edition: v3-2025
+  jurisdiction: global
+  relation: adopt
+- id: src-532
+  designation: DOI 10.1056/NEJMsa1405556
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-533
+  designation: Vincent C, Adams S, Bellandi T, Higham H, Michel P, Staines A. The London Protocol 2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-534
+  designation: DOI 10.1787/18a24f43-en
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-535
+  designation: 'RCP NMCRR programme: ''Using the structured judgement review method: A guide for reviewers (England)'' (Hutchinson
+    A)'
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-536
+  designation: WHO/EURO:2011-4216-43975-61988
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-537
+  designation: ACR AC
+  edition: living
+  jurisdiction: global
+  relation: adopt
+- id: src-538
+  designation: ADAPTE Resource Toolkit, Version 2.0
+  edition: '2.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-539
+  designation: ACDIS/AHIMA position paper (practice brief), 2026 update
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-540
+  designation: CDC/HICPAC Isolation Precautions Guideline (2007)
+  edition: 2007-upd2024
+  jurisdiction: global
+  relation: adopt
+- id: src-541
+  designation: Choosing Wisely
+  edition: 2012-2023
+  jurisdiction: global
+  relation: adopt
+- id: src-548
+  designation: ENCePP Guide, Revision 11
+  edition: Rev.11
+  jurisdiction: global
+  relation: adopt
+- id: src-549
+  designation: DOI 10.1055/a-0759-1629
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-550
+  designation: European Stroke Organisation guidelines
+  edition: living
+  jurisdiction: global
+  relation: adopt
+- id: src-551
+  designation: ESUR CMSC Guidelines 2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-554
+  designation: ETC Manual Version 5.0
+  edition: '5.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-555
+  designation: DOI 10.1016/j.clnu.2018.08.002
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-556
+  designation: ICH E2A
+  edition: '1994'
+  jurisdiction: global
+  relation: adopt
+- id: src-557
+  designation: ICH E9(R1)
+  edition: R1
+  jurisdiction: global
+  relation: adopt
+- id: src-558
+  designation: ICN Guidelines on Advanced Practice Nursing 2020 (ISBN 978-92-95099-71-5)
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-559
+  designation: IPDAS v5.0, DOI 10.1136/bmj-2025-088116 (BMJ 2026;393:e088116)
+  edition: '5.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-560
+  designation: ISBER Best Practices, 5th edition (2023)
+  edition: 5th-2023
+  jurisdiction: global
+  relation: adopt
+- id: src-561
+  designation: JLA Guidebook Version 11
+  edition: v11
+  jurisdiction: global
+  relation: adopt
+- id: src-564
+  designation: SQUIRE 2.0, DOI 10.1136/bmjqs-2015-004411
+  edition: '2.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-565
+  designation: STARD 2015, DOI 10.1136/bmj.h5527
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-566
+  designation: SSC Adult Guidelines 2026, DOI 10.1097/CCM.0000000000007075 and DOI 10.1007/s00134-026-08361-1
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-567
+  designation: The Joint Commission Universal Protocol (UP.01.01.01-UP.01.03.01)
+  edition: unconfirmed
+  jurisdiction: global
+  relation: adopt
+- id: src-568
+  designation: WHO (2016), ISBN 978-92-4-154991-2
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-569
+  designation: WHO/EDM/PAR/2004.1
+  edition: '2003'
+  jurisdiction: global
+  relation: adopt
+- id: src-570
+  designation: WHO/HTP/EHT/CPR/2010.01 (endorsed by resolution WHA63.22)
+  edition: '2010'
+  jurisdiction: global
+  relation: adopt
+- id: src-571
+  designation: WHO Regional Office for Europe (2026), ISBN 978-92-890-6293-0 (PDF)
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-572
+  designation: International HPH Network, 2020 Standards
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-573
+  designation: WHO medical device technical series (2024), ISBN 978-92-4-009362-1 (electronic)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-574
+  designation: WHO Medical device technical series (2011), ISBN 978-92-4-150153-8
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-575
+  designation: WHO (2021), ISBN 978-92-4-003574-4 (electronic)
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-576
+  designation: WHO (2017), ISBN 978-92-4-155020-8
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-577
+  designation: ILO/ICN/WHO/PSI Joint Programme on Workplace Violence in the Health Sector (2002), ISBN 92-2-113446-6
+  edition: '2002'
+  jurisdiction: global
+  relation: adopt
+- id: src-579
+  designation: NCCN Guidelines, Distress Management, DIS-A (NCCN Distress Thermometer)
+  edition: '1.2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-580
+  designation: WHO (2017), ISBN 978-92-4-151319-7
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-581
+  designation: DOI 10.1213/00000539-195301000-00041
+  edition: '1953'
+  jurisdiction: global
+  relation: adopt
+- id: src-582
+  designation: ASA PS statement, DOI 10.1097/AO9.0000000000000002
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-583
+  designation: DOI 10.1097/00006199-198707000-00002
+  edition: '1987'
+  jurisdiction: global
+  relation: adopt
+- id: src-584
+  designation: DOI 10.1097/01.sla.0000133083.54934.ae
+  edition: '2004'
+  jurisdiction: global
+  relation: adopt
+- id: src-585
+  designation: COPSOQ III, DOI 10.1016/j.shaw.2019.10.002
+  edition: III
+  jurisdiction: global
+  relation: adopt
+- id: src-586
+  designation: CTCAE v6.0 (MedDRA 28.0)
+  edition: '6.0'
+  jurisdiction: global
+  relation: adopt
+- id: src-587
+  designation: ESI v5 (Emergency Severity Index – V5)
+  edition: v5
+  jurisdiction: global
+  relation: adopt
+- id: src-588
+  designation: DOI 10.1016/S0140-6736(74)91639-0
+  edition: '1974'
+  jurisdiction: global
+  relation: adopt
+- id: src-589
+  designation: Manchester Triage System (MTS), Emergency Triage 3rd edition, DOI 10.1002/9781118299029, ISBN 978-1-118-29906-7
+  edition: 3e-v3.8
+  jurisdiction: global
+  relation: adopt
+- id: src-590
+  designation: DOI 10.1016/S0166-4115(08)62386-9
+  edition: '1988'
+  jurisdiction: global
+  relation: adopt
+- id: src-591
+  designation: DOI 10.1016/S0261-5614(02)00214-5
+  edition: '2003'
+  jurisdiction: global
+  relation: adopt
+- id: src-592
+  designation: 4AT v1.2; validation paper DOI 10.1093/ageing/afu021
+  edition: v1.2
+  jurisdiction: global
+  relation: adopt
+- id: src-593
+  designation: Mahoney FI, Barthel DW. Md State Med J 1965;14:61-65 (PMID 14258950; no DOI)
+  edition: '1965'
+  jurisdiction: global
+  relation: adopt
+- id: src-594
+  designation: DOI 10.1503/cmaj.050051 (original); CFS v2.0 described in DOI 10.5770/cgj.23.463
+  edition: v2.0-2020
+  jurisdiction: global
+  relation: adopt
+- id: src-595
+  designation: DOI 10.1192/bjp.150.6.782
+  edition: '1987'
+  jurisdiction: global
+  relation: adopt
+- id: src-596
+  designation: EQ-5D-5L; development paper DOI 10.1007/s11136-011-9903-x
+  edition: 5L
+  jurisdiction: global
+  relation: adopt
+- id: src-597
+  designation: ESAS-r; DOI 10.1016/j.jpainsymman.2010.04.020 (ESAS-r); original ESAS DOI 10.1177/082585979100700202
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-598
+  designation: DOI 10.1093/annonc/mdy263
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-599
+  designation: DOI 10.1136/bmjqs-2015-004596
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-600
+  designation: IPOS; validation paper DOI 10.1177/0269216319854264
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-601
+  designation: '''MUST'' Report: Nutritional screening of adults: a multidisciplinary responsibility. Development and use
+    of the ''Malnutrition Universal Screening Tool'' (''MUST'') for adults (BAPEN, 2003)'
+  edition: '2003'
+  jurisdiction: global
+  relation: adopt
+- id: src-602
+  designation: DOI 10.1093/intqhc/mzy212
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-603
+  designation: RETTS (Omda Predicare AB); founding paper on METTS, DOI 10.1016/j.jemermed.2008.04.003
+  edition: '2011'
+  jurisdiction: global
+  relation: adopt
+- id: src-604
+  designation: DOI 10.1186/1472-6963-6-44
+  edition: '2006'
+  jurisdiction: global
+  relation: adopt
+- id: src-605
+  designation: SPICT 2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-610
+  designation: UN Treaty Series vol. 2515, p. 3 (No. 44910); adopted by GA resolution A/RES/61/106
+  edition: '2006'
+  jurisdiction: global
+  relation: bind
+- id: src-612
+  designation: Patent Cooperation Treaty (PCT), Washington 1970
+  edition: 2001/2002
+  jurisdiction: global
+  relation: bind
+- id: src-614
+  designation: EPC (5 October 1973, as revised by the Act of 29 November 2000 - EPC 2000)
+  edition: EPC2000-17ed
+  jurisdiction: global
+  relation: bind
+- id: src-615
+  designation: ILO C190
+  edition: '2019'
+  jurisdiction: global
+  relation: bind

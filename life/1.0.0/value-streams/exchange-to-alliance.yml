@@ -1,0 +1,86 @@
+kind: value-stream
+slug: exchange-to-alliance
+title: Alliances Worth Keeping
+family: source-to-alliance
+summary: Turning a transaction into a relationship that both sides would defend — with a collaborator, a supplier, a landlord, a institution.
+trigger: The same collaborator, supplier or landlord keeps coming back, or a deal that went well leaves both sides wanting more than
+  a transaction.
+outcome: The person has a few relationships of exchange that both sides would defend, built on fair terms and kept up between transactions.
+stakeholders:
+- collaborator
+- client
+- community
+- provider
+steps:
+- slug: noticing-who-keeps-coming-back
+  title: Noticing Who Keeps Coming Back
+  summary: The person notices a collaborator, supplier, landlord or client who keeps returning, and senses the exchange could be more
+    than a deal.
+  capabilities:
+  - spotting-an-alliance-worth-building
+  entities:
+  - client-relation
+  - professional-network
+  - contract
+  - provider-relation
+- slug: learning-what-the-other-needs
+  title: Learning What the Other Needs
+  summary: The person asks what the other side is trying to achieve, and what would make the exchange worth defending for them too.
+  capabilities:
+  - understanding-the-other-side
+  entities:
+  - conversation
+  - client-relation
+  - relationship-map
+  serves:
+  - client-meeting
+  - coffee-catch-up
+- slug: agreeing-fair-terms
+  title: Agreeing Fair Terms
+  summary: Terms are set so that both sides gain and neither carries hidden risk, and what happens when things go wrong is said in
+    advance.
+  capabilities:
+  - agreeing-fair-terms
+  entities:
+  - contract
+  - commitment
+  - obligation
+  serves:
+  - work-agreement
+- slug: keeping-faith-between-deals
+  title: Keeping Faith Between Deals
+  summary: 'The relation is tended between transactions: a call, a referral, a favour, a promise kept on time.'
+  capabilities:
+  - keeping-ones-word
+  - giving-without-keeping-score
+  entities:
+  - commitment
+  - gift
+  - professional-network
+  serves:
+  - a-gift-given
+  - coffee-catch-up
+- slug: weathering-a-disagreement
+  title: Weathering a Disagreement
+  summary: When a delivery fails or a price is disputed, both sides talk it through before anyone reaches for the contract.
+  capabilities:
+  - making-amends
+  - understanding-the-other-side
+  entities:
+  - conflict
+  - repair
+  - contract
+  serves:
+  - customer-service-line
+  - hard-conversation
+- slug: choosing-which-to-keep
+  title: Choosing Which to Keep
+  summary: Now and then the person looks over their alliances, deepens the few worth keeping, and lets the others become ordinary
+    exchanges again.
+  capabilities:
+  - choosing-what-matters-now
+  - knowing-when-to-leave
+  entities:
+  - relationship-map
+  - professional-network
+  - decision

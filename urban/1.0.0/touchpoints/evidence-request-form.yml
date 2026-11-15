@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: evidence-request-form
+title: Evidence Request Form
+medium: channel
+summary: The form through which the council, departments, neighbourhoods and researchers ask for evidence, stating the decision it
+  serves and the question it asks, or say which data they miss.
+exchanges:
+- decision-question-for-purposeful-evidence
+- neighbourhood-question-for-a-recorded-need
+- missing-data-for-a-revised-catalogue
+journey: neighbourhood-association-measuring-its-own-air

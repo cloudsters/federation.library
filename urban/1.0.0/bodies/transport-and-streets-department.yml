@@ -1,0 +1,27 @@
+kind: body
+slug: transport-and-streets-department
+title: Transport and Streets Department
+summary: Plans and commissions public transport and shared mobility, runs streets and signals, analyses road danger and designs safety
+  schemes with residents, sets and enforces kerb rules, ranks street repairs and runs the neighbourhood hubs for goods and food.
+holds:
+- public-transport-and-shared-mobility
+- streets-and-traffic
+- goods-and-food-distribution
+- movement-pattern-analysis
+- route-and-timetable-planning
+- transport-service-operation
+- stop-and-station-upkeep
+- shared-mobility-scheme-operation
+- traffic-signal-operation
+- road-danger-analysis
+- street-safety-audit
+- street-safety-scheme-design
+- kerb-and-parking-enforcement
+- street-repair-prioritisation
+- distribution-gap-mapping
+- hub-operating-agreement-drafting
+- hub-delivery-scheduling
+- last-mile-delivery-coordination
+part_of: full-council
+type: function
+form: organisational-unit

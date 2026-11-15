@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: barrier-accounts-for-an-updated-plan
+title: Barrier Accounts for an Updated Plan
+between:
+- newcomer
+- city-administration
+offered:
+- Accounts of whether work, housing, services and neighbours were found, and where barriers or hostility were met.
+returned:
+- An updated integration plan, with those barriers removed.
+touchpoint: integration-review-survey

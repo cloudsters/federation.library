@@ -1,0 +1,70 @@
+kind: entity
+slug: security-incident
+title: Security Incident
+type: transactional
+summary: An attack, breach or outage of the city's systems, from detection through containment and recovery to the lessons drawn.
+  The administration records it as it acts and reports it to the authorities and the residents affected within deadlines, and its
+  lessons are built into the design of the systems.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: incident-kind
+  type: code
+  card: 1..1
+- name: detected-at
+  type: datetime
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: affected-systems
+  type: reference(application)
+  card: 1..*
+- name: affected-services
+  type: reference(digital-service)
+  card: 0..*
+- name: containment-actions
+  type: text
+  card: 0..*
+- name: offline-modes-activated
+  type: reference(service-continuity-plan)
+  card: 0..*
+- name: reports-made
+  type: text
+  card: 0..*
+- name: reporting-deadline
+  type: datetime
+  card: 0..1
+- name: recovered-at
+  type: datetime
+  card: 0..1
+- name: emergency-response
+  type: reference(emergency-response)
+  card: 0..1
+states:
+- detected
+- triaged
+- contained
+- recovering
+- recovered
+- reported
+- reviewed
+- closed
+relations:
+- type: refers-to
+  target: application
+- type: refers-to
+  target: service-continuity-plan
+- type: refers-to
+  target: emergency-response
+- type: refers-to
+  target: risk-register
+- type: refers-to
+  target: personal-data-breach
+- type: produces
+  target: lesson-record
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

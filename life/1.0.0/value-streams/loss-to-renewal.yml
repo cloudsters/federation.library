@@ -1,0 +1,68 @@
+kind: value-stream
+slug: loss-to-renewal
+title: Growing through What Breaks
+family: value-to-sustainability
+summary: Designing a life that comes back stronger from what it loses rather than merely surviving it — and testing that deliberately,
+  before circumstance tests it.
+trigger: Something the life relied on is lost, savings, a home, health or a role, or the person senses the life would not come back
+  from such a loss.
+outcome: Losses are absorbed and learned from, the life renews itself after them, and its weak points were found by trying before
+  circumstance found them.
+stakeholders:
+- partner
+- close-friend
+- community
+- practitioner
+- place
+steps:
+- slug: losing-what-was-relied-on
+  title: Losing What Was Relied On
+  summary: Savings, a home, health or a role is lost, and the loss is grieved for what it was rather than hurried past.
+  capabilities:
+  - letting-grief-take-its-time
+  entities:
+  - crisis
+  - transition
+- slug: learning-from-what-broke
+  title: Learning from What Broke
+  summary: Once the worst has passed, the person looks at what broke and why, and what the loss can teach the life.
+  capabilities:
+  - learning-from-what-broke
+  entities:
+  - pattern-log
+  - journal
+  - crisis
+- slug: resting-before-renewing
+  title: Resting before Renewing
+  summary: The part of life that was hit is allowed to lie fallow for a while before it is asked to grow again.
+  capabilities:
+  - letting-things-lie-fallow
+  entities:
+  - recovery-period
+  - season-reading
+- slug: beginning-a-new-cycle
+  title: Beginning a New Cycle
+  summary: The life is rebuilt around what was learned, as a new cycle rather than a restoration of the old one.
+  capabilities:
+  - redrawing-the-plan-after-a-break
+  entities:
+  - life-blueprint
+  - transition
+  - distance-travelled
+- slug: building-in-spare
+  title: Building in Spare
+  summary: Some slack is kept in time, money and people, so that the next break does not set off a chain of others.
+  capabilities:
+  - keeping-some-slack
+  entities:
+  - weekly-rhythm
+  - account
+  - relationship-map
+- slug: testing-before-life-does
+  title: Testing before Life Does
+  summary: The weak points are sought deliberately, by trying small losses on purpose, before circumstance finds them first.
+  capabilities:
+  - testing-ones-life-on-purpose
+  entities:
+  - crisis-plan
+  - life-blueprint

@@ -1,0 +1,32 @@
+kind: journey
+slug: resident-researching-as-a-co-investigator
+title: Resident Researching as a Co-Investigator
+stakeholder: resident
+summary: A resident proposes a question for the city's research, investigates it with researchers as a paid co-investigator, records
+  what they see in a trial and sees the data and findings returned to the neighbourhood.
+stages:
+- slug: propose-a-question
+  title: Propose a Question
+  goal: The resident's question is received and weighed when the research agenda is set.
+  step: urban-research-and-experimentation/research-agenda
+  touchpoints:
+  - research-question-call
+- slug: investigate-as-a-paid-co-investigator
+  title: Investigate as a Paid Co-Investigator
+  goal: The resident gathers and interprets data with researchers and is paid or credited for the time given.
+  step: urban-research-and-experimentation/co-research
+  touchpoints:
+  - co-research-team-meeting
+- slug: record-what-they-see
+  title: Record What They See
+  goal: The resident's observations of the trial are recorded and used in its evaluation.
+  step: urban-research-and-experimentation/trial-running-and-evaluation
+  touchpoints:
+  - trial-observation-log
+- slug: see-data-and-findings-returned
+  title: See Data and Findings Returned
+  goal: The findings come back to the neighbourhood, and the data are open to reuse where privacy allows.
+  step: urban-research-and-experimentation/return-of-data-and-findings
+  touchpoints:
+  - findings-return-meeting
+  - open-research-data-release

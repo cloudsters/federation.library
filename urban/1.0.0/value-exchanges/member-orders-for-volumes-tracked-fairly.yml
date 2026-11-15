@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: member-orders-for-volumes-tracked-fairly
+title: Member Orders for Volumes Tracked Fairly
+between:
+- neighbouring-municipality
+- supplier
+offered:
+- Orders placed under the shared framework within the agreed volume bands.
+returned:
+- Delivery at the framework's prices and terms, with volumes tracked against what each party committed.
+touchpoint: call-off-order

@@ -1,0 +1,10 @@
+kind: body
+slug: site-management
+title: Site Management
+summary: 'Answers for a location of the enterprise as a whole: its building operations, security, energy and the services that keep
+  the site running.'
+holds:
+- facility-operations
+part_of: executive-board
+type: management
+form: organisational-unit

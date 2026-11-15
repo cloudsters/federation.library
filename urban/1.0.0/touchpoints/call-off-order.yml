@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: call-off-order
+title: Call-Off Order
+medium: artefact
+summary: The order placed under a contract or framework agreement, with what is ordered, the price, the delivery date the supplier
+  confirmed and the volume band it counts against.
+exchanges:
+- a-clear-order-for-delivery-on-the-date
+- member-orders-for-volumes-tracked-fairly
+journey: municipal-employee-buying-what-the-work-needs

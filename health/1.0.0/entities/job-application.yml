@@ -1,0 +1,45 @@
+kind: entity
+slug: job-application
+title: Job Application
+type: transactional
+summary: An applicant's application for a vacancy, tracked through screening, interviews, credential checks and decision, with the
+  protection of personal data the applicant is owed.
+attributes:
+- name: job-vacancy
+  type: reference(job-vacancy)
+  card: 1..1
+- name: applicant-name
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: credentials
+  type: document
+  card: 0..*
+- name: assessment
+  type: text
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+states:
+- received
+- screening
+- interview
+- offer
+- hired
+- rejected
+- withdrawn
+relations:
+- type: part-of
+  target: job-vacancy
+- type: produces
+  target: employment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-429
+  edition: '4.5'
+  jurisdiction: global

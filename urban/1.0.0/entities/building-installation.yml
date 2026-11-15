@@ -1,0 +1,64 @@
+kind: entity
+slug: building-installation
+title: Building Installation
+type: master
+summary: A technical installation of a public building, such as heating, ventilation, water, lifts, lighting or fire safety, with
+  its condition and inspection dates. The facilities office keeps its record, and it is used to run, check and replace the installation
+  in time.
+attributes:
+- name: installation-number
+  type: identifier
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: installation-kind
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 0..1
+- name: energy-source
+  type: code
+  card: 0..1
+- name: installed-on
+  type: date
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: inspection-interval
+  type: quantity
+  card: 0..1
+- name: last-inspection
+  type: reference(inspection-record)
+  card: 0..1
+- name: next-inspection-on
+  type: date
+  card: 0..1
+- name: service-contract
+  type: reference(contract)
+  card: 0..1
+- name: replacement-due-on
+  type: date
+  card: 0..1
+states:
+- installed
+- in-operation
+- under-maintenance
+- out-of-service
+- replaced
+- removed
+relations:
+- type: part-of
+  target: building
+- type: refers-to
+  target: inspection-record
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: infrastructure-asset
+binds:
+- source: src-339
+  edition: 2018+Amd1:2024
+  jurisdiction: global

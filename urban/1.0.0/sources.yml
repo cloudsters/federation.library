@@ -1,0 +1,473 @@
+# the attribution list (extension R31), generated at release
+sources:
+- id: src-055
+  designation: ISO 55001:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-058
+  designation: WHO IPCHS framework (resolution WHA69.24)
+  edition: wha69-24
+  jurisdiction: global
+  relation: adopt
+- id: src-075
+  designation: ISO 9001:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-078
+  designation: ISO/IEC 42001:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-088
+  designation: BPMN 2.0.2 / ISO/IEC 19510:2013
+  edition: 2.0.2
+  jurisdiction: global
+  relation: adopt
+- id: src-092
+  designation: ISO 37301:2021
+  edition: 2021-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-093
+  designation: ISO 31000:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-094
+  designation: ISO 22301:2019
+  edition: 2019-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-095
+  designation: ISO/IEC 27001:2022
+  edition: 2022-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-100
+  designation: ISO 37000:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-102
+  designation: OECD MNE Guidelines (2023)
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-111
+  designation: GHG Protocol Scope 3 Standard
+  edition: 2011-c2013
+  jurisdiction: global
+  relation: bind
+- id: src-155
+  designation: ISO 30414:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-168
+  designation: ISO 37120:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-169
+  designation: ISO 37122:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-170
+  designation: ISO 37123:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-171
+  designation: ISO 37101:2016
+  edition: 2016+Amd1:2024
+  jurisdiction: global
+  relation: adopt
+- id: src-172
+  designation: ISO 37104:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-173
+  designation: ISO 37105:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-174
+  designation: ISO 37106:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-175
+  designation: ISO/TS 37107:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-176
+  designation: ISO 37100:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-177
+  designation: ISO/IEC 30182:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-178
+  designation: ISO 18091:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-179
+  designation: A/RES/70/1
+  edition: '2015-09-25'
+  jurisdiction: global
+  relation: adopt
+- id: src-180
+  designation: A/RES/71/256
+  edition: '2016-12-23'
+  jurisdiction: global
+  relation: adopt
+- id: src-181
+  designation: A/RES/69/283
+  edition: '2015-06-03'
+  jurisdiction: global
+  relation: adopt
+- id: src-182
+  designation: Global Urban Monitoring Framework (UMF)
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-183
+  designation: Guidelines for Voluntary Local Reviews, Volumes 1 and 2
+  edition: vol1-2020_vol2-2021
+  jurisdiction: global
+  relation: adopt
+- id: src-184
+  designation: Disaster Resilience Scorecard for Cities
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-185
+  designation: OECD Principles on Urban Policy
+  edition: 2019-03
+  jurisdiction: global
+  relation: adopt
+- id: src-186
+  designation: OECD/LEGAL/0438
+  edition: '2017-12-14'
+  jurisdiction: global
+  relation: adopt
+- id: src-192
+  designation: ISO 19152-1:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-193
+  designation: UN-Habitat Governing Council resolution 25/6 (publication HS/059/15E)
+  edition: '2015-04-23'
+  jurisdiction: global
+  relation: adopt
+- id: src-196
+  designation: ISO 21504:2022
+  edition: '2022'
+  jurisdiction: global
+  relation: adopt
+- id: src-197
+  designation: OECD/LEGAL/0460
+  edition: '2020-07-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-198
+  designation: OECD/LEGAL/0478
+  edition: '2022-07-06'
+  jurisdiction: global
+  relation: adopt
+- id: src-199
+  designation: Good Practice Principles for Deliberative Processes for Public Decision Making (OECD, 2020)
+  edition: '2020-06-10'
+  jurisdiction: global
+  relation: adopt
+- id: src-201
+  designation: UNESCO General Conference resolution 36 C/41
+  edition: '2011-11-10'
+  jurisdiction: global
+  relation: adopt
+- id: src-202
+  designation: A/RES/79/1, Annex II
+  edition: '2024-09-22'
+  jurisdiction: global
+  relation: adopt
+- id: src-203
+  designation: IPSAS Accounting Standards (IPSAS 1–51), with the Conceptual Framework, RPG 1–3 and the Cash Basis IPSAS, as
+    compiled in the 2026 IPSASB Handbook
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt
+- id: src-204
+  designation: GFSM 2014 (ISBN 978-1-49834-376-3)
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-205
+  designation: OECD/LEGAL/0410
+  edition: '2015-02-18'
+  jurisdiction: global
+  relation: adopt
+- id: src-212
+  designation: ST/ESA/STAT/Ser.F/109
+  edition: '2014'
+  jurisdiction: global
+  relation: adopt
+- id: src-218
+  designation: ISO/IEC 20000-1:2018
+  edition: 2018-a1-2024
+  jurisdiction: global
+  relation: adopt
+- id: src-219
+  designation: OECD/LEGAL/0406
+  edition: '2014-07-15'
+  jurisdiction: global
+  relation: adopt
+- id: src-225
+  designation: A/RES/61/106 (Annex I); UNTS vol. 2515, p. 3; UNTC Chapter IV-15
+  edition: '2006-12-13'
+  jurisdiction: global
+  relation: adopt
+- id: src-226
+  designation: A/RES/73/195
+  edition: '2018-12-19'
+  jurisdiction: global
+  relation: adopt
+- id: src-227
+  designation: A/RES/56/38
+  edition: '2001-12-05'
+  jurisdiction: global
+  relation: adopt
+- id: src-232
+  designation: ISO/IEC 42005:2025
+  edition: '2025'
+  jurisdiction: global
+  relation: adopt
+- id: src-233
+  designation: ISO 30401:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-234
+  designation: ISO 10002:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-235
+  designation: OECD/LEGAL/0450
+  edition: '2019-05-22'
+  jurisdiction: global
+  relation: adopt
+- id: src-236
+  designation: OECD/LEGAL/0445
+  edition: '2019-01-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-237
+  designation: SC-PCB-SPP/2021/OS/UROS
+  edition: '2021-11-23'
+  jurisdiction: global
+  relation: adopt
+- id: src-239
+  designation: ISO 30409:2016
+  edition: '2016'
+  jurisdiction: global
+  relation: adopt
+- id: src-240
+  designation: ISO 45003:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-243
+  designation: ILO Recommendation No. 208 (R208)
+  edition: '2023-06-16'
+  jurisdiction: global
+  relation: adopt
+- id: src-244
+  designation: ILO Guidelines for a just transition (ISBN 978-92-2-130627-6 print; 978-92-2-130628-3 web PDF)
+  edition: '2015'
+  jurisdiction: global
+  relation: adopt
+- id: src-245
+  designation: VGGT (CFS; FAO, First revision, ISBN 978-92-5-107277-6, doi:10.4060/i2801e)
+  edition: 2022-05
+  jurisdiction: global
+  relation: adopt
+- id: src-248
+  designation: ISO 24495-1:2023
+  edition: '2023'
+  jurisdiction: global
+  relation: adopt
+- id: src-249
+  designation: ISO 9241-210:2019
+  edition: '2019'
+  jurisdiction: global
+  relation: adopt
+- id: src-250
+  designation: ISO 21542:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-251
+  designation: A/RES/44/25; UNTS vol. 1577, p. 3; UNTC Chapter IV-11
+  edition: '1989-11-20'
+  jurisdiction: global
+  relation: adopt
+- id: src-253
+  designation: UNESCO Recommendation on Adult Learning and Education (2015)
+  edition: '2015-11-13'
+  jurisdiction: global
+  relation: adopt
+- id: src-254
+  designation: WHA58.3 (2005), amended by WHA67.13 (2014), WHA75.12 (2022) and WHA77.17 (2024)
+  edition: '2025-09-19'
+  jurisdiction: global
+  relation: adopt
+- id: src-257
+  designation: ISO 18295-1:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-258
+  designation: ISO 20121:2024
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-262
+  designation: UNESCO Recommendation on Participation by the People at Large in Cultural Life (1976)
+  edition: '1976-11-26'
+  jurisdiction: global
+  relation: adopt
+- id: src-263
+  designation: UNESCO Recommendation concerning the Status of the Artist (1980)
+  edition: '1980-10-27'
+  jurisdiction: global
+  relation: adopt
+- id: src-264
+  designation: UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage (2003); UN registration No. 42671
+  edition: '2003-10-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-265
+  designation: International Charter of Physical Education, Physical Activity and Sport (UNESCO, 2015)
+  edition: '2015-11-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-266
+  designation: WHA71.6 (ISBN 978-92-4-151418-7)
+  edition: '2018-05-26'
+  jurisdiction: global
+  relation: adopt
+- id: src-267
+  designation: CRC/C/GC/17
+  edition: '2013-04-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-268
+  designation: CCPR/C/GC/37
+  edition: '2020-09-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-269
+  designation: SF-MST (United Nations Statistical Commission decision 55/115)
+  edition: '2024'
+  jurisdiction: global
+  relation: adopt
+- id: src-270
+  designation: ISO 22329:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-271
+  designation: OECD/LEGAL/0505
+  edition: '2024-12-17'
+  jurisdiction: global
+  relation: adopt
+- id: src-274
+  designation: OECD/LEGAL/0473
+  edition: '2022-06-10'
+  jurisdiction: global
+  relation: adopt
+- id: src-275
+  designation: OECD/LEGAL/0472
+  edition: '2022-06-10'
+  jurisdiction: global
+  relation: adopt
+- id: src-276
+  designation: ILO Recommendation No. 193 (R193)
+  edition: '2002-06-20'
+  jurisdiction: global
+  relation: adopt
+- id: src-277
+  designation: ILO Recommendation No. 204 (R204)
+  edition: '2015-06-12'
+  jurisdiction: global
+  relation: adopt
+- id: src-292
+  designation: A/HRC/4/18, Annex I
+  edition: '2007-02-05'
+  jurisdiction: global
+  relation: adopt
+- id: src-293
+  designation: UN-Habitat Governing Council resolutions 21/3 (2007) and 22/8 (2009); publication HS/1205/09E, ISBN 978-92-1-132174-6
+  edition: '2009'
+  jurisdiction: global
+  relation: adopt
+- id: src-294
+  designation: ISO 39001:2012
+  edition: '2012'
+  jurisdiction: global
+  relation: adopt
+- id: src-301
+  designation: ISO 19650-1:2018
+  edition: '2018'
+  jurisdiction: global
+  relation: adopt
+- id: src-339
+  designation: ISO 41001:2018
+  edition: 2018+Amd1:2024
+  jurisdiction: global
+  relation: adopt
+- id: src-370
+  designation: ISO 15686-5:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-375
+  designation: ISO/TS 22318:2021
+  edition: '2021'
+  jurisdiction: global
+  relation: adopt
+- id: src-634
+  designation: ISO 20400:2017
+  edition: '2017'
+  jurisdiction: global
+  relation: adopt
+- id: src-635
+  designation: OECD/LEGAL/0411
+  edition: '2015-02-18'
+  jurisdiction: global
+  relation: adopt
+- id: src-638
+  designation: ILO Convention No. 94 (C094); UNTS vol. 138, No. 1870
+  edition: '1949-06-29'
+  jurisdiction: global
+  relation: adopt
+- id: src-639
+  designation: ISO 20887:2020
+  edition: '2020'
+  jurisdiction: global
+  relation: adopt
+- id: src-640
+  designation: ISO 14092:2026
+  edition: '2026'
+  jurisdiction: global
+  relation: adopt

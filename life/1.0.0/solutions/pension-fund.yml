@@ -1,0 +1,11 @@
+kind: solution
+slug: pension-fund
+title: Pension Fund
+role: institution
+sovereignty: third-party
+summary: Collects contributions across a working life and pays them back across its last decades.
+carries:
+- planning-for-a-long-life
+- setting-something-aside-steadily
+holds:
+- account

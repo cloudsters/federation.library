@@ -1,0 +1,32 @@
+kind: journey
+slug: unit-leader-requesting-a-capital-investment
+title: Unit Leader Requesting a Capital Investment
+stakeholder: site-manager
+summary: A unit leader brings a capital need into the plan, defends its case, follows the project's costs and sees its value reviewed
+  against the approved case at close.
+stages:
+- slug: bring-the-need-into-the-plan
+  title: Bring the Need into the Plan
+  goal: The unit's capital need is in the plan and its rank is known.
+  step: capital-stewardship/capital-planning
+  touchpoints:
+  - investment-request
+- slug: defend-the-case
+  title: Defend the Case
+  goal: The business case, lifecycle cost, risk and purpose contribution are appraised and a decision is given.
+  step: capital-stewardship/investment-appraisal-and-approval
+  touchpoints:
+  - investment-request
+  - investment-committee
+- slug: follow-the-project-costs
+  title: Follow the Project Costs
+  goal: Costs are visible against budget and progress throughout the project.
+  step: capital-stewardship/capital-project-accounting
+  touchpoints:
+  - cost-centre-report
+- slug: review-the-value-at-close
+  title: Review the Value at Close
+  goal: The completed project is closed and its value reviewed against the case.
+  step: capital-stewardship/capital-project-close
+  touchpoints:
+  - investment-committee

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: ethics-case-support
+title: Ethics Case Support
+between:
+- clinical-ethicist
+- specialist-physician
+offered:
+- A structured, impartial deliberation that clarifies the patient's will, the options and the values in conflict, ending in
+  a written recommendation.
+returned:
+- The case facts and the team's reasoning, which ground the recommendation and show where a policy is needed.
+touchpoint: ethics-case-consultation

@@ -1,0 +1,68 @@
+kind: entity
+slug: handover-record
+title: Handover Record
+type: transactional
+summary: The record of a finished work's acceptance, with test results, documents, material passport and open defects. The department
+  delivering the work signs it with the operator who takes it over, and defects are followed on it until closed.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: capital-project
+  type: reference(capital-project)
+  card: 1..1
+- name: assets
+  type: reference(infrastructure-asset)
+  card: 1..*
+- name: tested-against
+  type: reference(works-brief)
+  card: 1..1
+- name: test-results
+  type: document
+  card: 1..*
+- name: documents-handed-over
+  type: document
+  card: 1..*
+- name: material-passport
+  type: reference(material-passport)
+  card: 0..1
+- name: open-defects
+  type: text
+  card: 0..*
+- name: defect-deadlines
+  type: date
+  card: 0..*
+- name: delivered-by
+  type: text
+  card: 1..1
+- name: taken-over-by
+  type: text
+  card: 1..1
+- name: accepted-on
+  type: date
+  card: 0..1
+states:
+- prepared
+- tested
+- accepted
+- registered
+- defects-closed
+- closed
+relations:
+- type: part-of
+  target: capital-project
+- type: based-on
+  target: works-brief
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: material-passport
+- type: refers-to
+  target: public-asset-register
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-639
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,13 @@
+kind: stakeholder
+slug: customer-service-agent
+title: Customer Service Agent
+nature: agent
+stance: serving
+summary: An AI agent that answers customer questions on orders, deliveries, products and use around the clock, and hands complex or
+  sensitive cases to a person.
+seeks:
+- Up-to-date order and product information, and clear rules for when to hand a case to a person.
+brings:
+- Immediate answers at any hour, and relief for service staff to focus on difficult cases.
+represented_by:
+- agent

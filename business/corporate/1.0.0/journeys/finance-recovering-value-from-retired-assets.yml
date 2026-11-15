@@ -1,0 +1,32 @@
+kind: journey
+slug: finance-recovering-value-from-retired-assets
+title: Finance Recovering Value from Retired Assets
+stakeholder: finance-professional
+summary: A finance professional sees retired devices erased with evidence, recovers value through resale, transfer and take-back,
+  and closes each asset's record with its final disposition.
+stages:
+- slug: see-data-erased
+  title: See Data Erased
+  goal: Data on retired devices is erased by verified methods with evidence kept.
+  step: asset-end-of-life-stewardship/decommissioning-and-data-erasure
+  touchpoints:
+  - data-erasure-certificate
+- slug: recover-value
+  title: Recover Value
+  goal: Surplus assets are sold, donated or transferred for the best recoverable value.
+  step: asset-end-of-life-stewardship/resale-and-transfer
+  touchpoints:
+  - surplus-asset-sale
+- slug: account-for-take-back
+  title: Account for Take-Back
+  goal: Retired assets at take-back points are evaluated and each part's disposition is recorded, so that recovered value and remaining
+    cost are known.
+  step: asset-end-of-life-stewardship/take-back-and-dismantling
+  touchpoints:
+  - take-back-point
+- slug: close-the-record
+  title: Close the Record
+  goal: The asset leaves the register with its final disposition recorded.
+  step: asset-end-of-life-stewardship/compliance-reporting-and-record-closure
+  touchpoints:
+  - asset-register

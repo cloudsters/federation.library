@@ -1,0 +1,30 @@
+kind: touchpoint
+slug: clinical-workstation
+title: Clinical Workstation
+medium: channel
+summary: The screen through which staff order, document and read in the clinical information system; where staff spend much
+  of their day and where the commons keeps its operational memory.
+exchanges:
+- standard-requests-for-ready-devices
+- clinical-logic-for-decision-support
+- delegated-drafting-for-clinician-time
+- early-warnings-for-reasoned-response
+- agent-work-for-a-defined-mandate
+- triage-proposal-for-confirmation
+- draft-notes-for-review
+- schedule-proposal-for-approval
+- clear-request-for-a-timely-procedure
+- indicated-order-for-a-validated-result
+- justified-request-for-a-signed-report
+- tissue-with-context-for-a-definitive-diagnosis
+- prescription-for-pharmaceutical-review
+- referral-for-goal-based-therapy
+- draft-letter-for-sign-off
+- fit-templates-for-complete-documentation
+- workflow-knowledge-for-fitting-systems
+- secure-conduct-for-fast-access
+- formulary-adherence-for-secure-supply
+- shortage-guidance-for-safe-switching
+- coding-expertise-for-precise-documentation
+- nursing-effort-for-recognition
+journey: treating-physician-seeking-ethics-advice

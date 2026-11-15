@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: fault-reporting-line
+title: Fault Reporting Line
+medium: channel
+summary: The route by telephone, online, at the counter and through crews by which a fault in public infrastructure is reported and
+  triaged by risk.
+exchanges:
+- fault-report-for-a-published-response-time
+journey: frontline-worker-keeping-the-city-in-service

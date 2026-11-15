@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: separate-accounts-for-audit-assurance
+title: Separate Accounts for Audit Assurance
+between:
+- finance-officer
+- external-auditor
+offered:
+- The commons fund accounted for apart from general revenue, source by source and use by use.
+returned:
+- Audit confirmation that nothing was drawn into the general budget.
+touchpoint: commons-fund-ledger

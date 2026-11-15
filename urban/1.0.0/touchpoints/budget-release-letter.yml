@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: budget-release-letter
+title: Budget Release Letter
+medium: artefact
+summary: The release of each department's budget at the start of the year, with the decision rights to spend it and the rules for
+  commitments.
+exchanges:
+- released-budget-for-spending-within-limits
+journey: city-administration-spending-within-the-budget

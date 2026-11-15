@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: digital-service-desk
+title: Digital Service Desk
+medium: channel
+summary: The desk, online and by phone, through which residents and staff report faults and make requests about digital services and
+  follow them to resolution.
+exchanges:
+- fault-report-for-a-solved-matter
+- escalation-for-restoration-within-contract
+journey: resident-getting-help-with-a-digital-service

@@ -1,0 +1,114 @@
+kind: value-stream
+slug: community-mediation-and-restorative-practice
+title: Community Mediation and Restorative Practice
+family: participant-to-community
+summary: Giving residents an accessible, trusted path to resolve disputes and repair harm close to where they arise, before they harden
+  into legal battles or open conflict. It holds the agreed steps by which a dispute moves from neighbours to community mediation,
+  district mediation and the formal routes, a roster of community mediators drawn from trusted residents, mediation and restorative
+  circles, the agreements reached and their follow-up, referral to formal routes where needed, and learning from the pattern of disputes.
+trigger: A resident, neighbourhood body, landlord, school or service reports a dispute or harm between residents or groups, or the
+  cohesion assessment shows tension turning into conflict.
+outcome: The dispute is resolved or the harm repaired by an agreement the parties keep, or it has reached the right formal route,
+  and the neighbourhood is better able to resolve the next one itself.
+stakeholders:
+- resident
+- community-mediator
+- neighbourhood-association
+- faith-communities
+- affected-community
+- young-people
+- civil-society-organisation
+- legal-and-compliance-officer
+steps:
+- slug: escalation-path-setting
+  title: Escalation Path Setting
+  summary: The city, neighbourhood bodies and the formal justice system agree the steps by which a dispute moves from neighbours to
+    community mediation, district mediation and formal routes, the time allowed at each step and the cooling-off periods between them,
+    and publish them.
+  capabilities:
+  - mediation-protocol-drafting
+  - decision-rights-allocation
+  entities:
+  - mediation-protocol
+  - decision-rights-register
+  serves:
+  - escalation-path-workshop
+  - published-mediation-steps
+- slug: mediator-recruitment-and-training
+  title: Mediator Recruitment and Training
+  summary: Trusted residents, elders, faith practitioners and cultural brokers are identified in each neighbourhood, trained in mediation
+    and restorative practice through observed practice, and listed in the mediator roster.
+  capabilities:
+  - community-mediator-training
+  - volunteer-preparation-and-safeguarding
+  entities:
+  - mediator-roster
+  - volunteer-record
+  serves:
+  - mediator-apprenticeship
+  - mediator-nomination
+- slug: dispute-intake-and-assessment
+  title: Dispute Intake and Assessment
+  summary: Any resident can bring a dispute or harm to a neighbourhood point or online, and it is assessed for safety, urgency and
+    the right step, with cases of violence or serious crime passed at once to the competent authority.
+  capabilities:
+  - dispute-intake-and-triage
+  - formal-route-referral
+  entities:
+  - dispute-case
+  serves:
+  - neighbourhood-dispute-desk
+- slug: mediation-and-restorative-circles
+  title: Mediation and Restorative Circles
+  summary: Community mediators help the parties to be heard and agree a way forward, and where harm was done a restorative circle
+    brings together those harmed, those responsible and their community to repair it.
+  capabilities:
+  - mediation-facilitation
+  - restorative-circle-facilitation
+  - language-access-provision
+  entities:
+  - dispute-case
+  - mediator-roster
+  serves:
+  - mediation-meeting
+  - restorative-circle
+- slug: agreement-and-follow-up
+  title: Agreement and Follow-Up
+  summary: The agreement reached is written down with what each party will do and by when, the mediator checks back that it is kept,
+    and a broken agreement returns to the next step.
+  capabilities:
+  - resolution-agreement-recording
+  - mediation-facilitation
+  entities:
+  - resolution-agreement
+  - dispute-case
+  serves:
+  - mediator-follow-up-call
+  - signed-agreement-copy
+- slug: formal-route-referral
+  title: Formal Route Referral
+  summary: Disputes that mediation cannot resolve, or that need a binding ruling or protection, are referred with the parties' consent
+    to legal advice, the city's complaint route or the courts, carrying what the mediation established.
+  capabilities:
+  - formal-route-referral
+  - claim-and-dispute-resolution
+  - legal-advice
+  entities:
+  - dispute-case
+  - legal-matter
+  - citizen-complaint
+  serves:
+  - referral-with-mediation-summary
+- slug: dispute-pattern-learning
+  title: Dispute Pattern Learning
+  summary: Without naming the parties, the city and the mediators review which disputes recur, where and why, such as noise, shared
+    space or housing, and pass the causes to the departments and neighbourhood bodies that can remove them.
+  capabilities:
+  - dispute-pattern-analysis
+  - lesson-recording-and-sharing
+  - tension-sensing
+  entities:
+  - dispute-pattern-report
+  - lesson-record
+  serves:
+  - dispute-pattern-review-meeting

@@ -1,0 +1,40 @@
+kind: entity
+slug: decision-right
+title: Decision Right
+type: governance
+summary: A documented right to decide on a defined matter up to a stated limit, held by a governance body or a position, delegated
+  by the body that holds it and exercised under its conditions, including decisions reserved to people and never to machines.
+attributes:
+- name: matter
+  type: text
+  card: 1..1
+- name: holder-body
+  type: reference(board-of-directors)
+  card: 0..1
+- name: holder-position
+  type: reference(position)
+  card: 0..1
+- name: delegated-by
+  type: reference(board-of-directors)
+  card: 0..1
+- name: limit
+  type: amount
+  card: 0..1
+- name: reserved-to-humans
+  type: boolean
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+states:
+- proposed
+- in-force
+- suspended
+- revoked
+relations:
+- type: governed-by
+  target: commons-charter
+- type: based-on
+  target: governance-decision
+- type: assigned-to
+  target: position

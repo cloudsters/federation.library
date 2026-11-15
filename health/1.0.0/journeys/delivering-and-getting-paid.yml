@@ -1,0 +1,32 @@
+kind: journey
+slug: delivering-and-getting-paid
+title: Delivering and Getting Paid
+stakeholder: supplier
+summary: A supplier's path from an order to its payment, in which correct documents on both sides replace queries and reminders.
+stages:
+- slug: receive-the-order
+  title: Receive the Order
+  goal: Orders arrive electronically with contract prices and delivery dates and are confirmed in the same channel.
+  step: purchasing-and-invoice-settlement/order-placement
+  touchpoints:
+  - supplier-portal
+- slug: deliver
+  title: Deliver
+  goal: Deliveries are accepted promptly at agreed times, and discrepancies are reported on the day of delivery.
+  step: purchasing-and-invoice-settlement/goods-receipt-and-service-confirmation
+  touchpoints:
+  - goods-receiving
+- slug: invoice
+  title: Invoice
+  goal: A structured invoice referencing the order is matched without manual queries, and any difference is raised once, with its
+    reason.
+  step: purchasing-and-invoice-settlement/invoice-receipt-and-matching
+  touchpoints:
+  - supplier-invoice
+  - supplier-portal
+- slug: get-paid
+  title: Get Paid
+  goal: Payment arrives in full on the agreed date, with an advice that lists the invoices it settles.
+  step: purchasing-and-invoice-settlement/payment-execution
+  touchpoints:
+  - payment-advice

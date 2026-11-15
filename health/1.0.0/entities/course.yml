@@ -1,0 +1,43 @@
+kind: entity
+slug: course
+title: Course
+type: master
+summary: A unit of teaching within a curriculum, such as a lecture series, seminar, bedside teaching block, skills training
+  or simulation, with learning outcomes, teaching hours, staff and assessment.
+attributes:
+- name: course-code
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: course-format
+  type: code
+  card: 1..1
+- name: learning-outcomes
+  type: text
+  card: 1..*
+- name: teaching-hours
+  type: quantity
+  card: 1..1
+- name: responsible-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: assessment-methods
+  type: code
+  card: 0..*
+- name: capacity
+  type: integer
+  card: 0..1
+states:
+- planned
+- offered
+- running
+- closed
+relations:
+- type: part-of
+  target: curriculum
+binds:
+- source: src-414
+  edition: '1.2'
+  jurisdiction: global

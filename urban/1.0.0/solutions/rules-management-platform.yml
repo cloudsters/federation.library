@@ -1,0 +1,11 @@
+kind: solution
+slug: rules-management-platform
+title: Rules Management Platform
+role: platform
+summary: Holds the rule-based parts of standard procedures in a form the city's systems and agents can follow, each rule linked to
+  the procedure, pattern and decision it comes from, with its history of changes.
+carries:
+- practice-encoding
+holds:
+- standard-procedure
+- practice-pattern

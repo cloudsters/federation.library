@@ -1,0 +1,54 @@
+kind: entity
+slug: media-enquiry
+title: Media Enquiry
+type: transactional
+summary: A question from a journalist or an outlet to the city, with what was asked, who answered, when, and what was given. The communications
+  office records each enquiry as it is received, and the record is used to answer promptly and completely and to show that local,
+  community and outside media had the same access.
+attributes:
+- name: outlet
+  type: text
+  card: 1..1
+- name: outlet-kind
+  type: code
+  card: 1..1
+- name: community-outlet
+  type: reference(community-media-outlet)
+  card: 0..1
+- name: journalist
+  type: text
+  card: 1..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: question
+  type: text
+  card: 1..*
+- name: spokesperson
+  type: text
+  card: 1..1
+- name: answered-at
+  type: datetime
+  card: 0..1
+- name: information-given
+  type: document
+  card: 0..*
+- name: information-withheld
+  type: text
+  card: 0..*
+- name: information-request
+  type: reference(information-request)
+  card: 0..1
+states:
+- received
+- assigned
+- answered
+- followed-up
+- closed
+relations:
+- type: refers-to
+  target: community-media-outlet
+- type: refers-to
+  target: information-request
+- type: produces
+  target: public-communication

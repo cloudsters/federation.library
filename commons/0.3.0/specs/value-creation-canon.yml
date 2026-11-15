@@ -1,0 +1,295 @@
+# ============================================================
+#  The value-creation canon, as data
+#
+#  Five dimensions and thirteen families — identical in every pack, by decision
+#  (COMMONS_MODEL_SPEC 4.0). This file is their single source. A pack's
+#  value-model.yml carries the vsd and vsf blocks GENERATED from it; no pack
+#  authors or edits them.
+#
+#  summary      the universal transformation (COMMONS_VALUE_CREATION_MANIFEST 3)
+#  grounded_in  the principles each family is grounded in (universal O1 grounding, ratified 2026-08-31)
+#  tension · belongs · not_here · lands
+#               the contrastive profile used for placement (COMMONS_GRAPH_SPEC 4a):
+#               where a family ends, not more vocabulary
+# ============================================================
+
+meta:
+  model: value-creation-canon
+  version: 1
+  governed_by:
+  - COMMONS_VALUE_CREATION_MANIFEST §3
+  - COMMONS_MODEL_SPEC §3–§4
+  - COMMONS_GRAPH_SPEC §4a
+  use: The single source of the five dimensions and thirteen families. Packs generate their vsd and vsf blocks from
+    this file and never author them.
+vsd:
+- slug: d0
+  code: D0
+  title: Perception & Identity
+  renamed: 'Perception & Mandate until 2026-10-14. The name now carries the inner pole of the tension
+    (seeing oneself as a whole); the outer pole (being permitted by others) is carried by the family
+    perception-to-mandate and stays in belongs. COMMONS_MODEL_SPEC 3, note of 14 October 2026.'
+  tension: Seeing oneself as a whole, against being permitted to exist by others.
+  belongs: 'The system''s awareness of itself as one thing: identity, boundary, legitimacy, ethics, the mandate
+    it holds and from whom. The reflexive centre rather than a function performed.'
+  not_here:
+  - d1 — turning who we are into what we will commit to
+  - d3 — being perceived in order to be chosen, rather than to be permitted
+  lands:
+  - perception-to-mandate
+  note: Not a fifth dimension alongside the others but the point at the centre, guarded by the Purpose Agent's reflex
+    rather than by an agent of its own.
+- slug: d1
+  code: D1
+  title: Purpose & System
+  tension: Everything the purpose could become, against a system that must hold together.
+  belongs: 'Direction and the structures that carry it: what is committed to and what is refused, whether the whole
+    pays for itself and endures, and the technological and informational backbone everything runs on.'
+  not_here:
+  - d0 — the identity the purpose expresses
+  - d2 — who carries the work
+  - d4 — how anything is actually produced
+  lands:
+  - purpose-to-portfolio
+  - value-to-sustainability
+  - portfolio-to-system
+- slug: d2
+  code: D2
+  title: Participation & Relationship
+  tension: The individual who takes part, against the body that must cohere.
+  belongs: 'Those inside: participants becoming a community, the way work happens between them, and the whole life
+    of a contributor in a role — human or agent.'
+  not_here:
+  - d3 — the relationship with those outside who receive value
+  - d0 — the authority a seat carries, as opposed to who sits in it
+  lands:
+  - participant-to-community
+  - collaboration-to-automation
+  - contributor-to-succession
+- slug: d3
+  code: D3
+  title: Proposition & Exchange
+  tension: What is offered, against what actually returns.
+  belongs: 'The meeting with those served: what is offered and how it comes to be used, the relationship that forms
+    with one party, and how the proposition reaches many. Exchange is two-sided by definition — an offer with no
+    return is not an exchange.'
+  not_here:
+  - d4 — producing and delivering what was promised
+  - d2 — the community inside, rather than those served
+  lands:
+  - discovery-to-usage
+  - interest-to-relationship
+  - proposition-to-audience
+- slug: d4
+  code: D4
+  title: Production & Resilience
+  tension: The promise made, against the capacity and the world that must keep it.
+  belongs: 'Making good on what was promised: the life of the assets it takes, the flow from demand to fulfilment,
+    and the parties outside the system depends on. The industry''s own process concentrates here and nowhere else.'
+  not_here:
+  - d3 — designing what is promised
+  - d1 — the strategy that chose to promise it
+  lands:
+  - demand-to-fulfillment
+  - source-to-alliance
+  - acquire-to-retire
+vsf:
+- slug: perception-to-mandate
+  vsd: d0
+  title: Perception to Mandate
+  summary: The system perceives itself as a whole and holds its irreducible mandate — identity, boundary, legitimacy,
+    ethics, the reason to exist.
+  grounded_in:
+  - truth-seeking-and-transparency
+  - membranes-define-identity
+  - subsidiarity-and-local-empowerment
+  tension: Who we are, against what others will permit us to be.
+  belongs: Identity, boundary and self-perception. Legitimacy and the right to operate. Ethics, integrity, mandate,
+    accountability to those who grant permission. Risk understood as a threat to that right rather than to a plan.
+  not_here:
+  - purpose-to-portfolio — turning who we are into what we will commit to
+  - proposition-to-audience — being perceived in order to be chosen
+  - contributor-to-succession — the person who holds a governing seat, as opposed to the mandate the seat carries
+- slug: purpose-to-portfolio
+  vsd: d1
+  title: Purpose to Portfolio
+  summary: Translate purpose into a coherent portfolio of commitments.
+  grounded_in:
+  - coherence-as-leverage
+  - time-sliced-iterative-planning
+  - economic-constraint
+  tension: Everything worth doing, against the capacity to do any of it well.
+  belongs: Strategy and direction. Choosing commitments and refusing others. Portfolio, initiatives, prioritisation,
+    long-horizon planning, coherence between what is said and what is funded.
+  not_here:
+  - perception-to-mandate — the identity the purpose expresses
+  - value-to-sustainability — whether the portfolio pays for itself
+  - portfolio-to-system — the technical backbone a portfolio runs on
+- slug: value-to-sustainability
+  vsd: d1
+  title: Value to Sustainability
+  summary: Capture, account, reinvest value so the system endures.
+  grounded_in:
+  - conservation-of-energy-and-matter
+  - measurement-alters-reality
+  - scale-alters-architecture
+  tension: Value taken now, against the system still being here later.
+  belongs: Capture, accounting and reinvestment of value across every dimension. Financial stewardship, economic
+    endurance, surplus and where it goes, solvency, funding the future from the present.
+  not_here:
+  - acquire-to-retire — the physical life of the thing bought, not its accounting
+  - source-to-alliance — the exchange with the outside party
+  - purpose-to-portfolio — choosing what to fund, not whether funding endures
+- slug: portfolio-to-system
+  vsd: d1
+  title: Portfolio to System
+  summary: Architect the whole as a coherent system-of-systems ("System" = the whole system incl. the value model,
+    not just IT).
+  grounded_in:
+  - engineering-attitude
+  - dual-fear-as-compass
+  - the-system-is-the-self
+  tension: A coherent backbone, against the freedom to build locally.
+  belongs: Architecture of the technological and informational spine. Systems, data, integration, interoperability,
+    the shared substrate everything else runs on.
+  not_here:
+  - collaboration-to-automation — automating how people work together
+  - acquire-to-retire — the lifecycle of an individual asset
+  - demand-to-fulfillment — what the systems are used to produce
+- slug: participant-to-community
+  vsd: d2
+  title: Participant to Community
+  summary: Cultivate individual participants into a thriving community.
+  grounded_in:
+  - network-effects-and-multi-sided-platforms
+  - visibility-as-commons-act
+  - reciprocity-and-fairness
+  tension: Belonging as an individual, against purpose held in common.
+  belongs: Cultivating participants into a community. Shared purpose, trust between members, civic and collective
+    participation, governance of what is held in common, the health of the body as a whole.
+  not_here:
+  - contributor-to-succession — a person in a ROLE, and what becomes of the role
+  - interest-to-relationship — someone outside becoming engaged with what is offered
+  - collaboration-to-automation — how the work between members is actually done
+- slug: collaboration-to-automation
+  vsd: d2
+  title: Collaboration to Automation
+  summary: Evolve collaboration (human + agent) into reliable, increasingly automated patterns.
+  grounded_in:
+  - patterns-over-protocols
+  - emergence-and-complexity
+  - time-sliced-iterative-planning
+  tension: What should become reliable, against what must stay human.
+  belongs: Ways of working. Turning collaboration into dependable patterns, deciding what to automate and what to
+    protect from automation, human and machine working together, tooling in service of work.
+  not_here:
+  - portfolio-to-system — the backbone, not the working practice on it
+  - demand-to-fulfillment — the operational flow being produced
+  - participant-to-community — belonging, as opposed to working
+- slug: contributor-to-succession
+  vsd: d2
+  title: Contributor to Succession
+  summary: Steward the lifecycle of the intelligent contributors (human or AI agent) who shape the commons — find
+    → onboard → keep relevant → succeed the role.
+  grounded_in:
+  - subsidiarity-and-local-empowerment
+  - reciprocity-and-fairness
+  - collective-action-and-governance
+  tension: The role must outlive whoever holds it.
+  belongs: 'The whole life of a contributor — human or agent — in a role: finding, onboarding, developing, keeping
+    their contribution relevant, handing on, leaving. Skills, roles, seats, succession, generational transfer of
+    capability.'
+  not_here:
+  - participant-to-community — belonging without a role to hold
+  - perception-to-mandate — the authority a seat carries, not the person in it
+  - collaboration-to-automation — how contributors work, not how they arrive and depart
+- slug: discovery-to-usage
+  vsd: d3
+  title: Discovery to Usage
+  summary: Conceive, craft, deliver, evolve the offerings.
+  grounded_in:
+  - evolutionary-adaptation
+  - emergence-and-complexity
+  - time-sliced-iterative-planning
+  tension: What could be offered, against what is actually used.
+  belongs: Conceiving, developing, delivering and experiencing an offering. Product and service design, need discovery,
+    the passage from an idea to something in use.
+  not_here:
+  - proposition-to-audience — how the offering reaches those it is for
+  - interest-to-relationship — the relationship with the person using it
+  - demand-to-fulfillment — producing and delivering at volume
+- slug: interest-to-relationship
+  vsd: d3
+  title: Interest to Relationship
+  summary: Cultivate awareness into a lasting 1:1 relationship.
+  grounded_in:
+  - incentives-and-self-interest
+  - dual-fear-as-compass
+  - visibility-as-commons-act
+  tension: Attention is cheap; trust is slow.
+  belongs: One party's path from awareness through curiosity and trust into lasting engagement. The relationship
+    itself over time — closeness, mutual obligation, what is owed between two sides who keep choosing each other.
+  not_here:
+  - proposition-to-audience — the channel and the many, not the one and the bond
+  - participant-to-community — many members holding something in common
+  - discovery-to-usage — the offering the relationship forms around
+- slug: proposition-to-audience
+  vsd: d3
+  title: Proposition to Audience
+  summary: The value proposition reaches its receiving & interacting community (1:n).
+  grounded_in:
+  - network-effects-and-multi-sided-platforms
+  - incentives-and-self-interest
+  - visibility-as-commons-act
+  tension: The proposition must find its audience without being deformed by the channel.
+  belongs: 'How value reaches those it is meant for: channels, platforms, ecosystems, networks, reach, distribution,
+    positioning, audience. The many rather than the one; the carrying rather than the bond.'
+  not_here:
+  - interest-to-relationship — what happens between two parties once reached
+  - discovery-to-usage — what is being offered in the first place
+  - perception-to-mandate — being seen in order to be permitted, not chosen
+- slug: demand-to-fulfillment
+  vsd: d4
+  title: Demand to Fulfillment
+  summary: Orchestrate production & delivery from demand to fulfilled promise.
+  grounded_in:
+  - orchestration-over-execution
+  - cooperative-surplus-and-alignment
+  - economic-constraint
+  tension: A promise made, against a promise kept under real capacity.
+  belongs: Sensing demand, planning, producing, moving and delivering. Capacity, throughput, flow, logistics, stock,
+    the operational keeping of promises.
+  not_here:
+  - discovery-to-usage — designing what is promised
+  - source-to-alliance — the inbound side, and who it comes from
+  - collaboration-to-automation — how people work, not what flows
+- slug: source-to-alliance
+  vsd: d4
+  title: Source to Alliance
+  summary: 'Supplier & input relationships: sourcing → partnership (consumables & inputs live here).'
+  grounded_in:
+  - coherence-as-leverage
+  - reciprocity-and-fairness
+  - cooperative-surplus-and-alignment
+  tension: Depending on the outside, against exchanging with it fairly.
+  belongs: Sourcing, procurement, suppliers, partners, alliances. Trust, fairness and power in exchange with parties
+    the system does not control, and the dependence that exchange creates.
+  not_here:
+  - demand-to-fulfillment — the internal flow once material is inside
+  - proposition-to-audience — the outward market side rather than the inbound
+  - value-to-sustainability — the money, not the relationship
+- slug: acquire-to-retire
+  vsd: d4
+  title: Acquire to Retire
+  summary: Steward the full lifecycle of the durable infrastructure / means of production.
+  grounded_in:
+  - engineering-attitude
+  - graceful-decomposition
+  - dual-fear-as-compass
+  tension: An asset's whole life, against the moment of acquiring it.
+  belongs: 'The lifecycle of physical and digital assets: acquisition, commissioning, maintenance, obsolescence,
+    disposal, end of life. Also the ending of structures themselves — winding something down properly.'
+  not_here:
+  - value-to-sustainability — how the asset is accounted for, not how it lives
+  - source-to-alliance — the party the asset was bought from
+  - portfolio-to-system — the architecture, not the individual asset

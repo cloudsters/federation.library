@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: recorded-hours-for-help-in-return
+title: Recorded Hours for Help in Return
+between:
+- volunteer
+- neighbourhood-association
+offered:
+- Hours given and help exchanged, recorded in the ledger.
+returned:
+- The right to draw on neighbours' help in return.
+touchpoint: contribution-ledger-account

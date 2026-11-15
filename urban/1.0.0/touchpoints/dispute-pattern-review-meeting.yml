@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: dispute-pattern-review-meeting
+title: Dispute Pattern Review Meeting
+medium: encounter
+summary: The meeting in which the city and the mediators review, without naming the parties, which disputes recur, where and why,
+  and pass the causes to the departments and neighbourhood bodies that can remove them.
+exchanges:
+- recurring-causes-for-removed-causes
+- pattern-report-for-local-change
+journey: community-mediator-serving-the-neighbourhood

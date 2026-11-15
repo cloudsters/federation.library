@@ -1,0 +1,50 @@
+kind: journey
+slug: becoming-a-licensed-health-professional
+title: Becoming a Licensed Health Professional
+stakeholder: health-professions-student
+summary: The learner's path from application through classroom and placements to the licence to practise and a first post.
+stages:
+- slug: applying-and-starting
+  title: Applying and Starting
+  goal: Find a programme that fits, be selected fairly and start with a clear plan.
+  step: nursing-and-health-professions-education/recruitment-and-enrolment
+  touchpoints:
+  - careers-portal
+  - job-interview
+  - education-office
+- slug: learning-in-the-classroom
+  title: Learning in the Classroom
+  goal: Gain the knowledge and skills to act safely before each placement.
+  step: nursing-and-health-professions-education/theoretical-teaching
+  touchpoints:
+  - lecture-hall
+  - learning-platform
+  - simulation-centre
+- slug: learning-in-practice
+  title: Learning in Practice
+  goal: Be guided at the patient by a qualified instructor, not used to fill staffing gaps.
+  step: nursing-and-health-professions-education/supervised-clinical-placement
+  touchpoints:
+  - practice-instruction-session
+  - ward
+  - clinical-placement
+- slug: showing-competence-in-practice
+  title: Showing Competence in Practice
+  goal: Receive honest feedback on one's practice and a fair chance to close gaps.
+  step: nursing-and-health-professions-education/practice-assessment
+  touchpoints:
+  - practice-instruction-session
+  - training-logbook
+- slug: qualifying
+  title: Qualifying
+  goal: Pass the final examination and obtain the licence to practise.
+  step: nursing-and-health-professions-education/final-examination-and-licensure
+  touchpoints:
+  - final-examination
+- slug: starting-as-a-professional
+  title: Starting as a Professional
+  goal: Begin work in a chosen field with a structured start, and say how the programme could be better.
+  step: nursing-and-health-professions-education/graduate-transition-and-evaluation
+  touchpoints:
+  - job-interview
+  - teaching-evaluation-survey

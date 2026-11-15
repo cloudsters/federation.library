@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: benefit-judgement-for-a-confirmed-result
+title: Benefit Judgement for a Confirmed Result
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The neighbourhood's judgement of whether the intended benefits were realised.
+returned:
+- Benefits confirmed or found missing in the record, with what must change.
+touchpoint: benefit-review-session

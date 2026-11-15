@@ -1,0 +1,10 @@
+kind: capability
+slug: paediatric-care
+title: Paediatric Care
+level: L3
+parent: maternal-and-child-health
+summary: Provide care for children and adolescents adapted to their age and their family.
+binds:
+- source: src-466
+  edition: 1988 / annotations 2022
+  jurisdiction: global

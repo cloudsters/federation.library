@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: verdict-of-those-affected-for-a-tariff-renewed-only-if-fair
+title: Verdict of Those Affected for a Tariff Renewed Only If Fair
+between:
+- affected-community
+- city-council
+offered:
+- The verdict of those affected on whether a tariff's benefits were fairly shared.
+returned:
+- A tariff renewed only when they confirm it, and changed where they do not.
+touchpoint: tariff-public-review

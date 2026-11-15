@@ -1,0 +1,42 @@
+kind: entity
+slug: obligation
+title: Obligation
+type: master
+summary: 'Something owed that will come due — a loan, a maintenance duty, a promise with a date, a guarantee given for someone else.
+  Held apart from `commitment`, which is undertaken freely: an obligation constrains the future whether or not it is still wanted.'
+attributes:
+- name: what-is-owed
+  type: text
+  card: 1..1
+- name: owed-to
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: amount
+  type: money
+  card: 0..1
+- name: falls-due
+  type: date
+  card: 0..1
+- name: on-a-statement
+  type: boolean
+  card: 1..1
+- name: draws-from
+  type: reference(account)
+  card: 0..1
+states:
+- uncounted
+- listed
+- falling due
+- honoured
+- renegotiated
+- discharged
+relations:
+- target: account
+  type: depends-on
+- target: financial-position
+  type: part-of
+- target: contract
+  type: based-on

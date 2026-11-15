@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: needs-disclosed-for-planned-care
+title: Needs Disclosed for Planned Care
+between:
+- elective-inpatient
+- registered-nurse
+offered:
+- Habits, needs, worries and own resources disclosed at admission, and participation in care and mobilisation.
+returned:
+- An individual care plan, prevention of falls, pressure injuries and malnutrition, and care given with dignity.
+touchpoint: ward

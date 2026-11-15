@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: parent
+title: Parent
+nature: person
+stance: both
+via: participant-to-community
+represented_by:
+- parent-relation
+dissolves: false

@@ -1,0 +1,33 @@
+kind: entity
+slug: price-list
+title: Price List
+type: master
+summary: A set of prices the organisation charges for services outside negotiated payer rates, such as self-pay, elective accommodation,
+  research services or services to other providers, with validity and conditions.
+attributes:
+- name: price-list-scope
+  type: code
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: price-entries
+  type: document
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- draft
+- in-force
+- withdrawn
+relations:
+- type: based-on
+  target: governance-decision
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

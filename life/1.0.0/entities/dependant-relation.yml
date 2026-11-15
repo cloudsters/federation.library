@@ -1,0 +1,36 @@
+kind: entity
+slug: dependant-relation
+title: Dependant Relation
+type: master
+summary: Someone whose care this life carries — an ageing parent, a disabled sibling, a partner after illness, a child beyond childhood.
+  Named apart from `child` because the care is unbounded in time, usually unplanned, and falls on the same hours as the work.
+attributes:
+- name: related-by
+  type: code
+  card: 1..1
+- name: what-is-needed
+  type: text
+  card: 1..*
+- name: care-since
+  type: date
+  card: 0..1
+- name: hours-it-takes
+  type: duration
+  card: 0..1
+- name: carried-with
+  type: text
+  card: 0..*
+- name: current-episode
+  type: reference(care-episode)
+  card: 0..1
+states:
+- managing alone
+- beginning to need
+- cared for
+- cared for with help
+- care ended
+relations:
+- target: self
+  type: about
+- target: obligation
+  type: based-on

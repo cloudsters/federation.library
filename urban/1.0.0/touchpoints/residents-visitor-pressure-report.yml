@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: residents-visitor-pressure-report
+title: Residents' Visitor Pressure Report
+medium: channel
+summary: The route through which residents report crowding, noise, lost homes and rising prices in their neighbourhood, set beside
+  the counts of visitors.
+exchanges:
+- resident-accounts-for-a-fuller-visitor-count
+journey: neighbourhood-association-hosting-visitors-on-its-own-terms

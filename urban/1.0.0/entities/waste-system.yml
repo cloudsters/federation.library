@@ -1,0 +1,58 @@
+kind: entity
+slug: waste-system
+title: Waste System
+type: master
+summary: The containers, vehicles, depots, sorting and recovery sites and disposal sites through which the city's waste moves. The
+  waste office keeps the record with the crews and contracted cooperatives that run it, and uses it to plan collection rounds, sorting
+  and safe disposal.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: operators
+  type: text
+  card: 1..*
+- name: service-area
+  type: document
+  card: 1..1
+- name: material-streams
+  type: code
+  card: 1..*
+- name: container-count
+  type: integer
+  card: 0..1
+- name: vehicle-count
+  type: integer
+  card: 0..1
+- name: depots
+  type: text
+  card: 0..*
+- name: sorting-sites
+  type: text
+  card: 0..*
+- name: disposal-sites
+  type: text
+  card: 0..*
+- name: contracted-cooperatives
+  type: reference(cooperative)
+  card: 0..*
+- name: annual-capacity
+  type: quantity
+  card: 0..1
+states:
+- planned
+- operating
+- expanding
+- under-renewal
+- decommissioned
+relations:
+- type: governed-by
+  target: waste-regulation
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: land-parcel
+- type: produces
+  target: waste-metrics

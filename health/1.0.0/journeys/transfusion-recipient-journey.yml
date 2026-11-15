@@ -1,0 +1,35 @@
+kind: journey
+slug: transfusion-recipient-journey
+title: Transfusion Recipient Journey
+stakeholder: person-with-cancer
+summary: A person who needs blood products during cancer treatment understands why, has a sample taken that finds the right blood,
+  receives the transfusion safely and has any reaction recognised.
+stages:
+- slug: agree-to-transfusion
+  title: Agree to Transfusion
+  goal: Understand why a transfusion is advised and what the alternatives are, and consent.
+  step: transfusion-medicine/indication-and-order
+  touchpoints:
+  - consultation
+  - consent-form
+- slug: give-the-sample-for-matching
+  title: Give the Sample for Matching
+  goal: Have the sample taken and labelled so that the right blood is found.
+  step: transfusion-medicine/compatibility-testing-and-issue
+  touchpoints:
+  - bedside-check
+  - blood-bank
+- slug: receive-the-transfusion
+  title: Receive the Transfusion
+  goal: Receive the right blood safely and know what to report.
+  step: transfusion-medicine/bedside-transfusion
+  touchpoints:
+  - bedside-check
+  - day-care-unit
+  - identification-band
+- slug: have-a-reaction-recognised
+  title: Have a Reaction Recognised
+  goal: Have any reaction recognised, treated and recorded.
+  step: transfusion-medicine/haemovigilance-and-traceability
+  touchpoints:
+  - nurse-call

@@ -1,0 +1,14 @@
+kind: solution
+slug: work-representative
+title: Work Representative
+role: person
+sovereignty: third-party
+summary: Finds takers for the work, prices it and negotiates its terms on the maker's behalf, for a share.
+carries:
+- pricing-ones-work
+- agreeing-fair-terms
+- noticing-misuse-of-ones-work
+holds:
+- offering
+- contract
+- rights-record

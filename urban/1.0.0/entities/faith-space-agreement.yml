@@ -1,0 +1,57 @@
+kind: entity
+slug: faith-space-agreement
+title: Faith Space Agreement
+type: governance
+summary: An agreement between a faith community and its neighbours on how sacred sites, burial grounds, ritual times and shared space
+  are respected and used, with its review date. The parties sign it and the city records it with its review, and it is used to settle
+  the use of shared streets and squares before tension arises.
+attributes:
+- name: faith-community
+  type: reference(faith-community)
+  card: 1..1
+- name: neighbour-parties
+  type: text
+  card: 1..*
+- name: sites
+  type: reference(land-parcel|building)
+  card: 1..*
+- name: protected-zones
+  type: text
+  card: 0..*
+- name: ritual-times
+  type: text
+  card: 0..*
+- name: shared-space-uses
+  type: text
+  card: 0..*
+- name: burial-arrangements
+  type: text
+  card: 0..1
+- name: contact-for-concerns
+  type: text
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 1..1
+states:
+- proposed
+- negotiated
+- signed
+- recorded
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: faith-community
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: refers-to
+  target: heritage-protection
+- type: refers-to
+  target: neighbourhood

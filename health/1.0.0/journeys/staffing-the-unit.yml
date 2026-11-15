@@ -1,0 +1,39 @@
+kind: journey
+slug: staffing-the-unit
+title: Staffing the Unit
+stakeholder: unit-manager
+summary: The unit manager keeps every shift staffed with the right skills, from the workload forecast through the roster and daily
+  adjustment to the close of the period.
+stages:
+- slug: anticipate-the-workload
+  title: Anticipate the Workload
+  goal: Know the expected workload by shift before the roster is built.
+  step: workforce-scheduling-and-staffing/workload-forecast
+  touchpoints:
+  - workforce-dashboard
+- slug: build-the-roster
+  title: Build the Roster
+  goal: Publish on time a compliant roster that the team accepts.
+  step: workforce-scheduling-and-staffing/roster-planning
+  touchpoints:
+  - duty-roster
+  - staff-consultation
+- slug: check-the-staffing
+  title: Check the Staffing
+  goal: Close every gap below the minimum before the period starts.
+  step: workforce-scheduling-and-staffing/staffing-check
+  touchpoints:
+  - workforce-dashboard
+  - duty-roster
+- slug: adjust-each-shift
+  title: Adjust Each Shift
+  goal: Cover absences and peaks without overloading the same people.
+  step: workforce-scheduling-and-staffing/shift-adjustment
+  touchpoints:
+  - staffing-huddle
+- slug: close-the-period
+  title: Close the Period
+  goal: Approve working time and evidence staffing compliance without rework.
+  step: workforce-scheduling-and-staffing/period-close
+  touchpoints:
+  - hr-self-service

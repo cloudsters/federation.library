@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: export-licence
+title: Export Licence
+medium: artefact
+summary: The licence an authority grants for the export of restricted goods to a given destination or party, applied for before any
+  commitment is made.
+exchanges:
+- correct-declaration-for-swift-clearance
+journey: customs-authority-clearing-a-consignment

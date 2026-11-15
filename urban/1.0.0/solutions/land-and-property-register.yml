@@ -1,0 +1,36 @@
+kind: solution
+slug: land-and-property-register
+title: Land and Property Register
+role: system-of-record
+summary: Holds the city's land parcels and buildings with their owners, rights, leases, condition and heritage protection, and the
+  interim uses and land value contributions attached to them.
+carries:
+- public-land-leasing
+- interim-use-arrangement
+- land-value-capture-design
+- property-valuation
+- succession-declaration-recording
+- affordability-covenant-drafting
+- use-right-transfer-recording
+- site-and-premises-matching
+- occupancy-right-recognition
+- community-energy-partnering
+- land-need-assessment
+- vacant-property-identification
+- acquisition-appraisal
+- community-purchase-support
+- land-and-property-purchase
+- community-asset-transfer
+- surplus-asset-disposal
+holds:
+- land-parcel
+- building
+- heritage-protection
+- land-registry
+- succession-declaration
+- affordability-covenant
+- land-use-right
+- vacancy-register
+- acquisition-case
+- land-purchase-agreement
+- asset-transfer-agreement

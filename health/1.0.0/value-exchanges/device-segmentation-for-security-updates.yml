@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: device-segmentation-for-security-updates
+title: Device Segmentation for Security Updates
+between:
+- clinical-engineer
+- supplier
+offered:
+- A register of networked devices, segmented networks and coordinated maintenance windows for patching.
+returned:
+- Security updates, vulnerability notices and security documentation for the whole service life of each device.
+touchpoint: device-commissioning

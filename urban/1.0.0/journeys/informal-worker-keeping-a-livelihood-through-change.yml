@@ -1,0 +1,38 @@
+kind: journey
+slug: informal-worker-keeping-a-livelihood-through-change
+title: Informal Worker Keeping a Livelihood Through Change
+stakeholder: informal-worker
+summary: An informal transport operator is met by a coordinator, forms with others a cooperative that keeps their routes and surplus,
+  plans the transition with the city when it changes how people move and receives an income floor, retraining and new work until the
+  guarantee is reviewed.
+stages:
+- slug: be-met-at-the-work
+  title: Be Met at the Work
+  goal: A coordinator has met the operator where they work and recorded their skills, routes and goals.
+  step: local-employment-and-livelihood-pathways/job-seeker-intake
+  touchpoints:
+  - employment-coordinator-visit
+- slug: form-a-cooperative
+  title: Form a Cooperative
+  goal: The operators have formed a cooperative that keeps their routes and their surplus, with legal status, credit, shared facilities
+    and pooled income for bad months.
+  step: local-employment-and-livelihood-pathways/informal-work-formalisation
+  touchpoints:
+  - cooperative-formation-clinic
+  - cooperative-operating-licence
+- slug: plan-the-transition-with-the-city
+  title: Plan the Transition with the City
+  goal: When the city changes how people move, the operators and their union have planned with it who is affected, the income floor,
+    the retraining paths, the routes into ownership and the date of review.
+  step: local-employment-and-livelihood-pathways/workforce-transition-planning
+  touchpoints:
+  - transition-planning-table
+  - published-transition-plan
+- slug: come-through-whole
+  title: Come Through Whole
+  goal: The affected operators receive wage replacement, retrain through apprenticeship bridges and are placed in new work, and the
+    guarantee is reviewed on the placement rates achieved.
+  step: local-employment-and-livelihood-pathways/transition-follow-through
+  touchpoints:
+  - transition-income-payment
+  - transition-guarantee-review

@@ -1,0 +1,10 @@
+kind: capability
+slug: ai-assistant-integration
+title: AI Assistant Integration
+level: L3
+parent: human-agent-collaboration
+summary: Integrate AI assistants into everyday workflows under human oversight.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

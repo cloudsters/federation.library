@@ -1,0 +1,22 @@
+kind: solution
+slug: facility-and-workplace-management-system
+title: Facility and Workplace Management System
+role: system-of-record
+summary: Holds buildings, spaces, leases and building services, and supports space planning, building maintenance, access control,
+  energy use and workplace services.
+carries:
+- steward-facilities-operations
+- workspace-as-living-environment
+- building-commissioning-and-handover
+- property-strategy
+- facility-planning
+- space-management
+- lease-and-property-management
+- building-technical-services
+- planned-building-maintenance
+- security-and-access-control
+- energy-management
+- workplace-services
+holds:
+- facility
+- branch

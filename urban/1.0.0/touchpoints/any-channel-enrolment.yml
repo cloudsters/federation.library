@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: any-channel-enrolment
+title: Any-Channel Enrolment
+medium: channel
+summary: The enrolment in a learning offer online, by telephone, at a library or service point or through the partner who runs it.
+exchanges:
+- aim-for-a-learning-plan
+journey: job-seeker-learning-towards-secure-work

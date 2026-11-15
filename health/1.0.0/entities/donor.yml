@@ -1,0 +1,48 @@
+kind: entity
+slug: donor
+title: Donor
+type: master
+summary: A living person registered with the organisation to give blood, blood components, stem cells or an organ, held with eligibility,
+  deferrals and donation history apart from any patient record, so that donors can be called, protected and traced.
+attributes:
+- name: donor-identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: donation-kinds
+  type: code
+  card: 1..*
+- name: blood-group
+  type: code
+  card: 0..1
+- name: tissue-type
+  type: code
+  card: 0..1
+- name: eligibility
+  type: code
+  card: 1..1
+- name: deferral
+  type: period
+  card: 0..*
+- name: intended-recipient
+  type: reference(patient)
+  card: 0..1
+states:
+- registered
+- active
+- deferred
+- withdrawn
+relations:
+- type: governed-by
+  target: informed-consent
+- type: refers-to
+  target: patient
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-407
+  edition: 6.2.2
+  jurisdiction: global

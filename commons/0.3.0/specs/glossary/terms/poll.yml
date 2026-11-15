@@ -1,0 +1,9 @@
+id: poll
+term: Poll
+layer: workshop
+kind: concept
+definition: A procedure of a Decision in which the voices of those it asks advise, and the decision stays with whom it names.
+why: Asking many before one decides is shared work as well, and recording it as advice keeps it from being read as binding.
+relations:
+  procedure_of: decision
+status: draft

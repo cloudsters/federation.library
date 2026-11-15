@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: ai-incident-notification-for-market-oversight
+title: AI Incident Notification for Market Oversight
+between:
+- executive
+- health-regulator
+offered:
+- The organisation notifies serious incidents and malfunctions of AI systems in use without delay.
+returned:
+- The regulator assesses the report together with others from the market and orders corrections or restrictions that protect patients
+  everywhere.
+touchpoint: regulatory-reporting-channel

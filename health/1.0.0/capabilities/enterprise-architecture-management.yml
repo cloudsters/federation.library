@@ -1,0 +1,10 @@
+kind: capability
+slug: enterprise-architecture-management
+title: Enterprise Architecture Management
+level: L3
+parent: enterprise-architecture
+summary: Maintain the enterprise architecture and its principles and guide every change by them.
+binds:
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

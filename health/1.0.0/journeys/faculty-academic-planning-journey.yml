@@ -1,0 +1,55 @@
+kind: journey
+slug: faculty-academic-planning-journey
+title: Faculty Academic Planning Journey
+stakeholder: university
+summary: The medical faculty plans research and teaching together with the commons, from opening the joint cycle to adopting a plan
+  both sides fund.
+stages:
+- slug: open-the-joint-cycle
+  title: Open the Joint Cycle
+  goal: Agree scope, data and decision rules of the joint planning with the commons.
+  step: academic-strategy/joint-planning-opening
+  touchpoints:
+  - joint-university-committee
+- slug: bring-the-facultys-evidence
+  title: Bring the Faculty's Evidence
+  goal: Bring research and teaching results by unit into a shared assessment.
+  step: academic-strategy/academic-performance-assessment
+  touchpoints:
+  - academic-performance-report
+  - joint-university-committee
+- slug: agree-the-profile
+  title: Agree the Profile
+  goal: Agree the research profile areas the faculty and the commons will carry together.
+  step: academic-strategy/research-profile-definition
+  touchpoints:
+  - joint-university-committee
+  - academic-development-plan
+- slug: agree-teaching-priorities
+  title: Agree Teaching Priorities
+  goal: Agree programmes, places and curriculum priorities and the clinical settings that host learners.
+  step: academic-strategy/teaching-priority-setting
+  touchpoints:
+  - joint-university-committee
+  - academic-development-plan
+- slug: plan-the-chairs
+  title: Plan the Chairs
+  goal: Agree which professorships and joint posts are created, refilled or redirected, and when.
+  step: academic-strategy/appointment-planning
+  touchpoints:
+  - joint-university-committee
+  - academic-development-plan
+- slug: commit-funds
+  title: Commit Funds
+  goal: Commit research and teaching funds, infrastructure and space to the agreed priorities.
+  step: academic-strategy/infrastructure-and-funding-alignment
+  touchpoints:
+  - academic-development-plan
+  - budget-plan
+- slug: adopt-together
+  title: Adopt Together
+  goal: Adopt the joint plan in the bodies of both sides and make it binding for their units.
+  step: academic-strategy/joint-adoption-and-embedding
+  touchpoints:
+  - joint-university-committee
+  - academic-development-plan

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: electronic-banking
+title: Electronic Banking
+medium: channel
+summary: The secure electronic channel through which the commons instructs payments, receives account statements and exchanges payment
+  files with its banks.
+exchanges:
+- creditworthiness-for-financing
+journey: banking-and-lending-to-the-commons

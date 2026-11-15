@@ -1,0 +1,84 @@
+kind: value-stream
+slug: noticing-to-discernment
+start: true
+title: Seeing Clearly
+family: perception-to-mandate
+summary: Perception as a governed faculty — knowing what to let in, tracing a claim back to its source, recognising a story built
+  to move you, and seeing the machinery that decides what you see.
+trigger: A conviction turns out to have come from a feed, a story moves one before it is checked, or someone else points out a blind
+  spot.
+outcome: The person chooses what they let in, can trace a claim back to where it came from, and notices when something is built to
+  move them.
+stakeholders:
+- close-friend
+- mentor
+- community
+- synthetic-collaborator
+steps:
+- slug: catching-a-borrowed-conviction
+  title: Catching a Borrowed Conviction
+  summary: A strong opinion turns out to have come from a feed or a stirring story rather than from anything checked, and the person
+    catches it.
+  capabilities:
+  - noticing-when-one-is-moved
+  entities:
+  - worldview
+  - drift-reading
+  serves:
+  - social-feed
+- slug: letting-others-point-out-blind-spots
+  title: Letting Others Point Out Blind Spots
+  summary: Someone trusted is asked what one tends not to see, and the answer is heard without defending.
+  capabilities:
+  - asking-for-honest-reflection
+  entities:
+  - other-perception
+  - friend
+  - mentor-relation
+  serves:
+  - heart-to-heart
+  - mentoring-conversation
+- slug: choosing-what-to-let-in
+  title: Choosing What to Let In
+  summary: The person decides which sources, feeds and voices reach them, and lets go of the ones that mostly stir without informing.
+  capabilities:
+  - choosing-what-to-let-in
+  entities:
+  - technology-policy
+  - device
+  - reading-list
+  serves:
+  - settings-screen
+  - social-feed
+- slug: tracing-a-claim-back
+  title: Tracing a Claim Back
+  summary: Before passing something on or acting on it, the person follows it back to where it came from and asks who gains if it
+    is believed.
+  capabilities:
+  - tracing-a-claim-back
+  entities:
+  - worldview
+  - journal
+  serves:
+  - social-feed
+- slug: seeing-the-machinery
+  title: Seeing the Machinery
+  summary: The person learns how the screens they use rank and choose what they see, and sets their devices so the choosing is more
+    their own.
+  capabilities:
+  - seeing-how-feeds-decide
+  entities:
+  - device
+  - technology-policy
+  serves:
+  - settings-screen
+  - social-feed
+- slug: stopping-to-look
+  title: Stopping to Look
+  summary: A quiet practice of stillness, prayer or gratitude is kept, so that seeing clearly has a regular place to happen.
+  capabilities:
+  - keeping-a-quiet-practice
+  entities:
+  - spiritual-practice
+  - gratitude-log
+  - review-cadence

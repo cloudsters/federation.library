@@ -1,0 +1,50 @@
+kind: journey
+slug: living-with-coordinated-care
+title: Living with Coordinated Care
+stakeholder: person-with-chronic-condition
+summary: 'The patient''s side of an integrated care programme: one plan, one coordinator and providers who share information, from
+  enrolment to the review of results.'
+stages:
+- slug: joining-the-programme
+  title: Joining the Programme
+  goal: Understand what the programme offers and decide freely whether to join and which information to share.
+  step: integrated-care-programmes/identification-and-enrolment
+  touchpoints:
+  - consultation
+  - consent-form
+- slug: telling-the-whole-story
+  title: Telling the Whole Story
+  goal: Be assessed once across medical, nursing and social needs instead of separately by each provider.
+  step: integrated-care-programmes/joint-needs-assessment
+  touchpoints:
+  - consultation
+  - home-visit
+- slug: agreeing-one-plan
+  title: Agreeing One Plan
+  goal: Agree a plan with goals that matter personally, and know who coordinates and whom to call.
+  step: integrated-care-programmes/shared-care-plan
+  touchpoints:
+  - shared-care-plan
+  - consultation
+- slug: receiving-joined-up-care
+  title: Receiving Joined-Up Care
+  goal: Receive care at home and in clinics that follows the plan, with rapid help when readings or symptoms worsen.
+  step: integrated-care-programmes/coordinated-care-delivery
+  touchpoints:
+  - home-monitoring-device
+  - case-management-call
+  - outpatient-clinic
+  - home-visit
+- slug: reviewing-progress
+  title: Reviewing Progress
+  goal: Review progress with the coordinator and adjust the plan as life and condition change.
+  step: integrated-care-programmes/care-plan-review
+  touchpoints:
+  - case-management-call
+  - shared-care-plan
+- slug: reporting-outcomes
+  title: Reporting Outcomes
+  goal: Report how life with the condition is going, so that the programme can prove and improve its value.
+  step: integrated-care-programmes/programme-evaluation-and-settlement
+  touchpoints:
+  - patient-portal

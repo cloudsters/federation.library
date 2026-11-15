@@ -1,0 +1,62 @@
+kind: entity
+slug: supply-disruption
+title: Supply Disruption
+type: transactional
+summary: A failure or shortage in the supply of an essential good, with its cause, the stock remaining, the standby suppliers called
+  on, the reserves released and the allocations made. The procurement office records it from first detection to recovery and reports
+  to the crisis team, and it is reviewed afterwards with the neighbourhood places and suppliers.
+attributes:
+- name: essential-good
+  type: text
+  card: 1..1
+- name: detected-at
+  type: datetime
+  card: 1..1
+- name: cause
+  type: text
+  card: 1..1
+- name: failed-supplier
+  type: reference(supplier-record)
+  card: 0..1
+- name: neighbourhoods-affected
+  type: reference(neighbourhood)
+  card: 0..*
+- name: stock-remaining
+  type: quantity
+  card: 0..1
+- name: standby-agreements-called
+  type: reference(standby-supply-agreement)
+  card: 0..*
+- name: reserves-released
+  type: reference(essential-reserve)
+  card: 0..*
+- name: allocations
+  type: text
+  card: 0..*
+- name: emergency-response
+  type: reference(emergency-response)
+  card: 0..1
+- name: ended-at
+  type: datetime
+  card: 0..1
+- name: review
+  type: document
+  card: 0..1
+states:
+- detected
+- responding
+- reserves-released
+- recovering
+- ended
+- reviewed
+relations:
+- type: governed-by
+  target: essential-supply-plan
+- type: refers-to
+  target: essential-reserve
+- type: refers-to
+  target: standby-supply-agreement
+- type: refers-to
+  target: emergency-response
+- type: refers-to
+  target: supply-interruption

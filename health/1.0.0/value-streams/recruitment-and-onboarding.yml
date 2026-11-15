@@ -1,0 +1,154 @@
+kind: value-stream
+slug: recruitment-and-onboarding
+title: Recruitment and Onboarding
+family: contributor-to-succession
+summary: 'Finding and welcoming new contributors: employer brand, talent pipelines including international recruitment, requisition,
+  selection, contract, orientation and structured clinical onboarding.'
+trigger: A position is approved for filling.
+outcome: The selected person is employed, oriented and cleared to work independently in the role.
+stakeholders:
+- job-applicant
+- unit-manager
+- head-of-clinical-department
+- administrative-staff
+- staff-representation
+- health-regulator
+- occupational-health-professional
+steps:
+- slug: position-requisition
+  title: Position Requisition
+  summary: The unit requests to fill an approved post; the request is checked against the workforce plan and the budget, the role's
+    requirements are defined and the vacancy is released.
+  capabilities:
+  - position-requisition-management
+  - budgetary-control-encumbrance
+  - delegation-of-authority
+  - competency-model-design
+  entities:
+  - position
+  - job-vacancy
+  - workforce-plan
+  - budget
+  serves:
+  - hr-self-service
+  - workforce-plan
+- slug: attraction-and-sourcing
+  title: Attraction and Sourcing
+  summary: Publish the vacancy and reach candidates through the employer brand, the careers portal, professional networks, schools,
+    agencies and international recruitment.
+  capabilities:
+  - candidate-sourcing
+  - employer-branding
+  - employer-value-proposition
+  - talent-pipeline-development
+  - international-recruitment
+  entities:
+  - job-vacancy
+  - position
+  serves:
+  - careers-portal
+  - job-advertisement
+  - public-website
+- slug: screening-and-selection
+  title: Screening and Selection
+  summary: Screen applications against the requirements, run structured interviews, practical assessments and reference checks, and
+    decide with the staff representatives involved as required.
+  capabilities:
+  - candidate-screening-and-selection
+  - applicant-information-stewardship
+  - co-determination-cooperation
+  - diversity-and-inclusion
+  entities:
+  - job-application
+  - job-vacancy
+  serves:
+  - careers-portal
+  - job-interview
+  - staff-consultation
+- slug: pre-employment-checks
+  title: Pre-Employment Checks
+  summary: Verify licence, qualifications and the recognition of foreign qualifications at the issuing source, and complete the pre-employment
+    health assessment and the vaccinations the work requires.
+  capabilities:
+  - licence-verification
+  - specialist-qualification-verification
+  - international-recruitment
+  - occupational-health-service
+  entities:
+  - licence-to-practise
+  - specialty-certification
+  - credential
+  - occupational-health-examination
+  - immunisation
+  serves:
+  - occupational-health-consultation
+  - professional-register
+- slug: offer-and-contract
+  title: Offer and Contract
+  summary: Make the offer, set grade, working time and start date under the applicable agreement, and sign the employment contract.
+  capabilities:
+  - hiring-and-rehire-management
+  - job-evaluation-and-pay-grading
+  - employee-data-stewardship
+  entities:
+  - employment
+  - employee
+  - job-application
+  serves:
+  - employment-contract
+- slug: pre-boarding
+  title: Pre-Boarding
+  summary: Use the time before the first day to prepare workplace, identity and system access, uniform and the first roster, and keep
+    the new colleague informed and engaged.
+  capabilities:
+  - pre-boarding-experience
+  - identity-access-management
+  - workspace-provision
+  - staff-scheduling
+  entities:
+  - identity
+  - access-grant
+  - employee
+  - roster
+  serves:
+  - hr-self-service
+  - starter-pack
+- slug: orientation-and-induction
+  title: Orientation and Induction
+  summary: Introduce the organisation, its safety rules and systems, then induct the newcomer on the unit with a named mentor, mandatory
+    training and briefings on the devices they will use.
+  capabilities:
+  - clinical-onboarding
+  - mandatory-training-management
+  - device-operator-training
+  - safety-training
+  entities:
+  - employee
+  - practitioner-role
+  - credential
+  - policy
+  serves:
+  - clinical-workstation
+  - duty-roster
+  - learning-platform
+  - orientation-day
+  - unit-induction
+- slug: clearance-for-independent-work
+  title: Clearance for Independent Work
+  summary: Validate competence for the role's tasks and devices, hold the probation review and clear the person to work without supervision,
+    with privileges granted where the role requires them.
+  capabilities:
+  - competence-validation
+  - performance-management
+  - clinical-privileging
+  entities:
+  - credential
+  - appraisal
+  - practitioner-role
+  - employment
+  serves:
+  - appraisal-meeting
+binds:
+- source: src-517
+  edition: 2010 / list-2023
+  jurisdiction: global

@@ -1,0 +1,16 @@
+kind: capability
+slug: competency-model-design
+title: Competency Model Design
+level: L3
+parent: workforce-strategy
+summary: Define the competencies each role requires and assess current capacity against them.
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-071
+  edition: '2005'
+  jurisdiction: global
+- source: src-383
+  edition: '2022'
+  jurisdiction: global

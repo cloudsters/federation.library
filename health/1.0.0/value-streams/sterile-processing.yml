@@ -1,0 +1,181 @@
+kind: value-stream
+slug: sterile-processing
+title: Sterile Processing
+family: acquire-to-retire
+summary: 'Reprocessing reusable medical instruments: collection, cleaning, disinfection, inspection, packing, sterilisation, validated
+  release and traceability to the patient.'
+trigger: Used instruments are returned from a theatre or ward.
+outcome: Sterile, validated instrument sets are available on time and traceable to the patients they are used on.
+stakeholders:
+- elective-inpatient
+- emergency-patient
+- surgeon
+- registered-nurse
+- support-services-staff
+- clinical-engineer
+- supplier
+- health-regulator
+steps:
+- slug: point-of-use-preparation-and-return
+  title: Point-of-Use Preparation and Return
+  summary: After each operation the theatre team removes waste and sharps, keeps the instruments moist, records the sets used on the
+    patient and returns them in closed containers to sterile services within the agreed time.
+  capabilities:
+  - instrument-set-management
+  - sterile-goods-release-and-traceability
+  - hygiene-management
+  - internal-distribution
+  entities:
+  - instrument-set
+  - sterile-supply-cycle
+  - surgical-case
+  serves:
+  - clinical-workstation
+  - operating-theatre
+  - set-composition-list
+- slug: receipt-cleaning-and-disinfection
+  title: Receipt, Cleaning and Disinfection
+  summary: Receive and sort returned and loan sets, dismantle the instruments and clean and disinfect them in validated washer-disinfectors,
+    with flexible endoscopes in their own validated process, protecting staff from sharps and chemicals.
+  capabilities:
+  - instrument-reprocessing-and-validation
+  - endoscope-reprocessing
+  - loan-instrument-set-management
+  - hazardous-substance-safety
+  - occupational-safety-programme
+  entities:
+  - sterile-supply-cycle
+  - instrument-set
+  - medical-device
+  serves:
+  - goods-receiving
+  - sterile-services-department
+- slug: inspection-assembly-and-packing
+  title: Inspection, Assembly and Packing
+  summary: Inspect every instrument for cleanliness, damage and function, replace or send for repair what fails, assemble the sets
+    against their composition lists and pack them in validated sterile barrier systems.
+  capabilities:
+  - instrument-set-management
+  - instrument-reprocessing-and-validation
+  - serial-number-tracking
+  - returns-reverse-logistics
+  entities:
+  - instrument-set
+  - sterile-supply-cycle
+  - inventory-item
+  serves:
+  - set-composition-list
+- slug: sterilisation
+  title: Sterilisation
+  summary: Load the sets by the validated loading pattern, run the sterilisation cycle with its physical, chemical and biological
+    monitoring, and record the batch with its cycle data.
+  capabilities:
+  - instrument-reprocessing-and-validation
+  - sterile-goods-release-and-traceability
+  - device-maintenance-execution
+  entities:
+  - sterile-supply-cycle
+  - medical-device
+  serves:
+  - batch-label
+- slug: release-and-sterile-storage
+  title: Release and Sterile Storage
+  summary: Release each batch against documented criteria under a qualified person's signature, block and reprocess failed batches,
+    recall sets from a batch found faulty after release, and store released sets under controlled conditions.
+  capabilities:
+  - sterile-goods-release-and-traceability
+  - non-conformance-management
+  - product-recall-management
+  - clinical-warehousing-and-inventory
+  entities:
+  - sterile-supply-cycle
+  - instrument-set
+  - corrective-action
+  serves:
+  - batch-label
+  - sterile-services-department
+- slug: provision-to-theatre
+  title: Provision to Theatre
+  summary: Pick and deliver the sets for each scheduled operation, respond to added emergencies and missing sets, and supply loan
+    sets in time for the operations they were requested for.
+  capabilities:
+  - theatre-scheduling
+  - theatre-day-coordination
+  - instrument-set-management
+  - loan-instrument-set-management
+  - internal-distribution
+  entities:
+  - instrument-set
+  - surgical-case
+  - operating-session
+  - sterile-supply-cycle
+  serves:
+  - operating-theatre
+  - sterile-services-department
+- slug: use-and-traceability-record
+  title: Use and Traceability Record
+  summary: Before opening a pack the theatre team checks its integrity, indicator and expiry, then records set and batch in the operation
+    record so that every set can be traced to the patient it was used on.
+  capabilities:
+  - sterile-goods-release-and-traceability
+  - surgical-safety-checklist-practice
+  - intraoperative-documentation
+  - implant-and-material-documentation
+  entities:
+  - surgical-case
+  - procedure
+  - sterile-supply-cycle
+  - instrument-set
+  - implant
+  serves:
+  - batch-label
+  - clinical-workstation
+- slug: process-validation-and-quality-review
+  title: Process Validation and Quality Review
+  summary: Revalidate washer-disinfectors, sterilisers and packing processes at set intervals, audit reprocessing against requirements,
+    and act on non-conformities, complaints from theatres and signals of surgical site infection.
+  capabilities:
+  - instrument-reprocessing-and-validation
+  - device-safety-and-metrology-inspection
+  - quality-management-system
+  - non-conformance-management
+  - audit-lifecycle-management
+  - infection-surveillance
+  - process-performance-management
+  entities:
+  - audit
+  - audit-finding
+  - corrective-action
+  - medical-device
+  - healthcare-associated-infection
+  serves:
+  - inspection-and-audit
+  - sterile-services-liaison-meeting
+binds:
+- source: src-296
+  edition: '2024'
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-303
+  edition: '2019'
+  jurisdiction: global
+- source: src-314
+  edition: '2014'
+  jurisdiction: global
+- source: src-326
+  edition: '2015'
+  jurisdiction: global
+- source: src-332
+  edition: '2017'
+  jurisdiction: global
+- source: src-334
+  edition: '2018'
+  jurisdiction: global
+- source: src-366
+  edition: '2016'
+  jurisdiction: global
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

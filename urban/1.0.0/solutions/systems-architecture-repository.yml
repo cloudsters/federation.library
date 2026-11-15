@@ -1,0 +1,21 @@
+kind: solution
+slug: systems-architecture-repository
+title: Systems Architecture Repository
+role: system-of-record
+summary: Holds the city's applications with their owners, costs, suppliers and interfaces, the map of digital dependencies, the current
+  and target architecture, the roadmap and each architecture review with its reasons.
+carries:
+- digital-landscape-assessment
+- dependency-mapping
+- systems-architecture-design
+- digital-roadmap-planning
+- architecture-decision-review
+- legacy-system-retirement
+- automation-candidate-assessment
+holds:
+- application
+- digital-landscape-report
+- dependency-map
+- systems-architecture
+- digital-roadmap
+- automation-proposal

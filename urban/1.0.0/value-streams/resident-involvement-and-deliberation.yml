@@ -1,0 +1,146 @@
+kind: value-stream
+slug: resident-involvement-and-deliberation
+title: Resident Involvement and Deliberation
+family: participant-to-community
+summary: Involving residents in the decisions that shape their lives between elections, beyond the formal routes of petition and vote.
+  It holds the plan that states in advance what residents will decide, what they will shape and what is reserved, outreach that reaches
+  those who seldom take part, including selection by lot, access by language, time, care and pay, deliberation that holds real disagreement,
+  services shaped by those who use and deliver them, and the account of what residents said and what changed as a result.
+trigger: A council decision, plan, budget or service change will affect residents, a neighbourhood or community body asks to be involved,
+  or the participation charter names a decision as one that residents shape.
+outcome: Those affected took part on fair terms, the decision carries what they said or states why not, and residents can trace how
+  their voice changed what happens next.
+stakeholders:
+- resident
+- affected-community
+- disabled-resident
+- young-people
+- neighbourhood-association
+- civil-society-organisation
+- community-development-worker
+- city-administration
+- city-council
+steps:
+- slug: involvement-planning
+  title: Involvement Planning
+  summary: Before a process opens, the administration agrees with the council and the communities affected what residents will decide,
+    what they will shape and what is reserved, which budget, staff and mandate are really available, and at which two or three points
+    of the decision their input weighs most, and records this in an involvement plan.
+  capabilities:
+  - involvement-planning
+  - decision-rights-allocation
+  - power-mapping
+  entities:
+  - involvement-plan
+  - participation-charter
+  - decision-rights-register
+  serves:
+  - involvement-plan-workshop
+  - published-involvement-plan
+- slug: outreach-and-recruitment
+  title: Outreach and Recruitment
+  summary: Community workers reach residents where they already gather and, where a representative body is needed, select participants
+    by lot against representation targets, tracking who declines and why so that the barriers can be removed.
+  capabilities:
+  - participant-outreach
+  - participant-selection-by-lot
+  - resident-assembly-convening
+  entities:
+  - resident-assembly
+  - population-register
+  - involvement-plan
+  serves:
+  - assembly-invitation-letter
+  - decline-reason-follow-up
+  - outreach-in-gathering-places
+- slug: access-and-preparation
+  title: Access and Preparation
+  summary: Meeting times, places and formats are set around the lives of carers, shift workers and disabled residents, materials are
+    given in plain language and in the languages residents speak, interpretation, childcare and travel are provided, and participants
+    are paid for their time.
+  capabilities:
+  - participation-access-design
+  - language-access-provision
+  - participant-compensation
+  entities:
+  - involvement-plan
+  - language-access-policy
+  serves:
+  - access-needs-request
+  - participant-payment
+  - plain-language-briefing-pack
+- slug: deliberation-and-co-design
+  title: Deliberation and Co-Design
+  summary: Residents, officials and experts weigh the evidence and the options together in facilitated sessions that make conflicting
+    interests visible and hold disagreement, with safeguards that give the groups most affected a calibrated say on the matters that
+    touch them most.
+  capabilities:
+  - deliberation-facilitation
+  - minority-safeguard-design
+  - participatory-plan-design
+  - power-mapping
+  entities:
+  - public-consultation
+  - resident-assembly
+  serves:
+  - affected-group-consent-round
+  - deliberation-session
+  - interest-mapping-session
+  - plain-language-briefing-pack
+- slug: service-co-production
+  title: Service Co-Production
+  summary: For a public service, a council of the residents who use it and the staff who deliver it sets its standards and shapes
+    its delivery together, with the work, the risks and the pay of each role made explicit.
+  capabilities:
+  - service-council-convening
+  - service-design-with-residents
+  - benefit-measure-setting
+  entities:
+  - service-council
+  - public-service
+  serves:
+  - service-council-meeting
+  - service-role-matrix
+- slug: response-and-influence
+  title: Response and Influence
+  summary: The administration reports back what was heard, what the council decided and why a proposal was not taken up, traces each
+    proposal from its origin to its outcome, and records dissent next to the decision.
+  capabilities:
+  - participation-feedback-reporting
+  - proposal-tracing
+  - council-decision-recording
+  - dissent-recording
+  entities:
+  - participation-feedback-report
+  - council-decision
+  - public-record
+  serves:
+  - proposal-trace-page
+  - report-back-meeting
+  - what-we-heard-report
+- slug: participation-review
+  title: Participation Review
+  summary: Residents and the administration review together who took part and who did not, the burden participation placed on them,
+    why people left, and whether their input changed outcomes, and the participation charter and practice are adjusted.
+  capabilities:
+  - participation-practice-review
+  - equity-audit
+  - participation-boundary-review
+  entities:
+  - participation-review
+  - participation-charter
+  serves:
+  - participation-review-circle
+binds:
+- source: src-179
+  edition: '2015-09-25'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global

@@ -1,0 +1,54 @@
+kind: journey
+slug: city-council-renewing-the-city-vision
+title: City Council Renewing the City Vision
+stakeholder: city-council
+summary: The council opens the vision review with all parties, supports neighbourhoods and schools to imagine futures, weighs alternative
+  futures, hands the question to residents selected by lot, adopts the vision for the long term and keeps it told and open to renewal.
+stages:
+- slug: open-the-vision-review
+  title: Open the Vision Review
+  goal: The horizon, the communities to be reached and the calendar are set in a public notice, and the parties have agreed that the
+    result will outlast the term.
+  step: shared-city-vision/vision-review-opening
+  touchpoints:
+  - vision-review-notice
+  - cross-party-vision-compact
+- slug: support-the-city-to-imagine
+  title: Support the City to Imagine
+  goal: Neighbourhoods, schools and community bodies have imagined and discussed the futures they want, with the support they needed
+    to do so.
+  step: shared-city-vision/futures-capacity-building
+  touchpoints:
+  - neighbourhood-visioning-session
+  - school-futures-workshop
+- slug: weigh-alternative-futures
+  title: Weigh Alternative Futures
+  goal: Alternative futures of the city, including those it would not want, are drawn up from residents' visions and trends and published.
+  step: shared-city-vision/future-scenario-development
+  touchpoints:
+  - scenario-workshop
+  - published-future-scenarios
+- slug: hand-the-question-to-residents-chosen-by-lot
+  title: Hand the Question to Residents Chosen by Lot
+  goal: A resident assembly selected by lot has weighed the scenarios, named the tensions and drafted the vision.
+  step: shared-city-vision/vision-deliberation
+  touchpoints:
+  - resident-assembly-invitation
+  - resident-assembly-session
+- slug: adopt-the-vision-for-the-long-term
+  title: Adopt the Vision for the Long Term
+  goal: The vision is tested against what it leaves to later residents and adopted with its reasons, the futures weighed and the date
+    of its next review.
+  step: shared-city-vision/vision-adoption
+  touchpoints:
+  - future-generations-statement
+  - vision-adoption-debate
+  - published-city-vision
+- slug: tell-follow-and-reopen
+  title: Tell, Follow and Reopen
+  goal: The vision is told in the languages and media residents use, progress towards it is visible, and signals that it no longer
+    holds reopen the review.
+  step: shared-city-vision/vision-communication-and-renewal
+  touchpoints:
+  - vision-in-community-media
+  - vision-progress-page

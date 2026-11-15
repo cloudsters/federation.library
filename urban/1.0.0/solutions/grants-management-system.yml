@@ -1,0 +1,21 @@
+kind: solution
+slug: grants-management-system
+title: Grants Management System
+role: system-of-record
+summary: Holds the transfers and shared revenue due to the city, the funding calls watched, every grant application and award with
+  its conditions, claims, reports and close-out, and the grants the city gives to community bodies.
+carries:
+- transfer-entitlement-tracking
+- regional-revenue-pooling
+- funding-opportunity-scouting
+- grant-condition-assessment
+- grant-application-preparation
+- grant-compliance-monitoring
+- grant-reporting-and-close-out
+- community-grant-making
+holds:
+- intergovernmental-transfer
+- grant-application
+- grant-award
+- grant-report
+- community-grant

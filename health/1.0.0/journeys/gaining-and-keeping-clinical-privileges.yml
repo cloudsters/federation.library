@@ -1,0 +1,52 @@
+kind: journey
+slug: gaining-and-keeping-clinical-privileges
+title: Gaining and Keeping Clinical Privileges
+stakeholder: specialist-physician
+summary: A physician earns the right to perform defined procedures in the organisation and keeps it through evidence of current competence,
+  with a fair hearing before any restriction.
+stages:
+- slug: apply-for-privileges
+  title: Apply for Privileges
+  goal: Know which evidence each privilege requires and submit it once.
+  step: credentialing-and-privileging/credentialing-request
+  touchpoints:
+  - privilege-application
+- slug: have-credentials-verified
+  title: Have Credentials Verified
+  goal: Have licence and specialist recognition confirmed at the source without repeated requests.
+  step: credentialing-and-privileging/primary-source-verification
+  touchpoints:
+  - professional-register
+- slug: show-competence
+  title: Show Competence
+  goal: Show case volumes, outcomes and supervised experience for each procedure requested.
+  step: credentialing-and-privileging/competence-evidence
+  touchpoints:
+  - training-logbook
+  - privilege-application
+- slug: be-reviewed-by-peers
+  title: Be Reviewed by Peers
+  goal: Be judged by defined criteria by peers who know the specialty.
+  step: credentialing-and-privileging/privilege-review
+  touchpoints:
+  - credentials-committee-meeting
+- slug: receive-the-privileges
+  title: Receive the Privileges
+  goal: Hold a written scope of practice that the teams who schedule and work alongside can see.
+  step: credentialing-and-privileging/privilege-grant
+  touchpoints:
+  - privilege-statement
+- slug: stay-current
+  title: Stay Current
+  goal: Keep registration, credentials and continuing education current without administrative surprises.
+  step: credentialing-and-privileging/ongoing-monitoring
+  touchpoints:
+  - hr-self-service
+  - professional-register
+- slug: renew-the-privileges
+  title: Renew the Privileges
+  goal: Have privileges renewed on time, or be heard fairly before any restriction.
+  step: credentialing-and-privileging/renewal-or-restriction
+  touchpoints:
+  - privilege-application
+  - credentials-committee-meeting

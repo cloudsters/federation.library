@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: lifecycle-planning-workshop
+title: Lifecycle Planning Workshop
+medium: encounter
+summary: A workshop in which departments, operators and crews set for each class of asset its service level and how it is inspected,
+  maintained, renewed and retired.
+exchanges:
+- operator-experience-for-workable-lifecycle-plans
+journey: asset-officer-building-the-asset-plan

@@ -1,0 +1,10 @@
+kind: capability
+slug: health-technology-assessment
+title: Health Technology Assessment
+level: L3
+parent: technology-assessment
+summary: Assess new treatments, devices and methods for evidence, safety, cost and fit before introduction.
+binds:
+- source: src-463
+  edition: '3.0'
+  jurisdiction: global

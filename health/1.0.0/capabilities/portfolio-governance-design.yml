@@ -1,0 +1,10 @@
+kind: capability
+slug: portfolio-governance-design
+title: Portfolio Governance Design
+level: L3
+parent: change-portfolio
+summary: Design how strategic initiatives are proposed, prioritised, funded and stopped.
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global

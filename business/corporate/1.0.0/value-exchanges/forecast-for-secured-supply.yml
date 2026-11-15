@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: forecast-for-secured-supply
+title: Forecast for Secured Supply
+between:
+- business-customer
+- sales-representative
+offered:
+- Early and honest signals of expected volumes, planned changes and call-offs, shared through forecasts and the account review.
+returned:
+- Capacity and materials reserved in the plan for the customer's needs, and delivery promises the company is able to keep.
+touchpoint: account-review

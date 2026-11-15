@@ -1,0 +1,43 @@
+kind: entity
+slug: academic-appointment
+title: Academic Appointment
+type: transactional
+summary: The appointment of a person to an academic post, such as a professorship or lectureship, often held jointly with a clinical
+  position, with its teaching and research duties, funding and term.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: academic-title
+  type: code
+  card: 1..1
+- name: appointing-body
+  type: reference(organisation)
+  card: 1..1
+- name: clinical-position
+  type: reference(position)
+  card: 0..1
+- name: teaching-duty
+  type: quantity
+  card: 0..1
+- name: research-duty
+  type: text
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+states:
+- proposed
+- in-selection
+- offered
+- appointed
+- ended
+relations:
+- type: depends-on
+  target: position
+- type: governed-by
+  target: contract
+binds:
+- source: src-406
+  edition: 1.6.1
+  jurisdiction: global

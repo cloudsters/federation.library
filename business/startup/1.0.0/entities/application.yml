@@ -1,0 +1,39 @@
+kind: entity
+slug: application
+title: Application
+type: master
+summary: A software system the enterprise runs or uses, such as its enterprise resource planning, customer relationship, commerce,
+  production or payroll system, held in the landscape inventory with owner, criticality, supplier, hosting and lifecycle position.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: application-kind
+  type: code
+  card: 1..1
+- name: system-owner
+  type: reference(department)
+  card: 1..1
+- name: criticality
+  type: code
+  card: 1..1
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: hosting
+  type: code
+  card: 1..1
+states:
+- planned
+- in-introduction
+- in-production
+- phasing-out
+- decommissioned
+relations:
+- type: governed-by
+  target: contract
+- type: governed-by
+  target: data-processing-record

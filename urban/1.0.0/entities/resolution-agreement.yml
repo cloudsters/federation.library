@@ -1,0 +1,50 @@
+kind: entity
+slug: resolution-agreement
+title: Resolution Agreement
+type: transactional
+summary: The written agreement reached in mediation or a restorative circle, with what each party will do, by when, and whether it
+  was kept. The mediator writes it with the parties, who each hold a copy, and the mediation service keeps it in confidence, and it
+  is used to check back that it is kept and to return a broken agreement to the next step.
+attributes:
+- name: dispute-case
+  type: reference(dispute-case)
+  card: 1..1
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: parties
+  type: text
+  card: 1..*
+- name: mediator
+  type: text
+  card: 1..1
+- name: commitments
+  type: text
+  card: 1..*
+- name: due-dates
+  type: date
+  card: 0..*
+- name: repair-actions
+  type: text
+  card: 0..*
+- name: follow-up-dates
+  type: date
+  card: 0..*
+- name: kept
+  type: boolean
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- drafted
+- signed
+- in-follow-up
+- kept
+- broken
+- closed
+relations:
+- type: part-of
+  target: dispute-case
+- type: governed-by
+  target: mediation-protocol

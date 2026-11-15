@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-performance-review
+title: Agent Performance Review
+medium: encounter
+summary: The periodic review in which overseers, users and informatics specialists examine an agent's outputs, overrides, errors and
+  drift and decide to continue, restrict, retrain or retire it.
+exchanges:
+- oversight-reports-for-a-trustworthy-agent
+journey: overseeing-an-ai-agent

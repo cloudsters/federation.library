@@ -1,0 +1,29 @@
+kind: entity
+slug: terms-and-conditions
+title: Terms and Conditions
+type: governance
+summary: The standard rules of exchange — pre-defined terms that govern how the organisation transacts, reducing negotiation friction while
+  protecting both parties.
+attributes:
+- name: clause-sets
+  type: text
+  card: 1..*
+- name: version
+  type: identifier
+  card: 1..1
+- name: scope
+  type: code
+  card: 1..1
+states:
+- defined
+- versioned
+- applied
+- updated
+- retired
+relations:
+- type: refers-to
+  target: contract
+binds:
+- source: src-141
+  edition: '2020'
+  jurisdiction: global

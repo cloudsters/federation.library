@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: heat-connection-visit
+title: Heat Connection Visit
+medium: encounter
+summary: The visit to a home or building to connect it to the heat network, explain the charge and settle with tenants and owners
+  how the work is done.
+exchanges:
+- connection-for-affordable-heat
+journey: tenant-getting-a-warm-and-affordable-home

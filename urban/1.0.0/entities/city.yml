@@ -1,0 +1,67 @@
+kind: entity
+slug: city
+title: City
+type: master
+summary: The settlement as a whole, with its territory, its residents and the powers it holds, kept as a commons. The municipality
+  keeps this record of what the city is, and every charter, decision and register of the family refers back to it.
+attributes:
+- name: official-name
+  type: text
+  card: 1..1
+- name: other-names
+  type: text
+  card: 0..*
+- name: territory
+  type: document
+  card: 1..1
+- name: area
+  type: quantity
+  card: 0..1
+- name: resident-count
+  type: integer
+  card: 0..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: official-languages
+  type: code
+  card: 0..*
+- name: powers
+  type: text
+  card: 0..*
+- name: constituted-on
+  type: date
+  card: 0..1
+- name: charter
+  type: reference(city-charter)
+  card: 0..1
+- name: constitution
+  type: reference(city-constitution)
+  card: 0..1
+states:
+- constituted
+- operating
+- reorganised
+- merged
+- dissolved
+relations:
+- type: composed-of
+  target: neighbourhood
+- type: governed-by
+  target: city-charter
+- type: governed-by
+  target: city-constitution
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: population-register
+binds:
+- source: src-173
+  edition: '2019'
+  jurisdiction: global
+- source: src-176
+  edition: '2026'
+  jurisdiction: global

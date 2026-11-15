@@ -1,0 +1,39 @@
+kind: entity
+slug: relationship-map
+title: Relationship Map
+type: intelligence
+summary: Who is in this life, at what distance, and in which direction value has lately moved. The direction is the part that is never
+  obvious from the inside.
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: who
+  type: text
+  card: 1..*
+- name: distance
+  type: code
+  card: 1..*
+- name: which-way-value-flows
+  type: code
+  card: 0..*
+- name: drifting
+  type: text
+  card: 0..*
+- name: would-not-survive-more-silence
+  type: text
+  card: 0..*
+states:
+- drawn
+- current
+- out of date
+- redrawn
+relations:
+- target: partner-relation
+  type: about
+- target: friend
+  type: about
+- target: community-relation
+  type: about
+- target: professional-network
+  type: about

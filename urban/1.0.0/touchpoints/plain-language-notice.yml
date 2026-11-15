@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: plain-language-notice
+title: Plain-Language Notice
+medium: artefact
+summary: A notice or release that states in plain language and in residents' languages what the city decided or changed, why, and
+  what it means for whom.
+exchanges:
+- plain-information-for-residents-able-to-act
+journey: communications-officer-keeping-the-city-account-true

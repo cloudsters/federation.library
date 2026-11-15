@@ -1,0 +1,32 @@
+kind: journey
+slug: controller-calculating-and-comparing-results
+title: Controller Calculating and Comparing Results
+stakeholder: finance-professional
+summary: A controller specifies indicators precisely, calculates and validates each period's results, takes part in peer comparison
+  and prepares the reviews in which results are weighed together.
+stages:
+- slug: specify-precisely
+  title: Specify Precisely
+  goal: Population, calculation, data source and target of each indicator are unambiguous.
+  step: sensing-benchmarking/indicator-definition
+  touchpoints:
+  - indicator-specification
+- slug: calculate-and-validate
+  title: Calculate and Validate
+  goal: Results are calculated from the analytical data, checked for completeness and plausibility and confirmed by their owners.
+  step: sensing-benchmarking/measurement-and-validation
+  touchpoints:
+  - performance-dashboard
+- slug: compare-with-peers
+  title: Compare with Peers
+  goal: Results and practices are compared with peers under agreed confidentiality, and what can be learned is recorded.
+  step: sensing-benchmarking/benchmark-study
+  touchpoints:
+  - benchmark-exchange
+- slug: prepare-the-review
+  title: Prepare the Review
+  goal: Reviews receive one consistent set of results with trends and peer position.
+  step: sensing-benchmarking/performance-review
+  touchpoints:
+  - performance-review-meeting
+  - board-meeting

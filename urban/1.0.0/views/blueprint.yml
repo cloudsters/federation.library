@@ -1,0 +1,4682 @@
+# the extension's blueprint sections (the run's forms, part E), derived at release; never edited by hand
+sections:
+- id: urban.value-stream.civic-identity-and-charter
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: civic-identity-and-charter
+  cardinality: one
+  labels:
+    en: Civic Identity and Charter
+- id: urban.value-stream.democratic-mandate
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: democratic-mandate
+  cardinality: one
+  labels:
+    en: Democratic Mandate
+- id: urban.value-stream.governance-and-oversight
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: governance-and-oversight
+  cardinality: one
+  labels:
+    en: Governance and Oversight
+- id: urban.value-stream.legal-affairs-and-compliance
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: legal-affairs-and-compliance
+  cardinality: one
+  labels:
+    en: Legal Affairs and Compliance
+- id: urban.value-stream.transparency-and-public-ethics
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: transparency-and-public-ethics
+  cardinality: one
+  labels:
+    en: Transparency and Public Ethics
+- id: urban.value-stream.urban-risk-and-resilience
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: urban-risk-and-resilience
+  cardinality: one
+  labels:
+    en: Urban Risk and Resilience
+- id: urban.value-stream.whole-city-perception
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: whole-city-perception
+  cardinality: one
+  labels:
+    en: Whole-City Perception
+- id: urban.value-stream.city-data-and-analytics
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: city-data-and-analytics
+  cardinality: one
+  labels:
+    en: City Data and Analytics
+- id: urban.value-stream.data-protection-and-data-sovereignty
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: data-protection-and-data-sovereignty
+  cardinality: one
+  labels:
+    en: Data Protection and Data Sovereignty
+- id: urban.value-stream.digital-infrastructure-and-connectivity
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-infrastructure-and-connectivity
+  cardinality: one
+  labels:
+    en: Digital Infrastructure and Connectivity
+- id: urban.value-stream.digital-service-operations
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-service-operations
+  cardinality: one
+  labels:
+    en: Digital Service Operations
+- id: urban.value-stream.digital-solution-delivery-and-renewal
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-solution-delivery-and-renewal
+  cardinality: one
+  labels:
+    en: Digital Solution Delivery and Renewal
+- id: urban.value-stream.digital-strategy-and-systems-architecture
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-strategy-and-systems-architecture
+  cardinality: one
+  labels:
+    en: Digital Strategy and Systems Architecture
+- id: urban.value-stream.information-security-and-digital-resilience
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: information-security-and-digital-resilience
+  cardinality: one
+  labels:
+    en: Information Security and Digital Resilience
+- id: urban.value-stream.interoperability-and-platform-federation
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: interoperability-and-platform-federation
+  cardinality: one
+  labels:
+    en: Interoperability and Platform Federation
+- id: urban.value-stream.city-programme-portfolio
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: city-programme-portfolio
+  cardinality: one
+  labels:
+    en: City Programme Portfolio
+- id: urban.value-stream.city-strategy
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: city-strategy
+  cardinality: one
+  labels:
+    en: City Strategy
+- id: urban.value-stream.district-development
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: district-development
+  cardinality: one
+  labels:
+    en: District Development
+- id: urban.value-stream.shared-city-vision
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: shared-city-vision
+  cardinality: one
+  labels:
+    en: Shared City Vision
+- id: urban.value-stream.spatial-development-planning
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: spatial-development-planning
+  cardinality: one
+  labels:
+    en: Spatial Development Planning
+- id: urban.value-stream.grants-and-intergovernmental-transfers
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: grants-and-intergovernmental-transfers
+  cardinality: one
+  labels:
+    en: Grants and Intergovernmental Transfers
+- id: urban.value-stream.local-taxation-and-revenue
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: local-taxation-and-revenue
+  cardinality: one
+  labels:
+    en: Local Taxation and Revenue
+- id: urban.value-stream.municipal-budget-and-accounts
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: municipal-budget-and-accounts
+  cardinality: one
+  labels:
+    en: Municipal Budget and Accounts
+- id: urban.value-stream.public-assets-and-commons-fund
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: public-assets-and-commons-fund
+  cardinality: one
+  labels:
+    en: Public Assets and Commons Fund
+- id: urban.value-stream.treasury-and-debt
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: treasury-and-debt
+  cardinality: one
+  labels:
+    en: Treasury and Debt
+- id: urban.value-stream.automated-decision-assurance
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: automated-decision-assurance
+  cardinality: one
+  labels:
+    en: Automated Decision Assurance
+- id: urban.value-stream.human-agent-teaming
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: human-agent-teaming
+  cardinality: one
+  labels:
+    en: Human-Agent Teaming
+- id: urban.value-stream.knowledge-sharing-and-staff-learning
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: knowledge-sharing-and-staff-learning
+  cardinality: one
+  labels:
+    en: Knowledge Sharing and Staff Learning
+- id: urban.value-stream.practice-standards-and-pattern-library
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: practice-standards-and-pattern-library
+  cardinality: one
+  labels:
+    en: Practice Standards and Pattern Library
+- id: urban.value-stream.process-improvement-and-automation
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: process-improvement-and-automation
+  cardinality: one
+  labels:
+    en: Process Improvement and Automation
+- id: urban.value-stream.service-quality-and-learning-from-failure
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: service-quality-and-learning-from-failure
+  cardinality: one
+  labels:
+    en: Service Quality and Learning from Failure
+- id: urban.value-stream.urban-research-and-experimentation
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: urban-research-and-experimentation
+  cardinality: one
+  labels:
+    en: Urban Research and Experimentation
+- id: urban.value-stream.ai-agent-lifecycle
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: ai-agent-lifecycle
+  cardinality: one
+  labels:
+    en: AI Agent Lifecycle
+- id: urban.value-stream.apprenticeships-and-skills-transmission
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: apprenticeships-and-skills-transmission
+  cardinality: one
+  labels:
+    en: Apprenticeships and Skills Transmission
+- id: urban.value-stream.enterprise-and-tenure-succession
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: enterprise-and-tenure-succession
+  cardinality: one
+  labels:
+    en: Enterprise and Tenure Succession
+- id: urban.value-stream.local-employment-and-livelihood-pathways
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: local-employment-and-livelihood-pathways
+  cardinality: one
+  labels:
+    en: Local Employment and Livelihood Pathways
+- id: urban.value-stream.municipal-workforce-planning
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: municipal-workforce-planning
+  cardinality: one
+  labels:
+    en: Municipal Workforce Planning
+- id: urban.value-stream.pay-and-fair-work-standards
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: pay-and-fair-work-standards
+  cardinality: one
+  labels:
+    en: Pay and Fair Work Standards
+- id: urban.value-stream.recruitment-and-induction
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: recruitment-and-induction
+  cardinality: one
+  labels:
+    en: Recruitment and Induction
+- id: urban.value-stream.staff-wellbeing-and-retention
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: staff-wellbeing-and-retention
+  cardinality: one
+  labels:
+    en: Staff Wellbeing and Retention
+- id: urban.value-stream.succession-and-role-transition
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: succession-and-role-transition
+  cardinality: one
+  labels:
+    en: Succession and Role Transition
+- id: urban.value-stream.civil-society-partnership
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: civil-society-partnership
+  cardinality: one
+  labels:
+    en: Civil-Society Partnership
+- id: urban.value-stream.community-mediation-and-restorative-practice
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: community-mediation-and-restorative-practice
+  cardinality: one
+  labels:
+    en: Community Mediation and Restorative Practice
+- id: urban.value-stream.community-relations-and-cohesion
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: community-relations-and-cohesion
+  cardinality: one
+  labels:
+    en: Community Relations and Cohesion
+- id: urban.value-stream.neighbourhood-community-development
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: neighbourhood-community-development
+  cardinality: one
+  labels:
+    en: Neighbourhood Community Development
+- id: urban.value-stream.newcomer-welcome-and-integration
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: newcomer-welcome-and-integration
+  cardinality: one
+  labels:
+    en: Newcomer Welcome and Integration
+- id: urban.value-stream.resident-involvement-and-deliberation
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: resident-involvement-and-deliberation
+  cardinality: one
+  labels:
+    en: Resident Involvement and Deliberation
+- id: urban.value-stream.volunteering-and-mutual-aid
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: volunteering-and-mutual-aid
+  cardinality: one
+  labels:
+    en: Volunteering and Mutual Aid
+- id: urban.value-stream.adult-and-lifelong-learning
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: adult-and-lifelong-learning
+  cardinality: one
+  labels:
+    en: Adult and Lifelong Learning
+- id: urban.value-stream.digital-public-services
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: digital-public-services
+  cardinality: one
+  labels:
+    en: Digital Public Services
+- id: urban.value-stream.integrated-health-and-social-care
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: integrated-health-and-social-care
+  cardinality: one
+  labels:
+    en: Integrated Health and Social Care
+- id: urban.value-stream.public-health-and-prevention
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: public-health-and-prevention
+  cardinality: one
+  labels:
+    en: Public Health and Prevention
+- id: urban.value-stream.public-service-design
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: public-service-design
+  cardinality: one
+  labels:
+    en: Public Service Design
+- id: urban.value-stream.school-places-and-learning-pathways
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: school-places-and-learning-pathways
+  cardinality: one
+  labels:
+    en: School Places and Learning Pathways
+- id: urban.value-stream.service-access-and-wayfinding
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: service-access-and-wayfinding
+  cardinality: one
+  labels:
+    en: Service Access and Wayfinding
+- id: urban.value-stream.service-applications-and-entitlements
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: service-applications-and-entitlements
+  cardinality: one
+  labels:
+    en: Service Applications and Entitlements
+- id: urban.value-stream.arts-and-cultural-participation
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: arts-and-cultural-participation
+  cardinality: one
+  labels:
+    en: Arts and Cultural Participation
+- id: urban.value-stream.city-events-and-festivals
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: city-events-and-festivals
+  cardinality: one
+  labels:
+    en: City Events and Festivals
+- id: urban.value-stream.complaints-and-ombudsman
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: complaints-and-ombudsman
+  cardinality: one
+  labels:
+    en: Complaints and Ombudsman
+- id: urban.value-stream.public-space-use-and-programming
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: public-space-use-and-programming
+  cardinality: one
+  labels:
+    en: Public Space Use and Programming
+- id: urban.value-stream.resident-enquiries-and-contact
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: resident-enquiries-and-contact
+  cardinality: one
+  labels:
+    en: Resident Enquiries and Contact
+- id: urban.value-stream.sport-and-active-recreation
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: sport-and-active-recreation
+  cardinality: one
+  labels:
+    en: Sport and Active Recreation
+- id: urban.value-stream.tourism-and-visitor-welcome
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: tourism-and-visitor-welcome
+  cardinality: one
+  labels:
+    en: Tourism and Visitor Welcome
+- id: urban.value-stream.business-start-up-and-support
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: business-start-up-and-support
+  cardinality: one
+  labels:
+    en: Business Start-Up and Support
+- id: urban.value-stream.inward-investment-and-location-promotion
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: inward-investment-and-location-promotion
+  cardinality: one
+  labels:
+    en: Inward Investment and Location Promotion
+- id: urban.value-stream.local-business-networks-and-clusters
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: local-business-networks-and-clusters
+  cardinality: one
+  labels:
+    en: Local Business Networks and Clusters
+- id: urban.value-stream.markets-and-local-trade
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: markets-and-local-trade
+  cardinality: one
+  labels:
+    en: Markets and Local Trade
+- id: urban.value-stream.neighbourhood-and-community-media
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: neighbourhood-and-community-media
+  cardinality: one
+  labels:
+    en: Neighbourhood and Community Media
+- id: urban.value-stream.public-communication-and-reputation
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: public-communication-and-reputation
+  cardinality: one
+  labels:
+    en: Public Communication and Reputation
+- id: urban.value-stream.social-and-cooperative-economy
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: social-and-cooperative-economy
+  cardinality: one
+  labels:
+    en: Social and Cooperative Economy
+- id: urban.value-stream.asset-decommissioning-and-material-recovery
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: asset-decommissioning-and-material-recovery
+  cardinality: one
+  labels:
+    en: Asset Decommissioning and Material Recovery
+- id: urban.value-stream.climate-adaptation-and-green-infrastructure
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: climate-adaptation-and-green-infrastructure
+  cardinality: one
+  labels:
+    en: Climate Adaptation and Green Infrastructure
+- id: urban.value-stream.infrastructure-asset-planning
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: infrastructure-asset-planning
+  cardinality: one
+  labels:
+    en: Infrastructure Asset Planning
+- id: urban.value-stream.infrastructure-maintenance-and-renewal
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: infrastructure-maintenance-and-renewal
+  cardinality: one
+  labels:
+    en: Infrastructure Maintenance and Renewal
+- id: urban.value-stream.land-and-property-acquisition
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: land-and-property-acquisition
+  cardinality: one
+  labels:
+    en: Land and Property Acquisition
+- id: urban.value-stream.public-buildings-and-facilities
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: public-buildings-and-facilities
+  cardinality: one
+  labels:
+    en: Public Buildings and Facilities
+- id: urban.value-stream.public-works-design-and-construction
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: public-works-design-and-construction
+  cardinality: one
+  labels:
+    en: Public Works Design and Construction
+- id: urban.value-stream.repair-reuse-and-sharing
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: repair-reuse-and-sharing
+  cardinality: one
+  labels:
+    en: Repair, Reuse and Sharing
+- id: urban.value-stream.community-safety-and-emergency-services
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: community-safety-and-emergency-services
+  cardinality: one
+  labels:
+    en: Community Safety and Emergency Services
+- id: urban.value-stream.energy-and-heat-supply
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: energy-and-heat-supply
+  cardinality: one
+  labels:
+    en: Energy and Heat Supply
+- id: urban.value-stream.environmental-health-protection
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: environmental-health-protection
+  cardinality: one
+  labels:
+    en: Environmental Health Protection
+- id: urban.value-stream.essential-service-affordability-and-equity
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: essential-service-affordability-and-equity
+  cardinality: one
+  labels:
+    en: Essential Service Affordability and Equity
+- id: urban.value-stream.homelessness-and-housing-allocation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: homelessness-and-housing-allocation
+  cardinality: one
+  labels:
+    en: Homelessness and Housing Allocation
+- id: urban.value-stream.informal-settlement-upgrading
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: informal-settlement-upgrading
+  cardinality: one
+  labels:
+    en: Informal Settlement Upgrading
+- id: urban.value-stream.public-housing-and-tenancy-services
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: public-housing-and-tenancy-services
+  cardinality: one
+  labels:
+    en: Public Housing and Tenancy Services
+- id: urban.value-stream.public-transport-and-shared-mobility
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: public-transport-and-shared-mobility
+  cardinality: one
+  labels:
+    en: Public Transport and Shared Mobility
+- id: urban.value-stream.streets-traffic-and-road-safety
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: streets-traffic-and-road-safety
+  cardinality: one
+  labels:
+    en: Streets, Traffic and Road Safety
+- id: urban.value-stream.urban-goods-and-food-distribution
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: urban-goods-and-food-distribution
+  cardinality: one
+  labels:
+    en: Urban Goods and Food Distribution
+- id: urban.value-stream.waste-collection-and-material-recovery
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: waste-collection-and-material-recovery
+  cardinality: one
+  labels:
+    en: Waste Collection and Material Recovery
+- id: urban.value-stream.water-supply-and-sanitation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: water-supply-and-sanitation
+  cardinality: one
+  labels:
+    en: Water Supply and Sanitation
+- id: urban.value-stream.circular-procurement
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: circular-procurement
+  cardinality: one
+  labels:
+    en: Circular Procurement
+- id: urban.value-stream.contract-and-supplier-performance
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: contract-and-supplier-performance
+  cardinality: one
+  labels:
+    en: Contract and Supplier Performance
+- id: urban.value-stream.joint-purchasing-and-purchasing-alliances
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: joint-purchasing-and-purchasing-alliances
+  cardinality: one
+  labels:
+    en: Joint Purchasing and Purchasing Alliances
+- id: urban.value-stream.local-supplier-development-and-social-value
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: local-supplier-development-and-social-value
+  cardinality: one
+  labels:
+    en: Local Supplier Development and Social Value
+- id: urban.value-stream.procurement-strategy-and-category-planning
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: procurement-strategy-and-category-planning
+  cardinality: one
+  labels:
+    en: Procurement Strategy and Category Planning
+- id: urban.value-stream.purchasing-and-supplier-payment
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: purchasing-and-supplier-payment
+  cardinality: one
+  labels:
+    en: Purchasing and Supplier Payment
+- id: urban.value-stream.supply-security-and-essential-reserves
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: supply-security-and-essential-reserves
+  cardinality: one
+  labels:
+    en: Supply Security and Essential Reserves
+- id: urban.value-stream.tendering-and-contract-award
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: tendering-and-contract-award
+  cardinality: one
+  labels:
+    en: Tendering and Contract Award
+- id: urban.entity.access-audit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: access-audit
+  cardinality: one
+  labels:
+    en: Access Audit
+- id: urban.entity.acquisition-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: acquisition-case
+  cardinality: one
+  labels:
+    en: Acquisition Case
+- id: urban.entity.adaptation-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: adaptation-plan
+  cardinality: one
+  labels:
+    en: Adaptation Plan
+- id: urban.entity.affordability-covenant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: affordability-covenant
+  cardinality: one
+  labels:
+    en: Affordability Covenant
+- id: urban.entity.agent-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent-mandate
+  cardinality: one
+  labels:
+    en: Agent Mandate
+- id: urban.entity.agent-retirement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent-retirement
+  cardinality: one
+  labels:
+    en: Agent Retirement
+- id: urban.entity.agent-role-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent-role-request
+  cardinality: one
+  labels:
+    en: Agent Role Request
+- id: urban.entity.ai-agent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ai-agent
+  cardinality: one
+  labels:
+    en: AI Agent
+- id: urban.entity.air-quality-index
+  within: element.entity
+  binds:
+    kind: entity
+    slug: air-quality-index
+  cardinality: one
+  labels:
+    en: Air Quality Index
+- id: urban.entity.algorithm-review-council
+  within: element.entity
+  binds:
+    kind: entity
+    slug: algorithm-review-council
+  cardinality: one
+  labels:
+    en: Algorithm Review Council
+- id: urban.entity.algorithmic-impact-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: algorithmic-impact-assessment
+  cardinality: one
+  labels:
+    en: Algorithmic Impact Assessment
+- id: urban.entity.alliance-review-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: alliance-review-report
+  cardinality: one
+  labels:
+    en: Alliance Review Report
+- id: urban.entity.anchor-institution-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: anchor-institution-agreement
+  cardinality: one
+  labels:
+    en: Anchor Institution Agreement
+- id: urban.entity.annual-accounts
+  within: element.entity
+  binds:
+    kind: entity
+    slug: annual-accounts
+  cardinality: one
+  labels:
+    en: Annual Accounts
+- id: urban.entity.application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: application
+  cardinality: one
+  labels:
+    en: Application
+- id: urban.entity.apprenticeship
+  within: element.entity
+  binds:
+    kind: entity
+    slug: apprenticeship
+  cardinality: one
+  labels:
+    en: Apprenticeship
+- id: urban.entity.apprenticeship-pool
+  within: element.entity
+  binds:
+    kind: entity
+    slug: apprenticeship-pool
+  cardinality: one
+  labels:
+    en: Apprenticeship Pool
+- id: urban.entity.arrears-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: arrears-case
+  cardinality: one
+  labels:
+    en: Arrears Case
+- id: urban.entity.asset-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: asset-plan
+  cardinality: one
+  labels:
+    en: Asset Plan
+- id: urban.entity.asset-transfer-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: asset-transfer-agreement
+  cardinality: one
+  labels:
+    en: Asset Transfer Agreement
+- id: urban.entity.audit-finding
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audit-finding
+  cardinality: one
+  labels:
+    en: Audit Finding
+- id: urban.entity.automated-decision-challenge
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automated-decision-challenge
+  cardinality: one
+  labels:
+    en: Automated Decision Challenge
+- id: urban.entity.automated-system-approval
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automated-system-approval
+  cardinality: one
+  labels:
+    en: Automated System Approval
+- id: urban.entity.automated-system-performance-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automated-system-performance-report
+  cardinality: one
+  labels:
+    en: Automated System Performance Report
+- id: urban.entity.automated-system-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automated-system-register
+  cardinality: one
+  labels:
+    en: Automated System Register
+- id: urban.entity.automation-proposal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automation-proposal
+  cardinality: one
+  labels:
+    en: Automation Proposal
+- id: urban.entity.award-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: award-decision
+  cardinality: one
+  labels:
+    en: Award Decision
+- id: urban.entity.bank-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bank-account
+  cardinality: one
+  labels:
+    en: Bank Account
+- id: urban.entity.bid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bid
+  cardinality: one
+  labels:
+    en: Bid
+- id: urban.entity.biodiversity-index
+  within: element.entity
+  binds:
+    kind: entity
+    slug: biodiversity-index
+  cardinality: one
+  labels:
+    en: Biodiversity Index
+- id: urban.entity.borrowing-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: borrowing-strategy
+  cardinality: one
+  labels:
+    en: Borrowing Strategy
+- id: urban.entity.budget-bid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget-bid
+  cardinality: one
+  labels:
+    en: Budget Bid
+- id: urban.entity.budget-commitment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget-commitment
+  cardinality: one
+  labels:
+    en: Budget Commitment
+- id: urban.entity.budget-variance-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget-variance-report
+  cardinality: one
+  labels:
+    en: Budget Variance Report
+- id: urban.entity.building
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building
+  cardinality: one
+  labels:
+    en: Building
+- id: urban.entity.building-code
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building-code
+  cardinality: one
+  labels:
+    en: Building Code
+- id: urban.entity.building-energy-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building-energy-record
+  cardinality: one
+  labels:
+    en: Building Energy Record
+- id: urban.entity.building-installation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building-installation
+  cardinality: one
+  labels:
+    en: Building Installation
+- id: urban.entity.building-permit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building-permit
+  cardinality: one
+  labels:
+    en: Building Permit
+- id: urban.entity.business-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-network
+  cardinality: one
+  labels:
+    en: Business Network
+- id: urban.entity.business-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-register
+  cardinality: one
+  labels:
+    en: Business Register
+- id: urban.entity.business-succession-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-succession-plan
+  cardinality: one
+  labels:
+    en: Business Succession Plan
+- id: urban.entity.business-support-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-support-agreement
+  cardinality: one
+  labels:
+    en: Business Support Agreement
+- id: urban.entity.business-support-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-support-case
+  cardinality: one
+  labels:
+    en: Business Support Case
+- id: urban.entity.business-support-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-support-review
+  cardinality: one
+  labels:
+    en: Business Support Review
+- id: urban.entity.bylaw
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bylaw
+  cardinality: one
+  labels:
+    en: Bylaw
+- id: urban.entity.capital-investment-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capital-investment-plan
+  cardinality: one
+  labels:
+    en: Capital Investment Plan
+- id: urban.entity.capital-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capital-project
+  cardinality: one
+  labels:
+    en: Capital Project
+- id: urban.entity.carbon-footprint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: carbon-footprint
+  cardinality: one
+  labels:
+    en: City Carbon Footprint
+- id: urban.entity.care-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-assessment
+  cardinality: one
+  labels:
+    en: Care Assessment
+- id: urban.entity.care-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-map
+  cardinality: one
+  labels:
+    en: Neighbourhood Care Map
+- id: urban.entity.care-network-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-network-agreement
+  cardinality: one
+  labels:
+    en: Care Network Agreement
+- id: urban.entity.care-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-plan
+  cardinality: one
+  labels:
+    en: Care Plan
+- id: urban.entity.care-transition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-transition
+  cardinality: one
+  labels:
+    en: Care Transition
+- id: urban.entity.cash-forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cash-forecast
+  cardinality: one
+  labels:
+    en: Cash Forecast
+- id: urban.entity.category-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: category-strategy
+  cardinality: one
+  labels:
+    en: Category Strategy
+- id: urban.entity.cause-analysis-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cause-analysis-report
+  cardinality: one
+  labels:
+    en: Cause Analysis Report
+- id: urban.entity.change-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: change-request
+  cardinality: one
+  labels:
+    en: Change Request
+- id: urban.entity.circular-purchasing-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: circular-purchasing-report
+  cardinality: one
+  labels:
+    en: Circular Purchasing Report
+- id: urban.entity.citizen-complaint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: citizen-complaint
+  cardinality: one
+  labels:
+    en: Citizen Complaint
+- id: urban.entity.citizen-petition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: citizen-petition
+  cardinality: one
+  labels:
+    en: Citizen Petition
+- id: urban.entity.citizen-satisfaction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: citizen-satisfaction
+  cardinality: one
+  labels:
+    en: Resident Survey
+- id: urban.entity.city
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city
+  cardinality: one
+  labels:
+    en: City
+- id: urban.entity.city-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-charter
+  cardinality: one
+  labels:
+    en: City Charter
+- id: urban.entity.city-constitution
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-constitution
+  cardinality: one
+  labels:
+    en: City Constitution
+- id: urban.entity.city-dashboard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-dashboard
+  cardinality: one
+  labels:
+    en: City Dashboard
+- id: urban.entity.city-events-calendar
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-events-calendar
+  cardinality: one
+  labels:
+    en: City Events Calendar
+- id: urban.entity.city-objective
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-objective
+  cardinality: one
+  labels:
+    en: City Objective
+- id: urban.entity.city-profile
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-profile
+  cardinality: one
+  labels:
+    en: City Profile
+- id: urban.entity.city-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-programme
+  cardinality: one
+  labels:
+    en: City Programme
+- id: urban.entity.city-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-strategy
+  cardinality: one
+  labels:
+    en: City Strategy
+- id: urban.entity.city-vision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: city-vision
+  cardinality: one
+  labels:
+    en: City Vision
+- id: urban.entity.civic-coalition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: civic-coalition
+  cardinality: one
+  labels:
+    en: Civic Coalition
+- id: urban.entity.civic-memory-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: civic-memory-record
+  cardinality: one
+  labels:
+    en: Civic Memory Record
+- id: urban.entity.civil-society-body
+  within: element.entity
+  binds:
+    kind: entity
+    slug: civil-society-body
+  cardinality: one
+  labels:
+    en: Civil-Society Body
+- id: urban.entity.civil-society-directory
+  within: element.entity
+  binds:
+    kind: entity
+    slug: civil-society-directory
+  cardinality: one
+  labels:
+    en: Civil-Society Directory
+- id: urban.entity.climate-action-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: climate-action-plan
+  cardinality: one
+  labels:
+    en: Climate Action Plan
+- id: urban.entity.climate-exposure-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: climate-exposure-assessment
+  cardinality: one
+  labels:
+    en: Climate Exposure Assessment
+- id: urban.entity.cluster-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cluster-agreement
+  cardinality: one
+  labels:
+    en: Cluster Agreement
+- id: urban.entity.code-of-conduct
+  within: element.entity
+  binds:
+    kind: entity
+    slug: code-of-conduct
+  cardinality: one
+  labels:
+    en: Code of Conduct
+- id: urban.entity.cohesion-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cohesion-assessment
+  cardinality: one
+  labels:
+    en: Cohesion Assessment
+- id: urban.entity.collective-mark
+  within: element.entity
+  binds:
+    kind: entity
+    slug: collective-mark
+  cardinality: one
+  labels:
+    en: Collective Mark
+- id: urban.entity.commercial-district-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commercial-district-agreement
+  cardinality: one
+  labels:
+    en: Commercial District Agreement
+- id: urban.entity.commons-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-charter
+  cardinality: one
+  labels:
+    en: Commons Charter (Urban)
+- id: urban.entity.commons-fund
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-fund
+  cardinality: one
+  labels:
+    en: Commons Fund
+- id: urban.entity.commons-fund-rules
+  within: element.entity
+  binds:
+    kind: entity
+    slug: commons-fund-rules
+  cardinality: one
+  labels:
+    en: Commons Fund Rules
+- id: urban.entity.communication-channel
+  within: element.entity
+  binds:
+    kind: entity
+    slug: communication-channel
+  cardinality: one
+  labels:
+    en: Communication Channel
+- id: urban.entity.community-asset-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-asset-map
+  cardinality: one
+  labels:
+    en: Community Asset Map
+- id: urban.entity.community-authorisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-authorisation
+  cardinality: one
+  labels:
+    en: Community Authorisation
+- id: urban.entity.community-centre
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-centre
+  cardinality: one
+  labels:
+    en: Community Centre
+- id: urban.entity.community-enumeration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-enumeration
+  cardinality: one
+  labels:
+    en: Community Enumeration
+- id: urban.entity.community-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-event
+  cardinality: one
+  labels:
+    en: Community Event
+- id: urban.entity.community-grant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-grant
+  cardinality: one
+  labels:
+    en: Community Grant
+- id: urban.entity.community-media-outlet
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-media-outlet
+  cardinality: one
+  labels:
+    en: Community Media Outlet
+- id: urban.entity.community-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-network
+  cardinality: one
+  labels:
+    en: Community Network
+- id: urban.entity.community-of-practice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-of-practice
+  cardinality: one
+  labels:
+    en: Community of Practice
+- id: urban.entity.community-safety-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: community-safety-plan
+  cardinality: one
+  labels:
+    en: Community Safety Plan
+- id: urban.entity.compensation-award
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compensation-award
+  cardinality: one
+  labels:
+    en: Compensation Award
+- id: urban.entity.compensation-fund
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compensation-fund
+  cardinality: one
+  labels:
+    en: Compensation Fund
+- id: urban.entity.competency-standard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: competency-standard
+  cardinality: one
+  labels:
+    en: Competency Standard
+- id: urban.entity.complaint-pattern-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: complaint-pattern-report
+  cardinality: one
+  labels:
+    en: Complaint Pattern Report
+- id: urban.entity.complaints-procedure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: complaints-procedure
+  cardinality: one
+  labels:
+    en: Complaints Procedure
+- id: urban.entity.condition-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: condition-assessment
+  cardinality: one
+  labels:
+    en: Condition Assessment
+- id: urban.entity.consent-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: consent-record
+  cardinality: one
+  labels:
+    en: Consent Record
+- id: urban.entity.construction-phase
+  within: element.entity
+  binds:
+    kind: entity
+    slug: construction-phase
+  cardinality: one
+  labels:
+    en: Construction Phase
+- id: urban.entity.contact-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contact-record
+  cardinality: one
+  labels:
+    en: Contact Record
+- id: urban.entity.contaminated-site
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contaminated-site
+  cardinality: one
+  labels:
+    en: Contaminated Site
+- id: urban.entity.contract
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract
+  cardinality: one
+  labels:
+    en: Contract
+- id: urban.entity.contract-performance-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract-performance-report
+  cardinality: one
+  labels:
+    en: Contract Performance Report
+- id: urban.entity.contract-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract-register
+  cardinality: one
+  labels:
+    en: Contract Register
+- id: urban.entity.contract-variation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract-variation
+  cardinality: one
+  labels:
+    en: Contract Variation
+- id: urban.entity.contribution-ledger
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contribution-ledger
+  cardinality: one
+  labels:
+    en: Contribution Ledger
+- id: urban.entity.cooling-place
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cooling-place
+  cardinality: one
+  labels:
+    en: Cooling Place
+- id: urban.entity.cooperative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cooperative
+  cardinality: one
+  labels:
+    en: Cooperative
+- id: urban.entity.cooperative-platform
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cooperative-platform
+  cardinality: one
+  labels:
+    en: Cooperative Platform
+- id: urban.entity.corrective-action
+  within: element.entity
+  binds:
+    kind: entity
+    slug: corrective-action
+  cardinality: one
+  labels:
+    en: Corrective Action
+- id: urban.entity.council
+  within: element.entity
+  binds:
+    kind: entity
+    slug: council
+  cardinality: one
+  labels:
+    en: City Council
+- id: urban.entity.council-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: council-decision
+  cardinality: one
+  labels:
+    en: Council Decision
+- id: urban.entity.creative-workspace
+  within: element.entity
+  binds:
+    kind: entity
+    slug: creative-workspace
+  cardinality: one
+  labels:
+    en: Creative Workspace
+- id: urban.entity.cross-boundary-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cross-boundary-agreement
+  cardinality: one
+  labels:
+    en: Cross-Boundary Agreement
+- id: urban.entity.cultural-collection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cultural-collection
+  cardinality: one
+  labels:
+    en: Cultural Collection
+- id: urban.entity.cultural-performance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cultural-performance
+  cardinality: one
+  labels:
+    en: Cultural Performance
+- id: urban.entity.cultural-venue
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cultural-venue
+  cardinality: one
+  labels:
+    en: Cultural Venue
+- id: urban.entity.culture-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: culture-plan
+  cardinality: one
+  labels:
+    en: Culture Plan
+- id: urban.entity.data-catalogue
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-catalogue
+  cardinality: one
+  labels:
+    en: Data Catalogue
+- id: urban.entity.data-impact-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-impact-assessment
+  cardinality: one
+  labels:
+    en: Data Protection Impact Assessment
+- id: urban.entity.data-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-product
+  cardinality: one
+  labels:
+    en: Data Product
+- id: urban.entity.data-set
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-set
+  cardinality: one
+  labels:
+    en: Data Set
+- id: urban.entity.data-sharing-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-sharing-agreement
+  cardinality: one
+  labels:
+    en: Data Sharing Agreement
+- id: urban.entity.data-trust
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-trust
+  cardinality: one
+  labels:
+    en: Data Trust
+- id: urban.entity.debt-instrument
+  within: element.entity
+  binds:
+    kind: entity
+    slug: debt-instrument
+  cardinality: one
+  labels:
+    en: Debt Instrument
+- id: urban.entity.decision-rights-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision-rights-register
+  cardinality: one
+  labels:
+    en: Decision Rights Register
+- id: urban.entity.department
+  within: element.entity
+  binds:
+    kind: entity
+    slug: department
+  cardinality: one
+  labels:
+    en: Department
+- id: urban.entity.departmental-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: departmental-plan
+  cardinality: one
+  labels:
+    en: Departmental Plan
+- id: urban.entity.dependency-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dependency-map
+  cardinality: one
+  labels:
+    en: Digital Dependency Map
+- id: urban.entity.development-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: development-agreement
+  cardinality: one
+  labels:
+    en: Development Agreement
+- id: urban.entity.development-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: development-project
+  cardinality: one
+  labels:
+    en: Development Project
+- id: urban.entity.digital-identity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-identity
+  cardinality: one
+  labels:
+    en: Digital Identity
+- id: urban.entity.digital-landscape-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-landscape-report
+  cardinality: one
+  labels:
+    en: Digital Landscape Report
+- id: urban.entity.digital-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-network
+  cardinality: one
+  labels:
+    en: Digital Network
+- id: urban.entity.digital-roadmap
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-roadmap
+  cardinality: one
+  labels:
+    en: Digital Roadmap
+- id: urban.entity.digital-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-service
+  cardinality: one
+  labels:
+    en: Digital Service
+- id: urban.entity.digital-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-strategy
+  cardinality: one
+  labels:
+    en: Digital Strategy
+- id: urban.entity.digital-twin
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-twin
+  cardinality: one
+  labels:
+    en: City Digital Twin
+- id: urban.entity.direct-sales-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: direct-sales-agreement
+  cardinality: one
+  labels:
+    en: Direct Sales Agreement
+- id: urban.entity.disclosure-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: disclosure-policy
+  cardinality: one
+  labels:
+    en: Disclosure Policy
+- id: urban.entity.dispute-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dispute-case
+  cardinality: one
+  labels:
+    en: Dispute Case
+- id: urban.entity.dispute-pattern-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dispute-pattern-report
+  cardinality: one
+  labels:
+    en: Dispute Pattern Report
+- id: urban.entity.distribution-hub
+  within: element.entity
+  binds:
+    kind: entity
+    slug: distribution-hub
+  cardinality: one
+  labels:
+    en: Distribution Hub
+- id: urban.entity.district-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: district-plan
+  cardinality: one
+  labels:
+    en: District Plan
+- id: urban.entity.dwelling
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dwelling
+  cardinality: one
+  labels:
+    en: Dwelling
+- id: urban.entity.early-years-setting
+  within: element.entity
+  binds:
+    kind: entity
+    slug: early-years-setting
+  cardinality: one
+  labels:
+    en: Early-Years Setting
+- id: urban.entity.ecological-cost-ledger
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ecological-cost-ledger
+  cardinality: one
+  labels:
+    en: Ecological Cost Ledger
+- id: urban.entity.economic-development-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: economic-development-strategy
+  cardinality: one
+  labels:
+    en: Economic Development Strategy
+- id: urban.entity.economic-indicators
+  within: element.entity
+  binds:
+    kind: entity
+    slug: economic-indicators
+  cardinality: one
+  labels:
+    en: Local Economic Indicators
+- id: urban.entity.election
+  within: element.entity
+  binds:
+    kind: entity
+    slug: election
+  cardinality: one
+  labels:
+    en: Election
+- id: urban.entity.emergency-call
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emergency-call
+  cardinality: one
+  labels:
+    en: Emergency Call
+- id: urban.entity.emergency-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emergency-plan
+  cardinality: one
+  labels:
+    en: Emergency Plan
+- id: urban.entity.emergency-response
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emergency-response
+  cardinality: one
+  labels:
+    en: Emergency Response
+- id: urban.entity.emergency-shelter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emergency-shelter
+  cardinality: one
+  labels:
+    en: Emergency Shelter
+- id: urban.entity.employment-contract
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employment-contract
+  cardinality: one
+  labels:
+    en: Employment Contract
+- id: urban.entity.employment-pathway
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employment-pathway
+  cardinality: one
+  labels:
+    en: Employment Pathway
+- id: urban.entity.energy-grid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: energy-grid
+  cardinality: one
+  labels:
+    en: Energy Grid
+- id: urban.entity.energy-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: energy-strategy
+  cardinality: one
+  labels:
+    en: Energy Strategy
+- id: urban.entity.enquiry-pattern-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: enquiry-pattern-report
+  cardinality: one
+  labels:
+    en: Enquiry Pattern Report
+- id: urban.entity.enterprise-loan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: enterprise-loan
+  cardinality: one
+  labels:
+    en: Enterprise Loan
+- id: urban.entity.enterprise-statutes
+  within: element.entity
+  binds:
+    kind: entity
+    slug: enterprise-statutes
+  cardinality: one
+  labels:
+    en: Enterprise Statutes
+- id: urban.entity.enterprise-workspace
+  within: element.entity
+  binds:
+    kind: entity
+    slug: enterprise-workspace
+  cardinality: one
+  labels:
+    en: Enterprise Workspace
+- id: urban.entity.entitlement-appeal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: entitlement-appeal
+  cardinality: one
+  labels:
+    en: Entitlement Appeal
+- id: urban.entity.entitlement-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: entitlement-decision
+  cardinality: one
+  labels:
+    en: Entitlement Decision
+- id: urban.entity.entitlement-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: entitlement-rule
+  cardinality: one
+  labels:
+    en: Entitlement Rule
+- id: urban.entity.environmental-hazard-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: environmental-hazard-case
+  cardinality: one
+  labels:
+    en: Environmental Hazard Case
+- id: urban.entity.equipment-pool
+  within: element.entity
+  binds:
+    kind: entity
+    slug: equipment-pool
+  cardinality: one
+  labels:
+    en: Shared Equipment Pool
+- id: urban.entity.equity-impact-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: equity-impact-assessment
+  cardinality: one
+  labels:
+    en: Equity Impact Assessment
+- id: urban.entity.essential-reserve
+  within: element.entity
+  binds:
+    kind: entity
+    slug: essential-reserve
+  cardinality: one
+  labels:
+    en: Essential Reserve
+- id: urban.entity.essential-supply-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: essential-supply-plan
+  cardinality: one
+  labels:
+    en: Essential Supply Plan
+- id: urban.entity.event-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: event-application
+  cardinality: one
+  labels:
+    en: Event Application
+- id: urban.entity.event-benefit-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: event-benefit-agreement
+  cardinality: one
+  labels:
+    en: Event Benefit Agreement
+- id: urban.entity.event-legacy-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: event-legacy-report
+  cardinality: one
+  labels:
+    en: Event Legacy Report
+- id: urban.entity.event-safety-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: event-safety-plan
+  cardinality: one
+  labels:
+    en: Event Safety Plan
+- id: urban.entity.evidence-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: evidence-review
+  cardinality: one
+  labels:
+    en: Evidence Review
+- id: urban.entity.exit-settlement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: exit-settlement
+  cardinality: one
+  labels:
+    en: Exit Settlement
+- id: urban.entity.experimental-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: experimental-rule
+  cardinality: one
+  labels:
+    en: Experimental Rule
+- id: urban.entity.facility-booking
+  within: element.entity
+  binds:
+    kind: entity
+    slug: facility-booking
+  cardinality: one
+  labels:
+    en: Facility Booking
+- id: urban.entity.faith-community
+  within: element.entity
+  binds:
+    kind: entity
+    slug: faith-community
+  cardinality: one
+  labels:
+    en: Faith Community
+- id: urban.entity.faith-space-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: faith-space-agreement
+  cardinality: one
+  labels:
+    en: Faith Space Agreement
+- id: urban.entity.fault-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: fault-report
+  cardinality: one
+  labels:
+    en: Fault Report
+- id: urban.entity.federation-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: federation-agreement
+  cardinality: one
+  labels:
+    en: Federation Agreement
+- id: urban.entity.festival
+  within: element.entity
+  binds:
+    kind: entity
+    slug: festival
+  cardinality: one
+  labels:
+    en: Festival
+- id: urban.entity.fiscal-sustainability-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: fiscal-sustainability-report
+  cardinality: one
+  labels:
+    en: Fiscal Sustainability Report
+- id: urban.entity.flood-and-erosion-defence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: flood-and-erosion-defence
+  cardinality: one
+  labels:
+    en: Flood and Erosion Defence
+- id: urban.entity.flood-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: flood-event
+  cardinality: one
+  labels:
+    en: Flood Event
+- id: urban.entity.flood-risk-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: flood-risk-map
+  cardinality: one
+  labels:
+    en: Flood Risk Map
+- id: urban.entity.food-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: food-strategy
+  cardinality: one
+  labels:
+    en: Food Strategy
+- id: urban.entity.framework-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: framework-agreement
+  cardinality: one
+  labels:
+    en: Framework Agreement
+- id: urban.entity.fund-allocation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: fund-allocation
+  cardinality: one
+  labels:
+    en: Fund Allocation
+- id: urban.entity.funding-mix-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: funding-mix-review
+  cardinality: one
+  labels:
+    en: Funding Mix Review
+- id: urban.entity.future-scenario
+  within: element.entity
+  binds:
+    kind: entity
+    slug: future-scenario
+  cardinality: one
+  labels:
+    en: Future Scenario
+- id: urban.entity.gis-layer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: gis-layer
+  cardinality: one
+  labels:
+    en: Spatial Data Layer
+- id: urban.entity.goods-receipt
+  within: element.entity
+  binds:
+    kind: entity
+    slug: goods-receipt
+  cardinality: one
+  labels:
+    en: Goods Receipt
+- id: urban.entity.grant-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grant-application
+  cardinality: one
+  labels:
+    en: Grant Application
+- id: urban.entity.grant-award
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grant-award
+  cardinality: one
+  labels:
+    en: Grant Award
+- id: urban.entity.grant-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grant-report
+  cardinality: one
+  labels:
+    en: Grant Report
+- id: urban.entity.green-infrastructure-element
+  within: element.entity
+  binds:
+    kind: entity
+    slug: green-infrastructure-element
+  cardinality: one
+  labels:
+    en: Green Infrastructure Element
+- id: urban.entity.grievance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grievance
+  cardinality: one
+  labels:
+    en: Grievance
+- id: urban.entity.handover-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: handover-plan
+  cardinality: one
+  labels:
+    en: Handover Plan
+- id: urban.entity.handover-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: handover-record
+  cardinality: one
+  labels:
+    en: Handover Record
+- id: urban.entity.health-alert
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-alert
+  cardinality: one
+  labels:
+    en: Health Alert
+- id: urban.entity.health-impact-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-impact-assessment
+  cardinality: one
+  labels:
+    en: Health Impact Assessment
+- id: urban.entity.health-profile
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-profile
+  cardinality: one
+  labels:
+    en: City Health Profile
+- id: urban.entity.health-promotion-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-promotion-programme
+  cardinality: one
+  labels:
+    en: Health Promotion Programme
+- id: urban.entity.heat-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: heat-network
+  cardinality: one
+  labels:
+    en: Heat Network
+- id: urban.entity.heritage-protection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: heritage-protection
+  cardinality: one
+  labels:
+    en: Heritage Protection Order
+- id: urban.entity.holiday-let-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: holiday-let-register
+  cardinality: one
+  labels:
+    en: Holiday-Let Register
+- id: urban.entity.hospital
+  within: element.entity
+  binds:
+    kind: entity
+    slug: hospital
+  cardinality: one
+  labels:
+    en: Hospital
+- id: urban.entity.housing-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: housing-case
+  cardinality: one
+  labels:
+    en: Housing Case
+- id: urban.entity.housing-index
+  within: element.entity
+  binds:
+    kind: entity
+    slug: housing-index
+  cardinality: one
+  labels:
+    en: Housing Index
+- id: urban.entity.housing-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: housing-policy
+  cardinality: one
+  labels:
+    en: Housing Policy
+- id: urban.entity.housing-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: housing-register
+  cardinality: one
+  labels:
+    en: Housing Register
+- id: urban.entity.hub-operating-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: hub-operating-agreement
+  cardinality: one
+  labels:
+    en: Hub Operating Agreement
+- id: urban.entity.improvement-opportunity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: improvement-opportunity
+  cardinality: one
+  labels:
+    en: Improvement Opportunity
+- id: urban.entity.improvement-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: improvement-project
+  cardinality: one
+  labels:
+    en: Improvement Project
+- id: urban.entity.incubator-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: incubator-programme
+  cardinality: one
+  labels:
+    en: Incubator Programme
+- id: urban.entity.induction-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: induction-plan
+  cardinality: one
+  labels:
+    en: Induction Plan
+- id: urban.entity.informal-settlement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: informal-settlement
+  cardinality: one
+  labels:
+    en: Informal Settlement
+- id: urban.entity.information-need
+  within: element.entity
+  binds:
+    kind: entity
+    slug: information-need
+  cardinality: one
+  labels:
+    en: Information Need
+- id: urban.entity.information-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: information-request
+  cardinality: one
+  labels:
+    en: Information Request
+- id: urban.entity.infrastructure-asset
+  within: element.entity
+  binds:
+    kind: entity
+    slug: infrastructure-asset
+  cardinality: one
+  labels:
+    en: Infrastructure Asset
+- id: urban.entity.infrastructure-repair
+  within: element.entity
+  binds:
+    kind: entity
+    slug: infrastructure-repair
+  cardinality: one
+  labels:
+    en: Infrastructure Repair
+- id: urban.entity.inspection-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: inspection-record
+  cardinality: one
+  labels:
+    en: Inspection Record
+- id: urban.entity.integration-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: integration-plan
+  cardinality: one
+  labels:
+    en: Integration Plan
+- id: urban.entity.interest-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interest-declaration
+  cardinality: one
+  labels:
+    en: Interest Declaration
+- id: urban.entity.interface-specification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interface-specification
+  cardinality: one
+  labels:
+    en: Interface Specification
+- id: urban.entity.interfaith-forum
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interfaith-forum
+  cardinality: one
+  labels:
+    en: Interfaith Forum
+- id: urban.entity.intergenerational-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intergenerational-programme
+  cardinality: one
+  labels:
+    en: Intergenerational Programme
+- id: urban.entity.intergovernmental-transfer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intergovernmental-transfer
+  cardinality: one
+  labels:
+    en: Intergovernmental Transfer
+- id: urban.entity.investment-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: investment-agreement
+  cardinality: one
+  labels:
+    en: Investment Agreement
+- id: urban.entity.investment-enquiry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: investment-enquiry
+  cardinality: one
+  labels:
+    en: Investment Enquiry
+- id: urban.entity.involvement-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: involvement-plan
+  cardinality: one
+  labels:
+    en: Involvement Plan
+- id: urban.entity.job-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-application
+  cardinality: one
+  labels:
+    en: Job Application
+- id: urban.entity.job-vacancy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-vacancy
+  cardinality: one
+  labels:
+    en: Job Vacancy
+- id: urban.entity.joint-purchasing-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: joint-purchasing-agreement
+  cardinality: one
+  labels:
+    en: Joint Purchasing Agreement
+- id: urban.entity.journal-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: journal-entry
+  cardinality: one
+  labels:
+    en: Journal Entry
+- id: urban.entity.kerb-and-loading-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: kerb-and-loading-rule
+  cardinality: one
+  labels:
+    en: Kerb and Loading Rule
+- id: urban.entity.knowledge-article
+  within: element.entity
+  binds:
+    kind: entity
+    slug: knowledge-article
+  cardinality: one
+  labels:
+    en: Knowledge Article
+- id: urban.entity.labour-valuation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: labour-valuation
+  cardinality: one
+  labels:
+    en: Labour Valuation
+- id: urban.entity.land-parcel
+  within: element.entity
+  binds:
+    kind: entity
+    slug: land-parcel
+  cardinality: one
+  labels:
+    en: Land Parcel
+- id: urban.entity.land-purchase-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: land-purchase-agreement
+  cardinality: one
+  labels:
+    en: Land Purchase Agreement
+- id: urban.entity.land-registry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: land-registry
+  cardinality: one
+  labels:
+    en: Land Registry
+- id: urban.entity.land-use-right
+  within: element.entity
+  binds:
+    kind: entity
+    slug: land-use-right
+  cardinality: one
+  labels:
+    en: Land Use Right
+- id: urban.entity.land-value-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: land-value-map
+  cardinality: one
+  labels:
+    en: Land Value Map
+- id: urban.entity.language-access-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: language-access-policy
+  cardinality: one
+  labels:
+    en: Language Access Policy
+- id: urban.entity.learner-enrolment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learner-enrolment
+  cardinality: one
+  labels:
+    en: Learner Enrolment
+- id: urban.entity.learner-support-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learner-support-plan
+  cardinality: one
+  labels:
+    en: Learner Support Plan
+- id: urban.entity.learning-offer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learning-offer
+  cardinality: one
+  labels:
+    en: Learning Offer
+- id: urban.entity.learning-pathway
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learning-pathway
+  cardinality: one
+  labels:
+    en: Learning Pathway
+- id: urban.entity.learning-review-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learning-review-report
+  cardinality: one
+  labels:
+    en: Learning Review Report
+- id: urban.entity.legal-matter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: legal-matter
+  cardinality: one
+  labels:
+    en: Legal Matter
+- id: urban.entity.lesson-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: lesson-record
+  cardinality: one
+  labels:
+    en: Lesson Record
+- id: urban.entity.library
+  within: element.entity
+  binds:
+    kind: entity
+    slug: library
+  cardinality: one
+  labels:
+    en: Library
+- id: urban.entity.livelihood-floor-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: livelihood-floor-agreement
+  cardinality: one
+  labels:
+    en: Livelihood Floor Agreement
+- id: urban.entity.local-economy-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: local-economy-map
+  cardinality: one
+  labels:
+    en: Local Economy Map
+- id: urban.entity.local-hiring-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: local-hiring-agreement
+  cardinality: one
+  labels:
+    en: Local Hiring Agreement
+- id: urban.entity.local-spend-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: local-spend-report
+  cardinality: one
+  labels:
+    en: Local Spend Report
+- id: urban.entity.location-offer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: location-offer
+  cardinality: one
+  labels:
+    en: Location Offer
+- id: urban.entity.maintenance-backlog-ledger
+  within: element.entity
+  binds:
+    kind: entity
+    slug: maintenance-backlog-ledger
+  cardinality: one
+  labels:
+    en: Maintenance Backlog Ledger
+- id: urban.entity.market
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market
+  cardinality: one
+  labels:
+    en: Market
+- id: urban.entity.market-day
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-day
+  cardinality: one
+  labels:
+    en: Market Day
+- id: urban.entity.market-engagement-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-engagement-record
+  cardinality: one
+  labels:
+    en: Market Engagement Record
+- id: urban.entity.market-price-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-price-report
+  cardinality: one
+  labels:
+    en: Market Price Report
+- id: urban.entity.market-rules
+  within: element.entity
+  binds:
+    kind: entity
+    slug: market-rules
+  cardinality: one
+  labels:
+    en: Market Rules
+- id: urban.entity.masterplan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: masterplan
+  cardinality: one
+  labels:
+    en: Masterplan
+- id: urban.entity.material-bank
+  within: element.entity
+  binds:
+    kind: entity
+    slug: material-bank
+  cardinality: one
+  labels:
+    en: Material Bank
+- id: urban.entity.material-passport
+  within: element.entity
+  binds:
+    kind: entity
+    slug: material-passport
+  cardinality: one
+  labels:
+    en: Material Passport
+- id: urban.entity.material-recovery-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: material-recovery-report
+  cardinality: one
+  labels:
+    en: Material Recovery Report
+- id: urban.entity.mayoral-office
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mayoral-office
+  cardinality: one
+  labels:
+    en: Mayoral Office
+- id: urban.entity.media-enquiry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: media-enquiry
+  cardinality: one
+  labels:
+    en: Media Enquiry
+- id: urban.entity.media-support-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: media-support-agreement
+  cardinality: one
+  labels:
+    en: Media Support Agreement
+- id: urban.entity.mediation-protocol
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mediation-protocol
+  cardinality: one
+  labels:
+    en: Mediation Protocol
+- id: urban.entity.mediator-roster
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mediator-roster
+  cardinality: one
+  labels:
+    en: Mediator Roster
+- id: urban.entity.medium-term-financial-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medium-term-financial-plan
+  cardinality: one
+  labels:
+    en: Medium-Term Financial Plan
+- id: urban.entity.member-equity-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: member-equity-account
+  cardinality: one
+  labels:
+    en: Member Equity Account
+- id: urban.entity.mentor-pairing
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mentor-pairing
+  cardinality: one
+  labels:
+    en: Mentor Pairing
+- id: urban.entity.mentoring-relationship
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mentoring-relationship
+  cardinality: one
+  labels:
+    en: Mentoring Relationship
+- id: urban.entity.misconduct-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: misconduct-report
+  cardinality: one
+  labels:
+    en: Misconduct Report
+- id: urban.entity.mobility-data
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mobility-data
+  cardinality: one
+  labels:
+    en: Mobility Data
+- id: urban.entity.mobility-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mobility-plan
+  cardinality: one
+  labels:
+    en: Mobility Plan
+- id: urban.entity.money-flow-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: money-flow-account
+  cardinality: one
+  labels:
+    en: Money Flow Account
+- id: urban.entity.municipal-budget
+  within: element.entity
+  binds:
+    kind: entity
+    slug: municipal-budget
+  cardinality: one
+  labels:
+    en: Municipal Budget
+- id: urban.entity.municipal-capability
+  within: element.entity
+  binds:
+    kind: entity
+    slug: municipal-capability
+  cardinality: one
+  labels:
+    en: Municipal Capability
+- id: urban.entity.municipal-enterprise
+  within: element.entity
+  binds:
+    kind: entity
+    slug: municipal-enterprise
+  cardinality: one
+  labels:
+    en: Municipal Enterprise
+- id: urban.entity.municipal-fleet
+  within: element.entity
+  binds:
+    kind: entity
+    slug: municipal-fleet
+  cardinality: one
+  labels:
+    en: Municipal Fleet
+- id: urban.entity.mutual-aid-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mutual-aid-network
+  cardinality: one
+  labels:
+    en: Mutual Aid Network
+- id: urban.entity.need-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: need-assessment
+  cardinality: one
+  labels:
+    en: Need Assessment
+- id: urban.entity.neighbourhood
+  within: element.entity
+  binds:
+    kind: entity
+    slug: neighbourhood
+  cardinality: one
+  labels:
+    en: Neighbourhood
+- id: urban.entity.neighbourhood-action-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: neighbourhood-action-plan
+  cardinality: one
+  labels:
+    en: Neighbourhood Action Plan
+- id: urban.entity.neighbourhood-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: neighbourhood-agreement
+  cardinality: one
+  labels:
+    en: Neighbourhood Agreement
+- id: urban.entity.network-access-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: network-access-agreement
+  cardinality: one
+  labels:
+    en: Network Access Agreement
+- id: urban.entity.newcomer-council
+  within: element.entity
+  binds:
+    kind: entity
+    slug: newcomer-council
+  cardinality: one
+  labels:
+    en: Newcomer Council
+- id: urban.entity.noise-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: noise-map
+  cardinality: one
+  labels:
+    en: Noise Map
+- id: urban.entity.noise-regulation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: noise-regulation
+  cardinality: one
+  labels:
+    en: Noise Regulation
+- id: urban.entity.obligation-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: obligation-register
+  cardinality: one
+  labels:
+    en: Obligation Register
+- id: urban.entity.ombudsman-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ombudsman-case
+  cardinality: one
+  labels:
+    en: Ombudsman Case
+- id: urban.entity.open-data-release
+  within: element.entity
+  binds:
+    kind: entity
+    slug: open-data-release
+  cardinality: one
+  labels:
+    en: Open Data Release
+- id: urban.entity.oversight-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: oversight-assignment
+  cardinality: one
+  labels:
+    en: Oversight Assignment
+- id: urban.entity.oversight-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: oversight-report
+  cardinality: one
+  labels:
+    en: Oversight Report
+- id: urban.entity.park
+  within: element.entity
+  binds:
+    kind: entity
+    slug: park
+  cardinality: one
+  labels:
+    en: Park
+- id: urban.entity.participation-charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: participation-charter
+  cardinality: one
+  labels:
+    en: Participation Charter
+- id: urban.entity.participation-feedback-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: participation-feedback-report
+  cardinality: one
+  labels:
+    en: Participation Feedback Report
+- id: urban.entity.participation-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: participation-review
+  cardinality: one
+  labels:
+    en: Participation Review
+- id: urban.entity.participatory-budget-cycle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: participatory-budget-cycle
+  cardinality: one
+  labels:
+    en: Participatory Budget Cycle
+- id: urban.entity.partnership-compact
+  within: element.entity
+  binds:
+    kind: entity
+    slug: partnership-compact
+  cardinality: one
+  labels:
+    en: Partnership Compact
+- id: urban.entity.partnership-review-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: partnership-review-report
+  cardinality: one
+  labels:
+    en: Partnership Review Report
+- id: urban.entity.pattern-library
+  within: element.entity
+  binds:
+    kind: entity
+    slug: pattern-library
+  cardinality: one
+  labels:
+    en: Pattern Library
+- id: urban.entity.pay-scale
+  within: element.entity
+  binds:
+    kind: entity
+    slug: pay-scale
+  cardinality: one
+  labels:
+    en: Pay Scale
+- id: urban.entity.payment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment
+  cardinality: one
+  labels:
+    en: Payment
+- id: urban.entity.payment-arrangement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment-arrangement
+  cardinality: one
+  labels:
+    en: Payment Arrangement
+- id: urban.entity.payment-performance-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment-performance-report
+  cardinality: one
+  labels:
+    en: Payment Performance Report
+- id: urban.entity.payroll-run
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payroll-run
+  cardinality: one
+  labels:
+    en: Payroll Run
+- id: urban.entity.peer-exchange
+  within: element.entity
+  binds:
+    kind: entity
+    slug: peer-exchange
+  cardinality: one
+  labels:
+    en: Peer City Exchange
+- id: urban.entity.personal-data-breach
+  within: element.entity
+  binds:
+    kind: entity
+    slug: personal-data-breach
+  cardinality: one
+  labels:
+    en: Personal Data Breach
+- id: urban.entity.personal-data-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: personal-data-request
+  cardinality: one
+  labels:
+    en: Personal Data Request
+- id: urban.entity.physical-activity-profile
+  within: element.entity
+  binds:
+    kind: entity
+    slug: physical-activity-profile
+  cardinality: one
+  labels:
+    en: Physical Activity Profile
+- id: urban.entity.place-care-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: place-care-agreement
+  cardinality: one
+  labels:
+    en: Shared Place Care Agreement
+- id: urban.entity.planning-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: planning-application
+  cardinality: one
+  labels:
+    en: Planning Application
+- id: urban.entity.platform-licence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: platform-licence
+  cardinality: one
+  labels:
+    en: Platform Licence
+- id: urban.entity.play-space
+  within: element.entity
+  binds:
+    kind: entity
+    slug: play-space
+  cardinality: one
+  labels:
+    en: Play Space
+- id: urban.entity.population-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: population-register
+  cardinality: one
+  labels:
+    en: Population Register
+- id: urban.entity.position
+  within: element.entity
+  binds:
+    kind: entity
+    slug: position
+  cardinality: one
+  labels:
+    en: Position
+- id: urban.entity.practice-adherence-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: practice-adherence-report
+  cardinality: one
+  labels:
+    en: Practice Adherence Report
+- id: urban.entity.practice-pattern
+  within: element.entity
+  binds:
+    kind: entity
+    slug: practice-pattern
+  cardinality: one
+  labels:
+    en: Practice Pattern
+- id: urban.entity.prevention-campaign
+  within: element.entity
+  binds:
+    kind: entity
+    slug: prevention-campaign
+  cardinality: one
+  labels:
+    en: Prevention Campaign
+- id: urban.entity.process-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: process-map
+  cardinality: one
+  labels:
+    en: Process Map
+- id: urban.entity.processing-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: processing-record
+  cardinality: one
+  labels:
+    en: Record of Processing
+- id: urban.entity.procurement-category
+  within: element.entity
+  binds:
+    kind: entity
+    slug: procurement-category
+  cardinality: one
+  labels:
+    en: Procurement Category
+- id: urban.entity.procurement-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: procurement-plan
+  cardinality: one
+  labels:
+    en: Forward Procurement Plan
+- id: urban.entity.procurement-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: procurement-policy
+  cardinality: one
+  labels:
+    en: Procurement Policy
+- id: urban.entity.procurement-scorecard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: procurement-scorecard
+  cardinality: one
+  labels:
+    en: Procurement Scorecard
+- id: urban.entity.producer-responsibility-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: producer-responsibility-agreement
+  cardinality: one
+  labels:
+    en: Producer Responsibility Agreement
+- id: urban.entity.programme-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: programme-case
+  cardinality: one
+  labels:
+    en: Programme Case
+- id: urban.entity.programme-portfolio
+  within: element.entity
+  binds:
+    kind: entity
+    slug: programme-portfolio
+  cardinality: one
+  labels:
+    en: Programme Portfolio
+- id: urban.entity.programme-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: programme-report
+  cardinality: one
+  labels:
+    en: Programme Progress Report
+- id: urban.entity.protest
+  within: element.entity
+  binds:
+    kind: entity
+    slug: protest
+  cardinality: one
+  labels:
+    en: Protest or Demonstration
+- id: urban.entity.public-artwork
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-artwork
+  cardinality: one
+  labels:
+    en: Public Artwork
+- id: urban.entity.public-asset-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-asset-register
+  cardinality: one
+  labels:
+    en: Public Asset Register
+- id: urban.entity.public-communication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-communication
+  cardinality: one
+  labels:
+    en: Public Communication
+- id: urban.entity.public-consultation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-consultation
+  cardinality: one
+  labels:
+    en: Public Consultation
+- id: urban.entity.public-life-survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-life-survey
+  cardinality: one
+  labels:
+    en: Public Life Survey
+- id: urban.entity.public-procurement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-procurement
+  cardinality: one
+  labels:
+    en: Public Procurement
+- id: urban.entity.public-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-record
+  cardinality: one
+  labels:
+    en: Public Record
+- id: urban.entity.public-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-service
+  cardinality: one
+  labels:
+    en: Public Service
+- id: urban.entity.public-space
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-space
+  cardinality: one
+  labels:
+    en: Public Space
+- id: urban.entity.public-space-permit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-space-permit
+  cardinality: one
+  labels:
+    en: Public Space Permit
+- id: urban.entity.purchase-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-order
+  cardinality: one
+  labels:
+    en: Purchase Order
+- id: urban.entity.purchasing-commitment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchasing-commitment
+  cardinality: one
+  labels:
+    en: Purchasing Commitment
+- id: urban.entity.remaking-hub
+  within: element.entity
+  binds:
+    kind: entity
+    slug: remaking-hub
+  cardinality: one
+  labels:
+    en: Remaking Hub
+- id: urban.entity.renewal-scheme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: renewal-scheme
+  cardinality: one
+  labels:
+    en: Renewal Scheme
+- id: urban.entity.repair-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: repair-order
+  cardinality: one
+  labels:
+    en: Repair Order
+- id: urban.entity.repair-point
+  within: element.entity
+  binds:
+    kind: entity
+    slug: repair-point
+  cardinality: one
+  labels:
+    en: Repair Point
+- id: urban.entity.reputation-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: reputation-report
+  cardinality: one
+  labels:
+    en: Reputation Report
+- id: urban.entity.requisition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: requisition
+  cardinality: one
+  labels:
+    en: Requisition
+- id: urban.entity.research-agenda
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-agenda
+  cardinality: one
+  labels:
+    en: Urban Research Agenda
+- id: urban.entity.research-partnership-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-partnership-agreement
+  cardinality: one
+  labels:
+    en: Research Partnership Agreement
+- id: urban.entity.research-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-project
+  cardinality: one
+  labels:
+    en: Urban Research Project
+- id: urban.entity.reserve-fund
+  within: element.entity
+  binds:
+    kind: entity
+    slug: reserve-fund
+  cardinality: one
+  labels:
+    en: Reserve Fund
+- id: urban.entity.resident-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: resident-account
+  cardinality: one
+  labels:
+    en: Resident Account
+- id: urban.entity.resident-assembly
+  within: element.entity
+  binds:
+    kind: entity
+    slug: resident-assembly
+  cardinality: one
+  labels:
+    en: Resident Assembly
+- id: urban.entity.resident-enquiry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: resident-enquiry
+  cardinality: one
+  labels:
+    en: Resident Enquiry
+- id: urban.entity.resolution-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: resolution-agreement
+  cardinality: one
+  labels:
+    en: Resolution Agreement
+- id: urban.entity.retirement-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: retirement-decision
+  cardinality: one
+  labels:
+    en: Retirement Decision
+- id: urban.entity.risk-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: risk-register
+  cardinality: one
+  labels:
+    en: Risk Register
+- id: urban.entity.role-rotation-schedule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: role-rotation-schedule
+  cardinality: one
+  labels:
+    en: Role Rotation Schedule
+- id: urban.entity.safety-statistics
+  within: element.entity
+  binds:
+    kind: entity
+    slug: safety-statistics
+  cardinality: one
+  labels:
+    en: Safety Statistics
+- id: urban.entity.salvaged-material-lot
+  within: element.entity
+  binds:
+    kind: entity
+    slug: salvaged-material-lot
+  cardinality: one
+  labels:
+    en: Salvaged Material Lot
+- id: urban.entity.school
+  within: element.entity
+  binds:
+    kind: entity
+    slug: school
+  cardinality: one
+  labels:
+    en: School
+- id: urban.entity.school-admission
+  within: element.entity
+  binds:
+    kind: entity
+    slug: school-admission
+  cardinality: one
+  labels:
+    en: School Admission
+- id: urban.entity.school-place-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: school-place-plan
+  cardinality: one
+  labels:
+    en: School Place Plan
+- id: urban.entity.security-incident
+  within: element.entity
+  binds:
+    kind: entity
+    slug: security-incident
+  cardinality: one
+  labels:
+    en: Security Incident
+- id: urban.entity.security-policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: security-policy
+  cardinality: one
+  labels:
+    en: Information Security Policy
+- id: urban.entity.sensor
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sensor
+  cardinality: one
+  labels:
+    en: Sensor
+- id: urban.entity.service-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-application
+  cardinality: one
+  labels:
+    en: Service Application
+- id: urban.entity.service-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-case
+  cardinality: one
+  labels:
+    en: Service Case
+- id: urban.entity.service-catalogue
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-catalogue
+  cardinality: one
+  labels:
+    en: Service Directory
+- id: urban.entity.service-concept
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-concept
+  cardinality: one
+  labels:
+    en: Service Concept
+- id: urban.entity.service-connection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-connection
+  cardinality: one
+  labels:
+    en: Service Connection
+- id: urban.entity.service-continuity-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-continuity-plan
+  cardinality: one
+  labels:
+    en: Service Continuity Plan
+- id: urban.entity.service-council
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-council
+  cardinality: one
+  labels:
+    en: Service Council
+- id: urban.entity.service-equity-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-equity-report
+  cardinality: one
+  labels:
+    en: Service Equity Report
+- id: urban.entity.service-failure-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-failure-report
+  cardinality: one
+  labels:
+    en: Service Failure Report
+- id: urban.entity.service-journey-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-journey-map
+  cardinality: one
+  labels:
+    en: Service Journey Map
+- id: urban.entity.service-level-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-level-agreement
+  cardinality: one
+  labels:
+    en: Service Level Agreement
+- id: urban.entity.service-point
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-point
+  cardinality: one
+  labels:
+    en: Service Point
+- id: urban.entity.service-proposal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-proposal
+  cardinality: one
+  labels:
+    en: Service Proposal
+- id: urban.entity.service-review-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-review-report
+  cardinality: one
+  labels:
+    en: Service Review Report
+- id: urban.entity.service-route-use-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-route-use-report
+  cardinality: one
+  labels:
+    en: Service Route Use Report
+- id: urban.entity.service-standard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-standard
+  cardinality: one
+  labels:
+    en: Service Standard
+- id: urban.entity.service-tariff
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-tariff
+  cardinality: one
+  labels:
+    en: Service Tariff
+- id: urban.entity.sewer-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sewer-network
+  cardinality: one
+  labels:
+    en: Sewer Network
+- id: urban.entity.shared-business-facility
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-business-facility
+  cardinality: one
+  labels:
+    en: Shared Business Facility
+- id: urban.entity.shared-data-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-data-model
+  cardinality: one
+  labels:
+    en: Shared Data Model
+- id: urban.entity.shared-mobility-scheme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-mobility-scheme
+  cardinality: one
+  labels:
+    en: Shared Mobility Scheme
+- id: urban.entity.shared-procurement-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-procurement-service
+  cardinality: one
+  labels:
+    en: Shared Procurement Service
+- id: urban.entity.shared-use-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-use-agreement
+  cardinality: one
+  labels:
+    en: Shared-Use Agreement
+- id: urban.entity.skill-recognition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: skill-recognition
+  cardinality: one
+  labels:
+    en: Skill Recognition
+- id: urban.entity.skill-registry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: skill-registry
+  cardinality: one
+  labels:
+    en: Community Skill Registry
+- id: urban.entity.social-economy-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: social-economy-report
+  cardinality: one
+  labels:
+    en: Social Economy Report
+- id: urban.entity.source-code-repository
+  within: element.entity
+  binds:
+    kind: entity
+    slug: source-code-repository
+  cardinality: one
+  labels:
+    en: Source Code Repository
+- id: urban.entity.space-use-survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: space-use-survey
+  cardinality: one
+  labels:
+    en: Space Use Survey
+- id: urban.entity.spend-profile
+  within: element.entity
+  binds:
+    kind: entity
+    slug: spend-profile
+  cardinality: one
+  labels:
+    en: Spend Profile
+- id: urban.entity.spending-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: spending-review
+  cardinality: one
+  labels:
+    en: Spending Review
+- id: urban.entity.sport-and-activity-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sport-and-activity-plan
+  cardinality: one
+  labels:
+    en: Sport and Activity Plan
+- id: urban.entity.sports-equipment-pool
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sports-equipment-pool
+  cardinality: one
+  labels:
+    en: Sports Equipment Pool
+- id: urban.entity.sports-facility
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sports-facility
+  cardinality: one
+  labels:
+    en: Sports Facility
+- id: urban.entity.staff-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staff-agreement
+  cardinality: one
+  labels:
+    en: Staff Agreement
+- id: urban.entity.staff-learning-path
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staff-learning-path
+  cardinality: one
+  labels:
+    en: Staff Learning Path
+- id: urban.entity.staff-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staff-record
+  cardinality: one
+  labels:
+    en: Staff Record
+- id: urban.entity.staff-survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staff-survey
+  cardinality: one
+  labels:
+    en: Staff Survey
+- id: urban.entity.standard-procedure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: standard-procedure
+  cardinality: one
+  labels:
+    en: Standard Procedure
+- id: urban.entity.standby-supply-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: standby-supply-agreement
+  cardinality: one
+  labels:
+    en: Standby Supply Agreement
+- id: urban.entity.story-archive
+  within: element.entity
+  binds:
+    kind: entity
+    slug: story-archive
+  cardinality: one
+  labels:
+    en: Story Archive
+- id: urban.entity.story-consent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: story-consent
+  cardinality: one
+  labels:
+    en: Story Consent
+- id: urban.entity.strategic-option
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strategic-option
+  cardinality: one
+  labels:
+    en: Strategic Option
+- id: urban.entity.street
+  within: element.entity
+  binds:
+    kind: entity
+    slug: street
+  cardinality: one
+  labels:
+    en: Street
+- id: urban.entity.succession-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: succession-declaration
+  cardinality: one
+  labels:
+    en: Succession Declaration
+- id: urban.entity.succession-fund
+  within: element.entity
+  binds:
+    kind: entity
+    slug: succession-fund
+  cardinality: one
+  labels:
+    en: Succession Fund
+- id: urban.entity.succession-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: succession-plan
+  cardinality: one
+  labels:
+    en: Succession Plan
+- id: urban.entity.supplier-development-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-development-plan
+  cardinality: one
+  labels:
+    en: Supplier Development Plan
+- id: urban.entity.supplier-exit-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-exit-plan
+  cardinality: one
+  labels:
+    en: Supplier Exit Plan
+- id: urban.entity.supplier-invoice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-invoice
+  cardinality: one
+  labels:
+    en: Supplier Invoice
+- id: urban.entity.supplier-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-record
+  cardinality: one
+  labels:
+    en: Supplier Record
+- id: urban.entity.supplier-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-review
+  cardinality: one
+  labels:
+    en: Supplier Review
+- id: urban.entity.supply-dependency-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supply-dependency-map
+  cardinality: one
+  labels:
+    en: Supply Dependency Map
+- id: urban.entity.supply-disruption
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supply-disruption
+  cardinality: one
+  labels:
+    en: Supply Disruption
+- id: urban.entity.supply-interruption
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supply-interruption
+  cardinality: one
+  labels:
+    en: Supply Interruption
+- id: urban.entity.support-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: support-case
+  cardinality: one
+  labels:
+    en: Support Case
+- id: urban.entity.system-interface
+  within: element.entity
+  binds:
+    kind: entity
+    slug: system-interface
+  cardinality: one
+  labels:
+    en: System Interface
+- id: urban.entity.systems-architecture
+  within: element.entity
+  binds:
+    kind: entity
+    slug: systems-architecture
+  cardinality: one
+  labels:
+    en: Systems Architecture
+- id: urban.entity.take-back-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: take-back-record
+  cardinality: one
+  labels:
+    en: Take-Back Record
+- id: urban.entity.tax-and-charge-schedule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-and-charge-schedule
+  cardinality: one
+  labels:
+    en: Tax and Charge Schedule
+- id: urban.entity.tax-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-assessment
+  cardinality: one
+  labels:
+    en: Tax Assessment
+- id: urban.entity.tax-relief-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tax-relief-decision
+  cardinality: one
+  labels:
+    en: Tax Relief Decision
+- id: urban.entity.taxpayer-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: taxpayer-account
+  cardinality: one
+  labels:
+    en: Taxpayer Account
+- id: urban.entity.tenancy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tenancy
+  cardinality: one
+  labels:
+    en: Tenancy
+- id: urban.entity.tender-specification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tender-specification
+  cardinality: one
+  labels:
+    en: Tender Specification
+- id: urban.entity.timetable
+  within: element.entity
+  binds:
+    kind: entity
+    slug: timetable
+  cardinality: one
+  labels:
+    en: Timetable
+- id: urban.entity.tool-library
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tool-library
+  cardinality: one
+  labels:
+    en: Tool Library
+- id: urban.entity.trading-pitch
+  within: element.entity
+  binds:
+    kind: entity
+    slug: trading-pitch
+  cardinality: one
+  labels:
+    en: Trading Pitch
+- id: urban.entity.transit-line
+  within: element.entity
+  binds:
+    kind: entity
+    slug: transit-line
+  cardinality: one
+  labels:
+    en: Transit Line
+- id: urban.entity.transit-stop
+  within: element.entity
+  binds:
+    kind: entity
+    slug: transit-stop
+  cardinality: one
+  labels:
+    en: Transit Stop
+- id: urban.entity.tree-inventory
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tree-inventory
+  cardinality: one
+  labels:
+    en: Tree Inventory
+- id: urban.entity.tree-planting
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tree-planting
+  cardinality: one
+  labels:
+    en: Tree Planting
+- id: urban.entity.trial-evaluation-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: trial-evaluation-report
+  cardinality: one
+  labels:
+    en: Trial Evaluation Report
+- id: urban.entity.university
+  within: element.entity
+  binds:
+    kind: entity
+    slug: university
+  cardinality: one
+  labels:
+    en: University
+- id: urban.entity.upgrading-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: upgrading-plan
+  cardinality: one
+  labels:
+    en: Upgrading Plan
+- id: urban.entity.urban-forest
+  within: element.entity
+  binds:
+    kind: entity
+    slug: urban-forest
+  cardinality: one
+  labels:
+    en: Urban Forest
+- id: urban.entity.urban-trial
+  within: element.entity
+  binds:
+    kind: entity
+    slug: urban-trial
+  cardinality: one
+  labels:
+    en: Urban Trial
+- id: urban.entity.utility-account
+  within: element.entity
+  binds:
+    kind: entity
+    slug: utility-account
+  cardinality: one
+  labels:
+    en: Utility Account
+- id: urban.entity.vacancy-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vacancy-register
+  cardinality: one
+  labels:
+    en: Vacancy Register
+- id: urban.entity.vendor-council
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vendor-council
+  cardinality: one
+  labels:
+    en: Vendor Council
+- id: urban.entity.vendor-licence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: vendor-licence
+  cardinality: one
+  labels:
+    en: Vendor Licence
+- id: urban.entity.visioning-circle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: visioning-circle
+  cardinality: one
+  labels:
+    en: Visioning Circle
+- id: urban.entity.visitor-guide
+  within: element.entity
+  binds:
+    kind: entity
+    slug: visitor-guide
+  cardinality: one
+  labels:
+    en: Visitor Guide
+- id: urban.entity.visitor-impact-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: visitor-impact-assessment
+  cardinality: one
+  labels:
+    en: Visitor Impact Assessment
+- id: urban.entity.visitor-stay
+  within: element.entity
+  binds:
+    kind: entity
+    slug: visitor-stay
+  cardinality: one
+  labels:
+    en: Visitor Stay
+- id: urban.entity.visitor-strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: visitor-strategy
+  cardinality: one
+  labels:
+    en: Visitor Strategy
+- id: urban.entity.volunteer-opportunity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: volunteer-opportunity
+  cardinality: one
+  labels:
+    en: Volunteer Opportunity
+- id: urban.entity.volunteer-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: volunteer-record
+  cardinality: one
+  labels:
+    en: Volunteer Record
+- id: urban.entity.wage-floor-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: wage-floor-agreement
+  cardinality: one
+  labels:
+    en: Wage Floor Agreement
+- id: urban.entity.waste-metrics
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waste-metrics
+  cardinality: one
+  labels:
+    en: Waste Metrics
+- id: urban.entity.waste-regulation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waste-regulation
+  cardinality: one
+  labels:
+    en: Waste Regulation
+- id: urban.entity.waste-system
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waste-system
+  cardinality: one
+  labels:
+    en: Waste System
+- id: urban.entity.water-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: water-network
+  cardinality: one
+  labels:
+    en: Water Network
+- id: urban.entity.water-quality-data
+  within: element.entity
+  binds:
+    kind: entity
+    slug: water-quality-data
+  cardinality: one
+  labels:
+    en: Water Quality Data
+- id: urban.entity.waterway
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waterway
+  cardinality: one
+  labels:
+    en: Waterway
+- id: urban.entity.wayfinding-element
+  within: element.entity
+  binds:
+    kind: entity
+    slug: wayfinding-element
+  cardinality: one
+  labels:
+    en: Wayfinding Element
+- id: urban.entity.wayfinding-map
+  within: element.entity
+  binds:
+    kind: entity
+    slug: wayfinding-map
+  cardinality: one
+  labels:
+    en: Wayfinding Map
+- id: urban.entity.welcome-point
+  within: element.entity
+  binds:
+    kind: entity
+    slug: welcome-point
+  cardinality: one
+  labels:
+    en: Welcome Point
+- id: urban.entity.whole-city-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: whole-city-assessment
+  cardinality: one
+  labels:
+    en: Whole-City Assessment
+- id: urban.entity.whole-life-cost-calculation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: whole-life-cost-calculation
+  cardinality: one
+  labels:
+    en: Whole-Life Cost Calculation
+- id: urban.entity.work-allocation-audit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: work-allocation-audit
+  cardinality: one
+  labels:
+    en: Work Allocation Audit
+- id: urban.entity.workforce-forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-forecast
+  cardinality: one
+  labels:
+    en: Workforce Forecast
+- id: urban.entity.workforce-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-plan
+  cardinality: one
+  labels:
+    en: Workforce Plan
+- id: urban.entity.workforce-transition-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-transition-plan
+  cardinality: one
+  labels:
+    en: Workforce Transition Plan
+- id: urban.entity.workplace-hazard-register
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workplace-hazard-register
+  cardinality: one
+  labels:
+    en: Workplace Hazard Register
+- id: urban.entity.works-brief
+  within: element.entity
+  binds:
+    kind: entity
+    slug: works-brief
+  cardinality: one
+  labels:
+    en: Works Brief
+- id: urban.entity.works-design
+  within: element.entity
+  binds:
+    kind: entity
+    slug: works-design
+  cardinality: one
+  labels:
+    en: Works Design
+- id: urban.entity.zoning-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: zoning-plan
+  cardinality: one
+  labels:
+    en: Zoning Plan

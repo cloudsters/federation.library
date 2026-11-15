@@ -1,0 +1,47 @@
+kind: entity
+slug: proposal-bid
+title: Proposal/Bid
+type: transactional
+summary: A formal response to an opportunity — a structured offer submitted in competitive situations where the organisation must state its
+  value proposition against alternatives.
+attributes:
+- name: opportunity
+  type: reference(opportunity)
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 0..1
+- name: scope
+  type: document
+  card: 1..1
+- name: value-narrative
+  type: text
+  card: 1..1
+- name: priced-lines
+  type: text
+  card: 1..*
+- name: compliance-responses
+  type: document
+  card: 0..1
+- name: outcome-reason
+  type: code
+  card: 0..1
+states:
+- identified
+- drafted
+- reviewed
+- submitted
+- shortlisted
+- won
+- lost
+relations:
+- type: based-on
+  target: opportunity
+- type: refers-to
+  target: customer
+- type: produces
+  target: contract
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global

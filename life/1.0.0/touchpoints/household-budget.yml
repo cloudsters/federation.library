@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: household-budget
+title: The Household Budget
+medium: document
+mode: written
+summary: The plain page where a household writes down what comes in, what goes out and what is enough.
+exchanges:
+- share-for-shared-household
+journey: sharing-the-money

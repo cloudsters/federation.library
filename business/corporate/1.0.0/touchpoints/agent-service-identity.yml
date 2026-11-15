@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: agent-service-identity
+title: Agent Service Identity
+medium: artefact
+summary: The identity and access rights under which an AI agent acts, issued at commissioning and revoked at retirement.
+exchanges:
+- mandate-for-bounded-work
+journey: agent-serving-in-a-defined-role

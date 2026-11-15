@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: leave-agreement
+title: Leave Agreement
+medium: artefact
+summary: The agreement on a leave of absence, with its length, the security of the place and the arrangements for contact and return.
+exchanges:
+- secured-place-for-a-planned-return
+journey: employee-returning-after-leave-or-illness

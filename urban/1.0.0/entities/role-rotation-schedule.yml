@@ -1,0 +1,54 @@
+kind: entity
+slug: role-rotation-schedule
+title: Role Rotation Schedule
+type: governance
+summary: The schedule of fixed terms, staggered rotation and rest periods for the roles that gather power or wear people out. The
+  administration and the civic bodies set it and keep it published, and it is used to rotate chairs, facilitation, representation
+  and watch duties and to share the care load.
+attributes:
+- name: body
+  type: text
+  card: 1..1
+- name: roles
+  type: text
+  card: 1..*
+- name: term-length
+  type: period
+  card: 1..1
+- name: rotation-order
+  type: text
+  card: 0..*
+- name: rest-period
+  type: period
+  card: 0..1
+- name: current-holders
+  type: text
+  card: 0..*
+- name: next-rotation-on
+  type: date
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- adopted
+- in-force
+- revised
+- retired
+relations:
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: position
+- type: based-on
+  target: labour-valuation
+- type: produces
+  target: handover-plan
+binds:
+- source: src-240
+  edition: '2021'
+  jurisdiction: global

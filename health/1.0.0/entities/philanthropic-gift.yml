@@ -1,0 +1,35 @@
+kind: entity
+slug: philanthropic-gift
+title: Philanthropic Gift
+type: transactional
+summary: A donation, bequest or foundation grant to the organisation for care, research or teaching, accepted under its acceptance
+  policy and used and reported as the donor's purpose requires.
+attributes:
+- name: donor-kind
+  type: code
+  card: 1..1
+- name: donor
+  type: reference(organisation)
+  card: 0..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: amount
+  type: amount
+  card: 0..1
+- name: received-on
+  type: date
+  card: 0..1
+- name: restrictions
+  type: text
+  card: 0..*
+states:
+- pledged
+- accepted
+- received
+- declined
+- spent
+- reported
+relations:
+- type: governed-by
+  target: policy

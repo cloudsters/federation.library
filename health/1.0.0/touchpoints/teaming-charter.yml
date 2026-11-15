@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: teaming-charter
+title: Teaming Charter
+medium: artefact
+summary: The document that states, for one team, which tasks an AI agent performs, what it may do alone, who oversees it, when to
+  override or stop it and how joint performance is reviewed.
+exchanges:
+- delegated-drafting-for-clinician-time
+- terms-of-use-for-agent-teaming
+- agent-work-for-a-defined-mandate
+journey: agent-joining-a-care-team

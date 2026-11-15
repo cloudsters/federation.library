@@ -1,0 +1,31 @@
+kind: entity
+slug: accounting-period
+title: Accounting Period
+type: governance
+summary: A period of the financial calendar of a legal entity, such as a month, quarter or year, opened for posting, closed in a defined
+  sequence and locked once its results are reported.
+attributes:
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: period-kind
+  type: code
+  card: 1..1
+- name: closed-on
+  type: date
+  card: 0..1
+- name: closed-by
+  type: reference(employee-record)
+  card: 0..1
+states:
+- future
+- open
+- closing
+- closed
+- locked
+relations:
+- type: part-of
+  target: legal-entity

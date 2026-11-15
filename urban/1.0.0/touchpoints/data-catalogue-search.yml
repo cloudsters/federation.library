@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-catalogue-search
+title: Data Catalogue Search
+medium: channel
+summary: The public search of the city's data catalogue, where anyone can find each data set with its owner, definition, origin, quality
+  and access rules.
+exchanges:
+- described-data-for-informed-use
+journey: research-institution-working-with-open-city-data

@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: goods-receiving
+title: Goods Receiving
+medium: place
+summary: Where suppliers deliver medicines, devices and consumables, and where goods are checked, recorded and distributed into the
+  commons.
+exchanges:
+- proven-equipment-for-signed-acceptance
+- loan-sets-for-timely-reprocessing
+- delivery-for-on-time-payment
+- consignment-stock-for-use-reports
+- verified-medicines-for-reliable-orders
+journey: delivering-and-getting-paid

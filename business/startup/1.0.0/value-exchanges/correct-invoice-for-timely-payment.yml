@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: correct-invoice-for-timely-payment
+title: Correct Invoice for Timely Payment
+between:
+- supplier
+- finance-professional
+offered:
+- Correct and complete invoices that reference the order and the delivery.
+returned:
+- Payment on the agreed date with an advice stating what it settles.
+touchpoint: supplier-portal

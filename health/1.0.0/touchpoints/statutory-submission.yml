@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: statutory-submission
+title: Statutory Submission
+medium: artefact
+summary: A mandatory report or notification the commons submits to an authority, from structural and staffing returns to notifications
+  of reportable diseases and serious incidents.
+exchanges:
+- criteria-evidence
+- public-health-duty
+- demonstrated-lawfulness
+journey: regulator-supervising-lawfulness

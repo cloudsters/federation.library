@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delivery-for-on-time-payment
+title: Delivery for On-Time Payment
+between:
+- supplier
+- administrative-staff
+offered:
+- Goods and services delivered as ordered, and a correct invoice that references the order.
+returned:
+- Prompt confirmation of receipt, early notice of discrepancies, and payment in full on the agreed date with a clear payment advice.
+touchpoint: supplier-portal

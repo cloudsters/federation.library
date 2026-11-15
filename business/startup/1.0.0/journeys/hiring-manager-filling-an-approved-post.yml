@@ -1,0 +1,48 @@
+kind: journey
+slug: hiring-manager-filling-an-approved-post
+title: Hiring Manager Filling an Approved Post
+stakeholder: site-manager
+summary: A hiring manager turns an approved post into an honest invitation, reaches candidates, selects together with the team, makes
+  the offer, prepares the arrival and welcomes the newcomer into belonging.
+stages:
+- slug: describe-the-role-honestly
+  title: Describe the Role Honestly
+  goal: The approved post is described as an invitation that states the contribution, the requirements and what is offered.
+  step: talent-attraction-welcome/role-invitation
+  touchpoints:
+  - job-requisition
+- slug: reach-candidates
+  title: Reach Candidates
+  goal: The vacancy reaches suitable people through the employer brand, schools, networks and apprenticeships.
+  step: talent-attraction-welcome/attraction-and-sourcing
+  touchpoints:
+  - job-posting
+  - careers-fair
+- slug: select-with-the-team
+  title: Select with the Team
+  goal: The hiring team assesses fit in both directions with structured interviews and work samples and decides together.
+  step: talent-attraction-welcome/mutual-selection
+  touchpoints:
+  - job-interview
+  - work-sample
+- slug: make-the-offer
+  title: Make the Offer
+  goal: The chosen candidate receives a fair offer and the contract is signed with the representatives informed.
+  step: talent-attraction-welcome/offer-and-hire
+  touchpoints:
+  - employment-offer
+  - employment-contract
+- slug: prepare-the-arrival
+  title: Prepare the Arrival
+  goal: Workplace, equipment and access are ready, and a companion is named before the first day.
+  step: talent-attraction-welcome/pre-boarding
+  touchpoints:
+  - pre-boarding-package
+  - onboarding-companion
+- slug: welcome-into-the-team
+  title: Welcome into the Team
+  goal: The newcomer is introduced, connected and confirmed ready to contribute at the end of the first weeks.
+  step: talent-attraction-welcome/onboarding-and-belonging
+  touchpoints:
+  - onboarding-day
+  - team-meeting

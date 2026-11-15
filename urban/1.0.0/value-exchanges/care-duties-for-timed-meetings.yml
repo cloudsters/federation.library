@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: care-duties-for-timed-meetings
+title: Care Duties for Timed Meetings
+between:
+- caregiver
+- city-administration
+offered:
+- The hours in which the carer is bound by care.
+returned:
+- Sessions timed around care, with childcare or relief care provided.
+touchpoint: access-needs-request

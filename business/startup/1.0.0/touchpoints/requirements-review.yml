@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: requirements-review
+title: Requirements Review
+medium: encounter
+summary: The review in which the needs behind a concept are translated into requirements and checked for feasibility with development,
+  operations and suppliers.
+exchanges:
+- feasibility-judgement-for-early-involvement
+journey: product-manager-turning-a-need-into-a-sponsored-concept

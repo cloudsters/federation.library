@@ -1,0 +1,43 @@
+kind: entity
+slug: corporate-transaction
+title: Corporate Transaction
+type: transactional
+summary: A transaction that changes the shape or ownership of the enterprise, such as an acquisition, merger, divestment, joint venture
+  or capital increase, from screening through due diligence, signing and closing to integration.
+attributes:
+- name: transaction-kind
+  type: code
+  card: 1..1
+- name: counterparty
+  type: reference(counterparty)
+  card: 0..1
+- name: legal-entities
+  type: reference(legal-entity)
+  card: 0..*
+- name: estimated-value
+  type: amount
+  card: 0..1
+- name: sponsor
+  type: reference(board-of-directors)
+  card: 0..1
+- name: signing-date
+  type: date
+  card: 0..1
+- name: closing-date
+  type: date
+  card: 0..1
+states:
+- screening
+- due-diligence
+- in-negotiation
+- signed
+- closed
+- in-integration
+- abandoned
+relations:
+- type: based-on
+  target: governance-decision
+- type: produces
+  target: legal-entity
+- type: refers-to
+  target: shareholder-register

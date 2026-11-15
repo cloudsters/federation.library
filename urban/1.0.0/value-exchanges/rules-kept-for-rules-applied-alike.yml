@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: rules-kept-for-rules-applied-alike
+title: Rules Kept for Rules Applied Alike
+between:
+- market-vendor
+- city-administration
+offered:
+- Vendors' keeping of the published rules on hygiene, conduct and fees.
+returned:
+- The same rules applied to every vendor and published at every market.
+touchpoint: published-market-rules

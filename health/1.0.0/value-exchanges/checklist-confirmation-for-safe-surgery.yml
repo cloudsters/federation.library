@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: checklist-confirmation-for-safe-surgery
+title: Checklist Confirmation for Safe Surgery
+between:
+- elective-inpatient
+- surgeon
+offered:
+- The patient confirms identity, procedure, site and allergies whenever asked before the operation.
+returned:
+- The surgical and anaesthesia team checks every item aloud before induction, before incision and before the patient leaves the theatre,
+  and stops if anything does not match.
+touchpoint: operating-theatre

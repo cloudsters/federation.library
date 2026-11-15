@@ -1,0 +1,20 @@
+kind: journey
+slug: overseeing-the-economic-plan
+title: Overseeing the Economic Plan
+stakeholder: owner
+summary: 'The owner''s view of the budget cycle: approving the plan through the supervisory body and following its execution during
+  the year.'
+stages:
+- slug: approve-the-economic-plan
+  title: Approve the Economic Plan
+  goal: The plan shows how the mandate is delivered within the available means and is approved before the year begins.
+  step: budgeting-and-controlling/economic-plan-approval
+  touchpoints:
+  - economic-plan
+  - supervisory-body-meeting
+- slug: follow-plan-execution
+  title: Follow Plan Execution
+  goal: Deviations and the year-end forecast reach the supervisory body early enough to act.
+  step: budgeting-and-controlling/variance-reporting-and-forecast
+  touchpoints:
+  - supervisory-body-meeting

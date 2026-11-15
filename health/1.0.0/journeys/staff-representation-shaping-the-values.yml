@@ -1,0 +1,32 @@
+kind: journey
+slug: staff-representation-shaping-the-values
+title: Staff Representation Shaping the Values
+stakeholder: staff-representation
+summary: 'The staff representation''s side of a mission review: bringing the experience of staff into the values, co-authoring
+  them and checking that they hold in daily work.'
+stages:
+- slug: bringing-staff-expectations
+  title: Bringing Staff Expectations
+  goal: Have what staff expect of the commons heard before the draft is written.
+  step: institutional-identity-and-mission/stakeholder-expectation-hearing
+  touchpoints:
+  - staff-consultation
+- slug: co-authoring-the-values
+  title: Co-Authoring the Values
+  goal: Shape values that staff can recognise in their own work.
+  step: institutional-identity-and-mission/mission-and-values-drafting
+  touchpoints:
+  - staff-consultation
+- slug: carrying-the-values-to-staff
+  title: Carrying the Values to Staff
+  goal: See the values explained to staff and written into the policies that bind them.
+  step: institutional-identity-and-mission/publication-and-anchoring
+  touchpoints:
+  - staff-town-hall
+  - policy-library
+- slug: reporting-where-values-fail
+  title: Reporting Where Values Fail
+  goal: Raise the places where practice contradicts the stated values and see them addressed.
+  step: institutional-identity-and-mission/lived-identity-review
+  touchpoints:
+  - staff-consultation

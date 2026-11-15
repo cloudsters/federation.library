@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: counter-service-for-a-return-visit
+title: Counter Service for a Return Visit
+between:
+- customer-service-representative
+- consumer
+offered:
+- Advice, goods or a repaired item handed over with care, and quick payment on the spot.
+returned:
+- Payment, and the customer's return the next time a need arises.
+touchpoint: invoice

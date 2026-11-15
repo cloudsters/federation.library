@@ -1,0 +1,61 @@
+kind: entity
+slug: tax-relief-decision
+title: Tax Relief Decision
+type: transactional
+summary: A reduction, deferral, exemption or write-off granted to a taxpayer on published criteria, with its grounds, amount and duration,
+  including the cap on charges for water, energy and transit as a share of household income. The revenue office decides it on request
+  or on referral from arrears recovery, and it is applied to the taxpayer's account and open to appeal.
+attributes:
+- name: decision-number
+  type: identifier
+  card: 1..1
+- name: taxpayer
+  type: reference(taxpayer-account)
+  card: 1..1
+- name: relief-kind
+  type: code
+  card: 1..1
+- name: grounds
+  type: code
+  card: 1..*
+- name: criteria-applied
+  type: text
+  card: 0..*
+- name: relief-amount
+  type: amount
+  card: 0..1
+- name: relief-share
+  type: decimal
+  card: 0..1
+- name: relief-period
+  type: period
+  card: 1..1
+- name: requested-on
+  type: date
+  card: 1..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: decided-by
+  type: text
+  card: 0..1
+- name: appeal-deadline
+  type: date
+  card: 0..1
+states:
+- requested
+- assessed
+- granted
+- refused
+- applied
+- appealed
+- expired
+relations:
+- type: governed-by
+  target: tax-and-charge-schedule
+- type: refers-to
+  target: taxpayer-account
+- type: refers-to
+  target: tax-assessment
+- type: refers-to
+  target: arrears-case

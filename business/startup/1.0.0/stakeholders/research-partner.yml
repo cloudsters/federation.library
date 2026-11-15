@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: research-partner
+title: Research Partner
+nature: organisation
+stance: serving
+summary: A university, research institute or company that carries out research or development jointly with the company, under an agreement
+  on funding, results and rights.
+seeks:
+- Interesting research questions, access to real problems and data, and fair rights to publish and use results.
+brings:
+- Scientific expertise, laboratories and young researchers who may later join the company.
+represented_by:
+- partner-organisation
+binds:
+- source: src-098
+  edition: 2017-a1-2024
+  jurisdiction: global

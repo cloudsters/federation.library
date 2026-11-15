@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: patient-decision-aid
+title: Patient Decision Aid
+medium: artefact
+summary: A decision aid in print, video or online that sets out the options for one decision with their benefits, harms and uncertainties,
+  and helps the patient clarify which option fits their values.
+exchanges:
+- informed-consent-for-the-operation
+- options-for-an-informed-decision
+journey: deciding-on-cancer-treatment

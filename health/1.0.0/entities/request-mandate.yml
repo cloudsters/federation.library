@@ -1,0 +1,49 @@
+kind: entity
+slug: request-mandate
+title: Request Mandate
+type: governance
+summary: A care mandate that entitles a care professional or unit to request care for a patient from another care actor, inside or
+  outside the organisation, such as ordering a test, requesting a consultation or issuing a referral, and to pass on the information
+  that request needs.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: mandated-provider
+  type: reference(organisation)
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: basis
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- requested
+- effective
+- used
+- ended
+relations:
+- type: refers-to
+  target: care-mandate
+- type: based-on
+  target: informed-consent
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: privacy-request-channel
+title: Privacy Request Channel
+medium: channel
+summary: The channel through which persons give or withdraw consent and request access to, correction or erasure of their personal
+  data.
+exchanges:
+- personal-data-for-respected-rights
+journey: customer-exercising-data-rights

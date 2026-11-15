@@ -1,0 +1,36 @@
+kind: entity
+slug: season-reading
+title: Season Reading
+type: intelligence
+summary: Which part of a cycle a given family of this life is currently in — planting, tending, harvesting, or resting and giving
+  back. Read per family, because a life is routinely in one season in its work and another in its body. The recorded danger is never
+  the season but misreading it.
+attributes:
+- name: part-of-life
+  type: code
+  card: 1..1
+- name: season
+  type: code
+  card: 1..1
+- name: read-on
+  type: date
+  card: 1..1
+- name: signs
+  type: text
+  card: 0..*
+- name: what-it-asks
+  type: text
+  card: 0..1
+- name: previous-season
+  type: code
+  card: 0..1
+states:
+- read
+- confirmed
+- turning
+- misread
+relations:
+- target: life-dashboard
+  type: part-of
+- target: life-blueprint
+  type: about

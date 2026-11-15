@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: position-needs-for-a-funded-vacancy
+title: Position Needs for a Funded Vacancy
+between:
+- city-administration
+- personnel-officer
+offered:
+- A description of the position's tasks, skills and decision rights.
+returned:
+- Confirmation that the position is funded and graded, and a vacancy ready to publish.
+touchpoint: position-description

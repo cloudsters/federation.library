@@ -1,0 +1,28 @@
+kind: journey
+slug: auditor-auditing-the-annual-statements
+title: Auditor Auditing the Annual Statements
+stakeholder: external-auditor
+summary: An external auditor receives prepared statements and evidence, audits them independently and reports the opinion to the bodies
+  that approve and publish the accounts.
+stages:
+- slug: receive-the-statements
+  title: Receive the Statements
+  goal: Draft statements and notes are received complete and on time.
+  step: transparency-reporting/statement-preparation
+  touchpoints:
+  - annual-report
+  - audit-fieldwork
+- slug: audit-with-evidence
+  title: Audit with Evidence
+  goal: Evidence is obtained, findings raised and followed until closed.
+  step: transparency-reporting/statement-audit
+  touchpoints:
+  - audit-fieldwork
+  - audit-findings-letter
+- slug: report-the-opinion
+  title: Report the Opinion
+  goal: The audit opinion is reported to the supervisory board and published with the statements.
+  step: transparency-reporting/approval-and-disclosure
+  touchpoints:
+  - supervisory-board-meeting
+  - annual-report

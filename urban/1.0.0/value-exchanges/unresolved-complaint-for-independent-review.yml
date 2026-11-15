@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: unresolved-complaint-for-independent-review
+title: Unresolved Complaint for Independent Review
+between:
+- resident
+- ombudsman
+offered:
+- A complaint the city did not resolve or did not answer in time.
+returned:
+- An independent investigation and a reasoned decision that the city must follow.
+touchpoint: ombudsman-complaint-desk

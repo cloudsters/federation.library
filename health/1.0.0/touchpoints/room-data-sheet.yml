@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: room-data-sheet
+title: Room Data Sheet
+medium: artefact
+summary: The sheet that records for each room its use, size, fixtures, equipment, technical services and hygiene class, as the binding
+  basis for design, construction and acceptance.
+exchanges:
+- space-needs-for-a-fitting-building
+journey: clinical-unit-moving-into-a-new-building

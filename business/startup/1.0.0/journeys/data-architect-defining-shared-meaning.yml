@@ -1,0 +1,32 @@
+kind: journey
+slug: data-architect-defining-shared-meaning
+title: Data Architect Defining Shared Meaning
+stakeholder: information-technology-specialist
+summary: A data architect sets out what information the organisation needs, defines shared entities and meanings, gives every data
+  set an owner and keeps quality measured at the source.
+stages:
+- slug: set-the-information-strategy
+  title: Set the Information Strategy
+  goal: What information is needed, and what is shared or protected, is decided.
+  step: information-as-lifeblood/information-strategy-setting
+  touchpoints:
+  - information-strategy
+- slug: define-shared-meaning
+  title: Define Shared Meaning
+  goal: Core entities, shared definitions and analytical dimensions are defined.
+  step: information-as-lifeblood/information-architecture-definition
+  touchpoints:
+  - data-catalogue
+  - architecture-repository
+- slug: give-every-data-set-an-owner
+  title: Give Every Data Set an Owner
+  goal: Every data set has an owner and steward and is described in the catalogue.
+  step: information-as-lifeblood/data-ownership-and-cataloguing
+  touchpoints:
+  - data-catalogue
+- slug: measure-quality-at-source
+  title: Measure Quality at Source
+  goal: Completeness, correctness and timeliness are measured where data is created.
+  step: information-as-lifeblood/data-quality-assurance
+  touchpoints:
+  - data-quality-dashboard

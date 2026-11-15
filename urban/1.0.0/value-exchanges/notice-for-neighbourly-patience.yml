@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: notice-for-neighbourly-patience
+title: Notice for Neighbourly Patience
+between:
+- resident
+- event-organiser
+offered:
+- Neighbours' patience with closed streets and sound.
+returned:
+- Notice in advance, a contact during the event and streets restored afterwards.
+touchpoint: neighbour-advance-notice-and-contact

@@ -1,0 +1,67 @@
+kind: entity
+slug: intergovernmental-transfer
+title: Intergovernmental Transfer
+type: transactional
+summary: A transfer, equalisation share or shared revenue the city receives from or pays to a higher level of government or a regional
+  pool. The finance department establishes what is due, supplies the data the formula rests on and contests errors, and the amounts
+  settled enter the budget and the cash forecast.
+attributes:
+- name: transfer-number
+  type: identifier
+  card: 1..1
+- name: transfer-kind
+  type: code
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: counterpart-body
+  type: text
+  card: 1..1
+- name: allocation-period
+  type: period
+  card: 1..1
+- name: formula-basis
+  type: text
+  card: 0..1
+- name: formula-data
+  type: document
+  card: 0..1
+- name: amount-due
+  type: amount
+  card: 1..1
+- name: amount-received
+  type: amount
+  card: 0..1
+- name: regional-agreement
+  type: reference(cross-boundary-agreement)
+  card: 0..1
+- name: contested-on
+  type: date
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 1..1
+states:
+- announced
+- claimed
+- contested
+- confirmed
+- received
+- settled
+relations:
+- type: based-on
+  target: population-register
+- type: based-on
+  target: economic-indicators
+- type: governed-by
+  target: cross-boundary-agreement
+- type: refers-to
+  target: municipal-budget
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-204
+  edition: '2014'
+  jurisdiction: global

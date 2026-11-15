@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: exit-terms-for-early-notice
+title: Exit Terms for Early Notice
+between:
+- technology-supplier
+- city-administration
+offered:
+- An account of where its systems run, what they depend on and what it would take to move away from them.
+returned:
+- Early notice of what the city plans to keep, replace or retire, and clear terms for the end of each contract.
+touchpoint: system-owner-review

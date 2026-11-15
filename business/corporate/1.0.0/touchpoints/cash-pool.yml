@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: cash-pool
+title: Cash Pool
+medium: channel
+summary: The arrangement with a bank through which balances of group entities are pooled, transferred or lent so liquidity reaches
+  where it is needed.
+exchanges:
+- pooled-liquidity-for-entity-autonomy
+journey: entity-accountant-reporting-into-the-group

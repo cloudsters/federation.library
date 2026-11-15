@@ -1,0 +1,42 @@
+kind: entity
+slug: continuing-education-credit
+title: Continuing Education Credit
+type: transactional
+summary: Credit earned by a professional for an accredited continuing education activity, such as a congress, course or e-learning
+  unit, accumulated against the professional's recertification requirement.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: activity
+  type: text
+  card: 1..1
+- name: provider
+  type: reference(organisation)
+  card: 0..1
+- name: credit-points
+  type: decimal
+  card: 1..1
+- name: completed-on
+  type: date
+  card: 1..1
+- name: evidence
+  type: document
+  card: 0..1
+- name: activity-accreditation
+  type: reference(accreditation)
+  card: 0..1
+states:
+- claimed
+- verified
+- rejected
+relations:
+- type: refers-to
+  target: specialty-certification
+binds:
+- source: src-408
+  edition: '2.0'
+  jurisdiction: global
+- source: src-410
+  edition: '3.0'
+  jurisdiction: global

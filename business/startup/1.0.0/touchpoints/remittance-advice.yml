@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: remittance-advice
+title: Remittance Advice
+medium: artefact
+summary: The notice sent with a payment stating which invoices, credit notes or claims it settles and on which date.
+exchanges:
+- correct-invoice-for-timely-payment
+- receipts-for-prompt-reimbursement
+journey: supplier-waiting-to-be-paid

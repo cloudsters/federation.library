@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: benefit-review-session
+title: Benefit Review Session
+medium: encounter
+summary: A session after delivery in which residents, the benefit owners and the auditor confirm whether a programme's benefits were
+  realised and record what worked and what failed.
+exchanges:
+- benefit-judgement-for-a-confirmed-result
+- benefit-check-for-a-public-answer
+journey: city-administration-carrying-the-strategy-into-funded-programmes

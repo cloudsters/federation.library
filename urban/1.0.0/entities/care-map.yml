@@ -1,0 +1,57 @@
+kind: entity
+slug: care-map
+title: Neighbourhood Care Map
+type: intelligence
+summary: The map, made with residents and with the consent of those named, of the care neighbours already give, the residents living
+  isolated, the carers under strain and the gaps no one covers. Residents and community workers make it together and the neighbourhood
+  body holds it with access limited by that consent, and it is used to direct neighbour care, mutual aid and formal services to where
+  they are missing.
+attributes:
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: mapped-on
+  type: date
+  card: 1..1
+- name: mapped-by
+  type: text
+  card: 1..*
+- name: care-given
+  type: text
+  card: 0..*
+- name: isolated-resident-count
+  type: integer
+  card: 0..1
+- name: carers-under-strain-count
+  type: integer
+  card: 0..1
+- name: uncovered-gaps
+  type: text
+  card: 0..*
+- name: consents
+  type: reference(consent-record)
+  card: 0..*
+- name: access-rules
+  type: text
+  card: 1..1
+- name: next-update-on
+  type: date
+  card: 0..1
+states:
+- planned
+- mapping
+- checked
+- in-use
+- updated
+- withdrawn
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: consent-record
+- type: governed-by
+  target: processing-record
+- type: based-on
+  target: community-asset-map
+- type: refers-to
+  target: mutual-aid-network

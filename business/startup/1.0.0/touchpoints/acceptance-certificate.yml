@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: acceptance-certificate
+title: Acceptance Certificate
+medium: artefact
+summary: The signed record that a delivered result or asset has passed its agreed tests, with its documentation and the list of open
+  defects, which releases payment and starts the warranty.
+exchanges:
+- proven-result-for-acceptance
+- commissioned-asset-for-signed-acceptance
+journey: customer-commissioning-a-project

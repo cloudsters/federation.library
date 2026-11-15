@@ -1,0 +1,15 @@
+kind: solution
+slug: library-management-system
+title: Library Management System
+role: system-of-record
+summary: Holds the collections of the city's libraries and tool-sharing points, lends books, tools and devices, and books the digital
+  help and devices offered in libraries.
+carries:
+- learning-resource-lending
+- digital-help-provision
+- sports-equipment-lending
+- tool-library-operation
+holds:
+- library
+- sports-equipment-pool
+- tool-library

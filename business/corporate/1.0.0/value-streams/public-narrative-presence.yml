@@ -1,0 +1,92 @@
+kind: value-stream
+slug: public-narrative-presence
+title: Public Narrative & Presence
+family: participant-to-community
+summary: 'Telling the organisation''s story truthfully and being present in its communities: the public narrative, press work, statements
+  in a crisis, answers to public ratings, sponsorship, and showing up where stakeholders gather.'
+trigger: News, an event, a crisis, a public rating or a community question requires the organisation to communicate publicly.
+outcome: The public has received accurate and timely information, and the organisation's reputation is monitored and answered.
+stakeholders:
+- general-public
+- news-media
+- local-community
+- executive-board
+- managing-director
+steps:
+- slug: narrative-and-message-strategy
+  title: Narrative and Message Strategy
+  summary: Hold the public narrative as a living account tied to real milestones, including what is unfinished, and set core messages,
+    spokespersons and channels for each audience.
+  capabilities:
+  - public-narrative-cultivation
+  - communication-strategy
+  entities:
+  - communication
+  - public-statement
+  serves:
+  - online-newsroom
+  - website
+- slug: statement-drafting
+  title: Statement Drafting
+  summary: Draft press releases and statements for real developments, plainly and accurately, and approve them before release.
+  capabilities:
+  - press-statement-drafting
+  - public-narrative-cultivation
+  entities:
+  - public-statement
+  - approval
+- slug: release-and-media-relations
+  title: Release and Media Relations
+  summary: Issue statements to selected media and channels, and answer journalists' questions consistently.
+  capabilities:
+  - media-relations
+  entities:
+  - public-statement
+  - communication
+  serves:
+  - press-office
+  - press-release
+- slug: community-presence
+  title: Community Presence
+  summary: Show up where stakeholders gather and contribute to civic life, and decide donations and sponsorships by clear criteria
+    and report them openly.
+  capabilities:
+  - community-presence-engagement
+  - donations-and-sponsorship
+  - civic-stability-contribution
+  entities:
+  - event
+  - budget
+  serves:
+  - community-sponsorship
+  - neighbourhood-dialogue
+  - open-day
+- slug: crisis-response
+  title: Crisis Response
+  summary: Lead public communication in a crisis with defined spokespersons and coordinated statements, and correct them openly when
+    the facts change.
+  capabilities:
+  - crisis-communication
+  - media-relations
+  entities:
+  - public-statement
+  - incident
+  serves:
+  - crisis-statement
+  - neighbourhood-dialogue
+  - press-office
+- slug: reputation-monitoring-and-response
+  title: Reputation Monitoring and Response
+  summary: Monitor coverage, public ratings and reviews, answer them, and feed what is learned back into the narrative and into operations.
+  capabilities:
+  - online-reputation-management
+  - public-narrative-cultivation
+  entities:
+  - public-rating
+  - public-statement
+  - measure-report
+  serves:
+  - neighbourhood-dialogue
+  - online-newsroom
+  - press-office
+  - public-ratings-and-reviews

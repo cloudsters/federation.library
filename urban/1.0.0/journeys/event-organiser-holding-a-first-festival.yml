@@ -1,0 +1,52 @@
+kind: journey
+slug: event-organiser-holding-a-first-festival
+title: Event Organiser Holding a First Festival
+stakeholder: event-organiser
+summary: A first-time organiser brings an idea for a festival, receives early advice, has it assessed, obtains one permit with a safety
+  plan and agreed sound limits, agrees fair pay and open accounts, runs the day with neighbours informed and carries its legacy into
+  the next one.
+stages:
+- slug: bring-the-idea
+  title: Bring the Idea
+  goal: The idea has a date in the city's calendar, a proposal by one route and early advice on what it will need.
+  step: city-events-and-festivals/events-calendar-and-proposal-intake
+  touchpoints:
+  - first-organiser-advice-session
+  - event-proposal-form
+  - city-events-calendar-view
+- slug: have-it-assessed
+  title: Have It Assessed
+  goal: The proposal has been assessed for what it brings, what it demands of streets and services and how it affects neighbours.
+  step: city-events-and-festivals/event-assessment
+  touchpoints:
+  - event-assessment-meeting
+- slug: obtain-one-permit
+  title: Obtain One Permit
+  goal: One permit covers space, roads, food, sound and safety, with a safety plan agreed with emergency services and hours agreed
+    with neighbours.
+  step: city-events-and-festivals/permits-safety-and-sound
+  touchpoints:
+  - single-event-permit
+  - event-safety-planning-meeting
+  - sound-and-hours-agreement
+- slug: agree-fair-pay
+  title: Agree Fair Pay
+  goal: Artists, workers and vendors are paid fairly, local suppliers are preferred, and the accounts will be published.
+  step: city-events-and-festivals/fair-pay-and-open-money-flows
+  touchpoints:
+  - fair-pay-and-benefit-agreement
+  - published-event-accounts
+- slug: run-the-day
+  title: Run the Day
+  goal: The festival has run safely with neighbours told in advance, a contact on the day and stewards and volunteers briefed.
+  step: city-events-and-festivals/event-delivery
+  touchpoints:
+  - neighbour-advance-notice-and-contact
+  - steward-and-volunteer-briefing
+- slug: carry-the-legacy-on
+  title: Carry the Legacy On
+  goal: What the festival left in relationships, places, income and harm is recorded and shapes the next one.
+  step: city-events-and-festivals/event-legacy-review
+  touchpoints:
+  - event-legacy-gathering
+  - published-event-legacy-report

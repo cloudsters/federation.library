@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: scientific-publication
+title: Scientific Publication
+medium: artefact
+summary: The peer-reviewed article or report through which the commons' research reaches the scientific community, clinicians and
+  the public.
+exchanges:
+- clinical-data-for-complementary-science
+- results-for-federated-access
+- research-results-for-funding
+journey: winning-and-running-a-grant

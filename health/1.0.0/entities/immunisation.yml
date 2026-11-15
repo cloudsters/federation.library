@@ -1,0 +1,66 @@
+kind: entity
+slug: immunisation
+title: Immunisation
+type: transactional
+summary: The administration of a vaccine to a patient or an employee, recorded with vaccine, batch, dose in series, site and the person
+  who gave it, and used for protection status and follow-up doses.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: employee
+  type: reference(employee)
+  card: 0..1
+- name: vaccine
+  type: code
+  card: 1..1
+- name: batch
+  type: identifier
+  card: 1..1
+- name: dose-in-series
+  type: integer
+  card: 0..1
+- name: site
+  type: code
+  card: 0..1
+- name: administered-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: administered-at
+  type: datetime
+  card: 1..1
+states:
+- completed
+- not-done
+- entered-in-error
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

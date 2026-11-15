@@ -1,0 +1,35 @@
+kind: journey
+slug: city-council-setting-and-approving-the-workforce-plan
+title: City Council Setting and Approving the Workforce Plan
+stakeholder: city-council
+summary: The council sets what the workforce plan must cover from the city strategy and the financial plan, weighs how gaps are closed
+  and which work stays with a person, approves the plan with the budget that funds it and hears each quarter where staffing departs
+  from it.
+stages:
+- slug: set-the-brief
+  title: Set the Brief
+  goal: The council has stated what the plan must cover for the term, drawing on the city strategy and the medium-term financial plan.
+  step: municipal-workforce-planning/planning-mandate
+  touchpoints:
+  - workforce-plan-brief
+- slug: weigh-the-choices
+  title: Weigh the Choices
+  goal: The council has seen how each gap is to be closed, the local hiring targets and the work that stays with a person before the
+    plan is final.
+  step: municipal-workforce-planning/gap-closure-design
+  touchpoints:
+  - personnel-committee-meeting
+- slug: approve-with-the-budget
+  title: Approve with the Budget
+  goal: The plan is approved together with the budget that funds it, with the opinion of staff representatives recorded.
+  step: municipal-workforce-planning/plan-approval
+  touchpoints:
+  - personnel-committee-meeting
+  - published-workforce-plan
+- slug: hear-the-deviations
+  title: Hear the Deviations
+  goal: The council hears where staffing departs from the plan in ways that matter, and acts on it.
+  step: municipal-workforce-planning/plan-monitoring
+  touchpoints:
+  - quarterly-workforce-report
+  - personnel-committee-meeting

@@ -1,0 +1,38 @@
+kind: entity
+slug: plan
+title: Plan
+type: governance
+summary: A structured approach to action — the organisation's blueprint for achieving a specific outcome, coordinating resources, timing,
+  and responsibilities across dimensions.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: scope-tag
+  type: code
+  card: 1..1
+- name: objectives
+  type: reference(objective)
+  card: 0..*
+- name: activities
+  type: text
+  card: 1..*
+- name: resource-assignments
+  type: text
+  card: 0..*
+- name: timeline
+  type: period
+  card: 1..1
+- name: responsible
+  type: reference(employee-record)
+  card: 0..*
+states:
+- drafted
+- approved
+- active
+- executed
+- reviewed
+- closed
+relations:
+- type: based-on
+  target: objective

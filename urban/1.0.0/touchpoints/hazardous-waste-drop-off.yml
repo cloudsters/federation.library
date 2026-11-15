@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: hazardous-waste-drop-off
+title: Hazardous Waste Drop-Off
+medium: place
+summary: A staffed drop-off where residents and workshops hand in paint, batteries, chemicals and other hazardous waste, which is
+  stored and treated safely.
+exchanges:
+- hazardous-waste-for-safe-handling
+journey: resident-separating-and-returning-waste

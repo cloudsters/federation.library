@@ -1,0 +1,26 @@
+kind: journey
+slug: technology-provider-proposing-an-emerging-technology
+title: Technology Provider Proposing an Emerging Technology
+stakeholder: technology-provider
+summary: A technology provider brings a new technology into a focused pilot, sees it weighed in the portfolio and learns the decision
+  and its reasons.
+stages:
+- slug: run-a-focused-pilot
+  title: Run a Focused Pilot
+  goal: The technology is tried against a stated need with clear criteria of success.
+  step: technology-strategy-alignment/emerging-technology-exploration
+  touchpoints:
+  - technology-pilot
+- slug: be-weighed-in-the-portfolio
+  title: Be Weighed in the Portfolio
+  goal: The proposal is weighed against the value it would serve and the retirements it would allow.
+  step: technology-strategy-alignment/technology-portfolio-planning
+  touchpoints:
+  - technology-roadmap
+- slug: learn-the-decision
+  title: Learn the Decision
+  goal: The provider receives the decision and its reasons.
+  step: technology-strategy-alignment/technology-decision-governance
+  touchpoints:
+  - architecture-board
+  - contract-negotiation

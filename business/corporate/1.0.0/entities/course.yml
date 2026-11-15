@@ -1,0 +1,41 @@
+kind: entity
+slug: course
+title: Course
+type: master
+summary: A unit of structured learning — learning pathways designed to help participants grow their capabilities, with quizzes and
+  certifications that recognise achievement and build shared competence.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: learning-objectives
+  type: text
+  card: 1..*
+- name: modules
+  type: document
+  card: 1..1
+- name: quizzes
+  type: document
+  card: 0..*
+- name: certification
+  type: text
+  card: 0..1
+- name: skills
+  type: reference(skill)
+  card: 0..*
+states:
+- designed
+- published
+- enrolled
+- completed
+- certified
+- refreshed
+relations:
+- type: refers-to
+  target: skill
+- type: refers-to
+  target: employee-record
+- type: refers-to
+  target: knowledge-article
+- type: refers-to
+  target: survey

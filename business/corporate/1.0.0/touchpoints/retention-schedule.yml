@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: retention-schedule
+title: Retention Schedule
+medium: artefact
+summary: The schedule of how long each class of record is kept, when it is held for a dispute or audit and how it is disposed of.
+exchanges:
+- retention-rules-for-lawful-disposal
+journey: data-owner-taking-responsibility-for-a-data-set

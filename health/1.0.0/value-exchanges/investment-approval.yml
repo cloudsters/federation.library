@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: investment-approval
+title: Investment Approval
+between:
+- executive
+- owner
+offered:
+- A prioritised portfolio whose benefits are tracked and whose major investments are justified.
+returned:
+- Approval of major investments and the release of capital funds.
+touchpoint: supervisory-body-meeting

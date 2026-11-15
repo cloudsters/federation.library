@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: participant-information-sheet
+title: Participant Information Sheet
+medium: artefact
+summary: The plain-language document that explains a study's purpose, procedures, risks, benefits and the participant's rights before
+  consent is asked.
+exchanges:
+- trial-participation
+- first-in-human-participation
+- independent-review-for-trust
+- samples-for-protected-use
+journey: taking-part-in-a-clinical-trial

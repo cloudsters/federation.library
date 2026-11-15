@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: new-product-request
+title: New Product Request
+medium: artefact
+summary: The request through which a clinician proposes a new or changed product, stating the clinical need, the evidence, the expected
+  use and any ties to the supplier.
+exchanges:
+- clinical-judgement-for-standard-products
+journey: proposing-a-clinical-product

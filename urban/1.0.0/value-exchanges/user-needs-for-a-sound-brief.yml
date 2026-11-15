@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: user-needs-for-a-sound-brief
+title: User Needs for a Sound Brief
+between:
+- resident
+- public-works-engineer
+offered:
+- What the residents who will use a street, school or park need from it, in their own words.
+returned:
+- A brief that states those needs and the service level the work must reach.
+touchpoint: works-brief-workshop

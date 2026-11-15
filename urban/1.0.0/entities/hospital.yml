@@ -1,0 +1,55 @@
+kind: entity
+slug: hospital
+title: Hospital
+type: master
+summary: A hospital serving the city's residents, with its services and the neighbourhoods around it. It keeps its own records, and
+  the city holds this record to plan care networks, handovers and the hospital's part in the life of its neighbourhood.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: operator
+  type: text
+  card: 1..1
+- name: operator-kind
+  type: code
+  card: 1..1
+- name: sites
+  type: reference(building)
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: catchment
+  type: reference(neighbourhood)
+  card: 0..*
+- name: services
+  type: text
+  card: 1..*
+- name: bed-count
+  type: integer
+  card: 0..1
+- name: emergency-department
+  type: boolean
+  card: 1..1
+- name: care-networks
+  type: reference(care-network-agreement)
+  card: 0..*
+- name: neighbourhood-agreement
+  type: reference(anchor-institution-agreement)
+  card: 0..1
+states:
+- planned
+- operating
+- expanding
+- merged
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: part-of
+  target: care-network-agreement
+- type: governed-by
+  target: anchor-institution-agreement

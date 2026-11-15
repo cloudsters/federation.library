@@ -1,0 +1,39 @@
+kind: journey
+slug: affected-community-authorising-an-algorithm-for-a-fixed-term
+title: Affected Community Authorising an Algorithm for a Fixed Term
+stakeholder: affected-community
+summary: A community that an algorithm would affect brings its experience of harm into the assessment, deliberates with the assessment
+  in hand, authorises, conditions or refuses the system, watches its results and decides again when its term ends.
+stages:
+- slug: bring-evidence-of-harm
+  title: Bring Evidence of Harm
+  goal: What the community knows of how such systems have treated it is part of the assessment of who bears harm.
+  step: automated-decision-assurance/impact-and-bias-assessment
+  touchpoints:
+  - impact-and-bias-assessment-session
+- slug: deliberate-with-the-assessment-in-hand
+  title: Deliberate with the Assessment in Hand
+  goal: Members of the community, some drawn by lot, have read the assessment and deliberated on the system with support to take part.
+  step: automated-decision-assurance/community-authorisation
+  touchpoints:
+  - published-impact-assessment
+  - community-deliberation-circle
+- slug: authorise-condition-or-refuse
+  title: Authorise, Condition or Refuse
+  goal: The review panel with its resident majority has authorised the system with conditions or refused it, and the reasons are published.
+  step: automated-decision-assurance/community-authorisation
+  touchpoints:
+  - automated-systems-review-session
+- slug: watch-the-results
+  title: Watch the Results
+  goal: The community reads the system's reports on error, bias and drift and can ask the panel to slow or suspend it.
+  step: automated-decision-assurance/monitoring-in-use
+  touchpoints:
+  - published-system-performance-report
+- slug: decide-again-at-the-sunset
+  title: Decide Again at the Sunset
+  goal: When the term ends, the community decides on a redesigned and newly assessed system, or the system is withdrawn.
+  step: automated-decision-assurance/reauthorisation-or-withdrawal
+  touchpoints:
+  - sunset-review-hearing
+  - community-deliberation-circle

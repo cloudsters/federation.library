@@ -1,0 +1,116 @@
+kind: value-stream
+slug: procurement-strategy-and-category-planning
+title: Procurement Strategy and Category Planning
+family: source-to-alliance
+summary: Deciding what the city buys, how it buys and to what end. It holds the analysis of what the city spends and where the money
+  lands, the procurement policy with the criteria beyond price that residents, workers and suppliers help set, a strategy for each
+  category of goods, works and services, the choice between providing a service itself and buying it, the forward plan of purchases
+  published in advance, and open engagement with suppliers before a tender.
+trigger: The yearly budget cycle opens, the council revises the procurement policy, or a department expects a need that no contract
+  covers.
+outcome: Each category has a published strategy and criteria the community helped set, and suppliers know in advance what the city
+  will buy and how it will judge their offers.
+stakeholders:
+- city-council
+- procurement-officer
+- city-administration
+- resident
+- local-business
+- social-enterprise
+- trade-union
+- supplier
+steps:
+- slug: spend-and-demand-analysis
+  title: Spend and Demand Analysis
+  summary: The procurement office analyses what the city and its municipal enterprises bought, from whom, by category and department,
+    how much went to suppliers in the city and region and to small, cooperative and resident-owned firms, and what departments will
+    need over the coming years.
+  capabilities:
+  - spend-and-demand-analysis
+  - local-economy-mapping
+  - ecological-and-social-cost-accounting
+  entities:
+  - spend-profile
+  - supplier-record
+  - municipal-budget
+  serves:
+  - department-demand-review
+  - published-spend-analysis
+- slug: procurement-policy-and-criteria
+  title: Procurement Policy and Criteria
+  summary: Residents, workers and suppliers design with the procurement office the criteria and weights by which the city judges offers
+    beyond price, such as local ownership, living wages, worker voice, circular use and emissions. The council adopts them in the
+    procurement policy, and they are published as a scorecard.
+  capabilities:
+  - procurement-criteria-co-design
+  - fair-work-clause-drafting
+  - local-hiring-requirement-setting
+  entities:
+  - procurement-policy
+  - procurement-scorecard
+  serves:
+  - criteria-co-design-workshop
+  - procurement-committee-session
+  - published-procurement-scorecard
+- slug: category-strategy
+  title: Category Strategy
+  summary: 'For each category, such as construction works, care services, food, vehicles, energy or digital systems, the category
+    team sets how the city will buy: the size of lots, the length of contracts, whether to buy alone or with others, whether open
+    code is required and which criteria weigh most.'
+  capabilities:
+  - category-strategy-setting
+  - lot-division
+  - open-source-first-sourcing
+  entities:
+  - category-strategy
+  - procurement-category
+  - procurement-scorecard
+  serves:
+  - category-strategy-workshop
+- slug: own-provision-or-contract-choice
+  title: Own Provision or Contract Choice
+  summary: Before a service is bought or bought again, the department and the procurement office assess with staff representatives
+    and users whether the city itself, a municipal enterprise, a cooperative or a contracted supplier should provide it, on cost,
+    quality, control and the public value at stake. The council decides where the choice is large.
+  capabilities:
+  - provision-option-assessment
+  - supplier-exit-planning
+  entities:
+  - category-strategy
+  - municipal-enterprise
+  - council-decision
+  serves:
+  - procurement-committee-session
+  - provision-option-review
+- slug: forward-procurement-plan
+  title: Forward Procurement Plan
+  summary: The procurement office publishes each year the purchases planned for the coming years, with category, value, timing and
+    the criteria that will apply, so that small, local and cooperative suppliers can prepare to bid.
+  capabilities:
+  - procurement-plan-publication
+  - medium-term-financial-planning
+  entities:
+  - procurement-plan
+  - medium-term-financial-plan
+  serves:
+  - published-forward-procurement-plan
+- slug: supplier-market-engagement
+  title: Supplier Market Engagement
+  summary: Before a large tender, the category team meets suppliers in open sessions, tests what the market can offer, explains the
+    criteria and hears what keeps small and new suppliers out, and records what was said so that every bidder receives the same information.
+  capabilities:
+  - supplier-market-engagement
+  - interest-declaration-handling
+  entities:
+  - market-engagement-record
+  - procurement-plan
+  serves:
+  - published-market-engagement-notes
+  - supplier-open-day
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global

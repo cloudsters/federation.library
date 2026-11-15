@@ -1,0 +1,33 @@
+kind: journey
+slug: volunteer-caring-for-a-shared-place
+title: Volunteer Caring for a Shared Place
+stakeholder: volunteer
+summary: A volunteer agrees in writing to care for a park, courtyard or street, receives tools and training from the city, reports
+  what needs the crews and reviews with the city how the place is kept.
+stages:
+- slug: agree-the-care
+  title: Agree the Care
+  goal: The volunteer's group has a written agreement on what it cares for, what the city provides and what regular work is paid.
+  step: infrastructure-maintenance-and-renewal/shared-care-with-residents
+  touchpoints:
+  - place-care-agreement-meeting
+- slug: get-tools-and-training
+  title: Get Tools and Training
+  goal: The group has the tools, materials and training to prune, plant, clean and make small repairs safely.
+  step: infrastructure-maintenance-and-renewal/shared-care-with-residents
+  touchpoints:
+  - care-tool-and-material-depot
+  - care-group-training-day
+- slug: report-what-needs-the-crews
+  title: Report What Needs the Crews
+  goal: Faults beyond the group's work are reported, and the volunteer can follow each to its repair.
+  step: infrastructure-maintenance-and-renewal/fault-reporting-and-triage
+  touchpoints:
+  - fault-reporting-line
+  - fault-tracking-view
+- slug: review-the-care-with-the-city
+  title: Review the Care with the City
+  goal: The group and the city have reviewed together how the place is kept and what to change.
+  step: infrastructure-maintenance-and-renewal/maintenance-performance-review
+  touchpoints:
+  - yearly-maintenance-review-meeting

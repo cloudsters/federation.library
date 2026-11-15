@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: adverse-reaction-reports-for-market-surveillance
+title: Adverse Reaction Reports for Market Surveillance
+between:
+- clinical-pharmacist
+- health-regulator
+offered:
+- The organisation reports suspected adverse reactions and device incidents with the case details needed for assessment.
+returned:
+- The regulator aggregates reports across providers and issues warnings, restrictions or recalls that protect all patients.
+touchpoint: regulatory-reporting-channel

@@ -1,0 +1,35 @@
+kind: entity
+slug: trust-score
+title: Trust Score
+type: intelligence
+summary: Composite, federated reputation across governance, environmental, financial, and social metrics. The primary market access
+  mechanism in the commons economy. Multi-dimensional, adversarially vulnerable, requiring production-grade resilience. Not a credit
+  rating — a living governance telemetry record.
+attributes:
+- name: subject
+  type: reference(stakeholder)
+  card: 1..1
+- name: sub-scores
+  type: text
+  card: 1..*
+- name: weights
+  type: text
+  card: 0..*
+- name: composite
+  type: decimal
+  card: 1..1
+- name: provenance
+  type: text
+  card: 0..1
+states:
+- composed
+- maintained
+- attacked
+- defended
+- recovered
+- federated
+relations:
+- type: refers-to
+  target: stakeholder
+- type: based-on
+  target: contribution-proof

@@ -1,0 +1,59 @@
+kind: journey
+slug: partner-hospital-cooperation
+title: Partner Hospital Cooperation
+stakeholder: referring-hospital
+summary: 'The side of a hospital that cooperates with the commons or joins a network it belongs to: proposing the cooperation, agreeing
+  its terms, sharing patients in both directions and judging whether it pays off for its patients.'
+stages:
+- slug: proposing-a-cooperation
+  title: Proposing a Cooperation
+  goal: Learn whether the commons is willing and able to take on the patients whose needs exceed the hospital's own capabilities.
+  step: care-partnerships-and-networks/partnership-opportunity-assessment
+  touchpoints:
+  - cooperation-negotiation
+- slug: shaping-the-cooperation
+  title: Shaping the Cooperation
+  goal: Agree which patients move in which direction, under which pathway, and who is responsible at each handover.
+  step: care-partnerships-and-networks/cooperation-design
+  touchpoints:
+  - cooperation-negotiation
+  - network-steering-meeting
+- slug: signing-on
+  title: Signing On
+  goal: Hold a signed agreement or network membership that states what each side commits.
+  step: care-partnerships-and-networks/agreement-and-network-admission
+  touchpoints:
+  - cooperation-negotiation
+  - cooperation-agreement
+- slug: getting-connected
+  title: Getting Connected
+  goal: Have working on-call routes, teleconsultation and image links, and staff who know the shared pathways.
+  step: care-partnerships-and-networks/cooperation-set-up
+  touchpoints:
+  - telemedicine-service
+  - clinical-messaging-service
+  - referrer-education-event
+- slug: sharing-patients
+  title: Sharing Patients
+  goal: Get advice and acceptance quickly when a patient needs the commons, and receive the patient back once the specialist phase
+    is over.
+  step: care-partnerships-and-networks/joint-care-operation
+  touchpoints:
+  - telemedicine-service
+  - referrer-direct-line
+  - multidisciplinary-case-conference
+  - discharge-letter
+- slug: seeing-shared-results
+  title: Seeing Shared Results
+  goal: See how patients fared across the network and where the hospital stands compared with the other members.
+  step: care-partnerships-and-networks/network-quality-reporting
+  touchpoints:
+  - network-steering-meeting
+  - public-quality-report
+- slug: reviewing-the-cooperation
+  title: Reviewing the Cooperation
+  goal: Judge together with the commons whether the cooperation delivers what was agreed, and change or end it if it does not.
+  step: care-partnerships-and-networks/partnership-value-review
+  touchpoints:
+  - partnership-review-meeting
+  - cooperation-agreement

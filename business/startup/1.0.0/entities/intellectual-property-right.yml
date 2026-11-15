@@ -1,0 +1,42 @@
+kind: entity
+slug: intellectual-property-right
+title: Intellectual Property Right
+type: master
+summary: A protected right the enterprise holds or licenses in an invention, brand, design, software or know-how, such as a patent,
+  trademark or registered design, with its territories, term, costs and the licences granted under it.
+attributes:
+- name: right-kind
+  type: code
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: application-identifier
+  type: identifier
+  card: 0..1
+- name: territories
+  type: code
+  card: 1..*
+- name: filed-on
+  type: date
+  card: 0..1
+- name: expires-on
+  type: date
+  card: 0..1
+- name: owners
+  type: reference(legal-entity)
+  card: 1..*
+- name: inventors
+  type: reference(employee-record)
+  card: 0..*
+states:
+- filed
+- granted
+- licensed
+- abandoned
+- expired
+relations:
+- type: based-on
+  target: invention-disclosure
+- type: governed-by
+  target: contract

@@ -1,0 +1,140 @@
+kind: value-stream
+slug: digital-patient-access
+title: Digital Patient Access
+family: proposition-to-audience
+summary: 'Giving patients digital access to the organisation: patient portal, online appointment booking, video consultation, digital
+  information and access to their own data.'
+trigger: A patient seeks to contact, book, consult or view information online.
+outcome: The patient has completed the task digitally and securely without needing another channel.
+stakeholders:
+- outpatient
+- person-with-chronic-condition
+- relative
+- patient-assistant-agent
+- administrative-staff
+- specialist-physician
+- health-informatics-specialist
+steps:
+- slug: identity-and-access
+  title: Identity and Access
+  summary: Register the patient for digital access, verify identity at the required assurance level, match the account to the patient's
+    record and grant access, including proxy access for an authorised representative.
+  capabilities:
+  - identity-access-management
+  - patient-portal
+  - master-patient-index
+  - patient-identification
+  - data-protection-governance
+  entities:
+  - identity
+  - access-grant
+  - patient
+  - proxy-mandate
+  - related-person
+  serves:
+  - consent-form
+  - patient-portal
+- slug: request-and-routing
+  title: Request and Routing
+  summary: Receive questions, booking and renewal requests online, answer routine questions with an assistant under human oversight,
+    and triage and route the rest to the right team within set response times.
+  capabilities:
+  - patient-contact-centre
+  - patient-portal
+  - ai-assistant-integration
+  - trust-and-escalation-protocols
+  - interpreting-and-language-services
+  entities:
+  - patient-message
+  - request-for-care
+  - care-information-request
+  serves:
+  - appointment-service
+  - patient-portal
+- slug: online-booking
+  title: Online Booking
+  summary: Let the patient book, move or cancel appointments against real availability, receive reminders and complete pre-visit questionnaires
+    and preparation online.
+  capabilities:
+  - appointment-booking-management
+  - waiting-list-management
+  - pre-admission-preparation
+  - patient-portal
+  entities:
+  - appointment
+  - schedule
+  - waiting-list-entry
+  - patient-reported-outcome
+  serves:
+  - appointment-service
+  - patient-portal
+- slug: remote-consultation
+  title: Remote Consultation
+  summary: Hold the consultation by secure video where clinically appropriate, document it, issue prescriptions, referrals and digital
+    health applications electronically and agree the next step with the patient.
+  capabilities:
+  - video-consultation
+  - second-opinion-access
+  - clinical-documentation-at-point-of-care
+  - medication-prescribing
+  - digital-health-application-prescription
+  - shared-decision-making-practice
+  entities:
+  - teleconsultation
+  - encounter
+  - clinical-document
+  - medication-order
+  - shared-decision
+  serves:
+  - consultation
+  - telemedicine-service
+- slug: record-and-results-access
+  title: Record and Results Access
+  summary: Release results, letters and the medication plan to the patient once clinically reviewed, answer requests to see, correct
+    or export data, and write to the patient-held record with consent.
+  capabilities:
+  - patient-portal
+  - health-information-release
+  - data-subject-rights-fulfilment
+  - shared-health-record-integration
+  - laboratory-result-communication
+  - imaging-result-communication
+  entities:
+  - diagnostic-report
+  - discharge-summary
+  - patient-summary
+  - care-information-request
+  - health-record
+  - mandate-to-export-personal-information
+  serves:
+  - medication-plan
+  - patient-held-health-record
+  - patient-portal
+- slug: digital-experience-review
+  title: Digital Experience Review
+  summary: Measure task completion, channel shift, accessibility and complaints, involve patients in redesign, and improve the portal
+    and services wherever patients fall back on other channels.
+  capabilities:
+  - patient-experience-measurement
+  - patient-experience-strategy
+  - patient-and-public-involvement
+  - complaint-management
+  - business-intelligence-and-reporting
+  - solution-maintenance
+  entities:
+  - patient-experience-survey
+  - complaint
+  - measure-report
+  - dashboard
+  serves:
+  - feedback-and-complaints-channel
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-319
+  edition: '2.1'
+  jurisdiction: global

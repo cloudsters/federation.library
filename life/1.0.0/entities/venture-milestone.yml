@@ -1,0 +1,32 @@
+kind: entity
+slug: venture-milestone
+title: Venture Milestone
+type: transactional
+summary: A point a venture visibly passed — started, first return, pivot, handed over, closed. The dated spine a venture is read along.
+attributes:
+- name: venture
+  type: reference(venture)
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: passed-on
+  type: date
+  card: 1..1
+- name: what-happened
+  type: text
+  card: 1..1
+- name: what-it-cost
+  type: text
+  card: 0..1
+- name: marked
+  type: boolean
+  card: 0..1
+states:
+- approaching
+- reached
+- marked
+- looked back on
+relations:
+- target: venture
+  type: part-of

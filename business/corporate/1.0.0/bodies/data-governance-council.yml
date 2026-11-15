@@ -1,0 +1,10 @@
+kind: body
+slug: data-governance-council
+title: Data Governance Council
+summary: Sets the rules for owning, defining, sharing and protecting data, decides disputes between domains and approves the data
+  products the enterprise offers for reuse.
+holds:
+- data-governance
+part_of: executive-board
+type: committee
+form: governing-body

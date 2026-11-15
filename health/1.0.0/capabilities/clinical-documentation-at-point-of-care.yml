@@ -1,0 +1,10 @@
+kind: capability
+slug: clinical-documentation-at-point-of-care
+title: Clinical Documentation at Point of Care
+level: L3
+parent: clinical-documentation
+summary: Document findings, decisions, orders and progress at the point of care.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,135 @@
+kind: value-stream
+slug: patient-and-public-involvement
+title: Patient and Public Involvement
+family: participant-to-community
+summary: 'Involving patients, relatives, self-help groups, volunteers and the public as partners: patient councils, patient partners
+  in research and service design, volunteer services and peer support.'
+trigger: A service, study or policy is planned that affects patients, or a person or group offers to contribute.
+outcome: Patients and the public have shaped the decision or service, and volunteers and patient partners are recruited, supported
+  and recognised.
+stakeholders:
+- patient-partner
+- patient-organisation
+- volunteer
+- person-with-chronic-condition
+- general-public
+- clinician-scientist
+- registered-nurse
+- executive
+steps:
+- slug: involvement-planning
+  title: Involvement Planning
+  summary: For a planned service, study or policy, decide which questions patients and the public can genuinely influence, the depth
+    of involvement from consultation to shared decision, and whom to involve, including groups seldom heard.
+  capabilities:
+  - patient-and-public-involvement
+  - service-concept-development
+  - research-question-development
+  - community-relations
+  entities:
+  - involvement-activity
+  - care-service
+  - research-study
+  - policy
+  serves:
+  - patient-advisory-council
+- slug: recruitment-and-matching
+  title: Recruitment and Matching
+  summary: Invite patients, relatives, patient organisations and volunteers through open calls and partners, match each person to
+    a role that fits their experience and capacity, and screen those who will work with vulnerable patients.
+  capabilities:
+  - patient-and-public-involvement
+  - volunteer-services
+  - peer-support-coordination
+  - community-relations
+  entities:
+  - voluntary-engagement
+  - organisation
+  serves:
+  - involvement-call
+  - public-website
+  - volunteer-office
+- slug: preparation-and-agreement
+  title: Preparation and Agreement
+  summary: Agree each role in writing, with confidentiality, expenses, insurance and a named contact, and prepare people for it, from
+    research basics for patient partners to hygiene and conduct on the ward for volunteers.
+  capabilities:
+  - volunteer-services
+  - patient-and-public-involvement
+  - data-protection-governance
+  entities:
+  - voluntary-engagement
+  - course
+  serves:
+  - volunteer-and-partner-agreement
+  - volunteer-office
+- slug: shaping-decisions
+  title: Shaping Decisions
+  summary: Involve patients and the public in the decision itself through patient council consultations, co-design workshops, patient
+    partners on study and project teams, and patient review of information material.
+  capabilities:
+  - patient-and-public-involvement
+  - service-concept-development
+  - research-question-development
+  - decision-aids-and-health-literacy
+  entities:
+  - involvement-activity
+  - governance-body
+  - study-protocol
+  - decision-aid
+  serves:
+  - co-design-workshop
+  - patient-advisory-council
+  - study-protocol
+- slug: volunteer-and-peer-support
+  title: Volunteer and Peer Support
+  summary: Deploy volunteers to visiting, guiding, companionship and hospice support, and connect patients and relatives with peer
+    supporters and self-help groups for their condition, under supervision and alongside the care team.
+  capabilities:
+  - volunteer-services
+  - peer-support-coordination
+  - relatives-and-visitor-support
+  - spiritual-care
+  - end-of-life-care
+  entities:
+  - voluntary-engagement
+  - organisation
+  - patient
+  serves:
+  - peer-support-point
+  - volunteer-office
+  - ward
+- slug: response-and-influence
+  title: Response and Influence
+  summary: Record how each piece of advice was used in the decision, tell those involved what changed, what did not and why, and report
+    the influence of involvement to the board.
+  capabilities:
+  - patient-and-public-involvement
+  - board-communication-reporting
+  - strategy-communication
+  entities:
+  - involvement-activity
+  - governance-decision
+  serves:
+  - involvement-response-report
+- slug: recognition-and-review
+  title: Recognition and Review
+  summary: Recognise volunteers and patient partners for their contribution, review each engagement with the person, renew or end
+    it with care, and evaluate what involvement has changed for patients.
+  capabilities:
+  - volunteer-services
+  - patient-and-public-involvement
+  - impact-measurement-design
+  entities:
+  - voluntary-engagement
+  - involvement-activity
+  - measure-report
+  serves:
+  - recognition-event
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global
+- source: src-511
+  edition: '2017'
+  jurisdiction: global

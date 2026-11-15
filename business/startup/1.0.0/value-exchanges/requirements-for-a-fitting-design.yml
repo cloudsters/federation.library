@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: requirements-for-a-fitting-design
+title: Requirements for a Fitting Design
+between:
+- business-customer
+- development-engineer
+offered:
+- Complete requirements, site conditions and timely approvals.
+returned:
+- A design that meets the requirements, explained and approved before money is committed.
+touchpoint: project-kick-off

@@ -1,0 +1,31 @@
+kind: journey
+slug: city-council-funding-upkeep-on-the-same-footing
+title: City Council Funding Upkeep on the Same Footing
+stakeholder: city-council
+summary: The council reads the published backlog, weighs the service levels for each class of asset, checks that the renewal ranking
+  is fair between neighbourhoods and adopts the asset plan with its funding in the budget.
+stages:
+- slug: read-the-backlog
+  title: Read the Backlog
+  goal: Councillors know the deferred upkeep of the city by asset and neighbourhood and what further delay would cost.
+  step: infrastructure-asset-planning/maintenance-backlog-disclosure
+  touchpoints:
+  - published-maintenance-backlog
+- slug: weigh-the-service-levels
+  title: Weigh the Service Levels
+  goal: The council has weighed the service levels proposed for each class of asset against their whole-life cost.
+  step: infrastructure-asset-planning/lifecycle-plans-by-asset-class
+  touchpoints:
+  - published-asset-service-levels
+- slug: check-the-ranking-is-fair
+  title: Check the Ranking Is Fair
+  goal: The council has seen that renewal was ranked by the published criteria and that no neighbourhood is left behind.
+  step: infrastructure-asset-planning/renewal-priorities-with-neighbourhoods
+  touchpoints:
+  - published-renewal-criteria
+- slug: adopt-plan-and-funding
+  title: Adopt Plan and Funding
+  goal: The council has adopted the asset plan and its funding with the budget, with upkeep funded before new assets.
+  step: infrastructure-asset-planning/upkeep-funding
+  touchpoints:
+  - asset-plan-budget-session

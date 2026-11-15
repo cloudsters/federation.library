@@ -1,0 +1,33 @@
+kind: solution
+slug: event-and-public-space-permit-system
+title: Event and Public Space Permit System
+role: system-of-record
+summary: Holds the city's one events calendar, every event proposal and request to use a public space from receipt through assessment
+  to permit, the safety plans, benefit agreements and legacy reports, and the allocation of market days and trading pitches.
+carries:
+- events-calendar-coordination
+- event-proposal-intake
+- event-impact-assessment
+- event-permit-issuing
+- event-safety-planning
+- event-benefit-agreement-drafting
+- event-legacy-review
+- public-space-booking
+- market-and-pitch-allocation
+- market-network-planning
+- market-rule-drafting
+- market-day-operation
+- producer-direct-sales-arrangement
+holds:
+- city-events-calendar
+- event-application
+- festival
+- public-space-permit
+- event-safety-plan
+- event-benefit-agreement
+- event-legacy-report
+- trading-pitch
+- market-day
+- market-rules
+- vendor-council
+- direct-sales-agreement

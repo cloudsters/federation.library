@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: the-bill
+title: The Bill
+medium: document
+mode: written
+summary: The invoice, renewal or demand that arrives and asks to be paid.
+exchanges:
+- money-for-shelter
+- honour-for-good-faith
+journey: a-customer-reading-the-terms

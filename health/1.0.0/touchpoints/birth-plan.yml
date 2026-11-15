@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: birth-plan
+title: Birth Plan
+medium: artefact
+summary: The document in which a pregnant woman and her midwife or obstetrician record preferences for birth, pain relief and newborn
+  care, and the plan for foreseeable risks.
+exchanges:
+- birth-preferences-for-continuous-support
+journey: pregnancy-and-birth-journey

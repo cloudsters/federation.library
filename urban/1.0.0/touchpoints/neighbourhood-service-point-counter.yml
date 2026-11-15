@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: neighbourhood-service-point-counter
+title: Neighbourhood Service Point Counter
+medium: place
+summary: The counter of a service point in a library, community centre or other trusted building, open at hours that fit shift work
+  and care, where a person helps residents through the common services.
+exchanges:
+- a-visit-for-help-through-the-services
+- application-for-asking-only-what-is-missing
+journey: newcomer-finding-and-reaching-a-service

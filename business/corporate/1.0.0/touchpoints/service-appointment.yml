@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-appointment
+title: Service Appointment
+medium: artefact
+summary: The appointment window confirmed to a customer for a service job, within the agreed response time, with the name of the person
+  who will come and notice of any change.
+exchanges:
+- kept-appointment-for-ready-access
+journey: customer-waiting-for-a-technician

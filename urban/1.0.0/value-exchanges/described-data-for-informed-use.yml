@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: described-data-for-informed-use
+title: Described Data for Informed Use
+between:
+- city-administration
+- research-institution
+offered:
+- Data sets described with their owners, definitions, quality and access rules.
+returned:
+- Research that uses the city's data on questions residents need answered.
+touchpoint: data-catalogue-search

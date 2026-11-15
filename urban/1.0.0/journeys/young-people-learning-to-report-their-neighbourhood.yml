@@ -1,0 +1,38 @@
+kind: journey
+slug: young-people-learning-to-report-their-neighbourhood
+title: Young People Learning to Report Their Neighbourhood
+stakeholder: young-people
+summary: Young residents name what nobody reports about their neighbourhood, learn media skills from experienced makers, produce in
+  a community studio, gather stories from elders and say in the review whom their reporting reached.
+stages:
+- slug: name-what-nobody-reports
+  title: Name What Nobody Reports
+  goal: The young people's view of what goes unreported in their neighbourhood is part of the map of local reporting.
+  step: neighbourhood-and-community-media/local-reporting-gap-mapping
+  touchpoints:
+  - local-media-mapping-session
+- slug: learn-the-craft
+  title: Learn the Craft
+  goal: The young people can report, record, edit and check facts, taught by community media makers in their own languages.
+  step: neighbourhood-and-community-media/media-skills-teaching
+  touchpoints:
+  - community-media-skills-workshop
+- slug: produce-in-the-studio
+  title: Produce in the Studio
+  goal: The young people use recording rooms, cameras and printing in a library or school to make their own reports.
+  step: neighbourhood-and-community-media/media-production-space-provision
+  touchpoints:
+  - community-media-studio
+- slug: gather-stories-from-elders
+  title: Gather Stories from Elders
+  goal: Stories of elders are recorded by the young people with the tellers' consent.
+  step: neighbourhood-and-community-media/story-gathering-and-archive
+  touchpoints:
+  - oral-history-recording-session
+  - story-circle-gathering
+- slug: say-whom-we-reached
+  title: Say Whom We Reached
+  goal: The young people's account of whom their reporting reached and missed shapes the next round of support.
+  step: neighbourhood-and-community-media/community-media-review
+  touchpoints:
+  - community-media-reach-review

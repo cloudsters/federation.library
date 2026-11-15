@@ -1,0 +1,62 @@
+kind: entity
+slug: building-permit
+title: Building Permit
+type: transactional
+summary: Permission to construct, alter or demolish a building, from application to decision and completion, with the works, the parcel
+  and the conditions attached. The building authority of the administration records and decides it within its deadline, and its handling
+  is one of the processes the city maps, simplifies and may partly automate.
+attributes:
+- name: permit-number
+  type: identifier
+  card: 1..1
+- name: applicant
+  type: text
+  card: 1..1
+- name: parcel
+  type: reference(land-parcel)
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: works-kind
+  type: code
+  card: 1..1
+- name: works-description
+  type: text
+  card: 1..1
+- name: applied-on
+  type: date
+  card: 1..1
+- name: decision-deadline
+  type: date
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: valid-until
+  type: date
+  card: 0..1
+states:
+- applied
+- validated
+- under-review
+- granted
+- refused
+- withdrawn
+- lapsed
+- completed
+relations:
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: building
+- type: governed-by
+  target: zoning-plan
+- type: governed-by
+  target: bylaw

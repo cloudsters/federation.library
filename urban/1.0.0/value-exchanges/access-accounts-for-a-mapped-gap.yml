@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: access-accounts-for-a-mapped-gap
+title: Access Accounts for a Mapped Gap
+between:
+- resident
+- city-administration
+offered:
+- The resident's account of what access costs at home and how often it fails.
+returned:
+- A place on the map of gaps, and networks planned where the gaps are widest.
+touchpoint: connectivity-survey

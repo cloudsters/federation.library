@@ -1,0 +1,27 @@
+kind: journey
+slug: nurse-change-journey
+title: Nurse Change Journey
+stakeholder: registered-nurse
+summary: A registered nurse proposes an idea from daily work, adopts a change delivered by an initiative and sees whether it achieved
+  what was promised.
+stages:
+- slug: bring-an-idea
+  title: Bring an Idea
+  goal: Propose a change drawn from daily work and receive a decision on it.
+  step: strategic-initiative-portfolio/initiative-proposal
+  touchpoints:
+  - initiative-proposal
+  - staff-intranet
+- slug: adopt-the-change
+  title: Adopt the Change
+  goal: Learn the purpose of the change and the new way of working, and report what does not yet work.
+  step: strategic-initiative-portfolio/initiative-delivery
+  touchpoints:
+  - staff-town-hall
+  - learning-platform
+- slug: see-the-result
+  title: See the Result
+  goal: See whether the change achieved what was promised.
+  step: strategic-initiative-portfolio/benefit-realisation-and-closure
+  touchpoints:
+  - staff-intranet

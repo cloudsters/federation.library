@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: payment-reliability-for-credit-terms
+title: Payment Reliability for Credit Terms
+between:
+- business-customer
+- finance-professional
+offered:
+- Financial information and a record of paying on time.
+returned:
+- A credit limit and payment terms that grow with the relationship.
+touchpoint: contract-negotiation

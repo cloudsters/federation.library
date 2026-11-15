@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: exit-interview
+title: Exit Interview
+medium: encounter
+summary: The conversation with a departing person about their experience and reasons for leaving, and the bond they wish to keep.
+exchanges:
+- departure-with-dignity
+- continued-goodwill-for-an-open-door
+journey: employee-moving-on-with-dignity

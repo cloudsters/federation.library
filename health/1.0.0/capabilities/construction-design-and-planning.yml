@@ -1,0 +1,13 @@
+kind: capability
+slug: construction-design-and-planning
+title: Construction Design & Planning
+level: L3
+parent: estate-development
+summary: Plan construction projects, secure permits and organise resources.
+binds:
+- source: src-250
+  edition: '2021'
+  jurisdiction: global
+- source: src-301
+  edition: '2018'
+  jurisdiction: global

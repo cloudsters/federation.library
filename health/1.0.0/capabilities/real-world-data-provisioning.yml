@@ -1,0 +1,13 @@
+kind: capability
+slug: real-world-data-provisioning
+title: Real-World Data Provisioning
+level: L3
+parent: research-data-services
+summary: Provide real-world data from routine care for research and quality studies.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

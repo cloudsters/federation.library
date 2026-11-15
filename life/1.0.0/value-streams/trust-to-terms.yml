@@ -1,0 +1,81 @@
+kind: value-stream
+slug: trust-to-terms
+title: Agreeing Fair Terms
+family: interest-to-relationship
+summary: What is expected in return, said out loud. Pay, hours, recognition, the right to refuse — the terms that were never negotiated
+  are the ones that later feel like exploitation.
+trigger: Resentment builds over pay, hours or credit that were never discussed, or new work is about to begin and nothing has been
+  said about money.
+outcome: Pay, hours, recognition and the right to refuse have been said out loud and agreed, and nothing important rests on what was
+  only assumed.
+stakeholders:
+- employer
+- client
+- collaborator
+steps:
+- slug: noticing-the-resentment
+  title: Noticing the Resentment
+  summary: Irritation over pay, hours or credit keeps returning, and the person recognises it as a sign of terms that were never said.
+  capabilities:
+  - reading-resentment-as-a-signal
+  entities:
+  - mood-record
+  - client-relation
+  - employer-relation
+- slug: knowing-what-one-needs
+  title: Knowing What One Needs
+  summary: Working out the pay, time, recognition and right to refuse the person needs, and the point below which they will not go.
+  capabilities:
+  - pricing-ones-work
+  - knowing-ones-line
+  entities:
+  - budget
+  - financial-position
+  - boundary-set
+- slug: talking-about-money
+  title: Talking About Money
+  summary: Raising pay and terms early and plainly, before the work begins, without apology and without shame.
+  capabilities:
+  - talking-about-money-plainly
+  entities:
+  - conversation
+  - client-relation
+  - employer-relation
+  serves:
+  - client-meeting
+  - talk-with-the-boss
+- slug: hearing-what-they-need
+  title: Hearing What They Need
+  summary: Listening for what the other side needs and fears, so the terms can hold for both and not only for one.
+  capabilities:
+  - listening-for-the-other-side
+  entities:
+  - conversation
+  - client-relation
+  - employer-relation
+  serves:
+  - client-meeting
+  - talk-with-the-boss
+- slug: writing-the-terms-down
+  title: Writing the Terms Down
+  summary: Writing down what was agreed, including credit and the right to say no, and when it will be looked at again.
+  capabilities:
+  - writing-down-agreements
+  entities:
+  - contract
+  - commitment
+  serves:
+  - work-agreement
+- slug: speaking-up-when-it-slips
+  title: Speaking Up When It Slips
+  summary: Raising it early when the agreed terms are not being kept, before resentment hardens and without burning out or burning
+    the relation.
+  capabilities:
+  - raising-it-early
+  entities:
+  - conflict
+  - repair
+  - contract
+  serves:
+  - client-meeting
+  - hard-conversation

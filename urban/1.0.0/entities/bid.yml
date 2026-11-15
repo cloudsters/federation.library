@@ -1,0 +1,64 @@
+kind: entity
+slug: bid
+title: Bid
+type: transactional
+summary: An offer submitted by a supplier in a tender, with its price, whole-life cost, the commitments it makes on fair work, local
+  hiring, social value and take-back, and the scores and reasons it received. The procurement office receives it and keeps it closed
+  until opening, the evaluation panel scores it, and the commitments of a successful bid become clauses of the contract.
+attributes:
+- name: procurement
+  type: reference(public-procurement)
+  card: 1..1
+- name: bidder
+  type: reference(supplier-record)
+  card: 1..1
+- name: lots-offered
+  type: text
+  card: 0..*
+- name: submitted-at
+  type: datetime
+  card: 1..1
+- name: price
+  type: amount
+  card: 1..1
+- name: whole-life-cost
+  type: reference(whole-life-cost-calculation)
+  card: 0..1
+- name: commitments
+  type: text
+  card: 0..*
+- name: bid-documents
+  type: document
+  card: 1..*
+- name: scores
+  type: document
+  card: 0..1
+- name: score-reasons
+  type: text
+  card: 0..*
+- name: total-score
+  type: decimal
+  card: 0..1
+- name: rank
+  type: integer
+  card: 0..1
+states:
+- submitted
+- opened
+- admitted
+- evaluated
+- successful
+- unsuccessful
+- withdrawn
+- excluded
+relations:
+- type: part-of
+  target: public-procurement
+- type: refers-to
+  target: supplier-record
+- type: based-on
+  target: tender-specification
+- type: governed-by
+  target: procurement-scorecard
+- type: refers-to
+  target: whole-life-cost-calculation

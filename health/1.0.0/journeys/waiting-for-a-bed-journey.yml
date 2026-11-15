@@ -1,0 +1,29 @@
+kind: journey
+slug: waiting-for-a-bed-journey
+title: Waiting for a Bed Journey
+stakeholder: emergency-patient
+summary: An admitted emergency patient leaves the emergency department for the right bed without a long wait, is moved safely and
+  changes ward, if necessary, without losing care or information.
+stages:
+- slug: leave-the-emergency-department
+  title: Leave the Emergency Department
+  goal: Move to a bed on the right ward without a long wait in the emergency department.
+  step: patient-flow-and-bed-management/bed-request-and-placement
+  touchpoints:
+  - emergency-department
+  - ward
+  - isolation-room
+  - capacity-huddle
+- slug: change-ward-safely
+  title: Change Ward Safely
+  goal: Change ward without losing information or care.
+  step: patient-flow-and-bed-management/internal-transfer
+  touchpoints:
+  - shift-handover
+  - ward
+- slug: be-moved-with-care
+  title: Be Moved with Care
+  goal: Be moved safely and on time, with belongings and records.
+  step: patient-flow-and-bed-management/patient-transport
+  touchpoints:
+  - patient-transport

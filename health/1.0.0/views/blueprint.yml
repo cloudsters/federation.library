@@ -1,0 +1,3170 @@
+# the extension's blueprint sections (the run's forms, part E), derived at release; never edited by hand
+sections:
+- id: health.value-stream.care-mandate
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: care-mandate
+  cardinality: one
+  labels:
+    en: Care Mandate
+- id: health.value-stream.clinical-and-organisational-ethics
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: clinical-and-organisational-ethics
+  cardinality: one
+  labels:
+    en: Clinical and Organisational Ethics
+- id: health.value-stream.enterprise-risk-and-resilience
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: enterprise-risk-and-resilience
+  cardinality: one
+  labels:
+    en: Enterprise Risk and Resilience
+- id: health.value-stream.governance-and-oversight
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: governance-and-oversight
+  cardinality: one
+  labels:
+    en: Governance and Oversight
+- id: health.value-stream.institutional-identity-and-mission
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: institutional-identity-and-mission
+  cardinality: one
+  labels:
+    en: Institutional Identity and Mission
+- id: health.value-stream.legal-affairs-and-compliance
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: legal-affairs-and-compliance
+  cardinality: one
+  labels:
+    en: Legal Affairs and Compliance
+- id: health.value-stream.whole-system-perception
+  within: d0.perception-to-mandate
+  binds:
+    kind: value-stream
+    slug: whole-system-perception
+  cardinality: one
+  labels:
+    en: Whole-System Perception
+- id: health.value-stream.data-and-analytics
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: data-and-analytics
+  cardinality: one
+  labels:
+    en: Data and Analytics
+- id: health.value-stream.data-protection-and-information-governance
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: data-protection-and-information-governance
+  cardinality: one
+  labels:
+    en: Data Protection and Information Governance
+- id: health.value-stream.digital-strategy-and-architecture
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: digital-strategy-and-architecture
+  cardinality: one
+  labels:
+    en: Digital Strategy and Architecture
+- id: health.value-stream.health-data-reuse
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: health-data-reuse
+  cardinality: one
+  labels:
+    en: Health Data Reuse
+- id: health.value-stream.information-security
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: information-security
+  cardinality: one
+  labels:
+    en: Information Security
+- id: health.value-stream.interoperability-and-connectivity
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: interoperability-and-connectivity
+  cardinality: one
+  labels:
+    en: Interoperability and Connectivity
+- id: health.value-stream.it-service-operations
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: it-service-operations
+  cardinality: one
+  labels:
+    en: IT Service Operations
+- id: health.value-stream.solution-delivery
+  within: d1.portfolio-to-system
+  binds:
+    kind: value-stream
+    slug: solution-delivery
+  cardinality: one
+  labels:
+    en: Solution Delivery
+- id: health.value-stream.academic-strategy
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: academic-strategy
+  cardinality: one
+  labels:
+    en: Academic Strategy
+- id: health.value-stream.centre-development
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: centre-development
+  cardinality: one
+  labels:
+    en: Centre Development
+- id: health.value-stream.service-portfolio-planning
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: service-portfolio-planning
+  cardinality: one
+  labels:
+    en: Service Portfolio Planning
+- id: health.value-stream.strategic-initiative-portfolio
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: strategic-initiative-portfolio
+  cardinality: one
+  labels:
+    en: Strategic Initiative Portfolio
+- id: health.value-stream.strategy-development
+  within: d1.purpose-to-portfolio
+  binds:
+    kind: value-stream
+    slug: strategy-development
+  cardinality: one
+  labels:
+    en: Strategy Development
+- id: health.value-stream.academic-funds-allocation
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: academic-funds-allocation
+  cardinality: one
+  labels:
+    en: Academic Funds Allocation
+- id: health.value-stream.budgeting-and-controlling
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: budgeting-and-controlling
+  cardinality: one
+  labels:
+    en: Budgeting and Controlling
+- id: health.value-stream.capital-planning-and-investment-funding
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: capital-planning-and-investment-funding
+  cardinality: one
+  labels:
+    en: Capital Planning and Investment Funding
+- id: health.value-stream.clinical-coding-and-documentation-integrity
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: clinical-coding-and-documentation-integrity
+  cardinality: one
+  labels:
+    en: Clinical Coding and Documentation Integrity
+- id: health.value-stream.financial-accounting-and-treasury
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: financial-accounting-and-treasury
+  cardinality: one
+  labels:
+    en: Financial Accounting and Treasury
+- id: health.value-stream.payer-contracting-and-budget-negotiation
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: payer-contracting-and-budget-negotiation
+  cardinality: one
+  labels:
+    en: Payer Contracting and Budget Negotiation
+- id: health.value-stream.philanthropy
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: philanthropy
+  cardinality: one
+  labels:
+    en: Philanthropy
+- id: health.value-stream.research-funding
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: research-funding
+  cardinality: one
+  labels:
+    en: Research Funding
+- id: health.value-stream.revenue-cycle
+  within: d1.value-to-sustainability
+  binds:
+    kind: value-stream
+    slug: revenue-cycle
+  cardinality: one
+  labels:
+    en: Revenue Cycle
+- id: health.value-stream.ai-assurance
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: ai-assurance
+  cardinality: one
+  labels:
+    en: AI Assurance
+- id: health.value-stream.clinical-guidelines-and-pathways
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: clinical-guidelines-and-pathways
+  cardinality: one
+  labels:
+    en: Clinical Guidelines and Pathways
+- id: health.value-stream.clinical-risk-management
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: clinical-risk-management
+  cardinality: one
+  labels:
+    en: Clinical Risk Management
+- id: health.value-stream.environmental-sustainability
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: environmental-sustainability
+  cardinality: one
+  labels:
+    en: Environmental Sustainability
+- id: health.value-stream.human-agent-teaming
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: human-agent-teaming
+  cardinality: one
+  labels:
+    en: Human-Agent Teaming
+- id: health.value-stream.incident-reporting-and-learning
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: incident-reporting-and-learning
+  cardinality: one
+  labels:
+    en: Incident Reporting and Learning
+- id: health.value-stream.infection-prevention-and-control
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: infection-prevention-and-control
+  cardinality: one
+  labels:
+    en: Infection Prevention and Control
+- id: health.value-stream.peer-review-and-clinical-audit
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: peer-review-and-clinical-audit
+  cardinality: one
+  labels:
+    en: Peer Review and Clinical Audit
+- id: health.value-stream.process-improvement-and-automation
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: process-improvement-and-automation
+  cardinality: one
+  labels:
+    en: Process Improvement and Automation
+- id: health.value-stream.quality-and-outcome-measurement
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: quality-and-outcome-measurement
+  cardinality: one
+  labels:
+    en: Quality and Outcome Measurement
+- id: health.value-stream.quality-management-system
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: quality-management-system
+  cardinality: one
+  labels:
+    en: Quality Management System
+- id: health.value-stream.vigilance-and-recall-management
+  within: d2.collaboration-to-automation
+  binds:
+    kind: value-stream
+    slug: vigilance-and-recall-management
+  cardinality: one
+  labels:
+    en: Vigilance and Recall Management
+- id: health.value-stream.academic-appointments
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: academic-appointments
+  cardinality: one
+  labels:
+    en: Academic Appointments
+- id: health.value-stream.ai-agent-lifecycle
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: ai-agent-lifecycle
+  cardinality: one
+  labels:
+    en: AI Agent Lifecycle
+- id: health.value-stream.compensation-and-payroll
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: compensation-and-payroll
+  cardinality: one
+  labels:
+    en: Compensation and Payroll
+- id: health.value-stream.credentialing-and-privileging
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: credentialing-and-privileging
+  cardinality: one
+  labels:
+    en: Credentialing and Privileging
+- id: health.value-stream.employee-relations-and-retention
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: employee-relations-and-retention
+  cardinality: one
+  labels:
+    en: Employee Relations and Retention
+- id: health.value-stream.occupational-health-and-safety
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: occupational-health-and-safety
+  cardinality: one
+  labels:
+    en: Occupational Health and Safety
+- id: health.value-stream.professional-development
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: professional-development
+  cardinality: one
+  labels:
+    en: Professional Development
+- id: health.value-stream.recruitment-and-onboarding
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: recruitment-and-onboarding
+  cardinality: one
+  labels:
+    en: Recruitment and Onboarding
+- id: health.value-stream.specialist-training
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: specialist-training
+  cardinality: one
+  labels:
+    en: Specialist Training
+- id: health.value-stream.succession-and-transition
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: succession-and-transition
+  cardinality: one
+  labels:
+    en: Succession and Transition
+- id: health.value-stream.workforce-planning
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: workforce-planning
+  cardinality: one
+  labels:
+    en: Workforce Planning
+- id: health.value-stream.workforce-scheduling-and-staffing
+  within: d2.contributor-to-succession
+  binds:
+    kind: value-stream
+    slug: workforce-scheduling-and-staffing
+  cardinality: one
+  labels:
+    en: Workforce Scheduling and Staffing
+- id: health.value-stream.internal-communication-and-staff-voice
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: internal-communication-and-staff-voice
+  cardinality: one
+  labels:
+    en: Internal Communication and Staff Voice
+- id: health.value-stream.owner-and-public-affairs
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: owner-and-public-affairs
+  cardinality: one
+  labels:
+    en: Owner and Public Affairs
+- id: health.value-stream.patient-and-public-involvement
+  within: d2.participant-to-community
+  binds:
+    kind: value-stream
+    slug: patient-and-public-involvement
+  cardinality: one
+  labels:
+    en: Patient and Public Involvement
+- id: health.value-stream.clinical-service-development
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: clinical-service-development
+  cardinality: one
+  labels:
+    en: Clinical Service Development
+- id: health.value-stream.continuing-education-programmes
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: continuing-education-programmes
+  cardinality: one
+  labels:
+    en: Continuing Education Programmes
+- id: health.value-stream.health-technology-adoption
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: health-technology-adoption
+  cardinality: one
+  labels:
+    en: Health Technology Adoption
+- id: health.value-stream.innovation-and-technology-transfer
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: innovation-and-technology-transfer
+  cardinality: one
+  labels:
+    en: Innovation and Technology Transfer
+- id: health.value-stream.patient-experience
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: patient-experience
+  cardinality: one
+  labels:
+    en: Patient Experience
+- id: health.value-stream.research-governance-and-ethics-review
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: research-governance-and-ethics-review
+  cardinality: one
+  labels:
+    en: Research Governance and Ethics Review
+- id: health.value-stream.translational-research
+  within: d3.discovery-to-usage
+  binds:
+    kind: value-stream
+    slug: translational-research
+  cardinality: one
+  labels:
+    en: Translational Research
+- id: health.value-stream.care-partnerships-and-networks
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: care-partnerships-and-networks
+  cardinality: one
+  labels:
+    en: Care Partnerships and Networks
+- id: health.value-stream.industry-and-academic-partnerships
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: industry-and-academic-partnerships
+  cardinality: one
+  labels:
+    en: Industry and Academic Partnerships
+- id: health.value-stream.informed-choice-and-consent
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: informed-choice-and-consent
+  cardinality: one
+  labels:
+    en: Informed Choice and Consent
+- id: health.value-stream.international-patient-services
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: international-patient-services
+  cardinality: one
+  labels:
+    en: International Patient Services
+- id: health.value-stream.patient-enquiries-and-relationships
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: patient-enquiries-and-relationships
+  cardinality: one
+  labels:
+    en: Patient Enquiries and Relationships
+- id: health.value-stream.patient-rights-and-complaints
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: patient-rights-and-complaints
+  cardinality: one
+  labels:
+    en: Patient Rights and Complaints
+- id: health.value-stream.referrer-relations
+  within: d3.interest-to-relationship
+  binds:
+    kind: value-stream
+    slug: referrer-relations
+  cardinality: one
+  labels:
+    en: Referrer Relations
+- id: health.value-stream.access-and-waiting-times
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: access-and-waiting-times
+  cardinality: one
+  labels:
+    en: Access and Waiting Times
+- id: health.value-stream.digital-patient-access
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: digital-patient-access
+  cardinality: one
+  labels:
+    en: Digital Patient Access
+- id: health.value-stream.integrated-care-programmes
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: integrated-care-programmes
+  cardinality: one
+  labels:
+    en: Integrated Care Programmes
+- id: health.value-stream.population-health-programmes
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: population-health-programmes
+  cardinality: one
+  labels:
+    en: Population Health Programmes
+- id: health.value-stream.public-communication-and-reputation
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: public-communication-and-reputation
+  cardinality: one
+  labels:
+    en: Public Communication and Reputation
+- id: health.value-stream.regional-care-network-design
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: regional-care-network-design
+  cardinality: one
+  labels:
+    en: Regional Care Network Design
+- id: health.value-stream.service-marketing
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: service-marketing
+  cardinality: one
+  labels:
+    en: Service Marketing
+- id: health.value-stream.telemedicine-network
+  within: d3.proposition-to-audience
+  binds:
+    kind: value-stream
+    slug: telemedicine-network
+  cardinality: one
+  labels:
+    en: Telemedicine Network
+- id: health.value-stream.facility-operations-and-maintenance
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: facility-operations-and-maintenance
+  cardinality: one
+  labels:
+    en: Facility Operations and Maintenance
+- id: health.value-stream.it-asset-lifecycle
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: it-asset-lifecycle
+  cardinality: one
+  labels:
+    en: IT Asset Lifecycle
+- id: health.value-stream.medical-equipment-acquisition
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: medical-equipment-acquisition
+  cardinality: one
+  labels:
+    en: Medical Equipment Acquisition
+- id: health.value-stream.medical-equipment-maintenance
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: medical-equipment-maintenance
+  cardinality: one
+  labels:
+    en: Medical Equipment Maintenance
+- id: health.value-stream.site-development-and-construction
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: site-development-and-construction
+  cardinality: one
+  labels:
+    en: Site Development and Construction
+- id: health.value-stream.sterile-processing
+  within: d4.acquire-to-retire
+  binds:
+    kind: value-stream
+    slug: sterile-processing
+  cardinality: one
+  labels:
+    en: Sterile Processing
+- id: health.value-stream.biobanking
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: biobanking
+  cardinality: one
+  labels:
+    en: Biobanking
+- id: health.value-stream.cancer-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: cancer-care
+  cardinality: one
+  labels:
+    en: Cancer Care
+- id: health.value-stream.clinical-trials
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: clinical-trials
+  cardinality: one
+  labels:
+    en: Clinical Trials
+- id: health.value-stream.diagnostic-imaging
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: diagnostic-imaging
+  cardinality: one
+  labels:
+    en: Diagnostic Imaging
+- id: health.value-stream.discharge-and-care-transition
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: discharge-and-care-transition
+  cardinality: one
+  labels:
+    en: Discharge and Care Transition
+- id: health.value-stream.emergency-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: emergency-care
+  cardinality: one
+  labels:
+    en: Emergency Care
+- id: health.value-stream.health-record-management
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: health-record-management
+  cardinality: one
+  labels:
+    en: Health Record Management
+- id: health.value-stream.home-and-remote-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: home-and-remote-care
+  cardinality: one
+  labels:
+    en: Home and Remote Care
+- id: health.value-stream.inpatient-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: inpatient-care
+  cardinality: one
+  labels:
+    en: Inpatient Care
+- id: health.value-stream.intensive-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: intensive-care
+  cardinality: one
+  labels:
+    en: Intensive Care
+- id: health.value-stream.interdisciplinary-consultation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: interdisciplinary-consultation
+  cardinality: one
+  labels:
+    en: Interdisciplinary Consultation
+- id: health.value-stream.interprofessional-education
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: interprofessional-education
+  cardinality: one
+  labels:
+    en: Interprofessional Education
+- id: health.value-stream.interventional-procedures
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: interventional-procedures
+  cardinality: one
+  labels:
+    en: Interventional Procedures
+- id: health.value-stream.laboratory-diagnostics
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: laboratory-diagnostics
+  cardinality: one
+  labels:
+    en: Laboratory Diagnostics
+- id: health.value-stream.maternity-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: maternity-care
+  cardinality: one
+  labels:
+    en: Maternity Care
+- id: health.value-stream.medication-management
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: medication-management
+  cardinality: one
+  labels:
+    en: Medication Management
+- id: health.value-stream.mental-health-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: mental-health-care
+  cardinality: one
+  labels:
+    en: Mental Health Care
+- id: health.value-stream.nursing-and-health-professions-education
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: nursing-and-health-professions-education
+  cardinality: one
+  labels:
+    en: Nursing and Health Professions Education
+- id: health.value-stream.nursing-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: nursing-care
+  cardinality: one
+  labels:
+    en: Nursing Care
+- id: health.value-stream.observational-and-data-driven-research
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: observational-and-data-driven-research
+  cardinality: one
+  labels:
+    en: Observational and Data-Driven Research
+- id: health.value-stream.operating-theatre-management
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: operating-theatre-management
+  cardinality: one
+  labels:
+    en: Operating Theatre Management
+- id: health.value-stream.organ-donation-and-transplantation
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: organ-donation-and-transplantation
+  cardinality: one
+  labels:
+    en: Organ Donation and Transplantation
+- id: health.value-stream.outpatient-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: outpatient-care
+  cardinality: one
+  labels:
+    en: Outpatient Care
+- id: health.value-stream.paediatric-and-neonatal-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: paediatric-and-neonatal-care
+  cardinality: one
+  labels:
+    en: Paediatric and Neonatal Care
+- id: health.value-stream.palliative-and-end-of-life-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: palliative-and-end-of-life-care
+  cardinality: one
+  labels:
+    en: Palliative and End-of-Life Care
+- id: health.value-stream.pathology-and-molecular-diagnostics
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: pathology-and-molecular-diagnostics
+  cardinality: one
+  labels:
+    en: Pathology and Molecular Diagnostics
+- id: health.value-stream.patient-flow-and-bed-management
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: patient-flow-and-bed-management
+  cardinality: one
+  labels:
+    en: Patient Flow and Bed Management
+- id: health.value-stream.patient-hospitality-services
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: patient-hospitality-services
+  cardinality: one
+  labels:
+    en: Patient Hospitality Services
+- id: health.value-stream.referral-and-admission-management
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: referral-and-admission-management
+  cardinality: one
+  labels:
+    en: Referral and Admission Management
+- id: health.value-stream.surgical-care
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: surgical-care
+  cardinality: one
+  labels:
+    en: Surgical Care
+- id: health.value-stream.therapy-services
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: therapy-services
+  cardinality: one
+  labels:
+    en: Therapy Services
+- id: health.value-stream.transfusion-medicine
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: transfusion-medicine
+  cardinality: one
+  labels:
+    en: Transfusion Medicine
+- id: health.value-stream.undergraduate-medical-education
+  within: d4.demand-to-fulfillment
+  binds:
+    kind: value-stream
+    slug: undergraduate-medical-education
+  cardinality: one
+  labels:
+    en: Undergraduate Medical Education
+- id: health.value-stream.category-and-supplier-management
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: category-and-supplier-management
+  cardinality: one
+  labels:
+    en: Category and Supplier Management
+- id: health.value-stream.clinical-supply-logistics
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: clinical-supply-logistics
+  cardinality: one
+  labels:
+    en: Clinical Supply Logistics
+- id: health.value-stream.pharmaceutical-supply
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: pharmaceutical-supply
+  cardinality: one
+  labels:
+    en: Pharmaceutical Supply
+- id: health.value-stream.purchasing-and-invoice-settlement
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: purchasing-and-invoice-settlement
+  cardinality: one
+  labels:
+    en: Purchasing and Invoice Settlement
+- id: health.value-stream.tendering-and-contracting
+  within: d4.source-to-alliance
+  binds:
+    kind: value-stream
+    slug: tendering-and-contracting
+  cardinality: one
+  labels:
+    en: Tendering and Contracting
+- id: health.entity.absence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: absence
+  cardinality: one
+  labels:
+    en: Absence
+- id: health.entity.academic-appointment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: academic-appointment
+  cardinality: one
+  labels:
+    en: Academic Appointment
+- id: health.entity.access-grant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: access-grant
+  cardinality: one
+  labels:
+    en: Access Grant
+- id: health.entity.access-standard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: access-standard
+  cardinality: one
+  labels:
+    en: Access Standard
+- id: health.entity.accountability-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: accountability-report
+  cardinality: one
+  labels:
+    en: Accountability Report
+- id: health.entity.accreditation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: accreditation
+  cardinality: one
+  labels:
+    en: Accreditation
+- id: health.entity.acuity-classification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: acuity-classification
+  cardinality: one
+  labels:
+    en: Acuity Classification
+- id: health.entity.advance-directive
+  within: element.entity
+  binds:
+    kind: entity
+    slug: advance-directive
+  cardinality: one
+  labels:
+    en: Advance Directive
+- id: health.entity.adverse-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: adverse-event
+  cardinality: one
+  labels:
+    en: Adverse Event
+- id: health.entity.agent-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: agent-mandate
+  cardinality: one
+  labels:
+    en: Agent Mandate
+- id: health.entity.ai-system
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ai-system
+  cardinality: one
+  labels:
+    en: AI System
+- id: health.entity.ai-validation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ai-validation
+  cardinality: one
+  labels:
+    en: AI Validation
+- id: health.entity.allergy-or-intolerance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: allergy-or-intolerance
+  cardinality: one
+  labels:
+    en: Allergy or Intolerance
+- id: health.entity.application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: application
+  cardinality: one
+  labels:
+    en: Application
+- id: health.entity.appointment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: appointment
+  cardinality: one
+  labels:
+    en: Appointment
+- id: health.entity.appraisal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: appraisal
+  cardinality: one
+  labels:
+    en: Appraisal
+- id: health.entity.assessment-instrument
+  within: element.entity
+  binds:
+    kind: entity
+    slug: assessment-instrument
+  cardinality: one
+  labels:
+    en: Assessment Instrument
+- id: health.entity.asset
+  within: element.entity
+  binds:
+    kind: entity
+    slug: asset
+  cardinality: one
+  labels:
+    en: Asset
+- id: health.entity.audit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audit
+  cardinality: one
+  labels:
+    en: Audit
+- id: health.entity.audit-finding
+  within: element.entity
+  binds:
+    kind: entity
+    slug: audit-finding
+  cardinality: one
+  labels:
+    en: Audit Finding
+- id: health.entity.authorization-by-law
+  within: element.entity
+  binds:
+    kind: entity
+    slug: authorization-by-law
+  cardinality: one
+  labels:
+    en: Authorization by Law
+- id: health.entity.automated-routine
+  within: element.entity
+  binds:
+    kind: entity
+    slug: automated-routine
+  cardinality: one
+  labels:
+    en: Automated Routine
+- id: health.entity.bed
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bed
+  cardinality: one
+  labels:
+    en: Bed
+- id: health.entity.bed-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bed-assignment
+  cardinality: one
+  labels:
+    en: Bed Assignment
+- id: health.entity.benchmark
+  within: element.entity
+  binds:
+    kind: entity
+    slug: benchmark
+  cardinality: one
+  labels:
+    en: Benchmark
+- id: health.entity.bid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: bid
+  cardinality: one
+  labels:
+    en: Bid
+- id: health.entity.biobank-sample
+  within: element.entity
+  binds:
+    kind: entity
+    slug: biobank-sample
+  cardinality: one
+  labels:
+    en: Biobank Sample
+- id: health.entity.birth
+  within: element.entity
+  binds:
+    kind: entity
+    slug: birth
+  cardinality: one
+  labels:
+    en: Birth
+- id: health.entity.blood-donation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: blood-donation
+  cardinality: one
+  labels:
+    en: Blood Donation
+- id: health.entity.blood-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: blood-product
+  cardinality: one
+  labels:
+    en: Blood Product
+- id: health.entity.budget
+  within: element.entity
+  binds:
+    kind: entity
+    slug: budget
+  cardinality: one
+  labels:
+    en: Budget
+- id: health.entity.building-installation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: building-installation
+  cardinality: one
+  labels:
+    en: Building Installation
+- id: health.entity.business-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: business-case
+  cardinality: one
+  labels:
+    en: Business Case
+- id: health.entity.capacity-forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capacity-forecast
+  cardinality: one
+  labels:
+    en: Capacity Forecast
+- id: health.entity.capacity-status
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capacity-status
+  cardinality: one
+  labels:
+    en: Capacity Status
+- id: health.entity.capital-project
+  within: element.entity
+  binds:
+    kind: entity
+    slug: capital-project
+  cardinality: one
+  labels:
+    en: Capital Project
+- id: health.entity.care-activity-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-activity-mandate
+  cardinality: one
+  labels:
+    en: Care Activity Mandate
+- id: health.entity.care-commitment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-commitment
+  cardinality: one
+  labels:
+    en: Care Commitment
+- id: health.entity.care-communication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-communication
+  cardinality: one
+  labels:
+    en: Care Communication
+- id: health.entity.care-goal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-goal
+  cardinality: one
+  labels:
+    en: Care Goal
+- id: health.entity.care-information-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-information-request
+  cardinality: one
+  labels:
+    en: Care Information Request
+- id: health.entity.care-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-mandate
+  cardinality: one
+  labels:
+    en: Care Mandate
+- id: health.entity.care-needs-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-needs-assessment
+  cardinality: one
+  labels:
+    en: Care Needs Assessment
+- id: health.entity.care-network
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-network
+  cardinality: one
+  labels:
+    en: Care Network
+- id: health.entity.care-pathway
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-pathway
+  cardinality: one
+  labels:
+    en: Care Pathway
+- id: health.entity.care-period-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-period-mandate
+  cardinality: one
+  labels:
+    en: Care Period Mandate
+- id: health.entity.care-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-plan
+  cardinality: one
+  labels:
+    en: Care Plan
+- id: health.entity.care-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-programme
+  cardinality: one
+  labels:
+    en: Care Programme
+- id: health.entity.care-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-service
+  cardinality: one
+  labels:
+    en: Care Service
+- id: health.entity.care-team
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-team
+  cardinality: one
+  labels:
+    en: Care Team
+- id: health.entity.care-transition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: care-transition
+  cardinality: one
+  labels:
+    en: Care Transition
+- id: health.entity.case-conference
+  within: element.entity
+  binds:
+    kind: entity
+    slug: case-conference
+  cardinality: one
+  labels:
+    en: Case Conference
+- id: health.entity.case-group
+  within: element.entity
+  binds:
+    kind: entity
+    slug: case-group
+  cardinality: one
+  labels:
+    en: Case Group
+- id: health.entity.case-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: case-review
+  cardinality: one
+  labels:
+    en: Case Review
+- id: health.entity.catchment-population
+  within: element.entity
+  binds:
+    kind: entity
+    slug: catchment-population
+  cardinality: one
+  labels:
+    en: Catchment Population
+- id: health.entity.category-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: category-plan
+  cardinality: one
+  labels:
+    en: Category Plan
+- id: health.entity.change-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: change-request
+  cardinality: one
+  labels:
+    en: Change Request
+- id: health.entity.charge-item
+  within: element.entity
+  binds:
+    kind: entity
+    slug: charge-item
+  cardinality: one
+  labels:
+    en: Charge Item
+- id: health.entity.charter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: charter
+  cardinality: one
+  labels:
+    en: Charter
+- id: health.entity.claim
+  within: element.entity
+  binds:
+    kind: entity
+    slug: claim
+  cardinality: one
+  labels:
+    en: Claim
+- id: health.entity.claim-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: claim-review
+  cardinality: one
+  labels:
+    en: Claim Review
+- id: health.entity.clinical-alert
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-alert
+  cardinality: one
+  labels:
+    en: Clinical Alert
+- id: health.entity.clinical-document
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-document
+  cardinality: one
+  labels:
+    en: Clinical Document
+- id: health.entity.clinical-guideline
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-guideline
+  cardinality: one
+  labels:
+    en: Clinical Guideline
+- id: health.entity.clinical-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-order
+  cardinality: one
+  labels:
+    en: Clinical Order
+- id: health.entity.clinical-privilege
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-privilege
+  cardinality: one
+  labels:
+    en: Clinical Privilege
+- id: health.entity.clinical-registry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: clinical-registry
+  cardinality: one
+  labels:
+    en: Clinical Registry
+- id: health.entity.code-system
+  within: element.entity
+  binds:
+    kind: entity
+    slug: code-system
+  cardinality: one
+  labels:
+    en: Code System
+- id: health.entity.coding-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: coding-rule
+  cardinality: one
+  labels:
+    en: Coding Rule
+- id: health.entity.cohort
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cohort
+  cardinality: one
+  labels:
+    en: Cohort
+- id: health.entity.communication-campaign
+  within: element.entity
+  binds:
+    kind: entity
+    slug: communication-campaign
+  cardinality: one
+  labels:
+    en: Communication Campaign
+- id: health.entity.communication-item
+  within: element.entity
+  binds:
+    kind: entity
+    slug: communication-item
+  cardinality: one
+  labels:
+    en: Communication Item
+- id: health.entity.competency
+  within: element.entity
+  binds:
+    kind: entity
+    slug: competency
+  cardinality: one
+  labels:
+    en: Competency
+- id: health.entity.complaint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: complaint
+  cardinality: one
+  labels:
+    en: Complaint
+- id: health.entity.compliance-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compliance-case
+  cardinality: one
+  labels:
+    en: Compliance Case
+- id: health.entity.compliance-obligation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: compliance-obligation
+  cardinality: one
+  labels:
+    en: Compliance Obligation
+- id: health.entity.continuing-education-credit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: continuing-education-credit
+  cardinality: one
+  labels:
+    en: Continuing Education Credit
+- id: health.entity.continuity-facilitator-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: continuity-facilitator-mandate
+  cardinality: one
+  labels:
+    en: Continuity Facilitator Mandate
+- id: health.entity.continuity-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: continuity-plan
+  cardinality: one
+  labels:
+    en: Continuity Plan
+- id: health.entity.contract
+  within: element.entity
+  binds:
+    kind: entity
+    slug: contract
+  cardinality: one
+  labels:
+    en: Contract
+- id: health.entity.corrective-action
+  within: element.entity
+  binds:
+    kind: entity
+    slug: corrective-action
+  cardinality: one
+  labels:
+    en: Corrective Action
+- id: health.entity.cost-centre
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cost-centre
+  cardinality: one
+  labels:
+    en: Cost Centre
+- id: health.entity.cost-estimate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: cost-estimate
+  cardinality: one
+  labels:
+    en: Cost Estimate
+- id: health.entity.course
+  within: element.entity
+  binds:
+    kind: entity
+    slug: course
+  cardinality: one
+  labels:
+    en: Course
+- id: health.entity.course-registration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: course-registration
+  cardinality: one
+  labels:
+    en: Course Registration
+- id: health.entity.coverage-approval
+  within: element.entity
+  binds:
+    kind: entity
+    slug: coverage-approval
+  cardinality: one
+  labels:
+    en: Coverage Approval
+- id: health.entity.credential
+  within: element.entity
+  binds:
+    kind: entity
+    slug: credential
+  cardinality: one
+  labels:
+    en: Credential
+- id: health.entity.curriculum
+  within: element.entity
+  binds:
+    kind: entity
+    slug: curriculum
+  cardinality: one
+  labels:
+    en: Curriculum
+- id: health.entity.dashboard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dashboard
+  cardinality: one
+  labels:
+    en: Dashboard
+- id: health.entity.data-access-request
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-access-request
+  cardinality: one
+  labels:
+    en: Data Access Request
+- id: health.entity.data-processing-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-processing-record
+  cardinality: one
+  labels:
+    en: Data Processing Record
+- id: health.entity.data-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-product
+  cardinality: one
+  labels:
+    en: Data Product
+- id: health.entity.data-use-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-use-agreement
+  cardinality: one
+  labels:
+    en: Data-Use Agreement
+- id: health.entity.data-use-consent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: data-use-consent
+  cardinality: one
+  labels:
+    en: Data-Use Consent
+- id: health.entity.dataset
+  within: element.entity
+  binds:
+    kind: entity
+    slug: dataset
+  cardinality: one
+  labels:
+    en: Dataset
+- id: health.entity.decision-aid
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision-aid
+  cardinality: one
+  labels:
+    en: Decision Aid
+- id: health.entity.decision-right
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision-right
+  cardinality: one
+  labels:
+    en: Decision Right
+- id: health.entity.decision-support-rule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: decision-support-rule
+  cardinality: one
+  labels:
+    en: Decision Support Rule
+- id: health.entity.diagnosis
+  within: element.entity
+  binds:
+    kind: entity
+    slug: diagnosis
+  cardinality: one
+  labels:
+    en: Diagnosis
+- id: health.entity.diagnostic-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: diagnostic-report
+  cardinality: one
+  labels:
+    en: Diagnostic Report
+- id: health.entity.digital-demand
+  within: element.entity
+  binds:
+    kind: entity
+    slug: digital-demand
+  cardinality: one
+  labels:
+    en: Digital Demand
+- id: health.entity.discharge-summary
+  within: element.entity
+  binds:
+    kind: entity
+    slug: discharge-summary
+  cardinality: one
+  labels:
+    en: Discharge Summary
+- id: health.entity.documentation-query
+  within: element.entity
+  binds:
+    kind: entity
+    slug: documentation-query
+  cardinality: one
+  labels:
+    en: Documentation Query
+- id: health.entity.donor
+  within: element.entity
+  binds:
+    kind: entity
+    slug: donor
+  cardinality: one
+  labels:
+    en: Donor
+- id: health.entity.drift-signal
+  within: element.entity
+  binds:
+    kind: entity
+    slug: drift-signal
+  cardinality: one
+  labels:
+    en: Drift Signal
+- id: health.entity.education-programme
+  within: element.entity
+  binds:
+    kind: entity
+    slug: education-programme
+  cardinality: one
+  labels:
+    en: Education Programme
+- id: health.entity.emergency-preparedness-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: emergency-preparedness-plan
+  cardinality: one
+  labels:
+    en: Emergency Preparedness Plan
+- id: health.entity.employee
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employee
+  cardinality: one
+  labels:
+    en: Employee
+- id: health.entity.employment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: employment
+  cardinality: one
+  labels:
+    en: Employment
+- id: health.entity.encounter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: encounter
+  cardinality: one
+  labels:
+    en: Encounter
+- id: health.entity.enquiry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: enquiry
+  cardinality: one
+  labels:
+    en: Enquiry
+- id: health.entity.entrustable-professional-activity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: entrustable-professional-activity
+  cardinality: one
+  labels:
+    en: Entrustable Professional Activity
+- id: health.entity.entrustment-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: entrustment-decision
+  cardinality: one
+  labels:
+    en: Entrustment Decision
+- id: health.entity.environmental-footprint
+  within: element.entity
+  binds:
+    kind: entity
+    slug: environmental-footprint
+  cardinality: one
+  labels:
+    en: Environmental Footprint
+- id: health.entity.episode-of-care
+  within: element.entity
+  binds:
+    kind: entity
+    slug: episode-of-care
+  cardinality: one
+  labels:
+    en: Episode of Care
+- id: health.entity.ethics-consultation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ethics-consultation
+  cardinality: one
+  labels:
+    en: Ethics Consultation
+- id: health.entity.examination
+  within: element.entity
+  binds:
+    kind: entity
+    slug: examination
+  cardinality: one
+  labels:
+    en: Examination
+- id: health.entity.facility
+  within: element.entity
+  binds:
+    kind: entity
+    slug: facility
+  cardinality: one
+  labels:
+    en: Facility
+- id: health.entity.financial-statement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: financial-statement
+  cardinality: one
+  labels:
+    en: Financial Statement
+- id: health.entity.formulary
+  within: element.entity
+  binds:
+    kind: entity
+    slug: formulary
+  cardinality: one
+  labels:
+    en: Formulary
+- id: health.entity.goods-receipt
+  within: element.entity
+  binds:
+    kind: entity
+    slug: goods-receipt
+  cardinality: one
+  labels:
+    en: Goods Receipt
+- id: health.entity.governance-body
+  within: element.entity
+  binds:
+    kind: entity
+    slug: governance-body
+  cardinality: one
+  labels:
+    en: Governance Body
+- id: health.entity.governance-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: governance-decision
+  cardinality: one
+  labels:
+    en: Governance Decision
+- id: health.entity.grievance
+  within: element.entity
+  binds:
+    kind: entity
+    slug: grievance
+  cardinality: one
+  labels:
+    en: Grievance
+- id: health.entity.health-certificate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-certificate
+  cardinality: one
+  labels:
+    en: Health Certificate
+- id: health.entity.health-issue
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-issue
+  cardinality: one
+  labels:
+    en: Health Issue
+- id: health.entity.health-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: health-record
+  cardinality: one
+  labels:
+    en: Health Record
+- id: health.entity.healthcare-associated-infection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: healthcare-associated-infection
+  cardinality: one
+  labels:
+    en: Healthcare-Associated Infection
+- id: health.entity.identity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: identity
+  cardinality: one
+  labels:
+    en: Identity
+- id: health.entity.image-study
+  within: element.entity
+  binds:
+    kind: entity
+    slug: image-study
+  cardinality: one
+  labels:
+    en: Image Study
+- id: health.entity.immunisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: immunisation
+  cardinality: one
+  labels:
+    en: Immunisation
+- id: health.entity.implant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: implant
+  cardinality: one
+  labels:
+    en: Implant
+- id: health.entity.improvement-initiative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: improvement-initiative
+  cardinality: one
+  labels:
+    en: Improvement Initiative
+- id: health.entity.improvement-suggestion
+  within: element.entity
+  binds:
+    kind: entity
+    slug: improvement-suggestion
+  cardinality: one
+  labels:
+    en: Improvement Suggestion
+- id: health.entity.incident
+  within: element.entity
+  binds:
+    kind: entity
+    slug: incident
+  cardinality: one
+  labels:
+    en: Incident
+- id: health.entity.informed-consent
+  within: element.entity
+  binds:
+    kind: entity
+    slug: informed-consent
+  cardinality: one
+  labels:
+    en: Informed Consent
+- id: health.entity.instrument-set
+  within: element.entity
+  binds:
+    kind: entity
+    slug: instrument-set
+  cardinality: one
+  labels:
+    en: Instrument Set
+- id: health.entity.insurance-coverage
+  within: element.entity
+  binds:
+    kind: entity
+    slug: insurance-coverage
+  cardinality: one
+  labels:
+    en: Insurance Coverage
+- id: health.entity.intellectual-property-right
+  within: element.entity
+  binds:
+    kind: entity
+    slug: intellectual-property-right
+  cardinality: one
+  labels:
+    en: Intellectual Property Right
+- id: health.entity.interest-declaration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interest-declaration
+  cardinality: one
+  labels:
+    en: Interest Declaration
+- id: health.entity.interface
+  within: element.entity
+  binds:
+    kind: entity
+    slug: interface
+  cardinality: one
+  labels:
+    en: Interface
+- id: health.entity.internal-control
+  within: element.entity
+  binds:
+    kind: entity
+    slug: internal-control
+  cardinality: one
+  labels:
+    en: Internal Control
+- id: health.entity.invention-disclosure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: invention-disclosure
+  cardinality: one
+  labels:
+    en: Invention Disclosure
+- id: health.entity.inventory-item
+  within: element.entity
+  binds:
+    kind: entity
+    slug: inventory-item
+  cardinality: one
+  labels:
+    en: Inventory Item
+- id: health.entity.investigational-product
+  within: element.entity
+  binds:
+    kind: entity
+    slug: investigational-product
+  cardinality: one
+  labels:
+    en: Investigational Product
+- id: health.entity.invoice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: invoice
+  cardinality: one
+  labels:
+    en: Invoice
+- id: health.entity.involvement-activity
+  within: element.entity
+  binds:
+    kind: entity
+    slug: involvement-activity
+  cardinality: one
+  labels:
+    en: Involvement Activity
+- id: health.entity.it-service
+  within: element.entity
+  binds:
+    kind: entity
+    slug: it-service
+  cardinality: one
+  labels:
+    en: IT Service
+- id: health.entity.job-application
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-application
+  cardinality: one
+  labels:
+    en: Job Application
+- id: health.entity.job-vacancy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: job-vacancy
+  cardinality: one
+  labels:
+    en: Job Vacancy
+- id: health.entity.learner-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learner-assessment
+  cardinality: one
+  labels:
+    en: Learner Assessment
+- id: health.entity.learner-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: learner-record
+  cardinality: one
+  labels:
+    en: Learner Record
+- id: health.entity.ledger-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: ledger-entry
+  cardinality: one
+  labels:
+    en: Ledger Entry
+- id: health.entity.legal-matter
+  within: element.entity
+  binds:
+    kind: entity
+    slug: legal-matter
+  cardinality: one
+  labels:
+    en: Legal Matter
+- id: health.entity.liability-claim
+  within: element.entity
+  binds:
+    kind: entity
+    slug: liability-claim
+  cardinality: one
+  labels:
+    en: Liability Claim
+- id: health.entity.licence-to-practise
+  within: element.entity
+  binds:
+    kind: entity
+    slug: licence-to-practise
+  cardinality: one
+  labels:
+    en: Licence to Practise
+- id: health.entity.liquidity-forecast
+  within: element.entity
+  binds:
+    kind: entity
+    slug: liquidity-forecast
+  cardinality: one
+  labels:
+    en: Liquidity Forecast
+- id: health.entity.logbook-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: logbook-entry
+  cardinality: one
+  labels:
+    en: Logbook Entry
+- id: health.entity.maintenance-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: maintenance-order
+  cardinality: one
+  labels:
+    en: Maintenance Order
+- id: health.entity.major-incident
+  within: element.entity
+  binds:
+    kind: entity
+    slug: major-incident
+  cardinality: one
+  labels:
+    en: Major Incident
+- id: health.entity.mandate-to-export-personal-information
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mandate-to-export-personal-information
+  cardinality: one
+  labels:
+    en: Mandate to Export Personal Information
+- id: health.entity.measure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: measure
+  cardinality: one
+  labels:
+    en: Measure
+- id: health.entity.measure-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: measure-report
+  cardinality: one
+  labels:
+    en: Measure Report
+- id: health.entity.medical-device
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medical-device
+  cardinality: one
+  labels:
+    en: Medical Device
+- id: health.entity.medication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medication
+  cardinality: one
+  labels:
+    en: Medication
+- id: health.entity.medication-administration
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medication-administration
+  cardinality: one
+  labels:
+    en: Medication Administration
+- id: health.entity.medication-dispense
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medication-dispense
+  cardinality: one
+  labels:
+    en: Medication Dispense
+- id: health.entity.medication-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medication-order
+  cardinality: one
+  labels:
+    en: Medication Order
+- id: health.entity.medication-reconciliation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: medication-reconciliation
+  cardinality: one
+  labels:
+    en: Medication Reconciliation
+- id: health.entity.mission-and-values-statement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: mission-and-values-statement
+  cardinality: one
+  labels:
+    en: Mission and Values Statement
+- id: health.entity.network-membership
+  within: element.entity
+  binds:
+    kind: entity
+    slug: network-membership
+  cardinality: one
+  labels:
+    en: Network Membership
+- id: health.entity.nutrition-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: nutrition-order
+  cardinality: one
+  labels:
+    en: Nutrition Order
+- id: health.entity.objection
+  within: element.entity
+  binds:
+    kind: entity
+    slug: objection
+  cardinality: one
+  labels:
+    en: Objection
+- id: health.entity.observation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: observation
+  cardinality: one
+  labels:
+    en: Observation
+- id: health.entity.occupational-health-examination
+  within: element.entity
+  binds:
+    kind: entity
+    slug: occupational-health-examination
+  cardinality: one
+  labels:
+    en: Occupational Health Examination
+- id: health.entity.operating-session
+  within: element.entity
+  binds:
+    kind: entity
+    slug: operating-session
+  cardinality: one
+  labels:
+    en: Operating Session
+- id: health.entity.organ-donation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: organ-donation
+  cardinality: one
+  labels:
+    en: Organ Donation
+- id: health.entity.organ-offer
+  within: element.entity
+  binds:
+    kind: entity
+    slug: organ-offer
+  cardinality: one
+  labels:
+    en: Organ Offer
+- id: health.entity.organisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: organisation
+  cardinality: one
+  labels:
+    en: Organisation
+- id: health.entity.organisation-unit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: organisation-unit
+  cardinality: one
+  labels:
+    en: Organisation Unit
+- id: health.entity.outbreak
+  within: element.entity
+  binds:
+    kind: entity
+    slug: outbreak
+  cardinality: one
+  labels:
+    en: Outbreak
+- id: health.entity.oversight-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: oversight-assignment
+  cardinality: one
+  labels:
+    en: Oversight Assignment
+- id: health.entity.participant-enrolment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: participant-enrolment
+  cardinality: one
+  labels:
+    en: Participant Enrolment
+- id: health.entity.patient
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient
+  cardinality: one
+  labels:
+    en: Patient
+- id: health.entity.patient-experience-survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient-experience-survey
+  cardinality: one
+  labels:
+    en: Patient Experience Survey
+- id: health.entity.patient-level-cost
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient-level-cost
+  cardinality: one
+  labels:
+    en: Patient-Level Cost
+- id: health.entity.patient-message
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient-message
+  cardinality: one
+  labels:
+    en: Patient Message
+- id: health.entity.patient-reported-outcome
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient-reported-outcome
+  cardinality: one
+  labels:
+    en: Patient-Reported Outcome
+- id: health.entity.patient-summary
+  within: element.entity
+  binds:
+    kind: entity
+    slug: patient-summary
+  cardinality: one
+  labels:
+    en: Patient Summary
+- id: health.entity.payer-agreement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payer-agreement
+  cardinality: one
+  labels:
+    en: Payer Agreement
+- id: health.entity.payer-organisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payer-organisation
+  cardinality: one
+  labels:
+    en: Payer Organisation
+- id: health.entity.payment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payment
+  cardinality: one
+  labels:
+    en: Payment
+- id: health.entity.payroll-run
+  within: element.entity
+  binds:
+    kind: entity
+    slug: payroll-run
+  cardinality: one
+  labels:
+    en: Payroll Run
+- id: health.entity.permit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: permit
+  cardinality: one
+  labels:
+    en: Permit
+- id: health.entity.philanthropic-gift
+  within: element.entity
+  binds:
+    kind: entity
+    slug: philanthropic-gift
+  cardinality: one
+  labels:
+    en: Philanthropic Gift
+- id: health.entity.policy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: policy
+  cardinality: one
+  labels:
+    en: Policy
+- id: health.entity.policy-initiative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: policy-initiative
+  cardinality: one
+  labels:
+    en: Policy Initiative
+- id: health.entity.position
+  within: element.entity
+  binds:
+    kind: entity
+    slug: position
+  cardinality: one
+  labels:
+    en: Position
+- id: health.entity.practitioner-role
+  within: element.entity
+  binds:
+    kind: entity
+    slug: practitioner-role
+  cardinality: one
+  labels:
+    en: Practitioner Role
+- id: health.entity.prediction
+  within: element.entity
+  binds:
+    kind: entity
+    slug: prediction
+  cardinality: one
+  labels:
+    en: Prediction
+- id: health.entity.preference
+  within: element.entity
+  binds:
+    kind: entity
+    slug: preference
+  cardinality: one
+  labels:
+    en: Preference
+- id: health.entity.price-list
+  within: element.entity
+  binds:
+    kind: entity
+    slug: price-list
+  cardinality: one
+  labels:
+    en: Price List
+- id: health.entity.procedure
+  within: element.entity
+  binds:
+    kind: entity
+    slug: procedure
+  cardinality: one
+  labels:
+    en: Procedure
+- id: health.entity.process-model
+  within: element.entity
+  binds:
+    kind: entity
+    slug: process-model
+  cardinality: one
+  labels:
+    en: Process Model
+- id: health.entity.product-evaluation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: product-evaluation
+  cardinality: one
+  labels:
+    en: Product Evaluation
+- id: health.entity.professional-practice-evaluation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: professional-practice-evaluation
+  cardinality: one
+  labels:
+    en: Professional Practice Evaluation
+- id: health.entity.programme-participation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: programme-participation
+  cardinality: one
+  labels:
+    en: Programme Participation
+- id: health.entity.proxy-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: proxy-mandate
+  cardinality: one
+  labels:
+    en: Proxy Mandate
+- id: health.entity.public-funding-allocation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-funding-allocation
+  cardinality: one
+  labels:
+    en: Public Funding Allocation
+- id: health.entity.public-rating
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-rating
+  cardinality: one
+  labels:
+    en: Public Rating
+- id: health.entity.public-statement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: public-statement
+  cardinality: one
+  labels:
+    en: Public Statement
+- id: health.entity.publication
+  within: element.entity
+  binds:
+    kind: entity
+    slug: publication
+  cardinality: one
+  labels:
+    en: Publication
+- id: health.entity.purchase-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-order
+  cardinality: one
+  labels:
+    en: Purchase Order
+- id: health.entity.purchase-requisition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: purchase-requisition
+  cardinality: one
+  labels:
+    en: Purchase Requisition
+- id: health.entity.quality-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: quality-report
+  cardinality: one
+  labels:
+    en: Quality Report
+- id: health.entity.referral
+  within: element.entity
+  binds:
+    kind: entity
+    slug: referral
+  cardinality: one
+  labels:
+    en: Referral
+- id: health.entity.referral-relationship
+  within: element.entity
+  binds:
+    kind: entity
+    slug: referral-relationship
+  cardinality: one
+  labels:
+    en: Referral Relationship
+- id: health.entity.regulatory-notification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: regulatory-notification
+  cardinality: one
+  labels:
+    en: Regulatory Notification
+- id: health.entity.related-person
+  within: element.entity
+  binds:
+    kind: entity
+    slug: related-person
+  cardinality: one
+  labels:
+    en: Related Person
+- id: health.entity.relationship-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: relationship-review
+  cardinality: one
+  labels:
+    en: Relationship Review
+- id: health.entity.request-for-care
+  within: element.entity
+  binds:
+    kind: entity
+    slug: request-for-care
+  cardinality: one
+  labels:
+    en: Request for Care
+- id: health.entity.request-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: request-mandate
+  cardinality: one
+  labels:
+    en: Request Mandate
+- id: health.entity.research-grant
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-grant
+  cardinality: one
+  labels:
+    en: Research Grant
+- id: health.entity.research-integrity-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-integrity-case
+  cardinality: one
+  labels:
+    en: Research Integrity Case
+- id: health.entity.research-study
+  within: element.entity
+  binds:
+    kind: entity
+    slug: research-study
+  cardinality: one
+  labels:
+    en: Research Study
+- id: health.entity.risk
+  within: element.entity
+  binds:
+    kind: entity
+    slug: risk
+  cardinality: one
+  labels:
+    en: Risk
+- id: health.entity.risk-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: risk-assessment
+  cardinality: one
+  labels:
+    en: Risk Assessment
+- id: health.entity.room
+  within: element.entity
+  binds:
+    kind: entity
+    slug: room
+  cardinality: one
+  labels:
+    en: Room
+- id: health.entity.roster
+  within: element.entity
+  binds:
+    kind: entity
+    slug: roster
+  cardinality: one
+  labels:
+    en: Roster
+- id: health.entity.rotation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: rotation
+  cardinality: one
+  labels:
+    en: Rotation
+- id: health.entity.safety-notice
+  within: element.entity
+  binds:
+    kind: entity
+    slug: safety-notice
+  cardinality: one
+  labels:
+    en: Safety Notice
+- id: health.entity.schedule
+  within: element.entity
+  binds:
+    kind: entity
+    slug: schedule
+  cardinality: one
+  labels:
+    en: Schedule
+- id: health.entity.service-group
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-group
+  cardinality: one
+  labels:
+    en: Service Group
+- id: health.entity.service-group-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-group-assignment
+  cardinality: one
+  labels:
+    en: Service Group Assignment
+- id: health.entity.service-mandate
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-mandate
+  cardinality: one
+  labels:
+    en: Service Mandate
+- id: health.entity.service-proposition
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-proposition
+  cardinality: one
+  labels:
+    en: Service Proposition
+- id: health.entity.service-ticket
+  within: element.entity
+  binds:
+    kind: entity
+    slug: service-ticket
+  cardinality: one
+  labels:
+    en: Service Ticket
+- id: health.entity.shared-decision
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shared-decision
+  cardinality: one
+  labels:
+    en: Shared Decision
+- id: health.entity.shift-assignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: shift-assignment
+  cardinality: one
+  labels:
+    en: Shift Assignment
+- id: health.entity.site
+  within: element.entity
+  binds:
+    kind: entity
+    slug: site
+  cardinality: one
+  labels:
+    en: Site
+- id: health.entity.software-licence
+  within: element.entity
+  binds:
+    kind: entity
+    slug: software-licence
+  cardinality: one
+  labels:
+    en: Software Licence
+- id: health.entity.specialty-certification
+  within: element.entity
+  binds:
+    kind: entity
+    slug: specialty-certification
+  cardinality: one
+  labels:
+    en: Specialty Certification
+- id: health.entity.specimen
+  within: element.entity
+  binds:
+    kind: entity
+    slug: specimen
+  cardinality: one
+  labels:
+    en: Specimen
+- id: health.entity.staff-survey
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staff-survey
+  cardinality: one
+  labels:
+    en: Staff Survey
+- id: health.entity.staffing-standard
+  within: element.entity
+  binds:
+    kind: entity
+    slug: staffing-standard
+  cardinality: one
+  labels:
+    en: Staffing Standard
+- id: health.entity.statutory-report
+  within: element.entity
+  binds:
+    kind: entity
+    slug: statutory-report
+  cardinality: one
+  labels:
+    en: Statutory Report
+- id: health.entity.sterile-supply-cycle
+  within: element.entity
+  binds:
+    kind: entity
+    slug: sterile-supply-cycle
+  cardinality: one
+  labels:
+    en: Sterile Supply Cycle
+- id: health.entity.stock-movement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: stock-movement
+  cardinality: one
+  labels:
+    en: Stock Movement
+- id: health.entity.strategic-initiative
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strategic-initiative
+  cardinality: one
+  labels:
+    en: Strategic Initiative
+- id: health.entity.strategic-objective
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strategic-objective
+  cardinality: one
+  labels:
+    en: Strategic Objective
+- id: health.entity.strategy
+  within: element.entity
+  binds:
+    kind: entity
+    slug: strategy
+  cardinality: one
+  labels:
+    en: Strategy
+- id: health.entity.study-adverse-event
+  within: element.entity
+  binds:
+    kind: entity
+    slug: study-adverse-event
+  cardinality: one
+  labels:
+    en: Study Adverse Event
+- id: health.entity.study-protocol
+  within: element.entity
+  binds:
+    kind: entity
+    slug: study-protocol
+  cardinality: one
+  labels:
+    en: Study Protocol
+- id: health.entity.study-review
+  within: element.entity
+  binds:
+    kind: entity
+    slug: study-review
+  cardinality: one
+  labels:
+    en: Study Review
+- id: health.entity.study-visit
+  within: element.entity
+  binds:
+    kind: entity
+    slug: study-visit
+  cardinality: one
+  labels:
+    en: Study Visit
+- id: health.entity.succession-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: succession-plan
+  cardinality: one
+  labels:
+    en: Succession Plan
+- id: health.entity.supplier-organisation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supplier-organisation
+  cardinality: one
+  labels:
+    en: Supplier Organisation
+- id: health.entity.supply-shortage
+  within: element.entity
+  binds:
+    kind: entity
+    slug: supply-shortage
+  cardinality: one
+  labels:
+    en: Supply Shortage
+- id: health.entity.support-service-order
+  within: element.entity
+  binds:
+    kind: entity
+    slug: support-service-order
+  cardinality: one
+  labels:
+    en: Support Service Order
+- id: health.entity.surgical-case
+  within: element.entity
+  binds:
+    kind: entity
+    slug: surgical-case
+  cardinality: one
+  labels:
+    en: Surgical Case
+- id: health.entity.teaching-evaluation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: teaching-evaluation
+  cardinality: one
+  labels:
+    en: Teaching Evaluation
+- id: health.entity.teaching-session
+  within: element.entity
+  binds:
+    kind: entity
+    slug: teaching-session
+  cardinality: one
+  labels:
+    en: Teaching Session
+- id: health.entity.technology-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: technology-assessment
+  cardinality: one
+  labels:
+    en: Technology Assessment
+- id: health.entity.teleconsultation
+  within: element.entity
+  binds:
+    kind: entity
+    slug: teleconsultation
+  cardinality: one
+  labels:
+    en: Teleconsultation
+- id: health.entity.tender
+  within: element.entity
+  binds:
+    kind: entity
+    slug: tender
+  cardinality: one
+  labels:
+    en: Tender
+- id: health.entity.transfusion
+  within: element.entity
+  binds:
+    kind: entity
+    slug: transfusion
+  cardinality: one
+  labels:
+    en: Transfusion
+- id: health.entity.triage-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: triage-assessment
+  cardinality: one
+  labels:
+    en: Triage Assessment
+- id: health.entity.volume-threshold
+  within: element.entity
+  binds:
+    kind: entity
+    slug: volume-threshold
+  cardinality: one
+  labels:
+    en: Volume Threshold
+- id: health.entity.voluntary-engagement
+  within: element.entity
+  binds:
+    kind: entity
+    slug: voluntary-engagement
+  cardinality: one
+  labels:
+    en: Voluntary Engagement
+- id: health.entity.waiting-list-entry
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waiting-list-entry
+  cardinality: one
+  labels:
+    en: Waiting List Entry
+- id: health.entity.waste-consignment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: waste-consignment
+  cardinality: one
+  labels:
+    en: Waste Consignment
+- id: health.entity.whole-system-assessment
+  within: element.entity
+  binds:
+    kind: entity
+    slug: whole-system-assessment
+  cardinality: one
+  labels:
+    en: Whole-System Assessment
+- id: health.entity.workforce-plan
+  within: element.entity
+  binds:
+    kind: entity
+    slug: workforce-plan
+  cardinality: one
+  labels:
+    en: Workforce Plan
+- id: health.entity.working-time-record
+  within: element.entity
+  binds:
+    kind: entity
+    slug: working-time-record
+  cardinality: one
+  labels:
+    en: Working Time Record

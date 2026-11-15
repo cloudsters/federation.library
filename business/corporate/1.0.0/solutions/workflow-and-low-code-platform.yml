@@ -1,0 +1,16 @@
+kind: solution
+slug: workflow-and-low-code-platform
+title: Workflow and Low-Code Platform
+role: platform
+summary: Lets the organisation build forms, approvals, document templates and small applications, and automate process steps across
+  systems without full software development.
+carries:
+- approval-workflow-design
+- document-template-automation
+- low-code-application-design
+- process-automation-platform
+holds: []
+binds:
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

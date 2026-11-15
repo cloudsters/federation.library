@@ -1,0 +1,32 @@
+kind: journey
+slug: neighbouring-municipality-joining-the-federation
+title: Neighbouring Municipality Joining the Federation
+stakeholder: neighbouring-municipality
+summary: A neighbouring municipality agrees shared definitions for the things both municipalities record, agrees the federation terms
+  between their platforms, tests its connections for conformance and reviews the federation on its cycle.
+stages:
+- slug: agree-shared-definitions
+  title: Agree Shared Definitions
+  goal: Address, parcel, building and service mean the same in the systems of both municipalities.
+  step: interoperability-and-platform-federation/shared-data-model-definition
+  touchpoints:
+  - data-definition-working-group
+- slug: agree-the-federation-terms
+  title: Agree the Federation Terms
+  goal: Each municipality keeps its own systems and decisions, and the agreement states how they exchange.
+  step: interoperability-and-platform-federation/federation-agreement
+  touchpoints:
+  - federation-negotiation-round
+  - published-federation-agreement
+- slug: test-the-connections
+  title: Test the Connections
+  goal: The municipality's connections pass the same conformance tests as the city's own.
+  step: interoperability-and-platform-federation/interface-build-and-testing
+  touchpoints:
+  - conformance-test-environment
+- slug: review-on-the-cycle
+  title: Review on the Cycle
+  goal: The federation is reviewed with every platform that uses it, and no partner loses a connection without notice.
+  step: interoperability-and-platform-federation/federation-review
+  touchpoints:
+  - federation-review-forum

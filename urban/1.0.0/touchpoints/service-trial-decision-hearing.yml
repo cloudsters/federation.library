@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-trial-decision-hearing
+title: Service Trial Decision Hearing
+medium: encounter
+summary: The public session of the council's committee in which the service case is heard, residents and staff speak, and the decision
+  whether to trial the service is taken with its reasons.
+exchanges:
+- exclusion-warning-for-a-weighed-decision
+- service-case-for-a-reasoned-trial-decision
+journey: city-administration-bringing-a-new-service-into-use

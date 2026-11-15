@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shortage-intelligence-for-regulatory-relief
+title: Shortage Intelligence for Regulatory Relief
+between:
+- health-regulator
+- clinical-pharmacist
+offered:
+- Public notice of shortages and permission to use alternatives such as imported or differently labelled products.
+returned:
+- Reports of shortages, remaining stock and harm seen in the commons, which complete the authority's national picture.
+touchpoint: shortage-notice

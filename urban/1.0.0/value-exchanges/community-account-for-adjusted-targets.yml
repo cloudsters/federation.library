@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: community-account-for-adjusted-targets
+title: Community Account for Adjusted Targets
+between:
+- neighbourhood-association
+- city-council
+offered:
+- The neighbourhood's view of whether local spending reached it and what it built.
+returned:
+- Targets adjusted by the council in the light of what the neighbourhoods reported.
+touchpoint: local-spend-report-assembly

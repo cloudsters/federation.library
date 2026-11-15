@@ -1,0 +1,43 @@
+kind: journey
+slug: supplier-delivering-medical-equipment
+title: Supplier Delivering Medical Equipment
+stakeholder: supplier
+summary: A supplier answers the tender, installs and proves its equipment on a site in clinical use, instructs the first users and
+  stands by the equipment through the warranty period.
+stages:
+- slug: respond-to-the-tender
+  title: Respond to the Tender
+  goal: The supplier understands the specification and the award criteria, lets users trial the equipment and submits a comparable
+    offer.
+  step: medical-equipment-acquisition/procurement-and-contracting
+  touchpoints:
+  - call-for-tender
+  - supplier-portal
+  - product-trial
+- slug: install-on-site
+  title: Install on Site
+  goal: The supplier installs on a prepared site at an agreed time, under the commons' rules for hygiene and safety.
+  step: medical-equipment-acquisition/site-preparation-and-installation
+  touchpoints:
+  - site-coordination-meeting
+- slug: pass-acceptance
+  title: Pass Acceptance
+  goal: The equipment passes its acceptance tests, open defects are listed with deadlines and the invoice can be paid.
+  step: medical-equipment-acquisition/delivery-and-acceptance-testing
+  touchpoints:
+  - goods-receiving
+  - device-commissioning
+  - acceptance-test-report
+- slug: instruct-first-users
+  title: Instruct First Users
+  goal: Designated first users are instructed and able to instruct their colleagues.
+  step: medical-equipment-acquisition/user-instruction-and-release
+  touchpoints:
+  - device-instruction-session
+- slug: honour-the-warranty
+  title: Honour the Warranty
+  goal: Faults in the warranty period are reported promptly and remedied within the agreed time.
+  step: medical-equipment-acquisition/early-use-review
+  touchpoints:
+  - clinical-engineering-service-desk
+  - service-visit

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-warning-for-room-to-act
+title: Early Warning for Room to Act
+between:
+- direct-material-supplier
+- procurement-specialist
+offered:
+- Early notice of a looming shortfall or delay, with its cause and the quantities at risk.
+returned:
+- A joint search for alternatives, adjusted call-offs and no penalty for honest early warning.
+touchpoint: supplier-portal

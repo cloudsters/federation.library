@@ -1,0 +1,53 @@
+kind: entity
+slug: contract
+title: Contract
+type: governance
+summary: A binding agreement between parties — a legal instrument that formalises the terms of exchange, creating mutual obligations and
+  protections for all parties.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: subject
+  type: text
+  card: 1..1
+- name: obligations
+  type: text
+  card: 1..*
+- name: term
+  type: period
+  card: 1..1
+- name: renewal
+  type: text
+  card: 0..1
+- name: contract-value
+  type: amount
+  card: 0..1
+- name: terms
+  type: reference(terms-and-conditions)
+  card: 0..1
+- name: signatories
+  type: text
+  card: 0..*
+states:
+- drafted
+- negotiated
+- executed
+- active
+- fulfilled
+- breached
+- renewed
+- terminated
+relations:
+- type: refers-to
+  target: agreement
+- type: composed-of
+  target: service-level-agreement
+- type: governed-by
+  target: terms-and-conditions
+- type: refers-to
+  target: stakeholder
+binds:
+- source: src-141
+  edition: '2020'
+  jurisdiction: global

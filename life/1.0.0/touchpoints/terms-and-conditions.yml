@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: terms-and-conditions
+title: The Terms and Conditions
+medium: document
+mode: written
+summary: The fine print of a service or subscription, what it lets the other side do and how it ends.
+exchanges:
+- money-for-shelter
+- data-for-service
+journey: a-platform-one-can-leave

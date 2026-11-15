@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: sustainability-report
+title: Sustainability Report
+medium: artefact
+summary: The published report on the organisation's emissions, resource use and waste, its targets, measures and progress, and its
+  climate risks.
+exchanges:
+- reduced-load-for-living-systems
+- open-progress-for-public-trust
+journey: load-measured-and-reduced

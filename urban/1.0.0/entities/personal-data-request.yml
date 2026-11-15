@@ -1,0 +1,58 @@
+kind: entity
+slug: personal-data-request
+title: Personal Data Request
+type: transactional
+summary: A request from a resident to see, correct or delete the data the city holds about them, with its answer and date. The department
+  that holds the data answers it within its deadline with the data protection officer, and any refusal names its reason and the route
+  of challenge.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: requester
+  type: text
+  card: 1..1
+- name: request-kind
+  type: code
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: identity-verified
+  type: boolean
+  card: 0..1
+- name: data-concerned
+  type: reference(data-set)
+  card: 0..*
+- name: response-deadline
+  type: date
+  card: 1..1
+- name: answered-on
+  type: date
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: refusal-reason
+  type: text
+  card: 0..1
+- name: challenge-route
+  type: text
+  card: 0..1
+states:
+- received
+- verified
+- in-progress
+- answered
+- refused
+- challenged
+- closed
+relations:
+- type: refers-to
+  target: processing-record
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: digital-identity
+- type: refers-to
+  target: legal-matter

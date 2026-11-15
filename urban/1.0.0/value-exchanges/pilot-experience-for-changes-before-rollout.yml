@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pilot-experience-for-changes-before-rollout
+title: Pilot Experience for Changes Before Rollout
+between:
+- frontline-worker
+- city-administration
+offered:
+- What the pilot showed in daily work, including what got worse.
+returned:
+- Changes made before the process spreads, and a pilot ended if it does not serve.
+touchpoint: pilot-run-review

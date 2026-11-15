@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: incident-command-centre
+title: Incident Command Centre
+medium: place
+summary: The room from which the incident command team leads the commons through a major incident, linked to rescue services,
+  authorities and every unit.
+exchanges:
+- regional-emergency-readiness
+- casualty-distribution
+journey: civil-protection-preparing-with-the-commons

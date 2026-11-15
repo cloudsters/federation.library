@@ -1,0 +1,46 @@
+kind: journey
+slug: payroll-specialist-closing-a-pay-run
+title: Payroll Specialist Closing a Pay Run
+stakeholder: human-resources-professional
+summary: A payroll specialist collects and verifies the period's inputs, calculates and checks the run, pays people and authorities
+  on time, reconciles with the accounts and provides fair pay data.
+stages:
+- slug: verify-the-inputs
+  title: Verify the Inputs
+  goal: All changes to terms, time, absences and deductions are complete and verified before calculation.
+  step: payroll-as-promise-fulfilled/pay-input-collection
+  touchpoints:
+  - employee-self-service
+  - time-account-statement
+- slug: calculate-and-check-the-run
+  title: Calculate and Check the Run
+  goal: Gross to net is calculated for every person and the run is checked for errors before release.
+  step: payroll-as-promise-fulfilled/payroll-calculation
+  touchpoints:
+  - payroll-run-report
+- slug: pay-and-explain
+  title: Pay and Explain
+  goal: Everyone is paid on time and questions on statements are answered and corrected.
+  step: payroll-as-promise-fulfilled/payment-and-statements
+  touchpoints:
+  - pay-statement
+  - payroll-help-desk
+- slug: remit-taxes-and-contributions
+  title: Remit Taxes and Contributions
+  goal: Withheld taxes and contributions reach the authorities and funds on time with the returns they require.
+  step: payroll-as-promise-fulfilled/tax-and-contribution-remittance
+  touchpoints:
+  - payroll-tax-return
+  - statutory-filing
+- slug: reconcile-with-the-accounts
+  title: Reconcile with the Accounts
+  goal: Payroll is posted and reconciled with payments and returns, and every difference is cleared before close.
+  step: payroll-as-promise-fulfilled/posting-and-reconciliation
+  touchpoints:
+  - payroll-journal
+- slug: hand-over-fair-pay-data
+  title: Hand Over Fair Pay Data
+  goal: Market and internal pay data reach the fairness review accurately and on cycle.
+  step: payroll-as-promise-fulfilled/pay-data-benchmarking
+  touchpoints:
+  - pay-benchmark-report

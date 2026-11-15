@@ -1,0 +1,16 @@
+kind: body
+slug: grants-office
+title: Grants Office
+summary: Watches funding calls and tests their conditions and costs, prepares applications with departments and partners, administers
+  each grant to its conditions through close-out and gives multi-year grants to community bodies on published criteria.
+holds:
+- grants-and-transfers
+- funding-opportunity-scouting
+- grant-condition-assessment
+- grant-application-preparation
+- grant-compliance-monitoring
+- grant-reporting-and-close-out
+- community-grant-making
+part_of: finance-department
+type: function
+form: organisational-unit

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: user-views-for-a-better-contracted-service
+title: User Views for a Better Contracted Service
+between:
+- resident
+- contract-manager
+offered:
+- Residents' views of a contracted service they use.
+returned:
+- Their views in the contract's report and changes the supplier makes in response.
+touchpoint: contracted-service-feedback-channel

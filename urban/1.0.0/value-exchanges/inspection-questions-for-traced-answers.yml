@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-questions-for-traced-answers
+title: Inspection Questions for Traced Answers
+between:
+- resident-inspector
+- finance-officer
+offered:
+- Questions on where particular revenues went, drawn from the inspector's review.
+returned:
+- Answers traced from payment to use, given in public.
+touchpoint: revenue-account-session

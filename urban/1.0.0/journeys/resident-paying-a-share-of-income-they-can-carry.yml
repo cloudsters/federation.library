@@ -1,0 +1,40 @@
+kind: journey
+slug: resident-paying-a-share-of-income-they-can-carry
+title: Resident Paying a Share of Income They Can Carry
+stakeholder: resident
+summary: A resident is enrolled in reduced charges from the entitlements they already hold, is helped when behind with payment and
+  never cut off from basic need, comments on the tariffs before the council adopts them and confirms in the yearly review whether
+  the benefits are fairly shared.
+stages:
+- slug: be-enrolled-without-applying
+  title: Be Enrolled without Applying
+  goal: With the resident's consent, reduced charges and fares follow from the entitlements already held, without a separate application.
+  step: essential-service-affordability-and-equity/reduced-charge-enrolment
+  touchpoints:
+  - automatic-enrolment-notice
+  - reduced-charge-outreach
+  - fare-and-concession-card
+- slug: keep-supply-when-behind
+  title: Keep Supply When Behind
+  goal: The household behind with payment has an arrangement it can keep, help with its income, and the water and energy it needs
+    for basic life.
+  step: essential-service-affordability-and-equity/arrears-help-and-disconnection-protection
+  touchpoints:
+  - payment-arrangement-meeting
+  - household-utility-bill
+- slug: comment-on-the-tariff
+  title: Comment on the Tariff
+  goal: The resident has seen and commented on tariffs that make a basic quantity cheap and heavy use pay more, before the council
+    adopts them.
+  step: essential-service-affordability-and-equity/basic-quantity-and-tariff-setting
+  touchpoints:
+  - tariff-public-review
+  - household-utility-bill
+- slug: confirm-the-benefits-are-shared
+  title: Confirm the Benefits Are Shared
+  goal: The resident has read who paid what and which gaps closed, and has said whether a tariff's benefits are fairly shared before
+    it is renewed.
+  step: essential-service-affordability-and-equity/affordability-and-equity-review
+  touchpoints:
+  - annual-equity-report
+  - tariff-public-review

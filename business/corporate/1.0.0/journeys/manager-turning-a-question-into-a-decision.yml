@@ -1,0 +1,31 @@
+kind: journey
+slug: manager-turning-a-question-into-a-decision
+title: Manager Turning a Question into a Decision
+stakeholder: site-manager
+summary: A manager brings a decision to the analysts, helps shape the models that will inform it, makes sense of the findings with
+  them and takes and records a decision that the analysis actually changed.
+stages:
+- slug: name-the-decision
+  title: Name the Decision
+  goal: The decision, the questions behind it and the criteria for a useful answer are written down with the analysts.
+  step: intelligence-cultivation/decision-need-framing
+  touchpoints:
+  - analysis-request
+- slug: test-the-model-against-experience
+  title: Test the Model Against Experience
+  goal: The manager has seen how the model works, challenged its assumptions and trusts what it represents.
+  step: intelligence-cultivation/model-building-and-review
+  touchpoints:
+  - model-review-session
+- slug: make-sense-together
+  title: Make Sense Together
+  goal: Patterns and outliers are interpreted with the people closest to the work before conclusions are drawn.
+  step: intelligence-cultivation/analysis-and-sense-making
+  touchpoints:
+  - sense-making-workshop
+- slug: decide-and-record
+  title: Decide and Record
+  goal: The findings and recommended actions are in hand, the decision is taken and its link to the evidence is recorded.
+  step: intelligence-cultivation/insight-reporting
+  touchpoints:
+  - insight-report

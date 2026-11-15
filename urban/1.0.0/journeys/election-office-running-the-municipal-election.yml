@@ -1,0 +1,42 @@
+kind: journey
+slug: election-office-running-the-municipal-election
+title: Election Office Running the Municipal Election
+stakeholder: election-office
+summary: The election office brings the register up to date and reaches those left out, organises an accessible vote, counts and certifies
+  in public, hands the certified result to the bodies taking office and carries the term's lessons into the electoral rules.
+stages:
+- slug: bring-the-register-up-to-date
+  title: Bring the Register Up to Date
+  goal: The register is current and correct, and eligible residents missing from it have been reached where the rules allow.
+  step: democratic-mandate/electorate-definition
+  touchpoints:
+  - electoral-register-check
+  - voter-registration-drive
+- slug: organise-an-accessible-vote
+  title: Organise an Accessible Vote
+  goal: Voting method, districts, nominations and polling places are fixed, and disabled residents and those who need other languages
+    can vote.
+  step: democratic-mandate/election-organisation
+  touchpoints:
+  - election-notice
+  - polling-station
+- slug: count-and-certify-in-public
+  title: Count and Certify in Public
+  goal: Votes are counted in public, and the certified result is published and open to challenge within the set period.
+  step: democratic-mandate/vote-and-count
+  touchpoints:
+  - polling-station
+  - published-election-results
+- slug: hand-over-a-certified-mandate
+  title: Hand Over a Certified Mandate
+  goal: Council and mayor take office on the certified result.
+  step: democratic-mandate/mandate-constitution
+  touchpoints:
+  - council-meeting
+- slug: carry-the-lessons-into-the-rules
+  title: Carry the Lessons into the Rules
+  goal: What the election taught about method, districts and who did not vote is reported, and the council can change the rules on
+    it.
+  step: democratic-mandate/mandate-renewal
+  touchpoints:
+  - election-review-report

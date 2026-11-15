@@ -1,0 +1,53 @@
+kind: entity
+slug: shared-decision
+title: Shared Decision
+type: transactional
+summary: A care decision reached jointly by a patient and their care professional after weighing the options, the evidence
+  and the patient's preferences, recorded with the option chosen and the aids used.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: decision-topic
+  type: code
+  card: 1..1
+- name: options-considered
+  type: text
+  card: 1..*
+- name: chosen-option
+  type: text
+  card: 0..1
+- name: decision-aids
+  type: reference(decision-aid)
+  card: 0..*
+- name: preferences
+  type: reference(preference)
+  card: 0..*
+- name: clinician
+  type: reference(practitioner-role)
+  card: 1..1
+- name: decided-at
+  type: datetime
+  card: 0..1
+states:
+- in-deliberation
+- decided
+- revisited
+relations:
+- type: based-on
+  target: preference
+- type: depends-on
+  target: decision-aid
+binds:
+- source: src-003
+  edition: '2017'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-559
+  edition: '5.0'
+  jurisdiction: global

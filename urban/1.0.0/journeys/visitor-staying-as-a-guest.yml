@@ -1,0 +1,34 @@
+kind: journey
+slug: visitor-staying-as-a-guest
+title: Visitor Staying as a Guest
+stakeholder: visitor
+summary: A visitor is welcomed at arrival with information that shows the city beyond its sights, comes outside the peak, stays in
+  a registered let and avoids crowded hours, and pays an overnight charge whose use they can see.
+stages:
+- slug: arrive-and-be-welcomed
+  title: Arrive and Be Welcomed
+  goal: The visitor has information in their language about local events, markets and cultural exchange, and knows what residents
+    ask of guests.
+  step: tourism-and-visitor-welcome/visitor-information-and-welcome
+  touchpoints:
+  - arrival-welcome-point
+  - multilingual-visitor-guide
+- slug: visit-outside-the-peak
+  title: Visit Outside the Peak
+  goal: The visitor has chosen a time in the city's own calendar of seasons and festivals rather than the peak alone.
+  step: tourism-and-visitor-welcome/year-round-visiting
+  touchpoints:
+  - city-seasons-visiting-calendar
+- slug: stay-and-move-with-care
+  title: Stay and Move with Care
+  goal: The visitor stays in a registered let and visits crowded places at times and by routes that relieve them.
+  step: tourism-and-visitor-welcome/holiday-let-and-crowding-rules
+  touchpoints:
+  - holiday-let-register-entry
+  - timed-entry-and-route-guidance
+- slug: pay-the-overnight-charge
+  title: Pay the Overnight Charge
+  goal: The visitor has paid the overnight charge and can see that it returns to the neighbourhoods they stayed in.
+  step: tourism-and-visitor-welcome/visitor-charge-and-local-return
+  touchpoints:
+  - overnight-visitor-charge-statement

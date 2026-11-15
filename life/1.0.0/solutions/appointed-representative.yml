@@ -1,0 +1,11 @@
+kind: solution
+slug: appointed-representative
+title: Appointed Representative
+role: person
+sovereignty: held-by-another
+summary: Someone given standing in advance to decide, speak and sign for the person when they no longer can.
+carries:
+- speaking-for-oneself-in-care
+- leaving-a-way-in
+holds:
+- will

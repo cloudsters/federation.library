@@ -1,0 +1,32 @@
+kind: journey
+slug: finance-officer-paying-suppliers-promptly
+title: Finance Officer Paying Suppliers Promptly
+stakeholder: finance-officer
+summary: The finance officer checks requests against the budget, matches each invoice to order and receipt, pays within the fixed
+  time and reconciles each payment, and publishes what the city paid, to whom and how quickly.
+stages:
+- slug: check-the-budget
+  title: Check the Budget
+  goal: Each request is checked against the budget still available before it is approved.
+  step: purchasing-and-supplier-payment/requisition-and-approval
+  touchpoints:
+  - purchase-request-form
+- slug: match-each-invoice
+  title: Match Each Invoice
+  goal: Each invoice is complete, free of duplicates and matched to order and receipt.
+  step: purchasing-and-supplier-payment/invoice-receipt-and-matching
+  touchpoints:
+  - supplier-invoice-channel
+- slug: pay-and-reconcile
+  title: Pay and Reconcile
+  goal: Matched invoices are paid within the fixed time, shortest for small and local suppliers, and each payment is recorded and
+    reconciled.
+  step: purchasing-and-supplier-payment/supplier-payment
+  touchpoints:
+  - supplier-payment-statement
+- slug: publish-payments-and-times
+  title: Publish Payments and Times
+  goal: Payments above the set amount and the time taken to pay are published for resident inspectors and the council.
+  step: purchasing-and-supplier-payment/spending-and-payment-publication
+  touchpoints:
+  - published-payments-register

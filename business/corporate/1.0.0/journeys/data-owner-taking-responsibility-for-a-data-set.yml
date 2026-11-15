@@ -1,0 +1,32 @@
+kind: journey
+slug: data-owner-taking-responsibility-for-a-data-set
+title: Data Owner Taking Responsibility for a Data Set
+stakeholder: site-manager
+summary: A unit leader takes ownership of a data set, keeps its master data under agreed rules, corrects defects where they arise
+  and applies retention rules to its records.
+stages:
+- slug: accept-ownership
+  title: Accept Ownership
+  goal: The unit leader is named owner and has appointed a steward for the data set.
+  step: information-as-lifeblood/data-ownership-and-cataloguing
+  touchpoints:
+  - data-catalogue
+- slug: keep-master-data-right
+  title: Keep Master Data Right
+  goal: Master data is created, changed and retired under agreed rules.
+  step: information-as-lifeblood/master-data-maintenance
+  touchpoints:
+  - master-data-request
+- slug: correct-defects-at-source
+  title: Correct Defects at Source
+  goal: Defects found in the data are corrected where they arise.
+  step: information-as-lifeblood/data-quality-assurance
+  touchpoints:
+  - data-quality-dashboard
+- slug: keep-and-dispose-lawfully
+  title: Keep and Dispose Lawfully
+  goal: The unit's records are kept for their periods and disposed of lawfully.
+  step: information-as-lifeblood/retention-and-disposal
+  touchpoints:
+  - retention-schedule
+  - records-repository

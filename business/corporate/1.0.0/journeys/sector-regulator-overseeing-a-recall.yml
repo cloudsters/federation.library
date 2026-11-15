@@ -1,0 +1,33 @@
+kind: journey
+slug: sector-regulator-overseeing-a-recall
+title: Sector Regulator Overseeing a Recall
+stakeholder: sector-regulator
+summary: A sector regulator receives the notification, follows the public warning, monitors whether the recall reaches every affected
+  customer and receives the final report.
+stages:
+- slug: receive-the-notification
+  title: Receive the Notification
+  goal: The notification arrives within the deadline and states the hazard, the products and the planned response.
+  step: safety-recall-integrity/authority-notification
+  touchpoints:
+  - statutory-filing
+- slug: follow-the-public-warning
+  title: Follow the Public Warning
+  goal: The warning to customers and the public is clear, timely and consistent with the notification.
+  step: safety-recall-integrity/customer-and-public-communication
+  touchpoints:
+  - safety-and-recall-notice
+  - press-release
+- slug: monitor-effectiveness
+  title: Monitor Effectiveness
+  goal: Progress reports and inspections show whether the recall reaches the affected products.
+  step: safety-recall-integrity/recall-execution-and-effectiveness
+  touchpoints:
+  - recall-progress-report
+  - official-inspection
+- slug: receive-the-final-report
+  title: Receive the Final Report
+  goal: The final report shows the outcome and the correction of the cause.
+  step: safety-recall-integrity/recall-closure-and-learning
+  touchpoints:
+  - recall-progress-report

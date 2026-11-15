@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: operations-centre
+title: Operations Centre
+medium: place
+summary: The room from which staff watch the city's systems and networks for availability, load and capacity and restore incidents.
+exchanges:
+- load-warnings-for-growth-met-in-time
+- escalation-for-restoration-within-contract
+journey: information-technology-specialist-keeping-services-running

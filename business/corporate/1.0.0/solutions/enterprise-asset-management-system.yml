@@ -1,0 +1,36 @@
+kind: solution
+slug: enterprise-asset-management-system
+title: Enterprise Asset Management System
+role: system-of-record
+summary: Holds the register of physical assets, equipment and vehicles with their structure, condition, maintenance plans, requests,
+  inspections and costs from acquisition to disposal.
+carries:
+- asset-acquisition-with-care
+- asset-design-with-craft
+- asset-strategy-design
+- teardown-and-part-sorting
+- end-of-life-compliance
+- end-of-life-planning
+- safe-site-abandonment
+- preventive-care-design
+- material-recovery-and-recycling
+- responsible-decommissioning
+- responsive-maintenance
+- steward-take-back-centers
+- sustainable-asset-design
+- part-disposition-traceability
+- spare-parts-management
+- asset-investment-planning
+- asset-register-management
+- fleet-management
+- reliability-engineering
+- statutory-inspection
+- asset-remarketing
+- calibration-management
+holds:
+- asset
+- equipment
+- vehicle
+- digital-twin-asset
+- maintenance-request
+- work-order

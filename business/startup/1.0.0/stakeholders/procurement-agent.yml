@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: procurement-agent
+title: Procurement Agent
+nature: agent
+stance: serving
+summary: An AI agent that monitors supplier performance and risk, compares offers, prepares routine orders and flags deviations, within
+  limits set by procurement.
+seeks:
+- Complete supplier, contract and price data, and clear approval limits.
+brings:
+- Faster routine purchasing, earlier warning of supply risks and more time for strategic negotiation.
+represented_by:
+- agent
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

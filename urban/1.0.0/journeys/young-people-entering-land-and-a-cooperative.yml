@@ -1,0 +1,32 @@
+kind: journey
+slug: young-people-entering-land-and-a-cooperative
+title: Young People Entering Land and a Cooperative
+stakeholder: young-people
+summary: A young farmer is matched with an older farmer stepping back, borrows from the succession fund to buy in, joins the cooperative
+  of farmers at a reduced share cost earned over years and enters a plot under a mentor on a use right recorded beside the land registry.
+stages:
+- slug: be-matched-with-an-older-farmer
+  title: Be Matched with an Older Farmer
+  goal: The young farmer is matched with an older farmer stepping back, who mentors them in the land and the trade.
+  step: enterprise-and-tenure-succession/successor-matching-and-mentoring
+  touchpoints:
+  - succession-peer-circle
+- slug: borrow-to-buy-in
+  title: Borrow to Buy In
+  goal: A loan from the succession fund lets the young farmer buy in on terms that keep the land and its wealth local.
+  step: enterprise-and-tenure-succession/transition-capital
+  touchpoints:
+  - transition-loan-agreement
+- slug: join-at-a-fair-share
+  title: Join at a Fair Share
+  goal: The cooperative admits the young farmer at a reduced share cost earned in full over several years.
+  step: enterprise-and-tenure-succession/member-equity-transition
+  touchpoints:
+  - member-share-statement
+- slug: enter-the-plot-under-a-mentor
+  title: Enter the Plot Under a Mentor
+  goal: The young farmer enters a plot under a mentor, with the use right and its obligations recorded.
+  step: enterprise-and-tenure-succession/land-use-right-transfer
+  touchpoints:
+  - starter-plot
+  - use-right-transfer-entry

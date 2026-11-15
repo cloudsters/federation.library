@@ -1,0 +1,13 @@
+kind: capability
+slug: simulation-centre-operations
+title: Simulation Centre Operations
+level: L3
+parent: simulation-training
+summary: Operate the simulation centre with scenarios, equipment and trained faculty.
+binds:
+- source: src-313
+  edition: '2025'
+  jurisdiction: global
+- source: src-346
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,133 @@
+# startup's family loop: corporate's loop of the same slug, its streams those of startup 
+loop: _family.discovery-to-usage
+title: Keep the family 'Discovery to Usage' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: discovery-to-usage
+  vs:
+  - offering-portfolio-stewardship
+  - research-and-technology-development
+  - offering-discovery-ideation
+  - offering-design-craft
+  - experience-strategy-design
+  - experience-delivery-care
+  - post-delivery-stewardship
+  - experience-sensing-evolution
+  - product-market-fit
+stance: Conceive, craft, deliver, evolve the offerings. No single stream of this family can see what its streams do to one
+  another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/discovery-to-usage
+  - value-model.yml#vs/offering-portfolio-stewardship
+  - value-model.yml#vs/research-and-technology-development
+  - value-model.yml#vs/offering-discovery-ideation
+  - value-model.yml#vs/offering-design-craft
+  - value-model.yml#vs/experience-strategy-design
+  - value-model.yml#vs/experience-delivery-care
+  - value-model.yml#vs/post-delivery-stewardship
+  - value-model.yml#vs/safety-recall-integrity
+  - value-model.yml#vs/experience-sensing-evolution
+  registry:
+  - instance/registry/5_value-streams/offering-portfolio-stewardship.md
+  - instance/registry/5_value-streams/research-and-technology-development.md
+  - instance/registry/5_value-streams/offering-discovery-ideation.md
+  - instance/registry/5_value-streams/offering-design-craft.md
+  - instance/registry/5_value-streams/experience-strategy-design.md
+  - instance/registry/5_value-streams/experience-delivery-care.md
+  - instance/registry/5_value-streams/post-delivery-stewardship.md
+  - instance/registry/5_value-streams/safety-recall-integrity.md
+  - instance/registry/5_value-streams/experience-sensing-evolution.md
+  loop_states:
+  - instance/operations/loops/_state/offering-portfolio-stewardship.yml
+  - instance/operations/loops/_state/research-and-technology-development.yml
+  - instance/operations/loops/_state/offering-discovery-ideation.yml
+  - instance/operations/loops/_state/offering-design-craft.yml
+  - instance/operations/loops/_state/experience-strategy-design.yml
+  - instance/operations/loops/_state/experience-delivery-care.yml
+  - instance/operations/loops/_state/post-delivery-stewardship.yml
+  - instance/operations/loops/_state/safety-recall-integrity.yml
+  - instance/operations/loops/_state/experience-sensing-evolution.yml
+  measures:
+  - accepted-claims-with-failure-cause-fed-back
+  - affected-customers-reached-within-thirty-days
+  - authority-notifications-within-deadline
+  - channels-with-experience-standards-in-force
+  - closed-concepts-with-a-documented-reason
+  - closed-research-lines-with-documented-findings
+  - complaint-resolution-time
+  - concept-to-release-time
+  - concepts-entering-design-with-evidence-and-sponsor
+  - concepts-with-a-tested-business-case
+  - concerns-resolved-within-service-level
+  - cost-per-resolved-customer-case
+  - customer-ease-across-the-journey
+  - customer-facing-staff-trained-to-current-standards
+  - development-cost-per-released-offering
+  - development-projects-on-time-and-on-budget
+  - engineering-changes-after-release
+  - feedback-requests-per-customer
+  - feedback-response-rate
+  - first-contact-resolution
+  - idea-to-concept-decision-time
+  - ideas-answered-to-their-contributor
+  - improvement-actions-implemented-and-remeasured
+  - intellectual-assets-reviewed-on-schedule
+  - journey-obstacles-removed
+  - net-recommendation-balance
+  - new-customers-in-productive-use-within-thirty-days
+  - offering-designs-released-as-validated
+  - offerings-and-variants-with-negative-contribution
+  - offerings-with-a-current-lifecycle-decision
+  - portfolio-reviews-held-on-schedule
+  - public-reviews-answered-within-seven-days
+  - recall-effectiveness
+  - recalls-closed-with-cause-removed
+  - rejected-claims-overturned-on-review
+  - reopened-customer-cases
+  - repeat-recalls-for-a-known-cause
+  - research-and-development-spend-share-of-revenue
+  - research-lines-handed-to-offering-design
+  - research-lines-with-a-stop-criterion
+  - retirements-with-a-customer-migration-path
+  - revenue-from-recently-introduced-offerings
+  - satisfaction-with-concern-handling
+  - segments-with-defined-service-levels
+  - service-agreement-renewal-rate
+  - supplier-share-of-warranty-cost-recovered
+  - test-customers-confirming-value
+  - time-from-research-start-to-maturity-decision
+  - time-from-safety-signal-to-recall-decision
+  - warranty-claims-decided-and-remedied-in-time
+  - warranty-cost-share-of-revenue
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.discovery-to-usage.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

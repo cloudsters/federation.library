@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: repair-knowledge-for-open-guides
+title: Repair Knowledge for Open Guides
+between:
+- older-resident
+- city-administration
+offered:
+- The older repairer's knowledge of diagnosis and repair, explained and shown.
+returned:
+- Guides that record it under their name, open to every resident and apprentice.
+touchpoint: open-repair-guides

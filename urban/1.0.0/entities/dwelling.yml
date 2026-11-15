@@ -1,0 +1,67 @@
+kind: entity
+slug: dwelling
+title: Dwelling
+type: master
+summary: A single home owned by the city, a partner or a cooperative, with its size, condition, access features, energy use and tenancy.
+  The housing office keeps the record with the owner, and uses it to match homes to households on the register, plan repairs and retrofit,
+  and let an empty home again quickly.
+attributes:
+- name: address
+  type: text
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: tenure-kind
+  type: code
+  card: 1..1
+- name: room-count
+  type: integer
+  card: 1..1
+- name: floor-area
+  type: quantity
+  card: 0..1
+- name: access-features
+  type: code
+  card: 0..*
+- name: energy-rating
+  type: code
+  card: 0..1
+- name: last-surveyed-on
+  type: date
+  card: 0..1
+- name: condition-findings
+  type: document
+  card: 0..1
+- name: rent
+  type: amount
+  card: 0..1
+- name: current-tenancy
+  type: reference(tenancy)
+  card: 0..1
+states:
+- acquired
+- available
+- offered
+- let
+- void
+- under-repair
+- disposed
+relations:
+- type: part-of
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: housing-policy
+- type: governed-by
+  target: service-standard
+- type: refers-to
+  target: tenancy
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

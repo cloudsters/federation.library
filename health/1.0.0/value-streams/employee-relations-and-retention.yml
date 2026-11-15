@@ -1,0 +1,127 @@
+kind: value-stream
+slug: employee-relations-and-retention
+title: Employee Relations and Retention
+family: contributor-to-succession
+summary: 'Keeping a fair and lasting relationship with staff: collective agreements, staff representation and co-determination, grievances,
+  recognition, flexible working and retention measures.'
+trigger: A collective agreement, co-determination matter or grievance arises, or turnover in a staff group rises.
+outcome: The matter is agreed or resolved with staff representatives, and retention measures reduce unwanted turnover.
+stakeholders:
+- staff-representation
+- executive
+- unit-manager
+- registered-nurse
+- administrative-staff
+steps:
+- slug: matter-intake
+  title: Matter Intake
+  summary: Register the matter, whether a bargaining round, a measure subject to co-determination, a grievance raised by staff or
+    rising turnover in a staff group, then classify it and assign an owner.
+  capabilities:
+  - employee-inquiry-service
+  - grievance-management
+  - labour-relations
+  - workforce-reporting
+  entities:
+  - grievance
+  - governance-decision
+  - measure-report
+  serves:
+  - appraisal-meeting
+  - hr-service-desk
+  - staff-consultation
+- slug: listening-and-analysis
+  title: Listening and Analysis
+  summary: Establish the facts and the staff's perspective through hearings, surveys, suggestions and exit data, and analyse the causes
+    of turnover and conflict.
+  capabilities:
+  - engagement-surveys
+  - employee-suggestions
+  - retention-management
+  - workforce-analytics-deployment
+  entities:
+  - measure-report
+  - grievance
+  - employment
+  serves:
+  - appraisal-meeting
+  - staff-assembly
+  - staff-survey-questionnaire
+  - suggestion-scheme
+- slug: consultation-and-negotiation
+  title: Consultation and Negotiation
+  summary: Inform and consult the staff representatives, negotiate collective and works agreements, and hear grievances in a fair
+    procedure with the right to representation.
+  capabilities:
+  - co-determination-cooperation
+  - collective-bargaining
+  - labour-relations
+  - grievance-management
+  entities:
+  - governance-body
+  - contract
+  - governance-decision
+  - grievance
+  serves:
+  - staff-consultation
+- slug: agreement-or-resolution
+  title: Agreement or Resolution
+  summary: Conclude the agreement, decide the measure jointly or resolve the grievance, with conciliation, arbitration or legal recourse
+    where agreement fails.
+  capabilities:
+  - collective-bargaining
+  - grievance-management
+  - legal-advisory
+  - dispute-and-litigation
+  entities:
+  - contract
+  - governance-decision
+  - grievance
+  serves:
+  - collective-agreement
+  - hr-service-desk
+  - staff-consultation
+- slug: retention-measures
+  title: Retention Measures
+  summary: 'Act on the causes of turnover: flexible working and childcare, recognition, career paths, workload relief and leadership
+    support in units with high turnover.'
+  capabilities:
+  - retention-management
+  - family-and-flexible-working-support
+  - reward-and-recognition
+  - staff-wellbeing-and-resilience
+  - diversity-and-inclusion
+  entities:
+  - improvement-initiative
+  - policy
+  - employment
+  serves:
+  - hr-self-service
+  - intranet
+- slug: implementation-and-communication
+  title: Implementation and Communication
+  summary: Implement what was agreed in policies, rosters and pay, and tell all staff what was decided and why.
+  capabilities:
+  - internal-communication
+  - policy-lifecycle-management
+  - workforce-policy-design
+  entities:
+  - policy
+  - contract
+  serves:
+  - intranet
+  - staff-assembly
+- slug: relations-review
+  title: Relations Review
+  summary: Review turnover, grievances, sickness absence and engagement over time, and judge with the staff representatives whether
+    the measures and the partnership work.
+  capabilities:
+  - retention-management
+  - engagement-surveys
+  - workforce-reporting
+  - integrated-performance-review
+  entities:
+  - measure-report
+  - dashboard
+  serves:
+  - staff-consultation

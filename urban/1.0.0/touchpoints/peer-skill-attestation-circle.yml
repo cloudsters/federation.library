@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: peer-skill-attestation-circle
+title: Peer Skill Attestation Circle
+medium: encounter
+summary: A gathering in which a learner shows a skill in practice and peers and practitioners who know the craft attest it, however
+  the skill was gained.
+exchanges:
+- peer-attestation-for-a-trusted-record
+- shown-skill-for-a-credential-employers-accept
+journey: job-seeker-learning-towards-secure-work

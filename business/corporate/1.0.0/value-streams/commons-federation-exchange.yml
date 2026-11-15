@@ -1,0 +1,92 @@
+kind: value-stream
+slug: commons-federation-exchange
+title: Commons Federation Exchange
+family: source-to-alliance
+summary: Source and settle across the federated commons network — agent-to-agent matching of internal needs against other sovereign
+  commons' surplus.
+trigger: A need arises that a federated member may meet, or a member offers surplus.
+outcome: The exchange is matched, settled fairly within mandate and recorded in the books of both members.
+stakeholders:
+- procurement-agent
+- partner
+- procurement-specialist
+- finance-operations-agent
+- executive-board
+steps:
+- slug: need-and-mandate-definition
+  title: Need and Mandate Definition
+  summary: 'An internal need is expressed as a typed need intent, and people authorise the mandate the agent acts within: price bounds,
+    minimum alignment, volume limits and escalation triggers.'
+  capabilities:
+  - autonomous-procurement
+  entities:
+  - need-intent
+  - agent-mandate
+  - approval
+  serves:
+  - agent-mandate
+  - published-need
+- slug: federated-matching
+  title: Federated Matching
+  summary: The agent continuously matches the need against offer intents in the federated network, including surplus that members
+    have announced.
+  capabilities:
+  - autonomous-procurement
+  entities:
+  - need-intent
+  - offer-intent
+  - commons-instance
+  serves:
+  - federated-exchange-network
+  - published-offer
+- slug: counterpart-fitness-check
+  title: Counterpart Fitness Check
+  summary: Before negotiating, the governance fitness, ecological accountability and relational continuity of each candidate member
+    are checked against verified evidence.
+  capabilities:
+  - commons-exchange-protocol
+  entities:
+  - trust-score
+  - verifiable-credential
+  - commons-instance
+  serves:
+  - verified-member-evidence
+- slug: agent-to-agent-negotiation
+  title: Agent-to-Agent Negotiation
+  summary: The agents of both members negotiate terms, service levels and the value exchanged within their mandates, and hand the
+    case to people when an escalation trigger is met.
+  capabilities:
+  - commons-exchange-protocol
+  entities:
+  - a2a-handshake
+  - agent-mandate
+  - service-level-agreement
+  - value-token
+  serves:
+  - agent-escalation
+  - agent-negotiation
+- slug: exchange-settlement-and-recording
+  title: Exchange Settlement and Recording
+  summary: The agreed exchange is performed and settled, and it is recorded with its mandate in the books of both members.
+  capabilities:
+  - commons-exchange-protocol
+  - autonomous-procurement
+  entities:
+  - a2a-handshake
+  - payment
+  - journal-entry
+  - value-token
+  serves:
+  - exchange-record
+- slug: mandate-review
+  title: Mandate Review
+  summary: People review escalations and the outcomes of agent exchanges at a fixed cadence and renew, adjust or withdraw the mandates.
+  capabilities:
+  - autonomous-procurement
+  - commons-exchange-protocol
+  entities:
+  - agent-mandate
+  - governance-decision
+  - report
+  serves:
+  - mandate-review-meeting

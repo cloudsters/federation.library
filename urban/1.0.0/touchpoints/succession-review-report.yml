@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: succession-review-report
+title: Succession Review Report
+medium: artefact
+summary: The yearly report to the council of how many businesses, homes and plots passed to successors in the community and how many
+  were sold away, and how the succession fund performed.
+exchanges:
+- placed-capital-for-a-reported-fund
+- succession-counts-for-council-decisions
+journey: community-land-trust-keeping-homes-and-land-in-the-community

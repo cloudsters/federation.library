@@ -1,0 +1,93 @@
+kind: value-stream
+slug: value-model-stewardship
+title: Value Model Stewardship
+family: purpose-to-portfolio
+summary: Making explicit how the organisation creates, delivers and captures value, for whom and at what cost, testing that logic
+  against results, and changing it deliberately and under governance when its assumptions no longer hold.
+trigger: The strategy calls for a new or changed value model, or results show that one of its assumptions no longer holds.
+outcome: A documented and tested value model is adopted and guides offering, pricing, sourcing and investment decisions.
+stakeholders:
+- executive-board
+- shareholder
+- product-manager
+- finance-professional
+- business-customer
+- partner
+steps:
+- slug: value-logic-mapping
+  title: Value Logic Mapping
+  summary: The current value model is made explicit, naming the offerings, the customers they serve, the value each stakeholder gives
+    and receives, and the revenue and cost logic behind it.
+  capabilities:
+  - value-model-design
+  entities:
+  - business-model
+  - product
+  - service
+  - customer
+  - stakeholder
+  serves:
+  - value-model-description
+- slug: assumption-testing
+  title: Assumption Testing
+  summary: The assumptions of the model are tested against margins by offering, customer and channel, customer evidence and market
+    shifts, and the ones that no longer hold are named.
+  capabilities:
+  - value-model-evolution
+  - profitability-analysis
+  entities:
+  - business-model
+  - measure-report
+  - market-insight
+  serves:
+  - account-review
+  - customer-insight-interview
+  - profitability-analysis
+- slug: horizon-commitment
+  title: Horizon Commitment
+  summary: The near, middle and far innovation horizons are planned, and the commitments the organisation makes on each are stated
+    with their share of resources.
+  capabilities:
+  - innovation-horizon-planning
+  entities:
+  - business-model
+  - plan
+  - initiative
+  serves:
+  - annual-report
+  - shareholder-meeting
+- slug: value-model-redesign
+  title: Value Model Redesign
+  summary: A changed model is designed, including how the value created is shared among owners, staff, customers and community, and
+    its economics are checked before commitment.
+  capabilities:
+  - value-model-design
+  - value-model-evolution
+  - value-distribution-governance
+  entities:
+  - business-model
+  - business-case
+  serves:
+  - board-meeting
+  - customer-insight-interview
+  - shareholder-meeting
+  - value-model-description
+- slug: value-model-adoption
+  title: Value Model Adoption
+  summary: The changed model is adopted by those who hold the mandate, recorded as a new version, and translated into the offering,
+    pricing, sourcing and investment decisions it governs.
+  capabilities:
+  - value-model-governance
+  entities:
+  - business-model
+  - governance-decision
+  - price-list
+  serves:
+  - account-review
+  - product-catalogue
+  - shareholder-meeting
+  - value-model-description
+binds:
+- source: src-035
+  edition: '15'
+  jurisdiction: global

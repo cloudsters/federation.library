@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: ai-technical-documentation
+title: AI Technical Documentation
+medium: artefact
+summary: The documentation an AI provider supplies, covering intended purpose, performance evidence, data description, instructions
+  for use, known limitations and the change plan.
+exchanges:
+- conformity-evidence-for-local-adoption
+- agent-supply-and-evidence
+journey: provider-through-local-assurance

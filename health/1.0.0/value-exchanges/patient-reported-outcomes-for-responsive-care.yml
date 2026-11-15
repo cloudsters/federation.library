@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: patient-reported-outcomes-for-responsive-care
+title: Patient-Reported Outcomes for Responsive Care
+between:
+- elective-inpatient
+- specialist-physician
+offered:
+- The patient reports symptoms, function and quality of life before and after treatment.
+returned:
+- The physician reviews the answers in the follow-up consultation, acts on the problems they reveal and uses the pooled results to
+  improve the service.
+touchpoint: patient-portal

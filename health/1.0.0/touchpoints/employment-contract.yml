@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: employment-contract
+title: Employment Contract
+medium: artefact
+summary: The signed contract that sets post, grade, working time, term and the applicable agreements, and that the employee keeps
+  as the basis of the employment.
+exchanges:
+- commitment-for-a-prepared-start
+journey: joining-as-a-new-colleague

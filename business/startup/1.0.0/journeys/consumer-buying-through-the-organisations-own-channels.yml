@@ -1,0 +1,40 @@
+kind: journey
+slug: consumer-buying-through-the-organisations-own-channels
+title: Consumer Buying Through the Organisation's Own Channels
+stakeholder: consumer
+summary: A consumer receives advice in a shop, browses and configures online, checks out with confidence, buys where they already
+  gather and finds the same offer and price in every channel.
+stages:
+- slug: get-advice-in-a-shop
+  title: Get Advice in a Shop
+  goal: The consumer is welcomed, advised and served at the counter.
+  step: direct-distribution/shop-and-branch-sales
+  touchpoints:
+  - store-and-branch
+- slug: browse-and-configure-online
+  title: Browse and Configure Online
+  goal: The catalogue, prices and content are current, and the consumer can configure and buy.
+  step: direct-distribution/web-shop-and-app-operation
+  touchpoints:
+  - online-shop
+  - mobile-app
+- slug: check-out-with-confidence
+  title: Check Out with Confidence
+  goal: Checkout is simple and transparent and the order is confirmed with its terms.
+  step: direct-distribution/checkout-and-order-capture
+  touchpoints:
+  - online-shop
+  - order-confirmation
+- slug: buy-where-friends-gather
+  title: Buy Where Friends Gather
+  goal: The consumer can buy on the social platforms they already use, from the same catalogue.
+  step: direct-distribution/social-selling
+  touchpoints:
+  - social-shop
+- slug: find-the-same-offer-everywhere
+  title: Find the Same Offer Everywhere
+  goal: Offer, price and information are the same in shop, web shop and app.
+  step: direct-distribution/channel-consistency-and-performance-review
+  touchpoints:
+  - online-shop
+  - store-and-branch

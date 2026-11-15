@@ -1,0 +1,13 @@
+kind: capability
+slug: point-of-care-testing
+title: Point-of-Care Testing
+level: L3
+parent: laboratory-testing-process
+summary: Provide and supervise testing at the bedside with trained users, approved devices and quality control.
+binds:
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-441
+  edition: A2 (2006)
+  jurisdiction: global

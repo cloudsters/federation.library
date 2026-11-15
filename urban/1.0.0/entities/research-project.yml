@@ -1,0 +1,63 @@
+kind: entity
+slug: research-project
+title: Urban Research Project
+type: transactional
+summary: A research initiative studying the city, with its questions, its investigators among researchers, residents and frontline
+  workers, its data and its findings. The research institution and the responsible department run and record it under the research
+  partnership, and its data and findings are returned to those who took part and to the city's knowledge.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: questions
+  type: text
+  card: 1..*
+- name: agenda
+  type: reference(research-agenda)
+  card: 0..1
+- name: partnership
+  type: reference(research-partnership-agreement)
+  card: 0..1
+- name: investigators
+  type: text
+  card: 1..*
+- name: co-investigators
+  type: text
+  card: 0..*
+- name: participant-compensation
+  type: text
+  card: 0..1
+- name: data-sets
+  type: reference(data-set)
+  card: 0..*
+- name: data-agreement
+  type: reference(data-sharing-agreement)
+  card: 0..1
+- name: project-period
+  type: period
+  card: 1..1
+- name: findings
+  type: document
+  card: 0..*
+- name: findings-returned-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- approved
+- under-way
+- analysing
+- reported
+- returned
+- closed
+relations:
+- type: based-on
+  target: research-agenda
+- type: governed-by
+  target: research-partnership-agreement
+- type: governed-by
+  target: data-sharing-agreement
+- type: produces
+  target: open-data-release
+- type: produces
+  target: lesson-record

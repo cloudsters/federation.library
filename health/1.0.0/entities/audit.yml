@@ -1,0 +1,49 @@
+kind: entity
+slug: audit
+title: Audit
+type: transactional
+summary: A planned examination of whether processes, records or units meet defined requirements, such as an internal quality
+  audit, a hygiene audit, a records audit or an external inspection, ending in findings.
+attributes:
+- name: audit-kind
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: audited-units
+  type: reference(organisation-unit)
+  card: 1..*
+- name: criteria
+  type: reference(compliance-obligation)
+  card: 0..*
+- name: auditors
+  type: reference(employee)
+  card: 0..*
+- name: external-auditor
+  type: reference(organisation)
+  card: 0..1
+- name: audit-period
+  type: period
+  card: 1..1
+states:
+- planned
+- in-fieldwork
+- reporting
+- closed
+relations:
+- type: governed-by
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-300
+  edition: '2026'
+  jurisdiction: global

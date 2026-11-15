@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: ready-case-cart-for-complete-implant-records
+title: Ready Case Cart for Complete Implant Records
+between:
+- support-services-staff
+- surgeon
+offered:
+- A complete case cart with the planned implants, sizes and materials in the theatre before the operation starts.
+returned:
+- Current preference lists, timely changes to the theatre schedule and a scanned record of every implant and material used.
+touchpoint: operating-theatre

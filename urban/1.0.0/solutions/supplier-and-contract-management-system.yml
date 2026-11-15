@@ -1,0 +1,27 @@
+kind: solution
+slug: supplier-and-contract-management-system
+title: Supplier and Contract Management System
+role: system-of-record
+summary: Keeps each supplier once with its ownership, size, location and performance, and each contract with its obligations, service
+  levels, commitments, reports, variations, reviews, exit plan and end date, so that renewal is decided in time.
+carries:
+- contract-register-keeping
+- contract-mobilisation
+- contract-performance-monitoring
+- contract-user-feedback-gathering
+- contract-variation-and-remedy
+- supplier-performance-review
+- contract-renewal-decision
+- social-value-commitment-tracking
+- supplier-capacity-building
+- alternative-supplier-qualification
+holds:
+- supplier-record
+- contract-register
+- contract-performance-report
+- contract-variation
+- supplier-review
+- framework-agreement
+- supplier-development-plan
+- standby-supply-agreement
+- supplier-exit-plan

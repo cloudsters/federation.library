@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: discharge-notice-for-care-ready-at-home
+title: Discharge Notice for Care Ready at Home
+between:
+- health-and-care-provider
+- social-worker
+offered:
+- The planned date of discharge and the person's care needs, in good time.
+returned:
+- Care ready at home on the day, and confirmation that the handover took place.
+touchpoint: hospital-discharge-planning-meeting

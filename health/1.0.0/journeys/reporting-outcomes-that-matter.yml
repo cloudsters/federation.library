@@ -1,0 +1,51 @@
+kind: journey
+slug: reporting-outcomes-that-matter
+title: Reporting Outcomes That Matter
+stakeholder: elective-inpatient
+summary: How a patient contributes their own view of the result of treatment and sees it used, in their own care and in the improvement
+  of the service.
+stages:
+- slug: shaping-what-is-asked
+  title: Shaping What Is Asked
+  goal: Questions cover what matters to patients, such as pain, function and return to daily life.
+  step: quality-and-outcome-measurement/indicator-set
+  touchpoints:
+  - patient-advisory-council
+- slug: answering-questionnaires
+  title: Answering Questionnaires
+  goal: Complete short questionnaires before and after treatment at a convenient moment and through a convenient channel.
+  step: quality-and-outcome-measurement/outcome-data-capture
+  touchpoints:
+  - outcome-questionnaire
+  - patient-portal
+- slug: answers-counted-correctly
+  title: Answers Counted Correctly
+  goal: Own answers are linked to the right treatment and counted in the results.
+  step: quality-and-outcome-measurement/calculation-and-validation
+  touchpoints:
+  - patient-portal
+- slug: fair-comparison
+  title: Fair Comparison
+  goal: Results are compared fairly, so that a commons treating sicker patients is not judged worse.
+  step: quality-and-outcome-measurement/benchmarking
+  touchpoints:
+  - public-quality-report
+- slug: answers-used-in-care
+  title: Answers Used in Care
+  goal: The care team sees the answers and acts on problems in the follow-up consultation.
+  step: quality-and-outcome-measurement/internal-feedback
+  touchpoints:
+  - consultation
+- slug: problems-followed-up
+  title: Problems Followed Up
+  goal: Poor results lead to visible changes in the service, reported back to patient representatives.
+  step: quality-and-outcome-measurement/outlier-analysis-and-action
+  touchpoints:
+  - patient-advisory-council
+- slug: results-made-public
+  title: Results Made Public
+  goal: Find the service's results, including patient-reported outcomes, when choosing where to be treated.
+  step: quality-and-outcome-measurement/external-and-public-reporting
+  touchpoints:
+  - public-quality-report
+  - public-website

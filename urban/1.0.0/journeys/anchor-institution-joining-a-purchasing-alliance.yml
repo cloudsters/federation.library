@@ -1,0 +1,38 @@
+kind: journey
+slug: anchor-institution-joining-a-purchasing-alliance
+title: Anchor Institution Joining a Purchasing Alliance
+stakeholder: anchor-institution
+summary: An anchor institution brings its needs to the partners' table, signs the joint purchasing agreement, takes part in the joint
+  tender, orders under the shared framework and reviews with the other parties how savings were shared.
+stages:
+- slug: bring-its-needs
+  title: Bring Its Needs
+  goal: The institution's needs are set beside those of the city and its neighbours.
+  step: joint-purchasing-and-purchasing-alliances/shared-demand-identification
+  touchpoints:
+  - purchasing-partners-meeting
+- slug: sign-the-agreement
+  title: Sign the Agreement
+  goal: The institution's board has approved the agreement, and its decisions remain its own.
+  step: joint-purchasing-and-purchasing-alliances/joint-purchasing-agreement
+  touchpoints:
+  - joint-purchasing-agreement-negotiation
+- slug: help-score-the-joint-tender
+  title: Help Score the Joint Tender
+  goal: The institution's evaluators have scored the joint bids on the agreed criteria.
+  step: joint-purchasing-and-purchasing-alliances/joint-tender-and-framework-award
+  touchpoints:
+  - bid-evaluation-meeting
+- slug: call-off-its-volumes
+  title: Call Off Its Volumes
+  goal: The institution orders under the shared framework within the volumes it committed.
+  step: joint-purchasing-and-purchasing-alliances/member-call-off
+  touchpoints:
+  - call-off-order
+- slug: share-the-savings
+  title: Share the Savings
+  goal: The institution has its share of savings and costs by the agreed rule and has helped revise the agreement.
+  step: joint-purchasing-and-purchasing-alliances/savings-sharing-and-alliance-review
+  touchpoints:
+  - shared-procurement-board-meeting
+  - published-alliance-review

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: health-alert-message
+title: Health Alert Message
+medium: channel
+summary: The warning of an outbreak or an environmental threat to health, sent first to the residents most at risk in their languages
+  and in the way they asked to be reached, with the help on offer.
+exchanges:
+- contact-preferences-for-early-warning
+journey: community-health-worker-keeping-the-neighbourhood-well

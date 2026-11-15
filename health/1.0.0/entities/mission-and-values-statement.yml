@@ -1,0 +1,39 @@
+kind: entity
+slug: mission-and-values-statement
+title: Mission and Values Statement
+type: governance
+summary: The organisation's adopted statement of why it exists, what it commits to across care, research and teaching, the
+  values that bind its people and the boundary of what it does and does not do, reviewed at set intervals.
+attributes:
+- name: mission
+  type: text
+  card: 1..1
+- name: values
+  type: text
+  card: 1..*
+- name: activity-boundary
+  type: text
+  card: 0..1
+- name: adopted-by
+  type: reference(governance-body)
+  card: 1..*
+- name: adoption
+  type: reference(governance-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: content
+  type: document
+  card: 1..1
+states:
+- draft
+- in-consultation
+- adopted
+- under-review
+- withdrawn
+relations:
+- type: governed-by
+  target: charter
+- type: based-on
+  target: governance-decision

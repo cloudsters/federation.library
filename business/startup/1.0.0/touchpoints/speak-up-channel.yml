@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: speak-up-channel
+title: Speak-Up Channel
+medium: channel
+summary: The confidential channel, open to employees and outsiders, through which concerns and reports of misconduct are raised, if
+  wished anonymously, and followed up without retaliation.
+exchanges:
+- concern-for-protection
+journey: employee-raising-an-integrity-concern

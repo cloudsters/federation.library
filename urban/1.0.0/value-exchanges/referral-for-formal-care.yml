@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: referral-for-formal-care
+title: Referral for Formal Care
+between:
+- community-development-worker
+- caregiver
+offered:
+- A link to formal care, health and social services, made with the family's consent.
+returned:
+- Knowledge of where neighbours' help no longer suffices.
+touchpoint: care-service-referral

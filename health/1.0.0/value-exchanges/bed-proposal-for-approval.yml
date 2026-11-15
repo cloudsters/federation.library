@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: bed-proposal-for-approval
+title: Bed Proposal for Approval
+between:
+- operations-planning-agent
+- registered-nurse
+offered:
+- Forecasts of admissions and discharges and proposed bed placements that respect specialty, isolation and acuity.
+returned:
+- Approval or change by the patient-flow nurse, recorded so that forecasts and proposals improve.
+touchpoint: capacity-board

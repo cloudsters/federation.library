@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clinical-logic-for-decision-support
+title: Clinical Logic for Decision Support
+between:
+- specialist-physician
+- health-informatics-specialist
+offered:
+- Clinicians state the clinical logic, approve the rules and report prompts that are wrong or intrusive.
+returned:
+- Informatics turns the logic into tested, versioned decision support that appears at the right moment in the workflow.
+touchpoint: clinical-workstation

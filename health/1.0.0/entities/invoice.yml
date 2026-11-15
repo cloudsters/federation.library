@@ -1,0 +1,43 @@
+kind: entity
+slug: invoice
+title: Invoice
+type: transactional
+summary: A bill issued or received by the organisation outside payer claims, such as a self-paying patient's bill, a bill for elective
+  extras, a bill to a research sponsor or a supplier's invoice.
+attributes:
+- name: direction
+  type: code
+  card: 1..1
+- name: invoice-identifier
+  type: identifier
+  card: 1..1
+- name: counterparty
+  type: reference(organisation)
+  card: 0..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: issued-on
+  type: date
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+states:
+- draft
+- issued
+- received
+- approved
+- paid
+- overdue
+- cancelled
+relations:
+- type: based-on
+  target: purchase-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

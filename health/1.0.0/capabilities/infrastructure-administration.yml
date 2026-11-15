@@ -1,0 +1,10 @@
+kind: capability
+slug: infrastructure-administration
+title: Infrastructure Administration
+level: L3
+parent: infrastructure
+summary: Administer servers, storage and platforms.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

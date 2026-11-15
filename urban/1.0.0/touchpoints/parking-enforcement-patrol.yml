@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: parking-enforcement-patrol
+title: Parking Enforcement Patrol
+medium: encounter
+summary: The patrol that keeps loading zones, disabled parking, cycle lanes and dropped kerbs clear and records breaches.
+exchanges:
+- loading-discipline-for-reliable-kerb-space
+- blocked-kerb-reports-for-a-kerb-kept-clear
+journey: older-resident-crossing-and-walking-safely

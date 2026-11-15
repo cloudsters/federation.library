@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: grievance-hearing
+title: Grievance Hearing
+medium: encounter
+summary: The meeting in which a grievance is heard, the facts and views of both sides are taken and a reasoned decision is given.
+exchanges:
+- grievance-for-a-fair-hearing
+journey: employee-raising-a-grievance

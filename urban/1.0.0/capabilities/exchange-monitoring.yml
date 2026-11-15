@@ -1,0 +1,6 @@
+kind: capability
+slug: exchange-monitoring
+title: Data Exchange Monitoring
+level: L3
+parent: interoperability-and-integration
+summary: Monitor live exchanges for failures and delays and keep a failure in one platform from spreading.

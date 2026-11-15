@@ -1,0 +1,39 @@
+kind: entity
+slug: corrective-action
+title: Corrective Action
+type: transactional
+summary: An action assigned to remove the cause of a finding, incident, complaint, case review or risk, with owner, deadline
+  and a check that it worked.
+attributes:
+- name: action
+  type: text
+  card: 1..1
+- name: source-kind
+  type: code
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: responsible
+  type: reference(employee)
+  card: 0..1
+- name: due-date
+  type: date
+  card: 1..1
+- name: effectiveness-check
+  type: text
+  card: 0..1
+states:
+- proposed
+- assigned
+- in-progress
+- completed
+- verified-effective
+- ineffective
+relations:
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

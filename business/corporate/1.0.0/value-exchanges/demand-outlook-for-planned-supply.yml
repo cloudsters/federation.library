@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: demand-outlook-for-planned-supply
+title: Demand Outlook for Planned Supply
+between:
+- distributor
+- sales-representative
+offered:
+- Its demand outlook per market and segment, including promotions and local shifts.
+returned:
+- Supply planned against the forecast, and allocation that honours the outlook it shared.
+touchpoint: partner-business-review

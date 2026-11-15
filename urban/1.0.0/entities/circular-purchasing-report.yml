@@ -1,0 +1,57 @@
+kind: entity
+slug: circular-purchasing-report
+title: Circular Purchasing Report
+type: intelligence
+summary: The yearly account of purchases repaired, reused, reclaimed or taken back, the embedded carbon avoided and how each category
+  kept to its limits. The procurement office compiles it with the environment department, and the council uses it to revise the limits.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: repaired-share
+  type: decimal
+  card: 0..1
+- name: reused-share
+  type: decimal
+  card: 0..1
+- name: reclaimed-share
+  type: decimal
+  card: 0..1
+- name: quantity-taken-back
+  type: quantity
+  card: 0..1
+- name: pool-loans
+  type: integer
+  card: 0..1
+- name: embedded-carbon
+  type: quantity
+  card: 1..1
+- name: carbon-avoided
+  type: quantity
+  card: 0..1
+- name: category-results
+  type: document
+  card: 1..1
+- name: categories-over-limit
+  type: reference(procurement-category)
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- reviewed
+- published
+- debated
+- superseded
+relations:
+- type: based-on
+  target: take-back-record
+- type: based-on
+  target: carbon-footprint
+- type: refers-to
+  target: climate-action-plan
+- type: refers-to
+  target: equipment-pool
+- type: produces
+  target: public-record

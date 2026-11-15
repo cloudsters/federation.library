@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: network-trust-agreement
+title: Network Trust Agreement
+medium: artefact
+summary: The agreement by which network assets are placed in a public or community trust that keeps them commons, with the duty of
+  the trust running to the community.
+exchanges:
+- network-assets-for-a-commons-trust
+journey: community-network-operator-running-a-neighbourhood-network

@@ -1,0 +1,10 @@
+kind: capability
+slug: employee-suggestions
+title: Employee Suggestions
+level: L3
+parent: wellbeing-and-retention
+summary: Collect and implement staff ideas for improvement.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

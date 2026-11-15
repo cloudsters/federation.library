@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-cases-for-human-decisions
+title: Prepared Cases for Human Decisions
+between:
+- municipal-ai-agent
+- frontline-worker
+offered:
+- Cases prepared and flagged at the points where a person must decide.
+returned:
+- Decisions taken by a person, overrides that correct the agent and reports of its faults.
+touchpoint: override-and-escalation-route

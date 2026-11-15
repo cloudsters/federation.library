@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reuse-request-for-community-terms
+title: Reuse Request for Community Terms
+between:
+- research-institution
+- community-story-council
+offered:
+- A request to reuse stories about the community, with its purpose and framing.
+returned:
+- An answer on the community's terms, with the attribution and limits it sets.
+touchpoint: story-reuse-request-review

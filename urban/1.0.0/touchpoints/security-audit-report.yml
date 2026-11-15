@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: security-audit-report
+title: Security Audit Report
+medium: artefact
+summary: The report to the council of the audit of the city's security controls, with its findings, the account of each outage and
+  the lessons built into the systems.
+exchanges:
+- audit-findings-for-built-in-lessons
+- outage-account-for-improved-fallbacks
+journey: information-technology-specialist-protecting-the-city-systems

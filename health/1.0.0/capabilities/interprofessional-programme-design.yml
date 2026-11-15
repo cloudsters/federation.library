@@ -1,0 +1,16 @@
+kind: capability
+slug: interprofessional-programme-design
+title: Interprofessional Programme Design
+level: L3
+parent: interprofessional-learning
+summary: Design interprofessional learning modules and their assessment.
+binds:
+- source: src-467
+  edition: 3 (2023)
+  jurisdiction: global
+- source: src-479
+  edition: '2010'
+  jurisdiction: global
+- source: src-481
+  edition: '2024'
+  jurisdiction: global

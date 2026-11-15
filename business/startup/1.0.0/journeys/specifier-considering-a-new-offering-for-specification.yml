@@ -1,0 +1,32 @@
+kind: journey
+slug: specifier-considering-a-new-offering-for-specification
+title: Specifier Considering a New Offering for Specification
+stakeholder: specifier
+summary: A planner, architect or engineer who writes specifications brings planning practice into the design, evaluates samples, checks
+  the certificates and receives data that can be written into projects.
+stages:
+- slug: bring-planning-requirements
+  title: Bring Planning Requirements
+  goal: The requirements of planning practice shape the design before it is fixed.
+  step: offering-design-craft/co-creative-design
+  touchpoints:
+  - co-design-workshop
+- slug: evaluate-a-sample
+  title: Evaluate a Sample
+  goal: The specifier tests samples and judges whether the offering is fit to specify.
+  step: offering-design-craft/market-resonance-test
+  touchpoints:
+  - sample-and-trial
+- slug: check-the-certificates
+  title: Check the Certificates
+  goal: The declarations and certificates the specifier needs are available and complete.
+  step: offering-design-craft/conformity-and-certification
+  touchpoints:
+  - declaration-of-conformity
+- slug: write-it-into-a-specification
+  title: Write It into a Specification
+  goal: Verified technical data and documentation are released in a form that can be written into specifications.
+  step: offering-design-craft/delivery-readiness-and-release
+  touchpoints:
+  - technical-specification
+  - product-catalogue

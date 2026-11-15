@@ -1,0 +1,20 @@
+kind: body
+slug: supervisory-board
+title: Supervisory Board
+summary: 'Oversees the executive board on the owner''s behalf: approves strategy, business plan and major investments, appoints
+  and reviews the executive members and examines the accounts. Where the owner runs the commons directly, the owner''s chief
+  executive or one of its committees fills this seat.'
+holds:
+- strategy-and-governance
+- care-delivery
+- diagnostic-and-therapeutic-services
+- quality-and-safety
+- research-and-innovation
+- education-and-training
+- people-and-workforce
+- finance-and-funding
+- digital-and-data
+- infrastructure-and-supply
+part_of: owner-assembly
+type: board
+form: governing-body

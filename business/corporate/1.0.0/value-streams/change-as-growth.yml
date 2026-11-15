@@ -1,0 +1,99 @@
+kind: value-stream
+slug: change-as-growth
+title: Change as Growth
+family: collaboration-to-automation
+summary: 'Leading people from the old way of working to the new: the impact of a change and the readiness for it are assessed, the
+  change is designed and agreed with employee representatives, carried out with those affected and sustained until it holds.'
+trigger: A strategy, reorganisation, new system or process change alters how people work.
+outcome: The affected people work in the new way, and adoption is measured and sustained.
+stakeholders:
+- executive-board
+- employee
+- works-council
+- human-resources-professional
+- site-manager
+steps:
+- slug: impact-and-readiness-assessment
+  title: Impact and Readiness Assessment
+  summary: The groups affected, the current and future state, the depth of impact, the cultural context and the barriers and enablers
+    of the change are assessed together with the people concerned.
+  capabilities:
+  - change-readiness-cultivation
+  entities:
+  - change-request
+  - risk
+  - survey
+  - department
+  serves:
+  - change-impact-workshop
+  - works-council-meeting
+- slug: change-design
+  title: Change Design
+  summary: The change plan sets out champions, new roles, communication, training, incentives and adoption measures, and names what
+    is ending as well as what is coming.
+  capabilities:
+  - change-navigation
+  - change-readiness-cultivation
+  entities:
+  - plan
+  - communication
+  - course
+  - position
+  - kpi
+  serves:
+  - change-plan
+  - intranet
+- slug: consultation-of-employee-representatives
+  title: Consultation of Employee Representatives
+  summary: Employee representatives are informed and consulted in good time, their consent is obtained where it is required, and disagreement
+    is resolved by the agreed route before the change takes effect.
+  capabilities:
+  - co-determination-cooperation
+  entities:
+  - governance-decision
+  - agreement
+  - communication
+  serves:
+  - works-council-meeting
+- slug: transition-and-implementation
+  title: Transition and Implementation
+  summary: Processes and systems are changed, commitment is built through two-way communication, and people are accompanied into new
+    roles or supported on their way out.
+  capabilities:
+  - change-adoption
+  - change-navigation
+  entities:
+  - process-model
+  - position
+  - communication
+  - course-registration
+  serves:
+  - practice-briefing
+  - staff-assembly
+- slug: adoption-monitoring
+  title: Adoption Monitoring
+  summary: Adoption measures and feedback from the affected teams are followed after launch, progress is reported to the sponsors,
+    and the new way is reinforced where it does not yet hold.
+  capabilities:
+  - change-adoption
+  - improvement-anchoring
+  entities:
+  - kpi
+  - measure-report
+  - survey
+  - report
+  serves:
+  - adoption-review
+- slug: consolidation-and-lessons
+  title: Consolidation and Lessons
+  summary: The performance of the changed process is watched until the gains are secure, drift is corrected, and the lessons of the
+    change are captured for the next one.
+  capabilities:
+  - improvement-anchoring
+  entities:
+  - measure-report
+  - process-model
+  - knowledge-article
+  serves:
+  - board-meeting
+  - lessons-learned-review

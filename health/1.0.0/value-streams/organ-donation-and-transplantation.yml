@@ -1,0 +1,159 @@
+kind: value-stream
+slug: organ-donation-and-transplantation
+title: Organ Donation and Transplantation
+family: demand-to-fulfillment
+summary: 'Enabling organ and tissue donation and transplantation: identifying potential donors, determining death, consent, donor
+  care, organ allocation, transplantation and lifelong follow-up of recipients.'
+trigger: A potential donor is identified, or a patient is evaluated for the transplant waiting list.
+outcome: Donated organs are transplanted to allocated recipients, and recipients are under structured follow-up.
+stakeholders:
+- critically-ill-patient
+- relative
+- highly-specialised-care-patient
+- living-donor
+- specialist-physician
+- anaesthesiologist
+- surgeon
+- registered-nurse
+- diagnostic-physician
+- organ-donation-organisation
+- referring-hospital
+- referring-practice
+steps:
+- slug: recipient-and-living-donor-evaluation
+  title: Recipient and Living Donor Evaluation
+  summary: Patients with end-stage organ failure are evaluated medically, psychologically and socially, informed of risks and benefits
+    and listed when they meet the criteria, and living donors are evaluated independently for their own safety.
+  capabilities:
+  - transplantation-programme-management
+  - waiting-list-management
+  - transplant-immunology-testing
+  - clinical-psychology
+  - clinical-social-work
+  - informed-consent
+  entities:
+  - waiting-list-entry
+  - donor
+  - care-needs-assessment
+  - informed-consent
+  - observation
+  serves:
+  - consent-form
+  - consultation
+  - outpatient-clinic
+- slug: donor-identification
+  title: Donor Identification
+  summary: Patients in intensive care with severe brain injury, or for whom withdrawal of treatment is planned, are identified as
+    potential donors by defined triggers and reported to the donation coordinator and the donation organisation.
+  capabilities:
+  - organ-donation-coordination
+  - finding-integration
+  - end-of-life-care
+  entities:
+  - organ-donation
+  - patient
+  - diagnosis
+  - observation
+  serves:
+  - family-meeting
+- slug: death-determination-and-authorisation
+  title: Death Determination and Authorisation
+  summary: Death is determined by neurological or circulatory criteria by qualified physicians independent of the transplant team,
+    and the patient's decision on donation is established from a declaration, a register or the relatives.
+  capabilities:
+  - death-determination-and-certification
+  - organ-donation-coordination
+  - advance-care-planning
+  - relatives-and-visitor-support
+  - informed-consent
+  entities:
+  - organ-donation
+  - health-certificate
+  - clinical-document
+  - advance-directive
+  - informed-consent
+  - objection
+  serves:
+  - advance-directive-document
+  - death-certificate
+  - donation-conversation
+  - donation-declaration
+- slug: donor-care-and-evaluation
+  title: Donor Care and Evaluation
+  summary: Organ function is maintained by intensive care, the donor is evaluated by laboratory, microbiology, imaging and tissue
+    typing, and the findings are passed to the donation organisation.
+  capabilities:
+  - organ-support-therapy
+  - organ-donation-coordination
+  - transplant-immunology-testing
+  - laboratory-analysis-and-validation
+  - microbiology-diagnostics
+  - modality-scheduling-and-acquisition
+  entities:
+  - organ-donation
+  - observation
+  - specimen
+  - diagnostic-report
+  serves:
+  - farewell-room
+  - intensive-care-unit
+- slug: allocation-and-offer
+  title: Allocation and Offer
+  summary: The donation organisation allocates each organ to waiting patients by defined rules, and the transplant centre decides
+    on every offer for its patient within the time limit, with a cross-match where required.
+  capabilities:
+  - transplantation-programme-management
+  - waiting-list-management
+  - transplant-immunology-testing
+  entities:
+  - organ-offer
+  - organ-donation
+  - waiting-list-entry
+  serves:
+  - organ-offer-call
+- slug: retrieval-and-transplantation
+  title: Retrieval and Transplantation
+  summary: Organs are retrieved from the deceased donor, or removed from the living donor in a planned operation, preserved and transported,
+    the recipient is called in and prepared, and the transplant is performed with immunosuppression started.
+  capabilities:
+  - surgical-procedure-performance
+  - surgical-safety-checklist-practice
+  - anaesthesia-induction-and-monitoring
+  - preoperative-assessment
+  - transplantation-programme-management
+  - medication-prescribing
+  entities:
+  - organ-offer
+  - surgical-case
+  - procedure
+  - medication-order
+  serves:
+  - donor-family-letter
+  - intensive-care-unit
+  - operating-theatre
+  - organ-offer-call
+  - surgical-safety-checklist
+- slug: lifelong-follow-up
+  title: Lifelong Follow-Up
+  summary: Recipients are followed for life for rejection, infection and adherence, immunosuppression is guided by drug levels, living
+    donors are followed up, and outcomes are reported to the registry.
+  capabilities:
+  - transplantation-programme-management
+  - therapeutic-drug-monitoring
+  - chronic-care-programmes
+  - post-discharge-follow-up
+  - clinical-registry-participation
+  entities:
+  - episode-of-care
+  - observation
+  - medication-order
+  - appointment
+  - clinical-registry
+  serves:
+  - medication-plan
+  - outpatient-clinic
+  - telemedicine-service
+binds:
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

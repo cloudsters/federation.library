@@ -1,0 +1,21 @@
+kind: body
+slug: waste-and-recovery-service
+title: Waste and Recovery Service
+summary: Sets the waste rules with residents and businesses, plans and runs collection rounds, contracts waste picker cooperatives,
+  recovers materials and handles hazardous waste safely.
+holds:
+- waste-and-material-recovery
+- waste-rule-setting
+- waste-collection-rounds
+- waste-picker-contracting
+- material-recovery
+- hazardous-waste-handling
+- reclaimed-material-sourcing
+- repair-and-reuse
+- repair-point-support
+- repair-knowledge-recording
+- remaking-hub-support
+- material-bank-operation
+part_of: utilities-department
+type: function
+form: organisational-unit

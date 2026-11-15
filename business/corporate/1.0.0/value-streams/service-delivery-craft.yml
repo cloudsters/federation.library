@@ -1,0 +1,102 @@
+kind: value-stream
+slug: service-delivery-craft
+title: Service Delivery Craft
+family: demand-to-fulfillment
+summary: 'Rendering the service itself, on site, remotely, in a workshop or at the counter: understanding the customer''s situation,
+  performing and validating the work, recording time and materials, and closing with sign-off and what was learned.'
+trigger: A confirmed service order or a scheduled service occurrence falls due.
+outcome: The service is rendered to standard, signed off by the customer and recorded for invoicing.
+stakeholders:
+- business-customer
+- consumer
+- end-user
+- field-service-technician
+- customer-service-representative
+- customer-service-agent
+steps:
+- slug: service-intake-and-scoping
+  title: Service Intake and Scoping
+  summary: The confirmed request is understood together with the customer, their situation, expectation and entitlement, and scope
+    and approach are agreed before work begins.
+  capabilities:
+  - service-initiation
+  entities:
+  - service-order
+  - customer
+  - contract
+  - customer-interaction
+  serves:
+  - job-assignment
+  - repair-estimate
+  - service-hotline
+  - service-visit
+  - store-and-branch
+- slug: service-performance
+  title: Service Performance
+  summary: The work is performed to standard, on site, remotely or at the customer's premises, adapting the standard to the situation
+    and validating the result as it goes.
+  capabilities:
+  - service-delivery-as-craft
+  - field-service-delivery
+  entities:
+  - service-order
+  - task
+  - equipment
+  - knowledge-article
+  serves:
+  - remote-service-connection
+  - service-visit
+- slug: workshop-repair
+  title: Workshop Repair
+  summary: Returned or faulty products are diagnosed, repaired, refurbished or remanufactured in the workshop and returned to the
+    customer or to use.
+  capabilities:
+  - repair-and-refurbishment
+  entities:
+  - repair-order
+  - return
+  - item
+  - serial-number
+  serves:
+  - repair-estimate
+  - repair-workshop
+- slug: counter-service-and-payment
+  title: Counter Service and Payment
+  summary: Where the customer comes to the organisation, the service or goods are handed over at the counter and paid on the spot,
+    and the encounter is treated as a relationship moment.
+  capabilities:
+  - point-of-sale-operations
+  entities:
+  - sales-invoice
+  - payment
+  - customer
+  serves:
+  - invoice
+  - store-and-branch
+- slug: time-and-material-recording
+  title: Time and Material Recording
+  summary: Time, parts, travel and expenses are recorded against the order as the basis for invoicing and costing.
+  capabilities:
+  - billable-time-and-material-recording
+  entities:
+  - timesheet
+  - stock-entry
+  - expense-claim
+  - service-order
+  serves:
+  - service-report
+- slug: completion-and-sign-off
+  title: Completion and Sign-Off
+  summary: The result is checked with the customer and signed off, the order is closed for invoicing, and findings and knowledge from
+    the job are passed back to the organisation.
+  capabilities:
+  - service-completion-harvest
+  entities:
+  - service-order
+  - approval
+  - knowledge-article
+  - sales-invoice
+  serves:
+  - invoice
+  - service-knowledge-base
+  - service-report

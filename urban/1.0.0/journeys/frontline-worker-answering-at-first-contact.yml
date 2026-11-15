@@ -1,0 +1,40 @@
+kind: journey
+slug: frontline-worker-answering-at-first-contact
+title: Frontline Worker Answering at First Contact
+stakeholder: frontline-worker
+summary: A frontline worker takes a contact, clarifies the need in the person's language, answers it from the shared body of answers
+  or hands it on with what was said, keeps the matter open until the service has acted and brings what they see to the regular review.
+stages:
+- slug: take-the-contact
+  title: Take the Contact
+  goal: The contact is recorded with a reference, whatever route it came by, and the person knows who has it.
+  step: resident-enquiries-and-contact/enquiry-receipt
+  touchpoints:
+  - city-contact-line
+- slug: clarify-in-the-persons-language
+  title: Clarify in the Person's Language
+  goal: The worker understands, with an interpreter or assisted help where needed, what the person needs and how urgent it is.
+  step: resident-enquiries-and-contact/need-clarification
+  touchpoints:
+  - need-clarification-conversation
+- slug: answer-from-shared-knowledge
+  title: Answer from Shared Knowledge
+  goal: The enquiry is answered at first contact from current shared answers, or handed to the right service with the person's own
+    account.
+  step: resident-enquiries-and-contact/answer-and-referral
+  touchpoints:
+  - shared-answer-library
+  - warm-handover-to-a-service
+- slug: keep-the-matter-open
+  title: Keep the Matter Open
+  goal: The matter stays open and the person is updated until the service has acted and told them the outcome.
+  step: resident-enquiries-and-contact/follow-through-to-close
+  touchpoints:
+  - enquiry-tracking-page
+- slug: bring-patterns-to-review
+  title: Bring Patterns to Review
+  goal: What the worker sees coming back again and again reaches the services concerned and the council.
+  step: resident-enquiries-and-contact/enquiry-experience-review
+  touchpoints:
+  - enquiry-review-circle
+  - published-enquiry-report

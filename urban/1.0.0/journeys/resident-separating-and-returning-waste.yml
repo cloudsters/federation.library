@@ -1,0 +1,34 @@
+kind: journey
+slug: resident-separating-and-returning-waste
+title: Resident Separating and Returning Waste
+stakeholder: resident
+summary: A resident helps set how waste is prevented and separated, returns packaging through deposit and refill, has the household's
+  waste collected on fixed days, takes hazardous waste to a safe drop-off and reads how much the neighbourhood produced and recovered.
+stages:
+- slug: help-set-the-rules
+  title: Help Set the Rules
+  goal: The resident knows how waste is separated and which packaging returns through deposit and refill, and had a say in setting
+    it.
+  step: waste-collection-and-material-recovery/waste-prevention-and-separation-rules
+  touchpoints:
+  - waste-rules-consultation
+  - deposit-return-point
+- slug: have-waste-collected
+  title: Have Waste Collected
+  goal: The household's waste is collected on its fixed day, and a missed collection is put right the next working day.
+  step: waste-collection-and-material-recovery/collection-rounds
+  touchpoints:
+  - collection-calendar
+  - missed-collection-report
+- slug: hand-in-hazardous-waste
+  title: Hand In Hazardous Waste
+  goal: Paint, batteries and chemicals from the household are handed in separately and stored and treated safely.
+  step: waste-collection-and-material-recovery/hazardous-waste-handling
+  touchpoints:
+  - hazardous-waste-drop-off
+- slug: read-the-neighbourhood-report
+  title: Read the Neighbourhood Report
+  goal: The resident has seen how much waste the neighbourhood produced, how much was recovered and where the rest went.
+  step: waste-collection-and-material-recovery/residual-disposal-and-recovery-review
+  touchpoints:
+  - neighbourhood-waste-report

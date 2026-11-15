@@ -1,0 +1,33 @@
+kind: journey
+slug: resident-shaping-a-new-digital-service
+title: Resident Shaping a New Digital Service
+stakeholder: resident
+summary: A resident group asks for a digital service, designs it with the city together with those who are offline, tests it before
+  it goes live and audits the published code.
+stages:
+- slug: ask-for-a-service
+  title: Ask for a Service
+  goal: The group's request is recorded and answered with a mandate and an owner, or with a reason.
+  step: digital-solution-delivery-and-renewal/digital-demand-intake
+  touchpoints:
+  - digital-request-form
+- slug: design-it-together
+  title: Design It Together
+  goal: The service fits how residents live, and every digital route keeps an equal route on paper, by phone or in person.
+  step: digital-solution-delivery-and-renewal/service-design-with-residents
+  touchpoints:
+  - service-design-session
+  - prototype-testing-session
+- slug: test-before-launch
+  title: Test Before Launch
+  goal: Residents have tested the service against what was agreed, and help is at hand when it goes live.
+  step: digital-solution-delivery-and-renewal/acceptance-and-go-live
+  touchpoints:
+  - acceptance-test-session
+  - launch-help-point
+- slug: audit-the-code
+  title: Audit the Code
+  goal: The resident can see and audit the code, interfaces and data schemas of the service.
+  step: digital-solution-delivery-and-renewal/code-publication-and-sharing
+  touchpoints:
+  - city-code-repository-site

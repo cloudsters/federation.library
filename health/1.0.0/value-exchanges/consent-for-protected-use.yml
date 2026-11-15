@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-for-protected-use
+title: Consent for Protected Use
+between:
+- research-participant
+- health-informatics-specialist
+offered:
+- Permission to use routine care data and samples for research, with the right to withdraw at any time.
+returned:
+- Protection of identity, transparency about every use and access to results that may matter for the participant's own care.
+touchpoint: patient-portal

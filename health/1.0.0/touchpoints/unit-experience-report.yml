@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: unit-experience-report
+title: Unit Experience Report
+medium: artefact
+summary: The periodic report to a ward or department of its experience results, with patients' comments in their own words and a comparison
+  with peer units.
+exchanges:
+- unit-results-for-ownership
+journey: acting-on-patient-feedback

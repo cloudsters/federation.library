@@ -1,0 +1,115 @@
+kind: value-stream
+slug: customer-project-delivery
+title: Customer Project Delivery
+family: demand-to-fulfillment
+summary: 'Delivering customer-specific projects that combine engineering, goods and services: project set-up, design to customer requirements,
+  procurement and production of components, installation or implementation, acceptance and handover.'
+trigger: A customer contract for a project is signed.
+outcome: The project result is accepted by the customer within the agreed scope, time and budget and handed over into use or service.
+stakeholders:
+- business-customer
+- general-contractor
+- key-account-manager
+- development-engineer
+- field-service-technician
+- external-specialist
+- original-equipment-manufacturer
+steps:
+- slug: project-set-up
+  title: Project Set-Up
+  summary: The signed contract is handed over from sales, and scope, deliverables, schedule, budget, team and risks are laid down
+    in a project plan agreed with the customer.
+  capabilities:
+  - engagement-management
+  - project-craft
+  entities:
+  - project
+  - contract
+  - sales-order
+  - budget
+  - plan
+  - risk
+  serves:
+  - project-kick-off
+  - project-plan
+- slug: customer-specific-design
+  title: Customer-Specific Design
+  summary: The customer's requirements are turned into a specification, design and product structure, and the customer approves them
+    before procurement and production start.
+  capabilities:
+  - bill-of-materials-architecture
+  - plm-engineering-change
+  - engagement-management
+  entities:
+  - product-specification
+  - bom
+  - change-request
+  - approval
+  serves:
+  - design-review
+- slug: component-procurement-and-production
+  title: Component Procurement and Production
+  summary: Components and services are bought, subcontracted or produced to the project schedule, and project-specific items are reserved
+    for the project.
+  capabilities:
+  - supply-planning
+  - subcontracting-orchestration
+  - services-procurement
+  entities:
+  - purchase-order
+  - work-order
+  - subcontracting-order
+  - material-request
+  serves:
+  - factory-acceptance-test
+- slug: installation-and-implementation
+  title: Installation and Implementation
+  summary: The deliverables are brought to site and installed, configured or implemented, and the work is coordinated with the customer
+    and other contractors on site.
+  capabilities:
+  - field-service-delivery
+  - service-delivery-as-craft
+  entities:
+  - shipment
+  - task
+  - service-order
+  - timesheet
+  serves:
+  - installation-and-commissioning
+  - site-coordination-meeting
+- slug: progress-cost-and-change-control
+  title: Progress, Cost and Change Control
+  summary: Progress, cost and quality are tracked against the plan, time and materials are recorded, and changes in scope are priced
+    and agreed with the customer before they are carried out.
+  capabilities:
+  - engagement-management
+  - billable-time-and-material-recording
+  - project-craft
+  entities:
+  - task
+  - timesheet
+  - change-request
+  - budget
+  - project
+  serves:
+  - account-review
+  - change-order
+  - project-status-report
+- slug: acceptance-and-handover
+  title: Acceptance and Handover
+  summary: The result is tested and accepted by the customer against agreed criteria, documentation and any open defects are handed
+    over, and the project is closed into use or service with its lessons captured.
+  capabilities:
+  - quality-inspection-control
+  - service-completion-harvest
+  - engagement-management
+  entities:
+  - quality-inspection
+  - approval
+  - project
+  - sales-invoice
+  - knowledge-article
+  serves:
+  - acceptance-certificate
+  - account-review
+  - customer-training

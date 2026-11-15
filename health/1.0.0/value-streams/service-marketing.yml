@@ -1,0 +1,143 @@
+kind: value-stream
+slug: service-marketing
+title: Service Marketing
+family: proposition-to-audience
+summary: 'Making the organisation''s services known to the audiences who need them: market and catchment analysis, value propositions
+  per audience, service information for patients and referrers, and campaigns.'
+trigger: A service is launched or has spare capacity, or analysis shows low awareness in a target audience.
+outcome: Target audiences know the service and how to access it, and the effect on demand is measured.
+stakeholders:
+- referring-practice
+- referring-hospital
+- general-public
+- outpatient
+- patient-organisation
+- head-of-clinical-department
+- executive
+steps:
+- slug: market-and-catchment-analysis
+  title: Market and Catchment Analysis
+  summary: Analyse demand, the catchment, referral patterns, competing offers and awareness of the service in each audience, and locate
+    where demand is unmet or unaware of the service.
+  capabilities:
+  - demand-and-market-analysis
+  - population-needs-assessment
+  - referral-volume-forecasting
+  - business-intelligence-and-reporting
+  - service-line-profitability
+  entities:
+  - catchment-population
+  - referral-relationship
+  - care-service
+  - benchmark
+  - measure-report
+  serves:
+  - referrer-information-event
+- slug: proposition-definition
+  title: Proposition Definition
+  summary: State for each service and audience the need it meets, the benefit and results it delivers, the evidence behind them and
+    the route of access, and check every claim against actual performance.
+  capabilities:
+  - service-value-proposition-design
+  - clinical-focus-positioning
+  - outcome-benchmarking
+  - quality-transparency-communication
+  entities:
+  - service-proposition
+  - care-service
+  - measure-report
+  - benchmark
+- slug: audience-and-channel-planning
+  title: Audience and Channel Planning
+  summary: Choose audiences, messages, channels and timing, set targets for the campaign, and check it against the professional and
+    legal limits on advertising care and on inducements to referrers.
+  capabilities:
+  - campaign-management
+  - communication-strategy
+  - brand-management
+  - anti-corruption-and-conflicts-of-interest
+  - legal-advisory
+  entities:
+  - communication-campaign
+  - service-proposition
+- slug: service-information-production
+  title: Service Information Production
+  summary: 'Produce accurate, accessible and multilingual service information for patients and referrers: web pages, leaflets, referral
+    criteria, preparation advice and contact routes.'
+  capabilities:
+  - service-value-proposition-design
+  - website-cms-management
+  - decision-aids-and-health-literacy
+  - interpreting-and-language-services
+  - brand-management
+  entities:
+  - care-service
+  - service-proposition
+  - communication-campaign
+  serves:
+  - public-website
+  - referrer-portal
+  - service-information-material
+- slug: access-readiness
+  title: Access Readiness
+  summary: 'Make sure the service can take the demand it invites: bookable capacity, working referral routes, a briefed contact centre
+    and, for services paid by the patient, transparent prices.'
+  capabilities:
+  - appointment-booking-management
+  - referral-intake-management
+  - patient-contact-centre
+  - service-launch-readiness
+  - optional-and-self-pay-services
+  entities:
+  - schedule
+  - care-service
+  - price-list
+  - referral-relationship
+  serves:
+  - appointment-service
+  - patient-portal
+  - referrer-portal
+- slug: campaign-delivery
+  title: Campaign Delivery
+  summary: Run the campaign through the website, social media, referrer events, patient organisations and the press, and answer the
+    enquiries it generates.
+  capabilities:
+  - campaign-management
+  - social-media-presence-management
+  - referrer-relationship-management
+  - community-relations
+  - media-relations
+  entities:
+  - communication-campaign
+  - referral-relationship
+  - public-statement
+  serves:
+  - public-information-event
+  - referrer-information-event
+  - social-media-channel
+- slug: effect-measurement
+  title: Effect Measurement
+  summary: Measure awareness, enquiries, referrals, appointments and the fit of new patients to the service, attribute them to the
+    campaign where possible, and adjust proposition, information or channels.
+  capabilities:
+  - campaign-management
+  - business-intelligence-and-reporting
+  - demand-and-market-analysis
+  - referrer-relationship-management
+  entities:
+  - communication-campaign
+  - measure-report
+  - referral
+  - appointment
+  serves:
+  - referrer-portal
+binds:
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-050
+  edition: '2010'
+  jurisdiction: global
+- source: src-319
+  edition: '2.1'
+  jurisdiction: global

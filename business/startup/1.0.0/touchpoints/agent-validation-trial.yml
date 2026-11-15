@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-validation-trial
+title: Agent Validation Trial
+medium: encounter
+summary: The trial in which an AI agent is tested on the organisation's own data and workflow for performance, safety and fairness
+  before commissioning.
+exchanges:
+- validated-agent-for-workflow-access
+journey: agent-serving-in-a-defined-role

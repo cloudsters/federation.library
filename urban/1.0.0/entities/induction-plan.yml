@@ -1,0 +1,52 @@
+kind: entity
+slug: induction-plan
+title: Induction Plan
+type: transactional
+summary: The plan for a new member of staff's first months, with the introductions, the mentor, the first tasks and the date of the
+  probation review. The department and the personnel function agree it with the new member of staff, and it is used to guide the first
+  months and to hold the probation review.
+attributes:
+- name: staff-record
+  type: reference(staff-record)
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: start-date
+  type: date
+  card: 1..1
+- name: introductions
+  type: text
+  card: 0..*
+- name: mentoring
+  type: reference(mentoring-relationship)
+  card: 0..1
+- name: first-tasks
+  type: text
+  card: 0..*
+- name: code-of-conduct
+  type: reference(code-of-conduct)
+  card: 0..1
+- name: probation-review-on
+  type: date
+  card: 1..1
+- name: probation-outcome
+  type: code
+  card: 0..1
+states:
+- planned
+- started
+- under-way
+- review-held
+- confirmed
+- adjusted
+- ended
+relations:
+- type: refers-to
+  target: staff-record
+- type: refers-to
+  target: code-of-conduct
+- type: depends-on
+  target: mentoring-relationship
+- type: based-on
+  target: employment-contract

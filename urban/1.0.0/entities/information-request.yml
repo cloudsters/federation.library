@@ -1,0 +1,56 @@
+kind: entity
+slug: information-request
+title: Information Request
+type: transactional
+summary: A request from a resident or an organisation for a record of the city, including the workings of an automated system, with
+  its answer. The administration answers it within its deadline, and any refusal names the exemption it relies on and the route of
+  challenge.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: requester
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: records-requested
+  type: text
+  card: 1..1
+- name: concerns-system
+  type: reference(automated-system-register)
+  card: 0..1
+- name: response-deadline
+  type: date
+  card: 1..1
+- name: answered-on
+  type: date
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: exemptions-relied-on
+  type: code
+  card: 0..*
+- name: challenge-route
+  type: text
+  card: 0..1
+- name: released-records
+  type: reference(public-record)
+  card: 0..*
+states:
+- received
+- acknowledged
+- in-progress
+- answered
+- refused
+- challenged
+- closed
+relations:
+- type: governed-by
+  target: disclosure-policy
+- type: refers-to
+  target: public-record
+- type: refers-to
+  target: automated-system-register

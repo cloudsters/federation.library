@@ -1,0 +1,40 @@
+kind: entity
+slug: kpi
+title: KPI
+type: intelligence
+summary: A key performance indicator — a carefully chosen metric that shows whether a critical aspect of the organisation is sound, on
+  track, or needs intervention.
+attributes:
+- name: measure
+  type: reference(measure)
+  card: 1..1
+- name: target
+  type: text
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: owner
+  type: reference(employee-record)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: alerting-rule
+  type: text
+  card: 0..1
+states:
+- defined
+- active
+- met
+- breached
+- retired
+relations:
+- type: based-on
+  target: measure
+- type: refers-to
+  target: dashboard
+binds:
+- source: src-157
+  edition: '1992'
+  jurisdiction: global

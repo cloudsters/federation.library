@@ -1,0 +1,53 @@
+kind: entity
+slug: research-grant
+title: Research Grant
+type: transactional
+summary: Funding awarded by a third party to the organisation or its researchers for a defined research project, from application
+  through award and spending to final reporting, with its conditions and overhead share.
+attributes:
+- name: funder
+  type: reference(organisation)
+  card: 1..1
+- name: principal-investigator
+  type: reference(employee)
+  card: 1..1
+- name: project-title
+  type: text
+  card: 1..1
+- name: awarded-amount
+  type: amount
+  card: 0..1
+- name: overhead-rate
+  type: decimal
+  card: 0..1
+- name: funding-period
+  type: period
+  card: 1..1
+- name: cost-centre
+  type: reference(cost-centre)
+  card: 1..1
+- name: reporting-obligations
+  type: text
+  card: 0..*
+states:
+- in-preparation
+- submitted
+- awarded
+- declined
+- active
+- closed
+relations:
+- type: governed-by
+  target: contract
+- type: assigned-to
+  target: cost-centre
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-406
+  edition: 1.6.1
+  jurisdiction: global

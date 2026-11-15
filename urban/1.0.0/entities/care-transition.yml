@@ -1,0 +1,63 @@
+kind: entity
+slug: care-transition
+title: Care Transition
+type: transactional
+summary: The handover of a person's care between services, such as around birth, into adult services, on leaving hospital or at the
+  end of life, with its date and who takes over. The services involved record it together, and no transition closes until the receiving
+  service has confirmed it.
+attributes:
+- name: person
+  type: identifier
+  card: 1..1
+- name: care-plan
+  type: reference(care-plan)
+  card: 1..1
+- name: transition-kind
+  type: code
+  card: 1..1
+- name: from-service
+  type: text
+  card: 1..1
+- name: to-service
+  type: text
+  card: 1..1
+- name: hospital
+  type: reference(hospital)
+  card: 0..1
+- name: planned-date
+  type: date
+  card: 1..1
+- name: handover-date
+  type: date
+  card: 0..1
+- name: handover-information
+  type: document
+  card: 0..*
+- name: family-support
+  type: text
+  card: 0..*
+- name: confirmed-by
+  type: text
+  card: 0..1
+- name: confirmed-on
+  type: date
+  card: 0..1
+states:
+- planned
+- prepared
+- in-handover
+- confirmed
+- closed
+relations:
+- type: part-of
+  target: care-plan
+- type: refers-to
+  target: hospital
+- type: governed-by
+  target: care-network-agreement
+- type: refers-to
+  target: public-service
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

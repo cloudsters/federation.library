@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: benefit-account-for-a-neighbourhood-judgement
+title: Benefit Account for a Neighbourhood Judgement
+between:
+- property-developer
+- neighbourhood-association
+offered:
+- An account of the community benefits delivered against the agreement.
+returned:
+- The neighbourhood's judgement of whether they were delivered.
+touchpoint: community-benefit-report

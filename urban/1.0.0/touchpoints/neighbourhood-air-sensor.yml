@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-air-sensor
+title: Neighbourhood Air Sensor
+medium: artefact
+summary: A sensor for air, noise or heat placed first in the most exposed neighbourhoods, often hosted on a resident's window or a
+  school wall.
+exchanges:
+- sensor-hosting-for-published-readings
+journey: affected-community-stopping-a-hazard-at-its-source

@@ -1,0 +1,48 @@
+kind: journey
+slug: resident-drawn-by-lot-for-an-assembly
+title: Resident Drawn by Lot for an Assembly
+stakeholder: resident
+summary: A resident drawn by lot receives an invitation, states what makes taking part possible, prepares on evidence in plain language,
+  deliberates with residents unlike themselves, traces what the council did with the recommendations and says what taking part cost.
+stages:
+- slug: receive-the-invitation
+  title: Receive the Invitation
+  goal: The resident has received an invitation drawn by lot and knows what the assembly will decide, what is paid and how to reply.
+  step: resident-involvement-and-deliberation/outreach-and-recruitment
+  touchpoints:
+  - assembly-invitation-letter
+- slug: state-what-makes-it-possible
+  title: State What Makes It Possible
+  goal: The resident has asked for and received what makes taking part possible, such as childcare, interpretation or sessions timed
+    around shift work, and is paid for the time.
+  step: resident-involvement-and-deliberation/access-and-preparation
+  touchpoints:
+  - access-needs-request
+  - participant-payment
+- slug: prepare-on-the-evidence
+  title: Prepare on the Evidence
+  goal: The resident has read the evidence and the options in plain language and in a language they read well.
+  step: resident-involvement-and-deliberation/access-and-preparation
+  touchpoints:
+  - plain-language-briefing-pack
+- slug: deliberate-with-others
+  title: Deliberate With Others
+  goal: The resident has weighed the options with residents unlike themselves and with officials and experts, and has seen disagreement
+    held rather than smoothed over.
+  step: resident-involvement-and-deliberation/deliberation-and-co-design
+  touchpoints:
+  - interest-mapping-session
+  - deliberation-session
+- slug: see-what-changed
+  title: See What Changed
+  goal: The resident can trace each recommendation to the council's decision and read the reasons where it was not taken up.
+  step: resident-involvement-and-deliberation/response-and-influence
+  touchpoints:
+  - what-we-heard-report
+  - proposal-trace-page
+- slug: say-what-it-cost
+  title: Say What It Cost
+  goal: The resident has told the city what taking part cost in time and care and whether it was worth it.
+  step: resident-involvement-and-deliberation/participation-review
+  touchpoints:
+  - participation-review-circle

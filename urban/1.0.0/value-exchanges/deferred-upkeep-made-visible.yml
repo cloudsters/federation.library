@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: deferred-upkeep-made-visible
+title: Deferred Upkeep Made Visible
+between:
+- asset-officer
+- resident
+offered:
+- The valued backlog of deferred upkeep by asset and neighbourhood, as repair cost, share of asset value and remaining life.
+returned:
+- Residents' questions and corrections where the ledger does not match what they see.
+touchpoint: published-maintenance-backlog

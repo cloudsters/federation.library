@@ -1,0 +1,40 @@
+kind: entity
+slug: ecological-parameter
+title: Ecological Parameter
+type: governance
+summary: A binding constraint from real-time ecological monitoring — not a target, not advisory, binding. Agent-enforced, overridable
+  only by defined governance process. When cod stocks show stress, harvest reduces automatically. The production layer’s interface
+  with ecological reality.
+attributes:
+- name: monitored-variable
+  type: text
+  card: 1..1
+- name: threshold
+  type: quantity
+  card: 1..1
+- name: data-source
+  type: text
+  card: 1..1
+- name: breach-action
+  type: text
+  card: 1..1
+- name: override-process
+  type: text
+  card: 1..1
+states:
+- defined
+- monitored
+- triggered
+- enforced
+- reviewed
+- escalated
+relations:
+- type: governed-by
+  target: commons-charter
+binds:
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global
+- source: src-089
+  edition: '2026'
+  jurisdiction: global

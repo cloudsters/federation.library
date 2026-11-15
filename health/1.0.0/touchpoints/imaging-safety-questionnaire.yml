@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: imaging-safety-questionnaire
+title: Imaging Safety Questionnaire
+medium: artefact
+summary: The questionnaire that screens a patient before imaging or an intervention for implants, allergies, kidney disease, pregnancy
+  and claustrophobia, so that the examination is safe.
+exchanges:
+- safety-disclosure-for-a-safe-examination
+journey: imaging-examination-journey

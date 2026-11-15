@@ -1,0 +1,13 @@
+kind: capability
+slug: medical-curriculum-design
+title: Medical Curriculum Design
+level: L3
+parent: undergraduate-medical-education
+summary: Design the medical curriculum around defined competencies and map it to the national competence framework.
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-071
+  edition: '2005'
+  jurisdiction: global

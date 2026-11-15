@@ -1,0 +1,67 @@
+kind: entity
+slug: zoning-plan
+title: Zoning Plan
+type: master
+summary: The land-use rules that state what may be built and done on each parcel, adopted to carry the masterplan, including mixed
+  uses, mixed-income housing, space for commons and the share of the rise in land value returned to the community. The planning department
+  drafts and reviews it, the council adopts it, and every planning decision on a parcel is tested against it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: area-covered
+  type: text
+  card: 1..1
+- name: zones
+  type: document
+  card: 1..1
+- name: permitted-uses
+  type: text
+  card: 1..*
+- name: density-limits
+  type: text
+  card: 0..*
+- name: mixed-income-requirement
+  type: text
+  card: 0..1
+- name: commons-space-requirement
+  type: text
+  card: 0..1
+- name: land-value-contribution
+  type: text
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- repealed
+relations:
+- type: based-on
+  target: masterplan
+- type: governed-by
+  target: bylaw
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: land-parcel
+- type: based-on
+  target: public-consultation
+binds:
+- source: src-193
+  edition: '2015-04-23'
+  jurisdiction: global

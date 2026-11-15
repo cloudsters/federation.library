@@ -1,0 +1,33 @@
+kind: entity
+slug: mentor-relation
+title: Mentor Relation
+type: master
+summary: Someone who has gone further in something this person is developing and gives access to that. The relation is asymmetric
+  by design and is not friendship, though it often becomes it.
+attributes:
+- name: in-what
+  type: list(skill)
+  card: 1..*
+- name: met-through
+  type: text
+  card: 0..1
+- name: since
+  type: date
+  card: 0..1
+- name: what-they-pointed-out
+  type: text
+  card: 0..*
+- name: last-asked
+  type: date
+  card: 0..1
+states:
+- sought
+- found
+- learning alongside
+- grown past
+- turned friend
+relations:
+- target: self
+  type: about
+- target: skill
+  type: serves

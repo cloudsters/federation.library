@@ -1,0 +1,39 @@
+kind: entity
+slug: subcontracting-order
+title: Subcontracting Order
+type: transactional
+summary: An outsourced production order — the organisation having part of its manufacturing done by an external partner, sending materials
+  out and receiving finished goods back.
+attributes:
+- name: subcontractor
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: issued-components
+  type: reference(item)
+  card: 1..*
+- name: expected-item
+  type: reference(item)
+  card: 1..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: service-charge
+  type: amount
+  card: 1..1
+- name: work-order
+  type: reference(work-order)
+  card: 0..1
+states:
+- draft
+- materials-issued
+- in-process
+- goods-received
+- inspected
+- closed
+relations:
+- type: refers-to
+  target: supplier-organisation
+- type: produces
+  target: purchase-receipt
+- type: refers-to
+  target: quality-inspection

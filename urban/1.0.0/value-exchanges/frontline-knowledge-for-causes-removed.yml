@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: frontline-knowledge-for-causes-removed
+title: Frontline Knowledge for Causes Removed
+between:
+- frontline-worker
+- city-administration
+offered:
+- Frontline knowledge of why the same failure keeps happening.
+returned:
+- The cause removed in the service, and staff no longer blamed for what the system does.
+touchpoint: complaint-learning-review

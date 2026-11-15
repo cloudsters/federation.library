@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: complaint-resolution-meeting
+title: Complaint Resolution Meeting
+medium: encounter
+summary: A meeting in which the complainant, the clinicians responsible and, if wished, the patient advocate go through what happened,
+  what it meant for the patient and what will change.
+exchanges:
+- concern-heard-and-answered
+journey: raising-a-concern

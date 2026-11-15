@@ -1,0 +1,11 @@
+kind: capability
+slug: software-licence-management
+title: Software Licence Management
+level: L3
+parent: infrastructure
+summary: Hold every software entitlement against its installations and use, reharvest or buy licences as needs change, and evidence
+  compliance when a supplier audits.
+binds:
+- source: src-298
+  edition: '2017'
+  jurisdiction: global

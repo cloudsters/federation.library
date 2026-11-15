@@ -1,0 +1,47 @@
+kind: entity
+slug: goods-receipt
+title: Goods Receipt
+type: transactional
+summary: The receipt of delivered goods against a purchase order, recording quantities, batches, expiry and condition, and releasing
+  them to stock or to the requesting unit.
+attributes:
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 1..1
+- name: items
+  type: reference(inventory-item)
+  card: 0..*
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: batches
+  type: identifier
+  card: 0..*
+- name: expiry
+  type: date
+  card: 0..*
+- name: condition
+  type: code
+  card: 1..1
+- name: received-by
+  type: reference(employee)
+  card: 1..1
+- name: received-at
+  type: datetime
+  card: 1..1
+states:
+- received
+- inspected
+- accepted
+- rejected
+- returned
+relations:
+- type: based-on
+  target: purchase-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

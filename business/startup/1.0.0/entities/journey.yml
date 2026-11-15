@@ -1,0 +1,40 @@
+kind: entity
+slug: journey
+title: Journey
+type: governance
+summary: The named path a stakeholder walks through the system — from first awareness through deepening engagement to sustained relationship.
+  Every journey is a story told from the outside in, and the system’s job is to make that story worth living.
+attributes:
+- name: stakeholder
+  type: reference(stakeholder)
+  card: 1..1
+- name: stages
+  type: text
+  card: 1..*
+- name: goals
+  type: text
+  card: 0..*
+- name: emotions
+  type: text
+  card: 0..*
+- name: touchpoints
+  type: reference(touchpoint)
+  card: 0..*
+- name: channels
+  type: reference(channel)
+  card: 0..*
+- name: moments-of-truth
+  type: text
+  card: 0..*
+states:
+- mapped
+- designed
+- instrumented
+- sensed
+- optimised
+- personalised
+relations:
+- type: composed-of
+  target: touchpoint
+- type: refers-to
+  target: value-stream

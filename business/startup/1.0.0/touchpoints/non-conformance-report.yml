@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: non-conformance-report
+title: Non-Conformance Report
+medium: artefact
+summary: The blame-free record of a non-conformance from a check, complaint, audit or incident, with its impact assessment and the
+  immediate action that contained it.
+exchanges:
+- blame-free-reports-for-removed-causes
+journey: operator-building-quality-into-the-work

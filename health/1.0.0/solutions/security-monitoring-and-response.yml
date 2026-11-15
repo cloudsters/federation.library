@@ -1,0 +1,25 @@
+kind: solution
+slug: security-monitoring-and-response
+title: Security Monitoring and Response
+role: system-of-insight
+summary: Monitors networks, systems and connected medical devices for threats, detects and responds to security incidents,
+  reports them to the authorities, and evidences the security controls required of critical infrastructure.
+carries:
+- security-operations
+- cyber-incident-reporting
+- it-risk-and-security-control
+- medical-device-cybersecurity
+- critical-infrastructure-security-compliance
+- it-compliance-assessment
+- data-security-architecture
+holds: []
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

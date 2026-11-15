@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stop-authority-for-contained-defects
+title: Stop Authority for Contained Defects
+between:
+- quality-manager
+- production-operator
+offered:
+- Clear acceptance criteria and the authority to stop the flow at any deviation without blame.
+returned:
+- Deviations stopped, recorded and dispositioned before anything moves on.
+touchpoint: inspection-point

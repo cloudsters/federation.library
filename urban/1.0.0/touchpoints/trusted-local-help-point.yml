@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: trusted-local-help-point
+title: Trusted Local Help Point
+medium: place
+summary: A library, community centre or neighbourhood office where residents report faults, make requests and get help with digital
+  services from people they trust.
+exchanges:
+- fault-report-for-a-solved-matter
+- trusted-places-for-a-direct-line
+journey: resident-getting-help-with-a-digital-service

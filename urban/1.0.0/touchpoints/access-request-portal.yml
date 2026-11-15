@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: access-request-portal
+title: Access Request Portal
+medium: channel
+summary: The internal channel through which staff and partners ask for access to systems, have it reviewed and give it back when their
+  role changes.
+exchanges:
+- access-request-for-access-that-fits
+journey: information-technology-specialist-protecting-the-city-systems

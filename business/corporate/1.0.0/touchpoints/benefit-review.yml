@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: benefit-review
+title: Benefit Review
+medium: encounter
+summary: The review after delivery in which benefit owners confirm which benefits were realised and what was learned for the strategy.
+exchanges:
+- measured-benefits-for-honest-tracking
+- permission-to-stop-for-kept-lessons
+journey: unit-leader-sponsoring-a-strategic-initiative

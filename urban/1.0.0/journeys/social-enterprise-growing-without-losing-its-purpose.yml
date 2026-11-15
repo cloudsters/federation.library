@@ -1,0 +1,39 @@
+kind: journey
+slug: social-enterprise-growing-without-losing-its-purpose
+title: Social Enterprise Growing Without Losing Its Purpose
+stakeholder: social-enterprise
+summary: A growing social enterprise binds its purpose and assets in its statutes, keeps its members' voice as it grows past its founders,
+  federates with others for shared services and a common fund, and reports the social value it holds.
+stages:
+- slug: show-what-we-do
+  title: Show What We Do
+  goal: What the enterprise does, whom it employs and what it needs is on the map of the social economy.
+  step: social-and-cooperative-economy/social-economy-mapping
+  touchpoints:
+  - social-economy-mapping-session
+- slug: bind-the-purpose
+  title: Bind the Purpose
+  goal: The statutes bind the enterprise's purpose and assets so that growth or sale cannot strip them.
+  step: social-and-cooperative-economy/mission-safeguards
+  touchpoints:
+  - mission-safeguard-clinic
+- slug: keep-members-voice
+  title: Keep Members' Voice
+  goal: Nested decision-making keeps members' trust and voice as the enterprise grows beyond its founders.
+  step: social-and-cooperative-economy/mission-safeguards
+  touchpoints:
+  - mission-safeguard-clinic
+- slug: federate-with-others
+  title: Federate with Others
+  goal: The enterprise shares back-office services, workshops, training and a common fund with other cooperatives and social enterprises.
+  step: social-and-cooperative-economy/social-economy-federation
+  touchpoints:
+  - cooperative-federation-assembly
+  - shared-back-office
+- slug: report-our-social-value
+  title: Report Our Social Value
+  goal: The work, ownership and income the enterprise holds, and whether it kept its purpose, are in the city's yearly report.
+  step: social-and-cooperative-economy/social-value-reporting
+  touchpoints:
+  - social-value-report-round
+  - published-social-economy-report

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: investment-commitment-review
+title: Investment Commitment Review
+medium: encounter
+summary: The review with each investor of whether the commitments of its agreement were kept, ending in recovery of support where
+  they failed.
+exchanges:
+- commitment-report-or-repayment
+journey: investor-settling-in-the-city

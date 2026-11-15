@@ -1,0 +1,23 @@
+kind: journey
+slug: a-member-who-gives-back
+title: A Member Who Gives Back
+stakeholder: community
+via: source-to-alliance
+summary: A commons that carried this person in a hard hour receives back from them as a member with a voice, through votes, service,
+  gifts and tended places.
+stages:
+- slug: be-seen-for-its-work
+  title: Be Seen for Its Work
+  goal: What the commons built and keeps up has been seen by someone it carried.
+  step: commons-to-obligation/seeing-what-others-built
+  touchpoints:
+  - hospital-ward
+- slug: receive-a-members-share
+  title: Receive a Member's Share
+  goal: The commons has received the chosen contribution from a member who also claims a voice in it.
+  step: commons-to-obligation/giving-back-as-a-member
+  touchpoints:
+  - volunteer-shift
+  - where-the-group-decides
+  - the-ballot
+  - a-gift-given

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-findings-for-repairs-within-set-days
+title: Inspection Findings for Repairs within Set Days
+between:
+- housing-officer
+- frontline-worker
+offered:
+- The findings of the inspection when a tenancy ends, with the repairs needed to reach the agreed standard.
+returned:
+- The repairs done within the set number of days, so that the home is let again quickly.
+touchpoint: home-inspection-walk

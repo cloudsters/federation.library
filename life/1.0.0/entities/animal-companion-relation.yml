@@ -1,0 +1,36 @@
+kind: entity
+slug: animal-companion-relation
+title: Animal Companion Relation
+type: master
+summary: An animal this life is responsible for and attached to. Carries an obligation that does not negotiate and a rhythm that does
+  not adjust, which is most of what it does to a week.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: with-us-since
+  type: date
+  card: 0..1
+- name: daily-needs
+  type: text
+  card: 1..*
+- name: care-shared-with
+  type: text
+  card: 0..*
+- name: upkeep
+  type: money
+  card: 0..1
+- name: cared-for-when-away
+  type: text
+  card: 0..1
+states:
+- arrived
+- part of the household
+- ageing
+- needing more care
+- gone
+relations:
+- target: home
+  type: part-of
+- target: daily-rhythm
+  type: depends-on

@@ -1,0 +1,43 @@
+kind: entity
+slug: strain-indicator
+title: Strain Indicator
+type: intelligence
+summary: An early composite reading that this life is running past what it can sustain — drawn from sleep, recovery, withdrawal from
+  relations, and work that no longer finishes. Built to fire before the person would say anything is wrong.
+attributes:
+- name: read-on
+  type: date
+  card: 1..1
+- name: sleep
+  type: text
+  card: 0..1
+- name: recovery
+  type: text
+  card: 0..1
+- name: withdrawal-from-others
+  type: text
+  card: 0..1
+- name: work-not-finishing
+  type: text
+  card: 0..1
+- name: early-signs
+  type: text
+  card: 0..*
+- name: response
+  type: text
+  card: 0..1
+states:
+- quiet
+- rising
+- firing
+- heeded
+- ignored
+relations:
+- target: body
+  type: about
+- target: energy-log
+  type: based-on
+- target: health-data
+  type: based-on
+- target: relationship-map
+  type: based-on

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: safety-and-recall-notice
+title: Safety and Recall Notice
+medium: artefact
+summary: The notice to customers, trade partners and the public that names the hazard, the products and batches affected, what to
+  do and how the remedy is provided.
+exchanges:
+- candid-notice-for-safe-action
+- trade-cooperation-for-swift-withdrawal
+journey: quality-manager-leading-a-recall

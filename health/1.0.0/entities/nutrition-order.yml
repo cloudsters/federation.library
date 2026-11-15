@@ -1,0 +1,52 @@
+kind: entity
+slug: nutrition-order
+title: Nutrition Order
+type: transactional
+summary: An order for a patient's diet or nutritional therapy, from a standard diet through therapeutic and texture-modified diets
+  to enteral or parenteral nutrition, observing allergies and restrictions.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: diet-type
+  type: code
+  card: 1..1
+- name: texture
+  type: code
+  card: 0..1
+- name: food-restrictions
+  type: code
+  card: 0..*
+- name: nutrition-regimen
+  type: text
+  card: 0..1
+- name: orderer
+  type: reference(practitioner-role)
+  card: 1..1
+- name: validity
+  type: period
+  card: 1..1
+states:
+- draft
+- active
+- on-hold
+- completed
+- cancelled
+relations:
+- type: based-on
+  target: care-needs-assessment
+- type: produces
+  target: support-service-order
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

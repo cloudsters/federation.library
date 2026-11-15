@@ -1,0 +1,13 @@
+kind: capability
+slug: continuing-professional-development
+title: Continuing Professional Development
+level: L3
+parent: continuing-education
+summary: Organise continuing professional development for all professions in line with their development plans.
+binds:
+- source: src-320
+  edition: BME-2020/PGME-2023/CPD-2024
+  jurisdiction: global
+- source: src-460
+  edition: '1959'
+  jurisdiction: global

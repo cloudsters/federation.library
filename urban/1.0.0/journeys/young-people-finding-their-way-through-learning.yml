@@ -1,0 +1,40 @@
+kind: journey
+slug: young-people-finding-their-way-through-learning
+title: Young People Finding Their Way Through Learning
+stakeholder: young-people
+summary: A young person shows the dangers on the route to school, plays and learns on grounds open after hours, learns from the life
+  of the neighbourhood, speaks in the support agreed around them and, after leaving school, finds a way back into learning or work.
+stages:
+- slug: walk-the-route-to-school
+  title: Walk the Route to School
+  goal: The young person has shown the crossings and stretches where they feel unsafe, and sees them changed.
+  step: school-places-and-learning-pathways/fair-admission-and-school-routes
+  touchpoints:
+  - school-route-walk-with-pupils
+- slug: play-and-learn-on-open-grounds
+  title: Play and Learn on Open Grounds
+  goal: The young person can use the school grounds and rooms after teaching hours under rules young people helped set.
+  step: school-places-and-learning-pathways/schools-as-neighbourhood-places
+  touchpoints:
+  - open-school-grounds
+- slug: learn-from-the-neighbourhood
+  title: Learn from the Neighbourhood
+  goal: The young person has learned with libraries, universities, elders and local organisations, and connects it with the life of
+    the place.
+  step: school-places-and-learning-pathways/learning-beyond-the-classroom
+  touchpoints:
+  - neighbourhood-learning-session
+- slug: speak-in-their-own-support
+  title: Speak in Their Own Support
+  goal: The support agreed when the young person was about to leave holds their own view of what would help.
+  step: school-places-and-learning-pathways/early-support-for-learners
+  touchpoints:
+  - learner-support-meeting
+- slug: find-a-way-back
+  title: Find a Way Back
+  goal: The young person who left school has chosen from more than one route back into learning or work, and the city has checked
+    that the route holds.
+  step: school-places-and-learning-pathways/routes-back-into-learning
+  touchpoints:
+  - routes-back-guidance-meeting
+  - young-person-pathway-follow-up

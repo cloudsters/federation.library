@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-test-findings-for-a-tool-that-fits
+title: Staff Test Findings for a Tool That Fits
+between:
+- frontline-worker
+- information-technology-specialist
+offered:
+- Trials of the tool on real cases and the faults they find.
+returned:
+- Faults fixed before go-live and a tool that fits the way the work is done.
+touchpoint: staff-and-resident-test-run

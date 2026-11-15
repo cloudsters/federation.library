@@ -1,0 +1,28 @@
+kind: journey
+slug: agent-working-under-a-clear-mandate
+title: Agent Working Under a Clear Mandate
+stakeholder: operations-planning-agent
+summary: An agent is given an explicit mandate with limits and escalation paths, is built and tested into everyday work, records every
+  significant decision with its mandate and is reviewed before its mandate is renewed.
+stages:
+- slug: receive-a-mandate
+  title: Receive a Mandate
+  goal: The agent's role, limits, governing instructions and escalation triggers are written, authorised by a named person and registered.
+  step: process-as-living-pattern/agent-mandate-design
+  touchpoints:
+  - agent-mandate
+  - agent-registry
+- slug: go-live-under-oversight
+  title: Go Live Under Oversight
+  goal: The agent is tested in the real workflow and released with the people who oversee it ready to override.
+  step: process-as-living-pattern/automation-build-and-roll-out
+  touchpoints:
+  - agent-registry
+  - practice-briefing
+- slug: account-for-every-decision
+  title: Account for Every Decision
+  goal: Each significant decision is recorded with the mandate it was taken under, and the review renews, narrows or ends the mandate.
+  step: process-as-living-pattern/co-authorship-and-review
+  touchpoints:
+  - decision-log
+  - automation-review-board

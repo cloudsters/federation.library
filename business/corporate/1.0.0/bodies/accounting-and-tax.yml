@@ -1,0 +1,10 @@
+kind: body
+slug: accounting-and-tax
+title: Accounting and Tax
+summary: Keeps the books, closes the periods, consolidates the group, prepares the financial statements and tax returns and works
+  with the external auditor.
+holds:
+- accounting-and-reporting
+part_of: executive-board
+type: function
+form: organisational-unit

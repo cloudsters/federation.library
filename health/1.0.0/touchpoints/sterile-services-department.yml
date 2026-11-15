@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: sterile-services-department
+title: Sterile Services Department
+medium: place
+summary: The department where used instruments are received, cleaned, disinfected, inspected, packed, sterilised, released and stored
+  before they return to theatres and units.
+exchanges:
+- used-sets-for-sterile-sets
+- loan-sets-for-timely-reprocessing
+- validated-reprocessing-for-inspection-confidence
+journey: theatre-team-relying-on-sterile-instruments

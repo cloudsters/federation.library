@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-appeal-count
+title: Published Appeal Count
+medium: artefact
+summary: The published count of appeals and wrong decisions by service and cause, including those prepared by automated systems, with
+  the changes to rules and systems that follow.
+exchanges:
+- group-scrutiny-for-corrected-rules
+- wrong-decision-count-for-changed-rules
+journey: city-administration-deciding-entitlements-fairly

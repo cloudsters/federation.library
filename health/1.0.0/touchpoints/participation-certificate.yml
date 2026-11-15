@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: participation-certificate
+title: Participation Certificate
+medium: artefact
+summary: The certificate that confirms a person's attendance or successful completion of a programme and states the continuing education
+  credit awarded.
+exchanges:
+- credits-for-recertification
+- certified-learning-for-fees-and-ties
+- standards-for-recognition
+journey: keeping-specialist-competence-current

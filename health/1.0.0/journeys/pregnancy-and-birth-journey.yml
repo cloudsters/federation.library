@@ -1,0 +1,57 @@
+kind: journey
+slug: pregnancy-and-birth-journey
+title: Pregnancy and Birth Journey
+stakeholder: maternity-patient
+summary: A pregnant woman registers for care, is monitored through pregnancy, plans the birth, gives birth with continuous support,
+  meets her child, recovers and goes home with care arranged.
+stages:
+- slug: register-for-care
+  title: Register for Care
+  goal: Be known to the maternity team and understand the plan for the pregnancy.
+  step: maternity-care/registration-and-risk-assessment
+  touchpoints:
+  - outpatient-clinic
+  - maternity-record
+- slug: go-through-pregnancy
+  title: Go Through Pregnancy
+  goal: Have mother and child monitored and choose screening with full information.
+  step: maternity-care/antenatal-care-and-screening
+  touchpoints:
+  - outpatient-clinic
+  - maternity-record
+  - consultation
+- slug: plan-the-birth
+  title: Plan the Birth
+  goal: Make a birth plan that reflects own wishes and the known risks.
+  step: maternity-care/birth-planning
+  touchpoints:
+  - birth-plan
+  - consultation
+- slug: give-birth
+  title: Give Birth
+  goal: Give birth safely, with continuous support and pain relief as wished.
+  step: maternity-care/labour-and-birth
+  touchpoints:
+  - delivery-suite
+  - birth-plan
+- slug: meet-the-child
+  title: Meet the Child
+  goal: Have the newborn examined and kept together with the mother wherever possible.
+  step: maternity-care/newborn-care
+  touchpoints:
+  - delivery-suite
+  - identification-band
+- slug: recover-together
+  title: Recover Together
+  goal: Recover, learn to feed and care for the child, and be heard on mood and pain.
+  step: maternity-care/postnatal-care
+  touchpoints:
+  - ward
+- slug: go-home-with-care-arranged
+  title: Go Home with Care Arranged
+  goal: Go home with the community midwife arranged and the birth notified.
+  step: maternity-care/discharge-and-community-handover
+  touchpoints:
+  - discharge-letter
+  - birth-notification
+  - home-visit

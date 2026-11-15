@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: new-method-access-for-informed-consent
+title: New Method Access for Informed Consent
+between:
+- specialist-physician
+- elective-inpatient
+offered:
+- The physician offers access to a newly introduced method, honest information on what is known and unknown about it, and closer follow-up
+  than routine care.
+returned:
+- The patient returns informed consent and an account of the result, which becomes part of the evidence for or against the method.
+touchpoint: consent-form

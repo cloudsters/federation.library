@@ -1,0 +1,32 @@
+kind: journey
+slug: unit-agreeing-its-service-levels
+title: Unit Agreeing Its Service Levels
+stakeholder: head-of-clinical-department
+summary: The head of a clinical department agrees what the unit's digital services must deliver, judges changes that affect them and
+  reviews how well the levels were met.
+stages:
+- slug: state-what-care-needs
+  title: State What Care Needs
+  goal: Each service the unit relies on has a criticality, support hours and levels that reflect care.
+  step: it-service-operations/service-definition-and-levels
+  touchpoints:
+  - service-catalogue
+  - service-review-meeting
+- slug: judge-changes-to-care
+  title: Judge Changes to Care
+  goal: Changes that affect the unit are scheduled with its clinical judgement on risk and timing.
+  step: it-service-operations/change-and-release
+  touchpoints:
+  - change-advisory-board
+- slug: learn-from-recurring-failures
+  title: Learn from Recurring Failures
+  goal: Recurring problems are removed at their cause and recovery is proven in exercises.
+  step: it-service-operations/problem-and-continuity-management
+  touchpoints:
+  - service-review-meeting
+- slug: review-service-performance
+  title: Review Service Performance
+  goal: The unit sees whether the levels were met and agrees improvements.
+  step: it-service-operations/service-level-review
+  touchpoints:
+  - service-review-meeting

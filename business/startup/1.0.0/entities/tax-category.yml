@@ -1,0 +1,34 @@
+kind: entity
+slug: tax-category
+title: Tax Category
+type: master
+summary: The classification that brings order to taxation — grouping tax rules into categories so that the right tax treatment is
+  applied based on product type, customer type, and jurisdiction. Tax categories are the bridge between business transactions and
+  fiscal compliance.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: tax-rules
+  type: reference(tax-rule)
+  card: 1..*
+- name: applicability
+  type: code
+  card: 1..*
+- name: jurisdictions
+  type: code
+  card: 0..*
+states:
+- defined
+- assigned
+- applied
+- updated
+relations:
+- type: refers-to
+  target: tax-rule
+- type: refers-to
+  target: product
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: sales-invoice

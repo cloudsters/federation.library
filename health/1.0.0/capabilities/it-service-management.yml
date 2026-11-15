@@ -1,0 +1,10 @@
+kind: capability
+slug: it-service-management
+title: IT Service Management
+level: L2
+parent: technology-operations-and-security
+summary: Delivering and supporting IT services to agreed levels.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

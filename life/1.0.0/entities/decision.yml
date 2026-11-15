@@ -1,0 +1,36 @@
+kind: entity
+slug: decision
+title: Decision
+type: transactional
+summary: A point at which this life cut off other options. Recorded with what was given up, because a decision whose alternatives
+  were never written down cannot be learned from later.
+attributes:
+- name: question
+  type: text
+  card: 1..1
+- name: chosen
+  type: text
+  card: 1..1
+- name: given-up
+  type: text
+  card: 1..*
+- name: can-be-walked-back
+  type: text
+  card: 0..*
+- name: brought-in
+  type: text
+  card: 0..*
+- name: decided-on
+  type: date
+  card: 1..1
+states:
+- due
+- weighed
+- made
+- committed to
+- other path let go
+relations:
+- target: value-set
+  type: based-on
+- target: life-purpose
+  type: serves

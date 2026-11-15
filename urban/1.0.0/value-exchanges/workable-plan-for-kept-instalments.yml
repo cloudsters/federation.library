@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: workable-plan-for-kept-instalments
+title: Workable Plan for Kept Instalments
+between:
+- finance-officer
+- taxpayer
+offered:
+- A payment plan timed to when the taxpayer earns, with referral to relief where hardship appears.
+returned:
+- Instalments kept as agreed.
+touchpoint: payment-plan-meeting

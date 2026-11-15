@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: digital-risk-register
+title: Digital Risk Register
+medium: artefact
+summary: The register of threats, weaknesses and obligations of the digital estate, with their assessed risk, owners and treatment.
+exchanges:
+- risk-picture-for-an-accepted-level-of-risk
+journey: security-lead-building-the-digital-immune-system

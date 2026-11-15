@@ -1,0 +1,65 @@
+kind: entity
+slug: service-catalogue
+title: Service Directory
+type: master
+summary: The one directory of the services of the city and its partners, with who may use them, where and when, how to reach a person
+  and what to bring. The administration keeps it current in plain language and the languages residents use, and residents, staff and
+  partners use it to find a service.
+attributes:
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: entries
+  type: reference(public-service)
+  card: 1..*
+- name: partner-entries
+  type: text
+  card: 0..*
+- name: service-points
+  type: reference(service-point)
+  card: 0..*
+- name: eligibility-notes
+  type: text
+  card: 0..*
+- name: contact-routes
+  type: text
+  card: 1..*
+- name: documents-to-bring
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 1..*
+- name: formats
+  type: code
+  card: 0..*
+- name: published-address
+  type: identifier
+  card: 0..1
+- name: review-rhythm
+  type: code
+  card: 1..1
+- name: last-reviewed
+  type: date
+  card: 1..1
+states:
+- compiled
+- published
+- current
+- under-review
+- superseded
+relations:
+- type: composed-of
+  target: public-service
+- type: refers-to
+  target: service-point
+- type: refers-to
+  target: service-standard
+- type: refers-to
+  target: digital-service
+- type: governed-by
+  target: language-access-policy
+binds:
+- source: src-248
+  edition: '2023'
+  jurisdiction: global

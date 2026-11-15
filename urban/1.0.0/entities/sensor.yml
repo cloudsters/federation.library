@@ -1,0 +1,62 @@
+kind: entity
+slug: sensor
+title: Sensor
+type: master
+summary: A sensor, meter or camera the city installs or allows, with its location, its declared purpose, the data it gathers, its
+  owner and the date its approval ends. The department that operates it keeps the record and enters it in the register of automated
+  systems, and it is removed when its purpose or its approval ends.
+attributes:
+- name: sensor-identifier
+  type: identifier
+  card: 1..1
+- name: sensor-kind
+  type: code
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: declared-purpose
+  type: text
+  card: 1..1
+- name: data-gathered
+  type: text
+  card: 1..*
+- name: owner
+  type: text
+  card: 1..1
+- name: operating-department
+  type: reference(department)
+  card: 0..1
+- name: network
+  type: reference(digital-network)
+  card: 0..1
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: approval-ends-on
+  type: date
+  card: 1..1
+- name: installed-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- approved
+- installed
+- operating
+- suspended
+- removed
+relations:
+- type: refers-to
+  target: automated-system-register
+- type: based-on
+  target: council-decision
+- type: depends-on
+  target: digital-network
+- type: refers-to
+  target: processing-record
+- type: produces
+  target: data-set

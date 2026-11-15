@@ -1,0 +1,34 @@
+kind: journey
+slug: local-business-bidding-for-a-lot
+title: Local Business Bidding for a Lot
+stakeholder: local-business
+summary: A local business finds a lot it can win, asks its questions and bids, learns its scores and the reasons for the award, and
+  if it wins signs a contract whose commitments it can keep.
+stages:
+- slug: find-a-lot-within-reach
+  title: Find a Lot Within Reach
+  goal: The business has found a lot sized for it, read the criteria and weights and received the same answers as every bidder.
+  step: tendering-and-contract-award/lot-division-and-tender-publication
+  touchpoints:
+  - tender-portal
+- slug: submit-a-scored-bid
+  title: Submit a Scored Bid
+  goal: The bid with its price, whole-life cost and commitments is in, and the business knows it will be scored on the published criteria
+    alone.
+  step: tendering-and-contract-award/bid-evaluation
+  touchpoints:
+  - tender-portal
+  - bid-evaluation-meeting
+- slug: learn-the-reasons
+  title: Learn the Reasons
+  goal: The business has its scores and the reasons for the award, and the time to challenge it.
+  step: tendering-and-contract-award/award-decision
+  touchpoints:
+  - award-letter-and-debrief
+- slug: sign-commitments-it-can-keep
+  title: Sign Commitments It Can Keep
+  goal: The contract binds the business to the commitments of its bid in clauses it understands, and the contract is public.
+  step: tendering-and-contract-award/contract-conclusion
+  touchpoints:
+  - contract-review-and-signing
+  - published-contract-register

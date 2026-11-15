@@ -1,0 +1,16 @@
+kind: solution
+slug: household-paper-file
+title: Household Paper File
+role: system-of-record
+sovereignty: owned
+summary: The one place the papers that prove things are kept — contracts, policies, certificates, the will — in an order another person
+  could follow.
+carries:
+- keeping-papers-in-order
+- leaving-a-way-in
+holds:
+- contract
+- insurance-policy
+- credential
+- will
+- obligation

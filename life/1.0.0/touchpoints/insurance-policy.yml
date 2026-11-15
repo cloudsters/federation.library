@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: insurance-policy
+title: The Insurance Policy
+medium: document
+mode: written
+summary: The cover bought against the rare large loss, and the pages that say what it does not cover.
+exchanges:
+- premium-for-cover
+- preparation-for-calm
+journey: a-customer-reading-the-terms

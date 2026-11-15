@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: remittance-advice
+title: Remittance Advice
+medium: artefact
+summary: The payer's statement accompanying a payment that lists which claims are paid in full, reduced or rejected, and the reason
+  for each difference.
+exchanges:
+- correct-claim-for-timely-payment
+journey: settling-a-claim

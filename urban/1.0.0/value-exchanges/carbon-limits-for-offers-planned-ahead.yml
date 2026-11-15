@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: carbon-limits-for-offers-planned-ahead
+title: Carbon Limits for Offers Planned Ahead
+between:
+- procurement-officer
+- supplier
+offered:
+- Limits on embedded carbon for each category, published before the tenders that apply them.
+returned:
+- Offers planned to meet the limits.
+touchpoint: published-category-carbon-limits

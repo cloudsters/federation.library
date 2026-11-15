@@ -1,0 +1,66 @@
+kind: entity
+slug: urban-trial
+title: Urban Trial
+type: transactional
+summary: A trial of a new service, process or rule in a defined area and for a defined time, with the question it answers, the measures
+  that will judge it and any experimental rule it needs. The responsible department designs and runs it in the open and records what
+  residents and staff observe, and it ends in a recorded decision to adopt, change or stop.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: trial-kind
+  type: code
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: measures
+  type: text
+  card: 1..*
+- name: area
+  type: reference(neighbourhood)
+  card: 1..*
+- name: trial-period
+  type: period
+  card: 1..1
+- name: experimental-rule
+  type: reference(experimental-rule)
+  card: 0..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+- name: research-project
+  type: reference(research-project)
+  card: 0..1
+- name: observations
+  type: text
+  card: 0..*
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- designed
+- approved
+- running
+- evaluating
+- decided
+- closed
+relations:
+- type: governed-by
+  target: experimental-rule
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: research-agenda
+- type: refers-to
+  target: research-project
+- type: produces
+  target: trial-evaluation-report
+binds:
+- source: src-235
+  edition: '2019-05-22'
+  jurisdiction: global

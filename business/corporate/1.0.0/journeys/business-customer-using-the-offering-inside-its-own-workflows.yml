@@ -1,0 +1,32 @@
+kind: journey
+slug: business-customer-using-the-offering-inside-its-own-workflows
+title: Business Customer Using the Offering Inside Its Own Workflows
+stakeholder: business-customer
+summary: A business customer combines modules, connects its own systems through published interfaces, buys on a marketplace and uses
+  the offering through the complementors it already works with.
+stages:
+- slug: combine-modules
+  title: Combine Modules
+  goal: The customer combines and configures modules to fit its process.
+  step: platform-ecosystem-distribution/composable-offering-preparation
+  touchpoints:
+  - customer-portal
+  - developer-portal
+- slug: connect-its-systems
+  title: Connect Its Systems
+  goal: The customer's systems consume the offering through stable, documented interfaces.
+  step: platform-ecosystem-distribution/interface-publication
+  touchpoints:
+  - developer-portal
+- slug: buy-on-a-marketplace
+  title: Buy on a Marketplace
+  goal: The customer finds and buys the offering where it already shops.
+  step: platform-ecosystem-distribution/marketplace-listing-and-curation
+  touchpoints:
+  - marketplace-listing
+- slug: use-it-through-a-complementor
+  title: Use It Through a Complementor
+  goal: The offering works inside the tools and platforms the customer already uses.
+  step: platform-ecosystem-distribution/complementor-onboarding-and-embedding
+  touchpoints:
+  - integration-support

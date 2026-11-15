@@ -1,0 +1,38 @@
+kind: journey
+slug: civil-society-organisation-bringing-an-empty-building-back-to-life
+title: Civil-Society Organisation Bringing an Empty Building Back to Life
+stakeholder: civil-society-organisation
+summary: An organisation first shares rooms in a public building, holds its keys, then opens an empty building for interim use, takes
+  over running it and is supported in its first years.
+stages:
+- slug: share-rooms-out-of-hours
+  title: Share Rooms Out of Hours
+  goal: The organisation uses rooms in a public building outside their main hours under a shared-use agreement.
+  step: public-buildings-and-facilities/shared-use-with-neighbourhoods
+  touchpoints:
+  - out-of-hours-room-booking
+- slug: hold-the-keys
+  title: Hold the Keys
+  goal: The organisation holds keys in trust for other groups and reports what needs fixing.
+  step: public-buildings-and-facilities/shared-use-with-neighbourhoods
+  touchpoints:
+  - key-holding-agreement
+- slug: open-an-empty-building
+  title: Open an Empty Building
+  goal: An empty building is made safe and opened for the organisation's interim use, keeping its material and stories.
+  step: public-buildings-and-facilities/reactivation-of-empty-buildings
+  touchpoints:
+  - interim-use-open-call
+  - empty-building-open-day
+- slug: take-over-running-it
+  title: Take Over Running It
+  goal: The organisation runs the building under a lease or transfer with agreed terms of use, upkeep and access.
+  step: public-buildings-and-facilities/handover-to-community-operators
+  touchpoints:
+  - building-handover-signing
+- slug: grow-through-the-first-years
+  title: Grow Through the First Years
+  goal: The organisation has the city's support with installations, safety, budgets and bookings until it runs the building alone.
+  step: public-buildings-and-facilities/handover-to-community-operators
+  touchpoints:
+  - operator-support-visit

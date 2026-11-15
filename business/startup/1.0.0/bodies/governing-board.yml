@@ -1,0 +1,24 @@
+kind: body
+slug: governing-board
+title: Governing Board
+summary: 'Holds the mandate on the owners'' behalf and oversees those who run the enterprise: approves strategy, plan and major investments,
+  appoints and reviews the executive, examines the accounts. A commons names it supervisory board, board of directors or foundation
+  board.'
+holds:
+- strategy-and-governance
+- offering-and-innovation
+- market-and-customer
+- operations-and-fulfilment
+- sourcing-and-suppliers
+- assets-and-facilities
+- quality-safety-and-sustainability
+- people-and-workforce
+- finance-and-funding
+- digital-and-data
+part_of: owners-meeting
+type: board
+form: governing-body
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global

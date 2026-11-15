@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: story-consent-form
+title: Story Consent Form
+medium: artefact
+summary: The record in which a teller states how their story may be framed, attributed and reused, by whom and for how long, and through
+  which they may withdraw that consent.
+exchanges:
+- consent-for-faithful-attribution
+journey: older-resident-keeping-a-neighbourhood-story

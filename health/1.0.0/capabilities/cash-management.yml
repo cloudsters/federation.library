@@ -1,0 +1,10 @@
+kind: capability
+slug: cash-management
+title: Cash Management
+level: L3
+parent: treasury
+summary: Manage cash positions, transfers and short-term liquidity.
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

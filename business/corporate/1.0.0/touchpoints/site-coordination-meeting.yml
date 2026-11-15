@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: site-coordination-meeting
+title: Site Coordination Meeting
+medium: encounter
+summary: The meeting on site in which the contractors, suppliers and the site owner agree access, sequence, interfaces, safety and
+  the next steps of the works.
+exchanges:
+- site-access-for-coordinated-installation
+- defined-works-for-safe-delivery
+journey: general-contractor-integrating-a-trade-package

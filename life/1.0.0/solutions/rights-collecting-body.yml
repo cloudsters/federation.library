@@ -1,0 +1,12 @@
+kind: solution
+slug: rights-collecting-body
+title: Rights Collecting Body
+role: institution
+sovereignty: third-party
+summary: Registers a maker's works and collects what is owed when others use them.
+carries:
+- marking-authorship-clearly
+- noticing-misuse-of-ones-work
+holds:
+- rights-record
+- income-event

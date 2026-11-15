@@ -1,0 +1,126 @@
+kind: value-stream
+slug: newcomer-welcome-and-integration
+title: Newcomer Welcome and Integration
+family: participant-to-community
+summary: Welcoming those who come to live in the city, whether they move for work, flee war or disaster, or arrive without settled
+  status, so that they belong and take part rather than being handled as a problem. It holds the integration plan made with newcomers,
+  welcome points in the neighbourhoods, orientation and language learning, pairing with established residents, access to care, legal
+  help and services whatever a person's status, and newcomers' own voice in steering how the city receives them.
+trigger: Newcomers arrive in the city, a larger arrival is announced, such as people displaced by disaster or a changing climate,
+  or the integration plan falls due for review.
+outcome: Newcomers know where to turn, use the services they need without fear, are linked to neighbours, and help shape how the city
+  receives those who come after them.
+stakeholders:
+- newcomer
+- resident
+- neighbourhood-association
+- civil-society-organisation
+- faith-communities
+- informal-worker
+- community-development-worker
+- city-administration
+steps:
+- slug: integration-planning
+  title: Integration Planning
+  summary: The administration drafts the integration plan with newcomers, established migrant communities and neighbourhood bodies,
+    setting how arrivals are received and settled across the neighbourhoods, and the council adopts it.
+  capabilities:
+  - integration-plan-drafting
+  - resident-need-assessment
+  - council-decision-preparation
+  entities:
+  - integration-plan
+  - need-assessment
+  serves:
+  - integration-plan-forum
+  - published-integration-plan
+- slug: arrival-welcome
+  title: Arrival Welcome
+  summary: Newcomers are received at welcome points in the neighbourhoods, in their own language, and are told their rights, where
+    services are and how the city works.
+  capabilities:
+  - welcome-point-operation
+  - newcomer-orientation
+  - language-access-provision
+  entities:
+  - welcome-point
+  - integration-plan
+  serves:
+  - orientation-session
+  - welcome-point-desk
+- slug: language-and-learning
+  title: Language and Learning
+  summary: Newcomers learn the city's common language while their own languages are valued, in classes and learning circles where
+    elders, parents and young people learn together.
+  capabilities:
+  - language-learning-provision
+  - language-access-provision
+  entities:
+  - language-access-policy
+  - welcome-point
+  serves:
+  - language-learning-circle
+- slug: access-regardless-of-status
+  title: Access Regardless of Status
+  summary: Care, legal help, schooling and other basic services are open to every resident whatever their status, and the data they
+    give is kept apart from enforcement so that fear does not keep people away.
+  capabilities:
+  - status-independent-service-access
+  - care-service-linking
+  - privacy-impact-assessment
+  entities:
+  - public-service
+  - processing-record
+  serves:
+  - open-access-service-point
+- slug: neighbour-pairing
+  title: Neighbour Pairing
+  summary: Newcomer households are paired with established residents or earlier arrivals who help them settle, in a relationship that
+    gives in both directions, and are linked to neighbourhood bodies, faith communities and work.
+  capabilities:
+  - newcomer-mentor-matching
+  - volunteer-preparation-and-safeguarding
+  entities:
+  - mentor-pairing
+  - volunteer-record
+  serves:
+  - mentor-pairing-meeting
+  - mentor-preparation-session
+- slug: newcomer-voice
+  title: Newcomer Voice
+  summary: Newcomers form their own council that advises on and helps steer the integration plan, housing and services, and they take
+    part in neighbourhood and city decisions even where they cannot yet vote.
+  capabilities:
+  - newcomer-council-convening
+  - community-body-recognition
+  - participation-boundary-review
+  entities:
+  - newcomer-council
+  - participation-charter
+  serves:
+  - neighbourhood-planning-assembly
+  - newcomer-council-meeting
+- slug: integration-review
+  title: Integration Review
+  summary: The city reviews with newcomers whether they found work, housing, services and neighbours, where they met barriers or hostility,
+    and updates the integration plan.
+  capabilities:
+  - equity-audit
+  - participation-practice-review
+  - integration-plan-drafting
+  entities:
+  - integration-plan
+  - whole-city-assessment
+  serves:
+  - integration-plan-forum
+  - integration-review-survey
+binds:
+- source: src-179
+  edition: '2015-09-25'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-226
+  edition: '2018-12-19'
+  jurisdiction: global

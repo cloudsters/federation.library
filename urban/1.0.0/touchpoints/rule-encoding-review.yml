@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: rule-encoding-review
+title: Rule Encoding Review
+medium: encounter
+summary: The review in which specialists and the procedure's owner check that each encoded rule follows the procedure and keeps a
+  link to the pattern and decision it comes from.
+exchanges:
+- encoded-rules-for-a-traceable-source
+journey: city-administration-curating-a-practice-pattern

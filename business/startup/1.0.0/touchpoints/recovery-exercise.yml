@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: recovery-exercise
+title: Recovery Exercise
+medium: encounter
+summary: The rehearsal in which the recovery of a critical service from backup or degraded mode is tested against its recovery targets.
+exchanges:
+- risk-picture-for-an-accepted-level-of-risk
+journey: security-lead-building-the-digital-immune-system

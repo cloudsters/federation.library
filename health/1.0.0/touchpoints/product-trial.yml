@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: product-trial
+title: Product Trial
+medium: encounter
+summary: The time-limited use of a candidate product in real care, with instruction by the supplier and structured feedback from the
+  users, as part of an evaluation or a tender.
+exchanges:
+- clinical-need-for-fitting-equipment
+- clinical-judgement-for-standard-products
+- market-knowledge-for-equal-access
+- competitive-bid-for-fair-award
+- user-requirements-for-a-fit-contract
+- technical-assessment-for-serviceable-devices
+journey: specifying-a-departments-need

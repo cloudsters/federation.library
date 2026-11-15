@@ -1,0 +1,14 @@
+kind: solution
+slug: water-and-wastewater-management-system
+title: Water and Wastewater Management System
+role: system-of-record
+summary: Holds the water sources and what is taken from them, treatment and test results by place and date, and the sewers, drains
+  and treatment plants with their capacity and condition.
+carries:
+- water-abstraction-and-treatment
+- water-quality-testing
+- wastewater-and-stormwater-handling
+holds:
+- waterway
+- water-quality-data
+- sewer-network

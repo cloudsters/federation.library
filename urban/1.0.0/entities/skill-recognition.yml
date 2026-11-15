@@ -1,0 +1,61 @@
+kind: entity
+slug: skill-recognition
+title: Skill Recognition
+type: transactional
+summary: The recognition of a person's skills from qualifications, apprenticeship, lived experience, peer attestation or practical
+  demonstration, with the credential it confers. The personnel function or the body of practitioners that grants it records it, and
+  it is used in selection, in apprentice intake and wherever the person seeks work.
+attributes:
+- name: recognition-number
+  type: identifier
+  card: 1..1
+- name: person-name
+  type: text
+  card: 1..1
+- name: skill
+  type: text
+  card: 1..1
+- name: evidence-kind
+  type: code
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..*
+- name: attested-by
+  type: text
+  card: 0..*
+- name: country-of-qualification
+  type: code
+  card: 0..1
+- name: standard
+  type: reference(competency-standard)
+  card: 0..1
+- name: credential-conferred
+  type: text
+  card: 0..1
+- name: granted-by
+  type: text
+  card: 0..1
+- name: granted-on
+  type: date
+  card: 0..1
+states:
+- requested
+- evidence-gathered
+- demonstrated
+- recognised
+- partly-recognised
+- refused
+relations:
+- type: based-on
+  target: competency-standard
+- type: based-on
+  target: skill-registry
+- type: refers-to
+  target: job-application
+- type: refers-to
+  target: apprenticeship
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

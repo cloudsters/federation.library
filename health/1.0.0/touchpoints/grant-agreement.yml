@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: grant-agreement
+title: Grant Agreement
+medium: artefact
+summary: The agreement in which a funder or an industry partner awards research funds, with budget, eligible costs, reporting duties,
+  rights to results and publication terms.
+exchanges:
+- research-results-for-funding
+- research-capability-for-industry-funding
+journey: winning-and-running-a-grant

@@ -1,0 +1,18 @@
+kind: solution
+slug: urban-data-platform
+title: Urban Data Platform
+role: platform
+summary: Brings data from departments, sensors, operators and residents' own measurements together under access rules, keeps the shared
+  definitions and the public catalogue of the city's data sets with their owners, and measures quality where the data arises.
+carries:
+- shared-data-model-design
+- data-definition-and-cataloguing
+- data-sourcing-and-integration
+- data-quality-assurance
+- sensor-deployment
+holds:
+- data-set
+- data-catalogue
+- shared-data-model
+- sensor
+- air-quality-index

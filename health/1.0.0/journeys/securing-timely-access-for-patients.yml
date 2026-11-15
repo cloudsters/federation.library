@@ -1,0 +1,40 @@
+kind: journey
+slug: securing-timely-access-for-patients
+title: Securing Timely Access for Patients
+stakeholder: referring-practice
+summary: 'The referrer''s side of access management: referring with the right urgency, following each patient''s wait, flagging deterioration
+  and choosing providers by their published waiting times.'
+stages:
+- slug: referring-with-priority
+  title: Referring with Priority
+  goal: Refer with a clear urgency so that the patient is listed with the right due date.
+  step: access-and-waiting-times/waiting-list-registration
+  touchpoints:
+  - referrer-portal
+  - referral-letter
+- slug: following-the-wait
+  title: Following the Wait
+  goal: See where each referred patient stands and when the patient will be seen.
+  step: access-and-waiting-times/waiting-time-monitoring
+  touchpoints:
+  - referrer-portal
+- slug: flagging-deterioration
+  title: Flagging Deterioration
+  goal: Report a worsening condition and have the patient re-prioritised.
+  step: access-and-waiting-times/waiting-list-review
+  touchpoints:
+  - referrer-portal
+  - clinical-messaging-service
+- slug: redirecting-when-needed
+  title: Redirecting When Needed
+  goal: Know when the patient is offered another provider and receive what is needed to support the choice.
+  step: access-and-waiting-times/alternative-provider-offer
+  touchpoints:
+  - clinical-messaging-service
+- slug: choosing-where-to-refer
+  title: Choosing Where to Refer
+  goal: Use published waiting times to refer where the patient will be seen in time.
+  step: access-and-waiting-times/access-performance-reporting
+  touchpoints:
+  - referrer-portal
+  - public-website

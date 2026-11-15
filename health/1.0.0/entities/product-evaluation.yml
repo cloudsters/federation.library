@@ -1,0 +1,49 @@
+kind: entity
+slug: product-evaluation
+title: Product Evaluation
+type: transactional
+summary: The structured comparison of medical products for the same use, or of a proposed product change, by clinicians and procurement,
+  judging outcome, safety, usability, hygiene, supply and total cost of use, often with a trial in care, and ending in a recommendation.
+attributes:
+- name: product-description
+  type: text
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: requested-by
+  type: reference(practitioner-role)
+  card: 1..1
+- name: clinical-rationale
+  type: text
+  card: 1..1
+- name: criteria
+  type: text
+  card: 1..*
+- name: trial-period
+  type: period
+  card: 0..1
+- name: total-cost-of-use
+  type: amount
+  card: 0..1
+- name: recommendation
+  type: code
+  card: 0..1
+states:
+- requested
+- screened
+- under-evaluation
+- in-trial
+- recommended
+- rejected
+relations:
+- type: governed-by
+  target: category-plan
+- type: refers-to
+  target: inventory-item
+- type: produces
+  target: governance-decision
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

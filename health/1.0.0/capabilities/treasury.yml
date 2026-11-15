@@ -1,0 +1,10 @@
+kind: capability
+slug: treasury
+title: Treasury
+level: L2
+parent: treasury-and-payments
+summary: Keeping the organisation liquid and its financing sound.
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

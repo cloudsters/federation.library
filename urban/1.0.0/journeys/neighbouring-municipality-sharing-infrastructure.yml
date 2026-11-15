@@ -1,0 +1,32 @@
+kind: journey
+slug: neighbouring-municipality-sharing-infrastructure
+title: Neighbouring Municipality Sharing Infrastructure
+stakeholder: neighbouring-municipality
+summary: A neighbouring municipality agrees which level decides on shared water, transit or land, shapes the joint proposal, negotiates
+  an agreement that shares decisions, costs and maintenance, and reviews whether the balance between the partners still holds.
+stages:
+- slug: agree-which-level-decides
+  title: Agree Which Level Decides
+  goal: Both municipalities know which decisions on the shared infrastructure rest with each of them and which are taken together.
+  step: governance-and-oversight/decision-authority-mapping
+  touchpoints:
+  - published-decision-map
+  - joint-committee-meeting
+- slug: shape-the-joint-proposal
+  title: Shape the Joint Proposal
+  goal: The proposal to each council states shared costs, maintenance and who bears what.
+  step: governance-and-oversight/decision-preparation
+  touchpoints:
+  - council-proposal
+- slug: negotiate-and-sign
+  title: Negotiate and Sign
+  goal: An agreement shares decisions, costs and maintenance and gives those who rely on the infrastructure a voice.
+  step: governance-and-oversight/cross-boundary-coordination
+  touchpoints:
+  - joint-committee-meeting
+- slug: review-the-balance
+  title: Review the Balance
+  goal: Whether the agreement still shares power fairly is reviewed on its cycle, and changed where it does not.
+  step: governance-and-oversight/governance-effectiveness-review
+  touchpoints:
+  - governance-review-session

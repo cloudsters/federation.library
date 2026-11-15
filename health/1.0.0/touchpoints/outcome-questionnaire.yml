@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: outcome-questionnaire
+title: Outcome Questionnaire
+medium: artefact
+summary: The short questionnaire on symptoms, function and quality of life that a patient completes before and after treatment, on
+  paper or online, using a validated instrument.
+exchanges:
+- patient-reported-outcomes-for-responsive-care
+journey: reporting-outcomes-that-matter

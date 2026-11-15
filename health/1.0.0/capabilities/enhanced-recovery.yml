@@ -1,0 +1,10 @@
+kind: capability
+slug: enhanced-recovery
+title: Enhanced Recovery
+level: L3
+parent: postoperative-recovery
+summary: Apply enhanced-recovery protocols with early mobilisation, early nutrition and multimodal analgesia.
+binds:
+- source: src-523
+  edition: series
+  jurisdiction: global

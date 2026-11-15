@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-target-architecture
+title: Published Target Architecture
+medium: artefact
+summary: The published target architecture of the city's systems, with the scale at which each system and data set sits, the shared
+  definitions and interfaces between them and the redundancy planned.
+exchanges:
+- neighbourhood-claims-for-a-stated-scale
+- adopted-direction-for-a-coherent-design
+journey: information-technology-specialist-keeping-the-city-systems-whole

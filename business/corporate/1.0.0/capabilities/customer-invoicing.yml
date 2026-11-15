@@ -1,0 +1,6 @@
+kind: capability
+slug: customer-invoicing
+title: Customer Invoicing
+level: L3
+parent: billing-and-revenue
+summary: Produce correct invoices from orders, deliveries, time and usage, and send them through the channel each customer requires.

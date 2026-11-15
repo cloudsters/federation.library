@@ -1,0 +1,36 @@
+kind: entity
+slug: offer-intent
+title: Offer Intent
+type: transactional
+summary: A typed declaration of available value broadcast into the federated commons network — not a product listing but a living
+  signal shaped by the commons’ surplus, dimensional preferences, and L5 integrity constraints. Includes what is offered, for what
+  duration, at what dimensional terms, and who the commons prefers to exchange with. Routed through the Commons MCP, which holds only
+  the pointer, not the intent.
+attributes:
+- name: offered
+  type: text
+  card: 1..1
+- name: duration
+  type: period
+  card: 0..1
+- name: dimensional-terms
+  type: text
+  card: 0..*
+- name: integrity-constraints
+  type: text
+  card: 0..*
+- name: preferred-counterparty
+  type: text
+  card: 0..1
+states:
+- composed
+- broadcast
+- routed
+- matched
+- expired
+- withdrawn
+relations:
+- type: produces
+  target: a2a-handshake
+- type: refers-to
+  target: dynamic-proposition

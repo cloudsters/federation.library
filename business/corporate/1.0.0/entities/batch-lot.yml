@@ -1,0 +1,51 @@
+kind: entity
+slug: batch-lot
+title: Batch / Lot
+type: master
+summary: A shared identity for a group of items made together — so that the organisation can trace, test, and if necessary recall the whole
+  group; the unit on which quality control acts.
+attributes:
+- name: batch-number
+  type: identifier
+  card: 1..1
+- name: item
+  type: reference(item)
+  card: 1..1
+- name: manufacture-date
+  type: date
+  card: 0..1
+- name: expiry-date
+  type: date
+  card: 0..1
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: quality-status
+  type: code
+  card: 1..1
+- name: provenance
+  type: text
+  card: 0..1
+states:
+- created
+- tested
+- released
+- consumed
+- expired
+- recalled
+relations:
+- type: refers-to
+  target: item
+- type: refers-to
+  target: serial-number
+- type: refers-to
+  target: quality-inspection
+- type: refers-to
+  target: recall
+binds:
+- source: src-138
+  edition: '2.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

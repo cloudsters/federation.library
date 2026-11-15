@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: ordering-catalogue
+title: Ordering Catalogue
+medium: channel
+summary: The internal catalogue through which units order goods and services, showing only the contracted and approved assortment
+  with prices, stock status, delivery times and the status of each request.
+exchanges:
+- standard-requests-for-ready-devices
+- clinical-judgement-for-standard-products
+- order-request-for-timely-delivery
+- spending-approval-for-budget-view
+journey: ordering-for-the-ward

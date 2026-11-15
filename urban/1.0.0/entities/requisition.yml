@@ -1,0 +1,63 @@
+kind: entity
+slug: requisition
+title: Requisition
+type: transactional
+summary: A request by a member of staff to buy goods or a service against a contract or a budget line, with the need, the reuse check
+  made, the budget still available and the approval it received. The requesting department raises it and the approver the delegation
+  names decides it, and an approved requisition becomes an order or call-off.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: requested-by
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: need-description
+  type: text
+  card: 1..1
+- name: estimated-value
+  type: amount
+  card: 1..1
+- name: budget-line
+  type: reference(municipal-budget)
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: framework-agreement
+  type: reference(framework-agreement)
+  card: 0..1
+- name: reuse-check-result
+  type: code
+  card: 1..1
+- name: budget-commitment
+  type: reference(budget-commitment)
+  card: 0..1
+- name: approved-by
+  type: text
+  card: 0..1
+- name: approved-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- submitted
+- checked
+- approved
+- rejected
+- ordered
+- cancelled
+relations:
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: equipment-pool
+- type: depends-on
+  target: budget-commitment
+- type: governed-by
+  target: decision-rights-register
+- type: produces
+  target: purchase-order

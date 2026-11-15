@@ -1,0 +1,46 @@
+kind: entity
+slug: service-order
+title: Service Order
+type: transactional
+summary: An order to perform a service for a customer, on site, remotely or in a workshop, such as an installation, inspection, repair
+  or maintenance, with technician, schedule, parts, time and the result reported and billed.
+attributes:
+- name: service-request
+  type: reference(helpdesk-ticket)
+  card: 0..1
+- name: customer-account
+  type: reference(customer)
+  card: 1..1
+- name: service
+  type: reference(service)
+  card: 1..1
+- name: serial-number
+  type: reference(serial-number)
+  card: 0..1
+- name: technician
+  type: reference(employee-record)
+  card: 0..1
+- name: scheduled-period
+  type: period
+  card: 0..1
+- name: parts
+  type: reference(item)
+  card: 0..*
+- name: result
+  type: code
+  card: 0..1
+states:
+- planned
+- scheduled
+- dispatched
+- in-progress
+- completed
+- invoiced
+- cancelled
+relations:
+- type: based-on
+  target: helpdesk-ticket
+- type: governed-by
+  target: contract
+- type: produces
+  target: sales-invoice

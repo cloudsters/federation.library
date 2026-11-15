@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: model-review-session
+title: Model Review Session
+medium: encounter
+summary: The working session in which analysts walk the people who will rely on a model through its logic, assumptions and limits,
+  and refine it with them.
+exchanges:
+- domain-judgement-for-trusted-models
+journey: manager-turning-a-question-into-a-decision

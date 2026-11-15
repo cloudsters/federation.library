@@ -1,0 +1,40 @@
+kind: journey
+slug: neighbourhood-association-preparing-its-neighbourhood
+title: Neighbourhood Association Preparing Its Neighbourhood
+stakeholder: neighbourhood-association
+summary: A neighbourhood association maps local exposure with the city, sees its neighbourhood in the emergency plan, joins the exercise
+  and tests warnings, passes on warnings and relief in the crisis and reviews the response with the city afterwards.
+stages:
+- slug: map-local-exposure
+  title: Map Local Exposure
+  goal: The neighbourhood's own knowledge of where water stands and who lives alone is part of the hazard map.
+  step: urban-risk-and-resilience/hazard-and-exposure-mapping
+  touchpoints:
+  - neighbourhood-assembly
+  - hazard-and-exposure-map
+- slug: see-the-neighbourhood-in-the-plan
+  title: See the Neighbourhood in the Plan
+  goal: The association knows its neighbourhood's alert levels, gathering points and contacts in the published plan.
+  step: urban-risk-and-resilience/emergency-and-continuity-planning
+  touchpoints:
+  - published-emergency-plan
+- slug: join-the-exercise
+  title: Join the Exercise
+  goal: The association has taken part in the exercise and tested warnings in the languages its residents use.
+  step: urban-risk-and-resilience/exercise-and-readiness
+  touchpoints:
+  - joint-emergency-exercise
+  - public-warning-channel
+- slug: receive-warning-and-relief
+  title: Receive Warning and Relief
+  goal: Residents were warned in time, and relief reached the neighbourhood by need.
+  step: urban-risk-and-resilience/crisis-response
+  touchpoints:
+  - public-warning-channel
+  - relief-distribution-point
+- slug: review-the-response
+  title: Review the Response
+  goal: The response has been reviewed with the neighbourhood, and its account is carried into the plans.
+  step: urban-risk-and-resilience/recovery-and-learning
+  touchpoints:
+  - after-action-review

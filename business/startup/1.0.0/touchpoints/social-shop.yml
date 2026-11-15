@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: social-shop
+title: Social Shop
+medium: channel
+summary: Offers made shoppable on the social platforms where customers already gather, connected to the same catalogue, prices and
+  order flow.
+exchanges:
+- shoppable-offer-for-shared-recommendation
+journey: consumer-buying-through-the-organisations-own-channels

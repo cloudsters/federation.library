@@ -1,0 +1,33 @@
+kind: journey
+slug: supplier-preparing-for-what-the-city-will-buy
+title: Supplier Preparing for What the City Will Buy
+stakeholder: supplier
+summary: A supplier helps design the criteria, gives its knowledge of the market to the category team, reads in the forward plan what
+  the city will buy and when, and meets the city before the tender on equal terms with every other bidder.
+stages:
+- slug: help-design-the-criteria
+  title: Help Design the Criteria
+  goal: The supplier has said which criteria it can meet and how, and can read the adopted scorecard.
+  step: procurement-strategy-and-category-planning/procurement-policy-and-criteria
+  touchpoints:
+  - criteria-co-design-workshop
+  - published-procurement-scorecard
+- slug: share-what-the-market-offers
+  title: Share What the Market Offers
+  goal: The category team knows what suppliers like this one can offer and which lot sizes they can win.
+  step: procurement-strategy-and-category-planning/category-strategy
+  touchpoints:
+  - category-strategy-workshop
+- slug: read-the-forward-plan
+  title: Read the Forward Plan
+  goal: The supplier knows which purchases are coming, when and on what criteria, early enough to prepare.
+  step: procurement-strategy-and-category-planning/forward-procurement-plan
+  touchpoints:
+  - published-forward-procurement-plan
+- slug: meet-the-city-before-the-tender
+  title: Meet the City Before the Tender
+  goal: The supplier has asked its questions in an open session and received the same answers as every other bidder.
+  step: procurement-strategy-and-category-planning/supplier-market-engagement
+  touchpoints:
+  - supplier-open-day
+  - published-market-engagement-notes

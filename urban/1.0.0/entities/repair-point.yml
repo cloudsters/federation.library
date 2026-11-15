@@ -1,0 +1,59 @@
+kind: entity
+slug: repair-point
+title: Repair Point
+type: master
+summary: A repair café, workshop or mobile unit where residents mend things together, with its place, hours, tools and those who run
+  it. The neighbourhood body or social enterprise that runs it keeps the record with the city, which gives it space, tools and cover.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: point-kind
+  type: code
+  card: 1..1
+- name: run-by
+  type: text
+  card: 1..1
+- name: place
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: venue
+  type: reference(community-centre)
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 0..*
+- name: tools
+  type: text
+  card: 0..*
+- name: liability-cover
+  type: boolean
+  card: 0..1
+- name: city-support
+  type: text
+  card: 0..*
+- name: repairs-count
+  type: integer
+  card: 0..1
+- name: started-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- supported
+- opened
+- operating
+- paused
+- closed
+relations:
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: tool-library
+- type: refers-to
+  target: knowledge-article

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: security-operations-centre
+title: Security Operations Centre
+medium: place
+summary: The room from which staff watch the city's systems for attacks and anomalies and contain incidents.
+exchanges:
+- alerts-and-fixes-for-coordinated-response
+journey: information-technology-specialist-protecting-the-city-systems

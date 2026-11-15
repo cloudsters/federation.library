@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: demand-forecast-for-approval
+title: Demand Forecast for Approval
+between:
+- operations-planning-agent
+- support-services-staff
+offered:
+- Forecasts of material demand from theatre schedules, admissions and consumption, with proposed reorder points and orders.
+returned:
+- Approval or correction of each proposal, and the actual consumption data that improve the next forecast.
+touchpoint: supply-dashboard

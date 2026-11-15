@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: selection-panel-interview
+title: Selection Panel Interview
+medium: encounter
+summary: The interview with a panel of staff from the service and, where the role serves residents directly, residents who use it,
+  who have declared their interests.
+exchanges:
+- application-for-a-reasoned-answer
+- resident-judgement-for-staff-who-serve-well
+journey: personnel-officer-filling-a-position

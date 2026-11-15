@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: public-reviews
+title: Public Reviews
+medium: channel
+summary: The ratings and reviews customers publish on review sites, marketplaces and social media, which others read before buying
+  and the organisation answers.
+exchanges:
+- public-review-for-public-answer
+journey: consumer-giving-feedback-and-seeing-it-count

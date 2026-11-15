@@ -1,0 +1,13 @@
+kind: capability
+slug: ai-assistant-integration
+title: AI Assistant Integration
+level: L3
+parent: human-agent-collaboration
+summary: Integrate AI assistants into clinical workflows under human oversight.
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

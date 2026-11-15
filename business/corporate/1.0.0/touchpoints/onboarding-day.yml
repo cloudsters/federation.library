@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: onboarding-day
+title: Onboarding Day
+medium: encounter
+summary: The first day or days of a new employee, with welcome, introduction to team and workplace, safety instruction, equipment
+  and access to systems.
+exchanges:
+- prepared-welcome-for-early-contribution
+- vigilance-for-protection
+- work-for-livelihood
+journey: employee-working-securely

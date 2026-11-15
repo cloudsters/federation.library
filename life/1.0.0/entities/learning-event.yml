@@ -1,0 +1,39 @@
+kind: entity
+slug: learning-event
+title: Learning Event
+type: transactional
+summary: A course, book, workshop, conference or session this person went through. Held with what was actually used afterwards, which
+  is the only part that distinguishes learning from consumption.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: what
+  type: text
+  card: 1..1
+- name: when
+  type: period
+  card: 1..1
+- name: question-brought
+  type: text
+  card: 0..1
+- name: used-afterwards
+  type: text
+  card: 0..*
+- name: cost
+  type: money
+  card: 0..1
+- name: for-plan
+  type: reference(learning-plan)
+  card: 0..1
+states:
+- chosen
+- under way
+- finished
+- put to use
+- let go
+relations:
+- target: learning-plan
+  type: serves
+- target: skill
+  type: serves

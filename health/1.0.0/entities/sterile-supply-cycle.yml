@@ -1,0 +1,66 @@
+kind: entity
+slug: sterile-supply-cycle
+title: Sterile Supply Cycle
+type: transactional
+summary: One processing cycle of reusable instruments from return after use through cleaning, disinfection, inspection, packing and
+  sterilisation to release, traceable to the batch, the steriliser and the patients they were used on.
+attributes:
+- name: instrument-sets
+  type: reference(instrument-set)
+  card: 1..*
+- name: steriliser
+  type: reference(medical-device)
+  card: 1..1
+- name: batch
+  type: identifier
+  card: 1..1
+- name: started-at
+  type: datetime
+  card: 1..1
+- name: released-at
+  type: datetime
+  card: 0..1
+- name: released-by
+  type: reference(employee)
+  card: 0..1
+- name: used-in
+  type: reference(surgical-case)
+  card: 0..*
+- name: deviations
+  type: text
+  card: 0..*
+states:
+- received
+- cleaning
+- inspection
+- packing
+- sterilisation
+- released
+- blocked
+relations:
+- type: depends-on
+  target: medical-device
+- type: refers-to
+  target: surgical-case
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-296
+  edition: '2024'
+  jurisdiction: global
+- source: src-297
+  edition: '2024'
+  jurisdiction: global
+- source: src-299
+  edition: '2021'
+  jurisdiction: global
+- source: src-303
+  edition: '2019'
+  jurisdiction: global
+- source: src-314
+  edition: '2014'
+  jurisdiction: global

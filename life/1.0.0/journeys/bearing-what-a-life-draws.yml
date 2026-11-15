@@ -1,0 +1,42 @@
+kind: journey
+slug: bearing-what-a-life-draws
+title: Bearing What a Life Draws
+stakeholder: living-world
+via: value-to-sustainability
+summary: The land, the species and the distant people who bear what this life draws have the cost seen, traced and weighed, the living
+  ones near looked after, and something given back.
+stages:
+- slug: have-the-cost-seen
+  title: Have the Cost Seen
+  goal: The cost borne in a landscape, an animal or someone else's labour has been seen and not looked past.
+  step: consumption-to-consequence/seeing-the-cost-elsewhere
+  touchpoints:
+  - out-in-the-open
+  - market-and-shop
+  - journey-somewhere
+- slug: be-traced
+  title: Be Traced
+  goal: The food and goods drawn from the living world have been followed back to where they came from.
+  step: consumption-to-consequence/tracing-where-things-come-from
+  touchpoints:
+  - market-and-shop
+- slug: be-drawn-on-knowingly
+  title: Be Drawn On Knowingly
+  goal: What is drawn from the living world is chosen with open eyes, and some of it has changed.
+  step: consumption-to-consequence/choosing-what-to-keep-drawing
+  touchpoints:
+  - market-and-shop
+- slug: be-looked-after-near
+  title: Be Looked After Near
+  goal: The ground and the living ones the life is attached to are looked after as a shared responsibility.
+  step: consumption-to-consequence/caring-for-the-living-ones-near
+  touchpoints:
+  - the-garden
+- slug: receive-something-back
+  title: Receive Something Back
+  goal: Something is given back to the living world and the places drawn from, and keeps being given.
+  step: consumption-to-consequence/giving-something-back
+  touchpoints:
+  - the-garden
+  - volunteer-shift
+  - a-gift-given

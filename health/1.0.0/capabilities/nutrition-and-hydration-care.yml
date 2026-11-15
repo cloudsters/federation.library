@@ -1,0 +1,10 @@
+kind: capability
+slug: nutrition-and-hydration-care
+title: Nutrition & Hydration Care
+level: L3
+parent: fundamental-care
+summary: Ensure that patients eat and drink enough, with support and monitoring where needed.
+binds:
+- source: src-510
+  edition: '2021'
+  jurisdiction: global

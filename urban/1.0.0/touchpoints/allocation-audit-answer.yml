@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: allocation-audit-answer
+title: Allocation Audit Answer
+medium: artefact
+summary: The service's written answer to the findings of a work allocation audit, with what it will change, by when and who answers
+  for it.
+exchanges:
+- allocation-records-for-answer-and-change
+- joint-audit-for-a-service-that-answers
+journey: staff-representative-shaping-work-with-agents

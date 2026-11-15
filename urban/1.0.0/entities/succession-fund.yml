@@ -1,0 +1,52 @@
+kind: entity
+slug: succession-fund
+title: Succession Fund
+type: master
+summary: The community-governed fund that lends to employees, apprentices and cooperatives buying into a business so that it stays
+  in the community. Its governing body decides the loans and keeps the accounts, and it is used to finance successions and to report
+  each year how the fund performed.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: governing-body
+  type: text
+  card: 1..*
+- name: capital-sources
+  type: text
+  card: 1..*
+- name: capital
+  type: amount
+  card: 0..1
+- name: loans-outstanding
+  type: amount
+  card: 0..1
+- name: lending-terms
+  type: document
+  card: 1..1
+- name: bank-account
+  type: reference(bank-account)
+  card: 0..1
+- name: loans-made
+  type: integer
+  card: 0..1
+- name: established-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- capitalised
+- lending
+- under-review
+- closed
+relations:
+- type: refers-to
+  target: business-succession-plan
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: bank-account
+- type: governed-by
+  target: commons-fund-rules
+- type: produces
+  target: payment

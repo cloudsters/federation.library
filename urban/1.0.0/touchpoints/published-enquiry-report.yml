@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-enquiry-report
+title: Published Enquiry Report
+medium: artefact
+summary: The regular published account of what residents ask and how they were served, sent to the services concerned and to the council.
+exchanges:
+- enquiry-findings-for-council-attention
+journey: frontline-worker-answering-at-first-contact

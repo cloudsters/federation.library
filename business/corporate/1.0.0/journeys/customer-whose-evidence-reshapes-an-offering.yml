@@ -1,0 +1,27 @@
+kind: journey
+slug: customer-whose-evidence-reshapes-an-offering
+title: Customer Whose Evidence Reshapes an Offering
+stakeholder: business-customer
+summary: A business customer tells the organisation what it values and pays for, and receives an offering changed in the light of
+  that evidence.
+stages:
+- slug: tell-what-matters
+  title: Tell What Matters
+  goal: The customer's evidence on value, price and alternatives reaches those who test the model.
+  step: value-model-stewardship/assumption-testing
+  touchpoints:
+  - customer-insight-interview
+  - account-review
+- slug: try-the-changed-offering
+  title: Try the Changed Offering
+  goal: The customer reviews the redesigned offering before it is committed.
+  step: value-model-stewardship/value-model-redesign
+  touchpoints:
+  - customer-insight-interview
+- slug: receive-the-new-terms
+  title: Receive the New Terms
+  goal: The changed offering and its pricing are explained to the customer clearly and in good time.
+  step: value-model-stewardship/value-model-adoption
+  touchpoints:
+  - account-review
+  - product-catalogue

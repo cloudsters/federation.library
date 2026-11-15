@@ -1,0 +1,20 @@
+kind: journey
+slug: approving-departmental-spend
+title: Approving Departmental Spend
+stakeholder: head-of-clinical-department
+summary: 'A department head''s part in purchasing: approving what the department buys and pays for, with a current view of commitments
+  against budget.'
+stages:
+- slug: requisition-sign-off
+  title: Requisition Sign-Off
+  goal: Requisitions above the ward's limit are approved or questioned the same day, with the remaining budget in view.
+  step: purchasing-and-invoice-settlement/requisition-approval
+  touchpoints:
+  - ordering-catalogue
+- slug: approve-unmatched-invoices
+  title: Approve Unmatched Invoices
+  goal: Invoices without a matching order or receipt are confirmed or rejected with a reason, so that suppliers are not paid late
+    or wrongly.
+  step: purchasing-and-invoice-settlement/invoice-approval-and-posting
+  touchpoints:
+  - supplier-invoice

@@ -1,0 +1,54 @@
+kind: entity
+slug: it-service
+title: IT Service
+type: master
+summary: A digital service that users depend on, such as clinical documentation, image viewing or network access, composed of applications
+  and infrastructure, owned by a named unit and delivered to agreed service levels and recovery objectives.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: service-owner
+  type: reference(organisation-unit)
+  card: 1..1
+- name: criticality
+  type: code
+  card: 1..1
+- name: applications
+  type: reference(application)
+  card: 1..*
+- name: support-hours
+  type: text
+  card: 1..1
+- name: service-levels
+  type: text
+  card: 1..*
+- name: recovery-objectives
+  type: text
+  card: 0..1
+states:
+- in-design
+- in-operation
+- under-review
+- decommissioned
+relations:
+- type: composed-of
+  target: application
+- type: governed-by
+  target: contract
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-087
+  edition: '4'
+  jurisdiction: global
+- source: src-152
+  edition: '5'
+  jurisdiction: global
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

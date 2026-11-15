@@ -1,0 +1,68 @@
+kind: entity
+slug: tender-specification
+title: Tender Specification
+type: transactional
+summary: The documents of one tender, with the need stated by outcome and standard rather than by brand, the lots, the criteria and
+  weights, and the fair-work, local-hiring, data and circular conditions and the exit plan written in. The requesting department writes
+  it with those who will use what is bought, the procurement office publishes it, and every bid is made and evaluated against it.
+attributes:
+- name: procurement
+  type: reference(public-procurement)
+  card: 1..1
+- name: need-statement
+  type: text
+  card: 1..1
+- name: outcome-requirements
+  type: text
+  card: 1..*
+- name: lots
+  type: text
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..*
+- name: scorecard
+  type: reference(procurement-scorecard)
+  card: 1..1
+- name: local-hiring
+  type: reference(local-hiring-agreement)
+  card: 0..1
+- name: wage-floor
+  type: reference(wage-floor-agreement)
+  card: 0..1
+- name: exit-plan
+  type: reference(supplier-exit-plan)
+  card: 0..1
+- name: documents
+  type: document
+  card: 1..*
+- name: answers-to-bidders
+  type: document
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- published
+- clarified
+- closed
+- withdrawn
+relations:
+- type: part-of
+  target: public-procurement
+- type: governed-by
+  target: procurement-scorecard
+- type: based-on
+  target: category-strategy
+- type: refers-to
+  target: local-hiring-agreement
+- type: refers-to
+  target: wage-floor-agreement
+- type: refers-to
+  target: supplier-exit-plan
+binds:
+- source: src-638
+  edition: '1949-06-29'
+  jurisdiction: global

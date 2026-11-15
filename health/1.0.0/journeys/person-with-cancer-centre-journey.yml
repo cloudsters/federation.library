@@ -1,0 +1,19 @@
+kind: journey
+slug: person-with-cancer-centre-journey
+title: Person with Cancer Centre Journey
+stakeholder: person-with-cancer
+summary: A person with cancer finds a recognised centre, its route of access and its published results.
+stages:
+- slug: find-the-centre
+  title: Find the Centre
+  goal: Find a centre for the condition and the route through which to reach it.
+  step: centre-development/centre-launch
+  touchpoints:
+  - public-website
+- slug: compare-the-results
+  title: Compare the Results
+  goal: See the centre's recognition and outcomes and compare them with other providers.
+  step: centre-development/performance-review-and-recognition
+  touchpoints:
+  - public-quality-report
+  - public-website

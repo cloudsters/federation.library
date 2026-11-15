@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: appointment-service
+title: Appointment Service
+medium: channel
+summary: The telephone and online service through which patients and referrers request, book and change appointments.
+exchanges:
+- answer-and-route-for-trust
+- online-booking-and-preparation
+journey: returning-patient-contact

@@ -1,0 +1,62 @@
+kind: entity
+slug: service-equity-report
+title: Service Equity Report
+type: intelligence
+summary: The yearly report of the level of each essential service and the share of income spent on it by neighbourhood and income,
+  with the gaps named. The city compiles it from the service operators' records and reviews it with residents, and it directs investment
+  and decides whether a tariff is renewed.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: services
+  type: code
+  card: 1..*
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: service-levels
+  type: document
+  card: 1..1
+- name: fault-repair-times
+  type: document
+  card: 0..1
+- name: unconnected-households
+  type: integer
+  card: 0..1
+- name: cost-burden
+  type: document
+  card: 1..1
+- name: gaps-named
+  type: text
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- compiled
+- validated
+- reviewed
+- published
+- superseded
+relations:
+- type: based-on
+  target: housing-index
+- type: based-on
+  target: mobility-data
+- type: refers-to
+  target: service-tariff
+- type: refers-to
+  target: capital-investment-plan
+- type: refers-to
+  target: neighbourhood
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global

@@ -1,0 +1,41 @@
+kind: journey
+slug: technician-restoring-an-asset
+title: Technician Restoring an Asset
+stakeholder: maintenance-technician
+summary: A maintenance technician sets the strategy for each asset, reads its condition, carries out planned and mandatory work, repairs
+  failures and learns from them.
+stages:
+- slug: set-the-strategy
+  title: Set the Strategy
+  goal: 'Each asset has a strategy by its criticality: run to failure, by schedule or by condition.'
+  step: asset-care-maintenance/maintenance-strategy
+  touchpoints:
+  - maintenance-plan
+- slug: read-the-condition
+  title: Read the Condition
+  goal: Sensor data, inspection rounds and remote diagnosis show developing failures in time.
+  step: asset-care-maintenance/condition-monitoring
+  touchpoints:
+  - asset-condition-monitor
+  - inspection-round
+  - remote-service-connection
+- slug: carry-out-planned-work
+  title: Carry Out Planned Work
+  goal: Preventive work, calibration and mandatory inspections are done and evidenced.
+  step: asset-care-maintenance/planned-and-mandatory-maintenance
+  touchpoints:
+  - maintenance-plan
+  - inspection-certificate
+- slug: repair-and-return
+  title: Repair and Return
+  goal: Failures are repaired with the right parts and the asset is returned to service.
+  step: asset-care-maintenance/fault-response-and-repair
+  touchpoints:
+  - maintenance-request
+  - spare-parts-stock
+- slug: learn-from-failure
+  title: Learn from Failure
+  goal: Significant failures are analysed and strategies, schedules and designs are changed.
+  step: asset-care-maintenance/failure-analysis-and-reliability-review
+  touchpoints:
+  - root-cause-review

@@ -1,0 +1,25 @@
+kind: solution
+slug: legal-matter-and-contract-system
+title: Legal Matter and Contract System
+role: system-of-record
+summary: Records each legal matter from intake to closure, the contracts, concessions and ground leases with their obligations and
+  guarantees, and the drafting history of each bylaw.
+carries:
+- legal-advice
+- contract-review
+- claim-and-dispute-resolution
+- bylaw-drafting
+- development-agreement-negotiation
+- open-source-first-sourcing
+- supplier-exit-planning
+- investment-benefit-agreement-drafting
+- media-independence-agreement-drafting
+holds:
+- legal-matter
+- contract
+- bylaw
+- development-agreement
+- procurement-policy
+- supplier-exit-plan
+- investment-agreement
+- media-support-agreement

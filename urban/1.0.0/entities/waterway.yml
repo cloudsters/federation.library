@@ -1,0 +1,55 @@
+kind: entity
+slug: waterway
+title: Waterway
+type: master
+summary: A river, lake, canal, aquifer or coastal water from which the city takes water or into which it returns it. The environment
+  office keeps the record with the neighbouring municipalities that share it, and uses it to protect the source, set what may be taken
+  and follow its quality.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: water-kind
+  type: code
+  card: 1..1
+- name: extent
+  type: document
+  card: 1..1
+- name: shared-with
+  type: text
+  card: 0..*
+- name: protection-zones
+  type: document
+  card: 0..*
+- name: abstraction-limit
+  type: quantity
+  card: 0..1
+- name: volume-taken
+  type: quantity
+  card: 0..1
+- name: ecological-flow
+  type: quantity
+  card: 0..1
+- name: discharge-points
+  type: text
+  card: 0..*
+- name: abstraction-agreement
+  type: reference(cross-boundary-agreement)
+  card: 0..1
+states:
+- recorded
+- protected
+- monitored
+- impaired
+- restored
+relations:
+- type: refers-to
+  target: city
+- type: governed-by
+  target: cross-boundary-agreement
+- type: refers-to
+  target: water-quality-data
+- type: refers-to
+  target: flood-risk-map
+- type: refers-to
+  target: water-network

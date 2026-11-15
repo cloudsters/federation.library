@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: maintenance-request
+title: Maintenance Request
+medium: channel
+summary: The request through which operators and users report a fault or developing problem with an asset, which is prioritised by
+  safety and criticality.
+exchanges:
+- early-reports-for-available-equipment
+journey: operator-keeping-equipment-running

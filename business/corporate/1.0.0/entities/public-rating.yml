@@ -1,0 +1,39 @@
+kind: entity
+slug: public-rating
+title: Public Rating
+type: transactional
+summary: A rating, review or ranking of the enterprise, an offering or a location published by a third party or a customer on a public
+  platform, captured with source, score and content and with the enterprise's response.
+attributes:
+- name: rating-kind
+  type: code
+  card: 1..1
+- name: source
+  type: reference(counterparty)
+  card: 1..1
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: published-on
+  type: date
+  card: 1..1
+- name: score
+  type: quantity
+  card: 0..1
+- name: content
+  type: document
+  card: 0..1
+- name: response
+  type: reference(public-statement)
+  card: 0..1
+states:
+- captured
+- under-review
+- responded
+- escalated
+- closed
+relations:
+- type: produces
+  target: complaint
+- type: refers-to
+  target: benchmark

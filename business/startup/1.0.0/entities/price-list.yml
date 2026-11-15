@@ -1,0 +1,47 @@
+kind: entity
+slug: price-list
+title: Price List
+type: master
+summary: The translation of value into prices — a structured collection of prices that links what the organisation offers (D3) with what
+  the market will exchange for it.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+- name: direction
+  type: code
+  card: 1..1
+- name: item-prices
+  type: document
+  card: 1..1
+- name: customers
+  type: reference(customer)
+  card: 0..*
+states:
+- created
+- activated
+- applied
+- revised
+- superseded
+relations:
+- type: refers-to
+  target: product
+- type: refers-to
+  target: item
+- type: refers-to
+  target: promotion
+- type: refers-to
+  target: customer
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

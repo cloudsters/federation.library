@@ -1,0 +1,39 @@
+kind: journey
+slug: supplier-waiting-to-be-paid
+title: Supplier Waiting to Be Paid
+stakeholder: supplier
+summary: A supplier submits its invoice, has differences clarified quickly, may take early payment where cash matters, is paid on
+  the agreed date and can reconcile its account without chasing.
+stages:
+- slug: submit-the-invoice
+  title: Submit the Invoice
+  goal: The invoice is received, confirmed and assigned to the order without the supplier having to follow up.
+  step: payment-fair-settlement/invoice-receipt
+  touchpoints:
+  - invoice
+  - supplier-portal
+- slug: clarify-a-difference
+  title: Clarify a Difference
+  goal: A difference in price or quantity is explained and settled with the buyer before the due date.
+  step: payment-fair-settlement/invoice-verification
+  touchpoints:
+  - accounts-payable-desk
+- slug: take-early-payment
+  title: Take Early Payment
+  goal: Where cash timing matters, the supplier is offered payment ahead of the due date on clear terms.
+  step: payment-fair-settlement/payment-approval
+  touchpoints:
+  - early-payment-offer
+- slug: receive-the-payment
+  title: Receive the Payment
+  goal: Payment arrives on the agreed date with an advice stating which invoices it settles.
+  step: payment-fair-settlement/payment-execution
+  touchpoints:
+  - remittance-advice
+- slug: reconcile-the-account
+  title: Reconcile the Account
+  goal: Statements agree, queries are answered and disputes are settled.
+  step: payment-fair-settlement/supplier-account-clarification
+  touchpoints:
+  - supplier-account-statement
+  - accounts-payable-desk

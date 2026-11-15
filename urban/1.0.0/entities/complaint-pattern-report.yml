@@ -1,0 +1,67 @@
+kind: entity
+slug: complaint-pattern-report
+title: Complaint Pattern Report
+type: intelligence
+summary: The published count of complaints and compensation by service, neighbourhood and group, with the patterns found and the causes
+  handed on for removal. The administration prepares it at a set rhythm and the council receives it in public, and each pattern goes
+  to the quality review of the service concerned.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: complaint-count
+  type: integer
+  card: 1..1
+- name: complaints-by-service
+  type: text
+  card: 1..*
+- name: complaints-by-neighbourhood
+  type: text
+  card: 0..*
+- name: complaints-by-group
+  type: text
+  card: 0..*
+- name: answered-in-time-share
+  type: decimal
+  card: 0..1
+- name: compensation-paid
+  type: amount
+  card: 0..1
+- name: award-count
+  type: integer
+  card: 0..1
+- name: ombudsman-case-count
+  type: integer
+  card: 0..1
+- name: patterns-found
+  type: text
+  card: 0..*
+- name: corrective-actions
+  type: reference(corrective-action)
+  card: 0..*
+- name: report-document
+  type: document
+  card: 1..1
+states:
+- compiled
+- reviewed
+- published
+- reported-to-council
+- superseded
+relations:
+- type: based-on
+  target: citizen-complaint
+- type: based-on
+  target: compensation-award
+- type: based-on
+  target: ombudsman-case
+- type: refers-to
+  target: service-failure-report
+- type: produces
+  target: corrective-action
+- type: produces
+  target: public-record
+binds:
+- source: src-234
+  edition: '2018'
+  jurisdiction: global

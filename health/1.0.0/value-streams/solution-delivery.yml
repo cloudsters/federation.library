@@ -1,0 +1,169 @@
+kind: value-stream
+slug: solution-delivery
+title: Solution Delivery
+family: portfolio-to-system
+summary: 'Delivering digital solutions from demand to live use: requirements, selection or design, configuration, integration, testing,
+  training, rollout and stabilisation after go-live.'
+trigger: An approved demand for a new or changed digital solution is registered.
+outcome: The solution is live, adopted by its users and handed over to operations.
+stakeholders:
+- head-of-clinical-department
+- registered-nurse
+- specialist-physician
+- administrative-staff
+- health-informatics-specialist
+- supplier
+- staff-representation
+- executive
+steps:
+- slug: delivery-mandate
+  title: Delivery Mandate
+  summary: Turn the approved demand into a project with a sponsor, a clinical or business owner, budget, team, delivery approach and
+    the benefits it must deliver.
+  capabilities:
+  - project-management
+  - programme-orchestration
+  - solution-lifecycle-planning
+  - it-demand-management
+  entities:
+  - digital-demand
+  - governance-decision
+  - budget
+  - organisation-unit
+  serves:
+  - digital-steering-committee
+- slug: requirements-and-process-design
+  title: Requirements and Process Design
+  summary: Describe current and target workflows with future users, derive functional, data, interface, security and privacy requirements,
+    and assess the clinical hazards and privacy impact the solution introduces.
+  capabilities:
+  - process-definition
+  - solution-architecture
+  - information-architecture
+  - privacy-impact-management
+  - digital-clinical-safety-assurance
+  - it-risk-and-security-control
+  entities:
+  - digital-demand
+  - data-processing-record
+  - risk
+  - policy
+  serves:
+  - requirements-workshop
+- slug: solution-selection-and-contracting
+  title: Solution Selection and Contracting
+  summary: Decide whether to reuse, configure, buy or build, run a tender where buying requires one, evaluate candidates with users,
+    agree the introduction with staff representatives, and contract for service levels, data processing, security and exit.
+  capabilities:
+  - application-portfolio-management
+  - supplier-selection-and-contracting
+  - contract-lifecycle-stewardship
+  - vendor-risk-management
+  - co-determination-cooperation
+  entities:
+  - tender
+  - contract
+  - supplier-organisation
+  - application
+  serves:
+  - call-for-tender
+  - staff-consultation
+  - supplier-portal
+- slug: configuration-and-integration
+  title: Configuration and Integration
+  summary: Build or configure the solution, set up order sets, forms and catalogues with clinical content owners, build interfaces
+    and device connections, and migrate master data and records.
+  capabilities:
+  - solution-build-and-test
+  - clinical-system-configuration
+  - clinical-information-system-lifecycle
+  - medical-device-integration
+  - integration-platform-operation
+  - master-data-stewardship
+  entities:
+  - application
+  - interface
+  - code-system
+  - medical-device
+  serves:
+  - clinical-workstation
+  - interface-specification
+  - requirements-workshop
+- slug: testing-and-acceptance
+  title: Testing and Acceptance
+  summary: Test functions, interfaces, performance, security and clinical safety, let future users accept the solution with realistic
+    cases, and pass the go-live through change approval.
+  capabilities:
+  - solution-build-and-test
+  - exchange-standard-conformance
+  - digital-clinical-safety-assurance
+  - it-compliance-assessment
+  - it-change-and-release-governance
+  entities:
+  - change-request
+  - application
+  - interface
+  - risk
+  serves:
+  - user-acceptance-test
+- slug: training-and-go-live
+  title: Training and Go-Live
+  summary: Plan the cutover, train users by role, prepare fallback procedures, go live with on-site support and keep the units informed
+    throughout.
+  capabilities:
+  - deployment-strategy
+  - solution-rollout
+  - training-delivery
+  - change-planning
+  - change-implementation
+  - clinical-downtime-procedures
+  - internal-communication
+  entities:
+  - change-request
+  - application
+  - teaching-session
+  - it-service
+  serves:
+  - go-live-support
+  - learning-platform
+  - service-status-notice
+  - staff-consultation
+  - system-training
+- slug: stabilisation-and-handover
+  title: Stabilisation and Handover
+  summary: Resolve early defects during intensified support, measure adoption and benefits, and hand the solution to service operations
+    with documentation, service levels and a support model.
+  capabilities:
+  - solution-maintenance
+  - it-user-support
+  - it-service-level-management
+  - configuration-and-service-topology
+  - improvement-sustainment
+  entities:
+  - it-service
+  - service-ticket
+  - application
+  - measure-report
+  serves:
+  - clinical-workstation
+  - it-service-desk
+  - service-review-meeting
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: child
+title: Child
+nature: person
+stance: served
+via: participant-to-community
+represented_by:
+- child-relation
+dissolves: true

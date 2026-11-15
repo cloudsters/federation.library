@@ -1,0 +1,15 @@
+kind: body
+slug: volunteer-centre
+title: Volunteer Centre
+summary: Publishes the volunteering opportunities of the city and its partners in one place, matches, prepares, checks and insures
+  volunteers, keeps their right to step back without penalty, and keeps the contribution ledger and the recognition of what residents
+  give.
+holds:
+- volunteer-opportunity-listing
+- volunteer-matching
+- volunteer-preparation-and-safeguarding
+- contribution-recognition
+- continued-contribution-arrangement
+part_of: community-development-department
+type: function
+form: organisational-unit

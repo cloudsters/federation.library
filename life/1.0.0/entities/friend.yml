@@ -1,0 +1,37 @@
+kind: entity
+slug: friend
+title: Close Friend
+type: master
+summary: Someone chosen, kept by deliberate investment, and not held in place by blood, contract or proximity. The only close relation
+  with no external structure holding it together — which is why it decays silently when nobody invests.
+attributes:
+- name: known-since
+  type: date
+  card: 0..1
+- name: how-it-began
+  type: reference(relationship-beginning)
+  card: 0..1
+- name: distance
+  type: code
+  card: 0..1
+- name: help-lately-flows
+  type: code
+  card: 0..1
+- name: standing-occasion
+  type: reference(ritual)
+  card: 0..1
+- name: last-contact
+  type: date
+  card: 0..1
+states:
+- met
+- close
+- drifting
+- out of reach
+- reconnected
+- let go
+relations:
+- target: self
+  type: about
+- target: relationship-map
+  type: part-of

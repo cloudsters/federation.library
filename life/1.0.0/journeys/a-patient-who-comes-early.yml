@@ -1,0 +1,28 @@
+kind: journey
+slug: a-patient-who-comes-early
+title: A Patient Who Comes Early
+stakeholder: practitioner
+via: acquire-to-retire
+summary: A practitioner meets someone who keeps a simple record, comes early, says clearly what has changed and returns at the agreed
+  times.
+stages:
+- slug: read-feeling-beside-measure
+  title: Read Feeling beside Measure
+  goal: The practitioner can read how the person felt beside what was measured, over time rather than on one day.
+  step: signal-to-knowledge/setting-feeling-beside-measure
+  touchpoints:
+  - health-record
+- slug: hear-what-changed
+  title: Hear What Changed
+  goal: The practitioner has been told early and clearly what changed, and asked what it may mean.
+  step: signal-to-knowledge/bringing-it-to-someone
+  touchpoints:
+  - doctors-appointment
+  - health-record
+- slug: see-them-return
+  title: See Them Return
+  goal: The person has come back at the agreed time, with the record and the family history that informs it.
+  step: signal-to-knowledge/checking-back-in
+  touchpoints:
+  - doctors-appointment
+  - health-record

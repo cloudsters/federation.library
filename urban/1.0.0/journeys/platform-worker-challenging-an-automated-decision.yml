@@ -1,0 +1,37 @@
+kind: journey
+slug: platform-worker-challenging-an-automated-decision
+title: Platform Worker Challenging an Automated Decision
+stakeholder: platform-worker
+summary: A worker whose tasks or pay were cut by an automated system finds the system in the city's register, challenges the decision,
+  has it reviewed by a person, sees the harm remedied and sees the pattern of such decisions reported.
+stages:
+- slug: find-the-system-that-decided
+  title: Find the System That Decided
+  goal: The worker finds in the public register the system that decided, its purpose, its data and the person who answers for it.
+  step: automated-decision-assurance/use-registration
+  touchpoints:
+  - automated-system-register-entry
+- slug: challenge-the-decision
+  title: Challenge the Decision
+  goal: The worker's challenge is received with their own records, and its deadline is set.
+  step: automated-decision-assurance/challenge-and-suspension
+  touchpoints:
+  - decision-challenge-channel
+- slug: have-a-person-review-it
+  title: Have a Person Review It
+  goal: A person reviews the decision with the system's reasons disclosed and decides whether it stands.
+  step: automated-decision-assurance/challenge-and-suspension
+  touchpoints:
+  - decision-review-by-a-person
+- slug: see-the-harm-remedied
+  title: See the Harm Remedied
+  goal: A wrong decision is reversed and remedied, and where the system caused harm it is suspended and the supplier held to account.
+  step: automated-decision-assurance/challenge-and-suspension
+  touchpoints:
+  - system-suspension-notice
+- slug: see-the-pattern-reported
+  title: See the Pattern Reported
+  goal: The challenges and their outcomes appear in the system's report, so that a pattern of harm is seen and answered.
+  step: automated-decision-assurance/monitoring-in-use
+  touchpoints:
+  - published-system-performance-report

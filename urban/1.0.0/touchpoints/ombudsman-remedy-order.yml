@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ombudsman-remedy-order
+title: Ombudsman Remedy Order
+medium: artefact
+summary: The reasoned decision of the ombudsman, published without personal details, ordering the remedy and the time within which
+  the city must carry it out.
+exchanges:
+- ombudsman-order-for-remedy-carried-out
+journey: ombudsman-deciding-an-unresolved-complaint

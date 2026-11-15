@@ -1,0 +1,27 @@
+kind: journey
+slug: works-council-agreeing-to-a-system-introduction
+title: Works Council Agreeing to a System Introduction
+stakeholder: works-council
+summary: The works council agrees the limits of work discovery from event data, co-determines the introduction of a new system and
+  reviews its effect on work after go-live.
+stages:
+- slug: set-limits-on-work-discovery
+  title: Set Limits on Work Discovery
+  goal: Event data and observation are used only within agreed limits that protect privacy.
+  step: change-as-evolution/current-work-discovery
+  touchpoints:
+  - works-council-meeting
+  - process-walkthrough
+- slug: agree-the-introduction
+  title: Agree the Introduction
+  goal: The introduction, training and any monitoring are agreed with the council.
+  step: change-as-evolution/transition-planning
+  touchpoints:
+  - works-council-meeting
+- slug: review-the-effect-on-work
+  title: Review the Effect on Work
+  goal: The council sees how the change affected work and whether the agreement was kept.
+  step: change-as-evolution/post-deployment-review
+  touchpoints:
+  - works-council-meeting
+  - post-deployment-review

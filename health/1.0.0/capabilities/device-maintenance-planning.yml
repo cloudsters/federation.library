@@ -1,0 +1,13 @@
+kind: capability
+slug: device-maintenance-planning
+title: Device Maintenance Planning
+level: L3
+parent: device-maintenance-and-safety
+summary: Plan preventive maintenance and the resources it requires.
+binds:
+- source: src-295
+  edition: '2014'
+  jurisdiction: global
+- source: src-349
+  edition: 2015(R2023)
+  jurisdiction: global

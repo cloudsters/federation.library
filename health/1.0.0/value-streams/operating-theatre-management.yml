@@ -1,0 +1,135 @@
+kind: value-stream
+slug: operating-theatre-management
+title: Operating Theatre Management
+family: demand-to-fulfillment
+summary: 'Running operating theatres as a shared resource: allocation of theatre time to specialties, case booking, daily planning,
+  coordination on the day, balancing elective and emergency cases, and utilisation review.'
+trigger: A theatre planning period opens, or an operation is booked.
+outcome: Operations take place in their planned slot with staff, equipment and materials ready, and utilisation is measured.
+stakeholders:
+- executive
+- head-of-clinical-department
+- surgeon
+- anaesthesiologist
+- registered-nurse
+- support-services-staff
+- clinical-engineer
+- operations-planning-agent
+- elective-inpatient
+- emergency-patient
+steps:
+- slug: session-allocation
+  title: Session Allocation
+  summary: Theatre sessions are allocated to specialties for the planning period by agreed rules on demand, waiting lists and past
+    use, with capacity reserved for emergencies and staffed by the rosters.
+  capabilities:
+  - theatre-capacity-allocation
+  - elective-and-emergency-theatre-balance
+  - resource-capacity-planning
+  - waiting-list-management
+  entities:
+  - operating-session
+  - schedule
+  - room
+  - waiting-list-entry
+  - capacity-forecast
+  serves:
+  - theatre-planning-meeting
+- slug: case-booking
+  title: Case Booking
+  summary: Surgeons book each case into a session with procedure, expected duration, team, equipment, implants, blood and the post-operative
+    bed it requires.
+  capabilities:
+  - theatre-scheduling
+  - bed-occupancy-planning
+  - instrument-set-management
+  - material-demand-sensing
+  entities:
+  - surgical-case
+  - operating-session
+  - instrument-set
+  - inventory-item
+  - bed-assignment
+  serves:
+  - clinical-workstation
+  - operating-list
+- slug: list-planning
+  title: List Planning
+  summary: Lists are fixed days ahead, cases are sequenced and matched with rosters, anaesthesia, sterile sets, materials and beds,
+    and an agent proposes schedules that the planners approve or change.
+  capabilities:
+  - theatre-scheduling
+  - staff-scheduling
+  - on-call-and-night-duty-organisation
+  - instrument-set-management
+  - point-of-care-replenishment
+  - predictive-analytics
+  - human-agent-collaboration-design
+  entities:
+  - operating-session
+  - surgical-case
+  - roster
+  - shift-assignment
+  - instrument-set
+  - prediction
+  serves:
+  - clinical-workstation
+  - operating-list
+- slug: day-of-surgery-coordination
+  title: Day-of-Surgery Coordination
+  summary: On the day a coordinator steers the running lists, calls patients in, resolves delays and staffing gaps, and fits emergency
+    cases in by agreed priority without collapsing the planned list.
+  capabilities:
+  - theatre-day-coordination
+  - elective-and-emergency-theatre-balance
+  - patient-transport-services
+  - staffing-level-adjustment
+  - bed-coordination-and-placement
+  entities:
+  - surgical-case
+  - operating-session
+  - support-service-order
+  - shift-assignment
+  - capacity-status
+  serves:
+  - operating-list
+  - operating-theatre
+  - patient-transport
+  - theatre-control-desk
+- slug: turnover-and-readiness
+  title: Turnover and Readiness
+  summary: Between cases the room is cleaned, instruments return to sterile processing, sets and devices are made ready, and the next
+    patient is prepared so that turnover time stays short.
+  capabilities:
+  - cleaning-services
+  - environmental-hygiene
+  - instrument-reprocessing-and-validation
+  - sterile-goods-release-and-traceability
+  - instrument-set-management
+  - theatre-utilisation-optimisation
+  entities:
+  - room
+  - instrument-set
+  - sterile-supply-cycle
+  - medical-device
+  - support-service-order
+  serves:
+  - operating-theatre
+  - theatre-control-desk
+- slug: utilisation-review
+  title: Utilisation Review
+  summary: Start times, turnover, overruns, cancellations and session use are measured and reviewed with each specialty, and allocations
+    and processes are adjusted.
+  capabilities:
+  - theatre-utilisation-optimisation
+  - theatre-capacity-allocation
+  - business-intelligence-and-reporting
+  - process-improvement
+  - care-operations-governance
+  entities:
+  - measure-report
+  - dashboard
+  - operating-session
+  - improvement-initiative
+  serves:
+  - theatre-planning-meeting

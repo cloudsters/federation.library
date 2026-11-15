@@ -1,0 +1,37 @@
+kind: entity
+slug: compliance-obligation
+title: Compliance Obligation
+type: governance
+summary: A duty the organisation must meet that arises from law, regulation, accreditation or contract, such as patient safety,
+  data protection, device safety, infection control or reporting duties, with its owner and evidence of fulfilment.
+attributes:
+- name: obligation-source
+  type: code
+  card: 1..1
+- name: jurisdiction
+  type: code
+  card: 0..1
+- name: legal-reference
+  type: text
+  card: 0..1
+- name: requirement
+  type: text
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: evidence
+  type: document
+  card: 0..*
+- name: due-date
+  type: date
+  card: 0..1
+states:
+- identified
+- assessed
+- in-fulfilment
+- fulfilled
+- breached
+relations:
+- type: assigned-to
+  target: organisation-unit

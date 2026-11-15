@@ -1,0 +1,11 @@
+kind: capability
+slug: hazardous-waste-management
+title: Waste & Hazardous Materials Management
+level: L3
+parent: environmental-sustainability
+summary: Plan, document and carry out the handling, treatment and disposal of waste and hazardous goods within every legal and environmental
+  duty, protecting workers, neighbours and the natural environment.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

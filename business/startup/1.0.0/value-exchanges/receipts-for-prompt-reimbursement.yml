@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: receipts-for-prompt-reimbursement
+title: Receipts for Prompt Reimbursement
+between:
+- employee
+- finance-professional
+offered:
+- Expense claims and card transactions with receipts, within policy.
+returned:
+- Prompt reimbursement and simple rules that are applied consistently.
+touchpoint: expense-claim

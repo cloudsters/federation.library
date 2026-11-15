@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-postings-for-reviewed-exceptions
+title: Prepared Postings for Reviewed Exceptions
+between:
+- finance-operations-agent
+- finance-professional
+offered:
+- Accruals, matches and postings prepared, with anomalies flagged.
+returned:
+- Every exception reviewed and decided by a person, and the agent's rules corrected where it erred.
+touchpoint: accounting-workbench

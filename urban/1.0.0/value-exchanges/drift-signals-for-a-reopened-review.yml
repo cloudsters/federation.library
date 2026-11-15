@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: drift-signals-for-a-reopened-review
+title: Drift Signals for a Reopened Review
+between:
+- resident
+- city-council
+offered:
+- Residents' signals that the vision no longer holds or that the city moves away from it.
+returned:
+- A visible picture of progress towards the vision, and a review reopened when the signals show it no longer holds.
+touchpoint: vision-progress-page

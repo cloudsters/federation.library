@@ -1,0 +1,39 @@
+kind: journey
+slug: housing-officer-assessing-need-and-keeping-homes
+title: Housing Officer Assessing Need and Keeping Homes
+stakeholder: housing-officer
+summary: A housing officer assesses the city's housing need and reports the gap, helps a household at risk keep its home, allocates
+  an empty home by the published rules and reviews with residents who was housed and who still waits.
+stages:
+- slug: assess-the-housing-gap
+  title: Assess the Housing Gap
+  goal: The number of homes of each size and cost needed by each neighbourhood and group is set beside the homes held, and the gap
+    is reported to the council.
+  step: homelessness-and-housing-allocation/housing-need-assessment
+  touchpoints:
+  - housing-need-report
+- slug: help-a-household-keep-its-home
+  title: Help a Household Keep Its Home
+  goal: A household at risk of eviction or arrears has advice on its rights, a negotiated arrangement with the landlord and the support
+    it is entitled to.
+  step: homelessness-and-housing-allocation/early-help-to-keep-a-home
+  touchpoints:
+  - eviction-prevention-visit
+  - housing-advice-desk
+- slug: allocate-an-empty-home
+  title: Allocate an Empty Home
+  goal: An empty home of the city or a partner is matched to the register by priority, household size and access needs, and the allocation
+    is recorded openly.
+  step: homelessness-and-housing-allocation/home-allocation
+  touchpoints:
+  - published-allocation-record
+  - home-offer-letter
+- slug: review-who-was-housed
+  title: Review Who Was Housed
+  goal: Residents and housing bodies have seen who received a home, who waited longest, how many were sheltered and how many lost
+    their homes, and the council has the report.
+  step: homelessness-and-housing-allocation/allocation-and-homelessness-review
+  touchpoints:
+  - annual-housing-review-forum
+  - housing-need-report
+  - published-allocation-record

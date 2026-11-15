@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: options-for-an-informed-decision
+title: Options for an Informed Decision
+between:
+- specialist-physician
+- person-with-cancer
+offered:
+- Every reasonable option with its benefits, harms and uncertainties, explained in plain language and in the patient's own language,
+  a decision aid and time to reflect.
+returned:
+- The patient's priorities and a valid, documented decision that authorises the chosen treatment and protects the team that carries
+  it out.
+touchpoint: consent-form

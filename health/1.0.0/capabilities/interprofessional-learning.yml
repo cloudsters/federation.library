@@ -1,0 +1,13 @@
+kind: capability
+slug: interprofessional-learning
+title: Interprofessional Learning
+level: L2
+parent: health-professions-and-interprofessional-education
+summary: Teaching professions to learn and work together.
+binds:
+- source: src-467
+  edition: 3 (2023)
+  jurisdiction: global
+- source: src-479
+  edition: '2010'
+  jurisdiction: global

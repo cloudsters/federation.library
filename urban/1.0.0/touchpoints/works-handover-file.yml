@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: works-handover-file
+title: Works Handover File
+medium: artefact
+summary: The file handed to the operator with test results, drawings, manuals, material passport and the list of open defects, followed
+  until each is closed.
+exchanges:
+- tested-work-for-a-handover-crews-accept
+journey: public-works-engineer-delivering-a-public-work

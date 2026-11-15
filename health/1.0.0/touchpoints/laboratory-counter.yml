@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: laboratory-counter
+title: Laboratory Counter
+medium: place
+summary: Where samples arrive from wards, clinics and practices and outpatients have blood taken, and from which results return to
+  those who requested them.
+exchanges:
+- screening-participation
+journey: protected-from-infection

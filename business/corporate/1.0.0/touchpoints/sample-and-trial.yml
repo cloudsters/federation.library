@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: sample-and-trial
+title: Sample and Trial
+medium: encounter
+summary: The sample, demonstration or trial run in which a customer tests the product with its own materials or in its own process
+  before deciding to buy.
+exchanges:
+- pilot-use-for-early-access
+- verified-data-for-specification
+- need-disclosure-for-a-fitting-offer
+journey: specifier-considering-a-new-offering-for-specification

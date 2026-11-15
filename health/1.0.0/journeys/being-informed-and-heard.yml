@@ -1,0 +1,36 @@
+kind: journey
+slug: being-informed-and-heard
+title: Being Informed and Heard
+stakeholder: registered-nurse
+summary: A nurse on rotating shifts learns of a decision from the unit's own leader before rumour does, gives a candid view safely,
+  and sees the response in the unit.
+stages:
+- slug: hearing-it-first-from-the-leader
+  title: Hearing It First from the Leader
+  goal: Learn of a decision from one's own leader, with what it means for the unit, before hearing it elsewhere.
+  step: internal-communication-and-staff-voice/cascade
+  touchpoints:
+  - team-meeting
+  - intranet
+- slug: giving-a-view
+  title: Giving a View
+  goal: Say candidly what works and what does not, safely and without exposure.
+  step: internal-communication-and-staff-voice/staff-voice-capture
+  touchpoints:
+  - staff-survey-questionnaire
+  - suggestion-scheme
+  - speak-up-channel
+- slug: getting-an-answer
+  title: Getting an Answer
+  goal: Receive a reply to one's own idea and see what leadership will change in response.
+  step: internal-communication-and-staff-voice/response-to-staff
+  touchpoints:
+  - team-meeting
+  - staff-town-hall
+- slug: seeing-the-unit-change
+  title: Seeing the Unit Change
+  goal: Experience the agreed changes on the ward and judge them at the next survey.
+  step: internal-communication-and-staff-voice/follow-through
+  touchpoints:
+  - team-meeting
+  - staff-survey-questionnaire

@@ -1,0 +1,60 @@
+kind: entity
+slug: housing-policy
+title: Housing Policy
+type: governance
+summary: The council's rules on how many affordable homes the city provides, to whom and on what terms, including the rules of allocation
+  and the standard of a livable home. The housing office drafts and keeps it and the council adopts it, and every assessment of need,
+  allocation and tenancy of an affordable home is tested against it.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: affordable-home-targets
+  type: text
+  card: 1..*
+- name: allocation-rules
+  type: document
+  card: 1..1
+- name: priority-groups
+  type: code
+  card: 0..*
+- name: rent-setting-rule
+  type: text
+  card: 0..1
+- name: livable-home-standard
+  type: reference(service-standard)
+  card: 0..1
+- name: affordability-covenants
+  type: reference(affordability-covenant)
+  card: 0..*
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: need-assessment
+- type: based-on
+  target: housing-index
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: affordability-covenant
+- type: refers-to
+  target: service-standard

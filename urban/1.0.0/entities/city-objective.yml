@@ -1,0 +1,60 @@
+kind: entity
+slug: city-objective
+title: City Objective
+type: governance
+summary: A measurable objective derived from the strategy, with its owner, its measure and target, and the departments and neighbourhoods
+  it binds. The administration sets it with those who carry it, and it is followed on the city dashboard and reported on to the council
+  and residents.
+attributes:
+- name: statement
+  type: text
+  card: 1..1
+- name: strategy
+  type: reference(city-strategy)
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: measure
+  type: text
+  card: 1..1
+- name: unit
+  type: code
+  card: 0..1
+- name: baseline
+  type: decimal
+  card: 0..1
+- name: target-value
+  type: decimal
+  card: 1..1
+- name: target-date
+  type: date
+  card: 1..1
+- name: bound-departments
+  type: reference(department)
+  card: 0..*
+- name: bound-neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+states:
+- drafted
+- agreed
+- adopted
+- in-force
+- achieved
+- missed
+- revised
+- retired
+relations:
+- type: part-of
+  target: city-strategy
+- type: assigned-to
+  target: department
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-dashboard
+binds:
+- source: src-172
+  edition: '2019'
+  jurisdiction: global

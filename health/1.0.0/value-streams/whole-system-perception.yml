@@ -1,0 +1,149 @@
+kind: value-stream
+slug: whole-system-perception
+title: Whole-System Perception
+family: perception-to-mandate
+summary: 'The organisation''s reflexive view of itself as a whole: sensing the state, vitality and coherence of care, research,
+  teaching and enterprise together, detecting drift from mandate and purpose, and initiating correction.'
+trigger: A scheduled whole-system review falls due, or signals from several streams indicate drift from the mandate.
+outcome: The board holds a current, shared picture of the whole system's state and drift, and every corrective decision has
+  an owner.
+stakeholders:
+- executive
+- owner
+- university
+- staff-representation
+- general-public
+- natural-environment
+steps:
+- slug: signal-collection
+  title: Signal Collection
+  summary: Measures and signals of care, research, teaching, workforce, finance and environmental footprint are gathered from
+    every stream into one trusted base, on a fixed cadence and on demand.
+  capabilities:
+  - whole-system-state-perception
+  - business-intelligence-and-reporting
+  - workforce-reporting
+  - research-performance-assessment
+  - education-quality-assurance
+  - financial-performance-management
+  - esg-data-management
+  entities:
+  - measure-report
+  - capacity-status
+  - financial-statement
+  - environmental-footprint
+  - dashboard
+  serves:
+  - staff-consultation
+  - supervisory-body-meeting
+- slug: environment-sensing
+  title: Environment Sensing
+  summary: Demographic, epidemiological, technological, policy, payment and competitive shifts in the environment are sensed
+    and assessed for what they mean to the mandate.
+  capabilities:
+  - ecosystem-sensing
+  - regulatory-landscape-sensing
+  - population-needs-assessment
+  - demand-and-market-analysis
+  entities:
+  - catchment-population
+  - benchmark
+  - drift-signal
+  serves:
+  - supervisory-body-meeting
+- slug: vitality-and-coherence-assessment
+  title: Vitality and Coherence Assessment
+  summary: 'The vitality of the whole is judged: whether care, research, teaching and enterprise reinforce or weaken each
+    other, where capability is strong or thin, and how the organisation compares with its peers.'
+  capabilities:
+  - drift-and-vitality-sensing
+  - internal-capability-sensing
+  - impact-measurement-design
+  - performance-benchmarking
+  - engagement-surveys
+  entities:
+  - whole-system-assessment
+  - benchmark
+  - measure-report
+  serves:
+  - board-report
+  - joint-university-committee
+  - whole-system-review
+- slug: drift-detection
+  title: Drift Detection
+  summary: The observed state is compared with the mandate, the mission and its boundary, and the strategy, and every significant
+    deviation is raised as a drift signal with its evidence.
+  capabilities:
+  - drift-and-vitality-sensing
+  - activity-boundary-definition
+  - academic-mandate-alignment
+  - strategy-alignment-across-functions
+  - predictive-analytics
+  entities:
+  - drift-signal
+  - service-mandate
+  - mission-and-values-statement
+  - strategic-objective
+  serves:
+  - board-report
+- slug: shared-picture
+  title: Shared Picture
+  summary: State, vitality and drift are synthesised into one picture for the executive board, the supervisory body, the faculty
+    and the staff representation, so that all decide from the same view.
+  capabilities:
+  - whole-system-state-perception
+  - board-communication-reporting
+  - integrated-performance-review
+  - internal-communication
+  entities:
+  - whole-system-assessment
+  - dashboard
+  - drift-signal
+  serves:
+  - board-report
+  - joint-university-committee
+  - staff-consultation
+  - staff-town-hall
+  - supervisory-body-meeting
+  - whole-system-review
+- slug: corrective-decision
+  title: Corrective Decision
+  summary: For each drift signal the board decides whether to correct, to adapt the strategy or to open a mandate review,
+    and gives every correction an owner, a measure and a date.
+  capabilities:
+  - drift-correction
+  - delegation-of-authority
+  - goal-setting-and-cascade
+  - initiative-evaluation-and-selection
+  entities:
+  - drift-signal
+  - governance-decision
+  - corrective-action
+  - strategic-objective
+  serves:
+  - joint-university-committee
+  - staff-consultation
+  - supervisory-body-meeting
+  - whole-system-review
+- slug: correction-follow-through
+  title: Correction Follow-Through
+  summary: The effect of each correction is followed in the signals until the drift is closed or escalated, and what was learnt
+    sharpens the measures and signals of the next cycle.
+  capabilities:
+  - drift-correction
+  - improvement-sustainment
+  - integrated-performance-review
+  - knowledge-strategy-design
+  entities:
+  - corrective-action
+  - drift-signal
+  - measure-report
+  - measure
+  serves:
+  - annual-report
+  - board-report
+start: true
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

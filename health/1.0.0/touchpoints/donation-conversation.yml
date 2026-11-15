@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: donation-conversation
+title: Donation Conversation
+medium: encounter
+summary: The conversation in which trained staff establish with the relatives the patient's known or presumed decision on organ and
+  tissue donation, held apart from the decision to limit treatment and from the news of death.
+exchanges:
+- decision-for-respectful-donation
+- donor-report-for-coordinated-donation
+journey: donor-family-journey

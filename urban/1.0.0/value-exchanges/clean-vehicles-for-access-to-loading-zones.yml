@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clean-vehicles-for-access-to-loading-zones
+title: Clean Vehicles for Access to Loading Zones
+between:
+- delivery-carrier
+- city-administration
+offered:
+- Clean vehicles and deliveries kept outside the hours they harm residential streets most.
+returned:
+- Access to loading zones and districts set by rule, and predictable windows to plan around.
+touchpoint: kerb-and-loading-map

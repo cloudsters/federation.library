@@ -1,0 +1,19 @@
+kind: solution
+slug: global-trade-management-system
+title: Global Trade Management System
+role: system-of-record
+summary: Classifies goods, screens parties and destinations, determines duties and preferences, and prepares the trade documents and
+  customs declarations that cross-border flows require.
+carries:
+- customs-duty-assessment
+- goods-classification
+- customs-authority-dialogue
+- cross-border-commerce-management
+- shipment-record-keeping
+- global-trade-navigation
+- duty-refund-and-restitution
+- landed-cost-calculation
+- orchestrate-trade-preferences
+- trade-settlement-as-fair-exchange
+holds:
+- customs-declaration

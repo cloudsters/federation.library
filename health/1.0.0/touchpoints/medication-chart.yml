@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: medication-chart
+title: Medication Chart
+medium: artefact
+summary: The inpatient record of every prescribed medicine and of every dose given or withheld, read by prescribers, pharmacists and
+  nurses at every round.
+exchanges:
+- prescription-for-pharmaceutical-review
+journey: medication-journey

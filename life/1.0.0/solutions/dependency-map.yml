@@ -1,0 +1,14 @@
+kind: solution
+slug: dependency-map
+title: Dependency Map
+role: system-of-insight
+sovereignty: owned
+summary: Lists the institutions, services and people the life rests on, each with what would happen if it failed.
+carries:
+- mapping-what-one-depends-on
+- seeing-dependence-on-services
+- weighing-a-dependence
+holds:
+- dependency-register
+- provider-relation
+- service-account

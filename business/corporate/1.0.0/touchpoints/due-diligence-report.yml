@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: due-diligence-report
+title: Due Diligence Report
+medium: artefact
+summary: The report of the examination of a target's finances, contracts, liabilities, tax, people, technology and impact, with the
+  risks found and how to price them.
+exchanges:
+- diligence-findings-for-a-defined-mandate
+journey: executive-board-acquiring-a-business

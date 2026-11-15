@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: stock-condition-survey
+title: Stock Condition Survey
+medium: artefact
+summary: The survey of every building at fixed intervals, recording roofs, heating, damp, safety and energy use, from which the funded
+  renewal programme is drawn.
+exchanges:
+- tenant-agreement-for-a-funded-renewal-programme
+journey: housing-officer-running-city-homes-with-their-tenants

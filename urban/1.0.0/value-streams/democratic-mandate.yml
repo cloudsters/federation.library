@@ -1,0 +1,124 @@
+kind: value-stream
+slug: democratic-mandate
+title: Democratic Mandate
+family: perception-to-mandate
+summary: Constituting and renewing the mandate the city's elected bodies hold, who may vote and stand, how votes are cast and counted,
+  how council and mayor take office with defined decision rights, which communities hold a recognised voice, and how residents hold
+  the mandate to account between elections.
+trigger: An election falls due, a mandate ends early, or residents file a petition for a vote or a recall.
+outcome: The elected bodies hold a certified mandate, published with its decision rights and recognised voices, and answerable to
+  residents through public performance reports, petitions and the next vote.
+stakeholders:
+- resident
+- election-office
+- city-council
+- mayor
+- affected-community
+- informal-worker
+steps:
+- slug: electorate-definition
+  title: Electorate Definition
+  summary: Who may vote and stand is set within the statutory local-government framework, the electoral register is brought up to
+    date from the population register, and residents left out, such as recent arrivals and those without a stable address, are named
+    and reached where the rules allow.
+  capabilities:
+  - electoral-register-keeping
+  - participation-boundary-review
+  entities:
+  - population-register
+  - election
+  serves:
+  - electoral-register-check
+  - voter-registration-drive
+- slug: election-organisation
+  title: Election Organisation
+  summary: The election office fixes the voting method, the electoral districts, the nomination of candidates and the polling places,
+    and makes voting accessible to disabled residents and to those who need other languages.
+  capabilities:
+  - election-organisation
+  - voting-method-design
+  entities:
+  - election
+  - participation-charter
+  serves:
+  - election-notice
+  - polling-station
+- slug: vote-and-count
+  title: Vote and Count
+  summary: Residents cast their votes, the votes are counted in public, and the results are certified, published and open to challenge
+    within the set period.
+  capabilities:
+  - election-organisation
+  - electoral-register-keeping
+  - public-record-publication
+  entities:
+  - election
+  - public-record
+  serves:
+  - polling-station
+  - published-election-results
+- slug: mandate-constitution
+  title: Mandate Constitution
+  summary: Council and mayor take office, committees are formed, decision rights and delegations are allocated and published, and
+    each body's mandate is stated so that residents know who answers for what.
+  capabilities:
+  - decision-rights-allocation
+  - council-decision-recording
+  - public-record-publication
+  entities:
+  - council
+  - mayoral-office
+  - decision-rights-register
+  serves:
+  - council-meeting
+  - published-decision-map
+- slug: recognised-voice-allocation
+  title: Recognised Voice Allocation
+  summary: Neighbourhood bodies, associations of informal workers and councils of affected communities are recognised with stated
+    decision rights over the matters that touch them, and those rights are recorded beside the rights of the elected bodies.
+  capabilities:
+  - community-body-recognition
+  - decision-rights-allocation
+  - participation-boundary-review
+  entities:
+  - neighbourhood
+  - decision-rights-register
+  - participation-charter
+  serves:
+  - neighbourhood-council-meeting
+  - recognition-agreement
+- slug: mandate-accountability
+  title: Mandate Accountability
+  summary: Residents help set the measures by which the elected bodies are judged, performance against them is published at regular
+    intervals, and petitions for a vote or a recall are handled within their deadlines.
+  capabilities:
+  - implementation-reporting
+  - resident-petition-handling
+  - resident-hearing
+  entities:
+  - citizen-petition
+  - oversight-report
+  serves:
+  - performance-scorecard
+  - petition-portal
+- slug: mandate-renewal
+  title: Mandate Renewal
+  summary: The mandate is renewed through the next election or ended early by recall, and what the term taught about the voting method,
+    the districts and the recognised voices is carried into the electoral rules.
+  capabilities:
+  - voting-method-design
+  - rule-review
+  - resident-petition-handling
+  entities:
+  - election
+  - participation-charter
+  - citizen-petition
+  serves:
+  - election-review-report
+  - petition-portal
+  - polling-station
+start: true
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

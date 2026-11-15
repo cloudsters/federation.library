@@ -1,0 +1,46 @@
+kind: journey
+slug: landowner-paying-for-the-land-they-hold
+title: Landowner Paying for the Land They Hold
+stakeholder: landowner
+summary: A landowner is heard on the revenue policy, receives and checks the value of the land and its buildings, objects where the
+  facts are wrong, pays a bill that rates land held vacant higher than land in use, and follows what the revenue funded.
+stages:
+- slug: be-heard-on-the-rates
+  title: Be Heard on the Rates
+  goal: The owner has seen who would pay and who would gain under the proposed rates and has been heard before adoption.
+  step: local-taxation-and-revenue/revenue-policy-setting
+  touchpoints:
+  - revenue-policy-consultation
+- slug: receive-the-value
+  title: Receive the Value
+  goal: The owner knows the value set on the land and on the building apart, and how public investment changed it.
+  step: local-taxation-and-revenue/property-and-land-valuation
+  touchpoints:
+  - valuation-notice
+  - public-land-value-map
+- slug: object-to-a-wrong-value
+  title: Object to a Wrong Value
+  goal: A value resting on wrong facts has been reviewed and corrected, with the reasons given.
+  step: local-taxation-and-revenue/property-and-land-valuation
+  touchpoints:
+  - valuation-objection-desk
+- slug: understand-the-bill
+  title: Understand the Bill
+  goal: The owner understands the liability and its basis, including the higher rate on land held vacant.
+  step: local-taxation-and-revenue/assessment-and-billing
+  touchpoints:
+  - plain-language-tax-bill
+- slug: pay-and-see-it-credited
+  title: Pay and See It Credited
+  goal: The payment is received through a channel the owner uses and shows on the owner's account.
+  step: local-taxation-and-revenue/payment-collection
+  touchpoints:
+  - payment-channels
+  - taxpayer-account-view
+- slug: follow-the-money
+  title: Follow the Money
+  goal: The owner has seen what the revenue funded and has had questions answered in public.
+  step: local-taxation-and-revenue/revenue-reporting-to-residents
+  touchpoints:
+  - published-revenue-account
+  - revenue-account-session

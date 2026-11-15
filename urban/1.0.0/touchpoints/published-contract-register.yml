@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-contract-register
+title: Published Contract Register
+medium: artefact
+summary: The public register of every contract the city holds, with supplier, value, term, commitments, variations, remedies applied
+  and end date.
+exchanges:
+- open-contracts-for-resident-scrutiny
+- a-hearing-for-a-remedy-on-the-record
+journey: resident-inspector-examining-a-contract

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: data-request-for-an-answer-within-deadline
+title: Data Request for an Answer Within Deadline
+between:
+- resident
+- data-protection-officer
+offered:
+- A request to see, correct or delete the data the city holds about them.
+returned:
+- An answer within the deadline, with the data corrected or deleted where due.
+touchpoint: data-request-desk

@@ -1,0 +1,41 @@
+kind: entity
+slug: drift-signal
+title: Drift Signal
+type: intelligence
+summary: An observed deviation of the organisation's state from its mandate, mission, boundary or strategy, or a loss of vitality,
+  raised from one or more value streams with its evidence, assessed for significance and routed to a decision.
+attributes:
+- name: observed-in
+  type: code
+  card: 1..*
+- name: reference-point
+  type: code
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: evidence
+  type: reference(measure-report)
+  card: 0..*
+- name: significance
+  type: code
+  card: 1..1
+- name: raised-on
+  type: date
+  card: 1..1
+- name: decision
+  type: reference(governance-decision)
+  card: 0..1
+states:
+- raised
+- assessed
+- in-correction
+- closed
+- dismissed
+relations:
+- type: based-on
+  target: measure-report
+- type: refers-to
+  target: service-mandate
+- type: refers-to
+  target: mission-and-values-statement

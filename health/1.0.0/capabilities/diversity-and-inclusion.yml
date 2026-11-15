@@ -1,0 +1,10 @@
+kind: capability
+slug: diversity-and-inclusion
+title: Diversity & Inclusion
+level: L3
+parent: workforce-strategy
+summary: Build a workforce and culture that include people of every background.
+binds:
+- source: src-382
+  edition: '2021'
+  jurisdiction: global

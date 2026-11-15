@@ -1,0 +1,68 @@
+kind: entity
+slug: maintenance-backlog-ledger
+title: Maintenance Backlog Ledger
+type: intelligence
+summary: The public record of deferred upkeep by asset and neighbourhood, valued as repair cost, share of asset value and remaining
+  life. The asset office keeps it current and publishes it, and the council and residents use it to weigh upkeep against new projects.
+attributes:
+- name: reference-date
+  type: date
+  card: 1..1
+- name: kept-by
+  type: text
+  card: 1..1
+- name: assets-covered
+  type: reference(infrastructure-asset)
+  card: 1..*
+- name: deferred-repair-cost
+  type: amount
+  card: 1..1
+- name: total-asset-value
+  type: amount
+  card: 1..1
+- name: backlog-share-of-value
+  type: decimal
+  card: 1..1
+- name: backlog-by-asset
+  type: document
+  card: 1..1
+- name: backlog-by-neighbourhood
+  type: document
+  card: 1..1
+- name: condition-basis
+  type: reference(condition-assessment)
+  card: 0..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- compiled
+- valued
+- published
+- reviewed
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: based-on
+  target: condition-assessment
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: asset-plan
+- type: produces
+  target: public-record
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

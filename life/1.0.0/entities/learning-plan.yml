@@ -1,0 +1,44 @@
+kind: entity
+slug: learning-plan
+title: Learning Plan
+type: governance
+summary: What this person intends to learn next and how they will know whether to continue. Carries an exit test as well as an intake,
+  because most learning plans record only what was started.
+attributes:
+- name: learning-next
+  type: text
+  card: 1..1
+- name: why
+  type: text
+  card: 0..1
+- name: how
+  type: text
+  card: 0..1
+- name: continue-if
+  type: text
+  card: 1..1
+- name: started-on
+  type: date
+  card: 0..1
+- name: sources
+  type: reference(reading-list)
+  card: 0..1
+- name: learning-events
+  type: list(learning-event)
+  card: 0..*
+- name: look-again-on
+  type: date
+  card: 0..1
+states:
+- chosen
+- under way
+- stalled
+- finished
+- dropped
+relations:
+- target: work-direction
+  type: serves
+- target: skill-inventory
+  type: based-on
+- target: skill
+  type: about

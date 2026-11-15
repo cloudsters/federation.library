@@ -1,0 +1,58 @@
+kind: entity
+slug: emergency-call
+title: Emergency Call
+type: transactional
+summary: A call for urgent help, with its time, place, language, the responder sent and the time to arrive. The emergency control
+  room records it as the call is answered, and it is used to send the right responder and to review response times by neighbourhood.
+attributes:
+- name: call-number
+  type: identifier
+  card: 1..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: language
+  type: code
+  card: 1..1
+- name: interpreter-used
+  type: boolean
+  card: 0..1
+- name: incident-kind
+  type: code
+  card: 1..1
+- name: urgency-code
+  type: code
+  card: 1..1
+- name: responder-kind
+  type: code
+  card: 1..1
+- name: dispatched-at
+  type: datetime
+  card: 0..1
+- name: arrived-at
+  type: datetime
+  card: 0..1
+- name: response
+  type: reference(emergency-response)
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- received
+- assessed
+- dispatched
+- attended
+- closed
+relations:
+- type: produces
+  target: emergency-response
+- type: governed-by
+  target: emergency-plan
+- type: governed-by
+  target: language-access-policy
+- type: refers-to
+  target: neighbourhood

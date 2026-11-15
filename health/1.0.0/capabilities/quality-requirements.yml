@@ -1,0 +1,13 @@
+kind: capability
+slug: quality-requirements
+title: Quality Requirements
+level: L3
+parent: quality-system
+summary: Define the quality requirements and controls that each service and process must meet.
+binds:
+- source: src-079
+  edition: '1988'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

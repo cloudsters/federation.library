@@ -1,0 +1,47 @@
+kind: journey
+slug: integration-specialist-connecting-a-partner
+title: Integration Specialist Connecting a Partner
+stakeholder: information-technology-specialist
+summary: An integration specialist identifies what must be exchanged, designs the interface, onboards the partner, builds and tests
+  the connection and keeps live exchanges clean.
+stages:
+- slug: assess-the-connection-need
+  title: Assess the Connection Need
+  goal: Partners, content, frequency and form of the exchange are known.
+  step: interoperability-and-connectivity/connection-need-assessment
+  touchpoints:
+  - technology-demand-request
+- slug: design-the-integration
+  title: Design the Integration
+  goal: Interface contracts, formats and reference data are designed within the architecture.
+  step: interoperability-and-connectivity/integration-design
+  touchpoints:
+  - interface-specification
+  - architecture-repository
+- slug: onboard-the-partner
+  title: Onboard the Partner
+  goal: The partner is connected with agreed formats and channels and has passed test runs.
+  step: interoperability-and-connectivity/partner-connection-onboarding
+  touchpoints:
+  - connection-test
+- slug: build-and-test-the-interface
+  title: Build and Test the Interface
+  goal: The interface is built, tested end to end and released.
+  step: interoperability-and-connectivity/interface-build-and-test
+  touchpoints:
+  - integration-platform
+  - connection-test
+- slug: run-the-exchange
+  title: Run the Exchange
+  goal: Orders, delivery notes, invoices and filings flow in the required forms.
+  step: interoperability-and-connectivity/business-document-exchange
+  touchpoints:
+  - electronic-order-interface
+  - supplier-portal
+  - statutory-filing
+- slug: keep-the-flows-clean
+  title: Keep the Flows Clean
+  goal: Failed exchanges are corrected and resent, and recurring errors are fixed at the source.
+  step: interoperability-and-connectivity/exchange-monitoring-and-error-resolution
+  touchpoints:
+  - integration-platform

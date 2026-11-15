@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: customer-training
+title: Customer Training
+medium: encounter
+summary: The training at a training centre, at the customer's site or online in which users and technicians learn to operate, maintain
+  and get the most from the product.
+exchanges:
+- onboarding-guidance-for-committed-use
+- proven-result-for-acceptance
+journey: business-customer-getting-into-productive-use

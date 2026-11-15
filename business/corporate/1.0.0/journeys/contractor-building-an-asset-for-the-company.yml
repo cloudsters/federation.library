@@ -1,0 +1,35 @@
+kind: journey
+slug: contractor-building-an-asset-for-the-company
+title: Contractor Building an Asset for the Company
+stakeholder: supplier
+summary: A contractor wins defined works, builds safely on site in coordination with others, commissions the asset against its designed
+  intent and closes the open defects after handover.
+stages:
+- slug: win-defined-works
+  title: Win Defined Works
+  goal: Deliverables, stages and quality gates are clear when the contractor offers and contracts.
+  step: asset-creation-design/build-planning-and-contracting
+  touchpoints:
+  - request-for-quotation
+  - contract-negotiation
+- slug: build-safely-on-site
+  title: Build Safely on Site
+  goal: The works proceed in coordination with others and under the site's safety rules.
+  step: asset-creation-design/construction-and-build
+  touchpoints:
+  - construction-site
+  - site-coordination-meeting
+  - site-safety-briefing
+- slug: commission-and-hand-over
+  title: Commission and Hand Over
+  goal: The asset is tested against its designed intent and accepted with documentation and a defect list.
+  step: asset-creation-design/commissioning-and-acceptance
+  touchpoints:
+  - installation-and-commissioning
+  - acceptance-certificate
+- slug: close-open-defects
+  title: Close Open Defects
+  goal: Open defects are corrected and confirmed closed.
+  step: asset-creation-design/handover-into-service
+  touchpoints:
+  - open-defect-list

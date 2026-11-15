@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-questions-for-a-shared-agenda
+title: Resident Questions for a Shared Agenda
+between:
+- resident
+- city-administration
+offered:
+- The questions residents most need answered about their city.
+returned:
+- A research agenda that shows which questions were taken up and why.
+touchpoint: research-question-call

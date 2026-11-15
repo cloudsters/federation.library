@@ -1,0 +1,45 @@
+kind: entity
+slug: intention
+title: Intention
+type: transactional
+summary: 'A piece of work sold to oneself before it is begun: what it is for, what difference it makes, what it looks like finished,
+  what the worst outcome is if it goes ahead and if it does not, and what must be true to call it done. Writing it is how a project
+  is refused as well as how it is started — and once written it is also what is handed to whoever will do it, carrying the what and
+  the why and never the how.'
+attributes:
+- name: what-for
+  type: text
+  card: 1..1
+- name: difference-it-makes
+  type: text
+  card: 1..1
+- name: finished-looks-like
+  type: text
+  card: 1..1
+- name: worst-if-begun
+  type: text
+  card: 0..1
+- name: worst-if-not-begun
+  type: text
+  card: 0..1
+- name: done-when
+  type: text
+  card: 1..1
+- name: capacity-committed
+  type: duration
+  card: 0..1
+- name: handed-to
+  type: text
+  card: 0..1
+states:
+- caught
+- written
+- refused
+- begun
+- finished
+- let go
+relations:
+- target: decision
+  type: based-on
+- target: venture
+  type: serves

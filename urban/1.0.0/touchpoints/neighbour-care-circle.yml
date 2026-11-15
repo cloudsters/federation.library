@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: neighbour-care-circle
+title: Neighbour Care Circle
+medium: encounter
+summary: A circle of neighbours that visits isolated residents, shares meals and rotates care duties so that no carer carries them
+  alone.
+exchanges:
+- visits-for-companionship
+- rotated-duties-for-carer-relief
+journey: caregiver-sharing-the-work-of-care

@@ -1,0 +1,24 @@
+kind: solution
+slug: request-and-petition-case-system
+title: Request and Petition Case System
+role: system-of-engagement
+summary: Receives and tracks information requests, petitions and complaints, verifies petitions, watches each deadline and records
+  every answer and refusal with its reason.
+carries:
+- information-request-handling
+- resident-petition-handling
+- city-signal-collection
+- automated-decision-challenge-handling
+- resident-service-feedback-gathering
+- service-failure-reporting
+- complaint-intake
+- complaint-classification-and-routing
+- complaint-investigation
+- complaint-resolution
+holds:
+- information-request
+- citizen-petition
+- citizen-complaint
+- automated-decision-challenge
+- service-failure-report
+- complaints-procedure

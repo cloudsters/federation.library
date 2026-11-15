@@ -1,0 +1,13 @@
+kind: capability
+slug: internal-distribution
+title: Internal Distribution
+level: L3
+parent: materials-and-logistics
+summary: Deliver goods to wards and departments on schedule within and between sites.
+binds:
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-336
+  edition: '2023'
+  jurisdiction: global

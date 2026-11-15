@@ -1,0 +1,111 @@
+kind: value-stream
+slug: condition-to-agency
+title: Living with a Condition
+family: acquire-to-retire
+summary: Staying the governing party in one's own treatment — with a chronic condition, a medication regime, or a system that would
+  rather decide on a person's behalf.
+trigger: A diagnosis arrives that will not go away, or decisions about treatment start being made about the person rather than with
+  them.
+outcome: The person stays the one who decides about their own treatment, knows the condition well, and lives a life that is larger
+  than it.
+stakeholders:
+- practitioner
+- partner
+- community
+- close-friend
+steps:
+- slug: receiving-the-diagnosis
+  title: Receiving the Diagnosis
+  summary: A diagnosis arrives that will not go away, and the person allows themselves time to be shocked, angry or relieved before
+    deciding anything.
+  capabilities:
+  - grieving-what-has-changed
+  entities:
+  - condition
+  - health-event
+  - crisis
+  serves:
+  - doctors-appointment
+  - hospital-ward
+- slug: learning-the-condition
+  title: Learning the Condition
+  summary: The person learns how their condition works, what makes it better or worse, and what others living with it have found.
+  capabilities:
+  - learning-ones-own-condition
+  entities:
+  - condition
+  - learning-event
+  - community-relation
+  - health-data
+  serves:
+  - peer-circle
+- slug: gathering-allies
+  title: Gathering Allies
+  summary: Partner, friends and practitioners are told what is needed, and the person finds others who live with the same condition.
+  capabilities:
+  - asking-for-help
+  - talking-about-hard-things
+  entities:
+  - partner-relation
+  - friend
+  - community-relation
+  - relationship-map
+  - practitioner-relation
+  serves:
+  - heart-to-heart
+  - peer-circle
+- slug: deciding-with-not-for
+  title: Deciding With, Not For
+  summary: In each treatment decision the person asks for the options, says what matters to them, and makes the choice together with
+    the practitioner.
+  capabilities:
+  - speaking-for-oneself-in-care
+  - deciding-without-certainty
+  entities:
+  - decision
+  - health-plan
+  - health-event
+  - practitioner-relation
+  serves:
+  - doctors-appointment
+- slug: fitting-treatment-into-life
+  title: Fitting Treatment Into Life
+  summary: Medication, appointments and limits are woven into the day and the week, so the condition has its place without taking
+    every place.
+  capabilities:
+  - designing-ones-own-day
+  - building-habits-into-ordinary-days
+  entities:
+  - health-plan
+  - daily-rhythm
+  - weekly-rhythm
+  serves:
+  - shared-calendar
+- slug: planning-for-the-bad-days
+  title: Planning for the Bad Days
+  summary: Flare-ups and bad days are prepared for in advance, so others know what to do and nothing has to be decided in pain.
+  capabilities:
+  - imagining-the-break-ahead
+  - preparing-fallbacks
+  entities:
+  - crisis-plan
+  - partner-relation
+  - will
+  serves:
+  - care-rota
+  - emergency-folder
+- slug: living-larger-than-it
+  title: Living Larger Than It
+  summary: The person keeps hold of the work, the relations and the joys that are not about the illness, and lets the condition be
+    one part of the story.
+  capabilities:
+  - telling-ones-story-whole
+  - accepting-ones-own-limits
+  entities:
+  - life-narrative
+  - self
+  - condition
+binds:
+- source: src-167
+  edition: 2013-10
+  jurisdiction: global

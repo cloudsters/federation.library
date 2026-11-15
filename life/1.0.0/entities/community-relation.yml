@@ -1,0 +1,35 @@
+kind: entity
+slug: community-relation
+title: Community Relation
+type: master
+summary: A body of people this life belongs to — neighbourhood, congregation, profession, club, movement, online circle. What makes
+  it an entity is that the membership is recognised by the others, not claimed by the member.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: meets-where
+  type: reference(significant-place)
+  card: 0..1
+- name: member-since
+  type: date
+  card: 0..1
+- name: recognised-as-member
+  type: boolean
+  card: 1..1
+- name: part-taken
+  type: text
+  card: 0..1
+- name: last-turned-up
+  type: date
+  card: 0..1
+states:
+- looked for
+- turned up at
+- let in
+- belonging
+- holding the door
+- left
+relations:
+- target: relationship-map
+  type: part-of

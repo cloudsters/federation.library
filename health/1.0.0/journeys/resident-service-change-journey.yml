@@ -1,0 +1,19 @@
+kind: journey
+slug: resident-service-change-journey
+title: Resident Service Change Journey
+stakeholder: general-public
+summary: Residents of the region hear the reasons for a concentration, move or exit of a service before it is decided and later find
+  where care is provided.
+stages:
+- slug: hear-the-reasons
+  title: Hear the Reasons
+  goal: Understand why a service is concentrated, moved or closed, and voice concerns before the decision.
+  step: service-portfolio-planning/portfolio-decision
+  touchpoints:
+  - public-consultation-meeting
+- slug: find-care-after-the-change
+  title: Find Care after the Change
+  goal: Find where the service is now provided and how to reach it.
+  step: service-portfolio-planning/portfolio-handover
+  touchpoints:
+  - public-website

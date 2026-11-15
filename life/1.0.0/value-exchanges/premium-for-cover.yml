@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: premium-for-cover
+title: Premium for Cover
+between:
+- self
+- provider
+offered:
+- A premium paid steadily, and the policy read for its gaps.
+returned:
+- The rare large loss carried by many rather than by one household, and a calm in which reserves can be built.
+touchpoint: insurance-policy

@@ -1,0 +1,64 @@
+kind: entity
+slug: business-succession-plan
+title: Business Succession Plan
+type: transactional
+summary: The plan for passing a local business to a successor, with the timetable, the successor, the mentoring, the capital and the
+  price. The owner draws it up with a district succession guide, and it is used to match and mentor the successor, to arrange transition
+  capital and to report how many businesses stay in the community.
+attributes:
+- name: business-name
+  type: text
+  card: 1..1
+- name: owner-name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: trade
+  type: text
+  card: 0..1
+- name: planned-exit-on
+  type: date
+  card: 1..1
+- name: successor-kind
+  type: code
+  card: 0..1
+- name: successor-name
+  type: text
+  card: 0..1
+- name: guide
+  type: text
+  card: 0..1
+- name: mentoring
+  type: reference(mentoring-relationship)
+  card: 0..1
+- name: succession-fund-loan
+  type: reference(succession-fund)
+  card: 0..1
+- name: price
+  type: amount
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- mapped
+- opened
+- successor-matched
+- in-mentoring
+- financed
+- transferred
+- sold-away
+- closed
+relations:
+- type: refers-to
+  target: community-asset-map
+- type: depends-on
+  target: mentoring-relationship
+- type: depends-on
+  target: succession-fund
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: economic-indicators

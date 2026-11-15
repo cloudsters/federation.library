@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: enquiry-acknowledgement
+title: Enquiry Acknowledgement
+medium: artefact
+summary: The acknowledgement sent by the route the person chose, with the reference, the service that has the matter and the time
+  the service standard promises.
+exchanges:
+- report-for-a-reference-and-a-promised-time
+journey: resident-reporting-a-problem-in-the-street

@@ -1,0 +1,62 @@
+kind: entity
+slug: service-review-report
+title: Service Review Report
+type: intelligence
+summary: The review of a service against what it promised, with who uses it, who does not and why, and what it achieved. The department
+  prepares it with users and staff and publishes it, and the decision to keep, change or close the service rests on it.
+attributes:
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: promised-outcomes
+  type: text
+  card: 1..*
+- name: user-count
+  type: integer
+  card: 0..1
+- name: user-breakdowns
+  type: code
+  card: 0..*
+- name: groups-not-using
+  type: text
+  card: 0..*
+- name: reasons-for-not-using
+  type: text
+  card: 0..*
+- name: outcomes-achieved
+  type: text
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: proposed-course
+  type: code
+  card: 0..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: published-report
+  type: document
+  card: 1..1
+states:
+- scheduled
+- in-review
+- drafted
+- published
+- acted-on
+relations:
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: service-standard
+- type: refers-to
+  target: care-network-agreement
+- type: based-on
+  target: service-route-use-report
+- type: based-on
+  target: citizen-satisfaction
+- type: refers-to
+  target: council-decision

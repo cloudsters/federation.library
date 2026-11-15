@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: challenges-for-a-corrected-agent
+title: Challenges for a Corrected Agent
+between:
+- resident
+- city-administration
+offered:
+- Challenges to decisions the agent prepared or took about them.
+returned:
+- Those challenges weighed in the review, and the agent corrected where it was wrong.
+touchpoint: agent-review-session

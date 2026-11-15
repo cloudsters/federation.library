@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: cast-vote-for-a-verifiable-result
+title: Cast Vote for a Verifiable Result
+between:
+- resident
+- election-office
+offered:
+- The resident's vote and the time to cast it.
+returned:
+- A result counted in public, certified, published and open to challenge within the set period.
+touchpoint: polling-station

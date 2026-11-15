@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-measures-for-published-performance
+title: Resident Measures for Published Performance
+between:
+- resident
+- mayor
+offered:
+- Measures residents help set for judging the elected bodies.
+returned:
+- Performance against those measures published at regular intervals.
+touchpoint: performance-scorecard

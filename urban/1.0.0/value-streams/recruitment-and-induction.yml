@@ -1,0 +1,120 @@
+kind: value-stream
+slug: recruitment-and-induction
+title: Recruitment and Induction
+family: contributor-to-succession
+summary: Finding and welcoming those who will do the city's work. It holds positions written for the work and for the residents it
+  serves, outreach into the neighbourhoods and groups the administration seldom reaches, skills recognised whether they were learned
+  in school, at work, in care or in another country, fair selection, the contract, and an induction that makes a new member of staff
+  able to work and to belong.
+trigger: A position in the workforce plan is approved for filling, or a position falls vacant.
+outcome: The selected person holds a contract, has completed induction and works in the role, and every other applicant has been answered.
+stakeholders:
+- job-seeker
+- personnel-officer
+- city-administration
+- staff-representative
+- municipal-employee
+- newcomer
+- young-people
+- care-worker
+steps:
+- slug: position-requisition
+  title: Position Requisition
+  summary: The department describes the position, its tasks, the skills it needs, its pay grade and its decision rights, and the personnel
+    function confirms that it is funded in the workforce plan.
+  capabilities:
+  - position-description-writing
+  - pay-scale-design
+  entities:
+  - position
+  - job-vacancy
+  - workforce-plan
+  serves:
+  - position-description
+- slug: outreach-and-advertising
+  title: Outreach and Advertising
+  summary: The vacancy is published in plain language and in the languages residents speak, and carried through welcome points, community
+    centres, schools and associations to the groups the local hiring targets name.
+  capabilities:
+  - recruitment-outreach
+  - language-access-provision
+  - local-hiring-requirement-setting
+  entities:
+  - job-vacancy
+  - local-hiring-agreement
+  serves:
+  - city-jobs-board
+  - neighbourhood-recruitment-session
+- slug: skills-recognition
+  title: Skills Recognition
+  summary: Applicants' skills are recognised from formal qualifications, completed apprenticeships, lived experience, the attestations
+    of neighbours in the community skill registry and qualifications gained in another country, with a practical demonstration where
+    papers are missing.
+  capabilities:
+  - prior-skills-recognition
+  - community-credential-issuing
+  entities:
+  - skill-recognition
+  - skill-registry
+  - job-application
+  serves:
+  - qualification-recognition-desk
+  - skill-attestation
+  - skills-demonstration
+- slug: candidate-selection
+  title: Candidate Selection
+  summary: A panel of staff from the service and, where the role serves residents directly, residents who use it, assesses applicants
+    against the published criteria, declares any interests, and answers every applicant with reasons.
+  capabilities:
+  - candidate-selection
+  - interest-declaration-handling
+  entities:
+  - job-application
+  - interest-declaration
+  serves:
+  - reasoned-selection-decision
+  - selection-panel-interview
+- slug: offer-and-contract
+  title: Offer and Contract
+  summary: The selected person receives an offer at the published grade, signs the contract, and the personnel function creates the
+    staff record and the identity and access the role needs in the city's systems.
+  capabilities:
+  - employment-contracting
+  - staff-record-keeping
+  - identity-and-access-control
+  entities:
+  - employment-contract
+  - staff-record
+  - digital-identity
+  serves:
+  - offer-letter-and-contract
+- slug: induction-and-mentoring
+  title: Induction and Mentoring
+  summary: The new member of staff is introduced to the service, the city charter, the code of conduct and the people they will work
+    with, is paired with an experienced colleague, and begins with tasks of low risk.
+  capabilities:
+  - staff-induction
+  - mentor-matching
+  entities:
+  - induction-plan
+  - code-of-conduct
+  - mentoring-relationship
+  serves:
+  - colleague-pairing
+  - first-day-welcome
+- slug: probation-review
+  title: Probation Review
+  summary: At the end of the trial period the new member of staff and the team review together whether the role fits both sides, and
+    the appointment is confirmed, adjusted or ended with dignity.
+  capabilities:
+  - staff-induction
+  - staff-wellbeing-sensing
+  entities:
+  - induction-plan
+  - staff-record
+  serves:
+  - probation-conversation
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

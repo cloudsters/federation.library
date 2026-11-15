@@ -1,0 +1,28 @@
+kind: journey
+slug: customer-connecting-for-electronic-ordering
+title: Customer Connecting for Electronic Ordering
+stakeholder: business-customer
+summary: A business customer connects its systems for electronic ordering, exchanges orders, confirmations and invoices without retyping
+  and has failed messages resolved without chasing them.
+stages:
+- slug: connect-and-test
+  title: Connect and Test
+  goal: The customer's system is connected, test orders pass and both sides agree the go-live.
+  step: interoperability-and-connectivity/partner-connection-onboarding
+  touchpoints:
+  - connection-test
+  - interface-specification
+- slug: exchange-orders-and-invoices
+  title: Exchange Orders and Invoices
+  goal: Orders, confirmations, delivery notes and invoices flow electronically.
+  step: interoperability-and-connectivity/business-document-exchange
+  touchpoints:
+  - electronic-order-interface
+  - order-confirmation
+  - invoice
+- slug: have-failures-resolved
+  title: Have Failures Resolved
+  goal: A rejected message is noticed and resolved without the customer chasing it.
+  step: interoperability-and-connectivity/exchange-monitoring-and-error-resolution
+  touchpoints:
+  - electronic-order-interface

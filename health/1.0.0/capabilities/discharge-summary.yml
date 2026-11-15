@@ -1,0 +1,16 @@
+kind: capability
+slug: discharge-summary
+title: Discharge Summary
+level: L3
+parent: discharge-management
+summary: Write the discharge letter with diagnoses, treatment, medication and recommendations, and send it promptly.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-416
+  edition: R2.0-2024
+  jurisdiction: global

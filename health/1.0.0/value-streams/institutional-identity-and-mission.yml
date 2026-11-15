@@ -1,0 +1,146 @@
+kind: value-stream
+slug: institutional-identity-and-mission
+title: Institutional Identity and Mission
+family: perception-to-mandate
+summary: 'Holding and renewing what the organisation is and why it exists: its mission across care, research and teaching,
+  its values, its public identity and the boundary of what it does and does not do.'
+trigger: The board opens a periodic mission review, or a merger, a change of owner or a public challenge to the organisation's
+  purpose occurs.
+outcome: A ratified mission and values statement with a stated boundary of activities is published and anchors strategy and
+  governance.
+stakeholders:
+- owner
+- executive
+- university
+- staff-representation
+- patient-organisation
+- general-public
+steps:
+- slug: review-occasion
+  title: Review Occasion
+  summary: The board establishes why the mission is opened for review, whether a periodic cycle, a merger, a change of owner
+    or a public challenge to the organisation's purpose, and sets the scope and the bodies to be heard.
+  capabilities:
+  - drift-and-vitality-sensing
+  - ecosystem-sensing
+  - owner-relations
+  - alliance-and-merger-assessment
+  entities:
+  - mission-and-values-statement
+  - charter
+  - drift-signal
+  - governance-decision
+  serves:
+  - supervisory-body-meeting
+- slug: stakeholder-expectation-hearing
+  title: Stakeholder Expectation Hearing
+  summary: The expectations of owner, university, staff, patients, referrers and the public are heard, and the tensions between
+    them are made explicit before anything is drafted.
+  capabilities:
+  - stakeholder-mandate-alignment
+  - patient-and-public-involvement
+  - co-determination-cooperation
+  - hospital-and-faculty-cooperation
+  - community-relations
+  - referrer-relationship-management
+  entities:
+  - organisation
+  - governance-body
+  - mission-and-values-statement
+  serves:
+  - joint-university-committee
+  - patient-advisory-council
+  - staff-consultation
+  - supervisory-body-meeting
+- slug: mission-and-values-drafting
+  title: Mission and Values Drafting
+  summary: The mission is stated as a short commitment across care, research and teaching, and the values that bind every
+    professional and every decision are formulated with those who must live them.
+  capabilities:
+  - mission-articulation
+  - values-establishment
+  - academic-mandate-alignment
+  - care-mandate-definition
+  entities:
+  - mission-and-values-statement
+  - service-mandate
+  - charter
+  serves:
+  - mission-and-values-statement
+  - staff-consultation
+- slug: boundary-setting
+  title: Boundary Setting
+  summary: 'The boundary of activities is stated: what the organisation does, what it deliberately does not do and what it
+    leaves to partners, tested against its mandate, its clinical focus and its subsidiaries.'
+  capabilities:
+  - activity-boundary-definition
+  - clinical-focus-positioning
+  - clinical-service-portfolio-stewardship
+  - subsidiary-governance
+  - service-region-design
+  entities:
+  - mission-and-values-statement
+  - service-mandate
+  - care-service
+  - organisation
+  serves:
+  - mission-and-values-statement
+  - supervisory-body-meeting
+- slug: ratification
+  title: Ratification
+  summary: The executive board adopts the statement, the supervisory body and, where the charter requires, the owner and the
+    faculty ratify it, and any change to the charter is made lawfully.
+  capabilities:
+  - delegation-of-authority
+  - owner-relations
+  - hospital-and-faculty-cooperation
+  - legal-advisory
+  entities:
+  - governance-decision
+  - mission-and-values-statement
+  - charter
+  - governance-body
+  serves:
+  - joint-university-committee
+  - supervisory-body-meeting
+- slug: publication-and-anchoring
+  title: Publication and Anchoring
+  summary: Mission, values and boundary are published, carried into strategy, policies and the onboarding of new staff, and
+    made visible in the organisation's public identity.
+  capabilities:
+  - strategy-communication
+  - internal-communication
+  - communication-strategy
+  - brand-management
+  - policy-lifecycle-management
+  - clinical-onboarding
+  entities:
+  - mission-and-values-statement
+  - strategy
+  - policy
+  serves:
+  - annual-report
+  - policy-library
+  - public-website
+  - staff-town-hall
+- slug: lived-identity-review
+  title: Lived Identity Review
+  summary: Whether decisions, services and conduct follow the stated mission, values and boundary is observed over time, and
+    every gap is raised for correction or carried into the next review.
+  capabilities:
+  - drift-and-vitality-sensing
+  - impact-measurement-design
+  - engagement-surveys
+  - online-reputation-management
+  entities:
+  - drift-signal
+  - measure-report
+  - mission-and-values-statement
+  serves:
+  - annual-report
+  - staff-consultation
+  - supervisory-body-meeting
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

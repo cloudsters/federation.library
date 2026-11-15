@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: reduced-charge-outreach
+title: Reduced Charge Outreach
+medium: encounter
+summary: The visit or call that seeks out households entitled to reduced charges who have not claimed them.
+exchanges:
+- consent-to-share-entitlements-for-reduced-charges
+journey: resident-paying-a-share-of-income-they-can-carry

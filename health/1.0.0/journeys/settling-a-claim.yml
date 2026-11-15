@@ -1,0 +1,41 @@
+kind: journey
+slug: settling-a-claim
+title: Settling a Claim
+stakeholder: payer
+summary: The payer's side of a case, from confirming coverage through receiving and paying the claim to reviewing it where doubts
+  arise.
+stages:
+- slug: confirm-coverage
+  title: Confirm Coverage
+  goal: Coverage and any required prior approval are confirmed before the planned service is given.
+  step: revenue-cycle/coverage-verification-and-approval
+  touchpoints:
+  - payer-data-exchange
+- slug: receive-the-claim
+  title: Receive the Claim
+  goal: A complete, rule-conforming claim arrives electronically and can be checked automatically.
+  step: revenue-cycle/claim-preparation-and-billing
+  touchpoints:
+  - claim
+  - payer-data-exchange
+- slug: pay-the-claim
+  title: Pay the Claim
+  goal: Payment is made within the agreed period, with a remittance advice that states every reduction and its reason.
+  step: revenue-cycle/payment-posting-and-receivables
+  touchpoints:
+  - remittance-advice
+  - payer-data-exchange
+- slug: review-doubtful-claims
+  title: Review Doubtful Claims
+  goal: Claims in doubt are reviewed on the evidence of the record and settled without unnecessary dispute.
+  step: revenue-cycle/payer-review-response
+  touchpoints:
+  - inspection-and-audit
+  - payer-data-exchange
+- slug: resolve-disputes
+  title: Resolve Disputes
+  goal: Remaining disagreements are resolved by appeal or conciliation within the set deadlines.
+  step: revenue-cycle/denial-appeal-and-recovery
+  touchpoints:
+  - payer-data-exchange
+  - remittance-advice

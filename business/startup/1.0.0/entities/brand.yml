@@ -1,0 +1,40 @@
+kind: entity
+slug: brand
+title: Brand
+type: master
+summary: The organisation's identity in the marketplace — the name, story, and promise that signal what it stands for and attract
+  participants who share its purpose.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: identity
+  type: document
+  card: 0..1
+- name: promise
+  type: text
+  card: 1..1
+- name: positioning
+  type: text
+  card: 0..1
+- name: products
+  type: reference(product)
+  card: 0..*
+- name: campaigns
+  type: reference(campaign)
+  card: 0..*
+states:
+- created
+- positioned
+- grown
+- repositioned
+- retired
+relations:
+- type: refers-to
+  target: product
+- type: refers-to
+  target: campaign
+- type: refers-to
+  target: market-segment
+- type: refers-to
+  target: customer

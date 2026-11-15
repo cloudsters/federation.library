@@ -1,0 +1,146 @@
+kind: value-stream
+slug: laboratory-diagnostics
+title: Laboratory Diagnostics
+family: demand-to-fulfillment
+summary: 'Producing laboratory results: order, specimen collection and transport, analysis, technical and medical validation, communication
+  of results including critical values, point-of-care testing and quality control.'
+trigger: A clinician orders a laboratory test.
+outcome: A validated result is available to the ordering clinician within the required time, and critical values have been communicated.
+stakeholders:
+- specialist-physician
+- emergency-physician
+- registered-nurse
+- diagnostic-physician
+- diagnostic-technologist
+- referring-practice
+- outpatient
+- elective-inpatient
+- support-services-staff
+- certification-body
+steps:
+- slug: test-ordering
+  title: Test Ordering
+  summary: The clinician orders tests electronically with indication and clinical information, guided by order sets and stewardship
+    rules that prevent unnecessary and missed tests.
+  capabilities:
+  - laboratory-order-management
+  - clinical-order-entry
+  - laboratory-test-stewardship
+  - clinical-system-configuration
+  entities:
+  - clinical-order
+  - request-mandate
+  - code-system
+  serves:
+  - clinical-workstation
+  - decision-support-prompt
+- slug: specimen-collection-and-transport
+  title: Specimen Collection and Transport
+  summary: Specimens are collected after positive patient identification, labelled at the bedside and carried to the laboratory under
+    conditions that preserve their quality.
+  capabilities:
+  - specimen-collection-and-pre-analytics
+  - patient-identification
+  - internal-distribution
+  entities:
+  - specimen
+  - clinical-order
+  - patient
+  serves:
+  - bedside-check
+  - identification-band
+  - laboratory-counter
+  - specimen-transport
+- slug: specimen-receipt
+  title: Specimen Receipt
+  summary: Specimens are received and checked against the order for identity, volume and integrity, unfit specimens are rejected with
+    a request for recollection, and the rest are prepared for analysis.
+  capabilities:
+  - specimen-collection-and-pre-analytics
+  - laboratory-order-management
+  - laboratory-quality-assurance
+  entities:
+  - specimen
+  - clinical-order
+  serves:
+  - clinical-workstation
+- slug: analysis
+  title: Analysis
+  summary: Specimens are analysed on validated, maintained and connected systems in clinical chemistry, haematology, immunology, microbiology
+    and genetics under internal quality control.
+  capabilities:
+  - laboratory-analysis-and-validation
+  - microbiology-diagnostics
+  - genetic-diagnostics
+  - laboratory-quality-assurance
+  - medical-device-integration
+  - device-maintenance-execution
+  entities:
+  - specimen
+  - observation
+  - medical-device
+- slug: technical-and-medical-validation
+  title: Technical and Medical Validation
+  summary: Results are validated technically against quality control and medically against previous values and the clinical context,
+    interpreted with advice where needed, and released.
+  capabilities:
+  - laboratory-analysis-and-validation
+  - microbiology-diagnostics
+  - genetic-diagnostics
+  - antimicrobial-resistance-monitoring
+  entities:
+  - observation
+  - diagnostic-report
+  serves:
+  - diagnostic-report
+- slug: result-communication
+  title: Result Communication
+  summary: Results reach the ordering clinician, the referrer and, where appropriate, the patient; critical values are telephoned
+    to a responsible clinician with read-back, and notifiable findings are reported.
+  capabilities:
+  - laboratory-result-communication
+  - secure-clinical-messaging
+  - patient-portal
+  - infection-surveillance
+  - regulatory-reporting
+  entities:
+  - diagnostic-report
+  - observation
+  - care-communication
+  serves:
+  - clinical-messaging-service
+  - diagnostic-report
+  - urgent-result-call
+- slug: point-of-care-testing-and-quality-assurance
+  title: Point-of-Care Testing and Quality Assurance
+  summary: Bedside testing devices and their users are supervised by the laboratory, and the quality of all testing is assured through
+    control, proficiency testing, accreditation and review of turnaround times.
+  capabilities:
+  - point-of-care-testing
+  - laboratory-quality-assurance
+  - device-operator-training
+  - process-performance-management
+  entities:
+  - medical-device
+  - credential
+  - audit
+  - accreditation
+  - measure-report
+  serves:
+  - inspection-and-audit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-014
+  edition: '2.2'
+  jurisdiction: global
+- source: src-327
+  edition: '16.1'
+  jurisdiction: global

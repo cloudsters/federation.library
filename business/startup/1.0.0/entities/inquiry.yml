@@ -1,0 +1,37 @@
+kind: entity
+slug: inquiry
+title: Inquiry
+type: intelligence
+summary: A first expression of interest — an individual or organisation that has expressed initial interest, the earliest stage of the
+  organisation's commercial relationship lifecycle.
+attributes:
+- name: contact-identity
+  type: text
+  card: 1..1
+- name: source
+  type: code
+  card: 1..1
+- name: interest-context
+  type: text
+  card: 0..1
+- name: consent-basis
+  type: reference(data-use-consent)
+  card: 0..1
+- name: status
+  type: code
+  card: 1..1
+- name: campaign
+  type: reference(campaign)
+  card: 0..1
+states:
+- new
+- contacted
+- nurtured
+- qualified
+- converted
+- disqualified
+relations:
+- type: produces
+  target: opportunity
+- type: produces
+  target: customer

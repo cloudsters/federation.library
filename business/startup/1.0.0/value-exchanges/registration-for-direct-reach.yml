@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: registration-for-direct-reach
+title: Registration for Direct Reach
+between:
+- consumer
+- customer-service-representative
+offered:
+- Registration of the product with owner, location and contact details.
+returned:
+- Entitlements kept on record, warranty claims that need no proof of purchase, and direct notice if a safety issue arises.
+touchpoint: product-registration

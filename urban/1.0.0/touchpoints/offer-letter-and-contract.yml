@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: offer-letter-and-contract
+title: Offer Letter and Contract
+medium: artefact
+summary: The offer at the published grade and the contract the selected person signs, with the start date and the access the role
+  will have.
+exchanges:
+- acceptance-for-a-contract-at-the-published-grade
+journey: job-seeker-joining-the-city-staff

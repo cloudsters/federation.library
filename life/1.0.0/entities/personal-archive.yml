@@ -1,0 +1,45 @@
+kind: entity
+slug: personal-archive
+title: Personal Archive
+type: master
+summary: 'The notes, photographs, letters, documents and recordings this life has kept, taken together and held where they can be
+  found. Held apart from `journal` and `life-narrative`, which are parts of what it holds: the archive is the whole, and it is worth
+  only as much as someone else''s ability to open it.'
+attributes:
+- name: holds
+  type: code
+  card: 1..*
+- name: kept-at
+  type: text
+  card: 1..*
+- name: second-copy
+  type: text
+  card: 0..1
+- name: forms
+  type: text
+  card: 0..*
+- name: named-and-dated
+  type: boolean
+  card: 0..1
+- name: way-in
+  type: text
+  card: 0..1
+- name: known-to
+  type: text
+  card: 0..*
+- name: last-gathered
+  type: date
+  card: 0..1
+states:
+- scattered
+- gathered
+- sorted
+- safe
+- handed on
+relations:
+- target: life-narrative
+  type: about
+- target: device
+  type: depends-on
+- target: service-account
+  type: depends-on

@@ -1,0 +1,57 @@
+kind: entity
+slug: budget-commitment
+title: Budget Commitment
+type: transactional
+summary: An order or contract recorded against the budget still available before money is spent. The ordering department raises it
+  and the finance department checks it against the budget line, and it is released when the invoice is paid or the order is cancelled.
+attributes:
+- name: commitment-number
+  type: identifier
+  card: 1..1
+- name: budget
+  type: reference(municipal-budget)
+  card: 1..1
+- name: budget-line
+  type: code
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: committed-amount
+  type: amount
+  card: 1..1
+- name: remaining-amount
+  type: amount
+  card: 0..1
+- name: source-contract
+  type: reference(contract)
+  card: 0..1
+- name: source-procurement
+  type: reference(public-procurement)
+  card: 0..1
+- name: supplier
+  type: text
+  card: 0..1
+- name: recorded-on
+  type: date
+  card: 1..1
+- name: expected-payment-date
+  type: date
+  card: 0..1
+states:
+- requested
+- checked
+- committed
+- rejected
+- partly-paid
+- paid
+- cancelled
+relations:
+- type: refers-to
+  target: municipal-budget
+- type: based-on
+  target: contract
+- type: based-on
+  target: public-procurement
+- type: produces
+  target: journal-entry

@@ -1,0 +1,39 @@
+kind: entity
+slug: reading-list
+title: Reading List
+type: intelligence
+summary: What this person intends to read, is reading, and has read — with what came of each. The third column is the only one that
+  distinguishes a library from a queue.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 0..1
+- name: question-in-hand
+  type: text
+  card: 0..1
+- name: recommended-by
+  type: text
+  card: 0..1
+- name: started-on
+  type: date
+  card: 0..1
+- name: finished-on
+  type: date
+  card: 0..1
+- name: what-came-of-it
+  type: text
+  card: 0..1
+states:
+- intended
+- reading
+- read
+- abandoned
+- returned to
+relations:
+- target: learning-plan
+  type: serves
+- target: learning-event
+  type: about

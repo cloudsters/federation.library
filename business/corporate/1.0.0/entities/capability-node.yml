@@ -1,0 +1,42 @@
+kind: entity
+slug: capability-node
+title: Capability Node
+type: master
+summary: 'Abstraction of skill that does not distinguish between human, AI, or machine. The system routes tasks to matching nodes
+  regardless of substrate. What matters: capability, availability, and trust score. Replaces the job description with a capability-addressable
+  unit in the commons network.'
+attributes:
+- name: capability-descriptor
+  type: text
+  card: 1..1
+- name: availability-state
+  type: code
+  card: 1..1
+- name: trust-score
+  type: reference(trust-score)
+  card: 0..1
+- name: substrate-type
+  type: code
+  card: 1..1
+- name: routing-address
+  type: identifier
+  card: 1..1
+states:
+- registered
+- matched
+- routed-to
+- evaluated
+- retired
+relations:
+- type: refers-to
+  target: skill
+- type: refers-to
+  target: contribution-proof
+- type: refers-to
+  target: trust-score
+- type: refers-to
+  target: employee-record
+binds:
+- source: src-035
+  edition: '15'
+  jurisdiction: global

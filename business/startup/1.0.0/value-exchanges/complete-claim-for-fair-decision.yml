@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complete-claim-for-fair-decision
+title: Complete Claim for Fair Decision
+between:
+- consumer
+- customer-service-representative
+offered:
+- A claim with the failure described, the product made available and the registration or proof of purchase.
+returned:
+- A fair decision within the set period, and a repair, replacement or refund that leaves the consumer whole.
+touchpoint: complaint-and-warranty-claim

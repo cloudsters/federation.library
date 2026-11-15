@@ -1,0 +1,36 @@
+kind: entity
+slug: conversation
+title: Meaningful Conversation
+type: transactional
+summary: An exchange that changed something — with a partner, a parent, a mentor, a friend. Recorded when it moved a relation, not
+  when it was merely long.
+attributes:
+- name: with
+  type: code
+  card: 1..*
+- name: held-on
+  type: date
+  card: 1..1
+- name: what-moved
+  type: text
+  card: 1..1
+- name: what-was-said
+  type: text
+  card: 0..*
+- name: agreed
+  type: text
+  card: 0..*
+- name: follow-up-on
+  type: date
+  card: 0..1
+states:
+- put off
+- opened
+- heard out
+- landed
+- followed up
+relations:
+- target: relationship-agreement
+  type: serves
+- target: relationship-map
+  type: about

@@ -1,0 +1,56 @@
+kind: entity
+slug: peer-exchange
+title: Peer City Exchange
+type: transactional
+summary: An exchange of evidence, visits or staff with a peer city, with its subject, the people who took part, what was shared, including
+  what failed, and what each side learned. The department that arranges it records it and its lessons, and it is used to bring tested
+  practice into the city and to share the city's own.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: peer-city
+  type: text
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: exchange-kind
+  type: code
+  card: 1..*
+- name: participants
+  type: text
+  card: 1..*
+- name: arranged-by
+  type: reference(department)
+  card: 1..1
+- name: exchange-period
+  type: period
+  card: 1..1
+- name: shared-by-city
+  type: text
+  card: 0..*
+- name: received-from-peer
+  type: text
+  card: 0..*
+- name: lessons
+  type: reference(lesson-record)
+  card: 0..*
+- name: cost
+  type: amount
+  card: 0..1
+states:
+- proposed
+- agreed
+- under-way
+- completed
+- reported
+relations:
+- type: produces
+  target: lesson-record
+- type: refers-to
+  target: evidence-review
+- type: refers-to
+  target: practice-pattern
+- type: refers-to
+  target: source-code-repository

@@ -1,0 +1,28 @@
+kind: solution
+slug: clinical-archive
+title: Clinical Archive
+role: system-of-record
+summary: Keeps the legally binding health record for its full retention period, digitises paper records and answers requests
+  to see, copy or export care information. It also provides the read-only record used when clinical systems are down.
+carries:
+- health-record-management
+- health-information-release
+- record-retention-and-archiving
+- document-digitisation
+- data-subject-rights-fulfilment
+- clinical-downtime-procedures
+holds:
+- care-information-request
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,130 @@
+kind: value-stream
+slug: ai-agent-lifecycle
+title: AI Agent Lifecycle
+family: contributor-to-succession
+summary: 'Stewarding AI agents as contributors with defined roles: commissioning an agent into a role, setting its permissions and
+  supervision, onboarding, periodic performance review, retraining, and decommissioning or succession.'
+trigger: A unit requests an AI agent for a defined role, or an agent's periodic review or end of service falls due.
+outcome: The agent works in a defined role with assigned supervision and reviewed performance, or it is retired and succeeded.
+stakeholders:
+- operations-planning-agent
+- customer-service-agent
+- information-technology-specialist
+- works-council
+- executive-board
+- technology-provider
+steps:
+- slug: role-request
+  title: Role Request
+  summary: A unit requests an AI agent for a defined role and states its tasks, the expected benefit, the people whose work it changes
+    and the customers it may affect.
+  capabilities:
+  - agent-lifecycle-management
+  - human-agent-collaboration-design
+  entities:
+  - capability-node
+  - position
+  serves:
+  - agent-role-request
+  - works-council-meeting
+- slug: role-and-mandate-design
+  title: Role and Mandate Design
+  summary: Define the agent's permitted actions, the decisions that stay with people, escalation rules and data access, and consult
+    the employee representatives on its effect on work.
+  capabilities:
+  - trust-and-escalation-protocols
+  - ai-governance-framework
+  - co-determination-cooperation
+  entities:
+  - agent-mandate
+  - cognitive-mandate
+  - data-processing-record
+  serves:
+  - agent-mandate
+  - works-council-meeting
+- slug: selection-and-validation
+  title: Selection and Validation
+  summary: Select the agent from a supplier or build it, validate its performance, safety and fairness on the organisation's own data
+    and workflow, and confirm its regulatory conformity.
+  capabilities:
+  - algorithmic-fairness-assurance
+  - ai-regulatory-conformity
+  entities:
+  - analytics-model
+  - contract
+  serves:
+  - agent-validation-trial
+- slug: commissioning
+  title: Commissioning
+  summary: Approve the agent into its role, issue its service identity and access rights, and assign and train competent human overseers.
+  capabilities:
+  - agent-lifecycle-management
+  - ai-oversight-competence
+  - identity-access-management
+  entities:
+  - agent-mandate
+  - identity
+  - access-grant
+  - oversight-assignment
+  - governance-decision
+  serves:
+  - agent-mandate
+  - agent-service-identity
+- slug: onboarding-into-the-workflow
+  title: Onboarding into the Workflow
+  summary: Introduce the agent into the team's workflow with a supervised start, outputs clearly marked as the agent's, a fallback
+    for when it fails, and a channel for feedback from the people it works with.
+  capabilities:
+  - ai-assistant-integration
+  - trust-and-escalation-protocols
+  entities:
+  - oversight-assignment
+  - policy
+  serves:
+  - agent-oversight-console
+  - team-meeting
+- slug: performance-review
+  title: Performance Review
+  summary: Monitor the agent's outputs, overrides, errors, drift and fairness in use, review it at set intervals with its overseers,
+    and decide to continue, restrict or retrain it.
+  capabilities:
+  - model-monitoring-and-drift
+  - algorithmic-fairness-assurance
+  - agent-lifecycle-management
+  entities:
+  - measure-report
+  - incident
+  - analytics-model
+  serves:
+  - agent-oversight-console
+  - agent-performance-review
+  - works-council-meeting
+- slug: retraining-and-change
+  title: Retraining and Change
+  summary: Change the agent's model, scope or mandate under a planned change, revalidate it, and brief its overseers before the changed
+    version goes live.
+  capabilities:
+  - model-monitoring-and-drift
+  - ai-regulatory-conformity
+  - it-change-and-release-governance
+  entities:
+  - agent-mandate
+  - analytics-model
+  - change-request
+  serves:
+  - agent-change-notice
+- slug: retirement-and-succession
+  title: Retirement and Succession
+  summary: 'Retire the agent when its role ends or a successor serves better: revoke its identity and access, hand its tasks to a
+    successor or to people, and archive its records.'
+  capabilities:
+  - agent-lifecycle-management
+  - knowledge-handover
+  - identity-access-management
+  entities:
+  - agent-mandate
+  - access-grant
+  - identity
+  serves:
+  - agent-service-identity
+  - handover-plan

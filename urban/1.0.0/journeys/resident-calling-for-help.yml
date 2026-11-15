@@ -1,0 +1,37 @@
+kind: journey
+slug: resident-calling-for-help
+title: Resident Calling for Help
+stakeholder: resident
+summary: A resident calls for help and is answered at once in their language, receives the right responder, is helped by a trained
+  neighbour until crews arrive, reaches testing and vaccination nearby in a health emergency and judges the response in the yearly
+  review.
+stages:
+- slug: be-answered-at-once
+  title: Be Answered at Once
+  goal: The call is answered at once in the resident's language, assessed and sent to the right responder, a crisis team for mental
+    health among them.
+  step: community-safety-and-emergency-services/emergency-call-and-dispatch
+  touchpoints:
+  - emergency-number
+  - mental-health-crisis-response
+- slug: be-helped-until-crews-arrive
+  title: Be Helped until Crews Arrive
+  goal: A trained neighbour gives first help until fire and rescue crews arrive, and the home has had a fire safety check where it
+    is most at risk.
+  step: community-safety-and-emergency-services/fire-rescue-and-first-response
+  touchpoints:
+  - community-first-responder-alert
+  - home-fire-safety-check
+- slug: be-reached-in-a-health-emergency
+  title: Be Reached in a Health Emergency
+  goal: In an outbreak the resident finds testing, vaccination and supplies in the neighbourhood, and community health workers reach
+    those least served.
+  step: community-safety-and-emergency-services/health-emergency-operations
+  touchpoints:
+  - neighbourhood-vaccination-point
+- slug: judge-the-response
+  title: Judge the Response
+  goal: The resident's verdict on response times and on how responders treated them is in the yearly review.
+  step: community-safety-and-emergency-services/safety-and-response-review
+  touchpoints:
+  - response-time-report

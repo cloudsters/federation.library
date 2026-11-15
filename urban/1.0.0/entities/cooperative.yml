@@ -1,0 +1,59 @@
+kind: entity
+slug: cooperative
+title: Cooperative
+type: master
+summary: A cooperative owned by its resident or worker members for housing, energy, food, water or credit, including a cooperative
+  credit institution the city may put equity into. The cooperative keeps its own records, and the city holds this record to track
+  the reduced rents and rates, deposits, equity and grants that pass between them.
+attributes:
+- name: legal-name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: cooperative-kind
+  type: code
+  card: 1..1
+- name: registration-number
+  type: identifier
+  card: 0..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: founded-on
+  type: date
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: governance-rules
+  type: document
+  card: 0..1
+- name: city-equity-stake
+  type: amount
+  card: 0..1
+- name: city-deposits
+  type: reference(bank-account)
+  card: 0..*
+- name: leased-parcels
+  type: reference(land-parcel)
+  card: 0..*
+- name: leases
+  type: reference(contract)
+  card: 0..*
+states:
+- forming
+- registered
+- operating
+- merged
+- dissolved
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: bank-account

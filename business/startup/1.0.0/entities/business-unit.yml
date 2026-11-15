@@ -1,0 +1,38 @@
+kind: entity
+slug: business-unit
+title: Business Unit
+type: master
+summary: A semi-autonomous division of the organisation — a strategic unit that turns the enterprise's purpose into action in its own field
+  and owns its own risk profile.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: parent
+  type: reference(organization)
+  card: 1..1
+- name: leader
+  type: reference(employee-record)
+  card: 0..1
+- name: strategic-mandate
+  type: text
+  card: 0..1
+- name: risk-profile
+  type: code
+  card: 0..1
+- name: profit-centers
+  type: reference(profit-center)
+  card: 0..*
+states:
+- chartered
+- operating
+- merged
+- spun-off
+- retired
+relations:
+- type: part-of
+  target: organization
+- type: composed-of
+  target: department
+- type: refers-to
+  target: profit-center

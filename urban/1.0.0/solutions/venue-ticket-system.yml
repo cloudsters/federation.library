@@ -1,0 +1,12 @@
+kind: solution
+slug: venue-ticket-system
+title: Venue Ticket System
+role: system-of-engagement
+summary: Issues tickets for the city's cultural venues and leisure facilities at the prices and reductions set, and holds the programme
+  with the nights given to community groups.
+carries:
+- community-venue-programming
+- leisure-access-pricing
+holds:
+- cultural-performance
+- cultural-venue

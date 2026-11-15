@@ -1,0 +1,41 @@
+kind: entity
+slug: candidate
+title: Candidate
+type: master
+summary: A person applying to join — someone being evaluated for a role in the organisation, with skills and experience it may need.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: contact-details
+  type: text
+  card: 1..*
+- name: resume
+  type: document
+  card: 0..1
+- name: skills
+  type: reference(skill)
+  card: 0..*
+- name: source
+  type: code
+  card: 0..1
+states:
+- sourced
+- screened
+- interviewed
+- offered
+- hired
+- rejected
+- talent-pooled
+relations:
+- type: refers-to
+  target: position
+- type: refers-to
+  target: recruitment-application
+- type: refers-to
+  target: skill
+- type: produces
+  target: employee-record

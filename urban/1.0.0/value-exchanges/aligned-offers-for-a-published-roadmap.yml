@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: aligned-offers-for-a-published-roadmap
+title: Aligned Offers for a Published Roadmap
+between:
+- technology-supplier
+- city-administration
+offered:
+- Offers that fit the published interfaces and the city's ownership of its data.
+returned:
+- Notice well ahead of what the city will build, replace and retire.
+touchpoint: published-digital-roadmap

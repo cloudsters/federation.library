@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: regulatory-reporting-channel
+title: Regulatory Reporting Channel
+medium: channel
+summary: The electronic channel through which the organisation submits mandatory notifications to competent authorities and receives
+  their acknowledgements and follow-up questions.
+exchanges:
+- serious-event-notification-for-oversight
+- cluster-notification-for-public-health
+- ai-incident-notification-for-market-oversight
+- adverse-reaction-reports-for-market-surveillance
+journey: provider-through-local-assurance

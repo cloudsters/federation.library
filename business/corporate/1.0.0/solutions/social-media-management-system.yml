@@ -1,0 +1,13 @@
+kind: solution
+slug: social-media-management-system
+title: Social Media Management System
+role: system-of-engagement
+summary: Plans, publishes and monitors the organisation's presence on social networks and review platforms, routes mentions that need
+  an answer and shows how the public speaks about the commons.
+carries:
+- social-media-presence-management
+- visibility-cultivation
+- crisis-communication
+- online-reputation-management
+holds:
+- public-rating

@@ -1,0 +1,147 @@
+kind: value-stream
+slug: paediatric-and-neonatal-care
+title: Paediatric and Neonatal Care
+family: demand-to-fulfillment
+summary: 'Caring for newborns, children and adolescents together with their families: access and family registration, assessment adapted
+  to age and development, family-centred care planning, treatment and monitoring, neonatal intensive care, and discharge with transition
+  into adult care.'
+trigger: A child or adolescent is referred or arrives as an emergency, or a newborn needs care beyond routine postnatal care.
+outcome: The child has been treated in a setting adapted to their age with the family involved, and has gone home or moved into adult
+  services through a planned transition.
+stakeholders:
+- paediatric-patient
+- relative
+- specialist-physician
+- registered-nurse
+- advanced-practice-nurse
+- allied-health-professional
+- clinical-pharmacist
+- midwife
+- referring-practice
+- follow-on-care-provider
+- local-authority
+steps:
+- slug: access-and-family-registration
+  title: Access and Family Registration
+  summary: A child arrives by referral, as an emergency or from the delivery suite, is registered together with the parents or guardians
+    and their authority to decide, and is received in an emergency service and setting designed for children.
+  capabilities:
+  - patient-registration-and-admission
+  - patient-identification
+  - paediatric-emergency-care
+  - emergency-triage
+  entities:
+  - patient
+  - related-person
+  - proxy-mandate
+  - encounter
+  - request-for-care
+  serves:
+  - admission-desk
+  - emergency-department
+  - identification-band
+- slug: age-appropriate-assessment
+  title: Age-Appropriate Assessment
+  summary: History and examination are adapted to the child's age and development, weight is measured for dosing, pain is assessed
+    with age-appropriate tools, and signs of abuse or neglect are recognised and acted upon.
+  capabilities:
+  - paediatric-care
+  - clinical-history-taking
+  - physical-examination
+  - pain-management
+  - child-protection
+  - deterioration-recognition-and-response
+  entities:
+  - observation
+  - health-issue
+  - risk-assessment
+  - care-needs-assessment
+  - clinical-document
+  serves:
+  - consultation
+  - nursing-admission-interview
+- slug: family-centred-care-planning
+  title: Family-Centred Care Planning
+  summary: The plan is agreed with the parents and, as far as maturity allows, with the child, whose assent is sought, and the parents'
+    presence and part in daily care are arranged.
+  capabilities:
+  - family-centred-care
+  - shared-decision-making-practice
+  - informed-consent
+  - care-plan-determination
+  entities:
+  - care-plan
+  - care-goal
+  - shared-decision
+  - informed-consent
+  - proxy-mandate
+  serves:
+  - consent-form
+  - family-meeting
+- slug: treatment-and-monitoring
+  title: Treatment and Monitoring
+  summary: Treatment is delivered on children's wards and in paediatric intensive care, medicines are prescribed and prepared by weight
+    with independent double checks, and the child is monitored with a paediatric early-warning score.
+  capabilities:
+  - paediatric-care
+  - paediatric-intensive-care
+  - paediatric-medication-safety
+  - medication-administration
+  - deterioration-recognition-and-response
+  - family-centred-care
+  entities:
+  - medication-order
+  - medication-administration
+  - observation
+  - procedure
+  - care-plan
+  serves:
+  - intensive-care-unit
+  - medication-chart
+  - ward
+- slug: neonatal-intensive-care
+  title: Neonatal Intensive Care
+  summary: Premature and critically ill newborns are cared for in neonatal intensive care, with parents involved in care from the
+    start, skin-to-skin contact and feeding support, and developmental follow-up planned.
+  capabilities:
+  - neonatal-intensive-care
+  - family-centred-care
+  - organ-support-therapy
+  - clinical-nutrition
+  - paediatric-medication-safety
+  entities:
+  - birth
+  - observation
+  - procedure
+  - nutrition-order
+  - care-plan
+  serves:
+  - intensive-care-diary
+  - intensive-care-unit
+- slug: discharge-and-transition-to-adult-care
+  title: Discharge and Transition to Adult Care
+  summary: The child goes home with parents prepared for care at home and follow-up arranged, and adolescents with long-term conditions
+    are prepared over time and handed over to adult services in a planned transition.
+  capabilities:
+  - transition-to-adult-care
+  - patient-discharge-education
+  - care-transition-coordination
+  - discharge-summary
+  - social-care-coordination
+  entities:
+  - care-transition
+  - discharge-summary
+  - care-plan
+  - referral
+  - appointment
+  serves:
+  - clinic-letter
+  - discharge-letter
+  - discharge-planning-meeting
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global
+- source: src-466
+  edition: 1988 / annotations 2022
+  jurisdiction: global

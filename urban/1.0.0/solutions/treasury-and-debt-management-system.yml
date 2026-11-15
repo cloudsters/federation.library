@@ -1,0 +1,21 @@
+kind: solution
+slug: treasury-and-debt-management-system
+title: Treasury and Debt Management System
+role: system-of-record
+summary: Holds the daily cash position and forecast, the reserve funds and their rules, the borrowing strategy and every loan and
+  bond with its terms and repayment dates, including the bonds residents hold.
+carries:
+- cash-forecasting
+- reserve-level-setting
+- borrowing-strategy-design
+- debt-affordability-assessment
+- loan-and-bond-raising
+- community-bond-issuing
+- surplus-cash-placement
+- community-bank-capitalisation
+- debt-servicing
+holds:
+- cash-forecast
+- reserve-fund
+- borrowing-strategy
+- debt-instrument

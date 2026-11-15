@@ -1,0 +1,52 @@
+kind: entity
+slug: purchase-order
+title: Purchase Order
+type: transactional
+summary: A commitment to a supplier — the organisation's formal order to a supplier, starting the inbound flow of materials or services
+  needed for production.
+attributes:
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: payment-term
+  type: reference(payment-term)
+  card: 0..1
+- name: required-date
+  type: date
+  card: 1..1
+- name: lines
+  type: text
+  card: 1..*
+- name: items
+  type: reference(item)
+  card: 0..*
+- name: total-amount
+  type: amount
+  card: 1..1
+states:
+- draft
+- approved
+- sent
+- partially-received
+- received
+- billed
+- closed
+relations:
+- type: refers-to
+  target: supplier-organisation
+- type: based-on
+  target: material-request
+- type: produces
+  target: purchase-receipt
+- type: governed-by
+  target: contract
+binds:
+- source: src-141
+  edition: '2020'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

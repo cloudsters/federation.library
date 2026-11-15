@@ -1,0 +1,11 @@
+kind: body
+slug: patient-management-centre
+title: Patient Management Centre
+summary: 'Runs the patient''s path into, through and out of the commons: referral intake, scheduling, registration and admission,
+  bed and capacity management, discharge, care transitions and rehabilitation pathways.'
+holds:
+- access-and-admission
+- patient-flow-and-transitions
+part_of: executive-board
+type: management
+form: organisational-unit

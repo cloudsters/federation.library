@@ -1,0 +1,50 @@
+kind: entity
+slug: blood-product
+title: Blood Product
+type: master
+summary: A unit of a blood component or plasma derivative, identified by donation and product code, with blood group, volume and expiry,
+  traced from receipt through compatibility testing to transfusion or disposal.
+attributes:
+- name: unit-identifier
+  type: identifier
+  card: 1..1
+- name: component-type
+  type: code
+  card: 1..1
+- name: blood-group
+  type: code
+  card: 1..1
+- name: volume
+  type: quantity
+  card: 1..1
+- name: expiry
+  type: datetime
+  card: 1..1
+- name: source
+  type: reference(supplier-organisation)
+  card: 1..1
+- name: storage-location
+  type: reference(room)
+  card: 0..1
+states:
+- received
+- available
+- crossmatched
+- reserved
+- issued
+- transfused
+- returned
+- discarded
+relations:
+- type: governed-by
+  target: policy
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-407
+  edition: 6.2.2
+  jurisdiction: global

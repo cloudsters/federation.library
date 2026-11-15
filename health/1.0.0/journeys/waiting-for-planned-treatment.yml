@@ -1,0 +1,46 @@
+kind: journey
+slug: waiting-for-planned-treatment
+title: Waiting for Planned Treatment
+stakeholder: elective-inpatient
+summary: 'The patient''s side of access management: being listed with a due date, kept informed while waiting, and offered a date
+  in time or treatment by another provider.'
+stages:
+- slug: being-listed
+  title: Being Listed
+  goal: Know after acceptance the expected date and the maximum wait the access standard guarantees.
+  step: access-and-waiting-times/waiting-list-registration
+  touchpoints:
+  - waiting-time-notice
+  - patient-portal
+- slug: knowing-the-wait
+  title: Knowing the Wait
+  goal: See the current expected date without having to call.
+  step: access-and-waiting-times/waiting-time-monitoring
+  touchpoints:
+  - patient-portal
+- slug: being-checked-on
+  title: Being Checked On
+  goal: Be asked whether the condition has changed, and be moved forward if it has worsened.
+  step: access-and-waiting-times/waiting-list-review
+  touchpoints:
+  - appointment-service
+  - patient-portal
+- slug: receiving-a-date
+  title: Receiving a Date
+  goal: Receive a date within the standard with clear preparation instructions.
+  step: access-and-waiting-times/scheduling-within-standard
+  touchpoints:
+  - patient-portal
+  - appointment-service
+- slug: choosing-an-alternative
+  title: Choosing an Alternative
+  goal: Be offered timely treatment elsewhere when the commons cannot keep the standard, with the records sent ahead.
+  step: access-and-waiting-times/alternative-provider-offer
+  touchpoints:
+  - waiting-time-notice
+- slug: comparing-waiting-times
+  title: Comparing Waiting Times
+  goal: Compare published waiting times when choosing where to be treated next time.
+  step: access-and-waiting-times/access-performance-reporting
+  touchpoints:
+  - public-website

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: host-place-for-pre-placed-fallbacks
+title: Host Place for Pre-Placed Fallbacks
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- A trusted community place and the volunteers who keep it open in an outage.
+returned:
+- Mesh nodes, local copies of essential information and backup power placed there in advance.
+touchpoint: neighbourhood-resilience-point

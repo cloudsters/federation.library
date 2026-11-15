@@ -1,0 +1,45 @@
+kind: journey
+slug: new-resident-becoming-a-neighbour
+title: New Resident Becoming a Neighbour
+stakeholder: resident
+summary: A resident who has just moved in is welcomed and introduced, meets neighbours again and again, uses a place to meet without
+  paying, helps mark the neighbourhood's identity, has a say in its plan and says whether ties grew.
+stages:
+- slug: be-welcomed
+  title: Be Welcomed
+  goal: A neighbour has greeted the new resident, introduced them to others and told them where people meet.
+  step: neighbourhood-community-development/welcome-and-encounter
+  touchpoints:
+  - new-neighbour-welcome-visit
+- slug: meet-neighbours-regularly
+  title: Meet Neighbours Regularly
+  goal: The resident has met neighbours again and again at shared meals, skill-shares and street gatherings.
+  step: neighbourhood-community-development/welcome-and-encounter
+  touchpoints:
+  - neighbourhood-shared-meal
+  - street-gathering-support
+- slug: use-a-place-without-paying
+  title: Use a Place Without Paying
+  goal: The resident has booked a room free of charge for an activity with neighbours.
+  step: neighbourhood-community-development/community-space-provision
+  touchpoints:
+  - community-room-booking
+- slug: help-mark-the-neighbourhood
+  title: Help Mark the Neighbourhood
+  goal: The resident has helped design a symbol or a celebration of the neighbourhood, or given a story to its memory.
+  step: neighbourhood-community-development/neighbourhood-identity-and-celebration
+  touchpoints:
+  - neighbourhood-symbol-workshop
+  - neighbourhood-story-collection
+- slug: have-a-say-in-the-plan
+  title: Have a Say in the Plan
+  goal: The resident has voiced priorities at the neighbourhood assembly and sees them in the action plan.
+  step: neighbourhood-community-development/neighbourhood-action-planning
+  touchpoints:
+  - neighbourhood-planning-assembly
+- slug: say-whether-ties-grew
+  title: Say Whether Ties Grew
+  goal: The resident has said whether they know and help their neighbours more than a year before.
+  step: neighbourhood-community-development/neighbourhood-review
+  touchpoints:
+  - annual-neighbourhood-review

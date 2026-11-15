@@ -1,0 +1,16 @@
+kind: capability
+slug: risk-framework-design
+title: Risk Framework Design
+level: L3
+parent: enterprise-risk-management
+summary: 'Design the risk framework: policies, appetite, methods and responsibilities for all risk types.'
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-385
+  edition: '2019'
+  jurisdiction: global
+- source: src-482
+  edition: '2017'
+  jurisdiction: global

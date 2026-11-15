@@ -1,0 +1,59 @@
+kind: entity
+slug: local-economy-map
+title: Local Economy Map
+type: intelligence
+summary: The map of the sectors, trades, crafts, markets and enterprises of each neighbourhood and the supply links between them,
+  the informal economy included. The economic development office makes it with businesses and residents, and it is used to set economic
+  priorities, to plan markets and to review whether networks share value.
+attributes:
+- name: reference-date
+  type: date
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: sectors
+  type: code
+  card: 1..*
+- name: trades-and-crafts
+  type: text
+  card: 0..*
+- name: enterprise-count
+  type: integer
+  card: 0..1
+- name: informal-activity
+  type: text
+  card: 0..*
+- name: supply-links
+  type: document
+  card: 0..1
+- name: markets
+  type: reference(market)
+  card: 0..*
+- name: mapped-with
+  type: text
+  card: 1..*
+- name: layer
+  type: reference(gis-layer)
+  card: 0..1
+- name: map
+  type: document
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+states:
+- planned
+- mapping
+- validated
+- published
+- updated
+relations:
+- type: based-on
+  target: business-register
+- type: refers-to
+  target: market
+- type: refers-to
+  target: community-asset-map
+- type: refers-to
+  target: gis-layer

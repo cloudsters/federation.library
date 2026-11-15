@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: condition-reports-for-a-renewed-agreement
+title: Condition Reports for a Renewed Agreement
+between:
+- volunteer
+- city-administration
+offered:
+- Reports on the condition of the shared place and what it needs.
+returned:
+- An agreement reviewed and renewed as needs change.
+touchpoint: place-care-check-in

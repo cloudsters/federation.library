@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: patient-information-event
+title: Patient Information Event
+medium: encounter
+summary: A lecture, open day or patient day at which clinicians explain conditions and treatments to patients, relatives and the public
+  and answer their questions.
+exchanges:
+- continuity-for-early-signals
+journey: returning-patient-contact

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fund-inspection-findings-for-public-answers
+title: Fund Inspection Findings for Public Answers
+between:
+- resident-inspector
+- finance-officer
+offered:
+- Findings from inspecting the fund's accounts and allocations.
+returned:
+- A public answer to each finding.
+touchpoint: commons-fund-account-inspection

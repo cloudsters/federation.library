@@ -1,0 +1,103 @@
+# startup's family loop: corporate's loop of the same slug, its streams those of startup 
+loop: _family.perception-to-mandate
+title: Keep the family 'Perception to Mandate' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: perception-to-mandate
+  vs:
+  - boundary-sensing-identity-design
+  - risk-as-immune-response
+  - compliance-as-integrity
+  - remediation-healing
+  - resilience-architecture
+  - ethical-practice-design
+  - founding-and-incorporation
+stance: The system perceives itself as a whole and holds its irreducible mandate — identity, boundary, legitimacy, ethics,
+  the reason to exist. No single stream of this family can see what its streams do to one another; this loop is where that
+  becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/perception-to-mandate
+  - value-model.yml#vs/boundary-sensing-identity-design
+  - value-model.yml#vs/risk-as-immune-response
+  - value-model.yml#vs/compliance-as-integrity
+  - value-model.yml#vs/remediation-healing
+  - value-model.yml#vs/resilience-architecture
+  - value-model.yml#vs/ethical-practice-design
+  registry:
+  - instance/registry/5_value-streams/boundary-sensing-identity-design.md
+  - instance/registry/5_value-streams/risk-as-immune-response.md
+  - instance/registry/5_value-streams/compliance-as-integrity.md
+  - instance/registry/5_value-streams/remediation-healing.md
+  - instance/registry/5_value-streams/resilience-architecture.md
+  - instance/registry/5_value-streams/ethical-practice-design.md
+  loop_states:
+  - instance/operations/loops/_state/boundary-sensing-identity-design.yml
+  - instance/operations/loops/_state/risk-as-immune-response.yml
+  - instance/operations/loops/_state/compliance-as-integrity.yml
+  - instance/operations/loops/_state/remediation-healing.yml
+  - instance/operations/loops/_state/resilience-architecture.yml
+  - instance/operations/loops/_state/ethical-practice-design.yml
+  measures:
+  - boundary-check-in-scope-decisions
+  - compliance-audits-without-significant-finding
+  - concern-investigation-lead-time
+  - confidence-to-raise-ethical-concerns
+  - crisis-response-activation-time
+  - critical-operations-restored-within-target
+  - critical-operations-with-exercised-plan
+  - critical-suppliers-with-continuity-arrangement
+  - disruptions-without-applicable-plan
+  - harm-recurrence-after-remediation
+  - integrity-attestation-completion
+  - interest-declarations-current
+  - legal-matter-cycle-time
+  - legal-matters-resolved-within-agreed-time
+  - lessons-fed-back-from-closed-matters
+  - losses-from-unregistered-risks
+  - mandate-drift-correction-time
+  - mandate-elements-current
+  - obligations-embedded-with-owner
+  - policy-amended-after-remediation
+  - remedies-accepted-by-those-affected
+  - resilience-lessons-built-into-plans
+  - risk-treatment-lead-time
+  - risks-with-owner-and-tested-control
+  - root-cause-established-before-remedy
+  - speak-up-confidence
+  - staff-recognition-of-stated-identity
+  - stakeholder-groups-heard-before-drafting
+  - time-to-repair-and-restitution
+  - top-risks-within-appetite
+  - units-covered-by-risk-assessment
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.perception-to-mandate.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

@@ -1,0 +1,38 @@
+kind: entity
+slug: workforce-analytics
+title: Workforce Analytics
+type: intelligence
+summary: People analytics — insights derived from the organisation's data about its people, revealing patterns in engagement, performance,
+  retention, and capability that inform participation and relationship (D2).
+attributes:
+- name: measures
+  type: reference(measure)
+  card: 1..*
+- name: cohorts
+  type: text
+  card: 0..*
+- name: period
+  type: period
+  card: 1..1
+- name: headcount
+  type: integer
+  card: 0..1
+- name: turnover
+  type: decimal
+  card: 0..1
+- name: engagement
+  type: decimal
+  card: 0..1
+states:
+- defined
+- collected
+- analysed
+- reported
+- acted-upon
+relations:
+- type: refers-to
+  target: employee-record
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global

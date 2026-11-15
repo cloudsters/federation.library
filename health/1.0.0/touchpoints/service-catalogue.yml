@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: service-catalogue
+title: Service Catalogue
+medium: artefact
+summary: The published list of digital services with their owners, service levels, support hours and the way to request them.
+exchanges:
+- care-criticality-for-service-levels
+journey: unit-agreeing-its-service-levels

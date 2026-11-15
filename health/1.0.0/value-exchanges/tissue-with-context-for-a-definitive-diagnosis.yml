@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: tissue-with-context-for-a-definitive-diagnosis
+title: Tissue with Context for a Definitive Diagnosis
+between:
+- surgeon
+- diagnostic-physician
+offered:
+- A well-preserved, oriented specimen with the clinical question, the history and the imaging findings.
+returned:
+- A structured, signed diagnosis with type, grade, stage, margins and predictive markers, and an intraoperative answer within
+  minutes when requested.
+touchpoint: clinical-workstation

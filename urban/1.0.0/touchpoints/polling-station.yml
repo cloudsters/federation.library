@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: polling-station
+title: Polling Station
+medium: place
+summary: The accessible place where residents cast their votes and where the votes are counted in public at the close of the poll.
+exchanges:
+- barrier-knowledge-for-accessible-voting
+- cast-vote-for-a-verifiable-result
+journey: election-office-running-the-municipal-election

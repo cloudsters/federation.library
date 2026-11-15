@@ -1,0 +1,40 @@
+kind: entity
+slug: agent
+title: Agent
+type: master
+summary: A configured machine collaborator this life delegates work to. Held as a named entity rather than a tool because what it
+  is given, what it is trusted with and what it may not decide are standing questions, not settings.
+attributes:
+- name: given
+  type: text
+  card: 1..*
+- name: may-decide-alone
+  type: text
+  card: 0..*
+- name: must-ask-first
+  type: text
+  card: 0..*
+- name: may-never
+  type: text
+  card: 0..*
+- name: hands-back-when
+  type: text
+  card: 0..*
+- name: runs-on
+  type: reference(device)
+  card: 0..1
+- name: last-checked
+  type: date
+  card: 0..1
+states:
+- tried
+- given its reach
+- acting in my name
+- checked
+- reach changed
+- retired
+relations:
+- target: delegation-line
+  type: based-on
+- target: device
+  type: depends-on

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: assisted-help-appointment
+title: Assisted Help Appointment
+medium: encounter
+summary: An appointment, at a service point, at home or by telephone, in which a member of staff helps a resident complete a request
+  or application, with an interpreter where needed.
+exchanges:
+- application-for-asking-only-what-is-missing
+- offline-request-for-an-equal-outcome
+journey: older-resident-reaching-a-service-online-or-offline

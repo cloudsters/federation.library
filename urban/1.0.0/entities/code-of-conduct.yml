@@ -1,0 +1,55 @@
+kind: entity
+slug: code-of-conduct
+title: Code of Conduct
+type: governance
+summary: The rules of conduct for councillors and officials, with the lines they will not cross and the rules on gifts, other roles
+  and conflicts of interest. The council adopts and renews it, every councillor and official accepts it, and it is the measure against
+  which reports of misconduct are investigated.
+attributes:
+- name: applies-to
+  type: code
+  card: 1..*
+- name: conduct-rules
+  type: text
+  card: 1..*
+- name: gift-rules
+  type: text
+  card: 1..1
+- name: conflict-of-interest-rules
+  type: text
+  card: 1..1
+- name: step-back-rule
+  type: text
+  card: 1..1
+- name: sanctions
+  type: text
+  card: 0..*
+- name: acceptance-required
+  type: boolean
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- adopted
+- published
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: governed-by
+  target: city-constitution
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: interest-declaration
+- type: refers-to
+  target: misconduct-report

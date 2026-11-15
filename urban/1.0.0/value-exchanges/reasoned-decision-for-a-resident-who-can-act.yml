@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reasoned-decision-for-a-resident-who-can-act
+title: Reasoned Decision for a Resident Who Can Act
+between:
+- city-administration
+- resident
+offered:
+- A decision in plain language and the resident's own language, with its reasons, what they receive and from when, and how to appeal.
+returned:
+- A resident who understands the decision and can act on it or appeal in time.
+touchpoint: plain-language-decision-letter

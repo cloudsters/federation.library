@@ -1,0 +1,127 @@
+kind: value-stream
+slug: urban-goods-and-food-distribution
+title: Urban Goods and Food Distribution
+family: demand-to-fulfillment
+summary: Getting goods, parcels and fresh food to the city's homes and businesses cleanly, quickly and fairly, through shared hubs
+  at neighbourhood scale. It holds the mapping of where goods move and where fresh food is out of reach, consolidation hubs and food
+  pickup points on public land run under agreements among carriers, retailers, producers, workers and residents, fixed delivery slots
+  for producers and carriers, kerb and delivery-window rules, last-mile delivery by cargo bike, small electric vehicles and transit,
+  fair terms for delivery workers and producers, and a review of emissions, delivery times, prices and access.
+trigger: Delivery traffic or emissions rise in a district, a neighbourhood is found without fresh food within reach, carriers, producers
+  or residents propose a hub, or the yearly review is due.
+outcome: Goods and fresh food reach every neighbourhood through shared hubs with fewer vehicle trips, producers keep a fair share
+  of the price, and delivery workers work safely.
+stakeholders:
+- delivery-carrier
+- local-producer
+- local-business
+- platform-worker
+- platform-operator
+- resident
+- neighbourhood-association
+- trade-union
+- market-vendor
+steps:
+- slug: goods-and-food-access-mapping
+  title: Goods and Food Access Mapping
+  summary: The city maps delivery trips, vehicle types and loading by district, and the neighbourhoods where fresh and affordable
+    food cannot be reached on foot or by transit, and sets the targets of the food strategy.
+  capabilities:
+  - distribution-gap-mapping
+  - movement-pattern-analysis
+  entities:
+  - mobility-data
+  - food-strategy
+  - gis-layer
+  serves:
+  - delivery-and-food-access-map
+- slug: neighbourhood-hub-establishment
+  title: Neighbourhood Hub Establishment
+  summary: Shared loading bays, consolidation hubs and food pickup points are placed on public land, in community centres, corner
+    shops and at transit stops, and each is run under an agreement in which the neighbourhood, carriers, retailers, producers and
+    workers share the decisions.
+  capabilities:
+  - distribution-gap-mapping
+  - public-land-leasing
+  - hub-operating-agreement-drafting
+  entities:
+  - distribution-hub
+  - hub-operating-agreement
+  - land-parcel
+  serves:
+  - hub-partners-assembly
+  - neighbourhood-consolidation-hub
+  - signed-hub-agreement
+- slug: producer-and-carrier-scheduling
+  title: Producer and Carrier Scheduling
+  summary: Small producers deliver to their nearest hub on fixed days, carriers and platforms book slots and bundle orders, and those
+    who consolidate more earn more delivery allocations.
+  capabilities:
+  - hub-delivery-scheduling
+  - producer-direct-sales-arrangement
+  entities:
+  - distribution-hub
+  - direct-sales-agreement
+  serves:
+  - hub-slot-booking
+  - neighbourhood-consolidation-hub
+- slug: delivery-window-and-loading-rules
+  title: Delivery Window and Loading Rules
+  summary: Delivery windows, loading zones, vehicle limits and access for clean vehicles are set by rule for each district, so that
+    heavy vehicles stay out of residential streets at the hours they harm most.
+  capabilities:
+  - street-space-allocation
+  - kerb-and-parking-enforcement
+  - platform-licence-condition-setting
+  entities:
+  - kerb-and-loading-rule
+  - street
+  - platform-licence
+  serves:
+  - kerb-and-loading-map
+- slug: last-mile-delivery-and-pickup
+  title: Last-Mile Delivery and Pickup
+  summary: Goods and food leave the hub by cargo bike, small electric vehicle, mobile route or transit, or are collected by residents
+    at a pickup point within walking distance.
+  capabilities:
+  - last-mile-delivery-coordination
+  - hub-delivery-scheduling
+  entities:
+  - distribution-hub
+  - transit-stop
+  serves:
+  - cargo-bike-round
+  - food-pickup-point
+- slug: delivery-worker-and-producer-terms
+  title: Delivery Worker and Producer Terms
+  summary: The hub agreements set fair pay and safe schedules for delivery workers, who may stop schedules that put them at risk,
+    and cap the commission taken from producers so that they keep their pricing.
+  capabilities:
+  - hub-operating-agreement-drafting
+  - fair-work-clause-drafting
+  - fair-work-auditing
+  entities:
+  - hub-operating-agreement
+  - wage-floor-agreement
+  serves:
+  - cargo-bike-round
+  - signed-hub-agreement
+- slug: distribution-review
+  title: Distribution Review
+  summary: Each year the city reviews with the hub partners vehicle trips and emissions, delivery times, food prices, producer incomes
+    and which neighbourhoods now reach fresh food, and adjusts the hubs and rules.
+  capabilities:
+  - distribution-gap-mapping
+  - market-data-pooling
+  - service-quality-review
+  entities:
+  - carbon-footprint
+  - food-strategy
+  - mobility-data
+  serves:
+  - delivery-and-food-access-map
+  - hub-partners-assembly
+binds:
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

@@ -1,0 +1,49 @@
+kind: journey
+slug: communications-officer-keeping-the-city-account-true
+title: Communications Officer Keeping the City's Account True
+stakeholder: communications-officer
+summary: The communications officer follows what is said about the city, sets it beside residents' own accounts, drafts the city profile
+  with the communities it describes, turns decisions into plain-language information, runs the channels and reports each year whether
+  residents recognise themselves.
+stages:
+- slug: follow-what-is-said
+  title: Follow What Is Said
+  goal: What residents, media and online channels say about the city is followed by topic and neighbourhood and set beside what residents
+    report of their own lives.
+  step: public-communication-and-reputation/issue-and-reputation-sensing
+  touchpoints:
+  - public-conversation-digest
+  - lived-experience-listening-round
+- slug: draft-the-city-profile
+  title: Draft the City Profile
+  goal: An account of what the city is, what it offers and where it falls short is drafted from the charter and the civic memory and
+    reviewed with the communities it describes.
+  step: public-communication-and-reputation/city-self-description
+  touchpoints:
+  - city-profile-review-circle
+  - published-city-profile
+- slug: write-it-plainly
+  title: Write It Plainly
+  goal: Each decision or change is stated in plain language in the languages residents use, with what changed, why and what it means
+    for whom, and residents have tested that it is understood.
+  step: public-communication-and-reputation/public-information-preparation
+  touchpoints:
+  - plain-language-notice
+  - resident-readability-check
+- slug: run-one-set-of-channels
+  title: Run One Set of Channels
+  goal: The website, social media, newsletters, notice boards and service point displays carry the same information, and printed and
+    spoken routes reach those who are not online.
+  step: public-communication-and-reputation/city-channel-operation
+  touchpoints:
+  - city-website-and-social-accounts
+  - neighbourhood-notice-board
+  - printed-and-spoken-information-route
+- slug: review-whom-it-reached
+  title: Review Whom It Reached
+  goal: Whom the city's information reached and missed, whether it was trusted and whether residents recognise their lives in it is
+    reviewed with them and reported to the council.
+  step: public-communication-and-reputation/reputation-review
+  touchpoints:
+  - reputation-review-forum
+  - reputation-report-to-council

@@ -1,0 +1,37 @@
+kind: entity
+slug: health-event
+title: Health Event
+type: transactional
+summary: Something that happened to the body and was looked at — a consultation, a result, a procedure, an injury. An event, not a
+  state; a state that persists becomes a `condition`.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: 'on'
+  type: date
+  card: 1..1
+- name: what-changed
+  type: text
+  card: 1..1
+- name: what-was-found
+  type: text
+  card: 0..*
+- name: what-was-decided
+  type: text
+  card: 0..1
+- name: look-again-on
+  type: date
+  card: 0..1
+- name: became
+  type: reference(condition)
+  card: 0..1
+states:
+- noticed
+- brought to a practitioner
+- looked into
+- acted on
+- watched
+relations:
+- target: body
+  type: about

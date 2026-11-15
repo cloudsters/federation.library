@@ -1,0 +1,17 @@
+kind: body
+slug: risk-and-compliance-committee
+title: Risk and Compliance Committee
+summary: Brings the executive and the heads of risk, compliance, legal, data protection and security together to review the risk picture,
+  compliance cases and the controls that answer them.
+holds:
+- risk-framework-design
+- risk-response-orchestration
+- compliance-sensing-monitoring
+- controls-monitoring
+part_of: executive-board
+type: committee
+form: governing-body
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

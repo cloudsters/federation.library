@@ -1,0 +1,50 @@
+kind: journey
+slug: municipal-ai-agent-serving-a-fixed-term
+title: Municipal AI Agent Serving a Fixed Term
+stakeholder: municipal-ai-agent
+summary: An agent that prepares benefit applications is given a written mandate with a sunset date, an identity with scoped and revocable
+  access and a named overseer, runs its first period under close oversight, is reviewed at fixed intervals, is retrained through change
+  control and is retired at its sunset with its tasks, records and access handed on.
+stages:
+- slug: receive-a-written-mandate
+  title: Receive a Written Mandate
+  goal: The agent is registered and approved for a fixed term with a sunset date, under a mandate on which staff representatives were
+    consulted.
+  step: ai-agent-lifecycle/mandate-and-approval
+  touchpoints:
+  - published-agent-mandate
+- slug: be-commissioned
+  title: Be Commissioned
+  goal: The agent has an identity with scoped and revocable access, a named overseer and the routes of escalation.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - agent-access-record
+  - escalation-route-card
+- slug: start-under-close-oversight
+  title: Start Under Close Oversight
+  goal: The agent works from the service's standard procedures and working knowledge, and its first period runs under close oversight.
+  step: ai-agent-lifecycle/onboarding-into-the-service
+  touchpoints:
+  - supervised-first-period
+- slug: be-reviewed
+  title: Be Reviewed
+  goal: The agent's results, errors, bias, drift and the challenges raised against it are reviewed, and its mandate is continued,
+    adjusted or ended.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-review-session
+  - agent-results-report
+- slug: be-retrained-through-change-control
+  title: Be Retrained Through Change Control
+  goal: The agent is retrained or reconfigured through change control, tested again for fairness, and its mandate is updated.
+  step: ai-agent-lifecycle/retraining-and-change
+  touchpoints:
+  - agent-retest-session
+- slug: retire-at-the-sunset-date
+  title: Retire at the Sunset Date
+  goal: The agent is retired, its tasks pass to a successor agent or back to staff, its records and the reasons for its decisions
+    are kept and its access is revoked.
+  step: ai-agent-lifecycle/retirement-and-succession
+  touchpoints:
+  - agent-retirement-notice
+  - task-return-briefing

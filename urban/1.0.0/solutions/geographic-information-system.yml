@@ -1,0 +1,52 @@
+kind: solution
+slug: geographic-information-system
+title: Geographic Information System
+role: system-of-insight
+summary: Maps hazards, exposure and the boundary of the commons, and holds the community records the city may use with consent, kept
+  apart and under the community's control.
+carries:
+- hazard-and-vulnerability-mapping
+- blind-spot-mapping
+- civic-boundary-definition
+- land-capacity-analysis
+- growth-projection
+- spatial-option-design
+- density-and-mix-planning
+- green-and-blue-network-planning
+- displacement-risk-assessment
+- zoning-rule-drafting
+- spatial-plan-monitoring
+- land-value-monitoring
+- connectivity-gap-mapping
+- digital-twin-upkeep
+- care-and-isolation-mapping
+- wayfinding-knowledge-mapping
+- multisensory-wayfinding-design
+- cultural-mapping
+- settlement-enumeration
+- distribution-gap-mapping
+- supply-dependency-mapping
+- asset-climate-exposure-assessment
+- canopy-gap-mapping
+- disused-corridor-reuse
+holds:
+- city
+- neighbourhood
+- flood-risk-map
+- community-enumeration
+- commons-charter
+- masterplan
+- zoning-plan
+- gis-layer
+- land-value-map
+- digital-twin
+- care-map
+- park
+- wayfinding-map
+- wayfinding-element
+- street
+- public-space
+- informal-settlement
+- supply-dependency-map
+- climate-exposure-assessment
+- urban-forest

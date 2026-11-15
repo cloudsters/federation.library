@@ -1,0 +1,39 @@
+kind: journey
+slug: resident-keeping-the-city-open
+title: Resident Keeping the City Open
+stakeholder: resident
+summary: A resident searches the published record, requests what is missing, inspects and challenges an automated decision, reports
+  misconduct safely and takes part in the review of how open the city really is.
+stages:
+- slug: search-the-published-record
+  title: Search the Published Record
+  goal: The resident finds decisions, budgets, spending and contracts in plain language and in formats they can search and reuse.
+  step: transparency-and-public-ethics/public-record-publication
+  touchpoints:
+  - city-transparency-site
+- slug: ask-for-what-is-missing
+  title: Ask for What Is Missing
+  goal: The request is answered within its deadline, or refused with the exemption named and the route of challenge stated.
+  step: transparency-and-public-ethics/information-request-handling
+  touchpoints:
+  - information-request-desk
+- slug: inspect-an-automated-decision
+  title: Inspect an Automated Decision
+  goal: The resident sees the system's purpose, data and known limits, and can challenge the decision it made about them.
+  step: transparency-and-public-ethics/automated-system-disclosure
+  touchpoints:
+  - algorithm-and-sensor-list
+  - information-request-desk
+- slug: report-misconduct-safely
+  title: Report Misconduct Safely
+  goal: The report reaches the city confidentially, the resident is protected and learns the outcome.
+  step: transparency-and-public-ethics/misconduct-investigation
+  touchpoints:
+  - confidential-reporting-channel
+- slug: review-how-open-the-city-is
+  title: Review How Open the City Is
+  goal: The pattern of exemptions, refusals and late answers is published and discussed with residents.
+  step: transparency-and-public-ethics/openness-review
+  touchpoints:
+  - openness-review-report
+  - committee-meeting

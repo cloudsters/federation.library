@@ -1,0 +1,10 @@
+kind: capability
+slug: occupational-health-service
+title: Occupational Health Service
+level: L3
+parent: occupational-health-and-safety
+summary: Provide staff health checks, vaccinations and the management of workplace exposures.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

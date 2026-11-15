@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: operator-experience-for-workable-lifecycle-plans
+title: Operator Experience for Workable Lifecycle Plans
+between:
+- infrastructure-operator
+- asset-officer
+offered:
+- The operator's experience of how its networks age and what keeps them in service.
+returned:
+- Lifecycle plans for each class of asset that the operator can carry out within agreed service levels.
+touchpoint: lifecycle-planning-workshop

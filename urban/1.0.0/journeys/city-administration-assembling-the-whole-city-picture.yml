@@ -1,0 +1,56 @@
+kind: journey
+slug: city-administration-assembling-the-whole-city-picture
+title: City Administration Assembling the Whole-City Picture
+stakeholder: city-administration
+summary: The administration gathers signals at a regular rhythm, maps what its data leaves out with residents, senses what is coming,
+  assesses equity and vitality, detects drift from charter and mandate, publishes one picture for discussion and follows each correction
+  the council decides.
+stages:
+- slug: gather-signals
+  title: Gather Signals
+  goal: Department reports, indicators, complaints, petitions and surveys are in one place, each traced to its source.
+  step: whole-city-perception/signal-collection
+  touchpoints:
+  - public-city-dashboard
+  - resident-survey
+- slug: map-what-the-data-leaves-out
+  title: Map What the Data Leaves Out
+  goal: Informal settlements, street trade, residents without papers and unpaid care are mapped with residents, and community records
+    stay in their control.
+  step: whole-city-perception/blind-spot-mapping
+  touchpoints:
+  - community-mapping-walk
+- slug: sense-what-is-coming
+  title: Sense What Is Coming
+  goal: Shifts in the region, the economy, the climate, the population and the law are set beside the city's own capacity.
+  step: whole-city-perception/environment-sensing
+  touchpoints:
+  - environment-outlook
+- slug: assess-equity-and-vitality
+  title: Assess Equity and Civic Life
+  goal: Who benefits and who bears the burden is shown across neighbourhoods and groups, with the vitality of shared spaces.
+  step: whole-city-perception/equity-and-vitality-assessment
+  touchpoints:
+  - equity-audit-report
+- slug: detect-drift
+  title: Detect Drift
+  goal: Departures from the charter, the mandate and the interests of future generations are named, including those the city's automated
+    systems hide.
+  step: whole-city-perception/drift-detection
+  touchpoints:
+  - state-of-the-city-report
+  - algorithm-and-sensor-list
+- slug: share-the-picture
+  title: Share the Picture
+  goal: One picture of the whole city with its blind spots named is published and discussed in the council and the neighbourhoods.
+  step: whole-city-perception/shared-picture
+  touchpoints:
+  - state-of-the-city-report
+  - state-of-the-city-debate
+- slug: follow-each-correction
+  title: Follow Each Correction
+  goal: Every correction the council decides has an owner, a measure and a date, and is followed until the drift is closed.
+  step: whole-city-perception/corrective-decision-and-follow-through
+  touchpoints:
+  - council-meeting
+  - implementation-report

@@ -1,0 +1,43 @@
+kind: entity
+slug: case-review
+title: Case Review
+type: transactional
+summary: A structured peer review of an individual case, such as an unexpected death, a serious complication or an unplanned readmission,
+  establishing whether care could have been better and what should change.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: trigger
+  type: code
+  card: 1..1
+- name: review-panel
+  type: reference(employee)
+  card: 1..*
+- name: held-on
+  type: date
+  card: 0..1
+- name: preventability
+  type: code
+  card: 0..1
+- name: lessons
+  type: text
+  card: 0..*
+states:
+- triggered
+- scheduled
+- reviewed
+- actions-defined
+- closed
+relations:
+- type: refers-to
+  target: adverse-event
+- type: produces
+  target: corrective-action
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

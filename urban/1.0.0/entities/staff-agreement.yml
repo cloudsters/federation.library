@@ -1,0 +1,68 @@
+kind: entity
+slug: staff-agreement
+title: Staff Agreement
+type: governance
+summary: An agreement between the city and its staff representatives on a change to work, on the use of a technology or on the mandate
+  of an AI agent, with what each side commits to and how it is reviewed. The administration and the staff representatives sign it
+  after consultation in good time and the administration keeps it, and where agreement is due no changed process, automated system
+  or agent mandate spreads beyond its pilot without it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: agreement-kind
+  type: code
+  card: 1..1
+- name: staff-representatives
+  type: text
+  card: 1..*
+- name: departments
+  type: reference(department)
+  card: 1..*
+- name: consulted-from
+  type: date
+  card: 0..1
+- name: commitments
+  type: text
+  card: 1..*
+- name: review-procedure
+  type: text
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: signed-text
+  type: document
+  card: 0..1
+states:
+- proposed
+- consulting
+- negotiating
+- signed
+- in-force
+- under-review
+- ended
+relations:
+- type: refers-to
+  target: department
+- type: refers-to
+  target: improvement-project
+- type: refers-to
+  target: automation-proposal
+- type: refers-to
+  target: agent-mandate
+- type: based-on
+  target: work-allocation-audit
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

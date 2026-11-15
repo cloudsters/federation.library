@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: medical-equipment-register
+title: Medical Equipment Register
+medium: artefact
+summary: The inventory of every medical device with its location, owning unit, inspection dates, maintenance history and mandatory
+  register entries, through which units see what they hold and when it is due.
+exchanges:
+- instruction-for-safe-use
+journey: care-team-keeping-devices-safe-to-use

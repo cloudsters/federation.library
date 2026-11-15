@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: placed-capital-for-a-reported-fund
+title: Placed Capital for a Reported Fund
+between:
+- lender
+- city-council
+offered:
+- Capital placed in the community-governed succession fund.
+returned:
+- Repayment and a yearly account of how the fund performed.
+touchpoint: transition-loan-agreement

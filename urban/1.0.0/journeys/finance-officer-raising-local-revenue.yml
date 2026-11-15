@@ -1,0 +1,60 @@
+kind: journey
+slug: finance-officer-raising-local-revenue
+title: Finance Officer Raising Local Revenue
+stakeholder: finance-officer
+summary: The finance officer proposes the revenue mix and its rates, keeps the values of land and buildings current, assesses and
+  bills each taxpayer, decides on relief, receives and reconciles payments, follows up arrears fairly and publishes what each revenue
+  funded.
+stages:
+- slug: propose-the-revenue-mix
+  title: Propose the Revenue Mix
+  goal: The council has adopted the mix and rates of local taxes, fees and charges, with lower rates for homes and community land
+    and higher rates for vacant and speculative holdings, after hearing who pays and who gains.
+  step: local-taxation-and-revenue/revenue-policy-setting
+  touchpoints:
+  - revenue-policy-consultation
+  - published-tax-and-charge-schedule
+- slug: keep-values-current
+  title: Keep Values Current
+  goal: Every parcel and building carries a current value, the land apart from the building, and the rise caused by public investment
+    is mapped against the baseline.
+  step: local-taxation-and-revenue/property-and-land-valuation
+  touchpoints:
+  - valuation-notice
+  - public-land-value-map
+- slug: assess-and-bill
+  title: Assess and Bill
+  goal: Each taxpayer has received a bill in plain language that shows what is owed, on what basis and what the revenue funds.
+  step: local-taxation-and-revenue/assessment-and-billing
+  touchpoints:
+  - plain-language-tax-bill
+- slug: decide-on-relief
+  title: Decide on Relief
+  goal: Every household and community body entitled to relief has received it, and charges for water, energy and transit stay within
+    a share of household income.
+  step: local-taxation-and-revenue/relief-and-hardship-support
+  touchpoints:
+  - relief-application-desk
+  - essential-charge-cap-notice
+- slug: receive-and-reconcile
+  title: Receive and Reconcile
+  goal: Every payment is matched to the right account and reconciled with the city's bank accounts the same day.
+  step: local-taxation-and-revenue/payment-collection
+  touchpoints:
+  - payment-channels
+  - taxpayer-account-view
+- slug: recover-arrears-fairly
+  title: Recover Arrears Fairly
+  goal: Unpaid amounts are followed up with reminders and plans timed to when people earn, and debts that cannot fairly be recovered
+    are written off on published rules.
+  step: local-taxation-and-revenue/arrears-recovery
+  touchpoints:
+  - payment-reminder
+  - payment-plan-meeting
+  - arrears-write-off-decision
+- slug: publish-what-revenue-funded
+  title: Publish What Revenue Funded
+  goal: Residents can see what each revenue raised, who paid it, what it funded and the share that flowed into the commons fund.
+  step: local-taxation-and-revenue/revenue-reporting-to-residents
+  touchpoints:
+  - published-revenue-account

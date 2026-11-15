@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: levy-on-a-rise-from-public-investment
+title: Levy on a Rise from Public Investment
+between:
+- finance-officer
+- landowner
+offered:
+- A notice showing the rise in the land's value caused by public investment or rezoning, against the baseline.
+returned:
+- Payment of the share of the rise due to the commons fund.
+touchpoint: betterment-levy-notice

@@ -1,0 +1,100 @@
+kind: value-stream
+slug: interoperability-and-connectivity
+title: Interoperability and Connectivity
+family: portfolio-to-system
+summary: Making systems exchange meaning inside the organisation and with customers, suppliers, banks and authorities, through an
+  integration strategy, shared formats and reference data, operated interfaces and electronic exchange of business documents.
+trigger: A new system, partner or authority must be connected, or an exchange specification changes.
+outcome: Data flows between systems and partners in conformant form, and exchange errors are monitored and resolved.
+stakeholders:
+- information-technology-specialist
+- technology-provider
+- business-customer
+- supplier
+- tax-authority
+steps:
+- slug: connection-need-assessment
+  title: Connection Need Assessment
+  summary: The systems, partners and authorities that must exchange information are identified, with what they exchange, how often
+    and in which form.
+  capabilities:
+  - integration-strategy
+  entities:
+  - application
+  - interface
+  serves:
+  - technology-demand-request
+- slug: integration-design
+  title: Integration Design
+  summary: Integration patterns, interface contracts, shared formats and reference data are designed within the integration strategy
+    and the enterprise architecture.
+  capabilities:
+  - integration-strategy
+  - solution-architecture
+  - master-data-stewardship
+  entities:
+  - interface
+  - data-model
+  serves:
+  - architecture-repository
+  - interface-specification
+- slug: partner-connection-onboarding
+  title: Partner Connection Onboarding
+  summary: Customers, suppliers, banks and authorities are connected for electronic exchange, with agreed formats, channels and test
+    runs.
+  capabilities:
+  - electronic-business-document-exchange
+  entities:
+  - interface
+  - customer
+  - supplier-organisation
+  - agreement
+  serves:
+  - connection-test
+  - interface-specification
+  - supplier-portal
+- slug: interface-build-and-test
+  title: Interface Build and Test
+  summary: Interfaces are built on the integration platform, tested end to end with their counterparts, and released.
+  capabilities:
+  - integration-platform-operation
+  - solution-build-and-test
+  entities:
+  - interface
+  - application
+  serves:
+  - connection-test
+  - integration-platform
+- slug: business-document-exchange
+  title: Business Document Exchange
+  summary: Orders, delivery notes, invoices and catalogues flow electronically in the forms each partner and authority requires.
+  capabilities:
+  - electronic-business-document-exchange
+  - electronic-invoicing-compliance
+  - integration-platform-operation
+  entities:
+  - sales-order
+  - purchase-order
+  - sales-invoice
+  - delivery-note
+  serves:
+  - electronic-order-interface
+  - invoice
+  - order-confirmation
+  - purchase-order
+  - statutory-filing
+  - supplier-portal
+- slug: exchange-monitoring-and-error-resolution
+  title: Exchange Monitoring and Error Resolution
+  summary: Message flows are monitored, failed or rejected exchanges are corrected and resent, and recurring errors are fixed at their
+    source.
+  capabilities:
+  - integration-platform-operation
+  - data-quality-management
+  entities:
+  - interface
+  - incident
+  serves:
+  - electronic-order-interface
+  - integration-platform
+  - supplier-portal

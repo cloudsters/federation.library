@@ -1,0 +1,46 @@
+kind: journey
+slug: tenant-living-in-a-city-home
+title: Tenant Living in a City Home
+stakeholder: tenant
+summary: A tenant starts a tenancy with the home inspected and their rights explained, pays a rent they can carry with help if they
+  fall behind, has repairs done until they confirm them fixed, settles a dispute with a neighbour through mediation and hands the
+  home back when the tenancy ends.
+stages:
+- slug: start-the-tenancy
+  title: Start the Tenancy
+  goal: The tenant has inspected the home with the housing officer, signed the agreement, knows rent, rights and how to report repairs,
+    and has met the tenant body.
+  step: public-housing-and-tenancy-services/tenancy-start
+  touchpoints:
+  - home-inspection-walk
+  - tenancy-agreement
+- slug: pay-a-rent-that-can-be-carried
+  title: Pay a Rent That Can Be Carried
+  goal: The tenant pays rent and charges set at a level tenants can carry, and if they fall behind they have an arrangement and help
+    before any step towards ending the tenancy.
+  step: public-housing-and-tenancy-services/rent-and-service-charge-collection
+  touchpoints:
+  - rent-account-statement
+  - payment-arrangement-meeting
+- slug: get-a-repair-done
+  title: Get a Repair Done
+  goal: The tenant's repair has a priority and a date within the published times and is closed only when the tenant confirms it is
+    fixed.
+  step: public-housing-and-tenancy-services/repair-request-and-response
+  touchpoints:
+  - repair-reporting-line
+  - repair-visit
+- slug: settle-a-dispute-and-keep-the-tenancy
+  title: Settle a Dispute and Keep the Tenancy
+  goal: A dispute with a neighbour has gone first to mediation, and difficulty with health, money or care is met with support so that
+    the tenancy holds.
+  step: public-housing-and-tenancy-services/neighbour-disputes-and-tenancy-support
+  touchpoints:
+  - neighbour-mediation-session
+  - tenancy-support-visit
+- slug: hand-the-home-back
+  title: Hand the Home Back
+  goal: At the end of the tenancy the home is inspected with the tenant and the agreed repairs are set within a fixed number of days.
+  step: public-housing-and-tenancy-services/tenancy-end-and-re-letting
+  touchpoints:
+  - home-inspection-walk

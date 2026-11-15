@@ -1,0 +1,39 @@
+kind: journey
+slug: affected-community-keeping-its-place-as-the-city-grows
+title: Affected Community Keeping Its Place as the City Grows
+stakeholder: affected-community
+summary: A community at risk of displacement names the rules that no longer serve it, sees where change is proposed, shapes the plan
+  and the protections against displacement, objects and is answered, and watches where residents are pushed out.
+stages:
+- slug: name-the-rules-that-no-longer-serve
+  title: Name the Rules That No Longer Serve
+  goal: The land-use rules the community finds outdated or harmful are listed in the scope of the review.
+  step: spatial-development-planning/spatial-plan-review-opening
+  touchpoints:
+  - spatial-plan-review-notice
+- slug: see-where-change-is-proposed
+  title: See Where Change Is Proposed
+  goal: The community sees where each pattern of growth would bring change and who would bear its cost.
+  step: spatial-development-planning/spatial-option-design
+  touchpoints:
+  - spatial-options-exhibition
+- slug: shape-the-plan-and-its-protections
+  title: Shape the Plan and Its Protections
+  goal: The community has worked on the draft plan and sees what it would mean for rents and for who can stay, with protections paired
+    to each change.
+  step: spatial-development-planning/plan-co-design
+  touchpoints:
+  - neighbourhood-planning-workshop
+  - displacement-risk-report
+- slug: object-and-be-answered
+  title: Object and Be Answered
+  goal: The community's objections are answered in writing before the council adopts the plan.
+  step: spatial-development-planning/spatial-plan-adoption
+  touchpoints:
+  - objection-response-report
+- slug: watch-for-displacement
+  title: Watch for Displacement
+  goal: The community can see where residents are displaced and its signals reopen the plan where it drifts.
+  step: spatial-development-planning/spatial-plan-monitoring
+  touchpoints:
+  - growth-monitoring-report

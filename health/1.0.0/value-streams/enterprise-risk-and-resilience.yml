@@ -1,0 +1,161 @@
+kind: value-stream
+slug: enterprise-risk-and-resilience
+title: Enterprise Risk and Resilience
+family: perception-to-mandate
+summary: 'Protecting the organisation''s ability to fulfil its mandate under threat: risk appetite and enterprise risk register,
+  business continuity, preparedness for mass casualties, outages, pandemics and disasters, crisis command and recovery.'
+trigger: The annual risk cycle starts, a new threat is identified, or an internal or external incident overwhelms normal operations.
+outcome: Top risks are treated within the stated appetite, continuity and emergency plans are exercised, and after a crisis
+  operations are restored and lessons adopted.
+stakeholders:
+- executive
+- owner
+- legal-risk-and-compliance-professional
+- liability-insurer
+- civil-protection-authority
+- emergency-medical-service
+- emergency-physician
+- general-public
+steps:
+- slug: risk-framework-and-appetite
+  title: Risk Framework and Appetite
+  summary: 'The risk framework is confirmed or renewed for the cycle: risk policy, categories, methods, responsibilities and
+    the appetite the board accepts for each kind of threat to the organisation''s ability to fulfil its mandate.'
+  capabilities:
+  - risk-framework-design
+  - delegation-of-authority
+  - board-communication-reporting
+  entities:
+  - policy
+  - governance-decision
+  - risk
+  serves:
+  - audit-committee-meeting
+- slug: risk-identification-and-assessment
+  title: Risk Identification and Assessment
+  summary: Units and functions identify what threatens the mandate, through harm to patients and staff or losses in finances,
+    operations, information and reputation, including risks entering through suppliers, and assess likelihood and impact.
+  capabilities:
+  - unit-risk-management
+  - risk-oversight-and-coordination
+  - clinical-risk-sensing
+  - hazard-assessment
+  - vendor-risk-management
+  - it-risk-and-security-control
+  - ecosystem-sensing
+  entities:
+  - risk
+  - incident
+  - audit-finding
+  - drift-signal
+  serves:
+  - insurance-renewal-review
+- slug: risk-treatment
+  title: Risk Treatment
+  summary: For each risk above appetite a treatment is chosen and owned, whether a control, a reduction, a transfer through
+    insurance or contract, or a reasoned acceptance by the entitled body.
+  capabilities:
+  - unit-risk-management
+  - internal-controls-design
+  - insurance-management
+  - contract-lifecycle-stewardship
+  - climate-adaptation
+  entities:
+  - risk
+  - internal-control
+  - contract
+  - corrective-action
+  serves:
+  - insurance-renewal-review
+- slug: continuity-and-emergency-planning
+  title: Continuity and Emergency Planning
+  summary: Critical services and their dependencies are identified, each receives a continuity plan with tolerable outage
+    and fallback, and the emergency plan sets alert levels, command roles and surge capacity with the regional responders.
+  capabilities:
+  - business-continuity-design
+  - emergency-and-disaster-preparedness
+  - degraded-mode-governance
+  - it-continuity-management
+  - clinical-downtime-procedures
+  - emergency-network-coordination
+  - drug-shortage-management
+  entities:
+  - continuity-plan
+  - emergency-preparedness-plan
+  - care-service
+  - risk
+  serves:
+  - emergency-plan
+- slug: exercise-and-readiness
+  title: Exercise and Readiness
+  summary: Plans are exercised in drills, tabletop and full-scale exercises with emergency services and authorities, staff
+    are trained for their roles, and the findings improve the plans.
+  capabilities:
+  - resilience-testing-evolution
+  - emergency-and-disaster-preparedness
+  - crisis-resource-management-training
+  - in-situ-simulation
+  - mandatory-training-management
+  entities:
+  - emergency-preparedness-plan
+  - continuity-plan
+  - audit
+  - audit-finding
+  - corrective-action
+  serves:
+  - emergency-exercise
+  - incident-command-centre
+- slug: crisis-command-and-response
+  title: Crisis Command and Response
+  summary: When an incident overwhelms normal operations the alert is raised, incident command takes over, surge and degraded-mode
+    measures are activated, and the organisation acts together with emergency services, authorities and the public.
+  capabilities:
+  - incident-command
+  - degraded-mode-governance
+  - emergency-network-coordination
+  - patient-flow-orchestration
+  - intensive-care-capacity-coordination
+  - float-pool-and-redeployment
+  - crisis-communication
+  - technology-resilience-operations
+  entities:
+  - major-incident
+  - emergency-preparedness-plan
+  - continuity-plan
+  - capacity-status
+  serves:
+  - incident-command-centre
+  - public-website
+- slug: recovery-and-learning
+  title: Recovery and Learning
+  summary: Normal operation is restored service by service, damage is remediated, staff are supported, the response is debriefed,
+    and the lessons change plans, controls and the risk register.
+  capabilities:
+  - remediation-management
+  - degraded-mode-governance
+  - resilience-testing-evolution
+  - root-cause-analysis
+  - staff-wellbeing-and-resilience
+  entities:
+  - major-incident
+  - corrective-action
+  - risk
+  - continuity-plan
+  serves:
+  - emergency-plan
+  - public-website
+- slug: risk-oversight-reporting
+  title: Risk Oversight Reporting
+  summary: The aggregated risk profile, the state of treatment and the readiness of plans are reported to the executive board
+    and the supervisory body, which confirm the appetite or decide further treatment.
+  capabilities:
+  - risk-oversight-and-coordination
+  - controls-reporting
+  - board-communication-reporting
+  entities:
+  - risk
+  - dashboard
+  - governance-decision
+  serves:
+  - audit-committee-meeting
+  - board-report

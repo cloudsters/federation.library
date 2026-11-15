@@ -1,0 +1,40 @@
+kind: journey
+slug: local-producer-joining-a-craft-network
+title: Local Producer Joining a Craft Network
+stakeholder: local-producer
+summary: A maker is mapped with the trades of the neighbourhood, joins a network the members run, shares a workshop and equipment,
+  uses the name and mark the producers hold in common under quality standards set by peers, and judges with the others whether value
+  is shared.
+stages:
+- slug: be-on-the-map
+  title: Be on the Map
+  goal: The maker's craft and supply links are on the map of the neighbourhood's economy, informal work included.
+  step: local-business-networks-and-clusters/local-economy-mapping
+  touchpoints:
+  - trades-and-crafts-mapping-walk
+  - local-economy-map-view
+- slug: join-the-network
+  title: Join the Network
+  goal: The maker is a member of a network of the sector with its own rules on membership, decisions and what members share.
+  step: local-business-networks-and-clusters/business-network-convening
+  touchpoints:
+  - sector-network-founding-meeting
+- slug: share-the-workshop
+  title: Share the Workshop
+  goal: The maker uses workshops, equipment, testing and training that no member could afford alone, at an affordable rent.
+  step: local-business-networks-and-clusters/shared-facilities-and-knowledge
+  touchpoints:
+  - shared-maker-workshop
+- slug: earn-the-shared-mark
+  title: Earn the Shared Mark
+  goal: The maker's work meets the standards set by practitioner peers and is licensed to carry the mark held in common.
+  step: local-business-networks-and-clusters/collective-mark-and-quality-standards
+  touchpoints:
+  - collective-mark-quality-committee
+  - collective-mark-licence
+- slug: judge-whether-value-is-shared
+  title: Judge Whether Value Is Shared
+  goal: The network sees how many small firms take part, what they gained and whether value gathers with a few.
+  step: local-business-networks-and-clusters/network-vitality-review
+  touchpoints:
+  - network-vitality-review-session

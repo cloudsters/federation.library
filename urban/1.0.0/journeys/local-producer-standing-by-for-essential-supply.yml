@@ -1,0 +1,31 @@
+kind: journey
+slug: local-producer-standing-by-for-essential-supply
+title: Local Producer Standing By for Essential Supply
+stakeholder: local-producer
+summary: A producer of the region is qualified in advance and signs a standby agreement, supplies the neighbourhood reserves for rotation,
+  switches in when a main supplier fails and joins the review that follows.
+stages:
+- slug: be-qualified-in-advance
+  title: Be Qualified in Advance
+  goal: The producer is qualified and has a standby agreement to supply an essential good at short notice.
+  step: supply-security-and-essential-reserves/alternative-supplier-qualification
+  touchpoints:
+  - standby-supplier-qualification
+- slug: supply-the-reserves
+  title: Supply the Reserves
+  goal: The producer supplies the neighbourhood reserves so that stock rotates and stays fresh.
+  step: supply-security-and-essential-reserves/distributed-reserve-keeping
+  touchpoints:
+  - neighbourhood-reserve-store
+- slug: switch-in-when-supply-fails
+  title: Switch In When Supply Fails
+  goal: When a main supplier fails, the producer is called on under its standby agreement and delivers.
+  step: supply-security-and-essential-reserves/supply-disruption-response
+  touchpoints:
+  - supply-disruption-alert
+- slug: join-the-review
+  title: Join the Review
+  goal: The producer has said what worked in the switch and what would make it faster next time.
+  step: supply-security-and-essential-reserves/reserve-and-dependency-review
+  touchpoints:
+  - reserve-review-meeting

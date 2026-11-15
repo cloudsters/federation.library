@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: return-authorisation
+title: Return Authorisation
+medium: artefact
+summary: 'The authorisation that permits goods to be sent back, with the reason, the collection or drop-off point and what the sender
+  can expect: credit, replacement or repair.'
+exchanges:
+- easy-return-for-a-stated-reason
+journey: consumer-receiving-and-returning-a-parcel

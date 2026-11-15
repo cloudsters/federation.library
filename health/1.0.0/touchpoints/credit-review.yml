@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: credit-review
+title: Credit Review
+medium: encounter
+summary: The periodic review in which a lender examines the commons' statements, plans and covenant compliance and decides on credit
+  lines and their terms.
+exchanges:
+- creditworthiness-for-financing
+journey: banking-and-lending-to-the-commons

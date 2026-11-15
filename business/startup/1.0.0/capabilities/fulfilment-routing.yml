@@ -1,0 +1,6 @@
+kind: capability
+slug: fulfilment-routing
+title: Fulfilment Routing
+level: L2
+parent: order-fulfilment
+summary: Deciding from where and by which path each order is fulfilled.

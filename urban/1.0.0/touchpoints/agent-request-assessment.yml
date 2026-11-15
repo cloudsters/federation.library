@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-request-assessment
+title: Agent Request Assessment
+medium: artefact
+summary: The assessment of a department's request for an agent against the workforce plan, the tasks that must stay with a person
+  and the effect on the staff whose work it touches.
+exchanges:
+- frontline-judgement-for-tasks-kept-human
+journey: frontline-worker-working-beside-an-agent

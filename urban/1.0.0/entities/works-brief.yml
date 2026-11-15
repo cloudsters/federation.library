@@ -1,0 +1,66 @@
+kind: entity
+slug: works-brief
+title: Works Brief
+type: transactional
+summary: The statement of what a public work must achieve, with the need, service level, lifecycle and carbon targets, the requirements
+  of its users and maintainers, and the budget. The owning department writes it with them, and the design and the acceptance tests
+  are measured against it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: capital-project
+  type: reference(capital-project)
+  card: 1..1
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: need
+  type: text
+  card: 1..1
+- name: service-levels
+  type: text
+  card: 1..*
+- name: design-life
+  type: quantity
+  card: 0..1
+- name: carbon-target
+  type: quantity
+  card: 0..1
+- name: user-requirements
+  type: text
+  card: 0..*
+- name: crew-requirements
+  type: text
+  card: 0..*
+- name: budget
+  type: amount
+  card: 1..1
+- name: source-plan
+  type: reference(asset-plan)
+  card: 0..1
+- name: approved-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- approved
+- revised
+- closed
+relations:
+- type: part-of
+  target: capital-project
+- type: based-on
+  target: asset-plan
+- type: assigned-to
+  target: department
+- type: produces
+  target: works-design
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global

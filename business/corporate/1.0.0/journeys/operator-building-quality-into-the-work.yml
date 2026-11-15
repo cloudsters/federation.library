@@ -1,0 +1,34 @@
+kind: journey
+slug: operator-building-quality-into-the-work
+title: Operator Building Quality into the Work
+stakeholder: production-operator
+summary: An operator works to documented practice, checks quality while the work is done, stops the work when something is wrong,
+  reports non-conformances without fear and helps find and remove their causes.
+stages:
+- slug: work-to-documented-practice
+  title: Work to Documented Practice
+  goal: The controls and work instructions for the workplace are current, understood and at hand.
+  step: quality-as-vitality/quality-system-and-documented-practice
+  touchpoints:
+  - quality-handbook
+  - shop-floor
+- slug: check-in-the-flow
+  title: Check in the Flow
+  goal: Checks are done at the point of work with calibrated equipment, and the operator stops the work when the result is wrong.
+  step: quality-as-vitality/in-process-checks
+  touchpoints:
+  - in-process-check
+  - shop-floor
+- slug: report-without-blame
+  title: Report Without Blame
+  goal: Every deviation is recorded and contained at once, and reporting it brings help, not blame.
+  step: quality-as-vitality/non-conformance-handling
+  touchpoints:
+  - non-conformance-report
+  - shop-floor-meeting
+- slug: remove-the-cause
+  title: Remove the Cause
+  goal: The operator helps trace the root cause and sees that the corrective action works.
+  step: quality-as-vitality/cause-analysis-and-correction
+  touchpoints:
+  - root-cause-session

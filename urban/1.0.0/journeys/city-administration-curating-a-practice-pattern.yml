@@ -1,0 +1,54 @@
+kind: journey
+slug: city-administration-curating-a-practice-pattern
+title: City Administration Curating a Practice Pattern
+stakeholder: city-administration
+summary: The administration scans research and the variation between its services, admits a practice only when it has worked in several
+  contexts, tests it with staff and residents, carries it into procedure, encodes its stable rules, publishes it in the library and
+  revises or retires it when it stops working.
+stages:
+- slug: scan-research-and-variation
+  title: Scan Research and Variation
+  goal: Research, peer city experience and the variation between the city's own services point to practices worth adopting or questioning.
+  step: practice-standards-and-pattern-library/evidence-and-variation-scanning
+  touchpoints:
+  - practice-variation-scan
+- slug: admit-only-what-held-elsewhere
+  title: Admit Only What Held Elsewhere
+  goal: A candidate practice enters the library only after it has worked in at least three distinct contexts, with the conditions
+    under which it fails written beside it.
+  step: practice-standards-and-pattern-library/pattern-validation
+  touchpoints:
+  - pattern-validation-panel
+- slug: test-with-those-who-live-it
+  title: Test with Those Who Live It
+  goal: Frontline staff and residents have tested the pattern against their experience, and their account is recorded beside the research.
+  step: practice-standards-and-pattern-library/testing-with-practitioners-and-residents
+  touchpoints:
+  - practice-test-circle
+- slug: carry-into-procedure
+  title: Carry into Procedure
+  goal: The pattern becomes a standard procedure for the services where its conditions hold, with room for local adaptation.
+  step: practice-standards-and-pattern-library/standard-procedure-design
+  touchpoints:
+  - procedure-drafting-session
+- slug: encode-the-stable-rules
+  title: Encode the Stable Rules
+  goal: Rule-based, stable parts of the procedure are encoded for the city's systems and agents, each rule linked to its pattern and
+    decision.
+  step: practice-standards-and-pattern-library/practice-encoding
+  touchpoints:
+  - rule-encoding-review
+- slug: publish-in-the-library
+  title: Publish in the Library
+  goal: The approved pattern and its procedure are published where staff, residents and peer cities find them.
+  step: practice-standards-and-pattern-library/release-and-publication
+  touchpoints:
+  - city-pattern-library
+- slug: watch-adherence-and-retire
+  title: Watch Adherence and Retire
+  goal: Whether practice follows the procedure and outcomes hold is monitored, and a pattern that no longer works is revised or retired
+    with its reasons.
+  step: practice-standards-and-pattern-library/adherence-and-renewal
+  touchpoints:
+  - practice-adherence-review
+  - pattern-retirement-notice

@@ -1,0 +1,39 @@
+kind: journey
+slug: employee-moving-into-a-new-way-of-working
+title: Employee Moving into a New Way of Working
+stakeholder: employee
+summary: An employee affected by a change describes what it means for their work, learns what is ending and coming, is accompanied
+  into the new way, gives feedback after launch and sees the gains secured.
+stages:
+- slug: describe-the-impact
+  title: Describe the Impact
+  goal: The employee has described the current work and what the change would mean for it, and the concerns are recorded.
+  step: change-as-growth/impact-and-readiness-assessment
+  touchpoints:
+  - change-impact-workshop
+- slug: learn-what-ends-and-what-comes
+  title: Learn What Ends and What Comes
+  goal: The plan names what is ending as well as what is coming, and the employee knows the champions to turn to.
+  step: change-as-growth/change-design
+  touchpoints:
+  - change-plan
+  - intranet
+- slug: cross-over-with-support
+  title: Cross Over with Support
+  goal: The employee is trained and accompanied into the new role, or supported on the way out, with honest two-way communication.
+  step: change-as-growth/transition-and-implementation
+  touchpoints:
+  - practice-briefing
+  - staff-assembly
+- slug: tell-how-it-lands
+  title: Tell How It Lands
+  goal: Feedback after launch reaches the sponsors and is answered with reinforcement where the new way does not yet hold.
+  step: change-as-growth/adoption-monitoring
+  touchpoints:
+  - adoption-review
+- slug: see-the-gains-hold
+  title: See the Gains Hold
+  goal: The changed way of working is stable, and the lessons are kept for the next change.
+  step: change-as-growth/consolidation-and-lessons
+  touchpoints:
+  - lessons-learned-review

@@ -1,0 +1,53 @@
+kind: entity
+slug: citizen-complaint
+title: Citizen Complaint
+type: transactional
+summary: A formal complaint from a resident about the city's services or conditions, from receipt to answer. The administration records
+  and answers it within its deadline, and complaints are counted as signals of the state of the city.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: location
+  type: text
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: complainant
+  type: text
+  card: 0..1
+- name: response-deadline
+  type: date
+  card: 0..1
+- name: response
+  type: text
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- received
+- acknowledged
+- assigned
+- investigated
+- answered
+- escalated
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-dashboard

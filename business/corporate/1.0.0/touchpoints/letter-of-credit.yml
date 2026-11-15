@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: letter-of-credit
+title: Letter of Credit
+medium: artefact
+summary: The bank's undertaking to pay the seller against compliant documents, used where trust between trading parties is not yet
+  established.
+exchanges:
+- payment-security-for-a-first-trade
+journey: customer-importing-the-companys-goods

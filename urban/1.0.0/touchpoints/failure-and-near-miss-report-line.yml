@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: failure-and-near-miss-report-line
+title: Failure and Near-Miss Report Line
+medium: channel
+summary: The simple channel through which staff and residents report failures and near misses without fear of blame, each report graded
+  by its harm and urgency.
+exchanges:
+- near-miss-reports-for-protection-from-blame
+- failure-reports-for-a-graded-answer
+journey: resident-met-by-a-service-failure

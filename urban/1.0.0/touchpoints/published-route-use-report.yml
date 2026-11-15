@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-route-use-report
+title: Published Route Use Report
+medium: artefact
+summary: The published report of who uses each route to a service, digital, assisted or in person, and who is shut out, by neighbourhood,
+  age, language and disability.
+exchanges:
+- exclusion-reasons-for-a-changed-route
+- route-figures-for-neighbourhood-scrutiny
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

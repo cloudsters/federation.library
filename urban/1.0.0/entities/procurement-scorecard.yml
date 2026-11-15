@@ -1,0 +1,65 @@
+kind: entity
+slug: procurement-scorecard
+title: Procurement Scorecard
+type: governance
+summary: The published criteria and weights beyond price by which the city judges offers, such as local ownership, living wages, worker
+  voice, circular use and emissions, with the evidence each criterion asks for and how it is scored. Residents, workers and suppliers
+  set it with the procurement office, the council adopts it in the procurement policy, and every tender applies it and every evaluation
+  scores against it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: criteria
+  type: text
+  card: 1..*
+- name: weights
+  type: document
+  card: 1..1
+- name: price-weight
+  type: decimal
+  card: 1..1
+- name: evidence-required
+  type: text
+  card: 0..*
+- name: scoring-method
+  type: text
+  card: 1..1
+- name: categories
+  type: reference(procurement-category)
+  card: 0..*
+- name: co-design-record
+  type: reference(public-consultation)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: published-version
+  type: document
+  card: 0..1
+states:
+- drafted
+- co-designed
+- adopted
+- published
+- in-use
+- revised
+- retired
+relations:
+- type: part-of
+  target: procurement-policy
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: procurement-category
+- type: produces
+  target: public-record
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global

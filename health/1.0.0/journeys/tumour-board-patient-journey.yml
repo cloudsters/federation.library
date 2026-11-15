@@ -1,0 +1,38 @@
+kind: journey
+slug: tumour-board-patient-journey
+title: Tumour Board Patient Journey
+stakeholder: person-with-cancer
+summary: A person with cancer has the case presented to the tumour board with every finding, is considered for trials, decides together
+  with the physician and is followed while the recommendation is carried out.
+stages:
+- slug: have-the-case-presented
+  title: Have the Case Presented
+  goal: Know that the case goes to the conference and when.
+  step: interdisciplinary-consultation/consultation-request
+  touchpoints:
+  - consultation
+- slug: have-every-finding-considered
+  title: Have Every Finding Considered
+  goal: Have all findings, including those from other providers, taken into account.
+  step: interdisciplinary-consultation/case-preparation
+  touchpoints:
+  - patient-held-health-record
+- slug: be-considered-for-trials
+  title: Be Considered for Trials
+  goal: Have own preferences and suitable trials weighed in the discussion.
+  step: interdisciplinary-consultation/consultation-or-conference
+  touchpoints:
+  - multidisciplinary-case-conference
+- slug: decide-together
+  title: Decide Together
+  goal: Hear the recommendation, ask questions and decide together with the physician.
+  step: interdisciplinary-consultation/communication
+  touchpoints:
+  - consultation
+  - consultation-report
+- slug: be-followed
+  title: Be Followed
+  goal: Have the treatment carried out as agreed, or reconsidered when things change.
+  step: interdisciplinary-consultation/implementation-tracking
+  touchpoints:
+  - consultation

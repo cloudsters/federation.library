@@ -1,0 +1,31 @@
+kind: solution
+slug: cost-and-performance-accounting
+title: Cost and Performance Accounting
+role: system-of-insight
+summary: Allocates costs from cost centres to the activities and cases that consumed them, and reports cost per case, service
+  line profitability and the separation of care, research and teaching funds.
+carries:
+- cost-accounting
+- patient-level-costing
+- responsibility-accounting
+- service-line-profitability
+- cost-management
+- financial-performance-management
+- separated-activity-accounting
+- research-overhead-and-reinvestment
+- payer-budget-negotiation
+- service-business-case
+- availability-funding
+- cost-reimbursed-staff-budget
+holds:
+- patient-level-cost
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

@@ -1,0 +1,28 @@
+kind: solution
+slug: clinical-communication-and-alerting
+title: Clinical Communication and Alerting
+role: system-of-engagement
+summary: 'Delivers messages, calls and alarms to the right professional on the right device: result notifications, consultation
+  requests, handovers, early-warning escalations and team activation for emergencies and time-critical pathways.'
+carries:
+- secure-clinical-messaging
+- clinical-handover
+- interdisciplinary-consultation
+- laboratory-result-communication
+- deterioration-recognition-and-response
+- critical-care-outreach
+- time-critical-pathway-activation
+- emergency-and-disaster-preparedness
+- crisis-communication
+holds:
+- care-communication
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

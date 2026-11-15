@@ -1,0 +1,94 @@
+loop: _family.contributor-to-succession
+title: Keep the family 'Contributor to Succession' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: contributor-to-succession
+  vs:
+  - curiosity-to-capability
+  - skill-to-relevance
+  - role-to-design
+  - experience-to-teaching
+  - holding-to-handover
+  - inheritance-to-transmission
+stance: Steward the lifecycle of the intelligent contributors (human or AI agent) who shape the commons — find →
+  onboard → keep relevant → succeed the role. No single stream of this family can see what its streams do to one
+  another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed season of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was built into the runtime, adapted there, or left on the shelf
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/contributor-to-succession
+  - value-model.yml#vs/curiosity-to-capability
+  - value-model.yml#vs/skill-to-relevance
+  - value-model.yml#vs/role-to-design
+  - value-model.yml#vs/experience-to-teaching
+  - value-model.yml#vs/holding-to-handover
+  - value-model.yml#vs/inheritance-to-transmission
+  registry:
+  - instance/registry/5_value-streams/curiosity-to-capability.md
+  - instance/registry/5_value-streams/skill-to-relevance.md
+  - instance/registry/5_value-streams/role-to-design.md
+  - instance/registry/5_value-streams/experience-to-teaching.md
+  - instance/registry/5_value-streams/holding-to-handover.md
+  - instance/registry/5_value-streams/inheritance-to-transmission.md
+  loop_states:
+  - instance/operations/loops/_state/curiosity-to-capability.yml
+  - instance/operations/loops/_state/skill-to-relevance.yml
+  - instance/operations/loops/_state/role-to-design.yml
+  - instance/operations/loops/_state/experience-to-teaching.yml
+  - instance/operations/loops/_state/holding-to-handover.yml
+  - instance/operations/loops/_state/inheritance-to-transmission.yml
+  measures:
+  - curiosity-learning-drawn-on
+  - curiosity-returned-at-intervals
+  - curiosity-said-back-in-own-words
+  - curiosity-things-learned-at-once
+  - leaving-role-ending-marked
+  - leaving-role-knowledge-written
+  - leaving-role-stepped-back-in
+  - leaving-role-work-carries-on
+  - relevance-ahead-or-behind
+  - relevance-field-last-looked-at
+  - relevance-skills-still-asked-for
+  - relevance-stale-skills-undecided
+  - role-shape-change-proposed
+  - role-shape-fit-reading
+  - role-shape-hours-on-kept-parts
+  - role-shape-next-doors-warm
+  - teaching-glad-when-outgrown
+  - teaching-learning-both-ways
+  - teaching-passed-on-in-use
+  - teaching-time-agreed-plainly
+  - transmission-harm-seen
+  - transmission-papers-current
+  - transmission-pattern-caught
+  - transmission-received-decided
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.contributor-to-succession.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or this life declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

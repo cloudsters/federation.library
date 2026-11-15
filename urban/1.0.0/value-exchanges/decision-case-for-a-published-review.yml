@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: decision-case-for-a-published-review
+title: Decision Case for a Published Review
+between:
+- city-administration
+- information-technology-specialist
+offered:
+- The case for a major digital decision, such as a new platform or a large contract.
+returned:
+- A review against the strategy and the architecture, given before the decision and published with its reasons.
+touchpoint: architecture-review-meeting

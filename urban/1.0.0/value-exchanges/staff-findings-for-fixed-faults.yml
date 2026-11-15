@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staff-findings-for-fixed-faults
+title: Staff Findings for Fixed Faults
+between:
+- frontline-worker
+- city-administration
+offered:
+- The faults staff find while delivering the service in its trial and first weeks.
+returned:
+- Faults fixed quickly, and every team told what changed and why.
+touchpoint: trial-feedback-diary

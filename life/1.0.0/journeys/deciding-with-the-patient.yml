@@ -1,0 +1,33 @@
+kind: journey
+slug: deciding-with-the-patient
+title: Deciding with the Patient
+stakeholder: practitioner
+via: acquire-to-retire
+summary: A practitioner gives a lasting diagnosis, meets someone who has learned their condition and found allies, and makes each
+  treatment decision with them rather than for them.
+stages:
+- slug: give-the-diagnosis
+  title: Give the Diagnosis
+  goal: The diagnosis has been given and the person has been allowed time before deciding anything.
+  step: condition-to-agency/receiving-the-diagnosis
+  touchpoints:
+  - doctors-appointment
+  - hospital-ward
+- slug: meet-an-informed-patient
+  title: Meet an Informed Patient
+  goal: The practitioner meets someone who knows how their condition works and what others living with it have found.
+  step: condition-to-agency/learning-the-condition
+  touchpoints:
+  - peer-circle
+- slug: be-one-of-the-allies
+  title: Be One of the Allies
+  goal: The practitioner has been told what is needed and stands among the person's allies, not alone with the condition.
+  step: condition-to-agency/gathering-allies
+  touchpoints:
+  - peer-circle
+- slug: decide-together
+  title: Decide Together
+  goal: Each treatment decision has been made from the options and from what matters to the person, together.
+  step: condition-to-agency/deciding-with-not-for
+  touchpoints:
+  - doctors-appointment

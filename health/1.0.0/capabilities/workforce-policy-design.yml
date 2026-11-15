@@ -1,0 +1,10 @@
+kind: capability
+slug: workforce-policy-design
+title: Workforce Policy Design
+level: L3
+parent: workforce-strategy
+summary: Set the policies that govern employment, working time, pay, development and conduct.
+binds:
+- source: src-615
+  edition: '2019'
+  jurisdiction: global

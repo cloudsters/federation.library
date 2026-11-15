@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: initiative-charter
+title: Initiative Charter
+medium: artefact
+summary: The short document that frames an initiative as a hypothesis, with its sponsor, expected benefit, measures, cost, risk, team
+  and authority to act.
+exchanges:
+- idea-for-a-fair-hearing
+- sponsorship-for-resources-and-authority
+- measured-benefits-for-honest-tracking
+journey: unit-leader-sponsoring-a-strategic-initiative

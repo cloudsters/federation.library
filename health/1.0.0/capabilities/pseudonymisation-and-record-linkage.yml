@@ -1,0 +1,11 @@
+kind: capability
+slug: pseudonymisation-and-record-linkage
+title: Pseudonymisation and Record Linkage
+level: L3
+parent: research-data-services
+summary: Replace identities with pseudonyms and link records and samples across sources through an independent trust function, so
+  that data users never learn who a person is.
+binds:
+- source: src-400
+  edition: '2017'
+  jurisdiction: global

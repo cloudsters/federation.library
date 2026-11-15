@@ -1,0 +1,66 @@
+kind: entity
+slug: land-parcel
+title: Land Parcel
+type: master
+summary: A defined piece of land with its owner, its permitted use, its rights and burdens and its current state, such as vacant,
+  in interim use or leased. The administration keeps it from the land records, and it is the unit on which land supply is mapped,
+  public land is leased and plots are released.
+attributes:
+- name: parcel-identifier
+  type: identifier
+  card: 1..1
+- name: area
+  type: quantity
+  card: 1..1
+- name: boundary
+  type: document
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: ownership-kind
+  type: code
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: zoning
+  type: reference(zoning-plan)
+  card: 0..1
+- name: rights-and-burdens
+  type: text
+  card: 0..*
+- name: current-use
+  type: code
+  card: 1..1
+- name: vacancy-status
+  type: code
+  card: 0..1
+- name: flood-exposure
+  type: reference(flood-risk-map)
+  card: 0..1
+- name: lease
+  type: reference(contract)
+  card: 0..1
+states:
+- registered
+- vacant
+- in-interim-use
+- leased
+- in-development
+- in-use
+- merged
+- retired
+relations:
+- type: part-of
+  target: neighbourhood
+- type: governed-by
+  target: zoning-plan
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: flood-risk-map
+binds:
+- source: src-192
+  edition: '2024'
+  jurisdiction: global

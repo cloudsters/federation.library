@@ -1,0 +1,113 @@
+kind: value-stream
+slug: research-and-technology-development
+title: Research and Technology Development
+family: discovery-to-usage
+summary: Building the knowledge and technologies that future offerings will draw on, ahead of any specific offering, through research
+  agendas, experiments and prototypes, technology scouting and maturation, and research collaborations.
+trigger: The portfolio funds a research topic, or a promising technology is identified.
+outcome: A technology is matured to a demonstrated level and handed to offering design, or the line of research is closed with its
+  findings documented.
+stakeholders:
+- development-engineer
+- research-partner
+- product-manager
+- executive-board
+- technology-provider
+steps:
+- slug: research-agenda-setting
+  title: Research Agenda Setting
+  summary: Research topics are derived from the portfolio, the strategy and technology signals, each with a question, a budget and
+    a stop criterion.
+  capabilities:
+  - innovation-portfolio-management
+  - discovery-research
+  entities:
+  - initiative
+  - portfolio
+  - budget
+  - business-case
+  serves:
+  - research-agenda-review
+- slug: technology-scouting
+  title: Technology Scouting
+  summary: Emerging technologies, research results and young companies are scanned and assessed for what they could do for future
+    offerings and operations.
+  capabilities:
+  - discovery-research
+  - technology-innovation-cultivation
+  entities:
+  - market-insight
+  - report
+  serves:
+  - scouting-conversation
+  - technology-watch-report
+  - trade-fair
+- slug: research-collaboration
+  title: Research Collaboration
+  summary: Joint research with universities, institutes, start-ups and other organisations is agreed on clear terms for cost, results,
+    rights and publication.
+  capabilities:
+  - innovation-partnerships
+  - corporate-venturing
+  entities:
+  - agreement
+  - counterparty
+  - project
+  serves:
+  - contract-negotiation
+  - research-agreement
+- slug: experiments-and-demonstrators
+  title: Experiments and Demonstrators
+  summary: Hypotheses are tested in experiments and technology demonstrators that show whether a principle works and what it would
+    take to mature it.
+  capabilities:
+  - discovery-research
+  - offering-prototyping-craft
+  entities:
+  - project
+  - task
+  - report
+  serves:
+  - research-project-review
+  - test-laboratory
+- slug: testbed-trial
+  title: Testbed Trial
+  summary: A promising technology is tried in a controlled setting under real operating conditions, with its risks contained and its
+    performance measured.
+  capabilities:
+  - innovation-testbeds
+  entities:
+  - project
+  - risk
+  - measure-report
+  serves:
+  - testbed
+- slug: invention-capture-and-protection
+  title: Invention Capture and Protection
+  summary: Inventions arising from the work are disclosed and assessed, and the organisation decides whether to patent them, keep
+    them confidential or publish them openly.
+  capabilities:
+  - intellectual-property-management
+  - intellectual-asset-stewardship
+  entities:
+  - invention-disclosure
+  - intellectual-property-right
+  serves:
+  - invention-disclosure
+  - research-agreement
+- slug: maturity-review-and-transfer
+  title: Maturity Review and Transfer
+  summary: The maturity reached is assessed, and the technology is handed to offering design, licensed to others or the line of research
+    is closed with its findings documented.
+  capabilities:
+  - innovation-portfolio-management
+  - licensing-and-commercialisation
+  entities:
+  - governance-decision
+  - report
+  - intellectual-property-right
+  - agreement
+  serves:
+  - contract-negotiation
+  - research-project-review
+  - technology-maturity-review

@@ -1,0 +1,20 @@
+kind: solution
+slug: manufacturing-execution-system
+title: Manufacturing Execution System
+role: system-of-record
+summary: Releases and tracks work orders on the shop floor, guides operators with work instructions, records output, time, quality
+  and material use, and keeps the history of what was made from what.
+carries:
+- production-memory-traceability
+- production-rhythm-orchestration
+- shop-floor-execution
+- workstation-and-routing-design
+- standard-work-instructions
+- production-performance-management
+holds:
+- work-order
+- job-card
+- workstation
+- work-center
+- routing
+- batch-lot

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: costed-upkeep-for-funding-before-new-projects
+title: Costed Upkeep for Funding Before New Projects
+between:
+- city-administration
+- finance-officer
+offered:
+- Bids with the upkeep of existing assets and the care work they rely on costed.
+returned:
+- Upkeep funded before new projects enter the draft.
+touchpoint: budget-bid-workshop

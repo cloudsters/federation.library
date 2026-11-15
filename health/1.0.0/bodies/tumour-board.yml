@@ -1,0 +1,11 @@
+kind: body
+slug: tumour-board
+title: Tumour Board
+summary: The multidisciplinary conference that agrees a treatment recommendation for each cancer patient and tracks its implementation;
+  in its molecular form it interprets molecular findings and recommends targeted therapy or trial participation.
+holds:
+- multidisciplinary-tumour-board
+- molecular-tumour-board
+part_of: clinical-centre-board
+type: committee
+form: governing-body

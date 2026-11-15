@@ -1,0 +1,12 @@
+kind: solution
+slug: trade-union
+title: Trade Union
+role: institution
+sovereignty: third-party
+summary: Negotiates the terms of work collectively and stands beside a member when an agreement is broken.
+carries:
+- asking-for-terms-that-fit
+- reopening-an-agreement
+- holding-agreed-limits
+holds:
+- contract

@@ -1,0 +1,19 @@
+kind: capability
+slug: crisis-resource-management-training
+title: Crisis Resource Management Training
+level: L3
+parent: simulation-training
+summary: Train teams in crisis resource management and in emergency and trauma courses.
+binds:
+- source: src-499
+  edition: '3.0'
+  jurisdiction: global
+- source: src-507
+  edition: '2025'
+  jurisdiction: global
+- source: src-514
+  edition: '11'
+  jurisdiction: global
+- source: src-554
+  edition: '5.0'
+  jurisdiction: global

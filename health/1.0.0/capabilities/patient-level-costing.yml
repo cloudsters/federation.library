@@ -1,0 +1,10 @@
+kind: capability
+slug: patient-level-costing
+title: Patient-Level Costing
+level: L3
+parent: cost-and-performance-accounting
+summary: Cost each case by cost centre and cost type according to the national calculation standard.
+binds:
+- source: src-044
+  edition: '2011'
+  jurisdiction: global

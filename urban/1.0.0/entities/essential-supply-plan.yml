@@ -1,0 +1,57 @@
+kind: entity
+slug: essential-supply-plan
+title: Essential Supply Plan
+type: governance
+summary: The levels of each essential good the city holds enough of for a set period of disruption, the places that hold them, the
+  triggers for their release and the priorities for allocation. The procurement office drafts it with residents, services and the
+  risk team and the council adopts it, and it is reviewed each year and after every disruption.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: disruption-period
+  type: quantity
+  card: 1..1
+- name: sufficiency-levels
+  type: text
+  card: 1..*
+- name: reserve-places
+  type: reference(essential-reserve)
+  card: 0..*
+- name: release-triggers
+  type: text
+  card: 1..*
+- name: allocation-priorities
+  type: text
+  card: 1..*
+- name: standby-agreements
+  type: reference(standby-supply-agreement)
+  card: 0..*
+- name: emergency-plan
+  type: reference(emergency-plan)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- activated
+- revised
+- retired
+relations:
+- type: based-on
+  target: supply-dependency-map
+- type: part-of
+  target: emergency-plan
+- type: refers-to
+  target: essential-reserve
+- type: refers-to
+  target: standby-supply-agreement
+- type: refers-to
+  target: council-decision

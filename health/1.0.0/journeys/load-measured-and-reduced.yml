@@ -1,0 +1,45 @@
+kind: journey
+slug: load-measured-and-reduced
+title: Load Measured and Reduced
+stakeholder: natural-environment
+summary: 'The natural environment''s side of the stream: the load the commons places on it made visible, bound by targets, reduced
+  in practice and not increased by the commons'' adaptation to a changing climate.'
+stages:
+- slug: load-made-visible
+  title: Load Made Visible
+  goal: Have emissions, waste and resource use counted completely, the supply chain included.
+  step: environmental-sustainability/footprint-accounting
+  touchpoints:
+  - footprint-dashboard
+- slug: limits-set
+  title: Limits Set
+  goal: Have the load bound by targets on a pathway consistent with the limits of living systems.
+  step: environmental-sustainability/target-setting
+  touchpoints:
+  - board-meeting
+- slug: measures-chosen
+  title: Measures Chosen
+  goal: See measures chosen for the largest reductions, not the most visible ones.
+  step: environmental-sustainability/measure-selection
+  touchpoints:
+  - sustainability-network
+- slug: load-reduced-in-practice
+  title: Load Reduced in Practice
+  goal: Have less gas released, less material wasted and fewer harmful products bought.
+  step: environmental-sustainability/practice-change
+  touchpoints:
+  - operating-theatre
+  - waste-collection-point
+  - call-for-tender
+- slug: adaptation-without-added-load
+  title: Adaptation without Added Load
+  goal: Have the commons adapt to heat and floods without adding to the load, for example through shading and passive cooling.
+  step: environmental-sustainability/climate-adaptation
+  touchpoints:
+  - ward
+- slug: accounted-for-in-public
+  title: Accounted for in Public
+  goal: Have progress and setbacks reported openly, so that society can hold the commons to its targets.
+  step: environmental-sustainability/progress-reporting
+  touchpoints:
+  - sustainability-report

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: staffed-night-stop
+title: Staffed Night Stop
+medium: place
+summary: A stop or station that is step-free, lit, sheltered, staffed or watched at night and has a help point, placed first where
+  audits found waiting unsafe.
+exchanges:
+- reports-of-danger-for-a-safe-place-to-wait
+journey: public-transport-passenger-travelling-without-a-car

@@ -1,0 +1,39 @@
+kind: entity
+slug: skill
+title: Skill
+type: master
+summary: A named unit of human capability — what a participant can do, validated by experience, certification, or peer recognition. Skills
+  are the basic units of the community’s collective intelligence, and their taxonomy is a map, kept current, of what the
+  organisation knows how to do through its people.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: proficiency-levels
+  type: text
+  card: 1..*
+- name: validation
+  type: code
+  card: 0..*
+- name: holders
+  type: reference(employee-record)
+  card: 0..*
+states:
+- defined
+- assessed
+- validated
+- developed
+- expired
+- refreshed
+relations:
+- type: refers-to
+  target: employee-record
+- type: refers-to
+  target: position
+- type: refers-to
+  target: course
+- type: refers-to
+  target: capability-node

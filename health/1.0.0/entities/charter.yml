@@ -1,0 +1,34 @@
+kind: entity
+slug: charter
+title: Charter
+type: governance
+summary: The founding and governing document of the organisation, stating its purpose, ownership, bodies and their powers,
+  and the duties it holds in care, research and teaching.
+attributes:
+- name: organisation
+  type: reference(organisation)
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: ownership
+  type: text
+  card: 1..1
+- name: bodies
+  type: reference(governance-body)
+  card: 1..*
+- name: duties
+  type: text
+  card: 1..*
+- name: adopted-on
+  type: date
+  card: 1..1
+states:
+- draft
+- in-force
+- under-revision
+relations: []
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

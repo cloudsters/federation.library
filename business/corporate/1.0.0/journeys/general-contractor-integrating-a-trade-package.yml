@@ -1,0 +1,32 @@
+kind: journey
+slug: general-contractor-integrating-a-trade-package
+title: General Contractor Integrating a Trade Package
+stakeholder: general-contractor
+summary: A general contractor receives the company's package into its overall plan, coordinates interfaces on site, settles changes
+  and accepts the package into the whole.
+stages:
+- slug: receive-the-package
+  title: Receive the Package
+  goal: The package's scope, interfaces and schedule fit the overall plan from the start.
+  step: customer-project-delivery/project-set-up
+  touchpoints:
+  - project-kick-off
+  - project-plan
+- slug: coordinate-the-interfaces
+  title: Coordinate the Interfaces
+  goal: Access, sequence and interfaces with other trades are agreed and kept.
+  step: customer-project-delivery/installation-and-implementation
+  touchpoints:
+  - site-coordination-meeting
+- slug: settle-changes
+  title: Settle Changes
+  goal: Changes are priced and agreed before they are carried out.
+  step: customer-project-delivery/progress-cost-and-change-control
+  touchpoints:
+  - change-order
+- slug: accept-the-package
+  title: Accept the Package
+  goal: The package is accepted with its documentation and a list of open defects.
+  step: customer-project-delivery/acceptance-and-handover
+  touchpoints:
+  - acceptance-certificate

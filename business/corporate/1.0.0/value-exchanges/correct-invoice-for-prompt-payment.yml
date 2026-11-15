@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: correct-invoice-for-prompt-payment
+title: Correct Invoice for Prompt Payment
+between:
+- finance-professional
+- business-customer
+offered:
+- Correct invoices on time, in the structured form the customer's systems can process.
+returned:
+- Payment on the agreed terms without avoidable queries.
+touchpoint: customer-portal

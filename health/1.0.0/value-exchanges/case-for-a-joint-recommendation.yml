@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: case-for-a-joint-recommendation
+title: Case for a Joint Recommendation
+between:
+- referring-hospital
+- specialist-physician
+offered:
+- A prepared case with complete records and images, and the local team's presence in the discussion.
+returned:
+- A documented recommendation from every discipline, suitable trials, and treatment close to home wherever the recommendation allows.
+touchpoint: multidisciplinary-case-conference

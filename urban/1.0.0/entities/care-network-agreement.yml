@@ -1,0 +1,67 @@
+kind: entity
+slug: care-network-agreement
+title: Care Network Agreement
+type: governance
+summary: The agreement among the hospitals, clinics, social services, care providers and community bodies of a district on how they
+  share information, refer people and answer together for those they serve. Its members sign it and the city records it, and it is
+  reviewed after each care gap review.
+attributes:
+- name: district
+  type: reference(neighbourhood)
+  card: 1..*
+- name: members
+  type: text
+  card: 1..*
+- name: request-point
+  type: text
+  card: 1..1
+- name: information-sharing-terms
+  type: text
+  card: 1..1
+- name: data-sharing
+  type: reference(data-sharing-agreement)
+  card: 0..*
+- name: referral-routes
+  type: text
+  card: 1..*
+- name: joint-responsibilities
+  type: text
+  card: 1..*
+- name: signed-on
+  type: date
+  card: 1..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: last-gap-review
+  type: reference(service-review-report)
+  card: 0..1
+- name: agreement-text
+  type: document
+  card: 1..1
+states:
+- drafted
+- negotiated
+- signed
+- in-force
+- reviewed
+- amended
+- ended
+relations:
+- type: refers-to
+  target: hospital
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: data-sharing-agreement
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: service-review-report
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

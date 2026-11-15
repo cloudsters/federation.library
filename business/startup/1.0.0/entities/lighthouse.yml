@@ -1,0 +1,34 @@
+kind: entity
+slug: lighthouse
+title: Lighthouse
+type: transactional
+summary: A reference case — an engagement briefing that shows how the commons model applies to a specific organisation, sector, or
+  challenge. Each lighthouse is an open invitation to explore.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: subject-organisation
+  type: reference(counterparty)
+  card: 0..1
+- name: value-creation-reading
+  type: document
+  card: 1..1
+- name: path-to-model
+  type: document
+  card: 0..1
+- name: audience
+  type: code
+  card: 0..1
+states:
+- researched
+- composed
+- reviewed
+- presented
+- iterated
+- published
+relations:
+- type: refers-to
+  target: business-model
+- type: refers-to
+  target: value-stream

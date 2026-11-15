@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: retention-review-report
+title: Retention Review Report
+medium: artefact
+summary: The report on who leaves, from which teams and why, and whether pay is fair across groups, with the measures agreed with
+  staff representatives.
+exchanges:
+- reasons-for-leaving-for-changed-conditions
+- retention-findings-for-council-decisions
+- team-reading-for-agreed-measures
+journey: staff-representative-fixing-why-people-leave

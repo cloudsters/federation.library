@@ -1,0 +1,8 @@
+kind: capability
+slug: degraded-mode-governance
+title: Degraded-Mode Operations & Recovery Governance
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Maintain essential commons functions when infrastructure fails — not perfectly but adequately. The commons that has no degraded-mode
+  profile is not resilient, merely fortunate. Pre-defined capability levels, automatic downgrade protocols, and governance of which
+  functions are essential enough to maintain at any cost.

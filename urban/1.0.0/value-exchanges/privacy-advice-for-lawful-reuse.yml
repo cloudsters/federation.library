@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: privacy-advice-for-lawful-reuse
+title: Privacy Advice for Lawful Reuse
+between:
+- data-protection-officer
+- information-technology-specialist
+offered:
+- Advice on which data may be reused, on which consent and for how long.
+returned:
+- Reuse built only as advised, with each use logged where the resident and the officer can see it.
+touchpoint: data-reuse-consent-prompt

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contracted-service-feedback-channel
+title: Contracted Service Feedback Channel
+medium: channel
+summary: The channel, online, by telephone and at the place of service, through which residents and staff who use a contracted service
+  give their view of it.
+exchanges:
+- user-views-for-a-better-contracted-service
+journey: contract-manager-running-a-contract

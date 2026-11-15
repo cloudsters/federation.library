@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-role-terms
+title: Published Role Terms
+medium: artefact
+summary: The published list of roles that gather power or wear people out, with their fixed terms, the dates of rotation and the period
+  of rest before a person may hold them again.
+exchanges:
+- fixed-terms-for-roles-that-do-not-wear-out
+- role-review-for-supported-succession
+journey: neighbourhood-association-rotating-its-roles

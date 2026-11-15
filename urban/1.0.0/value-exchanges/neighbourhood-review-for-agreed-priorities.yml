@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-review-for-agreed-priorities
+title: Neighbourhood Review for Agreed Priorities
+between:
+- neighbourhood-association
+- asset-officer
+offered:
+- The association's review of the draft ranking and the needs residents add to it.
+returned:
+- Agreed renewal priorities recorded in the asset plan, with the reasons for each change.
+touchpoint: renewal-ranking-session

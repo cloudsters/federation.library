@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: agent-review-session
+title: Agent Review Session
+medium: encounter
+summary: The review at fixed intervals of an agent's results, errors, bias, drift and the challenges raised, with the overseer, staff
+  and residents affected.
+exchanges:
+- challenges-for-a-corrected-agent
+- results-record-for-a-reviewed-mandate
+journey: municipal-ai-agent-serving-a-fixed-term

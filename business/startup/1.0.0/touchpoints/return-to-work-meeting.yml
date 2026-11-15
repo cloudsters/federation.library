@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: return-to-work-meeting
+title: Return-to-Work Meeting
+medium: encounter
+summary: The meeting in which a returning employee and the manager agree adapted duties, hours and support after leave, illness or
+  injury.
+exchanges:
+- secured-place-for-a-planned-return
+journey: employee-returning-after-leave-or-illness

@@ -1,0 +1,54 @@
+kind: entity
+slug: safety-statistics
+title: Safety Statistics
+type: intelligence
+summary: Data on collisions, crime, fires and emergency responses by place, time and who was harmed. The safety office compiles them
+  from emergency calls, responses and reports, beside the places residents named as unsafe on their walks, and uses them to place
+  street schemes and review the community safety plans.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: reference-period
+  type: period
+  card: 1..1
+- name: incident-kinds
+  type: code
+  card: 1..*
+- name: breakdowns
+  type: code
+  card: 1..*
+- name: incident-counts
+  type: document
+  card: 1..1
+- name: response-times
+  type: document
+  card: 0..1
+- name: places-named-unsafe
+  type: text
+  card: 0..*
+- name: sources
+  type: text
+  card: 1..*
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: known-gaps
+  type: text
+  card: 0..*
+states:
+- collected
+- validated
+- published
+- superseded
+relations:
+- type: based-on
+  target: emergency-call
+- type: based-on
+  target: emergency-response
+- type: refers-to
+  target: street
+- type: refers-to
+  target: public-space
+- type: refers-to
+  target: neighbourhood

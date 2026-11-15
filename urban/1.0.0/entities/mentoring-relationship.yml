@@ -1,0 +1,63 @@
+kind: entity
+slug: mentoring-relationship
+title: Mentoring Relationship
+type: transactional
+summary: The pairing of a learner, a new member of staff or a successor with an experienced worker or an elder, with its scope, duration
+  and what each gives and receives. The body that arranges it, the personnel function or the apprenticeship pool, records it, and
+  it is used to pay the mentor for teaching time and to follow how the learning goes.
+attributes:
+- name: mentor-name
+  type: text
+  card: 1..1
+- name: learner-name
+  type: text
+  card: 1..1
+- name: purpose
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: duration
+  type: period
+  card: 1..1
+- name: hours-per-month
+  type: quantity
+  card: 0..1
+- name: mentor-pay
+  type: amount
+  card: 0..1
+- name: what-each-gives
+  type: text
+  card: 0..*
+- name: apprenticeship
+  type: reference(apprenticeship)
+  card: 0..1
+- name: succession-plan
+  type: reference(succession-plan)
+  card: 0..1
+states:
+- proposed
+- agreed
+- active
+- reviewed
+- completed
+- ended-early
+relations:
+- type: refers-to
+  target: apprenticeship
+- type: refers-to
+  target: succession-plan
+- type: refers-to
+  target: induction-plan
+- type: refers-to
+  target: business-succession-plan
+- type: produces
+  target: payment
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global

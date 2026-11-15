@@ -1,0 +1,66 @@
+kind: entity
+slug: renewal-scheme
+title: Renewal Scheme
+type: transactional
+summary: The coordinated renewal of the ageing streets, pipes, lighting, trees and buildings of a neighbourhood, with its scope, stages,
+  operators and the agreements made with residents. The asset office carries it within a capital project, checks that it does not
+  displace those who live there, and closes it when the renewed assets are handed over.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: assets-renewed
+  type: reference(infrastructure-asset)
+  card: 1..*
+- name: options-weighed
+  type: text
+  card: 1..*
+- name: scope
+  type: text
+  card: 1..1
+- name: stages
+  type: text
+  card: 1..*
+- name: operators-involved
+  type: text
+  card: 0..*
+- name: resident-agreements
+  type: document
+  card: 0..*
+- name: displacement-safeguards
+  type: text
+  card: 0..*
+- name: capital-project
+  type: reference(capital-project)
+  card: 1..1
+- name: handed-over-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- appraised
+- agreed
+- in-delivery
+- handed-over
+- closed
+relations:
+- type: part-of
+  target: capital-project
+- type: based-on
+  target: asset-plan
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: infrastructure-asset
+- type: produces
+  target: handover-record
+binds:
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global

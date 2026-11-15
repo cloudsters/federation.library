@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: point-of-care-store
+title: Point-of-Care Store
+medium: place
+summary: The stock room or cabinet on a ward, in a theatre or a procedure area from which staff take consumables, implants and ward-stock
+  medicines, replenished by logistics and pharmacy staff.
+exchanges:
+- order-request-for-timely-delivery
+- stock-signals-for-full-shelves
+- consignment-stock-for-use-reports
+- early-warning-for-fair-allocation
+- ward-stock-service-for-storage-discipline
+journey: keeping-the-ward-supplied

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: neighbourhood-futures-for-a-place-in-the-scenarios
+title: Neighbourhood Futures for a Place in the Scenarios
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The futures the neighbourhood imagines and discusses in its visioning circle.
+returned:
+- Support to run the circle, and its futures carried into the scenarios under its name.
+touchpoint: neighbourhood-visioning-session

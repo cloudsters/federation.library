@@ -1,0 +1,10 @@
+kind: capability
+slug: deployment-strategy
+title: Deployment Strategy
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Plan how changes are deployed, communicated and supported in the units.
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

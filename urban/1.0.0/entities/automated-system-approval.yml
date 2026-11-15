@@ -1,0 +1,66 @@
+kind: entity
+slug: automated-system-approval
+title: Automated System Approval
+type: governance
+summary: The approval of an automated system for a stated use, with its published sunset date, the named person who answers for it,
+  the human review it requires and the rhythm at which it must report. The accountable department holds it in the register of automated
+  systems, the supplier contract gives the city the rights to inspect the system and end its use, and it is used to monitor, suspend,
+  reauthorise or withdraw the system.
+attributes:
+- name: system
+  type: reference(automated-system-register)
+  card: 1..1
+- name: authorisation
+  type: reference(community-authorisation)
+  card: 1..1
+- name: approved-use
+  type: text
+  card: 1..1
+- name: accountable-person
+  type: text
+  card: 1..1
+- name: accountable-department
+  type: reference(department)
+  card: 1..1
+- name: human-review-required
+  type: text
+  card: 1..1
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: sunset-date
+  type: date
+  card: 1..1
+- name: conditions
+  type: text
+  card: 0..*
+- name: supplier-contract
+  type: reference(contract)
+  card: 0..1
+- name: inspection-right
+  type: boolean
+  card: 1..1
+- name: termination-right
+  type: boolean
+  card: 1..1
+states:
+- approved
+- published
+- in-force
+- suspended
+- renewed
+- expired
+- withdrawn
+relations:
+- type: based-on
+  target: community-authorisation
+- type: based-on
+  target: algorithmic-impact-assessment
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: contract
+- type: governed-by
+  target: decision-rights-register
+- type: produces
+  target: public-record

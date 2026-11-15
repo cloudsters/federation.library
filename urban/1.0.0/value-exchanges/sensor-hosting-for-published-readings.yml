@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: sensor-hosting-for-published-readings
+title: Sensor Hosting for Published Readings
+between:
+- affected-community
+- environmental-health-officer
+offered:
+- Residents hosting and tending sensors on their windows, walls and streets.
+returned:
+- Readings of air, noise and heat published as they come in, starting where exposure is worst.
+touchpoint: neighbourhood-air-sensor

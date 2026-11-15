@@ -1,0 +1,166 @@
+kind: value-stream
+slug: centre-development
+title: Centre Development
+family: purpose-to-portfolio
+summary: Building interdisciplinary centres that concentrate expertise around a disease group or patient population, such as cancer,
+  cardiovascular or transplant centres, from concept and structure to recognised performance.
+trigger: The portfolio identifies a clinical focus that needs cross-departmental organisation, or an existing centre falls short of
+  its requirements.
+outcome: The centre operates with defined structure, leadership, pathways and performance targets and meets the requirements for its
+  recognition.
+stakeholders:
+- executive
+- head-of-clinical-department
+- specialist-physician
+- advanced-practice-nurse
+- clinician-scientist
+- certification-body
+- referring-hospital
+- patient-organisation
+- person-with-cancer
+- person-with-rare-disease
+- highly-specialised-care-patient
+steps:
+- slug: centre-proposal
+  title: Centre Proposal
+  summary: A clinical focus that needs cross-departmental organisation is described with its patient population, participating departments,
+    case volume, research strength and the recognition it seeks.
+  capabilities:
+  - centre-formation
+  - clinical-focus-positioning
+  - demand-and-market-analysis
+  - internal-capability-sensing
+  entities:
+  - organisation-unit
+  - care-service
+  - catchment-population
+  serves:
+  - business-case
+  - performance-dialogue
+- slug: centre-commitment
+  title: Centre Commitment
+  summary: The board approves the centre concept and business case, appoints its lead and commits resources and a timeline for recognition.
+  capabilities:
+  - service-business-case
+  - clinical-leadership-structure
+  - delegation-of-authority
+  - planning-and-budgeting
+  entities:
+  - governance-decision
+  - organisation-unit
+  - budget
+  serves:
+  - board-meeting
+- slug: requirements-gap-assessment
+  title: Requirements Gap Assessment
+  summary: 'The centre''s present state is assessed against the requirements for recognition: case volumes, specialist staffing, case
+    conferences, pathways, outcome indicators, research and network participation.'
+  capabilities:
+  - centre-certification
+  - quality-requirements
+  - service-group-qualification
+  - specialist-qualification-verification
+  - clinical-outcome-tracking
+  entities:
+  - accreditation
+  - volume-threshold
+  - staffing-standard
+  - measure-report
+  serves:
+  - centre-manual
+  - centre-steering-meeting
+- slug: centre-structure-design
+  title: Centre Structure Design
+  summary: The centre's leadership, participating units, internal and external partners, coordinating roles and decision rules are
+    designed and fixed in cooperation agreements.
+  capabilities:
+  - organisation-design
+  - network-partnership-governance
+  - skill-mix-design
+  - advanced-nursing-practice
+  - contract-lifecycle-stewardship
+  - academic-partnership-management
+  entities:
+  - organisation-unit
+  - care-team
+  - contract
+  - care-network
+  - network-membership
+  serves:
+  - centre-steering-meeting
+  - cooperation-agreement
+- slug: pathway-and-case-conference-build
+  title: Pathway and Case Conference Build
+  summary: Interdisciplinary pathways, case conferences, standard procedures, trial screening and registry documentation are built
+    so that every patient of the centre receives agreed and measured care.
+  capabilities:
+  - clinical-pathway-design
+  - guideline-adoption
+  - interdisciplinary-consultation
+  - clinical-standard-operating-procedures
+  - trial-participant-recruitment
+  - clinical-registry-participation
+  - quality-indicator-governance
+  - patient-reported-outcome-measurement
+  entities:
+  - care-pathway
+  - clinical-guideline
+  - policy
+  - clinical-registry
+  - measure
+  serves:
+  - centre-manual
+  - multidisciplinary-case-conference
+  - telemedicine-service
+- slug: centre-launch
+  title: Centre Launch
+  summary: Staff, space, equipment, systems and billing are made ready, and the centre is introduced to referrers, patients and the
+    public with its routes of access.
+  capabilities:
+  - service-launch-readiness
+  - change-implementation
+  - brand-management
+  - referrer-relationship-management
+  - website-cms-management
+  entities:
+  - care-service
+  - organisation-unit
+  - referral-relationship
+  serves:
+  - public-website
+  - referrer-forum
+  - referrer-portal
+- slug: performance-review-and-recognition
+  title: Performance Review and Recognition
+  summary: The centre's volumes, outcomes and pathway adherence are reviewed against its targets, an external audit tests it against
+    the requirements, and findings are corrected until recognition is granted and renewed.
+  capabilities:
+  - centre-certification
+  - quality-performance-evaluation
+  - non-conformance-management
+  - outcome-benchmarking
+  - quality-transparency-communication
+  - patient-and-public-involvement
+  entities:
+  - accreditation
+  - audit
+  - audit-finding
+  - corrective-action
+  - measure-report
+  serves:
+  - centre-manual
+  - centre-steering-meeting
+  - inspection-and-audit
+  - patient-advisory-council
+  - public-quality-report
+  - public-website
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: handover-dossier
+title: Handover Dossier
+medium: artefact
+summary: 'The documented handover of a role: responsibilities, open matters, patients or projects, key contacts, documents, access
+  rights and equipment, confirmed by the successor.'
+exchanges:
+- knowledge-handover-for-recognition
+journey: handing-on-the-department

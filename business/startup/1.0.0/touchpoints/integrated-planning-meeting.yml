@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: integrated-planning-meeting
+title: Integrated Planning Meeting
+medium: encounter
+summary: The recurring meeting in which sales, operations, procurement and finance reconcile demand, supply, capacity, stock and money,
+  leadership decides the trade-offs and one plan is released.
+exchanges:
+- plan-proposals-for-clear-boundaries
+journey: leadership-agreeing-one-plan

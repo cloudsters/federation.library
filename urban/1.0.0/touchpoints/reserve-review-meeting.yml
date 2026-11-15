@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: reserve-review-meeting
+title: Reserve Review Meeting
+medium: encounter
+summary: The yearly meeting, and the meeting after every disruption, in which the city, the neighbourhood places and suppliers review
+  whether the levels held, rotation worked and dependencies fell.
+exchanges:
+- disruption-lessons-for-updated-levels
+journey: neighbourhood-association-keeping-a-reserve

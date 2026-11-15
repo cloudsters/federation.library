@@ -1,0 +1,17 @@
+kind: touchpoint
+slug: inspection-and-audit
+title: Inspection and Audit
+medium: encounter
+summary: The visit by a regulator, a payer's review service or a certification body that checks care, records and structures
+  against requirements.
+exchanges:
+- safety-case-for-operating-permit
+- validated-reprocessing-for-inspection-confidence
+- conformity-evidence-for-certification
+- network-evidence-for-certification
+- cooperation-with-external-review
+- demonstrated-lawfulness
+- security-evidence-for-supervision
+- centre-recognition
+- record-evidence-for-review-settlement
+journey: regulator-supervising-lawfulness

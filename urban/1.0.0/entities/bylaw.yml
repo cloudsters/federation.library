@@ -1,0 +1,56 @@
+kind: entity
+slug: bylaw
+title: Bylaw
+type: governance
+summary: A local rule adopted by the council within the statutory local-government framework, written in plain language and tested
+  against the charter and higher law. The legal office drafts and reviews it on schedule, and permits and procedures that only gate
+  residents are simplified or removed through it.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: rule-text
+  type: document
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: permits-and-procedures
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- approved
+- in-force
+- under-review
+- amended
+- repealed
+relations:
+- type: based-on
+  target: city-charter
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: city-constitution
+- type: refers-to
+  target: obligation-register

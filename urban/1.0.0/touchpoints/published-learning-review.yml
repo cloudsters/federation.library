@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-learning-review
+title: Published Learning Review
+medium: artefact
+summary: The published review of adult learning in each neighbourhood, with who took part and who did not, what it changed and how
+  the offer will change.
+exchanges:
+- learner-account-for-a-changed-offer
+journey: older-resident-teaching-and-learning-among-neighbours

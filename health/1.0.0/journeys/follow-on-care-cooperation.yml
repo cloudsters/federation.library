@@ -1,0 +1,40 @@
+kind: journey
+slug: follow-on-care-cooperation
+title: Follow-On Care Cooperation
+stakeholder: follow-on-care-provider
+summary: 'The side of a rehabilitation, nursing or home care provider that takes over patients from the commons under an agreement:
+  agreeing the terms, receiving prepared patients and reviewing the cooperation.'
+stages:
+- slug: agreeing-the-patient-groups
+  title: Agreeing the Patient Groups
+  goal: Agree which patients the provider takes, with how much notice and with which information.
+  step: care-partnerships-and-networks/cooperation-design
+  touchpoints:
+  - cooperation-negotiation
+- slug: signing-the-agreement
+  title: Signing the Agreement
+  goal: Hold an agreement that states reserved places, notice periods and contacts on both sides.
+  step: care-partnerships-and-networks/agreement-and-network-admission
+  touchpoints:
+  - cooperation-agreement
+- slug: getting-connected
+  title: Getting Connected
+  goal: Receive transfer information electronically and know the commons' pathways for the patients concerned.
+  step: care-partnerships-and-networks/cooperation-set-up
+  touchpoints:
+  - clinical-messaging-service
+  - referrer-education-event
+- slug: receiving-patients
+  title: Receiving Patients
+  goal: Receive notice before discharge, complete transfer information and a contact for questions after transfer.
+  step: care-partnerships-and-networks/joint-care-operation
+  touchpoints:
+  - discharge-planning-meeting
+  - discharge-letter
+  - medication-plan
+- slug: reviewing-the-cooperation
+  title: Reviewing the Cooperation
+  goal: Review with the commons how transferred patients fared and whether notice and information met the agreement.
+  step: care-partnerships-and-networks/partnership-value-review
+  touchpoints:
+  - partnership-review-meeting

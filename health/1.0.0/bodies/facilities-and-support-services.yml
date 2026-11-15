@@ -1,0 +1,14 @@
+kind: body
+slug: facilities-and-support-services
+title: Facilities and Support Services
+summary: 'Builds and runs the estate and the services within it: property strategy and construction, building services and
+  maintenance, security, energy and sustainability, sterile processing, catering, cleaning, linen, patient transport and mortuary.'
+holds:
+- estate-development
+- facility-operations
+- environmental-sustainability
+- sterile-processing
+- hospitality-and-support-services
+part_of: executive-board
+type: function
+form: organisational-unit

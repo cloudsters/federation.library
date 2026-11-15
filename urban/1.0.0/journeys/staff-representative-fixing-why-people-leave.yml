@@ -1,0 +1,34 @@
+kind: journey
+slug: staff-representative-fixing-why-people-leave
+title: Staff Representative Fixing Why People Leave
+stakeholder: staff-representative
+summary: A staff representative reads the wellbeing picture team by team, agrees caps and rest in the team agreements, resolves grievances
+  by changing how the work is organised and reviews with the personnel function who leaves, from which teams and why.
+stages:
+- slug: read-the-picture-by-team
+  title: Read the Picture by Team
+  goal: The representative sees where workload and burnout gather, with no individual named.
+  step: staff-wellbeing-and-retention/wellbeing-sensing
+  touchpoints:
+  - team-wellbeing-report
+- slug: agree-caps-and-rest
+  title: Agree Caps and Rest
+  goal: Workload caps, rest after demanding roles and hours set around care are written into the team agreements.
+  step: staff-wellbeing-and-retention/burnout-prevention
+  touchpoints:
+  - team-agreement
+- slug: fix-the-cause
+  title: Fix the Cause
+  goal: Each grievance is resolved with the representative present, and its cause is changed where the work is organised.
+  step: staff-wellbeing-and-retention/grievance-handling
+  touchpoints:
+  - grievance-hearing
+- slug: review-who-leaves
+  title: Review Who Leaves
+  goal: Who leaves, from which teams and why, and whether pay is fair across groups are reviewed, and the measures agreed are reported
+    to the council.
+  step: staff-wellbeing-and-retention/retention-review
+  touchpoints:
+  - exit-conversation
+  - retention-review-report
+  - personnel-committee-meeting

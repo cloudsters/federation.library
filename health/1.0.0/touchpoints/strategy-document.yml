@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: strategy-document
+title: Strategy Document
+medium: artefact
+summary: The adopted statement of vision, priorities, objectives, business model and target structure that the board hands to every
+  unit and partner as the reference for their own plans.
+exchanges:
+- strategy-approval
+- public-account-of-strategy
+journey: owner-strategy-journey

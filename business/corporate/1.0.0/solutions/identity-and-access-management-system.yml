@@ -1,0 +1,17 @@
+kind: solution
+slug: identity-and-access-management-system
+title: Identity and Access Management System
+role: system-of-record
+summary: Holds the digital identities of staff, customers, partners, devices and agents, authenticates them and grants, reviews and
+  withdraws their access rights.
+carries:
+- identity-access-management
+- portable-identity-and-rights
+holds:
+- identity
+- identity-stack
+- access-grant
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global

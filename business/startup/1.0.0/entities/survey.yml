@@ -1,0 +1,29 @@
+kind: entity
+slug: survey
+title: Survey
+type: intelligence
+summary: A structured invitation to speak — the system asking its participants what they think, feel, and need, with the humility
+  to listen and the courage to act on what it hears.
+attributes:
+- name: questions
+  type: document
+  card: 1..1
+- name: response-types
+  type: code
+  card: 1..*
+- name: audience
+  type: code
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: scored
+  type: boolean
+  card: 0..1
+states:
+- designed
+- distributed
+- collecting
+- closed
+- analysed
+relations: []

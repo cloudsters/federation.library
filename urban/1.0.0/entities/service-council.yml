@@ -1,0 +1,57 @@
+kind: entity
+slug: service-council
+title: Service Council
+type: master
+summary: A standing council of the residents who use a public service and the staff who deliver it, with its members, mandate and
+  the standards it sets. The department delivering the service keeps its record together with the council's own secretary, and it
+  is used to shape how the service is delivered and to show residents who sets its standards.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: mandate
+  type: text
+  card: 1..1
+- name: user-members
+  type: text
+  card: 1..*
+- name: staff-members
+  type: text
+  card: 1..*
+- name: term
+  type: period
+  card: 0..1
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: standards-set
+  type: text
+  card: 0..*
+- name: meeting-schedule
+  type: text
+  card: 0..1
+- name: member-compensation
+  type: amount
+  card: 0..1
+- name: established-by
+  type: reference(council-decision)
+  card: 0..1
+states:
+- proposed
+- constituted
+- sitting
+- renewed
+- suspended
+- dissolved
+relations:
+- type: assigned-to
+  target: public-service
+- type: governed-by
+  target: participation-charter
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: department

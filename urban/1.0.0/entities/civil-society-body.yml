@@ -1,0 +1,59 @@
+kind: entity
+slug: civil-society-body
+title: Civil-Society Body
+type: master
+summary: An association, cooperative, charity or other civil-society body active in the city, with its purpose, members, those it
+  serves and its relationship with the city. The organisation describes itself and the city records it in its civil-society directory,
+  and it is used to consult, fund and partner with it on published terms.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: registration-number
+  type: identifier
+  card: 0..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: groups-served
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: relationship-with-city
+  type: code
+  card: 0..*
+- name: funding-sources
+  type: text
+  card: 0..*
+- name: community-grants
+  type: reference(community-grant)
+  card: 0..*
+- name: contact
+  type: text
+  card: 1..1
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- founded
+- registered
+- active
+- dormant
+- dissolved
+relations:
+- type: refers-to
+  target: civil-society-directory
+- type: governed-by
+  target: partnership-compact
+- type: refers-to
+  target: community-grant
+- type: part-of
+  target: civic-coalition

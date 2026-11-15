@@ -1,0 +1,34 @@
+kind: journey
+slug: an-alliance-kept
+title: An Alliance Kept
+stakeholder: collaborator
+via: source-to-alliance
+summary: A collaborator who keeps coming back is asked what they need, agrees terms that protect both, is kept faith with between
+  deals and talks a disagreement through before anyone reaches for the contract.
+stages:
+- slug: be-asked-what-i-need
+  title: Be Asked What I Need
+  goal: The collaborator has been asked what they are trying to achieve and what would make the exchange worth defending.
+  step: exchange-to-alliance/learning-what-the-other-needs
+  touchpoints:
+  - client-meeting
+  - coffee-catch-up
+- slug: agree-fair-terms
+  title: Agree Fair Terms
+  goal: Terms are set so both gain, neither carries hidden risk, and what happens when things go wrong is said in advance.
+  step: exchange-to-alliance/agreeing-fair-terms
+  touchpoints:
+  - work-agreement
+- slug: be-kept-faith-with
+  title: Be Kept Faith With
+  goal: Between deals the collaborator has had a call, a referral or a favour, and promises kept on time.
+  step: exchange-to-alliance/keeping-faith-between-deals
+  touchpoints:
+  - coffee-catch-up
+  - a-gift-given
+- slug: weather-a-disagreement
+  title: Weather a Disagreement
+  goal: A failed delivery or a disputed price has been talked through before the contract was reached for.
+  step: exchange-to-alliance/weathering-a-disagreement
+  touchpoints:
+  - hard-conversation

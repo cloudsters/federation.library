@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: clinical-messaging-service
+title: Clinical Messaging Service
+medium: channel
+summary: The secure electronic channel through which letters, findings and images are exchanged between the commons and other providers.
+exchanges:
+- complete-referral-for-a-timely-decision
+- clinic-letter-for-continued-care
+- complete-handover-for-continuation-without-gap
+- discharge-letter-for-continued-care
+- referral-data-for-coded-findings
+- connection-readiness-for-electronic-transfer
+- remote-image-reading
+- shared-care-partnership
+journey: referring-practice-exchanging-patient-information

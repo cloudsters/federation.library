@@ -1,0 +1,40 @@
+kind: entity
+slug: shift-assignment
+title: Shift Assignment
+type: transactional
+summary: One person's assignment to one shift or on-call duty in a unit, with role and qualification, changed by swaps and short-notice
+  cover and confirmed by the time actually worked.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: roster
+  type: reference(roster)
+  card: 1..1
+- name: shift-kind
+  type: code
+  card: 1..1
+- name: shift-period
+  type: period
+  card: 1..1
+- name: role
+  type: code
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 0..1
+states:
+- planned
+- confirmed
+- swapped
+- worked
+- absent
+relations:
+- type: part-of
+  target: roster
+- type: produces
+  target: working-time-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

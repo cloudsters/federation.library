@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: described-tasks-for-offered-time
+title: Described Tasks for Offered Time
+between:
+- civil-society-organisation
+- volunteer
+offered:
+- Tasks described with their purpose, place, time, the skills needed and the checks required.
+returned:
+- Volunteers who offer their time.
+touchpoint: volunteering-opportunities-board

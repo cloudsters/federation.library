@@ -1,0 +1,50 @@
+kind: journey
+slug: answering-a-question-from-data
+title: Answering a Question from Data
+stakeholder: research-scientist
+summary: The researcher's path from a question to published results and data left ready for others to reuse.
+stages:
+- slug: framing-the-question
+  title: Framing the Question
+  goal: Turn a question into a protocol whose data needs can actually be met.
+  step: observational-and-data-driven-research/research-question-and-protocol
+  touchpoints:
+  - research-data-portal
+  - study-protocol
+- slug: obtaining-access
+  title: Obtaining Access
+  goal: Obtain approvals and data access within weeks, with clear conditions.
+  step: observational-and-data-driven-research/approvals-and-data-access
+  touchpoints:
+  - research-submission-portal
+  - data-use-and-access-committee
+- slug: receiving-the-data
+  title: Receiving the Data
+  goal: Receive the agreed data, linked and pseudonymised, with known quality.
+  step: observational-and-data-driven-research/data-acquisition
+  touchpoints:
+  - research-data-portal
+- slug: preparing-the-data
+  title: Preparing the Data
+  goal: Work with data whose meaning and origin are clear for every variable.
+  step: observational-and-data-driven-research/data-preparation
+  touchpoints:
+  - secure-processing-environment
+- slug: analysing
+  title: Analysing
+  goal: Analyse with sound methods and, where needed, with partner sites' data without moving it.
+  step: observational-and-data-driven-research/analysis
+  touchpoints:
+  - secure-processing-environment
+- slug: publishing
+  title: Publishing
+  goal: Publish the findings and see them reach practice.
+  step: observational-and-data-driven-research/publication-and-use-of-results
+  touchpoints:
+  - scientific-publication
+- slug: handing-back-the-data
+  title: Handing Back the Data
+  goal: Leave data and code so that others can reproduce and build on the work.
+  step: observational-and-data-driven-research/data-documentation-for-reuse
+  touchpoints:
+  - research-data-portal

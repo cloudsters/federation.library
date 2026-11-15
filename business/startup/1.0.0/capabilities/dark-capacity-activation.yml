@@ -1,0 +1,9 @@
+kind: capability
+slug: dark-capacity-activation
+title: Dark Capacity Activation
+level: L3
+parent: commons-network-exchange
+summary: Sense idle resources that are too small or too transient to appear in any catalogue — an employee’s free Friday afternoon,
+  an underutilised server, 50 kWh of overnight solar surplus, a conference room empty until 3pm — and activate them as micro-intent
+  broadcasts into the federated network. Dark capacity is the long tail of value that platform economics cannot reach because the
+  transaction cost exceeds the value. In the intent fabric, the transaction cost approaches zero.

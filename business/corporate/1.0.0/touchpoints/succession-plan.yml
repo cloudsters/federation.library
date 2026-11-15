@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: succession-plan
+title: Succession Plan
+medium: artefact
+summary: The plan of key roles, the knowledge they hold, the risk of their vacancy and the named successors with their readiness.
+exchanges:
+- honest-readiness-for-confirmed-succession
+journey: manager-handing-a-key-role-to-a-successor

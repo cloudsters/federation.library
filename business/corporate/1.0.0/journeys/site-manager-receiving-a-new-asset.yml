@@ -1,0 +1,33 @@
+kind: journey
+slug: site-manager-receiving-a-new-asset
+title: Site Manager Receiving a New Asset
+stakeholder: site-manager
+summary: A site manager states what a new asset must do, reviews its design for the people who will run and maintain it, accepts it
+  after commissioning and takes it into service.
+stages:
+- slug: state-requirements
+  title: State Requirements
+  goal: The users' and operators' requirements, lifecycle targets and budget are stated and approved.
+  step: asset-creation-design/asset-requirements-and-approval
+  touchpoints:
+  - investment-proposal
+- slug: review-the-design
+  title: Review the Design
+  goal: The design is reviewed for durability, maintainability, energy use and end of life, alongside cost.
+  step: asset-creation-design/asset-design
+  touchpoints:
+  - design-review
+- slug: accept-the-asset
+  title: Accept the Asset
+  goal: The asset is tested and accepted with its documentation and a list of open defects.
+  step: asset-creation-design/commissioning-and-acceptance
+  touchpoints:
+  - installation-and-commissioning
+  - acceptance-certificate
+- slug: take-it-into-service
+  title: Take It into Service
+  goal: The asset is registered and handed to operation and maintenance, and open defects are followed until closed.
+  step: asset-creation-design/handover-into-service
+  touchpoints:
+  - asset-register
+  - open-defect-list

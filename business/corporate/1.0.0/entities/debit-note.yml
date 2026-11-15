@@ -1,0 +1,47 @@
+kind: entity
+slug: debit-note
+title: Debit Note
+type: transactional
+summary: A correction in the organisation's favour — a financial adjustment that increases what a supplier owes back, typically triggered
+  by quality or quantity discrepancies.
+attributes:
+- name: number
+  type: identifier
+  card: 1..1
+- name: debit-date
+  type: date
+  card: 1..1
+- name: original-invoice
+  type: reference(purchase-invoice)
+  card: 1..1
+- name: lines
+  type: text
+  card: 1..*
+- name: amount
+  type: amount
+  card: 1..1
+- name: cause
+  type: code
+  card: 1..1
+- name: evidence
+  type: reference(quality-inspection)
+  card: 0..1
+states:
+- draft
+- posted
+- applied
+- refunded
+relations:
+- type: based-on
+  target: purchase-invoice
+- type: refers-to
+  target: quality-inspection
+- type: refers-to
+  target: purchase-receipt
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

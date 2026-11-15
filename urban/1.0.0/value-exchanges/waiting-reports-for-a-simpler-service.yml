@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: waiting-reports-for-a-simpler-service
+title: Waiting Reports for a Simpler Service
+between:
+- resident
+- city-administration
+offered:
+- Residents' account of where a service makes them wait, repeat themselves or give up, and their time to redesign it.
+returned:
+- A service with fewer steps and a record of which of their points changed it.
+touchpoint: improvement-idea-channel

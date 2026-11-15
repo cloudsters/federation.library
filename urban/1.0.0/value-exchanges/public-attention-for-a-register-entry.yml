@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: public-attention-for-a-register-entry
+title: Public Attention for a Register Entry
+between:
+- resident
+- city-administration
+offered:
+- Residents' attention and questions on the systems that touch their lives.
+returned:
+- A public entry for each system with its purpose, data, term and the person who answers for it.
+touchpoint: automated-system-register-entry

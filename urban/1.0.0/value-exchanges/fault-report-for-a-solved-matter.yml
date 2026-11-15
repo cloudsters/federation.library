@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: fault-report-for-a-solved-matter
+title: Fault Report for a Solved Matter
+between:
+- resident
+- city-administration
+offered:
+- A report of a fault or a request, through the channel the resident can use.
+returned:
+- The matter solved within the agreed level, and notice of when and how.
+touchpoint: digital-service-desk

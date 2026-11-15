@@ -1,0 +1,42 @@
+kind: entity
+slug: improvement-suggestion
+title: Improvement Suggestion
+type: transactional
+summary: An idea for improving work, products or service submitted by a member of staff, a customer or a partner, assessed by the
+  owner of the process concerned, decided, answered and, if adopted, implemented and recognised.
+attributes:
+- name: submitter-kind
+  type: code
+  card: 1..1
+- name: submitter
+  type: reference(employee-record)
+  card: 0..1
+- name: description
+  type: text
+  card: 1..1
+- name: concerned-unit
+  type: reference(department)
+  card: 1..1
+- name: submitted-at
+  type: datetime
+  card: 1..1
+- name: assessment
+  type: text
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: recognition
+  type: text
+  card: 0..1
+states:
+- submitted
+- under-assessment
+- adopted
+- declined
+- implemented
+relations:
+- type: assigned-to
+  target: department
+- type: produces
+  target: initiative

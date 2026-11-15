@@ -1,0 +1,106 @@
+kind: value-stream
+slug: regenerative-practice
+title: Regenerative Practice
+family: collaboration-to-automation
+summary: 'Making sustainability part of how work is designed and decided: material topics and the footprint are established, regenerative
+  goals are set, recurring patterns of work are redesigned to give back more than they draw, and progress is reported.'
+trigger: The sustainability cycle sets or reviews targets, or a regenerative measure is proposed.
+outcome: Sustainability measures are part of everyday work, and progress against targets is measured and reported.
+stakeholders:
+- executive-board
+- employee
+- financial-investor
+- local-community
+- future-generations
+- natural-environment
+steps:
+- slug: materiality-and-requirements
+  title: Materiality and Requirements
+  summary: The sustainability requirements of law, customers, investors and communities are gathered, and the topics that matter most
+    are determined by impact on people and environment and by financial effect.
+  capabilities:
+  - materiality-assessment
+  - sustainability-strategy-design
+  entities:
+  - compliance-rule
+  - stakeholder
+  - report
+  serves:
+  - materiality-consultation
+- slug: footprint-baseline
+  title: Footprint Baseline
+  summary: Energy, water, materials, emissions and waste are measured across sites, offerings and the supply chain to give the baseline
+    against which goals are set.
+  capabilities:
+  - carbon-footprint-reduction
+  - esg-integration-as-values-alignment
+  entities:
+  - environmental-footprint
+  - measure
+  - ecological-parameter
+  serves:
+  - footprint-ledger
+- slug: regenerative-goals-and-plan
+  title: Regenerative Goals and Plan
+  summary: Goals, policies and measures are set for each material topic, including preparation for climate impacts, and attached to
+    the patterns of work that are to be redesigned.
+  capabilities:
+  - sustainability-strategy-design
+  - climate-adaptation
+  - social-impact-programmes
+  entities:
+  - objective
+  - policy
+  - plan
+  - ecological-parameter
+  serves:
+  - regenerative-plan
+- slug: pattern-redesign
+  title: Pattern Redesign
+  summary: Recurring patterns of work and automation are reviewed for whether they build or draw down people, materials and ecology,
+    and are redesigned to cut emissions and give back the capacity they free.
+  capabilities:
+  - carbon-footprint-reduction
+  - climate-adaptation
+  - sustainability-strategy-design
+  entities:
+  - process-model
+  - pattern
+  - change-request
+  serves:
+  - improvement-workshop
+- slug: integration-into-decisions
+  title: Integration into Decisions
+  summary: Sustainability criteria are built into investment, purchasing, offering and process decisions, and staff are trained and
+    supported to apply them in their daily work.
+  capabilities:
+  - esg-integration-as-values-alignment
+  - sustainability-strategy-design
+  entities:
+  - business-case
+  - policy
+  - course
+  serves:
+  - board-meeting
+  - practice-briefing
+- slug: progress-reporting
+  title: Progress Reporting
+  summary: Progress against the goals is measured and reported honestly to owners, staff and the public, with the gaps that remain
+    and what will be done about them.
+  capabilities:
+  - esg-integration-as-values-alignment
+  - carbon-footprint-reduction
+  - social-impact-programmes
+  entities:
+  - sustainability-report
+  - measure-report
+  - environmental-footprint
+  serves:
+  - intranet
+  - open-day
+  - shareholder-meeting
+  - sustainability-report
+binds:
+- source: src-089
+  edition: '2026'
+  jurisdiction: global

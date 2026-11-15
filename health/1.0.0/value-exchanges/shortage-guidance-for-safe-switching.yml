@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shortage-guidance-for-safe-switching
+title: Shortage Guidance for Safe Switching
+between:
+- clinical-pharmacist
+- specialist-physician
+offered:
+- Early warning of a shortage with an approved alternative, its dose conversion and an updated prescribing catalogue.
+returned:
+- Prescriptions switched to the alternative, and reports of problems seen in patients after the switch.
+touchpoint: clinical-workstation

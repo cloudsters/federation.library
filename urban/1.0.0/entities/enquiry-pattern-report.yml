@@ -1,0 +1,67 @@
+kind: entity
+slug: enquiry-pattern-report
+title: Enquiry Pattern Report
+type: intelligence
+summary: The regular account of what residents ask, by route, service, neighbourhood and group, how long they wait for an answer,
+  which matters come back and who does not reach the city at all. The administration prepares it at a set rhythm with residents and
+  frontline staff, and its findings go to the services concerned and to the council.
+attributes:
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: enquiry-count
+  type: integer
+  card: 1..1
+- name: enquiries-by-subject
+  type: text
+  card: 1..*
+- name: enquiries-by-route
+  type: text
+  card: 1..*
+- name: first-contact-answer-share
+  type: decimal
+  card: 0..1
+- name: median-wait
+  type: quantity
+  card: 0..1
+- name: repeat-enquiry-count
+  type: integer
+  card: 0..1
+- name: groups-not-reached
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: reviewed-with
+  type: text
+  card: 1..*
+- name: findings
+  type: text
+  card: 1..*
+- name: report-document
+  type: document
+  card: 1..1
+states:
+- planned
+- compiled
+- reviewed
+- published
+- superseded
+relations:
+- type: based-on
+  target: resident-enquiry
+- type: based-on
+  target: citizen-satisfaction
+- type: based-on
+  target: service-route-use-report
+- type: refers-to
+  target: service-standard
+- type: produces
+  target: improvement-opportunity
+- type: produces
+  target: public-record
+binds:
+- source: src-257
+  edition: '2017'
+  jurisdiction: global

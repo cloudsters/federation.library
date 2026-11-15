@@ -1,0 +1,74 @@
+kind: value-stream
+slug: experience-to-story
+start: true
+title: Telling One's Own Story
+family: perception-to-mandate
+summary: 'Composing what happened into a story a person can live from. The account is never neutral: it decides what the next chapter
+  is allowed to be.'
+trigger: Something happens that the old account of one's life cannot hold, or the same story keeps closing the same doors.
+outcome: The person tells what happened in a way that is true to it, gives the hard parts a place, and leaves the next chapter open.
+stakeholders:
+- close-friend
+- partner
+- practitioner
+- child
+- mentor
+steps:
+- slug: when-the-story-breaks
+  title: When the Story Breaks
+  summary: Something happens that the old account of one's life cannot hold, and the familiar way of telling it starts to sound false.
+  capabilities:
+  - sensing-what-no-longer-fits
+  entities:
+  - experience
+  - life-narrative
+  - crisis
+- slug: writing-it-down
+  title: Writing It Down
+  summary: The person writes what happened as it comes, unpolished, to find out what they actually think and feel about it.
+  capabilities:
+  - writing-to-find-out
+  entities:
+  - journal
+  - experience
+- slug: giving-the-hard-parts-a-place
+  title: Giving the Hard Parts a Place
+  summary: The painful chapters are turned toward rather than skipped, sometimes with a professional, until they can sit in the story
+    without ruling it.
+  capabilities:
+  - looking-at-what-hurt
+  - forgiving-oneself
+  entities:
+  - life-narrative
+  - experience
+  - therapist
+  serves:
+  - counselling-room
+- slug: hearing-the-story-that-steers
+  title: Hearing the Story That Steers
+  summary: The person notices which account of themselves keeps closing the same doors, and what belief it quietly carries.
+  capabilities:
+  - hearing-the-story-that-steers
+  entities:
+  - life-narrative
+  - premise
+  - pattern-log
+- slug: retelling-with-an-open-ending
+  title: Retelling with an Open Ending
+  summary: What happened is told again, true to the facts, with its turning points named and the next chapter left free.
+  capabilities:
+  - telling-ones-own-story
+  entities:
+  - life-narrative
+- slug: telling-it-to-someone
+  title: Telling It to Someone
+  summary: The new account is said aloud to someone who listens well, and their hearing it makes it more real and sometimes changes
+    it.
+  capabilities:
+  - telling-it-to-someone-who-listens
+  entities:
+  - conversation
+  - friend
+  serves:
+  - heart-to-heart
+  - long-walk

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: audit-access-for-independent-findings
+title: Audit Access for Independent Findings
+between:
+- head-of-clinical-department
+- quality-and-safety-manager
+offered:
+- The department opens its practice, records and staff to the internal audit and owns the corrective actions that follow.
+returned:
+- Quality management returns an independent, graded view of conformity and supports the department until each action is verified as
+  effective.
+touchpoint: internal-audit-visit

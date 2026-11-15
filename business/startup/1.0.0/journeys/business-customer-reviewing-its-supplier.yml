@@ -1,0 +1,33 @@
+kind: journey
+slug: business-customer-reviewing-its-supplier
+title: Business Customer Reviewing Its Supplier
+stakeholder: business-customer
+summary: A business customer gives structured feedback, judges whether the value promised is the value experienced, reviews warranty
+  performance and agrees improvements that are reported back.
+stages:
+- slug: give-structured-feedback
+  title: Give Structured Feedback
+  goal: The customer's judgement is gathered at the agreed points, with the context it refers to.
+  step: experience-sensing-evolution/feedback-collection
+  touchpoints:
+  - customer-survey
+  - account-review
+- slug: judge-the-offering
+  title: Judge the Offering
+  goal: The customer compares the value promised with the value experienced and says so.
+  step: experience-sensing-evolution/offering-satisfaction-evaluation
+  touchpoints:
+  - account-review
+  - customer-advisory-panel
+- slug: review-warranty-performance
+  title: Review Warranty Performance
+  goal: The cost and fairness of warranty fulfilment for the customer's products are reviewed together.
+  step: experience-sensing-evolution/warranty-and-recall-performance-review
+  touchpoints:
+  - account-review
+- slug: agree-improvements
+  title: Agree Improvements
+  goal: Improvements are agreed with owners and reported back when measured again.
+  step: experience-sensing-evolution/findings-and-improvement-loop
+  touchpoints:
+  - customer-advisory-panel

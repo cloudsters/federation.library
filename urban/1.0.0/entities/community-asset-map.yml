@@ -1,0 +1,55 @@
+kind: entity
+slug: community-asset-map
+title: Community Asset Map
+type: intelligence
+summary: A map made with residents of the assets, relationships and strengths a neighbourhood already holds and of who can make things
+  happen there. The neighbourhood's bodies hold it on terms agreed with the city, and it is used in the strategy, the district assessments
+  and the choice of delivery partners.
+attributes:
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: made-with
+  type: text
+  card: 1..*
+- name: mapping-period
+  type: period
+  card: 1..1
+- name: assets
+  type: text
+  card: 1..*
+- name: relationships
+  type: text
+  card: 0..*
+- name: strengths
+  type: text
+  card: 0..*
+- name: local-connectors
+  type: text
+  card: 0..*
+- name: map
+  type: document
+  card: 1..1
+- name: held-by
+  type: text
+  card: 1..1
+- name: consent-terms
+  type: text
+  card: 1..1
+- name: recorded-on
+  type: date
+  card: 1..1
+states:
+- initiated
+- mapped
+- validated
+- shared
+- in-use
+- updated
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-enumeration
+- type: refers-to
+  target: civic-memory-record

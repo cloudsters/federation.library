@@ -1,0 +1,33 @@
+kind: solution
+slug: integration-platform
+title: Integration Platform
+role: platform
+summary: 'Moves data between internal systems and outside parties through managed interfaces: routing, transformation, conformance
+  to exchange standards, patient identity matching and connection to national health networks.'
+carries:
+- integration-strategy
+- integration-platform-operation
+- exchange-standard-conformance
+- national-health-network-connectivity
+- secure-clinical-messaging
+- shared-health-record-integration
+- master-patient-index
+- patient-identification
+- medical-device-integration
+- affiliated-practice-integration
+- master-data-stewardship
+holds:
+- interface
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

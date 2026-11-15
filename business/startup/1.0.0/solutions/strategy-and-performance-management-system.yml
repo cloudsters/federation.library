@@ -1,0 +1,38 @@
+kind: solution
+slug: strategy-and-performance-management-system
+title: Strategy and Performance Management System
+role: system-of-record
+summary: Holds mission, vision, strategy, objectives and the measures that show progress against them, and brings the periodic performance
+  review and whole-system assessment together in one place for the governing bodies.
+carries:
+- benchmarking-as-learning
+- cross-dimensional-alignment
+- go-to-ecosystem-strategy
+- impact-measure-design
+- impact-measurement-design
+- long-horizon-strategy-design
+- mission-articulation
+- objective-cultivation
+- performance-sensing-design
+- strategic-option-design
+- unit-strategy-as-ecosystem-niche
+- whole-system-state-perception
+- drift-correction
+- scenario-planning
+- strategy-cycle-management
+- market-entry-planning
+- integrated-performance-review
+- operational-cadence-design
+holds:
+- mission
+- vision
+- strategy
+- objective
+- kpi
+- measure
+- measure-report
+- benchmark
+- dashboard
+- report
+- whole-system-assessment
+- accountability-report

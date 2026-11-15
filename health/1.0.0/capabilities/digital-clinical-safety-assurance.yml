@@ -1,0 +1,17 @@
+kind: capability
+slug: digital-clinical-safety-assurance
+title: Digital Clinical Safety Assurance
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Identify and assess the clinical hazards that a digital system or a change to it introduces, and document their control before
+  go-live under a named clinical safety lead.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-304
+  edition: '2019'
+  jurisdiction: global

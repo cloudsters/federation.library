@@ -1,0 +1,37 @@
+kind: journey
+slug: carrier-moving-the-companys-goods
+title: Carrier Moving the Company's Goods
+stakeholder: logistics-service-provider
+summary: A logistics service provider delivers inbound goods in a booked slot, collects consignments ready at the dock, carries them
+  to proof of delivery, settles freight and brings returns back.
+stages:
+- slug: deliver-in-the-booked-slot
+  title: Deliver in the Booked Slot
+  goal: The carrier unloads at the booked slot and receives a prompt, accurate confirmation of what was received.
+  step: logistics-flow-design/inbound-receipt
+  touchpoints:
+  - delivery-time-slot
+  - warehouse-dock
+  - delivery-note
+- slug: collect-the-consignment
+  title: Collect the Consignment
+  goal: Consignments are ready, labelled and documented when the vehicle arrives.
+  step: logistics-flow-design/pick-pack-and-dispatch
+  touchpoints:
+  - warehouse-dock
+  - delivery-note
+- slug: carry-to-proof-of-delivery
+  title: Carry to Proof of Delivery
+  goal: The load is booked with accurate data, tracked on its route and closed with proof of delivery and a freight invoice.
+  step: logistics-flow-design/transport-and-delivery
+  touchpoints:
+  - transport-booking
+  - shipment-tracking
+  - proof-of-delivery
+  - invoice
+- slug: bring-returns-back
+  title: Bring Returns Back
+  goal: Authorised returns are collected and delivered to the point where they are inspected.
+  step: logistics-flow-design/returns-and-reverse-flow
+  touchpoints:
+  - return-authorisation

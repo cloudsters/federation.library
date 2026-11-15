@@ -1,0 +1,15 @@
+kind: body
+slug: medical-technology-department
+title: Medical Technology Department
+summary: 'Manages the medical device fleet over its life: investment planning, acquisition and commissioning, inventory, maintenance,
+  safety and metrology inspections, device incidents and decommissioning.'
+holds:
+- medical-device-lifecycle
+- device-maintenance-and-safety
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,44 @@
+kind: entity
+slug: identity-stack
+title: Identity Stack
+type: master
+summary: The sovereign, portable, versioned record of a participant’s identity — rights, reputation, governance memberships, skills
+  portfolio, participation record. Carried by the participant, not issued by an authority. Survives displacement, migration, infrastructure
+  failure, and state attack.
+attributes:
+- name: self-owned-identifier
+  type: identifier
+  card: 1..1
+- name: rights
+  type: text
+  card: 1..*
+- name: governance-memberships
+  type: text
+  card: 0..*
+- name: trust-score
+  type: reference(trust-score)
+  card: 0..1
+- name: skills
+  type: reference(skill)
+  card: 0..*
+- name: participation-history
+  type: text
+  card: 0..*
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- created
+- ported
+- verified
+- selectively-disclosed
+- restored
+relations:
+- type: refers-to
+  target: stakeholder
+- type: refers-to
+  target: trust-score
+- type: refers-to
+  target: verifiable-credential
+- type: refers-to
+  target: skill

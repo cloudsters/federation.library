@@ -1,0 +1,13 @@
+kind: solution
+slug: invoicing-ledger
+title: Invoicing Ledger
+role: system-of-record
+sovereignty: hosted
+summary: Sends clients what they owe, records what they paid and shows the lean months before they arrive.
+carries:
+- seeing-where-money-goes
+- evening-out-uneven-income
+holds:
+- client-relation
+- income-event
+- contract

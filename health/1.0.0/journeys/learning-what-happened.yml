@@ -1,0 +1,50 @@
+kind: journey
+slug: learning-what-happened
+title: Learning What Happened
+stakeholder: person-harmed-in-care
+summary: 'How a patient harmed in care, and their family, experience the response: cared for, told openly, listened to and shown what
+  will change.'
+stages:
+- slug: harm-recognised
+  title: Harm Recognised
+  goal: Receive immediate care for the harm and have the event recorded.
+  step: incident-reporting-and-learning/event-reporting
+  touchpoints:
+  - ward
+- slug: made-safe
+  title: Made Safe
+  goal: Be protected from further harm while the event is assessed.
+  step: incident-reporting-and-learning/triage-and-grading
+  touchpoints:
+  - ward-round
+- slug: told-openly
+  title: Told Openly
+  goal: Hear from a senior clinician what happened, receive an apology and a named contact person.
+  step: incident-reporting-and-learning/open-disclosure
+  touchpoints:
+  - disclosure-conversation
+- slug: duty-fulfilled
+  title: Duty Fulfilled
+  goal: Know that the event has been reported wherever the law requires it.
+  step: incident-reporting-and-learning/mandatory-notification
+  touchpoints:
+  - disclosure-conversation
+- slug: own-account-heard
+  title: Own Account Heard
+  goal: Contribute their own account and questions to the analysis.
+  step: incident-reporting-and-learning/cause-analysis
+  touchpoints:
+  - family-meeting
+- slug: changes-explained
+  title: Changes Explained
+  goal: Learn which actions were taken and why they will help.
+  step: incident-reporting-and-learning/action-implementation
+  touchpoints:
+  - disclosure-conversation
+- slug: closure
+  title: Closure
+  goal: Receive the outcome in writing, with information on independent advice and on how to raise a claim.
+  step: incident-reporting-and-learning/lesson-sharing
+  touchpoints:
+  - disclosure-conversation
+  - feedback-and-complaints-channel

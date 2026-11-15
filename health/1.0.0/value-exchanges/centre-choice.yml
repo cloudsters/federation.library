@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: centre-choice
+title: Centre Choice
+between:
+- head-of-clinical-department
+- person-with-cancer
+offered:
+- A findable centre with published recognition, outcomes, pathways and a direct route of access.
+returned:
+- The choice of the centre, and the follow-up information through which its outcomes are measured.
+touchpoint: public-website

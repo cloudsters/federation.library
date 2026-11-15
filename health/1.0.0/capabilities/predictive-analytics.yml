@@ -1,0 +1,10 @@
+kind: capability
+slug: predictive-analytics
+title: Predictive Analytics
+level: L3
+parent: analytics-and-reporting
+summary: Develop and run predictive models for demand, deterioration and risk.
+binds:
+- source: src-506
+  edition: '2024'
+  jurisdiction: global

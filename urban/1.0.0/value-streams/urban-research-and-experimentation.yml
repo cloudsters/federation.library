@@ -1,0 +1,123 @@
+kind: value-stream
+slug: urban-research-and-experimentation
+title: Urban Research and Experimentation
+family: collaboration-to-automation
+summary: Learning what works in the city through research done with residents and through bounded trials. It holds a research agenda
+  set with residents and staff, partnerships with research institutions that open their knowledge and campuses to the city, research
+  in which residents and workers are co-investigators, trials of new services and rules in a defined area and time, their evaluation,
+  the decision to adopt, change or stop, and the return of research data and findings to those who gave them.
+trigger: The city faces a question it cannot answer from what it knows, a new service or rule needs testing before it is adopted,
+  or a research institution offers to work with the city.
+outcome: Each trial ends in a recorded decision to adopt, change or stop, what was learned is in the city's practice or rules, and
+  research data and findings are open to residents and the city.
+stakeholders:
+- research-institution
+- resident
+- affected-community
+- frontline-worker
+- city-administration
+- city-council
+- neighbourhood-association
+- civic-technology-community
+steps:
+- slug: research-agenda
+  title: Research Agenda
+  summary: The city, residents and staff set the questions the city most needs answered, drawn from its strategy, from residents'
+    concerns and from gaps in its own data.
+  capabilities:
+  - research-agenda-setting
+  - information-need-intake
+  entities:
+  - research-agenda
+  - information-need
+  serves:
+  - published-research-agenda
+  - research-question-call
+- slug: research-partnership
+  title: Research Partnership
+  summary: The city agrees with research institutions on shared questions, open access to findings and to campus resources, and residents'
+    say in the research that concerns them.
+  capabilities:
+  - research-partnership-agreement-drafting
+  - anchor-institution-agreement-drafting
+  entities:
+  - research-partnership-agreement
+  - anchor-institution-agreement
+  serves:
+  - research-partnership-negotiation
+- slug: co-research
+  title: Co-Research
+  summary: Residents, frontline workers and researchers work as co-investigators who gather and interpret the data together. Those
+    who give their time are paid or credited for it.
+  capabilities:
+  - co-research-organisation
+  - participant-compensation
+  - data-sharing-agreement-drafting
+  entities:
+  - research-project
+  - data-sharing-agreement
+  - data-set
+  serves:
+  - co-research-team-meeting
+- slug: trial-design
+  title: Trial Design
+  summary: A new service, process or rule is designed as a trial for a defined area and time, with the question it answers and the
+    measures that will judge it. Any rule it needs is an experimental rule that lapses unless it is renewed.
+  capabilities:
+  - urban-trial-design
+  - experimental-rule-drafting
+  entities:
+  - urban-trial
+  - experimental-rule
+  serves:
+  - experimental-rule-notice
+  - trial-design-workshop
+- slug: trial-running-and-evaluation
+  title: Trial Running and Evaluation
+  summary: The trial runs in the open, residents and staff record what they see, and the results are analysed against the measures
+    set at the start.
+  capabilities:
+  - trial-evaluation
+  - analysis-and-modelling
+  entities:
+  - urban-trial
+  - trial-evaluation-report
+  serves:
+  - trial-area
+  - trial-observation-log
+- slug: adopt-change-or-stop
+  title: Adopt, Change or Stop
+  summary: On the evidence, the council or the responsible department decides to adopt the trial into standard practice or a bylaw,
+    to change it and test it again, or to stop it, and records why.
+  capabilities:
+  - trial-outcome-decision
+  - bylaw-drafting
+  - rule-review
+  entities:
+  - trial-evaluation-report
+  - bylaw
+  - council-decision
+  serves:
+  - trial-decision-hearing
+- slug: return-of-data-and-findings
+  title: Return of Data and Findings
+  summary: Research data are released as open data where privacy allows, and findings are reported back to the neighbourhoods and
+    workers who took part. The lessons go into the city's knowledge.
+  capabilities:
+  - research-findings-return
+  - open-data-publication
+  - lesson-recording-and-sharing
+  entities:
+  - open-data-release
+  - research-project
+  - lesson-record
+  serves:
+  - findings-return-meeting
+  - open-research-data-release
+binds:
+- source: src-235
+  edition: '2019-05-22'
+  jurisdiction: global
+- source: src-237
+  edition: '2021-11-23'
+  jurisdiction: global

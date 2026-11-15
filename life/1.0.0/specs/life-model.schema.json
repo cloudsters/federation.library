@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "life-model",
+  "description": "The fields the life model adds to MODEL's records, one definition per kind (life-model.md part 5).",
+  "$defs": {
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "texts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z-]+:[a-z0-9.-]+(/[a-z0-9.-]+)?$|^[a-z0-9.-]+$"
+      }
+    },
+    "value-stream": {
+      "type": "object",
+      "properties": {
+        "trigger": {
+          "$ref": "#/$defs/text"
+        },
+        "outcome": {
+          "$ref": "#/$defs/text"
+        },
+        "stakeholders": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "stakeholder": {
+      "type": "object",
+      "properties": {
+        "stance": {
+          "enum": [
+            "served",
+            "serving",
+            "both"
+          ]
+        },
+        "represented_by": {
+          "$ref": "#/$defs/refs"
+        },
+        "nature": {
+          "enum": [
+            "person",
+            "organisation",
+            "group",
+            "agent",
+            "more-than-human"
+          ]
+        },
+        "via": {
+          "$ref": "#/$defs/text"
+        },
+        "dissolves": {
+          "type": "boolean"
+        },
+        "note": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/text"
+        },
+        "attributes": {
+          "type": "array"
+        },
+        "states": {
+          "$ref": "#/$defs/texts"
+        },
+        "relations": {
+          "type": "array"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "journey": {
+      "type": "object",
+      "properties": {
+        "stages": {
+          "type": "array"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "via": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "touchpoint": {
+      "type": "object",
+      "properties": {
+        "exchanges": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "medium": {
+          "enum": [
+            "place",
+            "moment",
+            "channel",
+            "document",
+            "gathering"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "in-person",
+            "spoken",
+            "written",
+            "digital",
+            "shared-presence"
+          ]
+        }
+      }
+    },
+    "value-exchange": {
+      "type": "object",
+      "properties": {
+        "between": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "note": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "solution": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "enum": [
+            "system-of-record",
+            "system-of-engagement",
+            "system-of-insight",
+            "person",
+            "agent",
+            "institution"
+          ]
+        },
+        "holds": {
+          "$ref": "#/$defs/refs"
+        },
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "sovereignty": {
+          "enum": [
+            "owned",
+            "hosted",
+            "third-party",
+            "held-by-another"
+          ]
+        }
+      }
+    },
+    "body": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/text"
+        },
+        "via": {
+          "$ref": "#/$defs/text"
+        },
+        "could_be_held_by": {
+          "$ref": "#/$defs/texts"
+        }
+      }
+    },
+    "capability": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    }
+  }
+}

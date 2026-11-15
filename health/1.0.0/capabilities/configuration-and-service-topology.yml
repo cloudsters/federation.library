@@ -1,0 +1,13 @@
+kind: capability
+slug: configuration-and-service-topology
+title: Configuration & Service Topology
+level: L3
+parent: it-service-management
+summary: Map configuration items and service dependencies so that the impact of any change or failure is known.
+binds:
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

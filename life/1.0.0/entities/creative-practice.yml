@@ -1,0 +1,37 @@
+kind: entity
+slug: creative-practice
+title: Creative Practice
+type: master
+summary: An ongoing making this person returns to — writing, music, building, drawing, code, craft. Held whether or not it earns,
+  because the practice and the income are different questions and conflating them is how practices die.
+attributes:
+- name: form
+  type: code
+  card: 1..1
+- name: practised-in
+  type: reference(workspace)
+  card: 0..1
+- name: time-given
+  type: duration
+  card: 0..1
+- name: since
+  type: date
+  card: 0..1
+- name: earns
+  type: boolean
+  card: 0..1
+- name: current-edge
+  type: text
+  card: 0..1
+states:
+- begun
+- kept
+- levelled off
+- deepening
+- resting
+- resumed
+relations:
+- target: workspace
+  type: depends-on
+- target: body-of-work
+  type: serves

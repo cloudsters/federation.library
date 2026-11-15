@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: decision-question-for-focused-analysis
+title: Decision Question for Focused Analysis
+between:
+- site-manager
+- information-technology-specialist
+offered:
+- The decision to be taken, the questions and hypotheses behind it, the criteria for a useful answer and access to the people who
+  know the work.
+returned:
+- Analysis scoped to that decision, with an agreed timetable and an honest statement of what the data can and cannot show.
+touchpoint: analysis-request

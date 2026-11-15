@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: person-with-mental-illness
+title: Person with Mental Illness
+nature: person
+stance: served
+summary: A person with a mental illness or in mental crisis, treated as an outpatient, in day care or on a ward, sometimes under legal
+  compulsion. Physical and mental needs often occur together and are treated in different places.
+seeks:
+- Timely, respectful help in crisis, treatment that protects autonomy and continuity into community support after discharge.
+brings:
+- Experience of illness and recovery that, when heard, improves the safety, dignity and design of mental health services.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

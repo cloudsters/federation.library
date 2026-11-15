@@ -1,0 +1,34 @@
+kind: journey
+slug: consumer-harmed-and-made-whole
+title: Consumer Harmed and Made Whole
+stakeholder: consumer
+summary: A consumer harmed by a product or service is told what happened, is asked what was lost, sees the repair and compensation
+  through to completion and is asked whether the remedy is enough.
+stages:
+- slug: report-or-be-told
+  title: Report or Be Told
+  goal: The consumer has reported the harm or been told of it, and knows what to do now.
+  step: remediation-healing/harm-intake
+  touchpoints:
+  - complaint-and-warranty-claim
+  - notice-to-those-affected
+  - service-hotline
+- slug: say-what-was-lost
+  title: Say What Was Lost
+  goal: The consumer has said what was lost and needed, and the plan reflects it.
+  step: remediation-healing/remediation-planning
+  touchpoints:
+  - affected-party-meeting
+- slug: receive-repair-and-compensation
+  title: Receive Repair and Compensation
+  goal: The repair is done and compensation paid, tracked until the consumer's loss is made good.
+  step: remediation-healing/repair-and-restitution
+  touchpoints:
+  - restitution-agreement
+  - complaint-and-warranty-claim
+- slug: judge-the-remedy
+  title: Judge the Remedy
+  goal: The consumer has been asked whether the remedy is sufficient and the answer counts.
+  step: remediation-healing/remedy-acceptance
+  touchpoints:
+  - affected-party-meeting

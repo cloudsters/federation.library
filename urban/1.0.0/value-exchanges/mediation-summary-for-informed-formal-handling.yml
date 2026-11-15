@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: mediation-summary-for-informed-formal-handling
+title: Mediation Summary for Informed Formal Handling
+between:
+- community-mediator
+- legal-and-compliance-officer
+offered:
+- With the parties' consent, what mediation established and where it stopped.
+returned:
+- Formal handling that starts from what is already agreed.
+touchpoint: referral-with-mediation-summary

@@ -1,0 +1,42 @@
+kind: journey
+slug: infrastructure-operator-keeping-water-safe-and-flowing
+title: Infrastructure Operator Keeping Water Safe and Flowing
+stakeholder: infrastructure-operator
+summary: The water operator agrees with neighbouring municipalities what it takes from shared sources, treats and tests the water
+  and publishes the results, connects households and repairs leaks, shares water fairly in a shortage and keeps drains clear before
+  the storm.
+stages:
+- slug: agree-what-is-taken
+  title: Agree What Is Taken
+  goal: What is taken from rivers, lakes and groundwater is set with neighbouring municipalities so that nature and those downstream
+    keep their share.
+  step: water-supply-and-sanitation/water-source-protection-and-abstraction
+  touchpoints:
+  - catchment-agreement-meeting
+- slug: treat-test-and-publish
+  title: Treat, Test and Publish
+  goal: Raw water is treated to drinking quality, tested at the plant and at taps, and the results are published by neighbourhood.
+  step: water-supply-and-sanitation/treatment-and-water-quality-testing
+  touchpoints:
+  - tap-water-quality-results
+- slug: connect-and-repair
+  title: Connect and Repair
+  goal: Every household is connected, and leaks and bursts are found and repaired by the operator or by residents' crews where they
+    keep a local system.
+  step: water-supply-and-sanitation/household-connection-and-network-upkeep
+  touchpoints:
+  - leak-and-outage-line
+  - utility-connection-request
+- slug: share-water-in-a-shortage
+  title: Share Water in a Shortage
+  goal: Use is limited by rules set in advance, basic need is served first and water reaches those cut off.
+  step: water-supply-and-sanitation/shortage-and-interruption-response
+  touchpoints:
+  - water-restriction-notice
+  - emergency-water-point
+- slug: keep-the-drains-ready
+  title: Keep the Drains Ready
+  goal: Drains are clear and streets and green spaces hold and soak away the rain before it floods homes.
+  step: water-supply-and-sanitation/stormwater-and-drainage
+  touchpoints:
+  - rain-garden-street

@@ -1,0 +1,21 @@
+kind: journey
+slug: if-the-carer-falls-away
+title: If the Carer Falls Away
+stakeholder: dependant
+via: purpose-to-portfolio
+summary: Someone who depends on this person is covered by an agreement on who would step in, and when the carer falls away, care goes
+  on from what was prepared.
+stages:
+- slug: be-provided-for
+  title: Be Provided For
+  goal: Who would look after the dependant if the person could not has been agreed in advance and written where it can be found.
+  step: rupture-to-replan/agreeing-who-does-what
+  touchpoints:
+  - kitchen-table
+  - emergency-folder
+- slug: be-carried-through
+  title: Be Carried Through
+  goal: When the person falls away, the dependant's care continues from the plan rather than from improvisation.
+  step: rupture-to-replan/when-it-falls-away
+  touchpoints:
+  - emergency-folder

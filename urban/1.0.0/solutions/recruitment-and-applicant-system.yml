@@ -1,0 +1,16 @@
+kind: solution
+slug: recruitment-and-applicant-system
+title: Recruitment and Applicant System
+role: system-of-engagement
+summary: Publishes vacancies in plain language and several languages, receives applications, records recognised skills and the assessment
+  of the panel, answers every applicant with reasons and prepares the offer and the contract.
+carries:
+- position-description-writing
+- recruitment-outreach
+- prior-skills-recognition
+- candidate-selection
+- employment-contracting
+holds:
+- job-vacancy
+- job-application
+- skill-recognition

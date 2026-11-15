@@ -1,0 +1,52 @@
+kind: entity
+slug: service-ticket
+title: Service Ticket
+type: transactional
+summary: A report of a disruption to a digital service or a request for one, raised by a user or by monitoring, classified by impact
+  on care and urgency, and tracked until it is resolved and confirmed.
+attributes:
+- name: ticket-kind
+  type: code
+  card: 1..1
+- name: it-service
+  type: reference(it-service)
+  card: 0..1
+- name: raised-by
+  type: reference(identity)
+  card: 0..1
+- name: impact
+  type: code
+  card: 1..1
+- name: urgency
+  type: code
+  card: 1..1
+- name: raised-at
+  type: datetime
+  card: 1..1
+- name: resolved-at
+  type: datetime
+  card: 0..1
+- name: resolution
+  type: text
+  card: 0..1
+states:
+- logged
+- assigned
+- in-progress
+- awaiting-supplier
+- resolved
+- closed
+relations:
+- type: refers-to
+  target: it-service
+- type: refers-to
+  target: incident
+- type: produces
+  target: change-request
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: benefit-measures-for-published-commitments
+title: Benefit Measures for Published Commitments
+between:
+- resident
+- city-administration
+offered:
+- Residents' say in the measures by which each programme's benefit will be judged.
+returned:
+- Each programme published as a commitment with its benefits, measures, owner, budget and dates.
+touchpoint: city-commitments-register

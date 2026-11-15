@@ -1,0 +1,36 @@
+kind: entity
+slug: measure-report
+title: Measure Report
+type: intelligence
+summary: The calculated result of a measure for a population, unit and period, with numerator, denominator and comparison, released
+  for steering, owner reporting or peer comparison.
+attributes:
+- name: measure
+  type: reference(measure)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: organisation-unit
+  type: reference(department)
+  card: 0..1
+- name: result
+  type: quantity
+  card: 1..1
+- name: numerator
+  type: decimal
+  card: 0..1
+- name: denominator
+  type: decimal
+  card: 0..1
+- name: released-on
+  type: date
+  card: 0..1
+states:
+- preliminary
+- validated
+- released
+- corrected
+relations:
+- type: based-on
+  target: measure

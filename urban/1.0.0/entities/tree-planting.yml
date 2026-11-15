@@ -1,0 +1,60 @@
+kind: entity
+slug: tree-planting
+title: Tree Planting
+type: transactional
+summary: A single planting or a planting campaign, with the places, species, those who chose the places and planted, and the care
+  agreed until the trees are established. The department responsible records it with the residents who take part, and it is followed
+  until the trees have taken.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: planting-kind
+  type: code
+  card: 1..1
+- name: places
+  type: text
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: species
+  type: code
+  card: 1..*
+- name: tree-count
+  type: integer
+  card: 1..1
+- name: places-chosen-with
+  type: text
+  card: 0..*
+- name: planted-by
+  type: text
+  card: 1..*
+- name: planted-on
+  type: date
+  card: 0..1
+- name: care-agreement
+  type: reference(place-care-agreement)
+  card: 0..1
+- name: establishment-period
+  type: period
+  card: 0..1
+- name: surviving-count
+  type: integer
+  card: 0..1
+states:
+- planned
+- placed
+- planted
+- establishing
+- established
+- failed
+relations:
+- type: part-of
+  target: urban-forest
+- type: refers-to
+  target: tree-inventory
+- type: governed-by
+  target: place-care-agreement
+- type: refers-to
+  target: neighbourhood

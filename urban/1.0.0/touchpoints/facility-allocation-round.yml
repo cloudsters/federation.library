@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: facility-allocation-round
+title: Facility Allocation Round
+medium: encounter
+summary: The yearly round in which clubs, schools, informal groups and casual users agree the share of facility time, with priority
+  for those who have had least.
+exchanges:
+- booked-time-for-a-fair-share
+- informal-coaching-for-a-place-beside-the-clubs
+journey: sports-club-sharing-facilities-fairly

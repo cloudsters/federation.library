@@ -1,0 +1,59 @@
+kind: entity
+slug: research-study
+title: Research Study
+type: transactional
+summary: A planned scientific investigation conducted or sponsored by the organisation, such as a clinical trial, an observational
+  study or a registry study, with its sponsor, principal investigator, participating sites and recruitment target.
+attributes:
+- name: study-identifier
+  type: identifier
+  card: 1..*
+- name: title
+  type: text
+  card: 1..1
+- name: study-type
+  type: code
+  card: 1..1
+- name: sponsor
+  type: reference(organisation)
+  card: 1..1
+- name: principal-investigator
+  type: reference(employee)
+  card: 1..1
+- name: participating-organisations
+  type: reference(organisation)
+  card: 0..*
+- name: recruitment-target
+  type: integer
+  card: 0..1
+- name: planned-period
+  type: period
+  card: 1..1
+states:
+- in-preparation
+- under-review
+- approved
+- recruiting
+- active-not-recruiting
+- suspended
+- completed
+- terminated
+relations:
+- type: governed-by
+  target: study-protocol
+- type: based-on
+  target: study-review
+- type: depends-on
+  target: research-grant
+- type: produces
+  target: publication
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

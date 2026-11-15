@@ -1,0 +1,21 @@
+kind: journey
+slug: a-will-that-holds
+title: A Will That Holds
+stakeholder: authority
+via: acquire-to-retire
+summary: The registry and the courts receive a will, directives and powers of attorney in a form that will hold, kept current as the
+  life changes.
+stages:
+- slug: receive-it-in-form
+  title: Receive It in Form
+  goal: The will, directives and powers of attorney are in a form the law recognises.
+  step: holding-to-bequest/writing-it-down-properly
+  touchpoints:
+  - lawyers-office
+  - the-will
+- slug: see-it-kept-current
+  title: See It Kept Current
+  goal: The arrangements on record are the current ones, revised at each birth, death or move.
+  step: holding-to-bequest/keeping-it-open
+  touchpoints:
+  - the-will

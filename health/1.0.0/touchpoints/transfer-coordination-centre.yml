@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: transfer-coordination-centre
+title: Transfer Coordination Centre
+medium: channel
+summary: The single number and digital route through which other hospitals and emergency services request transfers, receive a decision
+  within the agreed time and arrange escort and transport.
+exchanges:
+- transfer-request-for-an-accepted-bed
+journey: referring-hospital-transfer-journey

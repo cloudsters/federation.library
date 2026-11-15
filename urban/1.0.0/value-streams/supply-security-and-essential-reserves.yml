@@ -1,0 +1,119 @@
+kind: value-stream
+slug: supply-security-and-essential-reserves
+title: Supply Security and Essential Reserves
+family: source-to-alliance
+summary: Keeping essentials flowing to residents and services when distant supply chains fail. It holds the map of where the city's
+  food, water, medicine, fuel and critical supplies come from and where they depend on a single supplier or a distant chain, the levels
+  of each that are enough to carry the city through a disruption, reserves held in several neighbourhood places and rotated through
+  daily use, local and regional suppliers qualified in advance under standby agreements, the agreed triggers to release reserves,
+  and the fair allocation of supplies during a disruption.
+trigger: The risk register shows a supply dependency, a supplier or supply route fails, or the yearly review of essential reserves
+  is due.
+outcome: Essentials have more than one source, reserves at the agreed levels are held in every neighbourhood, and supplies reach those
+  who need them most when a chain fails.
+stakeholders:
+- procurement-officer
+- neighbourhood-association
+- civil-society-organisation
+- local-producer
+- health-and-care-provider
+- emergency-service
+- supplier
+- resident
+steps:
+- slug: supply-dependency-mapping
+  title: Supply Dependency Mapping
+  summary: The procurement office maps with services and neighbourhood bodies where each essential good comes from, which ones rest
+    on a single supplier or a distant chain, and which neighbourhoods would be cut off first, and publishes the map.
+  capabilities:
+  - supply-dependency-mapping
+  - hazard-and-vulnerability-mapping
+  entities:
+  - supply-dependency-map
+  - risk-register
+  serves:
+  - essential-supply-mapping-session
+  - published-supply-dependency-map
+- slug: sufficiency-level-setting
+  title: Sufficiency Level Setting
+  summary: With residents, services and the risk team, the city sets how much of each essential good is enough for a set period of
+    disruption, reflecting local consumption and cultural food preferences, and the council adopts these levels.
+  capabilities:
+  - sufficiency-level-setting
+  - risk-treatment-planning
+  entities:
+  - essential-supply-plan
+  - emergency-plan
+  serves:
+  - sufficiency-level-hearing
+- slug: alternative-supplier-qualification
+  title: Alternative Supplier Qualification
+  summary: For each essential good, the procurement office qualifies local and regional suppliers in advance and signs standby agreements
+    with them, so that supply can switch quickly when a main supplier fails.
+  capabilities:
+  - alternative-supplier-qualification
+  - supplier-capacity-building
+  entities:
+  - standby-supply-agreement
+  - supplier-record
+  serves:
+  - standby-supplier-qualification
+- slug: distributed-reserve-keeping
+  title: Distributed Reserve Keeping
+  summary: Reserves of essential goods are held in several neighbourhood places, such as community kitchens, schools, health centres
+    and cooperative stores, with shared cold storage where needed, and are rotated through daily use so that stock stays fresh and
+    familiar.
+  capabilities:
+  - distributed-reserve-keeping
+  - shared-business-facility-provision
+  entities:
+  - essential-reserve
+  - community-centre
+  - school
+  serves:
+  - neighbourhood-reserve-store
+  - public-kitchen
+- slug: supply-disruption-response
+  title: Supply Disruption Response
+  summary: When a supplier or route fails, the procurement office detects it early, secures the remaining stock, switches to standby
+    suppliers, and releases reserves once the agreed triggers are met, reporting to the crisis team.
+  capabilities:
+  - supply-disruption-response
+  - reserve-release
+  - crisis-command
+  entities:
+  - supply-disruption
+  - essential-reserve
+  - standby-supply-agreement
+  serves:
+  - supply-disruption-alert
+- slug: fair-supply-allocation
+  title: Fair Supply Allocation
+  summary: Scarce supplies are allocated by published priority to those most in need and to essential services, through the neighbourhood
+    places that hold the reserves, and every allocation is recorded.
+  capabilities:
+  - fair-relief-allocation
+  - reserve-release
+  entities:
+  - essential-reserve
+  - supply-disruption
+  serves:
+  - neighbourhood-reserve-store
+  - published-allocation-priorities
+- slug: reserve-and-dependency-review
+  title: Reserve and Dependency Review
+  summary: Each year and after every disruption, the city reviews with the neighbourhood places and suppliers whether the levels held,
+    rotation worked and dependencies were reduced, and updates the map and the levels.
+  capabilities:
+  - supply-dependency-mapping
+  - sufficiency-level-setting
+  entities:
+  - supply-dependency-map
+  - essential-supply-plan
+  serves:
+  - published-supply-dependency-map
+  - reserve-review-meeting
+binds:
+- source: src-375
+  edition: '2021'
+  jurisdiction: global

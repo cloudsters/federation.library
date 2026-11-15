@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: directory-entry-for-residents-who-find-the-service
+title: Directory Entry for Residents Who Find the Service
+between:
+- city-administration
+- resident
+offered:
+- An entry for each service in plain language and residents' languages, with who may use it, where, when and what to bring.
+returned:
+- Residents who find and use the service, and their reports of entries that are wrong or out of date.
+touchpoint: city-service-directory

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: development-plan-for-regulatory-advice
+title: Development Plan for Regulatory Advice
+between:
+- clinician-scientist
+- health-regulator
+offered:
+- The development team offers its development plan, preclinical results and quality documentation for scrutiny.
+returned:
+- The regulator returns advice on the evidence and quality it requires and, on a sound application, permission to start the first
+  study in humans.
+touchpoint: regulatory-advice-meeting

@@ -1,0 +1,39 @@
+kind: journey
+slug: information-technology-specialist-connecting-two-systems
+title: Information Technology Specialist Connecting Two Systems
+stakeholder: information-technology-specialist
+summary: An information technology specialist records what data a service needs from another system, maps it to the shared definitions,
+  specifies the interface in the open, builds and tests the connection and watches it once it carries live data.
+stages:
+- slug: record-the-exchange-need
+  title: Record the Exchange Need
+  goal: The data needed, its purpose, how often it is needed and whether personal data is involved are recorded.
+  step: interoperability-and-platform-federation/exchange-need-assessment
+  touchpoints:
+  - data-exchange-request
+- slug: use-the-shared-definitions
+  title: Use the Shared Definitions
+  goal: Everything the exchange carries uses the shared definition and identifier agreed with those who hold the data.
+  step: interoperability-and-platform-federation/shared-data-model-definition
+  touchpoints:
+  - data-definition-working-group
+  - published-data-definitions
+- slug: specify-the-interface
+  title: Specify the Interface
+  goal: The interface is published with its formats, meaning, identity checks and conformance rules.
+  step: interoperability-and-platform-federation/interface-specification
+  touchpoints:
+  - published-interface-catalogue
+- slug: build-and-test-the-connection
+  title: Build and Test the Connection
+  goal: The connection is secured with an identity for each system and passes its conformance tests before it carries live data.
+  step: interoperability-and-platform-federation/interface-build-and-testing
+  touchpoints:
+  - conformance-test-environment
+- slug: watch-the-live-exchange
+  title: Watch the Live Exchange
+  goal: Failures, delays and data that no longer matches the definitions are seen at once, and a failure in one platform is kept from
+    spreading.
+  step: interoperability-and-platform-federation/live-exchange-monitoring
+  touchpoints:
+  - exchange-status-page

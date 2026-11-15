@@ -1,0 +1,110 @@
+kind: value-stream
+slug: asset-creation-design
+title: Asset Creation & Design
+family: acquire-to-retire
+summary: 'Creating productive assets that cannot simply be bought, such as machines, lines, buildings or networks: specifying and
+  designing them for their whole life, scheduling and steering the build, and commissioning and accepting them into service.'
+trigger: The asset plan or a unit requests a new or replacement productive asset.
+outcome: The asset is built or bought, accepted, commissioned and registered on schedule.
+stakeholders:
+- site-manager
+- development-engineer
+- external-specialist
+- supplier
+- local-authority
+- occupational-safety-authority
+steps:
+- slug: asset-requirements-and-approval
+  title: Asset Requirements and Approval
+  summary: The requirements of users and operators, lifecycle and sustainability targets, budget and permits are clarified, and the
+    asset project is approved.
+  capabilities:
+  - asset-design-with-craft
+  - asset-construction-stewardship
+  entities:
+  - capital-project
+  - business-case
+  - product-specification
+  - permit
+  - approval
+  serves:
+  - investment-proposal
+  - permit-application
+- slug: asset-design
+  title: Asset Design
+  summary: The asset is designed for durability, maintainability, energy use and clean end of life, and the design is reviewed on
+    these criteria alongside cost.
+  capabilities:
+  - asset-design-with-craft
+  - sustainable-asset-design
+  entities:
+  - product-specification
+  - circular-material-passport
+  - approval
+  serves:
+  - design-review
+- slug: build-planning-and-contracting
+  title: Build Planning and Contracting
+  summary: The works are scheduled in stages with quality gates, and contractors, suppliers and specialists are engaged against defined
+    deliverables.
+  capabilities:
+  - construction-execution
+  - services-procurement
+  entities:
+  - plan
+  - contract
+  - purchase-order
+  - task
+  serves:
+  - contract-negotiation
+  - request-for-quotation
+- slug: construction-and-build
+  title: Construction and Build
+  summary: The works are executed and supervised for schedule, budget, quality and the safety of everyone on site, and construction
+    records are kept throughout.
+  capabilities:
+  - steward-asset-construction
+  - asset-construction-stewardship
+  entities:
+  - capital-project
+  - task
+  - quality-inspection
+  - incident
+  serves:
+  - construction-site
+  - official-inspection
+  - site-coordination-meeting
+  - site-safety-briefing
+- slug: commissioning-and-acceptance
+  title: Commissioning and Acceptance
+  summary: The completed asset and its technical systems are tested and commissioned against the designed intent and accepted with
+    their documentation and a list of open defects.
+  capabilities:
+  - building-commissioning-and-handover
+  entities:
+  - quality-inspection
+  - approval
+  - asset
+  serves:
+  - acceptance-certificate
+  - installation-and-commissioning
+  - official-inspection
+- slug: handover-into-service
+  title: Handover into Service
+  summary: The accepted asset is registered, capitalised and handed over to operation and maintenance, and open defects are followed
+    until closed.
+  capabilities:
+  - building-commissioning-and-handover
+  - asset-register-management
+  entities:
+  - asset
+  - equipment
+  - journal-entry
+  - capital-project
+  serves:
+  - asset-register
+  - open-defect-list
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: software-contract-negotiation
+title: Software Contract Negotiation
+medium: encounter
+summary: The negotiation of a contract for a digital system or service, in which data ownership, the release of code, service levels
+  and the orderly end of the contract are agreed.
+exchanges:
+- open-offer-for-a-fair-contract
+- contract-advice-for-data-and-code-ownership
+- returned-data-for-an-orderly-close
+journey: city-administration-replacing-a-legacy-system

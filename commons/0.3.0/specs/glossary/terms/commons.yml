@@ -1,0 +1,19 @@
+id: commons
+term: Commons
+layer: why
+kind: concept
+definition: A shared value creation of any form — a life, an organisation, a settlement, a city, an ecosystem.
+why: It is developed toward the five qualities and tested against them; every other term serves it. As a folder, models/commons/
+  and patterns/commons/ name the origin of what they hold, since every model and every extract is made by a commons (Holger,
+  commons.o#109, comment 6600437483).
+relations:
+  tested_by: five-qualities
+  modelled_as: commons-core
+not:
+- house
+- the commons' own model, which is its runtime
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6626305178: Adopted 4 November 2026 (point 2), in its 0.4.0 wording (the merge 7a5fbda)'

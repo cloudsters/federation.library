@@ -1,0 +1,62 @@
+kind: entity
+slug: community-event
+title: Community Event
+type: transactional
+summary: A neighbourhood gathering, meeting, shared meal or celebration, with its organisers, place, date and who took part. The organisers
+  record it, together with the city where it supports or permits the event, and it is used to book places, to support encounters between
+  neighbours and to see who takes part.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: event-kind
+  type: code
+  card: 1..1
+- name: organisers
+  type: text
+  card: 1..*
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: venue
+  type: reference(community-centre|park|school)
+  card: 0..1
+- name: location
+  type: text
+  card: 0..1
+- name: held-at
+  type: datetime
+  card: 1..1
+- name: languages
+  type: code
+  card: 0..*
+- name: access-provisions
+  type: text
+  card: 0..*
+- name: participant-count
+  type: integer
+  card: 0..1
+- name: support-received
+  type: reference(community-grant)
+  card: 0..1
+- name: related-history
+  type: reference(civic-memory-record)
+  card: 0..1
+states:
+- proposed
+- planned
+- announced
+- held
+- cancelled
+- reported
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: park
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: community-grant

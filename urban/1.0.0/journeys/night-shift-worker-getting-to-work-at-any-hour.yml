@@ -1,0 +1,42 @@
+kind: journey
+slug: night-shift-worker-getting-to-work-at-any-hour
+title: Night-Shift Worker Getting to Work at Any Hour
+stakeholder: night-shift-worker
+summary: A night-shift worker shows where and when they travel, helps set a night corridor with service as frequent as at peak, travels
+  on a fare set to shift-worker pay, waits at a staffed and lit stop and judges in the yearly review whether the network now serves
+  the night.
+stages:
+- slug: show-the-trips-at-night
+  title: Show the Trips at Night
+  goal: The worker's trips at night and for care are counted and walked, and the places where the network leaves people stranded are
+    named.
+  step: public-transport-and-shared-mobility/travel-need-mapping
+  touchpoints:
+  - travel-diary-and-access-walk
+- slug: shape-the-night-corridor
+  title: Shape the Night Corridor
+  goal: The corridor to hospitals, warehouses and hospitality districts has service as frequent at shift change as at peak, and the
+    reasoning is published.
+  step: public-transport-and-shared-mobility/network-and-timetable-planning
+  touchpoints:
+  - network-plan-consultation
+  - published-timetable
+- slug: travel-on-a-fair-fare
+  title: Travel on a Fair Fare
+  goal: The worker travels on one ticket across modes at a fare set to shift-worker pay, reduced where their income is low.
+  step: public-transport-and-shared-mobility/fare-setting
+  touchpoints:
+  - fare-and-concession-card
+- slug: wait-in-safety
+  title: Wait in Safety
+  goal: The stop the worker uses at night is lit, staffed or watched, sheltered and has a help point that works.
+  step: public-transport-and-shared-mobility/accessible-and-safe-stops
+  touchpoints:
+  - staffed-night-stop
+- slug: judge-the-night-service
+  title: Judge the Night Service
+  goal: The worker has said in the yearly review who is still left out at night, and the network plan has changed accordingly.
+  step: public-transport-and-shared-mobility/ridership-and-access-review
+  touchpoints:
+  - annual-ridership-report
+  - network-plan-consultation

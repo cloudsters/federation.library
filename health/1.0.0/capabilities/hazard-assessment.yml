@@ -1,0 +1,13 @@
+kind: capability
+slug: hazard-assessment
+title: Hazard Assessment
+level: L3
+parent: safety-alerts-and-recalls
+summary: Identify hazards, assess their likelihood and consequences, and decide on measures.
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-304
+  edition: '2019'
+  jurisdiction: global

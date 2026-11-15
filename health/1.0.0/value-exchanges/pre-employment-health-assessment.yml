@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: pre-employment-health-assessment
+title: Pre-Employment Health Assessment
+between:
+- job-applicant
+- occupational-health-professional
+offered:
+- Health information and vaccination status relevant to the planned work.
+returned:
+- A confidential assessment that discloses only the fitness outcome to the employer, and the vaccinations the work requires.
+touchpoint: occupational-health-consultation

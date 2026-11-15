@@ -1,0 +1,62 @@
+kind: entity
+slug: data-impact-assessment
+title: Data Protection Impact Assessment
+type: intelligence
+summary: The assessment of whether a use of personal data could harm residents, whether the data is needed at all, and the decision
+  taken. The department proposing the use prepares it with the data protection officer and the neighbourhoods concerned, and the use
+  is approved, changed or refused on its basis.
+attributes:
+- name: processing
+  type: reference(processing-record)
+  card: 1..1
+- name: proposed-use
+  type: text
+  card: 1..1
+- name: necessity-statement
+  type: text
+  card: 1..1
+- name: risks-identified
+  type: text
+  card: 0..*
+- name: affected-groups
+  type: text
+  card: 0..*
+- name: neighbourhoods-consulted
+  type: reference(neighbourhood)
+  card: 0..*
+- name: safeguards
+  type: text
+  card: 0..*
+- name: officer-advice
+  type: text
+  card: 0..1
+- name: decision
+  type: code
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- initiated
+- consulted
+- assessed
+- decided
+- published
+- reviewed
+relations:
+- type: refers-to
+  target: processing-record
+- type: refers-to
+  target: automated-system-register
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: neighbourhood
+- type: produces
+  target: public-record

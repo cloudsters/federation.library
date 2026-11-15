@@ -1,0 +1,29 @@
+kind: solution
+slug: revenue-management-system
+title: Revenue Management System
+role: system-of-record
+summary: Holds the tax and charge schedule, every taxpayer's account, assessments, bills, relief decisions, payments and arrears cases,
+  and the levies and contributions that capture land value.
+carries:
+- tax-and-charge-rate-setting
+- tax-assessment
+- revenue-billing
+- taxpayer-record-keeping
+- tax-relief-assessment
+- essential-charge-capping
+- payment-receipt-and-matching
+- arrears-recovery
+- betterment-levy-assessment
+- development-contribution-collection
+- hardship-case-coordination
+- income-matched-payment-arrangement
+- service-tariff-design
+holds:
+- tax-and-charge-schedule
+- taxpayer-account
+- tax-assessment
+- tax-relief-decision
+- payment
+- arrears-case
+- payment-arrangement
+- service-tariff

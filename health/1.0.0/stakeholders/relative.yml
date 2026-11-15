@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: relative
+title: Relative
+nature: person
+stance: served
+summary: A family member or close person of a patient, including one who holds legal authority to decide on the patient's
+  behalf. Absent from case statistics, yet decisive for consent, recovery and a discharge that holds.
+seeks:
+- Timely, honest information, involvement in decisions and support while someone close to them is ill.
+brings:
+- Knowledge of the patient's history and wishes, and the everyday support without which recovery at home does not hold.
+represented_by:
+- related-person
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

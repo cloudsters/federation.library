@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: employment-contract
+title: Employment Contract
+medium: artefact
+summary: The signed contract that states the terms of employment and what employer and employee owe each other, amended over the life
+  of the relationship.
+exchanges:
+- work-for-livelihood
+journey: employment-journey

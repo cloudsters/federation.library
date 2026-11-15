@@ -1,0 +1,19 @@
+kind: journey
+slug: faculty-strategy-journey
+title: Faculty Strategy Journey
+stakeholder: university
+summary: The medical faculty brings its academic priorities into the options and takes part in adopting the strategy through its seats
+  on the board.
+stages:
+- slug: bring-academic-priorities
+  title: Bring Academic Priorities
+  goal: Make sure the options keep research and teaching inside the commons' priorities and investments.
+  step: strategy-development/vision-and-option-design
+  touchpoints:
+  - strategy-workshop
+- slug: vote-on-the-strategy
+  title: Vote on the Strategy
+  goal: Take part in adopting the strategy through the faculty's seats on the board.
+  step: strategy-development/strategy-choice-and-adoption
+  touchpoints:
+  - board-meeting

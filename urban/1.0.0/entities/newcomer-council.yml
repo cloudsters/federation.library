@@ -1,0 +1,57 @@
+kind: entity
+slug: newcomer-council
+title: Newcomer Council
+type: master
+summary: A body of newcomers that advises on and helps steer how the city receives them, with its members, mandate and the matters
+  on which it is heard. Its secretary keeps the record together with the administration, and it is used to hear newcomers on the integration
+  plan, housing and services, including those who cannot yet vote.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: mandate
+  type: text
+  card: 1..1
+- name: members
+  type: text
+  card: 1..*
+- name: member-selection
+  type: code
+  card: 1..1
+- name: term
+  type: period
+  card: 0..1
+- name: matters-heard
+  type: text
+  card: 1..*
+- name: decision-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+- name: meeting-schedule
+  type: text
+  card: 0..1
+- name: member-compensation
+  type: amount
+  card: 0..1
+- name: established-by
+  type: reference(council-decision)
+  card: 0..1
+states:
+- proposed
+- constituted
+- sitting
+- renewed
+- suspended
+- dissolved
+relations:
+- type: governed-by
+  target: participation-charter
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: integration-plan
+- type: refers-to
+  target: council

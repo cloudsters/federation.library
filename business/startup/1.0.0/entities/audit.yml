@@ -1,0 +1,45 @@
+kind: entity
+slug: audit
+title: Audit
+type: governance
+summary: A systematic examination — a structured review of the organisation's compliance, performance, or controls, providing assurance to
+  governance bodies and stakeholders.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: criteria
+  type: reference(compliance-rule)
+  card: 0..*
+- name: audit-plan
+  type: document
+  card: 0..1
+- name: evidence
+  type: document
+  card: 0..*
+- name: findings
+  type: reference(audit-finding)
+  card: 0..*
+- name: recommendations
+  type: text
+  card: 0..*
+states:
+- planned
+- fieldwork
+- findings-drafted
+- reported
+- follow-up
+- closed
+relations:
+- type: refers-to
+  target: compliance-rule
+- type: refers-to
+  target: quality-standard
+- type: produces
+  target: remediation-plan
+- type: produces
+  target: audit-finding
+binds:
+- source: src-092
+  edition: 2021-a1-2024
+  jurisdiction: global

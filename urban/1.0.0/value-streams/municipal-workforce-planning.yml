@@ -1,0 +1,133 @@
+kind: value-stream
+slug: municipal-workforce-planning
+title: Municipal Workforce Planning
+family: contributor-to-succession
+summary: Planning the people and the automated services the city needs to run its work. It holds the demand for staff and skills by
+  service, the retirements and departures ahead and the knowledge they put at risk, the mix of staff, contracted workers, apprentices,
+  volunteers and AI agents that does the work, and a plan the council approves and the administration follows.
+trigger: The strategy or budget cycle opens, a service is created, grows or changes, or vacancies and departures rise in a department.
+outcome: An approved workforce plan by department, role and skill mix sets the targets for recruitment, apprenticeships, succession
+  and automation, and actual staffing is checked against it through the year.
+stakeholders:
+- city-council
+- city-administration
+- personnel-officer
+- staff-representative
+- municipal-employee
+- finance-officer
+steps:
+- slug: planning-mandate
+  title: Planning Mandate
+  summary: The council sets what the workforce plan must cover for the term, drawing on the city strategy and the medium-term financial
+    plan, and the personnel function agrees the timetable and the questions with staff representatives.
+  capabilities:
+  - workforce-plan-drafting
+  - municipal-capability-assessment
+  - staff-representative-consultation
+  entities:
+  - workforce-plan
+  - city-strategy
+  - medium-term-financial-plan
+  serves:
+  - workforce-plan-brief
+  - workforce-planning-consultation
+- slug: workforce-baseline
+  title: Workforce Baseline
+  summary: The personnel function takes stock of every position, the person or agent who holds it, their skills, contracts and age,
+    and of the work that contracted workers and volunteers do for the city, so that work no one has counted becomes visible.
+  capabilities:
+  - staff-record-keeping
+  - workforce-mix-design
+  - knowledge-gap-assessment
+  entities:
+  - staff-record
+  - position
+  - ai-agent
+  - volunteer-record
+  serves:
+  - workforce-baseline-report
+- slug: demand-forecast
+  title: Demand Forecast
+  summary: Departments estimate the staff and skills each service will need over the plan's horizon, from population change, new services
+    and automation proposals, and from the maintenance, care and infrastructure work the city itself requires.
+  capabilities:
+  - workforce-demand-forecasting
+  - automation-candidate-assessment
+  - resident-need-assessment
+  entities:
+  - workforce-forecast
+  - automation-proposal
+  - need-assessment
+  serves:
+  - service-staffing-workshop
+- slug: supply-and-retirement-forecast
+  title: Supply and Retirement Forecast
+  summary: The personnel function forecasts who will retire, leave or change role, which key roles and knowledge rest on a single
+    person, and how many apprentices and local recruits can fill the gaps in time.
+  capabilities:
+  - retirement-and-attrition-forecasting
+  - key-role-review
+  - knowledge-gap-assessment
+  entities:
+  - workforce-forecast
+  - succession-plan
+  - position
+  serves:
+  - retirement-and-knowledge-risk-map
+- slug: gap-closure-design
+  title: Gap Closure Design
+  summary: For each gap the plan chooses between recruitment, apprenticeship, internal moves, staff shared with neighbouring municipalities,
+    volunteers and AI agents, sets local hiring targets, and names the work that stays with a person.
+  capabilities:
+  - workforce-mix-design
+  - human-agent-task-division
+  - local-hiring-requirement-setting
+  - apprenticeship-pool-funding
+  entities:
+  - workforce-plan
+  - local-hiring-agreement
+  serves:
+  - personnel-committee-meeting
+  - service-staffing-workshop
+  - workforce-planning-consultation
+- slug: plan-approval
+  title: Plan Approval
+  summary: After staff representatives have been consulted, the council approves the workforce plan together with the budget that
+    funds it, and the plan is published.
+  capabilities:
+  - workforce-plan-drafting
+  - staff-representative-consultation
+  - council-decision-preparation
+  entities:
+  - workforce-plan
+  - council-decision
+  - municipal-budget
+  serves:
+  - personnel-committee-meeting
+  - published-workforce-plan
+  - workforce-planning-consultation
+- slug: plan-monitoring
+  title: Plan Monitoring
+  summary: Each quarter the personnel function compares staffing, vacancies, turnover and apprentice numbers with the plan, and returns
+    each deviation to the department concerned and, where it matters, to the council.
+  capabilities:
+  - workforce-demand-forecasting
+  - staff-record-keeping
+  - retention-review
+  entities:
+  - workforce-plan
+  - workforce-forecast
+  - staff-record
+  serves:
+  - personnel-committee-meeting
+  - quarterly-workforce-report
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-239
+  edition: '2016'
+  jurisdiction: global

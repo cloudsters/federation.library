@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: payment-security-for-a-first-trade
+title: Payment Security for a First Trade
+between:
+- business-customer
+- finance-professional
+offered:
+- A bank-backed payment instrument where trust is not yet established.
+returned:
+- Shipment on the agreed terms with compliant documents, so that a relationship can begin before trust exists.
+touchpoint: invoice

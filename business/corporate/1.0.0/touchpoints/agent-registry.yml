@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-registry
+title: Agent Registry
+medium: channel
+summary: The register of all agents in use, with their mandates, owners, versions, trust boundaries and review dates, through which
+  their working life is governed.
+exchanges:
+- mandate-for-accountable-agency
+journey: agent-working-under-a-clear-mandate

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: obstacle-reports-for-smoother-paths
+title: Obstacle Reports for Smoother Paths
+between:
+- consumer
+- customer-service-representative
+offered:
+- Accounts of where finding, buying or getting help went wrong.
+returned:
+- Obstacles removed before others meet them, and a path through the channels that holds together.
+touchpoint: journey-mapping-workshop

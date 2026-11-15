@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: patient-billing-service
+title: Patient Billing Service
+medium: channel
+summary: The desk, telephone and online service through which patients ask about their bills, pay them and agree payment plans.
+exchanges:
+- transparent-bill-for-payment
+journey: paying-for-care-directly

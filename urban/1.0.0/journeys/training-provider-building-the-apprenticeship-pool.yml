@@ -1,0 +1,35 @@
+kind: journey
+slug: training-provider-building-the-apprenticeship-pool
+title: Training Provider Building the Apprenticeship Pool
+stakeholder: training-provider
+summary: A training provider joins the city, employers, unions and anchor institutions in a shared apprenticeship pool, fits its teaching
+  to the standards practitioners set, opens its doors to young people, residents out of work and newcomers, and certifies completion
+  together with practitioners.
+stages:
+- slug: join-the-pool
+  title: Join the Pool
+  goal: The provider has signed the pool agreement, with the training levy, procurement requirements and maintenance budgets that
+    fund stipends and mentors.
+  step: apprenticeships-and-skills-transmission/apprenticeship-pool-set-up
+  touchpoints:
+  - apprenticeship-pool-agreement
+  - apprenticeship-pool-board-meeting
+- slug: fit-teaching-to-the-standard
+  title: Fit Teaching to the Standard
+  goal: The provider's teaching follows the standards practitioners set, rather than replacing them.
+  step: apprenticeships-and-skills-transmission/competency-standards
+  touchpoints:
+  - trade-practitioners-circle
+- slug: open-the-doors
+  title: Open the Doors
+  goal: Young people, residents out of work and newcomers have been reached and admitted, with teaching timed around their care duties
+    and work.
+  step: apprenticeships-and-skills-transmission/apprentice-intake
+  touchpoints:
+  - apprenticeship-open-day
+- slug: certify-with-practitioners
+  title: Certify with Practitioners
+  goal: Completion is certified together with practitioners, so that the credential travels between employers.
+  step: apprenticeships-and-skills-transmission/credential-and-placement
+  touchpoints:
+  - portable-trade-credential

@@ -1,0 +1,62 @@
+kind: entity
+slug: fund-allocation
+title: Fund Allocation
+type: transactional
+summary: A decision by a neighbourhood or district body and its residents on how a share of the commons fund is reinvested, in homes,
+  the upkeep of shared infrastructure, community land, accessibility or recovery reserves, or returned to residents. The neighbourhood
+  body takes and records it under the fund rules, and the treasury pays it out and reports on it.
+attributes:
+- name: allocation-number
+  type: identifier
+  card: 1..1
+- name: fund
+  type: reference(commons-fund)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: deciding-body
+  type: text
+  card: 1..1
+- name: allocation-period
+  type: period
+  card: 1..1
+- name: share-amount
+  type: amount
+  card: 1..1
+- name: need-weight
+  type: decimal
+  card: 0..1
+- name: use-kinds
+  type: code
+  card: 1..*
+- name: funded-programmes
+  type: reference(city-programme)
+  card: 0..*
+- name: returned-to-residents
+  type: amount
+  card: 0..1
+- name: participant-count
+  type: integer
+  card: 0..1
+- name: decided-on
+  type: date
+  card: 1..1
+states:
+- proposed
+- deliberated
+- decided
+- paid
+- delivered
+- reported
+relations:
+- type: governed-by
+  target: commons-fund-rules
+- type: refers-to
+  target: commons-fund
+- type: refers-to
+  target: neighbourhood
+- type: based-on
+  target: public-consultation
+- type: produces
+  target: payment

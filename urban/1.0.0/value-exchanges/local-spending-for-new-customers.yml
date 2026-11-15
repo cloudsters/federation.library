@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: local-spending-for-new-customers
+title: Local Spending for New Customers
+between:
+- investor
+- local-business
+offered:
+- The settled enterprise's spending with local suppliers.
+returned:
+- Reliable local supply and a place in the city's networks.
+touchpoint: local-supplier-introduction

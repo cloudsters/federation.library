@@ -1,0 +1,33 @@
+kind: entity
+slug: need-intent
+title: Need Intent
+type: transactional
+summary: A typed declaration of required value broadcast into the federated commons network — not a purchase requisition but a living
+  signal shaped by the commons’ operational state, dimensional requirements, and L5 integrity constraints. Includes what is needed,
+  by when, at what dimensional terms, and what counterparty characteristics are required (trust score floor, ecological credentials,
+  purpose alignment).
+attributes:
+- name: needed
+  type: text
+  card: 1..1
+- name: deadline
+  type: date
+  card: 0..1
+- name: dimensional-terms
+  type: text
+  card: 0..*
+- name: required-counterparty
+  type: text
+  card: 0..*
+states:
+- composed
+- broadcast
+- routed
+- matched
+- expired
+- escalated-to-human
+relations:
+- type: produces
+  target: a2a-handshake
+- type: refers-to
+  target: dynamic-proposition

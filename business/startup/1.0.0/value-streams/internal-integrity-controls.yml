@@ -1,0 +1,101 @@
+kind: value-stream
+slug: internal-integrity-controls
+title: Internal Integrity Controls
+family: value-to-sustainability
+summary: Building controls into the flow of work so that the organisation spends what it approved and does what it says, operating and
+  testing those controls, auditing them as a check of how well they work and reporting on their effectiveness.
+trigger: A control test or audit falls due, a process changes, or a control deficiency is found.
+outcome: Controls are operating and tested, and every deficiency is remediated and reported.
+stakeholders:
+- supervisory-board
+- executive-board
+- finance-professional
+- legal-risk-and-compliance-professional
+- external-auditor
+- employee
+steps:
+- slug: control-framework-design
+  title: Control Framework Design
+  summary: The risks in each process are mapped to controls with named owners, and the responsibilities of the board, management and
+    staff for control are set.
+  capabilities:
+  - internal-control-as-integrity
+  entities:
+  - internal-control
+  - policy
+  - risk
+  - process-model
+  serves:
+  - control-matrix
+  - supervisory-board-meeting
+- slug: commitment-control
+  title: Commitment Control
+  summary: Every commitment is checked against the approved budget and recorded before it becomes an expense, so that promises never
+    exceed the funds behind them.
+  capabilities:
+  - budgetary-control-encumbrance
+  entities:
+  - budget
+  - purchase-order
+  - approval
+  serves:
+  - approval-workflow
+  - purchase-order
+- slug: control-operation-and-monitoring
+  title: Control Operation and Monitoring
+  summary: Controls are operated in the daily flow of transactions, and their effectiveness is monitored continuously and by periodic
+    tests.
+  capabilities:
+  - controls-monitoring
+  - internal-control-as-integrity
+  entities:
+  - internal-control
+  - measure-report
+  serves:
+  - approval-workflow
+- slug: internal-audit-review
+  title: Internal Audit Review
+  summary: Internal audit examines whether processes and controls work as intended, as a caring diagnosis of the organisation's health
+    rather than a search for culprits.
+  capabilities:
+  - audit-as-health-diagnosis
+  entities:
+  - audit
+  - audit-finding
+  - internal-control
+  serves:
+  - audit-fieldwork
+  - internal-audit-report
+  - supervisory-board-meeting
+- slug: deficiency-remediation
+  title: Deficiency Remediation
+  summary: Each control deficiency receives an owner, a measure and a date, and is followed until it is closed and retested.
+  capabilities:
+  - controls-monitoring
+  - internal-control-as-integrity
+  entities:
+  - audit-finding
+  - remediation-plan
+  - internal-control
+  serves:
+  - control-matrix
+  - internal-audit-report
+- slug: control-effectiveness-reporting
+  title: Control Effectiveness Reporting
+  summary: The state of internal control is reported to management, the supervisory body and the authorities that require it.
+  capabilities:
+  - controls-reporting
+  entities:
+  - report
+  - internal-control
+  - statutory-report
+  serves:
+  - internal-audit-report
+  - supervisory-board-meeting
+binds:
+- source: src-114
+  edition: '2021'
+  jurisdiction: global
+- source: src-097
+  edition: '2010'
+  jurisdiction: global

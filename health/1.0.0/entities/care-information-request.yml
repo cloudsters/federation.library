@@ -1,0 +1,49 @@
+kind: entity
+slug: care-information-request
+title: Care Information Request
+type: transactional
+summary: A request by a patient, a representative or an entitled third party to see, copy, correct, restrict or export care information,
+  tracked against its basis and the deadline for answering it.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: requester-kind
+  type: code
+  card: 1..1
+- name: request-kind
+  type: code
+  card: 1..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+- name: legal-basis
+  type: reference(authorization-by-law)
+  card: 0..1
+- name: response
+  type: document
+  card: 0..1
+states:
+- received
+- under-review
+- fulfilled
+- partially-fulfilled
+- refused
+relations:
+- type: based-on
+  target: mandate-to-export-personal-information
+- type: refers-to
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global

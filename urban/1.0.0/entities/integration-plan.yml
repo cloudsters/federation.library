@@ -1,0 +1,61 @@
+kind: entity
+slug: integration-plan
+title: Integration Plan
+type: governance
+summary: The city's plan for welcoming and integrating newcomers, made with them and adopted by the council, with how arrivals are
+  received and settled across neighbourhoods and the services open to them. The administration drafts it with newcomers, established
+  migrant communities and neighbourhood bodies, and reviews it with newcomers against whether they found work, housing, services and
+  neighbours.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: reception-arrangements
+  type: text
+  card: 1..*
+- name: settlement-across-neighbourhoods
+  type: text
+  card: 0..1
+- name: open-services
+  type: reference(public-service)
+  card: 0..*
+- name: welcome-points
+  type: reference(welcome-point)
+  card: 0..*
+- name: language-policy
+  type: reference(language-access-policy)
+  card: 0..1
+- name: drafted-with
+  type: text
+  card: 1..*
+- name: need-assessment
+  type: reference(need-assessment)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: need-assessment
+- type: refers-to
+  target: welcome-point
+- type: refers-to
+  target: newcomer-council
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: whole-city-assessment

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: retention-schedule
+title: Retention Schedule
+medium: artefact
+summary: The published schedule of how long each kind of data is kept, for what purpose, and when it is deleted or anonymised.
+exchanges:
+- retention-periods-for-lawful-disposal
+journey: data-protection-officer-keeping-every-use-lawful

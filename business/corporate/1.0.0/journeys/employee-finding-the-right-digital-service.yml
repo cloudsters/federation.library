@@ -1,0 +1,27 @@
+kind: journey
+slug: employee-finding-the-right-digital-service
+title: Employee Finding the Right Digital Service
+stakeholder: employee
+summary: An employee voices what would help in daily work, finds the digital services available and how to use them, and tells how
+  well they serve.
+stages:
+- slug: voice-what-would-help
+  title: Voice What Would Help
+  goal: The employee's need is heard, even where it was never written as a request.
+  step: stakeholder-technology-relationship/technology-need-sensing
+  touchpoints:
+  - technology-partnering-meeting
+  - service-desk
+- slug: find-the-service
+  title: Find the Service
+  goal: The employee finds the right service and understands how to use it.
+  step: stakeholder-technology-relationship/service-offer-communication
+  touchpoints:
+  - service-catalogue
+  - intranet
+- slug: tell-how-it-serves
+  title: Tell How It Serves
+  goal: The employee's experience of the service is asked for and shapes improvement.
+  step: stakeholder-technology-relationship/service-performance-review
+  touchpoints:
+  - service-review

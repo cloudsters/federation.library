@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: a-correct-invoice-for-payment-within-days
+title: A Correct Invoice for Payment Within Days
+between:
+- local-producer
+- finance-officer
+offered:
+- A correct invoice that matches the order and the delivery.
+returned:
+- Payment within the short fixed time, with interest if the city pays late.
+touchpoint: supplier-invoice-channel

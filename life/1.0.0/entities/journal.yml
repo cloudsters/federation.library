@@ -1,0 +1,38 @@
+kind: entity
+slug: journal
+title: Journal
+type: intelligence
+summary: Where this person writes to find out what they think. The oldest instrument in the model and the one all the others were
+  eventually derived from.
+attributes:
+- name: begun-on
+  type: date
+  card: 1..1
+- name: last-entry
+  type: date
+  card: 0..1
+- name: form
+  type: code
+  card: 0..1
+- name: where-kept
+  type: text
+  card: 0..1
+- name: private
+  type: boolean
+  card: 1..1
+- name: recurring-themes
+  type: text
+  card: 0..*
+states:
+- begun
+- kept
+- lapsed
+- resumed
+- closed
+relations:
+- target: self
+  type: about
+- target: experience
+  type: records
+- target: personal-archive
+  type: part-of

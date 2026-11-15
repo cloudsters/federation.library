@@ -1,0 +1,114 @@
+kind: value-stream
+slug: knowledge-sharing-and-staff-learning
+title: Knowledge Sharing and Staff Learning
+family: collaboration-to-automation
+summary: Keeping what the city's staff and partners know alive and shared. It holds the capture of the expertise of frontline workers
+  and long-serving staff, a curated body of knowledge open to staff and partners, communities of practice across departments, learning
+  paths that build lasting capacity in the administration, exchange with peer cities, and the handover of knowledge when people change
+  roles or leave.
+trigger: Knowledge is found missing or at risk of loss, a person with key knowledge changes role or leaves, a new capacity is needed,
+  or staff ask to learn from one another or from peer cities.
+outcome: The knowledge the city's work depends on is recorded, current and reachable, staff hold the capacity their work needs, and
+  no service depends on one person's memory.
+stakeholders:
+- city-administration
+- frontline-worker
+- staff-representative
+- peer-city
+- research-institution
+- civil-society-organisation
+steps:
+- slug: knowledge-gap-assessment
+  title: Knowledge Gap Assessment
+  summary: Departments assess what knowledge their work depends on, where it is held by only one person and where capacity is missing.
+  capabilities:
+  - knowledge-gap-assessment
+  - municipal-capability-assessment
+  entities:
+  - municipal-capability
+  - department
+  serves:
+  - knowledge-risk-review
+- slug: frontline-knowledge-capture
+  title: Frontline Knowledge Capture
+  summary: The everyday expertise of drivers, maintenance crews, caseworkers and other frontline staff is documented with them and
+    credited to them, and it is given weight in design decisions.
+  capabilities:
+  - frontline-knowledge-capture
+  - contribution-recognition
+  entities:
+  - knowledge-article
+  - lesson-record
+  serves:
+  - knowledge-capture-interview
+- slug: curation-and-access
+  title: Curation and Access
+  summary: Knowledge is curated, kept current and opened to staff, partners and, where suitable, residents, with the source and date
+    of each entry. Outdated entries are retired.
+  capabilities:
+  - knowledge-curation-and-access
+  - lesson-recording-and-sharing
+  entities:
+  - knowledge-article
+  - lesson-record
+  serves:
+  - staff-knowledge-base
+- slug: communities-of-practice
+  title: Communities of Practice
+  summary: Staff who do similar work across departments, and partners who do it outside the administration, meet regularly to share
+    problems, failures and solutions.
+  capabilities:
+  - community-of-practice-support
+  - frontline-knowledge-capture
+  entities:
+  - community-of-practice
+  - knowledge-article
+  serves:
+  - community-of-practice-meeting
+- slug: learning-paths
+  title: Learning Paths
+  summary: Staff build lasting capacity through learning paths that join practice, mentoring and the expertise of research partners.
+    Knowledge is built into the administration rather than bought in for each project.
+  capabilities:
+  - staff-learning-path-design
+  - community-of-practice-support
+  entities:
+  - staff-learning-path
+  - research-partnership-agreement
+  serves:
+  - research-partner-teaching-session
+  - staff-learning-path-plan
+- slug: peer-city-exchange
+  title: Peer City Exchange
+  summary: The city exchanges evidence, visits and staff with peer cities, and shares what failed as openly as what worked.
+  capabilities:
+  - peer-city-exchange
+  - lesson-recording-and-sharing
+  entities:
+  - peer-exchange
+  - lesson-record
+  serves:
+  - peer-city-staff-exchange
+- slug: knowledge-handover
+  title: Knowledge Handover
+  summary: When a person changes role or leaves, what they know, their working relationships and their open matters are handed over
+    and recorded before they go.
+  capabilities:
+  - knowledge-handover
+  - knowledge-curation-and-access
+  entities:
+  - knowledge-article
+  - municipal-capability
+  serves:
+  - handover-record
+  - knowledge-handover-meeting
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global
+- source: src-235
+  edition: '2019-05-22'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-review-forum
+title: Service Review Forum
+medium: encounter
+summary: The meeting at a fixed time after launch in which users, residents who do not use the service, staff and the department review
+  it against what it promised.
+exchanges:
+- delivery-view-for-a-review-that-counts-it
+- use-and-absence-for-a-kept-changed-or-closed-service
+journey: city-administration-bringing-a-new-service-into-use

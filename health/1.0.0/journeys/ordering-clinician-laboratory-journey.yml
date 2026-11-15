@@ -1,0 +1,35 @@
+kind: journey
+slug: ordering-clinician-laboratory-journey
+title: Ordering Clinician Laboratory Journey
+stakeholder: specialist-physician
+summary: A clinician orders the right test with little effort, has the specimen taken and carried correctly, learns at once when it
+  must be repeated and receives a validated result in time, critical values by telephone.
+stages:
+- slug: order-the-right-test
+  title: Order the Right Test
+  goal: Order the test that answers the question, with little effort and no duplicates.
+  step: laboratory-diagnostics/test-ordering
+  touchpoints:
+  - clinical-workstation
+  - decision-support-prompt
+- slug: have-the-specimen-taken
+  title: Have the Specimen Taken
+  goal: Have specimens taken from the right patient and carried to the laboratory on time.
+  step: laboratory-diagnostics/specimen-collection-and-transport
+  touchpoints:
+  - bedside-check
+  - specimen-transport
+  - laboratory-counter
+- slug: learn-of-an-unfit-specimen
+  title: Learn of an Unfit Specimen
+  goal: Learn at once when a specimen is unfit and must be taken again.
+  step: laboratory-diagnostics/specimen-receipt
+  touchpoints:
+  - clinical-workstation
+- slug: receive-the-result
+  title: Receive the Result
+  goal: Receive validated results in time, with critical values by telephone and advice where needed.
+  step: laboratory-diagnostics/result-communication
+  touchpoints:
+  - urgent-result-call
+  - diagnostic-report

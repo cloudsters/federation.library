@@ -1,0 +1,39 @@
+kind: journey
+slug: housing-officer-running-city-homes-with-their-tenants
+title: Housing Officer Running City Homes with Their Tenants
+stakeholder: housing-officer
+summary: A housing officer sets the standard of a livable home with the tenant body, agrees a funded renewal programme with tenants,
+  sees repairs through to the tenant's confirmation and lets an empty home again quickly to the next household on the register.
+stages:
+- slug: set-the-standard-with-tenants
+  title: Set the Standard with Tenants
+  goal: The tenant body of the building has set the standard of a livable home with the housing office and trained residents to inspect
+    against it.
+  step: public-housing-and-tenancy-services/tenant-body-and-standards
+  touchpoints:
+  - tenant-body-meeting
+  - livable-home-standard
+- slug: agree-the-renewal-programme
+  title: Agree the Renewal Programme
+  goal: The condition of every building is surveyed, and a funded programme for roofs, heating, damp, safety and energy use is agreed
+    with tenants.
+  step: public-housing-and-tenancy-services/planned-maintenance-and-retrofit
+  touchpoints:
+  - stock-condition-survey
+  - retrofit-site-meeting
+  - tenant-body-meeting
+- slug: see-repairs-through
+  title: See Repairs Through
+  goal: Each reported repair is done by the city's crews, a contractor or a tenant repair group within the published times and checked
+    against the standard.
+  step: public-housing-and-tenancy-services/repair-request-and-response
+  touchpoints:
+  - repair-visit
+  - livable-home-standard
+- slug: let-the-home-again
+  title: Let the Home Again
+  goal: The vacated home is repaired to the agreed standard within the set days and let to the next household on the register.
+  step: public-housing-and-tenancy-services/tenancy-end-and-re-letting
+  touchpoints:
+  - home-inspection-walk
+  - published-allocation-record

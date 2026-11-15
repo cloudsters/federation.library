@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: opened-building-for-shared-upkeep
+title: Opened Building for Shared Upkeep
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The neighbours' care for the building and its grounds outside core hours.
+returned:
+- A school or library opened under agreed hours, rules and keys.
+touchpoint: shared-use-agreement-meeting

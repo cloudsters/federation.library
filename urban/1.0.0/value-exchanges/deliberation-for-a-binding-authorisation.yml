@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: deliberation-for-a-binding-authorisation
+title: Deliberation for a Binding Authorisation
+between:
+- affected-community
+- city-council
+offered:
+- The community's time to deliberate and its decision to authorise, condition or refuse a system.
+returned:
+- An authorisation the council stands by, with conditions that bind the department.
+touchpoint: community-deliberation-circle

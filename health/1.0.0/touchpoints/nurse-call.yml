@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: nurse-call
+title: Nurse Call
+medium: channel
+summary: The bedside call system through which a patient or relative summons help at any hour, and whose response time patients experience
+  directly.
+exchanges: []
+journey: nursing-care-journey

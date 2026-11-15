@@ -1,0 +1,25 @@
+kind: journey
+slug: information-technology-specialist-guarding-platform-dependencies
+title: Information Technology Specialist Guarding Platform Dependencies
+stakeholder: information-technology-specialist
+summary: An information technology specialist publishes versioned interfaces, chooses external platforms with care for the dependency
+  they create and measures reach and ecosystem health.
+stages:
+- slug: publish-versioned-interfaces
+  title: Publish Versioned Interfaces
+  goal: Interfaces are versioned, documented and changed with notice.
+  step: platform-ecosystem-distribution/interface-publication
+  touchpoints:
+  - developer-portal
+- slug: choose-platforms-with-care
+  title: Choose Platforms with Care
+  goal: External platforms are chosen with fallbacks kept for whatever is core to operations.
+  step: platform-ecosystem-distribution/platform-selection-and-dependency-review
+  touchpoints:
+  - platform-dependency-review
+- slug: measure-reach-and-health
+  title: Measure Reach and Health
+  goal: Reach, usage and complementor health are measured and dependency is watched.
+  step: platform-ecosystem-distribution/reach-and-ecosystem-health-review
+  touchpoints:
+  - ecosystem-review

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: clinic-letter-for-continued-care
+title: Clinic Letter for Continued Care
+between:
+- specialist-physician
+- referring-practice
+offered:
+- A timely clinic letter with diagnosis, results, medication changes and a clear division of who does what next.
+returned:
+- Continued care and prescribing in general practice, follow-up of open points and further referrals.
+touchpoint: clinical-messaging-service

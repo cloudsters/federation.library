@@ -1,0 +1,21 @@
+kind: journey
+slug: giving-correction
+title: Giving Correction
+stakeholder: mentor
+via: discovery-to-usage
+summary: A teacher or coach is asked to show what this person cannot see in their own work, finds the correction taken in, and later
+  sees the person practising beside those just starting.
+stages:
+- slug: be-asked-to-correct
+  title: Be Asked to Correct
+  goal: The mentor has been shown the work with its faults, and has seen the correction taken in rather than argued with.
+  step: practice-to-mastery/seeking-correction
+  touchpoints:
+  - the-lesson
+  - practising-together
+- slug: see-it-carried-on
+  title: See It Carried On
+  goal: The mentor sees the person practising beside beginners, carrying the craft one step further along the line.
+  step: practice-to-mastery/practising-with-those-behind
+  touchpoints:
+  - practising-together

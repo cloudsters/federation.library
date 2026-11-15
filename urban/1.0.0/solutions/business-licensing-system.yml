@@ -1,0 +1,14 @@
+kind: solution
+slug: business-licensing-system
+title: Business Licensing System
+role: system-of-record
+summary: Holds the register of enterprises active in the city by neighbourhood, sector and form of ownership, and every vendor and
+  platform licence with its terms, fees and conditions on data, portability and workers' voice.
+carries:
+- vendor-registration
+- platform-licence-condition-setting
+- data-portability-requirement-setting
+holds:
+- business-register
+- vendor-licence
+- platform-licence

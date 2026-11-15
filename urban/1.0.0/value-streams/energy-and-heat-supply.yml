@@ -1,0 +1,132 @@
+kind: value-stream
+slug: energy-and-heat-supply
+title: Energy and Heat Supply
+family: demand-to-fulfillment
+summary: Supplying the city's homes, services and businesses with reliable, affordable and renewable power and heat, increasingly
+  produced and owned in the city. It holds local energy planning by neighbourhood, renewable generation on public roofs and land with
+  community energy cooperatives, heat networks that use waste heat, the operation and balancing of the local grid with meter data
+  under rules residents agree, energy retrofit of buildings, the response to outages, and the transition of workers from fossil energy.
+trigger: The energy strategy is reviewed, a neighbourhood or cooperative proposes a project, a building is due for renewal, or supply
+  fails.
+outcome: Homes and services are supplied reliably with renewable power and heat, a growing share is owned by residents, and outages
+  are short.
+stakeholders:
+- resident
+- infrastructure-operator
+- neighbourhood-association
+- local-business
+- tenant
+- trade-union
+- city-council
+steps:
+- slug: local-energy-planning
+  title: Local Energy Planning
+  summary: The city maps heat and power demand and the sources of renewable energy and waste heat by neighbourhood, and decides in
+    the energy strategy where heat networks, generation and retrofit go first.
+  capabilities:
+  - local-energy-planning
+  - analysis-and-modelling
+  entities:
+  - energy-strategy
+  - energy-grid
+  - gis-layer
+  serves:
+  - energy-planning-workshop
+  - neighbourhood-heat-and-power-map
+- slug: community-renewable-generation
+  title: Community Renewable Generation
+  summary: Public roofs and land are offered for solar, wind and heat pumps to community energy cooperatives and municipal enterprises,
+    under leases that keep the return in the city.
+  capabilities:
+  - community-energy-partnering
+  - public-land-leasing
+  - enterprise-surplus-allocation
+  entities:
+  - cooperative
+  - building
+  - municipal-enterprise
+  serves:
+  - community-solar-roof
+  - public-roof-lease
+- slug: heat-network-connection
+  title: Heat Network Connection
+  summary: Waste heat from buildings, industry and wastewater is captured, stored between seasons and carried to homes and businesses
+    by heat networks to which households are connected.
+  capabilities:
+  - energy-network-operation
+  - network-connection-provision
+  entities:
+  - heat-network
+  - service-connection
+  serves:
+  - heat-connection-visit
+  - utility-connection-request
+- slug: grid-operation-and-flexibility
+  title: Grid Operation and Flexibility
+  summary: The local grid is run and kept in repair, supply and demand are balanced with flexibility that households and cooperatives
+    offer, and meter data is used only under rules residents have agreed.
+  capabilities:
+  - energy-network-operation
+  - utility-network-maintenance
+  - data-sharing-agreement-drafting
+  entities:
+  - energy-grid
+  - data-sharing-agreement
+  - infrastructure-repair
+  serves:
+  - smart-meter-data-consent
+- slug: building-energy-retrofit
+  title: Building Energy Retrofit
+  summary: Public buildings and homes are insulated and switched to renewable heat in a programme planned building by building, with
+    tenants and owners' cooperatives taking part in the work and its gains.
+  capabilities:
+  - planned-maintenance-and-retrofit
+  - community-energy-partnering
+  entities:
+  - building
+  - capital-project
+  serves:
+  - retrofit-site-meeting
+- slug: outage-response
+  title: Outage Response
+  summary: When power or heat fails, essential services and vulnerable residents are restored first, neighbourhood batteries and backup
+    keep key places running, and residents are told when supply returns.
+  capabilities:
+  - supply-interruption-response
+  - public-warning
+  entities:
+  - supply-interruption
+  - energy-grid
+  serves:
+  - backup-powered-community-centre
+  - leak-and-outage-line
+- slug: energy-transition-review
+  title: Energy Transition Review
+  summary: Each year the city reviews the share of renewable energy, emissions, outages and the share owned by residents, and how
+    workers leaving fossil energy have moved into new work.
+  capabilities:
+  - local-energy-planning
+  - workforce-transition-planning
+  entities:
+  - carbon-footprint
+  - energy-strategy
+  - workforce-transition-plan
+  serves:
+  - energy-planning-workshop
+  - energy-transition-report
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global
+- source: src-293
+  edition: '2009'
+  jurisdiction: global

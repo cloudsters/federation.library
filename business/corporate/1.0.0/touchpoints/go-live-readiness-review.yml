@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: go-live-readiness-review
+title: Go-Live Readiness Review
+medium: encounter
+summary: The meeting that checks dependencies, fallback, handover and readiness of people before a change is taken live, and takes
+  the go decision.
+exchanges:
+- operational-readiness-for-a-go-decision
+journey: unit-leader-taking-a-change-live

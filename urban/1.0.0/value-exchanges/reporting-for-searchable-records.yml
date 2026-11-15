@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reporting-for-searchable-records
+title: Reporting for Searchable Records
+between:
+- news-media
+- city-administration
+offered:
+- Reporting that carries the city's decisions and conduct to residents, and questions that test them.
+returned:
+- Searchable records and answers to requests within their deadlines.
+touchpoint: city-transparency-site

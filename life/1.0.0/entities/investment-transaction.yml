@@ -1,0 +1,38 @@
+kind: entity
+slug: investment-transaction
+title: Investment Transaction
+type: transactional
+summary: 'Buying, selling or rebalancing something held for the future. Held apart from `expense`: this is money moved rather than
+  money spent, and confusing the two is a standing error.'
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: amount
+  type: money
+  card: 1..1
+- name: made-on
+  type: date
+  card: 1..1
+- name: from
+  type: reference(account)
+  card: 1..1
+- name: to
+  type: reference(account)
+  card: 0..1
+- name: reason
+  type: text
+  card: 1..1
+- name: within-own-rules
+  type: boolean
+  card: 1..1
+states:
+- considered
+- placed
+- settled
+- looked back on
+relations:
+- target: investment-policy
+  type: based-on
+- target: account
+  type: about

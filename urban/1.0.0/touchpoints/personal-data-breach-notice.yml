@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: personal-data-breach-notice
+title: Personal Data Breach Notice
+medium: artefact
+summary: The notice to the data protection authority and to the residents affected of a breach of personal data, what was breached
+  and what can be done.
+exchanges:
+- breach-reports-for-supervisory-guidance
+- breach-notice-for-protective-steps
+journey: data-protection-officer-keeping-every-use-lawful

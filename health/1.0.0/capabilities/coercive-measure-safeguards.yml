@@ -1,0 +1,16 @@
+kind: capability
+slug: coercive-measure-safeguards
+title: Coercive Measure Safeguards
+level: L3
+parent: mental-health-care
+summary: Minimise coercive measures and apply legal and clinical safeguards when they cannot be avoided.
+binds:
+- source: src-496
+  edition: '2014'
+  jurisdiction: global
+- source: src-504
+  edition: '2012'
+  jurisdiction: global
+- source: src-610
+  edition: '2006'
+  jurisdiction: global

@@ -1,0 +1,64 @@
+kind: entity
+slug: audit-finding
+title: Audit Finding
+type: transactional
+summary: A finding of an internal audit, a resident inspection, a compliance test or an emergency exercise, with its evidence, the
+  answer it receives and the action it requires. The body that raised it records it, the administration answers it publicly within
+  a set time, and it is followed until it is closed.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: source-kind
+  type: code
+  card: 1..1
+- name: raised-by
+  type: text
+  card: 1..1
+- name: examined-subject
+  type: text
+  card: 1..1
+- name: found-on
+  type: date
+  card: 1..1
+- name: condition-found
+  type: text
+  card: 1..1
+- name: evidence
+  type: document
+  card: 1..*
+- name: required-action
+  type: text
+  card: 0..1
+- name: action-owner
+  type: text
+  card: 0..1
+- name: answer-due
+  type: date
+  card: 0..1
+- name: answer
+  type: text
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- raised
+- notified
+- answered
+- actioned
+- verified
+- closed
+relations:
+- type: part-of
+  target: oversight-report
+- type: refers-to
+  target: public-procurement
+- type: refers-to
+  target: obligation-register
+- type: refers-to
+  target: emergency-plan
+binds:
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

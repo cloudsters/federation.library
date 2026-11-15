@@ -1,0 +1,43 @@
+kind: entity
+slug: asset
+title: Asset
+type: master
+summary: An item of property the organisation owns or leases and depreciates, such as a building, a piece of equipment or a vehicle,
+  held with acquisition value, useful life, location and funding source.
+attributes:
+- name: asset-identifier
+  type: identifier
+  card: 1..1
+- name: asset-class
+  type: code
+  card: 1..1
+- name: acquisition-value
+  type: amount
+  card: 1..1
+- name: acquired-on
+  type: date
+  card: 1..1
+- name: useful-life
+  type: quantity
+  card: 1..1
+- name: location
+  type: reference(site)
+  card: 0..1
+- name: funding-source
+  type: code
+  card: 1..1
+- name: medical-device
+  type: reference(medical-device)
+  card: 0..1
+states:
+- planned
+- in-use
+- idle
+- disposed
+relations:
+- type: assigned-to
+  target: cost-centre
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

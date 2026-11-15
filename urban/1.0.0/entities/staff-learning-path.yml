@@ -1,0 +1,61 @@
+kind: entity
+slug: staff-learning-path
+title: Staff Learning Path
+type: master
+summary: A path of practice, mentoring and study that builds a capacity the city's work needs, such as the oversight of AI agents,
+  with its aims, steps, mentors, research partners and the staff who follow it. The administration designs it with staff and research
+  partners and keeps its record, and it is used to build lasting capacity inside the administration and to confirm that overseers
+  are prepared.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: capabilities
+  type: reference(municipal-capability)
+  card: 1..*
+- name: aims
+  type: text
+  card: 1..*
+- name: steps
+  type: text
+  card: 1..*
+- name: mentors
+  type: text
+  card: 0..*
+- name: research-partnership
+  type: reference(research-partnership-agreement)
+  card: 0..*
+- name: duration
+  type: quantity
+  card: 0..1
+- name: participants
+  type: text
+  card: 0..*
+- name: completion-criteria
+  type: text
+  card: 1..1
+- name: owner
+  type: reference(department)
+  card: 1..1
+states:
+- designed
+- approved
+- open
+- under-review
+- retired
+relations:
+- type: refers-to
+  target: municipal-capability
+- type: based-on
+  target: research-partnership-agreement
+- type: refers-to
+  target: knowledge-article
+- type: refers-to
+  target: community-of-practice
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

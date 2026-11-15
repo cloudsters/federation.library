@@ -1,0 +1,55 @@
+kind: journey
+slug: clinician-equipped-with-it
+title: Clinician Equipped with IT
+stakeholder: specialist-physician
+summary: A physician requests, receives, uses and returns the devices and software the work requires, and expects them to be ready,
+  secure and replaced before they fail.
+stages:
+- slug: request-equipment
+  title: Request Equipment
+  goal: The need is requested from the standard catalogue with its approval and a delivery date.
+  step: it-asset-lifecycle/demand-and-refresh-planning
+  touchpoints:
+  - ordering-catalogue
+  - it-service-desk
+- slug: find-a-standard-that-fits
+  title: Find a Standard That Fits
+  goal: The standard offer covers clinical needs, so that exceptions are rare and quickly decided.
+  step: it-asset-lifecycle/standards-and-procurement
+  touchpoints:
+  - ordering-catalogue
+- slug: receive-a-ready-device
+  title: Receive a Ready Device
+  goal: The device arrives configured, secured and with access to the systems the role requires.
+  step: it-asset-lifecycle/receipt-configuration-and-deployment
+  touchpoints:
+  - equipment-issue-record
+  - clinical-workstation
+- slug: account-for-issued-equipment
+  title: Account for Issued Equipment
+  goal: The physician knows what is issued to them and confirms it when the inventory is checked.
+  step: it-asset-lifecycle/inventory-and-licence-compliance
+  touchpoints:
+  - equipment-issue-record
+  - licence-statement
+- slug: get-help-and-updates
+  title: Get Help and Updates
+  goal: Faults are fixed or the device is swapped quickly, and updates install without disturbing care.
+  step: it-asset-lifecycle/operation-maintenance-and-patching
+  touchpoints:
+  - it-service-desk
+  - clinical-workstation
+- slug: switch-to-a-successor
+  title: Switch to a Successor
+  goal: A replacement arrives before the old device fails, with data and settings carried over.
+  step: it-asset-lifecycle/refresh-and-retirement
+  touchpoints:
+  - it-service-desk
+  - equipment-issue-record
+- slug: return-old-equipment
+  title: Return Old Equipment
+  goal: Returned devices leave the issue record and their data are erased without further action by the physician.
+  step: it-asset-lifecycle/secure-disposal
+  touchpoints:
+  - equipment-issue-record
+  - erasure-certificate

@@ -1,0 +1,10 @@
+kind: capability
+slug: pharmacovigilance
+title: Pharmacovigilance
+level: L3
+parent: clinical-pharmacy
+summary: Detect, report and learn from adverse drug reactions.
+binds:
+- source: src-421
+  edition: '29.1'
+  jurisdiction: global

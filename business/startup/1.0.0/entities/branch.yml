@@ -1,0 +1,39 @@
+kind: entity
+slug: branch
+title: Branch
+type: master
+summary: A local site of the organisation — a location where it meets its customers and partners and delivers value locally.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: address
+  type: text
+  card: 1..1
+- name: organization
+  type: reference(organization)
+  card: 1..1
+- name: territory
+  type: reference(territory)
+  card: 0..1
+- name: employees
+  type: reference(employee-record)
+  card: 0..*
+states:
+- opened
+- operating
+- relocated
+- closed
+relations:
+- type: part-of
+  target: organization
+- type: refers-to
+  target: facility
+- type: refers-to
+  target: warehouse
+- type: refers-to
+  target: territory
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

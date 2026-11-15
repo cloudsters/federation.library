@@ -1,0 +1,41 @@
+kind: entity
+slug: carrier
+title: Carrier
+type: master
+summary: The system’s bridge to the physical world of movement — a shipping or logistics carrier with rate tables, service levels,
+  tracking integration, and label generation. Carriers transform orders into journeys, connecting the digital promise of delivery
+  to the physical act of transit.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: supplier
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: rate-tables
+  type: document
+  card: 0..1
+- name: service-levels
+  type: text
+  card: 0..*
+- name: tracking-integration
+  type: text
+  card: 0..1
+- name: label-configuration
+  type: text
+  card: 0..1
+states:
+- onboarded
+- rate-configured
+- selected
+- tracked
+- reviewed
+relations:
+- type: refers-to
+  target: shipment
+- type: refers-to
+  target: delivery-note
+- type: refers-to
+  target: sales-order
+- type: refers-to
+  target: vehicle

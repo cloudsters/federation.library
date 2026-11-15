@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: inspection-certificate
+title: Inspection Certificate
+medium: artefact
+summary: The evidence that a regulated asset, building or measuring device has passed its mandatory inspection or calibration, with
+  its findings and next due date.
+exchanges:
+- inspection-evidence-for-safe-operation
+journey: technician-restoring-an-asset

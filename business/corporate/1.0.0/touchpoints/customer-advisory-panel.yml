@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: customer-advisory-panel
+title: Customer Advisory Panel
+medium: encounter
+summary: The standing group of customers who meet with the organisation to judge offerings and service, discuss findings and agree
+  what to improve next.
+exchanges:
+- structured-judgement-for-joint-improvement
+journey: business-customer-reviewing-its-supplier

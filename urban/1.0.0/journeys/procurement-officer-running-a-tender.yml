@@ -1,0 +1,51 @@
+kind: journey
+slug: procurement-officer-running-a-tender
+title: Procurement Officer Running a Tender
+stakeholder: procurement-officer
+summary: The procurement officer confirms the need and the procedure, writes the specification with those who will use it, divides
+  the purchase into lots and publishes it, has the bids scored by a panel free of conflicts, sees the award decided and published
+  and concludes the contract.
+stages:
+- slug: confirm-need-and-procedure
+  title: Confirm Need and Procedure
+  goal: The need, its committed budget, its estimated value and the procedure the statutory framework allows are confirmed with the
+    department.
+  step: tendering-and-contract-award/need-and-procedure-choice
+  touchpoints:
+  - procurement-request-intake
+- slug: specify-by-outcome
+  title: Specify by Outcome
+  goal: The specification states the outcome and standard to be met, with fair-work, local-hiring, data and circular conditions and
+    the exit plan written in.
+  step: tendering-and-contract-award/requirement-specification
+  touchpoints:
+  - specification-drafting-session
+- slug: divide-and-publish
+  title: Divide and Publish
+  goal: The purchase is divided into lots small suppliers can win and is published with all documents, criteria and weights.
+  step: tendering-and-contract-award/lot-division-and-tender-publication
+  touchpoints:
+  - tender-portal
+  - published-procurement-scorecard
+- slug: have-the-bids-scored
+  title: Have the Bids Scored
+  goal: A panel that has declared its interests has scored each bid on the published criteria and whole-life cost, with a reason for
+    each score.
+  step: tendering-and-contract-award/bid-evaluation
+  touchpoints:
+  - bid-evaluation-meeting
+- slug: see-the-award-decided
+  title: See the Award Decided
+  goal: The award is decided at the delegated level, every bidder has its scores and reasons, and the award and its value are public
+    after the standstill period.
+  step: tendering-and-contract-award/award-decision
+  touchpoints:
+  - procurement-committee-session
+  - award-letter-and-debrief
+- slug: conclude-the-contract
+  title: Conclude the Contract
+  goal: The contract is reviewed, signed with the commitments of the bid as binding clauses, entered in the register and published.
+  step: tendering-and-contract-award/contract-conclusion
+  touchpoints:
+  - contract-review-and-signing
+  - published-contract-register

@@ -1,0 +1,10 @@
+kind: capability
+slug: laboratory-result-communication
+title: Laboratory Result Communication
+level: L3
+parent: laboratory-testing-process
+summary: Report results to the requesting clinician and alert critical values directly, with confirmation of receipt.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

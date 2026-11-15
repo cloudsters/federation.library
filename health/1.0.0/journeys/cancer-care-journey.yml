@@ -1,0 +1,62 @@
+kind: journey
+slug: cancer-care-journey
+title: Cancer Care Journey
+stakeholder: person-with-cancer
+summary: A person with suspected cancer is seen fast, learns the diagnosis and its stage, has the case decided by a tumour board,
+  agrees a plan, goes through combined treatment with support alongside, and lives on in survivorship or palliative care, guided by
+  one named navigator.
+stages:
+- slug: get-seen-fast
+  title: Get Seen Fast
+  goal: Be seen quickly once cancer is suspected, and know whom to call.
+  step: cancer-care/suspicion-and-fast-track-access
+  touchpoints:
+  - referral-letter
+  - appointment-service
+- slug: learn-the-diagnosis
+  title: Learn the Diagnosis
+  goal: Have the tests done in days, not weeks, and hear the diagnosis and its stage in a conversation.
+  step: cancer-care/diagnostic-work-up-and-staging
+  touchpoints:
+  - imaging-department
+  - diagnostic-report
+  - consultation
+- slug: have-the-case-discussed
+  title: Have the Case Discussed
+  goal: Know that every relevant discipline has looked at the case and whether a trial is open.
+  step: cancer-care/tumour-board-recommendation
+  touchpoints:
+  - multidisciplinary-case-conference
+- slug: decide-on-treatment
+  title: Decide on Treatment
+  goal: Understand the options, ask about trials and agree a plan that fits one's own life.
+  step: cancer-care/treatment-plan-and-consent
+  touchpoints:
+  - consultation
+  - patient-decision-aid
+  - consent-form
+  - participant-information-sheet
+- slug: go-through-treatment
+  title: Go Through Treatment
+  goal: Receive surgery, medicines and radiation in the agreed order, as close to everyday life as possible.
+  step: cancer-care/multimodal-treatment-delivery
+  touchpoints:
+  - operating-theatre
+  - day-care-unit
+  - outpatient-clinic
+  - medication-plan
+- slug: be-supported
+  title: Be Supported
+  goal: Have side effects, distress, nutrition and social worries taken seriously and treated alongside.
+  step: cancer-care/response-assessment-and-supportive-care
+  touchpoints:
+  - outcome-questionnaire
+  - therapy-session
+- slug: live-on
+  title: Live On
+  goal: Return to everyday life with a follow-up plan, or receive good palliative care, with the family doctor informed.
+  step: cancer-care/survivorship-or-palliative-transition
+  touchpoints:
+  - clinic-letter
+  - follow-up-call
+  - palliative-care-unit

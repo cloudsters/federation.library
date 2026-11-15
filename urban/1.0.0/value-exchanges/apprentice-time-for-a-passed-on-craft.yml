@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: apprentice-time-for-a-passed-on-craft
+title: Apprentice Time for a Passed-On Craft
+between:
+- mentor
+- apprentice
+offered:
+- The mentor's teaching of repair at the bench.
+returned:
+- An apprentice who carries the skill on and helps at the repair point.
+touchpoint: repair-skills-class

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: lived-experience-for-a-service-that-fits
+title: Lived Experience for a Service That Fits
+between:
+- resident
+- city-administration
+offered:
+- How residents would use the service, and their time to test early versions.
+returned:
+- A service designed around them, with an equal route for those who are offline.
+touchpoint: service-design-session

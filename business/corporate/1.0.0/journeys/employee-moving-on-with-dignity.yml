@@ -1,0 +1,34 @@
+kind: journey
+slug: employee-moving-on-with-dignity
+title: Employee Moving On with Dignity
+stakeholder: employee
+summary: An employee decides or learns of a move or a departure by fair criteria, hands over the role well, leaves with correct final
+  pay and a fair reference and keeps a bond with the organisation.
+stages:
+- slug: agree-the-transition
+  title: Agree the Transition
+  goal: The move, resignation or retirement is agreed in a conversation, with criteria, date and form clear.
+  step: transition-graceful-exit/transition-decision
+  touchpoints:
+  - transition-conversation
+- slug: hand-over-the-role
+  title: Hand Over the Role
+  goal: Responsibilities, open matters, knowledge and networks pass to the successor with an overlap where needed.
+  step: transition-graceful-exit/role-handover
+  touchpoints:
+  - handover-plan
+- slug: leave-with-dignity
+  title: Leave with Dignity
+  goal: The employee leaves with correct final pay, a fair reference and, where the role ends, support to find new work; a retirement
+    is celebrated.
+  step: transition-graceful-exit/dignified-exit
+  touchpoints:
+  - employment-reference
+  - exit-interview
+- slug: stay-connected
+  title: Stay Connected
+  goal: The former employee is part of the alumni network, knows the door is open to return and has their directives stewarded.
+  step: transition-graceful-exit/continued-connection
+  touchpoints:
+  - exit-interview
+  - alumni-network

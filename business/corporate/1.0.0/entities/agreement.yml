@@ -1,0 +1,38 @@
+kind: entity
+slug: agreement
+title: Agreement
+type: governance
+summary: A mutual understanding formalized — a broader framework than a contract, often governing service levels, cooperation terms,
+  or partnership expectations over time.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: purpose
+  type: text
+  card: 1..1
+- name: principles
+  type: text
+  card: 0..*
+- name: service-expectations
+  type: text
+  card: 0..*
+- name: duration
+  type: period
+  card: 0..1
+- name: amendment-process
+  type: text
+  card: 0..1
+states:
+- negotiated
+- documented
+- active
+- amended
+- formalised
+- renewed
+- terminated
+relations:
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: service-level-agreement

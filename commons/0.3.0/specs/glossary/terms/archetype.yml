@@ -1,0 +1,19 @@
+id: archetype
+term: Archetype
+layer: how
+kind: concept
+definition: An element of a model as a type, never a person or a single case, held in a model made for every commons of
+  a kind, from which a commons builds the records of its runtime.
+why: The model holds archetypes, not people (MODEL §2.0). A record built from an archetype names it as its origin and writes
+  the commons' own fields in their gap form; that is not a second kind of thing. Proposed by D0-CE in commons.o#90 (comment
+  6420921361); not yet decided.
+relations:
+  part_of: scaffold
+not:
+- kind
+- a person
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6626305178: Adopted 4 November 2026 (point 2), in its 0.4.0 wording (the merge 7a5fbda)'

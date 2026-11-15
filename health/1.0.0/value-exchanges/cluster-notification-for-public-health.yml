@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: cluster-notification-for-public-health
+title: Cluster Notification for Public Health
+between:
+- infection-prevention-specialist
+- local-authority
+offered:
+- Infection prevention notifies the cluster early, with case data and the measures already taken.
+returned:
+- The public-health authority advises, coordinates with other providers and the community, and agrees when the outbreak is over.
+touchpoint: regulatory-reporting-channel

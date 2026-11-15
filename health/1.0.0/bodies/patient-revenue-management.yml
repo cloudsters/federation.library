@@ -1,0 +1,11 @@
+kind: body
+slug: patient-revenue-management
+title: Patient Revenue Management
+summary: 'Turns treated cases into revenue: coverage verification, charge capture, clinical coding, payer invoicing and review, denials,
+  receivables, tariffs and prices, supplementary and self-pay services.'
+holds:
+- patient-revenue-cycle
+- pricing-and-supplementary-revenue
+part_of: executive-board
+type: function
+form: organisational-unit

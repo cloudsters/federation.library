@@ -1,0 +1,32 @@
+kind: entity
+slug: competency-model
+title: Competency Model
+type: governance
+summary: A capability blueprint for people — the framework that defines what skills, knowledge, and behaviours the organisation needs from
+  its people to fulfil its purpose.
+attributes:
+- name: competencies
+  type: reference(skill)
+  card: 1..*
+- name: proficiency-levels
+  type: text
+  card: 1..*
+- name: behavioural-indicators
+  type: text
+  card: 0..*
+- name: role-mappings
+  type: reference(position)
+  card: 0..*
+states:
+- developed
+- adopted
+- applied
+- reviewed
+- refined
+relations:
+- type: composed-of
+  target: skill
+- type: refers-to
+  target: position
+- type: refers-to
+  target: appraisal

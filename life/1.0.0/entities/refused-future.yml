@@ -1,0 +1,36 @@
+kind: entity
+slug: refused-future
+title: Refused Future
+type: governance
+summary: 'The future this person is working away from, written as sharply as the one they are working toward. Usually the easier of
+  the two to specify, and therefore the more usable: people describe what they refuse with far more precision than what they want.'
+attributes:
+- name: description
+  type: text
+  card: 1..1
+- name: written-on
+  type: date
+  card: 1..1
+- name: parts-of-life
+  type: code
+  card: 0..*
+- name: early-signs
+  type: text
+  card: 0..*
+- name: what-it-would-cost
+  type: text
+  card: 0..1
+- name: last-read
+  type: date
+  card: 0..1
+states:
+- named
+- held
+- approaching
+- receding
+- rewritten
+relations:
+- target: life-blueprint
+  type: part-of
+- target: value-set
+  type: based-on

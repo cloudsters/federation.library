@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: planned-shutdown
+title: Planned Shutdown
+medium: encounter
+summary: The agreed window in which equipment or a site is taken out of operation for planned maintenance, inspection or modification.
+exchanges:
+- maintenance-windows-for-reliable-assets
+journey: operator-keeping-equipment-running

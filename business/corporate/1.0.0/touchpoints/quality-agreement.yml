@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: quality-agreement
+title: Quality Agreement
+medium: artefact
+summary: The agreement with a supplier on quality requirements, inspection, documentation, escalation and the handling of non-conforming
+  deliveries.
+exchanges:
+- clear-requirements-for-conforming-supply
+journey: quality-manager-approving-a-new-supplier

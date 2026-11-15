@@ -1,0 +1,8 @@
+kind: capability
+slug: configuration-and-service-topology
+title: Configuration & Service Topology
+level: L3
+parent: it-service-management
+summary: Map the system’s configuration and dependencies — every configuration item, service dependency, and relationship that makes the
+  whole greater than its parts. The CMDB is not a database but a current model of how the system’s components work together to
+  deliver value.

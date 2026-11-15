@@ -1,0 +1,109 @@
+kind: value-stream
+slug: solution-lifecycle-design
+title: Solution Lifecycle Design
+family: portfolio-to-system
+summary: Governing every digital solution from the decision to build or buy through architecture, development and testing to maintenance
+  and retirement, with a curated application portfolio and shared platforms that let teams build fast without fragmenting the whole.
+trigger: A solution is requested, built or changed, or a catalogue review falls due.
+outcome: The catalogue is current, and each solution is built, tested and performing at its agreed level.
+stakeholders:
+- information-technology-specialist
+- technology-provider
+- employee
+- site-manager
+steps:
+- slug: application-portfolio-review
+  title: Application Portfolio Review
+  summary: The application estate is reviewed for business value, technical risk and cost, and each solution is kept, renewed, consolidated
+    or scheduled for retirement.
+  capabilities:
+  - application-portfolio-management
+  - solution-lifecycle-governance
+  - solution-performance-sensing
+  entities:
+  - application
+  - it-service
+  - portfolio
+- slug: requirement-and-sourcing-decision
+  title: Requirement and Sourcing Decision
+  summary: Requirements for a new or changed solution are captured, and the decision to build, buy, configure or replace the systems
+    concerned is taken on its business case.
+  capabilities:
+  - solution-lifecycle-governance
+  - core-business-system-lifecycle
+  entities:
+  - change-request
+  - business-case
+  - application
+  serves:
+  - contract-negotiation
+  - requirement-workshop
+  - technology-demand-request
+- slug: solution-blueprint
+  title: Solution Blueprint
+  summary: The architecture of the solution is designed within the enterprise architecture, including how agents connect to it and
+    which assets and processes it mirrors as digital twins.
+  capabilities:
+  - solution-architecture
+  - agent-context-architecture
+  - digital-twin-architecture
+  entities:
+  - application
+  - interface
+  - data-model
+  - digital-twin-asset
+  serves:
+  - architecture-board
+  - requirement-workshop
+- slug: solution-build
+  title: Solution Build
+  summary: The solution is developed or configured on shared platforms, with low-code and workflow automation where they let teams
+    shape their own tools safely.
+  capabilities:
+  - solution-design-development
+  - low-code-application-design
+  - platform-engineering-practice
+  - process-automation-platform
+  entities:
+  - application
+  - process-model
+  serves:
+  - shared-development-platform
+- slug: solution-testing
+  title: Solution Testing
+  summary: The solution is tested against its requirements, integration, performance and security, and support staff are prepared
+    for it.
+  capabilities:
+  - solution-build-and-test
+  entities:
+  - application
+  - it-service
+  serves:
+  - user-acceptance-test
+- slug: change-and-release-approval
+  title: Change and Release Approval
+  summary: Each change is assessed for risk and impact on running services and approved for release through the agreed change governance.
+  capabilities:
+  - it-change-and-release-governance
+  entities:
+  - change-request
+  - approval
+  serves:
+  - application-inventory
+  - change-board
+- slug: maintenance-and-retirement
+  title: Maintenance and Retirement
+  summary: Solutions in use are maintained, retested and upgraded, their performance is sensed against the work they enable, and those
+    no longer serving are retired with their data.
+  capabilities:
+  - solution-maintenance
+  - solution-performance-sensing
+  - core-business-system-lifecycle
+  - application-portfolio-management
+  entities:
+  - application
+  - it-service
+  - software-licence
+  serves:
+  - application-inventory
+  - service-review

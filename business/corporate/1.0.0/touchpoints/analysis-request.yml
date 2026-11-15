@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: analysis-request
+title: Analysis Request
+medium: artefact
+summary: The request in which a unit names the decision it must take, the questions and hypotheses behind it, the scope and the criteria
+  by which the analysis will be judged.
+exchanges:
+- decision-question-for-focused-analysis
+journey: manager-turning-a-question-into-a-decision

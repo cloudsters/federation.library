@@ -1,0 +1,13 @@
+kind: capability
+slug: model-change-control
+title: Model Change Control
+level: L3
+parent: ai-governance-and-assurance
+summary: Control changes to adaptive models through predefined change plans and revalidation.
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-311
+  edition: 2006+AMD1:2015
+  jurisdiction: global

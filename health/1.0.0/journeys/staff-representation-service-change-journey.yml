@@ -1,0 +1,19 @@
+kind: journey
+slug: staff-representation-service-change-journey
+title: Staff Representation Service Change Journey
+stakeholder: staff-representation
+summary: The staff representation is consulted before a service is concentrated, moved or closed and accompanies the transfer of the
+  staff concerned.
+stages:
+- slug: weigh-the-workforce-consequences
+  title: Weigh the Workforce Consequences
+  goal: Learn the consequences of the decision for jobs, sites and teams while it can still be shaped.
+  step: service-portfolio-planning/portfolio-decision
+  touchpoints:
+  - staff-consultation
+- slug: accompany-the-transition
+  title: Accompany the Transition
+  goal: Agree transfers and redeployment and keep the burden on the teams concerned within limits.
+  step: service-portfolio-planning/portfolio-handover
+  touchpoints:
+  - staff-consultation

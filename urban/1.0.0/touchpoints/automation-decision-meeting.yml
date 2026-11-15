@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: automation-decision-meeting
+title: Automation Decision Meeting
+medium: encounter
+summary: The meeting in which the process owner, staff and their representatives weigh for each task what is automated, what an agent
+  supports and what stays with a person, with consistency, fairness, the effect on staff and residents' right to reach a person on
+  the table.
+exchanges:
+- staff-view-for-a-say-in-what-stays-human
+journey: staff-representative-agreeing-to-an-automated-process

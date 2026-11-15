@@ -1,0 +1,11 @@
+kind: capability
+slug: scientific-meeting-organisation
+title: Scientific Meeting Organisation
+level: L3
+parent: continuing-education
+summary: Organise scientific meetings, symposia and congresses with programme, faculty, registration, credit recognition and transparent
+  sponsorship.
+binds:
+- source: src-258
+  edition: '2024'
+  jurisdiction: global

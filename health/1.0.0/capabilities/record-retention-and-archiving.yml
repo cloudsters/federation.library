@@ -1,0 +1,11 @@
+kind: capability
+slug: record-retention-and-archiving
+title: Record Retention & Archiving
+level: L3
+parent: health-information-management
+summary: Archive records for the required periods, offer records of lasting value to the competent public archive, and dispose of
+  the rest lawfully.
+binds:
+- source: src-021
+  edition: 2026d
+  jurisdiction: global

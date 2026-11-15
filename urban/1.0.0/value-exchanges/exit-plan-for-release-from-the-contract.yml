@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: exit-plan-for-release-from-the-contract
+title: Exit Plan for Release from the Contract
+between:
+- technology-supplier
+- city-administration
+offered:
+- The supplier exit plan applied, with data and records returned to the city.
+returned:
+- Final payment and release from the contract.
+touchpoint: agent-retirement-notice

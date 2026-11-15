@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shared-vehicle-use-for-protected-terms
+title: Shared Vehicle Use for Protected Terms
+between:
+- public-transport-passenger
+- platform-operator
+offered:
+- Riders' fares and use of shared bikes, cars and on-demand rides where transit does not reach.
+returned:
+- Vehicles available where and when transit is not, on terms that protect riders and their data.
+touchpoint: shared-mobility-hub

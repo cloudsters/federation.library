@@ -1,0 +1,105 @@
+kind: value-stream
+slug: channel-partner-distribution
+title: Channel & Partner Distribution
+family: proposition-to-audience
+summary: Distribute through partners — white-label, portals, and content channels that extend reach through others' brands and audiences.
+trigger: The distribution strategy calls for partner reach in a market, or a partner applies or underperforms.
+outcome: Enabled partners carry the offering under agreed terms, and their performance is reviewed against plan.
+stakeholders:
+- distributor
+- partner
+- sales-representative
+- business-customer
+- consumer
+steps:
+- slug: partner-recruitment-and-selection
+  title: Partner Recruitment and Selection
+  summary: Partners are sought or apply, and are selected by their reach, competence and fit with the organisation's values.
+  capabilities:
+  - distribution-partnering
+  entities:
+  - partner-organisation
+  - counterparty
+  serves:
+  - partner-portal
+  - trade-fair
+- slug: partner-agreement
+  title: Partner Agreement
+  summary: Terms on territory, brand use, quality, prices and revenue share are agreed, including white-label terms where partners
+    sell under their own brand.
+  capabilities:
+  - white-label-partnership
+  - distribution-partnering
+  entities:
+  - agreement
+  - contract
+  - territory
+  - price-list
+  serves:
+  - contract-negotiation
+  - partner-agreement
+  - price-list
+- slug: partner-onboarding-and-enablement
+  title: Partner Onboarding and Enablement
+  summary: Partners are given access to the partner portal, trained and certified, and equipped with offers, material and support.
+  capabilities:
+  - partner-portal-management
+  entities:
+  - partner-organisation
+  - course
+  - credential
+  - knowledge-article
+  serves:
+  - partner-portal
+  - partner-training
+  - product-catalogue
+- slug: white-label-delivery
+  title: White-Label Delivery
+  summary: Partners deliver the offering under their own brand against shared quality standards that are reviewed periodically.
+  capabilities:
+  - white-label-partnership
+  entities:
+  - quality-standard
+  - brand
+  - product
+  serves:
+  - partner-portal
+  - sales-meeting
+- slug: deal-registration-and-co-selling
+  title: Deal Registration and Co-Selling
+  summary: Partners register their opportunities so that conflicts with direct sales are settled early, and sell jointly with the
+    organisation where needed.
+  capabilities:
+  - partner-portal-management
+  entities:
+  - opportunity
+  - inquiry
+  - partner-organisation
+  serves:
+  - deal-registration
+  - sales-meeting
+- slug: content-channel-stewardship
+  title: Content Channel Stewardship
+  summary: Content that educates and serves the market is published through partners' and others' channels as a lasting route to discovery.
+  capabilities:
+  - content-as-channel
+  entities:
+  - communication
+  - knowledge-article
+  serves:
+  - trade-press
+  - webinar
+- slug: partner-performance-review
+  title: Partner Performance Review
+  summary: Partner sales and the experience of the customers they serve are reviewed against plan, and partners are coached, renewed
+    or ended.
+  capabilities:
+  - partner-ecosystem-vitality
+  - partner-portal-management
+  entities:
+  - relationship-review
+  - measure-report
+  - partner-organisation
+  serves:
+  - customer-survey
+  - partner-business-review

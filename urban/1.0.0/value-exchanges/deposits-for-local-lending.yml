@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: deposits-for-local-lending
+title: Deposits for Local Lending
+between:
+- finance-officer
+- lender
+offered:
+- The city's deposits and surplus cash, placed safely.
+returned:
+- Lending in the city to residents, cooperatives and local businesses, reported each year.
+touchpoint: community-bank-deposit-agreement

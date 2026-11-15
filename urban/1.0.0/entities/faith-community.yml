@@ -1,0 +1,57 @@
+kind: entity
+slug: faith-community
+title: Faith Community
+type: master
+summary: A religious congregation or community of belief, with its places of worship, its sacred sites, its members and the community
+  work it does. The community describes itself to the city, which keeps the record in its civil-society directory, and it is used
+  to invite the community into dialogue, shared-space agreements and partnerships.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: tradition
+  type: code
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 0..1
+- name: places-of-worship
+  type: reference(building)
+  card: 0..*
+- name: sacred-sites
+  type: text
+  card: 0..*
+- name: burial-grounds
+  type: reference(land-parcel)
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: member-count
+  type: integer
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+- name: community-work
+  type: text
+  card: 0..*
+- name: contact
+  type: text
+  card: 1..1
+states:
+- recorded
+- active
+- merged
+- dissolved
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: land-parcel
+- type: part-of
+  target: interfaith-forum
+- type: refers-to
+  target: faith-space-agreement
+- type: refers-to
+  target: civil-society-directory

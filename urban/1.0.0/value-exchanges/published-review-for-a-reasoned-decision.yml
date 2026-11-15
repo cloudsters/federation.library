@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-review-for-a-reasoned-decision
+title: Published Review for a Reasoned Decision
+between:
+- information-technology-specialist
+- city-council
+offered:
+- The published review of a major digital decision.
+returned:
+- A decision that follows the review or states why it departs from it.
+touchpoint: published-architecture-review

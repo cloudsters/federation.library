@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-decision-log
+title: Agent Decision Log
+medium: artefact
+summary: The record of each significant decision taken with an agent, with the mandate under which it was taken and the person who
+  authorised it.
+exchanges:
+- prepared-cases-for-human-decisions
+journey: frontline-worker-working-beside-an-ai-agent

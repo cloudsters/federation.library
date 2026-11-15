@@ -1,0 +1,10 @@
+kind: body
+slug: product-management
+title: Product Management
+summary: Holds the offering portfolio and its roadmap, defines products and services and decides when they enter and leave the market.
+holds:
+- offering-portfolio
+- requirement-sensing
+part_of: executive-board
+type: function
+form: organisational-unit

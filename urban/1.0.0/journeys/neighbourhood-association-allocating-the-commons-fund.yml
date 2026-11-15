@@ -1,0 +1,39 @@
+kind: journey
+slug: neighbourhood-association-allocating-the-commons-fund
+title: Neighbourhood Association Allocating the Commons Fund
+stakeholder: neighbourhood-association
+summary: A neighbourhood association sees the share of enterprise surplus that its neighbourhood earns as host, checks that the commons
+  fund is kept apart, receives a share weighted to need, decides with residents how it is reinvested and inspects the account.
+stages:
+- slug: host-an-enterprise-asset
+  title: Host an Enterprise Asset
+  goal: The neighbourhood that hosts a plant or a network receives the share of surplus set in the enterprise's mandate.
+  step: public-assets-and-commons-fund/municipal-enterprise-returns
+  touchpoints:
+  - host-community-benefit-share
+- slug: check-the-fund-is-kept-apart
+  title: Check the Fund Is Kept Apart
+  goal: The association can see that the fund is accounted for apart from the general budget, source by source.
+  step: public-assets-and-commons-fund/commons-fund-ring-fencing
+  touchpoints:
+  - commons-fund-ledger
+- slug: receive-a-share-weighted-to-need
+  title: Receive a Share Weighted to Need
+  goal: The neighbourhood knows its share of the fund and the evidence of need on which it rests.
+  step: public-assets-and-commons-fund/commons-fund-allocation
+  touchpoints:
+  - need-weighted-share-table
+- slug: decide-with-residents
+  title: Decide with Residents
+  goal: Residents have decided in the open how the share is reinvested, in homes, upkeep, community land, accessibility or recovery
+    reserves, or returned to them.
+  step: public-assets-and-commons-fund/commons-fund-allocation
+  touchpoints:
+  - neighbourhood-fund-assembly
+- slug: inspect-and-report-back
+  title: Inspect and Report Back
+  goal: The association has read and inspected the fund's account and reported back to residents.
+  step: public-assets-and-commons-fund/commons-fund-reporting
+  touchpoints:
+  - commons-fund-annual-report
+  - commons-fund-account-inspection

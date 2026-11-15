@@ -1,0 +1,10 @@
+kind: solution
+slug: ombudsman-case-management-system
+title: Ombudsman Case Management System
+role: system-of-record
+summary: Records each complaint taken to the ombudsman from receipt through investigation to the remedy ordered and its carrying out,
+  kept apart from the systems of the administration.
+carries:
+- ombudsman-case-handling
+holds:
+- ombudsman-case

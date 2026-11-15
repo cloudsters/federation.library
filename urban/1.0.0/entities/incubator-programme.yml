@@ -1,0 +1,58 @@
+kind: entity
+slug: incubator-programme
+title: Incubator Programme
+type: transactional
+summary: A programme that takes in a group of founders for a stated time, with its offer, its selection, the say founders have in
+  it and its results. The body that runs it records it with the economic development office, and it is used to select founders openly,
+  to share decisions with them and to review how many enterprises still trade when it ends.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: run-by
+  type: text
+  card: 1..1
+- name: cohort-period
+  type: period
+  card: 1..1
+- name: workspace
+  type: reference(enterprise-workspace)
+  card: 0..*
+- name: offer
+  type: text
+  card: 1..*
+- name: selection-criteria
+  type: text
+  card: 1..1
+- name: places
+  type: integer
+  card: 1..1
+- name: founders-admitted
+  type: integer
+  card: 0..1
+- name: founder-voice
+  type: text
+  card: 1..1
+- name: sectors
+  type: code
+  card: 0..*
+- name: enterprises-trading-at-end
+  type: integer
+  card: 0..1
+- name: results
+  type: document
+  card: 0..1
+states:
+- designed
+- open-for-applications
+- selecting
+- running
+- completed
+- reviewed
+relations:
+- type: refers-to
+  target: enterprise-workspace
+- type: refers-to
+  target: business-support-case
+- type: refers-to
+  target: business-support-review

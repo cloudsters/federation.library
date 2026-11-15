@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: affected-party-meeting
+title: Affected Party Meeting
+medium: encounter
+summary: The meeting in which those harmed by the organisation say what they lost and need, hear the plan and the progress, and judge
+  whether the remedy is enough.
+exchanges:
+- acknowledgement-and-repair-for-renewed-trust
+- candour-for-a-chance-to-repair
+journey: neighbours-living-through-harm-and-its-repair

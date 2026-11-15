@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: second-opinion-report
+title: Second-Opinion Report
+medium: artefact
+summary: The written opinion of a specialist on a diagnosis or a proposed treatment made elsewhere, based on the records supplied,
+  handed to the person and, with consent, to the treating physician.
+exchanges:
+- second-opinion-for-informed-choice
+journey: search-for-expertise

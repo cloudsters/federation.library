@@ -1,0 +1,31 @@
+kind: journey
+slug: asked-about-the-past
+title: Asked about the Past
+stakeholder: parent
+via: perception-to-mandate
+summary: A parent is asked what happened and where the family patterns came from, and sees the inheritance sorted without being made
+  the villain of it or cut off from it.
+stages:
+- slug: hear-the-echo
+  title: Hear the Echo
+  goal: The parent's own words, coming back from their child, have been noticed for where they came from.
+  step: inheritance-to-choice/hearing-the-echo
+  touchpoints:
+  - family-gathering
+- slug: tell-what-happened
+  title: Tell What Happened
+  goal: The parent has been asked, while they still could tell it, where the family story and its objects came from.
+  step: inheritance-to-choice/tracing-what-was-handed-down
+  touchpoints:
+  - asking-an-elder
+  - family-archive
+- slug: not-be-the-villain
+  title: Not Be the Villain
+  goal: What was missing has been mourned without the parent being made the villain of the story.
+  step: inheritance-to-choice/grieving-what-was-not-given
+  touchpoints: []
+- slug: stay-in-the-life
+  title: Stay in the Life
+  goal: The parent remains in their child's life even where parts of what they handed down have been set down.
+  step: inheritance-to-choice/sorting-keep-from-release
+  touchpoints: []

@@ -1,0 +1,96 @@
+loop: _family.acquire-to-retire
+title: Keep the family 'Acquire to Retire' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: acquire-to-retire
+  vs:
+  - body-to-capacity
+  - signal-to-knowledge
+  - condition-to-agency
+  - nourishment-to-system
+  - faculty-to-longevity
+  - holding-to-bequest
+stance: Steward the full lifecycle of the durable infrastructure / means of production. No single stream of this
+  family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed season of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was built into the runtime, adapted there, or left on the shelf
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/acquire-to-retire
+  - value-model.yml#vs/body-to-capacity
+  - value-model.yml#vs/signal-to-knowledge
+  - value-model.yml#vs/condition-to-agency
+  - value-model.yml#vs/nourishment-to-system
+  - value-model.yml#vs/faculty-to-longevity
+  - value-model.yml#vs/holding-to-bequest
+  registry:
+  - instance/registry/5_value-streams/body-to-capacity.md
+  - instance/registry/5_value-streams/signal-to-knowledge.md
+  - instance/registry/5_value-streams/condition-to-agency.md
+  - instance/registry/5_value-streams/nourishment-to-system.md
+  - instance/registry/5_value-streams/faculty-to-longevity.md
+  - instance/registry/5_value-streams/holding-to-bequest.md
+  loop_states:
+  - instance/operations/loops/_state/body-to-capacity.yml
+  - instance/operations/loops/_state/signal-to-knowledge.yml
+  - instance/operations/loops/_state/condition-to-agency.yml
+  - instance/operations/loops/_state/nourishment-to-system.yml
+  - instance/operations/loops/_state/faculty-to-longevity.yml
+  - instance/operations/loops/_state/holding-to-bequest.yml
+  measures:
+  - bequest-carriers-told
+  - bequest-holdings-listed
+  - bequest-read-since-change
+  - bequest-settled-reading
+  - bequest-wishes-written
+  - body-signal-baseline-known
+  - body-signal-days-to-practitioner
+  - body-signal-felt-beside-measured
+  - body-signal-findings-acted-on
+  - capacity-chair-stands
+  - capacity-days-to-start-again
+  - capacity-injuries-from-pushing
+  - capacity-movement-weeks
+  - capacity-ordinary-loads
+  - condition-bad-day-plan
+  - condition-decided-together
+  - condition-hours-asked
+  - condition-room-it-takes
+  - mind-lasting-curiosity
+  - mind-lasting-kept-in-use
+  - mind-lasting-senses-checked
+  - mind-lasting-weeks-in-company
+  - nourishment-calm-at-meals
+  - nourishment-eating-to-hunger
+  - nourishment-food-rules-kept
+  - nourishment-meals-shared
+  - nourishment-plants-in-a-week
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.acquire-to-retire.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or this life declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

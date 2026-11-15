@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: housing-need-report
+title: Housing Need Report
+medium: artefact
+summary: The yearly report of the homes each neighbourhood and group needs beside the homes held and the ratio of housing costs to
+  incomes, with the gap the housing policy must close.
+exchanges:
+- housing-need-figures-for-a-policy-that-closes-the-gap
+journey: housing-officer-assessing-need-and-keeping-homes

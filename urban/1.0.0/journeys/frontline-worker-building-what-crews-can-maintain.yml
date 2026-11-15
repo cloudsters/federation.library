@@ -1,0 +1,33 @@
+kind: journey
+slug: frontline-worker-building-what-crews-can-maintain
+title: Frontline Worker Building What Crews Can Maintain
+stakeholder: frontline-worker
+summary: A member of a maintenance crew states what crews need in the brief, reviews the design for safe upkeep, sees what is built
+  on site and accepts the asset only once it can be maintained.
+stages:
+- slug: state-what-crews-need
+  title: State What Crews Need
+  goal: The brief includes the access, spare parts and safe working space crews need to maintain the asset.
+  step: public-works-design-and-construction/works-brief
+  touchpoints:
+  - works-brief-workshop
+- slug: review-the-design-for-upkeep
+  title: Review the Design for Upkeep
+  goal: The crew has reviewed the design for inspection, cleaning and repair, and its materials are recorded for later reuse.
+  step: public-works-design-and-construction/design-for-whole-life
+  touchpoints:
+  - design-review-session
+  - works-material-passport
+- slug: see-what-is-built
+  title: See What Is Built
+  goal: The crew has seen hidden parts of the asset before they are covered, and knows where pipes, cables and joints lie.
+  step: public-works-design-and-construction/construction-and-supervision
+  touchpoints:
+  - site-supervision-visit
+- slug: accept-a-maintainable-asset
+  title: Accept a Maintainable Asset
+  goal: The crew accepts the asset with its documents and open defects, and the defects are followed until closed.
+  step: public-works-design-and-construction/commissioning-and-handover
+  touchpoints:
+  - commissioning-acceptance-walk
+  - works-handover-file

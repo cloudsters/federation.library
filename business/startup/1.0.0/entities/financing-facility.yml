@@ -1,0 +1,41 @@
+kind: entity
+slug: financing-facility
+title: Financing Facility
+type: master
+summary: A source of external funding the enterprise has arranged, such as a loan, credit line, lease or bond, with lender, limit,
+  drawn amount, interest, term and the covenants it must meet.
+attributes:
+- name: facility-kind
+  type: code
+  card: 1..1
+- name: lender
+  type: reference(counterparty)
+  card: 1..1
+- name: legal-entity
+  type: reference(legal-entity)
+  card: 1..1
+- name: limit
+  type: amount
+  card: 1..1
+- name: drawn-amount
+  type: amount
+  card: 0..1
+- name: interest-terms
+  type: text
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: covenants
+  type: text
+  card: 0..*
+states:
+- negotiated
+- available
+- drawn
+- in-breach
+- repaid
+- cancelled
+relations:
+- type: governed-by
+  target: contract

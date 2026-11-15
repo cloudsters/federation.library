@@ -1,0 +1,164 @@
+kind: value-stream
+slug: ai-agent-lifecycle
+title: AI Agent Lifecycle
+family: contributor-to-succession
+summary: 'Stewarding AI agents as contributors with defined roles: commissioning an agent into a role, setting its permissions and
+  supervision, onboarding, periodic performance review, retraining, and decommissioning or succession.'
+trigger: A unit requests an AI agent for a defined role, or an agent's periodic review or end of service falls due.
+outcome: The agent works in a defined role with assigned supervision and reviewed performance, or it is retired and succeeded.
+stakeholders:
+- documentation-agent
+- clinical-decision-support-agent
+- patient-assistant-agent
+- operations-planning-agent
+- specialist-physician
+- health-informatics-specialist
+- head-of-clinical-department
+- supplier
+- staff-representation
+- executive
+steps:
+- slug: role-request
+  title: Role Request
+  summary: A unit requests an AI agent for a defined role and states its tasks, the expected benefit, the people whose work it changes
+    and the patients it may affect.
+  capabilities:
+  - agent-lifecycle-management
+  - it-demand-management
+  - skill-mix-design
+  entities:
+  - ai-system
+  - organisation-unit
+- slug: role-and-mandate-design
+  title: Role and Mandate Design
+  summary: Define the agent's role, permitted actions, required human confirmations, escalation rules and data access, assess the
+    privacy impact, and consult the staff representatives on its effect on work.
+  capabilities:
+  - human-agent-collaboration-design
+  - trust-and-escalation-protocols
+  - ai-governance-framework
+  - privacy-impact-management
+  - co-determination-cooperation
+  entities:
+  - agent-mandate
+  - data-processing-record
+  serves:
+  - staff-consultation
+  - teaming-charter
+- slug: selection-and-validation
+  title: Selection and Validation
+  summary: Select the agent from a supplier or build it, validate performance, safety and fairness on the organisation's own data
+    and workflow, and confirm regulatory conformity.
+  capabilities:
+  - decision-support-validation
+  - algorithmic-fairness-assurance
+  - ai-regulatory-conformity
+  - supplier-selection-and-contracting
+  - vendor-risk-management
+  entities:
+  - ai-validation
+  - ai-system
+  - contract
+  - dataset
+  serves:
+  - agent-validation-report
+  - ai-technical-documentation
+- slug: commissioning
+  title: Commissioning
+  summary: Approve the agent into its role, issue its service identity and access rights, and assign and train competent human overseers.
+  capabilities:
+  - agent-lifecycle-management
+  - identity-access-management
+  - ai-governance-framework
+  - ai-oversight-competence
+  entities:
+  - agent-mandate
+  - identity
+  - access-grant
+  - oversight-assignment
+  - governance-decision
+  serves:
+  - ai-governance-board
+  - learning-platform
+  - teaming-charter
+- slug: onboarding-into-the-workflow
+  title: Onboarding into the Workflow
+  summary: Introduce the agent into the team's workflow with a supervised start, outputs clearly marked as the agent's, a fallback
+    for when it fails, and a channel for staff feedback.
+  capabilities:
+  - ai-assistant-integration
+  - solution-rollout
+  - trust-and-escalation-protocols
+  - clinical-downtime-procedures
+  entities:
+  - ai-system
+  - oversight-assignment
+  - policy
+  serves:
+  - agent-oversight-console
+  - clinical-workstation
+- slug: performance-review
+  title: Performance Review
+  summary: Monitor the agent's outputs, overrides, errors, drift and fairness in use, review it at set intervals with its overseers,
+    and decide to continue, restrict or retrain it.
+  capabilities:
+  - model-monitoring-and-drift
+  - algorithmic-fairness-assurance
+  - incident-reporting-and-learning
+  - agent-lifecycle-management
+  entities:
+  - ai-validation
+  - measure-report
+  - incident
+  - prediction
+  serves:
+  - agent-performance-review
+  - ai-monitoring-dashboard
+  - incident-reporting-system
+- slug: retraining-and-change
+  title: Retraining and Change
+  summary: Change the agent's model, scope or mandate under a predefined change plan, revalidate it, and brief its overseers before
+    the changed version goes live.
+  capabilities:
+  - model-change-control
+  - decision-support-validation
+  - it-change-and-release-governance
+  entities:
+  - ai-system
+  - ai-validation
+  - agent-mandate
+  serves:
+  - agent-validation-report
+  - ai-governance-board
+- slug: retirement-and-succession
+  title: Retirement and Succession
+  summary: 'Retire the agent when its role ends or a successor serves better: revoke identity and access, hand its tasks to a successor
+    or to people, and archive its records and logs.'
+  capabilities:
+  - agent-lifecycle-management
+  - identity-access-management
+  - knowledge-handover
+  - record-retention-and-archiving
+  entities:
+  - ai-system
+  - agent-mandate
+  - access-grant
+  - identity
+  serves:
+  - teaming-charter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-506
+  edition: '2024'
+  jurisdiction: global
+- source: src-508
+  edition: '2022'
+  jurisdiction: global

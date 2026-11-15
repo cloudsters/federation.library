@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: continuity-plan-summary
+title: Continuity Plan Summary
+medium: artefact
+summary: The published summary of the recovery targets and offline modes of each essential service and of the fallbacks placed in
+  neighbourhoods.
+exchanges:
+- host-place-for-pre-placed-fallbacks
+- backup-power-for-priority-restoration
+journey: neighbourhood-association-keeping-essential-services-working-offline

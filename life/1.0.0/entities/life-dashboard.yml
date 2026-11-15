@@ -1,0 +1,37 @@
+kind: entity
+slug: life-dashboard
+title: Life Dashboard
+type: intelligence
+summary: 'The families of this life on one surface, each with its own reading. Deliberately not a total: the families are shown side
+  by side so that a weak one stays visible rather than being absorbed.'
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: parts-of-life
+  type: code
+  card: 1..*
+- name: seasons
+  type: list(season-reading)
+  card: 0..*
+- name: coherence
+  type: list(coherence-reading)
+  card: 0..*
+- name: drift
+  type: list(drift-reading)
+  card: 0..*
+- name: weak-spots
+  type: code
+  card: 0..*
+states:
+- assembled
+- current
+- stale
+- refreshed
+relations:
+- target: life-blueprint
+  type: about
+- target: season-reading
+  type: based-on
+- target: coherence-reading
+  type: based-on

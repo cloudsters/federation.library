@@ -1,0 +1,26 @@
+kind: journey
+slug: co-deciding-academic-funds
+title: Co-Deciding Academic Funds
+stakeholder: university
+summary: The medical faculty's path in allocating research and teaching funds jointly with the commons.
+stages:
+- slug: agree-the-model
+  title: Agree the Model
+  goal: The split between base, performance-based and strategic funds reflects the faculty's research profile and teaching duties.
+  step: academic-funds-allocation/allocation-proposal
+  touchpoints:
+  - joint-university-committee
+- slug: decide-jointly
+  title: Decide Jointly
+  goal: Allocations are decided jointly and recorded with their reasons.
+  step: academic-funds-allocation/joint-allocation-decision
+  touchpoints:
+  - joint-university-committee
+  - allocation-notice
+- slug: verify-separate-use
+  title: Verify Separate Use
+  goal: The faculty can see that research and teaching funds were not used for care.
+  step: academic-funds-allocation/use-of-funds-accounting
+  touchpoints:
+  - use-of-funds-statement
+  - joint-university-committee

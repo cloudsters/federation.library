@@ -1,0 +1,46 @@
+kind: entity
+slug: waiting-list-entry
+title: Waiting List Entry
+type: transactional
+summary: A patient's place in the queue for a planned service that cannot yet be scheduled, with clinical priority and the date by
+  which the service is due. It makes waiting times visible and comparable.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: care-service
+  type: reference(care-service)
+  card: 1..1
+- name: clinical-priority
+  type: code
+  card: 1..1
+- name: listed-on
+  type: date
+  card: 1..1
+- name: due-date
+  type: date
+  card: 0..1
+- name: referral
+  type: reference(referral)
+  card: 0..1
+states:
+- listed
+- suspended
+- offered
+- scheduled
+- removed
+relations:
+- type: based-on
+  target: request-for-care
+- type: produces
+  target: appointment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global

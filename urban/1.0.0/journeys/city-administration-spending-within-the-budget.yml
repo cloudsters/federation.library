@@ -1,0 +1,44 @@
+kind: journey
+slug: city-administration-spending-within-the-budget
+title: City Administration Spending Within the Budget
+stakeholder: city-administration
+summary: A department bids for budget with its upkeep costed first, receives its released budget, checks every order against what
+  remains, explains each monthly deviation, supplies the evidence for the audit and answers for what its money achieved.
+stages:
+- slug: bid-with-upkeep-first
+  title: Bid with Upkeep First
+  goal: The department's bid serves the city's objectives and funds the upkeep of its assets before new projects.
+  step: municipal-budget-and-accounts/budget-preparation
+  touchpoints:
+  - budget-bid-workshop
+- slug: receive-the-released-budget
+  title: Receive the Released Budget
+  goal: The department holds its budget with stated decision rights to spend it.
+  step: municipal-budget-and-accounts/budget-execution-and-commitment-control
+  touchpoints:
+  - budget-release-letter
+- slug: commit-before-spending
+  title: Commit Before Spending
+  goal: Every order and contract is checked against the budget still available and recorded as a commitment before money is spent.
+  step: municipal-budget-and-accounts/budget-execution-and-commitment-control
+  touchpoints:
+  - commitment-check
+- slug: explain-each-deviation
+  title: Explain Each Deviation
+  goal: The department has explained each deviation from its budget and updated its forecast for the year.
+  step: municipal-budget-and-accounts/budget-execution-and-commitment-control
+  touchpoints:
+  - monthly-variance-report
+- slug: evidence-the-accounts
+  title: Evidence the Accounts
+  goal: The department's transactions are recorded by fund and purpose, and its evidence carries the audit.
+  step: municipal-budget-and-accounts/accounting-and-annual-accounts
+  touchpoints:
+  - annual-accounts-audit
+- slug: answer-for-results
+  title: Answer for Results
+  goal: The department has shown what each service achieved against its objective and has moved money to what worked.
+  step: municipal-budget-and-accounts/spending-review
+  touchpoints:
+  - spending-review-session
+  - published-spending-review

@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: conformance-for-national-services
+title: Conformance for National Services
+between:
+- health-informatics-specialist
+- national-digital-health-agency
+offered:
+- Conformant interfaces, registered institution and professional identities, and adherence to the operating and security rules of
+  the national infrastructure.
+returned:
+- Access to the shared health record, secure messaging, electronic prescribing and national directories, with specifications and test
+  environments.
+touchpoint: national-health-network

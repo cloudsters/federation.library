@@ -1,0 +1,46 @@
+kind: journey
+slug: working-alongside-an-agent
+title: Working Alongside an Agent
+stakeholder: specialist-physician
+summary: 'How a physician experiences teaming with an AI agent: involved in its design, clear about who decides, trained to oversee
+  it and able to change the arrangement.'
+stages:
+- slug: naming-the-need
+  title: Naming the Need
+  goal: Say where the team loses time or makes errors and what an agent should and should not do.
+  step: human-agent-teaming/teaming-need
+  touchpoints:
+  - team-retrospective
+- slug: agreeing-who-does-what
+  title: Agreeing Who Does What
+  goal: Have a clear, written division of tasks between the team and the agent.
+  step: human-agent-teaming/task-division-and-mandate
+  touchpoints:
+  - teaming-charter
+- slug: knowing-who-decides
+  title: Knowing Who Decides
+  goal: Know when to override or stop the agent, and that the decision stays with the clinician.
+  step: human-agent-teaming/oversight-and-escalation
+  touchpoints:
+  - teaming-charter
+  - agent-oversight-console
+- slug: learning-to-oversee
+  title: Learning to Oversee
+  goal: Understand the agent's strengths, limits and typical errors before relying on it.
+  step: human-agent-teaming/team-preparation
+  touchpoints:
+  - learning-platform
+  - simulation-centre
+- slug: working-together
+  title: Working Together
+  goal: Receive useful drafts and proposals in the workflow and review them without extra steps.
+  step: human-agent-teaming/joint-work
+  touchpoints:
+  - clinical-workstation
+  - agent-oversight-console
+- slug: adjusting-the-team
+  title: Adjusting the Team
+  goal: Report friction and see the division of tasks adjusted when it does not work.
+  step: human-agent-teaming/joint-performance-review
+  touchpoints:
+  - team-retrospective

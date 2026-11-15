@@ -1,0 +1,72 @@
+kind: value-stream
+slug: calling-to-direction
+title: Finding a Direction
+family: purpose-to-portfolio
+summary: From scattered meaning to a durable orientation that organises choices across years. Meaning is encountered often; purpose
+  is what survives the encounter and shapes what comes next.
+trigger: Moments of meaning keep arriving but lead nowhere, or work that once had a reason has quietly lost it.
+outcome: A sense of what the life is for holds across the years and shapes what is taken on next, while the ways of serving it are
+  free to change.
+stakeholders:
+- mentor
+- close-friend
+- partner
+- community
+steps:
+- slug: noticing-moments-of-meaning
+  title: Noticing Moments of Meaning
+  summary: The moments when life feels meaningful are noticed and written down, instead of passing as pleasant accidents.
+  capabilities:
+  - noticing-what-gives-meaning
+  entities:
+  - journal
+  - experience
+  - gratitude-log
+- slug: finding-the-common-thread
+  title: Finding the Common Thread
+  summary: Across these moments and across the years, the person sees what keeps calling, and which of their gifts it draws on.
+  capabilities:
+  - seeing-what-keeps-calling
+  entities:
+  - life-narrative
+  - natural-gift
+  - pattern-log
+- slug: saying-what-the-life-is-for
+  title: Saying What the Life Is For
+  summary: A purpose is written plainly enough to be found wrong later, together with the future the person is working away from.
+  capabilities:
+  - saying-what-the-life-is-for
+  entities:
+  - life-purpose
+  - refused-future
+- slug: trying-it-in-small-ways
+  title: Trying It in Small Ways
+  summary: The direction is tested in cheap, small ways, a side project, a conversation, a season somewhere, before much is staked
+    on it.
+  capabilities:
+  - trying-before-committing
+  entities:
+  - experience
+  - venture
+  serves:
+  - coffee-catch-up
+  - journey-somewhere
+- slug: keeping-the-why-freeing-the-how
+  title: Keeping the Why, Freeing the How
+  summary: The purpose stays steady while the work, the place and the form that serve it are allowed to change, including inside the
+    current job.
+  capabilities:
+  - holding-the-why-changing-the-how
+  entities:
+  - life-purpose
+  - venture
+  - work-direction
+- slug: reading-the-purpose-again
+  title: Reading the Purpose Again
+  summary: From time to time the stated purpose is read back, and it is allowed to grow when the life has outgrown its wording.
+  capabilities:
+  - revising-oneself-without-shame
+  - looking-back-at-set-times
+  entities:
+  - life-purpose
+  - review-cadence

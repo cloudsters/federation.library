@@ -1,0 +1,51 @@
+kind: journey
+slug: procurement-officer-setting-how-the-city-buys
+title: Procurement Officer Setting How the City Buys
+stakeholder: procurement-officer
+summary: The procurement officer reads what the city bought and will need, sets the criteria with residents, workers and suppliers,
+  writes the category strategy, weighs own provision against contracting, publishes the forward plan and meets suppliers before the
+  tender.
+stages:
+- slug: read-the-spend
+  title: Read the Spend
+  goal: What the city and its enterprises bought, from whom and where the money landed is known by category, together with what departments
+    will need.
+  step: procurement-strategy-and-category-planning/spend-and-demand-analysis
+  touchpoints:
+  - department-demand-review
+  - published-spend-analysis
+- slug: set-the-criteria-together
+  title: Set the Criteria Together
+  goal: Criteria and weights beyond price are designed with residents, workers and suppliers and adopted by the council as a published
+    scorecard.
+  step: procurement-strategy-and-category-planning/procurement-policy-and-criteria
+  touchpoints:
+  - criteria-co-design-workshop
+  - procurement-committee-session
+- slug: write-the-category-strategy
+  title: Write the Category Strategy
+  goal: Each category has a strategy for lot size, contract length, buying alone or with others and the criteria that weigh most.
+  step: procurement-strategy-and-category-planning/category-strategy
+  touchpoints:
+  - category-strategy-workshop
+- slug: weigh-own-provision
+  title: Weigh Own Provision
+  goal: Before a service is bought again, its provision by the city, an enterprise, a cooperative or a supplier has been compared
+    on cost, quality, control and public value.
+  step: procurement-strategy-and-category-planning/own-provision-or-contract-choice
+  touchpoints:
+  - provision-option-review
+  - procurement-committee-session
+- slug: publish-the-forward-plan
+  title: Publish the Forward Plan
+  goal: The purchases planned for the coming years are public with category, value, timing and criteria.
+  step: procurement-strategy-and-category-planning/forward-procurement-plan
+  touchpoints:
+  - published-forward-procurement-plan
+- slug: meet-the-market-openly
+  title: Meet the Market Openly
+  goal: Suppliers have heard the criteria and named what keeps them out, and every bidder receives the same record of what was said.
+  step: procurement-strategy-and-category-planning/supplier-market-engagement
+  touchpoints:
+  - supplier-open-day
+  - published-market-engagement-notes

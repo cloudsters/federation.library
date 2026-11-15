@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: worker-challenge-for-a-disclosed-review
+title: Worker Challenge for a Disclosed Review
+between:
+- platform-worker
+- city-administration
+offered:
+- A challenge to a decision that cut their work or pay, with their own records.
+returned:
+- A review by a person with the system's reasons disclosed, and a remedy where the decision was wrong.
+touchpoint: decision-challenge-channel

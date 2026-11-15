@@ -1,0 +1,66 @@
+kind: entity
+slug: business-support-case
+title: Business Support Case
+type: transactional
+summary: The record of the advice, finance, space and contacts the city gives a founder, an enterprise or an investor, from first
+  contact to close. The adviser named at the one point of contact keeps it, and it is used to follow each founder through permits,
+  finance and mentoring and to review whom the support reached.
+attributes:
+- name: client
+  type: text
+  card: 1..1
+- name: client-kind
+  type: code
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: client-groups
+  type: code
+  card: 0..*
+- name: opened-on
+  type: date
+  card: 1..1
+- name: adviser
+  type: text
+  card: 1..1
+- name: language
+  type: code
+  card: 0..1
+- name: needs
+  type: text
+  card: 1..*
+- name: support-given
+  type: code
+  card: 0..*
+- name: loans
+  type: reference(enterprise-loan)
+  card: 0..*
+- name: agreement
+  type: reference(business-support-agreement)
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- opened
+- advising
+- supported
+- in-aftercare
+- closed
+relations:
+- type: refers-to
+  target: business-register
+- type: refers-to
+  target: mentoring-relationship
+- type: refers-to
+  target: investment-enquiry
+- type: produces
+  target: business-support-agreement
+binds:
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global
+- source: src-276
+  edition: '2002-06-20'
+  jurisdiction: global

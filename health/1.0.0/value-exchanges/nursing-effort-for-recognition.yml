@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: nursing-effort-for-recognition
+title: Nursing Effort for Recognition
+between:
+- registered-nurse
+- administrative-staff
+offered:
+- Nursing documentation that records the care effort and complexity of each patient.
+returned:
+- Recognition of that effort in the case's classification and payment, and feedback on what the record must show.
+touchpoint: clinical-workstation

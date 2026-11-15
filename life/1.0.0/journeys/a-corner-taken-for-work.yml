@@ -1,0 +1,39 @@
+kind: journey
+slug: a-corner-taken-for-work
+title: A Corner Taken for Work
+stakeholder: place
+via: portfolio-to-system
+summary: A room, a corner or a bench is found for the work, arranged so the work lies ready, used until beginning takes no effort,
+  and let go or remade when the life moves.
+stages:
+- slug: be-noticed
+  title: Be Noticed
+  goal: The cost of clearing and setting up the place has been seen as what keeps the work from starting.
+  step: space-to-workshop/noticing-the-setting-up
+  touchpoints:
+  - work-corner
+- slug: be-found
+  title: Be Found
+  goal: A place able to hold the work has been chosen, at home or beyond.
+  step: space-to-workshop/finding-a-place
+  touchpoints:
+  - work-corner
+- slug: be-arranged
+  title: Be Arranged
+  goal: The place is set up so the work lies ready, the tools in reach and the unfinished thing left open.
+  step: space-to-workshop/arranging-it-for-the-work
+  touchpoints:
+  - work-corner
+- slug: be-used
+  title: Be Used
+  goal: The place is used until beginning there takes no effort.
+  step: space-to-workshop/starting-without-ceremony
+  touchpoints:
+  - work-corner
+- slug: be-remade
+  title: Be Remade
+  goal: When the life moved, the old arrangement was let go and a new one made rather than worked around.
+  step: space-to-workshop/rearranging-when-life-moves
+  touchpoints:
+  - work-corner
+  - moving-home

@@ -1,0 +1,46 @@
+kind: entity
+slug: bed-assignment
+title: Bed Assignment
+type: transactional
+summary: The allocation of a bed to a patient for part of an encounter, from reservation through occupancy to release, giving the
+  current picture of occupied, reserved and blocked capacity.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: bed
+  type: reference(bed)
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: isolation-required
+  type: boolean
+  card: 0..1
+- name: accommodation-class
+  type: code
+  card: 0..1
+- name: assigned-by
+  type: reference(practitioner-role)
+  card: 0..1
+states:
+- requested
+- reserved
+- occupied
+- released
+- cancelled
+relations:
+- type: part-of
+  target: encounter
+- type: assigned-to
+  target: bed
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

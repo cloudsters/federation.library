@@ -1,0 +1,37 @@
+kind: entity
+slug: business-model
+title: Business Model
+type: governance
+summary: The organisation's logic of creating value — how it turns its purpose into lasting exchange, describing how value is created,
+  delivered, and captured.
+attributes:
+- name: stakeholder-rings
+  type: text
+  card: 1..*
+- name: value-streams
+  type: reference(value-stream)
+  card: 1..*
+- name: capture-mechanisms
+  type: code
+  card: 1..*
+- name: cost-base
+  type: text
+  card: 0..1
+- name: resource-base
+  type: text
+  card: 0..1
+- name: viability-assumptions
+  type: text
+  card: 0..*
+states:
+- articulated
+- validated
+- operating
+- stress-tested
+- evolved
+- pivoted
+relations:
+- type: refers-to
+  target: value-stream
+- type: based-on
+  target: strategy

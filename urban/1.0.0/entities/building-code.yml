@@ -1,0 +1,54 @@
+kind: entity
+slug: building-code
+title: Building Code
+type: governance
+summary: The standards for construction safety, energy and accessibility that buildings and public works must meet. The building authority
+  applies it, and designs and permits are checked against it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: safety-requirements
+  type: text
+  card: 1..*
+- name: energy-requirements
+  type: text
+  card: 0..*
+- name: accessibility-requirements
+  type: text
+  card: 0..*
+- name: climate-requirements
+  type: text
+  card: 0..*
+- name: applied-by
+  type: text
+  card: 1..1
+- name: local-adoption
+  type: reference(bylaw)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- amended
+- superseded
+relations:
+- type: refers-to
+  target: bylaw
+- type: refers-to
+  target: building-permit
+- type: refers-to
+  target: building

@@ -1,0 +1,17 @@
+kind: body
+slug: ai-oversight-committee
+title: AI Oversight Committee
+summary: Approves the use of AI systems and agents, sets their risk class, mandate and human oversight, reviews their performance
+  and fairness and can suspend any of them.
+holds:
+- ai-governance-and-assurance
+- agent-negotiation-mandate
+- trust-and-escalation-protocols
+- ai-oversight-competence
+part_of: executive-board
+type: committee
+form: governing-body
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

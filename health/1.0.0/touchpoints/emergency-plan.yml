@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: emergency-plan
+title: Emergency Plan
+medium: artefact
+summary: The commons' plan for major incidents and crises, with alert levels, command roles and surge capacity, shared with
+  the authorities and emergency services that must act with it.
+exchanges:
+- regional-emergency-readiness
+journey: civil-protection-preparing-with-the-commons

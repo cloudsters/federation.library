@@ -1,0 +1,75 @@
+kind: value-stream
+slug: intention-to-shipped
+title: Finishing Things
+family: demand-to-fulfillment
+summary: Finishing. Knowing when a thing is good enough to leave home, and being able to put the work down when the day ends.
+trigger: Work lies almost done for weeks, it is reworked once more instead of released, or the evening is spent still turning the
+  day's work over.
+outcome: Things leave home when they are good enough, and at the end of the day the work is put down and stays down.
+stakeholders:
+- client
+- employer
+- audience
+- collaborator
+- partner
+steps:
+- slug: seeing-what-lies-almost-done
+  title: Seeing What Lies Almost Done
+  summary: The person takes stock of the work that has sat nearly finished for weeks, and admits what keeps it from leaving.
+  capabilities:
+  - facing-unfinished-work
+  entities:
+  - intention
+  - creative-output
+  - commitment
+- slug: deciding-what-done-means
+  title: Deciding What Done Means
+  summary: Before another round of rework, the person writes down what good enough looks like for this piece and who it is for.
+  capabilities:
+  - defining-good-enough
+  entities:
+  - intention
+  - creative-output
+- slug: finishing-the-last-stretch
+  title: Finishing the Last Stretch
+  summary: Time is set aside for the dull final part, the checking, tidying and sending, and the piece is brought to the agreed state.
+  capabilities:
+  - finishing-what-was-begun
+  - staying-with-one-thing
+  entities:
+  - creative-output
+  - daily-rhythm
+- slug: letting-it-leave-home
+  title: Letting It Leave Home
+  summary: The work is released to the client, the audience or the collaborator, with the fear that it is not yet perfect felt but
+    not obeyed.
+  capabilities:
+  - releasing-work-to-others
+  entities:
+  - publication
+  - creative-output
+  - client-relation
+  - audience-relation
+  serves:
+  - published-work
+  - the-delivery
+- slug: putting-the-work-down
+  title: Putting the Work Down
+  summary: At the end of the day the person closes the work with a small ritual of their own and leaves the evening free of it.
+  capabilities:
+  - putting-work-down
+  entities:
+  - daily-rhythm
+  - ritual
+  - workspace
+- slug: hearing-how-it-landed
+  title: Hearing How It Landed
+  summary: The person listens to what came back, adds the piece to the body of work, and carries one lesson into the next thing.
+  capabilities:
+  - learning-from-the-response
+  entities:
+  - body-of-work
+  - other-perception
+  - by-product
+  serves:
+  - replies-and-comments

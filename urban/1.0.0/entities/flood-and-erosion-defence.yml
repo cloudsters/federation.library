@@ -1,0 +1,63 @@
+kind: entity
+slug: flood-and-erosion-defence
+title: Flood and Erosion Defence
+type: master
+summary: A living or built work that protects land from flood or erosion, such as a planted slope, restored riverbank, living shoreline,
+  wall or embankment. The operator responsible keeps its record and inspects it, and the communities who use the land beside it help
+  to care for it.
+attributes:
+- name: defence-number
+  type: identifier
+  card: 1..1
+- name: defence-kind
+  type: code
+  card: 1..1
+- name: location
+  type: text
+  card: 1..1
+- name: length
+  type: quantity
+  card: 0..1
+- name: protected-parcels
+  type: reference(land-parcel)
+  card: 0..*
+- name: waterway
+  type: reference(waterway)
+  card: 0..1
+- name: design-event
+  type: text
+  card: 0..1
+- name: operator
+  type: text
+  card: 1..1
+- name: built-on
+  type: date
+  card: 0..1
+- name: last-inspection
+  type: reference(inspection-record)
+  card: 0..1
+- name: care-agreement
+  type: reference(place-care-agreement)
+  card: 0..1
+- name: asset-record
+  type: reference(infrastructure-asset)
+  card: 0..1
+states:
+- planned
+- built
+- establishing
+- in-service
+- damaged
+- under-repair
+- decommissioned
+relations:
+- type: refers-to
+  target: waterway
+- type: refers-to
+  target: land-parcel
+- type: refers-to
+  target: infrastructure-asset
+- type: based-on
+  target: adaptation-plan
+- type: refers-to
+  target: flood-risk-map

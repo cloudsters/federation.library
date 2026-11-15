@@ -1,0 +1,130 @@
+kind: value-stream
+slug: asset-decommissioning-and-material-recovery
+title: Asset Decommissioning and Material Recovery
+family: acquire-to-retire
+summary: Retiring infrastructure and buildings that no longer serve, so that what they contain returns to use rather than to landfill
+  and the land they stood on is safe for its next use. It holds the choice between repair, refurbishment, reuse and retirement, the
+  material audit before any demolition, deconstruction and salvage instead of demolition, salvaged materials stored and matched to
+  new works, the safe handling of hazardous materials and the clean-up of the site, the reuse, transfer or sale of the land and disused
+  corridors, and the closing of the asset's record.
+trigger: An asset reaches the end of its useful life, is replaced, falls out of use, or becomes too costly or unsafe to keep.
+outcome: The asset is retired, its materials reused or recovered, the site clean and in its next use, and the asset's record closed
+  with what was recovered.
+stakeholders:
+- asset-officer
+- city-council
+- salvage-cooperative
+- informal-worker
+- environmental-health-officer
+- neighbourhood-association
+- affected-community
+- supplier
+steps:
+- slug: retirement-decision
+  title: Retirement Decision
+  summary: The owning department weighs repair, refurbishment, reuse for another purpose and retirement on whole-life cost, carbon,
+    heritage and community need, and the council or its delegate decides.
+  capabilities:
+  - end-of-life-option-appraisal
+  - whole-life-cost-assessment
+  - heritage-and-place-story-assessment
+  entities:
+  - retirement-decision
+  - infrastructure-asset
+  - council-decision
+  serves:
+  - retirement-decision-notice
+  - retirement-options-hearing
+- slug: pre-demolition-material-audit
+  title: Pre-Demolition Material Audit
+  summary: Before anything is taken down, the asset is audited for its materials, hazards and the order in which it can be taken apart,
+    and the findings are recorded in its material passport.
+  capabilities:
+  - pre-demolition-audit
+  - environmental-hazard-inspection
+  entities:
+  - material-passport
+  - building
+  - infrastructure-asset
+  serves:
+  - pre-demolition-audit-walk
+  - works-material-passport
+- slug: deconstruction-and-salvage
+  title: Deconstruction and Salvage
+  summary: The asset is taken apart rather than demolished, by contractors and salvage cooperatives employing local workers, and its
+    components and materials are sorted by their next use. After floods, damaged materials are recovered the same way.
+  capabilities:
+  - deconstruction-and-salvage
+  - waste-picker-contracting
+  - local-hiring-requirement-setting
+  entities:
+  - salvaged-material-lot
+  - contract
+  serves:
+  - deconstruction-site
+  - salvage-sorting-yard
+- slug: material-banking-and-reuse
+  title: Material Banking and Reuse
+  summary: Salvaged components and materials are stored in a material bank with their passports and matched to the city's own works,
+    to builders and to residents, and metals and other streams go to recovery hubs.
+  capabilities:
+  - material-bank-operation
+  - reclaimed-material-sourcing
+  - material-recovery
+  entities:
+  - material-bank
+  - salvaged-material-lot
+  - material-passport
+  serves:
+  - material-bank-open-list
+  - material-bank-store
+  - salvage-sorting-yard
+- slug: hazard-removal-and-site-clean-up
+  title: Hazard Removal and Site Clean-Up
+  summary: Hazardous materials are removed and disposed of safely, and contaminated ground is cleaned, by ecological means where they
+    work, so that the site is safe for the use the neighbourhood chooses.
+  capabilities:
+  - hazardous-waste-handling
+  - contaminated-land-remediation
+  entities:
+  - contaminated-site
+  - land-parcel
+  serves:
+  - published-site-test-results
+  - site-clean-up-meeting
+- slug: site-next-use
+  title: Site Next Use
+  summary: The cleared site or disused corridor is kept as public land, turned into paths and green space, transferred to a community
+    body or sold on terms the council sets.
+  capabilities:
+  - disused-corridor-reuse
+  - surplus-asset-disposal
+  - community-asset-transfer
+  entities:
+  - land-parcel
+  - asset-transfer-agreement
+  serves:
+  - site-next-use-workshop
+- slug: asset-record-closure
+  title: Asset Record Closure
+  summary: The asset is removed from the register with its final value, and the materials reused, recovered and disposed of are reported,
+    so that the city learns what each retirement returned.
+  capabilities:
+  - asset-record-closure
+  - public-asset-registration
+  entities:
+  - public-asset-register
+  - material-recovery-report
+  serves:
+  - public-asset-register-entry
+  - published-recovery-report
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global
+- source: src-639
+  edition: '2020'
+  jurisdiction: global

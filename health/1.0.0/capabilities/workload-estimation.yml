@@ -1,0 +1,10 @@
+kind: capability
+slug: workload-estimation
+title: Workload Estimation
+level: L3
+parent: rostering-and-working-time
+summary: Forecast workload by unit and shift to plan the number and qualification of staff required.
+binds:
+- source: src-464
+  edition: 2nd ed. 2023
+  jurisdiction: global

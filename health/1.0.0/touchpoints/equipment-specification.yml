@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: equipment-specification
+title: Equipment Specification
+medium: artefact
+summary: The document that states the clinical purpose, functions, interfaces, security, hygiene and service requirements new medical
+  equipment must meet, written with its future users and used to evaluate offers.
+exchanges:
+- clinical-need-for-fitting-equipment
+journey: clinical-unit-obtaining-new-equipment

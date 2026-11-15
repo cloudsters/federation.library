@@ -1,0 +1,13 @@
+kind: capability
+slug: technology-resilience-operations
+title: Technology Resilience Operations
+level: L3
+parent: it-resilience
+summary: Operate redundancy, backup and recovery so that critical services continue.
+binds:
+- source: src-096
+  edition: '2022'
+  jurisdiction: global
+- source: src-305
+  edition: '2025'
+  jurisdiction: global

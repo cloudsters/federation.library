@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: technology-demand-request
+title: Technology Demand Request
+medium: artefact
+summary: The request for a new or changed technology service, with the need, requirements and business case behind it.
+exchanges:
+- latent-need-for-shaped-demand
+- clear-requirements-for-a-fitting-solution
+journey: unit-leader-bringing-a-technology-need

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: emergency-department
+title: Emergency Department
+medium: place
+summary: The unplanned front door of the commons, where patients arrive on foot or by ambulance around the clock, are triaged by urgency
+  and stabilised, and where admission, transfer or discharge is decided.
+exchanges:
+- urgency-for-an-honest-wait
+journey: planning-future-care

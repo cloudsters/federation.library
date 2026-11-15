@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: electoral-register-check
+title: Electoral Register Check
+medium: channel
+summary: The service, online and at the city's offices, where residents check and correct their entry on the electoral register.
+exchanges:
+- eligibility-for-a-correct-register-entry
+journey: election-office-running-the-municipal-election

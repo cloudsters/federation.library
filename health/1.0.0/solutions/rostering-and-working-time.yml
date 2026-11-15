@@ -1,0 +1,37 @@
+kind: solution
+slug: rostering-and-working-time
+title: Rostering and Working Time
+role: system-of-record
+summary: Plans staff to shifts and on-call duties against workload and staffing standards, records actual working time and
+  absence, and evidences safe staffing and working-time compliance for each unit.
+carries:
+- workload-estimation
+- staff-scheduling
+- on-call-and-night-duty-organisation
+- overtime-governance
+- time-and-attendance
+- leave-management
+- safe-staffing-compliance
+- staffing-level-adjustment
+- resource-capacity-planning
+- float-pool-and-redeployment
+- contingent-workforce-management
+- family-and-flexible-working-support
+- rotation-planning
+- skill-mix-design
+holds:
+- roster
+- shift-assignment
+- working-time-record
+- absence
+- staffing-standard
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

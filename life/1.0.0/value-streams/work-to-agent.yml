@@ -1,0 +1,81 @@
+kind: value-stream
+slug: work-to-agent
+title: What Stays Human
+family: collaboration-to-automation
+summary: Deciding what a machine should carry and what must stay in human hands — and keeping the judgement to tell the difference
+  as the boundary moves.
+trigger: A machine can now do part of the person's work, or a task has been handed over and the person is no longer sure it should
+  have been.
+outcome: The person can say what a machine carries, what stays in human hands and why, and keeps the judgement to redraw that line
+  as it moves.
+stakeholders:
+- synthetic-collaborator
+- employer
+- client
+- collaborator
+steps:
+- slug: seeing-a-machine-can-do-it
+  title: When a Machine Can
+  summary: A machine can now do part of the person's work, or a task has already been handed over and the person is no longer sure
+    it should have been.
+  capabilities:
+  - seeing-what-a-machine-can-carry
+  entities:
+  - agent
+  - skill
+  serves:
+  - talking-with-an-agent
+  - the-workplace
+- slug: looking-at-what-the-work-is
+  title: Looking at the Work
+  summary: Taking the work apart and asking which parts carry judgement, care, relationship or responsibility, and which are only
+    steps.
+  capabilities:
+  - seeing-what-a-machine-can-carry
+  - telling-judgement-from-routine
+  entities:
+  - skill
+  - delegation-line
+- slug: choosing-what-not-to-hand-over
+  title: Choosing What Stays
+  summary: Deciding what stays human and saying why, because it is loved, because it builds the person, or because someone deserves
+    a person there.
+  capabilities:
+  - deciding-what-stays-human
+  entities:
+  - delegation-line
+  - value-set
+  - decision
+- slug: handing-over-with-care
+  title: Handing Over with Care
+  summary: Giving the machine what it may carry with clear limits, and watching the first runs closely until trust has been earned.
+  capabilities:
+  - setting-an-agents-reach
+  - reviewing-delegated-work
+  entities:
+  - agent
+  - delegation-line
+  serves:
+  - agent-instructions
+- slug: keeping-the-judgement-sharp
+  title: Keeping the Judgement Sharp
+  summary: Staying close enough to the work to judge what the machine produces, and to notice when it is quietly wrong.
+  capabilities:
+  - keeping-a-delegated-skill-alive
+  - reviewing-delegated-work
+  entities:
+  - skill
+  - agent
+  - skill-inventory
+  serves:
+  - talking-with-an-agent
+- slug: redrawing-the-line
+  title: Redrawing the Line
+  summary: Coming back to the line as the machines change and as the person changes, and moving it in either direction on purpose.
+  capabilities:
+  - deciding-what-stays-human
+  entities:
+  - delegation-line
+  - review-cadence
+  serves:
+  - agent-instructions

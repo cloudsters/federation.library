@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: crew-morning-briefing
+title: Crew Morning Briefing
+medium: encounter
+summary: The short daily meeting at the depot in which crews take up their work and share what they found the day before.
+exchanges:
+- crew-assignments-for-planned-work
+- crew-knowledge-for-repairs-that-last
+journey: frontline-worker-keeping-the-city-in-service

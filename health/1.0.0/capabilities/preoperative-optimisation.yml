@@ -1,0 +1,13 @@
+kind: capability
+slug: preoperative-optimisation
+title: Preoperative Optimisation
+level: L3
+parent: surgical-indication-and-preparation
+summary: Optimise the patient's condition before surgery, including prehabilitation, anaemia and nutrition management.
+binds:
+- source: src-510
+  edition: '2021'
+  jurisdiction: global
+- source: src-575
+  edition: '2021'
+  jurisdiction: global

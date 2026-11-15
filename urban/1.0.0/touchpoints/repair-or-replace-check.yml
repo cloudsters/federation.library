@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: repair-or-replace-check
+title: Repair-or-Replace Check
+medium: artefact
+summary: The record of the check whether a failed city vehicle, tool or piece of furniture can be repaired, refurbished or passed
+  on before it is replaced.
+exchanges:
+- passed-on-equipment-for-neighbourhood-use
+journey: supplier-taking-responsibility-for-what-it-sold

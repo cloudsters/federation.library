@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: hygiene-round
+title: Hygiene Round
+medium: encounter
+summary: The visit in which infection prevention staff observe hygiene practice on a unit, check the environment and equipment and
+  give immediate feedback to the team.
+exchanges:
+- works-contract-for-a-safe-site
+- hygiene-feedback-for-safer-wards
+journey: clinical-unit-moving-into-a-new-building

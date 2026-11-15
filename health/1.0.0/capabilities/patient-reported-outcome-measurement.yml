@@ -1,0 +1,16 @@
+kind: capability
+slug: patient-reported-outcome-measurement
+title: Patient-Reported Outcome Measurement
+level: L3
+parent: quality-measurement
+summary: Collect outcomes and experiences reported by patients and use them in care and improvement.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

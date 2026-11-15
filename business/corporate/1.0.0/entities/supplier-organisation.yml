@@ -1,0 +1,53 @@
+kind: entity
+slug: supplier-organisation
+title: Supplier Organisation
+type: master
+summary: A supplier — the external partner who provides materials, goods, or services for the organisation's production, requiring careful
+  selection and mutual accountability.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: contacts
+  type: reference(contact)
+  card: 0..*
+- name: addresses
+  type: text
+  card: 0..*
+- name: payment-term
+  type: reference(payment-term)
+  card: 0..1
+- name: payables-account
+  type: reference(account)
+  card: 0..1
+- name: scorecard
+  type: code
+  card: 0..1
+- name: supplied-items
+  type: reference(item)
+  card: 0..*
+states:
+- identified
+- qualified
+- active
+- rated
+- offboarded
+relations:
+- type: refers-to
+  target: purchase-order
+- type: refers-to
+  target: purchase-invoice
+- type: refers-to
+  target: item
+- type: governed-by
+  target: contract
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

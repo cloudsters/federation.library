@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: breach-notice-for-protective-steps
+title: Breach Notice for Protective Steps
+between:
+- city-administration
+- resident
+offered:
+- Notice of what data was breached and what the resident can do.
+returned:
+- Residents who take protective steps and report misuse.
+touchpoint: personal-data-breach-notice

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: ai-system-register
+title: AI System Register
+medium: artefact
+summary: The register of AI systems in use or under assessment, with purpose, setting, risk class, owners, validation status and overseers,
+  published in summary for patients and the public.
+exchanges:
+- transparent-ai-use-for-public-trust
+journey: provider-through-local-assurance

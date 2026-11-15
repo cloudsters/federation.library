@@ -1,0 +1,67 @@
+kind: entity
+slug: programme-portfolio
+title: Programme Portfolio
+type: master
+summary: The whole set of programmes and capital projects the city has funded, with their balance across objectives, neighbourhoods
+  and risk, and the share decided by residents. The administration keeps it, the council adopts and rebalances it, and it is published
+  as the city's commitments to residents.
+attributes:
+- name: portfolio-period
+  type: period
+  card: 1..1
+- name: programmes
+  type: reference(city-programme)
+  card: 1..*
+- name: total-funding
+  type: amount
+  card: 1..1
+- name: balance-by-objective
+  type: document
+  card: 1..1
+- name: balance-by-neighbourhood
+  type: document
+  card: 1..1
+- name: risk-profile
+  type: document
+  card: 0..1
+- name: resident-decided-share
+  type: amount
+  card: 0..1
+- name: participatory-cycle
+  type: reference(participatory-budget-cycle)
+  card: 0..1
+- name: capital-plan
+  type: reference(capital-investment-plan)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: next-review-on
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- assembled
+- balanced
+- funded
+- published
+- in-delivery
+- rebalanced
+- closed
+relations:
+- type: composed-of
+  target: city-programme
+- type: based-on
+  target: city-strategy
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: capital-investment-plan
+- type: produces
+  target: public-record
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global

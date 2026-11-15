@@ -1,0 +1,33 @@
+kind: entity
+slug: character-trait
+title: Character Trait
+type: master
+summary: A quality this person is working to hold, carried with their own definition of it rather than a dictionary's. What reliability
+  or courage means here is stated in the person's words, because a trait defined by someone else cannot be practised.
+attributes:
+- name: own-definition
+  type: text
+  card: 1..1
+- name: what-it-looks-like
+  type: text
+  card: 1..*
+- name: why-held
+  type: text
+  card: 0..1
+- name: serves-value
+  type: reference(value-set)
+  card: 0..1
+- name: last-tested
+  type: date
+  card: 0..1
+states:
+- admired
+- defined
+- practised
+- tested
+- held
+relations:
+- target: value-set
+  type: serves
+- target: self
+  type: about

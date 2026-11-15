@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: shop-floor
+title: Shop Floor
+medium: place
+summary: The production area where machines, lines and people make the product, and where safety, quality, output and improvement
+  are visible every hour.
+exchanges:
+- stop-authority-for-early-signals
+- workable-sequence-for-truthful-confirmation
+journey: operator-building-quality-into-the-work

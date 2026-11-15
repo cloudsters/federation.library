@@ -1,0 +1,65 @@
+kind: entity
+slug: service-level-agreement
+title: Service Level Agreement
+type: governance
+summary: The published levels a digital service must keep, such as hours, availability and response times, and the help users can
+  expect. The service owner sets it with users and operators and publishes it, and performance is reviewed against it with residents
+  and staff.
+attributes:
+- name: service
+  type: reference(digital-service)
+  card: 1..1
+- name: service-hours
+  type: text
+  card: 1..1
+- name: availability-target
+  type: decimal
+  card: 1..1
+- name: response-times
+  type: text
+  card: 1..*
+- name: resolution-times
+  type: text
+  card: 0..*
+- name: help-channels
+  type: code
+  card: 1..*
+- name: operators
+  type: text
+  card: 0..*
+- name: supplier-contracts
+  type: reference(contract)
+  card: 0..*
+- name: reporting-rhythm
+  type: code
+  card: 1..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- drafted
+- agreed
+- published
+- in-force
+- under-review
+- revised
+- retired
+relations:
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: contract
+- type: produces
+  target: oversight-report
+- type: produces
+  target: public-record
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

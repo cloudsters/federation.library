@@ -1,0 +1,121 @@
+kind: value-stream
+slug: production-craft-assembly
+title: Production Craft & Assembly
+family: demand-to-fulfillment
+summary: 'Making what was ordered or planned, whether goods, components or digital products, to specification: preparing structures
+  and routings, scheduling and executing production, checking quality in the flow, and recording what was made from which inputs.'
+trigger: A production order is released by planning or by a customer order.
+outcome: The ordered quantity is produced to specification, inspected, traced and released to stock or shipment.
+stakeholders:
+- production-operator
+- shift-supervisor
+- quality-manager
+- development-engineer
+- maintenance-technician
+steps:
+- slug: production-system-design
+  title: Production System Design
+  summary: 'How and where production happens is decided: workstations and routings, local or central production close to need, and
+    circular use of materials and by-products.'
+  capabilities:
+  - workstation-and-routing-design
+  - distributed-production-architecture
+  - circular-production-design
+  entities:
+  - workstation
+  - routing
+  - work-center
+  - circular-material-passport
+  serves:
+  - design-review
+- slug: product-data-release
+  title: Product Data Release
+  summary: The released product structure, routing and work instructions are made available at the workstation, and engineering changes
+    reach production at a controlled point so that the right revision is built.
+  capabilities:
+  - bill-of-materials-architecture
+  - plm-engineering-change
+  - standard-work-instructions
+  entities:
+  - bom
+  - routing
+  - product-specification
+  - change-request
+  serves:
+  - engineering-change-notice
+  - work-instruction
+- slug: production-scheduling
+  title: Production Scheduling
+  summary: Released orders are sequenced to workstations by due date, capacity and material availability at a cadence the people on
+    the line can sustain, and resequenced when demand signals change.
+  capabilities:
+  - production-scheduling-as-rhythm
+  - demand-responsive-production
+  entities:
+  - work-order
+  - production-plan
+  - work-center
+  - shift-assignment
+  serves:
+  - shift-handover
+  - shop-floor-meeting
+  - work-order
+- slug: production-run
+  title: Production Run
+  summary: Materials are issued, operations performed and confirmed with times, quantities and downtime, machine and sensor data captured,
+    and digital products built and released in small, tested increments.
+  capabilities:
+  - shop-floor-execution
+  - iot-device-integration
+  - continuous-delivery-practice
+  - standard-work-instructions
+  entities:
+  - work-order
+  - job-card
+  - stock-entry
+  - equipment
+  serves:
+  - shop-floor
+  - work-order
+- slug: in-process-quality-control
+  title: In-Process Quality Control
+  summary: Quality is checked at control points during and after production, and deviations are stopped, recorded and dispositioned
+    before goods move on.
+  capabilities:
+  - quality-inspection-control
+  - quality-sensing-verification
+  entities:
+  - quality-inspection
+  - non-conformance
+  - quality-standard
+  - batch-lot
+  serves:
+  - first-article-approval
+  - inspection-point
+- slug: traceability-and-release
+  title: Traceability and Release
+  summary: Each unit or lot is recorded with its inputs, operations and test results and is then released to stock or shipment, so
+    that any defect can be contained and any recall scoped.
+  capabilities:
+  - production-memory-traceability
+  entities:
+  - batch-lot
+  - serial-number
+  - stock-entry
+  - item
+  serves:
+  - complaint-and-warranty-claim
+  - declaration-of-conformity
+  - traceability-record
+- slug: production-performance-review
+  title: Production Performance Review
+  summary: Output, yield, equipment effectiveness and unit cost are measured, losses are analysed, and improvements are fed back into
+    routings, instructions and schedules.
+  capabilities:
+  - production-performance-management
+  entities:
+  - kpi
+  - measure-report
+  - work-center
+  serves:
+  - shop-floor-meeting

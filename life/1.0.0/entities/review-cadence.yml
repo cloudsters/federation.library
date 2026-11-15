@@ -1,0 +1,36 @@
+kind: entity
+slug: review-cadence
+title: Review Cadence
+type: governance
+summary: When this life stops to look at itself, and against what. Quarterly is the interval most of the read corpora converge on;
+  the entity records the interval this life actually keeps, which is usually longer.
+attributes:
+- name: interval-kept
+  type: duration
+  card: 1..1
+- name: interval-intended
+  type: duration
+  card: 0..1
+- name: looked-at-against
+  type: text
+  card: 1..*
+- name: last-held
+  type: date
+  card: 0..1
+- name: next-due
+  type: date
+  card: 0..1
+- name: reads
+  type: list(life-dashboard)
+  card: 0..*
+states:
+- intended
+- kept
+- slipping
+- lapsed
+- restored
+relations:
+- target: life-blueprint
+  type: about
+- target: life-dashboard
+  type: depends-on

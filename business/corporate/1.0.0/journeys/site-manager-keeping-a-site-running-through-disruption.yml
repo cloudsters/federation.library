@@ -1,0 +1,53 @@
+kind: journey
+slug: site-manager-keeping-a-site-running-through-disruption
+title: Site Manager Keeping a Site Running Through Disruption
+stakeholder: site-manager
+summary: A site manager names the site's exposure, maps its critical operations, plans and rehearses continuity, leads the site through
+  a crisis, restores operation and builds the lessons into the plan.
+stages:
+- slug: name-the-sites-exposure
+  title: Name the Site's Exposure
+  goal: The physical, climate and supply exposure of the site is part of the posture the board decides.
+  step: resilience-architecture/resilience-posture
+  touchpoints:
+  - risk-workshop
+- slug: map-what-must-not-stop
+  title: Map What Must Not Stop
+  goal: The site's critical operations and dependencies have tolerable outage and recovery targets.
+  step: resilience-architecture/critical-operations-analysis
+  touchpoints:
+  - business-impact-analysis
+- slug: plan-the-fallback
+  title: Plan the Fallback
+  goal: Each critical operation has a fallback and a minimum viable operation, and crisis roles are named.
+  step: resilience-architecture/continuity-and-emergency-planning
+  touchpoints:
+  - continuity-plan
+- slug: rehearse
+  title: Rehearse
+  goal: The site team has rehearsed its roles and the findings have strengthened the plan.
+  step: resilience-architecture/exercise-and-stress-testing
+  touchpoints:
+  - crisis-exercise
+- slug: lead-through-the-crisis
+  title: Lead Through the Crisis
+  goal: The alert is raised, the crisis team decides and the site runs in governed degraded operation.
+  step: resilience-architecture/crisis-response
+  touchpoints:
+  - emergency-alert
+  - crisis-room
+  - press-briefing
+- slug: restore-operation
+  title: Restore Operation
+  goal: Operations return one by one within their targets and degraded operation is ended deliberately.
+  step: resilience-architecture/operations-restoration
+  touchpoints:
+  - continuity-plan
+  - shop-floor-meeting
+- slug: build-in-the-lessons
+  title: Build In the Lessons
+  goal: The debrief has changed the plan and what was learnt reaches other sites.
+  step: resilience-architecture/lesson-sharing-and-plan-evolution
+  touchpoints:
+  - crisis-debrief
+  - knowledge-base

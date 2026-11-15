@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: response-knowledge-for-a-safe-event
+title: Response Knowledge for a Safe Event
+between:
+- emergency-service
+- event-organiser
+offered:
+- The emergency services' knowledge of crowds, routes and response.
+returned:
+- A safety plan the organiser keeps, with stewards and clear routes for help.
+touchpoint: event-safety-planning-meeting

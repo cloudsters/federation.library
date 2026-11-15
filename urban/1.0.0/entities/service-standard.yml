@@ -1,0 +1,68 @@
+kind: entity
+slug: service-standard
+title: Service Standard
+type: governance
+summary: The published standard residents can expect of a service, such as response times, accessibility, how to reach a person and
+  the remedy when the service fails. The service sets it with those who use and deliver it and the responsible department keeps and
+  publishes it, and it is used to check quality, to answer failures and to grant redress.
+attributes:
+- name: service
+  type: reference(public-service)
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: commitments
+  type: text
+  card: 1..*
+- name: response-times
+  type: text
+  card: 0..*
+- name: accessibility
+  type: text
+  card: 0..*
+- name: human-contact-route
+  type: text
+  card: 1..1
+- name: remedies
+  type: text
+  card: 1..*
+- name: set-with
+  type: text
+  card: 1..*
+- name: owner
+  type: reference(department)
+  card: 1..1
+- name: service-level-agreement
+  type: reference(service-level-agreement)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- published
+- in-force
+- under-review
+- superseded
+relations:
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: service-council
+- type: refers-to
+  target: service-level-agreement
+- type: produces
+  target: public-record
+binds:
+- source: src-178
+  edition: '2019'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

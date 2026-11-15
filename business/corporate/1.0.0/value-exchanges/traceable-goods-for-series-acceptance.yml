@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: traceable-goods-for-series-acceptance
+title: Traceable Goods for Series Acceptance
+between:
+- quality-manager
+- business-customer
+offered:
+- Approved first articles, released goods with conformity evidence, and records that trace and contain any defect.
+returned:
+- Approval for series supply, defect reports with evidence and continued orders.
+touchpoint: complaint-and-warranty-claim

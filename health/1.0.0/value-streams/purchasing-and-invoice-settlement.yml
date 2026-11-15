@@ -1,0 +1,129 @@
+kind: value-stream
+slug: purchasing-and-invoice-settlement
+title: Purchasing and Invoice Settlement
+family: source-to-alliance
+summary: 'Ordering against contracts and paying suppliers fairly and on time: requisition, order, goods receipt, invoice matching,
+  approval and payment.'
+trigger: A unit requisitions goods or services.
+outcome: The goods or services are received as ordered, and the supplier is paid correctly and on time.
+stakeholders:
+- registered-nurse
+- head-of-clinical-department
+- administrative-staff
+- support-services-staff
+- supplier
+steps:
+- slug: requisition
+  title: Requisition
+  summary: A unit requests goods or services from the ordering catalogue, or as a described request where no catalogue item exists,
+    stating quantity, need date and cost centre.
+  capabilities:
+  - procurement-ordering
+  - master-data-stewardship
+  entities:
+  - purchase-requisition
+  - inventory-item
+  - cost-centre
+  serves:
+  - ordering-catalogue
+- slug: requisition-approval
+  title: Requisition Approval
+  summary: The requisition is approved by the holder of the relevant authority, checked against the available budget and recorded
+    as a commitment, then routed to stock, to a framework agreement or to a buyer.
+  capabilities:
+  - procurement-ordering
+  - budgetary-control-encumbrance
+  - delegation-of-authority
+  - internal-controls-design
+  entities:
+  - purchase-requisition
+  - budget
+  - cost-centre
+  serves:
+  - ordering-catalogue
+- slug: order-placement
+  title: Order Placement
+  summary: Approved requisitions become orders against contracts and framework agreements, by rule or by a buyer who obtains offers
+    where no contract exists; orders are sent electronically and confirmed by the supplier with price and delivery date.
+  capabilities:
+  - procurement-ordering
+  - blanket-order-management
+  - contract-lifecycle-stewardship
+  - anti-corruption-and-conflicts-of-interest
+  - supplier-relationship-stewardship
+  entities:
+  - purchase-order
+  - contract
+  - supplier-organisation
+  serves:
+  - supplier-portal
+- slug: goods-receipt-and-service-confirmation
+  title: Goods Receipt and Service Confirmation
+  summary: Deliveries are checked against the order for quantity, condition, batch and expiry and booked into stock or to the requesting
+    unit; services are confirmed by their recipient, and discrepancies are reported to the supplier.
+  capabilities:
+  - inbound-flow-orchestration
+  - serial-number-tracking
+  - returns-reverse-logistics
+  - supplier-performance-evaluation
+  entities:
+  - goods-receipt
+  - purchase-order
+  - stock-movement
+  - inventory-item
+  serves:
+  - goods-receiving
+  - ordering-catalogue
+  - point-of-care-store
+- slug: invoice-receipt-and-matching
+  title: Invoice Receipt and Matching
+  summary: Supplier invoices arrive as structured electronic documents, are checked for formal correctness and matched with order
+    and receipt; price and quantity differences are clarified with the supplier or the unit.
+  capabilities:
+  - electronic-invoicing-compliance
+  - invoice-matching-verification
+  - accounts-payable
+  - supplier-recovery
+  entities:
+  - invoice
+  - purchase-order
+  - goods-receipt
+  - supplier-organisation
+  serves:
+  - supplier-invoice
+  - supplier-portal
+- slug: invoice-approval-and-posting
+  title: Invoice Approval and Posting
+  summary: Matched invoices are released automatically and unmatched ones are approved by the responsible unit within its authority;
+    invoices are posted to accounts and cost centres, and goods received but not yet invoiced are accrued at period end.
+  capabilities:
+  - accounts-payable
+  - delegation-of-authority
+  - general-accounting
+  - financial-close
+  - controls-monitoring
+  entities:
+  - invoice
+  - cost-centre
+  - budget
+  serves:
+  - supplier-invoice
+- slug: payment-execution
+  title: Payment Execution
+  summary: Due invoices are paid in scheduled payment runs under dual control, taking discounts where they are worth it; suppliers
+    receive a payment advice, and disputes and fraud attempts such as changed bank details are handled.
+  capabilities:
+  - payment-run-orchestration
+  - cash-flow-forecasting
+  - fraud-and-dispute-management
+  - banking-and-reconciliation
+  entities:
+  - payment
+  - invoice
+  - supplier-organisation
+  serves:
+  - payment-advice
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

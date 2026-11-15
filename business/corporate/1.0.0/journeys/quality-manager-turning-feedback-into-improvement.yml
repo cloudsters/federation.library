@@ -1,0 +1,32 @@
+kind: journey
+slug: quality-manager-turning-feedback-into-improvement
+title: Quality Manager Turning Feedback into Improvement
+stakeholder: quality-manager
+summary: A quality manager sets stable measures, reads service handling and warranty and recall performance, and routes combined findings
+  to owners until the improvement is measured again.
+stages:
+- slug: set-the-measures
+  title: Set the Measures
+  goal: Measures and feedback points are set and kept stable enough to compare over time.
+  step: experience-sensing-evolution/measurement-design
+  touchpoints:
+  - experience-dashboard
+- slug: read-the-handling
+  title: Read the Handling
+  goal: Satisfaction with the handling of requests and complaints is visible per channel.
+  step: experience-sensing-evolution/service-handling-evaluation
+  touchpoints:
+  - experience-dashboard
+- slug: weigh-warranty-and-recall
+  title: Weigh Warranty and Recall
+  goal: Warranty cost and fairness and the effectiveness of recalls are reviewed as measures of product integrity.
+  step: experience-sensing-evolution/warranty-and-recall-performance-review
+  touchpoints:
+  - customer-insight-review
+- slug: route-and-remeasure
+  title: Route and Remeasure
+  goal: Findings from all sources reach the owning units and the agreed improvements are measured again.
+  step: experience-sensing-evolution/findings-and-improvement-loop
+  touchpoints:
+  - customer-insight-review
+  - experience-dashboard

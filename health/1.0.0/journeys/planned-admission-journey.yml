@@ -1,0 +1,49 @@
+kind: journey
+slug: planned-admission-journey
+title: Planned Admission Journey
+stakeholder: elective-inpatient
+summary: A person referred for planned inpatient treatment learns that the commons has accepted the request, waits informed, prepares
+  for the stay and arrives to a prepared admission.
+stages:
+- slug: know-the-request-arrived
+  title: Know the Request Arrived
+  goal: Know that the request has arrived and who decides on it.
+  step: referral-and-admission-management/request-receipt
+  touchpoints:
+  - patient-portal
+  - appointment-service
+- slug: hear-the-answer
+  title: Hear the Answer
+  goal: Learn what the commons will do and by when.
+  step: referral-and-admission-management/clinical-review-and-acceptance
+  touchpoints:
+  - patient-portal
+- slug: wait-informed
+  title: Wait Informed
+  goal: Know the expected date, the rights that apply to the wait and whom to tell when the condition changes.
+  step: referral-and-admission-management/prioritisation-and-waiting-list
+  touchpoints:
+  - waiting-time-notice
+  - appointment-service
+- slug: receive-a-date
+  title: Receive a Date
+  goal: Receive a date that fits, with instructions for preparation in a language understood.
+  step: referral-and-admission-management/scheduling
+  touchpoints:
+  - appointment-confirmation
+  - patient-portal
+- slug: prepare-for-the-stay
+  title: Prepare for the Stay
+  goal: Complete tests, information and consent beforehand so that nothing delays the stay.
+  step: referral-and-admission-management/pre-admission-assessment
+  touchpoints:
+  - pre-admission-clinic
+  - patient-portal
+  - consent-form
+- slug: arrive-and-be-known
+  title: Arrive and Be Known
+  goal: Be received, identified and taken to the ward without repeated questions.
+  step: referral-and-admission-management/registration-and-identification
+  touchpoints:
+  - admission-desk
+  - identification-band

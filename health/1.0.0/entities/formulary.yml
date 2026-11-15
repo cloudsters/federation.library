@@ -1,0 +1,44 @@
+kind: entity
+slug: formulary
+title: Formulary
+type: master
+summary: The organisation's curated list of medicinal products approved for routine use, with preferred alternatives and restrictions,
+  maintained by its drug and therapeutics committee.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: scope
+  type: reference(organisation)
+  card: 1..1
+- name: entries
+  type: reference(medication)
+  card: 1..*
+- name: restrictions
+  type: text
+  card: 0..*
+- name: maintained-by
+  type: reference(governance-body)
+  card: 1..1
+- name: valid-period
+  type: period
+  card: 1..1
+states:
+- draft
+- in-force
+- withdrawn
+relations:
+- type: composed-of
+  target: medication
+- type: governed-by
+  target: policy
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

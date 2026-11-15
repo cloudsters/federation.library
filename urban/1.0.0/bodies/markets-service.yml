@@ -1,0 +1,18 @@
+kind: body
+slug: markets-service
+title: Markets Service
+summary: Plans covered, weekly and street markets within reach of every neighbourhood, convenes the vendor council and agrees the
+  market rules with it, registers vendors with standing, runs market days, publishes aggregated prices from the vendors' pooled data,
+  arranges direct sales by producers of the region and reviews prices, incomes and access with the vendors.
+holds:
+- markets-and-local-trade
+- market-network-planning
+- market-rule-drafting
+- vendor-council-convening
+- vendor-registration
+- market-day-operation
+- price-information-publication
+- producer-direct-sales-arrangement
+part_of: economic-development-department
+type: function
+form: organisational-unit

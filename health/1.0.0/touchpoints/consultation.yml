@@ -1,0 +1,20 @@
+kind: touchpoint
+slug: consultation
+title: Consultation
+medium: encounter
+summary: The conversation in which a clinician and a patient review findings, discuss options and decide together on the next step
+  of treatment.
+exchanges:
+- patient-reported-outcomes-for-responsive-care
+- recall-information-for-follow-up
+- explained-plan-for-shared-goals
+- prepared-visit-for-a-clear-plan
+- informed-consent-for-the-operation
+- consent-to-testing-for-an-explained-diagnosis
+- preferences-for-an-explained-recommendation
+- future-wishes-recorded-and-honoured
+- new-method-access-for-informed-consent
+- second-opinion-for-informed-choice
+- interpretation-for-own-account
+- options-for-an-informed-decision
+journey: affected-by-a-product-recall

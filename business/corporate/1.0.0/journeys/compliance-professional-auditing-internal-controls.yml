@@ -1,0 +1,34 @@
+kind: journey
+slug: compliance-professional-auditing-internal-controls
+title: Compliance Professional Auditing Internal Controls
+stakeholder: legal-risk-and-compliance-professional
+summary: A compliance professional maps risks to controls, examines whether they hold as a caring diagnosis, follows each deficiency
+  to closure and reports on the state of control.
+stages:
+- slug: map-risks-to-controls
+  title: Map Risks to Controls
+  goal: Each process risk has a control with a named owner.
+  step: internal-integrity-controls/control-framework-design
+  touchpoints:
+  - control-matrix
+- slug: diagnose-the-controls
+  title: Diagnose the Controls
+  goal: Processes and controls are examined and findings discussed with those who run them.
+  step: internal-integrity-controls/internal-audit-review
+  touchpoints:
+  - audit-fieldwork
+  - internal-audit-report
+- slug: follow-each-finding
+  title: Follow Each Finding
+  goal: Each deficiency has an owner, a measure and a date and is retested when closed.
+  step: internal-integrity-controls/deficiency-remediation
+  touchpoints:
+  - internal-audit-report
+  - control-matrix
+- slug: report-the-state-of-control
+  title: Report the State of Control
+  goal: Management and the supervisory board receive a true picture of control effectiveness.
+  step: internal-integrity-controls/control-effectiveness-reporting
+  touchpoints:
+  - supervisory-board-meeting
+  - internal-audit-report

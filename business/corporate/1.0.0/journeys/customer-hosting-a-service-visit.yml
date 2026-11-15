@@ -1,0 +1,34 @@
+kind: journey
+slug: customer-hosting-a-service-visit
+title: Customer Hosting a Service Visit
+stakeholder: business-customer
+summary: A business customer agrees the scope of a job, sees the work performed and validated, confirms time and materials and signs
+  off a result that is explained.
+stages:
+- slug: agree-the-scope
+  title: Agree the Scope
+  goal: The customer's situation, expectation and entitlement are understood and the scope is agreed before work begins.
+  step: service-delivery-craft/service-intake-and-scoping
+  touchpoints:
+  - service-hotline
+  - service-visit
+- slug: see-the-work-done
+  title: See the Work Done
+  goal: The work is performed to standard, adapted to the situation and validated as it goes.
+  step: service-delivery-craft/service-performance
+  touchpoints:
+  - service-visit
+  - remote-service-connection
+- slug: confirm-time-and-materials
+  title: Confirm Time and Materials
+  goal: Time, parts and travel are recorded transparently and match what the customer saw.
+  step: service-delivery-craft/time-and-material-recording
+  touchpoints:
+  - service-report
+- slug: sign-off-the-result
+  title: Sign Off the Result
+  goal: The result is checked together, signed off and invoiced correctly.
+  step: service-delivery-craft/completion-and-sign-off
+  touchpoints:
+  - service-report
+  - invoice

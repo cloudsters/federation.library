@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: repairer-recording-session
+title: Repairer Recording Session
+medium: encounter
+summary: A session in which an experienced repairer explains and shows a repair while it is recorded for the open guides.
+exchanges:
+- repair-knowledge-for-open-guides
+journey: older-resident-passing-on-repair-skills

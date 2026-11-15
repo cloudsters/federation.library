@@ -1,0 +1,62 @@
+kind: entity
+slug: heat-network
+title: Heat Network
+type: master
+summary: A network that carries heat from waste heat, renewable sources and stores to homes and businesses, with its owners and connections.
+  The operator keeps the record for the owners, whether the city, a municipal enterprise or a cooperative, and uses it to connect
+  households and to plan new sources and stores.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: owners
+  type: text
+  card: 1..*
+- name: operator
+  type: text
+  card: 1..1
+- name: extent
+  type: document
+  card: 1..1
+- name: heat-sources
+  type: code
+  card: 1..*
+- name: source-sites
+  type: text
+  card: 0..*
+- name: supply-capacity
+  type: quantity
+  card: 0..1
+- name: storage-capacity
+  type: quantity
+  card: 0..1
+- name: connection-count
+  type: integer
+  card: 0..1
+- name: tariff
+  type: reference(service-tariff)
+  card: 0..1
+- name: commissioned-on
+  type: date
+  card: 0..1
+states:
+- planned
+- under-construction
+- operating
+- expanding
+- decommissioned
+relations:
+- type: composed-of
+  target: service-connection
+- type: governed-by
+  target: energy-strategy
+- type: governed-by
+  target: service-tariff
+- type: refers-to
+  target: municipal-enterprise
+- type: refers-to
+  target: cooperative
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

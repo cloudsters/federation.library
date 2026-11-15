@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: bedside-learning-by-consent
+title: Bedside Learning by Consent
+between:
+- elective-inpatient
+- medical-student
+offered:
+- The patient offers their history, an examination and time for a student's learning, by consent and with the right to decline.
+returned:
+- The student returns attentive time, careful listening and a further explanation of the patient's condition, and the patient helps
+  form the physicians of the future.
+touchpoint: ward

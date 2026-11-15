@@ -1,0 +1,84 @@
+kind: value-stream
+slug: rhythm-to-day
+title: Finding the Day's Rhythm
+family: demand-to-fulfillment
+summary: Building the day around the body's own timing instead of against it — and around the season, which most designs ignore entirely.
+trigger: The day runs on a timetable set by others and the body keeps protesting, or the dark months arrive and the same schedule
+  no longer holds.
+outcome: The day follows the body's own timing and the turn of the seasons closely enough that living it no longer feels like a fight.
+stakeholders:
+- employer
+- partner
+- child
+- place
+steps:
+- slug: hearing-the-body-protest
+  title: Hearing the Body Protest
+  summary: 'Heavy mornings, the afternoon slump, wakefulness at night: the person notices that the day is running against their body.'
+  capabilities:
+  - listening-to-the-body
+  - noticing-ones-own-depletion
+  entities:
+  - body
+  - energy-log
+  - mood-record
+- slug: finding-ones-own-timing
+  title: Finding One's Own Timing
+  summary: The person learns when they naturally wake, sharpen, flag and wind down, and how this differs from the people they live
+    with.
+  capabilities:
+  - knowing-ones-body-clock
+  entities:
+  - energy-log
+  - health-data
+  - habit-record
+- slug: seeing-what-is-fixed
+  title: Seeing What Is Fixed
+  summary: School runs, shifts, meetings and the needs of others are laid out so the person can see which parts of the day can really
+    move.
+  capabilities:
+  - telling-the-changeable-from-the-given
+  entities:
+  - weekly-rhythm
+  - employer-relation
+  - child-relation
+  - commitment
+  serves:
+  - shared-calendar
+- slug: redrawing-the-day
+  title: Redrawing the Day
+  summary: 'The day is redrawn around the body''s timing: the first hour, the hardest work, meals, light and a stopping time, agreed
+    with those it touches.'
+  capabilities:
+  - designing-ones-own-day
+  - speaking-plainly-about-needs
+  entities:
+  - daily-rhythm
+  - weekly-rhythm
+  - partner-relation
+  - employer-relation
+  serves:
+  - kitchen-table
+  - shared-calendar
+- slug: turning-with-the-season
+  title: Turning With the Season
+  summary: As light and weather change through the year, the day and the week are adjusted instead of being held to one schedule.
+  capabilities:
+  - living-with-the-seasons
+  entities:
+  - season-reading
+  - daily-rhythm
+  - significant-place
+  serves:
+  - out-in-the-open
+- slug: living-it-and-adjusting
+  title: Living It and Adjusting
+  summary: The intended day is read against the lived one, and the design is changed where it keeps failing rather than forced into
+    place.
+  capabilities:
+  - looking-back-without-blame
+  - designing-ones-own-day
+  entities:
+  - habit-record
+  - daily-rhythm
+  - drift-reading

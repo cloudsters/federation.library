@@ -1,0 +1,13 @@
+kind: capability
+slug: physical-examination
+title: Physical Examination
+level: L3
+parent: medical-assessment-and-diagnosis
+summary: Perform and document a systematic physical and neurological examination.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-588
+  edition: '1974'
+  jurisdiction: global

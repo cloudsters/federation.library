@@ -1,0 +1,131 @@
+kind: value-stream
+slug: local-employment-and-livelihood-pathways
+title: Local Employment and Livelihood Pathways
+family: contributor-to-succession
+summary: Opening paths into secure work for residents who are out of work or in precarious work, and keeping workers whole when the
+  work the city depends on changes. It holds local hiring commitments in the city's contracts and investments, job matching that accounts
+  for care, travel and existing skills, skills taught by neighbours that bring income, the formalisation of informal trades into cooperatives
+  their workers own, and income protection and retraining when a kind of work is phased out or automated.
+trigger: A resident seeks work, a city contract or investment with local hiring requirements begins, or a council decision or an automation
+  will phase out work on which residents depend.
+outcome: Residents hold stable work or a secure share in a cooperative, and workers whose work was phased out have kept their income
+  through the transition and hold new work.
+stakeholders:
+- job-seeker
+- informal-worker
+- platform-worker
+- local-business
+- trade-union
+- civil-society-organisation
+- city-administration
+- funding-body
+steps:
+- slug: local-hiring-commitments
+  title: Local Hiring Commitments
+  summary: The council sets local hiring requirements for city contracts, capital projects and development agreements, with targets
+    for residents out of work, in the economic development strategy and in each agreement.
+  capabilities:
+  - local-hiring-requirement-setting
+  - fair-work-clause-drafting
+  - community-benefit-agreement-drafting
+  entities:
+  - local-hiring-agreement
+  - economic-development-strategy
+  - development-agreement
+  serves:
+  - local-hiring-clause
+  - local-hiring-openings-list
+- slug: job-seeker-intake
+  title: Job Seeker Intake
+  summary: Community coordinators meet job seekers where they already are, record their skills, their constraints such as childcare
+    and travel, and their goals, and open an employment pathway with them.
+  capabilities:
+  - job-matching
+  - prior-skills-recognition
+  - participant-outreach
+  entities:
+  - employment-pathway
+  - skill-registry
+  serves:
+  - employment-coordinator-visit
+- slug: skills-for-income
+  title: Skills for Income
+  summary: Neighbours teach digital and practical skills in libraries, community centres and workplaces, the teachers are paid for
+    it, and the competence gained is recognised by residents and employers.
+  capabilities:
+  - livelihood-skills-teaching
+  - community-credential-issuing
+  entities:
+  - skill-recognition
+  - library
+  - community-centre
+  serves:
+  - neighbour-skills-class
+  - skill-attestation
+- slug: job-matching-and-placement
+  title: Job Matching and Placement
+  summary: Job seekers are matched to openings under the local hiring commitments and to apprenticeships, and are supported through
+    their first months until the work becomes an ongoing role.
+  capabilities:
+  - job-matching
+  - apprenticeship-placement
+  entities:
+  - employment-pathway
+  - local-hiring-agreement
+  - apprenticeship
+  serves:
+  - local-hiring-compliance-report
+  - local-hiring-openings-list
+  - placement-check-in
+- slug: informal-work-formalisation
+  title: Informal Work Formalisation
+  summary: Informal transport operators, waste pickers and vendors are supported to form cooperatives that keep their routes and their
+    surplus, gain legal status, credit and shared facilities, and pool income to smooth bad months.
+  capabilities:
+  - worker-cooperative-formation-support
+  - transition-income-protection
+  entities:
+  - cooperative
+  - market
+  - employment-pathway
+  serves:
+  - cooperative-formation-clinic
+  - cooperative-operating-licence
+- slug: workforce-transition-planning
+  title: Workforce Transition Planning
+  summary: When a council decision, a change in how people move or an automation will phase out work, the city plans the transition
+    with the workers and their unions, naming who is affected, the income floor, the retraining paths, the routes into ownership and
+    the date of review.
+  capabilities:
+  - workforce-transition-planning
+  - transition-income-protection
+  - staff-representative-consultation
+  - decision-impact-assessment
+  entities:
+  - workforce-transition-plan
+  - council-decision
+  serves:
+  - published-transition-plan
+  - transition-planning-table
+- slug: transition-follow-through
+  title: Transition Follow-Through
+  summary: Affected workers receive wage replacement, retrain through apprenticeship bridges and are placed in new work, and at its
+    review the guarantee is extended or ended on the placement rates achieved.
+  capabilities:
+  - transition-income-protection
+  - job-matching
+  - workforce-transition-planning
+  entities:
+  - workforce-transition-plan
+  - employment-pathway
+  - payment
+  serves:
+  - transition-guarantee-review
+  - transition-income-payment
+binds:
+- source: src-243
+  edition: '2023-06-16'
+  jurisdiction: global
+- source: src-244
+  edition: '2015'
+  jurisdiction: global

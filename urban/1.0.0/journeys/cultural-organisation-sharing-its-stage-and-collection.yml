@@ -1,0 +1,35 @@
+kind: journey
+slug: cultural-organisation-sharing-its-stage-and-collection
+title: Cultural Organisation Sharing Its Stage and Collection
+stakeholder: cultural-organisation
+summary: A theatre or museum helps agree the culture plan, opens its programme and collection to residents as makers and as partners
+  in choosing what is shown, receives stable support that keeps it independent and reviews who takes part.
+stages:
+- slug: agree-the-culture-plan
+  title: Agree the Culture Plan
+  goal: The organisation's part in the culture plan, and what it opens to residents, is agreed.
+  step: arts-and-cultural-participation/culture-plan
+  touchpoints:
+  - culture-plan-forum
+  - published-culture-plan
+- slug: open-programme-and-collection
+  title: Open Programme and Collection
+  goal: Community groups programme the venue in turn, communities share the choice of what is displayed, and tickets are affordable.
+  step: arts-and-cultural-participation/venues-open-to-residents
+  touchpoints:
+  - community-programming-night
+  - shared-curation-panel
+  - resident-ticket-scheme
+- slug: receive-stable-support
+  title: Receive Stable Support
+  goal: Support over several years is agreed, with safeguards that keep the programme free of steering.
+  step: arts-and-cultural-participation/community-culture-funding
+  touchpoints:
+  - culture-grant-panel
+- slug: review-who-takes-part
+  title: Review Who Takes Part
+  goal: Who takes part, by neighbourhood and group, is reviewed with the communities concerned and the programme is changed.
+  step: arts-and-cultural-participation/cultural-space-protection-and-review
+  touchpoints:
+  - culture-participation-review-meeting
+  - published-cultural-map

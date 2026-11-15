@@ -1,0 +1,10 @@
+kind: capability
+slug: process-definition
+title: Process Definition
+level: L3
+parent: process-management
+summary: Scope, map and publish processes for those who carry them out.
+binds:
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

@@ -1,0 +1,37 @@
+kind: solution
+slug: medical-device-management
+title: Medical Device Management
+role: system-of-record
+summary: Keeps the inventory of medical devices and their lifecycle from acquisition and commissioning through maintenance,
+  safety inspection, incident and recall handling to decommissioning. It is the authority for every device and its fitness
+  for use.
+carries:
+- medical-device-investment-planning
+- device-acquisition-and-commissioning
+- device-inventory-and-registration
+- device-warranty-management
+- responsible-decommissioning
+- device-maintenance-planning
+- device-maintenance-execution
+- device-safety-and-metrology-inspection
+- asset-condition-sensing
+- device-incident-handling
+- hazard-assessment
+- product-recall-management
+- safety-notice-dissemination
+- regulatory-incident-reporting
+- device-operator-training
+- medical-device-cybersecurity
+holds:
+- medical-device
+- maintenance-order
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

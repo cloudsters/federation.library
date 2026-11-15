@@ -1,0 +1,24 @@
+kind: solution
+slug: examination-management
+title: Examination Management
+role: system-of-record
+summary: Builds, delivers and scores assessments and examinations, from item banks and blueprints through written, practical
+  and structured clinical examinations to results, appeals and quality analysis.
+carries:
+- student-assessment
+- structured-clinical-examination
+- specialist-examination-preparation
+- education-quality-assurance
+holds:
+- examination
+- learner-assessment
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

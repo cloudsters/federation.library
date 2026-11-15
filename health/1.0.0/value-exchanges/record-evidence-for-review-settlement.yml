@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: record-evidence-for-review-settlement
+title: Record Evidence for Review Settlement
+between:
+- specialist-physician
+- payer
+offered:
+- The record extracts and the clinical reasoning that justify the reviewed case, delivered within the deadline.
+returned:
+- A review decided on the evidence of the record, with the claim upheld or the repayment agreed.
+touchpoint: inspection-and-audit

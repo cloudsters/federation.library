@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: correct-claim-for-timely-payment
+title: Correct Claim for Timely Payment
+between:
+- administrative-staff
+- payer
+offered:
+- A complete and correctly coded claim that conforms to the payer agreement, sent promptly after discharge.
+returned:
+- Payment of the claimed amount within the agreed period, or a reasoned objection stated on the remittance advice.
+touchpoint: remittance-advice

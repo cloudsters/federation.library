@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: need-clarification-conversation
+title: Need Clarification Conversation
+medium: encounter
+summary: A conversation in which frontline staff clarify with the person, in their language and with an interpreter or assisted help
+  where needed, what they need and how urgent it is.
+exchanges:
+- need-behind-the-question-for-the-right-help
+- access-needs-for-an-equal-answer
+- own-language-question-for-a-clear-answer
+journey: frontline-worker-answering-at-first-contact

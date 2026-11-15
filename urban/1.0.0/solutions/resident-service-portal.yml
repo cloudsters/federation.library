@@ -1,0 +1,13 @@
+kind: solution
+slug: resident-service-portal
+title: Resident Service Portal
+role: system-of-engagement
+summary: Gives each resident one account in which to request services and follow their requests, reuses data the city holds only with
+  consent and shows which department used it, and receives applications by every route.
+carries:
+- resident-account-provision
+- once-only-data-reuse
+- service-application-intake
+holds:
+- resident-account
+- service-application

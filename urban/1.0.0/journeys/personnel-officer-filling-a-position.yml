@@ -1,0 +1,42 @@
+kind: journey
+slug: personnel-officer-filling-a-position
+title: Personnel Officer Filling a Position
+stakeholder: personnel-officer
+summary: A personnel officer confirms that a requested position is funded and graded, carries the vacancy to the groups the hiring
+  targets name, convenes a panel with staff and residents who use the service, makes the offer, opens the staff record and access
+  and plans the induction.
+stages:
+- slug: confirm-the-position
+  title: Confirm the Position
+  goal: The position's tasks, skills, grade and decision rights are described, and it is funded in the workforce plan.
+  step: recruitment-and-induction/position-requisition
+  touchpoints:
+  - position-description
+- slug: reach-beyond-the-usual-applicants
+  title: Reach Beyond the Usual Applicants
+  goal: The vacancy has reached the neighbourhoods and groups the local hiring targets name, through welcome points, community centres,
+    schools and associations.
+  step: recruitment-and-induction/outreach-and-advertising
+  touchpoints:
+  - city-jobs-board
+  - neighbourhood-recruitment-session
+- slug: convene-the-panel
+  title: Convene the Panel
+  goal: A panel of staff and, where the role serves residents directly, residents who use the service has assessed applicants against
+    the published criteria.
+  step: recruitment-and-induction/candidate-selection
+  touchpoints:
+  - selection-panel-interview
+- slug: make-the-offer-and-open-the-record
+  title: Make the Offer and Open the Record
+  goal: The offer is made at the published grade, and the staff record and the identity and access the role needs are created.
+  step: recruitment-and-induction/offer-and-contract
+  touchpoints:
+  - offer-letter-and-contract
+- slug: plan-the-induction
+  title: Plan the Induction
+  goal: Each new member of staff has an induction plan and an experienced colleague to work beside.
+  step: recruitment-and-induction/induction-and-mentoring
+  touchpoints:
+  - colleague-pairing
+  - first-day-welcome

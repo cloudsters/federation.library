@@ -1,0 +1,15 @@
+kind: solution
+slug: household-ledger
+title: Household Ledger
+role: system-of-record
+sovereignty: owned
+summary: Records what comes in, what goes out and what is owed, as one position the household can read at a glance.
+carries:
+- seeing-where-money-goes
+- keeping-one-list-of-what-is-owed
+holds:
+- account
+- income-event
+- expense
+- budget
+- financial-position

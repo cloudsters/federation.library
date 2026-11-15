@@ -1,0 +1,168 @@
+kind: value-stream
+slug: clinical-service-development
+title: Clinical Service Development
+family: discovery-to-usage
+summary: 'Conceiving and launching new or substantially changed clinical services: concept, requirements, business case, pilot, readiness
+  and launch, and later review of the service against its intended value.'
+trigger: The portfolio, a clinical team or an unmet patient need calls for a new or changed service.
+outcome: The service is launched with defined pathways, resources and measures, and is reviewed against its intended value.
+stakeholders:
+- head-of-clinical-department
+- specialist-physician
+- registered-nurse
+- executive
+- administrative-staff
+- referring-practice
+- patient-organisation
+- payer
+- health-planning-authority
+steps:
+- slug: need-identification
+  title: Need Identification
+  summary: A gap between what patients need and what the organisation offers is captured from the portfolio, a clinical team, referrers
+    or patients, and is tested against the care mandate, population need and existing services.
+  capabilities:
+  - population-needs-assessment
+  - demand-and-market-analysis
+  - clinical-service-portfolio-stewardship
+  - clinical-innovation-management
+  - referrer-relationship-management
+  - patient-and-public-involvement
+  entities:
+  - catchment-population
+  - care-service
+  - service-mandate
+  - strategic-objective
+  serves:
+  - board-meeting
+  - patient-advisory-council
+- slug: service-concept
+  title: Service Concept
+  summary: 'The service is defined: the patient group it serves, its care model and setting, its pathway and decision points, the
+    team and skill mix, and the space, equipment, digital support and service-group criteria it requires.'
+  capabilities:
+  - service-concept-development
+  - care-model-shift-planning
+  - clinical-pathway-design
+  - skill-mix-design
+  - patient-experience-strategy
+  - service-group-qualification
+  entities:
+  - care-service
+  - care-pathway
+  - service-group
+  - staffing-standard
+  serves:
+  - service-design-workshop
+- slug: business-case-and-approval
+  title: Business Case and Approval
+  summary: Expected volumes, costs, payment route, capacity effects, risks and alternatives are set out in a business case, and the
+    responsible body approves, amends or rejects the service.
+  capabilities:
+  - service-business-case
+  - referral-volume-forecasting
+  - service-line-profitability
+  - tariff-and-price-management
+  - initiative-evaluation-and-selection
+  - unit-risk-management
+  entities:
+  - business-case
+  - capacity-forecast
+  - budget
+  - governance-decision
+  serves:
+  - board-meeting
+  - business-case
+- slug: pilot
+  title: Pilot
+  summary: The service runs at limited scale for a defined patient group with agreed measures and stop criteria, and what is learned
+    refines the concept, the pathway and the business case.
+  capabilities:
+  - innovation-testbeds
+  - project-management
+  - clinical-outcome-tracking
+  - patient-experience-measurement
+  - process-improvement
+  entities:
+  - care-service
+  - care-pathway
+  - measure
+  - measure-report
+  - patient-experience-survey
+  serves:
+  - innovation-lab
+  - outpatient-clinic
+  - patient-advisory-council
+- slug: launch-readiness
+  title: Launch Readiness
+  summary: Staff are recruited, trained and validated; rooms, equipment, procedures and system content are ready; charging and payer
+    arrangements are in place; and the criteria of any required service group are evidenced.
+  capabilities:
+  - service-launch-readiness
+  - competence-validation
+  - clinical-standard-operating-procedures
+  - clinical-system-configuration
+  - charge-capture
+  - payer-budget-negotiation
+  - service-group-qualification
+  entities:
+  - care-service
+  - position
+  - room
+  - medical-device
+  - policy
+  - payer-agreement
+  - service-group-assignment
+  serves:
+  - care-mandate-decision
+  - clinical-workstation
+  - payer-negotiation
+- slug: service-launch
+  title: Service Launch
+  summary: The service opens, is published to patients and referrers with its access route and referral criteria, and its first patients
+    are treated under the close watch of the responsible team.
+  capabilities:
+  - service-lifecycle-management
+  - referrer-relationship-management
+  - website-cms-management
+  - referral-intake-management
+  - appointment-booking-management
+  entities:
+  - care-service
+  - referral-relationship
+  - referral
+  - appointment
+  serves:
+  - outpatient-clinic
+  - public-website
+  - referrer-portal
+- slug: value-review
+  title: Value Review
+  summary: After a set period the service is reviewed against its intended value in outcomes, patient experience, volumes and cost,
+    and the responsible body decides to continue, adapt or withdraw it.
+  capabilities:
+  - service-lifecycle-management
+  - clinical-outcome-tracking
+  - patient-reported-outcome-measurement
+  - patient-experience-measurement
+  - patient-level-costing
+  - integrated-performance-review
+  entities:
+  - care-service
+  - measure-report
+  - patient-reported-outcome
+  - patient-level-cost
+  - governance-decision
+  serves:
+  - board-meeting
+  - patient-advisory-council
+binds:
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-044
+  edition: '2011'
+  jurisdiction: global
+- source: src-050
+  edition: '2010'
+  jurisdiction: global

@@ -1,0 +1,17 @@
+kind: stakeholder
+slug: informal-carer
+title: Informal Carer
+nature: person
+stance: served
+summary: A person who provides ongoing unpaid care to a patient at home, often a partner, parent or adult child. Carries tasks once
+  done by professionals and is at risk of illness themselves.
+seeks:
+- Training in care tasks, a reliable contact in the commons and relief when the load becomes too heavy.
+brings:
+- Daily care at home that makes early discharge possible and keeps patients out of hospital.
+represented_by:
+- related-person
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

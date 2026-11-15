@@ -1,0 +1,58 @@
+kind: entity
+slug: department
+title: Department
+type: master
+summary: A unit of the administration with its tasks, staff, budget and the decision rights delegated to it. The administration keeps
+  the record as the structure is designed or changed by council decision, and it shows residents which unit answers for which work.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: tasks
+  type: text
+  card: 1..*
+- name: head-of-department
+  type: text
+  card: 0..1
+- name: parent-unit
+  type: reference(department)
+  card: 0..1
+- name: staff-count
+  type: integer
+  card: 0..1
+- name: budget-allocation
+  type: amount
+  card: 0..1
+- name: delegated-rights
+  type: reference(decision-rights-register)
+  card: 0..1
+- name: capabilities
+  type: reference(municipal-capability)
+  card: 0..*
+- name: shared-with
+  type: text
+  card: 0..*
+- name: established-by
+  type: reference(council-decision)
+  card: 0..1
+- name: established-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- established
+- operating
+- restructured
+- merged
+- dissolved
+relations:
+- type: part-of
+  target: city
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: municipal-budget
+- type: produces
+  target: departmental-plan

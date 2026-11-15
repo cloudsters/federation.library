@@ -1,0 +1,40 @@
+kind: journey
+slug: field-service-technician-caring-for-installed-products
+title: Field Service Technician Caring for Installed Products
+stakeholder: field-service-technician
+summary: A field service technician checks entitlements, carries out service visits, diagnoses failures, repairs or replaces, and
+  feeds failure causes back to suppliers and design.
+stages:
+- slug: check-the-entitlement
+  title: Check the Entitlement
+  goal: The technician knows what the agreement covers before arriving.
+  step: post-delivery-stewardship/service-agreement-administration
+  touchpoints:
+  - service-agreement
+- slug: carry-out-the-visit
+  title: Carry Out the Visit
+  goal: The visit is carried out with the right parts and leaves a complete service report.
+  step: post-delivery-stewardship/ongoing-service
+  touchpoints:
+  - service-visit
+  - service-report
+- slug: diagnose-the-failure
+  title: Diagnose the Failure
+  goal: The failure is diagnosed on site or remotely and the claim is supported with evidence.
+  step: post-delivery-stewardship/warranty-claim-intake
+  touchpoints:
+  - service-visit
+  - remote-service-connection
+- slug: repair-or-replace
+  title: Repair or Replace
+  goal: The decided remedy is carried out and the customer's operation restored.
+  step: post-delivery-stewardship/claim-decision-and-remedy
+  touchpoints:
+  - service-visit
+- slug: report-the-failure-cause
+  title: Report the Failure Cause
+  goal: The cause of the failure reaches the supplier and design, and the technician sees it corrected.
+  step: post-delivery-stewardship/supplier-recovery-and-failure-feedback
+  touchpoints:
+  - service-report
+  - failure-analysis-review

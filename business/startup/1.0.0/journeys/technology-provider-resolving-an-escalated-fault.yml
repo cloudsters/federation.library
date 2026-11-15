@@ -1,0 +1,27 @@
+kind: journey
+slug: technology-provider-resolving-an-escalated-fault
+title: Technology Provider Resolving an Escalated Fault
+stakeholder: technology-provider
+summary: A technology provider receives escalated faults with clear diagnostics, resolves them, helps remove root causes and keeps
+  entitlements and products current.
+stages:
+- slug: resolve-the-escalated-fault
+  title: Resolve the Escalated Fault
+  goal: The escalated fault is resolved within the agreed time.
+  step: support-as-care/incident-and-request-resolution
+  touchpoints:
+  - service-desk
+- slug: help-remove-the-cause
+  title: Help Remove the Cause
+  goal: The provider helps find the root cause and delivers a lasting fix.
+  step: support-as-care/problem-diagnosis-and-learning
+  touchpoints:
+  - knowledge-base
+  - vulnerability-advisory
+- slug: keep-products-and-entitlements-current
+  title: Keep Products and Entitlements Current
+  goal: Patches are delivered and licence entitlements reconciled with actual use.
+  step: support-as-care/infrastructure-and-asset-administration
+  touchpoints:
+  - software-entitlement-record
+  - vulnerability-advisory

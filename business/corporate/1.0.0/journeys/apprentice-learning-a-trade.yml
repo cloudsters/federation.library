@@ -1,0 +1,39 @@
+kind: journey
+slug: apprentice-learning-a-trade
+title: Apprentice Learning a Trade
+stakeholder: apprentice
+summary: An apprentice is introduced to the whole organisation, follows a training plan that joins work and school, is reviewed regularly,
+  completes the mandatory instruction and passes the qualifying examination with a path into work.
+stages:
+- slug: find-a-place-in-the-whole
+  title: Find a Place in the Whole
+  goal: The apprentice knows the organisation, its people and how the trade fits its work.
+  step: growth-development-cultivation/system-orientation
+  touchpoints:
+  - orientation-programme
+- slug: review-progress-regularly
+  title: Review Progress Regularly
+  goal: Progress against the training plan is reviewed with the trainer and the next stages are agreed.
+  step: growth-development-cultivation/growth-conversations
+  touchpoints:
+  - apprenticeship-training-plan
+- slug: learn-at-work-and-at-school
+  title: Learn at Work and at School
+  goal: The apprentice learns the trade at the workplace under supervision while the school teaches the theory, and both are coordinated.
+  step: growth-development-cultivation/learning-delivery
+  touchpoints:
+  - apprenticeship-training-plan
+  - mentoring
+- slug: complete-required-instruction
+  title: Complete Required Instruction
+  goal: Safety and other required instruction is completed before the apprentice works on their own.
+  step: growth-development-cultivation/mandatory-training
+  touchpoints:
+  - safety-instruction
+- slug: qualify-and-move-on
+  title: Qualify and Move On
+  goal: The apprentice passes the examination, the competence is recorded and a first role is offered where possible.
+  step: growth-development-cultivation/development-review
+  touchpoints:
+  - qualification-examination
+  - internal-job-market

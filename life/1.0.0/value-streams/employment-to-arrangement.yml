@@ -1,0 +1,85 @@
+kind: value-stream
+slug: employment-to-arrangement
+title: The Job as an Agreement
+family: interest-to-relationship
+summary: The institution that takes up the life's offer and pays for it — treated as a negotiated arrangement rather than a given.
+  For most people this single relationship consumes more waking hours than any other in the model.
+trigger: A job offer arrives, the hours start crowding out the rest of the life, or the person realises they never chose the terms
+  they work under.
+outcome: The job is an arrangement the person has looked at and agreed to, with its hours, pay and limits known, and it can be reopened
+  when the life changes.
+stakeholders:
+- employer
+- partner
+- dependant
+- collaborator
+steps:
+- slug: seeing-the-job-as-a-choice
+  title: Seeing the Job as a Choice
+  summary: An offer arrives, or the hours crowd out the rest of the life, and the person sees the job as terms they can look at rather
+    than a given.
+  capabilities:
+  - seeing-work-as-an-agreement
+  entities:
+  - employer-relation
+  - contract
+  - self
+  serves:
+  - work-agreement
+- slug: counting-what-it-takes
+  title: Counting What It Takes
+  summary: Looking at the hours, travel, energy and attention the job really takes, set beside what it pays.
+  capabilities:
+  - counting-the-real-cost-of-work
+  entities:
+  - time-audit
+  - energy-log
+  - income-event
+- slug: talking-it-through-at-home
+  title: Talking It Through at Home
+  summary: Talking it over with a partner and those who depend on the person, whose lives the job also shapes.
+  capabilities:
+  - deciding-together-at-home
+  entities:
+  - partner-relation
+  - dependant-relation
+  - conversation
+  - relationship-agreement
+  serves:
+  - kitchen-table
+- slug: negotiating-the-terms
+  title: Negotiating the Terms
+  summary: Asking for the hours, pay and limits the life needs before signing rather than hoping for them afterwards.
+  capabilities:
+  - talking-about-money-plainly
+  - asking-for-what-one-needs
+  entities:
+  - contract
+  - employer-relation
+  - boundary-set
+  serves:
+  - talk-with-the-boss
+  - work-agreement
+- slug: living-inside-the-arrangement
+  title: Living Inside the Arrangement
+  summary: Keeping the agreed limits in the week as it really runs, and noticing when they quietly slip.
+  capabilities:
+  - holding-agreed-limits
+  entities:
+  - weekly-rhythm
+  - boundary-set
+  - time-audit
+  serves:
+  - the-workplace
+- slug: reopening-when-life-changes
+  title: Reopening When Life Changes
+  summary: When a child arrives, a parent needs care or the person themselves changes, going back to change the terms, or leaving.
+  capabilities:
+  - reopening-an-agreement
+  entities:
+  - contract
+  - work-change
+  - transition
+  - care-episode
+  serves:
+  - talk-with-the-boss

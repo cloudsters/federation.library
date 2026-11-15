@@ -1,0 +1,13 @@
+kind: capability
+slug: it-compliance-assessment
+title: IT Compliance Assessment
+level: L3
+parent: information-security
+summary: Assess the IT environment against legal and regulatory requirements.
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global
+- source: src-300
+  edition: '2026'
+  jurisdiction: global

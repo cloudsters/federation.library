@@ -1,0 +1,60 @@
+kind: entity
+slug: shared-use-agreement
+title: Shared-Use Agreement
+type: governance
+summary: The agreement that opens a school, library or other public building or ground to neighbourhood use outside its core hours,
+  with the hours, the rules, who holds the keys and who pays for upkeep. The owner of the building and the neighbourhood body that
+  uses it sign it, and it is used to open the doors and to settle who answers for keys, rules and upkeep.
+attributes:
+- name: site
+  type: reference(school|community-centre|building)
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: neighbourhood-body
+  type: text
+  card: 1..1
+- name: permitted-uses
+  type: text
+  card: 1..*
+- name: shared-hours
+  type: text
+  card: 1..1
+- name: rules-of-use
+  type: text
+  card: 1..1
+- name: key-holders
+  type: text
+  card: 0..*
+- name: upkeep-responsibility
+  type: text
+  card: 0..1
+- name: fee
+  type: amount
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- negotiated
+- signed
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: school
+- type: refers-to
+  target: community-centre
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: commons-charter

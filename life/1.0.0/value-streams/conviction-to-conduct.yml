@@ -1,0 +1,74 @@
+kind: value-stream
+slug: conviction-to-conduct
+start: true
+title: Living by One's Values
+family: perception-to-mandate
+summary: Turning what a person believes into how they act when it costs something. Values that have never been tested under pressure
+  are not yet values; they are preferences.
+trigger: Holding to a belief starts to cost something real, a promotion, a friendship, money or peace at the family table, or two
+  things held dear pull apart.
+outcome: What the person believes and what they do under pressure line up, and where two values collide the choice is made knowingly.
+stakeholders:
+- employer
+- partner
+- close-friend
+- community
+- mentor
+steps:
+- slug: feeling-the-cost-arrive
+  title: Feeling the Cost Arrive
+  summary: Holding to a belief begins to cost something real, a promotion, a friendship or peace at the table, and the person notices
+    the test for what it is.
+  capabilities:
+  - noticing-when-a-value-is-tested
+  entities:
+  - value-set
+  - self
+  serves:
+  - family-gathering
+  - the-workplace
+- slug: naming-what-will-not-be-traded
+  title: Naming What Will Not Be Traded
+  summary: Each value is written as one sentence the person would say out loud, beside the small actions that show it in an ordinary
+    week.
+  capabilities:
+  - putting-values-into-words
+  entities:
+  - value-set
+  - character-trait
+- slug: turning-values-into-rules
+  title: Turning Values into Rules
+  summary: In a calm hour the person settles what they will do when a value is tested, so the answer does not have to be invented
+    under pressure.
+  capabilities:
+  - deciding-in-advance
+  entities:
+  - value-set
+  - boundary-set
+- slug: choosing-between-two-goods
+  title: Choosing between Two Goods
+  summary: Where two things held dear pull apart, one is chosen knowingly, and what was given up is named rather than hidden.
+  capabilities:
+  - weighing-two-goods
+  entities:
+  - decision
+  - value-set
+- slug: holding-firm
+  title: Holding Firm
+  summary: The person acts on what they believe while it costs them, and lives with the price without turning bitter about it.
+  capabilities:
+  - standing-by-a-value
+  entities:
+  - decision
+  - commitment
+  serves:
+  - the-workplace
+- slug: checking-the-week-against-the-words
+  title: Checking the Week against the Words
+  summary: From time to time what was said is set beside what the days actually show, and the gap is read as information rather than
+    as guilt.
+  capabilities:
+  - seeing-word-and-deed-apart
+  entities:
+  - coherence-reading
+  - time-audit

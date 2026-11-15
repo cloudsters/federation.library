@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: safety-notice-for-confirmed-action
+title: Safety Notice for Confirmed Action
+between:
+- supplier
+- clinical-engineer
+offered:
+- The manufacturer issues a safety notice that states the problem, the affected products and the action required.
+returned:
+- The organisation confirms the action taken for every affected item and reports incidents that may relate to the problem.
+touchpoint: recall-response-form

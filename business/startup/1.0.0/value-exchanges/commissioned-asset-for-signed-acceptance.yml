@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: commissioned-asset-for-signed-acceptance
+title: Commissioned Asset for Signed Acceptance
+between:
+- supplier
+- site-manager
+offered:
+- An asset tested against its designed intent, with documentation and the correction of every listed defect.
+returned:
+- Signed acceptance that releases final payment and starts the warranty.
+touchpoint: installation-and-commissioning

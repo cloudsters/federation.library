@@ -1,0 +1,52 @@
+kind: entity
+slug: goods-receipt
+title: Goods Receipt
+type: transactional
+summary: The record that goods arrived or a service was delivered, with the quantity, condition, date and any shortfall noted for
+  the contract manager. The receiving department makes it on delivery, and it is matched with the order and the invoice before anything
+  is paid.
+attributes:
+- name: receipt-number
+  type: identifier
+  card: 1..1
+- name: purchase-order
+  type: reference(purchase-order)
+  card: 1..1
+- name: receipt-kind
+  type: code
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: received-by
+  type: text
+  card: 1..1
+- name: receiving-place
+  type: text
+  card: 0..1
+- name: quantity-received
+  type: quantity
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: shortfall
+  type: text
+  card: 0..*
+- name: delivery-documents
+  type: document
+  card: 0..*
+states:
+- recorded
+- inspected
+- accepted
+- partly-accepted
+- rejected
+- matched
+relations:
+- type: refers-to
+  target: purchase-order
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: contract

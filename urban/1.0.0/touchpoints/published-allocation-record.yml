@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-allocation-record
+title: Published Allocation Record
+medium: artefact
+summary: The open record of every home let, to which priority and household size, and how long each home stood empty, with no names
+  given.
+exchanges:
+- empty-home-for-a-household-from-the-register
+- lived-experience-for-changed-allocation-rules
+journey: housing-officer-assessing-need-and-keeping-homes

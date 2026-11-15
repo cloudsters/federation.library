@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: form-cutting-workshop
+title: Form-Cutting Workshop
+medium: encounter
+summary: A working session in which frontline staff, residents and specialists redesign a service from the request to the decision
+  and its notice, removing steps and questions the decision does not need.
+exchanges:
+- decision-knowledge-for-shorter-forms
+- open-review-for-shared-code
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

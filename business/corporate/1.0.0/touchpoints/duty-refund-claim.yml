@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: duty-refund-claim
+title: Duty Refund Claim
+medium: artefact
+summary: The claim for a refund of duties paid, or the voluntary correction of a declaration, submitted to customs with its supporting
+  evidence.
+exchanges:
+- voluntary-correction-for-fair-treatment
+journey: customs-authority-clearing-a-consignment

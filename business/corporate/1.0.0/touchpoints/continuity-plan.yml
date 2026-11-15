@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: continuity-plan
+title: Continuity Plan
+medium: artefact
+summary: The plan for a critical operation or site with its fallback, minimum viable operation, alert levels, crisis roles and spokespersons.
+exchanges:
+- rehearsed-roles-for-safety-in-crisis
+- shared-emergency-plans-for-coordinated-rescue
+journey: site-manager-keeping-a-site-running-through-disruption

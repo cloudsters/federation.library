@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: prepared-seller-for-time-given
+title: Prepared Seller for Time Given
+between:
+- sales-representative
+- business-customer
+offered:
+- A seller prepared with the current offers and the customer's history, and a clear contact for every need.
+returned:
+- Time, an open account of current needs and orders placed directly.
+touchpoint: customer-portal

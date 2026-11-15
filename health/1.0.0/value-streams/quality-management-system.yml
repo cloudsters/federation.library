@@ -1,0 +1,126 @@
+kind: value-stream
+slug: quality-management-system
+title: Quality Management System
+family: collaboration-to-automation
+summary: 'Operating the quality management system that makes care and services reliable: policies and controlled documents, internal
+  audits, non-conformance and corrective action, management review and external certification of the organisation and its centres.'
+trigger: A document review, internal audit or certification audit falls due, or a non-conformance is reported.
+outcome: The organisation and its centres hold valid certification, and every non-conformance is closed with an effective corrective
+  action.
+stakeholders:
+- executive
+- head-of-clinical-department
+- quality-and-safety-manager
+- registered-nurse
+- certification-body
+- national-care-standards-body
+steps:
+- slug: quality-policy-and-objectives
+  title: Quality Policy and Objectives
+  summary: The executive board sets the quality policy and measurable quality objectives, and quality management translates legal,
+    contractual and certification obligations into requirements for each service and process.
+  capabilities:
+  - quality-management-system
+  - quality-requirements
+  - clinical-governance-framework
+  - goal-setting-and-cascade
+  - compliance-framework
+  entities:
+  - policy
+  - strategic-objective
+  - compliance-obligation
+  - governance-decision
+  serves:
+  - controlled-document-library
+  - management-review-meeting
+- slug: document-control
+  title: Document Control
+  summary: Policies, procedures, standards, process descriptions and forms are drafted by their owners, approved, published in one
+    controlled library, acknowledged by the staff concerned and reviewed before they lapse.
+  capabilities:
+  - policy-lifecycle-management
+  - information-content-management
+  - process-definition
+  - clinical-standard-operating-procedures
+  - wiki-knowledge-base-management
+  entities:
+  - policy
+  - process-model
+  - organisation-unit
+  serves:
+  - controlled-document-library
+- slug: internal-audit
+  title: Internal Audit
+  summary: A risk-based audit programme examines units, processes and centres against the requirements; trained auditors record conformities
+    and findings and agree them with the unit's leadership.
+  capabilities:
+  - audit-lifecycle-management
+  - compliance-assurance
+  - quality-requirements
+  - controls-monitoring
+  entities:
+  - audit
+  - audit-finding
+  - compliance-obligation
+  - organisation-unit
+  serves:
+  - internal-audit-visit
+- slug: non-conformance-and-corrective-action
+  title: Non-Conformance and Corrective Action
+  summary: Every non-conformance from audits, incidents, complaints or indicators is recorded, assessed for impact and cause, and
+    answered with a corrective or preventive action whose effect is verified before closure.
+  capabilities:
+  - non-conformance-management
+  - root-cause-analysis
+  - complaint-management
+  - improvement-sustainment
+  entities:
+  - audit-finding
+  - corrective-action
+  - incident
+  - complaint
+  serves:
+  - corrective-action-tracker
+- slug: management-review
+  title: Management Review
+  summary: At a fixed cadence the executive board reviews objectives, audit results, indicators, incidents, complaints and open actions,
+    judges whether the system is effective and decides on improvements and resources.
+  capabilities:
+  - quality-performance-evaluation
+  - integrated-performance-review
+  - board-communication-reporting
+  - controls-reporting
+  entities:
+  - measure-report
+  - governance-decision
+  - strategic-objective
+  - corrective-action
+  - dashboard
+  serves:
+  - management-review-meeting
+- slug: external-certification
+  title: External Certification
+  summary: The organisation and its specialised centres prepare for certification and surveillance audits, host the auditors, close
+    the findings within the set period and keep every certificate valid.
+  capabilities:
+  - hospital-accreditation
+  - centre-certification
+  - non-conformance-management
+  entities:
+  - accreditation
+  - audit
+  - audit-finding
+  - corrective-action
+  serves:
+  - inspection-and-audit
+  - quality-certificate
+binds:
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-300
+  edition: '2026'
+  jurisdiction: global

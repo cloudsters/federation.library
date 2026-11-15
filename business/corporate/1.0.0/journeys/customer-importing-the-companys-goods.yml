@@ -1,0 +1,32 @@
+kind: journey
+slug: customer-importing-the-companys-goods
+title: Customer Importing the Company's Goods
+stakeholder: business-customer
+summary: A business customer abroad knows its landed cost, receives complete trade documents, secures payment where trust is new and
+  settles the trade in its currency.
+stages:
+- slug: know-the-landed-cost
+  title: Know the Landed Cost
+  goal: Duties and preferences are known when the offer is made, with proof of origin where a preference applies.
+  step: global-trade-exchange/duty-and-preference-determination
+  touchpoints:
+  - quotation
+  - proof-of-origin
+- slug: receive-the-documents
+  title: Receive the Documents
+  goal: Commercial, transport and origin documents arrive complete and in time for clearance.
+  step: global-trade-exchange/trade-documentation
+  touchpoints:
+  - shipping-documents
+- slug: secure-the-payment
+  title: Secure the Payment
+  goal: Where trust is not yet established, a payment instrument protects both sides.
+  step: global-trade-exchange/cross-border-payment-security
+  touchpoints:
+  - letter-of-credit
+- slug: settle-the-trade
+  title: Settle the Trade
+  goal: The invoice is settled in the agreed currency and any correction is handled fairly.
+  step: global-trade-exchange/trade-settlement-and-restitution
+  touchpoints:
+  - invoice

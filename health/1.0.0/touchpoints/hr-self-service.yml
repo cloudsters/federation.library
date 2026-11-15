@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: hr-self-service
+title: HR Self-Service
+medium: channel
+summary: The digital channel through which staff view pay statements, request leave, record time, state roster preferences and update
+  their data, and managers request and approve personnel actions.
+exchanges:
+- availability-for-a-reliable-roster
+- commitment-for-good-working-conditions
+- work-for-correct-and-timely-pay
+journey: working-to-a-reliable-roster

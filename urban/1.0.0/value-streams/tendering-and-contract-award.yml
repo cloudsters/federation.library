@@ -1,0 +1,119 @@
+kind: value-stream
+slug: tendering-and-contract-award
+title: Tendering and Contract Award
+family: source-to-alliance
+summary: Buying goods, works and services lawfully, openly and competitively. It holds the confirmation of the need and the choice
+  of procedure under the statutory procurement framework, specifications written by outcome with social, fair-work and circular conditions,
+  purchases divided into lots that small suppliers can win, open publication with equal answers to all bidders, evaluation against
+  the published criteria by a panel free of conflicts of interest, a reasoned and published award, and the conclusion of the contract.
+trigger: A need falls due under the forward procurement plan, a contract approaches its end, or a department raises a need that was
+  not foreseen.
+outcome: The need is met by a contract awarded on published criteria, every bidder knows the reasons, and the award and its value
+  are public.
+stakeholders:
+- procurement-officer
+- supplier
+- local-business
+- social-enterprise
+- legal-and-compliance-officer
+- city-administration
+- resident-inspector
+steps:
+- slug: need-and-procedure-choice
+  title: Need and Procedure Choice
+  summary: The requesting department and the procurement office confirm the need, check that the budget is committed, estimate the
+    value and choose the procedure the statutory framework allows, including lots reserved for social enterprises where it permits
+    them.
+  capabilities:
+  - need-and-procedure-definition
+  - commitment-control
+  - legal-obligation-tracking
+  entities:
+  - public-procurement
+  - budget-commitment
+  serves:
+  - procurement-request-intake
+- slug: requirement-specification
+  title: Requirement Specification
+  summary: The department writes with those who will use it what is needed, by the outcome and standard to be met rather than by brand,
+    with the fair-work, local-hiring, data and circular conditions and the exit plan written in.
+  capabilities:
+  - requirement-specification
+  - circular-requirement-drafting
+  - fair-work-clause-drafting
+  - supplier-exit-planning
+  entities:
+  - tender-specification
+  - supplier-exit-plan
+  - local-hiring-agreement
+  serves:
+  - specification-drafting-session
+- slug: lot-division-and-tender-publication
+  title: Lot Division and Tender Publication
+  summary: A large purchase is divided into lots that small, local and cooperative suppliers can win, and the tender is published
+    openly with all its documents, criteria and weights. Questions are answered to all bidders at once.
+  capabilities:
+  - lot-division
+  - tender-publication-and-clarification
+  entities:
+  - public-procurement
+  - tender-specification
+  - procurement-scorecard
+  serves:
+  - published-procurement-scorecard
+  - tender-portal
+- slug: bid-evaluation
+  title: Bid Evaluation
+  summary: An evaluation panel whose members have declared their interests scores each bid against the published criteria and weights,
+    compares whole-life cost rather than price alone, and records the reason for each score.
+  capabilities:
+  - weighted-bid-evaluation
+  - whole-life-cost-assessment
+  - interest-declaration-handling
+  entities:
+  - bid
+  - procurement-scorecard
+  - interest-declaration
+  serves:
+  - bid-evaluation-meeting
+  - tender-portal
+- slug: award-decision
+  title: Award Decision
+  summary: The award is decided at the level the delegation sets, every bidder is told the scores and reasons and is given a standstill
+    period in which to challenge it, and the award, its value and its scores are published.
+  capabilities:
+  - award-decision-and-publication
+  - claim-and-dispute-resolution
+  - public-record-publication
+  entities:
+  - award-decision
+  - bid
+  - public-record
+  serves:
+  - award-letter-and-debrief
+  - procurement-committee-session
+- slug: contract-conclusion
+  title: Contract Conclusion
+  summary: The legal office reviews the contract for legality and fairness, the commitments made in the bid become binding clauses
+    on fair work, local hiring, social value and take-back, and the contract is signed, entered in the contract register and published.
+  capabilities:
+  - contract-review
+  - contract-register-keeping
+  - take-back-clause-drafting
+  entities:
+  - contract
+  - contract-register
+  - service-level-agreement
+  serves:
+  - contract-review-and-signing
+  - published-contract-register
+binds:
+- source: src-634
+  edition: '2017'
+  jurisdiction: global
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global
+- source: src-638
+  edition: '1949-06-29'
+  jurisdiction: global

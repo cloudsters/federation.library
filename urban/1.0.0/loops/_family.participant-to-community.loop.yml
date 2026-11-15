@@ -1,0 +1,74 @@
+# The steering loop of the family Participant to Community in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.participant-to-community
+title: Keep the family 'Participant to Community' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: participant-to-community
+  vs:
+  - resident-involvement-and-deliberation
+  - neighbourhood-community-development
+  - volunteering-and-mutual-aid
+  - newcomer-welcome-and-integration
+  - community-relations-and-cohesion
+  - community-mediation-and-restorative-practice
+  - civil-society-partnership
+stance: Residents and the groups they form become a civic community that carries the city. No single stream of this family
+  can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/participant-to-community
+  - value-model.yml#vs/resident-involvement-and-deliberation
+  - value-model.yml#vs/neighbourhood-community-development
+  - value-model.yml#vs/volunteering-and-mutual-aid
+  - value-model.yml#vs/newcomer-welcome-and-integration
+  - value-model.yml#vs/community-relations-and-cohesion
+  - value-model.yml#vs/community-mediation-and-restorative-practice
+  - value-model.yml#vs/civil-society-partnership
+  registry:
+  - registry/value-streams/resident-involvement-and-deliberation.yml
+  - registry/value-streams/neighbourhood-community-development.yml
+  - registry/value-streams/volunteering-and-mutual-aid.yml
+  - registry/value-streams/newcomer-welcome-and-integration.yml
+  - registry/value-streams/community-relations-and-cohesion.yml
+  - registry/value-streams/community-mediation-and-restorative-practice.yml
+  - registry/value-streams/civil-society-partnership.yml
+  loop_states:
+  - operations/loops/_state/resident-involvement-and-deliberation.yml
+  - operations/loops/_state/neighbourhood-community-development.yml
+  - operations/loops/_state/volunteering-and-mutual-aid.yml
+  - operations/loops/_state/newcomer-welcome-and-integration.yml
+  - operations/loops/_state/community-relations-and-cohesion.yml
+  - operations/loops/_state/community-mediation-and-restorative-practice.yml
+  - operations/loops/_state/civil-society-partnership.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.participant-to-community.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

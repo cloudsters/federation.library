@@ -1,0 +1,55 @@
+kind: entity
+slug: incident
+title: Incident
+type: transactional
+summary: A reported event or near miss that harmed or could have harmed a patient, visitor, employee or the organisation,
+  such as a fall, a wrong-site operation, a needlestick or a data breach, analysed so that it does not recur.
+attributes:
+- name: incident-kind
+  type: code
+  card: 1..1
+- name: occurred-at
+  type: datetime
+  card: 1..1
+- name: organisation-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: harm-grade
+  type: code
+  card: 1..1
+- name: reporter-role
+  type: code
+  card: 0..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: reported-at
+  type: datetime
+  card: 1..1
+states:
+- reported
+- triaged
+- under-analysis
+- actions-defined
+- closed
+relations:
+- type: refers-to
+  target: adverse-event
+- type: produces
+  target: corrective-action
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-503
+  edition: '1.1'
+  jurisdiction: global

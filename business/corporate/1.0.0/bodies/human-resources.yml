@@ -1,0 +1,11 @@
+kind: body
+slug: human-resources
+title: Human Resources
+summary: Plans the workforce, deploys and rosters people, sets pay and benefits, cares for wellbeing and works with employee representatives.
+holds:
+- workforce-strategy-and-planning
+- workforce-deployment
+- employee-relations-wellbeing-and-reward
+part_of: executive-board
+type: function
+form: organisational-unit

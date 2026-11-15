@@ -1,0 +1,10 @@
+kind: capability
+slug: shared-decision-making-practice
+title: Shared Decision Making Practice
+level: L3
+parent: information-and-consent
+summary: Present options, discuss trade-offs and reach decisions that respect patients' preferences.
+binds:
+- source: src-003
+  edition: '2017'
+  jurisdiction: global

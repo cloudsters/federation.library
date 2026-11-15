@@ -1,0 +1,40 @@
+kind: entity
+slug: ethical-will
+title: Ethical Will
+type: governance
+summary: What this person wants to pass on that has no legal form — what they came to believe, what they would warn against, what
+  they hope for the people who come after. The half of an inheritance that is never contested and almost never written.
+attributes:
+- name: came-to-believe
+  type: text
+  card: 1..*
+- name: warnings
+  type: text
+  card: 0..*
+- name: hopes
+  type: text
+  card: 0..*
+- name: addressed-to
+  type: text
+  card: 1..*
+- name: written-on
+  type: date
+  card: 0..1
+- name: where-kept
+  type: text
+  card: 0..1
+- name: shared-on
+  type: date
+  card: 0..1
+states:
+- begun
+- written
+- shared
+- rewritten
+relations:
+- target: value-set
+  type: based-on
+- target: life-narrative
+  type: based-on
+- target: personal-archive
+  type: part-of

@@ -1,0 +1,61 @@
+kind: entity
+slug: study-adverse-event
+title: Study Adverse Event
+type: transactional
+summary: An untoward medical occurrence in a study participant, whether or not related to the intervention, assessed for seriousness,
+  causality and expectedness and reported to the sponsor, the ethics committee and the authority within set timelines.
+attributes:
+- name: participant-enrolment
+  type: reference(participant-enrolment)
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: onset
+  type: datetime
+  card: 1..1
+- name: seriousness
+  type: code
+  card: 1..1
+- name: causality
+  type: code
+  card: 0..1
+- name: expectedness
+  type: code
+  card: 0..1
+- name: reported-on
+  type: date
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- recorded
+- assessed
+- reported
+- followed-up
+- closed
+relations:
+- type: part-of
+  target: research-study
+- type: refers-to
+  target: investigational-product
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-417
+  edition: '5.03'
+  jurisdiction: global
+- source: src-440
+  edition: '2.1'
+  jurisdiction: global

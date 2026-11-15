@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: records-and-reasons-for-a-clean-retirement
+title: Records and Reasons for a Clean Retirement
+between:
+- municipal-ai-agent
+- frontline-worker
+offered:
+- Its records and the reasons for its decisions.
+returned:
+- Its tasks taken over by staff or a successor agent, and its access revoked.
+touchpoint: task-return-briefing

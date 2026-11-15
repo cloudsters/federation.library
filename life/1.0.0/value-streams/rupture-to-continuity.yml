@@ -1,0 +1,78 @@
+kind: value-stream
+slug: rupture-to-continuity
+start: true
+title: Staying Oneself through Upheaval
+family: perception-to-mandate
+summary: Coming through loss, illness or upheaval as recognisably the same person. A life that cannot metabolise disruption has no
+  self to return to; one that can is deepened rather than shattered.
+trigger: A loss, a diagnosis, a separation or a move breaks the shape of the life, and the person no longer quite recognises themselves
+  in it.
+outcome: The person comes through recognisably themselves, the upheaval has a place in their story, and something in them has deepened.
+stakeholders:
+- partner
+- close-friend
+- practitioner
+- sibling
+- parent
+- community
+steps:
+- slug: taking-the-blow
+  title: Taking the Blow
+  summary: A loss, a diagnosis, a separation or a move breaks the shape of the life, and the first days are got through one plain
+    step at a time.
+  capabilities:
+  - getting-through-the-first-days
+  entities:
+  - crisis
+  - crisis-plan
+  serves:
+  - help-at-the-door
+  - hospital-ward
+- slug: admitting-what-is-gone
+  title: Admitting What Is Gone
+  summary: The loss is let in rather than talked around, and grief is given the time it takes.
+  capabilities:
+  - letting-grief-take-its-time
+  entities:
+  - crisis
+  - death
+  - relationship-ending
+- slug: letting-others-carry
+  title: Letting Others Carry for a While
+  summary: The person lets friends, family or a professional carry part of the load, without feeling smaller for it.
+  capabilities:
+  - letting-others-help
+  entities:
+  - friend
+  - community-relation
+  - therapist
+  serves:
+  - counselling-room
+  - help-at-the-door
+- slug: finding-what-still-holds
+  title: Finding What Still Holds
+  summary: Among the wreckage the person finds the values, people and practices that are still there and still theirs.
+  capabilities:
+  - finding-what-still-holds
+  entities:
+  - value-set
+  - spiritual-practice
+  - relationship-map
+- slug: starting-again-as-oneself
+  title: Starting Again as Oneself
+  summary: A simple shape of days is built again, recognisably the person's own even if much around it is new.
+  capabilities:
+  - rebuilding-a-daily-shape
+  entities:
+  - daily-rhythm
+  - transition
+  - self
+- slug: giving-the-upheaval-a-place
+  title: Giving the Upheaval a Place
+  summary: Looking back, the upheaval is woven into the story as a chapter that changed and deepened the person rather than one that
+    ended them.
+  capabilities:
+  - telling-ones-own-story
+  entities:
+  - life-narrative
+  - journal

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: worker-testimony-for-enforced-commitments
+title: Worker Testimony for Enforced Commitments
+between:
+- trade-union
+- contract-manager
+offered:
+- Workers' account of their wages, hours and voice at work under the contract.
+returned:
+- Fair-work and wage commitments enforced through the remedies the contract names.
+touchpoint: worker-commitment-check

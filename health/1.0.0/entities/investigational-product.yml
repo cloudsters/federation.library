@@ -1,0 +1,52 @@
+kind: entity
+slug: investigational-product
+title: Investigational Product
+type: master
+summary: A medicinal product, advanced therapy, device or diagnostic under investigation in a study, held with its batch, blinding,
+  storage conditions and accountability from receipt or manufacture through dispensing to return or destruction.
+attributes:
+- name: research-study
+  type: reference(research-study)
+  card: 1..1
+- name: product-kind
+  type: code
+  card: 1..1
+- name: product
+  type: reference(medication)
+  card: 0..1
+- name: batch
+  type: identifier
+  card: 1..1
+- name: blinded
+  type: boolean
+  card: 1..1
+- name: storage-conditions
+  type: text
+  card: 0..1
+- name: expires-on
+  type: date
+  card: 0..1
+- name: quantity-on-hand
+  type: quantity
+  card: 0..1
+states:
+- in-preparation
+- released
+- in-use
+- quarantined
+- returned
+- destroyed
+relations:
+- type: part-of
+  target: research-study
+- type: refers-to
+  target: medication
+- type: governed-by
+  target: study-protocol
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global

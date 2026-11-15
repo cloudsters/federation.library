@@ -1,0 +1,44 @@
+kind: entity
+slug: bank-account
+title: Bank Account
+type: master
+summary: An account held with a bank — each a named relationship with a banking partner, through which the organisation's money flows in
+  and out.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: bank
+  type: reference(counterparty)
+  card: 1..1
+- name: bank-branch
+  type: text
+  card: 0..1
+- name: account-number
+  type: identifier
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: ledger-account
+  type: reference(account)
+  card: 1..1
+states:
+- opened
+- connected
+- transacting
+- reconciled
+- closed
+relations:
+- type: refers-to
+  target: account
+- type: refers-to
+  target: payment
+- type: refers-to
+  target: bank-transaction
+- type: refers-to
+  target: organization
+binds:
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

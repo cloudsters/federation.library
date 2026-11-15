@@ -1,0 +1,10 @@
+kind: capability
+slug: stock-reconciliation-practice
+title: Stock Reconciliation Practice
+level: L3
+parent: materials-and-logistics
+summary: Reconcile stock records with physical counts and correct discrepancies.
+binds:
+- source: src-298
+  edition: '2017'
+  jurisdiction: global

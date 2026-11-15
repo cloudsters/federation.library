@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: local-knowledge-for-a-map-of-missing-reporting
+title: Local Knowledge for a Map of Missing Reporting
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- Residents' knowledge of the newsletters, stations and notice boards they use and where nobody reports.
+returned:
+- A shared map of missing local reporting that steers where the city's support goes.
+touchpoint: local-media-mapping-session

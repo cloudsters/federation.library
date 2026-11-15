@@ -1,0 +1,50 @@
+kind: entity
+slug: procurement-category
+title: Procurement Category
+type: master
+summary: A group of goods, works or services the city buys in a similar way, such as construction works, care services, food, vehicles,
+  energy or digital systems, with its spend and the category team that answers for it. The procurement office keeps the list of categories,
+  and every purchase, strategy, target and report is filed under one of them.
+attributes:
+- name: category-code
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: kind
+  type: code
+  card: 1..1
+- name: parent-category
+  type: reference(procurement-category)
+  card: 0..1
+- name: scope-description
+  type: text
+  card: 1..1
+- name: category-team
+  type: text
+  card: 1..*
+- name: yearly-spend
+  type: amount
+  card: 0..1
+- name: strategy
+  type: reference(category-strategy)
+  card: 0..1
+- name: embedded-carbon-limit
+  type: quantity
+  card: 0..1
+states:
+- proposed
+- defined
+- active
+- merged
+- retired
+relations:
+- type: part-of
+  target: procurement-category
+- type: governed-by
+  target: category-strategy
+- type: governed-by
+  target: procurement-policy
+- type: refers-to
+  target: spend-profile

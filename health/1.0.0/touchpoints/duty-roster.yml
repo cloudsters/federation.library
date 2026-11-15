@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: duty-roster
+title: Duty Roster
+medium: artefact
+summary: The published plan of who works which shift, on-call and night duty on a unit in a period; the document around which staff
+  plan their lives.
+exchanges:
+- availability-for-a-reliable-roster
+journey: staffing-the-unit

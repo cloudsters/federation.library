@@ -1,0 +1,46 @@
+kind: entity
+slug: statutory-report
+title: Statutory Report
+type: transactional
+summary: A periodic return the organisation must submit to an authority, such as a structural, activity, staffing, case-data
+  or financial return, with its recipient, reporting period, deadline, content and acknowledgement. Notifications triggered
+  by a single event are regulatory notifications.
+attributes:
+- name: report-kind
+  type: code
+  card: 1..1
+- name: recipient
+  type: reference(organisation)
+  card: 1..1
+- name: obligation
+  type: reference(compliance-obligation)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 0..1
+- name: due-at
+  type: datetime
+  card: 1..1
+- name: content
+  type: document
+  card: 1..1
+- name: submitted-at
+  type: datetime
+  card: 0..1
+- name: acknowledgement
+  type: identifier
+  card: 0..1
+states:
+- due
+- in-preparation
+- submitted
+- acknowledged
+- queried
+- corrected
+relations:
+- type: based-on
+  target: compliance-obligation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

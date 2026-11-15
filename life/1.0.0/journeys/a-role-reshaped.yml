@@ -1,0 +1,20 @@
+kind: journey
+slug: a-role-reshaped
+title: A Role Reshaped
+stakeholder: employer
+via: contributor-to-succession
+summary: An employer receives a proposal to reshape a role around what the person does best and what the work needs, and sees it carried
+  out in small moves.
+stages:
+- slug: hear-a-proposal
+  title: Hear a Proposal
+  goal: The employer has been offered a better shape for the role, framed in what it gives them as well as the person.
+  step: role-to-design/proposing-the-change
+  touchpoints:
+  - talk-with-the-boss
+- slug: see-small-moves
+  title: See Small Moves
+  goal: The role has shifted a little at a time, keeping what works and handing off what does not.
+  step: role-to-design/reshaping-in-small-moves
+  touchpoints:
+  - the-workplace

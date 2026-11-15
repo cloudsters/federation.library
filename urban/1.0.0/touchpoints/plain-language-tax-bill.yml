@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: plain-language-tax-bill
+title: Plain-Language Tax Bill
+medium: artefact
+summary: The bill a taxpayer receives for the period, in plain language and the languages residents use, showing what is owed, on
+  what basis, what relief applies and what the revenue funds.
+exchanges:
+- clear-bill-for-a-timely-payment
+journey: finance-officer-raising-local-revenue

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: kept-appointment-for-ready-access
+title: Kept Appointment for Ready Access
+between:
+- customer-service-representative
+- business-customer
+offered:
+- An appointment within the agreed response time, with the person's name and notice of any change.
+returned:
+- Access to the site and equipment at the agreed time, a contact person present and the information the job needs.
+touchpoint: service-hotline

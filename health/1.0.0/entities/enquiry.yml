@@ -1,0 +1,47 @@
+kind: entity
+slug: enquiry
+title: Enquiry
+type: transactional
+summary: A question or request from someone outside a current care relationship, such as a prospective patient, a relative, or a physician
+  or insurer abroad, recorded with channel, topic and answer, and closed by an answer, a redirection or a request for care.
+attributes:
+- name: enquirer-kind
+  type: code
+  card: 1..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: channel
+  type: code
+  card: 1..1
+- name: topics
+  type: code
+  card: 1..*
+- name: language
+  type: code
+  card: 0..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: answer
+  type: document
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+states:
+- received
+- in-progress
+- answered
+- redirected
+- routed-into-care
+- closed
+relations:
+- type: refers-to
+  target: care-service
+- type: produces
+  target: request-for-care
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

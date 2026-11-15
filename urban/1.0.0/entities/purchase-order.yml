@@ -1,0 +1,63 @@
+kind: entity
+slug: purchase-order
+title: Purchase Order
+type: transactional
+summary: An order or call-off placed with a supplier against a contract or framework agreement, with what is ordered, the price, the
+  deliverables and the delivery date the supplier confirmed. The procurement office or the ordering department places it from an approved
+  requisition, and receipt, invoice and payment are all matched to it.
+attributes:
+- name: order-number
+  type: identifier
+  card: 1..1
+- name: order-kind
+  type: code
+  card: 1..1
+- name: requisition
+  type: reference(requisition)
+  card: 0..1
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: framework-agreement
+  type: reference(framework-agreement)
+  card: 0..1
+- name: ordering-party
+  type: text
+  card: 1..1
+- name: order-lines
+  type: text
+  card: 1..*
+- name: order-value
+  type: amount
+  card: 1..1
+- name: delivery-date
+  type: date
+  card: 1..1
+- name: delivery-place
+  type: text
+  card: 0..1
+- name: confirmed-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- placed
+- confirmed
+- partly-received
+- received
+- closed
+- cancelled
+relations:
+- type: based-on
+  target: requisition
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: framework-agreement
+- type: refers-to
+  target: supplier-record
+- type: depends-on
+  target: budget-commitment

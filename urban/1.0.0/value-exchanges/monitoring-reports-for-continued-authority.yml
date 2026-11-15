@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: monitoring-reports-for-continued-authority
+title: Monitoring Reports for Continued Authority
+between:
+- city-administration
+- city-council
+offered:
+- Regular reports of a system's error, bias and drift.
+returned:
+- Continued authority to use the system, or an order to add review by a person, slow it or suspend it.
+touchpoint: published-system-performance-report

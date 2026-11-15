@@ -1,0 +1,49 @@
+kind: journey
+slug: community-mediator-serving-the-neighbourhood
+title: Community Mediator Serving the Neighbourhood
+stakeholder: community-mediator
+summary: A trusted resident helps shape the steps of escalation, is nominated and trained through observed practice, holds mediation
+  meetings and restorative circles, checks that agreements hold, refers what cannot be resolved and helps the city learn from the
+  pattern of disputes.
+stages:
+- slug: shape-the-steps
+  title: Shape the Steps
+  goal: The neighbourhood's own ways of settling disputes are written into the published steps, with the points where a dispute passes
+    to the formal routes.
+  step: community-mediation-and-restorative-practice/escalation-path-setting
+  touchpoints:
+  - escalation-path-workshop
+- slug: be-nominated-and-trained
+  title: Be Nominated and Trained
+  goal: The mediator has been nominated by neighbours, trained through observed practice and listed in the mediator roster.
+  step: community-mediation-and-restorative-practice/mediator-recruitment-and-training
+  touchpoints:
+  - mediator-nomination
+  - mediator-apprenticeship
+- slug: hold-mediation-and-circles
+  title: Hold Mediation and Circles
+  goal: The mediator has helped parties be heard and agree, and has kept a restorative circle where harm was done.
+  step: community-mediation-and-restorative-practice/mediation-and-restorative-circles
+  touchpoints:
+  - mediation-meeting
+  - restorative-circle
+- slug: check-the-agreement-holds
+  title: Check the Agreement Holds
+  goal: The mediator has checked back with the parties, and a broken agreement has returned to the next step.
+  step: community-mediation-and-restorative-practice/agreement-and-follow-up
+  touchpoints:
+  - mediator-follow-up-call
+- slug: refer-what-cannot-be-resolved
+  title: Refer What Cannot Be Resolved
+  goal: With the parties' consent, the mediator has passed what mediation established to the formal route that can give a binding
+    ruling or protection.
+  step: community-mediation-and-restorative-practice/formal-route-referral
+  touchpoints:
+  - referral-with-mediation-summary
+- slug: learn-from-the-pattern
+  title: Learn From the Pattern
+  goal: The mediator has helped review, without naming the parties, which disputes recur, where and why, and the causes have gone
+    to those who can remove them.
+  step: community-mediation-and-restorative-practice/dispute-pattern-learning
+  touchpoints:
+  - dispute-pattern-review-meeting

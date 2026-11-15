@@ -1,0 +1,48 @@
+kind: journey
+slug: investor-settling-in-the-city
+title: Investor Settling in the City
+stakeholder: investor
+summary: An enterprise or a resident abroad reads the city's honest offer, asks one point of contact, is matched to a vacant building,
+  signs a local benefit agreement, is linked to local suppliers and has its commitments reviewed in public.
+stages:
+- slug: read-the-offer
+  title: Read the Offer
+  goal: The investor knows from evidence what the city offers, which investment it seeks and where its limits are.
+  step: inward-investment-and-location-promotion/location-offer-definition
+  touchpoints:
+  - published-location-offer
+- slug: ask-one-point-of-contact
+  title: Ask One Point of Contact
+  goal: The investor's enquiry is answered with facts on sites, skills, permits and costs, and residents abroad are invited to invest
+    in their places of origin.
+  step: inward-investment-and-location-promotion/investment-enquiry-handling
+  touchpoints:
+  - investment-contact-point
+  - diaspora-investment-invitation
+- slug: find-a-site-to-reuse
+  title: Find a Site to Reuse
+  goal: The enquiry is matched to available land and buildings, vacant buildings and former industrial land first.
+  step: inward-investment-and-location-promotion/site-and-premises-matching
+  touchpoints:
+  - site-matching-visit
+  - shared-regional-site-register
+- slug: sign-for-local-benefit
+  title: Sign for Local Benefit
+  goal: The investor has signed commitments on local hiring, fair pay, local suppliers and community benefit, with repayment of support
+    if they are not kept.
+  step: inward-investment-and-location-promotion/local-benefit-agreement
+  touchpoints:
+  - local-benefit-agreement-negotiation
+- slug: connect-to-local-suppliers
+  title: Connect to Local Suppliers
+  goal: The settled enterprise has a named contact and is linked to local suppliers, training providers and networks.
+  step: inward-investment-and-location-promotion/investor-aftercare
+  touchpoints:
+  - local-supplier-introduction
+  - aftercare-check-in
+- slug: account-for-commitments
+  title: Account for Commitments
+  goal: Whether the commitments were kept is reviewed and published, and support is recovered where they failed.
+  step: inward-investment-and-location-promotion/investment-outcome-review
+  touchpoints:
+  - investment-commitment-review

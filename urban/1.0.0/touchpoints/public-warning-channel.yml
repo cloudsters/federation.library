@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: public-warning-channel
+title: Public Warning Channel
+medium: channel
+summary: The sirens, messages, broadcasts and neighbourhood contacts through which residents are warned and kept informed in the languages
+  they use.
+exchanges:
+- need-for-relief-by-need
+- tested-warnings-for-warnings-that-reach-everyone
+journey: neighbourhood-association-preparing-its-neighbourhood

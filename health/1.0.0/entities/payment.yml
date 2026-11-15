@@ -1,0 +1,46 @@
+kind: entity
+slug: payment
+title: Payment
+type: transactional
+summary: A movement of money to or from the organisation that settles a claim, invoice, grant instalment or salary, matched to what
+  it settles and posted to the ledger.
+attributes:
+- name: direction
+  type: code
+  card: 1..1
+- name: amount
+  type: amount
+  card: 1..1
+- name: value-date
+  type: date
+  card: 1..1
+- name: counterparty
+  type: reference(organisation)
+  card: 0..1
+- name: settled-claims
+  type: reference(claim)
+  card: 0..*
+- name: settled-invoices
+  type: reference(invoice)
+  card: 0..*
+- name: remittance-reference
+  type: identifier
+  card: 0..1
+states:
+- initiated
+- executed
+- matched
+- unmatched
+- reversed
+relations:
+- type: refers-to
+  target: claim
+- type: refers-to
+  target: invoice
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-133
+  edition: '2026'
+  jurisdiction: global

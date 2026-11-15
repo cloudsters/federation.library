@@ -1,0 +1,41 @@
+kind: solution
+slug: clinical-service-planning
+title: Clinical Service Planning
+role: system-of-record
+summary: 'Holds the organisation''s clinical service catalogue and its public mandate: the service groups assigned to each
+  site, the criteria and volume thresholds they require, the catchment populations served and their expected demand.'
+carries:
+- care-mandate-definition
+- care-level-classification
+- service-group-qualification
+- population-health-responsibility
+- population-needs-assessment
+- demand-and-market-analysis
+- clinical-service-portfolio-stewardship
+- service-concept-development
+- service-business-case
+- service-launch-readiness
+- service-lifecycle-management
+- centre-formation
+- clinical-focus-positioning
+- care-model-shift-planning
+- service-region-design
+- regional-care-planning-participation
+- new-procedure-introduction
+holds:
+- care-service
+- service-mandate
+- service-group
+- service-group-assignment
+- volume-threshold
+- catchment-population
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

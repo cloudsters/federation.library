@@ -1,0 +1,31 @@
+kind: journey
+slug: external-auditor-testing-the-portfolio-against-its-commitments
+title: External Auditor Testing the Portfolio Against Its Commitments
+stakeholder: external-auditor
+summary: The external auditor tests whether appraisals count the whole-life cost, reads the published commitments, examines progress
+  and cost at the portfolio review and checks the confirmed benefits, with each finding answered in public.
+stages:
+- slug: test-the-appraisals
+  title: Test the Appraisals
+  goal: The auditor has given a view of whether appraisals counted upkeep, care work and ecological costs in full.
+  step: city-programme-portfolio/programme-appraisal
+  touchpoints:
+  - published-appraisal
+- slug: read-the-commitments
+  title: Read the Commitments
+  goal: The auditor knows what each funded programme committed to, at what cost and by when.
+  step: city-programme-portfolio/commitment-publication
+  touchpoints:
+  - city-commitments-register
+- slug: examine-progress-and-cost
+  title: Examine Progress and Cost
+  goal: The auditor has given an opinion on whether money is spent as committed and benefits are on track.
+  step: city-programme-portfolio/progress-review-and-rebalancing
+  touchpoints:
+  - portfolio-review-meeting
+- slug: check-the-confirmed-benefits
+  title: Check the Confirmed Benefits
+  goal: The confirmed benefits and what they cost are checked, and the council has answered each finding in public.
+  step: city-programme-portfolio/benefit-confirmation-and-learning
+  touchpoints:
+  - benefit-review-session

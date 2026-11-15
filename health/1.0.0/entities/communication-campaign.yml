@@ -1,0 +1,43 @@
+kind: entity
+slug: communication-campaign
+title: Communication Campaign
+type: transactional
+summary: A time-bound communication effort that makes a service, a programme or a health message known to a defined audience, with
+  its objective, messages, channels, budget and measured effect.
+attributes:
+- name: objective
+  type: text
+  card: 1..1
+- name: audiences
+  type: code
+  card: 1..*
+- name: service-propositions
+  type: reference(service-proposition)
+  card: 0..*
+- name: care-programme
+  type: reference(care-programme)
+  card: 0..1
+- name: channels
+  type: code
+  card: 1..*
+- name: period
+  type: period
+  card: 1..1
+- name: budget
+  type: amount
+  card: 0..1
+- name: effect-measures
+  type: reference(measure)
+  card: 0..*
+states:
+- planned
+- approved
+- running
+- completed
+- evaluated
+- cancelled
+relations:
+- type: based-on
+  target: service-proposition
+- type: refers-to
+  target: care-programme

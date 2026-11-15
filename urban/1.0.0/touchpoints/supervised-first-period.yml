@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supervised-first-period
+title: Supervised First Period
+medium: encounter
+summary: The first period of an agent's work, in which staff check its cases closely before it works on its own.
+exchanges:
+- escalated-cases-for-a-person-who-decides
+- readiness-to-oversee-for-the-right-to-stop
+journey: municipal-ai-agent-serving-a-fixed-term

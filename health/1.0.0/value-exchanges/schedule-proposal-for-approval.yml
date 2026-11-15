@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: schedule-proposal-for-approval
+title: Schedule Proposal for Approval
+between:
+- operations-planning-agent
+- anaesthesiologist
+offered:
+- Proposed case sequences and session plans that account for durations, staff, sets and beds, with the reasoning shown.
+returned:
+- Approval, change or rejection by the theatre planner, recorded so that the proposals improve.
+touchpoint: clinical-workstation

@@ -1,0 +1,60 @@
+kind: entity
+slug: building-energy-record
+title: Building Energy Record
+type: intelligence
+summary: The metered energy use and emissions of a public building over time. The facilities office keeps and publishes it, and it
+  is used to choose which buildings to retrofit first and to show what a retrofit saved.
+attributes:
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: metering-period
+  type: period
+  card: 1..1
+- name: energy-use
+  type: quantity
+  card: 1..1
+- name: energy-use-by-source
+  type: document
+  card: 0..1
+- name: energy-intensity
+  type: decimal
+  card: 0..1
+- name: emissions
+  type: quantity
+  card: 0..1
+- name: renewable-share
+  type: decimal
+  card: 0..1
+- name: energy-cost
+  type: amount
+  card: 0..1
+- name: meters
+  type: reference(sensor)
+  card: 0..*
+- name: retrofit-measures
+  type: text
+  card: 0..*
+- name: community-energy-partner
+  type: reference(cooperative)
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- metered
+- validated
+- published
+- compared
+- superseded
+relations:
+- type: refers-to
+  target: building
+- type: based-on
+  target: sensor
+- type: refers-to
+  target: carbon-footprint
+- type: refers-to
+  target: energy-grid
+- type: produces
+  target: public-record

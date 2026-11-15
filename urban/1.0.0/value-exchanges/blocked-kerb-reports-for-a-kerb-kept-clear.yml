@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: blocked-kerb-reports-for-a-kerb-kept-clear
+title: Blocked Kerb Reports for a Kerb Kept Clear
+between:
+- older-resident
+- frontline-worker
+offered:
+- Reports of blocked disabled parking, dropped kerbs and paths.
+returned:
+- Kerbs and paths cleared and breaches recorded and charged.
+touchpoint: parking-enforcement-patrol

@@ -1,0 +1,54 @@
+kind: entity
+slug: information-need
+title: Information Need
+type: transactional
+summary: A request for evidence from the council, a department or a neighbourhood, with the decision it serves and the question it
+  asks. The administration records it on intake and follows it until the answer is delivered, so that data is gathered for a purpose.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: requested-by
+  type: text
+  card: 1..1
+- name: requesting-body
+  type: code
+  card: 1..1
+- name: decision-served
+  type: text
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: needed-by
+  type: date
+  card: 0..1
+- name: data-sets-used
+  type: reference(data-set)
+  card: 0..*
+- name: answered-by
+  type: reference(data-product)
+  card: 0..*
+- name: answered-on
+  type: date
+  card: 0..1
+states:
+- received
+- clarified
+- accepted
+- in-analysis
+- answered
+- declined
+- closed
+relations:
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: city-dashboard
+- type: produces
+  target: data-product

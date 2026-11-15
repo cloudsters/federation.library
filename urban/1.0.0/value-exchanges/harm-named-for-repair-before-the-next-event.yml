@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: harm-named-for-repair-before-the-next-event
+title: Harm Named for Repair Before the Next Event
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The neighbourhood's account of the harm an event did.
+returned:
+- The harm recorded and repaired, and conditions changed before the next event.
+touchpoint: event-legacy-gathering

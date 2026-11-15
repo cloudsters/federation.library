@@ -1,0 +1,51 @@
+kind: entity
+slug: economic-development-strategy
+title: Economic Development Strategy
+type: governance
+summary: The city's plan for local economic vitality and enterprise, including its commitments to local hiring, apprenticeships and
+  the succession of local businesses. The council adopts it for the term and the administration reports against it, and it is used
+  to set local hiring requirements and to direct support to the businesses and trades at risk of loss.
+attributes:
+- name: strategy-period
+  type: period
+  card: 1..1
+- name: priorities
+  type: text
+  card: 1..*
+- name: local-hiring-commitments
+  type: text
+  card: 0..*
+- name: apprenticeship-commitments
+  type: text
+  card: 0..*
+- name: succession-commitments
+  type: text
+  card: 0..*
+- name: sectors-named
+  type: code
+  card: 0..*
+- name: indicators
+  type: reference(economic-indicators)
+  card: 0..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- under-review
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: economic-indicators
+- type: governed-by
+  target: council-decision
+- type: produces
+  target: local-hiring-agreement

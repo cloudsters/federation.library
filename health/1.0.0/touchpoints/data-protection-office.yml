@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-protection-office
+title: Data Protection Office
+medium: channel
+summary: The contact point through which patients, staff and others reach the data protection officer to ask questions, exercise their
+  rights or report a suspected breach.
+exchanges:
+- entrusted-data-for-transparency
+journey: person-exercising-data-rights

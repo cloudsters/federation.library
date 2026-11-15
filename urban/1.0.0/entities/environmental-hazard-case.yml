@@ -1,0 +1,62 @@
+kind: entity
+slug: environmental-hazard-case
+title: Environmental Hazard Case
+type: transactional
+summary: A reported or detected hazard to residents' health, such as pollution, noise or dumping, with its source, the inspection,
+  the order given and the remedy. The environmental health officer keeps it from the report to the remedy, and tells the resident
+  who reported it what follows at each step.
+attributes:
+- name: case-number
+  type: identifier
+  card: 1..1
+- name: hazard-kind
+  type: code
+  card: 1..1
+- name: origin
+  type: code
+  card: 1..1
+- name: complaint
+  type: reference(citizen-complaint)
+  card: 0..1
+- name: location
+  type: text
+  card: 1..1
+- name: source
+  type: text
+  card: 0..1
+- name: inspected-on
+  type: date
+  card: 0..1
+- name: findings
+  type: document
+  card: 0..1
+- name: order-issued
+  type: text
+  card: 0..1
+- name: compliance-deadline
+  type: date
+  card: 0..1
+- name: remedy-funds
+  type: amount
+  card: 0..1
+- name: remedy-chosen
+  type: text
+  card: 0..1
+states:
+- reported
+- inspected
+- ordered
+- stopped
+- remedied
+- closed
+relations:
+- type: based-on
+  target: citizen-complaint
+- type: governed-by
+  target: noise-regulation
+- type: governed-by
+  target: waste-regulation
+- type: refers-to
+  target: contaminated-site
+- type: refers-to
+  target: neighbourhood

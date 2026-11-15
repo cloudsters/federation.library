@@ -1,0 +1,59 @@
+kind: entity
+slug: evidence-review
+title: Evidence Review
+type: intelligence
+summary: A review of what has worked and failed in a field of policy, here and in other cities, with its sources and its limits. The
+  administration or the researchers it works with prepare it before a policy or programme is chosen, and it is published so that residents
+  can see the evidence a choice rests on.
+attributes:
+- name: policy-field
+  type: text
+  card: 1..1
+- name: question
+  type: text
+  card: 1..1
+- name: sources
+  type: text
+  card: 1..*
+- name: places-studied
+  type: text
+  card: 0..*
+- name: what-worked
+  type: text
+  card: 0..*
+- name: what-failed
+  type: text
+  card: 0..*
+- name: local-experience
+  type: text
+  card: 0..*
+- name: limits
+  type: text
+  card: 0..*
+- name: reviewed-by
+  type: text
+  card: 1..1
+- name: reviewed-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- commissioned
+- searched
+- appraised
+- published
+- updated
+- superseded
+relations:
+- type: based-on
+  target: lesson-record
+- type: refers-to
+  target: strategic-option
+- type: produces
+  target: public-record
+binds:
+- source: src-198
+  edition: '2022-07-06'
+  jurisdiction: global

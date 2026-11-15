@@ -1,0 +1,31 @@
+kind: journey
+slug: supplying-on-consignment
+title: Supplying on Consignment
+stakeholder: supplier
+summary: A supplier's path for implants and high-cost items it keeps on site in its own ownership and is paid for on use.
+stages:
+- slug: agree-the-consignment-range
+  title: Agree the Consignment Range
+  goal: The range, sizes and quantities held on site are agreed from the planned case mix and reviewed as it changes.
+  step: clinical-supply-logistics/demand-and-stock-planning
+  touchpoints:
+  - supply-contract
+- slug: place-the-stock
+  title: Place the Stock
+  goal: Consignment stock is received, recorded by serial number and stored where it is used.
+  step: clinical-supply-logistics/receipt-and-storage
+  touchpoints:
+  - goods-receiving
+  - point-of-care-store
+- slug: receive-the-use-report
+  title: Receive the Use Report
+  goal: Every item used is reported promptly with its serial number, so that it is replaced and billed without a stock count.
+  step: clinical-supply-logistics/use-and-consumption-recording
+  touchpoints:
+  - supplier-portal
+- slug: take-back-items
+  title: Take Back Items
+  goal: Expired and recalled consignment items are returned in an agreed way and credited.
+  step: clinical-supply-logistics/returns-and-disposal
+  touchpoints:
+  - supplier-portal

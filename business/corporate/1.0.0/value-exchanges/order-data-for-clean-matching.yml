@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: order-data-for-clean-matching
+title: Order Data for Clean Matching
+between:
+- procurement-specialist
+- finance-professional
+offered:
+- Complete order and receipt data, and quick clarification of price and quantity differences.
+returned:
+- Invoices matched without escalation, and suppliers paid as the buyer promised.
+touchpoint: invoice

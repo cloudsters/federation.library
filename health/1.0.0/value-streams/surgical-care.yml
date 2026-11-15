@@ -1,0 +1,185 @@
+kind: value-stream
+slug: surgical-care
+title: Surgical Care
+family: demand-to-fulfillment
+summary: 'Treating patients through surgery: indication and consent, preoperative and anaesthetic assessment, anaesthesia, the procedure
+  with team time-out and documentation, recovery from anaesthesia and postoperative care.'
+trigger: A surgeon establishes the indication for an operation.
+outcome: The operation is performed as planned, the patient has recovered from anaesthesia, and postoperative care and follow-up are
+  under way.
+stakeholders:
+- elective-inpatient
+- emergency-patient
+- person-with-cancer
+- surgeon
+- anaesthesiologist
+- registered-nurse
+- specialist-physician
+- diagnostic-physician
+- allied-health-professional
+- support-services-staff
+- referring-practice
+- paediatric-patient
+- physician-in-specialty-training
+steps:
+- slug: surgical-indication
+  title: Surgical Indication
+  summary: The surgeon establishes the indication for an operation from findings and guidelines, discusses the alternatives including
+    non-operative care, offers a second opinion before major surgery and lists the patient with procedure and urgency.
+  capabilities:
+  - surgical-indication-and-consent
+  - shared-decision-making-practice
+  - decision-aids-and-health-literacy
+  - second-opinion-access
+  - waiting-list-management
+  entities:
+  - surgical-case
+  - diagnosis
+  - shared-decision
+  - waiting-list-entry
+  - clinical-guideline
+  serves:
+  - consultation
+  - patient-decision-aid
+- slug: preoperative-assessment-and-optimisation
+  title: Preoperative Assessment and Optimisation
+  summary: Fitness for surgery and anaesthesia is assessed, perioperative risk is stratified, anaemia, nutrition and conditioning
+    are optimised before the operation, and medicines to pause are identified.
+  capabilities:
+  - preoperative-assessment
+  - anaesthesia-consent-and-risk-stratification
+  - preoperative-optimisation
+  - medication-reconciliation
+  - pre-admission-preparation
+  - isolation-and-screening-management
+  entities:
+  - risk-assessment
+  - observation
+  - medication-reconciliation
+  - care-plan
+  - clinical-alert
+  serves:
+  - anaesthesia-pre-assessment
+  - pre-admission-clinic
+- slug: consent-and-operation-planning
+  title: Consent and Operation Planning
+  summary: Procedure, anaesthesia, implants, instruments and blood are planned, the patient is informed of risks and recovery in good
+    time and consents, and the case is booked into a theatre session.
+  capabilities:
+  - surgical-indication-and-consent
+  - anaesthesia-consent-and-risk-stratification
+  - informed-consent
+  - interpreting-and-language-services
+  - theatre-scheduling
+  - instrument-set-management
+  entities:
+  - informed-consent
+  - care-activity-mandate
+  - surgical-case
+  - operating-session
+  - instrument-set
+  - care-plan
+  serves:
+  - appointment-confirmation
+  - consent-form
+  - operating-list
+- slug: anaesthesia-and-operation
+  title: Anaesthesia and Operation
+  summary: With the safety checklist at sign-in, time-out and sign-out and antibiotic prophylaxis given in time, anaesthesia is induced
+    and monitored with body temperature kept normal, the procedure is performed, by trainees under supervision where their training
+    plan provides, frozen sections and complications are handled, and implants, sterile sets and logbook entries are recorded.
+  capabilities:
+  - surgical-safety-checklist-practice
+  - anaesthesia-induction-and-monitoring
+  - surgical-procedure-performance
+  - intraoperative-frozen-section
+  - surgical-complication-management
+  - intraoperative-documentation
+  - implant-and-material-documentation
+  - sterile-goods-release-and-traceability
+  - specialty-training-programmes
+  - training-logbook-management
+  entities:
+  - surgical-case
+  - procedure
+  - implant
+  - specimen
+  - observation
+  - sterile-supply-cycle
+  - clinical-document
+  - logbook-entry
+  serves:
+  - identification-band
+  - operating-theatre
+  - surgical-safety-checklist
+- slug: emergence-and-recovery
+  title: Emergence and Recovery
+  summary: The patient is led out of anaesthesia, handed over to the recovery room, monitored for pain, nausea, bleeding and airway
+    problems, and released to the ward, intensive care or home when criteria are met.
+  capabilities:
+  - anaesthesia-emergence
+  - post-anaesthesia-recovery
+  - pain-management
+  - clinical-handover
+  - patient-transfer-management
+  entities:
+  - observation
+  - medication-administration
+  - care-transition
+  - bed-assignment
+  serves:
+  - recovery-room
+- slug: postoperative-care
+  title: Postoperative Care
+  summary: On the ward, enhanced-recovery protocols guide early mobilisation, nutrition and analgesia, wounds are inspected, and bleeding,
+    infection, thrombosis and other complications are detected and treated early.
+  capabilities:
+  - postoperative-monitoring
+  - enhanced-recovery
+  - wound-care
+  - surgical-complication-management
+  - early-rehabilitation
+  - infection-surveillance
+  - deterioration-recognition-and-response
+  entities:
+  - observation
+  - care-plan
+  - care-goal
+  - healthcare-associated-infection
+  - adverse-event
+  serves:
+  - observation-chart
+  - ward
+  - ward-round
+- slug: surgical-follow-up
+  title: Surgical Follow-Up
+  summary: The result and the histology are reviewed with the patient, outcomes, complications and patient-reported results are recorded
+    for registries and peer review, and further care is agreed with the referrer.
+  capabilities:
+  - post-discharge-follow-up
+  - clinical-outcome-tracking
+  - complication-and-mortality-tracking
+  - patient-reported-outcome-measurement
+  - clinical-registry-participation
+  entities:
+  - diagnostic-report
+  - patient-reported-outcome
+  - clinical-registry
+  - appointment
+  - clinical-document
+  serves:
+  - clinic-letter
+  - consultation
+binds:
+- source: src-505
+  edition: '2009'
+  jurisdiction: global
+- source: src-523
+  edition: series
+  jurisdiction: global
+- source: src-582
+  edition: '2020'
+  jurisdiction: global
+- source: src-584
+  edition: '2004'
+  jurisdiction: global

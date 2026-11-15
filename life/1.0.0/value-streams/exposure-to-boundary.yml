@@ -1,0 +1,87 @@
+kind: value-stream
+slug: exposure-to-boundary
+start: true
+title: Keeping One's Edges
+family: perception-to-mandate
+summary: Where the life ends and the world begins — what is revealed, what is held back, what data leaves, and how a person stays
+  distinguishable from the role they occupy.
+trigger: Something private ends up where it was never meant to be, a role starts to swallow the person in it, or one's data is asked
+  for once too often.
+outcome: The person decides what is shown and what is held back, and remains recognisable apart from any role they hold.
+stakeholders:
+- employer
+- partner
+- authority
+- audience
+- synthetic-collaborator
+steps:
+- slug: noticing-something-escaped
+  title: Noticing Something Escaped
+  summary: Something private turns up where it was never meant to be, or a role starts to swallow the evenings, and the person feels
+    the edge has been crossed.
+  capabilities:
+  - sensing-a-crossed-edge
+  entities:
+  - boundary-set
+  - gravity
+  serves:
+  - social-feed
+- slug: deciding-what-is-shown
+  title: Deciding What Is Shown
+  summary: The person decides, with each circle of people, what of themselves to reveal and what to keep back.
+  capabilities:
+  - choosing-what-to-reveal
+  entities:
+  - boundary-set
+  - standing
+  serves:
+  - social-feed
+- slug: keeping-data-close
+  title: Keeping Data Close
+  summary: What data leaves home, and to whom, is looked at and narrowed to what the person is willing to give.
+  capabilities:
+  - keeping-ones-data-close
+  - keeping-accounts-secure
+  entities:
+  - technology-policy
+  - device
+  - agent
+  - data-trace
+  serves:
+  - online-account
+  - settings-screen
+- slug: stepping-out-of-the-role
+  title: Stepping Out of the Role
+  summary: At the end of the working day or the public moment, the person lays the role down and stays recognisable as someone apart
+    from it.
+  capabilities:
+  - being-more-than-the-role
+  - staying-whole-across-roles
+  entities:
+  - self
+  - employer-relation
+  - standing
+  - role
+  serves:
+  - end-of-the-working-day
+- slug: saying-no-early
+  title: Saying No Early
+  summary: A limit is said out loud before a demand has taken hold, plainly and without a long excuse.
+  capabilities:
+  - saying-no-early
+  entities:
+  - boundary-set
+  - conversation
+  serves:
+  - hard-conversation
+- slug: holding-the-edge-over-time
+  title: Holding the Edge over Time
+  summary: The declared limits are kept through pressure and revisited as the life changes, while staying warm toward the people they
+    affect.
+  capabilities:
+  - holding-a-boundary-kindly
+  entities:
+  - boundary-set
+  - relationship-agreement
+  serves:
+  - hard-conversation

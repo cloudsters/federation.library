@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: profit-share-statement
+title: Profit Share Statement
+medium: artefact
+summary: The statement of a person's profit share or employee-owner distribution, with how it was calculated.
+exchanges:
+- profit-share-for-owner-commitment
+journey: employee-owner-sharing-in-the-gains

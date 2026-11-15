@@ -1,0 +1,40 @@
+kind: journey
+slug: older-resident-staying-cared-for-at-home
+title: Older Resident Staying Cared for at Home
+stakeholder: older-resident
+summary: An older resident asks for help once, holds one plan that names who does what, receives care at home and among neighbours,
+  comes home from hospital to care that is ready and says where care failed.
+stages:
+- slug: ask-for-help-once
+  title: Ask for Help Once
+  goal: The resident or their family has asked for help at one point and been assessed at home, with their own wishes written down.
+  step: integrated-health-and-social-care/care-request-and-needs-assessment
+  touchpoints:
+  - single-care-request-point
+  - home-needs-assessment-visit
+- slug: hold-their-own-plan
+  title: Hold Their Own Plan
+  goal: The resident holds one care plan they agreed, with the name of the person who coordinates it.
+  step: integrated-health-and-social-care/joined-care-planning
+  touchpoints:
+  - care-planning-meeting
+  - shared-care-plan-copy
+- slug: receive-care-at-home
+  title: Receive Care at Home
+  goal: The resident receives care at home and spends time in a shared care space among neighbours, rather than moving to an institution.
+  step: integrated-health-and-social-care/care-at-home-and-in-the-neighbourhood
+  touchpoints:
+  - home-care-visit
+  - neighbourhood-care-space
+- slug: come-home-from-hospital-safely
+  title: Come Home from Hospital Safely
+  goal: When the resident leaves hospital, care at home is ready on the day they return.
+  step: integrated-health-and-social-care/safe-care-transitions
+  touchpoints:
+  - hospital-discharge-planning-meeting
+- slug: say-where-care-failed
+  title: Say Where Care Failed
+  goal: The resident has said where they waited or went without care, and hears what changed.
+  step: integrated-health-and-social-care/care-gap-review
+  touchpoints:
+  - care-gap-review-circle

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: network-performance-report
+title: Network Performance Report
+medium: artefact
+summary: The regular report of faults, outages, repairs and the condition of the networks by neighbourhood, with the renewal planned.
+exchanges:
+- outage-records-for-renewal-on-plan
+- assembly-review-for-changed-terms
+journey: community-network-operator-running-a-neighbourhood-network

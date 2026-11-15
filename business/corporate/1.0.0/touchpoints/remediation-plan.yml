@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: remediation-plan
+title: Remediation Plan
+medium: artefact
+summary: The plan that names the cause, the scope, those to be made whole, the owners, the resources and the criteria by which the
+  repair counts as complete.
+exchanges:
+- repair-plan-for-committed-resources
+journey: legal-professional-steering-repair-after-harm

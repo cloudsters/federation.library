@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-levels-residents-can-hold-the-city-to
+title: Service Levels Residents Can Hold the City To
+between:
+- city-administration
+- resident
+offered:
+- Published service levels for each class of asset, such as how soon a pothole is filled or a streetlight restored.
+returned:
+- Residents' reports measured against those levels, which show where the city falls short.
+touchpoint: published-asset-service-levels

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: rating-and-review-platform
+title: Rating and Review Platform
+medium: channel
+summary: The public websites on which patients rate and review the commons and its clinicians, and the rankings that compare it with
+  other providers.
+exchanges:
+- response-to-public-reviews
+journey: staying-informed-about-the-commons

@@ -1,0 +1,62 @@
+kind: entity
+slug: implant
+title: Implant
+type: transactional
+summary: A device placed inside a patient's body during a procedure, such as a joint replacement, pacemaker or stent, recorded with
+  device identifier and batch so that the patient can be traced in a recall and followed up for the device's lifetime.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: device-identifier
+  type: identifier
+  card: 1..1
+- name: batch
+  type: identifier
+  card: 0..1
+- name: manufacturer
+  type: reference(supplier-organisation)
+  card: 0..1
+- name: implanting-procedure
+  type: reference(procedure)
+  card: 1..1
+- name: body-site
+  type: code
+  card: 1..1
+- name: implanted-on
+  type: date
+  card: 1..1
+- name: explanted-on
+  type: date
+  card: 0..1
+states:
+- implanted
+- under-recall
+- explanted
+relations:
+- type: part-of
+  target: health-record
+- type: refers-to
+  target: clinical-registry
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-404
+  edition: 2.0.1
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: evidence-briefing
+title: Evidence Briefing
+medium: artefact
+summary: The briefing that answers a question for a decision, with its sources, the uncertainty of its results and what the data does
+  not cover.
+exchanges:
+- decision-question-for-purposeful-evidence
+- planning-question-for-modelled-options
+- results-for-neighbourhood-action
+journey: neighbourhood-association-measuring-its-own-air

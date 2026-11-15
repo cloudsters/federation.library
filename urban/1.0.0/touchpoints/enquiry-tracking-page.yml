@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: enquiry-tracking-page
+title: Enquiry Tracking Page
+medium: channel
+summary: The page, also read out on the contact line, where a person follows their matter by its reference and sees what the service
+  has done.
+exchanges:
+- patience-for-news-within-the-promised-time
+journey: resident-reporting-a-problem-in-the-street

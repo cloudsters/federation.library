@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: inspection-label
+title: Inspection Label
+medium: artefact
+summary: The label on each device that shows its last safety inspection and next due date, so that users can see at a glance that
+  it is safe to use.
+exchanges:
+- fault-reports-for-available-devices
+journey: care-team-keeping-devices-safe-to-use

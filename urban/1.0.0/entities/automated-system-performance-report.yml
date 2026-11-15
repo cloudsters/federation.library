@@ -1,0 +1,66 @@
+kind: entity
+slug: automated-system-performance-report
+title: Automated System Performance Report
+type: intelligence
+summary: The periodic report of the results of an automated system or AI agent over a period, with its errors, its bias across neighbourhoods
+  and groups, its drift and the challenges and overrides it received. The accountable department prepares it at the rhythm the approval
+  sets and presents it to the algorithm review council or to the joint review of a human-agent team, and it is used to keep, slow,
+  suspend or withdraw a system or to renew, change or end an agent's mandate.
+attributes:
+- name: system
+  type: reference(automated-system-register)
+  card: 0..1
+- name: agent
+  type: reference(ai-agent)
+  card: 0..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: decisions-made
+  type: integer
+  card: 0..1
+- name: error-rate
+  type: decimal
+  card: 0..1
+- name: bias-results
+  type: document
+  card: 0..*
+- name: drift-measures
+  type: text
+  card: 0..*
+- name: challenges-received
+  type: integer
+  card: 0..1
+- name: decisions-overridden
+  type: integer
+  card: 0..1
+- name: incidents
+  type: text
+  card: 0..*
+- name: prepared-by
+  type: reference(department)
+  card: 1..1
+- name: presented-on
+  type: date
+  card: 0..1
+states:
+- due
+- drafted
+- submitted
+- reviewed
+- published
+relations:
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: ai-agent
+- type: refers-to
+  target: automated-system-approval
+- type: refers-to
+  target: automated-decision-challenge
+- type: refers-to
+  target: algorithm-review-council
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

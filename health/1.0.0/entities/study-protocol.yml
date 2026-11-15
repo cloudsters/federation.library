@@ -1,0 +1,50 @@
+kind: entity
+slug: study-protocol
+title: Study Protocol
+type: governance
+summary: The governing plan of a research study, stating objectives, design, eligibility, interventions, endpoints, data and sample
+  handling and statistics, approved in versions and binding for every participant.
+attributes:
+- name: research-study
+  type: reference(research-study)
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: design
+  type: code
+  card: 1..1
+- name: objectives
+  type: text
+  card: 1..*
+- name: eligibility-criteria
+  type: text
+  card: 1..1
+- name: endpoints
+  type: text
+  card: 1..*
+- name: document
+  type: document
+  card: 1..1
+states:
+- draft
+- submitted
+- approved
+- amended
+- closed
+relations:
+- type: part-of
+  target: research-study
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-415
+  edition: '2.0'
+  jurisdiction: global

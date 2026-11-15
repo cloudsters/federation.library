@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: family-meeting
+title: Family Meeting
+medium: encounter
+summary: The planned conversation in which the team informs relatives about the patient's condition and prognosis and agrees
+  treatment goals with them.
+exchanges:
+- own-account-for-honest-disclosure
+- explained-plan-for-shared-goals
+- honest-information-for-the-patients-voice
+- presence-for-inclusion-and-support
+- support-for-a-proxy-decision
+- presumed-will-hearing
+journey: relative-speaking-for-the-patient

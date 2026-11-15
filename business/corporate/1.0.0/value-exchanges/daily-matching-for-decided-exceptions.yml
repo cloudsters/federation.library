@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: daily-matching-for-decided-exceptions
+title: Daily Matching for Decided Exceptions
+between:
+- finance-operations-agent
+- finance-professional
+offered:
+- Statements matched to the ledger and balances gathered before the day starts.
+returned:
+- Each unmatched line decided by a person and the matching rules kept current.
+touchpoint: bank-statement

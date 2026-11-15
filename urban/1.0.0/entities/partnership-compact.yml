@@ -1,0 +1,52 @@
+kind: entity
+slug: partnership-compact
+title: Partnership Compact
+type: governance
+summary: The agreement between the city and civil society on how the city consults and funds civil-society bodies, respects their
+  independence and resolves disagreements, adopted by the council. The council adopts it with the civil-society bodies that sign it,
+  and every consultation, grant and disagreement between them is tested against it.
+attributes:
+- name: parties
+  type: text
+  card: 1..*
+- name: consultation-commitments
+  type: text
+  card: 1..*
+- name: funding-principles
+  type: text
+  card: 1..*
+- name: independence-commitments
+  type: text
+  card: 1..*
+- name: funding-criteria
+  type: document
+  card: 0..1
+- name: disagreement-procedure
+  type: text
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- negotiated
+- adopted
+- in-force
+- under-review
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: civil-society-body
+- type: refers-to
+  target: community-grant
+- type: refers-to
+  target: civil-society-directory

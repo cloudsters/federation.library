@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: permit-to-work
+title: Permit to Work
+medium: artefact
+summary: The written authorisation for maintenance or construction work in a clinical or high-risk area, setting the time, isolations,
+  infection control and safety measures that apply.
+exchanges:
+- ward-access-for-reliable-building-services
+journey: ward-team-relying-on-building-services

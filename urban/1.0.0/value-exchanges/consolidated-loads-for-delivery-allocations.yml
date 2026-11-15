@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consolidated-loads-for-delivery-allocations
+title: Consolidated Loads for Delivery Allocations
+between:
+- delivery-carrier
+- city-administration
+offered:
+- Orders bundled with others and delivered to the hub in booked slots.
+returned:
+- Delivery allocations that grow with consolidation, and loading space at the hub.
+touchpoint: neighbourhood-consolidation-hub

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: route-knowledge-for-a-safe-assembly
+title: Route Knowledge for a Safe Assembly
+between:
+- emergency-service
+- city-administration
+offered:
+- Emergency services' knowledge of routes and crowds.
+returned:
+- An agreed plan that keeps participants and passers-by safe without stopping the gathering.
+touchpoint: assembly-safety-briefing

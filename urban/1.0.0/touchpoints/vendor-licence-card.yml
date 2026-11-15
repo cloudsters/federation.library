@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: vendor-licence-card
+title: Vendor Licence Card
+medium: artefact
+summary: The card a vendor carries that shows the licence, the pitch, the fees and the protection it gives against removal without
+  due process.
+exchanges:
+- registration-for-standing
+journey: market-vendor-trading-with-standing

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: enquiry-findings-for-council-attention
+title: Enquiry Findings for Council Attention
+between:
+- city-administration
+- city-council
+offered:
+- The regular account of what residents ask, how they were served and who does not reach the city.
+returned:
+- The council's attention and decisions where services or access fall short.
+touchpoint: published-enquiry-report

@@ -1,0 +1,11 @@
+kind: body
+slug: bid-evaluation-panel
+title: Bid Evaluation Panel
+summary: Members named for one tender who have declared their interests, among them users of what is bought, who score each bid against
+  the published criteria and whole-life cost and record the reason for each score.
+holds:
+- weighted-bid-evaluation
+- whole-life-cost-assessment
+part_of: procurement-office
+type: committee
+form: governing-body

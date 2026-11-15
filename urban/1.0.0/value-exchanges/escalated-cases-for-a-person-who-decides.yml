@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: escalated-cases-for-a-person-who-decides
+title: Escalated Cases for a Person Who Decides
+between:
+- municipal-ai-agent
+- frontline-worker
+offered:
+- Cases handed over at the points its mandate keeps human.
+returned:
+- A named person who decides them and corrects the agent.
+touchpoint: escalation-route-card

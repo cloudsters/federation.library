@@ -1,0 +1,13 @@
+kind: capability
+slug: business-continuity-design
+title: Business Continuity Design
+level: L3
+parent: resilience-and-emergency-preparedness
+summary: Identify critical services and design how each continues through disruption.
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-399
+  edition: '2021'
+  jurisdiction: global

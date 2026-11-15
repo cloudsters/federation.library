@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: material-records-for-later-reuse
+title: Material Records for Later Reuse
+between:
+- public-works-engineer
+- salvage-cooperative
+offered:
+- A passport of the materials and components built into the work and how they can be taken apart.
+returned:
+- Components and materials recovered for reuse when the asset is retired, rather than lost as waste.
+touchpoint: works-material-passport

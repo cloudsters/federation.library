@@ -1,0 +1,64 @@
+kind: entity
+slug: surgical-case
+title: Surgical Case
+type: transactional
+summary: One planned or emergency operation from listing to recovery, holding the operating session, team, anaesthesia, milestone
+  times and the procedures performed. It is the unit operating-room planning and utilisation are measured by.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: urgency
+  type: code
+  card: 1..1
+- name: operating-session
+  type: reference(operating-session)
+  card: 0..1
+- name: surgical-team
+  type: reference(practitioner-role)
+  card: 1..*
+- name: anaesthesia-type
+  type: code
+  card: 0..1
+- name: planned-duration
+  type: quantity
+  card: 0..1
+- name: milestone-times
+  type: datetime
+  card: 0..*
+states:
+- listed
+- scheduled
+- in-preparation
+- in-surgery
+- in-recovery
+- completed
+- cancelled
+relations:
+- type: composed-of
+  target: procedure
+- type: assigned-to
+  target: operating-session
+- type: based-on
+  target: informed-consent
+- type: depends-on
+  target: instrument-set
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

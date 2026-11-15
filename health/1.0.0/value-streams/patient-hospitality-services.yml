@@ -1,0 +1,109 @@
+kind: value-stream
+slug: patient-hospitality-services
+title: Patient Hospitality Services
+family: demand-to-fulfillment
+summary: 'Providing the non-clinical services of a hospital stay: meals and therapeutic diets, room cleaning, linen and patient comfort
+  services.'
+trigger: A patient is admitted, or requests a service during the stay.
+outcome: The patient receives meals matching the prescribed diet and a clean, equipped room throughout the stay.
+stakeholders:
+- elective-inpatient
+- paediatric-patient
+- relative
+- support-services-staff
+- registered-nurse
+- allied-health-professional
+- volunteer
+steps:
+- slug: room-and-stay-preparation
+  title: Room and Stay Preparation
+  summary: Before arrival the room and bed are cleaned and equipped, dietary and comfort needs known from pre-admission are passed
+    on, and optional services are offered.
+  capabilities:
+  - cleaning-services
+  - linen-and-textile-services
+  - patient-amenity-services
+  - optional-and-self-pay-services
+  entities:
+  - room
+  - bed
+  - support-service-order
+  - nutrition-order
+  serves:
+  - ward
+- slug: diet-order-and-meal-selection
+  title: Diet Order and Meal Selection
+  summary: The prescribed diet, texture and allergies are recorded, and the patient chooses meals within them at the bedside or digitally.
+  capabilities:
+  - clinical-nutrition
+  - patient-catering
+  - nutrition-and-hydration-care
+  entities:
+  - nutrition-order
+  - allergy-or-intolerance
+  - preference
+  serves:
+  - bedside-terminal
+- slug: meal-production-and-service
+  title: Meal Production and Service
+  summary: Meals are produced to recipe, allergen and hygiene standards, delivered at set times, and patients who need help with eating
+    and drinking receive it.
+  capabilities:
+  - patient-catering
+  - nutrition-and-hydration-care
+  - environmental-hygiene
+  entities:
+  - nutrition-order
+  - support-service-order
+  serves:
+  - bedside-terminal
+  - meal-service
+- slug: cleaning-and-linen
+  title: Cleaning and Linen
+  summary: Rooms and bathrooms are cleaned daily and on demand to hygiene standards, isolation rooms under special protocols, and
+    linen and gowns are changed.
+  capabilities:
+  - cleaning-services
+  - environmental-hygiene
+  - linen-and-textile-services
+  - isolation-and-screening-management
+  entities:
+  - room
+  - support-service-order
+  - clinical-alert
+  serves:
+  - isolation-room
+  - ward
+- slug: comfort-and-amenities
+  title: Comfort and Amenities
+  summary: Patients and visitors receive media, connectivity, personal items, quiet and lodging for relatives, requests are handled
+    promptly, and optional services are billed.
+  capabilities:
+  - patient-amenity-services
+  - relatives-and-visitor-support
+  - optional-and-self-pay-services
+  entities:
+  - support-service-order
+  - price-list
+  - invoice
+  serves:
+  - bedside-terminal
+- slug: service-feedback
+  title: Service Feedback
+  summary: Satisfaction with food, cleanliness and comfort is measured, complaints are answered, food intake and waste are monitored,
+    and service standards are adjusted.
+  capabilities:
+  - patient-experience-measurement
+  - complaint-management
+  - process-performance-management
+  entities:
+  - patient-experience-survey
+  - complaint
+  - measure-report
+  serves:
+  - bedside-terminal
+  - feedback-and-complaints-channel
+binds:
+- source: src-476
+  edition: '2019'
+  jurisdiction: global

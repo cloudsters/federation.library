@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: performance-dialogue
+title: Performance Dialogue
+medium: encounter
+summary: The periodic meeting in which the board and the leadership of a department or centre review results against agreed objectives
+  and decide on corrective measures.
+exchanges:
+- unit-objectives
+- service-line-review
+- benefit-ownership
+- unit-commitment-for-budget
+- reliable-figures-for-explained-results
+journey: department-head-strategy-journey

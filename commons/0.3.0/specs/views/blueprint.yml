@@ -1,0 +1,214 @@
+# The frame of the blueprint (core-views R1; the run's forms, part E, definition 1): one section per node of the
+# frame, the same in every commons. An extension adds sections `within` these ids, a commons adds its own; neither
+# removes or renames one.
+sections:
+- id: d0
+  binds:
+    kind: dimension
+    slug: d0
+  cardinality: one
+  labels:
+    en: D0 Perception & Identity
+- id: d0.perception-to-mandate
+  binds:
+    kind: family
+    slug: perception-to-mandate
+  cardinality: one
+  labels:
+    en: Perception to mandate
+- id: d1
+  binds:
+    kind: dimension
+    slug: d1
+  cardinality: one
+  labels:
+    en: D1 Purpose & System
+- id: d1.purpose-to-portfolio
+  binds:
+    kind: family
+    slug: purpose-to-portfolio
+  cardinality: one
+  labels:
+    en: Purpose to portfolio
+- id: d1.value-to-sustainability
+  binds:
+    kind: family
+    slug: value-to-sustainability
+  cardinality: one
+  labels:
+    en: Value to sustainability
+- id: d1.portfolio-to-system
+  binds:
+    kind: family
+    slug: portfolio-to-system
+  cardinality: one
+  labels:
+    en: Portfolio to system
+- id: d2
+  binds:
+    kind: dimension
+    slug: d2
+  cardinality: one
+  labels:
+    en: D2 Participation & Relationship
+- id: d2.participant-to-community
+  binds:
+    kind: family
+    slug: participant-to-community
+  cardinality: one
+  labels:
+    en: Participant to community
+- id: d2.collaboration-to-automation
+  binds:
+    kind: family
+    slug: collaboration-to-automation
+  cardinality: one
+  labels:
+    en: Collaboration to automation
+- id: d2.contributor-to-succession
+  binds:
+    kind: family
+    slug: contributor-to-succession
+  cardinality: one
+  labels:
+    en: Contributor to succession
+- id: d3
+  binds:
+    kind: dimension
+    slug: d3
+  cardinality: one
+  labels:
+    en: D3 Proposition & Exchange
+- id: d3.discovery-to-usage
+  binds:
+    kind: family
+    slug: discovery-to-usage
+  cardinality: one
+  labels:
+    en: Discovery to usage
+- id: d3.interest-to-relationship
+  binds:
+    kind: family
+    slug: interest-to-relationship
+  cardinality: one
+  labels:
+    en: Interest to relationship
+- id: d3.proposition-to-audience
+  binds:
+    kind: family
+    slug: proposition-to-audience
+  cardinality: one
+  labels:
+    en: Proposition to audience
+- id: d4
+  binds:
+    kind: dimension
+    slug: d4
+  cardinality: one
+  labels:
+    en: D4 Production & Resilience
+- id: d4.demand-to-fulfillment
+  binds:
+    kind: family
+    slug: demand-to-fulfillment
+  cardinality: one
+  labels:
+    en: Demand to fulfillment
+- id: d4.source-to-alliance
+  binds:
+    kind: family
+    slug: source-to-alliance
+  cardinality: one
+  labels:
+    en: Source to alliance
+- id: d4.acquire-to-retire
+  binds:
+    kind: family
+    slug: acquire-to-retire
+  cardinality: one
+  labels:
+    en: Acquire to retire
+- id: element.stakeholder
+  binds:
+    kind: element
+    slug: stakeholder
+  cardinality: one
+  labels:
+    en: Stakeholder
+- id: element.journey
+  binds:
+    kind: element
+    slug: journey
+  cardinality: one
+  labels:
+    en: Journey
+- id: element.touchpoint
+  binds:
+    kind: element
+    slug: touchpoint
+  cardinality: one
+  labels:
+    en: Touchpoint
+- id: element.value-exchange
+  binds:
+    kind: element
+    slug: value-exchange
+  cardinality: one
+  labels:
+    en: Value exchange
+- id: element.value-stream
+  binds:
+    kind: element
+    slug: value-stream
+  cardinality: one
+  labels:
+    en: Value stream
+- id: element.capability
+  binds:
+    kind: element
+    slug: capability
+  cardinality: one
+  labels:
+    en: Capability
+- id: element.entity
+  binds:
+    kind: element
+    slug: entity
+  cardinality: one
+  labels:
+    en: Entity
+- id: element.solution
+  binds:
+    kind: element
+    slug: solution
+  cardinality: one
+  labels:
+    en: Solution
+- id: element.body
+  binds:
+    kind: element
+    slug: body
+  cardinality: one
+  labels:
+    en: Body
+- id: knowledge
+  binds:
+    kind: knowledge
+    slug: knowledge
+  cardinality: one
+  labels:
+    en: What we know
+- id: lifecycle.path
+  binds:
+    kind: lifecycle
+    slug: path
+  cardinality: one
+  labels:
+    en: Where we are heading
+- id: loops
+  binds:
+    kind: loops
+    slug: loops
+  cardinality: one
+  labels:
+    en: How we steer

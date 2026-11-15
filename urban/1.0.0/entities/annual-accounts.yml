@@ -1,0 +1,66 @@
+kind: entity
+slug: annual-accounts
+title: Annual Accounts
+type: intelligence
+summary: The audited statement of the city's financial position and results for the year, with the ecological and social costs recorded
+  next to the money, approved by the council and published. The finance department prepares it at the close of the year and the external
+  auditor audits it, and it is the basis of the spending review and the fiscal sustainability report.
+attributes:
+- name: financial-year
+  type: period
+  card: 1..1
+- name: statements
+  type: document
+  card: 1..1
+- name: total-income
+  type: amount
+  card: 1..1
+- name: total-spending
+  type: amount
+  card: 1..1
+- name: reserves-at-year-end
+  type: amount
+  card: 0..1
+- name: debt-at-year-end
+  type: amount
+  card: 0..1
+- name: ecological-cost-statement
+  type: reference(ecological-cost-ledger)
+  card: 0..1
+- name: auditor
+  type: text
+  card: 0..1
+- name: audit-opinion
+  type: code
+  card: 0..1
+- name: audit-findings
+  type: reference(audit-finding)
+  card: 0..*
+- name: approved-by
+  type: reference(council-decision)
+  card: 0..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- closing
+- prepared
+- under-audit
+- audited
+- approved
+- published
+relations:
+- type: composed-of
+  target: journal-entry
+- type: refers-to
+  target: municipal-budget
+- type: refers-to
+  target: ecological-cost-ledger
+- type: refers-to
+  target: audit-finding
+- type: produces
+  target: public-record
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

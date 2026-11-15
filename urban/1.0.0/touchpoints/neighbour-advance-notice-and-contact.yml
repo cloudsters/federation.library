@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: neighbour-advance-notice-and-contact
+title: Neighbour Advance Notice and Contact
+medium: channel
+summary: The notice sent to neighbours before an event, and the contact they can reach while it runs.
+exchanges:
+- notice-for-neighbourly-patience
+journey: event-organiser-holding-a-first-festival

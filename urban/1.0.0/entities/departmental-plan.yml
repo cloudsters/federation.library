@@ -1,0 +1,67 @@
+kind: entity
+slug: departmental-plan
+title: Departmental Plan
+type: governance
+summary: The plan of a department or neighbourhood body that states how it contributes to the city's objectives in the term, with
+  its activities, resources and measures. The department or body writes it and aligns it with the strategy, and it is the basis for
+  its budget and its reporting.
+attributes:
+- name: plan-holder
+  type: text
+  card: 1..1
+- name: department
+  type: reference(department)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: plan-period
+  type: period
+  card: 1..1
+- name: objectives-served
+  type: reference(city-objective)
+  card: 1..*
+- name: contributions
+  type: text
+  card: 1..*
+- name: activities
+  type: text
+  card: 1..*
+- name: resources
+  type: amount
+  card: 0..1
+- name: staff-allocated
+  type: integer
+  card: 0..1
+- name: measures
+  type: text
+  card: 0..*
+- name: plan-document
+  type: document
+  card: 1..1
+- name: approved-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- aligned
+- approved
+- in-force
+- reviewed
+- revised
+- closed
+relations:
+- type: based-on
+  target: city-strategy
+- type: refers-to
+  target: city-objective
+- type: refers-to
+  target: department
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: municipal-budget
+binds:
+- source: src-172
+  edition: '2019'
+  jurisdiction: global

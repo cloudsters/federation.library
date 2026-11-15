@@ -1,0 +1,42 @@
+kind: entity
+slug: dunning
+title: Dunning
+type: transactional
+summary: A formal reminder with heart — the system reaching out to a debtor not as a threat but as a signal that something in the
+  relationship needs attention. Dunning levels escalate with care, each step an invitation to restore balance before the relationship
+  is strained.
+attributes:
+- name: overdue-invoice
+  type: reference(sales-invoice)
+  card: 1..1
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: dunning-level
+  type: code
+  card: 1..1
+- name: message
+  type: text
+  card: 1..1
+- name: interest
+  type: amount
+  card: 0..1
+- name: fee
+  type: amount
+  card: 0..1
+states:
+- triggered
+- reminded
+- escalated
+- resolved
+- waived
+- written-off
+relations:
+- type: refers-to
+  target: sales-invoice
+- type: refers-to
+  target: customer
+binds:
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global

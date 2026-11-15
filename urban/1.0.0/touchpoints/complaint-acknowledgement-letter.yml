@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: complaint-acknowledgement-letter
+title: Complaint Acknowledgement Letter
+medium: artefact
+summary: The acknowledgement sent within the published time, naming the person who handles the complaint and the date of the answer.
+exchanges:
+- complaint-for-an-acknowledgement-and-a-named-handler
+journey: resident-complaining-about-a-broken-promise

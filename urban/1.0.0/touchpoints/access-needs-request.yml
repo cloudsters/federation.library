@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: access-needs-request
+title: Access Needs Request
+medium: channel
+summary: The form and phone line through which participants state what they need to take part, such as interpretation, sign language,
+  step-free rooms, childcare, travel or sessions timed around care and shift work.
+exchanges:
+- access-needs-for-provided-support
+- care-duties-for-timed-meetings
+journey: administration-involving-residents-in-a-decision

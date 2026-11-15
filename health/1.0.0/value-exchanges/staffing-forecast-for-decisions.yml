@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: staffing-forecast-for-decisions
+title: Staffing Forecast for Decisions
+between:
+- operations-planning-agent
+- unit-manager
+offered:
+- A forecast of workload by shift and proposals for redeployment and cover.
+returned:
+- Approved or corrected staffing decisions, and the actual outcomes that improve the next forecast.
+touchpoint: staffing-huddle

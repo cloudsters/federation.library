@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: compliance-report
+title: Compliance Report
+medium: artefact
+summary: The report on the state of compliance with each obligation, open findings and the lessons of claims, given to the council
+  and the supervisory authority.
+exchanges:
+- compliance-evidence-for-supervisory-confidence
+- compliance-state-for-council-oversight
+journey: legal-and-compliance-officer-keeping-the-municipality-lawful

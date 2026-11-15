@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: applied-payments-for-resolved-exceptions
+title: Applied Payments for Resolved Exceptions
+between:
+- finance-operations-agent
+- finance-professional
+offered:
+- Incoming payments matched to open invoices, with every unclear payment flagged.
+returned:
+- Unclear payments resolved by a person and the matching rules improved.
+touchpoint: bank-statement

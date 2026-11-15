@@ -1,0 +1,31 @@
+kind: journey
+slug: steering-a-department-budget
+title: Steering a Department Budget
+stakeholder: head-of-clinical-department
+summary: 'The department head''s year with the budget: planning it, working within it and answering for the results in the performance
+  dialogue.'
+stages:
+- slug: plan-the-unit
+  title: Plan the Unit
+  goal: Volumes, staff, material and investment needs are agreed in one plan the department can deliver.
+  step: budgeting-and-controlling/unit-planning
+  touchpoints:
+  - performance-dialogue
+- slug: know-the-approved-budget
+  title: Know the Approved Budget
+  goal: The department knows its approved budget and its decision rights within it.
+  step: budgeting-and-controlling/economic-plan-approval
+  touchpoints:
+  - controlling-report
+- slug: read-the-monthly-results
+  title: Read the Monthly Results
+  goal: Volumes, revenue, costs and contribution are reported monthly in a form the department can act on.
+  step: budgeting-and-controlling/variance-reporting-and-forecast
+  touchpoints:
+  - controlling-report
+- slug: agree-corrective-measures
+  title: Agree Corrective Measures
+  goal: Deviations are explained and measures are agreed that protect quality and safety.
+  step: budgeting-and-controlling/performance-dialogue-and-correction
+  touchpoints:
+  - performance-dialogue

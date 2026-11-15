@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: user-documentation
+title: User Documentation
+medium: artefact
+summary: The manuals, instructions, safety information and help content that come with an offering and let customers install, use
+  and maintain it.
+exchanges:
+- released-specification-for-reliable-delivery
+journey: development-engineer-bringing-an-offering-to-release

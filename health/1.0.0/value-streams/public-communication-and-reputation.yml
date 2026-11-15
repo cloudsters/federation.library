@@ -1,0 +1,143 @@
+kind: value-stream
+slug: public-communication-and-reputation
+title: Public Communication and Reputation
+family: proposition-to-audience
+summary: 'Informing the public and keeping the organisation''s reputation: media relations, press work, crisis communication, website
+  and social media, online reviews, rankings and public reporting of performance.'
+trigger: News, an event, a crisis, a review or a ranking requires the organisation to communicate.
+outcome: The public has received accurate and timely information, and the organisation's reputation is monitored and responded to.
+stakeholders:
+- general-public
+- news-media
+- patient-organisation
+- referring-practice
+- owner
+- executive
+steps:
+- slug: issue-and-reputation-sensing
+  title: Issue and Reputation Sensing
+  summary: Monitor news, social media, reviews and rankings, and pick up internal events such as serious incidents or service changes
+    that the public will need to hear about.
+  capabilities:
+  - online-reputation-management
+  - social-media-presence-management
+  - ranking-and-rating-management
+  - media-relations
+  - ecosystem-sensing
+  - serious-event-management
+  entities:
+  - public-rating
+  - incident
+  - complaint
+  - benchmark
+  serves:
+  - public-website
+  - rating-and-review-platform
+  - social-media-channel
+- slug: assessment-and-positioning
+  title: Assessment and Positioning
+  summary: Establish the facts, assess the issue and the audiences affected, decide whether and how to respond, agree the position
+    and the spokesperson, and activate crisis communication when required.
+  capabilities:
+  - communication-strategy
+  - crisis-communication
+  - legal-advisory
+  - open-disclosure
+  - data-protection-governance
+  entities:
+  - public-statement
+  - incident
+  - adverse-event
+  - governance-decision
+  serves:
+  - media-statement
+- slug: content-preparation
+  title: Content Preparation
+  summary: Prepare statements, press releases and web content, verify every figure and fact, protect patient confidentiality, and
+    obtain approval before release.
+  capabilities:
+  - media-relations
+  - quality-transparency-communication
+  - brand-management
+  - website-cms-management
+  - data-protection-governance
+  entities:
+  - public-statement
+  - measure-report
+  - quality-report
+  serves:
+  - media-statement
+- slug: release-and-media-dialogue
+  title: Release and Media Dialogue
+  summary: Inform staff first, release through press, website and social media, answer media enquiries, arrange interviews with experts
+    and correct inaccurate reporting.
+  capabilities:
+  - media-relations
+  - internal-communication
+  - website-cms-management
+  - social-media-presence-management
+  - crisis-communication
+  entities:
+  - public-statement
+  serves:
+  - media-interview
+  - media-statement
+  - public-website
+  - social-media-channel
+- slug: review-and-ranking-response
+  title: Review and Ranking Response
+  summary: Answer public reviews without disclosing patient information, route substantive concerns to complaint management, supply
+    validated data to rankings and correct errors in published results.
+  capabilities:
+  - online-reputation-management
+  - ranking-and-rating-management
+  - complaint-management
+  - patient-advocacy
+  entities:
+  - public-rating
+  - public-statement
+  - complaint
+  - measure-report
+  serves:
+  - feedback-and-complaints-channel
+  - rating-and-review-platform
+- slug: public-performance-reporting
+  title: Public Performance Reporting
+  summary: Publish quality, safety, access and financial results in understandable form through the mandated quality report, the annual
+    report and the website, and explain them to owner and public.
+  capabilities:
+  - quality-transparency-communication
+  - mandatory-quality-reporting
+  - financial-reporting
+  - owner-relations
+  - impact-measurement-design
+  entities:
+  - quality-report
+  - measure-report
+  - financial-statement
+  serves:
+  - annual-report
+  - public-quality-report
+  - public-website
+- slug: reputation-evaluation
+  title: Reputation Evaluation
+  summary: Measure reach, tone of coverage, ratings and public trust, review the handling of every crisis, and adapt messages, channels
+    and preparedness.
+  capabilities:
+  - communication-strategy
+  - online-reputation-management
+  - crisis-communication
+  - business-intelligence-and-reporting
+  - performance-benchmarking
+  entities:
+  - public-rating
+  - benchmark
+  - dashboard
+  - measure-report
+binds:
+- source: src-480
+  edition: '4.0'
+  jurisdiction: global
+- source: src-576
+  edition: '2017'
+  jurisdiction: global

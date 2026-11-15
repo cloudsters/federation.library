@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: counter-telephone-and-post-route
+title: Counter, Telephone and Post Route
+medium: channel
+summary: The route to a service by counter, telephone and post that is kept beside the digital one, with the same deadlines and outcomes
+  and in the languages residents use.
+exchanges:
+- offline-request-for-an-equal-outcome
+journey: older-resident-reaching-a-service-online-or-offline

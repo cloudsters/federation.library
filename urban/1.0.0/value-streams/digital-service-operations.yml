@@ -1,0 +1,117 @@
+kind: value-stream
+slug: digital-service-operations
+title: Digital Service Operations
+family: portfolio-to-system
+summary: Running the digital services that residents and the administration depend on every day. It holds services defined with agreed
+  levels, systems monitored for availability and capacity, a service desk that residents and staff can reach by any channel, incidents
+  and requests resolved and their causes removed, changes released with care, and performance reviewed with those who use the services.
+trigger: A digital service goes live, a resident or member of staff reports a fault or makes a request, monitoring shows a failure,
+  or a change to a live system is needed.
+outcome: Digital services run at their agreed levels, faults are resolved and their causes removed, and users know what to expect
+  and where to get help.
+stakeholders:
+- resident
+- city-administration
+- information-technology-specialist
+- technology-supplier
+- neighbourhood-association
+- infrastructure-operator
+- resident-inspector
+steps:
+- slug: service-definition-and-levels
+  title: Service Definition and Levels
+  summary: Each digital service is defined with its owner, the people it serves, the hours and availability it must keep and the help
+    users can expect, and its levels are published.
+  capabilities:
+  - service-level-setting
+  - public-record-publication
+  entities:
+  - digital-service
+  - service-level-agreement
+  serves:
+  - published-service-levels
+- slug: monitoring-and-capacity
+  title: Monitoring and Capacity
+  summary: Systems and networks are watched for availability, load and capacity, and growth in use is met before it causes failure
+    at any single point.
+  capabilities:
+  - system-monitoring
+  - network-upkeep
+  entities:
+  - application
+  - digital-network
+  - digital-service
+  serves:
+  - operations-centre
+  - service-status-page
+- slug: service-desk-intake
+  title: Service Desk Intake
+  summary: Residents and staff report faults and make requests online, by phone or at trusted local places, and each is recorded with
+    its urgency and the service it concerns.
+  capabilities:
+  - service-desk-intake
+  - incident-and-request-resolution
+  entities:
+  - support-case
+  - citizen-complaint
+  serves:
+  - digital-service-desk
+  - trusted-local-help-point
+- slug: resolution-and-fulfilment
+  title: Resolution and Fulfilment
+  summary: Incidents are restored and requests fulfilled within the agreed levels, escalated to suppliers or operators where needed,
+    and users are told when and how their matter was solved.
+  capabilities:
+  - incident-and-request-resolution
+  - service-level-setting
+  entities:
+  - support-case
+  - contract
+  serves:
+  - case-resolution-notice
+  - digital-service-desk
+  - operations-centre
+- slug: change-and-release
+  title: Change and Release
+  summary: Changes to live systems are assessed for risk, tested, scheduled and released with notice to users, and can be rolled back
+    if they fail.
+  capabilities:
+  - change-and-release-control
+  - acceptance-testing
+  entities:
+  - change-request
+  - application
+  serves:
+  - change-advisory-meeting
+  - release-notice
+  - service-status-page
+- slug: problem-analysis
+  title: Problem Analysis
+  summary: Recurring faults are traced to their causes and removed at the source, and the lessons are recorded so that a failure does
+    not return elsewhere.
+  capabilities:
+  - problem-analysis
+  - lesson-recording-and-sharing
+  entities:
+  - support-case
+  - lesson-record
+  serves:
+  - problem-review-meeting
+- slug: service-review-with-users
+  title: Service Review with Users
+  summary: Service performance and the experience of residents and staff are reviewed against the agreed levels, with resident inspectors
+    where residents ask for it, and the results and the improvements agreed are published.
+  capabilities:
+  - service-level-setting
+  - implementation-reporting
+  - resident-inspection-support
+  entities:
+  - service-level-agreement
+  - oversight-report
+  serves:
+  - service-performance-report
+  - service-review-session
+binds:
+- source: src-218
+  edition: 2018-a1-2024
+  jurisdiction: global

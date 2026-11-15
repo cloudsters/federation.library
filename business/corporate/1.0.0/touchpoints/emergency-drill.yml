@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: emergency-drill
+title: Emergency Drill
+medium: encounter
+summary: The planned exercise of evacuation, alarm and response to fire, spills or other emergencies at a site, with the lessons recorded.
+exchanges:
+- near-miss-reports-for-blame-free-learning
+- site-induction-for-safe-contract-work
+journey: contractor-working-safely-on-site

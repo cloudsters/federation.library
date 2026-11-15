@@ -1,0 +1,80 @@
+kind: value-stream
+slug: standing-to-authorship
+title: Whose Story It Is
+family: proposition-to-audience
+summary: Who has the right to tell this story — including when the honest answer is that the person does not.
+trigger: The person is about to tell a story that also belongs to others, or someone tells the person's own story without asking.
+outcome: Stories are told by those with the standing to tell them, and the person can say plainly when a story is not theirs.
+stakeholders:
+- community
+- audience
+- parent
+- child
+- close-friend
+steps:
+- slug: noticing-the-story-is-shared
+  title: Noticing the Story Is Shared
+  summary: Before telling a story, the person sees that it also belongs to a parent, a child, a friend or a community.
+  capabilities:
+  - seeing-whose-story-it-is
+  entities:
+  - life-narrative
+  - parent-relation
+  - child-relation
+  - friend
+- slug: asking-ones-own-standing
+  title: Asking One's Own Standing
+  summary: Asking honestly whether the person has the right to tell this story, and how much of it is theirs.
+  capabilities:
+  - seeing-whose-story-it-is
+  entities:
+  - value-set
+  - journal
+- slug: asking-those-in-it
+  title: Asking Those Who Are in It
+  summary: Talking with those whose lives are in the story about what may be told, and how.
+  capabilities:
+  - asking-before-telling
+  entities:
+  - conversation
+  - parent-relation
+  - child-relation
+  - community-relation
+  serves:
+  - heart-to-heart
+- slug: telling-ones-own-part
+  title: Telling One's Own Part
+  summary: Telling the part that is the person's to tell, clearly marked as their own view of it.
+  capabilities:
+  - telling-ones-own-part
+  entities:
+  - life-narrative
+  - creative-output
+  - publication
+  serves:
+  - published-work
+- slug: stepping-aside
+  title: Stepping Aside
+  summary: Saying plainly when a story is not the person's to tell, and making room for those whose story it is.
+  capabilities:
+  - stepping-aside-for-others
+  entities:
+  - decision
+  - community-relation
+  - audience-relation
+  serves:
+  - published-work
+- slug: answering-when-told-without-asking
+  title: Answering When Told Without Asking
+  summary: When someone tells the person's story without asking, responding with clarity rather than retreat or rage.
+  capabilities:
+  - raising-it-early
+  - telling-ones-own-part
+  entities:
+  - conflict
+  - repair
+  - life-narrative
+  - other-perception
+  serves:
+  - hard-conversation
+  - social-feed

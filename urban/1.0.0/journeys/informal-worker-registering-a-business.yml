@@ -1,0 +1,39 @@
+kind: journey
+slug: informal-worker-registering-a-business
+title: Informal Worker Registering a Business
+stakeholder: informal-worker
+summary: An informal trader tells the city what holds them back, is guided through business form and permits in their language, borrows
+  on terms that follow irregular income, is matched with a mentor from the trade and helps the city see whom its support reached.
+stages:
+- slug: say-what-holds-us-back
+  title: Say What Holds Us Back
+  goal: The trader's account of what keeps them from trading formally is counted by neighbourhood and group.
+  step: business-start-up-and-support/enterprise-need-assessment
+  touchpoints:
+  - founder-barriers-survey
+- slug: find-the-right-form
+  title: Find the Right Form
+  goal: The trader is guided in their language to a business form, a cooperative with others included, and through the city's own
+    permits.
+  step: business-start-up-and-support/founder-advice
+  touchpoints:
+  - business-advice-desk
+- slug: borrow-when-income-is-irregular
+  title: Borrow When Income Is Irregular
+  goal: The trader has a small loan whose repayments follow good and bad trading weeks.
+  step: business-start-up-and-support/start-up-finance
+  touchpoints:
+  - income-matched-repayment-plan
+- slug: learn-from-the-trade
+  title: Learn from the Trade
+  goal: The trader is matched with an experienced owner of the same trade who meets them regularly.
+  step: business-start-up-and-support/founder-mentoring
+  touchpoints:
+  - founder-mentor-meeting
+- slug: help-change-the-offer
+  title: Help Change the Offer
+  goal: The review shows which groups and neighbourhoods the support reached, and the offer is changed where traders like them were
+    missed.
+  step: business-start-up-and-support/business-support-review
+  touchpoints:
+  - business-support-review-report

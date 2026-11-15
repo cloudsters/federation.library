@@ -1,0 +1,64 @@
+kind: entity
+slug: staff-survey
+title: Staff Survey
+type: intelligence
+summary: The yearly and pulse surveys of staff on workload, wellbeing, burnout and intention to stay, reported by team without naming
+  individuals. The personnel function runs it with staff representatives, and it is used to prevent burnout, to share the care load
+  and to review retention.
+attributes:
+- name: survey-kind
+  type: code
+  card: 1..1
+- name: survey-period
+  type: period
+  card: 1..1
+- name: departments
+  type: reference(department)
+  card: 1..*
+- name: questions
+  type: document
+  card: 1..1
+- name: responses
+  type: integer
+  card: 0..1
+- name: response-rate
+  type: decimal
+  card: 0..1
+- name: results-by-team
+  type: document
+  card: 0..1
+- name: sickness-days
+  type: quantity
+  card: 0..1
+- name: overtime-hours
+  type: quantity
+  card: 0..1
+- name: measures-agreed
+  type: text
+  card: 0..*
+states:
+- designed
+- open
+- closed
+- analysed
+- reported
+- acted-on
+relations:
+- type: based-on
+  target: staff-record
+- type: refers-to
+  target: department
+- type: produces
+  target: workforce-forecast
+- type: refers-to
+  target: staff-agreement
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-240
+  edition: '2021'
+  jurisdiction: global

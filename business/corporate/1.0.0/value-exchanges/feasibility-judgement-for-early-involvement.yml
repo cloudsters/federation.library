@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: feasibility-judgement-for-early-involvement
+title: Feasibility Judgement for Early Involvement
+between:
+- development-engineer
+- product-manager
+offered:
+- Judgement on the technical feasibility, cost and risk of each requirement.
+returned:
+- Involvement early enough to shape the concept, and requirements that state the need rather than the solution.
+touchpoint: requirements-review

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: appraisal-for-the-costs-it-missed
+title: Appraisal for the Costs It Missed
+between:
+- city-administration
+- affected-community
+offered:
+- Appraisals showing the effects of a proposal on people outside the neighbourhood that proposed it.
+returned:
+- The community's account of costs it would bear that the appraisal missed.
+touchpoint: published-appraisal

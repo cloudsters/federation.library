@@ -1,0 +1,15 @@
+kind: body
+slug: occupational-health-and-safety-committee
+title: Occupational Health and Safety Committee
+summary: Brings the employer, safety specialists, the occupational physician and employee delegates together to review hazards, incidents
+  and measures for safe and healthy work.
+holds:
+- ehs-performance-sensing
+- incident-reporting-and-learning
+part_of: executive-board
+type: committee
+form: governing-body
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: inspections-for-earlier-hazard-reports
+title: Inspections for Earlier Hazard Reports
+between:
+- frontline-worker
+- resident
+offered:
+- Inspections at the required intervals of the bridges, walls, play equipment, trees and lifts residents use, and assets closed when
+  unsafe.
+returned:
+- Residents' reports of damage between inspections, so that hazards are found sooner.
+touchpoint: safety-inspection-round

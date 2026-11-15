@@ -1,0 +1,147 @@
+kind: value-stream
+slug: health-data-reuse
+title: Health Data Reuse
+family: portfolio-to-system
+summary: 'Making routine care data reusable for research and secondary use: harmonising data into a common model, managing broad consent,
+  governing access requests and providing approved datasets to researchers and data spaces.'
+trigger: A researcher or external body requests routine care data, or a new data source must be integrated for reuse.
+outcome: An approved, consented or de-identified dataset is delivered, its use is logged and its results are returned.
+stakeholders:
+- research-participant
+- research-scientist
+- clinician-scientist
+- research-partner
+- industry-partner
+- research-ethics-committee
+- national-digital-health-agency
+- health-informatics-specialist
+steps:
+- slug: source-integration-and-harmonisation
+  title: Source Integration and Harmonisation
+  summary: Integrate routine care data into the research data platform, map them to common data models and terminologies, and check
+    their quality, so that they are ready before a request arrives.
+  capabilities:
+  - research-data-integration-centre
+  - common-data-model-harmonisation
+  - terminology-services
+  - data-quality-management
+  - clinical-data-warehouse
+  entities:
+  - dataset
+  - code-system
+  - interface
+- slug: consent-and-objection-status
+  title: Consent and Objection Status
+  summary: Offer broad consent for research use in understandable form, on paper or through the patient portal, record consent, withdrawal
+    and objection, and make the current status available to every system that selects data for reuse.
+  capabilities:
+  - research-consent-management
+  - decision-aids-and-health-literacy
+  - patient-portal
+  - data-protection-governance
+  entities:
+  - data-use-consent
+  - objection
+  - patient
+  serves:
+  - consent-form
+  - patient-portal
+- slug: access-request-intake
+  title: Access Request Intake
+  summary: Receive requests from researchers, partners and the national secondary-use procedure, check them for completeness, and
+    run feasibility queries on the available data.
+  capabilities:
+  - data-access-governance
+  - real-world-data-provisioning
+  - secondary-use-enablement
+  - data-catalogue-management
+  entities:
+  - data-access-request
+  - research-study
+  - dataset
+  serves:
+  - data-catalogue
+  - study-protocol
+- slug: use-and-access-review
+  title: Use and Access Review
+  summary: Review each request against consent, law, ethics approval and scientific merit in the use-and-access committee, set conditions
+    and conclude a data-use agreement.
+  capabilities:
+  - data-access-governance
+  - ethics-committee-governance
+  - privacy-impact-management
+  - industry-research-contracting
+  entities:
+  - data-access-request
+  - data-use-agreement
+  - study-review
+  - governance-decision
+  serves:
+  - data-use-and-access-committee
+- slug: dataset-preparation
+  title: Dataset Preparation
+  summary: Select the cohort, extract the data and, where requested, the samples, link them through an independent pseudonymisation
+    function, reduce them to the approved purpose and document their quality.
+  capabilities:
+  - real-world-data-provisioning
+  - pseudonymisation-and-record-linkage
+  - research-data-integration-centre
+  - biobank-governance
+  entities:
+  - dataset
+  - cohort
+  - biobank-sample
+  - data-use-consent
+  serves:
+  - data-catalogue
+- slug: provision-and-analysis
+  title: Provision and Analysis
+  summary: Provide the dataset in a secure processing environment or run the analysis federated across institutions, so that patient-level
+    data leave the organisation only where the agreement allows.
+  capabilities:
+  - federated-analysis
+  - secondary-use-enablement
+  - identity-access-management
+  - data-security-architecture
+  entities:
+  - dataset
+  - access-grant
+  - data-use-agreement
+  serves:
+  - secure-processing-environment
+- slug: use-logging-and-results-return
+  title: Use Logging and Results Return
+  summary: Log every use, monitor compliance with the agreement, receive results and derived data back, and publish approved uses
+    so that participants and the public see how their data serve research.
+  capabilities:
+  - research-publication
+  - data-lifecycle-management
+  - compliance-sensing-monitoring
+  - patient-and-public-involvement
+  entities:
+  - publication
+  - data-use-agreement
+  - dataset
+  - data-access-request
+  serves:
+  - scientific-publication
+  - transparency-register
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

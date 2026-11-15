@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: medication-history-for-a-reconciled-plan
+title: Medication History for a Reconciled Plan
+between:
+- person-with-chronic-condition
+- clinical-pharmacist
+offered:
+- The medicines actually taken at home, including those bought without prescription, and experience of side effects.
+returned:
+- A reconciled medication list, explained changes and an updated medication plan at discharge.
+touchpoint: medication-plan

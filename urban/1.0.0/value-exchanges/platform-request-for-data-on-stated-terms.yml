@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: platform-request-for-data-on-stated-terms
+title: Platform Request for Data on Stated Terms
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- The neighbourhood platform's request for city data and the purpose it serves.
+returned:
+- An answer within the set time on what data can pass and on which terms.
+touchpoint: data-exchange-request

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: load-warnings-for-growth-met-in-time
+title: Load Warnings for Growth Met in Time
+between:
+- infrastructure-operator
+- information-technology-specialist
+offered:
+- Warnings of load and outages on the networks it runs.
+returned:
+- Services moved or scaled before the load causes failure.
+touchpoint: operations-centre

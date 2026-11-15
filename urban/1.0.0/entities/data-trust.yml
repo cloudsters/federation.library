@@ -1,0 +1,60 @@
+kind: entity
+slug: data-trust
+title: Data Trust
+type: master
+summary: A body that holds the data about a neighbourhood or a group in trust for its residents and decides who may collect and use
+  it and on what terms. Its trustees keep the record and the city recognises the trust, and its decisions govern every agreement to
+  collect or use the data it holds.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: beneficiaries
+  type: text
+  card: 1..*
+- name: trustees
+  type: text
+  card: 1..*
+- name: purpose
+  type: text
+  card: 1..1
+- name: data-held
+  type: reference(data-set)
+  card: 0..*
+- name: decision-rules
+  type: document
+  card: 1..1
+- name: benefit-sharing-rule
+  type: text
+  card: 0..1
+- name: recognised-by
+  type: reference(council-decision)
+  card: 0..1
+- name: member-count
+  type: integer
+  card: 0..1
+- name: formed-on
+  type: date
+  card: 0..1
+states:
+- proposed
+- forming
+- recognised
+- operating
+- reorganised
+- dissolved
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: commons-charter
+- type: refers-to
+  target: data-set
+- type: produces
+  target: data-sharing-agreement

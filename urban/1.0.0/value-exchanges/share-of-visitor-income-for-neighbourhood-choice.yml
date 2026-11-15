@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: share-of-visitor-income-for-neighbourhood-choice
+title: Share of Visitor Income for Neighbourhood Choice
+between:
+- neighbourhood-association
+- city-council
+offered:
+- The neighbourhood's proposals for what visitors' income should repair.
+returned:
+- A share of the overnight charge that the neighbourhood decides how to spend.
+touchpoint: visitor-income-share-meeting

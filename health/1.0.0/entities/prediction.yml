@@ -1,0 +1,52 @@
+kind: entity
+slug: prediction
+title: Prediction
+type: intelligence
+summary: An output of an analytic or AI model about a patient or an operation, such as a deterioration risk, a no-show probability
+  or a length-of-stay estimate, recorded with the model version, confidence and what was done with it.
+attributes:
+- name: ai-system
+  type: reference(ai-system)
+  card: 1..1
+- name: subject-kind
+  type: code
+  card: 1..1
+- name: patient
+  type: reference(patient)
+  card: 0..1
+- name: predicted-value
+  type: quantity
+  card: 0..1
+- name: predicted-class
+  type: code
+  card: 0..1
+- name: confidence
+  type: decimal
+  card: 0..1
+- name: generated-at
+  type: datetime
+  card: 1..1
+- name: action-taken
+  type: code
+  card: 0..1
+states:
+- generated
+- reviewed
+- acted-on
+- dismissed
+relations:
+- type: refers-to
+  target: ai-system
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

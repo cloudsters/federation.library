@@ -1,0 +1,69 @@
+kind: entity
+slug: resident-enquiry
+title: Resident Enquiry
+type: transactional
+summary: A question, request or report brought to the city by a resident, a visitor or a local body, by counter, telephone, letter,
+  message or online, from its receipt and acknowledgement to its close. Frontline staff record it and follow it through, and it is
+  answered from the shared body of answers or handed, with what the person has already said, to the service concerned.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: received-at
+  type: datetime
+  card: 1..1
+- name: contact-route
+  type: code
+  card: 1..1
+- name: service-point
+  type: reference(service-point)
+  card: 0..1
+- name: enquirer
+  type: text
+  card: 0..1
+- name: enquirer-kind
+  type: code
+  card: 1..1
+- name: language
+  type: code
+  card: 0..1
+- name: subject
+  type: text
+  card: 1..1
+- name: urgency
+  type: code
+  card: 0..1
+- name: answers-used
+  type: reference(knowledge-article)
+  card: 0..*
+- name: referred-to
+  type: reference(public-service)
+  card: 0..*
+- name: closed-at
+  type: datetime
+  card: 0..1
+states:
+- received
+- acknowledged
+- clarified
+- answered
+- referred
+- followed-up
+- closed
+relations:
+- type: refers-to
+  target: service-point
+- type: based-on
+  target: knowledge-article
+- type: refers-to
+  target: service-catalogue
+- type: refers-to
+  target: public-service
+- type: governed-by
+  target: service-standard
+- type: part-of
+  target: contact-record
+binds:
+- source: src-257
+  edition: '2017'
+  jurisdiction: global

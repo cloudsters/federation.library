@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: low-threshold-shelter
+title: Low-Threshold Shelter
+medium: place
+summary: A shelter open at short notice without conditions on status, records or behaviour, where needs for care and for a settled
+  home are assessed with the resident.
+exchanges:
+- trust-for-shelter-without-conditions
+journey: resident-without-a-home-finding-shelter-and-a-settled-home

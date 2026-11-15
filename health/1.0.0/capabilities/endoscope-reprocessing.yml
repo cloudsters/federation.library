@@ -1,0 +1,16 @@
+kind: capability
+slug: endoscope-reprocessing
+title: Endoscope Reprocessing
+level: L3
+parent: sterile-processing
+summary: Clean, disinfect and test flexible endoscopes in validated processes.
+binds:
+- source: src-326
+  edition: '2015'
+  jurisdiction: global
+- source: src-334
+  edition: '2018'
+  jurisdiction: global
+- source: src-549
+  edition: '2018'
+  jurisdiction: global

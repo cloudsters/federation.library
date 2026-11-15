@@ -1,0 +1,33 @@
+kind: journey
+slug: employee-known-and-heard-with-consent
+title: Employee Known and Heard with Consent
+stakeholder: employee
+summary: An employee keeps their own record accurate, records working time that pay and rights rest on, gets reliable answers to their
+  questions and gives honest feedback that comes back to the team as action.
+stages:
+- slug: keep-the-record-right
+  title: Keep the Record Right
+  goal: The employee sees and maintains their own personal and contract data and knows what is held and why.
+  step: participant-intelligence-sensing/contributor-record-maintenance
+  touchpoints:
+  - employee-self-service
+- slug: record-time-once
+  title: Record Time Once
+  goal: Working time and absences are recorded once and corrected easily, and pay and rights follow from that record.
+  step: participant-intelligence-sensing/time-and-presence-recording
+  touchpoints:
+  - time-recording
+  - employee-self-service
+- slug: get-a-reliable-answer
+  title: Get a Reliable Answer
+  goal: A question is answered by self-service or routed to the right expert and closed with an answer the employee can rely on.
+  step: participant-intelligence-sensing/inquiry-handling
+  touchpoints:
+  - people-help-desk
+- slug: speak-and-see-it-answered
+  title: Speak and See It Answered
+  goal: The employee gives feedback with consent, sees the results fed back to the team and what the team will change.
+  step: participant-intelligence-sensing/voice-and-wellbeing-sensing
+  touchpoints:
+  - employee-survey
+  - team-feedback-session

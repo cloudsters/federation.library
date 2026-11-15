@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: audit-report
+title: Audit Report
+medium: artefact
+summary: The external auditor's opinion on the financial statements, with the long-form report and the findings on controls addressed
+  to management and the supervisory body.
+exchanges:
+- accountability-for-discharge
+- audit-access-for-independent-opinion
+journey: auditing-the-annual-statements

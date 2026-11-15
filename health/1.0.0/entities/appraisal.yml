@@ -1,0 +1,33 @@
+kind: entity
+slug: appraisal
+title: Appraisal
+type: transactional
+summary: A structured review between an employee and their manager of performance, development needs and goals for the coming period,
+  including agreed training and career steps.
+attributes:
+- name: employee
+  type: reference(employee)
+  card: 1..1
+- name: reviewer
+  type: reference(employee)
+  card: 1..1
+- name: review-period
+  type: period
+  card: 1..1
+- name: held-on
+  type: date
+  card: 0..1
+- name: agreed-goals
+  type: text
+  card: 0..*
+- name: development-plan
+  type: text
+  card: 0..1
+states:
+- scheduled
+- held
+- documented
+- cancelled
+relations:
+- type: refers-to
+  target: competency

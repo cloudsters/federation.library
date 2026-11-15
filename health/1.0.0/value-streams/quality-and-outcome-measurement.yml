@@ -1,0 +1,156 @@
+kind: value-stream
+slug: quality-and-outcome-measurement
+title: Quality and Outcome Measurement
+family: collaboration-to-automation
+summary: 'Measuring and reporting quality and outcomes: indicator sets, mandatory external quality assurance, patient-reported and
+  clinical outcomes, risk adjustment, benchmarking and the public quality report.'
+trigger: A reporting period ends, a mandatory data submission falls due, or an indicator shows an outlier.
+outcome: Validated results are reported internally and externally, and every outlier is analysed and answered with action.
+stakeholders:
+- executive
+- quality-and-safety-manager
+- head-of-clinical-department
+- specialist-physician
+- health-informatics-specialist
+- administrative-staff
+- elective-inpatient
+- person-with-chronic-condition
+- national-care-standards-body
+- referring-practice
+- general-public
+steps:
+- slug: indicator-set
+  title: Indicator Set
+  summary: Mandatory and internal indicators are selected and specified with population, numerator, denominator, risk adjustment,
+    data source and target, including outcome sets that patients have helped to define.
+  capabilities:
+  - quality-indicator-governance
+  - performance-strategy
+  - impact-measurement-design
+  - patient-and-public-involvement
+  entities:
+  - measure
+  - compliance-obligation
+  - strategic-objective
+  - assessment-instrument
+  serves:
+  - patient-advisory-council
+  - quality-and-safety-committee
+- slug: outcome-data-capture
+  title: Outcome Data Capture
+  summary: Clinical teams document the data items the indicators require as part of care, and patients report symptoms, function and
+    quality of life at defined points before and after treatment.
+  capabilities:
+  - clinical-documentation-integrity
+  - patient-reported-outcome-measurement
+  - clinical-outcome-tracking
+  - complication-and-mortality-tracking
+  - clinical-registry-participation
+  entities:
+  - patient-reported-outcome
+  - encounter
+  - diagnosis
+  - procedure
+  - adverse-event
+  - assessment-instrument
+  serves:
+  - clinical-workstation
+  - outcome-questionnaire
+  - patient-portal
+- slug: calculation-and-validation
+  title: Calculation and Validation
+  summary: Results are calculated from the data warehouse with the agreed risk adjustment, checked for completeness and plausibility,
+    and confirmed or corrected with the clinical units before release.
+  capabilities:
+  - data-quality-management
+  - clinical-data-warehouse
+  - quality-indicator-governance
+  - biostatistics-support
+  entities:
+  - measure-report
+  - measure
+  - dataset
+  - data-product
+  serves:
+  - patient-portal
+  - quality-dashboard
+- slug: benchmarking
+  title: Benchmarking
+  summary: Risk-adjusted results are compared with peer organisations, registries and reference values, so that the organisation knows
+    where it stands and which gaps matter.
+  capabilities:
+  - outcome-benchmarking
+  - performance-benchmarking
+  - clinical-registry-participation
+  entities:
+  - benchmark
+  - measure-report
+  - clinical-registry
+  serves:
+  - public-quality-report
+  - quality-dashboard
+- slug: internal-feedback
+  title: Internal Feedback
+  summary: Units, clinical leaders and the board receive their results in dashboards and in the integrated performance review, with
+    trends, peer position and the cases behind each notable value.
+  capabilities:
+  - business-intelligence-and-reporting
+  - integrated-performance-review
+  - board-communication-reporting
+  entities:
+  - dashboard
+  - measure-report
+  - benchmark
+  serves:
+  - consultation
+  - quality-and-safety-committee
+  - quality-dashboard
+- slug: outlier-analysis-and-action
+  title: Outlier Analysis and Action
+  summary: Each statistically notable result is analysed with the unit to separate data errors from real quality problems, and real
+    problems are answered with case reviews and corrective actions.
+  capabilities:
+  - quality-performance-evaluation
+  - clinical-audit
+  - morbidity-and-mortality-review
+  - root-cause-analysis
+  entities:
+  - measure-report
+  - case-review
+  - corrective-action
+  - improvement-initiative
+  serves:
+  - morbidity-and-mortality-conference
+  - patient-advisory-council
+  - quality-review-dialogue
+- slug: external-and-public-reporting
+  title: External and Public Reporting
+  summary: Mandatory data are submitted on time, notable results are explained to the national body, and the public quality report
+    presents results so that patients and referrers can compare providers.
+  capabilities:
+  - mandatory-quality-reporting
+  - regulatory-reporting
+  - quality-transparency-communication
+  - ranking-and-rating-management
+  entities:
+  - quality-report
+  - measure-report
+  - compliance-obligation
+  serves:
+  - public-quality-report
+  - public-website
+  - quality-review-dialogue
+  - quality-data-submission
+binds:
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-079
+  edition: '1988'
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: material-bank-store
+title: Material Bank Store
+medium: place
+summary: The store where salvaged components and materials are kept with their passports until they are matched to a new use.
+exchanges:
+- salvaged-components-for-new-works
+journey: salvage-cooperative-taking-a-building-apart

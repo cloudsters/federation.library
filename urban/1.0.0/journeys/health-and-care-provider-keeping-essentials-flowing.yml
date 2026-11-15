@@ -1,0 +1,31 @@
+kind: journey
+slug: health-and-care-provider-keeping-essentials-flowing
+title: Health and Care Provider Keeping Essentials Flowing
+stakeholder: health-and-care-provider
+summary: A health and care provider names the supplies it cannot do without, helps set the levels for medicine and essentials, warns
+  early when a supply begins to fail and receives supplies by priority in a disruption.
+stages:
+- slug: name-what-it-cannot-do-without
+  title: Name What It Cannot Do Without
+  goal: The provider's critical supplies and their single sources are on the dependency map.
+  step: supply-security-and-essential-reserves/supply-dependency-mapping
+  touchpoints:
+  - essential-supply-mapping-session
+- slug: help-set-the-levels
+  title: Help Set the Levels
+  goal: The levels of medicine and essentials adopted are enough to carry its services through the set period.
+  step: supply-security-and-essential-reserves/sufficiency-level-setting
+  touchpoints:
+  - sufficiency-level-hearing
+- slug: warn-early
+  title: Warn Early
+  goal: The provider's early warning that a supply is failing reaches the procurement office, which switches to standby suppliers.
+  step: supply-security-and-essential-reserves/supply-disruption-response
+  touchpoints:
+  - supply-disruption-alert
+- slug: receive-by-priority
+  title: Receive by Priority
+  goal: The provider receives scarce supplies by the published priority for essential services.
+  step: supply-security-and-essential-reserves/fair-supply-allocation
+  touchpoints:
+  - published-allocation-priorities

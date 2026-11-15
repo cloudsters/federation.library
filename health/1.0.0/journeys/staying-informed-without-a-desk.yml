@@ -1,0 +1,26 @@
+kind: journey
+slug: staying-informed-without-a-desk
+title: Staying Informed Without a Desk
+stakeholder: support-services-staff
+summary: A cleaner or porter without a desk or work email, possibly employed by a service company, hears decisions at the start of
+  the shift in an understandable language, responds by any means and is answered like everyone else.
+stages:
+- slug: briefed-at-shift-start
+  title: Briefed at Shift Start
+  goal: Hear decisions that affect one's own work at the start of the shift, in an understandable language.
+  step: internal-communication-and-staff-voice/cascade
+  touchpoints:
+  - team-meeting
+- slug: responding-by-any-means
+  title: Responding by Any Means
+  goal: Take part in surveys and suggestions on paper or by phone, not only at a computer.
+  step: internal-communication-and-staff-voice/staff-voice-capture
+  touchpoints:
+  - staff-survey-questionnaire
+  - suggestion-scheme
+- slug: being-answered-like-everyone
+  title: Being Answered Like Everyone
+  goal: Receive the same response and the same recognition as clinical staff.
+  step: internal-communication-and-staff-voice/response-to-staff
+  touchpoints:
+  - team-meeting

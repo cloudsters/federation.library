@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: record-of-processing
+title: Record of Processing
+medium: artefact
+summary: The register of every processing of personal data with its purpose, basis, recipients, retention and safeguards, kept current
+  by its owners and shown to the authority on request.
+exchanges:
+- accountability-for-supervision
+- instructions-for-safe-processing
+journey: unit-introducing-a-new-processing

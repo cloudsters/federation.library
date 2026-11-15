@@ -1,0 +1,64 @@
+kind: entity
+slug: creative-workspace
+title: Creative Workspace
+type: master
+summary: A studio, rehearsal room or workshop let at an affordable rent in a public building or an empty space and run by the artists
+  who use it, with their commitment to teach and to open their doors to neighbours. The group of artists runs it under an agreement
+  with the city or the owner, and the record is used to allocate space, to set rents and to protect it from displacement.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: space-kind
+  type: code
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: floor-area
+  type: quantity
+  card: 0..1
+- name: rent
+  type: amount
+  card: 1..1
+- name: running-group
+  type: text
+  card: 1..1
+- name: users
+  type: text
+  card: 0..*
+- name: teaching-commitment
+  type: text
+  card: 0..1
+- name: open-door-hours
+  type: text
+  card: 0..*
+- name: agreement
+  type: document
+  card: 1..1
+- name: agreement-period
+  type: period
+  card: 1..1
+states:
+- identified
+- offered
+- allocated
+- in-use
+- renewed
+- ended
+relations:
+- type: refers-to
+  target: building
+- type: governed-by
+  target: culture-plan
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: affordability-covenant
+binds:
+- source: src-263
+  edition: '1980-10-27'
+  jurisdiction: global

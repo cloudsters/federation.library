@@ -1,0 +1,10 @@
+kind: capability
+slug: data-governance
+title: Data Governance
+level: L2
+parent: data-records-and-analytics
+summary: Governing data as a shared asset.
+binds:
+- source: src-483
+  edition: 2R-2024
+  jurisdiction: global

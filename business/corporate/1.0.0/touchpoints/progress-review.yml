@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: progress-review
+title: Progress Review
+medium: encounter
+summary: The review at a fixed cadence in which programme leads and the portfolio body look at progress, cost, risk and dependencies,
+  re-plan colliding work and resolve escalations.
+exchanges:
+- capacity-signals-for-confirmed-plans
+- escalations-for-decisions
+journey: sponsor-bringing-a-project-through-the-portfolio

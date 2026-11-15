@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: early-fault-huddle
+title: Early Fault Huddle
+medium: encounter
+summary: A short regular meeting of the staff delivering a new service in its first weeks, where faults found by staff and residents
+  are raised, fixed and shared.
+exchanges:
+- staff-findings-for-fixed-faults
+journey: city-administration-bringing-a-new-service-into-use

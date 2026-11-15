@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: own-language-question-for-a-clear-answer
+title: Own-Language Question for a Clear Answer
+between:
+- newcomer
+- frontline-worker
+offered:
+- The newcomer's question in the language they speak best.
+returned:
+- A clear answer through an interpreter or in their language, without being sent away.
+touchpoint: need-clarification-conversation

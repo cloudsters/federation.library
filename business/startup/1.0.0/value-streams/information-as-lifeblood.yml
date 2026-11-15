@@ -1,0 +1,109 @@
+kind: value-stream
+slug: information-as-lifeblood
+title: Information Held in Trust
+family: portfolio-to-system
+summary: Holding the organisation's information in trust, with an architecture of shared definitions, a named owner for every data
+  set, master data and quality kept at the source, and content and records managed from capture to lawful disposal.
+trigger: A new information need, data source or content type arises, or data ownership or definitions are disputed.
+outcome: Information has an owner, a shared definition and a place in the architecture, and is managed across its lifecycle.
+stakeholders:
+- information-technology-specialist
+- employee
+- finance-professional
+- legal-risk-and-compliance-professional
+- site-manager
+steps:
+- slug: information-strategy-setting
+  title: Information Strategy Setting
+  summary: The organisation decides what information it needs, how its collective knowledge is structured, and which data is shared
+    openly or protected.
+  capabilities:
+  - knowledge-architecture
+  - data-as-commons-stewardship
+  entities:
+  - policy
+  - data-product
+  serves:
+  - information-strategy
+- slug: information-architecture-definition
+  title: Information Architecture Definition
+  summary: Core entities, shared definitions, data models and the analytical dimensions through which the organisation views itself
+    are defined.
+  capabilities:
+  - information-architecture-design
+  - dimensional-analysis-architecture
+  entities:
+  - data-model
+  - data-product
+  - account
+  serves:
+  - architecture-repository
+  - data-catalogue
+- slug: data-ownership-and-cataloguing
+  title: Data Ownership and Cataloguing
+  summary: Every data set receives an owner and steward, and is described with its content, origin, quality and access rules in a
+    searchable catalogue.
+  capabilities:
+  - data-catalogue-management
+  - information-resource-stewardship
+  - data-as-commons-stewardship
+  entities:
+  - data-product
+  - data-model
+  - access-grant
+  serves:
+  - data-catalogue
+- slug: master-data-maintenance
+  title: Master Data Maintenance
+  summary: Master data on customers, suppliers, offerings, locations and organisational units is created, changed and retired under
+    agreed rules.
+  capabilities:
+  - master-data-stewardship
+  entities:
+  - customer
+  - supplier-organisation
+  - product
+  - location
+  - department
+  serves:
+  - master-data-request
+- slug: data-quality-assurance
+  title: Data Quality Assurance
+  summary: The completeness, correctness and timeliness of data are measured at the source, and defects are corrected where they arise.
+  capabilities:
+  - data-quality-management
+  - information-resource-stewardship
+  entities:
+  - data-product
+  - measure-report
+  serves:
+  - data-quality-dashboard
+- slug: content-and-record-capture
+  title: Content and Record Capture
+  summary: Documents and content are captured, digitised, indexed and curated so that they can be found and reused.
+  capabilities:
+  - data-content-stewardship
+  - document-digitisation
+  entities:
+  - knowledge-article
+  - data-product
+  serves:
+  - records-repository
+- slug: retention-and-disposal
+  title: Retention and Disposal
+  summary: Records are kept for their required periods, preserved when a dispute, audit or authority requires them, and disposed of
+    lawfully afterwards.
+  capabilities:
+  - record-retention-and-archiving
+  - legal-hold-management
+  entities:
+  - data-processing-record
+  - legal-matter
+  - audit
+  serves:
+  - records-repository
+  - retention-schedule
+binds:
+- source: src-086
+  edition: 10th-tc1-2025-05-19
+  jurisdiction: global

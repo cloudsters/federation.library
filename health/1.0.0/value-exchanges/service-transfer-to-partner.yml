@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-transfer-to-partner
+title: Service Transfer to Partner
+between:
+- executive
+- referring-hospital
+offered:
+- Services the commons hands over to the partner, with agreed routes for referral of complex cases and return.
+returned:
+- Care of those patients close to home, and referral to the commons of the cases that need its level of care.
+touchpoint: regional-planning-conference

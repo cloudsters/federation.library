@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: escalations-for-decisions
+title: Escalations for Decisions
+between:
+- employee
+- executive-board
+offered:
+- Dependencies, risks and overload that the team cannot resolve on its own, raised early and with options.
+returned:
+- A decision within the review cadence, re-planned capacity where work collides and the backing to say no to unfunded work.
+touchpoint: progress-review

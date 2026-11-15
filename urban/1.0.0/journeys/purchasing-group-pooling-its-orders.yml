@@ -1,0 +1,32 @@
+kind: journey
+slug: purchasing-group-pooling-its-orders
+title: Purchasing Group Pooling Its Orders
+stakeholder: purchasing-group
+summary: A purchasing group of residents, small businesses or cooperatives forms with the city's advice, has its pooled demand counted
+  beside the city's, orders under a city framework agreement where allowed and sees whether its members gained.
+stages:
+- slug: form-the-group
+  title: Form the Group
+  goal: The group has its rules for pooling orders and deciding together, advice on running them and shared storage.
+  step: joint-purchasing-and-purchasing-alliances/purchasing-group-support
+  touchpoints:
+  - purchasing-group-advice-desk
+  - shared-storage-space
+- slug: have-its-demand-counted
+  title: Have Its Demand Counted
+  goal: The group's pooled demand is counted beside that of the city and its partners.
+  step: joint-purchasing-and-purchasing-alliances/shared-demand-identification
+  touchpoints:
+  - purchasing-partners-meeting
+- slug: order-under-city-terms
+  title: Order Under City Terms
+  goal: The group orders under a city framework agreement where the statutory framework allows.
+  step: joint-purchasing-and-purchasing-alliances/member-call-off
+  touchpoints:
+  - call-off-order
+- slug: see-whether-members-gained
+  title: See Whether Members Gained
+  goal: The group can see whether small members gained from buying together.
+  step: joint-purchasing-and-purchasing-alliances/savings-sharing-and-alliance-review
+  touchpoints:
+  - published-alliance-review

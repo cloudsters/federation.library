@@ -1,0 +1,150 @@
+kind: value-stream
+slug: municipal-budget-and-accounts
+title: Municipal Budget and Accounts
+family: value-to-sustainability
+summary: Planning, adopting and steering what the city spends, and accounting for what that spending achieved. It holds the medium-term
+  financial plan, an annual budget prepared with departments and neighbourhoods and tested for who pays and who gains, commitment
+  control during the year, books that record ecological and social costs next to money, the annual accounts and their audit, and an
+  open review of the results each part of the budget bought.
+trigger: The planning cycle of the financial year opens, or a period report shows spending or income departing from the budget.
+outcome: The council has adopted a balanced budget, departments spend within it, the annual accounts are closed and audited, and residents
+  can see what each part of the budget achieved and for whom.
+stakeholders:
+- city-council
+- mayor
+- city-administration
+- finance-officer
+- neighbourhood-association
+- resident
+- external-auditor
+- supervisory-authority
+- future-generations
+steps:
+- slug: medium-term-financial-planning
+  title: Medium-Term Financial Planning
+  summary: The finance department projects income, spending, debt and reserves over the coming years from the strategy and the city's
+    financial health, and the council sets the budget frame and the spending limit of each department.
+  capabilities:
+  - medium-term-financial-planning
+  - fiscal-forecasting
+  - strategic-priority-setting
+  entities:
+  - medium-term-financial-plan
+  - city-strategy
+  - economic-indicators
+  serves:
+  - budget-frame-debate
+  - published-medium-term-financial-plan
+- slug: budget-preparation
+  title: Budget Preparation
+  summary: Departments and neighbourhood bodies prepare their budget bids against the city's objectives, the upkeep of existing assets
+    is costed and funded before new projects, care work and shared assets are made visible, and the share for the participatory budget
+    is set aside.
+  capabilities:
+  - budget-bid-preparation
+  - upkeep-cost-assessment
+  - whole-life-cost-assessment
+  - participatory-budget-organisation
+  entities:
+  - budget-bid
+  - department
+  - city-objective
+  - participatory-budget-cycle
+  serves:
+  - budget-bid-workshop
+  - neighbourhood-budget-bid-meeting
+- slug: budget-equity-and-ecological-assessment
+  title: Budget Equity and Ecological Assessment
+  summary: The draft budget is assessed with affected residents for who pays and who benefits across neighbourhoods and groups and
+    for the ecological costs it creates or leaves unpaid, and the findings are published with the draft.
+  capabilities:
+  - budget-equity-assessment
+  - ecological-limit-assessment
+  - future-generations-assessment
+  entities:
+  - equity-impact-assessment
+  - municipal-budget
+  - ecological-cost-ledger
+  - carbon-footprint
+  serves:
+  - budget-equity-assessment-panel
+  - published-budget-impact-statement
+- slug: budget-adoption
+  title: Budget Adoption
+  summary: The mayor presents the draft budget, residents are heard on it in public, and the council deliberates and adopts the budget
+    with its reasons and dissent recorded, sending it to the supervisory authority where the statutory framework requires.
+  capabilities:
+  - council-decision-preparation
+  - resident-hearing
+  - council-decision-recording
+  entities:
+  - municipal-budget
+  - council-decision
+  - public-consultation
+  serves:
+  - budget-adoption-vote
+  - budget-hearing
+  - draft-budget-presentation
+- slug: budget-execution-and-commitment-control
+  title: Budget Execution and Commitment Control
+  summary: Budgets are released to departments, every order and contract is checked against the budget still available and recorded
+    as a commitment before money is spent, and each month actuals are compared with the budget and the forecast for the year is updated.
+  capabilities:
+  - budget-release
+  - commitment-control
+  - variance-reporting-and-forecasting
+  entities:
+  - budget-commitment
+  - municipal-budget
+  - public-procurement
+  - budget-variance-report
+  serves:
+  - budget-release-letter
+  - commitment-check
+  - monthly-variance-report
+- slug: accounting-and-annual-accounts
+  title: Accounting and Annual Accounts
+  summary: Every transaction is recorded by fund, department and purpose, ecological and social costs are recorded next to the money,
+    and at year end the accounts are closed, prepared, audited by the external auditor and approved by the council.
+  capabilities:
+  - transaction-recording
+  - ecological-and-social-cost-accounting
+  - annual-accounts-preparation
+  - internal-audit
+  entities:
+  - journal-entry
+  - ecological-cost-ledger
+  - annual-accounts
+  - audit-finding
+  serves:
+  - annual-accounts-audit
+  - public-ecological-cost-ledger
+  - published-annual-accounts
+- slug: spending-review
+  title: Spending Review
+  summary: What each service and programme achieved is reviewed against its objective and the measures residents helped set, the results
+    are published, and the next budget moves money from what did not work to what did.
+  capabilities:
+  - spending-outcome-review
+  - benefit-confirmation
+  - implementation-reporting
+  entities:
+  - spending-review
+  - oversight-report
+  - city-objective
+  serves:
+  - published-spending-review
+  - spending-review-session
+binds:
+- source: src-203
+  edition: '2026'
+  jurisdiction: global
+- source: src-204
+  edition: '2014'
+  jurisdiction: global
+- source: src-205
+  edition: '2015-02-18'
+  jurisdiction: global
+- source: src-212
+  edition: '2014'
+  jurisdiction: global

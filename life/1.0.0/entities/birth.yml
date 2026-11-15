@@ -1,0 +1,34 @@
+kind: entity
+slug: birth
+title: Birth
+type: transactional
+summary: The arrival of a child into this life. The single event in a life that adds the most standing obligation at one moment.
+attributes:
+- name: 'on'
+  type: date
+  card: 1..1
+- name: child
+  type: reference(child-relation)
+  card: 1..1
+- name: with
+  type: reference(partner-relation)
+  card: 0..1
+- name: where
+  type: text
+  card: 0..1
+- name: marked-by
+  type: reference(ritual)
+  card: 0..1
+- name: what-changed
+  type: text
+  card: 0..*
+states:
+- expected
+- arrived
+- welcomed
+- marked
+relations:
+- target: child-relation
+  type: about
+- target: transition
+  type: part-of

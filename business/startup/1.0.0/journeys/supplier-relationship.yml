@@ -1,0 +1,51 @@
+kind: journey
+slug: supplier-relationship
+title: Supplier Relationship
+stakeholder: supplier
+summary: A supplier learns the conduct expected of it, is qualified, wins business in a fair tender, delivers against orders and call-offs,
+  has its performance reviewed openly and, where it matters, grows together with the company.
+stages:
+- slug: know-the-expected-conduct
+  title: Know the Expected Conduct
+  goal: The supplier knows the conduct expected along its own supply chain before it is asked to tender.
+  step: sourcing-partnership-design/sourcing-strategy
+  touchpoints:
+  - supplier-code-of-conduct
+- slug: become-qualified
+  title: Become Qualified
+  goal: Capability, quality, financial health and conduct are assessed, quality requirements are agreed and the supplier is approved.
+  step: sourcing-partnership-design/supplier-qualification
+  touchpoints:
+  - supplier-qualification-questionnaire
+  - supplier-audit
+  - quality-agreement
+- slug: win-the-business
+  title: Win the Business
+  goal: The supplier receives clear requirements, competes on equal information and concludes a contract or framework agreement.
+  step: sourcing-partnership-design/tender-selection-and-contract
+  touchpoints:
+  - request-for-quotation
+  - quotation
+  - contract-negotiation
+  - framework-agreement
+- slug: deliver-against-orders
+  title: Deliver Against Orders
+  goal: Orders and call-offs arrive within the agreed terms and are confirmed promptly.
+  step: sourcing-partnership-design/ordering-and-call-off
+  touchpoints:
+  - purchase-order
+  - delivery-call-off
+  - supplier-portal
+- slug: review-performance-together
+  title: Review Performance Together
+  goal: Performance on quality, delivery, price and conduct is reviewed on facts, and issues are corrected at the source.
+  step: sourcing-partnership-design/supplier-performance-and-risk-review
+  touchpoints:
+  - supplier-scorecard
+  - supplier-review
+- slug: grow-together
+  title: Grow Together
+  goal: Strategic suppliers improve jointly with the company through shared intelligence and co-investment.
+  step: sourcing-partnership-design/supplier-development
+  touchpoints:
+  - joint-improvement-project

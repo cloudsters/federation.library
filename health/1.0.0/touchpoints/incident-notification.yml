@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: incident-notification
+title: Incident Notification
+medium: artefact
+summary: The notification of a significant security incident or personal data breach to the competent authority and, where required,
+  to the persons affected, with its nature, impact and measures.
+exchanges:
+- security-evidence-for-supervision
+- accountability-for-supervision
+journey: executive-accountable-for-security

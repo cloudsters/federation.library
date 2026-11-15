@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: emergency-water-point
+title: Emergency Water Point
+medium: place
+summary: A water tank or temporary tap set up where supply has failed, so that households cut off have the water they need.
+exchanges:
+- restraint-in-a-shortage-for-basic-need-served-first
+journey: resident-relying-on-safe-water

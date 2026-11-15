@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: outage-records-for-renewal-on-plan
+title: Outage Records for Renewal on Plan
+between:
+- community-network-operator
+- city-council
+offered:
+- Faults and outages reported by neighbourhood, with the condition of the network.
+returned:
+- Renewal funded from the upkeep plan before the network fails.
+touchpoint: network-performance-report

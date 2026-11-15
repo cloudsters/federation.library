@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: advance-directive-document
+title: Advance Directive Document
+medium: artefact
+summary: The document in which a person sets down wishes for future care and names a proxy, held by the person, the relatives or the
+  record, and to be found by every team that treats the person.
+exchanges:
+- future-wishes-recorded-and-honoured
+journey: planning-future-care

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: grievance-hearing
+title: Grievance Hearing
+medium: encounter
+summary: The hearing of a grievance by someone outside the line, with a staff representative present or a mediator, which also names
+  the cause to be fixed.
+exchanges:
+- grievance-for-a-fixed-cause
+- representation-for-changed-work
+journey: staff-representative-fixing-why-people-leave

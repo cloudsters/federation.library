@@ -1,0 +1,171 @@
+kind: value-stream
+slug: facility-operations-and-maintenance
+title: Facility Operations and Maintenance
+family: acquire-to-retire
+summary: 'Operating and maintaining buildings and technical infrastructure: energy, utilities, medical gases, ventilation, fire safety,
+  physical security, and disposal of waste and hazardous materials.'
+trigger: A maintenance date falls due, a fault is reported, or waste must be disposed of.
+outcome: Buildings and technical systems operate safely and reliably, and waste is disposed of in compliance with the rules.
+stakeholders:
+- critically-ill-patient
+- registered-nurse
+- support-services-staff
+- facility-engineer
+- supplier
+- local-authority
+- natural-environment
+steps:
+- slug: installation-register-and-maintenance-planning
+  title: Installation Register and Maintenance Planning
+  summary: Keep the register of buildings and technical installations with their criticality for care and their inspection duties,
+    and plan preventive maintenance and statutory inspections with the units affected by shutdowns.
+  capabilities:
+  - building-information-management
+  - planned-building-maintenance
+  - building-installation-inspection
+  - facility-operations-management
+  - licence-and-permit-management
+  - contract-lifecycle-stewardship
+  entities:
+  - facility
+  - building-installation
+  - maintenance-order
+  - permit
+  - compliance-obligation
+  - contract
+  serves:
+  - construction-notice
+  - shutdown-notice
+- slug: fault-reporting-and-response
+  title: Fault Reporting and Response
+  summary: Receive fault reports from units and from building automation, rate them by risk to patients and operations, dispatch technicians
+    or contractors, run affected areas in a safe degraded mode and keep the units informed until the fault is fixed.
+  capabilities:
+  - responsive-maintenance
+  - facility-operations-management
+  - building-technical-services
+  - degraded-mode-governance
+  entities:
+  - maintenance-order
+  - building-installation
+  - room
+  - incident
+  serves:
+  - building-control-centre
+  - facility-service-desk
+- slug: planned-maintenance-and-inspection
+  title: Planned Maintenance and Inspection
+  summary: Carry out preventive maintenance and statutory inspections of building installations, including water hygiene checks, fire
+    protection tests and medical gas checks, under work permits and infection control in clinical areas, and close every finding.
+  capabilities:
+  - planned-building-maintenance
+  - building-installation-inspection
+  - water-safety
+  - fire-safety
+  - construction-infection-risk-control
+  - occupational-safety-programme
+  entities:
+  - maintenance-order
+  - building-installation
+  - audit-finding
+  - corrective-action
+  serves:
+  - permit-to-work
+  - shutdown-notice
+- slug: utilities-and-energy-supply
+  title: Utilities and Energy Supply
+  summary: Operate power, emergency power, heating, cooling, ventilation, water and medical gas supply to the conditions each clinical
+    area requires, test emergency power under load, and reduce energy use without compromising care.
+  capabilities:
+  - building-technical-services
+  - energy-management
+  - carbon-footprint-reduction
+  - climate-adaptation
+  - business-continuity-design
+  entities:
+  - building-installation
+  - facility
+  - environmental-footprint
+  - contract
+  serves:
+  - building-control-centre
+  - footprint-dashboard
+  - ward
+- slug: site-safety-and-security
+  title: Site Safety and Security
+  summary: Protect people, property and sensitive areas through access control, patrols and video surveillance within data-protection
+    limits, keep fire prevention and evacuation readiness, and respond to alarms and aggression.
+  capabilities:
+  - security-and-access-control
+  - fire-safety
+  - workplace-violence-prevention
+  - emergency-and-disaster-preparedness
+  - privacy-impact-management
+  entities:
+  - facility
+  - room
+  - incident
+  - emergency-preparedness-plan
+  - data-processing-record
+  serves:
+  - evacuation-drill
+  - security-service
+- slug: waste-handling-and-disposal
+  title: Waste Handling and Disposal
+  summary: Avoid waste where possible, separate it at source, collect and store clinical, hazardous, recyclable and general waste
+    safely, and hand it to licensed carriers with consignment records.
+  capabilities:
+  - waste-prevention-and-reuse
+  - hazardous-waste-management
+  - hazardous-substance-safety
+  - esg-data-management
+  entities:
+  - waste-consignment
+  - support-service-order
+  - environmental-footprint
+  - compliance-obligation
+  serves:
+  - waste-collection-point
+  - waste-consignment-note
+- slug: performance-and-compliance-review
+  title: Performance and Compliance Review
+  summary: Review the availability of critical installations, fault response times, inspection compliance, energy and waste figures
+    and contractor performance, report them to management and authorities, and adjust maintenance and investment plans.
+  capabilities:
+  - facility-operations-management
+  - compliance-assurance
+  - supplier-performance-evaluation
+  - esg-data-management
+  - regulatory-reporting
+  - capital-planning
+  entities:
+  - measure-report
+  - environmental-footprint
+  - audit-finding
+  - building-installation
+  - contract
+  serves:
+  - facility-service-report
+  - footprint-dashboard
+binds:
+- source: src-091
+  edition: 2018-a1-2024
+  jurisdiction: global
+- source: src-110
+  edition: 2004-scope2-2015
+  jurisdiction: global
+- source: src-302
+  edition: '2016'
+  jurisdiction: global
+- source: src-310
+  edition: '2021'
+  jurisdiction: global
+- source: src-347
+  edition: 2018-01
+  jurisdiction: global
+- source: src-518
+  edition: '2011'
+  jurisdiction: global
+- source: src-529
+  edition: '2014'
+  jurisdiction: global

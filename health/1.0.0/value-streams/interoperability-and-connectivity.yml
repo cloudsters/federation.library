@@ -1,0 +1,168 @@
+kind: value-stream
+slug: interoperability-and-connectivity
+title: Interoperability and Connectivity
+family: portfolio-to-system
+summary: 'Making systems exchange meaning inside the organisation and with the national health information infrastructure: integration
+  architecture, shared terminologies, conformance to exchange standards and connection to national record, messaging and prescription
+  services.'
+trigger: A new system, partner or national service must be connected, or an exchange specification changes.
+outcome: Data flow between systems and partners in conformant, coded form, and exchange errors are monitored and resolved.
+stakeholders:
+- health-informatics-specialist
+- national-digital-health-agency
+- referring-practice
+- referring-hospital
+- follow-on-care-provider
+- person-with-chronic-condition
+- specialist-physician
+- supplier
+steps:
+- slug: exchange-need-assessment
+  title: Exchange Need Assessment
+  summary: Register the need to connect a system, partner or national service, or a changed exchange specification, and assess content,
+    partners, legal basis and fit with the integration strategy.
+  capabilities:
+  - integration-strategy
+  - interoperability-map
+  - regulatory-landscape-sensing
+  - data-protection-governance
+  entities:
+  - interface
+  - organisation
+  - data-processing-record
+  - compliance-obligation
+  serves:
+  - digital-demand-intake
+  - referrer-portal
+- slug: exchange-specification
+  title: Exchange Specification
+  summary: Choose the exchange standard, profile and core data set, define content, format, terminology bindings, patient matching
+    and error handling, and agree them with the partner.
+  capabilities:
+  - exchange-standard-conformance
+  - terminology-services
+  - information-architecture
+  - solution-architecture
+  - master-patient-index
+  entities:
+  - interface
+  - code-system
+  - patient
+  serves:
+  - interface-specification
+- slug: connection-and-identity-setup
+  title: Connection and Identity Setup
+  summary: Set up the network connection, the institution and professional identities and certificates, and the contracts and data-processing
+    terms that the partner or national service requires.
+  capabilities:
+  - national-health-network-connectivity
+  - identity-access-management
+  - contract-lifecycle-stewardship
+  - network-and-communication-infrastructure
+  entities:
+  - identity
+  - access-grant
+  - contract
+  - data-processing-record
+  serves:
+  - national-health-network
+- slug: interface-build-and-mapping
+  title: Interface Build and Mapping
+  summary: Build routes and transformations on the integration platform, map local codes to shared terminologies and link patient
+    identities across systems.
+  capabilities:
+  - integration-platform-operation
+  - terminology-services
+  - master-patient-index
+  - master-data-stewardship
+  entities:
+  - interface
+  - code-system
+  - patient
+  serves:
+  - admission-desk
+  - interface-specification
+- slug: conformance-testing
+  title: Conformance Testing
+  summary: Test the interface against its specification in the partner's or the national test environment, obtain confirmation of
+    conformance and pass the go-live through change approval.
+  capabilities:
+  - exchange-standard-conformance
+  - solution-build-and-test
+  - it-change-and-release-governance
+  - it-compliance-assessment
+  entities:
+  - interface
+  - change-request
+  serves:
+  - clinical-messaging-service
+  - conformance-test
+- slug: live-exchange
+  title: Live Exchange
+  summary: Exchange letters, findings and images with partners in coded form, use national services such as electronic prescribing,
+    and read from and write to the patient's shared health record within the patient's consent.
+  capabilities:
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - national-health-network-connectivity
+  entities:
+  - care-communication
+  - health-record
+  - mandate-to-export-personal-information
+  - objection
+  serves:
+  - clinical-messaging-service
+  - national-health-network
+  - patient-held-health-record
+  - patient-portal
+  - referrer-portal
+- slug: exchange-monitoring
+  title: Exchange Monitoring
+  summary: Monitor message flows and rejections, resolve exchange errors with partners, track specification changes and keep the interoperability
+    map current.
+  capabilities:
+  - integration-platform-operation
+  - incident-problem-resolution
+  - interoperability-map
+  - data-quality-management
+  entities:
+  - interface
+  - service-ticket
+  - measure-report
+  serves:
+  - clinical-messaging-service
+  - it-service-desk
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-021
+  edition: 2026d
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-014
+  edition: '2.2'
+  jurisdiction: global

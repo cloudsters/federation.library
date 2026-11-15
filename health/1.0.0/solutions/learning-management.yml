@@ -1,0 +1,39 @@
+kind: solution
+slug: learning-management
+title: Learning Management
+role: system-of-engagement
+summary: 'Delivers and records continuing, mandatory and simulation-based learning for all staff: courses, enrolment, completion,
+  credits and due dates, so that competence and compliance are evidenced for each person.'
+carries:
+- continuing-professional-development
+- continuing-education-credit-compliance
+- continuing-education-programme-certification
+- training-delivery
+- learning-programme-delivery
+- mandatory-training-management
+- resuscitation-training
+- device-operator-training
+- safety-training
+- health-academy-programmes
+- team-based-learning
+- simulation-centre-operations
+- crisis-resource-management-training
+- skills-lab-management
+- in-situ-simulation
+- teaching-faculty-development
+- leadership-development
+- clinical-onboarding
+- competence-validation
+- specialist-examination-preparation
+holds:
+- continuing-education-credit
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

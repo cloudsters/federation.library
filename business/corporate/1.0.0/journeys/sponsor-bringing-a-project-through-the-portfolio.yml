@@ -1,0 +1,42 @@
+kind: journey
+slug: sponsor-bringing-a-project-through-the-portfolio
+title: Sponsor Bringing a Project Through the Portfolio
+stakeholder: managing-director
+summary: A sponsor registers a proposal, argues it before the portfolio body, sees it set up with a team and a plan, follows its progress
+  and hands its results to the people who will run them.
+stages:
+- slug: register-the-proposal
+  title: Register the Proposal
+  goal: The proposal is registered with scope, expected benefit and effort, and the sponsor knows when and against which criteria
+    it will be screened.
+  step: portfolio-programme-orchestration/work-demand-intake
+  touchpoints:
+  - project-proposal
+- slug: win-a-place-in-the-portfolio
+  title: Win a Place in the Portfolio
+  goal: The portfolio body has weighed the proposal against strategy, risk and capacity, and the sponsor holds a clear decision to
+    start, wait or drop it.
+  step: portfolio-programme-orchestration/portfolio-balancing
+  touchpoints:
+  - portfolio-board
+- slug: charter-the-work
+  title: Charter the Work
+  goal: Goals, scope, roles, dependencies and milestones are agreed in a charter that sponsor and team both sign up to.
+  step: portfolio-programme-orchestration/programme-and-project-set-up
+  touchpoints:
+  - project-charter
+- slug: steer-through-collisions
+  title: Steer Through Collisions
+  goal: The sponsor sees progress, cost and risk at every review, and work that collides with other work is re-planned rather than
+    left to the teams.
+  step: portfolio-programme-orchestration/progress-and-dependency-review
+  touchpoints:
+  - progress-review
+  - shared-backlog
+- slug: hand-over-and-let-go
+  title: Hand Over and Let Go
+  goal: The results are accepted by their operating owners, lessons are recorded and the team is released to the next work.
+  step: portfolio-programme-orchestration/closure-and-handover
+  touchpoints:
+  - project-handover
+  - lessons-learned-review

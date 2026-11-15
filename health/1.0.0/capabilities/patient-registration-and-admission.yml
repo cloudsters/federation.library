@@ -1,0 +1,13 @@
+kind: capability
+slug: patient-registration-and-admission
+title: Patient Registration & Admission
+level: L3
+parent: registration-and-admission
+summary: Register the patient, record administrative data and open the case at the start of care.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

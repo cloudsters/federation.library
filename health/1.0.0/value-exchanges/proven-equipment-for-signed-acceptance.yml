@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: proven-equipment-for-signed-acceptance
+title: Proven Equipment for Signed Acceptance
+between:
+- supplier
+- clinical-engineer
+offered:
+- Equipment installed and demonstrated against every acceptance test, with its documentation, its configuration record and the correction
+  of every listed defect.
+returned:
+- Signed acceptance that releases payment, starts the warranty and makes the supplier the commons' service partner for the device.
+touchpoint: device-commissioning

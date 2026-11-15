@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-feedback-for-a-listening-service
+title: Service Feedback for a Listening Service
+between:
+- resident
+- frontline-worker
+offered:
+- Feedback, where the service is delivered, on what worked and what did not.
+returned:
+- Staff who hear it and pass it on to those who can change the service.
+touchpoint: point-of-service-feedback

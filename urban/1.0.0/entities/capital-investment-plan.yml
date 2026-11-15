@@ -1,0 +1,63 @@
+kind: entity
+slug: capital-investment-plan
+title: Capital Investment Plan
+type: governance
+summary: The multi-year plan of the city's investment in infrastructure, buildings and land, with its projects, funding sources and
+  provision for upkeep. The administration prepares it from the strategy and the masterplan, and the council adopts it with the budget.
+attributes:
+- name: plan-period
+  type: period
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: total-investment
+  type: amount
+  card: 1..1
+- name: investment-by-year
+  type: document
+  card: 1..1
+- name: projects
+  type: reference(capital-project)
+  card: 0..*
+- name: asset-classes
+  type: code
+  card: 0..*
+- name: funding-sources
+  type: text
+  card: 1..*
+- name: upkeep-provision
+  type: amount
+  card: 0..1
+- name: allocation-by-neighbourhood
+  type: document
+  card: 0..1
+- name: adopted-with
+  type: reference(municipal-budget)
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- revised
+- superseded
+relations:
+- type: based-on
+  target: city-strategy
+- type: based-on
+  target: masterplan
+- type: refers-to
+  target: municipal-budget
+- type: composed-of
+  target: capital-project
+binds:
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global

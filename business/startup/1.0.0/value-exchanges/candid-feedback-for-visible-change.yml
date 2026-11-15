@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: candid-feedback-for-visible-change
+title: Candid Feedback for Visible Change
+between:
+- consumer
+- quality-manager
+offered:
+- Candid ratings and comments at the moments that matter, given in a short survey.
+returned:
+- Feedback that is read, and changes that are visible in the next experience.
+touchpoint: website

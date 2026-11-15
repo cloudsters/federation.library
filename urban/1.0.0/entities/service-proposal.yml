@@ -1,0 +1,64 @@
+kind: entity
+slug: service-proposal
+title: Service Proposal
+type: transactional
+summary: A proposal for a new or changed public service, with the need it answers, who raised it and the services and community assets
+  that already touch it. The department receiving it records it and answers whether it goes forward, and it is the start of the service's
+  design.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: raised-by
+  type: text
+  card: 1..*
+- name: raised-by-kind
+  type: code
+  card: 1..1
+- name: need-statement
+  type: text
+  card: 1..1
+- name: affected-groups
+  type: text
+  card: 0..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: existing-services
+  type: reference(public-service)
+  card: 0..*
+- name: community-assets
+  type: reference(community-asset-map)
+  card: 0..1
+- name: related-complaints
+  type: reference(citizen-complaint)
+  card: 0..*
+- name: received-by
+  type: reference(department)
+  card: 1..1
+- name: received-on
+  type: date
+  card: 1..1
+- name: answer
+  type: text
+  card: 0..1
+states:
+- received
+- described
+- assessed
+- accepted
+- declined
+- withdrawn
+relations:
+- type: refers-to
+  target: need-assessment
+- type: refers-to
+  target: citizen-complaint
+- type: refers-to
+  target: citizen-satisfaction
+- type: refers-to
+  target: public-service
+- type: assigned-to
+  target: department
+- type: produces
+  target: service-concept

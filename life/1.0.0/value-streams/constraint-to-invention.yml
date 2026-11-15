@@ -1,0 +1,63 @@
+kind: value-stream
+slug: constraint-to-invention
+title: Designing Within Limits
+family: purpose-to-portfolio
+summary: Using the limits a life actually has — money, time, health, obligation — as the design brief rather than the excuse.
+trigger: A limit of money, time, health or duty closes off the plan the person had, or keeps being the reason nothing changes.
+outcome: The limits the life actually has are the brief it is designed to, and what it builds fits the person who has to live in it.
+stakeholders:
+- dependant
+- partner
+- practitioner
+- collaborator
+steps:
+- slug: naming-the-real-limits
+  title: Naming the Real Limits
+  summary: The limits of money, time, health and duty are said plainly, without shame and without hiding behind them.
+  capabilities:
+  - naming-ones-limits-plainly
+  entities:
+  - financial-position
+  - condition
+  - dependant-relation
+- slug: letting-the-old-plan-go
+  title: Letting the Old Plan Go
+  summary: The plan the limits have closed off is grieved and released, so that it stops being the measure of everything else.
+  capabilities:
+  - letting-the-other-path-go
+  entities:
+  - intention
+  - life-blueprint
+- slug: turning-limits-into-the-brief
+  title: Turning Limits into the Brief
+  summary: The limits become the brief the life is designed to, and the question changes from why not to what fits.
+  capabilities:
+  - designing-to-the-limits
+  - providing-outside-the-market
+  entities:
+  - life-blueprint
+  - intention
+- slug: trying-a-small-version
+  title: Trying a Small Version
+  summary: A small, affordable version of the idea is tried within the limits, to see what it teaches.
+  capabilities:
+  - trying-before-committing
+  entities:
+  - experience
+  - by-product
+- slug: noticing-what-arrived-on-the-way
+  title: Noticing What Arrived on the Way
+  summary: Unplanned gains that came with working inside the limits, a friendship, a skill, an opening, are noticed and kept.
+  capabilities:
+  - noticing-unplanned-gifts
+  entities:
+  - by-product
+  - journal
+- slug: growing-without-outgrowing-the-fit
+  title: Growing without Outgrowing the Fit
+  summary: As things grow, the person checks that the life still fits the one who has to live it and does not quietly drain them.
+  capabilities:
+  - keeping-the-life-livable
+  entities:
+  - life-blueprint
+  - energy-log

@@ -1,0 +1,57 @@
+kind: journey
+slug: asset-officer-retiring-an-asset
+title: Asset Officer Retiring an Asset
+stakeholder: asset-officer
+summary: The asset officer prepares the retirement decision, has the asset audited for materials and hazards, contracts its deconstruction,
+  banks what is salvaged, has the site cleaned, settles its next use and closes its record with what was recovered.
+stages:
+- slug: prepare-the-retirement-decision
+  title: Prepare the Retirement Decision
+  goal: Repair, refurbishment, reuse and retirement are weighed on whole-life cost, carbon, heritage and need, and the council or
+    its delegate has decided.
+  step: asset-decommissioning-and-material-recovery/retirement-decision
+  touchpoints:
+  - retirement-options-hearing
+  - retirement-decision-notice
+- slug: audit-before-anything-comes-down
+  title: Audit Before Anything Comes Down
+  goal: The asset's materials, hazards and order of disassembly are recorded in its material passport.
+  step: asset-decommissioning-and-material-recovery/pre-demolition-material-audit
+  touchpoints:
+  - pre-demolition-audit-walk
+  - works-material-passport
+- slug: contract-the-deconstruction
+  title: Contract the Deconstruction
+  goal: The asset is taken apart by contractors and salvage cooperatives employing local workers, and its materials are sorted by
+    next use.
+  step: asset-decommissioning-and-material-recovery/deconstruction-and-salvage
+  touchpoints:
+  - deconstruction-site
+- slug: bank-what-is-salvaged
+  title: Bank What Is Salvaged
+  goal: Salvaged components are in the material bank with their passports and matched to city works, builders and residents.
+  step: asset-decommissioning-and-material-recovery/material-banking-and-reuse
+  touchpoints:
+  - material-bank-store
+  - material-bank-open-list
+- slug: clean-the-site
+  title: Clean the Site
+  goal: Hazardous materials are removed and the ground is cleaned so that the site is safe for its next use.
+  step: asset-decommissioning-and-material-recovery/hazard-removal-and-site-clean-up
+  touchpoints:
+  - site-clean-up-meeting
+  - published-site-test-results
+- slug: settle-the-next-use
+  title: Settle the Next Use
+  goal: The site is kept as public land, turned into paths and green space, transferred to a community body or sold on the council's
+    terms.
+  step: asset-decommissioning-and-material-recovery/site-next-use
+  touchpoints:
+  - site-next-use-workshop
+- slug: close-the-record
+  title: Close the Record
+  goal: The asset is removed from the register with its final value, and what was reused, recovered and disposed of is reported.
+  step: asset-decommissioning-and-material-recovery/asset-record-closure
+  touchpoints:
+  - public-asset-register-entry
+  - published-recovery-report

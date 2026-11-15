@@ -1,0 +1,49 @@
+kind: entity
+slug: permit
+title: Permit
+type: governance
+summary: An authorisation by a public authority for the organisation to build, install or operate something, such as a building permit,
+  a licence to operate radiation equipment, a discharge permit or an approval for occupancy, with its conditions, validity and inspections.
+attributes:
+- name: permit-kind
+  type: code
+  card: 1..1
+- name: issuing-authority
+  type: reference(organisation)
+  card: 1..1
+- name: subject
+  type: text
+  card: 1..1
+- name: facility
+  type: reference(facility)
+  card: 0..1
+- name: medical-devices
+  type: reference(medical-device)
+  card: 0..*
+- name: conditions
+  type: text
+  card: 0..1
+- name: valid-period
+  type: period
+  card: 0..1
+- name: next-inspection
+  type: date
+  card: 0..1
+states:
+- applied-for
+- granted
+- conditional
+- suspended
+- revoked
+- expired
+relations:
+- type: governed-by
+  target: compliance-obligation
+- type: refers-to
+  target: facility
+- type: refers-to
+  target: medical-device
+binds:
+- source: src-301
+  edition: '2018'
+  jurisdiction: global

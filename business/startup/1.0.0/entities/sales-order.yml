@@ -1,0 +1,55 @@
+kind: entity
+slug: sales-order
+title: Sales Order
+type: transactional
+summary: A confirmed promise of exchange — the moment a customer's need becomes a binding commitment, triggering the organisation's
+  fulfilment across proposition and production.
+attributes:
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: order-date
+  type: date
+  card: 1..1
+- name: delivery-date
+  type: date
+  card: 0..1
+- name: delivery-terms
+  type: code
+  card: 0..1
+- name: lines
+  type: text
+  card: 1..*
+- name: total-amount
+  type: amount
+  card: 1..1
+states:
+- draft
+- confirmed
+- partially-delivered
+- delivered
+- billed
+- closed
+- cancelled
+relations:
+- type: based-on
+  target: quotation
+- type: refers-to
+  target: customer
+- type: produces
+  target: delivery-note
+- type: produces
+  target: sales-invoice
+binds:
+- source: src-141
+  edition: '2020'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

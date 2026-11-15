@@ -1,0 +1,37 @@
+kind: entity
+slug: patient-experience-survey
+title: Patient Experience Survey
+type: transactional
+summary: One patient's completed survey about their experience of care, such as communication, information, involvement and discharge,
+  collected after an encounter and aggregated into experience measures.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 0..1
+- name: instrument
+  type: reference(assessment-instrument)
+  card: 1..1
+- name: invited-on
+  type: date
+  card: 1..1
+- name: completed-on
+  type: date
+  card: 0..1
+- name: responses
+  type: document
+  card: 0..1
+- name: anonymised
+  type: boolean
+  card: 1..1
+states:
+- invited
+- completed
+- expired
+- excluded
+relations:
+- type: depends-on
+  target: assessment-instrument
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-findings-for-public-answers
+title: Inspection Findings for Public Answers
+between:
+- resident-inspector
+- city-administration
+offered:
+- Findings from inspection of spending, procurement and permits, with their evidence.
+returned:
+- A public answer to each finding within the set time, explaining, changing or defending the decision.
+touchpoint: resident-inspection

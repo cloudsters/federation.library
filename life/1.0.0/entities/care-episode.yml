@@ -1,0 +1,36 @@
+kind: entity
+slug: care-episode
+title: Care Episode
+type: transactional
+summary: A bounded period in which this life carried someone else's needs — an illness, a decline, a recovery, a crisis in another
+  household. Held because it consumes the same hours as work and appears in no plan.
+attributes:
+- name: for
+  type: reference(dependant-relation)
+  card: 1..1
+- name: when
+  type: period
+  card: 1..1
+- name: cause
+  type: text
+  card: 1..1
+- name: hours-given
+  type: duration
+  card: 0..1
+- name: help-arranged
+  type: text
+  card: 0..*
+- name: work-terms-changed
+  type: reference(contract)
+  card: 0..1
+states:
+- beginning
+- carrying
+- carrying with help
+- easing
+- ended
+relations:
+- target: dependant-relation
+  type: about
+- target: obligation
+  type: based-on

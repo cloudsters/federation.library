@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: mobile-app
+title: Mobile App
+medium: channel
+summary: The company's app, through which customers or users buy, use, register or control its products and services, and receive
+  messages and offers.
+exchanges:
+- transparent-charges-for-timely-payment
+- working-shop-for-completed-orders
+journey: consumer-paying-for-a-subscription

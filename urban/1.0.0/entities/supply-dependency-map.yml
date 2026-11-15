@@ -1,0 +1,57 @@
+kind: entity
+slug: supply-dependency-map
+title: Supply Dependency Map
+type: intelligence
+summary: The published map of where each essential good, such as food, water, medicine and fuel, comes from, which rest on a single
+  supplier or a distant chain, and which neighbourhoods would be cut off first. The procurement office makes it with services and
+  neighbourhood bodies, and it is used to set sufficiency levels, qualify standby suppliers and place reserves.
+attributes:
+- name: reference-date
+  type: date
+  card: 1..1
+- name: essential-goods
+  type: text
+  card: 1..*
+- name: sources-by-good
+  type: document
+  card: 1..1
+- name: single-source-goods
+  type: text
+  card: 0..*
+- name: distant-chain-goods
+  type: text
+  card: 0..*
+- name: neighbourhoods-cut-off-first
+  type: reference(neighbourhood)
+  card: 0..*
+- name: risks
+  type: reference(risk-register)
+  card: 0..1
+- name: contributors
+  type: text
+  card: 0..*
+- name: review-rhythm
+  type: code
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- scoped
+- mapped
+- published
+- reviewed
+- superseded
+relations:
+- type: refers-to
+  target: risk-register
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: distribution-hub
+binds:
+- source: src-375
+  edition: '2021'
+  jurisdiction: global

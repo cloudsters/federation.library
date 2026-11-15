@@ -1,0 +1,41 @@
+kind: entity
+slug: journal-entry
+title: Journal Entry
+type: transactional
+summary: A ledger entry — the basic act of financial recording, where every economic event is captured as balanced debits and credits in
+  the organisation's accounts.
+attributes:
+- name: posting-date
+  type: date
+  card: 1..1
+- name: lines
+  type: text
+  card: 1..*
+- name: accounts
+  type: reference(account)
+  card: 1..*
+- name: debit-total
+  type: amount
+  card: 1..1
+- name: credit-total
+  type: amount
+  card: 1..1
+- name: cost-centers
+  type: reference(cost-center)
+  card: 0..*
+- name: narration
+  type: text
+  card: 0..1
+states:
+- draft
+- posted
+- reversed
+relations:
+- type: refers-to
+  target: account
+- type: assigned-to
+  target: cost-center
+binds:
+- source: src-106
+  edition: '2026'
+  jurisdiction: global

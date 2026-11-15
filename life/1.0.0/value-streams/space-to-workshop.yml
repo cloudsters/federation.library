@@ -1,0 +1,85 @@
+kind: value-stream
+slug: space-to-workshop
+title: A Room for the Work
+family: portfolio-to-system
+summary: The physical places the life's work actually happens in, arranged so the work is easier to start than to avoid.
+trigger: The work keeps being put off because setting up costs more than starting, or a move, a new child or a shared table takes
+  the old corner away.
+outcome: There is a place, at home or elsewhere, where the work lies ready and is easier to begin than to avoid, and those who share
+  the space know what it is for.
+stakeholders:
+- place
+- partner
+- child
+- collaborator
+steps:
+- slug: noticing-the-setting-up
+  title: Noticing the Setting Up
+  summary: The work keeps being put off, and the person sees that clearing a table and finding the tools costs more than starting
+    the work itself.
+  capabilities:
+  - noticing-what-makes-starting-hard
+  entities:
+  - workspace
+  - habit-record
+  serves:
+  - work-corner
+- slug: finding-a-place
+  title: Finding a Place
+  summary: Looking at home and beyond for a spot that can hold the work, a room, a corner, a shared studio, a library desk, a bench
+    in a shed.
+  capabilities:
+  - finding-room-for-the-work
+  entities:
+  - workspace
+  - home
+  serves:
+  - work-corner
+- slug: agreeing-with-those-who-share-it
+  title: Agreeing Who Shares It
+  summary: Talking with a partner, children or housemates about what the space is for, when it is taken, and what may be left lying
+    out.
+  capabilities:
+  - making-terms-explicit
+  entities:
+  - workspace
+  - partner-relation
+  - child-relation
+  serves:
+  - kitchen-table
+  - the-home
+- slug: arranging-it-for-the-work
+  title: Arranging It for the Work
+  summary: Setting the place up so the work lies ready, tools in reach, the unfinished thing left open, distractions out of sight.
+  capabilities:
+  - arranging-a-place-for-work
+  entities:
+  - workspace
+  - device
+  serves:
+  - work-corner
+- slug: starting-without-ceremony
+  title: Starting Without Ceremony
+  summary: Using the place until beginning takes no effort, and noticing what still pulls the person away from it.
+  capabilities:
+  - arranging-a-place-for-work
+  - noticing-what-makes-starting-hard
+  entities:
+  - workspace
+  - daily-rhythm
+  serves:
+  - work-corner
+- slug: rearranging-when-life-moves
+  title: Rearranging When Life Moves
+  summary: When a move, a child or a new kind of work takes the old corner away, letting the old arrangement go and making a new one
+    instead of working around the loss.
+  capabilities:
+  - finding-room-for-the-work
+  - letting-things-go
+  entities:
+  - workspace
+  - transition
+  - relocation
+  serves:
+  - moving-home
+  - work-corner

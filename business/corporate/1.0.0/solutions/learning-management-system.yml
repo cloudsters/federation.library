@@ -1,0 +1,19 @@
+kind: solution
+slug: learning-management-system
+title: Learning Management System
+role: system-of-record
+summary: Holds courses, learning paths and enrolments, delivers online and classroom learning, tracks mandatory training and keeps
+  the credentials people have earned.
+carries:
+- development-as-cultivation
+- learning-programme-delivery
+- online-course-certification
+- orientation-as-system-introduction
+- safety-training
+- leadership-development
+- mandatory-training-management
+- ai-oversight-competence
+holds:
+- course
+- course-registration
+- credential

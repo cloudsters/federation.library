@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: participant-payment
+title: Participant Payment
+medium: channel
+summary: The payment to participants for their time, travel and care costs, made promptly and in a form that does not reduce other
+  support they receive.
+exchanges:
+- paid-time-for-sustained-taking-part
+journey: administration-involving-residents-in-a-decision

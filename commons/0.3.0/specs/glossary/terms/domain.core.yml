@@ -1,0 +1,18 @@
+id: domain.core
+term: domain.core
+layer: what
+kind: repository
+definition: The [domain].core whose domain is the making and keeping of domains, which delivers the model for the continuous
+  research of a domain that every [domain].core installs as its primary.
+why: 'Holger, 3 November 2026 (commons.o#109, comments 6599799364 and 6600137634): domain.core is not commons.core. It develops
+  that model in an emulation, installs its own release and builds its runtime from it, a fixed point with no regress, since
+  the model it works by is the model it makes. Until its first release, no primary yet is the expected gap of every [domain].core.
+  Its id spells the dot, since ids hold none.'
+relations:
+  is_a: domain-core
+  makes: domain-model
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: safety-instruction
+title: Safety Instruction
+medium: encounter
+summary: The required instruction on safety and other rules of the workplace before someone works on their own, repeated at set intervals
+  and recorded.
+exchanges:
+- effort-for-a-path-into-the-trade
+- workplace-knowledge-for-protection
+journey: operator-working-safely-every-shift

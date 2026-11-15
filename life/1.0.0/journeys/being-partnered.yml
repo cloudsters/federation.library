@@ -1,0 +1,36 @@
+kind: journey
+slug: being-partnered
+title: Being Partnered
+stakeholder: partner
+via: participant-to-community
+summary: The partner lives close to this person, is told plainly what closeness is welcome, is asked the same in return, and finds
+  the terms set again whenever life changes.
+stages:
+- slug: hear-what-is-welcome
+  title: Hear What Is Welcome
+  goal: The partner has been told plainly what closeness is welcome and what is not, before a crisis made it necessary.
+  step: closeness-to-consent/saying-it-aloud
+  touchpoints:
+  - hard-conversation
+- slug: be-asked-in-turn
+  title: Be Asked in Turn
+  goal: The partner's own terms have been asked for, and a no from them has been taken as information rather than rejection.
+  step: closeness-to-consent/hearing-their-terms
+  touchpoints:
+  - heart-to-heart
+  - hard-conversation
+- slug: agree-again
+  title: Agree Again
+  goal: When a birth, an illness or a move changes the life, the partner has set the terms anew with the person rather than inherited
+    the old ones.
+  step: closeness-to-consent/agreeing-again
+  touchpoints:
+  - kitchen-table
+  - hard-conversation
+- slug: stay-two-people
+  title: Stay Two People
+  goal: The partner lives with someone who keeps their own friends, interests and opinions, so the bond adds to both rather than replacing
+    either.
+  step: closeness-to-consent/staying-oneself-inside-the-bond
+  touchpoints:
+  - phone-call

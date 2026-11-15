@@ -1,0 +1,43 @@
+kind: entity
+slug: care-network
+title: Care Network
+type: master
+summary: A formal network of providers that coordinates care for a region or condition, such as a trauma, stroke, cancer or
+  rare-disease network, with members, shared pathways, governance and a coordinating centre.
+attributes:
+- name: network-kind
+  type: code
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: coordinating-organisation
+  type: reference(organisation)
+  card: 1..1
+- name: pathways
+  type: reference(care-pathway)
+  card: 0..*
+- name: catchment
+  type: reference(catchment-population)
+  card: 0..1
+- name: governing-body
+  type: reference(governance-body)
+  card: 0..1
+states:
+- forming
+- active
+- under-review
+- dissolved
+relations:
+- type: governed-by
+  target: contract
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

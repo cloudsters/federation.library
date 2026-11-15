@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: performance-figures-for-neighbourhood-judgement
+title: Performance Figures for Neighbourhood Judgement
+between:
+- asset-officer
+- neighbourhood-association
+offered:
+- Condition, response times and backlog for the neighbourhood measured against the service levels.
+returned:
+- The neighbourhood's judgement of where the figures and daily experience differ, carried into the backlog ledger and the asset plan.
+touchpoint: yearly-maintenance-review-meeting

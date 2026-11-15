@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: council-meeting
+title: Council Meeting
+medium: encounter
+summary: The public session of the full council in which charter, bylaws, budget, risk appetite, emergency powers and corrections
+  are deliberated and resolved, with minority positions recorded.
+exchanges:
+- adoption-for-a-charter-residents-can-cite
+- certified-result-for-taking-office
+- decided-corrections-for-follow-through
+- direction-for-published-delegations
+- drift-reports-for-corrections-with-an-owner
+- minority-position-for-a-place-in-the-record
+- risk-picture-for-a-stated-appetite
+journey: city-council-renewing-the-city-charter

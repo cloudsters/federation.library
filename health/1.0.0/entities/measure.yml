@@ -1,0 +1,53 @@
+kind: entity
+slug: measure
+title: Measure
+type: intelligence
+summary: The definition of an indicator of quality, safety, outcome, efficiency or experience, stating its population, numerator,
+  denominator, exclusions, data sources and direction, so that it is calculated the same way everywhere.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: measure-type
+  type: code
+  card: 1..1
+- name: population
+  type: text
+  card: 1..1
+- name: numerator
+  type: text
+  card: 1..1
+- name: denominator
+  type: text
+  card: 0..1
+- name: data-sources
+  type: text
+  card: 1..*
+- name: target
+  type: text
+  card: 0..1
+states:
+- draft
+- approved
+- in-use
+- withdrawn
+relations: []
+binds:
+- source: src-028
+  edition: 1.5.3
+  jurisdiction: global
+- source: src-079
+  edition: '1988'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

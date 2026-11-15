@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: early-payment-for-an-agreed-discount
+title: Early Payment for an Agreed Discount
+between:
+- finance-professional
+- supplier
+offered:
+- Payment ahead of the due date where cash timing matters most to the supplier.
+returned:
+- An agreed discount, and a supplier able to keep delivering through a tight period.
+touchpoint: early-payment-offer

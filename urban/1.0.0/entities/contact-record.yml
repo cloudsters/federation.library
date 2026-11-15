@@ -1,0 +1,58 @@
+kind: entity
+slug: contact-record
+title: Contact Record
+type: master
+summary: The record of a resident's continuing contacts with the city, with their named contact, the matters they raised and only
+  the data they agreed the city may keep. The service that holds the named contact keeps it, the resident sees, corrects and limits
+  it through their resident account, and it lets a returning resident be served without telling their story again.
+attributes:
+- name: resident
+  type: identifier
+  card: 1..1
+- name: named-contact
+  type: text
+  card: 0..1
+- name: contact-preferences
+  type: code
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: access-needs
+  type: text
+  card: 0..*
+- name: kept-data-categories
+  type: code
+  card: 1..*
+- name: consents
+  type: reference(consent-record)
+  card: 1..*
+- name: resident-account
+  type: reference(resident-account)
+  card: 0..1
+- name: enquiries
+  type: reference(resident-enquiry)
+  card: 0..*
+- name: last-corrected-on
+  type: date
+  card: 0..1
+- name: kept-until
+  type: date
+  card: 0..1
+states:
+- opened
+- active
+- restricted
+- dormant
+- closed
+relations:
+- type: governed-by
+  target: consent-record
+- type: refers-to
+  target: resident-account
+- type: composed-of
+  target: resident-enquiry
+- type: assigned-to
+  target: service-point
+- type: refers-to
+  target: processing-record

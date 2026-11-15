@@ -1,0 +1,65 @@
+kind: entity
+slug: encounter
+title: Encounter
+type: transactional
+summary: An interaction between a patient and the organisation during which care is delivered, from arrival or admission to
+  departure or discharge, whether inpatient, day case, outpatient, emergency or remote. It is the unit a stay is administered
+  and billed by.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter-class
+  type: code
+  card: 1..1
+- name: period
+  type: period
+  card: 1..1
+- name: responsible-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: reason-for-encounter
+  type: code
+  card: 0..*
+- name: admission-source
+  type: code
+  card: 0..1
+- name: discharge-disposition
+  type: code
+  card: 0..1
+states:
+- planned
+- arrived
+- in-progress
+- on-leave
+- discharged
+- completed
+- cancelled
+- entered-in-error
+relations:
+- type: part-of
+  target: episode-of-care
+- type: based-on
+  target: care-period-mandate
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

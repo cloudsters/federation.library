@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: spending-approval-for-budget-view
+title: Spending Approval for Budget View
+between:
+- head-of-clinical-department
+- administrative-staff
+offered:
+- Timely approval of requisitions and unmatched invoices within the department's authority.
+returned:
+- A current view of the department's commitments and spend against its budget, and suppliers paid without escalation.
+touchpoint: ordering-catalogue

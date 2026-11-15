@@ -1,0 +1,11 @@
+kind: solution
+slug: visitor-information-platform
+title: Visitor Information Platform
+role: system-of-engagement
+summary: Publishes the visitor guide in several languages, online and at arrival points, with local events, markets, offers outside
+  the peak and what residents ask of guests, and guides visitors to less crowded times and routes.
+carries:
+- visitor-information-provision
+- visitor-crowding-control
+holds:
+- visitor-guide

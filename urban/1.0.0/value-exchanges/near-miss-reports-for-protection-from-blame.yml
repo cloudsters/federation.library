@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: near-miss-reports-for-protection-from-blame
+title: Near-Miss Reports for Protection from Blame
+between:
+- frontline-worker
+- city-administration
+offered:
+- Reports of failures and near misses that no one else may have seen.
+returned:
+- Protection from blame for reporting, and an answer on what was done.
+touchpoint: failure-and-near-miss-report-line

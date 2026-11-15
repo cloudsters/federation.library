@@ -1,0 +1,47 @@
+kind: entity
+slug: skill-registry
+title: Community Skill Registry
+type: intelligence
+summary: The register, kept by a neighbourhood or a body of practitioners, of the practical skills residents hold, with the attestations
+  of those who have seen them at work, refreshed each year. The residents named in it consent to their entries, and it is used to
+  recognise skills where papers are missing and to match job seekers to work.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: entries
+  type: text
+  card: 0..*
+- name: skills-listed
+  type: text
+  card: 0..*
+- name: attestations
+  type: text
+  card: 0..*
+- name: consent-records
+  type: reference(consent-record)
+  card: 0..*
+- name: last-refreshed-on
+  type: date
+  card: 0..1
+- name: access-rules
+  type: text
+  card: 1..1
+states:
+- set-up
+- open
+- refreshed
+- suspended
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: consent-record
+- type: produces
+  target: skill-recognition
+- type: refers-to
+  target: employment-pathway

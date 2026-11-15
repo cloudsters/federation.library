@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: remote-monitoring-centre
+title: Remote Monitoring Centre
+medium: place
+summary: The staffed centre where readings and alerts from patients at home are reviewed against agreed thresholds and acted on by
+  a call, a visit or an admission.
+exchanges:
+- home-readings-for-timely-response
+- daily-presence-for-round-the-clock-backing
+journey: care-at-home-patient-journey

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: street-defect-report
+title: Street Defect Report
+medium: channel
+summary: The online, telephone and in-person route through which residents report defects in streets, paths, bridges and lights and
+  follow their repair.
+exchanges:
+- defect-report-for-a-repair-in-published-order
+journey: parent-or-guardian-making-the-school-route-safe

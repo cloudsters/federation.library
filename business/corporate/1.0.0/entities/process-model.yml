@@ -1,0 +1,45 @@
+kind: entity
+slug: process-model
+title: Process Model
+type: master
+summary: The documented model of a business process, with its owner, purpose, steps, roles, inputs, outputs, systems and measures,
+  published for those who carry it out and used as the baseline for improvement and automation.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: process-owner
+  type: reference(employee-record)
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: model
+  type: document
+  card: 1..1
+- name: roles
+  type: code
+  card: 1..*
+- name: measures
+  type: reference(measure)
+  card: 0..*
+- name: version
+  type: identifier
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- draft
+- published
+- under-review
+- retired
+relations:
+- type: governed-by
+  target: policy
+- type: refers-to
+  target: measure
+binds:
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global

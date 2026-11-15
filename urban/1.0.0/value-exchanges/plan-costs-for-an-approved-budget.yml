@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: plan-costs-for-an-approved-budget
+title: Plan Costs for an Approved Budget
+between:
+- finance-officer
+- city-council
+offered:
+- The cost of the workforce plan set against the medium-term financial plan.
+returned:
+- A plan approved together with the budget that funds it.
+touchpoint: personnel-committee-meeting

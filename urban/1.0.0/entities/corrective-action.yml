@@ -1,0 +1,62 @@
+kind: entity
+slug: corrective-action
+title: Corrective Action
+type: transactional
+summary: An action to remove the cause of a failure or an audit finding, with its owner, its due date and the check of its effect
+  before it is closed. The process owner records it and follows it to closure, and open and closed actions are reviewed in the regular
+  quality review and reported to the council.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: analysis
+  type: reference(cause-analysis-report)
+  card: 0..1
+- name: audit-finding
+  type: reference(audit-finding)
+  card: 0..1
+- name: action
+  type: text
+  card: 1..1
+- name: owner
+  type: text
+  card: 1..1
+- name: due-date
+  type: date
+  card: 1..1
+- name: procedure-changed
+  type: reference(standard-procedure)
+  card: 0..1
+- name: effect-check
+  type: text
+  card: 0..1
+- name: checked-on
+  type: date
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- agreed
+- assigned
+- in-progress
+- done
+- effect-checked
+- closed
+- reopened
+relations:
+- type: based-on
+  target: cause-analysis-report
+- type: based-on
+  target: audit-finding
+- type: refers-to
+  target: standard-procedure
+- type: refers-to
+  target: process-map
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

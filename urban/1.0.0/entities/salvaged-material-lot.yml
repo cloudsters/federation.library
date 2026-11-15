@@ -1,0 +1,66 @@
+kind: entity
+slug: salvaged-material-lot
+title: Salvaged Material Lot
+type: transactional
+summary: A batch of components or materials recovered from a retired asset or from flood debris, with their type, condition, passport
+  and destination. The contractor or salvage cooperative records it, and it is followed until reused or recovered.
+attributes:
+- name: lot-number
+  type: identifier
+  card: 1..1
+- name: source-kind
+  type: code
+  card: 1..1
+- name: source-asset
+  type: reference(infrastructure-asset)
+  card: 0..1
+- name: flood-event
+  type: reference(flood-event)
+  card: 0..1
+- name: material-kinds
+  type: code
+  card: 1..*
+- name: quantity
+  type: quantity
+  card: 1..1
+- name: condition
+  type: code
+  card: 1..1
+- name: material-passport
+  type: reference(material-passport)
+  card: 0..1
+- name: recovered-by
+  type: text
+  card: 1..1
+- name: contract
+  type: reference(contract)
+  card: 0..1
+- name: recovered-on
+  type: date
+  card: 1..1
+- name: destination
+  type: code
+  card: 0..1
+states:
+- salvaged
+- sorted
+- stored
+- matched
+- reused
+- sent-to-recovery
+- disposed
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: refers-to
+  target: flood-event
+- type: refers-to
+  target: material-passport
+- type: part-of
+  target: material-bank
+- type: based-on
+  target: contract
+binds:
+- source: src-639
+  edition: '2020'
+  jurisdiction: global

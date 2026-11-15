@@ -1,0 +1,63 @@
+kind: entity
+slug: decision-rights-register
+title: Decision Rights Register
+type: governance
+summary: The published record of which decisions rest with residents, neighbourhoods, recognised community bodies, the council, the
+  mayor, the administration and metropolitan bodies, with the delegations, approval limits and bounded emergency rights between them.
+  The council office keeps it, open to challenge, and it is consulted before any decision is taken.
+attributes:
+- name: decision-domains
+  type: text
+  card: 1..*
+- name: levels
+  type: code
+  card: 1..*
+- name: holding-bodies
+  type: text
+  card: 1..*
+- name: delegations
+  type: text
+  card: 0..*
+- name: approval-limits
+  type: amount
+  card: 0..*
+- name: recognised-voices
+  type: text
+  card: 0..*
+- name: emergency-rights
+  type: text
+  card: 0..*
+- name: basis
+  type: reference(council-decision)
+  card: 0..*
+- name: challenge-route
+  type: text
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- published
+- challenged
+- in-force
+- revised
+- superseded
+relations:
+- type: governed-by
+  target: city-constitution
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: council
+- type: refers-to
+  target: mayoral-office
+- type: refers-to
+  target: neighbourhood
+binds:
+- source: src-100
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,127 @@
+kind: value-stream
+slug: community-safety-and-emergency-services
+title: Community Safety and Emergency Services
+family: demand-to-fulfillment
+summary: Keeping residents safe from crime, violence, fire and acute threats to health, through neighbourhoods, design and responders
+  residents trust rather than through policing alone. It holds safety audits with the residents who feel least safe, community safety
+  plans agreed with neighbourhoods, prevention through lighting, design and trusted local people, emergency call handling and dispatch
+  to the right responder, fire and rescue with trained neighbours, health emergency operations in an outbreak, and the review of response
+  with residents.
+trigger: A neighbourhood reports insecurity, an emergency call is received, an outbreak or other health emergency is declared, or
+  the yearly safety review is due.
+outcome: Residents feel and are safe in their neighbourhoods at every hour, emergencies are answered quickly by the right responder,
+  and health emergencies are met fairly in every neighbourhood.
+stakeholders:
+- resident
+- emergency-service
+- police-service
+- neighbourhood-association
+- community-health-worker
+- health-and-care-provider
+- night-shift-worker
+- volunteer
+- affected-community
+steps:
+- slug: safety-audit-with-residents
+  title: Safety Audit with Residents
+  summary: Residents who feel least safe, women, young people, elders and night-shift workers among them, walk their neighbourhood
+    with the city by day and night and name the places and hours of danger, set beside the safety statistics and early signs of tension.
+  capabilities:
+  - street-safety-audit
+  - tension-sensing
+  - road-danger-analysis
+  entities:
+  - safety-statistics
+  - street
+  - public-space
+  serves:
+  - night-safety-walk
+- slug: community-safety-plan
+  title: Community Safety Plan
+  summary: The neighbourhood, the city, the police and other services agree a plan of what each does, how residents shape priorities
+    and how the police answer to them.
+  capabilities:
+  - community-safety-planning
+  - neighbourhood-action-planning
+  entities:
+  - community-safety-plan
+  - neighbourhood
+  serves:
+  - neighbourhood-safety-plan-meeting
+  - published-safety-plan
+- slug: prevention-through-design-and-outreach
+  title: Prevention through Design and Outreach
+  summary: Lighting, sightlines, staffed places and safe waiting areas are improved where the audit found danger, and trusted local
+    people step in early to calm conflicts before they grow.
+  capabilities:
+  - street-safety-scheme-design
+  - tension-de-escalation
+  - stop-and-station-upkeep
+  entities:
+  - street
+  - public-space
+  - transit-stop
+  serves:
+  - staffed-night-stop
+  - street-outreach-team
+- slug: emergency-call-and-dispatch
+  title: Emergency Call and Dispatch
+  summary: Emergency calls are answered at once in the caller's language, assessed, and sent to the right responder, fire, rescue,
+    medical, a crisis team for mental health or the police, with the response recorded.
+  capabilities:
+  - emergency-call-handling
+  - multilingual-information-design
+  entities:
+  - emergency-call
+  - emergency-response
+  serves:
+  - emergency-number
+  - mental-health-crisis-response
+- slug: fire-rescue-and-first-response
+  title: Fire, Rescue and First Response
+  summary: Fire and rescue crews respond to fires, collisions and floods, trained neighbours give first help until they arrive, and
+    fire safety checks are made in the homes most at risk.
+  capabilities:
+  - fire-and-rescue-operation
+  - volunteer-preparation-and-safeguarding
+  entities:
+  - emergency-response
+  - emergency-call
+  - building
+  serves:
+  - community-first-responder-alert
+  - home-fire-safety-check
+- slug: health-emergency-operations
+  title: Health Emergency Operations
+  summary: In an outbreak or other health emergency the city runs testing, vaccination and supply points in every neighbourhood, community
+    health workers reach those least served, and resources are shared fairly until the emergency ends.
+  capabilities:
+  - outbreak-control-operation
+  - community-health-worker-deployment
+  - fair-relief-allocation
+  entities:
+  - health-alert
+  - emergency-response
+  serves:
+  - neighbourhood-vaccination-point
+- slug: safety-and-response-review
+  title: Safety and Response Review
+  summary: Each year the city reviews with residents response times by neighbourhood, whether residents feel safer, complaints about
+    responders, and what the community safety plan changes next.
+  capabilities:
+  - service-quality-review
+  - complaint-pattern-reporting
+  - failure-cause-analysis
+  entities:
+  - safety-statistics
+  - community-safety-plan
+  serves:
+  - neighbourhood-safety-plan-meeting
+  - response-time-report
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-181
+  edition: '2015-06-03'
+  jurisdiction: global

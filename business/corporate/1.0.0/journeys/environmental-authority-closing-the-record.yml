@@ -1,0 +1,32 @@
+kind: journey
+slug: environmental-authority-closing-the-record
+title: Environmental Authority Closing the Record
+stakeholder: environmental-authority
+summary: An environmental authority receives notice of an exit, tracks hazardous waste to its destination, inspects the restored site
+  and receives the final evidence that obligations are met.
+stages:
+- slug: receive-notice-of-the-exit
+  title: Receive Notice of the Exit
+  goal: The planned closure and its environmental obligations are notified in time.
+  step: asset-end-of-life-stewardship/exit-planning
+  touchpoints:
+  - statutory-filing
+- slug: track-hazardous-waste
+  title: Track Hazardous Waste
+  goal: Hazardous waste can be traced from origin to destination.
+  step: asset-end-of-life-stewardship/recycling-and-hazardous-handling
+  touchpoints:
+  - waste-consignment-record
+- slug: inspect-the-restored-site
+  title: Inspect the Restored Site
+  goal: The former site is inspected against the restoration obligations.
+  step: asset-end-of-life-stewardship/site-closure-and-abandonment
+  touchpoints:
+  - official-inspection
+  - former-site
+- slug: receive-the-final-report
+  title: Receive the Final Report
+  goal: End-of-life obligations are evidenced and reported.
+  step: asset-end-of-life-stewardship/compliance-reporting-and-record-closure
+  touchpoints:
+  - statutory-filing

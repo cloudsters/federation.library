@@ -1,0 +1,10 @@
+kind: capability
+slug: supplier-performance-evaluation
+title: Supplier Performance Evaluation
+level: L3
+parent: supplier-management
+summary: Evaluate suppliers on quality, delivery, price and agreed service levels and escalate gaps.
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

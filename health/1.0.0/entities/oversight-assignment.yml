@@ -1,0 +1,41 @@
+kind: entity
+slug: oversight-assignment
+title: Oversight Assignment
+type: governance
+summary: The assignment of a competent person to oversee an AI system in use, with the authority to interpret its outputs, override
+  or stop it and report malfunctions, and with the training this requires.
+attributes:
+- name: ai-system
+  type: reference(ai-system)
+  card: 1..1
+- name: overseer
+  type: reference(employee)
+  card: 1..1
+- name: scope
+  type: reference(organisation-unit)
+  card: 0..*
+- name: authorities
+  type: code
+  card: 1..*
+- name: training
+  type: reference(credential)
+  card: 0..1
+- name: period
+  type: period
+  card: 0..1
+states:
+- assigned
+- active
+- ended
+relations:
+- type: assigned-to
+  target: ai-system
+- type: depends-on
+  target: credential
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

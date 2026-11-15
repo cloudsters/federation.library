@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: missed-collection-report
+title: Missed Collection Report
+medium: channel
+summary: The route through which a resident reports a missed collection and sees it put right the next working day.
+exchanges:
+- waste-set-out-on-the-day-for-a-reliable-round
+journey: resident-separating-and-returning-waste

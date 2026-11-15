@@ -1,0 +1,51 @@
+kind: entity
+slug: triage-assessment
+title: Triage Assessment
+type: transactional
+summary: The structured first assessment of an arriving emergency patient that assigns an urgency category and a maximum time to first
+  physician contact, repeated whenever the patient's condition changes.
+attributes:
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: presenting-complaint
+  type: code
+  card: 1..1
+- name: urgency-category
+  type: code
+  card: 1..1
+- name: instrument
+  type: reference(assessment-instrument)
+  card: 1..1
+- name: vital-signs
+  type: reference(observation)
+  card: 0..*
+- name: assessor
+  type: reference(practitioner-role)
+  card: 1..1
+- name: assessed-at
+  type: datetime
+  card: 1..1
+states:
+- in-progress
+- completed
+- revised
+relations:
+- type: part-of
+  target: encounter
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

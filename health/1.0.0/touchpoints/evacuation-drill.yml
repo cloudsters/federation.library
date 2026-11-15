@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: evacuation-drill
+title: Evacuation Drill
+medium: encounter
+summary: The exercise in which a unit practises its response to a fire alarm and the evacuation of patients, including those who cannot
+  walk, under observation.
+exchanges:
+- alerts-for-rapid-protection
+journey: ward-team-relying-on-building-services

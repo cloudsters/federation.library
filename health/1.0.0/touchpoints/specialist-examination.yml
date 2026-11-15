@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: specialist-examination
+title: Specialist Examination
+medium: encounter
+summary: The examination before the professional body in which a trainee who has completed training shows the competence required
+  for specialist recognition.
+exchanges:
+- examination-for-specialist-recognition
+journey: becoming-a-specialist

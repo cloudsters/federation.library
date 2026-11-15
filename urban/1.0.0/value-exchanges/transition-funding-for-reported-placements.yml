@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: transition-funding-for-reported-placements
+title: Transition Funding for Reported Placements
+between:
+- funding-body
+- city-administration
+offered:
+- Funding for wage replacement and retraining during the transition.
+returned:
+- Placement rates reported at each review.
+touchpoint: transition-income-payment

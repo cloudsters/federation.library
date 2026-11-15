@@ -1,0 +1,31 @@
+kind: solution
+slug: telehealth
+title: Telehealth
+role: system-of-engagement
+summary: 'Connects patients and professionals at a distance: video consultation, specialist teleconsultation between providers,
+  remote monitoring at home and hospital-at-home care, with each consultation recorded as part of care.'
+carries:
+- video-consultation
+- specialist-teleconsultation
+- telemonitoring
+- hospital-at-home
+- digital-health-application-prescription
+- second-opinion-access
+- stroke-unit-care
+- trauma-network-participation
+- interpreting-and-language-services
+- self-management-support
+- chronic-care-programmes
+- post-discharge-follow-up
+holds:
+- teleconsultation
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

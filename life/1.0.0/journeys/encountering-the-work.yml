@@ -1,0 +1,35 @@
+kind: journey
+slug: encountering-the-work
+title: Encountering the Work
+stakeholder: audience
+via: proposition-to-audience
+summary: Someone in the audience meets the work where they already gather, hears a voice that is recognisably one person's own, and
+  finds that what they say back shapes what comes next.
+stages:
+- slug: hear-a-voice
+  title: Hear a Voice
+  goal: The audience meets a voice that is recognisably one person's own.
+  step: voice-to-reach/sounding-like-oneself
+  touchpoints:
+  - published-work
+- slug: meet-it-nearby
+  title: Meet It Nearby
+  goal: The work has reached the audience where they already gather, rather than waiting to be found.
+  step: voice-to-reach/finding-where-people-are
+  touchpoints:
+  - professional-gathering
+  - social-feed
+- slug: find-it-steadily
+  title: Find It Steadily
+  goal: The work appears at a steady pace, in forms suited to each place.
+  step: voice-to-reach/showing-up-there
+  touchpoints:
+  - speaking-in-public
+  - published-work
+  - social-feed
+- slug: shape-what-comes-next
+  title: Shape What Comes Next
+  goal: What the audience said back has shaped what was said next.
+  step: voice-to-reach/listening-to-the-response
+  touchpoints:
+  - replies-and-comments

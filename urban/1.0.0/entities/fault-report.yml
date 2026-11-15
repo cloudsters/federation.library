@@ -1,0 +1,59 @@
+kind: entity
+slug: fault-report
+title: Fault Report
+type: transactional
+summary: A report of a fault in public infrastructure by a resident or a crew, with its place, risk, published response time and state.
+  The department responsible keeps it until the repair is done, and the reporter can follow it to completion.
+attributes:
+- name: reference-number
+  type: identifier
+  card: 1..1
+- name: reported-at
+  type: datetime
+  card: 1..1
+- name: reporting-route
+  type: code
+  card: 1..1
+- name: reporter-kind
+  type: code
+  card: 1..1
+- name: reporter-contact
+  type: text
+  card: 0..1
+- name: location
+  type: text
+  card: 1..1
+- name: asset
+  type: reference(infrastructure-asset)
+  card: 0..1
+- name: description
+  type: text
+  card: 1..1
+- name: risk-class
+  type: code
+  card: 0..1
+- name: respond-by
+  type: datetime
+  card: 0..1
+- name: repair
+  type: reference(infrastructure-repair)
+  card: 0..1
+- name: closed-at
+  type: datetime
+  card: 0..1
+states:
+- received
+- triaged
+- assigned
+- in-repair
+- resolved
+- closed
+relations:
+- type: refers-to
+  target: infrastructure-asset
+- type: produces
+  target: infrastructure-repair
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: service-standard

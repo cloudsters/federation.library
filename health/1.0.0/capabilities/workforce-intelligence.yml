@@ -1,0 +1,10 @@
+kind: capability
+slug: workforce-intelligence
+title: Workforce Intelligence
+level: L2
+parent: workforce-strategy-and-planning
+summary: Knowing the workforce through reliable data.
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global

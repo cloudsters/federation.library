@@ -1,0 +1,123 @@
+kind: value-stream
+slug: complaints-and-ombudsman
+title: Complaints and Ombudsman
+family: interest-to-relationship
+summary: Resolving residents' complaints about the city's services, decisions and conduct quickly and fairly. It holds a published
+  complaints procedure, intake by any route with help for those who find it hard to complain, routing by seriousness, investigation
+  by someone not involved, a reasoned answer with an apology and a remedy, compensation paid from a fund the services carry when a
+  published guarantee is broken, direct access to an independent ombudsman, and the account of complaints given to the council and
+  to the services that must change.
+trigger: A resident or visitor complains about a service, a decision or the conduct of staff, or a published service guarantee is
+  broken.
+outcome: The complaint is resolved with a reasoned answer and a remedy, or decided by the ombudsman, and its lesson rests with the
+  service that must change.
+stakeholders:
+- resident
+- visitor
+- ombudsman
+- frontline-worker
+- city-administration
+- city-council
+- disabled-resident
+- affected-community
+steps:
+- slug: complaints-procedure-and-guarantees
+  title: Complaints Procedure and Guarantees
+  summary: The city publishes, with residents and frontline workers, how to complain, the time within which each stage is answered,
+    and the service guarantees whose breach brings compensation without any complaint being filed.
+  capabilities:
+  - complaints-procedure-drafting
+  - service-standard-setting
+  entities:
+  - complaints-procedure
+  - service-standard
+  serves:
+  - published-complaints-procedure
+  - service-guarantee-workshop
+- slug: complaint-intake-and-acknowledgement
+  title: Complaint Intake and Acknowledgement
+  summary: Complaints are taken by any route, with help for those who find it hard to complain, acknowledged within the published
+    time, and the complainant is told who handles the complaint.
+  capabilities:
+  - complaint-intake
+  - assisted-service-route-provision
+  entities:
+  - citizen-complaint
+  - complaints-procedure
+  serves:
+  - any-route-complaint-channel
+  - complaint-acknowledgement-letter
+  - complaint-support-conversation
+- slug: classification-and-routing
+  title: Classification and Routing
+  summary: 'Each complaint is graded by seriousness and routed: put right at once by the service, investigated, or passed to the misconduct
+    route or the appeal route where those apply.'
+  capabilities:
+  - complaint-classification-and-routing
+  - misconduct-reporting-and-investigation
+  - entitlement-appeal-handling
+  entities:
+  - citizen-complaint
+  - misconduct-report
+  serves:
+  - complaint-grading-meeting
+- slug: complaint-investigation
+  title: Complaint Investigation
+  summary: An officer not involved in the matter investigates, hears the complainant and the staff concerned, and looks at the records,
+    including the working of any automated system that took part in the decision.
+  capabilities:
+  - complaint-investigation
+  - automated-decision-oversight
+  entities:
+  - citizen-complaint
+  - automated-system-register
+  serves:
+  - complaint-investigation-hearing
+- slug: response-and-remedy
+  title: Response and Remedy
+  summary: 'The complainant receives a reasoned answer in plain language, an apology where the city was at fault, and a remedy: the
+    service put right, a decision changed or compensation paid. Where a published guarantee was broken, compensation is paid automatically
+    from a fund each service carries.'
+  capabilities:
+  - complaint-resolution
+  - service-compensation-payment
+  - claim-and-dispute-resolution
+  entities:
+  - citizen-complaint
+  - compensation-award
+  - compensation-fund
+  serves:
+  - automatic-compensation-notice
+  - reasoned-response-letter
+- slug: ombudsman-review
+  title: Ombudsman Review
+  summary: A complainant who is not satisfied, or who receives no answer in time, goes directly to an ombudsman independent of the
+    administration, who can investigate, order a remedy and report failures across the city to the council in public.
+  capabilities:
+  - ombudsman-case-handling
+  - complaint-investigation
+  entities:
+  - ombudsman-case
+  - oversight-report
+  serves:
+  - ombudsman-complaint-desk
+  - ombudsman-remedy-order
+- slug: learning-from-complaints
+  title: Learning from Complaints
+  summary: Complaints and compensation are counted by service, neighbourhood and group, published and reported to the council, and
+    the patterns are handed to the quality review of the services concerned so that their causes are removed.
+  capabilities:
+  - complaint-pattern-reporting
+  - service-quality-review
+  - failure-cause-analysis
+  entities:
+  - complaint-pattern-report
+  - corrective-action
+  serves:
+  - complaint-learning-review
+  - ombudsman-public-report
+  - published-complaints-count
+binds:
+- source: src-234
+  edition: '2018'
+  jurisdiction: global

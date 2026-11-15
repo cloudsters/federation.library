@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: management-review
+title: Management Review
+medium: encounter
+summary: The meeting at a fixed cadence in which management reviews the results, findings, trends and culture of a management system
+  and decides on improvements and resources.
+exchanges:
+- quality-picture-for-leadership-commitment
+journey: quality-manager-keeping-the-system-alive

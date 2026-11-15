@@ -1,0 +1,119 @@
+kind: value-stream
+slug: capital-planning-and-investment-funding
+title: Capital Planning and Investment Funding
+family: value-to-sustainability
+summary: Planning capital needs for buildings, equipment and digital infrastructure and securing their funding from public investment
+  programmes, own funds, debt or donors, then accounting for its use.
+trigger: A capital need is raised, or a public investment funding round opens.
+outcome: Prioritised capital projects are funded, released and accounted for according to the conditions of each funding source.
+stakeholders:
+- head-of-clinical-department
+- clinical-engineer
+- executive
+- owner
+- public-funding-body
+- financial-institution
+steps:
+- slug: capital-need-identification
+  title: Capital Need Identification
+  summary: Units, clinical engineering, estates and digital services raise capital needs from strategy, replacement plans, asset condition
+    and new services, each stated with its purpose and urgency.
+  capabilities:
+  - capital-planning
+  - medical-device-investment-planning
+  - facility-planning
+  - infrastructure-planning
+  - asset-condition-sensing
+  entities:
+  - capital-project
+  - asset
+  - medical-device
+  - facility
+  serves:
+  - investment-request
+- slug: investment-case-and-prioritisation
+  title: Investment Case and Prioritisation
+  summary: Each need is developed into an investment case with costs, follow-on costs, benefits and risks, and the cases are ranked
+    across the whole portfolio against strategy and available funds.
+  capabilities:
+  - capital-planning
+  - service-business-case
+  - initiative-evaluation-and-selection
+  - it-portfolio-and-value-management
+  - health-technology-assessment
+  entities:
+  - capital-project
+  - strategy
+  - strategic-objective
+  serves:
+  - investment-committee
+- slug: funding-source-securing
+  title: Funding Source Securing
+  summary: 'Each prioritised project is matched to its funding source: public investment programmes are applied for, and own funds,
+    loans or earmarked donations are assigned with their conditions.'
+  capabilities:
+  - public-investment-funding
+  - debt-and-investment-management
+  - fundraising-and-donations
+  - cash-flow-forecasting
+  entities:
+  - public-funding-allocation
+  - capital-project
+  - contract
+  - philanthropic-gift
+  - liquidity-forecast
+  serves:
+  - credit-review
+  - investment-funding-application
+- slug: investment-approval-and-release
+  title: Investment Approval and Release
+  summary: The investment programme and each major project are approved by the executive and the supervisory body within their decision
+    rights, and the project budgets are released.
+  capabilities:
+  - capital-planning
+  - delegation-of-authority
+  - board-communication-reporting
+  - budgetary-control-encumbrance
+  entities:
+  - governance-decision
+  - capital-project
+  - budget
+  serves:
+  - board-meeting
+  - investment-committee
+  - supervisory-body-meeting
+- slug: capital-spending-control
+  title: Capital Spending Control
+  summary: Spending on each project is recorded and checked against its budget, its schedule and the conditions of its funding sources
+    while the project is delivered.
+  capabilities:
+  - capital-project-accounting
+  - budgetary-control-encumbrance
+  - project-portfolio-management
+  entities:
+  - capital-project
+  - ledger-entry
+  - purchase-order
+  - public-funding-allocation
+  serves:
+  - use-of-funds-statement
+- slug: capitalisation-and-funding-accountability
+  title: Capitalisation and Funding Accountability
+  summary: Completed projects are capitalised as assets, and the use of every grant, loan and donation is accounted for to its funder
+    so that no funds are reclaimed.
+  capabilities:
+  - capital-project-accounting
+  - fixed-asset-accounting
+  - public-investment-funding
+  - regulatory-reporting
+  entities:
+  - asset
+  - capital-project
+  - public-funding-allocation
+  - financial-statement
+  serves:
+  - use-of-funds-statement
+binds:
+- source: src-055
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,13 @@
+kind: solution
+slug: body-tracker
+title: Body Tracker
+role: system-of-insight
+sovereignty: hosted
+summary: Measures sleep, heart and movement continuously and shows the patterns that feeling alone misses.
+carries:
+- knowing-ones-own-sleep
+- reading-ones-own-energy
+- knowing-ones-body-clock
+holds:
+- health-data
+- energy-log

@@ -1,0 +1,44 @@
+kind: journey
+slug: local-producer-selling-directly-at-market
+title: Local Producer Selling Directly at Market
+stakeholder: local-producer
+summary: A farmer of the region agrees direct sales at open prices, is registered for a pitch kept for local producers, sells on market
+  days and at collection points, and sees through the price data and the review whether producers are paid fairly.
+stages:
+- slug: plan-pitches-for-producers
+  title: Plan Pitches for Producers
+  goal: The market plan keeps pitches for local producers within reach of every neighbourhood.
+  step: markets-and-local-trade/market-network-planning
+  touchpoints:
+  - market-location-consultation
+- slug: agree-direct-sales
+  title: Agree Direct Sales
+  goal: The producer has an agreement to sell directly at open prices that pay producers fairly.
+  step: markets-and-local-trade/direct-producer-sales
+  touchpoints:
+  - producer-direct-sales-agreement
+- slug: take-a-producer-pitch
+  title: Take a Producer Pitch
+  goal: The producer is registered for one of the pitches kept for local producers.
+  step: markets-and-local-trade/vendor-registration
+  touchpoints:
+  - vendor-registration-desk
+- slug: sell-at-market-and-collection-point
+  title: Sell at Market and Collection Point
+  goal: The producer sells on market days and through the cooperative's collection points.
+  step: markets-and-local-trade/direct-producer-sales
+  touchpoints:
+  - market-day-stall
+  - producer-collection-point
+- slug: check-the-price-paid
+  title: Check the Price Paid
+  goal: Aggregated price ranges and cost benchmarks show whether producers are paid fairly against other outlets.
+  step: markets-and-local-trade/shared-price-data
+  touchpoints:
+  - published-market-price-board
+- slug: review-with-the-vendor-council
+  title: Review with the Vendor Council
+  goal: Producer incomes and the pitches kept for producers are part of the market review.
+  step: markets-and-local-trade/market-review
+  touchpoints:
+  - market-review-meeting

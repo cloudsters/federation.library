@@ -1,0 +1,10 @@
+kind: capability
+slug: medication-dispensing
+title: Medication Dispensing
+level: L3
+parent: pharmacy-operations
+summary: Dispense medicines to wards and patients, including unit-dose supply.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

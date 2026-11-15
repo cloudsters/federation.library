@@ -1,0 +1,10 @@
+kind: capability
+slug: differential-diagnosis-reasoning
+title: Differential Diagnosis Reasoning
+level: L3
+parent: medical-assessment-and-diagnosis
+summary: Generate, weigh and narrow differential diagnoses, using decision support where it helps.
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global

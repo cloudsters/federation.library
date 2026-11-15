@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: storm-observations-for-a-better-asset-plan
+title: Storm Observations for a Better Asset Plan
+between:
+- resident
+- asset-officer
+offered:
+- Observations of how new green and defensive works held in heat and storms.
+returned:
+- Monitoring results fed into the asset plan and shown to those who reported.
+touchpoint: after-storm-performance-check

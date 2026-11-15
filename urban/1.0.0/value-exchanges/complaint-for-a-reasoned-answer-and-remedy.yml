@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complaint-for-a-reasoned-answer-and-remedy
+title: Complaint for a Reasoned Answer and Remedy
+between:
+- resident
+- city-administration
+offered:
+- The time and detail the complainant gave to the complaint.
+returned:
+- A reasoned answer in plain language, an apology where the city was at fault and a remedy.
+touchpoint: reasoned-response-letter

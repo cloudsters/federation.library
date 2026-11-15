@@ -1,0 +1,38 @@
+kind: entity
+slug: conflict
+title: Conflict
+type: transactional
+summary: An open break in a relation. Held as an event with a date because the useful question is never whether it happened but how
+  long it stayed open.
+attributes:
+- name: with
+  type: code
+  card: 1..1
+- name: what-it-is-about
+  type: text
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: closed-on
+  type: date
+  card: 0..1
+- name: keeps-returning
+  type: boolean
+  card: 0..1
+- name: what-it-reveals
+  type: text
+  card: 0..1
+- name: repaired-by
+  type: reference(repair)
+  card: 0..1
+states:
+- flaring
+- cooling
+- open
+- understood
+- repaired
+- left unmended
+relations:
+- target: relationship-map
+  type: about

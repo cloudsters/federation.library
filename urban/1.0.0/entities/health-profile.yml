@@ -1,0 +1,61 @@
+kind: entity
+slug: health-profile
+title: City Health Profile
+type: intelligence
+summary: The profile of residents' health, illness and mental health and of the conditions behind them, by neighbourhood and group.
+  The administration prepares it each year with health providers and residents and publishes it, and it directs prevention to where
+  the gaps are widest.
+attributes:
+- name: profile-year
+  type: period
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 1..*
+- name: group-breakdowns
+  type: code
+  card: 1..*
+- name: life-expectancy
+  type: decimal
+  card: 0..*
+- name: illness-measures
+  type: text
+  card: 0..*
+- name: mental-health-measures
+  type: text
+  card: 0..*
+- name: living-conditions
+  type: text
+  card: 0..*
+- name: health-gaps
+  type: text
+  card: 0..*
+- name: data-sources
+  type: text
+  card: 1..*
+- name: made-with
+  type: text
+  card: 1..*
+- name: published-on
+  type: date
+  card: 0..1
+- name: profile-document
+  type: document
+  card: 1..1
+states:
+- compiled
+- validated
+- published
+- reviewed
+- superseded
+relations:
+- type: based-on
+  target: population-register
+- type: based-on
+  target: air-quality-index
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: hospital
+- type: refers-to
+  target: whole-city-assessment

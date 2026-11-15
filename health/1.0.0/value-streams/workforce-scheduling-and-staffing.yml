@@ -1,0 +1,116 @@
+kind: value-stream
+slug: workforce-scheduling-and-staffing
+title: Workforce Scheduling and Staffing
+family: contributor-to-succession
+summary: 'Matching staff to demand day by day: duty rosters, staffing levels against minimum requirements, leave, time and attendance,
+  float pools and temporary staff.'
+trigger: A roster period is planned, or actual demand or absence deviates from the roster.
+outcome: Every shift is staffed at or above the required level, and working hours are recorded for payroll.
+stakeholders:
+- registered-nurse
+- nursing-assistant
+- physician-in-specialty-training
+- unit-manager
+- operations-planning-agent
+- staff-representation
+- executive
+- national-care-standards-body
+steps:
+- slug: workload-forecast
+  title: Workload Forecast
+  summary: Forecast the workload of each unit and shift for the roster period from planned admissions and operations, patient acuity,
+    teaching duties and seasonal patterns.
+  capabilities:
+  - workload-estimation
+  - predictive-analytics
+  - resource-capacity-planning
+  entities:
+  - capacity-forecast
+  - acuity-classification
+  - organisation-unit
+  serves:
+  - workforce-dashboard
+- slug: roster-planning
+  title: Roster Planning
+  summary: Build the duty roster with the required skills on every shift, organise on-call and night duties, respect approved leave,
+    preferences and working-time rules, and publish it in time with the staff representatives' approval.
+  capabilities:
+  - staff-scheduling
+  - on-call-and-night-duty-organisation
+  - leave-management
+  - co-determination-cooperation
+  - employee-self-service-portal
+  entities:
+  - roster
+  - shift-assignment
+  - absence
+  - staffing-standard
+  serves:
+  - duty-roster
+  - hr-self-service
+  - staff-consultation
+- slug: staffing-check
+  title: Staffing Check
+  summary: Test the roster against minimum staffing levels and skill requirements for each unit and shift, and close gaps from float
+    pools or temporary staff before the period starts.
+  capabilities:
+  - safe-staffing-compliance
+  - float-pool-and-redeployment
+  - contingent-workforce-management
+  entities:
+  - roster
+  - staffing-standard
+  - measure-report
+  serves:
+  - duty-roster
+  - workforce-dashboard
+- slug: shift-adjustment
+  title: Shift Adjustment
+  summary: Compare staff present and patient acuity with the roster for every shift, and cover absences and peaks through swaps, the
+    float pool, redeployment between units or temporary staff.
+  capabilities:
+  - staffing-level-adjustment
+  - float-pool-and-redeployment
+  - ward-capacity-management
+  - patient-flow-orchestration
+  - contingent-workforce-management
+  entities:
+  - shift-assignment
+  - absence
+  - capacity-status
+  - acuity-classification
+  serves:
+  - shift-handover
+  - staffing-huddle
+  - ward
+- slug: time-recording
+  title: Time Recording
+  summary: Record the time actually worked, on-call duty, overtime, breaks and absences, and check them against working-time rules.
+  capabilities:
+  - time-and-attendance
+  - overtime-governance
+  - employee-self-service-portal
+  entities:
+  - working-time-record
+  - absence
+  - shift-assignment
+  serves:
+  - hr-self-service
+- slug: period-close
+  title: Period Close
+  summary: Approve the period's working time, settle time accounts and overtime, pass the data to payroll and cost accounting, and
+    evidence staffing compliance to the authorities.
+  capabilities:
+  - time-and-attendance
+  - overtime-governance
+  - safe-staffing-compliance
+  - regulatory-reporting
+  - cost-accounting
+  entities:
+  - working-time-record
+  - roster
+  - measure-report
+  serves:
+  - hr-self-service
+  - pay-statement
+  - public-quality-report

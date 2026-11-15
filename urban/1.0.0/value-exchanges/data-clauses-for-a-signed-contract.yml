@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: data-clauses-for-a-signed-contract
+title: Data Clauses for a Signed Contract
+between:
+- technology-supplier
+- legal-and-compliance-officer
+offered:
+- Acceptance that the city owns the data the system generates, and a statement of where it is held.
+returned:
+- A contract the city can sign, with the return of the data at its end set out.
+touchpoint: contract-data-clause-review

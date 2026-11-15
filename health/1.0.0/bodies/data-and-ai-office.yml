@@ -1,0 +1,18 @@
+kind: body
+slug: data-and-ai-office
+title: Data and AI Office
+summary: 'Governs and uses the commons'' data: data strategy, quality and master data, health records and their release, data
+  warehouse and reporting, predictive analytics, and the assurance and integration of clinical AI.'
+holds:
+- data-governance
+- health-information-management
+- analytics-and-reporting
+- ai-governance-and-assurance
+- human-agent-collaboration
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: acceptance-test-session
+title: Acceptance Test Session
+medium: encounter
+summary: The session in which staff and residents test a solution against what was agreed before it goes live.
+exchanges:
+- test-findings-for-a-stable-launch
+journey: city-administration-replacing-a-legacy-system

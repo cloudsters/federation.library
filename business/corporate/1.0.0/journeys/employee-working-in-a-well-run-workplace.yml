@@ -1,0 +1,27 @@
+kind: journey
+slug: employee-working-in-a-well-run-workplace
+title: Employee Working in a Well-Run Workplace
+stakeholder: employee
+summary: An employee has workspace needs heard, receives the equipment the work requires and works in a building that is safe, clean
+  and well run.
+stages:
+- slug: have-workspace-needs-heard
+  title: Have Workspace Needs Heard
+  goal: Needs for space, quiet and collaboration are gathered and shape how workspaces are allocated and designed.
+  step: asset-lifecycle-planning/space-and-facility-planning
+  touchpoints:
+  - facility-service-desk
+  - workplace
+- slug: receive-equipment
+  title: Receive Equipment
+  goal: Equipment, vehicles or devices are handed over ready to use, with their record.
+  step: asset-lifecycle-planning/acquisition-and-provision
+  touchpoints:
+  - equipment-handover
+- slug: work-safely-every-day
+  title: Work Safely Every Day
+  goal: Access, energy, cleaning, catering and meeting services work, and defects reported are fixed.
+  step: asset-lifecycle-planning/facility-operation-and-workplace-services
+  touchpoints:
+  - workplace
+  - facility-service-desk

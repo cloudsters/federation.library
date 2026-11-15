@@ -1,0 +1,20 @@
+kind: journey
+slug: receiving-a-newly-introduced-treatment
+title: Receiving a Newly Introduced Treatment
+stakeholder: elective-inpatient
+summary: 'The patient''s side of a new method: being offered it with honest information, and helping to show whether it works.'
+stages:
+- slug: deciding-on-the-new-method
+  title: Deciding on the New Method
+  goal: Understand what is new about the method, what is known and unknown, and choose freely between it and established care.
+  step: health-technology-adoption/controlled-introduction
+  touchpoints:
+  - consultation
+  - consent-form
+- slug: reporting-the-result
+  title: Reporting the Result
+  goal: Be followed up closely and have one's own account of the result count in the evaluation.
+  step: health-technology-adoption/follow-up-evaluation
+  touchpoints:
+  - outpatient-clinic
+  - patient-portal

@@ -1,0 +1,46 @@
+kind: journey
+slug: newcomer-applying-for-essential-help
+title: Newcomer Applying for Essential Help
+stakeholder: newcomer
+summary: A newcomer learns which help is open whatever their status, is reached by a trusted organisation, applies at the neighbourhood
+  service point in their own language, has a person decide, reads the decision in their language and challenges a refusal.
+stages:
+- slug: learn-what-is-open-whatever-status
+  title: Learn What Is Open Whatever Status
+  goal: The newcomer knows which care and help they may receive whatever their status, and on what evidence.
+  step: service-applications-and-entitlements/entitlement-rules
+  touchpoints:
+  - published-entitlement-rules
+- slug: be-reached-by-a-trusted-organisation
+  title: Be Reached by a Trusted Organisation
+  goal: A community worker or trusted organisation has told the newcomer of help they appear entitled to and offered to come with
+    them.
+  step: service-applications-and-entitlements/proactive-take-up
+  touchpoints:
+  - trusted-organisation-outreach
+- slug: apply-in-their-own-language
+  title: Apply in Their Own Language
+  goal: The newcomer has applied at the service point with an interpreter and help to complete the form.
+  step: service-applications-and-entitlements/application-intake
+  touchpoints:
+  - neighbourhood-service-point-counter
+- slug: have-a-person-decide
+  title: Have a Person Decide
+  goal: A caseworker has heard the newcomer's circumstances, and any refusal suggested by an automated system has been reviewed by
+    a person.
+  step: service-applications-and-entitlements/eligibility-assessment
+  touchpoints:
+  - caseworker-assessment-interview
+  - caseworker-check-before-refusal
+- slug: read-the-decision-in-their-language
+  title: Read the Decision in Their Language
+  goal: The newcomer holds the decision, its reasons and the route of appeal in a language they read.
+  step: service-applications-and-entitlements/decision-and-notice
+  touchpoints:
+  - plain-language-decision-letter
+- slug: challenge-a-refusal
+  title: Challenge a Refusal
+  goal: The newcomer has challenged a refusal with support and had it heard by someone not involved in the decision.
+  step: service-applications-and-entitlements/appeal-and-redress
+  touchpoints:
+  - independent-appeal-hearing

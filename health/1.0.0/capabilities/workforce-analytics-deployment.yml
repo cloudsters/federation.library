@@ -1,0 +1,10 @@
+kind: capability
+slug: workforce-analytics-deployment
+title: Workforce Analytics Deployment
+level: L3
+parent: workforce-intelligence
+summary: Turn workforce data into analyses that support decisions on staffing, retention and development.
+binds:
+- source: src-343
+  edition: '2021'
+  jurisdiction: global

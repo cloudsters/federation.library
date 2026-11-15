@@ -1,0 +1,165 @@
+kind: value-stream
+slug: academic-strategy
+title: Academic Strategy
+family: purpose-to-portfolio
+summary: Setting, together with the medical faculty, the research profile areas and the teaching mission, and aligning them with clinical
+  centres, appointments, infrastructure and funding.
+trigger: The joint academic planning cycle opens, or a profile area, a major funding programme or a faculty development plan requires
+  a decision.
+outcome: Agreed research profile areas and teaching priorities are resourced and reflected in centre development, appointments and
+  budgets.
+stakeholders:
+- executive
+- university
+- head-of-clinical-department
+- clinician-scientist
+- research-scientist
+- clinical-educator
+- medical-student
+- health-professions-student
+- research-funder
+- research-partner
+steps:
+- slug: joint-planning-opening
+  title: Joint Planning Opening
+  summary: The organisation and the medical faculty open the joint planning cycle, agree its scope, data and decision rules, and confirm
+    how the academic mandate binds the care mandate.
+  capabilities:
+  - hospital-and-faculty-cooperation
+  - academic-mandate-alignment
+  - academic-partnership-management
+  entities:
+  - governance-body
+  - contract
+  - charter
+  serves:
+  - joint-university-committee
+- slug: academic-performance-assessment
+  title: Academic Performance Assessment
+  summary: Research output, funding, trials and impact, and teaching quality and capacity, are assessed by unit and set against the
+    clinical strengths of the organisation and the funding landscape.
+  capabilities:
+  - research-performance-assessment
+  - teaching-quality-evaluation
+  - education-quality-assurance
+  - internal-capability-sensing
+  - ecosystem-sensing
+  - performance-benchmarking
+  entities:
+  - publication
+  - research-grant
+  - research-study
+  - education-programme
+  - measure-report
+  - benchmark
+  serves:
+  - academic-performance-report
+  - joint-university-committee
+  - learning-platform
+- slug: research-profile-definition
+  title: Research Profile Definition
+  summary: Research profile areas are chosen where clinical strength, scientific excellence and funding prospects meet, with their
+    translational priorities and their links to clinical centres.
+  capabilities:
+  - research-strategy-design
+  - clinical-focus-positioning
+  - bench-to-bedside-translation
+  - third-party-funding-strategy
+  entities:
+  - strategy
+  - strategic-objective
+  - organisation-unit
+  serves:
+  - academic-development-plan
+  - cooperation-agreement
+  - joint-university-committee
+  - strategy-workshop
+- slug: teaching-priority-setting
+  title: Teaching Priority Setting
+  summary: 'The teaching mission is set: the education programmes the organisation carries, study and training places, curriculum
+    priorities, interprofessional education and the clinical settings that host learners.'
+  capabilities:
+  - education-strategy-design
+  - medical-curriculum-design
+  - interprofessional-programme-design
+  - academic-health-professions-programmes
+  - teaching-hospital-network
+  - teaching-and-care-balance
+  entities:
+  - education-programme
+  - curriculum
+  - strategic-objective
+  serves:
+  - academic-development-plan
+  - joint-university-committee
+  - learning-platform
+  - lecture-hall
+- slug: appointment-planning
+  title: Appointment Planning
+  summary: Professorships, joint appointments and clinician-scientist positions are planned for the profile areas and teaching priorities,
+    with their field, timing and succession.
+  capabilities:
+  - joint-appointment
+  - clinician-scientist-programmes
+  - succession-planning
+  - strategic-workforce-planning
+  - talent-pipeline-development
+  entities:
+  - academic-appointment
+  - position
+  - organisation-unit
+  serves:
+  - academic-development-plan
+  - joint-university-committee
+  - unit-objectives-agreement
+- slug: infrastructure-and-funding-alignment
+  title: Infrastructure and Funding Alignment
+  summary: Core facilities, data infrastructure, space and protected time are planned for the profile areas, and research and teaching
+    funds, overheads and investment are allocated to them.
+  capabilities:
+  - research-infrastructure-planning
+  - research-and-teaching-fund-allocation
+  - research-overhead-and-reinvestment
+  - separated-activity-accounting
+  - capital-planning
+  - data-and-analytics-strategy
+  entities:
+  - budget
+  - public-funding-allocation
+  - capital-project
+  - cost-centre
+  serves:
+  - academic-development-plan
+  - budget-plan
+  - funding-proposal
+- slug: joint-adoption-and-embedding
+  title: Joint Adoption and Embedding
+  summary: Hospital and faculty bodies adopt the joint plan, and its priorities are written into centre development, appointment decisions,
+    unit objectives and budgets and made known to staff and learners.
+  capabilities:
+  - hospital-and-faculty-cooperation
+  - goal-setting-and-cascade
+  - strategy-alignment-across-functions
+  - strategy-communication
+  - internal-communication
+  entities:
+  - governance-decision
+  - strategy
+  - strategic-objective
+  - budget
+  serves:
+  - academic-development-plan
+  - joint-university-committee
+binds:
+- source: src-070
+  edition: '2015'
+  jurisdiction: global
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-043
+  edition: '2017'
+  jurisdiction: global

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: application-for-a-priority-that-can-be-seen
+title: Application for a Priority That Can Be Seen
+between:
+- resident-without-a-home
+- housing-officer
+offered:
+- An application with the household's need and circumstances, made by the route the resident can use.
+returned:
+- A place on the register with a stated priority and waiting time the resident can see and challenge.
+touchpoint: housing-advice-desk

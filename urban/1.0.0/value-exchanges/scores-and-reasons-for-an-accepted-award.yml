@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: scores-and-reasons-for-an-accepted-award
+title: Scores and Reasons for an Accepted Award
+between:
+- procurement-officer
+- supplier
+offered:
+- Each bidder's scores, the reasons for the award and a standstill period in which to challenge it.
+returned:
+- An award that bidders understand and accept, or a challenge raised within the period.
+touchpoint: award-letter-and-debrief

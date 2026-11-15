@@ -1,0 +1,19 @@
+kind: solution
+slug: social-care-case-management-system
+title: Social Care Case Management System
+role: system-of-record
+summary: Records each request for care, the assessment of needs, the one care plan with its coordinator, the care delivered at home
+  and the support given to carers, each handover between services until it is confirmed, and the care network agreements of the districts.
+carries:
+- care-network-agreement-drafting
+- care-needs-assessment
+- joined-care-planning
+- home-care-provision
+- carer-support-provision
+- care-transition-planning
+holds:
+- care-network-agreement
+- care-assessment
+- care-plan
+- care-transition
+- hospital

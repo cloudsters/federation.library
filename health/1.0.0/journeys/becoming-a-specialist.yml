@@ -1,0 +1,59 @@
+kind: journey
+slug: becoming-a-specialist
+title: Becoming a Specialist
+stakeholder: physician-in-specialty-training
+summary: A licensed physician works and learns through years of rotations, duties and assessments towards specialist recognition,
+  carrying much of the clinical service on the way.
+stages:
+- slug: secure-a-training-post
+  title: Secure a Training Post
+  goal: Find a post with authorised trainers and a programme that covers the whole curriculum.
+  step: specialist-training/training-post-allocation
+  touchpoints:
+  - careers-portal
+  - job-interview
+  - training-authorisation
+- slug: agree-the-training
+  title: Agree the Training
+  goal: Agree trainer, programme and a contract term that fits the training duration.
+  step: specialist-training/training-agreement
+  touchpoints:
+  - training-plan
+  - employment-contract
+- slug: plan-the-rotations
+  title: Plan the Rotations
+  goal: Know which rotations, procedures and courses come when.
+  step: specialist-training/rotation-and-training-planning
+  touchpoints:
+  - training-plan
+  - training-progress-review
+- slug: learn-under-supervision
+  title: Learn under Supervision
+  goal: Take growing responsibility with supervision at hand, and have each activity confirmed in the logbook.
+  step: specialist-training/supervised-practice
+  touchpoints:
+  - ward
+  - operating-theatre
+  - ward-round
+  - training-logbook
+- slug: review-progress
+  title: Review Progress
+  goal: Receive honest feedback, entrustment for what one can do, and support where progress lags.
+  step: specialist-training/progress-assessment
+  touchpoints:
+  - training-progress-review
+  - training-logbook
+- slug: prepare-for-the-examination
+  title: Prepare for the Examination
+  goal: Have requirements confirmed and certificates issued in time to sit the examination.
+  step: specialist-training/examination-readiness
+  touchpoints:
+  - training-logbook
+  - simulation-centre
+- slug: become-a-specialist
+  title: Become a Specialist
+  goal: Pass the examination and move into a specialist role with a clear next step.
+  step: specialist-training/specialist-transition
+  touchpoints:
+  - specialist-examination
+  - careers-portal

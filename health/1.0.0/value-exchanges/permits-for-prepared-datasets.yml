@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: permits-for-prepared-datasets
+title: Permits for Prepared Datasets
+between:
+- national-digital-health-agency
+- health-informatics-specialist
+offered:
+- Access permits from the national secondary-use procedure that state purpose, data and conditions.
+returned:
+- Datasets prepared to the national specification and delivered to the secure environment named in the permit.
+touchpoint: secure-processing-environment

@@ -1,0 +1,53 @@
+kind: entity
+slug: helpdesk-ticket
+title: Helpdesk Ticket
+type: transactional
+summary: The container for a customer’s voice — a support request that could be a question, a how-to, a feature wish, or a frustration.
+  Unlike an incident (an unplanned disruption) or a complaint (a formal grievance), a ticket is the open, welcoming space where any
+  need can be expressed.
+attributes:
+- name: requester
+  type: reference(customer)
+  card: 0..1
+- name: requester-contact
+  type: reference(contact)
+  card: 0..1
+- name: subject
+  type: text
+  card: 1..1
+- name: ticket-type
+  type: code
+  card: 1..1
+- name: priority
+  type: code
+  card: 1..1
+- name: channel
+  type: code
+  card: 1..1
+- name: service-commitment
+  type: reference(service-level-agreement)
+  card: 0..1
+- name: satisfaction
+  type: reference(customer-satisfaction-score)
+  card: 0..1
+states:
+- created
+- classified
+- assigned
+- in-progress
+- resolved
+- satisfied
+- closed
+- reopened
+- escalated
+relations:
+- type: governed-by
+  target: service-level-agreement
+- type: refers-to
+  target: incident
+- type: produces
+  target: customer-satisfaction-score
+binds:
+- source: src-152
+  edition: '5'
+  jurisdiction: global

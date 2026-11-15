@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: connection-for-affordable-heat
+title: Connection for Affordable Heat
+between:
+- tenant
+- infrastructure-operator
+offered:
+- The household's connection to the heat network and its payment for the heat used.
+returned:
+- Reliable heat from renewable and waste sources at a charge the household can carry.
+touchpoint: heat-connection-visit

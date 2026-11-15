@@ -1,0 +1,39 @@
+kind: journey
+slug: older-resident-reached-by-neighbours
+title: Older Resident Reached by Neighbours
+stakeholder: older-resident
+summary: An older resident living alone is asked with consent whether help or company is wanted, receives visits from neighbours,
+  is linked to formal care when needed, offers a skill in turn and sees that contribution recognised.
+stages:
+- slug: be-asked-with-consent
+  title: Be Asked With Consent
+  goal: A neighbour or community worker has asked the resident whether help or company is wanted and recorded only what the resident
+    consented to.
+  step: volunteering-and-mutual-aid/care-and-isolation-mapping
+  touchpoints:
+  - care-mapping-conversation
+- slug: receive-visits
+  title: Receive Visits
+  goal: Neighbours visit the resident and share meals regularly.
+  step: volunteering-and-mutual-aid/neighbour-care-and-mutual-aid
+  touchpoints:
+  - neighbour-care-circle
+- slug: be-linked-to-care
+  title: Be Linked to Care
+  goal: The resident reaches formal care, health or social services when neighbours cannot give enough.
+  step: volunteering-and-mutual-aid/neighbour-care-and-mutual-aid
+  touchpoints:
+  - care-service-referral
+- slug: offer-what-they-know
+  title: Offer What They Know
+  goal: The resident has offered a skill or time, such as teaching a craft or minding a child, through the opportunities board.
+  step: volunteering-and-mutual-aid/opportunity-offering
+  touchpoints:
+  - volunteering-opportunities-board
+- slug: see-the-help-given-recognised
+  title: See the Help Given Recognised
+  goal: The resident's own help is recorded in the ledger and recognised in public.
+  step: volunteering-and-mutual-aid/contribution-recognition
+  touchpoints:
+  - contribution-ledger-account
+  - contribution-recognition-gathering

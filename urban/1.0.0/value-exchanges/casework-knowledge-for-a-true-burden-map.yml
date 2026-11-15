@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: casework-knowledge-for-a-true-burden-map
+title: Casework Knowledge for a True Burden Map
+between:
+- social-worker
+- finance-officer
+offered:
+- What social workers see of households cut off, behind with payment or not connected.
+returned:
+- A burden map that counts those households, and charges and help designed for them.
+touchpoint: service-burden-map

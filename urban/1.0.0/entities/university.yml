@@ -1,0 +1,57 @@
+kind: entity
+slug: university
+title: University
+type: master
+summary: A university or college in the city, with the learning, research and buildings it opens to residents. It keeps its own records,
+  and the city holds this record to plan community learning and the agreements on what the university shares with its neighbourhoods.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: institution-kind
+  type: code
+  card: 1..1
+- name: campuses
+  type: reference(building)
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: student-count
+  type: integer
+  card: 0..1
+- name: open-learning
+  type: text
+  card: 0..*
+- name: open-research
+  type: text
+  card: 0..*
+- name: open-spaces
+  type: text
+  card: 0..*
+- name: learning-offers
+  type: reference(learning-offer)
+  card: 0..*
+- name: neighbourhood-agreements
+  type: reference(anchor-institution-agreement)
+  card: 0..*
+- name: research-partnerships
+  type: reference(research-partnership-agreement)
+  card: 0..*
+states:
+- founded
+- operating
+- expanding
+- merged
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: anchor-institution-agreement
+- type: refers-to
+  target: research-partnership-agreement
+- type: produces
+  target: learning-offer

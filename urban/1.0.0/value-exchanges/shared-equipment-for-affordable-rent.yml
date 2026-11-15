@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: shared-equipment-for-affordable-rent
+title: Shared Equipment for Affordable Rent
+between:
+- local-producer
+- city-administration
+offered:
+- A share of the rent and care of the shared workshop.
+returned:
+- Workshops, equipment and testing no member could afford alone, in space the city provides.
+touchpoint: shared-maker-workshop

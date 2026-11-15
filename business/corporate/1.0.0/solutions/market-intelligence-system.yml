@@ -1,0 +1,15 @@
+kind: solution
+slug: market-intelligence-system
+title: Market Intelligence System
+role: system-of-insight
+summary: Gathers and analyses signals about markets, competitors, technologies and stakeholders from outside sources and turns them
+  into insight for strategy, offering and sales.
+carries:
+- competitive-landscape-sensing
+- discovery-research
+- ecosystem-sensing
+- intent-signal-sensing
+- market-ecosystem-sensing
+holds:
+- market-insight
+- intent-signal

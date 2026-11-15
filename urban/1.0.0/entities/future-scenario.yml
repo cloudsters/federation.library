@@ -1,0 +1,66 @@
+kind: entity
+slug: future-scenario
+title: Future Scenario
+type: intelligence
+summary: An alternative future of the city or of its land use over a stated horizon, including futures the city would not want, with
+  the assumptions and trends it rests on. The administration draws it up from the residents' visions, the whole-city assessment and
+  the trends in population, climate, economy and the region, and it is weighed in the vision and the spatial plan.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: scenario-scope
+  type: code
+  card: 1..1
+- name: scenario-kind
+  type: code
+  card: 1..1
+- name: horizon
+  type: period
+  card: 1..1
+- name: narrative
+  type: document
+  card: 1..1
+- name: assumptions
+  type: text
+  card: 1..*
+- name: trends-drawn-on
+  type: text
+  card: 1..*
+- name: drawn-from-circles
+  type: reference(visioning-circle)
+  card: 0..*
+- name: assessment-used
+  type: reference(whole-city-assessment)
+  card: 0..1
+- name: spatial-layers
+  type: reference(gis-layer)
+  card: 0..*
+- name: prepared-by
+  type: text
+  card: 1..1
+- name: prepared-on
+  type: date
+  card: 1..1
+states:
+- commissioned
+- drafted
+- reviewed
+- deliberated
+- weighed
+- archived
+relations:
+- type: based-on
+  target: visioning-circle
+- type: based-on
+  target: whole-city-assessment
+- type: based-on
+  target: population-register
+- type: refers-to
+  target: flood-risk-map
+- type: refers-to
+  target: city-vision
+binds:
+- source: src-202
+  edition: '2024-09-22'
+  jurisdiction: global

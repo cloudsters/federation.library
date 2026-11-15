@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: collected-charge-for-a-simple-return
+title: Collected Charge for a Simple Return
+between:
+- local-business
+- city-administration
+offered:
+- The charge collected from guests and passed to the city.
+returned:
+- A simple route to pass it on and a public account of where it goes.
+touchpoint: overnight-visitor-charge-statement

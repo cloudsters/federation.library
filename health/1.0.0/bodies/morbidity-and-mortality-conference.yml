@@ -1,0 +1,10 @@
+kind: body
+slug: morbidity-and-mortality-conference
+title: Morbidity and Mortality Conference
+summary: The regular case conference of a department that discusses deaths, complications and near misses openly and turns them into
+  lessons for practice.
+holds:
+- morbidity-and-mortality-review
+part_of: clinical-centre-board
+type: committee
+form: governing-body

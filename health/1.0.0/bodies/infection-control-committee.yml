@@ -1,0 +1,11 @@
+kind: body
+slug: infection-control-committee
+title: Infection Control Committee
+summary: Sets the hygiene plan and the commons' rules for preventing infection, reviews surveillance results and convenes outbreak
+  management together with the public-health authorities.
+holds:
+- hygiene-management
+- outbreak-management
+part_of: executive-board
+type: committee
+form: governing-body

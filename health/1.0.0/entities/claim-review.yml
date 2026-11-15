@@ -1,0 +1,44 @@
+kind: entity
+slug: claim-review
+title: Claim Review
+type: transactional
+summary: A payer's or its review service's examination of a claim, of a case's medical necessity or of a unit's structural requirements,
+  with the organisation's response, the outcome and any repayment.
+attributes:
+- name: claim
+  type: reference(claim)
+  card: 0..1
+- name: review-kind
+  type: code
+  card: 1..1
+- name: reviewing-body
+  type: reference(organisation)
+  card: 1..1
+- name: opened-on
+  type: date
+  card: 1..1
+- name: response
+  type: document
+  card: 0..1
+- name: outcome
+  type: code
+  card: 0..1
+- name: amount-in-dispute
+  type: amount
+  card: 0..1
+states:
+- opened
+- documentation-requested
+- under-review
+- settled
+- appealed
+- closed
+relations:
+- type: refers-to
+  target: claim
+- type: produces
+  target: payment
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

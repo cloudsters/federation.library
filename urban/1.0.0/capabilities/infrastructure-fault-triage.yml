@@ -1,0 +1,6 @@
+kind: capability
+slug: infrastructure-fault-triage
+title: Infrastructure Fault Triage
+level: L3
+parent: maintenance-and-renewal
+summary: Triage reported faults by risk, give each a published response time and let the reporter follow it.

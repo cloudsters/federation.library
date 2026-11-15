@@ -1,0 +1,13 @@
+kind: capability
+slug: research-data-integration-centre
+title: Research Data Integration Centre
+level: L3
+parent: research-data-services
+summary: Integrate, harmonise and provide care data for research under consent and access rules.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global

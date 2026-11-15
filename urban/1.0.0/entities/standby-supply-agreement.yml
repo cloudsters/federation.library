@@ -1,0 +1,58 @@
+kind: entity
+slug: standby-supply-agreement
+title: Standby Supply Agreement
+type: governance
+summary: An agreement with a local or regional supplier, qualified in advance, to supply an essential good at short notice when a
+  main supplier fails, with the volume, the time to deliver and the price. The procurement office signs and keeps it and tests it
+  each year, and it is called on in a supply disruption.
+attributes:
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: essential-good
+  type: text
+  card: 1..1
+- name: qualified-on
+  type: date
+  card: 1..1
+- name: standby-volume
+  type: quantity
+  card: 1..1
+- name: delivery-time
+  type: quantity
+  card: 1..1
+- name: price-terms
+  type: text
+  card: 1..1
+- name: activation-procedure
+  type: text
+  card: 1..1
+- name: standby-fee
+  type: amount
+  card: 0..1
+- name: term
+  type: period
+  card: 1..1
+- name: last-tested-on
+  type: date
+  card: 0..1
+states:
+- qualified
+- signed
+- active
+- called-on
+- expired
+- terminated
+relations:
+- type: refers-to
+  target: supplier-record
+- type: governed-by
+  target: essential-supply-plan
+- type: based-on
+  target: supply-dependency-map
+- type: refers-to
+  target: contract
+binds:
+- source: src-375
+  edition: '2021'
+  jurisdiction: global

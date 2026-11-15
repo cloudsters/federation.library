@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: welcome-point-desk
+title: Welcome Point Desk
+medium: place
+summary: The desk in a trusted neighbourhood building, such as a library or community centre, where newcomers are received in their
+  own language and told their rights and where to turn.
+exchanges:
+- first-language-welcome-for-trust
+journey: newcomer-settling-in-the-city

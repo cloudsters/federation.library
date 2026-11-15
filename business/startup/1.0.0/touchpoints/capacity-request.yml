@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: capacity-request
+title: Capacity Request
+medium: artefact
+summary: The request to a partner or network member for capacity with defined skills, region, period and terms, which the partner
+  accepts or declines.
+exchanges:
+- spare-capacity-for-defined-terms
+journey: partner-lending-capacity-to-the-network

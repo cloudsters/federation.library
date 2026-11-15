@@ -1,0 +1,10 @@
+kind: body
+slug: data-integration-centre
+title: Data Integration Centre
+summary: 'Makes care data usable for research: integrates and harmonises them into a common data model, provides real-world data,
+  enables secondary use and federated analysis, and serves the data use and access committee.'
+holds:
+- research-data-services
+part_of: executive-board
+type: function
+form: organisational-unit

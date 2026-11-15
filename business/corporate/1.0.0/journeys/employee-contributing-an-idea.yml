@@ -1,0 +1,25 @@
+kind: journey
+slug: employee-contributing-an-idea
+title: Employee Contributing an Idea
+stakeholder: employee
+summary: An employee brings an idea from daily work with customers and products, joins the concept work where it fits and receives
+  an answer and recognition whatever the outcome.
+stages:
+- slug: submit-an-idea
+  title: Submit an Idea
+  goal: The idea is recorded with the need it addresses and the employee can follow its progress.
+  step: offering-discovery-ideation/idea-collection
+  touchpoints:
+  - idea-portal
+- slug: join-the-concept-work
+  title: Join the Concept Work
+  goal: The employee helps shape the concept that grew from the idea.
+  step: offering-discovery-ideation/concept-generation
+  touchpoints:
+  - co-design-workshop
+- slug: receive-an-answer
+  title: Receive an Answer
+  goal: The employee learns the decision and is recognised for the contribution.
+  step: offering-discovery-ideation/concept-selection
+  touchpoints:
+  - idea-portal

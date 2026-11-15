@@ -1,0 +1,7 @@
+kind: capability
+slug: federated-distribution
+title: Federated Distribution Architecture
+level: L3
+parent: partner-management
+summary: Design federated distribution where local instances serve local needs — the fork model, where each instance adapts the offering
+  to its context while staying connected to the commons.

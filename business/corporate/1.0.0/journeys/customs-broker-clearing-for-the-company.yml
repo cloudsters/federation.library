@@ -1,0 +1,20 @@
+kind: journey
+slug: customs-broker-clearing-for-the-company
+title: Customs Broker Clearing for the Company
+stakeholder: logistics-service-provider
+summary: A customs broker or forwarder receives complete shipping documents, lodges the declaration for the company and presents the
+  goods for release.
+stages:
+- slug: receive-complete-documents
+  title: Receive Complete Documents
+  goal: Documents and classification data arrive complete before the goods reach the border.
+  step: global-trade-exchange/trade-documentation
+  touchpoints:
+  - shipping-documents
+- slug: lodge-and-clear
+  title: Lodge and Clear
+  goal: The declaration is lodged, queries are answered and the goods are released for onward transport.
+  step: global-trade-exchange/customs-declaration-and-clearance
+  touchpoints:
+  - customs-declaration
+  - official-inspection

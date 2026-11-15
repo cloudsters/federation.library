@@ -1,0 +1,55 @@
+kind: entity
+slug: dataset
+title: Dataset
+type: master
+summary: A defined, curated collection of data prepared for analysis, such as a study database, a registry extract or a pseudonymised
+  research data set, with its contents, origin, quality and access conditions.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: data-categories
+  type: code
+  card: 1..*
+- name: sources
+  type: text
+  card: 1..*
+- name: pseudonymisation-level
+  type: code
+  card: 1..1
+- name: steward
+  type: reference(organisation-unit)
+  card: 1..1
+- name: quality-statement
+  type: text
+  card: 0..1
+- name: access-conditions
+  type: text
+  card: 0..1
+states:
+- in-preparation
+- released
+- restricted
+- archived
+relations:
+- type: based-on
+  target: data-use-consent
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-036
+  edition: 5.5.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-435
+  edition: QUERY-1.1.0
+  jurisdiction: global

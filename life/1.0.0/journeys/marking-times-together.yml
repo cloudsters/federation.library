@@ -1,0 +1,41 @@
+kind: journey
+slug: marking-times-together
+title: Marking Times Together
+stakeholder: community
+via: participant-to-community
+summary: A group is asked what forms it once kept, is invited and hosted at a simple marking, returns to it each season, and in time
+  takes its keeping into its own hands.
+stages:
+- slug: recall-the-old-forms
+  title: Recall the Old Forms
+  goal: The group's older members have been asked which of the old forms still carry meaning.
+  step: gathering-to-ritual/remembering-the-old-forms
+  touchpoints:
+  - asking-an-elder
+- slug: receive-a-form
+  title: Receive a Form
+  goal: The group has a simple form for the marking, small enough to repeat.
+  step: gathering-to-ritual/shaping-a-form
+  touchpoints:
+  - place-returned-to
+- slug: be-invited-and-hosted
+  title: Be Invited and Hosted
+  goal: Each person invited knows their part, and nobody is left at the edge.
+  step: gathering-to-ritual/inviting-and-hosting
+  touchpoints:
+  - open-table
+  - celebration
+- slug: return-each-season
+  title: Return Each Season
+  goal: The marking has come round often enough that the group expects it and would miss it.
+  step: gathering-to-ritual/returning-each-season
+  touchpoints:
+  - celebration
+  - yearly-remembrance
+  - place-returned-to
+- slug: take-up-the-keeping
+  title: Take Up the Keeping
+  goal: The keeping of the ritual has passed to those who come next, and the form has changed with them.
+  step: gathering-to-ritual/letting-it-change-hands
+  touchpoints:
+  - celebration

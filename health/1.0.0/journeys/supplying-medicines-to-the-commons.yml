@@ -1,0 +1,34 @@
+kind: journey
+slug: supplying-medicines-to-the-commons
+title: Supplying Medicines to the Commons
+stakeholder: supplier
+summary: A manufacturer's or wholesaler's path from winning a medicine contract to reliable delivery, including early notice when
+  supply fails.
+stages:
+- slug: win-the-contract
+  title: Win the Contract
+  goal: The contract rewards supply security as well as price, so that a reliable offer can win.
+  step: pharmaceutical-supply/medicine-sourcing
+  touchpoints:
+  - call-for-tender
+  - supply-contract
+- slug: receive-forecasts-and-orders
+  title: Receive Forecasts and Orders
+  goal: Orders follow the contract and an agreed forecast, so that production and stock can be planned.
+  step: pharmaceutical-supply/stock-planning-and-ordering
+  touchpoints:
+  - supplier-portal
+- slug: deliver-verified-goods
+  title: Deliver Verified Goods
+  goal: Deliveries are accepted at the pharmacy with identity, batch, expiry and cold chain checked on arrival.
+  step: pharmaceutical-supply/receipt-and-storage
+  touchpoints:
+  - goods-receiving
+  - hospital-pharmacy
+- slug: report-supply-problems
+  title: Report Supply Problems
+  goal: A supply problem is reported as soon as it is known, with its expected duration and the stock that remains.
+  step: pharmaceutical-supply/shortage-detection-and-assessment
+  touchpoints:
+  - supplier-portal
+  - shortage-notice

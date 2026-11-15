@@ -1,0 +1,10 @@
+kind: capability
+slug: research-infrastructure-planning
+title: Research Infrastructure Planning
+level: L3
+parent: research-strategy
+summary: Plan the core facilities, data infrastructure and space that research requires.
+binds:
+- source: src-039
+  edition: '2016'
+  jurisdiction: global

@@ -1,0 +1,31 @@
+kind: journey
+slug: lender-keeping-trust-in-the-borrower
+title: Lender Keeping Trust in the Borrower
+stakeholder: lender
+summary: A lender knows when it will hear from the borrower, receives results and plans openly, meets management to test covenants
+  and expectations, and sees its concerns answered before they become defaults.
+stages:
+- slug: agree-the-reporting-rhythm
+  title: Agree the Reporting Rhythm
+  goal: The lender knows when results, plans and covenant figures will arrive and who provides them.
+  step: ecosystem-relationship-design/disclosure-planning
+  touchpoints:
+  - financial-calendar
+- slug: receive-results-and-plans
+  title: Receive Results and Plans
+  goal: The lender receives the accounts and the plan with covenant figures, including what is going worse than expected.
+  step: ecosystem-relationship-design/owner-and-investor-reporting
+  touchpoints:
+  - annual-report
+- slug: test-the-picture-with-management
+  title: Test the Picture with Management
+  goal: The lender questions management on results, risks and financing needs, and the answers are recorded.
+  step: ecosystem-relationship-design/investor-dialogue
+  touchpoints:
+  - lender-review
+- slug: settle-a-concern-early
+  title: Settle a Concern Early
+  goal: A concern about covenants or risk is answered and, where needed, the terms are adjusted before trust breaks.
+  step: ecosystem-relationship-design/concern-follow-up
+  touchpoints:
+  - lender-review

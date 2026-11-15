@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: assembly-invitation-letter
+title: Assembly Invitation Letter
+medium: artefact
+summary: The letter sent to residents drawn by lot from the population register, stating what the assembly will decide, the time asked,
+  the payment and the support offered, and how to reply.
+exchanges:
+- paid-invitation-for-a-representative-assembly
+journey: administration-involving-residents-in-a-decision

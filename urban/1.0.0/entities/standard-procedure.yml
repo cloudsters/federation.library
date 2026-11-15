@@ -1,0 +1,75 @@
+kind: entity
+slug: standard-procedure
+title: Standard Procedure
+type: governance
+summary: The agreed, dated way of carrying out a piece of work, with its steps, the quality checks built into it, the room left for
+  local adaptation and the pattern or redesign it comes from. The process owner writes it with the staff who follow it and keeps it
+  current, and it is used for daily work, for training, for checking adherence and, where it is rule-based and stable, for encoding
+  in the city's systems.
+attributes:
+- name: procedure-name
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: process-owner
+  type: text
+  card: 1..1
+- name: steps
+  type: text
+  card: 1..*
+- name: quality-checks
+  type: text
+  card: 0..*
+- name: local-adaptation
+  type: text
+  card: 0..1
+- name: source-patterns
+  type: reference(practice-pattern)
+  card: 0..*
+- name: process-map
+  type: reference(process-map)
+  card: 0..1
+- name: encoded-in
+  type: reference(application)
+  card: 0..*
+- name: effective-period
+  type: period
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- tested
+- approved
+- published
+- in-use
+- under-review
+- superseded
+- retired
+relations:
+- type: based-on
+  target: process-map
+- type: based-on
+  target: practice-pattern
+- type: governed-by
+  target: service-standard
+- type: refers-to
+  target: public-service
+- type: refers-to
+  target: application
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global
+- source: src-178
+  edition: '2019'
+  jurisdiction: global

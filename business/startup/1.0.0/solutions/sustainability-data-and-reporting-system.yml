@@ -1,0 +1,23 @@
+kind: solution
+slug: sustainability-data-and-reporting-system
+title: Sustainability Data and Reporting System
+role: system-of-record
+summary: Collects environmental, social and governance data across sites and suppliers, calculates footprints, supports the materiality
+  assessment and produces the sustainability report.
+carries:
+- ecological-accounting
+- environmental-stewardship-design
+- esg-data-management
+- esg-integration-as-values-alignment
+- multi-capital-accounting
+- sustainability-strategy-design
+- carbon-footprint-reduction
+- climate-adaptation
+- materiality-assessment
+- human-rights-due-diligence
+- social-impact-programmes
+- donations-and-sponsorship
+holds:
+- environmental-footprint
+- sustainability-report
+- ecological-parameter

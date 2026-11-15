@@ -1,0 +1,42 @@
+kind: journey
+slug: employee-raising-an-integrity-concern
+title: Employee Raising an Integrity Concern
+stakeholder: employee
+summary: An employee learns what the organisation expects in conduct, meets a situation that looks wrong, raises it safely, receives
+  guidance and sees what the case changed in the rules everyone works by.
+stages:
+- slug: know-what-is-expected
+  title: Know What Is Expected
+  goal: The employee can find the code of conduct, understands it in plain words and knows whom to ask.
+  step: ethical-practice-design/ethical-framework
+  touchpoints:
+  - code-of-conduct
+  - intranet
+- slug: learn-the-risks-of-the-role
+  title: Learn the Risks of the Role
+  goal: The employee has been trained on the risks of their own role, such as gifts, conflicts of interest and fair dealing, and can
+    recognise them in daily work.
+  step: ethical-practice-design/preventive-law-programme
+  touchpoints:
+  - compliance-training
+- slug: raise-the-concern
+  title: Raise the Concern
+  goal: The concern is reported through a channel that protects the person reporting, its receipt is confirmed and a named handler
+    takes it on.
+  step: ethical-practice-design/matter-intake
+  touchpoints:
+  - speak-up-channel
+- slug: receive-guidance
+  title: Receive Guidance
+  goal: The employee knows what to do now, including where an action is lawful but questionable, and is kept free of retaliation.
+  step: ethical-practice-design/legal-counsel
+  touchpoints:
+  - legal-advice-session
+- slug: see-the-lesson-applied
+  title: See the Lesson Applied
+  goal: The employee hears how the case ended as far as confidentiality allows, and sees the code and training changed where the case
+    showed a gap.
+  step: ethical-practice-design/lessons-into-practice
+  touchpoints:
+  - code-of-conduct
+  - compliance-training

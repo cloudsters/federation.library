@@ -1,0 +1,43 @@
+kind: entity
+slug: premise
+title: Premise
+type: master
+summary: A belief this life already rests other beliefs on, written down so it can be looked at. Not an aspiration and not an identity
+  — the thing already running. Most are absorbed from family and surroundings rather than chosen, which is the whole reason for writing
+  them out. A premise is dated, may be superseded, and is retired rather than deleted.
+attributes:
+- name: statement
+  type: text
+  card: 1..1
+- name: absorbed-from
+  type: list(ancestor)
+  card: 0..*
+- name: where-it-shows
+  type: text
+  card: 0..*
+- name: written-on
+  type: date
+  card: 1..1
+- name: kept-by-choice
+  type: boolean
+  card: 0..1
+- name: superseded-by
+  type: reference(premise)
+  card: 0..1
+- name: retired-on
+  type: date
+  card: 0..1
+states:
+- running unseen
+- written down
+- examined
+- kept by choice
+- superseded
+- retired
+relations:
+- target: worldview
+  type: based-on
+- target: ancestor
+  type: based-on
+- target: self
+  type: about

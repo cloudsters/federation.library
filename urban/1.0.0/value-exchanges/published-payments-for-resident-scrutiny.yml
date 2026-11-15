@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: published-payments-for-resident-scrutiny
+title: Published Payments for Resident Scrutiny
+between:
+- finance-officer
+- resident-inspector
+offered:
+- The published list of payments and the times taken to pay.
+returned:
+- Findings on where payment is slow or spending looks out of line, and residents' trust in what they can check.
+touchpoint: published-payments-register

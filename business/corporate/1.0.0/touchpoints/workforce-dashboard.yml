@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: workforce-dashboard
+title: Workforce Dashboard
+medium: channel
+summary: The shared view of posts, skills, turnover, mobility and engagement against the workforce plan, used by managers, human resources
+  and representatives.
+exchanges:
+- forecasts-for-validated-data
+journey: site-manager-planning-the-team-the-strategy-needs

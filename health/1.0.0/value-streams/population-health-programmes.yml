@@ -1,0 +1,158 @@
+kind: value-stream
+slug: population-health-programmes
+title: Population Health Programmes
+family: proposition-to-audience
+summary: 'Improving the health of the population served: prevention and health promotion, screening programmes, health education for
+  patients and the public, and outreach to underserved groups.'
+trigger: A population health need is identified, or a screening or prevention programme cycle starts.
+outcome: The target population is reached, participation is measured, and the health effects are evaluated.
+stakeholders:
+- general-public
+- screening-and-prevention-participant
+- person-facing-access-barriers
+- local-authority
+- payer
+- referring-practice
+- patient-organisation
+- advanced-practice-nurse
+steps:
+- slug: population-need-identification
+  title: Population Need Identification
+  summary: Identify the health needs, risk groups and gaps in prevention and screening uptake in the population served, from routine
+    data, public-health data and the voices of communities.
+  capabilities:
+  - population-needs-assessment
+  - population-health-responsibility
+  - predictive-analytics
+  - clinical-data-warehouse
+  - underserved-population-outreach
+  entities:
+  - catchment-population
+  - measure-report
+  - dataset
+  serves:
+  - community-venue
+- slug: programme-design
+  title: Programme Design
+  summary: Define the target population, eligibility, interventions, partners, channels and measures of a screening or prevention
+    programme, and secure its funding and the data access it requires.
+  capabilities:
+  - service-concept-development
+  - screening-programme-delivery
+  - prevention-and-health-promotion
+  - network-partnership-governance
+  - payer-budget-negotiation
+  - impact-measurement-design
+  - privacy-impact-management
+  entities:
+  - care-programme
+  - measure
+  - contract
+  - payer-agreement
+  - public-funding-allocation
+- slug: invitation-and-outreach
+  title: Invitation and Outreach
+  summary: Invite eligible persons, remind those who have not responded, and reach groups facing barriers through community partners,
+    mobile services and information in their own language.
+  capabilities:
+  - programme-enrolment
+  - underserved-population-outreach
+  - campaign-management
+  - interpreting-and-language-services
+  - decision-aids-and-health-literacy
+  - community-relations
+  entities:
+  - programme-participation
+  - care-programme
+  - communication-campaign
+  - patient
+  - catchment-population
+  serves:
+  - community-venue
+  - mobile-clinic
+  - patient-portal
+  - screening-invitation
+- slug: screening-and-prevention-delivery
+  title: Screening and Prevention Delivery
+  summary: Perform screening examinations, vaccinations and prevention interventions to programme standards, and run health education
+    for participants and the public.
+  capabilities:
+  - screening-programme-delivery
+  - prevention-and-health-promotion
+  - appointment-booking-management
+  - informed-consent
+  - specimen-collection-and-pre-analytics
+  - modality-scheduling-and-acquisition
+  entities:
+  - encounter
+  - procedure
+  - immunisation
+  - specimen
+  - image-study
+  - observation
+  serves:
+  - imaging-department
+  - laboratory-counter
+  - mobile-clinic
+  - outpatient-clinic
+- slug: result-and-follow-up
+  title: Result and Follow-Up
+  summary: Communicate every result in understandable form, route positive findings to diagnostic follow-up and treatment without
+    delay, and inform the participant's practice.
+  capabilities:
+  - screening-programme-delivery
+  - laboratory-result-communication
+  - imaging-result-communication
+  - diagnostic-uncertainty-communication
+  - referral-intake-management
+  - secure-clinical-messaging
+  entities:
+  - diagnostic-report
+  - referral
+  - request-for-care
+  - programme-participation
+  - care-communication
+  serves:
+  - consultation
+  - diagnostic-report
+  - mobile-clinic
+  - outpatient-clinic
+- slug: participation-monitoring
+  title: Participation Monitoring
+  summary: Monitor invitation, participation and follow-up rates by area and group, and act where uptake is low or positive findings
+    are not followed up.
+  capabilities:
+  - underserved-population-outreach
+  - programme-enrolment
+  - business-intelligence-and-reporting
+  - clinical-registry-participation
+  entities:
+  - programme-participation
+  - measure-report
+  - dashboard
+  - catchment-population
+  serves:
+  - screening-invitation
+- slug: health-effect-evaluation
+  title: Health Effect Evaluation
+  summary: Evaluate detection rates, interval cases, stage at diagnosis, outcomes and equity of reach, report to authorities and the
+    public, and refine or end the programme.
+  capabilities:
+  - impact-measurement-design
+  - clinical-outcome-tracking
+  - cohort-and-registry-studies
+  - quality-transparency-communication
+  - regulatory-reporting
+  - service-lifecycle-management
+  entities:
+  - measure-report
+  - care-programme
+  - clinical-registry
+  - quality-report
+binds:
+- source: src-495
+  edition: '1999'
+  jurisdiction: global
+- source: src-501
+  edition: '7.1'
+  jurisdiction: global

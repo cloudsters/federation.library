@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: matched-calls-for-department-proposals
+title: Matched Calls for Department Proposals
+between:
+- finance-officer
+- city-administration
+offered:
+- Funding calls that match the departments' objectives and programmes.
+returned:
+- Proposals for the calls worth pursuing.
+touchpoint: funding-call-digest

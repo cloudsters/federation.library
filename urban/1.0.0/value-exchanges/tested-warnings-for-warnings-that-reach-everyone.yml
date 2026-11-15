@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: tested-warnings-for-warnings-that-reach-everyone
+title: Tested Warnings for Warnings That Reach Everyone
+between:
+- neighbourhood-association
+- city-administration
+offered:
+- Tests of warnings in the neighbourhood's languages, and warnings passed on to residents the channels miss.
+returned:
+- Warnings that reach every resident in a language and a channel they use.
+touchpoint: public-warning-channel

@@ -1,0 +1,35 @@
+kind: solution
+slug: procurement-and-supplier-management-system
+title: Procurement and Supplier Management System
+role: system-of-record
+summary: Holds suppliers, categories, requests for quotation, bids, purchase and blanket orders and supplier evaluations, and gives
+  suppliers a portal to quote, confirm and qualify.
+carries:
+- asset-acquisition-with-care
+- blanket-order-management
+- category-stewardship
+- ethical-sourcing-design
+- procurement-as-relationship
+- procurement-intelligence
+- supplier-accountability-cultivation
+- supplier-development-as-investment
+- supplier-ecosystem-cultivation
+- supplier-partnership-formation
+- supplier-performance-evaluation
+- technology-relationship-cultivation
+- vendor-risk-management
+- supply-chain-strategy
+- spend-analysis
+- purchasing-cooperation
+- services-procurement
+- supplier-onboarding-and-qualification
+- supply-disruption-management
+- human-rights-due-diligence
+holds:
+- supplier-organisation
+- category-plan
+- request-for-quotation
+- bid
+- purchase-order
+- blanket-order
+- relationship-review

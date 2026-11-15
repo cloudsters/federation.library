@@ -1,0 +1,86 @@
+kind: value-stream
+slug: circle-to-reciprocity
+title: Keeping the Circle Alive
+family: participant-to-community
+summary: Tending the web on purpose rather than by accident — who is in it, who has drifted, who will not survive further neglect
+  — and keeping help flowing in both directions. A circle that only receives is an audience.
+trigger: A friend the person kept meaning to call has drifted out of reach, or help has flowed one way for so long that someone has
+  stopped asking.
+outcome: The person knows who is in their circle and who is drifting, help moves in both directions, and the bonds that matter are
+  kept on purpose rather than by chance.
+stakeholders:
+- close-friend
+- community
+- sibling
+- collaborator
+- mentor
+steps:
+- slug: noticing-the-drift
+  title: Noticing the Drift
+  summary: A friend the person kept meaning to call has slipped out of reach, or someone has quietly stopped asking for help.
+  capabilities:
+  - noticing-who-is-drifting
+  entities:
+  - friend
+  - relationship-map
+- slug: seeing-the-whole-circle
+  title: Seeing the Whole Circle
+  summary: Writing down who is close, who is drifting, who would not survive much more silence, and which way help has lately been
+    flowing.
+  capabilities:
+  - noticing-who-is-drifting
+  - seeing-which-way-help-flows
+  entities:
+  - relationship-map
+  - friend
+  - gift
+- slug: reaching-out-first
+  title: Reaching Out First
+  summary: Making the call, the visit or the invitation without waiting to be asked and without keeping count of who called last.
+  capabilities:
+  - reaching-out-first
+  entities:
+  - friend
+  - conversation
+  serves:
+  - a-visit
+  - message-thread
+  - phone-call
+- slug: asking-as-well-as-giving
+  title: Asking as Well as Giving
+  summary: Letting others help in turn, because a circle in which one person only gives turns everyone else into an audience.
+  capabilities:
+  - letting-others-help
+  - seeing-which-way-help-flows
+  - organising-mutual-help
+  entities:
+  - gift
+  - friend
+  - community-relation
+  serves:
+  - help-at-the-door
+  - phone-call
+- slug: keeping-bonds-on-purpose
+  title: Keeping Bonds on Purpose
+  summary: Giving the bonds that matter a regular place in the week or the year, a standing call, a shared meal, a trip that recurs.
+  capabilities:
+  - keeping-in-touch-on-purpose
+  entities:
+  - weekly-rhythm
+  - ritual
+  - friend
+  serves:
+  - long-walk
+  - phone-call
+  - shared-meal
+  - trip-together
+- slug: letting-some-go-gracefully
+  title: Letting Some Go Gracefully
+  summary: Accepting that some bonds have run their course, and letting them end with thanks rather than by slow neglect.
+  capabilities:
+  - ending-a-bond-well
+  entities:
+  - relationship-ending
+  - relationship-map
+  serves:
+  - the-letter

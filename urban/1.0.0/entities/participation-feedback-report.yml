@@ -1,0 +1,65 @@
+kind: entity
+slug: participation-feedback-report
+title: Participation Feedback Report
+type: intelligence
+summary: The account given to participants of what was heard, what was decided, why a proposal was or was not taken up and where each
+  proposal went next. The department that ran the process writes it and publishes it in the public record, and residents use it to
+  trace how their voice changed the decision.
+attributes:
+- name: involvement-plan
+  type: reference(involvement-plan)
+  card: 1..1
+- name: process
+  type: reference(public-consultation|resident-assembly)
+  card: 0..1
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: contributions-received
+  type: integer
+  card: 0..1
+- name: what-was-heard
+  type: text
+  card: 1..1
+- name: proposals-taken-up
+  type: text
+  card: 0..*
+- name: proposals-not-taken-up
+  type: text
+  card: 0..*
+- name: reasons-given
+  type: text
+  card: 0..*
+- name: dissent-recorded
+  type: text
+  card: 0..*
+- name: proposal-destinations
+  type: text
+  card: 0..*
+- name: languages
+  type: code
+  card: 0..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- checked-with-participants
+- published
+- updated
+- archived
+relations:
+- type: based-on
+  target: involvement-plan
+- type: refers-to
+  target: public-consultation
+- type: refers-to
+  target: resident-assembly
+- type: refers-to
+  target: council-decision
+- type: produces
+  target: public-record
+binds:
+- source: src-199
+  edition: '2020-06-10'
+  jurisdiction: global

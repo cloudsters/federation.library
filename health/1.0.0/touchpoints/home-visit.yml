@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: home-visit
+title: Home Visit
+medium: encounter
+summary: A visit by a hospital team to a patient at home for follow-up, palliative care or treatment that would otherwise require
+  admission.
+exchanges:
+- daily-presence-for-round-the-clock-backing
+- postnatal-handover-for-care-at-home
+- comfort-for-candid-report
+journey: planning-future-care

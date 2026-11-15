@@ -1,0 +1,63 @@
+kind: entity
+slug: public-artwork
+title: Public Artwork
+type: master
+summary: A work of art, mural or shared symbol in public space, with its makers, the decision that placed it and those who care for
+  it. The neighbourhood that lives with it decides on it with the city and keeps its care by agreement, and the record is used for
+  its upkeep, its review and any change or removal.
+attributes:
+- name: title
+  type: text
+  card: 1..1
+- name: artwork-kind
+  type: code
+  card: 1..1
+- name: makers
+  type: text
+  card: 1..*
+- name: location
+  type: reference(public-space|street|park|building)
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: decided-by
+  type: text
+  card: 1..*
+- name: decision
+  type: reference(council-decision)
+  card: 0..1
+- name: stated-meaning
+  type: text
+  card: 0..1
+- name: installed-on
+  type: date
+  card: 0..1
+- name: care-agreement
+  type: reference(place-care-agreement)
+  card: 0..1
+- name: condition
+  type: code
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- proposed
+- decided
+- commissioned
+- installed
+- in-care
+- under-review
+- removed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: governed-by
+  target: place-care-agreement
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: heritage-protection

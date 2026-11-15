@@ -1,0 +1,62 @@
+kind: entity
+slug: need-assessment
+title: Need Assessment
+type: intelligence
+summary: The assessment of what residents need across neighbourhoods and groups over the strategy horizon, of the conditions in the
+  region and of the ecological limits the city must keep within. The administration prepares it with residents and researchers who
+  ask the questions together, and it is the basis on which strategic options are drawn up.
+attributes:
+- name: horizon
+  type: period
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: groups-covered
+  type: code
+  card: 0..*
+- name: needs-found
+  type: text
+  card: 1..*
+- name: regional-conditions
+  type: text
+  card: 0..*
+- name: ecological-limits
+  type: text
+  card: 0..*
+- name: methods
+  type: code
+  card: 1..*
+- name: researched-with
+  type: text
+  card: 0..*
+- name: data-sources
+  type: text
+  card: 1..*
+- name: known-gaps
+  type: text
+  card: 0..*
+- name: issued-on
+  type: date
+  card: 0..1
+states:
+- scoped
+- gathered
+- analysed
+- validated
+- published
+- superseded
+relations:
+- type: based-on
+  target: population-register
+- type: based-on
+  target: community-enumeration
+- type: based-on
+  target: whole-city-assessment
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-strategy

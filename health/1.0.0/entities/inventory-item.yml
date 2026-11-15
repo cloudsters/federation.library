@@ -1,0 +1,45 @@
+kind: entity
+slug: inventory-item
+title: Inventory Item
+type: master
+summary: A material kept in stock, such as a drug, consumable, implant or reagent, defined per storage location with reorder rules,
+  batch and expiry tracking and the cost centre it is charged to.
+attributes:
+- name: item-identifier
+  type: identifier
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: item-category
+  type: code
+  card: 1..1
+- name: storage-locations
+  type: reference(room)
+  card: 0..*
+- name: reorder-level
+  type: quantity
+  card: 0..1
+- name: batch-tracked
+  type: boolean
+  card: 1..1
+- name: unit-of-issue
+  type: code
+  card: 1..1
+- name: medication
+  type: reference(medication)
+  card: 0..1
+states:
+- active
+- blocked
+- discontinued
+relations:
+- type: depends-on
+  target: supplier-organisation
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global

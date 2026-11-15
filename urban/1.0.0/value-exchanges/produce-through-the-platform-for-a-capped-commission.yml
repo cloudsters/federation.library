@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: produce-through-the-platform-for-a-capped-commission
+title: Produce through the Platform for a Capped Commission
+between:
+- local-producer
+- platform-operator
+offered:
+- The producer's goods sold through the hub's ordering and delivery.
+returned:
+- A commission capped by the hub agreement, so that the producer keeps its pricing.
+touchpoint: signed-hub-agreement

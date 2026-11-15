@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: factory-acceptance-test
+title: Factory Acceptance Test
+medium: encounter
+summary: The test at the company's site in which the customer verifies that a machine or system meets the agreed specification before
+  it is shipped.
+exchanges:
+- proven-result-for-acceptance
+journey: customer-commissioning-a-project

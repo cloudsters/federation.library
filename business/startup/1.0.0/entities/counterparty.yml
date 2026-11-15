@@ -1,0 +1,38 @@
+kind: entity
+slug: counterparty
+title: Counterparty
+type: master
+summary: An organisation outside the enterprise that it deals with but does not hold as customer, supplier or partner, such as a bank,
+  insurer, authority, auditor, association or investor, identified once and referenced wherever it acts.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..*
+- name: name
+  type: text
+  card: 1..1
+- name: counterparty-kinds
+  type: code
+  card: 1..*
+- name: legal-form
+  type: code
+  card: 0..1
+- name: address
+  type: text
+  card: 0..*
+- name: parent
+  type: reference(counterparty)
+  card: 0..1
+states:
+- active
+- inactive
+relations:
+- type: part-of
+  target: counterparty
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

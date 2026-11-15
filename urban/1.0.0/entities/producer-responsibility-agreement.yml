@@ -1,0 +1,61 @@
+kind: entity
+slug: producer-responsibility-agreement
+title: Producer Responsibility Agreement
+type: governance
+summary: The terms under which producers and suppliers take back what they sold, provide spare parts and repair information and contribute
+  to the cost of collection and repair. The city sets them in its rules and contracts, and the take-back records show whether they
+  are kept.
+attributes:
+- name: agreement-number
+  type: identifier
+  card: 1..1
+- name: legal-basis
+  type: code
+  card: 0..1
+- name: product-categories
+  type: code
+  card: 1..*
+- name: producers
+  type: text
+  card: 1..*
+- name: take-back-duties
+  type: text
+  card: 1..*
+- name: spare-parts-period
+  type: quantity
+  card: 0..1
+- name: repair-information-duties
+  type: text
+  card: 0..*
+- name: cost-contribution
+  type: amount
+  card: 0..1
+- name: contribution-basis
+  type: text
+  card: 0..1
+- name: recovery-targets
+  type: decimal
+  card: 0..*
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+- name: effective-period
+  type: period
+  card: 1..1
+states:
+- drafted
+- consulted
+- adopted
+- in-force
+- reviewed
+- amended
+- retired
+relations:
+- type: governed-by
+  target: waste-regulation
+- type: refers-to
+  target: contract
+- type: produces
+  target: take-back-record
+- type: refers-to
+  target: procurement-policy

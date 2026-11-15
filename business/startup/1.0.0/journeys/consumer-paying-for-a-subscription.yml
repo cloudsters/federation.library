@@ -1,0 +1,35 @@
+kind: journey
+slug: consumer-paying-for-a-subscription
+title: Consumer Paying for a Subscription
+stakeholder: consumer
+summary: A consumer is billed for a subscription and measured use, pays by the method chosen and, when payment stalls, finds a way
+  forward instead of a threat.
+stages:
+- slug: use-and-see-the-charges
+  title: Use and See the Charges
+  goal: The consumer can see the usage and plan that will be billed.
+  step: revenue-architecture/billable-event-capture
+  touchpoints:
+  - mobile-app
+  - customer-portal
+- slug: receive-the-bill
+  title: Receive the Bill
+  goal: The bill is clear, correct and arrives through the channel the consumer chose.
+  step: revenue-architecture/invoice-issue
+  touchpoints:
+  - invoice
+  - mobile-app
+- slug: pay
+  title: Pay
+  goal: The payment is received and confirmed without delay.
+  step: revenue-architecture/payment-receipt-and-application
+  touchpoints:
+  - mobile-app
+  - account-statement
+- slug: find-a-way-forward
+  title: Find a Way Forward
+  goal: When payment stalls, the consumer is asked why and offered a payment plan where it helps.
+  step: revenue-architecture/dunning-and-collection
+  touchpoints:
+  - payment-reminder
+  - service-hotline

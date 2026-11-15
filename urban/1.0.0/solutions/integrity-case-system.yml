@@ -1,0 +1,14 @@
+kind: solution
+slug: integrity-case-system
+title: Integrity Case System
+role: system-of-record
+summary: Holds the code of conduct and the declarations of interests and gifts, and runs the confidential reporting channel and the
+  investigation of each report with the reporter protected.
+carries:
+- public-ethics-code-drafting
+- interest-declaration-handling
+- misconduct-reporting-and-investigation
+holds:
+- code-of-conduct
+- interest-declaration
+- misconduct-report

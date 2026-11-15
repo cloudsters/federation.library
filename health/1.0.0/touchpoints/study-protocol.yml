@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: study-protocol
+title: Study Protocol
+medium: artefact
+summary: The document that sets out a study's question, design and procedures, submitted to the ethics committee and the regulator
+  and agreed with sponsors and partners.
+exchanges:
+- patient-partnership-in-research
+- sound-request-for-prepared-data
+- ethics-opinion-for-complete-protocols
+journey: researcher-obtaining-care-data

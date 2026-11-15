@@ -1,0 +1,47 @@
+kind: journey
+slug: informal-settlement-resident-upgrading-in-place
+title: Informal Settlement Resident Upgrading in Place
+stakeholder: informal-settlement-resident
+summary: A resident of an informal settlement counts and maps it with neighbours, designs the upgrading with the city through the
+  settlement's own bodies, has the household's right to stay recorded, is connected to basic services built with residents' crews
+  and reviews what the upgrading delivered.
+stages:
+- slug: count-and-map-the-settlement
+  title: Count and Map the Settlement
+  goal: The residents have counted their households and mapped homes, paths, water points and hazards, and the city has accepted the
+    record as the basis for the plan.
+  step: informal-settlement-upgrading/settlement-count-and-map
+  touchpoints:
+  - community-enumeration
+  - settlement-map
+- slug: design-the-upgrading-together
+  title: Design the Upgrading Together
+  goal: The settlement's bodies and the city have decided what is built first and where any home must move, and signed a plan that
+    keeps residents in place wherever it is safe.
+  step: informal-settlement-upgrading/upgrading-plan-agreement
+  touchpoints:
+  - upgrading-plan-assembly
+  - signed-upgrading-plan
+- slug: secure-the-right-to-stay
+  title: Secure the Right to Stay
+  goal: The household's right to occupy its plot is recognised and recorded in a form that protects it against eviction.
+  step: informal-settlement-upgrading/right-to-stay-recognition
+  touchpoints:
+  - plot-recording-session
+  - occupancy-certificate
+- slug: get-connected
+  title: Get Connected
+  goal: Water, toilets, power, drainage and lighting have reached the settlement, built and kept with residents' crews, and the household
+    is connected.
+  step: informal-settlement-upgrading/basic-service-connection
+  touchpoints:
+  - settlement-works-crew
+  - shared-water-point
+- slug: review-what-was-built
+  title: Review What Was Built
+  goal: Residents have reviewed with the city what was built, who gained a recognised right to stay, who was moved and why, and what
+    comes next.
+  step: informal-settlement-upgrading/upgrading-review
+  touchpoints:
+  - upgrading-plan-assembly
+  - settlement-map

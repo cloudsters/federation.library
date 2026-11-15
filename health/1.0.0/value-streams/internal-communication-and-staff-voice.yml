@@ -1,0 +1,132 @@
+kind: value-stream
+slug: internal-communication-and-staff-voice
+title: Internal Communication and Staff Voice
+family: participant-to-community
+summary: 'Keeping everyone who works in the organisation informed and heard: internal communication channels, staff engagement surveys,
+  suggestion schemes and dialogue between leadership and staff.'
+trigger: Leadership has a decision or change to communicate, or a staff survey or suggestion cycle runs.
+outcome: Staff understand the decision, have given their view through a defined channel, and have received a response.
+stakeholders:
+- executive
+- head-of-clinical-department
+- registered-nurse
+- physician-in-specialty-training
+- support-services-staff
+- staff-representation
+steps:
+- slug: message-and-audience
+  title: Message and Audience
+  summary: Define what has been decided or will change, whom it affects, what staff need to know and do, and which co-determination
+    duties apply before anything is announced.
+  capabilities:
+  - internal-communication
+  - communication-strategy
+  - change-planning
+  - co-determination-cooperation
+  entities:
+  - governance-decision
+  - communication-item
+  - organisation-unit
+  serves:
+  - staff-consultation
+- slug: representative-consultation
+  title: Representative Consultation
+  summary: Inform and consult the staff representation in good time where a matter is subject to co-determination, weigh its view,
+    and conclude the agreements the change requires before it takes effect.
+  capabilities:
+  - co-determination-cooperation
+  - labour-relations
+  - legal-advisory
+  entities:
+  - governance-decision
+  - governance-body
+  - contract
+  serves:
+  - staff-consultation
+- slug: cascade
+  title: Cascade
+  summary: Brief leaders first so that they can explain the matter to their teams, then reach every member of staff through team meetings,
+    the intranet and all-staff forums, including night shifts, part-time staff and staff of service companies, in their language.
+  capabilities:
+  - internal-communication
+  - strategy-communication
+  - operational-cadence-design
+  - wiki-knowledge-base-management
+  entities:
+  - communication-item
+  - organisation-unit
+  - employee
+  serves:
+  - intranet
+  - staff-town-hall
+  - team-meeting
+- slug: staff-voice-capture
+  title: Staff Voice Capture
+  summary: Gather staff views through dialogue sessions, engagement and safety-climate surveys, the suggestion scheme and the confidential
+    speak-up channel, protecting the anonymity of those who respond.
+  capabilities:
+  - engagement-surveys
+  - employee-suggestions
+  - whistleblower-protection
+  - patient-safety-culture-development
+  - employee-inquiry-service
+  entities:
+  - staff-survey
+  - improvement-suggestion
+  - communication-item
+  serves:
+  - speak-up-channel
+  - staff-survey-questionnaire
+  - suggestion-scheme
+- slug: analysis-and-decision
+  title: Analysis and Decision
+  summary: Analyse survey results by unit and profession without exposing individuals, assess suggestions with the owners of the processes
+    concerned, and decide which concerns and ideas will be acted on.
+  capabilities:
+  - engagement-surveys
+  - workforce-analytics-deployment
+  - employee-suggestions
+  - clinical-innovation-management
+  - retention-management
+  entities:
+  - staff-survey
+  - improvement-suggestion
+  - measure-report
+  - governance-decision
+  serves:
+  - staff-consultation
+- slug: response-to-staff
+  title: Response to Staff
+  summary: Answer the questions raised, tell staff what will change, what will not and why, reply to every suggester, recognise adopted
+    ideas, and agree an action plan in each unit.
+  capabilities:
+  - internal-communication
+  - employee-suggestions
+  - engagement-surveys
+  - reward-and-recognition
+  entities:
+  - communication-item
+  - improvement-suggestion
+  - improvement-initiative
+  serves:
+  - intranet
+  - staff-town-hall
+  - team-meeting
+- slug: follow-through
+  title: Follow-Through
+  summary: Carry out the unit action plans and the adopted ideas, check their effect at the next survey, and report progress to the
+    board, the staff representation and staff.
+  capabilities:
+  - change-implementation
+  - improvement-sustainment
+  - workforce-reporting
+  - board-communication-reporting
+  - co-determination-cooperation
+  entities:
+  - improvement-initiative
+  - staff-survey
+  - measure-report
+  serves:
+  - staff-consultation
+  - staff-survey-questionnaire
+  - team-meeting

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: launch-help-for-confident-use
+title: Launch Help for Confident Use
+between:
+- city-administration
+- resident
+offered:
+- Training and help in person when the service goes live.
+returned:
+- Residents who use the service and say what does not work.
+touchpoint: launch-help-point

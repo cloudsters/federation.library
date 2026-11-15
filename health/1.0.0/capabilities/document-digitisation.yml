@@ -1,0 +1,10 @@
+kind: capability
+slug: document-digitisation
+title: Document Digitisation
+level: L3
+parent: health-information-management
+summary: Scan and index paper documents into the electronic record.
+binds:
+- source: src-369
+  edition: '2016'
+  jurisdiction: global

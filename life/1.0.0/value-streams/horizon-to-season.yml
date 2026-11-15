@@ -1,0 +1,65 @@
+kind: value-stream
+slug: horizon-to-season
+title: Planning in Seasons
+family: purpose-to-portfolio
+summary: Holding the morning and the decade at once. Habits form in weeks, character deepens across years, legacy unfolds across generations,
+  and a plan that works at one scale routinely wrecks another.
+trigger: The days are full while the years drift, or a long plan keeps wrecking the very week it was meant to serve.
+outcome: The day, the season and the decades ahead are each planned at their own scale, and they no longer work against each other.
+stakeholders:
+- partner
+- child
+- employer
+- descendant
+steps:
+- slug: feeling-the-years-drift
+  title: Feeling the Years Drift
+  summary: The days are full but the years slip by unshaped, or a long plan keeps wrecking the week, and the person stops to notice
+    it.
+  capabilities:
+  - noticing-the-years-slip
+  entities:
+  - drift-reading
+  - time-audit
+- slug: reading-the-season
+  title: Reading the Season
+  summary: For each part of life the person asks whether it is in a time of planting, tending, harvesting or rest.
+  capabilities:
+  - knowing-which-season-it-is
+  entities:
+  - season-reading
+  - life-dashboard
+- slug: sketching-the-long-arc
+  title: Sketching the Long Arc
+  summary: The decades ahead and what may outlast the person are sketched loosely, as a direction rather than a timetable.
+  capabilities:
+  - thinking-in-decades
+  entities:
+  - life-blueprint
+  - refused-future
+- slug: shaping-the-season-ahead
+  title: Shaping the Season Ahead
+  summary: The coming months are given a few intentions that serve both the long arc and the life as it actually is.
+  capabilities:
+  - planning-one-season-at-a-time
+  entities:
+  - life-blueprint
+  - intention
+  - weekly-rhythm
+- slug: protecting-the-day
+  title: Protecting the Day
+  summary: The week and the day are kept humane, so the long plan feeds them instead of crowding out sleep, people and rest.
+  capabilities:
+  - protecting-the-day-from-the-plan
+  entities:
+  - daily-rhythm
+  - weekly-rhythm
+- slug: looking-back-at-the-distance
+  title: Looking Back at the Distance
+  summary: At the turn of a season the person looks back at how far they have come, not only at how far there is still to go.
+  capabilities:
+  - seeing-how-far-one-has-come
+  - looking-back-at-set-times
+  entities:
+  - distance-travelled
+  - review-cadence

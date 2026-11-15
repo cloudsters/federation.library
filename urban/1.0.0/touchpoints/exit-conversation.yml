@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: exit-conversation
+title: Exit Conversation
+medium: encounter
+summary: The conversation with each person who leaves, on why they leave and what would have kept them, recorded without blame.
+exchanges:
+- reasons-for-leaving-for-changed-conditions
+journey: municipal-employee-handing-on-a-key-role

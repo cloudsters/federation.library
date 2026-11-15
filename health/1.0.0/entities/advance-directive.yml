@@ -1,0 +1,49 @@
+kind: entity
+slug: advance-directive
+title: Advance Directive
+type: governance
+summary: A person's documented instructions for future care in case they lose the capacity to decide, such as refusing resuscitation
+  or ventilation, or appointing a proxy, which care teams must find and honour.
+attributes:
+- name: subject-of-care
+  type: reference(patient)
+  card: 1..1
+- name: directive-kind
+  type: code
+  card: 1..*
+- name: instructions
+  type: document
+  card: 1..1
+- name: appointed-proxy
+  type: reference(related-person)
+  card: 0..1
+- name: signed-on
+  type: date
+  card: 1..1
+- name: verified-by
+  type: reference(practitioner-role)
+  card: 0..1
+states:
+- recorded
+- verified
+- active
+- revoked
+relations:
+- type: produces
+  target: proxy-mandate
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

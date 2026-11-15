@@ -1,0 +1,11 @@
+kind: capability
+slug: prevention-and-health-promotion
+title: Prevention and Health Promotion
+level: L3
+parent: outpatient-and-day-care
+summary: Deliver prevention and health-promotion offers to patients and the public, such as vaccination, smoking cessation, lifestyle
+  programmes and health education.
+binds:
+- source: src-572
+  edition: '2020'
+  jurisdiction: global

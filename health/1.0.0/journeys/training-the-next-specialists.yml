@@ -1,0 +1,33 @@
+kind: journey
+slug: training-the-next-specialists
+title: Training the Next Specialists
+stakeholder: specialist-physician
+summary: A specialist supervises, teaches and assesses trainees alongside clinical work, and answers for the quality of training in
+  the specialty.
+stages:
+- slug: plan-with-the-trainee
+  title: Plan with the Trainee
+  goal: Agree a realistic plan that the department's case mix and rotations can deliver.
+  step: specialist-training/rotation-and-training-planning
+  touchpoints:
+  - training-plan
+- slug: supervise-in-practice
+  title: Supervise in Practice
+  goal: Supervise safely and confirm logbook entries without delay.
+  step: specialist-training/supervised-practice
+  touchpoints:
+  - ward-round
+  - operating-theatre
+  - training-logbook
+- slug: assess-and-entrust
+  title: Assess and Entrust
+  goal: Assess fairly and decide entrustment on evidence.
+  step: specialist-training/progress-assessment
+  touchpoints:
+  - training-progress-review
+- slug: certify-completion
+  title: Certify Completion
+  goal: Certify completed training accurately and on time.
+  step: specialist-training/examination-readiness
+  touchpoints:
+  - training-logbook

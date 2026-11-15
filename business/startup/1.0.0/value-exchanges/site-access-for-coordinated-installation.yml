@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: site-access-for-coordinated-installation
+title: Site Access for Coordinated Installation
+between:
+- general-contractor
+- field-service-technician
+offered:
+- Site access, prepared interfaces and coordination with the other trades.
+returned:
+- Installation in the agreed sequence, performed safely and documented.
+touchpoint: site-coordination-meeting

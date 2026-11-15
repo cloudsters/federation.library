@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: proof-of-delivery
+title: Proof of Delivery
+medium: artefact
+summary: The signed or recorded confirmation that a consignment was handed over complete and undamaged at the agreed place and time,
+  which closes the carrier's task and starts the payment terms.
+exchanges:
+- goods-for-payment
+- honest-window-for-successful-delivery
+journey: customer-awaiting-a-shipment

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: open-door-for-a-safer-home
+title: Open Door for a Safer Home
+between:
+- resident
+- emergency-service
+offered:
+- The household's welcome to a fire safety check of its home.
+returned:
+- Working alarms, a known escape route and hazards removed.
+touchpoint: home-fire-safety-check

@@ -1,0 +1,131 @@
+kind: value-stream
+slug: continuing-education-programmes
+title: Continuing Education Programmes
+family: discovery-to-usage
+summary: 'Designing and running continuing education for internal and external professionals: courses, simulation and skills training,
+  certified programmes and scientific meetings.'
+trigger: A training need is identified, or a course is scheduled.
+outcome: Participants have completed the programme, received certificates and credits, and evaluated it.
+stakeholders:
+- external-health-professional
+- specialist-physician
+- registered-nurse
+- allied-health-professional
+- clinical-educator
+- professional-body
+- referring-practice
+- industry-partner
+steps:
+- slug: training-needs-analysis
+  title: Training Needs Analysis
+  summary: Learning needs are identified from staff development plans, quality and safety findings, newly adopted methods and the
+    requests of external professionals and referrers.
+  capabilities:
+  - continuing-professional-development
+  - external-professional-education
+  - competency-model-design
+  - quality-performance-evaluation
+  - referrer-relationship-management
+  entities:
+  - competency
+  - appraisal
+  - audit-finding
+  - technology-assessment
+  serves:
+  - course-catalogue
+- slug: programme-design
+  title: Programme Design
+  summary: Learning outcomes, format, faculty, assessment, budget and fees are set for each course, simulation training, digital module
+    or scientific meeting.
+  capabilities:
+  - training-delivery
+  - external-professional-education
+  - scientific-meeting-organisation
+  - teaching-faculty-development
+  - tariff-and-price-management
+  entities:
+  - education-programme
+  - course
+  - price-list
+- slug: credit-certification
+  title: Credit Certification
+  summary: Programmes are submitted to the professional body for recognition of continuing education credit, and industry sponsorship
+    and conflicts of interest of the faculty are disclosed and limited.
+  capabilities:
+  - continuing-education-programme-certification
+  - anti-corruption-and-conflicts-of-interest
+  - contract-lifecycle-stewardship
+  entities:
+  - accreditation
+  - course
+  - contract
+- slug: announcement-and-registration
+  title: Announcement and Registration
+  summary: Programmes are published in the course catalogue, participants register and pay, and internal participants are released
+    from duty for the time required.
+  capabilities:
+  - learning-programme-delivery
+  - website-cms-management
+  - learner-enrolment-and-records
+  - accounts-receivable
+  - leave-management
+  entities:
+  - course-registration
+  - invoice
+  - absence
+  serves:
+  - course-catalogue
+- slug: delivery
+  title: Delivery
+  summary: Courses, simulation trainings, resuscitation and device trainings and scientific meetings are held with qualified faculty,
+    and attendance is recorded.
+  capabilities:
+  - training-delivery
+  - external-professional-education
+  - scientific-meeting-organisation
+  - simulation-centre-operations
+  - crisis-resource-management-training
+  - resuscitation-training
+  - device-operator-training
+  - skills-lab-management
+  entities:
+  - teaching-session
+  - course-registration
+  - room
+  serves:
+  - scientific-meeting
+  - simulation-centre
+  - learning-debriefing
+- slug: assessment-and-credit-award
+  title: Assessment and Credit Award
+  summary: Learning is assessed where the programme requires it, certificates and credits are issued and reported to the professional
+    body, and the credit accounts of staff are updated.
+  capabilities:
+  - continuing-education-credit-compliance
+  - continuing-education-programme-certification
+  - learner-enrolment-and-records
+  entities:
+  - continuing-education-credit
+  - learner-assessment
+  - credential
+  - course-registration
+  serves:
+  - participation-certificate
+- slug: programme-evaluation
+  title: Programme Evaluation
+  summary: Participants evaluate each programme, its effect on practice is followed where it can be measured, and the programme is
+    revised, repeated or withdrawn.
+  capabilities:
+  - teaching-quality-evaluation
+  - education-quality-assurance
+  - improvement-sustainment
+  entities:
+  - teaching-evaluation
+  - measure-report
+  - course
+  serves:
+  - teaching-evaluation-survey
+binds:
+- source: src-507
+  edition: '2025'
+  jurisdiction: global

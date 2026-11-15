@@ -1,0 +1,28 @@
+kind: capability
+slug: medical-device-integration
+title: Medical Device Integration
+level: L3
+parent: clinical-and-enterprise-applications
+summary: Connect medical devices to clinical systems so that measurements flow without manual transcription.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-056
+  edition: '2021'
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-054
+  edition: '2024'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-014
+  edition: '2.2'
+  jurisdiction: global
+- source: src-093
+  edition: '2018'
+  jurisdiction: global

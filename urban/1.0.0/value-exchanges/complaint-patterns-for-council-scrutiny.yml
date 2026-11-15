@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complaint-patterns-for-council-scrutiny
+title: Complaint Patterns for Council Scrutiny
+between:
+- city-administration
+- city-council
+offered:
+- The count of complaints and compensation by service, neighbourhood and group, with the patterns found.
+returned:
+- The council's scrutiny and the means for services to remove the causes.
+touchpoint: published-complaints-count

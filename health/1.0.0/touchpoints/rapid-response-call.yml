@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: rapid-response-call
+title: Rapid Response Call
+medium: encounter
+summary: The call that brings the outreach or rapid response team to the bedside of a deteriorating patient on a ward, triggered by
+  the early-warning score or by the concern of staff or relatives.
+exchanges:
+- escalation-for-rapid-review
+journey: inpatient-stay-journey

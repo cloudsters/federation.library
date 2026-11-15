@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: training-authorisation
+title: Training Authorisation
+medium: artefact
+summary: The decision of the professional body that authorises a senior physician to train in a specialty for a stated scope and period,
+  on which the department's training posts depend.
+exchanges:
+- authorisation-for-training-quality
+journey: becoming-a-specialist

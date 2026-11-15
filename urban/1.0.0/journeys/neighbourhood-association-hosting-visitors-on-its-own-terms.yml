@@ -1,0 +1,42 @@
+kind: journey
+slug: neighbourhood-association-hosting-visitors-on-its-own-terms
+title: Neighbourhood Association Hosting Visitors on Its Own Terms
+stakeholder: neighbourhood-association
+summary: A neighbourhood that receives many visitors puts residents' accounts beside the counts, agrees with the city what it welcomes
+  and where limits apply, sees lets and crowds limited, decides how its share of the overnight charge is spent and reviews who gains
+  and who bears the cost.
+stages:
+- slug: put-residents-accounts-beside-the-counts
+  title: Put Residents' Accounts Beside the Counts
+  goal: Residents' accounts of noise, rents and crowding stand beside the counts of visitors, stays and lets for the neighbourhood.
+  step: tourism-and-visitor-welcome/visitor-impact-tracking
+  touchpoints:
+  - residents-visitor-pressure-report
+  - neighbourhood-visitor-impact-map
+- slug: agree-what-the-neighbourhood-welcomes
+  title: Agree What the Neighbourhood Welcomes
+  goal: A host agreement states what the neighbourhood welcomes, where limits apply and what it asks of guests.
+  step: tourism-and-visitor-welcome/visitor-strategy-and-host-agreements
+  touchpoints:
+  - visitor-strategy-forum
+  - host-neighbourhood-agreement
+- slug: see-lets-and-crowds-limited
+  title: See Lets and Crowds Limited
+  goal: Holiday lets are registered and capped where homes are needed, and crowded places are relieved.
+  step: tourism-and-visitor-welcome/holiday-let-and-crowding-rules
+  touchpoints:
+  - holiday-let-register-entry
+  - timed-entry-and-route-guidance
+- slug: decide-on-the-share-of-income
+  title: Decide on the Share of Income
+  goal: The neighbourhood has decided how its share of the overnight charge is spent on the streets, services and homes visitors use.
+  step: tourism-and-visitor-welcome/visitor-charge-and-local-return
+  touchpoints:
+  - visitor-income-share-meeting
+- slug: review-who-gains-and-who-bears
+  title: Review Who Gains and Who Bears
+  goal: Who gains from visitors and who bears the cost has been reviewed, and the limits are adjusted where the neighbourhood asked.
+  step: tourism-and-visitor-welcome/visitor-economy-review
+  touchpoints:
+  - visitor-economy-review-forum
+  - published-visitor-economy-review

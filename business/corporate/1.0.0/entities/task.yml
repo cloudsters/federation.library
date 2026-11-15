@@ -1,0 +1,36 @@
+kind: entity
+slug: task
+title: Task
+type: transactional
+summary: The smallest unit of work — the smallest assignable piece of effort within a project, connecting a person to a deliverable with a
+  deadline.
+attributes:
+- name: description
+  type: text
+  card: 1..1
+- name: project
+  type: reference(project)
+  card: 1..1
+- name: assignee
+  type: reference(employee-record)
+  card: 0..1
+- name: deadline
+  type: date
+  card: 0..1
+- name: effort
+  type: quantity
+  card: 0..1
+- name: dependencies
+  type: reference(task)
+  card: 0..*
+states:
+- open
+- in-progress
+- blocked
+- completed
+- cancelled
+relations:
+- type: part-of
+  target: project
+- type: depends-on
+  target: task

@@ -1,0 +1,10 @@
+kind: body
+slug: transfusion-committee
+title: Transfusion Committee
+summary: 'Governs the use of blood products across the commons: the transfusion quality system, indications, compatibility testing,
+  haemovigilance and the review of transfusion incidents.'
+holds:
+- transfusion-medicine
+part_of: executive-board
+type: committee
+form: governing-body

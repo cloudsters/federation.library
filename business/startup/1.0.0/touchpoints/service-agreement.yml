@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-agreement
+title: Service Agreement
+medium: artefact
+summary: The maintenance or service agreement that states the products covered, the services, response times, entitlements and fee.
+exchanges:
+- clear-promise-for-committed-renewal
+- service-for-fee
+journey: business-customer-keeping-equipment-in-service

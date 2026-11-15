@@ -1,0 +1,57 @@
+kind: entity
+slug: story-archive
+title: Story Archive
+type: master
+summary: The community-governed collection of recorded stories, oral histories, documents and images of a neighbourhood or group,
+  with the rules on what is shared and with whom. A resident body governs it and keeps its rules, often with a library or community
+  centre holding the material, and it is used to keep stories with those who told them and to decide requests to share or reuse them.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: communities
+  type: text
+  card: 1..*
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: governing-body
+  type: text
+  card: 1..1
+- name: sharing-rules
+  type: document
+  card: 1..1
+- name: material-kinds
+  type: code
+  card: 1..*
+- name: item-count
+  type: integer
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+- name: held-at
+  type: reference(library|community-centre)
+  card: 0..1
+- name: civic-memory
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: founded-on
+  type: date
+  card: 0..1
+states:
+- founded
+- collecting
+- open
+- restricted
+- transferred
+- closed
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: story-consent
+- type: refers-to
+  target: library

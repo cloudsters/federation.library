@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-status-notice
+title: Service Status Notice
+medium: channel
+summary: The notification through which staff learn of planned maintenance, current disruptions and the fallback procedures to use
+  until service returns.
+exchanges:
+- prompt-report-for-restored-service
+journey: staff-member-getting-help-with-a-system

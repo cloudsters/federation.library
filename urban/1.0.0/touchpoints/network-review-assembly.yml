@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: network-review-assembly
+title: Network Review Assembly
+medium: encounter
+summary: The assembly at neighbourhood, district or city level that reviews in regular cycles the access, price and reliability of
+  the networks and decides on extensions and changes to the terms.
+exchanges:
+- assembly-review-for-changed-terms
+journey: community-network-operator-running-a-neighbourhood-network

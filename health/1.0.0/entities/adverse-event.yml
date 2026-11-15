@@ -1,0 +1,55 @@
+kind: entity
+slug: adverse-event
+title: Adverse Event
+type: transactional
+summary: Harm to a patient that resulted from care rather than from the underlying condition, such as a medication injury, a surgical
+  complication or a pressure injury, recorded in the patient's record and disclosed to the patient.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 0..1
+- name: event-kind
+  type: code
+  card: 1..1
+- name: severity
+  type: code
+  card: 1..1
+- name: occurred-at
+  type: datetime
+  card: 1..1
+- name: suspected-causes
+  type: code
+  card: 0..*
+- name: disclosed-to-patient
+  type: boolean
+  card: 1..1
+- name: reported-externally
+  type: boolean
+  card: 0..1
+states:
+- suspected
+- confirmed
+- refuted
+- closed
+relations:
+- type: part-of
+  target: health-record
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-002
+  edition: '2025'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-417
+  edition: '5.03'
+  jurisdiction: global

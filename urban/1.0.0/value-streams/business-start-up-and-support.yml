@@ -1,0 +1,118 @@
+kind: value-stream
+slug: business-start-up-and-support
+title: Business Start-Up and Support
+family: proposition-to-audience
+summary: Helping residents turn an idea into an enterprise that lasts, and supporting existing small businesses without making them
+  dependent on the city. It holds the assessment of who starts businesses and who is held back, one point of advice on business forms,
+  permits and premises, incubation and affordable workspace governed with the founders they serve, finance for those whom banks do
+  not serve, mentoring by established owners, support given on terms that state how long it lasts and how it tapers, and a review
+  of which supported enterprises survive and whom the support reached.
+trigger: A resident wants to start an enterprise, a small business asks for help, or the review of local enterprise shows groups or
+  neighbourhoods where few businesses start or survive.
+outcome: Founders from every group have the advice, space, finance and mentoring to start, and supported enterprises stand on their
+  own when the support ends.
+stakeholders:
+- entrepreneur
+- local-business
+- economic-development-officer
+- young-people
+- newcomer
+- informal-worker
+- mentor
+- lender
+steps:
+- slug: enterprise-need-assessment
+  title: Enterprise Need Assessment
+  summary: The business support service reviews registrations, closures and empty premises, and asks founders and traders what holds
+    them back, by neighbourhood and group, to see who starts businesses, who does not and why.
+  capabilities:
+  - enterprise-need-assessment
+  - equity-audit
+  entities:
+  - economic-indicators
+  - business-register
+  serves:
+  - founder-barriers-survey
+- slug: founder-advice
+  title: Founder Advice
+  summary: One point of contact advises founders in their language on the idea, the business form including cooperative forms, permits,
+    tax and premises, and guides them through the city's own permits.
+  capabilities:
+  - business-advice-provision
+  - multilingual-information-design
+  entities:
+  - business-support-case
+  - business-register
+  serves:
+  - business-advice-desk
+- slug: incubation-and-workspace
+  title: Incubation and Workspace
+  summary: Affordable workspace, shared kitchens, workshops and incubator programmes are provided in the neighbourhoods, often in
+    vacant buildings, and the founders who use them share in deciding how they are run.
+  capabilities:
+  - incubation-and-workspace-provision
+  - interim-use-arrangement
+  entities:
+  - incubator-programme
+  - enterprise-workspace
+  - building
+  serves:
+  - affordable-enterprise-workspace
+  - neighbourhood-incubator-programme
+- slug: start-up-finance
+  title: Start-Up Finance
+  summary: Small loans and patient capital reach founders whom banks overlook, through a city loan fund and community and public banks,
+    with repayment that follows the rhythm of the enterprise's income.
+  capabilities:
+  - start-up-finance-provision
+  - income-matched-payment-arrangement
+  entities:
+  - enterprise-loan
+  - business-support-case
+  serves:
+  - income-matched-repayment-plan
+  - small-enterprise-loan-application
+- slug: founder-mentoring
+  title: Founder Mentoring
+  summary: Founders are matched with experienced owners, makers and cooperative members who meet them regularly in their first years.
+  capabilities:
+  - mentor-matching
+  - business-advice-provision
+  entities:
+  - mentoring-relationship
+  - business-support-case
+  serves:
+  - founder-mentor-meeting
+- slug: time-limited-support-terms
+  title: Time-Limited Support Terms
+  summary: Reduced rents, grants and services are given under a written agreement that states how long support lasts, what the enterprise
+    aims to reach and how support tapers, so that it builds a business able to stand on its own rather than a lasting dependency.
+  capabilities:
+  - time-limited-support-setting
+  - asset-rent-and-charge-setting
+  entities:
+  - business-support-agreement
+  - business-support-case
+  serves:
+  - affordable-enterprise-workspace
+  - time-limited-support-agreement
+- slug: business-support-review
+  title: Business Support Review
+  summary: One, three and five years after support, the service reviews which enterprises survive, the work and income they hold,
+    which groups and neighbourhoods the support reached, and changes the offer accordingly.
+  capabilities:
+  - business-support-evaluation
+  - equity-audit
+  entities:
+  - business-support-review
+  - economic-indicators
+  serves:
+  - business-support-review-report
+  - enterprise-survival-check-in
+binds:
+- source: src-274
+  edition: '2022-06-10'
+  jurisdiction: global
+- source: src-277
+  edition: '2015-06-12'
+  jurisdiction: global

@@ -1,0 +1,26 @@
+kind: journey
+slug: consumer-recommending-to-friends
+title: Consumer Recommending to Friends
+stakeholder: consumer
+summary: A consumer whose satisfaction shows is invited to recommend, understands the referral rules and introduces friends who are
+  welcomed while the consumer is recognised as promised.
+stages:
+- slug: be-invited-when-glad
+  title: Be Invited When Glad
+  goal: The consumer is invited to recommend only when their feedback shows they are glad to.
+  step: community-network-distribution/advocacy-readiness-sensing
+  touchpoints:
+  - public-reviews
+- slug: understand-the-referral-rules
+  title: Understand the Referral Rules
+  goal: The rules and rewards are published, transparent and fair.
+  step: community-network-distribution/referral-scheme-design
+  touchpoints:
+  - referral-programme
+- slug: introduce-a-friend
+  title: Introduce a Friend
+  goal: The introduction is tracked and the agreed recognition follows.
+  step: community-network-distribution/referral-tracking-and-recognition
+  touchpoints:
+  - referral-programme
+  - mobile-app

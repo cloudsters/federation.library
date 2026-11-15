@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: city-service-directory
+title: City Service Directory
+medium: channel
+summary: The one directory of the services of the city and its partners, online and in print, in plain language and the languages
+  residents use, with who may use each, where and when, how to reach a person and what to bring.
+exchanges:
+- directory-entry-for-residents-who-find-the-service
+- partner-services-for-a-current-directory
+journey: city-administration-bringing-a-new-service-into-use

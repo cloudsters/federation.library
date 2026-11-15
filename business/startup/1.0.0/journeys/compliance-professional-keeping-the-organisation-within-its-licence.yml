@@ -1,0 +1,59 @@
+kind: journey
+slug: compliance-professional-keeping-the-organisation-within-its-licence
+title: Compliance Professional Keeping the Organisation Within Its Licence
+stakeholder: legal-risk-and-compliance-professional
+summary: The compliance professional registers every obligation, writes the integrity code, gives each obligation an owner and a control,
+  trains and attests staff, senses adherence, investigates concerns and brings the evidence to audit.
+stages:
+- slug: register-every-obligation
+  title: Register Every Obligation
+  goal: Every law, licence condition and commitment is in the register with the activities it governs.
+  step: compliance-as-integrity/obligation-identification
+  touchpoints:
+  - obligation-register
+  - regulatory-consultation
+- slug: write-the-integrity-code
+  title: Write the Integrity Code
+  goal: The code expresses the organisation's values and states the lines it will not cross.
+  step: compliance-as-integrity/integrity-code-design
+  touchpoints:
+  - integrity-code
+- slug: give-each-obligation-an-owner
+  title: Give Each Obligation an Owner
+  goal: Each obligation has an owner, a policy, a control and, where personal data are processed, an assessment.
+  step: compliance-as-integrity/policy-and-control-embedding
+  touchpoints:
+  - obligation-register
+  - data-protection-assessment
+  - intranet
+- slug: train-and-attest
+  title: Train and Attest
+  goal: Staff are trained for their roles and attestations and declarations are complete.
+  step: compliance-as-integrity/training-and-attestation
+  touchpoints:
+  - compliance-training
+  - conflict-of-interest-declaration
+- slug: sense-adherence
+  title: Sense Adherence
+  goal: Adherence is watched continuously, licences are renewed in time and reports go out complete.
+  step: compliance-as-integrity/adherence-monitoring
+  touchpoints:
+  - licence-and-permit
+  - statutory-filing
+  - confidential-reporting-channel
+- slug: investigate-concerns
+  title: Investigate Concerns
+  goal: Every concern is investigated, its outcome decided and authorities notified where required.
+  step: compliance-as-integrity/concern-investigation
+  touchpoints:
+  - confidential-reporting-channel
+  - statutory-filing
+- slug: evidence-compliance
+  title: Evidence Compliance
+  goal: Audits confirm compliance, findings are closed and the boards and auditors have the evidence.
+  step: compliance-as-integrity/audit-and-assurance
+  touchpoints:
+  - assurance-audit
+  - certification-audit
+  - official-inspection
+  - supervisory-board-meeting

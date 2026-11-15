@@ -1,0 +1,21 @@
+id: reading
+term: Reading
+layer: how
+kind: concept
+definition: 'What a commons'' Fabric senses from one of its systems of record at a time, against an element of its model,
+  named reading:<id>: a reading, never a record.'
+why: 'A reading enters the graph as a source by its id, with the time it was read and its digest, and a claim of kind measure
+  or signal as its source, and never a record of the runtime. One word, one meaning: a statement computed from inputs is
+  an expectation, not a reading.'
+relations:
+  source_of: graph
+  kept_in: fabric
+not:
+- observation (as its id)
+- a record
+- an expected statement, which is an expectation
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6626305178: Adopted 4 November 2026 (point 2), in its 0.4.0 wording (the merge 7a5fbda)'

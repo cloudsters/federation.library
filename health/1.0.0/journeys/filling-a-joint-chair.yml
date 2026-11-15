@@ -1,0 +1,34 @@
+kind: journey
+slug: filling-a-joint-chair
+title: Filling a Joint Chair
+stakeholder: university
+summary: The university and its medical faculty fill a chair whose holder will also lead a clinical department, sharing every decision
+  with the hospital from profile to resources.
+stages:
+- slug: agree-the-profile
+  title: Agree the Profile
+  goal: Agree a profile that serves the faculty's research and teaching and the hospital's clinical strategy.
+  step: academic-appointments/chair-profile
+  touchpoints:
+  - joint-university-committee
+- slug: run-the-procedure
+  title: Run the Procedure
+  goal: Select candidates on academic merit in the faculty's appointment procedure, with the hospital's clinical judgement heard before
+    the list is set.
+  step: academic-appointments/candidate-selection
+  touchpoints:
+  - appointment-hearing
+- slug: approve-the-list
+  title: Approve the List
+  goal: Approve the ranked list jointly and issue the call without delay.
+  step: academic-appointments/list-approval
+  touchpoints:
+  - joint-university-committee
+  - letter-of-call
+- slug: fund-the-chair
+  title: Fund the Chair
+  goal: Share the cost of the resource package between research and teaching funds and the hospital.
+  step: academic-appointments/appointment-negotiation
+  touchpoints:
+  - appointment-negotiation-meeting
+  - joint-university-committee

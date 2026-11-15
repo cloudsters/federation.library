@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: bank-statement
+title: Bank Statement
+medium: artefact
+summary: The electronic statement of an account's movements and balances that the bank provides each day for reconciliation with the
+  ledger.
+exchanges:
+- applied-payments-for-resolved-exceptions
+- account-services-for-steady-business
+- daily-matching-for-decided-exceptions
+journey: receivables-accountant-collecting-what-is-due

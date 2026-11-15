@@ -1,0 +1,12 @@
+kind: solution
+slug: course-provider
+title: Course Provider
+role: institution
+sovereignty: third-party
+summary: Teaches a subject in company with others and certifies what was learned.
+carries:
+- learning-in-company
+- applying-while-learning
+holds:
+- learning-event
+- credential

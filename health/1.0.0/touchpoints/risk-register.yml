@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: risk-register
+title: Risk Register
+medium: artefact
+summary: The register of clinical risks with their rating, owner, controls, treatment status and review date, kept per unit and consolidated
+  for the committee and the board.
+exchanges:
+- risk-profile-for-board-decision
+journey: front-line-safety-practice

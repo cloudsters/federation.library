@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: sensor-notice-plate
+title: Sensor Notice Plate
+medium: artefact
+summary: The notice on or beside a sensor in public space that states its purpose, the data it gathers, the date its approval ends
+  and how to object.
+exchanges:
+- declared-purpose-for-heard-objections
+journey: resident-getting-affordable-connectivity

@@ -1,0 +1,17 @@
+kind: solution
+slug: billing-and-subscription-management-system
+title: Billing and Subscription Management System
+role: system-of-record
+summary: Holds subscriptions and usage, rates them against contracts and price plans, issues invoices in electronic form and recognises
+  the revenue they carry.
+carries:
+- electronic-invoicing-compliance
+- freemium-as-invitation
+- subscription-as-relationship
+- subscription-billing-management
+- subscription-relationship-design
+- customer-invoicing
+holds:
+- subscription
+- usage-record
+- sales-invoice

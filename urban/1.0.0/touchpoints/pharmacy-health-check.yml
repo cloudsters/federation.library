@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: pharmacy-health-check
+title: Pharmacy Health Check
+medium: place
+summary: A neighbourhood pharmacy or clinic offering early checks, advice on medicines and screening without an appointment, working
+  with community health workers.
+exchanges:
+- clinics-and-staff-for-residents-reached
+- questions-for-health-confidence
+journey: community-health-worker-keeping-the-neighbourhood-well

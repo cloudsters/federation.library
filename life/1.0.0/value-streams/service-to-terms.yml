@@ -1,0 +1,95 @@
+kind: value-stream
+slug: service-to-terms
+title: Reading the Fine Print
+family: source-to-alliance
+summary: What the life buys and on whose terms — the contracts, subscriptions and defaults that are agreed to once and then govern
+  for years.
+trigger: A renewal arrives at a higher price, a default turns out to share more than intended, or a contract cannot be left when it
+  no longer fits.
+outcome: The person knows what they have signed up to and on whose terms, and can leave or renegotiate what no longer serves the life.
+stakeholders:
+- authority
+- partner
+- synthetic-collaborator
+- provider
+steps:
+- slug: being-caught-by-the-terms
+  title: Being Caught by the Terms
+  summary: A renewal at a higher price, a setting that shares too much, or a contract that cannot be left shows the person what they
+    once agreed to.
+  capabilities:
+  - seeing-what-tools-take
+  entities:
+  - contract
+  - expense
+  - technology-policy
+  - provider-relation
+  serves:
+  - terms-and-conditions
+  - the-bill
+- slug: gathering-what-is-signed
+  title: Gathering What Is Signed
+  summary: Contracts, subscriptions, policies, accounts and consents are gathered in one place, each with what it costs and when it
+    can next be changed.
+  capabilities:
+  - keeping-papers-in-order
+  entities:
+  - contract
+  - insurance-policy
+  - account
+  - obligation
+  - provider-relation
+  - service-account
+- slug: reading-the-fine-print
+  title: Reading the Fine Print
+  summary: For each agreement that matters, the person reads what it lets the other side do, what it shares, and how it ends.
+  capabilities:
+  - reading-the-fine-print
+  - seeing-what-tools-take
+  entities:
+  - contract
+  - technology-policy
+  - agent
+  - insurance-policy
+  serves:
+  - insurance-policy
+  - terms-and-conditions
+- slug: choosing-what-stays
+  title: Choosing What Stays
+  summary: Each agreement is weighed against what the life needs now; some are kept, some renegotiated, some ended.
+  capabilities:
+  - knowing-when-to-leave
+  - choosing-what-matters-now
+  entities:
+  - decision
+  - contract
+  - budget
+- slug: renegotiating-or-leaving
+  title: Renegotiating or Leaving
+  summary: The person asks for better terms or gives notice in time, calmly and in writing, and switches off defaults that were never
+    chosen.
+  capabilities:
+  - agreeing-fair-terms
+  - knowing-when-to-leave
+  entities:
+  - contract
+  - technology-policy
+  - device
+  - provider-relation
+  serves:
+  - customer-service-line
+  - settings-screen
+- slug: signing-with-open-eyes
+  title: Signing With Open Eyes
+  summary: New agreements are entered only once it is clear how they end, and the household knows where the papers are and what each
+    one binds them to.
+  capabilities:
+  - reading-the-fine-print
+  - keeping-arrangements-current
+  entities:
+  - contract
+  - partner-relation
+  - review-cadence
+  serves:
+  - kitchen-table
+  - terms-and-conditions

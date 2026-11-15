@@ -1,0 +1,135 @@
+kind: value-stream
+slug: automated-decision-assurance
+title: Automated Decision Assurance
+family: collaboration-to-automation
+summary: Assuring that every algorithm and automated system the city uses to decide or advise on residents, places or services is
+  fair, works as intended and stays under democratic control. It holds the registration and impact assessment of each system, its
+  authorisation for a fixed term by the communities it affects, monitoring for bias and drift, challenges by those affected, and the
+  suspension, reauthorisation or withdrawal of the system when harm appears or its term ends.
+trigger: A department proposes to use an algorithm or automated system that decides or advises on residents, places or services, an
+  approved system nears its sunset date, or harm from a system is reported.
+outcome: Each automated system in use is registered, assessed, authorised for a fixed term by those it affects and monitored, and
+  any system that causes harm or reaches its sunset date without renewal is suspended or withdrawn.
+stakeholders:
+- affected-community
+- resident
+- platform-worker
+- city-council
+- city-administration
+- technology-supplier
+- data-protection-officer
+- legal-and-compliance-officer
+- civic-technology-community
+steps:
+- slug: use-registration
+  title: Use Registration
+  summary: The department that proposes a system states its purpose, the decisions it touches, the data it uses and who supplies it.
+    The system is entered in the city's register of automated systems before any use.
+  capabilities:
+  - automated-system-use-registration
+  - processing-registration
+  entities:
+  - automated-system-register
+  - automation-proposal
+  serves:
+  - automated-system-register-entry
+  - automated-system-registration-form
+- slug: impact-and-bias-assessment
+  title: Impact and Bias Assessment
+  summary: The system is assessed for who gains and who bears harm, tested for bias across neighbourhoods and groups, and checked
+    against data protection and the city's obligations.
+  capabilities:
+  - algorithmic-impact-assessment
+  - bias-and-fairness-testing
+  - privacy-impact-assessment
+  - equity-audit
+  entities:
+  - algorithmic-impact-assessment
+  - data-impact-assessment
+  serves:
+  - impact-and-bias-assessment-session
+  - published-impact-assessment
+- slug: community-authorisation
+  title: Community Authorisation
+  summary: The communities most affected deliberate on the system with the assessment in hand. The algorithm review council, with
+    a resident majority, then authorises it, sets conditions or refuses it.
+  capabilities:
+  - community-authorisation-of-automated-systems
+  - deliberation-facilitation
+  - participant-selection-by-lot
+  entities:
+  - community-authorisation
+  - algorithm-review-council
+  - resident-assembly
+  serves:
+  - automated-systems-review-session
+  - community-deliberation-circle
+  - published-impact-assessment
+- slug: approval-for-defined-use-and-term
+  title: Approval for a Defined Use and Term
+  summary: The system is approved for a stated use with a published sunset date, a named person who answers for it and the human review
+    it needs. The supplier contract gives the city the right to inspect the system and to end its use.
+  capabilities:
+  - sunset-date-setting
+  - automated-decision-oversight
+  - contract-review
+  entities:
+  - automated-system-approval
+  - contract
+  - automated-system-register
+  serves:
+  - automated-system-approval-notice
+  - inspection-and-exit-clause-negotiation
+- slug: monitoring-in-use
+  title: Monitoring in Use
+  summary: The accountable department monitors the system's results for error, bias and drift and reports to the algorithm review
+    council at an agreed rhythm. The council may require a person to review every decision or slow the system down.
+  capabilities:
+  - automated-system-performance-monitoring
+  - bias-and-fairness-testing
+  - automated-decision-oversight
+  entities:
+  - automated-system-performance-report
+  - algorithm-review-council
+  serves:
+  - automated-systems-review-session
+  - published-system-performance-report
+- slug: challenge-and-suspension
+  title: Challenge and Suspension
+  summary: Residents and workers who are affected challenge a decision and have it reviewed by a person. When harm appears, the system
+    is suspended, the harm is remedied and the supplier is held to account.
+  capabilities:
+  - automated-decision-challenge-handling
+  - automated-system-suspension-and-withdrawal
+  - claim-and-dispute-resolution
+  entities:
+  - automated-decision-challenge
+  - automated-system-approval
+  - legal-matter
+  serves:
+  - decision-challenge-channel
+  - decision-review-by-a-person
+  - system-suspension-notice
+- slug: reauthorisation-or-withdrawal
+  title: Reauthorisation or Withdrawal
+  summary: At its sunset date the system ends unless it is redesigned, assessed afresh and authorised again by the communities it
+    affects. A withdrawn system is retired and its record kept.
+  capabilities:
+  - community-authorisation-of-automated-systems
+  - automated-system-suspension-and-withdrawal
+  - legacy-system-retirement
+  entities:
+  - automated-system-approval
+  - community-authorisation
+  - automated-system-register
+  serves:
+  - automated-system-register-entry
+  - community-deliberation-circle
+  - sunset-review-hearing
+binds:
+- source: src-078
+  edition: '2023'
+  jurisdiction: global
+- source: src-232
+  edition: '2025'
+  jurisdiction: global

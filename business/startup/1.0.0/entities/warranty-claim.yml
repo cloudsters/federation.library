@@ -1,0 +1,43 @@
+kind: entity
+slug: warranty-claim
+title: Warranty Claim
+type: transactional
+summary: A test of the organisation's promise — when a product fails within its guarantee period, the warranty claim calls on the
+  organisation's commitment to stand behind its propositions.
+attributes:
+- name: product
+  type: reference(product)
+  card: 1..1
+- name: serial-number
+  type: reference(serial-number)
+  card: 0..1
+- name: batch-lot
+  type: reference(batch-lot)
+  card: 0..1
+- name: customer
+  type: reference(customer)
+  card: 1..1
+- name: fault
+  type: text
+  card: 1..1
+- name: remedy
+  type: code
+  card: 0..1
+- name: warranty-terms
+  type: reference(terms-and-conditions)
+  card: 0..1
+states:
+- raised
+- validated
+- remedied
+- in-supplier-recovery
+- closed
+relations:
+- type: refers-to
+  target: serial-number
+- type: refers-to
+  target: batch-lot
+- type: governed-by
+  target: terms-and-conditions
+- type: produces
+  target: repair-order

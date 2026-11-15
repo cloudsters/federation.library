@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: allocation-notice
+title: Allocation Notice
+medium: artefact
+summary: The notice that tells a customer which quantities of a confirmed order are allocated, reduced or postponed when supply is
+  short, on which rule and with which revised date.
+exchanges:
+- reliable-promise-for-planning-trust
+journey: customer-relying-on-a-delivery-promise

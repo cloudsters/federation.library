@@ -1,0 +1,39 @@
+kind: entity
+slug: expense
+title: Significant Expense
+type: transactional
+summary: Money leaving in an amount that changes the picture. Recorded with whether it bought a possession or an experience, and whether
+  it was chosen or fell due.
+attributes:
+- name: amount
+  type: money
+  card: 1..1
+- name: paid-on
+  type: date
+  card: 1..1
+- name: for
+  type: text
+  card: 1..1
+- name: bought
+  type: code
+  card: 1..1
+- name: chosen
+  type: boolean
+  card: 1..1
+- name: from
+  type: reference(account)
+  card: 0..1
+- name: where-it-came-from
+  type: text
+  card: 0..1
+states:
+- considered
+- chosen
+- fallen due
+- paid
+- looked back on
+relations:
+- target: account
+  type: depends-on
+- target: budget
+  type: about

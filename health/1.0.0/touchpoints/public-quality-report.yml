@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: public-quality-report
+title: Public Quality Report
+medium: artefact
+summary: The mandated public report on the commons' services, volumes, staffing and quality results, used by patients, referrers
+  and payers to compare providers.
+exchanges:
+- published-results-for-informed-referral
+- staffing-evidence-for-binding-standards
+- published-results-for-trust
+- guaranteed-access
+- access-performance-accountability
+- trust-through-transparency
+- centre-choice
+journey: planning-authority-designating-the-mandate

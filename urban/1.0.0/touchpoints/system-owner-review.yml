@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: system-owner-review
+title: System Owner Review
+medium: encounter
+summary: The review in which each department goes through its systems with the digital office, stating what each costs, whom it serves,
+  how well and on which supplier it depends.
+exchanges:
+- system-knowledge-for-an-honest-landscape
+- exit-terms-for-early-notice
+journey: information-technology-specialist-keeping-the-city-systems-whole

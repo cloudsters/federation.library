@@ -1,0 +1,60 @@
+kind: entity
+slug: cultural-collection
+title: Cultural Collection
+type: master
+summary: The objects, records and works a museum or archive holds, with their origins, the communities they come from and the choices
+  made on their display, loan and return. The museum or archive keeps it and decides on its display with residents and the communities
+  concerned, and it is used to open the collection to residents and to record contested histories.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: holder
+  type: reference(cultural-venue|library)
+  card: 1..1
+- name: collection-kind
+  type: code
+  card: 1..*
+- name: item-count
+  type: integer
+  card: 0..1
+- name: origins
+  type: text
+  card: 0..*
+- name: source-communities
+  type: text
+  card: 0..*
+- name: display-decisions
+  type: text
+  card: 0..*
+- name: decided-with
+  type: text
+  card: 0..*
+- name: share-on-display
+  type: decimal
+  card: 0..1
+- name: open-access-route
+  type: text
+  card: 0..1
+- name: contested-histories
+  type: reference(civic-memory-record)
+  card: 0..*
+- name: catalogue
+  type: document
+  card: 0..1
+states:
+- acquired
+- catalogued
+- on-display
+- in-store
+- on-loan
+- returned
+relations:
+- type: part-of
+  target: cultural-venue
+- type: refers-to
+  target: civic-memory-record
+- type: refers-to
+  target: heritage-protection
+- type: refers-to
+  target: data-catalogue

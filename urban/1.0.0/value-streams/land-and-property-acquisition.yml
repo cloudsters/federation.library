@@ -1,0 +1,117 @@
+kind: value-stream
+slug: land-and-property-acquisition
+title: Land and Property Acquisition
+family: acquire-to-retire
+summary: Acquiring the land and buildings the city and its communities need, and keeping them out of speculation. It holds the assessment
+  of land needs and of vacant or speculatively held sites, the appraisal and valuation of a purchase, joint purchase with residents
+  who pool their means, the purchase or transfer itself, and the placing of land in permanent community trust with covenants that
+  keep homes and spaces affordable as a neighbourhood is improved.
+trigger: The asset plan, the spatial plan or a community names a need for land or a building, or a site comes up for sale or falls
+  vacant.
+outcome: The land or building is held by the city or by a community body on terms that keep it in use, affordable and out of speculation,
+  and it is entered in the register.
+stakeholders:
+- asset-officer
+- landowner
+- community-land-trust
+- city-council
+- resident
+- tenant
+- affected-community
+- neighbourhood-association
+- lender
+- informal-settlement-resident
+steps:
+- slug: land-need-and-site-identification
+  title: Land Need and Site Identification
+  summary: The asset office sets out the land and buildings the city's plans and communities need, and keeps a register of vacant
+    and long-unused sites and buildings. Sites that could meet a need are listed for appraisal.
+  capabilities:
+  - land-need-assessment
+  - vacant-property-identification
+  - land-capacity-analysis
+  entities:
+  - land-parcel
+  - vacancy-register
+  - building
+  - land-registry
+  serves:
+  - land-need-map
+  - vacant-site-report
+- slug: acquisition-appraisal
+  title: Acquisition Appraisal
+  summary: For each site the city values the land, weighs its cost against the need and the risk of displacing those who live or work
+    there, and decides whether to buy, lease, support a community purchase or not to act.
+  capabilities:
+  - acquisition-appraisal
+  - property-valuation
+  - displacement-risk-assessment
+  entities:
+  - acquisition-case
+  - land-parcel
+  - land-value-map
+  serves:
+  - acquisition-appraisal-report
+  - displacement-risk-hearing
+- slug: joint-purchase-with-residents
+  title: Joint Purchase with Residents
+  summary: Residents who pool their savings and negotiate as one are supported by the city with advice, bridging finance and help
+    with negotiation, so that households can buy together the land they live on.
+  capabilities:
+  - community-purchase-support
+  - land-and-property-purchase
+  entities:
+  - acquisition-case
+  - land-purchase-agreement
+  serves:
+  - joint-purchase-advice-desk
+  - joint-purchase-negotiation
+- slug: purchase-and-transfer
+  title: Purchase and Transfer
+  summary: The city buys the land or building, uses a right of first purchase where it holds one, or receives it by gift or transfer
+    from another public body. The contract is reviewed and the title is recorded in the land registry.
+  capabilities:
+  - land-and-property-purchase
+  - contract-review
+  entities:
+  - land-purchase-agreement
+  - land-registry
+  - land-parcel
+  serves:
+  - joint-purchase-negotiation
+  - land-registry-entry
+  - purchase-contract-signing
+- slug: transfer-into-community-trust
+  title: Transfer into Community Trust
+  summary: Where residents are ready to hold it, the land is placed with a community land trust or let on a long ground lease, with
+    covenants that keep it affordable across generations and recorded rights of use for those who live there.
+  capabilities:
+  - community-asset-transfer
+  - affordability-covenant-drafting
+  - use-right-transfer-recording
+  entities:
+  - asset-transfer-agreement
+  - affordability-covenant
+  - land-use-right
+  serves:
+  - affordability-covenant-text
+  - community-trust-transfer-signing
+- slug: registration-and-holding-terms
+  title: Registration and Holding Terms
+  summary: The acquired land or building is entered in the public asset register with the purpose for which it is held, and an interim
+    use is arranged until that purpose is met.
+  capabilities:
+  - public-asset-registration
+  - interim-use-arrangement
+  entities:
+  - public-asset-register
+  - land-parcel
+  - infrastructure-asset
+  serves:
+  - interim-use-open-call
+  - land-registry-entry
+  - public-asset-register-entry
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

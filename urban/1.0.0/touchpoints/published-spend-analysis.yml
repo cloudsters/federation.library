@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-spend-analysis
+title: Published Spend Analysis
+medium: artefact
+summary: The yearly analysis of what the city and its municipal enterprises bought, from whom and where the money landed, by category,
+  department, supplier ownership and region, published in a form residents can read.
+exchanges:
+- demand-forecasts-for-a-plan-departments-can-rely-on
+- spending-data-for-a-view-of-where-money-lands
+journey: procurement-officer-setting-how-the-city-buys

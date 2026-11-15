@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: interventional-suite
+title: Interventional Suite
+medium: place
+summary: The procedure rooms for catheter, endoscopic and image-guided interventions, with imaging, sedation and monitoring equipment
+  and an adjacent recovery area.
+exchanges:
+- prepared-patient-for-a-safe-procedure
+journey: interventional-procedure-journey

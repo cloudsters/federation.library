@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: complaints-and-answers-for-a-traced-signal
+title: Complaints and Answers for a Traced Signal
+between:
+- resident
+- city-administration
+offered:
+- Complaints, petitions and survey answers about the state of the city.
+returned:
+- Each signal traced to its source and visible in the city's shared picture.
+touchpoint: public-city-dashboard

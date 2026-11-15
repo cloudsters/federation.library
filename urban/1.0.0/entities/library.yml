@@ -1,0 +1,49 @@
+kind: entity
+slug: library
+title: Library
+type: master
+summary: A public library as a place of knowledge and civic gathering, where neighbours also teach and learn skills. The library service
+  keeps its record, and it is used to plan opening hours, rooms and digital access and to host the teaching of skills that bring income.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: opening-hours
+  type: text
+  card: 1..*
+- name: rooms
+  type: text
+  card: 0..*
+- name: collections
+  type: text
+  card: 0..*
+- name: digital-access-points
+  type: integer
+  card: 0..1
+- name: public-service
+  type: reference(public-service)
+  card: 0..1
+- name: languages
+  type: code
+  card: 0..*
+states:
+- planned
+- open
+- temporarily-closed
+- moved
+- closed
+relations:
+- type: refers-to
+  target: building
+- type: part-of
+  target: public-service
+- type: governed-by
+  target: shared-use-agreement
+- type: refers-to
+  target: community-centre

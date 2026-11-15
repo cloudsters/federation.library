@@ -1,0 +1,11 @@
+kind: capability
+slug: cancer-care-navigation
+title: Cancer Care Navigation
+level: L3
+parent: cancer-care
+summary: Give each person with suspected or confirmed cancer a named coordinator who guides them through diagnosis, treatment and
+  follow-up, keeps teams and appointments in step and is their single point of contact.
+binds:
+- source: src-579
+  edition: '1.2026'
+  jurisdiction: global

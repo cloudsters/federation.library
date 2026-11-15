@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: price-list
+title: Price List
+medium: artefact
+summary: The current prices, discounts and commercial terms for each offering and channel, as published to customers and partners.
+exchanges:
+- transparent-pricing-for-mutual-gain
+- customer-relationships-for-fair-margins
+journey: business-customer-weighing-a-value-promise

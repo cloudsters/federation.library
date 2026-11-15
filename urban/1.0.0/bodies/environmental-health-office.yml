@@ -1,0 +1,14 @@
+kind: body
+slug: environmental-health-office
+title: Environmental Health Office
+summary: Monitors air, noise and heat with residents, inspects reported hazards and orders them stopped, investigates and cleans up
+  contaminated land and opens cooling places during heat waves.
+holds:
+- environmental-health
+- environmental-quality-monitoring
+- environmental-hazard-inspection
+- contaminated-land-remediation
+- cooling-place-provision
+part_of: full-council
+type: function
+form: organisational-unit

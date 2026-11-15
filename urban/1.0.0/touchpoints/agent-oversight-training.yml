@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-oversight-training
+title: Agent Oversight Training
+medium: encounter
+summary: The training in which staff who work with or oversee agents learn to read their outputs, to notice when not to trust them,
+  to override them and to report faults.
+exchanges:
+- learning-time-for-confident-use
+journey: frontline-worker-working-beside-an-ai-agent

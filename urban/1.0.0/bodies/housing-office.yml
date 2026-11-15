@@ -1,0 +1,25 @@
+kind: body
+slug: housing-office
+title: Housing Office
+summary: Assesses housing need, shelters residents without a home, keeps the housing register and allocates homes, runs the city's
+  tenancies and repairs, supports tenant bodies and upgrades informal settlements with their residents.
+holds:
+- housing-need-and-allocation
+- tenancy-and-home-repair
+- settlement-upgrading
+- housing-need-analysis
+- emergency-shelter-placement
+- home-allocation-matching
+- tenancy-sustainment-support
+- tenancy-administration
+- home-condition-inspection
+- repair-request-handling
+- planned-maintenance-and-retrofit
+- tenant-body-support
+- settlement-enumeration
+- upgrading-plan-co-design
+- occupancy-right-recognition
+- basic-service-extension
+part_of: full-council
+type: function
+form: organisational-unit

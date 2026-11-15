@@ -1,0 +1,75 @@
+# The steering loop of the family Perception to Mandate in the urban pack, authored by the maker in the form of the
+# business pack's family loops. Its measures come with the depth (step 7).
+loop: _family.perception-to-mandate
+title: Keep the family 'Perception to Mandate' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: perception-to-mandate
+  vs:
+  - civic-identity-and-charter
+  - democratic-mandate
+  - governance-and-oversight
+  - transparency-and-public-ethics
+  - legal-affairs-and-compliance
+  - urban-risk-and-resilience
+  - whole-city-perception
+stance: The city perceives itself as a whole and holds its civic charter and mandate — identity, boundary,
+  legitimacy, openness, lawfulness and the readiness to keep its promises under threat. No single stream of this
+  family can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a source the research declares in knowledge/sources.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/perception-to-mandate
+  - value-model.yml#vs/civic-identity-and-charter
+  - value-model.yml#vs/democratic-mandate
+  - value-model.yml#vs/governance-and-oversight
+  - value-model.yml#vs/transparency-and-public-ethics
+  - value-model.yml#vs/legal-affairs-and-compliance
+  - value-model.yml#vs/urban-risk-and-resilience
+  - value-model.yml#vs/whole-city-perception
+  registry:
+  - registry/value-streams/civic-identity-and-charter.yml
+  - registry/value-streams/democratic-mandate.yml
+  - registry/value-streams/governance-and-oversight.yml
+  - registry/value-streams/transparency-and-public-ethics.yml
+  - registry/value-streams/legal-affairs-and-compliance.yml
+  - registry/value-streams/urban-risk-and-resilience.yml
+  - registry/value-streams/whole-city-perception.yml
+  loop_states:
+  - operations/loops/_state/civic-identity-and-charter.yml
+  - operations/loops/_state/democratic-mandate.yml
+  - operations/loops/_state/governance-and-oversight.yml
+  - operations/loops/_state/transparency-and-public-ethics.yml
+  - operations/loops/_state/legal-affairs-and-compliance.yml
+  - operations/loops/_state/urban-risk-and-resilience.yml
+  - operations/loops/_state/whole-city-perception.yml
+  standards: knowledge/sources.yml — edition and status of every source that informs the family's records
+authority: family-steward
+state: operations/loops/_state/_family.perception-to-mandate.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never
+  writes into the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided
+    or passed to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons does not select the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared source superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

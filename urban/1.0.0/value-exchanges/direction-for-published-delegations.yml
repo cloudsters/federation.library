@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: direction-for-published-delegations
+title: Direction for Published Delegations
+between:
+- mayor
+- city-council
+offered:
+- Direction of the administration and proposals to the council, within the rights delegated.
+returned:
+- Decision rights and delegations allocated by the council and published for residents.
+touchpoint: council-meeting

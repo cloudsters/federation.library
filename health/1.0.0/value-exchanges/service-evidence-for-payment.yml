@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-evidence-for-payment
+title: Service Evidence for Payment
+between:
+- executive
+- payer
+offered:
+- The executive offers a defined new service with expected volumes, costs and the outcome measures by which it will be judged.
+returned:
+- The payer returns an agreed payment route and volume for the service, and states the evidence it expects at review.
+touchpoint: payer-negotiation

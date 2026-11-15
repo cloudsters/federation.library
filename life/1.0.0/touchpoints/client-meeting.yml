@@ -1,0 +1,13 @@
+kind: touchpoint
+slug: client-meeting
+title: The Client Meeting
+medium: moment
+mode: spoken
+summary: A meeting with those the work is done for, about what they need, what it costs and how it went.
+exchanges:
+- service-for-fee
+- reliable-work-for-standing
+- fair-terms-for-lasting-work
+- use-for-refinement
+- disclosure-for-trust
+journey: using-the-work

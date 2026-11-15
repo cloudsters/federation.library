@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: position-description
+title: Position Description
+medium: artefact
+summary: The description of a position's tasks, skills, pay grade and decision rights, with confirmation that it is funded in the
+  workforce plan.
+exchanges:
+- position-needs-for-a-funded-vacancy
+journey: personnel-officer-filling-a-position

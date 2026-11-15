@@ -1,0 +1,39 @@
+kind: journey
+slug: city-planner-making-the-way-to-services-findable
+title: City Planner Making the Way to Services Findable
+stakeholder: city-planner
+summary: A planner walks the routes to services with the residents who get lost on them, marks the way with landmarks, textures, sounds
+  and colour as well as signs, has the routes audited by those who meet the barriers and changes what keeps people out.
+stages:
+- slug: walk-with-those-who-get-lost
+  title: Walk with Those Who Get Lost
+  goal: The landmarks, sounds, textures and stories each group uses, and the places where they get lost, are recorded on a map kept
+    with the residents who made it.
+  step: service-access-and-wayfinding/wayfinding-walks-and-mapping
+  touchpoints:
+  - wayfinding-walk
+  - published-wayfinding-map
+- slug: mark-the-way-for-every-sense
+  title: Mark the Way for Every Sense
+  goal: Decision points on the routes carry distinctive landmarks, textured paving, sound cues, colour codes and murals beside signs
+    in the languages residents use.
+  step: service-access-and-wayfinding/multisensory-wayfinding-design
+  touchpoints:
+  - wayfinding-design-workshop
+  - landmark-and-texture-route
+- slug: have-the-routes-audited
+  title: Have the Routes Audited
+  goal: Residents who meet barriers have audited the routes and service points for pay, and each finding is published with the date
+    of its removal.
+  step: service-access-and-wayfinding/resident-access-audit
+  touchpoints:
+  - resident-access-audit-walk
+  - published-access-audit
+- slug: change-what-keeps-people-out
+  title: Change What Keeps People Out
+  goal: Who reaches each service and who gets lost or is turned away is reviewed by neighbourhood and group, and points, hours, information
+    and wayfinding are changed.
+  step: service-access-and-wayfinding/access-and-reach-review
+  touchpoints:
+  - access-and-reach-review-meeting
+  - barrier-report-line

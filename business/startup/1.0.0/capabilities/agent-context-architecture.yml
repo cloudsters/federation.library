@@ -1,0 +1,6 @@
+kind: capability
+slug: agent-context-architecture
+title: Agent Context Architecture Design
+level: L3
+parent: human-agent-collaboration
+summary: Design how agents connect to systems, data and people through standard, composable interfaces.

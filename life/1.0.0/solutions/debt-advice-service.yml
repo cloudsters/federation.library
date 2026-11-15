@@ -1,0 +1,12 @@
+kind: solution
+slug: debt-advice-service
+title: Debt Advice Service
+role: institution
+sovereignty: third-party
+summary: Puts every debt on one list and negotiates new terms with those owed when the old ones can no longer be kept.
+carries:
+- facing-what-one-owes
+- keeping-one-list-of-what-is-owed
+- renegotiating-a-promise-honestly
+holds:
+- obligation

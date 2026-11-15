@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: verified-data-for-specification
+title: Verified Data for Specification
+between:
+- product-manager
+- specifier
+offered:
+- Verified technical data, samples, certificates and documentation that can be written into specifications.
+returned:
+- Specification of the offering in projects, and early word of the requirements the next design must meet.
+touchpoint: technical-specification

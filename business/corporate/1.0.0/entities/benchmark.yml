@@ -1,0 +1,30 @@
+kind: entity
+slug: benchmark
+title: Benchmark
+type: intelligence
+summary: A reference point for performance — an external or internal standard against which the organisation measures itself, enabling
+  continuous improvement through comparison.
+attributes:
+- name: measure
+  type: reference(measure)
+  card: 1..1
+- name: comparison-basis
+  type: code
+  card: 1..1
+- name: reference-value
+  type: quantity
+  card: 1..1
+- name: source
+  type: text
+  card: 1..1
+- name: vintage
+  type: date
+  card: 1..1
+states:
+- defined
+- applied
+- refreshed
+- retired
+relations:
+- type: based-on
+  target: measure

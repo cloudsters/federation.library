@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: facility-service-report
+title: Facility Service Report
+medium: artefact
+summary: The periodic report on the availability of critical installations, fault response times, inspection compliance, energy use
+  and contractor performance.
+exchanges:
+- ward-access-for-reliable-building-services
+journey: ward-team-relying-on-building-services

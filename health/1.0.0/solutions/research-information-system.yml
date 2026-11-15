@@ -1,0 +1,29 @@
+kind: solution
+slug: research-information-system
+title: Research Information System
+role: system-of-record
+summary: 'Records the organisation''s research: studies, grants from application to award, publications, inventions and their
+  transfer, and the performance indicators drawn from them.'
+carries:
+- research-performance-assessment
+- grant-application-management
+- grant-award-administration
+- research-publication
+- intellectual-property-management
+- licensing-and-commercialisation
+- spin-off-support
+holds:
+- research-study
+- research-grant
+- publication
+- invention-disclosure
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

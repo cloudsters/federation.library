@@ -1,0 +1,61 @@
+kind: entity
+slug: code-system
+title: Code System
+type: master
+summary: A terminology, classification or value list the organisation uses to code its data, such as for diagnoses, procedures, laboratory
+  tests, medication or local codes, with the version in force and the mappings maintained.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: title
+  type: text
+  card: 1..1
+- name: coding-purpose
+  type: code
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+- name: jurisdiction
+  type: code
+  card: 0..1
+- name: maintained-by
+  type: reference(organisation)
+  card: 1..1
+- name: mapped-to
+  type: reference(code-system)
+  card: 0..*
+states:
+- in-use
+- change-scheduled
+- withdrawn
+relations: []
+binds:
+- source: src-008
+  edition: '2026'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-007
+  edition: 2026-01
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-013
+  edition: '2011'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-014
+  edition: '2.2'
+  jurisdiction: global

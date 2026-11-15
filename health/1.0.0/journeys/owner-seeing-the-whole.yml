@@ -1,0 +1,51 @@
+kind: journey
+slug: owner-seeing-the-whole
+title: Owner Seeing the Whole
+stakeholder: owner
+summary: 'The owner''s side of whole-system perception: contributing its own signals, receiving one picture of the state and
+  drift of the commons, and backing corrections.'
+stages:
+- slug: contributing-owner-signals
+  title: Contributing Owner Signals
+  goal: Feed the owner's own observations, such as public concerns and financial covenants, into the picture.
+  step: whole-system-perception/signal-collection
+  touchpoints:
+  - supervisory-body-meeting
+- slug: sharing-the-policy-outlook
+  title: Sharing the Policy Outlook
+  goal: Bring the owner's knowledge of coming policy and regional development into the scan.
+  step: whole-system-perception/environment-sensing
+  touchpoints:
+  - supervisory-body-meeting
+- slug: seeing-vitality-judged
+  title: Seeing Vitality Judged
+  goal: Receive a judgement of the commons' vitality that goes beyond the financial result.
+  step: whole-system-perception/vitality-and-coherence-assessment
+  touchpoints:
+  - board-report
+- slug: learning-of-drift-early
+  title: Learning of Drift Early
+  goal: Learn of drift from the mandate or the mission while it can still be corrected.
+  step: whole-system-perception/drift-detection
+  touchpoints:
+  - board-report
+- slug: deciding-from-the-same-picture
+  title: Deciding from the Same Picture
+  goal: Decide from the same picture as the executive board and the faculty.
+  step: whole-system-perception/shared-picture
+  touchpoints:
+  - board-report
+  - supervisory-body-meeting
+- slug: backing-corrections
+  title: Backing Corrections
+  goal: Back corrections that exceed the board's own authority, such as a mandate review or a change of strategy.
+  step: whole-system-perception/corrective-decision
+  touchpoints:
+  - supervisory-body-meeting
+- slug: seeing-drift-closed
+  title: Seeing Drift Closed
+  goal: See each correction followed until the drift is closed.
+  step: whole-system-perception/correction-follow-through
+  touchpoints:
+  - board-report
+  - annual-report

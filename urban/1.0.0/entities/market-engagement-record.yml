@@ -1,0 +1,66 @@
+kind: entity
+slug: market-engagement-record
+title: Market Engagement Record
+type: transactional
+summary: The record of an open meeting with suppliers before a tender, with who took part, what was asked and answered, what keeps
+  small and new suppliers out and what it changed in the tender. The category team writes it and shares it with every bidder, so that
+  no supplier knows more than another.
+attributes:
+- name: subject
+  type: text
+  card: 1..1
+- name: category
+  type: reference(procurement-category)
+  card: 1..1
+- name: planned-purchase
+  type: reference(procurement-plan)
+  card: 0..1
+- name: held-on
+  type: date
+  card: 1..1
+- name: format
+  type: code
+  card: 1..1
+- name: participants
+  type: text
+  card: 0..*
+- name: questions-and-answers
+  type: document
+  card: 1..1
+- name: barriers-raised
+  type: text
+  card: 0..*
+- name: changes-made
+  type: text
+  card: 0..*
+- name: interest-declarations
+  type: reference(interest-declaration)
+  card: 0..*
+- name: shared-on
+  type: date
+  card: 0..1
+- name: resulting-procurement
+  type: reference(public-procurement)
+  card: 0..1
+states:
+- planned
+- announced
+- held
+- recorded
+- shared
+- closed
+relations:
+- type: refers-to
+  target: procurement-plan
+- type: refers-to
+  target: procurement-category
+- type: refers-to
+  target: interest-declaration
+- type: refers-to
+  target: public-procurement
+- type: produces
+  target: public-record
+binds:
+- source: src-635
+  edition: '2015-02-18'
+  jurisdiction: global

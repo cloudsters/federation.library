@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: bounded-mandate-for-accountable-action
+title: Bounded Mandate for Accountable Action
+between:
+- procurement-specialist
+- procurement-agent
+offered:
+- An explicit mandate with price bounds, minimum alignment, volume limits and escalation triggers.
+returned:
+- Continuous matching within the bounds, escalation when a trigger fires and a full account of every exchange.
+touchpoint: agent-mandate

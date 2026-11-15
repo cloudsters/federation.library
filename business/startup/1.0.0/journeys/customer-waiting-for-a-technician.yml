@@ -1,0 +1,22 @@
+kind: journey
+slug: customer-waiting-for-a-technician
+title: Customer Waiting for a Technician
+stakeholder: business-customer
+summary: A business customer announces planned needs and shares usage data, and in return receives an appointment within the agreed
+  response time with a qualified person who brings the parts.
+stages:
+- slug: announce-planned-needs
+  title: Announce Planned Needs
+  goal: Planned shutdowns, expansions and usage data reach the company early enough to plan capacity.
+  step: service-resource-orchestration/service-demand-forecast
+  touchpoints:
+  - account-review
+  - customer-portal
+  - remote-service-connection
+- slug: get-an-appointment
+  title: Get an Appointment
+  goal: The customer receives an appointment window within the agreed response time and is told of any change.
+  step: service-resource-orchestration/scheduling-and-dispatch
+  touchpoints:
+  - service-hotline
+  - service-appointment

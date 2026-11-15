@@ -1,0 +1,58 @@
+kind: entity
+slug: strategic-initiative
+title: Strategic Initiative
+type: transactional
+summary: A time-bound initiative, programme or project that implements part of the strategy, with a sponsor, a business case, a budget
+  and expected benefits, from proposal through stage decisions and delivery to closure or stop.
+attributes:
+- name: initiative-kind
+  type: code
+  card: 1..1
+- name: strategic-objectives
+  type: reference(strategic-objective)
+  card: 1..*
+- name: sponsor
+  type: reference(position)
+  card: 1..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: business-case
+  type: document
+  card: 0..1
+- name: approved-budget
+  type: amount
+  card: 0..1
+- name: benefit-measures
+  type: reference(measure)
+  card: 0..*
+- name: period
+  type: period
+  card: 0..1
+states:
+- proposed
+- in-appraisal
+- approved
+- in-delivery
+- on-hold
+- delivered
+- stopped
+- closed
+relations:
+- type: based-on
+  target: strategic-objective
+- type: based-on
+  target: governance-decision
+- type: part-of
+  target: strategic-initiative
+- type: governed-by
+  target: budget
+- type: refers-to
+  target: measure
+binds:
+- source: src-403
+  edition: SPfM4-2017; SPgM5-2024
+  jurisdiction: global
+- source: src-490
+  edition: 5th ed. 2020
+  jurisdiction: global

@@ -1,0 +1,26 @@
+kind: journey
+slug: employee-shaping-own-tools-on-a-shared-platform
+title: Employee Shaping Own Tools on a Shared Platform
+stakeholder: employee
+summary: An employee builds a workflow or small application on a shared low-code platform within guardrails, tests it with colleagues
+  and releases it through light change governance.
+stages:
+- slug: build-within-guardrails
+  title: Build within Guardrails
+  goal: The employee builds a tool on the shared platform using approved templates and data.
+  step: solution-lifecycle-design/solution-build
+  touchpoints:
+  - shared-development-platform
+- slug: test-with-colleagues
+  title: Test with Colleagues
+  goal: Colleagues test the tool with real cases before it is relied upon.
+  step: solution-lifecycle-design/solution-testing
+  touchpoints:
+  - user-acceptance-test
+- slug: release-safely
+  title: Release Safely
+  goal: The tool is registered and released after a proportionate review.
+  step: solution-lifecycle-design/change-and-release-approval
+  touchpoints:
+  - change-board
+  - application-inventory

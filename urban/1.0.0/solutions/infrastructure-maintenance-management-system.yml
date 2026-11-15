@@ -1,0 +1,20 @@
+kind: solution
+slug: infrastructure-maintenance-management-system
+title: Infrastructure Maintenance Management System
+role: system-of-record
+summary: Holds the schedule of inspections and preventive work for every asset, each fault report from receipt through triage to repair
+  with its published response time, the repairs with their materials and cost, the condition grades, and the findings of safety inspections
+  until each is closed.
+carries:
+- maintenance-scheduling
+- infrastructure-fault-triage
+- preventive-maintenance
+- responsive-repair
+- statutory-safety-inspection
+- condition-survey
+- maintenance-performance-review
+holds:
+- infrastructure-repair
+- fault-report
+- inspection-record
+- condition-assessment

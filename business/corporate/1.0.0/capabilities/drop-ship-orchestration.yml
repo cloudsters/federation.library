@@ -1,0 +1,7 @@
+kind: capability
+slug: drop-ship-orchestration
+title: Drop-Ship Orchestration
+level: L3
+parent: fulfilment-routing
+summary: Fulfilment without touching — routing customer orders directly from supplier to customer, eliminating the need to hold inventory
+  for items better shipped at source. The system orchestrates a three-party dance where the customer sees one seamless experience.

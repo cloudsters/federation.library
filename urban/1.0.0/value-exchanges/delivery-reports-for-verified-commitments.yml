@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: delivery-reports-for-verified-commitments
+title: Delivery Reports for Verified Commitments
+between:
+- supplier
+- contract-manager
+offered:
+- A monthly report of delivery, service levels and the jobs, wages and local hires promised.
+returned:
+- Commitments verified and recognised, and shortfalls raised early rather than at the end.
+touchpoint: monthly-contract-performance-report

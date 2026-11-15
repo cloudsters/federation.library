@@ -1,0 +1,41 @@
+kind: entity
+slug: life-blueprint
+title: Life Blueprint
+type: governance
+summary: How this life is modelled at a point in time — its families, what is true in each now, and what is intended. The blueprint
+  is the held state; the imagined futures beside it are separate records and are not versions of it.
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: what-is-true-now
+  type: text
+  card: 1..1
+- name: what-is-intended
+  type: text
+  card: 1..*
+- name: season-ahead
+  type: period
+  card: 0..1
+- name: intentions
+  type: list(intention)
+  card: 0..*
+- name: refused
+  type: reference(refused-future)
+  card: 0..1
+- name: next-look
+  type: date
+  card: 0..1
+states:
+- sketched
+- lived
+- strained
+- redrawn
+- outgrown
+relations:
+- target: self
+  type: about
+- target: life-purpose
+  type: based-on
+- target: life-blueprint
+  type: replaces

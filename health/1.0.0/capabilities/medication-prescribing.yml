@@ -1,0 +1,10 @@
+kind: capability
+slug: medication-prescribing
+title: Medication Prescribing
+level: L3
+parent: medication-use-process
+summary: Prescribe medicines electronically with the right choice, dose and adjustment for kidney, liver and age.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

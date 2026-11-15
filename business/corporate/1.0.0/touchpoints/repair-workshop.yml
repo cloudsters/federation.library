@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: repair-workshop
+title: Repair Workshop
+medium: place
+summary: The workshop where returned or faulty items are diagnosed, repaired, refurbished or remanufactured before they go back to
+  the customer or into use.
+exchanges:
+- faulty-item-for-a-fair-repair
+journey: consumer-bringing-an-item-for-repair

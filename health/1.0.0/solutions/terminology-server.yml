@@ -1,0 +1,27 @@
+kind: solution
+slug: terminology-server
+title: Terminology Server
+role: platform
+summary: Provides the code systems, value sets and mappings that all systems use to code their data, so that diagnoses, procedures,
+  findings and medications mean the same in care, billing and research.
+carries:
+- terminology-services
+- common-data-model-harmonisation
+holds:
+- code-system
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global

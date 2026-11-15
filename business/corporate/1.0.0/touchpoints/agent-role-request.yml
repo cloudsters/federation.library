@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: agent-role-request
+title: Agent Role Request
+medium: artefact
+summary: The request of a unit for an AI agent in a defined role, stating its tasks, expected benefit, the people whose work it changes
+  and the customers it may affect.
+exchanges:
+- consultation-for-accepted-change
+journey: works-council-consulted-on-an-agents-role

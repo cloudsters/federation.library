@@ -1,0 +1,39 @@
+kind: journey
+slug: street-vendor-holding-a-secure-pitch
+title: Street Vendor Holding a Secure Pitch
+stakeholder: informal-worker
+summary: A street vendor is counted as part of the life of a square, asks with others for a night market, holds a pitch allocated
+  openly with the vendors' own organisation, agrees the night hours and takes on part of the care of the square.
+stages:
+- slug: be-counted-as-public-life
+  title: Be Counted as Public Life
+  goal: Vendors are recorded as part of how the square is used rather than as an obstacle to it.
+  step: public-space-use-and-programming/public-life-observation
+  touchpoints:
+  - public-life-observation-walk
+- slug: ask-for-a-night-market
+  title: Ask for a Night Market
+  goal: The request for a weekly night market has an answer within the set time and a permit that shares the place by hours.
+  step: public-space-use-and-programming/space-use-requests
+  touchpoints:
+  - space-use-request-form
+  - shared-time-space-permit
+- slug: hold-a-pitch-allocated-openly
+  title: Hold a Pitch Allocated Openly
+  goal: The vendor holds a pitch allocated openly with the vendors' organisation, at a fair fee and safe from displacement.
+  step: public-space-use-and-programming/markets-and-street-trading
+  touchpoints:
+  - market-pitch-allocation-meeting
+  - trading-pitch-licence
+- slug: agree-the-night-hours
+  title: Agree the Night Hours
+  goal: The market's hours, sound and lighting are agreed with residents and venues.
+  step: public-space-use-and-programming/night-time-life-agreements
+  touchpoints:
+  - night-time-forum
+- slug: care-for-the-square
+  title: Care for the Square
+  goal: The vendors take on part of the care of the square by agreement.
+  step: public-space-use-and-programming/shared-care-of-public-spaces
+  touchpoints:
+  - public-space-care-group

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-level-report
+title: Service Level Report
+medium: artefact
+summary: The regular report that shows delivered service against the agreed levels, including breaches, escalations and corrective
+  actions, shared with the customer and the service owner.
+exchanges:
+- open-reporting-for-trust
+journey: customer-holding-a-service-agreement

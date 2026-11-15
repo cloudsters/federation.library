@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: skills-and-wishes-for-a-fitting-task
+title: Skills and Wishes for a Fitting Task
+between:
+- volunteer
+- city-administration
+offered:
+- The volunteer's skills, time and wishes.
+returned:
+- A task that fits them.
+touchpoint: volunteer-matching-conversation

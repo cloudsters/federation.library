@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: accounts-payable-desk
+title: Accounts Payable Desk
+medium: channel
+summary: The phone, email or portal contact through which suppliers ask about the status of invoices and payments and through which
+  differences are clarified.
+exchanges:
+- prompt-answers-for-clean-records
+- order-data-for-clean-matching
+journey: supplier-waiting-to-be-paid

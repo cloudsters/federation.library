@@ -1,0 +1,10 @@
+kind: capability
+slug: career-framework-architecture
+title: Career Framework Architecture
+level: L3
+parent: performance-and-career
+summary: Define job families, levels, career paths and the competencies attached to them.
+binds:
+- source: src-558
+  edition: '2020'
+  jurisdiction: global

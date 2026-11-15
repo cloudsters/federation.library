@@ -1,0 +1,57 @@
+kind: entity
+slug: organ-donation
+title: Organ Donation
+type: transactional
+summary: The donation of organs or tissues by a deceased or living donor, from identification and evaluation of the donor through
+  determination of death or donor work-up, authorisation and donor care to retrieval and the offer of each organ.
+attributes:
+- name: deceased-donor
+  type: reference(patient)
+  card: 0..1
+- name: living-donor
+  type: reference(donor)
+  card: 0..1
+- name: donation-pathway
+  type: code
+  card: 1..1
+- name: death-determination
+  type: reference(clinical-document)
+  card: 0..1
+- name: authorisation-basis
+  type: code
+  card: 1..1
+- name: organs
+  type: code
+  card: 1..*
+- name: retrieval
+  type: reference(procedure)
+  card: 0..*
+- name: coordinator
+  type: reference(practitioner-role)
+  card: 1..1
+states:
+- potential
+- evaluated
+- authorised
+- in-donor-care
+- retrieved
+- closed
+- not-proceeding
+relations:
+- type: refers-to
+  target: patient
+- type: based-on
+  target: informed-consent
+- type: based-on
+  target: advance-directive
+- type: governed-by
+  target: objection
+- type: produces
+  target: organ-offer
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-016
+  edition: 2.3.0
+  jurisdiction: global

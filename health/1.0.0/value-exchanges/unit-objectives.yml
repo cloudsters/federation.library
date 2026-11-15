@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: unit-objectives
+title: Unit Objectives
+between:
+- executive
+- head-of-clinical-department
+offered:
+- Objectives derived from the strategy, the resources to pursue them and the decision room the unit holds.
+returned:
+- Commitment to measurable targets, and the unit's knowledge of what is clinically and operationally feasible.
+touchpoint: unit-objectives-agreement

@@ -1,0 +1,63 @@
+kind: entity
+slug: system-interface
+title: System Interface
+type: master
+summary: A live connection through which two systems exchange data, with its specification, owner and status. The owner of the providing
+  system keeps the record, and the connection is monitored for failures and for data that no longer matches the shared definitions,
+  and closed when either system is retired.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: specification
+  type: reference(interface-specification)
+  card: 1..1
+- name: providing-system
+  type: reference(application)
+  card: 1..1
+- name: consuming-systems
+  type: reference(application)
+  card: 1..*
+- name: owner
+  type: text
+  card: 1..1
+- name: data-sets-carried
+  type: reference(data-set)
+  card: 0..*
+- name: system-identities
+  type: reference(digital-identity)
+  card: 0..*
+- name: personal-data
+  type: boolean
+  card: 1..1
+- name: processing-record
+  type: reference(processing-record)
+  card: 0..1
+- name: conformance-tested-on
+  type: date
+  card: 0..1
+- name: live-since
+  type: date
+  card: 0..1
+- name: closed-on
+  type: date
+  card: 0..1
+states:
+- specified
+- in-build
+- in-test
+- live
+- degraded
+- suspended
+- closed
+relations:
+- type: based-on
+  target: interface-specification
+- type: refers-to
+  target: application
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: digital-identity
+- type: produces
+  target: support-case

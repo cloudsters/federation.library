@@ -1,0 +1,68 @@
+kind: entity
+slug: contract-performance-report
+title: Contract Performance Report
+type: intelligence
+summary: The regular account of a contract's delivery, quality, service levels and fair-work, social and ecological commitments against
+  what was promised, with the view of its users and the findings of resident inspection. The contract manager compiles it each month
+  or quarter from the supplier's data and with workers and communities, and it is used in variations, remedies, supplier reviews and
+  the decision to renew or exit.
+attributes:
+- name: contract
+  type: reference(contract)
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: compiled-by
+  type: text
+  card: 1..1
+- name: service-level-results
+  type: document
+  card: 0..1
+- name: commitment-results
+  type: text
+  card: 0..*
+- name: local-hires
+  type: integer
+  card: 0..1
+- name: user-feedback
+  type: document
+  card: 0..1
+- name: complaints-received
+  type: integer
+  card: 0..1
+- name: inspection-findings
+  type: reference(audit-finding)
+  card: 0..*
+- name: shortfalls
+  type: text
+  card: 0..*
+- name: supplier-response
+  type: text
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- due
+- compiled
+- verified
+- published
+- answered
+relations:
+- type: refers-to
+  target: contract
+- type: based-on
+  target: service-level-agreement
+- type: refers-to
+  target: local-hiring-agreement
+- type: refers-to
+  target: wage-floor-agreement
+- type: refers-to
+  target: audit-finding
+- type: refers-to
+  target: citizen-complaint
+binds:
+- source: src-638
+  edition: '1949-06-29'
+  jurisdiction: global

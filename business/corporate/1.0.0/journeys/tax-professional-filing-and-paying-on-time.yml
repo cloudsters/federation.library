@@ -1,0 +1,37 @@
+kind: journey
+slug: tax-professional-filing-and-paying-on-time
+title: Tax Professional Filing and Paying on Time
+stakeholder: finance-professional
+summary: A tax professional assesses planned transactions, determines taxes for each entity and period, files and pays on time and
+  supports tax audits through to settlement.
+stages:
+- slug: assess-planned-transactions
+  title: Assess Planned Transactions
+  goal: The tax consequences of planned transactions are known before they are decided.
+  step: fiscal-responsibility-contribution/transaction-tax-assessment
+  touchpoints:
+  - tax-opinion
+- slug: document-internal-prices
+  title: Document Internal Prices
+  goal: Transfer prices are documented for every intercompany flow.
+  step: fiscal-responsibility-contribution/intercompany-pricing
+  touchpoints:
+  - transfer-pricing-documentation
+- slug: determine-the-taxes
+  title: Determine the Taxes
+  goal: Taxes for each period and entity are determined and provisions posted.
+  step: fiscal-responsibility-contribution/tax-determination
+  touchpoints:
+  - accounting-workbench
+- slug: file-and-pay
+  title: File and Pay
+  goal: Returns are filed and taxes paid to each authority on time.
+  step: fiscal-responsibility-contribution/return-filing-and-payment
+  touchpoints:
+  - statutory-filing
+- slug: support-the-audit
+  title: Support the Audit
+  goal: The tax audit is supported with documentation and findings are settled or contested.
+  step: fiscal-responsibility-contribution/tax-audit-handling
+  touchpoints:
+  - official-inspection

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: local-priorities-for-police-that-answer-to-residents
+title: Local Priorities for Police That Answer to Residents
+between:
+- neighbourhood-association
+- police-service
+offered:
+- The neighbourhood's safety priorities and its part in the plan.
+returned:
+- A published plan stating what the police and other services do and how the police answer to residents.
+touchpoint: neighbourhood-safety-plan-meeting

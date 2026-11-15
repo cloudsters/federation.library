@@ -1,0 +1,10 @@
+kind: capability
+slug: antimicrobial-stewardship
+title: Antimicrobial Stewardship
+level: L3
+parent: clinical-pharmacy
+summary: Promote appropriate antimicrobial use through guidance, review and feedback to prescribers.
+binds:
+- source: src-470
+  edition: '2025'
+  jurisdiction: global

@@ -1,0 +1,20 @@
+kind: body
+slug: executive-board
+title: Executive Board
+summary: The collegial body that runs the commons and answers for it as a whole. Its members lead the medical, nursing, people,
+  commercial, digital and academic portfolios and decide jointly on strategy, budget, structure and every matter that reaches
+  beyond one portfolio.
+holds:
+- strategy-and-governance
+- care-delivery
+- diagnostic-and-therapeutic-services
+- quality-and-safety
+- research-and-innovation
+- education-and-training
+- people-and-workforce
+- finance-and-funding
+- digital-and-data
+- infrastructure-and-supply
+part_of: supervisory-board
+type: board
+form: governing-body

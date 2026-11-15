@@ -1,0 +1,10 @@
+kind: capability
+slug: stroke-unit-care
+title: Stroke Unit Care
+level: L3
+parent: cardiovascular-and-stroke-care
+summary: Treat acute stroke on a specialised unit with rapid imaging, recanalisation and early rehabilitation.
+binds:
+- source: src-550
+  edition: living
+  jurisdiction: global

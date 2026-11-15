@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consented-isolation-for-offered-company
+title: Consented Isolation for Offered Company
+between:
+- older-resident
+- community-development-worker
+offered:
+- Consent to be known as someone who would welcome company or help.
+returned:
+- Neighbours and services that reach out.
+touchpoint: care-mapping-conversation

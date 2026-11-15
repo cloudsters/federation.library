@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: automated-systems-review-session
+title: Automated Systems Review Session
+medium: encounter
+summary: The public session of the automated systems review panel, with its resident majority, which authorises, conditions or refuses
+  systems, hears their monitoring reports and may require review by a person, slow a system down or suspend it.
+exchanges:
+- deliberation-for-a-binding-authorisation
+- monitoring-reports-for-continued-authority
+journey: city-administration-bringing-an-automated-system-under-assurance

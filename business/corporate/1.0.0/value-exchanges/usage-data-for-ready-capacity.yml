@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: usage-data-for-ready-capacity
+title: Usage Data for Ready Capacity
+between:
+- business-customer
+- operations-planning-agent
+offered:
+- Usage data, planned shutdowns and expected changes in need, shared early.
+returned:
+- A service load forecast that reserves skilled people and parts, so that agreed response times hold.
+touchpoint: customer-portal

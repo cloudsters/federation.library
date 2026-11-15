@@ -1,0 +1,132 @@
+kind: value-stream
+slug: civic-identity-and-charter
+title: Civic Identity and Charter
+family: perception-to-mandate
+summary: Holding what the city is and why it exists, the charter that states its purpose, values and commitments, the civic memory
+  it rests on, including the histories it once left out, and the boundary of what the municipality does, shares and leaves to others.
+trigger: A scheduled charter review, a change in the municipality's territory or powers, or a contested name, monument or memory calls
+  the city's identity into question.
+outcome: A ratified charter and boundary are published in the languages residents use, contested histories are recorded beside them,
+  and stale parts of the charter are renewed or retired.
+stakeholders:
+- city-council
+- resident
+- neighbourhood-association
+- civil-society-organisation
+- affected-community
+- future-generations
+steps:
+- slug: review-occasion
+  title: Review Occasion
+  summary: The occasion for opening the charter is established, whether a scheduled review, a change in the municipality's territory
+    or powers, a contested name or monument, or signals that the charter no longer speaks for residents, and the scope and the communities
+    to be heard are set.
+  capabilities:
+  - drift-detection
+  - participation-boundary-review
+  - city-signal-collection
+  entities:
+  - city-charter
+  - city
+  - council-decision
+  serves:
+  - council-meeting
+  - petition-portal
+- slug: civic-memory-gathering
+  title: Civic Memory Gathering
+  summary: Founding stories, the histories of the neighbourhoods and the harms the city has done or allowed, such as displacement
+    and exclusion, are gathered with those who carry them and recorded beside the official history rather than in its place.
+  capabilities:
+  - civic-memory-documentation
+  - resident-hearing
+  entities:
+  - civic-memory-record
+  - neighbourhood
+  serves:
+  - civic-memory-archive
+  - oral-history-circle
+- slug: community-hearing
+  title: Community Hearing
+  summary: Residents, neighbourhood associations, civil-society organisations and communities absent from earlier processes are heard
+    on what the city should stand for, and contested identities and the tensions between them are named before anything is drafted.
+  capabilities:
+  - resident-hearing
+  - participation-boundary-review
+  - dissent-recording
+  entities:
+  - public-consultation
+  - participation-charter
+  serves:
+  - neighbourhood-assembly
+  - public-hearing
+- slug: charter-drafting
+  title: Charter Drafting
+  summary: The charter is drafted in plain language with those who must live it, stating the city's purpose, its values, what it owes
+    residents and future generations, and how the charter itself will be reviewed.
+  capabilities:
+  - charter-drafting
+  - decision-impact-assessment
+  - rule-review
+  entities:
+  - city-charter
+  - civic-memory-record
+  serves:
+  - charter-drafting-workshop
+- slug: boundary-setting
+  title: Boundary Setting
+  summary: The boundary is stated, what the municipality does itself, what it leaves to neighbourhoods, cooperatives and partners,
+    which land and assets it holds in trust as shared commons, and who belongs to the city for the purpose of taking part.
+  capabilities:
+  - civic-boundary-definition
+  - participation-boundary-review
+  - community-body-recognition
+  entities:
+  - commons-charter
+  - city
+  - city-charter
+  serves:
+  - charter-drafting-workshop
+  - commons-boundary-map
+- slug: ratification-and-publication
+  title: Ratification and Publication
+  summary: The council adopts charter and boundary, minority positions are recorded with the resolution, and the charter is published
+    in the languages residents use and carried into names, signage and public places.
+  capabilities:
+  - charter-adoption-and-publication
+  - council-decision-recording
+  - dissent-recording
+  - place-naming-and-commemoration
+  entities:
+  - council-decision
+  - city-charter
+  - public-record
+  serves:
+  - council-meeting
+  - published-city-charter
+  - street-and-place-signage
+- slug: lived-charter-review
+  title: Lived Charter Review
+  summary: Whether council decisions, budgets and services still follow the charter is watched over time, every drift is corrected
+    with an owner, a measure and a date, and stale parts of the charter are renewed or retired.
+  capabilities:
+  - drift-detection
+  - drift-correction
+  - rule-review
+  entities:
+  - city-charter
+  - whole-city-assessment
+  - council-decision
+  serves:
+  - council-meeting
+  - state-of-the-city-report
+start: true
+binds:
+- source: src-171
+  edition: 2016+Amd1:2024
+  jurisdiction: global
+- source: src-172
+  edition: '2019'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global

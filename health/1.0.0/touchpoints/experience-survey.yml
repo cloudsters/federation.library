@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: experience-survey
+title: Experience Survey
+medium: artefact
+summary: The short questionnaire, on paper, by text message or online, through which patients and relatives rate and describe their
+  experience after an encounter.
+exchanges:
+- feedback-for-visible-change
+journey: being-asked-and-being-heard

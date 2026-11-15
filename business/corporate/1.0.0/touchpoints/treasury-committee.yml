@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: treasury-committee
+title: Treasury Committee
+medium: encounter
+summary: The meeting in which treasury exposures, funding, placements and hedges are reviewed against policy and limits.
+exchanges:
+- exposure-picture-for-hedging-limits
+journey: treasurer-keeping-cash-where-it-is-needed

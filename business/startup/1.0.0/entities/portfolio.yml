@@ -1,0 +1,43 @@
+kind: entity
+slug: portfolio
+title: Portfolio
+type: governance
+summary: A governed collection of investments — the organisation's means of balancing risk, return, and strategic alignment across all its
+  initiatives, programmes, and assets.
+attributes:
+- name: programs
+  type: reference(program)
+  card: 0..*
+- name: initiatives
+  type: reference(initiative)
+  card: 0..*
+- name: assets
+  type: reference(asset)
+  card: 0..*
+- name: investment-weights
+  type: text
+  card: 0..*
+- name: risk-ratings
+  type: code
+  card: 0..*
+- name: strategic-fit-scores
+  type: text
+  card: 0..*
+- name: resource-envelope
+  type: amount
+  card: 0..1
+- name: balance-rules
+  type: text
+  card: 0..*
+states:
+- composed
+- balanced
+- reviewed
+- rebalanced
+relations:
+- type: composed-of
+  target: program
+- type: composed-of
+  target: initiative
+- type: governed-by
+  target: strategy

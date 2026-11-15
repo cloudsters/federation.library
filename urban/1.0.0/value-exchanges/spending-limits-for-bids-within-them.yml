@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: spending-limits-for-bids-within-them
+title: Spending Limits for Bids Within Them
+between:
+- city-council
+- city-administration
+offered:
+- The adopted plan, with each department's spending limit over the coming years.
+returned:
+- Budget bids that stay within the limits and serve the city's objectives.
+touchpoint: published-medium-term-financial-plan

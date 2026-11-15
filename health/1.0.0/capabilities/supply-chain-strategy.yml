@@ -1,0 +1,10 @@
+kind: capability
+slug: supply-chain-strategy
+title: Supply Chain Strategy
+level: L3
+parent: sourcing-and-procurement
+summary: 'Set the supply chain strategy: sourcing model, logistics model, make-or-buy and outsourcing decisions.'
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

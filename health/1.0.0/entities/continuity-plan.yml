@@ -1,0 +1,40 @@
+kind: entity
+slug: continuity-plan
+title: Continuity Plan
+type: governance
+summary: The plan by which one critical service or function continues through disruption, stating its maximum tolerable outage,
+  the minimum service it must keep, its dependencies on people, systems, supplies and buildings, and its fallback and recovery.
+attributes:
+- name: critical-service
+  type: reference(care-service)
+  card: 0..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: maximum-tolerable-outage
+  type: quantity
+  card: 1..1
+- name: minimum-service-level
+  type: text
+  card: 1..1
+- name: dependencies
+  type: text
+  card: 1..*
+- name: fallback-procedures
+  type: document
+  card: 1..1
+- name: last-exercised-on
+  type: date
+  card: 0..1
+states:
+- draft
+- approved
+- activated
+- under-review
+relations:
+- type: refers-to
+  target: emergency-preparedness-plan
+- type: based-on
+  target: risk
+- type: assigned-to
+  target: organisation-unit

@@ -1,0 +1,38 @@
+kind: entity
+slug: employer-relation
+title: Employer Relation
+type: master
+summary: 'An organisation this person''s time is contracted to. Held as an exchange partner rather than a community: what is agreed,
+  what is actually expected, and the distance between the two.'
+attributes:
+- name: role-held
+  type: text
+  card: 1..1
+- name: since
+  type: date
+  card: 0..1
+- name: terms
+  type: reference(contract)
+  card: 0..1
+- name: agreed
+  type: text
+  card: 0..*
+- name: actually-expected
+  type: text
+  card: 0..*
+- name: hours-actually-given
+  type: duration
+  card: 0..1
+- name: pay
+  type: money
+  card: 0..1
+states:
+- considered
+- joined
+- working within
+- renegotiating
+- leaving
+- left
+relations:
+- target: contract
+  type: based-on

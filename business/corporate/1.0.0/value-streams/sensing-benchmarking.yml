@@ -1,0 +1,95 @@
+kind: value-stream
+slug: sensing-benchmarking
+title: Sensing & Benchmarking
+family: collaboration-to-automation
+summary: 'Deciding what good performance means and whether it is achieved: indicators are designed to resist gaming, measured and
+  validated each period, compared with peers and reviewed together, and every material gap is answered with action.'
+trigger: A measurement period ends, an indicator is defined or changed, or a benchmarking study is commissioned.
+outcome: Validated indicators and benchmarks are reported to their owners, and every material gap is answered with action.
+stakeholders:
+- executive-board
+- supervisory-board
+- site-manager
+- finance-professional
+- sector-association
+steps:
+- slug: measurement-strategy
+  title: Measurement Strategy
+  summary: The organisation decides what it watches across customers, operations, finance, people and environment, and states for
+    each area why it matters and who owns it.
+  capabilities:
+  - performance-sensing-design
+  entities:
+  - objective
+  - kpi
+  - strategy
+  serves:
+  - supervisory-board-meeting
+- slug: indicator-definition
+  title: Indicator Definition
+  summary: Each indicator is specified with population, calculation, data source, owner and target, and tested for how it could be
+    gamed before it is adopted.
+  capabilities:
+  - performance-sensing-design
+  entities:
+  - measure
+  - kpi
+  - objective
+  serves:
+  - indicator-specification
+- slug: measurement-and-validation
+  title: Measurement and Validation
+  summary: Results are calculated each period from the analytical data, checked for completeness and plausibility and confirmed with
+    their owners before release.
+  capabilities:
+  - process-measure-interpretation
+  entities:
+  - measure-report
+  - measure
+  - data-product
+  serves:
+  - performance-dashboard
+- slug: benchmark-study
+  title: Benchmark Study
+  summary: Results and practices are compared with peers and reference values, and the study records how others achieve their results
+    and what may be learned from it in this context.
+  capabilities:
+  - benchmarking-as-learning
+  entities:
+  - benchmark
+  - measure-report
+  - market-insight
+  serves:
+  - benchmark-exchange
+- slug: performance-review
+  title: Performance Review
+  summary: Units and governance bodies review customer, operational, financial, people and impact results together at a regular cadence,
+    with trends, peer position and the causes behind notable values.
+  capabilities:
+  - integrated-performance-review
+  - process-measure-interpretation
+  entities:
+  - dashboard
+  - measure-report
+  - benchmark
+  - governance-decision
+  serves:
+  - board-meeting
+  - performance-dashboard
+  - performance-review-meeting
+  - supervisory-board-meeting
+- slug: gap-response
+  title: Gap Response
+  summary: Every material gap receives an action with an owner and a date, and indicators whose meaning has drifted from the reality
+    they stood for are revised or retired.
+  capabilities:
+  - process-measure-interpretation
+  - performance-sensing-design
+  entities:
+  - plan
+  - kpi
+  - measure
+  - governance-decision
+  serves:
+  - performance-review-meeting
+  - supervisory-board-meeting

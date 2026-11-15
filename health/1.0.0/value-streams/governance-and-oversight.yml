@@ -1,0 +1,155 @@
+kind: value-stream
+slug: governance-and-oversight
+title: Governance and Oversight
+family: perception-to-mandate
+summary: 'Constituting and running the bodies that direct and supervise the organisation: the charter, executive and supervisory
+  boards, committees, delegation of authority, the clinical governance framework, internal audit and the cooperation with
+  the medical faculty.'
+trigger: A statutory or annual governance cycle begins, or a body, delegation or rule of procedure must be created, changed
+  or reviewed.
+outcome: Decision rights are documented and in force, every body is properly constituted, and oversight findings are reported
+  and acted on.
+stakeholders:
+- owner
+- executive
+- university
+- staff-representation
+- head-of-clinical-department
+- legal-risk-and-compliance-professional
+steps:
+- slug: body-constitution
+  title: Body Constitution
+  summary: 'The governing bodies are constituted under the charter: executive board, supervisory body, committees and joint
+    bodies with the faculty, each with its mandate, membership, rules of procedure and the seats held by owner, staff and
+    university.'
+  capabilities:
+  - governance-body-design
+  - hospital-and-faculty-cooperation
+  - co-determination-cooperation
+  - subsidiary-governance
+  - legal-advisory
+  entities:
+  - charter
+  - governance-body
+  - organisation
+  - contract
+  serves:
+  - joint-university-committee
+  - staff-consultation
+  - supervisory-body-meeting
+- slug: decision-rights-allocation
+  title: Decision Rights Allocation
+  summary: Decision rights and approval limits are assigned from the bodies to the executive, the departments and the functions,
+    and the clinical governance framework states how quality, risk and accountability are held from board to ward.
+  capabilities:
+  - delegation-of-authority
+  - clinical-governance-framework
+  - clinical-leadership-structure
+  - organisation-design
+  - care-operations-governance
+  - policy-lifecycle-management
+  entities:
+  - decision-right
+  - policy
+  - organisation-unit
+  - position
+  - governance-body
+  serves:
+  - joint-university-committee
+  - policy-library
+  - supervisory-body-meeting
+- slug: decision-preparation
+  title: Decision Preparation
+  summary: Matters for decision are prepared with the facts, options, legal assessment and risk view they need, and the bodies
+    receive reporting that shows the state of the whole organisation.
+  capabilities:
+  - board-communication-reporting
+  - integrated-performance-review
+  - whole-system-state-perception
+  - legal-advisory
+  - risk-oversight-and-coordination
+  entities:
+  - governance-decision
+  - whole-system-assessment
+  - dashboard
+  - risk
+  - financial-statement
+  serves:
+  - board-meeting
+  - board-report
+- slug: deliberation-and-resolution
+  title: Deliberation and Resolution
+  summary: The bodies deliberate within their rights and resolve, recording basis, vote and conditions, with the faculty taking
+    part in every decision that touches research and teaching.
+  capabilities:
+  - delegation-of-authority
+  - hospital-and-faculty-cooperation
+  - owner-relations
+  - co-determination-cooperation
+  - subsidiary-governance
+  entities:
+  - governance-decision
+  - governance-body
+  - decision-right
+  serves:
+  - board-meeting
+  - joint-university-committee
+  - supervisory-body-meeting
+- slug: internal-control-and-audit
+  title: Internal Control and Audit
+  summary: Internal controls secure that decisions are carried out and reporting is reliable, and internal audit examines
+    them on a risk-based plan and reports its findings independently to the board and the supervisory body.
+  capabilities:
+  - internal-controls-design
+  - controls-monitoring
+  - audit-lifecycle-management
+  - controls-reporting
+  - compliance-assurance
+  entities:
+  - internal-control
+  - audit
+  - audit-finding
+  - compliance-obligation
+  serves:
+  - audit-committee-meeting
+  - internal-audit-report
+- slug: implementation-oversight
+  title: Implementation Oversight
+  summary: The implementation of resolutions and of corrective actions from audits is tracked to closure, and the supervisory
+    body holds the executive to account for both.
+  capabilities:
+  - controls-reporting
+  - audit-lifecycle-management
+  - board-communication-reporting
+  - integrated-performance-review
+  entities:
+  - governance-decision
+  - corrective-action
+  - audit-finding
+  serves:
+  - annual-report
+  - board-meeting
+  - supervisory-body-meeting
+- slug: governance-effectiveness-review
+  title: Governance Effectiveness Review
+  summary: The composition, competence and working of the bodies, the fit of decision rights and the governance of subsidiaries
+    are reviewed, and the findings change the bodies, the delegations or the charter.
+  capabilities:
+  - board-effectiveness-review
+  - governance-body-design
+  - subsidiary-governance
+  - delegation-of-authority
+  entities:
+  - governance-body
+  - decision-right
+  - charter
+  - audit
+  - audit-finding
+  serves:
+  - joint-university-committee
+  - supervisory-body-meeting
+start: true
+binds:
+- source: src-331
+  edition: '2024'
+  jurisdiction: global

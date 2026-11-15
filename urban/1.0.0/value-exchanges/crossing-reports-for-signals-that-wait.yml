@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: crossing-reports-for-signals-that-wait
+title: Crossing Reports for Signals That Wait
+between:
+- older-resident
+- infrastructure-operator
+offered:
+- Older residents' reports of crossings where the green light ends before they reach the kerb.
+returned:
+- Signals that give people walking priority and time enough to cross.
+touchpoint: pedestrian-crossing-signal

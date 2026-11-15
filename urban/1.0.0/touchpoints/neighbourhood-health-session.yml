@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-health-session
+title: Neighbourhood Health Session
+medium: encounter
+summary: A session in a home, community centre or market in which a community health worker teaches neighbours about health in their
+  language and guides them through health services.
+exchanges:
+- questions-for-health-confidence
+journey: community-health-worker-keeping-the-neighbourhood-well

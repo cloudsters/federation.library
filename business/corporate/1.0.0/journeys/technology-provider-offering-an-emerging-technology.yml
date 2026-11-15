@@ -1,0 +1,27 @@
+kind: journey
+slug: technology-provider-offering-an-emerging-technology
+title: Technology Provider Offering an Emerging Technology
+stakeholder: technology-provider
+summary: A provider of an emerging technology is found through scouting, proves what its technology can do in a testbed under real
+  conditions and agrees how it will be licensed or supplied once it is mature enough.
+stages:
+- slug: be-found
+  title: Be Found
+  goal: The provider's technology is understood for what it can do, and its maturity is assessed fairly.
+  step: research-and-technology-development/technology-scouting
+  touchpoints:
+  - trade-fair
+  - scouting-conversation
+- slug: prove-it-in-a-testbed
+  title: Prove It in a Testbed
+  goal: The technology is tried under real operating conditions, with engineering support from the provider and measured results shared.
+  step: research-and-technology-development/testbed-trial
+  touchpoints:
+  - testbed
+- slug: agree-licence-or-supply
+  title: Agree Licence or Supply
+  goal: A technology that has matured is licensed or supplied on agreed terms, and one that has not receives a candid account of why.
+  step: research-and-technology-development/maturity-review-and-transfer
+  touchpoints:
+  - technology-maturity-review
+  - contract-negotiation

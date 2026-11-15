@@ -1,0 +1,28 @@
+kind: journey
+slug: own-record-journey
+title: Own Record Journey
+stakeholder: person-with-chronic-condition
+summary: A patient finds letters and results from their own care, asks for the full record when needed, proves entitlement once and
+  receives a complete copy within the legal deadline, with every release logged.
+stages:
+- slug: find-own-information
+  title: Find Own Information
+  goal: See letters and results from own care in the portal and the shared record.
+  step: health-record-management/capture-during-care
+  touchpoints:
+  - patient-portal
+  - patient-held-health-record
+- slug: ask-for-the-record
+  title: Ask for the Record
+  goal: Ask for the record easily and prove entitlement once.
+  step: health-record-management/request-validation
+  touchpoints:
+  - patient-portal
+  - medical-records-office
+- slug: receive-the-record
+  title: Receive the Record
+  goal: Receive a complete, readable copy within the deadline and know who has seen the record.
+  step: health-record-management/release-and-logging
+  touchpoints:
+  - record-copy
+  - patient-portal

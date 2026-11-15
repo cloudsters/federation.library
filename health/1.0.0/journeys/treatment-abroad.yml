@@ -1,0 +1,64 @@
+kind: journey
+slug: treatment-abroad
+title: Treatment Abroad
+stakeholder: international-patient
+summary: 'The side of a person who travels from another country for treatment: from a first request and an assessment before travelling,
+  through a known cost, a coordinated stay and a handover home, to follow-up at a distance.'
+stages:
+- slug: making-contact
+  title: Making Contact
+  goal: Reach someone who understands the request in a language the patient speaks, and know which records to send.
+  step: international-patient-services/enquiry-and-records-intake
+  touchpoints:
+  - international-patient-office
+- slug: learning-whether-the-commons-can-help
+  title: Learning Whether the Commons Can Help
+  goal: Hear from a specialist, before travelling, whether treatment here makes sense, what it involves and how long it takes.
+  step: international-patient-services/medical-pre-assessment
+  touchpoints:
+  - telemedicine-service
+  - international-patient-office
+- slug: knowing-the-cost
+  title: Knowing the Cost
+  goal: Have a cost estimate and know which deposit or guarantee is needed, so that the decision to travel can be made.
+  step: international-patient-services/cost-estimate-and-payment-guarantee
+  touchpoints:
+  - cost-estimate
+  - international-patient-office
+- slug: preparing-the-journey
+  title: Preparing the Journey
+  goal: Have confirmed dates, a letter for travel and visa, lodging for companions and someone waiting on arrival.
+  step: international-patient-services/travel-and-admission-planning
+  touchpoints:
+  - treatment-confirmation-letter
+  - international-patient-office
+- slug: being-treated
+  title: Being Treated
+  goal: Understand and agree to each step of treatment, with one person to turn to throughout the stay.
+  step: international-patient-services/coordinated-treatment
+  touchpoints:
+  - admission-desk
+  - consultation
+  - consent-form
+  - ward
+- slug: going-home
+  title: Going Home
+  goal: Leave fit to travel, with documents the doctor at home can read and a plan for what follows.
+  step: international-patient-services/discharge-and-handover-home
+  touchpoints:
+  - discharge-letter
+  - medication-plan
+- slug: settling-the-account
+  title: Settling the Account
+  goal: Receive a final account that matches the estimate or explains every difference.
+  step: international-patient-services/account-settlement
+  touchpoints:
+  - cost-estimate
+  - international-patient-office
+- slug: staying-connected
+  title: Staying Connected
+  goal: Reach the treating team after return, receive late results and have follow-up without travelling again.
+  step: international-patient-services/remote-follow-up
+  touchpoints:
+  - telemedicine-service
+  - international-patient-office

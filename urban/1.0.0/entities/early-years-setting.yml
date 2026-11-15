@@ -1,0 +1,66 @@
+kind: entity
+slug: early-years-setting
+title: Early-Years Setting
+type: master
+summary: A place where young children learn and are cared for, such as a nursery, a neighbourhood childcare group or a care space
+  in a school or community building, with its places, hours and who runs it. The body that runs it keeps the record together with
+  the city, and it is used to plan early-years places.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: setting-kind
+  type: code
+  card: 1..1
+- name: run-by
+  type: text
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 1..1
+- name: places
+  type: integer
+  card: 1..1
+- name: age-range
+  type: text
+  card: 1..1
+- name: opening-hours
+  type: text
+  card: 1..*
+- name: languages
+  type: code
+  card: 0..*
+- name: charge
+  type: amount
+  card: 0..1
+- name: shared-use
+  type: reference(shared-use-agreement)
+  card: 0..1
+- name: registered-on
+  type: date
+  card: 0..1
+states:
+- planned
+- registered
+- open
+- full
+- paused
+- closed
+relations:
+- type: part-of
+  target: neighbourhood
+- type: refers-to
+  target: building
+- type: refers-to
+  target: school
+- type: refers-to
+  target: community-centre
+- type: governed-by
+  target: shared-use-agreement
+binds:
+- source: src-251
+  edition: '1989-11-20'
+  jurisdiction: global

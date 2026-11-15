@@ -1,0 +1,75 @@
+kind: value-stream
+slug: practice-to-pattern
+title: Keeping What Worked
+family: collaboration-to-automation
+summary: Turning what worked once into something reachable the next time — by this person and by anyone else who needs it.
+trigger: The person solves a problem they are sure they have solved before, or someone asks how something was done and the answer
+  is gone.
+outcome: What worked once can be found and used again, by the person and by anyone else who needs it, and what has stopped working
+  is marked as such.
+stakeholders:
+- collaborator
+- mentee
+- synthetic-collaborator
+- community
+- descendant
+steps:
+- slug: solving-it-again
+  title: Solving It Again
+  summary: The person solves a problem they are sure they have solved before, or someone asks how something was done and the answer
+    is gone.
+  capabilities:
+  - noticing-a-repeat
+  entities:
+  - pattern-log
+  serves:
+  - working-side-by-side
+- slug: catching-what-worked
+  title: Catching What Worked
+  summary: Right after something goes well, writing down what was done, under which conditions, and what nearly went wrong.
+  capabilities:
+  - catching-what-worked
+  entities:
+  - pattern-log
+  - journal
+- slug: making-it-usable-by-others
+  title: Making It Usable by Others
+  summary: Writing it so that someone else, a mentee, a colleague or an agent, could follow it without the person in the room.
+  capabilities:
+  - writing-for-a-later-reader
+  - catching-what-worked
+  entities:
+  - pattern-log
+  - agent
+  - mentee-relation
+  serves:
+  - shared-document
+- slug: putting-it-where-it-is-found
+  title: Putting It Within Reach
+  summary: Keeping it in the place where the next person will look when the problem returns, not merely where it was first written.
+  capabilities:
+  - keeping-knowledge-findable
+  entities:
+  - pattern-log
+  - technology-policy
+  serves:
+  - shared-document
+- slug: using-it-and-improving-it
+  title: Using It and Improving It
+  summary: Reaching for the pattern next time, and changing it whenever reality teaches something it did not yet know.
+  capabilities:
+  - learning-from-what-came-before
+  entities:
+  - pattern-log
+  - by-product
+  serves:
+  - shared-document
+- slug: marking-what-stopped-working
+  title: Marking What Stopped Working
+  summary: Noting when a pattern no longer fits, and retiring it openly so nobody follows it into an old mistake.
+  capabilities:
+  - retiring-what-no-longer-works
+  entities:
+  - pattern-log
+  serves:
+  - shared-document

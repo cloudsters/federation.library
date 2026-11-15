@@ -1,0 +1,24 @@
+id: release
+term: Release
+layer: what
+kind: concept
+definition: 'The third act and what it makes: a model, installed whole, or an extract of patterns, cut from an emulation
+  and taken through a library''s gate into a copy that never changes, with its record and its bill.'
+why: 'Holger, 3 November 2026 (commons.o#109, comment 6602880861). A release is cut only from an emulation, never from a
+  runtime, with a person accountable for it; its record, release.yml, names the emulation and the commit as its source.
+  A model has no tiers (commons.o#110, comment 6626536835, T1): what its maker gives out as no copy stays in the maker''s
+  knowledge/, served by the MCP under a grant. As a folder name it is rejected, since a folder names the origin of what
+  it holds, not the act (6600137634). In German, Release.'
+relations:
+  of: model
+  from: emulation
+  held_in: commons-library
+  after: build
+not:
+- a release of the runtime, which is never released
+- a profile, which retires
+status: draft
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

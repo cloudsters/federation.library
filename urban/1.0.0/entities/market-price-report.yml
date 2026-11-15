@@ -1,0 +1,59 @@
+kind: entity
+slug: market-price-report
+title: Market Price Report
+type: intelligence
+summary: The aggregated price ranges, cost benchmarks and demand signals drawn from vendors' pooled data, published so that no single
+  vendor's prices can be read from it. The data cooperative the vendors own prepares it with the markets service, and it is used by
+  vendors and buyers to see fair prices and by the market review to compare prices, incomes and footfall.
+attributes:
+- name: period
+  type: period
+  card: 1..1
+- name: markets
+  type: reference(market)
+  card: 1..*
+- name: goods
+  type: code
+  card: 1..*
+- name: price-ranges
+  type: document
+  card: 1..1
+- name: cost-benchmarks
+  type: document
+  card: 0..1
+- name: demand-signals
+  type: text
+  card: 0..*
+- name: contributing-vendors
+  type: integer
+  card: 1..1
+- name: minimum-group-size
+  type: integer
+  card: 1..1
+- name: other-outlet-prices
+  type: document
+  card: 0..1
+- name: footfall
+  type: integer
+  card: 0..1
+- name: data-agreement
+  type: reference(data-sharing-agreement)
+  card: 1..1
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- collecting
+- aggregated
+- checked
+- published
+- superseded
+relations:
+- type: based-on
+  target: data-sharing-agreement
+- type: refers-to
+  target: market
+- type: refers-to
+  target: market-day
+- type: refers-to
+  target: cooperative

@@ -1,0 +1,19 @@
+kind: solution
+slug: professional-services-automation-system
+title: Professional Services Automation System
+role: system-of-record
+summary: 'Runs service engagements from initiation to completion: scoping, staffing, time and material recording, delivery milestones
+  and the handover to billing.'
+carries:
+- resource-capacity-planning
+- service-capability-enablement
+- service-completion-harvest
+- service-delivery-as-craft
+- service-demand-sensing
+- service-initiation
+- service-strategy-design
+- engagement-management
+- billable-time-and-material-recording
+holds:
+- project
+- timesheet

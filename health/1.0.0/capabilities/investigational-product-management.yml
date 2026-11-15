@@ -1,0 +1,11 @@
+kind: capability
+slug: investigational-product-management
+title: Investigational Product Management
+level: L3
+parent: clinical-trials
+summary: Receive, store, prepare, dispense, account for and return or destroy investigational products in line with the protocol and
+  its blinding.
+binds:
+- source: src-037
+  edition: r3-2025-01-06
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: corporate-card
+title: Corporate Card
+medium: artefact
+summary: The payment card issued to an employee for business spending, whose transactions are matched to receipts and checked against
+  policy.
+exchanges:
+- receipts-for-prompt-reimbursement
+journey: employee-claiming-expenses

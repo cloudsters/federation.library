@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: tenant-inspection-for-a-standard-the-city-keeps
+title: Tenant Inspection for a Standard the City Keeps
+between:
+- tenant
+- housing-officer
+offered:
+- Tenants' time to set the standard of a livable home and to inspect their buildings against it.
+returned:
+- A standard the housing office keeps to and reports on, and training for the tenants who inspect.
+touchpoint: tenant-body-meeting

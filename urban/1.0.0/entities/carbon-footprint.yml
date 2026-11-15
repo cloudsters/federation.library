@@ -1,0 +1,53 @@
+kind: entity
+slug: carbon-footprint
+title: City Carbon Footprint
+type: intelligence
+summary: The yearly account of the greenhouse gas emissions of the city, by source and by neighbourhood, including those embedded
+  in what it buys and builds. The environment department compiles it with the finance department, and it feeds the ecological cost
+  ledger and the assessment of the budget.
+attributes:
+- name: reporting-year
+  type: period
+  card: 1..1
+- name: accounting-method
+  type: code
+  card: 1..1
+- name: total-emissions
+  type: quantity
+  card: 1..1
+- name: emissions-by-source
+  type: document
+  card: 1..1
+- name: emissions-by-neighbourhood
+  type: document
+  card: 0..1
+- name: embedded-emissions
+  type: quantity
+  card: 0..1
+- name: reduction-target
+  type: quantity
+  card: 0..1
+- name: verified-by
+  type: text
+  card: 0..1
+- name: compiled-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- measured
+- compiled
+- verified
+- published
+- corrected
+relations:
+- type: refers-to
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: city-objective
+- type: produces
+  target: public-record

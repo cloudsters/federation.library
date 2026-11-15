@@ -1,0 +1,66 @@
+kind: entity
+slug: dependency-map
+title: Digital Dependency Map
+type: intelligence
+summary: The map, made with residents, staff and technicians, of the networks, servers, sensors and services the city and its neighbourhoods
+  depend on, and of where a single failure would stop essential services. The administration convenes the mapping with neighbourhood
+  bodies and keeps the map current, and it shows where the architecture and the continuity plans need redundancy and offline fallbacks.
+attributes:
+- name: area-covered
+  type: text
+  card: 1..1
+- name: neighbourhoods
+  type: reference(neighbourhood)
+  card: 0..*
+- name: networks-mapped
+  type: reference(digital-network)
+  card: 0..*
+- name: systems-mapped
+  type: reference(application)
+  card: 0..*
+- name: services-mapped
+  type: reference(digital-service)
+  card: 0..*
+- name: sensors-mapped
+  type: reference(sensor)
+  card: 0..*
+- name: dependencies
+  type: document
+  card: 1..1
+- name: single-points-of-failure
+  type: text
+  card: 0..*
+- name: essential-services-at-risk
+  type: text
+  card: 0..*
+- name: mapped-with
+  type: text
+  card: 1..*
+- name: mapped-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- convened
+- mapped
+- validated
+- published
+- updated
+- superseded
+relations:
+- type: refers-to
+  target: digital-network
+- type: refers-to
+  target: digital-service
+- type: refers-to
+  target: sensor
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: community-asset-map
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global

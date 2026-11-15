@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: technology-maturity-review
+title: Technology Maturity Review
+medium: encounter
+summary: The review in which the maturity of a technology is judged, and it is handed to offering design, licensed out or closed with
+  its findings documented.
+exchanges:
+- funded-question-for-honest-evidence
+- matured-technology-for-a-place-in-an-offering
+journey: development-engineer-maturing-a-new-technology

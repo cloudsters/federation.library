@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: research-evidence-for-questions-from-practice
+title: Research Evidence for Questions from Practice
+between:
+- research-institution
+- city-administration
+offered:
+- Research findings on practices the city uses or might adopt.
+returned:
+- Questions drawn from real practice and access to the variation between the city's services.
+touchpoint: practice-variation-scan

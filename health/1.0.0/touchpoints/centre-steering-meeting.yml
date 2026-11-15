@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: centre-steering-meeting
+title: Centre Steering Meeting
+medium: encounter
+summary: The regular meeting of the centre lead, participating departments, partners and patient representatives that decides on pathways,
+  targets and the response to audit findings.
+exchanges:
+- patient-voice-in-the-centre
+- centre-coordination
+journey: centre-lead-journey

@@ -1,0 +1,82 @@
+kind: value-stream
+slug: feeling-to-response
+title: The Pause before Acting
+family: demand-to-fulfillment
+summary: The gap between what arrives and what the person does with it. Emotion is not noise in the system; it is the sensing layer,
+  and the pause between feeling and acting is where a life is governed.
+trigger: A reaction leaves damage the person did not intend, or a feeling floods in that has no name and decides the next hour.
+outcome: Feelings are noticed and named as they arrive, and there is a pause in which the person chooses what to do with them.
+stakeholders:
+- partner
+- child
+- close-friend
+- practitioner
+steps:
+- slug: looking-at-the-reaction
+  title: Looking at the Reaction
+  summary: After a reaction has left damage, the person looks at it honestly instead of explaining it away or blaming the other.
+  capabilities:
+  - owning-ones-reactions
+  entities:
+  - conflict
+  - journal
+  - pattern-log
+- slug: feeling-it-arrive
+  title: Feeling It Arrive
+  summary: The person learns to sense a feeling in the body as it rises, as heat, tightness or speed, before it decides the next hour.
+  capabilities:
+  - listening-to-the-body
+  - naming-what-one-feels
+  entities:
+  - body
+  - mood-record
+- slug: naming-the-feeling
+  title: Naming the Feeling
+  summary: The feeling is given its exact name, and the story told about it is told apart from what actually happened.
+  capabilities:
+  - naming-what-one-feels
+  - telling-story-from-event
+  entities:
+  - mood-record
+  - journal
+  - life-narrative
+- slug: taking-the-pause
+  title: Taking the Pause
+  summary: Between the feeling and the act the person takes a breath, a step back or a night, and lets the first impulse pass.
+  capabilities:
+  - pausing-before-acting
+  entities:
+  - emotional-state
+  - habit-record
+- slug: choosing-the-response
+  title: Choosing the Response
+  summary: 'In the pause the person chooses what to do with the feeling: say it, act on it, wait, or let it go.'
+  capabilities:
+  - choosing-a-response
+  - pausing-before-acting
+  entities:
+  - decision
+  - conversation
+  - emotional-state
+- slug: running-a-state-on-purpose
+  title: Running a State on Purpose
+  summary: The person keeps a few tried ways of reaching calm, courage or focus deliberately, and uses them when a moment calls for
+    one.
+  capabilities:
+  - calling-up-a-chosen-state
+  entities:
+  - emotional-state
+  - spiritual-practice
+  - daily-rhythm
+- slug: mending-what-was-damaged
+  title: Mending What Was Damaged
+  summary: When a reaction did harm anyway, the person goes back, names their part in it and makes repair.
+  capabilities:
+  - making-amends
+  entities:
+  - repair
+  - conflict
+  - partner-relation
+  - child-relation
+  serves:
+  - saying-sorry

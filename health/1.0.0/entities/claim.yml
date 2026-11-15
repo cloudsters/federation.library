@@ -1,0 +1,54 @@
+kind: entity
+slug: claim
+title: Claim
+type: transactional
+summary: The bill sent to a payer for a patient's case, built from diagnoses, procedures, case group and charges, and tracked through
+  submission, review, payment and dispute.
+attributes:
+- name: claim-identifier
+  type: identifier
+  card: 1..1
+- name: encounter
+  type: reference(encounter)
+  card: 1..1
+- name: payer
+  type: reference(payer-organisation)
+  card: 1..1
+- name: insurance-coverage
+  type: reference(insurance-coverage)
+  card: 1..1
+- name: case-group
+  type: reference(case-group)
+  card: 0..1
+- name: diagnoses
+  type: reference(diagnosis)
+  card: 1..*
+- name: claimed-amount
+  type: amount
+  card: 1..1
+- name: submitted-on
+  type: date
+  card: 0..1
+states:
+- draft
+- coded
+- submitted
+- rejected
+- under-review
+- paid
+- partially-paid
+- disputed
+- cancelled
+- written-off
+relations:
+- type: governed-by
+  target: payer-agreement
+- type: governed-by
+  target: coding-rule
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

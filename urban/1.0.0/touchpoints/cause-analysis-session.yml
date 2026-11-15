@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: cause-analysis-session
+title: Cause Analysis Session
+medium: encounter
+summary: The session in which the staff who run a service and those affected look for the causes of a serious or repeated failure
+  in the process, the tools and the conditions of work.
+exchanges:
+- frontline-account-for-causes-not-blame
+- affected-view-for-a-removed-cause
+journey: resident-met-by-a-service-failure

@@ -1,0 +1,51 @@
+kind: journey
+slug: city-administration-replacing-a-legacy-system
+title: City Administration Replacing a Legacy System
+stakeholder: city-administration
+summary: A department asks for a new tool, has it checked against the roadmap and the architecture, sources it from open code first,
+  has it built and connected, takes it live in stages, shares its code and retires the system it replaces with its data kept.
+stages:
+- slug: ask-for-the-tool
+  title: Ask for the Tool
+  goal: The request is checked against the roadmap and the architecture and has a delivery mandate with a named owner.
+  step: digital-solution-delivery-and-renewal/digital-demand-intake
+  touchpoints:
+  - digital-request-form
+  - demand-review-meeting
+- slug: source-open-code-first
+  title: Source Open Code First
+  goal: Open code already used by peer cities was considered first, and any contract makes the city owner of its data and releases
+    the code it funds under an open licence.
+  step: digital-solution-delivery-and-renewal/open-source-first-sourcing
+  touchpoints:
+  - open-tender-notice
+  - software-contract-negotiation
+- slug: build-and-connect-the-tool
+  title: Build and Connect the Tool
+  goal: The solution is built or configured, connected through published interfaces and mapped to the shared definitions.
+  step: digital-solution-delivery-and-renewal/solution-build-and-configuration
+  touchpoints:
+  - working-software-demonstration
+- slug: go-live-in-stages
+  title: Go Live in Stages
+  goal: Staff and residents have tested the tool, it is live in stages with training and help, and it is stable before handover to
+    operations.
+  step: digital-solution-delivery-and-renewal/acceptance-and-go-live
+  touchpoints:
+  - acceptance-test-session
+  - launch-help-point
+- slug: share-the-code
+  title: Share the Code
+  goal: The code, interfaces and data schemas are in the city's public repository, and improvements from peer cities are taken back.
+  step: digital-solution-delivery-and-renewal/code-publication-and-sharing
+  touchpoints:
+  - city-code-repository-site
+  - shared-code-community-meeting
+- slug: retire-the-old-system
+  title: Retire the Old System
+  goal: The old system is closed with its data moved or archived in open formats, its contract ended and its records kept for their
+    required periods.
+  step: digital-solution-delivery-and-renewal/legacy-system-retirement
+  touchpoints:
+  - retirement-notice
+  - software-contract-negotiation

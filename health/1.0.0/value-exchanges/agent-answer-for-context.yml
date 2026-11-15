@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: agent-answer-for-context
+title: Agent Answer for Context
+between:
+- patient-assistant-agent
+- relative
+offered:
+- An answer at any hour, in the relative's language, on services, visiting, preparation and contacts, with handover to a person when
+  the question needs one.
+returned:
+- The relative's question and context, which show what information is missing, and their trust when the handover to a person works.
+touchpoint: patient-portal

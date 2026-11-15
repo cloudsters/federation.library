@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: consent-for-relevant-contact
+title: Consent for Relevant Contact
+between:
+- prospective-customer
+- sales-assistant-agent
+offered:
+- Consent and stated preferences for what they hear and how often.
+returned:
+- Only relevant messages at the chosen frequency, and an unsubscribe that works at once.
+touchpoint: preference-centre

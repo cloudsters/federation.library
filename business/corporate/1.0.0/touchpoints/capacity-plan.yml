@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: capacity-plan
+title: Capacity Plan
+medium: artefact
+summary: The shared view of the skills and available time of people and agents against approved work, where overload, idle capacity
+  and competing claims on the same hands become visible.
+exchanges:
+- honest-availability-for-protected-focus
+- capacity-signals-for-confirmed-plans
+journey: planning-agent-balancing-human-and-agent-capacity

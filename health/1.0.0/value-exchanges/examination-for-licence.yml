@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: examination-for-licence
+title: Examination for Licence
+between:
+- health-regulator
+- health-professions-student
+offered:
+- The licensing authority offers a fair examination and, on success, the licence to practise.
+returned:
+- The graduate returns demonstrated competence that protects the public who will rely on it.
+touchpoint: final-examination

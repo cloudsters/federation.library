@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: supply-contract
+title: Supply Contract
+medium: artefact
+summary: The signed agreement with a supplier that sets prices, service levels, delivery, warranty, liability and exit terms, against
+  which orders, receipts and invoices are checked.
+exchanges:
+- service-contract-for-assured-uptime
+- supply-security-for-long-term-commitment
+- pooled-terms-for-committed-volume
+- responsible-sourcing-for-living-systems
+- contract-terms-for-assured-orders
+- verified-medicines-for-reliable-orders
+journey: bidding-in-a-supply-tender

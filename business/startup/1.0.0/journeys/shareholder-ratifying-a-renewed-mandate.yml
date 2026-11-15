@@ -1,0 +1,45 @@
+kind: journey
+slug: shareholder-ratifying-a-renewed-mandate
+title: Shareholder Ratifying a Renewed Mandate
+stakeholder: shareholder
+summary: An owner sees the organisation's identity reopened, brings intent and horizon into the hearing, weighs the proposed boundary
+  and charter, votes on them and later judges whether the company still keeps the mandate it was given.
+stages:
+- slug: see-the-review-called
+  title: See the Review Called
+  goal: The owner knows why identity and boundary are being reopened, by whom and by when a decision is due.
+  step: boundary-sensing-identity-design/review-occasion
+  touchpoints:
+  - shareholder-meeting
+- slug: state-owner-intent
+  title: State Owner Intent
+  goal: The owner's intent, time horizon and limits of risk have been heard alongside the other stakeholders.
+  step: boundary-sensing-identity-design/stakeholder-need-hearing
+  touchpoints:
+  - stakeholder-dialogue
+- slug: weigh-the-boundary
+  title: Weigh the Boundary
+  goal: The owner understands what the organisation will and will not do and which entities carry it.
+  step: boundary-sensing-identity-design/boundary-setting
+  touchpoints:
+  - boundary-map
+- slug: read-the-charter
+  title: Read the Charter
+  goal: The owner sees what owners are promised next to what customers, staff and neighbours are promised.
+  step: boundary-sensing-identity-design/stakeholder-charter-drafting
+  touchpoints:
+  - stakeholder-charter
+- slug: vote-on-the-mandate
+  title: Vote on the Mandate
+  goal: The owners have adopted the renewed identity and the register shows the result.
+  step: boundary-sensing-identity-design/ratification-and-publication
+  touchpoints:
+  - shareholder-meeting
+  - company-register-entry
+- slug: hold-the-company-to-it
+  title: Hold the Company to It
+  goal: Each year the owner can see whether decisions and conduct still follow the adopted mandate.
+  step: boundary-sensing-identity-design/mandate-vitality-review
+  touchpoints:
+  - annual-report
+  - shareholder-meeting

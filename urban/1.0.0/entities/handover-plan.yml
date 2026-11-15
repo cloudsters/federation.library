@@ -1,0 +1,60 @@
+kind: entity
+slug: handover-plan
+title: Handover Plan
+type: transactional
+summary: The plan for passing a role's tasks, relationships, open matters, the reasons behind past decisions and system access from
+  the holder to the successor. The holder and the successor write it together under the succession plan, and it is used to hand the
+  role over and to keep its knowledge for those who follow.
+attributes:
+- name: role
+  type: reference(position)
+  card: 0..1
+- name: civic-body-role
+  type: text
+  card: 0..1
+- name: holder
+  type: text
+  card: 1..1
+- name: successor
+  type: text
+  card: 1..1
+- name: tasks
+  type: text
+  card: 1..*
+- name: relationships
+  type: text
+  card: 0..*
+- name: open-matters
+  type: text
+  card: 0..*
+- name: decision-reasons
+  type: reference(knowledge-article)
+  card: 0..*
+- name: access-to-transfer
+  type: reference(digital-identity)
+  card: 0..*
+- name: overlap-period
+  type: period
+  card: 0..1
+- name: completed-on
+  type: date
+  card: 0..1
+states:
+- planned
+- in-overlap
+- handed-over
+- access-transferred
+- closed
+relations:
+- type: based-on
+  target: succession-plan
+- type: refers-to
+  target: position
+- type: produces
+  target: knowledge-article
+- type: refers-to
+  target: digital-identity
+binds:
+- source: src-233
+  edition: '2018'
+  jurisdiction: global

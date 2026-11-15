@@ -1,0 +1,51 @@
+kind: journey
+slug: placing-a-trial-at-the-site
+title: Placing a Trial at the Site
+stakeholder: industry-partner
+summary: The sponsor's path from choosing the site to closing it with verified data and registered results.
+stages:
+- slug: finding-a-capable-site
+  title: Finding a Capable Site
+  goal: Find a site that can recruit the target number of eligible patients on time.
+  step: clinical-trials/protocol-and-feasibility
+  touchpoints:
+  - study-protocol
+- slug: securing-approvals-and-contract
+  title: Securing Approvals and Contract
+  goal: Obtain approvals and a signed contract without avoidable delay.
+  step: clinical-trials/approvals-and-contracts
+  touchpoints:
+  - research-collaboration-agreement
+- slug: initiating-the-site
+  title: Initiating the Site
+  goal: See the site trained, supplied and ready to enrol.
+  step: clinical-trials/site-start-up
+  touchpoints:
+  - sponsor-site-visit
+- slug: watching-recruitment
+  title: Watching Recruitment
+  goal: See recruitment progress against plan and act early on shortfalls.
+  step: clinical-trials/recruitment-and-consent
+  touchpoints:
+  - study-data-capture
+- slug: overseeing-conduct-and-safety
+  title: Overseeing Conduct and Safety
+  goal: Receive complete safety information within the required timelines.
+  step: clinical-trials/trial-conduct-and-safety
+  touchpoints:
+  - study-data-capture
+  - sponsor-site-visit
+- slug: verifying-the-data
+  title: Verifying the Data
+  goal: Obtain verified data, free of open queries and ready for analysis.
+  step: clinical-trials/monitoring-and-data-management
+  touchpoints:
+  - sponsor-site-visit
+  - study-data-capture
+- slug: closing-the-site
+  title: Closing the Site
+  goal: Close the site with products reconciled, records archived and results registered.
+  step: clinical-trials/close-out-and-results
+  touchpoints:
+  - sponsor-site-visit
+  - study-register-entry

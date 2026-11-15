@@ -1,0 +1,41 @@
+kind: journey
+slug: resident-mending-instead-of-buying
+title: Resident Mending Instead of Buying
+stakeholder: resident
+summary: A resident mends things at a repair point, borrows tools and parts, learns from open guides and classes, returns products
+  at the end of use and brings old textiles and metal to a remaking hub.
+stages:
+- slug: mend-at-a-repair-point
+  title: Mend at a Repair Point
+  goal: The resident has mended a broken item with the help of volunteers at a repair point in the neighbourhood.
+  step: repair-reuse-and-sharing/neighbourhood-repair-points
+  touchpoints:
+  - neighbourhood-repair-cafe
+  - mobile-repair-unit
+- slug: borrow-tools-and-parts
+  title: Borrow Tools and Parts
+  goal: The resident has borrowed the tool and found the part a repair needs without buying them.
+  step: repair-reuse-and-sharing/tool-libraries-and-spare-parts
+  touchpoints:
+  - tool-library-counter
+  - spare-parts-pool
+- slug: learn-to-repair
+  title: Learn to Repair
+  goal: The resident can repair the next item alone, from open guides and a class.
+  step: repair-reuse-and-sharing/repair-knowledge-and-skills
+  touchpoints:
+  - open-repair-guides
+  - repair-skills-class
+- slug: return-at-the-end-of-use
+  title: Return at the End of Use
+  goal: Products that cannot be mended are returned to their producers, who recover their parts and materials.
+  step: repair-reuse-and-sharing/producer-take-back-and-repair-duties
+  touchpoints:
+  - take-back-point
+- slug: bring-textiles-and-metal
+  title: Bring Textiles and Metal
+  goal: Old clothes and scrap metal are sorted and remade at a neighbourhood hub rather than thrown away.
+  step: repair-reuse-and-sharing/neighbourhood-remaking-hubs
+  touchpoints:
+  - textile-and-metal-drop-off
+  - remaking-hub-workshop

@@ -1,0 +1,36 @@
+kind: entity
+slug: client-relation
+title: Client Relation
+type: master
+summary: 'A person or organisation this life serves for a return. The relation carries its own failure mode: the work can be loved,
+  done well and genuinely valuable while the return stays out of proportion to it.'
+attributes:
+- name: served-since
+  type: date
+  card: 0..1
+- name: what-is-done
+  type: text
+  card: 1..*
+- name: terms
+  type: reference(contract)
+  card: 0..1
+- name: came-through
+  type: text
+  card: 0..1
+- name: return-in-proportion
+  type: boolean
+  card: 0..1
+- name: last-came-back
+  type: date
+  card: 0..1
+states:
+- approached
+- engaged
+- returning
+- strained
+- ended
+relations:
+- target: contract
+  type: based-on
+- target: offering
+  type: based-on

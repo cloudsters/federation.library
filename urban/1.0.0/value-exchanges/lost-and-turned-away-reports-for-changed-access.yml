@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: lost-and-turned-away-reports-for-changed-access
+title: Lost and Turned-Away Reports for Changed Access
+between:
+- resident
+- city-administration
+offered:
+- Reports of getting lost, being turned away or meeting a barrier.
+returned:
+- Changes to service points, hours, information or wayfinding, and an answer on what was done.
+touchpoint: barrier-report-line

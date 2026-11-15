@@ -1,0 +1,10 @@
+kind: capability
+slug: hazardous-substance-safety
+title: Hazardous Substance Safety
+level: L3
+parent: occupational-health-and-safety
+summary: Assess and control staff exposure to hazardous substances.
+binds:
+- source: src-090
+  edition: 2018-a1-2024
+  jurisdiction: global

@@ -1,0 +1,60 @@
+kind: entity
+slug: job-vacancy
+title: Job Vacancy
+type: transactional
+summary: A position opened for filling, with its description, grade, criteria, closing date and the outreach made for it. The personnel
+  function publishes it in plain language and in the languages residents speak, and it is used to receive applications and to report
+  against local hiring targets.
+attributes:
+- name: vacancy-number
+  type: identifier
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: description
+  type: document
+  card: 1..1
+- name: pay-grade
+  type: code
+  card: 1..1
+- name: selection-criteria
+  type: text
+  card: 1..*
+- name: languages-published
+  type: code
+  card: 1..*
+- name: outreach-channels
+  type: text
+  card: 0..*
+- name: local-hiring-agreement
+  type: reference(local-hiring-agreement)
+  card: 0..1
+- name: published-on
+  type: date
+  card: 0..1
+- name: closing-date
+  type: date
+  card: 1..1
+states:
+- requested
+- approved
+- published
+- closed
+- filled
+- withdrawn
+relations:
+- type: refers-to
+  target: position
+- type: governed-by
+  target: workforce-plan
+- type: governed-by
+  target: local-hiring-agreement
+- type: governed-by
+  target: language-access-policy
+- type: produces
+  target: job-application
+binds:
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global

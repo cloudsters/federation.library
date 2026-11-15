@@ -1,0 +1,33 @@
+kind: journey
+slug: site-manager-planning-the-sites-future
+title: Site Manager Planning the Site's Future
+stakeholder: site-manager
+summary: A site manager shapes the strategy for the site's assets, bids for investment, plans space with its users and runs the facility
+  so that people can work well.
+stages:
+- slug: shape-the-asset-strategy
+  title: Shape the Asset Strategy
+  goal: The site's long-term needs for assets and buildings are part of the strategy.
+  step: asset-lifecycle-planning/asset-and-property-strategy
+  touchpoints:
+  - board-meeting
+- slug: bid-for-investment
+  title: Bid for Investment
+  goal: Replacement and expansion needs are brought into the investment plan with business cases.
+  step: asset-lifecycle-planning/asset-investment-plan
+  touchpoints:
+  - investment-proposal
+  - board-meeting
+- slug: plan-space-with-its-users
+  title: Plan Space with Its Users
+  goal: Space is allocated by agreed rules and designed with the people who use it.
+  step: asset-lifecycle-planning/space-and-facility-planning
+  touchpoints:
+  - workplace
+- slug: run-the-site
+  title: Run the Site
+  goal: Building systems and workplace services run reliably and requests are answered.
+  step: asset-lifecycle-planning/facility-operation-and-workplace-services
+  touchpoints:
+  - facility-service-desk
+  - workplace

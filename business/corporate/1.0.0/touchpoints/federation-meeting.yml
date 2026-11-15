@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: federation-meeting
+title: Federation Meeting
+medium: encounter
+summary: The meeting of the stewards of local instances with the shared origin, to exchange adaptations, plan updates and keep the
+  federation connected.
+exchanges:
+- federation-support-for-shared-adaptations
+journey: partner-running-a-federated-instance

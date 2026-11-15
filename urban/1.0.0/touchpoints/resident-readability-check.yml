@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: resident-readability-check
+title: Resident Readability Check
+medium: encounter
+summary: A short session in which residents read a draft notice and say what they understood, so that it is rewritten before release.
+exchanges:
+- test-reading-for-clearer-information
+journey: communications-officer-keeping-the-city-account-true

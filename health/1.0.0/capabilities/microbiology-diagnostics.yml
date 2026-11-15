@@ -1,0 +1,10 @@
+kind: capability
+slug: microbiology-diagnostics
+title: Microbiology Diagnostics
+level: L3
+parent: specialised-laboratory-services
+summary: Identify pathogens and their resistance and advise clinicians on the treatment of infections.
+binds:
+- source: src-327
+  edition: '16.1'
+  jurisdiction: global

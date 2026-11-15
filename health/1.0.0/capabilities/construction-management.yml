@@ -1,0 +1,13 @@
+kind: capability
+slug: construction-management
+title: Construction Management
+level: L3
+parent: estate-development
+summary: Oversee construction quality, safety, cost and records.
+binds:
+- source: src-093
+  edition: '2018'
+  jurisdiction: global
+- source: src-315
+  edition: '2020'
+  jurisdiction: global

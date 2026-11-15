@@ -1,0 +1,13 @@
+kind: capability
+slug: hospital-accreditation
+title: Hospital Accreditation
+level: L3
+parent: quality-system
+summary: Prepare for, achieve and maintain organisation-wide quality accreditation or certification.
+binds:
+- source: src-076
+  edition: '2022'
+  jurisdiction: global
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contact-record-view
+title: Contact Record View
+medium: channel
+summary: The view in the resident's account, or on paper at a service point, of what the city keeps about their contacts, where they
+  can correct it, limit it and withdraw consent.
+exchanges:
+- consent-for-a-record-under-the-residents-control
+journey: resident-finding-a-way-through-what-they-owe

@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: assisted-online-guidance
+title: Assisted Online Guidance
+between:
+- patient-assistant-agent
+- relative
+offered:
+- Answers to routine questions at any hour, guidance through the portal and handover to a person whenever a question is clinical or
+  urgent.
+returned:
+- Questions and feedback that show where information is missing, and use of digital channels by those who act for a patient.
+touchpoint: patient-portal

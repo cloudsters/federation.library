@@ -1,0 +1,58 @@
+kind: entity
+slug: contract-register
+title: Contract Register
+type: master
+summary: The public register of every contract the city holds, with supplier, value, term, commitments, variations and end date. The
+  procurement office keeps it, and it is used to plan renewals in time, to track what suppliers committed to and to open contracts
+  to resident inspection.
+attributes:
+- name: kept-by
+  type: text
+  card: 1..1
+- name: contracts
+  type: reference(contract)
+  card: 0..*
+- name: variations
+  type: reference(contract-variation)
+  card: 0..*
+- name: contract-count
+  type: integer
+  card: 0..1
+- name: total-contract-value
+  type: amount
+  card: 0..1
+- name: entry-fields
+  type: text
+  card: 1..*
+- name: publication-threshold
+  type: amount
+  card: 0..1
+- name: renewal-notice-period
+  type: quantity
+  card: 0..1
+- name: update-rhythm
+  type: code
+  card: 1..1
+- name: published-version
+  type: document
+  card: 0..1
+- name: last-updated-on
+  type: date
+  card: 1..1
+states:
+- established
+- maintained
+- published
+- under-audit
+- archived
+relations:
+- type: composed-of
+  target: contract
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: contract-variation
+- type: governed-by
+  target: disclosure-policy
+- type: produces
+  target: public-record

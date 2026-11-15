@@ -1,0 +1,64 @@
+kind: entity
+slug: debt-instrument
+title: Debt Instrument
+type: transactional
+summary: A loan or bond the city has taken, including bonds sold to residents in small amounts, with its lender, terms, interest and
+  repayment dates. The treasury raises and services it within the borrowing strategy, and it is reviewed each year for refinancing.
+attributes:
+- name: instrument-number
+  type: identifier
+  card: 1..1
+- name: instrument-kind
+  type: code
+  card: 1..1
+- name: lenders
+  type: text
+  card: 1..*
+- name: principal
+  type: amount
+  card: 1..1
+- name: currency
+  type: code
+  card: 1..1
+- name: interest-rate
+  type: decimal
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: repayment-schedule
+  type: document
+  card: 1..1
+- name: outstanding-balance
+  type: amount
+  card: 1..1
+- name: financed-projects
+  type: reference(capital-project)
+  card: 0..*
+- name: contract
+  type: reference(contract)
+  card: 1..1
+- name: refinanced-instrument
+  type: reference(debt-instrument)
+  card: 0..1
+states:
+- planned
+- approved
+- raised
+- servicing
+- refinanced
+- repaid
+- defaulted
+relations:
+- type: governed-by
+  target: borrowing-strategy
+- type: based-on
+  target: contract
+- type: based-on
+  target: council-decision
+- type: refers-to
+  target: capital-project
+binds:
+- source: src-204
+  edition: '2014'
+  jurisdiction: global

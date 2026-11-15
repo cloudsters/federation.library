@@ -1,0 +1,12 @@
+kind: capability
+slug: critical-infrastructure-security-compliance
+title: Critical Infrastructure Security Compliance
+level: L3
+parent: information-security
+summary: Meet and evidence the security and resilience duties of a hospital designated as critical infrastructure, across clinical
+  systems, networked medical devices and building control systems, through registration, regular independent audit and notification
+  of significant incidents.
+binds:
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

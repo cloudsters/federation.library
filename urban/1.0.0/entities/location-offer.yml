@@ -1,0 +1,59 @@
+kind: entity
+slug: location-offer
+title: Location Offer
+type: master
+summary: The city's statement, often shared with its neighbouring municipalities, of what it offers to enterprises, institutions and
+  returning residents and which investment it seeks. The economic development office keeps it from evidence and from the city profile,
+  and it is used to answer enquiries honestly and to promote the region together rather than by tax breaks.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: strategy
+  type: reference(economic-development-strategy)
+  card: 1..1
+- name: offers
+  type: text
+  card: 1..*
+- name: limits
+  type: text
+  card: 1..*
+- name: investment-sought
+  type: text
+  card: 1..*
+- name: audiences
+  type: code
+  card: 1..*
+- name: evidence
+  type: document
+  card: 0..*
+- name: sites
+  type: reference(land-parcel|building)
+  card: 0..*
+- name: partner-municipalities
+  type: text
+  card: 0..*
+- name: regional-agreement
+  type: reference(cross-boundary-agreement)
+  card: 0..1
+- name: languages
+  type: code
+  card: 1..*
+- name: published-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- reviewed
+- published
+- revised
+- retired
+relations:
+- type: based-on
+  target: economic-development-strategy
+- type: based-on
+  target: city-profile
+- type: refers-to
+  target: cross-boundary-agreement
+- type: refers-to
+  target: public-asset-register

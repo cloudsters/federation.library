@@ -1,0 +1,58 @@
+kind: entity
+slug: take-back-record
+title: Take-Back Record
+type: transactional
+summary: The record of products and packaging a supplier took back at the end of use under the take-back clauses of its contract,
+  and of what was repaired, refurbished, recovered or disposed of. The supplier reports it and the contract manager checks it, and
+  what remains goes to the city's material recovery.
+attributes:
+- name: contract
+  type: reference(contract)
+  card: 1..1
+- name: supplier
+  type: reference(supplier-record)
+  card: 1..1
+- name: taken-back-on
+  type: date
+  card: 1..1
+- name: items
+  type: text
+  card: 1..*
+- name: quantity-taken-back
+  type: quantity
+  card: 1..1
+- name: quantity-repaired
+  type: quantity
+  card: 0..1
+- name: quantity-refurbished
+  type: quantity
+  card: 0..1
+- name: quantity-recovered
+  type: quantity
+  card: 0..1
+- name: quantity-disposed
+  type: quantity
+  card: 0..1
+- name: quantity-to-city-recovery
+  type: quantity
+  card: 0..1
+- name: evidence
+  type: document
+  card: 0..*
+states:
+- scheduled
+- collected
+- reported
+- verified
+- closed
+relations:
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: supplier-record
+- type: refers-to
+  target: material-passport
+- type: refers-to
+  target: waste-system
+- type: refers-to
+  target: waste-metrics

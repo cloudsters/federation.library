@@ -1,0 +1,109 @@
+kind: value-stream
+slug: intelligence-cultivation
+title: Intelligence Building
+family: portfolio-to-system
+summary: 'Turning data into insight that changes decisions: data are collected, prepared and modelled, analysed together with the
+  people who will use the result, reported with recommended actions and kept current as a shared analytical capability.'
+trigger: A unit needs an analysis, a model or a new analytical capability to support a decision.
+outcome: A validated analysis or data product supports the decision and is kept current.
+stakeholders:
+- executive-board
+- site-manager
+- finance-professional
+- information-technology-specialist
+- operations-planning-agent
+steps:
+- slug: decision-need-framing
+  title: Decision Need Framing
+  summary: The requesting unit and the analysts name the decision the work must serve, the questions and hypotheses behind it, the
+    scope and the criteria by which the result will be judged.
+  capabilities:
+  - analytics-strategy-design
+  - insight-as-decision-support
+  entities:
+  - objective
+  - kpi
+  - plan
+  serves:
+  - analysis-request
+- slug: data-collection
+  title: Data Collection
+  summary: Structured and unstructured data are gathered from operational systems, surveys and outside sources into the governed analytical
+    platform, with origin, owner and access rules recorded.
+  capabilities:
+  - purposeful-data-gathering
+  - analytical-data-platform
+  entities:
+  - data-product
+  - application
+  - interface
+  serves:
+  - analytics-platform
+- slug: data-preparation
+  title: Data Preparation
+  summary: The data are cleaned, deduplicated, brought into one comparable format and validated, so that every later result rests
+    on data whose quality is known.
+  capabilities:
+  - data-readiness-validation
+  entities:
+  - data-product
+  - data-model
+  serves:
+  - analytics-platform
+- slug: model-building-and-review
+  title: Model Building and Review
+  summary: Analysts build the data and analytic models, review them with the stakeholders who will rely on them and refine them until
+    they represent the original question.
+  capabilities:
+  - shared-data-model-design
+  - data-model-validation-dialogue
+  - data-model-revision
+  - predictive-analytics
+  entities:
+  - data-model
+  - analytics-model
+  - prediction
+  serves:
+  - model-review-session
+- slug: analysis-and-sense-making
+  title: Analysis and Sense-Making
+  summary: The data are analysed with methods that reveal patterns, trends and outliers, compared with the hypotheses and forecasts,
+    and interpreted together with the people closest to the work.
+  capabilities:
+  - hypothesis-led-analysis
+  - collective-intelligence
+  entities:
+  - analytics-model
+  - prediction
+  - measure
+  serves:
+  - sense-making-workshop
+- slug: insight-reporting
+  title: Insight Reporting
+  summary: Findings are summarised and visualised for the decision-makers, together with the remedial actions they suggest, and the
+    decision taken on them is recorded.
+  capabilities:
+  - findings-communication
+  - insight-as-decision-support
+  - corrective-action-ownership
+  entities:
+  - report
+  - dashboard
+  - governance-decision
+  serves:
+  - board-meeting
+  - insight-report
+- slug: model-upkeep
+  title: Model Upkeep
+  summary: Models and data products in use are watched for drift and bias and refreshed, and the analytical skills, tools and platform
+    are developed for the next questions.
+  capabilities:
+  - model-monitoring-and-drift
+  - analytics-capability-development
+  - analytical-data-platform
+  entities:
+  - analytics-model
+  - data-product
+  - skill
+  serves:
+  - analytics-platform

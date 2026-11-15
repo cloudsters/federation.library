@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: land-value-map-for-neighbourhood-knowledge
+title: Land Value Map for Neighbourhood Knowledge
+between:
+- finance-officer
+- neighbourhood-association
+offered:
+- The map of land values across the city and their rise since the baseline.
+returned:
+- Reports of vacant buildings, changes of use and sales that the records miss.
+touchpoint: public-land-value-map

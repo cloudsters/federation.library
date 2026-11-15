@@ -1,0 +1,11 @@
+kind: solution
+slug: media-monitoring-system
+title: Media Monitoring System
+role: system-of-insight
+summary: Follows what residents, local, community and outside media and online channels say about the city by topic and neighbourhood,
+  sets it beside surveys and residents' own accounts, and prepares the reputation report.
+carries:
+- public-conversation-monitoring
+- reputation-gap-assessment
+holds:
+- reputation-report

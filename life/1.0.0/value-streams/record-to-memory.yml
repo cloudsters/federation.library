@@ -1,0 +1,87 @@
+kind: value-stream
+slug: record-to-memory
+title: The Personal Archive
+family: portfolio-to-system
+summary: The personal archive — notes, photographs, letters, documents — kept so that it can still be found and read in twenty years,
+  by the person or by whoever comes after.
+trigger: A photograph, letter or document cannot be found when it matters, or a parent dies and leaves boxes nobody can read, or a
+  device fails and takes years with it.
+outcome: What the person wants remembered is kept where it can still be found and read long after, by them or by whoever comes next,
+  and the rest is let go on purpose.
+stakeholders:
+- descendant
+- partner
+- child
+- parent
+- authority
+- provider
+steps:
+- slug: when-something-is-lost
+  title: When Something Is Lost
+  summary: A photograph, letter or document cannot be found when it matters, or a device fails, and the person feels how much of their
+    past rests on chance.
+  capabilities:
+  - sensing-what-could-be-lost
+  entities:
+  - device
+  - journal
+  - personal-archive
+- slug: gathering-the-scattered
+  title: Gathering the Scattered
+  summary: Bringing together what lies in boxes, old phones, inboxes and cloud accounts, including what a parent left behind, into
+    one place where it can at least be seen.
+  capabilities:
+  - gathering-scattered-records
+  entities:
+  - device
+  - ancestor
+  - parent-relation
+  - personal-archive
+  serves:
+  - family-archive
+  - online-account
+- slug: deciding-what-is-worth-keeping
+  title: Deciding What Is Worth Keeping
+  summary: Choosing what the person wants remembered and letting the rest go on purpose, rather than keeping everything and finding
+    nothing.
+  capabilities:
+  - choosing-what-to-remember
+  - letting-things-go
+  entities:
+  - life-narrative
+  - journal
+  - personal-archive
+- slug: giving-things-names-and-dates
+  title: Giving Things Names and Dates
+  summary: Adding who, where and when to photographs and papers while someone still knows, so a stranger can read the record later.
+  capabilities:
+  - writing-for-a-later-reader
+  entities:
+  - life-narrative
+  - ancestor
+  - personal-archive
+  serves:
+  - asking-an-elder
+  - family-archive
+- slug: keeping-it-readable
+  title: Keeping It Readable
+  summary: Storing what is kept in forms and places that outlive any one device or service, with a second copy somewhere else.
+  capabilities:
+  - keeping-records-readable
+  entities:
+  - technology-policy
+  - device
+  - personal-archive
+- slug: leaving-the-way-in
+  title: Leaving the Way In
+  summary: Telling someone where the archive is and how to open it, so it does not disappear with the person or with a password.
+  capabilities:
+  - leaving-a-way-in
+  entities:
+  - handover
+  - will
+  - child-relation
+  - personal-archive
+  serves:
+  - emergency-folder
+  - the-will

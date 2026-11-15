@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: team-care-check-in
+title: Team Care Check-In
+medium: encounter
+summary: The regular team meeting in which members say who has carried the care work and pass it on in turn.
+exchanges:
+- named-care-work-for-a-shared-load
+journey: frontline-worker-staying-well-in-a-demanding-role

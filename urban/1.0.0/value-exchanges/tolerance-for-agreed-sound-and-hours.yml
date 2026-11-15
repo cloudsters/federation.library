@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: tolerance-for-agreed-sound-and-hours
+title: Tolerance for Agreed Sound and Hours
+between:
+- neighbourhood-association
+- event-organiser
+offered:
+- The neighbourhood's tolerance of an event in its streets.
+returned:
+- Sound limits and hours agreed with it and written into the permit.
+touchpoint: sound-and-hours-agreement

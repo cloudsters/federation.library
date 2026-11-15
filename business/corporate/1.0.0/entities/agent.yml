@@ -1,0 +1,35 @@
+kind: entity
+slug: agent
+title: Agent
+type: governance
+summary: 'An intelligent governance perspective — whether human or AI, the agent sits at a dimension and governs with awareness of
+  the whole. Purpose, Participation, Proposition, Production: four seats, four voices, one board.'
+attributes:
+- name: dimensional-seat
+  type: code
+  card: 1..1
+- name: mandate
+  type: reference(agent-mandate)
+  card: 0..1
+- name: sensing-instruments
+  type: text
+  card: 0..*
+- name: escalation-triggers
+  type: text
+  card: 0..*
+- name: review-cycle
+  type: code
+  card: 0..1
+states:
+- seated
+- mandated
+- operating
+- escalating
+- reviewed
+- re-mandated
+- retired
+relations:
+- type: governed-by
+  target: agent-mandate
+- type: governed-by
+  target: cognitive-mandate

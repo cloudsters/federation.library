@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: petition-portal
+title: Petition Portal
+medium: channel
+summary: The channel, online and on paper, through which residents file petitions and requests, including petitions for a vote or
+  a recall and requests to rename a place, and follow their answer.
+exchanges:
+- complaints-and-answers-for-a-traced-signal
+- contested-names-for-shared-signage
+- signatures-for-an-answer-in-time
+journey: resident-giving-and-judging-the-mandate

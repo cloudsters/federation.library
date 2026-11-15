@@ -1,0 +1,61 @@
+kind: entity
+slug: borrowing-strategy
+title: Borrowing Strategy
+type: governance
+summary: The council's rules for what the city may borrow for, its limit on debt service as a share of its own income, the spread
+  of repayment dates and the conditions it will not accept because they would give lenders a say over its decisions. The treasury
+  drafts it and reviews the debt held against it each year, and every loan and bond is raised within it.
+attributes:
+- name: strategy-period
+  type: period
+  card: 1..1
+- name: permitted-purposes
+  type: text
+  card: 1..*
+- name: debt-service-limit
+  type: decimal
+  card: 1..1
+- name: debt-ceiling
+  type: amount
+  card: 0..1
+- name: repayment-spread
+  type: text
+  card: 0..1
+- name: preferred-lender-kinds
+  type: code
+  card: 0..*
+- name: excluded-conditions
+  type: text
+  card: 1..*
+- name: currency-rules
+  type: text
+  card: 0..1
+- name: community-bond-rules
+  type: text
+  card: 0..1
+- name: legal-basis
+  type: code
+  card: 1..1
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- assessed
+- adopted
+- in-force
+- reviewed
+- amended
+- superseded
+relations:
+- type: based-on
+  target: medium-term-financial-plan
+- type: based-on
+  target: fiscal-sustainability-report
+- type: refers-to
+  target: capital-investment-plan
+- type: governed-by
+  target: obligation-register

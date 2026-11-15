@@ -1,0 +1,139 @@
+kind: value-stream
+slug: process-improvement-and-automation
+title: Process Improvement and Automation
+family: collaboration-to-automation
+summary: 'Making clinical and administrative processes leaner and more reliable: process modelling and mining, improvement projects,
+  standard work, and automation of rule-based tasks where it is safe and useful.'
+trigger: A process shows waste, delay, error or excessive workload, or an automation opportunity is proposed.
+outcome: The redesigned or automated process is in use, and its gains are measured and sustained.
+stakeholders:
+- executive
+- head-of-clinical-department
+- registered-nurse
+- administrative-staff
+- health-informatics-specialist
+- quality-and-safety-manager
+- staff-representation
+steps:
+- slug: opportunity-intake
+  title: Opportunity Intake
+  summary: Signals of waste, delay, error or excessive workload and staff ideas are collected, sized and prioritised against strategy
+    and capacity, and each selected opportunity gets a sponsor and a process owner.
+  capabilities:
+  - employee-suggestions
+  - process-performance-management
+  - initiative-evaluation-and-selection
+  - it-demand-management
+  - process-governance
+  entities:
+  - improvement-initiative
+  - measure-report
+  serves:
+  - staff-idea-channel
+- slug: current-state-analysis
+  title: Current-State Analysis
+  summary: The process as it actually runs is mapped with the people who do the work and reconstructed from system event logs, and
+    waiting, rework, handoffs and variation are quantified.
+  capabilities:
+  - process-definition
+  - process-mining-discovery
+  - lean-improvement
+  - workload-estimation
+  entities:
+  - process-model
+  - dataset
+  - measure-report
+  serves:
+  - process-mapping-workshop
+- slug: future-state-design
+  title: Future-State Design
+  summary: The team designs the future process and its standard work, removes steps that add no value, and assesses each rule-based
+    task for automation, including its risks and the fallback if automation fails.
+  capabilities:
+  - process-improvement
+  - lean-improvement
+  - process-automation
+  - hazard-assessment
+  - solution-architecture
+  entities:
+  - process-model
+  - improvement-initiative
+  - risk
+  serves:
+  - process-mapping-workshop
+- slug: automation-build-and-test
+  title: Automation Build and Test
+  summary: Selected tasks are automated on the integration platform or in the application concerned, with a technical identity, least-privilege
+    access, logging and a tested fallback, and are tested end to end.
+  capabilities:
+  - process-automation
+  - solution-build-and-test
+  - integration-platform-operation
+  - identity-access-management
+  - it-change-and-release-governance
+  entities:
+  - automated-routine
+  - interface
+  - identity
+  - access-grant
+  serves:
+  - clinical-workstation
+- slug: pilot-and-agreement
+  title: Pilot and Agreement
+  summary: The new process is piloted in one unit in short test cycles, staff representatives are consulted where tasks, workload
+    or the monitoring of staff change, and the sponsor decides on scale-up.
+  capabilities:
+  - process-improvement
+  - change-planning
+  - co-determination-cooperation
+  - process-performance-management
+  entities:
+  - improvement-initiative
+  - measure-report
+  - governance-decision
+  serves:
+  - improvement-board
+  - staff-consultation
+- slug: rollout
+  title: Rollout
+  summary: The redesigned process, its standard work and its automation go live in all units concerned, with training, updated documents
+    and an adjusted rhythm of huddles and handovers.
+  capabilities:
+  - change-implementation
+  - solution-rollout
+  - training-delivery
+  - operational-cadence-design
+  - policy-lifecycle-management
+  entities:
+  - process-model
+  - policy
+  - automated-routine
+  serves:
+  - controlled-document-library
+  - learning-platform
+- slug: sustainment
+  title: Sustainment
+  summary: The process owner monitors performance against the baseline, the automation is run and monitored like any production service,
+    and any drift back to old habits triggers a response.
+  capabilities:
+  - improvement-sustainment
+  - process-performance-management
+  - process-governance
+  - it-operations
+  entities:
+  - measure-report
+  - dashboard
+  - automated-routine
+  - improvement-initiative
+  serves:
+  - improvement-board
+binds:
+- source: src-088
+  edition: 2.0.2
+  jurisdiction: global
+- source: src-432
+  edition: '2023'
+  jurisdiction: global
+- source: src-493
+  edition: 2nd ed. 2009
+  jurisdiction: global

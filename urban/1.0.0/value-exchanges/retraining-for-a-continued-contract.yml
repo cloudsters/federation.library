@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: retraining-for-a-continued-contract
+title: Retraining for a Continued Contract
+between:
+- technology-supplier
+- city-administration
+offered:
+- Retraining and reconfiguration of the agent through change control.
+returned:
+- A continued contract once the agent passes the fairness tests again.
+touchpoint: agent-retest-session

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: security-awareness-training
+title: Security Awareness Training
+medium: encounter
+summary: The training in which staff learn to recognise phishing, social engineering and unsafe handling of data and devices, and
+  how to report them.
+exchanges:
+- vigilance-for-protection
+journey: employee-working-securely

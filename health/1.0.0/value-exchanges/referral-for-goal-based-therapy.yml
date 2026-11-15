@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: referral-for-goal-based-therapy
+title: Referral for Goal-Based Therapy
+between:
+- specialist-physician
+- allied-health-professional
+offered:
+- A referral with diagnosis, precautions and the medical goal of treatment.
+returned:
+- A functional assessment, agreed goals and documented progress that inform the plan and the discharge decision.
+touchpoint: clinical-workstation

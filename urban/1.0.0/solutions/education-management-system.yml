@@ -1,0 +1,21 @@
+kind: solution
+slug: education-management-system
+title: Education Management System
+role: system-of-record
+summary: Holds the forecast of children and the school place plan, the schools and early-years settings with their places, each admission
+  with the rule by which it was given, the support plans of learners at risk of leaving and the pathways of young people back into
+  learning.
+carries:
+- school-place-forecasting
+- school-estate-planning
+- early-years-place-planning
+- school-admission-coordination
+- learner-support-planning
+- return-to-learning-support
+holds:
+- school-place-plan
+- school
+- early-years-setting
+- school-admission
+- learner-support-plan
+- learning-pathway

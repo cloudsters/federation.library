@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: security-service
+title: Security Service
+medium: channel
+summary: The around-the-clock security team, reachable by telephone and alarm, that patrols the site, controls access to sensitive
+  areas and responds to incidents.
+exchanges:
+- alerts-for-rapid-protection
+journey: ward-team-relying-on-building-services

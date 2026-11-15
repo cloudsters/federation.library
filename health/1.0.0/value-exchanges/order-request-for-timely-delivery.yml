@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: order-request-for-timely-delivery
+title: Order Request for Timely Delivery
+between:
+- registered-nurse
+- administrative-staff
+offered:
+- Requests from the approved assortment with quantity, need date and cost centre, placed in time.
+returned:
+- Goods approved, ordered and delivered by the need date, with the status visible without asking.
+touchpoint: point-of-care-store

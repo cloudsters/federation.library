@@ -1,0 +1,38 @@
+kind: journey
+slug: unit-leader-bringing-a-technology-need
+title: Unit Leader Bringing a Technology Need
+stakeholder: site-manager
+summary: A unit leader is heard on the need behind a request, shapes and ranks the demand with the technology team, agrees service
+  levels, is guided through digital change and reviews the service received.
+stages:
+- slug: be-heard-on-the-real-need
+  title: Be Heard on the Real Need
+  goal: The need behind the request, including the change it could serve, is understood.
+  step: stakeholder-technology-relationship/technology-need-sensing
+  touchpoints:
+  - technology-partnering-meeting
+- slug: shape-and-rank-the-demand
+  title: Shape and Rank the Demand
+  goal: The need is turned into requirements and a business case and ranked together with other units.
+  step: stakeholder-technology-relationship/demand-shaping-and-prioritisation
+  touchpoints:
+  - technology-demand-request
+  - technology-partnering-meeting
+- slug: agree-the-service-levels
+  title: Agree the Service Levels
+  goal: The unit and the technology team commit to levels of service matched to need and cost.
+  step: stakeholder-technology-relationship/service-level-agreement
+  touchpoints:
+  - service-level-agreement
+- slug: be-guided-through-change
+  title: Be Guided Through Change
+  goal: Options, sequence and pace of digital change fit the unit's purpose and its people.
+  step: stakeholder-technology-relationship/transformation-advisory
+  touchpoints:
+  - technology-partnering-meeting
+- slug: review-the-service
+  title: Review the Service
+  goal: Service performance and user experience are reviewed against the agreed levels and improvements agreed.
+  step: stakeholder-technology-relationship/service-performance-review
+  touchpoints:
+  - service-review

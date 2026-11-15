@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: payment-advice
+title: Payment Advice
+medium: artefact
+summary: The notice that tells a supplier which invoices a payment settles and which deductions were made, so that it can close its
+  receivables.
+exchanges:
+- delivery-for-on-time-payment
+journey: delivering-and-getting-paid

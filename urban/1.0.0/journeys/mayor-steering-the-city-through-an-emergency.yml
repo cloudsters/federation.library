@@ -1,0 +1,55 @@
+kind: journey
+slug: mayor-steering-the-city-through-an-emergency
+title: Mayor Steering the City Through an Emergency
+stakeholder: mayor
+summary: The mayor brings the risk framework to the council for its stated appetite, sees who is most exposed, funds the treatment,
+  has emergency powers bounded in time, exercises the plans, commands the response and hands the powers back on schedule.
+stages:
+- slug: propose-the-appetite
+  title: Propose the Appetite
+  goal: The council has stated the risk it accepts for each kind of threat, on a framework with owners and escalation thresholds.
+  step: urban-risk-and-resilience/risk-framework-and-appetite
+  touchpoints:
+  - risk-review-meeting
+  - council-meeting
+- slug: see-who-is-exposed
+  title: See Who Is Exposed
+  goal: The mayor sees the hazards together with the neighbourhoods and groups most exposed, including informal settlements.
+  step: urban-risk-and-resilience/hazard-and-exposure-mapping
+  touchpoints:
+  - hazard-and-exposure-map
+- slug: fund-the-treatment
+  title: Fund the Treatment
+  goal: Each risk beyond appetite has a funded and owned treatment, or a reasoned acceptance by the council.
+  step: urban-risk-and-resilience/risk-treatment
+  touchpoints:
+  - risk-review-meeting
+- slug: bound-the-emergency-powers
+  title: Bound the Emergency Powers
+  goal: Emergency plans set thresholds, alert levels and roles, and every grant of emergency power ends on a fixed date unless independent
+    review renews it.
+  step: urban-risk-and-resilience/emergency-and-continuity-planning
+  touchpoints:
+  - published-emergency-plan
+  - council-meeting
+- slug: exercise-the-plan
+  title: Exercise the Plan
+  goal: The plans have been exercised with emergency services, operators and neighbourhoods, and the findings have strengthened them.
+  step: urban-risk-and-resilience/exercise-and-readiness
+  touchpoints:
+  - joint-emergency-exercise
+- slug: command-the-response
+  title: Command the Response
+  goal: The crisis team acts within its bounded rights, residents are warned and informed, and every emergency decision is recorded
+    and published.
+  step: urban-risk-and-resilience/crisis-response
+  touchpoints:
+  - crisis-centre
+  - public-warning-channel
+- slug: hand-the-powers-back
+  title: Hand the Powers Back
+  goal: Emergency powers have returned to their normal holders on schedule, and the lessons are in the register and the plans.
+  step: urban-risk-and-resilience/recovery-and-learning
+  touchpoints:
+  - after-action-review
+  - council-meeting

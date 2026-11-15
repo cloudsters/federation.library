@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: collision-map
+title: Collision Map
+medium: artefact
+summary: The published map of collisions and near misses by place, time and who was harmed, set beside the places residents named
+  on their walks.
+exchanges:
+- route-knowledge-for-named-danger-spots
+journey: parent-or-guardian-making-the-school-route-safe

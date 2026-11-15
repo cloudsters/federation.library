@@ -1,0 +1,35 @@
+kind: journey
+slug: works-council-co-determining-reward
+title: Works Council Co-Determining Reward
+stakeholder: works-council
+summary: The works council co-designs the reward framework, checks grading and pay equity, agrees how automation gains are shared
+  and reviews pay fairness across groups.
+stages:
+- slug: co-design-the-framework
+  title: Co-Design the Framework
+  goal: The council has agreed the principles of pay, incentives and benefits within the budget and the agreements in force.
+  step: recognition-reciprocity/reward-framework-design
+  touchpoints:
+  - works-council-meeting
+  - pay-structure
+- slug: check-grading-and-equity
+  title: Check Grading and Equity
+  goal: The council sees how positions are graded and whether pay is equitable across groups.
+  step: recognition-reciprocity/pay-grading
+  touchpoints:
+  - pay-structure
+  - pay-fairness-report
+- slug: agree-the-gain-share
+  title: Agree the Gain Share
+  goal: The council agrees the share of automation gains ring-fenced for the skills transition and how it is reported.
+  step: recognition-reciprocity/automation-gain-sharing
+  touchpoints:
+  - works-council-meeting
+  - automation-gain-sharing-report
+- slug: review-fairness
+  title: Review Fairness
+  goal: The council reviews turnover, pay fairness and belonging and agrees adjustments with management.
+  step: recognition-reciprocity/retention-and-fairness-review
+  touchpoints:
+  - pay-fairness-report
+  - works-council-meeting

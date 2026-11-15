@@ -1,0 +1,162 @@
+kind: value-stream
+slug: nursing-care
+title: Nursing Care
+family: demand-to-fulfillment
+summary: 'Delivering nursing care through the nursing process: nursing assessment, risk screening, nursing diagnosis, care planning,
+  interventions, evaluation and handover.'
+trigger: A patient comes under the care of a nursing team.
+outcome: The patient's nursing needs are met as planned, risks are controlled, and care is documented and handed over.
+stakeholders:
+- elective-inpatient
+- older-person-with-frailty
+- paediatric-patient
+- relative
+- informal-carer
+- registered-nurse
+- advanced-practice-nurse
+- nursing-assistant
+- health-professions-student
+- allied-health-professional
+- specialist-physician
+- executive
+steps:
+- slug: nursing-assessment
+  title: Nursing Assessment
+  summary: On admission and whenever needs change, the nurse assesses self-care, mobility, nutrition, skin, cognition, pain and social
+    situation, together with the patient's own resources and wishes.
+  capabilities:
+  - nursing-assessment
+  - pain-management
+  - interpreting-and-language-services
+  - nursing-documentation
+  entities:
+  - care-needs-assessment
+  - assessment-instrument
+  - observation
+  - preference
+  serves:
+  - nursing-admission-interview
+- slug: risk-screening
+  title: Risk Screening
+  summary: Structured instruments screen for falls, pressure injury, malnutrition, delirium and colonisation with resistant organisms,
+    and every positive screen raises an alert and a preventive measure.
+  capabilities:
+  - nursing-risk-screening
+  - fall-prevention
+  - pressure-injury-prevention
+  - isolation-and-screening-management
+  entities:
+  - risk-assessment
+  - assessment-instrument
+  - clinical-alert
+  serves:
+  - nursing-admission-interview
+  - ward
+- slug: nursing-diagnosis-and-care-planning
+  title: Nursing Diagnosis and Care Planning
+  summary: Nursing diagnoses are set, goals are agreed with the patient, and interventions are planned to evidence-based standards
+    and assigned within the team, with advanced practice nurses for complex needs.
+  capabilities:
+  - nursing-care-planning
+  - nursing-practice-standards
+  - advanced-nursing-practice
+  - workload-estimation
+  entities:
+  - care-plan
+  - care-goal
+  - care-team
+  - acuity-classification
+  serves:
+  - ward
+- slug: staffing-to-acuity
+  title: Staffing to Acuity
+  summary: Patient acuity is classified each shift and compared with the staff on duty, and staff are deployed or redeployed so that
+    care needs are covered at or above the required staffing level.
+  capabilities:
+  - workload-estimation
+  - safe-staffing-compliance
+  - staffing-level-adjustment
+  - float-pool-and-redeployment
+  entities:
+  - acuity-classification
+  - staffing-standard
+  - shift-assignment
+  - roster
+  serves:
+  - staffing-huddle
+- slug: nursing-interventions
+  title: Nursing Interventions
+  summary: Nursing care is delivered and recorded, including hygiene, oral and continence care, mobilisation, nutrition and hydration,
+    wound care, orientation and communication support, preventive measures and observations, with hand hygiene at every contact and
+    nursing students supervised by practice instructors.
+  capabilities:
+  - nursing-interventions
+  - mobility-and-self-care-support
+  - nutrition-and-hydration-care
+  - wound-care
+  - fall-prevention
+  - pressure-injury-prevention
+  - deterioration-recognition-and-response
+  - hand-hygiene-programmes
+  - practice-supervision
+  entities:
+  - procedure
+  - observation
+  - nutrition-order
+  - clinical-document
+  serves:
+  - nurse-call
+  - observation-chart
+  - ward
+- slug: nursing-evaluation
+  title: Nursing Evaluation
+  summary: Goals are evaluated each shift and day, the care plan is adjusted, and nurse-sensitive outcomes such as falls and pressure
+    injuries are recorded, reported and learned from.
+  capabilities:
+  - nursing-evaluation
+  - nursing-documentation
+  - nurse-sensitive-outcome-monitoring
+  - incident-reporting-and-learning
+  entities:
+  - care-goal
+  - care-plan
+  - adverse-event
+  - incident
+  - measure-report
+  serves:
+  - observation-chart
+  - ward
+- slug: handover
+  title: Handover
+  summary: Responsibility, care status and open tasks are handed over at every shift change and transfer with a structured method,
+    at the bedside where possible.
+  capabilities:
+  - clinical-handover
+  - nursing-transfer-handover
+  - nursing-documentation
+  entities:
+  - care-transition
+  - care-plan
+  - clinical-document
+  serves:
+  - nursing-transfer-record
+  - shift-handover
+binds:
+- source: src-005
+  edition: '20260101'
+  jurisdiction: global
+- source: src-509
+  edition: '2009'
+  jurisdiction: global
+- source: src-583
+  edition: '1987'
+  jurisdiction: global
+- source: src-591
+  edition: '2003'
+  jurisdiction: global
+- source: src-592
+  edition: v1.2
+  jurisdiction: global
+- source: src-601
+  edition: '2003'
+  jurisdiction: global

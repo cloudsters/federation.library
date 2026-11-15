@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: inspection-evidence-for-safe-operation
+title: Inspection Evidence for Safe Operation
+between:
+- maintenance-technician
+- occupational-safety-authority
+offered:
+- Complete, current evidence of mandatory inspections and calibrations.
+returned:
+- Confirmation that the assets may be operated, and guidance where findings remain.
+touchpoint: official-inspection

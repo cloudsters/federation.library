@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: regional-sites-for-joint-promotion
+title: Regional Sites for Joint Promotion
+between:
+- neighbouring-municipality
+- economic-development-officer
+offered:
+- The neighbour's available sites and the enquiries that fit the city better.
+returned:
+- The city's sites in the same register, and enquiries passed on where they fit the neighbour better.
+touchpoint: shared-regional-site-register

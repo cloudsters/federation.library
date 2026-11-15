@@ -1,0 +1,26 @@
+kind: journey
+slug: neighbouring-hospital-dividing-the-region
+title: Neighbouring Hospital Dividing the Region
+stakeholder: referring-hospital
+summary: 'A neighbouring hospital''s side of the care mandate: comparing need and patient flows, aligning which services each
+  provider seeks, and knowing the designation that decides where patients go.'
+stages:
+- slug: comparing-need-and-flows
+  title: Comparing Need and Flows
+  goal: Share an honest picture of regional need and of the patients that move between the hospitals.
+  step: care-mandate/population-need-assessment
+  touchpoints:
+  - regional-planning-conference
+- slug: aligning-positions
+  title: Aligning Positions
+  goal: Agree which complex services each hospital seeks, so that neither applies for what the other provides better.
+  step: care-mandate/mandate-positioning
+  touchpoints:
+  - regional-planning-conference
+- slug: knowing-the-designation
+  title: Knowing the Designation
+  goal: Know which complex services the commons is designated for, and where to refer and transfer patients.
+  step: care-mandate/application-and-designation
+  touchpoints:
+  - care-mandate-decision
+  - referrer-portal

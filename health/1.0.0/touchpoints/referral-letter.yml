@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: referral-letter
+title: Referral Letter
+medium: artefact
+summary: The document with which a practice or hospital hands over a patient and states its question, the history and the medication;
+  the first information the commons receives about a planned patient.
+exchanges:
+- complete-referral-for-a-timely-decision
+- referral-for-timely-handback
+journey: referring-practice-relationship

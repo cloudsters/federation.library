@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: exchange-status-page
+title: Exchange Status Page
+medium: channel
+summary: The page that shows the live status of every exchange between platforms, with failures, delays and their repair.
+exchanges:
+- network-data-for-a-monitored-connection
+- failure-notice-for-a-known-status
+journey: information-technology-specialist-connecting-two-systems

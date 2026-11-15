@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: expert-information-for-patient-communities
+title: Expert Information for Patient Communities
+between:
+- specialist-physician
+- patient-organisation
+offered:
+- Expert information on treatments and services for the members of the organisation, and a voice in how services are described.
+returned:
+- Reach into the community of people living with the condition, and lived experience that makes service information relevant.
+touchpoint: public-information-event

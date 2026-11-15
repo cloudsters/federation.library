@@ -1,0 +1,140 @@
+kind: value-stream
+slug: local-taxation-and-revenue
+title: Local Taxation and Revenue
+family: value-to-sustainability
+summary: Raising the city's own revenue from local taxes, fees and charges in a way residents understand and trust. It holds the revenue
+  policy that asks less of those who live on and care for their land and more of those who hold it vacant or for speculation, the
+  valuation of land and buildings, correct assessment, billing and collection, relief for those who cannot pay, the fair recovery
+  of arrears and an open account of what each revenue funds.
+trigger: The budget cycle opens a review of the revenue policy, or a revaluation, a new charge or a marked change in land values falls
+  due.
+outcome: Local taxes, fees and charges are assessed, billed and collected on published rules, relief reaches every household entitled
+  to it, arrears are recovered or settled, and residents can see what each revenue funds.
+stakeholders:
+- resident
+- taxpayer
+- local-business
+- landowner
+- community-land-trust
+- city-council
+- finance-officer
+steps:
+- slug: revenue-policy-setting
+  title: Revenue Policy Setting
+  summary: The finance department proposes and the council adopts the mix and rates of local taxes, fees and charges for the period,
+    with reduced rates for owner-occupied homes and community-held land and higher rates for vacant and speculative holdings, after
+    assessing who pays and who gains.
+  capabilities:
+  - revenue-policy-design
+  - tax-and-charge-rate-setting
+  - decision-impact-assessment
+  entities:
+  - tax-and-charge-schedule
+  - council-decision
+  - municipal-budget
+  serves:
+  - published-tax-and-charge-schedule
+  - revenue-policy-consultation
+- slug: property-and-land-valuation
+  title: Property and Land Valuation
+  summary: The valuation office keeps the value of every parcel and building current, separates the value of land from the value of
+    buildings, and records the rise in land value that public investment and rezoning cause.
+  capabilities:
+  - property-valuation
+  - land-value-monitoring
+  entities:
+  - land-registry
+  - land-parcel
+  - building
+  - land-value-map
+  serves:
+  - public-land-value-map
+  - valuation-notice
+  - valuation-objection-desk
+- slug: assessment-and-billing
+  title: Assessment and Billing
+  summary: The revenue office assesses each taxpayer's liability for the period and sends a bill in plain language that shows what
+    is owed, on what basis, and what the revenue funds.
+  capabilities:
+  - tax-assessment
+  - revenue-billing
+  - taxpayer-record-keeping
+  entities:
+  - taxpayer-account
+  - tax-assessment
+  - tax-and-charge-schedule
+  serves:
+  - plain-language-tax-bill
+  - taxpayer-account-view
+- slug: relief-and-hardship-support
+  title: Relief and Hardship Support
+  summary: Households and organisations that cannot pay, or that hold land for the community, receive reductions, deferrals or exemptions
+    on published criteria, and charges for water, energy and transit are capped as a share of household income, so that no household
+    loses an essential service because it cannot pay.
+  capabilities:
+  - tax-relief-assessment
+  - essential-charge-capping
+  entities:
+  - tax-relief-decision
+  - taxpayer-account
+  serves:
+  - essential-charge-cap-notice
+  - relief-application-desk
+- slug: payment-collection
+  title: Payment Collection
+  summary: Payments are received through every channel residents use, matched to the right account and reconciled with the city's
+    bank accounts each day, so that every taxpayer's balance is correct.
+  capabilities:
+  - payment-receipt-and-matching
+  - bank-reconciliation
+  entities:
+  - payment
+  - taxpayer-account
+  - bank-account
+  serves:
+  - payment-channels
+  - taxpayer-account-view
+- slug: arrears-recovery
+  title: Arrears Recovery
+  summary: Unpaid amounts are followed up with reminders and payment plans timed to when people earn, households in hardship are referred
+    to relief, enforcement is a last resort open to appeal, and debts that cannot fairly be recovered are written off on published
+    rules.
+  capabilities:
+  - arrears-recovery
+  - tax-relief-assessment
+  - claim-and-dispute-resolution
+  entities:
+  - arrears-case
+  - taxpayer-account
+  - legal-matter
+  serves:
+  - arrears-write-off-decision
+  - enforcement-appeal-hearing
+  - payment-plan-meeting
+  - payment-reminder
+- slug: revenue-reporting-to-residents
+  title: Revenue Reporting to Residents
+  summary: The city publishes what each tax, fee and charge raised, who paid it and what it funded, including the share that flowed
+    into the commons fund, so that residents can follow their money from payment to use.
+  capabilities:
+  - revenue-flow-reporting
+  - public-record-publication
+  entities:
+  - money-flow-account
+  - public-record
+  serves:
+  - published-revenue-account
+  - revenue-account-session
+binds:
+- source: src-168
+  edition: '2018'
+  jurisdiction: global
+- source: src-180
+  edition: '2016-12-23'
+  jurisdiction: global
+- source: src-192
+  edition: '2024'
+  jurisdiction: global
+- source: src-203
+  edition: '2026'
+  jurisdiction: global

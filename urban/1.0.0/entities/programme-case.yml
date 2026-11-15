@@ -1,0 +1,67 @@
+kind: entity
+slug: programme-case
+title: Programme Case
+type: transactional
+summary: The case for a proposed programme, with its expected benefit, its whole-life cost including upkeep, care work and ecological
+  costs, its risks and who pays and who gains. The sponsor submits it and the administration appraises it, and it is the basis on
+  which the programme is prioritised and funded.
+attributes:
+- name: programme
+  type: reference(city-programme)
+  card: 1..1
+- name: objective-served
+  type: reference(city-objective)
+  card: 1..1
+- name: expected-benefits
+  type: text
+  card: 1..*
+- name: capital-cost
+  type: amount
+  card: 0..1
+- name: whole-life-cost
+  type: amount
+  card: 1..1
+- name: upkeep-cost
+  type: amount
+  card: 0..1
+- name: care-work
+  type: text
+  card: 0..*
+- name: ecological-costs
+  type: text
+  card: 0..*
+- name: risks
+  type: text
+  card: 0..*
+- name: who-pays
+  type: text
+  card: 0..*
+- name: who-gains
+  type: text
+  card: 0..*
+- name: submitted-on
+  type: date
+  card: 1..1
+states:
+- drafted
+- submitted
+- appraised
+- revised
+- accepted
+- rejected
+relations:
+- type: refers-to
+  target: city-programme
+- type: refers-to
+  target: city-objective
+- type: based-on
+  target: evidence-review
+- type: refers-to
+  target: municipal-budget
+binds:
+- source: src-196
+  edition: '2022'
+  jurisdiction: global
+- source: src-197
+  edition: '2020-07-17'
+  jurisdiction: global

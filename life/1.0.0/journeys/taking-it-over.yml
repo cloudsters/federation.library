@@ -1,0 +1,33 @@
+kind: journey
+slug: taking-it-over
+title: Taking It Over
+stakeholder: mentee
+via: contributor-to-succession
+summary: A successor is chosen for the work ahead, is shown what lived only in this person's head, is left to decide, and sees the
+  ending marked in front of everyone.
+stages:
+- slug: be-chosen
+  title: Be Chosen
+  goal: The successor has been chosen for the work ahead rather than for resemblance to the person.
+  step: holding-to-handover/finding-who-carries-it-on
+  touchpoints:
+  - working-side-by-side
+- slug: be-shown-what-is-known
+  title: Be Shown What Is Known
+  goal: The relations, the reasons behind things and the unwritten rules have been written down and shown.
+  step: holding-to-handover/passing-on-what-is-known
+  touchpoints:
+  - the-handover
+  - shared-document
+- slug: decide-for-real
+  title: Decide for Real
+  goal: The successor decides, including where the person would have decided differently, without being hovered over.
+  step: holding-to-handover/stepping-back-for-real
+  touchpoints:
+  - the-handover
+- slug: see-the-ending-marked
+  title: See the Ending Marked
+  goal: The handover has been closed in front of everyone, so the successor's standing is plain to all.
+  step: holding-to-handover/marking-the-ending
+  touchpoints:
+  - the-farewell

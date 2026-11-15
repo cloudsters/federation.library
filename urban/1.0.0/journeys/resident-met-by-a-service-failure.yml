@@ -1,0 +1,45 @@
+kind: journey
+slug: resident-met-by-a-service-failure
+title: Resident Met by a Service Failure
+stakeholder: resident
+summary: A resident knows the standard a service promises, gives feedback where the service is delivered, reports a failure, is told
+  what happened and receives the promised remedy, helps find the cause and sees it removed.
+stages:
+- slug: know-what-to-expect
+  title: Know What to Expect
+  goal: The resident finds the published standard of the service, with its response times, accessibility and how to reach a person.
+  step: service-quality-and-learning-from-failure/service-standard-setting
+  touchpoints:
+  - published-service-standard
+- slug: give-feedback-at-the-point-of-service
+  title: Give Feedback at the Point of Service
+  goal: The resident's feedback is gathered where the service is delivered and passed to those who run it.
+  step: service-quality-and-learning-from-failure/in-service-quality-checks
+  touchpoints:
+  - point-of-service-feedback
+- slug: report-the-failure
+  title: Report the Failure
+  goal: The resident reports the failure through a simple channel, and the report is graded by its harm and urgency.
+  step: service-quality-and-learning-from-failure/failure-and-near-miss-reporting
+  touchpoints:
+  - failure-and-near-miss-report-line
+- slug: be-told-and-remedied
+  title: Be Told and Remedied
+  goal: The resident is told what happened and what the city will do, and receives the remedy the standard promises.
+  step: service-quality-and-learning-from-failure/open-disclosure-and-redress
+  touchpoints:
+  - open-disclosure-meeting
+  - published-service-standard
+- slug: help-find-the-cause
+  title: Help Find the Cause
+  goal: For a serious or repeated failure, the resident's account is part of the search for causes in the process, tools and conditions
+    of work.
+  step: service-quality-and-learning-from-failure/cause-analysis
+  touchpoints:
+  - cause-analysis-session
+- slug: see-the-cause-removed
+  title: See the Cause Removed
+  goal: The resident can follow the corrective action to its close and see whether it worked.
+  step: service-quality-and-learning-from-failure/corrective-action
+  touchpoints:
+  - corrective-action-tracker

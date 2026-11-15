@@ -1,0 +1,10 @@
+kind: capability
+slug: retention-management
+title: Retention Management
+level: L3
+parent: wellbeing-and-retention
+summary: Analyse turnover and act on its causes in critical professions and units.
+binds:
+- source: src-343
+  edition: '2021'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: paper-service-inventory
+title: Paper Service Inventory
+medium: artefact
+summary: The published list of the services still handled on paper or only at a counter, with how many residents use each, the burden
+  it places on residents and staff and the risk of shutting people out.
+exchanges:
+- exclusion-risk-for-a-safe-order
+- request-counts-for-a-published-order
+journey: information-technology-specialist-taking-a-service-from-paper-to-digital

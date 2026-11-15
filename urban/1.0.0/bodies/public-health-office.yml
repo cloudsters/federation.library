@@ -1,0 +1,19 @@
+kind: body
+slug: public-health-office
+title: Public Health Office
+summary: Describes the health of the city by neighbourhood and group, assesses the health effects of the city's plans, employs and
+  trains community health workers, designs promotion programmes, brings prevention to those least served, designs harm reduction with
+  residents who use drugs and watches for threats to health.
+holds:
+- public-health-and-prevention
+- population-health-profiling
+- health-impact-assessment
+- community-health-worker-deployment
+- health-promotion-programme-design
+- prevention-outreach-organisation
+- harm-reduction-service-design
+- health-threat-surveillance
+- outbreak-control-operation
+part_of: full-council
+type: function
+form: organisational-unit

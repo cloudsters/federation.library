@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: contribution-ledger-account
+title: Contribution Ledger Account
+medium: channel
+summary: A resident's own view of the hours given and the help received in the shared ledger, from which they can ask for help in
+  return.
+exchanges:
+- recorded-hours-for-help-in-return
+journey: volunteer-giving-time

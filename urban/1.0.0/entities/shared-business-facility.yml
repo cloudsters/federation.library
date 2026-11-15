@@ -1,0 +1,53 @@
+kind: entity
+slug: shared-business-facility
+title: Shared Business Facility
+type: master
+summary: A workshop, piece of equipment, testing space or back-office service that several enterprises share, with its terms of use
+  and its keeper. The network or the city body that keeps it holds the record, and it is used to book use, to set affordable rents
+  and to give small firms what none could afford alone.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: facility-kind
+  type: code
+  card: 1..1
+- name: building
+  type: reference(building)
+  card: 0..1
+- name: equipment
+  type: text
+  card: 0..*
+- name: keeper
+  type: text
+  card: 1..1
+- name: network
+  type: reference(business-network)
+  card: 0..1
+- name: terms-of-use
+  type: text
+  card: 1..1
+- name: rent
+  type: amount
+  card: 0..1
+- name: users
+  type: text
+  card: 0..*
+- name: opening-hours
+  type: text
+  card: 0..1
+states:
+- planned
+- open
+- fully-booked
+- under-repair
+- closed
+relations:
+- type: part-of
+  target: building
+- type: assigned-to
+  target: business-network
+- type: refers-to
+  target: public-asset-register
+- type: refers-to
+  target: facility-booking

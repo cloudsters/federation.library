@@ -1,0 +1,33 @@
+kind: journey
+slug: business-customer-agreeing-service-levels
+title: Business Customer Agreeing Service Levels
+stakeholder: business-customer
+summary: A business customer has its obstacles heard, is given a coherent set of service channels and agrees service levels and warranty
+  terms that match its segment and needs.
+stages:
+- slug: raise-the-obstacles
+  title: Raise the Obstacles
+  goal: The customer's obstacles in ordering, delivery and service are heard and recorded in the account review.
+  step: experience-strategy-design/journey-and-obstacle-mapping
+  touchpoints:
+  - account-review
+- slug: use-a-coherent-set-of-channels
+  title: Use a Coherent Set of Channels
+  goal: The customer knows which channel serves which need, and the channels share one history.
+  step: experience-strategy-design/service-channel-architecture
+  touchpoints:
+  - customer-portal
+  - service-hotline
+- slug: agree-service-levels
+  title: Agree Service Levels
+  goal: Service levels fitting the customer's segment are agreed and written down.
+  step: experience-strategy-design/service-levels-and-policies
+  touchpoints:
+  - service-commitments
+  - account-review
+- slug: know-the-warranty-terms
+  title: Know the Warranty Terms
+  goal: Warranty terms and the response to safety issues are clear for every offering the customer buys.
+  step: experience-strategy-design/warranty-and-safety-response-terms
+  touchpoints:
+  - warranty-terms

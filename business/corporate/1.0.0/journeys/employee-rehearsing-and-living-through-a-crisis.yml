@@ -1,0 +1,39 @@
+kind: journey
+slug: employee-rehearsing-and-living-through-a-crisis
+title: Employee Rehearsing and Living Through a Crisis
+stakeholder: employee
+summary: An employee learns the crisis role, rehearses it, is warned and guided when disruption strikes, works in degraded operation,
+  helps restore normal work and is heard in the debrief.
+stages:
+- slug: learn-the-crisis-role
+  title: Learn the Crisis Role
+  goal: The employee knows the alert levels, the role in a crisis and where the plan is kept.
+  step: resilience-architecture/continuity-and-emergency-planning
+  touchpoints:
+  - continuity-plan
+  - intranet
+- slug: rehearse-the-role
+  title: Rehearse the Role
+  goal: The employee has practised the role in a drill or exercise.
+  step: resilience-architecture/exercise-and-stress-testing
+  touchpoints:
+  - crisis-exercise
+- slug: be-warned-and-guided
+  title: Be Warned and Guided
+  goal: When disruption strikes the employee is warned in time, safe and told what to do.
+  step: resilience-architecture/crisis-response
+  touchpoints:
+  - emergency-alert
+- slug: bring-work-back
+  title: Bring Work Back
+  goal: The employee helps restore normal work with a clear handover from degraded operation.
+  step: resilience-architecture/operations-restoration
+  touchpoints:
+  - shift-handover
+  - staff-assembly
+- slug: be-heard-in-the-debrief
+  title: Be Heard in the Debrief
+  goal: What the employee experienced shapes the changed plan.
+  step: resilience-architecture/lesson-sharing-and-plan-evolution
+  touchpoints:
+  - crisis-debrief

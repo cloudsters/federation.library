@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: concept-review
+title: Concept Review
+medium: encounter
+summary: The gate at which concepts and their business cases are judged against purpose, portfolio fit and evidence, and sponsors
+  decide which enter design and which are closed.
+exchanges:
+- tested-concepts-for-sponsorship
+journey: product-manager-turning-a-need-into-a-sponsored-concept

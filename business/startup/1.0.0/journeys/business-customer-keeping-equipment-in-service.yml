@@ -1,0 +1,40 @@
+kind: journey
+slug: business-customer-keeping-equipment-in-service
+title: Business Customer Keeping Equipment in Service
+stakeholder: business-customer
+summary: A business customer registers installed products, agrees a service agreement, receives ongoing service on site and remotely,
+  and has its warranty claims diagnosed and settled.
+stages:
+- slug: register-installed-products
+  title: Register Installed Products
+  goal: Installed products are registered with location and entitlements, and changes of ownership are recorded.
+  step: post-delivery-stewardship/product-and-owner-registration
+  touchpoints:
+  - product-registration
+  - customer-portal
+- slug: agree-the-service-agreement
+  title: Agree the Service Agreement
+  goal: Services, response times, entitlements and fee are agreed and renewed in good time.
+  step: post-delivery-stewardship/service-agreement-administration
+  touchpoints:
+  - service-agreement
+- slug: receive-ongoing-service
+  title: Receive Ongoing Service
+  goal: Inspections and maintenance are carried out as agreed, with the parts they need.
+  step: post-delivery-stewardship/ongoing-service
+  touchpoints:
+  - service-visit
+  - remote-service-connection
+- slug: claim-a-failure
+  title: Claim a Failure
+  goal: A failure is claimed with its evidence and diagnosed promptly.
+  step: post-delivery-stewardship/warranty-claim-intake
+  touchpoints:
+  - complaint-and-warranty-claim
+  - customer-portal
+- slug: see-the-claim-settled
+  title: See the Claim Settled
+  goal: The claim is decided within the set period and the remedy restores operation.
+  step: post-delivery-stewardship/claim-decision-and-remedy
+  touchpoints:
+  - complaint-and-warranty-claim

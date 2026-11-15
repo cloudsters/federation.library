@@ -1,0 +1,13 @@
+kind: capability
+slug: professorial-appointment-process
+title: Professorial Appointment Process
+level: L3
+parent: academic-appointments
+summary: Run the appointment process for professors from commission and external review to the offer.
+binds:
+- source: src-457
+  edition: '2022'
+  jurisdiction: global
+- source: src-458
+  edition: '2012'
+  jurisdiction: global

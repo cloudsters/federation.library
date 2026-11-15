@@ -1,0 +1,26 @@
+kind: journey
+slug: pooling-the-sectors-voice
+title: Pooling the Sector's Voice
+stakeholder: sector-association
+summary: A sector association alerts its members to an initiative, forms a joint position from their evidence and presents it with
+  the weight of the whole sector.
+stages:
+- slug: alerting-members
+  title: Alerting Members
+  goal: Alert members early to initiatives that affect them.
+  step: owner-and-public-affairs/request-and-issue-intake
+  touchpoints:
+  - association-committee
+- slug: forming-a-joint-position
+  title: Forming a Joint Position
+  goal: Form a joint position from members' evidence and expertise.
+  step: owner-and-public-affairs/position-development
+  touchpoints:
+  - association-committee
+- slug: speaking-for-the-sector
+  title: Speaking for the Sector
+  goal: Present the joint position with the weight of the whole sector.
+  step: owner-and-public-affairs/representation-and-dialogue
+  touchpoints:
+  - legislative-hearing
+  - government-dialogue

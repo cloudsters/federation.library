@@ -1,0 +1,28 @@
+kind: journey
+slug: finding-the-right-service
+title: Finding the Right Service
+stakeholder: outpatient
+summary: 'The patient''s side of service marketing: understandable information that shows whether a service fits, an easy way to reach
+  it, and trustworthy channels through which it becomes known.'
+stages:
+- slug: recognising-a-need
+  title: Recognising a Need
+  goal: Find understandable information showing whether a service fits one's situation and how to reach it.
+  step: service-marketing/service-information-production
+  touchpoints:
+  - public-website
+  - service-information-material
+- slug: reaching-the-service
+  title: Reaching the Service
+  goal: Book or be referred without detours, with transparent prices for services one pays for personally.
+  step: service-marketing/access-readiness
+  touchpoints:
+  - appointment-service
+  - patient-portal
+- slug: hearing-about-the-service
+  title: Hearing About the Service
+  goal: Hear about the service through trusted channels such as patient organisations, public events and the press.
+  step: service-marketing/campaign-delivery
+  touchpoints:
+  - social-media-channel
+  - public-information-event

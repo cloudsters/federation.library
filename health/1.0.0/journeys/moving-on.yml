@@ -1,0 +1,34 @@
+kind: journey
+slug: moving-on
+title: Moving On
+stakeholder: registered-nurse
+summary: A nurse who is promoted, moves to another unit, leaves or retires wants the move to be fair, the handover clean and the door
+  left open.
+stages:
+- slug: decide-the-move
+  title: Decide the Move
+  goal: Have a promotion, transfer, resignation or retirement handled fairly and promptly.
+  step: succession-and-transition/transition-decision
+  touchpoints:
+  - transition-conversation
+  - hr-self-service
+- slug: hand-over
+  title: Hand Over
+  goal: Hand over patients and tasks so that nothing is lost.
+  step: succession-and-transition/role-handover
+  touchpoints:
+  - handover-dossier
+  - shift-handover
+- slug: settle-the-exit
+  title: Settle the Exit
+  goal: Receive final pay, time balance and a fair reference without chasing them.
+  step: succession-and-transition/exit-administration
+  touchpoints:
+  - hr-service-desk
+  - pay-statement
+- slug: stay-connected
+  title: Stay Connected
+  goal: Give feedback on the reasons for leaving and keep the option to return.
+  step: succession-and-transition/continued-contribution
+  touchpoints:
+  - exit-interview

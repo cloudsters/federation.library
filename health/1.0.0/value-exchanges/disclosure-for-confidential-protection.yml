@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: disclosure-for-confidential-protection
+title: Disclosure for Confidential Protection
+between:
+- registered-nurse
+- occupational-health-professional
+offered:
+- Disclosure of exposures, symptoms and vaccination status, and adherence to protective measures.
+returned:
+- Confidential examinations, vaccinations, post-exposure care and advice, with only the fitness outcome shared with the employer.
+touchpoint: occupational-health-consultation

@@ -1,0 +1,38 @@
+kind: entity
+slug: loyalty-program
+title: Loyalty Program
+type: governance
+summary: A designed expression of gratitude — the system investing in its community by recognising and rewarding continued participation,
+  not as manipulation but as genuine reciprocity.
+attributes:
+- name: enrolment-rules
+  type: text
+  card: 1..1
+- name: earning-logic
+  type: text
+  card: 1..1
+- name: redemption-logic
+  type: text
+  card: 1..1
+- name: levels
+  type: code
+  card: 0..*
+- name: rewards
+  type: text
+  card: 0..*
+- name: expiry-terms
+  type: text
+  card: 0..1
+states:
+- designed
+- launched
+- enrolling
+- operating
+- analysed
+- revised
+- retired
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: promotion

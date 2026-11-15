@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: handover-record
+title: Handover Record
+medium: artefact
+summary: The record of what a person handed over, to whom, and which matters remain open, kept in the staff knowledge base.
+exchanges:
+- handover-for-a-credited-record
+journey: city-administration-keeping-a-department-knowledge-alive

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: offering-description
+title: Offering Description
+medium: artefact
+summary: The maintained description of an offering, with master data, data sheets, documents and know-how, from which catalogue, sales,
+  delivery and service all draw.
+exchanges:
+- reliable-offering-data-for-right-first-orders
+journey: product-manager-stewarding-an-offering-through-its-life

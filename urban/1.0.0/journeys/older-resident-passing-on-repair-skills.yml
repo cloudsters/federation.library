@@ -1,0 +1,32 @@
+kind: journey
+slug: older-resident-passing-on-repair-skills
+title: Older Resident Passing On Repair Skills
+stakeholder: older-resident
+summary: An experienced repairer helps at a repair café, lends tools to the library, records what they know in open guides and teaches
+  apprentices at the bench.
+stages:
+- slug: help-at-the-repair-cafe
+  title: Help at the Repair Café
+  goal: The older resident repairs with neighbours at the repair café and is valued for it.
+  step: repair-reuse-and-sharing/neighbourhood-repair-points
+  touchpoints:
+  - neighbourhood-repair-cafe
+- slug: lend-tools-to-the-library
+  title: Lend Tools to the Library
+  goal: Tools the older resident no longer uses are lent to others through the tool library.
+  step: repair-reuse-and-sharing/tool-libraries-and-spare-parts
+  touchpoints:
+  - tool-library-counter
+- slug: record-what-they-know
+  title: Record What They Know
+  goal: The older resident's knowledge of diagnosis and repair is recorded in open guides under their name.
+  step: repair-reuse-and-sharing/repair-knowledge-and-skills
+  touchpoints:
+  - repairer-recording-session
+  - open-repair-guides
+- slug: teach-at-the-bench
+  title: Teach at the Bench
+  goal: Apprentices and residents have learned the craft from the older resident and carry it on.
+  step: repair-reuse-and-sharing/repair-knowledge-and-skills
+  touchpoints:
+  - repair-skills-class

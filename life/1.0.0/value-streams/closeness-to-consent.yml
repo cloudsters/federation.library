@@ -1,0 +1,84 @@
+kind: value-stream
+slug: closeness-to-consent
+title: Close without Disappearing
+family: participant-to-community
+summary: The terms on which people come near each other, given continuously rather than once. Boundaries are not the opposite of intimacy
+  — they are what keeps it survivable, and what stops a person disappearing into a bond.
+trigger: Someone comes closer than feels right, or the person notices they have gone quiet about what they want to keep a bond intact,
+  or a relationship changes and its old terms no longer fit.
+outcome: The terms of closeness are said aloud and can be said again, and the person stays recognisably themselves inside their closest
+  bonds.
+stakeholders:
+- partner
+- close-friend
+- parent
+- sibling
+- child
+steps:
+- slug: noticing-the-unease
+  title: Noticing the Unease
+  summary: Someone comes closer than feels right, or the person catches themselves going quiet to keep the peace, and the body registers
+    it before the words do.
+  capabilities:
+  - knowing-own-yes-and-no
+  entities:
+  - boundary-set
+  - mood-record
+- slug: finding-what-one-wants
+  title: Finding What One Wants
+  summary: Working out, alone first, what closeness is wanted and what is not, apart from what the other wants or what keeps things
+    calm.
+  capabilities:
+  - knowing-own-yes-and-no
+  entities:
+  - boundary-set
+  - journal
+- slug: saying-it-aloud
+  title: Saying It Aloud
+  summary: Telling the other person plainly what is welcome and what is not, without waiting for a crisis to make it necessary.
+  capabilities:
+  - saying-a-boundary-aloud
+  entities:
+  - conversation
+  - boundary-set
+  - partner-relation
+  serves:
+  - hard-conversation
+- slug: hearing-their-terms
+  title: Hearing Their Terms
+  summary: Asking and listening for what the other person wants and does not, and taking their no as information rather than rejection.
+  capabilities:
+  - asking-and-hearing-consent
+  entities:
+  - conversation
+  - relationship-agreement
+  serves:
+  - hard-conversation
+  - heart-to-heart
+- slug: agreeing-again
+  title: Agreeing Again
+  summary: Coming back to the terms when life changes, a birth, an illness, a move, a new stage of a friendship, because a yes given
+    once is not a yes for ever.
+  capabilities:
+  - asking-and-hearing-consent
+  - making-terms-explicit
+  entities:
+  - relationship-agreement
+  - transition
+  - partner-relation
+  serves:
+  - hard-conversation
+  - kitchen-table
+- slug: staying-oneself-inside-the-bond
+  title: Staying Oneself Inside the Bond
+  summary: Keeping the friends, interests and opinions that were there before, so that closeness adds to the person instead of replacing
+    them.
+  capabilities:
+  - staying-oneself-in-a-bond
+  entities:
+  - relationship-map
+  - partner-relation
+  - friend
+  serves:
+  - phone-call
+  - regular-gathering

@@ -1,0 +1,15 @@
+kind: touchpoint
+slug: discharge-letter
+title: Discharge Letter
+medium: artefact
+summary: The letter that hands a patient back to the referring or follow-on provider with diagnoses, treatment, results and recommendations;
+  for the receiving practice often the only visible evidence of the commons' quality.
+exchanges:
+- postnatal-handover-for-care-at-home
+- complete-handover-for-continuation-without-gap
+- discharge-letter-for-continued-care
+- draft-letter-for-sign-off
+- referral-for-timely-handback
+- aftercare-handover-for-continuing-care
+- early-notice-for-follow-on-places
+journey: documenting-a-stay-for-coding

@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: household-utility-bill
+title: Household Utility Bill
+medium: artefact
+summary: The bill for water, energy, heat, waste and drainage that shows the basic quantity, the tariff, any reduced charge, the drainage
+  charge and the help available when behind.
+exchanges:
+- drainage-charge-for-streets-that-hold-rain
+- payment-plan-for-supply-kept-on
+- use-charges-for-a-cheap-basic-quantity
+journey: resident-paying-a-share-of-income-they-can-carry

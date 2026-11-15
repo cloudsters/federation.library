@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: journey-mapping-workshop
+title: Journey Mapping Workshop
+medium: encounter
+summary: The working session in which staff, and where possible customers, map a customer journey across channels and mark where customers
+  meet obstacles.
+exchanges:
+- obstacle-reports-for-smoother-paths
+journey: customer-service-representative-shaping-the-intended-experience

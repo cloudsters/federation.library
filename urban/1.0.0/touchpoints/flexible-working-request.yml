@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: flexible-working-request
+title: Flexible Working Request
+medium: channel
+summary: The route by which staff ask to set their hours around care duties or to rest after a demanding stretch.
+exchanges:
+- care-duties-for-hours-that-fit
+journey: frontline-worker-staying-well-in-a-demanding-role

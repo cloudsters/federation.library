@@ -1,0 +1,11 @@
+kind: touchpoint
+slug: customer-service-line
+title: The Customer Service Line
+medium: channel
+mode: spoken
+summary: Calling or writing to a company to complain, ask for better terms or give notice.
+exchanges:
+- data-for-service
+- faith-for-alliance
+- honour-for-good-faith
+journey: a-platform-one-can-leave

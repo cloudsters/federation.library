@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: telemedicine-service
+title: Telemedicine Service
+medium: channel
+summary: The video and data link through which clinicians consult patients at home and give expert advice to partner hospitals and
+  practices.
+exchanges:
+- case-for-a-joint-recommendation
+- specialist-knowledge-for-shared-standards
+- aftercare-handover-for-continuing-care
+- specialist-capacity-for-return-transfer
+- remote-specialist-advice
+- consultation-at-a-distance
+journey: referring-hospital-centre-journey

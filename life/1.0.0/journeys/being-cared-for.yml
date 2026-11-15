@@ -1,0 +1,33 @@
+kind: journey
+slug: being-cared-for
+title: Being Cared For
+stakeholder: dependant
+via: participant-to-community
+summary: Someone who needs care is looked after day by day, seen for who they still are, left what they can still do, and cared for
+  by people who are not left spent.
+stages:
+- slug: be-taken-on
+  title: Be Taken On
+  goal: The dependant's needs are met by someone whose days have reorganised around them.
+  step: care-to-raising/taking-on-the-care
+  touchpoints:
+  - daily-round-of-care
+  - at-the-bedside
+- slug: be-seen-as-a-person
+  title: Be Seen as a Person
+  goal: The dependant is known as the person they are, not only by the care they need.
+  step: care-to-raising/seeing-who-they-are
+  touchpoints:
+  - daily-round-of-care
+- slug: keep-what-they-can-do
+  title: Keep What They Can Do
+  goal: The dependant keeps the decisions and tasks they can still carry, and is not done for where they can still do.
+  step: care-to-raising/stepping-back-by-degrees
+  touchpoints:
+  - daily-round-of-care
+- slug: be-cared-for-by-many
+  title: Be Cared For by Many
+  goal: The dependant's care rests on more than one person, so it does not fail when one carer is spent.
+  step: care-to-raising/caring-for-the-carer
+  touchpoints:
+  - care-rota

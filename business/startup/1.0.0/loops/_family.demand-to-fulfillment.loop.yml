@@ -1,0 +1,113 @@
+# startup's family loop: corporate's loop of the same slug, its streams those of startup 
+loop: _family.demand-to-fulfillment
+title: Keep the family 'Demand to Fulfillment' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: demand-to-fulfillment
+  vs:
+  - supply-chain-orchestration
+  - production-craft-assembly
+  - service-delivery-governance
+  - service-resource-orchestration
+  - service-delivery-craft
+  - customer-project-delivery
+stance: Orchestrate production & delivery from demand to fulfilled promise. No single stream of this family can see what its
+  streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/demand-to-fulfillment
+  - value-model.yml#vs/supply-chain-orchestration
+  - value-model.yml#vs/production-craft-assembly
+  - value-model.yml#vs/logistics-flow-design
+  - value-model.yml#vs/service-delivery-governance
+  - value-model.yml#vs/service-resource-orchestration
+  - value-model.yml#vs/service-delivery-craft
+  - value-model.yml#vs/customer-project-delivery
+  registry:
+  - instance/registry/5_value-streams/supply-chain-orchestration.md
+  - instance/registry/5_value-streams/production-craft-assembly.md
+  - instance/registry/5_value-streams/logistics-flow-design.md
+  - instance/registry/5_value-streams/service-delivery-governance.md
+  - instance/registry/5_value-streams/service-resource-orchestration.md
+  - instance/registry/5_value-streams/service-delivery-craft.md
+  - instance/registry/5_value-streams/customer-project-delivery.md
+  loop_states:
+  - instance/operations/loops/_state/supply-chain-orchestration.yml
+  - instance/operations/loops/_state/production-craft-assembly.yml
+  - instance/operations/loops/_state/logistics-flow-design.yml
+  - instance/operations/loops/_state/service-delivery-governance.yml
+  - instance/operations/loops/_state/service-resource-orchestration.yml
+  - instance/operations/loops/_state/service-delivery-craft.yml
+  - instance/operations/loops/_state/customer-project-delivery.yml
+  measures:
+  - customer-rating-of-project-delivery
+  - customer-rating-of-service-delivery
+  - customer-rating-of-the-service-visit
+  - days-of-supply-on-hand
+  - delivery-promises-kept
+  - demand-forecast-accuracy
+  - equipment-productive-time-share
+  - expedited-freight-share
+  - first-pass-yield
+  - integrated-planning-cycles-closed-with-one-plan
+  - inventory-record-accuracy
+  - jobs-assigned-to-a-qualified-person
+  - logistics-cost-per-shipped-order-line
+  - lot-traceability-completeness
+  - master-schedule-adherence
+  - on-time-and-intact-deliveries
+  - orders-produced-to-specification-on-time
+  - orders-resequenced-inside-the-frozen-window
+  - parts-available-at-first-visit
+  - project-margin-erosion
+  - projects-accepted-at-first-acceptance-test
+  - projects-accepted-in-scope-time-and-budget
+  - receipt-to-putaway-time
+  - return-visits-for-the-same-issue
+  - returns-routed-to-further-use
+  - scope-changes-agreed-before-execution
+  - service-breaches-escalated-on-path
+  - service-commitments-fully-resourced
+  - service-level-attainment
+  - service-load-forecast-accuracy
+  - service-quality-reviews-held-on-cadence
+  - service-staff-overtime-share
+  - service-staff-utilisation
+  - services-signed-off-at-first-completion
+  - services-with-defined-levels-and-owner
+  - shipments-with-customer-reported-picking-errors
+  - sign-off-to-invoice-time
+  - unbilled-time-and-materials
+  - unit-production-cost-variance
+  - workshop-repair-turnaround
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.demand-to-fulfillment.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

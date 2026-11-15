@@ -1,0 +1,9 @@
+kind: stakeholder
+slug: community
+title: Community
+nature: group
+stance: both
+via: participant-to-community
+represented_by:
+- community-relation
+dissolves: false

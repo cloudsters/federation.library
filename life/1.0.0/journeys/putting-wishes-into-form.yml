@@ -1,0 +1,22 @@
+kind: journey
+slug: putting-wishes-into-form
+title: Putting Wishes into Form
+stakeholder: practitioner
+via: acquire-to-retire
+summary: A lawyer or notary helps this person put will, directives and powers of attorney in a form that will hold, and is asked to
+  read them again when the life changes.
+stages:
+- slug: give-it-a-form
+  title: Give It a Form
+  goal: The person's wishes have been put into a form that will hold, with what has no legal form kept as a letter.
+  step: holding-to-bequest/writing-it-down-properly
+  touchpoints:
+  - lawyers-office
+  - the-will
+  - talking-about-the-end
+- slug: read-it-again
+  title: Read It Again
+  goal: At a birth, a death, a move or a change of heart, the arrangements have been read again and revised in time.
+  step: holding-to-bequest/keeping-it-open
+  touchpoints:
+  - the-will

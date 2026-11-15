@@ -1,0 +1,14 @@
+kind: solution
+slug: transport-management-system
+title: Transport Management System
+role: system-of-record
+summary: Plans, tenders, books and tracks inbound and outbound transport across carriers, including dangerous goods, and settles freight
+  costs.
+carries:
+- inbound-flow-orchestration
+- outbound-flow-delivery
+- dangerous-goods-transport
+- transport-management
+holds:
+- shipment
+- carrier

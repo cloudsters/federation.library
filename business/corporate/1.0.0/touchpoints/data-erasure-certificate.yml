@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-erasure-certificate
+title: Data Erasure Certificate
+medium: artefact
+summary: The evidence that data on a retired device or storage medium has been erased or destroyed by a verified method, kept with
+  the asset's record.
+exchanges:
+- surplus-for-a-second-life
+journey: finance-recovering-value-from-retired-assets

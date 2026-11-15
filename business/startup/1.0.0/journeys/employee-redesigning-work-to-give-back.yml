@@ -1,0 +1,33 @@
+kind: journey
+slug: employee-redesigning-work-to-give-back
+title: Employee Redesigning Work to Give Back
+stakeholder: employee
+summary: An employee helps measure the footprint of their own work, redesigns recurring patterns so that they give back more than
+  they draw, applies sustainability criteria in daily decisions and sees the progress reported.
+stages:
+- slug: measure-their-own-footprint
+  title: Measure Their Own Footprint
+  goal: Energy, materials and waste of the employee's own work are measured and visible to the team.
+  step: regenerative-practice/footprint-baseline
+  touchpoints:
+  - footprint-ledger
+- slug: redesign-the-pattern
+  title: Redesign the Pattern
+  goal: A recurring pattern of work is redesigned to cut its draw on people and resources, and the capacity it frees is visibly given
+    back.
+  step: regenerative-practice/pattern-redesign
+  touchpoints:
+  - improvement-workshop
+- slug: apply-the-criteria-daily
+  title: Apply the Criteria Daily
+  goal: The employee is trained and supported to apply sustainability criteria in purchasing, offering and process decisions.
+  step: regenerative-practice/integration-into-decisions
+  touchpoints:
+  - practice-briefing
+- slug: see-progress-reported
+  title: See Progress Reported
+  goal: The team's contribution and the gaps that remain are reported honestly to staff.
+  step: regenerative-practice/progress-reporting
+  touchpoints:
+  - sustainability-report
+  - intranet

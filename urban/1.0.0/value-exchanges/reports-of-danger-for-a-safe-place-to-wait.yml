@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: reports-of-danger-for-a-safe-place-to-wait
+title: Reports of Danger for a Safe Place to Wait
+between:
+- public-transport-passenger
+- frontline-worker
+offered:
+- Passengers' reports of danger, harassment and broken lights or help points at stops.
+returned:
+- A stop that is lit, staffed or watched at night and a help point that is answered.
+touchpoint: staffed-night-stop

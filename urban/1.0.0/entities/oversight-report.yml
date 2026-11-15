@@ -1,0 +1,63 @@
+kind: entity
+slug: oversight-report
+title: Oversight Report
+type: intelligence
+summary: A report on what was promised, what was delivered, what failed and why, against measures residents helped set, given to the
+  council and to the neighbourhoods concerned. The administration, the internal audit or the legal office issues it at set intervals,
+  and it is how the elected bodies and the administration answer for their mandate.
+attributes:
+- name: report-kind
+  type: code
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: addressed-to
+  type: text
+  card: 1..*
+- name: measures
+  type: text
+  card: 0..*
+- name: commitments
+  type: text
+  card: 0..*
+- name: delivered
+  type: text
+  card: 0..*
+- name: shortfalls
+  type: text
+  card: 0..*
+- name: reasons
+  type: text
+  card: 0..*
+- name: findings
+  type: reference(audit-finding)
+  card: 0..*
+- name: issued-on
+  type: date
+  card: 1..1
+- name: published-as
+  type: reference(public-record)
+  card: 0..1
+states:
+- scheduled
+- drafted
+- issued
+- published
+- discussed
+- answered
+relations:
+- type: refers-to
+  target: council-decision
+- type: refers-to
+  target: audit-finding
+- type: refers-to
+  target: obligation-register
+- type: refers-to
+  target: whole-city-assessment
+- type: produces
+  target: public-record
+binds:
+- source: src-183
+  edition: vol1-2020_vol2-2021
+  jurisdiction: global

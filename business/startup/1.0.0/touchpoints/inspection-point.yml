@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: inspection-point
+title: Inspection Point
+medium: place
+summary: The control point in the flow of work where results are checked against acceptance criteria, deviations are stopped and recorded,
+  and nothing defective moves on unseen.
+exchanges:
+- stop-authority-for-contained-defects
+journey: operator-running-a-shift

@@ -1,0 +1,14 @@
+kind: touchpoint
+slug: data-use-and-access-committee
+title: Data Use and Access Committee
+medium: encounter
+summary: The committee that reviews requests to use care data and samples against consent, law, ethics approval and scientific merit,
+  and sets the conditions of use.
+exchanges:
+- curated-data-for-faithful-use
+- quality-samples-for-acknowledged-use
+- sample-access-for-industry-research
+- sound-request-for-prepared-data
+- ethics-opinion-for-complete-protocols
+- defined-purpose-for-conditional-access
+journey: researcher-obtaining-care-data

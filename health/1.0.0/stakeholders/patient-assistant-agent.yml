@@ -1,0 +1,13 @@
+kind: stakeholder
+slug: patient-assistant-agent
+title: Patient Assistant Agent
+nature: agent
+stance: serving
+summary: An AI agent that answers questions from patients and relatives, helps book appointments, prepares patients for admission
+  and guides them through the portal, handing over to staff when needed.
+seeks:
+- Current information on services and schedules, and clear rules on when to hand over to a person.
+brings:
+- Answers at any hour and in the patient's language, and fewer unanswered calls and missed appointments.
+represented_by:
+- ai-system

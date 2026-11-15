@@ -1,0 +1,55 @@
+kind: journey
+slug: city-council-directing-and-supervising-the-municipality
+title: City Council Directing and Supervising the Municipality
+stakeholder: city-council
+summary: The council publishes which decision rests where, receives prepared proposals, deliberates and resolves in public, supervises
+  implementation, receives the audit, agrees with neighbours on what crosses the boundary and reviews its own rules on a fixed cycle.
+stages:
+- slug: publish-the-decision-map
+  title: Publish the Decision Map
+  goal: The map of which decision rests at which level is adopted, published and open to challenge.
+  step: governance-and-oversight/decision-authority-mapping
+  touchpoints:
+  - published-decision-map
+  - council-meeting
+- slug: receive-prepared-proposals
+  title: Receive Prepared Proposals
+  goal: Each proposal arrives complete, with evidence, alternatives, cost and consultation.
+  step: governance-and-oversight/decision-preparation
+  touchpoints:
+  - council-proposal
+- slug: deliberate-and-resolve-in-public
+  title: Deliberate and Resolve in Public
+  goal: Resolutions are published with their reasons, minority positions and rejected alternatives.
+  step: governance-and-oversight/deliberation-and-resolution
+  touchpoints:
+  - committee-meeting
+  - council-meeting
+  - council-minutes
+- slug: supervise-implementation
+  title: Supervise Implementation
+  goal: The council knows at set intervals what was delivered and what failed, and acts on it.
+  step: governance-and-oversight/implementation-oversight
+  touchpoints:
+  - implementation-report
+  - committee-meeting
+- slug: receive-the-audit
+  title: Receive the Audit
+  goal: Audit and inspection findings are received in committee, and every finding has an answer and an owner.
+  step: governance-and-oversight/audit-and-inspection
+  touchpoints:
+  - audit-report
+  - committee-meeting
+- slug: agree-across-the-boundary
+  title: Agree Across the Boundary
+  goal: Agreements with neighbouring municipalities share decisions, costs and maintenance, and give users of the infrastructure a
+    voice.
+  step: governance-and-oversight/cross-boundary-coordination
+  touchpoints:
+  - joint-committee-meeting
+- slug: review-its-own-rules
+  title: Review Its Own Rules
+  goal: Rules of procedure, decision map and the balance of power are reviewed, and rules that no longer serve are changed.
+  step: governance-and-oversight/governance-effectiveness-review
+  touchpoints:
+  - governance-review-session

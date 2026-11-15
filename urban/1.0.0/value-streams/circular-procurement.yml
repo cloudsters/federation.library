@@ -1,0 +1,123 @@
+kind: value-stream
+slug: circular-procurement
+title: Circular Procurement
+family: source-to-alliance
+summary: Buying so that materials stay in use and the city's purchases carry less carbon. It holds the account of the emissions and
+  materials embedded in what the city buys and builds, the check for repair, reuse and sharing before anything new is bought, requirements
+  for durability, repair and reclaimed content, the comparison of offers on whole-life cost, reclaimed materials sourced from salvage
+  networks and material cooperatives, suppliers' duty to take back what they supplied, and the yearly report of what was kept in use.
+trigger: The climate action plan sets targets for the city's purchases, a category comes up for tender, or the yearly carbon footprint
+  shows where purchases weigh most.
+outcome: The city buys less new and keeps more in use, and each category carries limits on embedded carbon and conditions for repair
+  and take-back that its suppliers meet.
+stakeholders:
+- procurement-officer
+- supplier
+- social-enterprise
+- local-business
+- informal-worker
+- city-administration
+steps:
+- slug: embedded-carbon-and-material-account
+  title: Embedded Carbon and Material Account
+  summary: The procurement office and the environment department estimate the emissions and materials embedded in each category of
+    purchases and works, set them beside the climate action plan, and set limits for each category.
+  capabilities:
+  - embedded-carbon-assessment
+  - spend-and-demand-analysis
+  - ecological-and-social-cost-accounting
+  entities:
+  - carbon-footprint
+  - climate-action-plan
+  - spend-profile
+  serves:
+  - published-category-carbon-limits
+- slug: reuse-before-purchase
+  title: Reuse Before Purchase
+  summary: Before buying new, a department checks whether the need can be met by repairing what it has, by reusing furniture, equipment
+    or materials held elsewhere in the city, or by borrowing from a pool shared across departments and neighbourhood bodies.
+  capabilities:
+  - reuse-before-purchase-check
+  - shared-equipment-pooling
+  entities:
+  - equipment-pool
+  - requisition
+  serves:
+  - purchase-request-form
+  - shared-equipment-catalogue
+- slug: circular-requirements
+  title: Circular Requirements
+  summary: For each category, the category team writes requirements for durability, repair, spare parts, modular design and reclaimed
+    or recycled content into its specifications, set with suppliers and repairers.
+  capabilities:
+  - circular-requirement-drafting
+  - category-strategy-setting
+  entities:
+  - tender-specification
+  - category-strategy
+  serves:
+  - category-strategy-workshop
+- slug: whole-life-cost-comparison
+  title: Whole-Life Cost Comparison
+  summary: Offers are compared on their cost over the whole life of what is bought, with energy, upkeep, repair and end of use included,
+    and on their embedded carbon, not on purchase price alone.
+  capabilities:
+  - whole-life-cost-assessment
+  - embedded-carbon-assessment
+  - weighted-bid-evaluation
+  entities:
+  - whole-life-cost-calculation
+  - bid
+  serves:
+  - bid-evaluation-meeting
+- slug: reclaimed-material-sourcing
+  title: Reclaimed Material Sourcing
+  summary: For building works and the furnishing of public buildings, the city sources reclaimed building materials, furniture and
+    equipment from buildings taken apart for reuse, salvage networks and material cooperatives, with their condition and origin recorded
+    in a material passport.
+  capabilities:
+  - reclaimed-material-sourcing
+  - material-recovery
+  - supplier-capacity-building
+  entities:
+  - material-passport
+  - supplier-record
+  serves:
+  - reclaimed-materials-yard
+- slug: take-back-and-return-to-use
+  title: Take-Back and Return to Use
+  summary: Suppliers take back products and packaging at the end of use under the take-back clauses of their contracts, repair, refurbish
+    or recover them and report what returned to use, and what remains goes to the city's material recovery.
+  capabilities:
+  - take-back-clause-drafting
+  - contract-performance-monitoring
+  - material-recovery
+  entities:
+  - take-back-record
+  - contract
+  - waste-metrics
+  serves:
+  - take-back-collection
+- slug: circular-purchasing-report
+  title: Circular Purchasing Report
+  summary: Each year the procurement office reports the share of purchases that were repaired, reused, reclaimed or taken back, the
+    embedded carbon avoided and how each category kept to its limits, and the council revises the limits.
+  capabilities:
+  - circular-purchasing-reporting
+  - spending-outcome-review
+  entities:
+  - circular-purchasing-report
+  - carbon-footprint
+  serves:
+  - procurement-committee-session
+  - published-circular-purchasing-report
+binds:
+- source: src-111
+  edition: 2011-c2013
+  jurisdiction: global
+- source: src-370
+  edition: '2017'
+  jurisdiction: global
+- source: src-634
+  edition: '2017'
+  jurisdiction: global

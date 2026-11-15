@@ -1,0 +1,10 @@
+kind: body
+slug: financial-operations
+title: Financial Operations
+summary: Invoices customers, collects receivables, manages credit, checks and pays supplier invoices and handles expenses and cards.
+holds:
+- revenue-and-receivables
+- payables-and-expenses
+part_of: executive-board
+type: function
+form: organisational-unit

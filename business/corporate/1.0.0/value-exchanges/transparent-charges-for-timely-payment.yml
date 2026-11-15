@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: transparent-charges-for-timely-payment
+title: Transparent Charges for Timely Payment
+between:
+- finance-professional
+- consumer
+offered:
+- Charges the consumer can see before billing, a clear bill and a choice of payment methods.
+returned:
+- Timely payment and early word when something on the bill looks wrong.
+touchpoint: mobile-app

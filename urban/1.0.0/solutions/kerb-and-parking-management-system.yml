@@ -1,0 +1,10 @@
+kind: solution
+slug: kerb-and-parking-management-system
+title: Kerb and Parking Management System
+role: system-of-record
+summary: Holds the rules for loading zones, delivery windows, vehicle limits, parking and their charges by street and district, and
+  records breaches and payments.
+carries:
+- kerb-and-parking-enforcement
+holds:
+- kerb-and-loading-rule

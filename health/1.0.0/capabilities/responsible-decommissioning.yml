@@ -1,0 +1,10 @@
+kind: capability
+slug: responsible-decommissioning
+title: Responsible Decommissioning
+level: L3
+parent: medical-device-lifecycle
+summary: Retire devices that are unsafe, obsolete or uneconomic and dispose of, sell or recycle them responsibly.
+binds:
+- source: src-573
+  edition: '2024'
+  jurisdiction: global

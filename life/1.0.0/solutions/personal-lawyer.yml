@@ -1,0 +1,15 @@
+kind: solution
+slug: personal-lawyer
+title: Personal Lawyer
+role: person
+sovereignty: third-party
+summary: Reads what is about to be signed, drafts the will and directives, and says plainly which rights the person holds.
+carries:
+- reading-before-signing
+- reading-the-fine-print
+- stating-ones-last-wishes
+- understanding-ones-rights
+holds:
+- will
+- contract
+- rights-record

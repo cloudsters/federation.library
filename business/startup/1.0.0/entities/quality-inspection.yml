@@ -1,0 +1,44 @@
+kind: entity
+slug: quality-inspection
+title: Quality Inspection
+type: transactional
+summary: A check against the promised standard — the organisation pausing to verify that what it produces meets the standards it promised.
+  Each inspection is an act of integrity, ensuring its outputs honour its commitments.
+attributes:
+- name: inspection-stage
+  type: code
+  card: 1..1
+- name: item
+  type: reference(item)
+  card: 1..1
+- name: batch-lot
+  type: reference(batch-lot)
+  card: 0..1
+- name: serial-number
+  type: reference(serial-number)
+  card: 0..1
+- name: template
+  type: reference(quality-standard)
+  card: 1..1
+- name: readings
+  type: text
+  card: 1..*
+- name: verdict
+  type: code
+  card: 0..1
+states:
+- pending
+- in-progress
+- accepted
+- rejected
+relations:
+- type: governed-by
+  target: quality-standard
+- type: refers-to
+  target: batch-lot
+- type: produces
+  target: non-conformance
+binds:
+- source: src-075
+  edition: '2026'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: learning-platform
+title: Learning Platform
+medium: channel
+summary: The platform where people find and take courses and learning paths, and where participation, completion and credentials are
+  recorded.
+exchanges:
+- learning-effort-for-recognised-skills
+- learning-paths-for-certified-skill
+journey: newcomer-learning-from-shared-know-how

@@ -1,0 +1,32 @@
+kind: journey
+slug: authority-overseeing-a-permitted-site
+title: Authority Overseeing a Permitted Site
+stakeholder: environmental-authority
+summary: An environmental authority receives a sound account of a site's impacts, grants and conditions its permits, is notified of
+  incidents in time and inspects the monitoring that shows the site within its limits.
+stages:
+- slug: receive-a-sound-application
+  title: Receive a Sound Application
+  goal: The authority receives the site's assessed impacts and the controls proposed for them.
+  step: ecological-health-safety/hazard-and-impact-assessment
+  touchpoints:
+  - environmental-permit
+- slug: set-the-conditions
+  title: Set the Conditions
+  goal: Permit conditions for emissions, waste and hazardous substances are set and built into the site's programme.
+  step: ecological-health-safety/health-safety-and-environment-programme
+  touchpoints:
+  - environmental-permit
+- slug: be-notified-in-time
+  title: Be Notified in Time
+  goal: Environmental incidents are notified promptly with their causes and corrective measures.
+  step: ecological-health-safety/incident-and-near-miss-reporting
+  touchpoints:
+  - statutory-filing
+- slug: inspect-the-evidence
+  title: Inspect the Evidence
+  goal: Monitoring records and inspections show the site within its limits, or the deviations and their remedies.
+  step: ecological-health-safety/monitoring-audit-and-reporting
+  touchpoints:
+  - environmental-monitoring-record
+  - official-inspection

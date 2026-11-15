@@ -1,0 +1,111 @@
+kind: value-stream
+slug: staff-wellbeing-and-retention
+title: Staff Wellbeing and Retention
+family: contributor-to-succession
+summary: Keeping those who run the city well and wanting to stay. It holds the sensing of workload, wellbeing and burnout, the sharing
+  of the listening, care and conflict work that falls on a few, rest and flexible working around care duties, grievances heard and
+  their causes fixed with staff representatives, recognition of what people give, and a review of who leaves and why, so that the
+  city keeps the people it has trained.
+trigger: The yearly staff survey runs, turnover or sickness rises in a team, or a grievance is raised.
+outcome: Workload is shared, the causes of grievances are removed, and the staff the city wants to keep stay.
+stakeholders:
+- municipal-employee
+- frontline-worker
+- staff-representative
+- personnel-officer
+- caregiver
+- volunteer
+- city-administration
+steps:
+- slug: wellbeing-sensing
+  title: Wellbeing Sensing
+  summary: A yearly survey, short pulse surveys, sickness and overtime data and exit conversations show workload, wellbeing and burnout
+    by team, without naming individuals.
+  capabilities:
+  - staff-wellbeing-sensing
+  - staff-record-keeping
+  entities:
+  - staff-survey
+  - staff-record
+  serves:
+  - staff-wellbeing-survey
+  - team-wellbeing-report
+- slug: care-load-sharing
+  title: Care Load Sharing
+  summary: Teams name the listening, conflict-holding and facilitation work in their agreements, record who carries it, and rotate
+    it so that it does not fall on the same few people.
+  capabilities:
+  - care-load-distribution
+  - role-rotation-scheduling
+  - work-visibility-mapping
+  entities:
+  - labour-valuation
+  - role-rotation-schedule
+  serves:
+  - team-agreement
+  - team-care-check-in
+- slug: burnout-prevention
+  title: Burnout Prevention
+  summary: Workloads are capped, demanding roles are followed by a period of rest, hours are set around care duties, and staff receive
+    support after distressing events.
+  capabilities:
+  - burnout-prevention
+  - care-load-distribution
+  entities:
+  - staff-agreement
+  - role-rotation-schedule
+  serves:
+  - after-incident-support
+  - flexible-working-request
+  - team-agreement
+- slug: grievance-handling
+  title: Grievance Handling
+  summary: A grievance is received, heard by someone outside the line of the person who raised it, resolved with staff representatives
+    or through mediation, and its cause is fixed where the work is organised.
+  capabilities:
+  - grievance-handling
+  - staff-representative-consultation
+  - mediation-facilitation
+  entities:
+  - grievance
+  - staff-agreement
+  serves:
+  - grievance-desk
+  - grievance-hearing
+- slug: everyday-recognition
+  title: Everyday Recognition
+  summary: The contribution of staff and civic contributors, including care and maintenance work that is seldom seen, is acknowledged
+    in the rhythm of the work and on public occasions.
+  capabilities:
+  - contribution-recognition
+  - work-visibility-mapping
+  entities:
+  - labour-valuation
+  - staff-record
+  serves:
+  - recognition-gathering
+- slug: retention-review
+  title: Retention Review
+  summary: The personnel function and staff representatives review who leaves, from which teams and why, and whether pay is fair across
+    groups, agree measures, and report the results to the council.
+  capabilities:
+  - retention-review
+  - pay-equity-review
+  - staff-wellbeing-sensing
+  entities:
+  - staff-survey
+  - workforce-forecast
+  serves:
+  - exit-conversation
+  - personnel-committee-meeting
+  - retention-review-report
+binds:
+- source: src-155
+  edition: '2025'
+  jurisdiction: global
+- source: src-236
+  edition: '2019-01-17'
+  jurisdiction: global
+- source: src-240
+  edition: '2021'
+  jurisdiction: global

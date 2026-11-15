@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: design-review-session
+title: Design Review Session
+medium: encounter
+summary: A session in which engineers and maintenance crews review a design for durability, inspection, cleaning, repair and later
+  disassembly before it is fixed.
+exchanges:
+- maintainer-requirements-in-the-brief
+journey: public-works-engineer-delivering-a-public-work

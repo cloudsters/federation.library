@@ -1,0 +1,27 @@
+kind: journey
+slug: lender-financing-a-long-horizon-investment
+title: Lender Financing a Long-Horizon Investment
+stakeholder: lender
+summary: A lender is approached to fund a long-horizon investment, agrees terms the organisation can keep and receives the reporting
+  and covenant compliance the loan requires.
+stages:
+- slug: understand-the-financing-structure
+  title: Understand the Financing Structure
+  goal: The lender sees how its credit fits beside equity, grants and other instruments.
+  step: capital-stewardship/financing-structure-design
+  touchpoints:
+  - lender-review
+- slug: agree-the-loan
+  title: Agree the Loan
+  goal: Amount, term, security and covenants are negotiated and the loan is granted.
+  step: capital-stewardship/funding-acquisition
+  touchpoints:
+  - contract-negotiation
+  - loan-agreement
+- slug: receive-the-reporting
+  title: Receive the Reporting
+  goal: The lender receives the agreed reports and evidence of covenant compliance on time.
+  step: capital-stewardship/ownership-and-funding-administration
+  touchpoints:
+  - lender-review
+  - loan-agreement

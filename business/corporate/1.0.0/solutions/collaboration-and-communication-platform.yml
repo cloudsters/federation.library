@@ -1,0 +1,17 @@
+kind: solution
+slug: collaboration-and-communication-platform
+title: Collaboration and Communication Platform
+role: system-of-record
+summary: Carries messages, meetings, calendars and shared workspaces for staff and partners, including the rooms in which a crisis
+  is run and the communities of practice in which knowledge is shared.
+carries:
+- collective-intelligence
+- community-communication-design
+- crisis-as-adaptive-response
+- dialogue-exchange-cultivation
+- knowledge-practice-cultivation
+- remote-and-distributed-work-design
+- crisis-communication
+holds:
+- communication
+- calendar-event

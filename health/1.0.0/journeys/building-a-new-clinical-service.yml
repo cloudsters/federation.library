@@ -1,0 +1,54 @@
+kind: journey
+slug: building-a-new-clinical-service
+title: Building a New Clinical Service
+stakeholder: head-of-clinical-department
+summary: The department head's path from seeing an unmet need to answering for a running service that has proved its value.
+stages:
+- slug: naming-the-gap
+  title: Naming the Gap
+  goal: Have the unmet need recognised as a gap the organisation should close, not as a departmental wish.
+  step: clinical-service-development/need-identification
+  touchpoints:
+  - board-meeting
+  - patient-advisory-council
+- slug: shaping-the-service
+  title: Shaping the Service
+  goal: Define a service that clinicians, nurses and patients recognise as right and that the organisation can staff and commons.
+  step: clinical-service-development/service-concept
+  touchpoints:
+  - service-design-workshop
+- slug: winning-approval
+  title: Winning Approval
+  goal: Obtain a clear decision with funding, positions and space, and know the measures by which the service will be judged.
+  step: clinical-service-development/business-case-and-approval
+  touchpoints:
+  - business-case
+  - board-meeting
+- slug: proving-it-at-small-scale
+  title: Proving It at Small Scale
+  goal: Learn quickly what works for the first patients and correct the design before the service grows.
+  step: clinical-service-development/pilot
+  touchpoints:
+  - innovation-lab
+  - outpatient-clinic
+- slug: getting-ready
+  title: Getting Ready
+  goal: Start with a trained team, working systems and secured payment instead of improvising in the first weeks.
+  step: clinical-service-development/launch-readiness
+  touchpoints:
+  - clinical-workstation
+  - payer-negotiation
+- slug: opening-the-doors
+  title: Opening the Doors
+  goal: Reach the right patients through referrers and the public from the first day.
+  step: clinical-service-development/service-launch
+  touchpoints:
+  - referrer-portal
+  - public-website
+  - outpatient-clinic
+- slug: answering-for-value
+  title: Answering for Value
+  goal: Show with data that the service delivers what was promised, and secure its future or adapt it.
+  step: clinical-service-development/value-review
+  touchpoints:
+  - board-meeting

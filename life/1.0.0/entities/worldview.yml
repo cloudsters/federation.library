@@ -1,0 +1,31 @@
+kind: entity
+slug: worldview
+title: Worldview
+type: master
+summary: How this person understands the world they are in — what they take to be true about people, time, chance and what happens
+  after. It sits underneath the premises rather than beside them.
+attributes:
+- name: stance
+  type: text
+  card: 1..1
+- name: on-what
+  type: code
+  card: 1..*
+- name: where-it-came-from
+  type: text
+  card: 0..1
+- name: shared-with
+  type: list(community)
+  card: 0..*
+- name: last-questioned
+  type: date
+  card: 0..1
+states:
+- absorbed
+- challenged
+- examined
+- held
+- widened
+relations:
+- target: self
+  type: about

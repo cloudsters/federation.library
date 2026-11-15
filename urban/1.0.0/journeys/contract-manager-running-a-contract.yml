@@ -1,0 +1,53 @@
+kind: journey
+slug: contract-manager-running-a-contract
+title: Contract Manager Running a Contract
+stakeholder: contract-manager
+summary: The contract manager takes over the signed contract, tracks delivery and commitments each month, hears users and inspectors,
+  agrees variations and remedies on the record, reviews the relationship with the supplier each year and decides in time how the contract
+  ends.
+stages:
+- slug: take-over-the-contract
+  title: Take Over the Contract
+  goal: The department and staff who rely on the contract know its obligations, service levels and contacts, and delivery has started
+    as agreed.
+  step: contract-and-supplier-performance/contract-mobilisation
+  touchpoints:
+  - contract-start-meeting
+- slug: track-delivery-and-commitments
+  title: Track Delivery and Commitments
+  goal: Delivery, quality and service levels are tracked each month, and the jobs, wages and local hires promised are verified with
+    workers.
+  step: contract-and-supplier-performance/delivery-and-commitment-monitoring
+  touchpoints:
+  - monthly-contract-performance-report
+  - worker-commitment-check
+- slug: hear-users-and-inspectors
+  title: Hear Users and Inspectors
+  goal: The view of those who use the service and the findings of resident inspectors are in the contract's report and have been answered.
+  step: contract-and-supplier-performance/user-feedback-and-resident-inspection
+  touchpoints:
+  - contracted-service-feedback-channel
+  - resident-contract-inspection
+- slug: remedy-on-the-record
+  title: Remedy on the Record
+  goal: Changes are agreed within what the contract allows, and a shortfall is corrected after the supplier was heard, with both recorded
+    and published.
+  step: contract-and-supplier-performance/variation-and-remedy
+  touchpoints:
+  - contract-remedy-hearing
+  - published-contract-register
+- slug: review-the-relationship
+  title: Review the Relationship
+  goal: Performance, the relationship and what each side owes the other, the city's payment times included, are reviewed and improvements
+    agreed.
+  step: contract-and-supplier-performance/supplier-performance-review
+  touchpoints:
+  - annual-supplier-review-meeting
+- slug: decide-the-end-in-time
+  title: Decide the End in Time
+  goal: Renewal, a new tender, a change of supplier or a return to own provision is decided well before the end, and the exit plan
+    keeps data, assets and service in place.
+  step: contract-and-supplier-performance/renewal-or-exit-decision
+  touchpoints:
+  - provision-option-review
+  - contract-exit-handover

@@ -1,0 +1,52 @@
+kind: journey
+slug: connecting-to-the-national-health-network
+title: Connecting to the National Health Network
+stakeholder: health-informatics-specialist
+summary: A health informatics specialist takes a connection from the first need through specification, identities, build and conformance
+  testing to monitored live exchange.
+stages:
+- slug: register-the-need
+  title: Register the Need
+  goal: The connection need is recorded with its partner, content and legal basis.
+  step: interoperability-and-connectivity/exchange-need-assessment
+  touchpoints:
+  - digital-demand-intake
+- slug: agree-the-specification
+  title: Agree the Specification
+  goal: Content, format, coding and error handling are fixed with the partner before any build.
+  step: interoperability-and-connectivity/exchange-specification
+  touchpoints:
+  - interface-specification
+- slug: set-up-identities-and-connection
+  title: Set Up Identities and Connection
+  goal: The organisation and its professionals hold valid identities and a secure connection.
+  step: interoperability-and-connectivity/connection-and-identity-setup
+  touchpoints:
+  - national-health-network
+- slug: build-and-map
+  title: Build and Map
+  goal: The interface is built and local codes are mapped to shared terminologies.
+  step: interoperability-and-connectivity/interface-build-and-mapping
+  touchpoints:
+  - interface-specification
+- slug: pass-conformance
+  title: Pass Conformance
+  goal: The interface is confirmed conformant before it carries patient data.
+  step: interoperability-and-connectivity/conformance-testing
+  touchpoints:
+  - conformance-test
+- slug: go-live-in-care
+  title: Go Live in Care
+  goal: Clinicians send, receive and share information through the new connection.
+  step: interoperability-and-connectivity/live-exchange
+  touchpoints:
+  - national-health-network
+  - clinical-messaging-service
+  - patient-held-health-record
+- slug: keep-the-flow-clean
+  title: Keep the Flow Clean
+  goal: Rejected and failed messages are found and resolved before care is affected.
+  step: interoperability-and-connectivity/exchange-monitoring
+  touchpoints:
+  - clinical-messaging-service
+  - it-service-desk

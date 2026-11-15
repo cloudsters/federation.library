@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: clinical-engineering-service-desk
+title: Clinical Engineering Service Desk
+medium: channel
+summary: The telephone and online service through which units report faulty devices, request repairs and loan devices, and follow
+  the status of their requests.
+exchanges:
+- fault-reports-for-available-devices
+journey: care-team-keeping-devices-safe-to-use

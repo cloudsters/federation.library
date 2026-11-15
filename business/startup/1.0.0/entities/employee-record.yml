@@ -1,0 +1,46 @@
+kind: entity
+slug: employee-record
+title: Employee Record
+type: master
+summary: A person working in the organisation — whose skills, energy, and commitment carry its work. The most relationship-dense entity in
+  the entire model.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: name
+  type: text
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 0..1
+- name: department
+  type: reference(department)
+  card: 1..1
+- name: reports-to
+  type: reference(employee-record)
+  card: 0..1
+- name: contract-terms
+  type: document
+  card: 0..1
+- name: compensation
+  type: amount
+  card: 0..1
+- name: skills
+  type: reference(skill)
+  card: 0..*
+states:
+- hired
+- onboarded
+- developing
+- transitioning
+- retired
+relations:
+- type: assigned-to
+  target: position
+- type: part-of
+  target: department
+- type: refers-to
+  target: skill
+- type: refers-to
+  target: payslip

@@ -1,0 +1,16 @@
+kind: capability
+slug: education-quality-assurance
+title: Education Quality Assurance
+level: L3
+parent: teaching-governance
+summary: Assure the quality of all education programmes against defined standards.
+binds:
+- source: src-320
+  edition: BME-2020/PGME-2023/CPD-2024
+  jurisdiction: global
+- source: src-374
+  edition: '2025'
+  jurisdiction: global
+- source: src-461
+  edition: '2015'
+  jurisdiction: global

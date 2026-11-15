@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: user-acceptance-test
+title: User Acceptance Test
+medium: encounter
+summary: The session in which future users work through realistic cases in the configured solution and confirm or refuse that it is
+  fit for use.
+exchanges:
+- workflow-knowledge-for-fitting-systems
+journey: clinical-users-receiving-a-new-system

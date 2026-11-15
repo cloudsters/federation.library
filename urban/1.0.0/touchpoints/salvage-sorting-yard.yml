@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: salvage-sorting-yard
+title: Salvage Sorting Yard
+medium: place
+summary: The yard where salvaged components and materials, and materials recovered after floods, are sorted by type, condition and
+  next use.
+exchanges:
+- deconstruction-contract-for-recovered-value
+journey: salvage-cooperative-taking-a-building-apart

@@ -1,0 +1,10 @@
+kind: capability
+slug: speech-and-swallowing-therapy
+title: Speech & Swallowing Therapy
+level: L3
+parent: rehabilitative-therapies
+summary: Assess and treat disorders of speech, language and swallowing.
+binds:
+- source: src-476
+  edition: '2019'
+  jurisdiction: global

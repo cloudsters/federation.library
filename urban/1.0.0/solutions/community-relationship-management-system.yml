@@ -1,0 +1,36 @@
+kind: solution
+slug: community-relationship-management-system
+title: Community Relationship Management System
+role: system-of-record
+summary: Holds the directory of the city's civil society and faith communities, the relationship the city holds with each, the partnership
+  compact, the anchor institution and faith space agreements, the coalitions, the independence checks and the partnership reviews.
+carries:
+- civil-society-mapping
+- neighbourhood-body-support
+- coalition-convening
+- independence-safeguard-review
+- partnership-review
+- interfaith-forum-convening
+- faith-space-agreement-drafting
+- business-network-convening
+- cluster-agreement-drafting
+- collective-mark-support
+- commercial-district-agreement-drafting
+- cooperative-federation-support
+- anchor-institution-agreement-drafting
+holds:
+- civil-society-directory
+- civil-society-body
+- faith-community
+- interfaith-forum
+- partnership-compact
+- anchor-institution-agreement
+- civic-coalition
+- partnership-review-report
+- faith-space-agreement
+- business-network
+- cluster-agreement
+- collective-mark
+- commercial-district-agreement
+- community-media-outlet
+- cooperative-platform

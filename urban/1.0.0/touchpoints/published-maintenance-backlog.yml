@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: published-maintenance-backlog
+title: Published Maintenance Backlog
+medium: artefact
+summary: The public ledger of deferred upkeep by asset and neighbourhood, valued as repair cost, share of asset value and remaining
+  life, that every resident can read.
+exchanges:
+- deferred-upkeep-made-visible
+- backlog-figures-for-a-fair-budget-debate
+journey: asset-officer-building-the-asset-plan

@@ -1,0 +1,21 @@
+kind: journey
+slug: payer-record-request-journey
+title: Payer Record Request Journey
+stakeholder: payer
+summary: A payer reviewing a claim requests the records it is entitled to and receives a complete, timely extract limited to what
+  the review requires.
+stages:
+- slug: request-the-records
+  title: Request the Records
+  goal: Obtain the records needed to review a claim within the legal frame.
+  step: health-record-management/request-validation
+  touchpoints:
+  - medical-records-office
+  - claim
+- slug: receive-the-extract
+  title: Receive the Extract
+  goal: Receive a complete and timely extract of what the review requires.
+  step: health-record-management/release-and-logging
+  touchpoints:
+  - medical-records-office
+  - clinical-messaging-service

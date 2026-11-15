@@ -1,0 +1,28 @@
+kind: solution
+slug: referral-and-access-management
+title: Referral and Access Management
+role: system-of-record
+summary: Receives every request for care, whether self-referred, referred or transferred, triages it, records the organisation's
+  commitment and tracks it to an appointment or admission. Its referrer-facing portal lets referrers submit, follow and receive
+  results.
+carries:
+- referral-intake-management
+- referrer-relationship-management
+- second-opinion-access
+- international-patient-services
+- affiliated-practice-integration
+holds:
+- request-for-care
+- referral
+- care-commitment
+- request-mandate
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

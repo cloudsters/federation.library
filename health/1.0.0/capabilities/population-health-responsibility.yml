@@ -1,0 +1,11 @@
+kind: capability
+slug: population-health-responsibility
+title: Population Health Responsibility
+level: L3
+parent: care-mandate
+summary: 'Carry the organisation''s public-health duties: notifiable disease reporting, cooperation with public-health authorities
+  and pandemic readiness.'
+binds:
+- source: src-254
+  edition: '2025-09-19'
+  jurisdiction: global

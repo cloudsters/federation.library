@@ -1,0 +1,196 @@
+kind: value-stream
+slug: informed-choice-and-consent
+title: Informed Choice and Consent
+family: interest-to-relationship
+summary: 'Enabling patients to make informed choices and give valid consent: understandable information, shared decision making with
+  decision aids, consent and its withdrawal, advance directives and proxy decision-makers.'
+trigger: A patient faces a decision about an examination, a treatment, participation in a study or future care.
+outcome: The patient's informed decision, consent, refusal or advance directive is documented and respected across the organisation.
+stakeholders:
+- elective-inpatient
+- person-with-cancer
+- person-at-end-of-life
+- relative
+- research-participant
+- specialist-physician
+- registered-nurse
+- clinical-research-coordinator
+- patient-assistant-agent
+steps:
+- slug: decision-recognition
+  title: Decision Recognition
+  summary: The care team recognises that a decision is due on an examination, a treatment, a study or future care, names the options,
+    who decides and by when, and marks the decisions whose right answer depends on the patient's values.
+  capabilities:
+  - care-plan-determination
+  - clinical-pathway-application
+  - shared-decision-making-practice
+  - surgical-indication-and-consent
+  - trial-participant-recruitment
+  - advance-care-planning
+  entities:
+  - diagnosis
+  - care-plan
+  - shared-decision
+  - research-study
+  serves:
+  - consultation
+  - home-visit
+  - intensive-care-unit
+  - ward
+- slug: capacity-and-representation
+  title: Capacity and Representation
+  summary: Establish whether the patient can make this decision, what support they need in language, hearing or understanding, whether
+    a child can give assent, and which directive, proxy or legal authorisation applies when the patient cannot decide alone.
+  capabilities:
+  - decision-making-capacity-assessment
+  - interpreting-and-language-services
+  - consent-and-directive-management
+  - advance-care-planning
+  - clinical-social-work
+  entities:
+  - patient
+  - related-person
+  - proxy-mandate
+  - advance-directive
+  - authorization-by-law
+  - support-service-order
+  serves:
+  - advance-directive-document
+  - consultation
+  - interpreting-service
+- slug: information-and-options
+  title: Information and Options
+  summary: Explain the condition and every reasonable option, including waiting or doing nothing, with benefits, harms and uncertainties
+    in plain language and the patient's own language, supported by decision aids and given early enough to reflect.
+  capabilities:
+  - informed-consent
+  - decision-aids-and-health-literacy
+  - diagnostic-uncertainty-communication
+  - interpreting-and-language-services
+  - patient-portal
+  entities:
+  - decision-aid
+  - shared-decision
+  - clinical-document
+  serves:
+  - consultation
+  - family-meeting
+  - interpreting-service
+  - patient-decision-aid
+  - patient-portal
+- slug: deliberation
+  title: Deliberation
+  summary: Elicit what matters most to the patient, weigh the options against it together with the relatives the patient chooses,
+    draw on other disciplines or a second opinion for complex choices, and call ethics consultation where views conflict.
+  capabilities:
+  - shared-decision-making-practice
+  - interdisciplinary-consultation
+  - second-opinion-access
+  - relatives-and-visitor-support
+  - clinical-ethics-consultation
+  - palliative-care
+  entities:
+  - preference
+  - shared-decision
+  - case-conference
+  - ethics-consultation
+  serves:
+  - consultation
+  - family-meeting
+  - patient-decision-aid
+- slug: decision-and-consent
+  title: Decision and Consent
+  summary: 'Record the decision in the form it takes: consent to a named activity, a refusal with its consequences explained, a study
+    or data-use consent, or an advance directive and the appointment of a proxy, each with who informed whom and when.'
+  capabilities:
+  - informed-consent
+  - surgical-indication-and-consent
+  - anaesthesia-consent-and-risk-stratification
+  - research-consent-management
+  - advance-care-planning
+  - clinical-documentation-at-point-of-care
+  entities:
+  - informed-consent
+  - objection
+  - data-use-consent
+  - advance-directive
+  - proxy-mandate
+  - shared-decision
+  - care-mandate
+  serves:
+  - advance-directive-document
+  - clinical-trial-unit
+  - consent-form
+  - family-meeting
+- slug: organisation-wide-availability
+  title: Organisation-Wide Availability
+  summary: Make every consent, refusal, directive and proxy authority visible at each point of care and binding in each system that
+    uses the patient's data, give the patient a copy and, where the patient agrees, pass it to the next provider.
+  capabilities:
+  - consent-and-directive-management
+  - health-record-management
+  - identity-access-management
+  - data-access-governance
+  - shared-health-record-integration
+  - clinical-handover
+  entities:
+  - informed-consent
+  - objection
+  - advance-directive
+  - proxy-mandate
+  - data-use-consent
+  - health-record
+  - access-grant
+  serves:
+  - emergency-department
+  - patient-held-health-record
+  - patient-portal
+  - shift-handover
+  - ward-round
+- slug: honouring-review-and-withdrawal
+  title: Honouring, Review and Withdrawal
+  summary: Check the recorded decision before acting, revisit it when the condition or the patient's wishes change, and give effect
+    to a withdrawal or revocation at once in care, research and data use, without disadvantage to the patient.
+  capabilities:
+  - consent-and-directive-management
+  - informed-consent
+  - surgical-safety-checklist-practice
+  - advance-care-planning
+  - research-consent-management
+  - end-of-life-care
+  entities:
+  - informed-consent
+  - objection
+  - advance-directive
+  - data-use-consent
+  - participant-enrolment
+  - care-plan
+  serves:
+  - consultation
+  - family-meeting
+  - home-visit
+  - patient-portal
+  - ward-round
+binds:
+- source: src-038
+  edition: '2024-10-19'
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-022
+  edition: '2025'
+  jurisdiction: global
+- source: src-003
+  edition: '2017'
+  jurisdiction: global
+- source: src-505
+  edition: '2009'
+  jurisdiction: global

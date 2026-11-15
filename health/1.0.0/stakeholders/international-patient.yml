@@ -1,0 +1,18 @@
+kind: stakeholder
+slug: international-patient
+title: International Patient
+nature: person
+stance: served
+summary: A person who travels from another country for planned treatment, usually specialised care unavailable or delayed at home,
+  arranged by the person, a physician or a payer abroad. Language, distance and payment shape every step.
+seeks:
+- A specialist assessment and a binding cost estimate before travelling, one coordinator, care in a language they understand and a
+  handover to care at home.
+brings:
+- Demand from beyond the catchment that extends the reach of the commons' specialised services, and revenue outside negotiated budgets.
+represented_by:
+- patient
+binds:
+- source: src-001
+  edition: '2026'
+  jurisdiction: global

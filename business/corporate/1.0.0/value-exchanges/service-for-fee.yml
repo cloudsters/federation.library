@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: service-for-fee
+title: Service for Fee
+between:
+- field-service-technician
+- business-customer
+offered:
+- A capacity to act on the customer's behalf, with agreed inspections, maintenance and repairs carried out by qualified people with
+  the parts they need, within agreed response times.
+returned:
+- The agreed fee paid on time, access to site and equipment, and an honest account of how the product is used.
+touchpoint: service-agreement

@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: work-order
+title: Work Order
+medium: artefact
+summary: The released order that tells a team what to make, repair or deliver, in which quantity, by when and with which materials,
+  and on which times, quantities and findings are confirmed.
+exchanges:
+- workable-sequence-for-truthful-confirmation
+journey: operator-running-a-shift

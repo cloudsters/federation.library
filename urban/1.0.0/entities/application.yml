@@ -1,0 +1,64 @@
+kind: entity
+slug: application
+title: Application
+type: master
+summary: A software system the city or a municipal enterprise uses, with its owner, purpose, users, code and licence, supplier, the
+  data it holds and the interfaces it offers. The owning department keeps the record, and it is used to place each system in the architecture,
+  to assess its risks and to plan its renewal or retirement.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: owning-department
+  type: reference(department)
+  card: 1..1
+- name: user-groups
+  type: text
+  card: 0..*
+- name: architecture-level
+  type: code
+  card: 1..1
+- name: licence
+  type: code
+  card: 1..1
+- name: source-code
+  type: reference(source-code-repository)
+  card: 0..1
+- name: supplier
+  type: text
+  card: 0..1
+- name: supplier-contracts
+  type: reference(contract)
+  card: 0..*
+- name: data-held
+  type: reference(data-set)
+  card: 0..*
+- name: supports-services
+  type: reference(digital-service)
+  card: 0..*
+- name: end-of-support-on
+  type: date
+  card: 0..1
+states:
+- planned
+- in-build
+- live
+- under-change
+- scheduled-for-retirement
+- retired
+relations:
+- type: part-of
+  target: systems-architecture
+- type: refers-to
+  target: data-set
+- type: refers-to
+  target: contract
+- type: refers-to
+  target: source-code-repository
+- type: depends-on
+  target: digital-network
+- type: governed-by
+  target: security-policy

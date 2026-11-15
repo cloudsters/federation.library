@@ -1,0 +1,24 @@
+kind: journey
+slug: granting-public-investment-funds
+title: Granting Public Investment Funds
+stakeholder: public-funding-body
+summary: The public funding body's path from an application for investment funds to the accepted account of their use.
+stages:
+- slug: assess-the-application
+  title: Assess the Application
+  goal: The application shows a need that serves the public care plan, with a sound cost and schedule.
+  step: capital-planning-and-investment-funding/funding-source-securing
+  touchpoints:
+  - investment-funding-application
+- slug: follow-the-project
+  title: Follow the Project
+  goal: Funds are spent on the approved project, within its conditions and its schedule.
+  step: capital-planning-and-investment-funding/capital-spending-control
+  touchpoints:
+  - use-of-funds-statement
+- slug: accept-the-account
+  title: Accept the Account
+  goal: The final account of the funds' use is complete, and no funds need to be reclaimed.
+  step: capital-planning-and-investment-funding/capitalisation-and-funding-accountability
+  touchpoints:
+  - use-of-funds-statement

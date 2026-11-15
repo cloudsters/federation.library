@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: resident-observations-for-a-fuller-condition-record
+title: Resident Observations for a Fuller Condition Record
+between:
+- resident
+- asset-officer
+offered:
+- Residents' reports, photographs and readings of cracks, leaks, subsidence and worn surfaces where they live.
+returned:
+- A condition record that counts their reports beside the inspectors' grades and shows what was done with them.
+touchpoint: resident-condition-report

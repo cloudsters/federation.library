@@ -1,0 +1,69 @@
+kind: entity
+slug: service-concept
+title: Service Concept
+type: transactional
+summary: The concept of a new or changed service, with whom it serves, what it offers, its channels and places and how a person reaches
+  a human. The department shapes it with the residents who will use it and the staff who will deliver it, and it is the basis of the
+  case, the trial and the launch.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: proposal
+  type: reference(service-proposal)
+  card: 1..1
+- name: service-name
+  type: text
+  card: 1..1
+- name: served-groups
+  type: text
+  card: 1..*
+- name: offer
+  type: text
+  card: 1..1
+- name: channels
+  type: code
+  card: 1..*
+- name: places
+  type: reference(service-point)
+  card: 0..*
+- name: human-contact-route
+  type: text
+  card: 1..1
+- name: co-designed-with
+  type: text
+  card: 1..*
+- name: journey-maps
+  type: reference(service-journey-map)
+  card: 0..*
+- name: service-council
+  type: reference(service-council)
+  card: 0..1
+- name: responsible-department
+  type: reference(department)
+  card: 1..1
+states:
+- drafted
+- co-designed
+- costed
+- in-trial
+- revised
+- adopted
+- abandoned
+relations:
+- type: based-on
+  target: service-proposal
+- type: based-on
+  target: service-journey-map
+- type: refers-to
+  target: service-council
+- type: produces
+  target: service-case
+- type: produces
+  target: urban-trial
+- type: produces
+  target: public-service
+binds:
+- source: src-249
+  edition: '2019'
+  jurisdiction: global

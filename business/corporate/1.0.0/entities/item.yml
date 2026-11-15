@@ -1,0 +1,59 @@
+kind: entity
+slug: item
+title: Item
+type: master
+summary: The basic unit of material flow — a stockable, traceable thing that moves through the organisation's production from acquisition
+  through transformation to delivery.
+attributes:
+- name: item-code
+  type: identifier
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: unit-of-measure
+  type: code
+  card: 1..1
+- name: item-group
+  type: code
+  card: 1..1
+- name: valuation-method
+  type: code
+  card: 1..1
+- name: stock-item
+  type: boolean
+  card: 1..1
+- name: reorder-level
+  type: quantity
+  card: 0..1
+- name: tracking-mode
+  type: code
+  card: 1..1
+states:
+- created
+- stocked
+- transacted
+- traced
+- obsoleted
+relations:
+- type: refers-to
+  target: product
+- type: refers-to
+  target: bom
+- type: refers-to
+  target: serial-number
+- type: refers-to
+  target: batch-lot
+binds:
+- source: src-148
+  edition: '16.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

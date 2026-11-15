@@ -1,0 +1,19 @@
+kind: solution
+slug: configure-price-and-quote-system
+title: Configure, Price and Quote System
+role: system-of-record
+summary: Configures offerings and variants against their rules, prices them from price lists, agreements and rebates, and produces
+  quotations and proposals that can be ordered without rework.
+carries:
+- configure-price-quote
+- dynamic-proposition-assembly
+- product-variant-configuration
+- proposal-as-value-promise
+- rebate-agreement-management
+- value-exchange-calibration
+- value-exchange-design
+holds:
+- quotation
+- proposal-bid
+- price-list
+- dynamic-proposition

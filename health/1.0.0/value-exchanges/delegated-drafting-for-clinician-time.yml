@@ -1,0 +1,13 @@
+kind: value-exchange
+slug: delegated-drafting-for-clinician-time
+title: Delegated Drafting for Clinician Time
+between:
+- specialist-physician
+- documentation-agent
+offered:
+- The physician delegates the drafting of notes and letters within the agent's mandate and reviews, corrects and signs each
+  draft.
+returned:
+- The agent returns accurate drafts on time, flags its uncertainty and stops at the limits of its mandate, freeing time for
+  patients.
+touchpoint: clinical-workstation

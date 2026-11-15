@@ -1,0 +1,35 @@
+kind: entity
+slug: coding-rule
+title: Coding Rule
+type: governance
+summary: A binding rule for coding the diagnoses and procedures of a case, such as the choice of the principal diagnosis or the coding
+  of complications, which determines case classification and is tested in payer reviews.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: rule-scope
+  type: code
+  card: 1..1
+- name: rule-text
+  type: text
+  card: 1..1
+- name: issuing-body
+  type: reference(organisation)
+  card: 1..1
+- name: examples
+  type: text
+  card: 0..*
+- name: valid-period
+  type: period
+  card: 1..1
+states:
+- in-force
+- withdrawn
+relations:
+- type: refers-to
+  target: code-system
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

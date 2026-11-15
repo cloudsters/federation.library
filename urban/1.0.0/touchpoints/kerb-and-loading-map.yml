@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: kerb-and-loading-map
+title: Kerb and Loading Map
+medium: artefact
+summary: The published map of each district's rules for loading zones, delivery windows, vehicle limits, disabled parking and kerb
+  charges.
+exchanges:
+- loading-discipline-for-reliable-kerb-space
+- clean-vehicles-for-access-to-loading-zones
+journey: delivery-carrier-delivering-through-shared-hubs

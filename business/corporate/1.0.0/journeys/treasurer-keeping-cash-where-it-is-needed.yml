@@ -1,0 +1,56 @@
+kind: journey
+slug: treasurer-keeping-cash-where-it-is-needed
+title: Treasurer Keeping Cash Where It Is Needed
+stakeholder: finance-professional
+summary: A treasurer establishes the daily cash position, reconciles the banks, steers working capital, funds shortfalls and places
+  surpluses, senses and hedges exposures and handles fraud and disputes.
+stages:
+- slug: know-the-position
+  title: Know the Position
+  goal: The cash position across accounts and currencies is known each morning and forecast ahead.
+  step: treasury-as-circulation/cash-positioning-and-forecasting
+  touchpoints:
+  - online-banking
+  - cash-forecast
+- slug: reconcile-the-banks
+  title: Reconcile the Banks
+  goal: Bank statements match the ledger every day.
+  step: treasury-as-circulation/bank-statement-reconciliation
+  touchpoints:
+  - bank-statement
+  - online-banking
+- slug: steer-working-capital
+  title: Steer Working Capital
+  goal: Receivables, payables and inventory release cash without harming customers or suppliers.
+  step: treasury-as-circulation/working-capital-steering
+  touchpoints:
+  - cash-forecast
+  - supplier-portal
+- slug: fund-and-place
+  title: Fund and Place
+  goal: Shortfalls are covered and surpluses placed within the treasury policy.
+  step: treasury-as-circulation/funding-and-surplus-placement
+  touchpoints:
+  - online-banking
+  - lender-review
+- slug: sense-the-exposures
+  title: Sense the Exposures
+  goal: Currency, interest, counterparty and liquidity exposures are measured early.
+  step: treasury-as-circulation/exposure-sensing
+  touchpoints:
+  - cash-forecast
+  - treasury-committee
+- slug: hedge-beyond-the-limits
+  title: Hedge Beyond the Limits
+  goal: Exposures beyond limits are hedged and the hedges monitored.
+  step: treasury-as-circulation/risk-hedging
+  touchpoints:
+  - treasury-committee
+  - online-banking
+- slug: contain-fraud-and-disputes
+  title: Contain Fraud and Disputes
+  goal: Suspicious payments are stopped, investigated and the weak control strengthened.
+  step: treasury-as-circulation/fraud-and-dispute-handling
+  touchpoints:
+  - online-banking
+  - payment-run

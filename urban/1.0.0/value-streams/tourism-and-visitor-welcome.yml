@@ -1,0 +1,126 @@
+kind: value-stream
+slug: tourism-and-visitor-welcome
+title: Tourism and Visitor Welcome
+family: interest-to-relationship
+summary: Welcoming visitors as guests who meet the city as it lives, while keeping its neighbourhoods liveable for those who live
+  there. It holds the tracking of visitor numbers and their effects on homes, streets and prices, a visitor strategy agreed with host
+  neighbourhoods, rules for holiday lets and crowded places, visitor information that invites people to take part and to respect local
+  life, a spread of visits across the year rather than at peaks alone, a charge on overnight stays whose income returns to host neighbourhoods,
+  and a review of who gains from visitors and who bears the cost.
+trigger: The visitor strategy falls due for renewal, visitor numbers or holiday lets rise sharply in a neighbourhood, or residents
+  raise the pressure of visitors on their streets and homes.
+outcome: Visitors are welcomed through the whole year, host neighbourhoods have agreed limits and share in the income, and residents'
+  homes and daily life are protected.
+stakeholders:
+- visitor
+- resident
+- local-business
+- affected-community
+- neighbourhood-association
+- informal-worker
+- city-administration
+- city-council
+steps:
+- slug: visitor-impact-tracking
+  title: Visitor Impact Tracking
+  summary: Visitor numbers, stays, holiday lets, crowding and their effects on rents, local shops and noise are tracked by neighbourhood
+    and season, with residents' own accounts beside the counts.
+  capabilities:
+  - visitor-impact-monitoring
+  - city-signal-collection
+  entities:
+  - visitor-impact-assessment
+  - visitor-stay
+  serves:
+  - neighbourhood-visitor-impact-map
+  - residents-visitor-pressure-report
+- slug: visitor-strategy-and-host-agreements
+  title: Visitor Strategy and Host Agreements
+  summary: The city agrees a visitor strategy with residents, businesses and workers, and each neighbourhood that receives many visitors
+    agrees with the city what it welcomes, where limits apply and what it asks of its guests.
+  capabilities:
+  - visitor-strategy-drafting
+  - host-neighbourhood-agreement-drafting
+  - neighbourhood-action-planning
+  entities:
+  - visitor-strategy
+  - neighbourhood-agreement
+  serves:
+  - host-neighbourhood-agreement
+  - visitor-strategy-forum
+- slug: holiday-let-and-crowding-rules
+  title: Holiday-Let and Crowding Rules
+  summary: Holiday lets are registered and limited where homes are needed for residents, and crowded places are relieved by timing,
+    routing and limits on the size of groups.
+  capabilities:
+  - holiday-let-registration
+  - visitor-crowding-control
+  - zoning-rule-drafting
+  entities:
+  - holiday-let-register
+  - public-space
+  serves:
+  - holiday-let-register-entry
+  - timed-entry-and-route-guidance
+- slug: visitor-information-and-welcome
+  title: Visitor Information and Welcome
+  summary: Visitors receive information at arrival points, online and in several languages that shows the city beyond its sights,
+    invites them to local events, markets and cultural exchange, and states what residents ask of them.
+  capabilities:
+  - visitor-information-provision
+  - multilingual-information-design
+  - cultural-exchange-programming
+  entities:
+  - visitor-guide
+  - wayfinding-map
+  serves:
+  - arrival-welcome-point
+  - multilingual-visitor-guide
+- slug: year-round-visiting
+  title: Year-Round Visiting
+  summary: Visits are spread across the year through a calendar built on the city's own seasons, festivals and work cycles, with offers
+    outside the peak made together with local businesses, so that seasonal work becomes steadier income.
+  capabilities:
+  - events-calendar-coordination
+  - visitor-strategy-drafting
+  entities:
+  - city-events-calendar
+  - visitor-stay
+  serves:
+  - city-seasons-visiting-calendar
+  - multilingual-visitor-guide
+- slug: visitor-charge-and-local-return
+  title: Visitor Charge and Local Return
+  summary: A charge on overnight stays is set and collected, and its income is shared with host neighbourhoods for the streets, services
+    and homes that visitors use.
+  capabilities:
+  - tax-and-charge-rate-setting
+  - revenue-billing
+  - commons-fund-allocation
+  entities:
+  - tax-and-charge-schedule
+  - fund-allocation
+  serves:
+  - overnight-visitor-charge-statement
+  - visitor-income-share-meeting
+- slug: visitor-economy-review
+  title: Visitor Economy Review
+  summary: Who gains from visitors and who bears the cost, by neighbourhood, business and worker, including those who work seasons
+    and nights, is reviewed with host neighbourhoods, and the strategy and its limits are adjusted.
+  capabilities:
+  - visitor-impact-monitoring
+  - equity-audit
+  entities:
+  - visitor-impact-assessment
+  - visitor-strategy
+  serves:
+  - neighbourhood-visitor-impact-map
+  - published-visitor-economy-review
+  - visitor-economy-review-forum
+binds:
+- source: src-225
+  edition: '2006-12-13'
+  jurisdiction: global
+- source: src-269
+  edition: '2024'
+  jurisdiction: global

@@ -1,0 +1,132 @@
+kind: value-stream
+slug: data-protection-and-information-governance
+title: Data Protection and Information Governance
+family: portfolio-to-system
+summary: 'Governing the lawful and appropriate use of personal and health data: records of processing, impact assessments, data classification
+  and retention rules, data subject rights and the handling of data breaches.'
+trigger: A new processing of personal data is planned, a data subject exercises a right, or a data breach is suspected.
+outcome: The processing is documented and lawful, the right is honoured within its deadline, or the breach is assessed, notified and
+  remedied.
+stakeholders:
+- data-subject
+- head-of-clinical-department
+- administrative-staff
+- health-informatics-specialist
+- executive
+- data-protection-and-security-authority
+- supplier
+steps:
+- slug: processing-intake-and-classification
+  title: Processing Intake and Classification
+  summary: Register each planned processing of personal data with its owner and purpose, classify the data involved, and involve the
+    data protection officer before the processing starts.
+  capabilities:
+  - data-protection-governance
+  - data-lifecycle-management
+  - information-content-management
+  entities:
+  - data-processing-record
+  - application
+  - organisation-unit
+  serves:
+  - data-protection-office
+  - record-of-processing
+- slug: lawfulness-and-impact-assessment
+  title: Lawfulness and Impact Assessment
+  summary: Establish the legal basis, whether law, contract or consent, check purpose limitation and data minimisation, and assess
+    the impact on the persons concerned where the risk is high.
+  capabilities:
+  - privacy-impact-management
+  - legal-advisory
+  - data-security-architecture
+  - research-consent-management
+  entities:
+  - data-processing-record
+  - authorization-by-law
+  - data-use-consent
+  - risk
+  serves:
+  - data-protection-office
+- slug: approval-and-record-of-processing
+  title: Approval and Record of Processing
+  summary: Approve the processing, enter it in the record of processing, conclude processing agreements with suppliers, set retention
+    rules and instruct the staff involved.
+  capabilities:
+  - data-protection-governance
+  - contract-lifecycle-stewardship
+  - record-retention-and-archiving
+  - policy-lifecycle-management
+  - mandatory-training-management
+  entities:
+  - data-processing-record
+  - contract
+  - policy
+  serves:
+  - privacy-notice
+  - record-of-processing
+- slug: access-and-retention-control
+  title: Access and Retention Control
+  summary: Keep access to personal data within roles and care mandates, review access logs for misuse, and archive or delete data
+    when their retention period ends.
+  capabilities:
+  - identity-access-management
+  - data-lifecycle-management
+  - record-retention-and-archiving
+  - compliance-sensing-monitoring
+  entities:
+  - access-grant
+  - health-record
+  - data-processing-record
+  serves:
+  - patient-portal
+- slug: data-subject-requests
+  title: Data Subject Requests
+  summary: Verify the requester's identity and entitlement, answer requests for access, copies, correction, restriction, erasure or
+    objection within the deadline, and log each answer.
+  capabilities:
+  - data-subject-rights-fulfilment
+  - health-information-release
+  - patient-rights-stewardship
+  entities:
+  - care-information-request
+  - health-record
+  - objection
+  - patient
+  serves:
+  - data-protection-office
+  - patient-portal
+- slug: breach-assessment-and-notification
+  title: Breach Assessment and Notification
+  summary: Assess each suspected breach of personal data for its risk to the persons concerned, notify the supervisory authority within
+    the deadline, inform those affected where required and remedy the cause.
+  capabilities:
+  - personal-data-breach-response
+  - incident-reporting-and-learning
+  - regulatory-reporting
+  - security-operations
+  entities:
+  - incident
+  - corrective-action
+  - compliance-obligation
+  serves:
+  - incident-notification
+- slug: data-protection-review
+  title: Data Protection Review
+  summary: Audit processing against the record and the rules, report the state of data protection to the board, and track corrective
+    actions to closure.
+  capabilities:
+  - compliance-assurance
+  - audit-lifecycle-management
+  - controls-monitoring
+  - data-protection-governance
+  entities:
+  - audit
+  - audit-finding
+  - corrective-action
+  - data-processing-record
+  serves:
+  - inspection-and-audit
+binds:
+- source: src-077
+  edition: '2025'
+  jurisdiction: global

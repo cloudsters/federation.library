@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: canopy-gaps-for-planting-first-where-shade-is-lacking
+title: Canopy Gaps for Planting First Where Shade Is Lacking
+between:
+- city-administration
+- affected-community
+offered:
+- A map of canopy and heat by neighbourhood that shows where shade is most lacking.
+returned:
+- Residents' choice of the places in their street where trees should go first.
+touchpoint: published-canopy-and-heat-map

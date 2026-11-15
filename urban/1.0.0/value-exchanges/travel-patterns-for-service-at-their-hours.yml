@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: travel-patterns-for-service-at-their-hours
+title: Travel Patterns for Service at Their Hours
+between:
+- night-shift-worker
+- infrastructure-operator
+offered:
+- The worker's trips at night and for care, and the places where the network leaves them stranded.
+returned:
+- Routes and frequencies set for the hours they travel, with service as frequent at shift change as at peak.
+touchpoint: travel-diary-and-access-walk

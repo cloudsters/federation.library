@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: hardship-evidence-for-relief
+title: Hardship Evidence for Relief
+between:
+- resident
+- finance-officer
+offered:
+- A short account of the household's income and circumstances.
+returned:
+- A reduction, deferral or exemption decided on published criteria, with its duration and reasons.
+touchpoint: relief-application-desk

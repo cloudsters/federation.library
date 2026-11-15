@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-access-audit
+title: Published Access Audit
+medium: artefact
+summary: The published findings of an access audit, with the department responsible for each barrier, the date by which it will be
+  removed and whether that date was kept.
+exchanges:
+- paid-audit-for-dated-removal
+journey: disabled-resident-holding-the-city-to-access

@@ -1,0 +1,39 @@
+kind: entity
+slug: account
+title: Account
+type: master
+summary: 'A place money sits — current, savings, investment, pension, debt. Held as one entity type because what matters about all
+  of them is the same: what is in it, what it is for, and how quickly it can be reached.'
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: what-it-is-for
+  type: text
+  card: 1..1
+- name: balance
+  type: money
+  card: 1..1
+- name: reachable-within
+  type: duration
+  card: 1..1
+- name: held-with
+  type: text
+  card: 0..1
+- name: jointly-held
+  type: boolean
+  card: 0..1
+- name: last-looked-at
+  type: date
+  card: 0..1
+states:
+- opened
+- building
+- drawn on
+- refilling
+- closed
+relations:
+- target: financial-position
+  type: part-of
+- target: budget
+  type: serves

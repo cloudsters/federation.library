@@ -1,0 +1,33 @@
+kind: journey
+slug: entity-accountant-reporting-into-the-group
+title: Entity Accountant Reporting into the Group
+stakeholder: finance-professional
+summary: An entity accountant books intercompany flows on both sides, settles balances, translates the local accounts and delivers
+  a reporting package that lets the group see itself as one whole.
+stages:
+- slug: book-intercompany-flows
+  title: Book Intercompany Flows
+  goal: Intercompany deliveries and charges are invoiced and booked on both sides at agreed prices.
+  step: global-value-consolidation/intercompany-transaction-processing
+  touchpoints:
+  - intercompany-agreement
+  - accounting-workbench
+- slug: settle-the-balances
+  title: Settle the Balances
+  goal: Balances are reconciled with counterpart entities, netted and settled.
+  step: global-value-consolidation/intercompany-settlement
+  touchpoints:
+  - accounting-workbench
+  - cash-pool
+- slug: translate-the-accounts
+  title: Translate the Accounts
+  goal: Local accounts are translated into the group currency with local meaning kept visible.
+  step: global-value-consolidation/currency-translation
+  touchpoints:
+  - group-reporting-package
+- slug: deliver-the-package
+  title: Deliver the Package
+  goal: A reconciled reporting package is delivered on time for consolidation.
+  step: global-value-consolidation/group-consolidation
+  touchpoints:
+  - group-reporting-package

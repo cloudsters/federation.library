@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: rest-needs-for-places-to-stay
+title: Rest Needs for Places to Stay
+between:
+- disabled-resident
+- city-administration
+offered:
+- The resident's knowledge of where they need to sit, shelter or find a toilet.
+returned:
+- Seating, shade, water and toilets placed where they let the resident stay.
+touchpoint: rest-and-amenity-request

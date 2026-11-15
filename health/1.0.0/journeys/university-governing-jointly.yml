@@ -1,0 +1,33 @@
+kind: journey
+slug: university-governing-jointly
+title: University Governing Jointly
+stakeholder: university
+summary: 'The university''s side of governance: holding its statutory seats, sharing decisions on research and teaching, and
+  reviewing how joint governance works.'
+stages:
+- slug: taking-statutory-seats
+  title: Taking Statutory Seats
+  goal: Hold the seats and voting rights the statutes give research and teaching in the bodies of the commons.
+  step: governance-and-oversight/body-constitution
+  touchpoints:
+  - joint-university-committee
+  - supervisory-body-meeting
+- slug: agreeing-joint-decision-rights
+  title: Agreeing Joint Decision Rights
+  goal: Agree which decisions on appointments, funds and infrastructure are taken jointly.
+  step: governance-and-oversight/decision-rights-allocation
+  touchpoints:
+  - joint-university-committee
+- slug: deciding-jointly
+  title: Deciding Jointly
+  goal: Take part in decisions that touch research and teaching before they are made.
+  step: governance-and-oversight/deliberation-and-resolution
+  touchpoints:
+  - joint-university-committee
+  - board-meeting
+- slug: reviewing-joint-governance
+  title: Reviewing Joint Governance
+  goal: Review whether the joint arrangements serve both missions, and change them where they do not.
+  step: governance-and-oversight/governance-effectiveness-review
+  touchpoints:
+  - joint-university-committee

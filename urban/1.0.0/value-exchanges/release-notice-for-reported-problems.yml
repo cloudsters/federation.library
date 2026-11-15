@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: release-notice-for-reported-problems
+title: Release Notice for Reported Problems
+between:
+- city-administration
+- resident
+offered:
+- Notice of a change before it is released, and the status of the service after it.
+returned:
+- Reports of problems the change caused, in time to roll it back.
+touchpoint: release-notice

@@ -1,0 +1,43 @@
+kind: journey
+slug: frontline-worker-staying-well-in-a-demanding-role
+title: Frontline Worker Staying Well in a Demanding Role
+stakeholder: frontline-worker
+summary: The team of a caseworker sees its workload and burnout in results that name no one, names and rotates the listening and conflict
+  work that fell on a few, caps workloads and adds rest after hard cases, has a grievance heard outside the line and sees its care
+  work acknowledged.
+stages:
+- slug: see-the-team-picture
+  title: See the Team Picture
+  goal: Workload, wellbeing and burnout in the team are shown from surveys, sickness and overtime, without naming individuals.
+  step: staff-wellbeing-and-retention/wellbeing-sensing
+  touchpoints:
+  - staff-wellbeing-survey
+  - team-wellbeing-report
+- slug: share-the-care-load
+  title: Share the Care Load
+  goal: The listening, conflict-holding and facilitation work is named in the team agreement, recorded and rotated.
+  step: staff-wellbeing-and-retention/care-load-sharing
+  touchpoints:
+  - team-agreement
+  - team-care-check-in
+- slug: rest-after-hard-work
+  title: Rest After Hard Work
+  goal: Workloads are capped, a demanding stretch is followed by rest, hours fit care duties and support follows distressing events.
+  step: staff-wellbeing-and-retention/burnout-prevention
+  touchpoints:
+  - flexible-working-request
+  - after-incident-support
+- slug: be-heard-on-a-grievance
+  title: Be Heard on a Grievance
+  goal: The grievance is heard by someone outside the worker's line, resolved with staff representatives or through mediation, and
+    its cause is fixed.
+  step: staff-wellbeing-and-retention/grievance-handling
+  touchpoints:
+  - grievance-desk
+  - grievance-hearing
+- slug: see-the-work-acknowledged
+  title: See the Work Acknowledged
+  goal: The worker's contribution, including care that is seldom seen, is acknowledged in the rhythm of the work and on public occasions.
+  step: staff-wellbeing-and-retention/everyday-recognition
+  touchpoints:
+  - recognition-gathering

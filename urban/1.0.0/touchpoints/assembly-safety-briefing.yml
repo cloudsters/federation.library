@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: assembly-safety-briefing
+title: Assembly Safety Briefing
+medium: encounter
+summary: The short meeting of those organising a gathering with emergency services and the city that agrees the safety of those taking
+  part and of passers-by.
+exchanges:
+- notice-of-assembly-for-a-protected-gathering
+- route-knowledge-for-a-safe-assembly
+journey: resident-gathering-and-speaking-out-in-a-square

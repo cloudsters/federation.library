@@ -1,0 +1,16 @@
+kind: body
+slug: adult-education-service
+title: Adult Education Service
+summary: Builds the learning offer for adults with libraries, universities, local organisations and residents who teach, makes it
+  reachable, guides and enrols learners, coordinates delivery across the neighbourhoods and reviews with learners what it changed.
+holds:
+- community-and-adult-learning
+- learning-offer-design
+- community-learning-partnership-building
+- learning-access-provision
+- learning-guidance-and-enrolment
+- learning-delivery-coordination
+- learning-outcome-review
+part_of: education-department
+type: function
+form: organisational-unit

@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: insurance-renewal
+title: Insurance Renewal
+medium: encounter
+summary: The negotiation with insurers on which risks are transferred, at what cover, conditions and premium, for the coming term.
+exchanges:
+- transparent-risk-profile-for-fair-cover
+journey: risk-professional-running-the-risk-cycle

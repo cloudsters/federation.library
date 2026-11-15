@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: urgency-for-an-honest-wait
+title: Urgency for an Honest Wait
+between:
+- emergency-patient
+- registered-nurse
+offered:
+- An account of complaints, history, medicines and allergies, and patience while more urgent patients go first.
+returned:
+- A structured urgency category, re-triage while waiting, honest information on the expected wait and physician contact within the
+  maximum time for that category.
+touchpoint: emergency-department

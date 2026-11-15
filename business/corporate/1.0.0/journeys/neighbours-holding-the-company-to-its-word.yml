@@ -1,0 +1,26 @@
+kind: journey
+slug: neighbours-holding-the-company-to-its-word
+title: Neighbours Holding the Company to Its Word
+stakeholder: local-community
+summary: Neighbours of a site are asked which topics matter to them, see goals set that answer their concerns and receive honest reports
+  of progress and remaining gaps, which they can question in person.
+stages:
+- slug: be-asked-what-matters
+  title: Be Asked What Matters
+  goal: The neighbours' concerns about traffic, noise, water, land and jobs are heard and weighed in the materiality assessment.
+  step: regenerative-practice/materiality-and-requirements
+  touchpoints:
+  - materiality-consultation
+- slug: see-the-goals
+  title: See the Goals
+  goal: The goals and measures that answer their concerns are public and attached to concrete changes in how work is done.
+  step: regenerative-practice/regenerative-goals-and-plan
+  touchpoints:
+  - regenerative-plan
+- slug: question-the-progress
+  title: Question the Progress
+  goal: Progress and remaining gaps are reported honestly, and neighbours can question them on site.
+  step: regenerative-practice/progress-reporting
+  touchpoints:
+  - sustainability-report
+  - open-day

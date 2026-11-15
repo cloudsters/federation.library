@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: equipment-handover
+title: Equipment Handover
+medium: encounter
+summary: The handover of a device, tool, vehicle or workstation to the person who will use it, with instruction, a record of what
+  was handed over and the terms of its care and return.
+exchanges:
+- ready-equipment-for-careful-use
+journey: employee-working-in-a-well-run-workplace

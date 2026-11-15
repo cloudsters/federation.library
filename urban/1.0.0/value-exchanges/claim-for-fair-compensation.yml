@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: claim-for-fair-compensation
+title: Claim for Fair Compensation
+between:
+- resident
+- city-administration
+offered:
+- A claim with evidence of harm, including harm from an automated decision.
+returned:
+- An assessment of the claim, compensation where due and mediation before any litigation.
+touchpoint: claims-desk

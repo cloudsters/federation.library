@@ -1,0 +1,58 @@
+kind: solution
+slug: electronic-health-record
+title: Electronic Health Record
+role: system-of-record
+summary: 'Holds the longitudinal record of each patient: problems, diagnoses, allergies, alerts, care plans and goals, care
+  team, immunisations, and the mandates and preferences care rests on. Replacing it touches every clinical journey and stream
+  at once.'
+carries:
+- finding-integration
+- diagnosis-confirmation
+- care-plan-determination
+- clinical-pathway-application
+- preoperative-optimisation
+- enhanced-recovery
+- chronic-care-programmes
+- antenatal-care
+- paediatric-care
+- psychiatric-inpatient-care
+- stroke-unit-care
+- transplantation-programme-management
+- rare-disease-care
+- high-consequence-infection-care
+- palliative-care
+- end-of-life-care
+- advance-care-planning
+- shared-decision-making-practice
+- isolation-and-screening-management
+- health-record-management
+- clinical-system-configuration
+holds:
+- health-record
+- episode-of-care
+- health-issue
+- diagnosis
+- allergy-or-intolerance
+- clinical-alert
+- patient-summary
+- care-plan
+- care-goal
+- care-team
+- immunisation
+- care-mandate
+- care-activity-mandate
+- preference
+- shared-decision
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-020
+  edition: '20.2'
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

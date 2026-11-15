@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: mandate-for-accountable-agency
+title: Mandate for Accountable Agency
+between:
+- executive-board
+- operations-planning-agent
+offered:
+- An explicit, authorised mandate with role, limits, governing instructions, escalation triggers and a named human owner.
+returned:
+- Action within those limits, escalation at every trigger and a record of each significant decision.
+touchpoint: agent-mandate

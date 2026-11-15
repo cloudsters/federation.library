@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: training-plan
+title: Training Plan
+medium: artefact
+summary: The individual plan agreed between trainee and trainer that sets rotations, procedures, courses and assessments across the
+  training term and is updated at every review.
+exchanges:
+- clinical-service-for-structured-training
+journey: becoming-a-specialist

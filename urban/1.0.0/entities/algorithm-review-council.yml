@@ -1,0 +1,58 @@
+kind: entity
+slug: algorithm-review-council
+title: Algorithm Review Council
+type: master
+summary: The standing body, with a majority of residents including those most affected by the city's automated systems, that authorises
+  and reviews them and may slow or suspend them. The administration supports it on the mandate of the council and keeps the record
+  of its members, powers and sessions, and it is used to hold every system under democratic control for as long as it runs.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: mandate
+  type: text
+  card: 1..1
+- name: established-by
+  type: reference(council-decision)
+  card: 1..1
+- name: members
+  type: text
+  card: 1..*
+- name: member-count
+  type: integer
+  card: 1..1
+- name: resident-member-count
+  type: integer
+  card: 1..1
+- name: selection-method
+  type: code
+  card: 1..1
+- name: term
+  type: period
+  card: 1..1
+- name: meeting-rhythm
+  type: code
+  card: 1..1
+- name: powers
+  type: code
+  card: 1..*
+- name: systems-reviewed
+  type: reference(automated-system-register)
+  card: 0..*
+states:
+- established
+- constituted
+- sitting
+- renewed
+- dissolved
+relations:
+- type: part-of
+  target: city
+- type: based-on
+  target: council-decision
+- type: governed-by
+  target: decision-rights-register
+- type: refers-to
+  target: automated-system-register
+- type: produces
+  target: community-authorisation

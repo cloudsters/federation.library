@@ -1,0 +1,38 @@
+kind: journey
+slug: informal-carer-home-care-journey
+title: Informal Carer Home Care Journey
+stakeholder: informal-carer
+summary: A carer agrees to support hospital care at home, learns the tasks, shares them with the mobile team, can raise the alarm
+  at any hour and knows who continues after the episode.
+stages:
+- slug: agree-to-carry
+  title: Agree to Carry
+  goal: Agree to support care at home knowing its limits and the help available.
+  step: home-and-remote-care/eligibility-and-agreement
+  touchpoints:
+  - consultation
+- slug: learn-the-tasks
+  title: Learn the Tasks
+  goal: Learn the devices, medicines and warning signs.
+  step: home-and-remote-care/home-set-up
+  touchpoints:
+  - home-visit
+  - home-monitoring-device
+- slug: share-the-load
+  title: Share the Load
+  goal: Have the team share the tasks and check on the carer's own strain.
+  step: home-and-remote-care/home-treatment-and-visits
+  touchpoints:
+  - home-visit
+- slug: raise-the-alarm
+  title: Raise the Alarm
+  goal: Reach a clinician at any hour and be taken seriously.
+  step: home-and-remote-care/escalation-and-admission
+  touchpoints:
+  - remote-monitoring-centre
+- slug: hand-back
+  title: Hand Back
+  goal: Know who continues after the episode and what support remains.
+  step: home-and-remote-care/episode-completion
+  touchpoints:
+  - discharge-letter

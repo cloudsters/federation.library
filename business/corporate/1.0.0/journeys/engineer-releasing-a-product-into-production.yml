@@ -1,0 +1,34 @@
+kind: journey
+slug: engineer-releasing-a-product-into-production
+title: Engineer Releasing a Product into Production
+stakeholder: development-engineer
+summary: A development engineer shapes how a product will be made, releases its structure, routing and instructions to production,
+  learns from the first runs and feeds changes back at a controlled point.
+stages:
+- slug: shape-the-production-system
+  title: Shape the Production System
+  goal: Workstations, routings and the use of materials and by-products are decided together with the people who will make the product.
+  step: production-craft-assembly/production-system-design
+  touchpoints:
+  - design-review
+- slug: release-product-data
+  title: Release Product Data
+  goal: Structure, routing and work instructions are released, and engineering changes reach production at a defined point.
+  step: production-craft-assembly/product-data-release
+  touchpoints:
+  - work-instruction
+  - engineering-change-notice
+- slug: learn-from-first-runs
+  title: Learn from First Runs
+  goal: The first units are checked at control points and against the customer's first article approval, and findings reach engineering
+    at once.
+  step: production-craft-assembly/in-process-quality-control
+  touchpoints:
+  - inspection-point
+  - first-article-approval
+- slug: close-the-loop
+  title: Close the Loop
+  goal: Yield and loss figures and the team's observations lead to revised designs, routings and instructions.
+  step: production-craft-assembly/production-performance-review
+  touchpoints:
+  - shop-floor-meeting

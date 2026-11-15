@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: corrective-action-tracker
+title: Corrective Action Tracker
+medium: artefact
+summary: The open list of corrective actions with their owners, dates and checked effect, which residents and inspectors can follow
+  to each close.
+exchanges:
+- affected-view-for-a-removed-cause
+- inspection-findings-for-an-answer-on-quality
+journey: resident-met-by-a-service-failure

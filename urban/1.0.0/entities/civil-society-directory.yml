@@ -1,0 +1,51 @@
+kind: entity
+slug: civil-society-directory
+title: Civil-Society Directory
+type: intelligence
+summary: The map of the associations, cooperatives, faith communities and anchor institutions active in the city, whom each serves,
+  where it works and the relationship the city holds with it. The administration keeps it with community bodies and updates it, and
+  it is used to see whom civil society reaches and where no one does.
+attributes:
+- name: scope
+  type: text
+  card: 1..1
+- name: organisations
+  type: reference(civil-society-body|cooperative|faith-community|school)
+  card: 0..*
+- name: anchor-institutions
+  type: text
+  card: 0..*
+- name: groups-served
+  type: text
+  card: 0..*
+- name: coverage-by-neighbourhood
+  type: document
+  card: 0..1
+- name: relationship-kinds
+  type: code
+  card: 0..*
+- name: mapped-with
+  type: text
+  card: 1..*
+- name: last-updated-on
+  type: date
+  card: 1..1
+- name: publicly-available
+  type: boolean
+  card: 0..1
+states:
+- compiled
+- published
+- updated
+- superseded
+relations:
+- type: composed-of
+  target: civil-society-body
+- type: refers-to
+  target: faith-community
+- type: refers-to
+  target: cooperative
+- type: refers-to
+  target: school
+- type: refers-to
+  target: neighbourhood

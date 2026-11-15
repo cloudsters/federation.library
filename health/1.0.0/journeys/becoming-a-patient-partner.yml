@@ -1,0 +1,39 @@
+kind: journey
+slug: becoming-a-patient-partner
+title: Becoming a Patient Partner
+stakeholder: patient-partner
+summary: A person with lived experience of a condition answers a call to contribute, is prepared for the role, shapes a service or
+  study as an equal member of the team, and learns what difference the contribution made.
+stages:
+- slug: answering-a-call
+  title: Answering a Call
+  goal: Find an opportunity that fits one's experience and time, and be welcomed.
+  step: patient-and-public-involvement/recruitment-and-matching
+  touchpoints:
+  - involvement-call
+- slug: preparing-for-the-role
+  title: Preparing for the Role
+  goal: Understand the task, the rules and one's rights, with expenses covered and a named contact.
+  step: patient-and-public-involvement/preparation-and-agreement
+  touchpoints:
+  - volunteer-and-partner-agreement
+- slug: contributing-as-an-equal
+  title: Contributing as an Equal
+  goal: Bring lived experience into the discussion and have it weigh as much as professional views.
+  step: patient-and-public-involvement/shaping-decisions
+  touchpoints:
+  - co-design-workshop
+  - patient-advisory-council
+  - study-protocol
+- slug: learning-the-outcome
+  title: Learning the Outcome
+  goal: Learn how the advice was used and why some of it was not.
+  step: patient-and-public-involvement/response-and-influence
+  touchpoints:
+  - involvement-response-report
+- slug: being-recognised
+  title: Being Recognised
+  goal: Be thanked, review the experience and decide freely whether to continue.
+  step: patient-and-public-involvement/recognition-and-review
+  touchpoints:
+  - recognition-event

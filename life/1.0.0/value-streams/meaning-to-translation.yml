@@ -1,0 +1,81 @@
+kind: value-stream
+slug: meaning-to-translation
+title: Translating Between Worlds
+family: proposition-to-audience
+summary: Carrying something across into a world that does not share the assumptions it was made in — and shaping what the category
+  itself is taken to mean.
+trigger: The work lands in a world that does not share its assumptions and is misread, or the person sees their field being defined
+  by people outside it.
+outcome: The work is understood in worlds it was not made in, and the person has a hand in what their category is taken to mean.
+stakeholders:
+- audience
+- community
+- collaborator
+- client
+steps:
+- slug: seeing-the-work-misread
+  title: Seeing the Work Misread
+  summary: The work lands in a world that reads it differently, or the person watches their field being defined by people outside
+    it.
+  capabilities:
+  - noticing-misreading
+  entities:
+  - audience-relation
+  - other-perception
+  - creative-output
+  serves:
+  - replies-and-comments
+  - social-feed
+- slug: learning-the-other-world
+  title: Learning the Other World
+  summary: Spending time with the other world's assumptions, words and worries until they make sense from the inside.
+  capabilities:
+  - learning-another-worlds-language
+  entities:
+  - community-relation
+  - conversation
+  - experience
+  serves:
+  - coffee-catch-up
+  - professional-gathering
+- slug: finding-the-bridge
+  title: Finding the Bridge
+  summary: Finding the images, examples and words that carry the meaning across without losing what made it matter.
+  capabilities:
+  - translating-meaning
+  entities:
+  - creative-output
+  - presentation
+- slug: testing-with-insiders
+  title: Testing with Insiders
+  summary: Showing the translation to people from the other world and hearing what lands and what jars.
+  capabilities:
+  - inviting-honest-response
+  entities:
+  - conversation
+  - community-relation
+  - other-perception
+  serves:
+  - watching-someone-use-it
+- slug: naming-the-category
+  title: Naming the Category
+  summary: Taking part, in public and with peers, in saying what the field is and what it is not.
+  capabilities:
+  - shaping-what-a-field-means
+  entities:
+  - publication
+  - presentation
+  - community-relation
+  serves:
+  - professional-gathering
+  - published-work
+  - speaking-in-public
+- slug: staying-true-to-the-origin
+  title: Staying True to the Origin
+  summary: Keeping faith with the world the work came from while speaking to the one it has arrived in.
+  capabilities:
+  - keeping-ones-own-judgement
+  entities:
+  - value-set
+  - community-relation
+  - body-of-work

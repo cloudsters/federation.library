@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: second-opinion-for-informed-choice
+title: Second Opinion for Informed Choice
+between:
+- specialist-physician
+- person-with-cancer
+offered:
+- An independent specialist review of the diagnosis and the proposed treatment, explained in a consultation and set down in a written
+  opinion.
+returned:
+- The complete prior records and images, the person's questions and preferences, and, often, the decision to be treated in the commons.
+touchpoint: patient-held-health-record

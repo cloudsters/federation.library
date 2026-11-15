@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: organ-offer-for-a-swift-decision
+title: Organ Offer for a Swift Decision
+between:
+- organ-donation-organisation
+- surgeon
+offered:
+- An organ offer with complete donor and organ data, made by the allocation rules.
+returned:
+- A decision to accept or decline within the time limit with a stated reason, and the outcome of the transplant reported back.
+touchpoint: organ-offer-call

@@ -1,0 +1,52 @@
+kind: journey
+slug: owner-overseeing-the-commons
+title: Owner Overseeing the Commons
+stakeholder: owner
+summary: 'The owner''s side of governance: appointing the supervisory body, reserving decisions, receiving reporting and assurance,
+  and holding the executive to account.'
+stages:
+- slug: appointing-the-bodies
+  title: Appointing the Bodies
+  goal: Appoint members to the supervisory body and see every body constituted under the charter.
+  step: governance-and-oversight/body-constitution
+  touchpoints:
+  - supervisory-body-meeting
+- slug: reserving-decisions
+  title: Reserving Decisions
+  goal: Know which decisions are reserved to the owner and the supervisory body, and up to which limits the executive decides
+    alone.
+  step: governance-and-oversight/decision-rights-allocation
+  touchpoints:
+  - supervisory-body-meeting
+- slug: receiving-the-facts
+  title: Receiving the Facts
+  goal: Receive complete, timely reporting on the state of the commons and on each matter for decision.
+  step: governance-and-oversight/decision-preparation
+  touchpoints:
+  - board-report
+- slug: deciding-reserved-matters
+  title: Deciding Reserved Matters
+  goal: Decide reserved matters with basis and conditions recorded.
+  step: governance-and-oversight/deliberation-and-resolution
+  touchpoints:
+  - supervisory-body-meeting
+- slug: receiving-assurance
+  title: Receiving Assurance
+  goal: Hear independently whether controls work and what internal audit found.
+  step: governance-and-oversight/internal-control-and-audit
+  touchpoints:
+  - audit-committee-meeting
+  - internal-audit-report
+- slug: holding-to-account
+  title: Holding to Account
+  goal: See resolutions and corrective actions carried through, and hold the executive to account where they are not.
+  step: governance-and-oversight/implementation-oversight
+  touchpoints:
+  - supervisory-body-meeting
+  - annual-report
+- slug: renewing-the-bodies
+  title: Renewing the Bodies
+  goal: Act on the review of the bodies' composition and working, through appointments, delegations or changes to the charter.
+  step: governance-and-oversight/governance-effectiveness-review
+  touchpoints:
+  - supervisory-body-meeting

@@ -1,0 +1,11 @@
+kind: capability
+slug: referral-intake-management
+title: Referral Intake Management
+level: L3
+parent: referral-and-scheduling
+summary: Receive, check and route referrals and admission requests from referring physicians and hospitals, including through a referrer
+  portal.
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global

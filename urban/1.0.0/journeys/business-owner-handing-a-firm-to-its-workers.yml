@@ -1,0 +1,31 @@
+kind: journey
+slug: business-owner-handing-a-firm-to-its-workers
+title: Business Owner Handing a Firm to Its Workers
+stakeholder: local-business
+summary: An owner who is stepping back converts the business to worker ownership with advice and model statutes, binds its purpose
+  in the new statutes, joins the cooperative federation and is counted in the social economy report.
+stages:
+- slug: plan-the-conversion
+  title: Plan the Conversion
+  goal: The owner and workers have a plan, model statutes and finance to convert the business to worker ownership.
+  step: social-and-cooperative-economy/cooperative-formation-and-conversion
+  touchpoints:
+  - ownership-conversion-advice-meeting
+- slug: write-the-purpose-into-the-statutes
+  title: Write the Purpose into the Statutes
+  goal: The new cooperative's statutes bind its purpose and assets.
+  step: social-and-cooperative-economy/mission-safeguards
+  touchpoints:
+  - mission-safeguard-clinic
+- slug: join-the-federation
+  title: Join the Federation
+  goal: The converted business shares services and the common fund of the cooperative federation.
+  step: social-and-cooperative-economy/social-economy-federation
+  touchpoints:
+  - cooperative-federation-assembly
+- slug: be-counted-in-the-report
+  title: Be Counted in the Report
+  goal: The work and ownership kept in the city by the conversion are part of the social economy report.
+  step: social-and-cooperative-economy/social-value-reporting
+  touchpoints:
+  - social-value-report-round

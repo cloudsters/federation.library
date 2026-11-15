@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: disclosure-for-safe-anaesthesia
+title: Disclosure for Safe Anaesthesia
+between:
+- elective-inpatient
+- anaesthesiologist
+offered:
+- A complete account of illnesses, medicines, allergies, previous anaesthesia and habits.
+returned:
+- An anaesthesia plan matched to the patient's risk, an explained choice of technique and pain relief, and safe care through the operation.
+touchpoint: consent-form

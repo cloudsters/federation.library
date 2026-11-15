@@ -1,0 +1,42 @@
+kind: journey
+slug: overseeing-an-ai-agent
+title: Overseeing an AI Agent
+stakeholder: specialist-physician
+summary: A clinician who works with an AI agent shapes its role, accepts responsibility for overseeing it, corrects and reports its
+  outputs, and approves its changes.
+stages:
+- slug: shape-the-role
+  title: Shape the Role
+  goal: Have the agent's role fit how the work is really done, with clear limits.
+  step: ai-agent-lifecycle/role-and-mandate-design
+  touchpoints:
+  - teaming-charter
+  - staff-consultation
+- slug: accept-oversight
+  title: Accept Oversight
+  goal: Take on oversight with the training and the authority to override or stop the agent.
+  step: ai-agent-lifecycle/commissioning
+  touchpoints:
+  - learning-platform
+  - teaming-charter
+- slug: work-with-the-agent
+  title: Work with the Agent
+  goal: Use the agent's outputs where they help, and correct them easily where they do not.
+  step: ai-agent-lifecycle/onboarding-into-the-workflow
+  touchpoints:
+  - clinical-workstation
+  - agent-oversight-console
+- slug: report-and-review
+  title: Report and Review
+  goal: Report errors and misfits quickly and see them acted on in the review.
+  step: ai-agent-lifecycle/performance-review
+  touchpoints:
+  - agent-performance-review
+  - ai-monitoring-dashboard
+  - incident-reporting-system
+- slug: approve-changes
+  title: Approve Changes
+  goal: Approve a changed agent only after revalidation.
+  step: ai-agent-lifecycle/retraining-and-change
+  touchpoints:
+  - agent-validation-report

@@ -1,0 +1,40 @@
+kind: entity
+slug: stakeholder
+title: Stakeholder
+type: master
+summary: Any being with a legitimate stake in the commons — the universal participant, whether human, organisation, community, species,
+  or future generation. The superset from which customer, supplier, partner, and employee are drawn.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: stakeholder-type
+  type: code
+  card: 1..1
+- name: stake
+  type: text
+  card: 1..1
+- name: standing
+  type: code
+  card: 0..1
+- name: rights
+  type: text
+  card: 0..*
+- name: representation
+  type: text
+  card: 0..1
+states:
+- identified
+- classified
+- engaged
+- represented
+- reviewed
+relations:
+- type: refers-to
+  target: customer
+- type: refers-to
+  target: supplier-organisation
+- type: refers-to
+  target: employee-record
+- type: refers-to
+  target: commons

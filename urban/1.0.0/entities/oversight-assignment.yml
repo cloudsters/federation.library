@@ -1,0 +1,58 @@
+kind: entity
+slug: oversight-assignment
+title: Oversight Assignment
+type: transactional
+summary: The assignment of a named person to oversee an AI agent or automated system, with the points at which they review or decide,
+  the routes by which staff and residents override it or escalate to a person, and the competence the role requires. The accountable
+  department records it and keeps it filled, and it is used to show at any time who oversees each system and whether that person has
+  been prepared for it.
+attributes:
+- name: overseer
+  type: text
+  card: 1..1
+- name: agent
+  type: reference(ai-agent)
+  card: 0..1
+- name: system
+  type: reference(automated-system-register)
+  card: 0..1
+- name: review-points
+  type: text
+  card: 1..*
+- name: override-routes
+  type: text
+  card: 1..*
+- name: escalation-routes
+  type: text
+  card: 1..*
+- name: competence-required
+  type: text
+  card: 1..*
+- name: learning-path
+  type: reference(staff-learning-path)
+  card: 0..1
+- name: competence-confirmed-on
+  type: date
+  card: 0..1
+- name: assigned-by
+  type: reference(department)
+  card: 1..1
+- name: assignment-period
+  type: period
+  card: 1..1
+states:
+- proposed
+- assigned
+- prepared
+- active
+- handed-over
+- ended
+relations:
+- type: assigned-to
+  target: ai-agent
+- type: refers-to
+  target: automated-system-register
+- type: refers-to
+  target: agent-mandate
+- type: depends-on
+  target: staff-learning-path

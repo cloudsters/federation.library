@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: treatment-confirmation-letter
+title: Treatment Confirmation Letter
+medium: artefact
+summary: The letter confirming the planned treatment, its dates and expected length of stay, which the patient presents for travel
+  and visa and on which a payer releases its guarantee.
+exchanges:
+- coordinated-care-for-guaranteed-commitment
+- itemised-account-for-payment-guarantee
+journey: treatment-abroad

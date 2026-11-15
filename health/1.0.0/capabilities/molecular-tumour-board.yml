@@ -1,0 +1,10 @@
+kind: capability
+slug: molecular-tumour-board
+title: Molecular Tumour Board
+level: L3
+parent: cancer-care
+summary: Interpret molecular findings and recommend targeted therapies or trial participation.
+binds:
+- source: src-598
+  edition: '2018'
+  jurisdiction: global

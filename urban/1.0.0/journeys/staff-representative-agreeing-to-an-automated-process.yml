@@ -1,0 +1,35 @@
+kind: journey
+slug: staff-representative-agreeing-to-an-automated-process
+title: Staff Representative Agreeing to an Automated Process
+stakeholder: staff-representative
+summary: A staff representative is consulted before tasks are automated, checks that the tools stay in the city's control, agrees
+  to the changed process only after its pilot and reviews its effect on workload with the staff who run it.
+stages:
+- slug: be-consulted-in-good-time
+  title: Be Consulted in Good Time
+  goal: The representative has the automation proposal before the decision, and the staff view on each task is recorded.
+  step: process-improvement-and-automation/automation-decision
+  touchpoints:
+  - automation-decision-meeting
+- slug: check-control-and-exit
+  title: Check Control and Exit
+  goal: The representative sees that the automation runs on open code and city data, with a plan to change supplier or take the work
+    back.
+  step: process-improvement-and-automation/build-on-city-controlled-tools
+  touchpoints:
+  - supplier-exit-plan-review
+  - open-code-review
+- slug: agree-before-it-spreads
+  title: Agree Before It Spreads
+  goal: After the pilot, the representative agrees to the process with written conditions on jobs, workload and the right to raise
+    faults.
+  step: process-improvement-and-automation/pilot-and-rollout
+  touchpoints:
+  - pilot-run-review
+  - staff-agreement-signing
+- slug: review-the-effect-on-workload
+  title: Review the Effect on Workload
+  goal: The effect on workload is reviewed with the staff who run the process, and automation that does not serve is changed or retired.
+  step: process-improvement-and-automation/sustainment-and-review
+  touchpoints:
+  - process-performance-board

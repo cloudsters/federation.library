@@ -1,0 +1,39 @@
+kind: entity
+slug: schedule
+title: Schedule
+type: master
+summary: The bookable availability of one resource, such as a clinician's clinic hours, a scanner or a procedure room, divided into
+  slots against which appointments are made.
+attributes:
+- name: care-services
+  type: reference(care-service)
+  card: 1..*
+- name: practitioner
+  type: reference(practitioner-role)
+  card: 0..1
+- name: room
+  type: reference(room)
+  card: 0..1
+- name: device
+  type: reference(medical-device)
+  card: 0..1
+- name: planning-horizon
+  type: period
+  card: 1..1
+- name: slot-length
+  type: quantity
+  card: 0..1
+states:
+- draft
+- active
+- inactive
+relations:
+- type: assigned-to
+  target: organisation-unit
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

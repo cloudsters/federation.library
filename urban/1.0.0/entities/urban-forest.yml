@@ -1,0 +1,61 @@
+kind: entity
+slug: urban-forest
+title: Urban Forest
+type: master
+summary: The collective tree canopy and woodland within the city's limits, with its extent, its share in each neighbourhood and the
+  heat where shade is lacking. The department responsible keeps it with those who plant and care for trees, and it is used to plan
+  planting and care.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: kept-by
+  type: reference(department)
+  card: 1..1
+- name: reference-date
+  type: date
+  card: 1..1
+- name: canopy-cover
+  type: decimal
+  card: 1..1
+- name: canopy-area
+  type: quantity
+  card: 0..1
+- name: canopy-by-neighbourhood
+  type: document
+  card: 1..1
+- name: heat-by-neighbourhood
+  type: document
+  card: 0..1
+- name: woodland-areas
+  type: text
+  card: 0..*
+- name: tree-count
+  type: integer
+  card: 0..1
+- name: species-mix
+  type: text
+  card: 0..*
+- name: canopy-target
+  type: decimal
+  card: 0..1
+- name: inventory
+  type: reference(tree-inventory)
+  card: 0..1
+states:
+- mapped
+- measured
+- planned
+- in-care
+- updated
+relations:
+- type: part-of
+  target: city
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: tree-inventory
+- type: refers-to
+  target: park
+- type: refers-to
+  target: biodiversity-index

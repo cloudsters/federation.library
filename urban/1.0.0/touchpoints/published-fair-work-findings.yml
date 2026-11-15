@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: published-fair-work-findings
+title: Published Fair Work Findings
+medium: artefact
+summary: The published results of each fair work audit, with the breaches found and how they were remedied or the contract ended.
+exchanges:
+- reporting-for-published-audit-results
+- workers-knowledge-for-remedied-breaches
+journey: care-worker-earning-a-sector-wage-floor

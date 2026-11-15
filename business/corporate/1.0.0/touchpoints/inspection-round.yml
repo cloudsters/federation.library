@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: inspection-round
+title: Inspection Round
+medium: encounter
+summary: The regular walk through a site or along an installation in which assets are checked by sight, sound and measurement and
+  findings are recorded.
+exchanges:
+- early-reports-for-available-equipment
+journey: operator-keeping-equipment-running

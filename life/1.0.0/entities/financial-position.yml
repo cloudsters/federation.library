@@ -1,0 +1,46 @@
+kind: entity
+slug: financial-position
+title: Financial Position
+type: intelligence
+summary: What this life holds, what it owes, what comes in and what goes out. Kept as a position rather than a feeling, since the
+  two are only loosely related at any income.
+attributes:
+- name: as-of
+  type: date
+  card: 1..1
+- name: held
+  type: money
+  card: 1..1
+- name: owed
+  type: money
+  card: 1..1
+- name: coming-in
+  type: money
+  card: 0..1
+- name: going-out
+  type: money
+  card: 0..1
+- name: could-carry-for
+  type: duration
+  card: 0..1
+- name: income-sources
+  type: quantity
+  card: 0..1
+- name: accounts
+  type: list(account)
+  card: 0..*
+states:
+- unclear
+- known
+- thin
+- steady
+- recovering
+relations:
+- target: account
+  type: about
+- target: obligation
+  type: about
+- target: income-event
+  type: records
+- target: expense
+  type: records

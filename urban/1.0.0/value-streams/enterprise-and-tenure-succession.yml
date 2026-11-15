@@ -1,0 +1,127 @@
+kind: value-stream
+slug: enterprise-and-tenure-succession
+title: Enterprise and Tenure Succession
+family: contributor-to-succession
+summary: Keeping the businesses, cooperatives, homes and land that carry the city's livelihoods in the community when those who hold
+  them step back or die. It holds business succession guided well before a founder's exit, successors matched and mentored, transition
+  capital for employees and cooperatives to buy in, member shares in cooperatives passed on fairly, successors designated to affordable
+  homes under covenants that keep them affordable, and use rights to land passed on with their obligations and with protection for
+  women and widows.
+trigger: A business owner plans to retire or sell, a cooperative member leaves or joins, a resident of an affordable or community-held
+  home designates a successor or dies, or a use right to land falls due for transfer.
+outcome: The enterprise, home or land stays in use in the community with a named successor who holds it on the same terms, and the
+  departing holder or their family has received a fair share.
+stakeholders:
+- local-business
+- community-land-trust
+- landowner
+- resident
+- older-resident
+- young-people
+- lender
+- city-administration
+steps:
+- slug: succession-need-mapping
+  title: Succession Need Mapping
+  summary: The city and business associations map the businesses, trades and cooperatives whose owners near retirement, and the community-held
+    homes and land due for transfer, neighbourhood by neighbourhood.
+  capabilities:
+  - business-succession-support
+  - community-asset-mapping
+  entities:
+  - business-succession-plan
+  - community-asset-map
+  - economic-indicators
+  serves:
+  - succession-guide-meeting
+  - succession-need-map
+- slug: successor-matching-and-mentoring
+  title: Successor Matching and Mentoring
+  summary: Eighteen to twenty-four months before the exit, paid district succession guides match owners with successors, whether employees,
+    family, apprentices or a cooperative, and the owner mentors the successor in the relationships and the judgement the business
+    needs.
+  capabilities:
+  - successor-matching
+  - business-succession-support
+  - mentor-matching
+  entities:
+  - business-succession-plan
+  - mentoring-relationship
+  serves:
+  - succession-guide-meeting
+  - succession-peer-circle
+- slug: transition-capital
+  title: Transition Capital
+  summary: A community-governed succession fund lends to employees, apprentices and cooperatives buying into a business, on terms
+    that keep the enterprise and its wealth local.
+  capabilities:
+  - transition-capital-provision
+  - worker-cooperative-formation-support
+  - community-bank-capitalisation
+  entities:
+  - succession-fund
+  - cooperative
+  serves:
+  - succession-fund-application
+  - transition-loan-agreement
+- slug: member-equity-transition
+  title: Member Equity Transition
+  summary: Cooperatives the city supports admit new members at a reduced share cost earned in full over several years, set a fixed
+    formula for their surplus that funds new memberships, and buy out retiring members fairly.
+  capabilities:
+  - member-equity-transition
+  - exit-and-claims-settlement
+  entities:
+  - member-equity-account
+  - cooperative
+  serves:
+  - cooperative-member-assembly
+  - member-share-statement
+- slug: home-succession
+  title: Home Succession
+  summary: Residents of community-held and affordable homes designate their successors in a witnessed declaration, and the successor
+    takes over the home at the price the affordability covenant sets.
+  capabilities:
+  - succession-declaration-recording
+  - affordability-covenant-drafting
+  entities:
+  - succession-declaration
+  - affordability-covenant
+  - building
+  serves:
+  - covenant-price-statement
+  - witnessed-declaration
+- slug: land-use-right-transfer
+  title: Land Use Right Transfer
+  summary: Use rights to land held by the city, a trust or a kinship body pass at life events by a witnessed transfer recorded beside
+    the land registry, with the obligations attached, the claims of women and widows protected, and young growers entering under a
+    mentor.
+  capabilities:
+  - use-right-transfer-recording
+  - successor-matching
+  - public-land-leasing
+  entities:
+  - land-use-right
+  - land-registry
+  - land-parcel
+  serves:
+  - starter-plot
+  - use-right-transfer-entry
+  - witnessed-declaration
+- slug: succession-review
+  title: Succession Review
+  summary: Each year the city reviews how many businesses, homes and plots passed to successors in the community and how many were
+    sold away, and how the succession fund performed, and reports to the council.
+  capabilities:
+  - business-succession-support
+  - transition-capital-provision
+  - use-right-transfer-recording
+  entities:
+  - business-succession-plan
+  - succession-fund
+  serves:
+  - succession-review-report
+binds:
+- source: src-245
+  edition: 2022-05
+  jurisdiction: global

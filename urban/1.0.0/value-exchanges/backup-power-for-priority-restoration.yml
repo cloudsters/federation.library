@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: backup-power-for-priority-restoration
+title: Backup Power for Priority Restoration
+between:
+- infrastructure-operator
+- city-administration
+offered:
+- Backup power and restoration plans for the places that carry essential services.
+returned:
+- Clear priorities for restoration, set with the city.
+touchpoint: continuity-plan-summary

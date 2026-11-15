@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: asset-condition-monitor
+title: Asset Condition Monitor
+medium: channel
+summary: The view of sensor readings, alarms and condition trends of assets, through which developing failures become visible before
+  they occur.
+exchanges:
+- condition-data-for-specialist-repair
+journey: technician-restoring-an-asset

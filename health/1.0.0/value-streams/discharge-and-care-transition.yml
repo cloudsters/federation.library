@@ -1,0 +1,158 @@
+kind: value-stream
+slug: discharge-and-care-transition
+title: Discharge and Care Transition
+family: demand-to-fulfillment
+summary: 'Ending a hospital episode safely and handing care over: discharge planning from admission, readiness assessment, discharge
+  letter and medication plan, social services, rehabilitation and post-acute placement, and follow-up contact.'
+trigger: A patient is admitted with an expected discharge date, or discharge readiness is assessed.
+outcome: The patient leaves with a discharge letter, medication plan and arranged follow-up care, and the next provider has received
+  the handover.
+stakeholders:
+- older-person-with-frailty
+- elective-inpatient
+- relative
+- informal-carer
+- case-manager
+- specialist-physician
+- registered-nurse
+- allied-health-professional
+- clinical-pharmacist
+- referring-practice
+- follow-on-care-provider
+- local-authority
+- payer
+- documentation-agent
+steps:
+- slug: discharge-planning-from-admission
+  title: Discharge Planning from Admission
+  summary: From admission an expected date of discharge is set, patients with complex needs or a high risk of readmission are identified
+    by screening, and a case manager starts planning with patient and family.
+  capabilities:
+  - discharge-readiness-assessment
+  - care-transition-coordination
+  - readmission-prevention
+  - clinical-social-work
+  entities:
+  - encounter
+  - care-needs-assessment
+  - risk-assessment
+  - continuity-facilitator-mandate
+  - care-plan
+  serves:
+  - discharge-planning-meeting
+- slug: post-acute-care-arrangement
+  title: Post-Acute Care Arrangement
+  summary: Rehabilitation, nursing home or home care, aids and social benefits are assessed, applied for and booked with providers
+    and payers in time for the planned date.
+  capabilities:
+  - rehabilitation-needs-assessment
+  - rehabilitation-referral
+  - rehabilitation-provider-coordination
+  - social-care-coordination
+  - insurance-verification-and-coverage
+  entities:
+  - referral
+  - coverage-approval
+  - care-transition
+  - organisation
+  serves:
+  - clinical-messaging-service
+  - discharge-planning-meeting
+- slug: readiness-assessment
+  title: Readiness Assessment
+  summary: Medical, nursing, therapy and social readiness are confirmed against criteria, and the date and time of discharge are fixed
+    with patient, family and the receiving provider.
+  capabilities:
+  - discharge-readiness-assessment
+  - nursing-evaluation
+  - shared-decision-making-practice
+  entities:
+  - care-goal
+  - care-needs-assessment
+  - shared-decision
+  serves:
+  - discharge-planning-meeting
+  - ward-round
+- slug: discharge-documents-and-medication
+  title: Discharge Documents and Medication
+  summary: Discharge letter, medication plan and nursing transfer record are prepared, medication is reconciled and supplied to bridge
+    until the next prescription, and certificates are issued.
+  capabilities:
+  - discharge-summary
+  - discharge-medication-plan
+  - medication-reconciliation
+  - nursing-transfer-handover
+  - ambient-clinical-documentation
+  - clinical-documentation-integrity
+  entities:
+  - discharge-summary
+  - medication-reconciliation
+  - medication-dispense
+  - health-certificate
+  - clinical-document
+  serves:
+  - clinical-workstation
+  - discharge-letter
+  - medication-plan
+  - nursing-transfer-record
+- slug: patient-and-carer-education
+  title: Patient and Carer Education
+  summary: Patient and carers learn what to watch for, how to take the medicines, how to use aids and whom to call, in a language
+    and form they understand.
+  capabilities:
+  - patient-discharge-education
+  - self-management-support
+  - decision-aids-and-health-literacy
+  - interpreting-and-language-services
+  entities:
+  - care-plan
+  - related-person
+  serves:
+  - home-programme
+  - medication-plan
+  - ward
+- slug: discharge-and-handover
+  title: Discharge and Handover
+  summary: The patient leaves at the agreed time with documents and medication, transport is arranged, the next provider receives
+    the handover electronically, and the encounter is closed with every service captured for billing.
+  capabilities:
+  - discharge-execution
+  - care-transition-coordination
+  - secure-clinical-messaging
+  - shared-health-record-integration
+  - patient-transport-services
+  - charge-capture
+  entities:
+  - care-transition
+  - discharge-summary
+  - care-communication
+  - encounter
+  - charge-item
+  serves:
+  - clinical-messaging-service
+  - discharge-letter
+  - discharge-lounge
+  - medication-plan
+  - nursing-transfer-record
+  - patient-held-health-record
+  - patient-transport
+- slug: follow-up-contact
+  title: Follow-Up Contact
+  summary: A call in the first days checks recovery, medicines and services, results that arrived after discharge are passed on, and
+    patients at risk of readmission receive transition support.
+  capabilities:
+  - post-discharge-follow-up
+  - readmission-prevention
+  - laboratory-result-communication
+  - patient-experience-measurement
+  entities:
+  - care-communication
+  - diagnostic-report
+  - patient-experience-survey
+  serves:
+  - clinical-messaging-service
+  - follow-up-call
+binds:
+- source: src-022
+  edition: '2025'
+  jurisdiction: global

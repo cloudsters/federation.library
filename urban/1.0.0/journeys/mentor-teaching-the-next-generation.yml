@@ -1,0 +1,40 @@
+kind: journey
+slug: mentor-teaching-the-next-generation
+title: Mentor Teaching the Next Generation
+stakeholder: mentor
+summary: An experienced craftsperson or elder helps set what the trade requires, takes on an apprentice for paid teaching time, teaches
+  inside real work, judges progress against the standard and attests the apprentice's competence before peers.
+stages:
+- slug: set-what-must-be-learned
+  title: Set What Must Be Learned
+  goal: With other practitioners the mentor has set what the trade requires, how competence is shown and how apprentices rotate, and
+    the family apprenticeships already under way are recognised.
+  step: apprenticeships-and-skills-transmission/competency-standards
+  touchpoints:
+  - trade-practitioners-circle
+  - trade-competency-guide
+- slug: take-on-an-apprentice
+  title: Take On an Apprentice
+  goal: The mentor is paired with an apprentice for an extended period, and the teaching time is paid from the pool.
+  step: apprenticeships-and-skills-transmission/mentor-pairing
+  touchpoints:
+  - mentor-apprentice-agreement
+- slug: teach-inside-the-work
+  title: Teach Inside the Work
+  goal: The mentor teaches while doing the city's real work, and hands the apprentice on to the next mentor in the rotation.
+  step: apprenticeships-and-skills-transmission/learning-in-real-work
+  touchpoints:
+  - apprentice-work-site
+- slug: judge-progress-against-the-standard
+  title: Judge Progress Against the Standard
+  goal: Progress is judged with the apprentice and the other mentors against the standard, not by preference.
+  step: apprenticeships-and-skills-transmission/progression-review
+  touchpoints:
+  - progression-review-meeting
+  - trade-competency-guide
+- slug: attest-before-peers
+  title: Attest Before Peers
+  goal: The mentor attests the apprentice's competence before peers, and the apprentice may become a mentor in turn.
+  step: apprenticeships-and-skills-transmission/credential-and-placement
+  touchpoints:
+  - credential-ceremony

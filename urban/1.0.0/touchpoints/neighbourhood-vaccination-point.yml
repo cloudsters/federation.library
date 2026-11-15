@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: neighbourhood-vaccination-point
+title: Neighbourhood Vaccination Point
+medium: place
+summary: A testing, vaccination and supply point opened in every neighbourhood during an outbreak, reached by community health workers
+  for those least served.
+exchanges:
+- outreach-for-fairly-shared-protection
+journey: resident-calling-for-help

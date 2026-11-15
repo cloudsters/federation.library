@@ -1,0 +1,17 @@
+kind: body
+slug: education-department
+title: Education Department
+summary: Forecasts the children of each neighbourhood, plans early-years and school places and buildings, coordinates fair admission,
+  designs safe routes to school with pupils and parents, supports learners at risk of leaving and opens routes back into learning.
+holds:
+- school-places-and-pathways
+- school-place-forecasting
+- school-estate-planning
+- early-years-place-planning
+- school-admission-coordination
+- safe-school-route-design
+- learner-support-planning
+- return-to-learning-support
+part_of: full-council
+type: function
+form: organisational-unit

@@ -1,0 +1,44 @@
+kind: entity
+slug: logbook-entry
+title: Logbook Entry
+type: transactional
+summary: A trainee's record of a procedure performed, assisted or observed, or of a case managed, with the level of supervision and
+  the supervisor's confirmation, accumulating towards the requirements of specialty training.
+attributes:
+- name: learner-record
+  type: reference(learner-record)
+  card: 1..1
+- name: activity
+  type: code
+  card: 1..1
+- name: trainee-role
+  type: code
+  card: 1..1
+- name: procedure
+  type: reference(procedure)
+  card: 0..1
+- name: supervisor
+  type: reference(practitioner-role)
+  card: 1..1
+- name: performed-on
+  type: date
+  card: 1..1
+states:
+- recorded
+- confirmed
+- rejected
+relations:
+- type: part-of
+  target: learner-record
+- type: refers-to
+  target: procedure
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-423
+  edition: '2023'
+  jurisdiction: global

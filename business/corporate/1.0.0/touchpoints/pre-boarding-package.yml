@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: pre-boarding-package
+title: Pre-Boarding Package
+medium: artefact
+summary: The information, equipment and access a new joiner receives between signature and the first day, with the name of a companion
+  to turn to.
+exchanges:
+- prepared-welcome-for-early-contribution
+journey: employment-journey

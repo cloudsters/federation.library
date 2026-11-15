@@ -1,0 +1,35 @@
+kind: entity
+slug: measure
+title: Measure
+type: intelligence
+summary: A unit of observation — a specific metric that quantifies an aspect of the organisation's performance, providing the raw data from
+  which KPIs and insights are derived.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: unit
+  type: code
+  card: 1..1
+- name: definition
+  type: text
+  card: 1..1
+- name: source
+  type: text
+  card: 1..1
+- name: grain
+  type: code
+  card: 1..1
+- name: data-type
+  type: code
+  card: 1..1
+states:
+- defined
+- collected
+- validated
+- superseded
+relations: []
+binds:
+- source: src-157
+  edition: '1992'
+  jurisdiction: global

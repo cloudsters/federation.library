@@ -1,0 +1,124 @@
+kind: value-stream
+slug: information-security-and-digital-resilience
+title: Information Security and Digital Resilience
+family: portfolio-to-system
+summary: Protecting the confidentiality, integrity and availability of the city's information and systems, and keeping essential services
+  running when networks, power or central systems fail. It holds the security policy, the assessment of digital risks, identity and
+  access for every person, device and system, continuity plans with offline fallbacks placed in neighbourhoods in advance, and the
+  detection of and response to threats.
+trigger: A security or continuity assessment falls due, a new system or connection is planned, or a threat, attack or outage is detected.
+outcome: Digital risks are held within the appetite the council has set, incidents are contained and reported, and essential services
+  keep working offline and recover within their target times.
+stakeholders:
+- city-council
+- city-administration
+- information-technology-specialist
+- emergency-service
+- infrastructure-operator
+- neighbourhood-association
+- community-network-operator
+- technology-supplier
+steps:
+- slug: security-policy-and-risk-assessment
+  title: Security Policy and Risk Assessment
+  summary: The security policy is set within the city's risk framework, and the threats to and weaknesses of each system are assessed
+    and entered in the risk register.
+  capabilities:
+  - security-policy-setting
+  - security-risk-assessment
+  - risk-framework-setting
+  entities:
+  - security-policy
+  - risk-register
+  - application
+  serves:
+  - security-policy-statement
+  - security-risk-workshop
+- slug: identity-and-access
+  title: Identity and Access
+  summary: Every person, device and system receives an identity and only the access it needs, granted, reviewed and withdrawn on time.
+  capabilities:
+  - identity-and-access-control
+  - security-policy-setting
+  entities:
+  - digital-identity
+  - application
+  serves:
+  - access-request-portal
+  - resident-sign-in-service
+- slug: continuity-and-offline-planning
+  title: Continuity and Offline Planning
+  summary: For each essential service, recovery targets, backups and an offline mode are set, and mesh networks, local copies of essential
+    information and backup power are placed in neighbourhood places in advance, so that services keep working when central systems
+    fail.
+  capabilities:
+  - service-continuity-planning
+  - emergency-and-continuity-planning
+  - community-network-support
+  entities:
+  - service-continuity-plan
+  - emergency-plan
+  - community-network
+  serves:
+  - continuity-plan-summary
+  - neighbourhood-resilience-point
+- slug: continuity-exercise
+  title: Continuity Exercise
+  summary: Recovery and offline operation are rehearsed with staff, neighbourhood volunteers and emergency services, and what fails
+    is recorded and fixed.
+  capabilities:
+  - emergency-exercise
+  - service-continuity-planning
+  entities:
+  - service-continuity-plan
+  - audit-finding
+  serves:
+  - offline-operation-drill
+- slug: threat-detection
+  title: Threat Detection
+  summary: Systems are watched continuously for attacks, anomalies and weaknesses, and weaknesses are removed within deadlines set
+    by their severity.
+  capabilities:
+  - threat-detection
+  - system-monitoring
+  entities:
+  - security-incident
+  - application
+  serves:
+  - security-operations-centre
+  - vulnerability-report-channel
+- slug: security-incident-response
+  title: Security Incident Response
+  summary: Attacks and outages are contained, essential services move to their offline modes, systems are recovered, and the authorities
+    and the residents affected are informed within deadlines.
+  capabilities:
+  - security-incident-response
+  - crisis-command
+  - public-warning
+  entities:
+  - security-incident
+  - emergency-response
+  - service-continuity-plan
+  serves:
+  - neighbourhood-resilience-point
+  - security-incident-notice
+  - security-operations-centre
+- slug: security-audit-and-improvement
+  title: Security Audit and Improvement
+  summary: Controls are audited, the findings are reported to the council, and the lessons are built into the design of the systems.
+  capabilities:
+  - internal-audit
+  - security-risk-assessment
+  - compliance-reporting
+  entities:
+  - audit-finding
+  - security-policy
+  serves:
+  - security-audit-report
+binds:
+- source: src-094
+  edition: 2019-a1-2024
+  jurisdiction: global
+- source: src-095
+  edition: 2022-a1-2024
+  jurisdiction: global

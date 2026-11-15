@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: nursing-transfer-record
+title: Nursing Transfer Record
+medium: artefact
+summary: The structured record of care needs, risks, aids, wounds and routines that accompanies a patient to the next unit or care
+  setting.
+exchanges:
+- structured-step-down-for-ward-acceptance
+- complete-handover-for-continuation-without-gap
+journey: follow-on-provider-handover-journey

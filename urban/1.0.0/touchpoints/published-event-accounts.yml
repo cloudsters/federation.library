@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-event-accounts
+title: Published Event Accounts
+medium: artefact
+summary: The published income and costs of an event, with what was paid to whom and the share returned to the community.
+exchanges:
+- festival-income-for-a-share-returned
+journey: event-organiser-holding-a-first-festival

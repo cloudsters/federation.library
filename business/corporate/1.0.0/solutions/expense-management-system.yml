@@ -1,0 +1,11 @@
+kind: solution
+slug: expense-management-system
+title: Expense Management System
+role: system-of-record
+summary: Captures travel and other expenses and corporate card transactions, checks them against policy and passes approved claims
+  to accounting and payroll.
+carries:
+- expense-stewardship
+- steward-corporate-credit-cards
+holds:
+- expense-claim

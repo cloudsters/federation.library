@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: volume-agreement
+title: Volume Agreement
+between:
+- executive
+- payer
+offered:
+- Planned volumes, service mix and quality evidence for the coming period.
+returned:
+- Agreed volumes, budget and rates, and the rules for over- and under-delivery.
+touchpoint: payer-negotiation

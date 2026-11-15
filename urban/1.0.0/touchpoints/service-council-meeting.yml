@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: service-council-meeting
+title: Service Council Meeting
+medium: encounter
+summary: The regular meeting of the residents who use a public service and the staff who deliver it, which sets the service's standards
+  and shapes its delivery.
+exchanges:
+- user-experience-for-service-standards
+- delivery-knowledge-for-shared-standards
+journey: disabled-resident-shaping-a-service

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: proposed-use-for-a-registered-purpose
+title: Proposed Use for a Registered Purpose
+between:
+- city-administration
+- data-protection-officer
+offered:
+- A proposed use of personal data, with its purpose and the data it needs.
+returned:
+- The use recorded with its lawful basis and retention period, or advice that it cannot go ahead.
+touchpoint: processing-intake-form

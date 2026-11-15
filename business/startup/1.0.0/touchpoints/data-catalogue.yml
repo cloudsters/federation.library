@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: data-catalogue
+title: Data Catalogue
+medium: channel
+summary: The searchable catalogue of data sets with their meaning, owner, steward, origin, quality and access rules.
+exchanges:
+- stewardship-for-trusted-data
+- captured-context-for-findable-knowledge
+journey: data-architect-defining-shared-meaning

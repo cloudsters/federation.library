@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: financial-outlook-for-a-budget-frame
+title: Financial Outlook for a Budget Frame
+between:
+- finance-officer
+- city-council
+offered:
+- Projections of income, spending, debt and reserves over the coming years.
+returned:
+- A budget frame and a spending limit for each department.
+touchpoint: budget-frame-debate

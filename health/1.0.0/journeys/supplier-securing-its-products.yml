@@ -1,0 +1,31 @@
+kind: journey
+slug: supplier-securing-its-products
+title: Supplier Securing Its Products
+stakeholder: supplier
+summary: A supplier commits to security in the contract, delivers hardened systems and devices, and patches and cooperates when threats
+  or incidents arise.
+stages:
+- slug: commit-to-security
+  title: Commit to Security
+  goal: Security requirements and duties to cooperate are part of the contract from the start.
+  step: information-security/security-risk-assessment
+  touchpoints:
+  - call-for-tender
+- slug: deliver-hardened-products
+  title: Deliver Hardened Products
+  goal: Systems and devices enter service hardened, documented and placed in the right network segment.
+  step: information-security/control-implementation
+  touchpoints:
+  - device-commissioning
+- slug: warn-and-patch
+  title: Warn and Patch
+  goal: Known weaknesses are announced and closed within agreed deadlines.
+  step: information-security/threat-detection
+  touchpoints:
+  - supplier-portal
+- slug: cooperate-in-an-incident
+  title: Cooperate in an Incident
+  goal: The supplier's specialists join the response when their product is affected.
+  step: information-security/incident-response
+  touchpoints:
+  - security-operations-centre

@@ -1,0 +1,112 @@
+kind: value-stream
+slug: adult-and-lifelong-learning
+title: Adult and Lifelong Learning
+family: discovery-to-usage
+summary: Offering residents of every age the learning they need to live, work and take part in the city, and recognising what they
+  can do rather than only the certificates they hold. It holds an offer built on the needs of each neighbourhood with libraries, adult
+  education, universities and neighbours who teach what they know, basic literacy, numeracy and digital skills at its core, learning
+  made reachable by place, time, cost, language and care, guidance and enrolment, the recognition of skills however they were gained,
+  and a review of who learns and what it changed in their lives.
+trigger: The yearly review of learning needs, a request from residents or a neighbourhood, or a change in the work and life of the
+  city that calls for new skills.
+outcome: Residents can reach learning that fits their lives, and what they can do is recognised by employers, practitioners and neighbours.
+stakeholders:
+- resident
+- older-resident
+- job-seeker
+- newcomer
+- research-institution
+- training-provider
+- civil-society-organisation
+steps:
+- slug: learning-offer-design
+  title: Learning Offer Design
+  summary: What adults in each neighbourhood want and need to learn is found with residents, employers and community bodies, and an
+    offer of courses, study circles and peer teaching is built with libraries, adult education, universities and residents who teach
+    what they know.
+  capabilities:
+  - learning-offer-design
+  - resident-need-assessment
+  - community-learning-partnership-building
+  - community-asset-mapping
+  entities:
+  - learning-offer
+  - need-assessment
+  - anchor-institution-agreement
+  serves:
+  - neighbourhood-learning-needs-gathering
+  - peer-teacher-call
+- slug: learning-access
+  title: Learning Access
+  summary: Learning is offered in neighbourhood places at times that fit work and care, free or at a cost residents can bear, with
+    childcare, interpreting and help for disabled learners.
+  capabilities:
+  - learning-access-provision
+  - language-access-provision
+  - participation-access-design
+  entities:
+  - learning-offer
+  - library
+  - community-centre
+  serves:
+  - learning-access-request
+  - published-learning-programme
+- slug: guidance-and-enrolment
+  title: Guidance and Enrolment
+  summary: Residents enrol through any channel and are guided to the learning that fits their aim, with a learning plan they hold
+    themselves.
+  capabilities:
+  - learning-guidance-and-enrolment
+  - assisted-service-route-provision
+  entities:
+  - learner-enrolment
+  - learning-pathway
+  serves:
+  - any-channel-enrolment
+  - learning-guidance-conversation
+- slug: learning-delivery
+  title: Learning Delivery
+  summary: Courses, study circles and peer teaching run in libraries, community centres, schools, campuses and workplaces, with books,
+    tools and devices lent through libraries and tool-sharing points.
+  capabilities:
+  - learning-delivery-coordination
+  - learning-resource-lending
+  - intergenerational-programme-design
+  entities:
+  - learning-offer
+  - library
+  - learner-enrolment
+  serves:
+  - library-lending-counter
+  - study-circle
+- slug: skill-recognition
+  title: Skill Recognition
+  summary: What learners can do is recognised through practical demonstration, attestation by peers and credentials that employers
+    and practitioners accept, however the skill was gained.
+  capabilities:
+  - prior-skills-recognition
+  - community-credential-issuing
+  - competency-standard-setting
+  entities:
+  - skill-recognition
+  - skill-registry
+  serves:
+  - learner-skill-record
+  - peer-skill-attestation-circle
+- slug: learning-outcome-review
+  title: Learning Outcome Review
+  summary: Who took part, who did not and what the learning changed in learners' work, income and part in the life of the city is
+    reviewed with learners, and the offer is changed.
+  capabilities:
+  - learning-outcome-review
+  - equity-audit
+  entities:
+  - learning-review-report
+  - learning-offer
+  serves:
+  - learner-outcome-circle
+  - published-learning-review
+binds:
+- source: src-253
+  edition: '2015-11-13'
+  jurisdiction: global

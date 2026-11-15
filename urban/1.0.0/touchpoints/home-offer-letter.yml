@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: home-offer-letter
+title: Home Offer Letter
+medium: artefact
+summary: The written offer of a home to an applicant, with the reasons why this home was matched to this household and how to accept,
+  refuse or challenge it.
+exchanges:
+- empty-home-for-a-household-from-the-register
+journey: housing-officer-assessing-need-and-keeping-homes

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: report-for-a-reference-and-a-promised-time
+title: Report for a Reference and a Promised Time
+between:
+- resident
+- city-administration
+offered:
+- A question, request or report of a problem, with its place and what the resident has seen.
+returned:
+- A reference, the name of the service that has the matter and the time within which the service standard promises an answer.
+touchpoint: city-contact-line

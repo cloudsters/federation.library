@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: published-asset-exposure-map
+title: Published Asset Exposure Map
+medium: artefact
+summary: The published map of how heat, heavy rain, flooding and erosion threaten each class of asset and each neighbourhood.
+exchanges:
+- network-exposure-for-shared-adaptation
+journey: asset-officer-adapting-exposed-assets

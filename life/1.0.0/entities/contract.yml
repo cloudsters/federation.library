@@ -1,0 +1,38 @@
+kind: entity
+slug: contract
+title: Contract
+type: transactional
+summary: Terms this life signed and is now inside — employment, freelance, lease, partnership, licence. Recorded with when it can
+  next be changed, which is usually the only fact anyone needs from it.
+attributes:
+- name: kind
+  type: code
+  card: 1..1
+- name: with
+  type: text
+  card: 1..1
+- name: signed-on
+  type: date
+  card: 1..1
+- name: can-next-be-changed
+  type: date
+  card: 1..1
+- name: costs
+  type: money
+  card: 0..1
+- name: lets-the-other-side
+  type: text
+  card: 0..*
+- name: how-it-ends
+  type: text
+  card: 0..1
+states:
+- offered
+- negotiated
+- signed
+- running
+- renegotiated
+- ended
+relations:
+- target: decision
+  type: based-on

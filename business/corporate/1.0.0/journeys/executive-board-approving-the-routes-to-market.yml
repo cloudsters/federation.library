@@ -1,0 +1,33 @@
+kind: journey
+slug: executive-board-approving-the-routes-to-market
+title: Executive Board Approving the Routes to Market
+stakeholder: executive-board
+summary: An executive board sees where the routes to market work, decides on market entry, chooses channels and partners, and approves
+  the distribution plan as a recorded decision.
+stages:
+- slug: see-where-routes-work
+  title: See Where Routes Work
+  goal: Channel performance and relationship quality per channel are visible to the board.
+  step: distribution-strategy-design/route-to-market-review
+  touchpoints:
+  - board-meeting
+- slug: decide-on-market-entry
+  title: Decide on Market Entry
+  goal: Entry mode, partners, investment and sequence are decided per market.
+  step: distribution-strategy-design/market-entry-and-localisation
+  touchpoints:
+  - market-entry-plan
+  - board-meeting
+- slug: choose-channels-and-partners
+  title: Choose Channels and Partners
+  goal: The board decides which customers are served directly and which through platforms, communities, open release or partners.
+  step: distribution-strategy-design/channel-and-partner-choice
+  touchpoints:
+  - board-meeting
+- slug: approve-the-plan
+  title: Approve the Plan
+  goal: Targets, budgets and channel resources are approved as a recorded decision.
+  step: distribution-strategy-design/targets-resources-and-approval
+  touchpoints:
+  - distribution-plan
+  - board-meeting

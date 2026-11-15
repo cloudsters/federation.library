@@ -1,0 +1,52 @@
+kind: entity
+slug: organization
+title: Organization
+type: master
+summary: The organisation itself — the bounded whole that declares its purpose, governs its boundaries, and adapts to its environment.
+  Every commons begins with an organisation defining why it exists.
+attributes:
+- name: legal-name
+  type: text
+  card: 1..1
+- name: legal-form
+  type: code
+  card: 1..1
+- name: jurisdiction
+  type: code
+  card: 1..1
+- name: tax-identifier
+  type: identifier
+  card: 0..*
+- name: base-currency
+  type: code
+  card: 1..1
+- name: fiscal-calendar
+  type: code
+  card: 1..1
+- name: chart-of-accounts
+  type: reference(account)
+  card: 0..1
+- name: purpose
+  type: text
+  card: 0..1
+states:
+- founded
+- operating
+- restructured
+- dissolved
+relations:
+- type: composed-of
+  target: business-unit
+- type: composed-of
+  target: department
+- type: composed-of
+  target: branch
+- type: refers-to
+  target: stakeholder
+binds:
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-150
+  edition: '2020'
+  jurisdiction: global

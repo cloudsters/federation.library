@@ -1,0 +1,14 @@
+kind: solution
+slug: family-doctor
+title: Family Doctor
+role: person
+sovereignty: third-party
+summary: Knows this body over years, reads its changes against its own baseline and joins up the rest of its care.
+carries:
+- knowing-ones-own-baseline
+- learning-ones-own-condition
+- heeding-early-warnings
+holds:
+- health-event
+- health-data
+- condition

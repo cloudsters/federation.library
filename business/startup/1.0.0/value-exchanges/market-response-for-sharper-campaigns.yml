@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: market-response-for-sharper-campaigns
+title: Market Response for Sharper Campaigns
+between:
+- sales-representative
+- product-manager
+offered:
+- What prospects responded to, asked about and objected to.
+returned:
+- Campaigns, content and offers adjusted to what the market actually said.
+touchpoint: marketing-performance-review

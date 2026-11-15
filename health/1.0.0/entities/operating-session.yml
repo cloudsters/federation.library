@@ -1,0 +1,41 @@
+kind: entity
+slug: operating-session
+title: Operating Session
+type: transactional
+summary: A block of operating-room time on a given day allocated to a specialty or team, into which surgical cases are scheduled.
+  Comparing its planned with its used time is the core measure of operating-room utilisation.
+attributes:
+- name: room
+  type: reference(room)
+  card: 1..1
+- name: session-period
+  type: period
+  card: 1..1
+- name: allocated-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: staff
+  type: reference(practitioner-role)
+  card: 0..*
+- name: planned-time
+  type: quantity
+  card: 1..1
+- name: used-time
+  type: quantity
+  card: 0..1
+states:
+- planned
+- released
+- in-use
+- closed
+- cancelled
+relations:
+- type: assigned-to
+  target: room
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global

@@ -1,0 +1,22 @@
+kind: body
+slug: human-resources
+title: Human Resources
+summary: 'Answers for the employment lifecycle: workforce strategy and data, recruitment and employer brand, credentialing,
+  onboarding, careers, rostering and working time, employee relations, wellbeing, reward and payroll. Safe staffing to acuity
+  is held by the chief nursing officer.'
+holds:
+- workforce-strategy
+- workforce-intelligence
+- recruitment
+- employer-attractiveness
+- credentialing-and-privileging
+- onboarding
+- performance-and-career
+- separation-and-transition
+- rostering-and-working-time
+- employee-representation
+- wellbeing-and-retention
+- compensation-and-benefits
+part_of: executive-board
+type: function
+form: organisational-unit

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: bedside-terminal
+title: Bedside Terminal
+medium: channel
+summary: The screen or tablet at the bed through which patients order meals, request services, use media and connectivity, and read
+  information about their stay.
+exchanges:
+- dietary-needs-for-fitting-meals
+- diet-prescription-for-safe-meals
+journey: hospital-stay-comfort-journey

@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: service-needs-for-staffing-on-evidence
+title: Service Needs for Staffing on Evidence
+between:
+- city-administration
+- personnel-officer
+offered:
+- Each department's estimate of the staff and skills its services need, with automation proposals and maintenance work.
+returned:
+- Staffing set on evidence across departments, and the choices for each gap laid out.
+touchpoint: service-staffing-workshop

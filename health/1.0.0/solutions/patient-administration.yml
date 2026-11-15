@@ -1,0 +1,34 @@
+kind: solution
+slug: patient-administration
+title: Patient Administration
+role: system-of-record
+summary: Registers patients and their related persons, opens and closes encounters, assigns beds and records each movement, responsible
+  unit and insurance coverage. It is the authoritative source of who is in the organisation's care, where and under which case.
+carries:
+- patient-registration-and-admission
+- patient-identification
+- pre-admission-preparation
+- admission-decision
+- insurance-verification-and-coverage
+- bed-coordination-and-placement
+- patient-transfer-management
+- discharge-execution
+- day-case-treatment
+holds:
+- patient
+- related-person
+- encounter
+- care-period-mandate
+- bed
+- bed-assignment
+- insurance-coverage
+binds:
+- source: src-033
+  edition: 3rd-2023
+  jurisdiction: global
+- source: src-034
+  edition: '2023'
+  jurisdiction: global
+- source: src-032
+  edition: '2020'
+  jurisdiction: global

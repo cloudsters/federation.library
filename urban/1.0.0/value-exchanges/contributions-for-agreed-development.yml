@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: contributions-for-agreed-development
+title: Contributions for Agreed Development
+between:
+- property-developer
+- finance-officer
+offered:
+- The contributions in money or land that the development agreement requires.
+returned:
+- A statement of each contribution received and its place in the commons fund.
+touchpoint: development-contribution-statement

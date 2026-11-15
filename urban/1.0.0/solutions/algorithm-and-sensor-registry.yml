@@ -1,0 +1,24 @@
+kind: solution
+slug: algorithm-and-sensor-registry
+title: Algorithm and Sensor Registry
+role: system-of-record
+summary: Lists every algorithm, camera and sensor the city uses with its purpose, data, known limits and impact assessment, and records
+  each inspection, challenge and halt.
+carries:
+- automated-decision-oversight
+- decision-impact-assessment
+- automated-system-use-registration
+- algorithmic-impact-assessment
+- bias-and-fairness-testing
+- community-authorisation-of-automated-systems
+- sunset-date-setting
+- automated-system-performance-monitoring
+- automated-system-suspension-and-withdrawal
+holds:
+- automated-system-register
+- automation-proposal
+- algorithmic-impact-assessment
+- algorithm-review-council
+- community-authorisation
+- automated-system-approval
+- automated-system-performance-report

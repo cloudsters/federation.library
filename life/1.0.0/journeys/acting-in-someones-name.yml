@@ -1,0 +1,32 @@
+kind: journey
+slug: acting-in-someones-name
+title: Acting in Someone's Name
+stakeholder: synthetic-collaborator
+via: portfolio-to-system
+summary: An agent begins acting in this person's name, is given a written reach and the moments it must hand back, and has its choices
+  read and its reach widened or narrowed accordingly.
+stages:
+- slug: begin-to-act
+  title: Begin to Act
+  goal: The agent's paying, answering and booking in the person's name has been noticed and is no longer silent.
+  step: agent-to-delegation/noticing-it-acts-for-me
+  touchpoints:
+  - agent-record
+- slug: receive-its-reach
+  title: Receive Its Reach
+  goal: The agent has a written reach of what it may decide alone, what it must ask first and what it may never do.
+  step: agent-to-delegation/stating-its-reach
+  touchpoints:
+  - agent-instructions
+- slug: know-what-comes-back
+  title: Know What Comes Back
+  goal: The moments the agent must hand back to the person are named.
+  step: agent-to-delegation/deciding-what-comes-back
+  touchpoints:
+  - agent-instructions
+- slug: have-its-choices-read
+  title: Have Its Choices Read
+  goal: The agent's actual choices have been read back, and its reach widened or narrowed on that evidence.
+  step: agent-to-delegation/checking-its-choices
+  touchpoints:
+  - agent-record

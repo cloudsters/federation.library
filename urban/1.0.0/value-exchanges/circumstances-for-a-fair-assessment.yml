@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: circumstances-for-a-fair-assessment
+title: Circumstances for a Fair Assessment
+between:
+- resident
+- frontline-worker
+offered:
+- A full account of their circumstances.
+returned:
+- An assessment against the published rules by a person who has heard them.
+touchpoint: caseworker-assessment-interview

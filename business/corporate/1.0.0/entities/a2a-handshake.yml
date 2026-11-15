@@ -1,0 +1,44 @@
+kind: entity
+slug: a2a-handshake
+title: A2A Handshake
+type: transactional
+summary: The protocol record of an agent-to-agent negotiation between commons instances — including governance fitness verification,
+  SLAs, multi-dimensional token exchange, delivery parameters, and ecological compliance. The transaction primitive of the commons
+  economy.
+attributes:
+- name: parties
+  type: reference(commons-instance)
+  card: 1..*
+- name: credentials
+  type: reference(verifiable-credential)
+  card: 0..*
+- name: service-levels
+  type: reference(service-level-agreement)
+  card: 0..1
+- name: token-terms
+  type: text
+  card: 0..1
+- name: delivery-parameters
+  type: text
+  card: 1..1
+- name: ecological-compliance
+  type: text
+  card: 0..1
+- name: signatures
+  type: document
+  card: 1..1
+states:
+- initiated
+- governance-verified
+- negotiated
+- committed
+- delivered
+- settled
+- audited
+relations:
+- type: refers-to
+  target: commons-instance
+- type: based-on
+  target: dynamic-proposition
+- type: refers-to
+  target: verifiable-credential

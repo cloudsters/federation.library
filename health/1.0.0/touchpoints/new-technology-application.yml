@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: new-technology-application
+title: New Technology Application
+medium: artefact
+summary: The application with which a clinician proposes a new method, device, medicine or digital tool for routine use, stating the
+  patients, the expected benefit, the evidence and the resources required.
+exchanges:
+- new-method-case-for-a-decision
+journey: bringing-a-new-method-into-routine-care

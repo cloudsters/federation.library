@@ -1,0 +1,12 @@
+kind: value-exchange
+slug: mission-ratification
+title: Mission Ratification
+between:
+- executive
+- owner
+offered:
+- A mission and values statement that says what the commons is for across care, research and teaching, and states the boundary
+  of what it will not do.
+returned:
+- Ratification, and the owner's backing of that boundary when public or political pressure tests it.
+touchpoint: supervisory-body-meeting

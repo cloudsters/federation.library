@@ -1,0 +1,67 @@
+kind: entity
+slug: care-plan
+title: Care Plan
+type: transactional
+summary: The one plan of care agreed across providers with a person and their carers, naming who does what, the neighbours and community
+  support involved and the person who coordinates it. The coordinator keeps it with the person, and it is reviewed when needs change.
+attributes:
+- name: person
+  type: identifier
+  card: 1..1
+- name: assessment
+  type: reference(care-assessment)
+  card: 1..1
+- name: coordinator
+  type: text
+  card: 1..1
+- name: providers
+  type: text
+  card: 1..*
+- name: agreed-actions
+  type: text
+  card: 1..*
+- name: carers
+  type: text
+  card: 0..*
+- name: carer-support
+  type: text
+  card: 0..*
+- name: neighbour-support
+  type: reference(mutual-aid-network)
+  card: 0..*
+- name: care-settings
+  type: code
+  card: 1..*
+- name: services
+  type: reference(public-service)
+  card: 0..*
+- name: agreed-on
+  type: date
+  card: 1..1
+- name: review-date
+  type: date
+  card: 0..1
+states:
+- drafted
+- agreed
+- active
+- under-review
+- revised
+- closed
+relations:
+- type: based-on
+  target: care-assessment
+- type: governed-by
+  target: care-network-agreement
+- type: refers-to
+  target: mutual-aid-network
+- type: refers-to
+  target: care-map
+- type: refers-to
+  target: community-centre
+- type: composed-of
+  target: care-transition
+binds:
+- source: src-058
+  edition: wha69-24
+  jurisdiction: global

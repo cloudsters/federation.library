@@ -1,0 +1,34 @@
+kind: entity
+slug: irreversibility-declaration
+title: Irreversibility Declaration
+type: governance
+summary: A formal governance act classifying a proposed decision as irreversible — triggering elevated approval thresholds, mandatory
+  affected-commons participation, and institutional memory obligations. Made before the decision, not after.
+attributes:
+- name: proposed-decision
+  type: text
+  card: 1..1
+- name: classification-basis
+  type: text
+  card: 1..1
+- name: approval-threshold
+  type: text
+  card: 1..1
+- name: affected-commons
+  type: text
+  card: 0..*
+- name: memory-obligation
+  type: text
+  card: 0..1
+states:
+- proposed
+- classified
+- thresholds-elevated
+- participation-mandated
+- decided
+- archived
+relations:
+- type: refers-to
+  target: approval
+- type: refers-to
+  target: governance-decision

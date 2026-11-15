@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: review-results-for-budget-reallocation
+title: Review Results for Budget Reallocation
+between:
+- finance-officer
+- city-council
+offered:
+- The published results of each service and programme against its objective.
+returned:
+- Budget decisions that follow the results.
+touchpoint: published-spending-review

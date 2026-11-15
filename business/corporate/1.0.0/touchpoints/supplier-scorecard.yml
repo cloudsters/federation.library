@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-scorecard
+title: Supplier Scorecard
+medium: artefact
+summary: The regular rating of a supplier on quality, delivery, price, cooperation and conduct, shared with the supplier as the basis
+  for the performance review.
+exchanges:
+- open-scorecard-for-improvement-commitment
+journey: supplier-relationship

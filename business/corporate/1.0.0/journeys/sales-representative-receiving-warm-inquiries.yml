@@ -1,0 +1,37 @@
+kind: journey
+slug: sales-representative-receiving-warm-inquiries
+title: Sales Representative Receiving Warm Inquiries
+stakeholder: sales-representative
+summary: A sales representative agrees goals with marketing, plans launches together, is equipped with current material, receives
+  ready inquiries with their history and reports back what the market said.
+stages:
+- slug: agree-the-goals
+  title: Agree the Goals
+  goal: Marketing goals per offering, channel and segment are agreed with sales.
+  step: engagement-cultivation/marketing-goals-and-budget
+  touchpoints:
+  - marketing-performance-review
+- slug: plan-the-launch-together
+  title: Plan the Launch Together
+  goal: Audience, timing, channels and partners of a launch are planned with sales and delivery.
+  step: engagement-cultivation/launch-planning
+  touchpoints:
+  - product-launch
+- slug: be-equipped-with-material
+  title: Be Equipped with Material
+  goal: The seller carries current descriptions and material into every conversation.
+  step: engagement-cultivation/content-and-presentation
+  touchpoints:
+  - product-catalogue
+- slug: receive-an-inquiry-with-history
+  title: Receive an Inquiry with History
+  goal: Ready inquiries arrive with their history, interests and consents.
+  step: engagement-cultivation/inquiry-nurture-and-handover
+  touchpoints:
+  - inquiry-dossier
+- slug: report-back-on-response
+  title: Report Back on Response
+  goal: What prospects responded to and objected to is fed back into marketing and offering.
+  step: engagement-cultivation/response-and-insight-review
+  touchpoints:
+  - marketing-performance-review

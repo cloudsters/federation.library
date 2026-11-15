@@ -1,0 +1,164 @@
+kind: value-stream
+slug: mental-health-care
+title: Mental Health Care
+family: demand-to-fulfillment
+summary: 'Treating people with mental and psychosomatic illness across settings: access in crisis, legal status and capacity, risk
+  assessment and safety planning, the choice of the least restrictive setting, treatment, review of every restriction, and transition
+  into community care.'
+trigger: A person in mental crisis or with a mental illness presents, is referred or is brought in by others.
+outcome: The person has been treated in the least restrictive setting that is safe, with their rights upheld, and continues care in
+  the community with a crisis plan.
+stakeholders:
+- person-with-mental-illness
+- paediatric-patient
+- relative
+- court
+- specialist-physician
+- emergency-physician
+- registered-nurse
+- allied-health-professional
+- case-manager
+- patient-advocate
+- follow-on-care-provider
+steps:
+- slug: crisis-access-and-assessment
+  title: Crisis Access and Assessment
+  summary: A person in crisis is seen without delay in the emergency department, a psychiatric emergency service or an outpatient
+    clinic, their mental and physical state is assessed, and immediate help is given.
+  capabilities:
+  - psychiatric-crisis-intervention
+  - psychiatric-outpatient-care
+  - clinical-history-taking
+  - physical-examination
+  - consultation-liaison-psychiatry
+  - child-and-adolescent-psychiatry
+  entities:
+  - request-for-care
+  - encounter
+  - observation
+  - health-issue
+  - clinical-document
+  serves:
+  - emergency-department
+  - outpatient-clinic
+- slug: legal-status-and-capacity
+  title: Legal Status and Capacity
+  summary: Whether the person can decide on their own treatment is assessed, voluntary treatment is offered first, and where admission
+    against their will cannot be avoided the compulsory admission procedure is followed with court review and legal representation.
+  capabilities:
+  - decision-making-capacity-assessment
+  - compulsory-admission-procedure
+  - consent-and-directive-management
+  - coercive-measure-safeguards
+  - patient-rights-stewardship
+  entities:
+  - authorization-by-law
+  - proxy-mandate
+  - informed-consent
+  - advance-directive
+  serves:
+  - advance-directive-document
+  - consent-form
+  - patient-advocate-office
+- slug: risk-assessment-and-safety-plan
+  title: Risk Assessment and Safety Plan
+  summary: The risk of suicide, self-harm, violence and neglect is assessed with the person, a safety plan is agreed, and the level
+    of observation is set and reviewed.
+  capabilities:
+  - suicide-risk-assessment-and-prevention
+  - nursing-risk-screening
+  - care-plan-determination
+  entities:
+  - risk-assessment
+  - care-plan
+  - clinical-alert
+  - observation
+  serves:
+  - consultation
+  - shared-care-plan
+- slug: treatment-setting-decision
+  title: Treatment Setting Decision
+  summary: Together with the person the team chooses the least restrictive setting that is safe, whether outpatient, home treatment,
+    day clinic or ward, including child and adolescent psychiatry or addiction treatment where needed, and arranges admission.
+  capabilities:
+  - psychiatric-day-and-home-treatment
+  - psychiatric-outpatient-care
+  - psychiatric-inpatient-care
+  - child-and-adolescent-psychiatry
+  - addiction-and-withdrawal-treatment
+  - shared-decision-making-practice
+  - admission-decision
+  entities:
+  - care-plan
+  - shared-decision
+  - encounter
+  - bed-assignment
+  - care-period-mandate
+  serves:
+  - consultation
+  - day-care-unit
+  - home-visit
+  - ward
+- slug: treatment-delivery
+  title: Treatment Delivery
+  summary: Psychotherapy, pharmacotherapy, social and occupational therapies and care for physical health are delivered in the chosen
+    setting, withdrawal is managed safely, and relatives are involved as the person wishes.
+  capabilities:
+  - psychiatric-inpatient-care
+  - psychiatric-day-and-home-treatment
+  - addiction-and-withdrawal-treatment
+  - clinical-psychology
+  - medication-prescribing
+  - occupational-therapy
+  - consultation-liaison-psychiatry
+  entities:
+  - care-plan
+  - medication-order
+  - medication-administration
+  - procedure
+  - observation
+  serves:
+  - medication-plan
+  - therapy-session
+  - ward-round
+- slug: least-restrictive-care-review
+  title: Least Restrictive Care Review
+  summary: Every restriction and coercive measure is ordered, observed, documented and ended as soon as possible and talked through
+    with the person afterwards, and the legal basis of a continued stay against their will is reviewed at set intervals.
+  capabilities:
+  - least-restrictive-practice
+  - coercive-measure-safeguards
+  - compulsory-admission-procedure
+  - patient-advocacy
+  entities:
+  - authorization-by-law
+  - care-plan
+  - clinical-document
+  - observation
+  serves:
+  - family-meeting
+  - patient-advocate-office
+- slug: transition-to-community-care
+  title: Transition to Community Care
+  summary: Discharge is planned early with the person, relatives and community services, a crisis plan and a follow-up appointment
+    are in place before leaving, and contact is made within days of discharge.
+  capabilities:
+  - care-transition-coordination
+  - social-care-coordination
+  - readmission-prevention
+  - psychiatric-outpatient-care
+  - discharge-summary
+  entities:
+  - care-transition
+  - care-plan
+  - appointment
+  - referral
+  - discharge-summary
+  serves:
+  - discharge-letter
+  - discharge-planning-meeting
+  - follow-up-call
+binds:
+- source: src-610
+  edition: '2006'
+  jurisdiction: global

@@ -1,0 +1,12 @@
+kind: solution
+slug: environmental-health-case-system
+title: Environmental Health Case System
+role: system-of-record
+summary: Holds every reported or detected hazard from report to inspection, order and remedy, and every contaminated site with its
+  investigation and the state of its clean-up.
+carries:
+- environmental-hazard-inspection
+- contaminated-land-remediation
+holds:
+- environmental-hazard-case
+- contaminated-site

@@ -1,0 +1,14 @@
+kind: body
+slug: information-security-office
+title: Information Security Office
+summary: 'Leads information security: strategy and controls, identity and access, security operations, medical device cybersecurity,
+  the security duties of critical infrastructure and the reporting of cyber incidents.'
+holds:
+- information-security
+part_of: executive-board
+type: function
+form: organisational-unit
+binds:
+- source: src-077
+  edition: '2025'
+  jurisdiction: global

@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: integration-platform
+title: Integration Platform
+medium: channel
+summary: The shared platform on which interfaces run and through which message flows are monitored, failed exchanges corrected and
+  resent.
+exchanges:
+- integration-platform-for-reliable-operation
+- rejection-notice-for-corrected-messages
+journey: integration-specialist-connecting-a-partner

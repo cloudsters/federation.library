@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: donation-receipt
+title: Donation Receipt
+medium: artefact
+summary: The confirmation of a gift's receipt that thanks the donor and serves as evidence for tax purposes.
+exchanges:
+- gift-for-purpose-and-impact
+journey: giving-to-the-commons

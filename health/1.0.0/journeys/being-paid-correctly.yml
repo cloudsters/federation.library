@@ -1,0 +1,40 @@
+kind: journey
+slug: being-paid-correctly
+title: Being Paid Correctly
+stakeholder: registered-nurse
+summary: A nurse whose pay depends on grade, shifts, nights and allowances wants to understand it, receive it on time and have errors
+  corrected quickly.
+stages:
+- slug: understand-the-pay
+  title: Understand the Pay
+  goal: Understand the pay scale, allowances and benefits that apply.
+  step: compensation-and-payroll/pay-structure
+  touchpoints:
+  - collective-agreement
+  - intranet
+- slug: know-the-grade
+  title: Know the Grade
+  goal: Know the grade and step, and see them change with duties and experience.
+  step: compensation-and-payroll/pay-grading
+  touchpoints:
+  - employment-contract
+  - hr-self-service
+- slug: report-changes
+  title: Report Changes
+  goal: Have worked time, allowances and personal changes reach payroll without extra effort.
+  step: compensation-and-payroll/pay-input-collection
+  touchpoints:
+  - hr-self-service
+- slug: receive-the-pay
+  title: Receive the Pay
+  goal: Receive correct pay on the agreed date with a statement one can understand.
+  step: compensation-and-payroll/payment-and-statements
+  touchpoints:
+  - pay-statement
+  - payroll-tax-filing
+- slug: query-and-correct
+  title: Query and Correct
+  goal: Have a question answered or an error corrected within the next pay period.
+  step: compensation-and-payroll/posting-and-reconciliation
+  touchpoints:
+  - hr-service-desk

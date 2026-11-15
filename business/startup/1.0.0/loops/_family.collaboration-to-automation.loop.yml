@@ -1,0 +1,111 @@
+# startup's family loop: corporate's loop of the same slug, its streams those of startup 
+loop: _family.collaboration-to-automation
+title: Keep the family 'Collaboration to Automation' coherent across its streams
+level: steering
+class: governance
+direction: inward
+mode: open
+region:
+  vsf: collaboration-to-automation
+  vs:
+  - process-as-living-pattern
+  - quality-as-vitality
+  - knowledge-as-commons
+  - ecological-health-safety
+  - regenerative-practice
+stance: Evolve collaboration (human + agent) into reliable, increasingly automated patterns. No single stream of this family
+  can see what its streams do to one another; this loop is where that becomes visible.
+escalates_to: gate
+trigger:
+  rhythm: each closed reporting period of the family's measures, and each escalation from one of its streams
+  events:
+  - an operating loop of this family escalated a finding
+  - a stream of this family was activated, adapted or not selected in the registry
+  - a standard the pack declares in manifest.yml changed edition or status
+  demand: the family steward asks for a reading before a decision that touches the family
+context:
+  model:
+  - value-model.yml#vsf/collaboration-to-automation
+  - value-model.yml#vs/process-as-living-pattern
+  - value-model.yml#vs/quality-as-vitality
+  - value-model.yml#vs/change-as-growth
+  - value-model.yml#vs/knowledge-as-commons
+  - value-model.yml#vs/sensing-benchmarking
+  - value-model.yml#vs/ecological-health-safety
+  - value-model.yml#vs/regenerative-practice
+  registry:
+  - instance/registry/5_value-streams/process-as-living-pattern.md
+  - instance/registry/5_value-streams/quality-as-vitality.md
+  - instance/registry/5_value-streams/change-as-growth.md
+  - instance/registry/5_value-streams/knowledge-as-commons.md
+  - instance/registry/5_value-streams/sensing-benchmarking.md
+  - instance/registry/5_value-streams/ecological-health-safety.md
+  - instance/registry/5_value-streams/regenerative-practice.md
+  loop_states:
+  - instance/operations/loops/_state/process-as-living-pattern.yml
+  - instance/operations/loops/_state/quality-as-vitality.yml
+  - instance/operations/loops/_state/change-as-growth.yml
+  - instance/operations/loops/_state/knowledge-as-commons.yml
+  - instance/operations/loops/_state/sensing-benchmarking.yml
+  - instance/operations/loops/_state/ecological-health-safety.yml
+  - instance/operations/loops/_state/regenerative-practice.yml
+  measures:
+  - absolute-footprint-change
+  - active-communities-of-practice
+  - automation-reversals
+  - automations-under-mandate-and-oversight
+  - business-cases-with-ecological-assessment
+  - change-training-completed-before-go-live
+  - change-understanding-and-support
+  - co-authorship-of-changed-processes
+  - cost-of-poor-quality
+  - critical-knowledge-captured
+  - emergency-drills-held-to-plan
+  - environmental-limit-exceedances
+  - first-pass-quality-rate
+  - footprint-from-measured-data
+  - footprint-intensity
+  - improvement-gains-verified
+  - incident-actions-closed-on-time
+  - indicators-fully-defined
+  - knowledge-findability-rating
+  - knowledge-in-active-use
+  - knowledge-reviewed-within-interval
+  - lost-time-injury-frequency
+  - material-gaps-answered-with-action
+  - material-topics-with-target-and-owner
+  - near-miss-reporting-ratio
+  - non-conformances-closed-with-effective-action
+  - objectives-with-external-benchmark
+  - performance-report-restatements
+  - performance-reporting-lag
+  - processes-with-owner-and-current-model
+  - progress-against-footprint-targets
+  - quality-audits-completed-to-plan
+  - readiness-assessed-before-change
+  - repeat-non-conformances
+  - reports-validated-before-release
+  - representatives-consulted-before-implementation
+  - safety-instruction-current
+  - suggestion-to-decision-cycle-time
+  - sustained-adoption-of-new-ways-of-working
+  standards: manifest.yml#standards — edition and status of every source with informs ⊇ [loops]
+authority: family-steward
+state: instance/operations/loops/_state/_family.collaboration-to-automation.yml
+isolation: proposes issues and notes; never commits to main; never overrides an operating loop's finding; never writes into
+  the commons layer or a pack
+feedback:
+- 'a family note to the gate: what the family carries, what it escalates, and what it could not see'
+- re-weighted priorities on the family's open issues
+- merge proposals where two streams report the same finding
+stop:
+  iteration: every stream of the region reported as measured, unwatched or unsighted, and every escalation decided or passed
+    to the gate
+  lifecycle: the family leaves the value model — which the canon rules out — or the commons declines the loop
+measure:
+  deltas:
+  - 'silence: an operating loop of the family without a run inside its rhythm'
+  - 'convergence: findings from different streams that point at the same element or binding'
+  - 'pressure: a measure of the family moving against its target across more than one stream'
+  - 'currency: a declared standard superseded, withdrawn or newly binding'
+  visibility: each element of the region is recorded as measured, unwatched or unsighted

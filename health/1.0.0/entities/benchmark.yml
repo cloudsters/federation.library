@@ -1,0 +1,41 @@
+kind: entity
+slug: benchmark
+title: Benchmark
+type: intelligence
+summary: A comparison of the organisation's results with those of peer organisations or reference values, adjusted for case
+  mix, used to locate strengths and gaps and to set targets.
+attributes:
+- name: measure
+  type: reference(measure)
+  card: 1..1
+- name: peer-group
+  type: text
+  card: 1..1
+- name: reporting-period
+  type: period
+  card: 1..1
+- name: own-result
+  type: quantity
+  card: 1..1
+- name: peer-result
+  type: quantity
+  card: 1..1
+- name: relative-position
+  type: code
+  card: 0..1
+- name: source
+  type: reference(organisation)
+  card: 0..1
+states:
+- preliminary
+- released
+relations:
+- type: based-on
+  target: measure-report
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-049
+  edition: catalogue-2026-10-07
+  jurisdiction: global

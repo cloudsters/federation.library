@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: transparent-report-for-sign-off
+title: Transparent Report for Sign-Off
+between:
+- field-service-technician
+- business-customer
+offered:
+- A report of the work done, time, parts, travel and open points, checked together on the spot.
+returned:
+- A signature confirming the result, which closes the order for correct invoicing.
+touchpoint: invoice

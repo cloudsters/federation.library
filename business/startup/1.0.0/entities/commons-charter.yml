@@ -1,0 +1,43 @@
+kind: entity
+slug: commons-charter
+title: Commons Charter
+type: governance
+summary: The living governance document of a commons instance — purpose, membership, ecological constraints, capture resistance, solidarity
+  obligations. Not a founding artefact but a versioned, auditable record of what the commons currently stands for. Human-readable
+  and machine-executable simultaneously.
+attributes:
+- name: purpose
+  type: text
+  card: 1..1
+- name: membership-terms
+  type: text
+  card: 1..1
+- name: ecological-constraints
+  type: reference(ecological-parameter)
+  card: 0..*
+- name: capture-resistance-rules
+  type: text
+  card: 0..*
+- name: solidarity-obligations
+  type: reference(solidarity-covenant)
+  card: 0..*
+- name: amendment-process
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- authored
+- deliberated
+- ratified
+- versioned
+- amended
+- enforced
+relations:
+- type: refers-to
+  target: commons
+- type: composed-of
+  target: solidarity-covenant
+- type: composed-of
+  target: cognitive-mandate

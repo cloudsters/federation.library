@@ -1,0 +1,63 @@
+kind: journey
+slug: city-administration-deciding-entitlements-fairly
+title: City Administration Deciding Entitlements Fairly
+stakeholder: city-administration
+summary: A department publishes who is entitled and on what evidence, finds residents who are entitled but do not claim, takes applications
+  by any route, has a person assess each one, gives a reasoned decision in time, adjusts it when life changes and corrects wrong decisions
+  through an independent appeal.
+stages:
+- slug: publish-who-is-entitled
+  title: Publish Who Is Entitled
+  goal: The rules of each service, benefit and reduced charge are published in plain language, tested with residents, with essential
+    care and help open whatever a person's status.
+  step: service-applications-and-entitlements/entitlement-rules
+  touchpoints:
+  - published-entitlement-rules
+  - plain-language-test-session
+- slug: find-those-who-do-not-claim
+  title: Find Those Who Do Not Claim
+  goal: Residents who appear entitled have been found with their consent and through trusted organisations, and offered the service
+    directly.
+  step: service-applications-and-entitlements/proactive-take-up
+  touchpoints:
+  - unclaimed-entitlement-letter
+  - trusted-organisation-outreach
+- slug: take-applications-by-any-route
+  title: Take Applications by Any Route
+  goal: Applications arrive online, at a service point, by telephone or through a trusted organisation, with help where needed, and
+    only evidence the city lacks is asked for.
+  step: service-applications-and-entitlements/application-intake
+  touchpoints:
+  - any-route-application
+  - neighbourhood-service-point-counter
+- slug: assess-with-a-person-in-charge
+  title: Assess with a Person in Charge
+  goal: A caseworker has assessed the application against the published rules, and no refusal prepared by an automated system goes
+    out without a person's review.
+  step: service-applications-and-entitlements/eligibility-assessment
+  touchpoints:
+  - caseworker-assessment-interview
+  - caseworker-check-before-refusal
+- slug: give-a-reasoned-decision
+  title: Give a Reasoned Decision
+  goal: The decision has reached the resident within the deadline, in plain language and their own language, with its reasons, what
+    they receive and from when, and how to appeal.
+  step: service-applications-and-entitlements/decision-and-notice
+  touchpoints:
+  - plain-language-decision-letter
+- slug: adjust-when-life-changes
+  title: Adjust When Life Changes
+  goal: The entitlement is reviewed on a reported change or at its fixed date, without asking again for what the city knows, and adjusted
+    from the date of the change.
+  step: service-applications-and-entitlements/change-of-circumstances
+  touchpoints:
+  - change-of-circumstances-notice
+  - scheduled-entitlement-review
+- slug: correct-wrong-decisions
+  title: Correct Wrong Decisions
+  goal: Appeals are decided within their deadline by someone not involved, wrong decisions are corrected with redress, and their count
+    changes the rules or the system.
+  step: service-applications-and-entitlements/appeal-and-redress
+  touchpoints:
+  - independent-appeal-hearing
+  - published-appeal-count

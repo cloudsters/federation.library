@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: stop-authority-for-early-signals
+title: Stop Authority for Early Signals
+between:
+- quality-manager
+- production-operator
+offered:
+- Current work instructions, calibrated equipment and the explicit authority to stop the work when quality is at risk.
+returned:
+- Checks done in the flow of work, deviations raised at once and the craft knowledge that keeps the controls realistic.
+touchpoint: quality-handbook

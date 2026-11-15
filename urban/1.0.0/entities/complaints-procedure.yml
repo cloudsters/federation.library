@@ -1,0 +1,70 @@
+kind: entity
+slug: complaints-procedure
+title: Complaints Procedure
+type: governance
+summary: The published route for complaints about the city's services, decisions and conduct, with its stages, the time for answering
+  each, the help offered to those who find it hard to complain and the service guarantees whose breach brings compensation without
+  any complaint. The administration sets it with residents and frontline workers and the council adopts it, and every complaint and
+  award is handled under it.
+attributes:
+- name: version
+  type: identifier
+  card: 1..1
+- name: scope
+  type: text
+  card: 1..1
+- name: stages
+  type: text
+  card: 1..*
+- name: stage-time-limits
+  type: quantity
+  card: 1..*
+- name: complaint-routes
+  type: code
+  card: 1..*
+- name: help-offered
+  type: text
+  card: 0..*
+- name: guarantees
+  type: reference(service-standard)
+  card: 0..*
+- name: ombudsman-route
+  type: text
+  card: 1..1
+- name: languages
+  type: code
+  card: 0..*
+- name: adopted-by
+  type: reference(council-decision)
+  card: 0..1
+- name: effective-period
+  type: period
+  card: 1..1
+- name: next-review-on
+  type: date
+  card: 0..1
+states:
+- drafted
+- consulted
+- adopted
+- published
+- under-review
+- amended
+- retired
+relations:
+- type: based-on
+  target: service-standard
+- type: based-on
+  target: public-consultation
+- type: refers-to
+  target: misconduct-report
+- type: refers-to
+  target: ombudsman-case
+- type: refers-to
+  target: language-access-policy
+- type: produces
+  target: public-record
+binds:
+- source: src-234
+  edition: '2018'
+  jurisdiction: global

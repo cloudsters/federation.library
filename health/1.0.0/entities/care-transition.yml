@@ -1,0 +1,57 @@
+kind: entity
+slug: care-transition
+title: Care Transition
+type: transactional
+summary: The handover of responsibility for a patient from one care unit or provider to another, at transfer or discharge, with the
+  information, medication and follow-up arrangements the receiving side needs.
+attributes:
+- name: patient
+  type: reference(patient)
+  card: 1..1
+- name: transition-kind
+  type: code
+  card: 1..1
+- name: from-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: to-unit
+  type: reference(organisation-unit)
+  card: 0..1
+- name: to-provider
+  type: reference(organisation)
+  card: 0..1
+- name: handover-at
+  type: datetime
+  card: 1..1
+- name: follow-up-arrangements
+  type: text
+  card: 0..1
+- name: receipt-confirmed
+  type: boolean
+  card: 0..1
+states:
+- planned
+- in-progress
+- completed
+- acknowledged
+- cancelled
+relations:
+- type: part-of
+  target: encounter
+- type: based-on
+  target: care-plan
+- type: produces
+  target: referral
+binds:
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-001
+  edition: '2026'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-405
+  edition: v2.9.1
+  jurisdiction: global

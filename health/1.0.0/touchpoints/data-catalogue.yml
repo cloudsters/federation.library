@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: data-catalogue
+title: Data Catalogue
+medium: channel
+summary: The searchable catalogue of the commons' data products and datasets with their content, owner, quality and access rules,
+  through which users find data and request access.
+exchanges:
+- steering-question-for-trusted-report
+- forecasts-for-timely-data
+- sound-request-for-prepared-data
+- permits-for-prepared-datasets
+journey: unit-steering-with-its-own-data

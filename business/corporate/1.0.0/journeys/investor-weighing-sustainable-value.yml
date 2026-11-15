@@ -1,0 +1,32 @@
+kind: journey
+slug: investor-weighing-sustainable-value
+title: Investor Weighing Sustainable Value
+stakeholder: financial-investor
+summary: An investor states the sustainability requirements attached to its capital, follows the goals and their effect on investment
+  decisions and judges the company on honest reports of progress.
+stages:
+- slug: state-the-requirements
+  title: State the Requirements
+  goal: The investor's sustainability requirements are gathered with those of law, customers and communities.
+  step: regenerative-practice/materiality-and-requirements
+  touchpoints:
+  - materiality-consultation
+- slug: judge-the-goals
+  title: Judge the Goals
+  goal: Goals and measures for each material topic are credible and tied to concrete redesign.
+  step: regenerative-practice/regenerative-goals-and-plan
+  touchpoints:
+  - regenerative-plan
+- slug: see-criteria-in-investment
+  title: See Criteria in Investment
+  goal: Sustainability criteria are visibly applied in the company's investment decisions.
+  step: regenerative-practice/integration-into-decisions
+  touchpoints:
+  - board-meeting
+- slug: read-honest-progress
+  title: Read Honest Progress
+  goal: Progress, gaps and remedies are reported in a form the investor can compare over time.
+  step: regenerative-practice/progress-reporting
+  touchpoints:
+  - sustainability-report
+  - shareholder-meeting

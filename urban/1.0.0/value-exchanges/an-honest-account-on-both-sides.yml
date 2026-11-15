@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: an-honest-account-on-both-sides
+title: An Honest Account on Both Sides
+between:
+- supplier
+- contract-manager
+offered:
+- The supplier's performance over the year and what it needs from the city to do better.
+returned:
+- The city's account of its own part, whether it paid on time and gave clear instructions, and the improvements both agree.
+touchpoint: annual-supplier-review-meeting

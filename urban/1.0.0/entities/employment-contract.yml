@@ -1,0 +1,57 @@
+kind: entity
+slug: employment-contract
+title: Employment Contract
+type: transactional
+summary: The contract between the municipality and a member of staff, with the position, grade, hours, terms and any trial period.
+  The personnel function concludes and keeps it, and it is used to create the staff record, to pay the person and to settle the departure.
+attributes:
+- name: contract-number
+  type: identifier
+  card: 1..1
+- name: staff-record
+  type: reference(staff-record)
+  card: 1..1
+- name: position
+  type: reference(position)
+  card: 1..1
+- name: pay-grade
+  type: code
+  card: 1..1
+- name: working-hours
+  type: quantity
+  card: 1..1
+- name: contract-kind
+  type: code
+  card: 1..1
+- name: start-date
+  type: date
+  card: 1..1
+- name: end-date
+  type: date
+  card: 0..1
+- name: trial-period
+  type: period
+  card: 0..1
+- name: notice-period
+  type: period
+  card: 0..1
+- name: signed-document
+  type: document
+  card: 1..1
+states:
+- offered
+- signed
+- in-trial
+- in-force
+- amended
+- terminated
+- expired
+relations:
+- type: refers-to
+  target: position
+- type: governed-by
+  target: pay-scale
+- type: governed-by
+  target: staff-agreement
+- type: produces
+  target: staff-record

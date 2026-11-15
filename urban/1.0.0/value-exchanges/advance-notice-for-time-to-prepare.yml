@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: advance-notice-for-time-to-prepare
+title: Advance Notice for Time to Prepare
+between:
+- procurement-officer
+- local-business
+offered:
+- Notice of the purchases planned for the coming years with their value, timing and criteria.
+returned:
+- Small and local suppliers who prepare, form partnerships and bid when the tender comes.
+touchpoint: published-forward-procurement-plan

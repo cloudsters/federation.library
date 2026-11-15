@@ -1,0 +1,12 @@
+kind: touchpoint
+slug: electronic-order-interface
+title: Electronic Order Interface
+medium: channel
+summary: The direct system-to-system connection through which customers send orders, forecasts and call-offs and receive confirmations,
+  dispatch advices and invoices without manual entry.
+exchanges:
+- agreed-formats-for-seamless-orders
+- correct-invoice-for-prompt-payment
+- forecast-for-secured-supply
+- rejection-notice-for-corrected-messages
+journey: business-customer-being-invoiced-and-paying

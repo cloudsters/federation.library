@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: service-case-paper
+title: Service Case Paper
+medium: artefact
+summary: The published case for a new or changed service, with its whole-life cost, the staff and buildings it needs, and who gains
+  and who is left out.
+exchanges:
+- service-case-for-a-reasoned-trial-decision
+journey: city-administration-bringing-a-new-service-into-use

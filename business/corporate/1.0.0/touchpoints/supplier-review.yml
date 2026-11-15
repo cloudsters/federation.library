@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: supplier-review
+title: Supplier Review
+medium: encounter
+summary: The regular meeting with a supplier to review performance, risks and open issues on facts, and to agree corrections and development
+  goals.
+exchanges:
+- open-scorecard-for-improvement-commitment
+journey: supplier-relationship

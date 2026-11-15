@@ -1,0 +1,27 @@
+kind: journey
+slug: executive-board-stating-a-fair-tax-posture
+title: Executive Board Stating a Fair Tax Posture
+stakeholder: executive-board
+summary: The executive board states the organisation's tax posture as fair contribution, has structural decisions assessed for their
+  tax consequences and holds internal prices to arm's length.
+stages:
+- slug: state-the-posture
+  title: State the Posture
+  goal: The tax posture, including what the organisation will not do, is stated and published.
+  step: fiscal-responsibility-contribution/tax-posture-setting
+  touchpoints:
+  - board-meeting
+  - sustainability-report
+- slug: decide-with-tax-in-view
+  title: Decide with Tax in View
+  goal: Structural decisions are taken with their tax consequences known.
+  step: fiscal-responsibility-contribution/transaction-tax-assessment
+  touchpoints:
+  - board-meeting
+  - tax-opinion
+- slug: hold-internal-prices-fair
+  title: Hold Internal Prices Fair
+  goal: Prices between the organisation's entities are set at arm's length and documented.
+  step: fiscal-responsibility-contribution/intercompany-pricing
+  touchpoints:
+  - transfer-pricing-documentation

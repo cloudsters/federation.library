@@ -1,0 +1,8 @@
+kind: touchpoint
+slug: environmental-hazard-hotline
+title: Environmental Hazard Hotline
+medium: channel
+summary: The route through which residents report smoke, smells, noise, dumping or damp and follow what the inspection found.
+exchanges:
+- hazard-report-for-an-inspection-and-an-answer
+journey: older-resident-safe-through-a-heat-wave

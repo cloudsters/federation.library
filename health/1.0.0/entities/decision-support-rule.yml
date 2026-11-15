@@ -1,0 +1,64 @@
+kind: entity
+slug: decision-support-rule
+title: Decision Support Rule
+type: governance
+summary: An executable rule derived from a guideline, pathway or formulary that clinical systems apply at the point of care, such
+  as an alert, a dose check, an order set or a reminder, versioned, approved and monitored for use and override.
+attributes:
+- name: identifier
+  type: identifier
+  card: 1..1
+- name: rule-kind
+  type: code
+  card: 1..1
+- name: logic
+  type: document
+  card: 1..1
+- name: sources
+  type: reference(clinical-guideline)
+  card: 0..*
+- name: pathway
+  type: reference(care-pathway)
+  card: 0..1
+- name: owner-unit
+  type: reference(organisation-unit)
+  card: 1..1
+- name: approval
+  type: reference(governance-decision)
+  card: 0..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- draft
+- in-test
+- approved
+- in-force
+- under-review
+- withdrawn
+relations:
+- type: based-on
+  target: clinical-guideline
+- type: based-on
+  target: care-pathway
+- type: depends-on
+  target: code-system
+binds:
+- source: src-029
+  edition: 2.0.1
+  jurisdiction: global
+- source: src-018
+  edition: 4.0.1
+  jurisdiction: global
+- source: src-006
+  edition: '2.83'
+  jurisdiction: global
+- source: src-015
+  edition: 1.1.0
+  jurisdiction: global
+- source: src-004
+  edition: '2026-10-01'
+  jurisdiction: global
+- source: src-411
+  edition: CDS-2.0.1
+  jurisdiction: global

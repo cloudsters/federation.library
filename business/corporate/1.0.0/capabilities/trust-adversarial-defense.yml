@@ -1,0 +1,8 @@
+kind: capability
+slug: trust-adversarial-defense
+title: Trust Score Adversarial Defense
+level: L3
+parent: platforms-and-marketplaces
+summary: Detect and respond to coordinated attacks on commons reputation infrastructure — score manipulation, dispute flooding, bot-network
+  fabrication. A trust system that can be gamed is worse than none, because it provides false assurance. Trust infrastructure requires
+  production-grade adversarial resilience.

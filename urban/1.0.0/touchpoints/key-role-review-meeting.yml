@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: key-role-review-meeting
+title: Key Role Review Meeting
+medium: encounter
+summary: The yearly meeting in which the administration or a civic body reviews which roles rest on one person and records successors
+  and their readiness.
+exchanges:
+- knowledge-held-alone-for-a-named-successor
+- role-review-for-supported-succession
+journey: municipal-employee-handing-on-a-key-role

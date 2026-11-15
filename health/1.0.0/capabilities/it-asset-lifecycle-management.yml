@@ -1,0 +1,10 @@
+kind: capability
+slug: it-asset-lifecycle-management
+title: IT Asset Lifecycle Management
+level: L3
+parent: infrastructure
+summary: Track hardware and software assets and licences from procurement to disposal.
+binds:
+- source: src-298
+  edition: '2017'
+  jurisdiction: global

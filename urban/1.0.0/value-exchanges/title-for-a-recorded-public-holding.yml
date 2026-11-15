@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: title-for-a-recorded-public-holding
+title: Title for a Recorded Public Holding
+between:
+- landowner
+- city-council
+offered:
+- The title to the land or building, sold or given to the city.
+returned:
+- The agreed price paid, and the purpose for which the city will hold the land recorded with the title.
+touchpoint: purchase-contract-signing

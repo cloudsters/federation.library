@@ -1,0 +1,56 @@
+kind: entity
+slug: community-enumeration
+title: Community Enumeration
+type: intelligence
+summary: A record of residents, dwellings or trades made by a community itself, such as an informal settlement or an association of
+  street vendors. The community keeps it in its own control, and the city uses it only with consent to see what its own data leaves
+  out.
+attributes:
+- name: made-by
+  type: text
+  card: 1..1
+- name: enumeration-kind
+  type: code
+  card: 1..1
+- name: area
+  type: text
+  card: 1..1
+- name: neighbourhood
+  type: reference(neighbourhood)
+  card: 0..1
+- name: enumeration-period
+  type: period
+  card: 1..1
+- name: resident-count
+  type: integer
+  card: 0..1
+- name: dwelling-count
+  type: integer
+  card: 0..1
+- name: trade-count
+  type: integer
+  card: 0..1
+- name: held-by
+  type: text
+  card: 1..1
+- name: consent-terms
+  type: text
+  card: 1..1
+- name: shared-extract
+  type: document
+  card: 0..1
+- name: consent-withdrawn-on
+  type: date
+  card: 0..1
+states:
+- initiated
+- collected
+- validated
+- shared
+- in-use
+- withdrawn
+relations:
+- type: refers-to
+  target: neighbourhood
+- type: refers-to
+  target: population-register

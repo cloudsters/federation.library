@@ -1,0 +1,11 @@
+kind: capability
+slug: planned-building-maintenance
+title: Planned Building Maintenance
+level: L3
+parent: facility-operations
+summary: Plan and carry out preventive maintenance of buildings and technical installations by schedule and condition, coordinated
+  with the units affected by shutdowns, so that faults are prevented rather than repaired.
+binds:
+- source: src-324
+  edition: '2011'
+  jurisdiction: global

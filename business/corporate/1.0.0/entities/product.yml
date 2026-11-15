@@ -1,0 +1,60 @@
+kind: entity
+slug: product
+title: Product
+type: master
+summary: A tangible proposition offered to the market — the result of the organisation's productive capacity, shaped by what the market
+  needs and delivered through channels to create exchange value.
+attributes:
+- name: product-code
+  type: identifier
+  card: 1..1
+- name: description
+  type: text
+  card: 1..1
+- name: category
+  type: code
+  card: 1..1
+- name: unit-of-measure
+  type: code
+  card: 1..1
+- name: pricing-anchor
+  type: amount
+  card: 0..1
+- name: specifications
+  type: document
+  card: 0..1
+- name: brand
+  type: reference(brand)
+  card: 0..1
+- name: bom
+  type: reference(bom)
+  card: 0..1
+states:
+- conceived
+- developed
+- launched
+- mature
+- withdrawn
+- recalled
+relations:
+- type: refers-to
+  target: item
+- type: refers-to
+  target: brand
+- type: depends-on
+  target: bom
+- type: refers-to
+  target: price-list
+binds:
+- source: src-148
+  edition: '16.0'
+  jurisdiction: global
+- source: src-137
+  edition: '26.0'
+  jurisdiction: global
+- source: src-135
+  edition: '2.5'
+  jurisdiction: global
+- source: src-136
+  edition: d24a
+  jurisdiction: global

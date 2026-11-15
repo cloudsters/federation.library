@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: burden-evidence-for-a-recorded-debt
+title: Burden Evidence for a Recorded Debt
+between:
+- affected-community
+- finance-officer
+offered:
+- Evidence of the heat, flooding, pollution and loss of services the community bears.
+returned:
+- Those costs recorded in the public ledger, with what the city owes to repair them.
+touchpoint: public-ecological-cost-ledger

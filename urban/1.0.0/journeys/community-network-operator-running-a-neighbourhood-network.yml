@@ -1,0 +1,43 @@
+kind: journey
+slug: community-network-operator-running-a-neighbourhood-network
+title: Community Network Operator Running a Neighbourhood Network
+stakeholder: community-network-operator
+summary: A neighbourhood cooperative plans its part of the network with the city, places its assets in a community trust under published
+  access terms, builds and connects homes, keeps the network in repair and reviews price and reliability with the neighbourhood assembly.
+stages:
+- slug: plan-its-part-of-the-network
+  title: Plan Its Part of the Network
+  goal: The parts of the network the cooperative will own and run are agreed with the city and laid with the street works already
+    planned.
+  step: digital-infrastructure-and-connectivity/public-network-planning
+  touchpoints:
+  - network-planning-workshop
+  - street-works-coordination-meeting
+- slug: place-the-network-in-trust
+  title: Place the Network in Trust
+  goal: The network is held in a community trust that keeps it commons, and providers use it on published terms that are the same
+    for all.
+  step: digital-infrastructure-and-connectivity/network-ownership-and-access-terms
+  touchpoints:
+  - network-trust-agreement
+  - published-network-access-terms
+- slug: build-and-connect-homes
+  title: Build and Connect Homes
+  goal: Homes, community places and public buildings are connected, beginning with those least served.
+  step: digital-infrastructure-and-connectivity/network-build-and-connection
+  touchpoints:
+  - connection-request-desk
+  - home-connection-visit
+- slug: keep-the-network-in-repair
+  title: Keep the Network in Repair
+  goal: Faults are repaired, outages are reported by neighbourhood and renewal is funded on plan rather than after failure.
+  step: digital-infrastructure-and-connectivity/network-upkeep-and-renewal
+  touchpoints:
+  - network-fault-line
+  - network-performance-report
+- slug: review-with-the-assembly
+  title: Review with the Assembly
+  goal: The assembly has reviewed access, price and reliability and decided on extensions and changes to the access terms.
+  step: digital-infrastructure-and-connectivity/network-review-with-neighbourhoods
+  touchpoints:
+  - network-review-assembly

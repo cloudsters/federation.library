@@ -1,0 +1,38 @@
+kind: entity
+slug: report
+title: Report
+type: intelligence
+summary: A structured account of the organisation's state — an analytical output that makes performance, compliance, or financial health
+  visible to decision-makers across all dimensions.
+attributes:
+- name: name
+  type: text
+  card: 1..1
+- name: definition
+  type: document
+  card: 1..1
+- name: rendered-instance
+  type: document
+  card: 0..1
+- name: audience
+  type: code
+  card: 1..1
+- name: purpose
+  type: text
+  card: 1..1
+- name: version
+  type: identifier
+  card: 1..1
+states:
+- drafted
+- generated
+- reviewed
+- published
+- archived
+relations:
+- type: refers-to
+  target: measure
+- type: refers-to
+  target: kpi
+- type: composed-of
+  target: measure-report

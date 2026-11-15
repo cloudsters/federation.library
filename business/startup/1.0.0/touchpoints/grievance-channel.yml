@@ -1,0 +1,9 @@
+kind: touchpoint
+slug: grievance-channel
+title: Grievance Channel
+medium: channel
+summary: The defined route through which an employee raises a grievance about treatment or terms, with acknowledgement, a fair process
+  and the right to be accompanied.
+exchanges:
+- grievance-for-a-fair-hearing
+journey: employee-raising-a-grievance

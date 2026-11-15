@@ -1,0 +1,42 @@
+kind: journey
+slug: search-for-expertise
+title: Search for Expertise
+stakeholder: person-with-rare-disease
+summary: 'The side of a person with a rare or undiagnosed condition who contacts the commons in search of the right expert: asking,
+  being guided, having prior findings reviewed and finding a route into care.'
+stages:
+- slug: asking-for-help
+  title: Asking for Help
+  goal: Reach someone who takes the request seriously, without having to know which department to call.
+  step: patient-enquiries-and-relationships/enquiry-receipt
+  touchpoints:
+  - patient-enquiry-service
+  - public-website
+- slug: explaining-the-situation
+  title: Explaining the Situation
+  goal: Explain the history once and learn what the commons needs to assess it, including whether a referral is required.
+  step: patient-enquiries-and-relationships/need-clarification
+  touchpoints:
+  - patient-enquiry-service
+- slug: being-guided
+  title: Being Guided
+  goal: Know which specialist service fits, or where else to turn if the commons is not the right place.
+  step: patient-enquiries-and-relationships/answer-and-guidance
+  touchpoints:
+  - patient-enquiry-service
+  - public-website
+- slug: having-the-case-reviewed
+  title: Having the Case Reviewed
+  goal: Have all prior findings reviewed by an expert and receive a written opinion that can be discussed with the doctors at home.
+  step: patient-enquiries-and-relationships/second-opinion-review
+  touchpoints:
+  - patient-held-health-record
+  - consultation
+  - second-opinion-report
+- slug: getting-an-appointment
+  title: Getting an Appointment
+  goal: Get an appointment or a place on the waiting list, with a clear statement of what to bring.
+  step: patient-enquiries-and-relationships/route-into-care
+  touchpoints:
+  - appointment-service
+  - patient-portal

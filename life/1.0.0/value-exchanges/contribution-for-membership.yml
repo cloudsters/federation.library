@@ -1,0 +1,11 @@
+kind: value-exchange
+slug: contribution-for-membership
+title: Contribution for Membership
+between:
+- self
+- community
+offered:
+- labour, money or standing given to a commons
+returned:
+- a say in it, and its protection
+touchpoint: volunteer-shift

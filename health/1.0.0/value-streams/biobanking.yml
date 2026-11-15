@@ -1,0 +1,137 @@
+kind: value-stream
+slug: biobanking
+title: Biobanking
+family: demand-to-fulfillment
+summary: Collecting, processing, storing and providing human biological samples together with their data and consent for research,
+  under quality and access rules.
+trigger: A patient consents to donate samples, or a researcher requests samples.
+outcome: Samples are stored to quality standards with linked data and consent, and are released to approved projects.
+stakeholders:
+- research-participant
+- clinician-scientist
+- research-scientist
+- diagnostic-technologist
+- research-ethics-committee
+- data-protection-officer
+- research-partner
+- industry-partner
+steps:
+- slug: donor-information-and-consent
+  title: Donor Information and Consent
+  summary: Patients and volunteers are informed about the biobank, the research it serves and their right to withdraw, and give broad
+    or specific consent that is recorded and linked to every later sample.
+  capabilities:
+  - research-consent-management
+  - decision-aids-and-health-literacy
+  - biobank-governance
+  - patient-identification
+  entities:
+  - data-use-consent
+  - patient
+  - cohort
+  serves:
+  - consent-form
+  - consultation
+  - participant-information-sheet
+- slug: sample-collection
+  title: Sample Collection
+  summary: Samples are taken alongside routine care or at study visits with minimal additional burden, including residual tissue released
+    by pathology, and are labelled and pseudonymised at the source.
+  capabilities:
+  - specimen-collection-and-pre-analytics
+  - specimen-handling-and-grossing
+  - biobank-operations
+  - pseudonymisation-and-record-linkage
+  entities:
+  - specimen
+  - biobank-sample
+  - patient
+  serves:
+  - laboratory-counter
+- slug: processing-and-storage
+  title: Processing and Storage
+  summary: Samples are processed under quality-controlled pre-analytic conditions, divided into aliquots and stored at defined temperatures,
+    with position, history and quality recorded and storage equipment monitored.
+  capabilities:
+  - biobank-operations
+  - laboratory-quality-assurance
+  - core-facility-operations
+  - asset-condition-sensing
+  entities:
+  - biobank-sample
+  - medical-device
+  serves:
+  - biobank
+  - core-facility
+- slug: data-linkage
+  title: Data Linkage
+  summary: Sample records are linked under pseudonyms to clinical findings, outcomes and consent status, so that samples, data and
+    permissions can be queried together.
+  capabilities:
+  - biobank-governance
+  - research-data-integration-centre
+  - pseudonymisation-and-record-linkage
+  - data-quality-management
+  entities:
+  - biobank-sample
+  - dataset
+  - data-use-consent
+  - health-record
+- slug: access-review
+  title: Access Review
+  summary: Requests are reviewed by the access committee against consent, ethics approval, scientific merit and the scarcity of the
+    material, and approved transfers are bound by transfer agreements.
+  capabilities:
+  - biobank-governance
+  - data-access-governance
+  - industry-research-contracting
+  - ethics-committee-governance
+  entities:
+  - data-access-request
+  - data-use-agreement
+  - study-review
+  serves:
+  - data-use-and-access-committee
+  - research-data-portal
+- slug: sample-and-data-release
+  title: Sample and Data Release
+  summary: Approved samples and data are retrieved, checked, packed and shipped or analysed on site, and withdrawals of consent are
+    honoured by blocking or destroying the material and data concerned.
+  capabilities:
+  - biobank-operations
+  - real-world-data-provisioning
+  - data-subject-rights-fulfilment
+  - internal-distribution
+  entities:
+  - biobank-sample
+  - dataset
+  - data-use-agreement
+  serves:
+  - biobank
+  - patient-portal
+- slug: return-and-recognition
+  title: Return and Recognition
+  summary: Users return generated data and publications, the biobank is acknowledged, findings that matter for a donor's health are
+    handled under the agreed policy, and donors learn what their samples made possible.
+  capabilities:
+  - research-publication
+  - research-performance-assessment
+  - biobank-governance
+  - genetic-diagnostics
+  - patient-and-public-involvement
+  entities:
+  - publication
+  - dataset
+  - policy
+  serves:
+  - patient-portal
+  - public-website
+  - research-data-portal
+  - scientific-publication
+binds:
+- source: src-345
+  edition: '4.0'
+  jurisdiction: global
+- source: src-422
+  edition: Core-3.0
+  jurisdiction: global

@@ -1,0 +1,40 @@
+kind: journey
+slug: resident-getting-help-with-a-digital-service
+title: Resident Getting Help with a Digital Service
+stakeholder: resident
+summary: A resident learns what a digital service promises, reports a fault online, by phone or at a trusted local place, is told
+  when and how it was solved, receives notice before the service changes and takes part in the review of its performance.
+stages:
+- slug: know-what-to-expect
+  title: Know What to Expect
+  goal: The resident knows the hours and availability of the service and the help they can expect.
+  step: digital-service-operations/service-definition-and-levels
+  touchpoints:
+  - published-service-levels
+- slug: report-the-fault
+  title: Report the Fault
+  goal: The fault is recorded with its urgency and the service it concerns, through a channel the resident could use.
+  step: digital-service-operations/service-desk-intake
+  touchpoints:
+  - digital-service-desk
+  - trusted-local-help-point
+- slug: hear-how-it-was-solved
+  title: Hear How It Was Solved
+  goal: The fault is solved within the agreed level, and the resident is told when and how.
+  step: digital-service-operations/resolution-and-fulfilment
+  touchpoints:
+  - case-resolution-notice
+- slug: get-notice-of-a-change
+  title: Get Notice of a Change
+  goal: The resident knew of a change to the service before it was released, and it could be rolled back when it failed.
+  step: digital-service-operations/change-and-release
+  touchpoints:
+  - release-notice
+  - service-status-page
+- slug: judge-the-service
+  title: Judge the Service
+  goal: The resident's experience is part of the review, and the improvements agreed are published.
+  step: digital-service-operations/service-review-with-users
+  touchpoints:
+  - service-review-session
+  - service-performance-report

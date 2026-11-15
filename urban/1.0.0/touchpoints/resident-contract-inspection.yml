@@ -1,0 +1,10 @@
+kind: touchpoint
+slug: resident-contract-inspection
+title: Resident Contract Inspection
+medium: encounter
+summary: An inspection in which resident inspectors examine a contract's records and spending, talk with its users and publish their
+  findings for the administration to answer.
+exchanges:
+- open-contracts-for-resident-scrutiny
+- inspection-findings-for-a-public-answer
+journey: resident-inspector-examining-a-contract

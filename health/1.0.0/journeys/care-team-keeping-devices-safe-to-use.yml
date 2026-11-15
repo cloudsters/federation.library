@@ -1,0 +1,54 @@
+kind: journey
+slug: care-team-keeping-devices-safe-to-use
+title: Care Team Keeping Devices Safe to Use
+stakeholder: registered-nurse
+summary: 'A nurse relies on devices at the bedside: releases them for planned maintenance, reports faults, works on with replacements,
+  acts on safety notices and hands over devices that are retired.'
+stages:
+- slug: release-devices-for-maintenance
+  title: Release Devices for Maintenance
+  goal: The unit knows which devices are due and releases them at a time that does not leave patients without equipment.
+  step: medical-equipment-maintenance/maintenance-planning-and-scheduling
+  touchpoints:
+  - inspection-label
+  - medical-equipment-register
+- slug: report-a-fault
+  title: Report a Fault
+  goal: A failed device is taken out of use, reported with a description of the fault and replaced at once from the pool.
+  step: medical-equipment-maintenance/fault-reporting-and-triage
+  touchpoints:
+  - clinical-engineering-service-desk
+  - equipment-pool
+- slug: work-on-with-a-replacement
+  title: Work On with a Replacement
+  goal: Care continues with a pool device while the faulty one is repaired, and the unit can follow the repair status.
+  step: medical-equipment-maintenance/maintenance-and-inspection
+  touchpoints:
+  - equipment-pool
+  - clinical-engineering-service-desk
+- slug: receive-a-safe-device
+  title: Receive a Safe Device
+  goal: The device returns cleaned, tested and labelled with its next due date.
+  step: medical-equipment-maintenance/release-for-use
+  touchpoints:
+  - inspection-label
+  - equipment-pool
+- slug: act-on-safety-notices
+  title: Act on Safety Notices
+  goal: The unit learns of a safety notice affecting its devices, checks them and confirms the action taken.
+  step: medical-equipment-maintenance/incident-and-safety-notice-handling
+  touchpoints:
+  - field-safety-notice
+  - recall-response-form
+- slug: review-device-performance
+  title: Review Device Performance
+  goal: The unit sees the failures and downtime of its devices and can argue for their replacement.
+  step: medical-equipment-maintenance/condition-and-performance-review
+  touchpoints:
+  - equipment-performance-report
+- slug: hand-over-retired-devices
+  title: Hand Over Retired Devices
+  goal: Retired devices leave the unit, their data are erased and successors are in place.
+  step: medical-equipment-maintenance/decommissioning-and-disposal
+  touchpoints:
+  - clinical-engineering-service-desk

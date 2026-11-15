@@ -1,0 +1,31 @@
+kind: journey
+slug: community-land-trust-holding-public-land-for-good
+title: Community Land Trust Holding Public Land for Good
+stakeholder: community-land-trust
+summary: A community land trust shows the city the community assets it holds, helps set the levy on rising land values, leases public
+  land at a community rent and receives commons fund money to bring more land into permanent trust.
+stages:
+- slug: show-what-the-community-holds
+  title: Show What the Community Holds
+  goal: The land, homes and shared spaces the trust keeps are recorded beside the city's register.
+  step: public-assets-and-commons-fund/asset-register-and-valuation
+  touchpoints:
+  - community-asset-inventory-session
+- slug: shape-the-levy
+  title: Shape the Levy
+  goal: The trust has helped set rates and triggers, so that rises in land value near new transit fund affordable homes.
+  step: public-assets-and-commons-fund/land-value-capture
+  touchpoints:
+  - betterment-levy-consultation
+- slug: lease-public-land-at-a-community-rent
+  title: Lease Public Land at a Community Rent
+  goal: The trust holds public land on a long lease at a reduced rent, bound to keep it affordable.
+  step: public-assets-and-commons-fund/asset-leasing-and-concessions
+  touchpoints:
+  - community-lease-agreement
+- slug: bring-more-land-into-trust
+  title: Bring More Land into Trust
+  goal: Commons fund money allocated by the neighbourhood has brought land into the trust or funded affordable homes on it.
+  step: public-assets-and-commons-fund/commons-fund-allocation
+  touchpoints:
+  - neighbourhood-fund-assembly

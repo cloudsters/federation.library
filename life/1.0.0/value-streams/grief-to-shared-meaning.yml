@@ -1,0 +1,85 @@
+kind: value-stream
+slug: grief-to-shared-meaning
+title: Grieving Together
+family: participant-to-community
+summary: What a group can do with loss that a person alone cannot — witness it, carry it, and turn the pain into something the next
+  person can use. Carried alone it stays a wound; carried together it becomes knowledge.
+trigger: Someone dies, a bond or an expected future is lost, or a grief carried alone for years becomes too heavy to keep private.
+outcome: The loss has been witnessed by others and has a place in the shared story, and what it taught is there for the next person
+  who needs it.
+stakeholders:
+- community
+- close-friend
+- partner
+- sibling
+- parent
+- practitioner
+steps:
+- slug: the-loss-arrives
+  title: The Loss Arrives
+  summary: Someone dies, a bond ends, or an expected future is lost, and ordinary days stop making sense.
+  capabilities:
+  - allowing-grief
+  entities:
+  - death
+  - relationship-ending
+  serves:
+  - at-the-bedside
+  - phone-call
+- slug: letting-others-see-it
+  title: Letting Others See It
+  summary: Allowing the grief to be seen by the people around, instead of carrying it out of sight to spare them, even when it has
+    been carried alone for years.
+  capabilities:
+  - letting-others-into-grief
+  entities:
+  - community-relation
+  - friend
+  serves:
+  - heart-to-heart
+  - help-at-the-door
+- slug: bearing-witness
+  title: Bearing Witness
+  summary: Being with others in the loss, listening to what each remembers and how each grieves, without hurrying anyone toward feeling
+    better.
+  capabilities:
+  - bearing-witness
+  entities:
+  - conversation
+  - community-relation
+  - ritual
+  serves:
+  - at-the-bedside
+  - heart-to-heart
+  - the-funeral
+- slug: marking-the-loss-together
+  title: Marking the Loss Together
+  summary: A funeral, a gathering, a date kept each year, through which the group says the loss happened and belongs to all of them.
+  capabilities:
+  - shaping-a-ritual
+  entities:
+  - ritual
+  - death
+  serves:
+  - place-returned-to
+  - the-funeral
+  - yearly-remembrance
+- slug: finding-its-place-in-the-story
+  title: Finding Its Place
+  summary: Over time, giving the loss a place in the person's story and the group's, neither erasing it nor being only it.
+  capabilities:
+  - giving-loss-a-place
+  entities:
+  - life-narrative
+  - journal
+- slug: passing-on-what-it-taught
+  title: Passing On What It Taught
+  summary: Offering what the loss taught to the next person who faces one, so pain carried once becomes knowledge for others.
+  capabilities:
+  - passing-on-what-loss-taught
+  entities:
+  - conversation
+  - contribution-record
+  - community-relation
+  serves:
+  - peer-circle

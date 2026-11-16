@@ -1,0 +1,28 @@
+id: variant
+term: Variant
+layer: what
+kind: concept
+definition: One of the ordered models a [domain].core makes under its domain's one id for commons of its kind with different
+  needs, each with a name of its own, built as an emulation on one shared core with streams of its own, and released and installed
+  whole.
+why: 'Holger, 4 November 2026 (commons.o#110, comment 6626305178, V1 and V2; comment 6626536835, T1): a model has no tiers,
+  and the depth a commons needs is given by the variant it installs. The same thing keeps the same slug in every variant and
+  the 13 families are the same in all. A [domain].core names its variants after the commons they build for, such as startup
+  and corporate, and a variant is named <model>/<variant>. A commons takes up the next variant as it takes up any model: it
+  installs it beside the one it has, builds an emulation from it and, when that fits, makes the emulation its runtime by a
+  merge, the earlier runtime kept as an emulation (comment 6627102753). The probe in business.core (federation.core#13) tested
+  it, and Holger decided on 7 November 2026 (commons.core#110, comment 6705288611): a Body only another variant holds is a
+  stakeholder in the variant whose shared records name it (F-4 b), and the records of the earlier variant that the next lacks
+  stay as the commons'' history, retired, never deleted and never carried over (F-5 a). In German, Variante.'
+relations:
+  is_a: model
+  made_by: domain-core
+  built_as: emulation
+not:
+- a tier, which a model no longer has
+- a step of a fixed ladder of sizes, such as S, M and L
+status: draft
+decided:
+  date: '2026-11-07'
+  by: Holger
+  where: commons.core#110, comments 6627102753 (N3) and 6705288611 (F-4 b, F-5 a)

@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://commons.engineering/schemas/blueprint.schema.json",
+  "title": "blueprint",
+  "description": "One layer of a commons' plan (blueprint.md): the frame of the Commons model (specs/blueprint.yml), a domain's layer (blueprint.yml at a released model's root) or the commons' own (the structure key blueprint). Each layer only adds.",
+  "type": "object",
+  "required": [
+    "sections"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      },
+      "description": "in the layer's reading order"
+    },
+    "faces": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/id"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/face"
+      },
+      "description": "for sections of an earlier layer: labels, questions in the same order and meaning (R25), a domain's stricter evidence rule and a visibility (R22)"
+    },
+    "order": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true,
+      "description": "the reading order and the founding dialogue's starting point: the commons' own, else its domain's, else the frame's (R6, R7)"
+    },
+    "relevance": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/id"
+      },
+      "additionalProperties": {
+        "enum": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      "description": "a domain's default relevance by family instance or section id, which the commons' own assessment overrides (R6)"
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)*$",
+      "description": "stable, never renamed or reused; never a section number"
+    },
+    "shell": {
+      "enum": [
+        "SEED",
+        "CORE",
+        "PEER",
+        "OPEN",
+        "DOCK",
+        "ROAM"
+      ]
+    },
+    "claim_kind": {
+      "enum": [
+        "fact",
+        "measure",
+        "signal",
+        "self-description",
+        "derived"
+      ]
+    },
+    "labels": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2}$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "face": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "labels": {
+          "$ref": "#/$defs/labels"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "replacing the section's questions one by one, in the same order and meaning (R25)"
+        },
+        "evidence": {
+          "enum": [
+            "triangulated"
+          ],
+          "description": "a domain raising a frame section's evidence from sourced to triangulated, never lowering it (R22)"
+        },
+        "visibility": {
+          "$ref": "#/$defs/shell",
+          "description": "a domain only further in; a commons for its own answers in either direction (R22)"
+        }
+      }
+    },
+    "binds": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "dimension",
+            "family",
+            "element",
+            "stakeholder",
+            "journey",
+            "touchpoint",
+            "value-exchange",
+            "value-stream",
+            "capability",
+            "entity",
+            "solution",
+            "body",
+            "loop",
+            "identity",
+            "knowledge",
+            "lifecycle",
+            "worlds"
+          ]
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "field": {
+          "type": "string",
+          "minLength": 1,
+          "description": "identity: a field of commons.yml"
+        },
+        "about": {
+          "$ref": "#/$defs/id",
+          "description": "knowledge: the node or section the claims are about; without it, the whole claim register"
+        },
+        "claim": {
+          "$ref": "#/$defs/claim_kind",
+          "description": "knowledge: only claims of this kind"
+        },
+        "of": {
+          "enum": [
+            "events",
+            "stage"
+          ],
+          "description": "lifecycle"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "identity"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "field"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "lifecycle"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "of"
+            ]
+          }
+        }
+      ]
+    },
+    "section": {
+      "type": "object",
+      "required": [
+        "id",
+        "binds",
+        "cardinality",
+        "labels",
+        "evidence",
+        "empty",
+        "visibility"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "within": {
+          "$ref": "#/$defs/id",
+          "description": "the section it lies in; absent only for a top section of the frame"
+        },
+        "binds": {
+          "$ref": "#/$defs/binds"
+        },
+        "cardinality": {
+          "enum": [
+            "one",
+            "per-selected",
+            "per-family"
+          ],
+          "description": "per-selected: one instance element.<kind>.<slug> per record the commons selected; per-family: one instance <dimension>.<family> per family (R9)"
+        },
+        "labels": {
+          "$ref": "#/$defs/labels"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "a shared starting point, never a closed questionnaire"
+        },
+        "reads": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true,
+          "description": "the sections whose answers it presupposes"
+        },
+        "answers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim_kind"
+          },
+          "uniqueItems": true,
+          "description": "the claim kinds an answer takes; none for a computed section"
+        },
+        "evidence": {
+          "enum": [
+            "own-word",
+            "sourced",
+            "triangulated",
+            "computed"
+          ]
+        },
+        "empty": {
+          "enum": [
+            "question",
+            "absence"
+          ],
+          "description": "absence: a documented absence may answer it, on evidence"
+        },
+        "visibility": {
+          "$ref": "#/$defs/shell",
+          "description": "the outermost shell whose readers may see its answers"
+        }
+      }
+    }
+  }
+}

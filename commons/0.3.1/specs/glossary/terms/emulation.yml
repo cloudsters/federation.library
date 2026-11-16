@@ -1,0 +1,25 @@
+id: emulation
+term: Emulation
+layer: what
+kind: concept
+definition: A model a CORE holds to try beside its runtime, in `models/emulation/<name>/`, such as a future, an alternative,
+  a model in the making, the archive of an earlier runtime or another CORE's runtime brought in, changed freely and read
+  only by the shells SEED and CORE.
+why: Holger, 3 November 2026 (commons.o#109, comment 6599561846). A CORE holds any number; each names its origin, none is
+  evidence, and none is served further out than CORE. One leaves only by a release through a library's gate or by a change
+  of the runtime by decision, so a release is always cut from an emulation. An emulator runs a foreign system faithfully
+  inside another, as trying a runtime inside a world does; hence not simulation. A world is a whole CORE of its own, never
+  an emulation. In German, Emulation.
+relations:
+  is_a: model
+  made_by: build
+  released_by: release
+not:
+- simulation
+- a world, which is a CORE of its own
+- the retired GRAPH method kind of that name
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

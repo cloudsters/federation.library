@@ -1,0 +1,19 @@
+# generated from the release event of its source (library R3); never edited by hand
+kind: model
+model: commons
+library: commons-engineering
+version: 0.3.1
+made_in: Commons-Engineering/commons.core@1bc296ea47ef94a5e243fc20aa6e77167f3b0869
+event: Commons-Engineering/commons.core@1bc296ea47ef94a5e243fc20aa6e77167f3b0869:lifecycle/events/2026-11-15-release-commons-0.3.1.yml
+gate:
+  result: pass
+  check: Commons-Engineering/commons.core@1bc296e:specs/tools/check_library.py
+changed:
+- model
+parts:
+  model:
+    class: public
+    digest: sha256:eaf7d9fbb7c6a2cac07ef690df537d8baebaa01226ff82a041c45a241f7f94f3
+licence: LicenseRef-commons-engineering
+answers: cloudsters/federation.library
+renames: {}

@@ -1,0 +1,9 @@
+id: veto
+term: Veto
+layer: workshop
+kind: concept
+definition: The right a Decision names its holders for, to stop it by an objection reasoned from the purpose.
+why: A veto bound to the purpose protects what the commons is for without a stop for any reason; an agent holds none (flow R39, flow-bodies R18).
+relations:
+  part_of: decision
+status: draft

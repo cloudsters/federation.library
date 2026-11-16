@@ -1,0 +1,10 @@
+id: blueprint
+term: Blueprint
+layer: how
+kind: artefact
+definition: The building plan of a CORE, everything a commons wants to know about itself as sections along the model's frame, from which the CORE is built, researched, checked for coverage and grown, and from which views are derived together with its knowledge.
+why: A CORE grows from what it is asked; a plan that holds no answers keeps the answers in the records and knowledge, where they are evidenced, and lets every view be derived from one place.
+relations:
+  holds: section
+  part_of: commons-core
+status: draft

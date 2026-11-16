@@ -1,0 +1,441 @@
+# The frame of the plan (blueprint R2): the sections every commons is asked, the same in every commons.
+# A domain's layer and the commons' own add sections within these ids; neither removes or renames one.
+# Each family is one instance <dimension>.<family> of the section `family`; each selected record one instance
+# element.<kind>.<slug> of its element's section (blueprint R9). Questions are kept in English (core R23).
+sections:
+- id: identity
+  binds:
+    kind: identity
+    field: name
+  cardinality: one
+  labels:
+    en: Who the commons is
+  questions:
+  - 'What is the commons called, what kind is it, since when and where does it live, and in which form: legal, social or
+    familial?'
+  - Which languages does it live in?
+  - Where does its boundary run, and who belongs to it?
+  answers:
+  - fact
+  - self-description
+  evidence: sourced
+  empty: question
+  visibility: CORE
+- id: identity.cores
+  within: identity
+  binds:
+    kind: knowledge
+    about: identity.cores
+  cardinality: one
+  labels:
+    en: Where it decides and holds together
+  questions:
+  - Who decides for it, and to whom does what it holds belong?
+  - Where does it decide and hold together, and to which other commons is it bound, how and how strongly?
+  reads:
+  - identity
+  answers:
+  - fact
+  - self-description
+  evidence: sourced
+  empty: question
+  visibility: CORE
+- id: mandate
+  binds:
+    kind: knowledge
+    about: mandate
+  cardinality: one
+  labels:
+    en: What frames what it may do
+  questions:
+  - 'What frames what it may do and what it owes: which rights, duties, permits and rules?'
+  - Who watches over them?
+  reads:
+  - identity
+  answers:
+  - fact
+  evidence: sourced
+  empty: absence
+  visibility: CORE
+- id: purpose
+  binds:
+    kind: identity
+    field: purpose
+  cardinality: one
+  labels:
+    en: Purpose
+  questions:
+  - What is the commons for, in its own words?
+  - What does that mean in each dimension?
+  answers:
+  - self-description
+  evidence: own-word
+  empty: question
+  visibility: CORE
+- id: values
+  binds:
+    kind: knowledge
+    about: values
+    claim: self-description
+  cardinality: one
+  labels:
+    en: Values
+  questions:
+  - Which values does the commons live?
+  - How do they show in its practice?
+  reads:
+  - purpose
+  answers:
+  - self-description
+  evidence: own-word
+  empty: question
+  visibility: CORE
+- id: qualities
+  binds:
+    kind: knowledge
+    about: qualities
+  cardinality: one
+  labels:
+    en: The five qualities
+  questions:
+  - How systematic, alive, shared, just and built to last is it?
+  - What shows each?
+  reads:
+  - purpose
+  - values
+  answers:
+  - self-description
+  evidence: own-word
+  empty: question
+  visibility: CORE
+- id: situation
+  binds:
+    kind: knowledge
+    about: situation
+  cardinality: one
+  labels:
+    en: Where it stands
+  questions:
+  - 'Where does it stand in what it has and what it gives: people, time, means, health, reach?'
+  - 'How does it sustain itself: what comes in, what goes out, and what does it owe?'
+  reads:
+  - identity
+  answers:
+  - measure
+  - fact
+  evidence: sourced
+  empty: question
+  visibility: CORE
+- id: environment
+  binds:
+    kind: knowledge
+    about: environment
+  cardinality: one
+  labels:
+    en: Its environment
+  questions:
+  - What surrounds it, globally, regionally and locally, and which forces act on it?
+  - Who stands near it and who far, and where could its path branch?
+  reads:
+  - identity
+  answers:
+  - fact
+  - signal
+  - derived
+  evidence: triangulated
+  empty: question
+  visibility: OPEN
+- id: d0
+  binds:
+    kind: dimension
+    slug: d0
+  cardinality: one
+  labels:
+    en: D0 Perception & Identity
+  questions:
+  - How does the commons perceive itself and its surroundings, and what holds its mandate?
+  - Which of its families carry the commons here?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: d1
+  binds:
+    kind: dimension
+    slug: d1
+  cardinality: one
+  labels:
+    en: D1 Purpose & System
+  questions:
+  - How do purpose, setpoint, portfolio and architecture fit together?
+  - Which of its families carry the commons here?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: d2
+  binds:
+    kind: dimension
+    slug: d2
+  cardinality: one
+  labels:
+    en: D2 Participation & Relationship
+  questions:
+  - Who regulates the commons together, and how do people and agents take part?
+  - Which of its families carry the commons here?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: d3
+  binds:
+    kind: dimension
+    slug: d3
+  cardinality: one
+  labels:
+    en: D3 Proposition & Exchange
+  questions:
+  - What does the commons offer, and where does value cross its boundary?
+  - Which of its families carry the commons here?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: d4
+  binds:
+    kind: dimension
+    slug: d4
+  cardinality: one
+  labels:
+    en: D4 Production & Resilience
+  questions:
+  - How does it deliver, and how does it endure?
+  - Which of its families carry the commons here?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: family
+  binds:
+    kind: family
+  cardinality: per-family
+  labels:
+    en: The family
+  questions:
+  - Which streams of this family does the commons run, and which one carries it here?
+  - 'For the carrying stream: whom does it serve, on which journeys, at which touchpoints, exchanging what; with which steps,
+    capabilities, entities and solutions, and which Body answers for it?'
+  - What do we see in it, what could grow, and what threatens it?
+  - Who takes part in it, in which role and with which lens, and which loop keeps it true?
+  - How well does the commons do this, and how load-bearing is it here?
+  reads:
+  - purpose
+  answers:
+  - fact
+  - derived
+  - self-description
+  evidence: sourced
+  empty: question
+  visibility: CORE
+- id: element.stakeholder
+  binds:
+    kind: element
+    slug: stakeholder
+  cardinality: per-selected
+  labels:
+    en: Stakeholders
+  questions:
+  - For whom and with whom, human and non-human, does the commons create value?
+  - In which shell does each stand?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.journey
+  binds:
+    kind: element
+    slug: journey
+  cardinality: per-selected
+  labels:
+    en: Journeys
+  questions:
+  - Which needs do they pursue, step by step?
+  - Which steps matter most to them?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.touchpoint
+  binds:
+    kind: element
+    slug: touchpoint
+  cardinality: per-selected
+  labels:
+    en: Touchpoints
+  questions:
+  - Where do they meet the commons, and at which step?
+  - What is promised there?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.value-exchange
+  binds:
+    kind: element
+    slug: value-exchange
+  cardinality: per-selected
+  labels:
+    en: Value exchanges
+  questions:
+  - What is offered at each touchpoint?
+  - What returns?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.value-stream
+  binds:
+    kind: element
+    slug: value-stream
+  cardinality: per-selected
+  labels:
+    en: Value streams
+  questions:
+  - Which streams create the value, in which steps?
+  - Whom does each step serve?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.capability
+  binds:
+    kind: element
+    slug: capability
+  cardinality: per-selected
+  labels:
+    en: Capabilities
+  questions:
+  - What must the commons be able to do?
+  - Which Body holds each capability?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.entity
+  binds:
+    kind: element
+    slug: entity
+  cardinality: per-selected
+  labels:
+    en: Entities
+  questions:
+  - 'What does it hold and look after: things, places, information?'
+  - In which states, and with which relations?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.solution
+  binds:
+    kind: element
+    slug: solution
+  cardinality: per-selected
+  labels:
+    en: Solutions
+  questions:
+  - 'What carries its capabilities: tools, systems, services?'
+  - What would replace each?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: element.body
+  binds:
+    kind: element
+    slug: body
+  cardinality: per-selected
+  labels:
+    en: Bodies
+  questions:
+  - Who carries which mandate, in which circle and in which role?
+  - Who answers for each, and which Post is vacant?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: knowledge
+  binds:
+    kind: knowledge
+  cardinality: one
+  labels:
+    en: What we know
+  questions:
+  - What do we know, from which sources, and how surely?
+  - What is contested, and what is still open?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: lifecycle.path
+  binds:
+    kind: lifecycle
+    of: stage
+  cardinality: one
+  labels:
+    en: Where it comes from and where it is heading
+  questions:
+  - Where does it come from, and where is it heading?
+  - In which stage is it now?
+  evidence: computed
+  empty: question
+  visibility: CORE
+- id: lifecycle.history
+  within: lifecycle.path
+  binds:
+    kind: lifecycle
+    of: events
+  cardinality: one
+  labels:
+    en: What shaped it
+  questions:
+  - Which events shaped where it stands today?
+  - What did each change?
+  answers:
+  - fact
+  evidence: sourced
+  empty: question
+  visibility: CORE
+- id: lifecycle.near-future
+  within: lifecycle.path
+  binds:
+    kind: knowledge
+    about: lifecycle.near-future
+  cardinality: one
+  labels:
+    en: Its near future
+  questions:
+  - What must each stream become, and why?
+  - Which initiatives are under way, who answers for each, and by when?
+  - What comes next?
+  reads:
+  - environment
+  - situation
+  - family
+  answers:
+  - self-description
+  - derived
+  evidence: own-word
+  empty: question
+  visibility: CORE
+- id: lifecycle.futures
+  within: lifecycle.path
+  binds:
+    kind: worlds
+  cardinality: one
+  labels:
+    en: Its futures
+  questions:
+  - Which worlds does it hold?
+  - Which moves hold in every one of them?
+  reads:
+  - environment
+  evidence: computed
+  empty: absence
+  visibility: CORE
+- id: loops
+  binds:
+    kind: loop
+  cardinality: one
+  labels:
+    en: How it steers
+  questions:
+  - 'How does the commons keep itself on course: what is sensed, compared and turned into work?'
+  - Which loop is missing?
+  evidence: computed
+  empty: question
+  visibility: CORE

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "this-core": {
+      "command": "python",
+      "args": ["models/commons/commons-engineering/commons/specs/tools/mcp_server.py", ".", "--as", "account:ada"]
+    },
+    "federation": {
+      "type": "http",
+      "url": "https://mcp.cloudsters.net/federation"
+    }
+  }
+}

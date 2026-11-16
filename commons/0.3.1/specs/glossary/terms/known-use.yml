@@ -1,0 +1,14 @@
+id: known-use
+term: Known Use
+layer: how
+kind: concept
+definition: A place where a pattern is at work, from the research that names it or a graph run that finds it, with its source
+  and its date; a named one is served only by its class and never in a public release.
+why: 'A pattern is at work where a commons lives it. Named cases live in the graph with their sources and are served by visibility:
+  the research behind them is kept word for word in knowledge/known-uses/, since a graph finds only what was stored (Holger,
+  commons.core#110, comment 6865216725, K-a).'
+status: accepted
+decided:
+  date: '2026-11-13'
+  by: Holger
+  where: commons.core#110 6689408692 (KU-1) and 6865216725 (K-a), for Commons 0.3.0

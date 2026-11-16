@@ -1,0 +1,24 @@
+id: model
+term: Model
+layer: what
+kind: concept
+definition: 'Records and the loops that keep them true, in MODEL''s grammar; a CORE holds its models in `models/`: one runtime,
+  the models it installs and any number of emulations.'
+why: 'Holger, 3 November 2026 (commons.o#109, comment 6599561846) and 6602880861 (decision 1): a model regulates; its records
+  say where the commons is heading, and its loops compare what is sensed with them and return the difference as work. The
+  model, unqualified, means the CORE''s runtime. What a [domain].core makes for every commons of its kind, and what was
+  called an extension, is a model, released as a variant and installed whole; a model has no tiers (commons.o#110, comment
+  6626536835, T1). A model is named by its domain, such as commons, health, business, life, urban or place (commons.o#110,
+  comment 6627102753, N1). In German, Modell.'
+relations:
+  held_in: commons-core
+  released_as: variant
+not:
+- extension, its earlier word for what is released
+- the method kind of a machine-learning run (GRAPH, MCP)
+- evidence, which grounds a model and is never one
+status: draft
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

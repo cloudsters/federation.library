@@ -1,0 +1,21 @@
+# The tool library's own layer of its plan (blueprint R7, part 5): its own labels for three frame sections, and one
+# section of its own within the frame. It removes and renames nothing.
+sections:
+- id: tool-library.lending-rules
+  within: element.value-exchange
+  binds: {kind: knowledge, about: tool-library.lending-rules, claim: self-description}
+  cardinality: one
+  labels: {en: Lending rules}
+  questions:
+  - Who may borrow which tool, and for how long?
+  answers: [self-description]
+  evidence: own-word
+  empty: question
+  visibility: CORE
+faces:
+  d0.perception-to-mandate:
+    labels: {en: Who we are}
+  d4.demand-to-fulfillment:
+    labels: {en: How lending works}
+  lifecycle.path:
+    labels: {en: Where we are heading}

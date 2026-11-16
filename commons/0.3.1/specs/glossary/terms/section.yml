@@ -1,0 +1,9 @@
+id: section
+term: Section
+layer: how
+kind: artefact
+definition: One unit of a blueprint, asking its questions of one node of the commons and saying what answers them, when an answer counts, what its empty state means and who may see its answers.
+why: A CORE is built, researched, checked and grown section by section, so the unit must be the same for every tool and every reader.
+relations:
+  part_of: blueprint
+status: draft

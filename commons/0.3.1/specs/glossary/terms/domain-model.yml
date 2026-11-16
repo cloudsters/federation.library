@@ -1,0 +1,17 @@
+id: domain-model
+term: Domain model
+layer: what
+kind: concept
+definition: The model a [domain].core makes for every commons of its kind, released as one or more variants; the primary
+  of a commons is the domain model of its kind.
+why: 'It matches the ordinary sense of domain-driven design, a conceptual model of a domain. It names no artefact of its
+  own, which is a model: the Commons model is none. A domain model is a catalogue, every kind of record whole, and what
+  no step uses is no gap (commons.o#109, models note part 3.4). In German, Domänenmodell.'
+relations:
+  is_a: model
+  made_by: domain-core
+status: draft
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

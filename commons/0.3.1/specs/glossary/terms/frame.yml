@@ -1,0 +1,10 @@
+id: frame
+term: Frame
+layer: how
+kind: artefact
+definition: The sections every commons is asked, the same in every commons, laid out along the model's dimensions, families and elements; the first layer of a commons' blueprint.
+why: What every commons answers is asked once and in the same place, so every CORE stays comparable and no domain can redefine it.
+relations:
+  part_of: blueprint
+  holds: section
+status: draft

@@ -1,0 +1,22 @@
+id: runtime
+term: Runtime
+layer: what
+kind: concept
+definition: 'The one active model of a CORE, which the commons regulates itself by: its records, its loops and their state
+  in `models/runtime/`, changed only by decision.'
+why: 'Holger, 3 November 2026 (commons.o#109, comment 6599561846). It takes the place of the areas registry/ and operations/:
+  the commons'' records, the loops that keep them, and the runs of those loops in state/. In a world CORE, the runtime is
+  the commons as it would be in that world. Not the technical sense of an environment that executes code: its loops are
+  run by people and agents. The specifications say its runtime, never the commons'' own model. In German, Runtime.'
+relations:
+  is_a: model
+  made_by: build
+not:
+- registry, its earlier area
+- operations, its earlier area
+- the commons' own model
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

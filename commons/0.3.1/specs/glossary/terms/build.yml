@@ -1,0 +1,27 @@
+id: build
+term: Build
+layer: how
+kind: concept
+definition: 'The second act: to make the runtime or an emulation from the installed models and the CORE''s own records,
+  each record that comes from a model naming its origin.'
+why: 'Holger, 3 November 2026 (commons.o#109, comments 6602880861 and 6603162848): "bauen wir doch nun eine Runtime und
+  Emulations aus den Modellen des Commons", and build as the human word. Taking a record into the runtime and changing it
+  are one act, a change of the runtime made as work in the Model Workshop and merged by decision; an emulation is built
+  freely. What a record changes against its origin is derived, never listed, and what no record names stays on the shelf,
+  neither a gap nor a decision. A Model Builder builds. The specifications write build the runtime, never a build. In German,
+  bauen.'
+relations:
+  after: install
+  makes:
+  - runtime
+  - emulation
+  names: origin
+not:
+- activate, its earlier word for taking
+- adapt, as an act of its own
+- the provenance record, earlier called the build record
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda)'

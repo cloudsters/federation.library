@@ -62,3 +62,9 @@ releases:
   record: business/corporate/1.0.0/release.yml
   digest: sha256:f3f8f5bb0b743ae8421eb8a2597c985ccf7ad7cfbbf3288d12532b84207ea4be
   state: released
+- id: commons
+  kind: model
+  version: 0.3.1
+  record: commons/0.3.1/release.yml
+  digest: sha256:3f4fccd3424b7d2ac7540f9a4e6f92128678cb186457512f04dd1fecb96607d6
+  state: released

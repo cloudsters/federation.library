@@ -1,0 +1,20 @@
+id: loop
+term: Loop
+layer: how
+kind: concept
+definition: 'A record of a model that keeps one node true, carried by one Body on a rhythm: it senses, compares what it
+  senses with the record and returns the difference as work, a proposal or an escalation, never as a write into the record.'
+why: 'MODEL R1, decided by Holger on 3 November 2026 (commons.o#109, comment 6602880861): a model is records and the loops
+  that keep them true. A loop is a record kind beside the nine elements and the Post, with keeps, carried_by and rhythm.
+  It is built with what it keeps, its runs lie in the runtime''s state, and FLOW keeps how it meets the work. It closes
+  only when it is retired.'
+relations:
+  part_of: model
+  keeps_true: model
+  carried_by: body
+  raises: delta
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6626305178: Adopted 4 November 2026 (point 2), in its 0.4.0 wording (the merge 7a5fbda)'

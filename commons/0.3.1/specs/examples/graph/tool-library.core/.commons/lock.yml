@@ -1,0 +1,9 @@
+# generated: what this CORE installed
+specs:
+- path: specification.md
+  origin: Commons-Engineering/commons.o@1af343f:specs/specification.md
+  version: '2026-10-26'
+patterns:
+- path: commons-library
+  origin: Commons-Engineering/commons-library@v2026.11.0
+  record: sha256:05eaa7d98fb7cf2babcab67369b34d5a741558de16a1858a8046fd58a414034c

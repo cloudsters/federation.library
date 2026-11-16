@@ -1,0 +1,21 @@
+id: install
+term: Install
+layer: what
+kind: concept
+definition: 'The first act: to place a released model whole and read-only in `models/commons/<library>/<model>/`, checked
+  against its release''s digest; what its maker gives out as no copy is served through the MCP under a grant and never installed.'
+why: 'Holger, 3 November 2026 (commons.o#109, comment 6602880861) and 4 November 2026 (commons.o#110, comment 6626536835,
+  T1, a model has no tiers): the model is installed from the library. Installing writes nothing into the runtime, no tool
+  writes into an installed copy, and a newer release changes nothing until the commons takes it up by decision, which never
+  overwrites what the commons wrote. In German, installieren.'
+relations:
+  of: model
+  before: build
+not:
+- build
+- a copy of what a maker serves
+status: draft
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6626305178: Adopted 4 November 2026 (point 2), in its 0.4.0 wording (the merge 7a5fbda)'

@@ -1,0 +1,474 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "library.schema.json",
+  "title": "Commons LIBRARY: library.yml, and in $defs its index, its release records and their parts",
+  "type": "object",
+  "required": [
+    "id",
+    "holder"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "holder": {
+      "type": "string",
+      "minLength": 1
+    },
+    "withheld": {
+      "type": "array",
+      "description": "releases whose files the library no longer distributes; each record stays for the lineage (R4)",
+      "items": {
+        "type": "object",
+        "required": [
+          "release",
+          "from",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "release": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*(/[a-z0-9]+(-[a-z0-9]+)*)?@[^@\\s]+$",
+            "description": "<id>[/<variant>]@<version>, a variant named as `<model>/<variant>` (MODEL R30), the id `patterns` for an extract"
+          },
+          "from": {
+            "type": "string",
+            "format": "date"
+          },
+          "reason": {
+            "enum": [
+              "private-data",
+              "unauthorised",
+              "licence"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "ref": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+@[^\\s:@]+:.+$",
+      "description": "owner/repo@rev:path"
+    },
+    "commit": {
+      "type": "string",
+      "pattern": "^[^/@\\s]+/[^/@\\s]+@[0-9a-f]{7,40}$",
+      "description": "owner/repo@sha"
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "semver": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-rc\\.[0-9]+)?$"
+    },
+    "licence": {
+      "type": "string",
+      "pattern": "^(LicenseRef-[A-Za-z0-9.-]+|[A-Za-z0-9.+-]+)$"
+    },
+    "gate": {
+      "type": "object",
+      "required": [
+        "result",
+        "check"
+      ],
+      "properties": {
+        "result": {
+          "enum": [
+            "pass",
+            "fail"
+          ]
+        },
+        "check": {
+          "$ref": "#/$defs/pinned",
+          "description": "the checker that gave the result, at the commit it ran"
+        }
+      },
+      "additionalProperties": false
+    },
+    "retires": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "from"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "from": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "index": {
+      "type": "object",
+      "required": [
+        "releases"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "releases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "version",
+              "record",
+              "digest",
+              "state"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/id"
+              },
+              "variant": {
+                "$ref": "#/$defs/id"
+              },
+              "kind": {
+                "enum": [
+                  "model",
+                  "extract",
+                  "extension"
+                ]
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record": {
+                "type": "string",
+                "minLength": 1
+              },
+              "digest": {
+                "$ref": "#/$defs/digest"
+              },
+              "state": {
+                "enum": [
+                  "candidate",
+                  "released",
+                  "retired"
+                ]
+              },
+              "withheld": {
+                "type": "object",
+                "required": [
+                  "from",
+                  "reason"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "from": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "release": {
+      "type": "object",
+      "description": "a model's release record (library part 5); `extension` is the earlier value of `kind` and the earlier key of `model`",
+      "required": [
+        "kind",
+        "library",
+        "version",
+        "made_in",
+        "event",
+        "gate",
+        "changed",
+        "parts",
+        "licence",
+        "answers"
+      ],
+      "anyOf": [
+        {"required": ["model"]},
+        {"required": ["extension"]}
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "model",
+            "extension"
+          ]
+        },
+        "variant": {
+          "$ref": "#/$defs/id",
+          "description": "for a variant: its name (model R30)"
+        },
+        "model": {
+          "$ref": "#/$defs/id"
+        },
+        "extension": {
+          "$ref": "#/$defs/id",
+          "description": "the earlier key of `model`"
+        },
+        "written_in": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+/commons@[0-9]+[.][0-9]+[.][0-9]+(-rc[.][0-9]+)?$",
+          "description": "the Commons model it is written in, <library>/commons@<version>, generated from the maker's lock; a grammar, no model it stands on"
+        },
+        "source": {
+          "type": "string",
+          "description": "the emulation it was cut from, owner/repo@commit:models/emulation/<name> (R19)"
+        },
+        "library": {
+          "$ref": "#/$defs/id"
+        },
+        "version": {
+          "$ref": "#/$defs/semver"
+        },
+        "made_in": {
+          "$ref": "#/$defs/commit"
+        },
+        "event": {
+          "type": "string",
+          "pattern": "^[^/@\\s]+/[^/@\\s]+@[0-9a-f]{7,40}:lifecycle/events/.+\\.ya?ml$"
+        },
+        "gate": {
+          "$ref": "#/$defs/gate"
+        },
+        "changed": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "model",
+              "essentials",
+              "enhanced"
+            ]
+          }
+        },
+        "renames": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "parts": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/parts"
+            },
+            {
+              "anyOf": [
+                {
+                  "required": [
+                    "model"
+                  ]
+                },
+                {
+                  "required": [
+                    "essentials"
+                  ]
+                }
+              ],
+              "description": "its one part `model`; `essentials` its earlier name, an earlier `enhanced` part history (part 5)"
+            }
+          ]
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "retires": {
+          "$ref": "#/$defs/retires"
+        },
+        "profile": {
+          "enum": [
+            "offer",
+            "specifications"
+          ],
+          "description": "retired with 0.4.0, every model having one form of bill; read in a record released before it"
+        },
+        "answers": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$",
+          "description": "the board where answers about the release go, owner/repo (R3)"
+        }
+      }
+    },
+    "cut_count": {
+      "type": "object",
+      "required": [
+        "stock",
+        "archived",
+        "left_out",
+        "cut"
+      ],
+      "properties": {
+          "stock": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "archived": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "left_out": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cut": {
+            "type": "integer",
+            "minimum": 0
+          }
+      }
+    },
+    "extract": {
+      "type": "object",
+      "required": [
+        "kind",
+        "library",
+        "version",
+        "made_in",
+        "event",
+        "gate",
+        "graph_run",
+        "extractor",
+        "policy",
+        "scope",
+        "digest",
+        "licence",
+        "parts",
+        "answers"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "extract"
+        },
+        "library": {
+          "$ref": "#/$defs/id"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^v[0-9]{4}\\.[0-9]{1,2}\\.[0-9]+(-rc\\.[0-9]+)?$"
+        },
+        "made_in": {
+          "$ref": "#/$defs/commit"
+        },
+        "event": {
+          "type": "string",
+          "pattern": "^[^/@\\s]+/[^/@\\s]+@[0-9a-f]{7,40}:lifecycle/events/.+\\.ya?ml$"
+        },
+        "gate": {
+          "$ref": "#/$defs/gate"
+        },
+        "graph_run": {
+          "type": "string",
+          "minLength": 1
+        },
+        "extractor": {
+          "$ref": "#/$defs/ref"
+        },
+        "policy": {
+          "$ref": "#/$defs/ref"
+        },
+        "scope": {
+          "const": "orbits 0-3"
+        },
+        "count": {
+          "description": "the cut counted: the stock read, the archived, the others left out and the patterns cut, in all and by folder, stock = archived + left_out + cut (library-patterns R17)",
+          "allOf": [
+            {
+              "$ref": "#/$defs/cut_count"
+            },
+            {
+              "required": [
+                "by_folder"
+              ],
+              "properties": {
+                "by_folder": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/$defs/cut_count"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "digest": {
+          "$ref": "#/$defs/digest"
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "retires": {
+          "$ref": "#/$defs/retires"
+        },
+        "parts": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/parts"
+            },
+            {
+              "required": [
+                "patterns"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$",
+          "description": "the board where answers about the release go, owner/repo (R3)"
+        }
+      }
+    },
+    "pinned": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9-]+/[A-Za-z0-9._-]+@[0-9a-f]{7,40}:.+$",
+      "description": "owner/repo@sha:path, an immutable revision"
+    },
+    "parts": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "each part with its visibility class and the digest of its files; the copy holds its one public part, every other part is held where it is served",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "class",
+          "digest"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "class": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "description": "public, member, or a class the library's policy defines"
+          },
+          "digest": {
+            "$ref": "#/$defs/digest",
+            "description": "sha256 over the part's files but the record, path by path"
+          }
+        }
+      }
+    }
+  }
+}

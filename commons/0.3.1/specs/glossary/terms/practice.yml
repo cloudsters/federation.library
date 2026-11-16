@@ -1,0 +1,19 @@
+id: practice
+term: Practice
+layer: how
+kind: concept
+definition: One of the ways of working of the discipline Commons Engineering, each written in the specification of its name,
+  some with a component of the same name and the others applying across.
+why: Discipline names Commons Engineering alone; its parts are practices. No count of practices is written anywhere (Holger,
+  commons.o#109, comment 6600437483), and EXTENSION dissolves into MODEL, CORE, CORE-KNOWLEDGE and LIBRARY with structure
+  0.4.0 (6603340647).
+relations:
+  part_of: commons-engineering
+not:
+- discipline (for one of them)
+status: accepted
+decided:
+  date: '2026-11-04'
+  by: Holger
+  where: 'commons.o#110, comment 6625957149: Adopted 4 November 2026 with structure 0.4.0 (the merge 7a5fbda); earlier 2026-10-29,
+    commons.o#98, comment 6505618412: Adopted 29 October 2026 (the merge of commons.o#100)'
